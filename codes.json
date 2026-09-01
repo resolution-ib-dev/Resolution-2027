@@ -1,0 +1,14 @@
+{
+  "_regle": "Un code par entrée. `cle` est le libellé exact employé par l'appareil Résolution — celui de la table CODES de cles_eval_gl.py et des sorties de vecteur-mesure. `legitext` est l'identifiant Légifrance du code. Ajouter un code se fait ici et nulle part ailleurs.",
+  "_releve_le": "20260901",
+  "codes": [
+    { "cle": "code général des impôts", "legitext": "LEGITEXT000006069577", "court": "cgi" },
+    { "cle": "code des impositions sur les biens et services", "legitext": "LEGITEXT000044595989", "court": "cibs" },
+    { "cle": "code de la sécurité sociale", "legitext": "LEGITEXT000006073189", "court": "css" },
+    { "cle": "code général des collectivités territoriales", "legitext": "LEGITEXT000006070633", "court": "cgct" },
+    { "cle": "code du travail", "legitext": "LEGITEXT000006072050", "court": "travail" },
+    { "cle": "code de la construction et de l'habitation", "legitext": "LEGITEXT000006074096", "court": "cch" },
+    { "cle": "code de l'environnement", "legitext": "LEGITEXT000006074220", "court": "environnement" },
+    { "cle": "livre des procédures fiscales", "legitext": "LEGITEXT000006069583", "court": "lpf" }
+  ]
+}
