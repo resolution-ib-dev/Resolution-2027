@@ -1,0 +1,74 @@
+name: Rafraîchir le droit en vigueur
+
+# Trois déclenchements : à la main, le 1er de chaque mois, et à toute
+# modification de la liste des codes.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 1 * *"
+  push:
+    paths:
+      - "codes.json"
+      - "extraire_legi.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: droit
+  cancel-in-progress: false
+
+jobs:
+  extraire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Faire de la place
+        run: |
+          df -h /
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc || true
+          df -h /
+
+      - name: Extraire les codes de la base LEGI
+        env:
+          DATE_EXTRACTION: ${{ github.run_started_at }}
+        run: python3 extraire_legi.py
+
+      - name: Contrôle — l'extrait se relit
+        run: |
+          python3 droit.py etat
+          python3 droit.py article "code général des impôts" 279 | head -20
+          python3 droit.py article "code de la sécurité sociale" "L. 136-8" | head -12
+
+      - name: Verser
+        run: |
+          git config user.name  "action droit"
+          git config user.email "action@users.noreply.github.com"
+          git add -A data/
+          if git diff --cached --quiet; then
+            echo "aucun changement"
+          else
+            git commit -m "droit : millésime LEGI $(python3 -c "import json;print(json.load(open('data/_manifeste.json'))['millesime_legi'])")"
+            git push
+          fi
+
+      - name: Diagnostic en cas d'échec
+        if: failure()
+        run: |
+          echo "--- data/_diagnostic.json ---"
+          cat data/_diagnostic.json 2>/dev/null || echo "aucun diagnostic écrit"
+
+      - name: Garder le diagnostic
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic
+          path: data/_diagnostic.json
+          if-no-files-found: ignore
