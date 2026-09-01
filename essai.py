@@ -40,6 +40,24 @@ def fixture():
     assert s.get("LEGIARTI000006308922", "").endswith("Cotisation"), s
     print("parseur LEGI : article et structure lus.")
 
+    # classement des archives de l'index DILA, sans réseau
+    INDEX = b"""<html><body>
+      <a href="DILA_LEGI_Presentation.pdf">doc</a>
+      <a href="Freemium_legi_global_20260615-103000.tar.gz">complete</a>
+      <a href="Freemium_legi_global_20251201-090000.tar.gz">vieille complete</a>
+      <a href="LEGI_20260828-035000.tar.gz">j1</a>
+      <a href="LEGI_20260831-035000.tar.gz">j2</a>
+      <a href="LEGI_20260101-035000.tar.gz">avant la complete</a>
+    </body></html>"""
+    X.recuperer = lambda url, timeout=300: INDEX
+    urls, millesime = X.resoudre_archives()
+    noms = [u.split("/")[-1] for u in urls]
+    assert noms == ["Freemium_legi_global_20260615-103000.tar.gz",
+                    "LEGI_20260828-035000.tar.gz",
+                    "LEGI_20260831-035000.tar.gz"], noms
+    assert millesime == "20260831", millesime
+    print("index DILA : complète la plus récente, journalières postérieures dans l'ordre.")
+
     lignes = [
         dict(a, code="code général des impôts", section=s["LEGIARTI000006308922"]),
         {"id": "LEGIARTI000000000002", "num": "279", "etat": "VIGUEUR",
@@ -106,7 +124,7 @@ if __name__ == "__main__":
     try:
         fixture()
         exercer()
-        print("\nÉPREUVE PASSÉE — 7 contrôles.")
+        print("\nÉPREUVE PASSÉE — 8 contrôles.")
         r = subprocess.run([sys.executable, str(RACINE / "droit.py"), "etat"],
                            capture_output=True, text=True)
         print("\n$ droit.py etat\n" + r.stdout.strip())

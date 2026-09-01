@@ -30,13 +30,24 @@ RACINE = pathlib.Path(__file__).parent
 DATA = RACINE / "data"
 DATA.mkdir(exist_ok=True)
 
-# Le jeu de données LEGI sur data.gouv.fr. On passe par l'API du portail plutôt
-# que par une adresse de fichier en dur : les noms d'archives portent un
-# horodatage et changent à chaque publication.
-DATASET = "legi-codes-lois-et-reglements-consolides"
-API = f"https://www.data.gouv.fr/api/1/datasets/{DATASET}/"
+# Le dépôt ouvert de la DILA. La fiche data.gouv.fr ne porte pas de fichier :
+# sa ressource « base LEGI » est ce répertoire, qu'il faut lire soi-même.
+# Constaté le 20260901 — trois ressources, aucune archive directe.
+BASE = "https://echanges.dila.gouv.fr/OPENDATA/LEGI/"
 
-AGENT = {"User-Agent": "resolution-droit/1.0 (+chantier Resolution)"}
+AGENT = {"User-Agent": "Mozilla/5.0 (compatible; resolution-droit/2.0)"}
+
+# Une archive complète porte « global » dans son nom ; les autres sont les
+# livraisons journalières, qui s'appliquent par-dessus dans l'ordre du temps.
+# Le motif n'est pas présumé : on lit l'index et on classe ce qu'on y trouve.
+RE_ARCHIVE = re.compile(r'href="([^"]+\.tar\.gz)"', re.I)
+RE_HORODATAGE = re.compile(r"(20\d{6})[-_](\d{6})")
+
+
+def recuperer(url, timeout=300):
+    req = urllib.request.Request(url, headers=AGENT)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read()
 
 
 def journal(*a):
@@ -47,38 +58,59 @@ def journal(*a):
 # 1. Trouver l'archive
 
 
-def resoudre_archive():
-    """Rend (url, titre) de l'archive LEGI complète la plus récente."""
-    req = urllib.request.Request(API, headers=AGENT)
-    with urllib.request.urlopen(req, timeout=120) as r:
-        meta = json.load(r)
+def horodatage(nom):
+    m = RE_HORODATAGE.search(nom)
+    return m.group(1) + m.group(2) if m else ""
 
-    ressources = meta.get("resources", [])
-    journal(f"jeu de données : {meta.get('title')} — {len(ressources)} ressource(s)")
 
-    def horodatage(r):
-        m = re.search(r"(20\d{6})", (r.get("title") or "") + " " + (r.get("url") or ""))
-        return m.group(1) if m else ""
+def resoudre_archives(max_journalieres=800):
+    """Rend (liste d'URL dans l'ordre d'application, millésime).
 
-    # On veut un dump COMPLET (« Freemium_legi_global » ou titre portant
-    # « global »), jamais un incrémental journalier.
-    complets = [
-        r for r in ressources
-        if re.search(r"\.tar\.gz$|\.tgz$", r.get("url", ""), re.I)
-        and re.search(r"global|complet|full", (r.get("title", "") + r.get("url", "")), re.I)
-    ]
-    if not complets:
-        complets = [r for r in ressources if re.search(r"\.tar\.gz$|\.tgz$", r.get("url", ""), re.I)]
+    La base complète est remplacée une ou deux fois l'an ; les livraisons
+    journalières portent le delta. Prendre la complète seule laisserait le
+    droit vieux de plusieurs mois — on applique donc la complète, puis toutes
+    les journalières postérieures, dans l'ordre. Une version d'article plus
+    récente écrase la précédente par son identifiant.
+    """
+    try:
+        html = recuperer(BASE, timeout=120).decode("utf-8", "replace")
+    except Exception as e:
+        diagnostic({"motif": "index de la DILA illisible", "base": BASE, "erreur": repr(e)})
+        sys.exit(f"ÉCHEC — index DILA illisible : {e!r}. Voir data/_diagnostic.json.")
 
-    if not complets:
-        diagnostic({"motif": "aucune archive tar.gz dans le jeu de données",
-                    "ressources": [{"titre": r.get("title"), "url": r.get("url")} for r in ressources[:40]]})
-        sys.exit("ÉCHEC — aucune archive exploitable. Voir data/_diagnostic.json.")
+    noms = RE_ARCHIVE.findall(html)
+    noms = [n.split("/")[-1] for n in noms]
+    noms = sorted(set(n for n in noms if n.endswith(".tar.gz")))
+    journal(f"index DILA : {len(noms)} archive(s) listée(s)")
 
-    complets.sort(key=horodatage, reverse=True)
-    choisie = complets[0]
-    journal(f"archive retenue : {choisie.get('title')} — {choisie.get('url')}")
-    return choisie["url"], (horodatage(choisie) or "inconnu")
+    if not noms:
+        diagnostic({"motif": "aucune archive .tar.gz dans l'index",
+                    "base": BASE, "extrait_html": html[:4000]})
+        sys.exit("ÉCHEC — aucune archive dans l'index. Voir data/_diagnostic.json.")
+
+    completes = [n for n in noms if "global" in n.lower()]
+    if not completes:
+        diagnostic({"motif": "aucune archive complète repérée — le mot « global » ne figure "
+                             "dans aucun nom ; le classement complet/journalier est à revoir",
+                    "base": BASE, "archives_listees": noms[:60]})
+        sys.exit("ÉCHEC — archive complète non repérée. Voir data/_diagnostic.json.")
+
+    completes.sort(key=horodatage)
+    pleine = completes[-1]
+    seuil = horodatage(pleine)
+
+    journalieres = sorted(
+        (n for n in noms if "global" not in n.lower() and horodatage(n) > seuil),
+        key=horodatage)
+    if len(journalieres) > max_journalieres:
+        diagnostic({"motif": "trop de livraisons journalières à appliquer",
+                    "complete": pleine, "journalieres": len(journalieres)})
+        sys.exit("ÉCHEC — trop de journalières. Voir data/_diagnostic.json.")
+
+    journal(f"complète : {pleine}")
+    journal(f"journalières postérieures : {len(journalieres)}")
+    millesime = (horodatage(journalieres[-1]) if journalieres else seuil)[:8]
+    return [BASE + n for n in [pleine] + journalieres], millesime
 
 
 # --------------------------------------------------------------------------
@@ -163,46 +195,64 @@ def lire_structure(donnees):
     return chemins
 
 
-def balayer(url, cibles):
-    """cibles : {LEGITEXT: court}. Rend articles et sections par code."""
+def balayer(urls, cibles):
+    """cibles : {LEGITEXT: court}. Balaie les archives dans l'ordre reçu.
+
+    Une archive postérieure écrase par identifiant ce qu'une antérieure a
+    posé : c'est ainsi que les livraisons journalières mettent à jour la base
+    complète, y compris quand un article passe de VIGUEUR à ABROGE.
+    """
     articles = defaultdict(dict)   # court -> {id: dict}
     sections = defaultdict(dict)   # court -> {id: chemin}
     echantillon = []
-    vus = 0
+    total = 0
 
-    req = urllib.request.Request(url, headers=AGENT)
-    with urllib.request.urlopen(req, timeout=1800) as flux:
-        with tarfile.open(fileobj=flux, mode="r|gz") as tar:
-            for membre in tar:
-                if not membre.isfile() or not membre.name.endswith(".xml"):
-                    continue
-                vus += 1
-                if vus % 200000 == 0:
-                    journal(f"  {vus} fichiers balayés…")
-                if len(echantillon) < 25 and "LEGITEXT" in membre.name:
-                    echantillon.append(membre.name)
+    for rang, url in enumerate(urls, 1):
+        vus = touches = 0
+        try:
+            req = urllib.request.Request(url, headers=AGENT)
+            with urllib.request.urlopen(req, timeout=3600) as flux:
+                with tarfile.open(fileobj=flux, mode="r|gz") as tar:
+                    for membre in tar:
+                        if not membre.isfile() or not membre.name.endswith(".xml"):
+                            continue
+                        vus += 1
+                        if len(echantillon) < 25 and "LEGITEXT" in membre.name:
+                            echantillon.append(membre.name)
 
-                court = None
-                for legitext, c in cibles.items():
-                    if legitext in membre.name:
-                        court = c
-                        break
-                if court is None:
-                    continue
+                        court = None
+                        for legitext, c in cibles.items():
+                            if legitext in membre.name:
+                                court = c
+                                break
+                        if court is None:
+                            continue
 
-                f = tar.extractfile(membre)
-                if f is None:
-                    continue
-                donnees = f.read()
+                        f = tar.extractfile(membre)
+                        if f is None:
+                            continue
+                        donnees = f.read()
+                        touches += 1
 
-                if b"<LIEN_ART" in donnees or b"<STRUCT" in donnees:
-                    sections[court].update(lire_structure(donnees))
-                if b"<ARTICLE" in donnees:
-                    a = lire_article(donnees)
-                    if a:
-                        articles[court][a["id"]] = a
+                        if b"<LIEN_ART" in donnees:
+                            sections[court].update(lire_structure(donnees))
+                        if b"<ARTICLE" in donnees:
+                            a = lire_article(donnees)
+                            if a:
+                                articles[court][a["id"]] = a
+        except Exception as e:
+            # Une journalière illisible ne doit pas perdre le travail déjà fait ;
+            # la complète, si.
+            if rang == 1:
+                diagnostic({"motif": "archive complète illisible", "url": url, "erreur": repr(e)})
+                sys.exit(f"ÉCHEC — archive complète illisible : {e!r}.")
+            journal(f"  [{rang}/{len(urls)}] ILLISIBLE, ignorée : {url.split('/')[-1]} — {e!r}")
+            continue
 
-    journal(f"balayage terminé : {vus} fichiers XML")
+        total += vus
+        journal(f"  [{rang}/{len(urls)}] {url.split('/')[-1]} — {vus} XML, {touches} retenus")
+
+    journal(f"balayage terminé : {total} fichiers XML sur {len(urls)} archive(s)")
     return articles, sections, echantillon
 
 
@@ -237,21 +287,21 @@ def main():
     cibles = {c["legitext"]: c["court"] for c in cfg["codes"]}
     libelles = {c["court"]: c["cle"] for c in cfg["codes"]}
 
-    url, millesime = resoudre_archive()
-    articles, sections, echantillon = balayer(url, cibles)
+    urls, millesime = resoudre_archives()
+    articles, sections, echantillon = balayer(urls, cibles)
 
     vides = [libelles[c] for c in libelles if not articles.get(c)]
     if vides:
         diagnostic({
             "motif": "codes sans aucun article extrait",
             "codes_vides": vides,
-            "archive": url,
+            "archives": urls[:3] + (["…"] if len(urls) > 3 else []),
             "echantillon_de_chemins": echantillon,
             "comptes": {libelles[c]: len(articles.get(c, {})) for c in libelles},
         })
         sys.exit("ÉCHEC — " + ", ".join(vides) + ". Voir data/_diagnostic.json.")
 
-    manifeste = {"millesime_legi": millesime, "archive": url,
+    manifeste = {"millesime_legi": millesime, "archives": len(urls), "archive": urls[0],
                  "extrait_le": os.environ.get("DATE_EXTRACTION", ""), "codes": {}}
     for court, cle in libelles.items():
         en_vigueur = {i: a for i, a in articles[court].items() if a["etat"].upper() == "VIGUEUR"}
