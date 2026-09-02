@@ -13,6 +13,7 @@ Sortie, un fichier par code : data/<court>.jsonl.gz, une ligne par article.
   {id, num, code, etat, date_debut, date_fin, section, texte}
 Plus data/_manifeste.json : millésime du dump, comptes, empreintes.
 """
+import datetime
 import gzip
 import hashlib
 import io
@@ -312,6 +313,33 @@ def balayer(urls, cibles):
 # 3. Écrire
 
 
+FIN_OUVERTE = ("2999-01-01", "", None)
+
+
+def applicable(a, jour):
+    """Vrai si cette version s'applique le jour dit.
+
+    **L'état ne décide pas, l'intervalle de dates décide.** LEGI marque
+    `ABROGE_DIFF` une version qui s'applique aujourd'hui et dont l'abrogation
+    est programmée : filtrer sur `VIGUEUR` jetait ces articles-là. Le CGI en
+    porte 375, dont tout le bloc TVA, et c'est ce qui a fait disparaître
+    l'article 279 de deux extraits successifs.
+    """
+    d = a.get("date_debut") or ""
+    f = a.get("date_fin") or ""
+    if d and d > jour:
+        return False
+    if f and f not in FIN_OUVERTE and f <= jour:
+        return False
+    return True
+
+
+def a_venir(a, jour):
+    """Version dont l'application commence après le jour dit."""
+    d = a.get("date_debut") or ""
+    return bool(d) and d > jour
+
+
 def diagnostic(charge):
     (DATA / "_diagnostic.json").write_text(
         json.dumps(charge, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -340,6 +368,8 @@ def main():
     libelles = {c["court"]: c["cle"] for c in cfg["codes"]}
 
     temoins = {c["court"]: c.get("temoin") for c in cfg["codes"]}
+    jour = datetime.date.today().isoformat()
+    journal(f"jour de référence : {jour}")
 
     urls, millesime = resoudre_archives()
     articles, sections, echantillon, echecs, exemples, chemins = balayer(urls, cibles)
@@ -378,7 +408,7 @@ def main():
         for a in articles[court].values():
             par_num[num_normal(a["num"])].append(a)
         cible = par_num.get(num_normal(t), [])
-        if any(a["etat"].upper() == "VIGUEUR" for a in cible):
+        if any(applicable(a, jour) for a in cible):
             continue
         manquants.append(f"{cle} : témoin « {t} » absent")
         # Tout ce qu'il faut pour trancher sans relancer : le témoin est-il là
@@ -408,18 +438,28 @@ def main():
                     "comptes": {libelles[c]: len(articles[c]) for c in libelles}})
         sys.exit("ÉCHEC — " + " ; ".join(manquants) + ". Voir data/_diagnostic.json.")
 
-    manifeste = {"millesime_legi": millesime, "archives": len(urls), "archive": urls[0],
+    manifeste = {"millesime_legi": millesime, "jour_de_reference": jour,
+                 "archives": len(urls), "archive": urls[0],
                  "extrait_le": os.environ.get("DATE_EXTRACTION", ""), "codes": {}}
     for court, cle in libelles.items():
-        tous = articles[court]
-        manifeste["codes"][cle] = ecrire(court, cle, tous, sections.get(court, {}))
+        # On garde ce qui s'applique aujourd'hui et ce qui s'appliquera ;
+        # l'historique périmé ne sert à rien à un rédacteur d'amendement et il
+        # multiplierait le dépôt par dix.
+        vivants = {i: a for i, a in articles[court].items()
+                   if applicable(a, jour) or a_venir(a, jour)}
+        manifeste["codes"][cle] = ecrire(court, cle, vivants, sections.get(court, {}))
         manifeste["codes"][cle]["court"] = court
-        vig = sum(1 for a in tous.values() if a["etat"].upper() == "VIGUEUR")
-        manifeste["codes"][cle]["en_vigueur"] = vig
-        manifeste["codes"][cle]["etats"] = dict(Counter(a["etat"] for a in tous.values()))
+        app = sum(1 for a in vivants.values() if applicable(a, jour))
+        prog = sum(1 for a in vivants.values()
+                   if applicable(a, jour) and a.get("date_fin") not in FIN_OUVERTE)
+        manifeste["codes"][cle]["applicables"] = app
+        manifeste["codes"][cle]["a_venir"] = len(vivants) - app
+        manifeste["codes"][cle]["fin_programmee"] = prog
+        manifeste["codes"][cle]["etats"] = dict(Counter(a["etat"] for a in vivants.values()))
         manifeste["codes"][cle]["sections_rattachees"] = sum(
-            1 for i in tous if sections.get(court, {}).get(i))
-        journal(f"  {cle} : {vig} en vigueur sur {len(tous)} versions retenues")
+            1 for i in vivants if sections.get(court, {}).get(i))
+        journal(f"  {cle} : {app} applicables ({prog} à fin programmée), "
+                f"{len(vivants) - app} à venir, sur {len(articles[court])} versions")
 
     (DATA / "_manifeste.json").write_text(
         json.dumps(manifeste, ensure_ascii=False, indent=2), encoding="utf-8")

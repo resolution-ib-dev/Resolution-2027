@@ -106,21 +106,45 @@ def fraicheur(seuil_jours=45):
     return mil, age, age > seuil_jours
 
 
-def article(code, num, tout=False):
-    """Rend l'article en vigueur. Lève si absent. Ne rend jamais un voisin."""
+def applicable(a, jour=None):
+    """Vrai si cette version s'applique le jour dit.
+
+    **C'est l'intervalle de dates qui décide, jamais l'état.** LEGI marque
+    `ABROGE_DIFF` une version qui s'applique aujourd'hui et dont l'abrogation
+    est déjà votée : l'article 279 du code général des impôts est dans ce cas,
+    applicable et abrogé au 1er janvier 2027. Filtrer sur `VIGUEUR` l'aurait
+    fait passer pour absent — c'est arrivé deux fois.
+    """
+    jour = jour or str(date.today())
+    d, f = a.get("date_debut") or "", a.get("date_fin") or ""
+    if d and d > jour:
+        return False
+    if f and f not in FIN_OUVERTE and f <= jour:
+        return False
+    return True
+
+
+def article(code, num, jour=None, tout=False):
+    """Rend la version applicable. Lève si absente. Ne rend jamais un voisin."""
+    jour = jour or str(date.today())
     index = charger(code)
     trouves = index.get(norm_num(num), [])
+    if tout:
+        return trouves
     if not trouves:
         raise LookupError(f"{code}, article {num} : absent de l'extrait. "
                           "Vérifier le numéro ou le code — aucune approximation.")
-    vivants = [a for a in trouves
-               if a.get("etat", "").upper() == "VIGUEUR"
-               and (a.get("date_fin") in FIN_OUVERTE or a.get("date_fin", "") >= str(date.today()))]
-    if tout:
-        return trouves
+    vivants = [a for a in trouves if applicable(a, jour)]
     if not vivants:
+        futurs = sorted((a for a in trouves if (a.get("date_debut") or "") > jour),
+                        key=lambda a: a["date_debut"])
+        if futurs:
+            raise LookupError(
+                f"{code}, article {num} : aucune version applicable au {jour}. "
+                f"Une version entre en vigueur le {futurs[0]['date_debut']} "
+                f"({futurs[0]['id']}). Ne pas rédiger sur un texte non encore applicable.")
         etats = ", ".join(sorted({a.get("etat", "?") for a in trouves}))
-        raise LookupError(f"{code}, article {num} : aucune version en vigueur "
+        raise LookupError(f"{code}, article {num} : aucune version applicable au {jour} "
                           f"(états portés : {etats}). Ne pas rédiger dessus.")
     vivants.sort(key=lambda a: a.get("date_debut", ""), reverse=True)
     return vivants[0]
@@ -133,7 +157,7 @@ def chercher(code, motif, limite=40):
     sortie = []
     for arts in index.values():
         for a in arts:
-            if a.get("etat", "").upper() != "VIGUEUR":
+            if not applicable(a):
                 continue
             if m in _sans_accent(a.get("section", "")) or m in _sans_accent(a.get("num", "")):
                 sortie.append(a)
@@ -144,14 +168,20 @@ def chercher(code, motif, limite=40):
 def rendre(a, avec_texte=True):
     """Le gabarit de l'étape 1 de redaction-legistique — jamais de texte nu."""
     mil, age, perime = fraicheur()
-    entete = (f"### Article {a['num']} [{a['code']}]\n"
-              f"Version en vigueur depuis le {a.get('date_debut') or '[non porté]'}"
-              + (f", fin de vigueur {a['date_fin']}" if a.get("date_fin") not in FIN_OUVERTE else "")
-              + f"\nIdentifiant : {a['id']}\n"
+    lignes = [f"### Article {a['num']} [{a['code']}]",
+              f"Version applicable depuis le {a.get('date_debut') or '[non porté]'}",
+              f"Identifiant : {a['id']}   état LEGI : {a.get('etat', '?')}",
               f"Source : base LEGI, millésime {mil}"
-              + (f" — extrait vieux de {age} j, À REJOUER" if perime else "")
-              + (f"\nSection : {a['section']}" if a.get("section") else ""))
-    return entete + ("\n\n" + a["texte"] if avec_texte else "")
+              + (f" — extrait vieux de {age} j, À REJOUER" if perime else "")]
+    if a.get("section"):
+        lignes.append(f"Section : {a['section']}")
+    # Un article dont la disparition est déjà votée ne se laisse pas amender en
+    # silence : le rédacteur doit le savoir avant d'écrire, pas après le dépôt.
+    if a.get("date_fin") not in FIN_OUVERTE:
+        lignes.append(f"AVERTISSEMENT — cette version cesse de s'appliquer le "
+                      f"{a['date_fin']} (état {a.get('etat', '?')}). "
+                      "Vérifier ce que le texte devient à cette date avant de rédiger.")
+    return "\n".join(lignes) + ("\n\n" + a["texte"] if avec_texte else "")
 
 
 # --------------------------------------------------------------------------
@@ -170,7 +200,7 @@ def verifier(adresses):
                 a = article(bloc["code"], num)
                 lignes.append((bloc["code"], str(num), "trouvé", a["id"], a.get("date_debut", "")))
             except LookupError as e:
-                verdict = "abrogé" if "en vigueur" in str(e) else "absent"
+                verdict = "absent" if "absent de l'extrait" in str(e) else "inapplicable"
                 lignes.append((bloc["code"], str(num), verdict, "", ""))
             except (KeyError, FileNotFoundError) as e:
                 lignes.append((bloc.get("code", "?"), str(num), "erreur", str(e)[:60], ""))
@@ -192,9 +222,10 @@ def main(argv):
         print(f"millésime LEGI {mil}" + (f" — {age} j" if age is not None else "")
               + ("  PÉRIMÉ, rejouer l'action" if perime else "  frais"))
         for cle, info in m["codes"].items():
-            print(f"  {cle:<48} {info['articles']:>6} art.  "
-                  f"{info['sections_rattachees']:>6} avec section  "
-                  f"{info['octets']/1e6:>6.1f} Mo")
+            print(f"  {cle:<46} {info.get('applicables', info['articles']):>6} appl.  "
+                  f"{info.get('fin_programmee', 0):>5} à fin programmée  "
+                  f"{info.get('a_venir', 0):>4} à venir  "
+                  f"{info['octets']/1e6:>5.1f} Mo")
         return 0
 
     if cmd == "article" and len(argv) >= 4:

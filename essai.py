@@ -61,12 +61,22 @@ def fixture():
     lignes = [
         dict(a, code="code général des impôts", section=s["LEGIARTI000006308922"]),
         {"id": "LEGIARTI000000000002", "num": "279", "etat": "VIGUEUR",
-         "date_debut": "2024-01-01", "date_fin": "2999-01-01",
+         "date_debut": "2024-01-01", "date_fin": "2026-03-01",
          "texte": "La taxe est percue au taux reduit.", "code": "code général des impôts",
          "section": "B : Taux reduit"},
         {"id": "LEGIARTI000000000003", "num": "1er", "etat": "ABROGE",
          "date_debut": "2007-01-01", "date_fin": "2011-07-29",
          "texte": "Bouclier fiscal.", "code": "code général des impôts", "section": ""},
+        # Le cas réel qui a fait échouer deux extraits : applicable aujourd'hui,
+        # abrogation déjà votée. L'état dit ABROGE_DIFF, les dates disent oui.
+        {"id": "LEGIARTI000053562872", "num": "279", "etat": "ABROGE_DIFF",
+         "date_debut": "2026-03-01", "date_fin": "2027-01-01",
+         "texte": "La taxe est perçue au taux réduit.",
+         "code": "code général des impôts", "section": "B : Taux réduit"},
+        # Version future : ne doit jamais sortir comme droit applicable.
+        {"id": "LEGIARTI000099999999", "num": "1000", "etat": "VIGUEUR_DIFF",
+         "date_debut": "2027-06-01", "date_fin": "2999-01-01",
+         "texte": "Texte à venir.", "code": "code général des impôts", "section": ""},
     ]
     DATA.mkdir(exist_ok=True)
     with gzip.open(DATA / "cgi.jsonl.gz", "wt", encoding="utf-8") as f:
@@ -76,6 +86,7 @@ def fixture():
         "millesime_legi": "20260830", "archive": "essai",
         "codes": {"code général des impôts": {"fichier": "cgi.jsonl.gz", "court": "cgi",
                   "articles": len(lignes), "octets": 0, "sha256": "",
+                  "applicables": 3, "fin_programmee": 1, "a_venir": 1,
                   "sections_rattachees": 2}}}, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
@@ -93,6 +104,20 @@ def exercer():
     assert "Section VII" in rendu
     print("gabarit de sortie : identifiant, date de version et millésime présents.")
 
+    a279 = D.article("cgi", "279")
+    assert a279["id"] == "LEGIARTI000053562872", a279
+    r = D.rendre(a279)
+    assert "AVERTISSEMENT" in r and "2027-01-01" in r, r
+    print("ABROGE_DIFF : applicable aujourd'hui, et l'avertissement d'abrogation sort.")
+
+    try:
+        D.article("cgi", "1000")
+    except LookupError as e:
+        assert "2027-06-01" in str(e), str(e)
+        print("version future : refusée, avec la date d'entrée en vigueur.")
+    else:
+        sys.exit("ÉCHEC : une version future est sortie comme droit applicable")
+
     for appel, attendu in (
         (lambda: D.article("cgi", "279 bis"), LookupError),      # absent
         (lambda: D.article("cgi", "1er"), LookupError),          # abrogé
@@ -106,12 +131,13 @@ def exercer():
             sys.exit("ÉCHEC : un refus attendu n'a pas eu lieu.")
     print("refus : article absent, article abrogé, code non porté — les trois lèvent.")
 
-    assert [x["num"] for x in D.chercher("cgi", "taux reduit")] == ["279"]
-    print("recherche par titre de section : ok.")
+    trouves = D.chercher("cgi", "taux")
+    assert [x["id"] for x in trouves] == ["LEGIARTI000053562872"], trouves
+    print("recherche par section : une seule version rendue, l'applicable.")
 
     lignes = D.verifier({"cgi": ["235 bis", "1er", "9999"]})
-    assert [l[2] for l in lignes] == ["trouvé", "abrogé", "absent"], lignes
-    print("contrôle de lot : trouvé / abrogé / absent.")
+    assert [l[2] for l in lignes] == ["trouvé", "inapplicable", "absent"], lignes
+    print("contrôle de lot : trouvé / inapplicable / absent.")
 
     mil, age, perime = D.fraicheur(seuil_jours=1)
     assert perime, "un extrait de plus d'un jour doit se déclarer périmé"
@@ -124,7 +150,7 @@ if __name__ == "__main__":
     try:
         fixture()
         exercer()
-        print("\nÉPREUVE PASSÉE — 8 contrôles.")
+        print("\nÉPREUVE PASSÉE — 10 contrôles.")
         r = subprocess.run([sys.executable, str(RACINE / "droit.py"), "etat"],
                            capture_output=True, text=True)
         print("\n$ droit.py etat\n" + r.stdout.strip())
