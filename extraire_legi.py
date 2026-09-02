@@ -24,6 +24,7 @@ import sys
 import tarfile
 import urllib.request
 import xml.etree.ElementTree as ET
+from html.entities import html5, name2codepoint
 from collections import defaultdict
 
 RACINE = pathlib.Path(__file__).parent
@@ -136,12 +137,49 @@ def premier(el, *noms):
     return None
 
 
-def lire_article(donnees):
-    """Rend le dict d'un article, ou None si le XML n'en porte pas."""
+RE_DOCTYPE = re.compile(rb"<!DOCTYPE[^>]*(\[[^\]]*\])?[^>]*>", re.S)
+RE_ENTITE = re.compile(rb"&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9A-Fa-f]+);)([A-Za-z][A-Za-z0-9._-]*);")
+
+
+def analyser(donnees):
+    """Rend la racine XML, ou lève. Deux passes.
+
+    La seconde rattrape ce qui a fait perdre le bloc TVA du CGI au premier
+    tour : une déclaration de type et des entités nommées qu'ElementTree ne
+    connaît pas. Elles étaient jusqu'ici avalées en silence — un article perdu
+    ne disait rien, et un trou contigu passait pour un code court.
+    """
     try:
-        racine = ET.fromstring(donnees)
+        return ET.fromstring(donnees)
     except ET.ParseError:
-        return None
+        pass
+    reduit = RE_DOCTYPE.sub(b"", donnees)
+    reduit = RE_ENTITE.sub(_resoudre_entite, reduit)
+    return ET.fromstring(reduit)
+
+
+def _resoudre_entite(m):
+    """« &ccedil; » devient « ç », pas « &amp;ccedil; ».
+
+    Une entité échappée laisserait le verbatim faux — « per&ccedil;ue » au lieu
+    de « perçue » —, et un verbatim faux dans un amendement déposé est pire
+    qu'un article absent. Une entité inconnue est échappée, faute de mieux, et
+    elle reste visible dans le texte plutôt que de faire perdre l'article.
+    """
+    nom = m.group(1).decode("ascii", "replace")
+    car = html5.get(nom + ";") or html5.get(nom)
+    if car is None:
+        car = chr(name2codepoint[nom]) if nom in name2codepoint else None
+    if car is None:
+        return b"&amp;" + m.group(1) + b";"
+    return ("&#%d;" % ord(car[0])).encode("ascii") if len(car) == 1 else \
+        "".join("&#%d;" % ord(c) for c in car).encode("ascii")
+
+
+def lire_article(donnees):
+    """Rend le dict d'un article, ou None si le XML n'en porte pas.
+    Lève si le XML est illisible — l'appelant compte et signale."""
+    racine = analyser(donnees)
     art = racine if racine.tag.upper().endswith("ARTICLE") else premier(racine, "ARTICLE")
     if art is None:
         return None
@@ -170,7 +208,7 @@ def lire_article(donnees):
 def lire_structure(donnees):
     """Rend {LEGIARTI: 'Titre > Chapitre > Section'} depuis un fichier de structure."""
     try:
-        racine = ET.fromstring(donnees)
+        racine = analyser(donnees)
     except ET.ParseError:
         return {}
     chemins = {}
@@ -204,6 +242,8 @@ def balayer(urls, cibles):
     """
     articles = defaultdict(dict)   # court -> {id: dict}
     sections = defaultdict(dict)   # court -> {id: chemin}
+    echecs = defaultdict(int)      # court -> XML illisibles
+    exemples_echec = []
     echantillon = []
     total = 0
 
@@ -237,7 +277,14 @@ def balayer(urls, cibles):
                         if b"<LIEN_ART" in donnees:
                             sections[court].update(lire_structure(donnees))
                         if b"<ARTICLE" in donnees:
-                            a = lire_article(donnees)
+                            try:
+                                a = lire_article(donnees)
+                            except Exception as e:
+                                echecs[court] += 1
+                                if len(exemples_echec) < 12:
+                                    exemples_echec.append(
+                                        {"chemin": membre.name, "erreur": repr(e)[:200]})
+                                continue
                             if a:
                                 articles[court][a["id"]] = a
         except Exception as e:
@@ -253,7 +300,9 @@ def balayer(urls, cibles):
         journal(f"  [{rang}/{len(urls)}] {url.split('/')[-1]} — {vus} XML, {touches} retenus")
 
     journal(f"balayage terminé : {total} fichiers XML sur {len(urls)} archive(s)")
-    return articles, sections, echantillon
+    if sum(echecs.values()):
+        journal("XML illisibles par code : " + json.dumps(dict(echecs)))
+    return articles, sections, echantillon, dict(echecs), exemples_echec
 
 
 # --------------------------------------------------------------------------
@@ -287,8 +336,10 @@ def main():
     cibles = {c["legitext"]: c["court"] for c in cfg["codes"]}
     libelles = {c["court"]: c["cle"] for c in cfg["codes"]}
 
+    temoins = {c["court"]: c.get("temoin") for c in cfg["codes"]}
+
     urls, millesime = resoudre_archives()
-    articles, sections, echantillon = balayer(urls, cibles)
+    articles, sections, echantillon, echecs, exemples = balayer(urls, cibles)
 
     vides = [libelles[c] for c in libelles if not articles.get(c)]
     if vides:
@@ -300,6 +351,35 @@ def main():
             "comptes": {libelles[c]: len(articles.get(c, {})) for c in libelles},
         })
         sys.exit("ÉCHEC — " + ", ".join(vides) + ". Voir data/_diagnostic.json.")
+
+    # Un XML illisible n'est plus une perte silencieuse : il compte et il bloque.
+    if sum(echecs.values()):
+        diagnostic({"motif": "fichiers XML illisibles — extraction incomplète",
+                    "echecs_par_code": {libelles[c]: n for c, n in echecs.items()},
+                    "exemples": exemples})
+        sys.exit(f"ÉCHEC — {sum(echecs.values())} XML illisibles. "
+                 "Voir data/_diagnostic.json.")
+
+    # Témoin : un article ordinaire que chaque code DOIT porter. C'est ce qui
+    # aurait attrapé, au premier tour, le trou du bloc TVA du CGI — 2 031
+    # articles, un job vert, et l'article 279 absent.
+    def num_normal(s):
+        return re.sub(r"[.\s]+", "", (s or "").lower())
+
+    manquants = []
+    for court, cle in libelles.items():
+        t = temoins.get(court)
+        if not t:
+            continue
+        vus = {num_normal(a["num"]) for a in articles[court].values()
+               if a["etat"].upper() == "VIGUEUR"}
+        if num_normal(t) not in vus:
+            manquants.append(f"{cle} : témoin « {t} » absent")
+    if manquants:
+        diagnostic({"motif": "témoins absents — extraction incomplète",
+                    "manquants": manquants,
+                    "comptes": {libelles[c]: len(articles[c]) for c in libelles}})
+        sys.exit("ÉCHEC — " + " ; ".join(manquants) + ". Voir data/_diagnostic.json.")
 
     manifeste = {"millesime_legi": millesime, "archives": len(urls), "archive": urls[0],
                  "extrait_le": os.environ.get("DATE_EXTRACTION", ""), "codes": {}}
