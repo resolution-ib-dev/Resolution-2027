@@ -23,6 +23,19 @@
         "ABROGE": 1,
         "TRANSFERE": 1
       },
+      "temoin": "279",
+      "exemples_applicables": [
+        "1 A",
+        "10",
+        "100",
+        "100 bis",
+        "1000",
+        "1001",
+        "1004",
+        "1005",
+        "1006",
+        "1018 A bis"
+      ],
       "sections_rattachees": 2636
     },
     "code des impositions sur les biens et services": {
@@ -42,6 +55,19 @@
         "MODIFIE_MORT_NE": 61,
         "ABROGE": 1
       },
+      "temoin": "L313-20",
+      "exemples_applicables": [
+        "A111-1",
+        "A132-1",
+        "A132-2",
+        "A161-12",
+        "A161-13",
+        "A161-14",
+        "A161-17",
+        "A161-18",
+        "A161-19",
+        "A161-20"
+      ],
       "sections_rattachees": 3205
     },
     "code de la sécurité sociale": {
@@ -61,6 +87,19 @@
         "MODIFIE": 1,
         "VIGUEUR_DIFF": 182
       },
+      "temoin": "L136-8",
+      "exemples_applicables": [
+        "160-17-2",
+        "A931-1-1",
+        "A931-1-10",
+        "A931-1-11",
+        "A931-1-2",
+        "A931-1-3",
+        "A931-1-4",
+        "A931-1-5",
+        "A931-1-6",
+        "A931-1-7"
+      ],
       "sections_rattachees": 7613
     },
     "code général des collectivités territoriales": {
@@ -79,6 +118,19 @@
         "ABROGE": 1,
         "MODIFIE_MORT_NE": 13
       },
+      "temoin": "L1613-1",
+      "exemples_applicables": [
+        "4425-34",
+        "Annexe A",
+        "Annexe B",
+        "Annexe C",
+        "Annexe D",
+        "Annexe E",
+        "Annexe F",
+        "Annexe G",
+        "Annexe H",
+        "Annexe I"
+      ],
       "sections_rattachees": 6724
     },
     "code du travail": {
@@ -97,6 +149,19 @@
         "MODIFIE_MORT_NE": 3,
         "MODIFIE": 2
       },
+      "temoin": "L3262-1",
+      "exemples_applicables": [
+        "Annexe",
+        "Annexe I",
+        "Annexe I à l'article R4312-1",
+        "Annexe II",
+        "Annexe II à l'article R4312-6",
+        "Annexe III",
+        "Annexe à l'article R1422-4",
+        "D1132-1",
+        "D1143-10",
+        "D1143-11"
+      ],
       "sections_rattachees": 11684
     },
     "code de la construction et de l'habitation": {
@@ -114,6 +179,19 @@
         "VIGUEUR_DIFF": 70,
         "MODIFIE_MORT_NE": 6
       },
+      "temoin": "L313-1",
+      "exemples_applicables": [
+        "Annexe 1 au III art R353-159",
+        "Annexe 2 au III art R353-159",
+        "Annexe I à L'article D321-23",
+        "Annexe I à l'article D331-65",
+        "Annexe I à l'article D353-1",
+        "Annexe I à l'article D353-127",
+        "Annexe I à l'article D353-166",
+        "Annexe I à l'article D353-190",
+        "Annexe I à l'article D353-200",
+        "Annexe I à l'article D353-32"
+      ],
       "sections_rattachees": 4188
     },
     "code de l'environnement": {
@@ -131,6 +209,19 @@
         "MODIFIE_MORT_NE": 4,
         "VIGUEUR_DIFF": 54
       },
+      "temoin": "L541-10-1",
+      "exemples_applicables": [
+        "Annexe (1) à l'article R511-9",
+        "Annexe (2) à l'article R511-9",
+        "Annexe (3) à l'article R511-9",
+        "Annexe (5) à l'article R511-9",
+        "Annexe I à l'article D523-8",
+        "Annexe II à l'article D523-8",
+        "Annexe de l'article D222-36-1",
+        "Annexe de l'article R122-3-1",
+        "Annexe de l'article R214-85",
+        "Annexe de l'article R221-29"
+      ],
       "sections_rattachees": 7335
     },
     "livre des procédures fiscales": {
@@ -149,7 +240,379 @@
         "VIGUEUR_DIFF": 102,
         "MODIFIE_MORT_NE": 34
       },
+      "temoin": "L10",
+      "exemples_applicables": [
+        "A10-0 AC-1",
+        "A102 B-1",
+        "A102 B-2",
+        "A112 B-1",
+        "A13 F-1",
+        "A13 F-2",
+        "A208-1",
+        "A225 A-1",
+        "A26-1",
+        "A26-2"
+      ],
       "sections_rattachees": 1055
+    },
+    "code civil": {
+      "fichier": "civil.jsonl.gz",
+      "articles": 2903,
+      "octets": 373020,
+      "sha256": "64c70057f80f1de2b1c346247454692f3b2165767e558b4b51005bfb77f94263",
+      "court": "civil",
+      "applicables": 2899,
+      "a_venir": 4,
+      "fin_programmee": 3,
+      "etats": {
+        "VIGUEUR": 2896,
+        "ABROGE_DIFF": 3,
+        "VIGUEUR_DIFF": 4
+      },
+      "temoin": "544",
+      "exemples_applicables": [
+        "1",
+        "10",
+        "100",
+        "1000",
+        "1001",
+        "1002",
+        "1002-1",
+        "1003",
+        "1004",
+        "1005"
+      ],
+      "sections_rattachees": 2903
+    },
+    "code général de la propriété des personnes publiques": {
+      "fichier": "cg3p.jsonl.gz",
+      "articles": 1136,
+      "octets": 194508,
+      "sha256": "6b98d31e8a91847e84662291296cd3841c53090bc131250886f18bdddb078481",
+      "court": "cg3p",
+      "applicables": 1132,
+      "a_venir": 4,
+      "fin_programmee": 5,
+      "etats": {
+        "VIGUEUR": 1127,
+        "ABROGE_DIFF": 5,
+        "VIGUEUR_DIFF": 4
+      },
+      "temoin": "L2111-1",
+      "exemples_applicables": [
+        "Annexe à l'article R3113-2",
+        "D1212-25",
+        "D1212-26",
+        "D1221-3",
+        "D1221-4",
+        "D1221-5",
+        "D1221-6",
+        "D2124-75",
+        "D2124-75-1",
+        "D2141-1"
+      ],
+      "sections_rattachees": 1136
+    },
+    "code monétaire et financier": {
+      "fichier": "monetaire.jsonl.gz",
+      "articles": 5457,
+      "octets": 1491684,
+      "sha256": "fad74144379473667cd866dcc7f47ff417cd945a4b94eb517cff7c86588d24e9",
+      "court": "monetaire",
+      "applicables": 5314,
+      "a_venir": 143,
+      "fin_programmee": 142,
+      "etats": {
+        "VIGUEUR": 5172,
+        "ABROGE_DIFF": 142,
+        "MODIFIE_MORT_NE": 13,
+        "VIGUEUR_DIFF": 130
+      },
+      "temoin": "L511-1",
+      "exemples_applicables": [
+        "D*213-4",
+        "D*351-4",
+        "D*742-5",
+        "D*743-5",
+        "D*744-5",
+        "D*752-25",
+        "D*753-26",
+        "D*754-23",
+        "D112-1",
+        "D112-2"
+      ],
+      "sections_rattachees": 5457
+    },
+    "code de commerce": {
+      "fichier": "commerce.jsonl.gz",
+      "articles": 7365,
+      "octets": 1762584,
+      "sha256": "a373432b96a147c1d1f2d5158e8eb7dce6449a618473ee57d51dd0a494c008f1",
+      "court": "commerce",
+      "applicables": 7291,
+      "a_venir": 74,
+      "fin_programmee": 40,
+      "etats": {
+        "VIGUEUR": 7248,
+        "ABROGE_DIFF": 40,
+        "MODIFIE": 1,
+        "MODIFIE_MORT_NE": 14,
+        "VIGUEUR_DIFF": 62
+      },
+      "temoin": "L110-1",
+      "exemples_applicables": [
+        "A123-1",
+        "A123-10",
+        "A123-11",
+        "A123-11-1",
+        "A123-11-2",
+        "A123-12",
+        "A123-13",
+        "A123-14",
+        "A123-15",
+        "A123-16"
+      ],
+      "sections_rattachees": 7364
+    },
+    "code de l'éducation": {
+      "fichier": "education.jsonl.gz",
+      "articles": 5053,
+      "octets": 1144041,
+      "sha256": "132096ff4f2d33c465d89310b3cc0a5e0b8096fb5cb9232c21a5b58111c081f3",
+      "court": "education",
+      "applicables": 5020,
+      "a_venir": 33,
+      "fin_programmee": 25,
+      "etats": {
+        "VIGUEUR": 4993,
+        "ABROGE_DIFF": 25,
+        "VIGUEUR_DIFF": 29,
+        "MODIFIE_MORT_NE": 6
+      },
+      "temoin": "L111-1",
+      "exemples_applicables": [
+        "453-17",
+        "Annexe",
+        "D111-1",
+        "D111-10",
+        "D111-11",
+        "D111-12",
+        "D111-13",
+        "D111-14",
+        "D111-15",
+        "D111-2"
+      ],
+      "sections_rattachees": 5053
+    },
+    "code de l'action sociale et des familles": {
+      "fichier": "casf.jsonl.gz",
+      "articles": 3734,
+      "octets": 1087092,
+      "sha256": "dc9e408b94b7050ebde10236791573e98c5306faaa96bc4e3df6b4768c2b8776",
+      "court": "casf",
+      "applicables": 3690,
+      "a_venir": 44,
+      "fin_programmee": 31,
+      "etats": {
+        "VIGUEUR": 3659,
+        "ABROGE_DIFF": 31,
+        "MODIFIE_MORT_NE": 1,
+        "VIGUEUR_DIFF": 43
+      },
+      "temoin": "L111-1",
+      "exemples_applicables": [
+        "Annexe 1-1",
+        "Annexe 1-2",
+        "Annexe 2-1",
+        "Annexe 2-10",
+        "Annexe 2-11",
+        "Annexe 2-12",
+        "Annexe 2-2",
+        "Annexe 2-3",
+        "Annexe 2-3-1",
+        "Annexe 2-3-2"
+      ],
+      "sections_rattachees": 3734
+    },
+    "code du sport": {
+      "fichier": "sport.jsonl.gz",
+      "articles": 1928,
+      "octets": 538677,
+      "sha256": "e18231fe6c919d54a65afbafefb25ee945ced78d6434bfc4d9d219e15ee34535",
+      "court": "sport",
+      "applicables": 1915,
+      "a_venir": 13,
+      "fin_programmee": 13,
+      "etats": {
+        "VIGUEUR": 1902,
+        "ABROGE_DIFF": 13,
+        "VIGUEUR_DIFF": 13
+      },
+      "temoin": "L100-1",
+      "exemples_applicables": [
+        "A112-0",
+        "A112-1",
+        "A112-10",
+        "A112-11",
+        "A112-12",
+        "A112-2",
+        "A112-3",
+        "A112-4",
+        "A112-5",
+        "A112-6"
+      ],
+      "sections_rattachees": 1928
+    },
+    "code du patrimoine": {
+      "fichier": "patrimoine.jsonl.gz",
+      "articles": 1641,
+      "octets": 304493,
+      "sha256": "dc67c6e2dc81f524fa51779d509a40ed522b1a42433935341c7109878079ee2a",
+      "court": "patrimoine",
+      "applicables": 1637,
+      "a_venir": 4,
+      "fin_programmee": 3,
+      "etats": {
+        "VIGUEUR": 1634,
+        "ABROGE_DIFF": 3,
+        "MODIFIE_MORT_NE": 1,
+        "VIGUEUR_DIFF": 3
+      },
+      "temoin": "L1",
+      "exemples_applicables": [
+        "Annexe 1 aux articles R. 111-1",
+        "Annexe 3 aux articles R. 113-1",
+        "Annexe 4 à l'article R. 132-39",
+        "Annexe 5 à l'article R. 143-1",
+        "Annexe 5-1 à l'article R. 143-1",
+        "Annexe 6 à l'article R. 545-16",
+        "Annexe 7 à l'article R. 621-98",
+        "D111-24",
+        "D111-25",
+        "D113-10"
+      ],
+      "sections_rattachees": 1641
+    },
+    "code des transports": {
+      "fichier": "transports.jsonl.gz",
+      "articles": 9373,
+      "octets": 1832095,
+      "sha256": "af2f1ab4fbef86ab26eb30c98fbf40690a84d5c9a9782637255829387ff3ac80",
+      "court": "transports",
+      "applicables": 9269,
+      "a_venir": 104,
+      "fin_programmee": 95,
+      "etats": {
+        "VIGUEUR": 9172,
+        "ABROGE_DIFF": 95,
+        "VIGUEUR_DIFF": 101,
+        "MODIFIE_MORT_NE": 3,
+        "INCONNU": 2
+      },
+      "temoin": "L1000-1",
+      "exemples_applicables": [
+        "A2271-1",
+        "A2271-10",
+        "A2271-11",
+        "A2271-12",
+        "A2271-13",
+        "A2271-14",
+        "A2271-15",
+        "A2271-16",
+        "A2271-17",
+        "A2271-18"
+      ],
+      "sections_rattachees": 9373
+    },
+    "code de la défense": {
+      "fichier": "defense.jsonl.gz",
+      "articles": 3462,
+      "octets": 642885,
+      "sha256": "e9c88f0f2bd36d445582f608191655892a1b2efb63b0c36c32f63e42bd52e866",
+      "court": "defense",
+      "applicables": 3435,
+      "a_venir": 27,
+      "fin_programmee": 14,
+      "etats": {
+        "VIGUEUR": 3421,
+        "ABROGE_DIFF": 14,
+        "VIGUEUR_DIFF": 19,
+        "MODIFIE_MORT_NE": 8
+      },
+      "temoin": "L1111-1",
+      "exemples_applicables": [
+        "D*1131-1",
+        "D*1142-10",
+        "D*1142-11",
+        "D*1142-11-1",
+        "D*1142-8",
+        "D*1142-9",
+        "D*1212-14",
+        "D*1221-1",
+        "D*1221-2",
+        "D*1221-3"
+      ],
+      "sections_rattachees": 3462
+    },
+    "code de l'énergie": {
+      "fichier": "energie.jsonl.gz",
+      "articles": 3241,
+      "octets": 763341,
+      "sha256": "5e8fd7114bb234830161551273ee4d7b46cae0db309f0fbafc216ec5ad443874",
+      "court": "energie",
+      "applicables": 3232,
+      "a_venir": 9,
+      "fin_programmee": 7,
+      "etats": {
+        "VIGUEUR": 3221,
+        "ABROGE_DIFF": 7,
+        "VIGUEUR_DIFF": 10,
+        "MODIFIE_MORT_NE": 3
+      },
+      "temoin": "L100-1",
+      "exemples_applicables": [
+        "337-19-1",
+        "Annexe article D341-9",
+        "D111-14",
+        "D111-15",
+        "D111-16",
+        "D111-17",
+        "D111-18",
+        "D111-19",
+        "D111-20",
+        "D111-21"
+      ],
+      "sections_rattachees": 3241
+    },
+    "code des douanes": {
+      "fichier": "douanes.jsonl.gz",
+      "articles": 1526,
+      "octets": 207750,
+      "sha256": "af188986943d1224fbdc3eed51ef83afc693d175b66c71b80f7f7e989bdc40f8",
+      "court": "douanes",
+      "applicables": 1435,
+      "a_venir": 91,
+      "fin_programmee": 76,
+      "etats": {
+        "MODIFIE_MORT_NE": 16,
+        "VIGUEUR_DIFF": 81,
+        "ABROGE_DIFF": 75,
+        "VIGUEUR": 1354
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "266 decies",
+        "266 nonies A",
+        "266 octies",
+        "266 septies",
+        "266 sexies",
+        "A221-1",
+        "A221-2",
+        "A221-3",
+        "A232-1",
+        "A234-1"
+      ],
+      "sections_rattachees": 1526
     }
   }
 }
