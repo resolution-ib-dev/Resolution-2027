@@ -403,6 +403,8 @@ def main():
     for court, cle in libelles.items():
         t = temoins.get(court)
         if not t:
+            journal(f"  ATTENTION — {cle} : témoin non épinglé, contrôle désactivé "
+                    "pour ce code. À épingler depuis exemples_applicables du manifeste.")
             continue
         par_num = defaultdict(list)
         for a in articles[court].values():
@@ -419,6 +421,8 @@ def main():
         voisins = []
         if base is not None:
             for a in articles[court].values():
+                if not applicable(a, jour):
+                    continue
                 m = re.match(r"^([LRD]?)\.?\s*(\d+)", a["num"] or "")
                 if m and m.group(1) == tete.group(1) and abs(int(m.group(2)) - base) <= 30:
                     voisins.append(a["num"])
@@ -429,7 +433,7 @@ def main():
                  "date_fin": a["date_fin"]} for a in cible],
             "articles_retenus": len(articles[court]),
             "etats": dict(Counter(a["etat"] for a in articles[court].values())),
-            "numeros_voisins": sorted(set(voisins))[:40],
+            "numeros_voisins_applicables": sorted(set(voisins))[:40],
             "chemins_exemple": chemins.get(court, []),
         }
     if manquants:
@@ -456,6 +460,12 @@ def main():
         manifeste["codes"][cle]["a_venir"] = len(vivants) - app
         manifeste["codes"][cle]["fin_programmee"] = prog
         manifeste["codes"][cle]["etats"] = dict(Counter(a["etat"] for a in vivants.values()))
+        manifeste["codes"][cle]["temoin"] = temoins.get(court) or "NON ÉPINGLÉ"
+        # De quoi épingler un témoin au tour suivant sans retourner sur le web :
+        # des articles dont l'applicabilité est prouvée par l'extrait lui-même.
+        manifeste["codes"][cle]["exemples_applicables"] = sorted(
+            {a["num"] for a in vivants.values()
+             if applicable(a, jour) and a.get("date_fin") in FIN_OUVERTE and a["num"]})[:10]
         manifeste["codes"][cle]["sections_rattachees"] = sum(
             1 for i in vivants if sections.get(court, {}).get(i))
         journal(f"  {cle} : {app} applicables ({prog} à fin programmée), "

@@ -5,25 +5,126 @@
   "_couverture": "Les vingt codes couvrent la table de vérité-terrain de l'appareil d'éval, plus le code civil et le code général de la propriété des personnes publiques, qui lui manquaient (A-275). Le coût du balayage ne dépend pas du nombre de codes : l'archive se lit en entier dans tous les cas. Ajouter un code coûte quelques mégaoctets, pas une minute.",
   "_identifiants": "Les vingt identifiants LEGITEXT et les vingt témoins sont relevés sur legifrance.gouv.fr le 20260902, un par un. Aucun n'est déduit d'un autre.",
   "codes": [
-    { "cle": "code général des impôts", "legitext": "LEGITEXT000006069577", "court": "cgi", "temoin": "279" },
-    { "cle": "code des impositions sur les biens et services", "legitext": "LEGITEXT000044595989", "court": "cibs", "temoin": "L313-20" },
-    { "cle": "code de la sécurité sociale", "legitext": "LEGITEXT000006073189", "court": "css", "temoin": "L136-8" },
-    { "cle": "code général des collectivités territoriales", "legitext": "LEGITEXT000006070633", "court": "cgct", "temoin": "L1613-1" },
-    { "cle": "code du travail", "legitext": "LEGITEXT000006072050", "court": "travail", "temoin": "L3262-1" },
-    { "cle": "code de la construction et de l'habitation", "legitext": "LEGITEXT000006074096", "court": "cch", "temoin": "L313-1" },
-    { "cle": "code de l'environnement", "legitext": "LEGITEXT000006074220", "court": "environnement", "temoin": "L541-10-1" },
-    { "cle": "livre des procédures fiscales", "legitext": "LEGITEXT000006069583", "court": "lpf", "temoin": "L10" },
-    { "cle": "code civil", "legitext": "LEGITEXT000006070721", "court": "civil", "temoin": "544" },
-    { "cle": "code général de la propriété des personnes publiques", "legitext": "LEGITEXT000006070299", "court": "cg3p", "temoin": "L2111-1" },
-    { "cle": "code monétaire et financier", "legitext": "LEGITEXT000006072026", "court": "monetaire", "temoin": "L511-1" },
-    { "cle": "code de commerce", "legitext": "LEGITEXT000005634379", "court": "commerce", "temoin": "L110-1" },
-    { "cle": "code de l'éducation", "legitext": "LEGITEXT000006071191", "court": "education", "temoin": "L111-1" },
-    { "cle": "code de l'action sociale et des familles", "legitext": "LEGITEXT000006074069", "court": "casf", "temoin": "L111-1" },
-    { "cle": "code du sport", "legitext": "LEGITEXT000006071318", "court": "sport", "temoin": "L100-1" },
-    { "cle": "code du patrimoine", "legitext": "LEGITEXT000006074236", "court": "patrimoine", "temoin": "L1" },
-    { "cle": "code des transports", "legitext": "LEGITEXT000023086525", "court": "transports", "temoin": "L1000-1" },
-    { "cle": "code de la défense", "legitext": "LEGITEXT000006071307", "court": "defense", "temoin": "L1111-1" },
-    { "cle": "code de l'énergie", "legitext": "LEGITEXT000023983208", "court": "energie", "temoin": "L100-1" },
-    { "cle": "code des douanes", "legitext": "LEGITEXT000006071570", "court": "douanes", "temoin": "2" }
-  ]
+    {
+      "cle": "code général des impôts",
+      "legitext": "LEGITEXT000006069577",
+      "court": "cgi",
+      "temoin": "279"
+    },
+    {
+      "cle": "code des impositions sur les biens et services",
+      "legitext": "LEGITEXT000044595989",
+      "court": "cibs",
+      "temoin": "L313-20"
+    },
+    {
+      "cle": "code de la sécurité sociale",
+      "legitext": "LEGITEXT000006073189",
+      "court": "css",
+      "temoin": "L136-8"
+    },
+    {
+      "cle": "code général des collectivités territoriales",
+      "legitext": "LEGITEXT000006070633",
+      "court": "cgct",
+      "temoin": "L1613-1"
+    },
+    {
+      "cle": "code du travail",
+      "legitext": "LEGITEXT000006072050",
+      "court": "travail",
+      "temoin": "L3262-1"
+    },
+    {
+      "cle": "code de la construction et de l'habitation",
+      "legitext": "LEGITEXT000006074096",
+      "court": "cch",
+      "temoin": "L313-1"
+    },
+    {
+      "cle": "code de l'environnement",
+      "legitext": "LEGITEXT000006074220",
+      "court": "environnement",
+      "temoin": "L541-10-1"
+    },
+    {
+      "cle": "livre des procédures fiscales",
+      "legitext": "LEGITEXT000006069583",
+      "court": "lpf",
+      "temoin": "L10"
+    },
+    {
+      "cle": "code civil",
+      "legitext": "LEGITEXT000006070721",
+      "court": "civil",
+      "temoin": "544"
+    },
+    {
+      "cle": "code général de la propriété des personnes publiques",
+      "legitext": "LEGITEXT000006070299",
+      "court": "cg3p",
+      "temoin": "L2111-1"
+    },
+    {
+      "cle": "code monétaire et financier",
+      "legitext": "LEGITEXT000006072026",
+      "court": "monetaire",
+      "temoin": "L511-1"
+    },
+    {
+      "cle": "code de commerce",
+      "legitext": "LEGITEXT000005634379",
+      "court": "commerce",
+      "temoin": "L110-1"
+    },
+    {
+      "cle": "code de l'éducation",
+      "legitext": "LEGITEXT000006071191",
+      "court": "education",
+      "temoin": "L111-1"
+    },
+    {
+      "cle": "code de l'action sociale et des familles",
+      "legitext": "LEGITEXT000006074069",
+      "court": "casf",
+      "temoin": "L111-1"
+    },
+    {
+      "cle": "code du sport",
+      "legitext": "LEGITEXT000006071318",
+      "court": "sport",
+      "temoin": "L100-1"
+    },
+    {
+      "cle": "code du patrimoine",
+      "legitext": "LEGITEXT000006074236",
+      "court": "patrimoine",
+      "temoin": "L1"
+    },
+    {
+      "cle": "code des transports",
+      "legitext": "LEGITEXT000023086525",
+      "court": "transports",
+      "temoin": "L1000-1"
+    },
+    {
+      "cle": "code de la défense",
+      "legitext": "LEGITEXT000006071307",
+      "court": "defense",
+      "temoin": "L1111-1"
+    },
+    {
+      "cle": "code de l'énergie",
+      "legitext": "LEGITEXT000023983208",
+      "court": "energie",
+      "temoin": "L100-1"
+    },
+    {
+      "cle": "code des douanes",
+      "legitext": "LEGITEXT000006071570",
+      "court": "douanes",
+      "temoin": null
+    }
+  ],
+  "_temoin_non_epingle": "Un `temoin` à null veut dire : non épinglé, faute d'un article dont l'applicabilité soit prouvée. Le contrôle est alors DÉSACTIVÉ pour ce code, le manifeste le déclare en clair, et le journal l'annonce. À épingler au tour suivant depuis `exemples_applicables` du manifeste. Cas du code des douanes : l'article 2, retenu le 20260902 sur une date d'URL Légifrance prise à tort pour une preuve de vigueur, est abrogé depuis le 1er mai 2026 — et c'est le témoin qui l'a dit."
 }
