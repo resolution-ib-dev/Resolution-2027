@@ -25,7 +25,7 @@ import tarfile
 import urllib.request
 import xml.etree.ElementTree as ET
 from html.entities import html5, name2codepoint
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 RACINE = pathlib.Path(__file__).parent
 DATA = RACINE / "data"
@@ -244,6 +244,7 @@ def balayer(urls, cibles):
     sections = defaultdict(dict)   # court -> {id: chemin}
     echecs = defaultdict(int)      # court -> XML illisibles
     exemples_echec = []
+    chemins = defaultdict(list)    # court -> chemins d'exemple, pour le diagnostic
     echantillon = []
     total = 0
 
@@ -267,6 +268,8 @@ def balayer(urls, cibles):
                                 break
                         if court is None:
                             continue
+                        if len(chemins[court]) < 15:
+                            chemins[court].append(membre.name)
 
                         f = tar.extractfile(membre)
                         if f is None:
@@ -302,7 +305,7 @@ def balayer(urls, cibles):
     journal(f"balayage terminé : {total} fichiers XML sur {len(urls)} archive(s)")
     if sum(echecs.values()):
         journal("XML illisibles par code : " + json.dumps(dict(echecs)))
-    return articles, sections, echantillon, dict(echecs), exemples_echec
+    return articles, sections, echantillon, dict(echecs), exemples_echec, dict(chemins)
 
 
 # --------------------------------------------------------------------------
@@ -339,7 +342,7 @@ def main():
     temoins = {c["court"]: c.get("temoin") for c in cfg["codes"]}
 
     urls, millesime = resoudre_archives()
-    articles, sections, echantillon, echecs, exemples = balayer(urls, cibles)
+    articles, sections, echantillon, echecs, exemples, chemins = balayer(urls, cibles)
 
     vides = [libelles[c] for c in libelles if not articles.get(c)]
     if vides:
@@ -366,30 +369,57 @@ def main():
     def num_normal(s):
         return re.sub(r"[.\s]+", "", (s or "").lower())
 
-    manquants = []
+    manquants, detail = [], {}
     for court, cle in libelles.items():
         t = temoins.get(court)
         if not t:
             continue
-        vus = {num_normal(a["num"]) for a in articles[court].values()
-               if a["etat"].upper() == "VIGUEUR"}
-        if num_normal(t) not in vus:
-            manquants.append(f"{cle} : témoin « {t} » absent")
+        par_num = defaultdict(list)
+        for a in articles[court].values():
+            par_num[num_normal(a["num"])].append(a)
+        cible = par_num.get(num_normal(t), [])
+        if any(a["etat"].upper() == "VIGUEUR" for a in cible):
+            continue
+        manquants.append(f"{cle} : témoin « {t} » absent")
+        # Tout ce qu'il faut pour trancher sans relancer : le témoin est-il là
+        # sous un autre état, quels numéros l'entourent, et à quoi ressemblent
+        # les chemins réels de l'archive pour ce code.
+        tete = re.match(r"^([LRD]?)\.?\s*(\d+)", t or "")
+        base = int(tete.group(2)) if tete else None
+        voisins = []
+        if base is not None:
+            for a in articles[court].values():
+                m = re.match(r"^([LRD]?)\.?\s*(\d+)", a["num"] or "")
+                if m and m.group(1) == tete.group(1) and abs(int(m.group(2)) - base) <= 30:
+                    voisins.append(a["num"])
+        detail[cle] = {
+            "temoin": t,
+            "present_sous_un_autre_etat": [
+                {"id": a["id"], "etat": a["etat"], "date_debut": a["date_debut"],
+                 "date_fin": a["date_fin"]} for a in cible],
+            "articles_retenus": len(articles[court]),
+            "etats": dict(Counter(a["etat"] for a in articles[court].values())),
+            "numeros_voisins": sorted(set(voisins))[:40],
+            "chemins_exemple": chemins.get(court, []),
+        }
     if manquants:
         diagnostic({"motif": "témoins absents — extraction incomplète",
-                    "manquants": manquants,
+                    "manquants": manquants, "detail": detail,
                     "comptes": {libelles[c]: len(articles[c]) for c in libelles}})
         sys.exit("ÉCHEC — " + " ; ".join(manquants) + ". Voir data/_diagnostic.json.")
 
     manifeste = {"millesime_legi": millesime, "archives": len(urls), "archive": urls[0],
                  "extrait_le": os.environ.get("DATE_EXTRACTION", ""), "codes": {}}
     for court, cle in libelles.items():
-        en_vigueur = {i: a for i, a in articles[court].items() if a["etat"].upper() == "VIGUEUR"}
-        manifeste["codes"][cle] = ecrire(court, cle, en_vigueur, sections.get(court, {}))
+        tous = articles[court]
+        manifeste["codes"][cle] = ecrire(court, cle, tous, sections.get(court, {}))
         manifeste["codes"][cle]["court"] = court
+        vig = sum(1 for a in tous.values() if a["etat"].upper() == "VIGUEUR")
+        manifeste["codes"][cle]["en_vigueur"] = vig
+        manifeste["codes"][cle]["etats"] = dict(Counter(a["etat"] for a in tous.values()))
         manifeste["codes"][cle]["sections_rattachees"] = sum(
-            1 for i in en_vigueur if sections.get(court, {}).get(i))
-        journal(f"  {cle} : {manifeste['codes'][cle]['articles']} articles en vigueur")
+            1 for i in tous if sections.get(court, {}).get(i))
+        journal(f"  {cle} : {vig} en vigueur sur {len(tous)} versions retenues")
 
     (DATA / "_manifeste.json").write_text(
         json.dumps(manifeste, ensure_ascii=False, indent=2), encoding="utf-8")
