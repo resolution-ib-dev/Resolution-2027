@@ -121,7 +121,7 @@ def exercer():
     for appel, attendu in (
         (lambda: D.article("cgi", "279 bis"), LookupError),      # absent
         (lambda: D.article("cgi", "1er"), LookupError),          # abrogé
-        (lambda: D.article("code des douanes", "1"), KeyError),  # code non porté
+        (lambda: D.article("code de la route", "1"), KeyError),   # code non porté
     ):
         try:
             appel()

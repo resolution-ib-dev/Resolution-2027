@@ -199,11 +199,14 @@ def verifier(adresses):
             try:
                 a = article(bloc["code"], num)
                 lignes.append((bloc["code"], str(num), "trouvé", a["id"], a.get("date_debut", "")))
+            # KeyError est une sous-classe de LookupError : capturée en second,
+            # elle ressortait en « inapplicable » — un code non porté passait
+            # pour un article périmé. L'ordre compte.
+            except (KeyError, FileNotFoundError) as e:
+                lignes.append((bloc.get("code", "?"), str(num), "code absent", str(e)[:48], ""))
             except LookupError as e:
                 verdict = "absent" if "absent de l'extrait" in str(e) else "inapplicable"
                 lignes.append((bloc["code"], str(num), verdict, "", ""))
-            except (KeyError, FileNotFoundError) as e:
-                lignes.append((bloc.get("code", "?"), str(num), "erreur", str(e)[:60], ""))
     return lignes
 
 
