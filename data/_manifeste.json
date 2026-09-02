@@ -1,72 +1,155 @@
 {
-  "millesime_legi": "20260831",
-  "archives": 417,
+  "millesime_legi": "20260901",
+  "jour_de_reference": "2026-09-02",
+  "archives": 418,
   "archive": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz",
   "extrait_le": "",
   "codes": {
     "code général des impôts": {
       "fichier": "cgi.jsonl.gz",
-      "articles": 2031,
-      "octets": 963710,
-      "sha256": "ee77296182b7d5ae8021bae19b30d77ce1a53beaf9641a1a57e3f2de9941a532",
+      "articles": 2636,
+      "octets": 1452435,
+      "sha256": "20e805db28c2d26e9565890f97881ee2fa9d2bf2d1c63ac1a3d6c7aee204f733",
       "court": "cgi",
-      "sections_rattachees": 2031
+      "applicables": 2410,
+      "a_venir": 226,
+      "fin_programmee": 376,
+      "etats": {
+        "VIGUEUR": 2031,
+        "ABROGE_DIFF": 375,
+        "MODIFIE": 8,
+        "MODIFIE_MORT_NE": 47,
+        "VIGUEUR_DIFF": 173,
+        "ABROGE": 1,
+        "TRANSFERE": 1
+      },
+      "sections_rattachees": 2636
     },
     "code des impositions sur les biens et services": {
       "fichier": "cibs.jsonl.gz",
-      "articles": 1484,
-      "octets": 168502,
-      "sha256": "e5d966736952faa03f260ac64f9979ea097665017652ced48dfeb03725004ee5",
+      "articles": 3205,
+      "octets": 397958,
+      "sha256": "0381f96ce5f23491c0efa33b660cbb1d1cb2b89aecd594e7ac8a267431d7bd33",
       "court": "cibs",
-      "sections_rattachees": 1484
+      "applicables": 1769,
+      "a_venir": 1436,
+      "fin_programmee": 282,
+      "etats": {
+        "VIGUEUR": 1484,
+        "ABROGE_DIFF": 276,
+        "VIGUEUR_DIFF": 1378,
+        "MODIFIE": 5,
+        "MODIFIE_MORT_NE": 61,
+        "ABROGE": 1
+      },
+      "sections_rattachees": 3205
     },
     "code de la sécurité sociale": {
       "fichier": "css.jsonl.gz",
-      "articles": 7297,
-      "octets": 2015977,
-      "sha256": "bbd3dc84e2e5a02d6439d63749a63f4f46a43b29cdf3e9e4ba57d04803ac5689",
+      "articles": 7613,
+      "octets": 2174699,
+      "sha256": "92879474db64201d633dc138f9621be1fdb3d98f0a4c69ad683636a0755521db",
       "court": "css",
-      "sections_rattachees": 7297
+      "applicables": 7425,
+      "a_venir": 188,
+      "fin_programmee": 119,
+      "etats": {
+        "VIGUEUR": 7296,
+        "ABROGE_DIFF": 119,
+        "INCONNU": 9,
+        "MODIFIE_MORT_NE": 6,
+        "MODIFIE": 1,
+        "VIGUEUR_DIFF": 182
+      },
+      "sections_rattachees": 7613
     },
     "code général des collectivités territoriales": {
       "fichier": "cgct.jsonl.gz",
-      "articles": 6558,
-      "octets": 1423958,
-      "sha256": "aa7d86edc0fb43ab26450a6f795a6af53c4c49f3199484676af491f283b0c019",
+      "articles": 6724,
+      "octets": 1481018,
+      "sha256": "0e007ebcde5f943f448ed792a4d509cc2bcf07e72c29a474bd97d47c479a8fe5",
       "court": "cgct",
-      "sections_rattachees": 6558
+      "applicables": 6619,
+      "a_venir": 105,
+      "fin_programmee": 52,
+      "etats": {
+        "VIGUEUR": 6558,
+        "VIGUEUR_DIFF": 100,
+        "ABROGE_DIFF": 52,
+        "ABROGE": 1,
+        "MODIFIE_MORT_NE": 13
+      },
+      "sections_rattachees": 6724
     },
     "code du travail": {
       "fichier": "travail.jsonl.gz",
-      "articles": 11479,
-      "octets": 1899656,
-      "sha256": "bc6425b978373f0e68617951eb6cbdbc711630049c26c5db2c6edbda8297f4f7",
+      "articles": 11693,
+      "octets": 1969559,
+      "sha256": "fb2cc6eee8007889250ea38cb700f5681c18600c4cdbb1508377c1a156c97b0a",
       "court": "travail",
-      "sections_rattachees": 11470
+      "applicables": 11598,
+      "a_venir": 95,
+      "fin_programmee": 119,
+      "etats": {
+        "VIGUEUR": 11478,
+        "ABROGE_DIFF": 118,
+        "VIGUEUR_DIFF": 92,
+        "MODIFIE_MORT_NE": 3,
+        "MODIFIE": 2
+      },
+      "sections_rattachees": 11684
     },
     "code de la construction et de l'habitation": {
       "fichier": "cch.jsonl.gz",
-      "articles": 4046,
-      "octets": 1179188,
-      "sha256": "17ac692c1b8f42c7c4471d614157709bca36fabcbdcfb48a7285e169e9e31e33",
+      "articles": 4189,
+      "octets": 1233622,
+      "sha256": "6ad8aac75e50d66a9a3a6a3b1bf51b142bd10ee6799f9337d3dca063e22fc913",
       "court": "cch",
-      "sections_rattachees": 4045
+      "applicables": 4113,
+      "a_venir": 76,
+      "fin_programmee": 67,
+      "etats": {
+        "VIGUEUR": 4046,
+        "ABROGE_DIFF": 67,
+        "VIGUEUR_DIFF": 70,
+        "MODIFIE_MORT_NE": 6
+      },
+      "sections_rattachees": 4188
     },
     "code de l'environnement": {
       "fichier": "environnement.jsonl.gz",
-      "articles": 7235,
-      "octets": 1986194,
-      "sha256": "c17dc8759b2b32189413a33b512a98879d955555af9e4835ab4d34916a08731c",
+      "articles": 7335,
+      "octets": 2066796,
+      "sha256": "77c82c5ac19dc2a7a3ec0232f8ed413f592072a159f56c63d09c32261ad65e92",
       "court": "environnement",
-      "sections_rattachees": 7235
+      "applicables": 7284,
+      "a_venir": 51,
+      "fin_programmee": 42,
+      "etats": {
+        "VIGUEUR": 7235,
+        "ABROGE_DIFF": 42,
+        "MODIFIE_MORT_NE": 4,
+        "VIGUEUR_DIFF": 54
+      },
+      "sections_rattachees": 7335
     },
     "livre des procédures fiscales": {
       "fichier": "lpf.jsonl.gz",
-      "articles": 813,
-      "octets": 185759,
-      "sha256": "18ea065b0d4c79e2f3863eb3fcf96f92ba19335cc661f9de15536801cb925a01",
+      "articles": 1055,
+      "octets": 294508,
+      "sha256": "23748f31bab0be07b76581ae2821b1bb7aace4b78f0b4a5240e01eca1287861c",
       "court": "lpf",
-      "sections_rattachees": 813
+      "applicables": 919,
+      "a_venir": 136,
+      "fin_programmee": 106,
+      "etats": {
+        "VIGUEUR": 814,
+        "ABROGE_DIFF": 91,
+        "ABROGE": 14,
+        "VIGUEUR_DIFF": 102,
+        "MODIFIE_MORT_NE": 34
+      },
+      "sections_rattachees": 1055
     }
   }
 }
