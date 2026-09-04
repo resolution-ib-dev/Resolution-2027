@@ -21,7 +21,12 @@ concurrency:
 jobs:
   extraire:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    # 120 suffisait à un seul balayage (~55-60 min). La résolution par
+    # intitulé lit l'archive une seconde fois en entier avant le balayage
+    # (~55-60 min de plus) : les deux passes combinées ont dépassé 120 min
+    # et fait annuler le job (run #14, 20260904). Le calcul ne change pas
+    # une fois les intitulés retirés de codes.json, seulement l'inverse.
+    timeout-minutes: 210
 
     steps:
       - uses: actions/checkout@v4
@@ -53,8 +58,8 @@ jobs:
           git config user.email "action@users.noreply.github.com"
           git add -A data/
           # Se remettre à jour AVANT de pousser : un commit fait à la main
-          # pendant les 57 minutes du balayage ferait rejeter le push, et
-          # l'extrait serait produit puis jeté.
+          # pendant les (désormais) une à deux heures d'extraction ferait
+          # rejeter le push, et l'extrait serait produit puis jeté.
           git stash --include-untracked || true
           git pull --rebase --autostash origin main || true
           git stash pop || true
