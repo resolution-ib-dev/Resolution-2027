@@ -115,10 +115,11 @@ vaut un job rouge qu'un extrait silencieusement vide.
 
 ## Épreuve à blanc
 
-`python3 essai.py` monte un extrait factice et exerce 14 contrôles : lecture
+`python3 essai.py` monte un extrait factice et exerce 15 contrôles : lecture
 du XML LEGI, article, structure et métadonnées de texte ; résolution par
-intitulé — un texte trouvé, un texte introuvable qui échoue en se nommant ;
-lecture par libellé exact et par nom court ; normalisation de la ponctuation
+intitulé — un texte non codifié, un code (l'identifiant du dossier `texte/`
+retenu, jamais celui du fichier lu), un texte introuvable qui échoue en se
+nommant ; lecture par libellé exact et par nom court ; normalisation de la ponctuation
 d'un numéro sans jamais couper un suffixe ; présence de l'identifiant, de la
 date et du millésime en sortie ; les trois refus ; la recherche par titre de
 section ; la détection d'un extrait périmé. Elle passe, et elle ne prouve rien

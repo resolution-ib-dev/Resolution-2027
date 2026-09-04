@@ -134,7 +134,7 @@ def norm_intitule(s):
 
 
 RE_ID_TEXTE = re.compile(r"(LEGITEXT\d+)\.xml$")
-RE_ID_JORF = re.compile(r"JORFTEXT\d+")
+RE_ID_PARENT_TEXTE = re.compile(r"/([A-Z]+TEXT\d+)/texte/")
 
 
 def lire_titre_texte(donnees, id_attendu):
@@ -192,14 +192,17 @@ def resoudre_intitules(urls, intitules):
 
     Rend (résolus, manquants, ambigus, indices) :
       - résolus : {intitulé d'origine: identifiant}, un par intitulé résolu
-        vers un texte unique. Un texte non codifié est classé par la DILA
-        sous l'identifiant JORFTEXT de l'acte d'origine — c'est lui, et non
-        le LEGITEXT du fichier de métadonnées, que ses articles portent dans
-        leur propre chemin (constaté run #12 : `code rural`, la LOLF et
-        toutes les lois testées rendaient 0 article tant qu'on retenait le
-        LEGITEXT). L'identifiant JORFTEXT du même chemin est donc préféré
-        quand il existe ; le LEGITEXT ne sert de repli que pour un code, dont
-        les articles portent son propre LEGITEXT en toutes lettres ;
+        vers un texte unique. Le fichier de métadonnées vit toujours sous
+        `<identifiant du texte>/texte/{struct,version}/<identifiant du
+        fichier>.xml` — et c'est le PREMIER identifiant, celui du dossier qui
+        porte `texte/`, que les articles reprennent dans leur propre chemin,
+        jamais celui du fichier lui-même. Constaté run #12 (toutes les lois
+        rendaient 0 article : leur dossier est un JORFTEXT, le fichier un
+        LEGITEXT) et run #13 (`code rural et de la pêche maritime` rendait
+        encore 0 : son dossier ET son fichier sont tous deux des LEGITEXT,
+        mais deux identifiants différents — celui du dossier est le bon).
+        Le repli sur l'identifiant du fichier ne sert que si le chemin ne
+        porte pas ce dossier `texte/` du tout ;
       - manquants : les intitulés d'origine absents de l'archive ;
       - ambigus : {intitulé d'origine: [identifiants]}, pour ceux résolus
         vers plusieurs textes — au corpus de trancher, jamais au script ;
@@ -237,8 +240,8 @@ def resoudre_intitules(urls, intitules):
                     titres = lire_titre_texte(f.read(), m.group(1))
                     if not titres:
                         continue
-                    jorf = RE_ID_JORF.search(membre.name)
-                    cible = jorf.group(0) if jorf else m.group(1)
+                    parent = RE_ID_PARENT_TEXTE.search(membre.name)
+                    cible = parent.group(1) if parent else m.group(1)
                     for t, brut in titres.items():
                         if t in intitules:
                             trouvailles[t].add(cible)
