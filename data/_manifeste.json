@@ -1,26 +1,29 @@
 {
-  "millesime_legi": "20260901",
-  "jour_de_reference": "2026-09-02",
-  "archives": 418,
+  "millesime_legi": "20260903",
+  "jour_de_reference": "2026-09-04",
+  "archives": 420,
   "archive": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz",
+  "plancher_historique": "2025-01-01",
   "extrait_le": "",
   "codes": {
     "code général des impôts": {
       "fichier": "cgi.jsonl.gz",
-      "articles": 2636,
-      "octets": 1452435,
-      "sha256": "20e805db28c2d26e9565890f97881ee2fa9d2bf2d1c63ac1a3d6c7aee204f733",
+      "articles": 3484,
+      "octets": 2343036,
+      "sha256": "8589624733d3f2307a950c3baa826228b6d79406c8d656618e3451a5accb8c48",
       "court": "cgi",
       "applicables": 2410,
       "a_venir": 226,
       "fin_programmee": 376,
+      "historiques": 848,
       "etats": {
         "VIGUEUR": 2031,
+        "ABROGE": 160,
+        "MODIFIE": 680,
+        "PERIME": 8,
         "ABROGE_DIFF": 375,
-        "MODIFIE": 8,
-        "MODIFIE_MORT_NE": 47,
+        "MODIFIE_MORT_NE": 56,
         "VIGUEUR_DIFF": 173,
-        "ABROGE": 1,
         "TRANSFERE": 1
       },
       "temoin": "279",
@@ -36,24 +39,26 @@
         "1006",
         "1018 A bis"
       ],
-      "sections_rattachees": 2636
+      "sections_rattachees": 3484
     },
     "code des impositions sur les biens et services": {
       "fichier": "cibs.jsonl.gz",
-      "articles": 3205,
-      "octets": 397958,
-      "sha256": "0381f96ce5f23491c0efa33b660cbb1d1cb2b89aecd594e7ac8a267431d7bd33",
+      "articles": 4494,
+      "octets": 568100,
+      "sha256": "6f2b66dc62987f05195dcc2e7f8113d5903727d74a26cf3af3660959aaf6a8aa",
       "court": "cibs",
       "applicables": 1769,
       "a_venir": 1436,
       "fin_programmee": 282,
+      "historiques": 1289,
       "etats": {
         "VIGUEUR": 1484,
-        "ABROGE_DIFF": 276,
+        "ABROGE_DIFF": 277,
+        "MODIFIE": 226,
+        "ABROGE": 19,
         "VIGUEUR_DIFF": 1378,
-        "MODIFIE": 5,
-        "MODIFIE_MORT_NE": 61,
-        "ABROGE": 1
+        "MODIFIE_MORT_NE": 1086,
+        "TRANSFERE": 24
       },
       "temoin": "L313-20",
       "exemples_applicables": [
@@ -68,23 +73,26 @@
         "A161-19",
         "A161-20"
       ],
-      "sections_rattachees": 3205
+      "sections_rattachees": 4494
     },
     "code de la sécurité sociale": {
       "fichier": "css.jsonl.gz",
-      "articles": 7613,
-      "octets": 2174699,
-      "sha256": "92879474db64201d633dc138f9621be1fdb3d98f0a4c69ad683636a0755521db",
+      "articles": 8452,
+      "octets": 2617747,
+      "sha256": "ea20317070c6c61461551236e86d62caac676724b39d8364c894fec75a08321b",
       "court": "css",
       "applicables": 7425,
       "a_venir": 188,
       "fin_programmee": 119,
+      "historiques": 839,
       "etats": {
         "VIGUEUR": 7296,
+        "ABROGE": 79,
         "ABROGE_DIFF": 119,
+        "MODIFIE": 722,
+        "TRANSFERE": 21,
         "INCONNU": 9,
-        "MODIFIE_MORT_NE": 6,
-        "MODIFIE": 1,
+        "MODIFIE_MORT_NE": 24,
         "VIGUEUR_DIFF": 182
       },
       "temoin": "L136-8",
@@ -100,23 +108,26 @@
         "A931-1-6",
         "A931-1-7"
       ],
-      "sections_rattachees": 7613
+      "sections_rattachees": 8452
     },
     "code général des collectivités territoriales": {
       "fichier": "cgct.jsonl.gz",
-      "articles": 6724,
-      "octets": 1481018,
-      "sha256": "0e007ebcde5f943f448ed792a4d509cc2bcf07e72c29a474bd97d47c479a8fe5",
+      "articles": 7931,
+      "octets": 1845686,
+      "sha256": "b1709d9c65f7cf2e0ed1f798468ad43c0ca767edcbdf79e5c50a620689ddeef6",
       "court": "cgct",
       "applicables": 6619,
       "a_venir": 105,
       "fin_programmee": 52,
+      "historiques": 1207,
       "etats": {
         "VIGUEUR": 6558,
+        "MODIFIE": 682,
+        "ABROGE": 494,
         "VIGUEUR_DIFF": 100,
         "ABROGE_DIFF": 52,
-        "ABROGE": 1,
-        "MODIFIE_MORT_NE": 13
+        "MODIFIE_MORT_NE": 18,
+        "TRANSFERE": 27
       },
       "temoin": "L1613-1",
       "exemples_applicables": [
@@ -131,23 +142,26 @@
         "Annexe H",
         "Annexe I"
       ],
-      "sections_rattachees": 6724
+      "sections_rattachees": 7931
     },
     "code du travail": {
       "fichier": "travail.jsonl.gz",
-      "articles": 11693,
-      "octets": 1969559,
-      "sha256": "fb2cc6eee8007889250ea38cb700f5681c18600c4cdbb1508377c1a156c97b0a",
+      "articles": 12143,
+      "octets": 2096103,
+      "sha256": "d80cac2a440c21f4efeb7cdc76c3f95ba563ff43b980a595d6fc8a46cc9f51ca",
       "court": "travail",
       "applicables": 11598,
       "a_venir": 95,
       "fin_programmee": 119,
+      "historiques": 450,
       "etats": {
         "VIGUEUR": 11478,
+        "MODIFIE": 353,
+        "ABROGE": 93,
         "ABROGE_DIFF": 118,
         "VIGUEUR_DIFF": 92,
         "MODIFIE_MORT_NE": 3,
-        "MODIFIE": 2
+        "TRANSFERE": 6
       },
       "temoin": "L3262-1",
       "exemples_applicables": [
@@ -162,21 +176,25 @@
         "D1143-10",
         "D1143-11"
       ],
-      "sections_rattachees": 11684
+      "sections_rattachees": 12134
     },
     "code de la construction et de l'habitation": {
       "fichier": "cch.jsonl.gz",
-      "articles": 4189,
-      "octets": 1233622,
-      "sha256": "6ad8aac75e50d66a9a3a6a3b1bf51b142bd10ee6799f9337d3dca063e22fc913",
+      "articles": 4332,
+      "octets": 1447182,
+      "sha256": "502c7a4ea857572d8b0fc9d41a02a0df7462761cdc101d4be110bbba55b75d62",
       "court": "cch",
       "applicables": 4113,
       "a_venir": 76,
       "fin_programmee": 67,
+      "historiques": 143,
       "etats": {
         "VIGUEUR": 4046,
+        "MODIFIE": 114,
         "ABROGE_DIFF": 67,
+        "ABROGE": 28,
         "VIGUEUR_DIFF": 70,
+        "TRANSFERE": 1,
         "MODIFIE_MORT_NE": 6
       },
       "temoin": "L313-1",
@@ -192,22 +210,27 @@
         "Annexe I à l'article D353-200",
         "Annexe I à l'article D353-32"
       ],
-      "sections_rattachees": 4188
+      "sections_rattachees": 4331
     },
     "code de l'environnement": {
       "fichier": "environnement.jsonl.gz",
-      "articles": 7335,
-      "octets": 2066796,
-      "sha256": "77c82c5ac19dc2a7a3ec0232f8ed413f592072a159f56c63d09c32261ad65e92",
+      "articles": 7775,
+      "octets": 2361071,
+      "sha256": "23cdd8dbca68565d3d863a4f8b5997609e80b2e55875fb045481a6c11b77282a",
       "court": "environnement",
       "applicables": 7284,
       "a_venir": 51,
       "fin_programmee": 42,
+      "historiques": 440,
       "etats": {
         "VIGUEUR": 7235,
+        "MODIFIE": 396,
         "ABROGE_DIFF": 42,
-        "MODIFIE_MORT_NE": 4,
-        "VIGUEUR_DIFF": 54
+        "ABROGE": 40,
+        "MODIFIE_MORT_NE": 5,
+        "TRANSFERE": 2,
+        "VIGUEUR_DIFF": 54,
+        "ANNULE": 1
       },
       "temoin": "L541-10-1",
       "exemples_applicables": [
@@ -222,23 +245,26 @@
         "Annexe de l'article R214-85",
         "Annexe de l'article R221-29"
       ],
-      "sections_rattachees": 7335
+      "sections_rattachees": 7775
     },
     "livre des procédures fiscales": {
       "fichier": "lpf.jsonl.gz",
-      "articles": 1055,
-      "octets": 294508,
-      "sha256": "23748f31bab0be07b76581ae2821b1bb7aace4b78f0b4a5240e01eca1287861c",
+      "articles": 1227,
+      "octets": 362645,
+      "sha256": "977278fe7bafe21c7bff60435bfe0f2462bf044b6b2581d00047973b118ad222",
       "court": "lpf",
       "applicables": 919,
       "a_venir": 136,
-      "fin_programmee": 106,
+      "fin_programmee": 105,
+      "historiques": 172,
       "etats": {
         "VIGUEUR": 814,
         "ABROGE_DIFF": 91,
-        "ABROGE": 14,
-        "VIGUEUR_DIFF": 102,
-        "MODIFIE_MORT_NE": 34
+        "ABROGE": 81,
+        "MODIFIE": 101,
+        "PERIME": 1,
+        "VIGUEUR_DIFF": 103,
+        "MODIFIE_MORT_NE": 36
       },
       "temoin": "L10",
       "exemples_applicables": [
@@ -253,20 +279,23 @@
         "A26-1",
         "A26-2"
       ],
-      "sections_rattachees": 1055
+      "sections_rattachees": 1227
     },
     "code civil": {
       "fichier": "civil.jsonl.gz",
-      "articles": 2903,
-      "octets": 373020,
-      "sha256": "64c70057f80f1de2b1c346247454692f3b2165767e558b4b51005bfb77f94263",
+      "articles": 2922,
+      "octets": 376868,
+      "sha256": "53308ab64617df05c4ca1e4c48872bdfdd90bb5f836a792b311123d0108fb354",
       "court": "civil",
       "applicables": 2899,
       "a_venir": 4,
       "fin_programmee": 3,
+      "historiques": 19,
       "etats": {
         "VIGUEUR": 2896,
         "ABROGE_DIFF": 3,
+        "MODIFIE": 17,
+        "ABROGE": 2,
         "VIGUEUR_DIFF": 4
       },
       "temoin": "544",
@@ -282,19 +311,21 @@
         "1004",
         "1005"
       ],
-      "sections_rattachees": 2903
+      "sections_rattachees": 2922
     },
     "code général de la propriété des personnes publiques": {
       "fichier": "cg3p.jsonl.gz",
-      "articles": 1136,
-      "octets": 194508,
-      "sha256": "6b98d31e8a91847e84662291296cd3841c53090bc131250886f18bdddb078481",
+      "articles": 1165,
+      "octets": 208995,
+      "sha256": "ed008ccfc1e80d415106672da6d702d62955c43a3485d2918bff491a5cb74aea",
       "court": "cg3p",
       "applicables": 1132,
       "a_venir": 4,
       "fin_programmee": 5,
+      "historiques": 29,
       "etats": {
         "VIGUEUR": 1127,
+        "MODIFIE": 29,
         "ABROGE_DIFF": 5,
         "VIGUEUR_DIFF": 4
       },
@@ -311,22 +342,26 @@
         "D2124-75-1",
         "D2141-1"
       ],
-      "sections_rattachees": 1136
+      "sections_rattachees": 1165
     },
     "code monétaire et financier": {
       "fichier": "monetaire.jsonl.gz",
-      "articles": 5457,
-      "octets": 1491684,
-      "sha256": "fad74144379473667cd866dcc7f47ff417cd945a4b94eb517cff7c86588d24e9",
+      "articles": 6217,
+      "octets": 1864956,
+      "sha256": "3877203fee2d88b52c10110c96d7dc5bfacfa3148b8cbd3acb67cd5ff1850d22",
       "court": "monetaire",
       "applicables": 5314,
       "a_venir": 143,
       "fin_programmee": 142,
+      "historiques": 760,
       "etats": {
         "VIGUEUR": 5172,
+        "MODIFIE": 728,
         "ABROGE_DIFF": 142,
-        "MODIFIE_MORT_NE": 13,
-        "VIGUEUR_DIFF": 130
+        "ABROGE": 25,
+        "MODIFIE_MORT_NE": 19,
+        "VIGUEUR_DIFF": 130,
+        "TRANSFERE": 1
       },
       "temoin": "L511-1",
       "exemples_applicables": [
@@ -341,22 +376,24 @@
         "D112-1",
         "D112-2"
       ],
-      "sections_rattachees": 5457
+      "sections_rattachees": 6217
     },
     "code de commerce": {
       "fichier": "commerce.jsonl.gz",
-      "articles": 7365,
-      "octets": 1762584,
-      "sha256": "a373432b96a147c1d1f2d5158e8eb7dce6449a618473ee57d51dd0a494c008f1",
+      "articles": 7664,
+      "octets": 2023055,
+      "sha256": "d8a59f37f7bc98c5f1160ae83d7156475054581bcf48f4720c7471e5e3653737",
       "court": "commerce",
       "applicables": 7291,
       "a_venir": 74,
       "fin_programmee": 40,
+      "historiques": 299,
       "etats": {
         "VIGUEUR": 7248,
+        "MODIFIE": 262,
+        "ABROGE": 36,
         "ABROGE_DIFF": 40,
-        "MODIFIE": 1,
-        "MODIFIE_MORT_NE": 14,
+        "MODIFIE_MORT_NE": 16,
         "VIGUEUR_DIFF": 62
       },
       "temoin": "L110-1",
@@ -372,22 +409,26 @@
         "A123-15",
         "A123-16"
       ],
-      "sections_rattachees": 7364
+      "sections_rattachees": 7663
     },
     "code de l'éducation": {
       "fichier": "education.jsonl.gz",
-      "articles": 5053,
-      "octets": 1144041,
-      "sha256": "132096ff4f2d33c465d89310b3cc0a5e0b8096fb5cb9232c21a5b58111c081f3",
+      "articles": 5576,
+      "octets": 1602700,
+      "sha256": "580b8ae609ef782f2419b8fa76a6e5ebfd7c73fd9a24d315a19d11fa6a239fc2",
       "court": "education",
       "applicables": 5020,
       "a_venir": 33,
       "fin_programmee": 25,
+      "historiques": 523,
       "etats": {
         "VIGUEUR": 4993,
-        "ABROGE_DIFF": 25,
+        "ABROGE": 54,
+        "MODIFIE": 434,
+        "ABROGE_DIFF": 28,
+        "TRANSFERE": 21,
         "VIGUEUR_DIFF": 29,
-        "MODIFIE_MORT_NE": 6
+        "MODIFIE_MORT_NE": 17
       },
       "temoin": "L111-1",
       "exemples_applicables": [
@@ -402,20 +443,24 @@
         "D111-15",
         "D111-2"
       ],
-      "sections_rattachees": 5053
+      "sections_rattachees": 5576
     },
     "code de l'action sociale et des familles": {
       "fichier": "casf.jsonl.gz",
-      "articles": 3734,
-      "octets": 1087092,
-      "sha256": "dc9e408b94b7050ebde10236791573e98c5306faaa96bc4e3df6b4768c2b8776",
+      "articles": 3989,
+      "octets": 1220114,
+      "sha256": "d0514e06fd0c763343714a685ebb8a86dd940adfe346c00782890a543982198c",
       "court": "casf",
       "applicables": 3690,
       "a_venir": 44,
       "fin_programmee": 31,
+      "historiques": 255,
       "etats": {
         "VIGUEUR": 3659,
+        "MODIFIE": 215,
         "ABROGE_DIFF": 31,
+        "ABROGE": 38,
+        "TRANSFERE": 2,
         "MODIFIE_MORT_NE": 1,
         "VIGUEUR_DIFF": 43
       },
@@ -432,20 +477,24 @@
         "Annexe 2-3-1",
         "Annexe 2-3-2"
       ],
-      "sections_rattachees": 3734
+      "sections_rattachees": 3989
     },
     "code du sport": {
       "fichier": "sport.jsonl.gz",
-      "articles": 1928,
-      "octets": 538677,
-      "sha256": "e18231fe6c919d54a65afbafefb25ee945ced78d6434bfc4d9d219e15ee34535",
+      "articles": 2095,
+      "octets": 718691,
+      "sha256": "5e2cebc135724d8ae9f29e092dc777ca55de5fdea3512ceb641e1b2a978e6097",
       "court": "sport",
       "applicables": 1915,
       "a_venir": 13,
       "fin_programmee": 13,
+      "historiques": 167,
       "etats": {
         "VIGUEUR": 1902,
+        "MODIFIE": 165,
         "ABROGE_DIFF": 13,
+        "TRANSFERE": 1,
+        "ABROGE": 1,
         "VIGUEUR_DIFF": 13
       },
       "temoin": "L100-1",
@@ -461,20 +510,23 @@
         "A112-5",
         "A112-6"
       ],
-      "sections_rattachees": 1928
+      "sections_rattachees": 2095
     },
     "code du patrimoine": {
       "fichier": "patrimoine.jsonl.gz",
-      "articles": 1641,
-      "octets": 304493,
-      "sha256": "dc67c6e2dc81f524fa51779d509a40ed522b1a42433935341c7109878079ee2a",
+      "articles": 1662,
+      "octets": 338482,
+      "sha256": "7e023d7358c5a1b824c16df6849aabaa3f91863779d8385a05e538466ea2b972",
       "court": "patrimoine",
       "applicables": 1637,
       "a_venir": 4,
       "fin_programmee": 3,
+      "historiques": 21,
       "etats": {
         "VIGUEUR": 1634,
+        "MODIFIE": 20,
         "ABROGE_DIFF": 3,
+        "ABROGE": 1,
         "MODIFIE_MORT_NE": 1,
         "VIGUEUR_DIFF": 3
       },
@@ -491,22 +543,26 @@
         "D111-25",
         "D113-10"
       ],
-      "sections_rattachees": 1641
+      "sections_rattachees": 1662
     },
     "code des transports": {
       "fichier": "transports.jsonl.gz",
-      "articles": 9373,
-      "octets": 1832095,
-      "sha256": "af2f1ab4fbef86ab26eb30c98fbf40690a84d5c9a9782637255829387ff3ac80",
+      "articles": 10009,
+      "octets": 2017967,
+      "sha256": "f32531b3d48594d0db81ccc164093c23696d23bdc737a843892af69ae31051bf",
       "court": "transports",
       "applicables": 9269,
       "a_venir": 104,
       "fin_programmee": 95,
+      "historiques": 636,
       "etats": {
         "VIGUEUR": 9172,
         "ABROGE_DIFF": 95,
+        "ABROGE": 85,
+        "MODIFIE": 544,
         "VIGUEUR_DIFF": 101,
         "MODIFIE_MORT_NE": 3,
+        "TRANSFERE": 7,
         "INCONNU": 2
       },
       "temoin": "L1000-1",
@@ -522,19 +578,22 @@
         "A2271-17",
         "A2271-18"
       ],
-      "sections_rattachees": 9373
+      "sections_rattachees": 10009
     },
     "code de la défense": {
       "fichier": "defense.jsonl.gz",
-      "articles": 3462,
-      "octets": 642885,
-      "sha256": "e9c88f0f2bd36d445582f608191655892a1b2efb63b0c36c32f63e42bd52e866",
+      "articles": 3662,
+      "octets": 691546,
+      "sha256": "3f9d608730c9bf67db90d5b8c93054350dd7832aa375ce100691e4f14acca3fd",
       "court": "defense",
       "applicables": 3435,
       "a_venir": 27,
       "fin_programmee": 14,
+      "historiques": 200,
       "etats": {
         "VIGUEUR": 3421,
+        "MODIFIE": 184,
+        "ABROGE": 16,
         "ABROGE_DIFF": 14,
         "VIGUEUR_DIFF": 19,
         "MODIFIE_MORT_NE": 8
@@ -552,22 +611,26 @@
         "D*1221-2",
         "D*1221-3"
       ],
-      "sections_rattachees": 3462
+      "sections_rattachees": 3662
     },
     "code de l'énergie": {
       "fichier": "energie.jsonl.gz",
-      "articles": 3241,
-      "octets": 763341,
-      "sha256": "5e8fd7114bb234830161551273ee4d7b46cae0db309f0fbafc216ec5ad443874",
+      "articles": 3708,
+      "octets": 940643,
+      "sha256": "13a7b5f126bf2e9b44b97b72696e7e43168ea519df77baed28a76e8868c16d3c",
       "court": "energie",
       "applicables": 3232,
       "a_venir": 9,
       "fin_programmee": 7,
+      "historiques": 467,
       "etats": {
         "VIGUEUR": 3221,
+        "MODIFIE": 270,
+        "ABROGE": 193,
         "ABROGE_DIFF": 7,
+        "TRANSFERE": 3,
         "VIGUEUR_DIFF": 10,
-        "MODIFIE_MORT_NE": 3
+        "MODIFIE_MORT_NE": 4
       },
       "temoin": "L100-1",
       "exemples_applicables": [
@@ -582,21 +645,25 @@
         "D111-20",
         "D111-21"
       ],
-      "sections_rattachees": 3241
+      "sections_rattachees": 3704
     },
     "code des douanes": {
       "fichier": "douanes.jsonl.gz",
-      "articles": 1526,
-      "octets": 207750,
-      "sha256": "af188986943d1224fbdc3eed51ef83afc693d175b66c71b80f7f7e989bdc40f8",
+      "articles": 2134,
+      "octets": 378588,
+      "sha256": "95384dc305a5b48a8fb9e1660f22ad51835a37fc937c08e3fc2c526c7e0b2fb5",
       "court": "douanes",
       "applicables": 1435,
       "a_venir": 91,
       "fin_programmee": 76,
+      "historiques": 608,
       "etats": {
-        "MODIFIE_MORT_NE": 16,
+        "ABROGE": 495,
+        "MODIFIE": 93,
+        "TRANSFERE": 10,
+        "MODIFIE_MORT_NE": 25,
         "VIGUEUR_DIFF": 81,
-        "ABROGE_DIFF": 75,
+        "ABROGE_DIFF": 76,
         "VIGUEUR": 1354
       },
       "temoin": "NON ÉPINGLÉ",
@@ -612,7 +679,7 @@
         "A232-1",
         "A234-1"
       ],
-      "sections_rattachees": 1526
+      "sections_rattachees": 2134
     }
   }
 }
