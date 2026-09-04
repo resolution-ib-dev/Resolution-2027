@@ -315,6 +315,11 @@ def balayer(urls, cibles):
 
 FIN_OUVERTE = ("2999-01-01", "", None)
 
+# Plancher de l'historique récent gardé en plus du vivant. Sans lui, un article
+# déjà modifié par le texte en discussion n'a plus de version passée à lire, et
+# la colonne « texte en vigueur » d'un trois colonnes devient fausse dessus.
+PLANCHER = os.environ.get("PLANCHER_HISTORIQUE", "2025-01-01")
+
 
 def applicable(a, jour):
     """Vrai si cette version s'applique le jour dit.
@@ -338,6 +343,20 @@ def a_venir(a, jour):
     """Version dont l'application commence après le jour dit."""
     d = a.get("date_debut") or ""
     return bool(d) and d > jour
+
+
+def dans_l_historique(a, plancher=None):
+    """Version passée, mais assez récente pour rester lisible.
+
+    Vraie si `date_fin` est portée, hors fin ouverte, et postérieure au
+    plancher — c'est l'article tel qu'il s'appliquait avant sa dernière
+    modification, celui qu'un trois colonnes doit encore pouvoir citer.
+    """
+    plancher = plancher or PLANCHER
+    f = a.get("date_fin") or ""
+    if not f or f in FIN_OUVERTE:
+        return False
+    return f > plancher
 
 
 def diagnostic(charge):
@@ -444,21 +463,31 @@ def main():
 
     manifeste = {"millesime_legi": millesime, "jour_de_reference": jour,
                  "archives": len(urls), "archive": urls[0],
+                 "plancher_historique": PLANCHER,
                  "extrait_le": os.environ.get("DATE_EXTRACTION", ""), "codes": {}}
     for court, cle in libelles.items():
-        # On garde ce qui s'applique aujourd'hui et ce qui s'appliquera ;
-        # l'historique périmé ne sert à rien à un rédacteur d'amendement et il
-        # multiplierait le dépôt par dix.
+        # On garde ce qui s'applique aujourd'hui, ce qui s'appliquera, et
+        # l'historique assez récent pour rester lisible (PLANCHER) — sans quoi
+        # un article déjà modifié par le texte en discussion n'a plus de
+        # version passée à lire. Au-delà du plancher, ça multiplierait le
+        # dépôt sans servir un rédacteur d'amendement.
         vivants = {i: a for i, a in articles[court].items()
-                   if applicable(a, jour) or a_venir(a, jour)}
+                   if applicable(a, jour) or a_venir(a, jour) or dans_l_historique(a)}
         manifeste["codes"][cle] = ecrire(court, cle, vivants, sections.get(court, {}))
         manifeste["codes"][cle]["court"] = court
         app = sum(1 for a in vivants.values() if applicable(a, jour))
         prog = sum(1 for a in vivants.values()
                    if applicable(a, jour) and a.get("date_fin") not in FIN_OUVERTE)
+        # Trois catégories exclusives — applicable, à venir, historique — dans
+        # cet ordre : un article à venir peut aussi lire « historique » (une
+        # fin déjà fixée, postérieure au plancher) sans l'être encore.
+        av = sum(1 for a in vivants.values() if not applicable(a, jour) and a_venir(a, jour))
+        hist = sum(1 for a in vivants.values()
+                   if not applicable(a, jour) and not a_venir(a, jour) and dans_l_historique(a))
         manifeste["codes"][cle]["applicables"] = app
-        manifeste["codes"][cle]["a_venir"] = len(vivants) - app
+        manifeste["codes"][cle]["a_venir"] = av
         manifeste["codes"][cle]["fin_programmee"] = prog
+        manifeste["codes"][cle]["historiques"] = hist
         manifeste["codes"][cle]["etats"] = dict(Counter(a["etat"] for a in vivants.values()))
         manifeste["codes"][cle]["temoin"] = temoins.get(court) or "NON ÉPINGLÉ"
         # De quoi épingler un témoin au tour suivant sans retourner sur le web :
@@ -469,7 +498,7 @@ def main():
         manifeste["codes"][cle]["sections_rattachees"] = sum(
             1 for i in vivants if sections.get(court, {}).get(i))
         journal(f"  {cle} : {app} applicables ({prog} à fin programmée), "
-                f"{len(vivants) - app} à venir, sur {len(articles[court])} versions")
+                f"{av} à venir, {hist} historiques, sur {len(articles[court])} versions")
 
     (DATA / "_manifeste.json").write_text(
         json.dumps(manifeste, ensure_ascii=False, indent=2), encoding="utf-8")
