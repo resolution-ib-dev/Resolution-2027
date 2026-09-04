@@ -36,6 +36,7 @@ git clone https://github.com/<compte>/<depot> droit
 python3 droit/droit.py etat
 python3 droit/droit.py article "code général des impôts" 279
 python3 droit/droit.py article cgi "278 sexies-0 A"
+python3 droit/droit.py article cgi 279 --au 2025-06-01
 python3 droit/droit.py section cgi "Taux réduit"
 python3 droit/droit.py verifier mes_vecteurs.json
 ```
@@ -50,6 +51,11 @@ print(droit.rendre(a))          # gabarit de l'étape 1 de redaction-legistique
 
 `mes_vecteurs.json` est de la forme `{"code général des impôts": ["279", "235 bis"]}`
 et rend, par adresse, `trouvé` · `abrogé` · `absent`.
+
+`--au AAAA-MM-JJ` lit l'article tel qu'il s'appliquait à cette date passée,
+plutôt que la version en vigueur aujourd'hui — c'est ce qu'un trois colonnes
+demande pour sa colonne « texte en vigueur » sur un article déjà modifié par
+le texte en discussion. Sans `--au`, le jour courant.
 
 ## Ce que le lecteur refuse, et c'est le point
 

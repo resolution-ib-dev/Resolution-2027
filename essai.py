@@ -58,6 +58,13 @@ def fixture():
     assert millesime == "20260831", millesime
     print("index DILA : complète la plus récente, journalières postérieures dans l'ordre.")
 
+    plancher = "2025-01-01"
+    assert X.dans_l_historique({"date_fin": "2026-03-01"}, plancher), "à garder"
+    assert not X.dans_l_historique({"date_fin": "2011-07-29"}, plancher), "à jeter"
+    assert not X.dans_l_historique({"date_fin": "2999-01-01"}, plancher), "fin ouverte, à ignorer"
+    print("dans_l_historique : garde une fin récente, jette une fin ancienne, "
+          "ignore la fin ouverte.")
+
     lignes = [
         dict(a, code="code général des impôts", section=s["LEGIARTI000006308922"]),
         {"id": "LEGIARTI000000000002", "num": "279", "etat": "VIGUEUR",
@@ -110,6 +117,11 @@ def exercer():
     assert "AVERTISSEMENT" in r and "2027-01-01" in r, r
     print("ABROGE_DIFF : applicable aujourd'hui, et l'avertissement d'abrogation sort.")
 
+    a279_passe = D.article("cgi", "279", jour="2025-06-01")
+    assert a279_passe["id"] == "LEGIARTI000000000002", a279_passe
+    print("lecture au jour= : l'article 279 du 2025-06-01 rend la version d'alors, "
+          "pas la version courante.")
+
     try:
         D.article("cgi", "1000")
     except LookupError as e:
@@ -150,7 +162,7 @@ if __name__ == "__main__":
     try:
         fixture()
         exercer()
-        print("\nÉPREUVE PASSÉE — 10 contrôles.")
+        print("\nÉPREUVE PASSÉE — 12 contrôles.")
         r = subprocess.run([sys.executable, str(RACINE / "droit.py"), "etat"],
                            capture_output=True, text=True)
         print("\n$ droit.py etat\n" + r.stdout.strip())

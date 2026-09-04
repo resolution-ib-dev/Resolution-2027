@@ -12,6 +12,7 @@ Trois interdits, tenus par le code et non par la discipline :
 Emploi en ligne de commande :
     python3 droit.py article "code général des impôts" 279
     python3 droit.py article cgi "278 sexies-0 A"
+    python3 droit.py article cgi 279 --au 2025-06-01
     python3 droit.py section cgi "Taux réduit"
     python3 droit.py verifier vecteurs.json      # lot d'adresses à contrôler
     python3 droit.py etat
@@ -232,7 +233,15 @@ def main(argv):
         return 0
 
     if cmd == "article" and len(argv) >= 4:
-        print(rendre(article(argv[2], " ".join(argv[3:]))))
+        reste = argv[3:]
+        jour = None
+        if "--au" in reste:
+            i = reste.index("--au")
+            if i + 1 >= len(reste):
+                sys.exit("--au attend une date AAAA-MM-JJ.")
+            jour = reste[i + 1]
+            reste = reste[:i] + reste[i + 2:]
+        print(rendre(article(argv[2], " ".join(reste), jour=jour)))
         return 0
 
     if cmd == "section" and len(argv) >= 4:
