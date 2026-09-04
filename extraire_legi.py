@@ -134,6 +134,7 @@ def norm_intitule(s):
 
 
 RE_ID_TEXTE = re.compile(r"(LEGITEXT\d+)\.xml$")
+RE_ID_JORF = re.compile(r"JORFTEXT\d+")
 
 
 def lire_titre_texte(donnees, id_attendu):
@@ -190,8 +191,15 @@ def resoudre_intitules(urls, intitules):
     par identifiant, seul l'en-tête tar de chaque fichier non candidat est lu.
 
     Rend (résolus, manquants, ambigus, indices) :
-      - résolus : {intitulé d'origine: identifiant LEGITEXT}, un par intitulé
-        résolu vers un texte unique ;
+      - résolus : {intitulé d'origine: identifiant}, un par intitulé résolu
+        vers un texte unique. Un texte non codifié est classé par la DILA
+        sous l'identifiant JORFTEXT de l'acte d'origine — c'est lui, et non
+        le LEGITEXT du fichier de métadonnées, que ses articles portent dans
+        leur propre chemin (constaté run #12 : `code rural`, la LOLF et
+        toutes les lois testées rendaient 0 article tant qu'on retenait le
+        LEGITEXT). L'identifiant JORFTEXT du même chemin est donc préféré
+        quand il existe ; le LEGITEXT ne sert de repli que pour un code, dont
+        les articles portent son propre LEGITEXT en toutes lettres ;
       - manquants : les intitulés d'origine absents de l'archive ;
       - ambigus : {intitulé d'origine: [identifiants]}, pour ceux résolus
         vers plusieurs textes — au corpus de trancher, jamais au script ;
@@ -229,9 +237,11 @@ def resoudre_intitules(urls, intitules):
                     titres = lire_titre_texte(f.read(), m.group(1))
                     if not titres:
                         continue
+                    jorf = RE_ID_JORF.search(membre.name)
+                    cible = jorf.group(0) if jorf else m.group(1)
                     for t, brut in titres.items():
                         if t in intitules:
-                            trouvailles[t].add(m.group(1))
+                            trouvailles[t].add(cible)
                         for original, n in numeros.items():
                             if len(indices[original]) < 3 and n in brut:
                                 indices[original].add(brut)
@@ -572,12 +582,21 @@ def main():
 
     vides = [libelles[c] for c in libelles if not articles.get(c)]
     if vides:
+        identifiant_de = {c: i for i, c in cibles.items()}
         diagnostic({
             "motif": "codes sans aucun article extrait",
             "codes_vides": vides,
             "archives": urls[:3] + (["…"] if len(urls) > 3 else []),
             "echantillon_de_chemins": echantillon,
             "comptes": {libelles[c]: len(articles.get(c, {})) for c in libelles},
+            # Un identifiant qui rend une liste vide ici (et non seulement un
+            # compte à 0) n'apparaît nulle part dans l'archive, hors le
+            # fichier de métadonnées qui l'a fait résoudre — la piste
+            # JORFTEXT ne s'applique pas à lui, ce n'est pas la même panne.
+            "chemins_par_code_vide": {
+                libelles[c]: {"identifiant": identifiant_de.get(c), "chemins": chemins.get(c, [])}
+                for c in libelles if not articles.get(c)
+            },
         })
         sys.exit("ÉCHEC — " + ", ".join(vides) + ". Voir data/_diagnostic.json.")
 

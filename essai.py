@@ -125,14 +125,17 @@ def intitules():
         with tarfile.open(fileobj=tampon, mode="r") as tar:
             yield tar
 
-    membre = ("legi/global/.../LEGITEXT000000000099/LEGITEXT000000000099.xml", TEXTE_META_XML)
+    membre = ("legi/global/.../JORFTEXT000000546652/texte/version/LEGITEXT000000000099.xml",
+              TEXTE_META_XML)
 
     X._archive_en_flux = lambda url, timeout=3600: flux_avec([membre])
     cibles = X.resoudre_ou_echouer(
         ["fake://archive"],
         [{"cle": "loi n° 2025-127 du 14 février 2025", "court": "loi2025_127"}])
-    assert cibles == {"LEGITEXT000000000099": "loi2025_127"}, cibles
-    print("intitulé résolu : « loi n° 2025-127 du 14 février 2025 » -> LEGITEXT000000000099.")
+    assert cibles == {"JORFTEXT000000546652": "loi2025_127"}, cibles
+    print("intitulé résolu : « loi n° 2025-127 du 14 février 2025 » -> JORFTEXT000000546652 "
+          "(l'identifiant de l'acte, pas celui du fichier de métadonnées — ses articles le "
+          "portent, pas le LEGITEXT).")
 
     X._archive_en_flux = lambda url, timeout=3600: flux_avec([membre])
     try:
