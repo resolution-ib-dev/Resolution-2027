@@ -121,11 +121,16 @@ def resoudre_archives(max_journalieres=800):
 
 
 def norm_intitule(s):
-    """Casse et espaces normalisés, rien d'autre : la ponctuation et les
-    accents restent — l'intitulé reste « exact », seule sa mise en forme
-    incidente (majuscules, espaces multiples) varie entre la consigne et
-    l'archive."""
-    return re.sub(r"\s+", " ", (s or "").strip()).casefold()
+    """Casse, espaces, espacement autour de « n° » et indicateur ordinal du
+    jour normalisés — le reste (accents, ponctuation, chiffres) reste intact.
+    Constaté sur l'archive réelle (run #10/#11) : un même texte porte tantôt
+    « n°2025-127 », tantôt « n° 2025-127 », et tantôt « 1er août », tantôt
+    « 1 août ». Ce sont des variantes de forme du même intitulé, jamais des
+    intitulés différents — l'intitulé reste « exact » au sens du reste."""
+    s = re.sub(r"\s+", " ", (s or "").strip()).casefold()
+    s = re.sub(r"\bn[°º]\s*", "n°", s)
+    s = re.sub(r"\b1er\b", "1", s)
+    return s
 
 
 RE_ID_TEXTE = re.compile(r"(LEGITEXT\d+)\.xml$")

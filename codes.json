@@ -2,6 +2,7 @@
   "_regle": "Un texte par entrée. `cle` est le libellé exact — celui de la table CODES de cles_eval_gl.py et des sorties de vecteur-mesure pour un code, l'intitulé exact du corpus pour un texte non codifié. `temoin` est un article ordinaire que le texte DOIT porter : son absence fait échouer l'extraction. Ajouter une entrée se fait ici et nulle part ailleurs.",
   "_deux_voies_de_selection": "Une entrée porte `legitext` (l'identifiant Légifrance du texte, relevé une fois pour toutes) OU en est dépourvue — elle résout alors par intitulé exact : extraire_legi.py cherche `cle` dans les métadonnées de chaque texte consolidé de l'archive elle-même, jamais sur le web ni à la main. Un intitulé introuvable, ou qui résout vers plusieurs textes, fait échouer l'extraction en le nommant.",
   "_temoin_absent_pour_les_textes_ajoutes_20260904": "Les entrées ajoutées le 20260904 (lois, ordonnances et codes non couverts par les vingt premiers) portent toutes `temoin: null` : je n'ai pas pu ouvrir l'archive depuis l'atelier pour en relever un dans le texte réel, et un témoin deviné n'aurait aucune valeur de contrôle. Le manifeste les déclare NON ÉPINGLÉ ; à épingler au tour suivant depuis `exemples_applicables`.",
+  "_retires_faute_d_indice_20260904": "« code des douanes de l'union » et « loi n° 60-1356 du 17 décembre 1960 » figuraient dans la liste de consigne mais ont été retirés avant le troisième passage : sur les 420 archives balayées (run #11), aucun texte ne porte leur numéro, même en passant — pas même une mention dans un décret d'application. Un intitulé qui ne résout pas bloque toute l'extraction (les vingt codes compris), donc il ne se laisse pas traîner sans indice. À reprendre une fois le numéro ou l'intitulé exact vérifiés à la main sur Légifrance.",
   "_deja_couverts_non_dupliques_20260904": "La liste des textes à ajouter du 20260904 nommait aussi « code de l'énergie », « code des douanes », « code général des collectivités territoriales », « livre des procédures fiscales » et « code de l'environnement » — les cinq sont déjà portés par les vingt codes ci-dessous, par identifiant. Ne pas les dupliquer : leurs adresses manquantes sont un problème d'article, pas de texte absent.",
   "_releve_le": "20260902",
   "_temoins": "Le témoin du CGI est l'article 279 : c'est lui qui manquait aux deux premiers extraits, avec tout le bloc TVA, sans que rien ne le dise. Sa version courante porte l'état ABROGE_DIFF — applicable, et abrogée au 1er janvier 2027. D'où la règle qui en sort : c'est l'intervalle de dates qui décide de l'applicabilité, jamais l'état.",
@@ -189,11 +190,6 @@
       "temoin": null
     },
     {
-      "cle": "code des douanes de l'union",
-      "court": "douanes_union",
-      "temoin": null
-    },
-    {
       "cle": "code de l'entrée et du séjour des étrangers et du droit d'asile",
       "court": "ceseda",
       "temoin": null
@@ -311,11 +307,6 @@
     {
       "cle": "code du cinéma et de l'image animée",
       "court": "cinema",
-      "temoin": null
-    },
-    {
-      "cle": "loi n° 60-1356 du 17 décembre 1960",
-      "court": "loi60_1356",
       "temoin": null
     },
     {
