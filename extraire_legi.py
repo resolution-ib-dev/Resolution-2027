@@ -132,10 +132,11 @@ RE_ID_TEXTE = re.compile(r"(LEGITEXT\d+)\.xml$")
 
 
 def lire_titre_texte(donnees, id_attendu):
-    """Rend l'ensemble des titres (normalisés) portés par un fichier de
-    métadonnées de texte LEGI, si son identifiant interne confirme celui du
-    nom de fichier qui l'a désigné. None si l'identifiant ne correspond pas,
-    ou si le fichier ne porte aucun titre."""
+    """Rend {titre normalisé: titre brut} porté par un fichier de métadonnées
+    de texte LEGI, si son identifiant interne confirme celui du nom de
+    fichier qui l'a désigné. None si l'identifiant ne correspond pas, ou si
+    le fichier ne porte aucun titre. Le brut n'est jamais comparé — seul le
+    normalisé résout — mais il sert d'indice quand rien ne résout."""
     try:
         racine = analyser(donnees)
     except ET.ParseError:
@@ -144,9 +145,24 @@ def lire_titre_texte(donnees, id_attendu):
     ident = (el.text or "").strip() if el is not None and el.text else ""
     if ident and ident != id_attendu:
         return None
-    titres = {norm_intitule(texte_de(premier(racine, nom)))
-              for nom in ("TITRE", "TITREFULL") if texte_de(premier(racine, nom))}
+    titres = {}
+    for nom in ("TITRE", "TITREFULL"):
+        brut = texte_de(premier(racine, nom))
+        if brut:
+            titres[norm_intitule(brut)] = brut
     return titres or None
+
+
+RE_NUMERO_INTITULE = re.compile(r"n[°ºo]\s*([\w.-]+)", re.I)
+
+
+def numero_de(intitule):
+    """Le numéro d'un intitulé (« 2025-127 » dans « loi n° 2025-127 du 14
+    février 2025 »), ou None. Sert uniquement d'indice de diagnostic : un
+    titre réel qui le porte n'est jamais retenu comme résolution — seule
+    l'égalité normalisée totale résout."""
+    m = RE_NUMERO_INTITULE.search(intitule or "")
+    return m.group(1) if m else None
 
 
 @contextlib.contextmanager
@@ -168,12 +184,17 @@ def resoudre_intitules(urls, intitules):
     demandés. Rien d'autre n'est extrait : comme pour les articles retenus
     par identifiant, seul l'en-tête tar de chaque fichier non candidat est lu.
 
-    Rend (résolus, manquants, ambigus) :
+    Rend (résolus, manquants, ambigus, indices) :
       - résolus : {intitulé d'origine: identifiant LEGITEXT}, un par intitulé
         résolu vers un texte unique ;
       - manquants : les intitulés d'origine absents de l'archive ;
       - ambigus : {intitulé d'origine: [identifiants]}, pour ceux résolus
-        vers plusieurs textes — au corpus de trancher, jamais au script.
+        vers plusieurs textes — au corpus de trancher, jamais au script ;
+      - indices : {intitulé d'origine: [titres bruts]}, jusqu'à trois titres
+        réels de l'archive portant le même numéro (« 2025-127 »absent de la
+        clé) qu'un intitulé qui, lui, ne résout pas. Jamais retenu comme
+        résolution — seulement de quoi corriger `cle` au tour suivant sans
+        rejouer le balayage.
 
     Coûte une lecture complète de l'archive, en plus de celle du balayage des
     articles : les deux passes ne peuvent pas se confondre en une seule sans
@@ -181,6 +202,9 @@ def resoudre_intitules(urls, intitules):
     arriverait plus loin dans le flux que ses articles.
     """
     trouvailles = defaultdict(set)
+    numeros = {original: numero_de(original) for original in intitules.values()}
+    numeros = {original: n for original, n in numeros.items() if n}
+    indices = defaultdict(set)
 
     for rang, url in enumerate(urls, 1):
         vus = candidats = 0
@@ -200,9 +224,12 @@ def resoudre_intitules(urls, intitules):
                     titres = lire_titre_texte(f.read(), m.group(1))
                     if not titres:
                         continue
-                    for t in titres:
+                    for t, brut in titres.items():
                         if t in intitules:
                             trouvailles[t].add(m.group(1))
+                        for original, n in numeros.items():
+                            if len(indices[original]) < 3 and n in brut:
+                                indices[original].add(brut)
         except Exception as e:
             if rang == 1:
                 diagnostic({"motif": "archive complète illisible (résolution des intitulés)",
@@ -222,7 +249,8 @@ def resoudre_intitules(urls, intitules):
             ambigus[original] = sorted(ids)
         else:
             resolus[original] = next(iter(ids))
-    return resolus, manquants, ambigus
+    indices = {original: sorted(indices[original]) for original in manquants if indices.get(original)}
+    return resolus, manquants, ambigus, indices
 
 
 def resoudre_ou_echouer(urls, par_intitule):
@@ -231,11 +259,14 @@ def resoudre_ou_echouer(urls, par_intitule):
     if not par_intitule:
         return {}
     intitules = {norm_intitule(c["cle"]): c["cle"] for c in par_intitule}
-    resolus, manquants, ambigus = resoudre_intitules(urls, intitules)
+    resolus, manquants, ambigus, indices = resoudre_intitules(urls, intitules)
     if manquants or ambigus:
         diagnostic({"motif": "intitulés non résolus dans l'archive",
-                    "introuvables": sorted(manquants), "ambigus": ambigus})
-        morceaux = [f"« {m} » introuvable" for m in sorted(manquants)]
+                    "introuvables": sorted(manquants), "ambigus": ambigus,
+                    "titres_reels_proches": indices})
+        morceaux = [f"« {m} » introuvable" + (f" — titre(s) réel(s) proche(s) : {indices[m]}"
+                                               if indices.get(m) else "")
+                    for m in sorted(manquants)]
         morceaux += [f"« {c} » résolu vers {len(ids)} textes {ids}"
                      for c, ids in ambigus.items()]
         sys.exit("ÉCHEC — intitulés non résolus : " + " ; ".join(morceaux) +
