@@ -13,6 +13,7 @@ Sortie, un fichier par code : data/<court>.jsonl.gz, une ligne par article.
   {id, num, code, etat, date_debut, date_fin, section, texte}
 Plus data/_manifeste.json : millésime du dump, comptes, empreintes.
 """
+import contextlib
 import datetime
 import gzip
 import hashlib
@@ -113,6 +114,136 @@ def resoudre_archives(max_journalieres=800):
     journal(f"journalières postérieures : {len(journalieres)}")
     millesime = (horodatage(journalieres[-1]) if journalieres else seuil)[:8]
     return [BASE + n for n in [pleine] + journalieres], millesime
+
+
+# --------------------------------------------------------------------------
+# 1bis. Résoudre un intitulé vers son identifiant LEGITEXT
+
+
+def norm_intitule(s):
+    """Casse et espaces normalisés, rien d'autre : la ponctuation et les
+    accents restent — l'intitulé reste « exact », seule sa mise en forme
+    incidente (majuscules, espaces multiples) varie entre la consigne et
+    l'archive."""
+    return re.sub(r"\s+", " ", (s or "").strip()).casefold()
+
+
+RE_ID_TEXTE = re.compile(r"(LEGITEXT\d+)\.xml$")
+
+
+def lire_titre_texte(donnees, id_attendu):
+    """Rend l'ensemble des titres (normalisés) portés par un fichier de
+    métadonnées de texte LEGI, si son identifiant interne confirme celui du
+    nom de fichier qui l'a désigné. None si l'identifiant ne correspond pas,
+    ou si le fichier ne porte aucun titre."""
+    try:
+        racine = analyser(donnees)
+    except ET.ParseError:
+        return None
+    el = premier(racine, "ID")
+    ident = (el.text or "").strip() if el is not None and el.text else ""
+    if ident and ident != id_attendu:
+        return None
+    titres = {norm_intitule(texte_de(premier(racine, nom)))
+              for nom in ("TITRE", "TITREFULL") if texte_de(premier(racine, nom))}
+    return titres or None
+
+
+@contextlib.contextmanager
+def _archive_en_flux(url, timeout=3600):
+    """Ouvre une archive LEGI en flux tar. Unique point de réseau de
+    `resoudre_intitules` — remplaçable sans réseau par un essai."""
+    req = urllib.request.Request(url, headers=AGENT)
+    with urllib.request.urlopen(req, timeout=timeout) as flux:
+        with tarfile.open(fileobj=flux, mode="r|gz") as tar:
+            yield tar
+
+
+def resoudre_intitules(urls, intitules):
+    """intitules : {intitulé normalisé: intitulé d'origine}.
+
+    Balaie l'archive à la recherche du fichier de métadonnées propre à chaque
+    texte — son propre identifiant en nom de fichier, `<LEGITEXT...>.xml` —
+    et compare son TITRE et son TITREFULL, normalisés, aux intitulés
+    demandés. Rien d'autre n'est extrait : comme pour les articles retenus
+    par identifiant, seul l'en-tête tar de chaque fichier non candidat est lu.
+
+    Rend (résolus, manquants, ambigus) :
+      - résolus : {intitulé d'origine: identifiant LEGITEXT}, un par intitulé
+        résolu vers un texte unique ;
+      - manquants : les intitulés d'origine absents de l'archive ;
+      - ambigus : {intitulé d'origine: [identifiants]}, pour ceux résolus
+        vers plusieurs textes — au corpus de trancher, jamais au script.
+
+    Coûte une lecture complète de l'archive, en plus de celle du balayage des
+    articles : les deux passes ne peuvent pas se confondre en une seule sans
+    risquer de manquer les articles d'un texte dont le fichier de métadonnées
+    arriverait plus loin dans le flux que ses articles.
+    """
+    trouvailles = defaultdict(set)
+
+    for rang, url in enumerate(urls, 1):
+        vus = candidats = 0
+        try:
+            with _archive_en_flux(url) as tar:
+                for membre in tar:
+                    if not membre.isfile() or not membre.name.endswith(".xml"):
+                        continue
+                    vus += 1
+                    m = RE_ID_TEXTE.search(membre.name)
+                    if not m:
+                        continue
+                    candidats += 1
+                    f = tar.extractfile(membre)
+                    if f is None:
+                        continue
+                    titres = lire_titre_texte(f.read(), m.group(1))
+                    if not titres:
+                        continue
+                    for t in titres:
+                        if t in intitules:
+                            trouvailles[t].add(m.group(1))
+        except Exception as e:
+            if rang == 1:
+                diagnostic({"motif": "archive complète illisible (résolution des intitulés)",
+                            "url": url, "erreur": repr(e)})
+                sys.exit(f"ÉCHEC — archive complète illisible : {e!r}.")
+            journal(f"  [{rang}/{len(urls)}] ILLISIBLE, ignorée (résolution intitulés) : "
+                    f"{url.split('/')[-1]} — {e!r}")
+            continue
+        journal(f"  [{rang}/{len(urls)}] résolution intitulés — {vus} XML, {candidats} candidats")
+
+    resolus, manquants, ambigus = {}, set(), {}
+    for t, original in intitules.items():
+        ids = trouvailles.get(t, set())
+        if not ids:
+            manquants.add(original)
+        elif len(ids) > 1:
+            ambigus[original] = sorted(ids)
+        else:
+            resolus[original] = next(iter(ids))
+    return resolus, manquants, ambigus
+
+
+def resoudre_ou_echouer(urls, par_intitule):
+    """Résout les entrées de codes.json portées par intitulé, ou échoue en
+    nommant ce qui bloque. Rend {identifiant LEGITEXT: court}."""
+    if not par_intitule:
+        return {}
+    intitules = {norm_intitule(c["cle"]): c["cle"] for c in par_intitule}
+    resolus, manquants, ambigus = resoudre_intitules(urls, intitules)
+    if manquants or ambigus:
+        diagnostic({"motif": "intitulés non résolus dans l'archive",
+                    "introuvables": sorted(manquants), "ambigus": ambigus})
+        morceaux = [f"« {m} » introuvable" for m in sorted(manquants)]
+        morceaux += [f"« {c} » résolu vers {len(ids)} textes {ids}"
+                     for c, ids in ambigus.items()]
+        sys.exit("ÉCHEC — intitulés non résolus : " + " ; ".join(morceaux) +
+                 ". Voir data/_diagnostic.json.")
+    court_de = {c["cle"]: c["court"] for c in par_intitule}
+    for cle, legitext in resolus.items():
+        journal(f"  intitulé résolu : « {cle} » -> {legitext}")
+    return {legitext: court_de[cle] for cle, legitext in resolus.items()}
 
 
 # --------------------------------------------------------------------------
@@ -383,7 +514,11 @@ def ecrire(court, cle, arts, sect):
 
 def main():
     cfg = json.loads((RACINE / "codes.json").read_text(encoding="utf-8"))
-    cibles = {c["legitext"]: c["court"] for c in cfg["codes"]}
+    # Deux voies de sélection : par identifiant LEGITEXT (les codes), et par
+    # intitulé exact (les textes non codifiés) — résolu dans l'archive elle-
+    # même, jamais deviné.
+    par_id = [c for c in cfg["codes"] if c.get("legitext")]
+    par_intitule = [c for c in cfg["codes"] if not c.get("legitext")]
     libelles = {c["court"]: c["cle"] for c in cfg["codes"]}
 
     temoins = {c["court"]: c.get("temoin") for c in cfg["codes"]}
@@ -391,6 +526,12 @@ def main():
     journal(f"jour de référence : {jour}")
 
     urls, millesime = resoudre_archives()
+
+    cibles = {c["legitext"]: c["court"] for c in par_id}
+    if par_intitule:
+        journal(f"résolution par intitulé : {len(par_intitule)} texte(s) à relever dans l'archive")
+        cibles.update(resoudre_ou_echouer(urls, par_intitule))
+
     articles, sections, echantillon, echecs, exemples, chemins = balayer(urls, cibles)
 
     vides = [libelles[c] for c in libelles if not articles.get(c)]
@@ -461,10 +602,18 @@ def main():
                     "comptes": {libelles[c]: len(articles[c]) for c in libelles}})
         sys.exit("ÉCHEC — " + " ; ".join(manquants) + ". Voir data/_diagnostic.json.")
 
+    # Les vingt codes historiques (sélectionnés par identifiant) ne sont
+    # jamais soumis au budget : ils passent toujours, dans l'ordre où ils
+    # figurent déjà dans codes.json, avant tout texte ajouté par intitulé.
+    cles_par_id = {c["cle"] for c in par_id}
+    limite_octets = int(os.environ.get("LIMITE_EXTRAIT_OCTETS", 60_000_000))
+    octets_verses = 0
+
     manifeste = {"millesime_legi": millesime, "jour_de_reference": jour,
                  "archives": len(urls), "archive": urls[0],
                  "plancher_historique": PLANCHER,
-                 "extrait_le": os.environ.get("DATE_EXTRACTION", ""), "codes": {}}
+                 "extrait_le": os.environ.get("DATE_EXTRACTION", ""),
+                 "codes": {}, "non_verses": {}}
     for court, cle in libelles.items():
         # On garde ce qui s'applique aujourd'hui, ce qui s'appliquera, et
         # l'historique assez récent pour rester lisible (PLANCHER) — sans quoi
@@ -473,7 +622,22 @@ def main():
         # dépôt sans servir un rédacteur d'amendement.
         vivants = {i: a for i, a in articles[court].items()
                    if applicable(a, jour) or a_venir(a, jour) or dans_l_historique(a)}
-        manifeste["codes"][cle] = ecrire(court, cle, vivants, sections.get(court, {}))
+        info = ecrire(court, cle, vivants, sections.get(court, {}))
+
+        # Le volume de l'extrait est borné : un texte ajouté qui ferait
+        # dépasser la limite n'est pas versé, il est déclaré au manifeste —
+        # par ordre de priorité de codes.json, jamais au hasard. Les vingt
+        # codes existants ne sont jamais concernés : ils passent en premier.
+        if cle not in cles_par_id and octets_verses + info["octets"] > limite_octets:
+            (DATA / info["fichier"]).unlink()
+            manifeste["non_verses"][cle] = {
+                "motif": f"budget de l'extrait atteint ({limite_octets/1e6:.0f} Mo)",
+                "court": court, "octets_du_texte": info["octets"]}
+            journal(f"  {cle} : NON VERSÉ — budget de l'extrait atteint "
+                    f"({octets_verses/1e6:.1f} Mo déjà versés)")
+            continue
+        octets_verses += info["octets"]
+        manifeste["codes"][cle] = info
         manifeste["codes"][cle]["court"] = court
         app = sum(1 for a in vivants.values() if applicable(a, jour))
         prog = sum(1 for a in vivants.values()
