@@ -1,5 +1,9 @@
 {
-  "_regle": "Un code par entrée. `cle` est le libellé exact employé par l'appareil Résolution — celui de la table CODES de cles_eval_gl.py et des sorties de vecteur-mesure. `legitext` est l'identifiant Légifrance du code. `temoin` est un article ordinaire que le code DOIT porter : son absence fait échouer l'extraction. Ajouter un code se fait ici et nulle part ailleurs.",
+  "_regle": "Un texte par entrée. `cle` est le libellé exact — celui de la table CODES de cles_eval_gl.py et des sorties de vecteur-mesure pour un code, l'intitulé exact du corpus pour un texte non codifié. `temoin` est un article ordinaire que le texte DOIT porter : son absence fait échouer l'extraction. Ajouter une entrée se fait ici et nulle part ailleurs.",
+  "_deux_voies_de_selection": "Une entrée porte `legitext` (l'identifiant Légifrance du texte, relevé une fois pour toutes) OU en est dépourvue — elle résout alors par intitulé exact : extraire_legi.py cherche `cle` dans les métadonnées de chaque texte consolidé de l'archive elle-même, jamais sur le web ni à la main. Un intitulé introuvable, ou qui résout vers plusieurs textes, fait échouer l'extraction en le nommant.",
+  "_temoin_absent_pour_les_textes_ajoutes_20260904": "Les entrées ajoutées le 20260904 (lois, ordonnances et codes non couverts par les vingt premiers) portent toutes `temoin: null` : je n'ai pas pu ouvrir l'archive depuis l'atelier pour en relever un dans le texte réel, et un témoin deviné n'aurait aucune valeur de contrôle. Le manifeste les déclare NON ÉPINGLÉ ; à épingler au tour suivant depuis `exemples_applicables`.",
+  "_retires_faute_d_indice_20260904": "« code des douanes de l'union » et « loi n° 60-1356 du 17 décembre 1960 » figuraient dans la liste de consigne mais ont été retirés avant le troisième passage : sur les 420 archives balayées (run #11), aucun texte ne porte leur numéro, même en passant — pas même une mention dans un décret d'application. Un intitulé qui ne résout pas bloque toute l'extraction (les vingt codes compris), donc il ne se laisse pas traîner sans indice. À reprendre une fois le numéro ou l'intitulé exact vérifiés à la main sur Légifrance.",
+  "_deja_couverts_non_dupliques_20260904": "La liste des textes à ajouter du 20260904 nommait aussi « code de l'énergie », « code des douanes », « code général des collectivités territoriales », « livre des procédures fiscales » et « code de l'environnement » — les cinq sont déjà portés par les vingt codes ci-dessous, par identifiant. Ne pas les dupliquer : leurs adresses manquantes sont un problème d'article, pas de texte absent.",
   "_releve_le": "20260902",
   "_temoins": "Le témoin du CGI est l'article 279 : c'est lui qui manquait aux deux premiers extraits, avec tout le bloc TVA, sans que rien ne le dise. Sa version courante porte l'état ABROGE_DIFF — applicable, et abrogée au 1er janvier 2027. D'où la règle qui en sort : c'est l'intervalle de dates qui décide de l'applicabilité, jamais l'état.",
   "_couverture": "Les vingt codes couvrent la table de vérité-terrain de l'appareil d'éval, plus le code civil et le code général de la propriété des personnes publiques, qui lui manquaient (A-275). Le coût du balayage ne dépend pas du nombre de codes : l'archive se lit en entier dans tous les cas. Ajouter un code coûte quelques mégaoctets, pas une minute.",
@@ -123,6 +127,216 @@
       "cle": "code des douanes",
       "legitext": "LEGITEXT000006071570",
       "court": "douanes",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2025-127 du 14 février 2025",
+      "court": "loi2025_127",
+      "temoin": null
+    },
+    {
+      "cle": "code de la santé publique",
+      "court": "sante",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2020-1721 du 29 décembre 2020",
+      "court": "loi2020_1721",
+      "temoin": null
+    },
+    {
+      "cle": "ordonnance n° 2021-1843 du 22 décembre 2021",
+      "court": "ord2021_1843",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2019-1479 du 28 décembre 2019",
+      "court": "loi2019_1479",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2023-1322 du 29 décembre 2023",
+      "court": "loi2023_1322",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2022-1157 du 16 août 2022",
+      "court": "loi2022_1157",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2005-1719 du 30 décembre 2005",
+      "court": "loi2005_1719",
+      "temoin": null
+    },
+    {
+      "cle": "code de procédure pénale",
+      "court": "cpp",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2022-1726 du 30 décembre 2022",
+      "court": "loi2022_1726",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2025-797 du 11 août 2025",
+      "court": "loi2025_797",
+      "temoin": null
+    },
+    {
+      "cle": "code de la voirie routière",
+      "court": "voirie",
+      "temoin": null
+    },
+    {
+      "cle": "code de l'entrée et du séjour des étrangers et du droit d'asile",
+      "court": "ceseda",
+      "temoin": null
+    },
+    {
+      "cle": "code de la recherche",
+      "court": "recherche",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2018-1317 du 28 décembre 2018",
+      "court": "loi2018_1317",
+      "temoin": null
+    },
+    {
+      "cle": "code rural et de la pêche maritime",
+      "court": "rural",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2021-1900 du 30 décembre 2021",
+      "court": "loi2021_1900",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2004-1485 du 30 décembre 2004",
+      "court": "loi2004_1485",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 71-1130 du 31 décembre 1971",
+      "court": "loi71_1130",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 91-647 du 10 juillet 1991",
+      "court": "loi91_647",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2011-1977 du 28 décembre 2011",
+      "court": "loi2011_1977",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2016-1917 du 29 décembre 2016",
+      "court": "loi2016_1917",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2009-1673 du 30 décembre 2009",
+      "court": "loi2009_1673",
+      "temoin": null
+    },
+    {
+      "cle": "code des assurances",
+      "court": "assurances",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2020-935 du 30 juillet 2020",
+      "court": "loi2020_935",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 94-126 du 11 février 1994",
+      "court": "loi94_126",
+      "temoin": null
+    },
+    {
+      "cle": "code de l'urbanisme",
+      "court": "urbanisme",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 95-115 du 4 février 1995",
+      "court": "loi95_115",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2025-176 du 24 février 2025",
+      "court": "loi2025_176",
+      "temoin": null
+    },
+    {
+      "cle": "code de la commande publique",
+      "court": "commande_publique",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2015-1785 du 29 décembre 2015",
+      "court": "loi2015_1785",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2014-1654 du 29 décembre 2014",
+      "court": "loi2014_1654",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 93-859 du 22 juin 1993",
+      "court": "loi93_859",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 78-654 du 22 juin 1978",
+      "court": "loi78_654",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2017-1837 du 30 décembre 2017",
+      "court": "loi2017_1837",
+      "temoin": null
+    },
+    {
+      "cle": "code du cinéma et de l'image animée",
+      "court": "cinema",
+      "temoin": null
+    },
+    {
+      "cle": "loi organique n° 2001-692 du 1er août 2001",
+      "court": "loi_org2001_692",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 73-1150 du 27 décembre 1973",
+      "court": "loi73_1150",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2003-710 du 1er août 2003",
+      "court": "loi2003_710",
+      "temoin": null
+    },
+    {
+      "cle": "ordonnance n° 2014-948 du 20 août 2014",
+      "court": "ord2014_948",
+      "temoin": null
+    },
+    {
+      "cle": "code de la consommation",
+      "court": "conso",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2015-991 du 7 août 2015",
+      "court": "loi2015_991",
       "temoin": null
     }
   ],

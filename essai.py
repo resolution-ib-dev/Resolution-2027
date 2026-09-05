@@ -5,7 +5,7 @@ Ne remplace pas un vrai rafraîchissement. Prouve deux choses seulement :
 que le parseur d'articles et de structure lit la forme LEGI documentée, et
 que le lecteur refuse ce qu'il doit refuser.
 """
-import gzip, json, pathlib, shutil, subprocess, sys
+import contextlib, gzip, io, json, pathlib, shutil, subprocess, sys, tarfile
 
 RACINE = pathlib.Path(__file__).parent
 DATA = RACINE / "data"
@@ -27,6 +27,24 @@ STRUCT_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
     <LIEN_ART id="LEGIARTI000006308922" num="235 bis"/>
   </LIEN_SECTION_TA>
 </STRUCT></TEXTELR>"""
+
+TEXTE_META_XML = """<?xml version="1.0" encoding="UTF-8"?>
+<TEXTE_VERSION>
+  <META><META_COMMUN><ID>LEGITEXT000000000099</ID><NATURE>LOI</NATURE></META_COMMUN>
+  <META_SPEC><META_TEXTE_VERSION>
+    <TITRE>LOI n°2025-127 du 14 février 2025</TITRE>
+    <TITREFULL>LOI n° 2025-127 du 14 février 2025 de finances pour 2025 (1)</TITREFULL>
+  </META_TEXTE_VERSION></META_SPEC></META>
+</TEXTE_VERSION>""".encode("utf-8")
+
+CODE_META_XML = """<?xml version="1.0" encoding="UTF-8"?>
+<TEXTE_VERSION>
+  <META><META_COMMUN><ID>LEGITEXT000022197698</ID><NATURE>CODE</NATURE></META_COMMUN>
+  <META_SPEC><META_TEXTE_VERSION>
+    <TITRE>Code rural et de la pêche maritime</TITRE>
+    <TITREFULL>Code rural et de la pêche maritime</TITREFULL>
+  </META_TEXTE_VERSION></META_SPEC></META>
+</TEXTE_VERSION>""".encode("utf-8")
 
 
 def fixture():
@@ -97,6 +115,63 @@ def fixture():
                   "sections_rattachees": 2}}}, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def intitules():
+    """Trois contrôles, sans réseau : un intitulé qui résout vers un texte non
+    codifié (dossier JORFTEXT, fichier LEGITEXT), un vers un code (dossier ET
+    fichier LEGITEXT, mais deux identifiants différents — le run #13 a montré
+    qu'ils divergent bel et bien : `code rural et de la pêche maritime`
+    rendait 0 article tant qu'on retenait celui du fichier), et un intitulé
+    introuvable qui fait échouer l'extraction en se nommant.
+    `_archive_en_flux` est le seul point de réseau de la résolution par
+    intitulé — le remplacer suffit à l'éprouver hors ligne."""
+    import extraire_legi as X
+
+    @contextlib.contextmanager
+    def flux_avec(membres):
+        tampon = io.BytesIO()
+        with tarfile.open(fileobj=tampon, mode="w") as tar:
+            for nom, contenu in membres:
+                info = tarfile.TarInfo(nom)
+                info.size = len(contenu)
+                tar.addfile(info, io.BytesIO(contenu))
+        tampon.seek(0)
+        with tarfile.open(fileobj=tampon, mode="r") as tar:
+            yield tar
+
+    membre_loi = ("legi/global/.../JORFTEXT000000546652/texte/version/LEGITEXT000000000099.xml",
+                  TEXTE_META_XML)
+
+    X._archive_en_flux = lambda url, timeout=3600: flux_avec([membre_loi])
+    cibles = X.resoudre_ou_echouer(
+        ["fake://archive"],
+        [{"cle": "loi n° 2025-127 du 14 février 2025", "court": "loi2025_127"}])
+    assert cibles == {"JORFTEXT000000546652": "loi2025_127"}, cibles
+    print("intitulé résolu (texte non codifié) : « loi n° 2025-127 du 14 février 2025 » -> "
+          "JORFTEXT000000546652 (l'identifiant du dossier, pas celui du fichier lu).")
+
+    membre_code = ("legi/.../LEGITEXT000006071367/texte/struct/LEGITEXT000022197698.xml",
+                   CODE_META_XML)
+    X._archive_en_flux = lambda url, timeout=3600: flux_avec([membre_code])
+    cibles = X.resoudre_ou_echouer(
+        ["fake://archive"],
+        [{"cle": "code rural et de la pêche maritime", "court": "rural"}])
+    assert cibles == {"LEGITEXT000006071367": "rural"}, cibles
+    print("intitulé résolu (code) : « code rural et de la pêche maritime » -> "
+          "LEGITEXT000006071367, pas LEGITEXT000022197698 (l'identifiant du fichier de "
+          "métadonnées lui-même, une version datée distincte du code).")
+
+    X._archive_en_flux = lambda url, timeout=3600: flux_avec([membre_loi])
+    try:
+        X.resoudre_ou_echouer(
+            ["fake://archive"],
+            [{"cle": "loi n° 0000-000 du 1er janvier 2000", "court": "inconnue"}])
+    except SystemExit as e:
+        assert "loi n° 0000-000 du 1er janvier 2000" in str(e), str(e)
+        print("intitulé introuvable : l'extraction échoue en le nommant.")
+    else:
+        sys.exit("ÉCHEC : un intitulé introuvable aurait dû faire échouer l'extraction.")
+
+
 def exercer():
     import droit as D
     D._cache.clear()
@@ -161,8 +236,9 @@ if __name__ == "__main__":
         shutil.move(str(DATA), str(SAUVE))
     try:
         fixture()
+        intitules()
         exercer()
-        print("\nÉPREUVE PASSÉE — 12 contrôles.")
+        print("\nÉPREUVE PASSÉE — 15 contrôles.")
         r = subprocess.run([sys.executable, str(RACINE / "droit.py"), "etat"],
                            capture_output=True, text=True)
         print("\n$ droit.py etat\n" + r.stdout.strip())

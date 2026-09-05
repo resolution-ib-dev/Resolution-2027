@@ -70,24 +70,33 @@ S'y ajoute la fraîcheur : le millésime de l'extrait est porté dans chaque sor
 et au-delà de 45 jours la mention `À REJOUER` s'imprime d'elle-même. C'est la
 règle du vecteur périmé de `vecteur-mesure`, appliquée au texte.
 
-## Les codes portés
+## Les textes portés
 
-Ils vivent dans `codes.json`, et nulle part ailleurs. Les huit du premier lot
-couvrent tout ce qu'on a rencontré sur les 42 amendements de Génération Libre :
-code général des impôts, code des impositions sur les biens et services, code de
-la sécurité sociale, code général des collectivités territoriales, code du
-travail, code de la construction et de l'habitation, code de l'environnement,
-livre des procédures fiscales.
+Ils vivent dans `codes.json`, et nulle part ailleurs. L'extrait ne porte plus
+seulement des codes : il porte aussi les textes non codifiés — lois, lois de
+finances, ordonnances — que la base LEGI publie à côté des codes.
 
-**Ajouter un code** : une ligne dans `codes.json` avec son identifiant
-`LEGITEXT`, un commit, et l'action repart seule.
+Une entrée s'y résout par l'une de deux voies :
 
-**Les lois non codifiées** entrent par le même mécanisme — l'extracteur filtre
-sur l'identifiant `LEGITEXT` où qu'il apparaisse, et LEGI porte les textes non
-codifiés consolidés à côté des codes. C'est ce qui donnera accès aux articles de
-lois de finances antérieures, dont l'éval a montré qu'ils portent au moins un
-siège que la skill n'a pas su trouver. **À éprouver au premier ajout** : je ne
-l'ai pas vérifié.
+- **par identifiant**, quand l'entrée porte un champ `legitext` — c'est le cas
+  des vingt premiers codes, dont l'identifiant Légifrance a été relevé une
+  fois pour toutes ;
+- **par intitulé exact**, sinon — `extraire_legi.py` cherche `cle` dans les
+  métadonnées de chaque texte consolidé de l'archive **elle-même** : rien ne
+  se cherche sur le web, aucun identifiant ne se saisit à la main. Un
+  intitulé introuvable, ou qui résout vers plusieurs textes, fait échouer
+  l'extraction en le nommant plutôt que de s'approcher du voisin le plus
+  proche (A-94) ou de laisser le corpus choisir à sa place.
+
+**Ajouter un texte** : une entrée dans `codes.json` — `legitext` pour un code
+dont l'identifiant est déjà connu, ou seulement `cle` (l'intitulé exact),
+`court` et `temoin` pour tout le reste — un commit, et l'action repart seule.
+
+**Le volume de l'extrait est borné à 60 Mo.** Un texte ajouté qui ferait
+dépasser cette limite n'est pas versé : il est déclaré dans
+`data/_manifeste.json`, sous `non_verses`, avec son motif — jamais versé au
+hasard, toujours dans l'ordre où les entrées apparaissent dans `codes.json`.
+Les vingt premiers codes ne sont jamais concernés par cette limite.
 
 ## Ce qui n'est pas vérifié, et qui échouera bruyamment
 
@@ -106,12 +115,15 @@ vaut un job rouge qu'un extrait silencieusement vide.
 
 ## Épreuve à blanc
 
-`python3 essai.py` monte un extrait factice et exerce sept contrôles : lecture
-du XML LEGI, article et structure ; lecture par libellé exact et par nom court ;
-normalisation de la ponctuation d'un numéro sans jamais couper un suffixe ;
-présence de l'identifiant, de la date et du millésime en sortie ; les trois
-refus ; la recherche par titre de section ; la détection d'un extrait périmé.
-Elle passe, et elle ne prouve rien sur le dump réel.
+`python3 essai.py` monte un extrait factice et exerce 15 contrôles : lecture
+du XML LEGI, article, structure et métadonnées de texte ; résolution par
+intitulé — un texte non codifié, un code (l'identifiant du dossier `texte/`
+retenu, jamais celui du fichier lu), un texte introuvable qui échoue en se
+nommant ; lecture par libellé exact et par nom court ; normalisation de la ponctuation
+d'un numéro sans jamais couper un suffixe ; présence de l'identifiant, de la
+date et du millésime en sortie ; les trois refus ; la recherche par titre de
+section ; la détection d'un extrait périmé. Elle passe, et elle ne prouve rien
+sur le dump réel.
 
 ## Ce que ce dépôt ne fait pas
 
