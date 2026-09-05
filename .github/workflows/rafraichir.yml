@@ -53,6 +53,8 @@ jobs:
           python3 droit.py article "code de la sécurité sociale" "L. 136-8" | head -12
 
       - name: Verser
+        env:
+          BRANCHE: ${{ github.ref_name }}
         run: |
           git config user.name  "action droit"
           git config user.email "action@users.noreply.github.com"
@@ -60,8 +62,14 @@ jobs:
           # Se remettre à jour AVANT de pousser : un commit fait à la main
           # pendant les (désormais) une à deux heures d'extraction ferait
           # rejeter le push, et l'extrait serait produit puis jeté.
+          #
+          # Contre SA PROPRE branche, jamais contre main en dur : un run
+          # déclenché sur une branche de travail (PR #2, 20260904) rebasait
+          # contre main, dont l'historique diverge — conflit sur chaque
+          # fichier touché par la PR, `|| true` l'avalait, et le commit final
+          # échouait sur les fichiers restés en conflit, extrait perdu.
           git stash --include-untracked || true
-          git pull --rebase --autostash origin main || true
+          git pull --rebase --autostash origin "$BRANCHE" || true
           git stash pop || true
           git add -A data/
           if git diff --cached --quiet; then
