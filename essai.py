@@ -76,18 +76,71 @@ def fixture():
          "texte": "Bouclier fiscal.", "code": "code général des impôts", "section": ""},
         # Le cas réel qui a fait échouer deux extraits : applicable aujourd'hui,
         # abrogation déjà votée. L'état dit ABROGE_DIFF, les dates disent oui.
+        # Le renvoi à elle-même, en fin de texte, ne doit jamais ressortir :
+        # c'est le contrôle d'exclusion de l'article cible sur ses propres renvois.
         {"id": "LEGIARTI000053562872", "num": "279", "etat": "ABROGE_DIFF",
          "date_debut": "2026-03-01", "date_fin": "2027-01-01",
-         "texte": "La taxe est perçue au taux réduit.",
+         "texte": "La taxe est perçue au taux réduit. "
+                  "Conformément à l'article 279, ce taux s'applique sans exception.",
          "code": "code général des impôts", "section": "B : Taux réduit"},
         # Version future : ne doit jamais sortir comme droit applicable.
         {"id": "LEGIARTI000099999999", "num": "1000", "etat": "VIGUEUR_DIFF",
          "date_debut": "2027-06-01", "date_fin": "2999-01-01",
          "texte": "Texte à venir.", "code": "code général des impôts", "section": ""},
+        # Renvoi au même code, sans nom de code : « nommé » par la seule
+        # identité de code, la règle qui n'a besoin d'aucune proximité.
+        {"id": "LEGIARTI000000000004", "num": "235 ter", "etat": "VIGUEUR",
+         "date_debut": "2020-01-01", "date_fin": "2999-01-01",
+         "texte": "Les dispositions de l'article 279 s'appliquent aux redevables "
+                  "mentionnés au présent article.",
+         "code": "code général des impôts", "section": ""},
+        # Cible du contrôle de préfixe : « 200 quindecies » ne doit jamais
+        # confondre avec « 200 quindecies A ».
+        {"id": "LEGIARTI000000000005", "num": "200 quindecies", "etat": "VIGUEUR",
+         "date_debut": "2020-01-01", "date_fin": "2999-01-01",
+         "texte": "Définit le champ des monuments historiques ouvrant droit à réduction.",
+         "code": "code général des impôts", "section": ""},
+        {"id": "LEGIARTI000000000006", "num": "235 quater", "etat": "VIGUEUR",
+         "date_debut": "2020-01-01", "date_fin": "2999-01-01",
+         "texte": "Les biens mentionnés à l'article 200 quindecies A ne bénéficient "
+                  "pas de l'exonération.",
+         "code": "code général des impôts", "section": ""},
+        {"id": "LEGIARTI000000000007", "num": "235 quinquies", "etat": "VIGUEUR",
+         "date_debut": "2020-01-01", "date_fin": "2999-01-01",
+         "texte": "Les biens mentionnés à l'article 200 quindecies bénéficient "
+                  "de l'exonération prévue.",
+         "code": "code général des impôts", "section": ""},
+    ]
+    lignes_css = [
+        # Nommé par le nom du code : certitude maximale, code différent de la cible.
+        {"id": "LEGIARTI000000000101", "num": "L136-9", "etat": "VIGUEUR",
+         "date_debut": "2020-01-01", "date_fin": "2999-01-01",
+         "texte": "Le taux mentionné à l'article 279 du code général des impôts s'applique.",
+         "code": "code de la sécurité sociale", "section": ""},
+        # Aucun code nommé, mais une subdivision précisée : interne.
+        {"id": "LEGIARTI000000000102", "num": "L136-10", "etat": "VIGUEUR",
+         "date_debut": "2020-01-01", "date_fin": "2999-01-01",
+         "texte": "Les dispositions prévues au II de l'article 279 s'appliquent aux "
+                  "redevables mentionnés au présent article.",
+         "code": "code de la sécurité sociale", "section": ""},
+        # Ni code ni subdivision : ambigu.
+        {"id": "LEGIARTI000000000103", "num": "L136-11", "etat": "VIGUEUR",
+         "date_debut": "2020-01-01", "date_fin": "2999-01-01",
+         "texte": "Le montant recouvré conformément à l'article 279 est reversé.",
+         "code": "code de la sécurité sociale", "section": ""},
+        # Nomme EXPLICITEMENT un autre code : coïncidence de numéro, à écarter.
+        {"id": "LEGIARTI000000000104", "num": "L136-12", "etat": "VIGUEUR",
+         "date_debut": "2020-01-01", "date_fin": "2999-01-01",
+         "texte": "Les dispositions de l'article 279 du code civil ne sont pas "
+                  "applicables ici.",
+         "code": "code de la sécurité sociale", "section": ""},
     ]
     DATA.mkdir(exist_ok=True)
     with gzip.open(DATA / "cgi.jsonl.gz", "wt", encoding="utf-8") as f:
         for l in lignes:
+            f.write(json.dumps(l, ensure_ascii=False, sort_keys=True) + "\n")
+    with gzip.open(DATA / "css.jsonl.gz", "wt", encoding="utf-8") as f:
+        for l in lignes_css:
             f.write(json.dumps(l, ensure_ascii=False, sort_keys=True) + "\n")
     (DATA / "_manifeste.json").write_text(json.dumps({
         "millesime_legi": "20260830", "archive": "essai",
@@ -151,6 +204,26 @@ def exercer():
     assert [l[2] for l in lignes] == ["trouvé", "inapplicable", "absent"], lignes
     print("contrôle de lot : trouvé / inapplicable / absent.")
 
+    renv = D.renvois("cgi", "279")
+    certitude = {(r["code"], r["num"]): r["certitude"] for r in renv}
+    assert certitude.get(("code général des impôts", "235 ter")) == "nomme", certitude
+    assert certitude.get(("code de la sécurité sociale", "L136-9")) == "nomme", certitude
+    assert certitude.get(("code de la sécurité sociale", "L136-10")) == "interne", certitude
+    assert certitude.get(("code de la sécurité sociale", "L136-11")) == "ambigu", certitude
+    assert ("code de la sécurité sociale", "L136-12") not in certitude, \
+        "un renvoi qui nomme un autre code ne doit pas compter pour la cible"
+    assert ("code général des impôts", "279") not in certitude, \
+        "l'article cible s'exclut de ses propres renvois"
+    print("renvois : nomme (même code, ou code nommé) / interne / ambigu, "
+          "exclusion d'un autre code nommé et de l'article cible lui-même.")
+
+    renv_q = {r["num"] for r in D.renvois("cgi", "200 quindecies")}
+    assert "235 quinquies" in renv_q, renv_q
+    assert "235 quater" not in renv_q, \
+        "« 200 quindecies A » ne doit jamais compter comme renvoi vers « 200 quindecies »"
+    print("renvois : « 200 quindecies A » ne fait pas faux positif de préfixe "
+          "sur « 200 quindecies ».")
+
     mil, age, perime = D.fraicheur(seuil_jours=1)
     assert perime, "un extrait de plus d'un jour doit se déclarer périmé"
     print("fraîcheur : un extrait vieilli se signale.")
@@ -162,7 +235,7 @@ if __name__ == "__main__":
     try:
         fixture()
         exercer()
-        print("\nÉPREUVE PASSÉE — 12 contrôles.")
+        print("\nÉPREUVE PASSÉE — 14 contrôles.")
         r = subprocess.run([sys.executable, str(RACINE / "droit.py"), "etat"],
                            capture_output=True, text=True)
         print("\n$ droit.py etat\n" + r.stdout.strip())
