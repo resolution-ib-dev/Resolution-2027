@@ -1,9 +1,10 @@
 {
   "_regle": "Un code par entrée. `cle` est le libellé exact employé par l'appareil Résolution — celui de la table CODES de cles_eval_gl.py et des sorties de vecteur-mesure. `legitext` est l'identifiant Légifrance du code. `temoin` est un article ordinaire que le code DOIT porter : son absence fait échouer l'extraction. Ajouter un code se fait ici et nulle part ailleurs.",
-  "_releve_le": "20260907",
+  "_releve_le": "20260908",
   "_temoins": "Le témoin du CGI est l'article 279 : c'est lui qui manquait aux deux premiers extraits, avec tout le bloc TVA, sans que rien ne le dise. Sa version courante porte l'état ABROGE_DIFF — applicable, et abrogée au 1er janvier 2027. D'où la règle qui en sort : c'est l'intervalle de dates qui décide de l'applicabilité, jamais l'état. Le témoin du code de procédure pénale, l'article 1, est dans le même cas : applicable, et abrogé au 1er janvier 2029 par l'ordonnance n° 2025-1091 du 19 novembre 2025.",
   "_couverture": "Les vingt-sept codes couvrent la table de vérité-terrain de l'appareil d'éval, le code civil et le code général de la propriété des personnes publiques (A-275), plus sept codes ouverts par les textes déposés 2026 — santé publique, rural et de la pêche maritime, pensions civiles et militaires de retraite, général de la fonction publique, procédure pénale, procédures civiles d'exécution, tourisme — qui portaient à eux seuls 22 % des adresses non résolues du PLFSS. Le coût du balayage ne dépend pas du nombre de codes : l'archive se lit en entier dans tous les cas. Ajouter un code coûte quelques mégaoctets, pas une minute.",
-  "_identifiants": "Les vingt-sept identifiants LEGITEXT et les vingt-sept témoins sont relevés sur legifrance.gouv.fr, un par un — les vingt premiers le 20260902, les sept derniers le 20260907. Aucun n'est déduit d'un autre.",
+  "_non_codifies": "Le 20260908, un code de plus (cinéma et image animée) et sept textes non codifiés — trois lois de finances (2012 art. 46, 2020 art. 179, 2006 art. 46), la LOLF, l'ordonnance de recodification de la TVA, la loi DCRA (art. 10, siège de la subvention publique) et la loi Centre national de la musique (art. 4). Un huitième relevé — l'ordonnance n° 45-2339 du 13 octobre 1945 relative aux spectacles, art. 11 — n'entre PAS au fichier : elle est entièrement abrogée depuis le 1er mars 2008 (recodifiée dans le code du travail par l'ordonnance n° 2007-329), aucun de ses articles n'est plus applicable, donc aucun témoin ne peut s'y épingler. Un texte non codifié se déclare comme un code, sur son identifiant Légifrance — LEGITEXT pour les textes anciens dotés d'un tel identifiant hérité (aucun trouvé pour ceux de 2000 et après), JORFTEXT pour les autres, relevé tel quel sur la page. Que l'archive LEGI de la DILA indexe ces derniers par ce même identifiant reste à prouver par l'extraction — c'est la réserve que ce lot est chargé de trancher, et la réponse est au diagnostic, pas ici.",
+  "_identifiants": "Les vingt-sept identifiants LEGITEXT des codes et les vingt-sept témoins sont relevés sur legifrance.gouv.fr, un par un — les vingt premiers le 20260902, les sept derniers le 20260907. Le code du cinéma et les sept textes non codifiés du 20260908 de même, un par un, aucun déduit d'un autre.",
   "codes": [
     {
       "cle": "code général des impôts",
@@ -166,6 +167,54 @@
       "legitext": "LEGITEXT000006074073",
       "court": "tourisme",
       "temoin": "L111-1"
+    },
+    {
+      "cle": "code du cinéma et de l'image animée",
+      "legitext": "LEGITEXT000020908868",
+      "court": "cinema",
+      "temoin": "L111-1"
+    },
+    {
+      "cle": "loi n° 2011-1977 du 28 décembre 2011 de finances pour 2012",
+      "legitext": "JORFTEXT000025044460",
+      "court": "lf2012",
+      "temoin": "46"
+    },
+    {
+      "cle": "loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances",
+      "legitext": "JORFTEXT000000394028",
+      "court": "lolf",
+      "temoin": "34"
+    },
+    {
+      "cle": "ordonnance n° 2025-1247 du 17 décembre 2025 portant recodification de la taxe sur la valeur ajoutée",
+      "legitext": "JORFTEXT000053091516",
+      "court": "tva2025",
+      "temoin": "46"
+    },
+    {
+      "cle": "loi n° 2019-1479 du 28 décembre 2019 de finances pour 2020",
+      "legitext": "JORFTEXT000039683923",
+      "court": "lf2020",
+      "temoin": "179"
+    },
+    {
+      "cle": "loi n° 2000-321 du 12 avril 2000 relative aux droits des citoyens dans leurs relations avec les administrations",
+      "legitext": "JORFTEXT000000215117",
+      "court": "dcra",
+      "temoin": "10"
+    },
+    {
+      "cle": "loi n° 2019-1100 du 30 octobre 2019 relative à la création du Centre national de la musique",
+      "legitext": "JORFTEXT000039295468",
+      "court": "cnm",
+      "temoin": null
+    },
+    {
+      "cle": "loi n° 2005-1719 du 30 décembre 2005 de finances pour 2006",
+      "legitext": "JORFTEXT000000634802",
+      "court": "lf2006",
+      "temoin": "46"
     }
   ],
   "_temoin_non_epingle": "Un `temoin` à null veut dire : non épinglé, faute d'un article dont l'applicabilité soit prouvée. Le contrôle est alors DÉSACTIVÉ pour ce code, le manifeste le déclare en clair, et le journal l'annonce. À épingler au tour suivant depuis `exemples_applicables` du manifeste. Cas du code des douanes : l'article 2, retenu le 20260902 sur une date d'URL Légifrance prise à tort pour une preuve de vigueur, est abrogé depuis le 1er mai 2026 — et c'est le témoin qui l'a dit."
