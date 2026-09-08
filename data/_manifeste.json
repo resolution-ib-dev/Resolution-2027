@@ -1,7 +1,7 @@
 {
-  "millesime_legi": "20260907",
+  "millesime_legi": "20260908",
   "jour_de_reference": "2026-09-08",
-  "archives": 424,
+  "archives": 425,
   "archive": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz",
   "plancher_historique": "2025-01-01",
   "extrait_le": "",
@@ -147,8 +147,8 @@
     "code du travail": {
       "fichier": "travail.jsonl.gz",
       "articles": 12143,
-      "octets": 2096157,
-      "sha256": "ab9f326242e0a615271ab1f54e3dcb2477a9ce08218649fe8b865e6e403450dd",
+      "octets": 2096158,
+      "sha256": "4bd1f4c96ad87b50bd11b033ea0aef301d9e0ac9d46613c840e3f9ff9572ea83",
       "court": "travail",
       "applicables": 11598,
       "a_venir": 95,
@@ -215,8 +215,8 @@
     "code de l'environnement": {
       "fichier": "environnement.jsonl.gz",
       "articles": 7775,
-      "octets": 2361064,
-      "sha256": "62344c604eb284419d8db883563b9340b93737a013f864495a4396b3d6be8e2f",
+      "octets": 2360880,
+      "sha256": "78e210b36f08b452a0786cab8f37696ce34bf9906fa52f3eef380479d777ec03",
       "court": "environnement",
       "applicables": 7284,
       "a_venir": 51,
@@ -449,7 +449,7 @@
       "fichier": "casf.jsonl.gz",
       "articles": 3989,
       "octets": 1220114,
-      "sha256": "d0514e06fd0c763343714a685ebb8a86dd940adfe346c00782890a543982198c",
+      "sha256": "8eec1ba36607c277001c7819ece82f5aa26eb594af692166f258dbc8ba013751",
       "court": "casf",
       "applicables": 3690,
       "a_venir": 44,
@@ -718,20 +718,20 @@
     },
     "code rural et de la pêche maritime": {
       "fichier": "rural.jsonl.gz",
-      "articles": 11338,
-      "octets": 2710005,
-      "sha256": "e1dbcae70560f8ac1de843c3b0e495b28ed29163a95da4fa7ad8b9983031aeaa",
+      "articles": 11345,
+      "octets": 2714728,
+      "sha256": "adf8e3e603f765b6600f04216951d910e37ec841c6f21d836ea6c1bfdcb74787",
       "court": "rural",
       "applicables": 9825,
-      "a_venir": 111,
-      "fin_programmee": 92,
+      "a_venir": 118,
+      "fin_programmee": 98,
       "historiques": 1402,
       "etats": {
-        "VIGUEUR": 9733,
+        "VIGUEUR": 9734,
         "MODIFIE_MORT_NE": 22,
-        "MODIFIE": 937,
+        "MODIFIE": 942,
         "ABROGE_DIFF": 92,
-        "ABROGE": 365,
+        "ABROGE": 366,
         "INCONNU": 1,
         "VIGUEUR_DIFF": 98,
         "TRANSFERE": 90
@@ -749,7 +749,7 @@
         "Annexe III",
         "Annexe III aux articles R236-7 à R236-18"
       ],
-      "sections_rattachees": 11332
+      "sections_rattachees": 11339
     },
     "code des pensions civiles et militaires de retraite": {
       "fichier": "pensions.jsonl.gz",
@@ -785,8 +785,8 @@
     "code général de la fonction publique": {
       "fichier": "cgfp.jsonl.gz",
       "articles": 4481,
-      "octets": 553541,
-      "sha256": "b5cc5302f73f63395fd1ecf2e627b40b132f0ae950a8cc52d3463a402da3d022",
+      "octets": 553599,
+      "sha256": "93b2a091045b9f42770ea5e8dafcda7301acfcf19568aede1171f0442dbbad6d",
       "court": "cgfp",
       "applicables": 4285,
       "a_venir": 5,
@@ -911,6 +911,250 @@
         "D133-28"
       ],
       "sections_rattachees": 711
+    },
+    "code du cinéma et de l'image animée": {
+      "fichier": "cinema.jsonl.gz",
+      "articles": 2318,
+      "octets": 460723,
+      "sha256": "6969fa604d0e232b4807356ba76dc124683138089e14a4d98b0951c4af1b8045",
+      "court": "cinema",
+      "applicables": 2063,
+      "a_venir": 5,
+      "fin_programmee": 7,
+      "historiques": 250,
+      "etats": {
+        "VIGUEUR": 2056,
+        "ABROGE_DIFF": 7,
+        "MODIFIE": 208,
+        "ABROGE": 41,
+        "MODIFIE_MORT_NE": 1,
+        "VIGUEUR_DIFF": 5
+      },
+      "temoin": "L111-1",
+      "exemples_applicables": [
+        "110-1",
+        "110-2",
+        "110-3",
+        "110-4",
+        "110-5",
+        "120-1",
+        "121-1",
+        "121-2",
+        "121-3",
+        "121-4"
+      ],
+      "sections_rattachees": 2318
+    },
+    "loi n° 2011-1977 du 28 décembre 2011 de finances pour 2012": {
+      "fichier": "lf2012.jsonl.gz",
+      "articles": 166,
+      "octets": 43140,
+      "sha256": "ffd21a68256c3b49dbff23b6cbfb390bd409a4ab647547919b5e02bf1df14bed",
+      "court": "lf2012",
+      "applicables": 75,
+      "a_venir": 86,
+      "fin_programmee": 1,
+      "historiques": 5,
+      "etats": {
+        "VIGUEUR": 74,
+        "INCONNU": 85,
+        "MODIFIE": 5,
+        "VIGUEUR_DIFF": 1,
+        "ABROGE_DIFF": 1
+      },
+      "temoin": "46",
+      "exemples_applicables": [
+        "1",
+        "107",
+        "109",
+        "11",
+        "110",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118"
+      ],
+      "sections_rattachees": 166
+    },
+    "loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances": {
+      "fichier": "lolf.jsonl.gz",
+      "articles": 73,
+      "octets": 26589,
+      "sha256": "fcf9aa785735b3930199c259a00be164d01955d2cde152617c7911d6c0ceaa0c",
+      "court": "lolf",
+      "applicables": 73,
+      "a_venir": 0,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {
+        "VIGUEUR": 73
+      },
+      "temoin": "34",
+      "exemples_applicables": [
+        "1",
+        "1 A",
+        "1 B",
+        "1 C",
+        "1 D",
+        "1 E",
+        "1 F",
+        "1 G",
+        "1 H",
+        "1 I"
+      ],
+      "sections_rattachees": 73
+    },
+    "ordonnance n° 2025-1247 du 17 décembre 2025 portant recodification de la taxe sur la valeur ajoutée": {
+      "fichier": "tva2025.jsonl.gz",
+      "articles": 1066,
+      "octets": 153628,
+      "sha256": "1b9379fe920c64c0855f828b1ef79d1b336a515d7f46eb5ad2f9fc5c402d3911",
+      "court": "tva2025",
+      "applicables": 1020,
+      "a_venir": 42,
+      "fin_programmee": 0,
+      "historiques": 4,
+      "etats": {
+        "INCONNU": 41,
+        "VIGUEUR": 1020,
+        "MODIFIE": 3,
+        "ABROGE": 1,
+        "VIGUEUR_DIFF": 1
+      },
+      "temoin": "46",
+      "exemples_applicables": [
+        "15",
+        "19",
+        "2",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "L200-1",
+        "L211-1"
+      ],
+      "sections_rattachees": 1066
+    },
+    "loi n° 2019-1479 du 28 décembre 2019 de finances pour 2020": {
+      "fichier": "lf2020.jsonl.gz",
+      "articles": 294,
+      "octets": 130161,
+      "sha256": "96567427ffab40cf42da462ec0c1c932557c4c181b754ad6e3d8d6bfa382966b",
+      "court": "lf2020",
+      "applicables": 186,
+      "a_venir": 95,
+      "fin_programmee": 0,
+      "historiques": 13,
+      "etats": {
+        "VIGUEUR": 186,
+        "INCONNU": 95,
+        "MODIFIE": 13
+      },
+      "temoin": "179",
+      "exemples_applicables": [
+        "1",
+        "100",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "108",
+        "109"
+      ],
+      "sections_rattachees": 293
+    },
+    "loi n° 2000-321 du 12 avril 2000 relative aux droits des citoyens dans leurs relations avec les administrations": {
+      "fichier": "dcra.jsonl.gz",
+      "articles": 38,
+      "octets": 8740,
+      "sha256": "e3bf6749542e25a08b8e49817a89260c85fbf481ec46c010e3ce7eb4fb980f30",
+      "court": "dcra",
+      "applicables": 23,
+      "a_venir": 15,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {
+        "VIGUEUR": 23,
+        "INCONNU": 15
+      },
+      "temoin": "10",
+      "exemples_applicables": [
+        "1",
+        "10",
+        "10-1",
+        "2",
+        "25-1",
+        "25-1 A",
+        "27",
+        "27-1",
+        "27-2",
+        "3"
+      ],
+      "sections_rattachees": 37
+    },
+    "loi n° 2019-1100 du 30 octobre 2019 relative à la création du Centre national de la musique": {
+      "fichier": "cnm.jsonl.gz",
+      "articles": 11,
+      "octets": 3450,
+      "sha256": "8f328aa997b92156d53e9338db72df58aa3ec299c1860869e89dc8205fa49745",
+      "court": "cnm",
+      "applicables": 9,
+      "a_venir": 2,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {
+        "VIGUEUR": 9,
+        "INCONNU": 2
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "4-1",
+        "5",
+        "6",
+        "7"
+      ],
+      "sections_rattachees": 0
+    },
+    "loi n° 2005-1719 du 30 décembre 2005 de finances pour 2006": {
+      "fichier": "lf2006.jsonl.gz",
+      "articles": 169,
+      "octets": 38781,
+      "sha256": "e8b17500c0fe94714f3b4e608c0f8466994150152e346508a08ca0b54f7f91f5",
+      "court": "lf2006",
+      "applicables": 88,
+      "a_venir": 75,
+      "fin_programmee": 1,
+      "historiques": 6,
+      "etats": {
+        "VIGUEUR": 87,
+        "INCONNU": 74,
+        "MODIFIE": 6,
+        "VIGUEUR_DIFF": 1,
+        "ABROGE_DIFF": 1
+      },
+      "temoin": "46",
+      "exemples_applicables": [
+        "1",
+        "100",
+        "102",
+        "103",
+        "105",
+        "106",
+        "110",
+        "112",
+        "113",
+        "114"
+      ],
+      "sections_rattachees": 169
     }
   }
 }
