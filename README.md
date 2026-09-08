@@ -38,6 +38,7 @@ python3 droit/droit.py article "code général des impôts" 279
 python3 droit/droit.py article cgi "278 sexies-0 A"
 python3 droit/droit.py article cgi 279 --au 2025-06-01
 python3 droit/droit.py section cgi "Taux réduit"
+python3 droit/droit.py renvois cgi "200 quindecies"
 python3 droit/droit.py verifier mes_vecteurs.json
 ```
 
@@ -57,6 +58,19 @@ plutôt que la version en vigueur aujourd'hui — c'est ce qu'un trois colonnes
 demande pour sa colonne « texte en vigueur » sur un article déjà modifié par
 le texte en discussion. Sans `--au`, le jour courant.
 
+`renvois` balaie tous les codes portés à la recherche des articles qui citent
+l'adresse donnée — c'est l'étape « droit applicable » qui en a besoin. Chaque
+renvoi porte une certitude, jamais déduite d'une proximité de texte :
+`nomme` (le code cité est nommé et c'est celui de la cible, ou l'article
+citant appartient lui-même au code de la cible — aucune ambiguïté),
+`interne` (aucun code identifiable, mais le renvoi vise une subdivision
+précise — alinéa, chiffre romain, degré — trop spécifique pour être fortuit),
+`ambigu` (le numéro est trouvé seul). Une citation qui nomme explicitement un
+**autre** code que la cible est écartée : « l'article 279 du code civil » ne
+compte jamais pour l'article 279 du CGI, même si le numéro coïncide.
+L'article cible s'exclut de ses propres renvois, et « 200 quindecies » ne se
+laisse jamais confondre avec « 200 quindecies A ».
+
 ## Ce que le lecteur refuse, et c'est le point
 
 Trois refus tenus par le code et non par la discipline :
@@ -72,12 +86,14 @@ règle du vecteur périmé de `vecteur-mesure`, appliquée au texte.
 
 ## Les codes portés
 
-Ils vivent dans `codes.json`, et nulle part ailleurs. Les huit du premier lot
-couvrent tout ce qu'on a rencontré sur les 42 amendements de Génération Libre :
-code général des impôts, code des impositions sur les biens et services, code de
-la sécurité sociale, code général des collectivités territoriales, code du
-travail, code de la construction et de l'habitation, code de l'environnement,
-livre des procédures fiscales.
+Ils vivent dans `codes.json`, et nulle part ailleurs — vingt-sept aujourd'hui.
+Les vingt premiers couvrent la table de vérité-terrain de l'appareil d'éval
+(dont les 42 amendements de Génération Libre), le code civil et le code
+général de la propriété des personnes publiques (A-275). Sept de plus portent
+les codes ouverts par les textes déposés 2026 — santé publique, rural et de la
+pêche maritime, pensions civiles et militaires de retraite, général de la
+fonction publique, procédure pénale, procédures civiles d'exécution, tourisme
+— qui portaient à eux seuls 22 % des adresses non résolues du PLFSS.
 
 **Ajouter un code** : une ligne dans `codes.json` avec son identifiant
 `LEGITEXT`, un commit, et l'action repart seule.
@@ -106,12 +122,16 @@ vaut un job rouge qu'un extrait silencieusement vide.
 
 ## Épreuve à blanc
 
-`python3 essai.py` monte un extrait factice et exerce sept contrôles : lecture
-du XML LEGI, article et structure ; lecture par libellé exact et par nom court ;
-normalisation de la ponctuation d'un numéro sans jamais couper un suffixe ;
-présence de l'identifiant, de la date et du millésime en sortie ; les trois
-refus ; la recherche par titre de section ; la détection d'un extrait périmé.
-Elle passe, et elle ne prouve rien sur le dump réel.
+`python3 essai.py` monte un extrait factice et exerce quatorze contrôles :
+lecture du XML LEGI, article et structure ; classement des archives DILA ;
+l'historique récent gardé sans déborder sur le périmé ; lecture par libellé
+exact et par nom court ; normalisation de la ponctuation d'un numéro sans
+jamais couper un suffixe ; présence de l'identifiant, de la date et du
+millésime en sortie ; lecture à une date passée (`--au`/`jour=`) ; les trois
+refus ; la recherche par titre de section ; le contrôle de lot ; les renvois
+entrants — `nomme` / `interne` / `ambigu`, exclusion d'un autre code nommé et
+de l'article cible lui-même, garde du faux positif de préfixe ; la détection
+d'un extrait périmé. Elle passe, et elle ne prouve rien sur le dump réel.
 
 ## Ce que ce dépôt ne fait pas
 
