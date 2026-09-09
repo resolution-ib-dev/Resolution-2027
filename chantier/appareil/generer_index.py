@@ -15,13 +15,30 @@ Cet index est la table de résolution. Chaque artefact y porte :
   role          la clé stable par laquelle on le désigne, y compris dans les skills
   chemin        son unique emplacement dans le dépôt
   rang          strate1 · referentiel · appareil · derive · methode · source
-  coffre        vrai si l'artefact est versé au projet Claude, qui survit aux sessions
+  coffre        vrai si l'artefact survit aux sessions sur une surface
+                permanente — le coffre, ou le dépôt depuis le 20260909. Le champ
+                dit la durabilité ; `voie` dit sur laquelle des deux.
   produit_par   le générateur qui le refait, ou null s'il s'écrit à la main
   consomme_par  ce qui le lit — générateurs, contrôles, skills
   alias         les noms horodatés qu'il remplace, pour que tout renvoi ancien résolve
   famille       sa famille du classement par contenu, reportée de la carte
   restaurable   faux si nul script ne peut le remettre au dépôt
-  chemin_coffre où il se lit au coffre — son chemin, une archive, un préfixe
+  voie          la surface qui le rend — coffre · depot · piece_jointe · hors_coffre
+  chemin_coffre où il se lit **sur sa voie** : son chemin au coffre, un chemin
+                préfixé, ou son chemin dans le dépôt de droit sous `chantier/`
+
+**La voie de restauration est un champ, et elle n'est plus déductible du rang.**
+Jusqu'au 20260909, tout ce qui portait le rang `appareil` ou `referentiel` était
+replié dans une archive unique du coffre, `technique/coffre.txt`. Cette archive a
+été versée au dépôt et supprimée du coffre le 20260909 (A-395), après preuve à
+l'octet 80 sur 80. Le chemin n'existe plus, et quatre-vingts artefacts le
+déclaraient encore : `coffre.py deplier` n'avait plus d'archive à lire et
+`restaurer.py` cherchait au transcript des documents que le coffre ne porte plus.
+
+Ils se restaurent désormais par **copie d'octets depuis le clone du dépôt** —
+`voie: depot` — et leur `chemin_coffre` donne leur chemin dans ce dépôt. Le bloc
+`depot` de l'index porte la commande de clone, la sous-racine et la liste des
+chemins ; il remplace l'ancien bloc `archives`.
 
 L'index est lui-même un dérivé : il ne se corrige pas à la main, il se régénère.
 La table curée vit ici, dans l'appareil, au même titre que `GROUPES` et `EVENTAIL`.
@@ -257,8 +274,9 @@ ARTEFACTS = [
      None, ['make', "banc d'épreuve", 'disposition-cible'], []),
     # Le contrôle de réapplication et ses trois cas travaillés (20260904).
     # Versés comme documents et non dans l'archive : le fil qui les a écrits
-    # n'a pas replié le coffre. Le premier fil qui joue `make coffre` les y
-    # ramène en retirant leur entrée de COFFRE_HORS_ARCHIVE.
+    # n'a pas replié le coffre, et l'archive a été versée au dépôt sans eux.
+    # Ils sont donc **dus au dépôt** — leur entrée de `COFFRE_DOCUMENT` se
+    # retire dès qu'ils y sont poussés, et `coffre.py dette` les réclame.
     ('reappliquer', 'appareil/reappliquer.py', 'appareil', True, None,
      ['disposition-cible', "banc d'épreuve"], []),
     ('cas_disposition', 'appareil/cas_disposition.py', 'appareil', True, None,
@@ -912,31 +930,49 @@ COFFRE_RACINE = {
     '.gitignore': 'racine/gitignore',
 }
 
-# Rangs dont les fichiers ne sont pas versés un par un mais repliés dans une
-# archive : le coffre est aussi la vue de l'auteur, et une liste de Python et de
-# JSON y masque ses vrais produits. Voir `appareil/coffre.py`.
-COFFRE_ARCHIVES = {
-    'appareil': 'technique/coffre.txt',
-    'referentiel': 'technique/coffre.txt',
+# Rangs dont les fichiers ne vivent pas au coffre mais **au dépôt**, sous une
+# sous-racine qui leur est propre. Le coffre est aussi la vue de l'auteur, et une
+# liste de Python et de JSON y masque ses vrais produits : ils y étaient donc
+# repliés dans une archive unique. Depuis le 20260909 (A-395) ils sont au dépôt,
+# ce qui rend le même service — l'auteur ne les voit pas — et deux de plus : la
+# restauration est une copie d'octets par `git clone`, et ils ne pèsent plus
+# rien à la jauge du coffre.
+#
+# **Deux corpus dans un dépôt, deux racines distinctes** : le dépôt de droit à la
+# racine, l'appareil du chantier sous `chantier/`, chacun avec son `.gitignore`.
+# Ne pas les mêler — le `.gitignore` du chantier ignore `droit/`, et posé à la
+# racine il masquerait le dépôt de droit tout entier.
+DEPOT_RANGS = {'appareil', 'referentiel'}
+DEPOT = {
+    'nom': 'resolution-ib-dev/Resolution-2027',
+    'url': 'https://github.com/resolution-ib-dev/Resolution-2027',
+    'branche': 'main',
+    'sous_racine': 'chantier',
+    'clone': ('git clone https://github.com/resolution-ib-dev/Resolution-2027 '
+              'droit && cp -r droit/chantier/. .'),
+    'ecriture': "fermée depuis Cowork (A-393) : une pièce due au dépôt se "
+                "déclare au registre et se pousse d'une session claude.ai/code. "
+                "`appareil/coffre.py dette` dit ce qui est dû.",
 }
 
-# L'exception au repli, et elle n'est pas de commodité : un référentiel qui
-# pèse plus que l'archive entière ne s'y replie pas.
+# L'exception : une pièce de rang `appareil` ou `referentiel` versée au coffre
+# **comme document**, à son propre chemin, et non portée au dépôt.
 #
-# Relevé le 20260903. `referentiels/redaction_plf.json` fait 848 687 octets,
-# quand l'archive technique en portait 1 825 441 pour tout l'appareil et toute
-# la doctrine : l'y verser ferait de l'archive une pièce d'un million et demi
-# de jetons, et A-312 interdit alors de la réécrire — une pièce plus grosse que
-# la marge se supprime avant d'être reversée, et l'on ne fait pas dépendre
-# l'appareil entier d'une suppression réussie. Ce référentiel se verse donc
-# comme document, à son propre chemin, avec sa propre empreinte.
+# Relevé le 20260903 sur les deux référentiels de rédaction :
+# `referentiels/redaction_plf.json` fait 848 687 octets, quand l'archive
+# technique en portait 1 825 441 pour tout l'appareil et toute la doctrine.
+# Le motif d'alors — une pièce plus grosse que la marge ne se replie pas — est
+# **caduc depuis A-395** : il n'y a plus d'archive à réécrire. Ce qui reste vrai
+# est qu'ils sont au coffre aujourd'hui, et l'index dit l'état réel, jamais
+# l'état souhaitable. **Ils sont dus au dépôt**, et `coffre.py dette` les
+# réclame : les y porter rendrait environ 360 000 jetons de jauge.
 #
-# La règle générale reste le repli : cette table est courte, et une entrée n'y
-# s'ajoute que sur mesure, jamais par intuition.
-COFFRE_HORS_ARCHIVE = {
+# Les deux modules de la réapplication sont dans le même cas, et pour la même
+# raison : ils ont été versés comme documents en attendant un repli qui n'a
+# jamais eu lieu.
+COFFRE_DOCUMENT = {
     'referentiels/redaction_plf.json': 'referentiels/redaction_plf.json',
     'referentiels/redaction_plfss.json': 'referentiels/redaction_plfss.json',
-    # Hors archive tant que le coffre n'a pas été replié depuis leur écriture.
     'appareil/reappliquer.py': 'appareil/reappliquer.py',
     'appareil/cas_disposition.py': 'appareil/cas_disposition.py',
 }
@@ -944,15 +980,37 @@ COFFRE_HORS_ARCHIVE = {
 CLES = ('role', 'chemin', 'rang', 'coffre', 'produit_par', 'consomme_par', 'alias')
 
 
+def voie_de(artefact, defaut):
+    """La surface qui rend l'artefact, et le chemin qu'elle en porte.
+
+    `defaut` est le chemin au coffre quand la voie est le coffre et que rien de
+    particulier ne le déplace — le chemin de dépôt, ou son préfixé de racine, ou
+    celui d'une source rangée autrement.
+
+    Quatre voies, et aucune cinquième :
+
+      depot         le clone du dépôt le rend, par copie d'octets
+      coffre        le coffre le rend, en texte au transcript ou comme fichier
+      piece_jointe  nul script ne le rend — l'auteur le rejoint
+      hors_coffre   rien ne le rend de l'extérieur : `make` le refait
+    """
+    a = artefact
+    if not a['coffre']:
+        return 'hors_coffre', defaut
+    if not a.get('restaurable', True):
+        return 'piece_jointe', defaut
+    if a['rang'] in DEPOT_RANGS and a['chemin'] not in COFFRE_DOCUMENT:
+        return 'depot', f"{DEPOT['sous_racine']}/{a['chemin']}"
+    return 'coffre', COFFRE_DOCUMENT.get(a['chemin'], defaut)
+
+
 def generer(dst, racine):
     artefacts = [dict(zip(CLES, a)) for a in ARTEFACTS]
-    # Où l'artefact se lit au coffre, quand ce n'est pas son chemin de dépôt.
+    # Par quelle voie l'artefact revient, et où il se lit sur cette voie.
     for a in artefacts:
-        a['chemin_coffre'] = COFFRE_HORS_ARCHIVE.get(
-            a['chemin'],
-            COFFRE_ARCHIVES.get(
-                a['rang'], COFFRE_RACINE.get(a['chemin'], a['chemin'])))
         a['restaurable'] = True
+        a['voie'], a['chemin_coffre'] = voie_de(
+            a, COFFRE_RACINE.get(a['chemin'], a['chemin']))
 
     # --- sources : déclarées, jamais relevées de l'arborescence.
     # Le relevé par balayage faisait dépendre l'index de ce qu'un conteneur
@@ -960,14 +1018,15 @@ def generer(dst, racine):
     # table de résolution. La table est donc curée, comme tout le reste.
     for chemin in sorted(set(COFFRE_SOURCES) | set(SOURCES_JOINTES)):
         nom = chemin.split('/')[-1]
-        artefacts.append({
-            'role': 'source:' + os.path.splitext(nom)[0].lower(),
-            'chemin': chemin, 'rang': 'source',
-            'coffre': chemin in COFFRE_SOURCES, 'produit_par': None,
-            'consomme_par': ['citation sourcée'],
-            'alias': [nom] + ALIAS_SOURCES.get(chemin, []),
-            'chemin_coffre': COFFRE_SOURCES.get(chemin, chemin),
-            'restaurable': chemin not in NON_RESTAURABLES})
+        a = {'role': 'source:' + os.path.splitext(nom)[0].lower(),
+             'chemin': chemin, 'rang': 'source',
+             'coffre': chemin in COFFRE_SOURCES, 'produit_par': None,
+             'consomme_par': ['citation sourcée'],
+             'alias': [nom] + ALIAS_SOURCES.get(chemin, []),
+             'restaurable': chemin not in NON_RESTAURABLES}
+        a['voie'], a['chemin_coffre'] = voie_de(
+            a, COFFRE_SOURCES.get(chemin, chemin))
+        artefacts.append(a)
 
     # --- famille : le classement par contenu, importé de la carte.
     # L'affectation vit dans `generer_carte.py` et nulle part ailleurs ; l'index
@@ -980,18 +1039,24 @@ def generer(dst, racine):
                   'motif': m, 'attendu_par': p}
                  for r, c, g, i, m, p in MANQUANTS]
 
-    archives = [{'chemin_coffre': ch,
-                 'rangs': sorted(r for r, c in COFFRE_ARCHIVES.items() if c == ch),
-                 'contient': sorted(a['chemin'] for a in artefacts
-                                    if COFFRE_ARCHIVES.get(a['rang']) == ch
-                                    and a['chemin'] not in COFFRE_HORS_ARCHIVE
-                                    and a['coffre'])}
-                for ch in sorted(set(COFFRE_ARCHIVES.values()))]
+    # Le bloc `depot` remplace l'ancien bloc `archives`. Il ne décrit pas un
+    # pli mais une **voie de restauration** : la commande qui la parcourt, la
+    # sous-racine qu'elle occupe, et les chemins qu'elle rend. Un fil qui ouvre
+    # demain y lit tout ce dont il a besoin, sans avoir à connaître A-395.
+    depot = dict(DEPOT)
+    depot['rangs'] = sorted(DEPOT_RANGS)
+    depot['contient'] = sorted(a['chemin'] for a in artefacts
+                               if a['voie'] == 'depot')
+    depot['au_coffre_comme_document'] = sorted(
+        a['chemin'] for a in artefacts
+        if a['rang'] in DEPOT_RANGS and a['coffre'] and a['voie'] == 'coffre')
 
     index = {'_revision': REVISION, 'artefacts': artefacts,
-             'archives': archives, 'manquants': manquants,
+             'depot': depot, 'manquants': manquants,
              'comptes': {'artefacts': len(artefacts),
                          'au_coffre': sum(1 for a in artefacts if a['coffre']),
+                         'au_depot': sum(1 for a in artefacts
+                                         if a['voie'] == 'depot'),
                          'derives': sum(1 for a in artefacts if a['rang'] == 'derive'),
                          'sources': sum(1 for a in artefacts if a['rang'] == 'source'),
                          'non_restaurables': sum(1 for a in artefacts
@@ -1004,8 +1069,13 @@ def generer(dst, racine):
         f.write('\n')
     c = index['comptes']
     print(f'{dst} écrit — {c["artefacts"]} artefacts dont {c["au_coffre"]} au '
-          f'coffre, {c["derives"]} dérivés, {c["sources"]} sources, '
-          f'{c["manquants"]} manquant(s) déclaré(s)')
+          f'coffre, {c["au_depot"]} rendus par le dépôt, {c["derives"]} dérivés, '
+          f'{c["sources"]} sources, {c["manquants"]} manquant(s) déclaré(s)')
+    if depot['au_coffre_comme_document']:
+        print(f'    {len(depot["au_coffre_comme_document"])} pièce(s) de '
+              f'l\'appareil encore au coffre comme document, dues au dépôt :')
+        for ch in depot['au_coffre_comme_document']:
+            print(f'        {ch}')
     return 0
 
 

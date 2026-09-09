@@ -56,8 +56,18 @@ HORODATE = re.compile(r'_\d{8}_v\d+(\.|$)')
 # projetée est son original au coffre —, le second les copies de travail des
 # skills, dont le point de vérité est la skill enregistrée. Ni l'un ni l'autre
 # ne se verse.
+# Les répertoires du conteneur, quand la racine du dépôt **est** le répertoire
+# personnel de la session. C'était le cas le 20260909, et `I2` sortait à
+# 29 297 : 29 295 fichiers de cache d'outils, deux du corpus. Un contrôle qui
+# crie 29 297 fois ne sert plus à rien, et c'est A-337 à l'identique — la
+# procédure que le corpus prescrit cassait un contrôle que le corpus tient.
+# Aucun de ces chemins n'est un artefact, et aucun ne le deviendra.
+CONTENEUR = {'.cache', '.npm', '.npm-global', '.config', '.ssh', '.local',
+             '.cargo', '.venv', '.ipython', '.gitconfig', '.wget-hsts',
+             '.bash_history', '.python_history', '.profile', '.bashrc'}
 IGNORES = {'.git', '__pycache__', '.claude', 'node_modules', 'coffre',
-           'plf', 'plfss', 'droit', 'eval', 'machine', 'skills_maj'}
+           'plf', 'plfss', 'droit', 'eval', 'machine', 'skills_maj',
+           'epreuve'} | CONTENEUR
 # Dérivé exclu du suivi git par `.gitignore`, et à ce titre non déclaré.
 TOLERES = set()
 # Ce que le classement laisse délibérément dehors. **La liste ne se redouble
@@ -135,13 +145,11 @@ def main(argv):
                           and not declares[c].get('restaurable', True))
 
     # I2 — un fichier que l'index ne déclare pas.
-    # Une archive du coffre est déclarée au bloc `archives` et non au bloc
-    # `artefacts` : elle n'est pas un artefact, elle en contient. Elle a
-    # longtemps sorti en I2 pour cette seule raison.
-    archives = {a['chemin_coffre'] for a in index.get('archives', [])}
+    # Le bloc `archives` a disparu le 20260909 avec l'archive qu'il décrivait
+    # (A-395) : il fallait en exclure `technique/coffre.txt`, qui n'était pas un
+    # artefact mais en contenait quatre-vingts. Chacun se déclare aujourd'hui.
     non_declares = sorted(c for c in presents
-                          if c not in declares and c not in TOLERES
-                          and c not in archives)
+                          if c not in declares and c not in TOLERES)
 
     # I3 — un nom horodaté survivant, hors archive
     horodates = sorted(c for c in presents
@@ -212,8 +220,10 @@ def main(argv):
     # L'inventaire se relève à `project_info` en ouverture et ne se verse pas —
     # c'est une photo de session. Sans lui, le contrôle le dit et ne bloque pas.
     inv = os.path.join(racine, 'methode', 'inventaire_coffre.tsv')
-    declares = {a.get('chemin_coffre') for a in artefacts if a['coffre']}
-    declares |= {ar['chemin_coffre'] for ar in index.get('archives', [])}
+    # Seule la voie `coffre` a un chemin au coffre : ce qui vient du dépôt n'y
+    # est plus, et l'y chercher ferait sortir quatre-vingts pièces en I6.
+    declares = {a.get('chemin_coffre') for a in artefacts
+                if a['coffre'] and a.get('voie', 'coffre') != 'depot'}
     muets = []
     if os.path.isfile(inv):
         porte = []
