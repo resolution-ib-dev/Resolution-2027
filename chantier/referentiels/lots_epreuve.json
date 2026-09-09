@@ -1,0 +1,518 @@
+{
+ "_regle": "Le banc d'épreuve de la chaîne, et non le dénominateur du chantier. Un lot de référence par véhicule, sur lequel on rejoue le taux de chaque étape. C'est ce qui rend la maturité mesurée au lieu d'affirmée, et ce qui détecte qu'une correction de skill a cassé autre chose. Écrit à la main : aucun script ne le dérive, et un taux ne s'y inscrit qu'après avoir été joué.",
+ "_regles_de_lecture": [
+  "Un taux se lit avec sa dégradation. Un taux mesuré socle absent est un plancher.",
+  "Un cas dont un fil a vu la sortie attendue est contaminé et sort du compte. Le compte des contaminés se vérifie contre la population, il ne s'annonce pas.",
+  "Un fil ne juge jamais une skill qu'il a écrite. Le rejeu passe par un fil vierge.",
+  "Deux taux ne se comparent que si la population aveugle est la même. Un rejeu dont le prompt nomme une partie des cas ne mesure pas la correction.",
+  "La notation du vecteur est dure : l'article est l'article. Celle de la rédaction se juge en correspondance — même article, même opération, même portée — jamais en égalité de texte.",
+  "Une clé fausse note faux, et un taux publié dessus est faux sans que rien ne le dise. Un taux se relit sur clé corrigée sans rejouer la skill, et les deux lectures se publient ensemble : ce qui se compare alors, ce sont les deux clés, jamais deux mesures de la skill.",
+  "La population d'un lot est celle de son véhicule. Un filtre sur la seule nature du couple suffit tant que la clé ne porte qu'une liasse, et fabrique un dénominateur faux dès qu'elle en porte deux."
+ ],
+ "public": false,
+ "_public": "Ce référentiel ne traverse pas vers un pack public : il nomme un tiers et il porte la vérité-terrain d'une éval.",
+ "lots": [
+  {
+   "cle": "plf_2026_tiers",
+   "vehicule": "plf",
+   "intitule": "Liasses de première et de seconde partie d'un contre-budget publié par un tiers",
+   "source": "Contre-budget 2026 d'un tiers, trois liasses PDF entrées par pièce jointe. Les deux liasses de finances portent 32 en-têtes pour 31 numéros à couple.",
+   "entree_par": "piece_jointe",
+   "unite": "couple (dispositif, exposé sommaire)",
+   "extrait_par": "appareil/scinder_liasses.py",
+   "population": {
+    "couples": 36,
+    "numeros": 31,
+    "variante": {
+     "absolu": 22,
+     "article_ouvert": 14
+    },
+    "nature": {
+     "norme": 24,
+     "credits": 12
+    }
+   },
+   "contamines": [
+    "GL-I-18",
+    "GL-II-1"
+   ],
+   "_contamines": "Vus par le fil qui a écrit la clé. Le compte se vérifie contre la population avant de s'annoncer.",
+   "etapes": {
+    "vecteur": {
+     "population_notee": 22,
+     "dimension": "rappel",
+     "degradation": "socle_absent",
+     "mesures": [
+      {
+       "date": "20260901",
+       "joue_par": "le fil qui a écrit la clé",
+       "aveugle": true,
+       "concordance": 14,
+       "voisinage": 8,
+       "discordance": 0,
+       "taux": 0.636,
+       "note": "Plancher, dans les conditions de la version publique. Des 8 voisinages, 5 ne sont pas des manques — le lot ne cite aucun article de code sur ces cas. 3 sont de vrais manques, tous dus au statut de la dépense non qualifié d'abord."
+      },
+      {
+       "date": "20260902",
+       "joue_par": "un fil vierge",
+       "aveugle": false,
+       "concordance": 20,
+       "voisinage": 2,
+       "discordance": 0,
+       "taux": 0.909,
+       "comparable": false,
+       "note": "NON COMPARABLE aux 63,6 % : le prompt du rejeu nommait huit des vingt-deux cas — les cinq à vérité-terrain vide et les trois manques avec leur correction. Les quatorze restants sont ceux que la version précédente réussissait déjà. Les deux manques qui survivent tiennent à la même cause : la skill ne sait pas chercher un siège hors code."
+      },
+      {
+       "date": "20260907",
+       "joue_par": "aucun fil — relecture de la sortie du 20260901 sur clé corrigée",
+       "rejeu_de_la_skill": false,
+       "aveugle": true,
+       "population_notee": 22,
+       "concordance": 20,
+       "voisinage": 1,
+       "discordance": 1,
+       "taux": 0.909,
+       "precision": {
+        "justes": 27,
+        "rendues": 42,
+        "taux": 0.643
+       },
+       "comparable": false,
+       "note": "NON COMPARABLE aux 63,6 % comme mesure de la skill : c'est la MÊME sortie, notée deux fois — une fois sur une clé fausse, une fois sur la clé corrigée. Neuf couples du banc portaient une clé fausse, dont huit des vingt-quatre de norme de ce lot. Trois défauts corrigés : l'énumération d'articles tronquée à son premier fragment, la population filtrée sur la seule nature, et la borne basse d'une fourchette qui ne s'appariait pas. La précision n'avait jamais été publiée sur ce lot."
+      }
+     ],
+     "_dementi": "La mesure du 20260901 concluait « aucune adresse n'a envoyé l'amendement au mauvais endroit, zéro discordance ». C'était un effet de la clé fausse : sur la clé corrigée, un cas sort en discordance — celui que la même mesure décrivait par ailleurs comme un vrai manque. Les deux affirmations se contredisaient dans le même relevé, et le verdict venait d'une clé vide."
+    },
+    "vecteur_credits": {
+     "population_notee": 12,
+     "dimension": "conformite",
+     "degradation": "socle_absent",
+     "mesures": [],
+     "note": "Non évaluable en rappel, et désormais mesuré : le relevé mécanique trouve ZÉRO programme et ZÉRO mission sur les douze couples. La clé n'est pas extractible — les programmes vivent dans les tableaux —, donc ces douze couples ne portent ni clé ni taux. Exercice de conformité seul, jugé sur pièce : mission puis programme, jamais un montant en dur. Cette population demande son propre extracteur de tableau, qui n'existe pas."
+    },
+    "expose_sommaire": {
+     "population_notee": 36,
+     "dimension": "forme",
+     "degradation": "sans_objet",
+     "mesures": [
+      {
+       "date": "20260902",
+       "regle_de_decompte": "a_declarer",
+       "mediane_mots": 230,
+       "plus_long": 695,
+       "dans_la_fourchette": 19,
+       "sous_la_borne": 14,
+       "au_dessus": 3,
+       "note": "Recompté sur les 36 exposés extraits. Les trois comptes de position tombent juste, les mesures non : le gabarit ne déclare pas sa règle de décompte — appels de note, notes de bas de page, texte des références. Sur une borne à 200, quatorze mots décident. Le contrat du 20260902 la déclare : ils ne comptent pas."
+      },
+      {
+       "date": "20260902",
+       "coupe": "nature",
+       "norme": {
+        "population": 24,
+        "mediane_mots": 206,
+        "dans_la_fourchette": 13
+       },
+       "credits": {
+        "population": 12,
+        "mediane_mots": 247,
+        "dans_la_fourchette": 6
+       },
+       "note": "Les exposés de norme sont plus courts que ceux de crédits."
+      }
+     ],
+     "gisements": {
+      "note_de_bas_de_page": 10,
+      "autorite_nommee_dans_le_corps": 11,
+      "ni_l_un_ni_l_autre": 5
+     },
+     "_regle_de_decompte": "Déclarée au contrat du 20260902 : les appels de note, le texte des notes et le texte des références ne comptent pas. Les comptes ci-dessus la précèdent et ne s'y conforment pas ; ils ne se comparent donc pas au gabarit."
+    },
+    "disposition": {
+     "population_notee": 36,
+     "dimension": "correspondance",
+     "mesures": [],
+     "note": "Rien n'est joué : l'étape n'existe pas. Son objet est le signe « = » du trois colonnes — texte en vigueur, réforme visée, texte révisé — et la forme modificative s'en dérive. Elle se jugera en correspondance sur C — même article visé, même opération, même portée — et jamais en égalité de rédaction. Les 12 cas de crédits en sortent : un amendement de crédits ne modifie aucun texte, il n'a ni A ni C."
+    },
+    "rattachement": {
+     "population_notee": 0,
+     "mesures": [],
+     "note": "Non outillée."
+    },
+    "bout_en_bout": {
+     "population_notee": 0,
+     "mesures": [],
+     "note": "Cinq cas du lot, énoncé en entrée, amendement déposable en sortie. C'est le seul test de la machine : les évals par étape mesurent des pièces, celle-ci mesure la chaîne, et c'est là que le contrat se vérifie ou se casse."
+    }
+   },
+   "banc": "methode/banc_gl.md",
+   "controle_de_la_cle": "appareil/controle_cles_gl.py — K1 à K6, zéro anomalie au 20260907"
+  },
+  {
+   "cle": "plfss_2026_tiers",
+   "vehicule": "plfss",
+   "intitule": "Liasse de financement de la sécurité sociale du même contre-budget",
+   "source": "Contre-budget 2026 de Génération Libre, liasse PLFSS, entrée par pièce jointe",
+   "entree_par": "piece_jointe",
+   "unite": "couple (dispositif, exposé sommaire)",
+   "extrait_par": "appareil/scinder_liasses.py",
+   "population": {
+    "couples": 6,
+    "numeros": 6,
+    "nature": {
+     "norme": 6,
+     "credits": 0
+    }
+   },
+   "contamines": [
+    "a_relever"
+   ],
+   "_contamines": "Deux cas ont été joués en connaissance de cause : la clé imprimait en clair les cas sans adresse relevable avant que le fil joue. La population réellement aveugle est de quatre. Les deux clés se relèvent au rejeu suivant et s'inscrivent ici — les nommer de mémoire fabriquerait une clé fausse.",
+   "etapes": {
+    "vecteur": {
+     "population_notee": 6,
+     "dimension": "rappel",
+     "degradation": "socle_absent",
+     "mesures": [
+      {
+       "date": "20260902",
+       "joue_par": "un fil vierge",
+       "aveugle": false,
+       "concordance": 6,
+       "voisinage": 0,
+       "discordance": 0,
+       "taux": 1.0,
+       "comparable": false,
+       "note": "Premier test de généralisation qui ne soit pas une intention : la skill tourne sur un second véhicule. Le taux se lit avec sa population — six cas, dont deux contaminés — et il ne se compare pas au lot PLF : la population aveugle est de quatre."
+      },
+      {
+       "date": "20260907",
+       "joue_par": "aucun fil — relecture de la sortie du 20260902 sur clé corrigée",
+       "rejeu_de_la_skill": false,
+       "population_notee": 6,
+       "concordance": 6,
+       "voisinage": 0,
+       "discordance": 0,
+       "taux": 1.0,
+       "precision": {
+        "justes": 6,
+        "rendues": 13,
+        "taux": 0.462
+       },
+       "comparable": false,
+       "note": "Le rappel ne bouge pas ; la précision est neuve et elle est basse. La population aveugle reste de cinq : un contaminé est déclaré et non nommé, et le taux est majoré d'autant."
+      }
+     ]
+    }
+   },
+   "_ecart_de_compte": "FERMÉ le 20260907, expliqué et non comblé. Le contre-budget est annoncé à 39 amendements ; les trois liasses portent 38 en-têtes et 37 numéros à couple. Deux causes distinctes, relevées mécaniquement : le n° 37 est absent des trois pièces — aucun en-tête ne le porte —, et le n° 8 porte un dispositif sans exposé sommaire, donc aucun couple. La liasse de financement porte bien 6 numéros, et non les 8 que la soustraction laissait attendre.",
+   "banc": "methode/banc_gl.md"
+  },
+  {
+   "cle": "droit_applicable_20260902",
+   "vehicule": "tous",
+   "intitule": "Adresses des deux lots passées au contrôle du droit applicable",
+   "source": "Dépôt de droit public, vingt codes, millésime LEGI du 1er septembre 2026",
+   "entree_par": "depot_public",
+   "unite": "adresse",
+   "population": {
+    "adresses": 46
+   },
+   "contamines": [],
+   "etapes": {
+    "droit_applicable": {
+     "population_notee": 46,
+     "dimension": "applicabilite",
+     "mesures": [
+      {
+       "date": "20260902",
+       "amendements_visant_du_texte_a_abrogation_programmee": 3,
+       "echeance": "2027-01-01",
+       "cas": [
+        {
+         "cle": "GL-I-31",
+         "adresses": [
+          "cgi 278 bis",
+          "cgi 279",
+          "cgi 278 sexies"
+         ]
+        },
+        {
+         "cle": "GL-I-32",
+         "adresses": [
+          "cgi 279"
+         ]
+        },
+        {
+         "cle": "GL-I-28",
+         "adresses": [
+          "cgi 1594 F quinquies"
+         ]
+        }
+       ],
+       "note": "Plus la ligne relative à la participation des employeurs à l'effort de construction de GL-I-33, au code des impositions sur les biens et services L. 313-1. Rédiger dans l'absolu reste juste ; c'est le branchement qui devra en tenir compte, et c'est un contrôle de dernier moment."
+      }
+     ],
+     "contexte": {
+      "articles_applicables_a_abrogation_programmee": {
+       "cgi": 376,
+       "cibs": 282
+      },
+      "note": "La recodification fiscale est en cours. L'applicabilité se lit aux dates, jamais à l'état."
+     }
+    }
+   }
+  },
+  {
+   "cle": "plf_2026_texte_depose",
+   "vehicule": "plf",
+   "intitule": "Couples (alinéa, adresse ouverte) du texte déposé de la loi de finances — banc de la rédaction modificative",
+   "source": "referentiels/redaction_plf.json, part versée du socle du PLF 2026 n° 1906, empreinte de pièce dfa72c6996e7529448522f42efd0e69c5576f829cedf45ac7f210f439cdb5231",
+   "entree_par": "coffre",
+   "unite": "couple (alinéa, adresse ouverte)",
+   "extrait_par": "appareil/partage_calibrage.py",
+   "population": {
+    "couples": 384,
+    "eligibles_calibrage": 239,
+    "par_strate": {
+     "abrogation_article": 29,
+     "abrogation_subdivision": 19,
+     "completement": 38,
+     "creation": 1,
+     "insertion": 49,
+     "redaction_nouvelle": 3,
+     "remplacement_membre_de_phrase": 100,
+     "retablissement": 6
+    },
+    "hors_strate": 139
+   },
+   "regle_de_selection": {
+    "_ecrite_avant_le_tirage": true,
+    "autorite": "A-330",
+    "eligibilite": "Une opération et une seule, une adresse et une seule à l'alinéa. Un alinéa composite est un cas d'épreuve, jamais de calibrage.",
+    "strates_arretees": [
+     "abrogation_article",
+     "abrogation_subdivision",
+     "remplacement_membre_de_phrase"
+    ],
+    "quatrieme_strate": "la plus peuplée des opérations restantes, mesurée sur la population, égalité tranchée par ordre alphabétique",
+    "tirage": "le premier couple de chaque strate dans l'ordre (numéro d'article du texte déposé, numéro d'alinéa, adresse). Aucune graine pseudo-aléatoire.",
+    "strate_vide": "sort vide et ne se remplace pas",
+    "operations": {
+     "abrogation": [
+      "est abrogé",
+      "est abrogée",
+      "sont abrogés",
+      "sont abrogées"
+     ],
+     "suppression": [
+      "est supprimé",
+      "est supprimée",
+      "sont supprimés",
+      "sont supprimées"
+     ],
+     "remplacement": [
+      "est remplacé",
+      "est remplacée",
+      "sont remplacés",
+      "sont remplacées"
+     ],
+     "redaction_nouvelle": [
+      "est ainsi rédigé",
+      "est ainsi rédigée",
+      "sont ainsi rédigés",
+      "sont ainsi rédigées"
+     ],
+     "completement": [
+      "est complété",
+      "est complétée",
+      "sont complétés",
+      "sont complétées"
+     ],
+     "insertion": [
+      "il est inséré",
+      "il est ajouté",
+      "sont insérés",
+      "sont insérées",
+      "est inséré",
+      "est insérée",
+      "est ajouté",
+      "est ajoutée"
+     ],
+     "creation": [
+      "est créé",
+      "est créée",
+      "sont créés"
+     ],
+     "retablissement": [
+      "est ainsi rétabli",
+      "est ainsi rétablie"
+     ],
+     "chapeau": [
+      "est ainsi modifié",
+      "est ainsi modifiée",
+      "sont ainsi modifiés",
+      "sont ainsi modifiées"
+     ]
+    }
+   },
+   "strates_retenues": [
+    "abrogation_article",
+    "abrogation_subdivision",
+    "remplacement_membre_de_phrase",
+    "insertion"
+   ],
+   "strates_vides": [],
+   "lot_calibrage": [
+    {
+     "cle": "5#2#39 AH",
+     "article_texte_depose": "5",
+     "alinea": 2,
+     "page": 45,
+     "adresses": 1,
+     "operation": "abrogation",
+     "operations_distinctes": 1,
+     "portee": "article",
+     "strate": "abrogation_article",
+     "eligible_calibrage": true
+    },
+    {
+     "cle": "5#9#93",
+     "article_texte_depose": "5",
+     "alinea": 9,
+     "page": 45,
+     "adresses": 1,
+     "operation": "abrogation",
+     "operations_distinctes": 1,
+     "portee": "subdivision",
+     "strate": "abrogation_subdivision",
+     "eligible_calibrage": true
+    },
+    {
+     "cle": "2#1#224",
+     "article_texte_depose": "2",
+     "alinea": 1,
+     "page": 35,
+     "adresses": 1,
+     "operation": "remplacement",
+     "operations_distinctes": 1,
+     "portee": "subdivision",
+     "strate": "remplacement_membre_de_phrase",
+     "eligible_calibrage": true
+    },
+    {
+     "cle": "3#2#39",
+     "article_texte_depose": "3",
+     "alinea": 2,
+     "page": 37,
+     "adresses": 1,
+     "operation": "insertion",
+     "operations_distinctes": 1,
+     "portee": "indetermine",
+     "strate": "insertion",
+     "eligible_calibrage": true
+    }
+   ],
+   "lot_epreuve": {
+    "_scelle": true,
+    "couples": 380,
+    "_regle": "Le complément exact de la population moins le lot de calibrage. Il ne s'énumère pas ici : le fil qui écrit la skill ne doit pas en prendre connaissance. Il se recalcule par `partage_calibrage.py` sur la part versée du socle, à l'identique.",
+    "par_strate": {
+     "abrogation_article": 28,
+     "abrogation_subdivision": 18,
+     "completement": 38,
+     "creation": 1,
+     "insertion": 48,
+     "redaction_nouvelle": 3,
+     "remplacement_membre_de_phrase": 99,
+     "retablissement": 6
+    }
+   },
+   "etapes": {
+    "disposition": {
+     "population_notee": 31,
+     "dimension": "correspondance",
+     "_joue_le": "20260904",
+     "_par": "fil d'éval de disposition-cible, sept fils joueurs aveugles au terrain, aveuglement contrôlé sur les transcripts : chaque transcript de joueur ne porte les chemins interdits qu'une fois, celle de son prompt",
+     "echantillon": {
+      "tire_par": "appareil/echantillon_epreuve.py",
+      "regle": "stratifié proportionnel, pas régulier dans chaque strate, aucune graine, écrite avant le tirage",
+      "lot_epreuve": 380,
+      "tire": 42,
+      "indicibles": 3,
+      "hors_capacite": 8,
+      "notee": 31
+     },
+     "unite": "bloc de disposition — le chapeau et ses subordonnés, et non l'alinéa seul (appareil/blocs_disposition.py)",
+     "degradation": "partiel",
+     "gisements": [
+      "l'énoncé fourni",
+      "le dépôt de droit"
+     ],
+     "_gisements_absents": [
+      "la recherche publique — le proxy la refuse",
+      "la doctrine du corpus, non dépliée"
+     ],
+     "mesures": {
+      "article_exact": 0.9355,
+      "article_cite_dans_la_disposition": 1.0,
+      "operation_stricte": 0.3226,
+      "operation_en_nature": 0.7097,
+      "portee_exacte": 0.3871,
+      "couverture_complete": 0.871,
+      "couverture_moyenne": 0.9537,
+      "les_trois_strict": 0.2581,
+      "article_nature_couverture": 0.6774
+     },
+     "_reserve_portee": "71% des portées relevées sortent `indéterminé`, des deux côtés : le détecteur ne lit pas une cible en complément circonstanciel. Le taux de portée note le détecteur, pas la skill.",
+     "_reserve_equivalences": "Le taux en nature emploie une table d'équivalence légistique proposée et non validée, déclarée dans appareil/noter_eval_disposition.py. Le taux strict ne l'emploie pas. Les deux se publient ; aucun ne remplace l'autre.",
+     "reapplication": {
+      "colonnes": 41,
+      "prouvees": 41,
+      "taux": 1.0,
+      "verdicts": {
+       "PROUVE": 41
+      },
+      "_porte_et_non_note": "Une disposition qui ne redonne pas C à l'octet est fausse. Le taux plein ne dit pas que les C sont justes : il dit que chaque disposition écrit bien le C que son auteur a voulu."
+     },
+     "note": "Premier passage. La skill choisit bien l'article et écrit des dispositions cohérentes ; ce qu'elle manque est la couverture d'un article travaillé en plusieurs endroits, et le choix entre réécrire et retrancher."
+    }
+   }
+  }
+ ],
+ "vehicules_sans_lot": [
+  {
+   "vehicule": "ppl",
+   "note": "Aucun lot. Une proposition de loi ordinaire n'a pas d'unité comparable au couple : l'unité y est l'article, et le régime des renvois entrants y va jusqu'au bout."
+  },
+  {
+   "vehicule": "pplo",
+   "note": "Aucun lot."
+  },
+  {
+   "vehicule": "pplc",
+   "note": "Aucun lot. Le corpus porte deux propositions de révision consolidées, qui sont un modèle de forme et non un banc d'épreuve : la vérité-terrain y serait la nôtre."
+  }
+ ],
+ "_banc_gl": {
+  "document": "methode/banc_gl.md",
+  "prompt_du_fil_joueur": "methode/prompt_fil_joueur_banc_gl.md",
+  "couples": 42,
+  "numeros": 37,
+  "liasses": 3,
+  "_cle": "Scellée à appareil/scinde/cles_eval.json, régénérée des pièces jointes, JAMAIS versée et jamais affichée — pas même en résumé.",
+  "cas_qu_aucune_etape_outillee_ne_prend": {
+   "credits_etat_b": 12,
+   "article_du_texte_depose_rouvert": 2,
+   "siege_en_loi_de_finances_anterieure": 1,
+   "rattachement_laisse_en_blanc_par_le_deposant": 1,
+   "distincts": 16,
+   "_sur_tout_le_banc": [
+    "rattachement — étape non outillée",
+    "liasse — étape inexistante"
+   ]
+  }
+ }
+}
