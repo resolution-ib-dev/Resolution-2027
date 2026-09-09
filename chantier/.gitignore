@@ -1,0 +1,28 @@
+livrables/donnees.json
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# Les archives du coffre se replient par make coffre. Elles n'ont pas d'histoire.
+coffre/
+
+# Cache de conversion des classeurs sectoriels : les originaux sont des pièces
+# jointes du projet, ces xlsx s'en déduisent par soffice.
+sources/plf/
+
+# Les textes déposés — PLF et PLFSS. Ils n'entrent que par pièce jointe du fil
+# (A-234) et ne vont pas au coffre : documents publics, retéléchargeables à
+# l'identique (A-235).
+sources/plfss/
+publication/
+
+# Le dépôt de droit, cloné par le fil pour lire le texte en vigueur. Cinq
+# pièces qui vivent à leur dépôt et ne se versent pas (reference/depot_droit.md).
+droit/
+eval/
+
+# Ateliers de fil : projections vers le projet dédié, copies de travail des
+# skills. Le point de vérité est ailleurs.
+machine/
+skills_maj/
