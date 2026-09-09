@@ -27,8 +27,24 @@ récente vaut** : le coffre est unique, donc deux versions ne sont pas un confli
 mais une chronologie — la session a versé entre les deux. Les versions écartées se
 disent, avec leur horodatage, pour que rien ne disparaisse en silence.
 
+**Ce module ne restaure que la voie `coffre`, et il rend la main sur la voie
+`depot`.** Depuis le 20260909 (A-395), quatre-vingts artefacts — tout
+`appareil/`, trois référentiels JSON, le `Makefile` et le `.gitignore` — ne sont
+plus au coffre : ils sont au dépôt, sous `chantier/`, et ils reviennent par
+`git clone`, qui est déjà une copie d'octets. Les chercher au transcript les
+aurait fait sortir en quatre-vingts absences, ce qui aurait noyé les vraies. Ils
+se comptent donc à part : présents ou non au dépôt courant, avec la commande de
+clone quand ils manquent.
+
+**L'amorce.** `methode/index.json` est la table qui dit quoi restaurer, et il est
+lui-même un document du coffre : sans lui, ce module ne sait rien. Le mode
+`amorce` le restaure seul, sans index, en cherchant son chemin au transcript.
+C'est la seule pièce du corpus dont la voie soit connue sans consulter l'index —
+elle se lit au coffre à son propre chemin, et cela ne changera pas.
+
 Usage : python3 restaurer.py ../methode/index.json .. [chemin_coffre ...]
         sans argument de chemin, tout ce que le transcript porte.
+        python3 restaurer.py amorce ..
 """
 import glob
 import hashlib
@@ -118,14 +134,47 @@ def moisson():
     return retenu, ecartees
 
 
+AMORCE = 'methode/index.json'
+
+
+def amorcer(racine):
+    """Restaure `methode/index.json` seul, sans index — l'œuf avant la poule.
+
+    La table de résolution est elle-même un document du coffre. Un fil qui ouvre
+    dans un dépôt vierge n'a donc rien pour savoir quoi restaurer. Le chemin de
+    l'index au coffre est le seul du corpus qui n'ait pas besoin d'être déclaré :
+    c'est son propre chemin, et l'index le dit de lui-même.
+    """
+    dispo, _ecartees = moisson()
+    contenu = dispo.get(AMORCE)
+    if contenu is None:
+        print(f'{AMORCE} n\'est pas au transcript de cette session. '
+              f'Le lire au coffre d\'abord.')
+        return 1
+    dst = os.path.join(racine, AMORCE)
+    if os.path.exists(dst):
+        print(f'{AMORCE} est déjà au dépôt, laissé tel quel.')
+        return 0
+    os.makedirs(os.path.dirname(dst) or '.', exist_ok=True)
+    with open(dst, 'w', encoding='utf-8', newline='') as f:
+        f.write(contenu)
+    print(f'{AMORCE} restauré par copie d\'octets — '
+          f'{os.path.getsize(dst)} o')
+    return 0
+
+
 def restaurer(chemin_index, racine, demandes=()):
     index = json.load(open(chemin_index, encoding='utf-8'))
-    # chemin au coffre → chemin de dépôt. Un même chemin de coffre ne sert
-    # qu'un artefact, hors archives, qui se déplient par `coffre.py`.
+    if not any('voie' in a for a in index['artefacts']):
+        print('Cet index ne porte pas le champ `voie` : il est antérieur au '
+              '20260909 et\ndécrit une archive au coffre qui n\'existe plus '
+              '(A-396). Le régénérer par\n`make reindex` avant de restaurer.')
+        return 2
+
+    # chemin au coffre → chemin de dépôt, pour la seule voie `coffre`. Un même
+    # chemin de coffre ne sert qu'un artefact.
     cible = {a['chemin_coffre']: a['chemin'] for a in index['artefacts']
-             if a['coffre'] and a['restaurable']
-             and a['chemin_coffre'] not in
-             {x['chemin_coffre'] for x in index['archives']}}
+             if a.get('voie') == 'coffre'}
 
     dispo, ecartees = moisson()
 
@@ -178,10 +227,38 @@ def restaurer(chemin_index, racine, demandes=()):
         print(f'    {depot} — {octets} o')
     for c in absents:
         print(f'    non lu dans cette session — {c}')
+
+    # La voie `depot` : rien à chercher ici, et c'est le point. Ce module rend
+    # la main, et il dit à quoi. Le taire aurait laissé croire que le corpus
+    # tient sur le seul transcript, ce qui est faux depuis A-395.
+    if not demandes:
+        rendre_la_main(index, racine)
     return 0
 
 
+def rendre_la_main(index, racine):
+    """Compte ce que le clone du dépôt rend, sans le chercher au transcript."""
+    d = index.get('depot')
+    if not d:
+        return
+    au_depot = [a for a in index['artefacts'] if a.get('voie') == 'depot']
+    manquants = [a['chemin'] for a in au_depot
+                 if not os.path.isfile(os.path.join(racine, a['chemin']))]
+    print(f'\n{len(au_depot)} artefact(s) de voie `depot` — rendus par le clone '
+          f'de {d["nom"]},\nsous-racine {d["sous_racine"]}/, et non cherchés au '
+          f'transcript. {len(au_depot) - len(manquants)} présent(s) au dépôt '
+          f'courant.')
+    if manquants:
+        print(f'    {len(manquants)} absent(s) du dépôt courant. Ils ne se '
+              f'restaurent pas d\'ici :')
+        print(f'        {d["clone"]}')
+        for c in manquants:
+            print(f'    absent — {c}')
+
+
 if __name__ == '__main__':
+    if len(sys.argv) > 1 and sys.argv[1] == 'amorce':
+        sys.exit(amorcer(sys.argv[2] if len(sys.argv) > 2 else '.'))
     sys.exit(restaurer(sys.argv[1],
                        sys.argv[2] if len(sys.argv) > 2 else '.',
                        sys.argv[3:]))

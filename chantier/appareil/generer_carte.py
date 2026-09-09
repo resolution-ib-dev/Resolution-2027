@@ -256,12 +256,12 @@ FAMILLES = [
      ('Démarrage', ['DEMARRAGE.md'], None, None),
     ]},
 
-   {'titre': 'Outillage', 'compte': 'archives+pieces',
+   {'titre': 'Outillage', 'compte': 'depot+pieces',
     'intro': 'Générateurs et contrôles. Tu n’as jamais à les ouvrir.',
     'colonnes': ('pièce', 'adresse'),
     'apres': None,
     'lignes': [
-     ('Archive technique', [], ('archive',), None),
+     ('L’appareil, au dépôt', [], ('depot',), None),
     ]},
   ]},
 
@@ -548,14 +548,14 @@ def adresse(chemins, forcee, index):
     if forcee is not None:
         if forcee[0] == 'au':
             return f'<span class="b b-au">{e(forcee[1])}</span>'
-        if forcee[0] == 'archive':
-            plis = sorted({x['chemin_coffre'] for x in index['archives']})
-            return e(', '.join(plis))
+        if forcee[0] == 'depot':
+            d = index.get('depot', {})
+            return (f'<span class="b b-ge">au dépôt</span> '
+                    f'{e(d.get("nom", ""))} — {e(d.get("sous_racine", ""))}/')
     par_chemin = {a['chemin']: a for a in index['artefacts']}
     a = par_chemin[chemins[0]]
-    plis = {x['chemin_coffre'] for x in index['archives']}
-    if a['chemin_coffre'] in plis:
-        return f'<span class="b b-ge">replié</span> {e(a["chemin_coffre"])}'
+    if a.get('voie') == 'depot':
+        return f'<span class="b b-ge">au dépôt</span> {e(a["chemin_coffre"])}'
     if a['rang'] == 'source' and not a['coffre']:
         return '<span class="b b-pj">pièce jointe</span>'
     return e(a['chemin_coffre'])
@@ -564,9 +564,9 @@ def adresse(chemins, forcee, index):
 def compte(fam, familles_index):
     if fam['compte'] is None:
         return str(len(fam['lignes']))
-    if fam['compte'] == 'archives+pieces':
+    if fam['compte'] == 'depot+pieces':
         n = len(familles_index.get(fam['titre'].lower(), []))
-        return f'1 archive, {n} pièces'
+        return f'au dépôt, {n} pièces'
     return fam['compte']
 
 

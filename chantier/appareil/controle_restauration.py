@@ -8,9 +8,13 @@ dépôt est-il bien ce que le coffre porte ?**
 R1  divergence — un fichier présent dont l'empreinte ne concorde pas. C'est un
     faux. Il ne se corrige pas au dépôt : il se redemande au coffre, et si le
     coffre ne sait pas le rendre en octets, il ne s'emploie pas du tout.
-R2  absence — un artefact du coffre qui n'a pas été restauré. Ce n'est pas une
-    faute en soi : un fil n'a pas besoin de tout. Mais il se dit, et rien ne le
-    cite.
+R2  absence — un artefact qui n'a pas été restauré. Ce n'est pas une faute en
+    soi : un fil n'a pas besoin de tout. Mais il se dit, et rien ne le cite.
+
+Chaque artefact porte sa **voie** de restauration, et le relevé la nomme : le
+coffre rend ses documents en texte au transcript, le dépôt rend l'appareil par
+clone sous `chantier/` (A-395). Une divergence ne se lit pas de la même façon
+sur les deux, et le contrôle le dit plutôt que de laisser chercher.
 R3  hors empreinte — un artefact du coffre restaurable qu'aucune empreinte ne
     couvre. Le versement l'a manqué, ou il est né depuis.
 R4  sans empreinte — le relevé ne l'a jamais vu : rien à quoi comparer.
@@ -42,19 +46,21 @@ def main(argv):
     table = ref.get('empreintes', {})
     declares_absents = set(ref.get('sans_empreinte', []))
 
+    # Les deux voies de restauration se contrôlent ensemble et se comptent à
+    # part. Le coffre rend ses documents en texte ; le dépôt rend l'appareil par
+    # clone. **Il n'y a plus d'archive** : jusqu'au 20260909 le bloc `archives`
+    # ajoutait un attendu de plus, `technique/coffre.txt`, relevé à
+    # `coffre/coffre.txt`. Il n'existe plus (A-395), et les quatre-vingts
+    # fichiers qu'il portait se contrôlent désormais un par un, à leur chemin de
+    # dépôt, contre leur propre empreinte.
     attendus = [a for a in index['artefacts'] if a['coffre'] and a['restaurable']]
-    attendus += [{'chemin': arch['chemin_coffre'], 'restaurable': True,
-                  'coffre': True, 'rang': 'appareil'}
-                 for arch in index['archives']]
     derives = {a['chemin'] for a in index['artefacts'] if a['rang'] == 'derive'}
+    voies = {a['chemin']: a.get('voie', 'coffre') for a in index['artefacts']}
 
     diverge, rejouables, absents, hors, presents = [], [], [], [], 0
     for a in attendus:
         c = a['chemin']
-        chemin = os.path.join(racine, c)
-        if c in table and c.startswith('technique/'):
-            chemin = os.path.join(racine, 'coffre', os.path.basename(c))
-        e = empreintes.relever(chemin)
+        e = empreintes.relever(os.path.join(racine, c))
         if e is None:
             if c not in declares_absents:
                 absents.append(c)
@@ -66,21 +72,41 @@ def main(argv):
         elif e['sha256'] != table[c]['sha256']:
             (rejouables if c in derives else diverge).append((c, table[c], e))
 
-    print(f'{len(attendus)} artefact(s) attendu(s), {presents} présent(s) au '
-          f'dépôt, {len(table)} empreinte(s) de référence\n')
+    par_voie = {}
+    for a in attendus:
+        par_voie.setdefault(voies.get(a['chemin'], 'coffre'), 0)
+        par_voie[voies.get(a['chemin'], 'coffre')] += 1
+    detail = ', '.join(f'{n} par le {v}' for v, n in sorted(par_voie.items()))
+    print(f'{len(attendus)} artefact(s) attendu(s) — {detail} —, {presents} '
+          f'présent(s) au dépôt, {len(table)} empreinte(s) de référence\n')
 
     print(f'R1 — {len(diverge)} divergence(s)')
     for c, att, obt in diverge:
-        print(f'    {c}')
+        print(f'    {c}  [voie {voies.get(c, "coffre")}]')
         print(f'        attendu {att["octets"]} o, {att["lignes"]} l, '
               f'{att["sha256"][:16]}')
         print(f'        obtenu  {obt["octets"]} o, {obt["lignes"]} l, '
               f'{obt["sha256"][:16]}')
+    # Une divergence ne se lit pas de la même façon sur les deux voies, et le
+    # dire évite de chercher un faux là où il n'y en a pas. Sur la voie
+    # `coffre`, le fichier restauré est un faux : il se redemande au coffre. Sur
+    # la voie `depot`, l'octet vient d'un clone, donc il n'est pas douteux : ce
+    # qui diverge, c'est le clone contre l'empreinte — le dépôt est en retard,
+    # ou un fil a versé des empreintes sans pousser au dépôt. C'est A-346 vu
+    # depuis l'autre bout, et c'est ce que `coffre.py dette` mesure.
+    if any(voies.get(c) == 'depot' for c, _a, _o in diverge):
+        print('    Une divergence de voie `depot` n\'est pas un faux du coffre : '
+              'l\'octet vient\n    d\'un clone. Le dépôt est en retard, ou une '
+              'empreinte a été versée sans\n    pousser. `appareil/coffre.py '
+              'dette` dit lequel des deux.')
     print()
 
-    print(f'R2 — {len(absents)} artefact(s) du coffre non restauré(s)')
+    print(f'R2 — {len(absents)} artefact(s) non restauré(s)')
     for c in sorted(absents):
-        print(f'    {c}')
+        print(f'    {c}  [voie {voies.get(c, "coffre")}]')
+    if any(voies.get(c) == 'depot' for c in absents):
+        print('    Ce qui manque en voie `depot` ne se restaure pas du '
+              'transcript : il se clone.')
     print()
 
     print(f'R3 — {len(hors)} artefact(s) restauré(s) hors empreinte')

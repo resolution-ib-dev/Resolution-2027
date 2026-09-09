@@ -32,9 +32,13 @@ import json
 import os
 import sys
 
-# Les rangs pliés dans une archive : leur empreinte est celle de l'archive, pas
-# celle du fichier, puisque c'est l'archive qui fait l'aller-retour au coffre.
-# On relève quand même le fichier : le dépliage doit rendre le même octet.
+# Une empreinte par artefact, à son propre chemin, et rien d'autre. Jusqu'au
+# 20260909, l'archive technique en portait une de plus, la sienne, relevée à
+# `coffre/coffre.txt` : c'était l'archive qui faisait l'aller-retour au coffre,
+# et le fichier n'était relevé qu'en second pour prouver le dépliage. L'archive
+# est au dépôt et supprimée du coffre (A-395) : les quatre-vingts fichiers
+# qu'elle portait se relèvent chacun pour soi, ce qui est plus précis — une
+# divergence nomme désormais son fichier au lieu de nommer l'archive entière.
 
 
 def relever(chemin):
@@ -74,11 +78,6 @@ def generer(chemin_index, racine):
                 absents.append(a['chemin'])
             continue
         empreintes[a['chemin']] = e
-    for arch in index['archives']:
-        e = relever(os.path.join(racine, 'coffre',
-                                 os.path.basename(arch['chemin_coffre'])))
-        if e is not None:
-            empreintes[arch['chemin_coffre']] = e
 
     # Cumulatif ne veut pas dire éternel. Une empreinte dont l'index ne déclare
     # plus le chemin est celle d'un artefact renommé ou mort : la garder ferait
@@ -88,7 +87,6 @@ def generer(chemin_index, racine):
     # fil qui n'a pas restauré un document ne l'efface pas pour autant.
     declares = {a['chemin'] for a in index['artefacts']
                 if a['coffre'] and a['restaurable']}
-    declares |= {arch['chemin_coffre'] for arch in index['archives']}
     declares.add('methode/empreintes.json')
     perimees = sorted(set(empreintes) - declares)
     for c in perimees:

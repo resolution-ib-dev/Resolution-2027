@@ -111,8 +111,15 @@ $(INTERFACE): $(DONNEES) $(APP)/generer_interface.py
 # tire pas de l'interface de travail mais de la galerie, dont il importe le
 # rendu de fiche. Vercel déploie $(SITE_DIR) et n'écrit rien.
 PROTO_1PAGER := sources/1pager_20260806_v1_proto.html
+# Le générateur écrit vingt et une pages d'un coup, et l'index en déclare deux :
+# l'entrée, qui vaut pour le dossier, et le manifeste, qui est un livrable
+# diffusable à part. **La cible nomme les deux.** Elle n'en nommait qu'une, et
+# `make site/manifeste.html` sortait « no rule » dans un dépôt vierge — V2, le
+# défaut exact qu'A-385 a relevé six fois et manqué ici : une sortie qu'aucune
+# cible ne nomme ne se rejoue jamais par `make`.
+SITE_MANIF  := site/manifeste.html
 
-$(SITE): $(POSITIONS) $(REF_JSON) $(APP)/generer_site.py \
+$(SITE) $(SITE_MANIF): $(POSITIONS) $(REF_JSON) $(APP)/generer_site.py \
          $(APP)/generer_fiches.py $(APP)/structure_fiches.py \
          $(APP)/manifeste.py $(PROTO_1PAGER)
 	cd $(APP) && $(PY) generer_site.py ../$(POSITIONS) ../$(REF_JSON) \
@@ -564,17 +571,33 @@ publier: $(SITE)
 	    git push -q origin HEAD && \
 	    echo "poussé — Vercel déploie"; fi
 
-# Pliage de la couche technique pour le versement au coffre. Le coffre est aussi
-# la vue de l'auteur : il n'y voit que ce qu'il peut ouvrir.
+# Le versement : relever les empreintes, puis dire ce qui est dû au dépôt.
 #
-# Le pliage relève ensuite les empreintes de tout ce qui part au coffre. Elles
-# sont la seule référence à quoi comparer ce qui en reviendra : le coffre rend
-# ses documents en texte, et une restauration qui repasse par le modèle
-# normalise sans le dire.
+# **La cible ne plie plus rien.** Elle appelait `coffre.py plier`, qui repliait
+# la couche technique dans une archive unique du coffre. Cette archive a été
+# versée au dépôt et supprimée du coffre le 20260909, prouvée 80 sur 80 à
+# l'octet (A-395) : il n'y a plus d'archive à replier, et un pliage qui ne se
+# verse plus fabriquerait une pièce que personne ne porte.
+#
+# Ce qui reste, et qui est l'essentiel : les empreintes de tout ce que le corpus
+# porte de durable, sur les deux voies. Elles sont la seule référence à quoi
+# comparer ce qui reviendra — le coffre rend ses documents en texte, et une
+# restauration qui repasse par le modèle normalise sans le dire.
+#
+# Ce qui s'y ajoute : la dette au dépôt. **L'écriture au dépôt est fermée depuis
+# Cowork** (A-393), donc une pièce d'appareil corrigée ici ne peut pas être
+# poussée par le fil qui la corrige. Elle se déclare, et elle se perd si
+# personne ne la porte. La comparaison se fait contre le clone, qui est ce que
+# la session suivante recevra ; sans clone, la cible le dit et continue.
 .PHONY: coffre
 coffre: $(INDEX)
-	@$(PY) $(APP)/coffre.py plier $(INDEX) .
 	@$(PY) $(APP)/empreintes.py $(INDEX) .
+ifneq ($(DROIT_PRESENT),)
+	@cd $(APP) && $(PY) coffre.py dette ../$(INDEX) .. $(DROIT)
+else
+	@echo "Dette au dépôt non mesurée : aucun clone en $(DROIT)."
+	@echo "    git clone https://github.com/resolution-ib-dev/Resolution-2027 droit"
+endif
 
 # Contrôle de la restauration, joué en ouverture juste après le dépliage, avant
 # toute lecture et toute génération. Une divergence est un faux au dépôt.
