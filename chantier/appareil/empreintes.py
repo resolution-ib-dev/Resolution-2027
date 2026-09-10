@@ -25,7 +25,7 @@ Ce n'est pas un défaut : il ne porte aucun verbatim, et sa corruption se voit �
 soit le JSON ne charge plus, soit toutes les empreintes divergent d'un coup, ce
 qui ne ressemble pas à une dérive de recopie sur un fichier isolé.
 
-Usage : python3 empreintes.py ../methode/index.json ..
+Usage : python3 empreintes.py ../methode/index.json .. [clone du dépôt]
 """
 import hashlib
 import json
@@ -51,9 +51,26 @@ def relever(chemin):
             'lignes': octets.count(b'\n')}
 
 
-def generer(chemin_index, racine):
+def generer(chemin_index, racine, clone=None):
+    """Relève les empreintes de ce que les deux surfaces portent **durablement**.
+
+    **Une empreinte ne décrit jamais un état qu'aucune surface ne porte**, et
+    c'est la règle qui manquait le 20260909. Un fil Cowork qui corrige une pièce
+    de l'appareil **ne peut pas la pousser** — l'écriture au dépôt est fermée
+    (A-393) —, et relever son empreinte au dépôt courant écrivait au coffre la
+    référence d'un fichier qui ne vit que dans un conteneur éphémère. Toute
+    restauration à blanc ultérieure en sortait un `R1` qui n'était pas un faux :
+    c'est A-392 par l'autre bout, où un dérivé versé qu'aucun fil ne reverse
+    faisait mentir le coffre.
+
+    Donc, pour un artefact de voie `depot` : l'empreinte se relève **au clone**,
+    qui est ce que la session suivante recevra. Sans clone, elle ne se touche
+    pas — l'ancienne vaut, et `coffre.py dette` porte l'écart. Pour la voie
+    `coffre`, elle se relève au dépôt courant, qui est ce que le fil verse.
+    """
     index = json.load(open(chemin_index, encoding='utf-8'))
     dst = os.path.join(racine, 'methode', 'empreintes.json')
+    sous = (index.get('depot') or {}).get('sous_racine', 'chantier')
 
     # Le relevé est **cumulatif**. Un fil ne déplie que ce dont il a besoin :
     # s'il écrasait le fichier, il effacerait l'empreinte de tout ce qu'il n'a
@@ -64,7 +81,7 @@ def generer(chemin_index, racine):
     except (OSError, json.JSONDecodeError, KeyError):
         empreintes = {}
 
-    absents = []
+    absents, hors_clone = [], []
     for a in index['artefacts']:
         if not a['coffre'] or not a['restaurable']:
             continue
@@ -72,7 +89,13 @@ def generer(chemin_index, racine):
         # l'écrivant.
         if a['chemin'] == 'methode/empreintes.json':
             continue
-        e = relever(os.path.join(racine, a['chemin']))
+        if a.get('voie') == 'depot':
+            if clone is None:
+                hors_clone.append(a['chemin'])
+                continue
+            e = relever(os.path.join(clone, sous, a['chemin']))
+        else:
+            e = relever(os.path.join(racine, a['chemin']))
         if e is None:
             if a['chemin'] not in empreintes:
                 absents.append(a['chemin'])
@@ -105,6 +128,9 @@ def generer(chemin_index, racine):
     print(f'{dst} écrit — {len(empreintes)} empreinte(s), '
           f'{len(absents)} artefact(s) encore sans empreinte, '
           f'{len(perimees)} empreinte(s) périmée(s) retirée(s)')
+    if hors_clone:
+        print(f'    {len(hors_clone)} artefact(s) de voie `depot` non relevé(s), '
+              f'faute de clone : leur empreinte d\'avant vaut.')
     for c in sorted(absents):
         print(f'    sans empreinte — {c}')
     for c in perimees:
@@ -113,4 +139,6 @@ def generer(chemin_index, racine):
 
 
 if __name__ == '__main__':
-    sys.exit(generer(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else '.'))
+    sys.exit(generer(sys.argv[1],
+                     sys.argv[2] if len(sys.argv) > 2 else '.',
+                     sys.argv[3] if len(sys.argv) > 3 else None))

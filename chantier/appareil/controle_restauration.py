@@ -1,31 +1,42 @@
 # -*- coding: utf-8 -*-
-"""Contrôle de la restauration — R1 à R4.
+"""Contrôle de la restauration — R1 à R6.
 
-Se joue en ouverture de session, juste après le dépliage, avant toute lecture et
-toute génération. Il répond à une seule question : **ce qui vient d'être remis au
-dépôt est-il bien ce que le coffre porte ?**
+Se joue en ouverture de session, juste après la restauration, avant toute lecture
+et toute génération. Il répond à une seule question : **ce qui vient d'être remis
+au dépôt est-il bien ce que les deux surfaces portent ?**
+
+Chaque artefact porte sa **voie** de restauration, et le relevé la nomme : le
+coffre rend ses documents en texte au transcript, le dépôt rend l'appareil par
+clone sous `chantier/` (A-395). Une divergence ne se lit pas de la même façon
+sur les deux, et le contrôle le dit plutôt que de laisser chercher.
 
 R1  divergence — un fichier présent dont l'empreinte ne concorde pas. C'est un
     faux. Il ne se corrige pas au dépôt : il se redemande au coffre, et si le
     coffre ne sait pas le rendre en octets, il ne s'emploie pas du tout.
 R2  absence — un artefact qui n'a pas été restauré. Ce n'est pas une faute en
     soi : un fil n'a pas besoin de tout. Mais il se dit, et rien ne le cite.
-
-Chaque artefact porte sa **voie** de restauration, et le relevé la nomme : le
-coffre rend ses documents en texte au transcript, le dépôt rend l'appareil par
-clone sous `chantier/` (A-395). Une divergence ne se lit pas de la même façon
-sur les deux, et le contrôle le dit plutôt que de laisser chercher.
 R3  hors empreinte — un artefact du coffre restaurable qu'aucune empreinte ne
     couvre. Le versement l'a manqué, ou il est né depuis.
 R4  sans empreinte — le relevé ne l'a jamais vu : rien à quoi comparer.
 R5  dérivé divergent — un dérivé n'est pas un faux : il se régénère. Certains
     horodatent leur pied de page, et divergeraient à chaque session. Ils sortent
     de R1 pour ne pas noyer ce qui compte, et `make` les remet d'aplomb.
+R6  dette d'appareil — une pièce de voie `depot` qui diverge de son empreinte
+    **et du clone**. Ce n'est pas un faux : c'est une correction faite ici et
+    non poussée, l'écriture au dépôt étant fermée depuis Cowork (A-393). Elle
+    sort de R1, sans quoi tout fil qui corrige l'appareil échouerait à sa propre
+    clôture. `appareil/coffre.py dette` la réclame.
+
+    **Une pièce de voie `depot` qui diverge de son empreinte mais concorde avec
+    le clone reste en R1**, et c'est le cas qui compte : là, c'est le dépôt qui
+    est en retard, ou une empreinte a été relevée sur autre chose que le clone.
+    Le départage demande le clone, passé en quatrième argument ; sans lui, toute
+    divergence de voie `depot` sort en R1, ce qui est le comportement prudent.
 
 Sortie non nulle dès qu'un R1 existe. Une session qui continue sur un R1 travaille
 sur un faux.
 
-Usage : python3 controle_restauration.py ../methode/index.json ../methode/empreintes.json ..
+Usage : python3 controle_restauration.py ../methode/index.json ../methode/empreintes.json .. [clone]
 """
 import json
 import os
@@ -37,6 +48,7 @@ import empreintes
 def main(argv):
     index = json.load(open(argv[1], encoding='utf-8'))
     racine = argv[3] if len(argv) > 3 else '.'
+    clone = argv[4] if len(argv) > 4 else None
     try:
         ref = json.load(open(argv[2], encoding='utf-8'))
     except (OSError, json.JSONDecodeError) as exc:
@@ -56,8 +68,10 @@ def main(argv):
     attendus = [a for a in index['artefacts'] if a['coffre'] and a['restaurable']]
     derives = {a['chemin'] for a in index['artefacts'] if a['rang'] == 'derive'}
     voies = {a['chemin']: a.get('voie', 'coffre') for a in index['artefacts']}
+    sous = (index.get('depot') or {}).get('sous_racine', 'chantier')
 
     diverge, rejouables, absents, hors, presents = [], [], [], [], 0
+    dette = []
     for a in attendus:
         c = a['chemin']
         e = empreintes.relever(os.path.join(racine, c))
@@ -70,7 +84,17 @@ def main(argv):
             if c != 'methode/empreintes.json':
                 hors.append(c)
         elif e['sha256'] != table[c]['sha256']:
-            (rejouables if c in derives else diverge).append((c, table[c], e))
+            if c in derives:
+                rejouables.append((c, table[c], e))
+            elif voies.get(c) == 'depot' and clone:
+                # Le départage : édité ici et non poussé, ou clone en retard.
+                au_clone = empreintes.relever(os.path.join(clone, sous, c))
+                if au_clone is not None and au_clone['sha256'] != e['sha256']:
+                    dette.append((c, table[c], e, au_clone))
+                else:
+                    diverge.append((c, table[c], e))
+            else:
+                diverge.append((c, table[c], e))
 
     par_voie = {}
     for a in attendus:
@@ -122,6 +146,19 @@ def main(argv):
     print(f'R5 — {len(rejouables)} dérivé(s) divergent(s), à régénérer par `make`')
     for c, att, obt in rejouables:
         print(f'    {c} — {att["octets"]} o attendus, {obt["octets"]} o obtenus')
+    print()
+
+    print(f'R6 — {len(dette)} pièce(s) de l\'appareil corrigée(s) ici et non '
+          f'poussée(s)')
+    for c, att, obt, au_clone in dette:
+        print(f'    {c} — ici {obt["octets"]} o {obt["sha256"][:16]}, '
+              f'au clone {au_clone["octets"]} o {au_clone["sha256"][:16]}, '
+              f'empreinte {att["octets"]} o')
+    if dette:
+        print('    Ce n\'est pas un faux : l\'écriture au dépôt est fermée '
+              'depuis Cowork (A-393).\n'
+              '    `appareil/coffre.py dette` les réclame, et un fil '
+              'claude.ai/code les pousse.')
     print()
 
     if diverge:

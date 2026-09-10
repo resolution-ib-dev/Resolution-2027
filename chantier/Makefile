@@ -589,12 +589,20 @@ publier: $(SITE)
 # poussée par le fil qui la corrige. Elle se déclare, et elle se perd si
 # personne ne la porte. La comparaison se fait contre le clone, qui est ce que
 # la session suivante recevra ; sans clone, la cible le dit et continue.
+#
+# **Le clone est passé au relevé des empreintes, et ce n'est pas une commodité**
+# (20260910). Une empreinte de voie `depot` se relève **au clone**, qui est ce
+# que la session suivante recevra, et jamais au dépôt courant : un fil Cowork
+# qui corrige une pièce de l'appareil ne peut pas la pousser, et relever son
+# empreinte ici écrirait au coffre la référence d'un fichier qui ne vit que dans
+# un conteneur éphémère. Sans clone, ces empreintes ne se touchent pas.
 .PHONY: coffre
 coffre: $(INDEX)
-	@$(PY) $(APP)/empreintes.py $(INDEX) .
 ifneq ($(DROIT_PRESENT),)
+	@cd $(APP) && $(PY) empreintes.py ../$(INDEX) .. $(DROIT)
 	@cd $(APP) && $(PY) coffre.py dette ../$(INDEX) .. $(DROIT)
 else
+	@$(PY) $(APP)/empreintes.py $(INDEX) .
 	@echo "Dette au dépôt non mesurée : aucun clone en $(DROIT)."
 	@echo "    git clone https://github.com/resolution-ib-dev/Resolution-2027 droit"
 endif
@@ -603,7 +611,7 @@ endif
 # toute lecture et toute génération. Une divergence est un faux au dépôt.
 .PHONY: restauration
 restauration:
-	@cd $(APP) && $(PY) controle_restauration.py ../$(INDEX) ../$(EMPREINTES) ..
+	@cd $(APP) && $(PY) controle_restauration.py ../$(INDEX) ../$(EMPREINTES) .. $(DROIT)
 
 etat:
 	@cd $(APP) && $(PY) exporter_donnees.py ../$(REF_JSON) ../$(POSITIONS) \
