@@ -273,10 +273,10 @@ ARTEFACTS = [
     ('partage_calibrage', 'appareil/partage_calibrage.py', 'appareil', True,
      None, ['make', "banc d'épreuve", 'disposition-cible'], []),
     # Le contrôle de réapplication et ses trois cas travaillés (20260904).
-    # Versés comme documents et non dans l'archive : le fil qui les a écrits
-    # n'a pas replié le coffre, et l'archive a été versée au dépôt sans eux.
-    # Ils sont donc **dus au dépôt** — leur entrée de `COFFRE_DOCUMENT` se
-    # retire dès qu'ils y sont poussés, et `coffre.py dette` les réclame.
+    # Versés comme documents et non dans l'archive, le fil qui les a écrits
+    # n'ayant pas replié le coffre : l'archive est partie au dépôt sans eux le
+    # 20260909, et **ils l'ont rejointe le même jour** (fusion `31896bb5`).
+    # Voie `depot` depuis, comme tout le reste de l'appareil.
     ('reappliquer', 'appareil/reappliquer.py', 'appareil', True, None,
      ['disposition-cible', "banc d'épreuve"], []),
     ('cas_disposition', 'appareil/cas_disposition.py', 'appareil', True, None,
@@ -453,6 +453,10 @@ ARTEFACTS = [
      'referentiel', False, 'appareil/socle_plf_texte.py',
      ['articles_ouverts_plf.py', 'redaction_deposee.py',
       'lecture_en_creux.py'], []),
+    # Les deux parts versées ont quitté le coffre pour le dépôt le 20260909,
+    # fusion `31896bb5`. Elles y étaient comme documents parce qu'une pièce plus
+    # grosse que l'archive ne s'y repliait pas (A-349) ; l'archive n'existe plus,
+    # et le dépôt ne pèse rien à la jauge. Voie `depot`, sous `chantier/`.
     ('redaction_plf', 'referentiels/redaction_plf.json', 'referentiel', True,
      'appareil/redaction_deposee.py',
      ['partage_calibrage.py', 'disposition-cible', 'redaction-legistique'],
@@ -958,24 +962,24 @@ DEPOT = {
 # L'exception : une pièce de rang `appareil` ou `referentiel` versée au coffre
 # **comme document**, à son propre chemin, et non portée au dépôt.
 #
-# Relevé le 20260903 sur les deux référentiels de rédaction :
-# `referentiels/redaction_plf.json` fait 848 687 octets, quand l'archive
-# technique en portait 1 825 441 pour tout l'appareil et toute la doctrine.
-# Le motif d'alors — une pièce plus grosse que la marge ne se replie pas — est
-# **caduc depuis A-395** : il n'y a plus d'archive à réécrire. Ce qui reste vrai
-# est qu'ils sont au coffre aujourd'hui, et l'index dit l'état réel, jamais
-# l'état souhaitable. **Ils sont dus au dépôt**, et `coffre.py dette` les
-# réclame : les y porter rendrait environ 360 000 jetons de jauge.
+# **La table est vide depuis le 20260909, et elle reste.** Elle a porté quatre
+# entrées : les deux référentiels de rédaction du texte déposé — 848 687 et
+# 351 968 octets — et les deux modules de la réapplication. Les premiers y
+# étaient depuis A-349, parce qu'une pièce plus grosse que l'archive ne s'y
+# repliait pas sans rendre sa réécriture impossible ; les seconds parce que le
+# fil qui les a écrits n'a pas replié le coffre. **Les deux motifs sont morts
+# avec l'archive** (A-395), et les quatre ont été poussées au dépôt le 20260909,
+# commit de fusion `31896bb5`, prouvées identiques à l'octet contre le clone et
+# contre leur empreinte avant d'être supprimées du coffre — prouver, puis
+# supprimer (A-357).
 #
-# Les deux modules de la réapplication sont dans le même cas, et pour la même
-# raison : ils ont été versés comme documents en attendant un repli qui n'a
-# jamais eu lieu.
-COFFRE_DOCUMENT = {
-    'referentiels/redaction_plf.json': 'referentiels/redaction_plf.json',
-    'referentiels/redaction_plfss.json': 'referentiels/redaction_plfss.json',
-    'appareil/reappliquer.py': 'appareil/reappliquer.py',
-    'appareil/cas_disposition.py': 'appareil/cas_disposition.py',
-}
+# **Elle reste parce que le cas peut revenir** : une pièce de l'appareil qu'un
+# fil Cowork écrit ne peut pas être poussée par lui, l'écriture au dépôt étant
+# fermée (A-393). Elle vit alors au coffre comme document, déclarée ici, et
+# `coffre.py dette` la réclame en `D3` jusqu'à ce qu'un fil claude.ai/code la
+# porte. Une entrée s'y ajoute sur mesure, jamais par intuition, et elle se
+# retire **après** la preuve, jamais avant.
+COFFRE_DOCUMENT = {}
 
 CLES = ('role', 'chemin', 'rang', 'coffre', 'produit_par', 'consomme_par', 'alias')
 
