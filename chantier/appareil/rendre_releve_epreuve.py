@@ -199,29 +199,42 @@ def controler(vals):
     #   « par répartition **avec une pension de base** égale à 1 100 »
     #        → 1 100 est la pension de base : socle 550 + aide 550. Juste.
     #   « par répartition égale à 1 100 »
-    #        → 1 100 est le socle seul, et la note 124, que l'épreuve ne
-    #          touche pas, pose que le socle « forme avec l'aide fondamentale
-    #          une pension de retraite de base » : celle-ci vaudrait 1 650,
-    #          quand le corpus la déclare à 1 100. Faux de 550 €/mois.
+    #        → le référent n'est plus nommé sur la page.
+    #
+    # ARBITRÉ PAR L'AUTEUR LE 20260911, ET C'EST LUI QUI TRANCHE.
+    # **1 100 est la pension de base, que la page la nomme ou non**, et
+    # **la note 124 est grammaticalement fautive** : « le socle contributif
+    # forme avec l'aide fondamentale une pension de retraite de base » se lit
+    # comme une addition, alors que l'aide fondamentale est une composante du
+    # 1 100 et non un terme qui s'y ajoute.
+    #
+    # Ce que le contrôle faisait, et pourquoi il est corrigé ici et non au
+    # document (A-303) : il tirait 1 650 de la lecture additive de la note et
+    # sortait « faux de 550 €/mois » sur les deux épreuves. **C'était la
+    # grammaire de la note qu'il mesurait, pas un écart de chiffre.** Le
+    # verdict était un faux positif, et le publier deux jours de suite a coûté
+    # un arbitrage à l'auteur.
+    #
+    # L'identité est donc la même dans les deux branches — 1 100 = 550 + 550.
+    # Ce qui change est ce que le relevé DIT de la page : quand elle ne nomme
+    # plus son référent, le contrôle passe et **signale que la note, telle
+    # qu'elle est imprimée, ne peut pas servir à dériver la pension de base**.
     ref_ep = ((v_bruts['pension_socle_euro'] or {}).get('extrait') or '')
     ref_ms = ((v_bruts['pension_socle_euro'] or {}).get('manuscrit_extrait')
               or '')
     pension_nommee = 'pension de base' in ref_ep
-    if pension_nommee:
-        poser('pension de base = socle + aide fondamentale',
-              '1 100 = 550 + 550', v['pension_socle_euro'],
-              v['aide_fondamentale_euro'] * 2 if v['aide_fondamentale_euro']
-              else None, ('pension_socle_euro', 'aide_fondamentale_euro'),
-              1, '€/mois')
-    else:
-        poser('pension de base = socle + aide fondamentale — référent déplacé',
-              'la page ne nomme plus la pension de base : 1 100 y est le socle '
-              'seul, et la note 124 de l’épreuve en fait 1 100 + 550',
-              v['pension_socle_euro'],
-              v['pension_socle_euro'] + v['aide_fondamentale_euro']
-              if v['pension_socle_euro'] and v['aide_fondamentale_euro']
-              else None, ('pension_socle_euro', 'aide_fondamentale_euro'),
-              1, '€/mois')
+    poser('pension de base = socle + aide fondamentale',
+          '1 100 = 550 + 550', v['pension_socle_euro'],
+          v['aide_fondamentale_euro'] * 2 if v['aide_fondamentale_euro']
+          else None, ('pension_socle_euro', 'aide_fondamentale_euro'),
+          1, '€/mois')
+    if not pension_nommee:
+        ctrl[-1]['note_fautive'] = (
+            'la page ne nomme plus la pension de base, et la note 124 est '
+            'grammaticalement fautive — arbitrage de l’auteur du 20260911. '
+            '1 100 est la pension de base ; l’aide fondamentale en est une '
+            'composante, non un terme qui s’y ajoute. La note imprimée ne se '
+            'cite pas pour dériver la pension de base.')
     # Le déplacement du référent se dit sur le contrôle lui-même, avec les deux
     # voisinages, plutôt que dans une entrée séparée : c'est un seul fait.
     if pension_nommee != ('pension de base' in ref_ms):

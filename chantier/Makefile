@@ -19,6 +19,8 @@ POSITIONS   := $(REF)/positions.json
 NOTES       := $(REF)/notes_manuscrit.json
 CHIFFRES    := $(REF)/REF_chiffres.json
 PROTO_DON   := sources/Donnees_20260806_v1_proto.html
+EPREUVE     := sources/ETAT_PARTOUT_JUSTICE_NULLE_PART_EP3.pdf
+LIVRE       := livre/texte_livre.json
 DONNEES     := $(LIV)/donnees.json
 EXTRAIT     := $(LIV)/extrait_gagnants_perdants.html
 INTERFACE   := $(LIV)/interface_positions.html
@@ -89,6 +91,16 @@ $(CHIFFRES): $(NOTES) $(REF_JSON) $(PROTO_DON) \
              $(APP)/generer_ref_chiffres.py $(APP)/sources_chiffres.py
 	cd $(APP) && $(PY) generer_ref_chiffres.py ../$(NOTES) ../$(REF_JSON) \
 	  ../$(PROTO_DON) ../$@
+endif
+
+# --- strate 1 du verbatim citable -------------------------------------------
+# Le texte du livre imprimé, extrait de l'épreuve validée par l'auteur le
+# 20260911. L'épreuve est une pièce jointe de 2,6 Mo : elle ne va pas au
+# coffre, le texte qu'on en tire y va. Sans elle la règle s'efface, comme
+# toute règle qui dépend d'une pièce jointe, et le texte versé fait foi.
+ifneq ($(wildcard $(EPREUVE)),)
+$(LIVRE): $(EPREUVE) $(APP)/texte_livre.py
+	$(PY) $(APP)/texte_livre.py $(EPREUVE) $@
 endif
 
 # --- projection unique ------------------------------------------------------
@@ -470,11 +482,21 @@ controle:
 	@cd $(APP) && $(PY) controle_structurel.py ../$(REF_JSON)
 	@cd $(APP) && $(PY) controle_arithmetique.py ../$(REF_JSON)
 	@cd $(APP) && $(PY) controle_notes.py ../$(NOTES) ../$(REF_JSON) ../$(POSITIONS) || true
-	@cd $(APP) && $(PY) controle_chiffres.py ../$(CHIFFRES)
-	@cd $(APP) && $(PY) controle_hypotheses.py ../$(MAN)/manuscrit.html \
-	  ../$(NOTES) ../$(REF_JSON)
-	@cd $(APP) && $(PY) controle_apports.py ../$(POSITIONS) ../$(REF_JSON) \
-	  ../$(MAN)/manuscrit.html
+	@if [ -f $(CHIFFRES) ]; then cd $(APP) && $(PY) controle_chiffres.py \
+	  ../$(CHIFFRES); \
+	 else echo "REF_chiffres absent du dépôt — non contrôlé"; fi
+	@if [ -f $(MAN)/manuscrit.html ]; then cd $(APP) && \
+	  $(PY) controle_hypotheses.py ../$(MAN)/manuscrit.html \
+	  ../$(NOTES) ../$(REF_JSON); \
+	 else echo "manuscrit absent du dépôt — hypothèses non contrôlées"; fi
+	@if [ -f $(MAN)/manuscrit.html ]; then cd $(APP) && \
+	  $(PY) controle_apports.py ../$(POSITIONS) ../$(REF_JSON) \
+	  ../$(MAN)/manuscrit.html; \
+	 else echo "manuscrit absent du dépôt — apports non contrôlés"; fi
+	@if [ -f $(LIVRE) ]; then $(PY) $(APP)/texte_livre.py $(EPREUVE) \
+	  /dev/null >/dev/null 2>&1 && echo "texte du livre : six contrôles joués" \
+	  || echo "texte du livre : épreuve non jointe — non rejoué"; \
+	 else echo "texte du livre absent du dépôt — non contrôlé"; fi
 	@if [ -f $(SOCLE_BUD) ]; then cd $(APP) && $(PY) controle_socle.py \
 	  ../$(SOCLE_BUD); \
 	 else echo "socle budgétaire absent du dépôt — non contrôlé"; fi
