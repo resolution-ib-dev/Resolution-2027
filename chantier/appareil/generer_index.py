@@ -64,9 +64,32 @@ REVISION = {'version': 'index v1', 'date': '20260821',
 # role, chemin, rang, coffre, produit_par, consomme_par, alias horodatés
 ARTEFACTS = [
     # ---------------------------------------------------------------- strate 1
+    #
+    # Deux artefacts portent la strate 1 depuis le 20260911, et ils ne
+    # répondent pas à la même question.
+    #
+    # Le **manuscrit** est la strate 1 de la *doctrine* : c'est sur lui que le
+    # référentiel de doctrine, les notes et les chiffres sont ancrés, et il ne
+    # bouge pas. Il reste aussi le troisième terme de tout relevé d'épreuve —
+    # celui qui dit de quel côté un écart déplace le texte.
+    #
+    # Le **livre imprimé** est la strate 1 du *verbatim citable* : depuis que
+    # l'auteur a validé la troisième épreuve, ce qui se cite du livre se cite
+    # de lui, et jamais du manuscrit. Entre les deux, 858 écarts relevés le
+    # 20260908 : citer le manuscrit, c'est désormais mal citer le livre.
+    #
+    # Ce n'est pas deux points de vérité pour un même fait : c'est un point de
+    # vérité par question. `consomme_par` porte le départage, et c'est là qu'il
+    # se lit.
     ('manuscrit', 'manuscrit/manuscrit.html', 'strate1', True, None,
-     ['extraire_notes.py', 'toute skill qui cite un verbatim'],
+     ['extraire_notes.py', 'relevé d’épreuve — troisième terme',
+      'toute skill qui cite un verbatim de la doctrine'],
      ['Manuscrit_20260820_v4.html']),
+    ('livre', 'livre/texte_livre.json', 'strate1', True,
+     'appareil/texte_livre.py',
+     ['toute skill qui cite un verbatim du livre', 'audit-conformite',
+      'controle_chiffres.py'],
+     []),
 
     # ------------------------------------------------------------ référentiels
     ('ref_doctrine', 'referentiels/REF_doctrine.json', 'referentiel', True, None,
@@ -299,6 +322,13 @@ ARTEFACTS = [
     ('rendre_releve_epreuve', 'appareil/rendre_releve_epreuve.py',
      'appareil', True, None,
      ['relecture comparée des épreuves', 'bon à tirer'], []),
+    # Le texte du livre imprimé, extrait mécaniquement de l'épreuve validée.
+    # Il ne compare rien et ne relève aucun écart : il rend le verbatim, page
+    # par page, ligne par ligne, et il porte le SHA de l'épreuve dont il sort.
+    # Six contrôles internes, `T1` à `T6`, dont le dernier prouve qu'aucune
+    # ligne du livre n'est perdue à l'extraction.
+    ('texte_livre', 'appareil/texte_livre.py', 'appareil', True, None,
+     ['make', 'strate 1 du verbatim citable'], []),
     ('blocs_disposition', 'appareil/blocs_disposition.py', 'appareil', True,
      None, ['preparer_eval_disposition.py', "éval de la rédaction cible"], []),
     ('preparer_eval_disposition', 'appareil/preparer_eval_disposition.py',
@@ -514,6 +544,17 @@ ARTEFACTS = [
      ['arbitrage de l’auteur', 'bon à tirer'], []),
     ('releve_epreuve_md', 'livrables/releve_epreuve_EP2.md', 'derive', True,
      'appareil/rendre_releve_epreuve.py',
+     ['arbitrage de l’auteur', 'bon à tirer'], []),
+    # Le relevé de mandat du 20260910 — la troisième épreuve contre la seconde
+    # relue. Le fil qui l'a produit les avait bien portés à cette table ; son
+    # édition est morte avec son conteneur, faute d'avoir pu être poussée
+    # (A-394). Seul l'index du coffre les portait encore, et le prochain
+    # `make reindex` les aurait dé-déclarés en silence. Ils sont reportés ici.
+    ('releve_mandat_tsv', 'livrables/releve_epreuve_EP3.tsv', 'derive', True,
+     'appareil/rendre_releve_mandat.py',
+     ['arbitrage de l’auteur', 'bon à tirer'], []),
+    ('releve_mandat_md', 'livrables/releve_epreuve_EP3.md', 'derive', True,
+     'appareil/rendre_releve_mandat.py',
      ['arbitrage de l’auteur', 'bon à tirer'], []),
     # Retiré du coffre le 20260908. Rejeu prouvé à l'octet contre l'empreinte
     # versée : `make livrables/carte_du_projet.html` rend `bd2280f2…`, 23 863 o.
@@ -750,6 +791,48 @@ MANQUANTS = [
      "scripts. C'est la sortie qu'A-366 disait coûteuse faute de digestion "
      "courte, et elle a eu lieu.",
      ['citation sourcée', 'plan de lancement']),
+    # Les quatre modules du relevé de mandat, écrits le 20260910 depuis Cowork,
+    # déclarés au dépôt par l'index du coffre, et **jamais poussés**. Le clone
+    # du 20260911 ne les porte pas — `HEAD` à `9bf6744`, diff vide sur ces
+    # quatre chemins — et le conteneur qui les portait est mort avec la
+    # session. C'est A-394 réalisée : le fil qui corrige ne peut pas pousser,
+    # et ce qu'il n'a pas poussé n'existe plus. Leur sortie, elle, est au
+    # coffre : `livrables/releve_epreuve_EP3.tsv` et son `.md` restent lisibles
+    # et font spécification exécutable si on les réécrit — c'est l'asymétrie
+    # d'A-343, et elle joue ici en faveur de la réécriture.
+    ('flux_epreuve_gen', 'appareil/flux_epreuve.py', 'appareil',
+     "Flux de page d'une épreuve — écrit le 20260910, jamais poussé, perdu",
+     "Extraction du flux de composition d'une épreuve, à deux échelles : les "
+     "caractères couverts par un surlignage, et les lignes de composition qui "
+     "les portent. Consommé par `relever_mandat_epreuve.py` et "
+     "`valeurs_epreuve_relachees.py`. Déclaré voie `depot` par l'index du "
+     "coffre, absent du clone. À réécrire depuis le relevé EP3, qui est sa "
+     "sortie versée.",
+     ['relever_mandat_epreuve.py', 'valeurs_epreuve_relachees.py']),
+    ('relever_mandat_epreuve_gen', 'appareil/relever_mandat_epreuve.py',
+     'appareil',
+     "Relevé de mandat d'une épreuve — écrit le 20260910, jamais poussé, perdu",
+     "Apparie les surlignages annotés d'une épreuve relue aux écarts de "
+     "l'épreuve nouvelle, et rend les quatre mandats `porté`, `porté de "
+     "travers`, `non porté`, `non demandé`, chacun avec sa preuve — `texte`, "
+     "`suppression`, `alinéa`, `place`. Absent du clone. À réécrire depuis le "
+     "relevé EP3.",
+     ['rendre_releve_mandat.py', 'relecture d’épreuve contre épreuve']),
+    ('valeurs_epreuve_relachees_gen', 'appareil/valeurs_epreuve_relachees.py',
+     'appareil',
+     "Contrôle relâché des grandeurs — écrit le 20260910, jamais poussé, perdu",
+     "Relève les grandeurs du corpus dans une épreuve sur un texte dont les "
+     "césures sont recollées, puis une seconde fois sans les virgules : c'est "
+     "ce qui empêche un contrôle de disparaître au lieu d'échouer. Absent du "
+     "clone. À réécrire — sa règle est écrite au relevé EP3.",
+     ['contrôle des chiffres d’une épreuve', 'bon à tirer']),
+    ('rendre_releve_mandat_gen', 'appareil/rendre_releve_mandat.py', 'appareil',
+     "Rendu du relevé de mandat — écrit le 20260910, jamais poussé, perdu",
+     "Rend `livrables/releve_epreuve_EP3.tsv` et son `.md`. Absent du clone, "
+     "quand ses deux sorties sont au coffre : elles font spécification "
+     "exécutable pour sa réécriture, à l'octet, comme la sortie versée "
+     "d'`articles_ouverts_plf.py` l'avait fait en A-343.",
+     ['relecture d’épreuve contre épreuve', 'bon à tirer']),
     ('releve_affecte', 'referentiels/releve_affecte.json', 'referentiel',
      'Releve_affecte — attendu par trois skills',
      "Couche de preuve à identifiants M-nnnn, citée par compatibilite-doctrine, "
@@ -885,6 +968,14 @@ SOURCES_JOINTES = [
     # (A-264). Son grain est porté à `sources/gabarit_expose_sommaire.md` avant
     # la suppression ; il rentre désormais par pièce jointe du fil qui en a
     # besoin, comme les classeurs.
+    # L'épreuve validée par l'auteur le 20260911, dont `livre/texte_livre.json`
+    # est extrait : 180 pages, composée le 10/09/2026, 2 759 475 octets,
+    # `sha256 1ea863869f75fe4eb4711c99c3bacca6811d92426ead40f571913332f199948b`.
+    # Le texte va au coffre, le binaire non — c'est le régime des épreuves
+    # depuis le 20260908. Elle rentre par pièce jointe du fil qui rejoue
+    # l'extraction, comme les classeurs, et sa jonction au projet revient à
+    # l'auteur.
+    'sources/ETAT_PARTOUT_JUSTICE_NULLE_PART_EP3.pdf',
     'sources/Expose_des_motifs_redaction_GL.docx',
     'sources/France_Resolution_Strategie_Reseaux_2.pdf',
     'sources/Note_n__1_Justice_fiscalecomment_nous_avons_trahi_1789.pdf',

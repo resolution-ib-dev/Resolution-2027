@@ -43,8 +43,16 @@ FAMILLES = [
     'colonnes': ('document', 'adresse', 'ce qu’il porte'),
     'apres': 'Des annexes formelles compléteront, versées par l’auteur.',
     'lignes': [
+     ('Livre imprimé', ['livre/texte_livre.json'], None,
+      'strate 1 du verbatim citable depuis le 20260911. Le texte de la '
+      'troisième épreuve, validée par l’auteur : 180 pages, une entrée par '
+      'page, les lignes de composition verbatim. Ce qui se cite du livre se '
+      'cite de lui.'),
      ('Manuscrit', ['manuscrit/manuscrit.html'], None,
-      'strate 1, corps et notes de fin. 141 notes, dont 37 chiffrées.'),
+      'strate 1 de la doctrine. Corps et notes de fin, 141 notes dont 37 '
+      'chiffrées. Il ancre le référentiel de doctrine, les notes et les '
+      'chiffres, et il est le troisième terme de tout relevé d’épreuve — il '
+      'ne se cite plus pour le livre, dont 858 écarts le séparent.'),
      ('Synthèse Calculs Résolution',
       ['sources/Synthèse_Calculs_Résolution_0819.xlsx'], None,
       'chiffrage. Onglets Manuscrit, Détail Économies, Perdants.'),
@@ -358,6 +366,10 @@ IMPLICITES = {
     # il se dépouille.
     'livrables/releve_epreuve_EP2.tsv': 'grilles',
     'livrables/releve_epreuve_EP2.md': 'grilles',
+    'livrables/releve_epreuve_EP3.tsv': 'grilles',
+    'livrables/releve_epreuve_EP3.md': 'grilles',
+    'appareil/texte_livre.py': 'outillage',
+    'sources/ETAT_PARTOUT_JUSTICE_NULLE_PART_EP3.pdf': 'doctrine',
     # --- la digestion du texte déposé, 20260903
     # Les deux socles et leurs coupes sont des grilles : de la matière rangée
     # qu'un outil consomme, jamais un livrable qu'on lit.
