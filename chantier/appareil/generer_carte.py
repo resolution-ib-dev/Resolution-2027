@@ -101,6 +101,11 @@ FAMILLES = [
      ('Précédents restes à payer',
       ['sources/Precedents_restes_a_payer_20260721.md'], None,
       'précédents historiques, source dure de la réforme budgétaire.'),
+     ('Constitution — trois colonnes, 20260914',
+      ['reference/Constitution_3col_20260914_v45.html'], None,
+      'nouveau millésime de la trois colonnes. Fait paire avec la '
+      'présentation du 20260916. La version du 20260730 garde sa propre '
+      'entrée, datée et non remplacée.'),
     ]},
 
    {'titre': 'Références externes', 'compte': None,
@@ -186,6 +191,10 @@ FAMILLES = [
      ('Recensement des innovations',
       ['sources/Recensement_innovations_20260731_v1.md'], None,
       'travail de fond sur les strates normatives.'),
+     ('Recensement des innovations, 20260914',
+      ['livrables/Recensement_innovations_20260914_v2.md'], None,
+      'travail de fond sur les strates normatives. La version du 20260731 '
+      'garde sa propre entrée, datée et non remplacée.'),
      ('REF_doctrine', ['referentiels/REF_doctrine.json'], None,
       'la doctrine en nœuds. Lu par cinq skills et tous les générateurs.'),
      ('REF_chiffres', ['referentiels/REF_chiffres.json'], None,
@@ -262,6 +271,8 @@ FAMILLES = [
       None, None),
      ('Instructions permanentes', ['CLAUDE.md'], None, None),
      ('Démarrage', ['DEMARRAGE.md'], None, None),
+     ('État de la révision constitutionnelle',
+      ['methode/etat_revision_constitutionnelle.md'], None, None),
     ]},
 
    {'titre': 'Outillage', 'compte': 'depot+pieces',
@@ -289,6 +300,13 @@ FAMILLES = [
      ('PPLC — substitution intégrale',
       ['sources/PPLC_consolidee_substitution_20260730_v6.md'], None,
       'consolidée. Même exposé des motifs que la modificative.'),
+     ('PPLC — dispositions modificatives, 20260914',
+      ['livrables/PPLC_consolidee_modificative_20260914_v7.md'], None,
+      'consolidée. La version du 20260730 garde sa propre entrée, datée et '
+      'non remplacée.'),
+     ('PPLC — substitution intégrale, 20260914',
+      ['livrables/PPLC_consolidee_substitution_20260914_v7.md'], None,
+      'consolidée. Même exposé des motifs que la modificative du 20260914.'),
     ]},
 
    {'titre': 'Rédactionnel', 'compte': None,
@@ -304,6 +322,13 @@ FAMILLES = [
      ('Présentation de la révision',
       ['sources/Presentation_20260731_v44.md'], None,
       'fait paire avec le texte à trois colonnes.'),
+     ('Récapitulatif de transposabilité, 20260914',
+      ['livrables/Recap_transposabilite_20260914_v7.md'], None,
+      'la version du 20260731 garde sa propre entrée, datée et non '
+      'remplacée.'),
+     ('Présentation de la révision, 20260916',
+      ['livrables/Presentation_20260916_v46.md'], None,
+      'fait paire avec la trois colonnes du 20260914.'),
     ]},
 
    {'titre': 'Rédactionnel', 'compte': None,

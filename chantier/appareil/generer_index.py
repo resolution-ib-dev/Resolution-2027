@@ -697,6 +697,41 @@ ARTEFACTS = [
     ('inventaire_coffre', 'methode/inventaire_coffre.tsv', 'methode', False,
      None, ['controle_index.py', 'ouverture de session'], []),
 
+    # ---------------------------------------------------- dette du 20260914
+    # Sept pièces dues au coffre : un nouveau millésime de la Constitution à
+    # trois colonnes et six dérivés de la passe de révision constitutionnelle.
+    # Les versions antérieures de ces cinq dernières gardent leur propre entrée
+    # dans `COFFRE_SOURCES` — datées, non remplacées, non aliasées : c'est
+    # l'arbitrage du 20260914 sur le nommage de cette famille.
+    ('source:constitution_3col_20260914_v45',
+     'reference/Constitution_3col_20260914_v45.html', 'source', True, None,
+     ['citation sourcée'], []),
+    ('pplc_modificative',
+     'livrables/PPLC_consolidee_modificative_20260914_v7.md', 'derive', True,
+     None, ['dépôt parlementaire'], []),
+    ('pplc_substitution',
+     'livrables/PPLC_consolidee_substitution_20260914_v7.md', 'derive', True,
+     None, ['dépôt parlementaire'], []),
+    ('presentation_revision', 'livrables/Presentation_20260916_v46.md',
+     'derive', True, None, ['dépôt parlementaire'], []),
+    ('etat_revision', 'methode/etat_revision_constitutionnelle.md', 'methode',
+     True, None, ['ouverture de session'], []),
+    ('recap_transposabilite',
+     'livrables/Recap_transposabilite_20260914_v7.md', 'derive', True, None,
+     ['dépôt parlementaire'], []),
+    ('recensement_innovations',
+     'livrables/Recensement_innovations_20260914_v2.md', 'derive', True, None,
+     ['analyse-transposabilite'], []),
+    # Nés de l'impression du 20260914. `refresh_toc_pdf.py` répond à un défaut
+    # mesuré : le convertisseur pose bien les styles de titre mais laisse le
+    # niveau de plan à zéro, et LibreOffice construit le sommaire sur les
+    # niveaux de plan — d'où une table des matières vide dans tout PDF produit
+    # hors de Word.
+    ('refresh_toc_pdf', 'appareil/refresh_toc_pdf.py', 'appareil', True,
+     None, ['impression-docx'], []),
+    ('sans_cesure', 'appareil/sans_cesure.py', 'appareil', True,
+     None, ['impression-docx'], []),
+
     # ------------------------------------------------------------------ racine
     ('instructions', 'CLAUDE.md', 'methode', True, None,
      ['ouverture de session'], ['CLAUDE.md']),
