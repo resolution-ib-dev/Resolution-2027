@@ -46,7 +46,7 @@ def normaliser(texte):
         t = t.replace(c, "'")
     for c in TIRETS:
         t = t.replace(c, "-")
-    t = t.replace(" ", " ").replace(" ", " ").replace(" ", " ")
+    t = "".join(" " if unicodedata.category(c) == "Zs" else c for c in t)
     t = re.sub(r"\s+", " ", t)
     return t.strip()
 
