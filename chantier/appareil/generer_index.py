@@ -705,23 +705,23 @@ ARTEFACTS = [
     # l'arbitrage du 20260914 sur le nommage de cette famille.
     ('source:constitution_3col_20260914_v45',
      'reference/Constitution_3col_20260914_v45.html', 'source', True, None,
-     ['citation sourcée'], []),
+     ["lecture de l'auteur", 'redaction-legistique', 'audit-conformite'], []),
     ('pplc_modificative',
      'livrables/PPLC_consolidee_modificative_20260914_v7.md', 'derive', True,
-     None, ['dépôt parlementaire'], []),
+     None, ['dépôt parlementaire', 'audit-conformite'], []),
     ('pplc_substitution',
      'livrables/PPLC_consolidee_substitution_20260914_v7.md', 'derive', True,
-     None, ['dépôt parlementaire'], []),
+     None, ['redaction-legistique', 'audit-conformite'], []),
     ('presentation_revision', 'livrables/Presentation_20260916_v46.md',
-     'derive', True, None, ['dépôt parlementaire'], []),
+     'derive', True, None, ['diffusion', "lecture de l'auteur"], []),
     ('etat_revision', 'methode/etat_revision_constitutionnelle.md', 'methode',
      True, None, ['ouverture de session'], []),
     ('recap_transposabilite',
      'livrables/Recap_transposabilite_20260914_v7.md', 'derive', True, None,
-     ['dépôt parlementaire'], []),
+     ['analyse-transposabilite', 'compatibilite-doctrine'], []),
     ('recensement_innovations',
      'livrables/Recensement_innovations_20260914_v2.md', 'derive', True, None,
-     ['analyse-transposabilite'], []),
+     ['analyse-transposabilite', 'contestabilite'], []),
     # Nés de l'impression du 20260914. `refresh_toc_pdf.py` répond à un défaut
     # mesuré : le convertisseur pose bien les styles de titre mais laisse le
     # niveau de plan à zéro, et LibreOffice construit le sommaire sur les
@@ -731,6 +731,16 @@ ARTEFACTS = [
      None, ['impression-docx'], []),
     ('sans_cesure', 'appareil/sans_cesure.py', 'appareil', True,
      None, ['impression-docx'], []),
+
+    # ---------------------------------------------------- dette du 20260916
+    # Le contrôle qui a rouvert l'écart d'A-25 et d'A-47, et le millésime de
+    # la Constitution à trois colonnes qui les corrige. La v45 garde son
+    # entrée : datée, non remplacée, non aliasée.
+    ('controle_colonne_c', 'appareil/controle_colonne_c.py', 'appareil', True,
+     None, ['make controle'], []),
+    ('source:constitution_3col_20260916_v46',
+     'reference/Constitution_3col_20260916_v46.html', 'source', True, None,
+     ["lecture de l'auteur", 'redaction-legistique', 'audit-conformite'], []),
 
     # ------------------------------------------------------------------ racine
     ('instructions', 'CLAUDE.md', 'methode', True, None,
