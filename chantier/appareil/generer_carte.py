@@ -106,6 +106,13 @@ FAMILLES = [
       'nouveau millésime de la trois colonnes. Fait paire avec la '
       'présentation du 20260916. La version du 20260730 garde sa propre '
       'entrée, datée et non remplacée.'),
+     ('Constitution — trois colonnes, 20260916',
+      ['reference/Constitution_3col_20260916_v46.html'], None,
+      'millésime en vigueur. Deux alinéas rétablis en colonne C — la clause '
+      'de remplacement temporaire de l’article 25, l’alinéa de suspension '
+      'des délais de l’article 47 — sortis par '
+      '`appareil/controle_colonne_c.py`. Les millésimes antérieurs gardent '
+      'leur entrée, datés et non remplacés.'),
     ]},
 
    {'titre': 'Références externes', 'compte': None,
