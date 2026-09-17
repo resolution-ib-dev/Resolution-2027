@@ -742,6 +742,65 @@ ARTEFACTS = [
      'reference/Constitution_3col_20260916_v46.html', 'source', True, None,
      ["lecture de l'auteur", 'redaction-legistique', 'audit-conformite'], []),
 
+    # ---------------------------------------------------- dette du 20260917
+    # Le découpage doctrinal en blocs (lot C) et son contrôle mécanique, la
+    # règle du fragment daté qui permet à deux fils de verser au même fichier
+    # cumulatif sans collision, et le pliage d'un paquet de dépôt. Ces cinq
+    # pièces n'étaient déclarées par aucun paquet reçu ; les rôles et
+    # `consomme_par` ci-dessous sont posés depuis ce que chaque module dit de
+    # lui-même en tête de fichier, faute d'une déclaration reçue — à corriger
+    # si elle diverge de l'intention.
+    ('controle_blocs', 'appareil/controle_blocs.py', 'appareil', True, None,
+     ['epreuve_controle_blocs.py', 'lot C — découpage doctrinal en blocs'],
+     []),
+    ('epreuve_controle_blocs', 'appareil/epreuve_controle_blocs.py',
+     'appareil', True, None, ['controle_blocs.py'], []),
+    ('fragments', 'appareil/fragments.py', 'appareil', True, None,
+     ['tout fil qui dépose au journal ou aux arbitrages'], []),
+    ('rendre_blocs', 'appareil/rendre_blocs.py', 'appareil', True, None,
+     ['lot C — découpage doctrinal en blocs'], []),
+    ('plier_lot', 'appareil/plier_lot.py', 'appareil', True, None,
+     ["dépliage d'un paquet de dépôt"], []),
+
+    # Confrontation d'un résumé de texte financier à la pièce qui fait foi, et
+    # son épreuve de fautes.
+    ('confronter_lecture', 'appareil/confronter_lecture.py', 'appareil', True,
+     None, ["confrontation d'un livrable à sa pièce"], []),
+    ('faux_lecture', 'appareil/faux_lecture.py', 'appareil', True,
+     None, ['confronter_lecture.py'], []),
+
+    # ------------------------------------ extension de la machine, 20260916
+    # Le plan et sa pièce opératoire, puis les trois prompts de lot. La méthode
+    # de découpage est écrite **avant** le premier bloc : déduite des blocs,
+    # elle ne pourrait plus les juger.
+    #
+    # `plier_paquet.py` et `controle_projection.py` ont d'abord été tenus hors
+    # dépôt : la note de transmission du 20260917 les disait perdus, à
+    # réécrire, sans rouvrir le paquet joint qui les portait déjà en code
+    # entier. Écart signalé, tranché par l'auteur (20260917) — le paquet du
+    # 20260916 fait foi, les deux fichiers sont poussés, empreintes vérifiées
+    # à l'octet contre celles que ce paquet annonçait.
+    ('plan_bataille', 'methode/plan_bataille.md', 'methode', True, None,
+     ['ouverture de session', 'ordre des lots'], []),
+    ('methode_decoupage_bloc', 'methode/methode_decoupage_bloc.md', 'methode',
+     True, None, ['lot C — découpage doctrinal en blocs', 'plan_bataille'],
+     []),
+    ('prompt_lot_A_resume_attendu', 'methode/prompt_lot_A_resume_attendu.md',
+     'methode', True, None, ['ouverture du fil du lot A'], []),
+    ('prompt_lot_C_decoupage_blocs',
+     'methode/prompt_lot_C_decoupage_blocs.md', 'methode', True, None,
+     ['ouverture du fil du lot C'], []),
+    ('prompt_lot_ecart', 'methode/prompt_lot_ecart.md', 'methode', True, None,
+     ["ouverture du fil de la mesure de l'écart"], []),
+    ('paquet_machine', 'livrables/paquet_machine.md', 'derive', True,
+     'appareil/plier_paquet.py',
+     ['lot C — découpage doctrinal en blocs',
+      "lot Écart — passe équipée", 'controle_projection.py'], []),
+    ('plier_paquet', 'appareil/plier_paquet.py', 'appareil', True, None,
+     ['make', "pliage d'un paquet diffusable"], []),
+    ('controle_projection', 'appareil/controle_projection.py', 'appareil',
+     True, None, ['make controle', 'tout paquet diffusable'], []),
+
     # ------------------------------------------------------------------ racine
     ('instructions', 'CLAUDE.md', 'methode', True, None,
      ['ouverture de session'], ['CLAUDE.md']),
