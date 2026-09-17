@@ -165,6 +165,12 @@ ARTEFACTS = [
      True, None, ['make'], []),
     ('tracer_economies', 'appareil/tracer_economies.py', 'appareil', True,
      None, ['make', 'make controle'], []),
+    # Jeu de fautes et jeu de justes de S17 (restitution salariale, 30 % en
+    # année 1 et 70 % au solde). Autonome pour l'instant : le fichier où il
+    # doit se fondre, `appareil/epreuve_controle_socle.py`, porte les sept
+    # bouclages du second cercle et n'est pas au dépôt.
+    ('epreuve_s17_salaire', 'appareil/epreuve_s17_salaire.py', 'appareil',
+     True, None, ['controle_socle.py'], []),
     ('nomenclature_lolf', 'appareil/nomenclature_lolf.py', 'appareil', True,
      None, ['socle_budgetaire.py', 'make controle'], []),
     ('generer_classeur_synthese', 'appareil/generer_classeur_synthese.py',

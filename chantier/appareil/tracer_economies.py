@@ -76,7 +76,12 @@ RATTACHEMENTS = {
         'operateurs': ['France Compétences'],
         'beneficiaires': ['France Compétences'], 'attendu_lignes': 11,
         'programmes': ['103'],
-        'postes_bg': [('32', 13)],
+        # « sur FrComp. », 434,071252 M€, vivait au bloc des postes nommés de
+        # l'onglet « Synthèse ». Ce bloc a disparu au dépôt du 20260917 et la
+        # synthèse de restitution ne détaille pas France Compétences : la part
+        # budgétaire n'est plus écrite nulle part. La clé reste, introuvable,
+        # pour que le bouclage le dise au lieu de se taire.
+        'postes_bg': [('32', 'sur FrComp. — poste disparu au 20260917')],
         'motif': "France Compétences perçoit onze taxes affectées et reçoit du "
                  "programme 103 ; l'économie est d'abord une restitution de "
                  "taxes, le reste est budgétaire.",
@@ -86,7 +91,8 @@ RATTACHEMENTS = {
         'operateurs': ['France Travail'],
         'beneficiaires': [], 'attendu_lignes': 0,
         'programmes': ['102'],
-        'postes_bg': [('32', 16), ('32', 18), ('32', 19)],
+        'postes_bg': [('32', 'C20'), ('32', 'C21'),
+                      ('32', 'D20'), ('32', 'D21')],
         'motif': "France Travail ne perçoit aucune taxe affectée au PLF 2026 : "
                  "l'économie est entièrement budgétaire, sur le programme 102.",
     },
@@ -96,7 +102,11 @@ RATTACHEMENTS = {
         'beneficiaires': ["CNC - Centre national du cinéma et de l'image "
                           "animée"], 'attendu_lignes': 9,
         'programmes': ['334', '131', '175'],
-        'postes_bg': [('32', 12)],
+        # Même cas que France Compétences : « sur culture », 516,998084 M€,
+        # disparaît avec le bloc des postes. Le « sur culture » de 484,866757
+        # que porte la synthèse de restitution est celui des associations, et
+        # il y était déjà.
+        'postes_bg': [('32', 'sur culture — poste disparu au 20260917')],
         'motif': "La ligne agrège le CNC — neuf taxes affectées — et des "
                  "subventions culturelles budgétaires que son intitulé ne "
                  "détaille pas.",
@@ -149,7 +159,7 @@ RATTACHEMENTS = {
                        "de l'énergie"],
         'beneficiaires': [], 'attendu_lignes': 0,
         'programmes': ['181'],
-        'postes_bg': [('32', 8), ('32', 9)],
+        'postes_bg': [('32', 'G20'), ('32', 'G21')],
         'motif': "L'ADEME a perdu sa taxe affectée : elle est financée par "
                  "subvention, sur le programme 181.",
     },
@@ -179,7 +189,11 @@ RATTACHEMENTS = {
         'operateurs': ["ANAH - Agence nationale de l'habitat"],
         'beneficiaires': [], 'attendu_lignes': 0,
         'programmes': ['174', '135'],
-        'postes_bg': [('61', 6)],
+        # MaPrimeRénov' change de bloc au dépôt du 20260917 : l'ancienne
+        # synthèse la portait en transfert aux ménages (« MPR (Anah) »), la
+        # synthèse de restitution la porte au détail des opérateurs, sous son
+        # opérateur distributeur. Le montant ne bouge pas.
+        'postes_bg': [('32', 'F20')],
         'dispositif': True,
         'motif': "MaPrimeRénov' est un dispositif, pas un organisme : "
                  "**il est distribué par l'ANAH**, qui en est l'opérateur "
