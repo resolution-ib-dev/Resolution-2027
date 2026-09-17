@@ -552,12 +552,11 @@ controle:
 # qu'il porte sont un dérivé, exclus du suivi git, et le contrôle de projection
 # s'y joue après dépliage.
 #
-# `plier_paquet.py` et `controle_projection.py` ne sont pas au dépôt : la note
-# de transmission du 20260917 les dit perdus et à réécrire (voir le rapport de
-# fin de session). Les deux règles ci-dessous restent écrites, gardées par la
-# présence du paquet plié — qui n'est pas non plus au dépôt — et par celle des
-# deux modules : elles ne peuvent donc pas s'exécuter tant que ces pièces
-# manquent, et `controle` le compte plutôt que de le taire.
+# `plier_paquet.py` et `controle_projection.py` sont au dépôt depuis le
+# 20260917 (empreintes vérifiées à l'octet). Le paquet plié lui-même,
+# `livrables/paquet_machine.md`, ne l'est pas encore : les deux règles
+# ci-dessous restent gardées par sa présence, et `controle` compte l'absence
+# plutôt que de la taire.
 $(PAQUET_DEPLIE)/PASSATION.md: $(PAQUET_MACHINE) $(APP)/coffre.py
 	@rm -rf $(PAQUET_DEPLIE)
 	@$(PY) $(APP)/coffre.py deplier $(PAQUET_MACHINE) $(PAQUET_DEPLIE) >/dev/null

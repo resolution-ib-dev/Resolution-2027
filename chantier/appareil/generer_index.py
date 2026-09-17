@@ -774,11 +774,12 @@ ARTEFACTS = [
     # de découpage est écrite **avant** le premier bloc : déduite des blocs,
     # elle ne pourrait plus les juger.
     #
-    # `plier_paquet.py` et `controle_projection.py` ne sont PAS portés ici : le
-    # paquet qui les fournissait contredit la note de transmission du 20260917,
-    # qui les dit perdus et à réécrire. `paquet_machine.md` reste donc de voie
-    # `coffre` (rang `derive`), jamais requis au dépôt tant que son générateur
-    # n'y est pas — voir le rapport de fin de session.
+    # `plier_paquet.py` et `controle_projection.py` ont d'abord été tenus hors
+    # dépôt : la note de transmission du 20260917 les disait perdus, à
+    # réécrire, sans rouvrir le paquet joint qui les portait déjà en code
+    # entier. Écart signalé, tranché par l'auteur (20260917) — le paquet du
+    # 20260916 fait foi, les deux fichiers sont poussés, empreintes vérifiées
+    # à l'octet contre celles que ce paquet annonçait.
     ('plan_bataille', 'methode/plan_bataille.md', 'methode', True, None,
      ['ouverture de session', 'ordre des lots'], []),
     ('methode_decoupage_bloc', 'methode/methode_decoupage_bloc.md', 'methode',
@@ -795,6 +796,10 @@ ARTEFACTS = [
      'appareil/plier_paquet.py',
      ['lot C — découpage doctrinal en blocs',
       "lot Écart — passe équipée", 'controle_projection.py'], []),
+    ('plier_paquet', 'appareil/plier_paquet.py', 'appareil', True, None,
+     ['make', "pliage d'un paquet diffusable"], []),
+    ('controle_projection', 'appareil/controle_projection.py', 'appareil',
+     True, None, ['make controle', 'tout paquet diffusable'], []),
 
     # ------------------------------------------------------------------ racine
     ('instructions', 'CLAUDE.md', 'methode', True, None,
