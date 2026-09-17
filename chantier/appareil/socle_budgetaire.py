@@ -86,7 +86,7 @@ def _num(v):
 
 # --------------------------------------------------------- les taxes affectées
 # Annexe 2 du tome I des Voies et moyens, une ligne par taxe affectée. Les
-# en-têtes tiennent sur deux lignes, 15 et 16 ; les données commencent en 17.
+# en-têtes tiennent sur deux lignes, 2 et 3 ; les données commencent en 4.
 #
 # Colonnes du socle : le secteur et la nature juridique du bénéficiaire, son
 # SIREN, sa mission et son programme de rattachement, le code et le libellé de
@@ -101,7 +101,7 @@ def _num(v):
 # La vraie économie valorisable restituée est **leur total**. Les nommer
 # « gage » et « économie en sus » laissait croire à deux natures différentes ;
 # ce sont deux temps de la même restitution.
-TAXES_DEBUT = 17
+TAXES_DEBUT = 4
 TAXES_COLONNES = {
     'secteur': 'A', 'categorie': 'B', 'nature_juridique': 'C', 'siren': 'D',
     'programme': 'E', 'mission': 'F', 'programme_libelle': 'G',
@@ -171,7 +171,7 @@ OPERATEURS_REGIMES = {
 
 
 def des_operateurs(chemin):
-    ws = openpyxl.load_workbook(chemin, data_only=True)['Opérateurs']
+    ws = openpyxl.load_workbook(chemin, data_only=True)['Opérateurs R']
     out = []
     for i in range(OPERATEURS_DEBUT, ws.max_row + 1):
         v = {k: ws[f'{c}{i}'].value for k, c in OPERATEURS_COLONNES.items()}
@@ -214,7 +214,7 @@ def des_operateurs(chemin):
 # J la reprend augmentée de la TVA des administrations publiques, retraitement
 # de l'auteur. Les deux se gardent : la première est du socle, la seconde de
 # l'interprétation.
-DF_DEBUT = 21
+DF_DEBUT = 7
 DF_COLONNES = {
     'categorie': 'A', 'sous_categorie': 'B', 'sous_sous_categorie': 'C',
     'numero': 'D', 'libelle': 'E', 'creation': 'F', 'fin_fait_generateur': 'G',
@@ -226,7 +226,7 @@ DF_COLONNES = {
 
 
 def des_depenses_fiscales(chemin):
-    ws = openpyxl.load_workbook(chemin, data_only=True)['Chiffrages IB']
+    ws = openpyxl.load_workbook(chemin, data_only=True)['Chiffrages Résolution']
     out = []
     for i in range(DF_DEBUT, ws.max_row + 1):
         v = {k: ws[f'{c}{i}'].value for k, c in DF_COLONNES.items()}
@@ -278,7 +278,7 @@ AGENCES_COLONNES = {'D': 'total', 'E': 'cession_actif', 'F': 'suppression',
 
 
 def des_agences(chemin):
-    ws = openpyxl.load_workbook(chemin, data_only=True)['Synthèse agences']
+    ws = openpyxl.load_workbook(chemin, data_only=True)['Synthèse agences R']
     out = {}
     for i, nom in AGENCES_LIGNES.items():
         out[nom] = {v: _num(ws[f'{c}{i}'].value)
@@ -327,54 +327,64 @@ def du_pap(chemin):
 # nature de dépense et par destinataire. Les cellules en erreur du classeur — le
 # tableur y laisse des `#VALUE!` — se gardent telles quelles : **ce n'est pas au
 # socle de réparer une formule cassée**, c'est à l'auteur de la voir.
-BG_REPERES = {
-    'salaires_m_eur': 'E4', 'cotisations_m_eur': 'F4',
-    'prestations_m_eur': 'G4', 'fonctionnement_m_eur': 'H4',
-    'investissement_m_eur': 'I4', 'operateurs_m_eur': 'K4',
-    'transferts_menages_m_eur': 'M4', 'transferts_entreprises_m_eur': 'O4',
-    'transferts_collectivites_m_eur': 'Q4', 'transferts_autres_m_eur': 'S4',
-    'salaire_moyen_eur': 'E5', 'etp_etat_supprimes': 'E8',
-    'salaires_non_regalien_m_eur': 'E6',
-    'fonctionnement_non_regalien_m_eur': 'H6',
-    'investissement_non_regalien_m_eur': 'I6',
-}
-
-
-# La grille du budget général — dix catégories, deux blocs de lignes, et une
-# couche de décision qu'aucun autre document ne porte.
+# La couche budgétaire, telle que les classeurs mis au propre du 20260917 la
+# portent. L'onglet « Synthèse » est éclaté en deux depuis ce dépôt.
 #
-#   lignes 1 à 4     la grille : catégorie LOLF en tête, total des crédits de
-#                    paiement, et pour les cinq catégories traitées la part
-#                    supprimable dès l'année 1
-#   lignes 5 à 23    les postes, en paires libellé / valeur, colonne par
-#                    colonne. Le libellé est le seul endroit du corpus qui
-#                    dise ce que le montant est.
-#   lignes 25 à 59   les 35 missions, montant par catégorie
-#   lignes 64 à fin  les 128 programmes, montant par catégorie **et le
-#                    traitement retenu**, un mot par case
+#   « SynthèseR »   la synthèse de restitution : trois lignes par destinataire
+#                   — total restitué, à horizon 1 an, à plus d'1 an —, les deux
+#                   paramètres de la chaîne salariale, les deux schémas hors
+#                   restitution salariale, et **quatre blocs de postes nommés**
+#                   en matrice : un bloc par destinataire, une colonne par
+#                   poste, trois lignes de temps.
+#   « Economies R » la grille des dix catégories, les 35 missions, les 128
+#                   programmes et la couche de décision — identiques à la
+#                   cellule près à ce que « Synthèse » portait, décalés de
+#                   vingt lignes, et augmentés d'une colonne « à arrêter » par
+#                   catégorie non traitée ligne à ligne.
 #
-# **Le traitement est la couche qui manquait.** Un programme porte, pour chaque
-# catégorie de transfert, un mot — « Oui », « En 3 ans », « Fusion CI »,
-# « Bourse », « Sécu », « Flux OM » — et ce mot dit si le crédit est supprimé,
-# reporté ou seulement déplacé. Sans lui, l'agrégat est un total ; avec lui,
-# c'est un chiffrage.
+# **Le poste nommé n'est plus une paire libellé / valeur en colonne, c'est une
+# case de matrice.** Sa clé n'est donc plus un numéro de ligne mais une adresse
+# de cellule : elle est stable tant que le bloc ne bouge pas, et elle se lit
+# dans le classeur sans compter.
+BG_REPERES_CAT = ('21', '22', '23', '31', '5', '32', '61', '62', '63', '64')
+BG_REPERES_NOMS = ('salaires_m_eur', 'cotisations_m_eur', 'prestations_m_eur',
+                   'fonctionnement_m_eur', 'investissement_m_eur',
+                   'operateurs_m_eur', 'transferts_menages_m_eur',
+                   'transferts_entreprises_m_eur',
+                   'transferts_collectivites_m_eur',
+                   'transferts_autres_m_eur')
+
+# Colonnes de « Economies R » : le montant, et la part à arrêter quand la
+# catégorie en porte une. Cinq catégories en gagnent une que « Synthèse » ne
+# donnait qu'au total.
+BG_COLONNES = {'21': ('F', 'G'), '22': ('H', None), '23': ('I', 'J'),
+               '31': ('K', 'L'), '5': ('M', 'N'), '32': ('P', 'Q'),
+               '61': ('R', 'S'), '62': ('T', 'U'), '63': ('V', 'W'),
+               '64': ('X', 'Y')}
 BG_GRILLE = 4
-BG_POSTES = (5, 23)
-BG_MISSIONS = (25, 59)
-BG_PROGRAMMES_DEBUT = 64
-BG_REGALIEN = 'J'
-# Les paramètres hors transferts : un intitulé en D, des valeurs par catégorie.
-# (ligne du libellé, ligne de la valeur, catégories portant la valeur). Deux
-# paramètres portent leur libellé une ligne au-dessus de leur montant : les lire
-# sur la même ligne rendrait le nombre comme intitulé.
-BG_PARAMETRES = (
-    ('Salaire moyen', 5, 5, ('21',)),
-    ('Assiette non régalienne', 6, 6, ('21', '31', '5')),
-    ("Économie restituée en année 1", 7, 7, ('21', '31', '5')),
-    ("ETP d'État supprimés", 8, 8, ('21',)),
-    ("Fusion du crédit d'impôt, budgétaire et fiscal", 15, 16, ()),
-    ('Bourse, crédits budgétaires et taxes affectées', 18, 19, ()),
+BG_MISSIONS = (5, 39)
+BG_PROGRAMMES_DEBUT = 44
+BG_REGALIEN = 'E'          # « Périmètre essentiel », ex « Mission régalienne »
+
+# Les deux paramètres de la chaîne salariale, à « SynthèseR ».
+BG_PARAM_SYNTHESE = (("Salaire moyen", 'D10', 'salaire_moyen_eur'),
+                     ("ETP d'État supprimés", 'D9', 'etp_etat_supprimes'))
+# Les trois assiettes non régaliennes : total de la colonne « à arrêter ».
+BG_ASSIETTES = (('salaires_non_regalien_m_eur', 'G'),
+                ('fonctionnement_non_regalien_m_eur', 'L'),
+                ('investissement_non_regalien_m_eur', 'N'))
+
+# Les quatre blocs de postes nommés de « SynthèseR », en matrice.
+# (catégorie, ligne des libellés, ligne des sous-libellés, ligne « A 1 an »,
+#  ligne « Au-delà d'1 an », colonnes)
+BG_BLOCS_POSTES = (
+    ('32', 17, 18, 20, 21, 'CDEFGH'),
+    ('62', 24, None, 26, 27, 'CDEF'),
+    ('61', 30, None, 32, 33, 'CDEF'),
+    ('64', 36, None, 38, 39, 'CDEFG'),
 )
+# Deux postes isolés sous le bloc des associations, en paires libellé / valeur.
+BG_POSTES_ISOLES = (('64', 'F40', 'G40'), ('64', 'F41', 'G41'))
 
 
 def _pose(ws, colonne, ligne):
@@ -382,18 +392,25 @@ def _pose(ws, colonne, ligne):
 
 
 def du_bg_synthese(chemin):
-    ws = openpyxl.load_workbook(chemin, data_only=True)['Synthèse']
+    wb = openpyxl.load_workbook(chemin, data_only=True)
+    eco, syn = wb['Economies R'], wb['SynthèseR']
     out = {}
+
     # Les repères historiques restent en tête : d'autres modules les lisent.
-    for nom, cel in BG_REPERES.items():
-        v = ws[cel].value
+    for nom, code in zip(BG_REPERES_NOMS, BG_REPERES_CAT):
+        v = eco[f'{BG_COLONNES[code][0]}{BG_GRILLE}'].value
         n = _num(v)
         out[nom] = n if n is not None else _txt(v)
+    for nom, colonne in BG_ASSIETTES:
+        out[nom] = _pose(eco, colonne, BG_GRILLE)
+    for _intitule, cellule, nom in BG_PARAM_SYNTHESE:
+        out[nom] = _num(syn[cellule].value)
 
     # --- la grille
     grille = []
     for code, c in sorted(nl.CATEGORIES.items(),
                           key=lambda kv: kv[1]['colonne']):
+        montant, traitement = BG_COLONNES[code]
         grille.append({
             'categorie': code,
             'titre': c['titre'],
@@ -401,69 +418,98 @@ def du_bg_synthese(chemin):
             'libelle_court': c['court'],
             'libelle_officiel': c['officiel'],
             'traitee_ligne_a_ligne': code in nl.CATEGORIES_TRAITEES,
-            'credit_plf_m_eur': _pose(ws, c['colonne'], BG_GRILLE),
+            'credit_plf_m_eur': _pose(eco, montant, BG_GRILLE),
             'suppression_immediate_m_eur': (
-                _pose(ws, c['colonne_traitement'], BG_GRILLE)
+                _pose(eco, traitement, BG_GRILLE)
                 if c.get('colonne_traitement') else None),
+            'a_arreter_m_eur': (_pose(eco, traitement, BG_GRILLE)
+                                if traitement else None),
         })
 
-    # --- les paramètres, intitulé en D, valeurs par catégorie
+    # --- les paramètres
     parametres = []
-    for intitule, i_lib, i_val, cats in BG_PARAMETRES:
-        brut = _txt(ws[f'D{i_lib}'].value)
-        for code in (cats or ('',)):
-            col = nl.CATEGORIES[code]['colonne'] if code else 'D'
-            val = _pose(ws, col, i_val)
-            if val is None:
-                continue
-            q, cert = nl.qualifier(brut)
-            parametres.append({
-                'intitule': intitule,
-                'libelle_classeur': brut,
-                'categorie': code or None,
-                'valeur': val,
-                'qualification': q,
-                'certitude': cert,
-                'unite': nl.unite_de(q),
-                'ligne': i_val,
-            })
-
-    # --- les postes, en paires libellé / valeur
-    postes = []
-    for code, c in nl.CATEGORIES.items():
-        tr = c.get('colonne_traitement')
-        if not tr:
+    for intitule, cellule, nom in BG_PARAM_SYNTHESE:
+        val = _num(syn[cellule].value)
+        if val is None:
             continue
-        for i in range(BG_POSTES[0], BG_POSTES[1] + 1):
-            lib = _txt(ws[f"{c['colonne']}{i}"].value)
-            val = _pose(ws, tr, i)
-            if not lib or val is None:
+        brut = _txt(syn[cellule.replace('D', 'C')].value)
+        q, cert = nl.qualifier(brut)
+        parametres.append({'intitule': intitule, 'libelle_classeur': brut,
+                           'categorie': None, 'valeur': val,
+                           'qualification': q, 'certitude': cert,
+                           'unite': nl.unite_de(q), 'ligne': cellule,
+                           'onglet': 'SynthèseR'})
+    for nom, colonne in BG_ASSIETTES:
+        val = _pose(eco, colonne, BG_GRILLE)
+        if val is None:
+            continue
+        parametres.append({'intitule': 'Assiette non régalienne',
+                           'libelle_classeur': _txt(eco[f'{colonne}3'].value),
+                           'categorie': next(k for k, v in BG_COLONNES.items()
+                                             if v[1] == colonne),
+                           'valeur': val, 'qualification': 'assiette',
+                           'certitude': 'ecrite', 'unite': 'M€',
+                           'ligne': f'{colonne}{BG_GRILLE}',
+                           'onglet': 'Economies R'})
+
+    # --- les postes nommés, en matrice
+    # La clé d'un poste est désormais son adresse de cellule à « SynthèseR ».
+    # `tracer_economies` la cite telle quelle : elle se vérifie à l'œil dans le
+    # classeur, ce qu'un numéro de ligne ne permettait pas.
+    postes = []
+
+    def _poste(code, libelle, ref, valeur, qualification):
+        if valeur is None:
+            return
+        postes.append({
+            'categorie': code, 'titre': nl.titre_de(code),
+            'libelle': libelle, 'libelle_brut': libelle,
+            'valeur_m_eur': valeur, 'qualification': qualification,
+            'certitude': 'ecrite', 'unite': 'M€',
+            'ligne': ref, 'onglet': 'SynthèseR',
+        })
+
+    for code, l_lib, l_sous, l_an1, l_ens, colonnes in BG_BLOCS_POSTES:
+        for col in colonnes:
+            # Un poste peut porter son libellé une colonne à gauche : c'est le
+            # cas de France Travail, qui tient sur deux colonnes — salaires et
+            # subventions. Le libellé se cherche donc à gauche avant de se
+            # rabattre sur le sous-libellé, faute de quoi la colonne de droite
+            # s'appellerait « Subventions » et perdrait son opérateur.
+            lib = _txt(syn[f'{col}{l_lib}'].value)
+            if not lib:
+                for gauche in reversed(colonnes[:colonnes.index(col)]):
+                    lib = _txt(syn[f'{gauche}{l_lib}'].value)
+                    if lib:
+                        break
+            sous = _txt(syn[f'{col}{l_sous}'].value) if l_sous else None
+            if not lib:
+                lib, sous = sous, None
+            nom = f'{lib} · {sous}' if sous and sous != lib else lib
+            if not nom:
                 continue
-            q, cert = nl.qualifier(lib)
-            postes.append({
-                'categorie': code,
-                'titre': c['titre'],
-                'libelle': lib.split(' http')[0].strip(),
-                'libelle_brut': lib,
-                'valeur_m_eur': val,
-                'qualification': q,
-                'certitude': cert,
-                'unite': nl.unite_de(q),
-                'ligne': i,
-            })
+            _poste(code, nom, f'{col}{l_an1}',
+                   _num(syn[f'{col}{l_an1}'].value), 'economie_annee_1')
+            _poste(code, nom, f'{col}{l_ens}',
+                   _num(syn[f'{col}{l_ens}'].value), 'economie_perenne')
+    for code, ref_lib, ref_val in BG_POSTES_ISOLES:
+        lib = _txt(syn[ref_lib].value)
+        if lib:
+            _poste(code, lib, ref_val, _num(syn[ref_val].value),
+                   'economie_annee_1')
 
     # --- les missions
     missions = []
     for i in range(BG_MISSIONS[0], BG_MISSIONS[1] + 1):
-        code = _txt(ws[f'B{i}'].value)
+        code = _txt(eco[f'B{i}'].value)
         if not code:
             continue
         missions.append({
             'code': code, 'ligne': i,
-            'credit_plf_m_eur': {k: _pose(ws, c['colonne'], i)
-                                 for k, c in nl.CATEGORIES.items()},
+            'credit_plf_m_eur': {k: _pose(eco, BG_COLONNES[k][0], i)
+                                 for k in nl.CATEGORIES},
             'suppression_immediate_m_eur': {
-                k: _pose(ws, c['colonne_traitement'], i)
+                k: _pose(eco, BG_COLONNES[k][1], i)
                 for k, c in nl.CATEGORIES.items()
                 if c.get('colonne_traitement')},
         })
@@ -471,29 +517,26 @@ def du_bg_synthese(chemin):
     # --- les programmes, avec leur traitement par catégorie
     programmes = []
     inconnus = set()
-    for i in range(BG_PROGRAMMES_DEBUT, ws.max_row + 1):
-        genre = _txt(ws[f'A{i}'].value)
-        if genre != 'P':
+    for i in range(BG_PROGRAMMES_DEBUT, eco.max_row + 1):
+        if _txt(eco[f'A{i}'].value) != 'P':
             continue
         traitements = {}
         for k, c in nl.CATEGORIES.items():
-            tr = c.get('colonne_traitement')
-            if not tr:
+            if not c.get('colonne_traitement'):
                 continue
-            mot = _txt(ws[f'{tr}{i}'].value)
+            mot = _txt(eco[f'{BG_COLONNES[k][1]}{i}'].value)
             if mot is None:
                 continue
             if mot not in nl.TRAITEMENTS:
                 inconnus.add(mot)
             traitements[k] = mot
-        regalien = _txt(ws[f'{BG_REGALIEN}{i}'].value)
         programmes.append({
-            'mission': _txt(ws[f'B{i}'].value),
-            'programme': _txt(ws[f'C{i}'].value),
+            'mission': _txt(eco[f'B{i}'].value),
+            'programme': _txt(eco[f'C{i}'].value),
             'ligne': i,
-            'regalien': regalien == 'X',
-            'credit_plf_m_eur': {k: _pose(ws, c['colonne'], i)
-                                 for k, c in nl.CATEGORIES.items()},
+            'regalien': _txt(eco[f'{BG_REGALIEN}{i}'].value) == 'X',
+            'credit_plf_m_eur': {k: _pose(eco, BG_COLONNES[k][0], i)
+                                 for k in nl.CATEGORIES},
             'traitement': traitements,
         })
 
@@ -631,7 +674,7 @@ ODAC_REGIMES = {'D': 'vente', 'E': 'suppression', 'F': 'epic_musee',
 
 def des_odac(chemin, out_total=None):
     out_total = out_total if out_total is not None else {}
-    ws = openpyxl.load_workbook(chemin, data_only=True)['ODAC-ODAL']
+    ws = openpyxl.load_workbook(chemin, data_only=True)['ODAC-ODAL R']
     out, fonction = [], None
     for i in range(4, ws.max_row + 1):
         nom = _txt(ws[f'A{i}'].value)
@@ -712,8 +755,8 @@ def de_la_nomenclature(chemin):
 # à ne plus savoir qui supporte quoi.
 ECO_DEBUT, ECO_FIN = 3, 43
 ECO_TETES = {3: 'etat', 39: 'collectivites_locales'}
-ECO_INCIDENCE = {'menages': 'L', 'actifs': 'M', 'retraites': 'N',
-                 'entreprises': 'O', 'autres': 'P'}
+ECO_INCIDENCE = {'menages': 'S', 'actifs': 'T', 'retraites': 'U',
+                 'entreprises': 'V', 'autres': 'W'}
 # Les codes de destination, tels que le classeur les abrège. La table est écrite
 # à la main : elle ne se devine pas des lettres.
 ECO_CODES = {
@@ -788,7 +831,7 @@ GAGES_COLONNES = {
 
 
 def de_la_grande_synthese(chemin):
-    ws = openpyxl.load_workbook(chemin, data_only=True)['Gages']
+    ws = openpyxl.load_workbook(chemin, data_only=True)['Flux']
     out = []
     for i in GAGES_LIGNES:
         v = {k: ws[f'{c}{i}'].value for k, c in GAGES_COLONNES.items()}

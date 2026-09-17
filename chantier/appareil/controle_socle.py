@@ -9,7 +9,7 @@ agrégats depuis les lignes et de retrouver ce qu'il affiche.
 Une divergence ne se corrige pas au socle : elle dit que la grille est fausse,
 et c'est la grille qu'on reprend.
 
-Neuf bouclages.
+Onze bouclages.
 
   S1  les opérateurs se comptent, un régime chacun
   S2  les emplois des opérateurs se répartissent entre les régimes
@@ -29,6 +29,12 @@ Neuf bouclages.
       **la part supprimable dès l'année 1 se retrouve depuis les traitements
       écrits programme par programme**. C'est ce dernier point qui prouve que
       la couche de décision est lue correctement.
+  S17 la restitution salariale : une économie de masse salariale se restitue à
+      **30 % en année 1 et 70 % au solde**. Le rapport se vérifie exactement,
+      pas à la tolérance : le classeur l'écrit par une formule, et un rapport
+      qui cesserait d'être exact dirait que l'hypothèse a changé sans le dire.
+      Trois lignes le portent — les départs de fonctionnaires d'État, les
+      départs locaux, et la part salariale de France Travail.
 
 Usage : python3 controle_socle.py ../referentiels/socle_budgetaire.json
 """
@@ -309,6 +315,37 @@ def main(argv):
               f"{sum(v['m_eur'] for v in gros):,.0f} M€ de crédits traitables :")
         for v in gros:
             print(f"      {v['m_eur']:12,.1f} M€  [{v['type']}] {v['libelle']}")
+
+    # S17 — la restitution salariale, 30 % en année 1 et 70 % au solde
+    # Le classeur ne l'écrit nulle part en toutes lettres : il l'applique. Le
+    # rapport est donc la seule preuve, et il est exact — aucune tolérance.
+    eco_l = {l['ligne']: l['classeur'] for l in s.get('economies', [])}
+    salaires = []
+    for ligne, nom in ((38, "Départs fonctionnaires d'État"),
+                       (43, 'Départs fonctionnaires locaux')):
+        c = eco_l.get(ligne)
+        if c:
+            salaires.append((nom, c.get('restitue_annee_1_md_eur'),
+                             c.get('total_supprime_md_eur')))
+    par_ref = {p['ligne']: p for p in (s.get('bg_synthese') or {}).get('postes', [])}
+    an1, ens = par_ref.get('C20'), par_ref.get('C21')
+    if an1 and ens:
+        salaires.append(('France Travail · part salariale',
+                         an1['valeur_m_eur'],
+                         an1['valeur_m_eur'] + ens['valeur_m_eur']))
+    print(f"\nS17 — {len(salaires)} ligne(s) de restitution salariale")
+    for nom, a1, tot in salaires:
+        if not a1 or not tot:
+            echecs.append((f'salaire.{nom}', (a1, tot), '30 % / 70 %',
+                           'une des deux grandeurs manque'))
+            continue
+        part = a1 / tot
+        ok = abs(part - 0.30) <= 1e-9
+        print(f"    {'OK ' if ok else 'ÉCART'} {nom:34s} "
+              f"année 1 {a1:>10,.4f} · total {tot:>10,.4f} · part {part:.6f}")
+        if not ok:
+            echecs.append((f'salaire.{nom}', round(part, 6), 0.30,
+                           "30 % en année 1, 70 % au solde"))
 
     print(f"\n{len(echecs)} bouclage(s) en échec")
     for cle, obtenu, attendu, ou in echecs:
