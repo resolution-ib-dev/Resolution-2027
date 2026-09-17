@@ -67,7 +67,10 @@ CONTENEUR = {'.cache', '.npm', '.npm-global', '.config', '.ssh', '.local',
              '.bash_history', '.python_history', '.profile', '.bashrc'}
 IGNORES = {'.git', '__pycache__', '.claude', 'node_modules', 'coffre',
            'plf', 'plfss', 'droit', 'eval', 'machine', 'skills_maj',
-           'epreuve'} | CONTENEUR
+           'epreuve',
+           # Le dépliage du paquet diffusable : un dérivé du pli versé, refait
+           # par `make`, et que `.gitignore` exclut.
+           'paquet_machine'} | CONTENEUR
 # Dérivé exclu du suivi git par `.gitignore`, et à ce titre non déclaré.
 TOLERES = set()
 # Ce que le classement laisse délibérément dehors. **La liste ne se redouble

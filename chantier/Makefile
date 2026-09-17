@@ -52,6 +52,9 @@ LOTS        := $(REF)/lots_epreuve.json
 ETAT_MACH   := $(LIV)/etat_machine.html
 INDEX       := methode/index.json
 EMPREINTES  := methode/empreintes.json
+PAQUET_MACHINE := $(LIV)/paquet_machine.md
+PAQUET_DEPLIE  := $(LIV)/paquet_machine
+SAUTEES     := /tmp/.resolution_controle_regles_sautees
 
 .PHONY: tout controle propre etat
 # Les cibles qui dérivent du socle budgétaire ne sont pas ici : le socle vient
@@ -256,8 +259,8 @@ SOCLE_BUD := $(REF)/socle_budgetaire.json
 PLF_TAXES := $(wildcard sources/plf/*axes*ffectees*.xlsx)
 PLF_OPS   := $(wildcard sources/plf/*ETP*.xlsx)
 PLF_DF    := $(wildcard sources/plf/*epenses*iscales*.xlsx)
-PLF_BG    := $(wildcard sources/plf/*Depenses_BG*.xlsx)
-PLF_CALC  := $(wildcard sources/plf/Synthese_Calculs*.xlsx)
+PLF_BG    := $(wildcard sources/plf/*BG_et_des_BA*.xlsx)
+PLF_CALC  := $(wildcard sources/plf/*Calculs*.xlsx)
 ifneq ($(PLF_TAXES)$(PLF_OPS)$(PLF_DF)$(PLF_BG)$(PLF_CALC),)
 $(SOCLE_BUD): $(APP)/socle_budgetaire.py $(PLF_TAXES) $(PLF_OPS) $(PLF_DF) \
               $(PLF_BG) $(PLF_CALC)
@@ -477,46 +480,93 @@ endif
 
 # --- contrôles --------------------------------------------------------------
 # Ils ne produisent rien. Ils disent si ce qui est produit tient.
+#
+# Chaque garde qui saute une vérification faute de pièce l'écrit aussi à
+# $(SAUTEES) ; le récapitulatif de fin de cible le relit et la compte comme
+# anomalie. Une garde qui saute en silence est un défaut qui revient sans que
+# personne ne le sache : c'est ce qui est arrivé aux motifs de classeur du lot
+# budgétaire, dont deux avaient cessé de correspondre après un renommage du
+# 17 septembre, sans qu'aucune ligne ne le dise (20260917).
 controle:
+	@rm -f $(SAUTEES)
 	@$(PY) $(APP)/controle_lexique.py livrables site || true
 	@cd $(APP) && $(PY) controle_structurel.py ../$(REF_JSON)
 	@cd $(APP) && $(PY) controle_arithmetique.py ../$(REF_JSON)
 	@cd $(APP) && $(PY) controle_notes.py ../$(NOTES) ../$(REF_JSON) ../$(POSITIONS) || true
 	@if [ -f $(CHIFFRES) ]; then cd $(APP) && $(PY) controle_chiffres.py \
 	  ../$(CHIFFRES); \
-	 else echo "REF_chiffres absent du dépôt — non contrôlé"; fi
+	 else echo "REF_chiffres absent du dépôt — non contrôlé" | tee -a $(SAUTEES); fi
 	@if [ -f $(MAN)/manuscrit.html ]; then cd $(APP) && \
 	  $(PY) controle_hypotheses.py ../$(MAN)/manuscrit.html \
 	  ../$(NOTES) ../$(REF_JSON); \
-	 else echo "manuscrit absent du dépôt — hypothèses non contrôlées"; fi
+	 else echo "manuscrit absent du dépôt — hypothèses non contrôlées" | tee -a $(SAUTEES); fi
 	@if [ -f $(MAN)/manuscrit.html ]; then cd $(APP) && \
 	  $(PY) controle_apports.py ../$(POSITIONS) ../$(REF_JSON) \
 	  ../$(MAN)/manuscrit.html; \
-	 else echo "manuscrit absent du dépôt — apports non contrôlés"; fi
+	 else echo "manuscrit absent du dépôt — apports non contrôlés" | tee -a $(SAUTEES); fi
 	@if [ -f $(LIVRE) ]; then $(PY) $(APP)/texte_livre.py $(EPREUVE) \
 	  /dev/null >/dev/null 2>&1 && echo "texte du livre : six contrôles joués" \
-	  || echo "texte du livre : épreuve non jointe — non rejoué"; \
-	 else echo "texte du livre absent du dépôt — non contrôlé"; fi
+	  || echo "texte du livre : épreuve non jointe — non rejoué" | tee -a $(SAUTEES); \
+	 else echo "texte du livre absent du dépôt — non contrôlé" | tee -a $(SAUTEES); fi
 	@if [ -f $(SOCLE_BUD) ]; then cd $(APP) && $(PY) controle_socle.py \
 	  ../$(SOCLE_BUD); \
-	 else echo "socle budgétaire absent du dépôt — non contrôlé"; fi
+	 else echo "socle budgétaire absent du dépôt — non contrôlé" | tee -a $(SAUTEES); fi
+	@if [ -z "$(PLF_TAXES)" ]; then echo "classeur annexe 2 (taxes affectées) absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
+	@if [ -z "$(PLF_OPS)" ]; then echo "classeur synthèse ETP et agences absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
+	@if [ -z "$(PLF_DF)" ]; then echo "classeur annexe 3 (dépenses fiscales) absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
+	@if [ -z "$(PLF_BG)" ]; then echo "classeur dépenses du budget général absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
+	@if [ -z "$(PLF_CALC)" ]; then echo "classeur synthèse des calculs absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
 	@if [ -f $(NORME) ]; then cd $(APP) && $(PY) controle_norme.py \
 	  ../$(NORME) ../$(SOCLE_BUD) || true; \
-	 else echo "REF_norme absent du dépôt — non contrôlé"; fi
+	 else echo "REF_norme absent du dépôt — non contrôlé" | tee -a $(SAUTEES); fi
 	@if [ -f $(SOCLE_PLF) ] && [ -n "$(PLF_PDF)" ]; then cd $(APP) && \
 	  $(PY) controle_socle_plf.py ../$(SOCLE_PLF) ../$(PLF_PDF) \
 	  ../$(OUVERTS_PLF); \
-	 else echo "socle du texte du PLF : pièce non jointe — non contrôlé"; fi
+	 else echo "socle du texte du PLF : pièce non jointe — non contrôlé" | tee -a $(SAUTEES); fi
 	@if [ -f $(SOCLE_PLFSS) ] && [ -n "$(PLFSS_PDF)" ]; then cd $(APP) && \
 	  $(PY) controle_socle_plf.py ../$(SOCLE_PLFSS) ../$(PLFSS_PDF) \
 	  ../$(OUVERTS_PLFSS); \
-	 else echo "socle du texte du PLFSS : pièce non jointe — non contrôlé"; fi
+	 else echo "socle du texte du PLFSS : pièce non jointe — non contrôlé" | tee -a $(SAUTEES); fi
 	@if [ -f $(APP)/scinde/cles_eval.json ]; then cd $(APP) && \
 	  $(PY) controle_cles_gl.py ../methode/banc_gl.md \
 	  ../methode/prompt_fil_joueur_banc_gl.md; \
-	 else echo "clé du banc des liasses absente — non contrôlée"; fi
+	 else echo "clé du banc des liasses absente — non contrôlée" | tee -a $(SAUTEES); fi
+	@if [ -f $(PAQUET_MACHINE) ]; then $(MAKE) --no-print-directory \
+	  $(PAQUET_DEPLIE)/PASSATION.md >/dev/null && \
+	  $(PY) $(APP)/controle_projection.py $(PAQUET_DEPLIE); \
+	 else echo "paquet diffusable absent du dépôt — projection non contrôlée" | tee -a $(SAUTEES); fi
 	@$(PY) $(APP)/controle_index.py $(INDEX) .
 	@$(MAKE) --no-print-directory G
+	@echo ""
+	@if [ -s $(SAUTEES) ]; then \
+	  n=$$(wc -l < $(SAUTEES) | tr -d ' '); \
+	  echo "RÉCAPITULATIF — $$n règle(s) sautée(s) faute de pièce, comptée(s) anomalie :"; \
+	  sed 's/^/    /' $(SAUTEES); \
+	 else \
+	  echo "RÉCAPITULATIF — 0 règle sautée."; \
+	 fi
+	@rm -f $(SAUTEES)
+
+# Le paquet diffusable vit **plié** au coffre et **déplié** au dépôt. Le pli est
+# le point de vérité : c'est lui qui se verse, lui qui se restaure. Les fichiers
+# qu'il porte sont un dérivé, exclus du suivi git, et le contrôle de projection
+# s'y joue après dépliage.
+#
+# `plier_paquet.py` et `controle_projection.py` ne sont pas au dépôt : la note
+# de transmission du 20260917 les dit perdus et à réécrire (voir le rapport de
+# fin de session). Les deux règles ci-dessous restent écrites, gardées par la
+# présence du paquet plié — qui n'est pas non plus au dépôt — et par celle des
+# deux modules : elles ne peuvent donc pas s'exécuter tant que ces pièces
+# manquent, et `controle` le compte plutôt que de le taire.
+$(PAQUET_DEPLIE)/PASSATION.md: $(PAQUET_MACHINE) $(APP)/coffre.py
+	@rm -rf $(PAQUET_DEPLIE)
+	@$(PY) $(APP)/coffre.py deplier $(PAQUET_MACHINE) $(PAQUET_DEPLIE) >/dev/null
+
+# Le pli se refait depuis le déplié, et le module refuse d'écrire si le dépliage
+# ne redonne pas ses fichiers à l'octet.
+.PHONY: paquet
+paquet:
+	@$(PY) $(APP)/plier_paquet.py $(PAQUET_DEPLIE) $(PAQUET_MACHINE)
 
 # Le balayage des générateurs joue chaque producteur du corpus et compte ceux
 # qui ne tournent plus. Il **écrit au dépôt** — il régénère pour de vrai —, donc

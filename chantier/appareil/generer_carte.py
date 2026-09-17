@@ -481,6 +481,17 @@ IMPLICITES = {
     'referentiels/REF_norme.json': 'grilles',
     'livrables/etat_vecteurs.html': 'graphique',
     'livrables/etat_vecteurs.csv': 'grilles',
+    # --- extension de la machine, 20260916
+    'methode/plan_bataille.md': 'méthode',
+    'methode/methode_decoupage_bloc.md': 'méthode',
+    'methode/prompt_lot_A_resume_attendu.md': 'méthode',
+    'methode/prompt_lot_C_decoupage_blocs.md': 'méthode',
+    'methode/prompt_lot_ecart.md': 'méthode',
+    # Le paquet diffusable est un travail non relu par l'auteur : ce qui n'est
+    # pas validé n'est pas de l'input, donc bac à sable, et il ne se promeut
+    # qu'après relecture. `plier_paquet.py` et `controle_projection.py` ne
+    # sont pas affectés ici : ils ne sont pas au dépôt (voir generer_index.py).
+    'livrables/paquet_machine.md': 'bac à sable',
 }
 
 # La carte se lit en haut du projet, hors famille : elle est la vue, non une
