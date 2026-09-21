@@ -679,7 +679,8 @@ MEME_QUE = [
     # --- travail -------------------------------------------------------------
     {
         'fait': "hausse des salaires nets à l'horizon d'un an",
-        'entrees': ['R-D3-2-1-p1', 'R-D3-2-1-e1', 'R-lexique-restitution-b1'],
+        'entrees': ['R-D3-2-1-p1', 'R-D3-2-1-e1', 'R-lexique-restitution-b1',
+                    'P-D-108'],
         'motif': "+13 %, portés par le paramètre, l'effet et le lexique.",
     },
     {
@@ -687,11 +688,36 @@ MEME_QUE = [
         'entrees': ['R-D7-2-1-p1', 'R-D7-2-1-e1'],
         'motif': "20 000 € en trois ans.",
     },
+    # --- rapprochement du proto, 20260921 -------------------------------------
+    {
+        'fait': "taux de taxation des revenus du capital",
+        'entrees': ['N-e15-2', 'P-D-095'],
+        'motif': "30 % — le prélèvement forfaitaire unique. La note e15 le porte "
+                 "comme taux de taxation du capital dans le système actuel ; le "
+                 "proto le décompose en 23 + 7 et le déclare maintenu. Même fait, "
+                 "même valeur, aucune tolérance. La part de 23 rejoint par "
+                 "ailleurs le taux unique de R-D9-3-1-p1, sans que ce soit le "
+                 "même fait.",
+    },
     {
         'fait': "postes publics facultatifs supprimés",
-        'entrees': ['R-D6-2-1-p1', 'R-D6-2-1-e1'],
+        'entrees': ['R-D6-2-1-p1', 'R-D6-2-1-e1', 'P-D-102'],
+        'arbitrage': {
+            'retenu': 'R-D6-2-1-p1',
+            'par': 'auteur',
+            'date': '20260921',
+            'motif': "Le livre et ses annexes prévalent. Le proto vient de "
+                     "Données_Résolution_0112.docx, antérieur aux classeurs 0819 "
+                     "comme à ceux du 0910 : là où il diverge, c'est lui qui est "
+                     "périmé. On retient 580 000 postes et −10 % des effectifs.",
+        },
         'motif': "580 000 postes, soit −10 % des effectifs totaux. Le "
-                 "paramètre porte le nombre, l'effet porte le taux.",
+                 "paramètre porte le nombre, l'effet porte le taux. Le proto "
+                 "porte le même fait sous d'autres valeurs — 540 000 agents et "
+                 "9 % des effectifs —, et c'est la seule contradiction pleine "
+                 "que le rapprochement du 20260921 ait trouvée entre le proto et "
+                 "la doctrine. Elle est arbitrée ci-dessus et reste visible : le "
+                 "proto est une archive, il ne se réécrit pas.",
     },
 ]
 

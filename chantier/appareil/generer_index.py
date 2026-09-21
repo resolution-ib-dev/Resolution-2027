@@ -807,6 +807,12 @@ ARTEFACTS = [
     ('controle_projection', 'appareil/controle_projection.py', 'appareil',
      True, None, ['make controle', 'tout paquet diffusable'], []),
 
+    # ---------------------------------------------------- dette du 20260921
+    # Était au coffre comme document (D3), écrite par un fil Cowork qui ne
+    # pouvait pas pousser. Portée au dépôt le 20260921, elle en sort.
+    ('trois_colonnes_regle_dor', 'appareil/trois_colonnes_regle_dor.py',
+     'appareil', True, None, ["règle d'or — trois colonnes"], []),
+
     # ------------------------------------------------------------------ racine
     ('instructions', 'CLAUDE.md', 'methode', True, None,
      ['ouverture de session'], ['CLAUDE.md']),
