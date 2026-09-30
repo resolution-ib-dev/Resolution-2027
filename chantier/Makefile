@@ -441,8 +441,12 @@ CREUX_PLFSS_TXT   := $(LIV)/lecture_en_creux_plfss.txt
 PORTES_LFSS       := $(LIV)/portes_domaine_lfss.md
 # `DROIT` est le chemin du dépôt **tel que vu depuis `appareil/`**, puisque
 # les recettes s'y placent. Le test de présence accepte les deux formes, le
-# chemin absolu comme le relatif.
-DROIT_PRESENT     := $(wildcard $(APP)/$(DROIT)/droit.py $(DROIT)/droit.py)
+# chemin absolu comme le relatif — et il se fait **au chemin que la recette
+# emploie** (20260930). Il acceptait aussi `$(DROIT)` vu depuis `chantier/` :
+# un clone à `chantier/../droit` passait le test, et les recettes, placées dans
+# `appareil/`, recevaient un chemin qui n'existe pas.
+DROIT_APP         := $(if $(filter /%,$(DROIT)),$(DROIT),$(APP)/$(DROIT))
+DROIT_PRESENT     := $(wildcard $(DROIT_APP)/droit.py)
 
 # La lecture en creux se calcule sur le socle seul. Sa cinquième colonne — le
 # texte en vigueur en regard de la disposition — demande le dépôt ; sans lui
@@ -677,7 +681,6 @@ publier: $(SITE)
 # `empreintes.py`, cherchant à `chantier/droit`, déclarait sans empreinte des
 # pièces que le dépôt porte. Le test se fait donc au chemin que la recette
 # emploie, et `empreintes.py` refuse de son côté un clone sans sous-racine.
-DROIT_APP         := $(if $(filter /%,$(DROIT)),$(DROIT),$(APP)/$(DROIT))
 .PHONY: coffre
 coffre: $(INDEX)
 	@if [ ! -f $(DROIT_APP)/droit.py ]; then \
@@ -689,8 +692,17 @@ coffre: $(INDEX)
 
 # Contrôle de la restauration, joué en ouverture juste après le dépliage, avant
 # toute lecture et toute génération. Une divergence est un faux au dépôt.
+#
+# **Sans clone, la cible échoue** (20260930), comme `coffre`. Le départage des
+# pièces de voie `depot` — éditée ici et non poussée, ou dépôt en retard —
+# demande le clone ; sans lui, toute divergence sortait en R1 sans départage,
+# et un clone mal placé y menait sans rien dire.
 .PHONY: restauration
 restauration:
+	@if [ ! -f $(DROIT_APP)/droit.py ]; then \
+	  echo "make restauration refusé : aucun clone du dépôt en $(DROIT_APP)." >&2; \
+	  echo "    git clone https://github.com/resolution-ib-dev/Resolution-2027 droit" >&2; \
+	  exit 1; fi
 	@cd $(APP) && $(PY) controle_restauration.py ../$(INDEX) ../$(EMPREINTES) .. $(DROIT)
 
 etat:

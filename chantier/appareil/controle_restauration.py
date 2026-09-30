@@ -30,13 +30,16 @@ R6  dette d'appareil — une pièce de voie `depot` qui diverge de son empreinte
     **Une pièce de voie `depot` qui diverge de son empreinte mais concorde avec
     le clone reste en R1**, et c'est le cas qui compte : là, c'est le dépôt qui
     est en retard, ou une empreinte a été relevée sur autre chose que le clone.
-    Le départage demande le clone, passé en quatrième argument ; sans lui, toute
-    divergence de voie `depot` sort en R1, ce qui est le comportement prudent.
+    Le départage demande le clone, passé en quatrième argument. **Il est
+    obligatoire depuis le 20260930** : sans lui, toute divergence de voie
+    `depot` sortait en R1 sans départage, et un clone mal placé, dépourvu de
+    la sous-racine, y menait sans rien dire. Le contrôle refuse alors de
+    tourner.
 
 Sortie non nulle dès qu'un R1 existe. Une session qui continue sur un R1 travaille
 sur un faux.
 
-Usage : python3 controle_restauration.py ../methode/index.json ../methode/empreintes.json .. [clone]
+Usage : python3 controle_restauration.py ../methode/index.json ../methode/empreintes.json .. <clone>
 """
 import json
 import os
@@ -55,6 +58,11 @@ def main(argv):
         print(f'R0 — le fichier d\'empreintes ne se lit pas : {exc}')
         print('    Aucune restauration ne peut être contrôlée. Arrêt.')
         return 1
+    sous = (index.get('depot') or {}).get('sous_racine', 'chantier')
+    if clone is None or not os.path.isdir(os.path.join(clone, sous)):
+        print(f'contrôle refusé : aucun clone du dépôt portant `{sous}/` en '
+              f'{clone or "(non donné)"}.', file=sys.stderr)
+        return 1
     table = ref.get('empreintes', {})
     declares_absents = set(ref.get('sans_empreinte', []))
 
@@ -68,7 +76,6 @@ def main(argv):
     attendus = [a for a in index['artefacts'] if a['coffre'] and a['restaurable']]
     derives = {a['chemin'] for a in index['artefacts'] if a['rang'] == 'derive'}
     voies = {a['chemin']: a.get('voie', 'coffre') for a in index['artefacts']}
-    sous = (index.get('depot') or {}).get('sous_racine', 'chantier')
 
     diverge, rejouables, absents, hors, presents = [], [], [], [], 0
     dette = []
