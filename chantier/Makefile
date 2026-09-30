@@ -666,17 +666,26 @@ publier: $(SITE)
 # que la session suivante recevra, et jamais au dépôt courant : un fil Cowork
 # qui corrige une pièce de l'appareil ne peut pas la pousser, et relever son
 # empreinte ici écrirait au coffre la référence d'un fichier qui ne vit que dans
-# un conteneur éphémère. Sans clone, ces empreintes ne se touchent pas.
+# un conteneur éphémère.
+#
+# **Sans clone, la cible échoue** (20260930). Elle continuait jusque-là : les
+# empreintes de voie `depot` n'étaient pas relevées, les anciennes restaient
+# même périmées, et les pièces jamais relevées n'en recevaient aucune — un
+# relevé partiel qui passait pour complet. Pire, le test de présence acceptait
+# `$(DROIT)` vu depuis `chantier/` quand la recette le passe vu depuis
+# `appareil/` : un clone à `chantier/../droit` passait le test, et
+# `empreintes.py`, cherchant à `chantier/droit`, déclarait sans empreinte des
+# pièces que le dépôt porte. Le test se fait donc au chemin que la recette
+# emploie, et `empreintes.py` refuse de son côté un clone sans sous-racine.
+DROIT_APP         := $(if $(filter /%,$(DROIT)),$(DROIT),$(APP)/$(DROIT))
 .PHONY: coffre
 coffre: $(INDEX)
-ifneq ($(DROIT_PRESENT),)
+	@if [ ! -f $(DROIT_APP)/droit.py ]; then \
+	  echo "make coffre refusé : aucun clone du dépôt en $(DROIT_APP)." >&2; \
+	  echo "    git clone https://github.com/resolution-ib-dev/Resolution-2027 droit" >&2; \
+	  exit 1; fi
 	@cd $(APP) && $(PY) empreintes.py ../$(INDEX) .. $(DROIT)
 	@cd $(APP) && $(PY) coffre.py dette ../$(INDEX) .. $(DROIT)
-else
-	@$(PY) $(APP)/empreintes.py $(INDEX) .
-	@echo "Dette au dépôt non mesurée : aucun clone en $(DROIT)."
-	@echo "    git clone https://github.com/resolution-ib-dev/Resolution-2027 droit"
-endif
 
 # Contrôle de la restauration, joué en ouverture juste après le dépliage, avant
 # toute lecture et toute génération. Une divergence est un faux au dépôt.

@@ -25,7 +25,7 @@ Ce n'est pas un défaut : il ne porte aucun verbatim, et sa corruption se voit �
 soit le JSON ne charge plus, soit toutes les empreintes divergent d'un coup, ce
 qui ne ressemble pas à une dérive de recopie sur un fichier isolé.
 
-Usage : python3 empreintes.py ../methode/index.json .. [clone du dépôt]
+Usage : python3 empreintes.py ../methode/index.json .. <clone du dépôt>
 """
 import hashlib
 import json
@@ -64,13 +64,23 @@ def generer(chemin_index, racine, clone=None):
     faisait mentir le coffre.
 
     Donc, pour un artefact de voie `depot` : l'empreinte se relève **au clone**,
-    qui est ce que la session suivante recevra. Sans clone, elle ne se touche
-    pas — l'ancienne vaut, et `coffre.py dette` porte l'écart. Pour la voie
-    `coffre`, elle se relève au dépôt courant, qui est ce que le fil verse.
+    qui est ce que la session suivante recevra. Pour la voie `coffre`, elle se
+    relève au dépôt courant, qui est ce que le fil verse.
+
+    **Sans clone, le relevé est refusé** (20260930). Il sautait jusque-là les
+    artefacts de voie `depot` en gardant leurs anciennes empreintes, même
+    périmées : le fichier versé contredisait le dépôt. Un clone sans la
+    sous-racine est refusé de même : chaque pièce de voie `depot` y serait
+    introuvable et partirait au coffre déclarée sans empreinte, ce qui est une
+    déclaration fausse et non une omission.
     """
     index = json.load(open(chemin_index, encoding='utf-8'))
     dst = os.path.join(racine, 'methode', 'empreintes.json')
     sous = (index.get('depot') or {}).get('sous_racine', 'chantier')
+    if clone is None or not os.path.isdir(os.path.join(clone, sous)):
+        print(f'relevé refusé : aucun clone du dépôt portant `{sous}/` en '
+              f'{clone or "(non donné)"}. Rien n\'est écrit.', file=sys.stderr)
+        return 1
 
     # Le relevé est **cumulatif**. Un fil ne déplie que ce dont il a besoin :
     # s'il écrasait le fichier, il effacerait l'empreinte de tout ce qu'il n'a
@@ -81,7 +91,7 @@ def generer(chemin_index, racine, clone=None):
     except (OSError, json.JSONDecodeError, KeyError):
         empreintes = {}
 
-    absents, hors_clone = [], []
+    absents = []
     for a in index['artefacts']:
         if not a['coffre'] or not a['restaurable']:
             continue
@@ -90,9 +100,6 @@ def generer(chemin_index, racine, clone=None):
         if a['chemin'] == 'methode/empreintes.json':
             continue
         if a.get('voie') == 'depot':
-            if clone is None:
-                hors_clone.append(a['chemin'])
-                continue
             e = relever(os.path.join(clone, sous, a['chemin']))
         else:
             e = relever(os.path.join(racine, a['chemin']))
@@ -128,9 +135,6 @@ def generer(chemin_index, racine, clone=None):
     print(f'{dst} écrit — {len(empreintes)} empreinte(s), '
           f'{len(absents)} artefact(s) encore sans empreinte, '
           f'{len(perimees)} empreinte(s) périmée(s) retirée(s)')
-    if hors_clone:
-        print(f'    {len(hors_clone)} artefact(s) de voie `depot` non relevé(s), '
-              f'faute de clone : leur empreinte d\'avant vaut.')
     for c in sorted(absents):
         print(f'    sans empreinte — {c}')
     for c in perimees:
