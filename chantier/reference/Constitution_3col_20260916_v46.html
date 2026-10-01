@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Révision de la Constitution — trois colonnes — 16 septembre 2026 v46</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bleu: #1A3A5C;
+  --rouge: #B5291C;
+  --vert: #1B5E35;
+  --ocre: #9C6B00;
+  --bg: #FAF8F4;
+  --papier: #FFFEF9;
+  --gris: #5A5A5A;
+  --bordure: #D4CFC4;
+  --col-a-bg: #EAF0F8;
+  --col-a-border: #7FA8C9;
+  --col-a-text: #1A2C3A;
+  --col-b-bg: #FFF5F4;
+  --col-b-border: #B5291C;
+  --col-b-text: #4A1208;
+  --col-c-bg: #EAF5EC;
+  --col-c-border: #4A9E62;
+  --col-c-text: #132D1E;
+  --col-new-bg: #F4F0FA;
+  --col-new-border: #7B5EA7;
+  --col-new-text: #2D1A4A;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Source Serif 4', Georgia, serif; background: var(--bg); color: #1A1A1A; font-size: 15px; line-height: 1.7; }
+
+.masthead { background: var(--bleu); color: white; padding: 48px 0 40px; }
+.masthead-inner { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
+.eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 14px; }
+.masthead h1 { font-family: 'Fraunces', serif; font-size: clamp(26px, 3.5vw, 42px); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+.masthead h1 em { color: #E8A87C; font-style: normal; }
+.masthead-sub { font-size: 15px; color: rgba(255,255,255,0.55); font-style: italic; margin-top: 10px; margin-bottom: 28px; }
+.masthead-meta { display: flex; gap: 24px; flex-wrap: wrap; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.4); }
+.masthead-meta strong { color: rgba(255,255,255,0.7); }
+.horodate { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.55); margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.15); }
+
+.avert { max-width: 1280px; margin: 24px auto 0; padding: 0 40px; }
+.avert-inner { background: #FFF8E7; border-left: 3px solid var(--ocre); padding: 12px 18px; font-size: 12.5px; color: #5C3D00; font-style: italic; }
+.avert-inner strong { font-style: normal; }
+
+.sommaire { max-width: 1280px; margin: 28px auto 0; padding: 0 40px; }
+.sommaire-inner { background: var(--papier); border: 1px solid var(--bordure); padding: 20px 28px; }
+.sommaire h3 { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gris); margin-bottom: 12px; }
+.sommaire nav { display: flex; flex-wrap: wrap; gap: 6px 24px; }
+.sommaire nav a { font-size: 13px; color: var(--bleu); text-decoration: none; border-bottom: 1px dotted rgba(26,58,92,0.35); white-space: nowrap; }
+.sommaire nav a:hover { border-bottom-style: solid; }
+
+.main { max-width: 1280px; margin: 0 auto; padding: 0 40px 80px; }
+
+.partie { margin-top: 56px; margin-bottom: 6px; display: flex; align-items: center; gap: 14px; border-bottom: 2px solid var(--bleu); padding-bottom: 12px; }
+.partie-num { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.15em; background: var(--bleu); color: white; padding: 3px 9px; }
+.partie h2 { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; color: var(--bleu); letter-spacing: -0.01em; }
+
+.col-headers { display: grid; grid-template-columns: 1fr 0.55fr 1.45fr; gap: 8px; padding: 10px 0 4px; }
+.ch { font-family: 'JetBrains Mono', monospace; font-size: 9.5px; letter-spacing: 0.18em; text-transform: uppercase; padding-left: 10px; }
+.ch-a { color: #4A7A9E; border-left: 3px solid var(--col-a-border); }
+.ch-b { color: var(--rouge); border-left: 3px solid var(--col-b-border); }
+.ch-c { color: #2E7D4F; border-left: 3px solid var(--col-c-border); }
+
+.art-row { display: grid; grid-template-columns: 1fr 0.55fr 1.45fr; gap: 8px; margin-bottom: 8px; align-items: stretch; }
+.art-row + .art-row { border-top: 1px solid rgba(212,207,196,0.5); padding-top: 8px; }
+
+.cell { padding: 10px 13px; font-size: 13px; line-height: 1.7; border-radius: 2px; }
+.cell-a { background: var(--col-a-bg); border-left: 3px solid var(--col-a-border); color: var(--col-a-text); font-style: italic; }
+.cell-b { background: var(--col-b-bg); border-left: 3px solid var(--col-b-border); color: var(--col-b-text); font-size: 12px; line-height: 1.65; }
+.cell-c { background: var(--col-c-bg); border-left: 3px solid var(--col-c-border); color: var(--col-c-text); }
+.cell-new { background: var(--col-new-bg); border-left: 3px solid var(--col-new-border); color: var(--col-new-text); }
+
+.art-label { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 9.5px; font-style: normal; font-weight: 600; letter-spacing: 0.1em; background: #D5E4F2; color: #1A3A5C; padding: 2px 7px; border-radius: 2px; margin-bottom: 7px; }
+.art-label-new { background: #E8E0F5; color: #4A2A7A; }
+.badge { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 9px; padding: 1px 5px; border-radius: 2px; margin-left: 3px; vertical-align: middle; }
+.badge-c { background: rgba(26,58,92,0.1); color: var(--bleu); }
+.badge-o { background: rgba(156,107,0,0.12); color: var(--ocre); }
+.badge-l { background: rgba(27,94,53,0.1); color: var(--vert); }
+.badge-new { background: rgba(123,94,167,0.12); color: #4A2A7A; }
+
+.ref-arrow { color: var(--rouge); font-weight: 600; margin-right: 3px; font-style: normal; }
+.note { font-size: 11.5px; color: #556; font-style: italic; border-top: 1px solid rgba(74,158,98,0.25); margin-top: 8px; padding-top: 6px; }
+.open { font-size: 11.5px; color: #884400; background: rgba(184,132,0,0.08); border: 1px solid rgba(156,107,0,0.2); border-radius: 2px; padding: 5px 8px; margin-top: 7px; font-style: normal; }
+.new-tag { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.1em; background: #E8E0F5; color: #4A2A7A; padding: 1px 6px; border-radius: 2px; margin-left: 6px; vertical-align: middle; }
+
+footer { background: var(--bleu); color: rgba(255,255,255,0.35); text-align: center; padding: 24px 40px; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.1em; margin-top: 60px; }
+
+@media (max-width: 900px) {
+  .art-row, .col-headers { grid-template-columns: 1fr; }
+  .main, .avert, .sommaire { padding-left: 16px; padding-right: 16px; }
+  .masthead-inner { padding: 0 16px; }
+}
+@media print {
+  .masthead { background: var(--bleu) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .art-row { page-break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="eyebrow">Document de travail — Piste A</div>
+    <h1>Révision de la <em>Constitution</em></h1>
+    <p class="masthead-sub">Articles concernés — texte actuel · réforme visée · rédaction révisée</p>
+    <div class="masthead-meta">
+      <span><strong>38</strong> articles traités</span>
+      <span><strong>C</strong> constitutionnel &nbsp;·&nbsp; <strong>O</strong> organique &nbsp;·&nbsp; <strong>L</strong> législatif &nbsp;·&nbsp; <span style="color:rgba(255,255,255,0.6)">■</span> nouveau (issu analyse DDHC/hiérarchie)</span>
+      <span>Source : 2026_04_27_Réformes_CO &amp; analyse constitutionnelle 29–30 avril 2026</span>
+    </div>
+    <div class="horodate">Version du 16 septembre 2026 — v46 (remplace la v45 du 14/09) — correction de deux omissions de la colonne C, relevées par le contrôle <code>appareil/controle_colonne_c.py</code> contre la proposition par substitution : article 25, la clause de remplacement temporaire en cas d'acceptation de fonctions gouvernementales ; article 47, l'alinéa de suspension des délais hors session. Aucun changement de fond.</div>
+  </div>
+</header>
+
+<div class="avert">
+  <div class="avert-inner">
+    <strong>À vérifier :</strong> les textes actuels sont des résumés fidèles, non des citations verbatim exhaustives. Toute utilisation opérationnelle doit être vérifiée sur Légifrance. Les seuils entre crochets <strong>[…]</strong> sont des paramètres politiques à définir. Les lignes en <strong>violet</strong> sont des ajouts issus de l'analyse constitutionnelle du 29 avril 2026, non présents dans le document source initial.
+  </div>
+</div>
+
+<div class="sommaire">
+  <div class="sommaire-inner">
+    <h3>Sommaire</h3>
+    <nav>
+      <a href="#p1">I. République, Président et Gouvernement (titres I–III)</a>
+      <a href="#p2">II. Parlement et rapports avec le Gouvernement (titres IV–V)</a>
+      <a href="#p3">III. Conseil constitutionnel (titre VII)</a>
+      <a href="#p4">IV. Justice et responsabilité pénale (titres VIII–X)</a>
+      <a href="#p5">V. Instances consultatives et collectivités (titres XI–XII)</a>
+    </nav>
+  </div>
+</div>
+
+<main class="main">
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- CHAPEAU TRANSVERSAL -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<div style="background:#FFFEF9;border:1px solid #D4CFC4;padding:20px 28px;margin:28px 0 40px;font-size:13px;line-height:1.8;color:#1A1A1A;">
+  <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:0.18em;text-transform:uppercase;color:#5A5A5A;margin-bottom:12px;">Note de lecture transversale</div>
+  <p style="margin-bottom:10px;"><strong>Logique d'ensemble.</strong> La révision suit trois axes : (1) renforcer la légitimité démocratique des institutions en substituant des confirations positives aux vetos négatifs ; (2) verrouiller la discipline budgétaire par des mécanismes automatiques et des responsabilités nominales ; (3) simplifier l'architecture territoriale en ramenant la démocratie locale à son échelon légitime.</p>
+  <p style="margin-bottom:10px;"><strong>Ce que la révision ne touche pas.</strong> Le régime présidentiel de 1958 dans ses grandes lignes, la procédure législative ordinaire, les droits fondamentaux de la DDHC (dont le contenu est au contraire verrouillé), les règles de succession et d'intérim, les titres sur les traités et la défense.</p>
+  <p style="margin-bottom:10px;"><strong>Chantiers réservés.</strong> Outre-mer (art. 73–75-1) : traitement séparé. Dispositions transitoires (suppression échelons intermédiaires, délais de transfert) : balai ultérieur. Nouvelle-Calédonie (titre XIII) : hors périmètre. Titre XV (rapport à l'Union européenne) : fondement matériel de la limite posée à l'art. 61-2 à traiter en chantier dédié. Non-renouvelabilité des mandats : chantier soldé le 23/07/2026 — règle générale à l’article 3, coordinations aux articles 6, 25 et 72.</p>
+  <p style="margin-bottom:0;"><strong>Convention de lecture.</strong> Colonne A = texte actuel (résumé fidèle, suppressions soulignées). Colonne B = réforme visée. Colonne C = texte révisé (ajouts en gras, suppressions absentes). Seuils entre crochets [X] = paramètres politiques à décider. Notes en bas de colonne C pour les points techniques.</p>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- PARTIE I -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<div class="partie" id="p1">
+  <span class="partie-num">I</span>
+  <h2>République, Président de la République et Gouvernement (titres I–III)</h2>
+</div>
+
+<div class="col-headers">
+  <span class="ch ch-a">Texte actuel</span>
+  <span class="ch ch-b">Réforme visée</span>
+  <span class="ch ch-c">Rédaction révisée</span>
+</div>
+
+<!-- Préambule -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Préambule</span> <span class="badge badge-c">C</span></div>
+    Le préambule proclame l'attachement aux Droits de l'Homme et aux principes de la souveraineté nationale définis par la Déclaration de 1789, confirmés et complétés par le Préambule de 1946, et — depuis la loi constitutionnelle du 1er mars 2005 — aux droits et devoirs définis par la Charte de l'environnement de 2004.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Sans modification. La portée recherchée est assurée par la clause de l'article 34 réservant au Parlement l'interprétation normative du Préambule. La révision du préambule (suppression de la Charte de 2004) est abandonnée.
+  </div>
+  <div class="cell cell-c">
+    « Le peuple français proclame solennellement son attachement aux Droits de l'Homme et aux principes de la souveraineté nationale tels qu'ils ont été définis par la Déclaration de 1789, confirmés et complétés par le Préambule de la Constitution de 1946, ainsi qu'aux droits et devoirs définis dans la Charte de l'environnement de 2004. »<br><br>
+    <span class="note">Texte en vigueur conservé sans modification, mention de la Charte de l'environnement de 2004 comprise. La maîtrise de sa portée normative est renvoyée à l'article 34 (interprétation réservée au Parlement).</span>
+  </div>
+</div>
+
+
+<!-- Art. 1 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 1er</span> <span class="badge badge-c">C</span></div>
+    « La France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion. Elle respecte toutes les croyances. <u>Son organisation est décentralisée.</u> <u>La loi favorise l'égal accès des femmes et des hommes aux mandats électoraux et fonctions électives, ainsi qu'aux responsabilités professionnelles et sociales.</u> »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Ajout de « de sexe » dans la clause d'égalité. Suppression de « décentralisée » (cohérence avec réforme art. 72). Suppression de la mention parité hommes/femmes (absorbée par la clause d'égalité).
+  </div>
+  <div class="cell cell-c">
+    « La France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, <strong>de sexe</strong>, de race ou de religion. Elle respecte toutes les croyances. »<br><br>
+    <span class="note">Ajout de « de sexe » en deuxième position de l'énumération. Les deux alinéas soulignés sont supprimés. Aucune autre modification.</span>
+  </div>
+</div>
+
+
+<!-- Art. 3 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 3</span> <span class="badge badge-c">C</span></div>
+    « La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum.<br>
+    Aucune section du peuple ni aucun individu ne peut s'en attribuer l'exercice.<br>
+    Le suffrage peut être direct ou indirect dans les conditions prévues par la Constitution. Il est toujours universel, égal et secret.<br>
+    Sont électeurs, dans les conditions déterminées par la loi, tous les nationaux français majeurs des deux sexes, jouissant de leurs droits civils et politiques. »
+  </div>
+  <div class="cell cell-b">
+    Décision : règle générale de non-renouvelabilité immédiate en alinéa final — mandats nationaux et fonctions exécutives électives. Coordinations : art. 6 (substitution), art. 25 (chapeau absorbé), art. 72 (aucune disposition, modalités en loi).
+  </div>
+  <div class="cell cell-c">
+    « La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum.<br><br>
+    Aucune section du peuple ni aucun individu ne peut s'en attribuer l'exercice.<br><br>
+    Le suffrage peut être direct ou indirect dans les conditions prévues par la Constitution. Il est toujours universel, égal et secret.<br><br>
+    Sont électeurs, dans les conditions déterminées par la loi, tous les nationaux français majeurs des deux sexes, jouissant de leurs droits civils et politiques.<br><br>
+    <strong>Nul ne peut succéder à lui-même dans un mandat national ni dans une fonction exécutive élective.</strong> »<br><br>
+    <span class="note">Alinéa final nouveau : règle de tête de la non-renouvelabilité immédiate, logée dans l'article du suffrage (registre : règle d'exercice des mandats issus du suffrage). Deux catégories fermant la querelle mandat/fonction : « mandat national » couvre le Président de la République et les parlementaires (catégorie établie du droit du cumul) ; « fonction exécutive élective » couvre maires, adjoints, présidents et vice-présidents d'exécutifs élus au second degré, EPCI compris (attrapés par la formule de tête, non par le titre XII). Conseillers municipaux, départementaux, régionaux et communautaires exclus par construction : mandats locaux non exécutifs. Seule la reconduction à l'identique est fermée — succession verticale (conseiller → maire, adjoint → maire, député → sénateur) et retour après interruption ouverts. Députés européens hors champ (loi électorale). Modalités par organe : PR → renvoi LO existant de l'art. 6 ; parlementaires → renvoi LO de l'art. 25 ; fonctions exécutives locales → loi (art. 34, régime électoral).</span>
+  </div>
+</div>
+
+
+<!-- Art. 4 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 4</span> <span class="badge badge-c">C</span></div>
+    « Les partis et groupements politiques concourent à l'expression du suffrage. Ils se forment et exercent leur activité librement. Ils doivent respecter les principes de la souveraineté nationale et de la démocratie.<br>
+    <u>Ils contribuent à la mise en œuvre du principe énoncé au second alinéa de l'article 1er dans les conditions déterminées par la loi.</u><br>
+    La loi garantit les expressions pluralistes des opinions et la participation équitable des partis et groupements politiques à la vie démocratique de la Nation. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Suppression du deuxième alinéa par coordination : le second alinéa de l'article 1er (parité), auquel il renvoie, est supprimé — le renvoi devient orphelin.
+  </div>
+  <div class="cell cell-c">
+    « Les partis et groupements politiques concourent à l'expression du suffrage. Ils se forment et exercent leur activité librement. Ils doivent respecter les principes de la souveraineté nationale et de la démocratie.<br>
+    La loi garantit les expressions pluralistes des opinions et la participation équitable des partis et groupements politiques à la vie démocratique de la Nation. »<br><br>
+    <span class="note">Deuxième alinéa supprimé par coordination avec la suppression du second alinéa de l'article 1er (renvoi orphelin). Alinéas 1 et 3 conservés sans modification. Verbatim art. 4 recoupé (Légifrance LEGIARTI000019240999 / version LC 2008-724) — fetch direct bloqué le 22/07/2026, à revérifier sur Légifrance.</span>
+  </div>
+</div>
+
+
+<!-- Art. 6 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 6</span> <span class="badge badge-c">C</span></div>
+    « Le Président de la République est élu pour cinq ans au suffrage universel direct.<br>
+    Nul ne peut exercer <u>plus de</u> deux mandats consécutifs.<br>
+    Les modalités d'application du présent article sont fixées par une loi organique. »
+  </div>
+  <div class="cell cell-b">
+    Décision : non-renouvelabilité immédiate du Président de la République — écho substantiel de la règle de l'article 3, par substitution dans l'alinéa en vigueur.
+  </div>
+  <div class="cell cell-c">
+    « Le Président de la République est élu pour cinq ans au suffrage universel direct.<br><br>
+    <strong>Nul ne peut exercer deux mandats présidentiels consécutifs.</strong><br><br>
+    Les modalités d'application du présent article sont fixées par une loi organique. »<br><br>
+    <span class="note">Al. 2 : substitution minimale dans la phrase en vigueur — « plus de deux mandats » devient « deux mandats présidentiels » — syntaxe « Nul ne peut » conservée, filiation visible, cohérence de facture avec l'art. 3 sans le répéter (écho substantiel restreint au mandat présidentiel). Le retour après interruption reste ouvert (« consécutifs »). Modalités portées par le renvoi organique existant de l'al. 3 : assimilation du mandat interrompu (démission, destitution) à un mandat exercé — fermeture du contournement par démission anticipée débattu depuis 2022 — et intérim de l'art. 7 hors décompte. À écrire en LO (loi n° 62-1292).</span>
+  </div>
+</div>
+
+
+<!-- Art. 8 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 8</span> <span class="badge badge-c">C</span></div>
+    « Le Président de la République nomme le Premier ministre. Il met fin à ses fonctions sur la présentation par celui-ci de la démission du Gouvernement.<br>
+    Sur la proposition du Premier ministre, il nomme les autres membres du Gouvernement et met fin à leurs fonctions. »
+  </div>
+  <div class="cell cell-b">
+    Décision : encadrement de la nomination du Premier ministre — délai de quinze jours et interdiction, pendant un an, de renommer un Premier ministre censuré.
+  </div>
+  <div class="cell cell-c">
+    « Le Président de la République nomme le Premier ministre <strong>dans un délai de quinze jours</strong>. <strong>Il ne peut, dans l'année qui suit la censure, renommer un Premier ministre dont l'Assemblée nationale a censuré le gouvernement.</strong> Il met fin aux fonctions du Premier ministre sur la présentation par celui-ci de la démission du Gouvernement.<br>
+    Sur la proposition du Premier ministre, il nomme les autres membres du Gouvernement et met fin à leurs fonctions. »<br><br>
+    <span class="note">Encadrement du pouvoir discrétionnaire de nomination (fermeture du blocage prolongé) sans création d'un juge de la « configuration » : la contrainte porte sur le délai et sur un fait constatable (la censure passée), non sur un critère substantiel apprécié a priori. Le délai de quinze jours s'aligne sur celui de la signature encadrée (art. 13/19) et court à nouveau à chaque vacance, censure comprise. L'interdiction est bornée à un an à compter de la censure — l'empêchement s'éteint par le seul écoulement du délai, sans dépendre du renouvellement de l'Assemblée. Elle vise le seul chef du gouvernement renversé (« renommer un Premier ministre »), non les ministres d'un gouvernement censuré, qui demeurent nommables. Articulation avec art. 49-50 (responsabilité) inchangée ; sortie de crise par dissolution (art. 12) non modifiée. Le verbatim « il met fin à ses fonctions » devient « aux fonctions du Premier ministre » pour préserver la clarté du référent après insertion.</span>
+  </div>
+</div>
+
+
+<!-- Art. 13 al. 1 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 13 al. 1</span> <span class="badge badge-c">C</span> <span class="badge badge-new">MODIFIÉ</span></div>
+    « Le Président de la République signe les ordonnances et les décrets délibérés en conseil des ministres. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Fixer un délai de quinze jours pour la signature. Ferme le précédent Mitterrand 1986 (refus discrétionnaire de signer les ordonnances en période de cohabitation). Arts. 9 et 12 inchangés.
+  </div>
+  <div class="cell cell-c">
+    « Le Président de la République signe les ordonnances et les décrets délibérés en conseil des ministres <strong>dans les quinze jours qui suivent leur délibération</strong>. »<br><br>
+    <span class="note">L'ajout d'un délai impératif transforme l'obligation de signer en obligation temporellement bornée : passé quinze jours, le refus devient constitutionnellement opposable. Al. 2 à 5 de l'article 13 inchangés.</span>
+  </div>
+</div>
+
+
+<!-- Art. 13 al. 5 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 13 al. 5</span> <span class="badge badge-c">C</span> <span class="badge badge-new">RENFORCÉ</span></div>
+    « Une loi organique détermine les emplois ou fonctions, autres que ceux mentionnés au troisième alinéa, pour lesquels, en raison de leur importance pour la garantie des droits et libertés ou la vie économique et sociale de la Nation, le pouvoir de nomination du Président de la République s'exerce après avis public de la commission permanente compétente de chaque assemblée. Le Président de la République ne peut procéder à une nomination lorsque l'addition des votes négatifs dans chaque commission représente au moins trois cinquièmes des suffrages exprimés au sein des deux commissions. La loi détermine les commissions permanentes compétentes selon les emplois ou fonctions concernés. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Transformer le veto négatif en confirmation positive à la majorité absolue des suffrages exprimés des commissions permanentes compétentes des deux assemblées réunies.
+  </div>
+  <div class="cell cell-c">
+    « Une loi organique détermine les emplois ou fonctions, autres que ceux mentionnés au troisième alinéa, pour lesquels, en raison de leur importance pour la garantie des droits et libertés ou la vie économique et sociale de la Nation, le pouvoir de nomination du Président de la République s'exerce après <strong>approbation à la majorité absolue des suffrages exprimés des commissions permanentes compétentes des deux assemblées réunies</strong>. La loi détermine les commissions permanentes compétentes selon les emplois ou fonctions concernés. »<br><br>
+    <span class="note">Le veto négatif (3/5 des votes négatifs) est remplacé par une confirmation positive à la majorité absolue des suffrages exprimés des deux commissions réunies. La proportionnelle des groupes dans les commissions garantit la représentation de l'opposition.</span>
+  </div>
+</div>
+
+
+
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- TITRE III — GOUVERNEMENT -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<div style="margin-top:40px;margin-bottom:6px;display:flex;align-items:center;gap:14px;border-bottom:1px solid var(--bleu);padding-bottom:10px;">
+  <span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:0.15em;background:rgba(26,58,92,0.12);color:var(--bleu);padding:3px 9px;">Titre III</span>
+  <h3 style="font-family:'Fraunces',serif;font-size:18px;font-weight:600;color:var(--bleu);letter-spacing:-0.01em;">Gouvernement (art. 20–23)</h3>
+</div>
+
+<div class="col-headers">
+  <span class="ch ch-a">Texte actuel</span>
+  <span class="ch ch-b">Réforme visée</span>
+  <span class="ch ch-c">Rédaction révisée</span>
+</div>
+
+<!-- Art. 21 al. 4 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 21 al. 4</span> <span class="badge badge-c">C</span> <span class="badge badge-new">MODIFIÉ</span></div>
+    « Il peut, à titre exceptionnel, le suppléer pour la présidence d'un conseil des ministres en vertu d'une délégation expresse <u>et pour un ordre du jour déterminé</u>. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Donner au Premier ministre la maîtrise de l'ordre du jour du conseil des ministres, hors domaine réservé (arts. 15 et 52). Art. 9 inchangé — le Président préside toujours. Suppression de « et pour un ordre du jour déterminé » : condition devenue contradictoire.
+  </div>
+  <div class="cell cell-c">
+    « <strong>Il arrête l'ordre du jour du conseil des ministres, hors les matières relevant des articles 15 et 52 dont l'inscription appartient au Président de la République.</strong> Il peut, à titre exceptionnel, le suppléer pour la présidence d'un conseil des ministres en vertu d'une délégation expresse. »<br><br>
+    <span class="note">Première phrase : nouvelle. Le Premier ministre tient l'agenda par droit propre ; le Président conserve la main sur les matières des arts. 15 (défense) et 52 (traités). Seconde phrase : texte actuel de l'al. 4 (révision 2008), avec suppression de « et pour un ordre du jour déterminé » — cette condition était la contrepartie implicite du contrôle présidentiel de l'agenda ; elle disparaît avec la première phrase. Al. 1 à 3 inchangés.</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- PARTIE II -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<div class="partie" id="p2">
+  <span class="partie-num">II</span>
+  <h2>Parlement et rapports avec le Gouvernement (titres IV–V)</h2>
+</div>
+
+<div class="col-headers">
+  <span class="ch ch-a">Texte actuel</span>
+  <span class="ch ch-b">Réforme visée</span>
+  <span class="ch ch-c">Rédaction révisée</span>
+</div>
+
+<!-- Art. 24 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 24</span> <span class="badge badge-c">C</span> <span class="badge badge-o">O</span></div>
+    « […] Les députés à l'Assemblée nationale, dont le nombre ne peut excéder <u>cinq cent soixante-dix-sept</u>, sont élus au suffrage direct. Le Sénat, dont le nombre de membres ne peut excéder <u>trois cent quarante-huit</u>, est élu au suffrage indirect. Il assure la représentation des collectivités territoriales de la République. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Réduction à 576 parlementaires (référence : Assemblée nationale constituante de 1789), soit −38 % depuis 925. Le Sénat représente désormais les communes (cohérence art. 72).
+  </div>
+  <div class="cell cell-c">
+    « […] Les députés à l'Assemblée nationale, dont le nombre ne peut excéder <strong>[trois cent cinquante-neuf]</strong>, sont élus au suffrage direct. Le Sénat, dont le nombre de membres ne peut excéder <strong>[deux cent dix-sept]</strong>, est élu au suffrage indirect. Il assure la représentation des collectivités territoriales de la République. »<br><br>
+    <span class="note">Seuls les effectifs sont modifiés, écrits en lettres conformément à l'usage de la Constitution. Correction v42 : « est élu au suffrage indirect. Il » rétabli en colonnes A et C — mots omis en A et propagés en C. « Collectivités territoriales » inchangé — désigne désormais communes + collectivités d'outre-mer (art. 72 révisé). [trois cent cinquante-neuf] + [deux cent dix-sept] = 576 au total — répartition proportionnelle depuis 577 et 348 (ratio conservé à 1,655), référence Assemblée nationale constituante de 1789 ; total actuel : 925.</span>
+  </div>
+</div>
+
+
+<!-- Art. 25 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 25</span> <span class="badge badge-c">C</span></div>
+    « Une loi organique fixe la durée des pouvoirs de chaque assemblée, le nombre de ses membres, leur indemnité, les conditions d'éligibilité, le régime des inéligibilités et des incompatibilités. Elle fixe également les conditions dans lesquelles sont élues les personnes appelées à assurer, en cas de vacance du siège, le remplacement des députés ou des sénateurs jusqu'au renouvellement général ou partiel de l'assemblée à laquelle ils appartenaient. <u>Une commission indépendante, dont la loi organique fixe la composition et les règles d'organisation et de fonctionnement, se prononce par un avis public sur les projets et propositions de loi délimitant les circonscriptions pour l'élection des députés ou modifiant la répartition des sièges de députés ou de sénateurs.</u> »
+  </div>
+  <div class="cell cell-b">
+    Décision : la non-rééligibilité immédiate des parlementaires est portée par la règle générale de l'article 3 — chapeau retiré, modalités maintenues en loi organique. Suppression de la commission indépendante de délimitation des circonscriptions.
+  </div>
+  <div class="cell cell-c">
+    « Une loi organique fixe la durée des pouvoirs de chaque assemblée, le nombre de ses membres, leur indemnité, les conditions d'éligibilité, le régime des inéligibilités et des incompatibilités. Elle fixe également les conditions dans lesquelles sont élues les personnes appelées à assurer, en cas de vacance du siège, le remplacement des députés ou des sénateurs jusqu'au renouvellement général ou partiel de l'assemblée à laquelle ils appartenaient ou leur remplacement temporaire en cas d'acceptation par eux de fonctions gouvernementales. »<br><br>
+    <span class="note">Le chapeau de la v34 (« Nul ne peut succéder à lui-même dans une fonction ») est absorbé par la règle générale de l'article 3, qui couvre le mandat parlementaire — aucun contenu perdu, la succession à soi-même reste fermée et le retour différé ouvert. La loi organique (alinéa 1, « régime des inéligibilités ») continue d'en fixer les modalités d'application — notamment l'assimilation de la démission ou de la cessation anticipée à l'exercice du mandat, et la portée du principe quel que soit le siège brigué (fermeture du contournement par changement de circonscription). À vérifier en révision LOLF/LO : définition de l'interruption et du scrutin sénatorial partiel. Dernier alinéa (commission indépendante de délimitation) supprimé.</span>
+  </div>
+</div>
+
+
+<!-- Art. 34 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 34</span> <span class="badge badge-c">C</span></div>
+    La loi fixe les règles concernant : les droits civiques et les garanties fondamentales ; <strong>la liberté, le pluralisme et l'indépendance des médias</strong> ; les sujétions imposées par la défense nationale […] La loi détermine les principes fondamentaux de l'organisation de la défense nationale, de la libre administration des collectivités territoriales, <strong>de la préservation de l'environnement</strong>. <u>Les lois de financement de la sécurité sociale déterminent les conditions générales de son équilibre financier […]</u>
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Chapeau ancrant la DDHC, interprétation du Préambule réservée au Parlement. Compétence fiscale déplacée du domaine de la loi vers le domaine des lois de finances (exclusivité). Charges avant ressources. Suppression LFSS (fusionnée). L'alinéa des orientations pluriannuelles est réécrit et non supprimé : la loi de finances y remplace la loi de programmation des finances publiques, et l'autorisation accessoire d'obligations sur les exercices ultérieurs s'y loge — siège unique du pluriannuel. L'alinéa des lois de programmation ordinaires (objectifs de l'action de l'État) est conservé. Suppression de l'alinéa autonome relatif à l'interruption volontaire de grossesse, dont la matière remonte au tiret nationalité/état civil. Règle d'or reformulée : trajectoire annuelle de retour régulier à l'équilibre effectif, échéance au plus tard au terme de la législature. Phrase coupée en deux — la fin, puis les moyens : « À cette fin, elles arrêtent les mesures de correction propres à en assurer le respect et les mettent en œuvre. » Engagements sur exercices ultérieurs autorisés à titre accessoire, limités par un mécanisme d'ajustement automatique (renvoi LO) — « autoriser des obligations mises à la charge » plutôt que « mettre des obligations à la charge », le registre de la loi de finances étant l'autorisation. Bouclier fiscal détaché en phrase autonome et complété d'un bouclier social : le cumul des impositions plafonné à la moitié des ressources du contribuable et à la moitié de la richesse nationale, et le contribuable conservant le bénéfice net d'au moins la moitié de tout accroissement de ses ressources. Réserve « impositions de toutes natures » intacte ; périmètre de « net » laissé à la loi de finances, seule compétente sur les impositions comme sur les mécanismes de protection sociale.
+  </div>
+  <div class="cell cell-c">
+    « <strong>La loi garantit l'exercice des droits et libertés proclamés par la Déclaration des droits de l'homme et du citoyen de 1789 et en fixe les seules bornes nécessaires. Toute loi précise dans quelle mesure elle en affecte l'exercice. L'interprétation normative du Préambule de la Constitution appartient au Parlement.</strong><br><br>
+    La loi fixe les règles concernant :<br>— les droits civiques et les garanties fondamentales accordées aux citoyens pour l'exercice des libertés publiques ; <strong>la liberté de la presse et des moyens de communication</strong> ; les sujétions imposées par la défense nationale aux citoyens en leur personne et en leurs biens ;<br>— la nationalité, l'état et la capacité des personnes, les régimes matrimoniaux, les successions et libéralités et <strong>la liberté d'interrompre une grossesse</strong> ;<br>— la détermination des crimes et délits ainsi que les peines qui leur sont applicables ; la procédure pénale ; l'amnistie ; la création de nouveaux ordres de juridiction et le statut des magistrats ;<br>— le régime d'émission de la monnaie.<br><br>
+    La loi fixe également les règles concernant :<br>— le régime électoral des assemblées parlementaires, des communes et des instances représentatives des Français établis hors de France ainsi que les conditions d'exercice des mandats électoraux et des fonctions électives des membres des assemblées délibérantes des communes ;<br>— la création de catégories d'établissements publics ;<br>— les droits et obligations des agents publics civils et militaires ;<br>— les transferts de propriété du secteur privé au secteur public, ainsi que <strong>les critères de nécessité et d'indemnisation auxquels ils sont soumis, les transferts de propriété entre personnes publiques, les transferts de propriété du secteur public au secteur privé</strong>.<br><br>
+    La loi détermine les principes fondamentaux :<br>— de l'organisation générale de la défense nationale ;<br>— de la libre administration des collectivités territoriales, de leurs compétences et de leurs ressources ;<br>— de l'enseignement ;<br>— de la préservation de l'environnement ;<br>— du régime de la propriété, des droits réels et des obligations civiles et commerciales ;<br>— du droit du travail et du droit syndical.<br><br>
+    Les lois de finances déterminent les charges et les ressources de l'État dans les conditions et sous les réserves prévues par une loi organique. <strong>En cas de déséquilibre constaté, elles déterminent la trajectoire annuelle de retour régulier à l'équilibre effectif des comptes publics au plus tard au terme de la législature. À cette fin, elles arrêtent les mesures de correction propres à en assurer le respect et les mettent en œuvre.</strong><br><br>
+    <strong>Les lois de finances fixent librement les mécanismes de protection sociale et toute obligation financière à la charge de l'État.</strong><br><br>
+    <strong>Les lois de finances fixent l'assiette, le taux, les modalités de recouvrement et la durée des impositions de toutes natures, réparties entre tous les citoyens. Le cumul de ces impositions ne peut excéder la moitié des ressources du contribuable et la moitié de la richesse nationale. Le contribuable conserve le bénéfice net d'au moins la moitié de tout accroissement de ses ressources.</strong><br><br>
+    Des lois de programmation déterminent les objectifs de l'action de l'État.<br><br>
+    <strong>Les lois de finances peuvent déterminer les orientations pluriannuelles des finances publiques. À titre accessoire, elles peuvent autoriser des obligations financières mises à la charge des exercices ultérieurs, sous réserve qu'elles soient limitées par un mécanisme d'ajustement automatique.</strong> La loi organique fixe la nature et les bornes de ces obligations.<br><br>
+    Les dispositions du présent article pourront être précisées et complétées par une loi organique. »<br><br>
+    <span class="note">Chapeau en trois phrases (en gras) : (1) garantie DDHC + « seules bornes nécessaires » ; (2) obligation procédurale de motivation ; (3) interprétation normative du Préambule réservée au Parlement (clôture du bloc-principe, fermeture face au juge). La phrase d'exclusivité législative séparée est supprimée comme redondante. Structure à deux niveaux conservée (« fixe les règles » / « fixe également les règles »). IVG : « liberté d'interrompre une grossesse » dans le bloc nationalité/état civil — plancher sans obligation positive. <strong>Compétence fiscale déplacée :</strong> l'assiette, le taux, le recouvrement et la durée des impositions, ainsi que la double borne 50 % (individuelle et agrégée), quittent le domaine de la loi pour le domaine des lois de finances — toute imposition relève désormais d'une loi de finances, à l'exclusion de toute autre loi. Le régime d'émission de la monnaie reste en loi ordinaire. Ordre du bloc finances : cadre (charges puis ressources) → équilibre (règle d'or, accolée au cadre car le solde découle des charges et ressources) → dépenses (protection sociale et obligations financières de l'État) → fiscalité (disposition la plus encadrée, porteuse de la double borne) → programmation, puis pluriannuel en clôture, à la place que l'alinéa des orientations occupe dans l'article en vigueur. Présentation harmonisée : chaque alinéa débute par « Les lois de finances », les reprises internes par « elles ». <strong>Règle d'or :</strong> reformulée, elle absorbe l'ancien « objectif d'équilibre des comptes publics » ; « retour régulier » écarte le rattrapage massif de dernière année. « En cas de déséquilibre constaté » conditionne l'obligation ; « équilibre effectif » écarte l'équilibre de présentation (équilibre comptable atteint par l'emprunt) ; « au terme de la législature » fixe l'horizon. LFSS supprimée par fusion. L'alinéa des orientations pluriannuelles est réécrit et non supprimé : il devient le siège unique du pluriannuel dans l'article — la loi de finances peut y déterminer les orientations pluriannuelles, et peut, à titre accessoire, y autoriser des obligations sur les exercices ultérieurs ; l'exception se lit à l'intérieur de l'alinéa qui ouvre la capacité qu'elle borne. L'alinéa des lois de programmation ordinaires est conservé, et son rétablissement en colonne C corrige une omission de la v44. L'article révisé compte vingt-quatre alinéas. Phrase finale de renvoi organique conservée. Engagements pluriannuels (armement, programmes durables) : l'ouverture « à titre accessoire » fait place au pluri légitime sans en faire la norme ; l'« ajustement automatique » résorbe le dépassement sans nouveau vote discrétionnaire, préservant le consentement annuel. Le verbe « peuvent mettre » (registre de compétence, conservé) n'a pas à porter la force : la limitation est portée par les compléments (« à titre accessoire », « ajustement automatique », bornes en LO) et la force du consentement par l'art. 47 al. 1, qui inclut le pluri dans le retracement de l'intégralité (« y compris les obligations… »). Répartition : 34 = ce qui est permis et borné ; 47 = ce qui est voté. <em>Chantier ouvert : fondement matériel de la limite aux normes européennes (identité constitutionnelle, compétences exercées en commun) à poser au Titre XV — voir art. 61-2. Revue transversale des cinq principes budgétaires en cours : universalité (intégralité) portée à l'art. 47 ; annualité, unité, sincérité à confirmer ; sous-composantes affectation à tiers (A) et limite matérielle (B) renvoyées à la LOLF — signalé non clos.</em></span>
+  </div>
+</div>
+
+
+<!-- Art. 34-1 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 34-1</span> <span class="badge badge-c">C</span></div>
+    « Les assemblées peuvent voter des résolutions dans les conditions fixées par la loi organique. » Introduit en 2008.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Suppression : redondant avec l'obligation de compatibilité DDHC inscrite aux articles 34 et 39. Le débat politique parlementaire passe par les articles 48 et 50-1 révisés.
+  </div>
+  <div class="cell cell-c">
+    <em>[Article abrogé.]</em><br><br>
+    <span class="note">Motif : redondant avec les articles 34 et 39 révisés. La fonction politique des résolutions est assurée par les articles 48 et 50-1 révisés.</span>
+  </div>
+</div>
+
+
+<!-- Art. 39 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 39</span> <span class="badge badge-c">C</span> <span class="badge badge-new">RENFORCÉ</span></div>
+    L'article 39 encadre le dépôt des projets de loi : présentation au Conseil des ministres après avis du Conseil d'État, puis dépôt sur le bureau de l'une ou l'autre assemblée. Aucune obligation de préciser en quoi le projet affecte les droits et libertés fondamentaux.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Opérationnaliser la motivation posée au chapeau de l'article 34 par une évaluation du bénéfice net : tout projet ou proposition de loi établit le solde de ses bénéfices et de ses coûts, droits et libertés inclus. Charge de la preuve sur la norme (DDHC art. 4 et 5). Méthode et extension aux amendements renvoyées à la loi organique. Coordination : au deuxième alinéa, suppression de la mention des lois de financement de la sécurité sociale (art. 47-1 abrogé).
+  </div>
+  <div class="cell cell-c">
+    « Les projets de loi sont délibérés en conseil des ministres après avis du Conseil d'État et déposés sur le bureau de l'une des deux assemblées. Les projets de loi de finances sont soumis en premier lieu à l'Assemblée nationale. […]<br><br>
+    <strong>Tout projet ou proposition de loi établit le bénéfice net attendu de ses dispositions, au regard de leur effet sur l'exercice des droits et libertés et de l'ensemble des coûts qui en résultent. Une loi organique fixe les conditions de cette évaluation et celles dans lesquelles les amendements qui l'affectent sensiblement y sont soumis.</strong> »<br><br>
+    <span class="note">Nouvel alinéa final ajouté (en gras). Opérationnalise l'obligation de motivation posée au chapeau de l'article 34 sans la répéter : le 34 pose le principe (la loi garantit les droits et précise dans quelle mesure elle en affecte l'exercice), le 39 fournit l'instrument (l'évaluation du bénéfice net). Fondement : DDHC art. 4 et 5 — la liberté est la règle, la norme l'exception qui doit justifier son bénéfice net, tout coût imposé étant une atteinte à la liberté et à la propriété. « établit » (production, non « démontre » de résultat) maintient l'appréciation du solde dans le débat parlementaire, non devant le juge — charge de la preuve sur la norme, pas sur le contribuable ni le citoyen. L'effet sur les droits entre comme une dimension du bilan, non comme une motivation autonome (pas de miroir du 34). Périmètre des coûts non énuméré (monétaire, administratif, social, d'opportunité, public et privé) pour ne pas figer la méthode. Renvoi organique commun aux deux temps ; la loi organique fixe le seuil de sensibilité des amendements, sans constitutionnaliser de critère technique. Verrou contre le contrôle d'opportunité du bilan par le Conseil constitutionnel : art. 61-1 (atteinte excessive mesurée au seul art. 34) et art. 62 (injonction non rédactrice).</span>
+  </div>
+</div>
+
+
+<!-- Art. 40 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 40</span> <span class="badge badge-c">C</span></div>
+    « Les propositions et amendements formulés par les membres du Parlement ne sont pas recevables lorsque leur adoption aurait pour conséquence soit une diminution des ressources publiques, soit la création ou l'aggravation d'une charge publique. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Inverser l'ordre (charges avant recettes). Autoriser la baisse de recettes si les charges baissent au moins autant. Fermer la brèche des gages fictifs : singulier (gage tabac de 1976) et effectivité de la réduction. « certaine » écarté — standard inatteignable, transfert d'appréciation au juge de la recevabilité.
+  </div>
+  <div class="cell cell-c">
+    « Les propositions et amendements formulés par les membres du Parlement ne sont pas recevables lorsque leur adoption aurait pour conséquence soit l'aggravation d'une charge publique, soit la diminution d'une ressource publique <strong>sans réduction effective et au moins égale d'une charge publique</strong>. »<br><br>
+    <span class="note">Structure « soit… soit » d'origine conservée. Singulier cohérent des deux côtés — ferme la brèche de 1976.</span>
+  </div>
+</div>
+
+
+<!-- Art. 42 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 42</span> <span class="badge badge-c">C</span></div>
+    Al. 2 : « Toutefois, la discussion en séance des projets de révision constitutionnelle, <u>des projets de loi de finances et des projets de loi de financement de la sécurité sociale</u> porte, en première lecture devant la première assemblée saisie, sur le texte présenté par le Gouvernement et, pour les autres lectures, sur le texte transmis par l'autre assemblée. »<br><br>
+    Al. 4, seconde phrase : « Il ne s'applique pas non plus aux projets de loi <u>de finances, aux projets de loi de financement de la sécurité sociale et</u> aux projets relatifs aux états de crise. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Retirer les deux mentions des projets de loi de financement de la sécurité sociale, par coordination avec l'abrogation de l'article 47-1.
+  </div>
+  <div class="cell cell-c">
+    Al. 2 : « Toutefois, la discussion en séance des projets de révision <strong>constitutionnelle et des projets de loi de finances</strong> porte, en première lecture devant la première assemblée saisie, sur le texte présenté par le Gouvernement et, pour les autres lectures, sur le texte transmis par l'autre assemblée. »<br><br>
+    Al. 4, seconde phrase : « Il ne s'applique pas non plus aux projets de loi <strong>de finances et</strong> aux projets relatifs aux états de crise. »<br><br>
+    <span class="note">Coordination pure, portée par l'article 4 de la proposition. Les alinéas 1 et 3 sont inchangés. Sans elle, la Constitution révisée renverrait à une catégorie d'actes disparue.</span>
+  </div>
+</div>
+
+
+<!-- Art. 44 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 44</span> <span class="badge badge-c">C</span></div>
+    « Les membres du Parlement et le Gouvernement ont le droit d'amendement. Ce droit s'exerce en séance ou en commission selon les conditions fixées par les règlements des assemblées, dans le cadre déterminé par une loi organique. Après l'ouverture du débat, le Gouvernement peut s'opposer à l'examen de tout amendement qui n'a pas été antérieurement soumis à la commission. Si le Gouvernement le demande, l'assemblée saisie se prononce par un seul vote sur tout ou partie du texte en discussion en ne retenant que les amendements proposés ou acceptés par le Gouvernement. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Constitutionnaliser la faculté pour les règlements des assemblées de limiter en temps et en nombre l'exercice du droit d'amendement, dans la seule mesure nécessaire à la bonne tenue des débats.
+  </div>
+  <div class="cell cell-c">
+    « Les membres du Parlement et le Gouvernement ont le droit d'amendement. Ce droit s'exerce en séance ou en commission selon les conditions fixées par les règlements des assemblées, dans le cadre déterminé par une loi organique.<br><br>
+    Après l'ouverture du débat, le Gouvernement peut s'opposer à l'examen de tout amendement qui n'a pas été antérieurement soumis à la commission.<br><br>
+    Si le Gouvernement le demande, l'assemblée saisie se prononce par un seul vote sur tout ou partie du texte en discussion en ne retenant que les amendements proposés ou acceptés par le Gouvernement.<br><br>
+    <strong>Les règlements des assemblées peuvent limiter en temps et en nombre l'exercice de ce droit dans la seule mesure nécessaire à la bonne tenue des débats.</strong> »<br><br>
+    <span class="note">Nouvel alinéa final (en gras), quatrième de l'article. Correction v42 : « compétente » retiré (mot absent du texte en vigueur) et alinéa du vote bloqué rétabli en A et en C — omis en A et propagé en C. « Dans la seule mesure nécessaire » — même registre que l'art. 34. « En temps et en nombre » ferme les deux vecteurs de l'obstruction.</span>
+  </div>
+</div>
+
+
+<!-- Art. 47 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 47</span> <span class="badge badge-c">C</span> <span class="badge badge-o">O</span></div>
+    « Le Parlement vote les projets de loi de finances dans les conditions prévues par une loi organique. Si l'Assemblée nationale ne s'est pas prononcée en première lecture dans le délai de quarante jours après le dépôt d'un projet, le Gouvernement saisit le Sénat qui doit statuer dans un délai de quinze jours. Il est ensuite procédé dans les conditions prévues à l'article 45. Si le Parlement ne s'est pas prononcé dans un délai de soixante-dix jours, les dispositions du projet peuvent être mises en vigueur par ordonnance. Si la loi de finances fixant les ressources et les charges d'un exercice n'a pas été déposée en temps utile pour être promulguée avant le début de cet exercice, le Gouvernement demande d'urgence au Parlement l'autorisation de percevoir les impôts et ouvre par décret les crédits se rapportant aux <u>services votés</u>. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Universalité et spécialité : la loi de finances retrace l'intégralité des charges et des ressources de l'État, y compris les obligations financières mises à la charge des exercices ultérieurs (le consentement annuel embrasse le pluri), et arrête leur emploi. Universalité portée au sens plein : non-affectation (l'ensemble des ressources couvre l'ensemble des charges) et non-contraction (montant brut). Affectation admise à titre accessoire et motivé, sous réserve de l'équilibre propre du couple ressource-charge — remontée de l'art. 2 de la LOLF, qui a réglé la compétence sans régler le consentement. Renvoi LO étendu à cette affectation. « obligations financières » aligné sur l'art. 34. Fusion PLF + PLFSS en loi de finances de l'État (les régimes sociaux deviennent des missions de l'État, détail en LOLF art. 5). Renvoi LO étendu aux conditions de ce vote. Sincérité et précaution déplacées à l'art. 47-2 (regroupement avec la sincérité des comptes et le HCFP). Examen dépenses avant recettes. Délais 40/15/70 jours maintenus dans l'article. Fin des services votés → crédits indispensables à la continuité, plafond global d'un douzième des crédits votés au dernier exercice, limités aux obligations exigibles (exclut toute dépense nouvelle ou discrétionnaire), sous forme d'avances dont la loi organique fixe les quotités (partielles pour les masses, pleine pour la charge de la dette). Pénalité : indemnités suspendues et définitivement perdues jusqu'à promulgation (Parlement, Gouvernement, Président). Date de dépôt anticipée à prévoir en LOLF (art. 39 LOLF).
+  </div>
+  <div class="cell cell-c">
+    « Le Parlement vote la loi de finances, <strong>qui retrace pour un exercice l'intégralité des charges et des ressources de l'État, y compris les obligations financières mises à la charge des exercices ultérieurs, et arrête leur emploi. L'ensemble des ressources couvre l'ensemble des charges. Les charges et les ressources sont retracées pour leur montant brut. Une ressource ne peut être affectée à une charge déterminée qu'à titre accessoire et motivé, sous réserve de leur équilibre propre.</strong><br><br>
+    <strong>Les charges sont examinées avant les ressources. La loi organique fixe les conditions de ce vote et celles de cette affectation.</strong><br><br>
+    Si l'Assemblée nationale ne s'est pas prononcée en première lecture dans le délai de quarante jours après le dépôt d'un projet, le Gouvernement saisit le Sénat qui doit statuer dans un délai de quinze jours. Il est ensuite procédé dans les conditions prévues à l'article 45. Si le Parlement ne s'est pas prononcé dans un délai de soixante-dix jours, les dispositions du projet peuvent être mises en vigueur par ordonnance.<br><br>
+    Si la loi de finances fixant les charges et les ressources d'un exercice n'a pas été déposée en temps utile pour être promulguée avant le début de cet exercice, le Gouvernement demande d'urgence au Parlement l'autorisation de percevoir les impôts en vigueur et <strong>ouvre par décret les seuls crédits indispensables à la continuité de l'État, dans la limite globale d'un douzième par mois des crédits votés lors du dernier exercice. Ces crédits se rapportent aux obligations exigibles et prennent la forme d'avances. La loi organique en fixe les quotités et les conditions.</strong><br><br>
+    <strong>Jusqu'à promulgation de la loi de finances, les indemnités des membres du Parlement et du Gouvernement ainsi que du Président de la République sont suspendues et définitivement perdues.</strong><br><br>
+    Les délais prévus au présent article sont suspendus lorsque le Parlement n'est pas en session. »<br><br>
+    <span class="note">Al. 1 : trois fonctions distinctes en un alinéa. « retrace l'intégralité des charges et des ressources de l'État » porte l'universalité (rien n'échappe au texte voté) ; « arrête leur emploi » porte la spécialité (la destination des crédits est fixée, contraignante, chaque exercice) ; « y compris les obligations financières mises à la charge des exercices ultérieurs » inclut le pluri dans le périmètre retracé sans en faire un objet de rang égal — son régime (autorisation à titre accessoire, ajustement automatique) vit à l'art. 34, non répété ici. Le pluri ainsi inclus est soumis au consentement annuel (DDHC art. 14) : l'AE est autorisée une fois (art. 34), mais les crédits de paiement de chaque exercice sont retracés et leur emploi arrêté dans la loi de finances de l'exercice — l'autorisation pluriannuelle ne consomme pas le consentement annuel. Liaison AE/CP à écrire en LOLF art. 8 (CP ≤ obligations exigibles, report d'AE borné) : condition de cohérence du présent alinéa. « pour un exercice » maintient l'annualité du vote sans enfermer le contenu. Non-affectation et non-contraction (détail de l'universalité) renvoyées à la LOLF. « charges et ressources de l'État » — dans l'architecture révisée, les régimes de protection sociale deviennent des missions de l'État (détail à l'art. 5 LOLF révisé) ; les communes ont leur budget autonome ; « nation » aurait introduit une ambiguïté sur le périmètre. Al. 3 : délais 40/15/70 jours réintégrés dans l'article constitutionnel (texte de 1958 conservé). Al. 2 : renvoi organique étendu aux « conditions de ce vote » (le renvoi LO de l'ancien al. 1 y est regroupé). Sincérité et précaution sorties de l'art. 47 : le régime complet (information sincère du vote, précaution des prévisions, avis HCFP) est regroupé à l'art. 47-2 — l'art. 47 conserve la procédure du vote, l'art. 47-2 son éclairage et son contrôle. Item de surveillance 47/47-2 résolu par ce regroupement. Al. 4 : ordre « charges et ressources » harmonisé (coordination). Fin des services votés. Le vice aboli est double — la discrétion (« le minimum que le Gouvernement juge indispensable », droit actuel) et la reconduction de droit (« conditions approuvées l'année précédente »). « les seuls crédits indispensables » ferme la discrétion sans renvoyer au jugement du Gouvernement. Plafond global (et non ligne à ligne) d'un douzième par mois des crédits votés au dernier exercice — la charge de la dette, évaluative, joue à l'intérieur de cette enveloppe et la comprime au besoin. « obligations exigibles » : critère juridique objectif qui inclut dette, rémunérations, prestations légalement dues et contrats en cours, et exclut par nature toute dépense nouvelle ou discrétionnaire (qui requiert le vote) — cohérent avec « toute obligation financière à la charge de l'État » de l'art. 34. « avances » : caractère provisoire ; la loi organique fixe les quotités (partielles pour les masses salariales et prestations, pleine pour la charge de la dette qu'une avance partielle mettrait en défaut) et les conditions, fermant la marge discrétionnaire entre lignes. Soupape de nécessité impérieuse maintenue par le régime des décrets d'avance (LOLF art. 13), hors champ du présent alinéa. Alinéa de suspension des délais hors session conservé en position finale. Al. 5 : pénalité — suspension et perte définitive des indemnités pour les trois pôles institutionnels (Parlement, Gouvernement, Président), cohérent avec la responsabilité de continuité budgétaire (art. 5 C). Art. 47-1 abrogé par fusion. LOLF art. 39 : date de dépôt à avancer au 1er septembre — à modifier en loi organique.</span>
+  </div>
+</div>
+
+
+<!-- Art. 47-1 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 47-1</span> <span class="badge badge-c">C</span></div>
+    « Le Parlement vote les projets de loi de financement de la sécurité sociale dans les conditions prévues par une loi organique. […] »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Abrogation par fusion dans la loi de finances unique.
+  </div>
+  <div class="cell cell-c">
+    <em>[Article abrogé — le financement des régimes obligatoires de protection sociale est intégré à l'article 47.]</em>
+  </div>
+</div>
+
+
+<!-- Art. 47-2 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 47-2</span> <span class="badge badge-c">C</span></div>
+    « La Cour des comptes assiste le Parlement dans le contrôle de l'action du Gouvernement. […] Par ses rapports publics, elle contribue à l'information des citoyens.<br>Les comptes des administrations publiques sont réguliers et sincères. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Renforcer le rôle envers les citoyens (art. 15 DDHC). Sincérité ex ante du vote et précaution des prévisions rapatriées de l'art. 47 ; constitutionnalisation du Haut Conseil des finances publiques. Créer un recours du contribuable en légalité des dépenses publiques, habilitation organique pour que la LOLF en fixe les modalités.
+  </div>
+  <div class="cell cell-c">
+    « La Cour des comptes assiste le Parlement <strong>et les citoyens</strong> dans le contrôle de l'action du Gouvernement. Elle assiste le Parlement et le Gouvernement dans le contrôle de l'exécution des lois de finances ainsi que dans l'évaluation des politiques publiques. Par ses rapports publics, elle contribue à l'information des citoyens.<br><br>
+    Les comptes des administrations publiques sont réguliers et sincères. Ils donnent une image fidèle du résultat de leur gestion, de leur patrimoine et de leur situation financière.<br><br>
+    <strong>Le vote de la loi de finances est éclairé par des informations sincères. La sincérité des prévisions repose sur une précaution raisonnable. Le Haut Conseil des finances publiques rend un avis public sur ces prévisions et assiste le Parlement dans leur appréciation.</strong><br><br>
+    <strong>Tout contribuable a qualité pour contester devant la juridiction compétente la légalité d'une dépense publique, dans les conditions fixées par la loi organique.</strong> »<br><br>
+    <span class="note">Al. 1 : « et les citoyens » — traduction de l'art. 15 DDHC au niveau institutionnel. Al. 3 (inséré) : sincérité — relation de fondation cantonnée aux prévisions, « repose sur » remplace l'emboîtement « comprend » de v39 ; la sincérité reste l'attribut général de l'information du vote, la précaution son fondement dans le seul domaine prévisionnel, où l'aléa la justifie. Standard bilatéral « raisonnable » conservé (ni sous-évaluation des ressources ni sur-provision). HCFP constitutionnalisé, parallèle au Conseil d'État sur les projets de loi : avis public, assistance du Parlement dans l'appréciation — sans pouvoir de blocage. Regroupement en un article des deux sincérités, ex ante (vote) et ex post (comptes) : l'item de surveillance 47/47-2 est résolu. Modalités (contenu de l'avis, calendrier, évaluation asymétrique héritée de l'ancienne prudence) en LOLF. Al. 4 (ajout) : recours en légalité — « légalité » et non « régularité des comptes » (vise la dépense comme acte, pas la comptabilité) ; « juridiction compétente » et non « juridiction administrative » (laisse la loi organique trancher selon la nature de la dépense) ; renvoi organique habilite la LOLF à fixer juge, délais et filtres anti-abus, sans pouvoir vider le principe constitutionnel. Fondement : art. 15 DDHC. Court-circuite la jurisprudence restrictive sur l'intérêt à agir du contribuable national. Référence LFSS supprimée par coordination avec l'abrogation de l'art. 47-1. Recours spécifique contre les dépenses inscrites en loi de finances → chantier LOLF.</span>
+  </div>
+</div>
+
+
+
+<!-- Art. 48 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 48</span> <span class="badge badge-c">C</span></div>
+    L'article 48 fixe les règles de l'ordre du jour parlementaire. Aucune disposition ne permet à une assemblée de demander formellement au gouvernement de se prononcer sur un sujet.<br><br>
+    Al. 3 : « En outre, l'examen des projets de loi de finances, <u>des projets de loi de financement de la sécurité sociale</u> et, sous réserve des dispositions de l'alinéa suivant, des textes transmis par l'autre assemblée depuis six semaines au moins, des projets relatifs aux états de crise et des demandes d'autorisation visées à l'article 35 est, à la demande du Gouvernement, inscrit à l'ordre du jour par priorité. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Ajouter le droit pour chaque assemblée de demander au Gouvernement une déclaration sur un sujet déterminé. Retirer au troisième alinéa la mention des projets de loi de financement de la sécurité sociale, par coordination avec l'abrogation de l'article 47-1.
+  </div>
+  <div class="cell cell-c">
+    Al. 3 : « En outre, l'examen des projets de loi de finances et, sous réserve des dispositions de l'alinéa suivant, des textes transmis par l'autre assemblée depuis six semaines au moins, des projets relatifs aux états de crise et des demandes d'autorisation visées à l'article 35 est, à la demande du Gouvernement, inscrit à l'ordre du jour par priorité. »<br><br>
+    Alinéa final ajouté : « <strong>Chaque assemblée peut demander au Gouvernement de faire une déclaration sur un sujet déterminé.</strong> »<br><br>
+    <span class="note">Les alinéas existants sont inchangés. Le 48 porte le droit, le 50-1 porte l'obligation de réponse. Marqueur [optionnel] retiré le 29/07 : le couple 48/50-1 est ferme, décision réversible. Le retrait resterait un retrait en bloc — droit de demander et obligation de répondre forment un ensemble indissociable.</span>
+  </div>
+</div>
+
+
+<!-- Art. 49 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 49</span> <span class="badge badge-c">C</span></div>
+    Al. 3 : « Le Premier ministre peut, après délibération du conseil des ministres, engager la responsabilité du Gouvernement devant l'Assemblée nationale sur le vote d'un projet de loi de finances <u>ou de financement de la sécurité sociale</u>. […] »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Retirer la mention du financement de la sécurité sociale, par coordination avec l'abrogation de l'article 47-1.
+  </div>
+  <div class="cell cell-c">
+    Al. 3 : « Le Premier ministre peut, après délibération du conseil des ministres, engager la responsabilité du Gouvernement devant l'Assemblée nationale sur le vote d'un <strong>projet de loi de finances</strong>. Dans ce cas, ce projet est considéré comme adopté, sauf si une motion de censure, déposée dans les vingt-quatre heures qui suivent, est votée dans les conditions prévues à l'alinéa précédent. Le Premier ministre peut, en outre, recourir à cette procédure pour un autre projet ou une proposition de loi par session. »<br><br>
+    <span class="note">Coordination pure, portée par l'article 4 de la proposition. Les alinéas 1, 2 et 4 sont inchangés. L'engagement de responsabilité sur une loi de finances subsiste, la seule branche sociale disparaissant avec la catégorie.</span>
+  </div>
+</div>
+
+
+<!-- Art. 50-1 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 50-1</span> <span class="badge badge-c">C</span></div>
+    « Devant l'une ou l'autre des assemblées, le Gouvernement peut, de sa propre initiative ou à la demande d'un groupe parlementaire au sens de l'article 51-1, faire, sur un sujet déterminé, une déclaration qui donne lieu à débat et peut, s'il le décide, faire l'objet d'un vote sans engager sa responsabilité. » Introduit en 2008. Sans obligation de réponse ni délai.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Distinguer l'initiative gouvernementale (faculté) de la demande parlementaire (obligation avec délai d'un mois).
+  </div>
+  <div class="cell cell-c">
+    « Le Gouvernement peut faire devant l'une ou l'autre des assemblées une déclaration de sa propre initiative.<br><br>
+    <strong>Il est tenu d'y faire une déclaration dans un délai d'un mois, lors d'une semaine de contrôle ou de questions, à la demande d'une assemblée ou d'un groupe parlementaire au sens de l'article 51-1.</strong><br><br>
+    Dans les deux cas, la déclaration donne lieu à débat et peut faire l'objet d'un vote sans qu'il engage sa responsabilité. »<br><br>
+    <span class="note">Nouvel alinéa 2 (en gras) : obligation gouvernementale avec délai. « Une assemblée » — notion constitutionnelle autonome, sans renvoi au 48. Marqueur [optionnel] retiré le 29/07 : disposition ferme, décision réversible. Un retrait se ferait en bloc avec le droit posé à l'article 48 le cas échéant.</span>
+  </div>
+</div>
+
+
+
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- PARTIE III -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<div class="partie" id="p3">
+  <span class="partie-num">III</span>
+  <h2>Conseil constitutionnel (titre VII)</h2>
+</div>
+
+<div class="col-headers">
+  <span class="ch ch-a">Texte actuel</span>
+  <span class="ch ch-b">Réforme visée</span>
+  <span class="ch ch-c">Rédaction révisée</span>
+</div>
+
+<!-- Art. 56 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 56</span> <span class="badge badge-c">C</span> <span class="badge badge-new">RENFORCÉ</span></div>
+    « Le Conseil constitutionnel comprend neuf membres, dont le mandat dure neuf ans et n'est pas renouvelable. Le Conseil constitutionnel se renouvelle par tiers tous les trois ans. Trois des membres sont nommés par le Président de la République, trois par le président de l'Assemblée nationale, trois par le président du Sénat. <u>La procédure prévue au dernier alinéa de l'article 13 est applicable à ces nominations. Les nominations effectuées par le président de chaque assemblée sont soumises au seul avis de la commission permanente compétente de l'assemblée concernée.</u><br>
+    En sus des neuf membres prévus ci-dessus, font de droit partie à vie du Conseil constitutionnel les anciens Présidents de la République.<br>
+    Le président est nommé par le Président de la République. Il a voix prépondérante en cas de partage. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Supprimer les membres de droit à vie. Les assemblées nomment leurs membres sur proposition de leur président (la plénière nomme). Président du CC confirmé en plénière de chaque assemblée. Membres nommés par le PR confirmés par les commissions des deux assemblées réunies (parallèle art. 13). Voix prépondérante maintenue.
+  </div>
+  <div class="cell cell-c">
+    « Le Conseil constitutionnel comprend neuf membres dont le mandat dure neuf ans et n'est pas renouvelable. Trois membres sont nommés par le Président de la République, <strong>trois par l'Assemblée nationale sur proposition de son président, trois par le Sénat sur proposition de son président</strong>. Le renouvellement a lieu par tiers tous les trois ans.<br><br>
+    <strong>Le président du Conseil constitutionnel est nommé par le Président de la République après confirmation à la majorité absolue des suffrages exprimés de chaque assemblée. Il a voix prépondérante en cas de partage. Les autres membres nommés par le Président de la République sont soumis à l'approbation à la majorité absolue des suffrages exprimés des commissions permanentes compétentes des deux assemblées réunies.</strong> »<br><br>
+    <span class="note">Correction v42 : colonne A recalée sur le verbatim en vigueur — les deux phrases issues de la LC du 23 juillet 2008 (soulignées) étaient absentes ; la réécriture de l'al. 1 les absorbe. Suppression : membres de droit à vie (anciens présidents de la République). Al. 1 : les nominations des assemblées appartiennent aux assemblées elles-mêmes, le président d'assemblée n'étant que le vecteur de la proposition — la plénière nomme. Al. 2 : le président du Conseil est confirmé en séance plénière de chaque assemblée, à raison de son rôle éminent et de sa voix prépondérante. Les autres membres nommés par le Président de la République sont confirmés par les commissions permanentes des deux assemblées réunies, par parallèle avec l'article 13 (approbation positive, majorité absolue des suffrages exprimés). Asymétrie assumée plénière / commissions.</span>
+  </div>
+</div>
+
+
+<!-- Art. 61 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 61</span> <span class="badge badge-c">C</span> <span class="badge badge-new">RENFORCÉ</span></div>
+    Saisine a priori par le PR, PM, présidents des assemblées, 60 députés ou 60 sénateurs. Délai d'un mois, ramené à 8 jours en urgence. Standard de contrôle : « conformité à la Constitution » sans limitation de source.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Maintenir le seuil à 60. Limiter le standard de contrôle aux titres IV et V — fait entrer les articles 34 et 39 comme normes de référence exclusives, ferme la créativité prétorienne.
+  </div>
+  <div class="cell cell-c">
+    <em>[Alinéas 1, 2 et 4 conservés.]</em><br><br>
+    <strong>« Le Conseil constitutionnel contrôle la conformité des lois qui lui sont déférées en application du deuxième alinéa aux dispositions des titres IV et V de la présente Constitution. Dans les cas prévus aux deux premiers alinéas, il statue dans le délai d'un mois, ramené à huit jours en cas d'urgence à la demande du Gouvernement. »</strong><br><br>
+    <span class="note">Troisième alinéa réécrit : standard limité aux titres IV et V (dont art. 34 et 39) et délai réunis dans un même alinéa, en deux phrases. Le standard ne vise que la saisine facultative du deuxième alinéa ; le délai continue de couvrir les deux procédures. Contrôle obligatoire du premier alinéa et suspension du délai de promulgation du quatrième alinéa conservés : les lois organiques mettent en œuvre des articles répartis dans toute la Constitution, qu'aucune autre voie ne permettrait de sanctionner. La DDHC entre via l'article 34 du titre IV, avec le verrou procédural intégré. Aucune source externe invocable.</span>
+  </div>
+</div>
+
+
+<!-- Art. 61-1 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 61-1</span> <span class="badge badge-c">C</span> <span class="badge badge-new">RENFORCÉ</span></div>
+    « Lorsque, à l'occasion d'une instance en cours devant une juridiction, il est soutenu qu'une disposition législative porte atteinte aux droits et libertés que la Constitution garantit, le Conseil constitutionnel peut être saisi de cette question sur renvoi du Conseil d'État ou de la Cour de cassation qui se prononce dans un délai déterminé. Une loi organique détermine les conditions d'application du présent article. » — Introduit en 2008. « Droits et libertés que la Constitution garantit » couvre DDHC, Préambule 1946, PFRLR, OVC, Charte de l'environnement.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Recentrer sur la DDHC seule. Mesurer l'atteinte excessive au seul article 34 (qui pose la garantie et les bornes) : le contrôle est une incompétence négative, non une appréciation autonome de proportionnalité. Le manquement procédural de l'article 39 relève du contrôle a priori et de l'article 62, non de la question prioritaire.
+  </div>
+  <div class="cell cell-c">
+    « Lorsque, à l'occasion d'une instance en cours devant une juridiction, il est soutenu qu'une disposition législative <strong>porte une atteinte excessive aux droits et libertés en ce qu'elle méconnaît l'article 34</strong>, le Conseil constitutionnel peut être saisi de cette question sur renvoi du Conseil d'État ou de la Cour de cassation qui se prononce dans un délai déterminé.<br><br>
+    Une loi organique détermine les conditions d'application du présent article. »<br><br>
+    <span class="note">Alinéa 1 recentré. « porte une atteinte excessive » — la proportionnalité reste le seul déclencheur (sans elle, toute borne légale serait une atteinte), mais le contrôle est cantonné : l'atteinte se mesure au seul article 34, qui pose la garantie des droits et leurs seules bornes nécessaires. Lecture en incompétence négative — le juge constate que le législateur a dépassé les bornes de son office, non qu'il apprécierait lui-même l'opportunité. Mention « proclamés par la Déclaration des droits de l'homme et du citoyen de 1789 » allégée : désignation et millésime portés au chapeau de l'article 34. Article 39 retiré du grief : c'est un manquement procédural (défaut d'évaluation), contrôlé a priori au titre de l'article 61 et réparé par l'injonction de l'article 62, non une atteinte aux droits. Alinéa 2 inchangé.</span>
+  </div>
+</div>
+
+
+<!-- Art. 61-2 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label art-label-new">Art. 61-2</span> <span class="badge badge-new">NOUVEAU</span></div>
+    Aucun article 61-2 existant. La réserve d'identité constitutionnelle est aujourd'hui prétorienne (CC n° 2006-540 DC ; rappel du 15 octobre 2021). Le juge ordinaire écarte lui-même la disposition nationale jugée contraire au droit de l'Union (jurisprudence Simmenthal ; CJUE, 26 septembre 2024, Energotehnica, C-792/22), sans filtre ni voie de réexamen politique.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Concentrer au Conseil constitutionnel le contrôle de compatibilité d'une loi avec une norme européenne, aujourd'hui exercé de façon diffuse par chaque juge. Le juge sursoit au lieu d'écarter. Le Parlement seul confirme, modifie ou abroge ; son silence suspend les dispositions en cause.
+  </div>
+  <div class="cell cell-c">
+    « <strong>Lorsque, à l'occasion d'une instance, une juridiction estime qu'une disposition législative est inconciliable avec une norme issue d'un engagement européen, elle sursoit à statuer et saisit le Conseil constitutionnel. Le Conseil se prononce dans un délai d'un mois.</strong><br><br>
+    <strong>S'il constate l'inconciliabilité, il identifie les dispositions en cause et enjoint au Parlement de les confirmer, de les modifier ou de les abroger dans le délai qu'il fixe. Ces dispositions demeurent applicables pendant ce délai. À défaut de décision du Parlement dans le délai imparti, leur application est suspendue.</strong> »<br><br>
+    <span class="note">Article nouveau. Le sursis-saisine retire au juge du fond le pouvoir d'éviction diffus et le concentre au Conseil constitutionnel. L'injonction à délai avec suspension par défaut est calquée sur l'article 62 révisé : le silence du Parlement n'emporte ni abandon ni maintien inconditionnel, mais suspension. Suspension et non abrogation — l'inconciliabilité avec une norme externe peut être temporaire, à la différence du vice interne définitif de l'article 62 (asymétrie délibérée). Trois branches offertes au Parlement, du plus souverain au plus soumis : confirmer (assumer la loi), modifier (adapter), abroger (céder). Aucun renvoi organique : obligation procédurale directe, sur le modèle de l'article 40. <em>Amorce minimale : le fondement matériel de la limite (principe d'identité constitutionnelle, compétences exercées en commun et révocables) reste à poser au Titre XV (art. 88-1 et suivants), non ouvert. Majorité de confirmation non fixée : à défaut de mention, droit commun (majorité simple).</em></span>
+  </div>
+</div>
+
+
+<!-- Art. 62 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 62</span> <span class="badge badge-c">C</span> <span class="badge badge-new">RENFORCÉ</span></div>
+    « Une disposition déclarée inconstitutionnelle sur le fondement de l'article 61 ne peut être promulguée ni mise en application. Une disposition déclarée inconstitutionnelle sur le fondement de l'article 61-1 est abrogée à compter de la publication de la décision ou d'une date ultérieure fixée par cette décision. Les décisions du Conseil constitutionnel ne sont susceptibles d'aucun recours. Elles s'imposent aux pouvoirs publics et à toutes les autorités administratives et juridictionnelles. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Faire de l'injonction de remédier la réponse aux défauts accessoires, qu'il s'agisse d'une méconnaissance de fond ou d'un manquement procédural. Abrogation réservée aux défauts qui remettent en cause le principe de la disposition. Critère factuel, conséquence liée. Le Conseil enjoint, ne réécrit pas.
+  </div>
+  <div class="cell cell-c">
+    <em>[Alinéas 1, 2 et 3 conservés — la seconde phrase du deuxième alinéa, relative aux conditions et limites de la remise en cause des effets produits, est maintenue.]</em><br><br>
+    <strong>Lorsque la méconnaissance ou le manquement tient à un défaut accessoire, le Conseil constitutionnel enjoint au Parlement de remédier au défaut constaté dans un délai qu'il fixe. À défaut, la disposition est abrogée de plein droit. Dans les autres cas, il prononce l'abrogation.</strong><br><br>
+    <span class="note">Un alinéa inséré après le deuxième alinéa. « Méconnaissance ou manquement » : la méconnaissance vise le défaut de fond (atteinte aux droits, art. 34) ; le manquement vise le défaut procédural (évaluation de l'article 39 non faite ou insuffisante, délais et requis d'examen non respectés). Un seul régime réparateur pour les deux, deux registres nommés sans doublon. « remédier au défaut constaté » : terme générique couvrant précision, complément d'évaluation et reprise d'une étape de procédure, mais borné par « constaté » — le Conseil renvoie au seul défaut qu'il a identifié, sans choisir l'ampleur du remède ni se substituer au Parlement (injonction non rédactrice). Le seul pouvoir d'appréciation du Conseil porte sur la qualification du défaut : accessoire (injonction) ou affectant le principe (abrogation). Critère factuel : la correction remet-elle en cause le principe de la disposition ? Cette latitude est auto-correctrice dans le sens des libertés — juger un défaut substantiel, c'est défendre une liberté et renvoyer le Parlement à une nouvelle délibération. Point-virgule supprimé. Alinéas 1 et 3 inchangés.</span>
+  </div>
+</div>
+
+
+
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- PARTIE IV -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<div class="partie" id="p4">
+  <span class="partie-num">IV</span>
+  <h2>Justice et responsabilité pénale (titres VIII–X)</h2>
+</div>
+
+<div class="col-headers">
+  <span class="ch ch-a">Texte actuel</span>
+  <span class="ch ch-b">Réforme visée</span>
+  <span class="ch ch-c">Rédaction révisée</span>
+</div>
+
+<!-- Art. 64 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 64 (titre VIII)</span> <span class="badge badge-c">C</span></div>
+    « Le Président de la République est garant de l'indépendance de l'autorité judiciaire. Il est assisté par le Conseil supérieur de la magistrature. Une loi organique porte statut des magistrats. Les magistrats du siège sont inamovibles. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Effectivité des voies de recours. Droit au jury et à l'appel au fond en matière pénale. Mandat des magistrats, inamovibilité durant celui-ci, redevabilité devant les citoyens.
+  </div>
+  <div class="cell cell-c">
+    « Le Président de la République est garant de l'indépendance de l'autorité judiciaire.<br><br>
+    Il est assisté par le Conseil supérieur de la magistrature.<br><br>
+    <strong>La loi organique organise la procédure judiciaire et les voies de recours de manière à assurer l'effectivité des jugements. Elle garantit en matière pénale le droit de former un appel au fond et d'être jugé par un jury de citoyens.</strong><br><br>
+    <strong>Les magistrats rendent compte de l'exercice de leur mandat devant les citoyens et sont inamovibles durant celui-ci dans les conditions fixées par la loi organique.</strong> »<br><br>
+    <span class="note">Al. 1 et 2 inchangés. Al. 3 (statut LO + inamovibilité siège) remplacé par deux nouveaux alinéas (en gras) : droits du justiciable pénal ; mandat et inamovibilité des magistrats.</span>
+  </div>
+</div>
+
+
+<!-- Art. 65 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 65 (titre VIII)</span> <span class="badge badge-c">C</span></div>
+    CSM : deux formations (siège et parquet), présidées par le premier président de la Cour de cassation et le procureur général. Composition détaillée : 5 magistrats + 1 du parquet/siège + 1 CE + 1 avocat + 6 personnalités qualifiées désignées par PR/AN/Sénat. Pouvoirs de nomination (avis conforme pour le siège, avis simple pour le parquet) et de discipline.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>CSM épuré dans l'esprit de 1958. 9 membres par formation, 5/9 canaux démocratiques. Présidents nommés par PR + art. 13. Siège : Parlement majoritaire. Parquet : GdS majoritaire. Proposition pour tous les postes, avis conforme externe pour les emplois supérieurs. Balai LO.
+  </div>
+  <div class="cell cell-c">
+    « Le Conseil supérieur de la magistrature comprend une formation compétente à l'égard des magistrats du siège et une formation compétente à l'égard des magistrats du parquet, chacune composée de neuf membres.<br><br>
+    La formation compétente à l'égard des magistrats du siège est présidée par le premier président de la Cour de cassation, nommé par le Président de la République dans les conditions prévues au dernier alinéa de l'article 13, pour un mandat non renouvelable. Elle comprend, en outre, deux magistrats du siège et un magistrat du parquet élus par leurs pairs, deux magistrats du siège désignés respectivement par l'Assemblée nationale et le Sénat, un magistrat du parquet désigné par le ministre de la justice, ainsi que deux personnalités qualifiées désignées respectivement par l'Assemblée nationale et le Sénat.<br><br>
+    La formation compétente à l'égard des magistrats du parquet est présidée par le procureur général près la Cour de cassation, nommé par le Président de la République dans les conditions prévues au dernier alinéa de l'article 13, pour un mandat non renouvelable. Elle comprend, en outre, deux magistrats du parquet et un magistrat du siège élus par leurs pairs, deux magistrats du parquet et un magistrat du siège désignés par le ministre de la justice, ainsi que deux personnalités qualifiées désignées respectivement par l'Assemblée nationale et le Sénat.<br><br>
+    La formation compétente à l'égard des magistrats du siège propose les nominations aux emplois supérieurs de l'ordre judiciaire, lesquelles interviennent après <strong>approbation à la majorité absolue des suffrages exprimés des commissions permanentes compétentes des deux assemblées réunies</strong>. Les autres magistrats du siège sont nommés sur proposition de cette formation.<br><br>
+    La formation compétente à l'égard des magistrats du parquet propose les nominations aux emplois supérieurs du ministère public, lesquelles interviennent après <strong>avis conforme du ministre de la justice</strong>. Les autres magistrats du parquet sont nommés sur proposition de cette formation.<br><br>
+    Chaque formation statue comme conseil de discipline des magistrats qui la concernent.<br><br>
+    Le Conseil supérieur de la magistrature se réunit en formation plénière dans les conditions fixées par la loi organique.<br><br>
+    Le Conseil supérieur de la magistrature peut être saisi par un justiciable dans les conditions fixées par une loi organique.<br><br>
+    Une loi organique détermine les conditions d'application du présent article. »<br><br>
+    <span class="note">Al. 1 : neuf membres par formation. Al. 2-3 : composition détaillée, présidents nommés PR + art. 13 mandat non renouvelable, membres désignés par l'AN/Sénat (non par leurs présidents). Al. 4 : emplois supérieurs siège — approbation commissions des deux assemblées réunies. Al. 5 : emplois supérieurs parquet — avis conforme GdS (changement majeur : avis simple → conforme). Al. 6 : discipline fusionnée. Al. 7 : formation plénière. Al. 8 : saisine par un justiciable, conservée sans changement. Al. 9 : balai LO. Correction v42 : l'alinéa de saisine par un justiciable, perdu par l'énumération, est rétabli. Suppression : participation du ministre aux séances, personnalités qualifiées présidentielles.</span>
+  </div>
+</div>
+
+
+<!-- Art. 68-1 à 68-3 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 68-1 à 68-3 (titre X)</span> <span class="badge badge-c">C</span></div>
+    Les articles 68-1 à 68-3 instituent la Cour de justice de la République (12 parlementaires + 3 magistrats de la Cour de cassation), compétente pour juger les membres du Gouvernement pour les actes accomplis dans l'exercice de leurs fonctions. Créée par la révision du 27 juillet 1993 en remplacement de la Haute Cour de justice, dans le contexte de l'affaire du sang contaminé.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Abrogation du titre X. La réforme de la magistrature ordinaire (art. 64-65) rend sans objet le privilège de juridiction : la cohérence du dispositif commande la suppression de cette juridiction d'exception. Les membres du Gouvernement sont justiciables du droit commun pour les actes commis dans l'exercice de leurs fonctions.
+  </div>
+  <div class="cell cell-c">
+    <em>[Titre X abrogé dans son intégralité.]</em><br><br>
+    <span class="note">L'abrogation seule suffit : la suppression de la dérogation rétablit le droit commun par défaut. Les modalités procédurales (compétence territoriale, règles de saisine) relèvent de la loi ordinaire.</span>
+  </div>
+</div>
+
+
+
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- PARTIE V -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+<div class="partie" id="p5">
+  <span class="partie-num">V</span>
+  <h2>Instances consultatives et collectivités territoriales (titres XI–XI bis–XII)</h2>
+</div>
+
+<div class="col-headers">
+  <span class="ch ch-a">Texte actuel</span>
+  <span class="ch ch-b">Réforme visée</span>
+  <span class="ch ch-c">Rédaction révisée</span>
+</div>
+
+<!-- Art. 69-71 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 69–71 (titre XI)</span> <span class="badge badge-c">C</span> <span class="badge badge-l">L</span></div>
+    Les articles 69 à 71 instituent le Conseil économique, social et environnemental (233 membres). Plusieurs fois modifiés pour étendre sa composition et ses compétences, en dernier lieu en 2021.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Fin du CESE et autres comités. Abroger le tout.
+  </div>
+  <div class="cell cell-c">
+    <em>[Titre XI abrogé dans son intégralité.]</em><br><br>
+    <span class="note">Les instances consultatives de rang législatif ou réglementaire sont supprimées par voie de loi ordinaire ou de décret.</span>
+  </div>
+</div>
+
+
+<!-- Art. 71-1 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 71-1 (titre XI bis)</span> <span class="badge badge-c">C</span></div>
+    Le titre XI bis (article 71-1), introduit en 2008, institue le Défenseur des droits, nommé par le Président de la République pour six ans non renouvelables.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Abroger le titre XI bis.
+  </div>
+  <div class="cell cell-c">
+    <em>[Titre XI bis abrogé.]</em>
+  </div>
+</div>
+
+
+<!-- Art. 72 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 72 (titre XII)</span> <span class="badge badge-c">C</span></div>
+    Al. 1 : « Les collectivités territoriales de la République sont les communes, <u>les départements, les régions, les collectivités à statut particulier et les collectivités d'outre-mer</u> régies par l'article 74. Toute autre collectivité territoriale est créée par la loi […] »<br>
+    Al. 2 : « Les collectivités territoriales ont vocation à prendre les décisions pour l'ensemble des compétences qui peuvent le mieux être mises en œuvre à leur échelon. »<br>
+    Al. 3 : « Dans les conditions prévues par la loi, ces collectivités s'administrent librement par des conseils élus et disposent d'un pouvoir réglementaire pour l'exercice de leurs compétences. »<br>
+    Al. 4 : expérimentation et dérogation locale (loi organique).<br>
+    Al. 5 : interdiction de tutelle entre collectivités ; groupements pour action commune.<br>
+    Al. 6 : « Dans les collectivités territoriales de la République, le représentant de l'État, représentant de chacun des membres du Gouvernement, a la charge des intérêts nationaux, du contrôle administratif et du respect des lois. »
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Communes et collectivités d'outre-mer (art. 74) = seules collectivités territoriales. Suppression départements, régions, EPCI — disposition transitoire hors art. 72. Al. 2 inchangé. Al. 3 : suppression « dans les conditions prévues par la loi » (balai LO couvre). Al. 4 : supprimé (expérimentation incompatible avec compétences d'attribution). Al. 5 : réécrit — fusion libre + association sans personnalité politique ni fiscalité propre. Al. 6 : précision organique supprimée, tutelle temporaire ajoutée. Balai LO en alinéa final. Fonctions exécutives locales : couvertes par la règle de l’article 3, modalités en loi (art. 34), sans disposition au présent article.
+  </div>
+  <div class="cell cell-c">
+    Al. 1 : « Les collectivités territoriales de la République sont les communes et les collectivités d'outre-mer régies par l'article 74. »<br><br>
+    Al. 2 : <em>[inchangé]</em> « Les collectivités territoriales ont vocation à prendre les décisions pour l'ensemble des compétences qui peuvent le mieux être mises en œuvre à leur échelon. »<br><br>
+    Al. 3 : « Les collectivités territoriales s'administrent librement par des conseils élus et disposent d'un pouvoir réglementaire pour l'exercice de leurs compétences. »<br><br>
+    Al. 4 : <strong>« Les collectivités territoriales peuvent librement fusionner. Elles peuvent également s'associer pour l'exercice de compétences déterminées, sans personnalité politique ni fiscalité propre. »</strong><br><br>
+    Al. 5 : <em>[inchangé]</em> « Aucune collectivité territoriale ne peut exercer une tutelle sur une autre. »<br><br>
+    Al. 6 : « Dans les collectivités territoriales de la République, le représentant de l'État a la charge des intérêts nationaux, du contrôle administratif et du respect des lois. <strong>En cas de défaillance d'une collectivité territoriale, il exerce une tutelle temporaire.</strong> »<br><br>
+    Al. 7 : <strong>« Une loi organique fixe les conditions d'application du présent article. »</strong><br><br>
+    <span class="note">Suppression et transfert des échelons intermédiaires (départements, régions, EPCI) en disposition transitoire. Art. 72-1 : al. 1-2 inchangés, al. 3 supprimé. Art. 72-2 : réécrit. Art. 72-3 et 72-4 : réservés au chantier outre-mer. Non-renouvelabilité des fonctions exécutives locales : portée directement par l’article 3 (« fonction exécutive élective », EPCI compris — ceux-ci n’étant pas des collectivités territoriales, le présent article n’aurait pas suffi) ; modalités (assimilations, entrée en vigueur) en loi ordinaire au titre du régime électoral (art. 34) : aucun vide normatif, donc aucune disposition ici (amendement minimal).</span>
+  </div>
+</div>
+
+
+<!-- Art. 72-1 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 72-1</span> <span class="badge badge-c">C</span></div>
+    Al. 1 : droit de pétition des électeurs devant le conseil de toute collectivité territoriale. Al. 2 : référendum local décisionnel sur les décisions relevant de la compétence de la collectivité. Al. 3 : consentement des électeurs requis pour tout projet de création ou de modification de l'organisation d'une collectivité à statut particulier.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Al. 1 et 2 inchangés — démocratie directe communale compatible avec la doctrine. Al. 3 supprimé : sans objet (on ne crée plus de collectivités à statut particulier ; la fusion est régie par art. 72 al. 4).
+  </div>
+  <div class="cell cell-c">
+    Al. 1 et 2 : <em>[inchangés]</em><br><br>
+    Al. 3 : <em>[supprimé]</em>
+  </div>
+</div>
+
+
+<!-- Art. 72-2 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 72-2</span> <span class="badge badge-c">C</span></div>
+    Al. 1 : libre disposition des ressources dans les conditions fixées par la loi. Al. 2 : fiscalité propre — taux et assiette dans les limites de la loi. Al. 3 : part déterminante des ressources propres (LO). Al. 4 : tout transfert de compétences s'accompagne de ressources équivalentes. Al. 5 : la loi prévoit des dispositifs de péréquation.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Al. 1-2-3 fusionnés et réorganisés : ressources fiscales propres avec pouvoir de taux et d'assiette, péréquation facultative en subordonnée. Al. 4 supprimé : rejoint la disposition transitoire sur le transfert des échelons. Al. 5 absorbé dans al. 1 révisé. Ajout : libre disposition dans les limites LO en matière d'équilibre budgétaire et d'endettement.
+  </div>
+  <div class="cell cell-c">
+    Al. 1 : <strong>« Les collectivités territoriales disposent de ressources fiscales propres dont elles fixent le taux et l'assiette dans les limites définies par la loi, qui peut organiser une péréquation entre elles. »</strong><br><br>
+    Al. 2 : <strong>« Elles en disposent librement dans les limites fixées par la loi organique en matière d'équilibre budgétaire et d'endettement. »</strong><br><br>
+    <span class="note">Al. 3 (« part déterminante ») supprimé — notion vidée par la jurisprudence CC, remplacée par la formulation directe de fiscalité propre. Al. 4 (compensation transferts) en disposition transitoire. Al. 5 (péréquation) absorbé en subordonnée de al. 1.</span>
+  </div>
+</div>
+
+
+<!-- Art. 72-3 et 72-4 -->
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 72-3 et 72-4</span> <span class="badge badge-c">C</span></div>
+    72-3 : égalité et solidarité entre collectivités, renvois outre-mer. 72-4 : changement de statut des collectivités d'outre-mer par consentement des électeurs.
+  </div>
+  <div class="cell cell-b">
+    <span class="ref-arrow">↳</span>Réservés au chantier outre-mer (art. 73–75-1).
+  </div>
+  <div class="cell cell-c">
+    <em>[Traitement réservé au chantier outre-mer.]</em>
+  </div>
+</div>
+
+
+
+
+
+
+</main>
+
+<footer>
+  Version 16 septembre 2026 — v46 · LOLF : LOLF_3col_20260507_v7.html · À vérifier sur Légifrance
+</footer>
+
+</body>
+</html>

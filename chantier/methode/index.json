@@ -1,0 +1,5444 @@
+{
+ "_revision": {
+  "version": "index v1",
+  "date": "20260821",
+  "regle": "Un nom canonique par artefact, aucun horodatage. L'historique vit dans git, pas dans le nom."
+ },
+ "artefacts": [
+  {
+   "role": "manuscrit",
+   "chemin": "manuscrit/manuscrit.html",
+   "rang": "strate1",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "extraire_notes.py",
+    "relevé d’épreuve — troisième terme",
+    "toute skill qui cite un verbatim de la doctrine"
+   ],
+   "alias": [
+    "Manuscrit_20260820_v4.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "manuscrit/manuscrit.html",
+   "famille": "doctrine"
+  },
+  {
+   "role": "livre",
+   "chemin": "livre/texte_livre.json",
+   "rang": "strate1",
+   "coffre": true,
+   "produit_par": "appareil/texte_livre.py",
+   "consomme_par": [
+    "toute skill qui cite un verbatim du livre",
+    "audit-conformite",
+    "controle_chiffres.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livre/texte_livre.json",
+   "famille": "doctrine"
+  },
+  {
+   "role": "ref_doctrine",
+   "chemin": "referentiels/REF_doctrine.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "construire_positions.py",
+    "exporter_donnees.py",
+    "generer_extrait.py",
+    "generer_inventaire.py",
+    "generer_arbre.py",
+    "controle_structurel.py",
+    "controle_arithmetique.py",
+    "controle_notes.py",
+    "fiche-mesure",
+    "compatibilite-doctrine",
+    "contestabilite",
+    "qa-riposte",
+    "audit-conformite"
+   ],
+   "alias": [
+    "REF_doctrine_20260820_v20.json",
+    "REF_doctrine_20260820_v19.json"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/REF_doctrine.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "positions",
+   "chemin": "referentiels/positions.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/construire_positions.py",
+   "consomme_par": [
+    "exporter_donnees.py",
+    "generer_extrait.py",
+    "generer_inventaire.py",
+    "controle_notes.py",
+    "fiche-mesure",
+    "compatibilite-doctrine",
+    "contestabilite",
+    "qa-riposte",
+    "audit-conformite"
+   ],
+   "alias": [
+    "Positions_20260820_v16.json"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/positions.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "ref_chiffres",
+   "chemin": "referentiels/REF_chiffres.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/generer_ref_chiffres.py",
+   "consomme_par": [
+    "controle_chiffres.py",
+    "audit-conformite",
+    "fiche-mesure",
+    "qa-riposte",
+    "contestabilite",
+    "compatibilite-doctrine",
+    "tout livrable chiffré"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/REF_chiffres.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "notes_manuscrit",
+   "chemin": "referentiels/notes_manuscrit.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": "appareil/extraire_notes.py",
+   "consomme_par": [
+    "exporter_donnees.py",
+    "generer_extrait.py",
+    "generer_inventaire.py",
+    "controle_notes.py",
+    "generer_releve_notes.py",
+    "fiche-mesure",
+    "compatibilite-doctrine",
+    "qa-riposte",
+    "audit-conformite"
+   ],
+   "alias": [
+    "Notes_manuscrit_20260820_v1.json"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/notes_manuscrit.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "construire_positions",
+   "chemin": "appareil/construire_positions.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [
+    "construire_positions_20260820_v16.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/construire_positions.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "justifications",
+   "chemin": "appareil/justifications.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "construire_positions.py"
+   ],
+   "alias": [
+    "justifications_20260820_v6.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/justifications.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "apports",
+   "chemin": "appareil/apports.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "construire_positions.py"
+   ],
+   "alias": [
+    "apports_20260820_v1.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/apports.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "exporter_donnees",
+   "chemin": "appareil/exporter_donnees.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [
+    "exporter_donnees_20260820_v1.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/exporter_donnees.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_extrait",
+   "chemin": "appareil/generer_extrait.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [
+    "generer_extrait_20260820_v9.py",
+    "generer_extrait_20260820_v8.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_extrait.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_interface",
+   "chemin": "appareil/generer_interface.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [
+    "generer_interface_20260820_v8.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_interface.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_inventaire",
+   "chemin": "appareil/generer_inventaire.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [
+    "generer_inventaire_20260820_v6.py",
+    "generer_inventaire_20260820_v5.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_inventaire.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "manifeste_corrections",
+   "chemin": "appareil/manifeste.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "generer_site.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/manifeste.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "generer_site",
+   "chemin": "appareil/generer_site.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_site.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_arbre",
+   "chemin": "appareil/generer_arbre.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [
+    "generer_arbre_20260820_v2.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_arbre.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_releve_notes",
+   "chemin": "appareil/generer_releve_notes.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_releve_notes.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_ref_chiffres",
+   "chemin": "appareil/generer_ref_chiffres.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_ref_chiffres.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "relever_protos",
+   "chemin": "appareil/relever_protos.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/relever_protos.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "socle_budgetaire",
+   "chemin": "appareil/socle_budgetaire.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/socle_budgetaire.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_socle",
+   "chemin": "appareil/controle_socle.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_socle.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "apparier_operateurs",
+   "chemin": "appareil/apparier_operateurs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/apparier_operateurs.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "reconcilier_operateurs",
+   "chemin": "appareil/reconcilier_operateurs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/reconcilier_operateurs.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "tracer_economies",
+   "chemin": "appareil/tracer_economies.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "make controle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/tracer_economies.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "epreuve_s17_salaire",
+   "chemin": "appareil/epreuve_s17_salaire.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "controle_socle.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/epreuve_s17_salaire.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "nomenclature_lolf",
+   "chemin": "appareil/nomenclature_lolf.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "socle_budgetaire.py",
+    "make controle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/nomenclature_lolf.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_classeur_synthese",
+   "chemin": "appareil/generer_classeur_synthese.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_classeur_synthese.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "hypotheses_doctrine",
+   "chemin": "appareil/hypotheses_doctrine.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "controle_hypotheses.py",
+    "fiche-mesure",
+    "audit-conformite",
+    "contestabilite",
+    "compatibilite-doctrine"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/hypotheses_doctrine.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_hypotheses",
+   "chemin": "appareil/controle_hypotheses.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_hypotheses.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "sources_chiffres",
+   "chemin": "appareil/sources_chiffres.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "generer_ref_chiffres.py",
+    "controle_chiffres.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/sources_chiffres.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "controle_chiffres",
+   "chemin": "appareil/controle_chiffres.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_chiffres.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_apports",
+   "chemin": "appareil/controle_apports.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_apports.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_fiches",
+   "chemin": "appareil/generer_fiches.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "galerie des fiches"
+   ],
+   "alias": [
+    "proto_fiches.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_fiches.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "carte_attribution_py",
+   "chemin": "appareil/carte_attribution.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "structuration des fiches"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/carte_attribution.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "structure_fiches",
+   "chemin": "appareil/structure_fiches.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "generer_fiches.py",
+    "carte_attribution.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/structure_fiches.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "portes_domaine",
+   "chemin": "appareil/portes_domaine.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "pack public"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/portes_domaine.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "ventilation_vehicule",
+   "chemin": "appareil/ventilation_vehicule.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/ventilation_vehicule.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "leviers_collocs",
+   "chemin": "appareil/leviers_collocs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/leviers_collocs.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "chantier_vecteurs",
+   "chemin": "appareil/chantier_vecteurs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "REF_norme"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/chantier_vecteurs.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "vecteurs",
+   "chemin": "appareil/vecteurs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ref_norme.py",
+    "controle_norme.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/vecteurs.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "ref_norme_gen",
+   "chemin": "appareil/ref_norme.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/ref_norme.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_norme",
+   "chemin": "appareil/controle_norme.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_norme.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_etat_vecteurs",
+   "chemin": "appareil/generer_etat_vecteurs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_etat_vecteurs.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "scinder_liasses",
+   "chemin": "appareil/scinder_liasses.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "éval des liasses GL"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/scinder_liasses.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "cles_eval_gl",
+   "chemin": "appareil/cles_eval_gl.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "noter_eval_gl.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/cles_eval_gl.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "noter_eval_gl",
+   "chemin": "appareil/noter_eval_gl.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "éval des liasses GL"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/noter_eval_gl.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_cles_gl",
+   "chemin": "appareil/controle_cles_gl.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle",
+    "banc des liasses déposées"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_cles_gl.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "cles_eval_expose",
+   "chemin": "appareil/cles_eval_expose.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "noter_eval_expose.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/cles_eval_expose.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "noter_eval_expose",
+   "chemin": "appareil/noter_eval_expose.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "éval inverse d'expose-sommaire"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/noter_eval_expose.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "axe_transparence",
+   "chemin": "appareil/axe_transparence.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/axe_transparence.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "porter_bloc",
+   "chemin": "appareil/porter_bloc.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "emploi manuel"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/porter_bloc.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_index",
+   "chemin": "appareil/generer_index.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_index.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "generer_carte",
+   "chemin": "appareil/generer_carte.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_carte.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "coffre",
+   "chemin": "appareil/coffre.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make coffre",
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/coffre.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "extraire_notes",
+   "chemin": "appareil/extraire_notes.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [
+    "extraire_notes_20260820_v1.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/extraire_notes.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "canoniser_ref",
+   "chemin": "appareil/canoniser_ref.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "emploi manuel"
+   ],
+   "alias": [
+    "canoniser_ref.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/canoniser_ref.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_structurel",
+   "chemin": "appareil/controle_structurel.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [
+    "controle_structurel.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_structurel.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_arithmetique",
+   "chemin": "appareil/controle_arithmetique.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle",
+    "generer_arbre.py"
+   ],
+   "alias": [
+    "controle_arithmetique.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_arithmetique.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_notes",
+   "chemin": "appareil/controle_notes.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [
+    "controle_notes_20260820_v2.py",
+    "controle_notes_20260820_v1.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_notes.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_sortie",
+   "chemin": "appareil/controle_sortie.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fiche-mesure",
+    "qa-riposte",
+    "contestabilite",
+    "compatibilite-doctrine",
+    "audit-conformite"
+   ],
+   "alias": [
+    "controle_sortie.py"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_sortie.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_generateurs",
+   "chemin": "appareil/controle_generateurs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make generateurs",
+    "clôture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_generateurs.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_index",
+   "chemin": "appareil/controle_index.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle",
+    "make index"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_index.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "empreintes_gen",
+   "chemin": "appareil/empreintes.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make coffre"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/empreintes.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "restaurer",
+   "chemin": "appareil/restaurer.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/restaurer.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_restauration",
+   "chemin": "appareil/controle_restauration.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make restauration",
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_restauration.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_generalisation",
+   "chemin": "appareil/controle_generalisation.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle",
+    "make G"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_generalisation.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "socle_plf_texte",
+   "chemin": "appareil/socle_plf_texte.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "socle du texte déposé"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/socle_plf_texte.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "plages_articles_gen",
+   "chemin": "appareil/plages_articles.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "préparation des amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/plages_articles.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "lecture_en_creux_gen",
+   "chemin": "appareil/lecture_en_creux.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "lecture en creux"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/lecture_en_creux.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "portes_domaine_lfss_gen",
+   "chemin": "appareil/portes_domaine_lfss.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "test de rattachement",
+    "pack public"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/portes_domaine_lfss.py",
+   "famille": "grilles"
+  },
+  {
+   "role": "etat_machine",
+   "chemin": "appareil/etat_machine.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/etat_machine.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "articles_ouverts_plf_gen",
+   "chemin": "appareil/articles_ouverts_plf.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "REF_norme",
+    "vecteur-mesure"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/articles_ouverts_plf.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "redaction_deposee_gen",
+   "chemin": "appareil/redaction_deposee.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "versement du socle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/redaction_deposee.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "partage_calibrage",
+   "chemin": "appareil/partage_calibrage.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "banc d'épreuve",
+    "disposition-cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/partage_calibrage.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "reappliquer",
+   "chemin": "appareil/reappliquer.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "disposition-cible",
+    "banc d'épreuve"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/reappliquer.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "cas_disposition",
+   "chemin": "appareil/cas_disposition.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "reappliquer.py",
+    "disposition-cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/cas_disposition.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "echantillon_epreuve",
+   "chemin": "appareil/echantillon_epreuve.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "éval de la rédaction cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/echantillon_epreuve.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "relever_ecarts_epreuve",
+   "chemin": "appareil/relever_ecarts_epreuve.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "rendre_releve_epreuve.py",
+    "relecture comparée des épreuves"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/relever_ecarts_epreuve.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "rendre_releve_epreuve",
+   "chemin": "appareil/rendre_releve_epreuve.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "relecture comparée des épreuves",
+    "bon à tirer"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/rendre_releve_epreuve.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "texte_livre",
+   "chemin": "appareil/texte_livre.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "strate 1 du verbatim citable"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/texte_livre.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "blocs_disposition",
+   "chemin": "appareil/blocs_disposition.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "preparer_eval_disposition.py",
+    "éval de la rédaction cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/blocs_disposition.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "preparer_eval_disposition",
+   "chemin": "appareil/preparer_eval_disposition.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "éval de la rédaction cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/preparer_eval_disposition.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_enonces",
+   "chemin": "appareil/controle_enonces.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "éval de la rédaction cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_enonces.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "noter_eval_disposition",
+   "chemin": "appareil/noter_eval_disposition.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "éval de la rédaction cible",
+    "banc d'épreuve"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/noter_eval_disposition.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_lexique",
+   "chemin": "appareil/controle_lexique.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle",
+    "tout livrable diffusable"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_lexique.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "eval_disposition_enonces",
+   "chemin": "livrables/eval_disposition/enonces.json",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "rejeu de l'éval de la rédaction cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/eval_disposition/enonces.json",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "eval_disposition_releve",
+   "chemin": "livrables/eval_disposition/releve.json",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/noter_eval_disposition.py",
+   "consomme_par": [
+    "rejeu de l'éval de la rédaction cible",
+    "correction de E4"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/eval_disposition/releve.json",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "eval_disposition_notation",
+   "chemin": "livrables/eval_disposition/notation.json",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/noter_eval_disposition.py",
+   "consomme_par": [
+    "banc d'épreuve",
+    "correction de E4"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/eval_disposition/notation.json",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "carte_attribution",
+   "chemin": "livrables/carte_attribution.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/carte_attribution.py",
+   "consomme_par": [
+    "arbitrage de l’auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/carte_attribution.html",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "galerie_fiches",
+   "chemin": "livrables/galerie_fiches.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_fiches.py",
+   "consomme_par": [
+    "diffusion",
+    "site"
+   ],
+   "alias": [
+    "proto_fiche.html",
+    "proto_fiche_A.html",
+    "proto_fiche_B.html",
+    "proto_fiche_C.html"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/galerie_fiches.html",
+   "famille": "graphique"
+  },
+  {
+   "role": "extrait",
+   "chemin": "livrables/extrait_gagnants_perdants.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_extrait.py",
+   "consomme_par": [
+    "diffusion"
+   ],
+   "alias": [
+    "Extrait_gagnants_perdants_20260820_v11.html",
+    "Extrait_gagnants_perdants_20260820_v10.html"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/extrait_gagnants_perdants.html",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "interface",
+   "chemin": "livrables/interface_positions.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_interface.py",
+   "consomme_par": [
+    "travail interne"
+   ],
+   "alias": [
+    "Interface_positions_20260820_v10.html",
+    "Interface_positions_20260820_v9.html"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/interface_positions.html",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "inventaire",
+   "chemin": "livrables/inventaire_gagnants_perdants.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_inventaire.py",
+   "consomme_par": [
+    "travail interne"
+   ],
+   "alias": [
+    "Inventaire_gagnants_perdants_20260820_v10.html",
+    "Inventaire_gagnants_perdants_20260820_v9.html"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/inventaire_gagnants_perdants.html",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "arbre_ref",
+   "chemin": "livrables/ref_doctrine_arbre.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_arbre.py",
+   "consomme_par": [
+    "lecture interne du référentiel"
+   ],
+   "alias": [
+    "REF_doctrine_arbre_20260820_v7.html"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/ref_doctrine_arbre.html",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "releve_notes",
+   "chemin": "livrables/notes_manuscrit_releve.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_releve_notes.py",
+   "consomme_par": [
+    "lecture interne des notes"
+   ],
+   "alias": [
+    "Notes_manuscrit_releve_20260820_v1.txt"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/notes_manuscrit_releve.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "socle_bud",
+   "chemin": "referentiels/socle_budgetaire.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/socle_budgetaire.py",
+   "consomme_par": [
+    "controle_socle.py",
+    "tout chiffrage budgétaire"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/socle_budgetaire.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "grille_budgetaire",
+   "chemin": "methode/grille_lecture_budgetaire.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "socle_budgetaire.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/grille_lecture_budgetaire.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "reconciliation_operateurs",
+   "chemin": "referentiels/reconciliation_operateurs.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/reconcilier_operateurs.py",
+   "consomme_par": [
+    "generer_classeur_synthese.py",
+    "tout chiffrage opérateur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/reconciliation_operateurs.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "reconciliation_lisible",
+   "chemin": "livrables/reconciliation_operateurs.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/reconcilier_operateurs.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/reconciliation_operateurs.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "economies",
+   "chemin": "referentiels/economies.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/tracer_economies.py",
+   "consomme_par": [
+    "controle_socle.py",
+    "reconcilier_operateurs.py",
+    "generer_classeur_synthese.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/economies.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "economies_tracees",
+   "chemin": "livrables/economies_tracees.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/tracer_economies.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/economies_tracees.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "appariement_operateurs",
+   "chemin": "livrables/appariement_operateurs.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/apparier_operateurs.py",
+   "consomme_par": [
+    "lecture interne",
+    "rattachement des opérateurs"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/appariement_operateurs.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "synthese_budgetaire",
+   "chemin": "livrables/synthese_budgetaire.xlsx",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_classeur_synthese.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/synthese_budgetaire.xlsx",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "portes_domaine_md",
+   "chemin": "livrables/portes_domaine.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/portes_domaine.py",
+   "consomme_par": [
+    "test de rattachement",
+    "pack public",
+    "qualification des articles"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/portes_domaine.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "axe_transparence_md",
+   "chemin": "livrables/axe_transparence.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/axe_transparence.py",
+   "consomme_par": [
+    "arbitrage de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/axe_transparence.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "ventilation_vehicule_md",
+   "chemin": "livrables/ventilation_vehicule.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/ventilation_vehicule.py",
+   "consomme_par": [
+    "arbitrage de l'auteur",
+    "phase PLFSS"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/ventilation_vehicule.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "leviers_collocs_md",
+   "chemin": "livrables/leviers_collocs.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/leviers_collocs.py",
+   "consomme_par": [
+    "arbitrage de l'auteur",
+    "contre-PLF"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/leviers_collocs.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "chantier_vecteurs_md",
+   "chemin": "livrables/chantier_vecteurs.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/chantier_vecteurs.py",
+   "consomme_par": [
+    "arbitrage de l'auteur",
+    "REF_norme"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/chantier_vecteurs.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "plages_articles",
+   "chemin": "referentiels/plages_articles.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/plages_articles.py",
+   "consomme_par": [
+    "portes_ouvertes.py",
+    "vecteur-mesure"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/plages_articles.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "lecture_en_creux_plf",
+   "chemin": "referentiels/lecture_en_creux_plf.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/lecture_en_creux.py",
+   "consomme_par": [
+    "lecture en creux",
+    "contestabilite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/lecture_en_creux_plf.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "lecture_en_creux_plfss",
+   "chemin": "referentiels/lecture_en_creux_plfss.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/lecture_en_creux.py",
+   "consomme_par": [
+    "lecture en creux",
+    "contestabilite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/lecture_en_creux_plfss.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "lots_epreuve",
+   "chemin": "referentiels/lots_epreuve.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "etat_machine.py",
+    "noter_eval_gl.py",
+    "noter_eval_expose.py",
+    "toute éval de la chaîne"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/lots_epreuve.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "ref_norme",
+   "chemin": "referentiels/REF_norme.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/ref_norme.py",
+   "consomme_par": [
+    "controle_norme.py",
+    "chantier_vecteurs.py",
+    "redaction-legistique",
+    "tout amendement rédigé"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/REF_norme.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "etat_vecteurs",
+   "chemin": "livrables/etat_vecteurs.html",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/generer_etat_vecteurs.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/etat_vecteurs.html",
+   "famille": "graphique"
+  },
+  {
+   "role": "plages_articles_releve",
+   "chemin": "livrables/plages_articles.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/plages_articles.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/plages_articles.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "lecture_en_creux_plf_releve",
+   "chemin": "livrables/lecture_en_creux_plf.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/lecture_en_creux.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/lecture_en_creux_plf.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "lecture_en_creux_plfss_releve",
+   "chemin": "livrables/lecture_en_creux_plfss.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/lecture_en_creux.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/lecture_en_creux_plfss.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "portes_domaine_lfss_md",
+   "chemin": "livrables/portes_domaine_lfss.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/portes_domaine_lfss.py",
+   "consomme_par": [
+    "test de rattachement",
+    "pack public",
+    "qualification des articles"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/portes_domaine_lfss.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "socle_plf_json",
+   "chemin": "referentiels/socle_plf_texte.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/socle_plf_texte.py",
+   "consomme_par": [
+    "articles_ouverts_plf.py",
+    "redaction_deposee.py",
+    "lecture_en_creux.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/socle_plf_texte.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "socle_plfss_json",
+   "chemin": "referentiels/socle_plfss_texte.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/socle_plf_texte.py",
+   "consomme_par": [
+    "articles_ouverts_plf.py",
+    "redaction_deposee.py",
+    "lecture_en_creux.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/socle_plfss_texte.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "redaction_plf",
+   "chemin": "referentiels/redaction_plf.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": "appareil/redaction_deposee.py",
+   "consomme_par": [
+    "partage_calibrage.py",
+    "disposition-cible",
+    "redaction-legistique"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/redaction_plf.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "redaction_plfss",
+   "chemin": "referentiels/redaction_plfss.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": "appareil/redaction_deposee.py",
+   "consomme_par": [
+    "partage_calibrage.py",
+    "disposition-cible",
+    "redaction-legistique"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/redaction_plfss.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "articles_ouverts_plf_json",
+   "chemin": "referentiels/articles_ouverts_plf.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/articles_ouverts_plf.py",
+   "consomme_par": [
+    "REF_norme",
+    "vecteur-mesure"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/articles_ouverts_plf.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "articles_ouverts_plfss_json",
+   "chemin": "referentiels/articles_ouverts_plfss.json",
+   "rang": "referentiel",
+   "coffre": false,
+   "produit_par": "appareil/articles_ouverts_plf.py",
+   "consomme_par": [
+    "REF_norme",
+    "vecteur-mesure"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/articles_ouverts_plfss.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "articles_ouverts_plf_releve",
+   "chemin": "livrables/articles_ouverts_plf.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/articles_ouverts_plf.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/articles_ouverts_plf.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "articles_ouverts_plfss_releve",
+   "chemin": "livrables/articles_ouverts_plfss.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/articles_ouverts_plf.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/articles_ouverts_plfss.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "articles_ouverts_plf",
+   "chemin": "referentiels/articles_ouverts_plf.tsv",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/articles_ouverts_plf.py",
+   "consomme_par": [
+    "REF_norme",
+    "vecteur-mesure",
+    "disposition-cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/articles_ouverts_plf.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "articles_ouverts_plfss",
+   "chemin": "referentiels/articles_ouverts_plfss.tsv",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/articles_ouverts_plf.py",
+   "consomme_par": [
+    "REF_norme",
+    "vecteur-mesure",
+    "disposition-cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/articles_ouverts_plfss.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "reponses_eval_plf",
+   "chemin": "livrables/eval_gl/reponses_vecteur_mesure_plf.json",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "noter_eval_gl.py",
+    "banc d'épreuve"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/eval_gl/reponses_vecteur_mesure_plf.json",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "reponses_eval_plfss",
+   "chemin": "livrables/eval_gl/reponses_vecteur_mesure_plfss.json",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "noter_eval_gl.py",
+    "banc d'épreuve"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/eval_gl/reponses_vecteur_mesure_plfss.json",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "etat_machine",
+   "chemin": "livrables/etat_machine.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/etat_machine.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/etat_machine.html",
+   "famille": "graphique"
+  },
+  {
+   "role": "etat_vecteurs_csv",
+   "chemin": "livrables/etat_vecteurs.csv",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_etat_vecteurs.py",
+   "consomme_par": [
+    "lecture de l'auteur",
+    "export",
+    "pack public"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/etat_vecteurs.csv",
+   "famille": "grilles"
+  },
+  {
+   "role": "releve_protos",
+   "chemin": "livrables/releve_protos.txt",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/relever_protos.py",
+   "consomme_par": [
+    "lecture interne des protos",
+    "contrôle avant réemploi"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/releve_protos.txt",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "releve_epreuve_tsv",
+   "chemin": "livrables/releve_epreuve_EP2.tsv",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/rendre_releve_epreuve.py",
+   "consomme_par": [
+    "arbitrage de l’auteur",
+    "bon à tirer"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/releve_epreuve_EP2.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "releve_epreuve_md",
+   "chemin": "livrables/releve_epreuve_EP2.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/rendre_releve_epreuve.py",
+   "consomme_par": [
+    "arbitrage de l’auteur",
+    "bon à tirer"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/releve_epreuve_EP2.md",
+   "famille": "grilles"
+  },
+  {
+   "role": "releve_mandat_tsv",
+   "chemin": "livrables/releve_epreuve_EP3.tsv",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/rendre_releve_mandat.py",
+   "consomme_par": [
+    "arbitrage de l’auteur",
+    "bon à tirer"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/releve_epreuve_EP3.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "releve_mandat_md",
+   "chemin": "livrables/releve_epreuve_EP3.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/rendre_releve_mandat.py",
+   "consomme_par": [
+    "arbitrage de l’auteur",
+    "bon à tirer"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/releve_epreuve_EP3.md",
+   "famille": "grilles"
+  },
+  {
+   "role": "carte",
+   "chemin": "livrables/carte_du_projet.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_carte.py",
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/carte_du_projet.html",
+   "famille": null
+  },
+  {
+   "role": "donnees",
+   "chemin": "livrables/donnees.json",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/exporter_donnees.py",
+   "consomme_par": [
+    "generer_interface.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/donnees.json",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "manifeste",
+   "chemin": "site/manifeste.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_site.py",
+   "consomme_par": [
+    "diffusion",
+    "téléchargement"
+   ],
+   "alias": [
+    "1pager",
+    "sources/1pager_20260806_v1_proto.html"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "site/manifeste.html",
+   "famille": "rédactionnel"
+  },
+  {
+   "role": "site",
+   "chemin": "site/index.html",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/generer_site.py",
+   "consomme_par": [
+    "diffusion",
+    "Vercel"
+   ],
+   "alias": [
+    "livrables/site_prototype.html",
+    "site_prototype.html"
+   ],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "site/index.html",
+   "famille": "graphique"
+  },
+  {
+   "role": "feuille_de_route",
+   "chemin": "methode/feuille_de_route.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "instructions permanentes"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/feuille_de_route.md",
+   "famille": null
+  },
+  {
+   "role": "localisation",
+   "chemin": "methode/localisation.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/localisation.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "index",
+   "chemin": "methode/index.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": "appareil/generer_index.py",
+   "consomme_par": [
+    "controle_index.py",
+    "toute skill qui résout un renvoi"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/index.json",
+   "famille": "méthode"
+  },
+  {
+   "role": "empreintes",
+   "chemin": "methode/empreintes.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": "appareil/empreintes.py",
+   "consomme_par": [
+    "controle_restauration.py",
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/empreintes.json",
+   "famille": "méthode"
+  },
+  {
+   "role": "journal",
+   "chemin": "methode/journal.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/journal.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "arbitrages",
+   "chemin": "methode/arbitrages.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/arbitrages.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "arbitrages_archive",
+   "chemin": "methode/arbitrages_archive.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "résolution d'un renvoi A-nnn antérieur au 20260901"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/arbitrages_archive.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "contrat_projection",
+   "chemin": "methode/contrat_projection.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fiche-mesure",
+    "audit-conformite",
+    "qa-riposte",
+    "compatibilite-doctrine",
+    "contestabilite"
+   ],
+   "alias": [
+    "Contrat_projection_REF_20260820_v2.md",
+    "Contrat_projection_REF_20260820_v1.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/contrat_projection.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "regles_forme_canonique",
+   "chemin": "methode/regles_forme_canonique.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fiche-mesure",
+    "audit-conformite",
+    "qa-riposte",
+    "compatibilite-doctrine",
+    "contestabilite"
+   ],
+   "alias": [
+    "Regles_forme_canonique_20260820_v2.md",
+    "Regles_forme_canonique_20260820_v1.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/regles_forme_canonique.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "regles_redactionnelles",
+   "chemin": "methode/regles_redactionnelles.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "redaction-legistique"
+   ],
+   "alias": [
+    "Regles_redactionnelles_synthese_20260807.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/regles_redactionnelles.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "procedure_controle",
+   "chemin": "methode/procedure_controle.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [
+    "Procedure_controle_20260820_v2.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/procedure_controle.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "croisements_corpus",
+   "chemin": "methode/croisements_corpus.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "travail interne"
+   ],
+   "alias": [
+    "Croisements_corpus_20260819_v1.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/croisements_corpus.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "derivation_D2",
+   "chemin": "methode/derivation_D2.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "travail interne"
+   ],
+   "alias": [
+    "Derivation_D2_20260820_v1.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/derivation_D2.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_courant",
+   "chemin": "methode/prompt_fil_courant.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [
+    "Prompt_fil_apports_20260820_v1.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_courant.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_disposition_cible",
+   "chemin": "methode/prompt_disposition_cible.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil disposition-cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_disposition_cible.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_strategie_machine",
+   "chemin": "methode/prompt_fil_strategie_machine.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil de stratégie de la machine"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_strategie_machine.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_eval_disposition_cible",
+   "chemin": "methode/prompt_eval_disposition_cible.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil d'éval de disposition-cible"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_eval_disposition_cible.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "classement_corpus",
+   "chemin": "methode/classement_corpus.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/classement_corpus.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "carte_des_chantiers",
+   "chemin": "methode/carte_des_chantiers.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "site",
+    "gagnants-perdants",
+    "contre-PLF"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/carte_des_chantiers.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "procedure_contre_plf",
+   "chemin": "methode/procedure_contre_plf.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "contre-PLF",
+    "pack public"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/procedure_contre_plf.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "test_rattachement",
+   "chemin": "methode/test_rattachement.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "contre-PLF",
+    "pack public",
+    "qualification des articles"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/test_rattachement.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "procedure_vecteurs",
+   "chemin": "methode/procedure_vecteurs.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "contre-PLF",
+    "REF_norme",
+    "redaction-legistique"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/procedure_vecteurs.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "contrat_chaine_amendement",
+   "chemin": "methode/contrat_chaine_amendement.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "vecteur-mesure",
+    "disposition-cible",
+    "expose-sommaire",
+    "controle_generalisation.py",
+    "toute étape de la chaîne"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/contrat_chaine_amendement.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "gabarit_expose_sommaire",
+   "chemin": "reference/gabarit_expose_sommaire.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "expose-sommaire",
+    "contre-PLF",
+    "pack public"
+   ],
+   "alias": [
+    "sources/gabarit_expose_sommaire.md",
+    "gabarit_expose_sommaire.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/gabarit_expose_sommaire.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "depot_droit",
+   "chemin": "reference/depot_droit.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "disposition-cible",
+    "vecteur-mesure",
+    "redaction-legistique",
+    "contre-PLF"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/depot_droit.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "domaine_lfss",
+   "chemin": "reference/domaine_lfss_LO111-3.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "test de rattachement",
+    "expose-sommaire",
+    "contre-PLF"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/domaine_lfss_LO111-3.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "passation_droit_renvois",
+   "chemin": "reference/passation_droit_renvois.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/passation_droit_renvois.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "passation_lecture_en_creux",
+   "chemin": "methode/passation_lecture_en_creux.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/passation_lecture_en_creux.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "passation_site",
+   "chemin": "methode/passation_site.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "tout fil qui touche au site"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/passation_site.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "regle_enonces_eval",
+   "chemin": "methode/regle_enonces_eval.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "éval de la rédaction cible",
+    "tout rejeu du banc"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/regle_enonces_eval.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "sas",
+   "chemin": "methode/sas.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "fil de réconciliation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/sas.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "banc_chouchous",
+   "chemin": "methode/banc_chouchous.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "banc bout en bout",
+    "fil de test"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/banc_chouchous.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "banc_gl",
+   "chemin": "methode/banc_gl.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "banc des liasses déposées",
+    "noter_eval_gl.py",
+    "fil de test"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/banc_gl.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_joueur_banc_gl",
+   "chemin": "methode/prompt_fil_joueur_banc_gl.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil joueur du banc des liasses déposées"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_joueur_banc_gl.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "digestions_attendues",
+   "chemin": "reference/digestions_attendues.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil de digestion",
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/digestions_attendues.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "imposition_du_capital_fondapol",
+   "chemin": "reference/imposition_du_capital_fondapol.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée",
+    "contestabilite",
+    "qa-riposte"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/imposition_du_capital_fondapol.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "justice_fiscale_1789_fondapol",
+   "chemin": "reference/justice_fiscale_1789_fondapol.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée",
+    "contestabilite",
+    "qa-riposte"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/justice_fiscale_1789_fondapol.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "nomenclature_prelevements_ifrap",
+   "chemin": "reference/nomenclature_prelevements_ifrap.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "contre-PLF",
+    "réconciliation des prélèvements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/nomenclature_prelevements_ifrap.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "sourcage_ir_dgfip",
+   "chemin": "reference/sourcage_ir_dgfip.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/sourcage_ir_dgfip.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "inventaire_coffre",
+   "chemin": "methode/inventaire_coffre.tsv",
+   "rang": "methode",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "controle_index.py",
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "methode/inventaire_coffre.tsv",
+   "famille": "méthode"
+  },
+  {
+   "role": "source:constitution_3col_20260914_v45",
+   "chemin": "reference/Constitution_3col_20260914_v45.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur",
+    "redaction-legistique",
+    "audit-conformite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/Constitution_3col_20260914_v45.html",
+   "famille": "extensions"
+  },
+  {
+   "role": "pplc_modificative",
+   "chemin": "livrables/PPLC_consolidee_modificative_20260914_v7.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "dépôt parlementaire",
+    "audit-conformite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/PPLC_consolidee_modificative_20260914_v7.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "pplc_substitution",
+   "chemin": "livrables/PPLC_consolidee_substitution_20260914_v7.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "redaction-legistique",
+    "audit-conformite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/PPLC_consolidee_substitution_20260914_v7.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "presentation_revision",
+   "chemin": "livrables/Presentation_20260916_v46.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "diffusion",
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/Presentation_20260916_v46.md",
+   "famille": "rédactionnel"
+  },
+  {
+   "role": "etat_revision",
+   "chemin": "methode/etat_revision_constitutionnelle.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etat_revision_constitutionnelle.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "recap_transposabilite",
+   "chemin": "livrables/Recap_transposabilite_20260914_v7.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "analyse-transposabilite",
+    "compatibilite-doctrine"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/Recap_transposabilite_20260914_v7.md",
+   "famille": "rédactionnel"
+  },
+  {
+   "role": "recensement_innovations",
+   "chemin": "livrables/Recensement_innovations_20260914_v2.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "analyse-transposabilite",
+    "contestabilite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/Recensement_innovations_20260914_v2.md",
+   "famille": "grilles"
+  },
+  {
+   "role": "refresh_toc_pdf",
+   "chemin": "appareil/refresh_toc_pdf.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "impression-docx"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/refresh_toc_pdf.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "sans_cesure",
+   "chemin": "appareil/sans_cesure.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "impression-docx"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/sans_cesure.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_colonne_c",
+   "chemin": "appareil/controle_colonne_c.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_colonne_c.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "source:constitution_3col_20260916_v46",
+   "chemin": "reference/Constitution_3col_20260916_v46.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur",
+    "redaction-legistique",
+    "audit-conformite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/Constitution_3col_20260916_v46.html",
+   "famille": "extensions"
+  },
+  {
+   "role": "controle_blocs",
+   "chemin": "appareil/controle_blocs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle",
+    "lot C",
+    "lot D"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_blocs.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "epreuve_controle_blocs",
+   "chemin": "appareil/epreuve_controle_blocs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "controle_blocs.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/epreuve_controle_blocs.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "fragments",
+   "chemin": "appareil/fragments.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "tout fil qui dépose au journal ou aux arbitrages"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/fragments.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "rendre_blocs",
+   "chemin": "appareil/rendre_blocs.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "lot C",
+    "lot D"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/rendre_blocs.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "plier_lot",
+   "chemin": "appareil/plier_lot.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "pliage et dépliage d'un lot"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/plier_lot.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "confronter_lecture",
+   "chemin": "appareil/confronter_lecture.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "confrontation d'un livrable à sa pièce"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/confronter_lecture.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "faux_lecture",
+   "chemin": "appareil/faux_lecture.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "confronter_lecture.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/faux_lecture.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "plan_bataille",
+   "chemin": "methode/plan_bataille.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "ordre des lots"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/plan_bataille.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "methode_decoupage_bloc",
+   "chemin": "methode/methode_decoupage_bloc.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lot C — découpage doctrinal en blocs",
+    "plan_bataille"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/methode_decoupage_bloc.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_lot_A_resume_attendu",
+   "chemin": "methode/prompt_lot_A_resume_attendu.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil du lot A"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_lot_A_resume_attendu.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_lot_C_decoupage_blocs",
+   "chemin": "methode/prompt_lot_C_decoupage_blocs.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil du lot C"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_lot_C_decoupage_blocs.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_lot_ecart",
+   "chemin": "methode/prompt_lot_ecart.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil de la mesure de l'écart"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_lot_ecart.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "paquet_machine",
+   "chemin": "livrables/paquet_machine.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/plier_paquet.py",
+   "consomme_par": [
+    "lot C — découpage doctrinal en blocs",
+    "lot Écart — passe équipée",
+    "controle_projection.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/paquet_machine.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "plier_paquet",
+   "chemin": "appareil/plier_paquet.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make",
+    "pliage d'un paquet diffusable"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/plier_paquet.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_projection",
+   "chemin": "appareil/controle_projection.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make controle",
+    "tout paquet diffusable"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_projection.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "trois_colonnes_regle_dor",
+   "chemin": "appareil/trois_colonnes_regle_dor.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "règle d'or — trois colonnes"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/trois_colonnes_regle_dor.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "blocs_lot_C",
+   "chemin": "livrables/blocs_lot_C.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": "appareil/plier_lot.py",
+   "consomme_par": [
+    "lot D — tri par véhicule et morceaux",
+    "controle_blocs.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/blocs_lot_C.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "blocs_lot_C_lecture",
+   "chemin": "livrables/blocs_lot_C_lecture.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/blocs_lot_C_lecture.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "cr_lot_C",
+   "chemin": "methode/cr_lot_C_20260917.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil d'organisation et de méthode"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/cr_lot_C_20260917.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_organisation_methode",
+   "chemin": "methode/prompt_fil_organisation_methode.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil d'organisation et de méthode"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_organisation_methode.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_lot_D_tri_vehicule",
+   "chemin": "methode/prompt_lot_D_tri_vehicule.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil du lot D"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_lot_D_tri_vehicule.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "a_trancher",
+   "chemin": "methode/a_trancher.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": "appareil/fragments.py",
+   "consomme_par": [
+    "ouverture de tout fil de méthode",
+    "ordre des lots"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/a_trancher.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "cr_lecture_textes_2026",
+   "chemin": "methode/cr_lecture_textes_2026.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "a_trancher.md"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/cr_lecture_textes_2026.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "cr_confrontation",
+   "chemin": "methode/cr_confrontation_20260916.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "a_trancher.md",
+    "confrontation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/cr_confrontation_20260916.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_bilan_methode",
+   "chemin": "methode/prompt_fil_bilan_methode.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil de bilan de méthode"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_bilan_methode.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_socle_second_cercle",
+   "chemin": "methode/prompt_fil_socle_second_cercle.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil du second cercle du socle"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_socle_second_cercle.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_strategie_chantier",
+   "chemin": "methode/prompt_fil_strategie_chantier.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil de stratégie du chantier"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_strategie_chantier.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_verif_listes_2026",
+   "chemin": "methode/prompt_fil_verif_listes_2026.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil de vérification des listes 2026"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_verif_listes_2026.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "sas_lot_A_resume_attendu",
+   "chemin": "methode/sas_lot_A_resume_attendu.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil de réconciliation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/sas_lot_A_resume_attendu.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "sas_pplc_regle_dor",
+   "chemin": "methode/sas_pplc_regle_dor.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil de réconciliation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/sas_pplc_regle_dor.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "paquet_depot_20260914",
+   "chemin": "methode/paquet_depot_20260914.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "session claude.ai/code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/paquet_depot_20260914.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "paquet_depot_20260916",
+   "chemin": "methode/paquet_depot_20260916.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "session claude.ai/code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/paquet_depot_20260916.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "paquet_depot_machine_20260916",
+   "chemin": "methode/paquet_depot_machine_20260916.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "session claude.ai/code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/paquet_depot_machine_20260916.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "paquet_depot_confrontation_20260916",
+   "chemin": "methode/paquet_depot_confrontation_20260916.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "session claude.ai/code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/paquet_depot_confrontation_20260916.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "paquet_depot_application_20260917",
+   "chemin": "methode/paquet_depot_application_20260917.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "session claude.ai/code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/paquet_depot_application_20260917.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260917_application",
+   "chemin": "methode/fragments/arbitrages/20260917-fil-application.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260917-fil-application.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20260917_application",
+   "chemin": "methode/fragments/journal/20260917-fil-application.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260917-fil-application.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "comblement_termes_manquants",
+   "chemin": "livrables/comblement_termes_manquants.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "second cercle du socle",
+    "bilans des blocs du lot C"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/comblement_termes_manquants.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "PLF2026_liste",
+   "chemin": "livrables/PLF2026_liste.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur",
+    "confrontation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/PLF2026_liste.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "PLFSS2026_liste",
+   "chemin": "livrables/PLFSS2026_liste.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur",
+    "confrontation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/PLFSS2026_liste.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "PLF_PLFSS_differences",
+   "chemin": "livrables/PLF_PLFSS_differences.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/PLF_PLFSS_differences.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "PLF_PLFSS_formats",
+   "chemin": "livrables/PLF_PLFSS_formats.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/PLF_PLFSS_formats.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "PLF2026_annexe_technique",
+   "chemin": "livrables/PLF2026_annexe_technique.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/PLF2026_annexe_technique.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "index_mesures_plf_md",
+   "chemin": "livrables/index_mesures_plf.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/index_mesures_plf.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "index_mesures_plf",
+   "chemin": "referentiels/index_mesures_plf.tsv",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "vecteur-mesure",
+    "confrontation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/index_mesures_plf.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "resume_attendu_texte_financier",
+   "chemin": "livrables/resume_attendu_texte_financier_2026.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur",
+    "confrontation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/resume_attendu_texte_financier_2026.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "reperes_resume_2026",
+   "chemin": "referentiels/reperes_resume_2026.tsv",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "confrontation"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/reperes_resume_2026.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "confrontation_resume_2026",
+   "chemin": "livrables/confrontation_resume_2026.tsv",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "confrontation",
+    "arbitrage de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/confrontation_resume_2026.tsv",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "bordereau_confrontation_resume_2026",
+   "chemin": "livrables/bordereau_confrontation_resume_2026.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "confrontation",
+    "arbitrage de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/bordereau_confrontation_resume_2026.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "presentation_revision_v47",
+   "chemin": "livrables/Presentation_20260916_v47.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "diffusion",
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/Presentation_20260916_v47.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "recensement_innovations_v3",
+   "chemin": "livrables/Recensement_innovations_20260916_v3.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "analyse-transposabilite",
+    "contestabilite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/Recensement_innovations_20260916_v3.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "recap_transposabilite_v8",
+   "chemin": "livrables/Recap_transposabilite_20260916_v8.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "analyse-transposabilite",
+    "compatibilite-doctrine"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/Recap_transposabilite_20260916_v8.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "pplc_regle_dor_modificative",
+   "chemin": "livrables/PPLC_regle_dor_modificative.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "dépôt parlementaire",
+    "audit-conformite"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/PPLC_regle_dor_modificative.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "presentation_regle_dor",
+   "chemin": "livrables/Presentation_regle_dor.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "diffusion",
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/Presentation_regle_dor.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "fragment_arbitrages_20260917_socle",
+   "chemin": "methode/fragments/arbitrages/20260917-socle.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260917-socle.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20260917_socle",
+   "chemin": "methode/fragments/journal/20260917-socle.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260917-socle.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "paquet_depot_socle_20260917",
+   "chemin": "methode/paquet_depot_socle_20260917.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "session claude.ai/code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/paquet_depot_socle_20260917.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_noeud_mise_en_oeuvre",
+   "chemin": "methode/prompt_fil_noeud_mise_en_oeuvre.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil du nœud de mise en œuvre"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_noeud_mise_en_oeuvre.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "cr_socle_second_cercle",
+   "chemin": "methode/cr_socle_second_cercle_20260917.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil de bilan de méthode",
+    "a_trancher.md"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/cr_socle_second_cercle_20260917.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "cgi_expert_articles",
+   "chemin": "referentiels/cgi_expert_articles.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "disposition-cible",
+    "redaction-legistique",
+    "lot F — blocs de rattachement",
+    "lot G — dossiers de mesure"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/cgi_expert_articles.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "cgi_expert_insertions",
+   "chemin": "referentiels/cgi_expert_insertions.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "disposition-cible",
+    "redaction-legistique",
+    "lot G — dossiers de mesure"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/cgi_expert_insertions.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "cgi_expert_suppressions",
+   "chemin": "referentiels/cgi_expert_suppressions.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "disposition-cible",
+    "redaction-legistique",
+    "lot G — dossiers de mesure"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/cgi_expert_suppressions.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "cgi_expert_articles_bouges",
+   "chemin": "referentiels/cgi_expert_articles_bouges.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "disposition-cible",
+    "vecteur-mesure",
+    "tout emploi d'un article du CGI réécrit"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/cgi_expert_articles_bouges.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "cgi_expert_parametres",
+   "chemin": "referentiels/cgi_expert_parametres.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "compatibilite-doctrine",
+    "disposition-cible",
+    "confrontation au REF_chiffres"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/cgi_expert_parametres.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "cgi_expert_couverture",
+   "chemin": "livrables/cgi_expert_couverture_20260929.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lot F — blocs de rattachement",
+    "arbitrage de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/cgi_expert_couverture_20260929.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "cgi_expert_comblements",
+   "chemin": "livrables/cgi_expert_comblements_20260929.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "analyse-transposabilite",
+    "compatibilite-doctrine",
+    "lot G — dossiers de mesure"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/cgi_expert_comblements_20260929.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "cgi_expert_commentaires",
+   "chemin": "livrables/cgi_expert_commentaires_20260929.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "arbitrage de l'auteur",
+    "constitution d'un lot d'amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/cgi_expert_commentaires_20260929.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "cgi_expert_regles_de_lecture",
+   "chemin": "reference/cgi_expert_regles_de_lecture.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "disposition-cible",
+    "redaction-legistique",
+    "vecteur-mesure",
+    "tout fil qui emploie le CGI réécrit"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/cgi_expert_regles_de_lecture.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "predigestion_cgi",
+   "chemin": "livrables/predigestion_cgi_20260929.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "cgi_expert_regles_de_lecture",
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/predigestion_cgi_20260929.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "fragment_a_trancher_20260929_cgi_expert",
+   "chemin": "methode/fragments/a_trancher/20260929-cgi-expert.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/a_trancher/20260929-cgi-expert.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "mecanique_gages_restitutions",
+   "chemin": "livrables/mecanique_gages_restitutions_20260929.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "disposition-cible",
+    "expose-sommaire",
+    "phase 0 du plan de rédaction"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/mecanique_gages_restitutions_20260929.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "prelevements_forces",
+   "chemin": "referentiels/prelevements_forces_20260930.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil du sort des prélèvements",
+    "vecteur-mesure",
+    "bloc B-09"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/prelevements_forces_20260930.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "recensement_prelevements",
+   "chemin": "livrables/recensement_prelevements_20260930.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil du sort des prélèvements",
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/recensement_prelevements_20260930.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "prompt_fil_sort_prelevements",
+   "chemin": "methode/prompt_fil_sort_prelevements.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture du fil du sort des prélèvements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_sort_prelevements.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "arborescence_mesures",
+   "chemin": "livrables/arborescence_mesures_20260928.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "plan_sept_phases",
+    "lot F — blocs de rattachement",
+    "lot G — dossiers de mesure",
+    "disposition-cible"
+   ],
+   "alias": [
+    "arborescence_mesures_20260928.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/arborescence_mesures_20260928.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "plan_sept_phases",
+   "chemin": "methode/plan_sept_phases_20260930.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "ordre des lots",
+    "carte_des_chantiers"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/plan_sept_phases_20260930.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20260930_inscription_registre",
+   "chemin": "methode/fragments/journal/20260930-inscription-registre.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260930-inscription-registre.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20260930_versement_reprise",
+   "chemin": "methode/fragments/journal/20260930-versement-reprise.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260930-versement-reprise.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "instructions",
+   "chemin": "CLAUDE.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [
+    "CLAUDE.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "CLAUDE.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "chaine",
+   "chemin": "Makefile",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "make"
+   ],
+   "alias": [
+    "Makefile"
+   ],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/Makefile",
+   "famille": "outillage"
+  },
+  {
+   "role": "exclusions_git",
+   "chemin": ".gitignore",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "git"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/.gitignore",
+   "famille": "outillage"
+  },
+  {
+   "role": "demarrage",
+   "chemin": "DEMARRAGE.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "installation locale"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "racine/DEMARRAGE.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "source:1pager_20260806_v1_proto",
+   "chemin": "sources/1pager_20260806_v1_proto.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "1pager_20260806_v1_proto.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/1pager_20260806_v1_proto.html",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:20250619_note_retraite_ib",
+   "chemin": "sources/20250619_Note_Retraite_IB.docx",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "20250619_Note_Retraite_IB.docx"
+   ],
+   "restaurable": false,
+   "voie": "piece_jointe",
+   "chemin_coffre": "input/Note_Retraite_20250619.docx",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:constitution_3col_20260730_v44",
+   "chemin": "sources/Constitution_3col_20260730_v44.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Constitution_3col_20260730_v44.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/Constitution_3col_20260730_v44.html",
+   "famille": "extensions"
+  },
+  {
+   "role": "source:constitution_reference_20260806_v1",
+   "chemin": "sources/Constitution_reference_20260806_v1.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Constitution_reference_20260806_v1.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/Constitution_reference_20260806_v1.html",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:ddhc_20260806_v1",
+   "chemin": "sources/DDHC_20260806_v1.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "DDHC_20260806_v1.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/DDHC_20260806_v1.html",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:donnees_20260806_v1_proto",
+   "chemin": "sources/Donnees_20260806_v1_proto.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Donnees_20260806_v1_proto.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Donnees_20260806_v1_proto.html",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:etat_partout_justice_nulle_part_ep3",
+   "chemin": "sources/ETAT_PARTOUT_JUSTICE_NULLE_PART_EP3.pdf",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "ETAT_PARTOUT_JUSTICE_NULLE_PART_EP3.pdf"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/ETAT_PARTOUT_JUSTICE_NULLE_PART_EP3.pdf",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:expose_des_motifs_redaction_gl",
+   "chemin": "sources/Expose_des_motifs_redaction_GL.docx",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Expose_des_motifs_redaction_GL.docx"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/Expose_des_motifs_redaction_GL.docx",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:france_resolution_strategie_reseaux_2",
+   "chemin": "sources/France_Resolution_Strategie_Reseaux_2.pdf",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "France_Resolution_Strategie_Reseaux_2.pdf"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/France_Resolution_Strategie_Reseaux_2.pdf",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:input_hlm_20260806_v1_proto",
+   "chemin": "sources/Input_HLM_20260806_v1_proto.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Input_HLM_20260806_v1_proto.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Input_HLM_20260806_v1_proto.html",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:input_gagnants_perdants_20260820_v1_brouillon",
+   "chemin": "sources/Input_gagnants_perdants_20260820_v1_brouillon.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Input_gagnants_perdants_20260820_v1_brouillon.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Input_gagnants_perdants_20260820_v1_brouillon.html",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:lolf_3col_20260507_v7",
+   "chemin": "sources/LOLF_3col_20260507_v7.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "LOLF_3col_20260507_v7.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/LOLF_3col_20260507_v7.html",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "source:lolf_reference_20260507",
+   "chemin": "sources/LOLF_reference_20260507.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "LOLF_reference_20260507.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/LOLF_reference_20260507.html",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:note_entreprises_20260806_v1_proto",
+   "chemin": "sources/Note_entreprises_20260806_v1_proto.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Note_entreprises_20260806_v1_proto.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Note_entreprises_20260806_v1_proto.html",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:note_n__1_justice_fiscalecomment_nous_avons_trahi_1789",
+   "chemin": "sources/Note_n__1_Justice_fiscalecomment_nous_avons_trahi_1789.pdf",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Note_n__1_Justice_fiscalecomment_nous_avons_trahi_1789.pdf"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/Note_n__1_Justice_fiscalecomment_nous_avons_trahi_1789.pdf",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:plf26__depenses_2026_du_bg_et_des_ba_selon_nomenclatures_destination_et_nature_ib_1127",
+   "chemin": "sources/PLF26__Depenses_2026_du_BG_et_des_BA_selon_nomenclatures_destination_et_nature_IB_1127.xls",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "PLF26__Depenses_2026_du_BG_et_des_BA_selon_nomenclatures_destination_et_nature_IB_1127.xls"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/PLF26__Depenses_2026_du_BG_et_des_BA_selon_nomenclatures_destination_et_nature_IB_1127.xls",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:plf_2026_vm_tome_ii__annexe_3__depenses_fiscales__ib__1126",
+   "chemin": "sources/PLF_2026_VM_tome_II__Annexe_3__Depenses_fiscales__IB__1126.xls",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "PLF_2026_VM_tome_II__Annexe_3__Depenses_fiscales__IB__1126.xls"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/PLF_2026_VM_tome_II__Annexe_3__Depenses_fiscales__IB__1126.xls",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:plf_2026_vm_tome_i__annexe_2__taxes_affectees_ib_1113",
+   "chemin": "sources/PLF_2026_VM_tome_I__Annexe_2__Taxes_affectees_IB_1113.xls",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "PLF_2026_VM_tome_I__Annexe_2__Taxes_affectees_IB_1113.xls"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/PLF_2026_VM_tome_I__Annexe_2__Taxes_affectees_IB_1113.xls",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:pplc_consolidee_modificative_20260730_v6",
+   "chemin": "sources/PPLC_consolidee_modificative_20260730_v6.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "PPLC_consolidee_modificative_20260730_v6.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/PPLC_consolidee_modificative_20260730_v6.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "source:pplc_consolidee_substitution_20260730_v6",
+   "chemin": "sources/PPLC_consolidee_substitution_20260730_v6.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "PPLC_consolidee_substitution_20260730_v6.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/PPLC_consolidee_substitution_20260730_v6.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "source:plan_presentation_20260730_v6",
+   "chemin": "sources/Plan_presentation_20260730_v6.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Plan_presentation_20260730_v6.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Plan_presentation_20260730_v6.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "source:precedents_restes_a_payer_20260721",
+   "chemin": "sources/Precedents_restes_a_payer_20260721.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Precedents_restes_a_payer_20260721.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Precedents_restes_a_payer_20260721.md",
+   "famille": "extensions"
+  },
+  {
+   "role": "source:presentation_20260731_v44",
+   "chemin": "sources/Presentation_20260731_v44.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Presentation_20260731_v44.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Presentation_20260731_v44.md",
+   "famille": "rédactionnel"
+  },
+  {
+   "role": "source:qa_20260806_v1_proto",
+   "chemin": "sources/QA_20260806_v1_proto.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "QA_20260806_v1_proto.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/QA_20260806_v1_proto.html",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:recap_transposabilite_20260731_v6",
+   "chemin": "sources/Recap_transposabilite_20260731_v6.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Recap_transposabilite_20260731_v6.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Recap_transposabilite_20260731_v6.md",
+   "famille": "rédactionnel"
+  },
+  {
+   "role": "source:recensement_innovations_20260731_v1",
+   "chemin": "sources/Recensement_innovations_20260731_v1.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Recensement_innovations_20260731_v1.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Recensement_innovations_20260731_v1.md",
+   "famille": "grilles"
+  },
+  {
+   "role": "source:reserve_arguments_20260806_v1",
+   "chemin": "sources/Reserve_arguments_20260806_v1.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Reserve_arguments_20260806_v1.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/Reserve_arguments_20260806_v1.html",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:synthèse_calculs_résolution_0819",
+   "chemin": "sources/Synthèse_Calculs_Résolution_0819.xlsx",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Synthèse_Calculs_Résolution_0819.xlsx"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/Synthèse_Calculs_Résolution_0819.xlsx",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:synthèse_etp_et_agences_résolution_0819",
+   "chemin": "sources/Synthèse_ETP_et_agences_Résolution_0819.xls",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "Synthèse_ETP_et_agences_Résolution_0819.xls"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/Synthèse_ETP_et_agences_Résolution_0819.xls",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:t_3207_communes_ib_1113",
+   "chemin": "sources/T_3207_Communes_IB_1113.xlsx",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "T_3207_Communes_IB_1113.xlsx"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/T_3207_Communes_IB_1113.xlsx",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:t_3305_apul_ib_1118",
+   "chemin": "sources/T_3305_APUL_IB_1118.xlsx",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "T_3305_APUL_IB_1118.xlsx"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/T_3305_APUL_IB_1118.xlsx",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:accroche_politique_revision_20260901",
+   "chemin": "sources/accroche_politique_revision_20260901.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "accroche_politique_revision_20260901.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "input/accroche_politique_revision_20260901.md",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:deppee2025donneesfiche09ladepensepourleducation25_12_19ib",
+   "chemin": "sources/deppee2025donneesfiche09ladepensepourleducation25_12_19IB.xlsx",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "deppee2025donneesfiche09ladepensepourleducation25_12_19IB.xlsx"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/deppee2025donneesfiche09ladepensepourleducation25_12_19IB.xlsx",
+   "famille": "doctrine"
+  },
+  {
+   "role": "source:dgfip_stat_32_2025",
+   "chemin": "sources/dgfip_stat_32_2025.pdf",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "dgfip_stat_32_2025.pdf"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/dgfip_stat_32_2025.pdf",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:etude_fondation_ifrap_liste_des_impots_et_taxes",
+   "chemin": "sources/etude_fondation_ifrap_liste_des_impots_et_taxes.pdf",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "etude_fondation_ifrap_liste_des_impots_et_taxes.pdf"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/etude_fondation_ifrap_liste_des_impots_et_taxes.pdf",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:fondapollimpassedelataxezucman_fr_20260608_formatweb_w",
+   "chemin": "sources/fondapollimpassedelataxezucman_fr_20260608_formatweb_w.pdf",
+   "rang": "source",
+   "coffre": false,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "fondapollimpassedelataxezucman_fr_20260608_formatweb_w.pdf"
+   ],
+   "restaurable": false,
+   "voie": "hors_coffre",
+   "chemin_coffre": "sources/fondapollimpassedelataxezucman_fr_20260608_formatweb_w.pdf",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:note_reforme_budgetaire_20260730_v12",
+   "chemin": "sources/note_reforme_budgetaire_20260730_v12.html",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "note_reforme_budgetaire_20260730_v12.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/note_reforme_budgetaire_20260730_v12.html",
+   "famille": "extensions"
+  },
+  {
+   "role": "source:prelevements_ifrap",
+   "chemin": "sources/prelevements_ifrap.tsv",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "prelevements_ifrap.tsv"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/prelevements_ifrap.tsv",
+   "famille": "références externes"
+  },
+  {
+   "role": "source:prompt_session_organisation_20260827",
+   "chemin": "sources/prompt_session_organisation_20260827.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "prompt_session_organisation_20260827.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_session_organisation.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "source:rapport_gagnants_perdants_20260820",
+   "chemin": "sources/rapport_gagnants_perdants_20260820.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "rapport_gagnants_perdants_20260820.md",
+    "ETAT_DU_CHANTIER_20260820_v22.md",
+    "methode/ETAT_DU_CHANTIER.md",
+    "etat_du_chantier"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "archive/rapport_gagnants_perdants_20260820.md",
+   "famille": "références internes"
+  },
+  {
+   "role": "source:structure_ppl",
+   "chemin": "sources/structure_ppl.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "structure_ppl.md",
+    "guide_legistique",
+    "guide_legistique_2026.pdf"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/structure_ppl.md",
+   "famille": "méthode"
+  }
+ ],
+ "depot": {
+  "nom": "resolution-ib-dev/Resolution-2027",
+  "url": "https://github.com/resolution-ib-dev/Resolution-2027",
+  "branche": "main",
+  "sous_racine": "chantier",
+  "clone": "git clone https://github.com/resolution-ib-dev/Resolution-2027 droit && cp -r droit/chantier/. .",
+  "ecriture": "fermée depuis Cowork (A-393) : une pièce due au dépôt se déclare au registre et se pousse d'une session claude.ai/code. `appareil/coffre.py dette` dit ce qui est dû.",
+  "rangs": [
+   "appareil",
+   "referentiel"
+  ],
+  "contient": [
+   ".gitignore",
+   "Makefile",
+   "appareil/apparier_operateurs.py",
+   "appareil/apports.py",
+   "appareil/articles_ouverts_plf.py",
+   "appareil/axe_transparence.py",
+   "appareil/blocs_disposition.py",
+   "appareil/canoniser_ref.py",
+   "appareil/carte_attribution.py",
+   "appareil/cas_disposition.py",
+   "appareil/chantier_vecteurs.py",
+   "appareil/cles_eval_expose.py",
+   "appareil/cles_eval_gl.py",
+   "appareil/coffre.py",
+   "appareil/confronter_lecture.py",
+   "appareil/construire_positions.py",
+   "appareil/controle_apports.py",
+   "appareil/controle_arithmetique.py",
+   "appareil/controle_blocs.py",
+   "appareil/controle_chiffres.py",
+   "appareil/controle_cles_gl.py",
+   "appareil/controle_colonne_c.py",
+   "appareil/controle_enonces.py",
+   "appareil/controle_generalisation.py",
+   "appareil/controle_generateurs.py",
+   "appareil/controle_hypotheses.py",
+   "appareil/controle_index.py",
+   "appareil/controle_lexique.py",
+   "appareil/controle_norme.py",
+   "appareil/controle_notes.py",
+   "appareil/controle_projection.py",
+   "appareil/controle_restauration.py",
+   "appareil/controle_socle.py",
+   "appareil/controle_sortie.py",
+   "appareil/controle_structurel.py",
+   "appareil/echantillon_epreuve.py",
+   "appareil/empreintes.py",
+   "appareil/epreuve_controle_blocs.py",
+   "appareil/epreuve_s17_salaire.py",
+   "appareil/etat_machine.py",
+   "appareil/exporter_donnees.py",
+   "appareil/extraire_notes.py",
+   "appareil/faux_lecture.py",
+   "appareil/fragments.py",
+   "appareil/generer_arbre.py",
+   "appareil/generer_carte.py",
+   "appareil/generer_classeur_synthese.py",
+   "appareil/generer_etat_vecteurs.py",
+   "appareil/generer_extrait.py",
+   "appareil/generer_fiches.py",
+   "appareil/generer_index.py",
+   "appareil/generer_interface.py",
+   "appareil/generer_inventaire.py",
+   "appareil/generer_ref_chiffres.py",
+   "appareil/generer_releve_notes.py",
+   "appareil/generer_site.py",
+   "appareil/hypotheses_doctrine.py",
+   "appareil/justifications.py",
+   "appareil/lecture_en_creux.py",
+   "appareil/leviers_collocs.py",
+   "appareil/manifeste.py",
+   "appareil/nomenclature_lolf.py",
+   "appareil/noter_eval_disposition.py",
+   "appareil/noter_eval_expose.py",
+   "appareil/noter_eval_gl.py",
+   "appareil/partage_calibrage.py",
+   "appareil/plages_articles.py",
+   "appareil/plier_lot.py",
+   "appareil/plier_paquet.py",
+   "appareil/porter_bloc.py",
+   "appareil/portes_domaine.py",
+   "appareil/portes_domaine_lfss.py",
+   "appareil/preparer_eval_disposition.py",
+   "appareil/reappliquer.py",
+   "appareil/reconcilier_operateurs.py",
+   "appareil/redaction_deposee.py",
+   "appareil/ref_norme.py",
+   "appareil/refresh_toc_pdf.py",
+   "appareil/relever_ecarts_epreuve.py",
+   "appareil/relever_protos.py",
+   "appareil/rendre_blocs.py",
+   "appareil/rendre_releve_epreuve.py",
+   "appareil/restaurer.py",
+   "appareil/sans_cesure.py",
+   "appareil/scinder_liasses.py",
+   "appareil/socle_budgetaire.py",
+   "appareil/socle_plf_texte.py",
+   "appareil/sources_chiffres.py",
+   "appareil/structure_fiches.py",
+   "appareil/texte_livre.py",
+   "appareil/tracer_economies.py",
+   "appareil/trois_colonnes_regle_dor.py",
+   "appareil/vecteurs.py",
+   "appareil/ventilation_vehicule.py",
+   "referentiels/REF_doctrine.json",
+   "referentiels/lots_epreuve.json",
+   "referentiels/notes_manuscrit.json",
+   "referentiels/redaction_plf.json",
+   "referentiels/redaction_plfss.json"
+  ],
+  "au_coffre_comme_document": [
+   "referentiels/cgi_expert_articles.tsv",
+   "referentiels/cgi_expert_articles_bouges.tsv",
+   "referentiels/cgi_expert_insertions.tsv",
+   "referentiels/cgi_expert_parametres.tsv",
+   "referentiels/cgi_expert_suppressions.tsv",
+   "referentiels/prelevements_forces_20260930.tsv"
+  ]
+ },
+ "manquants": [
+  {
+   "role": "epreuve_controle_socle",
+   "chemin_attendu": "appareil/epreuve_controle_socle.py",
+   "rang": "appareil",
+   "intitule": "Épreuve du contrôle du socle — écrite au second cercle, jamais poussée",
+   "motif": "Le fil du second cercle du socle a écrit ce module le 20260917 : quatorze fautes qui lèvent toutes leur code, sept justes qui ne lèvent rien, joués par `make controle`. Il n'est pas au dépôt, et l'index du coffre le déclarait pourtant rendu par lui. `epreuve_s17_salaire.py` doit s'y fondre. À réécrire, ou à retrouver.",
+   "attendu_par": [
+    "make controle",
+    "epreuve_s17_salaire.py"
+   ]
+  },
+  {
+   "role": "controle_socle_plf_gen",
+   "chemin_attendu": "appareil/controle_socle_plf.py",
+   "rang": "appareil",
+   "intitule": "Contrôle du socle du texte déposé — invoqué par `make controle`, jamais versé",
+   "motif": "La cible `controle` du Makefile appelle `controle_socle_plf.py` sur chacun des deux socles, avec sa pièce et sa table d'articles ouverts. Le module n'est ni au dépôt, ni au coffre, ni dans l'archive du sas de la lecture en creux. La règle du Makefile est gardée par un test de présence du socle, donc `make controle` ne casse pas : il ne contrôle simplement rien sur les deux socles, et cela ne se voyait pas. Les dix contrôles internes de `socle_plf_texte.py` tournent, eux, à chaque génération. À réécrire, ou à retrouver.",
+   "attendu_par": [
+    "Makefile",
+    "make controle"
+   ]
+  },
+  {
+   "role": "portes_ouvertes_gen",
+   "chemin_attendu": "appareil/portes_ouvertes.py",
+   "rang": "appareil",
+   "intitule": "Jointure des portes ouvertes — invoquée par `make`, jamais versée",
+   "motif": "Le Makefile appelle `portes_ouvertes.py` sur `REF_norme` et les deux tables plates du texte déposé pour produire `referentiels/portes_ouvertes.tsv`. Le module n'est ni au dépôt, ni au coffre, ni dans l'archive du sas de la lecture en creux. La règle est gardée par la présence de `REF_norme`, donc rien ne casse : la jointure ne se fait simplement pas. À réécrire, ou à retrouver — et sa réécriture est l'occasion de consommer le dépliage des fourchettes, qui vit à côté sans être lu.",
+   "attendu_par": [
+    "Makefile",
+    "REF_norme",
+    "plages_articles.json",
+    "vecteur-mesure"
+   ]
+  },
+  {
+   "role": "guide_public_budgetaire",
+   "chemin_attendu": "sources/guide-public-du-budgetaire-2023.pdf",
+   "rang": "source",
+   "intitule": "Guide public du budgétaire 2023 — sorti du projet, non digéré",
+   "motif": "Procédure budgétaire. Était au coffre comme document, `restaurable: false`. Sa sortie a été constatée le 20260904, non annoncée. Aucune digestion : ce qu'il portait n'est nulle part. À rejoindre s'il sert.",
+   "attendu_par": [
+    "citation sourcée"
+   ]
+  },
+  {
+   "role": "guide_nl_cba",
+   "chemin_attendu": "sources/NL_cba-guidance.pdf",
+   "rang": "source",
+   "intitule": "Guide néerlandais coût-bénéfice — sorti du projet, non digéré",
+   "motif": "Méthode d'évaluation étrangère. Même régime et même constat que le guide public du budgétaire. À rejoindre s'il sert.",
+   "attendu_par": [
+    "citation sourcée"
+   ]
+  },
+  {
+   "role": "comparaison_internationale",
+   "chemin_attendu": "sources/Comparaison_internationale.pdf",
+   "rang": "source",
+   "intitule": "Annexe des régimes de retraite comparés — sortie du projet le 20260906",
+   "motif": "Écarts avec les pays comparables. Retirée par l'auteur, qui la refera plus tard : c'est une sortie décidée, non une perte. Aucune digestion.",
+   "attendu_par": [
+    "citation sourcée"
+   ]
+  },
+  {
+   "role": "resolution_d1a",
+   "chemin_attendu": "sources/ResolutionD1a.png",
+   "rang": "source",
+   "intitule": "Page de garde ResolutionD1a — sortie du projet",
+   "motif": "Image de garde, pièce jointe. Sortie constatée le 20260906. La charte graphique attend par ailleurs la couverture du livre, qui n'a jamais été au projet.",
+   "attendu_par": [
+    "charte graphique"
+   ]
+  },
+  {
+   "role": "strategie_reseaux",
+   "chemin_attendu": "sources/France_Resolution_Strategie_Reseaux_2.pdf",
+   "rang": "source",
+   "intitule": "Stratégie réseaux — sortie du projet, digestion partielle",
+   "motif": "Pièce jointe. A-366 constatait le 20260906 qu'elle était encore au projet ; la confrontation des pièces jointes du 20260907 ne l'y trouve plus. Sa part digérée tient : le lexique (A-53), la date de parution du livre et son identification au manuscrit (A-55), trois angles morts (A-54). Ce qui sort avec elle et n'est digéré nulle part : l'architecture des comptes, le plan de lancement, les cinq postures, les scripts. C'est la sortie qu'A-366 disait coûteuse faute de digestion courte, et elle a eu lieu.",
+   "attendu_par": [
+    "citation sourcée",
+    "plan de lancement"
+   ]
+  },
+  {
+   "role": "flux_epreuve_gen",
+   "chemin_attendu": "appareil/flux_epreuve.py",
+   "rang": "appareil",
+   "intitule": "Flux de page d'une épreuve — écrit le 20260910, jamais poussé, perdu",
+   "motif": "Extraction du flux de composition d'une épreuve, à deux échelles : les caractères couverts par un surlignage, et les lignes de composition qui les portent. Consommé par `relever_mandat_epreuve.py` et `valeurs_epreuve_relachees.py`. Déclaré voie `depot` par l'index du coffre, absent du clone. À réécrire depuis le relevé EP3, qui est sa sortie versée.",
+   "attendu_par": [
+    "relever_mandat_epreuve.py",
+    "valeurs_epreuve_relachees.py"
+   ]
+  },
+  {
+   "role": "relever_mandat_epreuve_gen",
+   "chemin_attendu": "appareil/relever_mandat_epreuve.py",
+   "rang": "appareil",
+   "intitule": "Relevé de mandat d'une épreuve — écrit le 20260910, jamais poussé, perdu",
+   "motif": "Apparie les surlignages annotés d'une épreuve relue aux écarts de l'épreuve nouvelle, et rend les quatre mandats `porté`, `porté de travers`, `non porté`, `non demandé`, chacun avec sa preuve — `texte`, `suppression`, `alinéa`, `place`. Absent du clone. À réécrire depuis le relevé EP3.",
+   "attendu_par": [
+    "rendre_releve_mandat.py",
+    "relecture d’épreuve contre épreuve"
+   ]
+  },
+  {
+   "role": "valeurs_epreuve_relachees_gen",
+   "chemin_attendu": "appareil/valeurs_epreuve_relachees.py",
+   "rang": "appareil",
+   "intitule": "Contrôle relâché des grandeurs — écrit le 20260910, jamais poussé, perdu",
+   "motif": "Relève les grandeurs du corpus dans une épreuve sur un texte dont les césures sont recollées, puis une seconde fois sans les virgules : c'est ce qui empêche un contrôle de disparaître au lieu d'échouer. Absent du clone. À réécrire — sa règle est écrite au relevé EP3.",
+   "attendu_par": [
+    "contrôle des chiffres d’une épreuve",
+    "bon à tirer"
+   ]
+  },
+  {
+   "role": "rendre_releve_mandat_gen",
+   "chemin_attendu": "appareil/rendre_releve_mandat.py",
+   "rang": "appareil",
+   "intitule": "Rendu du relevé de mandat — écrit le 20260910, jamais poussé, perdu",
+   "motif": "Rend `livrables/releve_epreuve_EP3.tsv` et son `.md`. Absent du clone, quand ses deux sorties sont au coffre : elles font spécification exécutable pour sa réécriture, à l'octet, comme la sortie versée d'`articles_ouverts_plf.py` l'avait fait en A-343.",
+   "attendu_par": [
+    "relecture d’épreuve contre épreuve",
+    "bon à tirer"
+   ]
+  },
+  {
+   "role": "releve_affecte",
+   "chemin_attendu": "referentiels/releve_affecte.json",
+   "rang": "referentiel",
+   "intitule": "Releve_affecte — attendu par trois skills",
+   "motif": "Couche de preuve à identifiants M-nnnn, citée par compatibilite-doctrine, contestabilite et qa-riposte. Introuvable. À reconstruire ou à retirer des trois skills.",
+   "attendu_par": [
+    "compatibilite-doctrine",
+    "contestabilite",
+    "qa-riposte"
+   ]
+  },
+  {
+   "role": "couverture_livre",
+   "chemin_attendu": "sources/couverture_livre",
+   "rang": "source",
+   "intitule": "Couverture du livre — attendue par la charte",
+   "motif": "Nécessaire à la charte graphique définitive. Absente du projet.",
+   "attendu_par": [
+    "charte graphique"
+   ]
+  },
+  {
+   "role": "qa_reference",
+   "chemin_attendu": "livrables/qa_reference.md",
+   "rang": "derive",
+   "intitule": "Q&A de référence — attendue par qa-riposte",
+   "motif": "La skill demande une Q&A à statut « référence » comme modèle de ton. Le corpus ne porte qu’un proto, dont la citation externe est interdite.",
+   "attendu_par": [
+    "qa-riposte"
+   ]
+  }
+ ],
+ "comptes": {
+  "artefacts": 315,
+  "au_coffre": 257,
+  "au_depot": 99,
+  "derives": 73,
+  "sources": 43,
+  "non_restaurables": 16,
+  "sans_famille": 2,
+  "manquants": 15
+ }
+}

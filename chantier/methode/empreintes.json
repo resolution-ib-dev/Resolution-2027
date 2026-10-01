@@ -1,0 +1,1294 @@
+{
+ "_regle": "Empreintes relevées au versement, cumulatives : une session n'efface pas celles des documents qu'elle n'a pas dépliés. Toute pièce restaurée du coffre se compare ici avant emploi. Une divergence est un faux, elle ne se corrige pas au dépôt : elle se redemande au coffre.",
+ "sans_empreinte": [
+  "DEMARRAGE.md",
+  "livrables/Presentation_20260916_v46.md",
+  "livrables/Recap_transposabilite_20260914_v7.md",
+  "livrables/Recensement_innovations_20260914_v2.md",
+  "livrables/etat_vecteurs.html",
+  "manuscrit/manuscrit.html",
+  "methode/cr_confrontation_20260916.md",
+  "methode/cr_lecture_textes_2026.md",
+  "methode/cr_lot_C_20260917.md",
+  "methode/fragments/arbitrages/20260917-fil-application.md",
+  "methode/fragments/journal/20260917-fil-application.md",
+  "methode/paquet_depot_20260914.md",
+  "methode/paquet_depot_20260916.md",
+  "methode/paquet_depot_application_20260917.md",
+  "methode/paquet_depot_confrontation_20260916.md",
+  "methode/paquet_depot_machine_20260916.md",
+  "methode/prompt_disposition_cible.md",
+  "methode/prompt_eval_disposition_cible.md",
+  "methode/prompt_fil_bilan_methode.md",
+  "methode/prompt_fil_joueur_banc_gl.md",
+  "methode/prompt_fil_organisation_methode.md",
+  "methode/prompt_fil_socle_second_cercle.md",
+  "methode/prompt_fil_strategie_chantier.md",
+  "methode/prompt_fil_strategie_machine.md",
+  "methode/prompt_fil_verif_listes_2026.md",
+  "methode/prompt_lot_A_resume_attendu.md",
+  "methode/prompt_lot_C_decoupage_blocs.md",
+  "methode/prompt_lot_D_tri_vehicule.md",
+  "methode/prompt_lot_ecart.md",
+  "methode/sas_lot_A_resume_attendu.md",
+  "methode/sas_pplc_regle_dor.md",
+  "reference/Constitution_3col_20260914_v45.html",
+  "sources/1pager_20260806_v1_proto.html",
+  "sources/Constitution_3col_20260730_v44.html",
+  "sources/Constitution_reference_20260806_v1.html",
+  "sources/DDHC_20260806_v1.html",
+  "sources/Donnees_20260806_v1_proto.html",
+  "sources/Input_HLM_20260806_v1_proto.html",
+  "sources/Input_gagnants_perdants_20260820_v1_brouillon.html",
+  "sources/LOLF_3col_20260507_v7.html",
+  "sources/LOLF_reference_20260507.html",
+  "sources/Note_entreprises_20260806_v1_proto.html",
+  "sources/PPLC_consolidee_modificative_20260730_v6.md",
+  "sources/PPLC_consolidee_substitution_20260730_v6.md",
+  "sources/Plan_presentation_20260730_v6.md",
+  "sources/Precedents_restes_a_payer_20260721.md",
+  "sources/Presentation_20260731_v44.md",
+  "sources/QA_20260806_v1_proto.html",
+  "sources/Recap_transposabilite_20260731_v6.md",
+  "sources/Recensement_innovations_20260731_v1.md",
+  "sources/Reserve_arguments_20260806_v1.html",
+  "sources/accroche_politique_revision_20260901.md",
+  "sources/note_reforme_budgetaire_20260730_v12.html",
+  "sources/prelevements_ifrap.tsv",
+  "sources/prompt_session_organisation_20260827.md",
+  "sources/rapport_gagnants_perdants_20260820.md",
+  "sources/structure_ppl.md"
+ ],
+ "empreintes": {
+  ".gitignore": {
+   "sha256": "f0a4c79ef25319ba7b82141e028d87641be87540dfee3c205a431d44acf9415c",
+   "octets": 947,
+   "lignes": 31
+  },
+  "CLAUDE.md": {
+   "sha256": "57df4cb8466449f76a684b525ef2bceeb8666ce0ef82307867e8565c608c43ff",
+   "octets": 23012,
+   "lignes": 454
+  },
+  "Makefile": {
+   "sha256": "76c611af206e5891364666e217a263304bd21a38530bb533cf8739c49b07c709",
+   "octets": 37535,
+   "lignes": 720
+  },
+  "appareil/apparier_operateurs.py": {
+   "sha256": "e4d72df63d1c06df3a3caa69cc2cb01ed555f4cffc7460df770437ae7eb37d72",
+   "octets": 12454,
+   "lignes": 288
+  },
+  "appareil/apports.py": {
+   "sha256": "fffb7f887bb19baaf67e3cd588111ef33f60705014a9d1ea61f30c02b91a68c1",
+   "octets": 24599,
+   "lignes": 652
+  },
+  "appareil/articles_ouverts_plf.py": {
+   "sha256": "9fc0dda49bf9740b248cc49174edfd53203beac27224615e934ecbf653ac9415",
+   "octets": 10493,
+   "lignes": 231
+  },
+  "appareil/axe_transparence.py": {
+   "sha256": "c1e0c5379c65347e402fb264051a38410d5a84a59117a64f5e8387265001a2bc",
+   "octets": 13884,
+   "lignes": 324
+  },
+  "appareil/blocs_disposition.py": {
+   "sha256": "ca323205d237f2699a8738c24d7c21706af6df19283a3993d23c4324ceb7eb84",
+   "octets": 3733,
+   "lignes": 100
+  },
+  "appareil/canoniser_ref.py": {
+   "sha256": "4ad02413e774bc0f15559165e662ecfcfe77db180cd2c7bda334e1046bf03d84",
+   "octets": 4031,
+   "lignes": 112
+  },
+  "appareil/carte_attribution.py": {
+   "sha256": "1b31e8b212020b5ccfead77e14d1d0fff85c9fca5740350eeea1bc9a31e5c30f",
+   "octets": 6672,
+   "lignes": 145
+  },
+  "appareil/cas_disposition.py": {
+   "sha256": "65705b4b98c8fcb59a340d1b4afa9655ef73d0ad69475e16de732d97d0d7366b",
+   "octets": 5965,
+   "lignes": 141
+  },
+  "appareil/chantier_vecteurs.py": {
+   "sha256": "b3a58ed023e56dfc5da8409eab9590586a25a9ae8585d84a0dde3f718a56e298",
+   "octets": 21285,
+   "lignes": 410
+  },
+  "appareil/cles_eval_expose.py": {
+   "sha256": "bc1eec4a1f719df47824fe7474155fa39a6ee729205c6024bc2b252b89fec762",
+   "octets": 7381,
+   "lignes": 179
+  },
+  "appareil/cles_eval_gl.py": {
+   "sha256": "fc4ab797feee5d4a2532a43f48948137ffda4f50cb11e1987245ef676fcbd21e",
+   "octets": 8426,
+   "lignes": 165
+  },
+  "appareil/coffre.py": {
+   "sha256": "b38290bb1d204444202ce4b52fb9838ca6b1a8a010258192f67ac858a208894e",
+   "octets": 6207,
+   "lignes": 152
+  },
+  "appareil/confronter_lecture.py": {
+   "sha256": "fd5b04be16b3c3eefc2de4a9c5c2a6ba66d3c8bb5d734dc4909b0560b0eee9c5",
+   "octets": 61485,
+   "lignes": 1386
+  },
+  "appareil/construire_positions.py": {
+   "sha256": "5058522768a38774dc3379a79f8194dafcef1afbfb59cae70896e4fe2aba399b",
+   "octets": 63671,
+   "lignes": 855
+  },
+  "appareil/controle_apports.py": {
+   "sha256": "1c4c2589b101223a8cfe8f1823502b91d76f46d71fb909f43fce14eee83d3046",
+   "octets": 12857,
+   "lignes": 300
+  },
+  "appareil/controle_arithmetique.py": {
+   "sha256": "0859434b8dd2f74d26bba9f5294e442f86bf8803f692335c3b1bdc77aa046398",
+   "octets": 13841,
+   "lignes": 249
+  },
+  "appareil/controle_blocs.py": {
+   "sha256": "66ad528f9427847af4ec2d8158d41ce70b5ecfbf9f60f44582862c511ac89526",
+   "octets": 15337,
+   "lignes": 329
+  },
+  "appareil/controle_chiffres.py": {
+   "sha256": "a1af339d62b4c62c4b585abb1ed3721d7a6ce70471612a767725f19a6eebbea9",
+   "octets": 15762,
+   "lignes": 370
+  },
+  "appareil/controle_cles_gl.py": {
+   "sha256": "90b53a694c05979903c0b1497e573d3043459de30cf13cfdf28cb48a7577efcf",
+   "octets": 6424,
+   "lignes": 146
+  },
+  "appareil/controle_colonne_c.py": {
+   "sha256": "12be4306e046a62233d5546901b9ebb095e1173ce13e65589b251e14c420a4b3",
+   "octets": 9611,
+   "lignes": 279
+  },
+  "appareil/controle_enonces.py": {
+   "sha256": "5c99b3f96f6dd7615d2bccc2f6ece657d8d266f544c9bf572b25a2e3dbf1d46b",
+   "octets": 3219,
+   "lignes": 95
+  },
+  "appareil/controle_generalisation.py": {
+   "sha256": "eecde4221e8463229ddc9ff01c25ab4a70aa7c2e6c35f002212c8091da01e956",
+   "octets": 13982,
+   "lignes": 301
+  },
+  "appareil/controle_generateurs.py": {
+   "sha256": "a668b82d0407e36d4393cbbfd05c5e44b34cc06bd38a9c7ba4289f303c2674f9",
+   "octets": 9869,
+   "lignes": 240
+  },
+  "appareil/controle_hypotheses.py": {
+   "sha256": "9a1d59a1d099effc06d895529a2c6c170123c50f275f2c3e18073dc57aaaafcf",
+   "octets": 4592,
+   "lignes": 126
+  },
+  "appareil/controle_index.py": {
+   "sha256": "6eeec11296dd0bbbbba6abde594a124755148d19d9ca24b7b71de4514a66c650",
+   "octets": 13043,
+   "lignes": 266
+  },
+  "appareil/controle_lexique.py": {
+   "sha256": "e6e17d00e34844bd5eb5ca7e2c49b729340bb5f3ccc90a50ba45744ff6bc9249",
+   "octets": 7235,
+   "lignes": 181
+  },
+  "appareil/controle_norme.py": {
+   "sha256": "f874618ae77240ca7c34ee6a54b003b74a4708e01c949c2e2850c6ee1030b0dc",
+   "octets": 11806,
+   "lignes": 292
+  },
+  "appareil/controle_notes.py": {
+   "sha256": "8ba418d27a7638d3184b085a7a2b30562cf219b8a2afde4f373f07858c97cb5a",
+   "octets": 2195,
+   "lignes": 62
+  },
+  "appareil/controle_projection.py": {
+   "sha256": "9d1c5405c0715ec3d82af07109a0132980804e788d7153ba6560eecd68ef064f",
+   "octets": 2043,
+   "lignes": 48
+  },
+  "appareil/controle_restauration.py": {
+   "sha256": "7d596b9011f9a2879c8768036d56de33f7238cf33ef7a4dd3b751ce17d98cc76",
+   "octets": 8797,
+   "lignes": 180
+  },
+  "appareil/controle_socle.py": {
+   "sha256": "0efadc994d0cf8473936c41e6e77706409d4428611af42032c95bcf5f6c1200d",
+   "octets": 18098,
+   "lignes": 361
+  },
+  "appareil/controle_sortie.py": {
+   "sha256": "b2a234400bdfff80f53bc53ee59d717614bc434bc17af71e82950d70533def53",
+   "octets": 18998,
+   "lignes": 517
+  },
+  "appareil/controle_structurel.py": {
+   "sha256": "440090b7d430a0c22b1cc9395d46119fbe99907c6656a198b398389b0514c7bc",
+   "octets": 12970,
+   "lignes": 268
+  },
+  "appareil/echantillon_epreuve.py": {
+   "sha256": "15c469c51ea59591bb42efc81bc7d1ac6ac157678986608e4d65d1c6a92e10b8",
+   "octets": 5643,
+   "lignes": 133
+  },
+  "appareil/empreintes.py": {
+   "sha256": "efee7e2c34f55dc366e2a95a7db555863774bc52d9bd1703d1627cc9e1c1c248",
+   "octets": 7438,
+   "lignes": 148
+  },
+  "appareil/epreuve_controle_blocs.py": {
+   "sha256": "ac4e8aa71fc423184fd7f5bd4df6f9ca573a28da644ee6ff5e8685c9a57c728e",
+   "octets": 6583,
+   "lignes": 178
+  },
+  "appareil/epreuve_s17_salaire.py": {
+   "sha256": "e8b60b581a74d44a8a033c85028fe194812ece6771f436e726fd5c206d07a669",
+   "octets": 5312,
+   "lignes": 128
+  },
+  "appareil/etat_machine.py": {
+   "sha256": "a99421753d818d36fd3eacd490896b783a2f720d5c107ba6c8492e15528e9d66",
+   "octets": 17765,
+   "lignes": 348
+  },
+  "appareil/exporter_donnees.py": {
+   "sha256": "908e5ef626691d92f375aa44e99efe1f45767763d9489b1ad94ebd3e94fecdb2",
+   "octets": 3530,
+   "lignes": 93
+  },
+  "appareil/extraire_notes.py": {
+   "sha256": "817b687dce8af8ad6086623ccad26fbcf150db853a414c385c5f9c1ffae1f907",
+   "octets": 2538,
+   "lignes": 67
+  },
+  "appareil/faux_lecture.py": {
+   "sha256": "3bdd661e1db9dd4b0d1ee046f229444beecbe25ca4309b9b9bffb029f8d559ca",
+   "octets": 5789,
+   "lignes": 143
+  },
+  "appareil/fragments.py": {
+   "sha256": "a1c2dfe3e38e7f5bcbd4410eaa256de7eecc78c7a08eefb569eabe74f0397358",
+   "octets": 9703,
+   "lignes": 246
+  },
+  "appareil/generer_arbre.py": {
+   "sha256": "d2dad662e988729a7c3ed9a12654bf42c635db3852a96a45010ff0ea99716843",
+   "octets": 36098,
+   "lignes": 702
+  },
+  "appareil/generer_carte.py": {
+   "sha256": "58b9ff773ef27dfd9c7662909f68cd8ffef6798caefa8cd85ed8216c3d730a81",
+   "octets": 44177,
+   "lignes": 840
+  },
+  "appareil/generer_classeur_synthese.py": {
+   "sha256": "41270bfb208ca60080b3e249b76502a460b01532b97e55d2e129eef9f04923e2",
+   "octets": 44608,
+   "lignes": 903
+  },
+  "appareil/generer_etat_vecteurs.py": {
+   "sha256": "2c5565f4dfd62a5c6fe93462ce95e23ad12fb7d20c667de9e75604c089cae9a0",
+   "octets": 22197,
+   "lignes": 448
+  },
+  "appareil/generer_extrait.py": {
+   "sha256": "ada59ee6c76ca68a235a2453fd8d031f85456f051a6b5c7d1481e88761c747ff",
+   "octets": 15393,
+   "lignes": 377
+  },
+  "appareil/generer_fiches.py": {
+   "sha256": "e5f9f8c85175b294f7813d87fcfe33b70218762f05cfd4a48dbb072e292e77f7",
+   "octets": 26038,
+   "lignes": 595
+  },
+  "appareil/generer_index.py": {
+   "sha256": "101dd90c6129b922de9a6517de39a1530581213290a4a113e87cf5fd1f7be7e1",
+   "octets": 98183,
+   "lignes": 1627
+  },
+  "appareil/generer_interface.py": {
+   "sha256": "4d70f0aeccf1fa73ad7c09810e966d4b8c3771661838b0e6ce647b43fccdf54c",
+   "octets": 13657,
+   "lignes": 341
+  },
+  "appareil/generer_inventaire.py": {
+   "sha256": "1a7e020c5a1f444c00d0e75ee7c0973ce4866df7daec67963d46458d83476033",
+   "octets": 19672,
+   "lignes": 379
+  },
+  "appareil/generer_ref_chiffres.py": {
+   "sha256": "af89c41fd7b6acb761f4c348a8ad4277263bdc3f1dfc9a2cbc12994fa70d4f45",
+   "octets": 22918,
+   "lignes": 536
+  },
+  "appareil/generer_releve_notes.py": {
+   "sha256": "3bc277fd9804e46da5e52852c48c817130fb5ce3dd2085ec4119d342496efb91",
+   "octets": 1380,
+   "lignes": 35
+  },
+  "appareil/generer_site.py": {
+   "sha256": "dcfa4a2585f69f8ef73ee4cde85957231292620d21e14ecab89af0bec38e246f",
+   "octets": 45308,
+   "lignes": 987
+  },
+  "appareil/hypotheses_doctrine.py": {
+   "sha256": "774431654eadb70bcaebf26e6471202c63d7f82b93c365ec439f9cd85f832745",
+   "octets": 13886,
+   "lignes": 313
+  },
+  "appareil/justifications.py": {
+   "sha256": "775b3dedea73da1abf43b11fd108947705bf39088c72ae4d7a3ff97a0400a63a",
+   "octets": 42306,
+   "lignes": 703
+  },
+  "appareil/lecture_en_creux.py": {
+   "sha256": "387e623507f856d4a8a531a01ef39fbe2cd046892265a5d7aca953cb3b98df19",
+   "octets": 16163,
+   "lignes": 357
+  },
+  "appareil/leviers_collocs.py": {
+   "sha256": "f5af5b8547df5d77f5e993fdf1e2852fbbe6e03551f551952fde1653e5d3c476",
+   "octets": 28081,
+   "lignes": 537
+  },
+  "appareil/manifeste.py": {
+   "sha256": "a68034c0ece71cfb2abbc7056b55bdd6008803678dbf1a626a231aebd78e6b58",
+   "octets": 6243,
+   "lignes": 143
+  },
+  "appareil/nomenclature_lolf.py": {
+   "sha256": "1936f00f1a91d3b32083760526fdd56ebc2e07ff442bd5113799778df83bd3ff",
+   "octets": 11286,
+   "lignes": 248
+  },
+  "appareil/noter_eval_disposition.py": {
+   "sha256": "0fd8790f78c9ac316df2825d06a1bdf32d495e10a816a5b5c130515aa6c7cb0b",
+   "octets": 15917,
+   "lignes": 347
+  },
+  "appareil/noter_eval_expose.py": {
+   "sha256": "18ca36f8bc6b7934dbf5b030098e5640ad28d0e527be7b8601050032b8f69533",
+   "octets": 5864,
+   "lignes": 136
+  },
+  "appareil/noter_eval_gl.py": {
+   "sha256": "3eb3cac168f078022337bf0390ebd32383c2f38160cfc59b8eec11c0242d0d2f",
+   "octets": 9384,
+   "lignes": 218
+  },
+  "appareil/partage_calibrage.py": {
+   "sha256": "dd94c600ccb1dad78949a60c0755b41583ac3f58ed5c79fc5747a16cae725201",
+   "octets": 15321,
+   "lignes": 355
+  },
+  "appareil/plages_articles.py": {
+   "sha256": "6e17998d570980524d03b391574eb1ca286db1130f7f50974ae5cdd53c644632",
+   "octets": 9998,
+   "lignes": 227
+  },
+  "appareil/plier_lot.py": {
+   "sha256": "df03bc1f4ee6997e3e87521906fd07686185353f7d90e733bb8fac0ae7aad1a2",
+   "octets": 1582,
+   "lignes": 50
+  },
+  "appareil/plier_paquet.py": {
+   "sha256": "524407d751a73c194a50c472806c668ac7deeb055425543fb4465a8338a37230",
+   "octets": 4989,
+   "lignes": 123
+  },
+  "appareil/porter_bloc.py": {
+   "sha256": "70c328ce127014457907cc3faa84e5cbb04e5044088fa4611e2365f06db09c1a",
+   "octets": 2954,
+   "lignes": 69
+  },
+  "appareil/portes_domaine.py": {
+   "sha256": "61672ea72fd5e70eaa6986b16620c9746c735cfc9921e5d764ad2c046f732beb",
+   "octets": 29152,
+   "lignes": 500
+  },
+  "appareil/portes_domaine_lfss.py": {
+   "sha256": "b5e7722b24f65c65fd793a2f973637293a778601528873391403f875b3192e69",
+   "octets": 28979,
+   "lignes": 557
+  },
+  "appareil/preparer_eval_disposition.py": {
+   "sha256": "cafa480744f592377793befb4f0fa1a39fdcbe5f249c8752e389108bd813da7f",
+   "octets": 4933,
+   "lignes": 120
+  },
+  "appareil/reappliquer.py": {
+   "sha256": "d598f40b74500b5709de60ee689377f15b5ba2ae896f95c823e11def5c0f3bd3",
+   "octets": 3587,
+   "lignes": 100
+  },
+  "appareil/reconcilier_operateurs.py": {
+   "sha256": "d7aa1929004145fddeb4bf5611cc3ee0e6cf69f4197c8f250324c03e757bf998",
+   "octets": 19099,
+   "lignes": 398
+  },
+  "appareil/redaction_deposee.py": {
+   "sha256": "78fdd499a85a7c666c63f1bab1e1819cf924a9d1d24fd47918ea475b02d7d083",
+   "octets": 5944,
+   "lignes": 133
+  },
+  "appareil/ref_norme.py": {
+   "sha256": "844a9aee3e2bd2f0be7509018e4e470689f0ebffa8ac81499297764ca08114d2",
+   "octets": 14194,
+   "lignes": 348
+  },
+  "appareil/refresh_toc_pdf.py": {
+   "sha256": "d9ad0f380b2b72ccfa34c2a2f597953feb76737d62f8c9bb71393574bd4055a4",
+   "octets": 3093,
+   "lignes": 81
+  },
+  "appareil/relever_ecarts_epreuve.py": {
+   "sha256": "82953c890ec184458b63ea3c376b7ebd86d8ed1fcfb47552c7ef594a9baf496d",
+   "octets": 21513,
+   "lignes": 568
+  },
+  "appareil/relever_protos.py": {
+   "sha256": "6e34b4892405a7a6cd45dc27cf8d726e97d34c34cc6ee5803c39c3110a9a754e",
+   "octets": 12138,
+   "lignes": 270
+  },
+  "appareil/rendre_blocs.py": {
+   "sha256": "ff4fcc96cecf43e3e12b2762b0a341127ed48b3c0c2b8941bb2c0cb268a0aa61",
+   "octets": 8180,
+   "lignes": 207
+  },
+  "appareil/rendre_releve_epreuve.py": {
+   "sha256": "fbc00c0c4bcb787a20ba5fb7ee01a2ed944137b811b65dcfb79d83df99ec123e",
+   "octets": 20949,
+   "lignes": 415
+  },
+  "appareil/restaurer.py": {
+   "sha256": "1a3fb66ad0a42e810f78be8e96f67a482ca44dc24277c0dd1d0a662470c6988f",
+   "octets": 11339,
+   "lignes": 264
+  },
+  "appareil/sans_cesure.py": {
+   "sha256": "e57134d8c17596e0cbc6cfd8b0616af98648e4242555004041d569066b13cc9f",
+   "octets": 1498,
+   "lignes": 34
+  },
+  "appareil/scinder_liasses.py": {
+   "sha256": "e48a4846cc0be9b2b655a31372c23302b29cd66035976399a1e16f032b0769d4",
+   "octets": 7487,
+   "lignes": 185
+  },
+  "appareil/socle_budgetaire.py": {
+   "sha256": "30adf29057b5749d76ef53bda308b9750a23d53037b0596fa8faf240f7883861",
+   "octets": 41988,
+   "lignes": 932
+  },
+  "appareil/socle_plf_texte.py": {
+   "sha256": "f8e7c95ac4619e8a4d587520db88adade0b74f5f98d7f0d0809d549995dc8813",
+   "octets": 52914,
+   "lignes": 1185
+  },
+  "appareil/sources_chiffres.py": {
+   "sha256": "088ebadc8cf9cd92f9f3a85cdf4d0e5a7169b84c81570d31d08b9947faa56320",
+   "octets": 55593,
+   "lignes": 1065
+  },
+  "appareil/structure_fiches.py": {
+   "sha256": "0a5970235633fc065f1db68a1fa602eb75c9e9afe67f8604b1111fbf114bd5a3",
+   "octets": 3817,
+   "lignes": 69
+  },
+  "appareil/texte_livre.py": {
+   "sha256": "296cbfb370e9c58832e4b5b783d97bd72237d434ccd1c29907072bbd0988fba8",
+   "octets": 13831,
+   "lignes": 345
+  },
+  "appareil/tracer_economies.py": {
+   "sha256": "8d21813852165d8f576503ad083b41c83ae33f703299e4b5f4c9bf1e2ba138aa",
+   "octets": 37621,
+   "lignes": 779
+  },
+  "appareil/trois_colonnes_regle_dor.py": {
+   "sha256": "44db308481ed93ab8120ed88688920c6fb5e27fef734d06b6e22c4cb48a24d52",
+   "octets": 40609,
+   "lignes": 635
+  },
+  "appareil/vecteurs.py": {
+   "sha256": "93e1eaccce2ed661439e8ce71fffcda53d29f0eb5541a4565844337c91c67493",
+   "octets": 18460,
+   "lignes": 355
+  },
+  "appareil/ventilation_vehicule.py": {
+   "sha256": "a4f7704be3bdca5aca5134ccc9bfd074d3f56208d1bfc4d63269c1143657332d",
+   "octets": 22996,
+   "lignes": 426
+  },
+  "livrables/PLF2026_annexe_technique.md": {
+   "sha256": "30db230f49093954ea37701d048428bd2d9f371d9a2fe021bddbfb76b902b7c5",
+   "octets": 39950,
+   "lignes": 770
+  },
+  "livrables/PLF2026_liste.md": {
+   "sha256": "3d045221e581771b0296e483ad51e518e2947a9e9e85717b31f97ab169c9234e",
+   "octets": 18096,
+   "lignes": 141
+  },
+  "livrables/PLFSS2026_liste.md": {
+   "sha256": "6eb7d78b58343364781ec8561111772603b795e9cb81d9be3111e982bced1695",
+   "octets": 16234,
+   "lignes": 117
+  },
+  "livrables/PLF_PLFSS_differences.md": {
+   "sha256": "183791ff8b157ee9f69ae07e7ff285e07219523ad9810242d438b68420cf5053",
+   "octets": 7085,
+   "lignes": 128
+  },
+  "livrables/PLF_PLFSS_formats.md": {
+   "sha256": "c5d5378c009d268871e94ef14251aa0326f30c9e2d5219137ac53f35b34af315",
+   "octets": 8739,
+   "lignes": 168
+  },
+  "livrables/PPLC_consolidee_modificative_20260914_v7.md": {
+   "sha256": "fcdb19bd0ba23b0a86e87b313113e0f459db562b4262f14de6560ae33278b42d",
+   "octets": 35863,
+   "lignes": 487
+  },
+  "livrables/PPLC_consolidee_substitution_20260914_v7.md": {
+   "sha256": "1370a27f3e41de80373e5aa86c44c8d6cff1d403ef74d73935a27cc65adef9a7",
+   "octets": 46402,
+   "lignes": 561
+  },
+  "livrables/PPLC_regle_dor_modificative.md": {
+   "sha256": "f4efa2b0298db697b73e1263fc7776673732ef789e804a2f6dbfe56bda3ce692",
+   "octets": 19730,
+   "lignes": 148
+  },
+  "livrables/Presentation_20260916_v47.md": {
+   "sha256": "d486b7dcf14b20502354b56e7fe0b84a980792469de8dae75b118d9dce25edff",
+   "octets": 60528,
+   "lignes": 431
+  },
+  "livrables/Presentation_regle_dor.md": {
+   "sha256": "d86fd0ae4ab90baae7e838408e7fbf9dbc995bac67c6b4b86e1d775126fdb7bb",
+   "octets": 24738,
+   "lignes": 234
+  },
+  "livrables/Recap_transposabilite_20260916_v8.md": {
+   "sha256": "2e44b435acd7b7b663bfb0acb6f51f74e292fc37d6696cbbd3151eb7c96fffb3",
+   "octets": 41770,
+   "lignes": 444
+  },
+  "livrables/Recensement_innovations_20260916_v3.md": {
+   "sha256": "3743cdd59bb6408265e5b903c9471b2879a4b3249139c6988df889353e1c762f",
+   "octets": 22950,
+   "lignes": 221
+  },
+  "livrables/arborescence_mesures_20260928.md": {
+   "sha256": "d221fe6daf9f38e7d6ae93925bd8dcc3a45188dc8f27a1152f46fa6096925075",
+   "octets": 35221,
+   "lignes": 650
+  },
+  "livrables/blocs_lot_C.md": {
+   "sha256": "562a1e388eacc8d1f8353b34754569b75bb7da383a30e432aab133002f8d4c38",
+   "octets": 148137,
+   "lignes": 2517
+  },
+  "livrables/blocs_lot_C_lecture.md": {
+   "sha256": "2d83f0fb6aa6634bc3ef6e87620c797d3df1ff222147334fe209092354da49f6",
+   "octets": 70676,
+   "lignes": 1120
+  },
+  "livrables/bordereau_confrontation_resume_2026.md": {
+   "sha256": "b5357d48bfc1d769014b33698dcea30f0893aa57b4a8eff8da13121bbc5c9550",
+   "octets": 9296,
+   "lignes": 180
+  },
+  "livrables/cgi_expert_comblements_20260929.md": {
+   "sha256": "f287d79541a5a8da33e5d14611378735a23c7e668d7fb3e3c23ea8a0aff580ec",
+   "octets": 7551,
+   "lignes": 146
+  },
+  "livrables/cgi_expert_commentaires_20260929.md": {
+   "sha256": "ea8fed2408f6f2d613c0d577bb4ee8c9f0773f5d799bdf9aa4596e6d7a92e7ae",
+   "octets": 13837,
+   "lignes": 82
+  },
+  "livrables/cgi_expert_couverture_20260929.md": {
+   "sha256": "916b56f71ee10da9c12db5faf97963b3489c51e23aad05bea2a3303ea450c8ea",
+   "octets": 9475,
+   "lignes": 157
+  },
+  "livrables/comblement_termes_manquants.md": {
+   "sha256": "1be1ebc65027a9e05782bc445aa5e5ecc892f1f8747720b50c0ead1a48ba638b",
+   "octets": 22107,
+   "lignes": 392
+  },
+  "livrables/confrontation_resume_2026.tsv": {
+   "sha256": "4103a3e62f226e4bf5190cafa5f7abf27f888c5753cf8e4ba4fcd826fc4556f7",
+   "octets": 49153,
+   "lignes": 309
+  },
+  "livrables/couverture_table_de_passage_20260930.md": {
+   "sha256": "16fa7a1fda658558b044c75772c554cde3cc067bb0a3eb18961398b3bee112c0",
+   "octets": 17324,
+   "lignes": 319
+  },
+  "livrables/digestion_archives_20260921.md": {
+   "sha256": "2c2f2065f0e77d33d99207fc015675c6be22aa01ae9d4a176d10a6f714ab040d",
+   "octets": 17910,
+   "lignes": 258
+  },
+  "livrables/ecart_classeurs_20260917.md": {
+   "sha256": "4fcb9c518ccf2326daf87bf8f504bcceeb7ea3c8e8658b1294836a11eeb62865",
+   "octets": 26824,
+   "lignes": 559
+  },
+  "livrables/etat_carto_20260924.md": {
+   "sha256": "7be53c7c23aa8941859505da28e95dd7759b64feba0b9653e62d99751f4e8336",
+   "octets": 10287,
+   "lignes": 181
+  },
+  "livrables/etat_site_20260921.md": {
+   "sha256": "989edf90c1e8ccfca6a8dc8a669bec2304a59725d2a17f7d6eefb712801fac94",
+   "octets": 14363,
+   "lignes": 177
+  },
+  "livrables/eval_disposition/enonces.json": {
+   "sha256": "05ed0547bb9a05c2699676c0a224dc1e471d4c8d7435d0934a1b3c9ccc6d873c",
+   "octets": 35028,
+   "lignes": 670
+  },
+  "livrables/eval_disposition/notation.json": {
+   "sha256": "96caa6a1dc9c8abd64e6805e3ec85fb9e4459dd9befc7de61ac524b0951aab0f",
+   "octets": 31569,
+   "lignes": 1856
+  },
+  "livrables/eval_disposition/releve.json": {
+   "sha256": "5ec1dc6a1fc3500072073042bbd4a0c020ab3085f17e17c46dc4a132272aa1a0",
+   "octets": 74158,
+   "lignes": 1070
+  },
+  "livrables/eval_gl/reponses_vecteur_mesure_plf.json": {
+   "sha256": "9b5772a15d6021282fdd2c6186a3924aa559c868166fc089670294f3b55fb5ea",
+   "octets": 4917,
+   "lignes": 180
+  },
+  "livrables/eval_gl/reponses_vecteur_mesure_plfss.json": {
+   "sha256": "b7ea2d9b7b15bc576426886751c7d634e7679371cd48fe3a82ecdef10a638958",
+   "octets": 2095,
+   "lignes": 84
+  },
+  "livrables/extrait_classeurs_anterieurs_20260917.md": {
+   "sha256": "56d075c80cc656aab457042616f34b4cb8e483d7dcd61a45b1eae349bc9bf2e8",
+   "octets": 28816,
+   "lignes": 383
+  },
+  "livrables/graphiques/index.md": {
+   "sha256": "a80b6599a1614dbba68d825398b1aefe178623d964dc72613eab6b1ef86e0c39",
+   "octets": 5996,
+   "lignes": 113
+  },
+  "livrables/index_mesures_plf.md": {
+   "sha256": "4f3966a203f2134b633409c7d171de8c563195064d04dd1c6761f13261ecdf20",
+   "octets": 124365,
+   "lignes": 1090
+  },
+  "livrables/manifeste_20260923.md": {
+   "sha256": "a668a4fb26c1a6d69f94a7d9dbbe9bb34544e4196029ce2ba9769e09b588eb77",
+   "octets": 7806,
+   "lignes": 152
+  },
+  "livrables/manifeste_20260924.md": {
+   "sha256": "871ff2f8f73620671a98e1105496328727f0e32269e5ddb5b7613f32ccc2fd54",
+   "octets": 4374,
+   "lignes": 85
+  },
+  "livrables/mecanique_gages_restitutions_20260929.md": {
+   "sha256": "5ce9d4137286010be77c693f53748494d7f52796cc2b238b39e3cdb5fb58b999",
+   "octets": 28717,
+   "lignes": 482
+  },
+  "livrables/paquet_machine.md": {
+   "sha256": "2c5940c5928a53cb033f6fafb7db5d79fc8812f67d72afb53610f94c180d5d6d",
+   "octets": 103312,
+   "lignes": 1602
+  },
+  "livrables/predigestion_cgi_20260929.md": {
+   "sha256": "2dd2304bde00f5caa7fe397d9a0472f1f36634a72d4d3b8142948b71cd38676d",
+   "octets": 7966,
+   "lignes": 151
+  },
+  "livrables/rapprochement_proto_20260921.md": {
+   "sha256": "3aecf079be93b2816e47ddacbdd61af5d88ff6b7bc9cb3de9b32856efdd3025f",
+   "octets": 33046,
+   "lignes": 251
+  },
+  "livrables/recensement_prelevements_20260930.md": {
+   "sha256": "1ca3db061422dc314e1f4d80fca171dd8107d0debfc6e4a760804a61dcbe1bd8",
+   "octets": 12342,
+   "lignes": 228
+  },
+  "livrables/reconciliation_sources_fiscales_20260930.md": {
+   "sha256": "89d2632650f014150a0722b3b1f082a10a800d8cb4ce1c97158da91257e656ec",
+   "octets": 16363,
+   "lignes": 317
+  },
+  "livrables/reconfirmation_chiffres_20260921.md": {
+   "sha256": "2178a892648e7ec4fc7f2c3b7c2b7a1fb551b4760fa05061ef2ded61fefbb6fc",
+   "octets": 95297,
+   "lignes": 507
+  },
+  "livrables/releve_epreuve_EP2.md": {
+   "sha256": "8c5869ebf1c09cde1a3c6dd9b56ee8af1d9fb79940fedc61949361a4e0856c70",
+   "octets": 7963,
+   "lignes": 162
+  },
+  "livrables/releve_epreuve_EP2.tsv": {
+   "sha256": "bdf2c372740fe9dc488fecee21fe86356436c6b586748880e7ef61da3313e176",
+   "octets": 95095,
+   "lignes": 859
+  },
+  "livrables/releve_epreuve_EP3.md": {
+   "sha256": "7d7426ef65a812355ce020064eebcc7e70ac1a6197ffaf702e2b95fd67401be3",
+   "octets": 16484,
+   "lignes": 278
+  },
+  "livrables/releve_epreuve_EP3.tsv": {
+   "sha256": "25b0e1cc1b31ea4fa603e3e3884655873e14c47415e2aac4f8fe544b09f5948c",
+   "octets": 59150,
+   "lignes": 270
+  },
+  "livrables/releve_passe_825_534_20260923.md": {
+   "sha256": "745e35f426f14248f11d311f7d5053b38094cb89073d0e3f92149861ff7de27e",
+   "octets": 14587,
+   "lignes": 239
+  },
+  "livrables/resume_attendu_texte_financier_2026.md": {
+   "sha256": "40b13a63986f18774868977aaf550c001dffeb58e3933c616bc3362db08fbd1f",
+   "octets": 36290,
+   "lignes": 656
+  },
+  "livrables/sort_prelevements_20260930.md": {
+   "sha256": "c5389b64105baefc5a5d8ebba440bf8183eac751f86f90019edb6962e0598626",
+   "octets": 25345,
+   "lignes": 494
+  },
+  "livrables/zip_doctrine_lisezmoi.md": {
+   "sha256": "240d809abfbd2e332f1b834bfe7c966ec80e43be6034045f5c6a45f7b00f699b",
+   "octets": 6949,
+   "lignes": 131
+  },
+  "livrables/zip_doctrine_regles_de_lecture.md": {
+   "sha256": "b0c4a4cf9f399ffc7c78088c30ed159fa79c2fda274157144b96fa551fb49553",
+   "octets": 6108,
+   "lignes": 122
+  },
+  "livre/index_livre_EP3.md": {
+   "sha256": "a3a0c01b9a63103ca5f5eb71de4431b784a20e32ce98f0999867a9537be22c45",
+   "octets": 3841,
+   "lignes": 83
+  },
+  "livre/texte_livre.json": {
+   "sha256": "2d3854998e6b01d3ec45f320ec8eec3ad9f6d84d11eb579150adad349d5a0a9c",
+   "octets": 311829,
+   "lignes": 7979
+  },
+  "methode/a_trancher.md": {
+   "sha256": "f3c11c51ff7f430cd6d497ae80e27da3798d41ee074c555c4283f672dbf60b16",
+   "octets": 31089,
+   "lignes": 475
+  },
+  "methode/arbitrages.md": {
+   "sha256": "42430355cc39eafd8147a5e7789820e418502037152f9f0ed4b9d665078cb2e9",
+   "octets": 391776,
+   "lignes": 6612
+  },
+  "methode/arbitrages_archive.md": {
+   "sha256": "a757463a5c37f717a9f7361ba7574e960125c64840d975827080057d358da255",
+   "octets": 243539,
+   "lignes": 4678
+  },
+  "methode/audit_derives_20260924.md": {
+   "sha256": "76760c7f9bdabaaf00051459a79c4cc812d34d882cf5f126659eea307453e0ae",
+   "octets": 5366,
+   "lignes": 104
+  },
+  "methode/banc_chouchous.md": {
+   "sha256": "a5d10aefd0435561bdb9e10b6264609d2243746f2bed6e126ec81f355ebf43eb",
+   "octets": 41871,
+   "lignes": 865
+  },
+  "methode/banc_gl.md": {
+   "sha256": "ef16da63c472e9fd1dd62c0a3202335f09147dbd42ec2519b1cb176709430a5e",
+   "octets": 22074,
+   "lignes": 418
+  },
+  "methode/carte_des_chantiers.md": {
+   "sha256": "b1ee9f92be36e287afded6e05cc809b2b4a117e439592a348483f14e34db85ef",
+   "octets": 21953,
+   "lignes": 435
+  },
+  "methode/classement_corpus.md": {
+   "sha256": "f5de90da4bdf46dbce7a3352fbf32d10a21c4c17a6035ce0fdc3f9ab3d2fa01a",
+   "octets": 5442,
+   "lignes": 124
+  },
+  "methode/contrat_chaine_amendement.md": {
+   "sha256": "bd55d9902fbc97e42d9a89f5ab475ef7fb236d9e85ef88d3e4bf22a8f3f536bd",
+   "octets": 24468,
+   "lignes": 476
+  },
+  "methode/contrat_projection.md": {
+   "sha256": "bf16b1e65a2b9c18245df2e440f66855c7a29add5c9a939060afa0a551d1ae26",
+   "octets": 15385,
+   "lignes": 308
+  },
+  "methode/cr_site_arret_mesure_20260923.md": {
+   "sha256": "923597a1d897d5c5ce78e9ce1b93b0c7f69813d9fa5acdc797ff62cd992367e6",
+   "octets": 3749,
+   "lignes": 66
+  },
+  "methode/cr_socle_second_cercle_20260917.md": {
+   "sha256": "104a5d8badbbf213ee675effa8b8586653c712682cd05fc5993de67062ad41c1",
+   "octets": 10298,
+   "lignes": 196
+  },
+  "methode/croisements_corpus.md": {
+   "sha256": "2ac3aeb3a85aa29b1b2250f27b3a8136c6706edea47c8c0d0b6a05d90c120564",
+   "octets": 15737,
+   "lignes": 311
+  },
+  "methode/derivation_D2.md": {
+   "sha256": "774fe8cc398ad9b6fc7ac7a87ab9988d84951040871c4990ea2fff3b8ead03b6",
+   "octets": 20956,
+   "lignes": 377
+  },
+  "methode/etat_revision_constitutionnelle.md": {
+   "sha256": "feabf1b18d20166941dfe5d4373a4aaa64d54d2a83e8bcd2bd9ba5ad0aaadf18",
+   "octets": 19469,
+   "lignes": 325
+  },
+  "methode/feuille_de_route.md": {
+   "sha256": "f532df669f9bcd08f920e0959346503a319ec99ea3c42381108639513e75c05d",
+   "octets": 12505,
+   "lignes": 265
+  },
+  "methode/fragments/a_trancher/20260929-cgi-expert.md": {
+   "sha256": "975f03d6bdbbb108e1453f9193b75aea613306984fb87e05c168fbcb4f5c7ba3",
+   "octets": 5241,
+   "lignes": 70
+  },
+  "methode/fragments/a_trancher/20260930-sort-prelevements.md": {
+   "sha256": "e7ff69f026fe87268bab8fcfc473f3e3de563ff0697f5c97630637f5ba126b71",
+   "octets": 2348,
+   "lignes": 35
+  },
+  "methode/fragments/a_trancher/20261001-courroies.md": {
+   "sha256": "a09628a888fe39e1c2eb715ea5c0b7b00d76d9a845632dc912f1491e973ea629",
+   "octets": 2350,
+   "lignes": 38
+  },
+  "methode/fragments/arbitrages/20260917-socle.md": {
+   "sha256": "053ce754606ae3cceff542b66635e5fe327d842a98842266dea0949fc07f8066",
+   "octets": 4118,
+   "lignes": 62
+  },
+  "methode/fragments/arbitrages/20260930-arbitrages-phase1.md": {
+   "sha256": "b9272829500134ca960bdf15798290f9df6dad248db02aa747b33daf7ea0f628",
+   "octets": 4127,
+   "lignes": 69
+  },
+  "methode/fragments/arbitrages/20260930-cle-de-passage.md": {
+   "sha256": "02bc665c5a454508ea5c895846287492189ba43bd85007376df6add510f94c15",
+   "octets": 1476,
+   "lignes": 25
+  },
+  "methode/fragments/arbitrages/20260930-correction-cle-de-passage.md": {
+   "sha256": "b9b58043ed8401b18fda2af505616dfcab2b8c1c356c65ccc27f74cdd9b8ad3a",
+   "octets": 1076,
+   "lignes": 18
+  },
+  "methode/fragments/arbitrages/20260930-csa-forfaits-de-cotisation.md": {
+   "sha256": "a25b317c6517451ea7c51d170701e28fae5418f9225cfc1b06344716b2430eae",
+   "octets": 1801,
+   "lignes": 39
+  },
+  "methode/fragments/arbitrages/20260930-defauts-reconciliation.md": {
+   "sha256": "e2fbf104aac58368843c22a17eadc9d76f46cc4e75129dce143ecff5eb7f5efa",
+   "octets": 3717,
+   "lignes": 67
+  },
+  "methode/fragments/arbitrages/20260930-perimetre-fiscal.md": {
+   "sha256": "d6818030458a584bb765fd975590788cb9fa2c1ecedff72bcb7a1e93400479c0",
+   "octets": 3274,
+   "lignes": 47
+  },
+  "methode/fragments/arbitrages/20260930-sort-prelevements-decisions.md": {
+   "sha256": "60992829df2634684484712cebdab4c94b3208186b2b75a98de09861f21eda8b",
+   "octets": 3123,
+   "lignes": 49
+  },
+  "methode/fragments/arbitrages/20260930-sort-prelevements.md": {
+   "sha256": "ab82bae8a35d7c795df6b468211707a82a34b3fddad25262a8801b824cec9c14",
+   "octets": 3362,
+   "lignes": 50
+  },
+  "methode/fragments/arbitrages/20261001-courroies.md": {
+   "sha256": "b83b09b16a1e6e6ac102230756d0b51047ff42518ca0a56328ac39e17786ab73",
+   "octets": 2592,
+   "lignes": 38
+  },
+  "methode/fragments/arbitrages/20261001-epargne-salariale-et-affectataires.md": {
+   "sha256": "683e604769df14215784d020543ef931a741cd46150e9c3dedc45533f4021dc5",
+   "octets": 3274,
+   "lignes": 60
+  },
+  "methode/fragments/journal/20260917-socle.md": {
+   "sha256": "9bdb3bd3f06af0d5ee6ea004164a11d5db949b0e98ab080dab4c5850228f80d4",
+   "octets": 3398,
+   "lignes": 53
+  },
+  "methode/fragments/journal/20260930-arbitrages-phase1.md": {
+   "sha256": "4a3239ccee8705da83ca9242b282bf70bbeb036e8911f42562907d72a4a26033",
+   "octets": 1946,
+   "lignes": 30
+  },
+  "methode/fragments/journal/20260930-correction-forfaits-cotisation.md": {
+   "sha256": "ccfe972964116045af96021064fd21bcaec2d07da06bd5febe0c5aa1ed46d980",
+   "octets": 2112,
+   "lignes": 33
+  },
+  "methode/fragments/journal/20260930-inscription-registre.md": {
+   "sha256": "e7e7ad3d8b3834ce082d2b40f232417565877908e574f8554f741b9af710df76",
+   "octets": 10565,
+   "lignes": 164
+  },
+  "methode/fragments/journal/20260930-perimetre-fiscal.md": {
+   "sha256": "fb393e99daa975364275e147169d4a1a8e73de1e66bd14fd8fb33b5b1a7d7ff0",
+   "octets": 3887,
+   "lignes": 63
+  },
+  "methode/fragments/journal/20260930-sort-prelevements.md": {
+   "sha256": "ac01a5abf5775eda4badc8f7757d7405bad285a29db800e7d0926f2464587c85",
+   "octets": 3748,
+   "lignes": 59
+  },
+  "methode/fragments/journal/20260930-table-de-passage.md": {
+   "sha256": "807e007a4fd8b370b72bd64d695755ab624de609c4ccc76d961a96803db5c5b6",
+   "octets": 1994,
+   "lignes": 31
+  },
+  "methode/fragments/journal/20260930-versement-reprise.md": {
+   "sha256": "08d40643212f915089bae82ad7b88fdc2021350035f3cee107e936668c06ee83",
+   "octets": 2874,
+   "lignes": 50
+  },
+  "methode/fragments/journal/20261001-courroies.md": {
+   "sha256": "0e1f7033992964dd629769dc97a75c87763dd2d4bdb9c934a279c02369f87095",
+   "octets": 4646,
+   "lignes": 74
+  },
+  "methode/fragments/journal/20261001-lecture-2027.md": {
+   "sha256": "876fc7b4d11be28e4be1b4c49fe17ba99248217d0ee3dfdcd2ba8372f667f5f0",
+   "octets": 2928,
+   "lignes": 47
+  },
+  "methode/grille_lecture_budgetaire.md": {
+   "sha256": "85b3a8dbd079ff161c70c1da943b5dd0328b3970dd7137cd8263269edd0bd620",
+   "octets": 38811,
+   "lignes": 675
+  },
+  "methode/index.json": {
+   "sha256": "5da10ca69687d173248f0a9df0be6943166d842f003abc72d9560c5d36b36bb0",
+   "octets": 139903,
+   "lignes": 5444
+  },
+  "methode/journal.md": {
+   "sha256": "aa7af45bafe9261a3c52400da96ed05221bf6b852c9e22f272bbd2d6dfc19a07",
+   "octets": 59072,
+   "lignes": 971
+  },
+  "methode/localisation.md": {
+   "sha256": "fe67558ef348f4710d90d2e76940259a3fe876c87d25db558f700ef3445b67ec",
+   "octets": 16877,
+   "lignes": 309
+  },
+  "methode/methode_decoupage_bloc.md": {
+   "sha256": "42850db298935a0f30748e147c11245277a1d88a9e0208c5f7d9fac82d68c970",
+   "octets": 4605,
+   "lignes": 119
+  },
+  "methode/paquet_depot_socle_20260917.md": {
+   "sha256": "22d07366d052c51e0fe00207ae137d52c0407f397dcad5b00938b4c4ad2091e2",
+   "octets": 3899,
+   "lignes": 71
+  },
+  "methode/passation_lecture_en_creux.md": {
+   "sha256": "0a563ce8db3b45ee4d1c7e7df4789c3b7d4e2b57cc09f94a9b05ea70fa3a22e1",
+   "octets": 23276,
+   "lignes": 404
+  },
+  "methode/passation_site.md": {
+   "sha256": "a87c8020c0b9a1abd0ed20f60617c7453d2943d8c06b82dc1788e316dc494d73",
+   "octets": 4945,
+   "lignes": 109
+  },
+  "methode/plan_bataille.md": {
+   "sha256": "faef86c24db26fea122923386e70b93c452a39de379099561467ed575c0a6c94",
+   "octets": 7767,
+   "lignes": 155
+  },
+  "methode/plan_sept_phases_20260930.md": {
+   "sha256": "52b876bcd54f38ed398671572ee5e5632effc6693d5a0636822d6b7ec84088ab",
+   "octets": 6200,
+   "lignes": 71
+  },
+  "methode/procedure_contre_plf.md": {
+   "sha256": "ea50c15f3110b41439c1670e87e1214342148515d34bba54eb9b09d3d507b747",
+   "octets": 18044,
+   "lignes": 360
+  },
+  "methode/procedure_controle.md": {
+   "sha256": "d88fa34b7385fc27612e5d040fd379b5311c29e242cf8ca3cd6e0251793e59aa",
+   "octets": 12563,
+   "lignes": 266
+  },
+  "methode/procedure_vecteurs.md": {
+   "sha256": "517512b640e72606c6af9a101e346773e933d604238459b22ba5dc7d25bd521d",
+   "octets": 12123,
+   "lignes": 253
+  },
+  "methode/prompt_fil_carto.md": {
+   "sha256": "2f428188e3f878bc9af535312c82777e80d554866c018d289a3e9547beac73a8",
+   "octets": 7190,
+   "lignes": 143
+  },
+  "methode/prompt_fil_courant.md": {
+   "sha256": "68c3a2c219fe3ea28ddb21c3176e2bd36921fc55337f911345b1e49a7801a71d",
+   "octets": 13663,
+   "lignes": 264
+  },
+  "methode/prompt_fil_courroies.md": {
+   "sha256": "a1ce90d930c49bd0de834bb428155c0bc6089961fc480a353335f17f4c7bae39",
+   "octets": 4474,
+   "lignes": 75
+  },
+  "methode/prompt_fil_design_graphique.md": {
+   "sha256": "17b3c43a179fe5c92892b434f8e6734938dcb26fab50c18da17f03c9e14f8242",
+   "octets": 2912,
+   "lignes": 23
+  },
+  "methode/prompt_fil_lecture_textes_2027.md": {
+   "sha256": "b5a681776de2b38e8ef3cdd8b2582280de5c18cd4a490bffdc84bace1d9d8180",
+   "octets": 12462,
+   "lignes": 214
+  },
+  "methode/prompt_fil_noeud_mise_en_oeuvre.md": {
+   "sha256": "75bdc30296c001174073aac440d7f8c61fa2462267fe840232fb381e778dad77",
+   "octets": 8975,
+   "lignes": 188
+  },
+  "methode/prompt_fil_site_pages_bande.md": {
+   "sha256": "232d46dd118a4177e1cc1d2be33e9e6289c4ab44ad822596a5dca1e5a87d5e11",
+   "octets": 8036,
+   "lignes": 74
+  },
+  "methode/prompt_fil_sort_prelevements.md": {
+   "sha256": "791afb181d5e6210fe7fd385e110c2146db89812dde33d79c8370e0f9d923c97",
+   "octets": 11230,
+   "lignes": 189
+  },
+  "methode/prompt_fil_window_dressing_site.md": {
+   "sha256": "9118a321c8ed90f818d9b246356725d3088aac19856ced272d1d4886b9264518",
+   "octets": 2765,
+   "lignes": 51
+  },
+  "methode/regle_enonces_eval.md": {
+   "sha256": "3c706d1af3876f0e5a6440c79b940c58984288c12e750cee4fc8fe8e09132ef5",
+   "octets": 3411,
+   "lignes": 78
+  },
+  "methode/regles_forme_canonique.md": {
+   "sha256": "42ecec9215b95a2afc23fd0010421449746d189a2e086f0c1c45f1750732dbce",
+   "octets": 16892,
+   "lignes": 361
+  },
+  "methode/regles_redactionnelles.md": {
+   "sha256": "3c7ea1d94ddfa9f643260deb2e509dcef3331f782512fc3d5c918e206eb868e3",
+   "octets": 14904,
+   "lignes": 194
+  },
+  "methode/sas.md": {
+   "sha256": "ba109b56b6d99cb59ddd0662ca13aab4285b16cbed1ab1fea8c38e778148ff25",
+   "octets": 11791,
+   "lignes": 162
+  },
+  "methode/socle_prompt_fil.md": {
+   "sha256": "53174e37029b3fb5160946f3492c06d85df75a8f997b8984aeda710b3a34f2ad",
+   "octets": 6367,
+   "lignes": 121
+  },
+  "methode/test_rattachement.md": {
+   "sha256": "6deaba131394c0be14362fa74405fb07f9532cc6ee8220710f71943ea1110d1b",
+   "octets": 12811,
+   "lignes": 261
+  },
+  "reference/Constitution_3col_20260916_v46.html": {
+   "sha256": "80de491474511d123e3e87811f65315834b457ee8f735ba0722e5a6f6f73caed",
+   "octets": 104362,
+   "lignes": 923
+  },
+  "reference/cgi_expert_regles_de_lecture.md": {
+   "sha256": "dc847ca1b2691827f5c467cc8c46423295d72c6a9b6072e41a251d5bd4631f44",
+   "octets": 9896,
+   "lignes": 175
+  },
+  "reference/charte_visuelle.md": {
+   "sha256": "c6393df8a673e4b21498fd615e6ad72aaf3f339cc9e693b049b4a78977e9582d",
+   "octets": 7928,
+   "lignes": 160
+  },
+  "reference/depot_droit.md": {
+   "sha256": "bce42452313f9f5c26c2963cdf49d4574bb2e585fb47f64a421228f5f853377e",
+   "octets": 10912,
+   "lignes": 196
+  },
+  "reference/digestions_attendues.md": {
+   "sha256": "bff4ddcbd25ba2e90b6ca2c31ed1158e9cc228489e51654ced507663ba614293",
+   "octets": 12134,
+   "lignes": 215
+  },
+  "reference/domaine_lfss_LO111-3.md": {
+   "sha256": "779c0ea7bba5354a9c9ec4ece5fc97b84a07cedc7dec5eaef50330925163c85b",
+   "octets": 5733,
+   "lignes": 57
+  },
+  "reference/gabarit_expose_sommaire.md": {
+   "sha256": "494447dc3174e5d6af3efab42ea056803a61833c70e8a8845e5a3bba0b195e0f",
+   "octets": 8012,
+   "lignes": 171
+  },
+  "reference/imposition_du_capital_fondapol.md": {
+   "sha256": "da52b6a504b4a658516adc9a38a3f601794e5217f8d9fc62acc49669e28fcd81",
+   "octets": 32008,
+   "lignes": 506
+  },
+  "reference/justice_fiscale_1789_fondapol.md": {
+   "sha256": "80fa9752807d22d528bafcfc879cfe026421fd5ddef9ebf21fa7d9ef48e7328d",
+   "octets": 25536,
+   "lignes": 444
+  },
+  "reference/nomenclature_prelevements_ifrap.md": {
+   "sha256": "cf3a1e1de7bc7499ada03abe384f48235151f3b9429b353e8f2c33791c2ff97e",
+   "octets": 28409,
+   "lignes": 515
+  },
+  "reference/passation_droit_renvois.md": {
+   "sha256": "67aecd35df2acf8ee662ee0e0cbc732247191ea9330d9946c2a03985233c1cbe",
+   "octets": 11117,
+   "lignes": 214
+  },
+  "reference/sourcage_ir_dgfip.md": {
+   "sha256": "4f7ef6dca97a831f4636af5d43a2219022d4a445ad15653d487af2383e36575b",
+   "octets": 10124,
+   "lignes": 184
+  },
+  "referentiels/REF_doctrine.json": {
+   "sha256": "8beb2e0fd63ba268a8bc8f6e8d9038800c1582d13600408a9cf6a8ec0eae149f",
+   "octets": 348132,
+   "lignes": 9754
+  },
+  "referentiels/articles_ouverts_plf.tsv": {
+   "sha256": "2863d12f461ef7a61c01a564d9842783cf456cfbc8619eb5619063abf2c9e9ec",
+   "octets": 23061,
+   "lignes": 396
+  },
+  "referentiels/articles_ouverts_plfss.tsv": {
+   "sha256": "8aa17c7573729c7217487821aba2ca700d3f61501b3294d3bd05b19074f15c8b",
+   "octets": 11634,
+   "lignes": 218
+  },
+  "referentiels/cgi_expert_articles.tsv": {
+   "sha256": "8448b4cf4292c84127fe1bdce77a1b64ef2e34c43a1bca74933a76a99f4ebafe",
+   "octets": 100381,
+   "lignes": 1755
+  },
+  "referentiels/cgi_expert_articles_bouges.tsv": {
+   "sha256": "c4d0ad8d1ec43d734fbd789f1399149452f2ea96cf6424f268dc54c7734e575d",
+   "octets": 34681,
+   "lignes": 255
+  },
+  "referentiels/cgi_expert_insertions.tsv": {
+   "sha256": "bb2722e16798146fc8030d66e0d8e395b41c142111c298f8bb8d3b9166fe09b8",
+   "octets": 61603,
+   "lignes": 435
+  },
+  "referentiels/cgi_expert_parametres.tsv": {
+   "sha256": "157742ece38f0c239a273790297d6b668488c7e0624102a9af52f7475668e0ec",
+   "octets": 7497,
+   "lignes": 48
+  },
+  "referentiels/cgi_expert_suppressions.tsv": {
+   "sha256": "133e009537b870725ab89a7e01ec6133d080a804813fbd5178f0b52d053ee292",
+   "octets": 136606,
+   "lignes": 3250
+  },
+  "referentiels/index_mesures_plf.tsv": {
+   "sha256": "0159a5c218b9d4015f30d26f78d2273bc4d19a7dfd497d20f1d9a661a20040bd",
+   "octets": 157690,
+   "lignes": 416
+  },
+  "referentiels/lots_epreuve.json": {
+   "sha256": "d3a01345d47a6116191d609e7c6fa46353c592914cf013ded6c52fd33a47aa84",
+   "octets": 21051,
+   "lignes": 518
+  },
+  "referentiels/notes_manuscrit.json": {
+   "sha256": "a6a07a73468b939ec201f98c7ba24c29a56b2438c6502c09c66ca6ffcc9f0174",
+   "octets": 59142,
+   "lignes": 994
+  },
+  "referentiels/prelevements_forces_20260930.tsv": {
+   "sha256": "13faa2a746c04fd1978928bfd80a2a310fe20c8274388bf95812f52ede86ae64",
+   "octets": 207773,
+   "lignes": 421
+  },
+  "referentiels/redaction_plf.json": {
+   "sha256": "eec65f01912754b8c1873378d5a4019d02d5bdcf95f0d89499d0841ea153209d",
+   "octets": 848687,
+   "lignes": 1
+  },
+  "referentiels/redaction_plfss.json": {
+   "sha256": "71119c0f83a4691522fbcd4bf53cf372d245a0b7c581e3fac0f97be2231add52",
+   "octets": 351968,
+   "lignes": 1
+  },
+  "referentiels/reperes_resume_2026.tsv": {
+   "sha256": "14cf6ae4030935b39887803d046c8b1e83f2b04f31d6c571b32c5c2ba1f7c639",
+   "octets": 42377,
+   "lignes": 309
+  },
+  "referentiels/sort_prelevements_20260930.tsv": {
+   "sha256": "cf8f2ec247244b76ad653e7979f00a75de9c5a1e2d3c96e303462ccc338ca7c8",
+   "octets": 116383,
+   "lignes": 421
+  },
+  "referentiels/table_passage_schema_prelevements_20260930.tsv": {
+   "sha256": "553e2e3cb58058e3a59c91d5bde2f0817d8b3a83c3af26628f7f5bf38cbc04b9",
+   "octets": 92988,
+   "lignes": 421
+  }
+ }
+}
