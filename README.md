@@ -38,7 +38,6 @@ python3 droit/droit.py article "code général des impôts" 279
 python3 droit/droit.py article cgi "278 sexies-0 A"
 python3 droit/droit.py article cgi 279 --au 2025-06-01
 python3 droit/droit.py section cgi "Taux réduit"
-python3 droit/droit.py renvois cgi "200 quindecies"
 python3 droit/droit.py verifier mes_vecteurs.json
 ```
 
@@ -58,19 +57,6 @@ plutôt que la version en vigueur aujourd'hui — c'est ce qu'un trois colonnes
 demande pour sa colonne « texte en vigueur » sur un article déjà modifié par
 le texte en discussion. Sans `--au`, le jour courant.
 
-`renvois` balaie tous les codes portés à la recherche des articles qui citent
-l'adresse donnée — c'est l'étape « droit applicable » qui en a besoin. Chaque
-renvoi porte une certitude, jamais déduite d'une proximité de texte :
-`nomme` (le code cité est nommé et c'est celui de la cible, ou l'article
-citant appartient lui-même au code de la cible — aucune ambiguïté),
-`interne` (aucun code identifiable, mais le renvoi vise une subdivision
-précise — alinéa, chiffre romain, degré — trop spécifique pour être fortuit),
-`ambigu` (le numéro est trouvé seul). Une citation qui nomme explicitement un
-**autre** code que la cible est écartée : « l'article 279 du code civil » ne
-compte jamais pour l'article 279 du CGI, même si le numéro coïncide.
-L'article cible s'exclut de ses propres renvois, et « 200 quindecies » ne se
-laisse jamais confondre avec « 200 quindecies A ».
-
 ## Ce que le lecteur refuse, et c'est le point
 
 Trois refus tenus par le code et non par la discipline :
@@ -84,26 +70,33 @@ S'y ajoute la fraîcheur : le millésime de l'extrait est porté dans chaque sor
 et au-delà de 45 jours la mention `À REJOUER` s'imprime d'elle-même. C'est la
 règle du vecteur périmé de `vecteur-mesure`, appliquée au texte.
 
-## Les codes portés
+## Les textes portés
 
-Ils vivent dans `codes.json`, et nulle part ailleurs — vingt-sept aujourd'hui.
-Les vingt premiers couvrent la table de vérité-terrain de l'appareil d'éval
-(dont les 42 amendements de Génération Libre), le code civil et le code
-général de la propriété des personnes publiques (A-275). Sept de plus portent
-les codes ouverts par les textes déposés 2026 — santé publique, rural et de la
-pêche maritime, pensions civiles et militaires de retraite, général de la
-fonction publique, procédure pénale, procédures civiles d'exécution, tourisme
-— qui portaient à eux seuls 22 % des adresses non résolues du PLFSS.
+Ils vivent dans `codes.json`, et nulle part ailleurs. L'extrait ne porte plus
+seulement des codes : il porte aussi les textes non codifiés — lois, lois de
+finances, ordonnances — que la base LEGI publie à côté des codes.
 
-**Ajouter un code** : une ligne dans `codes.json` avec son identifiant
-`LEGITEXT`, un commit, et l'action repart seule.
+Une entrée s'y résout par l'une de deux voies :
 
-**Les lois non codifiées** entrent par le même mécanisme — l'extracteur filtre
-sur l'identifiant `LEGITEXT` où qu'il apparaisse, et LEGI porte les textes non
-codifiés consolidés à côté des codes. C'est ce qui donnera accès aux articles de
-lois de finances antérieures, dont l'éval a montré qu'ils portent au moins un
-siège que la skill n'a pas su trouver. **À éprouver au premier ajout** : je ne
-l'ai pas vérifié.
+- **par identifiant**, quand l'entrée porte un champ `legitext` — c'est le cas
+  des vingt premiers codes, dont l'identifiant Légifrance a été relevé une
+  fois pour toutes ;
+- **par intitulé exact**, sinon — `extraire_legi.py` cherche `cle` dans les
+  métadonnées de chaque texte consolidé de l'archive **elle-même** : rien ne
+  se cherche sur le web, aucun identifiant ne se saisit à la main. Un
+  intitulé introuvable, ou qui résout vers plusieurs textes, fait échouer
+  l'extraction en le nommant plutôt que de s'approcher du voisin le plus
+  proche (A-94) ou de laisser le corpus choisir à sa place.
+
+**Ajouter un texte** : une entrée dans `codes.json` — `legitext` pour un code
+dont l'identifiant est déjà connu, ou seulement `cle` (l'intitulé exact),
+`court` et `temoin` pour tout le reste — un commit, et l'action repart seule.
+
+**Le volume de l'extrait est borné à 60 Mo.** Un texte ajouté qui ferait
+dépasser cette limite n'est pas versé : il est déclaré dans
+`data/_manifeste.json`, sous `non_verses`, avec son motif — jamais versé au
+hasard, toujours dans l'ordre où les entrées apparaissent dans `codes.json`.
+Les vingt premiers codes ne sont jamais concernés par cette limite.
 
 ## Ce qui n'est pas vérifié, et qui échouera bruyamment
 
@@ -122,16 +115,15 @@ vaut un job rouge qu'un extrait silencieusement vide.
 
 ## Épreuve à blanc
 
-`python3 essai.py` monte un extrait factice et exerce quatorze contrôles :
-lecture du XML LEGI, article et structure ; classement des archives DILA ;
-l'historique récent gardé sans déborder sur le périmé ; lecture par libellé
-exact et par nom court ; normalisation de la ponctuation d'un numéro sans
-jamais couper un suffixe ; présence de l'identifiant, de la date et du
-millésime en sortie ; lecture à une date passée (`--au`/`jour=`) ; les trois
-refus ; la recherche par titre de section ; le contrôle de lot ; les renvois
-entrants — `nomme` / `interne` / `ambigu`, exclusion d'un autre code nommé et
-de l'article cible lui-même, garde du faux positif de préfixe ; la détection
-d'un extrait périmé. Elle passe, et elle ne prouve rien sur le dump réel.
+`python3 essai.py` monte un extrait factice et exerce 15 contrôles : lecture
+du XML LEGI, article, structure et métadonnées de texte ; résolution par
+intitulé — un texte non codifié, un code (l'identifiant du dossier `texte/`
+retenu, jamais celui du fichier lu), un texte introuvable qui échoue en se
+nommant ; lecture par libellé exact et par nom court ; normalisation de la ponctuation
+d'un numéro sans jamais couper un suffixe ; présence de l'identifiant, de la
+date et du millésime en sortie ; les trois refus ; la recherche par titre de
+section ; la détection d'un extrait périmé. Elle passe, et elle ne prouve rien
+sur le dump réel.
 
 ## Ce que ce dépôt ne fait pas
 
