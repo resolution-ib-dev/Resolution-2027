@@ -6,7 +6,11 @@
   "livrables/Recap_transposabilite_20260914_v7.md",
   "livrables/Recensement_innovations_20260914_v2.md",
   "livrables/etat_vecteurs.html",
+  "livrables/releve_epreuve_EP2.tsv",
+  "livrables/releve_epreuve_EP3.tsv",
+  "livre/texte_livre.json",
   "manuscrit/manuscrit.html",
+  "methode/arbitrages_archive.md",
   "methode/cr_confrontation_20260916.md",
   "methode/cr_lecture_textes_2026.md",
   "methode/cr_lot_C_20260917.md",
@@ -33,6 +37,13 @@
   "methode/sas_lot_A_resume_attendu.md",
   "methode/sas_pplc_regle_dor.md",
   "reference/Constitution_3col_20260914_v45.html",
+  "reference/Constitution_3col_20260916_v46.html",
+  "referentiels/cgi_expert_articles.tsv",
+  "referentiels/cgi_expert_articles_bouges.tsv",
+  "referentiels/cgi_expert_insertions.tsv",
+  "referentiels/cgi_expert_parametres.tsv",
+  "referentiels/cgi_expert_suppressions.tsv",
+  "referentiels/prelevements_forces_20260930.tsv",
   "sources/1pager_20260806_v1_proto.html",
   "sources/Constitution_3col_20260730_v44.html",
   "sources/Constitution_reference_20260806_v1.html",
@@ -755,20 +766,10 @@
    "octets": 7963,
    "lignes": 162
   },
-  "livrables/releve_epreuve_EP2.tsv": {
-   "sha256": "bdf2c372740fe9dc488fecee21fe86356436c6b586748880e7ef61da3313e176",
-   "octets": 95095,
-   "lignes": 859
-  },
   "livrables/releve_epreuve_EP3.md": {
    "sha256": "7d7426ef65a812355ce020064eebcc7e70ac1a6197ffaf702e2b95fd67401be3",
    "octets": 16484,
    "lignes": 278
-  },
-  "livrables/releve_epreuve_EP3.tsv": {
-   "sha256": "25b0e1cc1b31ea4fa603e3e3884655873e14c47415e2aac4f8fe544b09f5948c",
-   "octets": 59150,
-   "lignes": 270
   },
   "livrables/releve_passe_825_534_20260923.md": {
    "sha256": "745e35f426f14248f11d311f7d5053b38094cb89073d0e3f92149861ff7de27e",
@@ -800,25 +801,15 @@
    "octets": 3841,
    "lignes": 83
   },
-  "livre/texte_livre.json": {
-   "sha256": "2d3854998e6b01d3ec45f320ec8eec3ad9f6d84d11eb579150adad349d5a0a9c",
-   "octets": 311829,
-   "lignes": 7979
-  },
   "methode/a_trancher.md": {
    "sha256": "f3c11c51ff7f430cd6d497ae80e27da3798d41ee074c555c4283f672dbf60b16",
    "octets": 31089,
    "lignes": 475
   },
   "methode/arbitrages.md": {
-   "sha256": "42430355cc39eafd8147a5e7789820e418502037152f9f0ed4b9d665078cb2e9",
-   "octets": 391776,
-   "lignes": 6612
-  },
-  "methode/arbitrages_archive.md": {
-   "sha256": "a757463a5c37f717a9f7361ba7574e960125c64840d975827080057d358da255",
-   "octets": 243539,
-   "lignes": 4678
+   "sha256": "5a82b9227a0fd68b93a296c3a57ca78c6fe95aa4c50f992a04c897ff329631a3",
+   "octets": 400951,
+   "lignes": 6761
   },
   "methode/audit_derives_20260924.md": {
    "sha256": "76760c7f9bdabaaf00051459a79c4cc812d34d882cf5f126659eea307453e0ae",
@@ -1016,9 +1007,9 @@
    "lignes": 5444
   },
   "methode/journal.md": {
-   "sha256": "aa7af45bafe9261a3c52400da96ed05221bf6b852c9e22f272bbd2d6dfc19a07",
-   "octets": 59072,
-   "lignes": 971
+   "sha256": "8f9573d338064c0adb2c4c8e1356501c3d653cf067d2a8cc0fbe71d3280f33f6",
+   "octets": 346216,
+   "lignes": 5700
   },
   "methode/localisation.md": {
    "sha256": "fe67558ef348f4710d90d2e76940259a3fe876c87d25db558f700ef3445b67ec",
@@ -1145,11 +1136,6 @@
    "octets": 12811,
    "lignes": 261
   },
-  "reference/Constitution_3col_20260916_v46.html": {
-   "sha256": "80de491474511d123e3e87811f65315834b457ee8f735ba0722e5a6f6f73caed",
-   "octets": 104362,
-   "lignes": 923
-  },
   "reference/cgi_expert_regles_de_lecture.md": {
    "sha256": "dc847ca1b2691827f5c467cc8c46423295d72c6a9b6072e41a251d5bd4631f44",
    "octets": 9896,
@@ -1220,31 +1206,6 @@
    "octets": 11634,
    "lignes": 218
   },
-  "referentiels/cgi_expert_articles.tsv": {
-   "sha256": "8448b4cf4292c84127fe1bdce77a1b64ef2e34c43a1bca74933a76a99f4ebafe",
-   "octets": 100381,
-   "lignes": 1755
-  },
-  "referentiels/cgi_expert_articles_bouges.tsv": {
-   "sha256": "c4d0ad8d1ec43d734fbd789f1399149452f2ea96cf6424f268dc54c7734e575d",
-   "octets": 34681,
-   "lignes": 255
-  },
-  "referentiels/cgi_expert_insertions.tsv": {
-   "sha256": "bb2722e16798146fc8030d66e0d8e395b41c142111c298f8bb8d3b9166fe09b8",
-   "octets": 61603,
-   "lignes": 435
-  },
-  "referentiels/cgi_expert_parametres.tsv": {
-   "sha256": "157742ece38f0c239a273790297d6b668488c7e0624102a9af52f7475668e0ec",
-   "octets": 7497,
-   "lignes": 48
-  },
-  "referentiels/cgi_expert_suppressions.tsv": {
-   "sha256": "133e009537b870725ab89a7e01ec6133d080a804813fbd5178f0b52d053ee292",
-   "octets": 136606,
-   "lignes": 3250
-  },
   "referentiels/index_mesures_plf.tsv": {
    "sha256": "0159a5c218b9d4015f30d26f78d2273bc4d19a7dfd497d20f1d9a661a20040bd",
    "octets": 157690,
@@ -1259,11 +1220,6 @@
    "sha256": "a6a07a73468b939ec201f98c7ba24c29a56b2438c6502c09c66ca6ffcc9f0174",
    "octets": 59142,
    "lignes": 994
-  },
-  "referentiels/prelevements_forces_20260930.tsv": {
-   "sha256": "13faa2a746c04fd1978928bfd80a2a310fe20c8274388bf95812f52ede86ae64",
-   "octets": 207773,
-   "lignes": 421
   },
   "referentiels/redaction_plf.json": {
    "sha256": "eec65f01912754b8c1873378d5a4019d02d5bdcf95f0d89499d0841ea153209d",

@@ -6246,6 +6246,53 @@ artefacts contre 310 au coffre, rend **315** — exactement ce que l'index du
 coffre porte. Les deux constats du 20260930 sont des traces datées rattrapées par
 le commit `4e6e1a4` du même jour, et ils ne valent plus état.
 
+## 20261001 — entame-liste
+
+*Seconde reprise de la liste du PLFSS 2027, sur consigne de l'auteure : le chapeau
+passait trop de temps sur des agrégats techniques, et les lignes d'article étaient
+trop techniques dès leur entame. Deux règles portées au gabarit — étage 0, elles
+priment sur ce que le gabarit disait.*
+
+**A — L'ordre du chapeau est renversé : les gens d'abord, les agrégats après.**
+L'ordre antérieur ouvrait sur le solde, le besoin d'emprunt et les crédits. Le
+nouveau ouvre sur **`## Ce que ce texte change, et pour qui`** : trois à cinq lignes
+sans un seul agrégat, puis **un tableau `qui` · `ce qui change pour lui` · `où`**,
+treize lignes rangées par poids et non par ordre du texte. Les grandeurs suivent,
+sous **`## Les grandeurs, pour mémoire`** — le titre dit leur statut.
+
+*Gain mesuré sur la pièce : un lecteur qui n'ouvre que la première page sait
+désormais qui paie, sans avoir traversé un mur de nombres.*
+
+**B — L'entame d'une ligne d'article dit ce que l'article fait à quelqu'un.**
+Registre pris à `expose-sommaire` — § 5.1, « le constat s'ouvre sur ce que le
+dispositif fait à quelqu'un, le défaut de genre vient ensuite » ; § 5.3 bis, la
+phrase de sens « qui nomme quelqu'un » ; § 5.0 bis, le verbe direct sans périphrase.
+Appliqué aux quarante-neuf lignes :
+
+| avant | après |
+|---|---|
+| Intègre les compléments de salaire dans l'assiette de calcul des allègements généraux | **Fait entrer les primes dans le calcul des allègements de cotisations : les employeurs verseront 3,7 Md€ de plus** |
+| Remplace la clause de sauvegarde des dispositifs médicaux, qui ne couvrait que 21 % de la dépense remboursée | **Taxe plus largement les fabricants de matériel médical : la contribution portait sur 21 % de la dépense remboursée, elle portera sur tout** |
+| Crée un statut des groupements d'officines et une contribution sur les rémunérations qu'ils perçoivent des laboratoires | **Encadre les centrales d'achat des pharmacies et taxe ce qu'elles perçoivent des laboratoires** |
+| Prolonge d'un an l'expérimentation de fusion des sections soins et dépendance des EHPAD | **Prolonge d'un an l'expérience qui fusionne les deux budgets des EHPAD, soins et dépendance** |
+| Déroge pour 2027 à la revalorisation automatique des pensions | **Suspend pour 2027 la règle qui indexe les pensions sur l'inflation** |
+
+**Le terme technique n'est pas banni : il est déplacé.** Il vient après le fait,
+quand il apporte quelque chose. *Le test retenu : lue seule, la ligne apprend
+quelque chose à quelqu'un qui n'a pas le texte sous les yeux.*
+
+**C — Ce qui ne bouge pas.** Aucun chiffre n'a changé, aucune source, aucun des sept
+écarts relevés. La reprise porte sur l'ordre et sur la langue, jamais sur le fond.
+Le contrôle de rendu est rejoué : **49 articles sur 49, zéro ligne nue.**
+
+**D — Un défaut de rendu trouvé au passage.** La colonne `où` du tableau d'entrée
+coupait « art. 35 » sur deux lignes. Corrigé par une espace insécable dans la
+cellule, non par une règle de largeur : une largeur fixée sur la troisième colonne
+aurait déréglé les tableaux à deux colonnes, qui partagent la même feuille de style.
+
+**E — Coût : deux pages.** De 5 à 7. Inscrit au gabarit pour que personne ne le
+reprenne comme une dérive.
+
 ## 20261001 — epargne-salariale-et-affectataires
 
 Trois décisions de l'auteure, prises le 20261001 sur le fil du sort des
@@ -6469,6 +6516,53 @@ sont inscrits en tête de l'index et au fragment de journal. Rien n'est porté �
 `sans_empreinte` par convention du fichier, et la pièce jointe n'est pas un document
 du coffre.
 
+## 20261001 — lisibilite-liste
+
+*Reprise de lisibilité demandée par l'auteure sur la liste du PLFSS 2027. Jugée sur
+le rendu regardé, pas sur le markdown : le PDF a été converti en image et lu.
+Quatre défauts constatés, quatre règles portées au gabarit et au script — nulle part
+ailleurs.*
+
+**1. La clé de lecture était l'endroit le plus illisible de la page.** La légende
+des poids courait en paragraphe justifié, pastilles de 3,2 px collées les unes aux
+autres au milieu du texte. **Elle devient un tableau de quatre lignes**, au même
+traitement que le tableau « annoncé / écrit ».
+
+**2. Le fait et le commentaire avaient le même poids.** Tout sortait en 10 pt noir,
+y compris les remarques en italique, qui font souvent la moitié d'une ligne
+d'article. **L'italique passe en 9,2 pt gris `#3a3a3a`.** C'est le gain le plus
+fort : le lecteur pressé lit les faits en noir et saute le reste, l'autre lit tout.
+*Les titres de section et le sous-titre sont exemptés, sans quoi ils rétrécissaient
+avec.*
+
+**3. Les pastilles n'étaient pas décodables, et `●` seul était invisible.**
+Disques portés de 3,2 à 4,2 px, espacés de 1,8 px, gris foncés de `#b4b4b4` à
+`#8c8c8c` pour le poids simple, cercle vide bordé `#555`. Colonne élargie de 4,6 à
+6 mm.
+
+**4. Le texte entre accents graves sortait en chasse fixe.** `au texte` et
+`annexe A` tombaient en police à chasse fixe au milieu d'un Times, par simple défaut
+de la feuille de style. `code, tt, kbd, samp { font-family: inherit; font-style:
+italic }`.
+
+**Plus deux réglages de confort** : articles séparés de 2,8 mm au lieu de 1,4, et
+`hyphenate-limit-chars: 6 3 3` pour interdire les coupes à deux lettres. Et deux
+intertitres dans le chapeau — `## Les grandeurs`, `## Comment lire cette liste` —
+sans quoi six paragraphes de même gris se lisent comme un mur.
+
+**Coût : une page.** De 5 à 6 pages. L'air est le prix de la lisibilité, et il est
+payé une fois pour tous les millésimes.
+
+**Un faux défaut, inscrit pour ne pas être « corrigé » plus tard.** Au rendu en
+image, `Md€` paraît collé au mot suivant. L'espace est bien présente : vérifiée en
+extrayant le texte du PDF. Le contrôle d'une espace se fait sur le texte extrait,
+jamais à l'œil sur une capture.
+
+**Rien n'a été porté dans un troisième endroit.** Le gabarit `reference/gabarit_liste_articles.md`
+et `livrables/rendre_liste_pdf.py` ont bougé ensemble, comme le gabarit l'exige. Le
+script étant partagé, **les quatre règles valent aussi pour la liste du PLF 2027 à
+son prochain rendu** — sans qu'il faille y toucher.
+
 ## 20261001 — plan-vehicule
 
 Deux cadrages de l'auteure, une correction de mandat, et trois décisions de tambouille
@@ -6542,6 +6636,61 @@ close ne se supprime pas en silence : elle est remplacée en place par une ligne
 donnée sans être arrêtée s'écrit en `*CADRAGE AAAAMMJJ — …*`, qui dit la fourchette et à qui
 revient la proposition. La mesure garde ainsi la trace de ce qui a été fermé, et le fil
 suivant lit la décision là où il lisait la question.
+
+## 20261001 — reprise-grille-lecture
+
+*Tambouille tranchée après coup, sur mesure. Le fil PLFSS a relevé son index avec
+une grille plus faible que celle que le fil PLF avait arrêtée le même jour. Les
+deux index n'étaient pas au même gabarit. **Une divergence ne se corrige pas au
+résultat : c'est la grille qu'on reprend.***
+
+**A — La grille du fil PLF est reprise telle quelle pour le PLFSS.** Les sept
+règles de `methode/fragments/arbitrages/20261001-lecture-plf2027.md` — repère au
+folio, profondeur bornée à deux niveaux, garde d'ordre, garde de rang 1, `I`/`V`/`X`
+écartés du second niveau, blanchiment des passages cités à offsets préservés,
+contexte de pièce mis à jour sur la seule formule de modification — sont portées à
+la grammaire du PLFSS. Elles n'avaient pas été cherchées : le fil PLFSS a écrit la
+sienne sans lire ce que le fil PLF avait versé deux heures plus tôt. **C'est la
+faute, et elle est de réutilisation, pas de méthode.**
+
+**B — Delta mesuré de la reprise.**
+
+| | grille faible | grille reprise |
+|---|---|---|
+| mesures | 314 | **251** |
+| sièges vides | 95 | **68** |
+| mesures à siège relevé | 219 | **183** |
+| profondeur maximale de référence | 4 niveaux (`I-C-1-a`) | **2 niveaux** (`I-C`) |
+
+Le blanchiment des citations est ce qui pèse le plus : l'article 9 passait de
+**20 à 6 adresses** une fois le droit à venir écarté du relevé des sièges. La borne
+de profondeur explique le reste : l'article 7 passe de 19 à 11 mesures, l'article 34
+de 34 à 24.
+
+**C — Le classement des articles les plus chargés change, et la sélection des
+fiches avec lui.** Sous la grille reprise, les cinq plus chargés sont l'article 27
+(21 adresses), le **4** (20), le 34 (19), le 33 (14) et le 41 (13). **L'article 4 —
+cotisants sinistrés et sapeurs-pompiers volontaires — entre au critère et reçoit sa
+fiche** ; elle relève que le VI écarte expressément la compensation par l'État des
+exonérations qu'il crée.
+
+**D — Les fiches 20, 28 et 32 sont conservées, et déclarées.** Elles avaient été
+retenues au titre des articles les plus chargés sous la grille faible ; elles n'y
+sont plus. *La règle du fil PLF est que le critère se reprend et que l'auteure seule
+le fait : les retirer serait trancher du fond. Elles restent, marquées en tête du
+livrable.* Question portée à `methode/a_trancher.md`.
+
+**E — Propagation du jour même.** Les quatre pièces du PLFSS portent les comptes
+corrigés : index régénéré, fiches recomptées et augmentées de l'article 4, liste par
+article et note lisible mises à jour. Rien n'a été laissé à un fil suivant.
+
+**F — Le prompt de fil est corrigé là où la règle est lue**, et non doublé par un
+document neuf. `methode/prompt_fil_lecture_textes_2027.md` porte désormais : les
+**quatre** pièces de lecture au lieu de deux, la grille de relevé en sept règles, le
+critère de mesure principale à la maille de l'article, la consigne d'entrées
+différées bornée au relevé interne, la règle des intitulés d'article non acquis d'un
+millésime à l'autre, et la consigne de lire ce que le fil du premier véhicule a
+versé avant d'écrire quoi que ce soit.
 
 ## 20261001 — tenue-apres-poussee
 
