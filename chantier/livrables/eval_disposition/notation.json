@@ -1,0 +1,1856 @@
+{
+ "population": {
+  "echantillon": 42,
+  "indicibles": 3,
+  "hors_capacite": 8,
+  "sans_reponse": 0,
+  "notee": 31
+ },
+ "correspondance": {
+  "article_exact": 0.9354838709677419,
+  "article_cite": 1.0,
+  "operation_exacte": 0.3225806451612903,
+  "portee_exacte": 0.3870967741935484,
+  "les_trois": 0.25806451612903225,
+  "nature_exacte": 0.7096774193548387,
+  "couverture_complete": 0.8709677419354839,
+  "couverture_moyenne": 0.9537250384024577,
+  "les_trois_en_nature": 0.6774193548387096,
+  "article_recouvrement_moyen": 0.9354838709677419,
+  "operation_recouvrement_moyen": 0.6198924731182797,
+  "portee_recouvrement_moyen": 0.7311827956989246
+ },
+ "portee_mesurable": {
+  "relevees": 133,
+  "indeterminees": 94,
+  "part_indeterminee": 0.706766917293233,
+  "_reserve": "Le détecteur ne lit pas une cible en complément circonstanciel. Tant que cette part est haute, le taux de portée note le détecteur et non la skill."
+ },
+ "reapplication": {
+  "colonnes": 41,
+  "prouvees": 41,
+  "taux": 1.0,
+  "verdicts": {
+   "PROUVE": 41
+  }
+ },
+ "correspondance_et_preuve": 0.25806451612903225,
+ "indicibles": [
+  "12#48#1466 A",
+  "13#60#27",
+  "28#88#26"
+ ],
+ "hors_capacite": [
+  "10#18#75-0 D",
+  "13#18#L. 421-66",
+  "17#40#L. 433-21",
+  "2#5#10",
+  "29#58#128",
+  "30#14#L. 436-7",
+  "36#21#135",
+  "39#1#3"
+ ],
+ "sans_reponse": [],
+ "notes": [
+  {
+   "cle": "5#3#39 AI",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "39 AI"
+    ],
+    "obtenu": [
+     "39 AI"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "abrogation"
+    ],
+    "obtenu": [
+     "abrogation"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "article"
+    ],
+    "obtenu": [
+     "article"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "abrogation"
+    ],
+    "obtenu": [
+     "abrogation"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": true,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "5#25#261 A",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "261 A"
+    ],
+    "obtenu": [
+     "261 A"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "abrogation"
+    ],
+    "obtenu": [
+     "abrogation"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "article"
+    ],
+    "obtenu": [
+     "article"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "abrogation"
+    ],
+    "obtenu": [
+     "abrogation"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": true,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "21#332#L. 2333-93 et L. 2333-94",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "L. 2333-93",
+     "L. 2333-94"
+    ],
+    "obtenu": [
+     "L. 2333-93",
+     "L. 2333-94"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "abrogation"
+    ],
+    "obtenu": [
+     "abrogation",
+     "abrogation"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "article"
+    ],
+    "obtenu": [
+     "article",
+     "article"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "abrogation"
+    ],
+    "obtenu": [
+     "abrogation"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE",
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "5#10#154 bis A",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "154 bis A"
+    ],
+    "obtenu": [
+     "154 bis A"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "suppression"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "portee": {
+    "attendu": [
+     "subdivision"
+    ],
+    "obtenu": [
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "nature": {
+    "attendu": [
+     "abrogation"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "3#106#975",
+   "nb_alineas_terrain": 2,
+   "article": {
+    "attendu": [
+     "975"
+    ],
+    "obtenu": [
+     "975"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "completement"
+    ],
+    "obtenu": [
+     "completement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "article"
+    ],
+    "obtenu": [
+     "article"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": true,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "21#320#L. 2331-3",
+   "nb_alineas_terrain": 2,
+   "article": {
+    "attendu": [
+     "L. 2331-3"
+    ],
+    "obtenu": [
+     "L. 2331-3"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "completement"
+    ],
+    "obtenu": [
+     "completement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "subdivision"
+    ],
+    "obtenu": [
+     "article"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "29#24#1681 sexies",
+   "nb_alineas_terrain": 2,
+   "article": {
+    "attendu": [
+     "1681 sexies"
+    ],
+    "obtenu": [
+     "1681 sexies"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "completement"
+    ],
+    "obtenu": [
+     "completement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "article"
+    ],
+    "obtenu": [
+     "article"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": true,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "23#27#L. 314-12",
+   "nb_alineas_terrain": 2,
+   "article": {
+    "attendu": [
+     "L. 314-12"
+    ],
+    "obtenu": [
+     "L. 314-12-1"
+    ],
+    "exact": false,
+    "recouvrement": 0.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "creation"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "6#5#158",
+   "nb_alineas_terrain": 11,
+   "article": {
+    "attendu": [
+     "158"
+    ],
+    "obtenu": [
+     "158"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "insertion",
+     "insertion",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "suppression",
+     "suppression"
+    ],
+    "obtenu": [
+     "completement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.25
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "abrogation",
+     "insertion",
+     "remplacement"
+    ],
+    "obtenu": [
+     "insertion",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.6666666666666666
+   },
+   "couverture": 0.8571428571428571,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "10#2#73",
+   "nb_alineas_terrain": 12,
+   "article": {
+    "attendu": [
+     "73"
+    ],
+    "obtenu": [
+     "73"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "insertion",
+     "insertion",
+     "insertion",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "suppression"
+    ],
+    "obtenu": [
+     "remplacement",
+     "remplacement",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.3333333333333333
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "subdivision",
+     "subdivision"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine",
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "nature": {
+    "attendu": [
+     "abrogation",
+     "insertion",
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.3333333333333333
+   },
+   "couverture": 0.375,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "20#3#L. 213-10-2",
+   "nb_alineas_terrain": 3,
+   "article": {
+    "attendu": [
+     "L. 213-10-2"
+    ],
+    "obtenu": [
+     "L. 213-10-2"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "abrogation",
+     "remplacement"
+    ],
+    "obtenu": [
+     "abrogation",
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "subdivision"
+    ],
+    "obtenu": [
+     "indetermine",
+     "subdivision"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "abrogation",
+     "remplacement"
+    ],
+    "obtenu": [
+     "abrogation",
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": true,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "21#345#266 nonies",
+   "nb_alineas_terrain": 8,
+   "article": {
+    "attendu": [
+     "266 nonies"
+    ],
+    "obtenu": [
+     "266 nonies"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "abrogation",
+     "abrogation",
+     "suppression",
+     "suppression",
+     "suppression"
+    ],
+    "obtenu": [
+     "abrogation",
+     "abrogation",
+     "abrogation",
+     "abrogation",
+     "suppression",
+     "suppression"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "subdivision",
+     "subdivision"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "nature": {
+    "attendu": [
+     "abrogation"
+    ],
+    "obtenu": [
+     "abrogation"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "26#2#223 VK",
+   "nb_alineas_terrain": 7,
+   "article": {
+    "attendu": [
+     "223 VK"
+    ],
+    "obtenu": [
+     "223 VK"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "completement",
+     "insertion",
+     "remplacement"
+    ],
+    "obtenu": [
+     "completement",
+     "completement"
+    ],
+    "exact": false,
+    "recouvrement": 0.3333333333333333
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "indetermine",
+     "subdivision"
+    ],
+    "obtenu": [
+     "subdivision",
+     "subdivision"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "nature": {
+    "attendu": [
+     "insertion",
+     "remplacement"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "couverture": 0.6666666666666666,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "28#2#289 bis",
+   "nb_alineas_terrain": 10,
+   "article": {
+    "attendu": [
+     "289 bis"
+    ],
+    "obtenu": [
+     "289 bis"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "abrogation",
+     "completement",
+     "redaction_nouvelle",
+     "remplacement",
+     "remplacement",
+     "suppression"
+    ],
+    "obtenu": [
+     "abrogation",
+     "completement",
+     "completement",
+     "remplacement",
+     "remplacement",
+     "suppression"
+    ],
+    "exact": false,
+    "recouvrement": 0.8
+   },
+   "portee": {
+    "attendu": [
+     "article",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "subdivision",
+     "subdivision"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "subdivision",
+     "subdivision",
+     "subdivision"
+    ],
+    "exact": false,
+    "recouvrement": 0.6666666666666666
+   },
+   "nature": {
+    "attendu": [
+     "abrogation",
+     "insertion",
+     "remplacement"
+    ],
+    "obtenu": [
+     "abrogation",
+     "insertion",
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "29#17#1418",
+   "nb_alineas_terrain": 5,
+   "article": {
+    "attendu": [
+     "1418"
+    ],
+    "obtenu": [
+     "1418"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "completement",
+     "insertion",
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion",
+     "insertion"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "indetermine",
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 0.6666666666666666,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "36#10#L. 471-58",
+   "nb_alineas_terrain": 4,
+   "article": {
+    "attendu": [
+     "L. 471-58"
+    ],
+    "obtenu": [
+     "L. 471-58"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "insertion",
+     "insertion"
+    ],
+    "obtenu": [
+     "redaction_nouvelle",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine",
+     "subdivision"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "44#3#L. 422-24",
+   "nb_alineas_terrain": 3,
+   "article": {
+    "attendu": [
+     "L. 422-24"
+    ],
+    "obtenu": [
+     "L. 422-24"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement",
+     "suppression"
+    ],
+    "obtenu": [
+     "remplacement",
+     "remplacement",
+     "suppression"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "subdivision"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine",
+     "subdivision"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "abrogation",
+     "remplacement"
+    ],
+    "obtenu": [
+     "abrogation",
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "72#27#L. 2334-22-1",
+   "nb_alineas_terrain": 4,
+   "article": {
+    "attendu": [
+     "L. 2334-22-1"
+    ],
+    "obtenu": [
+     "L. 2334-22-1"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement",
+     "remplacement"
+    ],
+    "obtenu": [
+     "redaction_nouvelle",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "portee": {
+    "attendu": [
+     "indetermine",
+     "subdivision"
+    ],
+    "obtenu": [
+     "indetermine",
+     "subdivision"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "6#16#204 F",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "204 F"
+    ],
+    "obtenu": [
+     "204 F"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "17#73#1647",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "1647"
+    ],
+    "obtenu": [
+     "1647"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "completement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "subdivision"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "23#81#L. 314-22",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "L. 314-22"
+    ],
+    "obtenu": [
+     "L. 314-22"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": true,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "29#55#L. 2333-55-2",
+   "nb_alineas_terrain": 2,
+   "article": {
+    "attendu": [
+     "L. 2333-55-2"
+    ],
+    "obtenu": [
+     "L. 2333-55-2"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "completement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "subdivision"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "41#7#L. 321-17-2",
+   "nb_alineas_terrain": 4,
+   "article": {
+    "attendu": [
+     "L. 321-17-2"
+    ],
+    "obtenu": [
+     "L. 321-17-3"
+    ],
+    "exact": false,
+    "recouvrement": 0.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "insertion"
+    ],
+    "obtenu": [
+     "insertion"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "13#11#L. 421-36",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "L. 421-36"
+    ],
+    "obtenu": [
+     "L. 421-36"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "redaction_nouvelle"
+    ],
+    "obtenu": [
+     "insertion",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "insertion",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "5#13#10 adresses",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "193",
+     "197",
+     "199 sexdecies",
+     "200 quater",
+     "200 quater A",
+     "200 quater B",
+     "200 quater C",
+     "200 quaterdecies",
+     "200 sexdecies",
+     "200 undecies"
+    ],
+    "obtenu": [
+     "193",
+     "197",
+     "199 sexdecies",
+     "200 quater",
+     "200 quater A",
+     "200 quater B",
+     "200 quater C",
+     "200 quaterdecies",
+     "200 sexdecies",
+     "200 undecies"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE",
+    "PROUVE",
+    "PROUVE",
+    "PROUVE",
+    "PROUVE",
+    "PROUVE",
+    "PROUVE",
+    "PROUVE",
+    "PROUVE",
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "14#12#L. 421-220",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "L. 421-220"
+    ],
+    "obtenu": [
+     "L. 421-220"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": true,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "18#18#L. 312-48",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "L. 312-48"
+    ],
+    "obtenu": [
+     "L. 312-48"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": true,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "23#84#L. 314-24",
+   "nb_alineas_terrain": 5,
+   "article": {
+    "attendu": [
+     "L. 314-24"
+    ],
+    "obtenu": [
+     "L. 314-24"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "suppression",
+     "suppression"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "portee": {
+    "attendu": [
+     "article"
+    ],
+    "obtenu": [
+     "indetermine",
+     "subdivision"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "abrogation"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "28#53#290 B",
+   "nb_alineas_terrain": 3,
+   "article": {
+    "attendu": [
+     "290 B"
+    ],
+    "obtenu": [
+     "290 B"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "insertion",
+     "remplacement",
+     "remplacement",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "portee": {
+    "attendu": [
+     "article"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine",
+     "indetermine",
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 0.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "insertion",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 0.5
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": false
+  },
+  {
+   "cle": "72#19#L. 2334-13",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "L. 2334-13"
+    ],
+    "obtenu": [
+     "L. 2334-13"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  },
+  {
+   "cle": "72#68#L. 3443-1",
+   "nb_alineas_terrain": 1,
+   "article": {
+    "attendu": [
+     "L. 3443-1"
+    ],
+    "obtenu": [
+     "L. 3443-1"
+    ],
+    "exact": true,
+    "recouvrement": 1.0,
+    "cite_dans_la_disposition": true
+   },
+   "operation": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement",
+     "remplacement"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "portee": {
+    "attendu": [
+     "indetermine"
+    ],
+    "obtenu": [
+     "indetermine",
+     "indetermine"
+    ],
+    "exact": false,
+    "recouvrement": 1.0
+   },
+   "nature": {
+    "attendu": [
+     "remplacement"
+    ],
+    "obtenu": [
+     "remplacement"
+    ],
+    "exact": true,
+    "recouvrement": 1.0
+   },
+   "couverture": 1.0,
+   "reapplication": [
+    "PROUVE"
+   ],
+   "prouve": true,
+   "correspondance_complete": false,
+   "correspondance_en_nature": true
+  }
+ ]
+}

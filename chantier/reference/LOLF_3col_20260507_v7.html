@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Réforme de la LOLF — trois colonnes — 7 mai 2026 v7</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bleu: #1A3A5C; --rouge: #B5291C; --vert: #1B5E35; --ocre: #9C6B00;
+  --bg: #FAF8F4; --papier: #FFFEF9; --gris: #5A5A5A; --bordure: #D4CFC4;
+  --col-a-bg: #EAF0F8; --col-a-border: #7FA8C9; --col-a-text: #1A2C3A;
+  --col-b-bg: #FFF5F4; --col-b-border: #B5291C; --col-b-text: #4A1208;
+  --col-c-bg: #EAF5EC; --col-c-border: #4A9E62; --col-c-text: #132D1E;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Source Serif 4', Georgia, serif; background: var(--bg); color: #1A1A1A; font-size: 15px; line-height: 1.7; }
+.masthead { background: var(--bleu); color: white; padding: 48px 0 40px; }
+.masthead-inner { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
+.eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 14px; }
+.masthead h1 { font-family: 'Fraunces', serif; font-size: clamp(26px, 3.5vw, 42px); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+.masthead h1 em { color: #E8A87C; font-style: normal; }
+.horodate { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: rgba(255,255,255,0.55); margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.15); }
+.avert { max-width: 1280px; margin: 24px auto 0; padding: 0 40px; }
+.avert-inner { background: #FFF8E7; border-left: 3px solid var(--ocre); padding: 12px 18px; font-size: 12.5px; color: #5C3D00; font-style: italic; }
+.legende { max-width: 1280px; margin: 16px auto 0; padding: 0 40px; }
+.legende-inner { background: var(--papier); border: 1px solid var(--bordure); padding: 14px 24px; display: flex; gap: 20px; flex-wrap: wrap; }
+.legende h3 { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gris); margin-bottom: 6px; width: 100%; }
+.leg-item { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+.sommaire { max-width: 1280px; margin: 16px auto 0; padding: 0 40px; }
+.sommaire-inner { background: var(--papier); border: 1px solid var(--bordure); padding: 18px 24px; }
+.sommaire h3 { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gris); margin-bottom: 10px; }
+.sommaire nav { display: flex; flex-wrap: wrap; gap: 5px 20px; }
+.sommaire nav a { font-size: 12.5px; color: var(--bleu); text-decoration: none; border-bottom: 1px dotted rgba(26,58,92,0.35); }
+.main { max-width: 1280px; margin: 0 auto; padding: 0 40px 80px; }
+.partie { margin-top: 52px; margin-bottom: 6px; display: flex; align-items: center; gap: 14px; border-bottom: 2px solid var(--bleu); padding-bottom: 10px; }
+.partie-num { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.15em; background: var(--bleu); color: white; padding: 3px 9px; }
+.partie h2 { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 600; color: var(--bleu); }
+.chapitre-sep { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #4A7A9E; background: #EAF0F8; padding: 5px 12px; margin: 16px 0 4px; border-left: 3px solid var(--col-a-border); }
+.col-headers { display: grid; grid-template-columns: 1fr 0.5fr 1.5fr; gap: 8px; padding: 8px 0 4px; }
+.ch { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; padding-left: 10px; }
+.ch-a { color: #4A7A9E; border-left: 3px solid var(--col-a-border); }
+.ch-b { color: var(--rouge); border-left: 3px solid var(--col-b-border); }
+.ch-c { color: #2E7D4F; border-left: 3px solid var(--col-c-border); }
+.art-row { display: grid; grid-template-columns: 1fr 0.5fr 1.5fr; gap: 8px; margin-bottom: 8px; align-items: stretch; }
+.art-row + .art-row { border-top: 1px solid rgba(212,207,196,0.5); padding-top: 8px; }
+.cell { padding: 10px 13px; font-size: 13px; line-height: 1.7; border-radius: 2px; }
+.cell-a { background: var(--col-a-bg); border-left: 3px solid var(--col-a-border); color: var(--col-a-text); font-style: italic; }
+.cell-b { background: var(--col-b-bg); border-left: 3px solid var(--col-b-border); color: var(--col-b-text); font-size: 12px; line-height: 1.6; }
+.cell-c { background: var(--col-c-bg); border-left: 3px solid var(--col-c-border); color: var(--col-c-text); }
+.art-label { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 9.5px; font-style: normal; font-weight: 600; letter-spacing: 0.1em; background: #D5E4F2; color: #1A3A5C; padding: 2px 7px; border-radius: 2px; margin-bottom: 6px; }
+.badge { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 9px; padding: 2px 6px; border-radius: 2px; margin-left: 3px; vertical-align: middle; font-weight: 600; }
+.badge-o { background: rgba(156,107,0,0.12); color: var(--ocre); }
+.badge-rp  { background: #DDE8F5; color: #1A3A5C; }
+.badge-lpfp { background: #EDE0F5; color: #4A2A7A; }
+.badge-def  { background: #FEF0D0; color: #7A4A00; }
+.badge-co   { background: #FCE4E4; color: #7A0000; }
+.badge-1t   { background: #D4F0E0; color: #0A5A28; }
+.badge-inc  { background: #F0F0F0; color: #666; }
+.note { font-size: 11.5px; color: #556; font-style: italic; border-top: 1px solid rgba(74,158,98,0.25); margin-top: 8px; padding-top: 6px; }
+.arb { font-size: 11.5px; color: #7A0000; background: rgba(184,0,0,0.06); border: 1px solid rgba(180,0,0,0.2); border-radius: 2px; padding: 6px 9px; margin-top: 7px; font-style: normal; display: block; }
+.open { font-size: 11.5px; color: #884400; background: rgba(184,132,0,0.08); border: 1px solid rgba(156,107,0,0.2); border-radius: 2px; padding: 5px 8px; margin-top: 7px; font-style: normal; display: block; }
+footer { background: var(--bleu); color: rgba(255,255,255,0.35); text-align: center; padding: 24px 40px; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.08em; margin-top: 60px; }
+@media (max-width: 900px) { .art-row, .col-headers { grid-template-columns: 1fr; } .main, .avert, .sommaire, .legende { padding-left: 16px; padding-right: 16px; } .masthead-inner { padding: 0 16px; } }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="eyebrow">Document de travail — Piste A · v6 · numérotation officielle Légifrance</div>
+    <h1>Réforme de la <em>LOLF</em></h1>
+    <p style="font-size:14px;color:rgba(255,255,255,0.55);font-style:italic;margin-top:8px;margin-bottom:24px;">Loi organique n° 2001-692 du 1er août 2001 — texte verbatim Légifrance en vigueur 07/05/2026 · Constitution v21 · Numérotation corrigée</p>
+    <div class="horodate">Version du 7 mai 2026 · v7 · Art. 5 — 2e travail complété (nomenclature 8 titres) · ⚑ FLAG titre 6° sous-catégories à réauditer · Art. 6 = principes budgétaires · Art. 7 = missions/programmes · Art. 8 = AE/CP (1er travail en attente) · Art. 12 = virements · Référence : LOLF_reference_20260507.html + Constitution_3col_20260507_v21.html</div>
+  </div>
+</header>
+
+<div class="avert">
+  <div class="avert-inner">
+    <strong>Méthode v7 :</strong> colonne A = texte verbatim Légifrance · colonne B = catégorie de modification + motif · colonne C = rédaction révisée ou arbitrage · Seuls les articles affectés sont traités · <strong>v7 :</strong> art. 5 — 2e travail complété · nomenclature 8 titres · titre 6° flagué pour réaudit · exigence MECE permanente sur toute la nomenclature.
+  </div>
+</div>
+
+<div class="legende">
+  <div class="legende-inner">
+    <h3>Catégories</h3>
+    <div class="leg-item"><span class="badge badge-rp">RP</span> Rédaction pure — cohérence avec C v21</div>
+    <div class="leg-item"><span class="badge badge-lpfp">LPFP</span> Éléments LPFP à traiter (en suspens)</div>
+    <div class="leg-item"><span class="badge badge-def">DEF</span> Définitions / nomenclature — 2e travail</div>
+    <div class="leg-item"><span class="badge badge-1t">1T</span> Portée du vote / AE — 1er travail</div>
+    <div class="leg-item"><span class="badge badge-co">CO</span> Réformes CO — 3e travail</div>
+    <div class="leg-item"><span class="badge badge-inc">—</span> Inchangé</div>
+    <div class="leg-item"><span style="color:#7A0000;font-size:12px;">⬡ ARB</span> Arbitrage à rendre — signalé en rouge</div>
+  </div>
+</div>
+
+<div class="sommaire">
+  <div class="sommaire-inner">
+    <h3>Sommaire</h3>
+    <nav>
+      <a href="#tp">Tit. prél. — LPFP (1A–1K + 1er H)</a>
+      <a href="#t1">Tit. I — Art. 1 (définition)</a>
+      <a href="#t2">Tit. II — Arts. 2–31 (ressources/charges)</a>
+      <a href="#t3">Tit. III — Arts. 32–37 (contenu/présentation)</a>
+      <a href="#t4">Tit. IV — Arts. 38–47 (vote)</a>
+      <a href="#t5">Tit. V — Arts. 48–54 (information)</a>
+      <a href="#t6">Tit. VI — Arts. 61–62 (HCFP)</a>
+      <a href="#coord">Coordination — abrogation LOLFSS</a>
+    </nav>
+  </div>
+</div>
+
+<main class="main">
+
+<!-- ═══ TITRE PRÉLIMINAIRE ═══ -->
+<div class="partie" id="tp">
+  <span class="partie-num">TP</span>
+  <h2>Titre préliminaire — LPFP (arts. 1A–1K) et article liminaire (art. 1er H)</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Texte verbatim Légifrance</span>
+  <span class="ch ch-b">Catégorie · Motif</span>
+  <span class="ch ch-c">Proposition</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Arts. 1A à 1K</span> <span class="badge badge-o">O</span></div>
+    Art. 1A : « Dans le respect de l'objectif d'équilibre des comptes des administrations publiques prévu à l'article 34 de la Constitution, la loi de programmation des finances publiques fixe l'objectif à moyen terme des administrations publiques mentionné à l'article 3 du TSCG, signé à Bruxelles le 2 mars 2012. Elle détermine les trajectoires des soldes structurels et effectifs annuels successifs des comptes des administrations publiques. »<br><br>Arts. 1B–1K : contenu des LPFP, trajectoires, mécanisme de correction, avis du HCFP, conditions d'adoption.
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-lpfp">LPFP</span> + <span class="badge badge-rp">RP</span><br><br>
+    Base constitutionnelle (alinéa LPFP art. 34 C) supprimée en v21. Titre préliminaire à abroger intégralement. Obligations UE satisfaites à minima par : (1) frein d'endettement CO (TSCG correction), (2) article liminaire révisé (TFUE déficit effectif), (3) annexe plan budgétaire NEG 2024 à art. 51.<br><br>
+    Solde structurel : disparaît du droit contraignant interne — information technique en annexe seulement.
+  </div>
+  <div class="cell cell-c">
+    <strong>Arts. 1A à 1K : abrogés.</strong><br><br>
+    <span class="note">Aucun élément substantiel à sauver comme norme interne. Le mécanisme de correction (art. 1E) est remplacé par le frein d'endettement de l'art. 15-III nouveau. L'avis HCFP sur la cohérence pluriannuelle migre vers l'art. 62 révisé. Le plan budgétaire requis par le règlement UE NEG 2024/1263 est un document gouvernemental annexé au PLF (art. 51 annexe [C]) sans valeur normative interne.</span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 1er H</span> <span class="badge badge-o">O</span></div>
+    « La loi de finances de l'année, les lois de finances rectificatives et la loi d'approbation des comptes comprennent un article liminaire présentant un tableau de synthèse retraçant l'état des prévisions de solde structurel et de solde effectif de l'ensemble des administrations publiques, avec l'indication des calculs permettant d'établir le passage de l'un à l'autre. [...] Il présente une évaluation des écarts aux trajectoires définies dans la loi de programmation des finances publiques en vigueur. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span> + <span class="badge badge-lpfp">LPFP</span><br><br>
+    Supprimer solde structurel et renvois LPFP. Recentrer sur solde effectif (obligation TFUE art. 126) + constat de déclenchement du frein (art. 15-III). Cohérence : art. 1er H bis nouveau (pénalités élus) se déclenche sur le dépassement des plafonds votés à l'art. 34-I-1°.
+  </div>
+  <div class="cell cell-c">
+    « La loi de finances de l'année, les lois de finances rectificatives et la loi d'approbation des comptes de l'année comprennent un article liminaire présentant un tableau de synthèse retraçant, pour l'année sur laquelle elles portent :<br><br>
+    1° Le solde effectif des administrations publiques au sens de l'article 126 du traité sur le fonctionnement de l'Union européenne, exprimé en pourcentage du produit intérieur brut ;<br><br>
+    2° La position de ce solde par rapport au seuil de déclenchement du mécanisme de correction prévu à l'article 15-III et, le cas échéant, le constat de son déclenchement ;<br><br>
+    3° L'évolution de la dette publique au sens du même article, exprimée en pourcentage du produit intérieur brut.<br><br>
+    Cet article liminaire indique également les données constatées pour les deux exercices précédents. »<br><br>
+    <span class="note">Suppression du solde structurel et des renvois LPFP. Chaîne de cohérence : plafond voté (art. 34-I-1°) → constat de dépassement des plafonds (loi d'approbation des comptes) → pénalités (art. 1er H bis CO).</span>
+  </div>
+</div>
+
+<!-- ═══ TITRE I ═══ -->
+<div class="partie" id="t1">
+  <span class="partie-num">I</span>
+  <h2>Titre I — Des lois de finances (art. 1er)</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Texte verbatim Légifrance</span>
+  <span class="ch ch-b">Catégorie · Motif</span>
+  <span class="ch ch-c">Proposition</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 1er</span> <span class="badge badge-o">O</span></div>
+    « Dans les conditions et sous les réserves prévues par la présente loi organique, les lois de finances déterminent, pour un exercice, la nature, le montant et l'affectation des ressources et des charges de l'État, ainsi que l'équilibre budgétaire et financier qui en résulte. Elles tiennent compte d'un équilibre économique défini, ainsi que des objectifs et des résultats des programmes qu'elles déterminent. »<br><br>
+    Ont le caractère de lois de finances : 1° La loi de finances de l'année ; 2° Les LFR ; 3° La loi d'approbation des comptes ; 4° Les lois de finances de fin de gestion ; 5° Les lois prévues à l'article 45.
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span><br><br>
+    Décision : « déterminent, pour un exercice, la nature, l'objet et le montant des charges qu'elles autorisent » · « déterminent les ressources nécessaires à leur couverture » · « arrêtent l'équilibre financier ainsi que les charges ultérieures qui en résultent » · « tiennent compte des résultats antérieurs des programmes » · supprimer « affectation » sur les charges · supprimer « d'un équilibre économique défini » · supprimer « budgétaire » après équilibre.
+  </div>
+  <div class="cell cell-c">
+    « Dans les conditions et sous les réserves prévues par la présente loi organique, les lois de finances déterminent, pour un exercice, la nature, l'objet et le montant des charges qu'elles autorisent. Elles déterminent les ressources nécessaires à leur couverture et arrêtent l'équilibre financier ainsi que les charges ultérieures qui en résultent. Elles tiennent compte des résultats antérieurs des programmes. »<br><br>
+    Ont le caractère de lois de finances : [inchangé]
+  </div>
+</div>
+
+<!-- ═══ TITRE II ═══ -->
+<div class="partie" id="t2">
+  <span class="partie-num">II</span>
+  <h2>Titre II — Des ressources et des charges de l'État (arts. 2–31)</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Texte verbatim Légifrance</span>
+  <span class="ch ch-b">Catégorie · Motif</span>
+  <span class="ch ch-c">Proposition</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 2</span> <span class="badge badge-o">O</span></div>
+    « I. — Les ressources et les charges de l'État comprennent les ressources et les charges budgétaires ainsi que les ressources et les charges de trésorerie.<br>
+    II. — Les impositions de toutes natures peuvent être directement affectées aux collectivités territoriales, à leurs établissements publics et aux organismes de sécurité sociale [...]<br>
+    III. — L'affectation, totale ou partielle, à un tiers d'une ressource établie au profit de l'État ne peut résulter que d'une disposition d'une loi de finances.<br>
+    IV. — L'affectation du produit d'une imposition de toute nature à un tiers ne peut résulter que d'une disposition d'une loi de finances. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span> + <span class="badge badge-co">CO</span><br><br>
+    RP : inversion ressources/charges au I. Supprimer la référence aux « organismes de sécurité sociale » au II (fusion LFSS — les cotisations sociales deviennent ressources budgétaires directes, plus de tiers affectataire).<br><br>
+    CO : renforcer le III/IV pour poser la règle d'équilibre automatique des affectations (notre réforme art. 17-III migre ici — art. 17 est en réalité très court, la règle de fond appartient à art. 2).
+  </div>
+  <div class="cell cell-c">
+    « I. — Les charges et les ressources de l'État comprennent les charges et les ressources budgétaires ainsi que les charges et les ressources de trésorerie.<br><br>
+    II. — Les impositions de toutes natures peuvent être directement affectées aux collectivités territoriales et à leurs établissements publics, sous les réserves prévues au III du présent article et aux articles 34 et 51. [Suppression de la référence aux organismes de sécurité sociale — fusion LFSS.] [...]<br><br>
+    III. — L'affectation, totale ou partielle, à un tiers d'une ressource établie au profit de l'État ne peut résulter que d'une disposition d'une loi de finances. Toute affectation doit être assortie, dans le même texte, d'un mécanisme garantissant l'équilibre automatique entre la recette affectée et la dépense correspondante sur le même exercice. À défaut de ce mécanisme, la dépense ne peut excéder le produit effectivement encaissé de la recette affectée. Les affectations existantes ne satisfaisant pas à cette condition sont maintenues pour une durée de [trois] ans à compter de l'entrée en vigueur de la présente disposition. »<br><br>
+    <span class="note">La règle d'équilibre des affectations (précédemment au mauvais endroit en v5 — art. 17) est ici au bon emplacement : art. 2-III, qui pose le régime général des affectations. Art. 17 (budgets annexes) reste inchangé.</span>
+    <span class="arb">⬡ ARB — Délai transitoire [trois ans] pour les affectations existantes non équilibrées : à calibrer politiquement. Vérifier l'impact sur les taxes affectées aux agences de l'État (plusieurs centaines — voir données Résolution).</span>
+  </div>
+</div>
+
+<div class="chapitre-sep">Chapitre Ier — Des ressources et des charges budgétaires (arts. 3 à 6)</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 3</span> <span class="badge badge-o">O</span></div>
+    « Les ressources budgétaires de l'État comprennent : 1° Des impositions de toutes natures ; 2° Des revenus courants [...] les retenues et cotisations sociales établies à son profit [...] ; 3° Les fonds de concours finançant des dépenses autres que les dépenses d'investissement [...] ; 3° bis Les fonds de concours finançant des dépenses d'investissement [...] ; 4° Les revenus courants divers ; 5° Les remboursements des prêts et avances ; 6° Les produits de cession [...] ; 7° Les produits exceptionnels divers. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span><br><br>
+    Fusion LFSS : les cotisations sociales (CSG, cotisations) deviennent des ressources budgétaires directes de l'État — elles figurent déjà au 2° via les « retenues et cotisations sociales établies à son profit ». Vérifier que le libellé actuel couvre bien les cotisations de l'ensemble des branches après fusion.
+  </div>
+  <div class="cell cell-c">
+    Inchangé dans sa structure. Vérifier que le 2° (« retenues et cotisations sociales établies à son profit ») couvre bien l'intégralité des cotisations sociales après fusion LFSS.<br><br>
+    <span class="arb">⬡ ARB — Le 2° mentionne les « retenues et cotisations sociales établies au profit de l'État ». Après fusion LFSS, la CSG et les cotisations maladie/retraite/etc. sont-elles « établies au profit de l'État » ou faut-il un libellé dédié ? À vérifier avec juriste fiscaliste.</span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 4</span> <span class="badge badge-o">O</span></div>
+    « La rémunération de services rendus par l'État peut être établie et perçue sur la base de décrets en Conseil d'État pris sur le rapport du ministre chargé des finances et du ministre intéressé. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-inc">—</span> Inchangé.
+  </div>
+  <div class="cell cell-c">
+    Inchangé.
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 5</span> <span class="badge badge-o">O</span></div>
+    <strong>Verbatim Légifrance :</strong><br>
+    « I. — Les charges budgétaires de l'État sont regroupées sous les titres suivants : 1° Les dotations des pouvoirs publics ; 2° Les dépenses de personnel ; 3° Les dépenses de fonctionnement ; 4° Les charges de la dette de l'État ; 5° Les dépenses d'investissement ; 6° Les dépenses d'intervention ; 7° Les dépenses d'opérations financières.<br><br>
+    II. — Les dépenses de personnel comprennent : les rémunérations d'activité ; les cotisations et contributions sociales ; les prestations sociales et allocations diverses. Les dépenses de fonctionnement comprennent : les dépenses de fonctionnement autres que celles de personnel ; les subventions pour charges de service public. Les charges de la dette comprennent : les intérêts de la dette financière négociable ; les intérêts de la dette financière non négociable ; les charges financières diverses. Les dépenses d'investissement comprennent : les dépenses pour immobilisations corporelles de l'État ; les dépenses pour immobilisations incorporelles de l'État ; les subventions pour charges d'investissement. Les dépenses d'intervention comprennent : les transferts aux ménages ; les transferts aux entreprises ; les transferts aux collectivités territoriales ; les transferts aux autres collectivités ; les appels en garantie. Les dépenses d'opérations financières comprennent : les prêts et avances ; les dotations en fonds propres ; les dépenses de participations financières. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-def">DEF</span> — 2e travail — <strong>v7 : arbitrages rendus</strong><br><br>
+    <strong>Décisions :</strong><br>
+    — Titre 6° (dépenses d'intervention) supprimé — remplacé par titre 6° versements pour charges de service public (carve-out du titre 3°) et titre 8° protection sociale (nouveau)<br>
+    — Titre 3° : définition négative supprimée, SCSP remplacé par versements pour charges de service public sortis en titre 6°<br>
+    — Titre 5° : subventions pour charges d'investissement supprimées<br>
+    — Titre 7° : appels en garantie ajoutés, avec encadrement fort (régime strict à fixer au 1er travail / art. 8)<br>
+    — Titre 8° nouveau : dépenses de protection sociale (fusion LFSS + solidarité + compte éducation)<br><br>
+    <span class="open">⚑ FLAG — Titre 6° (versements pour charges de service public) : sous-catégories à réauditer en prochaine séance. Libellés retenus provisoirement : service public administratif · service public sanitaire et médico-social · service public de connaissance. Architecture et périmètre à confirmer.</span>
+  </div>
+  <div class="cell cell-c">
+    <strong>I. — révisé</strong><br><br>
+    « Les charges budgétaires de l'État sont regroupées sous les titres suivants :<br>
+    1° Les dotations des pouvoirs publics ;<br>
+    2° Les dépenses de personnel ;<br>
+    3° Les dépenses de fonctionnement ;<br>
+    4° Les charges de la dette de l'État ;<br>
+    5° Les dépenses d'investissement ;<br>
+    6° Les versements pour charges de service public ;<br>
+    7° Les dépenses d'opérations financières ;<br>
+    8° Les dépenses de protection sociale. »<br><br>
+    <strong>II. — révisé</strong><br><br>
+    « Les dépenses de personnel comprennent : les rémunérations d'activité ; les cotisations et contributions sociales ; les prestations sociales et allocations diverses.<br><br>
+    Les dépenses de fonctionnement comprennent : les dépenses de biens ; les dépenses de services.<br><br>
+    Les charges de la dette de l'État comprennent : les intérêts de la dette financière négociable ; les intérêts de la dette financière non négociable ; les charges financières diverses.<br><br>
+    Les dépenses d'investissement comprennent : les dépenses pour immobilisations corporelles de l'État ; les dépenses pour immobilisations incorporelles de l'État.<br><br>
+    <span style="border:1px dashed #9C6B00;background:rgba(156,107,0,0.06);padding:4px 7px;display:block;margin:4px 0;">⚑ FLAG — Les versements pour charges de service public comprennent [provisoire, à réauditer] : les versements aux opérateurs de service public administratif ; les versements aux opérateurs de service public sanitaire et médico-social ; les versements aux opérateurs de service public de connaissance.</span><br>
+    Les dépenses d'opérations financières comprennent : les prêts et avances ; les dotations en fonds propres ; les dépenses de participations financières ; les appels en garantie.<br><br>
+    Les dépenses de protection sociale comprennent : les prestations en espèces ; les prestations en nature ; les dotations en capital aux personnes. »<br><br>
+    <span class="note">Modifications : titre 3° II — définition positive (biens/services) ; titre 5° II — subventions d'investissement supprimées ; titre 6° — nouveau titre carve-out de titre 3° [⚑ FLAG sous-catégories] ; titre 7° — appels en garantie ajoutés, encadrement fort à définir ; titre 8° — nouveau titre protection sociale, remplace intervention.</span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 6</span> <span class="badge badge-o">O</span></div>
+    « Les ressources et les charges budgétaires de l'État sont retracées dans le budget sous forme de recettes et de dépenses. Le budget décrit, pour une année, l'ensemble des recettes et des dépenses budgétaires de l'État. Il est fait recette du montant intégral des produits, sans contraction entre les recettes et les dépenses. L'ensemble des recettes assurant l'exécution de l'ensemble des dépenses, toutes les recettes et toutes les dépenses sont retracées sur un compte unique, intitulé budget général. Un montant déterminé de recettes de l'État peut être rétrocédé directement au profit des collectivités territoriales ou de l'Union européenne. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span><br><br>
+    Fusion LFSS : les charges de protection sociale entrent dans le budget général. La phrase « budget général » doit englober explicitement les missions de protection sociale. Sinon inchangé — les principes (universalité, unité, non-contraction) sont fondamentaux et solides.
+  </div>
+  <div class="cell cell-c">
+    « Les ressources et les charges budgétaires de l'État sont retracées dans le budget sous forme de recettes et de dépenses. Le budget décrit, pour une année, l'ensemble des recettes et des dépenses budgétaires de l'État, y compris les recettes et dépenses afférentes aux mécanismes de protection sociale. Il est fait recette du montant intégral des produits, sans contraction entre les recettes et les dépenses. L'ensemble des recettes assurant l'exécution de l'ensemble des dépenses, toutes les recettes et toutes les dépenses sont retracées sur un compte unique, intitulé budget général. Un montant déterminé de recettes de l'État peut être rétrocédé directement au profit des collectivités territoriales ou de l'Union européenne. »<br><br>
+    <span class="note">Modification minimale : ajout de « y compris les recettes et dépenses afférentes aux mécanismes de protection sociale » pour exprimer que la fusion LFSS intègre ces flux dans le budget général. Les prélèvements sur recettes (collectivités/UE) sont maintenus.</span>
+  </div>
+</div>
+
+<div class="chapitre-sep">Chapitre II — De la nature et de la portée des autorisations budgétaires (arts. 7 à 15)</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 7</span> <span class="badge badge-o">O</span></div>
+    « I. — Les crédits ouverts par les lois de finances pour couvrir chacune des charges budgétaires de l'État sont regroupés par mission relevant d'un ou plusieurs services d'un ou plusieurs ministères. Une mission comprend un ensemble de programmes concourant à une politique publique définie. Seule une disposition de loi de finances d'initiative gouvernementale peut créer une mission. [...] Un programme regroupe les crédits destinés à mettre en œuvre une action ou un ensemble cohérent d'actions relevant d'un même ministère et auquel sont associés des objectifs précis, définis en fonction de finalités d'intérêt général, ainsi que des résultats attendus et faisant l'objet d'une évaluation.<br>
+    II. — Les crédits sont spécialisés par programme ou par dotation. [...] la présentation des crédits par titre est indicative. Toutefois, les crédits ouverts sur le titre des dépenses de personnel [...] constituent le plafond des dépenses de cette nature.<br>
+    III. — [...] les crédits ouverts sur le titre des dépenses de personnel sont assortis de plafonds d'autorisation des emplois [...] spécialisés par ministère.<br>
+    IV. — Les crédits ouverts sont mis à la disposition des ministres. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span> + <span class="badge badge-co">CO</span><br><br>
+    RP : ajouter un alinéa au I sur les missions de protection sociale (fusion LFSS — elles constituent des missions ordinaires soumises au droit commun des crédits limitatifs).<br><br>
+    CO : renforcer le II sur la performance — suppression automatique des programmes sans indicateurs renseignés pendant deux exercices consécutifs.
+  </div>
+  <div class="cell cell-c">
+    Ajout au I :<br><br>
+    « [...] Les charges de protection sociale constituent des missions du budget général, organisées en programmes par branche. Ces programmes sont soumis au droit commun des crédits limitatifs. La loi de finances fixe librement leur montant annuel conformément à l'article 34 de la Constitution. »<br><br>
+    Modification du II :<br><br>
+    « [...] Chaque programme est assorti d'objectifs de résultat mesurables et d'indicateurs de performance renseignés annuellement dans les conditions prévues à l'article 51. Tout programme dont aucun indicateur n'a été renseigné lors de deux exercices consécutifs est supprimé de plein droit dans la loi de finances suivante. »<br><br>
+    <span class="note">Art. III et IV : inchangés. La suppression automatique des programmes sans indicateurs ferme la dérive des programmes fantômes. La référence à l'art. 34 C (« librement ») ancre la souveraineté parlementaire sur les missions de protection sociale.</span>
+    <span class="arb">⬡ ARB — Les programmes de protection sociale : organisation par branche (maladie, retraite, famille, AT/MP, autonomie) ou par politique publique transversale ? La structure par branche est la plus lisible et cohérente avec l'historique LFSS. À confirmer.</span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 8</span> <span class="badge badge-o">O</span></div>
+    « Les crédits ouverts sont constitués d'autorisations d'engagement et de crédits de paiement. Les autorisations d'engagement constituent la limite supérieure des dépenses pouvant être engagées. [...] Les crédits de paiement constituent la limite supérieure des dépenses pouvant être ordonnancées ou payées pendant l'année pour la couverture des engagements contractés dans le cadre des autorisations d'engagement. Pour les dépenses de personnel, le montant des autorisations d'engagement ouvertes est égal au montant des crédits de paiement ouverts. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-1t">1T</span> — Premier travail<br><br>
+    C'est ici que se joue le cœur du 1er travail. L'art. 8 définit les AE/CP. Il faut y ajouter :<br>
+    — Les régimes d'AE par maturité (intra-annuelle / pluriannuelle N+1 à N+3 / longue au-delà N+3)<br>
+    — Le plafond du stock d'AE non couvertes en CP<br>
+    — La correction automatique si dépassement<br>
+    — L'habilitation constitutionnelle de l'art. 34 C v21 (nature, plafond, correction) est ici remplie.
+  </div>
+  <div class="cell cell-c">
+    <span class="open">⚑ 1er TRAVAIL — Art. 8 est le siège du régime AE/CP et de l'ensemble du premier travail sur la portée du vote. À rédiger après consolidation de :<br>
+    (a) La taxonomie des obligations financières (2e travail art. 5) ;<br>
+    (b) La structure du vote annuel (art. 34 LOLF révisé).<br><br>
+    Structure envisagée :<br>
+    Art. 8-I : définitions AE/CP (inchangé)<br>
+    Art. 8-II : régimes d'AE par maturité (intra-annuelle, pluriannuelle, longue)<br>
+    Art. 8-III : plafond du stock d'AE non couvertes ([X] années de recettes fiscales nettes)<br>
+    Art. 8-IV : correction automatique si stock > plafond (coefficient de réduction des AE longues nouvelles)</span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 9</span> <span class="badge badge-o">O</span></div>
+    « Les crédits sont limitatifs, sous réserve des dispositions prévues aux articles 10 et 24. Les dépenses ne peuvent être engagées et ordonnancées que dans la limite des crédits ouverts. Les conditions dans lesquelles des dépenses peuvent être engagées par anticipation sur les crédits de l'année suivante sont définies par une disposition de loi de finances. Les plafonds des autorisations d'emplois sont limitatifs. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-inc">—</span> Inchangé dans son principe.
+  </div>
+  <div class="cell cell-c">
+    Inchangé.
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 10</span> <span class="badge badge-o">O</span></div>
+    « Les crédits relatifs aux charges de la dette de l'État, aux remboursements, restitutions et dégrèvements et à la mise en jeu des garanties accordées par l'État ont un caractère évaluatif. Ils sont ouverts sur des programmes distincts des programmes dotés de crédits limitatifs. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-def">DEF</span> + <span class="badge badge-1t">1T</span><br><br>
+    Deux enjeux liés au 2e travail :<br>
+    — Les charges de protection sociale (après fusion LFSS) : évaluatives ou limitatives ? La réforme pose qu'elles sont limitatives (souveraineté de la LF). À préciser ici.<br>
+    — Les garanties de l'État : actuellement dans les crédits évaluatifs (« mise en jeu des garanties »). Le 1er travail traitera leur intégration dans le stock AE.
+  </div>
+  <div class="cell cell-c">
+    <span class="open">⚑ 2e TRAVAIL — Préciser que les crédits des missions de protection sociale sont limitatifs (pas évaluatifs). Articuler avec la réserve de précaution dédiée (art. 7-I révisé).<br><br>
+    <span class="arb">⬡ ARB — Les « appels en garantie » figurent actuellement dans les crédits évaluatifs (art. 10) ET dans les dépenses d'intervention (art. 5-II). Après le 1er travail, les garanties entrent dans le stock AE (art. 8-III). Supprimer la référence aux garanties de l'art. 10 ou maintenir en cohérence ?</span></span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 11</span> <span class="badge badge-o">O</span></div>
+    « En tant que de besoin, les crédits ouverts sur la dotation pour dépenses accidentelles et imprévisibles sont répartis par programme, par décret [...] si la répartition excède 100 M€, information des commissions. Les crédits de la dotation pour mesures générales de rémunérations sont répartis par arrêté du ministre chargé des finances. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-inc">—</span> Inchangé.
+  </div>
+  <div class="cell cell-c">
+    Inchangé.
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 12</span> <span class="badge badge-o">O</span></div>
+    « I. — Des virements peuvent modifier la répartition des crédits entre programmes d'un même ministère. Le montant cumulé [...] ne peut excéder <strong>2 %</strong> des crédits ouverts par la loi de finances de l'année pour chacun des programmes concernés. Ce plafond s'applique également aux crédits ouverts sur le titre des dépenses de personnel.<br>
+    II. — Des transferts peuvent modifier la répartition des crédits entre programmes de ministères distincts [...] correspondent à des actions du programme d'origine.<br>
+    III. — Les virements et transferts sont effectués par décret [...] après information des commissions.<br>
+    IV. — Aucun virement ni transfert ne peut être effectué au profit de programmes non prévus par une loi de finances. Aucun virement ni transfert ne peut être effectué au profit du titre des dépenses de personnel à partir d'un autre titre. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-co">CO</span><br><br>
+    Deux modifications CO :<br>
+    (1) Abaisser le plafond des virements de 2 % à [1 %] — renforcement de la spécialité<br>
+    (2) Conditionner les transferts inter-ministères à une autorisation parlementaire (LFR) — ferme le contournement de la spécialité entre missions
+  </div>
+  <div class="cell cell-c">
+    « I. — Des virements peuvent modifier la répartition des crédits entre programmes d'un même ministère. Le montant cumulé, au cours d'une même année, des crédits ayant fait l'objet de virements, ne peut excéder <strong>[1 %]</strong> des crédits ouverts par la loi de finances de l'année pour chacun des programmes concernés. Ce plafond s'applique également aux crédits ouverts sur le titre des dépenses de personnel.<br><br>
+    II. — Des transferts peuvent modifier la répartition des crédits entre programmes de ministères distincts, dans la mesure où l'emploi des crédits ainsi transférés correspond à des actions du programme d'origine. <strong>Aucun transfert ne peut être effectué entre missions relevant de ministères distincts sans autorisation expresse d'une loi de finances rectificative précisant les programmes d'origine et de destination, leurs montants et leurs motifs.</strong><br><br>
+    III. — [Inchangé] IV. — [Inchangé] »<br><br>
+    <span class="note">Deux modifications ciblées : abaissement du plafond de virements de 2 % à [1 %] ; interdiction des transferts inter-ministères sans LFR.</span>
+    <span class="arb">⬡ ARB — Seuil [1 %] : le plafond actuel de 2 % est déjà contraignant pour certains programmes de petite taille. Un seuil absolu (ex. 50 M€) combiné à un seuil relatif [1 %] serait plus praticable. À évaluer sur données d'exécution.</span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 13</span> <span class="badge badge-o">O</span></div>
+    « En cas d'urgence, des décrets d'avance pris sur avis du Conseil d'État et après avis des commissions [...] peuvent ouvrir des crédits supplémentaires sans affecter l'équilibre budgétaire. [...] Le montant cumulé des crédits ainsi ouverts ne peut excéder 1 % des crédits ouverts par la loi de finances de l'année. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-inc">—</span> Inchangé dans son principe.
+  </div>
+  <div class="cell cell-c">
+    Inchangé.
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 14</span> <span class="badge badge-o">O</span></div>
+    « I. — Afin de prévenir une détérioration de l'équilibre budgétaire [...] un crédit peut être annulé par décret [...]. Le montant cumulé des crédits annulés par décret en vertu du présent article et de l'article 13 ne peut dépasser <strong>1,5 %</strong> des crédits ouverts.<br>
+    II. — Les crédits dont l'annulation est proposée par un PLF rectificatif ou de fin de gestion sont indisponibles dès son dépôt.<br>
+    III. — Tout acte ayant pour objet ou pour effet de rendre des crédits indisponibles est communiqué aux commissions. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-co">CO</span><br><br>
+    Ajouter au I : renforcer le visa a priori — créer un art. 14 bis nouveau sur le visa préalable du contrôleur budgétaire et la responsabilité personnelle des ordonnateurs pour contournement. Emplacement naturel : immédiatement après art. 14 (annulations) dans le même chapitre des autorisations budgétaires.
+  </div>
+  <div class="cell cell-c">
+    Art. 14 : inchangé.<br><br>
+    <strong>Art. 14 bis nouveau — Visa a priori et responsabilité des ordonnateurs :</strong><br>
+    « Tout engagement de dépense dépassant un seuil fixé par décret en Conseil d'État est soumis au visa préalable du contrôleur budgétaire et comptable ministériel. Ce seuil est différencié selon la nature de la dépense et la taille du programme.<br><br>
+    Le refus de visa est motivé par écrit et notifié à l'ordonnateur dans un délai de [quinze] jours. Il est transmis sans délai aux commissions des finances de l'Assemblée nationale et du Sénat.<br><br>
+    Tout engagement de dépense effectué en méconnaissance du visa requis engage la responsabilité personnelle et pécuniaire de l'ordonnateur. Il est signalé sans délai par le contrôleur budgétaire au procureur général près la Cour des comptes et aux commissions des finances. »<br><br>
+    <span class="note">Placement cohérent : le visa a priori est une mesure de contrôle des autorisations budgétaires — il s'insère naturellement dans le Chap. II après l'art. 14 sur les annulations. C'est plus logique qu'aux arts. 55-57 (exécution).</span>
+    <span class="arb">⬡ ARB — Délai de refus de visa [quinze] jours : à calibrer pour ne pas bloquer la gestion courante. Le seuil par décret permet d'ajuster sans modifier la LOLF.</span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 15</span> <span class="badge badge-o">O</span></div>
+    « I. — Sous réserve des dispositions concernant les autorisations d'engagement, les crédits ouverts et les plafonds des autorisations d'emplois fixés au titre d'une année ne créent aucun droit au titre des années suivantes.<br>
+    II. — Reports de CP : ≤ 3 % des crédits initiaux sur les titres concernés du programme, ≤ 5 % des crédits ouverts par la LF de l'année. Personnel : non reportable.<br>
+    III. — Reports d'AE : disponibles à la fin de l'année, reportables par arrêté.<br>
+    IV. — Les arrêtés de report sont publiés au plus tard le 15 mars. »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span> + <span class="badge badge-co">CO</span><br><br>
+    RP : supprimer les renvois LPFP dans les notes et commentaires. Inchangé dans le dispositif.<br><br>
+    CO : ajouter un V nouveau — frein d'endettement (déclenchement automatique si solde effectif > 3 % PIB sur deux exercices consécutifs).
+  </div>
+  <div class="cell cell-c">
+    Art. 15-I à IV : inchangés.<br><br>
+    <strong>Art. 15-V nouveau — Frein d'endettement :</strong><br>
+    « V. — Lorsque le solde effectif des administrations publiques, au sens de l'article 126 du traité sur le fonctionnement de l'Union européenne, constaté par la loi d'approbation des comptes, dépasse trois pour cent du produit intérieur brut lors de deux exercices consécutifs, les crédits du budget général de la loi de finances de l'exercice suivant sont réduits par application d'un coefficient de correction.<br><br>
+    Ce coefficient est calculé de façon à ramener le solde effectif sous ce seuil dans un délai de [trois] exercices. Il est constaté par décret en Conseil d'État, pris sur avis conforme du Haut Conseil des finances publiques, et publié au plus tard le 1er septembre précédant le dépôt du projet de loi de finances.<br><br>
+    La réduction s'applique à l'ensemble des crédits du budget général à l'exception des charges de la dette. Elle est répartie entre les missions proportionnellement à leur poids dans les dépenses primaires de l'exercice précédent.<br><br>
+    Le mécanisme est suspendu si une contraction du produit intérieur brut supérieure à [un] pour cent est constatée lors de deux trimestres consécutifs précédant le dépôt du projet de loi de finances, selon les données publiées par l'Institut national de la statistique et des études économiques. »<br><br>
+    <span class="note">Emplacement : art. 15 est l'article sur l'annualité des crédits — le frein d'endettement (limite sur la reconduction des crédits de l'exercice suivant) s'y insère logiquement comme V nouveau. L'avis conforme du HCFP satisfait l'exigence TSCG d'institution de surveillance indépendante.</span>
+    <span class="arb">⬡ ARB 1 — Délai de correction [trois exercices] : cohérent avec les pratiques européennes. [Deux exercices] serait plus strict mais potentiellement procyclique.<br>⬡ ARB 2 — Seuil de suspension récession [1 % sur deux trimestres] : compatible avec la clause de suspension du TSCG ? Vérifier.</span>
+  </div>
+</div>
+
+<div class="chapitre-sep">Chapitre III — Des affectations de recettes (arts. 16 à 24)</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Arts. 16 à 24</span> <span class="badge badge-o">O</span></div>
+    Art. 16 : prélèvements sur recettes (collectivités territoriales, UE). Art. 17 : « Certaines recettes peuvent être directement affectées à certaines dépenses. Ces affectations prennent la forme de budgets annexes, de comptes spéciaux ou de procédures comptables particulières. » Arts. 18-24 : comptes spéciaux (affectation spéciale, concours financiers, commerce, opérations monétaires).
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span><br><br>
+    Art. 17 : la règle d'équilibre des affectations a été déplacée à l'art. 2-III (son emplacement logique). Art. 17 reste une définition courte des formes d'affectation — inchangé.<br><br>
+    Arts. 16 et 18-24 : inchangés dans nos travaux. Art. 16 : supprimer la référence aux « organismes de sécurité sociale » comme bénéficiaires des impositions affectées (fusion LFSS).
+  </div>
+  <div class="cell cell-c">
+    Art. 16 : supprimer « aux organismes de sécurité sociale » dans la liste des bénéficiaires des impositions affectées — cohérence avec la fusion LFSS (les recettes de protection sociale entrent dans le budget général).<br><br>
+    Arts. 17-24 : inchangés.
+  </div>
+</div>
+
+<!-- ═══ TITRE III ═══ -->
+<div class="partie" id="t3">
+  <span class="partie-num">III</span>
+  <h2>Titre III — Du contenu et de la présentation des lois de finances (arts. 32–37)</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Texte verbatim Légifrance</span>
+  <span class="ch ch-b">Catégorie · Motif</span>
+  <span class="ch ch-c">Proposition</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Arts. 32–33</span> <span class="badge badge-o">O</span></div>
+    Art. 32 : « Les lois de finances présentent de façon sincère l'ensemble des ressources et des charges de l'État. Leur sincérité s'apprécie compte tenu des informations disponibles et des prévisions qui peuvent raisonnablement en découler. »<br>
+    Art. 33 : évaluation des conséquences des dispositions affectant ressources/charges.
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-inc">—</span> Inchangés.
+  </div>
+  <div class="cell cell-c">
+    Inchangés. La sincérité couvre désormais aussi les missions de protection sociale (fusion LFSS) sans modification de texte — la définition est suffisamment large.
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Arts. 1er H et 34 LOLF</span> <span class="badge badge-o">O</span></div>
+    Art. 34 : « Outre l'article liminaire mentionné à l'article 1er H, la loi de finances de l'année comprend deux parties distinctes.<br>
+    I. — 1° Autorise [...] la perception des ressources ; 2° Comporte les dispositions relatives aux ressources ; [...] 6° Fixe les plafonds des dépenses ; 7° Arrête les données générales de l'équilibre budgétaire, présentées dans un tableau d'équilibre.<br>
+    II. — 1° Fixe par mission les AE et CP ; 2° [...] 4° Autorise l'octroi des garanties ; [...] »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span> + <span class="badge badge-1t">1T</span><br><br>
+    RP : inversion de la première partie — charges (6°) et équilibre (7°) passent en 1° et 2° ; les ressources (actuels 1°-5°) suivent. Supprimer 3° bis et 5° bis (absorbés dans art. 2 révisé et art. 51).<br><br>
+    1T : ajouter une ligne intertemporelle au tableau d'équilibre (7° → nouveau 2°) : variation du stock d'AE non couvertes, soumise à vote distinct.<br><br>
+    Cohérence : art. 1er H (liminaire) traité avec art. 34 — chaîne : plafond voté (34-I-1°) → constat dépassement (art. 1er H) → pénalités (art. 1er H bis CO).
+  </div>
+  <div class="cell cell-c">
+    <strong>Art. 34 révisé — première partie :</strong><br>
+    « I. — Dans la première partie, la loi de finances de l'année :<br>
+    1° Fixe les plafonds des charges du budget général et de chaque budget annexe, les plafonds des charges de chaque catégorie de comptes spéciaux ainsi que le plafond d'autorisation des emplois rémunérés par l'État ;<br>
+    2° Arrête les données générales de l'équilibre budgétaire, présentées dans un tableau d'équilibre comprenant le solde budgétaire et la variation du stock d'autorisations d'engagement au sens de l'article 8-III ; cette variation est soumise à un vote distinct ;<br>
+    3° Autorise, pour l'année, la perception des ressources de l'État et des impositions de toutes natures affectées à des personnes morales autres que l'État ;<br>
+    4° Comporte les dispositions relatives aux ressources de l'État ;<br>
+    5° Comporte toutes dispositions relatives aux affectations de recettes au sein du budget de l'État ;<br>
+    6° Institue et évalue chacun des prélèvements mentionnés à l'article 6 ;<br>
+    7° Comporte l'évaluation de chacune des recettes budgétaires. »<br><br>
+    <span class="note">RP : les charges (1°) précèdent les ressources (3°-7°). Suppression 3° bis (intégré dans art. 2-IV) et 5° bis (intégré dans art. 51 annexes). La ligne intertemporelle AE est au 2° dans le tableau d'équilibre — elle est votée simultanément avec le solde mais par un vote distinct pour isoler la décision politique. Art. 34-II (deuxième partie) : inchangé sauf suppression des renvois à la LFSS.</span>
+    <span class="arb">⬡ ARB — Le vote distinct sur la variation du stock AE est-il contraignant (rejet = impossibilité d'ouvrir les AE longues) ou informatif ? Recommandation : contraignant, symétrique au vote sur les plafonds d'emplois. À confirmer.</span>
+  </div>
+</div>
+
+<!-- ═══ TITRE IV ═══ -->
+<div class="partie" id="t4">
+  <span class="partie-num">IV</span>
+  <h2>Titre IV — De l'examen et du vote (arts. 38–47)</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Texte verbatim Légifrance</span>
+  <span class="ch ch-b">Catégorie</span>
+  <span class="ch ch-c">Proposition</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Arts. 38–47</span> <span class="badge badge-o">O</span></div>
+    Art. 38 : dépôt au plus tard le premier mardi d'octobre. Art. 39 : délais (40 jours AN, 20 jours Sénat). Art. 40-46 : procédure. Art. 41 : services votés (reconduction des crédits si absence de vote). Art. 47 : ordonnances.
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span> pour art. 38 (date inchangée).<br><br>
+    <span class="badge badge-co">CO</span> pour art. 41 : supprimer les services votés (reconduction automatique) — remplacer par un régime de douzièmes provisoires.
+  </div>
+  <div class="cell cell-c">
+    Art. 38 à 40, 42-47 : inchangés.<br><br>
+    <strong>Art. 41 révisé — Suppression des services votés :</strong><br>
+    « À défaut de vote de la première partie de la loi de finances avant le 31 décembre, le Gouvernement est autorisé par décret à percevoir les impôts existants et à ouvrir des crédits correspondant à un douzième des crédits du budget général de l'exercice précédent, renouvelable une fois. »<br><br>
+    <span class="note">Les services votés permettaient la reconduction automatique de l'intégralité des crédits sans vote — source de rigidité structurelle. Le régime de douzièmes provisoires est la pratique de référence internationale et préserve la souveraineté parlementaire.</span>
+  </div>
+</div>
+
+<!-- ═══ TITRE V ═══ -->
+<div class="partie" id="t5">
+  <span class="partie-num">V</span>
+  <h2>Titre V — Information et contrôle du Parlement (arts. 48–54)</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Texte verbatim Légifrance</span>
+  <span class="ch ch-b">Catégorie</span>
+  <span class="ch ch-c">Proposition</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 51</span> <span class="badge badge-o">O</span></div>
+    « Sont joints au projet de loi de finances de l'année : 1° Un rapport sur la situation [...] ; 2° Des évaluations préalables pour les dispositions fiscales ; 3° Annexe explicative des recettes ; 4° PAP pour chaque programme ; 4° bis Présentation des mesures pour respecter le plafond ; 5° Récapitulatif par titre et catégorie ; 5° bis Annexe récapitulative des dépenses fiscales ; 6° Données de trésorerie ; 7° Rapport du HCFP ; [...] »
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span> + <span class="badge badge-co">CO</span> + <span class="badge badge-1t">1T</span><br><br>
+    Supprimer les renvois LPFP. Ajouter quatre nouvelles annexes : [A] niches fiscales avec date d'expiration, [B] subventions à personnes privées opposables, [C] plan budgétaire UE (informatif), [D] tableau CP futurs sur 5 exercices (1er travail, opposable).
+  </div>
+  <div class="cell cell-c">
+    Art. 51 existant : inchangé sauf suppression renvois LPFP.<br><br>
+    <strong>Nouvelles annexes :</strong><br>
+    « [A] La liste de l'ensemble des dépenses fiscales en vigueur, avec pour chacune : son coût, son nombre de bénéficiaires, sa date de création et sa date d'expiration. Toute dépense fiscale dont la date d'expiration est atteinte cesse de produire effet de plein droit. Toute dépense fiscale créée ou prorogée par une loi de finances cesse de produire effet à l'expiration d'un délai de [cinq] ans suivant son entrée en vigueur, sauf prorogation expresse accompagnée d'une évaluation.<br><br>
+    [B] La liste de l'ensemble des subventions, aides et concours financiers accordés par l'État à des personnes morales de droit privé ou à des entités disposant de ressources propres, avec pour chacun : le bénéficiaire, le montant, le fondement légal, l'objectif et l'indicateur de résultat attendu. Toute subvention non figurant dans cette annexe ne peut être versée au cours de l'exercice.<br><br>
+    [C] Le plan budgétaire et structurel à moyen terme transmis à la Commission européenne en application du règlement (UE) 2024/1263, présenté pour information.<br><br>
+    [D] Un tableau prévisionnel des crédits de paiement nécessaires à la couverture des autorisations d'engagement au sens de l'article 8-II-3° ouvertes ou en cours d'exécution, sur les cinq exercices suivants, présenté par programme. Tout projet de loi de finances s'écartant de ce tableau de plus de [15 %] sur une ligne de programme doit, en première lecture, être accompagné d'un rapport du Gouvernement exposant les motifs de l'écart. »<br><br>
+    <span class="note">Annexe [D] : réservée au 1er travail pour la rédaction définitive — le tableau CP futurs dépend du régime AE (art. 8-II nouveau). Les seuils [5 ans] et [15 %] sont des paramètres politiques.</span>
+  </div>
+</div>
+
+<!-- ═══ TITRE VI ═══ -->
+<div class="partie" id="t6">
+  <span class="partie-num">VI</span>
+  <h2>Titre VI — HCFP et mécanisme de correction (arts. 61–62)</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Texte verbatim Légifrance</span>
+  <span class="ch ch-b">Catégorie</span>
+  <span class="ch ch-c">Proposition</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 61</span> <span class="badge badge-o">O</span></div>
+    HCFP : 10 membres — 4 magistrats Cour des comptes (président = 1er président), 4 nommés par AN/Sénat/commissions finances, 1 nommé par président du CESE, 1 directeur général INSEE. Mandat 5 ans, renouvellement par moitié tous les 30 mois.
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span><br><br>
+    Coordination : CESE supprimé par C v21 (titre XI abrogé). Supprimer le membre nommé par le président du CESE (3°). HCFP passe à 9 membres. Renvoi à la LO propre du HCFP pour les autres modifications éventuelles.
+  </div>
+  <div class="cell cell-c">
+    Modification minimale : supprimer le 3° (membre nommé par le président du CESE) et renuméroter. HCFP : 9 membres.<br><br>
+    « Outre son président, le Haut Conseil des finances publiques comprend neuf membres : 1° Quatre magistrats de la Cour des comptes [...] ; 2° Quatre membres nommés respectivement par le président de l'Assemblée nationale, le président du Sénat et les présidents des commissions des finances [...] ; 3° Le directeur général de l'Institut national de la statistique et des études économiques. »<br><br>
+    <span class="note">Modification purement mécanique. La LO propre du HCFP sera mise à jour séparément.</span>
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Art. 62</span> <span class="badge badge-o">O</span></div>
+    Missions du HCFP : avis sur les prévisions macroéconomiques du PLF, avis sur la cohérence du PLF avec la trajectoire LPFP, avis sur les révisions de la LPFP, constat des écarts en exécution.
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span> + <span class="badge badge-lpfp">LPFP</span> + <span class="badge badge-1t">1T</span><br><br>
+    Supprimer les missions LPFP. Maintenir l'avis macroéconomique. Renforcer sur la cohérence intertemporelle (stock AE, garanties, CP futurs — 1er travail). L'avis conforme sur le coefficient du frein (art. 15-V) est la mission la plus contraignante nouvelle.
+  </div>
+  <div class="cell cell-c">
+    Art. 62 révisé :<br><br>
+    « Le Haut Conseil des finances publiques rend un avis motivé :<br>
+    1° Sur les prévisions macroéconomiques sous-jacentes au projet de loi de finances ; lorsque cet avis constate un écart d'optimisme supérieur à [0,5] point de croissance du produit intérieur brut, le Gouvernement révise ses prévisions ou en justifie les motifs par écrit devant chaque assemblée ;<br>
+    2° Sur la position du projet de loi de finances par rapport au seuil de déclenchement du mécanisme de correction prévu à l'article 15-V. Lorsque ce mécanisme est déclenché, l'avis du Haut Conseil sur le coefficient de correction prévu au même article est un avis conforme ;<br>
+    3° Sur la cohérence du projet de loi de finances avec le stock d'autorisations d'engagement au sens de l'article 8-III et l'encours des garanties accordées par l'État ;<br>
+    4° Sur les écarts constatés entre les prévisions et l'exécution lors de la loi d'approbation des comptes. »<br><br>
+    <span class="note">Mission 3° nouvelle : c'est la mission intertemporelle. L'avis conforme sur le coefficient de correction (mission 2°) est plus fort que l'avis simple actuel — il renforce l'indépendance du mécanisme.</span>
+    <span class="arb">⬡ ARB — Avis conforme sur le coefficient de correction : politiquement significatif. Alternative : avis contraignant sauf dérogation motivée votée par les deux assemblées. Confirmer le niveau de contrainte souhaité.</span>
+  </div>
+</div>
+
+<!-- ═══ COORDINATION ═══ -->
+<div class="partie" id="coord">
+  <span class="partie-num">COORD</span>
+  <h2>Coordination — Abrogation de la loi organique relative aux lois de financement (LOLFSS)</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Situation actuelle</span>
+  <span class="ch ch-b">Catégorie</span>
+  <span class="ch ch-c">Proposition</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">LO n° 2022-354 du 14 mars 2022</span></div>
+    La LOLFSS (refondée en 2022) organise les LFSS sur le fondement de l'art. 47-1 C. Elle prévoit tableaux d'équilibre par branche, ONDAM, objectifs de dépenses, lois de financement de fin de gestion, mécanisme de correction des LFSS. Sa base constitutionnelle (art. 47-1 C) est supprimée par la Constitution v21.
+  </div>
+  <div class="cell cell-b">
+    <span class="badge badge-rp">RP</span>
+  </div>
+  <div class="cell cell-c">
+    Article de coordination :<br><br>
+    « La loi organique n° 2022-354 du 14 mars 2022 relative aux lois de financement de la sécurité sociale est abrogée à compter de l'entrée en vigueur de la présente loi organique.<br><br>
+    Les lois de financement de la sécurité sociale en cours d'exécution à cette date sont réputées constituer des lois de finances rectificatives au sens de l'article 1er de la présente loi organique, pour la seule durée de l'exercice en cours.<br><br>
+    Les tableaux d'équilibre par branche en vigueur à la date d'abrogation sont présentés, pour information, en annexe à la première loi de finances de l'année adoptée après cette date. »
+  </div>
+</div>
+
+<!-- ═══ CO NOUVEAUX ARTICLES ═══ -->
+<div class="partie">
+  <span class="partie-num">CO+</span>
+  <h2>Réformes CO — Articles nouveaux sans emplacement dans la structure actuelle</h2>
+</div>
+<div class="col-headers">
+  <span class="ch ch-a">Objet</span>
+  <span class="ch ch-b">Emplacement proposé</span>
+  <span class="ch ch-c">Rédaction</span>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Indexations automatiques</span> <span class="badge badge-co">CO</span></div>
+    Aucune règle organique n'interdit les indexations automatiques de dépenses publiques sans recette équivalente. Elles créent des obligations sur exercices futurs sans vote annuel.
+  </div>
+  <div class="cell cell-b">
+    Art. 9 bis nouveau (après art. 9 sur le caractère limitatif des crédits — thème : limites sur les dépenses).
+  </div>
+  <div class="cell cell-c">
+    « Art. 9 bis. — Toute disposition législative ou réglementaire instaurant une indexation automatique d'une dépense budgétaire doit prévoir, dans le même texte, soit une recette dont la dynamique couvre la dépense induite sur le même exercice, soit un mécanisme d'ajustement automatique assurant cet équilibre. À défaut, la part de la dépense excédant les crédits votés est suspendue de plein droit et constatée comme économie en loi d'approbation des comptes. »
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Intérêt à agir du contribuable</span> <span class="badge badge-co">CO</span></div>
+    Aucun contribuable ne peut aujourd'hui saisir directement le Conseil d'État pour non-respect de la LOLF.
+  </div>
+  <div class="cell cell-b">
+    Art. 14 ter nouveau (suite à l'art. 14 bis visa a priori — même thème : contrôle et responsabilité).
+  </div>
+  <div class="cell cell-c">
+    « Art. 14 ter. — Tout contribuable justifiant d'une imposition directe au profit de l'État dispose de l'intérêt à agir devant le Conseil d'État pour demander l'annulation de tout acte réglementaire pris en méconnaissance des dispositions de la présente loi organique. »
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Pénalités d'élus</span> <span class="badge badge-co">CO</span></div>
+    Aucune sanction automatique n'existe sur les indemnités des ministres en cas de dépassement des plafonds budgétaires votés.
+  </div>
+  <div class="cell cell-b">
+    Art. 1er H bis nouveau (après l'article liminaire — thème : conséquences du constat de dépassement).
+  </div>
+  <div class="cell cell-c">
+    « Art. 1er H bis. — Lorsque la loi d'approbation des comptes constate que les dépenses du budget général ont dépassé les plafonds votés à l'article 34-I-1° de plus de [cinq] pour cent, les indemnités des membres du Gouvernement sont réduites d'un taux égal au taux de dépassement, plafonné à [vingt] pour cent, pour l'exercice suivant. Ce taux est constaté par décret. »
+  </div>
+</div>
+
+<div class="art-row">
+  <div class="cell cell-a">
+    <div><span class="art-label">Limitation des dépenses discrétionnaires</span> <span class="badge badge-co">CO</span></div>
+    L'État peut engager des dépenses sans compétence légale expresse, notamment des subventions discrétionnaires à des personnes privées.
+  </div>
+  <div class="cell cell-b">
+    Art. 7 bis nouveau (après art. 7 sur les missions/programmes — thème : périmètre des dépenses autorisées par programme).
+  </div>
+  <div class="cell cell-c">
+    « Art. 7 bis. — L'État ne peut engager de dépenses que pour l'exercice de ses compétences propres telles que définies par la Constitution et les lois organiques. Les subventions discrétionnaires à des personnes morales de droit privé ou à des entités disposant de ressources propres ne sont inscrites en loi de finances que si elles correspondent à une compétence légale expressément déléguée et si leur efficacité a été évaluée dans l'annexe prévue à l'article 51 [B]. Toute autre subvention est nulle et de nul effet. »
+  </div>
+</div>
+
+</main>
+
+<footer>
+  Version 7 mai 2026 — v7 · Art. 5 — 2e travail complété · Nomenclature 8 titres · ⚑ FLAG titre 6° (versements CSOP sous-catégories) à réauditer · Constitution v21 · Référence : LOLF_reference_20260507.html · 1er travail en attente : art. 8 (régimes AE) · 3e travail CO : arts. 2-III, 7 bis, 9 bis, 12, 14 bis/ter, 15-V, 41, 51[A-D], 1er H bis · Prochaines séances : art. 34 LOLF → arts. 6/7 → art. 8 → titre 6° réaudit → CO reforms → coordination LOLFSS
+</footer>
+
+</body>
+</html>
