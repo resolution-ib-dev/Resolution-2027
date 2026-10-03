@@ -34,7 +34,7 @@ GAB = {
     },
 }
 EDM = re.compile(r'^\s*Exposé des motifs\s*$')
-CHIFFRE = re.compile(r'-?\d[\d   ,.%]*$')
+CHIFFRE = re.compile('-?\\d[\\d\u00a0\u202f ,.%]*$')
 
 
 def est_tableau(l):
