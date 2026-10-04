@@ -501,6 +501,18 @@ ARTEFACTS = [
      True, 'appareil/redaction_deposee.py',
      ['partage_calibrage.py', 'disposition-cible', 'redaction-legistique'],
      []),
+    # Les socles de texte 2027 — PLF n° 3210 et PLFSS n° 3211, 17e législature.
+    # Domicile au dépôt, voie `depot` : la pièce est publique et se retélécharge,
+    # le socle ne reste ni à l'atelier ni au coffre. Empreintes des pièces et des
+    # socles : `referentiels/socles_2027.sha256`.
+    ('socle_texte_plf2027', 'referentiels/socle_texte_plf2027.json',
+     'referentiel', True, 'appareil/socle_texte_2027.py', [], []),
+    ('socle_texte_plfss2027', 'referentiels/socle_texte_plfss2027.json',
+     'referentiel', True, 'appareil/socle_texte_2027.py', [], []),
+    ('redaction_plf2027', 'referentiels/redaction_plf2027.json',
+     'referentiel', True, 'appareil/redaction_2027.py', [], []),
+    ('redaction_plfss2027', 'referentiels/redaction_plfss2027.json',
+     'referentiel', True, 'appareil/redaction_2027.py', [], []),
     ('articles_ouverts_plf_json', 'referentiels/articles_ouverts_plf.json',
      'referentiel', False, 'appareil/articles_ouverts_plf.py',
      ['REF_norme', 'vecteur-mesure'], []),

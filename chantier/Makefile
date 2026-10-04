@@ -376,6 +376,45 @@ $(REDACTION_PLFSS): $(APP)/redaction_deposee.py $(SOCLE_PLFSS)
 	cd $(APP) && $(PY) redaction_deposee.py ../$(SOCLE_PLFSS) ../$@
 endif
 
+# --- les socles de texte 2027 -----------------------------------------------
+# PLF n° 3210 et PLFSS n° 3211, 17e législature, tels que l'Assemblée nationale
+# les publie. Les deux pièces se déposent sous `sources/plf/` et `sources/plfss/`
+# à leur nom de publication ; les règles sont conditionnelles à leur présence.
+# Les quatre socles sont au dépôt, voie `depot`. `make socles2027` les refait et
+# confronte leurs empreintes à `referentiels/socles_2027.sha256`.
+SOCLE_PLF27       := $(REF)/socle_texte_plf2027.json
+SOCLE_PLFSS27     := $(REF)/socle_texte_plfss2027.json
+REDACTION_PLF27   := $(REF)/redaction_plf2027.json
+REDACTION_PLFSS27 := $(REF)/redaction_plfss2027.json
+EMPREINTES_27     := $(REF)/socles_2027.sha256
+PLF27_PDF         := $(wildcard sources/plf/l17b3210_projet-loi.pdf)
+PLFSS27_PDF       := $(wildcard sources/plfss/l17b3211_projet-loi.pdf)
+SOCLES_2027       :=
+REDACTION_27_DEPS := $(APP)/redaction_2027.py $(APP)/socle_texte_2027.py \
+                     $(APP)/pieces_nommees.py $(APP)/portes_ouvertes.py
+
+ifneq ($(PLF27_PDF),)
+SOCLES_2027 += $(SOCLE_PLF27) $(REDACTION_PLF27)
+$(SOCLE_PLF27): $(APP)/socle_texte_2027.py $(PLF27_PDF)
+	cd $(APP) && $(PY) socle_texte_2027.py ../$(PLF27_PDF) plf ../$@
+$(REDACTION_PLF27): $(REDACTION_27_DEPS) $(PLF27_PDF)
+	cd $(APP) && $(PY) redaction_2027.py ../$(PLF27_PDF) plf "PLF 2027 n° 3210" ../$@
+endif
+
+ifneq ($(PLFSS27_PDF),)
+SOCLES_2027 += $(SOCLE_PLFSS27) $(REDACTION_PLFSS27)
+$(SOCLE_PLFSS27): $(APP)/socle_texte_2027.py $(PLFSS27_PDF)
+	cd $(APP) && $(PY) socle_texte_2027.py ../$(PLFSS27_PDF) plfss ../$@
+$(REDACTION_PLFSS27): $(REDACTION_27_DEPS) $(PLFSS27_PDF)
+	cd $(APP) && $(PY) redaction_2027.py ../$(PLFSS27_PDF) plfss "PLFSS 2027 n° 3211" ../$@
+endif
+
+SOCLES_TEXTE += $(SOCLES_2027)
+
+.PHONY: socles2027
+socles2027: $(SOCLES_2027)
+	cd $(REF) && grep -v '^#' $(notdir $(EMPREINTES_27)) | grep '\.json$$' | sha256sum -c
+
 # --- le partage calibrage / épreuve -----------------------------------------
 # La règle de sélection du banc de la rédaction (A-330). Elle joue sur la part
 # **versée** du socle et non sur le socle : le banc doit être atteignable depuis

@@ -15,21 +15,24 @@
    "outil": "pdftotext -layout -enc UTF-8 -eol unix",
    "version": "pdftotext version 24.02.0",
    "repere_debut": "Article liminaire",
-   "repere_fin": "fin de pièce",
+   "repere_fin": "ANNEXE",
    "page_premiere": 1,
-   "page_derniere": 139,
+   "page_derniere": 126,
    "marque_alinea": "paragraphe",
    "sommaire": false,
    "divisions_relevees": 7
   },
   "socle_sha256": "e24b1d87eaa50c7122ca429261830de83ce3fb445e8bb2848a5e07420278b7dc",
+  "annexes_sha256": "903130c8eade0118ffe06438f58ea6ac4763bbdb664ab033c69789b489bd3499",
   "champs_retires": {
    "redaction.lignes": "brut de mise en page ; `alineas` en est le reflux déterministe et porte le même verbatim",
    "expose_des_motifs": "de l'indice, pas de la norme : il raconte la disposition, il ne la décrit pas"
   },
   "articles": 49,
   "alineas": 819,
-  "adresses": 215
+  "adresses": 215,
+  "annexes": 1,
+  "alineas_annexes": 96
  },
  "articles": [
   {
@@ -6732,6 +6735,595 @@
    ],
    "hors_alinea": [],
    "references": []
+  }
+ ],
+ "annexes": [
+  {
+   "id": "rapport_annexe",
+   "nature": "rapport_annexe",
+   "nom": "Rapport annexé",
+   "intitule": "RAPPORT DECRIVANT LES PREVISIONS DE RECETTES ET LES OBJECTIFS DE DEPENSES PAR BRANCHE DES REGIMES OBLIGATOIRES DE BASE AINSI QUE L’OBJECTIF NATIONAL DES DEPENSES D’ASSURANCE MALADIE POUR LES ANNEES 2027 A 2030",
+   "page_debut": 126,
+   "page_fin": 138,
+   "alineas": [
+    {
+     "numero": 1,
+     "page": 126,
+     "tableau": false,
+     "texte": "ANNEXE"
+    },
+    {
+     "numero": 2,
+     "page": 126,
+     "tableau": false,
+     "texte": "RAPPORT DECRIVANT LES PREVISIONS DE RECETTES ET LES OBJECTIFS DE DEPENSES PAR BRANCHE DES REGIMES OBLIGATOIRES DE BASE AINSI QUE L’OBJECTIF NATIONAL DES DEPENSES D’ASSURANCE MALADIE POUR LES ANNEES 2027 A 2030"
+    },
+    {
+     "numero": 3,
+     "page": 126,
+     "tableau": false,
+     "texte": "        En 2026, le déficit des régimes obligatoires de base de sécurité sociale devrait se stabiliser à un niveau proche de celui de 2025 (21,8 milliards d’euros selon les prévisions actualisées figurant dans la présente loi contre 21,6 milliards d’euros en 2025, y compris l’excédent du fonds de solidarité vieillesse). La croissance des dépenses (+2,6 %) serait inférieure à celle de l’année précédente en raison notamment du ralentissement de l’objectif national de dépenses d’assurance maladie (ONDAM), qui évoluerait de 2,8 % grâce à la hausse des plafonds des participations forfaitaires et franchises et l’annulation des dotations mises en réserve, et, s’agissant des autres dépenses, des effets de la moindre l’inflation de 2025 sur les revalorisations légales des prestations sociales, principalement les pensions de retraite, revalorisées de 0,9 % au 1er janvier 2026. Les recettes devraient connaitre une croissance équivalente à celle de l’année précédente (+2,6 %), leur dynamique ayant été préservée de l’impact que les hausses du SMIC auraient spontanément pu avoir sur le coût des allègements généraux de cotisations patronales par la décision d’un gel du barème de la réduction générale dégressive unique."
+    },
+    {
+     "numero": 4,
+     "page": 126,
+     "tableau": false,
+     "texte": "       I. – La loi de financement de la sécurité sociale pour 2027 s’inscrit dans un contexte macroéconomique de faible croissance et d’inflation relativement soutenue"
+    },
+    {
+     "numero": 5,
+     "page": 126,
+     "tableau": false,
+     "texte": "        L’hypothèse de croissance du produit intérieur brut (PIB) en volume retenue pour 2027 est de 1,0 %, après une évolution de 0,5 % en 2026. À moyen terme, la croissance du PIB en volume atteindrait 1,2 % par an en 2030. Le PIB en valeur évoluerait quant à lui de 2,7 % en 2027, 2,8 % en 2028 et 2029 et 2,9 % en 2030, après 2,0 % en 2026. L’inflation devrait être soutenue en 2026 (2,1 % au sens de l’indice des prix à la consommation hors tabac) avant de ralentir en 2027 (1,7 %) et se stabiliser à 1,75 % à compter de 2028. La masse salariale du secteur privé, qui devrait progresser de 1,6 % en 2026, croîtrait de 2,4 % en 2027, puis continuerait d’accélérer pour atteindre un rythme annuel de 3,1 % en 2030."
+    },
+    {
+     "numero": 6,
+     "page": 127,
+     "tableau": false,
+     "texte": "– 127 –"
+    },
+    {
+     "numero": 7,
+     "page": 127,
+     "tableau": false,
+     "texte": "        Le tableau ci-dessous détaille les principales hypothèses d’évolution retenues pour l’élaboration des prévisions de recettes et des objectifs de dépenses décrits dans la présente annexe :"
+    },
+    {
+     "numero": 8,
+     "page": 127,
+     "tableau": false,
+     "texte": " 2025       2026 (p) 2027 (p)   2028 (p)   2029 (p)   2030 (p)"
+    },
+    {
+     "numero": 9,
+     "page": 127,
+     "tableau": true,
+     "texte": "    PIB en volume.....................          0,9 %       0,5 %    1,0 %      1,1 %      1,1 %      1,2 %\n    PIB en valeur.......................        2,0 %       2,0 %    2,7 %      2,8 %      2,8 %      2,9 %"
+    },
+    {
+     "numero": 10,
+     "page": 127,
+     "tableau": false,
+     "texte": "Masse salariale du secteur"
+    },
+    {
+     "numero": 11,
+     "page": 127,
+     "tableau": true,
+     "texte": "                                                1,8 %       1,6 %    2,4 %      3,1 %      3,3 %      3,1 %"
+    },
+    {
+     "numero": 12,
+     "page": 127,
+     "tableau": false,
+     "texte": "privé * ................................."
+    },
+    {
+     "numero": 13,
+     "page": 127,
+     "tableau": true,
+     "texte": "    Inflation hors tabac .............          0,9 %       2,1 %    1,7 %     1,75 %     1,75 %     1,75 %"
+    },
+    {
+     "numero": 14,
+     "page": 127,
+     "tableau": false,
+     "texte": "* Masse salariale du secteur privé hors prime exceptionnelle de pouvoir d’achat et prime de partage de la valeur ajoutée."
+    },
+    {
+     "numero": 15,
+     "page": 127,
+     "tableau": false,
+     "texte": "       II. – Les mesures de la loi de financement conduiront à réduire fortement les déficits des régimes de base"
+    },
+    {
+     "numero": 16,
+     "page": 127,
+     "tableau": false,
+     "texte": "      A. Situation globale des régimes de base"
+    },
+    {
+     "numero": 17,
+     "page": 127,
+     "tableau": false,
+     "texte": "        En 2027, le solde des régimes obligatoires de base de sécurité sociale (ROBSS) devrait atteindre - 12,7 milliards d’euros, soit une amélioration de 9,1 milliards d’euros par rapport à 2026. Cette résorption du déficit trouve son origine dans les mesures de la présente loi. En effet, malgré la dynamique de la masse salariale (+ 2,4 % en 2027 après + 1,6 % en 2026), couplée au repli spontané du coût des allègements généraux dans un contexte de décompression des salaires, un à-coup positif en 2027 sur le montant des cotisations acquittées par les travailleurs non-salariés, la réforme de leur assiette ayant, pour des raisons de transition vers le nouveau système, grevé le solde en 2026, et une nouvelle hausse du taux de cotisations dues par les employeurs territoriaux et hospitaliers, la dynamique des dépenses aurait été, en l’absence de mesures de redressement, supérieure à celle des recettes (respectivement + 3,4 % et +3,2 %). Ce rythme soutenu d’évolution tendancielle des dépenses s’explique par l’effet différé en 2027 du regain d’inflation en 2026 et par des dépenses relevant du champ de l’ONDAM tendanciellement dynamiques (+ 3,4 %)."
+    },
+    {
+     "numero": 18,
+     "page": 127,
+     "tableau": false,
+     "texte": "       La résorption du déficit tient aux mesures adoptées, en particulier celles sur les dépenses, qui représentent un rendement d’environ 9 milliards d’euros. Ces mesures sont détaillées ci-après ; elles consistent essentiellement en 3 milliards d’euros (après prise en compte des effets de répercussion sur la CSG remplacement) de ralentissement des dépenses de pensions de retraite en l’absence de revalorisation par voie réglementaire des"
+    },
+    {
+     "numero": 19,
+     "page": 128,
+     "tableau": false,
+     "texte": "– 128 –"
+    },
+    {
+     "numero": 20,
+     "page": 128,
+     "tableau": false,
+     "texte": "pensions dont le montant cumulé pour les intéressés dépasse 1 260 euros par mois, en 1,6 milliard d’euros d’économies concernant les dépenses de la branche famille et en près de 4,0 milliards d’euros d’économies pour les dépenses relevant du champ de l’ONDAM."
+    },
+    {
+     "numero": 21,
+     "page": 128,
+     "tableau": false,
+     "texte": " 2025    2026 (p) 2027 (p) 2028 (p) 2029 (p) 2030 (p) Revalorisations      des"
+    },
+    {
+     "numero": 22,
+     "page": 128,
+     "tableau": true,
+     "texte": "      pensions de retraite, en         2,2 %    0,9 %       0,2 %   2,0 %   1,7 %     1,8 %"
+    },
+    {
+     "numero": 23,
+     "page": 128,
+     "tableau": false,
+     "texte": "moyenne annuelle* ...... Revalorisations           des prestations revalorisées"
+    },
+    {
+     "numero": 24,
+     "page": 128,
+     "tableau": true,
+     "texte": "                                       2,4 %    1,0 %       0,2 %   1,3 %   1,75 %   1,75 %"
+    },
+    {
+     "numero": 25,
+     "page": 128,
+     "tableau": false,
+     "texte": "au 1er avril, en moyenne annuelle** ..................."
+    },
+    {
+     "numero": 26,
+     "page": 128,
+     "tableau": true,
+     "texte": "      ONDAM*** ................ 3,4 %       2,8 %     2,0 %      2,9 %    2,9 %      2,9 %"
+    },
+    {
+     "numero": 27,
+     "page": 128,
+     "tableau": false,
+     "texte": "         * Évolutions en moyenne annuelle incluant, pour l’année 2027, les effets de la mesure d’indexation partielle des pensions de retraites de base prévue par la présente loi. Le tableau présente la moyenne des taux de revalorisation pondérée par les niveaux de pension. A compter de 2028 est retenue une revalorisation pour l’ensemble des pensions selon les règles de revalorisation actuellement en vigueur."
+    },
+    {
+     "numero": 28,
+     "page": 128,
+     "tableau": false,
+     "texte": "        ** Évolutions en moyenne annuelle incluant, pour l’année 2027, les effets de la mesure de stabilisation du barème des prestations familiales au 1er avril 2027. A compter de 2028, est retenue une revalorisation des prestations familiales selon les règles de revalorisation actuellement en vigueur."
+    },
+    {
+     "numero": 29,
+     "page": 128,
+     "tableau": false,
+     "texte": "         *** Le taux d’évolution de l’ONDAM pour les années 2028, 2029 et 2030 est ici fixé à un niveau égal à celui des dernières années couvertes par la dernière loi de programmation des finances publiques."
+    },
+    {
+     "numero": 30,
+     "page": 128,
+     "tableau": false,
+     "texte": "         L’ONDAM est fixé en hausse de 2,0 % en 2027. L’évolution tendancielle des dépenses qui en relèvent (3,4 %), qui tient compte de déterminants démographiques, épidémiologiques, de l’inflation et des progrès techniques, sera modérée notamment par plusieurs mesures réglementaires prises en 2026 et montant en charge en 2027, en particulier des hausses de tickets modérateurs dont l’effet sera d’1,2 milliard d’euros, la fin de la prise en compte des arrêts de travail de longue durée ne relevant pas d’affections de longue durée (ALD) comme motif de prise en charge des transports sanitaires, pour un rendement de 0,1 milliard d’euros en 2027, la réduction à douze mois de la durée de prescription de ces mêmes arrêts de travail de longue durée, pour un rendement de 0,1 milliard d’euros en 2027, et la baisse à 1,8 SMIC du plafond des revenus pris en compte pour le calcul des indemnités journalières d’accidents du travail et maladies professionnelles, pour un rendement de 0,2 milliard d’euros."
+    },
+    {
+     "numero": 31,
+     "page": 129,
+     "tableau": false,
+     "texte": "– 129 –"
+    },
+    {
+     "numero": 32,
+     "page": 129,
+     "tableau": false,
+     "texte": "        Des mesures d’économies supplémentaires, pour 5,1 milliards d’euros, devraient venir gager les mesures nouvelles en dépenses (1,2 milliard d’euros) et abaisseraient ainsi l’évolution des dépenses de 3,9 milliards d’euros au total par rapport au tendanciel. Des mesures d’économies sur les produits de santé devraient rapporter 2,1 milliard d’euros ; les dépenses d’indemnités journalières d’assurance maladie devraient diminuer de 1 milliard d’euros ; 0,7 milliard d’euros devraient provenir de baisses de taux de remboursement et de transferts vers les assurances maladie complémentaires ; 0,9 milliard d’euros devraient résulter des efforts d’efficience dans les établissements sanitaires et médico-sociaux et 0,3 milliard d’euros d’économies sur des dépenses de soins de ville. Les dotations au fonds pour la modernisation et l’investissement en santé (FMIS) et au fonds pour l’innovation du système de santé (FISS) seront par ailleurs réduites de 0,2 milliard d’euros par rapport à 2026."
+    },
+    {
+     "numero": 33,
+     "page": 129,
+     "tableau": false,
+     "texte": "        Les mesures nouvelles portant sur les recettes, avant transferts entre l’État et la sécurité sociale, devraient avoir un rendement de plus de 6 milliards d’euros, en sus de la reprise en base des mesures engagées en cours d’année 2026 pour un peu moins de 3 milliards d’euros. Les principales mesures en recettes passent par la rationalisation des modalités de prise en compte des rémunérations attribuées dans le cadre du partage de la valeur en entreprise dans le calcul des allègements généraux pour un rendement de 3,7 milliards d’euros nets, la reconduction d’une contribution des organismes complémentaires santé en 2027 de 1,1 milliard d’euros, une hausse de 3 points du taux de CSG appliquée sur les indemnités journalières maladie pour un rendement de 0,4 milliard d’euros, l’instauration de deux contributions sur les produits transformés sucrés ou contenant des édulcorants, pour un rendement de 0,3 milliard d’euros, l’unification du régime social applicable aux indemnités de rupture, pour un rendement de 0,3 milliard d’euros, et une réforme de la tarification des accidents du travail et des maladies professionnelles, pour un rendement de 0,3 milliard d’euros."
+    },
+    {
+     "numero": 34,
+     "page": 129,
+     "tableau": false,
+     "texte": "        Sera de plus affecté à la sécurité sociale le rendement de la fiscalisation à 50 % des indemnités journalières (IJ) versées en cas de maladie au titre d’ALD et en totalité (au lieu de 50 % aujourd’hui) pour celles attribuées en cas d’accidents du travail ou des maladies professionnelles, pour un montant total de 1,0 milliard d’euros en 2027. Inversement, la fraction de TVA affectée à la sécurité sociale au titre de la compensation du coût des allègements généraux sera minorée à concurrence de l’économie, par rapport à ce qui aurait pu résulter spontanément des effets des hausses du SMIC, tirée du gel du barème de la réduction générale, soit 5,6 milliards d’euros. La"
+    },
+    {
+     "numero": 35,
+     "page": 130,
+     "tableau": false,
+     "texte": "– 130 –"
+    },
+    {
+     "numero": 36,
+     "page": 130,
+     "tableau": false,
+     "texte": "sécurité sociale rétrocèdera également l’équivalent du rendement prévu de la mesure de fiscalisation à 100 % de l’ensemble des IJ ALD qui lui avait été affecté sous forme de TVA en 2026, la mesure présentée dans le projet de loi de finances pour 2026 n’ayant finalement pas été adoptée."
+    },
+    {
+     "numero": 37,
+     "page": 130,
+     "tableau": false,
+     "texte": "        Entre 2028 et 2030, le déficit se creuserait de nouveau progressivement. Malgré la dernière hausse programmée du taux de cotisations des employeurs à la Caisse nationale de retraite des agents des collectivités locales (CNRACL), soit un surcroît de recettes de1,8 milliard d’euros, et un rendement de la réforme des retraites de 2023, net de l’effet de la suspension décidée en LFSS pour 2026, de 1,9 milliard d’euros en 2028 (après 0,8 milliard en 2027, en tenant compte de la rétrocession à la sécurité sociale des économies générées pour le régime de retraites des fonctionnaires d’État), la dégradation serait plus marquée en 2028 avec un solde des régimes obligatoires de base de sécurité sociale attendu à -14,4 milliards d’euros, soit une dégradation de 1,7 milliard d’euros, en raison notamment du caractère non pérenne de la reconduction de la participation des organismes complémentaires santé reconduite seulement pour 2027."
+    },
+    {
+     "numero": 38,
+     "page": 130,
+     "tableau": false,
+     "texte": "        La dégradation du déficit serait ensuite progressive et contenue sous l’effet d’une progression de l’ONDAM retenue à 2,9 % par an, soit le taux figurant pour les dernières années dans la loi de programmation des finances publiques actuellement en vigueur, de la poursuite de la montée en charge des effets de la réforme des retraites de 2023, nets de l’effet de la suspension décidée en LFSS 2026 (+2,8 milliards d’euros en 2029 puis 3,7 milliards d’euros en 2030, y compris la rétrocession des économies générées pour le régime de retraites des fonctionnaires d’État) et de ceux des mesures de la LFSS pour 2026 (décalage de 14 à 18 ans de la majoration pour âge des allocations familiales et réforme du cumul emploi-retraite). Dans ces conditions, le déficit des régimes de base de sécurité sociale atteindrait 17,0 milliards d’euros à l’horizon 2030."
+    },
+    {
+     "numero": 39,
+     "page": 130,
+     "tableau": false,
+     "texte": "      B. Situation par branche"
+    },
+    {
+     "numero": 40,
+     "page": 130,
+     "tableau": false,
+     "texte": "        En 2027, le déficit de la branche maladie, maternité, invalidité et décès devrait fortement se réduire, s’établissant à 7,8 milliards d’euros (après 15,9 milliards d’euros en 2025 et 12,5 milliards d’euros en 2026), sous l’effet principal des mesures d’économies portant sur l’ONDAM (3,9 milliards d’euros d’économies nettes des mesures nouvelles en dépenses, dont 4,0 milliards d’euros d’économies nettes pour la branche maladie et 0,2 milliard de dépenses nouvelles nettes pour la branche autonomie), de la reconduction de la contribution des organismes"
+    },
+    {
+     "numero": 41,
+     "page": 131,
+     "tableau": false,
+     "texte": "– 131 –"
+    },
+    {
+     "numero": 42,
+     "page": 131,
+     "tableau": false,
+     "texte": "complémentaires pour 1,1 milliard d’euros et de la contribution sur les produits transformés sucrés (0,3 milliard d’euros). La trajectoire tient également compte de la prise en charge intégrale par la branche famille à compter de 2027 des indemnités journalières au titre de la maternité pour un gain de 1,3 milliard pour la branche maladie, la branche famille finançant déjà les indemnités journalières pour la période post-natale ainsi que celles au titre du nouveau congé de naissance et du congé paternité."
+    },
+    {
+     "numero": 43,
+     "page": 131,
+     "tableau": false,
+     "texte": "       À l’horizon 2030, le déficit de la branche se résorberait encore progressivement pour atteindre 6,3 milliards d’euros sous l’effet de l’hypothèse d’une affectation à la branche maladie d’une fraction croissante de CSG aujourd’hui attribuée à la branche famille."
+    },
+    {
+     "numero": 44,
+     "page": 131,
+     "tableau": false,
+     "texte": "        La branche autonomie devrait être légèrement déficitaire en 2027, présentant un déficit de 0,2 milliard d’euros après un déficit de 0,3 milliard d’euros en 2026. La trajectoire financière de la branche autonomie repose sur une progression de ses dépenses de 2,5 % en 2027, dont 2,6 % à champ constant pour la part relevant de « l’objectif global de dépenses » (OGD) de l’ONDAM (dont 3,3 % dans le champ des personnes âgées et 1,9 % dans le champ du handicap). S’agissant des dépenses hors du champ de l’OGD, d’un montant de 9,3 milliards d’euros, celles-ci devraient progresser de 1,6 % par rapport à l’année précédente. A compter de 2027, une partie des recettes de CSG de la branche sera versée de façon directe aux départements pour un montant de 0,3 milliard d’euros, les dépenses de la branche au titre des concours versés à ces collectivités pour financer les prestations liées au handicap et à l’autonomie étant diminuées d’autant. La trajectoire retient également une réduction de 0,1 milliard d’euros des concours attribués sur le champ des personnes âgées pour tenir compte de la réforme de l’allocation personnalisée d’autonomie, qui doit réduire de 250 millions d’euros en 2027 les dépenses des départements au titre de cette prestation. Les concours versés par la branche aux départements atteindraient ainsi 6,0 milliards d’euros en 2027 soit une stabilité par rapport à 2026. L’expérimentation de la fusion des sections soins et dépendance des établissements d’hébergement pour personnes âgées dépendantes sera par ailleurs prolongée en 2027."
+    },
+    {
+     "numero": 45,
+     "page": 131,
+     "tableau": false,
+     "texte": "        Le déficit de la branche autonomie augmenterait en 2028, son solde atteignant - 0,7 milliard d’euros et se dégraderait ensuite progressivement pour atteindre - 1,6 milliard à l’horizon 2030. Cette situation reflète notamment le dynamisme des dépenses relevant de l’OGD, qui évolueraient chaque année à partir de 2028 de + 3,7 %, conformément aux taux qui figurent pour la dernière année couverte par la loi de programmation des"
+    },
+    {
+     "numero": 46,
+     "page": 132,
+     "tableau": false,
+     "texte": "– 132 –"
+    },
+    {
+     "numero": 47,
+     "page": 132,
+     "tableau": false,
+     "texte": "finances publiques (LPFP) actuellement en vigueur. Le dynamisme prévisionnel des dépenses est la conséquence du vieillissement démographique et de la hausse des besoins de prise en charge qu’il engendre."
+    },
+    {
+     "numero": 48,
+     "page": 132,
+     "tableau": false,
+     "texte": "        Le déficit de la branche accidents du travail et maladies professionnelles (AT-MP) devrait s’établir à 1,5 milliard d’euros en 2027, un niveau proche de celui attendu en 2026 (1,3 milliard d’euros). La branche pâtirait du dynamisme de celles de ses prestations relevant du champ de l’ONDAM, notamment des indemnités journalières, qui enregistrent une croissance de plus de 10 % en moyenne depuis 2024. Par ailleurs, le transfert à la CNAM au titre de la sous déclaration des accidents du travail et maladies professionnelles s’établira à 2,0 milliards en 2027 (après 1,6 milliard en 2025 et 2026). La mesure réglementaire prise en 2026, de hausse à 1,8 SMIC du plafond du revenu de référence pour le calcul des indemnités journalières d’accidents du travail et maladies professionnelles diminuera les dépenses de 0,2 milliard d’euros en 2027. Deux mesures de la présente loi amélioreront toutefois son solde, chacune pour 0,3 milliard d’euros : la réforme de la tarification des accidents du travail et des maladies professionnelles pour les entreprises et une hausse supplémentaire des taux de cotisations en contrepartie d’une baisse des cotisations d’assurance maladie, pour affecter à la branche le rendement de la mesure de fiscalisation des indemnités journalières versées au titre d’accidents du travail ou de maladies professionnelles. En effet, la fraction de TVA affectée par le projet de loi de finances et qui est majorée du rendement de cette mesure est affectée à la CNAM, et c’est en réduisant les cotisations de cette dernière à due concurrence de la hausse des cotisations AT-MP que ce transfert est opéré."
+    },
+    {
+     "numero": 49,
+     "page": 132,
+     "tableau": false,
+     "texte": "        Le solde de la branche s’améliorerait ensuite légèrement pour atteindre - 1,1 milliard à l’horizon 2030 sous l’hypothèse d’une progression des indemnités journalières versées au titre d’accidents du travail ou de maladies professionnelles au même rythme que l’ONDAM et d’une stabilité du montant du transfert au titre de la sous-déclaration des AT-MP."
+    },
+    {
+     "numero": 50,
+     "page": 132,
+     "tableau": false,
+     "texte": "        En 2027, la branche vieillesse devrait voir son déficit se réduire fortement, pour atteindre 4,8 milliards d’euros après 8,0 milliards d’euros en 2026. La rapide amélioration du solde est la conséquence de la limitation de la revalorisation de janvier aux pensions inférieures à 1 260 euros, les pensions supérieures à ce seuil voyant leur revalorisation renvoyée à une décision ultérieure du Gouvernement. Si aucune revalorisation des pensions au-dessus du seuil n’était décidée, le solde des régimes obligatoires de base de retraite devrait s’améliorer de 3,2 milliards d’euros en 2027 après prise en"
+    },
+    {
+     "numero": 51,
+     "page": 133,
+     "tableau": false,
+     "texte": "– 133 –"
+    },
+    {
+     "numero": 52,
+     "page": 133,
+     "tableau": false,
+     "texte": "compte des mécanismes de compensation, notamment celui relatif à la fonction publique d’État. La prise en charge par la CNAF des majorations de pensions pour enfants versées par la CNRACL améliorera le solde de la branche retraite de 0,8 milliard d’euros à partir de 2027. Il est rappelé à cet égard que la réforme des majorations de pensions de retraite accordées aux parents de trois enfants et plus sera globalement à coût nul, et donc sans effet sur le solde de la branche vieillesse. Par ailleurs, la trajectoire tient compte de la montée en charge des mesures des précédentes LFSS, notamment celles de la loi du 14 avril 2023 de financement rectificative de la sécurité sociale pour 2023 qui prévoit le relèvement progressif de l’âge d’ouverture des droits de 62 ans à 64 ans, au rythme d’un trimestre par génération à compter du 1er septembre 2023, et une accélération du rythme de montée en charge de la durée d’assurance requise pour le bénéfice d’une pension à taux plein, au rythme d’un trimestre par génération. La LFSS pour 2026 a suspendu la réforme de 2023 en décalant sa montée en charge d’une génération. La réforme de 2023 et sa suspension conduiront au total à une amélioration du solde des régimes obligatoires de base de la sécurité sociale de 0,8 milliard d’euros en 2027, la suspension réduisant de 1,0 milliard le rendement initialement attendu de 1,8 milliard d’euros (y compris rétrocession des économies concernant la fonction publique d’État). Les LFSS antérieures comportaient d’autres mesures qui continuent de monter en charge : les hausses des taux des cotisations d’assurance vieillesse dues par les employeurs privés et par les employeurs territoriaux et hospitaliers à la CNRACL pour 1,8 milliard d’euros en 2027, la réforme du dispositif de cumul emploi-retraite, représentant une économie de 0,2 milliard d’euros en 2027, et la prise en compte jusqu’à deux trimestres de majorations de durée d’assurance pour enfant pour faciliter le départ anticipé des parents, pour un coût de 0,2 milliard d’euros à compter de 2027."
+    },
+    {
+     "numero": 53,
+     "page": 133,
+     "tableau": false,
+     "texte": "        A partir de 2028, le solde de la branche vieillesse se dégraderait de nouveau rapidement, notamment en raison d’un retour de la revalorisation des pensions au même rythme que l’inflation, et ce malgré la dernière hausse, en 2028, de taux de cotisations des employeurs territoriaux et hospitaliers à la CNRACL (+1,8 milliard d’euros), la poursuite de la montée en charge de la réforme du dispositif de cumul emploi retraite (soit une économie de ,5 milliard d’euros en 2028 et jusqu’à 1,1 milliard d’euros en 2030) et un fort rendement attendu de la réforme des retraites de 2023, soit 1,9 milliard d’euros d’économies nettes de l’effet de la suspension de la réforme en 2028 et 3,7 milliards d’euros à l’horizon 2030 (y compris là encore la rétrocession des économies concernant la fonction publique d’État). Le déficit de la branche atteindrait ainsi 6,2 milliards d’euros"
+    },
+    {
+     "numero": 54,
+     "page": 134,
+     "tableau": false,
+     "texte": "– 134 –"
+    },
+    {
+     "numero": 55,
+     "page": 134,
+     "tableau": false,
+     "texte": "en 2028 ; à l’horizon 2030, le déficit de la branche avoisinerait 10 milliards d’euros."
+    },
+    {
+     "numero": 56,
+     "page": 134,
+     "tableau": false,
+     "texte": "        Le solde de la branche famille devrait être excédentaire de 1,6 milliard d’euros en 2027, à un niveau nettement supérieur à celui de l’année précédente (0,3 milliard d’euros). La trajectoire financière de la branche famille tient notamment compte, pour 2027, de l’effet du maintien des prestations familiales à leur niveau de 2026, pour un rendement attendu de 0,5 milliard d’euros, auquel s’ajoutent une économie d’un montant équivalent via un ralentissement des dépenses du fonds national d’action sociale et une réduction de 0,6 milliard de la dépense au titre de l’allocation de rentrée scolaire, soit 1,6 milliard d’économie au total sur les prestations familiales, légales et extralégales. En sens inverse, sont prévus des transferts conduisant à augmenter les dépenses à la charge de la branche ; il est ainsi prévu, à partir de 2027, la prise en charge par la CNAF des droits familiaux de la CNRACL pour un coût de 0,8 milliard d’euros, ainsi que la prise en charge de l’intégralité des indemnités journalières au titre de la maternité pour un coût supplémentaire de 1,3 milliard d’euros. Par ailleurs, la trajectoire tient compte de la montée en charge de mesures récentes, notamment le décalage de 14 à 18 ans de la majoration pour âge des allocations familiales, soit une économie de 0,6 milliard d’euros en 2027, allant croissante jusqu’en 2029, ainsi que de la montée en charge du congé supplémentaire de naissance mis en œuvre à partir de 2026 et dont la montée en charge représente un coût supplémentaire de 0,1 milliard d’euros pour chacune des années 2027 à 2029."
+    },
+    {
+     "numero": 57,
+     "page": 134,
+     "tableau": false,
+     "texte": "        En outre, la trajectoire présentée dans cette annexe est basée sur une réaffectation à la branche maladie, à compter de 2028 et pour des montants croissants, d’une part de CSG affectée jusqu’ici à la branche famille. Cette réaffectation conduirait à un maintien de l’excédent de la branche famille sur la période considérée, contrebalançant ainsi l’hétérogénéité d’évolution du solde des différentes branches en raison du dynamisme propre de leurs dépenses et de leurs recettes respectives, le résultat de la branche famille bénéficiant pour sa part du ralentissement de ses dépenses dans un contexte de faible natalité."
+    },
+    {
+     "numero": 58,
+     "page": 135,
+     "tableau": false,
+     "texte": "– 135 –"
+    },
+    {
+     "numero": 59,
+     "page": 135,
+     "tableau": false,
+     "texte": "    Prévisions des recettes, dépenses et soldes des régimes de base et du FSV"
+    },
+    {
+     "numero": 60,
+     "page": 135,
+     "tableau": false,
+     "texte": "Recettes, dépenses et soldes de l’ensemble des régimes obligatoires de base"
+    },
+    {
+     "numero": 61,
+     "page": 135,
+     "tableau": false,
+     "texte": "(en milliards d’euros)"
+    },
+    {
+     "numero": 62,
+     "page": 135,
+     "tableau": true,
+     "texte": "                                      2026       2027                         2029    2030"
+    },
+    {
+     "numero": 63,
+     "page": 135,
+     "tableau": false,
+     "texte": "2025                            2028 (p) (p)        (p)                          (p)     (p) Maladie"
+    },
+    {
+     "numero": 64,
+     "page": 135,
+     "tableau": true,
+     "texte": "     Recettes .......      246,7     258,5       269,3        277,0          285,8 294,2\n     Dépenses .....        262,6     271,0       277,1        284,8          293,0 300,5\n     Solde ...........      -15,9     -12,5       -7,8        -7,8            -7,2    -6,3"
+    },
+    {
+     "numero": 65,
+     "page": 135,
+     "tableau": false,
+     "texte": "Accidents du travail et maladies professionnelles"
+    },
+    {
+     "numero": 66,
+     "page": 135,
+     "tableau": true,
+     "texte": "     Recettes .......       17,2      16,8        18,0        18,5            19,0    19,5\n     Dépenses .....         17,4      18,1        19,5        19,9            20,3    20,7\n     Solde                  -0,2      -1,3        -1,5        -1,4            -1,3    -1,1"
+    },
+    {
+     "numero": 67,
+     "page": 135,
+     "tableau": false,
+     "texte": "Famille"
+    },
+    {
+     "numero": 68,
+     "page": 135,
+     "tableau": true,
+     "texte": "     Recettes .......       59,7      59,4        61,8        62,0            62,5    63,2\n     Dépenses .....         58,5      59,1        60,2        60,4            60,9    61,6\n     Solde ...........       1,2       0,3        1,6          1,6             1,6     1,6"
+    },
+    {
+     "numero": 69,
+     "page": 135,
+     "tableau": false,
+     "texte": "Vieillesse"
+    },
+    {
+     "numero": 70,
+     "page": 135,
+     "tableau": true,
+     "texte": "     Recettes .......      297,0     302,5       311,4        320,0          327,5 335,6\n     Dépenses .....        304,2     310,5       316,2        326,2          335,3 345,2\n     Solde ...........      -7,1      -8,0        -4,8        -6,2            -7,8    -9,6"
+    },
+    {
+     "numero": 71,
+     "page": 135,
+     "tableau": false,
+     "texte": "Autonomie"
+    },
+    {
+     "numero": 72,
+     "page": 135,
+     "tableau": true,
+     "texte": "     Recettes .......       41,9      43,0        44,2        45,4            46,7    48,1\n     Dépenses .....         41,8      43,3        44,4        46,1            47,8    49,6\n     Solde ...........       0,1      -0,3        -0,2        -0,7            -1,1    -1,6"
+    },
+    {
+     "numero": 73,
+     "page": 135,
+     "tableau": false,
+     "texte": "Régimes obligatoires de base de sécurité sociale consolidés"
+    },
+    {
+     "numero": 74,
+     "page": 135,
+     "tableau": true,
+     "texte": "     Recettes .......      643,8     661,3       683,7        701,9          720,0 738,7\n     Dépenses .....        665,7     683,1       696,4        716,2          735,8 755,7\n     Solde ...........      -22,0     -21,8      -12,7        -14,4          -15,8    -17,0"
+    },
+    {
+     "numero": 75,
+     "page": 136,
+     "tableau": false,
+     "texte": "– 136 –"
+    },
+    {
+     "numero": 76,
+     "page": 136,
+     "tableau": false,
+     "texte": "Recettes, dépenses et soldes du Fonds de solidarité vieillesse"
+    },
+    {
+     "numero": 77,
+     "page": 136,
+     "tableau": false,
+     "texte": "(en milliards d’euros) 2029 2025     2026 (p)      2027 (p)      2028 (p)                2030 (p) (p)"
+    },
+    {
+     "numero": 78,
+     "page": 136,
+     "tableau": true,
+     "texte": "     Recettes ..........      21,8\n     Dépenses ........        21,4\n     Solde ..............      0,4"
+    },
+    {
+     "numero": 79,
+     "page": 136,
+     "tableau": false,
+     "texte": " Recettes, dépenses et soldes des régimes obligatoires de base et du Fonds de solidarité vieillesse"
+    },
+    {
+     "numero": 80,
+     "page": 136,
+     "tableau": false,
+     "texte": "(en milliards d’euros) 2025      2026 (p)      2027 (p)    2028 (p)    2029 (p)      2030 (p)"
+    },
+    {
+     "numero": 81,
+     "page": 136,
+     "tableau": true,
+     "texte": "     Recettes ........      644,5       661,3        683,7       701,9        720,0        738,7\n     Dépenses ......        666,0       683,1        696,4       716,2        735,8        755,7\n     Solde ............     -21,6       -21,8        -12,7       -14,4        -15,8        -17,0"
+    },
+    {
+     "numero": 82,
+     "page": 136,
+     "tableau": false,
+     "texte": "       III. – Écarts à la loi n° 2023-1195 du 18 décembre 2023 de programmation des finances publiques pour les années 2023 à 2027"
+    },
+    {
+     "numero": 83,
+     "page": 136,
+     "tableau": false,
+     "texte": "       Les écarts entre les prévisions de dépenses des régimes obligatoires de base de sécurité sociale et des organismes concourant à leur financement pour les années 2023 à 2027 figurant dans la loi n° 2023-1195 du 18 décembre 2023 de programmation des finances publiques pour les années 2023 à 2027 et celles décrites dans la présente annexe sont retracés dans le tableau suivant :"
+    },
+    {
+     "numero": 84,
+     "page": 136,
+     "tableau": false,
+     "texte": " Révisions des dépenses sur le champ des régimes obligatoires de base et du FSV"
+    },
+    {
+     "numero": 85,
+     "page": 136,
+     "tableau": false,
+     "texte": "(en milliards d’euros)"
+    },
+    {
+     "numero": 86,
+     "page": 136,
+     "tableau": true,
+     "texte": "                                            2023         2024       2025       2026 (p)    2027 (p)"
+    },
+    {
+     "numero": 87,
+     "page": 136,
+     "tableau": false,
+     "texte": "Dépenses prévues dans la"
+    },
+    {
+     "numero": 88,
+     "page": 136,
+     "tableau": true,
+     "texte": "     LPFP 2023-2027* (1) ............       610,9       641,8       665,2       685,8       705,4"
+    },
+    {
+     "numero": 89,
+     "page": 137,
+     "tableau": false,
+     "texte": "– 137 –"
+    },
+    {
+     "numero": 90,
+     "page": 137,
+     "tableau": false,
+     "texte": "Dépenses prévues dans le"
+    },
+    {
+     "numero": 91,
+     "page": 137,
+     "tableau": true,
+     "texte": "     présent rapport (2) ..................     610,8        643,1     666,0   683,1   696,4\n     Écarts (2)-(1) .........................   -0,1             1,3    0,8    -2,7    -9,0"
+    },
+    {
+     "numero": 92,
+     "page": 137,
+     "tableau": false,
+     "texte": "* Au sens du I. de son article 18"
+    },
+    {
+     "numero": 93,
+     "page": 137,
+     "tableau": false,
+     "texte": "        En 2026, l’écart de -2,7 milliards d’euros entre les dépenses présentées en LPFP et dans le présent rapport reflète deux effets contraires : des dépenses dans le champ de l’ONDAM plus élevées que prévu initialement mais des dépenses de prestations vieillesse et familles bien en-deçà. Les dépenses relevant de l’ONDAM seraient bien supérieures à la trajectoire de la LPFP malgré un taux d’évolution de l’ONDAM pour 2026 de 2,8 %, soit une croissance légèrement inférieure à celle prévue par la LPFP (2,9 %). Toutefois le taux d’évolution de l’ONDAM rectifié dans la présente loi repose sur une croissance des recettes atténuatives de près de 10 %, et donc une croissance des dépenses hors recettes atténuatives bien plus élevée que le taux de 2,8 %. Au total, l’ONDAM est supérieur de l’ordre de 4,6 milliards d’euros à la cible sous-jacente à la LPFP. En revanche, le ralentissement de l’inflation observé en 2024 et 2025 (+1,8 % observé en 2024 contre +2,5 % prévus en LPFP ; +0,9 % en 2025 contre 2,0 % prévus en LPFP, soit en cumul une révision de -1,8 % de l’inflation sur ces deux années) a conduit à réduire fortement, d’un peu plus de 4 milliards d’euros en 2026 par rapport à la LPFP, le niveau des dépenses via une revalorisation légale moindre des prestations. À cet effet s’ajoute une croissance des prestations en volume de la branche famille revue à la baisse en raison de moindres naissances."
+    },
+    {
+     "numero": 94,
+     "page": 137,
+     "tableau": false,
+     "texte": "        En 2027, s’ajouteront à ces effets l’impact de la mesure de revalorisation différenciée des prestations vieillesse, réduisant les dépenses de 4,5 milliards d’euros supplémentaires (y compris mécanismes d’équilibrage, et hors moindres recettes de compensation par l’État des dépenses de pensions de la fonction publique d’État) et, plus largement, l’ensemble des mesures de maîtrise des dépenses portées par la présente loi, dont les économies de 1,6 milliard d’euros sur les prestations familiales et les conséquences sur les dépenses d’un ONDAM fixé en évolution à 2,0 % (contre 2,9 % en LPFP). En sens inverse, la montée en charge de la suspension de la réforme des retraites décidée en LFSS pour 2026 vient modérer les effets des mesures nouvelles inscrites dans la présente loi en contribuant à augmenter les prestations vieillesse de 1,0 milliard d’euros. Les révisions des volumes de prestations expliquent le reste des écarts présentés dans le tableau précédent."
+    },
+    {
+     "numero": 95,
+     "page": 138,
+     "tableau": false,
+     "texte": "– 138 –"
+    },
+    {
+     "numero": 96,
+     "page": 138,
+     "tableau": false,
+     "texte": "        En cumul, les écarts entre les prévisions de dépenses des régimes obligatoires de base de sécurité sociale inscrites dans la LPFP et celles décrites dans la présente annexe s’élèvent à 0,6 milliard d’euros de dépenses en moins en 2026. Cet écart devrait se creuser nettement en 2027 avec un écart cumulé de - 9,6 milliards d’euros."
+    }
+   ],
+   "nb_alineas": 96
   }
  ]
 }

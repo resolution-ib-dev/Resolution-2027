@@ -2008,6 +2008,58 @@
    "famille": "grilles"
   },
   {
+   "role": "socle_texte_plf2027",
+   "chemin": "referentiels/socle_texte_plf2027.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": "appareil/socle_texte_2027.py",
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/socle_texte_plf2027.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "socle_texte_plfss2027",
+   "chemin": "referentiels/socle_texte_plfss2027.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": "appareil/socle_texte_2027.py",
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/socle_texte_plfss2027.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "redaction_plf2027",
+   "chemin": "referentiels/redaction_plf2027.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": "appareil/redaction_2027.py",
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/redaction_plf2027.json",
+   "famille": "grilles"
+  },
+  {
+   "role": "redaction_plfss2027",
+   "chemin": "referentiels/redaction_plfss2027.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": "appareil/redaction_2027.py",
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/redaction_plfss2027.json",
+   "famille": "grilles"
+  },
+  {
    "role": "articles_ouverts_plf_json",
    "chemin": "referentiels/articles_ouverts_plf.json",
    "rang": "referentiel",
@@ -5256,7 +5308,11 @@
    "referentiels/lots_epreuve.json",
    "referentiels/notes_manuscrit.json",
    "referentiels/redaction_plf.json",
-   "referentiels/redaction_plfss.json"
+   "referentiels/redaction_plf2027.json",
+   "referentiels/redaction_plfss.json",
+   "referentiels/redaction_plfss2027.json",
+   "referentiels/socle_texte_plf2027.json",
+   "referentiels/socle_texte_plfss2027.json"
   ],
   "au_coffre_comme_document": [
    "referentiels/cgi_expert_articles.tsv",
@@ -5432,9 +5488,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 315,
-  "au_coffre": 257,
-  "au_depot": 99,
+  "artefacts": 319,
+  "au_coffre": 261,
+  "au_depot": 103,
   "derives": 73,
   "sources": 43,
   "non_restaurables": 16,

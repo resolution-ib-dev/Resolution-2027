@@ -10,12 +10,13 @@ L'exposé des motifs est retiré : il est de l'indice, pas de la norme.
 """
 import hashlib, json, re, subprocess, sys
 import pieces_nommees, portes_ouvertes as PO
+from socle_texte_2027 import separer
 
 OUTIL = "pdftotext -layout -enc UTF-8 -eol unix"
 
 GAB = {
     "plf": {
-        "art":    re.compile(r'^\s*ARTICLE\s+(liminaire|\d+(?:\s+(?:bis|ter|quater))?)\s*:\s*(.*)$'),
+        "art":    re.compile(r'^\s*ARTICLE\s+(liminaire|\d+(?:\s+(?:bis|ter|quater))?)\s*:?\s*(.*)$'),
         "folio":  re.compile(r'^\s*(?:Projet de loi de finances\s+(\d+)|(\d+)\s+Projet de loi de finances)\s*$'),
         "partie": re.compile(r'^\s*((?:PREMIÈRE|SECONDE|DEUXIÈME)\s+PARTIE)\s*:?\s*(.*)$'),
         "titre":  re.compile(r'^\s*(TITRE\s+(?:PREMIER|[IVX]+))\s*:?\s*(.*)$'),
@@ -30,7 +31,7 @@ GAB = {
         "titre":  re.compile(r'^\s*(TITRE\s+(?:[IVX]+er?|PREMIER|Ier))\s*:?\s*(.*)$'),
         "div":    re.compile(r'^\s*(CHAPITRE\s+[IVX0-9]+.*)$'),
         "debut":  None,
-        "fin":    None,
+        "fin":    re.compile(r'^\s*ANNEXE\s*$'),
     },
 }
 EDM = re.compile(r'^\s*Exposé des motifs\s*$')
@@ -83,15 +84,17 @@ def lire(pdf, vehicule):
             if any(g["debut"].match(l) for l in ls):
                 ouvert, p0 = True, i
             continue
-        if g["fin"] and any(g["fin"].match(l) for l in ls):
+        # Les annexes ne s'arrêtent plus au repère de fin : elles se lisent,
+        # et `separer` les sort du corps des articles en objets distincts.
+        if g["fin"] and p1 is None and any(g["fin"].match(l) for l in ls):
             p1 = i
-            break
         m = g["folio"].match(ls[0]) if ls else None
         if m:
             folio = int(next(x for x in m.groups() if x)); ls = ls[1:]
         for l in ls:
-            lignes.append((l, folio if folio is not None else i))
-    return lignes, len(pages), p0 or 1, p1 or len(pages)
+            lignes.append((l, folio if folio is not None else i, i))
+    lignes, annexes = separer(lignes, vehicule)
+    return lignes, annexes, len(pages), p0 or 1, p1 or len(pages)
 
 
 def articles(lignes, vehicule):
@@ -164,7 +167,7 @@ def articles(lignes, vehicule):
 
 
 def rendre(pdf, vehicule, declaree, dest):
-    lignes, npages, p0, p1 = lire(pdf, vehicule)
+    lignes, annexes, npages, p0, p1 = lire(pdf, vehicule)
     arts = articles(lignes, vehicule)
     octets = open(pdf, "rb").read()
     tot_al = tot_ad = 0
@@ -195,6 +198,12 @@ def rendre(pdf, vehicule, declaree, dest):
                                          "divisions", "page", "page_fin", "nb_alineas",
                                          "porte_tableau", "alineas", "hors_alinea", "references")})
     socle_sha = hashlib.sha256(json.dumps(sortie, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+    tot_an = 0
+    for x in annexes:
+        x["alineas"] = alineas(x.pop("_lignes"))
+        x["nb_alineas"] = len(x["alineas"])
+        tot_an += x["nb_alineas"]
+    annexes_sha = hashlib.sha256(json.dumps(annexes, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
     d = {"_revision": {
             "role": f"rédaction exacte des articles du texte déposé — {declaree}",
             "regle": "Verse ce que nulle autre source ne rend : la rédaction exacte des "
@@ -212,20 +221,23 @@ def rendre(pdf, vehicule, declaree, dest):
                            "repere_debut": "Articles du projet de loi avec exposé des motifs"
                                             if vehicule == "plf" else "Article liminaire",
                            "repere_fin": "États législatifs annexés" if vehicule == "plf"
-                                          else "fin de pièce",
+                                          else "ANNEXE",
                            "page_premiere": p0, "page_derniere": p1,
                            "marque_alinea": "paragraphe", "sommaire": vehicule == "plf",
                            "divisions_relevees": len({tuple(x["divisions"]) for x in sortie})},
             "socle_sha256": socle_sha,
+            "annexes_sha256": annexes_sha,
             "champs_retires": {
                 "redaction.lignes": "brut de mise en page ; `alineas` en est le reflux "
                                     "déterministe et porte le même verbatim",
                 "expose_des_motifs": "de l'indice, pas de la norme : il raconte la "
                                      "disposition, il ne la décrit pas"},
-            "articles": len(sortie), "alineas": tot_al, "adresses": tot_ad},
-         "articles": sortie}
+            "articles": len(sortie), "alineas": tot_al, "adresses": tot_ad,
+            "annexes": len(annexes), "alineas_annexes": tot_an},
+         "articles": sortie, "annexes": annexes}
     json.dump(d, open(dest, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(dest, "|", len(sortie), "articles |", tot_al, "alinéas |", tot_ad, "adresses")
+    print(dest, "|", len(sortie), "articles |", tot_al, "alinéas |", tot_ad, "adresses |",
+          len(annexes), "annexes |", tot_an, "alinéas d'annexe")
 
 
 if __name__ == "__main__":
