@@ -1,0 +1,11 @@
+# Socles de texte 2027 — empreintes SHA-256. Pièces : assemblee-nationale.fr, téléchargées le 2026-10-04.
+# Pièce PLF 2027 n° 3210 : https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf (2877451 octets, 349 pages)
+# Pièce PLFSS 2027 n° 3211 : https://www.assemblee-nationale.fr/dyn/17/textes/l17b3211_projet-loi.pdf (874307 octets, 138 pages)
+# Extracteur : pdftotext 24.02.0 (poppler) ; deux exécutions, empreintes identiques.
+# Écart déclaré, non corrigé : PLF, article 23 non détecté (89 articles au lieu de 90) — en-tête « ARTICLE 23 » sans deux-points dans le corps ; son texte tombe dans l'exposé des motifs de l'article 22 (socle) et hors de la rédaction (redaction).
+132274b83bed4861a9e1a147d0d16abda2d729cdad2373ef804e26747c43d881  l17b3210_projet-loi.pdf
+47f5fc0d1581c90634449516281070495b92cfe062c20c2a366919622906eab6  l17b3211_projet-loi.pdf
+d49eb2808e5bc82d5cd495f957623bbb71e3668b87f82fdea02eddb544619f18  socle_texte_plf2027.json
+784021366a324f42e306cd9a42e8f074074df41e174eca26231402840df07637  socle_texte_plfss2027.json
+fd66da43a39cc3168af29d6f38a60dfb591557a6f1dcf8a4115081afba69f5d9  redaction_plf2027.json
+2a389fb0e94f355e88d936887a3f2f23685e7f5f4019365d8c48644389a5aa17  redaction_plfss2027.json
