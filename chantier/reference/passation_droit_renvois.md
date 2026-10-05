@@ -208,7 +208,12 @@ une troisième sans suffixe : c'est le fichier de travail, il ne se verse pas.
   quatre, `GL-I-33` sur un sur neuf.
 - **`controle_restauration.py` compte `technique/coffre.txt` parmi les non
   restaurés** alors qu'il concorde à l'octet — A-194, toujours ouvert.
-- **La porte du domaine du PLFSS n'est plus à `LO 111-3`** depuis la loi
-  organique du 14 mars 2022. Elle est aux `LO 111-3-6` à `-3-8` pour les
-  dispositions facultatives. `reference/gabarit_expose_sommaire.md` et les
-  prompts de fil sont à corriger. Voir `reference/domaine_lfss_LO111-3.md`.
+- ~~**La porte du domaine du PLFSS n'est plus à `LO 111-3`** : `reference/gabarit_expose_sommaire.md`
+  et les prompts de fil sont à corriger.~~ **Clos.** Le fait reste vrai — la porte
+  est aux `LO 111-3-6` à `-3-8` depuis la loi organique du 14 mars 2022 — mais la
+  correction est faite : trois documents corrigés le 20260902 (A-297), et
+  *`gabarit_expose_sommaire.md` ne portait pas la mention*, vérification faite sur
+  le document entier (A-298). **La grille est relevée depuis le 20260902** (A-336) :
+  31 portes, 0 échec, `appareil/portes_domaine_lfss.py`, documentée à
+  `reference/domaine_lfss_LO111-3.md`. *Ce document a porté le défaut comme ouvert
+  pendant un mois après sa clôture — fermé le 20261001.*

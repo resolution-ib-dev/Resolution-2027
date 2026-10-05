@@ -2,34 +2,41 @@
 
 La poussée de l'archive du coffre a été refusée :
 `resolution-ib-dev/Resolution-2027` n'est pas aux sources autorisées de la
-session, et le mandataire git rend un 403.
+session, et le mandataire git rend un 403. Remesuré deux fois le 20261001 :
+l'outil `add_repo` que le proxy réclame n'existe pas dans une session Cowork
+rattachée à un projet de chat, et le proxy n'expose aucun point d'entrée pour
+l'ajouter. Ce n'est pas un réglage manquant, c'est une voie fermée pour ce type
+de session.
 
 Conséquence mesurée : **l'archive remise à l'auteure le 20261001 est le seul
-exemplaire durable du coffre.** Elle ne se rejoue pas toute seule ; un fil
-futur ne peut pas la retrouver sans qu'on la lui redonne.
+exemplaire durable du coffre** tant qu'elle n'est pas déposée au dépôt.
 
-Tant que le dépôt n'est pas déclaré aux sources, **aucune sortie nouvelle du
-projet ne se joue**, et la règle de délestage reste suspendue.
+Deux voies, et l'auteure tranche :
 
-Un geste, aux paramètres du projet : ajouter `Resolution-2027` comme source,
-avec les droits d'écriture. Le fil suivant pousse l'archive et la règle
-redevient applicable.
+1. **Téléverser l'archive au dépôt par le navigateur** — `Add file` puis
+   `Upload files` sur GitHub, branche neuve —, puis une session `claude.ai/code`
+   la déplie sous `chantier/` et pousse. Aucun terminal.
+2. **Attendre** que les projets Claude Code soient déployés sur le compte, qui
+   portent un sélecteur de dépôt et les droits de poussée.
 
-### Le sort de `methode/journal.md`
+Tant que l'une des deux n'a pas abouti, **aucune sortie nouvelle du projet ne se
+joue**.
 
-Perdu. Rebâti le 20261001 avec une tête qui porte le constat et l'empreinte du
-document disparu — sha256
+### Le sort de `methode/journal.md` — RÉSOLU le 20261001
+
+Sorti du projet le 20261001 sur une présence au dépôt supposée, et introuvable
+par la mesure. **Retrouvé et remis le jour même par l'auteure**, identique à
+l'octet : sha256
 `faad6e948ae0fffe007c3a1f15b7da53954ebb623059b7c47a4684a787a5de1e`, 295 275 o,
-4 875 lignes.
+4 875 lignes — les trois concordent avec l'empreinte du 20260930.
 
-Une seule piste reste : **le transcript de la session claude.ai du 20261001 qui
-l'a sorti du projet.** Si cette conversation est encore ouverte, un fil Cowork
-lancé depuis elle verra le document dans son propre transcript et pourra le
-restaurer par copie d'octets. C'est à l'auteure de dire si cette session existe
-encore.
+Le journal courant porte ce contenu verbatim en tête, jamais repassé par le
+modèle, suivi des dix sections qui n'avaient plus de fragment, puis de la ligne
+de marque et des treize fragments assemblés. 340 155 o, 104 sections, zéro
+perdue, rejeu inchangé.
 
-Passé ce point, l'historique antérieur au 20261001 ne survit que par les
-fragments encore au coffre et par `methode/arbitrages.md`.
+**Cette question est fermée.** Ce qui reste, c'est la règle qui l'a ouverte, et
+elle est corrigée au socle.
 
 ### Deux pièces d'appareil dues
 
@@ -38,22 +45,20 @@ fragments encore au coffre et par `methode/arbitrages.md`.
   cible s'ajoute, soit le dépôt de fragments `a_trancher` cesse.
 - **Un contrôle d'assemblage non destructeur** : compter les sections avant et
   après, refuser d'écrire s'il en perd une. La règle est au socle depuis le
-  20261001 ; elle n'est pas encore outillée.
+  20261001 ; elle n'est pas encore outillée. Elle aurait suffi à voir les onze
+  sections d'arbitrages et les dix du journal.
 
-Les deux s'écrivent au dépôt, par un paquet, et attendent la même déclaration
-de source que la poussée de l'archive.
+Les deux s'écrivent au dépôt, par un paquet, et attendent la même ouverture de
+voie que la poussée de l'archive.
 
 ### Le binaire de `input/Note_Retraite_20250619.docx`
 
 Le coffre le rend en texte, pas en octets. L'archive porte le rendu texte sous
-`.docx.txt`. Le `.docx` lui-même n'existe plus qu'entre les mains de l'auteure,
-s'il existe encore. À redéposer si on y tient.
+`.docx.txt`. Le `.docx` lui-même est à redéposer si on y tient.
 
 ### Nouvelle dette de table curée
 
 Les documents déposés au coffre après l'écriture du paquet du 20261001 ne sont
-pas déclarés : trois fragments d'arbitrages (`lecture-plf2027`,
-`lecture-plfss-2027`, `plan-vehicule`), leurs fragments de journal et de
-a_trancher, les livrables de lecture des textes 2027, et les trois fragments et
-le registre des sorties écrits par ce fil. Mesure à refaire avant d'écrire le
-paquet suivant.
+pas déclarés : les fragments et livrables des fils de lecture des textes 2027,
+le registre des sorties et les fragments de ce fil. Mesure à refaire avant
+d'écrire le paquet suivant.

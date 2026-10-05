@@ -1,7 +1,7 @@
 # La sécurité sociale en 2027, lue en clair
 
 *Lecture du projet de loi de financement de la sécurité sociale pour 2027, texte
-soumis à la délibération du Conseil des ministres. 49 articles, 314 mesures. Aucun
+soumis à la délibération du Conseil des ministres. 49 articles, 251 mesures. Aucun
 chiffre de cette note n'est estimé : tous sont écrits dans le texte, dans ses
 tableaux ou dans son exposé des motifs — et quand un chiffre vient de l'exposé et
 non de la loi, c'est dit.*
@@ -270,5 +270,5 @@ suspendues, et se rouvriront à la parution des annexes.
 
 ---
 
-*Les deux pièces techniques qui adossent cette note : l'index des 314 mesures
-article par article, et les fiches détaillées des 36 articles principaux.*
+*Les deux pièces techniques qui adossent cette note : l'index des 251 mesures
+article par article, et les fiches détaillées des 37 articles principaux.*

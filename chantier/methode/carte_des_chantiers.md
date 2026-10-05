@@ -15,7 +15,7 @@ est fait, ce qui est prêt, ce qui bloque quoi, et ce qui revient à l'auteur.
 |---|---|---|
 | **1. Projection du programme** — du livre à la liasse | en cours, chemin critique | rien : la matière des lots F et G est versée |
 | **2. Machine d'amendement** | 5 étapes sur 7, transférée au projet machine | l'écart se mesure désormais sur le banc des liasses d'un tiers |
-| **3. Lecture des textes financiers** | 2026 lu, module non outillé | date imposée par le dépôt du texte suivant |
+| **3. Lecture des textes financiers** | 2026 lu, 2027 en cours, module non outillé | date imposée par le dépôt du texte suivant |
 | **4. Socle budgétaire et grille** | dix bouclages verts, premier cercle | rien : lot suivant écrit |
 | **5. Révision constitutionnelle** | PPLC consolidée, présentation à jour | arbitrage de diffusion |
 | **6. Gagnants-perdants** | côté perte écrit, côté gain à 6 % | le format cible n'est pas arrêté |
@@ -229,17 +229,24 @@ ouvertes, mouvements sur nos objets, écart à nos positions.
 articles ouverts, confrontation et son bordereau. Le résumé attendu est écrit et
 gelé.
 
-### Le millésime 2027 arrive — 20261001
+### Le millésime 2027 — 20261001
 
-**Annoncé par l'auteure.** Le PLF et le PLFSS 2027 travailleront sur le droit en
-vigueur, aux entrées en vigueur différées déjà votées près : la confrontation au
-droit est donc possible, et ces décalages sont le point sensible du millésime.
+**Les deux véhicules sont lus en pièces de lecture.** Côté PLF comme côté PLFSS :
+index des mesures, fiches de mesure, note lisible externalisable, liste par
+article rendue au gabarit et en PDF. **La grammaire de relevé est commune aux
+deux fils** — sept règles mesurées, reprises au fil PLF le 20261001 : folio et non
+sommaire, profondeur bornée à deux niveaux, garde d'ordre sur les marqueurs, garde
+de rang 1, `I`/`V`/`X` exclus du second niveau, passages cités blanchis à offsets
+préservés, contexte de pièce porté le long de l'article.
 
-**Les annexes ne sont pas parues à ce jour.** Le prompt est écrit et versé —
+**Ce sont des pièces de lecture, pas le socle.** `referentiels/socle_plfss_texte.json`
+n'existe pas : la qualification et l'appariement se jouent sur le socle, pas sur
+les pièces de lecture. Fait côté PLF, non fait côté PLFSS 2027.
+
+**Les annexes ne sont pas parues à ce jour.** Le prompt est versé —
 `methode/prompt_fil_lecture_textes_2027.md` — et il est découpé pour ça : les
 lots qui dépendent des annexes partent **suspendus** et se rejouent seuls à leur
-arrivée, sans toucher au reste. Les deux véhicules suffisent à jouer L1, L2 et
-L4 dès le dépôt.
+arrivée, sans toucher au reste.
 
 **Pièces à joindre au lancement** : le PLF et le PLFSS en PDF, **les deux** — le
 fil 2026 n'avait pas le PDF du PLF et n'a pas pu relire à l'œil côté finances.
@@ -250,8 +257,32 @@ Le module n'est pas outillé. **Deux modules manquent et se réécrivent avant l
 dépôt, pas après** : `portes_ouvertes.py` et `controle_socle_plf.py` — aucun n'a
 de sortie versée qui vaudrait spécification.
 
-**La grille des portes du domaine des lois de financement n'est pas relevée** :
-dix-huit verdicts plafonnent à `plaidable` et y resteront tant qu'elle manque.
+**Les blocs L1 à L4 ne sont pas joués sur le millésime 2027.** L1 solde, L2 portes
+ouvertes, L3 mouvements sur nos objets, L4 écart à nos positions. La matière brute
+est à l'index des mesures des deux véhicules ; l'annexe A du PLFSS, pages 113 à
+121 de la pièce, reste à dépouiller entièrement.
+
+~~**La grille des portes du domaine des lois de financement n'est pas relevée** :
+dix-huit verdicts plafonnent à `plaidable` et y resteront tant qu'elle manque.~~
+**Clos le 20260902 par A-336** — 31 portes, 0 échec, relevées en verbatim au dépôt
+de droit, millésime LEGI 20260901, portées par `appareil/portes_domaine_lfss.py`
+et documentées à `reference/domaine_lfss_LO111-3.md`. *Cette carte a porté le
+point comme ouvert pendant un mois après sa clôture.* **Le plafond `plaidable`
+tient, mais par un autre motif** : l'arbitrage n° 3 de
+`methode/procedure_contre_plf.md` — le rattachement se plaide par l'implicite
+budgétaire et le contrefactuel, non par une porte du domaine ; la grille dit ce
+qui est acquis sans plaidoirie, pas ce qu'on tente.
+
+**Ce qui reste sur la grille, et qui est d'un autre ordre** : `LO 111-4` et
+`LO 111-4-1`, les annexes obligatoires — siège de toute obligation documentaire
+nouvelle au PLFSS — ne sont pas relevés ; le croisement avec la grille LOLF n'est
+pas fait, alors que trois portes Sécu renvoient au III de l'article 2 de la LOLF ;
+et **le relevé se périme le 17 octobre 2026**, règle des 45 jours du dépôt de
+droit — tout fil qui s'en sert après cette date le rafraîchit par `droit.py`.
+
+**`REF_norme` ne porte rien côté PLFSS**, et les amendements effectivement
+déposés sur les textes 2027 — la meilleure preuve de recevabilité disponible, et
+elle est gratuite (A-230) — n'ont jamais été ouverts.
 
 ### Date
 
@@ -347,6 +378,15 @@ se corrige en aval : une erreur remonte à l'étage où elle est née, puis on r
 Trois adresses, une par nature de chiffre — les faits, le chiffrage des économies,
 ce que le PLF publie.
 
+### Une borne ne se recopie pas — 20261001
+
+**Une borne écrite à un document de méthode ne se recopie pas : elle se vérifie à
+`methode/arbitrages.md` et au registre avant d'être redite.** Un document de
+méthode est une pièce datée ; le registre, non. La règle naît d'une borne fausse
+depuis un mois — « la grille des portes n'est pas relevée » — recopiée par quatre
+documents et trois fils du 20261001, dont une ligne de mandat qui demandait de
+relever une grille déjà relevée.
+
 ### La frontière de projet — 20260930
 
 Le découpage des mesures, les énoncés, les paramètres, les arguments et leur
@@ -378,11 +418,13 @@ les cinquante-sept**. La table curée se rattrape avant tout rejeu de l'index, e
 la reprise ne se fait pas depuis Cowork : le mandataire git refuse la poussée
 tant que le dépôt n'est pas déclaré aux sources de la session.
 
-**Deux modules sont perdus** : `plier_paquet.py` et `controle_projection.py`,
-déclarés de voie `depot` et absents du clone.
+~~**Deux modules sont perdus** : `plier_paquet.py` et `controle_projection.py`,
+déclarés de voie `depot` et absents du clone.~~ **Périmé — mesuré le 20261001** :
+les deux sont au clone, et la dette de voie `depot` est mesurée nulle au `4e6e1a4`.
 
 **Quatre documents sont au coffre et absents de l'index** — ils disparaissent au
 premier `make reindex` et ne se restaurent pas. C'est arrivé deux fois.
+*Mesuré le 20260917 : il y en avait quarante-cinq, et ils sont portés.*
 
 ### Le stock de règles sans garde-fou
 
@@ -410,6 +452,12 @@ stock qui produit les fautes, et il ne diminue pas seul.
    gratuites** — supprimées comme prélèvement sur la main-d'œuvre, ou détaxées ?
    1,67 Md€, seul prélèvement des 420 en attente, et il commande la cohérence
    entre M-025, M-031, M-034 et M-043.
+10. **Les fiches des articles 20, 28 et 32 du PLFSS 2027** survivent à la
+    disparition de leur critère — les retirer, élargir le critère, ou en écrire
+    une quatrième.
+11. **L'annexe opposable ou le rapport**, pour toute obligation documentaire
+    nouvelle au PLFSS — `LO 111-4` et `LO 111-4-1` ne sont pas relevés, et le
+    choix est de doctrine.
 
 ---
 
@@ -418,6 +466,7 @@ stock qui produit les fautes, et il ne diminue pas seul.
 | chantier | date | d'où elle vient |
 |---|---|---|
 | Lecture du texte financier 2027 | dépôt des textes — annoncé, annexes non parues au 20261001 | extérieure, **à confirmer** |
+| Péremption du relevé des portes du domaine LFSS | **17 octobre 2026** | règle des 45 jours du dépôt de droit |
 | Essai | 9 octobre 2026 | arrêtée |
 | Tout le reste | aucune | dépendances seules |
 
@@ -430,6 +479,6 @@ la quatrième population de test, et la suppression du lot `H`. Aucun fond produ
 l'arborescence et le décrochage du générateur de l'index. Aucun fond produit.*
 *20260930 — le fil de traduction y inscrit le relevé de siège, la frontière de
 projet et les trois arbitrages dus. Aucun fond produit.*
-*20260930 — le même fil y porte le bilan des deux fils lancés en parallèle :
-sort attribué, trois arbitrages rendus, et les quatre reprises qu'aucun fil ne
-porte. Aucun fond produit.*
+*20261001 — le fil de lecture du PLFSS 2027 y clôt la borne fausse des portes du
+domaine, inscrit la règle « une borne ne se recopie pas », porte l'état du
+millésime 2027 et périme deux constats de dette d'appareil. Aucun fond produit.*

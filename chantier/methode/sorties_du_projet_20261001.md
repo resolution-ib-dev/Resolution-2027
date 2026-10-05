@@ -21,12 +21,13 @@ Elle porte l'état **final** du 20261001 : `methode/journal.md` et
 lui-même. Elle ne porte pas `chantier/appareil/` ni les cinq référentiels JSON,
 qui sont de voie `depot` et reviennent par `git clone`.
 
-**Le dépôt ne porte toujours pas le coffre.** La poussée a été refusée par le
-mandataire git — `resolution-ib-dev/Resolution-2027` n'est pas aux sources
-autorisées de la session. Le commit d'archive existe en atelier
-(`6559a6b`, branche `coffre-20261001`) et sera perdu avec lui. **Tant que le
-dépôt n'est pas déclaré aux sources du projet, l'archive remise à l'auteure est
-le seul exemplaire durable.**
+**Le dépôt ne porte toujours pas le coffre.** La poussée est refusée par le
+mandataire git, et pas faute d'un réglage : remesuré deux fois le 20261001,
+l'outil que le proxy réclame n'existe pas dans une session Cowork rattachée à un
+projet de chat, et le proxy n'expose aucun point d'entrée pour l'ajouter. La voie
+ouverte est le téléversement de l'archive au dépôt par le navigateur, puis son
+dépliage sous `chantier/` par une session `claude.ai/code`. **Tant qu'elle n'a
+pas abouti, l'archive remise à l'auteure est le seul exemplaire durable.**
 
 ## Les 15 documents sortis
 
@@ -68,10 +69,12 @@ Elle n'avait pas pu être jouée faute de présence établie ; l'archive l'étab
 
 ## Ce qui reste dû
 
-- **`methode/journal.md`** : perdu avant cette archive. Empreinte connue
-  (`faad6e948ae0fffe007c3a1f15b7da53954ebb623059b7c47a4684a787a5de1e`,
-  295 275 o, 4 875 lignes), contenu introuvable au coffre, au dépôt et aux
-  transcripts atteignables.
+- **`methode/journal.md` — plus dû, retrouvé le 20261001.** Il avait disparu du
+  coffre, du dépôt et de tout transcript atteignable. L'auteure en a remis une
+  copie le jour même, vérifiée **identique à l'octet** contre l'empreinte du
+  20260930 — sha256
+  `faad6e948ae0fffe007c3a1f15b7da53954ebb623059b7c47a4684a787a5de1e`, 295 275 o,
+  4 875 lignes. Le journal courant porte ce contenu verbatim en tête.
 - **`input/Note_Retraite_20250619.docx`** : le coffre le rend en texte et non en
   octets. L'archive porte le rendu texte sous `.docx.txt` ; le binaire reste dû.
 - **La poussée de l'archive au dépôt**, dès que le dépôt sera aux sources.

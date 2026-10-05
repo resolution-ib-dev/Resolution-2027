@@ -14,10 +14,12 @@ aucun moment de l'historique.** Le dépôt ne porte pas et n'a jamais porté le
 coffre lisible : la règle de délestage, qui veut une présence au clone, était
 inapplicable depuis le jour où elle a été écrite.
 
-**`methode/journal.md` est perdu.** Sorti du projet le 20261001 sur cette
-présence supposée. Introuvable au coffre, au dépôt et dans tout transcript
-atteignable. Seule reste son empreinte au relevé du 20260930 : sha256
-`faad6e94…`, 295 275 o, 4 875 lignes.
+**`methode/journal.md` était perdu — il a été retrouvé le jour même.** Sorti du
+projet le 20261001 sur cette présence supposée, introuvable au coffre, au dépôt
+et dans tout transcript atteignable. L'auteure en a remis une copie quelques
+heures plus tard : **identique à l'octet**, sha256
+`faad6e948ae0fffe007c3a1f15b7da53954ebb623059b7c47a4684a787a5de1e`, 295 275 o,
+4 875 lignes, les trois concordant avec l'empreinte du 20260930.
 
 **L'assemblage des arbitrages était destructif.** Cumulatif restauré à
 345 467 o, tête 292 687, queue 52 700 portant 11 sections. Assemblage joué sur
@@ -57,10 +59,15 @@ verbatim au-dessus de la ligne de marque, où rien ne les réécrit, puis
 assemblage des 14 fragments. 390 475 o, 79 sections, **0 perdue**, rejeu
 inchangé.
 
-**`methode/journal.md` rebâti.** Tête neuve portant le constat de la perte et
-l'empreinte du document disparu, pour qu'une copie retrouvée se reconnaisse et
-se remette ; puis assemblage des 13 fragments. 58 995 o, 21 sections, rejeu
-inchangé.
+**`methode/journal.md` remis, puis rebâti.** Le contenu d'origine est repris
+verbatim en tête, jamais repassé par le modèle — le préfixe est vérifié
+identique. Dix sections qui n'avaient plus de fragment sont remontées au-dessus
+de la ligne de marque, puis les 13 fragments sont assemblés. 340 155 o, 104
+sections, **0 perdue**, rejeu inchangé.
+
+*La tête provisoire qui portait le constat de la perte a servi : c'est son
+empreinte inscrite qui a permis de reconnaître la copie remise. Elle est
+remplacée par le document lui-même.*
 
 **Socle corrigé.** Trois conditions cumulatives à toute sortie, l'interdiction
 absolue de sortir un fragment, et l'obligation de jouer un assemblage sur copie
@@ -68,7 +75,11 @@ jetable en comptant les sections.
 
 ## Ce qui reste ouvert
 
-La poussée de l'archive, bloquée sur les sources autorisées du projet. Le
-binaire de `input/Note_Retraite_20250619.docx`, que le coffre ne rend qu'en
-texte. Les deux pièces d'appareil dues — la cible `a_trancher` et le contrôle
-d'assemblage. La dette de table curée née après le paquet du 20261001.
+La poussée de l'archive, bloquée non par un réglage mais par le type de session :
+remesuré deux fois, l'outil `add_repo` que le proxy réclame n'existe pas dans une
+session Cowork rattachée à un projet de chat. Le binaire de
+`input/Note_Retraite_20250619.docx`, que le coffre ne rend qu'en texte. Les deux
+pièces d'appareil dues — la cible `a_trancher` et le contrôle d'assemblage. La
+dette de table curée née après le paquet du 20261001.
+
+**Fermé dans la journée :** le journal, retrouvé et remis à l'octet.

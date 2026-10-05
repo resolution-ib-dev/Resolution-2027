@@ -3,6 +3,11 @@
 Arrêté le 20260916. Se lit avec la méthode de découpage d'un bloc, écrite le même
 jour, qui en est la pièce opératoire.
 
+**Corrigé le 20261001 sur un point d'état** : ce plan tenait la grille des portes
+des lois de financement pour non relevée. **Elle l'était depuis le 20260902**,
+arbitrage A-336 — soit quatorze jours avant que ce plan ne soit écrit. Les deux
+passages concernés, au § 5 et au § 8, sont repris.
+
 ---
 
 ## 1. Ce qu'on vise
@@ -68,9 +73,8 @@ bloc de rattachement l'unité de dépôt, et chaque morceau renvoie à son bloc.
 
 > **Renommage du 20260917.** Le tri par véhicule s'appelait `E` ici et `D` dans
 > son propre prompt : deux fils qui se renvoyaient un « lot D » ne parlaient pas
-> du même travail. **Le tri par véhicule est le lot `D`**, comme son prompt le
-> dit depuis le 20260916 ; **la valise devient le lot `V`**, lettre libre et
-> parlante. La lettre `E` n'est plus employée. Les lettres ne sont pas des
+> du même travail. **Le tri par véhicule est le lot `D`** ; **la valise devient le
+> lot `V`**. La lettre `E` n'est plus employée. Les lettres ne sont pas des
 > ordinaux : elles nomment, elles ne classent pas.
 
 **Critique par sa date, non par sa durée** : B. Le texte déposé ne se relit pas
@@ -87,11 +91,16 @@ Quatre rangs, appliqués aux morceaux :
 2. **objet nommé et chiffré** — siège identifiable, montant sourcé au millésime
 3. **objet nommé, chiffrage à reprendre** — passe, moyennant une passe de
    chiffrage
-4. **rattachement plaidable** — verdict plafonné faute de grille relevée, ou
-   cavalier probable ; part en loi ordinaire
+4. **rattachement plaidable** — le verdict plafonne à `plaidable`, ou le cavalier
+   est probable ; part en loi ordinaire
 
-Le rang 1 se remplit au dépôt. **Il se prépare à vide** : la structure est prête,
-le contenu arrive avec le texte.
+> ***Corrigé le 20261001.*** Ce rang disait « verdict plafonné **faute de grille
+> relevée** ». **Le motif est faux** : la grille est relevée depuis le 20260902
+> (A-336, 31 portes, 0 échec). Le plafond vient de l'arbitrage n° 3 de
+> `methode/procedure_contre_plf.md` — **le rattachement se plaide par l'implicite
+> budgétaire, non par une porte**, et la grille passe au second rang : elle dit ce
+> qui est acquis sans plaidoirie, pas ce qu'on tente. Un verdict `acquis` reste
+> donc possible quand une porte couvre la mesure sans plaidoirie.
 
 ---
 
@@ -110,6 +119,11 @@ millésimes ne se comparent pas.
 **La lecture se fait contre notre grille, jamais contre la présentation du
 texte.** Un résumé qui suit le plan de l'exposé des motifs adopte le cadrage
 qu'il devait mesurer.
+
+*Le millésime 2027 ajoute, en amont de ces quatre blocs, les **quatre pièces de
+lecture** d'un véhicule — index des mesures, fiches de mesure principale, liste par
+article et son PDF, note lisible. Gabarits :
+`methode/prompt_fil_lecture_textes_2027.md` et `reference/gabarit_liste_articles.md`.*
 
 ---
 
@@ -137,9 +151,7 @@ population est faite des mesures d'un tiers ; la valise porte notre doctrine. La
 passe équipée ne peut donc gagner que là où la valise couvre un objet que le
 tiers travaille aussi — chiffrage d'un objet budgétaire, ligne de gage, pièce
 publique. Elle ne gagne rien sur les arguments propres à notre programme.
-**L'écart mesuré est donc un minorant**, et il se dit comme tel. Le mesurer sur
-notre propre population donnerait un majorant, et la vérité-terrain serait de
-nous : c'est exactement ce qu'on refuse ici.
+**L'écart mesuré est donc un minorant**, et il se dit comme tel.
 
 **Les cas de crédits ne reçoivent pas de taux** mais un exercice de conformité.
 Leur vérité-terrain n'est pas extractible en l'état, et les onze douzièmes des
@@ -152,4 +164,5 @@ exposés nomment eux-mêmes le programme : mesurer la lecture ne mesurerait rien
 | # | point | ce qu'il commande |
 |---|---|---|
 | 1 | le module qui relève les portes ouvertes n'a pas de sortie versée qui vaudrait spécification exécutable | il se réécrit avant le dépôt, pas après |
-| 2 | la grille des portes des lois de financement n'est pas relevée en verbatim | dix-huit verdicts plafonnent à plaidable, et ils resteront plafonnés tant que la grille manque |
+| 2 | ~~la grille des portes des lois de financement n'est pas relevée en verbatim~~ **Clos le 20260902 par A-336** — 31 portes, 0 échec, `appareil/portes_domaine_lfss.py` et `reference/domaine_lfss_LO111-3.md`. *Ce plan portait le point comme ouvert alors qu'il était clos quatorze jours plus tôt.* | plus rien ici. **Deux manques subsistent, et ils sont d'un autre ordre** : `LO 111-4` et `LO 111-4-1`, les annexes obligatoires, ne sont pas relevés ; le croisement avec la grille LOLF n'est pas fait, alors que trois portes Sécu renvoient au III de l'article 2 de la LOLF |
+| 3 | le relevé des portes se périme le **17 octobre 2026** — règle des 45 jours du dépôt de droit | tout fil qui s'en sert après cette date le rafraîchit par `droit.py` avant emploi |

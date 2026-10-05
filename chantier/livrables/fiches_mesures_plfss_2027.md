@@ -14,7 +14,14 @@ autres mesures restent à l'index, sans fiche.
 d'équilibre, un objectif de dépense ou l'annexe ; ou qui touche un de nos objets —
 impositions et fractions affectées aux régimes, niches sociales, organismes créés,
 fusionnés ou supprimés ; ou dont l'article est parmi les plus chargés en adresses
-ouvertes. **33 fiches, couvrant 36 des 49 articles.**
+ouvertes. **34 fiches, couvrant 37 des 49 articles.**
+
+*Les comptes de mesures et d'adresses portés par ces fiches sont ceux de la grille
+reprise — celle du fil de lecture du PLF 2027, appliquée aux deux véhicules. Sous
+la grille de première passe, les articles 20, 28 et 32 figuraient parmi les plus
+chargés en adresses ; ils n'y sont plus, et leurs fiches sont conservées, déclarées
+comme telles. Les cinq articles les plus chargés sont désormais le 27 (21 adresses),
+le 4 (20), le 34 (19), le 33 (14) et le 41 (13).*
 
 **D'où vient le chiffre.** Du tableau d'équilibre, de l'objectif de dépense, de la
 dotation inscrite au dispositif ou de l'annexe — **jamais de l'exposé des motifs**.
@@ -137,6 +144,51 @@ mouvements de 60 et 20 M€ sans les rapprocher du solde.
 
 # DEUXIÈME PARTIE, TITRE Ier — recettes, recouvrement, trésorerie 2027
 
+## Article 4 — Cotisants sinistrés et employeurs de sapeurs-pompiers volontaires (p. 5-10)
+
+**Verbe.** Suspend les obligations de paiement des cotisations pour les cotisants
+des communes frappées par les incendies de l'été 2026 et par le cyclone Chido, et
+crée une réduction de cotisations pour les employeurs de sapeurs-pompiers
+volontaires.
+
+**Le chiffre.** `introuvable` — ni le dispositif ni l'exposé ne portent de montant.
+Motif : les paramètres sont renvoyés au décret, qui fixe le barème de l'exonération
+en fonction de la baisse de chiffre d'affaires, le montant de l'aide forfaitaire et
+celui de la réduction pompiers.
+
+**Mécanique.** 17 mesures, **20 adresses ouvertes** — le deuxième article le plus
+chargé du texte. Suspension des obligations de paiement au titre des mois d'août à
+octobre 2026, jusqu'au 30 novembre 2026, hors cotisations salariales précomptées ;
+sursis à poursuites du 18 août au 30 novembre 2026, qui suspend les délais de
+recouvrement et de contentieux ; plans d'apurement et remise possible des
+majorations ; exonération totale ou partielle pour les employeurs de moins de 250
+salariés, modulée par la baisse de chiffre d'affaires du 1er juillet au 30 septembre
+2026 ; aide forfaitaire aux indépendants, non-salariés agricoles, artistes-auteurs
+et marins ; taux global dérogatoire pour les micro-entrepreneurs. Insertion d'un
+article L. 241-21 du code de la sécurité sociale créant une **réduction forfaitaire
+annuelle de cotisations par sapeur-pompier volontaire employé, dans la limite de
+cinq salariés par employeur**, sur les rémunérations inférieures au SMIC majoré de
+60 %. Report de neuf à dix mois des échéances mahoraises de la loi d'urgence du
+24 février 2025.
+
+**Ce que l'exposé dit.** Rien de chiffré sur le coût : il décrit le dispositif.
+
+**Ce qu'il ne dit pas.** Combien de communes, combien de cotisants, combien d'euros.
+Le nombre de communes concernées n'est pas davantage dans la loi : il est renvoyé à
+un **arrêté conjoint** des ministres du budget et de la sécurité sociale.
+
+**Le point à ne pas manquer.** Le VI écarte expressément l'article L. 131-7 du code
+de la sécurité sociale : **ces exonérations ne font pas l'objet d'une compensation
+par l'État**. C'est une dérogation à la règle de compensation, posée en une phrase
+au milieu d'un article d'urgence. Le coût reste à la sécurité sociale.
+
+**Mots de portée.** Cinq « peut », cinq renvois à décret, un « dans la limite de »,
+dix « au titre de » : presque tous les paramètres sont facultatifs ou réglementaires.
+
+**Montée en charge.** La réduction sapeurs-pompiers s'applique **aux rémunérations
+dues à compter du 1er janvier 2027** ; les mesures de crise courent sur des périodes
+d'emploi de **2026**, donc sur l'exercice précédent.
+
 ## Article 5 — Suppression de l'exonération des ateliers et chantiers d'insertion publics (p. 10)
 
 **Verbe.** Abroge, à compter du 1er janvier 2027, l'exonération de cotisations
@@ -202,7 +254,7 @@ montant des allègements généraux — montant d'exposé (p. 15), repris à l'e
 l'article 16 (p. 43) sous la forme « améliorera le solde des régimes de base de
 3,7 milliards d'euros ».
 
-**Mécanique.** 16 mesures. Réécriture de l'article L. 137-15, abrogation de l'article
+**Mécanique.** 11 mesures. Réécriture de l'article L. 137-15, abrogation de l'article
 L. 241-3-3, refonte des renvois internes de l'article L. 241-13, ajout d'un 9° au I de
 l'article L. 241-17, complément au 3° du II de l'article L. 242-1, prorogation à
 l'article 5 de la loi du 16 août 2022 et au VI bis de l'article 1er de la loi du
@@ -274,7 +326,7 @@ une contribution assise sur une assiette large de dispositifs médicaux rembours
 L. 245-5-7 du code de la sécurité sociale fixé à **3,6 % pour la contribution due au
 titre de 2027**.
 
-**Mécanique.** 5 mesures, 20 adresses ouvertes. Création du régime de contribution et
+**Mécanique.** 4 mesures, 6 adresses. Création du régime de contribution et
 coordination des renvois.
 
 **Ce que l'exposé dit** *(p. 22)* : dépenses remboursées de plus de **12,1 Md€ en
@@ -293,7 +345,7 @@ sur les rémunérations qu'ils perçoivent des laboratoires.
 rendement pour la contribution créée. Motif : paramètres non fixés dans le texte
 déposé.
 
-**Mécanique.** 6 mesures, 19 adresses. Statut des groupements, extension des
+**Mécanique.** 6 mesures, 7 adresses. Statut des groupements, extension des
 obligations de déclaration des laboratoires, contribution nouvelle, décalage d'un an
 de l'échéance de la convention pharmaciens / assurance maladie.
 
@@ -366,7 +418,7 @@ pour l'autonomie.
 sur la part de CSG affectée à la CNSA par le c du 3° bis de l'article L. 131-8.
 Répartition nominative par collectivité : tableaux des IV-1° et IV-2°, p. 31 à 37.
 
-**Mécanique.** 10 mesures. Ajout d'un 11° au b de l'article L. 3332-1 du code général
+**Mécanique.** 12 mesures. Ajout d'un 11° au b de l'article L. 3332-1 du code général
 des collectivités territoriales ; restructuration des articles L. 223-11 et L. 223-12
 du code de la sécurité sociale en I / II / III, le concours étant désormais versé
 **après déduction** du montant affecté directement ; suppression du g du 3° de
@@ -399,7 +451,7 @@ par arrêté et versé avant le 31 décembre 2027, « dans la limite du montant 
 au 31 décembre 2026 » (VI). Baisse de TVA affectée à la CNAM : **5,6 Md€** — montant
 d'exposé (p. 41 et p. 43), sans siège dans cet article.
 
-**Mécanique.** 18 mesures, la plus dense du titre. La TVA n'étant affectée qu'à la
+**Mécanique.** 16 mesures, la plus dense du titre. La TVA n'étant affectée qu'à la
 CNAM, c'est l'affectation de la **taxe sur les salaires** qui est modifiée pour
 répartir la baisse entre branches. Prise en charge par la branche famille des
 majorations de pension pour trois enfants du régime des fonctionnaires territoriaux
@@ -563,7 +615,7 @@ situations à risque de désinsertion professionnelle.
 
 **Le chiffre.** `introuvable` — aucun montant au dispositif ni à l'exposé.
 
-**Mécanique.** 8 mesures, 15 adresses ouvertes. Création d'un cadre de concertation
+**Mécanique.** 11 mesures, 8 adresses. Création d'un cadre de concertation
 et inscription des coordonnées du médecin du travail en lecture directe dans le
 dossier médical partagé.
 
@@ -585,7 +637,7 @@ l'assurance maladie certains vaccins administrés en établissement.
 
 **Le chiffre.** `introuvable` — aucun montant au dispositif ni à l'exposé.
 
-**Mécanique.** **L'article le plus chargé du texte : 26 mesures, 36 adresses
+**Mécanique.** **L'article le plus chargé du texte : 24 mesures, 21 adresses
 ouvertes.** Prise en charge de vaccins et de médicaments prophylactiques administrés
 en établissements de santé et en EHPAD ; détention de stocks de vaccins par les
 services de prévention et de santé au travail, les laboratoires de biologie médicale
@@ -619,7 +671,7 @@ de compensation financière et de remises.
 Motif : les paramètres sont renvoyés à la convention entre les laboratoires et le
 Comité économique des produits de santé.
 
-**Mécanique.** 7 mesures, 15 adresses. Socle commun de règles de prescription et de
+**Mécanique.** 8 mesures, 7 adresses. Socle commun de règles de prescription et de
 dispensation ; encadrement renforcé des antibiotiques à risque de mésusage ;
 compensation subordonnée à des engagements de disponibilité, réductible, suspendable,
 supprimable ou reversable en cas de manquement.
@@ -642,7 +694,7 @@ sanctionne les éditeurs de logiciels non conformes.
 **Le chiffre.** `introuvable` — aucun montant de sanction ni de rendement au texte
 lu.
 
-**Mécanique.** 9 mesures, 14 adresses. Obligation de facturer en Sesam-Vitale et de
+**Mécanique.** 8 mesures, 7 adresses. Obligation de facturer en Sesam-Vitale et de
 recourir aux dernières versions des cahiers des charges dans un délai maximal ;
 transmission dématérialisée des pièces justificatives ; vérification en ligne des
 droits ; délai maximal de transmission des factures en tiers payant ; sanction des
@@ -670,7 +722,7 @@ consignations.
 l'article 41, XII : **230,53 M€ au maximum pour 2027** au titre des missions de
 développement professionnel continu.
 
-**Mécanique.** 16 mesures, 13 adresses. Pilotage scientifique à la Haute Autorité de
+**Mécanique.** 12 mesures, 14 adresses. Pilotage scientifique à la Haute Autorité de
 santé, gestion administrative et financière à la Caisse des dépôts ; **suppression de
 l'obligation de développement professionnel continu pour les professions à ordre**,
 désormais soumises à la certification périodique.
@@ -697,7 +749,7 @@ pension, en un **montant forfaitaire** identique pour les hommes et les femmes.
 et revalorisé dans les conditions de l'article L. 161-23-1. Aucun chiffrage à
 l'exposé.
 
-**Mécanique.** **25 mesures, 25 adresses ouvertes** — le deuxième article le plus
+**Mécanique.** **24 mesures, 19 adresses ouvertes** — le troisième article le plus
 chargé. Création d'un article L. 173-1-6 du code de la sécurité sociale portant la
 majoration forfaitaire ; réécriture de l'article L. 18 du code des pensions civiles
 et militaires et insertion des articles L. 18 bis et L. 18 ter ; coordination dans le
@@ -767,7 +819,7 @@ régulière.
 **Le chiffre.** `introuvable` — aucun montant au dispositif ni à l'exposé. Motif : le
 texte déposé ne chiffre ni la population concernée ni l'économie attendue.
 
-**Mécanique.** 9 mesures. Exclusions explicites : bénéficiaires d'une protection
+**Mécanique.** 5 mesures. Exclusions explicites : bénéficiaires d'une protection
 internationale, titulaires d'une carte de résident, titulaires d'un titre autorisant
 à travailler ; prestations liées au handicap, à la maladie grave et au décès d'un
 enfant préservées.

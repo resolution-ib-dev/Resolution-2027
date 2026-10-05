@@ -11,8 +11,10 @@ Le prompt du fil nomme ce qu'il faut lire **en plus**, et rien d'autre.
 
 ## Le projet est un plan de travail, pas le miroir du coffre
 
-*Règle posée le 20261001, corrigée le 20261001 même, après qu'elle eut coûté
-`methode/journal.md` — 295 275 o, 4 875 lignes, perdus.*
+*Règle posée le 20261001, corrigée le 20261001 même, après avoir fait disparaître
+`methode/journal.md` — 295 275 o, 4 875 lignes. Le journal a été retrouvé et remis
+à l'octet le jour même ; la règle reste corrigée, parce que la prochaine fois il
+n'y aura pas de copie.*
 
 **Le coffre porte tout. Le projet porte ce qu'un fil lit en ouverture.** Une
 pièce sortie du projet n'est pas perdue **si et seulement si** elle vit ailleurs.
@@ -44,17 +46,20 @@ ligne de marque, où rien ne les réécrit.
 
 ### Déjà fait le 20261001
 
-Les 172 documents du projet sont archivés par copie d'octets, relecture vérifiée
-172 sur 172 ; 15 documents sont sortis, 1 617 384 o — le registre des sorties
+Les documents du projet sont archivés par copie d'octets, relecture vérifiée
+pièce à pièce ; 15 documents sont sortis, 1 617 384 o — le registre des sorties
 dit lesquels et où. `methode/journal.md` et `methode/arbitrages.md` sont
-rebâtis, assemblage idempotent, zéro section perdue.
+rebâtis, assemblage idempotent, zéro section perdue. Le journal porte son
+contenu d'origine verbatim, remis par l'auteure et vérifié identique à l'octet.
 
 ### Ce qui reste dû
 
-- **La poussée de l'archive au dépôt.** Elle a été refusée : le dépôt n'est pas
-  aux sources autorisées de la session. Tant qu'il n'y est pas, aucune sortie
-  nouvelle ne se joue — l'archive remise à l'auteure est le seul exemplaire, et
-  elle ne se rejoue pas toute seule.
+- **La poussée de l'archive au dépôt.** Refusée, et pas par un réglage
+  manquant : remesuré deux fois, l'outil que le mandataire git réclame n'existe
+  pas dans une session Cowork rattachée à un projet de chat. La voie est le
+  téléversement de l'archive au dépôt par le navigateur, puis son dépliage par
+  une session `claude.ai/code`. **Tant qu'elle n'a pas abouti, aucune sortie
+  nouvelle ne se joue.**
 - **`a_trancher` comme cible de `appareil/fragments.py`.** Le registre reçoit
   des fragments qu'aucun assemblage ne reverse.
 - **Un contrôle d'assemblage** qui compte les sections avant et après et refuse

@@ -8,11 +8,17 @@ produit aucune adresse : c'est un fil du projet doctrine.*
 pas l'année suivante : les pièces disparaissent des points d'accès et la lecture
 en creux — amendements, sorts, débats — n'existe plus. Ce fil se joue à chaud.
 
+**Corrigé le 20261001, après deux passes mesurées.** Les deux fils du jour — PLF et
+PLFSS — ont produit des pièces que ce prompt ne nommait pas, ont dû reprendre sa
+grille de relevé, et **ont propagé une consigne périmée** (voir « les bornes »).
+Les corrections sont intégrées et signalées *[corrigé 20261001]*. Ce qui relève du
+fond est à `methode/a_trancher.md`, § B, questions 40 à 44.
+
 ---
 
 ## Ligne de lancement
 
-> Fil Cowork — lecture des textes financiers 2027. Socle : `methode/socle_prompt_fil.md`. Pièces à joindre : le PLF 2027 et le PLFSS 2027 en PDF, **les deux** ; et, si elles sont parues, l'annexe 2 du tome I de l'évaluation des voies et moyens (taxes affectées) et l'annexe 3 du tome II (dépenses fiscales). Activer `methode/prompt_fil_lecture_textes_2027.md`, `livrables/resume_attendu_texte_financier_2026.md`, `livrables/bordereau_confrontation_resume_2026.md`, `livrables/index_mesures_plf.md`, `methode/procedure_contre_plf.md`, `methode/grille_lecture_budgetaire.md`, `referentiels/REF_doctrine.json`, `methode/a_trancher.md` (§ B). Mandat : rendre le résumé attendu du texte financier 2027 dans le gabarit des quatre blocs L1 à L4, **plus l'index des mesures des deux véhicules et les fiches de mesure principale**, par **modification** des gabarits 2026 et non par reconstruction, chaque lot commençant par sa mesure de présence et se sautant proprement si sa pièce manque. Aucune rédaction, aucun amendement, aucune adresse.
+> Fil Cowork — lecture des textes financiers 2027. Socle : `methode/socle_prompt_fil.md`. Pièces à joindre : le PLF 2027 et le PLFSS 2027 en PDF, **les deux** ; et, si elles sont parues, l'annexe 2 du tome I de l'évaluation des voies et moyens (taxes affectées) et l'annexe 3 du tome II (dépenses fiscales). Activer `methode/prompt_fil_lecture_textes_2027.md`, `livrables/resume_attendu_texte_financier_2026.md`, `livrables/bordereau_confrontation_resume_2026.md`, `livrables/index_mesures_plf.md`, `livrables/PLFSS2026_liste.md`, `reference/gabarit_liste_articles.md`, `methode/procedure_contre_plf.md`, `methode/grille_lecture_budgetaire.md`, `referentiels/REF_doctrine.json`, `methode/a_trancher.md` (§ B). Mandat : rendre les **quatre pièces de lecture** d'un véhicule — index des mesures, fiches de mesure principale, liste par article, note lisible — **puis** le résumé attendu du texte financier 2027 dans le gabarit des quatre blocs L1 à L4, par **modification** des gabarits 2026 et non par reconstruction, chaque lot commençant par sa mesure de présence et se sautant proprement si sa pièce manque. Aucune rédaction, aucun amendement, aucune adresse.
 
 ---
 
@@ -20,15 +26,29 @@ en creux — amendements, sorts, débats — n'existe plus. Ce fil se joue à ch
 
 Le millésime 2026 est lu, gelé et confronté. **Il n'est pas un précédent : c'est
 le gabarit.** `livrables/resume_attendu_texte_financier_2026.md` donne les quatre
-blocs et leurs rubriques ; `livrables/bordereau_confrontation_resume_2026.md`
-donne ce qui s'est confronté, ce qui est sorti introuvable et pourquoi.
+blocs ; `livrables/bordereau_confrontation_resume_2026.md` donne ce qui s'est
+confronté et ce qui est sorti introuvable ; `livrables/index_mesures_plf.md` donne
+le gabarit de l'index ; **`reference/gabarit_liste_articles.md` fait foi pour la
+liste par article et son rendu PDF.**
 
 **Le fil 2026 a reconstruit son livrable trois fois de zéro au lieu de le
-modifier.** C'est le premier des quatre mécanismes de faute du corpus, et il a
-coûté sept refabrications. **On modifie, on ne reconstruit pas** : le résumé 2027
-part du gabarit 2026, rubrique par rubrique, et chaque rubrique sort dans un des
-quatre états — *reprise et à jour*, *modifiée*, *sans objet cette année*,
-*suspendue faute de pièce*.
+modifier.** C'est le premier des quatre mécanismes de faute du corpus. **On
+modifie, on ne reconstruit pas** : chaque rubrique sort dans un des quatre états —
+*reprise et à jour*, *modifiée*, *sans objet cette année*, *suspendue faute de
+pièce*.
+
+**Réutilisation avant réinvention vaut aussi entre les deux véhicules du même
+millésime.** *[corrigé 20261001 — les deux fils du jour ont écrit la même pièce
+chacun de son côté, et deux grilles de relevé différentes.]* **Le fil qui lit le
+second véhicule lit d'abord ce que le fil du premier a versé** : ses livrables, son
+fragment d'arbitrages, son fragment `a_trancher`. Il reprend sa grille et ses
+formats, il ne les réinvente pas.
+
+**Et il vérifie l'état du corpus avant de répéter une borne.** *[corrigé 20261001 —
+ce prompt a porté pendant un mois une consigne que le corpus avait démentie, et
+deux fils l'ont recopiée dans leurs livrables.]* **Une borne écrite ici ne se
+recopie pas : elle se vérifie à `methode/arbitrages.md` et au registre avant
+d'être redite.**
 
 ---
 
@@ -47,9 +67,9 @@ dotés.
 
 **L4 — L'écart à nos positions.** Chaque proposition du corpus confrontée au
 texte : le texte va dans notre sens, il va contre, il ne dit rien. **La règle de
-verdict exige un acte du texte sur le siège même que la mesure vise** ; elle a
-été posée au fil 2026 faute d'arbitrage antérieur et n'est toujours pas validée.
-Le fil l'applique telle quelle et le déclare.
+verdict exige un acte du texte sur le siège même que la mesure vise** ; elle a été
+posée au fil 2026 faute d'arbitrage antérieur et n'est toujours pas validée. Le
+fil l'applique telle quelle et le déclare.
 
 ---
 
@@ -61,22 +81,18 @@ Une pièce absente produit une rubrique **suspendue**, nommée, avec ce qui la
 rouvrira — jamais une rubrique vide, jamais un zéro.
 
 **Lot 1 — les deux véhicules.** PLF et PLFSS en PDF. Empreinte sha256 relevée et
-inscrite, compte de pages, compte d'articles. *Le fil 2026 n'avait pas le PDF du
-PLF dans son atelier et a travaillé sur son seul reflux déterministe : toute
-relecture à l'œil côté finances était impossible.* **Si un seul des deux
-manque, le fil traite l'autre en entier et déclare le premier suspendu.**
+inscrite, compte de pages, compte d'articles. **Si un seul des deux manque, le fil
+traite l'autre en entier et déclare le premier suspendu.**
 
 **Lot 2 — L1 et L2.** Ne dépendent que des véhicules. Ils se jouent toujours.
 
 **Lot 3 — L3.a, impositions affectées.** Dépend de l'article du PLF qui porte le
-tableau d'affectation à des tiers, **et** de l'annexe 2 du tome I pour le
-mouvement d'un exercice à l'autre. L'article suffit au stock ; l'annexe seule
-donne le mouvement. **Sans l'annexe : le stock se rend, le mouvement se déclare
-suspendu.**
+tableau d'affectation à des tiers, **et** de l'annexe 2 du tome I pour le mouvement
+d'un exercice à l'autre. **Sans l'annexe : le stock se rend, le mouvement se
+déclare suspendu.**
 
-**Lot 4 — L3.b, dépenses fiscales.** Dépend de l'annexe 3 du tome II.
-**Sans elle, la rubrique entière est suspendue** — et c'est une suspension, pas
-un néant : le texte ne porte pas ces chiffres.
+**Lot 4 — L3.b, dépenses fiscales.** Dépend de l'annexe 3 du tome II. **Sans elle,
+la rubrique entière est suspendue** — et c'est une suspension, pas un néant.
 
 **Lot 5 — L3.c, opérateurs.** Dépend des véhicules pour les créations,
 suppressions et fusions. Le recensement des opérateurs du PLF n'a jamais été
@@ -85,130 +101,159 @@ maille se déclare.
 
 **Lot 6 — L4.** Dépend de `REF_doctrine` et des deux véhicules. Se joue toujours.
 
-**Lot 7 — l'index des mesures, et les fiches de mesure principale.** C'est la
-sortie lisible du fil, celle que les participants du projet ouvrent. Elle ne
-dépend que des véhicules et se joue toujours.
+**Lot 7 — les quatre pièces de lecture.** *[corrigé 20261001 : le prompt n'en
+nommait que deux, et les deux fils du jour ont produit les quatre.]* C'est la
+sortie lisible du fil. Elle ne dépend que des véhicules, **se joue toujours, et se
+rend en premier** : elle est close et versable à elle seule.
 
-- **L'index des mesures**, une ligne par mesure, par article, dans l'ordre du
-  texte. La mesure est **la subdivision la moins profonde sous laquelle un seul
-  siège de droit est modifié** : l'unité d'amendement, non l'unité de vote. Le
-  gabarit existe — `livrables/index_mesures_plf.md`, 410 mesures sur 82 articles
-  pour 2026 — et il se reprend tel quel. **Un siège vide n'est pas une mesure
-  sans objet** : c'est une adresse que la grammaire de relevé n'a pas captée, ou
-  une disposition sans siège — crédits, plafonds, garanties, entrée en vigueur.
-  *Mesure de présence à faire en entrant : le millésime 2026 porte l'index du
-  PLF ; vérifier si le PLFSS en a un, et le produire dans le même gabarit si
-  non.* `appareil/index_mesures.py` est de voie `depot` : si le module n'est pas
-  au clone, le fil rend l'index et livre son paquet de dépôt, il ne renonce pas.
-- **Les fiches de mesure principale.** `methode/procedure_contre_plf.md` les
-  déclare dues et **à industrialiser pour l'analyse du PLF 2027** : une fiche
-  courte et claire par mesure principale — le vrai chiffre, la mécanique de la
-  disposition, ce que l'exposé des motifs en dit et ce qu'il n'en dit pas.
-  **Le chiffre d'abord, et pas celui de l'exposé des motifs** : il se prend à
-  l'état, à l'annexe ou au tableau d'équilibre, et tout écart avec le montant
-  annoncé à l'exposé est un signal qui se relève et ne s'arbitre pas.
+1. **L'index des mesures** — `index_mesures_<véhicule><millésime>.md`. Une ligne
+   par mesure, par article, dans l'ordre du texte. La mesure est **la subdivision
+   la moins profonde sous laquelle un seul siège de droit est modifié**. **Un siège
+   vide n'est pas une mesure sans objet** : c'est une adresse que la grammaire n'a
+   pas captée, ou une disposition sans siège.
+2. **Les fiches de mesure principale** — `fiches_mesures_<véhicule><millésime>.md`.
+   Une fiche courte **par article principal**, lisible par un tiers : le verbe, le
+   vrai chiffre, la mécanique, ce que l'exposé des motifs dit et ce qu'il tait.
+3. **La liste par article** — `<VÉHICULE><millésime>_liste.md` et son PDF.
+   **Gabarit : `reference/gabarit_liste_articles.md`, qui fait foi**, y compris
+   pour l'ordre du chapeau, l'entame des lignes, le balayage des pièges et le rendu.
+4. **La note lisible** — `lecture_<véhicule><millésime>_lisible.md`, pour un lecteur
+   qui n'ouvrira aucune des trois autres.
 
-**Critère par défaut de « mesure principale », tranché ici et révocable par
-l'auteure** : une mesure est principale si elle remplit l'une des trois
-conditions — elle porte un montant propre dans un état, une annexe ou un tableau
-d'équilibre ; elle touche un de nos objets au sens de L3 ; ou son article est
-parmi les plus chargés en adresses ouvertes. Les autres restent à l'index, sans
-fiche.
-
-**Deux relevés mécaniques entrent dans la fiche**, et ils s'appliquent à tous les
-articles, pas aux seuls principaux : les **mots de portée** — peut, dans la
-limite de, à compter de, au titre de, par dérogation, notamment —, chacun ouvrant
-ou fermant quelque chose ; et les **absences attendues** — un taux modifié sans
-que l'assiette bouge, un plafond posé sans indexation, une suppression sans
-transitoire, un dispositif sans évaluation.
-
-**Au lancement, les annexes ne sont pas parues.** Les lots 3 et 4 partent donc
-suspendus. **Ils se rejouent seuls à l'arrivée des annexes, sans toucher au
-reste** : c'est la raison d'être du découpage en lots.
+`appareil/index_mesures.py` est de voie `depot` : si le module n'est pas au clone,
+le fil rend les quatre pièces par une grammaire locale **déclarée avant exécution à
+son fragment d'arbitrages**, et livre son paquet de dépôt. Il ne renonce pas.
 
 ---
 
-## Les pièges mesurés en 2026, et comment on ne les rejoue pas
+## La grille de relevé, et elle ne se réinvente plus
 
-**Un agrégat ne se lit pas, il se rejoue.** Toute valeur dont la pièce est un
-classeur ou une table sort par réapplication, avec sa recette déclarée **avant**.
-Aucune recette ne s'écrit en cours d'exécution pour laisser passer ce qu'on vient
-de trouver. Sans recette, la valeur sort `introuvable` avec son motif.
+*[inscrit le 20261001. Sept règles mesurées par le fil de lecture du PLF 2027,
+chacune imposée par une divergence constatée. Le fil PLFSS a d'abord relevé sans
+elles — 314 mesures, 95 sièges vides — puis repris sa grille : 251 et 68. **Une
+divergence ne se corrige pas au résultat : c'est la grille qu'on reprend.**]*
 
-**Un séparateur de milliers est une seule espace suivie de trois chiffres.** La
-pièce sort de `pdftotext -layout`, où les colonnes sont séparées par plusieurs
-espaces : traiter toute suite d'espaces comme un séparateur colle deux nombres
-en un et fait diverger des dizaines de lignes justes.
+1. **Le repère de page est le folio imprimé, mesuré, jamais le renvoi du
+   sommaire.** *Mesuré au PLF 2027 : écart nul sur 391 pages pour le folio, écart
+   croissant jusqu'à +21 pour le sommaire.*
+2. **La profondeur de découpage d'une mesure est bornée à deux niveaux.**
+3. **Garde d'ordre sur les marqueurs** : un marqueur n'est retenu que si sa valeur
+   excède celle du précédent au même niveau.
+4. **Garde de rang 1** : un bloc ne se découpe que si son premier sous-marqueur est
+   `I`, `A`, `1°` ou `a`.
+5. **`I`, `V` et `X` ne sont pas des marqueurs de second niveau.**
+6. **Les passages entre guillemets sont blanchis avant toute détection de siège, et
+   le blanchiment traverse les lignes.** **Offsets préservés.** *Mesuré au PLF :
+   41 sièges faux.*
+7. **Le contexte de pièce se porte le long de l'article et ne se met à jour que sur
+   une formule de modification.**
 
-**La mise en page est l'information là où la pièce compose un tableau.** Un
-alinéa de tableau garde ses lignes brutes ; l'aplatir en prose perd l'appariement
-recettes / dépenses / solde et oblige à lire à l'œil. Côté PLFSS, les tableaux
-vivent dans les alinéas et non hors-alinéa : ne pas conclure au trou avant
-d'avoir regardé là.
-
-**La géométrie de colonne n'est pas stable**, ni d'une page à l'autre ni à
-l'intérieur d'une page. Une colonne qui ne se découpe pas à bornes fixes se
-déclare **non relevée** ; elle ne se devine pas. En 2026, deux passes de lecture
-sur la même colonne de rendement ont rendu deux valeurs, et aucune n'a été
-retenue — c'est la bonne issue.
-
-**Toute valeur porte son repère** : la pièce, l'article, l'emplacement —
-hors-alinéa, alinéa numéroté, tableau —, la page, le libellé exact de la ligne.
-Une grandeur sans repère ne s'écrit pas. C'est ce qui rend la confrontation
-mécanique possible, et le taux de 2026 l'a prouvée praticable.
-
-**Le format du livrable se réinscrit en tête de chaque passe**, et pas seulement
-au départ : un fil long dérive du format demandé au fil des tours.
+**Ce que cette grille ne fait pas, et qui se déclare** : elle relève les adresses
+**citées**, pas seulement celles que la subdivision modifie. Le tri des portes est
+l'affaire du bloc L2.
 
 ---
 
-## Les deux relevés obligatoires, et ils sont faciles à oublier
+## Le critère de mesure principale
 
-**Les montées en charge.** Sur toute mesure budgétaire ou fiscale : l'entrée en
-vigueur est-elle au 1er janvier, et la trajectoire court-elle au-delà de
-l'exercice ? C'est ce qui décide de ce que la mesure vaut réellement, c'est
-presque toujours masqué, et c'est ce qui intéresse le contribuable. **Relevé
-mécanique obligatoire ; restitution seulement là où c'est significatif** — ne pas
-en truffer le livrable.
+**Il s'applique à la maille de l'article, non de la mesure.** *[corrigé 20261001 :
+appliqué à la mesure, il retenait 206 mesures au PLF. À la maille de l'article :
+54 sur 90 au PLF, 37 sur 49 au PLFSS.]*
 
-**Les entrées en vigueur différées déjà votées.** Le texte 2027 travaille sur le
-droit en vigueur, et c'est ce qui rend la confrontation possible — **à une
-réserve près qui est le point sensible du millésime** : le droit applicable au
-1er janvier 2027 n'est pas le droit en vigueur au dépôt partout où une loi
-antérieure a posé une entrée en vigueur différée. Ces sièges se relèvent à part,
-nommés, et toute confrontation qui les touche porte la mention du décalage.
+Un article est principal s'il porte un montant propre dans un état, une annexe ou
+un tableau d'équilibre ; s'il touche un de nos objets au sens de L3 ; ou s'il est
+parmi les plus chargés en adresses ouvertes. **La sélection est elle-même un relevé
+et se verse avec sa liste de non-retenus.**
+
+**Un montant écrit dans le texte cité du dispositif est un chiffre du texte, pas un
+chiffre de l'exposé.** Les paramètres — taux, plafonds, seuils — se rendent sous le
+nom de « chiffre porté par le dispositif ».
+
+**Au lancement, les annexes ne sont pas parues.** Les lots 3 et 4 partent suspendus
+et **se rejouent seuls à leur arrivée, sans toucher au reste**.
 
 ---
 
-## Les deux bornes que le fil ne franchit pas
+## Les pièges mesurés, et comment on ne les rejoue pas
 
-**La grille des portes du domaine des lois de financement n'est pas relevée.**
-Tant qu'elle manque, **tout verdict côté loi de financement plafonne à
-`plaidable`** et y reste. Le fil ne forge pas un verdict plus fort, et il ne
-relève pas la grille au passage — c'est un chantier de fond à part.
+**Un agrégat ne se lit pas, il se rejoue**, recette déclarée **avant**. Sans
+recette, la valeur sort `introuvable` avec son motif.
+
+**Un séparateur de milliers est une seule espace suivie de trois chiffres.**
+
+**La mise en page est l'information là où la pièce compose un tableau.** Côté
+PLFSS, les tableaux vivent dans les alinéas et non hors-alinéa : ne pas conclure au
+trou avant d'avoir regardé là.
+
+**La géométrie de colonne n'est pas stable.** Une colonne qui ne se découpe pas à
+bornes fixes se déclare **non relevée** ; elle ne se devine pas.
+
+**Toute valeur porte son repère** : pièce, article, emplacement, page, libellé
+exact de la ligne.
+
+**Les intitulés d'article ne sont pas acquis d'un millésime à l'autre.** Le PLFSS
+2026 ne titrait pas ses articles ; **le PLFSS 2027 les titre lui-même**. Le fil
+mesure lequel des deux cas s'applique et le déclare.
+
+**Le format du livrable se réinscrit en tête de chaque passe.**
+
+---
+
+## Les deux relevés obligatoires
+
+**Les montées en charge.** L'entrée en vigueur est-elle au 1er janvier, et la
+trajectoire court-elle au-delà de l'exercice ? **Relevé mécanique obligatoire ;
+restitution seulement là où c'est significatif.** Le relevé intégral reste à
+l'atelier et ne constitue pas une pièce.
+
+**Les entrées en vigueur différées déjà votées.**
+***[corrigé 20261001 — la consigne telle qu'elle était écrite ne peut pas être
+tenue par ce fil.]*** Le relevé se tire du **droit en vigueur**, pas du véhicule, et
+lire le droit en vigueur n'est pas dans ce mandat. **Ce que le fil rend** : les
+entrées différées **internes** au texte qu'il lit. **Ce qu'il ne rend pas** : les
+entrées différées antérieures — toute confrontation qui touche ces sièges porte la
+mention du décalage sans pouvoir le qualifier. Question 40 du § B.
+
+---
+
+## Les bornes que le fil ne franchit pas
+
+***[corrigé 20261001 — la première borne portait un motif faux depuis le
+20260902.]***
+
+**Tout verdict côté loi de financement plafonne à `plaidable`.** *Le motif n'est
+pas que la grille des portes manque : **elle est relevée depuis le 20260902**,
+arbitrage A-336 — 31 portes, 0 échec, en verbatim au dépôt de droit, portée par
+`appareil/portes_domaine_lfss.py` et `reference/domaine_lfss_LO111-3.md`. Le motif
+est l'arbitrage n° 3 de `methode/procedure_contre_plf.md` : **le rattachement se
+plaide par l'implicite budgétaire et le contrefactuel, non par une porte du
+domaine**, et la grille passe au second rang — elle dit ce qui est acquis sans
+plaidoirie, pas ce qu'on tente.* **Le fil ne relève donc pas la grille : elle
+existe.** Il vérifie sa date — un extrait de plus de 45 jours se déclare périmé, et
+celui du 20260902 se périme le **17 octobre 2026**.
 
 **Le rattachement au texte déposé est fabriqué et se déclare comme tel.** La base
-de travail du corpus est le droit en vigueur, jamais le texte en discussion. Ce
-fil lit le texte ; il n'y raccroche aucune de nos mesures.
+de travail du corpus est le droit en vigueur, jamais le texte en discussion.
+
+**Une mesure que les deux textes touchent se déclare à jambe unique** : verdict
+rendu pour le véhicule lu, sans préjuger de l'autre. La jonction est un fil
+distinct.
 
 ---
 
 ## Ce que le fil rend
 
-1. `livrables/resume_attendu_texte_financier_2027.md`, quatre blocs, chaque
+1. **Les quatre pièces de lecture de chaque véhicule** — index, fiches, liste par
+   article, note lisible. *Elles se rendent en premier et sont versables seules.*
+2. `livrables/resume_attendu_texte_financier_2027.md`, quatre blocs, chaque
    rubrique dans un des quatre états.
-2. La table de repères du résumé, extraite **mécaniquement** du livrable, et son
-   relevé de confrontation joué par `appareil/confronter_lecture.py`. *Mesure de
-   présence : si le module n'est pas au clone, le fil rend la table de repères
-   seule, dit que la confrontation n'est pas jouée, et continue.*
-3. Le relevé des entrées en vigueur différées et des montées en charge.
-4. **L'index des mesures des deux véhicules**, au gabarit de
-   `livrables/index_mesures_plf.md`, et les **fiches de mesure principale** —
-   c'est la sortie lisible par les participants du projet, et elle ne se replie
-   pas sur le résumé analytique.
+3. La table de repères du résumé, extraite **mécaniquement**, et son relevé de
+   confrontation joué par `appareil/confronter_lecture.py`. *Si le module n'est pas
+   au clone, le fil rend la table seule, le dit, et continue.*
+4. Le relevé des entrées en vigueur différées internes et des montées en charge.
 5. La liste des rubriques suspendues, avec la pièce qui les rouvrira.
 6. Son fragment de journal, et un fragment d'arbitrages s'il a tranché de la
-   tambouille.
+   tambouille — **dont sa grammaire de relevé, déclarée avant exécution**.
 
 **Ce qu'il ne rend pas** : aucune rédaction, aucun amendement, aucune adresse,
 aucun verdict de recevabilité, aucun chiffre neuf au référentiel des faits.

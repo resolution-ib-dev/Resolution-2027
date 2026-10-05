@@ -5507,6 +5507,45 @@ complémentaires et les départements, et le fait que l'annexe jointe est de la 
 **Reprise due, nommée ici parce que je ne l'ai pas faite.** `PLF2027_liste.md` porte
 encore `liminaire` et subira la même césure à son prochain rendu. Un mot à changer.
 
+## 20261001 — outillage-textes-2027
+
+**Mandat.** Outiller la machine sur les textes 2027 comme elle l'avait été sur
+2026 — produire, au schéma du millésime 2026, ce que la chaîne consomme.
+
+**Ce qui est fait.**
+
+`appareil/socle_texte_2027.py` — le socle des deux véhicules depuis le PDF
+déposé. Une entrée par article : numéro, partie, intitulé, rédaction exacte,
+folio imprimé, exposé des motifs rattaché. **PLF 2027 : 90 articles**, liminaire
+plus 1 à 89, 57 en première partie et 32 en seconde, folios 33 à 268.
+**PLFSS 2027 : 49 articles**, liminaire plus 1 à 48, sur trois parties, folios 1
+à 112. Aucun article sans intitulé, sans dispositif ni sans exposé.
+
+`appareil/portes_ouvertes.py` — le module que l'index déclarait manquant. Il
+rend `referentiels/articles_ouverts_<véhicule>2027.tsv` au schéma de 2026, celui
+qui alimente la colonne `variante` de `REF_norme`. **PLF : 449 adresses,
+56 textes. PLFSS : 191 adresses, 23 textes** — et c'est le premier relevé de
+portes jamais fait côté loi de financement, 2026 compris n'en ayant qu'un pour
+chaque véhicule.
+
+`appareil/pieces_nommees.py` — la table close des pièces, neuve.
+
+**Contrôles joués, tous mécaniques.** Déterminisme du socle et du relevé : deux
+exécutions, même empreinte. Couverture : aucun numéro d'article manquant sur les
+deux véhicules. Jeu de fautes sur le socle — article retiré, dispositif vidé,
+folio cassé : les trois levés. Jeu de justes sur le blanchiment — un siège cité
+entre guillemets n'en ressort pas ; un siège modificatif y survit.
+
+**Ce qui reste ouvert.** Les blocs L1 à L4 ne sont pas joués. Le module
+`controle_socle_plf.py` n'est pas écrit. L'attribution de pièce porte le défaut
+du millésime 2026 et il est déclaré au fragment d'arbitrages du jour. Les deux
+socles pèsent 1,27 Mo et 344 ko : ils restent à l'atelier, le coffre ne reçoit
+que les modules et les deux référentiels.
+
+**Dépôt.** Les trois modules sont de voie `depot` et un fil Cowork ne pousse
+pas : ils attendent une session `claude.ai/code`, avec le paquet de courroies du
+jour qui n'a pas abouti.
+
 ## 20261001 — plan-vehicule
 
 **Mandat.** Deux temps, le second conditionné au premier. Temps 1 : porter au plan sept
@@ -5629,12 +5668,10 @@ aucun moment de l'historique.** Le dépôt ne porte pas et n'a jamais porté le
 coffre lisible : la règle de délestage, qui veut une présence au clone, était
 inapplicable depuis le jour où elle a été écrite.
 
-**`methode/journal.md` était perdu — il a été retrouvé le jour même.** Sorti du
-projet le 20261001 sur cette présence supposée, introuvable au coffre, au dépôt
-et dans tout transcript atteignable. L'auteure en a remis une copie quelques
-heures plus tard : **identique à l'octet**, sha256
-`faad6e948ae0fffe007c3a1f15b7da53954ebb623059b7c47a4684a787a5de1e`, 295 275 o,
-4 875 lignes, les trois concordant avec l'empreinte du 20260930.
+**`methode/journal.md` est perdu.** Sorti du projet le 20261001 sur cette
+présence supposée. Introuvable au coffre, au dépôt et dans tout transcript
+atteignable. Seule reste son empreinte au relevé du 20260930 : sha256
+`faad6e94…`, 295 275 o, 4 875 lignes.
 
 **L'assemblage des arbitrages était destructif.** Cumulatif restauré à
 345 467 o, tête 292 687, queue 52 700 portant 11 sections. Assemblage joué sur
@@ -5674,15 +5711,10 @@ verbatim au-dessus de la ligne de marque, où rien ne les réécrit, puis
 assemblage des 14 fragments. 390 475 o, 79 sections, **0 perdue**, rejeu
 inchangé.
 
-**`methode/journal.md` remis, puis rebâti.** Le contenu d'origine est repris
-verbatim en tête, jamais repassé par le modèle — le préfixe est vérifié
-identique. Dix sections qui n'avaient plus de fragment sont remontées au-dessus
-de la ligne de marque, puis les 13 fragments sont assemblés. 340 155 o, 104
-sections, **0 perdue**, rejeu inchangé.
-
-*La tête provisoire qui portait le constat de la perte a servi : c'est son
-empreinte inscrite qui a permis de reconnaître la copie remise. Elle est
-remplacée par le document lui-même.*
+**`methode/journal.md` rebâti.** Tête neuve portant le constat de la perte et
+l'empreinte du document disparu, pour qu'une copie retrouvée se reconnaisse et
+se remette ; puis assemblage des 13 fragments. 58 995 o, 21 sections, rejeu
+inchangé.
 
 **Socle corrigé.** Trois conditions cumulatives à toute sortie, l'interdiction
 absolue de sortir un fragment, et l'obligation de jouer un assemblage sur copie
@@ -5690,11 +5722,239 @@ jetable en comptant les sections.
 
 ## Ce qui reste ouvert
 
-La poussée de l'archive, bloquée non par un réglage mais par le type de session :
-remesuré deux fois, l'outil `add_repo` que le proxy réclame n'existe pas dans une
-session Cowork rattachée à un projet de chat. Le binaire de
-`input/Note_Retraite_20250619.docx`, que le coffre ne rend qu'en texte. Les deux
-pièces d'appareil dues — la cible `a_trancher` et le contrôle d'assemblage. La
-dette de table curée née après le paquet du 20261001.
+La poussée de l'archive, bloquée sur les sources autorisées du projet. Le
+binaire de `input/Note_Retraite_20250619.docx`, que le coffre ne rend qu'en
+texte. Les deux pièces d'appareil dues — la cible `a_trancher` et le contrôle
+d'assemblage. La dette de table curée née après le paquet du 20261001.
 
-**Fermé dans la journée :** le journal, retrouvé et remis à l'octet.
+## 20261002 — arbitrages-de-forme
+
+**Fil 1 de la carte des dix fils — conversation. Il ne déplie rien, ne joue aucun
+`make`, et n'ouvre aucun référentiel du millésime.**
+
+**Lu en ouverture** : `methode/passation_20261002.md`,
+`methode/contrat_chaine_amendement.md`, `methode/socle_prompt_fil.md`,
+`methode/controle_avant_transmission.md`, `methode/carte_des_chantiers.md`,
+`methode/a_trancher.md`, `methode/arbitrages.md`,
+`livrables/valise_phase1_20261002.md`,
+`reference/cgi_expert_regles_de_lecture.md`, puis
+`reference/gabarit_expose_sommaire.md` sur demande de l'auteure.
+
+**Vérification au registre avant de poser les questions** — application de la
+règle du 20261001. Le registre a été balayé sur les quatre sujets. **Aucun des
+quatre n'y est clos** : les quatre questions du § 6 étaient ouvertes pour de bon.
+
+## Ce qui a changé au corpus
+
+**Quatre arbitrages de forme rendus.** Dates IR et IS : régime mixte par type
+d'avantage. Progressivité de M-026 : trois rangs en cascade, défaut en flux.
+Affectations : le traitement se lit sur le sort du bénéficiaire. **Taxe sur la
+valeur ajoutée : trois états dans la journée, et le troisième vaut** — les 21
+taux réduits restent en phase 1 au 1er juillet 2027, en jambe propre hors clause
+générale, corrélés aux suppressions de taxes sectorielles de même date.
+
+**Trois règles transversales** : un arbitrage se rend en règle et non en liste de
+cas ; une contrepartie se corrèle et ne s'affecte pas ; une question de date se
+pose avec son effet net, jamais comme un calendrier.
+
+**Trois chantiers levés, inscrits, non ouverts** — règle d'entrée en vigueur,
+réservoir d'arguments du livre, croisement taxes supprimées / taux réduits. Le
+§ 5 de la passation passe de trois à six chantiers hors plan.
+
+**Deux fautes nouvelles au § 7** : un rôle du contrat se mesure rempli ou vide ;
+une question posée à nu reçoit une réponse qu'il faut révoquer.
+
+**Une règle de tenue, tranchée par le fil** : la passation ne porte plus le texte
+des arbitrages, seulement leur état et le renvoi au registre. Elle a été
+réécrite trois fois en une heure parce qu'elle dupliquait ce que le fragment
+portait déjà. Le § 6 est désormais un tableau de quatre lignes.
+
+## La mesure qui a produit le chantier du livre
+
+Question de l'auteure : les exposés exploitent peu les idées et les sources du
+livre — y ont-ils accès et indication ?
+
+**Mesuré, et la réponse est non aux deux.** Le projet machine porte le socle, les
+six référentiels du millésime et quatre classeurs. La valise phase 1 remplit le
+rôle « réservoir d'arguments sourcés » avec les onze principes de l'auteure et
+rien d'autre. Aucune note de fin du manuscrit n'a jamais atteint un fil de
+production. **Et la règle ne l'interdit pas** : le gabarit pose que le livre ne
+fait pas source (A-49), et dans la même ligne que ce qui s'affiche est ce que le
+livre cite lui-même.
+
+## Ce qui reste ouvert, et qui n'est pas de ce fil
+
+- Le net en euros par secteur de la corrélation TVA / taxes sectorielles : **non
+  mesurable** avant la parution de l'annexe des dépenses fiscales 2027. Le
+  croisement des périmètres, lui, est calculable aujourd'hui — fil 13.
+- La collision entre la jambe TVA de M-026 et M-029 sur `278` et `278-0 bis` —
+  portée au fil 8.
+- Le critère qui désigne un secteur sensible ou signalé, rangs 2 et 3 de la
+  progressivité.
+- La lecture retenue de « compensation contemporaine molle » et le maintien de la
+  jambe TVA dans M-026 plutôt qu'en treizième mesure : **les deux sont du fil et
+  révocables en une ligne**.
+
+**Les quatre bornes de fond du § 6 ne sont pas touchées.**
+
+**Dette d'appareil, et elle grossit.** `appareil/fragments.py` n'est pas jouable
+depuis Cowork : ce fil **dépose** ses deux fragments et **n'assemble pas**. Le
+§ 11 de la passation porte désormais le dossier des fragments dans ce qu'un fil
+neuf lit en ouverture — faute de quoi il lira un registre amputé de tout ce qui
+a été déposé depuis le 20260917.
+
+## 20261002 — bascule-et-liasse-de-nuit
+
+# Journal — bascule de fil et liasse de nuit (2 octobre 2026)
+
+## La liasse de nuit est arrivée
+
+Douze pièces, PLF 2027 première partie, rédigées le 2 octobre sur le texte initial
+déposé le 1er octobre, droit lu sur l'extrait LEGI du 1er octobre. Toutes portent
+le bandeau « projet de travail — ne pas déposer en l'état » et leur liste de
+reprises, non intégrées.
+
+État déclaré par la liasse : 4 pièces à reprendre (01, 02, 03, 08, 12), 7 à
+vérifier sur précédent. Points communs relevés : ligne « présenté par » vide,
+entrées en vigueur à revoir selon les arbitrages, clause type de restitution
+restée à rédiger, exposés renvoyant à une « phase suivante » — renvoi à supprimer,
+chaque exposé devant se lire seul.
+
+Collisions déclarées : 01, 03 (part impôt sur le revenu) et 04 à 11 sont des
+replis de 02 et ne se cumulent pas avec lui.
+
+## Ce que la clause de lien change pour cette liasse
+
+La clause type manquante est désormais arrêtée (voir l'arbitrage du même jour).
+Reprise à passer sur les douze : remplacer les entrées en vigueur rédigées au jugé
+par la forme G ou H selon la nature de la jambe, et déplacer les renvois croisés
+du dispositif vers l'exposé.
+
+## Bascule de fil
+
+Le fil courant a déjà été compacté une fois. Un fil code tourne encore (entrées
+code de la fonction publique et loi de financement 2026 au référentiel des codes,
+puis extraction des articles). La bascule ne se joue pas avant son retour : son
+résultat doit être intégré par le fil qui l'a lancé.
+
+Ordre arrêté : retour du fil code → intégration → ouverture d'un fil de
+conversation neuf pour le rebasage des douze pièces, avec en entrée la passation
+du 2 octobre, l'ordre des fils, l'arbitrage sur la clause de lien et l'archive de
+la liasse de nuit. Le fil courant ne produit plus de pièce après la bascule.
+
+## 20261002 — mesure-depot
+
+**Mesure rendue par le fil code du 20261002, et deux mesures du fil chef de file.
+Aucun fond produit.**
+
+## Ce que le fil code a mesuré, et pourquoi il s'est arrêté
+
+**Le paquet des courroies est déjà appliqué.** Les trois blocs sont dans le code,
+chacun une fois et à l'identique — 125 lignes dans `ARTEFACTS`, 6 dans
+`COFFRE_DOCUMENT`, 51 dans `IMPLICITES` —, entrés par le commit `f8834f3` du
+20261001 à 11 h 55, déjà dans `origin/main`. Le compte « avant » vaut **363
+artefacts et 361 classés**, et non 315 et 313.
+
+Le fil s'est arrêté à l'étape 1 et n'a rien inséré. **C'est le comportement
+juste** : réappliquer le paquet aurait déclaré les 48 documents en double. Le
+paquet a été mesuré sur `4e6e1a4` et son état de départ est périmé.
+
+**`methode/paquet_depot_courroies_20261001.md` est donc épuisé.** Plus aucun
+paquet n'attend d'application. La dette de voie `depot` est nulle.
+
+**Poussée.** Aucun `403` : l'essai à vide `55cfd14` est passé. Le mandataire git
+n'est plus le verrou — **la poussée depuis une session de code fonctionne**.
+
+**Mesure d'entrée, et c'est la sortie utile du fil.** `chantier/appareil/`
+contient 97 fichiers. **Quatre des cinq modules du millésime 2027 y sont** —
+`socle_texte_2027.py`, `pieces_nommees.py`, `portes_ouvertes.py`,
+`index_mesures_2027.py`. **`redaction_2027.py` est absent.**
+
+*Reste non mesuré, et il le reste faute d'accès : si le `portes_ouvertes.py` du
+dépôt est bien celui corrigé le 20261002, ou l'état antérieur. À confronter au
+prochain passage, par empreinte.*
+
+## Deux mesures du fil chef de file
+
+**Le dépôt n'est pas accessible depuis une session Cowork.** Ni clone, ni API
+REST : « GitHub access to this repository is not enabled for this session ».
+Conséquence qui n'était pas écrite : **un fil Cowork ne peut pas davantage
+mesurer le dépôt qu'y pousser.** Toute mesure du dépôt passe par une session de
+code. Le partage « Cowork mesure et écrit le paquet » vaut pour le coffre, **pas
+pour le dépôt**.
+
+**Ce qui est parti aux tiers au millésime précédent n'était pas la machine.**
+`livrables/paquet_machine.md` porte le paquet du 20260916 : `PASSATION.md`, le
+découpage en 71 énoncés, l'index de vérité-terrain gelé et la valise. Aucun
+module, aucun référentiel de sièges, aucun code — le paquet déclare lui-même que
+le référentiel de sièges est **vide par construction**, parce qu'il servait à
+mesurer un écart.
+
+**Le paquet 2027 est donc un objet neuf, pas une reconduction.** Il porte la
+chaîne elle-même : modules, référentiels du millésime, accès au droit, mode
+d'emploi, mini-lot. Sa spécification est à
+`methode/controle_avant_transmission.md`, et ce document est calibré sur quatre
+modules et quatre référentiels quand le millésime en porte cinq et six.
+
+## 20261002 — organisation-et-deploiement
+
+**Fil chef de file — conversation. Il ne produit aucun fond.**
+
+## La mesure d'entrée, et elle a invalidé le mandat que j'allais écrire
+
+Avant d'écrire la ligne de lancement du fil code, recherche au corpus sur les
+paquets de dépôt. **Trois bornes que je portais sont périmées.**
+
+**`appareil/fragments.py` est au clone depuis le 20260930.** L'assemblage des
+fragments se fait depuis Cowork et n'attend **aucune** session de code. La limite
+du 20260917 a été levée le 20261001, mesurée levée, et écrite levée au journal.
+**Je l'ai pourtant recopiée trois fois dans la journée**, dont une fois au § 8 de
+la passation en la qualifiant de « dette qui coûte le plus cher ». Deuxième
+occurrence du mécanisme en deux jours.
+
+**La dette des six paquets de dépôt antérieurs est nulle.** Les 99 chemins que
+l'index déclare au dépôt y sont tous. Ces paquets ne sont plus des documents du
+projet. La section « Dette d'appareil » d'`a_trancher` est périmée sur ce point.
+J'allais en nommer cinq dans une ligne de lancement.
+
+**`methode/controle_avant_transmission.md` est calibré sur quatre modules et
+quatre référentiels.** Le millésime 2027 en porte cinq et six.
+
+**Règle qui en sort, et c'est la contre-mesure qui manquait** : *une borne se
+vérifie par une recherche au corpus sur le nom de la pièce, jamais par la
+relecture du document qui la porte.* Un document de méthode ne sait pas qu'il
+est périmé ; la pièce, elle, est datée.
+
+## Ce qui a changé au corpus
+
+**Trois décisions de l'auteure, portées à
+`methode/fragments/arbitrages/20261002-organisation-et-deploiement.md`.**
+
+L'ordre des fils passe au fil chef de file — **révocation de la règle « l'ordre
+des lots est de l'auteur »**, portée deux fois à `a_trancher` et au socle. Le
+fond, l'input et l'output restent à l'auteure.
+
+Le livre devient le réservoir d'arguments de fond, avec la distinction qui
+manquait : **il fait argument, ses notes font citation**. A-49 intact. Quatre
+bornes d'emploi, et un contrôle négatif : aucun exposé ne reprend un argument mot
+à mot.
+
+La remise en cohérence devient **récurrente** — une passe après chaque paire de
+fils de rédaction, plus une seule à la fin.
+
+**Pièce neuve : `methode/ordre_des_fils.md`**, qui porte les deux chantiers
+parallèles, leurs dépendances et les trois boucles. Le § 10 de la passation n'y
+renvoie plus que par une ligne — il ne porte plus la table.
+
+**`methode/passation_20261002.md` repris** : § 2, 5, 6, 7, 8, 9, 10 et 11. Le
+§ 8 est réécrit entier, les bornes périmées retirées et l'état réel substitué.
+
+## Ce qui reste ouvert
+
+- Lesquels des cinq modules du millésime 2027 sont effectivement au dépôt :
+  **non mesuré**, et c'est la mesure d'entrée du fil code. L'index déclare
+  `portes_ouvertes.py` manquant ; la passation le dit corrigé hors dépôt. Tant
+  que ce n'est pas tranché par la mesure, **la passe 1 de la transmission n'est
+  pas jouable**.
+- L'assemblage des fragments — fil Cowork, en tête de l'ordre, sans dépendance.
+- Les quatre bornes de fond de la phase 1, inchangées.
