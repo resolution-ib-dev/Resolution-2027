@@ -3,21 +3,27 @@
 
 Une porte ouverte est un couple (texte, article) que la disposition du véhicule
 modifie elle-même. L'exposé des motifs n'en ouvre aucune : il est de l'indice,
-jamais de la porte (A-229).
+jamais de la porte.
 
 Grammaire de relevé — les sept règles du millésime 2027 :
  1. le repère de page est le folio imprimé, porté par le socle ;
- 2-5. le découpage en mesures est l'affaire de l'index, pas de ce relevé ;
+ 2-5. la répartition en mesures est l'affaire de l'index, pas de ce relevé ;
  6. les passages entre guillemets sont blanchis avant toute détection de siège,
     le blanchiment traverse les lignes et les offsets sont préservés ;
  7. le contexte de pièce se porte le long de l'article et ne se met à jour que
     sur une formule de modification.
 
-Sortie au schéma de `referentiels/articles_ouverts_<vehicule>.tsv` (millésime
-2026), qui alimente la colonne `variante` de REF_norme.
+Sortie : `articles_ouverts_<vehicule><millesime>.tsv`, une ligne par couple
+(texte, article) ouvert.
 """
 import json, re, sys
 import pieces_nommees
+
+# --- numéros d'alinéa du texte enregistré -----------------------------------
+# « (12) » en tête de ligne au PLF, un glyphe de police privée au PLFSS. Blanchis
+# à longueur égale, les offsets restent justes ; sans quoi « (20) » suivant le
+# nom d'un code se lisait comme un article. Sans effet sur un autre tirage.
+ALINEA = re.compile(r"(?m)^[ \t]*(?:\(\d+\)|[\ue000-\uf8ff]+)(?=[ \t])")
 
 # --- règle 6 : blanchiment des passages cités -------------------------------
 PAIRES = [("«", "»"), ("“", "”")]
@@ -64,6 +70,12 @@ SUITE = re.compile(
     r"(?P<a>[LRD]\.?\s?\d+(?:[\-‑]\d+)*(?:\s(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies|undecies|duodecies|terdecies|quaterdecies|quindecies|sexdecies|septdecies))?)"
     r"(?![\w\-])")
 
+INSERTION = re.compile(
+    r"(?:après|avant|au même|du même|à la fin du|mentionnés? (?:à|au)|"
+    r"mentionnées? (?:à|au)|prévus? (?:à|au)|prévues? (?:à|au)|"
+    r"défini(?:e|s|es)? (?:à|au)|visés? (?:à|au)|dans les conditions prévues (?:à|au))"
+    r"\s+(?:l[’']|le |la |les )?(?:articles?|art\.)?\s*$", re.I)
+
 MODIF = re.compile(
     r"est ainsi modifié|sont ainsi modifié|est ainsi rédigé|sont ainsi rédigé"
     r"|est abrogé|sont abrogé|est remplacé|sont remplacé|il est inséré|sont insérés"
@@ -79,13 +91,24 @@ def normalise(a):
 def portes(socle):
     lignes = {}
     for art in socle["articles"]:
-        d = blanchir(art["dispositif"])
+        d = blanchir(ALINEA.sub(lambda m: " " * len(m.group(0)), art["dispositif"]))
+        # Le texte enregistré coupe les noms de pièce et les tournures « de la loi »
+        # en fin de ligne. Une fois les citations blanchies, les blancs se
+        # ramènent à un seul : les positions ne servent qu'à ordonner, entre elles.
+        d = re.sub(r"\s+", " ", d)
         if not MODIF.search(d):
             continue
         pieces = pieces_nommees.trouver(d)
         adrs = []
         for m in ADRESSE.finditer(d):
-            adrs.append((m.start(), normalise(m.group("a"))))
+            # Règle ajoutée le 20261002. Un article cité comme POINT D'INSERTION
+            # — « après l'article X, il est inséré… », « mentionné à l'article X »
+            # — n'est pas modifié : il sert de repère. L'ancienne règle le
+            # comptait ouvert, et deux sièges faux ont voyagé jusqu'à la
+            # rédaction.
+            if INSERTION.search(d[max(0, m.start() - 60):m.start()]):
+                continue
+            adrs.append((m.start(), normalise(m.group("a")), m.end()))
             # énumération : « les articles L. 1, L. 2 et L. 3 » — les suivants
             # n'ont pas de mot « article » devant eux et seraient perdus.
             q = m.end()
@@ -93,17 +116,27 @@ def portes(socle):
                 s = SUITE.match(d, q)
                 if not s:
                     break
-                adrs.append((s.start("a"), normalise(s.group("a"))))
+                adrs.append((s.start("a"), normalise(s.group("a")), s.end("a")))
                 q = s.end()
         # règle 7 — le contexte de pièce se porte le long de l'article. La pièce
         # d'une adresse est celle que la même phrase nomme après elle (« l'article
         # L. 1 du code X »), à défaut la dernière pièce déclarée avant elle.
-        for pos, a in adrs:
+        for pos, a, fin_adr in adrs:
+            # Règle corrigée le 20261002. La pièce d'une adresse est celle que la
+            # tournure « l'article X DU code Y » accole immédiatement après elle.
+            # L'ancienne règle prenait la pièce suivante dans la phrase, si loin
+            # fût-elle : « L. 136-8 du code de la sécurité sociale » sortait sous
+            # le code général des impôts dès que la phrase le nommait plus loin.
+            # Le 20261005 : « de » et « la » peuvent être séparés par un retour à
+            # la ligne (texte enregistré).
+            accolee = next((n for s, e, n in pieces
+                            if fin_adr <= s <= fin_adr + 40
+                            and re.match(r"\s*(?:du|de\s+la|de\s+l[’'])\s*$", d[fin_adr:s])), None)
             fin_phrase = d.find(".", pos)
             fin_phrase = len(d) if fin_phrase < 0 else fin_phrase
             suivante = next((n for s, e, n in pieces if pos < s < fin_phrase), None)
             precedente = next((n for s, e, n in reversed(pieces) if s < pos), None)
-            contexte = suivante or precedente or "indéterminé"
+            contexte = accolee or precedente or suivante or "indéterminé"
             cle = (contexte, a)
             e = lignes.setdefault(cle, {"articles": set(), "pages": set()})
             e["articles"].add(art["numero"])
@@ -119,11 +152,11 @@ def rendre(socle, vehicule, millesime, dest):
     textes = {c[0] for c in cles}
     with open(dest, "w", encoding="utf-8") as f:
         f.write(f"# ARTICLES OUVERTS PAR LE TEXTE DÉPOSÉ — {vehicule.upper()} {millesime}\n")
-        f.write("# Alimente la colonne `variante` de REF_norme : `article_ouvert` sur les\n"
-                "# vecteurs dont le couple (texte, article) figure ici, `absolu` ailleurs.\n"
-                "# Jointure sur le libellé exact, jamais au plus proche (A-94).\n"
+        f.write("# Un vecteur dont le couple (texte, article) figure ici est `article_ouvert`,\n"
+                "# `absolu` ailleurs.\n"
+                "# Jointure sur le libellé exact, jamais au plus proche.\n"
                 "# Ouvert = modifié par la disposition, jamais cité. L'exposé des motifs ne\n"
-                "# compte pas : il est de l'indice, pas de la norme (A-229).\n")
+                "# compte pas : il est de l'indice, pas de la norme.\n")
         f.write(f"# pièce : sha256 {socle['pdf_sha256']}\n")
         f.write(f"# {len(cles)} adresses · {len(textes)} textes · relevé au folio imprimé\n")
         f.write(f"# colonnes : texte<TAB>article<TAB>subdivision<TAB>fourchette"

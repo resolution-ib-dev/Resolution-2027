@@ -2,396 +2,402 @@
 # Se joint à l'index de lecture par la colonne `mesure`.
 # Les cinq relevés sont calculés sur le texte entier de la mesure : un
 # comptage fait ici est un total, jamais un plancher.
-# pièce : sha256 71010873c0af8a776436e3c22628d3a1dc048ea406632afa2107dc83be7c598d
+# pièce : sha256 47f5fc0d1581c90634449516281070495b92cfe062c20c2a366919622906eab6
 # colonnes : mesure<TAB>article<TAB>partie<TAB>folio<TAB>sieges<TAB>renvoi_reglementaire<TAB>entree_en_vigueur<TAB>mots_de_portee<TAB>borne_temporelle<TAB>siege_abroge<TAB>caracteres
 #
-liminaire.1	liminaire		1						non	465
-1.1	1	première partie	3				au titre de		non	50
-1.1°	1	première partie	3						non	1046
-1.2°	1	première partie	3						non	113
-1.3°	1	première partie	3						non	145
-2.1	2	première partie	4				au titre de		non	1408
-3.1	3	première partie	4	106					non	193
-4.I	4	deuxième partie	5	L. 123-10 ; L. 213-1 ; L. 723-3	par arrêté			jusqu’au	non	885
-4.I.1°	4	deuxième partie	5	L. 133-5-3 ; L. 711-1					non	435
-4.I.2°	4	deuxième partie	5	L. 382-1					non	79
-4.I.3°	4	deuxième partie	5	L. 611-1					non	88
-4.I.4°	4	deuxième partie	5	L. 722-4					non	124
-4.I.5°	4	deuxième partie	5	L. 5551-1					non	344
-4.B	4	deuxième partie	5	L. 8211-1					non	840
-4.C	4	deuxième partie	5				peuvent		non	334
-4.D	4	deuxième partie	5				le cas échéant		non	193
-4.E	4	deuxième partie	5				le cas échéant ; peuvent		non	627
-4.II	4	deuxième partie	5	L. 241-13	décret fixe ; par décret			entre le 1er juillet et le	non	1539
-4.III	4	deuxième partie	5	L. 123-10				entre le 1er juillet et le	non	665
-4.III.1°	4	deuxième partie	5	L. 611-1 ; L. 613-7					non	181
-4.III.2°	4	deuxième partie	5	L. 722-4 ; L. 731-23					non	201
-4.III.3°	4	deuxième partie	5	L. 382-1					non	97
-4.III.4°	4	deuxième partie	5	L. 5551-1	décret fixe ; par décret		au titre de		non	444
-4.B	4	deuxième partie	5	L. 613-7	décret fixe ; par décret		au plus ; au titre de ; peuvent	au plus tard le	non	998
-4.IV	4	deuxième partie	5	L. 8211-1			peut		non	325
-4.V	4	deuxième partie	5	107					non	718
-4.VI	4	deuxième partie	5	L. 131-7			par dérogation		non	172
-4.VII	4	deuxième partie	5	L. 241-20 ; L. 241-21			au titre de ; dans la limite de		non	1598
-4.B	4	deuxième partie	5			1er  janvier 2027			non	83
-4.VIII	4	deuxième partie	5	29					non	113
-4.VIII.1°	4	deuxième partie	5						non	192
-4.VIII.2°	4	deuxième partie	5						non	223
-4.VIII.3°	4	deuxième partie	5						non	194
-5.1	5	deuxième partie	10	20		1er  janvier 2027			oui	317
-6.I	6	deuxième partie	10						non	64
-6.I.1°	6	deuxième partie	10	L. 136-1-1			au titre de ; dans la limite de ; le cas échéant		non	965
-6.I.2°	6	deuxième partie	10	L. 137-12					non	220
-6.I.3°	6	deuxième partie	10	L. 137-15					oui	53
-6.I.4°	6	deuxième partie	10	L. 242-1					oui	75
-6.II	6	deuxième partie	10			1er  janvier 2027	au titre de		non	144
-7.I	7	deuxième partie	12						non	56
-7.A	7	deuxième partie	12	L. 137-15			au titre de ; par dérogation		non	2826
-7.B	7	deuxième partie	12	L. 241-3-3					oui	40
-7.C	7	deuxième partie	12	L. 241-13					non	31
-7.C.1°	7	deuxième partie	12						non	29
-7.C.a	7	deuxième partie	12				le cas échéant		oui	253
-7.C.b	7	deuxième partie	12		par décret		le cas échéant		non	620
-7.C.2°	7	deuxième partie	12						non	30
-7.C.a	7	deuxième partie	12						non	138
-7.C.b	7	deuxième partie	12				le cas échéant		non	413
-7.C.c	7	deuxième partie	12		par décret				non	403
-7.C.d	7	deuxième partie	12				le cas échéant		non	396
-7.C.3°	7	deuxième partie	12						non	92
-7.C.4°	7	deuxième partie	12						non	93
-7.C.5°	7	deuxième partie	12						non	189
-7.D	7	deuxième partie	12	L. 241-17					non	266
-7.E	7	deuxième partie	12	241-18-1 ; L. 241-18					non	69
-7.E.1°	7	deuxième partie	12						non	64
-7.E.2°	7	deuxième partie	12						non	134
-7.E.3°	7	deuxième partie	12				au titre de		non	234
-7.F	7	deuxième partie	12	L. 241-18					non	153
-7.G	7	deuxième partie	12	5 ; L. 242-1	par décret		au titre de		non	680
-7.A	7	deuxième partie	12					jusqu’au	oui	97
-7.B	7	deuxième partie	12	1					oui	433
-7.IV	7	deuxième partie	12			1er  janvier 2027	à compter de		non	178
-8.I	8	deuxième partie	16	L. 1613 ter					non	65
-8.I.1°	8	deuxième partie	16						non	36
-8.I.2°	8	deuxième partie	16						non	693
-8.I.3°	8	deuxième partie	16						non	125
-8.I.4°	8	deuxième partie	16						non	1478
-8.I.5°	8	deuxième partie	16						non	23
-8.I.a	8	deuxième partie	16						non	134
-8.I.b	8	deuxième partie	16						non	119
-8.I.6°	8	deuxième partie	16						non	133
-8.II	8	deuxième partie	16	L. 1613 quater					non	56
-8.II.1°	8	deuxième partie	16						non	36
-8.II.2°	8	deuxième partie	16						non	401
-8.II.3°	8	deuxième partie	16						non	37
-8.II.a	8	deuxième partie	16						non	118
-8.II.b	8	deuxième partie	16						non	92
-8.II.c	8	deuxième partie	16						non	92
-8.II.d	8	deuxième partie	16				le cas échéant		non	899
-8.II.4°	8	deuxième partie	16						non	96
-8.II.5°	8	deuxième partie	16						non	118
-8.III	8	deuxième partie	16			1er  janvier 2027			non	71
-9.I	9	deuxième partie	20						non	63
-9.I.1°	9	deuxième partie	20	L. 138-20					non	143
-9.I.2°	9	deuxième partie	20	L. 165-5-1	dans des conditions fixées par décret		notamment ; peut		non	1720
-9.I.3°	9	deuxième partie	20						non	96
-9.I.1°	9	deuxième partie	20	L. 245 ; L. 245-5-1					non	339
-9.I.2°	9	deuxième partie	20	L. 245 ; L. 245-5-6	par décret		au plus ; au titre de		non	3910
-9.II	9	deuxième partie	20	L. 245-5-7			au titre de		non	166
-10.I	10	deuxième partie	23				notamment		non	1344
-10.1°	10	deuxième partie	23		par arrêté		notamment ; peut		non	2456
-10.II	10	deuxième partie	23						non	66
-10.II.1°	10	deuxième partie	23	L. 138-9-1					non	36
-10.II.a	10	deuxième partie	23						non	542
-10.II.b	10	deuxième partie	23	L. 138-9-1 ; L. 138-9-2					non	1192
-10.II.2°	10	deuxième partie	23	74 ; L. 138-20 ; L. 138-9-2 ; L. 162-17 ; L. 200-2 ; L. 213-1 ; L. 243-7-1			au plus ; au titre de ; le cas échéant ; notamment ; peut ; sans préjudice	au plus tard le	non	6620
-10.II.3°	10	deuxième partie	23	L. 138-20					non	126
-10.III	10	deuxième partie	23	L. 138-17 ; L. 138-9-2 ; L. 162-16-1 ; L. 5125-42		1er  janvier 2027	au plus ; au titre de ; par dérogation	au plus tard le	non	920
-11.I	11	deuxième partie	28	28					non	229
-11.II	11	deuxième partie	28	L. 138-10					non	146
-11.III	11	deuxième partie	28	L. 245-6					non	201
-11.IV	11	deuxième partie	28	L. 138-19-8					non	146
-12.1	12	deuxième partie	29	13			au titre de		non	291
-12.1°	12	deuxième partie	29						non	187
-12.2°	12	deuxième partie	29						non	192
-12.3°	12	deuxième partie	29				au plus		non	204
-13.I	13	deuxième partie	30	L. 3332-1					non	321
-13.II	13	deuxième partie	30						non	65
-13.II.1°	13	deuxième partie	30	L. 223-11					non	35
-13.II.a	13	deuxième partie	30						non	58
-13.II.b	13	deuxième partie	30				au titre de		non	154
-13.II.c	13	deuxième partie	30						non	380
-13.II.d	13	deuxième partie	30						non	60
-13.II.2°	13	deuxième partie	30	L. 223-12					non	35
-13.II.a	13	deuxième partie	30						non	58
-13.II.b	13	deuxième partie	30				au titre de		non	153
-13.II.c	13	deuxième partie	30						non	384
-13.II.d	13	deuxième partie	30						non	60
-13.II.3°	13	deuxième partie	30	L. 223-8					oui	59
-13.II.4°	13	deuxième partie	30	L. 241-6-2					non	154
-13.III	13	deuxième partie	30	L. 131-8 ; L. 136-8 ; L. 223-8					non	795
-13.IV	13	deuxième partie	30				au titre de		non	233
-13.IV.1°	13	deuxième partie	30	L. 223-11					non	7307
-13.IV.2°	13	deuxième partie	30	L. 223-12					non	7802
-13.V	13	deuxième partie	30	L. 114-1 ; L. 136-1					non	431
-13.VI	13	deuxième partie	30	L. 225-1	par arrêté				non	233
-14.I	14	deuxième partie	38						non	63
-14.I.1°	14	deuxième partie	38	L. 131-8					non	34
-14.I.a	14	deuxième partie	38						non	391
-14.I.b	14	deuxième partie	38						non	488
-14.I.c	14	deuxième partie	38				au titre de		non	693
-14.I.d	14	deuxième partie	38						non	109
-14.I.2°	14	deuxième partie	38	L. 223-1					non	34
-14.I.a	14	deuxième partie	38						non	281
-14.I.b	14	deuxième partie	38						non	114
-14.I.c	14	deuxième partie	38						non	149
-14.I.3°	14	deuxième partie	38	L. 225-1-3					non	118
-14.I.4°	14	deuxième partie	38	L. 225-1-4					non	36
-14.I.a	14	deuxième partie	38						non	82
-14.I.b	14	deuxième partie	38						non	290
-14.II	14	deuxième partie	38						non	72
-14.II.1°	14	deuxième partie	38	L. 723-11					non	35
-14.II.a	14	deuxième partie	38		par décret				oui	490
-14.II.b	14	deuxième partie	38						non	108
-14.II.c	14	deuxième partie	38				par dérogation		non	554
-14.II.2°	14	deuxième partie	38	L. 725-3					non	42
-14.II.a	14	deuxième partie	38						oui	30
-14.II.b	14	deuxième partie	38				par dérogation	jusqu’au	non	476
-14.II.5°	14	deuxième partie	38	L. 225-1-1					non	63
-14.III	14	deuxième partie	38	7					non	376
-14.III.1°	14	deuxième partie	38						non	205
-14.III.2°	14	deuxième partie	38		par décret		peut		non	387
-14.IV	14	deuxième partie	38	49					non	201
-14.V	14	deuxième partie	38	18					non	744
-14.B	14	deuxième partie	38		par arrêté				non	433
-14.VII	14	deuxième partie	38			1er  janvier 2026			non	78
-15.1	15	deuxième partie	42						non	292
-16.1	16	deuxième partie	42						non	979
-17.I	17	deuxième partie	44						non	162
-17.II	17	deuxième partie	44						non	411
-18.I	18	deuxième partie	45						non	1108
-18.II	18	deuxième partie	45						non	91
-18.II.1°	18	deuxième partie	45	L. 139-3					oui	93
-18.II.2°	18	deuxième partie	45	L. 139-5					oui	71
-19.1	19	deuxième partie	47						non	309
-20.1	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48						non	161
-20.I	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48						non	128
-20.I.1°	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48	L. 732-4					non	155
-20.I.2°	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48	L. 752-5-2 ; L. 752-5-3	par décret		par dérogation ; peuvent		non	1382
-20.II	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48	L. 1111-15					non	245
-20.III	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48						non	66
-20.III.1°	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48	L. 162-5	par décret		par dérogation ; peuvent		non	1654
-20.III.3°	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48	L. 433-1					non	208
-20.III.4°	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48	L. 622-1					non	124
-20.IV	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48	L. 4622-8-1					non	319
-20.V	20	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	48			1er  juillet 2027			non	86
-21.I	21	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	51						non	61
-21.I.1°	21	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	51	L. 1434-4					non	35
-21.I.a	21	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	51						non	339
-21.I.b	21	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	51						non	153
-21.I.2°	21	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	51				peuvent		non	1092
-21.II	21	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	51	L. 162-14-1 ; L. 162-5 ; L. 162-5-14-1 ; L. 4136-1					non	1648
-21.II.1°	21	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	51	L. 1434-4			notamment ; peuvent		non	1228
-22.1	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53						non	59
-22.I	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53	L. 160-13	par un arrêté		peut		non	873
-22.II	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53	L. 162-32-1			notamment ; par dérogation ; peuvent		non	1204
-22.III	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53		par arrêté		peuvent		non	1984
-22.IV	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53	L. 861-3					non	204
-22.V	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53	L. 871-1					non	36
-22.V.1°	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53						non	217
-22.V.2°	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53						non	212
-22.VI	22	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	53	L. 911-7					non	165
-23.1	23	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	57						non	116
-23.1°	23	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	57	L. 4081-1					non	358
-23.2°	23	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	57	L. 4081-4					non	211
-24.1	24	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	58	40					non	503
-25.1	25	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	60	L. 6111-1 ; L. 6111-1-7			peuvent		non	1174
-26.I	26	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	62	4					non	234
-26.II	26	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	62	L. 5 ; L. 827-3 ; L. 862-4 ; L. 871-1	par décret			jusqu'à la date	non	739
-27.I	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63						non	61
-27.I.1°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 3111-1					non	51
-27.I.a	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63						non	95
-27.I.b	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63						non	360
-27.I.2°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 3111-4					non	35
-27.I.a	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63				le cas échéant		non	368
-27.I.b	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63				le cas échéant ; notamment		non	569
-27.I.3°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	55 ; L. 3111-11					non	124
-27.I.a	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63				le cas échéant ; par dérogation ; peuvent		non	1265
-27.I.b	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63		par décret				oui	90
-27.I.4°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 4211-4					non	289
-27.II	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63						non	65
-27.II.1°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63		par arrêté		peuvent		non	822
-27.II.2°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-16-6			au titre de ; peut ; peuvent	entre le prix de vente aux établissements et le ; entre le tarif de responsabilité et le	non	2590
-27.II.3°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-16-6					non	168
-27.II.4°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 138-10					non	359
-27.II.5°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-5-17					non	150
-27.II.6°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-16-5-1-1					non	285
-27.II.7°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-16-5-1-2					non	41
-27.II.a	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63						non	147
-27.II.b	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63						non	136
-27.II.c	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63						non	156
-27.II.8°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-17-5					non	171
-27.II.9°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-18					non	155
-27.II.10°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-18-1					non	172
-27.II.11°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-19-2					non	133
-27.II.12°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-20-1					non	142
-27.II.13°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-22-3-1					non	151
-27.II.14°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 162-38-4					non	226
-27.II.15°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	55 ; L. 174-16			le cas échéant ; peuvent		non	691
-27.II.16°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 245-6					non	253
-27.II.17°	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 753-4					non	155
-27.III	27	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	63	L. 314-8			peuvent		non	1037
-28.I	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68						non	103
-28.I.1°	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68	L. 162-17-4			le cas échéant		non	301
-28.I.2°	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68	L. 162-17-10 ; L. 162-17-11	par décret		au titre de ; notamment ; peut ; peuvent		non	3089
-28.II	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68						non	63
-28.II.1°	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68	L. 5121-1					non	283
-28.II.2°	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68	L. 5123-8					non	35
-28.II.a	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68						non	76
-28.II.b	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68				peut		non	360
-28.II.3°	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68	L. 5132-10	par décret				non	1074
-28.II.4°	28	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	68	L. 6316-1			peut		non	647
-29.I	29	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	71						non	61
-29.I.1°	29	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	71	L. 1411-8	par décret		peuvent		non	488
-29.I.2°	29	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	71	L. 6122-7			notamment		non	204
-29.II	29	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	71	L. 162-14-1			peuvent		non	574
-30.I	30	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	73	L. 161-37	par décret		notamment ; peut ; à compter de		non	1839
-30.II	30	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	73	L. 5132-7 ; L. 5132-7-1			notamment ; peut ; peuvent		non	1810
-31.I	31	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	76	L. 162-5-14-2 ; L. 162-5-14-3			par dérogation		non	641
-31.II	31	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	76	L. 162-1-7 ; L. 162-5-14-3			peut		non	649
-32.I	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78						non	141
-32.I.1°	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78	L. 161-33					non	35
-32.I.a	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78						non	524
-32.I.b	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78				peut ; sans préjudice		non	847
-32.I.2°	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78	L. 161-34					non	35
-32.I.a	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78						oui	165
-32.I.b	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78						non	198
-32.I.c	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78						oui	60
-32.I.3°	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78	L. 161-35					non	655
-32.I.4°	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78	L. 161-35-1 ; L. 161-35-2	dans des conditions fixées par décret ; par arrêté		le cas échéant ; peut		non	2124
-32.I.5°	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78	L. 161-36-3					non	77
-32.I.a	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78						non	85
-32.I.b	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78						non	178
-32.I.6°	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78	L. 161-36-3 ; L. 161-36-3-1	par décret		peuvent		non	944
-32.II	32	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	78		par décret		au plus	au plus tard le	non	193
-33.I	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	118
-33.I.1°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4021-1					non	378
-33.I.2°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4021-3					non	35
-33.I.a	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						oui	149
-33.I.b	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	125
-33.I.3°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4021-5					oui	246
-33.I.4°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4021-6					non	35
-33.I.a	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81				peut		oui	946
-33.I.b	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81				peut		non	745
-33.I.c	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	365
-33.I.d	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81				notamment		non	336
-33.I.5°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4021-6 ; L. 4021-6-1			peut		non	1105
-33.I.6°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4021-7					non	35
-33.I.a	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	164
-33.I.b	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	256
-33.I.7°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4021-8					non	349
-33.I.8°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						oui	70
-33.I.9°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4022-8					oui	152
-33.I.10°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81				le cas échéant		non	1745
-33.I.11°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 4135-1					non	124
-33.II	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	64
-33.II.1°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 161-37					non	356
-33.II.2°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 161-41					non	129
-33.II.3°	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	L. 161-45					non	42
-33.II.a	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	88
-33.II.b	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	80
-33.II.c	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	247
-33.III	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	879					non	738
-33.IV	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81						non	772
-33.V	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81				notamment		non	743
-33.VI	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81		un décret en conseil d’état précise				non	668
-33.VII	33	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	81	3	par décret		au plus ; à compter de	au plus tard le ; jusqu’au	oui	494
-34.I	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	88
-34.I.1°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 12					non	196
-34.I.2°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 16	par décret				non	294
-34.I.3°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 18					non	235
-34.I.4°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 18 ; L. 18 bis	par décret		peut		non	1270
-34.I.5°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 24					non	417
-34.I.6°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 30 ter					non	36
-34.I.a	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	131
-34.I.b	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	94
-34.I.7°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 38					non	374
-34.I.8°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 89					non	31
-34.I.a	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	211
-34.I.b	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	176
-34.II	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	72
-34.II.1°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	87 ; L. 732-38					non	303
-34.II.2°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 781-29		1er  janvier 2027 ; 1er  juillet 2027	par dérogation		non	695
-34.III	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	66
-34.III.1°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 173-1-5 ; L. 173-1-6	par décret				non	613
-34.III.2°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 342-4					non	34
-34.III.a	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87		par décret				non	224
-34.III.b	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						oui	44
-34.III.3°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 351-12					non	35
-34.III.a	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	236
-34.III.b	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						oui	62
-34.III.4°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 353-1	par décret				non	367
-34.III.5°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 353-3					non	284
-34.III.6°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 357-10					non	55
-34.III.a	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87		par décret				non	329
-34.III.b	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						oui	44
-34.IV	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	57
-34.IV.1°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 5552-20	par décret				non	273
-34.IV.2°	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	L. 5552-22	par décret		peut		non	1109
-34.V	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87	87			par dérogation	entre le 1er juillet et le	non	421
-34.VI	34	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	87						non	121
-35.I	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91	L. 161-23-1			par dérogation		non	321
-35.II	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91	L. 355-1					non	457
-35.II.a	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91	L. 161-23-1					non	195
-35.II.b	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91	L. 161-23-1	par décret				non	360
-35.III	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91		par décret		peuvent ; sans préjudice		non	535
-35.III.a	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91		le décret prévoit				non	426
-35.III.b	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91		le décret prévoit		au plus		non	379
-35.III.c	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91	L. 161-23-1			au plus ; au titre de ; peut	au plus tard le	non	1114
-35.IV	35	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	91		un décret précise		au titre de		non	342
-36.1	36	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	94						non	85
-36.I	36	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	94	L. 732-12-3 ; L. 732-12-4	par décret ; un décret détermine		au titre de ; notamment ; peut ; peuvent		non	3686
-36.II	36	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	94	L. 223-1					non	270
-36.III	36	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	94		par décret				non	135
-37.I	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97	L. 512-2					non	66
-37.I.1°	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	50
-37.I.a	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	83
-37.I.b	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	145
-37.I.2°	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	569
-37.I.3°	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	365
-37.I.4°	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	119
-37.I.5°	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	106
-37.I.6°	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	49
-37.I.a	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	106
-37.I.b	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	204
-37.II	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97						non	259
-37.II.a	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97	2					non	94
-37.II.b	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97	8					non	116
-37.III	37	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	97		par décret		au plus	au plus tard le	non	149
-38.1	38	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	99	79 ; 82					non	318
-39.1	39	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	100	L. 314-2-3-1	un décret fixe		peut ; peuvent		non	1392
-40.I	40	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	102	40					non	332
-40.II	40	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	102	L. 1432-6 ; L. 200-2			au titre de		non	421
-41.I	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 1142-23					non	337
-41.II	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 1413-1					non	262
-41.III	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 1418-1					non	248
-41.IV	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 5311-1					non	296
-41.V	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 161-37					non	252
-41.VI	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 1111-24					non	277
-41.VII	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 1222-8					non	254
-41.VIII	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 756-2-1					non	260
-41.IX	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 6113-10-2					non	312
-41.X	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	4					non	318
-41.XI	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 453-5					non	256
-41.XII	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	L. 4021-6					non	346
-41.XIII	41	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	103	43	par arrêté		peuvent		non	644
-42.1	42	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	105						non	208
-43.1	43	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	106						non	1238
-44.1	44	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	106						non	84
-44.I	44	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	106						non	266
-44.II	44	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	106						non	291
-44.III	44	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	106	L. 176-1					non	152
-44.IV	44	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	106	L. 242-5 ; L. 351-1-4 ; L. 4163					non	516
-45.1	45	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	109						non	216
-46.1	46	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	110						non	178
-47.1	47	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	111						non	129
-48.1	48	troisieme partie dispositions relatives aux depenses pour l'exercice 2027	112						non	131
+liminaire.1	liminaire		2						non	575
+1.1	1	première partie	3				au titre de		non	43
+1.1°	1	première partie	3						non	1058
+1.2°	1	première partie	3						non	112
+1.3°	1	première partie	3						non	141
+2.1	2	première partie	4				au titre de		non	1698
+3.1	3	première partie	5	106					non	270
+4.1	4	deuxième partie	5						non	66
+4.I	4	deuxième partie	5	L. 123-10 ; L. 213-1 ; L. 723-3	par arrêté			jusqu’au	non	970
+4.I.1°	4	deuxième partie	5	L. 133-5-3 ; L. 711-1					non	447
+4.I.2°	4	deuxième partie	5	L. 382-1					non	72
+4.I.3°	4	deuxième partie	5	L. 611-1					non	85
+4.I.4°	4	deuxième partie	5	L. 722-4					non	120
+4.I.5°	4	deuxième partie	5	L. 5551-1					non	340
+4.B	4	deuxième partie	5	L. 8211-1					non	910
+4.C	4	deuxième partie	5				peuvent		non	348
+4.D	4	deuxième partie	5				le cas échéant		non	196
+4.E	4	deuxième partie	5				le cas échéant ; peuvent		non	652
+4.II	4	deuxième partie	5	L. 241-13	décret fixe ; par décret			entre le 1er juillet et le	non	1662
+4.III	4	deuxième partie	5	L. 123-10					non	697
+4.III.1°	4	deuxième partie	5	L. 611-1 ; L. 613-7					non	180
+4.III.2°	4	deuxième partie	5	L. 722-4 ; L. 731-23					non	203
+4.III.3°	4	deuxième partie	5	L. 382-1					non	95
+4.III.4°	4	deuxième partie	5	L. 5551-1	décret fixe ; par décret		au titre de		non	453
+4.B	4	deuxième partie	5	L. 613-7	décret fixe ; par décret		au plus ; au titre de ; peuvent		non	1090
+4.IV	4	deuxième partie	5	L. 8211-1			peut		non	337
+4.V	4	deuxième partie	5	107					non	760
+4.VI	4	deuxième partie	5	L. 131-7			par dérogation		non	175
+4.VII	4	deuxième partie	5	L. 241-20 ; L. 241-21	par décret		au titre de ; dans la limite de		non	1703
+4.B	4	deuxième partie	5						non	115
+4.VIII	4	deuxième partie	5	29					non	111
+4.VIII.1°	4	deuxième partie	5						non	195
+4.VIII.2°	4	deuxième partie	5						non	234
+4.VIII.3°	4	deuxième partie	5						non	197
+5.1	5	deuxième partie	12	20		1er  janvier 2027			non	316
+6.I	6	deuxième partie	13						non	56
+6.I.1°	6	deuxième partie	13	L. 136-1-1			dans la limite de		non	987
+6.I.2°	6	deuxième partie	13	L. 137-12					non	218
+6.I.3°	6	deuxième partie	13	L. 137-15					oui	46
+6.I.4°	6	deuxième partie	13	L. 242-1					oui	116
+6.II	6	deuxième partie	13			1er  janvier 2027			non	143
+7.I	7	deuxième partie	15						non	56
+7.A	7	deuxième partie	15	L. 137-15			au titre de ; par dérogation		non	3040
+7.B	7	deuxième partie	15	L. 241-3-3					oui	39
+7.C	7	deuxième partie	15	L. 241-13					non	30
+7.C.1°	7	deuxième partie	15						non	30
+7.C.a	7	deuxième partie	15				le cas échéant		oui	269
+7.C.b	7	deuxième partie	15		par décret	1er  janvier 2024	au titre de ; le cas échéant		non	656
+7.C.2°	7	deuxième partie	15						non	31
+7.C.a	7	deuxième partie	15						non	194
+7.C.b	7	deuxième partie	15				le cas échéant		non	441
+7.C.c	7	deuxième partie	15		par décret				non	429
+7.C.d	7	deuxième partie	15				le cas échéant		non	422
+7.C.3°	7	deuxième partie	15						non	98
+7.C.4°	7	deuxième partie	15						non	99
+7.C.5°	7	deuxième partie	15						non	200
+7.D	7	deuxième partie	15	L. 241-17					non	277
+7.E	7	deuxième partie	15	241-18-1 ; L. 241-18					non	68
+7.E.1°	7	deuxième partie	15						non	65
+7.E.2°	7	deuxième partie	15						non	189
+7.E.3°	7	deuxième partie	15				au titre de		non	248
+7.F	7	deuxième partie	15	L. 241-18					non	183
+7.G	7	deuxième partie	15	L. 242-1	par décret		au titre de		non	621
+7.II	7	deuxième partie	15	5					non	103
+7.A	7	deuxième partie	15					jusqu’au	oui	133
+7.B	7	deuxième partie	15						oui	150
+7.III	7	deuxième partie	15	1					oui	304
+7.IV	7	deuxième partie	15			1er  janvier 2027	à compter de		non	188
+8.I	8	deuxième partie	19	L. 1613 ter					non	58
+8.I.1°	8	deuxième partie	19						non	29
+8.I.2°	8	deuxième partie	19						non	772
+8.I.3°	8	deuxième partie	19						non	123
+8.I.4°	8	deuxième partie	19						non	1461
+8.I.5°	8	deuxième partie	19						non	16
+8.I.a	8	deuxième partie	19						non	131
+8.I.b	8	deuxième partie	19						non	117
+8.I.6°	8	deuxième partie	19						non	131
+8.II	8	deuxième partie	19	L. 1613 quater					non	49
+8.II.1°	8	deuxième partie	19						non	29
+8.II.2°	8	deuxième partie	19						non	412
+8.II.3°	8	deuxième partie	19						non	30
+8.II.a	8	deuxième partie	19						non	116
+8.II.b	8	deuxième partie	19						non	90
+8.II.c	8	deuxième partie	19						non	90
+8.II.d	8	deuxième partie	19				le cas échéant		non	967
+8.II.4°	8	deuxième partie	19						non	94
+8.II.5°	8	deuxième partie	19						non	116
+8.III	8	deuxième partie	19			1er  janvier 2027			non	64
+9.I	9	deuxième partie	24						non	56
+9.I.1°	9	deuxième partie	24	L. 138-20					non	141
+9.I.2°	9	deuxième partie	24	L. 165-5-1	dans des conditions fixées par décret ; un décret en conseil d’état précise		notamment ; peut		non	1744
+9.I.3°	9	deuxième partie	24						non	144
+9.I.1°	9	deuxième partie	24	L. 245-5-1					non	353
+9.I.2°	9	deuxième partie	24	L. 245-5-6 ; L. 245-5-7	par décret		au plus ; au titre de ; le cas échéant	au plus tard le	non	3940
+9.II	9	deuxième partie	24	L. 245-5-7					non	217
+10.I	10	deuxième partie	27		par arrêté		notamment ; peut		non	3979
+10.II	10	deuxième partie	27						non	58
+10.II.1°	10	deuxième partie	27	L. 138-9-1					non	29
+10.II.a	10	deuxième partie	27						non	569
+10.II.b	10	deuxième partie	27	L. 138-9-1 ; L. 138-9-2	par arrêté				non	1279
+10.II.2°	10	deuxième partie	27	74 ; L. 138-20 ; L. 138-9-2 ; L. 162-17 ; L. 200-2 ; L. 213-1 ; L. 243-7-1			au plus ; au titre de ; notamment ; peut ; sans préjudice	au plus tard le	non	6920
+10.II.3°	10	deuxième partie	27	L. 138-20					non	124
+10.III	10	deuxième partie	27	L. 138-17 ; L. 138-9-2 ; L. 162-16-1 ; L. 5125-42			au plus ; au titre de ; par dérogation	au plus tard le	non	947
+11.I	11	deuxième partie	34	28					non	233
+11.II	11	deuxième partie	34	L. 138-10					non	142
+11.III	11	deuxième partie	34	L. 245-6					non	249
+11.IV	11	deuxième partie	34	L. 138-19-8					non	144
+12.1	12	deuxième partie	35	13					non	377
+12.1°	12	deuxième partie	35						non	190
+12.2°	12	deuxième partie	35						non	193
+12.3°	12	deuxième partie	35				au plus		non	204
+13.I	13	deuxième partie	37	L. 3332-1					non	322
+13.II	13	deuxième partie	37						non	58
+13.II.1°	13	deuxième partie	37	L. 223-11					non	28
+13.II.a	13	deuxième partie	37						non	51
+13.II.b	13	deuxième partie	37				au titre de		non	151
+13.II.c	13	deuxième partie	37						non	380
+13.II.d	13	deuxième partie	37						non	53
+13.II.2°	13	deuxième partie	37	L. 223-12					non	28
+13.II.a	13	deuxième partie	37						non	51
+13.II.b	13	deuxième partie	37				au titre de		non	150
+13.II.c	13	deuxième partie	37						non	384
+13.II.d	13	deuxième partie	37						non	53
+13.II.3°	13	deuxième partie	37	L. 223-8					oui	102
+13.II.4°	13	deuxième partie	37	L. 241-6-2					non	154
+13.III	13	deuxième partie	37	L. 131-8 ; L. 136-8 ; L. 223-8			à compter de		non	833
+13.IV	13	deuxième partie	37				au titre de		non	236
+13.IV.1°	13	deuxième partie	37	L. 223-11					non	5898
+13.IV.2°	13	deuxième partie	37	L. 223-12					non	5764
+13.V	13	deuxième partie	37	L. 114-1 ; L. 136-1					non	499
+13.VI	13	deuxième partie	37	L. 225-1	par arrêté				non	243
+14.I	14	deuxième partie	45						non	56
+14.I.1°	14	deuxième partie	45	L. 131-8					non	27
+14.I.a	14	deuxième partie	45						non	426
+14.I.b	14	deuxième partie	45						non	474
+14.I.c	14	deuxième partie	45				au titre de		non	680
+14.I.d	14	deuxième partie	45						non	74
+14.I.3°	14	deuxième partie	45						non	33
+14.I.2°	14	deuxième partie	45	L. 223-1					non	27
+14.I.a	14	deuxième partie	45						non	286
+14.I.b	14	deuxième partie	45						non	160
+14.I.c	14	deuxième partie	45						non	149
+14.I.3°	14	deuxième partie	45	L. 225-1-3					non	116
+14.I.4°	14	deuxième partie	45	L. 225-1-4					non	29
+14.I.a	14	deuxième partie	45						non	75
+14.I.b	14	deuxième partie	45						non	298
+14.II	14	deuxième partie	45						non	65
+14.II.1°	14	deuxième partie	45	L. 723-11					non	28
+14.II.a	14	deuxième partie	45		par décret en conseil d’état				oui	512
+14.II.b	14	deuxième partie	45						oui	106
+14.II.c	14	deuxième partie	45		par arrêté		par dérogation		non	569
+14.II.2°	14	deuxième partie	45	L. 725-3					non	35
+14.II.a	14	deuxième partie	45						oui	23
+14.II.b	14	deuxième partie	45		par arrêté	1er  janvier 2027	par dérogation	jusqu’au	non	597
+14.III	14	deuxième partie	45	7					non	387
+14.III.1°	14	deuxième partie	45						non	207
+14.III.2°	14	deuxième partie	45		par décret		peut		non	391
+14.IV	14	deuxième partie	45	49					non	204
+14.V	14	deuxième partie	45	18					non	363
+14.VI	14	deuxième partie	45	18					non	461
+14.B	14	deuxième partie	45		par arrêté				non	452
+14.VII	14	deuxième partie	45			1er  janvier 2026			non	69
+15.1	15	deuxième partie	50						non	358
+16.1	16	deuxième partie	51						non	1014
+17.I	17	deuxième partie	52						non	229
+17.II	17	deuxième partie	52						non	490
+18.I	18	deuxième partie	53						non	1298
+18.II	18	deuxième partie	53						non	91
+18.II.1°	18	deuxième partie	53	L. 139-3					non	90
+18.II.2°	18	deuxième partie	53	L. 139-5					oui	64
+19.1	19	deuxième partie	56						non	306
+20.1	20	troisième partie	56						non	250
+20.I	20	troisième partie	56						non	125
+20.I.1°	20	troisième partie	56	L. 732-4					non	155
+20.I.2°	20	troisième partie	56	L. 752-5-2 ; L. 752-5-3	par décret en conseil d’état		par dérogation ; peuvent		non	1438
+20.II	20	troisième partie	56	L. 1111-15					non	240
+20.III	20	troisième partie	56						non	59
+20.III.1°	20	troisième partie	56	L. 162-5 ; L. 323-4-2 ; L. 752-5-3					non	344
+20.III.2°	20	troisième partie	56	L. 323-4-1 ; L. 323-4-2	par décret en conseil d’état		par dérogation ; peuvent		non	1412
+20.III.3°	20	troisième partie	56	L. 433-1					non	211
+20.III.4°	20	troisième partie	56	L. 622-1					non	122
+20.IV	20	troisième partie	56	L. 4622-8-1					non	319
+20.V	20	troisième partie	56						non	136
+21.1	21	troisième partie	60						non	73
+21.I	21	troisième partie	60						non	55
+21.I.1°	21	troisième partie	60	L. 1434-4					non	28
+21.I.a	21	troisième partie	60						non	350
+21.I.b	21	troisième partie	60						non	151
+21.I.2°	21	troisième partie	60				peuvent		non	1097
+21.II	21	troisième partie	60	L. 162-5-14-1			notamment ; peuvent		non	3046
+22.1	22	troisième partie	62						non	125
+22.I	22	troisième partie	62	L. 160-13	par un arrêté		peut		non	953
+22.II	22	troisième partie	62	L. 162-32-1			notamment ; par dérogation ; peuvent		non	1249
+22.III	22	troisième partie	62		par arrêté		peuvent		non	2037
+22.IV	22	troisième partie	62	L. 861-3					non	197
+22.V	22	troisième partie	62	L. 871-1					non	29
+22.V.1°	22	troisième partie	62						non	207
+22.V.2°	22	troisième partie	62						non	213
+22.VI	22	troisième partie	62	L. 911-7					non	212
+23.1	23	troisième partie	67						non	187
+23.1°	23	troisième partie	67	L. 4081-1					non	366
+23.2°	23	troisième partie	67	L. 4081-4					non	211
+24.1	24	troisième partie	67	40					non	572
+25.1	25	troisième partie	69	L. 6111-1-7 ; L. 6111-1-8			peuvent		non	1222
+26.I	26	troisième partie	71	4					non	246
+26.II	26	troisième partie	71	L. 5 ; L. 827-3 ; L. 862-4 ; L. 871-1	par décret	1er  janvier 2027		jusqu’à la date	non	775
+27.I	27	troisième partie	72						non	54
+27.I.1°	27	troisième partie	72	L. 3111-1					non	44
+27.I.a	27	troisième partie	72						non	92
+27.I.b	27	troisième partie	72						non	359
+27.I.2°	27	troisième partie	72	L. 3111-4					non	28
+27.I.a	27	troisième partie	72				le cas échéant		non	376
+27.I.b	27	troisième partie	72		par arrêté		le cas échéant ; notamment		non	589
+27.I.3°	27	troisième partie	72	55 ; L. 3111-11					non	171
+27.I.a	27	troisième partie	72				le cas échéant ; par dérogation ; peuvent		non	1319
+27.I.b	27	troisième partie	72		par décret				non	88
+27.I.4°	27	troisième partie	72	L. 4211-4					non	297
+27.II	27	troisième partie	72						non	58
+27.II.1°	27	troisième partie	72		par arrêté		peuvent		non	923
+27.II.2°	27	troisième partie	72	L. 162-16-6	l’arrêté conjoint		au titre de ; peut ; peuvent	entre le tarif de responsabilité et le	non	2725
+27.II.3°	27	troisième partie	72	L. 162-16-6					non	170
+27.II.4°	27	troisième partie	72	L. 138-10		1er  janvier 2027			non	370
+27.II.5°	27	troisième partie	72	L. 162-5-17					non	147
+27.II.6°	27	troisième partie	72	L. 162-16-5-1-1					non	293
+27.II.7°	27	troisième partie	72	L. 162-16-5-1-2					non	34
+27.II.a	27	troisième partie	72						non	144
+27.II.b	27	troisième partie	72						non	134
+27.II.c	27	troisième partie	72						non	152
+27.II.8°	27	troisième partie	72	L. 162-17-5					non	173
+27.II.9°	27	troisième partie	72	L. 162-18					non	154
+27.II.10°	27	troisième partie	72	L. 162-18-1					non	175
+27.II.11°	27	troisième partie	72	L. 162-19-2					non	179
+27.II.12°	27	troisième partie	72	L. 162-20-1					non	142
+27.II.13°	27	troisième partie	72	L. 162-22-3-1					non	149
+27.II.14°	27	troisième partie	72	L. 162-38-4					non	227
+27.II.15°	27	troisième partie	72	55 ; L. 174-16			le cas échéant ; par dérogation ; peuvent		non	728
+27.II.16°	27	troisième partie	72	L. 245-6					non	259
+27.II.17°	27	troisième partie	72	L. 753-4					non	154
+27.III	27	troisième partie	72	L. 314-8			peuvent		non	1127
+28.I	28	troisième partie	78						non	100
+28.I.1°	28	troisième partie	78	L. 162-17-4			le cas échéant		non	294
+28.I.2°	28	troisième partie	78	L. 162-17-10 ; L. 162-17-11			au titre de ; notamment ; peut ; peuvent		non	3243
+28.II	28	troisième partie	78						non	56
+28.II.1°	28	troisième partie	78	L. 5121-1					non	279
+28.II.2°	28	troisième partie	78	L. 5123-8					non	28
+28.II.a	28	troisième partie	78						non	119
+28.II.b	28	troisième partie	78				peut		non	374
+28.II.3°	28	troisième partie	78	L. 5132-10					non	1105
+28.II.4°	28	troisième partie	78	L. 6316-1			peut		non	670
+29.I	29	troisième partie	81						non	54
+29.I.1°	29	troisième partie	81	L. 1411-8	par décret		peuvent		non	546
+29.I.2°	29	troisième partie	81	L. 6122-7			notamment		non	205
+29.II	29	troisième partie	81	L. 162-14-1			peuvent		non	586
+30.1	30	troisième partie	84						non	76
+30.I	30	troisième partie	84	L. 161-37	dans des conditions définies par décret ; par décret		notamment ; peut ; à compter de		non	1932
+30.II	30	troisième partie	84	L. 5132-7 ; L. 5132-7-1			notamment ; peut ; peuvent		non	1972
+31.I	31	troisième partie	87	L. 162-5-14-2 ; L. 162-5-14-3	par arrêté		par dérogation		non	653
+31.II	31	troisième partie	87	L. 162-1-7 ; L. 162-5-14-3			par dérogation ; peut		non	673
+32.I	32	troisième partie	88						non	137
+32.I.1°	32	troisième partie	88	L. 161-33					non	28
+32.I.a	32	troisième partie	88						non	564
+32.I.b	32	troisième partie	88				peut ; sans préjudice		non	882
+32.I.2°	32	troisième partie	88	L. 161-34					non	28
+32.I.a	32	troisième partie	88						non	168
+32.I.b	32	troisième partie	88						non	201
+32.I.c	32	troisième partie	88						oui	53
+32.I.3°	32	troisième partie	88	L. 161-35					non	687
+32.I.4°	32	troisième partie	88	L. 161-35-1 ; L. 161-35-2	par arrêté ; par décret		le cas échéant ; peut		non	2246
+32.I.5°	32	troisième partie	88	L. 161-36-3					non	70
+32.I.a	32	troisième partie	88						non	78
+32.I.b	32	troisième partie	88						non	181
+32.I.6°	32	troisième partie	88	L. 161-36-3 ; L. 161-36-3-1	dans des conditions fixées par décret		peuvent ; à compter de		non	1007
+32.II	32	troisième partie	88		par décret		au plus		non	195
+33.1	33	troisième partie	92						non	73
+33.I	33	troisième partie	92						non	116
+33.I.1°	33	troisième partie	92	L. 4021-1					non	384
+33.I.2°	33	troisième partie	92	L. 4021-3					non	28
+33.I.a	33	troisième partie	92						oui	145
+33.I.b	33	troisième partie	92						non	123
+33.I.3°	33	troisième partie	92	L. 4021-5					oui	304
+33.I.4°	33	troisième partie	92	L. 4021-6					non	28
+33.I.a	33	troisième partie	92				peut		oui	959
+33.I.b	33	troisième partie	92				peut		non	769
+33.I.c	33	troisième partie	92						non	420
+33.I.d	33	troisième partie	92		un décret en conseil d’état précise		notamment		non	338
+33.I.5°	33	troisième partie	92	L. 4021-6 ; L. 4021-6-1			peut		non	1127
+33.I.6°	33	troisième partie	92	L. 4021-7					non	28
+33.I.a	33	troisième partie	92						non	168
+33.I.b	33	troisième partie	92						non	252
+33.I.7°	33	troisième partie	92	L. 4021-8					non	412
+33.I.8°	33	troisième partie	92						oui	63
+33.I.9°	33	troisième partie	92	L. 4022-8					oui	148
+33.I.10°	33	troisième partie	92		un décret en conseil d’état précise		le cas échéant		non	1742
+33.I.11°	33	troisième partie	92	L. 4135-1					non	122
+33.II	33	troisième partie	92						non	57
+33.II.1°	33	troisième partie	92	L. 161-37					non	357
+33.II.2°	33	troisième partie	92	L. 161-41					non	127
+33.II.3°	33	troisième partie	92	L. 161-45					non	35
+33.II.a	33	troisième partie	92						non	85
+33.II.b	33	troisième partie	92						non	73
+33.II.c	33	troisième partie	92						non	254
+33.III	33	troisième partie	92	879					non	774
+33.IV	33	troisième partie	92					jusqu’au	non	866
+33.V	33	troisième partie	92				notamment		non	784
+33.VI	33	troisième partie	92						non	700
+33.VII	33	troisième partie	92	3	par décret		au plus ; à compter de	au plus tard le ; jusqu’au	oui	549
+34.I	34	troisième partie	99						non	85
+34.I.1°	34	troisième partie	99	L. 12					non	198
+34.I.2°	34	troisième partie	99	L. 16	par décret				non	288
+34.I.3°	34	troisième partie	99	L. 18					non	229
+34.I.4°	34	troisième partie	99	L. 18 ; L. 18 bis	par décret en conseil d’état		peut		non	1353
+34.I.5°	34	troisième partie	99	L. 24					non	435
+34.I.6°	34	troisième partie	99	L. 30 ter					non	28
+34.I.a	34	troisième partie	99						non	125
+34.I.b	34	troisième partie	99						non	92
+34.I.7°	34	troisième partie	99	L. 38					non	374
+34.I.8°	34	troisième partie	99	L. 89					non	24
+34.I.a	34	troisième partie	99						non	212
+34.I.b	34	troisième partie	99						non	178
+34.II	34	troisième partie	99						non	65
+34.II.1°	34	troisième partie	99	87 ; L. 732-38					non	362
+34.II.2°	34	troisième partie	99	L. 781-29		1er  janvier 2027 ; 1er  juillet 2027	par dérogation		non	702
+34.III	34	troisième partie	99						non	59
+34.III.1°	34	troisième partie	99	L. 173-1-5 ; L. 173-1-6	par décret ; par décret en conseil d’état				non	613
+34.III.2°	34	troisième partie	99	L. 342-4					non	27
+34.III.a	34	troisième partie	99		par décret				non	225
+34.III.b	34	troisième partie	99						oui	37
+34.III.3°	34	troisième partie	99	L. 351-12					non	28
+34.III.a	34	troisième partie	99						non	294
+34.III.b	34	troisième partie	99						oui	57
+34.III.4°	34	troisième partie	99	L. 353-1	par décret				non	378
+34.III.5°	34	troisième partie	99	L. 353-3					non	292
+34.III.6°	34	troisième partie	99	L. 357-10					non	48
+34.III.a	34	troisième partie	99		par décret				non	340
+34.III.b	34	troisième partie	99						oui	37
+34.IV	34	troisième partie	99						non	50
+34.IV.1°	34	troisième partie	99	L. 5552-20	par décret				non	269
+34.IV.2°	34	troisième partie	99	L. 5552-22	par décret en conseil d’état		peut		non	1176
+34.V	34	troisième partie	99	87			par dérogation		non	430
+34.VI	34	troisième partie	99			1er  juillet 2027			non	118
+35.I	35	troisième partie	104	L. 161-23-1			par dérogation		non	330
+35.II	35	troisième partie	104	L. 355-1					non	472
+35.II.a	35	troisième partie	104	L. 161-23-1					non	196
+35.II.b	35	troisième partie	104	L. 161-23-1	par décret				non	369
+35.III	35	troisième partie	104		par décret		peuvent ; sans préjudice		non	595
+35.III.a	35	troisième partie	104		le décret prévoit				non	445
+35.III.b	35	troisième partie	104				au plus		non	391
+35.III.c	35	troisième partie	104	L. 161-23-1			au plus ; au titre de ; peut	au plus tard le	non	1152
+35.IV	35	troisième partie	104		un décret précise		au titre de		non	353
+36.1	36	troisième partie	108						non	128
+36.I	36	troisième partie	108	L. 732-12-3 ; L. 732-12-4	par décret ; un décret détermine		au titre de ; notamment ; peut ; peuvent		non	3813
+36.II	36	troisième partie	108	L. 223-1					non	317
+36.III	36	troisième partie	108		par décret		au plus	au plus tard le	non	132
+37.I	37	troisième partie	111	L. 512-2					non	59
+37.I.1°	37	troisième partie	111						non	43
+37.I.a	37	troisième partie	111						non	76
+37.I.b	37	troisième partie	111						non	143
+37.I.2°	37	troisième partie	111						non	586
+37.I.3°	37	troisième partie	111						non	376
+37.I.4°	37	troisième partie	111						non	116
+37.I.5°	37	troisième partie	111						oui	104
+37.I.6°	37	troisième partie	111						non	42
+37.I.a	37	troisième partie	111						non	155
+37.I.b	37	troisième partie	111						non	209
+37.II	37	troisième partie	111						non	267
+37.II.a	37	troisième partie	111	2					non	92
+37.II.b	37	troisième partie	111	8					non	112
+37.III	37	troisième partie	111		par décret		au plus	au plus tard le	non	147
+38.1	38	troisième partie	113	79 ; 82					non	315
+39.1	39	troisième partie	114	L. 314-2-3-1	un décret fixe		peut ; peuvent		non	1414
+40.I	40	troisième partie	116	40					non	340
+40.II	40	troisième partie	116	L. 1432-6 ; L. 200-2			au titre de		non	434
+41.I	41	troisième partie	117	L. 1142-23					non	346
+41.II	41	troisième partie	117	L. 1413-1					non	266
+41.III	41	troisième partie	117	L. 1418-1					non	253
+41.IV	41	troisième partie	117	L. 5311-1					non	303
+41.V	41	troisième partie	117	L. 161-37					non	256
+41.VI	41	troisième partie	117	L. 1111-24					non	282
+41.VII	41	troisième partie	117	L. 1222-8					non	259
+41.VIII	41	troisième partie	117	L. 756-2-1					non	315
+41.IX	41	troisième partie	117	L. 6113-10-2					non	327
+41.X	41	troisième partie	117	4					non	347
+41.XI	41	troisième partie	117	L. 453-5					non	264
+41.XII	41	troisième partie	117	L. 4021-6					non	356
+41.XIII	41	troisième partie	117	43	par arrêté		peuvent		non	676
+42.1	42	troisième partie	119						non	279
+43.1	43	troisième partie	120						non	1691
+44.1	44	troisième partie	121						non	129
+44.I	44	troisième partie	121						non	270
+44.II	44	troisième partie	121						non	295
+44.III	44	troisième partie	121	L. 176-1					non	148
+44.IV	44	troisième partie	121	L. 242-5 ; L. 351-1-4 ; L. 4163-1					non	528
+45.1	45	troisième partie	123						non	214
+46.1	46	troisième partie	124						non	176
+47.1	47	troisième partie	124						non	125
+48.1	48	troisième partie	124						non	127

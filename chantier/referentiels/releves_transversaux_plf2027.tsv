@@ -2,995 +2,1019 @@
 # Se joint à l'index de lecture par la colonne `mesure`.
 # Les cinq relevés sont calculés sur le texte entier de la mesure : un
 # comptage fait ici est un total, jamais un plancher.
-# pièce : sha256 b0b802d3cafb313435e9afa16b2760f367a614a758a3f717bcbd58b94944cb54
+# pièce : sha256 132274b83bed4861a9e1a147d0d16abda2d729cdad2373ef804e26747c43d881
 # colonnes : mesure<TAB>article<TAB>partie<TAB>folio<TAB>sieges<TAB>renvoi_reglementaire<TAB>entree_en_vigueur<TAB>mots_de_portee<TAB>borne_temporelle<TAB>siege_abroge<TAB>caracteres
 #
-liminaire.1	liminaire		33						non	5842
-1.1	1	première partie	36						non	163
-2.I	2	première partie	37						non	52
-2.A	2	première partie	37	72 A bis					oui	36
-2.B	2	première partie	37	80 duodecies					non	48
-2.B.1°	2	première partie	37						non	10
-2.B.a	2	première partie	37						oui	74
-2.B.b	2	première partie	37				par dérogation		non	315
-2.B.c	2	première partie	37						oui	205
-2.B.d	2	première partie	37						oui	184
-2.B.e	2	première partie	37						oui	513
-2.B.2°	2	première partie	37						oui	71
-2.C	2	première partie	37	80 quinquies					non	510
-2.D	2	première partie	37	81					oui	174
-2.E	2	première partie	37	154 bis A					non	343
-2.E.4°	2	première partie	37	L. 160-14					non	179
-2.F	2	première partie	37	156 ; 158					non	226
-2.G	2	première partie	37	196 B					non	131
-2.H	2	première partie	37	197					non	29
-2.H.1°	2	première partie	37						non	10
-2.H.a	2	première partie	37						non	101
-2.H.b	2	première partie	37						non	126
-2.H.c	2	première partie	37						non	132
-2.H.d	2	première partie	37						non	112
-2.H.2°	2	première partie	37						non	10
-2.H.a	2	première partie	37						non	91
-2.H.b	2	première partie	37						non	123
-2.H.c	2	première partie	37						non	102
-2.H.d	2	première partie	37						non	120
-2.H.e	2	première partie	37						non	112
-2.H.3°	2	première partie	37						non	148
-2.I	2	première partie	37	204 H					non	25
-2.I.1°	2	première partie	37						non	169
-2.I.2°	2	première partie	37						non	17
-2.I.a	2	première partie	37						non	2097
-2.I.b	2	première partie	37						non	2148
-2.I.c	2	première partie	37	1417					non	2522
-2.II	2	première partie	37	L. 136-8					oui	201
-2.III	2	première partie	37	81 ; L. 3261-3 ; L. 3261-3-1			dans la limite de ; par dérogation		non	672
-2.B	2	première partie	37	L. 3261-3					non	239
-2.IV	2	première partie	37			1er  janvier 2027			non	100
-2.B	2	première partie	37			1er  janvier 2027			non	103
-3.1	3	première partie	42	158					non	93
-3.1°	3	première partie	42						non	120
-3.2°	3	première partie	42						non	126
-3.3°	3	première partie	42						non	107
-4.I	4	première partie	43				dans la limite de	entre le 1 er janvier 2027 et le	non	593
-4.B	4	première partie	43	200					non	476
-4.II	4	première partie	43	635					non	212
-4.III	4	première partie	43	784					non	121
-4.IV	4	première partie	43	790 G			par dérogation	entre le 1er janvier 2027 et le	non	276
-5.I	5	première partie	45						non	52
-5.I.1°	5	première partie	45	150-0 B ter					non	31
-5.I.a	5	première partie	45						non	125
-5.I.b	5	première partie	45						oui	24
-5.I.2°	5	première partie	45	163 bis H			sans préjudice		oui	149
-5.I.3°	5	première partie	45	167 bis					non	35
-5.I.a	5	première partie	45						non	138
-5.I.b	5	première partie	45						non	247
-5.I.c	5	première partie	45						non	508
-5.I.d	5	première partie	45						non	113
-5.I.e	5	première partie	45						oui	89
-5.I.4°	5	première partie	45				au plus ; au titre de ; peut		non	2477
-5.II	5	première partie	45						non	88
-6.I	6	première partie	48						non	48
-6.I.1°	6	première partie	48	L. 131-1-2 ; L. 131-1-3	par décret		peut ; peuvent		non	1879
-6.I.2°	6	première partie	48	L. 194-1					non	244
-6.II	6	première partie	48	L. 223-2-1					non	173
-6.III	6	première partie	48						non	56
-6.III.1°	6	première partie	48	122		1er  octobre 2026	peuvent		non	833
-6.III.2°	6	première partie	48	125-0 A					non	120
-6.III.6°	6	première partie	48	120 ; 122					non	118
-6.III.3°	6	première partie	48	757 B					non	462
-6.IV	6	première partie	48			1er  juillet 2027			non	189
-6.B	6	première partie	48			1er  juillet 2027			non	326
-7.I	7	première partie	51						non	71
-7.A	7	première partie	51	L. 31-10-3	dans des conditions fixées par arrêté		peut		non	485
-7.B	7	première partie	51	L. 31-10-7			au titre de		non	289
-7.II	7	première partie	51						non	55
-7.A	7	première partie	51	39 C					non	26
-7.A.1°	7	première partie	51						non	12
-7.A.a	7	première partie	51						non	94
-7.A.b	7	première partie	51				par dérogation		non	2114
-7.A.c	7	première partie	51						non	170
-7.A.d	7	première partie	51						non	136
-7.A.2°	7	première partie	51						non	13
-7.A.a	7	première partie	51				le cas échéant		non	140
-7.A.b	7	première partie	51			1er  janvier 2027	dans la limite de ; par dérogation ; peut	jusqu’au	non	1103
-7.B	7	première partie	51	39 quinquies I					non	150
-7.C	7	première partie	51	199 ter T					non	481
-7.D	7	première partie	51	244 quater V					oui	98
-8.I	8	première partie	54						non	52
-8.I.1°	8	première partie	54	223 W			par dérogation		non	955
-8.I.2°	8	première partie	54	1384 A ; 1384 C ; 1384 C bis ; 1384 D					non	380
-8.II	8	première partie	54	L. 2335-3 ; L. 5216-8-1					non	302
-8.III	8	première partie	54			31  décembre 2023			non	81
-9.I	9	première partie	55						non	52
-9.A	9	première partie	55	39 decies G ; 39 decies H			peut ; peuvent ; à compter de	entre le 1er janvier 2027 et le	non	6467
-9.B	9	première partie	55	244 quater I					non	32
-9.B.1°	9	première partie	55						non	250
-9.B.2°	9	première partie	55						non	11
-9.B.a	9	première partie	55				notamment		oui	1243
-9.B.b	9	première partie	55						non	1268
-9.B.c	9	première partie	55						non	293
-9.II	9	première partie	55	244 quater I	par décret		peut		non	674
-10.I	10	première partie	58						non	52
-10.I.1°	10	première partie	58	39 decies G ; 39 decies J			au plus ; notamment ; par dérogation ; peut ; peuvent ; à compter de	entre le 1 er janvier 2027 et le ; entre le 1er janvier 2027 et le	non	9332
-10.I.2°	10	première partie	58	150-0 D ter					non	31
-10.I.a	10	première partie	58						non	1143
-10.I.b	10	première partie	58						non	103
-10.I.c	10	première partie	58				au titre de ; peut		non	752
-10.I.3°	10	première partie	58	721			à compter de		non	1869
-10.I.4°	10	première partie	58	726					non	23
-10.I.a	10	première partie	58						non	1100
-10.I.b	10	première partie	58						non	1143
-10.I.5°	10	première partie	58	1584					non	231
-10.I.6°	10	première partie	58	1595 ter					non	28
-10.I.a	10	première partie	58						non	57
-10.I.b	10	première partie	58						non	187
-10.II	10	première partie	58					entre le 1 er janvier 2027 et le	non	128
-11.I	11	première partie	64	244 quater C				jusqu’au	non	190
-11.II	11	première partie	64	23					oui	144
-12.I	12	première partie	65						non	52
-12.I.1°	12	première partie	65	244 quater O ; 39 bis A					non	170
-12.I.2°	12	première partie	65	220 octies					non	144
-12.II	12	première partie	65	L. 454-22					non	135
-12.III	12	première partie	65	L. 454-19					non	144
-13.I	13	première partie	67						non	43
-13.A	13	première partie	67	L. 211-1					non	181
-13.B	13	première partie	67	L. 223-1					non	179
-13.C	13	première partie	67						non	48
-13.C.1°	13	première partie	67						non	121
-13.C.2°	13	première partie	67	L. 224-1			au titre de ; peut		non	677
-13.C.3°	13	première partie	67	L. 224-2					non	172
-13.C.4°	13	première partie	67	L. 224-3			au plus ; au titre de ; peut	au plus tard le	non	6027
-13.D	13	première partie	67	L. 315-2					non	111
-13.II	13	première partie	67						non	55
-13.A	13	première partie	67	39 decies G ; 39 decies I			peut ; peuvent ; à compter de		non	5389
-13.B	13	première partie	67	200 undecies					non	34
-13.B.1°	13	première partie	67				dans la limite de ; peuvent		non	1955
-13.B.2°	13	première partie	67						non	14
-13.B.a	13	première partie	67				au titre de		non	161
-13.B.b	13	première partie	67						non	114
-13.C	13	première partie	67	1398 A					non	128
-13.III	13	première partie	67	92					oui	97
-13.IV	13	première partie	67	151					non	107
-13.A	13	première partie	67				au titre de ; peut		non	286
-13.B	13	première partie	67						non	132
-13.V	13	première partie	67			1er  janvier 2026			non	87
-13.B	13	première partie	67						non	58
-13.B.1°	13	première partie	67						non	115
-13.B.2°	13	première partie	67						non	85
-14.I	14	première partie	74	1001					non	67
-14.I.1°	14	première partie	74						non	80
-14.I.2°	14	première partie	74						non	226
-14.A	14	première partie	74		par arrêté ; par décret ; par un décret		au titre de		non	1503
-14.B	14	première partie	74				peuvent		non	439
-14.C	14	première partie	74				au titre de		non	934
-14.D	14	première partie	74	107					non	743
-14.E	14	première partie	74		un décret fixe				non	64
-14.III	14	première partie	74			1er  janvier 2027			non	157
-15.1	15	première partie	76						non	81
-15.I	15	première partie	76	48					non	24
-15.A	15	première partie	76						non	69
-15.B	15	première partie	76				au titre de		non	661
-15.C	15	première partie	76						non	15
-15.C.1°	15	première partie	76						non	12
-15.C.a	15	première partie	76						non	161
-15.C.b	15	première partie	76						non	287
-15.C.c	15	première partie	76				au titre de		non	727
-15.C.d	15	première partie	76						non	163
-15.C.2°	15	première partie	76						non	12
-15.C.a	15	première partie	76			31  décembre 2025			non	161
-15.C.b	15	première partie	76				au titre de		non	336
-15.II	15	première partie	76	50					non	25
-15.A	15	première partie	76						non	112
-15.B	15	première partie	76						non	188
-15.C	15	première partie	76						non	52
-15.C.1°	15	première partie	76			31  décembre 2025			non	297
-15.C.2°	15	première partie	76			31  décembre 2025			non	278
-15.D	15	première partie	76			31  décembre 2025	à compter de		non	175
-15.E	15	première partie	76						non	54
-15.E.1°	15	première partie	76			31  décembre 2025			non	158
-15.E.2°	15	première partie	76						non	178
-16.1	16	première partie	79						non	165
-16.1°	16	première partie	79	L. 213-230					oui	108
-16.2°	16	première partie	79	L. 213-235					oui	37
-17.1	17	première partie	80						non	47
-17.1°	17	première partie	80	210-0 A					non	27
-17.a	17	première partie	80						non	207
-17.b	17	première partie	80						non	198
-17.c	17	première partie	80						non	209
-17.2°	17	première partie	80	235 ter X					non	48
-17.a	17	première partie	80						oui	350
-17.b	17	première partie	80						non	261
-18.I	18	première partie	82	39 quinquies G					non	77
-18.I.1°	18	première partie	82						non	12
-18.I.a	18	première partie	82						non	113
-18.I.b	18	première partie	82						non	291
-18.I.c	18	première partie	82				au titre de ; par dérogation ; peuvent		non	646
-18.I.2°	18	première partie	82						non	13
-18.I.a	18	première partie	82				peut		non	812
-18.I.b	18	première partie	82						non	112
-18.II	18	première partie	82			1er  janvier 2027			non	97
-19.I	19	première partie	84						non	225
-19.I.1°	19	première partie	84	L. 213-52					non	188
-19.I.2°	19	première partie	84	L. 216-31					non	338
-19.I.3°	19	première partie	84	L. 217-6					non	103
-19.I.4°	19	première partie	84	L. 226-6					non	123
-19.I.5°	19	première partie	84	L. 231-28			peut		non	334
-19.I.6°	19	première partie	84		par arrêté		peut		non	669
-19.I.7°	19	première partie	84	L. 231-36 ; L. 231-36-1			par dérogation		non	380
-19.I.8°	19	première partie	84	L. 312-15-1					non	342
-19.I.9°	19	première partie	84	L. 312-57-1					non	554
-19.I.10°	19	première partie	84	L. 312-58-1					non	151
-19.I.11°	19	première partie	84	L. 312-61					non	156
-19.I.12°	19	première partie	84	L. 312-69					non	30
-19.I.a	19	première partie	84						oui	81
-19.I.b	19	première partie	84						non	155
-19.I.13°	19	première partie	84	L. 312-70					non	118
-19.I.14°	19	première partie	84						non	85
-19.I.a	19	première partie	84						non	150
-19.I.b	19	première partie	84	L. 312-89					non	144
-19.I.15°	19	première partie	84	L. 313-29					non	124
-19.I.16°	19	première partie	84	L. 313-30-1					non	32
-19.I.a	19	première partie	84						non	300
-19.I.b	19	première partie	84						non	102
-19.I.17°	19	première partie	84	L. 433-36					oui	39
-19.I.18°	19	première partie	84	L. 433-52					non	116
-19.I.19°	19	première partie	84	L. 433-57					non	30
-19.I.a	19	première partie	84						non	136
-19.I.b	19	première partie	84						non	655
-19.I.20°	19	première partie	84	L. 433-60					oui	196
-19.I.21°	19	première partie	84	L. 433-61 ; L. 433-62					non	189
-19.I.22°	19	première partie	84	L. 433-86					non	46
-19.I.a	19	première partie	84						non	136
-19.I.b	19	première partie	84						non	1002
-19.I.23°	19	première partie	84	L. 433-89					oui	115
-19.I.24°	19	première partie	84	L. 433-92 ; L. 433-93					non	202
-19.I.25°	19	première partie	84	L. 453-29-1					non	111
-19.II	19	première partie	84	L. 611-5	par décret		au plus		oui	152
-19.III	19	première partie	84						non	155
-19.III.1°	19	première partie	84	4					non	255
-19.III.2°	19	première partie	84	7					non	317
-19.IV	19	première partie	84	94					non	115
-19.IV.1°	19	première partie	84						oui	23
-19.IV.2°	19	première partie	84						oui	119
-19.V	19	première partie	84	75					oui	198
-19.VI	19	première partie	84						non	361
-19.VI.1°	19	première partie	84	10					non	153
-19.VI.2°	19	première partie	84	11					non	144
-19.VI.3°	19	première partie	84	12					non	235
-19.VI.4°	19	première partie	84	20					non	28
-19.VI.a	19	première partie	84						non	121
-19.VI.b	19	première partie	84						oui	23
-19.VI.5°	19	première partie	84	31					oui	89
-19.VI.6°	19	première partie	84	33					non	22
-19.VI.a	19	première partie	84						non	213
-19.VI.b	19	première partie	84						non	256
-19.VI.7°	19	première partie	84	35					non	105
-19.VII	19	première partie	84						non	151
-19.VII.1°	19	première partie	84	2					oui	56
-19.VII.2°	19	première partie	84	3					oui	57
-19.VII.3°	19	première partie	84	10					non	126
-19.VIII	19	première partie	84						non	27
-19.VIII.1°	19	première partie	84						non	185
-19.VIII.2°	19	première partie	84						non	126
-20.I	20	première partie	90						non	75
-20.I.1°	20	première partie	90	L. 322-41					non	118
-20.I.2°	20	première partie	90	L. 322-46					non	43
-20.I.a	20	première partie	90				à compter de		non	485
-20.I.b	20	première partie	90						non	278
-20.I.3°	20	première partie	90	L. 322-48					non	43
-20.I.a	20	première partie	90						non	90
-20.I.b	20	première partie	90						non	83
-20.I.4°	20	première partie	90	L. 322-52					non	137
-20.I.5°	20	première partie	90	L. 322-54					non	113
-20.I.6°	20	première partie	90	L. 322-56					non	189
-20.I.7°	20	première partie	90	L. 322-57					non	173
-20.I.8°	20	première partie	90	L. 322-60					non	115
-20.I.9°	20	première partie	90	L. 433-15					non	125
-20.II	20	première partie	90	L. 322-54 ; L. 322-56	par un arrêté			entre le 1er janvier 2026 et le	non	506
-20.III	20	première partie	90			1er  janvier 2026			non	66
-21.I	21	première partie	92						non	114
-21.I.1°	21	première partie	92	L. 422-23					non	29
-21.I.a	21	première partie	92						non	111
-21.I.b	21	première partie	92						non	435
-21.I.2°	21	première partie	92	L. 422-25-1	un arrêté conjoint		par dérogation		non	1195
-21.I.3°	21	première partie	92	L. 422-25-2	par décret		par dérogation		non	1166
-21.I.4°	21	première partie	92	L. 422-26-2			par dérogation		non	513
-21.I.5°	21	première partie	92	L. 422-28					non	88
-21.I.6°	21	première partie	92	L. 422-45					non	100
-21.II	21	première partie	92						non	70
-21.II.1°	21	première partie	92	L. 6328-2					non	29
-21.II.a	21	première partie	92						non	81
-21.II.b	21	première partie	92						non	391
-21.II.c	21	première partie	92						non	90
-21.II.2°	21	première partie	92	L. 6328-3					non	29
-21.II.a	21	première partie	92						non	74
-21.II.b	21	première partie	92		par arrêté				non	237
-21.II.3°	21	première partie	92	L. 6328-4					non	29
-21.II.a	21	première partie	92						non	96
-21.II.b	21	première partie	92						non	76
-21.II.4°	21	première partie	92	L. 6763-11					non	1100
-21.II.5°	21	première partie	92	L. 6773-12					non	1104
-21.III	21	première partie	92	37					oui	232
-21.IV	21	première partie	92	L. 422-16					non	145
-21.V	21	première partie	92		par arrêté		peut		non	369
-22.1	22	première partie	96	L. 425-12					non	843
-23.I	23	première partie	97				au titre de		non	318
-23.II	23	première partie	97						non	154
-23.II.1°	23	première partie	97	L. 312-19 ; L. 312-20					non	153
-23.II.2°	23	première partie	97	L. 132-27-2 ; L. 223-25-4					non	195
-23.II.3°	23	première partie	97	13					non	144
-23.III	23	première partie	97						non	60
-23.IV	23	première partie	97						non	68
-23.V	23	première partie	97						non	237
-23.VI	23	première partie	97						non	407
-23.VII	23	première partie	97						non	271
-23.VIII	23	première partie	97	L. 518-23					non	531
-23.IX	23	première partie	97	L. 132-27-2 ; L. 223-25-4 ; L. 312-20					non	482
-24.I	24	première partie	99						non	75
-24.I.1°	24	première partie	99	L. 312-48					non	346
-24.I.2°	24	première partie	99	L. 312-53					non	43
-24.I.a	24	première partie	99						non	156
-24.I.b	24	première partie	99		par arrêté		peut		non	474
-24.I.3°	24	première partie	99	L. 312-56					non	242
-24.I.4°	24	première partie	99				par dérogation		non	2832
-24.II	24	première partie	99	300 bis					non	71
-24.II.1°	24	première partie	99		par décret				non	398
-24.II.2°	24	première partie	99						non	61
-24.II.a	24	première partie	99						non	85
-24.II.b	24	première partie	99						non	84
-24.II.3°	24	première partie	99						non	10
-24.II.a	24	première partie	99						non	232
-24.II.b	24	première partie	99						non	227
-24.II.c	24	première partie	99						non	141
-24.II.4°	24	première partie	99						non	100
-24.II.5°	24	première partie	99						non	11
-24.II.a	24	première partie	99		par décret				non	118
-24.II.b	24	première partie	99						non	285
-24.III	24	première partie	99						non	48
-24.III.1°	24	première partie	99						non	49
-24.III.a	24	première partie	99		un arrêté conjoint ; un décret en conseil d’état précise		au plus ; au titre de ; le cas échéant ; notamment ; peut ; peuvent	au titre des années	non	7226
-24.III.b	24	première partie	99	31 ; 31 bis ; L. 282-2 ; L. 287-11 ; L. 287-2 ; L. 287-3 ; L. 311-12 ; L. 311-39 ; L. 312-22 ; L. 312-89 ; L. 446 ; L. 811-1	dans des conditions définies par arrêté ; par arrêté ; par décret ; par un arrêté ; un arrêté conjoint		au plus ; au titre de ; notamment ; peut ; peuvent ; à compter de	au plus tard le ; jusqu’au	non	20375
-24.III.2°	24	première partie	99						non	347
-24.III.2°	24	première partie	99		par arrêté		peuvent ; sans préjudice		non	4538
-24.III.2°	24	première partie	99	L. 641-6					oui	34
-24.IV	24	première partie	99	L. 229-92					non	282
-24.V	24	première partie	99	L. 330-2					non	166
-24.VI	24	première partie	99	64					non	111
-24.VI.1°	24	première partie	99						oui	29
-24.VI.2°	24	première partie	99						oui	41
-24.VII	24	première partie	99						non	149
-24.VII.1°	24	première partie	99	7	par décret		au plus	au plus tard le	non	178
-24.VII.2°	24	première partie	99	19					non	114
-24.VIII	24	première partie	99	7					non	292
-24.A	24	première partie	99				au titre de		non	215
-24.B	24	première partie	99	L. 287-3			au titre de		non	349
-24.B.1°	24	première partie	99	300 bis ; 7					non	310
-24.B.2°	24	première partie	99	300 bis			au titre de		non	119
-24.B.a	24	première partie	99	300 bis			au titre de		non	136
-24.B.b	24	première partie	99						non	181
-24.B.c	24	première partie	99	300 bis ; 7 ; L. 287-3					non	702
-24.IX	24	première partie	99						non	98
-24.X	24	première partie	99	19	par arrêté		peuvent		non	461
-24.B	24	première partie	99			1er  janvier 2027			non	60
-24.C	24	première partie	99		par décret		peut		non	340
-24.D	24	première partie	99	7	par décret				non	280
-24.E	24	première partie	99			31  décembre 2026			non	60
-25.I	25	première partie	110	39 decies A					non	74
-25.I.1°	25	première partie	110						non	105
-25.I.2°	25	première partie	110				peuvent	jusqu’au	non	1366
-25.I.3°	25	première partie	110						non	106
-25.I.4°	25	première partie	110						non	127
-25.I.5°	25	première partie	110				peut ; à compter de	jusqu’au	non	1231
-25.I.6°	25	première partie	110						non	100
-25.II	25	première partie	110						non	78
-25.II.1°	25	première partie	110	L. 213-58-1					non	1273
-25.II.2°	25	première partie	110	L. 421-78					non	29
-25.II.a	25	première partie	110						non	187
-25.II.b	25	première partie	110						non	177
-25.II.3°	25	première partie	110	L. 421-79-1					non	62
-25.II.a	25	première partie	110						oui	38
-25.II.b	25	première partie	110						non	107
-25.II.4°	25	première partie	110	L. 421-90					non	29
-25.II.a	25	première partie	110						non	115
-25.II.b	25	première partie	110						non	165
-25.II.5°	25	première partie	110	L. 421-91					non	29
-25.II.a	25	première partie	110						non	130
-25.II.b	25	première partie	110						oui	192
-25.II.6°	25	première partie	110	L. 421-95					non	118
-25.II.7°	25	première partie	110	L. 421-99-3	par décret				non	325
-25.II.8°	25	première partie	110	L. 421-170					oui	39
-25.II.9°	25	première partie	110	L. 421-201					oui	119
-25.II.10°	25	première partie	110	L. 421-202					non	115
-25.II.11°	25	première partie	110	L. 421-242					non	31
-25.II.a	25	première partie	110						non	81
-25.II.b	25	première partie	110						non	78
-25.II.12°	25	première partie	110	L. 421-250 ; L. 421-250-1			par dérogation		non	295
-25.III	25	première partie	110	L. 256					non	256
-25.IV	25	première partie	110						non	89
-25.IV.1°	25	première partie	110	58					non	25
-25.IV.a	25	première partie	110						oui	29
-25.IV.b	25	première partie	110						non	269
-25.IV.2°	25	première partie	110	59					non	217
-25.V	25	première partie	110	1 ; 128 ; 137					non	444
-26.I	26	première partie	115						non	52
-26.I.1°	26	première partie	115	44 sexdecies					non	30
-26.I.a	26	première partie	115						non	126
-26.I.b	26	première partie	115						non	172
-26.I.2°	26	première partie	115	44 septdecies					non	110
-26.I.3°	26	première partie	115	1463 A ; 1463 B					non	181
-26.I.4°	26	première partie	115	1521					non	367
-26.I.5°	26	première partie	115	1599 quater B					non	116
-26.II	26	première partie	115	111					non	190
-27.I	27	première partie	116						non	120
-27.I.1°	27	première partie	116	1635 bis P					oui	167
-27.I.2°	27	première partie	116						non	147
-27.I.3°	27	première partie	116	1635 bis P	un décret en conseil d’état précise		peut ; à compter de	jusqu’à la date	non	1593
-27.I.4°	27	première partie	116	1635 bis Q			à compter de	jusqu’à la date	non	316
-27.I.5°	27	première partie	116	1635 bis Q ; 1635 bis R	un décret en conseil d’état précise		au titre de ; peut ; à compter de	jusqu’à la date	non	2390
-27.II	27	première partie	116						non	93
-27.II.1°	27	première partie	116	27-1					non	438
-27.II.2°	27	première partie	116	28					non	22
-27.II.a	27	première partie	116						non	217
-27.II.b	27	première partie	116						non	226
-27.II.3°	27	première partie	116	29					non	253
-27.III	27	première partie	116	27					oui	148
-27.IV	27	première partie	116		par décret en conseil d’état		au plus	au plus tard le	non	187
-28.I	28	première partie	119						non	52
-28.A	28	première partie	119						non	191
-28.B	28	première partie	119	L. 224-6-5					non	32
-28.B.1°	28	première partie	119						non	123
-28.B.2°	28	première partie	119		un décret détermine		notamment		non	1007
-28.C	28	première partie	119	L. 224-6-8					non	32
-28.C.1°	28	première partie	119						non	259
-28.C.2°	28	première partie	119						non	247
-28.II	28	première partie	119						non	55
-28.A	28	première partie	119	28 ; 39 decies C	un arrêté conjoint				non	764
-28.B	28	première partie	119	150 V					non	56
-28.B.1°	28	première partie	119						non	103
-28.B.2°	28	première partie	119						non	232
-28.C	28	première partie	119	199 undecies C ; 244 quater X					non	809
-28.D	28	première partie	119	199 ter					non	40
-28.D.1°	28	première partie	119						non	24
-28.D.a	28	première partie	119						non	755
-28.D.b	28	première partie	119						non	130
-28.D.2°	28	première partie	119						non	744
-28.E	28	première partie	119	244 quater Y					non	793
-28.F	28	première partie	119	1395 G					non	28
-28.F.1°	28	première partie	119						non	304
-28.F.2°	28	première partie	119						non	185
-28.G	28	première partie	119	1649 bis C					non	147
-28.III	28	première partie	119						non	79
-28.A	28	première partie	119	28 ; L. 213-249	un arrêté conjoint				non	963
-28.B	28	première partie	119	L. 421-3-1					non	132
-28.C	28	première partie	119	L. 421-79					non	136
-28.D	28	première partie	119	L. 421-132-5					non	34
-28.D.1°	28	première partie	119						non	188
-28.D.2°	28	première partie	119						non	122
-28.IV	28	première partie	119				au titre de		non	122
-28.B	28	première partie	119			9  janvier 2028			non	95
-28.C	28	première partie	119			8  janvier 2026	par dérogation	jusqu’à la date	non	417
-29.I	29	première partie	124	1 ; 2 bis ; L. 80	un décret en conseil d’état précise		notamment ; à compter de	jusqu’au	non	1841
-29.II	29	première partie	124		un décret en conseil d’état détermine		au plus		non	246
-30.I	30	première partie	125						non	52
-30.I.1°	30	première partie	125	635-0 A			le cas échéant ; peut		non	566
-30.I.2°	30	première partie	125	639					non	141
-30.I.3°	30	première partie	125	1613 quater ; 1613 quinquies					non	827
-30.I.4°	30	première partie	125	1689					non	479
-30.I.5°	30	première partie	125	1729 C quater					non	595
-30.I.6°	30	première partie	125	1735 quater					non	31
-30.I.a	30	première partie	125						non	171
-30.I.b	30	première partie	125						non	236
-30.I.7°	30	première partie	125	1736					non	102
-30.I.8°	30	première partie	125	1740-00 A					non	30
-30.I.a	30	première partie	125						non	71
-30.I.b	30	première partie	125	242 septies ; L. 228	un décret en conseil d’état précise		peut ; à compter de		non	1726
-30.II	30	première partie	125						non	6
-30.II	30	première partie	125						non	78
-30.II.1°	30	première partie	125	L. 423-10					non	312
-30.II.2°	30	première partie	125	L. 423-11					non	224
-30.III	30	première partie	125						non	62
-30.III.1°	30	première partie	125	L. 10-0					non	108
-30.III.2°	30	première partie	125	L. 10-0					non	211
-30.III.3°	30	première partie	125	L. 45			peut		non	1186
-30.III.4°	30	première partie	125	L. 80	décret précise ; par décret en conseil d’état		au plus ; peut ; peuvent ; à compter de	jusqu’au	non	4703
-30.III.5°	30	première partie	125	L. 228					non	159
-30.III.6°	30	première partie	125	L. 262					non	26
-30.III.a	30	première partie	125		par décret en conseil d’état				non	800
-30.III.b	30	première partie	125		dans des conditions prévues par décret		peut ; sans préjudice		non	622
-30.III.c	30	première partie	125						non	247
-30.III.d	30	première partie	125						oui	22
-30.IV	30	première partie	125	154			au plus	jusqu’au	non	414
-31.I	31	première partie	131						non	52
-31.A	31	première partie	131	182 B			par dérogation ; peut		non	1263
-31.B	31	première partie	131	182 C	par arrêté ; par décret		peut ; à compter de	pour une durée de	non	3342
-31.II	31	première partie	131						non	61
-31.A	31	première partie	131	L. 47					non	29
-31.A.1°	31	première partie	131						non	163
-31.A.2°	31	première partie	131						non	13
-31.A.a	31	première partie	131				au plus ; peut		non	733
-31.A.b	31	première partie	131				au plus		non	489
-31.A.3°	31	première partie	131						oui	103
-31.B	31	première partie	131	L. 47			peut		non	359
-31.C	31	première partie	131						non	56
-31.C.1°	31	première partie	131	L. 113					non	139
-31.C.2°	31	première partie	131	L. 135					non	48
-31.C.a	31	première partie	131						non	71
-31.C.b	31	première partie	131						non	83
-31.C.3°	31	première partie	131	L. 135	un décret précise		peut		non	669
-31.D	31	première partie	131	L. 253	par décret				non	316
-31.III	31	première partie	131			1er  janvier 2027			non	102
-32.I	32	première partie	134	L. 311-41					non	141
-32.II	32	première partie	134	1788 F					non	222
-32.II.1°	32	première partie	134						non	74
-32.II.2°	32	première partie	134						non	75
-32.II.3°	32	première partie	134						non	196
-32.II.4°	32	première partie	134						non	264
-32.II.5°	32	première partie	134	L. 213-15			peut ; à compter de		non	641
-32.VI	32	première partie	134		par décret		peut ; sans préjudice		non	1479
-32.III	32	première partie	134						non	52
-32.III.1°	32	première partie	134	L. 621-8					non	398
-32.III.2°	32	première partie	134	L. 756-2					non	57
-32.III.a	32	première partie	134						non	123
-32.III.b	32	première partie	134						non	330
-32.IV	32	première partie	134						non	93
-32.IV.1°	32	première partie	134	3					non	213
-32.IV.2°	32	première partie	134	3-2					non	23
-32.IV.a	32	première partie	134						non	466
-32.IV.b	32	première partie	134						non	180
-32.IV.3°	32	première partie	134	4					non	288
-32.IV.4°	32	première partie	134	31 ; 37 ; 6					non	232
-32.IV.5°	32	première partie	134	8					non	1005
-32.IV.6°	32	première partie	134	27 ; 48 ; 49					non	190
-32.IV.7°	32	première partie	134	32			peuvent		non	739
-32.IV.8°	32	première partie	134	36					non	22
-32.IV.a	32	première partie	134						non	147
-32.IV.b	32	première partie	134						non	126
-32.IV.9°	32	première partie	134	49					non	130
-32.IV.10°	32	première partie	134	51					oui	31
-32.V	32	première partie	134			1er  janvier 2027			non	64
-32.VI	32	première partie	134	8		1er  juillet 2026			non	214
-33.1	33	première partie	138						non	139
-33.1°	33	première partie	138						non	116
-33.2°	33	première partie	138						non	5
-33.2°	33	première partie	138						non	198
-34.I	34	première partie	139	L. 1613-1					non	168
-34.II	34	première partie	139	15			au titre de ; peut		non	364
-34.B	34	première partie	139						non	88
-34.B.1°	34	première partie	139	77					non	26
-34.B.a	34	première partie	139				au titre de		non	365
-34.B.b	34	première partie	139				au titre de		non	276
-34.B.2°	34	première partie	139	78					non	20
-34.B.a	34	première partie	139				au titre de		non	272
-34.B.b	34	première partie	139				au titre de		non	120
-34.C	34	première partie	139	1648 A			au titre de		non	197
-34.III	34	première partie	139	77			au titre de		non	2288
-35.1	35	première partie	142	L. 1615-6	par un arrêté				non	651
-36.I	36	première partie	143	16			au titre de ; peut		non	512
-36.II	36	première partie	143	8					non	501
-36.III	36	première partie	143	55					non	105
-36.III.1°	36	première partie	143				au titre de ; peut		non	420
-36.III.2°	36	première partie	143				au titre de ; peut		non	416
-37.I	37	première partie	144						non	432
-37.II	37	première partie	144						non	84
-37.B	37	première partie	144	73					non	277
-37.B.1°	37	première partie	144	L. 2334-4					non	229
-37.B.2°	37	première partie	144	L. 2334-2				entre le revenu moyen par habitant de la commune et le	non	229
-37.C	37	première partie	144						non	565
-37.C.1°	37	première partie	144						non	51
-37.C.2°	37	première partie	144					entre le premier taux du 3° et le	non	487
-37.C.3°	37	première partie	144						non	139
-37.D	37	première partie	144				par dérogation		non	47
-37.D.1°	37	première partie	144	73					non	106
-37.D.2°	37	première partie	144	L. 2336-3					non	108
-37.D.3°	37	première partie	144						non	80
-37.E	37	première partie	144	59 ; L. 2334-1 ; L. 2334-2					non	1251
-37.III	37	première partie	144						non	153
-37.B	37	première partie	144	73					non	339
-37.B.1°	37	première partie	144	L. 5211-29					non	292
-37.B.2°	37	première partie	144	L. 2334-2					non	297
-37.C	37	première partie	144						non	627
-37.C.1°	37	première partie	144						non	57
-37.C.2°	37	première partie	144					entre le taux du 3° et le	non	491
-37.C.3°	37	première partie	144						non	54
-37.D	37	première partie	144				par dérogation		non	47
-37.D.1°	37	première partie	144	73					non	168
-37.D.2°	37	première partie	144						non	124
-37.E	37	première partie	144	L. 2334-1 ; L. 2334-2					non	584
-37.IV	37	première partie	144						non	259
-37.B	37	première partie	144	208					non	296
-37.C	37	première partie	144						non	333
-37.C.1°	37	première partie	144						non	54
-37.C.2°	37	première partie	144						non	468
-37.C.3°	37	première partie	144						non	65
-37.D	37	première partie	144				par dérogation		non	52
-37.D.1°	37	première partie	144	73					non	80
-37.D.2°	37	première partie	144						non	85
-37.E	37	première partie	144						non	196
-37.V	37	première partie	144	29 ; 46 ; L. 2332-2 ; L. 3332	par un arrêté		à compter de		non	1108
-37.VI	37	première partie	144		un décret en conseil d’état précise				non	89
-38.I	38	première partie	148	41					non	103
-38.I.1°	38	première partie	148						non	107
-38.I.2°	38	première partie	148						non	1142
-38.II	38	première partie	148					au titre des années	non	1444
-38.III	38	première partie	148	40					non	1285
-38.IV	38	première partie	148					au titre des années	non	1377
-38.V	38	première partie	148	38					non	112
-38.V.1°	38	première partie	148						non	82
-38.V.2°	38	première partie	148						non	93
-38.V.3°	38	première partie	148						non	91
-38.V.4°	38	première partie	148						non	81
-38.V.5°	38	première partie	148						non	1924
-38.VI	38	première partie	148				au titre de		non	1326
-38.VII	38	première partie	148	39					non	173
-38.VIII	38	première partie	148	2				au titre des années	non	1007
-38.IX	38	première partie	148	L. 312-1					non	305
-39.1	39	première partie	154	76					non	106
-39.1°	39	première partie	154						non	66
-39.2°	39	première partie	154						oui	104
-39.3°	39	première partie	154						oui	20
-40.I	40	première partie	155	L. 5219-5					non	119
-40.I.1°	40	première partie	155						non	142
-40.I.2°	40	première partie	155						non	114
-40.II	40	première partie	155	78					non	128
-40.II.1°	40	première partie	155						non	85
-40.II.2°	40	première partie	155						non	66
-40.III	40	première partie	155	59					non	146
-40.III.1°	40	première partie	155						non	344
-40.III.2°	40	première partie	155						non	226
-40.III.3°	40	première partie	155						non	2209
-40.IV	40	première partie	155	255					non	115
-40.IV.1°	40	première partie	155						non	76
-40.IV.2°	40	première partie	155						non	100
-41.1	41	première partie	157				au titre de		non	4847
-42.I	42	première partie	160				au titre de ; le cas échéant		non	473
-42.A	42	première partie	160						non	157
-42.B	42	première partie	160						non	9788
-42.D	42	première partie	160	11 ; 135 ; 3 ; 46 ; L. 112-11-1 ; L. 6241-2					non	23155
-42.D.7°	42	première partie	160						non	1187
-42.D.2°	42	première partie	160						non	466
-42.D.9°	42	première partie	160						non	1606
-42.D.8°	42	première partie	160	4 ; 5-1					non	3694
-42.D.1°	42	première partie	160	5-1					non	2913
-42.D.2°	42	première partie	160	115 ; 20 ; 36 ; 5-1 ; 90 ; L. 121-6 ; L. 1431-1 ; L. 443-1 ; L. 731-16 ; L. 742-11-2			au titre de		non	36177
-42.D	42	première partie	160						non	53
-42.D	42	première partie	160	27-1 ; R. 4643-35					non	2924
-42.II	42	première partie	160	5-1					non	394
-42.B	42	première partie	160						non	49
-42.B.1°	42	première partie	160	L. 521-8-1					oui	47
-42.B.2°	42	première partie	160	L. 521-8-3					oui	81
-42.C	42	première partie	160	L. 471-58					non	95
-42.C.1°	42	première partie	160				sans préjudice		oui	92
-42.C.2°	42	première partie	160						oui	26
-42.D	42	première partie	160		par décret		au plus	au plus tard le	non	132
-42.III	42	première partie	160	L. 6241-2					non	619
-42.B	42	première partie	160	L. 6241-2					non	116
-42.IV	42	première partie	160	L. 642-13					non	89
-42.IV.1°	42	première partie	160						non	91
-42.IV.2°	42	première partie	160						non	140
-42.IV.3°	42	première partie	160						non	91
-42.IV.4°	42	première partie	160						non	142
-42.IV.5°	42	première partie	160						non	88
-42.IV.6°	42	première partie	160						non	88
-42.IV.7°	42	première partie	160						non	142
-42.IV.8°	42	première partie	160						non	87
-42.IV.9°	42	première partie	160				peut		non	443
-42.B	42	première partie	160			1er  janvier 2028			non	69
-42.V	42	première partie	160	130					non	114
-42.V.1°	42	première partie	160						non	83
-42.V.2°	42	première partie	160						non	83
-42.V.3°	42	première partie	160						non	81
-42.V.4°	42	première partie	160						non	80
-42.V.5°	42	première partie	160		par arrêté				non	548
-42.VI	42	première partie	160	46					oui	144
-42.B	42	première partie	160						non	187
-42.VII	42	première partie	160						non	75
-42.VII.1°	42	première partie	160	L. 2531-17					non	84
-42.VII.2°	42	première partie	160	L. 2531-18					non	85
-42.VIII	42	première partie	160	43					oui	110
-42.IX	42	première partie	160	50 ; L. 1512-19					non	293
-43.1	43	première partie	181						non	231
-44.1	44	première partie	182	125 ; L. 422-21					non	389
-45.1	45	première partie	183	49			par dérogation		non	509
-46.I	46	première partie	184	46					non	112
-46.I.1°	46	première partie	184						non	82
-46.I.2°	46	première partie	184			1er  janvier 2028			oui	109
-46.I.3°	46	première partie	184	112 ; 38 ; 39 ; 40 ; 41 ; 51 ; 59 ; 74 ; L. 1512-20 ; L. 4331-2			par dérogation		non	5014
-46.II	46	première partie	184						non	74
-46.II.1°	46	première partie	184	L. 2332-2					non	437
-46.II.2°	46	première partie	184	L. 3332-1-1					non	440
-46.II.3°	46	première partie	184	L. 4331-2-1					non	436
-46.II.4°	46	première partie	184	L. 4434-3					non	314
-46.II.5°	46	première partie	184	L. 4434-4					non	27
-46.II.a	46	première partie	184						oui	37
-46.II.b	46	première partie	184						non	118
-47.1	47	première partie	187	46					non	107
-47.I	47	première partie	187						non	12
-47.I.1°	47	première partie	187				peut		oui	216
-47.I.2°	47	première partie	187						oui	45
-47.II	47	première partie	187						oui	44
-48.1	48	première partie	188						non	736
-48.1°	48	première partie	188						non	17
-48.a	48	première partie	188				au titre de		non	104
-48.b	48	première partie	188						non	38
-48.2°	48	première partie	188						non	17
-48.a	48	première partie	188				au titre de		non	106
-48.b	48	première partie	188						non	36
-49.I	49	première partie	190	L. 131-8					non	84
-49.I.1°	49	première partie	190						non	197
-49.I.2°	49	première partie	190						non	72
-49.I.3°	49	première partie	190						non	181
-49.II	49	première partie	190			1er  février 2027			non	48
-50.1	50	première partie	192	L. 411-13 ; L. 431-14					non	551
-51.1	51	première partie	193						non	66
-51.I	51	première partie	193	L. 435-1					non	28
-51.I.1°	51	première partie	193						non	10
-51.I.a	51	première partie	193						oui	103
-51.I.b	51	première partie	193				peut		non	223
-51.I.2°	51	première partie	193						non	139
-51.II	51	première partie	193	L. 441-2-3-1					non	33
-51.II.1°	51	première partie	193						non	127
-51.II.2°	51	première partie	193		par décret				non	395
-52.I	52	première partie	195	L. 452-4	par arrêté		par dérogation		non	467
-52.II	52	première partie	195	L. 435-1 ; L. 452-4			par dérogation		non	295
-53.I	53	première partie	196	L. 2333-87					non	553
-53.II	53	première partie	196						non	125
-54.1	54	première partie	197						non	43
-54.1°	54	première partie	197	L. 132-2					oui	217
-54.2°	54	première partie	197	L. 612-3					non	26
-54.a	54	première partie	197						oui	64
-54.b	54	première partie	197	L. 541-1 ; L. 719-4 ; L. 821-1			au titre de ; sans préjudice		non	2265
-55.1	55	première partie	199				au titre de		non	187
-56.I	56	première partie	201	L. 441-1			peut		non	537
-56.II	56	première partie	201	L. 440-1			peut		non	361
-56.II.1°	56	première partie	201						non	249
-56.II.2°	56	première partie	201						non	373
-57.I	57	première partie	203				peut		non	4413
-57.II	57	première partie	203						non	21
-57.II.1°	57	première partie	203						non	2694
-57.II.2°	57	première partie	203		dans des conditions fixées par décret				non	113
-57.II.a	57	première partie	203						non	180
-57.II.b	57	première partie	203						non	106
-57.II.c	57	première partie	203				peuvent		non	155
-57.II.d	57	première partie	203		par décret				non	516
-57.II.e	57	première partie	203						non	316
-57.II.3°	57	première partie	203						non	169
-57.II.4°	57	première partie	203						non	185
-57.II.5°	57	première partie	203						non	327
-57.III	57	première partie	203						non	159
-57.IV	57	première partie	203	34					non	671
-58.1	58	seconde partie	207						non	295
-59.1	59	seconde partie	208						non	299
-60.I	60	seconde partie	209						non	315
-60.II	60	seconde partie	209						non	317
-61.1	61	seconde partie	210						non	232
-62.I	62	seconde partie	211						non	235
-62.II	62	seconde partie	211						non	261
-63.1	63	seconde partie	212						non	2707
-64.1	64	seconde partie	214						non	9653
-65.I	65	seconde partie	217	66					non	754
-65.II	65	seconde partie	217						non	101
-66.1	66	seconde partie	218						non	1587
-67.1	67	seconde partie	219				peut ; peuvent		non	7972
-68.1	68	seconde partie	222						non	255
-69.I	69	seconde partie	223				peut	jusqu’au	non	784
-69.II	69	seconde partie	223				au plus ; notamment	au plus tard le	non	655
-69.III	69	seconde partie	223				notamment		non	379
-70.1	70	seconde partie	225				dans la limite de ; peut	jusqu’au	non	774
-71.1	71	seconde partie	226	157					non	143
-72.I	72	seconde partie	227						non	65
-72.I.1°	72	seconde partie	227	L. 351-5					non	115
-72.I.2°	72	seconde partie	227	L. 513-3			par dérogation		non	252
-72.I.3°	72	seconde partie	227	L. 514-4					non	291
-72.I.4°	72	seconde partie	227	L. 514-4 ; L. 514-4-1			par dérogation		non	439
-72.I.5°	72	seconde partie	227	L. 556-10 ; L. 556-10-1					non	440
-72.I.6°	72	seconde partie	227	L. 821-1	par un décret en conseil d’état				non	283
-72.I.7°	72	seconde partie	227						non	46
-72.I.a	72	seconde partie	227						non	128
-72.I.b	72	seconde partie	227	L. 824-1					non	216
-72.I.c	72	seconde partie	227		par décret		par dérogation ; peut		non	7490
-72.I.8°	72	seconde partie	227	L. 825-4					non	174
-72.II	72	seconde partie	227						non	81
-72.II.1°	72	seconde partie	227	L. 4					oui	231
-72.II.2°	72	seconde partie	227	L. 9					non	22
-72.II.a	72	seconde partie	227						non	293
-72.II.b	72	seconde partie	227						non	93
-72.II.3°	72	seconde partie	227	L. 11					non	267
-72.II.4°	72	seconde partie	227	L. 14					non	262
-72.II.5°	72	seconde partie	227	L. 15					non	684
-72.II.6°	72	seconde partie	227	L. 24					non	29
-72.II.a	72	seconde partie	227						non	92
-72.II.b	72	seconde partie	227				par dérogation		non	777
-72.II.c	72	seconde partie	227						non	122
-72.II.7°	72	seconde partie	227	L. 25					non	109
-72.II.8°	72	seconde partie	227	L. 29			peut		non	430
-72.II.9°	72	seconde partie	227	L. 29					oui	32
-72.II.10°	72	seconde partie	227	L. 30					non	224
-72.II.11°	72	seconde partie	227	L. 30 bis					non	280
-72.II.12°	72	seconde partie	227	L. 38 ; L. 40					non	147
-72.III	72	seconde partie	227	30					non	338
-72.IV	72	seconde partie	227	76			par dérogation ; peut		non	520
-72.V	72	seconde partie	227			1er  janvier 2027			non	170
-72.VI	72	seconde partie	227	L. 824-5			au titre de		non	406
-73.I	73	seconde partie	232						non	65
-73.I.1°	73	seconde partie	232	L. 134-4 ; L. 134-4-1			à compter de		non	431
-73.I.2°	73	seconde partie	232	L. 134-12					non	127
-73.II	73	seconde partie	232	L. 4123-10					non	69
-73.II.1°	73	seconde partie	232				à compter de		non	379
-73.II.2°	73	seconde partie	232						non	86
-73.II.3°	73	seconde partie	232						non	124
-73.II.4°	73	seconde partie	232						non	257
-73.III	73	seconde partie	232						non	75
-73.III.1°	73	seconde partie	232	L. 2123-34			à compter de		non	451
-73.III.2°	73	seconde partie	232	L. 3123-28			à compter de		non	428
-73.III.3°	73	seconde partie	232	L. 4135-28			à compter de		non	423
-73.III.4°	73	seconde partie	232	L. 7125-35			à compter de		non	452
-73.III.5°	73	seconde partie	232	L. 7227-36			à compter de		non	454
-73.IV	73	seconde partie	232	L. 142-1-12					non	224
-73.V	73	seconde partie	232				à compter de		non	189
-74.1	74	seconde partie	234	L. 823-4 ; L. 842-3			peut		non	268
-75.I	75	seconde partie	235	128					non	194
-75.II	75	seconde partie	235	179					non	113
-75.II.1°	75	seconde partie	235						non	103
-75.II.2°	75	seconde partie	235						non	215
-75.II.3°	75	seconde partie	235						oui	38
-75.II.4°	75	seconde partie	235						non	128
-76.1	76	seconde partie	237						non	38
-76.I	76	seconde partie	237	L. 165					non	181
-76.II	76	seconde partie	237	L. 166					non	27
-76.II.1°	76	seconde partie	237						non	222
-76.II.2°	76	seconde partie	237						non	166
-76.III	76	seconde partie	237	L. 330-6	dans des conditions fixées par décret				non	488
-76.IV	76	seconde partie	237	L. 330-13					non	127
-76.V	76	seconde partie	237	L. 395					non	214
-77.1	77	seconde partie	239	172					oui	98
-78.I	78	seconde partie	240	L. 822-8 ; L. 822-8-1	un décret en conseil d’état précise		au titre de ; notamment ; peuvent		non	1024
-78.II	78	seconde partie	240			1er  septembre 2027			non	151
-79.I	79	seconde partie	242	L. 15 ; L. 61	par décret		par dérogation		non	1401
-79.II	79	seconde partie	242						non	279
-79.III	79	seconde partie	242	L. 4145-1 ; L. 83					non	443
-79.IV	79	seconde partie	242				par dérogation		non	431
-79.V	79	seconde partie	242		par décret				non	76
-80.I	80	seconde partie	244	3					oui	404
-80.II	80	seconde partie	244	L. 611-5					non	116
-80.II.1°	80	seconde partie	244						oui	26
-80.II.2°	80	seconde partie	244						non	83
-80.III	80	seconde partie	244	3					non	484
-80.IV	80	seconde partie	244	3		1er  janvier 2028			non	849
-81.1	81	seconde partie	246	L. 124-1-1					non	75
-81.I	81	seconde partie	246						non	26
-81.I.1°	81	seconde partie	246						non	78
-81.I.2°	81	seconde partie	246						non	283
-81.II	81	seconde partie	246						non	630
-82.I	82	seconde partie	247	225					non	104
-82.A	82	seconde partie	247						non	25
-82.A.1°	82	seconde partie	247		par arrêté		au titre de		non	1161
-82.A.2°	82	seconde partie	247						non	27
-82.A.a	82	seconde partie	247						non	120
-82.A.b	82	seconde partie	247				notamment		non	512
-82.A.3°	82	seconde partie	247						oui	38
-82.B	82	seconde partie	247						non	26
-82.B.1°	82	seconde partie	247						non	26
-82.B.a	82	seconde partie	247						oui	57
-82.B.b	82	seconde partie	247						non	93
-82.B.c	82	seconde partie	247						non	80
-82.B.2°	82	seconde partie	247						oui	37
-82.II	82	seconde partie	247						non	359
-82.D	82	seconde partie	247						non	126
-82.B	82	seconde partie	247		par arrêté		au titre de ; notamment		non	1328
-82.C	82	seconde partie	247		par arrêté		peuvent		non	1339
-82.D	82	seconde partie	247						non	151
-82.III	82	seconde partie	247	L. 121-36 ; L. 446-18			notamment	entre le 25 juin 2026 et le	non	689
-82.B	82	seconde partie	247	L. 446-4					non	222
-82.IV	82	seconde partie	247	175					non	106
-82.IV.1°	82	seconde partie	247						non	11
-82.IV.a	82	seconde partie	247						non	272
-82.IV.b	82	seconde partie	247		arrêté détermine ; un arrêté détermine		notamment ; peut ; peuvent		non	1945
-82.IV.c	82	seconde partie	247		par arrêté		peut		non	636
-82.IV.d	82	seconde partie	247		par arrêté		peut		non	480
-82.IV.2°	82	seconde partie	247						non	16
-82.IV.a	82	seconde partie	247						non	210
-82.IV.b	82	seconde partie	247						non	107
-82.IV.c	82	seconde partie	247						non	134
-82.IV.d	82	seconde partie	247		par arrêté		dans la limite de		non	891
-82.B	82	seconde partie	247		par arrêté				non	252
-82.V	82	seconde partie	247	L. 121-7					non	65
-82.V.1°	82	seconde partie	247				au titre de		non	414
-82.V.2°	82	seconde partie	247				au titre de		non	230
-82.V.3°	82	seconde partie	247		un arrêté conjoint		au titre de ; notamment		non	1649
-82.VI	82	seconde partie	247	8 ; L. 311-12					non	418
-82.B	82	seconde partie	247						non	273
-82.B.2°	82	seconde partie	247						non	289
-82.B.a	82	seconde partie	247		par un arrêté		peut		non	466
-82.B.b	82	seconde partie	247						non	381
-82.C	82	seconde partie	247				notamment		non	327
-82.C.1°	82	seconde partie	247						non	37
-82.C.a	82	seconde partie	247						non	85
-82.C.b	82	seconde partie	247						non	30
-82.C.c	82	seconde partie	247	L. 311-12 ; L. 314-1 ; R. 314-12					non	293
-82.C.d	82	seconde partie	247	L. 311-12 ; L. 314-1					non	292
-82.C.2°	82	seconde partie	247						non	32
-82.C.a	82	seconde partie	247	L. 311-12 ; L. 314-1					non	157
-82.C.b	82	seconde partie	247	L. 321-15					non	232
-82.C.c	82	seconde partie	247						non	91
-82.C.d	82	seconde partie	247						non	116
-82.D	82	seconde partie	247						non	112
-82.D.1°	82	seconde partie	247	L. 314-1					non	154
-82.D.2°	82	seconde partie	247	L. 311-12					non	130
-82.D.3°	82	seconde partie	247	8					non	182
-82.E	82	seconde partie	247						non	123
-82.E.1°	82	seconde partie	247	L. 314-1					non	154
-82.E.2°	82	seconde partie	247	8					non	186
-83.I	83	seconde partie	257						non	121
-83.I.1°	83	seconde partie	257	L. 2334-13					non	191
-83.I.2°	83	seconde partie	257	L. 2334-18-3					oui	64
-83.I.3°	83	seconde partie	257	L. 2334-20					non	124
-83.I.4°	83	seconde partie	257	L. 2334-21					non	28
-83.I.a	83	seconde partie	257						oui	139
-83.I.b	83	seconde partie	257						oui	106
-83.I.5°	83	seconde partie	257	L. 2334-40					non	28
-83.I.a	83	seconde partie	257						oui	62
-83.I.b	83	seconde partie	257						oui	62
-83.I.6°	83	seconde partie	257	L. 2334-42					non	34
-83.I.a	83	seconde partie	257						oui	210
-83.I.b	83	seconde partie	257		par décret		au titre de		non	551
-83.I.7°	83	seconde partie	257	L. 2336-2					non	33
-83.I.a	83	seconde partie	257						oui	312
-83.I.b	83	seconde partie	257						non	240
-83.I.8°	83	seconde partie	257	L. 2336-3					non	115
-83.II	83	seconde partie	257						non	88
-83.II.1°	83	seconde partie	257	L. 3334-1					non	149
-83.II.2°	83	seconde partie	257	L. 3334-4					non	103
-83.II.3°	83	seconde partie	257	L. 3334-10					non	138
-83.III	83	seconde partie	257	L. 4332-9					non	233
-83.IV	83	seconde partie	257	250					non	158
-83.V	83	seconde partie	257	252					non	104
-83.V.1°	83	seconde partie	257				par dérogation		non	192
-83.V.2°	83	seconde partie	257						non	270
-83.V.3°	83	seconde partie	257				le cas échéant		non	212
-83.VI	83	seconde partie	257	196					non	261
-83.VII	83	seconde partie	257	L. 2334-7-2					non	306
-83.VIII	83	seconde partie	257	L. 2334-1 ; L. 2335-15					non	340
-83.IX	83	seconde partie	257	79			par dérogation		non	220
-83.IX.1°	83	seconde partie	257	L. 3334-16-3 ; L. 3335-2					non	154
-83.IX.a	83	seconde partie	257	L. 232-1 ; L. 232-8			au titre de		non	551
-83.IX.b	83	seconde partie	257	79 ; L. 223-8			au titre de		non	327
-83.IX.2°	83	seconde partie	257						non	117
-83.IX.2°	83	seconde partie	257	L. 3334-16-3					non	123
-83.IX.3°	83	seconde partie	257	L. 232-1 ; L. 232-8 ; L. 3334-16-3					non	462
-83.X	83	seconde partie	257	199-1 ; 46 ; 55 ; L. 3332-1-1 ; L. 3334-7-1			à compter de		non	816
-84.I	84	seconde partie	262	186					non	112
-84.I.1°	84	seconde partie	262						non	129
-84.I.2°	84	seconde partie	262				à compter de		non	275
-84.II	84	seconde partie	262	196					non	224
-85.1	85	seconde partie	263		par décret		peut		non	1583
-86.1	86	seconde partie	264	L. 2335-2					non	233
-87.I	87	seconde partie	265				au titre de		non	216
-87.II	87	seconde partie	265				au titre de ; notamment ; peuvent		non	450
-87.III	87	seconde partie	265				au titre de		non	108
-87.IV	87	seconde partie	265		par un décret en conseil d’état		notamment		non	245
-88.I	88	seconde partie	266						non	44
-88.I.1°	88	seconde partie	266	L. 6123-5					non	27
-88.I.a	88	seconde partie	266						oui	227
-88.I.b	88	seconde partie	266						oui	38
-88.I.c	88	seconde partie	266		par décret		au plus	au plus tard le	non	470
-88.I.2°	88	seconde partie	266	L. 6211-3 ; L. 6522-3					oui	113
-88.I.3°	88	seconde partie	266	L. 6224-1					non	185
-88.I.4°	88	seconde partie	266	L. 6325-5	dans des conditions fixées par voie réglementaire				non	228
-88.I.5°	88	seconde partie	266	L. 6332-6					non	27
-88.I.a	88	seconde partie	266						oui	71
-88.I.b	88	seconde partie	266						non	393
-88.I.6°	88	seconde partie	266	L. 6333-7-1 ; L. 6362-1-1					non	293
-88.II	88	seconde partie	266		par décret		au plus	au plus tard le	non	122
-89.I	89	seconde partie	268						non	44
-89.I.1°	89	seconde partie	268	L. 6323-4					non	120
-89.I.2°	89	seconde partie	268	L. 6323-7					non	27
-89.I.a	89	seconde partie	268						non	36
-89.I.b	89	seconde partie	268	L. 6323-4					non	358
-89.I.2°	89	seconde partie	268		par arrêté ; par décret en conseil d’état ; un décret détermine		notamment ; peut		non	2072
-89.I.3°	89	seconde partie	268	L. 6313-5			peut		non	116
-89.I.4°	89	seconde partie	268	L. 6411-2			notamment ; peut ; peuvent		non	1610
-89.I.5°	89	seconde partie	268	L. 6412-3	par décret		dans la limite de		non	341
-89.I.6°	89	seconde partie	268	L. 6423-2					oui	36
-89.I.7°	89	seconde partie	268	L. 6423-3	un décret en conseil d’état détermine		notamment		non	949
-89.II	89	seconde partie	268	L. 6323		1er  octobre 2026			non	344
-89.B	89	seconde partie	268	L. 6423-3			au plus	au plus tard le	non	200
+liminaire.1	liminaire		29						non	6572
+1.1	1	première partie	32						non	169
+2.I	2	première partie	33						non	52
+2.A	2	première partie	33	72 A bis					oui	36
+2.B	2	première partie	33	80 duodecies					non	48
+2.B.1°	2	première partie	33						non	10
+2.B.a	2	première partie	33						oui	74
+2.B.b	2	première partie	33				par dérogation		non	322
+2.B.c	2	première partie	33						oui	212
+2.B.d	2	première partie	33						oui	184
+2.B.e	2	première partie	33						oui	527
+2.B.2°	2	première partie	33						oui	71
+2.C	2	première partie	33	80 quinquies					non	531
+2.D	2	première partie	33	81					oui	181
+2.E	2	première partie	33	154 bis A					non	543
+2.F	2	première partie	33	156 ; 158					non	228
+2.G	2	première partie	33	196 B					non	131
+2.H	2	première partie	33	197					non	29
+2.H.1°	2	première partie	33						non	10
+2.H.a	2	première partie	33						non	101
+2.H.b	2	première partie	33						non	131
+2.H.c	2	première partie	33						non	132
+2.H.d	2	première partie	33						non	112
+2.H.2°	2	première partie	33						non	10
+2.H.a	2	première partie	33						non	91
+2.H.b	2	première partie	33						non	123
+2.H.c	2	première partie	33						non	102
+2.H.d	2	première partie	33						non	120
+2.H.e	2	première partie	33						non	112
+2.H.3°	2	première partie	33						non	155
+2.I	2	première partie	33	204 H					non	25
+2.I.1°	2	première partie	33						non	176
+2.I.2°	2	première partie	33						non	17
+2.I.a	2	première partie	33						non	2595
+2.I.b	2	première partie	33						non	2464
+2.I.c	2	première partie	33	1417					non	2720
+2.II	2	première partie	33	L. 136-8					oui	208
+2.III	2	première partie	33	81 ; L. 3261-3 ; L. 3261-3-1			dans la limite de ; par dérogation		non	700
+2.B	2	première partie	33	L. 3261-3					non	246
+2.IV	2	première partie	33			1er  janvier 2027			non	100
+2.B	2	première partie	33			1er  janvier 2027			non	103
+3.1	3	première partie	38	158					non	93
+3.1°	3	première partie	38						non	118
+3.2°	3	première partie	38						non	124
+3.3°	3	première partie	38						non	105
+4.I	4	première partie	39				dans la limite de	entre le 1er janvier 2027 et le	non	617
+4.B	4	première partie	39	200					non	488
+4.II	4	première partie	39	635					non	218
+4.III	4	première partie	39	784					non	121
+4.IV	4	première partie	39	790 G			par dérogation	entre le 1er janvier 2027 et le	non	288
+5.I	5	première partie	41						non	52
+5.I.1°	5	première partie	41	150-0 B ter					non	29
+5.I.a	5	première partie	41						non	123
+5.I.b	5	première partie	41						oui	22
+5.I.2°	5	première partie	41	163 bis H			sans préjudice		oui	147
+5.I.3°	5	première partie	41	167 bis					non	33
+5.I.a	5	première partie	41						non	137
+5.I.b	5	première partie	41						non	249
+5.I.c	5	première partie	41						non	526
+5.I.d	5	première partie	41						non	111
+5.I.e	5	première partie	41						oui	87
+5.I.4°	5	première partie	41				au plus ; au titre de ; peut		non	2536
+5.II	5	première partie	41						non	86
+6.I	6	première partie	43						non	48
+6.I.1°	6	première partie	43	L. 131-1-2 ; L. 131-1-3	par décret		peut ; peuvent		non	1924
+6.I.2°	6	première partie	43	L. 194-1					non	247
+6.II	6	première partie	43	L. 223-2-1					non	178
+6.III	6	première partie	43						non	54
+6.III.1°	6	première partie	43	122		1er  octobre 2026	peuvent		non	848
+6.III.2°	6	première partie	43	125-0 A					non	243
+6.III.3°	6	première partie	43	757 B					non	472
+6.IV	6	première partie	43			1er  juillet 2027 ; 1er  octobre 2026			non	193
+6.B	6	première partie	43			1er  juillet 2027 ; 1er  octobre 2026			non	336
+7.I	7	première partie	45						non	71
+7.A	7	première partie	45	L. 31-10-3	dans des conditions fixées par arrêté		peut		non	493
+7.B	7	première partie	45	L. 31-10-7			au titre de		non	301
+7.II	7	première partie	45						non	53
+7.A	7	première partie	45	39 C					non	24
+7.A.1°	7	première partie	45						non	10
+7.A.a	7	première partie	45						non	92
+7.A.b	7	première partie	45				par dérogation		non	2180
+7.A.c	7	première partie	45						non	175
+7.A.d	7	première partie	45						non	134
+7.A.2°	7	première partie	45						non	11
+7.A.a	7	première partie	45				le cas échéant		non	138
+7.A.b	7	première partie	45			1er  janvier 2027	dans la limite de ; par dérogation ; peut	jusqu’au	non	1136
+7.B	7	première partie	45	39 quinquies I					non	157
+7.C	7	première partie	45	199 ter T					non	491
+7.D	7	première partie	45	244 quater V					oui	96
+8.I	8	première partie	47						non	52
+8.I.1°	8	première partie	47	223 W			par dérogation		non	985
+8.I.2°	8	première partie	47	1384 A ; 1384 C ; 1384 C bis ; 1384 D					non	392
+8.II	8	première partie	47	L. 2335-3 ; L. 5216-8-1					non	314
+8.III	8	première partie	47			31  décembre 2023			non	81
+9.I	9	première partie	48						non	52
+9.A	9	première partie	48	39 decies G ; 39 decies H		1er  janvier 2030	peut ; peuvent ; à compter de	entre le 1er janvier 2027 et le	non	6687
+9.B	9	première partie	48	244 quater I					non	32
+9.B.1°	9	première partie	48						non	257
+9.B.2°	9	première partie	48						non	11
+9.B.a	9	première partie	48				notamment		oui	1281
+9.B.b	9	première partie	48						non	1298
+9.B.c	9	première partie	48						non	305
+9.II	9	première partie	48	244 quater I	par décret		peut ; à compter de		non	702
+10.I	10	première partie	51						non	52
+10.I.1°	10	première partie	51	39 decies G ; 39 decies J			au plus ; au titre de ; notamment ; par dérogation ; peut ; peuvent ; à compter de	entre le 1er janvier 2027 et le	non	9643
+10.I.2°	10	première partie	51	150-0 D ter					non	29
+10.I.a	10	première partie	51						non	1154
+10.I.b	10	première partie	51						non	101
+10.I.c	10	première partie	51				au titre de ; peut		non	770
+10.I.3°	10	première partie	51	721			à compter de		non	1936
+10.I.4°	10	première partie	51	726					non	21
+10.I.a	10	première partie	51						non	1131
+10.I.b	10	première partie	51				à compter de		non	1174
+10.I.5°	10	première partie	51	1584					non	234
+10.I.6°	10	première partie	51	1595 ter					non	26
+10.I.a	10	première partie	51						non	55
+10.I.b	10	première partie	51						non	192
+10.II	10	première partie	51					entre le 1er janvier 2027 et le	non	125
+11.I	11	première partie	54	244 quater C				jusqu’au	non	190
+11.II	11	première partie	54	23					non	150
+12.I	12	première partie	55						non	52
+12.I.1°	12	première partie	55	244 quater O ; 39 bis A					non	176
+12.I.2°	12	première partie	55	220 octies					non	144
+12.II	12	première partie	55	L. 454-22					non	135
+12.III	12	première partie	55	L. 454-19					non	144
+13.I	13	première partie	57						non	43
+13.A	13	première partie	57	L. 211-1					non	177
+13.B	13	première partie	57	L. 223-1					non	183
+13.C	13	première partie	57						non	46
+13.C.1°	13	première partie	57						non	119
+13.C.2°	13	première partie	57	L. 224-1			peut		non	681
+13.C.3°	13	première partie	57	L. 224-2					non	177
+13.C.4°	13	première partie	57	L. 224-3					non	368
+13.C.2°	13	première partie	57	L. 211-1			au plus ; au titre de ; peut	au plus tard le	non	5828
+13.D	13	première partie	57	L. 315-2					non	109
+13.II	13	première partie	57						non	53
+13.A	13	première partie	57	39 decies G ; 39 decies I			peut ; peuvent ; à compter de	entre le 1er janvier 2027 et le	non	5590
+13.B	13	première partie	57	200 undecies					non	32
+13.B.1°	13	première partie	57				dans la limite de ; peuvent		non	2005
+13.B.2°	13	première partie	57						non	12
+13.B.a	13	première partie	57				au titre de		non	157
+13.B.b	13	première partie	57						non	112
+13.C	13	première partie	57	1398 A					non	123
+13.III	13	première partie	57	92					oui	100
+13.IV	13	première partie	57	151					non	105
+13.A	13	première partie	57				au titre de ; peut		non	289
+13.B	13	première partie	57						non	130
+13.V	13	première partie	57			1er  janvier 2026			non	85
+13.B	13	première partie	57						non	56
+13.B.1°	13	première partie	57						non	113
+13.B.2°	13	première partie	57						non	83
+14.I	14	première partie	61	1001					non	67
+14.I.1°	14	première partie	61						non	78
+14.I.2°	14	première partie	61						non	229
+14.A	14	première partie	61		par arrêté ; par décret ; par un décret		au titre de	entre le 1er juillet 2026 et le	non	1560
+14.B	14	première partie	61				peuvent		non	458
+14.C	14	première partie	61				au titre de		non	965
+14.D	14	première partie	61	107					non	773
+14.E	14	première partie	61		un décret fixe				non	64
+14.III	14	première partie	61						non	162
+15.1	15	première partie	63						non	81
+15.I	15	première partie	63	48					non	22
+15.A	15	première partie	63						non	67
+15.B	15	première partie	63				au titre de		non	658
+15.C	15	première partie	63						non	13
+15.C.1°	15	première partie	63						non	10
+15.C.a	15	première partie	63			31  décembre 2025			non	166
+15.C.b	15	première partie	63						non	288
+15.C.c	15	première partie	63				au titre de		non	751
+15.C.d	15	première partie	63						non	165
+15.C.2°	15	première partie	63						non	10
+15.C.a	15	première partie	63			31  décembre 2025			non	166
+15.C.b	15	première partie	63				au titre de		non	348
+15.II	15	première partie	63	50					non	23
+15.A	15	première partie	63						non	110
+15.B	15	première partie	63						non	193
+15.C	15	première partie	63						non	50
+15.C.1°	15	première partie	63						non	309
+15.C.2°	15	première partie	63						non	290
+15.D	15	première partie	63			31  décembre 2025	à compter de		non	180
+15.E	15	première partie	63						non	52
+15.E.1°	15	première partie	63						non	170
+15.E.2°	15	première partie	63			31  décembre 2025			non	185
+16.1	16	première partie	65						non	170
+16.1°	16	première partie	65	L. 213-230					oui	106
+16.2°	16	première partie	65	L. 213-235					oui	35
+17.1	17	première partie	66						non	47
+17.1°	17	première partie	66	210-0 A					non	25
+17.a	17	première partie	66						non	212
+17.b	17	première partie	66						non	203
+17.c	17	première partie	66						non	214
+17.2°	17	première partie	66	235 ter X					non	46
+17.a	17	première partie	66						oui	351
+17.b	17	première partie	66						non	266
+18.I	18	première partie	67	39 quinquies G					non	77
+18.I.1°	18	première partie	67						non	10
+18.I.a	18	première partie	67						non	111
+18.I.b	18	première partie	67						non	285
+18.I.c	18	première partie	67				au titre de ; par dérogation ; peuvent		non	670
+18.I.2°	18	première partie	67						non	11
+18.I.a	18	première partie	67				peut		non	839
+18.I.b	18	première partie	67						non	110
+18.II	18	première partie	67			1er  janvier 2027			non	95
+19.I	19	première partie	69						non	232
+19.I.1°	19	première partie	69	L. 213-52					non	193
+19.I.2°	19	première partie	69	L. 216-31					non	332
+19.I.3°	19	première partie	69	L. 217-6					non	101
+19.I.4°	19	première partie	69	L. 226-6					non	121
+19.I.5°	19	première partie	69	L. 231-28			peut		non	337
+19.I.6°	19	première partie	69		par arrêté		peut		non	590
+19.I.7°	19	première partie	69	L. 231-36 ; L. 231-36-1			par dérogation		non	390
+19.I.8°	19	première partie	69	L. 312-15-1					non	342
+19.I.9°	19	première partie	69	L. 312-57-1					non	580
+19.I.10°	19	première partie	69	L. 312-58-1					non	156
+19.I.11°	19	première partie	69	L. 312-61					non	161
+19.I.12°	19	première partie	69	L. 312-69					non	28
+19.I.a	19	première partie	69						oui	79
+19.I.b	19	première partie	69						non	160
+19.I.13°	19	première partie	69	L. 312-70					non	116
+19.I.14°	19	première partie	69						non	83
+19.I.a	19	première partie	69						non	148
+19.I.b	19	première partie	69	L. 312-89					non	142
+19.I.15°	19	première partie	69	L. 313-29					non	122
+19.I.16°	19	première partie	69	L. 313-30-1					non	35
+19.I.a	19	première partie	69						non	312
+19.I.b	19	première partie	69						non	100
+19.I.17°	19	première partie	69	L. 433-36					oui	37
+19.I.18°	19	première partie	69	L. 433-52					non	111
+19.I.19°	19	première partie	69	L. 433-57					non	28
+19.I.a	19	première partie	69						non	134
+19.I.b	19	première partie	69						non	810
+19.I.20°	19	première partie	69	L. 433-60					oui	201
+19.I.21°	19	première partie	69	L. 433-61 ; L. 433-62					non	194
+19.I.22°	19	première partie	69	L. 433-86					non	44
+19.I.a	19	première partie	69						non	134
+19.I.b	19	première partie	69						non	1187
+19.I.23°	19	première partie	69	L. 433-89					oui	113
+19.I.24°	19	première partie	69	L. 433-92 ; L. 433-93					non	205
+19.I.25°	19	première partie	69	L. 453-29-1					non	106
+19.II	19	première partie	69	L. 611-5	par décret		au plus		oui	157
+19.III	19	première partie	69						non	160
+19.III.1°	19	première partie	69	4					non	258
+19.III.2°	19	première partie	69	7					non	320
+19.IV	19	première partie	69	94					non	113
+19.IV.1°	19	première partie	69						oui	26
+19.IV.2°	19	première partie	69						oui	115
+19.V	19	première partie	69	75					oui	203
+19.VI	19	première partie	69						non	373
+19.VI.1°	19	première partie	69	10					non	151
+19.VI.2°	19	première partie	69	11					non	142
+19.VI.3°	19	première partie	69	12					non	240
+19.VI.4°	19	première partie	69	20					non	26
+19.VI.a	19	première partie	69						non	116
+19.VI.b	19	première partie	69						oui	21
+19.VI.5°	19	première partie	69	31					oui	87
+19.VI.6°	19	première partie	69	33					non	20
+19.VI.a	19	première partie	69						non	218
+19.VI.b	19	première partie	69						non	259
+19.VI.7°	19	première partie	69	35					non	103
+19.VII	19	première partie	69						non	156
+19.VII.1°	19	première partie	69	2					oui	54
+19.VII.2°	19	première partie	69	3					oui	55
+19.VII.3°	19	première partie	69	10					non	124
+19.VIII	19	première partie	69						non	25
+19.VIII.1°	19	première partie	69						non	190
+19.VIII.2°	19	première partie	69						non	124
+20.I	20	première partie	73						non	75
+20.I.1°	20	première partie	73	L. 322-41					non	116
+20.I.2°	20	première partie	73	L. 322-46					non	41
+20.I.a	20	première partie	73				à compter de		non	503
+20.I.b	20	première partie	73						non	283
+20.I.3°	20	première partie	73	L. 322-48					non	41
+20.I.a	20	première partie	73						non	88
+20.I.b	20	première partie	73						non	81
+20.I.4°	20	première partie	73	L. 322-52					non	135
+20.I.5°	20	première partie	73	L. 322-54					non	111
+20.I.6°	20	première partie	73	L. 322-56					non	194
+20.I.7°	20	première partie	73	L. 322-57					non	177
+20.I.8°	20	première partie	73	L. 322-60					non	113
+20.I.9°	20	première partie	73	L. 433-15					non	123
+20.II	20	première partie	73	L. 322-54 ; L. 322-56	par un arrêté			entre le 1er janvier 2026 et le	non	520
+20.III	20	première partie	73			1er  janvier 2026			non	64
+21.I	21	première partie	74						non	114
+21.I.1°	21	première partie	74	L. 422-23					non	27
+21.I.a	21	première partie	74						non	110
+21.I.b	21	première partie	74						non	489
+21.I.2°	21	première partie	74	L. 422-25-1	un arrêté conjoint		par dérogation		non	1259
+21.I.3°	21	première partie	74	L. 422-25-2	par décret		par dérogation		non	1221
+21.I.4°	21	première partie	74	L. 422-26-2			par dérogation		non	523
+21.I.5°	21	première partie	74	L. 422-28					non	86
+21.I.6°	21	première partie	74	L. 422-45					non	98
+21.II	21	première partie	74						non	68
+21.II.1°	21	première partie	74	L. 6328-2					non	27
+21.II.a	21	première partie	74						non	79
+21.II.b	21	première partie	74						non	461
+21.II.c	21	première partie	74						non	88
+21.II.2°	21	première partie	74	L. 6328-3					non	27
+21.II.a	21	première partie	74						non	72
+21.II.b	21	première partie	74		par arrêté				non	237
+21.II.3°	21	première partie	74	L. 6328-4					non	27
+21.II.a	21	première partie	74						non	94
+21.II.b	21	première partie	74						non	74
+21.II.4°	21	première partie	74	L. 6763-11					non	1128
+21.II.5°	21	première partie	74	L. 6773-12					non	1129
+21.III	21	première partie	74	37					oui	237
+21.IV	21	première partie	74	L. 422-16					non	143
+21.V	21	première partie	74		par arrêté		peut		non	381
+22.1	22	première partie	77	L. 425-12					non	973
+23.I	23	première partie	78				au titre de		non	325
+23.II	23	première partie	78						non	161
+23.II.1°	23	première partie	78	L. 312-19 ; L. 312-20					non	160
+23.II.2°	23	première partie	78	L. 132-27-2 ; L. 223-25-4					non	202
+23.II.3°	23	première partie	78	13					non	144
+23.III	23	première partie	78						non	60
+23.IV	23	première partie	78						non	68
+23.V	23	première partie	78						non	244
+23.VI	23	première partie	78						non	428
+23.VII	23	première partie	78						non	278
+23.VIII	23	première partie	78	L. 518-23					non	552
+23.IX	23	première partie	78	L. 132-27-2 ; L. 223-25-4 ; L. 312-20					non	503
+24.I	24	première partie	80						non	75
+24.I.1°	24	première partie	80	L. 312-48					non	409
+24.I.2°	24	première partie	80	L. 312-53					non	43
+24.I.a	24	première partie	80						non	163
+24.I.b	24	première partie	80				peut		non	495
+24.I.3°	24	première partie	80	L. 312-56					non	249
+24.I.4°	24	première partie	80				par dérogation		non	2850
+24.II	24	première partie	80	300 bis					non	76
+24.II.1°	24	première partie	80		par décret				non	412
+24.II.2°	24	première partie	80						non	61
+24.II.a	24	première partie	80						non	85
+24.II.b	24	première partie	80						non	84
+24.II.3°	24	première partie	80						non	10
+24.II.a	24	première partie	80						non	232
+24.II.b	24	première partie	80						non	227
+24.II.c	24	première partie	80						non	141
+24.II.4°	24	première partie	80						non	100
+24.II.5°	24	première partie	80						non	11
+24.II.a	24	première partie	80		par décret				non	118
+24.II.b	24	première partie	80						non	292
+24.III	24	première partie	80						non	48
+24.III.1°	24	première partie	80						non	49
+24.III.a	24	première partie	80		un décret en conseil d’état précise		au plus ; au titre de ; le cas échéant ; notamment ; peut ; peuvent	au titre des années	non	7361
+24.III.b	24	première partie	80	31 ; L. 282-2 ; L. 287-11 ; L. 287-2 ; L. 287-3 ; L. 311-12 ; L. 311-39 ; L. 312-89 ; L. 446 ; L. 811-1	dans des conditions définies par arrêté ; par arrêté ; par décret ; par un arrêté ; un arrêté conjoint		au plus ; au titre de ; notamment ; peut ; peuvent ; à compter de	au plus tard le ; jusqu’au	non	20797
+24.III.2°	24	première partie	80	L. 287-3	par arrêté		peuvent ; sans préjudice		non	4366
+24.III.2°	24	première partie	80	L. 641-6					oui	40
+24.IV	24	première partie	80	L. 229-92					non	303
+24.V	24	première partie	80	L. 330-2					non	174
+24.VI	24	première partie	80	64					non	111
+24.VI.1°	24	première partie	80						oui	29
+24.VI.2°	24	première partie	80						oui	41
+24.VII	24	première partie	80						non	157
+24.VII.1°	24	première partie	80	7	par décret		au plus	au plus tard le	non	186
+24.VII.2°	24	première partie	80	19					non	114
+24.VIII	24	première partie	80	7					non	308
+24.A	24	première partie	80				au titre de		non	223
+24.B	24	première partie	80	L. 287-3			au titre de		non	365
+24.B.1°	24	première partie	80	300 bis ; 7					non	326
+24.B.2°	24	première partie	80	300 bis			au titre de		non	119
+24.B.a	24	première partie	80	300 bis			au titre de		non	136
+24.B.b	24	première partie	80						non	189
+24.B.c	24	première partie	80	300 bis ; 7 ; L. 287-3					non	734
+24.IX	24	première partie	80						non	98
+24.X	24	première partie	80	19	par arrêté		peuvent		non	480
+24.B	24	première partie	80			1er  janvier 2027			non	60
+24.C	24	première partie	80		par décret		peut		non	356
+24.D	24	première partie	80	7	par décret				non	289
+24.E	24	première partie	80			31  décembre 2026			non	60
+25.I	25	première partie	90	39 decies A					non	74
+25.I.1°	25	première partie	90						non	103
+25.I.2°	25	première partie	90			1er  janvier 2027	peuvent	jusqu’au	non	1377
+25.I.3°	25	première partie	90						non	104
+25.I.4°	25	première partie	90						non	125
+25.I.5°	25	première partie	90			1er  janvier 2027	peut ; à compter de	jusqu’au	non	1269
+25.I.6°	25	première partie	90						non	98
+25.II	25	première partie	90						non	76
+25.II.1°	25	première partie	90	L. 213-58-1					non	1298
+25.II.2°	25	première partie	90	L. 421-78					non	27
+25.II.a	25	première partie	90						non	192
+25.II.b	25	première partie	90						non	182
+25.II.3°	25	première partie	90	L. 421-79-1					non	65
+25.II.a	25	première partie	90						oui	36
+25.II.b	25	première partie	90						non	105
+25.II.4°	25	première partie	90	L. 421-90					non	27
+25.II.a	25	première partie	90						non	110
+25.II.b	25	première partie	90						non	170
+25.II.5°	25	première partie	90	L. 421-91					non	27
+25.II.a	25	première partie	90						non	128
+25.II.b	25	première partie	90						oui	186
+25.II.6°	25	première partie	90	L. 421-95					non	116
+25.II.7°	25	première partie	90	L. 421-99-3	par décret				non	328
+25.II.8°	25	première partie	90	L. 421-170					oui	37
+25.II.9°	25	première partie	90	L. 421-201					oui	117
+25.II.10°	25	première partie	90	L. 421-202					non	113
+25.II.11°	25	première partie	90	L. 421-242					non	29
+25.II.a	25	première partie	90						non	79
+25.II.b	25	première partie	90						non	76
+25.II.12°	25	première partie	90	L. 421-250 ; L. 421-250-1			par dérogation		non	298
+25.III	25	première partie	90	L. 256					non	261
+25.IV	25	première partie	90						non	87
+25.IV.1°	25	première partie	90	58					non	20
+25.IV.a	25	première partie	90						oui	27
+25.IV.b	25	première partie	90			1er  janvier 2027			non	260
+25.IV.2°	25	première partie	90	59					non	222
+25.V	25	première partie	90	1 ; 128 ; 137					non	463
+26.I	26	première partie	93						non	52
+26.I.1°	26	première partie	93	44 sexdecies					non	30
+26.I.a	26	première partie	93						non	126
+26.I.b	26	première partie	93						non	172
+26.I.2°	26	première partie	93	44 septdecies					non	111
+26.I.3°	26	première partie	93	1463 A ; 1463 B					non	188
+26.I.4°	26	première partie	93	1521					non	374
+26.I.5°	26	première partie	93	1599 quater B					non	116
+26.II	26	première partie	93	111					non	197
+27.I	27	première partie	94						non	120
+27.I.1°	27	première partie	94	1635 bis P					oui	142
+27.I.3°	27	première partie	94						non	28
+27.I.2°	27	première partie	94						non	145
+27.I.3°	27	première partie	94	1635 bis P	un décret en conseil d’état précise		peut ; à compter de		non	1613
+27.I.4°	27	première partie	94	1635 bis Q			à compter de		non	319
+27.I.5°	27	première partie	94	1635 bis Q ; 1635 bis R	un décret en conseil d’état précise		au titre de ; peut ; à compter de		non	2421
+27.II	27	première partie	94						non	91
+27.II.1°	27	première partie	94	27-1					non	445
+27.II.2°	27	première partie	94	28					non	20
+27.II.a	27	première partie	94						non	222
+27.II.b	27	première partie	94						non	231
+27.II.3°	27	première partie	94	29					non	258
+27.III	27	première partie	94	27					non	153
+27.IV	27	première partie	94		par décret		au plus	au plus tard le	non	192
+28.I	28	première partie	96						non	52
+28.A	28	première partie	96						non	196
+28.B	28	première partie	96	L. 224-6-5					non	30
+28.B.1°	28	première partie	96						non	121
+28.B.2°	28	première partie	96		un décret détermine		notamment		non	1034
+28.C	28	première partie	96	L. 224-6-8					non	30
+28.C.1°	28	première partie	96						non	262
+28.C.2°	28	première partie	96						non	250
+28.II	28	première partie	96						non	53
+28.A	28	première partie	96	28 ; 39 decies C	un arrêté conjoint				non	783
+28.B	28	première partie	96	150 V					non	54
+28.B.1°	28	première partie	96						non	101
+28.B.2°	28	première partie	96						non	235
+28.C	28	première partie	96	199 undecies C ; 244 quater X					non	842
+28.D	28	première partie	96	199 ter					non	38
+28.D.1°	28	première partie	96						non	22
+28.D.a	28	première partie	96						non	793
+28.D.b	28	première partie	96						non	128
+28.D.2°	28	première partie	96						non	777
+28.E	28	première partie	96	244 quater Y					non	821
+28.F	28	première partie	96	1395 G					non	26
+28.F.1°	28	première partie	96						non	316
+28.F.2°	28	première partie	96						non	190
+28.G	28	première partie	96	1649 bis C					non	145
+28.III	28	première partie	96						non	77
+28.A	28	première partie	96	28 ; L. 213-249	un arrêté conjoint				non	999
+28.B	28	première partie	96	L. 421-3-1					non	130
+28.C	28	première partie	96	L. 421-79					non	134
+28.D	28	première partie	96	L. 421-132-5					non	32
+28.D.1°	28	première partie	96						non	193
+28.D.2°	28	première partie	96						non	120
+28.IV	28	première partie	96				au titre de		non	120
+28.B	28	première partie	96			9  janvier 2028			non	93
+28.C	28	première partie	96			8  janvier 2026	par dérogation	jusqu’à la date	non	426
+29.I	29	première partie	99	1 ; 2 bis ; L. 80	un décret en conseil d’état précise		notamment ; à compter de	jusqu’au	non	1907
+29.II	29	première partie	99		un décret en conseil d’état détermine		au plus		non	250
+30.I	30	première partie	100						non	52
+30.I.1°	30	première partie	100	635-0 A			le cas échéant ; peut		non	563
+30.I.2°	30	première partie	100	639					non	139
+30.I.3°	30	première partie	100	1613 quater ; 1613 quinquies					non	847
+30.I.4°	30	première partie	100	1689					non	496
+30.I.5°	30	première partie	100	1729 C quater					non	607
+30.I.6°	30	première partie	100	1735 quater					non	29
+30.I.a	30	première partie	100						non	176
+30.I.b	30	première partie	100						non	230
+30.I.7°	30	première partie	100	1736					non	100
+30.I.8°	30	première partie	100	1740-00 A					non	28
+30.I.a	30	première partie	100						non	69
+30.I.b	30	première partie	100		un décret en conseil d’état précise		peut ; à compter de		non	1808
+30.II	30	première partie	100						non	76
+30.II.1°	30	première partie	100	L. 423-10					non	301
+30.II.2°	30	première partie	100	L. 423-11					non	229
+30.III	30	première partie	100						non	60
+30.III.1°	30	première partie	100	L. 10-0					non	106
+30.III.2°	30	première partie	100	L. 10-0					non	216
+30.III.3°	30	première partie	100	L. 45			peut		non	1238
+30.III.4°	30	première partie	100	L. 80	décret précise ; par décret en conseil d’état		au plus ; peut ; peuvent ; à compter de	jusqu’au	non	4835
+30.III.5°	30	première partie	100	L. 228					non	164
+30.III.6°	30	première partie	100	L. 262					non	24
+30.III.a	30	première partie	100		par décret en conseil d’état				non	817
+30.III.b	30	première partie	100		dans des conditions prévues par décret		peut ; sans préjudice		non	628
+30.III.c	30	première partie	100						non	250
+30.III.d	30	première partie	100						oui	20
+30.IV	30	première partie	100	154			au plus	jusqu’au	non	426
+31.I	31	première partie	104						non	52
+31.A	31	première partie	104	182 B			par dérogation ; peut		non	1313
+31.B	31	première partie	104	182 C	par arrêté ; par décret		peut ; à compter de	pour une durée de	non	3449
+31.II	31	première partie	104						non	59
+31.A	31	première partie	104	L. 47					non	27
+31.A.1°	31	première partie	104						non	168
+31.A.2°	31	première partie	104						non	11
+31.A.a	31	première partie	104				au plus ; peut		non	760
+31.A.b	31	première partie	104				au plus		non	508
+31.A.3°	31	première partie	104						oui	101
+31.B	31	première partie	104	L. 47			peut		non	369
+31.C	31	première partie	104						non	51
+31.C.1°	31	première partie	104	L. 113					non	137
+31.C.2°	31	première partie	104	L. 135					non	46
+31.C.a	31	première partie	104						non	69
+31.C.b	31	première partie	104						non	81
+31.C.3°	31	première partie	104	L. 135	un décret précise		peut		non	691
+31.D	31	première partie	104	L. 253	par décret				non	328
+31.III	31	première partie	104			1er  janvier 2027			non	100
+32.I	32	première partie	106	L. 311-41					non	141
+32.II	32	première partie	106	1788 F					non	227
+32.II.1°	32	première partie	106						non	72
+32.II.2°	32	première partie	106						non	73
+32.II.3°	32	première partie	106						non	201
+32.II.4°	32	première partie	106						non	269
+32.II.5°	32	première partie	106		par décret en conseil d’état		peut ; sans préjudice ; à compter de		non	2199
+32.III	32	première partie	106						non	47
+32.III.1°	32	première partie	106	L. 621-8					non	408
+32.III.2°	32	première partie	106	L. 756-2					non	55
+32.III.a	32	première partie	106						non	121
+32.III.b	32	première partie	106						non	399
+32.IV	32	première partie	106						non	91
+32.IV.1°	32	première partie	106	3					non	209
+32.IV.2°	32	première partie	106	3-2					non	21
+32.IV.a	32	première partie	106						non	482
+32.IV.b	32	première partie	106						non	185
+32.IV.3°	32	première partie	106	4					non	291
+32.IV.4°	32	première partie	106	31 ; 37 ; 6					non	237
+32.IV.5°	32	première partie	106	8					non	1029
+32.IV.6°	32	première partie	106	27 ; 48 ; 49					non	195
+32.IV.7°	32	première partie	106	32			peuvent		non	770
+32.IV.8°	32	première partie	106	36					non	20
+32.IV.a	32	première partie	106						non	145
+32.IV.b	32	première partie	106						non	124
+32.IV.9°	32	première partie	106	49					non	128
+32.IV.10°	32	première partie	106	51					oui	29
+32.V	32	première partie	106			1er  janvier 2027			non	62
+32.VI	32	première partie	106	8		1er  juillet 2026			non	219
+33.1	33	première partie	109						non	139
+33.1°	33	première partie	109						non	121
+33.2°	33	première partie	109						non	205
+34.I	34	première partie	110	L. 1613-1					non	168
+34.II	34	première partie	110	15			au titre de ; peut		non	378
+34.B	34	première partie	110						non	88
+34.B.1°	34	première partie	110	77					non	26
+34.B.a	34	première partie	110				au titre de		non	379
+34.B.b	34	première partie	110				au titre de		non	283
+34.B.2°	34	première partie	110	78					non	20
+34.B.a	34	première partie	110				au titre de		non	279
+34.B.b	34	première partie	110				au titre de		non	120
+34.C	34	première partie	110	1648 A			au titre de		non	204
+34.III	34	première partie	110	77			au titre de		non	2379
+35.1	35	première partie	112	L. 1615-6	par un arrêté	1er  janvier 2027			non	663
+36.I	36	première partie	113	16			au titre de ; peut		non	530
+36.II	36	première partie	113	8					non	513
+36.III	36	première partie	113	55					non	105
+36.III.1°	36	première partie	113				au titre de ; peut		non	432
+36.III.2°	36	première partie	113				au titre de ; peut		non	428
+37.I	37	première partie	114						non	446
+37.II	37	première partie	114						non	84
+37.B	37	première partie	114	73					non	291
+37.B.1°	37	première partie	114	L. 2334-4					non	236
+37.B.2°	37	première partie	114	L. 2334-2				entre le revenu moyen par habitant de la commune et le	non	236
+37.C	37	première partie	114						non	593
+37.C.1°	37	première partie	114						non	51
+37.C.2°	37	première partie	114						non	508
+37.C.3°	37	première partie	114						non	146
+37.D	37	première partie	114				par dérogation		non	47
+37.D.1°	37	première partie	114	73					non	106
+37.D.2°	37	première partie	114	L. 2336-3					non	108
+37.D.3°	37	première partie	114						non	80
+37.E	37	première partie	114	59 ; L. 2334-1 ; L. 2334-2					non	1307
+37.III	37	première partie	114						non	155
+37.B	37	première partie	114	73					non	358
+37.B.1°	37	première partie	114	L. 5211-29					non	318
+37.B.2°	37	première partie	114	L. 2334-2					non	311
+37.C	37	première partie	114						non	655
+37.C.1°	37	première partie	114						non	57
+37.C.2°	37	première partie	114						non	512
+37.C.3°	37	première partie	114						non	54
+37.D	37	première partie	114				par dérogation		non	47
+37.D.1°	37	première partie	114	73					non	175
+37.D.2°	37	première partie	114						non	124
+37.E	37	première partie	114	L. 2334-1 ; L. 2334-2					non	605
+37.IV	37	première partie	114						non	266
+37.B	37	première partie	114	208					non	310
+37.C	37	première partie	114						non	347
+37.C.1°	37	première partie	114						non	54
+37.C.2°	37	première partie	114						non	489
+37.C.3°	37	première partie	114						non	65
+37.D	37	première partie	114				par dérogation		non	47
+37.D.1°	37	première partie	114	73					non	80
+37.D.2°	37	première partie	114						non	85
+37.E	37	première partie	114						non	203
+37.V	37	première partie	114	29 ; 46 ; L. 2332-2 ; L. 3332-1-1	par un arrêté		à compter de		non	1160
+37.VI	37	première partie	114		un décret en conseil d’état précise				non	89
+38.I	38	première partie	118	41					non	103
+38.I.1°	38	première partie	118						non	107
+38.I.2°	38	première partie	118						non	1419
+38.II	38	première partie	118					au titre des années	non	1742
+38.III	38	première partie	118	40					non	1572
+38.IV	38	première partie	118					au titre des années	non	1600
+38.V	38	première partie	118	38					non	111
+38.V.1°	38	première partie	118						non	82
+38.V.2°	38	première partie	118						non	93
+38.V.3°	38	première partie	118						non	91
+38.V.4°	38	première partie	118						non	81
+38.V.5°	38	première partie	118						non	1808
+38.VI	38	première partie	118				au titre de		non	1696
+38.VII	38	première partie	118	39					non	180
+38.VIII	38	première partie	118	2				au titre des années	non	1056
+38.IX	38	première partie	118	L. 312-1					non	319
+39.1	39	première partie	123	76					non	106
+39.1°	39	première partie	123						non	66
+39.2°	39	première partie	123						oui	104
+39.3°	39	première partie	123						oui	20
+40.I	40	première partie	124	L. 5219-5					non	119
+40.I.1°	40	première partie	124						non	142
+40.I.2°	40	première partie	124						non	114
+40.II	40	première partie	124	78					non	128
+40.II.1°	40	première partie	124						non	85
+40.II.2°	40	première partie	124						non	66
+40.III	40	première partie	124	59					non	146
+40.III.1°	40	première partie	124						non	358
+40.III.2°	40	première partie	124						non	233
+40.III.3°	40	première partie	124						non	2307
+40.IV	40	première partie	124	255					non	115
+40.IV.1°	40	première partie	124						non	76
+40.IV.2°	40	première partie	124						non	100
+41.1	41	première partie	126				au titre de		non	5455
+42.I	42	première partie	127				au titre de ; le cas échéant		non	491
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127						non	1560
+42.D.2°	42	première partie	127	L. 1512-20 ; L. 3314-4 ; L. 43					non	5318
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	L. 342-21 ; L. 542-12-1					non	6421
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	L. 112 ; L. 542-12-3					non	6790
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	46-1 ; L. 5212 ; L. 7345					non	5682
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	11 ; 135 ; L. 322-15 ; L. 332-4 ; L. 6241-2					non	5844
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127						non	1180
+42.D.9°	42	première partie	127	L. 521-8-1					non	493
+42.D.10°	42	première partie	127	3 ; L. 116 ; L. 521-8-1					non	4219
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	4 ; L. 116 ; L. 116-1					non	5449
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127						non	2154
+42.D.1°	42	première partie	127	5-1					non	2758
+42.D.2°	42	première partie	127	5-1					non	1467
+42.D.4°	42	première partie	127	L. 521-8-1					non	814
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127						non	1492
+42.D.11°	42	première partie	127	L. 521-8-1					non	1344
+42.D.6°	42	première partie	127	L. 521-8-1					non	715
+42.D.3°	42	première partie	127	L. 521-8-1					non	3020
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	L. 1431-1 ; L. 443-1 ; L. 541-10-25-1					non	6714
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	20 ; 90			au titre de		non	5905
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	L. 2111 ; L. 542-11-1 ; L. 731					non	5663
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127						non	2192
+42.D.16°	42	première partie	127	115 ; L. 521-8-1					non	4316
+42.A	42	première partie	127						non	38
+42.D	42	première partie	127	36 X ; L. 121-6 ; L. 321 ; L. 6360 ; L. 742 ; L. 742-11-2			au titre de		non	7153
+42.A	42	première partie	127						non	45
+42.D	42	première partie	127	27-1 ; R. 4643-35					non	5379
+42.II	42	première partie	127	5-1					non	408
+42.B	42	première partie	127						non	49
+42.B.1°	42	première partie	127	L. 521-8-1					oui	47
+42.B.2°	42	première partie	127	L. 521-8-3					oui	81
+42.C	42	première partie	127	L. 471-58					non	95
+42.C.1°	42	première partie	127				sans préjudice		oui	92
+42.C.2°	42	première partie	127						oui	26
+42.D	42	première partie	127		par décret		au plus	au plus tard le	non	131
+42.III	42	première partie	127	L. 6241-2					non	633
+42.B	42	première partie	127	L. 6241-2					non	116
+42.IV	42	première partie	127	L. 642-13					non	89
+42.IV.1°	42	première partie	127						non	91
+42.IV.2°	42	première partie	127						non	140
+42.IV.3°	42	première partie	127						non	91
+42.IV.4°	42	première partie	127						non	142
+42.IV.5°	42	première partie	127						non	88
+42.IV.6°	42	première partie	127						non	88
+42.IV.7°	42	première partie	127						non	142
+42.IV.8°	42	première partie	127						non	87
+42.IV.9°	42	première partie	127				peut		non	470
+42.B	42	première partie	127			1er  janvier 2028			non	68
+42.V	42	première partie	127	130					non	114
+42.V.1°	42	première partie	127						non	83
+42.V.2°	42	première partie	127						non	83
+42.V.3°	42	première partie	127						non	81
+42.V.4°	42	première partie	127						non	80
+42.V.5°	42	première partie	127		par arrêté				non	569
+42.VI	42	première partie	127	46					non	151
+42.B	42	première partie	127						non	194
+42.VII	42	première partie	127						non	75
+42.VII.1°	42	première partie	127	L. 2531-17					non	84
+42.VII.2°	42	première partie	127	L. 2531-18					non	85
+42.VIII	42	première partie	127	43					oui	110
+42.IX	42	première partie	127	50 ; L. 1512-19					non	307
+43.1	43	première partie	145						non	237
+44.1	44	première partie	146	125 ; L. 422-21					non	401
+45.1	45	première partie	147	49			par dérogation		non	527
+46.I	46	première partie	148	46					non	112
+46.I.1°	46	première partie	148						non	82
+46.I.2°	46	première partie	148			1er  janvier 2028			oui	109
+46.I.3°	46	première partie	148	38 ; 39 ; 41 ; 51 ; 74 ; L. 1512-20 ; L. 4331-2			par dérogation		non	5164
+46.II	46	première partie	148						non	74
+46.II.1°	46	première partie	148	L. 2332-2					non	451
+46.II.2°	46	première partie	148	L. 3332-1-1					non	454
+46.II.3°	46	première partie	148	L. 4331-2-1					non	450
+46.II.4°	46	première partie	148	L. 4434-3					non	320
+46.II.5°	46	première partie	148	L. 4434-4					non	27
+46.II.a	46	première partie	148						oui	37
+46.II.b	46	première partie	148						non	118
+47.1	47	première partie	150	46					non	107
+47.I	47	première partie	150						non	12
+47.I.1°	47	première partie	150				peut		oui	222
+47.I.2°	47	première partie	150						oui	45
+47.II	47	première partie	150						oui	44
+48.1	48	première partie	151						non	760
+48.1°	48	première partie	151						non	17
+48.a	48	première partie	151				au titre de		non	104
+48.b	48	première partie	151						non	38
+48.2°	48	première partie	151						non	17
+48.a	48	première partie	151				au titre de		non	106
+48.b	48	première partie	151						non	36
+49.I	49	première partie	153	L. 131-8					non	84
+49.I.1°	49	première partie	153						non	203
+49.I.2°	49	première partie	153						non	72
+49.I.3°	49	première partie	153						non	187
+49.II	49	première partie	153			1er  février 2027			non	48
+50.1	50	première partie	155	L. 411-13 ; L. 431					non	572
+51.1	51	première partie	156						non	66
+51.I	51	première partie	156	L. 435-1					non	28
+51.I.1°	51	première partie	156						non	10
+51.I.a	51	première partie	156						oui	103
+51.I.b	51	première partie	156				peut		non	230
+51.I.2°	51	première partie	156						non	139
+51.II	51	première partie	156	L. 441-2-3-1					non	33
+51.II.1°	51	première partie	156						non	127
+51.II.2°	51	première partie	156		par décret				non	409
+52.I	52	première partie	157	L. 452-4	par arrêté		par dérogation		non	485
+52.II	52	première partie	157	L. 435-1 ; L. 452-4			par dérogation		non	307
+53.I	53	première partie	158	L. 2333-87					non	571
+53.II	53	première partie	158			1er  janvier 2027			non	124
+54.1	54	première partie	159						non	43
+54.1°	54	première partie	159	L. 132-2					oui	224
+54.2°	54	première partie	159	L. 612-3					non	26
+54.a	54	première partie	159						oui	64
+54.b	54	première partie	159				au titre de ; sans préjudice		non	2351
+55.1	55	première partie	161				au titre de		non	193
+56.I	56	première partie	162	L. 441-1			peut		non	555
+56.II	56	première partie	162	L. 440-1			peut		non	373
+56.II.1°	56	première partie	162						non	255
+56.II.2°	56	première partie	162						non	385
+57.I	57	première partie	164				peut		non	4616
+57.II	57	première partie	164						non	19
+57.II.1°	57	première partie	164						non	3174
+57.II.2°	57	première partie	164		dans des conditions fixées par décret				non	110
+57.II.a	57	première partie	164						non	187
+57.II.b	57	première partie	164						non	101
+57.II.c	57	première partie	164				peuvent		non	162
+57.II.d	57	première partie	164		par décret				non	537
+57.II.e	57	première partie	164						non	330
+57.II.3°	57	première partie	164						non	176
+57.II.4°	57	première partie	164						non	192
+57.II.5°	57	première partie	164						non	340
+57.III	57	première partie	164						non	169
+57.IV	57	première partie	164	34					non	697
+58.1	58	seconde partie	168						non	307
+59.1	59	seconde partie	169						non	311
+60.I	60	seconde partie	170						non	327
+60.II	60	seconde partie	170						non	329
+61.1	61	seconde partie	171						non	238
+62.I	62	seconde partie	172						non	241
+62.II	62	seconde partie	172						non	267
+63.1	63	seconde partie	173						non	3120
+64.1	64	seconde partie	175						non	11375
+65.I	65	seconde partie	178	66					non	876
+65.II	65	seconde partie	178						non	101
+66.1	66	seconde partie	179						non	1784
+67.1	67	seconde partie	180				peut ; peuvent		non	8321
+68.1	68	seconde partie	182						non	261
+69.I	69	seconde partie	183				peut	jusqu’au	non	808
+69.II	69	seconde partie	183				au plus ; notamment	au plus tard le	non	679
+69.III	69	seconde partie	183				notamment		non	391
+70.1	70	seconde partie	185				dans la limite de ; peut	jusqu’au	non	798
+71.1	71	seconde partie	186	157					non	143
+72.I	72	seconde partie	187						non	65
+72.I.1°	72	seconde partie	187	L. 351-5					non	115
+72.I.2°	72	seconde partie	187	L. 513-3			par dérogation		non	259
+72.I.3°	72	seconde partie	187	L. 514-4					non	298
+72.I.4°	72	seconde partie	187	L. 514-4 ; L. 514-4-1			par dérogation		non	453
+72.I.5°	72	seconde partie	187	L. 556-10 ; L. 556-10-1					non	454
+72.I.6°	72	seconde partie	187	L. 821-1	par un décret en conseil d’état				non	290
+72.I.7°	72	seconde partie	187						non	46
+72.I.a	72	seconde partie	187						non	128
+72.I.b	72	seconde partie	187	L. 824-1					non	223
+72.I.c	72	seconde partie	187		par décret ; par décret en conseil d’état		par dérogation ; peut		non	7389
+72.I.8°	72	seconde partie	187	L. 825-4					non	181
+72.II	72	seconde partie	187						non	81
+72.II.1°	72	seconde partie	187	L. 4					oui	238
+72.II.2°	72	seconde partie	187	L. 9					non	22
+72.II.a	72	seconde partie	187						non	300
+72.II.b	72	seconde partie	187						non	93
+72.II.3°	72	seconde partie	187	L. 11					non	274
+72.II.4°	72	seconde partie	187	L. 14					non	269
+72.II.5°	72	seconde partie	187	L. 13 ; L. 15					non	498
+72.II.3°	72	seconde partie	187	L. 514-4 ; L. 824-5					non	214
+72.II.6°	72	seconde partie	187	L. 24					non	29
+72.II.a	72	seconde partie	187						non	92
+72.II.b	72	seconde partie	187				par dérogation		non	806
+72.II.c	72	seconde partie	187						non	117
+72.II.7°	72	seconde partie	187	L. 25					non	109
+72.II.8°	72	seconde partie	187	L. 29			peut		non	444
+72.II.9°	72	seconde partie	187	L. 29					oui	32
+72.II.10°	72	seconde partie	187	L. 30					non	231
+72.II.11°	72	seconde partie	187	L. 30 bis					non	287
+72.II.12°	72	seconde partie	187	L. 38 ; L. 40					non	147
+72.III	72	seconde partie	187	30					non	352
+72.IV	72	seconde partie	187	76			par dérogation ; peut		non	551
+72.V	72	seconde partie	187			1er  juillet 2027			non	176
+72.VI	72	seconde partie	187	L. 824-5			au titre de		non	419
+73.I	73	seconde partie	192						non	65
+73.I.1°	73	seconde partie	192	L. 134-4 ; L. 134-4-1			à compter de		non	445
+73.I.2°	73	seconde partie	192	L. 134-12					non	127
+73.II	73	seconde partie	192	L. 4123-10					non	69
+73.II.1°	73	seconde partie	192				à compter de		non	393
+73.II.2°	73	seconde partie	192						non	86
+73.II.3°	73	seconde partie	192						non	124
+73.II.4°	73	seconde partie	192						non	264
+73.III	73	seconde partie	192						non	75
+73.III.1°	73	seconde partie	192	L. 2123-34			à compter de		non	465
+73.III.2°	73	seconde partie	192	L. 3123-28			à compter de		non	442
+73.III.3°	73	seconde partie	192	L. 4135-28			à compter de		non	437
+73.III.4°	73	seconde partie	192	L. 7125-35			à compter de		non	466
+73.III.5°	73	seconde partie	192	L. 7227-36					non	468
+73.IV	73	seconde partie	192	L. 142-1-12					non	231
+73.V	73	seconde partie	192				à compter de		non	191
+74.1	74	seconde partie	194	L. 823-4 ; L. 842-3			peut		non	274
+75.I	75	seconde partie	195	128					non	194
+75.II	75	seconde partie	195	179					non	113
+75.II.1°	75	seconde partie	195						non	103
+75.II.2°	75	seconde partie	195						non	221
+75.II.3°	75	seconde partie	195						oui	38
+75.II.4°	75	seconde partie	195						non	128
+76.1	76	seconde partie	197						non	38
+76.I	76	seconde partie	197	L. 165					non	188
+76.II	76	seconde partie	197	L. 166					non	27
+76.II.1°	76	seconde partie	197						non	229
+76.II.2°	76	seconde partie	197						non	166
+76.III	76	seconde partie	197	L. 330-6	dans des conditions fixées par décret				non	502
+76.IV	76	seconde partie	197	L. 330-13					oui	127
+76.V	76	seconde partie	197	L. 395					non	221
+77.1	77	seconde partie	199	172					oui	98
+78.I	78	seconde partie	200	L. 822-8 ; L. 822-8-1	un décret en conseil d’état précise		notamment ; peuvent		non	1060
+78.II	78	seconde partie	200			1er  septembre 2027			non	151
+79.I	79	seconde partie	201	L. 15 ; L. 61	par décret	1er  décembre 2027	par dérogation		non	1442
+79.II	79	seconde partie	201						non	285
+79.III	79	seconde partie	201	L. 4145-1 ; L. 83					non	461
+79.IV	79	seconde partie	201				par dérogation		non	450
+79.V	79	seconde partie	201		par décret				non	76
+80.I	80	seconde partie	203	3					oui	416
+80.II	80	seconde partie	203	L. 611-5					non	116
+80.II.1°	80	seconde partie	203						oui	26
+80.II.2°	80	seconde partie	203						non	84
+80.III	80	seconde partie	203	3					non	501
+80.IV	80	seconde partie	203	3		1er  janvier 2028			non	878
+81.1	81	seconde partie	205	L. 124-1-1					non	75
+81.I	81	seconde partie	205						non	26
+81.I.1°	81	seconde partie	205						non	78
+81.I.2°	81	seconde partie	205						non	295
+81.II	81	seconde partie	205						non	654
+82.I	82	seconde partie	206	225					non	104
+82.A	82	seconde partie	206						non	25
+82.A.1°	82	seconde partie	206		par arrêté		au titre de		non	1217
+82.A.2°	82	seconde partie	206						non	27
+82.A.a	82	seconde partie	206						non	120
+82.A.b	82	seconde partie	206				le cas échéant ; notamment		non	533
+82.A.3°	82	seconde partie	206						oui	38
+82.B	82	seconde partie	206						non	26
+82.B.1°	82	seconde partie	206						non	26
+82.B.a	82	seconde partie	206						oui	57
+82.B.b	82	seconde partie	206						non	93
+82.B.c	82	seconde partie	206						non	80
+82.B.2°	82	seconde partie	206						oui	37
+82.II	82	seconde partie	206	D. 314-15					non	502
+82.B	82	seconde partie	206		par arrêté		au titre de ; notamment ; à compter de		non	1379
+82.C	82	seconde partie	206		par arrêté		peuvent		non	1420
+82.D	82	seconde partie	206						non	142
+82.II	82	seconde partie	206						non	11
+82.III	82	seconde partie	206	L. 121-36 ; L. 446-18			notamment	entre le 25 juin 2026 et le	non	716
+82.B	82	seconde partie	206	L. 446-4					non	229
+82.IV	82	seconde partie	206	175					non	107
+82.IV.1°	82	seconde partie	206						non	11
+82.IV.a	82	seconde partie	206						non	279
+82.IV.b	82	seconde partie	206		arrêté détermine ; un arrêté détermine		notamment ; peut ; peuvent		non	2022
+82.IV.c	82	seconde partie	206		par arrêté		peut		non	654
+82.IV.d	82	seconde partie	206		par arrêté		peut		non	522
+82.IV.2°	82	seconde partie	206						non	16
+82.IV.a	82	seconde partie	206						non	217
+82.IV.b	82	seconde partie	206						non	109
+82.IV.c	82	seconde partie	206						non	134
+82.IV.d	82	seconde partie	206		par arrêté		dans la limite de		non	944
+82.B	82	seconde partie	206		par arrêté				non	274
+82.V	82	seconde partie	206	L. 121-7					non	65
+82.V.1°	82	seconde partie	206				au titre de		non	428
+82.V.2°	82	seconde partie	206				au titre de		non	237
+82.V.3°	82	seconde partie	206		un arrêté conjoint		au titre de ; notamment		non	1713
+82.VI	82	seconde partie	206	8					non	423
+82.B	82	seconde partie	206						non	280
+82.B.2°	82	seconde partie	206						non	303
+82.B.a	82	seconde partie	206		par un arrêté		peut		non	487
+82.B.b	82	seconde partie	206						non	395
+82.C	82	seconde partie	206				notamment		non	341
+82.C.1°	82	seconde partie	206						non	37
+82.C.a	82	seconde partie	206						non	85
+82.C.b	82	seconde partie	206						non	30
+82.C.c	82	seconde partie	206	L. 311-12 ; L. 314-1 ; R. 314-12					non	312
+82.C.d	82	seconde partie	206	L. 311-12 ; L. 314-1					non	317
+82.C.2°	82	seconde partie	206						non	32
+82.C.a	82	seconde partie	206	L. 311-12 ; L. 314-1					non	164
+82.C.b	82	seconde partie	206	L. 321-15					non	239
+82.C.c	82	seconde partie	206						non	91
+82.C.d	82	seconde partie	206						non	116
+82.D	82	seconde partie	206						non	112
+82.D.1°	82	seconde partie	206	L. 314-1					non	161
+82.D.2°	82	seconde partie	206	L. 311-12					non	130
+82.D.3°	82	seconde partie	206	8					non	189
+82.E	82	seconde partie	206						non	123
+82.E.1°	82	seconde partie	206	L. 314-1					non	161
+82.E.2°	82	seconde partie	206	8					non	188
+83.I	83	seconde partie	214						non	121
+83.I.1°	83	seconde partie	214	L. 2334-13					non	198
+83.I.2°	83	seconde partie	214	L. 2334-18-3					oui	64
+83.I.3°	83	seconde partie	214	L. 2334-20					non	124
+83.I.4°	83	seconde partie	214	L. 2334-21					non	28
+83.I.a	83	seconde partie	214						non	146
+83.I.b	83	seconde partie	214						oui	106
+83.I.5°	83	seconde partie	214	L. 2334-40					non	28
+83.I.a	83	seconde partie	214						oui	62
+83.I.b	83	seconde partie	214						oui	62
+83.I.6°	83	seconde partie	214	L. 2334-42					non	34
+83.I.a	83	seconde partie	214						oui	217
+83.I.b	83	seconde partie	214		par décret		au titre de		non	571
+83.I.7°	83	seconde partie	214	L. 2336-2					non	33
+83.I.a	83	seconde partie	214						oui	319
+83.I.b	83	seconde partie	214						non	247
+83.I.8°	83	seconde partie	214	L. 2336-3					non	115
+83.II	83	seconde partie	214						non	88
+83.II.1°	83	seconde partie	214	L. 3334-1					non	156
+83.II.2°	83	seconde partie	214	L. 3334-4					non	103
+83.II.3°	83	seconde partie	214	L. 3334-10					non	138
+83.III	83	seconde partie	214	L. 4332-9					non	240
+83.IV	83	seconde partie	214	250					non	160
+83.V	83	seconde partie	214	252					non	104
+83.V.1°	83	seconde partie	214				par dérogation		non	199
+83.V.2°	83	seconde partie	214						non	282
+83.V.3°	83	seconde partie	214				le cas échéant		non	219
+83.VI	83	seconde partie	214	196					non	268
+83.VII	83	seconde partie	214	L. 2334-7-2					non	320
+83.VIII	83	seconde partie	214	L. 2334-1 ; L. 2335-15					non	354
+83.IX	83	seconde partie	214	79			par dérogation		non	227
+83.IX.1°	83	seconde partie	214	L. 3334-16-3 ; L. 3335-2					non	161
+83.IX.a	83	seconde partie	214	L. 232-1 ; L. 232-8			au titre de		non	579
+83.IX.b	83	seconde partie	214	79 ; L. 223-8			au titre de		non	341
+83.IX.2°	83	seconde partie	214	L. 3334-16-3					non	247
+83.IX.3°	83	seconde partie	214	L. 232-1 ; L. 232-8 ; L. 3334-16-3					non	483
+83.X	83	seconde partie	214	199-1 ; 46 ; 55 ; L. 3332-1-1 ; L. 3334-7-1			à compter de		non	851
+84.I	84	seconde partie	218	186					non	112
+84.I.1°	84	seconde partie	218						oui	129
+84.I.2°	84	seconde partie	218				à compter de		non	287
+84.II	84	seconde partie	218	196					non	230
+85.1	85	seconde partie	219		par décret en conseil d’état		peut		non	1538
+86.1	86	seconde partie	220	L. 2335-2					non	239
+87.I	87	seconde partie	221				au titre de		non	222
+87.II	87	seconde partie	221				au titre de ; notamment ; peuvent		non	468
+87.III	87	seconde partie	221				au titre de		non	108
+87.IV	87	seconde partie	221		par un décret en conseil d’état		notamment		non	251
+88.I	88	seconde partie	222						non	44
+88.I.1°	88	seconde partie	222	L. 6123-5					non	27
+88.I.a	88	seconde partie	222						oui	234
+88.I.b	88	seconde partie	222						oui	38
+88.I.c	88	seconde partie	222		par décret		au plus	au plus tard le	non	491
+88.I.2°	88	seconde partie	222	L. 6211-3 ; L. 6522-3					oui	113
+88.I.3°	88	seconde partie	222	L. 6224-1					non	192
+88.I.4°	88	seconde partie	222	L. 6325-5	dans des conditions fixées par voie réglementaire				non	235
+88.I.5°	88	seconde partie	222	L. 6332-6					non	27
+88.I.a	88	seconde partie	222						oui	71
+88.I.b	88	seconde partie	222						non	407
+88.I.6°	88	seconde partie	222	L. 6333-7-1 ; L. 6362-1-1					non	307
+88.II	88	seconde partie	222		par décret		au plus	au plus tard le	non	122
+89.I	89	seconde partie	224						non	44
+89.I.1°	89	seconde partie	224	L. 6323-4					non	120
+89.I.2°	89	seconde partie	224	L. 6323-7					non	27
+89.I.a	89	seconde partie	224						non	36
+89.I.b	89	seconde partie	224		par arrêté ; par décret en conseil d’état ; un décret détermine		notamment ; peut		non	2500
+89.I.3°	89	seconde partie	224	L. 6313-5			peut		non	116
+89.I.4°	89	seconde partie	224	L. 6411-2			notamment ; peut ; peuvent		non	1720
+89.I.5°	89	seconde partie	224	L. 6412-3	par décret		dans la limite de		non	348
+89.I.6°	89	seconde partie	224	L. 6423-2					oui	36
+89.I.7°	89	seconde partie	224	L. 6423-3	un décret en conseil d’état détermine		notamment		non	977
+89.II	89	seconde partie	224	L. 6323-7		1er  octobre 2026			non	357
+89.B	89	seconde partie	224	L. 6423-3			au plus	au plus tard le	non	207

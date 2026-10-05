@@ -17,6 +17,8 @@ import portes_ouvertes as PO
 N1 = re.compile(r'(?m)^\s*(?P<m>(?:[IVX]+|\d+°|[A-H])\s*[.–\-])\s')
 N2 = re.compile(r'(?m)^\s*(?P<m>(?:\d+°|[a-h]\)|[A-H]\s*[.–\-]))\s')
 
+ALINEA = re.compile(r"(?m)^[ \t]*(?:\(\d+\)|[\ue000-\uf8ff]+)[ \t]+")
+
 # --- les cinq relevés ---------------------------------------------------------
 RENVOI = re.compile(
     r"(?:par (?:un )?décret(?: en Conseil d[’']État)?|par (?:un )?arrêté"
@@ -40,7 +42,12 @@ ABROGE = re.compile(r"(?:est|sont) (?:abrogés?|abrogées?|supprimés?|supprimé
 def mesures(art):
     """Une mesure = la subdivision la moins profonde sous laquelle un seul siège
     de droit est modifié. Profondeur bornée à deux niveaux (règle 2)."""
-    d = art["dispositif"]
+    # Le texte enregistré numérote ses alinéas en tête de ligne, « (12) » au PLF,
+    # par un glyphe de police privée au PLFSS. Le
+    # numéro est retiré avant découpage : sans quoi aucun rang ne se reconnaît
+    # et l'article entier passe pour une seule mesure. Sans effet sur un tirage
+    # qui ne les numérote pas.
+    d = ALINEA.sub("", art["dispositif"])
     cs = [m.start() for m in N1.finditer(d)]
     blocs = []
     if not cs:
