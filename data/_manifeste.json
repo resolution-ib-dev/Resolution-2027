@@ -1,7 +1,7 @@
 {
-  "millesime_legi": "20261001",
-  "jour_de_reference": "2026-10-01",
-  "archives": 448,
+  "millesime_legi": "20261006",
+  "jour_de_reference": "2026-10-07",
+  "archives": 454,
   "archive": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz",
   "plancher_historique": "2025-01-01",
   "extrait_le": "",
@@ -9,8 +9,8 @@
     "code général des impôts": {
       "fichier": "cgi.jsonl.gz",
       "articles": 3484,
-      "octets": 2343027,
-      "sha256": "afddef0b380c5ffe0774f3ca47903cc3de21fcc0c410bf6db9346e43c07474c1",
+      "octets": 2427730,
+      "sha256": "4c2f82ab882cd92e4b91c97d4858f28930f643e49e42871ad85ab219e335feac",
       "court": "cgi",
       "applicables": 2410,
       "a_venir": 226,
@@ -39,24 +39,32 @@
         "1006",
         "1018 A bis"
       ],
-      "sections_rattachees": 3484
+      "sections_rattachees": 3482,
+      "chaines": {
+        "articles": 3484,
+        "chaines_completes": 3482,
+        "placements_ambigus": 22,
+        "sans_lien": 2,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0
+      }
     },
     "code des impositions sur les biens et services": {
       "fichier": "cibs.jsonl.gz",
-      "articles": 4496,
-      "octets": 568910,
-      "sha256": "81647534ece94d54dd6922c92806767ed8e53201afe8cc8e8d884a908768ae2c",
+      "articles": 4497,
+      "octets": 610530,
+      "sha256": "2c5c7acf4fa8819590a6c9b5a5eea14ef0c1f40f70adc5e5942adb9e599e939a",
       "court": "cibs",
       "applicables": 1769,
-      "a_venir": 1438,
-      "fin_programmee": 284,
+      "a_venir": 1439,
+      "fin_programmee": 285,
       "historiques": 1289,
       "etats": {
-        "VIGUEUR": 1482,
-        "ABROGE_DIFF": 279,
+        "VIGUEUR": 1481,
+        "ABROGE_DIFF": 280,
         "MODIFIE": 226,
         "ABROGE": 19,
-        "VIGUEUR_DIFF": 1380,
+        "VIGUEUR_DIFF": 1381,
         "MODIFIE_MORT_NE": 1086,
         "TRANSFERE": 24
       },
@@ -73,23 +81,31 @@
         "A161-19",
         "A161-20"
       ],
-      "sections_rattachees": 4496
+      "sections_rattachees": 4488,
+      "chaines": {
+        "articles": 4497,
+        "chaines_completes": 4488,
+        "sans_lien": 9,
+        "titres_ambigus": 1,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de la sécurité sociale": {
       "fichier": "css.jsonl.gz",
-      "articles": 8538,
-      "octets": 2649364,
-      "sha256": "71d9aba95517d7bc0eb7867d267c774f978509bb6313708fc0383a8e3003b538",
+      "articles": 8541,
+      "octets": 2827949,
+      "sha256": "67f1223d3800cdfa132d986512441e8cc214ee784a592ac0c6a032e9391346fe",
       "court": "css",
       "applicables": 7429,
       "a_venir": 184,
       "fin_programmee": 116,
-      "historiques": 925,
+      "historiques": 928,
       "etats": {
         "VIGUEUR": 7303,
         "ABROGE": 83,
         "ABROGE_DIFF": 116,
-        "MODIFIE": 804,
+        "MODIFIE": 807,
         "TRANSFERE": 21,
         "INCONNU": 9,
         "MODIFIE_MORT_NE": 24,
@@ -108,13 +124,21 @@
         "A931-1-6",
         "A931-1-7"
       ],
-      "sections_rattachees": 8538
+      "sections_rattachees": 8536,
+      "chaines": {
+        "articles": 8541,
+        "chaines_completes": 8536,
+        "placements_ambigus": 14,
+        "sans_lien": 5,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0
+      }
     },
     "code général des collectivités territoriales": {
       "fichier": "cgct.jsonl.gz",
       "articles": 7931,
-      "octets": 1845680,
-      "sha256": "db15d0879928ad1feecfda687eb3fa868e75bfefecc93ca3dd2cbacecb58d5f5",
+      "octets": 2008416,
+      "sha256": "7b3b9da18bc08538a2701b680242de9ddebbdb3262eb58734e47f7fcd1e33d37",
       "court": "cgct",
       "applicables": 6620,
       "a_venir": 103,
@@ -142,13 +166,21 @@
         "Annexe H",
         "Annexe I"
       ],
-      "sections_rattachees": 7931
+      "sections_rattachees": 7919,
+      "chaines": {
+        "articles": 7931,
+        "chaines_completes": 7919,
+        "sans_lien": 12,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code du travail": {
       "fichier": "travail.jsonl.gz",
       "articles": 12143,
-      "octets": 2096281,
-      "sha256": "51300033bdc44f95c14641316d864649127805840a7c7a7d58e598e2199d9cef",
+      "octets": 2326634,
+      "sha256": "c46ad3fdf4a6e02a6182a14eafe8feddce09e665e89ebedcb2d0cfaab8c9795d",
       "court": "travail",
       "applicables": 11595,
       "a_venir": 92,
@@ -176,13 +208,21 @@
         "D1143-10",
         "D1143-11"
       ],
-      "sections_rattachees": 12133
+      "sections_rattachees": 12141,
+      "chaines": {
+        "articles": 12143,
+        "chaines_completes": 12141,
+        "placements_ambigus": 15,
+        "sans_lien": 2,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0
+      }
     },
     "code de la construction et de l'habitation": {
       "fichier": "cch.jsonl.gz",
       "articles": 4334,
-      "octets": 1448232,
-      "sha256": "915d3f0497088641f42d4b8f3c6f38fd2d1f85e7c929b2f7303d6f9b340cd8fa",
+      "octets": 1515305,
+      "sha256": "1379deca22db0a974f2ef9f0ae5ed17a2fccbdf805cf335f6e3aed57481064f2",
       "court": "cch",
       "applicables": 4118,
       "a_venir": 68,
@@ -210,26 +250,34 @@
         "Annexe I à l'article D353-200",
         "Annexe I à l'article D353-32"
       ],
-      "sections_rattachees": 4333
+      "sections_rattachees": 4333,
+      "chaines": {
+        "articles": 4334,
+        "chaines_completes": 4333,
+        "sans_lien": 1,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de l'environnement": {
       "fichier": "environnement.jsonl.gz",
-      "articles": 7775,
-      "octets": 2361062,
-      "sha256": "8fd7ab185fcae2f18e0b256481e7bb5e570d76d3481f0be4d08d9f9a7032942a",
+      "articles": 7778,
+      "octets": 2485435,
+      "sha256": "d954957b5d8139b12e828e8efd6c8778e05198dee2f174017a3845b47267f702",
       "court": "environnement",
       "applicables": 7284,
-      "a_venir": 51,
-      "fin_programmee": 42,
-      "historiques": 440,
+      "a_venir": 53,
+      "fin_programmee": 44,
+      "historiques": 441,
       "etats": {
-        "VIGUEUR": 7235,
-        "MODIFIE": 396,
-        "ABROGE_DIFF": 42,
+        "VIGUEUR": 7233,
+        "MODIFIE": 397,
+        "ABROGE_DIFF": 44,
         "ABROGE": 40,
         "MODIFIE_MORT_NE": 5,
         "TRANSFERE": 2,
-        "VIGUEUR_DIFF": 54,
+        "VIGUEUR_DIFF": 56,
         "ANNULE": 1
       },
       "temoin": "L541-10-1",
@@ -245,13 +293,21 @@
         "Annexe de l'article R214-85",
         "Annexe de l'article R221-29"
       ],
-      "sections_rattachees": 7774
+      "sections_rattachees": 7771,
+      "chaines": {
+        "articles": 7778,
+        "chaines_completes": 7771,
+        "placements_ambigus": 1,
+        "chaines_incompletes": 6,
+        "sans_lien": 1,
+        "titres_ambigus": 0
+      }
     },
     "livre des procédures fiscales": {
       "fichier": "lpf.jsonl.gz",
       "articles": 1228,
-      "octets": 363150,
-      "sha256": "55978491140fc415d6575c69e0b82bcc4c96057979e54ff841dd4ce2704583fa",
+      "octets": 379904,
+      "sha256": "b3e9ded9b1553af8ef7573cccb1b366d9c3b872405a8deac8adfffdf5f757d7e",
       "court": "lpf",
       "applicables": 919,
       "a_venir": 135,
@@ -279,13 +335,21 @@
         "A228-1",
         "A26-1"
       ],
-      "sections_rattachees": 1228
+      "sections_rattachees": 1225,
+      "chaines": {
+        "articles": 1228,
+        "chaines_completes": 1225,
+        "sans_lien": 3,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code civil": {
       "fichier": "civil.jsonl.gz",
       "articles": 2922,
-      "octets": 376868,
-      "sha256": "53308ab64617df05c4ca1e4c48872bdfdd90bb5f836a792b311123d0108fb354",
+      "octets": 396279,
+      "sha256": "d6163e904501ec1e0654a8cd76e50eeb6a8289fbaec1022a617a0a75260e5d58",
       "court": "civil",
       "applicables": 2899,
       "a_venir": 4,
@@ -311,13 +375,21 @@
         "1004",
         "1005"
       ],
-      "sections_rattachees": 2922
+      "sections_rattachees": 2922,
+      "chaines": {
+        "articles": 2922,
+        "chaines_completes": 2922,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code général de la propriété des personnes publiques": {
       "fichier": "cg3p.jsonl.gz",
       "articles": 1165,
-      "octets": 208995,
-      "sha256": "ed008ccfc1e80d415106672da6d702d62955c43a3485d2918bff491a5cb74aea",
+      "octets": 226655,
+      "sha256": "138465e29690b74361a834f9ee682580891e90c0dda0ddbba9cab510896d877c",
       "court": "cg3p",
       "applicables": 1132,
       "a_venir": 4,
@@ -342,13 +414,21 @@
         "D2124-75-1",
         "D2141-1"
       ],
-      "sections_rattachees": 1165
+      "sections_rattachees": 1165,
+      "chaines": {
+        "articles": 1165,
+        "chaines_completes": 1165,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code monétaire et financier": {
       "fichier": "monetaire.jsonl.gz",
       "articles": 6218,
-      "octets": 1865235,
-      "sha256": "72612cb9cf8b76c8bcbe23b77774fac00b138334d1235e8c3ef2ae354921f811",
+      "octets": 1980499,
+      "sha256": "0408750ae8822e9e8be0093f8a2e40a04ef83ef49dbae12e3417da9bb032f2e9",
       "court": "monetaire",
       "applicables": 5314,
       "a_venir": 143,
@@ -376,20 +456,28 @@
         "D112-1",
         "D112-2"
       ],
-      "sections_rattachees": 6218
+      "sections_rattachees": 6217,
+      "chaines": {
+        "articles": 6218,
+        "chaines_completes": 6217,
+        "placements_ambigus": 322,
+        "sans_lien": 1,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0
+      }
     },
     "code de commerce": {
       "fichier": "commerce.jsonl.gz",
-      "articles": 7664,
-      "octets": 2022994,
-      "sha256": "70a83369451c9d9709e9fd6891f68249d226bcb10b0097a18930d59c5320cdd5",
+      "articles": 7663,
+      "octets": 2125332,
+      "sha256": "6fb6a1ff70f58459a7f6010f4150c1d049c112fa196845d71191c1a22853e23e",
       "court": "commerce",
-      "applicables": 7291,
+      "applicables": 7290,
       "a_venir": 72,
       "fin_programmee": 38,
       "historiques": 301,
       "etats": {
-        "VIGUEUR": 7250,
+        "VIGUEUR": 7249,
         "MODIFIE": 264,
         "ABROGE": 36,
         "ABROGE_DIFF": 38,
@@ -409,13 +497,21 @@
         "A123-15",
         "A123-16"
       ],
-      "sections_rattachees": 7663
+      "sections_rattachees": 7658,
+      "chaines": {
+        "articles": 7663,
+        "chaines_completes": 7658,
+        "sans_lien": 5,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de l'éducation": {
       "fichier": "education.jsonl.gz",
       "articles": 5623,
-      "octets": 1633863,
-      "sha256": "d73963e15b617509da13191ac9ca168e9c10b8fb95723e2ceaba939f769b5b4b",
+      "octets": 1720866,
+      "sha256": "a79de6902aaa8a6085c353d8686224ae70b9b1841b6177cf653a44bef3d9b256",
       "court": "education",
       "applicables": 5022,
       "a_venir": 32,
@@ -443,20 +539,28 @@
         "D111-15",
         "D111-2"
       ],
-      "sections_rattachees": 5623
+      "sections_rattachees": 5606,
+      "chaines": {
+        "articles": 5623,
+        "chaines_completes": 5606,
+        "sans_lien": 17,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de l'action sociale et des familles": {
       "fichier": "casf.jsonl.gz",
-      "articles": 3989,
-      "octets": 1220114,
-      "sha256": "51de226cd0b9c948f2b18f83f383138a2bd0115f1521b13c8f0962aa6a4c34b6",
+      "articles": 3990,
+      "octets": 1283746,
+      "sha256": "36b1a2a42bd78f3bcfe59d5a3225f271319ca9e8f8a28945d5c7c0b6a2c648b0",
       "court": "casf",
-      "applicables": 3690,
+      "applicables": 3691,
       "a_venir": 44,
       "fin_programmee": 31,
       "historiques": 255,
       "etats": {
-        "VIGUEUR": 3659,
+        "VIGUEUR": 3660,
         "MODIFIE": 215,
         "ABROGE_DIFF": 31,
         "ABROGE": 38,
@@ -477,18 +581,26 @@
         "Annexe 2-3-1",
         "Annexe 2-3-2"
       ],
-      "sections_rattachees": 3989
+      "sections_rattachees": 3989,
+      "chaines": {
+        "articles": 3990,
+        "chaines_completes": 3989,
+        "sans_lien": 1,
+        "placements_ambigus": 6,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0
+      }
     },
     "code du sport": {
       "fichier": "sport.jsonl.gz",
-      "articles": 2098,
-      "octets": 732442,
-      "sha256": "554b66a28298f3e599b5749fbdb85ad36671f8fafdca16bd071918319c44a13f",
+      "articles": 2100,
+      "octets": 778512,
+      "sha256": "86a49691a49eddb0d60cdbf3404e2a00833a45aa3d3e99d4179cae55c4068c69",
       "court": "sport",
       "applicables": 1915,
       "a_venir": 9,
       "fin_programmee": 9,
-      "historiques": 174,
+      "historiques": 176,
       "etats": {
         "VIGUEUR": 1906,
         "MODIFIE": 170,
@@ -496,7 +608,7 @@
         "TRANSFERE": 1,
         "ABROGE": 1,
         "VIGUEUR_DIFF": 9,
-        "MODIFIE_MORT_NE": 2
+        "MODIFIE_MORT_NE": 4
       },
       "temoin": "L100-1",
       "exemples_applicables": [
@@ -511,13 +623,21 @@
         "A112-5",
         "A112-6"
       ],
-      "sections_rattachees": 2098
+      "sections_rattachees": 2100,
+      "chaines": {
+        "articles": 2100,
+        "chaines_completes": 2100,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code du patrimoine": {
       "fichier": "patrimoine.jsonl.gz",
       "articles": 1662,
-      "octets": 338459,
-      "sha256": "3e119bf0e54612b585f71e4f8d745628225373f6e3f14a52e21ee97cf5583c64",
+      "octets": 356777,
+      "sha256": "fb73296112ead5e4cb36f83c3ff7bde80ad9f17c7e09b9387eac3d69f26df329",
       "court": "patrimoine",
       "applicables": 1637,
       "a_venir": 4,
@@ -544,23 +664,31 @@
         "D111-25",
         "D113-10"
       ],
-      "sections_rattachees": 1662
+      "sections_rattachees": 1662,
+      "chaines": {
+        "articles": 1662,
+        "chaines_completes": 1662,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code des transports": {
       "fichier": "transports.jsonl.gz",
-      "articles": 10016,
-      "octets": 2020755,
-      "sha256": "9604d99ee38012c202a78dcb3db8d60774eaca8f764c0a7e51f76d6ea402dce5",
+      "articles": 10017,
+      "octets": 2187389,
+      "sha256": "9a35bc22227cd5d5e9a4d1613caf9b694a3c8f2f0d93b812358841dd2413d70e",
       "court": "transports",
       "applicables": 9269,
       "a_venir": 104,
       "fin_programmee": 95,
-      "historiques": 643,
+      "historiques": 644,
       "etats": {
         "VIGUEUR": 9172,
         "ABROGE_DIFF": 95,
         "ABROGE": 85,
-        "MODIFIE": 551,
+        "MODIFIE": 552,
         "VIGUEUR_DIFF": 101,
         "MODIFIE_MORT_NE": 3,
         "TRANSFERE": 7,
@@ -579,13 +707,21 @@
         "A2271-17",
         "A2271-18"
       ],
-      "sections_rattachees": 10016
+      "sections_rattachees": 10014,
+      "chaines": {
+        "articles": 10017,
+        "chaines_completes": 10014,
+        "sans_lien": 3,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de la défense": {
       "fichier": "defense.jsonl.gz",
       "articles": 3662,
-      "octets": 691546,
-      "sha256": "3f9d608730c9bf67db90d5b8c93054350dd7832aa375ce100691e4f14acca3fd",
+      "octets": 759956,
+      "sha256": "de5131eb45ecbd9358c730db594608516f4223a3e558c7b155af6a0988ae89f4",
       "court": "defense",
       "applicables": 3435,
       "a_venir": 27,
@@ -612,13 +748,21 @@
         "D*1221-2",
         "D*1221-3"
       ],
-      "sections_rattachees": 3662
+      "sections_rattachees": 3662,
+      "chaines": {
+        "articles": 3662,
+        "chaines_completes": 3662,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de l'énergie": {
       "fichier": "energie.jsonl.gz",
       "articles": 3708,
-      "octets": 940643,
-      "sha256": "13a7b5f126bf2e9b44b97b72696e7e43168ea519df77baed28a76e8868c16d3c",
+      "octets": 1006741,
+      "sha256": "27020d79bfe6dd654315b3ff3c6290fb01ed5b9075c7626ff1eab8957e4ee20e",
       "court": "energie",
       "applicables": 3232,
       "a_venir": 9,
@@ -646,13 +790,21 @@
         "D111-20",
         "D111-21"
       ],
-      "sections_rattachees": 3704
+      "sections_rattachees": 3700,
+      "chaines": {
+        "articles": 3708,
+        "chaines_completes": 3700,
+        "sans_lien": 8,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code des douanes": {
       "fichier": "douanes.jsonl.gz",
       "articles": 2134,
-      "octets": 378588,
-      "sha256": "95384dc305a5b48a8fb9e1660f22ad51835a37fc937c08e3fc2c526c7e0b2fb5",
+      "octets": 403648,
+      "sha256": "f22dec80f270a0c5393b57f57f28afc36e56eab0a0a5d60617c5557c183c6649",
       "court": "douanes",
       "applicables": 1435,
       "a_venir": 91,
@@ -680,13 +832,21 @@
         "A232-1",
         "A234-1"
       ],
-      "sections_rattachees": 2134
+      "sections_rattachees": 2126,
+      "chaines": {
+        "articles": 2134,
+        "chaines_completes": 2126,
+        "placements_ambigus": 6,
+        "sans_lien": 8,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0
+      }
     },
     "loi n° 2025-127 du 14 février 2025": {
       "fichier": "loi2025_127.jsonl.gz",
       "articles": 255,
-      "octets": 156192,
-      "sha256": "fbac9749fcc8ce5d3d2a9f4c192a043730ca710a4a1bb44cf29f158fbe2f32be",
+      "octets": 158747,
+      "sha256": "f487a64301aa03e37e04089053cc3d9d7393562bd17fe2da649fc6332c7e58ab",
       "court": "loi2025_127",
       "applicables": 146,
       "a_venir": 59,
@@ -713,13 +873,21 @@
         "110",
         "111"
       ],
-      "sections_rattachees": 254
+      "sections_rattachees": 254,
+      "chaines": {
+        "articles": 255,
+        "chaines_completes": 254,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de la santé publique": {
       "fichier": "sante.jsonl.gz",
       "articles": 14973,
-      "octets": 3466107,
-      "sha256": "8e0b1a051de5ff0942c6ffecf8f9b9bc8cd00f2a7728f05cef0cd3f7b2865cd5",
+      "octets": 3726230,
+      "sha256": "d659055d333dce9d76b59c8d4e9839c7fbe544fe5b6e4cf20781b54128688d31",
       "court": "sante",
       "applicables": 13674,
       "a_venir": 138,
@@ -748,13 +916,21 @@
         "Annexe 11-7-1",
         "Annexe 11-7-2"
       ],
-      "sections_rattachees": 14967
+      "sections_rattachees": 14967,
+      "chaines": {
+        "articles": 14973,
+        "chaines_completes": 14967,
+        "placements_ambigus": 5,
+        "chaines_incompletes": 3,
+        "sans_lien": 3,
+        "titres_ambigus": 0
+      }
     },
     "loi n° 2020-1721 du 29 décembre 2020": {
       "fichier": "loi2020_1721.jsonl.gz",
       "articles": 290,
-      "octets": 77748,
-      "sha256": "4de9a28a9840bde6911386d71c939bd7abbbfb90bf879851f44619872f693650",
+      "octets": 79691,
+      "sha256": "598d1e52edee6fd44e5f49094b0efda33efe29b8d3761e912ec35e5ef352467f",
       "court": "loi2020_1721",
       "applicables": 171,
       "a_venir": 103,
@@ -779,7 +955,15 @@
         "109",
         "11"
       ],
-      "sections_rattachees": 289
+      "sections_rattachees": 289,
+      "chaines": {
+        "articles": 290,
+        "chaines_completes": 289,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "ordonnance n° 2021-1843 du 22 décembre 2021": {
       "fichier": "ord2021_1843.jsonl.gz",
@@ -810,13 +994,21 @@
         "41",
         "7"
       ],
-      "sections_rattachees": 49
+      "sections_rattachees": 49,
+      "chaines": {
+        "articles": 49,
+        "chaines_completes": 49,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2019-1479 du 28 décembre 2019": {
       "fichier": "loi2019_1479.jsonl.gz",
       "articles": 294,
-      "octets": 130034,
-      "sha256": "2b68fdf90c12741826479f03ab4c800bf7a4238bc6a3b2dfd5bf2c0017e7f5b3",
+      "octets": 132373,
+      "sha256": "7ddc74609152030947615823d8c3718776a30e39ee2971346b1399737c7d0ef9",
       "court": "loi2019_1479",
       "applicables": 186,
       "a_venir": 95,
@@ -840,13 +1032,21 @@
         "108",
         "109"
       ],
-      "sections_rattachees": 293
+      "sections_rattachees": 293,
+      "chaines": {
+        "articles": 294,
+        "chaines_incompletes": 1,
+        "chaines_completes": 293,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2023-1322 du 29 décembre 2023": {
       "fichier": "loi2023_1322.jsonl.gz",
       "articles": 292,
-      "octets": 119201,
-      "sha256": "c31236cbfd306d1e447c4f244754bce4398f15a99e40d38de391c24e1336f95f",
+      "octets": 121386,
+      "sha256": "d8ea1927db4807748dd7297ab8711ba677915bf36bc953b34f43d6b89270218d",
       "court": "loi2023_1322",
       "applicables": 149,
       "a_venir": 120,
@@ -872,13 +1072,21 @@
         "109",
         "11"
       ],
-      "sections_rattachees": 291
+      "sections_rattachees": 291,
+      "chaines": {
+        "articles": 292,
+        "chaines_completes": 291,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2022-1157 du 16 août 2022": {
       "fichier": "loi2022_1157.jsonl.gz",
       "articles": 53,
-      "octets": 20548,
-      "sha256": "a85a57e5fbde8cf90f1ae82abc4dccb82e1c56e15566b6e74f6216d34d138cf4",
+      "octets": 20801,
+      "sha256": "94413a2df6e4b7da6d61f5ee0ecc27947510d01577160cb0c82bd0e32217ce2b",
       "court": "loi2022_1157",
       "applicables": 35,
       "a_venir": 13,
@@ -903,13 +1111,21 @@
         "19",
         "2"
       ],
-      "sections_rattachees": 52
+      "sections_rattachees": 52,
+      "chaines": {
+        "articles": 53,
+        "chaines_completes": 52,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2005-1719 du 30 décembre 2005": {
       "fichier": "loi2005_1719.jsonl.gz",
       "articles": 169,
-      "octets": 38654,
-      "sha256": "7b9c8392e10dc1ff6282047d07222e0c735a8251a9ad67d01e56639755869016",
+      "octets": 39644,
+      "sha256": "6d1b0ecafc6e7ca814803d161019987422f667f7b388c0ee9390c0fb1685e5ce",
       "court": "loi2005_1719",
       "applicables": 88,
       "a_venir": 75,
@@ -935,21 +1151,29 @@
         "113",
         "114"
       ],
-      "sections_rattachees": 169
+      "sections_rattachees": 169,
+      "chaines": {
+        "articles": 169,
+        "chaines_completes": 169,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de procédure pénale": {
       "fichier": "cpp.jsonl.gz",
-      "articles": 9237,
-      "octets": 1767236,
-      "sha256": "a0569664cfa290b42d456418d7873db00738aeff6702fe4c3198ce2576fc1f14",
+      "articles": 9239,
+      "octets": 1884673,
+      "sha256": "dbde06ff39e3d8fc65db5310d65647f34d7196e3651cf4c4722ba58efc01d854",
       "court": "cpp",
       "applicables": 4637,
       "a_venir": 4326,
       "fin_programmee": 2602,
-      "historiques": 274,
+      "historiques": 276,
       "etats": {
         "ABROGE_DIFF": 2620,
-        "MODIFIE": 248,
+        "MODIFIE": 250,
         "VIGUEUR": 2035,
         "MODIFIE_MORT_NE": 6,
         "TRANSFERE": 2,
@@ -969,13 +1193,21 @@
         "706-25-26",
         "706-74-2"
       ],
-      "sections_rattachees": 9237
+      "sections_rattachees": 9220,
+      "chaines": {
+        "articles": 9239,
+        "chaines_completes": 9220,
+        "sans_lien": 19,
+        "placements_ambigus": 1,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0
+      }
     },
     "loi n° 2022-1726 du 30 décembre 2022": {
       "fichier": "loi2022_1726.jsonl.gz",
       "articles": 231,
-      "octets": 116996,
-      "sha256": "c51b2b7726c677a0f5ef345be22d0e0b2814c9a1c8ceb515364a10851e6eaed0",
+      "octets": 118690,
+      "sha256": "6be44420ec2a1fefe71422cddab3808775d1fb984cc8ffa9f5417b8911de9ee8",
       "court": "loi2022_1726",
       "applicables": 124,
       "a_venir": 97,
@@ -1000,13 +1232,21 @@
         "112",
         "115"
       ],
-      "sections_rattachees": 230
+      "sections_rattachees": 230,
+      "chaines": {
+        "articles": 231,
+        "chaines_completes": 230,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2025-797 du 11 août 2025": {
       "fichier": "loi2025_797.jsonl.gz",
       "articles": 57,
-      "octets": 40826,
-      "sha256": "2d25eb6ded4ccb9a57809ac51636c8b8c1ab45d01f9bc315fd802b97a0bfd55d",
+      "octets": 41101,
+      "sha256": "3aff8401842c84f9e5f009fd85638b7493963015ca195eb4886b0382f07c9c6b",
       "court": "loi2025_797",
       "applicables": 30,
       "a_venir": 25,
@@ -1030,13 +1270,21 @@
         "25",
         "26"
       ],
-      "sections_rattachees": 57
+      "sections_rattachees": 57,
+      "chaines": {
+        "articles": 57,
+        "chaines_completes": 57,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de la voirie routière": {
       "fichier": "voirie.jsonl.gz",
       "articles": 463,
-      "octets": 87820,
-      "sha256": "6b7f5029fb3bb6d325538468fb2e03f1df24e13c73abc5c7f98df2d8cbdec6a1",
+      "octets": 91151,
+      "sha256": "1719323b1fe5b43a575bcdfbfbe35fd53ec25a54310eb284733944099adf8ffc",
       "court": "voirie",
       "applicables": 446,
       "a_venir": 2,
@@ -1062,13 +1310,21 @@
         "D118-5-2",
         "D118-5-3"
       ],
-      "sections_rattachees": 463
+      "sections_rattachees": 463,
+      "chaines": {
+        "articles": 463,
+        "chaines_completes": 463,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de l'entrée et du séjour des étrangers et du droit d'asile": {
       "fichier": "ceseda.jsonl.gz",
       "articles": 2910,
-      "octets": 550156,
-      "sha256": "7ead9d0bde88143b9d9b51faa6711a6af41fd73a572870577ae3889ca9c2d315",
+      "octets": 583123,
+      "sha256": "fdd113cf72db14f136d1f5004f40bbfb5810ceb17f6ec96f69f99c28054b119b",
       "court": "ceseda",
       "applicables": 2496,
       "a_venir": 41,
@@ -1095,13 +1351,21 @@
         "Annexe 6",
         "Annexe 7"
       ],
-      "sections_rattachees": 2910
+      "sections_rattachees": 2910,
+      "chaines": {
+        "articles": 2910,
+        "placements_ambigus": 1,
+        "chaines_completes": 2910,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0
+      }
     },
     "code de la recherche": {
       "fichier": "recherche.jsonl.gz",
       "articles": 1052,
-      "octets": 199310,
-      "sha256": "f411c821c028a195182e707eba6b38e503043524aeda3a99d273cf01ae5f5c87",
+      "octets": 216578,
+      "sha256": "c41eec804b9b7d4d324c5284a32e4c0e77090bdcc030610b2e47d32d5e3864da",
       "court": "recherche",
       "applicables": 1027,
       "a_venir": 1,
@@ -1126,13 +1390,21 @@
         "D120-2",
         "D120-3"
       ],
-      "sections_rattachees": 1052
+      "sections_rattachees": 1052,
+      "chaines": {
+        "articles": 1052,
+        "chaines_completes": 1052,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2018-1317 du 28 décembre 2018": {
       "fichier": "loi2018_1317.jsonl.gz",
       "articles": 275,
-      "octets": 64979,
-      "sha256": "c1bcd481ea8acfa8ab170695208ab1637ad343a71c3f4b49ae3faa2e3e788908",
+      "octets": 66481,
+      "sha256": "c14d5f263451fa0e5b98b3671e2754735b135206f60e3bead7c2062805b2220a",
       "court": "loi2018_1317",
       "applicables": 167,
       "a_venir": 103,
@@ -1159,13 +1431,21 @@
         "107",
         "108"
       ],
-      "sections_rattachees": 274
+      "sections_rattachees": 274,
+      "chaines": {
+        "articles": 275,
+        "chaines_completes": 274,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "code rural et de la pêche maritime": {
       "fichier": "rural.jsonl.gz",
       "articles": 11375,
-      "octets": 2725422,
-      "sha256": "1898e8b608804588655b7dba7941b4e95d53e07ec6d9a6654382ac33149f9728",
+      "octets": 2907075,
+      "sha256": "3b25043d8e3c1691fe2359a4f6642c6eb6925e95fd68b035c76e09a60b2b4756",
       "court": "rural",
       "applicables": 9825,
       "a_venir": 113,
@@ -1194,13 +1474,21 @@
         "Annexe III",
         "Annexe III aux articles R236-7 à R236-18"
       ],
-      "sections_rattachees": 11369
+      "sections_rattachees": 11355,
+      "chaines": {
+        "articles": 11375,
+        "chaines_completes": 11355,
+        "placements_ambigus": 48,
+        "sans_lien": 20,
+        "titres_ambigus": 0,
+        "chaines_incompletes": 0
+      }
     },
     "loi n° 2021-1900 du 30 décembre 2021": {
       "fichier": "loi2021_1900.jsonl.gz",
       "articles": 226,
-      "octets": 63221,
-      "sha256": "065b086e7c16d2fc717152e6938a1e23a0940afd598289273ebca98ae3ada7d3",
+      "octets": 64508,
+      "sha256": "f9f59e3c72be91cbd42e29fc8350aab7b9102507211bcc9366265424abdfde35",
       "court": "loi2021_1900",
       "applicables": 138,
       "a_venir": 79,
@@ -1224,13 +1512,21 @@
         "112",
         "114"
       ],
-      "sections_rattachees": 225
+      "sections_rattachees": 225,
+      "chaines": {
+        "articles": 226,
+        "chaines_completes": 225,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2004-1485 du 30 décembre 2004": {
       "fichier": "loi2004_1485.jsonl.gz",
       "articles": 138,
-      "octets": 13919,
-      "sha256": "57876a374d431409ce4134f015e00e34706b80a823905c6d5a06c9fee5f5ef5b",
+      "octets": 14357,
+      "sha256": "1171d2697383c5dfc1526ddb09fb2f058731b648f2b0a8405d2944dba04d722d",
       "court": "loi2004_1485",
       "applicables": 92,
       "a_venir": 45,
@@ -1254,13 +1550,21 @@
         "109",
         "11"
       ],
-      "sections_rattachees": 138
+      "sections_rattachees": 138,
+      "chaines": {
+        "articles": 138,
+        "chaines_completes": 138,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 71-1130 du 31 décembre 1971": {
       "fichier": "loi71_1130.jsonl.gz",
       "articles": 115,
-      "octets": 33498,
-      "sha256": "7e36031ad3b1acd0c14028ec5b29a8b57b9cbea90a6d381263d5b8ac64ce083f",
+      "octets": 34032,
+      "sha256": "19cab6c8e7af26642aab1acd7653ec9c7270bba1f231eb1db24cf741ce2c9fb9",
       "court": "loi71_1130",
       "applicables": 110,
       "a_venir": 3,
@@ -1286,13 +1590,21 @@
         "105",
         "106"
       ],
-      "sections_rattachees": 115
+      "sections_rattachees": 115,
+      "chaines": {
+        "articles": 115,
+        "chaines_completes": 115,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 91-647 du 10 juillet 1991": {
       "fichier": "loi91_647.jsonl.gz",
       "articles": 114,
-      "octets": 22843,
-      "sha256": "d3e4446725002f3fe1d81c72d942dc9e7082552cd00e161e57e79b298da9fcd9",
+      "octets": 23402,
+      "sha256": "85b65fd8e1ecf3a96912653486d2803670d277523e005f941de37f8200fc45e2",
       "court": "loi91_647",
       "applicables": 101,
       "a_venir": 6,
@@ -1318,13 +1630,21 @@
         "15",
         "16"
       ],
-      "sections_rattachees": 113
+      "sections_rattachees": 113,
+      "chaines": {
+        "articles": 114,
+        "chaines_completes": 113,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2011-1977 du 28 décembre 2011": {
       "fichier": "loi2011_1977.jsonl.gz",
       "articles": 166,
-      "octets": 43063,
-      "sha256": "87f4e168ca6880326ef625ab099746e1416a6dca643572d43d33f9905da30e95",
+      "octets": 44294,
+      "sha256": "05e3898fd5be578423290fd289ca445e08648d26834bc4625fcb91192c872908",
       "court": "loi2011_1977",
       "applicables": 75,
       "a_venir": 86,
@@ -1350,13 +1670,21 @@
         "117",
         "118"
       ],
-      "sections_rattachees": 166
+      "sections_rattachees": 166,
+      "chaines": {
+        "articles": 166,
+        "chaines_completes": 166,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2016-1917 du 29 décembre 2016": {
       "fichier": "loi2016_1917.jsonl.gz",
       "articles": 167,
-      "octets": 51396,
-      "sha256": "8fc6f1cf42949360ce2cf7541901507ddc83fd4224a6ef5c20264743cb3749a6",
+      "octets": 52569,
+      "sha256": "2d80ed19d76ab3151ab1345e19d61c796fcb8646ffb331399493730d7fb61834",
       "court": "loi2016_1917",
       "applicables": 92,
       "a_venir": 73,
@@ -1380,13 +1708,21 @@
         "112",
         "113"
       ],
-      "sections_rattachees": 166
+      "sections_rattachees": 166,
+      "chaines": {
+        "articles": 167,
+        "chaines_completes": 166,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2009-1673 du 30 décembre 2009": {
       "fichier": "loi2009_1673.jsonl.gz",
       "articles": 148,
-      "octets": 90032,
-      "sha256": "9f3171d8375a9877634733bd888dafaa87c2c4c5371cebb99731b0952d1095ce",
+      "octets": 91584,
+      "sha256": "201c6ab7c1a44ec969f99fd06cb5980ef4e33fa9969b029455ac937d48999845",
       "court": "loi2009_1673",
       "applicables": 64,
       "a_venir": 79,
@@ -1410,13 +1746,21 @@
         "114",
         "116"
       ],
-      "sections_rattachees": 147
+      "sections_rattachees": 147,
+      "chaines": {
+        "articles": 148,
+        "chaines_completes": 147,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "code des assurances": {
       "fichier": "assurances.jsonl.gz",
       "articles": 2481,
-      "octets": 739631,
-      "sha256": "e6ced709ad764f2e5032ba1529fdb2cf2c0ae9e3b0516027e7ebf7e15fb024d3",
+      "octets": 772244,
+      "sha256": "60dc32f8236797e46d42d01a4e10ca78930570c262007a0c79d972e0279e11b8",
       "court": "assurances",
       "applicables": 2389,
       "a_venir": 34,
@@ -1442,13 +1786,21 @@
         "A112-1",
         "A113-1"
       ],
-      "sections_rattachees": 2481
+      "sections_rattachees": 2481,
+      "chaines": {
+        "articles": 2481,
+        "chaines_completes": 2481,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2020-935 du 30 juillet 2020": {
       "fichier": "loi2020_935.jsonl.gz",
       "articles": 80,
-      "octets": 25342,
-      "sha256": "301efbaadcbee522633c3ef912ca57f7d9074acfbcc2fbec9e7476542fbca6a2",
+      "octets": 25873,
+      "sha256": "c73389f663d75e220fc8d47b06aeba18d0f9eb57624241c4a73a796ac20ddf76",
       "court": "loi2020_935",
       "applicables": 53,
       "a_venir": 25,
@@ -1473,13 +1825,21 @@
         "21",
         "22"
       ],
-      "sections_rattachees": 79
+      "sections_rattachees": 79,
+      "chaines": {
+        "articles": 80,
+        "chaines_completes": 79,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 94-126 du 11 février 1994": {
       "fichier": "loi94_126.jsonl.gz",
       "articles": 46,
-      "octets": 2789,
-      "sha256": "07c3bc026ebd2f45ab1878b3f9b24435732f28a14c48de9f3458a0116cdce5f3",
+      "octets": 2901,
+      "sha256": "62df594f58650165602c4703552df99546da91de3bb479b102c4f72733cde4d7",
       "court": "loi94_126",
       "applicables": 10,
       "a_venir": 36,
@@ -1502,13 +1862,21 @@
         "47",
         "51"
       ],
-      "sections_rattachees": 46
+      "sections_rattachees": 46,
+      "chaines": {
+        "articles": 46,
+        "chaines_completes": 46,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de l'urbanisme": {
       "fichier": "urbanisme.jsonl.gz",
       "articles": 2701,
-      "octets": 582298,
-      "sha256": "045131502c7add6966d78c26e3122c86fb8a93fa5ad1629605ad540c7de17095",
+      "octets": 618961,
+      "sha256": "53da969c9e2f09140f1c35e6505b36571808b34dd44312171db29596a20f559c",
       "court": "urbanisme",
       "applicables": 2461,
       "a_venir": 10,
@@ -1536,13 +1904,21 @@
         "A111-8",
         "A111-9"
       ],
-      "sections_rattachees": 2700
+      "sections_rattachees": 2699,
+      "chaines": {
+        "articles": 2701,
+        "chaines_completes": 2699,
+        "sans_lien": 1,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 95-115 du 4 février 1995": {
       "fichier": "loi95_115.jsonl.gz",
       "articles": 79,
-      "octets": 17960,
-      "sha256": "07c6c212dd6f70f6cc06b16ce4f24b418cb03477afe61cc9d11b435e0b861b12",
+      "octets": 18271,
+      "sha256": "458d94cd89d2e0c7743930acfc3fe82db581b20644e63cf56fa5e10fe30780a6",
       "court": "loi95_115",
       "applicables": 42,
       "a_venir": 36,
@@ -1566,7 +1942,15 @@
         "20",
         "21"
       ],
-      "sections_rattachees": 78
+      "sections_rattachees": 78,
+      "chaines": {
+        "articles": 79,
+        "chaines_completes": 78,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2025-176 du 24 février 2025": {
       "fichier": "loi2025_176.jsonl.gz",
@@ -1597,13 +1981,21 @@
         "17",
         "18"
       ],
-      "sections_rattachees": 51
+      "sections_rattachees": 51,
+      "chaines": {
+        "articles": 51,
+        "chaines_completes": 51,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de la commande publique": {
       "fichier": "commande_publique.jsonl.gz",
       "articles": 1931,
-      "octets": 262678,
-      "sha256": "f076f201daa1d5967f93f005320af113d9c0d0b0076a9b29e3e525e139c04efc",
+      "octets": 288346,
+      "sha256": "35006319744911e5ee658944b50d21aaadaaf99ad2cf44e944dcd16769df0808",
       "court": "commande_publique",
       "applicables": 1812,
       "a_venir": 24,
@@ -1629,13 +2021,21 @@
         "D2171-4",
         "D2171-5"
       ],
-      "sections_rattachees": 1931
+      "sections_rattachees": 1931,
+      "chaines": {
+        "articles": 1931,
+        "chaines_completes": 1931,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2015-1785 du 29 décembre 2015": {
       "fichier": "loi2015_1785.jsonl.gz",
       "articles": 175,
-      "octets": 45192,
-      "sha256": "d26241250331d43899ff6b9328479d89c75948885583239743a2d069a00d1b0f",
+      "octets": 47015,
+      "sha256": "efba3ff48cbf2539cf220795d09bcdd7af1e27a5f2eba0cfa0bd667ffbb82ebb",
       "court": "loi2015_1785",
       "applicables": 94,
       "a_venir": 77,
@@ -1659,13 +2059,21 @@
         "110",
         "113"
       ],
-      "sections_rattachees": 174
+      "sections_rattachees": 174,
+      "chaines": {
+        "articles": 175,
+        "chaines_completes": 174,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2014-1654 du 29 décembre 2014": {
       "fichier": "loi2014_1654.jsonl.gz",
       "articles": 126,
-      "octets": 42376,
-      "sha256": "31d7833b061e77c3c38aeb0955e34e6c194e0a9e4434d72eecf0fcf469705a0c",
+      "octets": 43401,
+      "sha256": "16af3e4b08b31b8f71e22238cf8a22755600b75489c213ceaa011c312d2c9dc1",
       "court": "loi2014_1654",
       "applicables": 81,
       "a_venir": 43,
@@ -1689,13 +2097,21 @@
         "115",
         "116"
       ],
-      "sections_rattachees": 125
+      "sections_rattachees": 125,
+      "chaines": {
+        "articles": 126,
+        "chaines_completes": 125,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 93-859 du 22 juin 1993": {
       "fichier": "loi93_859.jsonl.gz",
       "articles": 32,
-      "octets": 3958,
-      "sha256": "23ba851e0baf1c06d2a16db1a6ad8f37f67aeaff085aa3c852d893e635890c18",
+      "octets": 4161,
+      "sha256": "dfdbec652086c210982f93188ff7388d9bff844d2d5ce50cc95ad33c6cb50f29",
       "court": "loi93_859",
       "applicables": 18,
       "a_venir": 13,
@@ -1719,7 +2135,15 @@
         "26",
         "29"
       ],
-      "sections_rattachees": 31
+      "sections_rattachees": 31,
+      "chaines": {
+        "articles": 32,
+        "chaines_completes": 31,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 78-654 du 22 juin 1978": {
       "fichier": "loi78_654.jsonl.gz",
@@ -1748,13 +2172,20 @@
         "5-4",
         "5-5"
       ],
-      "sections_rattachees": 0
+      "sections_rattachees": 0,
+      "chaines": {
+        "articles": 13,
+        "chaines_incompletes": 13,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2017-1837 du 30 décembre 2017": {
       "fichier": "loi2017_1837.jsonl.gz",
       "articles": 184,
-      "octets": 43173,
-      "sha256": "043514876a4892ecc51d7aec3bb0d3ce4e7982af0579487b62e2e0696734524d",
+      "octets": 44467,
+      "sha256": "3f8592bb76b4868b54e17f6a13ca8898a806d276f246a728716c6d880cdad8b7",
       "court": "loi2017_1837",
       "applicables": 105,
       "a_venir": 74,
@@ -1780,13 +2211,21 @@
         "110",
         "111"
       ],
-      "sections_rattachees": 183
+      "sections_rattachees": 183,
+      "chaines": {
+        "articles": 184,
+        "chaines_completes": 183,
+        "chaines_incompletes": 1,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "code du cinéma et de l'image animée": {
       "fichier": "cinema.jsonl.gz",
       "articles": 2318,
-      "octets": 460724,
-      "sha256": "9d0bc8d2393b25d47b1ad99d7ac2ac0a057800d38d06cc10a65ff0220845e2f6",
+      "octets": 499836,
+      "sha256": "53ee65f04b1a42bbc11613a338fcdaf88f0c2161a4b5d9fcbb8163d6b0327e63",
       "court": "cinema",
       "applicables": 2063,
       "a_venir": 5,
@@ -1813,13 +2252,21 @@
         "121-3",
         "121-4"
       ],
-      "sections_rattachees": 2318
+      "sections_rattachees": 2318,
+      "chaines": {
+        "articles": 2318,
+        "chaines_completes": 2318,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi organique n° 2001-692 du 1er août 2001": {
       "fichier": "loi_org2001_692.jsonl.gz",
       "articles": 73,
-      "octets": 26542,
-      "sha256": "3b6d28f607e627b68184003d6de656fb4da23ebdc5ebca43cd52ac70000ca4b2",
+      "octets": 26888,
+      "sha256": "0a7fce91e034820faef170242e8937f57ddd536af61075edba1ac2eb91a58900",
       "court": "loi_org2001_692",
       "applicables": 73,
       "a_venir": 0,
@@ -1841,7 +2288,15 @@
         "1 H",
         "1 I"
       ],
-      "sections_rattachees": 73
+      "sections_rattachees": 73,
+      "chaines": {
+        "articles": 73,
+        "chaines_completes": 73,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 73-1150 du 27 décembre 1973": {
       "fichier": "loi73_1150.jsonl.gz",
@@ -1870,13 +2325,21 @@
         "17",
         "19"
       ],
-      "sections_rattachees": 24
+      "sections_rattachees": 24,
+      "chaines": {
+        "articles": 26,
+        "chaines_incompletes": 2,
+        "chaines_completes": 24,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "placements_ambigus": 0
+      }
     },
     "loi n° 2003-710 du 1er août 2003": {
       "fichier": "loi2003_710.jsonl.gz",
       "articles": 69,
-      "octets": 12863,
-      "sha256": "470745ce26a01feda37434ac2858d3d1099af2bab644b65c1ec19947d2e6e91c",
+      "octets": 12918,
+      "sha256": "87a8595007231e86bcdd177889c48fcdd53006585be16e70fe57f6a8ece7184d",
       "court": "loi2003_710",
       "applicables": 31,
       "a_venir": 37,
@@ -1900,13 +2363,21 @@
         "14-1",
         "15"
       ],
-      "sections_rattachees": 69
+      "sections_rattachees": 69,
+      "chaines": {
+        "articles": 69,
+        "chaines_completes": 69,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "ordonnance n° 2014-948 du 20 août 2014": {
       "fichier": "ord2014_948.jsonl.gz",
       "articles": 47,
-      "octets": 14768,
-      "sha256": "f5af18c9c8532e99f8e0d09c72d1938f0cc8475f363a52f66166173e72be9828",
+      "octets": 14901,
+      "sha256": "916a3f0ef94f0d9fc84581179b1da0c7172b92613e1cee59af0589c452a4d2ca",
       "court": "ord2014_948",
       "applicables": 42,
       "a_venir": 5,
@@ -1931,13 +2402,21 @@
         "17",
         "18"
       ],
-      "sections_rattachees": 47
+      "sections_rattachees": 47,
+      "chaines": {
+        "articles": 47,
+        "chaines_completes": 47,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
     },
     "code de la consommation": {
       "fichier": "conso.jsonl.gz",
       "articles": 2465,
-      "octets": 497720,
-      "sha256": "6a5464748a2cb5f7577b44a32f788a73d9653419370f7ac2382e3e3f0a47acb9",
+      "octets": 530766,
+      "sha256": "9b954c5660f3a0c2ec8c53aae321470703644336b6d9232f0036fb5303a7c0f1",
       "court": "conso",
       "applicables": 2106,
       "a_venir": 169,
@@ -1964,13 +2443,21 @@
         "Annexe à l'article R221-1",
         "Annexe à l'article R221-3"
       ],
-      "sections_rattachees": 2465
+      "sections_rattachees": 2465,
+      "chaines": {
+        "articles": 2465,
+        "chaines_completes": 2465,
+        "placements_ambigus": 12,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0
+      }
     },
     "loi n° 2015-991 du 7 août 2015": {
       "fichier": "loi2015_991.jsonl.gz",
       "articles": 140,
-      "octets": 45912,
-      "sha256": "6ae2c6d5b06530a4b40863f10772519afe5eee3133083b4cbdc16cc118cc6f2e",
+      "octets": 46436,
+      "sha256": "d1415263cc4d75db58172f9d9d656e5ce54cc9149108bd59973d4a5dbe98ada5",
       "court": "loi2015_991",
       "applicables": 55,
       "a_venir": 82,
@@ -1994,7 +2481,93 @@
         "112",
         "114"
       ],
-      "sections_rattachees": 140
+      "sections_rattachees": 140,
+      "chaines": {
+        "articles": 140,
+        "chaines_completes": 140,
+        "titres_ambigus": 0,
+        "sans_lien": 0,
+        "chaines_incompletes": 0,
+        "placements_ambigus": 0
+      }
+    },
+    "code général de la fonction publique": {
+      "fichier": "cgfp.jsonl.gz",
+      "articles": 4482,
+      "octets": 605868,
+      "sha256": "fd26347435f7fa37b68e3dbd1db4cf554238c24fb97d969ca8b19afea1d172a4",
+      "court": "cgfp",
+      "applicables": 4285,
+      "a_venir": 5,
+      "fin_programmee": 4,
+      "historiques": 192,
+      "etats": {
+        "VIGUEUR": 4281,
+        "ABROGE_DIFF": 4,
+        "MODIFIE": 190,
+        "ABROGE": 2,
+        "VIGUEUR_DIFF": 5
+      },
+      "temoin": "L1",
+      "exemples_applicables": [
+        "D124-24",
+        "D124-25",
+        "D124-26",
+        "D132-26",
+        "D132-27",
+        "D132-28",
+        "D132-29",
+        "D132-30",
+        "D132-31",
+        "D132-32"
+      ],
+      "sections_rattachees": 4443,
+      "chaines": {
+        "articles": 4482,
+        "chaines_completes": 4443,
+        "sans_lien": 3,
+        "chaines_incompletes": 36,
+        "titres_ambigus": 0,
+        "placements_ambigus": 0
+      }
+    },
+    "loi n° 2025-1403 du 30 décembre 2025": {
+      "fichier": "loi2025_1403.jsonl.gz",
+      "articles": 121,
+      "octets": 22177,
+      "sha256": "5a7f9ab7eea6ca947cdab5f60ed83501dd38f48b26af7d7a4d3c34088224d60a",
+      "court": "loi2025_1403",
+      "applicables": 81,
+      "a_venir": 38,
+      "fin_programmee": 0,
+      "historiques": 2,
+      "etats": {
+        "VIGUEUR": 81,
+        "INCONNU": 38,
+        "MODIFIE": 2
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "1",
+        "10",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108"
+      ],
+      "sections_rattachees": 117,
+      "chaines": {
+        "articles": 121,
+        "chaines_completes": 117,
+        "chaines_incompletes": 1,
+        "sans_lien": 3,
+        "titres_ambigus": 0,
+        "placements_ambigus": 0
+      }
     }
   },
   "non_verses": {}
