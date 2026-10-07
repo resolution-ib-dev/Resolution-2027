@@ -146,6 +146,17 @@ FAMILLES = [
       'forme des amendements du contre-budget GL 2026. Docx à la racine du '
       'coffre, non déplaçable. Le chantier entre par sa digestion, '
       '<code>reference/gabarit_expose_sommaire.md</code>.'),
+     ('Guide de légistique — digestion',
+      ['reference/guide_legistique.md'], None,
+      'digestion intégrale du guide du SGG : structure d’une proposition, '
+      'frontière loi/règlement, renvoi au décret, langue et formules '
+      'modificatives, entrée en vigueur, domaine des lois financières. '
+      'Original au dépôt, <code>sources/guide_legistique_2026.pdf</code>.'),
+     ('Règles d’amendement des crédits',
+      ['reference/regles_credits.md'], None,
+      'LOLF au verbatim et Guide du budgétaire de la direction du Budget. '
+      'Original au dépôt, '
+      '<code>sources/guide-public-du-budgetaire-2023.pdf</code>.'),
     ]},
 
    {'titre': 'Références internes', 'compte': None,
@@ -267,9 +278,11 @@ FAMILLES = [
      ('Procédure du contre-PLF', ['methode/procedure_contre_plf.md'],
       None, None),
      ('Test de rattachement', ['methode/test_rattachement.md'], None, None),
+     ('Appui des passes', ['methode/appui_des_passes.md'], None, None),
+     ('Procédure de fin de chantier — dépôt 2027',
+      ['methode/procedure_fin_de_chantier_depot_2027.md'], None, None),
      ('Procédure des vecteurs', ['methode/procedure_vecteurs.md'],
       None, None),
-     ('Structure d’une PPL', ['sources/structure_ppl.md'], None, None),
      ('Gabarit de l’exposé sommaire',
       ['reference/gabarit_expose_sommaire.md'], None, None),
      ('Prompt de la session d’organisation',
@@ -383,6 +396,18 @@ IMPLICITES = {
     'methode/fragments/journal/20260930-arbitrages-phase1.md': 'méthode',
     'methode/fragments/journal/20261001-courroies.md': 'méthode',
     'methode/fragments/journal/20261001-lecture-2027.md': 'méthode',
+    'methode/fragments/arbitrages/20261006-digestion-guide-legistique.md': 'méthode',
+    'methode/fragments/arbitrages/20261006-digestion-complements-guide.md': 'méthode',
+    'methode/fragments/arbitrages/20261006-digestion-sections-budgetaires.md': 'méthode',
+    'methode/fragments/arbitrages/20261007-fusion-digestions-appui.md': 'méthode',
+    'methode/fragments/arbitrages/20261007-corrections-methode-fil-code.md': 'méthode',
+    'methode/fragments/arbitrages/20261007-geste2-restauration.md': 'méthode',
+    'methode/appui_des_passes.md': 'méthode',
+    'methode/procedure_fin_de_chantier_depot_2027.md': 'méthode',
+    'reference/guide_legistique.md': 'références externes',
+    'sources/guide_legistique.md': 'références externes',
+    'sources/regles_credits.md': 'références externes',
+    'reference/regles_credits.md': 'références externes',
     'methode/fragments/arbitrages/20260930-cle-de-passage.md': 'méthode',
     'methode/fragments/arbitrages/20260930-correction-cle-de-passage.md': 'méthode',
     'methode/fragments/arbitrages/20260930-csa-forfaits-de-cotisation.md': 'méthode',

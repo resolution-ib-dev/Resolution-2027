@@ -75,8 +75,22 @@ et l'original reste dehors. Coût d'une digestion : une lecture, une fois. Coût
 l'original : une lecture à chaque emploi. **Une digestion sans ses autorités est
 une hallucination en sursis.**
 
-`reference/structure_ppl.md` est la digestion du guide de légistique du SGG,
-augmentée de nos règles : le renvoi `guide_legistique` résout sur elle.
+**Deux digestions, et elles ne fusionnent pas.**
+
+- `reference/guide_legistique.md` est la digestion du guide de légistique du SGG,
+  augmentée de nos règles. Les renvois `guide_legistique`, `structure_ppl`,
+  `guide_redaction` et `guide_domaine_financier` résolvent tous sur elle. *Elle
+  absorbe, depuis le 20261007, les trois pièces `reference/structure_ppl.md`,
+  `reference/regles_redaction_guide.md` et `reference/domaine_lois_financieres.md`,
+  supprimées.*
+- `reference/regles_credits.md` est la digestion de la LOLF et du Guide du
+  budgétaire de la direction du Budget. Le renvoi `guide_budgetaire` résout sur
+  elle. **Elle ne fusionne avec rien** : elle porte le verbatim de onze articles
+  de la LOLF relevé au dépôt de droit avec ses identifiants de version, et la
+  règle R8 interdit de recopier un document qui vaut par son verbatim.
+
+**Quelle digestion s'ouvre avant quelle passe se lit à `methode/appui_des_passes.md`**,
+et nulle part ailleurs.
 
 ### R6 — Un document externalisé ne se réécrit pas
 
@@ -99,6 +113,13 @@ corrompt la strate 1 en silence.
 carte porte les familles. La règle vaut au-delà du rangement : elle interdit
 aussi de reformater ou de « nettoyer » un document qui vaut par son verbatim.
 
+**Et elle interdit la fusion de pièces.** Écrire dans une pièce du projet, c'est
+la remplacer en entier. Fusionner deux pièces dont l'une porte du verbatim
+ferait repasser ce verbatim par le modèle : la fusion est alors fermée. Elle
+reste ouverte lorsque aucune des pièces ne porte de verbatim relevé, **et à la
+condition qu'elle se fasse par concaténation de fichiers, sans réécriture** —
+c'est ainsi que `reference/guide_legistique.md` a été formée.
+
 ---
 
 ## 3. Régime de format, et coût de la mémoire
@@ -108,6 +129,14 @@ Un PDF se lit page par page en images, un docx se déballe : un ordre de grandeu
 au-dessus du même contenu en html ou en md. **Rien n'entre au projet en PDF ni en
 docx.** Un document apporté reste pièce jointe, sa transcription md va au projet,
 et c'est elle qui sert.
+
+**Le dépôt, lui, n'est pas fermé aux PDF.** Rien n'y est lu tant qu'on ne le
+demande pas, et l'original d'une référence externe s'y verse sous `sources/`,
+daté par le millésime de la source. **Il se verse tel quel, sans archivage** : un
+PDF est déjà compressé, un zip n'y gagne rien et interdit la lecture page à page.
+Quand le corps d'un original est en images — ce qui est le cas du guide de
+légistique —, la digestion porte en annexe la table de ses parties et de leurs
+pages, pour qu'une partie non digérée se lise sans rouvrir le sommaire.
 
 **Ce qui se décompte** — les classeurs. Ne coûte rien tant qu'on ne le lit pas.
 Un xlsx s'interroge par script ; seul l'extrait chiffré sourcé se verse.

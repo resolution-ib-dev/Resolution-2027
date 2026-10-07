@@ -2808,6 +2808,82 @@
    "famille": "références externes"
   },
   {
+   "role": "guide_legistique",
+   "chemin": "reference/guide_legistique.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "redaction-legistique",
+    "disposition-cible",
+    "expose-sommaire",
+    "test de rattachement",
+    "contre-PLF"
+   ],
+   "alias": [
+    "sources/guide_legistique.md",
+    "reference/structure_ppl.md",
+    "reference/regles_redaction_guide.md",
+    "reference/domaine_lois_financieres.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/guide_legistique.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "regles_credits",
+   "chemin": "reference/regles_credits.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "contre-PLF",
+    "amendement de crédits",
+    "état B"
+   ],
+   "alias": [
+    "sources/regles_credits.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/regles_credits.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "appui_des_passes",
+   "chemin": "methode/appui_des_passes.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "redaction-legistique",
+    "contre-PLF"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/appui_des_passes.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "procedure_fin_de_chantier_2027",
+   "chemin": "methode/procedure_fin_de_chantier_depot_2027.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "contre-PLF"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/procedure_fin_de_chantier_depot_2027.md",
+   "famille": "méthode"
+  },
+  {
    "role": "passation_droit_renvois",
    "chemin": "reference/passation_droit_renvois.md",
    "rang": "methode",
@@ -4432,6 +4508,816 @@
    "famille": "méthode"
   },
   {
+   "role": "fragment_journal_20260930_table_de_passage",
+   "chemin": "methode/fragments/journal/20260930-table-de-passage.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260930-table-de-passage.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20260930_correction_forfaits_cotisation",
+   "chemin": "methode/fragments/journal/20260930-correction-forfaits-cotisation.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260930-correction-forfaits-cotisation.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20260930_perimetre_fiscal",
+   "chemin": "methode/fragments/journal/20260930-perimetre-fiscal.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260930-perimetre-fiscal.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20260930_sort_prelevements",
+   "chemin": "methode/fragments/journal/20260930-sort-prelevements.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260930-sort-prelevements.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20260930_arbitrages_phase1",
+   "chemin": "methode/fragments/journal/20260930-arbitrages-phase1.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20260930-arbitrages-phase1.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20261001_courroies",
+   "chemin": "methode/fragments/journal/20261001-courroies.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20261001-courroies.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_journal_20261001_lecture_2027",
+   "chemin": "methode/fragments/journal/20261001-lecture-2027.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20261001-lecture-2027.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20261006_digestion_guide_legistique",
+   "chemin": "methode/fragments/arbitrages/20261006-digestion-guide-legistique.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261006-digestion-guide-legistique.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20261006_digestion_complements_guide",
+   "chemin": "methode/fragments/arbitrages/20261006-digestion-complements-guide.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261006-digestion-complements-guide.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20261006_digestion_sections_budgetaires",
+   "chemin": "methode/fragments/arbitrages/20261006-digestion-sections-budgetaires.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261006-digestion-sections-budgetaires.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20261007_fusion_digestions_appui",
+   "chemin": "methode/fragments/arbitrages/20261007-fusion-digestions-appui.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261007-fusion-digestions-appui.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20261007_corrections_methode_fil_code",
+   "chemin": "methode/fragments/arbitrages/20261007-corrections-methode-fil-code.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261007-corrections-methode-fil-code.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20261007_geste2_restauration",
+   "chemin": "methode/fragments/arbitrages/20261007-geste2-restauration.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261007-geste2-restauration.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260930_cle_de_passage",
+   "chemin": "methode/fragments/arbitrages/20260930-cle-de-passage.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260930-cle-de-passage.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260930_correction_cle_de_passage",
+   "chemin": "methode/fragments/arbitrages/20260930-correction-cle-de-passage.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260930-correction-cle-de-passage.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260930_csa_forfaits_de_cotisation",
+   "chemin": "methode/fragments/arbitrages/20260930-csa-forfaits-de-cotisation.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260930-csa-forfaits-de-cotisation.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260930_defauts_reconciliation",
+   "chemin": "methode/fragments/arbitrages/20260930-defauts-reconciliation.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260930-defauts-reconciliation.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260930_perimetre_fiscal",
+   "chemin": "methode/fragments/arbitrages/20260930-perimetre-fiscal.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260930-perimetre-fiscal.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260930_sort_prelevements",
+   "chemin": "methode/fragments/arbitrages/20260930-sort-prelevements.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260930-sort-prelevements.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260930_arbitrages_phase1",
+   "chemin": "methode/fragments/arbitrages/20260930-arbitrages-phase1.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260930-arbitrages-phase1.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20260930_sort_prelevements_decisions",
+   "chemin": "methode/fragments/arbitrages/20260930-sort-prelevements-decisions.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20260930-sort-prelevements-decisions.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20261001_epargne_salariale_et_affectataires",
+   "chemin": "methode/fragments/arbitrages/20261001-epargne-salariale-et-affectataires.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261001-epargne-salariale-et-affectataires.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_arbitrages_20261001_courroies",
+   "chemin": "methode/fragments/arbitrages/20261001-courroies.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261001-courroies.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_a_trancher_20260930_sort_prelevements",
+   "chemin": "methode/fragments/a_trancher/20260930-sort-prelevements.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/a_trancher/20260930-sort-prelevements.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragment_a_trancher_20261001_courroies",
+   "chemin": "methode/fragments/a_trancher/20261001-courroies.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "appareil/fragments.py"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/a_trancher/20261001-courroies.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "socle_prompt_fil",
+   "chemin": "methode/socle_prompt_fil.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/socle_prompt_fil.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_courroies",
+   "chemin": "methode/prompt_fil_courroies.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_courroies.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_lecture_textes_2027",
+   "chemin": "methode/prompt_fil_lecture_textes_2027.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_lecture_textes_2027.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_carto",
+   "chemin": "methode/prompt_fil_carto.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_carto.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_design_graphique",
+   "chemin": "methode/prompt_fil_design_graphique.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_design_graphique.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_site_pages_bande",
+   "chemin": "methode/prompt_fil_site_pages_bande.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_site_pages_bande.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "prompt_fil_window_dressing_site",
+   "chemin": "methode/prompt_fil_window_dressing_site.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/prompt_fil_window_dressing_site.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "audit_derives_20260924",
+   "chemin": "methode/audit_derives_20260924.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/audit_derives_20260924.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "cr_site_arret_mesure_20260923",
+   "chemin": "methode/cr_site_arret_mesure_20260923.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/cr_site_arret_mesure_20260923.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "charte_visuelle",
+   "chemin": "reference/charte_visuelle.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/charte_visuelle.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "index_livre_EP3",
+   "chemin": "livre/index_livre_EP3.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livre/index_livre_EP3.md",
+   "famille": "doctrine"
+  },
+  {
+   "role": "sort_prelevements_md",
+   "chemin": "livrables/sort_prelevements_20260930.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/sort_prelevements_20260930.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "reconciliation_sources_fiscales_20260930",
+   "chemin": "livrables/reconciliation_sources_fiscales_20260930.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/reconciliation_sources_fiscales_20260930.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "couverture_table_de_passage_20260930",
+   "chemin": "livrables/couverture_table_de_passage_20260930.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/couverture_table_de_passage_20260930.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "graphiques_index",
+   "chemin": "livrables/graphiques/index.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/graphiques/index.md",
+   "famille": "graphique"
+  },
+  {
+   "role": "etat_carto_20260924",
+   "chemin": "livrables/etat_carto_20260924.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/etat_carto_20260924.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "manifeste_20260924",
+   "chemin": "livrables/manifeste_20260924.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/manifeste_20260924.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "manifeste_20260923",
+   "chemin": "livrables/manifeste_20260923.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/manifeste_20260923.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "releve_passe_825_534_20260923",
+   "chemin": "livrables/releve_passe_825_534_20260923.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/releve_passe_825_534_20260923.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "rapprochement_proto_20260921",
+   "chemin": "livrables/rapprochement_proto_20260921.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/rapprochement_proto_20260921.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "etat_site_20260921",
+   "chemin": "livrables/etat_site_20260921.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/etat_site_20260921.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "digestion_archives_20260921",
+   "chemin": "livrables/digestion_archives_20260921.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/digestion_archives_20260921.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "reconfirmation_chiffres_20260921",
+   "chemin": "livrables/reconfirmation_chiffres_20260921.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/reconfirmation_chiffres_20260921.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "zip_doctrine_lisezmoi",
+   "chemin": "livrables/zip_doctrine_lisezmoi.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/zip_doctrine_lisezmoi.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "zip_doctrine_regles_de_lecture",
+   "chemin": "livrables/zip_doctrine_regles_de_lecture.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/zip_doctrine_regles_de_lecture.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "extrait_classeurs_anterieurs_20260917",
+   "chemin": "livrables/extrait_classeurs_anterieurs_20260917.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/extrait_classeurs_anterieurs_20260917.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "ecart_classeurs_20260917",
+   "chemin": "livrables/ecart_classeurs_20260917.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/ecart_classeurs_20260917.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "sort_prelevements_tsv",
+   "chemin": "referentiels/sort_prelevements_20260930.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/sort_prelevements_20260930.tsv",
+   "famille": "grilles"
+  },
+  {
+   "role": "table_passage_schema_prelevements",
+   "chemin": "referentiels/table_passage_schema_prelevements_20260930.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "referentiels/table_passage_schema_prelevements_20260930.tsv",
+   "famille": "grilles"
+  },
+  {
    "role": "instructions",
    "chemin": "CLAUDE.md",
    "rang": "methode",
@@ -5108,6 +5994,28 @@
    "famille": "références externes"
   },
   {
+   "role": "source:guide_legistique",
+   "chemin": "sources/guide_legistique.md",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée"
+   ],
+   "alias": [
+    "guide_legistique.md",
+    "guide_legistique",
+    "structure_ppl",
+    "guide_redaction",
+    "guide_domaine_financier",
+    "guide_legistique_2026.pdf"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/guide_legistique.md",
+   "famille": "références externes"
+  },
+  {
    "role": "source:note_reforme_budgetaire_20260730_v12",
    "chemin": "sources/note_reforme_budgetaire_20260730_v12.html",
    "rang": "source",
@@ -5179,8 +6087,8 @@
    "famille": "références internes"
   },
   {
-   "role": "source:structure_ppl",
-   "chemin": "sources/structure_ppl.md",
+   "role": "source:regles_credits",
+   "chemin": "sources/regles_credits.md",
    "rang": "source",
    "coffre": true,
    "produit_par": null,
@@ -5188,14 +6096,14 @@
     "citation sourcée"
    ],
    "alias": [
-    "structure_ppl.md",
-    "guide_legistique",
-    "guide_legistique_2026.pdf"
+    "regles_credits.md",
+    "guide_budgetaire",
+    "guide-public-du-budgetaire-2023.pdf"
    ],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "reference/structure_ppl.md",
-   "famille": "méthode"
+   "chemin_coffre": "reference/regles_credits.md",
+   "famille": "références externes"
   }
  ],
  "depot": {
@@ -5320,7 +6228,9 @@
    "referentiels/cgi_expert_insertions.tsv",
    "referentiels/cgi_expert_parametres.tsv",
    "referentiels/cgi_expert_suppressions.tsv",
-   "referentiels/prelevements_forces_20260930.tsv"
+   "referentiels/prelevements_forces_20260930.tsv",
+   "referentiels/sort_prelevements_20260930.tsv",
+   "referentiels/table_passage_schema_prelevements_20260930.tsv"
   ]
  },
  "manquants": [
@@ -5357,16 +6267,6 @@
     "REF_norme",
     "plages_articles.json",
     "vecteur-mesure"
-   ]
-  },
-  {
-   "role": "guide_public_budgetaire",
-   "chemin_attendu": "sources/guide-public-du-budgetaire-2023.pdf",
-   "rang": "source",
-   "intitule": "Guide public du budgétaire 2023 — sorti du projet, non digéré",
-   "motif": "Procédure budgétaire. Était au coffre comme document, `restaurable: false`. Sa sortie a été constatée le 20260904, non annoncée. Aucune digestion : ce qu'il portait n'est nulle part. À rejoindre s'il sert.",
-   "attendu_par": [
-    "citation sourcée"
    ]
   },
   {
@@ -5488,13 +6388,13 @@
   }
  ],
  "comptes": {
-  "artefacts": 319,
-  "au_coffre": 261,
+  "artefacts": 378,
+  "au_coffre": 320,
   "au_depot": 103,
-  "derives": 73,
-  "sources": 43,
+  "derives": 90,
+  "sources": 44,
   "non_restaurables": 16,
   "sans_famille": 2,
-  "manquants": 15
+  "manquants": 14
  }
 }

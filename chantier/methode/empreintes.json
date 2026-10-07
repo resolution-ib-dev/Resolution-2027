@@ -6,11 +6,7 @@
   "livrables/Recap_transposabilite_20260914_v7.md",
   "livrables/Recensement_innovations_20260914_v2.md",
   "livrables/etat_vecteurs.html",
-  "livrables/releve_epreuve_EP2.tsv",
-  "livrables/releve_epreuve_EP3.tsv",
-  "livre/texte_livre.json",
   "manuscrit/manuscrit.html",
-  "methode/arbitrages_archive.md",
   "methode/cr_confrontation_20260916.md",
   "methode/cr_lecture_textes_2026.md",
   "methode/cr_lot_C_20260917.md",
@@ -37,13 +33,6 @@
   "methode/sas_lot_A_resume_attendu.md",
   "methode/sas_pplc_regle_dor.md",
   "reference/Constitution_3col_20260914_v45.html",
-  "reference/Constitution_3col_20260916_v46.html",
-  "referentiels/cgi_expert_articles.tsv",
-  "referentiels/cgi_expert_articles_bouges.tsv",
-  "referentiels/cgi_expert_insertions.tsv",
-  "referentiels/cgi_expert_parametres.tsv",
-  "referentiels/cgi_expert_suppressions.tsv",
-  "referentiels/prelevements_forces_20260930.tsv",
   "sources/1pager_20260806_v1_proto.html",
   "sources/Constitution_3col_20260730_v44.html",
   "sources/Constitution_reference_20260806_v1.html",
@@ -64,11 +53,12 @@
   "sources/Recensement_innovations_20260731_v1.md",
   "sources/Reserve_arguments_20260806_v1.html",
   "sources/accroche_politique_revision_20260901.md",
+  "sources/guide_legistique.md",
   "sources/note_reforme_budgetaire_20260730_v12.html",
   "sources/prelevements_ifrap.tsv",
   "sources/prompt_session_organisation_20260827.md",
   "sources/rapport_gagnants_perdants_20260820.md",
-  "sources/structure_ppl.md"
+  "sources/regles_credits.md"
  ],
  "empreintes": {
   ".gitignore": {
@@ -82,9 +72,9 @@
    "lignes": 454
   },
   "Makefile": {
-   "sha256": "76c611af206e5891364666e217a263304bd21a38530bb533cf8739c49b07c709",
-   "octets": 37535,
-   "lignes": 720
+   "sha256": "4326961382e9923550c8879692774591b6ae2c764f0eab44606dfa28045d05e5",
+   "octets": 39449,
+   "lignes": 759
   },
   "appareil/apparier_operateurs.py": {
    "sha256": "e4d72df63d1c06df3a3caa69cc2cb01ed555f4cffc7460df770437ae7eb37d72",
@@ -302,9 +292,9 @@
    "lignes": 702
   },
   "appareil/generer_carte.py": {
-   "sha256": "58b9ff773ef27dfd9c7662909f68cd8ffef6798caefa8cd85ed8216c3d730a81",
-   "octets": 44177,
-   "lignes": 840
+   "sha256": "6fe098a1f2ec1ba47452f466e9a98b9a345545a5cc6681d4ab7a877e4803f0bf",
+   "octets": 44401,
+   "lignes": 844
   },
   "appareil/generer_classeur_synthese.py": {
    "sha256": "41270bfb208ca60080b3e249b76502a460b01532b97e55d2e129eef9f04923e2",
@@ -327,9 +317,9 @@
    "lignes": 595
   },
   "appareil/generer_index.py": {
-   "sha256": "101dd90c6129b922de9a6517de39a1530581213290a4a113e87cf5fd1f7be7e1",
-   "octets": 98183,
-   "lignes": 1627
+   "sha256": "d853553a444b6ab85354f3f54ca2abbf385158199dc2e5c7ff1203628477a0cf",
+   "octets": 99029,
+   "lignes": 1639
   },
   "appareil/generer_interface.py": {
    "sha256": "4d70f0aeccf1fa73ad7c09810e966d4b8c3771661838b0e6ce647b43fccdf54c",
@@ -766,10 +756,20 @@
    "octets": 7963,
    "lignes": 162
   },
+  "livrables/releve_epreuve_EP2.tsv": {
+   "sha256": "bdf2c372740fe9dc488fecee21fe86356436c6b586748880e7ef61da3313e176",
+   "octets": 95095,
+   "lignes": 859
+  },
   "livrables/releve_epreuve_EP3.md": {
    "sha256": "7d7426ef65a812355ce020064eebcc7e70ac1a6197ffaf702e2b95fd67401be3",
    "octets": 16484,
    "lignes": 278
+  },
+  "livrables/releve_epreuve_EP3.tsv": {
+   "sha256": "25b0e1cc1b31ea4fa603e3e3884655873e14c47415e2aac4f8fe544b09f5948c",
+   "octets": 59150,
+   "lignes": 270
   },
   "livrables/releve_passe_825_534_20260923.md": {
    "sha256": "745e35f426f14248f11d311f7d5053b38094cb89073d0e3f92149861ff7de27e",
@@ -801,15 +801,30 @@
    "octets": 3841,
    "lignes": 83
   },
+  "livre/texte_livre.json": {
+   "sha256": "2d3854998e6b01d3ec45f320ec8eec3ad9f6d84d11eb579150adad349d5a0a9c",
+   "octets": 311829,
+   "lignes": 7979
+  },
   "methode/a_trancher.md": {
    "sha256": "f3c11c51ff7f430cd6d497ae80e27da3798d41ee074c555c4283f672dbf60b16",
    "octets": 31089,
    "lignes": 475
   },
+  "methode/appui_des_passes.md": {
+   "sha256": "7d7d974c93544490ca64507047f6c09a3acaea7f382a723e559bd91910ab32a6",
+   "octets": 5064,
+   "lignes": 78
+  },
   "methode/arbitrages.md": {
    "sha256": "5a82b9227a0fd68b93a296c3a57ca78c6fe95aa4c50f992a04c897ff329631a3",
    "octets": 400951,
    "lignes": 6761
+  },
+  "methode/arbitrages_archive.md": {
+   "sha256": "a757463a5c37f717a9f7361ba7574e960125c64840d975827080057d358da255",
+   "octets": 243539,
+   "lignes": 4678
   },
   "methode/audit_derives_20260924.md": {
    "sha256": "76760c7f9bdabaaf00051459a79c4cc812d34d882cf5f126659eea307453e0ae",
@@ -827,14 +842,14 @@
    "lignes": 418
   },
   "methode/carte_des_chantiers.md": {
-   "sha256": "b1ee9f92be36e287afded6e05cc809b2b4a117e439592a348483f14e34db85ef",
-   "octets": 21953,
-   "lignes": 435
+   "sha256": "cfe4acba844275f0150564b4c1415cc8d06e37c8cf778cff93559f3a40046119",
+   "octets": 25307,
+   "lignes": 484
   },
   "methode/classement_corpus.md": {
-   "sha256": "f5de90da4bdf46dbce7a3352fbf32d10a21c4c17a6035ce0fdc3f9ab3d2fa01a",
-   "octets": 5442,
-   "lignes": 124
+   "sha256": "1d63d318b5f3b9f38e0f6a4742eb0781adbe547c52b323669098c51aa0d4d631",
+   "octets": 7299,
+   "lignes": 153
   },
   "methode/contrat_chaine_amendement.md": {
    "sha256": "bd55d9902fbc97e42d9a89f5ab475ef7fb236d9e85ef88d3e4bf22a8f3f536bd",
@@ -946,6 +961,36 @@
    "octets": 3274,
    "lignes": 60
   },
+  "methode/fragments/arbitrages/20261006-digestion-complements-guide.md": {
+   "sha256": "8752f6dfa45e9f02462aa0305cc61e8962cc690a911632943b73ad3f95853037",
+   "octets": 2453,
+   "lignes": 41
+  },
+  "methode/fragments/arbitrages/20261006-digestion-guide-legistique.md": {
+   "sha256": "e94d0690b51985a371eb3bc42c3a7a4befdab04a33d2de2183d5e60b05716782",
+   "octets": 2017,
+   "lignes": 36
+  },
+  "methode/fragments/arbitrages/20261006-digestion-sections-budgetaires.md": {
+   "sha256": "39fc4992373f183b0a71d97b2050e3df94a70e673afadbd322279ab5b2fad26d",
+   "octets": 3242,
+   "lignes": 50
+  },
+  "methode/fragments/arbitrages/20261007-corrections-methode-fil-code.md": {
+   "sha256": "5ea9a0e5bea507be569657b957c179aaa187b7754289861cc3177a51ee0e36c1",
+   "octets": 3715,
+   "lignes": 57
+  },
+  "methode/fragments/arbitrages/20261007-fusion-digestions-appui.md": {
+   "sha256": "ea9f73d508c1126f2e1a4ebd663733890a2a451bf9d8076f2f9f5e6bce229d89",
+   "octets": 4089,
+   "lignes": 65
+  },
+  "methode/fragments/arbitrages/20261007-geste2-restauration.md": {
+   "sha256": "63e9545b499ce5af3b09898f1597073dee40c85cccc59bafc152aff94ad7f195",
+   "octets": 3621,
+   "lignes": 60
+  },
   "methode/fragments/journal/20260917-socle.md": {
    "sha256": "9bdb3bd3f06af0d5ee6ea004164a11d5db949b0e98ab080dab4c5850228f80d4",
    "octets": 3398,
@@ -1002,14 +1047,14 @@
    "lignes": 675
   },
   "methode/index.json": {
-   "sha256": "5da10ca69687d173248f0a9df0be6943166d842f003abc72d9560c5d36b36bb0",
-   "octets": 139903,
-   "lignes": 5444
+   "sha256": "989ef6e25a7ff27c70e09e797c91e12855ad5331be25e303e4a2400dc170db25",
+   "octets": 165315,
+   "lignes": 6400
   },
   "methode/journal.md": {
-   "sha256": "8f9573d338064c0adb2c4c8e1356501c3d653cf067d2a8cc0fbe71d3280f33f6",
-   "octets": 346216,
-   "lignes": 5700
+   "sha256": "f9007b46da4eabeddd3cfd4833b02bec5c573282a1aaaf77a6d5cbdc8da44ca4",
+   "octets": 359646,
+   "lignes": 5960
   },
   "methode/localisation.md": {
    "sha256": "fe67558ef348f4710d90d2e76940259a3fe876c87d25db558f700ef3445b67ec",
@@ -1037,9 +1082,9 @@
    "lignes": 109
   },
   "methode/plan_bataille.md": {
-   "sha256": "faef86c24db26fea122923386e70b93c452a39de379099561467ed575c0a6c94",
-   "octets": 7767,
-   "lignes": 155
+   "sha256": "77dda18f0395d4e574ae5f69c3ca115a53f6049c2ee26c174912d9a727c249de",
+   "octets": 9188,
+   "lignes": 168
   },
   "methode/plan_sept_phases_20260930.md": {
    "sha256": "52b876bcd54f38ed398671572ee5e5632effc6693d5a0636822d6b7ec84088ab",
@@ -1055,6 +1100,11 @@
    "sha256": "d88fa34b7385fc27612e5d040fd379b5311c29e242cf8ca3cd6e0251793e59aa",
    "octets": 12563,
    "lignes": 266
+  },
+  "methode/procedure_fin_de_chantier_depot_2027.md": {
+   "sha256": "144116a271683c535c52c162bc1454cc4696e5b0dcf6e35b5b881d95bc1c1047",
+   "octets": 17382,
+   "lignes": 296
   },
   "methode/procedure_vecteurs.md": {
    "sha256": "517512b640e72606c6af9a101e346773e933d604238459b22ba5dc7d25bd521d",
@@ -1082,9 +1132,9 @@
    "lignes": 23
   },
   "methode/prompt_fil_lecture_textes_2027.md": {
-   "sha256": "b5a681776de2b38e8ef3cdd8b2582280de5c18cd4a490bffdc84bace1d9d8180",
-   "octets": 12462,
-   "lignes": 214
+   "sha256": "0a714de0a677131e222f6f78aafc2fbfb9523a0cc22b1eba01cd4d668a2c396e",
+   "octets": 14476,
+   "lignes": 259
   },
   "methode/prompt_fil_noeud_mise_en_oeuvre.md": {
    "sha256": "75bdc30296c001174073aac440d7f8c61fa2462267fe840232fb381e778dad77",
@@ -1127,14 +1177,19 @@
    "lignes": 162
   },
   "methode/socle_prompt_fil.md": {
-   "sha256": "53174e37029b3fb5160946f3492c06d85df75a8f997b8984aeda710b3a34f2ad",
-   "octets": 6367,
-   "lignes": 121
+   "sha256": "caa032795d94f697e4442d5d85c5e29947fcc86474b8649681128356d111a635",
+   "octets": 6749,
+   "lignes": 126
   },
   "methode/test_rattachement.md": {
    "sha256": "6deaba131394c0be14362fa74405fb07f9532cc6ee8220710f71943ea1110d1b",
    "octets": 12811,
    "lignes": 261
+  },
+  "reference/Constitution_3col_20260916_v46.html": {
+   "sha256": "80de491474511d123e3e87811f65315834b457ee8f735ba0722e5a6f6f73caed",
+   "octets": 104362,
+   "lignes": 923
   },
   "reference/cgi_expert_regles_de_lecture.md": {
    "sha256": "dc847ca1b2691827f5c467cc8c46423295d72c6a9b6072e41a251d5bd4631f44",
@@ -1166,6 +1221,11 @@
    "octets": 8012,
    "lignes": 171
   },
+  "reference/guide_legistique.md": {
+   "sha256": "b34748a1af5e74678c448341ae33b8a8d78aeef9ae483b7f61a2f49044a7416b",
+   "octets": 123710,
+   "lignes": 1929
+  },
   "reference/imposition_du_capital_fondapol.md": {
    "sha256": "da52b6a504b4a658516adc9a38a3f601794e5217f8d9fc62acc49669e28fcd81",
    "octets": 32008,
@@ -1182,9 +1242,14 @@
    "lignes": 515
   },
   "reference/passation_droit_renvois.md": {
-   "sha256": "67aecd35df2acf8ee662ee0e0cbc732247191ea9330d9946c2a03985233c1cbe",
-   "octets": 11117,
-   "lignes": 214
+   "sha256": "d837674b6daab0da53be38fe6ee55470fee98481aafec0f2beea6f9d6341b869",
+   "octets": 11556,
+   "lignes": 219
+  },
+  "reference/regles_credits.md": {
+   "sha256": "dddcd8bfd33aab506f24cfac940f3245b08e0903bccfc260980a25d07de4a1bf",
+   "octets": 19916,
+   "lignes": 350
   },
   "reference/sourcage_ir_dgfip.md": {
    "sha256": "4f7ef6dca97a831f4636af5d43a2219022d4a445ad15653d487af2383e36575b",
@@ -1206,6 +1271,31 @@
    "octets": 11634,
    "lignes": 218
   },
+  "referentiels/cgi_expert_articles.tsv": {
+   "sha256": "8448b4cf4292c84127fe1bdce77a1b64ef2e34c43a1bca74933a76a99f4ebafe",
+   "octets": 100381,
+   "lignes": 1755
+  },
+  "referentiels/cgi_expert_articles_bouges.tsv": {
+   "sha256": "c4d0ad8d1ec43d734fbd789f1399149452f2ea96cf6424f268dc54c7734e575d",
+   "octets": 34681,
+   "lignes": 255
+  },
+  "referentiels/cgi_expert_insertions.tsv": {
+   "sha256": "bb2722e16798146fc8030d66e0d8e395b41c142111c298f8bb8d3b9166fe09b8",
+   "octets": 61603,
+   "lignes": 435
+  },
+  "referentiels/cgi_expert_parametres.tsv": {
+   "sha256": "157742ece38f0c239a273790297d6b668488c7e0624102a9af52f7475668e0ec",
+   "octets": 7497,
+   "lignes": 48
+  },
+  "referentiels/cgi_expert_suppressions.tsv": {
+   "sha256": "133e009537b870725ab89a7e01ec6133d080a804813fbd5178f0b52d053ee292",
+   "octets": 136606,
+   "lignes": 3250
+  },
   "referentiels/index_mesures_plf.tsv": {
    "sha256": "0159a5c218b9d4015f30d26f78d2273bc4d19a7dfd497d20f1d9a661a20040bd",
    "octets": 157690,
@@ -1221,28 +1311,53 @@
    "octets": 59142,
    "lignes": 994
   },
+  "referentiels/prelevements_forces_20260930.tsv": {
+   "sha256": "13faa2a746c04fd1978928bfd80a2a310fe20c8274388bf95812f52ede86ae64",
+   "octets": 207773,
+   "lignes": 421
+  },
   "referentiels/redaction_plf.json": {
    "sha256": "eec65f01912754b8c1873378d5a4019d02d5bdcf95f0d89499d0841ea153209d",
    "octets": 848687,
    "lignes": 1
+  },
+  "referentiels/redaction_plf2027.json": {
+   "sha256": "5d674ce3d1ac202e4ab32c810e025343875755c3e2948dd4768ebd662c0135ed",
+   "octets": 1339120,
+   "lignes": 25747
   },
   "referentiels/redaction_plfss.json": {
    "sha256": "71119c0f83a4691522fbcd4bf53cf372d245a0b7c581e3fac0f97be2231add52",
    "octets": 351968,
    "lignes": 1
   },
+  "referentiels/redaction_plfss2027.json": {
+   "sha256": "1952b7676ddf0f45dcaa6e482cf032c6e1f0a8f76e2f81c30b8d526f034d5ad3",
+   "octets": 333917,
+   "lignes": 7328
+  },
   "referentiels/reperes_resume_2026.tsv": {
    "sha256": "14cf6ae4030935b39887803d046c8b1e83f2b04f31d6c571b32c5c2ba1f7c639",
    "octets": 42377,
    "lignes": 309
   },
+  "referentiels/socle_texte_plf2027.json": {
+   "sha256": "8c8dfab60057608808fa69d2296c04ed12afd44f0db688989f35302a6192ab43",
+   "octets": 1347331,
+   "lignes": 1002
+  },
+  "referentiels/socle_texte_plfss2027.json": {
+   "sha256": "b02886ba86237ba5308edb8e53ce8c2ac20c487a7e64f1a86bedb790d38aacc8",
+   "octets": 365105,
+   "lignes": 515
+  },
   "referentiels/sort_prelevements_20260930.tsv": {
-   "sha256": "cf8f2ec247244b76ad653e7979f00a75de9c5a1e2d3c96e303462ccc338ca7c8",
-   "octets": 116383,
+   "sha256": "641bd358af90a098525cfbc0f55333e661dea445f12bbcc764c3fa21e2d5c388",
+   "octets": 116620,
    "lignes": 421
   },
   "referentiels/table_passage_schema_prelevements_20260930.tsv": {
-   "sha256": "553e2e3cb58058e3a59c91d5bde2f0817d8b3a83c3af26628f7f5bf38cbc04b9",
+   "sha256": "4595e68cb4488dc68c0ba0c502f6d36b6b28bd4d822fbb4c01f538868ee35b50",
    "octets": 92988,
    "lignes": 421
   }

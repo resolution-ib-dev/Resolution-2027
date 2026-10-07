@@ -671,6 +671,26 @@ ARTEFACTS = [
       'contre-PLF'], []),
     ('domaine_lfss', 'reference/domaine_lfss_LO111-3.md', 'methode', True, None,
      ['test de rattachement', 'expose-sommaire', 'contre-PLF'], []),
+    # Les deux digestions de référence externe, versées les 20261006 et 20261007.
+    # `guide_legistique` absorbe `structure_ppl`, `regles_redaction_guide` et
+    # `domaine_lois_financieres`, et en porte les alias ; `regles_credits` ne
+    # fusionne avec rien — elle porte du verbatim relevé au dépôt de droit.
+    ('guide_legistique', 'reference/guide_legistique.md', 'methode', True, None,
+     ['redaction-legistique', 'disposition-cible', 'expose-sommaire',
+      'test de rattachement', 'contre-PLF'],
+     ['sources/guide_legistique.md', 'reference/structure_ppl.md',
+      'reference/regles_redaction_guide.md',
+      'reference/domaine_lois_financieres.md']),
+    ('regles_credits', 'reference/regles_credits.md', 'methode', True, None,
+     ['contre-PLF', 'amendement de crédits', 'état B'],
+     ['sources/regles_credits.md']),
+    # La table « type de passe → appui dû ». Une ligne de lancement de fil qui la
+    # nomme suffit : le fil y trouve tout ce qu'il devait ouvrir.
+    ('appui_des_passes', 'methode/appui_des_passes.md', 'methode', True, None,
+     ['ouverture de session', 'redaction-legistique', 'contre-PLF'], []),
+    ('procedure_fin_de_chantier_2027',
+     'methode/procedure_fin_de_chantier_depot_2027.md', 'methode', True, None,
+     ['ouverture de session', 'contre-PLF'], []),
     ('passation_droit_renvois', 'reference/passation_droit_renvois.md',
      'methode', True, None, ['ouverture de session'], []),
     ('passation_lecture_en_creux', 'methode/passation_lecture_en_creux.md',
@@ -1028,6 +1048,24 @@ ARTEFACTS = [
     ('fragment_journal_20261001_lecture_2027',
      'methode/fragments/journal/20261001-lecture-2027.md', 'methode',
      True, None, ['appareil/fragments.py'], []),
+    ('fragment_arbitrages_20261006_digestion_guide_legistique',
+     'methode/fragments/arbitrages/20261006-digestion-guide-legistique.md', 'methode',
+     True, None, ['appareil/fragments.py'], []),
+    ('fragment_arbitrages_20261006_digestion_complements_guide',
+     'methode/fragments/arbitrages/20261006-digestion-complements-guide.md', 'methode',
+     True, None, ['appareil/fragments.py'], []),
+    ('fragment_arbitrages_20261006_digestion_sections_budgetaires',
+     'methode/fragments/arbitrages/20261006-digestion-sections-budgetaires.md', 'methode',
+     True, None, ['appareil/fragments.py'], []),
+    ('fragment_arbitrages_20261007_fusion_digestions_appui',
+     'methode/fragments/arbitrages/20261007-fusion-digestions-appui.md', 'methode',
+     True, None, ['appareil/fragments.py'], []),
+    ('fragment_arbitrages_20261007_corrections_methode_fil_code',
+     'methode/fragments/arbitrages/20261007-corrections-methode-fil-code.md', 'methode',
+     True, None, ['appareil/fragments.py'], []),
+    ('fragment_arbitrages_20261007_geste2_restauration',
+     'methode/fragments/arbitrages/20261007-geste2-restauration.md', 'methode',
+     True, None, ['appareil/fragments.py'], []),
     ('fragment_arbitrages_20260930_cle_de_passage',
      'methode/fragments/arbitrages/20260930-cle-de-passage.md', 'methode',
      True, None, ['appareil/fragments.py'], []),
@@ -1144,7 +1182,10 @@ ARTEFACTS = [
 # son paragraphe. Un seul texte, servi aux deux endroits.
 #
 # `guide_legistique` a quitté cette liste : il n'est pas perdu, il est digéré
-# dans `sources/structure_ppl.md`, qui en porte l'alias.
+# dans `sources/guide_legistique.md`, qui en porte l'alias. Même sort pour
+# `guide_public_budgetaire`, sorti des manquants le 20261007 : son original est
+# versé au dépôt sous `sources/guide-public-du-budgetaire-2023.pdf` et il est
+# digéré dans `sources/regles_credits.md`.
 MANQUANTS = [
     # Déclaré voie `depot` par l'index du coffre, absent du dépôt : le fil du
     # second cercle l'a écrit le 20260917 sans le pousser.
@@ -1196,12 +1237,6 @@ MANQUANTS = [
     # modèle — et aucune n'a de digestion au corpus. Elles se déclarent ici
     # plutôt que de disparaître de la table de résolution : un renvoi qui ne
     # résout pas ne meurt pas en silence.
-    ('guide_public_budgetaire', 'sources/guide-public-du-budgetaire-2023.pdf',
-     'source', "Guide public du budgétaire 2023 — sorti du projet, non digéré",
-     "Procédure budgétaire. Était au coffre comme document, `restaurable: "
-     "false`. Sa sortie a été constatée le 20260904, non annoncée. Aucune "
-     "digestion : ce qu'il portait n'est nulle part. À rejoindre s'il sert.",
-     ['citation sourcée']),
     ('guide_nl_cba', 'sources/NL_cba-guidance.pdf', 'source',
      "Guide néerlandais coût-bénéfice — sorti du projet, non digéré",
      "Méthode d'évaluation étrangère. Même régime et même constat que le guide "
@@ -1347,8 +1382,10 @@ COFFRE_SOURCES = {
         'reference/LOLF_reference_20260507.html',
     'sources/LOLF_3col_20260507_v7.html':
         'reference/LOLF_3col_20260507_v7.html',
-    'sources/structure_ppl.md':
-        'reference/structure_ppl.md',
+    'sources/guide_legistique.md':
+        'reference/guide_legistique.md',
+    'sources/regles_credits.md':
+        'reference/regles_credits.md',
     # Rapport de clôture du fil gagnants-perdants du 20260820. Il portait le nom
     # `ETAT_DU_CHANTIER`, qui laissait croire à un point de situation courant :
     # il ne parle ni de la machine à amendements, ni du projet de loi de
@@ -1366,9 +1403,10 @@ COFFRE_SOURCES = {
     'sources/prelevements_ifrap.tsv':
         'referentiels/prelevements_ifrap.tsv',
     # --- documents de l'auteur ou de tiers, versés comme documents
-    # `guide-public-du-budgetaire-2023.pdf` et `NL_cba-guidance.pdf` ont quitté
-    # le coffre entre le 20260903 et le 20260904. Ils étaient `restaurable:
-    # false` et sans digestion : rien ne les remet. Portés aux manquants.
+    # `NL_cba-guidance.pdf` a quitté le coffre entre le 20260903 et le 20260904 :
+    # `restaurable: false` et sans digestion, rien ne le remet, il est aux
+    # manquants. `guide-public-du-budgetaire-2023.pdf` en est sorti le 20261007 :
+    # son original est versé sous `sources/` et il est digéré par `regles_credits`.
     'sources/20250619_Note_Retraite_IB.docx':
         'input/Note_Retraite_20250619.docx',
     # Versé par l'auteur le 20260827 à la racine du coffre, sous un nom qui
@@ -1435,10 +1473,15 @@ SOURCES_JOINTES = [
 
 # Alias supplémentaires portés par une source. Un renvoi qui visait un document
 # absent se résout ainsi sur celui qui l'a digéré : le guide de légistique du
-# SGG n'entre pas au corpus par son fichier, il entre par `structure_ppl`.
+# SGG n'entre pas au corpus par son fichier, il entre par `guide_legistique`,
+# et le Guide du budgétaire par `regles_credits`.
 ALIAS_SOURCES = {
-    'sources/structure_ppl.md': ['guide_legistique',
-                                 'guide_legistique_2026.pdf'],
+    'sources/guide_legistique.md': ['guide_legistique', 'structure_ppl',
+                                    'guide_redaction',
+                                    'guide_domaine_financier',
+                                    'guide_legistique_2026.pdf'],
+    'sources/regles_credits.md': ['guide_budgetaire',
+                                  'guide-public-du-budgetaire-2023.pdf'],
     'sources/rapport_gagnants_perdants_20260820.md': [
         'ETAT_DU_CHANTIER_20260820_v22.md',
         'methode/ETAT_DU_CHANTIER.md',
