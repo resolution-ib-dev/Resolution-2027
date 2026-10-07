@@ -22,11 +22,23 @@ ARTICLE_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
 </ARTICLE>"""
 
 STRUCT_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
-<TEXTELR><STRUCT>
-  <LIEN_SECTION_TA id="LEGISCTA000006179826" titre="Section VII : Cotisation">
-    <LIEN_ART id="LEGIARTI000006308922" num="235 bis"/>
-  </LIEN_SECTION_TA>
+<TEXTELR><META><META_COMMUN><ID>LEGITEXT000006069577</ID></META_COMMUN></META>
+<STRUCT>
+  <LIEN_SECTION_TA debut="1950-01-01" etat="VIGUEUR" fin="2999-01-01" id="LEGISCTA000006090000" niv="1">Livre premier : Assiette et liquidation de l'impot</LIEN_SECTION_TA>
 </STRUCT></TEXTELR>"""
+
+# Deux fichiers de section : aucun ne porte la chaine entiere, l'arbre la donne.
+LIVRE_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
+<SECTION_TA><ID>LEGISCTA000006090000</ID><TITRE_TA>Livre premier : Assiette et liquidation de l'impot</TITRE_TA>
+<STRUCTURE_TA>
+  <LIEN_SECTION_TA debut="1950-01-01" etat="VIGUEUR" fin="2999-01-01" id="LEGISCTA000006179826" niv="2">Section VII : Cotisation</LIEN_SECTION_TA>
+</STRUCTURE_TA></SECTION_TA>"""
+
+SECTION_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
+<SECTION_TA><ID>LEGISCTA000006179826</ID><TITRE_TA>Section VII : Cotisation</TITRE_TA>
+<STRUCTURE_TA>
+  <LIEN_ART debut="2019-05-24" etat="VIGUEUR" fin="2999-01-01" id="LEGIARTI000006308922" num="235 bis" origine="LEGI"/>
+</STRUCTURE_TA></SECTION_TA>"""
 
 TEXTE_META_XML = """<?xml version="1.0" encoding="UTF-8"?>
 <TEXTE_VERSION>
@@ -54,8 +66,15 @@ def fixture():
     assert a and a["id"] == "LEGIARTI000006308922", a
     assert a["num"] == "235 bis" and a["etat"] == "VIGUEUR", a
     assert "cotisation" in a["texte"] and "decret" in a["texte"], a["texte"]
-    s = X.lire_structure(STRUCT_XML)
-    assert s.get("LEGIARTI000006308922", "").endswith("Cotisation"), s
+    noeuds = {n["id"]: n for n in map(X.lire_structure, (STRUCT_XML, LIVRE_XML, SECTION_XML))}
+    s, mesure = X.chainer(noeuds, {a["id"]: a}, "2026-09-01")
+    assert s.get("LEGIARTI000006308922") == \
+        "Livre premier : Assiette et liquidation de l'impot > Section VII : Cotisation", s
+    assert mesure["chaines_completes"] == 1 and mesure["titres_ambigus"] == 0, mesure
+    # un maillon manquant : pas de chaine tronquee qui passerait pour entiere
+    s2, mesure = X.chainer({n: noeuds[n] for n in noeuds if n != "LEGISCTA000006090000"},
+                          {a["id"]: a}, "2026-09-01")
+    assert not s2 and mesure["chaines_incompletes"] == 1, (s2, mesure)
     print("parseur LEGI : article et structure lus.")
 
     # classement des archives de l'index DILA, sans réseau

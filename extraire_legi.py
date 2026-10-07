@@ -387,31 +387,164 @@ def lire_article(donnees):
 
 
 def lire_structure(donnees):
-    """Rend {LEGIARTI: 'Titre > Chapitre > Section'} depuis un fichier de structure."""
+    """Rend le nœud qu'un fichier de structure LEGI décrit, ou None.
+
+    Un fichier ne donne qu'un étage de l'arbre : le sien. La chaîne livre >
+    titre > chapitre > section ne se lit dans aucun fichier seul ; elle se
+    reconstruit par `chainer`, qui suit les liens d'un fichier à l'autre.
+    Lire la chaîne dans un seul fichier rendait à chaque article le seul
+    titre de sa division feuille — « Section 1 : Dispositions générales » —,
+    réemployé ailleurs dans le même code.
+
+      - le fichier de structure du texte (`texte/struct/LEGITEXT….xml`) donne
+        la racine : ses LIEN_SECTION_TA sont les divisions de premier niveau ;
+      - un fichier de section (`section_ta/…/LEGISCTA….xml`) donne son propre
+        titre (TITRE_TA), ses sous-divisions (LIEN_SECTION_TA) et ses
+        articles (LIEN_ART), chaque lien avec ses dates et son état.
+
+    {"id", "racine", "titre", "sections": [lien], "articles": [lien]}, où un
+    lien est {"id", "titre", "debut", "fin", "etat"}.
+    """
     try:
         racine = analyser(donnees)
     except ET.ParseError:
-        return {}
+        return None
+    nom = racine.tag.upper().split("}")[-1]
+    if nom not in ("SECTION_TA", "TEXTELR"):
+        return None
+    el = premier(racine, "ID")
+    ident = (el.text or "").strip() if el is not None and el.text else ""
+    if not ident:
+        return None
+    corps = premier(racine, "STRUCTURE_TA" if nom == "SECTION_TA" else "STRUCT")
+    noeud = {"id": ident, "racine": nom == "TEXTELR",
+             "titre": texte_de(premier(racine, "TITRE_TA")) if nom == "SECTION_TA" else "",
+             "sections": [], "articles": []}
+    for lien in (list(corps) if corps is not None else []):
+        balise = lien.tag.upper().split("}")[-1]
+        cle = {"LIEN_SECTION_TA": "sections", "LIEN_ART": "articles"}.get(balise)
+        if cle is None or not lien.get("id"):
+            continue
+        noeud[cle].append({"id": lien.get("id"), "titre": texte_de(lien),
+                           "debut": lien.get("debut") or "", "fin": lien.get("fin") or "",
+                           "etat": lien.get("etat") or ""})
+    return noeud
+
+
+def _valide_le(lien, jour):
+    """Vrai si le lien vaut le jour dit. Même règle que `applicable` : les
+    dates décident, l'état ne décide pas."""
+    d, f = lien["debut"], lien["fin"]
+    if d and d > jour:
+        return False
+    if f and f not in FIN_OUVERTE and f <= jour:
+        return False
+    return True
+
+
+def _jour_de_reference(article, jour):
+    """Le jour où l'on situe une version d'article dans l'arbre : aujourd'hui
+    pour une version applicable, son premier jour pour une version à venir,
+    son dernier jour pour une version passée."""
+    d = article.get("date_debut") or ""
+    f = article.get("date_fin") or ""
+    if d and d > jour:
+        return d
+    if f and f not in FIN_OUVERTE and f <= jour:
+        veille = datetime.date.fromisoformat(f) - datetime.timedelta(days=1)
+        return veille.isoformat()
+    return jour
+
+
+def chainer(noeuds, articles, jour):
+    """noeuds : {identifiant: nœud de `lire_structure`} d'un même texte ;
+    articles : {LEGIARTI: article}. Rend (chemins, mesure).
+
+    chemins : {LEGIARTI: 'Partie > Livre > Titre > Chapitre > Section'}, la
+    chaîne entière de la racine du texte à la division qui porte l'article.
+    Elle n'est rendue que COMPLÈTE — remontée jusqu'à une division que le
+    fichier de structure du texte rattache à sa racine. Un maillon manquant
+    laisse l'article sans chaîne plutôt qu'avec une chaîne tronquée qui
+    passerait pour entière.
+
+    Une section peut avoir plusieurs parents, et un article plusieurs
+    sections : LEGI garde le lien ancien quand une division est déplacée. On
+    retient le chemin dont le plus de liens valent au jour de référence de
+    la version d'article (`_jour_de_reference`). Quand deux chemins de
+    titres différents restent à égalité, l'article est compté
+    `placements_ambigus` et reçoit le premier dans l'ordre des identifiants
+    — compté, jamais tranché en silence.
+
+    mesure : {articles, chaines_completes, sans_lien, chaines_incompletes,
+    placements_ambigus, titres_ambigus}. `titres_ambigus` compte les chaînes
+    entières que portent plusieurs divisions feuilles distinctes : ce qui
+    reste à confondre une fois la chaîne reconstruite.
+    """
+    parents = defaultdict(list)       # section -> [(parent, lien)]
+    porteurs = defaultdict(list)      # LEGIARTI -> [(section, lien)]
+    titres = {}
+    for ident, n in noeuds.items():
+        if n["titre"]:
+            titres[ident] = n["titre"]
+        for lien in n["sections"]:
+            parents[lien["id"]].append((None if n["racine"] else ident, lien))
+            if lien["titre"]:
+                titres.setdefault(lien["id"], lien["titre"])
+        for lien in n["articles"]:
+            porteurs[lien["id"]].append((ident, lien))
+
+    chemins_de = {}
+
+    def chemins_racine(section, pile=()):
+        """Tous les chemins de la racine à `section`, en listes de
+        (section, lien vers son parent). Vide si aucun n'atteint la racine."""
+        if section in chemins_de:
+            return chemins_de[section]
+        if section in pile or section not in titres:
+            return []
+        rendus = []
+        for parent, lien in sorted(parents.get(section, []), key=lambda p: p[0] or ""):
+            if parent is None:
+                rendus.append([(section, lien)])
+            else:
+                rendus += [c + [(section, lien)]
+                           for c in chemins_racine(parent, pile + (section,))]
+        chemins_de[section] = rendus
+        return rendus
+
     chemins = {}
+    mesure = Counter(articles=len(articles))
+    feuille_de = {}
+    for ident in sorted(articles):
+        liens = porteurs.get(ident)
+        if not liens:
+            mesure["sans_lien"] += 1
+            continue
+        ref = _jour_de_reference(articles[ident], jour)
+        candidats = []
+        for section, lien in sorted(liens, key=lambda p: p[0]):
+            for c in chemins_racine(section):
+                score = sum(_valide_le(l, ref) for _, l in c) + _valide_le(lien, ref)
+                candidats.append((score, c))
+        if not candidats:
+            mesure["chaines_incompletes"] += 1
+            continue
+        haut = max(s for s, _ in candidats)
+        retenus = [c for s, c in candidats if s == haut]
+        rendus = [" > ".join(titres[s] for s, _ in c) for c in retenus]
+        if len(set(rendus)) > 1:
+            mesure["placements_ambigus"] += 1
+        chemins[ident] = rendus[0]
+        feuille_de[ident] = retenus[0][-1][0]
+        mesure["chaines_completes"] += 1
 
-    def descendre(el, pile):
-        nom = el.tag.upper().split("}")[-1]
-        if nom in ("SECTION_TA", "TM", "LIEN_SECTION_TA"):
-            titre = el.get("titre") or ""
-            if not titre:
-                t = premier(el, "TITRE_TA", "TITRE_TM")
-                titre = texte_de(t)
-            if titre:
-                pile = pile + [titre.strip()]
-        if nom == "LIEN_ART":
-            ident = el.get("id") or ""
-            if ident.startswith("LEGIARTI"):
-                chemins[ident] = " > ".join(pile)
-        for sous in list(el):
-            descendre(sous, pile)
-
-    descendre(racine, [])
-    return chemins
+    divisions = defaultdict(set)
+    for ident, feuille in feuille_de.items():
+        divisions[chemins[ident]].add(feuille)
+    mesure["titres_ambigus"] = sum(1 for f in divisions.values() if len(f) > 1)
+    for cle in ("sans_lien", "chaines_incompletes", "placements_ambigus"):
+        mesure.setdefault(cle, 0)
+    return chemins, dict(mesure)
 
 
 def balayer(urls, cibles):
@@ -422,7 +555,7 @@ def balayer(urls, cibles):
     complète, y compris quand un article passe de VIGUEUR à ABROGE.
     """
     articles = defaultdict(dict)   # court -> {id: dict}
-    sections = defaultdict(dict)   # court -> {id: chemin}
+    sections = defaultdict(dict)   # court -> {identifiant: nœud de structure}
     echecs = defaultdict(int)      # court -> XML illisibles
     exemples_echec = []
     chemins = defaultdict(list)    # court -> chemins d'exemple, pour le diagnostic
@@ -458,8 +591,10 @@ def balayer(urls, cibles):
                         donnees = f.read()
                         touches += 1
 
-                        if b"<LIEN_ART" in donnees:
-                            sections[court].update(lire_structure(donnees))
+                        if b"<STRUCTURE_TA" in donnees or b"<STRUCT>" in donnees:
+                            noeud = lire_structure(donnees)
+                            if noeud:
+                                sections[court][noeud["id"]] = noeud
                         if b"<ARTICLE" in donnees:
                             try:
                                 a = lire_article(donnees)
@@ -680,7 +815,8 @@ def main():
         # dépôt sans servir un rédacteur d'amendement.
         vivants = {i: a for i, a in articles[court].items()
                    if applicable(a, jour) or a_venir(a, jour) or dans_l_historique(a)}
-        info = ecrire(court, cle, vivants, sections.get(court, {}))
+        chemins, mesure_chaines = chainer(sections.get(court, {}), vivants, jour)
+        info = ecrire(court, cle, vivants, chemins)
 
         # Le volume de l'extrait est borné : un texte ajouté qui ferait
         # dépasser la limite n'est pas versé, il est déclaré au manifeste —
@@ -718,7 +854,8 @@ def main():
             {a["num"] for a in vivants.values()
              if applicable(a, jour) and a.get("date_fin") in FIN_OUVERTE and a["num"]})[:10]
         manifeste["codes"][cle]["sections_rattachees"] = sum(
-            1 for i in vivants if sections.get(court, {}).get(i))
+            1 for i in vivants if chemins.get(i))
+        manifeste["codes"][cle]["chaines"] = mesure_chaines
         journal(f"  {cle} : {app} applicables ({prog} à fin programmée), "
                 f"{av} à venir, {hist} historiques, sur {len(articles[court])} versions")
 
