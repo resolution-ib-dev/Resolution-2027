@@ -6205,6 +6205,178 @@ Question posée par l'auteure, mesurée, non tranchée.
   7,33 — et un motif d'assiette. Les laisser avec le forfait social rouvrirait cet
   arbitrage. **Le fil ne le rouvre pas** ; le prélèvement reste `en attente`.
 
+## 20261001 — annexes-non-parues-proxy
+
+*Deux règles posées par l'auteure le 20261001, inscrites là où elles se lisent.*
+
+## Le texte sans ses annexes — la règle du proxy déclaré
+
+**Les annexes détaillées du PLF 2027 ne sont pas parues.** Deux blocs en
+dépendent entièrement : le mouvement des impositions affectées d'un exercice à
+l'autre, qui vit à l'annexe 2 du tome I, et les dépenses fiscales, qui vivent à
+l'annexe 3 du tome II.
+
+**Règle.** On ne suspend pas ces blocs : on s'appuie sur les annexes **2026**
+comme approchant, et on branche sur le corps du texte 2027.
+
+**Ce que la règle impose, et elle ne se négocie pas.**
+
+- Toute valeur tirée d'une annexe 2026 et employée sur le millésime 2027 porte
+  la mention **« approchant 2026, à rejouer »**, dans le livrable comme au
+  référentiel.
+- Elle ne se présente **jamais** comme une donnée du texte 2027, ni dans un
+  exposé, ni dans un chiffrage, ni dans un amendement déposable.
+- Elle entre en confiance **1** — ancrage ou opération rejouée, sans source du
+  millésime — et jamais au-dessus.
+- Un chiffre du corps du texte 2027 prime toujours sur l'approchant : le proxy
+  comble un trou, il ne corrige rien.
+- À la parution des annexes, **seules ces valeurs se rejouent** ; le reste du
+  millésime ne bouge pas. C'est la raison pour laquelle elles portent une
+  mention plutôt que d'être fondues dans la masse.
+
+*La raison d'être de la mention est mécanique : sans elle, on ne saura pas quoi
+rejouer, et on rejouera tout — ou rien.*
+
+## Le test de la machine se joue mesure par mesure
+
+**Une mesure par tour, jamais un lot.** Les mesures de la phase 1 sont grosses,
+et un lot rendu d'un bloc ne se relit pas. La machine rend la mesure, s'arrête,
+et attend.
+
+La forme se valide **une seule fois**, sur la première mesure rendue en entier —
+texte visé, texte proposé, motivation, gage. Une fois la forme arrêtée, elle
+s'applique aux suivantes sans nouvelle validation, et la correction éventuelle
+se propage d'office. C'est la règle du bloc pilote, déjà posée pour les cartes.
+
+## La machine vit au dépôt, et elle doit être exportable
+
+**Elle fonctionne comme la précédente : son matériel est en ligne au dépôt**, pas
+transporté de fil en fil. Un fil Cowork ne pousse pas — le paquet se téléverse au
+navigateur, ou s'applique par une session de code.
+
+**Elle doit être exportable dès la première mesure validée** : à ce moment, le
+paquet est gelé et part tel quel, sans dépendance au corpus et sans rien à
+redemander.
+
+## 20261001 — borne-portes-perimee
+
+*Mesure faite sur question de l'auteure — « tu as corrigé les docs de méthode qui
+avaient des manques ? ». Elle a trouvé une faute plus grave que celles déjà
+corrigées.*
+
+**A — Une borne fausse depuis un mois, répétée toute la journée.**
+`methode/prompt_fil_lecture_textes_2027.md` écrivait : « La grille des portes du
+domaine des lois de financement n'est pas relevée. Tant qu'elle manque, tout verdict
+côté loi de financement plafonne à `plaidable`. »
+
+**La grille est relevée depuis le 20260902**, arbitrage **A-336** : 31 portes,
+0 échec, en verbatim au dépôt de droit, millésime LEGI 20260901, chaque porte avec
+son identifiant `LEGIARTI`. Elle est portée par `appareil/portes_domaine_lfss.py`
+(28 979 octets aux empreintes) et documentée à `reference/domaine_lfss_LO111-3.md`.
+Répartition : 15 facultatives, 9 obligatoires, 4 monopoles, 1 définition,
+1 structure, 1 reprise.
+
+**La borne tient, son motif était faux.** Le verdict plafonne à `plaidable` non
+parce que la grille manque, mais par l'arbitrage n° 3 de
+`methode/procedure_contre_plf.md` : **le rattachement se plaide par l'implicite
+budgétaire et le contrefactuel, non par une porte du domaine**, et la grille passe
+au second rang — elle dit ce qui est acquis sans plaidoirie, pas ce qu'on tente.
+
+**B — Ce que la faute a coûté.** La mention périmée a été recopiée dans le fragment
+de journal du fil de lecture du PLFSS, dans deux lignes de lancement rendues à
+l'auteure, et dans une ligne de mandat qui demandait de **relever une grille qui
+existe déjà**. *Trois fils du 20261001 ont travaillé sous une borne dont aucun n'a
+vérifié le motif.*
+
+**C — La règle qui en sort, portée au prompt et au `CLAUDE.md`.** **Une borne
+écrite à un document de méthode ne se recopie pas : elle se vérifie à
+`methode/arbitrages.md` et au registre avant d'être redite.** Un document de
+méthode est une pièce datée ; le registre, non.
+
+**D — Ce qui reste vrai, et qui est opérationnel.** La grille porte **deux manques
+déclarés** par A-336 et non comblés : `LO 111-4` et `LO 111-4-1`, les annexes
+obligatoires — **siège de toute obligation documentaire nouvelle au PLFSS** —, et
+**le croisement avec la grille LOLF n'est pas fait**, alors que trois portes Sécu
+renvoient au III de l'article 2 de la LOLF : une mesure d'affectation entre l'État
+et la sécurité sociale se qualifie sur **deux** grilles à la fois.
+
+**E — Une échéance.** Le relevé du 20260902 se périme de lui-même au bout de
+45 jours : **le 17 octobre 2026**. Après cette date, tout fil qui s'en sert le
+rafraîchit par `droit.py` avant emploi.
+
+**F — Corrections faites, et le balayage qui les clôt.** Le porteur initial a été
+corrigé, puis le projet a été balayé pour trouver tous les autres. **Six documents
+réécrits :**
+
+1. `methode/prompt_fil_lecture_textes_2027.md` — borne réécrite avec son vrai
+   motif, consigne « le fil ne relève pas la grille, elle existe », règle C en tête.
+2. `methode/procedure_contre_plf.md` — fil 1 marqué *fait le 20260902* avec les
+   chiffres d'A-336 ; chemin mort `sources/domaine_lfss_LO111-3.md` corrigé en
+   `reference/` ; bloc de trois réserves (LO 111-4, croisement LOLF, péremption) ;
+   balayage des pièges inscrit ; quatre pièces de lecture substituées à la fiche
+   unique ; règle neuve « une borne se vérifie au registre avant d'être redite ».
+3. `methode/plan_bataille.md` — § 5 rang 4 et § 8 point 2 corrigés, point 3 ajouté
+   pour la péremption du 17 octobre.
+4. `methode/a_trancher.md` — cinquième mécanisme de faute inscrit (« recopier une
+   borne au lieu de la vérifier ») ; le chantier de fond clos ; la perte de
+   `plier_paquet.py` et `controle_projection.py` marquée périmée.
+5. `methode/carte_des_chantiers.md` — le « Reste » du chantier 3 réécrit : borne
+   close, blocs L1–L4 déclarés non joués sur 2027, état réel du millésime porté,
+   péremption inscrite au tableau des dates, deux arbitrages ajoutés à ce qui
+   revient à l'auteure.
+6. `CLAUDE.md` — chemin mort corrigé, grille déclarée relevée avec ses trois
+   réserves, vrai motif du plafond `plaidable` écrit, règle C portée en sixième
+   garde-fou ; plus trois règles mesurées ce jour : un PDF ne se verse pas au
+   coffre, le séparateur de milliers se vérifie sur le texte extrait et jamais à
+   l'œil, et une grammaire de relevé se lit au fil jumeau avant d'être réécrite.
+
+`reference/passation_droit_renvois.md` portait le même défaut à sa liste
+« non corrigés » : il y est **clos**.
+
+**`methode/journal.md` n'est pas touché** : c'est un récit daté, il ne se réécrit
+pas. Il porte donc encore la mention périmée, à sa date, et c'est voulu.
+
+**Balayage de clôture joué** : aucun document prescriptif du projet n'énonce plus
+que la grille n'est pas relevée, et aucun ne pointe plus vers
+`sources/domaine_lfss_LO111-3.md`.
+
+## 20261001 — chapeau-liste-final
+
+*Quatrième et dernière reprise de la liste du PLFSS 2027, sur consigne de l'auteure.
+Quatre corrections, portées au gabarit et au script. **L'ordre du chapeau arrêté ici
+remplace celui des trois reprises précédentes.***
+
+**A — Les pièges ne font pas une section à part.** La section
+`## Ce que les titres ne disent pas` est **supprimée**. *Motif de l'auteure : « ça
+fait partie de l'analyse globale, c'est pas un bonus à part ».* Les neuf pièges
+étaient déjà portés par les lignes d'article qu'ils concernent — la section les
+dédoublait et laissait croire que le reste de la liste n'analysait rien. **Le
+balayage qui les trouve reste dû** (§ 1.3 du gabarit) ; ce qui change est l'endroit
+où il se restitue : **à la ligne de l'article, jamais ailleurs.**
+
+**B — L'ordre du chapeau, arrêté.**
+
+1. `## En bref` — **deux paragraphes courts**, pas davantage. Le premier porte les
+   agrégats et ce qu'ils cachent ; le second dit ce que le texte fait et ne fait pas.
+2. Le tableau `qui` · `ce qui change pour lui` · `où`.
+3. `## Les grandeurs` — ce que le premier paragraphe n'a pas pris : dette,
+   trésorerie, agrégat de périmètre large, écart à la programmation.
+4. `## Trois chiffres à ne pas confondre avec ceux qui circuleront`.
+5. Les partitions et les articles.
+6. **`## Comment lire cette liste`, à la fin du document** — la légende des poids et
+   la forme d'une ligne. *Motif : c'est un appareil de lecture, il ne se lit qu'une
+   fois et il ne doit pas retarder l'entrée dans le texte.*
+
+**C — Le filet tricolore est en tête de chaque page**, et non plus de la seule
+première. Il passe de la boîte de contenu à la **boîte de marge `@top-center`** :
+`content: ""`, 166 mm de large, 2 px de haut, le dégradé en image de fond, marge
+haute de page portée de 20 à 24 mm. *Le `div.filet` du flux est neutralisé —
+`display: none` — plutôt que supprimé, pour que les listes déjà écrites rendent
+sans retouche.*
+
+**D — Ce qui ne bouge pas.** Aucun chiffre, aucune source, aucune ligne d'article.
+Contrôle de rendu rejoué : **49 sur 49, zéro ligne nue.** Sept pages.
+
 ## 20261001 — courroies
 
 **Un fragment déposé depuis Cowork n'est pas au clone que la session de code lit.**
@@ -6563,6 +6735,128 @@ et `livrables/rendre_liste_pdf.py` ont bougé ensemble, comme le gabarit l'exige
 script étant partagé, **les quatre règles valent aussi pour la liste du PLF 2027 à
 son prochain rendu** — sans qu'il faille y toucher.
 
+## 20261001 — outillage-textes-2027
+
+*Tambouille tranchée par le fil d'outillage des textes 2027. Trois décisions
+d'appareil, chacune imposée par une divergence mesurée.*
+
+## Une pièce nommée ne se devine pas : elle se reconnaît sur table close
+
+La reconnaissance du nom de pièce par expression régulière a été reprise trois
+fois et a échoué trois fois : elle tronquait les noms longs — « code des
+impositions sur les biens » pour « … sur les biens et services », « code des
+pensions civiles » pour « … civiles et militaires de retraite » — et elle en
+fabriquait — « code propriétés non bâties », « code général des taxe spéciale ».
+Mesure au moment de la bascule : **222 adresses relevées contre 424** au relevé
+qui fait foi, et huit textes entiers à zéro.
+
+**Décision.** `appareil/pieces_nommees.py` porte une **table close** des codes,
+reconnue au plus long libellé, apostrophe droite ou courbe indifférente. Les
+lois, ordonnances et décrets gardent leur forme régulière : leur numéro et leur
+date les identifient sans ambiguïté. Un libellé « code … » qu'aucune entrée ne
+couvre se **déclare** par `non_reconnues()` et se verse à la table — il ne se
+devine jamais au vol.
+
+## Le guillemet français ne s'imbrique pas
+
+C'était la faute lourde, et la table close ne l'a pas corrigée parce qu'elle
+n'en était pas la cause. Le blanchiment des passages cités comptait la
+profondeur d'imbrication. Or la légistique rouvre un `«` à chaque alinéa inséré
+sans fermer le précédent : l'article 19 du PLF 2027 porte **78 ouvrants pour 75
+fermants**. Le compte de profondeur ne retombait jamais à zéro et blanchissait
+tout le reste de l'article — **11 669 octets de dispositif ramenés à 492**, et
+ses trente sièges avec.
+
+**Décision.** Un `«` se referme au `»` suivant, quels que soient les `«`
+intermédiaires. Un `«` jamais refermé ne blanchit que jusqu'à la fin de sa
+ligne. Effet mesuré, à table close inchangée : **221 → 449 adresses** côté PLF,
+**78 → 191** côté PLFSS.
+
+*La règle 6 de la grammaire de relevé est donc à lire ainsi : le blanchiment
+traverse les lignes, il préserve les offsets, et **il ne compte pas la
+profondeur**.*
+
+## Le folio contre le sommaire, remesuré
+
+L'écart entre le sommaire imprimé du PLF 2027 et le folio réel est **nul à
+l'article 1 et atteint +21 à l'article 89**, croissant tout du long. La règle 1
+de la grammaire tient, et le relevé des portes, fait au folio, est bon.
+
+## Ce qui est déclaré et non corrigé
+
+L'attribution de la pièce prend celle que la même phrase nomme après l'adresse,
+à défaut la dernière déclarée avant elle. Quelques adresses du code de la
+sécurité sociale sortent sous « code de la santé publique » quand une phrase
+nomme les deux. **Le défaut est celui du millésime 2026**, dont le référentiel
+porte les mêmes lignes et un bloc `indéterminé`. Il se corrige par une table de
+familles d'adresses — `L. 16x` au code de la sécurité sociale — et ce n'est pas
+de ce fil.
+
+Le relevé rend **449 adresses côté PLF contre 424** au relevé qui fait foi.
+L'écart tient aux énumérations — « les articles L. 1, L. 2 et L. 3 », dont seul
+le premier était capté — et aux **31 adresses que le relevé qui fait foi déclare
+lui-même « à vérifier »** comme renvois et non sièges. La confrontation par
+texte tombe à moins de dix lignes près sur les huit têtes.
+
+## 20261001 — pieges-liste
+
+*Troisième reprise de la liste du PLFSS 2027, sur consigne de l'auteure : retirer
+les disclaimers, souligner les pièges cachés dans le texte, et descendre encore le
+registre. Trois règles portées au gabarit — étage 0.*
+
+**A — Les disclaimers sont retirés du chapeau.** Quatre blocs disparaissent : la
+ligne de provenance des montants, le paragraphe de périmètre (« ce texte ne porte ni
+l'impôt sur le revenu… »), l'avertissement sur les dates, et la note de clôture.
+*Ils protégeaient le rédacteur, pas le lecteur. Ce qu'ils disaient d'utile tient
+désormais à la ligne de l'article concerné : la date d'entrée en vigueur se dit là
+où elle vide la mesure, et le renvoi à l'autre véhicule là où il manque une jambe.*
+**La règle du référentiel disparaît aussi du chapeau** : elle reste dans la légende
+des poids, qui la porte déjà par son cran `○`.
+
+**B — Une section nouvelle, et elle est obligatoire : `## Ce que les titres ne
+disent pas`.** Un tableau de huit à dix lignes, placé **entre le tableau « qui » et
+les grandeurs**. Chaque ligne nomme en trois à six mots ce que l'intitulé de
+l'article ne laisse pas deviner, puis l'explique en deux phrases.
+
+*Ce que la passe d'analyse a trouvé et que les deux versions précédentes
+n'avaient pas :*
+
+- **article 20 — la dérogation au secret médical.** L'article s'intitule
+  « renforcer la coordination entre le médecin traitant, le médecin du travail et le
+  médecin conseil ». Il porte une dérogation expresse à l'article L. 1110-4 du code
+  de la santé publique, pour tout arrêt de plus de trente jours. *Relevée par un
+  balayage des formules « par dérogation » sur les 49 articles — le premier balayage
+  n'avait porté que sur les mots de portée et les entrées en vigueur.*
+- **article 22 — le reste à charge devient un forfait.** Sous un titre consacré à la
+  rémunération des centres de santé, la participation de l'assuré change de nature
+  et son montant passe à l'arrêté.
+- **article 29 — l'autorisation d'équipement lourd conditionnée.** Le dépistage
+  obligatoire était vu ; le levier d'autorisation, non.
+- **article 30 — la pénalité à 10 % du chiffre d'affaires** d'une spécialité.
+- **article 11 — le relèvement rétroactif du seuil de reversement 2026**, qui réduit
+  la probabilité que la clause se déclenche sur l'exercice en cours.
+- **article 37 — cinq alinéas supprimés** dans la disposition qui fixe les
+  justificatifs exigés.
+
+**Le balayage qui les a trouvés tient en une ligne et entre au gabarit** : chercher
+sur tous les articles `par dérogation`, `nonobstant`, `sans préjudice`, `sont
+validées`, `est abrogé`, `ratifi`, `pénalité`, `sanction`, `ordonnance`, et lire
+chaque occurrence. *Il coûte une minute et il a rendu six pièges.*
+
+**C — Le registre descend d'un cran encore.** « Taxe les fabricants de matériel
+médical sur tout ce qu'ils vendent, et non plus sur le cinquième du marché » plutôt
+que « remplace la clause de sauvegarde, qui ne couvrait que 21 % de la dépense
+remboursée ». La règle : **un terme technique ne s'emploie que si aucun mot courant
+ne dit la même chose**, et jamais en entame.
+
+**D — Trois poids relevés** à la lecture des pièges : les articles 20, 22, 29, 30 et
+33 passent de `●●` à `●●●`. *Ils touchent une situation individuelle — le secret
+médical, le reste à charge, l'obligation d'exercice —, ce que le cran `●●` ne dit
+pas. Le poids suit l'effet sur les personnes, pas le volume du dispositif.*
+
+**E — Ce qui ne bouge pas.** Aucun chiffre, aucune source. Contrôle de rendu rejoué :
+**49 sur 49, zéro ligne nue.** Sept pages, inchangé.
+
 ## 20261001 — plan-vehicule
 
 Deux cadrages de l'auteure, une correction de mandat, et trois décisions de tambouille
@@ -6759,3 +7053,1004 @@ documents rendus comme fichier, ce que `restaurer.py` ne fait pas. Elle a été
 
 Tranché en propre : un outil d'une seule session vit au scratchpad, ne se verse
 pas, ne se pousse pas, et ne crée donc aucune dette de paquet.
+
+## 20261002 — arbitrage-porte-son-raisonnement
+
+# Arbitrage — un arbitrage versé porte son raisonnement (2 octobre 2026)
+
+## Le constat
+
+À chaque bascule de fil, et à l'intérieur même d'un fil long, du travail acquis se
+perd : le fil suivant re-dérive ce qui était tranché, et il re-dérive mal. Observé
+plusieurs fois le 2 octobre, dont deux fois sur le même objet dans la même soirée.
+
+## La cause, qui n'est pas l'oubli
+
+Les arbitrages sont bien versés. Ils sont versés **sans leur raisonnement**. Un
+fil qui reçoit la conclusion seule n'a aucun moyen de résister à la pente qui a
+produit l'erreur d'origine : il rabat sur la forme la plus simple à la première
+difficulté. Exemple du jour : « le gage pointe sur notre instrument de
+restitution », reçu sans « et voilà pourquoi le gage tabac ne convient pas à notre
+schéma », a été rabattu sur le gage tabac avec le seul nom de l'imposition changé.
+
+## La contre-mesure
+
+Tout arbitrage versé porte trois choses, pas une :
+
+1. **ce qui est tranché** ;
+2. **le raisonnement qui l'a produit**, en entier, pas résumé ;
+3. **l'erreur qu'il corrige** — la solution plus simple qu'on serait tenté de
+   reprendre, et pourquoi elle ne convient pas.
+
+Un arbitrage sans son « pourquoi pas autrement » est incomplet. Il se re-dérivera,
+et mal.
+
+## Corollaire sur la forme
+
+Une rédaction riche ne se « simplifie » pas quand elle résiste : elle s'ajuste à
+la marge. Rabattre une forme élaborée sur sa version pauvre en gardant le
+vocabulaire n'est pas une simplification, c'est une perte déguisée en décision.
+
+## 20261002 — arbitrages-de-forme
+
+Quatre arbitrages de forme rendus par l'auteure le 20261002, sur le fil 1 de la
+carte des dix fils. Ils commandent les fils 3 à 6.
+
+**Le second a été rendu, révoqué, puis repris sous une autre forme, dans la même
+journée. Les trois états sont écrits. Un arbitrage révoqué ne s'efface pas — et
+la raison pour laquelle il a bougé deux fois est inscrite au dernier paragraphe,
+parce qu'elle est une faute du fil et pas une hésitation de l'auteure.**
+
+## Dates d'entrée en vigueur à l'impôt sur le revenu et à l'impôt sur les sociétés
+
+**Tranché : régime mixte, par type d'avantage.**
+
+- **Exonérations, abattements, réductions et taux réduits non incitatifs** —
+  application aux revenus perçus en 2026 et aux exercices clos en 2026.
+- **Avantages incitatifs** — dons, investissements défiscalisés, souscriptions,
+  et tout avantage dont le fait générateur est une opération entreprise en vue
+  de l'avantage : application aux seules opérations réalisées **à compter du
+  lendemain de la publication de la loi**.
+
+Motif retenu : une loi de finances promulguée avant le 31 décembre peut saisir
+les revenus de l'année en cours ; elle ne peut pas retirer un avantage incitatif
+à une opération déjà réalisée en vue de cet avantage.
+
+**Le partage incitatif / non incitatif ne se fait pas niche par niche** : il se
+fait par une règle écrite une fois, adossée à la jurisprudence et à la doctrine.
+Le test : la petite rétroactivité est acquise ; la limite est l'atteinte aux
+situations légalement acquises et à l'espérance légitime, opposée aux avantages
+accordés en contrepartie d'un engagement du contribuable. **Aucune décision ne se
+cite de mémoire : le verbatim se relève au dépôt de droit.** Chantier dû, non
+ouvert.
+
+**Écarté** : la rétroactivité sans exception, et le report intégral au
+1er janvier 2027.
+
+## Taxe sur la valeur ajoutée — trois états dans la journée, le troisième vaut
+
+**État 1, rendu le matin, RÉVOQUÉ** : graduation au 1er juillet 2027, les 21 taux
+réduits traités comme des niches de la clause générale.
+
+**État 2, rendu puis DÉPASSÉ** : sortie complète de la phase 1, départ avec la
+phase portant la restitution salariale. Motif alors retenu : la hausse de prix
+arriverait seule, sans contrepartie.
+
+**État 3, et c'est celui qui vaut.** Les 21 taux réduits **restent en phase 1, au
+1er juillet 2027**, à trois conditions cumulatives.
+
+1. **Hors clause générale des niches.** La taxe sur la valeur ajoutée devient une
+   **jambe propre** et ne passe pas par la clause de non-application de M-026.
+   Son effet n'est pas la suppression d'un avantage catégoriel mais une hausse de
+   prix générale : elle n'a ni le même perdant, ni la même contrepartie, ni la
+   même défense.
+2. **Corrélée aux suppressions de taxes sectorielles de même date.** C'est une
+   **corrélation d'entrée en vigueur, jamais une affectation** — et c'est ce qui
+   la fait passer : on ne rattache aucune recette à aucune dépense, on fait
+   prendre effet deux mesures le même jour. L'universalité n'est pas en cause et
+   rien n'est à gager.
+3. **La contrepartie se mesure avant de s'alléguer.** Chantier dû : croiser les
+   **193 prélèvements supprimés** avec les assiettes portant un taux réduit de
+   taxe sur la valeur ajoutée. **Là où il n'y a pas recouvrement, l'exposé le
+   dit** — il n'allègue pas une compensation qui n'existe pas. Le croisement est
+   calculable aujourd'hui ; le **net en euros par secteur ne l'est pas**, l'annexe
+   des dépenses fiscales 2027 n'étant pas parue.
+
+**Motif de l'état 3, et il est de l'auteure** : la taxe sur la valeur ajoutée est
+**l'un des seuls rendements contemporains** de la phase — le reste met plus de
+temps à produire. La sortir de la phase coûtait ce rendement pour un bénéfice que
+la corrélation obtient autrement.
+
+**Écartés** : le 1er mars 2027, le report à l'exercice 2028, la sortie de phase,
+et le découplage par assiette fondé sur un rendement par taux réduit qui n'est
+pas mesurable.
+
+### Tambouille attachée, tranchée par le fil et révocable en une ligne
+
+**La jambe TVA reste logée dans M-026 ; elle ne devient pas une treizième mesure
+de la phase.** M-029 — le taux unique — n'est pas une mesure de la phase 1, et
+l'y faire entrer serait une modification du périmètre de phase, donc du fond. La
+jambe propre suffit : M-026 porte **465 niches par la clause générale et 21 taux
+réduits par une jambe datée au 1er juillet 2027, avec sa propre contrepartie**.
+Pas de rescission d'un montant non mesurable — une séparation nette de jambes.
+
+**Collision à porter au fil 8** : la jambe TVA de M-026 et M-029 visent les mêmes
+articles — `278`, `278-0 bis`. Deux pièces sur la même adresse, dans deux phases
+différentes. La carte des collisions se tient au niveau du programme, et c'est
+exactement le cas qu'elle doit attraper.
+
+## Schéma de progressivité des secteurs différés — M-026
+
+**Tranché : trois régimes en cascade, et le défaut est l'extinction en flux.**
+
+| rang | régime | ce qu'il fait |
+|---|---|---|
+| défaut | **extinction en flux** | la niche cesse pour tout fait générateur nouveau ; les situations déjà engagées vont à leur terme |
+| secteurs **sensibles** | **extinction par moitié ou par tiers, avec délai** | l'avantage se réduit par fractions sur deux ou trois ans |
+| secteurs **signalés** | **jambe de compensation contemporaine, molle** | la niche tombe, et un allègement de même date est porté sur le même impôt |
+
+**Mots de l'auteure** : « un mix adapté aux avantages en question. en flux par
+défaut, par moitié ou tiers avec un délai pour les sensibles, une jambe de
+compensation contemporaine molle pour les signalés ».
+
+Les trois schémas que le fil posait en options concurrentes ne sont pas des
+variantes : ce sont les trois rangs d'un même barème, et c'est le secteur qui
+désigne son rang. Le report en bloc au 1er janvier 2029 reste écarté.
+
+**La ventilation se fait par règle, pas par liste** : le critère qui désigne un
+secteur sensible ou signalé s'écrit une fois, et la liste en découle. Le cadrage
+« un à trois ans » du 20261001 se lit comme le rang 2.
+
+**Lecture retenue de « compensation contemporaine molle », révocable en une
+ligne.** Une jambe portée au même amendement, de même date d'entrée en vigueur,
+qui abaisse un taux du même impôt pour le secteur visé. **Molle** s'entend comme
+partielle et non calibrée : elle amortit, elle ne neutralise pas à l'euro, et le
+montant non compensé se dit en exposé. *C'est le même mécanisme que la
+corrélation TVA ci-dessus, un cran plus bas — un secteur au lieu d'un impôt.*
+
+## Périmètre et sortie des affectations
+
+**Tranché : le traitement de chaque affectation se lit sur le sort déjà attribué
+à son bénéficiaire.**
+
+| sort du bénéficiaire | traitement de l'affectation |
+|---|---|
+| structure fermée | la taxe tombe avec elle |
+| structure conservée | la ressource bascule en crédits budgétaires |
+| structure à patrimoine et revenus propres | valorisation des ressources propres, sans bascule |
+
+Le principe — **toute affectation est à supprimer** — n'est pas rouvert : la
+décision porte sur la sortie, non sur le périmètre. La règle ne demande aucun
+relevé neuf : les 420 sorts sont attribués, et le relevé de sort est la clé
+d'entrée du tableau de l'article 42.
+
+**Écartés** : la suppression sèche uniforme, et le partage par seuil de montant.
+
+## Trois règles transversales, posées le 20261002
+
+**Un arbitrage de rédaction se rend en règle, pas en liste de cas.** Posé par
+l'auteure. Une liste se refait à chaque millésime et ne se contrôle pas ; une
+règle adossée à la jurisprudence et à la doctrine classe les cas et survit au
+texte. **Le fil qui rendrait un tri de cas là où une règle est due est en
+faute.**
+
+**Une contrepartie se corrèle, elle ne s'affecte pas.** Deux mesures qui prennent
+effet le même jour produisent l'effet net recherché sans rattacher une recette à
+une dépense. C'est la voie qui passe sous l'universalité, et elle vaut partout où
+une hausse doit sortir avec sa contrepartie.
+
+**Une question de date se pose avec son effet net et sa contrepartie, jamais
+comme un calendrier — et c'est la faute du fil ce jour.** « 1er mars ou
+1er juillet » a été posé comme un choix de calendrier. La vraie question était :
+qui paie, quand, et contre quoi. Posée à nu, elle a reçu une réponse révoquée
+dans l'heure, puis une seconde réponse dépassée dans l'heure suivante, et le
+registre porte trois états là où un seul était nécessaire. **Une question fermée
+porte la conséquence de chaque branche, pas seulement la branche.**
+
+## Deux chantiers dus, inscrits et NON ouverts — décision de l'auteure
+
+**1. La règle d'entrée en vigueur.** Le test qui classe une niche entre
+rétroactivité admise et avantage protégé, avec le verbatim de jurisprudence
+relevé au dépôt de droit et l'ancrage doctrinal du corpus. **Tant qu'elle
+n'existe pas, aucun exposé sommaire n'énonce le principe de
+non-rétroactivité.**
+
+**2. Le réservoir d'arguments du livre.** Mesuré le 20261002 : le rôle
+« réservoir d'arguments sourcés » du contrat est rempli, à la valise phase 1, par
+les onze principes de l'auteure et **par rien d'autre**. Le projet machine ne
+porte pas le livre. **Aucun fil de production n'a jamais vu une note de fin du
+manuscrit.** La règle du gabarit — *le livre ne fait pas source* (A-49) —
+n'interdit pas ce qui manque : la même ligne pose que *ce qui s'affiche est ce
+que le livre cite lui-même*, et les notes de fin sont exactement cela. Le
+chantier est un sixième bloc à la valise : les notes de fin **projetées en
+clair** — citation, date, idée servie —, jamais le livre.
+
+**Un troisième chantier, né de l'état 3 de la TVA** : le croisement des 193
+prélèvements supprimés avec les assiettes à taux réduit. Il est **dû avant la
+rédaction de la jambe TVA**, et il est calculable aujourd'hui.
+
+## 20261002 — carte-blocs-phases
+
+## Les 22 mesures orphelines sont rattachées — 20261002
+
+**Mesure d'entrée** : sur 66 mesures, **22 n'étaient rattachées à aucune phase** —
+B-03, B-16 et B-17 entiers, plus M-024, M-034, M-041 et M-052. Le plan en sept
+phases porte la grille, l'arborescence porte les mouvements et les blocs, et
+**la table de passage entre les deux n'existait pas**. Hors phase 1, aucune
+mesure n'a ni véhicule, ni jambe, ni siège.
+
+**Conséquence qui rendait le trou urgent** : la phase 1 renvoie deux composantes
+« hors phase » — le volet local des effectifs, 428 500 postes et 20 Md€, et le
+volet local des aides aux entreprises, 12,3 Md€. Leur destination implicite était
+B-03, qui n'était dans aucune phase. **Les trois quarts des postes de M-007
+sortaient de la phase vers nulle part.**
+
+### Le rattachement arrêté
+
+| bloc | mesures | phase | motif |
+|---|---|---|---|
+| **B-03 échelons locaux** | M-010 à M-015 | **phase propre** — voir ci-dessous | reçoit les deux renvois hors phase de la phase 1 |
+| **B-16 norme** | M-063 à M-068 | **hors liasse, loi ordinaire** | aucun siège financier |
+| B-16, exception | M-022 certificats d'énergie | **phase 1** | 6 Md€ par an, 208 € par foyer : une charge, et elle tombe tout de suite |
+| **B-17 cadre** | M-037 indexations, M-070 dépenses nouvelles | **phase 1** | deux mesures d'arrêt immédiat, elles n'attendent rien |
+| B-17 | M-069 véhicule de mise en œuvre | **hors liasse** | loi d'habilitation — un amendement parlementaire ne peut pas la porter |
+| B-17 | M-038 taux de prélèvements, M-071 rythme | **jamais d'amendement** | ce sont des directions, pas des dispositifs |
+| isolée | M-024 soins des étrangers en situation irrégulière | **phase 1, jambe PLFSS** | 1,1 Md€, siège social |
+| isolée | M-034 plus-values | **phase 3** | elle est dans la refonte de l'impôt sur le revenu |
+| isolée | M-041 allocations handicap | **phase 3** | elle se fond dans l'aide fondamentale |
+| isolée | M-052 établissements de santé | **phase 4** | c'est une cession |
+
+### Les échelons locaux — décision de l'auteure
+
+**Phase propre, et elle porte deux positions parce qu'il y a deux horloges.**
+Dans **l'ordre du texte**, elle vient **après la fusion fiscale** — la taxe
+foncière unique la conditionne. Dans **l'ordre du plan**, elle vient **avant**,
+**dans la restitution**. C'est l'application de la règle de l'entonnoir du
+20261001 : le véhicule commande l'entrée, la phase commande la suite, et
+publication et dépôt sont deux horloges distinctes.
+
+**Mots de l'auteure** : « on ne pourra pas y couper ».
+
+**Trois leviers nommés, et ils se cherchent ensemble** — ils recoupent exactement
+le levier triple de la dépense locale que le contrat de chaîne décrit à son étape
+de qualification :
+
+1. **la redéfinition des missions** — la norme qui produit la dépense ;
+2. **la baisse des dotations** — le prélèvement sur recettes et les concours ;
+3. **l'autorisation de dégagement** — la suppression des postes elle-même.
+
+**L'ordonnance est un repli, pas une voie ouverte.** Elle ne se décide qu'en
+conclusion d'une caractérisation précise du besoin et de la capacité. **On reste
+en loi de finances**, et c'est contraignant. Rien ne se précipite ici.
+
+**Convergence à inscrire, et elle n'était pas vue** : l'autorisation de
+dégagement est le mécanisme trouvé le même jour pour M-007 et M-008 — l'article
+du code général de la fonction publique qui ouvre le licenciement « en vertu de
+dispositions législatives de dégagement des cadres prévoyant soit le
+reclassement, soit l'indemnisation ». **Le 4° ne vaut que pour l'État** ; le
+versant territorial relève du titre IV du même code, où la suppression d'emploi
+n'ouvre pas le licenciement mais une prise en charge longue. **Le même outil
+porte les deux jambes, et la jambe territoriale est celle de cette phase.**
+
+### Les codépendances qui décident de la liasse
+
+Quatre dépendances — l'une tombe, l'autre perd son effet :
+
+| | |
+|---|---|
+| M-007 → M-008 | sans l'indemnité, la baisse de crédits ne vole pas |
+| M-007 → B-03 | les trois quarts des postes |
+| M-017 → B-03 | 45 % de l'économie |
+| M-012 ↔ M-035 | taxe foncière : deux mesures, une seule assiette |
+
+Deux collisions — deux pièces sur la même adresse :
+
+| | |
+|---|---|
+| M-016 ↔ M-026 | un euro n'appartient qu'à un seul circuit |
+| M-026 jambe TVA ↔ M-029 | articles `278` et `278-0 bis`, dans deux phases |
+
+**Les six se portent à la carte des collisions, qui se tient au niveau du
+programme et non du bloc, et qui est désormais récurrente.**
+
+## 20261002 — cible-du-paquet-tiers
+
+## La cible, verrouillée par l'auteure le 20261002
+
+**Un tiers reçoit tout ce qu'il lui faut pour produire ses propres amendements
+au PLF et au PLFSS, déposables, exportés en .docx.** Les procédures, les
+référentiels, les outils, les contrôles. **Les incertitudes irréductibles se
+déclarent, elles n'empêchent pas de livrer.**
+
+**Forme : un zip de pièces jointes qu'il verse dans son propre projet Claude.**
+Décision antérieure de l'auteure, rappelée ce jour et **non rediscutable**. Le
+paquet de modules Python seuls n'est pas la cible et ne l'a jamais été.
+
+**Projet d'intérêt général** : le matériel doit être exportable et utilisable
+facilement, partout.
+
+**Ce que la cible écarte** : la poussée de `redaction_2027.py` au dépôt n'est
+pas sur son chemin critique. Elle relève de l'hygiène d'appareil et attend.
+
+## Inventaire mesuré le 20261002 — ce qui tient, ce qui bloque
+
+**Quatre étapes sur sept sont outillées** : E0 qualification et E2 vecteur par
+`vecteur-mesure` ; E4 rédaction cible par `disposition-cible` et
+`redaction-legistique` ; E5 exposé sommaire par `expose-sommaire`. E3 est
+outillée hors skill, par le dépôt de droit.
+
+**Deux bonnes nouvelles mesurées.** L'accès au droit ne coûte rien au tiers :
+LEGI est en open data, le dépôt est public en lecture, **aucune clé, aucun
+compte, aucun quota** — il lui faut `git`, Python et un accès réseau. Et la
+sortie .docx déposable existe déjà : `generateur_liasse_docx.py`, Garamond,
+nomenclature de liasse. **Ce n'est pas `impression-docx`, dont les trois profils
+ne couvrent pas l'amendement.**
+
+**Cinq blocages mesurés.**
+
+1. **E1, le rattachement, n'est pas outillé.** La procédure est écrite, aucune
+   skill ne la joue. C'est l'étape qui dit si l'amendement est recevable.
+2. **Le contrôle `G` n'est pas outillé.** `appareil/controle_sortie.py` est nommé
+   par cinq skills et **n'existe pas**. C'est la règle qui interdit à une sortie
+   diffusée de nommer un déposant, un projet ou un référentiel interne — celle
+   que le contrat dit perdue quatorze fois, et celle qui gouverne précisément ce
+   paquet.
+3. **Cinq pièces de méthode sont fortement contaminées** :
+   `methode/procedure_vecteurs.md`, `reference/gabarit_expose_sommaire.md`,
+   `methode/regles_redactionnelles.md`, `methode/regles_forme_canonique.md`,
+   `reference/passation_droit_renvois.md`. Elles nomment une organisation tierce,
+   le manuscrit, les référentiels internes et des identifiants d'amendements d'un
+   déposant. Six autres sont à nettoyer légèrement.
+4. **Cinq skills exigent des référentiels qui n'existeront pas chez le tiers** —
+   `REF_doctrine`, `REF_chiffres`, `positions`, `notes_manuscrit`. `audit-conformite`
+   en dépend, donc **E6 est inopérante en l'état**.
+5. **Le dossier de mesure du contrat n'est outillé nulle part.** Aucune skill ne
+   lit ni n'écrit l'objet à huit blocs. **Le tiers doit recoller les étapes à la
+   main** — c'est exactement ce que le contrat voulait lui épargner, et c'est la
+   différence entre « certains avaient fini par y arriver » et « il y arrive ».
+
+**Deux manques qui se déclarent et ne bloquent pas** : E7 ne rend pas l'ordre de
+dépôt ni les neutralisations réciproques ; le droit non codifié n'est pas au
+dépôt, et l'extrait LEGI se périme à 45 jours sans que le tiers puisse le
+régénérer.
+
+## L'ordre de construction — tranché par le fil
+
+1. **Écrire le contrôle `G`.** Il est à la fois une pièce du paquet et le
+   garde-fou du nettoyage : sans lui, le nettoyage n'est pas vérifiable, et un
+   nettoyage tenu à l'œil se perd.
+2. **Nettoyer les onze pièces**, contrôle `G` joué sur chacune.
+3. **Écrire le liant** : la procédure qui enchaîne E0 à E7 chez le tiers, portant
+   le dossier de mesure. C'est ce qui fait la différence entre un outil que
+   certains arrivent à conduire et un outil qui conduit.
+4. **Monter le paquet** : pièces nettoyées, référentiels du millésime, modules de
+   lecture, générateur de liasse .docx, `LISEZ-MOI` qui déclare les deux trous.
+
+**E1 n'est pas outillée pour cette livraison : elle se déclare.** Un tiers saura
+que la recevabilité reste à sa charge, avec la procédure écrite pour la conduire
+à la main. Outiller E1 devient le premier chantier après la livraison.
+
+**Exclues du paquet** : `resolution-chantier`, entièrement interne ;
+`compatibilite-doctrine` et `fiche-mesure`, qui projettent une doctrine que le
+tiers n'a pas. `audit-conformite` part **amputée de ses contrôles doctrinaux** et
+réduite à ce qu'un tiers peut jouer : verbatim, sources, registre, forme.
+`contestabilite` et `qa-riposte` partent nettoyées — elles servent un tiers et ne
+dépendent pas du fond.
+
+## 20261002 — clause-de-lien-et-renvois-croises
+
+# Arbitrage — clause de lien, gage et renvois croisés (2 octobre 2026)
+
+> **PARTIELLEMENT CADUC — lire d'abord
+> `methode/fragments/arbitrages/20261002-mecanique-de-gage-par-abrogation.md`.**
+> Ce fragment a été écrit avant que la mécanique de gage soit arrêtée. Il tient
+> sur la clause de lien, la corrélation de date, le renvoi croisé et la forme
+> chiffrée. **Il est faux sur la source du gage** : il présente le gage tabac
+> comme la forme par défaut, alors que le gage se prend par **abrogation de même
+> rang dans la liasse**, le tabac n'étant que le repli. Partout où ce fragment dit
+> « gage canonique », lire « gage par abrogation de même rang, tabac à défaut ».
+
+*Troisième rédaction du jour. Les deux précédentes poussaient à la faute : la
+première laissait le gage se rédiger sur mesure, la seconde imposait de loger les
+deux jambes dans la même pièce, ce qui est impossible dans le schéma réel.*
+
+## Pourquoi la clause existe
+
+Le schéma de grande restitution ne se dépose pas d'une seule traite. Il écrase les
+tuyauteries internes, il se scinde entre véhicules, entre phases, entre
+rattachements — **et il y aura des trous**. La clause de lien n'est pas une
+élégance : c'est ce qui permet à une jambe déposée seule de dire à quoi elle sert,
+sans supposer que les autres sont là. Elle se calque donc sur la rédaction reçue,
+avec notre sophistication, et rien de plus.
+
+## Les quatre règles
+
+**1. La phrase canonique du gage ne se retouche jamais.** Elle passe parce qu'elle
+est standard. Elle se recopie mot pour mot, sur la perte entière de la subdivision
+qui la porte. *(Vaut pour la formule de repli ; la forme par défaut est désormais
+le gage par abrogation — voir l'avertissement en tête.)*
+
+**2. Le lien se dit, il ne s'impute pas.** Une clause qui impute le produit d'une
+mesure sur la perte d'une autre est une affectation déguisée : elle heurte
+l'universalité. Le lien licite est une disposition d'objectif — « le produit
+résultant du I concourt à… » — qui n'a pas d'effet d'affectation et n'en demande
+pas.
+
+**3. La mesure corrélée se nomme à l'entrée en vigueur, par son objet.** « À la
+même date que les dispositions de la présente loi portant… ». Jamais le numéro
+d'un amendement, jamais une condition d'adoption. La formule vaut que l'autre
+jambe soit là ou non — c'est exactement ce qu'il faut quand il y a des trous.
+
+**4. Le renvoi croisé explicite vit dans l'exposé sommaire.** Repli, cumul,
+non-cumul, phase. C'est l'exposé qui raconte la boucle ; le dispositif ne porte que
+la date, l'objectif et la marge.
+
+## Le précédent qui légitime le décret de constatation
+
+Le gage usuel renvoie déjà au pouvoir réglementaire : la taxe additionnelle à
+l'accise sur les tabacs est créée par la loi, son tarif relève du réglementaire.
+Tout déposant qui gage sur les tabacs délègue donc déjà. Notre décret de
+constatation est moins audacieux : il constate deux quantités au lieu de fixer un
+tarif. Argument à tenir si le mécanisme est contesté.
+
+## Les formules de gage de repli — liste close, à recopier sans variation
+
+*Ne servent qu'à défaut d'abrogation de même rang dans la liasse.*
+
+**État :**
+> La perte de recettes résultant pour l'État du [I] est compensée à due
+> concurrence par la création d'une taxe additionnelle à l'accise sur les tabacs
+> prévue au chapitre IV du titre Ier du livre III du code des impositions sur les
+> biens et services.
+
+**Organismes de sécurité sociale :**
+> La perte de recettes résultant pour les organismes de sécurité sociale du [I]
+> est compensée à due concurrence par une majoration de l'accise sur les tabacs
+> prévue au chapitre IV du titre Ier du livre III du code des impositions sur les
+> biens et services.
+
+**Collectivités territoriales — deux temps, les deux obligatoires :**
+> La perte de recettes résultant pour les collectivités territoriales du [I] est
+> compensée à due concurrence par une majoration de la dotation globale de
+> fonctionnement.
+>
+> La perte de recettes résultant pour l'État du [II] est compensée à due
+> concurrence par la création d'une taxe additionnelle à l'accise sur les tabacs
+> prévue au chapitre IV du titre Ier du livre III du code des impositions sur les
+> biens et services.
+
+Une charge ne se gage pas, une recette toujours — mais **qualifier l'objet avant
+de chercher son gage** : une charge apparente peut être une perte de recette, ou
+une économie. Le gage est un prétexte de recevabilité, distinct du financement
+réel, qui se dit à l'exposé.
+
+## La forme courante — jambe déposée seule, lien dit, gage
+
+C'est la forme à prendre par défaut, parce que c'est le cas général.
+
+> **I.** — [Disposition de fond.]
+>
+> **II.** — Le produit résultant du I concourt à la réduction des prélèvements
+> pesant sur les revenus d'activité.
+>
+> **III.** — Le I entre en vigueur le [date], à la même date que les dispositions
+> de la présente loi portant [objet de la mesure liée].
+>
+> **IV.** — [Si le I coûte : gage par abrogation de même rang dans la liasse ;
+> formule de repli à défaut.]
+
+Trois lignes de plus que la pièce nue. Le II dit à quoi ça sert, le III dit avec
+quoi ça marche, le IV paie le prétexte. Aucune n'est conditionnée à l'adoption
+d'une autre pièce.
+
+Le II se décline en trois degrés selon l'objet : réduction des prélèvements sur
+les revenus d'activité, équilibre de la refonte des impositions, financement d'un
+objet nommé.
+
+## La forme chiffrée — quand la restitution doit être mesurable
+
+À ne sortir que si l'effet politique l'exige : elle est plus lourde et plus
+attaquable.
+
+> **II.** — Le produit résultant du I concourt à la réduction des prélèvements
+> pesant sur les revenus d'activité.
+>
+> **III.** — À cette fin, le taux mentionné au [premier alinéa de l'article X] est
+> réduit, pour les impositions établies au titre de l'année [N+1], d'un nombre de
+> points égal au quotient du produit mentionné au I par l'assiette de cette
+> imposition constatée au titre de l'année [N], arrondi au dixième de point le
+> plus proche. Cette réduction ne peut excéder [p] points.
+>
+> **IV.** — Lorsque d'autres dispositions de la présente loi concourent au même
+> objet, la réduction prévue au III s'apprécie globalement.
+>
+> **V.** — Un décret constate le produit et l'assiette mentionnés au III.
+
+Le V constate, il ne fixe pas (CC n° 80-126 DC) ; le plafond du III écarte
+l'incompétence négative (CC n° 98-405 DC) ; l'habilitation reste fermée à
+l'amendement parlementaire (CC n° 2004-510 DC, cons. 28). Le IV est la marge qui
+encaisse les trous : il ne tombe pas quand les autres jambes manquent.
+
+## Écartées
+
+**Fourchette confiée au décret** : appelle le reproche d'habilitation déguisée.
+
+**Gage à extinction conditionnelle** (« n'est pas due dans la mesure où… ») : rend
+le gage fictif et donne prise.
+
+**Imputation croisée entre pièces** : affectation déguisée.
+
+## Dégradation
+
+Si la forme chiffrée ne tient pas sur un cas, on garde la forme courante. Si même
+le II ne tient pas, la pièce part nue et le lien se dit à l'exposé seul. Ce n'est
+pas un échec : c'est la marge basse du même schéma, et elle est faite pour les
+trous.
+
+## 20261002 — forme-du-paquet
+
+Forme du paquet diffusable du millésime 2027. Une décision de l'auteure, le
+reste tranché par le fil chef de file sur sa direction.
+
+## Ce que le paquet 2027 n'est pas — mesuré
+
+**Le paquet transmis au millésime précédent n'était pas la machine.**
+`livrables/paquet_machine.md`, 20260916 : `PASSATION.md`, le découpage en 71
+énoncés, l'index de vérité-terrain gelé, la valise. Aucun module, aucun code,
+aucun référentiel de sièges — ce rôle y était **déclaré vide par construction**,
+parce que le paquet servait à mesurer un écart et qu'une adresse transmise
+souffle la réponse à l'étape qui doit la trouver.
+
+**Le paquet 2027 est un objet neuf.** Il porte la chaîne et de quoi la faire
+tourner. Il ne se dérive pas du précédent, et « les mêmes améliorations avec
+moins de bugs » ne décrit pas ce qu'il est.
+
+## Ce qui part — décision de l'auteure
+
+**Machine seule, valise retirée.** Le destinataire reçoit la chaîne et de quoi
+la faire tourner sur ses propres mesures. Les arguments, les chiffres et les
+principes restent au corpus. C'est le régime prévu au contrat : la valise est
+séparable et optionnelle, retirée pour diffuser et gardée pour l'usage propre.
+
+**Conséquence sur les sorties du paquet.** Toute étape tourne donc **à blanc** et
+doit le déclarer — `degradation: a_blanc`, `gisements` vides. Une étape qui ne
+rend rien à blanc est en faute, et le contrôle `G` la voit. Le mini-lot joint
+doit être un lot qui aboutit à blanc, faute de quoi il mesure la valise et non la
+machine.
+
+## La forme — tranchée par le fil
+
+**Un zip que le destinataire déballe, un `LISEZ-MOI.md` à la racine comme point
+d'entrée unique, deux commandes.** Ferme la question 4 d'`a_trancher`, ouverte
+depuis le 20260917.
+
+*Pourquoi pas l'objet auto-déployé.* Il ajoute un point de panne chez un
+destinataire dont on ne connaît ni la machine ni l'environnement, et il déplace
+la faute d'installation au lieu de la supprimer. Le zip la supprime en la
+documentant.
+
+**Contenu, et rien d'autre :**
+
+| | |
+|---|---|
+| `LISEZ-MOI.md` | point d'entrée unique : ce que c'est, le prérequis, l'installation en une commande, le mini-lot en une commande, la sortie attendue, les écarts connus avec leur cause, le numéro de version et la date des trois passes |
+| `appareil/` | les cinq modules du millésime |
+| racine | `droit.py`, `extraire_legi.py`, `codes.json` — l'accès au droit |
+| `referentiels/` | les six référentiels du millésime |
+| `mini-lot/` | un énoncé de bout en bout et sa sortie attendue, pour que le destinataire vérifie son installation sans rien demander |
+
+**Ne part pas** : le corpus, la doctrine, les documents de travail, la valise, et
+tout ce qui nomme un déposant, un projet ou un référentiel interne. Le contrôle
+`G` le vérifie avant départ.
+
+**Le `LISEZ-MOI.md` porte la procédure d'installation en toutes lettres.** C'est
+la faute que l'épreuve à froid avait attrapée au millésime précédent, et elle ne
+se répète pas : tout ce que le fil d'épreuve doit demander, deviner ou chercher
+ailleurs est un défaut du paquet.
+
+## Deux corrections dues au document de contrôle
+
+`methode/controle_avant_transmission.md` est calibré sur **quatre modules et
+quatre référentiels** ; le millésime 2027 en porte **cinq et six**. La passe 1 se
+rejoue sur ce périmètre, et le document se corrige au fil qui monte le paquet.
+
+**La passe 1 n'est pas jouable tant que `redaction_2027.py` n'est pas au
+dépôt** — mesuré absent le 20261002. Elle exige une reproduction depuis un clone
+nu : un module qui n'y est pas rend la reproduction impossible, et la mettre de
+côté « parce qu'on sait qu'il marche » serait la passe partielle que le document
+interdit.
+
+## 20261002 — mecanique-de-gage-par-abrogation
+
+# Arbitrage — la mécanique de gage, arrêtée (2 octobre 2026, soir)
+
+*Rendu par le fil carte des liens. Corrige et prime sur la partie IV et sur la
+table VI.3 de `methode/dossier_clause_de_lien_et_blocs_20261002.md`.*
+
+## Ce qui est tranché
+
+**Le gage se prend dans notre propre réservoir, par abrogation de même rang.** Le
+schéma est bouclé : 465 niches et 193 taxes à supprimer fournissent une source
+d'abrogation à toute pièce de la liasse. Le tabac n'est pas le gage par défaut —
+**c'est le repli**, pour la seule hypothèse où aucune suppression de même rang
+n'est dans la liasse. C'est le comportement de la machine vierge, pas le nôtre.
+
+## Le raisonnement, et les trois erreurs qu'il corrige
+
+**Erreur 1 — croire le tabac par défaut et l'abrogation exceptionnelle.** C'est
+exactement l'inverse. Un schéma qui supprime des centaines de prélèvements porte
+sa propre source de gage ; aller chercher le tabac quand on a le réservoir sous la
+main, c'est gager sur un prétexte alors qu'on a une contrepartie réelle.
+
+**Erreur 2 — croire que les prestations créées sont des charges non gageables.**
+Faux sur les trois objets, et chacun pour une raison différente :
+
+- **aide fondamentale** : c'est un crédit d'impôt, donc une perte de recette, donc
+  gageable. Elle absorbe les aides sociales, qui se renvoient mutuellement ;
+- **indemnité des agents** : mêmes payeurs, mêmes crédits, montant inférieur —
+  **c'est une économie**, pas une charge. Rien à gager ;
+- **compte d'épargne** : adossé aux vecteurs existants (plan d'épargne retraite,
+  plan d'épargne en actions), alimentation progressive. Pas de charge nouvelle.
+
+La leçon générale : **qualifier l'objet avant de chercher son gage.** Une charge
+apparente peut être une perte de recette, ou une économie.
+
+**Erreur 3 — reprendre la mécanique générale quand le mandat portait sur la
+formulation au cas par cas.** Deux tours perdus. Un mandat de formulation ne
+rouvre pas la mécanique.
+
+## Les décisions de fond qui en découlent
+
+| point | décision |
+|---|---|
+| source de gage | le réservoir du schéma — abrogation de même rang dans la liasse ; tabac en repli seul |
+| aide fondamentale | crédit d'impôt, absorbe les aides sociales, renvois mutuels |
+| indemnité des agents | économie — ne se gage pas |
+| compte d'épargne | principe tiré des vecteurs existants, alimentation progressive |
+| impôt sur les sociétés et taxe foncière | entièrement consommés par la refonte, 25,69 + 42,06 = 67,75 Md€ — **ne gagent rien d'autre** |
+| phrase d'objectif | partout où l'amendement affiche un solde non nul, à granularité variable |
+
+## Les formules arrêtées
+
+**Gage sur abrogation — forme courante :**
+> La perte de recettes résultant pour l'État du I est compensée à due concurrence
+> par l'abrogation de l'article [X] du code général des impôts prévue par la
+> présente loi.
+
+Variante organismes sociaux : « pour les organismes de sécurité sociale »,
+abrogation visée au code de la sécurité sociale.
+
+**Gage de repli :**
+> La perte de recettes résultant pour l'État du I est compensée à due concurrence
+> par la création d'une taxe additionnelle à l'accise sur les tabacs prévue au
+> chapitre IV du titre Ier du livre III du code des impositions sur les biens et
+> services.
+
+**Phrase d'objectif, trois degrés de granularité :**
+> Le produit résultant du I concourt à la réduction des prélèvements pesant sur les
+> revenus d'activité.
+
+> Le produit résultant du I concourt à l'équilibre de la refonte des impositions
+> prévue par la présente loi.
+
+> Le produit résultant du I concourt au financement de [objet nommé].
+
+**Corrélation de date :**
+> Le I entre en vigueur le [date], à la même date que les dispositions de la
+> présente loi portant [objet de la mesure liée].
+
+Jamais un numéro d'amendement, jamais une condition d'adoption.
+
+## L'état de la carte
+
+Validés par défaut, non contestés : les huit liens irréductibles, les cinq liens
+d'ordre, les neuf blocs autonomes, les cinq collisions.
+
+Tombée : toute la colonne « forme de gage » du premier état, bâtie sur la mécanique
+fausse. **À réécrire sur les formules ci-dessus.** La carte n'est pas versée en
+l'état.
+
+## Ce qui reste ouvert
+
+1. **Remontée des économies sur les collectivités : taxe sur la valeur ajoutée ou
+   dotation ?** Tant que ce n'est pas arrêté, la taxe foncière unique n'est pas à
+   son montant définitif et le bouclage de la refonte reste provisoire.
+2. Affectation du degré de la phrase d'objectif par famille de mesures — les trois
+   degrés sont posés, la ventilation par bloc n'est pas faite.
+3. La date unique du 1er juillet 2027 pour les suppressions sectorielles corrélées
+   à la taxe sur la valeur ajoutée.
+
+## 20261002 — organisation-et-deploiement
+
+Trois décisions de l'auteure le 20261002, une borne périmée corrigée, et la
+tambouille qui en découle.
+
+## L'ordre des fils passe au fil chef de file — décision de l'auteure
+
+**Tranché : c'est le fil chef de file qui tient l'ordre des travaux, dispatche
+les fils et mène les boucles de révision, de relecture et de remise en
+cohérence.** L'auteure ne reçoit plus que deux choses : un arbitrage de fond posé
+en une ligne, et la pièce déposée à relire.
+
+**Mots de l'auteure** : « il faut que ce soit TOI qui gère tout ça ».
+
+**Ce que la décision révoque.** La règle « l'ordre des lots est de l'auteur »,
+portée deux fois à `methode/a_trancher.md` et rappelée au socle des prompts de
+fil, **ne vaut plus pour l'ordre**. Ce qui reste intact et ne bouge pas : le fond
+est de l'auteure, l'input et l'output sont validés par elle, et un fil de travail
+qui rencontre une question de fond l'inscrit et s'arrête.
+
+**Ce que la décision emporte au socle.** La phrase « il ne se donne pas son
+successeur » cesse de valoir pour le fil chef de file, qui a désormais pour objet
+de le faire. Elle continue de valoir pour tout fil de travail : un fil de
+production ne choisit pas le suivant, il rend son état au chef de file.
+
+**Le porteur de l'ordre est `methode/ordre_des_fils.md`**, tenu en dynamique. Le
+§ 10 de la passation ne porte plus la table : il y renvoie.
+
+## Le livre est le réservoir d'arguments de fond — décision de l'auteure
+
+**Tranché, et c'est plus que le chantier inscrit ce matin.** Le livre **doit**
+être le réservoir d'arguments de fond de la machine. L'exposé s'y puise et
+l'habille au cas par cas, plutôt que de réinventer l'argument à chaque
+amendement.
+
+**Mots de l'auteure** : « les edm from scratch sont bons, mais pas aussi ciselés
+que le travail qu'on a fait pour notre plan ».
+
+**La distinction qui commande le chantier, et elle n'était pas faite.** Le livre
+sert deux fois et pas de la même manière :
+
+- **l'argument** — le fond, le raisonnement, l'angle, ce qui fait que la mesure
+  se défend. Il vient du livre et **il n'a pas à être sourcé**, parce que ce
+  n'est pas une source : c'est une idée ;
+- **la citation** — ce que le livre cite lui-même, notes de fin comprises. Elle
+  est opposable, nommée et datée, et c'est elle qui s'affiche.
+
+**A-49 reste intact** : le livre ne fait pas source. Il fait argument. La règle
+n'a jamais interdit l'argument, et personne ne l'avait lue ainsi.
+
+**Les quatre bornes d'emploi, posées par l'auteure, et elles sont aussi
+importantes que le réservoir lui-même :**
+
+1. **Pas de surspécification.** Le réservoir n'est pas un gabarit et n'impose
+   aucun plan de phrase.
+2. **Naturel et accessible à un lecteur extérieur.** Un exposé qui sent le corpus
+   a manqué son lecteur.
+3. **Adapté au contexte et proportionné.** La longueur et la force de l'argument
+   suivent l'amendement, pas le réservoir.
+4. **Source d'inspiration, sur mesure.** On habille au cas par cas ; on ne colle
+   pas un bloc.
+
+**Conséquence sur le chantier.** Ce n'est pas une table de citations. C'est un
+réservoir d'arguments indexés par mesure et par bloc, avec, pour chacun, la
+citation opposable qui le soutient quand elle existe. Le contrôle qui va avec est
+négatif, pas positif : **aucun exposé ne reprend un argument mot à mot**, et un
+exposé dont deux phrases sont identiques à celles d'un autre est en faute.
+
+## Une borne périmée, recopiée deux fois dans la journée — faute du fil
+
+**`appareil/fragments.py` est au clone depuis le 20260930. L'assemblage des
+fragments ne demande aucune session de code** : un fil Cowork qui clone le dépôt
+assemble et reverse. La limite inscrite le 20260917 — « un fil qui ne l'a pas ne
+peut que déposer » — **a été levée le 20261001**, et mesurée levée.
+
+Le fil 1 l'a pourtant écrite trois fois ce jour : deux fois au fragment de
+journal, une fois au § 8 de la passation, où elle était même présentée comme « la
+dette qui coûte le plus cher ». **Elle est fausse depuis la veille.**
+
+C'est la deuxième occurrence du même mécanisme en deux jours, après la grille des
+portes du domaine. La règle existe déjà et elle n'a pas suffi : *une borne ne se
+recopie pas, elle se vérifie au registre.* **Ce qui lui manquait est un geste, et
+il est posé ici : la vérification se fait par une recherche au corpus sur le nom
+de la pièce, pas par la relecture du document qui porte la borne.** Un document
+de méthode ne sait pas qu'il est périmé ; la pièce, elle, est datée.
+
+## Deux autres bornes mesurées périmées, du même coup
+
+**La dette des paquets de dépôt antérieurs est nulle.** Les six paquets que le
+registre nomme — `paquet_depot_20260914`, `paquet_depot_20260916`,
+`paquet_depot_machine_20260916`, `paquet_depot_confrontation_20260916`,
+`paquet_depot_application_20260917`, `paquet_depot_socle_20260917` — ne sont plus
+des documents du projet, et les 99 chemins que l'index déclare au dépôt y sont
+tous. **Le seul paquet en attente d'application est
+`methode/paquet_depot_courroies_20261001.md`.** La section « Dette d'appareil »
+d'`a_trancher` est périmée sur ce point.
+
+**`methode/controle_avant_transmission.md` est calibré sur un paquet antérieur**
+— il parle de quatre modules et de quatre référentiels. Le millésime 2027 en
+porte **cinq et six**. La passe 1 se rejoue sur ce périmètre-là, et le document
+se corrige au fil qui monte le paquet.
+
+## Tambouille tranchée par le fil
+
+**Le partage Cowork / session de code est celui que le journal porte déjà et il
+ne bouge pas** : Cowork mesure et écrit le paquet, la session de code applique et
+pousse. Aucun module ne part au dépôt sans un paquet qui le porte verbatim — la
+session de code ne voit pas le coffre.
+
+**La remise en cohérence cesse d'être terminale.** Le fil 8 — carte des
+collisions — était en aval des fils 3 à 7. Il devient **récurrent** : une passe
+de cohérence après chaque paire de fils de production, et non une seule à la fin.
+Une collision vue tard coûte une refabrication ; vue tôt, une correction.
+
+**Le fil chef de file ne produit aucun fond.** Il tient l'ordre, écrit les lignes
+de lancement, reçoit les états et déclenche les boucles. Quand il doit produire,
+il ouvre un fil.
+
+## 20261002 — place-au-projet-et-portes-plfss
+
+# Arbitrage — la place au projet, les portes du PLFSS, la remontée collectivités
+
+2 octobre 2026, fin de journée.
+
+## 1. Le problème de place, et sa solution structurelle
+
+**Mesure** : la base du projet était à 1 942 558 sur 2 000 000 — 97 % pleine. Un
+versement de référentiel a été refusé dans la journée pour cette raison, et le
+problème revient à chaque session.
+
+**La cause** : des référentiels volumineux sont versés au projet alors qu'ils sont
+soit **reproductibles par script**, soit **déjà au dépôt de droit**. Le projet sert
+à ce qu'un fil retrouve une décision et une procédure ; il n'est pas un entrepôt de
+données.
+
+**La règle, à tenir** :
+
+- **Ne va au projet** que ce qu'un fil doit *lire* pour décider : méthode,
+  arbitrages avec leur raisonnement, passations, livrables rédigés, pièces de
+  procédure.
+- **Ne va pas au projet** : tout fichier reproductible par un module de l'appareil
+  à partir d'une pièce qui fait foi, et tout fichier déjà porté par le dépôt
+  `resolution-ib-dev/Resolution-2027`. Ces fichiers vivent au dépôt, dont la taille
+  n'est pas bornée, et un fil code les y lit.
+- Quand un fil a besoin d'un tel fichier, il le **régénère** ou le **lit au dépôt**.
+  Il ne le cherche pas au projet.
+
+**Nettoyage fait** : cinq référentiels `cgi_expert_*` supprimés du projet —
+`articles`, `insertions`, `suppressions`, `articles_bouges`,
+`parametres_etat_anterieur`. Le fil CGI du 2 octobre les a relevés **byte-conform
+au dépôt**. `cgi_expert_parametres.tsv` est conservé au projet : c'est le seul dont
+la copie au dépôt divergeait.
+
+## 2. Les portes du PLFSS existent déjà
+
+**Le défaut était de déclaration, pas de production.**
+`referentiels/articles_ouverts_plfss2027.tsv` porte l'en-tête, le schéma de
+colonnes et l'empreinte de pièce que `portes_ouvertes.py` écrit — même empreinte
+que celle relevée sur le PDF du PLFSS par le fil de lecture du 1er octobre. 153
+adresses, 22 textes.
+
+**Décision** : le fichier est versé au paquet sous son nom attendu
+`portes_ouvertes_plfss2027.tsv`, et le §9 du mode d'emploi est corrigé. Il n'est
+pas rejoué depuis le PDF : il est octet pour octet la sortie du module, rejouer ne
+changerait que la date du relevé. Le site du budget est refusé par la politique de
+sortie réseau, et on ne contourne pas.
+
+**Ce que ça apprend** : avant de déclarer une pièce manquante, chercher si elle
+existe **sous un autre nom** — par son empreinte et son schéma de colonnes, pas par
+son nom de fichier.
+
+## 3. La remontée des économies sur les collectivités
+
+**Décision : la taxe sur la valeur ajoutée en priorité.** La dotation reste
+possible selon les cas ; elle n'est pas écartée, elle est le second choix.
+
+## 4. Une nomenclature interne ne sort jamais vers l'auteur
+
+Les identifiants de mesures et de blocs (M-0xx, B-0xx, et les numéros de mesure de
+l'index) sont des repères d'atelier. Une question posée à l'auteur les désigne par
+leur objet en clair, jamais par leur numéro. Un arbitrage posé en nomenclature
+interne est un arbitrage mal posé, et il ne peut pas être tranché.
+
+## 20261002 — remontee-tva-taxe-fonciere-et-report-education
+
+# Remontée en TVA, nature de la taxe foncière unique, report de l'éducation — 20261002 soir
+
+*Trois arbitrages de l'auteure, rendus sur la pièce des lots de production ordonnés.
+Les deux premiers **priment sur le §7 de `methode/carte_liens_irreductibles_20261002.md`**
+et ferment le point 1 de son §8. Le troisième ferme le point 7 de « ce qui reste ouvert »
+de `livrables/arborescence_mesures_20260928.md`.*
+
+---
+
+## 1. La remontée des économies sur les collectivités se fait entièrement en TVA
+
+**Tranché : toutes les économies en TVA.** La carte portait « TVA en priorité, dotation en
+second selon les cas » ; le second terme tombe. Il n'y a pas de partage à calibrer.
+
+**Mots de l'auteure** : « toutes les économies en TVA ».
+
+**Ce que cela ferme.** Le §8.1 de la carte — « part exacte de la remontée collectivités par
+TVA, montant de la taxe foncière unique suspendu » — n'a plus d'objet, et pour deux raisons
+qui se cumulent : la part est entière, et le point 2 ci-dessous retire à la taxe foncière
+tout montant à arrêter. **Le bouclage de la refonte cesse d'être provisoire de ce chef.**
+
+**Erreur que l'arbitrage corrige.** Le fil avait inscrit ce point comme un blocage de
+production, alors que ce n'était un blocage que sous l'hypothèse d'un partage à doser.
+
+## 2. La taxe foncière unique est une fusion de principe, pas un rendement calculé
+
+**Tranché.** La taxe foncière unique **récolte les rendements des taxes similaires
+supprimées** — c'est une fusion de principe. **Elle ne porte aucun calcul de rendement**,
+parce que **son taux est fixé localement**.
+
+**Ce que la loi fait, et rien d'autre :**
+
+1. elle **ouvre une faculté** — la commune fixe son taux ;
+2. elle **peut fixer une situation par défaut, avec un calcul**, pour faciliter la vie aux
+   maires.
+
+**Ce que cela emporte sur la rédaction.** La pièce n'a pas à produire un montant ni à
+attendre qu'un montant soit produit ailleurs. Le dispositif porte la fusion, la faculté de
+taux, et au plus un défaut calculé. **Un chiffrage de rendement dans cette pièce serait une
+faute de nature, pas une imprécision.** Le potentiel de 90 à 100 Md€ porté par le corpus
+reste une matière d'exposé et ne devient jamais un paramètre.
+
+**Reste inchangé** : la fourchette parlementaire encadrant le taux local, la valeur locative
+actualisée, et la justification de soutenabilité — ce sont des éléments de dispositif, non
+des rendements.
+
+## 3. L'éducation est reportée
+
+**Tranché : plus tard.** Le périmètre du mouvement éducation n'est pas à trancher
+maintenant ; le lot ne se prépare pas et ne consomme rien.
+
+## 4. Correction — ce que le point 3 ne disait pas
+
+**Première rédaction de ce fragment, fausse.** Elle tirait du mot de l'auteure accompagnant
+le report de l'éducation — « si on arrive déjà à lancer le compte épargne et le bouclier
+sanitaire c'est énorme » — une **priorité d'engagement**, et faisait passer ces deux lots
+devant la colonne de première partie.
+
+**Ce n'était pas une consigne de priorité.** L'auteure a corrigé le même soir : **la
+première partie et la restitution passent devant, sans exception.** Le compte d'épargne
+personnel relève de la fenêtre de première partie pour son seul régime fiscal, et le
+bouclier sanitaire relève de la loi de financement, dont la fenêtre est distincte. Ni l'un
+ni l'autre ne devance une jambe de première partie.
+
+**Erreur de méthode à ne pas refaire** : une remarque de satisfaction sur l'ampleur d'un
+objet n'est pas un arbitrage d'ordre. Un ordre d'engagement ne se déduit pas, il se
+demande ou il se lit à la règle de l'entonnoir.
+
+## 20261002 — trous-de-droit-et-mentions-a-verifier
+
+# Arbitrage — trous de droit, contournements, mentions « à vérifier » (2 octobre 2026)
+
+## La règle
+
+**Un trou dans l'extrait de droit n'autorise aucune erreur dans la pièce.** Il
+autorise un contournement et une mention. Jamais une approximation, jamais une
+reconstruction au jugé.
+
+## L'ordre des recours, quand l'extrait ne porte pas l'article
+
+1. **Le texte déposé lui-même**, sur le site de l'Assemblée nationale : le dossier
+   législatif porte le texte, ses annexes et, quand elles paraissent, les
+   évaluations préalables. Un article créé par le texte en discussion n'a pas de
+   colonne « droit en vigueur » — c'est le texte déposé qui fait foi, pas l'extrait.
+2. **Le dossier législatif de la loi qui a modifié l'article**, même source :
+   il donne la rédaction adoptée.
+3. **Le Journal officiel**, pour le texte promulgué.
+4. **À défaut seulement**, la mention « à vérifier », et la pièce part quand même.
+
+Un article introuvable à l'extrait n'est donc pas un article introuvable. Il se
+cherche ailleurs avant d'être déclaré manquant.
+
+## Où la mention s'écrit
+
+**En note, jamais dans le corps.** Le dispositif et l'exposé sommaire se lisent
+comme une pièce achevée : un « à vérifier » dans le corps disqualifie la pièce aux
+yeux du lecteur, et il survit au copier-coller. La réserve se porte en note de bas
+de page, ou dans la fiche de travail qui accompagne la pièce — pas dans le texte
+déposé.
+
+La même règle vaut pour les valeurs reprises d'un millésime antérieur : la mention
+« approchant [année], à rejouer » vit dans les notes de travail, jamais dans
+l'amendement.
+
+## Ce que ça interdit
+
+- Déduire une rédaction d'un article qu'on n'a pas lu.
+- Déclarer un article inexistant au seul vu de l'extrait.
+- Laisser « à vérifier » dans un dispositif ou un exposé.

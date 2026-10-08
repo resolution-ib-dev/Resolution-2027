@@ -1,0 +1,1 @@
+**PÉRIMÉ le 20261008** — la pièce de `livrables/lot_2_2_effectifs/14_J6_article_additionnel.md` est versée au paquet sous `livrables/depot_2027/P2/2_2_indemnite_depart_agents.md`, rang **P2-09** ; le fichier d'origine est conservé inchangé et ne se dépose plus.

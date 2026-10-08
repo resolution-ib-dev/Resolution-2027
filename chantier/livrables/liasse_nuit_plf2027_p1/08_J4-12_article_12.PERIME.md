@@ -1,0 +1,1 @@
+**PÉRIMÉ le 20261008** — la pièce de `livrables/liasse_nuit_plf2027_p1/08_J4-12_article_12.md` est versée au paquet sous `livrables/depot_2027/P1/nuitp1_08_avantages_culturels.md`, rang **P1-13** ; le fichier d'origine est conservé inchangé et ne se dépose plus.

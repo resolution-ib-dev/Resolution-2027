@@ -1,9 +1,11 @@
 # Procédure — de la revue au dépôt, millésime 2027
 
 **Porteur** : fil de revue du dépôt 2027. **Mandat** : l'auteure, 20261006 — « proposer une
-procédure précise, complète et robuste ; ces errements ne doivent plus se reproduire ».
-**Domicile** : `methode/procedure_fin_de_chantier_depot_2027.md`. **Mesure** : 7 étapes,
-2 digestions faites, 10 lots de revue restants, 2 invariants nouveaux.
+procédure précise, complète et robuste ; ces errements ne doivent plus se reproduire » ; reprise
+du 20261007 par le fil d'application des corrections, puis **par le fil de consolidation du
+20261007, qui porte la règle R-G à l'étape 3**. **Domicile** :
+`methode/procedure_fin_de_chantier_depot_2027.md`. **Mesure** : 7 étapes, 2 digestions faites,
+10 lots de revue restants, 2 invariants nouveaux, **5 règles d'application (R-C à R-G)**.
 
 ---
 
@@ -44,6 +46,12 @@ une sortie tronquée aux quarante premières lignes**, n'y a pas vu la loi organ
 que le droit était introuvable. Il l'avait sur disque : le dépôt porte la LOLF, 73 articles, à
 l'adresse `loi_org2001_692`, millésime `20261001`. La digestion a été annoncée impossible et
 elle ne l'était pas.
+
+**La même faute s'est reproduite le 20261007**, sur six pièces et un état : « la loi organique
+n'est pas versée au dépôt de droit » y laissait huit références hors contrôle. Le croisement l'a
+relevée, la reprise du 20261007 bis l'a corrigée — LOLF, articles 19, 21, 34 et 47, tous
+`VIGUEUR`. **Une faute que la procédure nomme peut se reproduire : elle ne disparaît que par le
+contrôle, non par l'écriture de la règle.**
 
 **Deux règles, et elles ne se contournent pas.**
 
@@ -147,8 +155,8 @@ neuves restaurées, `reference/structure_ppl.md` supprimé avec ses trois décla
 `guide_public_budgetaire` sorti des manquants. `make controle` compte 150 anomalies bloquantes
 contre 153 avant, avec I4 et I5 à zéro.
 
-**Reste le seul geste qui ne dépend pas du corpus : la poussée.** Le travail vit au commit
-`40b5c3a`, sur la branche `claude/gracious-bell-z4jsz1`.
+**Versé à `main` le 20261007, commit `0f1d138`.** Contrôlé sur un clone neuf, et `make controle`
+rejoué : 150 anomalies bloquantes, I4 et I5 à zéro, 14 manquants déclarés.
 
 > **Lecture et écriture ne se mesurent pas ensemble.** Le dépôt se **lit** sans rien déclarer :
 > il est public. Il ne s'**écrit** que si la session le porte dans son jeu de dépôts autorisés
@@ -209,6 +217,78 @@ s'appliquent par copie d'octets au fil qui détient la pièce. C'est déjà le r
 Ordre d'application : dispositif, puis entrée en vigueur, puis gage, puis bloc interne. L'exposé
 ne bouge pas à ce stade.
 
+### R-C — L'application commence par une mesure du paquet, et cette mesure périme vite
+
+**Ce qui s'est passé le 20261007.** Une mesure du paquet prise à 14 h 19 a conclu que les pièces
+des lots 14 à 19 n'existaient ni au coffre ni au dépôt, et a déclaré l'application arrêtée. Le
+versement du paquet est intervenu douze minutes plus tard. Le fil suivant a rouvert sur un constat
+faux.
+
+**Règle.** Un fil d'application **rejoue la mesure du paquet à son ouverture**, et il ne reprend
+jamais celle d'un fil antérieur, fût-elle du même jour. La mesure se prend sur un compte —
+règle R-B — et elle porte, par lieu, le nombre de pièces présentes. **Une mesure de paquet n'a
+pas de durée de validité au-delà du fil qui l'a prise.**
+
+### R-D — Un état de lot ne fait pas foi contre une reprise postérieure
+
+**Ce qui s'est passé.** L'état du lot 5 porte « corridor 20 % – 28 %, par décret ». La reprise du
+20261007 a supprimé le corridor et mis le taux en dur à 27 %, et la pièce 4.5 porte la reprise.
+L'état du lot, lui, porte toujours l'arbitrage mort, sans le dire.
+
+**Règle.** Un arbitrage s'applique **à sa date**. Avant d'appliquer une ligne d'état de lot,
+l'application la confronte à la dernière reprise qui touche le même objet ; la plus récente
+l'emporte, et **l'état dépassé se marque sur place**. Un état de lot est une trace, non une
+autorité : l'autorité est la dernière décision rendue.
+
+### R-E — Une pièce longue ne se réécrit pas parce qu'elle est à portée
+
+La règle de la copie valait pour une pièce **absente**. Elle vaut aussi pour une pièce
+**présente** qui porte de longues énumérations — listes nominatives d'articles, tableaux de
+sièges, tableaux de verdicts : le risque est la déformation à la recopie, non l'accès. Ses
+divisions corrigées se rendent en clair, division par division, avec le fondement de chaque
+correction, et s'appliquent par copie d'octets. Le critère se juge pièce par pièce, et il se
+déclare.
+
+**Et une correction de date se rend en deux temps** : la division d'entrée en vigueur réécrite,
+puis la liste nominative des autres endroits de la pièce où la date se reporte — cartouche,
+tableaux du bloc interne, exposé, collisions. Une date corrigée au seul dispositif laisse une
+pièce qui se contredit.
+
+### R-F — Un fil d'application ne tranche pas un conflit d'arbitrage
+
+Deux arbitrages inconciliables du même rang se constatent, s'inscrivent au § « conflits » de
+l'état, et se posent en question fermée. Le fil applique ce qui n'en dépend pas et laisse le
+reste. **Il ne choisit pas la valeur la plus récente quand les deux sont du même jour**, et il ne
+déduit pas un arbitrage d'un autre.
+
+### R-G — Un fil ouvre les états des fils frères du même jour, avant sa passe
+
+> **Un fil ouvre les états des fils qui ont tourné sur la même matière le même jour, avant sa
+> passe, et les nomme à son `Appui`.** La table « type de passe → appui dû » de
+> `methode/appui_des_passes.md` ne les connaît pas : le parallélisme les crée après qu'elle a été
+> écrite. **Un fil qui déclare une pièce non jouée sans avoir ouvert ces états rend un constat
+> faux.**
+
+**Ce qui s'est passé le 20261007, deux fois.** La chaîne est passée de séquentielle à parallèle :
+six fils d'application ont tourné le même après-midi sans se connaître.
+
+1. **Le fil fiscal a déclaré dix pièces bloquées.** Cinq avaient leurs divisions corrigées rendues
+   en clair dans un état écrit deux heures plus tôt, qu'il n'a pas ouvert. Sa seconde passe, cet
+   état ouvert, a écrit cinq pièces et n'a laissé qu'un seul point bloqué.
+2. **Le fil de croisement a rendu vingt-trois anomalies sans ouvrir ni le CR de consolidation ni
+   l'état d'application des corrections.** Il a donc mesuré les pièces sans les cinq divisions
+   rendues en clair : quatre de ses constats sont faux ou incomplets, dont celui des dates
+   d'abrogation de deux articles, où l'anomalie réelle est plus lourde que celle qu'il décrit.
+
+**Comment le fil sait quels sont ses frères.** Il relève les états du jour portant sa matière,
+sous `methode/etats/`, et le dernier état de passation en vigueur, qui les nomme tous. **Un état
+postérieur à sa propre ligne de lancement compte aussi** : la ligne est écrite avant que le fil
+frère ait fini.
+
+**Le critère est la matière, non la date seule.** Un fil n'ouvre pas tout ce qui a été écrit dans
+la journée ; il ouvre ce qui touche sa matière. **Et il inscrit à son `Appui` ceux qu'il a
+ouverts, nommément.**
+
 ---
 
 ## 4. Croisements — une seule passe, après le dernier lot
@@ -217,9 +297,10 @@ Rien ne sert de croiser avant que tous les paramètres soient arrêtés. La pass
 l'ensemble de la liasse :
 
 - **dates** : toute date d'entrée en vigueur est un 1er janvier ou un 1er juillet, sauf exception
-  inscrite ; deux pièces liées portent la même date ; **une pièce LFSS de dépense qui vise le
-  1er janvier porte sa propre date** — les dispositions de la troisième partie d'une LFSS
-  n'entrent pas en vigueur au 1er janvier mais le lendemain de la publication ;
+  inscrite à `livrables/registre_exceptions_dates.md` ; deux pièces liées portent la même date ;
+  **une pièce LFSS de dépense qui vise le 1er janvier porte sa propre date** — les dispositions de
+  la troisième partie d'une LFSS n'entrent pas en vigueur au 1er janvier mais le lendemain de la
+  publication ;
 - **gages** : un euro n'appartient qu'à un circuit ; aucune niche nommée ne gage une pièce du
   circuit B ; chaque pièce qui perd une recette porte sa clause ; **aucun amendement de crédits
   ne porte de gage** — le gage compense une perte de recettes, jamais une charge ;
@@ -229,20 +310,28 @@ l'ensemble de la liasse :
 - **autonomie des jambes** : chaque amendement est complet et se suffit, même si un autre
   amendement de la liasse atteint le même objet ; une taxe affectée va à zéro quand bien même la
   taxe est supprimée ailleurs ;
+- **porteur unique d'une abrogation** : chaque article abrogé a exactement un porteur, inscrit au
+  registre des colonnes — contrepartie de la forme fondue retenue au lot 19 ;
 - **renvois** : aucun renvoi mort, aucun renvoi à une division supprimée ou renumérotée ;
 - **registre des colonnes** : un rang par pièce, aucun doublon, aucun rang orphelin ;
 - **suivi mensuel** : toute ligne du suivi par agent est datée ; le bouclage est nul à chaque
   mois.
 
+**La passe de croisement est soumise à R-G comme toute autre** : elle ouvre les états
+d'application du jour **et** le dernier état de passation, faute de quoi elle mesure des pièces
+dont les corrections sont rendues mais non appliquées, et rend des constats à reprendre.
+
 ---
 
 ## 5. Exposés — après les croisements, jamais avant
 
-Un exposé se régénère en bloc, il ne se patche pas. Règles tenues : 200 à 300 mots, trois temps,
-aucun déposant nommé, aucun nom de référentiel interne, aucune nomenclature du corpus, deux
-chiffres de preuve au plus. **On valorise le caractère graduel et ordonné ; on ne fait état
-d'aucun excédent de trésorerie ; on ne nomme aucun perdant.** La mise en regard des taxes
-supprimées est optionnelle, légère, et seulement quand elle sert.
+Un exposé se régénère en bloc, il ne se patche pas. **Les écarts exposé / dispositif se tiennent à
+`methode/registre_exposes_depot_2027.md`**, où toute passe qui modifie un dispositif sans toucher
+l'exposé ouvre une ligne dans la même passe. Règles tenues : 200 à 300 mots, trois temps, aucun
+déposant nommé, aucun nom de référentiel interne, aucune nomenclature du corpus, deux chiffres de
+preuve au plus. **On valorise le caractère graduel et ordonné ; on ne fait état d'aucun excédent
+de trésorerie ; on ne nomme aucun perdant.** La mise en regard des taxes supprimées est
+optionnelle, légère, et seulement quand elle sert.
 
 ---
 
@@ -253,7 +342,8 @@ Quatre contrôles, dans cet ordre, sur la liasse complète :
 1. **Adresses** : toute référence passée au dépôt de droit au millésime du dépôt ; rien
    d'`ABSENT` ni d'`ABROGE` ne sort ; le compte et les verdicts vont à l'état. **Le millésime se
    lit à `droit.py etat` et s'inscrit à l'état du lot** : un contrôle d'adresses qui ne dit pas
-   sur quel millésime il a été joué ne vaut pas.
+   sur quel millésime il a été joué ne vaut pas. **Et un contrôle rend aussi le compte des
+   références laissées hors contrôle, avec la raison de chacune.**
 2. **Checklist rédactionnelle** : ligne à ligne, un verdict par ligne.
 3. **Rattachement** : joué pièce par pièce, verdict et porte citée. **Le crible est la motivation
    type des cavaliers budgétaires et le critère de l'effet suffisamment direct pour les cavaliers
@@ -283,14 +373,15 @@ texte validé en clair.
 1.B digestion budgétaire ── FAITE ──> lot 15 ouvert ──┘
 ```
 
-Les deux digestions étant faites, les originaux versés et l'appareil déclaré, plus rien ne bloque
-l'ouverture d'un lot ni l'écriture d'une correction. Reste à la main de l'auteure, et à elle
-seule : **l'écriture au dépôt**, qui suppose `resolution-ib-dev/Resolution-2027` dans le jeu de
-dépôts autorisés en écriture de la session.
+Les deux digestions étant faites, les originaux versés, l'appareil déclaré et le tout poussé sur
+`main`, **plus rien ne bloque l'ouverture d'un lot ni l'écriture d'une correction**. Le paquet du
+20261005 est versé au projet depuis le 20261007 : **l'étape 3 est ouverte sur les 32 pièces du
+paquet**, et seules deux pièces du registre restent à leur adresse antérieure.
 
 **Et une règle de répartition des fils en sort, qui n'était écrite nulle part.** Un fil Claude
 Code ne voit pas le coffre : `restaurer.py` travaille sur le transcript d'une session qui l'a lu,
-et un fil code n'en lit jamais. **La restauration d'une pièce du projet vers le dépôt est donc
-toujours le travail d'un fil Cowork**, jamais d'un fil code. Au fil code reviennent l'édition de
+et un fil code n'en lit jamais. **Une pièce du projet se prépare donc toujours en Cowork**, puis
+se remet au fil code **en pièce jointe, zip unique avec son manifeste sha256** : le fil déplie,
+contrôle les empreintes, branche, fusionne et pousse seul. Au fil code reviennent l'édition de
 l'appareil, les `make`, le relevé des empreintes — qui exige un clone du dépôt de droit en
-`droit/` — et la poussée.
+`droit/` — les branches et la poussée. **L'auteure ne touche ni à git ni au navigateur.**

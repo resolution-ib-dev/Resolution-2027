@@ -4,7 +4,7 @@
 **Mandat** : l'auteure, 20261007 — « résous tout partout point par point en vérifiant les accès ».
 **Domicile** : `methode/fragments/arbitrages/20261007-geste2-restauration.md`.
 **Mesure** : 9 pièces restaurées, 1 supprimée, 14 déclarations posées, 150 anomalies bloquantes
-contre 153 avant, I4 et I5 à zéro.
+contre 153 avant, I4 et I5 à zéro. Versé à `main` au commit `0f1d138` le 20261007.
 **Appui** : le dépôt cloné à `claude/gracious-bell-z4jsz1` (`3ec82d1`), le transcript de cette
 session, `methode/classement_corpus.md` (R5, R8), `methode/appui_des_passes.md`.
 
@@ -49,12 +49,22 @@ typographique ; **`make index` ne fait que contrôler, l'index se régénère pa
 - **Neuf artefacts déclarés à l'index**, les deux digestions, les deux documents de méthode et les
   cinq fragments du jour. I5 passe de 9 à 0.
 
-## 5. Ce qui reste, et qui n'est à la main de personne d'autre
+## 5. Versement — fait le 20261007
 
-Le travail vit au commit `40b5c3a`, sur `claude/gracious-bell-z4jsz1`. **La poussée est refusée** :
-le dépôt n'est pas au jeu de dépôts autorisés en écriture de la session, et ce refus a été
-constaté trois fois ce jour. Le commit a été rendu à l'auteure en bundle.
+`main` porte le commit `0f1d138`. Contrôlé mécaniquement sur un clone neuf :
+`reference/guide_legistique.md` et `reference/regles_credits.md` présents,
+`reference/structure_ppl.md` absent, `methode/appui_des_passes.md` et
+`methode/procedure_fin_de_chantier_depot_2027.md` présents, six fragments d'arbitrage des
+20261006 et 20261007. `make controle` rejoué par le fil code : 150 anomalies bloquantes, I4 à 0,
+I5 à 0, 14 manquants déclarés — le compte attendu. `make coffre` joué, empreintes relevées.
 
-`make coffre` n'a pas été rejoué : il exige un clone du dépôt de droit en `droit/`, que cet
-atelier n'a pas monté. **Le relevé d'empreintes du fil code reste le dernier en date**, et il ne
-couvre donc pas les neuf pièces restaurées.
+**La voie qui a fonctionné, et qui devient la voie par défaut** : le paquet complet remis au fil
+code en pièce jointe, zip unique avec son manifeste sha256, le fil dépliant, contrôlant,
+branchant, fusionnant et poussant seul. L'auteure ne touche ni à git ni au navigateur. Les
+contournements par bundle, par upload web fichier à fichier et par branche manipulée à la main
+ont tous été écrits pour rien, sur une impossibilité supposée et non mesurée.
+
+**Reste une branche morte** : `claude/gracious-bell-z4jsz1`, à `3ec82d1`, que le fil code n'a pas
+pu supprimer — cinq tentatives, connexion coupée à chaque fois, alors que les poussées passaient
+par la même voie. Son contenu est intégralement repris par `main`. `geste2-20261007` est à
+l'identique de `main` et peut partir avec elle.
