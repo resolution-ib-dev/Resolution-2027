@@ -386,6 +386,41 @@ def lire_article(donnees):
     }
 
 
+def _nom(el):
+    return el.tag.upper().split("}")[-1]
+
+
+def _titre(el):
+    return texte_de(el).replace("\n", " ")
+
+
+def _version_en_vigueur(titres):
+    """Parmi les versions d'un même titre, celle à fin ouverte, ou la plus récente."""
+    ouvertes = [t for t in titres if t.get("fin") in FIN_OUVERTE]
+    return max(ouvertes or titres, key=lambda t: t.get("debut") or "")
+
+
+def ascendants(section):
+    """Titres des ascendants d'une SECTION_TA, de la racine du texte au parent.
+
+    Un fichier de section ne s'emboîte pas dans ses ascendants : sa
+    `STRUCTURE_TA` ne porte que ses enfants. Ses ascendants sont à son
+    `CONTEXTE`, une chaîne `TM` imbriquée dont le maillon le plus profond est
+    le parent, et dont chaque maillon peut porter plusieurs versions de titre.
+    """
+    contexte = premier(section, "CONTEXTE")
+    tm = premier(contexte, "TM") if contexte is not None else None
+    pile = []
+    while tm is not None:
+        titres = [s for s in tm if _nom(s) == "TITRE_TM"]
+        if titres:
+            titre = _titre(_version_en_vigueur(titres)).strip()
+            if titre:
+                pile.append(titre)
+        tm = next((s for s in tm if _nom(s) == "TM"), None)
+    return pile
+
+
 def lire_structure(donnees):
     """Rend {LEGIARTI: 'Titre > Chapitre > Section'} depuis un fichier de structure."""
     try:
@@ -393,6 +428,28 @@ def lire_structure(donnees):
     except ET.ParseError:
         return {}
     chemins = {}
+
+    # Un fichier de section : la chaîne se lit au CONTEXTE, non à l'emboîtement.
+    # Construite à l'intérieur du seul fichier, elle s'arrêtait à la section
+    # elle-même, et aucun article ne portait de chaîne hiérarchique.
+    if _nom(racine) == "SECTION_TA":
+        propre = _titre(premier(racine, "TITRE_TA")).strip()
+        chemin = " > ".join(ascendants(racine) + ([propre] if propre else []))
+        structure = premier(racine, "STRUCTURE_TA")
+        for lien in (structure.iter() if structure is not None else ()):
+            if _nom(lien) == "LIEN_ART":
+                ident = lien.get("id") or ""
+                if ident.startswith("LEGIARTI"):
+                    chemins[ident] = chemin
+        return chemins
+
+    # Un fichier d'article porte aussi des LIEN_ART — ceux de ses versions — et
+    # n'a pas d'emboîtement : il les rendait tous à chaîne vide, et selon
+    # l'ordre de l'archive cette chaîne vide écrasait celle de la section. La
+    # chaîne d'un article se lit au fichier de sa section, qui porte le titre
+    # en vigueur de celle-ci ; le fichier d'article ne rend rien.
+    if _nom(racine) == "ARTICLE":
+        return chemins
 
     def descendre(el, pile):
         nom = el.tag.upper().split("}")[-1]
