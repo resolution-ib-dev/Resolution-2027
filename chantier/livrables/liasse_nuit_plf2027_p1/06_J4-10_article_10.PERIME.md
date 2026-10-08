@@ -1,0 +1,1 @@
+**PÉRIMÉ le 20261008** — la pièce de `livrables/liasse_nuit_plf2027_p1/06_J4-10_article_10.md` est versée au paquet sous `livrables/depot_2027/P1/nuitp1_06_cession_reprise_entreprise.md`, rang **P1-11** ; le fichier d'origine est conservé inchangé et ne se dépose plus.

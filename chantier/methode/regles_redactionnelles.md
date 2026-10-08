@@ -191,4 +191,38 @@ fin, une fois le contenu arrêté.
 
 ---
 
-*7 août 2026 — complète la version du 30 juillet 2026, qui remplaçait celle du 5 mai 2026*
+## Reprises du 20261007 — légistique des textes financiers
+
+Inscrites par le fil d'intégration de `methode/reprise_20261007.md` (§ 2 et § 3). Elles
+complètent les principes de rédaction ci-dessus et priment sur tout usage antérieur contraire.
+Source : digestion du guide de légistique du SGG, `reference/guide_legistique.md`.
+
+**Formule de réécriture.** La réécriture d'un article de loi s'écrit **« est ainsi rédigé »**.
+« Est remplacé par les dispositions suivantes » est la formule réglementaire : elle ne s'emploie
+pas dans un texte de loi ni dans un amendement.
+
+**Abroger et supprimer.** **« Abroger »** vaut pour un texte entier et pour ses divisions
+numérotées — article, section, chapitre, titre, livre, et les 1°, 2°, a, b d'une énumération.
+**« Supprimer »** vaut pour ce qui est à l'intérieur : un alinéa, une phrase, un membre de phrase,
+un mot.
+
+**Abroger par bloc.** Partout où un bloc entier tombe — section, chapitre, sous-section —,
+**l'abrogation vise le bloc, non ses articles un par un**. Seules les abrogations partielles se
+nomment article par article. Les rangs vides, « (Sans objet) » ou autres, se suppriment.
+**Lorsque des rangs servent de renvois, la renumérotation et la reprise des renvois se font dans
+la même passe que le regroupement, jamais séparément.** Le contrôle du caractère entier d'un bloc
+se joue sur le dépôt de droit : il n'est pas à la portée d'un fil qui ne l'a pas sous la main.
+
+**Dates communes d'entrée en vigueur : quatre, non deux.** Le registre des exceptions se recale
+en conséquence ; toute date qui n'est pas l'une des quatre est une exception, et s'inscrit comme
+telle.
+
+**Virgule devant une conjonction — le symétrique.** La règle générale ci-dessus interdit la
+virgule devant et, ou, mais, ni, car, or, donc. Son symétrique : **la virgule est due lorsqu'elle
+clôt une incise ouverte avant la conjonction**, faute de quoi l'incise reste ouverte et la phrase
+change de sens. Les deux faces se contrôlent ensemble ; une occurrence relevée par le contrôle
+automatique se lit avant d'être corrigée.
+
+**Constat chiffré de l'exposé sommaire.** Le constat chiffré occupe **le premier tiers** de
+l'exposé, et la borne de longueur passe de 300 à **350 mots**. Règle appliquée à la régénération
+en bloc des exposés, après les croisements, jamais avant.

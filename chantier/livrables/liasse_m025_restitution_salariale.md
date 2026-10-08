@@ -1,0 +1,1 @@
+**PÉRIMÉ le 20261008 par le versement de la phase 1.B — la liasse est scindée par rang : SS-05 à `livrables/depot_2027/SS/3_3_restitution_salariale_principale.md`, SS-01 à `livrables/depot_2027/SS/3_3_restitution_salariale_coordination.md`, au verbatim, les III et III bis de `methode/etats/L2.md` appliqués à SS-05.**

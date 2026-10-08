@@ -2,6 +2,9 @@
  "_regle": "Empreintes relevées au versement, cumulatives : une session n'efface pas celles des documents qu'elle n'a pas dépliés. Toute pièce restaurée du coffre se compare ici avant emploi. Une divergence est un faux, elle ne se corrige pas au dépôt : elle se redemande au coffre.",
  "sans_empreinte": [
   "DEMARRAGE.md",
+  "appareil/controle_adresses_extraction.py",
+  "appareil/controle_adresses_verdicts.py",
+  "appareil/scinder_liasse_trois_colonnes.py",
   "livrables/Presentation_20260916_v46.md",
   "livrables/Recap_transposabilite_20260914_v7.md",
   "livrables/Recensement_innovations_20260914_v2.md",
@@ -67,9 +70,14 @@
    "lignes": 31
   },
   "CLAUDE.md": {
-   "sha256": "57df4cb8466449f76a684b525ef2bceeb8666ce0ef82307867e8565c608c43ff",
-   "octets": 23012,
-   "lignes": 454
+   "sha256": "c1b9a7997eee4ee1ad2c9eaa04d0041fef0962b4863f070c8461e9b60043cd8d",
+   "octets": 25389,
+   "lignes": 489
+  },
+  "MANIFESTE.md": {
+   "sha256": "3aa9538d275875876fd1abfe4af607fbc87a56ab2ebb18a0ed3dead50863a5fe",
+   "octets": 6706,
+   "lignes": 102
   },
   "Makefile": {
    "sha256": "4326961382e9923550c8879692774591b6ae2c764f0eab44606dfa28045d05e5",
@@ -292,9 +300,9 @@
    "lignes": 702
   },
   "appareil/generer_carte.py": {
-   "sha256": "6fe098a1f2ec1ba47452f466e9a98b9a345545a5cc6681d4ab7a877e4803f0bf",
-   "octets": 44401,
-   "lignes": 844
+   "sha256": "fbd4ef1d9f6fb6c6de6d6fc88c4c0787c4f10a24e5fb1628a530274ff5d6bb62",
+   "octets": 46063,
+   "lignes": 869
   },
   "appareil/generer_classeur_synthese.py": {
    "sha256": "41270bfb208ca60080b3e249b76502a460b01532b97e55d2e129eef9f04923e2",
@@ -317,9 +325,9 @@
    "lignes": 595
   },
   "appareil/generer_index.py": {
-   "sha256": "d853553a444b6ab85354f3f54ca2abbf385158199dc2e5c7ff1203628477a0cf",
-   "octets": 99029,
-   "lignes": 1639
+   "sha256": "df9a1090a94775837bffcf28aa3908bac663622d1110f920a768c18eadce2440",
+   "octets": 101837,
+   "lignes": 1682
   },
   "appareil/generer_interface.py": {
    "sha256": "4d70f0aeccf1fa73ad7c09810e966d4b8c3771661838b0e6ce647b43fccdf54c",
@@ -536,6 +544,11 @@
    "octets": 22996,
    "lignes": 426
   },
+  "appareil/versement.py": {
+   "sha256": "fb53ca3f079df1e48cb25d596e958f20b1624f22743e9e07355e13291c2ccbd3",
+   "octets": 7630,
+   "lignes": 138
+  },
   "livrables/PLF2026_annexe_technique.md": {
    "sha256": "30db230f49093954ea37701d048428bd2d9f371d9a2fe021bddbfb76b902b7c5",
    "octets": 39950,
@@ -631,6 +644,11 @@
    "octets": 9475,
    "lignes": 157
   },
+  "livrables/clause_generale_niches_20261004.md": {
+   "sha256": "1d7f224f650ad9ea06e5953e540c5e5cfdb0cf9847777914e0f46161f0a7b928",
+   "octets": 111196,
+   "lignes": 1000
+  },
   "livrables/comblement_termes_manquants.md": {
    "sha256": "1be1ebc65027a9e05782bc445aa5e5ecc892f1f8747720b50c0ead1a48ba638b",
    "octets": 22107,
@@ -645,6 +663,356 @@
    "sha256": "16fa7a1fda658558b044c75772c554cde3cc067bb0a3eb18961398b3bee112c0",
    "octets": 17324,
    "lignes": 319
+  },
+  "livrables/depot_2027/LIASSE_20261008.md": {
+   "sha256": "379aec56f762c6e574273a30e674b43dd014bdf8889bb3acdd058be42384348f",
+   "octets": 364360,
+   "lignes": 4897
+  },
+  "livrables/depot_2027/LIASSE_P1_20261008.md": {
+   "sha256": "d6960406a866a034438543d2712fe2cac4a6e738b8266277610eb3e6e5ad885d",
+   "octets": 201565,
+   "lignes": 2426
+  },
+  "livrables/depot_2027/LIASSE_P2_20261008.md": {
+   "sha256": "5deb73c9e98de4c6e232f7d5d307cce0098c0677af0dcb751de0c5bf69693b4a",
+   "octets": 120899,
+   "lignes": 1811
+  },
+  "livrables/depot_2027/LIASSE_PLFSS_20261008.md": {
+   "sha256": "bdae05e2657e2daac40972c4bd6259c1be673701075af2b2a938e3d9592d2ed7",
+   "octets": 45671,
+   "lignes": 645
+  },
+  "livrables/depot_2027/LISEZ-MOI_20261008.md": {
+   "sha256": "a7ffb506df8197976294c32364eff2c4f270441e87e6719d77e62609466dbaa4",
+   "octets": 29291,
+   "lignes": 290
+  },
+  "livrables/depot_2027/P1/2_4_armateurs_tonnage.md": {
+   "sha256": "592d02afbac2c32c7d00b300ecddfca33fb48944c37f0e4e8d73139c0ad8731c",
+   "octets": 7512,
+   "lignes": 121
+  },
+  "livrables/depot_2027/P1/2_4_credit_impot_famille.md": {
+   "sha256": "dec406a206243bc85728f5a7130d2d7e66a1dd949b7d1c3bd752d10124a2a03b",
+   "octets": 7430,
+   "lignes": 127
+  },
+  "livrables/depot_2027/P1/2_4_credit_impot_recherche.md": {
+   "sha256": "03e425ba43cf32fd5a73813789a1023a223d8c56c4902a172ecfc93cb775cc32",
+   "octets": 10084,
+   "lignes": 146
+  },
+  "livrables/depot_2027/P1/2_4_deductions_exceptionnelles.md": {
+   "sha256": "78107e389f57325ee4ca3f33fdada537c532127568aacf14d2c12dcfaded1856",
+   "octets": 7895,
+   "lignes": 119
+  },
+  "livrables/depot_2027/P1/2_4_exonerations_par_zone.md": {
+   "sha256": "d266b47420e9c41f514a07b063671476fbfd07cd7ab5c3b0c3408a52189035bd",
+   "octets": 9808,
+   "lignes": 134
+  },
+  "livrables/depot_2027/P1/2_4_sortie_agricole_trois_ans.md": {
+   "sha256": "70e0150f2e75e66b677304bf027680d3abd56cd0fb54d1d146ac5ff6bcf89a9b",
+   "octets": 10845,
+   "lignes": 161
+  },
+  "livrables/depot_2027/P1/2_4_tarifs_reduits_accise.md": {
+   "sha256": "d282cdfaf8ccccb75ef9936472a3d35f5842cd7ea36e3252ee5ef6fa3933f3e4",
+   "octets": 9314,
+   "lignes": 132
+  },
+  "livrables/depot_2027/P1/4_2_refonte_taxes_A_taxes_etat.md": {
+   "sha256": "808e465183c8fd7bf2e73fb3539a492f0dada71f9f0d290d178ebd39288e573e",
+   "octets": 25468,
+   "lignes": 152
+  },
+  "livrables/depot_2027/P1/4_2_refonte_taxes_B_taxes_affectees.md": {
+   "sha256": "b776dbeb01853d8a3d8acab6ac0bdc22cc7c75c63109aafeb955a19ee38314ee",
+   "octets": 50963,
+   "lignes": 263
+  },
+  "livrables/depot_2027/P1/4_2_refonte_taxes_C_dmto_franchise.md": {
+   "sha256": "be9b7e86f16876be78206bb1969be69c68da6a3ccb22f91d0a7bd7950a270ae2",
+   "octets": 32416,
+   "lignes": 175
+  },
+  "livrables/depot_2027/P1/4_2_refonte_taxes_D_plus_values.md": {
+   "sha256": "7c46a1e21662d324bc0d4acefedb6b1b845d1b222c9c829070a76286e14e9bba",
+   "octets": 43388,
+   "lignes": 281
+  },
+  "livrables/depot_2027/P1/4_3_aide_fondamentale_et_taux_unique.md": {
+   "sha256": "776397542d9897250bdeaddb458d561cc0f80f2cfc2495fda9e09ab34b36a86d",
+   "octets": 26701,
+   "lignes": 297
+  },
+  "livrables/depot_2027/P1/4_4_taxe_fonciere_unique.md": {
+   "sha256": "7ad9b2eb4ac9a625c6d8a6a8279babaf12202f0ebd4fb9617e406993f6a8e1ad",
+   "octets": 59202,
+   "lignes": 323
+  },
+  "livrables/depot_2027/P1/4_5_solde_refonte_is_tf.md": {
+   "sha256": "0e00eecede6e1f3ae212998ff5bbe946db1e931f413fef471b05d520010a66d7",
+   "octets": 29494,
+   "lignes": 254
+  },
+  "livrables/depot_2027/P1/4_6_tva_taux_reduits.md": {
+   "sha256": "5bbe02e6707302f5a84986ec7178dd03132977127d00158ec9281e9eff441371",
+   "octets": 19127,
+   "lignes": 147
+  },
+  "livrables/depot_2027/P1/4_7_abrogations_cgi.md": {
+   "sha256": "dede5d52f6a8d41f4b165eba525f4138d08a8fe9e292a2b85d2f1a6b318ead60",
+   "octets": 4472,
+   "lignes": 52
+  },
+  "livrables/depot_2027/P1/coll_P1_01_dotations_face_aux_reductions_de_champ.md": {
+   "sha256": "74fc1d6b8896f8740f2f938870d095a408a420972f563d154a19510059b8ddff",
+   "octets": 31372,
+   "lignes": 217
+  },
+  "livrables/depot_2027/P1/coll_P1_02_fusion_dotation_forfaitaire_taxe_fonciere.md": {
+   "sha256": "8ff4300e1a4bb8ae596a61b7474933990329fc877f2f4d434ca2a8b924512130",
+   "octets": 16055,
+   "lignes": 122
+  },
+  "livrables/depot_2027/P1/coll_P1_03_tva_sur_justification.md": {
+   "sha256": "47f7088d1033426fcb83e1ab6dd2e3ef70d3327bee11913c1c521b9d2a59666c",
+   "octets": 10542,
+   "lignes": 84
+  },
+  "livrables/depot_2027/P1/n5_compte_epargne_personnel.md": {
+   "sha256": "02764dfc2cb7a436596cdc051155f48b006229d976edae455245a37665bd01a8",
+   "octets": 32319,
+   "lignes": 215
+  },
+  "livrables/depot_2027/P1/nuitp1_01_rendre_le_don.md": {
+   "sha256": "41b04e829dd8b2203dd018836681d6ca6bec456a138f06f40eff07236b950dac",
+   "octets": 7896,
+   "lignes": 81
+  },
+  "livrables/depot_2027/P1/nuitp1_04_pret_taux_zero.md": {
+   "sha256": "15062d330f34213dc013fc2c3626cd3bb441efaca83ca159d9d00f9368188bdc",
+   "octets": 5288,
+   "lignes": 76
+  },
+  "livrables/depot_2027/P1/nuitp1_05_investissement_industriel.md": {
+   "sha256": "99c5566a654eed7af751de2ff704eda8257bf3fc586c10853e3059ac8fb4f2fb",
+   "octets": 5910,
+   "lignes": 79
+  },
+  "livrables/depot_2027/P1/nuitp1_06_cession_reprise_entreprise.md": {
+   "sha256": "ec3acc571b1e0df997819a6011744de917a455d1d456ae9385986d92b613be06",
+   "octets": 5411,
+   "lignes": 66
+  },
+  "livrables/depot_2027/P1/nuitp1_07_credit_impot_competitivite.md": {
+   "sha256": "a056d0ddbaeec98a349fc5ec854c6d8fc72f2d2cb7cb89bf7bf608b150c07594",
+   "octets": 3774,
+   "lignes": 57
+  },
+  "livrables/depot_2027/P1/nuitp1_08_avantages_culturels.md": {
+   "sha256": "2a6a05af3a85056344c9e15301ea1e06973b0dc9f7f623773f14efe68eedeba2",
+   "octets": 5554,
+   "lignes": 74
+  },
+  "livrables/depot_2027/P1/nuitp1_09_impot_agricole.md": {
+   "sha256": "afde1be7250c4597b7c8649adc2b208823725c15e68e7211fae29d1457061036",
+   "octets": 6343,
+   "lignes": 83
+  },
+  "livrables/depot_2027/P1/nuitp1_10_impot_selon_adresse.md": {
+   "sha256": "8f1dde0bef79dadbe65dec8e0ec791154f30cbd82d571cfc46d4a82e4626f218",
+   "octets": 6370,
+   "lignes": 77
+  },
+  "livrables/depot_2027/P1/nuitp1_11_abroger_mises_a_jour.md": {
+   "sha256": "199ba0adec381a7de5b97d539f2606a8b9ea094d7e2eac31232bcce73e70cd1a",
+   "octets": 5424,
+   "lignes": 78
+  },
+  "livrables/depot_2027/P1/nuitp1_12_affectation_article_42.md": {
+   "sha256": "b23ecea96f87485e789bb7d2c6f38783fd7563a27f77d84fb8a481abf60e3997",
+   "octets": 17156,
+   "lignes": 170
+  },
+  "livrables/depot_2027/P2/2_1_dissolution_structures_facultatives.md": {
+   "sha256": "7c4e4061d7017e3d0438541e0e49fa5852855ebe76a91d696513b95eac1feb32",
+   "octets": 11457,
+   "lignes": 132
+  },
+  "livrables/depot_2027/P2/2_1_etablissements_ressources_propres.md": {
+   "sha256": "7b62db29e01cf730057e0c05bd06346205d27bc02b14642a07faab9b06cf4bc7",
+   "octets": 7472,
+   "lignes": 118
+  },
+  "livrables/depot_2027/P2/2_1_missions_rendues_aux_ministeres.md": {
+   "sha256": "51ae1c933251fa6453b28b62bc963461a4a8d92900e135c200fa5c6268dd18fb",
+   "octets": 8189,
+   "lignes": 119
+  },
+  "livrables/depot_2027/P2/2_2_indemnite_depart_agents.md": {
+   "sha256": "375354b232c356965bc1fb40c1f518d06c58000a767fe092e16b9390e11875ca",
+   "octets": 10986,
+   "lignes": 104
+  },
+  "livrables/depot_2027/P2/2_6_cheque_energie.md": {
+   "sha256": "13fe94a52c6612726e0e3394858829e27e5de1befaed0202224c32d1f6402279",
+   "octets": 8864,
+   "lignes": 109
+  },
+  "livrables/depot_2027/P2/2_6_extinction_aide_logement.md": {
+   "sha256": "2035ec683a832d4c0fd0a4fa61a4047cd883cefe71311c19753a062381f29d17",
+   "octets": 12955,
+   "lignes": 130
+  },
+  "livrables/depot_2027/P2/2_6_socle_hebergement_urgence.md": {
+   "sha256": "8b00f5301a0adc1d171ed733dd4aa0f71e5cc8fa372cbbac03676de0bbe8a15d",
+   "octets": 10640,
+   "lignes": 127
+  },
+  "livrables/depot_2027/P2/coll_P2_01_abrogation_concours_discretionnaires.md": {
+   "sha256": "2843adf117bf1262444da85d208d876be8e4d22126b570c6e04cea05ee5460ff",
+   "octets": 13735,
+   "lignes": 122
+  },
+  "livrables/depot_2027/P2/coll_P2_02_credits_etat_B.md": {
+   "sha256": "72e10ac49bfeb38c64aeab946d6374415c5a0c90a5ea31722d7b23486163aa86",
+   "octets": 19977,
+   "lignes": 173
+  },
+  "livrables/depot_2027/P2/coll_P2_03_suppression_articles_85_86_87.md": {
+   "sha256": "b8e046b6d039850030e8d5acd19e60524ebedcdd0a072d16b7b15721ba46c603",
+   "octets": 6324,
+   "lignes": 111
+  },
+  "livrables/depot_2027/P2/coll_P2_04_facultes_et_obligations_de_baisse.md": {
+   "sha256": "07a761497c6b972b977e0ce81ad80294fe4a5ce314ed7e27e63883a47341ce4b",
+   "octets": 32675,
+   "lignes": 213
+  },
+  "livrables/depot_2027/P2/etatB_01_structures_facultatives.md": {
+   "sha256": "01e125d33a74305283896ea72cd925544c6778ac574e809fcfb824eac51b20cd",
+   "octets": 23231,
+   "lignes": 185
+  },
+  "livrables/depot_2027/P2/etatB_02_subventions_associations.md": {
+   "sha256": "cd9232131e90baaad6db0dad41cd8c176e8c0dfeb5572501677267131b57d13e",
+   "octets": 25249,
+   "lignes": 234
+  },
+  "livrables/depot_2027/P2/etatB_03_aides_ciblees.md": {
+   "sha256": "e0ebb606a39e28a1b99e132da6cb13703ef9d7f97ed01515712f926d51c36e49",
+   "octets": 20044,
+   "lignes": 221
+  },
+  "livrables/depot_2027/P2/etatB_04_titre2_plafond_emplois.md": {
+   "sha256": "e2b535b77de7ed84ba67851acf83e6e4dbee72369c19b5e71458c0df39006a9f",
+   "octets": 60236,
+   "lignes": 808
+  },
+  "livrables/depot_2027/P2/n6_defaisance_participations.md": {
+   "sha256": "482bbcea29aff832901096539da574ae80bf9502b60bd9ad4c82681b5470ff5a",
+   "octets": 12863,
+   "lignes": 95
+  },
+  "livrables/depot_2027/P2/n6_logement_social_flux.md": {
+   "sha256": "08d0ebc19b5e014595211a8dbc3198a200860522f5f15d892acaf74677581df7",
+   "octets": 10695,
+   "lignes": 95
+  },
+  "livrables/depot_2027/P2/n6_typologies_de_depenses.md": {
+   "sha256": "2edb8d41657ff925601341d7008b71a13c99d613ae430ba4ea992ccb27ea1966",
+   "octets": 12131,
+   "lignes": 88
+  },
+  "livrables/depot_2027/PPL_CESSION_PARTICIPATIONS_20261008.md": {
+   "sha256": "8496b187cb147e1a8c250357134f6adc6238ed6962fbe35b48c27f8330ad1867",
+   "octets": 5040,
+   "lignes": 88
+  },
+  "livrables/depot_2027/SOMMAIRE_20261008.md": {
+   "sha256": "689f4a8e0e49ea3c56b8a195164d34d30e865c44bcbc93313f5524b0cd944f56",
+   "octets": 12235,
+   "lignes": 157
+  },
+  "livrables/depot_2027/SS/2_3_subventions_associations_social.md": {
+   "sha256": "177acc56a8938dedb5232e28e3e49b77361a0235a91ede2402a1dfe205db0cbc",
+   "octets": 11835,
+   "lignes": 156
+  },
+  "livrables/depot_2027/SS/3_3_restitution_salariale_coordination.md": {
+   "sha256": "248d54e40038e76df9bc087cc29cf2f5b7207cf044e36e5d1343f1e59a3bb27c",
+   "octets": 12893,
+   "lignes": 227
+  },
+  "livrables/depot_2027/SS/3_3_restitution_salariale_principale.md": {
+   "sha256": "b2d9d92f3bcb2516ccdaa9b7127cd9e17f5ddf0c68d6190237666a2a0e742891",
+   "octets": 29901,
+   "lignes": 433
+  },
+  "livrables/depot_2027/SS/arrets_04_m024_prolongation_droits_soins.md": {
+   "sha256": "0965ca86a8bf86176972c045637e5495e9c3cd67c4c152f393e2241fcfa9e8e0",
+   "octets": 13926,
+   "lignes": 112
+  },
+  "livrables/depot_2027/SS/n5_amorce_extinction_repartition.md": {
+   "sha256": "e02896a18babfeeb9c3fcafcee0a825a26f2289eaac4a10b1f471d56f6d624a6",
+   "octets": 10177,
+   "lignes": 88
+  },
+  "livrables/depot_2027/SS/n5_cadre_bouclier_sanitaire.md": {
+   "sha256": "7fe042282ffe676ceeb88e096bbcf9675f0642899050b4833229e03297ee1e97",
+   "octets": 23639,
+   "lignes": 154
+  },
+  "livrables/depot_2027/SS/n5_extinction_aides_fondues.md": {
+   "sha256": "34c5dced0eac99a075e6462aee7a3ffe4de48dff207ac1e2389ae625527739c1",
+   "octets": 14306,
+   "lignes": 142
+  },
+  "livrables/depot_2027/SS/n7b_m037a_gel_indexations_lfss.md": {
+   "sha256": "155c25be0812dd907a5cd2fb503f03a82617066bbc7139e67e5593300c9bd2a0",
+   "octets": 10343,
+   "lignes": 98
+  },
+  "livrables/depot_2027/SS/n7b_ss03_liste_niches_sociales.md": {
+   "sha256": "83a5bdac32c7d338d50e49e1b891974dcd48c6a93b6f3cc1542fdf9e1604d2e6",
+   "octets": 27726,
+   "lignes": 207
+  },
+  "livrables/depot_2027/SS/nuit1c_suppression_taxe_salaires.md": {
+   "sha256": "daa91041d88690990f647e7e44008e6ead44f745dd010e0b7fe2c65555d1cfe3",
+   "octets": 19604,
+   "lignes": 153
+  },
+  "livrables/depot_2027/clause_generale_niches_20261005.md": {
+   "sha256": "d823d470fd970306950dd6f5eee3023ce85d5f1c49c6ed870ffd421f61481b1e",
+   "octets": 160010,
+   "lignes": 1044
+  },
+  "livrables/depot_2027/sans_colonne/n7b_m022_certificats_energie.md": {
+   "sha256": "a607c930f82a7a8b2d598b1d37a654d50b49255c17b0f77b2ffb42c11dafe690",
+   "octets": 14254,
+   "lignes": 115
+  },
+  "livrables/depot_2027/sans_colonne/n7b_m037b_gel_indexations_plf.md": {
+   "sha256": "173512fe9a37d5201a61a53693872e8b2f2b2b44d98b68ec6e3c5197c2406112",
+   "octets": 14941,
+   "lignes": 105
+  },
+  "livrables/depot_2027/sans_colonne/n7b_m070_depenses_nouvelles.md": {
+   "sha256": "1870aa2694d1032e7eee3cf8e520dd22f51868736e7c40e323da4883e601b220",
+   "octets": 9425,
+   "lignes": 95
+  },
+  "livrables/depot_2027/sans_colonne/nuit1c_ppl_cession_participations.md": {
+   "sha256": "e0fecbd697bbd15012c3230d57c996efde26a7cf6d253100fe8cdea109a470c7",
+   "octets": 22732,
+   "lignes": 234
   },
   "livrables/digestion_archives_20260921.md": {
    "sha256": "2c2f2065f0e77d33d99207fc015675c6be22aa01ae9d4a176d10a6f714ab040d",
@@ -706,6 +1074,281 @@
    "octets": 124365,
    "lignes": 1090
   },
+  "livrables/liasse_2_6_aides_ciblees_20261002.PERIME.md": {
+   "sha256": "4cfd38e0783ecaa597ee84613173a6c2090c5903bc3aeee9f1e2d3451e5b6d11",
+   "octets": 418,
+   "lignes": 1
+  },
+  "livrables/liasse_2_6_aides_ciblees_20261002.md": {
+   "sha256": "a191cdfe4a7e3d1abfd7609ca10512ed4f04ed1adbf59cd53da51af030ada488",
+   "octets": 27468,
+   "lignes": 259
+  },
+  "livrables/liasse_aides_entreprises_plf2027_p1.PERIME.md": {
+   "sha256": "c0490999c9ce468036c3d7db666be7f0240caca3d831f4649ebb99002c93c2ae",
+   "octets": 638,
+   "lignes": 1
+  },
+  "livrables/liasse_aides_entreprises_plf2027_p1.md": {
+   "sha256": "1af0c820e620e57872abbe98b70b5192a47f2933271debe38511fec3717f8254",
+   "octets": 43753,
+   "lignes": 517
+  },
+  "livrables/liasse_arrets_immediats/01_M037_indexations.md": {
+   "sha256": "5802aee97ea7d172cbd115184ca65aaf7dca5f5200f05d9d75dacfb9c7cff377",
+   "octets": 9203,
+   "lignes": 103
+  },
+  "livrables/liasse_arrets_immediats/02_M070_depenses_nouvelles.md": {
+   "sha256": "a94d0979fd05d7c329778e17ddef47fb63d8bb767f562fddd12ffb67dd20f220",
+   "octets": 8534,
+   "lignes": 100
+  },
+  "livrables/liasse_arrets_immediats/03_M022_certificats_energie.md": {
+   "sha256": "abe89077725f33c7f035b64d87e5266ba6d4ae0c4a290d276ec12c19b5a54bbe",
+   "octets": 10117,
+   "lignes": 111
+  },
+  "livrables/liasse_arrets_immediats/04_M024_soins_jambe_lfss.PERIME.md": {
+   "sha256": "3e3cb6b11f59cc0ecd33928773aa46cb5775fc7fe206ff430d72c80aeb6c7323",
+   "octets": 289,
+   "lignes": 1
+  },
+  "livrables/liasse_arrets_immediats/04_M024_soins_jambe_lfss.md": {
+   "sha256": "22bf77d8a055f29c8f2e71c3e2fefb32b1fe320322993cd0a0be31039e5d2fc3",
+   "octets": 12758,
+   "lignes": 101
+  },
+  "livrables/liasse_m025_restitution_salariale.md": {
+   "sha256": "a9b06105a760e68e08db5692c87993df67fa91ee64f7e642dd2aa6d7f0ce7fcc",
+   "octets": 328,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/00_LISEZMOI.md": {
+   "sha256": "f7abf37cb5eb6a22f80680127e5bcfdce8fa40579de2bc6f0d0cdcddefe7efe4",
+   "octets": 4837,
+   "lignes": 49
+  },
+  "livrables/liasse_nuit_plf2027_p1/01_J1_article_4.PERIME.md": {
+   "sha256": "05e0297ac20deb5f38a24ffdcb528754fdd1b668f7ca6fb5bd7796e71318828a",
+   "octets": 262,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/01_J1_article_4.md": {
+   "sha256": "f537fb6ea5028ce6c1e0ea4e01e25d50d35ca8c3bc728fe4e1d4ead4ccb2b669",
+   "octets": 4476,
+   "lignes": 58
+  },
+  "livrables/liasse_nuit_plf2027_p1/02_J2_article_additionnel.md": {
+   "sha256": "ba40f2b953adc0c2f5d9db5080a9fe4b47cf724e7dcc18fa7296808f9b94b4a7",
+   "octets": 7663,
+   "lignes": 100
+  },
+  "livrables/liasse_nuit_plf2027_p1/03_J3_article_2.md": {
+   "sha256": "2775013f32a25ff394e311a37afbfe74789a31ac5c3513bf395470aaa32eb7ea",
+   "octets": 3946,
+   "lignes": 86
+  },
+  "livrables/liasse_nuit_plf2027_p1/04_J4-7_article_7.PERIME.md": {
+   "sha256": "144d2fc9a48e79e4809ac74e2dbfa3f94ac69b1cdb2a89eea47178ecfc848d9c",
+   "octets": 265,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/04_J4-7_article_7.md": {
+   "sha256": "8728252f642f0d601e6a3fef8b7ea191285c8f271bcb92af0bf45021623fef46",
+   "octets": 2478,
+   "lignes": 53
+  },
+  "livrables/liasse_nuit_plf2027_p1/05_J4-9_article_9.PERIME.md": {
+   "sha256": "ec5c1971de4d921865b865abf139e299d2310278ce926fe7504b62444901d75c",
+   "octets": 276,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/05_J4-9_article_9.md": {
+   "sha256": "e4a923330b08e0e506647830862a85ac2e9b6344d2af12a36a45e1ce548a6f97",
+   "octets": 2910,
+   "lignes": 56
+  },
+  "livrables/liasse_nuit_plf2027_p1/06_J4-10_article_10.PERIME.md": {
+   "sha256": "c8df281d101ed324e6783629904e7d2f701128b2b7de54a213788f90b479e2dd",
+   "octets": 279,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/06_J4-10_article_10.md": {
+   "sha256": "b15b9c24e5a28452ade393cdfa27508da80f495d189e7747f5e481e48f3815e3",
+   "octets": 2488,
+   "lignes": 43
+  },
+  "livrables/liasse_nuit_plf2027_p1/07_J4-11_article_11.PERIME.md": {
+   "sha256": "5738534282b0a864a1a69e346ae12ea9a70f521576d7423c3de1b9349837ff92",
+   "octets": 486,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/07_J4-11_article_11.md": {
+   "sha256": "bdf832bf262aa0dc6dbaf143906e0ab443e99d8121b134aa5c297159f666b857",
+   "octets": 2560,
+   "lignes": 45
+  },
+  "livrables/liasse_nuit_plf2027_p1/08_J4-12_article_12.PERIME.md": {
+   "sha256": "bdf0a1aad79f6b6f0b8066867269db723409aef524e04710874447ddc87a3b46",
+   "octets": 272,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/08_J4-12_article_12.md": {
+   "sha256": "a190760feb5941baccbe8d0bbcefe8378c3bbaa3da1fdfbe09de1a720bc91ce2",
+   "octets": 2871,
+   "lignes": 51
+  },
+  "livrables/liasse_nuit_plf2027_p1/09_J4-13_article_13.PERIME.md": {
+   "sha256": "d6eeaba314e4cf185c1212c76b3a4101eebe23c1a4137263371c8d722c965b65",
+   "octets": 267,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/09_J4-13_article_13.md": {
+   "sha256": "951e923a8b645e387ca25a66c10bff0f16448e31a0ea25ec3c23e14e37d9abc6",
+   "octets": 3527,
+   "lignes": 60
+  },
+  "livrables/liasse_nuit_plf2027_p1/10_J4-26_article_26.PERIME.md": {
+   "sha256": "f6046cace76d868d240bc3c2adae6b2af7f7bc008278601268c1f7709a822de2",
+   "octets": 272,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/10_J4-26_article_26.md": {
+   "sha256": "2a09040ef6d9fe24705d9b24cec281ab7dcc81d5066ad89d33249385d881e4d7",
+   "octets": 3488,
+   "lignes": 54
+  },
+  "livrables/liasse_nuit_plf2027_p1/11_J4-28_article_28.PERIME.md": {
+   "sha256": "d8a3ec10b8b6553eeff166257181fbb79512874494616986bb82137383a683df",
+   "octets": 480,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/11_J4-28_article_28.md": {
+   "sha256": "4dac227f08f1e3d9957d5278e557c18b0227bbff01cbde9b45aaaeb1e9b64f60",
+   "octets": 4194,
+   "lignes": 66
+  },
+  "livrables/liasse_nuit_plf2027_p1/12_J5_article_42.PERIME.md": {
+   "sha256": "6bc5443f379affd75c9c97524412b1b2abaac2d1b2ead807eda1f659b40883ae",
+   "octets": 272,
+   "lignes": 1
+  },
+  "livrables/liasse_nuit_plf2027_p1/12_J5_article_42.md": {
+   "sha256": "bc249f99da917869503091f7b993c064c98576c89ab80dc8666df66c0054b96f",
+   "octets": 13028,
+   "lignes": 146
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/01_J1_article_4.md": {
+   "sha256": "bd1f8e8c9c1ab712ace725a2e0de15b8f2ebad74608ab60b199b4930eaaa9d0e",
+   "octets": 2964,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/02_J2_article_additionnel.md": {
+   "sha256": "6ddabe76b5fb933658399900948f96518daa5ecf963ac2f4488b5347ca7c2604",
+   "octets": 2941,
+   "lignes": 20
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/03_J3_article_2.md": {
+   "sha256": "74d56adafdd8530abdd34dee9dae11aacbfddeee412ea3ddf9ba0c23fb5ec655",
+   "octets": 2833,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/04_J4-7_article_7.md": {
+   "sha256": "bbbd7fb376564a2314f164895c8ce5a18c304c18c980c1c2b18fbf69e29aa4cd",
+   "octets": 2189,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/05_J4-9_article_9.md": {
+   "sha256": "4b9a6144f661a0c2d069bb71a3d9cd61ff82ea6d032de025415eba386c7444c7",
+   "octets": 2416,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/06_J4-10_article_10.md": {
+   "sha256": "73f7295a83be2808600f36decf9d11c4707fc9be170f729bfa81ff980776fad0",
+   "octets": 2160,
+   "lignes": 17
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/07_J4-11_article_11.md": {
+   "sha256": "06ac7069268bf3930a20b8144d758340d2b18a278d7e4df22baf46b4bde05b34",
+   "octets": 2181,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/08_J4-12_article_12.md": {
+   "sha256": "3cb4cf13ba2d9e976a5c9bb7711f9d2d5bfabcd1cd1bf4f624a0714cb6921d57",
+   "octets": 2244,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/09_J4-13_article_13.md": {
+   "sha256": "fb24563f19fce8133f961850316aab72dc56021c3557cdcf5917281ccabfd281",
+   "octets": 2423,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/10_J4-26_article_26.md": {
+   "sha256": "41f7f91f86181ec7165df8eb80be33877765930a323c7bc6bee875c7238dc405",
+   "octets": 2374,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/11_J4-28_article_28.md": {
+   "sha256": "94ef6f8d4ab5eadd8d3d5de8e3435b8e187ec3e472eeb3e7cb91e8f2c97fea68",
+   "octets": 2140,
+   "lignes": 19
+  },
+  "livrables/liasse_nuit_plf2027_p1/exposes/12_J5_article_42.md": {
+   "sha256": "180cb328793db6ef47304a42a94d8b834a310d1d8571c0ed7c96b9fe840143ae",
+   "octets": 3121,
+   "lignes": 20
+  },
+  "livrables/lot_2_1_structures_facultatives_20261002.PERIME.md": {
+   "sha256": "b2f0dd9f53d004b3d1a4e7b8c9da2447ed70fde94a3b9815a2d0ab162b2dd5c9",
+   "octets": 643,
+   "lignes": 1
+  },
+  "livrables/lot_2_1_structures_facultatives_20261002.md": {
+   "sha256": "6e930325dd31c81e00a0435e8fc4c0c279590e6178a53d93c1ae21ba7079fe37",
+   "octets": 33144,
+   "lignes": 339
+  },
+  "livrables/lot_2_2_effectifs/13_J6_article_63.md": {
+   "sha256": "fbc898fd592b17fa74ac0a66ec170281af44b23228eb8838fff3a27468f7f45a",
+   "octets": 4605,
+   "lignes": 56
+  },
+  "livrables/lot_2_2_effectifs/14_J6_article_additionnel.PERIME.md": {
+   "sha256": "c9907ed8fdb06b61b1cc0121a207ede49c648d21f869f28d53773ade021d8898",
+   "octets": 271,
+   "lignes": 1
+  },
+  "livrables/lot_2_2_effectifs/14_J6_article_additionnel.md": {
+   "sha256": "6a4e5ea8a9e7be12063f8d82e6fbfd4812aa96e8cb894cbf305630ae77c35e1c",
+   "octets": 9839,
+   "lignes": 93
+  },
+  "livrables/lot_2_2_effectifs/exposes/13_J6_article_63.md": {
+   "sha256": "ea7fc994f73ac71c8dc818c12055affbf16c6eb2c6724e0a206e98c43c9fe691",
+   "octets": 3655,
+   "lignes": 32
+  },
+  "livrables/lot_2_2_effectifs/exposes/14_J6_article_additionnel.md": {
+   "sha256": "f41f96c48074826c37d73156a7107f3303d1b07172eb9798bb4e48e2e359774a",
+   "octets": 3772,
+   "lignes": 32
+  },
+  "livrables/lot_2_3_subventions_associations.PERIME.md": {
+   "sha256": "92bb8f3f43410f4773307d7fa2c5f6a3c66e45496b22c39aa0c4980ed53ca966",
+   "octets": 402,
+   "lignes": 1
+  },
+  "livrables/lot_2_3_subventions_associations.md": {
+   "sha256": "34d5d3f9f268ad82404a3fc6683c9bc2ea781130695ce6bb089bd2ada1aaa7a4",
+   "octets": 20345,
+   "lignes": 293
+  },
+  "livrables/lot_4_3_aide_fondamentale_et_taux_unique.md": {
+   "sha256": "1f7d90d2c4dff1f368de14bc6a550fbca684b07091c818f434c9d2f6a1ccfb96",
+   "octets": 176,
+   "lignes": 1
+  },
   "livrables/manifeste_20260923.md": {
    "sha256": "a668a4fb26c1a6d69f94a7d9dbbe9bb34544e4196029ce2ba9769e09b588eb77",
    "octets": 7806,
@@ -725,6 +1368,11 @@
    "sha256": "2c5940c5928a53cb033f6fafb7db5d79fc8812f67d72afb53610f94c180d5d6d",
    "octets": 103312,
    "lignes": 1602
+  },
+  "livrables/piece_4_4_taxe_fonciere_unique.md": {
+   "sha256": "a40fbc0997cf84ce6fec4e6e8ce4c3cf9d6fb7a81da64195685c30308d51c511",
+   "octets": 38007,
+   "lignes": 286
   },
   "livrables/predigestion_cgi_20260929.md": {
    "sha256": "2dd2304bde00f5caa7fe397d9a0472f1f36634a72d4d3b8142948b71cd38676d",
@@ -750,6 +1398,21 @@
    "sha256": "2178a892648e7ec4fc7f2c3b7c2b7a1fb551b4760fa05061ef2ded61fefbb6fc",
    "octets": 95297,
    "lignes": 507
+  },
+  "livrables/registre_colonnes_depot_2027.md": {
+   "sha256": "33815e246869b68618d08f30ed337ec1e8d9249c30b5e8ba09e3e3170c9f7524",
+   "octets": 36006,
+   "lignes": 398
+  },
+  "livrables/registre_exceptions_dates.md": {
+   "sha256": "437056203a45c76a004d072c6dcbb2192448978279ab10f7dae0ee13a88d23fb",
+   "octets": 20515,
+   "lignes": 158
+  },
+  "livrables/registre_sources_gage.md": {
+   "sha256": "f48a2e8ceaca6150cd0e95554bcd433ce9081bd3e88701f5ea1700f519fef88e",
+   "octets": 30760,
+   "lignes": 405
   },
   "livrables/releve_epreuve_EP2.md": {
    "sha256": "8c5869ebf1c09cde1a3c6dd9b56ee8af1d9fb79940fedc61949361a4e0856c70",
@@ -806,20 +1469,30 @@
    "octets": 311829,
    "lignes": 7979
   },
+  "methode/COMMUN.md": {
+   "sha256": "19b7d159f9d791cfaf90f44ac7a6862a2b223563de89a0c36e2c8528e52c1bf4",
+   "octets": 6413,
+   "lignes": 92
+  },
   "methode/a_trancher.md": {
-   "sha256": "f3c11c51ff7f430cd6d497ae80e27da3798d41ee074c555c4283f672dbf60b16",
-   "octets": 31089,
-   "lignes": 475
+   "sha256": "cf0257468a9c05928fd5d5a59af7cedc69f4558c91df0ebeaf2c564c6e821fc1",
+   "octets": 32692,
+   "lignes": 496
+  },
+  "methode/analyse_constitutionnelle_collectivites_20261005.md": {
+   "sha256": "96ee62a92a8ae1f556b56577f1d8e65c6374aec6983ef0a6e1b691bb73acd216",
+   "octets": 18226,
+   "lignes": 110
   },
   "methode/appui_des_passes.md": {
-   "sha256": "7d7d974c93544490ca64507047f6c09a3acaea7f382a723e559bd91910ab32a6",
-   "octets": 5064,
-   "lignes": 78
+   "sha256": "2439435d8a972c3687cc80cbe7b61a82aad2e1943b46d7027b74917eb7594b80",
+   "octets": 16392,
+   "lignes": 238
   },
   "methode/arbitrages.md": {
-   "sha256": "5a82b9227a0fd68b93a296c3a57ca78c6fe95aa4c50f992a04c897ff329631a3",
-   "octets": 400951,
-   "lignes": 6761
+   "sha256": "2a26b60a5e418d440484cbbcd1a4e5983010461179f4861ade14290693df6889",
+   "octets": 470385,
+   "lignes": 8056
   },
   "methode/arbitrages_archive.md": {
    "sha256": "a757463a5c37f717a9f7361ba7574e960125c64840d975827080057d358da255",
@@ -851,6 +1524,11 @@
    "octets": 7299,
    "lignes": 153
   },
+  "methode/consignes_auteure_20261005.md": {
+   "sha256": "4049d225089727d0dd2e5257804e023c0fa403340ec2062eee885f7c61865c72",
+   "octets": 48983,
+   "lignes": 296
+  },
   "methode/contrat_chaine_amendement.md": {
    "sha256": "bd55d9902fbc97e42d9a89f5ab475ef7fb236d9e85ef88d3e4bf22a8f3f536bd",
    "octets": 24468,
@@ -860,6 +1538,21 @@
    "sha256": "bf16b1e65a2b9c18245df2e440f66855c7a29add5c9a939060afa0a551d1ae26",
    "octets": 15385,
    "lignes": 308
+  },
+  "methode/controle_avant_transmission.md": {
+   "sha256": "7805dd3aee8240c730d0e43cd061229d30829ad6703864b42d9a2f9c8815a862",
+   "octets": 4053,
+   "lignes": 82
+  },
+  "methode/cr_consolidation_20261007.md": {
+   "sha256": "9f79640d0a3ef0fd386dd7ba4cf7c4d778f9bd5bdf311c18b042e299f2163fe3",
+   "octets": 17497,
+   "lignes": 265
+  },
+  "methode/cr_fil_de_tete_20261007.md": {
+   "sha256": "10d5beda309aa075de7853bdcc6c6ded51e164eb42c2be9af6d19593e0a8c49c",
+   "octets": 6312,
+   "lignes": 108
   },
   "methode/cr_site_arret_mesure_20260923.md": {
    "sha256": "923597a1d897d5c5ce78e9ce1b93b0c7f69813d9fa5acdc797ff62cd992367e6",
@@ -885,6 +1578,366 @@
    "sha256": "feabf1b18d20166941dfe5d4373a4aaa64d54d2a83e8bcd2bd9ba5ad0aaadf18",
    "octets": 19469,
    "lignes": 325
+  },
+  "methode/etats/APP_anomalies_pieces.md": {
+   "sha256": "3b69c799097895b54ff1160385b61808344f49a67d7d693e2799358b41ce4ee6",
+   "octets": 26566,
+   "lignes": 230
+  },
+  "methode/etats/APP_anomalies_registres.md": {
+   "sha256": "9208bceb3e08c2fce3948eb92c4529cb8e26764e4d577d3c61152c0e4a21366e",
+   "octets": 16200,
+   "lignes": 209
+  },
+  "methode/etats/APP_arrets_immediats.md": {
+   "sha256": "55aea94a940b79d741d388139fa6cecf75074bb7c611eaa0ec16d036ced8f407",
+   "octets": 16210,
+   "lignes": 110
+  },
+  "methode/etats/APP_classeur_20261007.md": {
+   "sha256": "f516d9c6722662e92bf0fcc03d56dff549d186ae3a46a4fc401dd4076f36d788",
+   "octets": 17636,
+   "lignes": 274
+  },
+  "methode/etats/APP_collectivites.md": {
+   "sha256": "bd34c6b1002dd222cf1d2fd063a7e0a4daadaf7462359c81147144d48b96758d",
+   "octets": 14152,
+   "lignes": 76
+  },
+  "methode/etats/APP_compte_epargne.md": {
+   "sha256": "09c4f66feee2cdc776fa0a8cc49cbddd7d09df2dc247bb491b1d5dc71ff03033",
+   "octets": 9361,
+   "lignes": 101
+  },
+  "methode/etats/APP_divisions_en_clair_20261007.md": {
+   "sha256": "fb0716d9951c3fd3e7fbbc373c9b621af76ab516b64f85c292a387697acbd7d9",
+   "octets": 24062,
+   "lignes": 264
+  },
+  "methode/etats/APP_etatB.md": {
+   "sha256": "7612dfbf4819324ebab1e93c6e0c97ee3c43241b951e9ef34ae25aba1c0b5a88",
+   "octets": 19478,
+   "lignes": 159
+  },
+  "methode/etats/APP_fiscal.md": {
+   "sha256": "c1968e7bd811b8fceaefb5f7de280d98b50760487aa7b1a750b2fc7d6a8ec83a",
+   "octets": 24425,
+   "lignes": 165
+  },
+  "methode/etats/APP_social.md": {
+   "sha256": "a2c7355752213dd8d370a383089cbf6e14ab314b4cf20bb00e320d38320a3d25",
+   "octets": 9222,
+   "lignes": 63
+  },
+  "methode/etats/APP_taxe_fonciere_20261007.md": {
+   "sha256": "055d04a5e24ede95d8b9f48f475a8c0ec6ea427aaec3b13f5ba4bca98c298409",
+   "octets": 16738,
+   "lignes": 138
+  },
+  "methode/etats/CALENDRIER_20261007.md": {
+   "sha256": "ba2cd62c39ede93b06e65bf24b0e19bbb83f3c96422d69760ea1720ecf910441",
+   "octets": 71044,
+   "lignes": 819
+  },
+  "methode/etats/CLOTURE_gage_20261007.md": {
+   "sha256": "2ae5c7514c67746aba7ee104a95f296c478a176d75d1865a9c1865ad87f34e40",
+   "octets": 15805,
+   "lignes": 225
+  },
+  "methode/etats/CROISEMENTS_20261007.md": {
+   "sha256": "a4df004d08cfd5d4dd3feaeef75d4faf1154b6709872867047de74489972e885",
+   "octets": 45261,
+   "lignes": 603
+  },
+  "methode/etats/GAGE_taxes_affectees_20261007.md": {
+   "sha256": "07483b25e67e96edad85df72b5fb701d907108db939c895a38962f863cdfa37e",
+   "octets": 40859,
+   "lignes": 381
+  },
+  "methode/etats/INSCRIPTION_arbitrages_20261007.md": {
+   "sha256": "f216c5403789abe3ec46023c517f7c5d6977dcdefa527653455d96a5b40fb69d",
+   "octets": 42594,
+   "lignes": 444
+  },
+  "methode/etats/L1.md": {
+   "sha256": "fdd7a44e036766e90866af2143b36ed6020e694bea122a88d7597c5ac94e2ea1",
+   "octets": 4778,
+   "lignes": 79
+  },
+  "methode/etats/L10_L11.md": {
+   "sha256": "fb34388349862ceb3683480a59bb2171fdd960e16e7de6352b5b915801495612",
+   "octets": 10535,
+   "lignes": 161
+  },
+  "methode/etats/L12.md": {
+   "sha256": "e58d1184d5ddf6e5b4e202c7af76342615eabfb207f4e80ad4d590df62098c9c",
+   "octets": 3617,
+   "lignes": 67
+  },
+  "methode/etats/L13.md": {
+   "sha256": "d8e9f1558ecaf50365d6e23899a8283d0216cca8d28cf626ebe3dbc0542db3e6",
+   "octets": 5807,
+   "lignes": 93
+  },
+  "methode/etats/L14_L16_L18.md": {
+   "sha256": "8e7bd2a32d6f9a276b213865201be124e82e93f1cbca2529d341605c7ce91583",
+   "octets": 3991,
+   "lignes": 63
+  },
+  "methode/etats/L15_L17_L19.md": {
+   "sha256": "cf2076ff7d0db10b19930202dbecdcdd315e136224dc28ff8b086ebfc0f41e5c",
+   "octets": 7156,
+   "lignes": 108
+  },
+  "methode/etats/L2.md": {
+   "sha256": "a80bb6289135436f2b41a8637146c5f011a7d7369536f13f5c79730fb4a75b8d",
+   "octets": 5507,
+   "lignes": 102
+  },
+  "methode/etats/L3_L5.md": {
+   "sha256": "d81300fac8ceacb6b88b359a6c10a8a7ac28aa116bd463f948e29cb302d3b64b",
+   "octets": 5253,
+   "lignes": 80
+  },
+  "methode/etats/L6_L8.md": {
+   "sha256": "65cfdc70843e9bb7f81680f0bbff8e73c38e0e5bb2cc36d0cece97b34ca94846",
+   "octets": 4308,
+   "lignes": 71
+  },
+  "methode/etats/MESURE_taxes_affectees_20261007.md": {
+   "sha256": "2b1905b0b3fab09a4f6a53339dc04bbdbfba63c492031906c9420977d62b37da",
+   "octets": 26839,
+   "lignes": 340
+  },
+  "methode/etats/N1.md": {
+   "sha256": "258d3d562d872648be5326eedc97c32a8650d5b63690a0e9a3a37d4225fc9ad2",
+   "octets": 3764,
+   "lignes": 39
+  },
+  "methode/etats/N2.md": {
+   "sha256": "de963bae685d09d380a99957c7173f14b74d7914094ac6ec7a29ccb2a91cd114",
+   "octets": 2760,
+   "lignes": 28
+  },
+  "methode/etats/N3.md": {
+   "sha256": "492e61b7d7bec0625ff7064db1c813ce73ad4f3aa7abda415674149bd5b9a3b1",
+   "octets": 12960,
+   "lignes": 95
+  },
+  "methode/etats/N4.md": {
+   "sha256": "115790bc579568824516d9a074020f7b4fa7d4882ac33a6ab848fd36a3c304af",
+   "octets": 6328,
+   "lignes": 61
+  },
+  "methode/etats/N5.md": {
+   "sha256": "906aae51d24dec0721dfd6caf69cbfc77b870514dcfd8507b346e0755d79a283",
+   "octets": 3837,
+   "lignes": 44
+  },
+  "methode/etats/N6.md": {
+   "sha256": "97e2a53d3730dcff021d278e8a626c5d9b4165ad8dfbd28e72b9bff0421f1ba4",
+   "octets": 4787,
+   "lignes": 55
+  },
+  "methode/etats/N7a.md": {
+   "sha256": "8e7d5965dc8199820d54dcf4034df6614ae9256b6c37a0a69b8e6502cc8a44c0",
+   "octets": 4407,
+   "lignes": 44
+  },
+  "methode/etats/N7b.md": {
+   "sha256": "7acc338021c1308a0852d487e2cd43ada3cc68f8052eaf342b8a4aa259526b41",
+   "octets": 10130,
+   "lignes": 68
+  },
+  "methode/etats/NUIT_10_impression_trois_liasses_20261008.md": {
+   "sha256": "97111583b651fe416fdd7f4f2110ecc0d70b0e4d45f0106b44116f8971785104",
+   "octets": 12089,
+   "lignes": 190
+  },
+  "methode/etats/NUIT_1A_accroches_20261008.md": {
+   "sha256": "e88d3b337ea4c639b80eb53d385ae8811511734c179c9f47e3f201607ff5dc3b",
+   "octets": 25648,
+   "lignes": 203
+  },
+  "methode/etats/NUIT_1B_versement_20261008.md": {
+   "sha256": "a16f643a16dbb4848811b1e38fec193347b3226298dfd61d1d2fd055f3f9865d",
+   "octets": 18050,
+   "lignes": 251
+  },
+  "methode/etats/NUIT_1C_pieces_dues_20261008.md": {
+   "sha256": "4f48c63997541dfb2221cd522abfc5fc41c882515ccdc83ec326b13d8130be12",
+   "octets": 21731,
+   "lignes": 147
+  },
+  "methode/etats/NUIT_2_colonnes_20261008.md": {
+   "sha256": "befd84c92e0d60bbcb24f9a66da9e1bc9756b35cdd1e997cc1297447d404522a",
+   "octets": 48933,
+   "lignes": 412
+  },
+  "methode/etats/NUIT_2bis_versement_20261008.md": {
+   "sha256": "b1b19e254a55bab5d583b7e5cee515ece1b6e3638be28e03037fc19594fcf8ab",
+   "octets": 27754,
+   "lignes": 238
+  },
+  "methode/etats/NUIT_3A_exposes_20261008.md": {
+   "sha256": "897f5976a6736eabeb4643b7e461f4c1d1bd82d16c19ddb31a98b1d692da6161",
+   "octets": 151175,
+   "lignes": 1128
+  },
+  "methode/etats/NUIT_3B_controles_1_2_20261008.md": {
+   "sha256": "0488e90477e23a8fe10eb7ee40428ff5a31990e620bfb5aad90a90181b5a971d",
+   "octets": 38138,
+   "lignes": 323
+  },
+  "methode/etats/NUIT_3ter_corrections_20261008.md": {
+   "sha256": "6e0cec5f14efa83bd8dc25ee805c1eb89cf60b0c15b82a79d3becceece0007b9",
+   "octets": 39447,
+   "lignes": 334
+  },
+  "methode/etats/NUIT_4_rattachement_contestabilite_20261008.md": {
+   "sha256": "f10655cfebe1dd8a1995807623e35fd50ae2df3bd699ae0863f7c7f0c884ac34",
+   "octets": 59469,
+   "lignes": 309
+  },
+  "methode/etats/NUIT_5_6_liasse_20261008.md": {
+   "sha256": "11ec34a2e36219e0d4bce6b4b96e7287f950b45e7e484e4075d935d81516d1b0",
+   "octets": 20218,
+   "lignes": 261
+  },
+  "methode/etats/NUIT_7_exposes_appliques_20261008.md": {
+   "sha256": "f65b7253fae716f2a58104ec70398a97ca70f4c91e045d224c1269367ea9758b",
+   "octets": 31761,
+   "lignes": 248
+  },
+  "methode/etats/NUIT_8_impression_20261008.md": {
+   "sha256": "1b28811461431621dd53d352e94af9727306cff0f70a47e3e098fb9a694de3fa",
+   "octets": 18908,
+   "lignes": 191
+  },
+  "methode/etats/NUIT_9_tri_trois_liasses_20261008.md": {
+   "sha256": "757c759a4f1b30e730ce31287ceafa694f1f4a75ef91a9386e3d40cef38aedc7",
+   "octets": 37407,
+   "lignes": 341
+  },
+  "methode/etats/PLAFOND_30_20261008.md": {
+   "sha256": "11a132070ae80f8b1dd3fa8812c13555d593944a92b9977a1164cbeffbea37ff",
+   "octets": 24431,
+   "lignes": 210
+  },
+  "methode/etats/RECONCILIATION_impositions_maintenues.md": {
+   "sha256": "a2e13fbab973b19aff7d0c39e034ac2c74342c6dcc60f7dcd3f95582c4ba7029",
+   "octets": 23451,
+   "lignes": 357
+  },
+  "methode/etats/REPRISE_bilan_20261008.md": {
+   "sha256": "1095e4ec534335e33bf3f7f5f998506927b1df1bd81895e1170d69461514a1f7",
+   "octets": 13410,
+   "lignes": 175
+  },
+  "methode/etats/REPRISE_depenses_20261007.md": {
+   "sha256": "32fb037df6132ce3f463c2e8888b93bbaa4bd570c060f493a04cfec1f9b53ba0",
+   "octets": 20517,
+   "lignes": 295
+  },
+  "methode/etats/RETABLISSEMENT_taxes_affectees_20261007.md": {
+   "sha256": "65bf3961bf4edc73bc3ec6e41c49871e766b9ac71087db4d879e2fa58773936f",
+   "octets": 17793,
+   "lignes": 231
+  },
+  "methode/etats/S1.md": {
+   "sha256": "d149fc6def8ac1ffc385c185c0c2968224f0da79105d72f03a6299403fb34605",
+   "octets": 4745,
+   "lignes": 38
+  },
+  "methode/etats/S2.md": {
+   "sha256": "e9c5f566ac406e8b00a268f1642478b0868e712db3567c9cc6dfbb515bc11597",
+   "octets": 5162,
+   "lignes": 48
+  },
+  "methode/etats/S3.md": {
+   "sha256": "4d865ef3b8f8a3b1b518fa28aca8a304a666e55dc12f6e393076dc9ea01db10a",
+   "octets": 29822,
+   "lignes": 221
+  },
+  "methode/etats/T1.md": {
+   "sha256": "a1d9c361c4ae5610e32a1c91bf7eb28260973dd7352458ba1089b93ad9fb0044",
+   "octets": 4024,
+   "lignes": 45
+  },
+  "methode/etats/T2.md": {
+   "sha256": "22011d9937755a6d20d56b717f81df88d177692ee0bf48c27f553a1f52c42b60",
+   "octets": 11854,
+   "lignes": 111
+  },
+  "methode/etats/T3.md": {
+   "sha256": "ca4de60727c6b85cfe873063277e2b89f606695d6c6c224ebb448c11058a774f",
+   "octets": 33372,
+   "lignes": 290
+  },
+  "methode/etats/U1.md": {
+   "sha256": "b9f84ed1d1261b952b8c1464c443ce48c077f2c2050b8557d778c38f4d3253ef",
+   "octets": 12329,
+   "lignes": 74
+  },
+  "methode/etats/U3.md": {
+   "sha256": "0d2167806498e1519f804dae929605f266287dbdbf3dba654c46bc32f014b74a",
+   "octets": 8763,
+   "lignes": 66
+  },
+  "methode/etats/U4.md": {
+   "sha256": "1780388235caf89035a00b1729b1d01e8c886ce5dc6bbbb3e81e5c4edcb8cd7e",
+   "octets": 4451,
+   "lignes": 37
+  },
+  "methode/etats/U5.md": {
+   "sha256": "0d91d65cb9b3146b3efd226b3269ed47833e1f3899dc6243b10b39e4e55b4eb3",
+   "octets": 4292,
+   "lignes": 35
+  },
+  "methode/etats/U6.md": {
+   "sha256": "bb12f4ca10dc19266f0dc651dc3e9ba792770a0b7e22c6cf2815fc11f34d77cd",
+   "octets": 6168,
+   "lignes": 57
+  },
+  "methode/etats/U7.md": {
+   "sha256": "87d1b65b9f7e23d5c110326e6a901ba43d7870e4d3d74d895fc870e3472a3462",
+   "octets": 22181,
+   "lignes": 382
+  },
+  "methode/etats/V1.md": {
+   "sha256": "0978dbc3ab3eabbba7e664e80550235ce5cf561688519a161045ec7a8cf55318",
+   "octets": 13756,
+   "lignes": 95
+  },
+  "methode/etats/V2.md": {
+   "sha256": "f26d6ef82bd381888db7d956d8c7b140e8817342966c8a6d3aee616dbc5c04c4",
+   "octets": 10042,
+   "lignes": 77
+  },
+  "methode/etats/application_corrections_20261007.md": {
+   "sha256": "76c9dc598f44940fcd98f16f94e1cb148e41cdf92ee72f1ccd94343a95870e7b",
+   "octets": 24850,
+   "lignes": 363
+  },
+  "methode/etats/controle_extraction_p1_fiscale_20261007.md": {
+   "sha256": "541a7258539d7027b39966fcc02e6ee4c5fc5fc6a2268fe9bd3e6e6781135483",
+   "octets": 24514,
+   "lignes": 262
+  },
+  "methode/etats/cr_relecture_p1_fiscale_20261007.md": {
+   "sha256": "f8b7ea6ecad62fe74d0e3e0f3c07639e4205381414a5586362d217a2466aa08a",
+   "octets": 12174,
+   "lignes": 138
+  },
+  "methode/etats/file_attente.md": {
+   "sha256": "d43e1acf8bc2e32af685d0ea28e8183e91056b53cc15b6a4fce802ed3cd0e9a9",
+   "octets": 2768,
+   "lignes": 47
+  },
+  "methode/etats/mesure_paquet_20261007.md": {
+   "sha256": "577da9797afe71667a0cae861a1d1d227f7f7cd4d950b80d41fd558b29e67eca",
+   "octets": 3562,
+   "lignes": 57
   },
   "methode/feuille_de_route.md": {
    "sha256": "f532df669f9bcd08f920e0959346503a319ec99ea3c42381108639513e75c05d",
@@ -961,6 +2014,16 @@
    "octets": 3274,
    "lignes": 60
   },
+  "methode/fragments/arbitrages/20261005-reponses-audit-declinaison.md": {
+   "sha256": "1c71746a7069e2b1e5501f261495745b5471cb1cff0fd0cf06dddff687772897",
+   "octets": 15907,
+   "lignes": 118
+  },
+  "methode/fragments/arbitrages/20261005-revue-lot1-clause.md": {
+   "sha256": "8bf4619c9e29a4893428e98df6771d770b4c8f9e1c7364e24ab8e3d4f47ed723",
+   "octets": 5585,
+   "lignes": 85
+  },
   "methode/fragments/arbitrages/20261006-digestion-complements-guide.md": {
    "sha256": "8752f6dfa45e9f02462aa0305cc61e8962cc690a911632943b73ad3f95853037",
    "octets": 2453,
@@ -970,6 +2033,11 @@
    "sha256": "e94d0690b51985a371eb3bc42c3a7a4befdab04a33d2de2183d5e60b05716782",
    "octets": 2017,
    "lignes": 36
+  },
+  "methode/fragments/arbitrages/20261006-digestion-regles-credits.md": {
+   "sha256": "3b4fc78c82919b957e7127e6a966ea0a1d5d893842d75f4ae1814885fe6bb6aa",
+   "octets": 3765,
+   "lignes": 63
   },
   "methode/fragments/arbitrages/20261006-digestion-sections-budgetaires.md": {
    "sha256": "39fc4992373f183b0a71d97b2050e3df94a70e673afadbd322279ab5b2fad26d",
@@ -987,9 +2055,9 @@
    "lignes": 65
   },
   "methode/fragments/arbitrages/20261007-geste2-restauration.md": {
-   "sha256": "63e9545b499ce5af3b09898f1597073dee40c85cccc59bafc152aff94ad7f195",
-   "octets": 3621,
-   "lignes": 60
+   "sha256": "5c9efa6f09f458c6a944611d2f23d4a29c0b61f05a22b86557edb2d689e4501c",
+   "octets": 4447,
+   "lignes": 70
   },
   "methode/fragments/journal/20260917-socle.md": {
    "sha256": "9bdb3bd3f06af0d5ee6ea004164a11d5db949b0e98ab080dab4c5850228f80d4",
@@ -1041,15 +2109,25 @@
    "octets": 2928,
    "lignes": 47
   },
+  "methode/fragments/journal/20261007-integration-reprise.md": {
+   "sha256": "1ce653b82451b6f5f22c5dd36771841569e00670e5da0dc1ab23aadb01797cdc",
+   "octets": 4272,
+   "lignes": 61
+  },
+  "methode/gestion_depot_projet.md": {
+   "sha256": "5f6dd6cee40a6f2b748f2f3b04f3176330c010cf8ddfb131b6b594264791d70e",
+   "octets": 3529,
+   "lignes": 55
+  },
   "methode/grille_lecture_budgetaire.md": {
    "sha256": "85b3a8dbd079ff161c70c1da943b5dd0328b3970dd7137cd8263269edd0bd620",
    "octets": 38811,
    "lignes": 675
   },
   "methode/index.json": {
-   "sha256": "989ef6e25a7ff27c70e09e797c91e12855ad5331be25e303e4a2400dc170db25",
-   "octets": 165315,
-   "lignes": 6400
+   "sha256": "e39f028e3cf0a3880303f07e57cffe4302c84ee7e62d028636b821a167182201",
+   "octets": 263785,
+   "lignes": 10124
   },
   "methode/journal.md": {
    "sha256": "f9007b46da4eabeddd3cfd4833b02bec5c573282a1aaaf77a6d5cbdc8da44ca4",
@@ -1066,35 +2144,85 @@
    "octets": 4605,
    "lignes": 119
   },
+  "methode/mode_de_production.md": {
+   "sha256": "43cd9fc5a2ac6550b2a95774f7b27bdf19040834da0630f1155ec17c6bbb99cd",
+   "octets": 10851,
+   "lignes": 236
+  },
+  "methode/objectifs_depot_2027.md": {
+   "sha256": "07efb57253119bb145ca6779e7943698b071be05d826f5fd2ab5c1354267c945",
+   "octets": 14151,
+   "lignes": 205
+  },
+  "methode/ordre_des_fils.md": {
+   "sha256": "a5484d1baca9ba129132d2ec54ab49595cadbe194d111fbb01fc902883492f3e",
+   "octets": 13676,
+   "lignes": 208
+  },
   "methode/paquet_depot_socle_20260917.md": {
    "sha256": "22d07366d052c51e0fe00207ae137d52c0407f397dcad5b00938b4c4ad2091e2",
    "octets": 3899,
    "lignes": 71
+  },
+  "methode/passation_20261005.md": {
+   "sha256": "75687c24ccc49a6b1845c88d93721e2fe23b8845ff2c66dba2a9403983cda522",
+   "octets": 5477,
+   "lignes": 84
+  },
+  "methode/passation_20261007.md": {
+   "sha256": "d308625418b7aa8d11c7699e42cb1bcc56b8389fb48009951d360b037820a56f",
+   "octets": 31393,
+   "lignes": 452
+  },
+  "methode/passation_20261008.md": {
+   "sha256": "13e65a0a6f27dd37b20b4eae1b4c1e55fbb59252386797222ea7246984018cdd",
+   "octets": 13199,
+   "lignes": 192
   },
   "methode/passation_lecture_en_creux.md": {
    "sha256": "0a563ce8db3b45ee4d1c7e7df4789c3b7d4e2b57cc09f94a9b05ea70fa3a22e1",
    "octets": 23276,
    "lignes": 404
   },
+  "methode/passation_relecture_export_20261008.md": {
+   "sha256": "5ab3050c52c9b85487d69bbd2b5ce6d465e682231c28ce93c61078b3c68b7c85",
+   "octets": 10724,
+   "lignes": 93
+  },
   "methode/passation_site.md": {
    "sha256": "a87c8020c0b9a1abd0ed20f60617c7453d2943d8c06b82dc1788e316dc494d73",
    "octets": 4945,
    "lignes": 109
+  },
+  "methode/pingpong_depot_2027_20261005.md": {
+   "sha256": "c34a3997c601ddce254b1906e64f3a98ea39bcee9ea2e2c7549a28667473d951",
+   "octets": 20218,
+   "lignes": 254
   },
   "methode/plan_bataille.md": {
    "sha256": "77dda18f0395d4e574ae5f69c3ca115a53f6049c2ee26c174912d9a727c249de",
    "octets": 9188,
    "lignes": 168
   },
+  "methode/plan_liasse_2027_20261005.md": {
+   "sha256": "f9617a35354af6b2cef55d18165127e17b8a2b91289e3dee80fb18a35940ba45",
+   "octets": 3887,
+   "lignes": 41
+  },
   "methode/plan_sept_phases_20260930.md": {
    "sha256": "52b876bcd54f38ed398671572ee5e5632effc6693d5a0636822d6b7ec84088ab",
    "octets": 6200,
    "lignes": 71
   },
+  "methode/premier_versement_propose.tsv": {
+   "sha256": "9130ab62fc0de37c5f50bc6adfcfa72184953c47eacd98f12aa53f0aceed842b",
+   "octets": 17616,
+   "lignes": 291
+  },
   "methode/procedure_contre_plf.md": {
-   "sha256": "ea50c15f3110b41439c1670e87e1214342148515d34bba54eb9b09d3d507b747",
-   "octets": 18044,
-   "lignes": 360
+   "sha256": "e3d3a3a6e1fdaafae0dd16fd2f9bf758d33e83bfea26db3e0616f5b001a21f9b",
+   "octets": 17866,
+   "lignes": 356
   },
   "methode/procedure_controle.md": {
    "sha256": "d88fa34b7385fc27612e5d040fd379b5311c29e242cf8ca3cd6e0251793e59aa",
@@ -1102,9 +2230,14 @@
    "lignes": 266
   },
   "methode/procedure_fin_de_chantier_depot_2027.md": {
-   "sha256": "144116a271683c535c52c162bc1454cc4696e5b0dcf6e35b5b881d95bc1c1047",
-   "octets": 17382,
-   "lignes": 296
+   "sha256": "4d009e3cee927fcf72a43fdbf03e2f5d51258dc2f3c5d29bad7da66912816f8b",
+   "octets": 23666,
+   "lignes": 387
+  },
+  "methode/procedure_nuit_20261008.md": {
+   "sha256": "736cf6ced6c63f11ed163c3b3aa049a41954d18ae3cfd5ebd654650d9be0c477",
+   "octets": 7908,
+   "lignes": 145
   },
   "methode/procedure_vecteurs.md": {
    "sha256": "517512b640e72606c6af9a101e346773e933d604238459b22ba5dc7d25bd521d",
@@ -1156,6 +2289,11 @@
    "octets": 2765,
    "lignes": 51
   },
+  "methode/registre_exposes_depot_2027.md": {
+   "sha256": "bc3c60ae3cb08689a170281a7f682ac0f4653d9384f0e29c10805b75c68dbdf5",
+   "octets": 49598,
+   "lignes": 371
+  },
   "methode/regle_enonces_eval.md": {
    "sha256": "3c706d1af3876f0e5a6440c79b940c58984288c12e750cee4fc8fe8e09132ef5",
    "octets": 3411,
@@ -1167,9 +2305,19 @@
    "lignes": 361
   },
   "methode/regles_redactionnelles.md": {
-   "sha256": "3c7ea1d94ddfa9f643260deb2e509dcef3331f782512fc3d5c918e206eb868e3",
-   "octets": 14904,
-   "lignes": 194
+   "sha256": "66e597764b5b85460b0d7127dece6b51f1bd6d3f41f66e71dd8ad916d7ed9532",
+   "octets": 17192,
+   "lignes": 228
+  },
+  "methode/reprise_20261007.md": {
+   "sha256": "52d5737dd911df60def2a82250c86001e99adce9f5767a1f00852d8c4ffdb37e",
+   "octets": 7599,
+   "lignes": 117
+  },
+  "methode/revue_dispositifs_20261005.md": {
+   "sha256": "9f6e90c2ec45677b971cbf11134b9dd073c2e51983725bf8a8b7bbca865b0ad4",
+   "octets": 49171,
+   "lignes": 288
   },
   "methode/sas.md": {
    "sha256": "ba109b56b6d99cb59ddd0662ca13aab4285b16cbed1ab1fea8c38e778148ff25",
@@ -1181,10 +2329,90 @@
    "octets": 6749,
    "lignes": 126
   },
+  "methode/suivi_depenses_20261007.md": {
+   "sha256": "8f7e8fffe42ab9a025eca0c8ac1e871745eeb6f2861980cdea3ef5ea04f30c48",
+   "octets": 12366,
+   "lignes": 226
+  },
   "methode/test_rattachement.md": {
    "sha256": "6deaba131394c0be14362fa74405fb07f9532cc6ee8220710f71943ea1110d1b",
    "octets": 12811,
    "lignes": 261
+  },
+  "paquet/machine_v1_2_a3/LISEZ-MOI.md": {
+   "sha256": "a7d007199f4a165f960857b927649c4fceae1146ce2af86b3e42033b9787d062",
+   "octets": 17468,
+   "lignes": 297
+  },
+  "paquet/machine_v1_2_a3/appareil/controle_sortie.py": {
+   "sha256": "745300312abe79ce345e64f78f6365088b538c33940fcea7b48abe640ec60c82",
+   "octets": 10448,
+   "lignes": 234
+  },
+  "paquet/machine_v1_2_a3/appareil/installer_droit.py": {
+   "sha256": "0fecc20ec4ca01a12293008439fcab2878902b09fae5a7f25cb827616e3c88fc",
+   "octets": 14358,
+   "lignes": 336
+  },
+  "paquet/machine_v1_2_a3/appareil/portes_ouvertes.py": {
+   "sha256": "f53a5a5921c5c766d551fad4a35efc0000fec1dc465374051baa16aff12a47de",
+   "octets": 8018,
+   "lignes": 163
+  },
+  "paquet/machine_v1_2_a3/motifs_locaux_atelier.txt": {
+   "sha256": "70cfd9a44acc66c21fb709ed6eb5f3fa032e3404ff221723ba2b69d78649b9fa",
+   "octets": 307,
+   "lignes": 14
+  },
+  "paquet/machine_v1_2_a3/procedures/contrat_chaine_amendement.md": {
+   "sha256": "5ad80d3d624e762d765d71e9945eb739ea23a244ca5202359060c37456476d0a",
+   "octets": 24459,
+   "lignes": 476
+  },
+  "paquet/machine_v1_2_a3/procedures/domaine_lfss_LO111-3.md": {
+   "sha256": "17585159a4d491a62f7cdf1bf877005d420c646cb62f262643142026942666bc",
+   "octets": 5061,
+   "lignes": 53
+  },
+  "paquet/machine_v1_2_a3/procedures/gabarit_expose_sommaire.md": {
+   "sha256": "21a2a6e98b9e91caa9e6b5365bde8139af940aa33072c8a71af717a44624cfd4",
+   "octets": 7785,
+   "lignes": 165
+  },
+  "paquet/machine_v1_2_a3/procedures/gabarit_liste_articles.md": {
+   "sha256": "9af348ba4f0e3a1ac3f46f7b47567ec5b99d9683e34f1876fbc51c3071590c0d",
+   "octets": 9155,
+   "lignes": 177
+  },
+  "paquet/machine_v1_2_a3/procedures/passation_droit_renvois.md": {
+   "sha256": "a4c5070f89e64b1f57f0f50eb6d78e449dce6e85a1c0ee72ac3a03cac6f03ea8",
+   "octets": 2988,
+   "lignes": 63
+  },
+  "paquet/machine_v1_2_a3/procedures/procedure_vecteurs.md": {
+   "sha256": "e6b4352460d5c291b98ed3701f8170cb1fb795c2bb1166c5e0089313551633cf",
+   "octets": 12162,
+   "lignes": 253
+  },
+  "paquet/machine_v1_2_a3/procedures/structure_ppl.md": {
+   "sha256": "514483c5b2013301b5baac3dc9fe1b81b0a272c158d6d9347a66ecf2cbf0ab41",
+   "octets": 12771,
+   "lignes": 235
+  },
+  "paquet/machine_v1_2_a3/procedures/test_rattachement.md": {
+   "sha256": "3958ff4420857f4a9e78f6e1eaab1722e5d080b4c3bffffee1972bc42f7705ec",
+   "octets": 12778,
+   "lignes": 261
+  },
+  "paquet/machine_v1_3/motifs_locaux_atelier.txt": {
+   "sha256": "770495611e5e546a92793b6192584fd28968492c48feac92ccd6c1d0626fa088",
+   "octets": 546,
+   "lignes": 20
+  },
+  "paquet/machine_v1_4/MANIFESTE.md": {
+   "sha256": "8be7607331be6e5401ca4f636884055fd2ae0f4e8144f89f4dd73d7ecb778873",
+   "octets": 5322,
+   "lignes": 88
   },
   "reference/Constitution_3col_20260916_v46.html": {
    "sha256": "80de491474511d123e3e87811f65315834b457ee8f735ba0722e5a6f6f73caed",

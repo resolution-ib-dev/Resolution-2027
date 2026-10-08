@@ -45,6 +45,15 @@ arbitrage au lieu de le lire.
 > mécanisme appliquée en amont : on ne part pas de la liste, on part du delta.**
 > Coût de la mesure : une commande et une confrontation de trois listes.
 
+> **Un cinquième mécanisme, ajouté le 20261001 : recopier une borne au lieu de la
+> vérifier.** `methode/prompt_fil_lecture_textes_2027.md`, `methode/plan_bataille.md`
+> et la dernière section de ce fichier ont porté, pendant un mois, un plafond de
+> verdict motivé par une grille des portes « non relevée » — **relevée depuis le
+> 20260902**, arbitrage A-336. Trois fils du 20261001 l'ont recopiée, et l'un a
+> rendu une ligne de mandat demandant de produire cette grille. **La contre-mesure
+> est écrite au prompt et à la procédure : une borne ne se recopie pas, elle se
+> vérifie au registre avant d'être redite.**
+
 1. **Où vit un arbitrage tranché, et à quel moment il est relu.** Trois endroits
    aujourd'hui — instructions permanentes, documents du projet, mémoire
    transversale — et celui qui a failli est celui qui n'était pas relu au moment
@@ -448,7 +457,9 @@ peut pas pousser (A-393). Elles attendent une session claude.ai/code.
 une dette d'écriture mais une perte : ils se réécrivent ou se retrouvent, et
 leur sortie versée fait spécification. Constat rejoué mécaniquement le 20260917
 par `restaurer.py`, qui compte 93 artefacts de voie `depot`, 88 présents au
-clone, 5 absents.
+clone, 5 absents. *Mesure du 20261001 : `plier_paquet.py` et
+`controle_projection.py` **sont au clone** — le constat est périmé sur ce point ;
+la dette de voie `depot` est mesurée nulle au `4e6e1a4`.*
 
 **~~Quatre documents sont au coffre et absents de l'index.~~ Il y en avait
 quarante-cinq, et ils sont portés** *(20260917, second cercle du socle)*. La
@@ -465,8 +476,18 @@ due au dépôt tant qu'un fil claude.ai/code ne l'a pas poussée.*
 *Du CR machine d'amendement, § 6 — ils ne sont pas des arbitrages mais des
 travaux dus.*
 
-- la grille des portes du domaine des lois de financement n'est pas relevée :
-  tout verdict de loi de financement plafonne à `plaidable` ;
+- ~~la grille des portes du domaine des lois de financement n'est pas relevée :
+  tout verdict de loi de financement plafonne à `plaidable`~~ — **clos le
+  20260902 par A-336** : 31 portes, 0 échec, relevées en verbatim au dépôt de
+  droit, `appareil/portes_domaine_lfss.py` et
+  `reference/domaine_lfss_LO111-3.md`. *Ce fichier a porté le chantier comme
+  ouvert pendant un mois après sa clôture, et trois fils du 20261001 l'ont
+  recopié. Le plafond `plaidable` tient, mais par l'arbitrage n° 3 de
+  `methode/procedure_contre_plf.md` — le rattachement se plaide, il ne s'établit
+  pas par une porte.* **Ce qui reste, et qui est d'un autre ordre : `LO 111-4` et
+  `LO 111-4-1`, les annexes obligatoires, ne sont pas relevés ; le croisement
+  avec la grille LOLF n'est pas fait, alors que trois portes Sécu renvoient au
+  III de l'article 2 de la LOLF ; et le relevé se périme le 17 octobre 2026.**
 - le dossier de mesure n'est pas le livrable de la chaîne, donc les treize
   contrôles du contrat ne se jouent sur rien ;
 - neuf des treize contrôles ne sont pas outillés ;

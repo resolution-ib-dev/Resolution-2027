@@ -41,6 +41,13 @@ relevé. Trois règles en découlent, et elles ont chacune coûté :
 - **avant de déclarer une pièce manquante**, lire les pièces jointes du projet et
   éprouver le dépôt de droit pour un texte de loi.
 
+**Un sixième, inscrit le 20261001** : **une borne écrite à un document de méthode
+ne se recopie pas — elle se vérifie à `methode/arbitrages.md` et au registre avant
+d'être redite.** Un document de méthode est une pièce datée ; le registre, non.
+Une borne fausse depuis un mois — « la grille des portes des lois de financement
+n'est pas relevée », close par A-336 le 20260902 — a traversé quatre documents et
+trois fils, dont un mandat qui demandait de relever une grille déjà relevée.
+
 Quand l'auteur relève une erreur, elle se traite **avant** toute autre chose.
 Produire du neuf ne répare rien, cela recouvre.
 
@@ -294,10 +301,26 @@ signalée ; elle ne se déplie pas.
 **Le domaine du PLFSS n'est pas à `LO 111-3`** (A-297). Cet article ne définit
 plus que les trois espèces de lois de financement depuis la loi organique
 n° 2022-354. La porte d'un amendement est aux **`LO 111-3-6` à `-3-8`**, les
-monopoles aux `-3-14` à `-3-16`. Le relevé des dix-huit est au coffre,
-`sources/domaine_lfss_LO111-3.md`. **Un texte de loi ne se demande plus à
-l'auteur** : le dépôt de droit rend le verbatim de vingt codes et lève sur un
-article absent plutôt que d'approcher.
+monopoles aux `-3-14` à `-3-16`.
+
+**La grille est relevée depuis le 20260902** (A-336) : **31 portes, 0 échec**, en
+verbatim au dépôt de droit, millésime LEGI 20260901, chaque porte avec son
+identifiant `LEGIARTI`. Portée par `appareil/portes_domaine_lfss.py`, documentée à
+**`reference/domaine_lfss_LO111-3.md`** *(et non `sources/` : chemin mort corrigé
+le 20261001)*. **Aucun fil ne la relève à nouveau — elle existe.** Trois réserves
+l'accompagnent : `LO 111-4` et `LO 111-4-1`, les annexes obligatoires, ne sont pas
+relevés ; le croisement avec la grille LOLF n'est pas fait, alors que trois portes
+Sécu renvoient au III de l'article 2 de la LOLF ; et le relevé **se périme le
+17 octobre 2026**, après quoi il se rafraîchit par `droit.py` avant emploi.
+
+**Ce n'est pas la grille qui plafonne les verdicts de loi de financement à
+`plaidable`**, mais l'arbitrage n° 3 de `methode/procedure_contre_plf.md` : le
+rattachement se plaide par l'implicite budgétaire et le contrefactuel, non par une
+porte du domaine. La grille dit ce qui est acquis sans plaidoirie, pas ce qu'on
+tente.
+
+**Un texte de loi ne se demande plus à l'auteur** : le dépôt de droit rend le
+verbatim de vingt codes et lève sur un article absent plutôt que d'approcher.
 
 **Les deux pièces n'entrent que par pièce jointe** (A-234) et ne vont pas au
 coffre (A-235) : elles se déposent sous `sources/plf/` et `sources/plfss/`, et
@@ -305,6 +328,10 @@ les règles de `make` sont conditionnelles à leur présence. Ne se versent pas 
 plus les deux socles ni les deux JSON d'ouverts, qui se régénèrent à l'octet
 (A-71). **Les deux tables plates, si** : ce sont les seules formes de cette
 matière qui se lisent sans outil (A-16, A-286).
+
+**Un PDF ne se verse pas au coffre** : les documents du projet ne stockent que du
+texte, et un PDF porte des octets nuls. Un livrable PDF se rend à l'auteure et se
+régénère depuis son markdown par le script qui l'a produit.
 
 **La mise en ligne ne se fait pas depuis l'atelier** : Vercel y est injoignable
 (A-196). Elle passe par un dépôt de publication relié à Vercel, qui ne reçoit
@@ -398,6 +425,8 @@ manuscrit. C'est le régime transitoire, non la cible.
 - Typographie française : espace insécable devant `; : ! ?` et les guillemets
   fermants, apostrophes typographiques, pas de virgule devant une conjonction de
   coordination.
+- **Un séparateur de milliers est une seule espace suivie de trois chiffres.** Il
+  se vérifie sur le texte extrait d'un PDF, jamais à l'œil sur une capture.
 
 ---
 
@@ -433,6 +462,9 @@ le qualitatif. **Ni l'identifiant ni l'alphabet ne commandent quoi que ce soit.*
 - Vérifier sur un cas ciblé avant de généraliser.
 - Commit à chaque unité de travail close, jamais en cours de route.
 - **Un fil n'est pas un lieu de stockage.** Ce qui doit survivre passe au projet.
+- **Avant d'écrire une grammaire de relevé, lire celle du fil jumeau.** Deux fils
+  sur deux véhicules du même millésime ont produit deux grammaires divergentes le
+  20261001 ; la reprise a fait tomber l'index de 314 mesures à 251.
 
 ---
 
@@ -452,3 +484,6 @@ le qualitatif. **Ni l'identifiant ni l'alphabet ne commandent quoi que ce soit.*
   fiche « ce qui s'arrête » les porterait ; non tranché.
 - La charte graphique définitive appelle la couverture du livre, absente du
   projet.
+- **`referentiels/socle_plfss_texte.json` n'existe pas.** Les quatre pièces de
+  lecture du PLFSS 2027 sont versées, mais la qualification et l'appariement se
+  jouent sur le socle, pas sur elles. `REF_norme` ne porte rien côté PLFSS.

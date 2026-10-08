@@ -1,0 +1,1 @@
+**PÉRIMÉ le 20261008** — la pièce de `livrables/liasse_arrets_immediats/04_M024_soins_jambe_lfss.md` est versée au paquet sous `livrables/depot_2027/SS/arrets_04_m024_prolongation_droits_soins.md`, rang **SS-05** ; le fichier d'origine est conservé inchangé et ne se dépose plus.

@@ -5318,6 +5318,3726 @@
    "famille": "grilles"
   },
   {
+   "role": "manifeste_paquet_20261008",
+   "chemin": "MANIFESTE.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "MANIFESTE.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "controle_adresses_extraction_gen",
+   "chemin": "appareil/controle_adresses_extraction.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_adresses_extraction.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "controle_adresses_verdicts_gen",
+   "chemin": "appareil/controle_adresses_verdicts.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_adresses_verdicts.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "scinder_liasse_trois_colonnes_gen",
+   "chemin": "appareil/scinder_liasse_trois_colonnes.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/scinder_liasse_trois_colonnes.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "versement_gen",
+   "chemin": "appareil/versement.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "fil code"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/versement.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "clause_generale_niches_20261004",
+   "chemin": "livrables/clause_generale_niches_20261004.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/clause_generale_niches_20261004.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:liasse_20261008",
+   "chemin": "livrables/depot_2027/LIASSE_20261008.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/LIASSE_20261008.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:liasse_p1_20261008",
+   "chemin": "livrables/depot_2027/LIASSE_P1_20261008.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/LIASSE_P1_20261008.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:liasse_p2_20261008",
+   "chemin": "livrables/depot_2027/LIASSE_P2_20261008.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/LIASSE_P2_20261008.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:liasse_plfss_20261008",
+   "chemin": "livrables/depot_2027/LIASSE_PLFSS_20261008.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/LIASSE_PLFSS_20261008.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:lisez_moi_20261008",
+   "chemin": "livrables/depot_2027/LISEZ-MOI_20261008.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/LISEZ-MOI_20261008.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:2_4_armateurs_tonnage",
+   "chemin": "livrables/depot_2027/P1/2_4_armateurs_tonnage.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/2_4_armateurs_tonnage.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:2_4_credit_impot_famille",
+   "chemin": "livrables/depot_2027/P1/2_4_credit_impot_famille.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/2_4_credit_impot_famille.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:2_4_credit_impot_recherche",
+   "chemin": "livrables/depot_2027/P1/2_4_credit_impot_recherche.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/2_4_credit_impot_recherche.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:2_4_deductions_exceptionnelles",
+   "chemin": "livrables/depot_2027/P1/2_4_deductions_exceptionnelles.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/2_4_deductions_exceptionnelles.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:2_4_exonerations_par_zone",
+   "chemin": "livrables/depot_2027/P1/2_4_exonerations_par_zone.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/2_4_exonerations_par_zone.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:2_4_sortie_agricole_trois_ans",
+   "chemin": "livrables/depot_2027/P1/2_4_sortie_agricole_trois_ans.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/2_4_sortie_agricole_trois_ans.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:2_4_tarifs_reduits_accise",
+   "chemin": "livrables/depot_2027/P1/2_4_tarifs_reduits_accise.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/2_4_tarifs_reduits_accise.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_2_refonte_taxes_a_taxes_etat",
+   "chemin": "livrables/depot_2027/P1/4_2_refonte_taxes_A_taxes_etat.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_2_refonte_taxes_A_taxes_etat.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_2_refonte_taxes_b_taxes_affectees",
+   "chemin": "livrables/depot_2027/P1/4_2_refonte_taxes_B_taxes_affectees.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_2_refonte_taxes_B_taxes_affectees.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_2_refonte_taxes_c_dmto_franchise",
+   "chemin": "livrables/depot_2027/P1/4_2_refonte_taxes_C_dmto_franchise.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_2_refonte_taxes_C_dmto_franchise.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_2_refonte_taxes_d_plus_values",
+   "chemin": "livrables/depot_2027/P1/4_2_refonte_taxes_D_plus_values.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_2_refonte_taxes_D_plus_values.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_3_aide_fondamentale_et_taux_unique",
+   "chemin": "livrables/depot_2027/P1/4_3_aide_fondamentale_et_taux_unique.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_3_aide_fondamentale_et_taux_unique.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_4_taxe_fonciere_unique",
+   "chemin": "livrables/depot_2027/P1/4_4_taxe_fonciere_unique.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_4_taxe_fonciere_unique.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_5_solde_refonte_is_tf",
+   "chemin": "livrables/depot_2027/P1/4_5_solde_refonte_is_tf.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_5_solde_refonte_is_tf.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_6_tva_taux_reduits",
+   "chemin": "livrables/depot_2027/P1/4_6_tva_taux_reduits.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_6_tva_taux_reduits.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:4_7_abrogations_cgi",
+   "chemin": "livrables/depot_2027/P1/4_7_abrogations_cgi.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/4_7_abrogations_cgi.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:coll_p1_01_dotations_face_aux_reductions_de_champ",
+   "chemin": "livrables/depot_2027/P1/coll_P1_01_dotations_face_aux_reductions_de_champ.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/coll_P1_01_dotations_face_aux_reductions_de_champ.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:coll_p1_02_fusion_dotation_forfaitaire_taxe_fonciere",
+   "chemin": "livrables/depot_2027/P1/coll_P1_02_fusion_dotation_forfaitaire_taxe_fonciere.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/coll_P1_02_fusion_dotation_forfaitaire_taxe_fonciere.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:coll_p1_03_tva_sur_justification",
+   "chemin": "livrables/depot_2027/P1/coll_P1_03_tva_sur_justification.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/coll_P1_03_tva_sur_justification.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:n5_compte_epargne_personnel",
+   "chemin": "livrables/depot_2027/P1/n5_compte_epargne_personnel.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/n5_compte_epargne_personnel.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_01_rendre_le_don",
+   "chemin": "livrables/depot_2027/P1/nuitp1_01_rendre_le_don.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_01_rendre_le_don.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_04_pret_taux_zero",
+   "chemin": "livrables/depot_2027/P1/nuitp1_04_pret_taux_zero.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_04_pret_taux_zero.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_05_investissement_industriel",
+   "chemin": "livrables/depot_2027/P1/nuitp1_05_investissement_industriel.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_05_investissement_industriel.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_06_cession_reprise_entreprise",
+   "chemin": "livrables/depot_2027/P1/nuitp1_06_cession_reprise_entreprise.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_06_cession_reprise_entreprise.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_07_credit_impot_competitivite",
+   "chemin": "livrables/depot_2027/P1/nuitp1_07_credit_impot_competitivite.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_07_credit_impot_competitivite.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_08_avantages_culturels",
+   "chemin": "livrables/depot_2027/P1/nuitp1_08_avantages_culturels.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_08_avantages_culturels.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_09_impot_agricole",
+   "chemin": "livrables/depot_2027/P1/nuitp1_09_impot_agricole.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_09_impot_agricole.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_10_impot_selon_adresse",
+   "chemin": "livrables/depot_2027/P1/nuitp1_10_impot_selon_adresse.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_10_impot_selon_adresse.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_11_abroger_mises_a_jour",
+   "chemin": "livrables/depot_2027/P1/nuitp1_11_abroger_mises_a_jour.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_11_abroger_mises_a_jour.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p1:nuitp1_12_affectation_article_42",
+   "chemin": "livrables/depot_2027/P1/nuitp1_12_affectation_article_42.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P1/nuitp1_12_affectation_article_42.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:2_1_dissolution_structures_facultatives",
+   "chemin": "livrables/depot_2027/P2/2_1_dissolution_structures_facultatives.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/2_1_dissolution_structures_facultatives.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:2_1_etablissements_ressources_propres",
+   "chemin": "livrables/depot_2027/P2/2_1_etablissements_ressources_propres.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/2_1_etablissements_ressources_propres.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:2_1_missions_rendues_aux_ministeres",
+   "chemin": "livrables/depot_2027/P2/2_1_missions_rendues_aux_ministeres.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/2_1_missions_rendues_aux_ministeres.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:2_2_indemnite_depart_agents",
+   "chemin": "livrables/depot_2027/P2/2_2_indemnite_depart_agents.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/2_2_indemnite_depart_agents.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:2_6_cheque_energie",
+   "chemin": "livrables/depot_2027/P2/2_6_cheque_energie.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/2_6_cheque_energie.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:2_6_extinction_aide_logement",
+   "chemin": "livrables/depot_2027/P2/2_6_extinction_aide_logement.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/2_6_extinction_aide_logement.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:2_6_socle_hebergement_urgence",
+   "chemin": "livrables/depot_2027/P2/2_6_socle_hebergement_urgence.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/2_6_socle_hebergement_urgence.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:coll_p2_01_abrogation_concours_discretionnaires",
+   "chemin": "livrables/depot_2027/P2/coll_P2_01_abrogation_concours_discretionnaires.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/coll_P2_01_abrogation_concours_discretionnaires.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:coll_p2_02_credits_etat_b",
+   "chemin": "livrables/depot_2027/P2/coll_P2_02_credits_etat_B.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/coll_P2_02_credits_etat_B.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:coll_p2_03_suppression_articles_85_86_87",
+   "chemin": "livrables/depot_2027/P2/coll_P2_03_suppression_articles_85_86_87.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/coll_P2_03_suppression_articles_85_86_87.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:coll_p2_04_facultes_et_obligations_de_baisse",
+   "chemin": "livrables/depot_2027/P2/coll_P2_04_facultes_et_obligations_de_baisse.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/coll_P2_04_facultes_et_obligations_de_baisse.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:etatb_01_structures_facultatives",
+   "chemin": "livrables/depot_2027/P2/etatB_01_structures_facultatives.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/etatB_01_structures_facultatives.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:etatb_02_subventions_associations",
+   "chemin": "livrables/depot_2027/P2/etatB_02_subventions_associations.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/etatB_02_subventions_associations.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:etatb_03_aides_ciblees",
+   "chemin": "livrables/depot_2027/P2/etatB_03_aides_ciblees.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/etatB_03_aides_ciblees.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:etatb_04_titre2_plafond_emplois",
+   "chemin": "livrables/depot_2027/P2/etatB_04_titre2_plafond_emplois.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/etatB_04_titre2_plafond_emplois.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:n6_defaisance_participations",
+   "chemin": "livrables/depot_2027/P2/n6_defaisance_participations.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/n6_defaisance_participations.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:n6_logement_social_flux",
+   "chemin": "livrables/depot_2027/P2/n6_logement_social_flux.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/n6_logement_social_flux.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:p2:n6_typologies_de_depenses",
+   "chemin": "livrables/depot_2027/P2/n6_typologies_de_depenses.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/P2/n6_typologies_de_depenses.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ppl_cession_participations_20261008",
+   "chemin": "livrables/depot_2027/PPL_CESSION_PARTICIPATIONS_20261008.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/PPL_CESSION_PARTICIPATIONS_20261008.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:sommaire_20261008",
+   "chemin": "livrables/depot_2027/SOMMAIRE_20261008.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SOMMAIRE_20261008.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:2_3_subventions_associations_social",
+   "chemin": "livrables/depot_2027/SS/2_3_subventions_associations_social.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/2_3_subventions_associations_social.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:3_3_restitution_salariale_coordination",
+   "chemin": "livrables/depot_2027/SS/3_3_restitution_salariale_coordination.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/3_3_restitution_salariale_coordination.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:3_3_restitution_salariale_principale",
+   "chemin": "livrables/depot_2027/SS/3_3_restitution_salariale_principale.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/3_3_restitution_salariale_principale.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:arrets_04_m024_prolongation_droits_soins",
+   "chemin": "livrables/depot_2027/SS/arrets_04_m024_prolongation_droits_soins.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/arrets_04_m024_prolongation_droits_soins.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:n5_amorce_extinction_repartition",
+   "chemin": "livrables/depot_2027/SS/n5_amorce_extinction_repartition.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/n5_amorce_extinction_repartition.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:n5_cadre_bouclier_sanitaire",
+   "chemin": "livrables/depot_2027/SS/n5_cadre_bouclier_sanitaire.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/n5_cadre_bouclier_sanitaire.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:n5_extinction_aides_fondues",
+   "chemin": "livrables/depot_2027/SS/n5_extinction_aides_fondues.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/n5_extinction_aides_fondues.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:n7b_m037a_gel_indexations_lfss",
+   "chemin": "livrables/depot_2027/SS/n7b_m037a_gel_indexations_lfss.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/n7b_m037a_gel_indexations_lfss.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:n7b_ss03_liste_niches_sociales",
+   "chemin": "livrables/depot_2027/SS/n7b_ss03_liste_niches_sociales.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/n7b_ss03_liste_niches_sociales.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:ss:nuit1c_suppression_taxe_salaires",
+   "chemin": "livrables/depot_2027/SS/nuit1c_suppression_taxe_salaires.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/SS/nuit1c_suppression_taxe_salaires.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:clause_generale_niches_20261005",
+   "chemin": "livrables/depot_2027/clause_generale_niches_20261005.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/clause_generale_niches_20261005.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:sans_colonne:n7b_m022_certificats_energie",
+   "chemin": "livrables/depot_2027/sans_colonne/n7b_m022_certificats_energie.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/sans_colonne/n7b_m022_certificats_energie.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:sans_colonne:n7b_m037b_gel_indexations_plf",
+   "chemin": "livrables/depot_2027/sans_colonne/n7b_m037b_gel_indexations_plf.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/sans_colonne/n7b_m037b_gel_indexations_plf.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:sans_colonne:n7b_m070_depenses_nouvelles",
+   "chemin": "livrables/depot_2027/sans_colonne/n7b_m070_depenses_nouvelles.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/sans_colonne/n7b_m070_depenses_nouvelles.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "depot_2027:sans_colonne:nuit1c_ppl_cession_participations",
+   "chemin": "livrables/depot_2027/sans_colonne/nuit1c_ppl_cession_participations.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/depot_2027/sans_colonne/nuit1c_ppl_cession_participations.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_2_6_aides_ciblees_20261002.perime",
+   "chemin": "livrables/liasse_2_6_aides_ciblees_20261002.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_2_6_aides_ciblees_20261002.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_2_6_aides_ciblees_20261002",
+   "chemin": "livrables/liasse_2_6_aides_ciblees_20261002.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_2_6_aides_ciblees_20261002.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_aides_entreprises_plf2027_p1.perime",
+   "chemin": "livrables/liasse_aides_entreprises_plf2027_p1.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_aides_entreprises_plf2027_p1.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_aides_entreprises_plf2027_p1",
+   "chemin": "livrables/liasse_aides_entreprises_plf2027_p1.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_aides_entreprises_plf2027_p1.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_arrets_immediats:01_m037_indexations",
+   "chemin": "livrables/liasse_arrets_immediats/01_M037_indexations.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_arrets_immediats/01_M037_indexations.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_arrets_immediats:02_m070_depenses_nouvelles",
+   "chemin": "livrables/liasse_arrets_immediats/02_M070_depenses_nouvelles.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_arrets_immediats/02_M070_depenses_nouvelles.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_arrets_immediats:03_m022_certificats_energie",
+   "chemin": "livrables/liasse_arrets_immediats/03_M022_certificats_energie.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_arrets_immediats/03_M022_certificats_energie.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_arrets_immediats:04_m024_soins_jambe_lfss.perime",
+   "chemin": "livrables/liasse_arrets_immediats/04_M024_soins_jambe_lfss.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_arrets_immediats/04_M024_soins_jambe_lfss.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_arrets_immediats:04_m024_soins_jambe_lfss",
+   "chemin": "livrables/liasse_arrets_immediats/04_M024_soins_jambe_lfss.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_arrets_immediats/04_M024_soins_jambe_lfss.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_m025_restitution_salariale",
+   "chemin": "livrables/liasse_m025_restitution_salariale.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_m025_restitution_salariale.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:00_lisezmoi",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/00_LISEZMOI.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/00_LISEZMOI.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:01_j1_article_4.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/01_J1_article_4.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/01_J1_article_4.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:01_j1_article_4",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/01_J1_article_4.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/01_J1_article_4.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:02_j2_article_additionnel",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/02_J2_article_additionnel.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/02_J2_article_additionnel.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:03_j3_article_2",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/03_J3_article_2.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/03_J3_article_2.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:04_j4_7_article_7.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/04_J4-7_article_7.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/04_J4-7_article_7.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:04_j4_7_article_7",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/04_J4-7_article_7.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/04_J4-7_article_7.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:05_j4_9_article_9.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/05_J4-9_article_9.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/05_J4-9_article_9.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:05_j4_9_article_9",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/05_J4-9_article_9.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/05_J4-9_article_9.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:06_j4_10_article_10.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/06_J4-10_article_10.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/06_J4-10_article_10.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:06_j4_10_article_10",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/06_J4-10_article_10.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/06_J4-10_article_10.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:07_j4_11_article_11.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/07_J4-11_article_11.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/07_J4-11_article_11.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:07_j4_11_article_11",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/07_J4-11_article_11.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/07_J4-11_article_11.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:08_j4_12_article_12.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/08_J4-12_article_12.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/08_J4-12_article_12.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:08_j4_12_article_12",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/08_J4-12_article_12.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/08_J4-12_article_12.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:09_j4_13_article_13.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/09_J4-13_article_13.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/09_J4-13_article_13.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:09_j4_13_article_13",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/09_J4-13_article_13.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/09_J4-13_article_13.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:10_j4_26_article_26.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/10_J4-26_article_26.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/10_J4-26_article_26.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:10_j4_26_article_26",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/10_J4-26_article_26.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/10_J4-26_article_26.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:11_j4_28_article_28.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/11_J4-28_article_28.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/11_J4-28_article_28.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:11_j4_28_article_28",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/11_J4-28_article_28.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/11_J4-28_article_28.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:12_j5_article_42.perime",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/12_J5_article_42.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/12_J5_article_42.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:12_j5_article_42",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/12_J5_article_42.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/12_J5_article_42.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:01_j1_article_4",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/01_J1_article_4.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/01_J1_article_4.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:02_j2_article_additionnel",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/02_J2_article_additionnel.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/02_J2_article_additionnel.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:03_j3_article_2",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/03_J3_article_2.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/03_J3_article_2.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:04_j4_7_article_7",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/04_J4-7_article_7.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/04_J4-7_article_7.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:05_j4_9_article_9",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/05_J4-9_article_9.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/05_J4-9_article_9.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:06_j4_10_article_10",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/06_J4-10_article_10.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/06_J4-10_article_10.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:07_j4_11_article_11",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/07_J4-11_article_11.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/07_J4-11_article_11.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:08_j4_12_article_12",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/08_J4-12_article_12.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/08_J4-12_article_12.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:09_j4_13_article_13",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/09_J4-13_article_13.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/09_J4-13_article_13.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:10_j4_26_article_26",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/10_J4-26_article_26.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/10_J4-26_article_26.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:11_j4_28_article_28",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/11_J4-28_article_28.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/11_J4-28_article_28.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "liasse_nuit_plf2027_p1:exposes:12_j5_article_42",
+   "chemin": "livrables/liasse_nuit_plf2027_p1/exposes/12_J5_article_42.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/liasse_nuit_plf2027_p1/exposes/12_J5_article_42.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_1_structures_facultatives_20261002.perime",
+   "chemin": "livrables/lot_2_1_structures_facultatives_20261002.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_1_structures_facultatives_20261002.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_1_structures_facultatives_20261002",
+   "chemin": "livrables/lot_2_1_structures_facultatives_20261002.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_1_structures_facultatives_20261002.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_2_effectifs:13_j6_article_63",
+   "chemin": "livrables/lot_2_2_effectifs/13_J6_article_63.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_2_effectifs/13_J6_article_63.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_2_effectifs:14_j6_article_additionnel.perime",
+   "chemin": "livrables/lot_2_2_effectifs/14_J6_article_additionnel.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_2_effectifs/14_J6_article_additionnel.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_2_effectifs:14_j6_article_additionnel",
+   "chemin": "livrables/lot_2_2_effectifs/14_J6_article_additionnel.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_2_effectifs/14_J6_article_additionnel.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_2_effectifs:exposes:13_j6_article_63",
+   "chemin": "livrables/lot_2_2_effectifs/exposes/13_J6_article_63.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_2_effectifs/exposes/13_J6_article_63.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_2_effectifs:exposes:14_j6_article_additionnel",
+   "chemin": "livrables/lot_2_2_effectifs/exposes/14_J6_article_additionnel.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_2_effectifs/exposes/14_J6_article_additionnel.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_3_subventions_associations.perime",
+   "chemin": "livrables/lot_2_3_subventions_associations.PERIME.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_3_subventions_associations.PERIME.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_2_3_subventions_associations",
+   "chemin": "livrables/lot_2_3_subventions_associations.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_2_3_subventions_associations.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "lot_4_3_aide_fondamentale_et_taux_unique",
+   "chemin": "livrables/lot_4_3_aide_fondamentale_et_taux_unique.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/lot_4_3_aide_fondamentale_et_taux_unique.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "piece_4_4_taxe_fonciere_unique",
+   "chemin": "livrables/piece_4_4_taxe_fonciere_unique.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/piece_4_4_taxe_fonciere_unique.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "registre_colonnes_depot_2027",
+   "chemin": "livrables/registre_colonnes_depot_2027.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/registre_colonnes_depot_2027.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "registre_exceptions_dates",
+   "chemin": "livrables/registre_exceptions_dates.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/registre_exceptions_dates.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "registre_sources_gage",
+   "chemin": "livrables/registre_sources_gage.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de l'auteur"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/registre_sources_gage.md",
+   "famille": "juridique"
+  },
+  {
+   "role": "commun",
+   "chemin": "methode/COMMUN.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/COMMUN.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "analyse_constitutionnelle_collectivites_20261005",
+   "chemin": "methode/analyse_constitutionnelle_collectivites_20261005.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/analyse_constitutionnelle_collectivites_20261005.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "consignes_auteure_20261005",
+   "chemin": "methode/consignes_auteure_20261005.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/consignes_auteure_20261005.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "controle_avant_transmission",
+   "chemin": "methode/controle_avant_transmission.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/controle_avant_transmission.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "cr_consolidation_20261007",
+   "chemin": "methode/cr_consolidation_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/cr_consolidation_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "cr_fil_de_tete_20261007",
+   "chemin": "methode/cr_fil_de_tete_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/cr_fil_de_tete_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_anomalies_pieces",
+   "chemin": "methode/etats/APP_anomalies_pieces.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_anomalies_pieces.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_anomalies_registres",
+   "chemin": "methode/etats/APP_anomalies_registres.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_anomalies_registres.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_arrets_immediats",
+   "chemin": "methode/etats/APP_arrets_immediats.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_arrets_immediats.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_classeur_20261007",
+   "chemin": "methode/etats/APP_classeur_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_classeur_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_collectivites",
+   "chemin": "methode/etats/APP_collectivites.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_collectivites.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_compte_epargne",
+   "chemin": "methode/etats/APP_compte_epargne.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_compte_epargne.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_divisions_en_clair_20261007",
+   "chemin": "methode/etats/APP_divisions_en_clair_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_divisions_en_clair_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_etatb",
+   "chemin": "methode/etats/APP_etatB.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_etatB.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_fiscal",
+   "chemin": "methode/etats/APP_fiscal.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_fiscal.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_social",
+   "chemin": "methode/etats/APP_social.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_social.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:app_taxe_fonciere_20261007",
+   "chemin": "methode/etats/APP_taxe_fonciere_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/APP_taxe_fonciere_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:calendrier_20261007",
+   "chemin": "methode/etats/CALENDRIER_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/CALENDRIER_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:cloture_gage_20261007",
+   "chemin": "methode/etats/CLOTURE_gage_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/CLOTURE_gage_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:croisements_20261007",
+   "chemin": "methode/etats/CROISEMENTS_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/CROISEMENTS_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:gage_taxes_affectees_20261007",
+   "chemin": "methode/etats/GAGE_taxes_affectees_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/GAGE_taxes_affectees_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:inscription_arbitrages_20261007",
+   "chemin": "methode/etats/INSCRIPTION_arbitrages_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/INSCRIPTION_arbitrages_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l1",
+   "chemin": "methode/etats/L1.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L1.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l10_l11",
+   "chemin": "methode/etats/L10_L11.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L10_L11.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l12",
+   "chemin": "methode/etats/L12.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L12.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l13",
+   "chemin": "methode/etats/L13.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L13.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l14_l16_l18",
+   "chemin": "methode/etats/L14_L16_L18.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L14_L16_L18.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l15_l17_l19",
+   "chemin": "methode/etats/L15_L17_L19.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L15_L17_L19.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l2",
+   "chemin": "methode/etats/L2.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L2.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l3_l5",
+   "chemin": "methode/etats/L3_L5.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L3_L5.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:l6_l8",
+   "chemin": "methode/etats/L6_L8.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/L6_L8.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:mesure_taxes_affectees_20261007",
+   "chemin": "methode/etats/MESURE_taxes_affectees_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/MESURE_taxes_affectees_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:n1",
+   "chemin": "methode/etats/N1.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/N1.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:n2",
+   "chemin": "methode/etats/N2.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/N2.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:n3",
+   "chemin": "methode/etats/N3.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/N3.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:n4",
+   "chemin": "methode/etats/N4.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/N4.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:n5",
+   "chemin": "methode/etats/N5.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/N5.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:n6",
+   "chemin": "methode/etats/N6.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/N6.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:n7a",
+   "chemin": "methode/etats/N7a.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/N7a.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:n7b",
+   "chemin": "methode/etats/N7b.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/N7b.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_10_impression_trois_liasses_20261008",
+   "chemin": "methode/etats/NUIT_10_impression_trois_liasses_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_10_impression_trois_liasses_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_1a_accroches_20261008",
+   "chemin": "methode/etats/NUIT_1A_accroches_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_1A_accroches_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_1b_versement_20261008",
+   "chemin": "methode/etats/NUIT_1B_versement_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_1B_versement_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_1c_pieces_dues_20261008",
+   "chemin": "methode/etats/NUIT_1C_pieces_dues_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_1C_pieces_dues_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_2_colonnes_20261008",
+   "chemin": "methode/etats/NUIT_2_colonnes_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_2_colonnes_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_2bis_versement_20261008",
+   "chemin": "methode/etats/NUIT_2bis_versement_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_2bis_versement_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_3a_exposes_20261008",
+   "chemin": "methode/etats/NUIT_3A_exposes_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_3A_exposes_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_3b_controles_1_2_20261008",
+   "chemin": "methode/etats/NUIT_3B_controles_1_2_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_3B_controles_1_2_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_3ter_corrections_20261008",
+   "chemin": "methode/etats/NUIT_3ter_corrections_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_3ter_corrections_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_4_rattachement_contestabilite_20261008",
+   "chemin": "methode/etats/NUIT_4_rattachement_contestabilite_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_4_rattachement_contestabilite_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_5_6_liasse_20261008",
+   "chemin": "methode/etats/NUIT_5_6_liasse_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_5_6_liasse_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_7_exposes_appliques_20261008",
+   "chemin": "methode/etats/NUIT_7_exposes_appliques_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_7_exposes_appliques_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_8_impression_20261008",
+   "chemin": "methode/etats/NUIT_8_impression_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_8_impression_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:nuit_9_tri_trois_liasses_20261008",
+   "chemin": "methode/etats/NUIT_9_tri_trois_liasses_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/NUIT_9_tri_trois_liasses_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:plafond_30_20261008",
+   "chemin": "methode/etats/PLAFOND_30_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/PLAFOND_30_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:reconciliation_impositions_maintenues",
+   "chemin": "methode/etats/RECONCILIATION_impositions_maintenues.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/RECONCILIATION_impositions_maintenues.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:reprise_bilan_20261008",
+   "chemin": "methode/etats/REPRISE_bilan_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/REPRISE_bilan_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:reprise_depenses_20261007",
+   "chemin": "methode/etats/REPRISE_depenses_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/REPRISE_depenses_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:retablissement_taxes_affectees_20261007",
+   "chemin": "methode/etats/RETABLISSEMENT_taxes_affectees_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/RETABLISSEMENT_taxes_affectees_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:s1",
+   "chemin": "methode/etats/S1.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/S1.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:s2",
+   "chemin": "methode/etats/S2.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/S2.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:s3",
+   "chemin": "methode/etats/S3.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/S3.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:t1",
+   "chemin": "methode/etats/T1.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/T1.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:t2",
+   "chemin": "methode/etats/T2.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/T2.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:t3",
+   "chemin": "methode/etats/T3.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/T3.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:u1",
+   "chemin": "methode/etats/U1.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/U1.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:u3",
+   "chemin": "methode/etats/U3.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/U3.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:u4",
+   "chemin": "methode/etats/U4.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/U4.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:u5",
+   "chemin": "methode/etats/U5.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/U5.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:u6",
+   "chemin": "methode/etats/U6.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/U6.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:u7",
+   "chemin": "methode/etats/U7.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/U7.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:v1",
+   "chemin": "methode/etats/V1.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/V1.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:v2",
+   "chemin": "methode/etats/V2.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/V2.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:application_corrections_20261007",
+   "chemin": "methode/etats/application_corrections_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/application_corrections_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:controle_extraction_p1_fiscale_20261007",
+   "chemin": "methode/etats/controle_extraction_p1_fiscale_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/controle_extraction_p1_fiscale_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:cr_relecture_p1_fiscale_20261007",
+   "chemin": "methode/etats/cr_relecture_p1_fiscale_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/cr_relecture_p1_fiscale_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:file_attente",
+   "chemin": "methode/etats/file_attente.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/file_attente.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "etats:mesure_paquet_20261007",
+   "chemin": "methode/etats/mesure_paquet_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/mesure_paquet_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragments:arbitrages:20261005_reponses_audit_declinaison",
+   "chemin": "methode/fragments/arbitrages/20261005-reponses-audit-declinaison.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261005-reponses-audit-declinaison.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragments:arbitrages:20261005_revue_lot1_clause",
+   "chemin": "methode/fragments/arbitrages/20261005-revue-lot1-clause.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261005-revue-lot1-clause.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragments:arbitrages:20261006_digestion_regles_credits",
+   "chemin": "methode/fragments/arbitrages/20261006-digestion-regles-credits.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/arbitrages/20261006-digestion-regles-credits.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "fragments:journal:20261007_integration_reprise",
+   "chemin": "methode/fragments/journal/20261007-integration-reprise.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/fragments/journal/20261007-integration-reprise.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "gestion_depot_projet",
+   "chemin": "methode/gestion_depot_projet.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/gestion_depot_projet.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "mode_de_production",
+   "chemin": "methode/mode_de_production.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/mode_de_production.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "objectifs_depot_2027",
+   "chemin": "methode/objectifs_depot_2027.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/objectifs_depot_2027.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "ordre_des_fils",
+   "chemin": "methode/ordre_des_fils.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/ordre_des_fils.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "passation_20261005",
+   "chemin": "methode/passation_20261005.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/passation_20261005.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "passation_20261007",
+   "chemin": "methode/passation_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/passation_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "passation_20261008",
+   "chemin": "methode/passation_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/passation_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "passation_relecture_export_20261008",
+   "chemin": "methode/passation_relecture_export_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/passation_relecture_export_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "pingpong_depot_2027_20261005",
+   "chemin": "methode/pingpong_depot_2027_20261005.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/pingpong_depot_2027_20261005.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "plan_liasse_2027_20261005",
+   "chemin": "methode/plan_liasse_2027_20261005.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/plan_liasse_2027_20261005.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "premier_versement_propose",
+   "chemin": "methode/premier_versement_propose.tsv",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/premier_versement_propose.tsv",
+   "famille": "méthode"
+  },
+  {
+   "role": "procedure_nuit_20261008",
+   "chemin": "methode/procedure_nuit_20261008.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/procedure_nuit_20261008.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "registre_exposes_depot_2027",
+   "chemin": "methode/registre_exposes_depot_2027.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/registre_exposes_depot_2027.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "reprise_20261007",
+   "chemin": "methode/reprise_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/reprise_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "revue_dispositifs_20261005",
+   "chemin": "methode/revue_dispositifs_20261005.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/revue_dispositifs_20261005.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "suivi_depenses_20261007",
+   "chemin": "methode/suivi_depenses_20261007.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/suivi_depenses_20261007.md",
+   "famille": "méthode"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:lisez_moi",
+   "chemin": "paquet/machine_v1_2_a3/LISEZ-MOI.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/LISEZ-MOI.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:appareil:controle_sortie",
+   "chemin": "paquet/machine_v1_2_a3/appareil/controle_sortie.py",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/appareil/controle_sortie.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:appareil:installer_droit",
+   "chemin": "paquet/machine_v1_2_a3/appareil/installer_droit.py",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/appareil/installer_droit.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:appareil:portes_ouvertes",
+   "chemin": "paquet/machine_v1_2_a3/appareil/portes_ouvertes.py",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/appareil/portes_ouvertes.py",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:motifs_locaux_atelier",
+   "chemin": "paquet/machine_v1_2_a3/motifs_locaux_atelier.txt",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/motifs_locaux_atelier.txt",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:procedures:contrat_chaine_amendement",
+   "chemin": "paquet/machine_v1_2_a3/procedures/contrat_chaine_amendement.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/procedures/contrat_chaine_amendement.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:procedures:domaine_lfss_lo111_3",
+   "chemin": "paquet/machine_v1_2_a3/procedures/domaine_lfss_LO111-3.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/procedures/domaine_lfss_LO111-3.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:procedures:gabarit_expose_sommaire",
+   "chemin": "paquet/machine_v1_2_a3/procedures/gabarit_expose_sommaire.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/procedures/gabarit_expose_sommaire.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:procedures:gabarit_liste_articles",
+   "chemin": "paquet/machine_v1_2_a3/procedures/gabarit_liste_articles.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/procedures/gabarit_liste_articles.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:procedures:passation_droit_renvois",
+   "chemin": "paquet/machine_v1_2_a3/procedures/passation_droit_renvois.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/procedures/passation_droit_renvois.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:procedures:procedure_vecteurs",
+   "chemin": "paquet/machine_v1_2_a3/procedures/procedure_vecteurs.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/procedures/procedure_vecteurs.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:procedures:structure_ppl",
+   "chemin": "paquet/machine_v1_2_a3/procedures/structure_ppl.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/procedures/structure_ppl.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_2_a3:procedures:test_rattachement",
+   "chemin": "paquet/machine_v1_2_a3/procedures/test_rattachement.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_2_a3/procedures/test_rattachement.md",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_3:motifs_locaux_atelier",
+   "chemin": "paquet/machine_v1_3/motifs_locaux_atelier.txt",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_3/motifs_locaux_atelier.txt",
+   "famille": "outillage"
+  },
+  {
+   "role": "paquet:machine_v1_4:manifeste",
+   "chemin": "paquet/machine_v1_4/MANIFESTE.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "machine à amendements"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "paquet/machine_v1_4/MANIFESTE.md",
+   "famille": "outillage"
+  },
+  {
    "role": "instructions",
    "chemin": "CLAUDE.md",
    "rang": "methode",
@@ -6134,6 +9854,8 @@
    "appareil/coffre.py",
    "appareil/confronter_lecture.py",
    "appareil/construire_positions.py",
+   "appareil/controle_adresses_extraction.py",
+   "appareil/controle_adresses_verdicts.py",
    "appareil/controle_apports.py",
    "appareil/controle_arithmetique.py",
    "appareil/controle_blocs.py",
@@ -6202,6 +9924,7 @@
    "appareil/rendre_releve_epreuve.py",
    "appareil/restaurer.py",
    "appareil/sans_cesure.py",
+   "appareil/scinder_liasse_trois_colonnes.py",
    "appareil/scinder_liasses.py",
    "appareil/socle_budgetaire.py",
    "appareil/socle_plf_texte.py",
@@ -6212,6 +9935,7 @@
    "appareil/trois_colonnes_regle_dor.py",
    "appareil/vecteurs.py",
    "appareil/ventilation_vehicule.py",
+   "appareil/versement.py",
    "referentiels/REF_doctrine.json",
    "referentiels/lots_epreuve.json",
    "referentiels/notes_manuscrit.json",
@@ -6388,10 +10112,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 378,
-  "au_coffre": 320,
-  "au_depot": 103,
-  "derives": 90,
+  "artefacts": 626,
+  "au_coffre": 568,
+  "au_depot": 107,
+  "derives": 235,
   "sources": 44,
   "non_restaurables": 16,
   "sans_famille": 2,
