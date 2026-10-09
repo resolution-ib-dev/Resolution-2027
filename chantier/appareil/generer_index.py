@@ -49,12 +49,21 @@ Deux choses ne s'écrivent pas ici. **L'affectation aux familles vit dans
 dépendre la table de résolution de ce qu'un conteneur contenait ce jour-là, et
 une pièce jointe non restaurée y disparaissait sans bruit.
 
+**Le dossier se lit depuis le 20261009.** Les tables ne suffisaient plus : tout
+fichier versé sans ligne à la table sortait en I2, 182 au versement du jour. Le
+générateur parcourt donc la racine au périmètre de `controle_index.fichiers` et
+déclare à son chemin, voie `depot`, tout fichier que les tables ne portent pas
+(champ `releve`). Le balayage ajoute, il ne retire rien : une pièce déclarée
+absente du conteneur reste à l'index. Un fichier relevé n'a pas de famille tant
+que `generer_carte.py` ne lui en donne pas, et I5 le dit.
+
 Usage : python3 generer_index.py ../methode/index.json ..
 """
 import json
 import os
 import sys
 
+import controle_index
 import generer_carte
 
 REVISION = {'version': 'index v1', 'date': '20260821',
@@ -2082,6 +2091,12 @@ COFFRE_DOCUMENT = {
 
 CLES = ('role', 'chemin', 'rang', 'coffre', 'produit_par', 'consomme_par', 'alias')
 
+# Le rang d'un fichier relevé du dossier sans être déclaré aux tables : celui
+# que portent déjà les artefacts déclarés du même dossier de tête.
+RANG_PAR_DOSSIER = {'appareil': 'appareil', 'referentiels': 'referentiel',
+                    'sources': 'source', 'livrables': 'derive',
+                    'paquet': 'derive', 'site': 'derive'}
+
 
 def voie_de(artefact, defaut):
     """La surface qui rend l'artefact, et le chemin qu'elle en porte.
@@ -2119,7 +2134,8 @@ def generer(dst, racine):
     # Le relevé par balayage faisait dépendre l'index de ce qu'un conteneur
     # contenait ce jour-là : une pièce jointe non restaurée disparaissait de la
     # table de résolution. La table est donc curée, comme tout le reste.
-    for chemin in sorted(set(COFFRE_SOURCES) | set(SOURCES_JOINTES)):
+    sources = set(COFFRE_SOURCES) | set(SOURCES_JOINTES)
+    for chemin in sorted(sources):
         nom = chemin.split('/')[-1]
         a = {'role': 'source:' + os.path.splitext(nom)[0].lower(),
              'chemin': chemin, 'rang': 'source',
@@ -2129,6 +2145,27 @@ def generer(dst, racine):
              'restaurable': chemin not in NON_RESTAURABLES}
         a['voie'], a['chemin_coffre'] = voie_de(
             a, COFFRE_SOURCES.get(chemin, chemin))
+        artefacts.append(a)
+
+    # --- le dossier : tout fichier présent sous la racine que les tables ne
+    # déclarent pas y entre à son chemin. Le périmètre est celui que relève
+    # `controle_index.py`, lu à la même fonction : ce que le contrôle compte en
+    # I2, le générateur le déclare. Les tables ci-dessus restent la couche qui
+    # porte rôle, rang, producteur, consommateurs et alias ; le balayage ne fait
+    # qu'ajouter, si bien qu'une pièce déclarée et absente du conteneur ne
+    # disparaît pas de l'index. Un fichier relevé ainsi est au dépôt, puisqu'il
+    # y est lu : sa voie est `depot`.
+    declares = {a['chemin'] for a in artefacts}
+    for chemin in controle_index.fichiers(racine):
+        if chemin in declares:
+            continue
+        tete = chemin.split('/', 1)[0]
+        a = {'role': 'fichier:' + os.path.splitext(chemin)[0],
+             'chemin': chemin, 'rang': RANG_PAR_DOSSIER.get(tete, 'methode'),
+             'coffre': True, 'produit_par': None, 'consomme_par': [],
+             'alias': [], 'restaurable': True, 'voie': 'depot',
+             'chemin_coffre': f"{DEPOT['sous_racine']}/{chemin}",
+             'releve': True}
         artefacts.append(a)
 
     # --- famille : le classement par contenu, importé de la carte.
