@@ -5958,3 +5958,18 @@ renvoie plus que par une ligne — il ne porte plus la table.
   pas jouable**.
 - L'assemblage des fragments — fil Cowork, en tête de l'ordre, sans dépendance.
 - Les quatre bornes de fond de la phase 1, inchangées.
+
+## 20261009 — site-publier-desactive
+
+## Ce qui a changé au corpus
+
+- `make publier` refuse au lieu de régénérer et pousser le site : le site se
+  maintient à la main dans `Site-ETNP/site/` (PR #18). `CLAUDE.md` dit où le
+  site se publie désormais.
+- Côté Site-ETNP : README et CLAUDE.md décrivent la procédure manuelle, script
+  de capture `outils/capture.mjs`, note de report au référentiel supprimée.
+
+## Ce qui reste ouvert
+
+- `appareil/generer_site.py` et `appareil/generer_carte.py` mentionnent encore
+  `make publier` ; ils ne servent plus au site.
