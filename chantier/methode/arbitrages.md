@@ -8054,3 +8054,16 @@ l'amendement.
 - Déduire une rédaction d'un article qu'on n'a pas lu.
 - Déclarer un article inexistant au seul vu de l'extrait.
 - Laisser « à vérifier » dans un dispositif ou un exposé.
+
+## 20261009 — site-publier-desactive
+
+**`make publier` est désactivé.** *Demandé par l'auteur le 20261009.* Le site
+se maintient à la main dans `Site-ETNP/site/` depuis le 20260904 — branche,
+pull request vers `main`, fusion ; Vercel déploie. `appareil/generer_site.py`
+est resté à septembre et ne connaît ni `videos.html`, ni `livre.html`, ni
+`img/` : la cible aurait effacé `site/` du dépôt de publication et l'aurait
+remplacé par ce rendu. Elle refuse désormais avec un message ; sa recette reste
+dans l'historique git. **Révoque d'A-197** (`arbitrages_archive.md`) le
+paragraphe « Rien n'en revient » et sa conséquence d'appareil : le site se
+corrige désormais dans son dépôt. Le reste d'A-197 tient — le dépôt du site ne
+reçoit ni doctrine, ni référentiel, ni appareil.
