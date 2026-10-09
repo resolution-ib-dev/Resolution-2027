@@ -647,43 +647,20 @@ G:
 index:
 	@$(PY) $(APP)/controle_index.py $(INDEX) .
 
-# Publication du site sur son dépôt distant, d'où Vercel déploie.
+# Publication du site — **désactivée le 20261009.**
 #
-# Le dépôt de publication ne reçoit **que les pages rendues** : ni doctrine, ni
-# référentiel, ni appareil, ni méthode. C'est une publication, pas un atelier —
-# même relation que le projet ouvert du contre-PLF au corpus (A-134). Rien n'en
-# revient.
+# Le site n'est plus généré d'ici : il est maintenu à la main dans
+# `Site-ETNP/site/` depuis le 20260904, et `generer_site.py` est resté à
+# septembre (il ne connaît ni videos.html, ni livre.html, ni img/). L'ancienne
+# cible effaçait `site/` du dépôt de publication et le remplaçait par ce rendu :
+# la jouer aujourd'hui écraserait le site en ligne par une version de septembre.
+# Elle refuse donc, et sa recette reste lisible dans l'historique git.
 #
-# Il n'y a rien à configurer sur Vercel : un dépôt de fichiers statiques à la
-# racine se déploie tel quel, sans commande de construction. Un chiffre qui
-# change se corrige au référentiel, `make publier` régénère et pousse, Vercel
-# redéploie. Personne ne touche au HTML.
-# PUBLICATION       le clone local du dépôt distant
-# PUBLICATION_SOUS  le sous-dossier de ce dépôt que le site occupe. Il est
-#                   remplacé en entier à chaque publication ; le reste du dépôt
-#                   n'est jamais touché. Vide pour publier à la racine.
-PUBLICATION      ?= publication
-PUBLICATION_SOUS ?= site
-CIBLE_PUB = $(PUBLICATION)$(if $(PUBLICATION_SOUS),/$(PUBLICATION_SOUS))
-
+# Publier se fait dans Site-ETNP : branche, pull request vers `main`, fusion ;
+# Vercel déploie (voir le README de Site-ETNP).
 .PHONY: publier
-publier: $(SITE)
-	@test -d $(PUBLICATION)/.git || { \
-	  echo "Aucun dépôt de publication dans $(PUBLICATION)/ — le cloner d'abord."; \
-	  exit 1; }
-	@test -n "$(PUBLICATION_SOUS)" || { \
-	  echo "PUBLICATION_SOUS vide : refus d'effacer la racine d'un dépôt existant."; \
-	  exit 1; }
-	@rm -rf $(CIBLE_PUB)
-	@mkdir -p $(CIBLE_PUB)
-	@cp -R $(SITE_DIR)/. $(CIBLE_PUB)/
-	@rm -f $(CIBLE_PUB)/vercel.json.modele
-	@cp $(SITE_DIR)/vercel.json.modele $(PUBLICATION)/vercel.json
-	@cd $(PUBLICATION) && git add -A -- $(PUBLICATION_SOUS) vercel.json && \
-	  if git diff --cached --quiet; then echo "rien à publier"; else \
-	    git commit -q -m "Site régénéré depuis le référentiel" && \
-	    git push -q origin HEAD && \
-	    echo "poussé — Vercel déploie"; fi
+publier:
+	@echo "make publier est désactivé : le site se maintient à la main dans Site-ETNP/site/ (voir son README)."; exit 1
 
 # Le versement : relever les empreintes, puis dire ce qui est dû au dépôt.
 #
