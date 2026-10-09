@@ -252,7 +252,7 @@ make restauration  compare chaque pièce restaurée à son empreinte
 make controle      joue les contrôles, ne produit rien
 make coffre        relève les empreintes et dit ce qui est dû au dépôt
 make etat          où en est la rédaction des apports
-make publier       régénère le site et le pousse au dépôt de publication
+make publier       désactivé : le site se maintient dans Site-ETNP/site/
 ```
 
 Le référentiel des positions se construit depuis `construire_positions.py` pour
@@ -336,9 +336,10 @@ régénère depuis son markdown par le script qui l'a produit.
 **La mise en ligne ne se fait pas depuis l'atelier** : Vercel y est injoignable
 (A-196). Elle passe par un dépôt de publication relié à Vercel, qui ne reçoit
 **que les pages rendues** — ni doctrine, ni référentiel, ni appareil (A-197).
-`make publier` régénère, remplace le sous-dossier du site dans ce dépôt, commet
-et pousse ; Vercel redéploie. Une correction ne se fait jamais en ligne : elle
-se porte au référentiel et on rejoue.
+**Depuis le 20260904, le site n'est plus généré d'ici** : il se maintient à la
+main dans `Site-ETNP/site/` — branche, pull request vers `main`, fusion ;
+Vercel redéploie. `generer_site.py` est resté à septembre, et `make publier`
+refuse depuis le 20261009 : le jouer écraserait le site en ligne.
 
 ---
 
