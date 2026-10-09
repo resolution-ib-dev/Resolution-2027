@@ -32,7 +32,7 @@ DESIG = re.compile(r"\bdu (même) (?:code|livre)\b|\b(?:du|de la|des|au) (" + "|
 
 rows=[]; horsctl=[]
 for f in sorted(BASE.glob("*.md")):
-    txt=f.read_text(encoding="utf-8").replace("’","'").replace(" "," ").replace(" "," ")
+    txt=f.read_text(encoding="utf-8").replace("’","'").replace(" "," ").replace(" "," ")
     cut=txt.find("## [interne]"); norma = txt[:cut] if cut>0 else txt
     dernier=None; chap=None
     CHAPEAU = re.compile(r"\b(?:Le|La|Les|Du|Au) (" + "|".join(re.escape(k) for k in NOMS) + r")\b[^.]{0,60}(?:est ainsi modifié|sont ainsi modifié|est ainsi rédigé|est ainsi complété)")
