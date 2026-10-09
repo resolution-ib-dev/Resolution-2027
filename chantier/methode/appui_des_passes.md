@@ -236,3 +236,67 @@ compte de pages.** Deux défauts mesurés à l'export du 20261008 :
 - **Le compte des blocs `\newpage` et le compte des pages imprimées sont deux mesures
   distinctes**, et une pièce ne porte jamais l'un pour l'autre. Mesure du 20261008 : **90 blocs
   `\newpage`** pour **190 pages imprimées** sur cinq documents, dont **174 pour les trois liasses**.
+
+---
+
+## Reprises inscrites le 20261009 (fil de reprise, après le fil 0 de regroupement)
+
+**La faute qui les fonde, et elle est du fil de tête, non du fil d'exécution.** La ligne de
+lancement du fil 0 nommait « les dix-neuf rangs ultramarins relevés le 20261007 ». Mesure faite sur
+la clause : **douze de ces rangs n'existaient plus**, supprimés le jour même avec les rangs « (Sans
+objet) », et **les sept restants avaient été rétablis par l'auteure le 20261005**, au motif que ces
+niches profitent à des contribuables qui ne résident pas outre-mer. L'exclusion que le mandat
+demandait d'écrire au II **y était déjà**, avec la réserve de domicile qui maintient ces sept rangs
+dans le champ du I.
+
+**Trois défaillances empilées, et seule l'auteure a arrêté la chaîne.**
+
+**R-V — Un compte repris d'un état se date, et se remesure sur l'objet avant d'être inscrit à un
+mandat.**
+
+> Un mandat qui porte un chiffre — un compte de rangs, de pièces, d'occurrences — **nomme l'état
+> d'où il vient et sa date**, et le fil qui l'exécute **le remesure sur l'objet avant d'écrire**.
+> Une divergence entre le compte annoncé et le compte mesuré **arrête le fil**.
+
+C'est R-H appliquée à celui qui écrit le mandat, et non plus seulement à celui qui l'exécute. Le
+compte de dix-neuf venait d'un état exact à l'heure où il a été écrit et périmé une heure plus tard
+par une renumérotation. **Il a traversé l'arbitrage, la procédure et le suivi sans que la clause
+soit ouverte une seule fois.** R-H protège le fil d'exécution ; R-V protège la ligne de lancement.
+
+**R-W — L'extension d'une décision de l'auteure se pose en question, elle ne s'inscrit pas.**
+
+> Une décision de l'auteure vaut **pour les objets qu'elle nomme**. L'étendre à d'autres est une
+> proposition, et une proposition **se pose en une question fermée** ; elle ne s'inscrit jamais au
+> nom de l'auteure.
+
+« On sort l'outre-mer » répondait à une question sur deux pièces. Inscrit comme valant « pour tout
+le dépôt », l'arbitrage abolissait sept rangs que l'auteure avait elle-même rétablis quatre jours
+plus tôt. **C'est le garde-fou du registre : ce que l'auteure a dit va au bloc validé, ce que le
+fil propose va au bloc proposé.** Il ne souffre pas d'exception, et surtout pas quand l'extension
+paraît évidente.
+
+**Rappel, et il n'appelle pas de règle neuve.** La règle de mesure du corpus est déjà catégorique :
+*si la mesure ne trouve pas l'objet annoncé, le fil rend le nombre mesuré et s'arrête
+immédiatement.* Le fil 0 a bien mesuré, bien rendu la contradiction — réserve de domicile au II
+d'un côté, retrait des rangs au III de l'autre — **et a annoncé qu'il continuait**. Il devait
+s'arrêter. **Une contradiction rendue n'est pas une contradiction traitée**, et rendre en continuant
+n'est pas rendre.
+
+**11 — Un contrôle lit le registre qui enregistre ce qu'il relève, et la clôture de la question
+qu'il rouvre.** Deux signalements du fil 1 du 20261009 sont tombés à la mesure, et les deux défauts
+proposés auraient introduit une faute :
+
+- **deux dates déclarées hors registre y étaient inscrites** depuis le 20261008 ter — le contrôle
+  de conformité ne lit pas `livrables/registre_exceptions_dates.md`. Le défaut « les inscrire »
+  aurait créé deux lignes en double ;
+- **une adresse déclarée à retirer était juste** — l'article 721 du code général des impôts est
+  absent du droit en vigueur **parce que le texte déposé le rétablit**, et c'est l'article rétabli
+  que la pièce supprime. La question était close sur ce motif le 20261008. Le défaut « retirer
+  l'adresse » aurait cassé la lecture de la pièce.
+
+> **Un contrôle qui relève une exception lit d'abord le registre qui l'enregistre. Un contrôle qui
+> rouvre une question lit d'abord sa clôture.** Un signalement qui ignore l'un ou l'autre n'est pas
+> un écart : c'est un défaut du contrôle, et il se corrige au contrôle.
+
+C'est R-H vue du côté de l'instrument : l'objet se mesure, et **le registre fait partie de
+l'objet**.

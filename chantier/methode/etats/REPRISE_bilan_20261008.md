@@ -65,7 +65,7 @@ Les trois scripts nommés au § 4 de la passation de relecture sont **déjà ver
 |---|---|---|
 | lire les quatre pièces d'appui | **joué** | 4 lues ; `methode/etats/NUIT_10` et `appui_des_passes.md` à l'objet |
 | déplier la pièce jointe | **joué** | 12 fichiers, aucun écrit au coffre |
-| **intégrer les trois scripts à `chantier/appareil/`** | **non joué** | **le dépôt n'est pas atteignable en écriture depuis Cowork** : jeton refusé, et la règle du § 5 de la passation du fil de tête l'écarte par principe. Les trois sont au coffre ; l'intégration est un **fil code** |
+| **intégrer les trois scripts à `chantier/appareil/`** | **non joué ici, et rendu jouable** | **le dépôt n'est pas atteignable en écriture depuis Cowork** : jeton refusé, et la règle du § 5 de la passation du fil de tête l'écarte par principe. **Le paquet de versement est produit à la place** — § 7 ci-dessous : les trois scripts y sont à leur adresse définitive, et le fil code n'a plus qu'à copier |
 | **inscrire les quatre reprises de méthode du § 4** | **joué — 2 écrites, 2 déjà inscrites et rayées** | à `methode/appui_des_passes.md`, reprises 9 et 10 du 20261008. Déjà inscrites au 20261007 : le complément de R-B (reprise 1) et la contradiction de nommage d'`impression-docx`, § 5 (reprise 3) |
 | **retirer la fuite E1 de SS-01** | **joué** | `SS/n7b_ss03_liste_niches_sociales.md` : 2 lignes retirées, 27 931 → 27 726 octets, 210 → 208 lignes. **Aucune autre ligne touchée**, correction appliquée par copie d'octets depuis le transcript, sans recopie par le modèle (R8) |
 | **rejouer Q3** | **joué — la question est close à tort** | **213 occurrences** aux trois liasses : 12 devant « ni », 195 devant « et », 5 devant « ou », 1 devant « donc » ; 0 devant « mais », « car », « or ». Les 7 « ni » retirées en phase 3.B n'épuisent pas la mesure |
@@ -166,10 +166,76 @@ des voies et moyens du PLF 2027).
 
 ---
 
-## 6. Ce qui reste ouvert après ce fil
+## 6. Le paquet de versement au dépôt — produit, et contrôlé
+
+**Mandat de l'auteure, 20261008, en cours de fil** : faire passer tout le coffre au fil code, pas
+seulement les trois scripts.
+
+**Ce qui est produit** : `paquet_depot_2027_20261008.zip`, **267 documents, 5 481 948 octets**,
+rangés sous `chantier/` à leur adresse définitive au dépôt, avec `empreintes_paquet_20261008.json`
+(SHA-256, taille, compte de lignes, document par document), un `MANIFESTE.md` qui porte la marche à
+suivre et la ligne de lancement du fil code, et deux témoins écartés du versement.
+
+**La voie employée, et c'est la seule qui garantisse la copie d'octets.** Les 266 documents du coffre
+ont été lus, puis **extraits du transcript de session et écrits sur disque sans repasser par le
+modèle** — la voie `restaurer.py` de la procédure de chantier. **Aucun document n'a été recopié,
+résumé ni reformaté.** Les documents trop volumineux pour le transcript — `methode/arbitrages.md` et
+`livrables/depot_2027/LIASSE_20261008.md` — ont été repris à leur fichier rendu par l'outil, même
+régime.
+
+**Contrôles joués, mécaniques.**
+
+| contrôle | compte | verdict |
+|---|---|---|
+| couverture du coffre | 266 documents annoncés, **266 récupérés** | **0 manquant, 0 en trop** |
+| versions divergentes au transcript | 267 chemins | **0 divergent** — aucun document lu deux fois dans deux états |
+| recalage sur les écritures du présent fil | 3 documents | la pièce SS-01 corrigée, `appui_des_passes.md` augmenté, le présent état ajouté |
+| scripts, coffre contre pièce jointe | 3 | **identiques à l'octet**, empreintes confrontées |
+| relecture de l'archive après compression | 267 | **267 conformes, 0 écart** |
+
+**Ce que le paquet ne porte pas** : les huit pièces jointes du projet — classeurs de l'auteure — qui
+sont en lecture seule et déclarées `restaurable: false` ; et les tirages docx et PDF, qui se
+régénèrent.
+
+---
+
+## 7. Retour du fil code — versement joué, C-4 et C-1 joués
+
+**Rendu par le fil code le 20261008**, branche `claude/inspiring-turing-2d9ovs`, deux commits —
+`c36e1b7` et `dca1e78`.
+
+| point | verdict | compte |
+|---|---|---|
+| contrôle du paquet, avant copie puis au dépôt | **0 écart** | **267 sur 267** conformes en SHA-256, en octets et en lignes. Trois fichiers sans saut de ligne final ont d'abord paru décalés d'une ligne : **c'est une convention de comptage, non un écart** — le relevé compte la dernière ligne sans saut, et sous cette convention les 267 concordent |
+| copie de `chantier/` au dépôt | **joué** | 248 fichiers nouveaux, 11 identiques, **9 remplacés par la version du coffre** — `CLAUDE.md`, `appui_des_passes`, `regles_redactionnelles`, `arbitrages`, `a_trancher`, `procedure_contre_plf`, `procedure_fin_de_chantier_depot_2027`, `index.json`, et le fragment `20261007-geste2-restauration`. L'état précédent reste dans git |
+| `make coffre` · `make restauration` | **joué, R1 = 0** | 505 empreintes après C-4. R2 = 5 · R3 = 3 (les trois scripts, que `main` ne porte pas encore) · R4 = 61 · R5 = 0 · R6 = 2 |
+| **C-4 — `methode/index.json`** | **joué** | **248 documents déclarés**, famille fixée par adresse. **I2 passe de 389 à 141**, son niveau d'avant versement. Les 141 non déclarés d'avant restent en l'état, hors mandat |
+| **C-1 — `lire_structure`** | **joué, et le défaut est confirmé de conception** | la forme réelle d'une livraison LEGI a été relevée : **le `CONTEXTE` du fichier de section porte les ascendants**, le plus profond étant le parent, et `TITRE_TA` la section elle-même. La chaîne se lit désormais là, sur la version de titre en vigueur. **Les fichiers d'article ne rendent plus rien** : leurs liens de version sortaient à chaîne vide et pouvaient écraser celle de la section — 16 divergences relevées sur 672, et la section fait foi. Essai sur la livraison réelle du 20261007 : **2 360 articles sur 3 022 portent une chaîne, contre 0 avant.** Les 418 restants sont rattachés à la racine d'un texte non codifié |
+| rejeu de l'extraction du droit | **non joué** | hors mandat. Le commit porte `[skip ci]` : l'extraction, environ deux heures, se lancera **à la fusion sur `main`**, `extraire_legi.py` ayant changé |
+| **regroupement des abrogations par bloc** | **non joué** | **il dépend de la nouvelle extraction** |
+| ne corriger aucune pièce, ne trancher aucune question, ne régénérer aucun assemblage | **tenu** | 0 pièce, 0 question, 0 assemblage. Les deux assemblages gardent la ligne retirée de SS-01 |
+
+**Un défaut du paquet, constaté et inscrit.** `MANIFESTE.md` est présent deux fois — à la racine du
+zip et sous `chantier/`, à l'identique — mais **il ne figure pas au relevé d'empreintes**, qui ne
+porte que les 267 documents du coffre. Le fil code l'a lu et l'a signalé. **Le relevé ne couvre donc
+pas tout ce que le paquet transporte** : un paquet de versement relève l'empreinte de tout ce qu'il
+porte, pièce d'accompagnement comprise.
+
+**Ce qui tient à la fusion, et c'est le seul point suspendu.** Tant que `main` ne porte pas les trois
+scripts de `appareil/`, ils sortent en `R3` au contrôle de restauration et en pièces dues au dépôt.
+**La fusion les range — et elle déclenche l'extraction du droit, donc le regroupement des
+abrogations par bloc, donc une liasse dont les douze pages du III de P1-31 se contractent.** C'est
+un changement du texte déposable : il ne se joue pas sans l'auteure.
+
+---
+
+## 8. Ce qui reste ouvert après ce fil
 
 1. **Les deux assemblages divergent d'une ligne du paquet** depuis le retrait de la fuite E1 —
    régénération due, par script, dans un fil qui la nomme.
 2. **La passe de lecture des 213 virgules de coordination** — règle inchangée, passe incomplète.
 3. **Les trois points bloquants**, tous rendus à l'auteure.
 4. **Les trente-trois questions du LISEZ-MOI**, non tranchées, plus Q34 et Q35 inscrites ici.
+5. ~~Le versement lui-même.~~ **Joué le 20261008, sans écart — § 7.**
+6. **La fusion de la branche sur `main`** — elle range les trois scripts et déclenche l'extraction du droit. **Elle appelle un mot de l'auteure**, parce qu'elle change le texte déposable par le regroupement des abrogations.
+7. **Le regroupement des abrogations par bloc**, suspendu à cette extraction.
