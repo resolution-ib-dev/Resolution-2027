@@ -1,10 +1,10 @@
-# Pièce 4.2 A — Refonte des taxes : impositions de l’État supprimées
+# Pièce 4.2 A — Vingt et une taxes d’État disparaissent dans l’impôt, sans hausse du total
 
 **Porteur** : lot R3 (reprise de N3) ; mise à jour lot U3 (20261005 : calendrier avancé au 1er juillet 2027, écarts de la revue A) ; **passe de correction des anomalies de croisement portant sur des pièces, 20261007 (un renvoi au III de l’article 1er recalé)**. **Mandat** : plan de liasse du 20261005 (`methode/plan_liasse_2027_20261005.md`, § 2, ligne N3) ; **anomalie 5.3 de `methode/etats/CROISEMENTS_20261007.md`**. **Appui** : `methode/passation_20261007.md` · `methode/etats/CROISEMENTS_20261007.md` · `methode/etats/APP_fiscal.md` · `methode/etats/application_corrections_20261007.md` · `methode/etats/APP_etatB.md` · `methode/appui_des_passes.md` · `methode/COMMUN.md` · `methode/regles_redactionnelles.md` · `reference/guide_legistique.md` · `reference/regles_credits.md`. **Domicile** : `chantier/livrables/depot_2027/P1/4_2_refonte_taxes_A_taxes_etat.md`. **Mesure** : 21 impositions de l’État ; 42 adresses visées au dispositif (articles et plages, article 219 du gage compris), soit 116 articles contrôlés un à un sur l’extrait LEGI 20261001 (contrôle rejoué par les lots R3 et U3) : 92 `EXISTE`, 24 `ABROGE_DIFF` suivis d’une version `VIGUEUR_DIFF`, aucun `ABSENT` ni `ABROGE`. Ajouts du lot R3 : taxe sur l’attestation d’accueil, taxe sur les rachats d’actions, taxe générale sur les activités polluantes.
 
 | cartouche | |
 |---|---|
-| titre | Supprimer les petites impositions de l’État et laisser les grands impôts recueillir leur assiette |
+| titre | Vingt et une taxes d’État disparaissent dans l’impôt, sans hausse du total |
 | chapô | Abroger vingt et une impositions de l’État en deux dates : au 1er juillet 2027 tout ce qui se perçoit par opération ou par exercice — droits de timbre, transactions financières, rachats d’actions, sécurité immobilière, contribution sociale sur l’impôt sur les sociétés avec le taux unique — et au 1er janvier 2028 les taxes annuelles et les contributions sur le revenu |
 | intention | refonte équilibrée : des suppressions et un grand impôt qui recueille, l’impôt sur les sociétés et l’impôt sur le revenu reprenant l’assiette, l’impôt sur les sociétés soldant à la fin |
 | mesures | abrogation des sièges de 21 impositions · deux dates, au plus tôt le 1er juillet 2027 · sort des affectations · gage sur la majoration de l’impôt sur les sociétés |
@@ -45,21 +45,23 @@ C. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 IV. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au III. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-V. – Le présent article concourt à l’équilibre de la refonte des impositions prévue par la présente loi.
+V. – Le présent article fond dans un impôt unique les impositions qu’il supprime. La fusion s’opère à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Elle concourt à la simplification des impositions prévue par la présente loi.
 
 VI. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime vingt et une impositions de l’État dont l’assiette relève déjà des grands impôts.
+Cet amendement supprime vingt et une impositions de l’État, au 1er juillet 2027.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 À côté de l’impôt sur le revenu, de l’impôt sur les sociétés et de la taxe sur la valeur ajoutée, le contribuable acquitte une série de prélèvements de quelques millions à quelques centaines de millions d’euros chacun : contribution sociale sur l’impôt sur les sociétés, taxe sur les excédents de provisions des assureurs, contribution sur les revenus locatifs, taxe sur les transactions financières, taxe sur les rachats d’actions, taxe générale sur les activités polluantes, taxe sur certains services numériques, contribution de sécurité immobilière, droits de timbre sur le passeport, sur la demande de naturalisation ou sur l’attestation d’accueil. Chacun a son assiette, ses exonérations, sa déclaration et son contentieux¹. Le même bénéfice supporte ainsi l’impôt sur les sociétés et plusieurs surtaxes qui s’y ajoutent.
 
 La mesure commence le 1er juillet 2027, le jour où les taux réduits de TVA prennent fin. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions et la contribution de sécurité immobilière. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois, et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
 
-La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. L’État cesse d’instruire, de contrôler et de recouvrer vingt et une impositions : c’est l’effet net, que le gage formel ne mesure pas. Un impôt simple se paie, un impôt multiple se contourne.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. L’État cesse d’instruire, de contrôler et de recouvrer vingt et une impositions : c’est l’effet net, que le gage formel ne mesure pas. Un impôt simple se paie, un impôt multiple se contourne. Vingt et une impositions se fondent dans un impôt unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La simplification en est l’effet. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
-¹ Code général des impôts, code des impositions sur les biens et services et code de l’entrée et du séjour des étrangers et du droit d’asile, base LEGI, millésime du 1er octobre 2026.
+¹ Code général des impôts, code des impositions sur les biens et services et code de l’entrée et du séjour des étrangers et du droit d’asile.
 
 ---
 
@@ -135,7 +137,7 @@ Après l’article 19 du texte déposé (« Mesures diverses de correction, cla
 | contribution exceptionnelle sur les bénéfices des grandes entreprises | loi n° 2025-127, art. 48 (`VIGUEUR`, version du 2026-02-21) | éteinte par le droit : due au titre des deux premiers exercices clos à compter du 31 décembre 2025 |
 | imposition minimale des groupes multinationaux | CGI, art. 223 VJ (`EXISTE`) | transposition de la directive (UE) 2022/2523 : la suppression manquerait à une obligation européenne |
 | redevances sanitaires d’abattage, de découpage, des produits de la pêche, de contrôle des résidus et de contrôle à l’importation | CGI, art. 302 bis N à 302 bis XA | redevances de contrôle officiel rendues obligatoires par l’article 79 du règlement (UE) 2017/625 (cité au texte de l’article 302 bis XA) |
-| cotisation sur la valeur ajoutée des entreprises | CGI, art. 1586 ter | abrogée par la clause générale (III, 285°) : la pièce ne la double pas |
+| cotisation sur la valeur ajoutée des entreprises | CGI, art. 1586 ter | abrogée par la clause générale (III, 278° — numérotation du 20261009) : la pièce ne la double pas |
 | contribution sociale de solidarité des sociétés, taxe sur les salaires, taxe de solidarité additionnelle, contributions pharmaceutiques, droits perçus au profit de l’assurance maladie, contribution sur les boissons sucrées et édulcorées, taxes sur l’affectation des véhicules | CSS et CGI | affectées aux régimes obligatoires de base : leur suppression relève de la loi de financement (CSS, art. LO 111-3-14 et LO 111-3-16). Hors domicile du lot |
 | taxe spéciale sur certains véhicules routiers (l. 58, 176,5 M€) | CIBS, art. L. 421-94 (2°), L. 421-100 à L. 421-103, L. 421-145 à L. 421-156 (`EXISTE`, relevé du lot R3) | taxe minimale sur les poids lourds exigée par l’article 3 de la directive 1999/62/CE : la suppression manquerait à une obligation européenne (à vérifier) |
 | contribution de la Caisse des dépôts représentative de l’impôt sur les sociétés (l. 161, 374,0 M€) | code monétaire et financier, art. L. 518-16 (`EXISTE`), qui la mentionne sans en fixer le régime | sort « fondu » dans l’impôt sur les sociétés : la fusion suppose d’assujettir la Caisse à l’impôt sur les sociétés, rédaction propre hors de cette pièce |

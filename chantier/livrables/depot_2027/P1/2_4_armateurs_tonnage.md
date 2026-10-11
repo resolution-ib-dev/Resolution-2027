@@ -30,7 +30,7 @@ il reste ouvert.**
 
 | n° | titre | ce que l’amendement fait | emplacement | état | à vérifier |
 |---|---|---|---|---|---|
-| 15 | Rendre les armateurs à l’impôt sur les sociétés | Abroger la taxation forfaitaire au tonnage des entreprises de transport maritime | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Vérifier le sort des options décennales en cours |
+| 15 | Les armateurs imposés sur leur bénéfice réel, le produit va au travail | Abroger la taxation forfaitaire au tonnage des entreprises de transport maritime | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Vérifier le sort des options décennales en cours |
 
 **Correspondance marquée ⚑** : le point d’accroche dépend du socle.
 
@@ -41,7 +41,7 @@ il reste ouvert.**
 ## Cartouche n° 15 — *hors pièce déposée*
 
 **Mesures portées** M-017, composante `RECETTE` — bloc B-05 — lot 2.4 ·
-**Titre** Ramener le transport maritime à l’impôt de droit commun ·
+**Titre** Les armateurs imposés sur leur bénéfice réel, le produit va au travail ·
 **Chapô** Abroger la taxation forfaitaire au tonnage des entreprises de transport maritime ·
 **Intention** Supprimer un régime d’assiette réservé à un secteur, sans le remplacer ·
 **Principe** à fournir
@@ -58,7 +58,7 @@ APRÈS L’ARTICLE 13, insérer l’article suivant :
 
 I. – L’article 209-0 B du code général des impôts est abrogé.
 
-II. – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
+II. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
 III. – Le I s’applique aux exercices ouverts à compter du 1er janvier 2027. Les options exercées avant cette date cessent de produire effet à la même date.
 
@@ -66,13 +66,15 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge le régime de taxation au tonnage des entreprises de transport maritime.
 
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
 Pour les entreprises de transport maritime qui l’ont choisi, l’impôt sur les sociétés prend la forme d’un forfait assis sur le volume des navires. Le bénéfice réel sort de l’assiette : une année faste et une année de perte donnent le même impôt et le montant acquitté ne dit plus rien de ce que l’entreprise a gagné. Le régime se prend sur option décennale et le code en organise la coexistence avec le report des déficits ainsi qu’avec deux déductions exceptionnelles (code général des impôts, article 209-0 B)¹.
 
 L’abrogation retire une assiette de remplacement et non un taux préférentiel : faute d’article qui la porte, le bénéfice des entreprises de transport maritime se détermine selon les règles de droit commun, sans qu’aucune disposition de coordination soit nécessaire pour l’y ramener. Les options en cours cessent de produire effet à la date d’entrée en vigueur. En clair : l’armateur déclare son bénéfice réel et l’administration cesse de tenir un barème par tranche de tonnage.
 
-Le rendement revient au budget général : la part restituée finance la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte. La simplification tient en une phrase : un régime d’assiette entier disparaît, avec son option, sa durée, son barème et sa clause de sortie. Chaque entreprise maritime est imposée sur ses résultats réels, comme toute entreprise, à la hausse comme à la baisse. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés ; son montant ne figure pas ici. Deux articles du même code citent ce régime pour l’articuler avec d’autres dispositifs et ils demandent une coordination². L’impôt sur les sociétés retrouve une assiette unique.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La simplification tient en une phrase : un régime d’assiette entier disparaît, avec son option, sa durée, son barème et sa clause de sortie. Chaque entreprise maritime est imposée sur ses résultats réels, comme toute entreprise, à la hausse comme à la baisse. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés ; son montant ne figure pas ici. Deux articles du même code citent ce régime pour l’articuler avec d’autres dispositifs et ils demandent une coordination². L’impôt sur les sociétés retrouve une assiette unique.
 
-¹ Code général des impôts, article 209-0 B, dans sa rédaction applicable au 1er octobre 2026 (base LEGI, millésime 20261001).
+¹ Code général des impôts, article 209-0 B, dans sa rédaction applicable au 1er octobre 2026.
 
 ² Code général des impôts, articles 209 et 39 decies C.
 

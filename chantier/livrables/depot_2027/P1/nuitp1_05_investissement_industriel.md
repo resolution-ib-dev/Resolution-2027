@@ -9,7 +9,7 @@
 
 ---
 
-# 05 — Laisser l’industriel investir sans guichet
+# 05 — Guichets industriels fermés, baisse des prélèvements pour toutes les entreprises
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 2 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026. Alinéas désignés par subdivision : la numérotation d’alinéas de l’Assemblée n’est pas encore connue.
@@ -69,6 +69,8 @@ IV. – Compléter cet article par un III ainsi rédigé :
 EXPOSÉ SOMMAIRE
 
 Cet amendement supprime le suramortissement industriel et abroge le crédit d’impôt pour l’industrie verte.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Un crédit d’impôt sur investissement rembourse une part de ce que l’entreprise aurait fait de toute façon, et il trie les projets par l’aptitude à monter un dossier d’agrément bien plus que par leur rentabilité. L’entreprise qui a un service fiscal obtient ; celle qui n’en a pas finance l’avantage de la première par son propre impôt. Le présent article étend ce crédit à de nouvelles filières et y ajoute, pour les petites et moyennes entreprises comme pour les entreprises de taille intermédiaire, une déduction supplémentaire assise sur la valeur des biens industriels acquis entre 2027 et 2029 (projet de loi de finances pour 2027, article 9)¹.
 

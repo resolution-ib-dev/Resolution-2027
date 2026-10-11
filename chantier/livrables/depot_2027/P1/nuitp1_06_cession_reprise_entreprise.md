@@ -9,7 +9,7 @@
 
 ---
 
-# 06 — Céder et reprendre une entreprise aux conditions de tous
+# 06 — Aucun avantage nouveau aux cessions d’entreprise, la ressource va aux salaires
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 2 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026. Alinéas désignés par subdivision : la numérotation d’alinéas de l’Assemblée n’est pas encore connue.
@@ -51,11 +51,15 @@ présenté par
 
 ARTICLE 10
 
-Supprimer cet article.
+I. – Supprimer cet article.
+
+II. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime les allègements fiscaux nouveaux accordés aux cessions et reprises d’entreprises.
+Cet amendement supprime les trois avantages fiscaux créés pour les cessions et reprises d’entreprises.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Le dirigeant qui vend part parce qu’il part ; le repreneur achète parce que l’affaire est rentable. Aucun des deux n’a attendu un avantage fiscal pour décider, et le présent article en crée pourtant trois pour la même opération : abattement porté à un million d’euros sur la plus-value du cédant qui vend à ses salariés, droits de mutation au taux de 0,1 % pour l’acheteur d’un fonds de commerce, déduction de 60 % du prix des biens neufs pour la microentreprise reprise (projet de loi de finances pour 2027, article 10)¹. Chacun suppose en outre des engagements de conservation sur cinq ans, que l’administration devra suivre pendant toute leur durée.
 

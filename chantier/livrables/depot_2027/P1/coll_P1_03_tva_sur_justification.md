@@ -1,4 +1,4 @@
-# Collectivités — la fraction de TVA maintenue sur justification, réduite en face des retraits
+# Collectivités — la fraction de TVA versée aux collectivités plafonnée au coût de leurs compétences
 
 **Porteur** : lot N4, repris par le fil d’application collectivités du 20261007. **Mandat** : plan de liasse du 20261005, lot N4 (volet collectivités, circuit A) · état des lots 14, 16 et 18 du 20261007 (l’exclusion des concours aux collectivités du gel des indexations est supprimée). **Domicile** : `chantier/livrables/depot_2027/P1/coll_P1_03_tva_sur_justification.md`. **Mesure** : 6 adresses relevées et contrôlées — 5 `EXISTE`, 1 création voulue (CGCT, L. 1614-1-2, pièce P1-01 du lot).
 
@@ -6,7 +6,7 @@
 
 | champ | valeur |
 |---|---|
-| titre | Ne verser la TVA aux départements et aux régions que pour les compétences qu’ils exercent |
+| titre | La fraction de TVA versée aux collectivités plafonnée au coût de leurs compétences |
 | chapô | Les fractions de TVA des collectivités absorbent le solde des baisses que la dotation globale ne peut porter ; celles des départements et des régions sont plafonnées au coût justifié de leurs compétences |
 | intention | « Puis la TVA sur justification. » Dernier étage, après les fonds discrétionnaires et la dotation globale. Départements et régions financés au coût justifié de leurs compétences |
 | mesures | imputation du solde des réductions sur les fractions de TVA (bloc communal, départements, régions) · plafonnement des fractions départementales et régionales au coût justifié des compétences exercées · état justificatif annexé au compte financier unique |
@@ -45,15 +45,17 @@ Compléter cet article par un IV ainsi rédigé :
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement fait de la fraction de taxe sur la valeur ajoutée versée aux collectivités une ressource justifiée par les compétences qu’elles exercent.
+Cet amendement conditionne aux compétences exercées la fraction de taxe sur la valeur ajoutée des collectivités.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Depuis 2018, l’État a remplacé des pans entiers de la fiscalité locale par des parts de TVA : dotation des régions, taxe d’habitation, cotisation sur la valeur ajoutée des entreprises (lois de finances pour 2017, 2020, 2021 et 2023)¹. Ces parts sont versées quelle que soit l’étendue des missions de la collectivité. Elles progressent avec la consommation nationale, non avec les charges locales. Une politique peut être abandonnée sans que la recette qui la finançait ne suive.
 
 La mesure joue en deux temps. D’abord, la fraction de TVA absorbe la part des baisses de ressources liées aux compétences retirées que la dotation globale de fonctionnement ne suffit pas à porter : la TVA vient en dernier, jamais en premier. Ensuite, à compter de 2028, la fraction versée aux départements et aux régions ne peut excéder ce que chacun justifie avoir dépensé pour ses compétences obligatoires. La justification tient en un état annexé au compte de l’exercice. Faute de le produire, la collectivité voit ses versements suspendus jusqu’à ce qu’elle le transmette.
 
-Les communes et leurs groupements ne sont concernés que par le premier temps : leur ressource passe par la taxe foncière, qu’ils votent. Pour les départements et les régions, la ressource suit désormais exactement les compétences que la loi leur confie. L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Une recette publique se justifie par une mission, pas par l’habitude.
+Les communes et leurs groupements ne sont concernés que par le premier temps : leur ressource passe par la taxe foncière, qu’ils votent. Pour les départements et les régions, la ressource suit désormais exactement les compétences que la loi leur confie. L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Une recette publique se justifie par une mission, pas par l’habitude. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
-¹ Loi n° 2016-1917 du 29 décembre 2016, article 149 · loi n° 2019-1479 du 28 décembre 2019, article 16 · loi n° 2020-1721 du 29 décembre 2020, article 8 · loi n° 2022-1726 du 30 décembre 2022, article 55 — base LEGI, millésime du 1er octobre 2026.
+¹ Loi n° 2016-1917 du 29 décembre 2016, article 149 · loi n° 2019-1479 du 28 décembre 2019, article 16 · loi n° 2020-1721 du 29 décembre 2020, article 8 · loi n° 2022-1726 du 30 décembre 2022, article 55.
 
 ---
 

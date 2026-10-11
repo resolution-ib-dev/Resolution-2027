@@ -1,4 +1,4 @@
-# Collectivités — la dotation suit la compétence, les compensations sans fondement tombent
+# Collectivités — la compétence retirée emporte sa dotation, fin des compensations d’impôts disparus
 
 **Porteur** : lot N4, repris par le lot R45, puis par le lot U6 ; point des droits de mutation ajouté par le lot V2 (20261005) ; repris par le fil d’application collectivités du 20261007. **Mandat** : plan de liasse du 20261005, lot N4 (volet collectivités, circuit A) · arbitrage de l’auteure du 20261005 sur les compensations versées par l’État : « ça dépend de leur statut constit » · revue B du 20261005, § 1, 4 (compensations d’exonérations coupées comme la DCRTP) · état du lot 12 du 20261007 (les 7,5 Md€ de compensations coupées sont **dans** les 33,3 Md€, en crédits de paiement). **Domicile** : `chantier/livrables/depot_2027/P1/coll_P1_01_dotations_face_aux_reductions_de_champ.md`. **Mesure** : 16 adresses relevées et contrôlées — 14 `EXISTE` (dont CGCT, LO 1114-4, ajouté par le lot V2), 1 création voulue (CGCT, L. 1614-1-2), 1 hors extrait citée en bloc interne seulement (loi n° 2004-809, art. 199-1).
 
@@ -6,7 +6,7 @@
 
 | champ | valeur |
 |---|---|
-| titre | Réduire la dotation de l’État à chaque compétence retirée, et cesser de verser les compensations que rien n’impose |
+| titre | A — La compétence retirée emporte sa dotation, l’économie rendue au salaire net · B — Fin des compensations d’impôts disparus, l’économie rendue aux revenus du travail |
 | chapô | A — Toute compétence retirée ou rendue facultative emporte la fin de sa compensation et la baisse, à due concurrence, des ressources versées par l’État : la compensation du transfert d’abord, la perte des droits de mutation attribués à l’État en 2028 ensuite, la dotation globale puis la fraction de TVA en dernier. B — Les dotations de compensation de la réforme de la taxe professionnelle et les compensations d’exonérations de fiscalité locale cessent d’être versées au 1er janvier 2027 |
 | intention | Les dotations en face des réductions de champ. Ce qui compense une compétence transférée tombe avec elle. Ce qui compense un impôt supprimé ou une exonération d’impôt local n’a pas de protection constitutionnelle et tombe tout de suite, avant la TVA. Le fonds horizontal de garantie, qui ne coûte rien à l’État, reste en l’état |
 | mesures | A — création de l’article L. 1614-1-2 du code général des collectivités territoriales, dont le III bis compte la perte des droits de mutation à titre onéreux des départements et des communes (attribués à l’État au 1er janvier 2028 par la pièce 4.2 C) comme réduction de ressource face aux retraits, sans autre compensation que celle du mécanisme organique d’autonomie financière · minoration de l’enveloppe départementale (L. 3334-1) · minoration annuelle de l’enveloppe nationale (L. 1613-1). B — fin des trois dotations de compensation de la réforme de la taxe professionnelle et du prélèvement au profit des contributeurs au fonds de garantie (loi n° 2009-1673, art. 78), des dotations de transfert de compensations d’exonérations (même loi, art. 77), de la dotation des fonds départementaux de péréquation (CGI, art. 1648 A), de la compensation du versement transport (loi n° 2015-1785, art. 15), de la compensation des locaux industriels (loi n° 2020-1721, art. 29) et des autres allocations compensatrices d’exonérations d’impositions directes locales |
@@ -68,7 +68,9 @@ IV. – La présente mesure concourt à la réduction des prélèvements pesant 
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement pose une règle simple : quand une collectivité perd une compétence, elle perd l’argent qui la finançait.
+Cet amendement conditionne les concours de l’État aux compétences que la collectivité exerce effectivement.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 La loi organise déjà le mouvement dans un seul sens. Tout transfert de compétence de l’État vers les collectivités s’accompagne des ressources correspondantes, et toute charge nouvelle de ressources déterminées par la loi (code général des collectivités territoriales, articles L. 1614-1 et L. 1614-1-1)¹. Rien ne dit ce qui advient de la ressource quand la compétence disparaît. Le contribuable continue alors de payer une dotation sans objet.
 
@@ -76,9 +78,9 @@ La mesure comble ce vide. Si la compétence avait été transférée par l’Ét
 
 L’ordre n’est pas indifférent. La dotation de l’État n’est pas une ressource propre des collectivités : la réduire en premier préserve leur autonomie financière.
 
-La règle s’applique à tout retrait qui prend effet à compter de 2027. L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Une compétence en moins, c’est une dépense en moins : la facture doit suivre.
+La règle s’applique à tout retrait qui prend effet à compter de 2027. L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Une compétence en moins, c’est une dépense en moins : la facture doit suivre. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement.
 
-¹ Code général des collectivités territoriales, articles L. 1614-1, L. 1614-1-1, L. 1614-3 et L. 1614-4, base LEGI, millésime du 1er octobre 2026.
+¹ Code général des collectivités territoriales, articles L. 1614-1, L. 1614-1-1, L. 1614-3 et L. 1614-4.
 
 ---
 
@@ -132,17 +134,19 @@ II. – Compléter cet article par un III ainsi rédigé :
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement met fin, au 1er janvier 2027, aux dotations que l’État verse aux collectivités pour compenser des impôts supprimés ou des exonérations d’impôts locaux.
+Cet amendement supprime au 1er janvier 2027 les dotations compensant des impôts locaux supprimés.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Ces dotations ne financent aucune compétence. Les unes compensent la taxe professionnelle, disparue il y a seize ans, sur la base des recettes de 2010 (loi n° 2009-1673 du 30 décembre 2009 de finances pour 2010, articles 77 et 78)¹. Les autres compensent des exonérations et des réductions de bases que la loi a décidées : locaux industriels, versement transport, allocations compensatrices. Le législateur les réduit déjà chaque année : elles servent de variable d’ajustement, et le projet de loi en fixe encore le montant pour 2027.
 
 Le Conseil constitutionnel juge que la Constitution n’impose de ressources qu’en face d’un transfert de compétences ou d’une compétence obligatoire créée ou étendue (décision n° 2011-144 QPC du 30 juin 2011)². Il admet que la loi de finances minore ces compensations (décision n° 2016-744 DC du 29 décembre 2016)³. Une compensation d’impôt n’est pas la ressource d’une mission.
 
-La mesure va au bout de la logique : ces dotations cessent d’être versées. Le fonds national de garantie individuelle des ressources reste en l’état : il se finance entre collectivités, sans un euro de l’État. Dit simplement : l’État cesse de payer pour un impôt qui n’existe plus.
+La mesure va au bout de la logique : ces dotations cessent d’être versées. Le fonds national de garantie individuelle des ressources reste en l’état : il se finance entre collectivités, sans un euro de l’État. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. Dit simplement : l’État cesse de payer pour un impôt qui n’existe plus.
 
-L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail.
+L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
-¹ Loi n° 2009-1673 du 30 décembre 2009 de finances pour 2010, articles 77 et 78 · loi n° 2020-1721 du 29 décembre 2020, article 29 · loi n° 2015-1785 du 29 décembre 2015, article 15 · code général des impôts, article 1648 A — base LEGI, millésime du 1er octobre 2026.
+¹ Loi n° 2009-1673 du 30 décembre 2009 de finances pour 2010, articles 77 et 78 · loi n° 2020-1721 du 29 décembre 2020, article 29 · loi n° 2015-1785 du 29 décembre 2015, article 15 · code général des impôts, article 1648 A.
 ² Conseil constitutionnel, décision n° 2011-144 QPC du 30 juin 2011, Départements de l’Hérault et des Côtes-d’Armor, considérant 7.
 ³ Conseil constitutionnel, décision n° 2016-744 DC du 29 décembre 2016, paragraphes 53 et 54.
 

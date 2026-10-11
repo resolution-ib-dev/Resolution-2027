@@ -32,7 +32,7 @@ il reste ouvert.**
 
 | n° | titre | ce que l’amendement fait | emplacement | état | à vérifier |
 |---|---|---|---|---|---|
-| 18 | Payer l’énergie au même tarif quel que soit le métier | Abroger les tarifs réduits d’accise réservés aux transports, aux procédés industriels et aux installations soumises aux quotas | art. add. après l’art. 13 ⚑ | ne pas déposer en l’état | Contrôle de périmètre des fourchettes à rejouer ; droit de l’Union non instruit |
+| 18 | Même tarif d’énergie pour tous les métiers, restitution aux revenus d’activité | Abroger les tarifs réduits d’accise réservés aux transports, aux procédés industriels et aux installations soumises aux quotas | art. add. après l’art. 13 ⚑ | ne pas déposer en l’état | Contrôle de périmètre des fourchettes à rejouer ; droit de l’Union non instruit |
 
 **Correspondance marquée ⚑** : le point d’accroche dépend du socle.
 
@@ -43,7 +43,7 @@ il reste ouvert.**
 ## Cartouche n° 18 — *hors pièce déposée*
 
 **Mesures portées** M-017, composante `RECETTE` — bloc B-05 — lot 2.4 ·
-**Titre** Payer l’énergie au même tarif quel que soit le métier ·
+**Titre** Même tarif d’énergie pour tous les métiers, restitution aux revenus d’activité ·
 **Chapô** Abroger les tarifs réduits d’accise réservés aux transports, aux procédés industriels et aux installations soumises aux quotas ·
 **Intention** Supprimer l’aide à l’entreprise logée dans le tarif d’une taxe plutôt que dans un crédit d’impôt ·
 **Principe** à fournir
@@ -66,7 +66,7 @@ I. – Le code des impositions sur les biens et services est ainsi modifié :
 
 3° Les articles L. 312-74 à L. 312-77 sont abrogés.
 
-II. – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
+II. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
 III. – Le I s’applique aux opérations dont le fait générateur intervient à compter du 1er juillet 2027.
 
@@ -74,13 +74,15 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge les tarifs réduits d’accise réservés à trois familles d’activités économiques.
 
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
 Ce qui se présente comme une accise unique sur l’énergie est en réalité un tarif par métier. Le même mégawattheure se paie à trois prix selon que celui qui le consomme transporte, transforme ou relève du marché des quotas et le partage ne se lit pas dans le tarif : il se lit dans trois sous-ensembles d’articles qui désignent des activités économiques et renvoient à des conditions d’éligibilité (code des impositions sur les biens et services, articles L. 312-48 à L. 312-77)¹. Le tarif par métier fausse les prix relatifs entre activités qui consomment la même énergie.
 
-L’abrogation retire les trois sous-ensembles en entier et non leurs barèmes : ce sont les articles qui ouvrent le droit au tarif réduit qui disparaissent et non les tarifs eux-mêmes, de sorte que le tarif normal s’applique sans qu’il faille le réécrire. Les tarifs réduits agricoles, forestiers et montagnards relèvent d’une pièce distincte, qui organise leur transition. Dit simplement : chaque consommateur d’énergie acquitte l’accise au même tarif et les demandes de remboursement qui l’accompagnaient disparaissent avec elle.
+L’abrogation retire les trois sous-ensembles en entier et non leurs barèmes : ce sont les articles qui ouvrent le droit au tarif réduit qui disparaissent et non les tarifs eux-mêmes, de sorte que le tarif normal s’applique sans qu’il faille le réécrire. Les tarifs réduits agricoles, forestiers et montagnards relèvent d’une disposition distincte, qui organise leur transition. Dit simplement : chaque consommateur d’énergie acquitte l’accise au même tarif et les demandes de remboursement qui l’accompagnaient disparaissent avec elle.
 
-Le rendement revient au budget général : la part restituée finance la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte. La simplification est de premier ordre : un régime de remboursement trimestriel, ses justificatifs et ses contrôles cessent pour des dizaines de milliers de redevables. Chaque secteur bénéficie en regard de la baisse des prélèvements sur le travail et de la suppression des taxes qui lui étaient propres. L’effet se constate dès le second semestre de 2027 sur le produit de l’accise ; son montant ne figure pas ici. Le même mégawattheure supporte le même tarif, quel que soit le métier de celui qui le consomme.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La simplification est de premier ordre : un régime de remboursement trimestriel, ses justificatifs et ses contrôles cessent pour des dizaines de milliers de redevables. Chaque secteur bénéficie en regard de la baisse des prélèvements sur le travail et de la suppression des taxes qui lui étaient propres. L’effet se constate dès le second semestre de 2027 sur le produit de l’accise ; son montant ne figure pas ici. Le même mégawattheure supporte le même tarif, quel que soit le métier de celui qui le consomme. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
-¹ Code des impositions sur les biens et services, articles L. 312-48 à L. 312-77, dans leur rédaction applicable au 1er octobre 2026 (base LEGI, millésime 20261001).
+¹ Code des impositions sur les biens et services, articles L. 312-48 à L. 312-77, dans leur rédaction applicable au 1er octobre 2026.
 
 ---
 

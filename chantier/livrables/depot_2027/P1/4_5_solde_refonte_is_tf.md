@@ -1,10 +1,10 @@
-# Pièce 4.5 — Solde de la refonte fiscale : impôt sur les sociétés, sans hausse de la pression fiscale
+# Pièce 4.5 — Un taux unique d’impôt sur les sociétés, pour l’équilibre de la refonte fiscale
 
 **Porteur** : lot S1 (reprise de R1, ex-N1) ; mise à jour lot U3 (20261005 : corridor 20 % – 28 %, exercices ouverts à compter du 1er juillet 2027). Coordination finale lot V1 (20261005 : fourchette de la taxe foncière citée 10 % – 35 %, comme la pièce 4.4 ; **ramenée à 10 % – 30 % le 20261008, avec elle** · renvoi à la clause générale recalé sur le D de son IV). **Passe d’intégration du 20261007** : arbitrages 4 et 5 de l’auteure — taux écrit en dur à 27 %, corridor supprimé ; borne de prélèvements obligatoires sortie du dispositif. **Mandat** : plan de liasse du 20261005 (`methode/plan_liasse_2027_20261005.md`, § 2, ligne N1), arbitrages de l’auteure du 20261005 : « IS : 27 % à l’initiation par défaut, même avec fourchette 25-30 renvoyant par décret. objectif de non hausse de pression fiscale à inscrire aussi », puis « pourquoi 2028 ? commencer dès le 1er juillet 2027 pour tout ce qu’on peut […] Inscrivons 20 à 28 alors ? » · « TF : […] c’est la faculté qui fera le solde » ; **arbitrages 4 et 5 du 20261007**, qui priment. **Domicile** : `chantier/livrables/depot_2027/P1/4_5_solde_refonte_is_tf.md`. **Appui** (passe du 20261007) : `methode/appui_des_passes.md` · `methode/reprise_20261007.md`, § 1 · `methode/regles_redactionnelles.md`, section du 20261007 · `reference/guide_legistique.md`, parties I à IV · extrait LEGI 20261001 de l’article 219 du code général des impôts, relevé au lot S1, non rejoué. **Mesure** : 5 articles visés au dispositif (code général des impôts, art. 219, 212 bis, 223 B bis, 1668 · loi n° 2019-1479, art. 179), 5 contrôlés, 5 `EXISTE` ; 12 adresses de motivation au bloc interne (loi organique n° 2001-692, art. 34 · CGI, art. 145, 208 C, 209, 218, 220 quinquies, 221, 223 F, 235 ter ZC, 238, 238 octies, 1380), 12 contrôlées, 12 `EXISTE`.
 
 | cartouche | |
 |---|---|
-| titre | Faire porter le solde de la refonte par l’impôt sur les sociétés, sans hausse de la pression fiscale |
+| titre | Un taux unique d’impôt sur les sociétés, pour l’équilibre de la refonte fiscale |
 | chapô | Un impôt sur les sociétés à taux unique de 27 %, sans taux réduit, applicable aux exercices ouverts à compter du 1er juillet 2027 ; la taxe foncière unique fait sa part du solde par le vote des communes, dans la fourchette fixée par la pièce 4.4 ; un rapport annuel d’équilibre |
 | intention | fermer le circuit de la refonte : taux plein de TVA fixe, impôt sur le revenu égal à l’aide fondamentale, l’impôt sur les sociétés et la taxe foncière portant le solde — la taxe foncière par la faculté communale, l’impôt sur les sociétés par un taux unique écrit dans la loi, dont le rapport annuel mesure l’effet sur l’équilibre |
 | mesures | taux unique de l’IS à 27 %, exercices ouverts à compter du 1er juillet 2027 · suppression de tous les taux réduits de l’article 219 · rapport annuel d’équilibre (seconde partie) |
@@ -69,15 +69,17 @@ IV. – Le présent article concourt à l’équilibre de la refonte des imposit
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement fixe à 27 % le taux unique de l’impôt sur les sociétés et supprime tous les taux particuliers.
+Cet amendement substitue aux taux de l’impôt sur les sociétés un taux unique de 27 %.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Le taux affiché de l’impôt sur les sociétés est de 25 % (code général des impôts, article 219)¹, et le taux effectivement supporté est très inférieur : l’article porte un taux réduit pour les petites entreprises, un taux séparé pour les plus-values de cession de titres, un autre pour les produits de concession de licences, un autre encore pour certaines cessions d’immeubles. Deux entreprises au même bénéfice ne paient donc pas le même impôt, selon la forme sous laquelle ce bénéfice se présente et selon qu’elles savent la choisir.
 
-L’amendement ramène toutes ces situations au droit commun : un seul taux, 27 %, quel que soit la taille de l’entreprise ou l’origine de son bénéfice, sans taux réduit, sans quote-part dérogatoire et sans taux nul. Il porte le solde de la refonte, avec la taxe foncière unique, dont chaque commune vote le taux dans la fourchette fixée par la loi et répond de son choix devant ses électeurs. Le taux est écrit dans la loi et il ne se délègue pas : la loi fixe l’impôt, et ce qui doit varier d’une année sur l’autre se revote. En clair : chaque entreprise paie le même taux sur tout son bénéfice, à compter de l’exercice ouvert le 1er juillet 2027.
+L’amendement ramène toutes ces situations au droit commun : un seul taux, 27 %, quel que soit la taille de l’entreprise ou l’origine de son bénéfice, sans taux réduit, sans quote-part dérogatoire et sans taux nul. Il porte le solde de la refonte fiscale, avec la taxe foncière unique, dont chaque commune vote le taux dans la fourchette fixée par la loi et répond de son choix devant ses électeurs. Le taux est écrit dans la loi et il ne se délègue pas : la loi fixe l’impôt, et ce qui doit varier d’une année sur l’autre se revote. En clair : chaque entreprise paie le même taux sur tout son bénéfice, à compter de l’exercice ouvert le 1er juillet 2027.
 
-La refonte ne relève pas la pression fiscale, et c’est la règle qui tient l’ensemble : les taxes supprimées sur la consommation, le travail, le chiffre d’affaires et les mutations se reportent sur deux impôts à large assiette, sans que le poids total des prélèvements obligatoires dans la richesse nationale dépasse son niveau de 2026. Un rapport annuel le constate, et la loi de finances suivante corrige si l’écart apparaît. Deux impôts lisibles valent mieux que trente taxes dont personne ne connaît le rendement.
+La refonte fiscale ne relève pas la pression globale et c’est la règle qui tient l’ensemble : les taxes supprimées sur la consommation, le travail, le chiffre d’affaires et les mutations se reportent sur deux impôts à large assiette, sans que le poids total des prélèvements obligatoires dans la richesse nationale dépasse son niveau de 2026. Un rapport annuel le constate, et la loi de finances suivante corrige si l’écart apparaît. Deux impôts lisibles valent mieux que trente taxes dont personne ne connaît le rendement. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
-¹ Code général des impôts, article 219, I, deuxième alinéa, base LEGI, millésime du 1er octobre 2026.
+¹ Code général des impôts, article 219, I, deuxième alinéa.
 ---
 
 ## Amendement 4.5-b

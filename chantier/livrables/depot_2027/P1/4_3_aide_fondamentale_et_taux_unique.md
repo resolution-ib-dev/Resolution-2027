@@ -1,4 +1,4 @@
-# P1-01 — Aide fondamentale et taux unique
+# P1-01 — Un taux unique finance une aide fondamentale versée à chacun
 
 **Porteur** : fil de nuit 1.B, versement, 20261008. **Mandat** : procédure de nuit du
 20261008, phase 1.B. **Domicile** : `livrables/depot_2027/P1/4_3_aide_fondamentale_et_taux_unique.md`.
@@ -108,17 +108,17 @@ II. – Compléter cet article par les V à VIII ainsi rédigés :
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement substitue au barème progressif un taux unique de 23 % et institue l’aide fondamentale universelle.
+Cet amendement substitue au barème progressif un taux unique de 23 % et introduit l’aide fondamentale universelle.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Le quotient familial et la décote profitent aux seuls foyers imposables : un ménage modeste qui élève deux enfants en est exclu, faute d’un impôt sur lequel les imputer. Sur 40,2 millions de foyers fiscaux, 18,5 millions seulement ont acquitté l’impôt sur le revenu au titre de 2023 (Conseil des prélèvements obligatoires, octobre 2024)¹. L’impôt sur le revenu sert une solidarité qui ne touche qu’un foyer sur deux : plus son assiette se resserre, moins il peut porter la redistribution ; celle-ci passe alors par des prestations qu’il faut demander, instruire et contrôler.
 
 Le taux unique de 23 % remplace le barème progressif ; l’aide fondamentale universelle vient en diminution de l’impôt ainsi calculé, soit 6 600 € par an et par adulte et 3 300 € par enfant à charge, majorés de 6 600 € pour une personne invalide et de 3 300 € pour une pension liquidée avant le 1er janvier 2028. L’excédent est versé. Le quotient familial et la décote disparaissent : à taux proportionnel, diviser le revenu en parts ne change plus l’impôt. Dit simplement : à partir de janvier 2028, le salarié au SMIC reçoit 550 € par mois de l’administration fiscale au lieu d’attendre qu’une caisse lui reconnaisse un droit.
 
-L’aide rend en espèces ce que le quotient familial et la décote ne rendaient qu’aux imposables ; son coût est gagé sur l’abrogation des dépenses fiscales d’impôt sur le revenu qu’elle remplace et que la présente loi emporte par ailleurs. Elle retire à l’administration la liquidation des parts et le calcul de la décote. Dès l’imposition des revenus de 2028, l’impôt devient négatif en deçà de 28 696 € pour une personne seule, seuil obtenu en divisant l’aide par le taux. Un amendement distinct neutralise les dépenses fiscales sans porter l’aide fondamentale : les deux se cumulent. L’impôt devient l’instrument d’une solidarité qui atteint chaque foyer.
+L’aide rend en espèces ce que le quotient familial et la décote ne rendaient qu’aux imposables ; son coût est gagé sur l’abrogation des dépenses fiscales d’impôt sur le revenu qu’elle remplace et que la présente loi emporte par ailleurs. Elle retire à l’administration la liquidation des parts et le calcul de la décote. Dès l’imposition des revenus de 2028, l’impôt devient négatif en deçà de 28 696 € pour une personne seule, seuil obtenu en divisant l’aide par le taux. Un amendement distinct neutralise les dépenses fiscales sans porter l’aide fondamentale : les deux se cumulent. L’impôt devient l’instrument d’une solidarité qui atteint chaque foyer. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Conseil des prélèvements obligatoires, « Conforter l’égalité des citoyens devant l’imposition des revenus », octobre 2024, p. 25.
-
-² Renvois entrants relevés sur l’extrait et non coordonnés : articles 197 A, 204 H, 1417, 158, 182 A, 163-0 A et 1740 B du code général des impôts, qui visent le barème, ses tranches ou le 2 du I de l’article 197.
 
 ---
 
@@ -128,7 +128,7 @@ L’aide rend en espèces ce que le quotient familial et la décote ne rendaient
 |---|---|
 | numéro | à fixer |
 | correspondance | PLF 2027, première partie, article 2 ⚑ |
-| titre | Un impôt à taux unique, et une aide versée à chacun |
+| titre | Un taux unique finance une aide fondamentale versée à chacun |
 | chapô | Substituer au barème progressif un taux unique et une aide fondamentale imputée sur l’impôt |
 | intention | « On entre par l’aide fondamentale ; le reste est le solde » — mots de l’auteure, `M-036` |
 | principe | à fournir |
@@ -238,7 +238,7 @@ Les paramètres de taux et de montant viennent de l’énoncé (23 %, 550 € 
 
 **Forme retenue : `GA+`**, par la correction de recevabilité du 20261004, point 1.
 **Branche prise : 3** — des abrogations de même rang portées par la liasse, au III de l’article 1er de la clause générale, **hors de la présente pièce**. **Reprise du 20261005 : le gage suit le circuit de la pièce.** L’aide fondamentale est le circuit C, qui s’équilibre par ce qu’il fond : le taux unique et les niches fléchées. Le taux unique est dans la pièce et ne peut pas la gager ; restent les niches fléchées.
-**Source** — les sept niches que l’annexe des dépenses fiscales range au régime « Fusion CI IR », hors la demi-part de l’article 194, que la pièce abroge elle-même : articles 157 bis ; 81, 2°, 9° ter, 14° et 14° bis ; 195, 1, c, d et d bis, 2, 3 à 5 ; 196 A bis ; 200 quater B du code général des impôts — clause générale, III, 129°, 54°, 62°, 56°, 137°, 139° et 167° ; 4 410 M€ de réalisation 2024. Les articles 81 quater, 199 undecies B et 81 bis, qui gageaient la pièce jusque-là, appartiennent aux circuits A et B et sont rendus au registre.
+**Source** — les sept niches que l’annexe des dépenses fiscales range au régime « Fusion CI IR », hors la demi-part de l’article 194, que la pièce abroge elle-même : articles 157 bis ; 81, 2°, 9° ter, 14° et 14° bis ; 195, 1, c, d et d bis, 2, 3 à 5 ; 196 A bis ; 200 quater B du code général des impôts — clause générale, III, 126°, 51°, 59°, 53°, 134°, 136° et 159° ; 4 410 M€ de réalisation 2024. Les articles 81 quater, 199 undecies B et 81 bis, qui gageaient la pièce jusque-là, appartiennent aux circuits A et B et sont rendus au registre.
 **Affectataire de la perte** — l’État. Le gage lui bénéficie : il est correctement affecté.
 **Montant** — non relevé. L’annexe 2027 des voies et moyens n’est pas parue ; aucun chiffre de l’annexe 2026 n’est employé.
 **Effet net transmis à l’exposé** — la liquidation des parts, le plafonnement par demi-part et le calcul de la décote disparaissent ; l’exposé le porte.
@@ -293,5 +293,5 @@ Degré **O3**, le solde étant non nul et l’objet nommé : « Le produit ré
 3. **Le 3 du I de l’article 197 — réfaction ultramarine — n’est pas touché.** C’est une niche, elle appartient au lot 3.1, et une pièce ne préempte pas ce qu’une autre doit porter. L’outre-mer n’est pas mentionné à l’exposé.
 4. **La décote est abrogée par ce lot, et non par le lot 3.1** : elle est l’avantage que l’aide fondamentale remplace terme pour terme, au sens de la composante `RECETTE` de `M-039`. **Elle n’est pas source de gage** — cette qualification tombe avec la correction du 20261004, point 1.
 5. **Les articles 195 et 196 B ne sont pas touchés** : leurs majorations sont des niches de rang supérieur. Leur renvoi à l’article 194 abrogé est un effet de bord déclaré.
-6. **L’article 196 est conservé** : il définit la personne à charge, dont l’aide par enfant a besoin. **Reprise V1 du 20261005** : l’article 196 A bis (invalide vivant sous le toit, sans condition d’âge) n’est plus visé par le 6 : l’aide par enfant ne vise que les mineurs, que l’article 196 suffit à définir. Il est abrogé par la clause générale (139°) pour l’impôt dû au titre de 2028 et reste au gage du VIII à ce titre.
+6. **L’article 196 est conservé** : il définit la personne à charge, dont l’aide par enfant a besoin. **Reprise V1 du 20261005** : l’article 196 A bis (invalide vivant sous le toit, sans condition d’âge) n’est plus visé par le 6 : l’aide par enfant ne vise que les mineurs, que l’article 196 suffit à définir. Il est abrogé par la clause générale (136°) pour l’impôt dû au titre de 2028 et reste au gage du VIII à ce titre.
 7. **La coordination de l’article 204 H est isolée et non rédigée**, conformément au régime de l’amendement.

@@ -30,7 +30,7 @@ il reste ouvert.**
 
 | n° | titre | ce que l’amendement fait | emplacement | état | à vérifier |
 |---|---|---|---|---|---|
-| 17 | Laisser s’éteindre les déductions exceptionnelles | Abroger les huit déductions exceptionnelles d’investissement en vigueur | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Articuler avec les pièces 05 et 09 |
+| 17 | Huit déductions exceptionnelles éteintes, la baisse profite à chaque entreprise | Abroger les huit déductions exceptionnelles d’investissement en vigueur | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Articuler avec les pièces 05 et 09 |
 
 **Correspondance marquée ⚑** : le point d’accroche dépend du socle.
 
@@ -41,7 +41,7 @@ il reste ouvert.**
 ## Cartouche n° 17 — *hors pièce déposée*
 
 **Mesures portées** M-017, composante `RECETTE` — bloc B-05 — lot 2.4 ·
-**Titre** Laisser s’éteindre les déductions exceptionnelles ·
+**Titre** Huit déductions exceptionnelles éteintes, la baisse profite à chaque entreprise ·
 **Chapô** Abroger les huit déductions exceptionnelles d’investissement en vigueur ·
 **Intention** Mettre fin à une file de déductions qui se proroge d’elle-même, en cohérence avec le refus des deux déductions nouvelles du texte ·
 **Principe** à fournir
@@ -58,7 +58,7 @@ APRÈS L’ARTICLE 13, insérer l’article suivant :
 
 I. – Les articles 39 decies, 39 decies A, 39 decies B, 39 decies C, 39 decies D, 39 decies E, 39 decies F et 39 decies G du code général des impôts sont abrogés.
 
-II. – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
+II. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
 III. – Le I s’applique aux biens acquis, pris en crédit-bail ou pris en location avec option d’achat à compter du 1er janvier 2027.
 
@@ -66,13 +66,15 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge les huit déductions exceptionnelles d’investissement du code général des impôts.
 
-Le législateur a institué la première déduction exceptionnelle pour une durée bornée, au motif d’un retard d’investissement à rattraper. Huit lui ont succédé depuis, chacune prorogeant la précédente ou visant un matériel voisin — poids lourds, robots, navires, engins, simulateurs, cuves —, et le texte en discussion en propose deux de plus. L’autorisation est ponctuelle, la pratique est permanente : aucun de ces dispositifs n’a jamais eu à démontrer qu’il déclenchait un achat au lieu d’en payer une part (code général des impôts, articles 39 decies à 39 decies G)¹.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Le législateur a institué la première déduction exceptionnelle pour une durée bornée, au motif d’un retard d’investissement à rattraper. Huit lui ont succédé depuis, chacune prorogeant la précédente ou visant un matériel voisin : poids lourds, robots, navires, engins, simulateurs, cuves. Le texte en discussion en propose deux de plus. L’autorisation est ponctuelle, la pratique est permanente : aucun de ces dispositifs n’a jamais eu à démontrer qu’il déclenchait un achat au lieu d’en payer une part (code général des impôts, articles 39 decies à 39 decies G)¹.
 
 La suppression ferme la file et non le dernier maillon : les huit articles tombent ensemble, de sorte que l’entreprise qui investit relève de l’amortissement de droit commun sans avoir à chercher si son matériel figure dans une liste. Les biens acquis jusqu’au 31 décembre 2026 conservent le régime sous lequel ils ont été acquis. En clair : l’entreprise amortit ses machines comme elle les use et son comptable cesse de tenir une déduction parallèle à l’amortissement.
 
-Le rendement revient au budget général : la part restituée finance la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte. La gestion s’allège de huit nomenclatures de biens éligibles, de huit plafonds et de huit dates limites. L’entreprise investit au moment que son activité commande, et non plus à celui qu’une fenêtre fiscale lui dicte. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Deux amendements distincts retirent du texte les deux déductions nouvelles qu’il crée ; le présent article ne les recouvre pas et s’y ajoute. Une durée bornée se tient à son terme.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La gestion s’allège de huit nomenclatures de biens éligibles, de huit plafonds et de huit dates limites. L’entreprise investit au moment que son activité commande, et non plus à celui qu’une fenêtre fiscale lui dicte. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Deux amendements distincts retirent du texte les deux déductions nouvelles qu’il crée ; le présent article ne les recouvre pas et s’y ajoute. Une durée bornée se tient à son terme.
 
-¹ Code général des impôts, articles 39 decies à 39 decies G, dans leur rédaction applicable au 1er octobre 2026 (base LEGI, millésime 20261001).
+¹ Code général des impôts, articles 39 decies à 39 decies G, dans leur rédaction applicable au 1er octobre 2026.
 
 ---
 

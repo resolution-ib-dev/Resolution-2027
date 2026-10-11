@@ -9,7 +9,7 @@
 
 ---
 
-# 09 — Revenir au droit commun pour l’impôt agricole
+# 09 — Suramortissement agricole supprimé, crédit de remplacement éteint, gain rendu aux actifs
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 2 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026. Alinéas désignés par subdivision : la numérotation d’alinéas de l’Assemblée n’est pas encore connue.
@@ -68,16 +68,18 @@ V. – Rédiger ainsi le A du V :
 
 VI. – Compléter cet article par un VI ainsi rédigé :
 
-« VI. – Le produit résultant du B du II concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires. »
+« VI. – Le produit résultant du B du II concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires. »
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime le suramortissement agricole et éteint par tiers le crédit d’impôt de remplacement.
+Cet amendement supprime le suramortissement agricole et abroge en 2029 le crédit d’impôt de remplacement.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Le présent article crée ou proroge pour l’agriculture une prise en charge du remplacement, une déduction sur les bâtiments de stockage, un crédit d’impôt lié à la certification et un dégrèvement de taxe foncière (projet de loi de finances pour 2027, article 13)¹. Quatre aides pour un même secteur, chacune avec son formulaire, son plafond et son contrôle, et aucune dont le bilan ait été rendu. L’exploitant qui n’a pas de comptable passe à côté des quatre ; celui qui en a un les cumule.
 
 L’amendement retire du texte la création de la déduction exceptionnelle, laisse s’éteindre à leur terme voté le dégrèvement de taxe foncière des associations foncières pastorales et le crédit d’impôt lié à la certification environnementale, et éteint le crédit d’impôt pour dépenses de remplacement par tiers : il est réduit d’un tiers pour les dépenses engagées en 2027, de deux tiers pour celles de 2028, et il est abrogé à compter des dépenses engagées en 2029. La cadence est celle que la même loi retient pour tout le secteur agricole, afin qu’aucune exploitation ne découvre la sortie l’année où elle arrive. En clair : l’agriculteur dispose de trois exercices pour ajuster ses charges, et il décide seul de ses congés, de ses bâtiments et de ses labels.
 
-Le rendement revient au budget général : la part restituée va à la baisse des prélèvements sur les revenus d’activité, le solde à l’équilibre de la refonte, et il croît d’un tiers par an jusqu’en 2029. La gestion s’allège de trois régimes d’instruction et de contrôle propres à un seul secteur. Le revenu agricole se défend par le prix, que la baisse générale des prélèvements soutient pour tous.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale, et il croît d’un tiers par an jusqu’en 2029. La gestion s’allège de trois régimes d’instruction et de contrôle propres à un seul secteur. Le revenu agricole se défend par le prix, que la baisse générale des prélèvements soutient pour tous. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 13, II, A à C et IV.

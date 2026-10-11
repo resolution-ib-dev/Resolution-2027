@@ -1,4 +1,4 @@
-# Pièce 4.6 — Taux réduits de TVA de droit commun : sortie au 1er juillet 2028, alimentation par marches
+# Pièce 4.6 — Les trois taux de TVA réunis en un seul, à rendement constant
 
 - **Porteur** : lot R2 (reprise de N2) ; passe d’intégration du 20261007 (reclassement au circuit A, arbitrages 6 et 7 de `methode/reprise_20261007.md`) ; passe d’application du 20261007 (renvoi au rang renuméroté de la clause générale, typographie)
 - **Mandat** : plan de liasse du 20261005 (`methode/plan_liasse_2027_20261005.md`, ligne N2), calendrier arrêté par l’auteure le 20261005 · coordination finale lot V1 du 20261005 · arbitrages 6 et 7 de l’auteure du 20261007 · observation 2.1 du 20261007 pour le renvoi au III de la clause
@@ -51,17 +51,19 @@ III. – Le deuxième alinéa de l’article L. 213-151 du même code, dans sa r
 
 IV. – Le I s’applique aux opérations dont le fait générateur intervient à compter du 1er juillet 2028. Le II s’applique aux opérations dont le fait générateur intervient à compter du 1er juillet 2029. Le III s’applique aux opérations dont le fait générateur intervient à compter du 1er juillet 2030.
 
-V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+V. – Le présent article réunit en un taux unique les taux de la taxe sur la valeur ajoutée. La fusion s’opère à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Elle concourt à la simplification des impositions prévue par la présente loi.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement aligne sur le taux normal les taux réduits de taxe sur la valeur ajoutée de droit commun.
+Cet amendement aligne sur le taux normal les taux réduits de taxe sur la valeur ajoutée.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Le consommateur paie trois taux différents sans que personne lui ait jamais expliqué la frontière, et le producteur plaide chaque année pour passer de l’un à l’autre. Ces taux réduits forment la plus grosse dépense fiscale qui ne dit pas son nom : le Conseil des prélèvements obligatoires les estimait à 30 milliards d’euros en 2021, dont 20 milliards sur l’eau et l’alimentation (rapport de février 2023, page 32)¹. Ils ne figurent pas au recensement des dépenses fiscales, et échappent ainsi au débat annuel sur leur efficacité.
 
 L’amendement les ramène au taux normal, qui reste fixé à 20 %, au 1er juillet 2028, sur tout le territoire métropolitain, Corse comprise. Les taux applicables outre-mer ne sont pas modifiés. L’alimentation suit un chemin plus long et plus graduel : elle passe à 10 % au 1er juillet 2028, à 15 % au 1er juillet 2029, puis rejoint le taux normal au 1er juillet 2030, et elle est désignée par renvoi aux articles du code qui la définissent, sans liste nouvelle. Les taux dérogatoires recensés comme dépenses fiscales ne sont pas visés ici : une disposition distincte les supprime au 1er juillet 2027. En clair : le consommateur paie un seul taux, et l’alimentation y vient en trois marches annuelles.
 
-Chaque marche accompagne la suppression des prélèvements propres au secteur concerné : les taxes sur les spectacles, sur les industries du bois, sur les matériaux de construction, sur l’immatriculation des véhicules et sur les déchets tombent le 1er juillet 2027 ; celles sur les services de télévision, sur la publicité et sur les activités polluantes sont dues pour la dernière fois au titre de 2027. Les trois dates de cet amendement ne sont aucune des quatre dates communes du présent texte, et c’est assumé : la sortie de l’alimentation demande du temps. L’impôt sur la consommation redevient neutre entre les biens.
+Chaque marche accompagne la suppression des prélèvements propres au secteur concerné : les taxes sur les spectacles, sur les industries du bois, sur les matériaux de construction, sur l’immatriculation des véhicules et sur les déchets tombent le 1er juillet 2027 ; celles sur les services de télévision, sur la publicité et sur les activités polluantes sont dues pour la dernière fois au titre de 2027. Les trois dates de cet amendement ne sont aucune des quatre dates communes du présent texte, et c’est assumé : la sortie de l’alimentation demande du temps. L’impôt sur la consommation redevient neutre entre les biens. Plusieurs taux deviennent un taux unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La simplification en est l’effet.
 
 ¹ Conseil des prélèvements obligatoires, « La taxe sur la valeur ajoutée », février 2023, page 32.
 ---
@@ -88,13 +90,13 @@ Chaque marche accompagne la suppression des prélèvements propres au secteur co
 
 | renvoi au dispositif | objet (droit au 1er janvier 2027) |
 |---|---|
-| L. 213-159 | produit alimentaire normalement destiné à l’alimentation humaine, sous réserve de L. 213-160 à L. 213-163 (boissons alcooliques, confiseries et chocolat, caviar, margarine au taux normal) ; taux minoré en Corse. Ligne « Réduit » et ligne « Très réduit » (Corse) du tableau de L. 213-158. Les produits préparés pour consommation immédiate relèvent de la sous-section 7 (L. 213-262) et non de cet article : la clause générale abroge L. 213-262 à L. 213-264 au 1er juillet 2027 (rang 332°), ils sont au taux normal dès cette date. |
+| L. 213-159 | produit alimentaire normalement destiné à l’alimentation humaine, sous réserve de L. 213-160 à L. 213-163 (boissons alcooliques, confiseries et chocolat, caviar, margarine au taux normal) ; taux minoré en Corse. Ligne « Réduit » et ligne « Très réduit » (Corse) du tableau de L. 213-158. Les produits préparés pour consommation immédiate relèvent de la sous-section 7 (L. 213-262) et non de cet article : la clause générale abroge L. 213-262 à L. 213-264 au 1er juillet 2027 (rang 325°), ils sont au taux normal dès cette date. |
 | L. 213-166 | produit alimentaire destiné aux animaux producteurs de denrées pour la consommation humaine ; taux minoré en Corse. Le code range ces biens au paragraphe « Alimentation humaine et animale » (tableau de L. 213-158) : ils suivent l’alimentation. |
 | L. 213-157 | travail à façon transformant des produits agricoles, de la pêche ou de la chasse en un bien relevant d’un taux dérogatoire de la sous-section : retenu seulement lorsqu’il conduit à un bien des deux articles précédents. |
 
-Définition générale du produit alimentaire : L. 213-156 (non visé, s’applique de lui-même). Lignes à taux nul du tableau de L. 213-158 (reprise S3 du 20261005) : **L. 213-164** (poisson livré par le pêcheur) est abrogé par la clause générale au 1er juillet 2027 (rang 301°) ; le poisson rejoint alors l’alimentation de L. 213-159 au taux réduit et suit les marches de la présente pièce (10 %, 15 %, 20 %). **L. 213-165** (pain et riz outre-mer) reste hors clause (régime « Flux OM », hors schéma de restitution) ; la présente pièce ne modifie pas le taux nul : il demeure à 0 % (arbitrage de l’auteure du 20261005, on ne touche pas à l’outre-mer).
+Définition générale du produit alimentaire : L. 213-156 (non visé, s’applique de lui-même). Lignes à taux nul du tableau de L. 213-158 (reprise S3 du 20261005) : **L. 213-164** (poisson livré par le pêcheur) est abrogé par la clause générale au 1er juillet 2027 (rang 294°) ; le poisson rejoint alors l’alimentation de L. 213-159 au taux réduit et suit les marches de la présente pièce (10 %, 15 %, 20 %). **L. 213-165** (pain et riz outre-mer) reste hors clause (régime « Flux OM », hors schéma de restitution) ; la présente pièce ne modifie pas le taux nul : il demeure à 0 % (arbitrage de l’auteure du 20261005, on ne touche pas à l’outre-mer).
 
-**Franchises sectorielles ajoutées à la clause le 20261007** : les articles L. 213-105, L. 233-10 et L. 233-11 du même code sont abrogés par la clause générale au 1er juillet 2027 (rangs 297° et 341°). Ils ne modifient aucun taux et n’entrent pas dans le périmètre de la présente pièce : une opération qui perd sa franchise rejoint le taux de droit commun de son secteur, et suit donc les marches ci-dessus si elle relève de l’alimentation. **La franchise générale de l’article L. 233-9 est maintenue.**
+**Franchises sectorielles ajoutées à la clause le 20261007** : les articles L. 213-105, L. 233-10 et L. 233-11 du même code sont abrogés par la clause générale au 1er juillet 2027 (rangs 290° et 334°). Ils ne modifient aucun taux et n’entrent pas dans le périmètre de la présente pièce : une opération qui perd sa franchise rejoint le taux de droit commun de son secteur, et suit donc les marches ci-dessus si elle relève de l’alimentation. **La franchise générale de l’article L. 233-9 est maintenue.**
 
 ### Corse, outre-mer, médicaments remboursables — règle générale appliquée
 
@@ -123,7 +125,7 @@ Onglet `Refonte fiscalité`, colonne H (taxes à supprimer, **H13 = −137,05 Md
 | 1er juillet 2029, alimentation à 15 % | alimentation (L. 213-159, L. 213-166) | aucune suppression nouvelle : la marche s’adosse au solde de la refonte (H13), déjà acquis |
 | 1er juillet 2030, alimentation à 20 % | idem | idem |
 
-Le gisement **G15 = 33** fait face à des suppressions très supérieures (**H16 = −26,1** sur la consommation, H29, H35). **Aucune suppression nommée ne gage la pièce**, et la pièce ne porte aucune clause de gage : elle procure une recette. **Restauration et vente à consommer sur place (L. 213-262) retirées de la marche de 2028** : la clause générale abroge les articles L. 213-262 à L. 213-264 au 1er juillet 2027 (rang 332°), la restauration est au taux normal dès cette date.
+Le gisement **G15 = 33** fait face à des suppressions très supérieures (**H16 = −26,1** sur la consommation, H29, H35). **Aucune suppression nommée ne gage la pièce**, et la pièce ne porte aucune clause de gage : elle procure une recette. **Restauration et vente à consommer sur place (L. 213-262) retirées de la marche de 2028** : la clause générale abroge les articles L. 213-262 à L. 213-264 au 1er juillet 2027 (rang 325°), la restauration est au taux normal dès cette date.
 
 ### Verdict des adresses au droit (LEGI 20261001)
 
@@ -144,4 +146,4 @@ Le gisement **G15 = 33** fait face à des suppressions très supérieures (**H16
 4. **Taux nul** : hors mandat, non touché.
 5. **Collision avec l’article 16 du texte déposé** (taux des services de télévision, L. 213-230 et L. 213-235) : aucune, la pièce ne modifie que L. 213-151.
 6. **Reclassement au circuit A** : reprise due au registre des sources de gage et au contrôle « un euro, un circuit » des croisements.
-7. **Renvois au III de la clause** : repris le 20261007 ; toute nouvelle renumérotation du III les rouvre.
+7. **Renvois au III de la clause** : repris le 20261007, puis le 20261009 sur la numérotation du regroupement par bloc (332° → 325°, 301° → 294°, 297° → 290°, 341° → 334°) ; toute nouvelle renumérotation du III les rouvre.

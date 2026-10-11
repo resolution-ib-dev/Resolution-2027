@@ -30,7 +30,7 @@ il reste ouvert.**
 
 | n° | titre | ce que l’amendement fait | emplacement | état | à vérifier |
 |---|---|---|---|---|---|
-| 16 | Sortir l’employeur du financement de la garde d’enfants | Abroger le crédit d’impôt famille | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Vérifier le renvoi du code du travail |
+| 16 | Le crédit d’impôt famille supprimé, le parent reçoit son salaire | Abroger le crédit d’impôt famille | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Vérifier le renvoi du code du travail |
 
 **Correspondance marquée ⚑** : le point d’accroche dépend du socle.
 
@@ -41,7 +41,7 @@ il reste ouvert.**
 ## Cartouche n° 16 — *hors pièce déposée*
 
 **Mesures portées** M-017, composante `RECETTE` — bloc B-05 — lot 2.4 ·
-**Titre** Sortir l’employeur du financement de la garde d’enfants ·
+**Titre** Le crédit d’impôt famille supprimé, le parent reçoit son salaire ·
 **Chapô** Abroger le crédit d’impôt famille ·
 **Intention** Supprimer une aide versée à l’entreprise au titre d’un service rendu au salarié ·
 **Principe** à fournir
@@ -64,21 +64,23 @@ I. – Le code général des impôts est ainsi modifié :
 
 « f. (Abrogé) ».
 
-II. – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
+II. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
 III. – Le I s’applique aux dépenses exposées à compter du 1er janvier 2027.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement abroge le crédit d’impôt famille, qui finance la garde d’enfants des salariés.
+Cet amendement abroge le crédit d’impôt famille à compter des dépenses exposées en 2027.
 
-L’argent part du budget général, passe par l’employeur et revient au salarié sous la forme d’une place de crèche que l’employeur a retenue pour lui. Le bénéficiaire apparent est l’entreprise ; le bénéficiaire réel est le parent, qui reçoit une prestation en nature choisie par un tiers plutôt qu’une somme dont il dispose. Le code finance ainsi un service dont il ne fixe ni le prix ni la qualité et il en réserve l’accès aux salariés dont l’employeur a la taille et la trésorerie pour avancer la dépense (code général des impôts, article 244 quater F)¹.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+L’argent part du budget de l’État, passe par l’employeur et revient au salarié sous la forme d’une place de crèche que l’employeur a retenue pour lui. Le bénéficiaire apparent est l’entreprise ; le bénéficiaire réel est le parent, qui reçoit une prestation en nature choisie par un tiers plutôt qu’une somme dont il dispose. Le code finance ainsi un service dont il ne fixe ni le prix ni la qualité et il en réserve l’accès aux salariés dont l’employeur a la taille et la trésorerie pour avancer la dépense (code général des impôts, article 244 quater F)¹.
 
 L’abrogation atteint le circuit et non son taux : l’article d’assiette tombe avec les articles d’imputation, de sorte que le détour par l’employeur disparaît au lieu de se réduire. Un article du code du travail renvoie à ce dispositif pour l’aide financière au service à la personne et il demande une coordination². Dit simplement : l’employeur qui finance une crèche le fait sur sa trésorerie et le salarié parent garde le choix du mode de garde qu’il préfère.
 
-Le rendement revient au budget général : la part restituée finance la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte. L’administration cesse de vérifier la nature des dépenses engagées, leur plafonnement et leur rattachement à un exercice ; l’entreprise cesse de produire la déclaration spéciale qui les porte. Les places de crèche restent appelées par la demande des familles, qui choisissent désormais leur mode de garde. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. L’employeur redevient un employeur et le parent choisit sa garde.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. L’administration cesse de vérifier la nature des dépenses engagées, leur plafonnement et leur rattachement à un exercice ; l’entreprise cesse de produire la déclaration spéciale qui les porte. Les places de crèche restent appelées par la demande des familles, qui choisissent désormais leur mode de garde. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. L’employeur redevient un employeur et le parent choisit sa garde.
 
-¹ Code général des impôts, article 244 quater F, dans sa rédaction applicable au 1er octobre 2026 (base LEGI, millésime 20261001).
+¹ Code général des impôts, article 244 quater F, dans sa rédaction applicable au 1er octobre 2026.
 
 ² Code du travail, article L. 7233-7.
 

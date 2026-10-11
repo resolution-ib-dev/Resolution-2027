@@ -9,7 +9,7 @@
 
 ---
 
-# 12 — Faire passer chaque taxe par le budget voté
+# 12 — Chaque taxe affectée repasse par le budget, son produit va aux salaires
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 2 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026. Alinéas désignés par subdivision : la numérotation d’alinéas de l’Assemblée n’est pas encore connue.
@@ -158,13 +158,15 @@ II. – Compléter cet article par un X ainsi rédigé :
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement ramène au budget voté le produit de quatre-vingt-deux ressources affectées.
+Cet amendement plafonne à zéro l’affectation de quatre-vingt-deux ressources, dont le produit revient au budget.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Le spectateur qui paie une taxe sur son billet, l’abonné d’un service de vidéo à la demande et l’usager qui règle sa facture d’eau financent chacun un organisme sans le savoir : le produit va directement à l’affectataire, et le Parlement vote un plafond, non une politique. Les ressources ainsi affectées se comptent par dizaines, sur des assiettes choisies une à une, et aucun document ne les présente ensemble. Le Conseil des prélèvements obligatoires relevait que l’information du Parlement sur ces taxes « ne crée pas les conditions d’une discussion globale sur les moyens alloués aux politiques publiques » (rapport de juillet 2018)¹. Près de la moitié des lignes retenues ici ne portent même aucun plafond.
 
-L’amendement porte à zéro, ligne par ligne, le plafond d’affectation de chacune de ces ressources au tableau de l’article 42. La taxe reste perçue et son produit entier revient au budget général, où il se vote chaque année avec les autres recettes ; l’article complété le dit en toutes lettres. Les lignes conservées se nomment : organismes régaliens, autorités exigées par le droit de l’Union, régimes de garantie et de protection sociale, établissements à patrimoine propre, ressources des collectivités. Dit simplement : chaque euro payé par le contribuable passe par le budget voté avant de financer une agence, et le Parlement décide chaque année s’il la finance encore.
+L’amendement porte à zéro, ligne par ligne, le plafond d’affectation de chacune de ces ressources au tableau de l’article 42. La taxe reste perçue et son produit entier revient aux revenus d’activité, après avoir été voté chaque année avec les autres recettes ; l’article complété le dit en toutes lettres. Les lignes conservées se nomment : organismes régaliens, autorités exigées par le droit de l’Union, régimes de garantie et de protection sociale, établissements à patrimoine propre, ressources des collectivités. Dit simplement : chaque euro payé par le contribuable passe par le budget voté avant de financer une agence, et le Parlement décide chaque année s’il la finance encore.
 
-Le budget général recueille ainsi le rendement prévisionnel de ces quatre-vingt-deux lignes, soit 29 980,5 millions d’euros au titre de 2027 (tableau du I de l’article 42 du présent projet de loi, colonne du rendement prévisionnel)², qui concourt à la réduction des prélèvements pesant sur les revenus d’activité. Un amendement distinct supprime une partie de ces impositions ; **les deux ne font qu’une recette et leurs produits ne s’additionnent pas** : si cet amendement seul est adopté, le produit revient au budget voté ; si l’autre seul l’est, l’imposition disparaît. La gestion des plafonds, des écrêtements et des reversements devient sans objet pour ces lignes. La fermeture des structures et la reprise de leurs missions relèvent d’amendements de seconde partie, et cette mesure ne se dépose pas sans eux.
+Ces quatre-vingt-deux lignes représentent un rendement prévisionnel de 29 980,5 millions d’euros au titre de 2027 (tableau du I de l’article 42 du présent projet de loi, colonne du rendement prévisionnel)², qui va au salaire net par la réduction des prélèvements pesant sur les revenus d’activité. Un amendement distinct supprime une partie de ces impositions ; les deux ne font qu’une recette et leurs produits ne s’additionnent pas : si cet amendement seul est adopté, le produit revient au budget voté ; si l’autre seul l’est, l’imposition disparaît. La gestion des plafonds, des écrêtements et des reversements devient sans objet pour ces lignes. La fermeture des structures et la reprise de leurs missions relèvent d’amendements de seconde partie, et cette mesure ne se dépose pas sans eux.
 
 ¹ Conseil des prélèvements obligatoires, « Les taxes affectées : des instruments à mieux encadrer », juillet 2018.
 ² Projet de loi de finances pour 2027, n° 3210, article 42, tableau du I, colonne « Rendement prévisionnel 2027 », somme des quatre-vingt-deux lignes visées par le présent amendement, inscrite au texte à titre indicatif.

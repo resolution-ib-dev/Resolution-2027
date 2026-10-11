@@ -36,7 +36,7 @@ extinction progressive sur trois ans, et ne figurent dans aucune des six autres.
 
 | n° | titre | ce que l’amendement fait | emplacement | état | à vérifier |
 |---|---|---|---|---|---|
-| 13 | Mettre fin au crédit d’impôt recherche | Abroger le crédit d’impôt recherche, le crédit d’impôt innovation et le crédit d’impôt recherche collaborative | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Vérifier le précédent de recevabilité ; jouer le test d’entrée en vigueur |
+| 13 | Fin du crédit d’impôt recherche, rendu en salaire net | Abroger le crédit d’impôt recherche, le crédit d’impôt innovation et le crédit d’impôt recherche collaborative | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Vérifier le précédent de recevabilité ; jouer le test d’entrée en vigueur |
 
 **Correspondance marquée ⚑** : le point d’accroche dépend du socle. Les sept pièces sont
 des articles additionnels de première partie ; l’ancrage après l’article 13 regroupe les
@@ -50,7 +50,7 @@ texte déposé ouvre lui-même, et il se reprend si l’ordre du texte change.
 ## Cartouche n° 13 — *hors pièce déposée*
 
 **Mesures portées** M-017, composante `RECETTE` — bloc B-05 — lot 2.4 ·
-**Titre** Mettre fin au crédit d’impôt recherche ·
+**Titre** Fin du crédit d’impôt recherche, rendu en salaire net ·
 **Chapô** Abroger le crédit d’impôt recherche, le crédit d’impôt innovation et le crédit d’impôt recherche collaborative ·
 **Intention** Retirer de l’impôt sur les bénéfices le plus gros dispositif d’aide ciblée aux entreprises, sans lui substituer de guichet ·
 **Principe** à fournir
@@ -75,21 +75,23 @@ I. – Le code général des impôts est ainsi modifié :
 
 « b bis. (Abrogé) ».
 
-II. – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
+II. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
 III. – Le I s’applique aux dépenses exposées à compter du 1er janvier 2027.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement abroge le crédit d’impôt recherche, le crédit d’impôt innovation et le crédit d’impôt recherche collaborative.
+Cet amendement abroge les crédits d’impôt recherche, innovation et recherche collaborative, à compter de 2027.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Une entreprise qui cherche doit aujourd’hui démontrer, dossier à l’appui, que sa dépense entre dans une définition fiscale : l’effort administratif pèse autant que l’effort de recherche. L’avantage trie les entreprises par leur aptitude à le réclamer plutôt que par ce qu’elles cherchent. Trois crédits d’impôt se superposent sur la même matière : la recherche, l’innovation et la recherche collaborative, chacun avec sa définition de la dépense éligible, son plafond et son agrément (code général des impôts, articles 244 quater B et 244 quater B bis)¹.
 
 La suppression porte sur le mécanisme entier et non sur son taux : les articles d’assiette disparaissent avec les articles qui en organisent l’imputation sur l’impôt sur le revenu, sur l’impôt sur les sociétés et au sein d’un groupe intégré ; aucun socle ne subsiste pour une reconduction partielle. Les dépenses engagées jusqu’au 31 décembre 2026 demeurent couvertes par le droit en vigueur. En clair : l’entreprise qui cherche décide de son effort sur son marché et sur ses brevets ; elle cesse de démontrer à l’administration que sa dépense entre dans une nomenclature.
 
-Le rendement revient au budget général : la part restituée finance la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte. L’administration cesse d’instruire les agréments et les contrôles d’éligibilité ; l’entreprise cesse de produire l’état annexe qui les accompagne. Toutes les entreprises relèvent désormais du même droit commun, et le chercheur n’a plus de dossier à monter. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Un amendement distinct propose de neutraliser l’ensemble des dépenses fiscales par une clause générale ; les deux ne se cumulent pas. La recherche se décide au laboratoire et non au service fiscal.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. L’administration cesse d’instruire les agréments et les contrôles d’éligibilité ; l’entreprise cesse de produire l’état annexe qui les accompagne. Toutes les entreprises relèvent désormais du même droit commun, et le chercheur n’a plus de dossier à monter. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Un amendement distinct propose de neutraliser l’ensemble des dépenses fiscales par une clause générale ; les deux ne se cumulent pas. La recherche se décide au laboratoire et non au service fiscal. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
-¹ Code général des impôts, articles 244 quater B et 244 quater B bis, dans leur rédaction applicable au 1er octobre 2026 (base LEGI, millésime 20261001).
+¹ Code général des impôts, articles 244 quater B et 244 quater B bis, dans leur rédaction applicable au 1er octobre 2026.
 
 ---
 
