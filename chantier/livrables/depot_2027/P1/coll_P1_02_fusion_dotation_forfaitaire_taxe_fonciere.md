@@ -1,4 +1,4 @@
-# Collectivités — la dotation forfaitaire des communes fondue dans la taxe foncière, par paliers
+# Collectivités — la dotation forfaitaire remplacée par l’impôt que la commune vote elle-même
 
 **Porteur** : lot N4, repris par le fil d’application collectivités du 20261007, puis par le **fil Cowork d’inscription des arbitrages du 20261007 au soir**. **Mandat** : plan de liasse du 20261005, lot N4 (volet collectivités, circuit A) · état du lot 12 du 20261007 : « fonte par tiers maintenue à partir de 2027, le premier tiers se reprenant sur les taux actuels, adossé à la bascule des droits de mutation » · **arbitrage de l’auteure du 20261007 au soir, point 2 : la commune ne peut pas majorer sa taxe foncière au-delà du plafond pour reprendre la taxe additionnelle de l’article 1584 — le plafond est un plafond** · **arbitrage de l’auteure du 20261008 : la borne haute de la fourchette passe de 35 % à 30 %, la borne basse ne bouge pas**. **Domicile** : `chantier/livrables/depot_2027/P1/coll_P1_02_fusion_dotation_forfaitaire_taxe_fonciere.md`. **Appui** (passe du 20261007 au soir) : `methode/passation_20261007.md`, § 4 et § 4 bis · `methode/appui_des_passes.md`, R-G, R-H, R-I · `methode/COMMUN.md` · `methode/regles_redactionnelles.md` · `reference/guide_legistique.md` · `methode/etats/APP_collectivites.md` · dépôt de droit, millésime LEGI 20261001. **Mesure** (passe du 20261008 comprise) : 9 adresses relevées et contrôlées — 9 `EXISTE` : 6 au tableau du bloc interne, 3 aux points à vérifier (CGCT, L. 2334-1, L. 2334-7-1, L. 2334-7-3) — recompte du lot U6 (revue B, § 2, 26) ; **passe du 20261007 au soir : 0 division du dispositif touchée, 1 question close** ; **passe du plafond à 30 %, 20261008 : 0 division du dispositif touchée, 0 adresse nouvelle, 1 occurrence de la fourchette reprise au bloc interne, 1 ligne du tableau des paliers reprise, 1 effet mesuré et inscrit**.
 
@@ -6,7 +6,7 @@
 
 | champ | valeur |
 |---|---|
-| titre | Remplacer la dotation de l’État aux communes par l’impôt foncier qu’elles votent |
+| titre | La dotation forfaitaire remplacée par l’impôt que la commune vote elle-même |
 | chapô | La dotation forfaitaire des communes baisse d’un tiers en 2027, des deux tiers en 2028 et s’éteint en 2029 ; chaque commune peut reprendre la somme sur sa taxe foncière, dans la limite du plafond de taux, ou baisser sa dépense |
 | intention | « On fusionne en TF », « progressivement (la priorité c’est les économies) » — la dotation communale se fond dans la ressource propre, l’État encaisse l’économie dès 2027. Fonte par tiers maintenue à partir de 2027, adossée à la bascule des droits de mutation (arbitrage du lot 12) |
 | mesures | minoration par paliers de la dotation forfaitaire (CGCT, L. 2334-7) · minoration de l’enveloppe nationale (L. 1613-1) · faculté de majorer le taux de la taxe foncière, bornée au montant de la minoration cumulée de dotation (CGI, 1380, 1636 B sexies, 1636 B septies, 1639 A) |
@@ -51,15 +51,17 @@ V. – La présente mesure concourt à la réduction des prélèvements pesant s
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement remplace, en trois ans, la dotation forfaitaire que l’État verse aux communes par l’impôt foncier que chaque conseil municipal vote lui-même.
+Cet amendement substitue en trois ans l’impôt foncier communal à la dotation forfaitaire des communes.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 La dotation forfaitaire est la part la plus ancienne et la plus opaque de la dotation globale de fonctionnement. Son calcul empile des montants hérités de réformes successives, des garanties et des écrêtements (code général des collectivités territoriales, article L. 2334-7)¹. Aucun habitant ne sait ce que sa commune en reçoit ni pourquoi. Le maire, lui, dépend chaque automne d’un arbitrage national sur lequel il n’a aucune prise.
 
 La mesure retire un tiers de cette dotation en 2027, deux tiers en 2028, et la totalité en 2029. Chaque commune choisit alors : reprendre la somme sur sa taxe foncière, par une délibération qui l’autorise à dépasser les plafonds de taux à due concurrence, ou réduire sa dépense. Le premier palier joue dès 2027 sur la taxe foncière existante, le deuxième sur la taxe foncière unique instituée par ailleurs, le troisième achève la fusion. En clair : l’argent que l’État prélevait pour le redistribuer, la commune le lève directement, ou ne le lève pas.
 
-L’enveloppe nationale baisse d’autant chaque année, et l’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. La commune y gagne une ressource propre, qu’elle maîtrise et dont elle répond devant ses électeurs. Celui qui décide de la dépense doit aussi décider de l’impôt.
+L’enveloppe nationale baisse d’autant chaque année, et l’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. La commune y gagne une ressource propre, qu’elle maîtrise et dont elle répond devant ses électeurs. Celui qui décide de la dépense doit aussi décider de l’impôt. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement.
 
-¹ Code général des collectivités territoriales, article L. 2334-7, base LEGI, millésime du 1er octobre 2026.
+¹ Code général des collectivités territoriales, article L. 2334-7.
 
 ---
 

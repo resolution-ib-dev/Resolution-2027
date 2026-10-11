@@ -9,7 +9,7 @@
 
 ---
 
-# 01 — Rendre le don à celui qui donne
+# 01 — Fin des réductions pour dons, l’argent rendu à la paie de tous
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 2 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026. Alinéas désignés par subdivision : la numérotation d’alinéas de l’Assemblée n’est pas encore connue.
@@ -70,12 +70,14 @@ II. – Compléter cet article par un V ainsi rédigé :
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime les réductions d’impôt attachées aux dons, au mécénat et aux versements associatifs.
+Cet amendement abroge les réductions d’impôt pour dons et mécénat à compter de 2028.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Le foyer imposable qui donne récupère les deux tiers de son don sur son impôt ; le foyer non imposable qui donne la même somme n’en récupère rien. La réduction d’impôt au titre des dons des particuliers était estimée à 1,745 milliard d’euros en 2022, pendant que le nombre de foyers donateurs reculait (Sénat, rapport d’information n° 188, décembre 2022)¹. La dépense croît et la base des donateurs se resserre : l’avantage se concentre sur ceux qui acquittent l’impôt sur le revenu, et l’ensemble des contribuables finance aux deux tiers des choix de dépense qui restent privés.
 
 L’amendement éteint l’avantage en deux temps et par la seule voie du taux. Pour les dons et versements effectués à compter du 1er juillet 2027, les taux de la réduction d’impôt sur le revenu, de celle d’impôt sur les sociétés et de celle d’impôt sur la fortune immobilière sont réduits de moitié. Au 1er janvier 2028, les trois articles qui les portent sont abrogés. Les réductions acquises avant cette date, reports compris, demeurent régies par le droit antérieur, et les autres textes qui renvoyaient à ces articles pour désigner les organismes d’intérêt général continuent de s’y référer dans leur rédaction du 31 décembre 2027. Il retire enfin du présent article le taux réduit de droits de donation accordé au donataire qui reverse une fraction de la somme reçue. Dit simplement : chacun donne à qui il veut, et tous les donateurs sont traités de la même façon, qu’ils acquittent l’impôt ou non.
 
-Le rendement revient au budget général et alimente la baisse des prélèvements sur les revenus d’activité. La mesure allège aussi l’administration : la délivrance des reçus, leur contrôle et la procédure de suspension des avantages, restée lettre morte selon le même rapport, perdent leur objet. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Le don redevient un acte libre, financé par celui qui le décide.
+Le rendement va au salaire net et alimente la baisse des prélèvements sur les revenus d’activité. La mesure allège aussi l’administration : la délivrance des reçus, leur contrôle et la procédure de suspension des avantages, restée lettre morte selon le même rapport, perdent leur objet. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Le don redevient un acte libre, financé par celui qui le décide.
 
 ¹ Sénat, commission des finances, rapport d’information n° 188 (2022-2023), « Champ et mise en œuvre effective des dispositifs de suspension des avantages fiscaux pour les dons aux associations », 7 décembre 2022.

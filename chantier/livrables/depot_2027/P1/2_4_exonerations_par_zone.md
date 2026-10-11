@@ -36,7 +36,7 @@ extinction progressive sur trois ans, et ne figurent dans aucune des six autres.
 
 | n° | titre | ce que l’amendement fait | emplacement | état | à vérifier |
 |---|---|---|---|---|---|
-| 14 | Supprimer les exonérations d’impôt par zone | Abroger les exonérations d’impôt sur les bénéfices attachées à l’implantation en zone | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Jouer le test d’entrée en vigueur ; traiter les renvois du code monétaire |
+| 14 | Dix exonérations de zone abrogées, l’impôt baisse pour tous | Abroger les exonérations d’impôt sur les bénéfices attachées à l’implantation en zone | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Jouer le test d’entrée en vigueur ; traiter les renvois du code monétaire |
 
 **Correspondance marquée ⚑** : le point d’accroche dépend du socle.
 
@@ -47,7 +47,7 @@ extinction progressive sur trois ans, et ne figurent dans aucune des six autres.
 ## Cartouche n° 14 — *hors pièce déposée*
 
 **Mesures portées** M-017, composante `RECETTE` — bloc B-05 — lot 2.4 ·
-**Titre** Supprimer les exonérations d’impôt par zone ·
+**Titre** Dix exonérations de zone abrogées, l’impôt baisse pour tous ·
 **Chapô** Abroger les exonérations d’impôt sur les bénéfices attachées à l’implantation en zone ·
 **Intention** Mettre fin au zonage fiscal des bénéfices en métropole, sans traiter ici les régimes ultramarins ·
 **Principe** à fournir
@@ -64,7 +64,7 @@ APRÈS L’ARTICLE 13, insérer l’article suivant :
 
 I. – Les articles 44 sexies, 44 sexies-0 A, 44 sexies A, 44 octies A, 44 duodecies, 44 terdecies, 44 quindecies, 44 quindecies A, 44 sexdecies et 44 septdecies du code général des impôts sont abrogés.
 
-II. – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
+II. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
 III. – Le I s’applique aux exercices ouverts à compter du 1er janvier 2027.
 
@@ -72,15 +72,17 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge les dix régimes d’exonération d’impôt attachés à l’implantation en zone.
 
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
 Pour savoir s’il a droit à l’exonération, celui qui crée son entreprise doit identifier la zone où tombe son local, la liste qui la classe, la date à laquelle ce classement a été arrêté et le régime antérieur dont il peut rester tributaire. Dix régimes se partagent cette carte et renvoient les uns aux autres (code général des impôts, articles 44 sexies à 44 septdecies)¹. L’avantage paie une installation qui se décide sur le loyer, sur le bassin d’emploi et sur la clientèle, puis il s’éteint et laisse l’entreprise devant l’impôt qu’elle aurait acquitté sans lui.
 
 La suppression retire la carte et non le taux : les dix articles d’exonération tombent ensemble ; aucun régime résiduel ne recueille les entreprises que les autres cessent de couvrir. Les régimes ultramarins ne sont pas visés par le présent article et relèvent d’un examen distinct. Dit simplement : celui qui crée son entreprise acquitte le même impôt sur le bénéfice où qu’il l’installe et il n’a plus de zonage à vérifier avant de signer un bail.
 
-Le rendement revient au budget général : la part restituée finance la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte. L’administration cesse de tenir des listes de communes et des régimes de sortie dégressifs ; l’entreprise cesse de justifier chaque exercice qu’elle remplit encore les conditions d’implantation. Chaque entreprise relève du même impôt, où qu’elle soit installée, et la carte des zones cesse de peser sur ses choix. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Plusieurs renvois subsistent dans d’autres articles du même code et dans le code monétaire et financier ; ils demandent une coordination². L’exonération disparaît ; l’entreprise qui s’installe garde son marché, sa main-d’œuvre et son loyer.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. L’administration cesse de tenir des listes de communes et des régimes de sortie dégressifs ; l’entreprise cesse de justifier chaque exercice qu’elle remplit encore les conditions d’implantation. Chaque entreprise relève du même impôt, où qu’elle soit installée, et la carte des zones cesse de peser sur ses choix. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Plusieurs renvois subsistent dans d’autres articles du même code et dans le code monétaire et financier ; ils demandent une coordination². L’exonération disparaît ; l’entreprise qui s’installe garde son marché, sa main-d’œuvre et son loyer. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
-¹ Code général des impôts, articles 44 sexies à 44 septdecies, dans leur rédaction applicable au 1er octobre 2026 (base LEGI, millésime 20261001).
+¹ Code général des impôts, articles 44 sexies à 44 septdecies, dans leur rédaction applicable au 1er octobre 2026.
 
-² Renvois sûrs relevés sur le dépôt de droit : code général des impôts, articles 154 bis-0 A, 220 quinquies, 220 terdecies, 244 quater C, 244 quater E, 244 quater I, 244 quater O, 244 quater W, 302 nonies, 1383 A, 1464 B ; code monétaire et financier, articles L. 221-31 et L. 221-32-2.
+² Code général des impôts, articles 154 bis-0 A, 220 quinquies, 220 terdecies, 244 quater C, 244 quater E, 244 quater I, 244 quater O, 244 quater W, 302 nonies, 1383 A, 1464 B ; code monétaire et financier, articles L. 221-31 et L. 221-32-2.
 
 ---
 

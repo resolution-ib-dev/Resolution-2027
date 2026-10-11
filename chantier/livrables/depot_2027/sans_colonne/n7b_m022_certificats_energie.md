@@ -1,15 +1,15 @@
-# Suppression des certificats d’économies d’énergie (M-022)
+# Fin des certificats d’économies d’énergie, l’équilibre de la refonte fiscale y gagne (M-022)
 
 **Porteur** : lot N7b ; mise à jour lot U3 (20261005 : phrase de circuit, points-virgules, titre, calendrier) ; passe lot 18 (20261007 : date confirmée, contrôle des adresses rejoué) ; **passe de correction post-croisement (20261007 bis : constat d’absence de la loi organique corrigé, trois renvois à la clause recalés)**. **Mandat** : plan de liasse du 20261005, lot N7 (« colonnes de M-037, M-070, M-022 »), et consigne du lot : « M-022 relève du circuit B si elle supprime une recette : gage sur l’IS » ; arbitrages du lot 18 (`methode/etats/L14_L16_L18.md`) ; **anomalies 5.3 et 5.5 de `methode/etats/CROISEMENTS_20261007.md`**. **Domicile** : `chantier/livrables/depot_2027/sans_colonne/n7b_m022_certificats_energie.md` (domicile du lot ; la colonne est arrêtée ci-dessous). **Appui** : `methode/etats/CROISEMENTS_20261007.md` · `methode/appui_des_passes.md` · `methode/COMMUN.md` · `methode/regles_redactionnelles.md` · `reference/guide_legistique.md` · `reference/regles_credits.md`. **Mesure** : 32 articles visés au dispositif (code de l’énergie, L. 221-1 à L. 221-13 et L. 222-1 à L. 222-10 par leurs chapitres ; CGI, art. 39, 207, 42 septies, 219) et 3 au bloc interne (énergie, L. 221-4, L. 221-7, L. 100-1 A), contrôlés au millésime LEGI 20261001 : aucun `ABSENT` ni `ABROGE` ; **1 adresse de loi organique rendue au contrôle le 20261007 bis (LOLF, art. 34), `VIGUEUR`** ; 3 renvois à la clause recalés sur la numérotation du 20261007.
 
-**Titre** — Faire voter ce que paie la facture d’énergie.
+**Titre** — Fin des certificats d’économies d’énergie, l’équilibre de la refonte fiscale y gagne.
 **Chapô** — Abroger l’obligation d’économies d’énergie et sa sanction, éteindre les obligations en cours et supprimer les régimes fiscaux attachés aux certificats.
 **Intention** — Ce que l’État veut faire financer, il le fait voter.
 **Mesures** — M-022, certificats d’économies d’énergie, composantes `EXISTENCE` et `COMPÉTENCE`.
 
 **Colonne arrêtée — PLF 2027, première partie, article additionnel après l’article 24. Circuit B.**
 
-**Circuit et gage.** La mesure supprime une recette du budget général : le versement libératoire de l’article L. 221-4 du code de l’énergie, qui disparaît avec l’obligation. Elle relève donc du circuit B et se gage sur la majoration du taux de l’impôt sur les sociétés (clause de la mécanique commune). La qualification « recette nette en hausse » de la pièce d’origine n’est plus plaidée : elle reposait sur un solde non chiffré, et la prétention conditionnelle sur les sociétés de placement à prépondérance immobilière (clause générale, art. 1er, III, **179°**) tombe — **aucune niche nommée ne gage une pièce B**.
+**Circuit et gage.** La mesure supprime une recette du budget général : le versement libératoire de l’article L. 221-4 du code de l’énergie, qui disparaît avec l’obligation. Elle relève donc du circuit B et se gage sur la majoration du taux de l’impôt sur les sociétés (clause de la mécanique commune). La qualification « recette nette en hausse » de la pièce d’origine n’est plus plaidée : elle reposait sur un solde non chiffré, et la prétention conditionnelle sur les sociétés de placement à prépondérance immobilière (clause générale, art. 1er, III, **174°**) tombe — **aucune niche nommée ne gage une pièce B**.
 
 ### Test de rattachement
 
@@ -35,7 +35,7 @@ présenté par
 
 ARTICLE ADDITIONNEL — APRÈS L’ARTICLE 24, insérer l’article suivant :
 
-I. – Les chapitres Ier et II du titre II du livre II du code de l’énergie sont abrogés.
+I. – Les chapitres Ier et II du titre II du livre II du code de l’énergie, qui instituent l’obligation d’économies d’énergie et les modes par lesquels les personnes qui y sont soumises peuvent se libérer de l’obligation, parmi lesquels le versement au Trésor public, sont abrogés.
 
 II. – Le code général des impôts est ainsi modifié :
 
@@ -57,13 +57,17 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge le dispositif des certificats d’économies d’énergie et les obligations qui le portent.
 
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Le législateur a construit une obligation unique, exprimée en kilowattheures d’énergie finale. L’assujetti l’acquitte au choix : en réalisant des travaux, en acquérant des certificats, en contribuant à un programme éligible ou par un versement au Trésor public. Le volume de l’obligation est l’assiette de la créance de l’État ; la pénalité unitaire en est le taux. Abroger l’obligation éteint donc la créance de l’État dans son principe. C’est à ce titre que la mesure trouve sa place en loi de finances.
+
 La facture d’électricité ou de carburant d’un ménage finance des travaux dont il n’entendra jamais parler, sans qu’aucune ligne de cette facture ni aucun crédit soumis au vote ne le lui dise. Le fournisseur, lui, se libère de son obligation en achetant des certificats qu’il répercute. La loi ne fixe ni le volume ni le prix : le volume est arrêté par période de cinq ans, le barème est réglementaire ; le seul chiffre que le législateur ait écrit est la pénalité de 0,02 € par kilowattheure qui sanctionne le manquement (code de l’énergie, article L. 221-4)¹. L’autorisation est annuelle, la charge est perpétuelle : personne n’a jamais eu à la reconduire.
 
 Le présent amendement abroge les deux chapitres qui portent l’obligation et sa sanction, éteint les obligations en cours au 1er juillet 2027 et supprime les trois régimes fiscaux attachés aux certificats. En clair : le fournisseur n’a plus d’obligation à répercuter ; le ménage cesse de payer, dans son prix de l’énergie, une dépense qu’il n’a pas votée.
 
-La charge ne transitait pas par le budget : elle revient directement au payeur de la facture. La pénalité libératoire disparaît avec l’obligation qu’elle sanctionnait ; cette perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés, au sein de la refonte des prélèvements. L’administration est déchargée d’un registre, d’un barème et d’un contrôle. Ce que l’État veut faire financer, il le fera voter.
+La charge ne transitait pas par le budget : elle revient directement au payeur de la facture. La pénalité libératoire disparaît avec l’obligation qu’elle sanctionnait ; cette perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés, au sein de la refonte des prélèvements. L’administration est déchargée d’un registre, d’un barème et d’un contrôle. Les régimes fiscaux attachés aux certificats tombent avec eux, faute de quoi ils subsisteraient sans objet. Ce que l’État veut faire financer, il le fera voter.
 
-¹ Code de l’énergie, article L. 221-4, version en vigueur, base LEGI, millésime du 1er octobre 2026.
+¹ Code de l’énergie, article L. 221-4, version en vigueur au 1er octobre 2026.
 
 ---
 
@@ -106,7 +110,7 @@ La charge ne transitait pas par le budget : elle revient directement au payeur 
 
 **Hors contrôle** : aucune. La seule référence qui l’était — LOLF, art. 34, I, 2° — est rendue au contrôle le 20261007 bis et portée ci-dessus.
 
-**Collision avec la clause générale (P1-21).** Le rang **174°** du III de l’article 1er abroge le 4° du 1 de l’article 207 en entier : si la clause est adoptée, le 2° du II devient sans objet. Le rang **394°** abroge l’article 27 de la loi n° 2020-1721, qui renvoyait aux articles L. 221-1 à L. 221-13 : le renvoi se ferme de lui-même.
+**Collision avec la clause générale (P1-21).** Le rang **169°** du III de l’article 1er abroge le 4° du 1 de l’article 207 en entier : si la clause est adoptée, le 2° du II devient sans objet. Le rang **387°** abroge l’article 27 de la loi n° 2020-1721, qui renvoyait aux articles L. 221-1 à L. 221-13 : le renvoi se ferme de lui-même.
 
 **Registre des sources de gage (tenue, non faite ici).** La ligne « certificats d’économies d’énergie » passe de la prétention conditionnelle sur CGI, art. 208, 3° nonies (A-7, 300 M€ ; ligne de 556 M€) à la forme `GR` sur la majoration de l’impôt sur les sociétés, comme P1-19. A-7 est libérée. **Reprise faite au registre le 20261007 bis** (anomalie 2.1 du croisement).
 

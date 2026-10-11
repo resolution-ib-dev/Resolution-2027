@@ -1,6 +1,6 @@
 # État B — dotations des structures dissoutes (P2-01, version déposable)
 
-**Porteur** : lot N7a, repris par le fil d’application des lots 13, 14, 15 et 18 du 20261007, puis par le **fil Cowork d’inscription des arbitrages du 20261007 au soir (points 5 et 6)**. **Mandat** : plan de liasse du 20261005, lot N7 — jambes de crédits d’état B ; arbitrages des lots 13, 14, 15 et 18 ; **arbitrages de l’auteure du 20261007 au soir — point 5 : le premier retrait de 2027 sur les établissements vivant de leur patrimoine est d’un sixième de la subvention, et le cadre de justification est une date d’effet au 1er novembre 2027 · point 6 : la réinscription des crédits de recherche aux établissements ne fait pas de pièce à part**. **Domicile** : `chantier/livrables/depot_2027/P2/`. **Appui** (passe du 20261007 au soir) : `methode/passation_20261007.md`, § 4 et § 4 bis · `methode/appui_des_passes.md`, R-G, R-H, R-I · `methode/COMMUN.md` · `methode/regles_redactionnelles.md` · `reference/regles_credits.md` · `reference/guide_legistique.md` · `methode/etats/APP_etatB.md`. **Mesure** : 2 pièces · 1 article du texte déposé visé (article 58, état B), lu · 2 programmes minorés, montants lus à 2 cellules · 1 ligne sortie au titre du croisement budgétaire · aucun article de code au dispositif · 2 adresses au droit contrôlées, millésime LEGI 20261001 ; **passe du 20261007 au soir : 0 tableau touché, 2 règles inscrites, 1 mesure de localisation jouée, 0 exposé touché**.
+**Porteur** : lot N7a, repris par le fil d’application des lots 13, 14, 15 et 18 du 20261007, puis par le **fil Cowork d’inscription des arbitrages du 20261007 au soir (points 5 et 6)**. **Mandat** : plan de liasse du 20261005, lot N7 — jambes de crédits d’état B ; arbitrages des lots 13, 14, 15 et 18 ; **arbitrages de l’auteure du 20261007 au soir — point 5 : le premier retrait de 2027 sur les établissements vivant de leur patrimoine est d’un sixième de la subvention, et le cadre de justification est une date d’effet au 1er novembre 2027 · point 6 : la réinscription des crédits de recherche aux établissements ne fait pas de pièce à part**. **Domicile** : `chantier/livrables/depot_2027/P2/`. **Appui** (passe du 20261007 au soir) : `methode/passation_20261007.md`, § 4 et § 4 bis · `methode/appui_des_passes.md`, R-G, R-H, R-I · `methode/COMMUN.md` · `methode/regles_redactionnelles.md` · `reference/regles_credits.md` · `reference/guide_legistique.md` · `methode/etats/APP_etatB.md`. **Mesure** : 2 pièces · 1 article du texte déposé visé (article 58, état B), lu · 2 programmes minorés, montants lus à 2 cellules · 1 ligne sortie au titre du croisement budgétaire · aucun article de code au dispositif · 2 adresses au droit contrôlées, millésime LEGI 20261001 ; **passe du 20261007 au soir : 0 tableau touché, 2 règles inscrites, 1 mesure de localisation jouée, 0 exposé touché** ; **passe du 20261009 (chaîne A) : 3 lignes d’annexe relevées, 3 concordantes à la pièce · 2 amendements écrits, 2.1-C et 2.1-D · 4 contrôles de plafond et de CP ≤ AE, 4 tenus · 0 exposé rédigé**.
 
 **Rédaction du 5 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), seconde partie. Accroche : article 58 du texte déposé, qui porte l’état B (champ `annexes`, `etat_B`, `article_support` 58). L’article 49 du texte déposé porte les relations financières entre l’État et la sécurité sociale : l’accroche « article 49 » des pièces antérieures est périmée.**
 
@@ -173,7 +173,121 @@ Contrôles : minoration ≤ crédits ouverts du programme, en AE comme en CP �
 
 ---
 
-## Lignes dues à l’intérieur de la présente pièce — règles arrêtées, montants non tenus
+## Pièce 2.1-C — mission « Culture »
+
+**Titre** Laisser vivre de son patrimoine l’établissement qui le peut ·
+**Chapô** Retirer la subvention des établissements vivant de leur patrimoine à compter du 1er novembre 2027 ·
+**Intention** Que la sortie de subvention produise son premier sixième dès l’exercice ·
+**Mesures portées** M-004 (bloc B-01), ligne due de la présente pièce depuis le 20261007
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE 58
+
+ÉTAT B
+
+Mission « Culture »
+
+Modifier ainsi les autorisations d’engagement et les crédits de paiement :
+
+(en euros)
+
+| Programmes | AE + | AE − | CP + | CP − |
+|---|---:|---:|---:|---:|
+| Patrimoines | 0 | 64 924 822 | 0 | 64 924 822 |
+| Création | 0 | 0 | 0 | 0 |
+| Transmission des savoirs et démocratisation de la culture | 0 | 0 | 0 | 0 |
+| Soutien aux politiques du ministère de la culture | 0 | 0 | 0 | 0 |
+| *dont titre 2* | 0 | 0 | 0 | 0 |
+| **TOTAUX** | 0 | 64 924 822 | 0 | 64 924 822 |
+| **SOLDE** | −64 924 822 | | −64 924 822 | |
+
+EXPOSÉ SOMMAIRE
+
+*Dû à la régénération en bloc des exposés — non rédigé par la chaîne A (mandat du 20261009).*
+
+`[interne]`
+
+| mission | programme | AE | CP | source |
+|---|---|---:|---:|---|
+| Culture | Patrimoines | −64 924 822 | −64 924 822 | `Données PAP 2026`!L408 (action 1, monuments historiques et patrimoine monumental, cat. 32, 81 935 204 €) + L419 (action 3, patrimoine des musées de France, cat. 32, 307 613 729 €) = 389 548 933 € × 1/6, tronqué à l’euro |
+
+**Chaîne** (`livrables/registre_calcul_etatB.md`, § 1) : assiette × socle (nul) × **1/6** — date d’effet du 1er novembre 2027, deux douzièmes, arbitrage du 20261007 au soir — × résiduel de la catégorie 32 (nul, AE = CP). **Plafond** : 64 924 822 ≤ AE 1 089 308 081 et CP 1 116 268 560 ouverts au programme par l’état B 2027 — tenu. CP = AE — tenu.
+
+**Proxy, documenté** (skill `disposition-cible`, ordre : ligne chiffrée → proxy → estimation). Aucune ligne d’annexe ne nomme les établissements qui remplissent les trois conditions du I de la pièce P2-08 — patrimoine dont la conservation est l’objet principal, ressources propres majoritaires, aucune imposition affectée. **Source** : subventions pour charges de service public du programme « Patrimoines » ; **périmètre** : actions 1 et 3, monuments et musées ; **exclusions** : archéologie (L435, 95,6 M€), architecture (L415), archives (L425), dont l’objet n’est pas la conservation d’un patrimoine propre. **Le montant est un majorant** : un établissement des actions 1 et 3 qui ne passe pas le seuil de ressources propres en sort. **À vérifier avant dépôt** sur les comptes financiers du dernier exercice clos, qui sont publics.
+
+**Divergence de date, rendue en clair et non appliquée (R8).** La pièce `P2/2_1_etablissements_ressources_propres.md` (P2-08) porte encore la fin de la subvention au **1er janvier 2028** (II et IV), quand l’arbitrage du 20261007 au soir la fixe au **1er novembre 2027**. Reprise due à P2-08 : au II, « à compter du 1er novembre 2027 » ; au IV, « Le II entre en vigueur le 1er novembre 2027. » **Sans elle, la présente minoration retire un sixième d’une subvention que la loi verse encore** : P2-08 et 2.1-C se déposent ensemble.
+
+---
+
+## Pièce 2.1-D — mission « Recherche et enseignement supérieur »
+
+**Titre** Rendre aux établissements les crédits de recherche sur projet ·
+**Chapô** Réinscrire au programme des établissements les crédits que l’agence distribuait par appel à projets ·
+**Intention** Que les crédits de recherche survivent au mode de versement qui disparaît ·
+**Mesures portées** réinscription arrêtée le 20261007 au soir (point 6), ligne due de la présente pièce
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE 58
+
+ÉTAT B
+
+Mission « Recherche et enseignement supérieur »
+
+Modifier ainsi les autorisations d’engagement et les crédits de paiement :
+
+(en euros)
+
+| Programmes | AE + | AE − | CP + | CP − |
+|---|---:|---:|---:|---:|
+| Formations supérieures et recherche universitaire | 1 291 920 000 | 0 | 998 000 000 | 0 |
+| *dont titre 2* | 0 | 0 | 0 | 0 |
+| Vie étudiante | 0 | 0 | 0 | 0 |
+| Recherches scientifiques et technologiques pluridisciplinaires | 0 | 1 291 920 000 | 0 | 998 000 000 |
+| Recherche spatiale | 0 | 0 | 0 | 0 |
+| Recherche dans les domaines de l’énergie, du développement et de la mobilité durables | 0 | 0 | 0 | 0 |
+| Recherche et enseignement supérieur en matière économique et industrielle | 0 | 0 | 0 | 0 |
+| Enseignement supérieur et recherche agricoles | 0 | 0 | 0 | 0 |
+| *dont titre 2* | 0 | 0 | 0 | 0 |
+| **TOTAUX** | 1 291 920 000 | 1 291 920 000 | 998 000 000 | 998 000 000 |
+| **SOLDE** | 0 | | 0 | |
+
+EXPOSÉ SOMMAIRE
+
+*Dû à la régénération en bloc des exposés — non rédigé par la chaîne A (mandat du 20261009).*
+
+`[interne]`
+
+| mission | programme | AE | CP | source |
+|---|---|---:|---:|---|
+| Recherche et enseignement supérieur | Recherches scientifiques et technologiques pluridisciplinaires | −1 291 920 000 | −998 000 000 | `Données PAP 2026`!L1916/M1916 — programme 172, action 2 « Agence nationale de la recherche », cat. 64 |
+| Recherche et enseignement supérieur | Formations supérieures et recherche universitaire | +1 291 920 000 | +998 000 000 | même ligne, réinscrite |
+
+**Chaîne** : assiette × socle (nul) × rythme 1 × fraction 12/12 — les appels à projets cessent au 1er janvier 2027 (`P2/n6_typologies_de_depenses.md`) — ; CP = min (CP ; AE) × (1 − résiduel de la catégorie 64, nul). **Plafond** : minoration du 172 ≤ AE 8 556 290 955 et CP 8 431 090 298 ouverts — tenu. CP ≤ AE — tenu. **Solde nul sur la mission** : article 47 de la loi organique, troisième invariant tenu par construction.
+
+**Trois choix de la passe, inscrits et révocables.**
+
+1. **Programme receveur : 150, « Formations supérieures et recherche universitaire »**, lu comme « le programme des établissements » de l’arbitrage. Les organismes de recherche sont au programme 172 lui-même : leur part ne demande **aucune ligne** d’état B, l’état B votant par programme. Variante : ne réinscrire au 150 que la part des universités — **aucune pièce ne mesure ce partage**.
+2. **Crédits de paiement réinscrits en entier (998 000 000 €)**, au résiduel nul de la catégorie 64 (registre, § 3). L’agence porte pourtant des AE supérieures à ses CP (1,29) : une part de ces CP solde des aides déjà attribuées. **Si l’agence garde ses engagements antérieurs, les CP réinscrits se réduisent d’autant**, et aucune pièce ne chiffre cette part.
+3. **Le fonctionnement de l’agence** (L1915/M1915, cat. 32, 40 100 000 €) **n’est pas touché** : l’arbitrage ne porte que sur les crédits distribués.
+
+---
+
+## Lignes dues à l’intérieur de la présente pièce — **portées le 20261009**
+
+**Les deux lignes dues depuis le 20261007 sont écrites** : 2.1-C et 2.1-D ci-dessus. Le classeur ne portait ni leur montant ni leur programme ; **l’annexe les porte**, au grain de l’action (`Données PAP 2026`). Ce qui reste : les deux exposés sommaires, à la régénération en bloc ; le périmètre de 2.1-C, sur les comptes financiers ; la reprise de date de P2-08 ; les trois choix de 2.1-D.
+
+<!-- état antérieur, conservé pour la trace -->
+### Lignes dues — état du 20261007 au soir, périmé le 20261009
 
 **Deux lignes d’état B sont dues ici et ne sont pas écrites, faute de montant ou de programme. Leur règle, elle, est arrêtée et ne se rediscute plus.**
 

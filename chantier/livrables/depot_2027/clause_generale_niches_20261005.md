@@ -1,10 +1,17 @@
-# Clause générale d’abolition des niches — rédaction unique, achevée sur le relevé des sièges — 20261004, reprises des 20261005, 20261007 et 20261008
+# Clause générale d’abolition des niches — rédaction unique, achevée sur le relevé des sièges — 20261004, reprises des 20261005, 20261007, 20261008 et 20261009
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 4 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026, et sur le projet de loi de financement de la sécurité sociale pour 2027, n° 3211 (Assemblée nationale, 17e législature).
 > Droit en vigueur lu sur l’extrait LEGI du 1er octobre 2026, millésime 20261001.
 > Sièges et montants de la liste énumérée : `referentiels/niches_sieges_20261004.tsv`, annexe 3 au tome II du PLF **2026**, version du 10 septembre 2026.
 > Aucun chiffre de l’annexe des voies et moyens n’est déposable : ces montants restent hors exposé et ne servent ici qu’à la tenue du registre de gage.
+
+**Reprise du 20261009 — regroupement des abrogations par bloc, outre-mer.** Porteur : fil 0 de la liasse de première partie, Cowork. Mandat : l’auteure, 20261009 — `methode/procedure_liasse_P1_20261009.md`, § 8, fil 0. **Appui** : `methode/procedure_liasse_P1_20261009.md` · `methode/etats/SUIVI_chantier_20261009.md` · `methode/fragments/arbitrages/20261009-outre-mer-sorti.md` · `methode/etats/T3.md` · `livrables/registre_colonnes_depot_2027.md` · `methode/regles_redactionnelles.md`, reprises du 20261007 (« abroger par bloc ») · `methode/appui_des_passes.md`, R-G, R-H, R-I, R8 · skills `resolution-chantier`, `redaction-legistique`, `confrontation`. Dépôt de droit cloné, millésime LEGI **20261007**, chaîne hiérarchique complète sur le code général des impôts et le code des impositions sur les biens et services. **Mesure d’entrée** : 85 rangs du III sur 396 portent au moins un article d’un bloc qui tombe en entier, dont 66 en totalité · 84 articles du III quater sur 181 et 62 du III quinquies sur 183 · 183 blocs entiers au total, le caractère entier contrôlé sur le dépôt de droit. **Mesure de sortie** : **III de 396 à 389 rangs** — 5 fusions de rangs (30°+31°, 35°+36°, 158°+159°+160°+161°, 209°+210°, 220°+221°, numérotation du 20261007), 68 rangs réécrits sur leur bloc, les autres rangs inchangés à l’octet · **III quater : 56 blocs pour 68 articles** · **III quinquies : 39 blocs pour 48 articles** · 13 blocs entiers laissés article par article, leurs articles relevant de deux divisions ou de deux dates · 1 bloc laissé article par article faute de numéro (« Disposition générale », article 1020) · IV recalé (B, C, C bis, E, F, quatrième phrase du C) et § 10.1 recalé · renvois de l’état courant repris au corps de la pièce · table de passage au § 11.
+
+- **Abroger par bloc.** Partout où une section, une sous-section, un chapitre ou une subdivision numérotée du code tombe en entier, l’abrogation vise la division et non ses articles. Le caractère entier est joué sur le dépôt de droit : tout article de la division applicable au 1er janvier 2027 ou après est abrogé en entier par la clause. **Un bloc ne se regroupe que si tous ses articles relèvent de la même division de la clause et de la même lettre du IV** : un regroupement qui changerait la date d’un article ou le ferait passer d’une division à l’autre n’est pas joué.
+- **Outre-mer : aucun rang retiré.** Des dix-neuf rangs relevés à `methode/etats/T3.md`, **douze sont déjà sortis du III depuis le 20261007** ; les **sept qui restent** — investissement outre-mer, 199 undecies A, B et C, 217 undecies et 217 duodecies, 244 quater W, X et Y — **restent au III par arbitrage de l’auteure du 20261009** : ces niches ne sont pas propres aux résidents ultramarins et tombent comme les autres. **Le II n’est pas touché** : son alinéa d’exclusion des collectivités des articles 73 et 74 de la Constitution et de la Nouvelle-Calédonie, réserve de domicile comprise, est déjà écrit.
+- **Renvois.** Ceux de l’état courant sont repris dans la même passe : le IV, le § 10.1, la table [interne] des taux, le § 3.1, les points 5 et 9 du § 6, le § 10.1 « Outre-mer », les comptes de rangs. **Les cartouches datés et les §§ 7, 8 et 9 citent les rangs dans la numérotation de leur date** : ils ne se réécrivent pas : la table du § 11 les résout. Hors de la pièce, les renvois repris sont ceux des pièces 4.2 A, B, C et D, 4.3, 4.6, `n7b_m022`, `n7b_ss03` et du registre des sources de gage.
+- **Ce que la passe ne touche pas** : l’exposé, le I, le II, les III bis et III ter, les A, D, G et H du IV, les V, VI et VII, les articles 2 et 3, les montants.
 
 **Reprise du 20261008 bis — le rang 247° passe du F au C bis du IV.** Porteur : fil Cowork d’application, dépôt 2027. Mandat : l’auteure, 20261008 — réponse à la question fermée du § 10, point 2, de `methode/etats/CALENDRIER_20261007.md` : **oui, les articles 794 et 795-0 A tombent eux aussi au 1er janvier 2027, avec l’article 795 ; le rang 247° rejoint le C bis.** Domicile de l’état : `methode/etats/CALENDRIER_20261007.md`, § 3 quater. **Appui** : `methode/etats/CALENDRIER_20261007.md`, § 3 ter.6 et § 10 · `methode/passation_20261007.md` · `methode/appui_des_passes.md`, R-G, R-H, R-I · `livrables/registre_exceptions_dates.md` · `methode/COMMUN.md` · `reference/guide_legistique.md` · skills `resolution-chantier` et `disposition-cible`. Dépôt de droit `/home/claude/droit/`, millésime LEGI **20261001**, `droit.py etat` joué, 62 textes. **Mesure** : **2 divisions du dispositif touchées** — le C bis et le F du IV · **1 rang changé de lettre (247°), 0 rang renuméroté, 396 rangs du III continus de 1° à 396° avant et après, couverture entière avant et après** · 2 lignes de la table du § 10.1 recalées · **4 adresses contrôlées, 4 `EXISTE`, 0 absente** · **G du IV contrôlé et non touché** · **1 constat de coordination inscrit, non corrigé** · **0 question fermée restante** · exposé non touché.
 
@@ -118,7 +125,7 @@
 
 **Colonnes et rangs** — registre des colonnes de dépôt : **P1-21** (article 1er), **SS-03** (article 2), **P1-25** (article 3). P1-02 et P1-22 sont périmés par la présente rédaction et leurs rangs se reprennent. **P1-24, rang de la pièce 4.7, est périmé par la fonte du 20261007** et son rang se reprend.
 
-**Gage** — aucun dû. Les trois articles font croître la recette. La pièce reste **la source de gage principale de la liasse**, et le III ci-dessous est désormais l’organe de gage : il nomme les articles, et il en nomme 396 rangs au lieu de neuf, outre les 364 articles des III quater et III quinquies.
+**Gage** — aucun dû. Les trois articles font croître la recette. La pièce reste **la source de gage principale de la liasse**, et le III ci-dessous est désormais l’organe de gage : il nomme les articles, et il en nomme 389 rangs au lieu de neuf, outre les 364 articles des III quater et III quinquies.
 
 ---
 
@@ -150,7 +157,7 @@ Trois traits distinguent la clause de la rédaction du 20261002, aujourd’hui p
 >
 > APRÈS L’ARTICLE 33, insérer l’article suivant :
 >
-> **I. – A.** – Les impositions mentionnées au B sont établies, liquidées et recouvrées selon les règles générales qui en régissent l’assiette, le taux et la liquidation, sans qu’un avantage fiscal en écarte l’application au bénéfice de certains contribuables ou à raison de certains biens, revenus, opérations ou activités.
+> I. – A. – Les impositions mentionnées au B sont établies, liquidées et recouvrées selon les règles générales qui en régissent l’assiette, le taux et la liquidation, sans qu’un avantage fiscal en écarte l’application au bénéfice de certains contribuables ou à raison de certains biens, revenus, opérations ou activités.
 >
 > Constitue un avantage fiscal :
 >
@@ -168,9 +175,9 @@ Trois traits distinguent la clause de la rédaction du 20261002, aujourd’hui p
 >
 > Les dispositions législatives qui accordent un tel avantage cessent de s’appliquer dans les conditions et aux dates prévues au IV et, à défaut, aux impositions dues et aux opérations réalisées à compter du 1er janvier 2028.
 >
-> **B.** – Les impositions mentionnées au A sont l’impôt sur le revenu, l’impôt sur les sociétés, l’impôt sur la fortune immobilière, les droits d’enregistrement et de timbre, la taxe sur la valeur ajoutée, les accises régies par le livre III du code des impositions sur les biens et services et les impositions directes locales régies par la deuxième partie du livre premier du code général des impôts.
+> B. – Les impositions mentionnées au A sont l’impôt sur le revenu, l’impôt sur les sociétés, l’impôt sur la fortune immobilière, les droits d’enregistrement et de timbre, la taxe sur la valeur ajoutée, les accises régies par le livre III du code des impositions sur les biens et services et les impositions directes locales régies par la deuxième partie du livre premier du code général des impôts.
 >
-> **II.** – Le I ne s’applique pas aux dispositions :
+> II. – Le I ne s’applique pas aux dispositions :
 >
 > 1° Qui définissent le revenu, le bénéfice ou la valeur imposables selon les règles de droit commun, notamment la déduction des charges et des amortissements nécessaires à l’activité.
 >
@@ -180,15 +187,15 @@ Trois traits distinguent la clause de la rédaction du 20261002, aujourd’hui p
 >
 > 4° Qui fixent un taux réduit ou dérogatoire de taxe sur la valeur ajoutée, à l’exception de celles que le III abroge.
 >
-> 5° Qui s’appliquent dans les mêmes conditions à toute personne, sans considération de la nature ou de l’emploi des biens, revenus ou opérations, le montant qu’elles prévoient pouvant être modulé à raison de l’âge ou du handicap.
+> 5° Dont le montant ne se module qu’à raison de l’âge ou du handicap et qui, pour le reste, s’appliquent dans les mêmes conditions à toute personne, sans considération de la nature ou de l’emploi des biens, des revenus ou des opérations.
 >
 > 6° Qui sont instituées par la présente loi pour le compte d’épargne personnel, au nombre desquelles le régime d’imposition de ses retraits et le sursis d’imposition des apports de titres qu’il prévoit, ainsi que pour le tarif des droits de mutation, au nombre desquelles le seuil de perception et la fraction de la base imposable taxée à 1 % prévus au III de l’article 683 du code général des impôts et les tarifs prévus aux articles 719 et 777 du même code.
 >
 > Ne relèvent pas du I et du III les dispositions propres aux collectivités régies par l’article 73 ou par l’article 74 de la Constitution et à la Nouvelle-Calédonie, qui sont régies par un régime fiscal distinct. Le présent alinéa ne s’applique pas aux dispositions dont le bénéfice est accordé à une personne qui n’est pas domiciliée dans ces collectivités.
 >
-> **III.** – Sont abrogés :
+> III. – Sont abrogés :
 >
-> 1° L’article 16 du code général des impôts.
+> 1° Le 3 du I de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du code général des impôts.
 > 2° Les a, b et b bis du 1° du I et, pour les dépenses mentionnées à ces mêmes a, b et b bis, le a du 2° du I de l’article 31 du même code.
 > 3° Le d du 1° du I de l’article 31 du même code.
 > 4° Le f du 1° du I de l’article 31 du même code.
@@ -208,384 +215,336 @@ Trois traits distinguent la clause de la rédaction du 20261002, aujourd’hui p
 > 18° L’article 39 quinquies FA du même code.
 > 19° L’article 39 quinquies GF du même code.
 > 20° Les articles 39 quinquies G, 39 quinquies GA, 39 quinquies GB et 39 quinquies GC du même code.
-> 21° L’article 39 decies du même code.
-> 22° L’article 39 decies A du même code.
-> 23° L’article 39 decies B du même code.
-> 24° L’article 39 decies C du même code.
-> 25° L’article 39 decies D du même code.
-> 26° L’article 39 decies E du même code.
-> 27° L’article 39 decies F du même code.
-> 28° L’article 39 decies G du même code.
-> 29° Le 5 de l’article 39 terdecies du même code.
-> 30° L’article 44 sexies du même code.
-> 31° Les articles 44 sexies A et 44 sexies-0 A du même code.
-> 32° L’article 44 octies A du même code.
-> 33° L’article 44 duodecies du même code.
-> 34° L’article 44 terdecies du même code.
-> 35° L’article 44 quindecies du même code.
-> 36° L’article 44 quindecies A du même code.
-> 37° L’article 44 sexdecies du même code.
-> 38° L’article 44 septdecies du même code.
-> 39° Le septième alinéa de l’article 50-0 du même code.
-> 40° L’article 72 A bis du même code.
-> 41° L’article 72 B du même code.
-> 42° L’article 73 du même code.
-> 43° L’article 73 A du même code.
-> 44° L’article 73 B du même code.
-> 45° L’article 75-0 A du même code.
-> 46° L’article 80 bis, le 1 du II de l’article 150-0 A, le 8 de l’article 150-0 D et le 6 de l’article 200 A du même code.
-> 47° L’article 80 quinquies du même code.
-> 48° L’article 80 sexies du même code.
-> 49° Le 6° du 1 de l’article 80 duodecies du même code.
-> 50° L’article 80 quaterdecies et le 3 de l’article 200 A du même code.
-> 51° Le 6 bis de l’article 200 A du même code.
-> 52° L’article 80 sexdecies, le 18° bis de l’article 81, l’article 81 ter, les 16° bis et 17° de l’article 157 et les articles 163 bis AA et 163 bis B du même code.
-> 53° Le 2° de l’article 81 du même code.
-> 54° Le 2° bis de l’article 81 du même code.
-> 55° Les 14° et 14° bis de l’article 81 du même code.
-> 56° Le 3° de l’article 81 du même code.
-> 57° Les a, b, c, d et e du 4° et le 12° de l’article 81 du même code.
-> 58° Le 7° de l’article 81 du même code.
-> 59° Le 8° de l’article 81 du même code.
-> 60° Les 9° et 9° quinquies de l’article 81 du même code.
-> 61° Le 9° ter de l’article 81 du même code.
-> 62° Le 17° de l’article 81 du même code.
-> 63° Le 18° de l’article 81 et les 4 et 4 bis du III de l’article 150-0 A du même code.
-> 64° Le 19° de l’article 81 du même code.
-> 65° Le 19° bis de l’article 81 du même code.
-> 66° Le 19° ter de l’article 81 du même code.
-> 67° Le 23° bis de l’article 81 du même code.
-> 68° Le 23° ter de l’article 81 du même code.
-> 69° Le 29° de l’article 81 du même code.
-> 70° Le 30° de l’article 81 du même code.
-> 71° Le 30° bis de l’article 81 du même code.
-> 72° Le 33° bis de l’article 81 du même code.
-> 73° Le 33° ter de l’article 81 du même code.
-> 74° Le 35° de l’article 81 du même code.
-> 75° Le 36° de l’article 81 du même code.
-> 76° Le 37° de l’article 81 du même code.
-> 77° L’article 81 A du même code.
-> 78° L’article 81 D et le I de l’article 155 B du même code.
-> 79° L’article 81 bis du même code.
-> 80° L’article 81 quater du même code.
-> 81° Les articles 84 A et 100 bis du même code.
-> 82° L’article 92 A du même code.
-> 83° Le 5° du 1 de l’article 93 du même code.
-> 84° Le 9 de l’article 93 du même code.
-> 85° Le 10 de l’article 93 du même code.
-> 86° L’article 125 A du même code.
-> 87° L’article 125-0 A du même code.
-> 88° L’article 125-00 A du même code.
-> 89° Le III de l’article 150 VB du même code.
-> 90° L’article 150 VE du même code.
-> 91° Les 1°, 2° et 3° de l’article 150 VJ du même code.
-> 92° Le 5° de l’article 150 VJ du même code.
-> 93° Le 2 du II de l’article 150-0 A, le 5° bis de l’article 157 et le 5 de l’article 200 A du même code.
-> 94° Le 1 du III de l’article 150-0 A du même code.
-> 95° Le 1 bis du III de l’article 150-0 A du même code.
-> 96° Les 2 et 3 du III de l’article 150-0 A du même code.
-> 97° Le 4 ter du III de l’article 150-0 A et le 24° de l’article 157 du même code.
-> 98° Le 1 quater de l’article 150-0 D du même code.
-> 99° L’article 150-0 D ter du même code.
-> 100° Le 1° bis du II de l’article 150 U du même code.
-> 101° Le 1° ter du II de l’article 150 U du même code.
-> 102° Le 2° du II de l’article 150 U du même code.
-> 103° Le 7° du II de l’article 150 U du même code.
-> 104° Le 8° du II de l’article 150 U du même code.
-> 105° Le 9° du II de l’article 150 U du même code.
-> 106° Le III de l’article 150 U du même code.
-> 107° Les articles 150 ter et 244 bis C du même code.
-> 108° L’article 151 ter du même code.
-> 109° Le VII de l’article 151 septies, le 2 du IV de l’article 155 et le premier alinéa du 1° bis du I de l’article 156 du même code.
-> 110° L’article 151 septies A du même code.
-> 111° L’article 154 bis A du même code.
-> 112° Le a du II de l’article 155 B du même code.
-> 113° Le c du II de l’article 155 B du même code.
-> 114° Le premier alinéa du 3° du I de l’article 156 et l’article 156 bis du même code.
-> 115° Le quatrième alinéa du 3° du I de l’article 156 du même code.
-> 116° Le I bis de l’article 156 du même code.
-> 117° Le 1° ter du II de l’article 156 du même code.
-> 118° Le 2° ter du II de l’article 156 du même code.
-> 119° Le 2° quater du II de l’article 156 du même code.
-> 120° Le 5° du II de l’article 156 du même code.
-> 121° Les 5° ter et 22° de l’article 157 du même code.
-> 122° Le 6° de l’article 157 du même code.
-> 123° Le 7° de l’article 157 du même code.
-> 124° Le 7° ter de l’article 157 du même code.
-> 125° Le 7° quater de l’article 157 du même code.
-> 126° Le 9° bis de l’article 157 du même code.
-> 127° Le 9° quater de l’article 157 du même code.
-> 128° L’article 157 bis du même code.
-> 129° Le a du 5 de l’article 158 du même code.
-> 130° Le 2° du b quinquies du 5 de l’article 158 et l’article 163 bis du même code.
-> 131° L’article 163-0 A ter du même code.
-> 132° L’article 163 bis G du même code.
-> 133° L’article 163 bis H du même code.
-> 134° Les articles 163 quinquies B et 163 quinquies C du même code.
-> 135° Les a, b et e du 1 de l’article 195 du même code.
-> 136° Les c, d et d bis du 1 et les 3 à 5 de l’article 195 du même code.
-> 137° Le f du 1 de l’article 195 et le 6 de l’article 195 du même code.
-> 138° Le 2 de l’article 195 et l’article 196 A bis du même code.
-> 139° L’article 196 B du même code.
-> 140° L’article 199 quater C du même code.
-> 141° L’article 199 quater F du même code.
-> 142° L’article 199 septies du même code.
-> 143° L’article 199 undecies A du même code.
-> 144° L’article 199 undecies B du même code.
-> 145° L’article 199 undecies C du même code.
-> 146° L’article 199 terdecies-0 AB du même code.
-> 147° Le I de l’article 199 terdecies-0 A et l’article 199 terdecies-0 AA du même code.
-> 148° L’article 199 terdecies-0 A bis du même code.
-> 149° L’article 199 terdecies-0 A ter du même code.
-> 150° L’article 199 terdecies-0 B du même code.
-> 151° L’article 199 terdecies-0 C du même code.
-> 152° L’article 199 quindecies du même code.
-> 153° Les 1 à 4 de l’article 199 sexdecies du même code.
-> 154° L’article 199 octodecies du même code.
-> 155° L’article 199 unvicies du même code.
-> 156° Le I de l’article 199 duovicies du même code.
-> 157° L’article 199 tervicies du même code.
-> 158° L’article 199 sexvicies du même code.
-> 159° L’article 199 septvicies du même code.
-> 160° L’article 199 novovicies du même code.
-> 161° L’article 199 tricies du même code.
-> 162° L’article 200 du même code.
-> 163° L’article 200 quater A du même code.
-> 164° L’article 200 quater B du même code.
-> 165° L’article 200 quater C du même code.
-> 166° L’article 200 decies A du même code.
-> 167° L’article 200 undecies du même code.
-> 168° L’article 200 quindecies du même code.
-> 169° Le 1 bis de l’article 206 du même code.
-> 170° Le 5 de l’article 206 du même code.
-> 171° Le 5 bis de l’article 206 du même code.
-> 172° Le 1° bis du 1 de l’article 207 du même code.
-> 173° Les 2°, 3° et 3° bis du 1 de l’article 207 du même code.
-> 174° Le 4° du 1 de l’article 207 et l’article 221 bis du même code.
-> 175° Le 4° quater du 1 de l’article 207 du même code.
-> 176° Les 9°, 10° et 11° du 1 de l’article 207 du même code.
-> 177° Les 3° quater et 3° quinquies de l’article 208 du même code.
-> 178° Le 3° septies de l’article 208 du même code.
-> 179° Le 3° nonies de l’article 208 du même code.
-> 180° L’article 208 C du même code.
-> 181° Le IV de l’article 209 du même code.
-> 182° Le VIII de l’article 209 du même code.
-> 183° L’article 209-0 B du même code.
-> 184° L’article 210 F du même code.
-> 185° Le 8° du 1 de l’article 214 du même code.
-> 186° L’article 217 octies du même code.
-> 187° Les articles 217 undecies et 217 duodecies du même code.
-> 188° Le a du I de l’article 219 et les articles 238 et 223 H du même code.
-> 189° Les 1° et 2° de l’article 219 bis du même code.
-> 190° L’article 220 Z septies du même code.
-> 191° Les articles 220 sexies et 220 F du même code.
-> 192° Le g du 1 de l’article 223 O du même code.
-> 193° Les articles 220 octies et 220 Q et le q du 1 de l’article 223 O du même code.
-> 194° L’article 220 undecies du même code.
-> 195° L’article 220 undecies A du même code.
-> 196° Les articles 220 terdecies et 220 X et le w du 1 de l’article 223 O du même code.
-> 197° Les articles 220 quaterdecies et 220 Z bis et le z du 1 de l’article 223 O du même code.
-> 198° Les articles 220 quindecies et 220 S et le s du 1 de l’article 223 O du même code.
-> 199° Les articles 220 sexdecies et 220 T et le v du 1 de l’article 223 O du même code.
-> 200° Les articles 220 septdecies et 220 Q bis du même code.
-> 201° L’article 235 ter ZG du même code.
-> 202° Les II, III et IV de l’article 237 bis A du même code.
-> 203° L’article 237 quater du même code.
-> 204° L’article 238 bis du même code.
-> 205° L’article 238 bis AB du même code.
-> 206° L’article 238 bis-0 A du même code.
-> 207° L’article 238 sexdecies du même code.
-> 208° L’article 239 octies du même code.
-> 209° Les articles 244 quater B, 199 ter B et 220 B et le b du 1 de l’article 223 O du même code.
-> 210° L’article 244 quater B bis, les articles 199 ter B bis et 220 B bis et le b bis du 1 de l’article 223 O du même code.
-> 211° Les articles 244 quater E, 199 ter D et 220 D et le d du 1 de l’article 223 O du même code.
-> 212° Les articles 244 quater F, 199 ter E et 220 G et le f du 1 de l’article 223 O du même code.
-> 213° L’article 244 quater I du même code.
-> 214° Les articles 244 quater J, 199 ter I et 220 K, le k du 1 de l’article 223 O, les articles 244 quater V, 199 ter T et 220 Z ter et le z bis du 1 de l’article 223 O du même code.
-> 215° Les articles 244 quater L, 199 ter K et 220 M et le n du 1 de l’article 223 O du même code.
-> 216° Les articles 244 quater O, 199 ter N et 220 P et le p du 1 de l’article 223 O du même code.
-> 217° Les articles 244 quater T, 199 ter V et 220 Z octies et le 1 du I de l’article 223 O du même code.
-> 218° Les articles 244 quater U, 199 ter S et 220 Z et le y du 1 de l’article 223 O du même code.
-> 219° Les articles 244 quater W, 199 ter U et 220 Z quater et le z ter du 1 de l’article 223 O du même code.
-> 220° Les articles 244 quater X et 220 Z quinquies et le z quater du 1 de l’article 223 O du même code.
-> 221° Les articles 244 quater Y et 220 Z sexies et le z quinquies du 1 de l’article 223 O du même code.
-> 222° L’article 722 bis du même code.
-> 223° Le 2° du I de l’article 726 du même code.
-> 224° Le II de l’article 726 du même code.
-> 225° Les articles 730 bis et 730 ter du même code.
-> 226° L’article 730 quater du même code.
-> 227° L’article 730 quinquies du même code.
-> 228° L’article 732 du même code.
-> 229° L’article 732 ter du même code.
-> 230° L’article 749 du même code.
-> 231° L’article 749 A du même code.
-> 232° L’article 750 bis B du même code.
-> 233° L’article 757 C du même code.
-> 234° L’article 775 bis du même code.
-> 235° L’article 775 sexies du même code.
-> 236° L’article 776 quater du même code.
-> 237° Le second alinéa de l’article 777 et les articles 778 et 782 du même code.
-> 238° Le II de l’article 779 du même code.
-> 239° Les articles 787 B et 787 C du même code.
-> 240° Le III de l’article 788 du même code.
-> 241° L’article 790 A du même code.
-> 242° L’article 790 A bis du même code.
-> 243° Les 3° et 4° du 1, les 2° et 3° du 2 et le 3 de l’article 793 ainsi que les articles 793 bis et 848 bis du même code.
-> 244° Les 4° à 6° du 2 de l’article 793 et l’article 793 ter du même code.
-> 245° Le 7° du 2 de l’article 793 du même code.
-> 246° Le 8° du 2 de l’article 793 du même code.
-> 247° Les articles 794 et 795-0 A du même code.
-> 248° L’article 795, le I de l’article 990 I et les articles 796-0 bis et 796-0 ter du même code.
-> 249° L’article 795 A du même code.
-> 250° Les 1° à 7° du I de l’article 796 du même code.
-> 251° Les 8° et 11° du I de l’article 796 du même code.
-> 252° Les 9° et 10° du I de l’article 796 du même code.
-> 253° L’article 796 bis du même code.
-> 254° L’article 796-0 quinquies du même code.
-> 255° L’article 797 du même code.
-> 256° Les 2° et 4° du I de l’article 828 du même code.
-> 257° L’article 978 du même code.
-> 258° Le I bis de l’article 990 I du même code.
-> 259° Les articles 1020 et 1039 du même code.
-> 260° Les articles 1028 bis et 1028 ter du même code.
-> 261° Les articles 1030 et 1031 du même code.
-> 262° L’article 1042 du même code.
-> 263° Le 1° de l’article 1051 du même code.
-> 264° L’article 1131 du même code.
-> 265° L’article 1135 bis du même code.
-> 266° L’article 1383 C ter du même code.
-> 267° L’article 1383 F du même code.
-> 268° L’article 1383 J du même code.
-> 269° Les articles 1384, 1384-0 A et 1384 A à 1384 D du même code.
-> 270° L’article 1388 bis du même code.
-> 271° Les articles 1390, 1391 et 1391 B bis du même code.
-> 272° L’article 1391 B du même code.
-> 273° L’article 1391 C du même code.
-> 274° L’article 1391 D du même code.
-> 275° L’article 1391 E du même code.
-> 276° L’article 1394 B du même code.
-> 277° L’article 1394 B bis du même code.
-> 278° L’article 1395 du même code.
-> 279° L’article 1395 B bis du même code.
-> 280° L’article 1395 E du même code.
-> 281° L’article 1398 du même code.
-> 282° L’article 1398 A du même code.
-> 283° L’article 1414 A du même code.
-> 284° L’article 1458 bis du même code.
-> 285° L’article 1586 ter du même code.
-> 286° L’article 1463 A du même code.
-> 287° L’article 1463 B du même code.
-> 288° L’article 1465 A du même code.
-> 289° Le I sexies de l’article 1466 A du même code.
-> 290° Le I septies de l’article 1466 A du même code.
-> 291° L’article 1472 A ter du même code.
-> 292° L’article 1647 D du même code.
-> 293° L’article 1647-00 bis du même code.
-> 294° L’article 1655 septies du même code.
-> 295° L’article 1691 ter du même code.
-> 296° L’article L. 213-43 du code des impositions sur les biens et services.
-> 297° L’article L. 213-105 du même code.
-> 298° L’article L. 213-107 du même code.
-> 299° L’article L. 213-109 du même code.
-> 300° L’article L. 213-111 du même code.
-> 301° L’article L. 213-164 du même code.
-> 302° L’article L. 213-169 du même code.
-> 303° L’article L. 213-170 du même code.
-> 304° L’article L. 213-172 du même code.
-> 305° L’article L. 213-174 du même code.
-> 306° Les articles L. 213-186 à L. 213-189 du même code.
-> 307° L’article L. 213-190 du même code.
-> 308° L’article L. 213-191 du même code.
-> 309° L’article L. 213-192 du même code.
-> 310° L’article L. 213-193 du même code.
-> 311° L’article L. 213-194 du même code.
-> 312° Le 1° de l’article L. 213-197 du même code.
-> 313° L’article L. 213-202 du même code.
-> 314° L’article L. 213-208 du même code.
-> 315° L’article L. 213-213 du même code.
-> 316° L’article L. 213-223 du même code.
-> 317° L’article L. 213-231 du même code.
-> 318° L’article L. 213-232 du même code.
-> 319° L’article L. 213-233 du même code.
-> 320° L’article L. 213-234 du même code.
-> 321° L’article L. 213-235 du même code.
-> 322° L’article L. 213-237 du même code.
-> 323° L’article L. 213-238 du même code.
-> 324° L’article L. 213-239 du même code.
-> 325° L’article L. 213-240 du même code.
-> 326° L’article L. 213-247 du même code.
-> 327° L’article L. 213-248 du même code.
-> 328° L’article L. 213-249 du même code.
-> 329° L’article L. 213-250 du même code.
-> 330° L’article L. 213-258 du même code.
-> 331° L’article L. 213-260 du même code.
-> 332° Les articles L. 213-262 à L. 213-264 du même code.
-> 333° Les articles L. 216-14 et L. 217-9 du même code.
-> 334° L’article L. 231-35 du même code.
-> 335° Les articles L. 231-45 et L. 231-46 du même code.
-> 336° Les articles L. 231-57 et L. 231-58 du même code.
-> 337° Les articles L. 231-69 à L. 231-74 du même code.
-> 338° Les articles L. 231-76 à L. 231-82 du même code.
-> 339° Les articles L. 231-84 à L. 231-89 du même code.
-> 340° Les articles L. 231-91 à L. 231-99 du même code.
-> 341° Les articles L. 233-10 et L. 233-11 du même code.
-> 342° L’article L. 252-15 du même code.
-> 343° Le troisième alinéa de l’article L. 312-35 du même code.
-> 344° L’article L. 312-41 du même code.
-> 345° Les articles L. 312-48 et L. 312-49 du même code.
-> 346° L’article L. 312-50 du même code.
-> 347° L’article L. 312-51 du même code.
-> 348° L’article L. 312-52 du même code.
-> 349° L’article L. 312-53 du même code.
-> 350° L’article L. 312-54 du même code.
-> 351° L’article L. 312-56 du même code.
-> 352° L’article L. 312-57-1 du même code.
-> 353° L’article L. 312-57-2 du même code.
-> 354° L’article L. 312-58-1 du même code.
-> 355° L’article L. 312-59 du même code.
-> 356° Les articles L. 312-60 et L. 312-61 du même code.
-> 357° L’article L. 312-62 du même code.
-> 358° L’article L. 312-63 du même code.
-> 359° L’article L. 312-64 du même code.
-> 360° L’article L. 312-70 du même code.
-> 361° L’article L. 312-70-1 du même code.
-> 362° Les articles L. 312-65 et L. 312-71 du même code.
-> 363° L’article L. 312-72 du même code.
-> 364° Les articles L. 312-75 et L. 312-76 du même code.
-> 365° L’article L. 312-77 du même code.
-> 366° Les articles L. 312-78-1 et L. 312-78-2 du même code.
-> 367° Les articles L. 312-79 et L. 312-80 du même code.
-> 368° L’article L. 312-81 du même code.
-> 369° L’article L. 312-83 du même code.
-> 370° L’article L. 312-84 du même code.
-> 371° L’article L. 312-85 du même code.
-> 372° L’article L. 312-86 du même code.
-> 373° L’article L. 312-87 du même code.
-> 374° Les articles L. 421-65 et L. 421-69 du même code.
-> 375° L’article L. 421-66 du même code.
-> 376° L’article L. 421-68 du même code.
-> 377° L’article L. 421-70 du même code.
-> 378° L’article L. 421-70-1 du même code.
-> 379° L’article L. 421-74 du même code.
-> 380° Les articles L. 421-76 et L. 421-80 du même code.
-> 381° L’article L. 421-77 du même code.
-> 382° L’article L. 421-78 du même code.
-> 383° L’article L. 421-79 du même code.
-> 384° L’article L. 421-79-1 du même code.
-> 385° L’article L. 421-81 du même code.
-> 386° L’article L. 421-81-1 du même code.
-> 387° Les articles L. 421-149 et L. 421-150 du même code.
-> 388° Les articles L. 421-152 à L. 421-155 du même code.
-> 389° Le 1 sexies du II de l’article 266 sexies du code des douanes.
-> 390° Le 2 de l’article 266 decies du même code.
-> 391° L’article L. 2333-55-3 du code général des collectivités territoriales.
-> 392° L’article 140 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021.
-> 393° L’article 151 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021.
-> 394° L’article 27 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021.
-> 395° L’article 107 de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets.
-> 396° L’article 70 de la loi n° 2023-1322 du 29 décembre 2023 de finances pour 2024.
+> 21° Les articles 39 decies à 39 decies G du même code.
+> 22° Le 5 de l’article 39 terdecies du même code.
+> 23° Le 2 bis du II de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 24° L’article 44 octies A du même code.
+> 25° Le 2 septies du II de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 26° Le 2 octies du II de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 27° Le 2 decies du II de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 28° Le 2 undecies du II de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 29° Le 2 duodecies du II de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 30° Le septième alinéa de l’article 50-0 du même code.
+> 31° L’article 72 A bis du même code.
+> 32° L’article 72 B du même code.
+> 33° L’article 73 du même code.
+> 34° L’article 73 A du même code.
+> 35° L’article 73 B du même code.
+> 36° L’article 75-0 A du même code.
+> 37° L’article 80 bis, le 1 du II de l’article 150-0 A, le 8 de l’article 150-0 D et le 6 de l’article 200 A du même code.
+> 38° L’article 80 quinquies du même code.
+> 39° L’article 80 sexies du même code.
+> 40° Le 6° du 1 de l’article 80 duodecies du même code.
+> 41° L’article 80 quaterdecies et le 3 de l’article 200 A du même code.
+> 42° Le 6 bis de l’article 200 A du même code.
+> 43° L’article 80 sexdecies, le 18° bis de l’article 81, l’article 81 ter, les 16° bis et 17° de l’article 157 et les articles 163 bis AA et 163 bis B du même code.
+> 44° Le 2° de l’article 81 du même code.
+> 45° Le 2° bis de l’article 81 du même code.
+> 46° Les 14° et 14° bis de l’article 81 du même code.
+> 47° Le 3° de l’article 81 du même code.
+> 48° Les a, b, c, d et e du 4° et le 12° de l’article 81 du même code.
+> 49° Le 7° de l’article 81 du même code.
+> 50° Le 8° de l’article 81 du même code.
+> 51° Les 9° et 9° quinquies de l’article 81 du même code.
+> 52° Le 9° ter de l’article 81 du même code.
+> 53° Le 17° de l’article 81 du même code.
+> 54° Le 18° de l’article 81 et les 4 et 4 bis du III de l’article 150-0 A du même code.
+> 55° Le 19° de l’article 81 du même code.
+> 56° Le 19° bis de l’article 81 du même code.
+> 57° Le 19° ter de l’article 81 du même code.
+> 58° Le 23° bis de l’article 81 du même code.
+> 59° Le 23° ter de l’article 81 du même code.
+> 60° Le 29° de l’article 81 du même code.
+> 61° Le 30° de l’article 81 du même code.
+> 62° Le 30° bis de l’article 81 du même code.
+> 63° Le 33° bis de l’article 81 du même code.
+> 64° Le 33° ter de l’article 81 du même code.
+> 65° Le 35° de l’article 81 du même code.
+> 66° Le 36° de l’article 81 du même code.
+> 67° Le 37° de l’article 81 du même code.
+> 68° Le 1 bis du V de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 69° Le 1 ter du V de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier et le I de l’article 155 B du même code.
+> 70° L’article 81 bis du même code.
+> 71° L’article 81 quater du même code.
+> 72° Les articles 84 A et 100 bis du même code.
+> 73° L’article 92 A du même code.
+> 74° Le 5° du 1 de l’article 93 du même code.
+> 75° Le 9 de l’article 93 du même code.
+> 76° Le 10 de l’article 93 du même code.
+> 77° Le 4 ter du VII de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 78° Le 4 bis du VII de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 79° L’article 125-00 A du même code.
+> 80° Le III de l’article 150 VB du même code.
+> 81° L’article 150 VE du même code.
+> 82° Les 1°, 2° et 3° de l’article 150 VJ du même code.
+> 83° Le 5° de l’article 150 VJ du même code.
+> 84° Le 2 du II de l’article 150-0 A, le 5° bis de l’article 157 et le 5 de l’article 200 A du même code.
+> 85° Le 1 du III de l’article 150-0 A du même code.
+> 86° Le 1 bis du III de l’article 150-0 A du même code.
+> 87° Les 2 et 3 du III de l’article 150-0 A du même code.
+> 88° Le 4 ter du III de l’article 150-0 A et le 24° de l’article 157 du même code.
+> 89° Le 1 quater de l’article 150-0 D du même code.
+> 90° L’article 150-0 D ter du même code.
+> 91° Le 1° bis du II de l’article 150 U du même code.
+> 92° Le 1° ter du II de l’article 150 U du même code.
+> 93° Le 2° du II de l’article 150 U du même code.
+> 94° Le 7° du II de l’article 150 U du même code.
+> 95° Le 8° du II de l’article 150 U du même code.
+> 96° Le 9° du II de l’article 150 U du même code.
+> 97° Le III de l’article 150 U du même code.
+> 98° Les articles 150 ter et 244 bis C du même code.
+> 99° Le 1 bis du VIII de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 100° Le VII de l’article 151 septies, le 2 du IV de l’article 155 et le premier alinéa du 1° bis du I de l’article 156 du même code.
+> 101° L’article 151 septies A du même code.
+> 102° Le 4 bis A du VIII de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 103° Le a du II de l’article 155 B du même code.
+> 104° Le c du II de l’article 155 B du même code.
+> 105° Le premier alinéa du 3° du I de l’article 156 et l’article 156 bis du même code.
+> 106° Le quatrième alinéa du 3° du I de l’article 156 du même code.
+> 107° Le I bis de l’article 156 du même code.
+> 108° Le 1° ter du II de l’article 156 du même code.
+> 109° Le 2° ter du II de l’article 156 du même code.
+> 110° Le 2° quater du II de l’article 156 du même code.
+> 111° Le 5° du II de l’article 156 du même code.
+> 112° Les 5° ter et 22° de l’article 157 du même code.
+> 113° Le 6° de l’article 157 du même code.
+> 114° Le 7° de l’article 157 du même code.
+> 115° Le 7° ter de l’article 157 du même code.
+> 116° Le 7° quater de l’article 157 du même code.
+> 117° Le 9° bis de l’article 157 du même code.
+> 118° Le 9° quater de l’article 157 du même code.
+> 119° L’article 157 bis du même code.
+> 120° Le a du 5 de l’article 158 du même code.
+> 121° Le 2° du b quinquies du 5 de l’article 158 et l’article 163 bis du même code.
+> 122° L’article 163-0 A ter du même code.
+> 123° L’article 163 bis G du même code.
+> 124° L’article 163 bis H du même code.
+> 125° Les articles 163 quinquies B et 163 quinquies C du même code.
+> 126° Les a, b et e du 1 de l’article 195 du même code.
+> 127° Les c, d et d bis du 1 et les 3 à 5 de l’article 195 du même code.
+> 128° Le f du 1 de l’article 195 et le 6 de l’article 195 du même code.
+> 129° Le 2 de l’article 195 et l’article 196 A bis du même code.
+> 130° L’article 196 B du même code.
+> 131° Le 3° du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 132° Le 6° du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 133° Le 9° du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 134° Les articles 199 undecies A à 199 undecies C du même code.
+> 135° L’article 199 terdecies-0 AB du même code.
+> 136° Le I de l’article 199 terdecies-0 A et l’article 199 terdecies-0 AA du même code.
+> 137° L’article 199 terdecies-0 A bis du même code.
+> 138° L’article 199 terdecies-0 A ter du même code.
+> 139° Le 15° bis du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 140° Le 15° ter du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 141° Le 16° du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 142° Les 1 à 4 de l’article 199 sexdecies du même code.
+> 143° Le 19° du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 144° Le 19° quinquies du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 145° Le I de l’article 199 duovicies du même code.
+> 146° L’article 199 tervicies du même code.
+> 147° Le 19° decies du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 148° Le 20° du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 149° L’article 200 quater A du même code.
+> 150° Le 23° bis du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 151° Le 23° ter du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 152° Le 29° bis du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 153° Le 30° du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 154° Le 34° du II de la section V du chapitre premier du titre premier de la première partie du livre premier du même code.
+> 155° Le 1 bis de l’article 206 du même code.
+> 156° Le 5 de l’article 206 du même code.
+> 157° Le 5 bis de l’article 206 du même code.
+> 158° Le 1° bis du 1 de l’article 207 du même code.
+> 159° Les 2°, 3° et 3° bis du 1 de l’article 207 du même code.
+> 160° Le 4° du 1 de l’article 207 et l’article 221 bis du même code.
+> 161° Le 4° quater du 1 de l’article 207 du même code.
+> 162° Les 9°, 10° et 11° du 1 de l’article 207 du même code.
+> 163° Les 3° quater et 3° quinquies de l’article 208 du même code.
+> 164° Le 3° septies de l’article 208 du même code.
+> 165° Le 3° nonies de l’article 208 du même code.
+> 166° L’article 208 C du même code.
+> 167° Le IV de l’article 209 du même code.
+> 168° Le VIII de l’article 209 du même code.
+> 169° L’article 209-0 B du même code.
+> 170° L’article 210 F du même code.
+> 171° Le 8° du 1 de l’article 214 du même code.
+> 172° L’article 217 octies du même code.
+> 173° Les articles 217 undecies et 217 duodecies du même code.
+> 174° Le a du I de l’article 219, l’article 238 et le 6° de la 1re sous-section de la section VIII du chapitre II du titre premier de la première partie du livre premier du même code.
+> 175° Les 1° et 2° de l’article 219 bis du même code.
+> 176° L’article 220 Z septies du même code.
+> 177° Le 2° de la section V du chapitre II du titre premier de la première partie du livre premier et l’article 220 F du même code.
+> 178° Le g du 1 de l’article 223 O du même code.
+> 179° Le 4° de la section V du chapitre II du titre premier de la première partie du livre premier, l’article 220 Q et le q du 1 de l’article 223 O du même code.
+> 180° Le 7° de la section V du chapitre II du titre premier de la première partie du livre premier du même code.
+> 181° Le 7° bis de la section V du chapitre II du titre premier de la première partie du livre premier du même code.
+> 182° Le 9° de la section V du chapitre II du titre premier de la première partie du livre premier, l’article 220 X et le w du 1 de l’article 223 O du même code.
+> 183° Le 10° de la section V du chapitre II du titre premier de la première partie du livre premier, l’article 220 Z bis et le z du 1 de l’article 223 O du même code.
+> 184° Le 11° de la section V du chapitre II du titre premier de la première partie du livre premier, l’article 220 S et le s du 1 de l’article 223 O du même code.
+> 185° Le 12° de la section V du chapitre II du titre premier de la première partie du livre premier, l’article 220 T et le v du 1 de l’article 223 O du même code.
+> 186° Le 13° de la section V du chapitre II du titre premier de la première partie du livre premier et l’article 220 Q bis du même code.
+> 187° La section XXIII du chapitre III du titre premier de la première partie du livre premier du même code.
+> 188° Les II, III et IV de l’article 237 bis A du même code.
+> 189° L’article 237 quater du même code.
+> 190° L’article 238 bis du même code.
+> 191° L’article 238 bis AB du même code.
+> 192° L’article 238 bis-0 A du même code.
+> 193° Le VIII ter de la section II du chapitre IV du titre premier de la première partie du livre premier du même code.
+> 194° Le XVII bis de la section II du chapitre IV du titre premier de la première partie du livre premier du même code.
+> 195° Le XXVII de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter B, 199 ter B bis, 220 B et 220 B bis et les b et b bis du 1 de l’article 223 O du même code.
+> 196° Le XXX de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter D et 220 D et le d du 1 de l’article 223 O du même code.
+> 197° Le XXXI de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter E et 220 G et le f du 1 de l’article 223 O du même code.
+> 198° Le XXXIV de la section II du chapitre IV du titre premier de la première partie du livre premier du même code.
+> 199° Le XXXV de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter I et 220 K, le k du 1 de l’article 223 O, le XLVII de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter T et 220 Z ter et le z bis du 1 de l’article 223 O du même code.
+> 200° Le XXXVII de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter K et 220 M et le n du 1 de l’article 223 O du même code.
+> 201° Le XL de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter N et 220 P et le p du 1 de l’article 223 O du même code.
+> 202° Le XLV de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter V et 220 Z octies et le 1 du I de l’article 223 O du même code.
+> 203° Le XLVI de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter S et 220 Z et le y du 1 de l’article 223 O du même code.
+> 204° Le XLVIII de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 199 ter U et 220 Z quater et le z ter du 1 de l’article 223 O du même code.
+> 205° Le XLIX de la section II du chapitre IV du titre premier de la première partie du livre premier, les articles 220 Z quinquies et 220 Z sexies et les z quater et z quinquies du 1 de l’article 223 O du même code.
+> 206° L’article 722 bis du même code.
+> 207° Le 2° du I de l’article 726 du même code.
+> 208° Le II de l’article 726 du même code.
+> 209° Les articles 730 bis et 730 ter du même code.
+> 210° L’article 730 quater du même code.
+> 211° L’article 730 quinquies du même code.
+> 212° Le F du III de la section II du chapitre premier du titre IV de la première partie du livre premier du même code.
+> 213° Le F ter du III de la section II du chapitre premier du titre IV de la première partie du livre premier du même code.
+> 214° L’article 749 du même code.
+> 215° L’article 749 A du même code.
+> 216° Le C du V de la section II du chapitre premier du titre IV de la première partie du livre premier du même code.
+> 217° Le 6 du A du VI de la section II du chapitre premier du titre IV de la première partie du livre premier du même code.
+> 218° Le 4° du b du 2 du B du VI de la section II du chapitre premier du titre IV de la première partie du livre premier du même code.
+> 219° Le 8° du b du 2 du B du VI de la section II du chapitre premier du titre IV de la première partie du livre premier du même code.
+> 220° L’article 776 quater du même code.
+> 221° Le second alinéa de l’article 777 et les articles 778 et 782 du même code.
+> 222° Le II de l’article 779 du même code.
+> 223° Les articles 787 B et 787 C du même code.
+> 224° Le III de l’article 788 du même code.
+> 225° L’article 790 A du même code.
+> 226° L’article 790 A bis du même code.
+> 227° Les 3° et 4° du 1, les 2° et 3° du 2 et le 3 de l’article 793 ainsi que les articles 793 bis et 848 bis du même code.
+> 228° Les 4° à 6° du 2 de l’article 793 et l’article 793 ter du même code.
+> 229° Le 7° du 2 de l’article 793 du même code.
+> 230° Le 8° du 2 de l’article 793 du même code.
+> 231° Les articles 794 et 795-0 A du même code.
+> 232° L’article 795, le I de l’article 990 I et les articles 796-0 bis et 796-0 ter du même code.
+> 233° L’article 795 A du même code.
+> 234° Les 1° à 7° du I de l’article 796 du même code.
+> 235° Les 8° et 11° du I de l’article 796 du même code.
+> 236° Les 9° et 10° du I de l’article 796 du même code.
+> 237° L’article 796 bis du même code.
+> 238° L’article 796-0 quinquies du même code.
+> 239° L’article 797 du même code.
+> 240° Les 2° et 4° du I de l’article 828 du même code.
+> 241° L’article 978 du même code.
+> 242° Le I bis de l’article 990 I du même code.
+> 243° L’article 1020 et le 2° de la section II du chapitre IV du titre IV de la première partie du livre premier du même code.
+> 244° Les articles 1028 bis et 1028 ter du même code.
+> 245° Les articles 1030 et 1031 du même code.
+> 246° L’article 1042 du même code.
+> 247° Le 1° de l’article 1051 du même code.
+> 248° Le 10° de la section IX du chapitre IV du titre IV de la première partie du livre premier du même code.
+> 249° Le 14° bis de la section IX du chapitre IV du titre IV de la première partie du livre premier du même code.
+> 250° Le 1°-0 bis du 2 du C du I de la section II du chapitre premier du titre premier de la deuxième partie du livre premier du même code.
+> 251° Le 1° quater du 2 du C du I de la section II du chapitre premier du titre premier de la deuxième partie du livre premier du même code.
+> 252° Le 1° octies du 2 du C du I de la section II du chapitre premier du titre premier de la deuxième partie du livre premier du même code.
+> 253° Les 2°, 2° bis et 3° du 2 du C du I de la section II du chapitre premier du titre premier de la deuxième partie du livre premier et l’article 1384 D du même code.
+> 254° L’article 1388 bis du même code.
+> 255° Les articles 1390, 1391 et 1391 B bis du même code.
+> 256° Les articles 1391 B à 1391 E du même code.
+> 257° L’article 1394 B du même code.
+> 258° L’article 1394 B bis du même code.
+> 259° L’article 1395 du même code.
+> 260° L’article 1395 B bis du même code.
+> 261° L’article 1395 E du même code.
+> 262° L’article 1398 du même code.
+> 263° L’article 1398 A du même code.
+> 264° L’article 1414 A du même code.
+> 265° L’article 1458 bis du même code.
+> 266° L’article 1586 ter du même code.
+> 267° L’article 1463 A du même code.
+> 268° L’article 1463 B du même code.
+> 269° L’article 1465 A du même code.
+> 270° Le I sexies de l’article 1466 A du même code.
+> 271° Le I septies de l’article 1466 A du même code.
+> 272° Le 4° du III de la section V du chapitre premier du titre premier de la deuxième partie du livre premier du même code.
+> 273° Le chapitre II ter du titre V de la deuxième partie du livre premier du même code.
+> 274° Le chapitre 0-II bis du titre V de la deuxième partie du livre premier du même code.
+> 275° Le VIII du chapitre II du titre II de la troisième partie du livre premier du même code.
+> 276° Le VI de la section I du chapitre premier du livre II du même code.
+> 277° L’article L. 213-43 du code des impositions sur les biens et services.
+> 278° L’article L. 213-105 du même code.
+> 279° L’article L. 213-107 du même code.
+> 280° L’article L. 213-109 du même code.
+> 281° L’article L. 213-111 du même code.
+> 282° L’article L. 213-164 du même code.
+> 283° L’article L. 213-169 du même code.
+> 284° L’article L. 213-170 du même code.
+> 285° L’article L. 213-172 du même code.
+> 286° L’article L. 213-174 du même code.
+> 287° Le paragraphe 3 de la sous-section 3 de la section 4 du chapitre III du titre Ier du livre II du même code.
+> 288° Les articles L. 213-190 à L. 213-194 du même code.
+> 289° Le 1° de l’article L. 213-197 du même code.
+> 290° L’article L. 213-202 du même code.
+> 291° L’article L. 213-208 du même code.
+> 292° L’article L. 213-213 du même code.
+> 293° L’article L. 213-223 du même code.
+> 294° Les articles L. 213-231 à L. 213-235 du même code.
+> 295° Les articles L. 213-237 à L. 213-240 du même code.
+> 296° Les articles L. 213-247 à L. 213-250 du même code.
+> 297° L’article L. 213-258 du même code.
+> 298° L’article L. 213-260 du même code.
+> 299° Les articles L. 213-262 à L. 213-264 du même code.
+> 300° Les articles L. 216-14 et L. 217-9 du même code.
+> 301° L’article L. 231-35 du même code.
+> 302° Les articles L. 231-45 et L. 231-46 du même code.
+> 303° Les articles L. 231-57 et L. 231-58 du même code.
+> 304° Les articles L. 231-69 à L. 231-74 du même code.
+> 305° Le sous-paragraphe 3 du paragraphe 2 de la sous-section 3 de la section 2 du chapitre Ier du titre III du livre II du même code.
+> 306° Les articles L. 231-84 à L. 231-89 du même code.
+> 307° Le paragraphe 4 de la sous-section 3 de la section 2 du chapitre Ier du titre III du livre II du même code.
+> 308° Les articles L. 233-10 et L. 233-11 du même code.
+> 309° L’article L. 252-15 du même code.
+> 310° Le troisième alinéa de l’article L. 312-35 du même code.
+> 311° L’article L. 312-41 du même code.
+> 312° Les articles L. 312-48 à L. 312-54 du même code.
+> 313° L’article L. 312-56 du même code.
+> 314° L’article L. 312-57-1 du même code.
+> 315° L’article L. 312-57-2 du même code.
+> 316° L’article L. 312-58-1 du même code.
+> 317° Les articles L. 312-59 à L. 312-64 du même code.
+> 318° L’article L. 312-70 du même code.
+> 319° L’article L. 312-70-1 du même code.
+> 320° Les articles L. 312-65 et L. 312-71 du même code.
+> 321° L’article L. 312-72 du même code.
+> 322° Les articles L. 312-75 et L. 312-76 du même code.
+> 323° L’article L. 312-77 du même code.
+> 324° Les articles L. 312-78-1 et L. 312-78-2 du même code.
+> 325° Les articles L. 312-79 et L. 312-80 du même code.
+> 326° L’article L. 312-81 du même code.
+> 327° Les articles L. 312-83 à L. 312-87 du même code.
+> 328° Les articles L. 421-65 et L. 421-69 du même code.
+> 329° L’article L. 421-66 du même code.
+> 330° L’article L. 421-68 du même code.
+> 331° L’article L. 421-70 du même code.
+> 332° L’article L. 421-70-1 du même code.
+> 333° L’article L. 421-74 du même code.
+> 334° Les articles L. 421-76 et L. 421-80 du même code.
+> 335° Les articles L. 421-77 à L. 421-79 du même code.
+> 336° L’article L. 421-79-1 du même code.
+> 337° L’article L. 421-81 du même code.
+> 338° L’article L. 421-81-1 du même code.
+> 339° Les articles L. 421-149 et L. 421-150 du même code.
+> 340° Les articles L. 421-152 à L. 421-155 du même code.
+> 341° Le 1 sexies du II de l’article 266 sexies du code des douanes.
+> 342° Le 2 de l’article 266 decies du même code.
+> 343° L’article L. 2333-55-3 du code général des collectivités territoriales.
+> 344° L’article 140 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021.
+> 345° L’article 151 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021.
+> 346° L’article 27 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021.
+> 347° L’article 107 de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets.
+> 348° L’article 70 de la loi n° 2023-1322 du 29 décembre 2023 de finances pour 2024.
 >
-> **III bis.** – Le code des impositions sur les biens et services est ainsi modifié :
+> III bis. – Le code des impositions sur les biens et services est ainsi modifié :
 >
 > 1° Le second alinéa de l’article L. 213-152 est supprimé.
 >
@@ -635,37 +594,37 @@ Trois traits distinguent la clause de la rédaction du 20261002, aujourd’hui p
 >
 > Le présent III bis s’applique aux opérations dont le fait générateur intervient à compter du 1er juillet 2027.
 >
-> **III ter.** – Au premier alinéa du A du VI de l’article 199 terdecies-0 A du code général des impôts, les mots : « soit exclusivement dans des établissements situés en Corse, soit exclusivement » sont remplacés par le mot : « exclusivement ». Le présent III ter s’applique aux souscriptions effectuées à compter du 1er janvier 2027.
+> III ter. – Au premier alinéa du A du VI de l’article 199 terdecies-0 A du code général des impôts, les mots : « soit exclusivement dans des établissements situés en Corse, soit exclusivement » sont remplacés par le mot : « exclusivement ». Le présent III ter s’applique aux souscriptions effectuées à compter du 1er janvier 2027.
 >
-> **III quater.** – Sont également abrogés les articles 5, 35 bis, 39 AA à 39 AA quinquies, 39 ter C, 39 quinquies D, 39 quinquies FB, 39 quinquies I, 39 sexies, 39 octies E, 39 octies F, 39 decies C bis, 39 octodecies, 42 octies, 72 B bis, 72 F, 75-0 C, 75-0 D, 119 ter, 125 ter, 130 à 131 quinquies, 132 bis, 132 ter, 136, 138 à 143 quater, 146 quater, 150-0 B quinquies, 163 bis D, 163 bis F, 163 duovicies, 199 ter C, 199 duovicies, 199 tervicies A, 200 sexdecies, 208 B, 208 ter, 208 ter A, 208 octies, 209 quater D, 210 quinquies, 216 bis, 216 ter, 217 quater à 217 sexies, 217 decies, 217 septdecies, 219 ter, 220 C, 220 E, 220 R, 237 bis, 237 bis A, 237 septies, 238 bis B, 238 bis C, 238 bis HH, 238 bis HL, 238 bis HO, 238 bis I, 238 bis J, 238 octies C, 238 nonies, 238 duodecies, 238 terdecies, 239 sexies D, 246, 248 B, 248 F, 248 G, 279-0 bis A, 699, 700, 708, 716, 723, 731, 732 A, 738, 739, 743, 743 bis, 749 B, 750 bis, 764 bis, 778 bis, 787 A, 790, 791, 791 ter, 795 B, 796-0, 797 A, 810 quater, 1038, 1039 A, 1041, 1042 A, 1043, 1043-0 A, 1044 A, 1045 bis à 1048, 1050 à 1054, 1055 bis, 1056, 1058 à 1074, 1077, 1078, 1088, 1089 A, 1089 B, 1090 A, 1090 D, 1115 à 1129, 1135, 1136, 1161 à 1207, 1273, 1378 quater A, 1382 J, 1384 G, 1388 quater, 1388 septies, 1388 nonies, 1389, 1397, 1411 bis, 1450 à 1454, 1456 à 1458, 1460 à 1463, 1468, 1518 A bis, 1586 septies et 1681 F du code général des impôts.
+> III quater. – Sont également abrogés les 1°, 3°, 4°, 5°, 6°, 9°, 10°, 13°, 15°, 16° et 17° du 5 du VII de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier, le h du I de la 2e sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier, les 19° sexies et 35° du II de la section V du chapitre premier du titre premier de la première partie du livre premier, les I bis, I ter et VII quater de la section II du chapitre IV du titre premier de la première partie du livre premier, le 4° du XVI de la section II du chapitre IV du titre premier de la première partie du livre premier, le 2° de la section VI du chapitre IV du titre premier de la première partie du livre premier, le 2° de la section VII du chapitre IV du titre premier de la première partie du livre premier, le c du 2 du B du II de la section II du chapitre premier du titre IV de la première partie du livre premier, les E et F bis du III de la section II du chapitre premier du titre IV de la première partie du livre premier, le 1 du A du IV de la section II du chapitre premier du titre IV de la première partie du livre premier, le 2° du 2 du A du IV de la section II du chapitre premier du titre IV de la première partie du livre premier, le 2° du a du 2 du B du VI de la section II du chapitre premier du titre IV de la première partie du livre premier, les 1°, 3°, 6°, 8°, 8° bis, 10°, 12°, 13°, 14° et 15° de la section II du chapitre IV du titre IV de la première partie du livre premier, la section V du chapitre IV du titre IV de la première partie du livre premier, les 1°, 2°, 3°, 4°, 5°, 6° et 8° de la section VI du chapitre IV du titre IV de la première partie du livre premier, le 1° de la section VII du chapitre IV du titre IV de la première partie du livre premier, les 1°, 2°, 3°, 4°, 5°, 6°, 9°, 14° et 15° de la section IX du chapitre IV du titre IV de la première partie du livre premier, le 3° ter du 2 du C du I de la section II du chapitre premier du titre premier de la deuxième partie du livre premier, le 2 bis du III de la section I du chapitre premier du livre II, ainsi que les articles 5, 35 bis, 39 AA à 39 AA quinquies, 39 ter C, 39 quinquies D, 39 quinquies FB, 39 quinquies I, 39 sexies, 39 octies E, 39 octies F, 39 decies C bis, 39 octodecies, 42 octies, 72 B bis, 72 F, 75-0 C, 75-0 D, 119 ter, 131 quinquies, 146 quater, 150-0 B quinquies, 163 bis D, 163 bis F, 199 ter C, 199 tervicies A, 208 B, 208 ter, 208 ter A, 208 octies, 209 quater D, 210 quinquies, 216 bis, 216 ter, 217 quater à 217 sexies, 217 decies, 217 septdecies, 219 ter, 220 C, 220 E, 220 R, 237 bis, 237 bis A, 237 septies, 238 bis B, 238 bis C, 238 bis HH, 238 bis HL, 238 bis HO, 238 nonies, 238 duodecies, 238 terdecies, 246, 279-0 bis A, 708, 716, 723, 749 B, 750 bis, 778 bis, 787 A, 790, 791, 791 ter, 795 B, 796-0, 797 A, 810 quater, 1042 A, 1050 à 1054, 1055 bis, 1056, 1058, 1059, 1074, 1088, 1090 A, 1090 D, 1161 à 1207, 1273, 1378 quater A, 1382 J, 1388 quater, 1388 septies, 1388 nonies, 1389, 1397, 1411 bis, 1450 à 1454, 1456 à 1458, 1460 à 1463, 1468, 1518 A bis et 1586 septies du code général des impôts.
 >
-> **III quinquies.** – Sont également abrogés, à compter du 1er janvier 2028, les articles 7, 8 bis, 31-0 bis, 38 bis C, 39 E à 39 G, 39 quinquies GE, 39 octies C, 54 ter, 54 sexies, 56, 72 C, 73 C, 77 A, 80 nonies, 96 B, 111 ter, 115 A, 151, 159 quinquies à 160 quater, 163 bis E, 170 ter, 193 bis, 193 ter, 196 bis, 197 C, 199 ter-0 B, 201 ter, 210 sexies, 222 bis, 223 bis à 223 quinquies, 223 quinquies B, 235 bis, 236 ter, 237, 237 ter, 237 sexies, 238 bis GA à 238 bis GD, 238 bis HF, 238 bis HG, 238 bis HI à 238 bis HK, 238 bis HM, 238 bis HP à 238 bis HU, 238 bis HX, 238 bis HY, 238 septies F, 242 ter C, 248 C, 290 quater, 302 F ter, 302 septies B, 302 nonies, 363, 644, 691 bis, 707 bis, 720, 727, 729, 730, 735, 744, 747, 748 bis, 766, 768, 769, 774 à 775, 775 quater, 775 quinquies, 776 bis, 776 ter, 783, 784 A à 786, 788 bis, 793 quater, 796-0 quater, 798, 846, 856, 1042 B, 1049, 1057, 1075, 1089, 1090, 1090 B, 1109, 1112 ter, 1238, 1378 nonies, 1408, 1409, 1413, 1447-0, 1447 bis, 1468 bis, 1473, 1476, 1496 bis, 1499-0 A, 1503, 1505, 1518 B à 1518 D, 1599 quater E, 1609 quinquies BA, 1635 quater B à 1635 quater E, 1635 quater H à 1635 quater K, 1635 quater O à 1635 quinquies, 1636 B nonies, 1636 C, 1638-00 bis, 1639 A ter, 1639 A quater, 1640 D à 1640 H, 1644, 1647-00 A, 1647 bis, 1648 AC, 1651 C à 1651 G, 1651 K, 1651 L, 1679 bis B, 1679 ter, 1679 octies, 1679 nonies, 1680, 1681, 1684 à 1688, 1691 bis A, 1716 bis, 1717 bis à 1722 ter, 1739, 1739 A et 1740-0 B du même code.
+> III quinquies. – Sont également abrogés, à compter du 1er janvier 2028, le 6 bis du IV de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier, le 1 du VIII de la 1re sous-section de la section II du chapitre premier du titre premier de la première partie du livre premier, la section VII du chapitre III du titre premier de la première partie du livre premier, le VI ter de la section II du chapitre IV du titre premier de la première partie du livre premier, le 2° du XIX de la section II du chapitre IV du titre premier de la première partie du livre premier, le 3° de la section VI du chapitre IV du titre premier de la première partie du livre premier, le IV de la section VII du chapitre premier du titre II de la première partie du livre premier, les chapitres I ter et III du titre II bis de la première partie du livre premier, le a du 2 du B du II de la section II du chapitre premier du titre IV de la première partie du livre premier, le H du III de la section II du chapitre premier du titre IV de la première partie du livre premier, le B du IV de la section II du chapitre premier du titre IV de la première partie du livre premier, le 1° du 2 du A du V de la section II du chapitre premier du titre IV de la première partie du livre premier, le 3° du a du 2 du B du VI de la section II du chapitre premier du titre IV de la première partie du livre premier, les 3°, 6° et 7° du b du 2 du B du VI de la section II du chapitre premier du titre IV de la première partie du livre premier, les 2°, 5° et 6° de la section VII du chapitre IV du titre IV de la première partie du livre premier, le II de la section III du chapitre premier du titre premier de la deuxième partie du livre premier, la section 0V du chapitre premier du titre premier de la deuxième partie du livre premier, les C et D du III de la section VI du chapitre premier du titre premier de la deuxième partie du livre premier, les sous-sections 2, 3, 6, 8, 9 et 10 de la section 1 du chapitre Ier du titre IV de la deuxième partie du livre premier, le chapitre 0I du titre V de la deuxième partie du livre premier, la section III du chapitre II du titre V de la deuxième partie du livre premier, la section I du chapitre II bis du titre V de la deuxième partie du livre premier, la section I bis du chapitre III du titre V de la deuxième partie du livre premier, les 7 bis, 8 et 12 du II de la section I du chapitre premier du livre II, le V bis de la section I du chapitre premier du livre II, le V bis de la section IV du chapitre premier du livre II, ainsi que les articles 7, 8 bis, 31-0 bis, 38 bis C, 39 E à 39 G, 39 quinquies GE, 39 octies C, 54 ter, 54 sexies, 56, 72 C, 73 C, 80 nonies, 96 B, 111 ter, 115 A, 159 quinquies à 160 quater, 163 bis E, 170 ter, 193 bis, 193 ter, 196 bis, 197 C, 199 ter-0 B, 201 ter, 210 sexies, 222 bis, 223 bis à 223 quinquies, 223 quinquies B, 236 ter, 237, 237 ter, 237 sexies, 238 bis GA à 238 bis GD, 238 bis HF, 238 bis HG, 238 bis HI à 238 bis HK, 238 bis HM, 238 bis HP à 238 bis HU, 238 bis HX, 238 bis HY, 302 F ter, 363, 644, 707 bis, 720, 727, 729, 730, 748 bis, 768, 769, 774, 774 bis, 776 bis, 776 ter, 783, 784 A à 786, 788 bis, 793 quater, 796-0 quater, 798, 846, 856, 1042 B, 1049, 1057, 1075, 1089, 1090 B, 1238, 1378 nonies, 1409, 1413, 1447 bis, 1468 bis, 1473, 1476, 1496 bis, 1499-0 A, 1503, 1505, 1599 quater E, 1609 quinquies BA, 1635 quater O, 1636 B nonies, 1636 C, 1638-00 bis, 1639 A ter, 1639 A quater, 1640 D à 1640 H, 1644, 1651 C à 1651 G, 1651 K, 1651 L, 1680, 1681, 1684 à 1688, 1717 bis à 1722 ter, 1739, 1739 A et 1740-0 B du même code.
 >
 > Pour l’impôt sur le revenu, le présent III quinquies s’applique à compter de l’imposition des revenus de l’année 2028. Pour l’impôt sur les sociétés, il s’applique aux exercices ouverts à compter du 1er janvier 2028. Pour les droits d’enregistrement, il s’applique aux actes et conventions conclus, aux mutations intervenant et aux successions ouvertes à compter de la même date.
 >
-> **IV. – A.** – Sous réserve des B à F, le I s’applique à l’impôt sur le revenu dû au titre de 2026, à l’impôt sur les sociétés dû au titre des exercices clos à compter du 1er janvier 2027, à l’impôt sur la fortune immobilière et aux impositions directes locales dus au titre de 2027, aux droits d’enregistrement et de timbre afférents aux actes et mutations intervenant à compter du 1er janvier 2027, ainsi qu’aux années et exercices suivants.
+> IV. – A. – Sous réserve des B à F, le I s’applique à l’impôt sur le revenu dû au titre de 2026, à l’impôt sur les sociétés dû au titre des exercices clos à compter du 1er janvier 2027, à l’impôt sur la fortune immobilière et aux impositions directes locales dus au titre de 2027, aux droits d’enregistrement et de timbre afférents aux actes et mutations intervenant à compter du 1er janvier 2027, ainsi qu’aux années et exercices suivants.
 >
-> **B.** – Sous réserve des C à F, pour les dispositions dont le bénéfice est subordonné à un investissement, une dépense, une souscription, un versement, une détention ou un engagement que le contribuable réalise ou prend en vue de l’obtenir, dans un délai ou pour une durée fixés par la loi, au nombre desquelles celles que le III abroge à ses 2° à 11°, 13° à 18°, 21° à 38°, 46°, 50° et 51°, 114° et 115°, 117°, 119°, 132° et 133°, 140°, 143° à 151°, 155° à 161°, 163°, 165° et 166°, 168°, 184°, 186° et 187°, 190° à 200°, 202°, 205°, 209° à 211°, 213° et 214°, 216° à 221°, 266° à 270°, 273° à 275°, 278° à 280°, 286° à 290°, 394° et 395°, le I s’applique aux investissements réalisés, aux dépenses payées, aux souscriptions et versements effectués et aux engagements pris à compter du 1er janvier 2027 et, pour les avantages accordés par exercice ou par année à raison d’une création ou d’une implantation, aux exercices ouverts et aux impositions dues à compter de la même date.
+> B. – Sous réserve des C à F, pour les dispositions dont le bénéfice est subordonné à un investissement, une dépense, une souscription, un versement, une détention ou un engagement que le contribuable réalise ou prend en vue de l’obtenir, dans un délai ou pour une durée fixés par la loi, au nombre desquelles celles que le III abroge à ses 2° à 11°, 13° à 18°, 21° à 36°, 44°, 48° et 49°, 112° et 113°, 115°, 117°, 130° et 131°, 138°, 141° à 149°, 153° à 156°, 158°, 160° et 161°, 163°, 179°, 181° et 182°, 185° à 195°, 197°, 200°, 204° et 205°, 207° et 208°, 210° à 214°, 259° à 263°, 266° à 268°, 271° à 273°, 279° à 283°, 387° et 388°, le I s’applique aux investissements réalisés, aux dépenses payées, aux souscriptions et versements effectués et aux engagements pris à compter du 1er janvier 2027 et, pour les avantages accordés par exercice ou par année à raison d’une création ou d’une implantation, aux exercices ouverts et aux impositions dues à compter de la même date.
 >
-> **C.** – Par dérogation aux A et B, pour les dispositions relatives à la décote, au nombre de parts et au quotient familial, aux revenus que remplace l’aide fondamentale universelle, aux abattements et exonérations des plus-values et aux plans, comptes, contrats et livrets d’épargne, au nombre desquelles celles que le III abroge à ses 52° à 55°, 61°, 63°, 86° et 87°, 89° à 107°, 110°, 113°, 121°, 123° à 128°, 130°, 134° à 139° et 142°, le I s’applique à l’impôt sur le revenu dû au titre de 2028 et aux opérations réalisées à compter du 1er janvier 2028. Les plans, comptes, contrats et livrets ouverts ou souscrits et les versements effectués à compter du 1er juillet 2027 n’ouvrent pas droit au bénéfice de ces dispositions. Les plafonds de versement et de dépôt qu’elles prévoient ne peuvent être relevés au-delà de leur montant en vigueur au 1er janvier 2027. Par dérogation à la première phrase, pour les dispositions que le III abroge à ses 91° et 92°, le I s’applique aux cessions et aux exportations intervenant à compter du 1er janvier 2027.
+> C. – Par dérogation aux A et B, pour les dispositions relatives à la décote, au nombre de parts et au quotient familial, aux revenus que remplace l’aide fondamentale universelle, aux abattements et exonérations des plus-values et aux plans, comptes, contrats et livrets d’épargne, au nombre desquelles celles que le III abroge à ses 50° à 53°, 59°, 61°, 84° et 85°, 87° à 105°, 108°, 111°, 119°, 121° à 126°, 128°, 132° à 137° et 140°, le I s’applique à l’impôt sur le revenu dû au titre de 2028 et aux opérations réalisées à compter du 1er janvier 2028. Les plans, comptes, contrats et livrets ouverts ou souscrits et les versements effectués à compter du 1er juillet 2027 n’ouvrent pas droit au bénéfice de ces dispositions. Les plafonds de versement et de dépôt qu’elles prévoient ne peuvent être relevés au-delà de leur montant en vigueur au 1er janvier 2027. Par dérogation à la première phrase, pour les dispositions que le III abroge à ses 89° et 90°, le I s’applique aux cessions et aux exportations intervenant à compter du 1er janvier 2027.
 >
-> **C bis.** – Par dérogation aux A et B et sous réserve du F, pour les dispositions relatives aux droits de mutation à titre gratuit et au prélèvement prévu à l’article 990 I du code général des impôts, au nombre desquelles celles que le III abroge à ses 234° à 239°, 241° à 255° et 258°, le I s’applique aux successions ouvertes et aux donations consenties à compter du 1er janvier 2027.
+> C bis. – Par dérogation aux A et B et sous réserve du F, pour les dispositions relatives aux droits de mutation à titre gratuit et au prélèvement prévu à l’article 990 I du code général des impôts, au nombre desquelles celles que le III abroge à ses 227° à 232°, 234° à 248° et 251°, le I s’applique aux successions ouvertes et aux donations consenties à compter du 1er janvier 2027.
 >
-> **D.** – En matière de taxe sur la valeur ajoutée, d’impositions régies par les livres III et IV du code des impositions sur les biens et services et de taxes régies par le code des douanes, le I s’applique, sous réserve du E, aux opérations dont le fait générateur intervient à compter du 1er juillet 2027.
+> D. – En matière de taxe sur la valeur ajoutée, d’impositions régies par les livres III et IV du code des impositions sur les biens et services et de taxes régies par le code des douanes, le I s’applique, sous réserve du E, aux opérations dont le fait générateur intervient à compter du 1er juillet 2027.
 >
-> **E.** – Par dérogation aux A, B et D, pour les dispositions relatives aux activités agricoles, aux services à la personne et à la garde des jeunes enfants, au nombre desquelles celles que le III abroge à ses 40° à 45°, 48°, 153°, 164°, 167°, 172° à 176°, 212°, 215°, 225°, 228°, 260° et 261°, 276° et 277°, 281° et 282°, 293°, 356° à 358°, 392° et 393° et 396°, l’avantage est réduit d’un tiers au titre de 2027 et de deux tiers au titre de 2028. Le I s’applique en totalité aux impositions dues au titre de 2029, aux exercices ouverts et aux opérations dont le fait générateur intervient à compter du 1er janvier 2029. Le présent E ne s’applique pas à la taxe sur la valeur ajoutée.
+> E. – Par dérogation aux A, B et D, pour les dispositions relatives aux activités agricoles, aux services à la personne et à la garde des jeunes enfants, au nombre desquelles celles que le III abroge à ses 38° à 43°, 46°, 151°, 159°, 162°, 167° à 171°, 206°, 209°, 218°, 221°, 253° et 254°, 269° et 270°, 274° et 275°, 286°, 349° à 351°, 385° et 386° et 389°, l’avantage est réduit d’un tiers au titre de 2027 et de deux tiers au titre de 2028. Le I s’applique en totalité aux impositions dues au titre de 2029, aux exercices ouverts et aux opérations dont le fait générateur intervient à compter du 1er janvier 2029. Le présent E ne s’applique pas à la taxe sur la valeur ajoutée.
 >
-> **F.** – Par dérogation au A, pour les dispositions relatives aux dons et versements, au nombre desquelles celles que le III abroge à ses 162°, 204°, 206°, 233°, 240° et 257°, l’avantage est réduit de moitié pour les dons et versements effectués à compter du 1er juillet 2027. Le I s’applique en totalité aux dons et versements effectués à compter du 1er janvier 2028.
+> F. – Par dérogation au A, pour les dispositions relatives aux dons et versements, au nombre desquelles celles que le III abroge à ses 157°, 199°, 201°, 226°, 233° et 250°, l’avantage est réduit de moitié pour les dons et versements effectués à compter du 1er juillet 2027. Le I s’applique en totalité aux dons et versements effectués à compter du 1er janvier 2028.
 >
-> **G.** – Les créances nées avant les dates mentionnées aux A à F demeurent imputables et, le cas échéant, restituables dans les conditions en vigueur à la date de leur naissance. Les avantages mentionnés au B dont le bénéfice est la contrepartie d’un investissement réalisé, d’une dépense payée, d’une souscription ou d’un versement effectués ou d’un engagement pris avant la date mentionnée au même B continuent de produire leurs effets, dans les conditions en vigueur à cette date, jusqu’au terme que ces conditions fixent. Les produits et gains acquis ou constatés avant le 1er janvier 2028 restent soumis aux dispositions mentionnées au C lorsque la durée de détention ou de conservation qu’elles prévoient est accomplie à cette date. Les successions ouvertes et les donations consenties avant le 1er janvier 2027 restent soumises aux dispositions mentionnées au C bis, y compris pour les engagements pris à l’occasion de ces mutations.
+> G. – Les créances nées avant les dates mentionnées aux A à F demeurent imputables et, le cas échéant, restituables dans les conditions en vigueur à la date de leur naissance. Les avantages mentionnés au B dont le bénéfice est la contrepartie d’un investissement réalisé, d’une dépense payée, d’une souscription ou d’un versement effectués ou d’un engagement pris avant la date mentionnée au même B continuent de produire leurs effets, dans les conditions en vigueur à cette date, jusqu’au terme que ces conditions fixent. Les produits et gains acquis ou constatés avant le 1er janvier 2028 restent soumis aux dispositions mentionnées au C lorsque la durée de détention ou de conservation qu’elles prévoient est accomplie à cette date. Les successions ouvertes et les donations consenties avant le 1er janvier 2027 restent soumises aux dispositions mentionnées au C bis, y compris pour les engagements pris à l’occasion de ces mutations.
 >
-> **H.** – Le III et le III quater entrent en vigueur, pour chacune des dispositions qu’ils abrogent, à la date à laquelle le I s’applique en totalité à l’imposition ou à l’opération à laquelle cette disposition se rapporte, en application des A à F. Les dispositions abrogées demeurent applicables aux situations que préserve le G. À défaut, le III et le III quater entrent en vigueur le 1er janvier 2028. Les impositions dont le fait générateur est antérieur aux dates mentionnées au présent H et au III quinquies demeurent régies par les articles abrogés.
+> H. – Le III et le III quater entrent en vigueur, pour chacune des dispositions qu’ils abrogent, à la date à laquelle le I s’applique en totalité à l’imposition ou à l’opération à laquelle cette disposition se rapporte, en application des A à F. Les dispositions abrogées demeurent applicables aux situations que préserve le G. À défaut, le III et le III quater entrent en vigueur le 1er janvier 2028. Les impositions dont le fait générateur est antérieur aux dates mentionnées au présent H et au III quinquies demeurent régies par les articles abrogés.
 >
-> **V.** – La perte de recettes résultant pour les collectivités territoriales et leurs groupements de l’application du I aux impositions directes locales ne donne lieu à aucune compensation par l’État. Les exonérations et abattements que les collectivités territoriales et leurs groupements instituent sur délibération, sur le fondement de dispositions devenues inapplicables en vertu du I, cessent de produire effet à la date à laquelle le I s’applique à ces impositions en vertu du IV.
+> V. – La perte de recettes résultant pour les collectivités territoriales et leurs groupements de l’application du I aux impositions directes locales ne donne lieu à aucune compensation par l’État. Les exonérations et abattements que les collectivités territoriales et leurs groupements instituent sur délibération, sur le fondement de dispositions devenues inapplicables en vertu du I, cessent de produire effet à la date à laquelle le I s’applique à ces impositions en vertu du IV.
 >
-> **VI.** – Un décret en Conseil d’État précise les modalités d’application du G du IV, notamment les justifications que le contribuable produit à l’appui d’une créance, d’un investissement, d’une dépense, d’une souscription, d’un versement ou d’un engagement antérieurs aux dates mentionnées aux A à F du même IV. Les dispositions réglementaires prises pour l’application des dispositions devenues inapplicables en vertu du I et des articles abrogés par les III quater et III quinquies cessent de produire effet aux mêmes dates.
+> VI. – Un décret en Conseil d’État précise les modalités d’application du G du IV, notamment les justifications que le contribuable produit à l’appui d’une créance, d’un investissement, d’une dépense, d’une souscription, d’un versement ou d’un engagement antérieurs aux dates mentionnées aux A à F du même IV. Les dispositions réglementaires prises pour l’application des dispositions devenues inapplicables en vertu du I et des articles abrogés par les III quater et III quinquies cessent de produire effet aux mêmes dates.
 >
-> **VII.** – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
+> VII. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
 ### Exposé sommaire de l’article 1er — paragraphe sur la taxe sur la valeur ajoutée (reprise du 20261005)
 
@@ -673,13 +632,15 @@ Les autres paragraphes de l’exposé sommaire de l’article 1er restent à éc
 
 > EXPOSÉ SOMMAIRE
 >
-> Cet amendement abolit les avantages fiscaux dérogatoires et abroge expressément les dispositions qui les portent.
+> Cet amendement abroge tout avantage fiscal dérogatoire sur sept impôts, à compter de 2027.
+>
+> Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 >
 > Deux contribuables au même revenu ne paient pas le même impôt : l’un connaît les dispositifs qui le réduisent, l’autre non. L’annexe des dépenses fiscales en recense plus de quatre cent soixante, pour un coût prévisionnel de 79,5 milliards d’euros en 2026¹. Le Parlement vote chaque année un barème qu’il sait inexact, et le taux affiché cesse de dire ce que chacun acquitte.
 >
 > L’amendement écarte l’avantage par sa forme, et non par une liste. Sept formes sont nommées : exonération, abattement, déduction ou exclusion d’assiette, réduction ou crédit d’impôt, taux réduit ou nul, report, sursis ou étalement, et dégrèvement sans disparition de matière imposable. Elles cessent de s’appliquer à l’impôt sur le revenu, à l’impôt sur les sociétés, à l’impôt sur la fortune immobilière, aux droits d’enregistrement et de timbre, à la taxe sur la valeur ajoutée, aux accises et aux impositions directes locales. Quatre exceptions de principe subsistent : le revenu imposable de droit commun, l’élimination d’une double imposition, ce qu’impose le droit de l’Union ou une convention internationale, et ce qui s’applique à tous sans considération de la nature des biens ou des opérations. En clair : l’avantage disparaît parce qu’il est un avantage, et non parce qu’on a jugé la politique qu’il servait.
 >
-> Le calendrier est graduel et suit la nature de chaque avantage : les dispositifs non incitatifs tombent dès les revenus de 2026, ceux qui rémunèrent un engagement au 1er janvier 2027, les droits de mutation à titre gratuit à la même date que la baisse de leur tarif, les taux réduits de taxe sur la valeur ajoutée au 1er juillet 2027 — le jour où disparaissent les taxes propres à chaque secteur —, le barème et l’épargne en 2028, l’agriculture et les services à la personne par tiers jusqu’en 2029, les dons par moitié puis en totalité. Les créances nées et les engagements pris avant ces dates produisent leurs effets jusqu’à leur terme. Le produit va, pour la part restituée, à la baisse des prélèvements sur les revenus d’activité. Un impôt dont chacun connaît le taux est un impôt que chacun peut discuter.
+> Le calendrier est graduel et suit la nature de chaque avantage : les dispositifs non incitatifs tombent dès les revenus de 2026, ceux qui rémunèrent un engagement au 1er janvier 2027, les droits de mutation à titre gratuit à la même date que la baisse de leur tarif, les taux réduits de taxe sur la valeur ajoutée au 1er juillet 2027, jour où disparaissent les taxes propres à chaque secteur, le barème et l’épargne en 2028, l’agriculture et les services à la personne par tiers jusqu’en 2029, les dons par moitié puis en totalité. Les créances nées et les engagements pris avant ces dates produisent leurs effets jusqu’à leur terme. Le produit va en priorité à la baisse des prélèvements sur les revenus d’activité. Un impôt dont chacun connaît le taux est un impôt que chacun peut discuter. Des dispositions du droit en vigueur renvoient à des articles que le présent article abroge. Ces renvois ont été relevés et leur reprise se fera en coordination, sans que la portée de l’abrogation en soit affectée. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 >
 > ¹ Projet de loi de finances pour 2026, évaluation des voies et moyens, tome II, annexe « Dépenses fiscales », prévisions 2026.
 ### [interne] — niches de taxe sur la valeur ajoutée : périmètre du 20261005 et parallèle avec les taxes sectorielles
@@ -716,19 +677,19 @@ Les autres paragraphes de l’exposé sommaire de l’article 1er restent à éc
 
 **Lecture.** Depuis le recalage V1 du 20261005, toutes les taxes de la table tombent le 1er juillet 2027 ou sont dues pour la dernière fois au titre de 2027 : aucune ne survit au-delà du 1er janvier 2028. L’exposé cite les secteurs à taxe propre, travaux sur logement compris. Aucun montant n’est porté à l’exposé.
 
-**Taux après abrogation, rang par rang** (numérotation du 20261007). Les rangs 296° à 342° passent au taux normal, sauf trois rangs où l’opération rejoint le taux de droit commun de son secteur, qui relève de la pièce 4.6 — **301°** (poisson : alimentation, article L. 213-159), **302°** (animaux de boucherie : produits agricoles, article L. 213-168), **312°** (transport de personnes en Corse : taux intermédiaire du premier alinéa de l’article L. 213-197). Le **314°** porte toute la collecte des déchets des ménages, y compris une part de droit commun non recensée, que la pièce 4.6 visait au 1er juillet 2028.
+**Taux après abrogation, rang par rang** (numérotation du 20261009). Les rangs 289° à 335° passent au taux normal, sauf trois rangs où l’opération rejoint le taux de droit commun de son secteur, qui relève de la pièce 4.6 — **294°** (poisson : alimentation, article L. 213-159), **295°** (animaux de boucherie : produits agricoles, article L. 213-168), **305°** (transport de personnes en Corse : taux intermédiaire du premier alinéa de l’article L. 213-197). Le **307°** porte toute la collecte des déchets des ménages, y compris une part de droit commun non recensée, que la pièce 4.6 visait au 1er juillet 2028.
 
-**Les deux rangs ajoutés le 20261007** — **297°** (article L. 213-105, activités lucratives accessoires des organismes sans but lucratif) et **341°** (articles L. 233-10 et L. 233-11, plafonds de franchise de l’avocat, de l’auteur d’œuvre de l’esprit et de l’artiste-interprète) — sont des franchises, non des taux : l’opération devient taxable au taux de droit commun de son secteur à compter du 1er juillet 2027. **La franchise générale de l’article L. 233-9 n’est pas touchée** : le seuil de droit commun demeure. Montant retenu au cartouche du 20261005 pour les trois franchises : 101 M€, non ventilé.
+**Les deux rangs ajoutés le 20261007** — **290°** (article L. 213-105, activités lucratives accessoires des organismes sans but lucratif) et **334°** (articles L. 233-10 et L. 233-11, plafonds de franchise de l’avocat, de l’auteur d’œuvre de l’esprit et de l’artiste-interprète) — sont des franchises, non des taux : l’opération devient taxable au taux de droit commun de son secteur à compter du 1er juillet 2027. **La franchise générale de l’article L. 233-9 n’est pas touchée** : le seuil de droit commun demeure. Montant retenu au cartouche du 20261005 pour les trois franchises : 101 M€, non ventilé.
 
 **Verdict des adresses au droit (LEGI 20261001).** Toutes les références de l’article 1er au code des impositions sur les biens et services, III et III bis : `VIGUEUR_DIFF` (1er janvier 2027), aucune `ABSENT` ni `ABROGE`. Rangs ajoutés le 20261007 : L. 213-105, L. 233-10 et L. 233-11, `VIGUEUR_DIFF` au 1er janvier 2027, relevés et contrôlés ce jour. Hors extrait : article 1-1 de la loi n° 86-897 du 1er août 1986, repris de l’article L. 213-213 aux 9° et 10° du III bis — à vérifier.
 
-**Points à vérifier.** Désignation des lignes de tableau par le libellé de leur première colonne, tel que l’extrait aplati le donne : graphie et ordre à contrôler au Journal officiel. Le 2° de l’article L. 213-150 (« quatre taux particuliers ») n’est pas coordonné : les taux particuliers de Corse disparaissent, ceux d’outre-mer demeurent. L’article L. 213-192-1 (froid par réseau) n’a aucune ligne de tableau à l’extrait. Collision : l’article 16 du texte déposé touche les articles L. 213-230 et L. 213-235, visés au 321° et au 14° du III bis.
+**Points à vérifier.** Désignation des lignes de tableau par le libellé de leur première colonne, tel que l’extrait aplati le donne : graphie et ordre à contrôler au Journal officiel. Le 2° de l’article L. 213-150 (« quatre taux particuliers ») n’est pas coordonné : les taux particuliers de Corse disparaissent, ceux d’outre-mer demeurent. L’article L. 213-192-1 (froid par réseau) n’a aucune ligne de tableau à l’extrait. Collision : l’article 16 du texte déposé touche les articles L. 213-230 et L. 213-235, visés au 314° et au 14° du III bis.
 
 ### Ce que cette rédaction ajoute à la pièce 02, et pourquoi
 
 | division | apport | motif |
 |---|---|---|
-| **III** | la liste énumérée, **396 rangs** (439 au 20261004, 412 au 20261005) | gabarit du 20261004, point 2. Le V de la pièce 02 portait un crochet vide ; une clause générale sans sa liste n’est pas une pièce finie. |
+| **III** | la liste énumérée, **389 rangs** (439 au 20261004, 412 au 20261005, 396 au 20261007) | gabarit du 20261004, point 2. Le V de la pièce 02 portait un crochet vide ; une clause générale sans sa liste n’est pas une pièce finie. |
 | **III quater et III quinquies** | 364 articles du code général des impôts retirés du code, en deux dates | fonte de la pièce 4.7 (20261007) : l’abrogation part avec la pièce qui vide l’article, et l’article de nettoyage autonome disparaît. |
 | **IV, H** | date d’effet des abrogations expresses | sans elle, le III produirait effet à la promulgation alors que le I est gradué : les deux se décrocheraient sur la taxe sur la valeur ajoutée et sur les secteurs différés. **C’est la division qui absorbe le passage de treize à 396 rangs sans une ligne de plus** : chaque abrogation prend la date de l’imposition à laquelle elle se rapporte. |
 | **V** | non-compensation des exonérations locales facultatives | due depuis la rédaction du 20261002, pièce périmée et retirée, et jamais écrite jusqu’ici. Sans elle, l’État rembourse aux collectivités l’avantage que la clause supprime, et la mesure est à rendement nul sur la part locale. |
@@ -767,7 +728,7 @@ Source : `referentiels/niches_sieges_20261004.tsv` et ses règles de lecture du
 | rangs ajoutés au 20261007 (franchises sectorielles de taxe sur la valeur ajoutée) | 2 |
 | adresses non converties en forme légistique | **0** |
 
-Répartition des 396 rangs par texte porteur, dans l’ordre du III : code général des impôts **295** (rangs 1° à 295°), code des impositions sur les biens et services **93** (296° à 388°, dont **47** rangs de niches de taxe sur la valeur ajoutée à leur siège du livre II, 296° à 342°, en vigueur au 1er janvier 2027), code des douanes **2** (389° et 390°), code général des collectivités territoriales **1** (391°), lois de finances et lois non codifiées **5** (392° à 396°). À l’intérieur de chaque porteur, l’ordre est celui des articles.
+Répartition des 389 rangs par texte porteur, dans l’ordre du III (numérotation du 20261009) : code général des impôts **288** (rangs 1° à 288°), code des impositions sur les biens et services **93** (289° à 381°, dont **47** rangs de niches de taxe sur la valeur ajoutée à leur siège du livre II, 289° à 335°, en vigueur au 1er janvier 2027), code des douanes **2** (382° et 383°), code général des collectivités territoriales **1** (384°), lois de finances et lois non codifiées **5** (385° à 389°). À l’intérieur de chaque porteur, l’ordre est celui des articles.
 
 ### 3.2 L’arbitrage de découpage — tranché ici, et inscrit
 
@@ -843,13 +804,13 @@ Repris de la rédaction du 20261002 — **pièce périmée et retirée** — **i
 
 Repris de la rédaction du 20261002 — **pièce périmée et retirée** — **inchangé quant au fond**. Rang P1-25 ; accroche à fixer. C’est le seul cas nommé qu’aucune clause fiscale n’atteint : une règle d’affectation d’une somme jamais imposée ne déroge à aucune règle d’assiette, de tarif ou de montant. **Les deux sièges du code du travail font foi au présent article.**
 
-> **I.** — Au second alinéa de l’article L. 3262-5 du code du travail, les mots : « au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres » sont remplacés par les mots : « au budget général de l’État ».
+> I. – Au second alinéa de l’article L. 3262-5 du code du travail, les mots : « au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres » sont remplacés par les mots : « au salarié par son employeur, au plus tard avec la paie du deuxième mois suivant la péremption des titres ; cette somme constitue un élément de rémunération ».
 >
-> **II.** — Au second alinéa de l’article L. 3261-9 du même code, les mots : « au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres » sont remplacés par les mots : « au budget général de l’État ».
+> II. – Au second alinéa de l’article L. 3261-9 du même code, les mots : « au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres » sont remplacés par les mots : « au salarié par son employeur, au plus tard avec la paie du deuxième mois suivant la péremption des titres ; cette somme constitue un élément de rémunération ».
 >
-> **III.** — Les I et II s’appliquent aux titres dont la péremption, au sens du premier alinéa des articles L. 3262-5 et L. 3261-9 du code du travail, intervient à compter du 1er janvier 2027.
+> III. – Les I et II s’appliquent aux titres dont la péremption, au sens du premier alinéa des articles L. 3262-5 et L. 3261-9 du code du travail, intervient à compter du 1er janvier 2027.
 >
-> **IV.** — La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+> IV. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 **Preuve, rejouée.** Le fragment remplacé apparaît une fois et une seule dans chacun des deux articles, séparateurs compris ; réappliqué, il redonne le texte cible à l’octet. Verdict `PROUVE` pour les deux opérations.
 
@@ -859,27 +820,29 @@ Repris de la rédaction du 20261002 — **pièce périmée et retirée** — **i
 
 > EXPOSÉ SOMMAIRE
 >
-> Cet amendement affecte au budget général la contre-valeur des titres-restaurant et des titres-transport périmés.
+> Cet amendement transfère au salarié la contre-valeur de ses titres-restaurant et titres-transport périmés.
+>
+> Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 >
 > Le salarié qui n’a pas utilisé ses titres avant leur date de validité en perd la valeur ; la somme ne lui revient pas, et elle ne revient pas non plus à l’employeur qui l’a avancée. La loi la verse aujourd’hui au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres. Un salarié paie donc, par sa négligence, une dépense dont il n’a jamais décidé, et au bénéfice d’un comité dont il n’est pas nécessairement membre. Aucune disposition fiscale n’atteint ce circuit : une règle d’affectation d’une somme jamais imposée ne déroge à aucune règle d’assiette, de tarif ou de montant.
 >
-> L’amendement remplace l’affectataire. La contre-valeur des titres-restaurant et des titres-transport périmés est versée au budget général de l’État, pour les titres dont la péremption intervient à compter du 1er janvier 2027. Rien d’autre ne change : ni la durée de validité des titres, ni les conditions de leur émission, ni les droits du salarié pendant cette durée. Dit simplement : ce que le salarié a perdu revient à la collectivité qui l’a exonéré, et non à un budget que personne n’a voté.
+> L’amendement change le destinataire. La contre-valeur des titres-restaurant et des titres-transport périmés est versée au salarié par son employeur, au plus tard avec la paie du deuxième mois qui suit la péremption, pour les titres dont la péremption intervient à compter du 1er janvier 2027. Cette somme constitue un élément de rémunération : elle entre dans l’assiette de l’impôt sur le revenu et dans celle des cotisations sociales. Rien d’autre ne change : la durée de validité des titres, les conditions de leur émission et les droits du salarié pendant cette durée demeurent. Dit simplement : ce que le salarié a perdu lui revient en salaire.
 >
-> Aucune annexe publique ne porte le montant de cette contre-valeur, et la mesure ne l’invente pas : elle n’est pas chiffrée à ce jour, et le produit se constatera à l’exécution. Ce qu’elle produit dès 2027 est une recette du budget général, qui concourt à la réduction des prélèvements pesant sur les revenus d’activité. Elle ne retire aucun droit au salarié et n’ajoute aucune obligation à l’employeur. Une somme exonérée d’impôt qui n’a pas servi son objet retourne à celui qui a consenti l’exonération.
+> Aucune annexe publique ne porte le montant de cette contre-valeur et la mesure ne l’invente pas : elle n’est pas chiffrée à ce jour. C’est par l’impôt sur le revenu et par les cotisations assises sur cette rémunération nouvelle que la mesure atteint les ressources publiques. Elle ne retire aucun droit au salarié et n’ajoute à l’employeur qu’un versement porté sur la paie. Une somme avancée pour le salarié qui n’a pas servi son objet lui revient.
 
 ---
 
 ## 6. Effets de bord non coordonnés
 
-1. **Les articles neutralisés par le I restent écrits dans les codes**, hors ceux que les 396 rangs du III et les 364 articles des III quater et III quinquies abrogent. **L’achèvement du III et la fonte du 20261007 réduisent fortement cet effet sans l’éteindre** : il demeure entier pour les quatre lignes sans siège (§ 3.3), pour les 80 modalités de calcul déclassées (point 4), et pour toute disposition que l’annexe des dépenses fiscales ne recense pas.
-2. **Aucun renvoi entrant n’est repris.** Le second alinéa du VI vide les textes réglementaires d’application, pas les renvois législatifs. **Le relevé des renvois entrants sur 396 rangs est dû et il n’est pas fait** — à ce volume, il appelle son propre fil et un relevé mécanique sur l’extrait du dépôt de droit, non une lecture.
+1. **Les articles neutralisés par le I restent écrits dans les codes**, hors ceux que les 389 rangs du III et les 364 articles des III quater et III quinquies abrogent. **L’achèvement du III et la fonte du 20261007 réduisent fortement cet effet sans l’éteindre** : il demeure entier pour les quatre lignes sans siège (§ 3.3), pour les 80 modalités de calcul déclassées (point 4), et pour toute disposition que l’annexe des dépenses fiscales ne recense pas.
+2. **Aucun renvoi entrant n’est repris.** Le second alinéa du VI vide les textes réglementaires d’application, pas les renvois législatifs. **Le relevé des renvois entrants sur 389 rangs est dû et il n’est pas fait** — à ce volume, il appelle son propre fil et un relevé mécanique sur l’extrait du dépôt de droit, non une lecture.
 3. **Le partage entre dérogation et norme de référence reste une qualification**, ordonnée par le II et non close par lui. **Le III en ferme la part nommée** : une ligne portée à l’énumération ne se plaide plus. Ce qui reste litigieux est ce que l’annexe ne compte pas en niche.
 4. **Les 80 modalités de calcul déclassées entrent dans le champ du I** — décote, abattement par durée de détention, franchise en base, exonération de la plus-value de résidence principale, 21 855 M€ pour les 33 chiffrées — **sans figurer au III** : elles ne sont pas au référentiel, qui ne porte que les dépenses fiscales. Le gain réel dépasse la cible affichée, et l’écart n’est pas chiffré. **Une liste énumérée qui les atteindrait appelle son propre relevé.**
-5. **L’abattement de 10 % sur les pensions est nommé au III** (CGI, art. 158, 5, a — 4 665 M€, rang **129°**) et ne tombe plus par la seule forme. `M-027` est couverte expressément.
+5. **L’abattement de 10 % sur les pensions est nommé au III** (CGI, art. 158, 5, a — 4 665 M€, rang **127°**) et ne tombe plus par la seule forme. `M-027` est couverte expressément.
 6. **L’article 81 est en état `ABROGE_DIFF`** : sa version cesse de s’appliquer le 1er janvier 2029. **Conséquence vérifiée le 20261007 et close** : les rangs qui visent l’article 81 relèvent du C (impôt dû au titre de 2028) ou du A (revenus de 2026) ; aucun ne relève du E, seule lettre datée du 1er janvier 2029. La clause y mord donc sur 2027 et 2028, et le 19° est abrogé au titre de 2026, avant la fin programmée de la version. **Le point « sort du 19° au-delà du 1er janvier 2029 » est clos.**
 7. **La jambe TVA propre du lot 3.2 et la présente clause se nomment l’une l’autre**, et le III rend la frontière lisible : **les niches de taxe sur la valeur ajoutée recensées comme telles à l’annexe sont nommées au III**, franchises sectorielles comprises depuis le 20261007 ; la suppression des taux réduits non comptabilisés en niche reste une pièce distincte, et elle est au circuit A depuis l’arbitrage du 20261007. Cette déclaration croisée n’est toujours écrite que d’un côté et elle est due dans l’autre.
 8. **Les dix-huit articles du texte déposé qui créent ou prorogent un avantage.** La mention expresse qui les captait est retirée : un amendement ne vise pas un article ultérieur de la loi qu’il suppose adoptée. Les créations restent atteintes par la forme générale du A — une fois la loi promulguée, elles sont des dispositions législatives, et le I leur est applicable aux dates du IV, toutes postérieures à la promulgation. **La capture n’étant plus écrite, les dix-huit articles sont à vérifier un par un avant dépôt.** **Les prorogations, elles, ne le sont pas** : un avantage prorogé est déjà dans le droit en vigueur et tombe sous la clause, mais l’article de prorogation, s’il reste, rouvre en aval. Les pièces de suppression correspondantes sont dues et ne sont pas au présent mandat.
-9. **L’impôt sur la fortune immobilière** : la clause abroge l’avantage attaché au don à cet impôt — nommé au III, rang **257°** — ; une autre pièce supprime l’impôt six mois plus tard. Le transitoire se lit ainsi : l’avantage tombe à l’entrée en vigueur de la clause, l’impôt subsiste jusqu’à sa propre date. La présente pièce ne tranche pas la suppression de l’impôt.
+9. **L’impôt sur la fortune immobilière** : la clause abroge l’avantage attaché au don à cet impôt — nommé au III, rang **250°** — ; une autre pièce supprime l’impôt six mois plus tard. Le transitoire se lit ainsi : l’avantage tombe à l’entrée en vigueur de la clause, l’impôt subsiste jusqu’à sa propre date. La présente pièce ne tranche pas la suppression de l’impôt.
 10. **Le mécanisme d’imputation de groupe de l’article 223 O reste debout**, les rangs du III n’en abrogeant que les lettres nommées. Les lettres qui demeurent et dont le crédit d’impôt générateur tombe par ailleurs sont des renvois devenus sans objet : ils entrent dans le relevé des renvois entrants dû au point 2.
 11. **Collision reprise de la pièce fondue** : l’article 7 du projet de loi de finances modifie le troisième alinéa de l’article 39 quinquies I, abrogé au III quater. À déclarer si l’article 7 est adopté.
 12. **Abrogations du III quinquies qui peuvent perdre une recette** — règles de rigueur que l’expert supprime : articles 39 G, 39 octies C, 72 C, 237, 238 bis GA à 238 bis GD, 774 bis, 793 quater et 1378 nonies. **Aucun gage propre** : la perte, si elle existe, relève du gage de la refonte sur l’impôt sur les sociétés (arbitrage n° 8 du 20261007 : silence délibéré, abroger des articles sans objet ne coûte ni ne rapporte).
@@ -937,7 +900,7 @@ La clause générale est **la pièce principale** et c’est elle qui porte la s
 
 1. **Les neuf lignes du réservoir A sont toutes des rangs du III**, et leurs états sont inchangés : A-1, A-3, A-8 consommées par P1-01 ; A-4, A-6 par P1-19 ; A-7 par les certificats d’énergie sous condition ; A-5 gelée en doublon avec B-15 ; A-9 écartée en doublon avec B-13 ; **A-2 reste la seule disponible, 838 M€**.
 2. **La source n’est plus ouverte par l’article 2 de la rédaction du 20261002 — pièce périmée et retirée — mais par le III de l’article 1er de la présente pièce**, et les clauses de gage qui la visent doivent viser cette division.
-3. **Le réservoir A n’est plus un réservoir de neuf lignes.** Le III ouvre **396 abrogations** d’État en première partie de loi de finances, et les 461 lignes qu’elles couvrent portent 321 montants. **Cela ne s’inscrit pas ici** : l’attribution ligne à ligne, les partitions R1 et R2 et les doublons entre réservoirs sont de la tenue du registre. La pièce se borne à dire que le gisement est ouvert et à nommer sa division. **Les III quater et III quinquies n’ouvrent aucune source de gage** : ils ne portent aucun montant.
+3. **Le réservoir A n’est plus un réservoir de neuf lignes.** Le III ouvre **389 abrogations** d’État en première partie de loi de finances, et les 461 lignes qu’elles couvrent portent 321 montants. **Cela ne s’inscrit pas ici** : l’attribution ligne à ligne, les partitions R1 et R2 et les doublons entre réservoirs sont de la tenue du registre. La pièce se borne à dire que le gisement est ouvert et à nommer sa division. **Les III quater et III quinquies n’ouvrent aucune source de gage** : ils ne portent aucun montant.
 
 **Taxe spéciale sur les conventions d’assurance — divergence assumée avec la cible de l’expert, reprise de la pièce 4.7 fondue.** Le référentiel `cgi_expert_articles.tsv` porte l’article 991 et les articles 995, 999, 1000, 1001, 1004 et 1630 du code général des impôts en opération « supprimé ». **Ces sept articles sont maintenus**, et aucun rang du III, du III quater ni du III quinquies ne les vise. La taxe est le prélèvement de substitution à une taxe sur la valeur ajoutée que le droit de l’Union interdit d’appliquer aux opérations d’assurance : l’article 135, 1, a, de la directive 2006/112/CE est transposé au 2° de l’article 261 C du code général des impôts jusqu’au 1er janvier 2027, puis au **1° de l’article L. 213-129 du code des impositions sur les biens et services**, la taxe sur la valeur ajoutée étant recodifiée au livre II de ce code à cette date. **Une reprise de la rédaction de l’expert qui ne porterait pas cette réserve supprimerait la taxe sans que personne le voie.** Convergence des taux prévue en 2028, pièce distincte, non écrite. Dévitalisation départementale renvoyée au rabot collectivités, sans rebudgétisation anticipée.
 
@@ -949,7 +912,7 @@ La clause générale est **la pièce principale** et c’est elle qui porte la s
 
 1. **Le contrôle d’adresse au dépôt de droit sur les rangs neufs** (§ 3.5). C’est la dernière opération due avant transmission, et elle est mécanique. **Les deux inclusions du § 3.5 en sortent : elles sont tranchées.**
 2. **Le relevé des niches sociales par siège**, pour donner à l’article 2 l’équivalent de son III. **Seul trou de liste qui subsiste**, et il commande la conversion de la ligne SS-05 en forme `GA+`.
-3. **Le relevé des renvois entrants** sur les 396 rangs du III et sur les 364 articles des III quater et III quinquies.
+3. **Le relevé des renvois entrants** sur les 389 rangs du III et sur les 364 articles des III quater et III quinquies.
 4. Le relevé des 80 modalités de calcul déclassées, si une liste énumérée doit les atteindre.
 5. Le recalage des montants sur l’annexe 2027 des voies et moyens (§ 3.4), remis à plus tard par décision de l’auteure.
 6. La déclaration croisée avec la jambe TVA du lot 3.2, due dans la pièce du lot 3.2.
@@ -1012,28 +975,30 @@ La clause générale est **la pièce principale** et c’est elle qui porte la s
 
 ## 10. Classement des rangs, outre-mer, adresses
 
-### 10.1 Classement des rangs du III par régime d’entrée en vigueur (IV) — numérotation du 20261007
+### 10.1 Classement des rangs du III par régime d’entrée en vigueur (IV) — numérotation du 20261009
 
 | régime (lettre du IV) | date | rangs du III | nombre |
 |---|---|---|---:|
-| A — non incitatif | impôt sur le revenu dû au titre de 2026 · IS des exercices clos à compter du 1er janvier 2027 · IFI et impôts locaux de 2027 · actes du 1er janvier 2027 | 1°, 12°, 19° et 20°, 39°, 47°, 49°, 56° à 60°, 62°, 64° à 85°, 88°, 108° et 109°, 111° et 112°, 116°, 118°, 120°, 122°, 129°, 131°, 141°, 152°, 154°, 169° à 171°, 177° à 183°, 185°, 188° et 189°, 201°, 203°, 207° et 208°, 222° à 224°, 226° et 227°, 229° à 232°, 256°, 259°, 262° à 265°, 271° et 272°, 283° à 285°, 291° et 292°, 294° et 295°, 391° | 91 |
-| B — incitatif | opérations à compter du 1er janvier 2027 · exercices ouverts et impositions à compter de la même date pour les avantages de zone ou de création | 2° à 11°, 13° à 18°, 21° à 38°, 46°, 50° et 51°, 114° et 115°, 117°, 119°, 132° et 133°, 140°, 143° à 151°, 155° à 161°, 163°, 165° et 166°, 168°, 184°, 186° et 187°, 190° à 200°, 202°, 205°, 209° à 211°, 213° et 214°, 216° à 221°, 266° à 270°, 273° à 275°, 278° à 280°, 286° à 290°, 394° et 395° · III ter | 109 |
-| C — barème et épargne | impôt sur le revenu dû au titre de 2028 · opérations du 1er janvier 2028 · amorce : ouvertures et versements du 1er juillet 2027 sans avantage, plafonds gelés · **dérogation : rangs 91° et 92° (exonérations de la taxe forfaitaire sur les métaux précieux et les objets de collection) aux cessions et exportations du 1er janvier 2027** | 52° à 55°, 61°, 63°, 86° et 87°, 89° à 107°, 110°, 113°, 121°, 123° à 128°, 130°, 134° à 139°, 142° | 44 |
-| C bis — droits de mutation à titre gratuit | successions ouvertes et donations consenties à compter du **1er janvier 2027**, **lettre entière, arbitrage de l’auteure recalé le 20261008 — même date que la baisse de tarif de la pièce 4.2 C, et plus aucun écart de calendrier** · mutations antérieures et engagements qui s’y rattachent sous l’ancien régime (G, recalé au 1er janvier 2027) · **le rang 258° — I bis de l’article 990 I — vient du C, le I du même article étant abrogé au rang 248°** · **le rang 247° — articles 794 et 795-0 A — vient du F le 20261008, l’article 795 étant abrogé au rang 248°** | 234° à 239°, 241° à 255°, 258° | 22 |
-| D — TVA, accises, livre IV, douanes | opérations du 1er juillet 2027 | 296° à 355°, 359° à 390° · III bis | 92 |
-| E — agriculture, services à la personne, garde d’enfants | un tiers en 2027, deux tiers en 2028, totalité en 2029 · TVA exclue | 40° à 45°, 48°, 153°, 164°, 167°, 172° à 176°, 212°, 215°, 225°, 228°, 260° et 261°, 276° et 277°, 281° et 282°, 293°, 356° à 358°, 392° et 393°, 396° | 32 |
-| F — dons | moitié au 1er juillet 2027, totalité au 1er janvier 2028 · **le rang 247° est parti au C bis le 20261008** | 162°, 204°, 206°, 233°, 240°, 257° | 6 |
-| **total** | | **couverture entière, sans trou ni doublon** | **396** |
+| A — non incitatif | impôt sur le revenu dû au titre de 2026 · IS des exercices clos à compter du 1er janvier 2027 · IFI et impôts locaux de 2027 · actes du 1er janvier 2027 | 1°, 12°, 19° et 20°, 37°, 45°, 47°, 54° à 58°, 60°, 62° à 83°, 86°, 106° et 107°, 109° et 110°, 114°, 116°, 118°, 120°, 127°, 129°, 139°, 150°, 152°, 164° à 166°, 172° à 178°, 180°, 183° et 184°, 196°, 198°, 202° et 203°, 215° à 217°, 219° et 220°, 222° à 225°, 249°, 252°, 255° à 258°, 264° et 265°, 276° à 278°, 284° et 285°, 287° et 288°, 384° | 91 |
+| B — incitatif | opérations à compter du 1er janvier 2027 · exercices ouverts et impositions à compter de la même date pour les avantages de zone ou de création | 2° à 11°, 13° à 18°, 21° à 36°, 44°, 48° et 49°, 112° et 113°, 115°, 117°, 130° et 131°, 138°, 141° à 149°, 153° à 156°, 158°, 160° et 161°, 163°, 179°, 181° et 182°, 185° à 195°, 197°, 200°, 204° et 205°, 207° et 208°, 210° à 214°, 259° à 263°, 266° à 268°, 271° à 273°, 279° à 283°, 387° et 388° · III ter | 102 |
+| C — barème et épargne | impôt sur le revenu dû au titre de 2028 · opérations du 1er janvier 2028 · amorce : ouvertures et versements du 1er juillet 2027 sans avantage, plafonds gelés · **dérogation : rangs 89° et 90° (exonérations de la taxe forfaitaire sur les métaux précieux et les objets de collection) aux cessions et exportations du 1er janvier 2027** | 50° à 53°, 59°, 61°, 84° et 85°, 87° à 105°, 108°, 111°, 119°, 121° à 126°, 128°, 132° à 137°, 140° | 44 |
+| C bis — droits de mutation à titre gratuit | successions ouvertes et donations consenties à compter du **1er janvier 2027**, **lettre entière, arbitrage de l’auteure recalé le 20261008 — même date que la baisse de tarif de la pièce 4.2 C, et plus aucun écart de calendrier** · mutations antérieures et engagements qui s’y rattachent sous l’ancien régime (G, recalé au 1er janvier 2027) · **le rang 258° — I bis de l’article 990 I — vient du C, le I du même article étant abrogé au rang 248°** · **le rang 247° — articles 794 et 795-0 A — vient du F le 20261008, l’article 795 étant abrogé au rang 248°** | 227° à 232°, 234° à 248°, 251° | 22 |
+| D — TVA, accises, livre IV, douanes | opérations du 1er juillet 2027 | 289° à 348°, 352° à 383° · III bis | 92 |
+| E — agriculture, services à la personne, garde d’enfants | un tiers en 2027, deux tiers en 2028, totalité en 2029 · TVA exclue | 38° à 43°, 46°, 151°, 159°, 162°, 167° à 171°, 206°, 209°, 218°, 221°, 253° et 254°, 269° et 270°, 274° et 275°, 286°, 349° à 351°, 385° et 386°, 389° | 32 |
+| F — dons | moitié au 1er juillet 2027, totalité au 1er janvier 2028 · **le rang 247° est parti au C bis le 20261008** | 157°, 199°, 201°, 226°, 233°, 250° | 6 |
+| **total** | | **couverture entière, sans trou ni doublon** | **389** |
 
 **Contrôle de couverture, rejoué le 20261008 après le déplacement du rang 258°.** La réunion des sept listes est exactement l’ensemble des rangs 1° à 396° : aucun rang n’est classé deux fois, aucun n’est orphelin. Le A n’est donc plus un reliquat implicite : il est énuméré. **Seul le 258° a changé de lettre ; les 395 autres rangs sont à la lettre où le 20261007 les avait laissés.**
 
 **Contrôle de couverture rejoué le 20261008 bis, après le déplacement du rang 247° du F au C bis.** La réunion des sept listes reste exactement l’ensemble des rangs 1° à 396°, sans orphelin ni doublon, avant comme après ; la numérotation du III est continue de 1° à 396°, sans trou ni doublon, avant comme après ; chaque compte annoncé égale le nombre de rangs que sa cellule énumère. **Seul le 247° a changé de lettre ; les 395 autres rangs sont là où le 20261008 les avait laissés.**
 
+**Contrôle de couverture rejoué le 20261009, après le regroupement par bloc.** La numérotation du III est continue de 1° à 389°, sans trou ni doublon ; la réunion des sept listes est exactement l’ensemble des rangs 1° à 389°, sans orphelin ni doublon ; chaque compte annoncé égale le nombre de rangs que sa cellule énumère. **Aucun rang n’a changé de lettre** : un rang fusionné prend la lettre commune des rangs qu’il réunit.
+
 **Règle de classement.** Un rang va au B quand l’avantage est la contrepartie d’un comportement que le contribuable adopte pour l’obtenir — investissement, dépense, souscription, versement, détention, engagement — dans un délai ou pour une durée fixés par la loi. Une exonération liée à une qualité, à un revenu ou à une situation (prestation, indemnité, organisme, résidence) va au A. Les fonctions nommées par l’auteure (barème, plus-values, épargne) vont au C même lorsqu’elles sont incitatives. Fondement : `etats/U1.md`, § 1. **Application du 20261007** : les sept rangs d’investissement outre-mer rétablis le 20261005 — rangs 143° à 145°, 187°, 219° à 221° — sont des contreparties d’investissement et vont au B.
 
 **Les dix-huit rangs supprimés le 20261007.** Treize étaient entièrement ultramarins et vidés par l’alinéa d’exclusion du II (anciens 35°, 141°, 150°, 236°, 271°, 275°, 281°, 282°, 293°, 305°, 306°, 357°, 407°) · un visait une subdivision déjà abrogée en droit, le III de l’article 1586 nonies (ancien 302°) · quatre visaient l’impôt sur la fortune immobilière, que la pièce 4.4 abroge au 1er janvier 2028 (anciens 261° à 264°, articles 964, 972 ter, 975 et 976). Aucun ne portait d’abrogation : leur suppression ne retire rien au dispositif.
 
-**Outre-mer.** Le II exclut du I et du III les dispositions propres aux collectivités des articles 73 et 74 de la Constitution et à la Nouvelle-Calédonie, qui sont régies par un régime fiscal distinct. **L’exclusion ne couvre pas les dispositions dont le bénéfice est accordé à une personne qui n’y est pas domiciliée** : les réductions et crédits d’impôt accordés à un contribuable métropolitain à raison d’un investissement réalisé outre-mer restent dans le champ et sont abrogés aux rangs 143° à 145°, 187° et 219° à 221° (articles 199 undecies A, B et C, 217 undecies et 217 duodecies, 244 quater W, X et Y et leurs chaînes). La Corse n’est pas couverte par l’exclusion et tombe en entier. Deux rangs mixtes sont retaillés : la part Corse des fonds d’investissement de proximité tombe par le III ter, la part ultramarine reste ; l’article L. 231-75 (logement social outre-mer) sort de la plage abrogée, et le 21° du III bis retire du tableau de L. 231-68 les seules lignes métropolitaines. Les taux de TVA minorés outre-mer attachés à un taux dérogatoire national (rangs 302°, 312° et 315°) tombent avec lui : ce ne sont pas des dispositions propres à l’outre-mer.
+**Outre-mer.** Le II exclut du I et du III les dispositions propres aux collectivités des articles 73 et 74 de la Constitution et à la Nouvelle-Calédonie, qui sont régies par un régime fiscal distinct. **L’exclusion ne couvre pas les dispositions dont le bénéfice est accordé à une personne qui n’y est pas domiciliée** : les réductions et crédits d’impôt accordés à un contribuable métropolitain à raison d’un investissement réalisé outre-mer restent dans le champ et sont abrogés aux rangs 141° à 143°, 182°, 213° et 214° (articles 199 undecies A, B et C, 217 undecies et 217 duodecies, 244 quater W, X et Y et leurs chaînes). La Corse n’est pas couverte par l’exclusion et tombe en entier. Deux rangs mixtes sont retaillés : la part Corse des fonds d’investissement de proximité tombe par le III ter, la part ultramarine reste ; l’article L. 231-75 (logement social outre-mer) sort de la plage abrogée, et le 21° du III bis retire du tableau de L. 231-68 les seules lignes métropolitaines. Les taux de TVA minorés outre-mer attachés à un taux dérogatoire national (rangs 295°, 305° et 308°) tombent avec lui : ce ne sont pas des dispositions propres à l’outre-mer.
 
 ### 10.2 Contrôle des adresses (extrait LEGI 20261001)
 
@@ -1042,3 +1007,22 @@ Dispositif de l’article 1er rejoué ligne par ligne le 20261005, III bis et II
 **Contrôle du 20261007, sur les seules adresses que la passe introduit ou qu’elle nomme.** Trois adresses ajoutées au III : L. 213-105, L. 233-10 et L. 233-11 du code des impositions sur les biens et services, les trois `VIGUEUR_DIFF` au 1er janvier 2027. Article 81 du code général des impôts : `ABROGE_DIFF`, fin de version au 1er janvier 2029. **364 articles entrés par la fonte des III quater et III quinquies : contrôlés un à un au lot U7 et non rejoués ici** — 345 `EXISTE`, 21 `ABROGE_DIFF`, aucun `ABSENT`, aucun `ABROGE`. **Références laissées hors contrôle par la passe du 20261007, et la raison de chacune** : les 433 références du dispositif antérieur, non rejouées, la passe ne touchant aucune d’elles ; les renvois entrants sur les 396 rangs, jamais relevés (§ 6, point 2) ; l’article 1-1 de la loi n° 86-897 et l’article 107 de la loi n° 2021-1104, hors extrait LEGI.
 
 **Contrôle du 20261007 au soir, sur les seules adresses que la divergence du § 8 nomme — trois.** CGI, art. **991** `EXISTE` · CGI, art. **261 C** `ABROGE_DIFF` au 1er janvier 2027 · CIBS, art. **L. 213-129** `VIGUEUR_DIFF` au 1er janvier 2027. **Aucune `ABSENT`, aucune `ABROGE`.** Les six autres articles de la taxe — 995, 999, 1000, 1001, 1004 et 1630 — sont **laissés hors contrôle** : la passe ne les écrit pas au dispositif et ils ne sont visés par aucun rang ; leur contrôle revient au contrôle de sortie. **Références laissées hors contrôle par la passe du 20261007 au soir** : les 433 références du dispositif et les 364 articles des III quater et III quinquies, aucune n’étant touchée par la passe.
+
+---
+
+## 11. Table de passage — numérotation du 20261007 → numérotation du 20261009
+
+**Elle fait foi pour résoudre tout renvoi au III antérieur au 9 octobre 2026**, dans la présente pièce — cartouches datés et §§ 7, 8 et 9 compris — comme dans toute autre pièce du paquet ou registre. Un renvoi antérieur au 20261007 se résout d’abord par la table du § 10.1 de la reprise du 20261007, puis par celle-ci.
+
+**Rangs fusionnés** — chaque rang fusionné abroge la division qui portait les articles des rangs réunis : 30° + 31° → **30°** · 35° + 36° → **34°** · 158° + 159° + 160° + 161° → **156°** · 209° + 210° → **204°** · 220° + 221° → **214°**. **Aucun rang n’est retiré ni ne change de lettre du IV.**
+
+| ancien rang (20261007) | rang nouveau (20261009) |
+|---|---|
+| 1° à 30° | 1° à 30° |
+| 31° à 35° | 30° à 34° |
+| 36° à 158° | 34° à 156° |
+| 159° | 156° |
+| 160° | 156° |
+| 161° à 209° | 156° à 204° |
+| 210° à 220° | 204° à 214° |
+| 221° à 396° | 214° à 389° |

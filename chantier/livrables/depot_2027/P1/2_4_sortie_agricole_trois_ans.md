@@ -36,7 +36,7 @@ présente —, à extinction progressive sur trois ans, et ne figurent dans aucu
 
 | n° | titre | ce que l’amendement fait | emplacement | état | à vérifier |
 |---|---|---|---|---|---|
-| 19 | Donner trois ans à l’agriculture pour sortir de ses régimes | Éteindre par étapes les aides fiscales agricoles, de 2027 à 2029 | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Confirmer le rythme d’étalement auprès de l’auteure |
+| 19 | Trois ans pour sortir des régimes agricoles, puis retour au salaire | Éteindre par étapes les aides fiscales agricoles, de 2027 à 2029 | art. add. après l’art. 13 ⚑ | à vérifier avant dépôt | Confirmer le rythme d’étalement auprès de l’auteure |
 
 **Correspondance marquée ⚑** : le point d’accroche dépend du socle.
 
@@ -47,7 +47,7 @@ présente —, à extinction progressive sur trois ans, et ne figurent dans aucu
 ## Cartouche n° 19 — *hors pièce déposée*
 
 **Mesures portées** M-017, composante `RECETTE` — bloc B-05 — lot 2.4 ·
-**Titre** Donner trois ans à l’agriculture pour sortir de ses régimes ·
+**Titre** Trois ans pour sortir des régimes agricoles, puis retour au salaire ·
 **Chapô** Éteindre par étapes les aides fiscales agricoles, de 2027 à 2029 ·
 **Intention** Porter l’extinction agricole sur un calendrier étalé, conformément à l’arbitrage de l’auteure ·
 **Principe** à fournir
@@ -80,7 +80,7 @@ I. – Le code général des impôts est ainsi modifié :
 
 II. – Les articles L. 312-60 à L. 312-63 du code des impositions sur les biens et services sont abrogés.
 
-III. – Le produit résultant du I et du II concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
+III. – Le produit résultant du I et du II concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
 IV. – Les 1° et 2° du I s’appliquent aux dépenses engagées à compter du 1er janvier 2029. Le crédit d’impôt prévu à l’article 244 quater L du code général des impôts est réduit d’un tiers pour les dépenses engagées en 2027 et de deux tiers pour les dépenses engagées en 2028.
 
@@ -90,15 +90,17 @@ Le II s’applique aux opérations dont le fait générateur intervient à compt
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement éteint par étapes, de 2027 à 2029, trois régimes fiscaux réservés à l’agriculture.
+Cet amendement abroge en 2029 trois régimes fiscaux réservés à l’agriculture, par tiers annuels.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Pour obtenir le crédit d’impôt attaché au mode de production biologique, l’exploitant se fait certifier, déclare et conserve ses justificatifs. La transformation de la récolte est imposée différemment selon la forme sociale de l’entreprise qui l’assure, à activité identique. Un troisième régime, logé dans le tarif de l’accise sur les énergies, rembourse une part du gazole des travaux agricoles et forestiers (code général des impôts, articles 207 et 244 quater L ; code des impositions sur les biens et services, articles L. 312-60 à L. 312-63)¹.
 
 L’extinction s’écrit au calendrier plutôt qu’au taux : chaque régime porte sa date de fin dans la loi même qui la décide, le crédit d’impôt, l’exonération des coopératives et le tarif réduit du gazole décroissant par tiers sur deux années avant de disparaître. En clair : l’exploitant connaît la date à laquelle chaque avantage cesse et il la connaît trois ans à l’avance.
 
-Le rendement revient au budget général à mesure que les étapes tombent : la part restituée finance la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte. La gestion s’allège d’une certification à contrôler, d’un partage entre opérations avec sociétaires et avec non-sociétaires et d’un remboursement d’accise à instruire. Chaque régime rejoint le droit commun selon un calendrier connu trois ans à l’avance. L’effet commence en 2027, par tiers, et il est complet en 2029. Un amendement distinct écarte les avantages agricoles que le texte en discussion crée ou proroge ; le présent article ne les recouvre pas. Un délai n’est une transition que s’il porte un terme écrit.
+Le rendement va au salaire net à mesure que les étapes tombent : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La gestion s’allège d’une certification à contrôler, d’un partage entre opérations avec sociétaires et avec non-sociétaires et d’un remboursement d’accise à instruire. Chaque régime rejoint le droit commun selon un calendrier connu trois ans à l’avance. L’effet commence en 2027, par tiers, et il est complet en 2029. Un amendement distinct écarte les avantages agricoles que le texte en discussion crée ou proroge ; le présent article ne les recouvre pas. Un délai n’est une transition que s’il porte un terme écrit.
 
-¹ Code général des impôts, articles 207 et 244 quater L, et code des impositions sur les biens et services, articles L. 312-60 à L. 312-63, dans leur rédaction applicable au 1er octobre 2026 (base LEGI, millésime 20261001).
+¹ Code général des impôts, articles 207 et 244 quater L, et code des impositions sur les biens et services, articles L. 312-60 à L. 312-63, dans leur rédaction applicable au 1er octobre 2026.
 
 ---
 

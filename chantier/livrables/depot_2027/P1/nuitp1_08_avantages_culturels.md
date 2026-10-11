@@ -9,7 +9,7 @@
 
 ---
 
-# 08 — Tenir les échéances des avantages fiscaux culturels
+# 08 — Les avantages culturels s’arrêtent à leur terme, restitution au travail
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 2 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026. Alinéas désignés par subdivision : la numérotation d’alinéas de l’Assemblée n’est pas encore connue.
@@ -59,16 +59,18 @@ II. – Rédiger ainsi le 2° du I :
 
 III. – Compléter cet article par un IV ainsi rédigé :
 
-« IV. – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires. »
+« IV. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires. »
 
 EXPOSÉ SOMMAIRE
 
 Cet amendement supprime la prorogation jusqu’en 2029 de sept avantages fiscaux du secteur culturel.
 
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
 Le contribuable paie une part de chaque production retenue par un guichet, et il ne choisit ni les œuvres, ni les producteurs, ni le moment où l’avantage sera reconduit. Sept provisions, réductions et crédits d’impôt du secteur culturel arrivent à échéance ; le présent article les reconduit tous jusqu’en 2029, en changeant une seule année dans chaque article (projet de loi de finances pour 2027, article 12)¹. L’autorisation est annuelle, le dispositif est perpétuel : la date d’extinction, écrite pour forcer un réexamen, se déplace à chaque échéance sans que le réexamen ait lieu.
 
 L’amendement supprime la prorogation des quatre dispositifs qui expirent à la fin de 2026 et avance d’un an le terme des trois crédits d’impôt de production qui expiraient à la fin de 2027. Les dépenses engagées jusqu’au 31 décembre 2026 restent éligibles, et les œuvres en cours de tournage ou d’édition conservent leur régime. Dit simplement : producteurs et éditeurs financent leurs œuvres par leurs publics, leurs mécènes et les crédits votés, et le contribuable garde l’euro qu’il versait sans l’avoir décidé.
 
-Le rendement revient au budget général : la part restituée va à la baisse des prélèvements sur les revenus d’activité, le solde à l’équilibre de la refonte. La simplification porte sur l’agrément des œuvres, le calcul des dépenses éligibles et leur contrôle. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte ces dispositifs ; les deux ne se cumulent pas. Le Parlement retrouve l’échéance qu’il avait lui-même votée.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La simplification porte sur l’agrément des œuvres, le calcul des dépenses éligibles et leur contrôle. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte ces dispositifs ; les deux ne se cumulent pas. Le Parlement retrouve l’échéance qu’il avait lui-même votée.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 12, I.

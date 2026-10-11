@@ -9,7 +9,7 @@
 
 ---
 
-# 04 — Cesser de payer aux banques les intérêts du prêt à taux zéro
+# 04 — Les intérêts payés aux banques rendus à la paie des ménages
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 2 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026. Alinéas désignés par subdivision : la numérotation d’alinéas de l’Assemblée n’est pas encore connue.
@@ -65,12 +65,14 @@ III. – Compléter cet article par un IV ainsi rédigé :
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement abroge le crédit d’impôt accordé aux banques qui distribuent le prêt à taux zéro.
+Cet amendement abroge le crédit d’impôt versé aux banques pour le prêt à taux zéro.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 L’acheteur d’un premier logement croit emprunter sans intérêt : c’est l’État qui paie ces intérêts à sa banque, sous la forme d’un crédit d’impôt. Une aide à la solvabilité se diffuse pour une large part dans le prix du bien, de sorte que le vendeur en capte une part et que l’acheteur paie plus cher le logement qu’on prétend lui rendre accessible. Le présent article resserre le prêt sur les familles qui attendent ou élèvent un jeune enfant et allège le régime du crédit d’impôt (projet de loi de finances pour 2027, article 7)¹ ; il garde le circuit, et avec lui l’effet sur les prix.
 
 L’amendement abroge l’article qui porte ce crédit d’impôt pour les offres de prêt émises à compter du 1er janvier 2027. Les avances déjà accordées continuent d’ouvrir droit au crédit jusqu’à leur terme, ce qui protège les emprunteurs et les établissements déjà engagés. Le produit qui en résulte concourt à la réduction des prélèvements pesant sur les revenus d’activité. En clair : l’acheteur négocie son crédit comme tout emprunteur, et il garde davantage de sa paie pour financer son projet.
 
-Une aide ciblée cède la place à un revenu libre d’emploi : le ménage qui garde davantage de son salaire choisit lui-même d’acheter, de louer ou d’épargner, et il le fait sur un marché dont le prix n’est plus soutenu par la subvention. La gestion se simplifie d’autant, le calcul actualisé de chaque avance, sa déclaration par l’établissement et son contrôle disparaissant pour les prêts nouveaux. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Le prix du logement redevient celui que l’acheteur et le vendeur conviennent.
+Une aide ciblée cède la place à un revenu libre d’emploi : le ménage qui garde davantage de son salaire choisit lui-même d’acheter, de louer ou d’épargner, et il le fait sur un marché dont le prix n’est plus soutenu par la subvention. La gestion se simplifie d’autant, le calcul actualisé de chaque avance, sa déclaration par l’établissement et son contrôle disparaissant pour les prêts nouveaux. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Le prix du logement redevient celui que l’acheteur et le vendeur conviennent. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 7, II, D et I, A.

@@ -9,7 +9,7 @@
 
 ---
 
-# 10 — Mettre fin à l’impôt qui dépend de l’adresse
+# 10 — Les exonérations d’adresse non prorogées, l’avantage rendu à tous les salaires
 
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 2 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026. Alinéas désignés par subdivision : la numérotation d’alinéas de l’Assemblée n’est pas encore connue.
@@ -62,16 +62,18 @@ II. – Rédiger ainsi le 2° du I :
 
 III. – Rédiger ainsi le II :
 
-« II. – Le produit résultant du I concourt, pour la part restituée, à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires. »
+« II. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires. »
 
 EXPOSÉ SOMMAIRE
 
 Cet amendement supprime la prorogation des exonérations fiscales accordées aux entreprises des zones aidées.
 
-Deux entreprises servent le même marché, de part et d’autre d’une limite tracée sur une carte : l’une est exonérée d’impôt sur ses bénéfices pendant ses premières années et de cotisation foncière pour ses établissements, l’autre paie tout — et paie aussi, par son impôt, l’exonération de sa voisine. Le présent article reconduit d’un an les dates de création ouvrant droit à ces exonérations, allonge la durée des classements et prolonge d’un an les exonérations locales des commerces des communes en revitalisation (projet de loi de finances pour 2027, article 26)¹. Le zonage déplace l’implantation de quelques kilomètres sans créer d’activité nouvelle.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Deux entreprises servent le même marché, de part et d’autre d’une limite tracée sur une carte : l’une est exonérée d’impôt sur ses bénéfices pendant ses premières années et de cotisation foncière pour ses établissements, l’autre paie tout et paie aussi, par son impôt, l’exonération de sa voisine. Le présent article reconduit d’un an les dates de création ouvrant droit à ces exonérations, allonge la durée des classements et prolonge d’un an les exonérations locales des commerces des communes en revitalisation (projet de loi de finances pour 2027, article 26)¹. Le zonage déplace l’implantation de quelques kilomètres sans créer d’activité nouvelle.
 
 L’amendement supprime ces prorogations et ramène au 31 décembre 2026 la date limite de création ouvrant droit à l’exonération dans les zones de développement prioritaire. Les entreprises déjà exonérées conservent leurs droits jusqu’au terme prévu : aucune implantation décidée sous le régime ancien n’est remise en cause. Dit simplement : l’entreprise qui s’installe en 2027 paie l’impôt de tous, quelle que soit sa commune, et celle qui paie déjà cesse de financer l’avantage de sa concurrente.
 
-Le rendement revient au budget général et, pour les exonérations locales, aux collectivités qui les supportaient ; la part restituée va à la baisse des prélèvements sur les revenus d’activité, le solde à l’équilibre de la refonte. La gestion des périmètres, des classements et des attestations de zone cesse pour les créations nouvelles. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte ces exonérations ; les deux ne se cumulent pas. Un territoire se défend par l’activité qu’il retient, à règles égales.
+Le rendement va au salaire net et, pour les exonérations locales, aux collectivités qui les supportaient ; il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La gestion des périmètres, des classements et des attestations de zone cesse pour les créations nouvelles. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte ces exonérations ; les deux ne se cumulent pas. Un territoire se défend par l’activité qu’il retient, à règles égales. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 26, I, 1° à 3° et II.
