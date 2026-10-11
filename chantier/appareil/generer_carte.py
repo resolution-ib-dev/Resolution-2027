@@ -20,6 +20,7 @@ Usage : python3 generer_carte.py ../methode/index.json ../livrables/carte_du_pro
 import html
 import json
 import os
+import posixpath
 import sys
 
 # --------------------------------------------------------------- l'affectation
@@ -979,14 +980,38 @@ def affectation():
     return par_chemin
 
 
+def familles_par_dossier(table):
+    """dossier → famille la plus portée par les artefacts affectés qu'il contient."""
+    comptes = {}
+    for c, fam in table.items():
+        d = comptes.setdefault(posixpath.dirname(c), {})
+        d[fam] = d.get(fam, 0) + 1
+    return {d: max(n, key=n.get) for d, n in comptes.items()}
+
+
 def famille_de(artefact, table):
-    """La famille d'un artefact : sa ligne de carte, sa règle de rang, ou rien."""
+    """La famille d'un artefact : sa ligne de carte, sa règle de rang, ou son
+    adresse.
+
+    Depuis que l'index se relève du dossier (20261009), il porte des artefacts
+    qu'aucune ligne de carte ne nomme. Ils prennent la famille de l'adresse, au
+    sens de l'arbitrage du 20260917 déjà appliqué à `IMPLICITES` : celle que
+    portent en majorité les artefacts affectés de leur dossier, ou à défaut du
+    plus proche dossier parent qui en porte. Une ligne de carte ou une entrée
+    d'`IMPLICITES` l'emporte toujours sur cette règle.
+    """
     c = artefact['chemin']
     if c in HORS_FAMILLE:
         return None
     if c in table:
         return table[c]
-    return FAMILLE_PAR_RANG.get(artefact['rang'])
+    if artefact['rang'] in FAMILLE_PAR_RANG:
+        return FAMILLE_PAR_RANG[artefact['rang']]
+    par_dossier = familles_par_dossier(table)
+    d = posixpath.dirname(c)
+    while d not in par_dossier and d:
+        d = posixpath.dirname(d)
+    return par_dossier.get(d)
 
 
 # --------------------------------------------------------------------- adresse
