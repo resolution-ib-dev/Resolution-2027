@@ -885,6 +885,29 @@ IMPLICITES = {
     'paquet/machine_v1_2_a3/procedures/test_rattachement.md': 'outillage',
     'paquet/machine_v1_3/motifs_locaux_atelier.txt': 'outillage',
     'paquet/machine_v1_4/MANIFESTE.md': 'outillage',
+    # --- 20261011, arbitrage de l'auteure : les fichiers de `livrables/`
+    # relevés du dossier, que la règle de majorité rangeait en bac à sable,
+    # sont juridiques. Les classements écrits plus haut ne bougent pas.
+    'livrables/L1_solde_2027.md': 'juridique',
+    'livrables/L3_L4_ecart_2027.md': 'juridique',
+    'livrables/PLF2027_liste.md': 'juridique',
+    'livrables/PLFSS2027_liste.md': 'juridique',
+    'livrables/attendus_scelles_P1_PLF_20261002.md': 'juridique',
+    'livrables/attendus_scelles_phase1_20261002.md': 'juridique',
+    'livrables/croisement_tva_20261002.md': 'juridique',
+    'livrables/fiche_reservoir_arguments_livre_20261003.md': 'juridique',
+    'livrables/fiches_mesures_plf2027.md': 'juridique',
+    'livrables/fiches_mesures_plfss_2027.md': 'juridique',
+    'livrables/index_mesures_plf2027.md': 'juridique',
+    'livrables/index_mesures_plfss_2027.md': 'juridique',
+    'livrables/lecture_plf2027_lisible.md': 'juridique',
+    'livrables/lecture_plfss2027_lisible.md': 'juridique',
+    'livrables/niches_creees_ou_prorogees_plf2027.md': 'juridique',
+    'livrables/portes_ouvertes_plf2027.md': 'juridique',
+    'livrables/registre_calcul_etatB.md': 'juridique',
+    'livrables/releve_siege_prelevements_20261001.md': 'juridique',
+    'livrables/reservoir_arguments_livre.md': 'juridique',
+    'livrables/valise_phase1_20261002.md': 'juridique',
 }
 
 # La carte se lit en haut du projet, hors famille : elle est la vue, non une
