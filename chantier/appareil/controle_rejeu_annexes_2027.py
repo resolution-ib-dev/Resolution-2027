@@ -5,8 +5,13 @@ des dépenses fiscales du PLF 2027.
 Le référentiel portait 465 montants lus à l'annexe 3 au tome II du PLF 2026.
 Le 20261012, l'auteure a fait rejouer ces montants sur l'annexe 1 au tome II du
 PLF 2027, puis arbitré quatre cas (`methode/etats/REJEU_annexes_2027_20261012.md`).
-Ce module rouvre les deux annexes et l'état d'avant rejeu, et vérifie chaque
-ligne du référentiel écrit. **Il ne lit aucune table produite par le rejeu.**
+Ce module relit l'annexe 2027, dans sa table digérée et versée
+`referentiels/annexe_depenses_fiscales_2027.tsv` (`appareil/digerer_annexes_vm2027.py`),
+ainsi que l'état d'avant rejeu. Il vérifie ensuite chaque ligne du référentiel écrit.
+**Il ne lit aucune table produite par le rejeu.** Il refuse une table digérée dont
+l'empreinte de pièce n'est pas celle du classeur sur lequel le rejeu a été joué
+(`EMPREINTE_DF27`). La concordance de la table avec son classeur se prouve à part, par
+`digerer_annexes_vm2027.py verifier`.
 
 Une ligne du référentiel est dans un seul des cinq cas suivants, et le contrôle
 vérifie ce que ce cas impose :
@@ -16,8 +21,12 @@ vérifie ce que ce cas impose :
 - **sans effet budgétaire 2027** : l'annexe 2027 porte « - » en colonne H. Le
   millésime est 2027, le montant est 0 et l'observation porte la marque ;
 - **rattachée** : le numéro de 2026 est absent de l'annexe 2027. La ligne porte
-  un nouveau numéro de 2027, et son libellé à l'annexe 2027 est identique **au
-  verbatim strict** au libellé de l'ancien numéro à l'annexe 2026. L'ancien
+  un nouveau numéro de 2027, et son libellé à l'annexe 2027 est identique au
+  libellé de l'ancien numéro. Celui-ci se lit à la colonne `objet_en_clair` de
+  l'état d'avant rejeu, qui a gardé le libellé de l'annexe 2026 mais y a rendu
+  l'espace insécable simple. La comparaison se fait donc après cette seule
+  normalisation, U+00A0 → espace (`NORMALISATION_2026`). Le verbatim strict des
+  deux classeurs a été prouvé au rejeu, état REJEU, § 1.2. L'ancien
   numéro est dit à l'observation, et la ligne suit ensuite l'un des deux cas
   qui précèdent ;
 - **objet changé** : numéro inscrit à `OBJET_CHANGE` ci-dessous. Montant et
@@ -31,12 +40,11 @@ est admis) et `numero` (pour une ligne rattachée), aucune colonne ne bouge.
 Usage :
     python3 appareil/controle_rejeu_annexes_2027.py \\
         referentiels/niches_sieges_20261004.tsv \\
-        <annexe 1 au tome II du PLF 2027, .xls> \\
-        <annexe 3 au tome II du PLF 2026, .xls>
+        referentiels/annexe_depenses_fiscales_2027.tsv
     ... --fautes   rejoue en plus le jeu de fautes
 
-Les deux annexes sont des pièces jointes et ne vivent pas au dépôt : elles se
-passent en argument. L'état d'avant rejeu se lit au commit `BASE` par `git show`.
+Aucun classeur n'est lu : tout est au dépôt. L'état d'avant rejeu se lit au
+commit `BASE` par `git show`.
 Code de retour non nul s'il reste une anomalie, ou si une faute injectée ne
 mord pas.
 """
@@ -47,9 +55,11 @@ import os
 import subprocess
 import sys
 
-import xlrd
+from digerer_annexes_vm2027 import lire as lire_digeree
 
 BASE = '7c2ed1d'
+EMPREINTE_DF27 = 'f0f0eac440ebe18be9a2d21fe5514f06451e7a1572712cbbbb694459cf891e89'
+NORMALISATION_2026 = {'\u00a0': ' '}
 CHEMIN = 'chantier/referentiels/niches_sieges_20261004.tsv'
 MILLESIME = '2027 (prévision)'
 MARQUE_SANS_EFFET = 'sans effet budgétaire 2027'
@@ -80,17 +90,23 @@ OBJET_CHANGE = {
 COLONNES_LIBRES = ('montant_M_EUR', 'millesime_montant', 'observation', 'numero')
 
 
-def norm(v):
-    if isinstance(v, float):
-        return str(int(v)) if v == int(v) else repr(v)
-    return str(v).strip()
+def normaliser_2026(s):
+    for a, b in NORMALISATION_2026.items():
+        s = s.replace(a, b)
+    return s
 
 
-def lire_annexe(chemin):
-    """numéro → (libellé verbatim, colonne H), onglet « Chiffrages »."""
-    s = xlrd.open_workbook(chemin, logfile=open(os.devnull, 'w')).sheet_by_name('Chiffrages')
-    return {norm(s.cell_value(r, 3)): (s.cell_value(r, 4), norm(s.cell_value(r, 7)))
-            for r in range(4, s.nrows) if norm(s.cell_value(r, 3))}
+def lire_annexe_2027(chemin):
+    """numéro → (libellé verbatim, prévision 2027), depuis la table digérée versée."""
+    sha, lignes = lire_digeree(chemin)
+    if sha != EMPREINTE_DF27:
+        raise SystemExit(f'table digérée sur une autre pièce : sha256 {sha}, attendu {EMPREINTE_DF27}')
+    return {x['numero']: (x['libelle'], x['prevision_2027']) for x in lignes}
+
+
+def libelles_2026(base_texte):
+    """numéro 2026 → libellé de l'annexe 2026, tel que l'état d'avant rejeu le garde."""
+    return {x['numero']: (x['objet_en_clair'], None) for x in lire_tsv(base_texte)}
 
 
 def lire_tsv(texte):
@@ -119,7 +135,7 @@ def controle(texte, base_texte, a27, a26):
             if n in base or n not in a27:
                 anomalies.append(('rattachement introuvable', n, ancien))
                 continue
-            if a27[n][0] != a26[ancien][0]:
+            if normaliser_2026(a27[n][0]) != normaliser_2026(a26[ancien][0]):
                 anomalies.append(('rattachement sur libellé non identique', n, ancien))
         b = base.get(ancien)
         if b is None:
@@ -141,7 +157,8 @@ def controle(texte, base_texte, a27, a26):
         if n not in a27:
             if etat != (b['montant_M_EUR'], b['millesime_montant']) or obs != b['observation']:
                 anomalies.append(('restée 2026 mais modifiée', n))
-            rattachable = [k for k, v in a27.items() if k not in base and v[0] == a26[n][0]]
+            rattachable = [k for k, v in a27.items() if k not in base
+                           and normaliser_2026(v[0]) == normaliser_2026(a26[n][0])]
             if len(rattachable) == 1:
                 anomalies.append(('rattachable non rattachée', n, rattachable[0]))
             continue
@@ -181,12 +198,12 @@ def fautes(texte):
 
 
 def main(argv):
-    tsv, x27, x26 = argv[1:4]
+    tsv, x27 = argv[1:3]
     racine = subprocess.run(['git', '-C', os.path.dirname(os.path.abspath(tsv)), 'rev-parse', '--show-toplevel'],
                             capture_output=True, text=True, check=True).stdout.strip()
     base = subprocess.run(['git', '-C', racine, 'show', f'{BASE}:{CHEMIN}'],
                           capture_output=True, text=True, check=True).stdout
-    a27, a26 = lire_annexe(x27), lire_annexe(x26)
+    a27, a26 = lire_annexe_2027(x27), libelles_2026(base)
     texte = open(tsv, encoding='utf-8').read()
     anomalies, n = controle(texte, base, a27, a26)
     print(f'{n} lignes contrôlées, {len(anomalies)} anomalie(s)')

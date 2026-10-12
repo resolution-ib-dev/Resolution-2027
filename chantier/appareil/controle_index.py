@@ -43,9 +43,9 @@ HORODATE = re.compile(r'_\d{8}_v\d+(\.|$)')
 # `make coffre` et n'ont pas d'histoire.
 # `sources/plf` est un cache de conversion : les classeurs sectoriels sont des
 # pièces jointes du projet, et leur version convertie en xlsx ne s'y déclare pas.
-# `sources/plf2027` porte les annexes des voies et moyens qui contrôlent le rejeu
-# 2027 du référentiel des niches (Makefile, `REJEU_DF27` et `REJEU_DF26`) : pièces
-# jointes du fil, non versées, qui ne se déclarent pas.
+# `sources/plf2027` porte les classeurs des voies et moyens 2027 (Makefile,
+# `VM27_DF` et `VM27_RA`) : pièces jointes, non versées, qui ne se déclarent pas.
+# Leurs tables digérées, elles, sont au référentiel.
 # `droit` est le dépôt de droit, cloné par le fil pour lire le texte en
 # vigueur. Ses quinze fichiers vivent à leur dépôt et ne se déclarent pas
 # (`reference/depot_droit.md`) ; sans cette exclusion, suivre la procédure

@@ -9952,6 +9952,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/digerer_annexes_vm2027",
+   "chemin": "appareil/digerer_annexes_vm2027.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/digerer_annexes_vm2027.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/fil0_regroupement/clause",
    "chemin": "appareil/fil0_regroupement/clause.py",
    "rang": "appareil",
@@ -12234,6 +12248,34 @@
    "famille": "références externes"
   },
   {
+   "role": "fichier:referentiels/annexe_depenses_fiscales_2027",
+   "chemin": "referentiels/annexe_depenses_fiscales_2027.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/annexe_depenses_fiscales_2027.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/annexe_ressources_affectees_2027",
+   "chemin": "referentiels/annexe_ressources_affectees_2027.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/annexe_ressources_affectees_2027.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/articles_ouverts_plf2027",
    "chemin": "referentiels/articles_ouverts_plf2027.tsv",
    "rang": "referentiel",
@@ -12502,6 +12544,7 @@
    "appareil/couverture/pieces.py",
    "appareil/couverture/sources.py",
    "appareil/couverture/table.py",
+   "appareil/digerer_annexes_vm2027.py",
    "appareil/echantillon_epreuve.py",
    "appareil/empreintes.py",
    "appareil/epreuve_controle_blocs.py",
@@ -12727,6 +12770,8 @@
    "reference/LOLF_reference_20260507.html",
    "reference/gabarit_liste_articles.md",
    "referentiels/REF_doctrine.json",
+   "referentiels/annexe_depenses_fiscales_2027.tsv",
+   "referentiels/annexe_ressources_affectees_2027.tsv",
    "referentiels/articles_ouverts_plf2027.tsv",
    "referentiels/articles_ouverts_plfss2027.tsv",
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
@@ -12917,9 +12962,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 813,
-  "au_coffre": 755,
-  "au_depot": 294,
+  "artefacts": 816,
+  "au_coffre": 758,
+  "au_depot": 297,
   "derives": 268,
   "sources": 48,
   "non_restaurables": 16,
