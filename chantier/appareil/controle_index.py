@@ -43,6 +43,9 @@ HORODATE = re.compile(r'_\d{8}_v\d+(\.|$)')
 # `make coffre` et n'ont pas d'histoire.
 # `sources/plf` est un cache de conversion : les classeurs sectoriels sont des
 # pièces jointes du projet, et leur version convertie en xlsx ne s'y déclare pas.
+# `sources/plf2027` porte les annexes des voies et moyens qui contrôlent le rejeu
+# 2027 du référentiel des niches (Makefile, `REJEU_DF27` et `REJEU_DF26`) : pièces
+# jointes du fil, non versées, qui ne se déclarent pas.
 # `droit` est le dépôt de droit, cloné par le fil pour lire le texte en
 # vigueur. Ses quinze fichiers vivent à leur dépôt et ne se déclarent pas
 # (`reference/depot_droit.md`) ; sans cette exclusion, suivre la procédure
@@ -66,7 +69,7 @@ CONTENEUR = {'.cache', '.npm', '.npm-global', '.config', '.ssh', '.local',
              '.cargo', '.venv', '.ipython', '.gitconfig', '.wget-hsts',
              '.bash_history', '.python_history', '.profile', '.bashrc'}
 IGNORES = {'.git', '__pycache__', '.claude', 'node_modules', 'coffre',
-           'plf', 'plfss', 'droit', 'eval', 'machine', 'skills_maj',
+           'plf', 'plfss', 'plf2027', 'droit', 'eval', 'machine', 'skills_maj',
            'epreuve',
            # Le dépliage du paquet diffusable : un dérivé du pli versé, refait
            # par `make`, et que `.gitignore` exclut.

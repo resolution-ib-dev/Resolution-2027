@@ -272,6 +272,14 @@ $(SOCLE_BUD): $(APP)/socle_budgetaire.py $(PLF_TAXES) $(PLF_OPS) $(PLF_DF) \
 	  $(if $(PLF_CALC),--calculs ../$(PLF_CALC))
 endif
 
+# Le rejeu 2027 du référentiel des niches (20261012) se contrôle sur deux pièces
+# jointes, déposées à ces chemins et non versées (A-234, A-235) : l'annexe 1 au
+# tome II du PLF 2027 et l'annexe 3 au tome II du PLF 2026, en .xls d'origine.
+# Elles vivent hors de sources/plf/, dont le motif *epenses*iscales* nourrit le
+# socle budgétaire au seul millésime 2026.
+REJEU_DF27 := sources/plf2027/annexe1_tome2_depenses_fiscales_PLF2027.xls
+REJEU_DF26 := sources/plf2027/annexe3_tome2_depenses_fiscales_PLF2026.xls
+
 # L'appariement des opérateurs et le classeur de synthèse se tirent du socle.
 # Sans socle au dépôt, ils ne se refont pas : les classeurs sectoriels sont des
 # pièces jointes, et leur conversion n'est pas garantie. La garde porte sur le
@@ -559,6 +567,10 @@ controle:
 	@if [ -z "$(PLF_DF)" ]; then echo "classeur annexe 3 (dépenses fiscales) absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
 	@if [ -z "$(PLF_BG)" ]; then echo "classeur dépenses du budget général absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
 	@if [ -z "$(PLF_CALC)" ]; then echo "classeur synthèse des calculs absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
+	@if [ -f $(REJEU_DF27) ] && [ -f $(REJEU_DF26) ]; then \
+	  $(PY) $(APP)/controle_rejeu_annexes_2027.py $(REF)/niches_sieges_20261004.tsv \
+	  $(REJEU_DF27) $(REJEU_DF26) --fautes; \
+	 else echo "annexes des dépenses fiscales 2026 et 2027 absentes de sources/plf2027/ — rejeu 2027 non contrôlé" | tee -a $(SAUTEES); fi
 	@if [ -f $(NORME) ]; then cd $(APP) && $(PY) controle_norme.py \
 	  ../$(NORME) ../$(SOCLE_BUD) || true; \
 	 else echo "REF_norme absent du dépôt — non contrôlé" | tee -a $(SAUTEES); fi

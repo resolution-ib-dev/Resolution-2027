@@ -3,7 +3,7 @@
 > **PROJET DE TRAVAIL — NE PAS DÉPOSER EN L’ÉTAT.**
 > Rédaction du 4 octobre 2026 sur le texte initial du projet de loi de finances pour 2027, n° 3210 (Assemblée nationale, 17e législature), déposé le 1er octobre 2026, et sur le projet de loi de financement de la sécurité sociale pour 2027, n° 3211 (Assemblée nationale, 17e législature).
 > Droit en vigueur lu sur l’extrait LEGI du 1er octobre 2026, millésime 20261001.
-> Sièges et montants de la liste énumérée : `referentiels/niches_sieges_20261004.tsv`. Les sièges viennent de l’annexe 3 au tome II du PLF **2026**, version du 10 septembre 2026. Les montants du référentiel ont été rejoués le 12 octobre 2026 sur l’annexe 1 au tome II du PLF **2027** pour 426 lignes. 39 lignes restent au millésime 2026 ou 2024 (`methode/etats/REJEU_annexes_2027_20261012.md`). **Les montants cités au corps de la présente pièce restent ceux du PLF 2026 et ne sont pas rejoués.**
+> Sièges et montants de la liste énumérée : `referentiels/niches_sieges_20261004.tsv`. Les sièges viennent de l’annexe 3 au tome II du PLF **2026**, version du 10 septembre 2026. Les montants du référentiel ont été rejoués le 12 octobre 2026 sur l’annexe 1 au tome II du PLF **2027** pour 426 lignes. 39 lignes restent au millésime 2026 ou 2024 (`methode/etats/REJEU_annexes_2027_20261012.md`). **Les montants du § 3 sont propagés au 12 octobre 2026 ; ceux de la table [interne] des niches de taxe sur la valeur ajoutée et de l’exposé sommaire de l’article 1er restent ceux du PLF 2026 et ne sont pas rejoués.**
 > Aucun chiffre de l’annexe des voies et moyens n’est déposable : ces montants restent hors exposé et ne servent ici qu’à la tenue du registre de gage.
 
 **Reprise du 20261009 — regroupement des abrogations par bloc, outre-mer.** Porteur : fil 0 de la liasse de première partie, Cowork. Mandat : l’auteure, 20261009 — `methode/procedure_liasse_P1_20261009.md`, § 8, fil 0. **Appui** : `methode/procedure_liasse_P1_20261009.md` · `methode/etats/SUIVI_chantier_20261009.md` · `methode/fragments/arbitrages/20261009-outre-mer-sorti.md` · `methode/etats/T3.md` · `livrables/registre_colonnes_depot_2027.md` · `methode/regles_redactionnelles.md`, reprises du 20261007 (« abroger par bloc ») · `methode/appui_des_passes.md`, R-G, R-H, R-I, R8 · skills `resolution-chantier`, `redaction-legistique`, `confrontation`. Dépôt de droit cloné, millésime LEGI **20261007**, chaîne hiérarchique complète sur le code général des impôts et le code des impositions sur les biens et services. **Mesure d’entrée** : 85 rangs du III sur 396 portent au moins un article d’un bloc qui tombe en entier, dont 66 en totalité · 84 articles du III quater sur 181 et 62 du III quinquies sur 183 · 183 blocs entiers au total, le caractère entier contrôlé sur le dépôt de droit. **Mesure de sortie** : **III de 396 à 389 rangs** — 5 fusions de rangs (30°+31°, 35°+36°, 158°+159°+160°+161°, 209°+210°, 220°+221°, numérotation du 20261007), 68 rangs réécrits sur leur bloc, les autres rangs inchangés à l’octet · **III quater : 56 blocs pour 68 articles** · **III quinquies : 39 blocs pour 48 articles** · 13 blocs entiers laissés article par article, leurs articles relevant de deux divisions ou de deux dates · 1 bloc laissé article par article faute de numéro (« Disposition générale », article 1020) · IV recalé (B, C, C bis, E, F, quatrième phrase du C) et § 10.1 recalé · renvois de l’état courant repris au corps de la pièce · table de passage au § 11.
@@ -645,35 +645,35 @@ Les autres paragraphes de l’exposé sommaire de l’article 1er restent à éc
 > ¹ Projet de loi de finances pour 2026, évaluation des voies et moyens, tome II, annexe « Dépenses fiscales », prévisions 2026.
 ### [interne] — niches de taxe sur la valeur ajoutée : périmètre du 20261005 et parallèle avec les taxes sectorielles
 
-**Règle de l’auteure, 20261005** : seules les niches recensées au projet de loi de finances et inscrites au schéma de restitution CSG (régime « Oui ») vont à 20 % au 1er juillet 2027. **Corse** (ligne 730306, régime « Oui ») : dans la clause. **Outre-mer « Flux OM »** (lignes 710101 et 710107 : article L. 213-165, article L. 213-203, 2° de l’article L. 213-197) : hors clause, protégées par le 4° du II.
+**Règle de l’auteure, 20261005** : seules les niches recensées au projet de loi de finances et inscrites au schéma de restitution CSG (régime « Oui ») vont à 20 % au 1er juillet 2027. **Corse** (ligne 710201 (ex-730306), régime « Oui ») : dans la clause. **Outre-mer « Flux OM »** (lignes 710101 [objet changé en 2027, montant 2026] et 710107 [sans correspondance 2027] : article L. 213-165, article L. 213-203, 2° de l’article L. 213-197) : hors clause, protégées par le 4° du II.
 
 **Corrélation, non affectation** : arbitrage du 20261002 — « corrélation d’entrée en vigueur, jamais une affectation » ; « contemporanéité et parallélisme d’affichage, pas automatique ». Les secteurs sans taxe propre sont nommés comme tels à l’exposé.
 
-**Sources.** Niches : `annexe3.xls`, onglet `Chiffrages Résolution`, colonne I (réalisation 2024, M€) et colonne N (gage CSG, M€), ligne du tableur. Taxes : `referentiels/sort_prelevements_20260930.tsv`, colonne `rendement_2026_M` (numéro de ligne, en-tête comprise) ; `annexe2.xls`, onglet « taxes affectées », colonne V quand la pièce 4.2 la cite. Dates : pièces 4.2 A et 4.2 B dans leur version du lot U3 (20261005). Recalage V1 du 20261005.
+**Sources.** Niches : `annexe3.xls`, onglet `Chiffrages Résolution`, colonne I (réalisation 2024, M€) et colonne N (gage CSG, M€), ligne du tableur. **Ces montants de niche ne sont pas rejoués au 20261012** : la réalisation 2024 et le gage CSG sont des colonnes du classeur de 2026 sans équivalent à l’annexe 2027, et leur rejeu attend un arbitrage de base. Les numéros sont ceux de 2027, l’ancien entre parenthèses ; les lignes sans correspondance à l’annexe 2027 le disent. Taxes : `referentiels/sort_prelevements_20260930.tsv`, colonne `rendement_2026_M` (numéro de ligne, en-tête comprise) ; `annexe2.xls`, onglet « taxes affectées », colonne V quand la pièce 4.2 la cite. Dates : pièces 4.2 A et 4.2 B dans leur version du lot U3 (20261005). Recalage V1 du 20261005.
 
 | secteur | niche de TVA (n°, réalisation 2024 M€ / gage CSG M€, cellules) | taxes sectorielles supprimées (pièce, date) | rendement 2026, M€ (source) |
 |---|---|---|---|
-| spectacles, cinéma, zoos | 730231 : 315,0 / 329,4 (I398, N398) ; 730301 : 41,0 / 42,9 (I404, N404) | taxe sur les spectacles cinématographiques ; taxe sur les spectacles vivants (deux fractions) ; vidéogrammes ; production et distribution d’œuvres ; autorisation d’exploitant (4.2 B, 1er juillet 2027) | 147,8 (l. 80, V100) ; 10,3 + 59,9 (l. 81, V42 ; l. 82, V108) ; 3,0 (l. 83, V106) ; 7,7 (l. 69, V107) ; 0,0 (l. 84, V102) — total 228,8 |
+| spectacles, cinéma, zoos | 730231 : 315,0 / 329,4 (I398, N398) ; 730301 [sans correspondance 2027] : 41,0 / 42,9 (I404, N404) | taxe sur les spectacles cinématographiques ; taxe sur les spectacles vivants (deux fractions) ; vidéogrammes ; production et distribution d’œuvres ; autorisation d’exploitant (4.2 B, 1er juillet 2027) | 147,8 (l. 80, V100) ; 10,3 + 59,9 (l. 81, V42 ; l. 82, V108) ; 3,0 (l. 83, V106) ; 7,7 (l. 69, V107) ; 0,0 (l. 84, V102) — total 228,8 |
 | expositions et sites | 730230 : 225,0 / 235,3 (I397, N397) | taxe sur le visa d’exploitation (4.2 B, 1er juillet 2027) | 0,1 (l. 219, V104) |
 | manifestations sportives | 730224 : 81,0 / 84,7 (I393, N393) | taxe sur la cession des droits audiovisuels sportifs (4.2 B, 1er juillet 2027) | 44,3 (l. 68, V25) |
 | télévision | 730233 : 155,0 / 162,1 (I400, N400) | taxes sur les services de télévision et de vidéo à la demande ; taxes sur la publicité télévisuelle et à la demande (4.2 B) ; taxe sur les services de communications électroniques (4.2 A) — toutes dues pour la dernière fois au titre de 2027 | 251,9 (l. 78, V103) ; 151,4 (l. 76, V105) ; 241,5 (l. 72, V101) ; 43,1 (l. 71, V99) — total 687,9 ; l. 77 non publié |
-| bois de chauffage, horticulture | 730232 : 108,0 / 112,9 (I399, N399) | taxe sur les industries de l’ameublement et du bois (4.2 B, 1er juillet 2027) | 14,2 (l. 93, V158) |
-| agriculture | 730212 : 10,0 / 10,5 (I385, N385) ; 730302 : 4,0 / 4,2 (I405, N405) | taxe sur les industries des corps gras (4.2 B, 1er juillet 2027) | 0,8 (l. 97, V243) |
-| Corse : taux particuliers et transport | 730306 : 219,0 / 229,0 (I407, N407) ; 720201 : 3,0 / 3,1 (I377, N377) | majoration Corse de la taxe sur le transport aérien de passagers et taxe sur le transport maritime côtier (4.2 B, 1er juillet 2027) | 53,6 (l. 52, V113) |
-| déchets | 730226 : 78,0 / 81,6 (I394, N394) | taxe générale sur les activités polluantes (4.2 A, dernière année 2027) ; taxes sur les déchets mis en décharge et incinérés (4.2 B, 1er juillet 2027) | 1 356,0 (l. 111, ligne commune) ; 26,0 (l. 112, V128) |
-| presse | 730305 : 57,0 / 59,6 (I406, N406) | taxe sur la publicité imprimée (4.2 A, dernière année 2027) | 14,9 (l. 70) |
-| recharge électrique | 730234 : 4,0 / 4,2 (I401, N401) | taxes sur l’immatriculation des véhicules (4.2 B, 1er juillet 2027) | 44,0 (l. 61, V36) ; 2 277,5 (l. 62) ; 91,6 (l. 63, V239) ; 62,0 (l. 64, V9) — total 2 475,1 ; l. 65 et 66 non publiés |
-| solaire sur logement | 730236 : non chiffré (I403) | imposition forfaitaire sur les centrales photovoltaïques et hydrauliques (4.2 B, dernière année 2027) | non publié (l. 240) |
-| logement social et intermédiaire | 730210 : 560,0 / 585,5 (I384, N384) ; 730216 : 505,0 / 528,0 (I388, N388) ; 730222 : 225,0 / 235,3 (I391, N391) ; 730227 : nc (I395) ; 710110 : 21,0 / 22,0 (I373, N373) | cotisations des organismes HLM et SEM à la CGLLS ; cotisation à l’ANCOLS (4.2 B, dernière année 2027) | 590,2 (l. 231, V70) ; 38,0 (l. 229, V71) ; 11,3 (l. 230, V18) — total 639,5 |
-| travaux sur logement | 730213 : 2 195,0 / 2 295,0 (I386, N386) ; 730223 : 935,0 / 977,6 (I392, N392) | taxes sur les industries du béton, de la terre cuite et des roches (4.2 B, 1er juillet 2027) ; participation des employeurs à l’effort de construction (4.2 B, rémunérations versées à compter du 1er juillet 2027) | 13,2 (l. 98, V160) ; 2 025,5 (l. 141, V4 : 1 998,0) |
-| restauration, cantines | 730221 : 2 025,0 / 2 117,3 (I390, N390) ; 730207 : 173,0 / 180,9 (I382, N382) | contribution sur les eaux minérales (4.2 B, 1er juillet 2027) | 16,7 (l. 101, V127) |
-| hébergement, camping | 730205 : 695,0 / 726,7 (I380, N380) ; 730206 : 153,0 / 160,0 (I381, N381) | aucune aux pièces 4.2 A et B | — |
+| bois de chauffage, horticulture | 730232 [sans correspondance 2027] : 108,0 / 112,9 (I399, N399) | taxe sur les industries de l’ameublement et du bois (4.2 B, 1er juillet 2027) | 14,2 (l. 93, V158) |
+| agriculture | 730212 [sans correspondance 2027] : 10,0 / 10,5 (I385, N385) ; 730302 : 4,0 / 4,2 (I405, N405) | taxe sur les industries des corps gras (4.2 B, 1er juillet 2027) | 0,8 (l. 97, V243) |
+| Corse : taux particuliers et transport | 710201 (ex-730306) : 219,0 / 229,0 (I407, N407) ; 720201 [sans correspondance 2027] : 3,0 / 3,1 (I377, N377) | majoration Corse de la taxe sur le transport aérien de passagers et taxe sur le transport maritime côtier (4.2 B, 1er juillet 2027) | 53,6 (l. 52, V113) |
+| déchets | 730403 (ex-730226) : 78,0 / 81,6 (I394, N394) | taxe générale sur les activités polluantes (4.2 A, dernière année 2027) ; taxes sur les déchets mis en décharge et incinérés (4.2 B, 1er juillet 2027) | 1 356,0 (l. 111, ligne commune) ; 26,0 (l. 112, V128) |
+| presse | 730305 [sans correspondance 2027] : 57,0 / 59,6 (I406, N406) | taxe sur la publicité imprimée (4.2 A, dernière année 2027) | 14,9 (l. 70) |
+| recharge électrique | 730234 [sans correspondance 2027] : 4,0 / 4,2 (I401, N401) | taxes sur l’immatriculation des véhicules (4.2 B, 1er juillet 2027) | 44,0 (l. 61, V36) ; 2 277,5 (l. 62) ; 91,6 (l. 63, V239) ; 62,0 (l. 64, V9) — total 2 475,1 ; l. 65 et 66 non publiés |
+| solaire sur logement | 730503 (ex-730236) : non chiffré (I403) | imposition forfaitaire sur les centrales photovoltaïques et hydrauliques (4.2 B, dernière année 2027) | non publié (l. 240) |
+| logement social et intermédiaire | 730702 (ex-730210) : 560,0 / 585,5 (I384, N384) ; 730701 (ex-730216) : 505,0 / 528,0 (I388, N388) ; 730703 (ex-730222) : 225,0 / 235,3 (I391, N391) ; 730705 (ex-730227) : nc (I395) ; 730704 (ex-710110) : 21,0 / 22,0 (I373, N373) | cotisations des organismes HLM et SEM à la CGLLS ; cotisation à l’ANCOLS (4.2 B, dernière année 2027) | 590,2 (l. 231, V70) ; 38,0 (l. 229, V71) ; 11,3 (l. 230, V18) — total 639,5 |
+| travaux sur logement | 730213 [sans correspondance 2027] : 2 195,0 / 2 295,0 (I386, N386) ; 730223 [sans correspondance 2027] : 935,0 / 977,6 (I392, N392) | taxes sur les industries du béton, de la terre cuite et des roches (4.2 B, 1er juillet 2027) ; participation des employeurs à l’effort de construction (4.2 B, rémunérations versées à compter du 1er juillet 2027) | 13,2 (l. 98, V160) ; 2 025,5 (l. 141, V4 : 1 998,0) |
+| restauration, cantines | 730221 [sans correspondance 2027] : 2 025,0 / 2 117,3 (I390, N390) ; 730207 [sans correspondance 2027] : 173,0 / 180,9 (I382, N382) | contribution sur les eaux minérales (4.2 B, 1er juillet 2027) | 16,7 (l. 101, V127) |
+| hébergement, camping | 730205 [sans correspondance 2027] : 695,0 / 726,7 (I380, N380) ; 730206 [sans correspondance 2027] : 153,0 / 160,0 (I381, N381) | aucune aux pièces 4.2 A et B | — |
 | équitation | 730235 : 49,0 / 51,2 (I402, N402) | aucune | — |
-| thermalisme | 730208 : 11,0 / 11,5 (I383, N383) | aucune | — |
-| chaleur renouvelable | 730218 : 55,0 / 57,5 (I389, N389) | aucune aux pièces 4.2 A et B | — |
-| aide à la personne, garde d’enfants, insertion | 730214 : 78,0 / 81,6 (I387, N387) ; 720107 : 245,0 / 256,2 (I375, N375) ; 720108 : 63,0 / 65,9 (I376, N376) ; 720106 : 37,0 / 38,7 (I374, N374) | aucune aux pièces 4.2 A et B (la taxe de solidarité additionnelle relève de la loi de financement) | — |
-| objets d’art | 730228 : 68,0 / 71,1 (I396, N396) ; 720207 : 2,0 / 2,1 (I379, N379) | aucune aux pièces 4.2 A et B (taxe forfaitaire sur les objets précieux : pièce 4.2 D, sans montant au classeur) | — |
-| pêche | 720206 : 2,0 / 2,1 (I378, N378) | aucune | — |
+| thermalisme | 730208 [sans correspondance 2027] : 11,0 / 11,5 (I383, N383) | aucune | — |
+| chaleur renouvelable | 730218 [sans correspondance 2027] : 55,0 / 57,5 (I389, N389) | aucune aux pièces 4.2 A et B | — |
+| aide à la personne, garde d’enfants, insertion | 730101 (ex-730214) : 78,0 / 81,6 (I387, N387) ; 720107 [sans correspondance 2027] : 245,0 / 256,2 (I375, N375) ; 720108 [sans correspondance 2027] : 63,0 / 65,9 (I376, N376) ; 720106 [sans correspondance 2027] : 37,0 / 38,7 (I374, N374) | aucune aux pièces 4.2 A et B (la taxe de solidarité additionnelle relève de la loi de financement) | — |
+| objets d’art | 730228 : 68,0 / 71,1 (I396, N396) ; 720207 [sans correspondance 2027] : 2,0 / 2,1 (I379, N379) | aucune aux pièces 4.2 A et B (taxe forfaitaire sur les objets précieux : pièce 4.2 D, sans montant au classeur) | — |
+| pêche | 720206 [sans correspondance 2027] : 2,0 / 2,1 (I378, N378) | aucune | — |
 
 **Lecture.** Depuis le recalage V1 du 20261005, toutes les taxes de la table tombent le 1er juillet 2027 ou sont dues pour la dernière fois au titre de 2027 : aucune ne survit au-delà du 1er janvier 2028. L’exposé cite les secteurs à taxe propre, travaux sur logement compris. Aucun montant n’est porté à l’exposé.
 
@@ -742,32 +742,47 @@ Le relevé classait **27 adresses en confiance moyenne** : adresses exactes mai
 
 1. **L’abrogation se prend au niveau que l’annexe donne**, article ou subdivision, et elle n’est jamais remontée à l’article entier quand l’annexe vise une subdivision. Remonter abrogerait de la norme de référence — exactement ce que le II exclut. **Cette règle a commandé les deux corrections du § 3.5.**
 2. **L’abrogation d’une subdivision d’énumération ne renumérote pas** : la subdivision devient `(Abrogé)` et les rangs suivants gardent leur numéro. C’est ce qui permet au III de ne pas entrer en collision avec lui-même ni avec les renvois entrants. **La règle vaut pour le code abrogé, non pour l’énumération du III lui-même** : les rangs vides de la liste se suppriment et la liste se renumérote, dans la même passe que la reprise des renvois (observation 2.1 du 20261007).
-3. **Le III n’atteint que du législatif.** Quatre références ont été retirées des rangs où l’annexe les citait, chacune avec son motif : la mention `DM` du numéro 120127 et la mention `DA : DB5G2222` du numéro 160201 sont des renvois de doctrine sans siège légal ; l’article 46 quater-0 YZD de l’annexe III au code général des impôts (numéro 320131) et l’article 89 ter de la même annexe (numéro 730301) sont de niveau réglementaire, hors de portée d’un amendement. **Le second alinéa du VI les emporte sans les nommer.**
+3. **Le III n’atteint que du législatif.** Quatre références ont été retirées des rangs où l’annexe les citait, chacune avec son motif : la mention `DM` du numéro 120127 et la mention `DA : DB5G2222` du numéro 160201 sont des renvois de doctrine sans siège légal ; l’article 46 quater-0 YZD de l’annexe III au code général des impôts (numéro 320131) et l’article 89 ter de la même annexe (numéro 730301 [sans correspondance 2027]) sont de niveau réglementaire, hors de portée d’un amendement. **Le second alinéa du VI les emporte sans les nommer.**
 
 ### 3.3 Les quatre lignes sans siège légal — hors liste, nommées, emportées par la clause seule
 
 L’annexe ne leur donne qu’une référence de doctrine administrative. **Aucun siège ne leur a été inventé, et elles ne figurent à aucun rang du III.** Une abrogation nominative ne les atteint pas ; **seul le I les emporte**, et c’est précisément le cas d’emploi de la clause générale.
 
-| numéro | objet | référence de doctrine | montant, M€ |
+| numéro | objet | référence de doctrine | montant, M€ — prévision 2027 (prévision 2026 avant rejeu) |
 |---|---|---|---:|
-| 120142 | prise en charge directe de prestations d’action sociale (hospitalisation, hébergement d’ascendants ou d’enfants majeurs infirmes) | BOI-RSA-PENS-10-30 | 17 |
-| 150704 | gains d’opérations de bourse des clubs d’investissement | BOI-RPPM-PVBMI-10-30-10 | nc |
-| 160301 | déduction forfaitaire au titre du groupe III des médecins conventionnés | BOI-BNC-SECT-40 | 37 |
-| 160302 | déduction forfaitaire de 3 % des médecins conventionnés | BOI-BNC-SECT-40 | 73 |
+| 120142 | prise en charge directe de prestations d’action sociale (hospitalisation, hébergement d’ascendants ou d’enfants majeurs infirmes) | BOI-RSA-PENS-10-30 | 19 (17) |
+| 150704 | gains d’opérations de bourse des clubs d’investissement | BOI-RPPM-PVBMI-10-30-10 | nc (nc) |
+| 160301 | déduction forfaitaire au titre du groupe III des médecins conventionnés | BOI-BNC-SECT-40 | 39 (37) |
+| 160302 | déduction forfaitaire de 3 % des médecins conventionnés | BOI-BNC-SECT-40 | 82 (73) |
 
-### 3.4 Les montants — repris de l’annexe 2026 sans retouche, et le recalage déclaré
+### 3.4 Les montants — rejoués sur l’annexe 2027 le 12 octobre 2026, et ce qui reste au millésime 2026
 
-**Les montants sont ceux de l’annexe 3 au tome II du PLF 2026, version du 10 septembre 2026, et ils ne sont pas modifiés.** Ils se calculent sur les 461 lignes exploitables, non sur les rangs du III : une fusion de siège ne fait pas disparaître une dépense fiscale.
+**Les montants sont ceux du référentiel après son rejeu sur l’annexe 1 au tome II du PLF 2027** (onglet « Chiffrages », prévision 2027), selon les arbitrages de l’auteure du 20261012 (`methode/etats/REJEU_annexes_2027_20261012.md`). Ils se calculent sur les 461 lignes exploitables, non sur les rangs du III : une fusion de siège ne fait pas disparaître une dépense fiscale.
 
 | grandeur | lignes | montant, M€ |
 |---|---:|---:|
-| lignes portant un montant numérique, tous millésimes | 321 | **81 171** |
-| dont lignes en prévision 2026 | 302 | **79 486** |
-| dont fait générateur éteint ou borné avant 2027 | 104 | 4 859 |
+| lignes portant un montant numérique, tous millésimes | 330 | **83 224** |
+| dont prévision 2027 (dont 22 lignes sans effet budgétaire 2027, à 0) | 299 | **74 819** |
+| dont prévision 2026 — **objet changé à l’annexe 2027 sous le même numéro**, non rejouées | 10 | 750 |
+| dont prévision 2026 — **sans correspondance à l’annexe 2027** | 19 | 7 653 |
+| dont réalisation 2024 — **sans correspondance à l’annexe 2027** | 2 | 2 |
+| dont fait générateur éteint ou borné avant 2027 (échéances de l’annexe 2026) | 69 | 3 846 |
 
-**Contrôle de concordance passé.** Le référentiel porte 305 lignes en prévision 2026 pour **79 613 M€** ; les trois lignes de doctrine chiffrées écartées au § 3.3 en retirent 127, et le compte tombe sur 302 lignes et 79 486 M€, à l’unité. Ce total de 79 613 M€ est celui qu’avait relevé la rédaction du 20261002, **pièce aujourd’hui périmée et retirée** : le recoupement reste acquis et le chiffre est désormais porté ici, à ce paragraphe, qui en est le seul domicile.
+Les 13 lignes d’objet changé et les 26 lignes sans correspondance sont nommées à l’état REJEU, § 6.5 et § 6.6. Elles gardent leur montant 2026 et ne se lisent pas comme des prévisions 2027.
 
-**Le recalage sur l’annexe 2027 est remis à plus tard par décision de l’auteure, et il est déclaré ici.** L’annexe des voies et moyens du PLF 2027 n’est pas exploitée, et aucun montant n’est recalculé ni estimé. Le millésime des montants est donc en écart d’un exercice avec le véhicule, et **ces montants sont des majorants provisoires** — même réserve que celle déjà portée par le réservoir B au registre des sources de gage. Le recalage changera des montants ; **il ne changera aucun rang du III**, les sièges étant lus sur le droit et non sur le chiffrage.
+**Contrôle de concordance passé, 20261012.** Le référentiel porte 302 lignes en prévision 2027, pour **74 959 M€**. Les trois lignes de doctrine chiffrées écartées au § 3.3 en retirent 140 M€. Le compte tombe ainsi sur 299 lignes et 74 819 M€, à l’unité.
+
+Le même calcul, rejoué sur le référentiel d’avant rejeu (commit `7c2ed1d`), redonne les chiffres du 20261004 :
+- 321 lignes et 81 171 M€, tous millésimes ;
+- 302 lignes et 79 486 M€ en prévision 2026 ;
+- 305 lignes et 79 613 M€ au référentiel entier ;
+- 104 lignes et 4 859 M€ au fait générateur éteint.
+
+**Ce que le rejeu ne change pas.**
+- Aucun rang du III : les sièges sont lus sur le droit, non sur le chiffrage.
+- La colonne de fin du fait générateur reste celle de l’annexe 2026.
+- **Les montants de la table [interne] des niches de taxe sur la valeur ajoutée, au § 2, restent ceux du classeur de 2026** (réalisation 2024, gage CSG).
+- **L’exposé sommaire de l’article 1er cite encore 79,5 milliards d’euros en 2026 et plus de quatre cent soixante dépenses.** Sa régénération relève d’un fil à part.
 
 ### 3.5 Ce que la liste prouve, et ce qu’elle ne prouve pas
 

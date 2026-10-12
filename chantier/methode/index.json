@@ -12374,6 +12374,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:requirements",
+   "chemin": "requirements.txt",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/requirements.txt",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:sources/guide-public-du-budgetaire-2023",
    "chemin": "sources/guide-public-du-budgetaire-2023.pdf",
    "rang": "source",
@@ -12731,6 +12745,7 @@
    "referentiels/socle_texte_plf2027.json",
    "referentiels/socle_texte_plfss2027.json",
    "referentiels/socles_2027.sha256",
+   "requirements.txt",
    "sources/guide-public-du-budgetaire-2023.pdf",
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
@@ -12902,9 +12917,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 812,
-  "au_coffre": 754,
-  "au_depot": 293,
+  "artefacts": 813,
+  "au_coffre": 755,
+  "au_depot": 294,
   "derives": 268,
   "sources": 48,
   "non_restaurables": 16,
