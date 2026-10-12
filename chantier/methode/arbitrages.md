@@ -6214,7 +6214,7 @@ Question posée par l'auteure, mesurée, non tranchée.
 **Les annexes détaillées du PLF 2027 ne sont pas parues.** Deux blocs en
 dépendent entièrement : le mouvement des impositions affectées d'un exercice à
 l'autre, qui vit à l'annexe 2 du tome I, et les dépenses fiscales, qui vivent à
-l'annexe 3 du tome II.
+l'annexe 3 du tome II au millésime 2026 et à l'annexe 1 du tome II au millésime 2027.
 
 **Règle.** On ne suspend pas ces blocs : on s'appuie sur les annexes **2026**
 comme approchant, et on branche sur le corps du texte 2027.

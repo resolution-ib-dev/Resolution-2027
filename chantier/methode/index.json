@@ -9882,6 +9882,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/controle_rejeu_annexes_2027",
+   "chemin": "appareil/controle_rejeu_annexes_2027.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_rejeu_annexes_2027.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/couverture/nos_pieces",
    "chemin": "appareil/couverture/nos_pieces.py",
    "rang": "appareil",
@@ -10886,6 +10900,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/methode/etats/FIL1_verification_20261009.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
+   "role": "fichier:methode/etats/REJEU_annexes_2027_20261012",
+   "chemin": "methode/etats/REJEU_annexes_2027_20261012.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/etats/REJEU_annexes_2027_20261012.md",
    "releve": true,
    "famille": "méthode"
   },
@@ -12451,6 +12479,7 @@
    "appareil/controle_norme.py",
    "appareil/controle_notes.py",
    "appareil/controle_projection.py",
+   "appareil/controle_rejeu_annexes_2027.py",
    "appareil/controle_restauration.py",
    "appareil/controle_socle.py",
    "appareil/controle_sortie.py",
@@ -12588,6 +12617,7 @@
    "methode/etats/CHAINE_A_20261009.md",
    "methode/etats/FIL0_regroupement_20261009.md",
    "methode/etats/FIL1_verification_20261009.md",
+   "methode/etats/REJEU_annexes_2027_20261012.md",
    "methode/etats/SUIVI_chantier_20261009.md",
    "methode/fragments/a_trancher/20261001-lecture-plf2027.md",
    "methode/fragments/a_trancher/20261001-reprise-grille-lecture.md",
@@ -12872,9 +12902,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 810,
-  "au_coffre": 752,
-  "au_depot": 291,
+  "artefacts": 812,
+  "au_coffre": 754,
+  "au_depot": 293,
   "derives": 268,
   "sources": 48,
   "non_restaurables": 16,
