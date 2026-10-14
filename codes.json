@@ -349,6 +349,36 @@
       "cle": "loi n° 2025-1403 du 30 décembre 2025",
       "court": "loi2025_1403",
       "temoin": null
+    },
+    {
+      "cle": "code des procédures civiles d'exécution",
+      "court": "cpce",
+      "temoin": "L111-1"
+    },
+    {
+      "cle": "code du tourisme",
+      "court": "tourisme",
+      "temoin": "L111-1"
+    },
+    {
+      "cle": "code des pensions civiles et militaires de retraite",
+      "court": "pensions",
+      "temoin": "D3"
+    },
+    {
+      "cle": "loi n° 2000-321 du 12 avril 2000 relative aux droits des citoyens dans leurs relations avec les administrations",
+      "court": "dcra",
+      "temoin": "1"
+    },
+    {
+      "cle": "loi n° 2019-1100 du 30 octobre 2019",
+      "court": "cnm",
+      "temoin": "1"
+    },
+    {
+      "cle": "ordonnance n° 2025-1247 du 17 décembre 2025",
+      "court": "tva2025",
+      "temoin": "2"
     }
   ],
   "_temoin_non_epingle": "Un `temoin` à null veut dire : non épinglé, faute d'un article dont l'applicabilité soit prouvée. Le contrôle est alors DÉSACTIVÉ pour ce code, le manifeste le déclare en clair, et le journal l'annonce. À épingler au tour suivant depuis `exemples_applicables` du manifeste. Cas du code des douanes : l'article 2, retenu le 20260902 sur une date d'URL Légifrance prise à tort pour une preuve de vigueur, est abrogé depuis le 1er mai 2026 — et c'est le témoin qui l'a dit."
