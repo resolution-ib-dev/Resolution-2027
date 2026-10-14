@@ -100,7 +100,7 @@ Définition générale du produit alimentaire : L. 213-156 (non visé, s’appl
 
 ### Corse, outre-mer, médicaments remboursables — règle générale appliquée
 
-- **Corse** : les minorations et les taux propres à la Corse tombent à la clause générale au 1er juillet 2027 (ligne 730306, régime « Oui », reprise S3 du 20261005). L’alimentation en Corse est donc au taux réduit dès cette date, puis suit les marches 10 %, 15 %, 20 %.
+- **Corse** : les minorations et les taux propres à la Corse tombent à la clause générale au 1er juillet 2027 (ligne 710201, ex-730306, régime « Oui », reprise S3 du 20261005). L’alimentation en Corse est donc au taux réduit dès cette date, puis suit les marches 10 %, 15 %, 20 %.
 - **Outre-mer (Guadeloupe, Martinique, La Réunion, et tout territoire ultramarin)** : arbitrage de l’auteure du 20261005 (« on ne touche pas à l’outre-mer, en revanche la Corse oui »). La colonne « Niveau en Guadeloupe, en Martinique et à La Réunion » du tableau de L. 213-151 n’est pas modifiée ; la dérogation alimentaire du 2° du I ne vise que la métropole. Les taux restent inchangés.
 - **Médicaments remboursables** (L. 213-176, très réduit) : aucune contrainte juridique lue ; passent à 20 % au 1er juillet 2028. La hausse retombe en partie sur l’assurance maladie : effet à chiffrer en loi de financement, hors de cette pièce.
 

@@ -30,6 +30,17 @@ Le millésime du droit est celui de l'annexe, non celui du dépôt du PLF 2027.
 **Toute adresse reprise en disposition modificative se recontrôle au dépôt de droit au
 millésime du texte en discussion** avant emploi, conformément à la règle du corpus.
 
+**Rejeu du 20261012 — les montants passent à l'annexe 2027.** Les montants ont été
+rejoués sur l'annexe 1 au tome II du PLF 2027, qui est la même annexe sous la
+numérotation 2027. La lecture se fait à l'onglet « Chiffrages », colonne H
+« Prévision 2027 », avec une jointure sur le numéro.
+- Les sièges, les libellés et les autres colonnes restent ceux de l'annexe 2026.
+- Dix numéros ont disparu en 2027. Leurs lignes sont rattachées au numéro 2027 dont
+  le libellé est identique au verbatim strict. La colonne `numero` porte le numéro
+  2027, et l'observation porte l'ancien.
+
+Le détail est à `methode/etats/REJEU_annexes_2027_20261012.md`.
+
 ## 3. Colonnes
 
 `numero` · `categorie` (catégorie / sous-catégorie / sous-sous-catégorie) ·
@@ -60,6 +71,31 @@ millésime du texte en discussion** avant emploi, conformément à la règle du 
 | code général des collectivités territoriales | 1 |
 
 ## 6. Chiffrage, et le contrôle qu'il passe
+
+**État au 20261012, après le rejeu sur l'annexe 2027.** `millesime_montant` dit d'où
+vient le montant.
+
+| millésime | lignes | origine | chiffrées | somme, M€ | `nc` | `ε` |
+|---|---:|---|---:|---:|---:|---:|
+| 2027 (prévision) | 426 | annexe 1 au tome II du PLF 2027, colonne H | 302, dont 22 à 0 | 74 959 | 81 | 43 |
+| 2026 (prévision) | 34 | annexe 3 au tome II du PLF 2026, prévision 2026 | 29 | 8 403 | 3 | 2 |
+| 2024 (réalisation) | 5 | annexe 3 au tome II du PLF 2026, réalisation 2024 | 2 | 2 | 1 | 2 |
+
+La règle du rejeu tient en cinq cas, chacun issu des arbitrages de l'auteure du 20261012.
+
+- **Cas général** : la ligne prend la prévision 2027, lue au numéro.
+- **« - » à l'annexe 2027** : la ligne prend un montant de 0, avec la marque
+  « sans effet budgétaire 2027 » à l'observation. 22 lignes sont dans ce cas.
+- **Numéro absent de l'annexe 2027** : la ligne est rattachée au numéro dont le
+  libellé est identique au verbatim strict (10 lignes). Faute de quoi elle reste en
+  2026 (26 lignes).
+- **Objet changé sous le même numéro** : la ligne reste en 2026 et porte un
+  signalement à l'observation (13 lignes).
+
+**Contrôle passé** : `appareil/controle_rejeu_annexes_2027.py`. Il contrôle 465
+lignes et relève 0 anomalie. Les quatre fautes de son jeu de fautes sont détectées.
+
+**État au 20261004 — périmé quant aux montants, gardé pour l'historique.**
 
 324 lignes chiffrées, 141 non chiffrées — dont 91 marquées `nc` et 50 marquées `ε`.
 Le montant retenu est la prévision 2026 quand elle existe (434 lignes), à défaut la

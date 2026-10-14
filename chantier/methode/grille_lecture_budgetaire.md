@@ -67,7 +67,7 @@ identifiants se gardent donc tels quels, sans table de correspondance.
 
 | objet | clé | où elle vit |
 |---|---|---|
-| dépense fiscale | numéro à six chiffres — `100112`, `40101` | annexe 3 du tome II des Voies et moyens |
+| dépense fiscale | numéro à six chiffres — `100112`, `40101` | annexe 3 du tome II des Voies et moyens au millésime 2026, annexe 1 du tome II au millésime 2027 |
 | organisme affectataire | numéro SIREN | annexe 2 du tome I |
 | taxe affectée | code de la taxe, sous son affectataire | annexe 2 du tome I |
 | programme budgétaire | numéro à trois chiffres | annexe État, missions et programmes |

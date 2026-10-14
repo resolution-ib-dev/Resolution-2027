@@ -272,6 +272,21 @@ $(SOCLE_BUD): $(APP)/socle_budgetaire.py $(PLF_TAXES) $(PLF_OPS) $(PLF_DF) \
 	  $(if $(PLF_CALC),--calculs ../$(PLF_CALC))
 endif
 
+# Les annexes des voies et moyens 2027 — dépenses fiscales (tome II, annexe 1) et
+# ressources affectées (tome I, annexe 2) — sont des pièces jointes : elles ne se
+# versent pas (A-234, A-235). Ce qui se verse, c'est leur table plate digérée, qui
+# porte l'empreinte SHA-256 de son classeur. Le contrôle du rejeu 2027 du référentiel
+# des niches lit la table, jamais le classeur. Quand les classeurs sont déposés à ces
+# chemins, `make controle` prouve aussi la table contre eux, à l'octet, et
+# `make annexes_vm2027` la réécrit. Ils vivent hors de sources/plf/, dont le motif
+# *epenses*iscales* nourrit le socle budgétaire au seul millésime 2026.
+VM27_DF  := sources/plf2027/annexe1_tome2_depenses_fiscales_PLF2027.xls
+VM27_RA  := sources/plf2027/annexe2_tome1_ressources_affectees_PLF2027.xls
+
+.PHONY: annexes_vm2027
+annexes_vm2027:
+	$(PY) $(APP)/digerer_annexes_vm2027.py ecrire $(VM27_DF) $(VM27_RA)
+
 # L'appariement des opérateurs et le classeur de synthèse se tirent du socle.
 # Sans socle au dépôt, ils ne se refont pas : les classeurs sectoriels sont des
 # pièces jointes, et leur conversion n'est pas garantie. La garde porte sur le
@@ -559,6 +574,11 @@ controle:
 	@if [ -z "$(PLF_DF)" ]; then echo "classeur annexe 3 (dépenses fiscales) absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
 	@if [ -z "$(PLF_BG)" ]; then echo "classeur dépenses du budget général absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
 	@if [ -z "$(PLF_CALC)" ]; then echo "classeur synthèse des calculs absent de sources/plf/ — non intégré au socle budgétaire" | tee -a $(SAUTEES); fi
+	@$(PY) $(APP)/controle_rejeu_annexes_2027.py $(REF)/niches_sieges_20261004.tsv \
+	  $(REF)/annexe_depenses_fiscales_2027.tsv --fautes
+	@if [ -f $(VM27_DF) ] && [ -f $(VM27_RA) ]; then \
+	  $(PY) $(APP)/digerer_annexes_vm2027.py verifier $(VM27_DF) $(VM27_RA); \
+	 else echo "classeurs des voies et moyens 2027 absents de sources/plf2027/ — tables digérées non reprouvées contre leur pièce" | tee -a $(SAUTEES); fi
 	@if [ -f $(NORME) ]; then cd $(APP) && $(PY) controle_norme.py \
 	  ../$(NORME) ../$(SOCLE_BUD) || true; \
 	 else echo "REF_norme absent du dépôt — non contrôlé" | tee -a $(SAUTEES); fi
