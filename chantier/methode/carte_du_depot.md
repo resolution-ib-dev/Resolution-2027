@@ -103,15 +103,50 @@ le point de vérité pour tout ce qui ne figure pas dans la liste ci-dessous.
 
 ## Ce qui reste au coffre, et seulement cela
 
+État au 20261015 — **quatorze documents**.
+
 - `CLAUDE.md` — les instructions permanentes du chantier
 - `methode/adressage.md` — la grammaire des adresses et le geste d'ouverture
 - `methode/carte_du_depot.md` — la présente pièce
 - `methode/appui_des_passes.md` — les règles d'appui sur les sources
 - `methode/a_trancher.md` — ce qui attend un arbitrage de l'auteure
 - `methode/etats/SUIVI_chantier_20261009.md` — l'état d'avancement
-- `methode/passation_20261009.md` — la dernière passation
+- `methode/passation_20261009.md` — la passation du 9 octobre
+- `methode/passation_20261015.md` — **la dernière passation, qui fait foi**
+- `methode/registre_a_reconcilier_20261014.md` — ce qui reste à appliquer
+- `methode/fragments/arbitrages/20261009-tirage-p1-support-revue.md`
+- `livrables/suivi_trajectoire_20261015.md` — la vue consolidée des tablettes
+- `referentiels/commissions_jaune2026_20261014.tsv` et son lisez-moi
+- `referentiels/points_donnee_estimes_20261014.tsv`
+
+`methode/carte_des_domiciles_20261012.md` y figure encore et **est périmée** :
+elle est remplacée par la présente pièce et se supprime au prochain versement.
 
 Tout le reste se clone.
+
+---
+
+## Avant de produire : ouvrir la division, jamais chercher le mot
+
+**Septième garde-fou, inscrit à `CLAUDE.md` le 20261015.** Un `grep` sur un mot
+n'est pas une mesure. Neuf fautes en une séance en sont sorties, dont un classeur
+bâti sur un référentiel qui ne fait pas foi et une règle cherchée sous le mot
+« lisser » quand elle s'appelle **CP résiduel** et vit à la deuxième ligne de la
+première division du registre.
+
+**La table de ce qui fait foi, par matière, est à `CLAUDE.md`.** Elle se lit avant
+de produire et prime sur toute mémoire de fil. Les trois entrées qu'on oublie le
+plus :
+
+- **la règle de CP** — `livrables/registre_calcul_etatB.md`, § 1 pour la formule,
+  § 3 pour les huit régimes de résiduel. Elle ne touche que la caisse du § 15.
+- **le sort d'un prélèvement** — `referentiels/prelevements_forces_20260930.tsv`,
+  colonne `rang`, et **non** `sort_prelevements_20260930.tsv`.
+- **le vocabulaire des sorts** — onglet `Refonte fiscalité` de `Synthèse Calculs
+  Résolution`, qui est la doctrine de l'auteure et ne se discute pas.
+
+**Mesure et caisse ne se confondent jamais.** Un solde de trajectoire est en
+mesure ; il ignore le CP résiduel. Tout chiffre de solde se dit avec sa couche.
 
 ---
 

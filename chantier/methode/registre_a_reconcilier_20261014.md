@@ -1,8 +1,7 @@
-# Registre des reprises à réconcilier — 20261014
+# Registre des reprises à réconcilier — 20261014, actualisé le 20261015
 
 Tout ce qui a été décidé ou relevé depuis le 13 octobre et qui n'est pas encore
-appliqué aux pièces du corpus. Rien de ceci n'est fait : c'est la liste de ce
-qui reste à faire, et elle est exhaustive à la date du jour.
+appliqué aux pièces du corpus. Ce qui a été levé depuis porte sa date de levée.
 
 ---
 
@@ -32,6 +31,7 @@ qui reste à faire, et elle est exhaustive à la date du jour.
 | C8 | **Dissoudre l'association pour le soutien du théâtre privé laisse une taxe sans personne pour l'établir.** | dire qui recouvre, ou abroger la taxe |
 | C9 | **Abroger l'article L. 422-26-1 supprime la majoration et sa recette**, pas seulement son affectation. | arbitrage ouvert |
 | C10 | **Cinq rangs sans aucun rattachement trouvé** : portail de la publicité légale des entreprises, Écosystèmes forestiers, réseau addictions Guadeloupe, établissement d'aménagement universitaire d'Île-de-France, Centre international d'études pédagogiques. | restent en dénomination seule |
+| C11 | **Commissions du Jaune — deux valeurs corrigées le 20261015** : les instances supprimées sont **6 et non 7**, le septième rang étant la ligne d'en-tête du tableau des suppressions ; les rattachements sont **14 ministères et la Banque de France**, non quinze et la Banque de France. Les 317 instances en vigueur, les 32,5 M€, les 10 884 membres et les 3 417 réunions sont confirmés. | `referentiels/commissions_jaune2026_20261014_lisez_moi.md` — **corrigé** ; `livrables/suivi_trajectoire_20261015.md` § 8 — **corrigé** ; onglet `Commissions — synthèse` du classeur — **à reprendre** |
 
 ## 3. ARTE France — pourquoi le rang sort
 
@@ -57,10 +57,17 @@ amendement.
 - **La loi n° 86-1067 du 30 septembre 1986 n'est pas dans la base de droit.** Les
   quatre sièges d'audiovisuel sont de confiance moyenne, et le paragraphe de
   l'article 44 qui porte Radio France n'est pas établi.
-- **Trois articles du code des impositions sur les biens et services sont
-  abrogés en différé au 1er janvier 2027**, date même d'entrée en vigueur
-  retenue : `L. 452-27`, `L. 422-40` et `L. 422-15-1`. Une recodification tombe
-  à cette date exacte. C'est le risque le plus sérieux de la liasse.
+- **Deux articles du code des impositions sur les biens et services, et non
+  trois, sont abrogés en différé au 1er janvier 2027** — mesuré le 20261015 sur
+  la base de droit, millésime LEGI 20261013. Le V du P1 n° 26 vise `L. 452-27`,
+  `L. 422-26-1` et `L. 422-40`. Parmi eux, `L. 452-27` et `L. 422-40` sont à
+  l'état `ABROGE_DIFF` et cessent de s'appliquer le 1er janvier 2027, date même
+  d'entrée en vigueur retenue ; `L. 422-26-1` est en vigueur sans terme, et sa
+  version court depuis le 1er avril 2026. **`L. 422-15-1`, troisième article
+  nommé par la version antérieure du présent registre, est bien abrogé en
+  différé au 1er janvier 2027 mais la liasse ne le vise nulle part** : il ne
+  faisait pas partie du risque. Le risque demeure, réduit à deux articles : une
+  recodification tombe à la date exacte d'entrée en vigueur. **Arbitrage dû.**
 - L'article 11 de l'ordonnance n° 45-2339 du 13 octobre 1945, siège possible de
   l'affectation au théâtre privé, n'est pas lu.
 - L'identité des trois organismes du compte de commerce du commerce extérieur
@@ -68,6 +75,17 @@ amendement.
 - Les onze décisions héritées de l'analyse de robustesse ne sont pas rouvertes.
 - Les précédents historiques de dégagement des cadres et la prime de départ
   outre-mer ne sont pas identifiés.
+
+### Levé le 20261015
+
+- **L'accroche du P1 n° 26 est juste.** L'article 42 du texte déposé n° 3210
+  s'intitule « Dispositions relatives à l'affectation de ressources à des
+  tiers ». Les trois amendements qui s'y rattachent portent tous sur les taxes
+  affectées : le n° 24 modifie l'article, les n° 25 et 26 insèrent après lui.
+  La mention « à vérifier » tombe.
+- **L'écart d'adresse `L. 422-15-1` contre `L. 422-26-1` n'existait pas dans la
+  liasse** : elle cite `L. 422-26-1`, qui est la bonne adresse. L'écart était
+  dans le registre.
 
 ## 5. Question ouverte, posée en clair
 
@@ -86,16 +104,15 @@ Aucun rang n'est écrit tant que la réponse n'est pas donnée.
 
 ## 6. Dette de versement au dépôt
 
-Les quinze pièces du 13 octobre sont versées, la demande de fusion n° 23 est
-ouverte. Deux points restent :
+**Le versement du 15 octobre est fusionné** : demande n° 26, `main` à `6384cff`,
+vingt-trois pièces. Trois points restent :
 
-- **L'index n'est pas régénéré** : `make index` signalera les onze pièces
-  nouvelles comme non déclarées. À jouer après la fusion.
-- **Le dossier des classeurs d'annexes 2027 a été déplacé hors du dépôt** par le
-  fil de versement, la ligne du fichier d'exclusion qui le couvre vivant sur une
-  autre branche non fusionnée. **Il faut le redéposer avant de jouer un contrôle
-  ou la cible des annexes** sur la branche de propagation.
-
-Et tout ce qui a été écrit depuis le 13 octobre reste à verser : les six notes
-de consolidation des sièges, la table complémentaire, les analyses de
-robustesse, les quatre pièces ventilées, et ce registre.
+- **L'index n'est pas régénéré.** `make index` sort en échec avec trente-deux
+  anomalies bloquantes, dont vingt-trois sont exactement les pièces de ce
+  versement, non déclarées. `make reindex` les lève.
+- **Les cinq liasses du 12 octobre sont restées au dépôt** à côté des nouvelles,
+  sous leurs propres noms : `LIASSE_P1.md`, `LIASSE_P1_20261008.md`,
+  `LIASSE_P2_20261008.md`, `LIASSE_PLFSS_20261008.md`, `LIASSE_20261008.md`.
+  Tant qu'elles y sont, le dépôt porte deux vérités. À supprimer.
+- `methode/carte_des_domiciles_20261012.md` est périmée, remplacée par
+  `methode/carte_du_depot.md`. À supprimer du coffre et du dépôt.
