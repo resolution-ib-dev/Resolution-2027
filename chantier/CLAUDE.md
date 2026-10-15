@@ -48,6 +48,48 @@ Une borne fausse depuis un mois — « la grille des portes des lois de financem
 n'est pas relevée », close par A-336 le 20260902 — a traversé quatre documents et
 trois fils, dont un mandat qui demandait de relever une grille déjà relevée.
 
+**Un septième, inscrit le 20261015, et c'est celui qui a coûté le plus en un
+jour** : **avant de produire sur une matière, ouvrir la division qui la nomme,
+jamais chercher le mot.** Neuf fautes en une séance, toutes la même : la pièce
+qui faisait foi était à portée et n'a pas été ouverte. Un classeur bâti sur un
+référentiel qui ne fait pas foi ; un vocabulaire contraire à la doctrine de
+l'auteure, dont l'onglet était au projet ; un `grep` sur le mot « lisser » quand
+la règle s'appelle **CP résiduel** et vit à la deuxième ligne de la première
+division du registre ; une ventilation recalculée quand le registre la portait
+déjà. **Un `grep` sur un mot n'est pas une mesure.** Une matière se mesure en
+ouvrant sa division.
+
+**La table de ce qui fait foi, par matière.** Elle se lit avant de produire, et
+elle prime sur toute mémoire de fil.
+
+| matière | pièce | division |
+|---|---|---|
+| la chaîne de calcul, et **la règle de CP** | `livrables/registre_calcul_etatB.md` | § 1, et § 3 pour les huit régimes de résiduel |
+| la restitution, mois par mois | même pièce | § 2 |
+| les montants d'exercice, ligne par ligne | même pièce | § 4 |
+| la trajectoire 2027-2030 | même pièce | § 5 |
+| le flux mensuel par agent | même pièce | § 6 |
+| la contemporanéité | même pièce | § 7 |
+| mesure contre caisse | même pièce | § 15 |
+| le trimestriel par pan | même pièce | § 16 |
+| TVA et taxe sur les salaires | même pièce | § 17 |
+| le sort des prélèvements | `referentiels/prelevements_forces_20260930.tsv`, colonne `rang` | — |
+| le vocabulaire des sorts, et quelle ligne est maintenue | onglet `Refonte fiscalité` de `Synthèse Calculs Résolution` | — |
+| les commissions du Jaune | `referentiels/commissions_jaune2026_20261014.tsv` | — |
+| la vue d'ensemble, non la source | `livrables/suivi_trajectoire_20261015.md` | § 9 et § 10 |
+
+**Trois conséquences, chacune a coûté.**
+
+- **Mesure et caisse ne se confondent jamais.** Un solde de trajectoire est **en
+  mesure** : il ignore le CP résiduel, qui ne vit qu'au § 15 et sur la seule part
+  État de 2027. Tout chiffre de solde se dit avec sa couche, sans exception.
+- **Un référentiel qui porte ses défauts ne se publie pas**, même mis en forme.
+  Le tri des prélèvements en porte trois : 188 rangs sans rendement, 105 sièges
+  non établis, 420 rangs contre 438 au manifeste.
+- **Une pièce produite et non versée n'existe pas.** Le croisé mesure × agent ×
+  mois a été fabriqué dans un fil, jamais versé, et il est perdu. Ce qui sort
+  d'un fil passe au projet ou au dépôt le jour même.
+
 Quand l'auteur relève une erreur, elle se traite **avant** toute autre chose.
 Produire du neuf ne répare rien, cela recouvre.
 
