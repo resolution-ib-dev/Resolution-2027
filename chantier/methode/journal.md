@@ -6001,3 +6001,21 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - `appareil/generer_liasse_p2.py` écrit son en-tête et les noms de mission avec
   des apostrophes droites : rejouer le générateur défait la correction.
+
+## 20261016 — liasses-virgules-et-generateur
+
+## Ce qui a changé au corpus
+
+- Virgules devant une conjonction de coordination : 90 retirées (P1 69,
+  P2 18, PLFSS 3). 26 gardées : celles qui ferment une incise, les deux du
+  2° de l’amendement P2 n° 25 où elles séparent des critères alternatifs, et
+  celle d’une désignation citée. Les deux « , donc » de P1 sont reformulés
+  (« : elle relève donc de la première partie », « et donc identique pour
+  tous »).
+- `LIASSE_PLF_P2.md`, introduction : plus de nomenclature interne
+  (« chaîne du registre », « table A ») ni de « inchangés » ; elle dit ce que
+  font les 22 amendements de crédits.
+- `appareil/generer_liasse_p2.py` : apostrophes typographiques en sortie,
+  intitulé, bloc de tête et virgules alignés sur la liasse ; rejouer le
+  générateur ne défait plus les corrections.
+- Site : les six fichiers régénérés, noms sans date, renvoi des anciens noms.

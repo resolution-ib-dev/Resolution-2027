@@ -50,7 +50,11 @@ def piece(n, mission, lignes, eb, t2):
     cats = sorted({c for l in lignes for c in l[3]})
     dates = sorted({d for l in lignes for d in l[4]})
     o = []
-    o.append(f'## Amendement n° {n} — mission «{NB}{mission}{NB}»\n')
+    o.append(f'## Amendement n° {n} [Retirer les crédits que la présente loi interrompt, '
+             f'mission «{NB}{mission}{NB}»]\n')
+    o.append('AMENDEMENT\n')
+    o.append('présenté par\n')
+    o.append('----------\n')
     o.append('ARTICLE 58\n')
     o.append(f'Modifier ainsi les crédits de la mission «{NB}{mission}{NB}» :\n')
     o.append('| Programmes | AE + | AE − | CP + | CP − |')
@@ -76,15 +80,15 @@ def piece(n, mission, lignes, eb, t2):
              f'contractés, que la mesure ne remet pas en cause.\n')
     if dates == ['1er juil.']:
         o.append('La mesure prend effet au 1er juillet 2027 : elle atteint des personnes '
-                 'physiques, et la moitié de l’exercice leur est laissée.\n')
+                 'physiques et la moitié de l’exercice leur est laissée.\n')
     elif dates == ['1er janv.']:
         o.append('La mesure prend effet au 1er janvier 2027 : elle n’atteint que des '
-                 'personnes morales, et l’exercice est plein.\n')
+                 'personnes morales et l’exercice est plein.\n')
     else:
         o.append('La mesure prend effet au 1er janvier 2027 pour les personnes morales et '
                  'au 1er juillet 2027 pour les personnes physiques.\n')
     o.append('Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne '
-             'vote ni le barème, ni les bénéficiaires.\n')
+             'vote ni le barème ni les bénéficiaires.\n')
     o.append(f'¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à '
              f'l’article 58, mission «{NB}{mission}{NB}».\n')
     return '\n'.join(o), sae, scp
@@ -109,7 +113,9 @@ def main(X, sortie):
             f'registre sur la table A, plafonnés à l’état B 2027.\n',
             f'**Total : {eur(tae)} euros d’autorisations d’engagement et '
             f'{eur(tcp)} euros de crédits de paiement.**\n', '---\n']
-    open(sortie, 'w').write('\n'.join(tete) + '\n'.join(blocs))
+    # Apostrophes typographiques : les libellés de l’état B portent des apostrophes droites.
+    texte = ('\n'.join(tete) + '\n'.join(blocs)).replace("'", '’')
+    open(sortie, 'w').write(texte)
     print(f'{n} amendements écrits · AE {eur(tae)} · CP {eur(tcp)} → {sortie}')
 
 if __name__ == '__main__':
