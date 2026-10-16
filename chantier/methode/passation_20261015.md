@@ -120,10 +120,36 @@ Les trois axes — mesure, agent, temps — existent, **mais jamais ensemble**.
 | `Suivi dépenses — crédits et vecteurs` | oui | non | dates d'échéance | crédits et vecteurs |
 | `referentiels/table_passage_schema_prelevements_20260930.tsv` | 420 rangs | non | non | 24 lignes, 141 non rattachées |
 
-**Le croisé mesure × agent × mois n'existe nulle part.** Cherché par nom et par
-contenu dans tout le dépôt et dans les trois classeurs du projet. Il a été
-fabriqué dans un fil et jamais versé : il est perdu. **C'est la pièce à refaire**,
-et c'est l'étape 2 du plan.
+**Le croisé mesure × agent × mois a été refait le 20261015, et il va désormais
+jusqu'en 2030.** La pièce antérieure avait été fabriquée dans un fil et jamais
+versée : elle est perdue, celle-ci la remplace. Elle vit à
+`livrables/flux_par_agent_20261015.md` et au classeur
+`referentiels/Flux_par_agent_20261015.xlsx`, quatre onglets.
+
+**La clé d'incidence n'était écrite nulle part comme table.** Elle a été
+reconstruite depuis la colonne « acteur et incidence » du § 4 du registre, puis
+validée sur les quatre-vingt-seize valeurs mensuelles du § 6 — **écart maximal
+0,005 Md€** — et elle est maintenant inscrite en clair, agent par agent, à la
+pièce et à l'onglet « La clé d'incidence ». Les vingt-sept lignes sont couvertes
+une fois et une seule.
+
+| agent | 2027 | 2028 | 2029 | 2030 |
+|---|---:|---:|---:|---:|
+| Ménages actifs — transferts monétaires | +25,40 | +92,19 | +86,83 | +84,14 |
+| Ménages actifs — services en nature | −14,86 | −18,42 | −21,83 | −21,83 |
+| Ménages sans revenus d'activité | −2,43 | −3,60 | −3,60 | −3,60 |
+| Agents publics | −8,16 | −11,55 | −11,55 | −11,55 |
+| Entreprises | −13,91 | −25,32 | −35,43 | −35,43 |
+| Associations | −2,37 | −5,50 | −7,03 | −7,80 |
+| Opérateurs | −3,42 | −7,00 | −7,29 | −7,44 |
+| Collectivités | −3,20 | −6,40 | −9,60 | −9,60 |
+| **TOTAL** | **−22,95** | **+14,41** | **−9,51** | **−13,11** |
+
+Ce que la vue longue montre et que 2027 cachait : les ménages actifs reçoivent le
+plus en 2028 puis redescendent, parce que la restitution est plate quand les
+services en nature qu'ils perdent montent ; **les entreprises deviennent le
+premier contributeur**, de −13,91 à −35,43 ; les agents publics se stabilisent
+dès 2028 et n'évoluent plus.
 
 **Le trimestriel par agent 2027 est acquis** — agrégation des douze mois du § 6,
 sans paramètre neuf. Il se referme sur le trimestriel par pan à 0,06 près, et les
@@ -227,13 +253,12 @@ liasses périmées et la carte des domiciles, verser les pièces corrigées du 1
 octobre, puis `make reindex` et `make index`. Rien d'autre ne commence proprement
 tant que le dépôt porte deux vérités.
 
-**2. Construire l'axe agent 2027-2030.** *Fil Cowork.* C'est la pièce perdue, et
-elle se refait sans paramètre neuf : la clé d'incidence du § 6 du registre
-appliquée aux marches des §§ 5 et 16. Trois onglets — mesure × agent × trimestre,
-le cumulé par agent, la contemporanéité étendue aux quatre exercices. Contrôles :
-chaque trimestre se referme sur le trimestriel par pan, chaque année sur la
-trajectoire. **Dire ce qui est posé et non mesuré** : la clé 90 / 10 entre ménages
-actifs et agents publics.
+**2. Construire l'axe agent 2027-2030. — FAIT le 20261015.** La pièce est à
+`livrables/flux_par_agent_20261015.md`, le classeur à
+`referentiels/Flux_par_agent_20261015.xlsx`. Les trois contrôles passent. Ce qui
+reste ouvert dessus : la clé 90 / 10, posée et non mesurée, et la contemporanéité
+étendue aux quatre exercices, qui n'est pas écrite — le § 7 du registre ne couvre
+que 2027.
 
 **3. Lever les trois défauts du tri.** *Fil Cowork, parallélisable avec le 2* —
 fichiers différents, aucun conflit. 188 rendements, 105 sièges, l'écart de 18 au

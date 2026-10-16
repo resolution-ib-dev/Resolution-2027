@@ -2,7 +2,7 @@
 
 Résolution — octobre 2026
 
-Trente-quatre amendements de première partie, répartis en cinq lots. La numérotation va de 1 à 34, sans numéro vacant.
+Trente-quatre amendements de première partie, répartis en cinq lots. La numérotation va de 1 à 34.
 
 ---
 
