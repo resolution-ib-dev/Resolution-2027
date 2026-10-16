@@ -10582,6 +10582,20 @@
    "famille": "bac à sable"
   },
   {
+   "role": "fichier:livrables/flux_par_agent_20261015",
+   "chemin": "livrables/flux_par_agent_20261015.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/flux_par_agent_20261015.md",
+   "releve": true,
+   "famille": "bac à sable"
+  },
+  {
    "role": "fichier:livrables/index_mesures_plf2027",
    "chemin": "livrables/index_mesures_plf2027.md",
    "rang": "derive",
@@ -12640,6 +12654,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/Flux_par_agent_20261015",
+   "chemin": "referentiels/Flux_par_agent_20261015.xlsx",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/Flux_par_agent_20261015.xlsx",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/Tri_prelevements_20261015",
    "chemin": "referentiels/Tri_prelevements_20261015.xlsx",
    "rang": "referentiel",
@@ -13154,6 +13182,7 @@
    "livrables/fiche_reservoir_arguments_livre_20261003.md",
    "livrables/fiches_mesures_plf2027.md",
    "livrables/fiches_mesures_plfss_2027.md",
+   "livrables/flux_par_agent_20261015.md",
    "livrables/index_mesures_plf2027.md",
    "livrables/index_mesures_plfss_2027.md",
    "livrables/lecture_plf2027_lisible.md",
@@ -13301,6 +13330,7 @@
    "reference/LOLF_reference_20260507.html",
    "reference/gabarit_liste_articles.md",
    "referentiels/Commissions_R_20261014.xlsx",
+   "referentiels/Flux_par_agent_20261015.xlsx",
    "referentiels/REF_doctrine.json",
    "referentiels/Tri_prelevements_20261015.xlsx",
    "referentiels/annexe_depenses_fiscales_2027.tsv",
@@ -13502,10 +13532,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 852,
-  "au_coffre": 794,
-  "au_depot": 333,
-  "derives": 271,
+  "artefacts": 854,
+  "au_coffre": 796,
+  "au_depot": 335,
+  "derives": 272,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,
