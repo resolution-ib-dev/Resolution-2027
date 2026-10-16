@@ -1,6 +1,6 @@
 **Liasse d’amendements au projet de loi de financement de la sécurité sociale pour 2027**
 
-Résolution – octobre 2026
+Résolution — octobre 2026
 
 La présente liasse compte huit amendements.
 
