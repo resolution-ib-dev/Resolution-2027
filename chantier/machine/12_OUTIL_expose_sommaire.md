@@ -868,6 +868,10 @@ sa note. Les autres partent à la note des chiffres écartés.
 >   marge, un niveau de reconduction, une base de calcul. Il se lit avec
 >   l'estimation qu'il fonde et ne s'ajoute pas à elle, au même titre que la
 >   parenthèse de source (§ 5.4).
+>
+> **Une adresse de droit n'est pas un chiffre.** « L. 3262-1 », « article 81 »,
+> « 19° », « alinéa 3 » désignent, ils ne mesurent pas. Les compter a fait
+> tomber un exposé exact sur un plafond de deux.
 
 **Une règle tenue n'est pas une oreille ménagée.** Un exposé qui tient le plafond
 avec sept nombres en tout reste lourd à la lecture : la densité se relit, même

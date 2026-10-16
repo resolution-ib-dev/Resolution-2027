@@ -209,6 +209,40 @@ precedent          amendement voisin et son sort, s'il en existe un
 vecteur            article de code ou de loi modifié — colonne distincte,
                    qui ne se déduit jamais du rattachement (A-227)
 etat du vecteur    trouvé · à trouver · inexistant
+article ouvert     le numéro de l'article du véhicule qui ouvre déjà le
+                   vecteur, ou « aucun ». Se relève à la table des articles
+                   ouverts, et se confirme en rouvrant le dispositif de cet
+                   article.
+etat laissé        ce que cet article du véhicule fait au vecteur, en clair.
+                   « rien » s'écrit.
+```
+
+### Un vecteur ouvert change la pièce, et il change le A de la rédaction
+
+Quand le véhicule ouvre déjà l'article visé, deux choses suivent, et aucune
+n'est facultative.
+
+**La pièce s'adresse à cet article du véhicule**, et non à un article
+additionnel. Elle porte son numéro en tête et elle modifie son dispositif.
+
+**La rédaction se construit sur l'état que cet article laisse**, jamais sur le
+droit en vigueur seul. Le détail est au § 7 de `11_OUTIL_disposition_cible.md` :
+une même formule de coordination est fausse contre le droit en vigueur et juste
+contre l'état laissé par le véhicule.
+
+**Une ligne de la table des articles ouverts ne se croit pas sur parole.** Elle
+se confirme en cherchant l'adresse dans le dispositif de l'article annoncé, avec
+une frontière de mot : un relevé par correspondance de préfixe donne un article
+long pour un article court — `235 ter XB` lu comme `235 ter X`. **Dix-sept
+lignes sur quatre cent quarante-deux** de la table de la loi de finances 2027
+sont dans ce cas, et aucune des cent cinquante-cinq de la table de financement.
+**Une adresse non retrouvée dans le dispositif vaut « aucun ».**
+
+Le contrôle est mécanique, sur une adresse ou sur la table entière :
+
+```
+python3 44_SCRIPT_article_ouvert.py <socle.json> "<article du véhicule>" "<adresse>"
+python3 44_SCRIPT_article_ouvert.py <socle.json> --table <articles_ouverts.tsv>
 ```
 
 **Les deux dernières lignes sont hors du test et vivent avec lui.** Une fiche
