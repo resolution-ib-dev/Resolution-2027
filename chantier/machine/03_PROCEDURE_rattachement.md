@@ -233,10 +233,14 @@ contre l'état laissé par le véhicule.
 **Une ligne de la table des articles ouverts ne se croit pas sur parole.** Elle
 se confirme en cherchant l'adresse dans le dispositif de l'article annoncé, avec
 une frontière de mot : un relevé par correspondance de préfixe donne un article
-long pour un article court — `235 ter XB` lu comme `235 ter X`. **Dix-sept
-lignes sur quatre cent quarante-deux** de la table de la loi de finances 2027
-sont dans ce cas, et aucune des cent cinquante-cinq de la table de financement.
-**Une adresse non retrouvée dans le dispositif vaut « aucun ».**
+long pour un article court — `235 ter XB` lu comme `235 ter X`. Trois autres
+défauts ont été relevés sur la même table : un rang ordinal, « article 1er »
+relevé « 1 » ; un article nommé au voisinage d'un **autre texte** que celui que
+la ligne annonce ; et une adresse de code tronquée en un ou deux chiffres.
+**Une adresse non retrouvée, ou retrouvée loin de son texte, vaut « aucun ».**
+
+**Le compte de lignes fausses se mesure, il ne se recopie pas d'une notice.**
+Une borne écrite ici vieillit à la première régénération de la table.
 
 Le contrôle est mécanique, sur une adresse ou sur la table entière :
 
