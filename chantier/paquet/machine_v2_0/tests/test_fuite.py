@@ -50,11 +50,17 @@ LISIBLES = (".py", ".md", ".txt", ".tsv", ".json", ".csv", ".sha256")
 HORS_LECTURE = {"tests/test_fuite.py"}
 
 
+# La liste de motifs ne vit JAMAIS dans un dépôt. Le dépôt du projet est public :
+# y verser la liste de ce qu'on ne veut pas publier revient à publier la carte de
+# ce qu'il faut y chercher. Elle vit au coffre — les documents du projet, qui sont
+# privés — et un fil d'atelier la passe par $MOTIFS le temps du contrôle.
+# Versée au dépôt le 20261016, retirée le même jour.
+HORS_DEPOT = "motifs_locaux_atelier.txt"
+
+
 def _motifs():
     for c in (os.environ.get("MOTIFS"),
-              os.path.join(os.path.dirname(RACINE), "motifs_locaux_atelier.txt"),
-              os.path.join(os.path.dirname(RACINE),
-                           "appareil", "motifs_locaux_atelier.txt")):
+              os.path.join(os.path.dirname(RACINE), HORS_DEPOT)):
         if c and os.path.exists(c):
             lignes = [l.strip() for l in open(c, encoding="utf-8")]
             return c, [l for l in lignes if l and not l.startswith("#")]
@@ -71,6 +77,15 @@ def main():
         return j.rendre()
     j.passe("liste de motifs lue",
             f"{os.path.basename(chemin)}, {len(motifs)} motifs")
+
+    # Garde-fou : la liste ne se livre pas avec le paquet.
+    porte = [os.path.relpath(os.path.join(r, f), RACINE)
+             for r, d, fs in os.walk(RACINE) for f in fs if f == HORS_DEPOT]
+    if porte:
+        j.echoue("la liste de motifs n'est pas dans le paquet",
+                 " · ".join(porte) + " — à retirer, elle ne se publie pas")
+    else:
+        j.passe("la liste de motifs n'est pas dans le paquet")
 
     mauvais = [m for m in motifs if _invalide(m)]
     if mauvais:

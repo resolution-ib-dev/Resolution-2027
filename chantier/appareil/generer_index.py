@@ -1656,8 +1656,6 @@ ARTEFACTS = [
      ['machine à amendements'], []),
     ('paquet:machine_v1_2_a3:appareil:portes_ouvertes', 'paquet/machine_v1_2_a3/appareil/portes_ouvertes.py', 'derive', True, None,
      ['machine à amendements'], []),
-    ('paquet:machine_v1_2_a3:motifs_locaux_atelier', 'paquet/machine_v1_2_a3/motifs_locaux_atelier.txt', 'derive', True, None,
-     ['machine à amendements'], []),
     ('paquet:machine_v1_2_a3:procedures:contrat_chaine_amendement', 'paquet/machine_v1_2_a3/procedures/contrat_chaine_amendement.md', 'derive', True, None,
      ['machine à amendements'], []),
     ('paquet:machine_v1_2_a3:procedures:domaine_lfss_lo111_3', 'paquet/machine_v1_2_a3/procedures/domaine_lfss_LO111-3.md', 'derive', True, None,

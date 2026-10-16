@@ -145,7 +145,8 @@ n'avez pas fait produire votre première pièce.
 Le paquet est calé sur les textes **enregistrés à l'Assemblée nationale** :
 **PLF 2027 n° 3210** et **PLFSS 2027 n° 3211**. Les deux PDF ne sont pas joints —
 ils pèsent 3,7 Mo et se téléchargent chez l'Assemblée. Leurs empreintes SHA-256
-sont au relevé `referentiels/socles_2027.sha256`, et `test_socles` les vérifie.
+sont au relevé `referentiels/socles_2027.sha256`, joint au paquet, et `test_socles` les
+vérifie avant toute régénération.
 
 Pour un autre millésime : déposez les deux PDF sous `sources/`, rejouez
 `appareil/socle_texte_2027.py` avec son profil, puis `articles_ouverts_plf.py`.
@@ -168,7 +169,7 @@ deux grammaires d'adresse, donc deux points de vérité.
 
 | | |
 |---|---|
-| version | **2.0.1**, 20261016 |
+| version | **2.0.2**, 20261016 |
 | textes de référence | PLF 2027 n° 3210 · PLFSS 2027 n° 3211 |
 | base de droit | 70 textes |
 | manifeste | `MANIFESTE.md`, une ligne par pièce avec octets et SHA-256 |

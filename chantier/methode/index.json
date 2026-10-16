@@ -8873,21 +8873,6 @@
    "famille": "outillage"
   },
   {
-   "role": "paquet:machine_v1_2_a3:motifs_locaux_atelier",
-   "chemin": "paquet/machine_v1_2_a3/motifs_locaux_atelier.txt",
-   "rang": "derive",
-   "coffre": true,
-   "produit_par": null,
-   "consomme_par": [
-    "machine à amendements"
-   ],
-   "alias": [],
-   "restaurable": true,
-   "voie": "coffre",
-   "chemin_coffre": "paquet/machine_v1_2_a3/motifs_locaux_atelier.txt",
-   "famille": "outillage"
-  },
-  {
    "role": "paquet:machine_v1_2_a3:procedures:contrat_chaine_amendement",
    "chemin": "paquet/machine_v1_2_a3/procedures/contrat_chaine_amendement.md",
    "rang": "derive",
@@ -10100,20 +10085,6 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/appareil/index_mesures_2027.py",
-   "releve": true,
-   "famille": "outillage"
-  },
-  {
-   "role": "fichier:appareil/motifs_locaux_atelier",
-   "chemin": "appareil/motifs_locaux_atelier.txt",
-   "rang": "appareil",
-   "coffre": true,
-   "produit_par": null,
-   "consomme_par": [],
-   "alias": [],
-   "restaurable": true,
-   "voie": "depot",
-   "chemin_coffre": "chantier/appareil/motifs_locaux_atelier.txt",
    "releve": true,
    "famille": "outillage"
   },
@@ -12960,6 +12931,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:paquet/machine_v2_0/referentiels/socles_2027",
+   "chemin": "paquet/machine_v2_0/referentiels/socles_2027.sha256",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/paquet/machine_v2_0/referentiels/socles_2027.sha256",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:paquet/machine_v2_0/tests/jouer",
    "chemin": "paquet/machine_v2_0/tests/jouer.py",
    "rang": "derive",
@@ -13631,7 +13616,6 @@
    "appareil/lecture_en_creux.py",
    "appareil/leviers_collocs.py",
    "appareil/manifeste.py",
-   "appareil/motifs_locaux_atelier.txt",
    "appareil/nomenclature_lolf.py",
    "appareil/noter_eval_disposition.py",
    "appareil/noter_eval_expose.py",
@@ -13870,6 +13854,7 @@
    "paquet/machine_v2_0/referentiels/articles_ouverts_plfss2027.tsv",
    "paquet/machine_v2_0/referentiels/releves_transversaux_plf2027.tsv",
    "paquet/machine_v2_0/referentiels/releves_transversaux_plfss2027.tsv",
+   "paquet/machine_v2_0/referentiels/socles_2027.sha256",
    "paquet/machine_v2_0/tests/jouer.py",
    "paquet/machine_v2_0/tests/socle.py",
    "paquet/machine_v2_0/tests/test_docx.py",
@@ -14087,8 +14072,8 @@
   }
  ],
  "comptes": {
-  "artefacts": 891,
-  "au_coffre": 833,
+  "artefacts": 890,
+  "au_coffre": 832,
   "au_depot": 374,
   "derives": 308,
   "sources": 48,

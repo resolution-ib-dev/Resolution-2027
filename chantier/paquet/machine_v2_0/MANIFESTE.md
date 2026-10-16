@@ -10,9 +10,9 @@ confrontation de son propre manifeste, **3 reprises dans leur état avancé du d
 **Arbitrage tenu** : « une version à jour » commande l'état du dépôt. Les trois pièces que
 le dépôt porte dans un état postérieur à la v1.4 sont reprises dans cet état, non gelées.
 
-**Version** : 2.0.1, 20261016 — six fuites de l'atelier retirées, sixième module de test ajouté.
+**Version** : 2.0.2, 20261016 — relevé d'empreintes des socles joint, et la liste de motifs sortie du dépôt.
 
-**Paquet** : 38 fichiers, 456 905 octets.
+**Paquet** : 39 fichiers, 458 875 octets.
 
 ## Ce qui change par rapport à la v1.4
 
@@ -32,6 +32,21 @@ le dépôt porte dans un état postérieur à la v1.4 sont reprises dans cet ét
 - **`mini-lot/` reconstruit**, sa sortie attendue étant une pièce réelle de la liasse du
   dépôt 2027 et non un spécimen écrit pour le test.
 - **`LISEZ-MOI.md` reconstruit**, § 4 refait sur la chaîne de test.
+
+## La liste de motifs ne va pas au dépôt, et le dépôt est public
+
+Le dépôt du projet se clone **sans authentification** — mesuré le 20261016, aides
+d'identifiants désactivées. Y verser la liste des termes à ne pas publier revient à publier
+la carte de ce qu'il faut y chercher. La liste vit donc **au coffre**, que les fils
+d'atelier passent par `$MOTIFS` le temps du contrôle, et `tests/test_fuite.py` **échoue
+désormais si le paquet la porte**.
+
+Mesure de l'exposition, jouée avant de prescrire quoi que ce soit, et **consignée au
+coffre et non ici** : la quasi-totalité des termes de la liste figurent déjà au dépôt
+public, dans des pièces qui y sont volontairement. **Un seul n'apparaît nulle part
+ailleurs**, et il y est depuis le 20261003 par un paquet antérieur. Aucune réécriture
+d'historique n'est prescrite pour cela ; le retrait vaut pour l'avenir. Le détail de cette
+mesure nomme les termes, donc il ne s'écrit pas dans une pièce qui se livre.
 
 ## Le troisième défaut, et il vient du dépôt
 
@@ -54,7 +69,9 @@ partait au tiers.**
 ## Ce qui se déclare et n'empêche pas de livrer
 
 - les deux PDF des textes enregistrés ne sont pas joints — 3,7 Mo, téléchargeables chez
-  l'Assemblée, empreintes au relevé `referentiels/socles_2027.sha256` ;
+  l'Assemblée. **Leur relevé d'empreintes, `referentiels/socles_2027.sha256`, est désormais
+  joint** : le manifeste y renvoyait sans le livrer, et le contrôle des socles ne pouvait donc
+  pas s'exercer chez un tiers. Relevé par le fil code le 20261016 ;
 - `test_socles` sort donc en `ABSENT` sur une installation neuve, et `test_recette` sur
   son temps 2 ;
 - le relevé des portes du domaine des lois de financement **porte sa date de péremption**
@@ -68,7 +85,7 @@ partait au tiers.**
 
 | fichier | octets | sha256 |
 |---|---:|---|
-| `LISEZ-MOI.md` | 9291 | `d66801813ddf34d5` |
+| `LISEZ-MOI.md` | 9336 | `87d5638a5140d0e1` |
 | `appareil/controle_sortie.py` | 18998 | `b2a234400bdfff80` |
 | `appareil/generateur_liasse_docx.py` | 21389 | `9765fef527f67b90` |
 | `appareil/index_mesures_2027.py` | 6159 | `3065070b9568da98` |
@@ -98,11 +115,12 @@ partait au tiers.**
 | `referentiels/articles_ouverts_plfss2027.tsv` | 8928 | `5d771439ae814b52` |
 | `referentiels/releves_transversaux_plf2027.tsv` | 54192 | `a5a4c50322cea546` |
 | `referentiels/releves_transversaux_plfss2027.tsv` | 22884 | `73c8176a4a4615c0` |
+| `referentiels/socles_2027.sha256` | 1205 | `36769a75bd7ce2b3` |
 | `tests/jouer.py` | 3592 | `1f8357c7f39aff0f` |
 | `tests/socle.py` | 3010 | `140c5a7ac8480e58` |
 | `tests/test_docx.py` | 5579 | `54d163e7435ac326` |
 | `tests/test_droit.py` | 5963 | `27208b61c24af9d1` |
-| `tests/test_fuite.py` | 4664 | `a042b39bd1338c1c` |
+| `tests/test_fuite.py` | 5384 | `a66ff54e23e1133d` |
 | `tests/test_integrite.py` | 2682 | `b9b75266aea77f95` |
 | `tests/test_recette.py` | 7102 | `9c56bd5df014433b` |
 | `tests/test_socles.py` | 5165 | `ad62c2e912044494` |

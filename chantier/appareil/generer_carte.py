@@ -874,7 +874,6 @@ IMPLICITES = {
     'paquet/machine_v1_2_a3/appareil/controle_sortie.py': 'outillage',
     'paquet/machine_v1_2_a3/appareil/installer_droit.py': 'outillage',
     'paquet/machine_v1_2_a3/appareil/portes_ouvertes.py': 'outillage',
-    'paquet/machine_v1_2_a3/motifs_locaux_atelier.txt': 'outillage',
     'paquet/machine_v1_2_a3/procedures/contrat_chaine_amendement.md': 'outillage',
     'paquet/machine_v1_2_a3/procedures/domaine_lfss_LO111-3.md': 'outillage',
     'paquet/machine_v1_2_a3/procedures/gabarit_expose_sommaire.md': 'outillage',
@@ -922,6 +921,7 @@ IMPLICITES = {
     'paquet/machine_v2_0/tests/test_integrite.py': 'outillage',
     'paquet/machine_v2_0/tests/test_recette.py': 'outillage',
     'paquet/machine_v2_0/tests/test_socles.py': 'outillage',
+    'paquet/machine_v2_0/referentiels/socles_2027.sha256': 'outillage',
 }
 
 # La carte se lit en haut du projet, hors famille : elle est la vue, non une
