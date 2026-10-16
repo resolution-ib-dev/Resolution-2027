@@ -76,6 +76,51 @@ Aucun montant d'amendement ne s'écrit sans que sa ligne du § 4 soit renseigné
 | opérations engagées | titre 5 | 0,987 | **80 %**, soit 20 % récupérables |
 | devis et prestations signés | France Travail, D6 | arbitrage du 20261009 | **1/6 conservé en 2027** |
 
+### 3 bis. Le socle de crédits, et le relevé de l'égalité — inscrit le 20261016
+
+**Le CP se lit avant de se calculer.** Les crédits ouverts de l'exercice visé font foi à
+`referentiels/etatB_2027_bg.tsv` — état B du texte déposé n° 3210, **32 missions, 131 programmes,
+48 lignes « dont titre 2 »**, AE **632 868 821 128 €**, CP **615 139 875 333 €**, somme des
+missions égale à la somme des programmes et au total imprimé, sur les deux colonnes. Aucun montant
+d'amendement de crédits ne s'écrit avant cette lecture.
+
+**AE ≥ CP, et l'égalité se relève.** Hors titre 2 — où l'article 8 de la LOLF impose l'égalité —
+AE = CP n'est ni une faute ni un acquis : c'est une **régularité**, admise lorsque le ratio CP/AE
+de la **catégorie visée** vaut au moins 1,000 au PAP, à 0,005 près. Les ratios sont relevés à
+`referentiels/ratios_cp_ae_pap2026.tsv`, **643 lignes programme × titre × catégorie**, AE
+613 009 460 112 € et CP 588 258 885 886 €, contrôlés aux totaux. Un ratio inférieur refuse
+l'égalité : le CP suit alors le régime de résiduel du tableau ci-dessus.
+
+**Le resize.** Notre estimation se construit sur la ventilation du PAP, millésime 2026 ; l'état B
+est de 2027. Le recalage se fait par le rapport des agrégats du budget général :
+
+| millésime | AE | CP | CP/AE |
+|---|---:|---:|---:|
+| PAP 2026 | 613 009 460 112 | 588 258 885 886 | 0,95962 |
+| état B 2027 | 632 868 821 128 | 615 139 875 333 | 0,97199 |
+| | | **facteur** | **1,01288** |
+
+On ne substitue pas le ratio du programme à notre calcul : on recale notre calcul sur l'écart
+d'exercice.
+
+**Le relevé des neuf égalités de la liasse P2**, au 20261016 :
+
+| amendement | catégorie visée | ratio relevé | égalité |
+|---|---:|---:|---|
+| 1 Prévention des risques | 32 | 1,000 | admise |
+| 2 Urbanisme, territoires et amélioration de l'habitat | 61 | 1,022 | admise |
+| 3 Patrimoines | 32 | 1,000 | admise |
+| 8 Immigration et asile | 64 | 1,042 | admise |
+| 9 Création | 32 | 1,000 | admise |
+| 10 Politique de la ville | 64 | 1,000 | admise |
+| 11 Aide à l'accès au logement | 61 | 1,000 | admise |
+| **12 Service public de l'énergie** | **62** | **0,946** | **refusée** |
+| 13 Hébergement, parcours vers le logement | 64 | 1,008 | admise |
+
+**Conséquence portée** : le n° 12 passe de 600 000 000 € à **486 182 400 €** de CP — 600 000 000 ×
+0,80, résiduel de la catégorie 62, × 1,01288. Les huit autres égalités tiennent. Les douze
+amendements de titre 2 et les quatre déjà différenciés ne bougent pas.
+
 ---
 
 ## 4. Le tableau

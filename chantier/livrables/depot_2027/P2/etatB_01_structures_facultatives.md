@@ -100,6 +100,8 @@ La présente mesure concourt à la réduction des prélèvements pesant sur les 
 
 Crédits du texte déposé sur les programmes minorés (état B, article 58) : Prévention des risques : AE 2 225 328 812, CP 1 575 599 011.
 
+Catégories visées : Prévention des risques → 32. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
+
 **Six invariants de l’amendement de crédits.** (1) Une seule mission, nommée — tenu. (2) Tableau AE et CP à quatre colonnes — tenu. (3) Somme des majorations égale aux minorations — *sans objet* : minoration sèche, la mission baisse, geste licite de l’article 47. (4) Une ligne par programme, jamais une action — tenu. (5) Aucun abondement du titre 2 depuis un autre titre — tenu, le titre 2 n’est pas touché. (6) Motivation portée — tenu, exposé sommaire. **Aucun gage** — tenu, un amendement de crédits ne s’en porte pas.
 
 Contrôles : minoration ≤ crédits ouverts du programme, en AE comme en CP — tenu. CP minorés = AE minorés — tenu. Aucune ligne d’entrée en vigueur. Solde −300 000 000. Croisement budgétaire : aucune des coupes sans adresse n’est portée par cette pièce — tenu.
@@ -162,6 +164,8 @@ La mesure rend 1,3 milliard d’euros au budget général dès 2027 et concourt 
 
 Crédits du texte déposé sur les programmes minorés (état B, article 58) : Urbanisme, territoires et amélioration de l’habitat : AE 5 835 051 779, CP 1 793 940 209.
 
+Catégories visées : Urbanisme, territoires et amélioration de l’habitat → 61. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
+
 **Six invariants de l’amendement de crédits.** (1) Une seule mission, nommée — tenu. (2) Tableau AE et CP à quatre colonnes — tenu. (3) Somme des majorations égale aux minorations — *sans objet* : minoration sèche, la mission baisse, geste licite de l’article 47. (4) Une ligne par programme, jamais une action — tenu. (5) Aucun abondement du titre 2 depuis un autre titre — tenu, le titre 2 n’est pas touché. (6) Motivation portée — tenu, exposé sommaire. **Aucun gage** — tenu.
 
 Contrôles : minoration ≤ crédits ouverts du programme, en AE comme en CP — tenu. CP minorés = AE minorés — tenu. Aucune ligne d’entrée en vigueur. Une seule mission. Solde −1 300 000 000.
@@ -218,6 +222,8 @@ EXPOSÉ SOMMAIRE
 
 **Chaîne** (`livrables/registre_calcul_etatB.md`, § 1) : assiette × socle (nul) × **1/6** — date d’effet du 1er novembre 2027, deux douzièmes, arbitrage du 20261007 au soir — × résiduel de la catégorie 32 (nul, AE = CP). **Plafond** : 64 924 822 ≤ AE 1 089 308 081 et CP 1 116 268 560 ouverts au programme par l’état B 2027 — tenu. CP = AE — tenu.
 
+Catégories visées : Patrimoines → 32. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
+
 **Proxy, documenté** (skill `disposition-cible`, ordre : ligne chiffrée → proxy → estimation). Aucune ligne d’annexe ne nomme les établissements qui remplissent les trois conditions du I de la pièce P2-08 — patrimoine dont la conservation est l’objet principal, ressources propres majoritaires, aucune imposition affectée. **Source** : subventions pour charges de service public du programme « Patrimoines » ; **périmètre** : actions 1 et 3, monuments et musées ; **exclusions** : archéologie (L435, 95,6 M€), architecture (L415), archives (L425), dont l’objet n’est pas la conservation d’un patrimoine propre. **Le montant est un majorant** : un établissement des actions 1 et 3 qui ne passe pas le seuil de ressources propres en sort. **À vérifier avant dépôt** sur les comptes financiers du dernier exercice clos, qui sont publics.
 
 **Divergence de date, rendue en clair et non appliquée (R8).** La pièce `P2/2_1_etablissements_ressources_propres.md` (P2-08) porte encore la fin de la subvention au **1er janvier 2028** (II et IV), quand l’arbitrage du 20261007 au soir la fixe au **1er novembre 2027**. Reprise due à P2-08 : au II, « à compter du 1er novembre 2027 » ; au IV, « Le II entre en vigueur le 1er novembre 2027. » **Sans elle, la présente minoration retire un sixième d’une subvention que la loi verse encore** : P2-08 et 2.1-C se déposent ensemble.
@@ -273,6 +279,8 @@ EXPOSÉ SOMMAIRE
 | Recherche et enseignement supérieur | Formations supérieures et recherche universitaire | +1 291 920 000 | +998 000 000 | même ligne, réinscrite |
 
 **Chaîne** : assiette × socle (nul) × rythme 1 × fraction 12/12 — les appels à projets cessent au 1er janvier 2027 (`P2/n6_typologies_de_depenses.md`) — ; CP = min (CP ; AE) × (1 − résiduel de la catégorie 64, nul). **Plafond** : minoration du 172 ≤ AE 8 556 290 955 et CP 8 431 090 298 ouverts — tenu. CP ≤ AE — tenu. **Solde nul sur la mission** : article 47 de la loi organique, troisième invariant tenu par construction.
+
+Catégories visées : Recherches scientifiques et technologiques pluridisciplinaires → 32 · Formations supérieures et recherche universitaire → 32. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
 
 **Trois choix de la passe, inscrits et révocables.**
 

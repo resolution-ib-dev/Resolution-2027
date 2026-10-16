@@ -142,6 +142,8 @@ Les montants se reportent sur le projet annuel de performances de 2027, et aucun
 | B — 380 | L1112 à L1115, programme entier | **984 600 000** | **486 233 981** | AE : crédits ouverts 2027 du programme fermé, motif inchangé · CP = (190 000 000 + 189 045 308 + 267 000 000) × 0,75 + 2 000 000 × 0,85 |
 | C — 112 | L219/M219 FNADT section locale · L222/M222 section générale · L226/M226 prime d’aménagement et contrats | **209 611 521** | **143 180 727** | CP = (83 457 636 + 107 450 000 + 0) × 0,75 |
 
+Catégories visées : Concours spécifiques et administration → 63 · Fonds d’accélération de la transition écologique dans les territoires → 63 · Impulsion et coordination de la politique d’aménagement du territoire → 63. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
+
 **Contrôles, 8 sur 8 tenus** : CP ≤ AE sur chaque ligne ; minoration ≤ crédit ouvert 2027 — 119 : 1 842 105 969 ≤ 3 722 284 595 et 1 347 714 755 ≤ 3 602 082 392, la part de DGD à reporter ayant encore 1 880 178 626 € d’AE et 2 254 367 637 € de CP de marge · 122 : 85 300 000 ≤ 399 591 261 et 63 975 000 ≤ 389 159 647 · 380 : égalité admise en AE, 486 233 981 ≤ 981 383 852 · 112 : 209 611 521 + 663 063 (T2-9) ≤ 343 971 782 et 143 180 727 ≤ 319 784 139.
 
 **Ce qui change à la lecture.** Les CP minorés sont désormais **inférieurs aux AE** sur les quatre lignes : la clause de transition des exposés — « les crédits de paiement restent ouverts pour les engagements antérieurs » — **est vraie à nouveau**, à hauteur du résiduel. **L’écart n° 1 de la passe du 20261008 est levé.** L’écart n° 2 — « aucun n’est inscrit en dur ici » — demeure, et il est dû à la régénération en bloc des exposés.
