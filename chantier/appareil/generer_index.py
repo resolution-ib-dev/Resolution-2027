@@ -1674,10 +1674,6 @@ ARTEFACTS = [
      ['machine à amendements'], []),
     ('paquet:machine_v1_2_a3:procedures:test_rattachement', 'paquet/machine_v1_2_a3/procedures/test_rattachement.md', 'derive', True, None,
      ['machine à amendements'], []),
-    ('paquet:machine_v1_3:motifs_locaux_atelier', 'paquet/machine_v1_3/motifs_locaux_atelier.txt', 'derive', True, None,
-     ['machine à amendements'], []),
-    ('paquet:machine_v1_4:manifeste', 'paquet/machine_v1_4/MANIFESTE.md', 'derive', True, None,
-     ['machine à amendements'], []),
     # ------------------------------------------------------------------ racine
     ('instructions', 'CLAUDE.md', 'methode', True, None,
      ['ouverture de session'], ['CLAUDE.md']),

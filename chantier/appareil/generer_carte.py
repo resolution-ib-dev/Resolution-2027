@@ -883,8 +883,6 @@ IMPLICITES = {
     'paquet/machine_v1_2_a3/procedures/procedure_vecteurs.md': 'outillage',
     'paquet/machine_v1_2_a3/procedures/structure_ppl.md': 'outillage',
     'paquet/machine_v1_2_a3/procedures/test_rattachement.md': 'outillage',
-    'paquet/machine_v1_3/motifs_locaux_atelier.txt': 'outillage',
-    'paquet/machine_v1_4/MANIFESTE.md': 'outillage',
 }
 
 # La carte se lit en haut du projet, hors famille : elle est la vue, non une
