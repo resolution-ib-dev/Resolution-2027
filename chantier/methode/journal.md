@@ -5973,3 +5973,31 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - `appareil/generer_site.py` et `appareil/generer_carte.py` mentionnent encore
   `make publier` ; ils ne servent plus au site.
+
+## 20261016 — liasses-impression, suite du versement 20261016g
+
+## Ce qui a changé au corpus
+
+- `LIASSE_PLF_P2.md` :
+  - page de titre alignée sur P1 et PLFSS (« Liasse d’amendements au projet de
+    loi de finances pour 2027 — seconde partie », « Résolution — octobre
+    2026 ») ;
+  - intitulés sans « objet : », comme P1 et PLFSS ;
+  - bloc AMENDEMENT, présenté par, filet sur les 23 premiers amendements ;
+  - « APRÈS L’ARTICLE 58 » ;
+  - amendement n° 23 : lignes repliées rejointes, séparateur interne retiré.
+- `LIASSE_PLFSS.md` : « Résolution — octobre 2026 » (tiret long).
+- `appareil/liasse2docx.js` : le Word d’une liasse depuis son markdown, avec la
+  mise en forme des Word du 15 octobre — AMENDEMENT, présenté par, ARTICLE,
+  EXPOSÉ SOMMAIRE centrés en petites capitales, filet en tirets longs, ordinaux
+  et appels de note en exposant, gras rendu, insécables, montants insécables,
+  colonnes de crédits élargies. PDF par `soffice --convert-to pdf`, Garamond
+  rendue par EB Garamond. Il remplace `md2docx.js` pour les liasses : celui-ci
+  laissait le filet en tirets courts, les ordinaux sur la ligne, un gras en
+  astérisques (n° 23) et les intitulés de tête alignés à gauche.
+- Word et PDF des trois liasses publiés sur le site (Site-ETNP, page Données).
+
+## Ce qui reste ouvert
+
+- `appareil/generer_liasse_p2.py` écrit son en-tête et les noms de mission avec
+  des apostrophes droites : rejouer le générateur défait la correction.

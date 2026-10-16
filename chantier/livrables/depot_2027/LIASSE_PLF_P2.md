@@ -1,4 +1,6 @@
-**Liasse PLF 2027 — seconde partie**
+**Liasse d’amendements au projet de loi de finances pour 2027 — seconde partie**
+
+Résolution — octobre 2026
 
 **39 amendements**, numérotation continue de 1 à 39.
 
@@ -52,7 +54,13 @@ Les 22 premiers portent les crédits de l’état B, un par mission, tirés de l
 
 ---
 
-## Amendement n° 1 [objet : Retirer les crédits que la présente loi interrompt, mission « Cohésion des territoires »]
+## Amendement n° 1 [Retirer les crédits que la présente loi interrompt, mission « Cohésion des territoires »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -83,10 +91,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Cohésion des territoires ».
 
-
 ---
 
-## Amendement n° 2 [objet : Retirer les crédits que la présente loi interrompt, mission « Travail, emploi et administration des ministères sociaux »]
+## Amendement n° 2 [Retirer les crédits que la présente loi interrompt, mission « Travail, emploi et administration des ministères sociaux »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -115,10 +128,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Travail, emploi et administration des ministères sociaux ».
 
-
 ---
 
-## Amendement n° 3 [objet : Retirer les crédits que la présente loi interrompt, mission « Aide publique au développement »]
+## Amendement n° 3 [Retirer les crédits que la présente loi interrompt, mission « Aide publique au développement »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -146,10 +164,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Aide publique au développement ».
 
-
 ---
 
-## Amendement n° 4 [objet : Retirer les crédits que la présente loi interrompt, mission « Écologie, développement et mobilité durables »]
+## Amendement n° 4 [Retirer les crédits que la présente loi interrompt, mission « Écologie, développement et mobilité durables »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -181,10 +204,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Écologie, développement et mobilité durables ».
 
-
 ---
 
-## Amendement n° 5 [objet : Retirer les crédits que la présente loi interrompt, mission « Relations avec les collectivités territoriales »]
+## Amendement n° 5 [Retirer les crédits que la présente loi interrompt, mission « Relations avec les collectivités territoriales »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -211,10 +239,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Relations avec les collectivités territoriales ».
 
-
 ---
 
-## Amendement n° 6 [objet : Retirer les crédits que la présente loi interrompt, mission « Culture »]
+## Amendement n° 6 [Retirer les crédits que la présente loi interrompt, mission « Culture »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -243,10 +276,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Culture ».
 
-
 ---
 
-## Amendement n° 7 [objet : Retirer les crédits que la présente loi interrompt, mission « Sport, jeunesse et vie associative »]
+## Amendement n° 7 [Retirer les crédits que la présente loi interrompt, mission « Sport, jeunesse et vie associative »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -274,10 +312,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Sport, jeunesse et vie associative ».
 
-
 ---
 
-## Amendement n° 8 [objet : Retirer les crédits que la présente loi interrompt, mission « Immigration, asile et intégration »]
+## Amendement n° 8 [Retirer les crédits que la présente loi interrompt, mission « Immigration, asile et intégration »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -304,10 +347,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Immigration, asile et intégration ».
 
-
 ---
 
-## Amendement n° 9 [objet : Retirer les crédits que la présente loi interrompt, mission « Santé »]
+## Amendement n° 9 [Retirer les crédits que la présente loi interrompt, mission « Santé »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -334,10 +382,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Santé ».
 
-
 ---
 
-## Amendement n° 10 [objet : Retirer les crédits que la présente loi interrompt, mission « Recherche et enseignement supérieur »]
+## Amendement n° 10 [Retirer les crédits que la présente loi interrompt, mission « Recherche et enseignement supérieur »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -363,10 +416,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Recherche et enseignement supérieur ».
 
-
 ---
 
-## Amendement n° 11 [objet : Retirer les crédits que la présente loi interrompt, mission « Médias, livre et industries culturelles »]
+## Amendement n° 11 [Retirer les crédits que la présente loi interrompt, mission « Médias, livre et industries culturelles »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -393,10 +451,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Médias, livre et industries culturelles ».
 
-
 ---
 
-## Amendement n° 12 [objet : Retirer les crédits que la présente loi interrompt, mission « Économie »]
+## Amendement n° 12 [Retirer les crédits que la présente loi interrompt, mission « Économie »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -424,10 +487,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Économie ».
 
-
 ---
 
-## Amendement n° 13 [objet : Retirer les crédits que la présente loi interrompt, mission « Direction de l’action du Gouvernement »]
+## Amendement n° 13 [Retirer les crédits que la présente loi interrompt, mission « Direction de l’action du Gouvernement »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -454,10 +522,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Direction de l’action du Gouvernement ».
 
-
 ---
 
-## Amendement n° 14 [objet : Retirer les crédits que la présente loi interrompt, mission « Transformation et fonction publiques »]
+## Amendement n° 14 [Retirer les crédits que la présente loi interrompt, mission « Transformation et fonction publiques »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -484,10 +557,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Transformation et fonction publiques ».
 
-
 ---
 
-## Amendement n° 15 [objet : Retirer les crédits que la présente loi interrompt, mission « Enseignement scolaire »]
+## Amendement n° 15 [Retirer les crédits que la présente loi interrompt, mission « Enseignement scolaire »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -515,10 +593,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Enseignement scolaire ».
 
-
 ---
 
-## Amendement n° 16 [objet : Retirer les crédits que la présente loi interrompt, mission « Action extérieure de l’État »]
+## Amendement n° 16 [Retirer les crédits que la présente loi interrompt, mission « Action extérieure de l’État »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -545,10 +628,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Action extérieure de l’État ».
 
-
 ---
 
-## Amendement n° 17 [objet : Retirer les crédits que la présente loi interrompt, mission « Solidarité, insertion et égalité des chances »]
+## Amendement n° 17 [Retirer les crédits que la présente loi interrompt, mission « Solidarité, insertion et égalité des chances »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -576,10 +664,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Solidarité, insertion et égalité des chances ».
 
-
 ---
 
-## Amendement n° 18 [objet : Retirer les crédits que la présente loi interrompt, mission « Agriculture, alimentation, forêt et affaires rurales »]
+## Amendement n° 18 [Retirer les crédits que la présente loi interrompt, mission « Agriculture, alimentation, forêt et affaires rurales »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -605,10 +698,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Agriculture, alimentation, forêt et affaires rurales ».
 
-
 ---
 
-## Amendement n° 19 [objet : Retirer les crédits que la présente loi interrompt, mission « Administration générale et territoriale de l’État »]
+## Amendement n° 19 [Retirer les crédits que la présente loi interrompt, mission « Administration générale et territoriale de l’État »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -634,10 +732,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Administration générale et territoriale de l’État ».
 
-
 ---
 
-## Amendement n° 20 [objet : Retirer les crédits que la présente loi interrompt, mission « Sécurités »]
+## Amendement n° 20 [Retirer les crédits que la présente loi interrompt, mission « Sécurités »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -663,10 +766,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Sécurités ».
 
-
 ---
 
-## Amendement n° 21 [objet : Retirer les crédits que la présente loi interrompt, mission « Justice »]
+## Amendement n° 21 [Retirer les crédits que la présente loi interrompt, mission « Justice »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -692,10 +800,15 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Justice ».
 
-
 ---
 
-## Amendement n° 22 [objet : Retirer les crédits que la présente loi interrompt, mission « Conseil et contrôle de l’État »]
+## Amendement n° 22 [Retirer les crédits que la présente loi interrompt, mission « Conseil et contrôle de l’État »]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE 58
 
@@ -722,73 +835,45 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Conseil et contrôle de l’État ».
 
-
 ---
 
-## Amendement n° 23 [objet : Supprimer la contribution de l’assurance chômage à France Travail]
+## Amendement n° 23 [Supprimer la contribution de l’assurance chômage à France Travail]
+
+AMENDEMENT
+
+présenté par
+
+----------
 
 ARTICLE ADDITIONNEL
 
-Après l’article 58, insérer l’article suivant :
+APRÈS L’ARTICLE 58, insérer l’article suivant :
 
 I. – L’article L. 5422-24 du code du travail est abrogé.
 
-II. – Au cinquième alinéa de l’article L. 5312-7 du même code, les mots : « et une
-contribution de l’organisme gestionnaire du régime d’assurance chômage dans les
-conditions prévues à l’article L. 5422-24 » sont supprimés.
+II. – Au cinquième alinéa de l’article L. 5312-7 du même code, les mots : « et une contribution de l’organisme gestionnaire du régime d’assurance chômage dans les conditions prévues à l’article L. 5422-24 » sont supprimés.
 
-III. – Au dernier alinéa du même article L. 5312-7, les mots : « La contribution de
-l’État et la contribution de l’organisme gestionnaire du régime d’assurance chômage
-sont fixées » sont remplacés par les mots : « La contribution de l’État est fixée ».
+III. – Au dernier alinéa du même article L. 5312-7, les mots : « La contribution de l’État et la contribution de l’organisme gestionnaire du régime d’assurance chômage sont fixées » sont remplacés par les mots : « La contribution de l’État est fixée ».
 
 IV. – Le présent article entre en vigueur le 1er janvier 2027.
 
----
-
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime la contribution que l’assurance chômage verse à France
-Travail, en conséquence de l’extinction des dépenses qu’elle finance.
+Cet amendement supprime la contribution que l’assurance chômage verse à France Travail, en conséquence de l’extinction des dépenses qu’elle finance.
 
-L’article L. 5312-7 du code du travail organise le budget de France Travail en
-quatre sections non fongibles. Les deux premières portent les allocations :
-l’assurance chômage pour le compte du régime, la solidarité pour le compte de
-l’État. **Le présent amendement ne les touche pas.** Les deux autres — intervention,
-fonctionnement et investissement — portent le placement, l’orientation, l’insertion,
-la formation, l’accompagnement et les charges de l’opérateur. Ce sont elles que la
-présente loi interrompt, et elles seules.
+L’article L. 5312-7 du code du travail organise le budget de France Travail en quatre sections non fongibles. Les deux premières portent les allocations : l’assurance chômage pour le compte du régime, la solidarité pour le compte de l’État. **Le présent amendement ne les touche pas.** Les deux autres — intervention, fonctionnement et investissement — portent le placement, l’orientation, l’insertion, la formation, l’accompagnement et les charges de l’opérateur. Ce sont elles que la présente loi interrompt, et elles seules.
 
-Ces deux sections sont financées, dit le même article, par une contribution de
-l’État et par une contribution de l’assurance chômage, « fixées à un niveau
-compatible avec la poursuite des activités de l’institution ». L’article L. 5422-24
-oblige le régime à y consacrer au moins 10 % de ses ressources, sans que le
-Parlement ni le Gouvernement n’en décident. **Quand la dépense s’éteint, le
-financement qui lui était affecté n’a plus d’objet** : le maintenir reviendrait à
-prélever sur les employeurs et les salariés une ressource sans emploi.
+Ces deux sections sont financées, dit le même article, par une contribution de l’État et par une contribution de l’assurance chômage, « fixées à un niveau compatible avec la poursuite des activités de l’institution ». L’article L. 5422-24 oblige le régime à y consacrer au moins 10 % de ses ressources, sans que le Parlement ni le Gouvernement n’en décident. **Quand la dépense s’éteint, le financement qui lui était affecté n’a plus d’objet** : le maintenir reviendrait à prélever sur les employeurs et les salariés une ressource sans emploi.
 
-L’incidence sur le budget de l’État est directe et se lit au texte déposé. Les deux
-contributions couvrent le même besoin et se déterminent ensemble : laisser celle de
-l’assurance chômage en place, c’est maintenir une activité que la loi interrompt et
-la supprimer sans supprimer la dépense ferait peser l’écart sur la contribution de
-l’État, ouverte à 1 162 900 000 euros au programme « Accès et retour à l’emploi »
-(état B)¹. L’amendement de crédits qui minore ce programme et le présent article
-sont les deux moitiés d’une même mesure, et aucun ne vaut seul.
+L’incidence sur le budget de l’État est directe et se lit au texte déposé. Les deux contributions couvrent le même besoin et se déterminent ensemble : laisser celle de l’assurance chômage en place, c’est maintenir une activité que la loi interrompt et la supprimer sans supprimer la dépense ferait peser l’écart sur la contribution de l’État, ouverte à 1 162 900 000 euros au programme « Accès et retour à l’emploi » (état B)¹. L’amendement de crédits qui minore ce programme et le présent article sont les deux moitiés d’une même mesure, et aucun ne vaut seul.
 
-L’économie atteint 1 460 000 000 euros en 2027, dont 1 170 000 000 euros hors budget
-de l’État, et 5 255 000 000 euros en régime. Dit simplement : les cotisations des
-employeurs et des salariés cessent de financer un service que la loi arrête.
+L’économie atteint 1 460 000 000 euros en 2027, dont 1 170 000 000 euros hors budget de l’État, et 5 255 000 000 euros en régime. Dit simplement : les cotisations des employeurs et des salariés cessent de financer un service que la loi arrête.
 
-¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58,
-mission « Travail, emploi et administration des ministères sociaux », programme
-« Accès et retour à l’emploi ».
+¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Travail, emploi et administration des ministères sociaux », programme « Accès et retour à l’emploi ».
 
 ---
 
-
-
----
-
-## Amendement n° 24 [objet : Retirer du plafond les emplois des missions que l’État abandonne]
+## Amendement n° 24 [Retirer du plafond les emplois des missions que l’État abandonne]
 
 AMENDEMENT
 
@@ -843,10 +928,9 @@ L’exercice 2028 portera l’effet entier, soit 61 400 emplois. La baisse des 
 
 ---
 
-
 ---
 
-## Amendement n° 25 [objet : Agences de l’État : les structures facultatives fermées, les missions régaliennes rendues aux ministères]
+## Amendement n° 25 [Agences de l’État : les structures facultatives fermées, les missions régaliennes rendues aux ministères]
 
 AMENDEMENT
 
@@ -1266,10 +1350,9 @@ Cet amendement n’a pas d’effet de recette propre : il ouvre l’économie q
 
 ---
 
-
 ---
 
-## Amendement n° 26 [objet : Organiser la sortie des agents dont l’emploi est supprimé]
+## Amendement n° 26 [Organiser la sortie des agents dont l’emploi est supprimé]
 
 AMENDEMENT
 
@@ -1447,10 +1530,9 @@ Le code a pourtant écrit la sortie. Le licenciement est ouvert, dans la fonctio
 
 ---
 
-
 ---
 
-## Amendement n° 27 [objet : Plus aucune dépense nouvelle de l’État sans une signature qui en réponde]
+## Amendement n° 27 [Plus aucune dépense nouvelle de l’État sans une signature qui en réponde]
 
 AMENDEMENT
 
@@ -1506,10 +1588,9 @@ L’effet sur l’exercice tient à ce qui ne sera pas engagé. Il n’est pas c
 
 ---
 
-
 ---
 
-## Amendement n° 28 [objet : Retirer l’automaticité des indexations et rendre la revalorisation au vote]
+## Amendement n° 28 [Retirer l’automaticité des indexations et rendre la revalorisation au vote]
 
 AMENDEMENT
 
@@ -1565,10 +1646,9 @@ Ce qui est retenu ne disparaît pas. Chaque année, le Gouvernement publie les m
 
 ---
 
-
 ---
 
-## Amendement n° 29 [objet : Plus un logement social neuf financé par l’État]
+## Amendement n° 29 [Plus un logement social neuf financé par l’État]
 
 AMENDEMENT
 
@@ -1604,10 +1684,9 @@ C’est le premier temps de la sortie du logement social, celui qu’une loi de 
 
 ---
 
-
 ---
 
-## Amendement n° 30 [objet : L’État cesse d’acheter, il valorise et il vend]
+## Amendement n° 30 [L’État cesse d’acheter, il valorise et il vend]
 
 AMENDEMENT
 
@@ -1645,10 +1724,9 @@ L’effet sur l’exercice tient aux apports qui ne seront pas décidés et les 
 
 ---
 
-
 ---
 
-## Amendement n° 31 [objet : Cesser de subventionner, cesser de choisir sur dossier]
+## Amendement n° 31 [Cesser de subventionner, cesser de choisir sur dossier]
 
 AMENDEMENT
 
@@ -1702,10 +1780,9 @@ Ce qui paie une prise en charge, une prestation ou un marché public reste dû. 
 
 ---
 
-
 ---
 
-## Amendement n° 32 [objet : Éteindre l’aide personnelle au logement au rythme des droits en cours]
+## Amendement n° 32 [Éteindre l’aide personnelle au logement au rythme des droits en cours]
 
 AMENDEMENT
 
@@ -1751,10 +1828,9 @@ L’économie de l’exercice 2027 est de 5,4 milliards d’euros, économie de 
 
 ---
 
-
 ---
 
-## Amendement n° 33 [objet : Rendre l’hébergement d’urgence à l’urgence]
+## Amendement n° 33 [Rendre l’hébergement d’urgence à l’urgence]
 
 AMENDEMENT
 
@@ -1794,10 +1870,9 @@ Le recentrage prend effet au 1er janvier 2027 et entre dans la grande restitutio
 
 ---
 
-
 ---
 
-## Amendement n° 34 [objet : Mettre fin au chèque énergie plutôt que d’en élargir le recours]
+## Amendement n° 34 [Mettre fin au chèque énergie plutôt que d’en élargir le recours]
 
 AMENDEMENT
 
@@ -1831,10 +1906,9 @@ La suppression prend effet au 1er janvier 2027, de sorte que la campagne d’ém
 
 ---
 
-
 ---
 
-## Amendement n° 35 [objet : Supprimer les subventions que l’État distribue aux collectivités sur dossier]
+## Amendement n° 35 [Supprimer les subventions que l’État distribue aux collectivités sur dossier]
 
 AMENDEMENT
 
@@ -1874,10 +1948,9 @@ Les collectivités y gagnent la prévisibilité, l’État la fin d’une admini
 
 ---
 
-
 ---
 
-## Amendement n° 36 [objet : Refuser le concours nouveau créé par l’article 85]
+## Amendement n° 36 [Refuser le concours nouveau créé par l’article 85]
 
 AMENDEMENT
 
@@ -1906,10 +1979,9 @@ Les 50 millions d’euros ainsi conservés reviennent aux actifs sur leur feuill
 
 ---
 
-
 ---
 
-## Amendement n° 37 [objet : Refuser l’extension créée par l’article 86]
+## Amendement n° 37 [Refuser l’extension créée par l’article 86]
 
 AMENDEMENT
 
@@ -1938,10 +2010,9 @@ Les crédits que cette extension aurait appelés demeurent au budget général e
 
 ---
 
-
 ---
 
-## Amendement n° 38 [objet : Refuser le fonds de soutien créé par l’article 87]
+## Amendement n° 38 [Refuser le fonds de soutien créé par l’article 87]
 
 AMENDEMENT
 
@@ -1969,10 +2040,9 @@ Les crédits que ce fonds aurait portés demeurent au budget général et rejoig
 
 ---
 
-
 ---
 
-## Amendement n° 39 [objet : Rapport annuel sur l’équilibre de la refonte des impositions]
+## Amendement n° 39 [Rapport annuel sur l’équilibre de la refonte des impositions]
 
 AMENDEMENT
 
