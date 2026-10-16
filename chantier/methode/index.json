@@ -9837,6 +9837,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/controle_credits_liasse",
+   "chemin": "appareil/controle_credits_liasse.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_credits_liasse.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/controle_rejeu_annexes_2027",
    "chemin": "appareil/controle_rejeu_annexes_2027.py",
    "rang": "appareil",
@@ -13281,6 +13295,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/etatB_2027_bg",
+   "chemin": "referentiels/etatB_2027_bg.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/etatB_2027_bg.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/niches_sieges_20261004",
    "chemin": "referentiels/niches_sieges_20261004.tsv",
    "rang": "referentiel",
@@ -13347,6 +13375,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/referentiels/prelevements_ifrap.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/ratios_cp_ae_pap2026",
+   "chemin": "referentiels/ratios_cp_ae_pap2026.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/ratios_cp_ae_pap2026.tsv",
    "releve": true,
    "famille": "grilles"
   },
@@ -13559,6 +13601,7 @@
    "appareil/controle_chiffres.py",
    "appareil/controle_cles_gl.py",
    "appareil/controle_colonne_c.py",
+   "appareil/controle_credits_liasse.py",
    "appareil/controle_enonces.py",
    "appareil/controle_generalisation.py",
    "appareil/controle_generateurs.py",
@@ -13880,6 +13923,7 @@
    "referentiels/commissions_jaune2026_20261014.tsv",
    "referentiels/commissions_jaune2026_20261014_lisez_moi.md",
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
+   "referentiels/etatB_2027_bg.tsv",
    "referentiels/lots_epreuve.json",
    "referentiels/niches_sieges_20261004.tsv",
    "referentiels/niches_sieges_regles_de_lecture_20261004.md",
@@ -13887,6 +13931,7 @@
    "referentiels/notes_manuscrit.json",
    "referentiels/points_donnee_estimes_20261014.tsv",
    "referentiels/prelevements_ifrap.tsv",
+   "referentiels/ratios_cp_ae_pap2026.tsv",
    "referentiels/redaction_plf.json",
    "referentiels/redaction_plf2027.json",
    "referentiels/redaction_plfss.json",
@@ -14072,9 +14117,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 890,
-  "au_coffre": 832,
-  "au_depot": 374,
+  "artefacts": 893,
+  "au_coffre": 835,
+  "au_depot": 377,
   "derives": 308,
   "sources": 48,
   "non_restaurables": 16,

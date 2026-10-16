@@ -65,6 +65,9 @@ elle prime sur toute mémoire de fil.
 | matière | pièce | division |
 |---|---|---|
 | la chaîne de calcul, et **la règle de CP** | `livrables/registre_calcul_etatB.md` | § 1, et § 3 pour les huit régimes de résiduel |
+| **les crédits ouverts de 2027, par programme** | `referentiels/etatB_2027_bg.tsv` | — |
+| **les ratios CP/AE par catégorie** | `referentiels/ratios_cp_ae_pap2026.tsv` | — |
+| **le socle de crédits et le relevé de l'égalité AE = CP** | `livrables/registre_calcul_etatB.md` | § 3 bis |
 | la restitution, mois par mois | même pièce | § 2 |
 | les montants d'exercice, ligne par ligne | même pièce | § 4 |
 | la trajectoire 2027-2030 | même pièce | § 5 |
@@ -86,6 +89,11 @@ elle prime sur toute mémoire de fil.
 - **Un référentiel qui porte ses défauts ne se publie pas**, même mis en forme.
   Le tri des prélèvements en porte trois : 188 rangs sans rendement, 105 sièges
   non établis, 420 rangs contre 438 au manifeste.
+- **Le CP se lit avant de se calculer** (inscrit le 20261016). Les crédits ouverts se lisent à
+  l'état B du texte déposé avant toute minoration : comparer à un exercice antérieur a fabriqué un
+  risque bloquant qui n'existait pas. Hors titre 2, **AE ≥ CP**, et l'égalité ne se pose pas, elle
+  se **relève** sur la catégorie visée, qui se déclare au bloc `[interne]` de la pièce. Le contrôle
+  est `appareil/controle_credits_liasse.py`.
 - **Une pièce produite et non versée n'existe pas.** Le croisé mesure × agent ×
   mois a été fabriqué dans un fil, jamais versé, et il est perdu. Ce qui sort
   d'un fil passe au projet ou au dépôt le jour même.

@@ -69,6 +69,8 @@ La mesure rend 5,4 milliards d’euros dès 2027 et concourt à la réduction de
 
 Crédits du texte déposé sur les programmes minorés (état B, article 58) : Aide à l’accès au logement : AE 16 520 517 313, CP 16 520 517 313.
 
+Catégories visées : Aide à l’accès au logement → 61. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
+
 **Six invariants de l’amendement de crédits.** (1) Une seule mission, nommée — tenu. (2) Tableau AE et CP à quatre colonnes — tenu. (3) Somme des majorations égale aux minorations — *sans objet* : minoration sèche, la mission baisse, geste licite de l’article 47. (4) Une ligne par programme, jamais une action — tenu. (5) Aucun abondement du titre 2 depuis un autre titre — tenu, le titre 2 n’est pas touché. (6) Motivation portée — tenu, exposé sommaire. **Aucun gage** — tenu.
 
 Contrôles : minoration ≤ crédits ouverts du programme, en AE comme en CP — tenu. CP minorés = AE minorés — tenu. Aucune ligne d’entrée en vigueur. Une seule mission. Solde −5 400 000 000.
@@ -110,7 +112,7 @@ Modifier ainsi les autorisations d’engagement et les crédits de paiement :
 | Expertise, information géographique et météorologie | 0 | 0 | 0 | 0 |
 | Prévention des risques | 0 | 0 | 0 | 0 |
 | Énergie, climat et après-mines | 0 | 0 | 0 | 0 |
-| Service public de l’énergie | 0 | 600 000 000 | 0 | 600 000 000 |
+| Service public de l’énergie | 0 | 600 000 000 | 0 | 486 182 400 |
 | Conduite et pilotage des politiques de l’écologie, du développement et de la mobilité durables | 0 | 0 | 0 | 0 |
 | *dont titre 2* | 0 | 0 | 0 | 0 |
 | Fonds d’accélération de la transition écologique dans les territoires | 0 | 0 | 0 | 0 |
@@ -118,8 +120,8 @@ Modifier ainsi les autorisations d’engagement et les crédits de paiement :
 | *dont titre 2* | 0 | 0 | 0 | 0 |
 | Ecologie – mise en extinction du plan de relance | 0 | 0 | 0 | 0 |
 | Forêt | 0 | 0 | 0 | 0 |
-| **TOTAUX** | 0 | 600 000 000 | 0 | 600 000 000 |
-| **SOLDE** | −600 000 000 | | −600 000 000 | |
+| **TOTAUX** | 0 | 600 000 000 | 0 | 486 182 400 |
+| **SOLDE** | −600 000 000 | | −486 182 400 | |
 
 EXPOSÉ SOMMAIRE
 
@@ -127,7 +129,7 @@ Cet amendement retire des crédits le chèque énergie, que la présente loi abr
 
 Le programme « Service public de l’énergie » reçoit 10 749 607 515 euros d’autorisations d’engagement dans le texte déposé (état B)¹. Le chèque énergie y est financé, alors que le même texte organise de nouveaux croisements de fichiers pour en élargir le recours (article 81)².
 
-L’amendement minore ce programme de 600 millions d’euros, en autorisations d’engagement comme en crédits de paiement. La campagne d’émission de 2027 n’a pas lieu. Les autres dépenses du programme, et notamment les charges de service public de l’électricité hors chèque, ne sont pas touchées. Dit simplement : le foyer dispose d’un revenu qu’il dépense librement, au lieu d’un titre réservé à l’énergie.
+L’amendement minore ce programme de 600 millions d’euros en autorisations d’engagement et de 486 millions d’euros en crédits de paiement, l’écart couvrant les chèques de la campagne précédente restant à payer. La campagne d’émission de 2027 n’a pas lieu. Les autres dépenses du programme, et notamment les charges de service public de l’électricité hors chèque, ne sont pas touchées. Dit simplement : le foyer dispose d’un revenu qu’il dépense librement, au lieu d’un titre réservé à l’énergie.
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité. Le revenu rendu se dépense là où le foyer le décide.
 
@@ -138,13 +140,15 @@ La présente mesure concourt à la réduction des prélèvements pesant sur les 
 
 | mission | programme | AE | CP | source |
 |---|---|---:|---:|---|
-| Écologie, développement et mobilité durables | Service public de l’énergie | −600 000 000 | −600 000 000 | `Détail Economies`!D20 (« dont chèque énergie », 0,6 Md€) |
+| Écologie, développement et mobilité durables | Service public de l’énergie | −600 000 000 | −486 182 400 | `Détail Economies`!D20 (« dont chèque énergie », 0,6 Md€) |
 
 Crédits du texte déposé sur les programmes minorés (état B, article 58) : Service public de l’énergie : AE 10 749 607 515, CP 9 491 607 515.
 
+Catégories visées : Service public de l’énergie → 62. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
+
 **Six invariants de l’amendement de crédits.** (1) Une seule mission, nommée — tenu. (2) Tableau AE et CP à quatre colonnes — tenu. (3) Somme des majorations égale aux minorations — *sans objet* : minoration sèche, la mission baisse, geste licite de l’article 47. (4) Une ligne par programme, jamais une action — tenu. (5) Aucun abondement du titre 2 depuis un autre titre — tenu, le titre 2 n’est pas touché. (6) Motivation portée — tenu, exposé sommaire. **Aucun gage** — tenu.
 
-Contrôles : minoration ≤ crédits ouverts du programme, en AE comme en CP — tenu. CP minorés = AE minorés — tenu. Aucune ligne d’entrée en vigueur. Une seule mission. Solde −600 000 000.
+Contrôles : minoration ≤ crédits ouverts du programme, en AE comme en CP — tenu. CP minorés < AE minorés — tenu : la catégorie 62 est relevée à 0,946 au PAP, l’égalité AE = CP n’est pas acquise ; CP = AE × (1 − résiduel de 20 % de la catégorie 62) × 1,01288. Aucune ligne d’entrée en vigueur. Une seule mission. Solde en AE −600 000 000, en CP −486 182 400.
 
 - Abrogation au 1er janvier 2027 (P2-09, ARTICLE 81) : effet sur l’année pleine, aucun abattement.
 - Le programme porte aussi les charges de service public de l’énergie : la minoration est bornée à la cellule, sans toucher au reste.
@@ -206,6 +210,8 @@ La présente mesure concourt à la réduction des prélèvements pesant sur les 
 | Cohésion des territoires | Hébergement, parcours vers le logement et insertion des personnes vulnérables | −2 500 000 000 | −2 500 000 000 | `Détail Economies`!D29 (« dont hébergement d’urgence », 2,5 Md€ ; G29 : « Hors socle de 20 % (femmes battues, enfants) ») |
 
 Crédits du texte déposé sur les programmes minorés (état B, article 58) : Hébergement, parcours vers le logement et insertion des personnes vulnérables : AE 3 255 255 007, CP 3 261 443 368.
+
+Catégories visées : Hébergement, parcours vers le logement et insertion des personnes vulnérables → 64. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
 
 **Six invariants de l’amendement de crédits.** (1) Une seule mission, nommée — tenu. (2) Tableau AE et CP à quatre colonnes — tenu. (3) Somme des majorations égale aux minorations — *sans objet* : minoration sèche, la mission baisse, geste licite de l’article 47. (4) Une ligne par programme, jamais une action — tenu. (5) Aucun abondement du titre 2 depuis un autre titre — tenu, le titre 2 n’est pas touché. (6) Motivation portée — tenu, exposé sommaire. **Aucun gage** — tenu.
 

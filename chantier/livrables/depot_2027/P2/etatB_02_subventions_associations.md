@@ -87,6 +87,8 @@ La mesure rend plus d’un milliard d’euros au budget général dès 2027 et c
 
 Crédits du texte déposé sur les programmes minorés (état B, article 58) : Immigration et asile : AE 1 897 971 865, CP 1 723 707 422.
 
+Catégories visées : Immigration et asile → 64. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
+
 **Six invariants de l’amendement de crédits.** (1) Une seule mission, nommée — tenu. (2) Tableau AE et CP à quatre colonnes — tenu. (3) Somme des majorations égale aux minorations — *sans objet* : minoration sèche, la mission baisse, geste licite de l’article 47. (4) Une ligne par programme, jamais une action — tenu. (5) Aucun abondement du titre 2 depuis un autre titre — tenu, le titre 2 n’est pas touché. (6) Motivation portée — tenu, exposé sommaire. **Aucun gage** — tenu.
 
 Contrôles : minoration ≤ crédits ouverts du programme, en AE comme en CP — tenu (1 090 909 091 ≤ 1 723 707 422 en CP). CP minorés = AE minorés — tenu. Aucune ligne d’entrée en vigueur. Une seule mission. Solde −1 090 909 091.
@@ -153,6 +155,8 @@ La mesure rend un peu plus de 600 millions d’euros au budget général dès 20
 | | **ensemble** | **−606 060 606** | **−606 060 606** | |
 
 Crédits du texte déposé sur les programmes minorés (état B, article 58) : Création : AE 1 019 231 644, CP 962 958 529.
+
+Catégories visées : Création → 32. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
 
 **Six invariants de l’amendement de crédits.** (1) Une seule mission, nommée — tenu. (2) Tableau AE et CP à quatre colonnes — tenu. (3) Somme des majorations égale aux minorations — *sans objet* : minoration sèche, la mission baisse, geste licite de l’article 47. (4) Une ligne par programme, jamais une action — tenu. (5) Aucun abondement du titre 2 depuis un autre titre — tenu, le titre 2 n’est pas touché. (6) Motivation portée — tenu, exposé sommaire. **Aucun gage** — tenu.
 
@@ -221,6 +225,8 @@ La mesure rend près de 500 millions d’euros au budget général dès 2027 et 
 | | **ensemble** | **−484 848 485** | **−484 848 485** | |
 
 Crédits du texte déposé sur les programmes minorés (état B, article 58) : Politique de la ville : AE 619 066 960, CP 619 066 960, dont titre 2 19 143 320.
+
+Catégories visées : Politique de la ville → 64. Ratios CP/AE relevés au PAP 2026, resize 1,01288 (`referentiels/ratios_cp_ae_pap2026.tsv`).
 
 **Six invariants de l’amendement de crédits.** (1) Une seule mission, nommée — tenu. (2) Tableau AE et CP à quatre colonnes — tenu. (3) Somme des majorations égale aux minorations — *sans objet* : minoration sèche, la mission baisse, geste licite de l’article 47. (4) Une ligne par programme, jamais une action — tenu. (5) Aucun abondement du titre 2 depuis un autre titre — tenu, le titre 2 n’est pas touché. (6) Motivation portée — tenu, exposé sommaire. **Aucun gage** — tenu.
 

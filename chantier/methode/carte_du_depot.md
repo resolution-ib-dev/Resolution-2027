@@ -140,6 +140,10 @@ plus :
 
 - **la règle de CP** — `livrables/registre_calcul_etatB.md`, § 1 pour la formule,
   § 3 pour les huit régimes de résiduel. Elle ne touche que la caisse du § 15.
+- **les crédits ouverts d'un amendement de crédits** — `referentiels/etatB_2027_bg.tsv`, lu
+  **avant** tout calcul de minoration, et `referentiels/ratios_cp_ae_pap2026.tsv` pour le relevé
+  de l'égalité AE = CP. Le § 3 bis du registre porte la règle, `appareil/controle_credits_liasse.py`
+  la joue.
 - **le sort d'un prélèvement** — `referentiels/prelevements_forces_20260930.tsv`,
   colonne `rang`, et **non** `sort_prelevements_20260930.tsv`.
 - **le vocabulaire des sorts** — onglet `Refonte fiscalité` de `Synthèse Calculs
@@ -157,5 +161,13 @@ part par un fil claude.ai/code, qui est la seule surface qui pousse — et **ce
 fil n'accède pas au coffre** : les pièces qu'il doit verser lui sont jointes en
 fichier ou rassemblées dans un zip.
 
-Après un versement, `make index` déclare les pièces nouvelles, sans quoi le
-contrôle les signale comme non déclarées.
+**C'est `make reindex` qui déclare les pièces nouvelles, non `make index`.**
+`make index` contrôle et signale ; il ne déclare rien. Un versement suivi du seul
+`make index` sort donc toujours en échec, d'autant d'anomalies qu'il porte de
+pièces nouvelles — vingt-trois le 15 octobre, puis deux. La séquence après toute
+fusion est **`make reindex`, puis `make index`**, et l'index régénéré se verse
+avec les pièces ou par une demande de fusion propre : sans cela il reste dans la
+copie locale du fil qui l'a joué.
+
+L'erreur inverse était écrite ici même et a coûté deux demandes de fusion
+supplémentaires les 15 et 16 octobre.

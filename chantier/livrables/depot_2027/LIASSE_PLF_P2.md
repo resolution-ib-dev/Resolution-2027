@@ -2,7 +2,7 @@
 
 Résolution — octobre 2026
 
-Quarante et un amendements de seconde partie, répartis en cinq lots. La numérotation va de 1 à 41.
+Quarante et un amendements de seconde partie, répartis en cinq lots. La numérotation va de 1 à 41, sans numéro vacant.
 
 ---
 
@@ -602,7 +602,7 @@ Modifier ainsi les autorisations d’engagement et les crédits de paiement :
 | Expertise, information géographique et météorologie | 0 | 0 | 0 | 0 |
 | Prévention des risques | 0 | 0 | 0 | 0 |
 | Énergie, climat et après-mines | 0 | 0 | 0 | 0 |
-| Service public de l’énergie | 0 | 600 000 000 | 0 | 600 000 000 |
+| Service public de l’énergie | 0 | 600 000 000 | 0 | 486 182 400 |
 | Conduite et pilotage des politiques de l’écologie, du développement et de la mobilité durables | 0 | 0 | 0 | 0 |
 | *dont titre 2* | 0 | 0 | 0 | 0 |
 | Fonds d’accélération de la transition écologique dans les territoires | 0 | 0 | 0 | 0 |
@@ -610,8 +610,8 @@ Modifier ainsi les autorisations d’engagement et les crédits de paiement :
 | *dont titre 2* | 0 | 0 | 0 | 0 |
 | Ecologie – mise en extinction du plan de relance | 0 | 0 | 0 | 0 |
 | Forêt | 0 | 0 | 0 | 0 |
-| **TOTAUX** | 0 | 600 000 000 | 0 | 600 000 000 |
-| **SOLDE** | −600 000 000 | | −600 000 000 | |
+| **TOTAUX** | 0 | 600 000 000 | 0 | 486 182 400 |
+| **SOLDE** | −600 000 000 | | −486 182 400 | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -621,7 +621,7 @@ Cet amendement retire des crédits le chèque énergie, que la présente loi abr
 
 Le chèque énergie est un titre de paiement nominatif, émis une fois l’an, utilisable pour régler une facture d’électricité, de gaz ou de chauffage et perdu lorsqu’il n’est pas présenté au remboursement dans le délai. Le programme « Service public de l’énergie » le finance parmi les charges de service public de l’énergie et reçoit 10 749 607 515 euros d’autorisations d’engagement dans le texte déposé (état B)¹. Le même texte organise de nouveaux croisements de fichiers pour en élargir le recours, sans chiffrer ce que cet élargissement coûtera (article 81)².
 
-L’amendement minore ce programme de 600 000 000 euros, en autorisations d’engagement comme en crédits de paiement. La campagne d’émission de 2027 n’a pas lieu et l’abrogation portée par ailleurs prenant effet au 1er janvier 2027, l’économie court sur l’année pleine. Les autres dépenses du programme et notamment les charges de service public de l’électricité hors chèque, demeurent entières. Dit simplement : le foyer dispose d’un revenu qu’il dépense librement, au lieu d’un titre réservé à l’énergie.
+L’amendement minore ce programme de 600 000 000 euros en autorisations d’engagement et de 486 182 400 euros en crédits de paiement, l’écart couvrant les chèques de la campagne précédente restant à payer. La campagne d’émission de 2027 n’a pas lieu et l’abrogation portée par ailleurs prenant effet au 1er janvier 2027, l’économie court sur l’année pleine. Les autres dépenses du programme et notamment les charges de service public de l’électricité hors chèque, demeurent entières. Dit simplement : le foyer dispose d’un revenu qu’il dépense librement, au lieu d’un titre réservé à l’énergie.
 
 Le foyer qui se chauffe au bois, celui qui isole son logement et celui qui réduit sa consommation gardent chacun ce qu’ils économisent, quand un titre fléché sur la facture le leur reprenait. Les 600 millions d’euros retirés ici suivent le chemin que la présente loi ouvre à toutes ses économies : ils vont au salaire net, par la baisse des prélèvements assis sur les revenus d’activité et la somme des prélèvements obligatoires baisse d’autant. L’énergie se paie alors avec de l’argent, comme le reste.
 

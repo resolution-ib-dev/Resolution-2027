@@ -57,17 +57,8 @@ amendement.
 - **La loi n° 86-1067 du 30 septembre 1986 n'est pas dans la base de droit.** Les
   quatre sièges d'audiovisuel sont de confiance moyenne, et le paragraphe de
   l'article 44 qui porte Radio France n'est pas établi.
-- **Deux articles du code des impositions sur les biens et services, et non
-  trois, sont abrogés en différé au 1er janvier 2027** — mesuré le 20261015 sur
-  la base de droit, millésime LEGI 20261013. Le V du P1 n° 26 vise `L. 452-27`,
-  `L. 422-26-1` et `L. 422-40`. Parmi eux, `L. 452-27` et `L. 422-40` sont à
-  l'état `ABROGE_DIFF` et cessent de s'appliquer le 1er janvier 2027, date même
-  d'entrée en vigueur retenue ; `L. 422-26-1` est en vigueur sans terme, et sa
-  version court depuis le 1er avril 2026. **`L. 422-15-1`, troisième article
-  nommé par la version antérieure du présent registre, est bien abrogé en
-  différé au 1er janvier 2027 mais la liasse ne le vise nulle part** : il ne
-  faisait pas partie du risque. Le risque demeure, réduit à deux articles : une
-  recodification tombe à la date exacte d'entrée en vigueur. **Arbitrage dû.**
+- *(Le point sur les articles du code des impositions abrogés en différé est
+  clos le 20261016 : voir « Levé » ci-dessous. Il n'appelle aucun arbitrage.)*
 - L'article 11 de l'ordonnance n° 45-2339 du 13 octobre 1945, siège possible de
   l'affectation au théâtre privé, n'est pas lu.
 - L'identité des trois organismes du compte de commerce du commerce extérieur
@@ -75,6 +66,61 @@ amendement.
 - Les onze décisions héritées de l'analyse de robustesse ne sont pas rouvertes.
 - Les précédents historiques de dégagement des cadres et la prime de départ
   outre-mer ne sont pas identifiés.
+
+### Levé le 20261016 — les crédits de 2027 sont lus, le risque bloquant n'existe pas
+
+**L'état B du texte déposé n° 3210 a été relevé** : 32 missions, 131 programmes, 48 lignes
+« dont titre 2 », AE 632 868 821 128 € et CP 615 139 875 333 €, somme des missions égale à la
+somme des programmes et au total imprimé. Il est versé à `referentiels/etatB_2027_bg.tsv`.
+
+**Les cinq risques annoncés le 15 octobre tombent.** Ils étaient mesurés sur les crédits de 2026 :
+
+| amendement | lu sur 2026 | lu sur l'état B 2027 |
+|---|---|---|
+| 6 Fonds d'accélération | 151 % — bloquant | **100,0 % AE / 49,5 % CP** — le programme est fermé en entier |
+| 13 Hébergement | 82 % | 76,8 % / 76,7 % |
+| 10 Politique de la ville | 74 % | 78,3 % |
+| 7 Impulsion politique de la ville | 73 % | 60,9 % / 44,8 % |
+| 2 Urbanisme | 68 % | 22,3 % AE / 72,5 % CP |
+| 8 Immigration et asile | débord de la catégorie 64 | 57,5 % / 63,3 % — aucun débord |
+
+**Aucune ligne ne dépasse les crédits ouverts**, ni en AE ni en CP. Le mandat de plafonnement du
+n° 6 et le mandat de débord du n° 8 sont tous deux **sans objet** et ne se jouent pas.
+
+### Porté le 20261016 — la règle d'égalité AE = CP, et la reprise du n° 12
+
+**AE ≥ CP, et l'égalité se relève, elle ne se pose pas.** La règle est au § 3 bis de
+`livrables/registre_calcul_etatB.md` et au § 4.3 de `reference/regles_credits.md`. Les ratios par
+catégorie sont versés à `referentiels/ratios_cp_ae_pap2026.tsv`, 643 lignes, contrôlées aux totaux
+du PAP 2026.
+
+- **Neuf amendements portaient AE = CP hors titre 2.** Huit égalités sont relevées et tiennent.
+- **Le n° 12, chèque énergie, ne l'est pas** : la catégorie 62 est relevée à 0,946. Son CP passe
+  de 600 000 000 € à **486 182 400 €**, soit 600 000 000 × 0,80 × 1,01288. **Porté** à
+  `livrables/depot_2027/P2/etatB_03_aides_ciblees.md`.
+- **Les onze sections de table de crédits déclarent désormais leur catégorie visée** au bloc
+  `[interne]`. Sans déclaration, le contrôle refuse l'égalité.
+- `appareil/controle_credits_liasse.py` joue les quatre contrôles. **À brancher à
+  `make controle`** — la règle n'est pas encore au `Makefile`.
+
+### Levé le 20261016 — le prétendu risque d'entrée en vigueur n'existe pas
+
+**`ABROGE_DIFF` qualifie une version, non un article.** Les deux articles visés
+par le V du P1 n° 26 ne disparaissent pas au 1er janvier 2027 : une **version
+nouvelle** prend le relais à la même adresse, à la même date, à l'état
+`VIGUEUR_DIFF`. Mesuré sur la base de droit au millésime LEGI 20261013, par
+lecture à la date du 2 janvier 2027.
+
+- **`L. 452-27`** — la version 2027 ouvre son 1° par « S'agissant des spectacles
+  mentionnés au 1° de l'article L. 452-15, … », exactement l'accroche que la
+  rédaction de l'amendement remplace. **La substitution porte.**
+- **`L. 422-40`** — la version 2027 conserve son **3° bis**, qui renvoie à
+  `L. 422-26-1` et à `L. 2111-3-2` du code des transports, c'est-à-dire aux trois
+  adresses mêmes que les 2, 3 et 4 du V visent. **Les abrogations portent.**
+
+La lecture antérieure du présent registre confondait l'état d'une version avec
+le sort de l'article. **Aucun arbitrage n'est dû**, et ce point sort de la liste
+des risques de la liasse.
 
 ### Levé le 20261015
 

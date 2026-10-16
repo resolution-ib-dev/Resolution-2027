@@ -267,6 +267,32 @@ catégories du titre 6 (intervention).
 porte sur des crédits de personnel et rend deux montants différents est faux au regard de
 l'article 8.
 
+**Et sa réciproque, inscrite le 20261016.** Hors titre 2, **AE ≥ CP**, et l'égalité ne se pose
+pas : elle se **relève**. Elle est admise lorsque le ratio CP/AE de la **catégorie visée** vaut au
+moins 1,000 au PAP, à la tolérance de 0,005 — les crédits se paient alors aussi vite qu'ils
+s'engagent, et le plafonnement à l'AE est la seule borne qui joue. Un ratio inférieur refuse
+l'égalité : le CP suit son régime de résiduel au § 3 du registre de calcul, puis le **resize**.
+
+**La catégorie visée se déclare**, au bloc `[interne]` de la pièce, en une ligne :
+
+```
+Catégories visées : Service public de l'énergie → 62
+```
+
+Sans déclaration, l'égalité hors titre 2 est refusée — une égalité qui ne nomme pas sa catégorie
+n'est pas relevée. Le contrôle est `appareil/controle_credits_liasse.py`.
+
+**L'ordre des opérations ne s'inverse pas.** Les crédits ouverts se **lisent** à l'état B du texte
+déposé — `referentiels/etatB_2027_bg.tsv`, 32 missions, 131 programmes, AE 632 868 821 128 et CP
+615 139 875 333, somme des missions égale à la somme des programmes et au total imprimé — **avant**
+tout calcul de minoration. Un montant écrit sans cette lecture est nul. Comparer une minoration aux
+crédits d'un exercice antérieur a produit, le 15 octobre, un risque bloquant qui n'existait pas.
+
+**Le resize.** Notre estimation de CP se construit sur la ventilation du PAP, millésime 2026 ; les
+crédits ouverts sont de 2027. L'écart se corrige par le rapport des agrégats du budget général :
+(CP/AE) 2027 ÷ (CP/AE) 2026 = 0,97199 ÷ 0,95962 = **1,01288**. On ne substitue pas le ratio du
+programme à notre calcul, on recale notre calcul sur l'écart d'exercice.
+
 ---
 
 ## 5. Après le vote — ce qui n'est pas de notre ressort, et qu'il faut connaître
@@ -316,6 +342,17 @@ d'amendement :
    est touché, AE = CP (art. 7, II, dernier alinéa ; art. 8, dernier alinéa).
 6. **L'amendement est motivé et porte ses développements** — exigence organique autonome, dont
    le manquement suffit à l'irrecevabilité (art. 47, deuxième alinéa).
+
+**Quatre contrôles de montant, inscrits le 20261016**, joués par
+`appareil/controle_credits_liasse.py` :
+
+- **C1** — minoration AE ≤ AE du programme à l'état B de l'exercice visé ;
+- **C2** — minoration CP ≤ CP du même programme, au même état B ;
+- **C3** — AE ≥ CP, l'égalité étant admise sur le titre 2 et, hors titre 2, sur relevé de la
+  catégorie visée ;
+- **C4**, signal — minoration AE ≤ AE de la catégorie visée, recalée par le resize. La
+  ventilation par catégorie est au millésime antérieur : le dépassement se signale, il ne
+  tranche pas.
 
 **Et un interdit de méthode** : un amendement de crédits ne se gage pas. Le gage est une recette
 qui compense une perte de recettes ; il n'a aucun effet sur une charge, et sa présence sur un
