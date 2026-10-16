@@ -34,6 +34,28 @@ Trois formes, et le choix se fait par le véhicule, pas par préférence :
 | **gage sur abrogation nommée** | une dépense fiscale ou une taxe affectée est supprimée ailleurs dans la même liasse | cette abrogation, par son objet et sa référence |
 | **clause de neutralisation** | la source est une clause générale et non un article | la source **par son objet**, et l'écart de forme se déclare à la ligne |
 
+### 2 bis. Qui perd la recette commande la rédaction de la clause
+
+**La clause nomme celui qui perd, et elle ne compense que lui.** Trois cas, et
+ils ne s'écrivent pas de la même façon. Les confondre rend la clause inopérante
+sans que rien ne le signale.
+
+| celui qui perd | la clause |
+|---|---|
+| **l'État** | la recette est **majorée** à due concurrence |
+| **un opérateur affectataire** | une **taxe additionnelle** est créée à son profit — une majoration d'une recette d'État ne lui reviendrait pas |
+| **les organismes de sécurité sociale** | la recette est **majorée** à due concurrence, dans le véhicule de financement |
+
+**Un prélèvement affecté qui disparaît fait perdre deux fois.** L'affectataire
+perd le produit, et l'État perd les frais d'assiette et de recouvrement qu'il
+prélève dessus. **La clause porte alors deux branches**, une par perdant, et une
+seule branche laisse la seconde perte sans gage. Le taux de ces frais se relève
+à l'article qui les institue, jamais de mémoire.
+
+**L'ordre est fixe** : l'affectataire d'abord, l'État ensuite. Une branche se
+rédige en entier, référence comprise, et la seconde renvoie aux « mêmes
+articles ».
+
 **Une pièce de loi de financement ne gage pas sur une source de loi de
 finances, ni l'inverse.** La frontière de véhicule est fermée : une source n'est
 disponible que dans le véhicule qui la porte.

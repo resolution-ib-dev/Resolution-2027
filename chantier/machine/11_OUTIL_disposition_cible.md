@@ -479,10 +479,83 @@ comparaison A → C, dans la grammaire du véhicule.
 lequel elle mord. Trois lignes la jouent :
 
 ```python
+def n(s):                    # apostrophes et espaces, voir plus bas
+    return s.replace('’', "'").replace(' ', ' ').replace(' ', ' ')
+
+a, frag, remplacement, c = n(a), n(frag), n(remplacement), n(c)
 assert a.count(frag) == 1, 'fragment absent ou multiple — adresse ambiguë'
 i = a.index(frag)
 assert a[:i] + remplacement + a[i + len(frag):] == c, 'ne redonne pas C'
 ```
+
+### Sur quel A la preuve se joue — et c'est rarement le droit en vigueur
+
+**Quand le véhicule ouvre déjà l'article visé, le A de la preuve n'est pas le
+texte en vigueur : c'est le texte tel que le véhicule le laissera.** Un
+amendement se lit après le texte déposé, jamais avant lui.
+
+Le relevé se fait donc en deux temps : on prend l'article au droit en vigueur,
+on applique dessus ce que l'article du véhicule lui fait, et **c'est ce
+résultat-là qui sert de A**.
+
+Le cas qui l'a montré : une coordination qui retirait une référence d'une
+énumération. Contre le droit en vigueur, elle laissait un texte fautif — une
+virgule orpheline devant la conjonction. Contre l'état laissé par le véhicule,
+qui avait déjà déplacé cette conjonction, elle était juste. **La même formule
+est fausse sur un A et juste sur l'autre**, et aucune lecture à l'œil ne
+distingue les deux.
+
+### Les apostrophes — la base et le texte déposé ne les écrivent pas pareil
+
+La base de droit stocke l'apostrophe droite, `'`. Les textes déposés et les
+amendements portent l'apostrophe typographique, `’`. **Un fragment cité aux
+conventions du dépôt ne mord jamais sur un article relevé en base.**
+
+La règle : **on cite à la typographie du dépôt, on compare après
+normalisation.** Les deux apostrophes, l'espace insécable et l'espace fine
+insécable se ramènent à leur forme simple avant la preuve, et seulement pour
+la preuve. Le fragment qui part au dépôt garde sa typographie.
+
+Un fragment qui ne mord pas est **d'abord** une divergence de signes, et
+seulement ensuite une erreur d'adresse. Les deux hypothèses se distinguent en
+rejouant la recherche sur la forme normalisée.
+
+### `completer` et la ponctuation finale — le piège le plus courant
+
+**Un alinéa se termine par un point, et `completer` ajoute APRÈS ce point.**
+Écrire « il est complété par les mots : « …, qui reversent … » » sur un alinéa
+qui finit par « leurs titres. » produit :
+
+> … se sont procuré leurs titres**., qui** reversent …
+
+Un point au milieu de la phrase. La forme juste est un **remplacement** qui
+emporte la ponctuation :
+
+> les mots : « leurs titres. » sont remplacés par les mots : « leurs titres, qui
+> reversent … »
+
+**`completer` ne s'emploie que là où le fragment complété ne porte pas la
+ponctuation finale** — une énumération ouverte, un alinéa qui s'achève sur un
+deux-points, une subdivision suivie d'autres.
+
+**Ce défaut est exactement ce que la preuve attrape**, et il est la première
+raison de la jouer. Relevé le 20261016 sur la première pièce produite par un
+tiers : la chaîne avait déclaré sa preuve concluante **sans l'avoir exécutée**.
+
+### La preuve se joue, elle ne se déclare pas
+
+**Les trois lignes ci-dessus s'exécutent et leur sortie se montre.** Un verdict de
+preuve écrit sans trace d'exécution ne vaut rien : c'est une opinion sur un
+calcul qu'on n'a pas fait.
+
+Au dossier de mesure, l'étape `E4` porte donc **trois champs et non un** :
+
+    preuve:         jouée | non jouée
+    commande:       la ligne exacte, telle qu'elle a tourné
+    sortie:         ce qu'elle a imprimé, verbatim
+
+`preuve: jouée` sans `commande` ni `sortie` **est une étape non conclue**, et la
+chaîne s'arrête : `hors_capacite`.
 
 ### Trois verdicts de preuve, et ils ne mesurent pas la même chose
 

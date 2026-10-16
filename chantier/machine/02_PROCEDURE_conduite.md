@@ -42,12 +42,12 @@ liasse  ←  E7  ←  E6 contrôles  ←  E5 exposé  ←  E4bis gage  ←  E4 r
 | **E0** | la nature de la mesure et son véhicule | la présente procédure |
 | **E1** | un verdict de rattachement, motivé sur pièce | `03_PROCEDURE_rattachement.md` — **à votre main** |
 | **E2** | l'article à modifier, ou `introuvable` | `10_OUTIL_vecteur_mesure.md` |
-| **E3** | le texte en vigueur, en verbatim | `01_DEMARRER.md droit` |
+| **E3** | le texte en vigueur, en verbatim | `depot/droit.py` |
 | **E4** | le texte cible, puis la disposition modificative | `11_OUTIL_disposition_cible.md` |
 | **E4bis** | la clause de gage, ou l'insuffisance chiffrée | `05_PROCEDURE_gage.md` |
 | **E5** | l'exposé sommaire | `12_OUTIL_expose_sommaire.md` |
-| **E6** | les contrôles joués et leur verdict | `01_DEMARRER.md controler` |
-| **E7** | la liasse assemblée, puis son `.docx` | `01_DEMARRER.md imprimer` |
+| **E6** | les contrôles joués et leur verdict | `41_SCRIPT_controles_expose.py` |
+| **E7** | la liasse assemblée, puis son `.docx` | `40_SCRIPT_imprimer_liasse.py` |
 
 ---
 
@@ -138,7 +138,7 @@ signalera.
 ### E3 — Droit applicable
 
 ```
-python3 01_DEMARRER.md droit "<intitulé du code>" "<numéro d'article>"
+python3 depot/droit.py article "<intitulé du code>" "<numéro d'article>"
 ```
 
 Rend le **verbatim** du texte en vigueur, avec son identifiant de version et sa
@@ -160,6 +160,11 @@ doit retomber sur la cible, au caractère. Procédure à `11_OUTIL_disposition_c
 **La preuve par réapplication n'est pas une formalité.** C'est le seul contrôle qui
 attrape une formule modificative qui dit autre chose que ce qu'on voulait.
 
+**Elle se joue, elle ne se déclare pas.** Le dossier porte la commande exacte et
+sa sortie verbatim. `preuve: jouée` sans trace d'exécution est une étape non
+conclue, et la chaîne s'arrête. Le piège le plus courant est `completer` sur un
+alinéa qui finit par un point : il ajoute après le point, et la preuve le voit.
+
 ### E4 bis — Le gage
 
 Une mesure qui diminue une ressource publique porte une clause de gage, sans quoi
@@ -177,7 +182,7 @@ Gabarit à `12_OUTIL_expose_sommaire.md`.
 ### E6 — Contrôles de sortie
 
 ```
-python3 01_DEMARRER.md controler <dossier.md>
+python3 41_SCRIPT_controles_expose.py <dossier.md>
 ```
 
 Trois familles qui ne se mélangent pas. **La forme** — gabarit, longueur, en-tête,
@@ -191,7 +196,7 @@ celui du réseau.
 ### E7 — Liasse
 
 ```
-python3 01_DEMARRER.md imprimer <liasse.md>
+python3 40_SCRIPT_imprimer_liasse.py <liasse.md> -o <sortie.docx>
 ```
 
 L'assemblage et la numérotation se font. **L'ordre de dépôt et les neutralisations

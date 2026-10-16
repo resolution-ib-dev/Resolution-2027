@@ -51,13 +51,13 @@ EXCEPTIONS = {
         "adresse du dépôt public de droit, que le tiers doit cloner",
     ("11_OUTIL_disposition_cible.md", "Resolution"):
         "nom du dépôt public de droit",
-    ("LISEZ-MOI.md", "resolution-ib-dev"):
-        "adresse du dépôt public de droit",
-    ("LISEZ-MOI.md", "Resolution"):
-        "nom du dépôt public de droit",
-    ("LISEZ-MOI.md", "resolution-ib-dev"):
+    ("01_DEMARRER.md", "resolution-ib-dev"):
         "adresse du dépôt public de droit, au geste d'ouverture",
-    ("LISEZ-MOI.md", "Resolution"):
+    ("01_DEMARRER.md", "Resolution"):
+        "nom du dépôt public de droit",
+    ("68_CONTROLE_atelier.py", "resolution-ib-dev"):
+        "adresse du dépôt, mesurée pour dire si le réseau y accède",
+    ("68_CONTROLE_atelier.py", "Resolution"):
         "nom du dépôt public de droit",
     # Une source publique CITÉE n'est pas une fuite : la nommer est du sourçage,
     # et le taire serait prendre son travail sans le dire.
