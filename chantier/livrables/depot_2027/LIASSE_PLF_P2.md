@@ -17,7 +17,7 @@ Quarante et un amendements de seconde partie, répartis en cinq lots. La numéro
 | 5 | ARTICLE 58, état B | Retirer les crédits des concours discrétionnaires aux collectivités, mission « Relations avec les collectivités territoriales » |
 | 6 | ARTICLE 58, état B | Retirer les crédits des concours discrétionnaires aux collectivités, mission « Écologie, développement et mobilité durables » |
 | 7 | ARTICLE 58, état B | Retirer les crédits des concours discrétionnaires aux collectivités, mission « Cohésion des territoires » |
-| 8 | ARTICLE 58, état B | Exercer ou acheter l’accueil, au lieu de le subventionner |
+| 8 | ARTICLE 58, état B | Exercer et piloter l’accueil |
 | 9 | ARTICLE 58, état B | Rendre la création à son public |
 | 10 | ARTICLE 58, état B | Sortir la politique de la ville de l’appel à projets |
 | 11 | ARTICLE 58, état B | Éteindre l’aide au logement, et ses crédits avec elle |
@@ -395,7 +395,7 @@ L’aménagement du territoire relève alors des ressources propres des collecti
 
 ---
 
-## Amendement n° 8 [objet : Exercer ou acheter l’accueil, au lieu de le subventionner]
+## Amendement n° 8 [objet : Exercer et piloter l’accueil]
 
 AMENDEMENT
 
