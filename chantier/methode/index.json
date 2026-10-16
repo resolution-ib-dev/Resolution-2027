@@ -10104,6 +10104,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/motifs_locaux_atelier",
+   "chemin": "appareil/motifs_locaux_atelier.txt",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/motifs_locaux_atelier.txt",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/pieces_nommees",
    "chemin": "appareil/pieces_nommees.py",
    "rang": "appareil",
@@ -12523,7 +12537,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/LISEZ-MOI.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/MANIFESTE",
@@ -12537,7 +12551,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/MANIFESTE.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/controle_sortie",
@@ -12551,7 +12565,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/controle_sortie.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/generateur_liasse_docx",
@@ -12565,7 +12579,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/generateur_liasse_docx.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/index_mesures_2027",
@@ -12579,7 +12593,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/index_mesures_2027.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/installer_droit",
@@ -12593,7 +12607,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/installer_droit.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/pieces_nommees",
@@ -12607,7 +12621,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/pieces_nommees.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/portes_ouvertes",
@@ -12621,7 +12635,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/portes_ouvertes.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/redaction_2027",
@@ -12635,7 +12649,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/redaction_2027.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/relever_manifeste",
@@ -12649,7 +12663,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/relever_manifeste.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/appareil/socle_texte_2027",
@@ -12663,7 +12677,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/appareil/socle_texte_2027.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/mini-lot/LISEZ-MOI",
@@ -12677,7 +12691,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/mini-lot/LISEZ-MOI.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/mini-lot/enonce",
@@ -12691,7 +12705,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/mini-lot/enonce.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/mini-lot/sortie_attendue",
@@ -12705,7 +12719,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/mini-lot/sortie_attendue.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/conduite",
@@ -12719,7 +12733,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/conduite.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/contrat_chaine_amendement",
@@ -12733,7 +12747,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/contrat_chaine_amendement.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/depot_droit",
@@ -12747,7 +12761,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/depot_droit.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/domaine_lfss_LO111-3",
@@ -12761,7 +12775,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/domaine_lfss_LO111-3.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/gabarit_expose_sommaire",
@@ -12775,7 +12789,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/gabarit_expose_sommaire.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/gabarit_liste_articles",
@@ -12789,7 +12803,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/gabarit_liste_articles.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/gage",
@@ -12803,7 +12817,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/gage.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/passation_droit_renvois",
@@ -12817,7 +12831,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/passation_droit_renvois.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/procedure_vecteurs",
@@ -12831,7 +12845,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/procedure_vecteurs.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/regles_forme_canonique",
@@ -12845,7 +12859,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/regles_forme_canonique.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/regles_redactionnelles",
@@ -12859,7 +12873,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/regles_redactionnelles.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/structure_ppl",
@@ -12873,7 +12887,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/structure_ppl.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/procedures/test_rattachement",
@@ -12887,7 +12901,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/procedures/test_rattachement.md",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/referentiels/articles_ouverts_plf2027",
@@ -12901,7 +12915,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/referentiels/articles_ouverts_plf2027.tsv",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/referentiels/articles_ouverts_plfss2027",
@@ -12915,7 +12929,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/referentiels/articles_ouverts_plfss2027.tsv",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/referentiels/releves_transversaux_plf2027",
@@ -12929,7 +12943,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/referentiels/releves_transversaux_plf2027.tsv",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/referentiels/releves_transversaux_plfss2027",
@@ -12943,7 +12957,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/referentiels/releves_transversaux_plfss2027.tsv",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/tests/jouer",
@@ -12957,7 +12971,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/tests/jouer.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/tests/socle",
@@ -12971,7 +12985,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/tests/socle.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/tests/test_docx",
@@ -12985,7 +12999,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/tests/test_docx.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/tests/test_droit",
@@ -12999,7 +13013,21 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/tests/test_droit.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
+  },
+  {
+   "role": "fichier:paquet/machine_v2_0/tests/test_fuite",
+   "chemin": "paquet/machine_v2_0/tests/test_fuite.py",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/paquet/machine_v2_0/tests/test_fuite.py",
+   "releve": true,
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/tests/test_integrite",
@@ -13013,7 +13041,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/tests/test_integrite.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/tests/test_recette",
@@ -13027,7 +13055,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/tests/test_recette.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:paquet/machine_v2_0/tests/test_socles",
@@ -13041,7 +13069,7 @@
    "voie": "depot",
    "chemin_coffre": "chantier/paquet/machine_v2_0/tests/test_socles.py",
    "releve": true,
-   "famille": "méthode"
+   "famille": "outillage"
   },
   {
    "role": "fichier:racine/DEMARRAGE",
@@ -13603,6 +13631,7 @@
    "appareil/lecture_en_creux.py",
    "appareil/leviers_collocs.py",
    "appareil/manifeste.py",
+   "appareil/motifs_locaux_atelier.txt",
    "appareil/nomenclature_lolf.py",
    "appareil/noter_eval_disposition.py",
    "appareil/noter_eval_expose.py",
@@ -13845,6 +13874,7 @@
    "paquet/machine_v2_0/tests/socle.py",
    "paquet/machine_v2_0/tests/test_docx.py",
    "paquet/machine_v2_0/tests/test_droit.py",
+   "paquet/machine_v2_0/tests/test_fuite.py",
    "paquet/machine_v2_0/tests/test_integrite.py",
    "paquet/machine_v2_0/tests/test_recette.py",
    "paquet/machine_v2_0/tests/test_socles.py",
@@ -14057,10 +14087,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 889,
-  "au_coffre": 831,
-  "au_depot": 372,
-  "derives": 307,
+  "artefacts": 891,
+  "au_coffre": 833,
+  "au_depot": 374,
+  "derives": 308,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

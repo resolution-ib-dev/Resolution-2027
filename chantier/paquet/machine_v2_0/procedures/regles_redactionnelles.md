@@ -118,7 +118,7 @@ CE 12 mars 1975 Sieur Bailly.
 
 **Deux HTML horodatés par session** : `Constitution_3col_YYYYMMDD.html` et `LOLF_3col_YYYYMMDD.html` — uploadés dans le projet après chaque session, ils sont les points de vérité courants pour chacun des deux chantiers.
 
-**Les documents joints au projet sont la référence à date pour tous les fils.** Un fil produit dans `/mnt/user-data/outputs`, l'utilisateur téléverse, le document devient la référence. Rien n'est durable avant téléversement : `/mnt/project` est en lecture seule et `/mnt/skills/user` n'est pas persistant.
+**Les documents joints au projet sont la référence à date pour tous les fils.** Un fil produit un fichier, vous le versez au projet, et le document devient la référence. **Rien n'est durable avant ce versement** : ce qui reste dans un fil est perdu avec lui.
 
 **Un fil par phase de travail**, non par document. Chaque fil met à jour les documents que sa phase touche et signale les mises à jour dues aux autres.
 

@@ -33,6 +33,7 @@ MODULES = [
     ("droit", "base de droit et péremption des relevés"),
     ("socles", "régénération des socles sur les textes enregistrés"),
     ("recette", "recette de bout en bout sur le mini-lot"),
+    ("fuite", "aucune marque de l'atelier d'origine"),
 ]
 
 

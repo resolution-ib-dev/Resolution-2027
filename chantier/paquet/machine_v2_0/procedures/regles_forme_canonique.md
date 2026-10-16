@@ -1,7 +1,7 @@
 # FORME CANONIQUE, ARRONDIS ET APPROXIMATIONS — 20260820 v2
 
 Règles de décision applicables à toute émission d'une grandeur du corpus
-Résolution, et à la rédaction des deux champs écrits du référentiel des
+de l'atelier, et à la rédaction des deux champs écrits du référentiel des
 positions. Elles complètent le `Contrat_projection_REF_20260820_v2.md`, dont
 elles précisent les règles d'émission 5 à 7.
 
@@ -191,7 +191,7 @@ Les règles ci-dessus gouvernent le contrôle interne — ce que le corpus émet
 En compatibilité externe, l'examen porte sur l'ordre de grandeur et sur la
 compatibilité doctrinale, non sur la forme. Une proposition venue du dehors qui
 écrit 9 000 € là où le corpus porte 8 800 € est compatible : l'écart est un
-arrondi correct au rang supérieur. La même écriture dans un livrable Résolution
+arrondi correct au rang supérieur. La même écriture dans un livrable
 est une valeur nouvelle, et se corrige.
 
 C'est la même valeur, jugée sous deux régimes. La frontière est l'origine du

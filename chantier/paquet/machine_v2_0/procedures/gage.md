@@ -1,8 +1,7 @@
 # Le gage — procédure
 
-Reconstruit le 20261016 depuis la méthode que le corpus Résolution porte à
-`livrables/mecanique_gages_restitutions_20260929.md`, § 1 et § 3, et à la règle
-de tenue de `livrables/registre_sources_gage.md`. **La présente pièce ne porte
+Reconstruit le 20261016 depuis la mécanique de gage et la règle de tenue du
+registre des sources de son atelier d'origine. **La présente pièce ne porte
 que la méthode** : les montants, les réservoirs et les arbitrages d'ordre d'un
 projet donné lui appartiennent et ne se transmettent pas.
 

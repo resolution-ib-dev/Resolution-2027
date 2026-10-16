@@ -3,7 +3,7 @@
 """Impression d'une liasse d'amendements en .docx déposable.
 
 Reconstruit le 20261016 depuis sa spécification, qui est
-`methode/etats/NUIT_8_impression_20261008.md` du corpus Résolution : table des
+la spécification d'impression de son atelier d'origine : table des
 conventions de source, typographie, mécanisme de saut de page, champs `PAGEREF`,
 règle de recollage, invariant de caractères. Le générateur de la version 1.4 du
 paquet est périmé — il partitionnait sur `\\newpage`, que les liasses courantes ne

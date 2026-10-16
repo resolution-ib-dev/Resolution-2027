@@ -101,7 +101,7 @@ où poser le clone · `--peremption N` déplace le seuil, qui est de 45 jours.
 python3 tests/jouer.py
 ```
 
-Cinq modules, et chacun dit ce qu'il mesure :
+Six modules, et chacun dit ce qu'il mesure :
 
 | module | ce qu'il prouve |
 |---|---|
@@ -110,13 +110,14 @@ Cinq modules, et chacun dit ce qu'il mesure :
 | `test_droit` | la base répond, son millésime est frais, un article absent lève, **et aucun relevé n'est périmé** |
 | `test_socles` | les socles se régénèrent **à l'octet** depuis les textes enregistrés |
 | `test_recette` | la chaîne rend un amendement déposable de bout en bout |
+| `test_fuite` | aucune marque de l'atelier d'origine n'a suivi le paquet — **joué avant livraison, à l'atelier** ; chez vous il sort en `ABSENT`, la liste de motifs n'étant pas livrée |
 
 **Lire le bilan.** `ÉCHEC` — une mesure contredit l'attendu : rien ne se livre.
 `ABSENT` — la mesure n'a pas eu lieu, faute d'une pièce ; **ce n'est pas un
 succès**, et le bilan nomme ce qui manque. `PASSE` — la mesure a eu lieu et elle
 concorde.
 
-Deux `ABSENT` sont normaux sur une installation neuve : `test_socles` sans les
+Trois `ABSENT` sont normaux sur une installation neuve : `test_fuite` faute de sa liste de motifs : `test_socles` sans les
 deux PDF des textes déposés, et le temps 2 de `test_recette` tant que vous
 n'avez pas fait produire votre première pièce.
 
@@ -167,7 +168,7 @@ deux grammaires d'adresse, donc deux points de vérité.
 
 | | |
 |---|---|
-| version | **2.0**, 20261016 |
+| version | **2.0.1**, 20261016 |
 | textes de référence | PLF 2027 n° 3210 · PLFSS 2027 n° 3211 |
 | base de droit | 70 textes |
 | manifeste | `MANIFESTE.md`, une ligne par pièce avec octets et SHA-256 |

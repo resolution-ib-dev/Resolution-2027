@@ -10,7 +10,9 @@ confrontation de son propre manifeste, **3 reprises dans leur état avancé du d
 **Arbitrage tenu** : « une version à jour » commande l'état du dépôt. Les trois pièces que
 le dépôt porte dans un état postérieur à la v1.4 sont reprises dans cet état, non gelées.
 
-**Paquet** : 37 fichiers, 452 109 octets.
+**Version** : 2.0.1, 20261016 — six fuites de l'atelier retirées, sixième module de test ajouté.
+
+**Paquet** : 38 fichiers, 456 905 octets.
 
 ## Ce qui change par rapport à la v1.4
 
@@ -25,11 +27,21 @@ le dépôt porte dans un état postérieur à la v1.4 sont reprises dans cet ét
   qui les a relevés.
 - **`appareil/controle_sortie.py`, `procedures/regles_forme_canonique.md` et
   `procedures/regles_redactionnelles.md`** : l'état du dépôt, postérieur à la v1.4.
-- **`tests/` est neuf** — cinq modules et un lanceur. La v1.4 n'en portait aucun : elle
+- **`tests/` est neuf** — six modules et un lanceur. La v1.4 n'en portait aucun : elle
   prouvait ses pièces par un manifeste, jamais son produit par une mesure.
 - **`mini-lot/` reconstruit**, sa sortie attendue étant une pièce réelle de la liasse du
   dépôt 2027 et non un spécimen écrit pour le test.
 - **`LISEZ-MOI.md` reconstruit**, § 4 refait sur la chaîne de test.
+
+## Le troisième défaut, et il vient du dépôt
+
+Le relevé de fuites joué le 20261016 sur le paquet versé a trouvé **13 occurrences
+de marques de l'atelier dans 7 pièces**. Huit sont tolérées et déclarées pièce par pièce
+— l'adresse du dépôt public de droit, qu'un tiers doit pouvoir cloner. **Les cinq autres
+étaient des fuites** : le nom du projet d'origine dans trois procédures et un module, et un
+chemin de travail interne dans les règles rédactionnelles. Retirées. Le relevé est devenu
+`tests/test_fuite.py`, sixième module, et la liste de motifs qu'il emploie **ne fait pas
+partie du paquet** : la livrer reviendrait à livrer ce qu'elle protège.
 
 ## Le défaut que les tests ont pris
 
@@ -56,9 +68,9 @@ partait au tiers.**
 
 | fichier | octets | sha256 |
 |---|---:|---|
-| `LISEZ-MOI.md` | 9053 | `6339ce7bb8095326` |
+| `LISEZ-MOI.md` | 9291 | `d66801813ddf34d5` |
 | `appareil/controle_sortie.py` | 18998 | `b2a234400bdfff80` |
-| `appareil/generateur_liasse_docx.py` | 21401 | `98d94dcb9ffafdd8` |
+| `appareil/generateur_liasse_docx.py` | 21389 | `9765fef527f67b90` |
 | `appareil/index_mesures_2027.py` | 6159 | `3065070b9568da98` |
 | `appareil/installer_droit.py` | 14358 | `0fecc20ec4ca01a1` |
 | `appareil/pieces_nommees.py` | 4028 | `ae065c451f5e7ad4` |
@@ -75,21 +87,22 @@ partait au tiers.**
 | `procedures/domaine_lfss_LO111-3.md` | 35999 | `c7fc7f96e0527e4f` |
 | `procedures/gabarit_expose_sommaire.md` | 7785 | `21a2a6e98b9e91ca` |
 | `procedures/gabarit_liste_articles.md` | 9155 | `9af348ba4f0e3a1a` |
-| `procedures/gage.md` | 5384 | `1073b8df7e5eab75` |
+| `procedures/gage.md` | 5297 | `7b192fb751514a00` |
 | `procedures/passation_droit_renvois.md` | 2988 | `a4c5070f89e64b1f` |
 | `procedures/procedure_vecteurs.md` | 12162 | `e6b4352460d5c291` |
-| `procedures/regles_forme_canonique.md` | 16892 | `42ecec9215b95a2a` |
-| `procedures/regles_redactionnelles.md` | 17192 | `66e597764b5b8546` |
+| `procedures/regles_forme_canonique.md` | 16881 | `1e2e06ad961119f4` |
+| `procedures/regles_redactionnelles.md` | 17141 | `5d91a38b33e918fe` |
 | `procedures/structure_ppl.md` | 12771 | `514483c5b2013301` |
 | `procedures/test_rattachement.md` | 12778 | `3958ff4420857f4a` |
 | `referentiels/articles_ouverts_plf2027.tsv` | 25306 | `5abd05f589dbae63` |
 | `referentiels/articles_ouverts_plfss2027.tsv` | 8928 | `5d771439ae814b52` |
 | `referentiels/releves_transversaux_plf2027.tsv` | 54192 | `a5a4c50322cea546` |
 | `referentiels/releves_transversaux_plfss2027.tsv` | 22884 | `73c8176a4a4615c0` |
-| `tests/jouer.py` | 3537 | `adfb62375ef24b2e` |
+| `tests/jouer.py` | 3592 | `1f8357c7f39aff0f` |
 | `tests/socle.py` | 3010 | `140c5a7ac8480e58` |
 | `tests/test_docx.py` | 5579 | `54d163e7435ac326` |
 | `tests/test_droit.py` | 5963 | `27208b61c24af9d1` |
+| `tests/test_fuite.py` | 4664 | `a042b39bd1338c1c` |
 | `tests/test_integrite.py` | 2682 | `b9b75266aea77f95` |
 | `tests/test_recette.py` | 7102 | `9c56bd5df014433b` |
 | `tests/test_socles.py` | 5165 | `ad62c2e912044494` |
