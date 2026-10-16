@@ -125,9 +125,18 @@ savoir. **Trente-cinq branches** s'étaient accumulées au 16 octobre, dont tren
 entièrement fusionnées et trois mortes de péremption. C'est au fil qui écrit le
 mandat de le prévoir, jamais à l'auteur de le réclamer.
 
-**Le mandat le dit ainsi** : « après la fusion, supprimer la branche distante, et
-rendre la liste des branches distantes restantes avec, pour chacune, sa date et son
-état — fusionnée, en avance de n commits, ou périmée. »
+**Mais un fil claude.ai/code ne peut pas supprimer une branche distante** : le proxy
+répond `403` à tout coup, éprouvé cinq fois le 20261016. La règle se tient donc d'un
+réglage du dépôt, non d'un mandat : **« Automatically delete head branches »**, activé
+une fois dans les réglages de `Resolution-2027`, supprime la branche à chaque fusion
+et pour toujours. Les branches déjà accumulées se suppriment à la main dans
+l'interface GitHub, une seule fois.
+
+**Le mandat dit seulement** : « rendre la liste des branches distantes restantes avec,
+pour chacune, sa date et son état — fusionnée, en avance de n commits, ou périmée. »
+Un fil qui compte des branches les compte sur le distant, jamais sur une liste
+héritée : deux erreurs de décompte en sont sorties le 20261016, une branche fantôme
+et un doublon.
 
 **Tout sas s'inscrit d'une ligne à `methode/sas.md` en fin de fil.** Un **sas**
 est un document du coffre qui porte ce qu'un fil a fabriqué et que le corpus n'a

@@ -69,7 +69,7 @@ CONTENEUR = {'.cache', '.npm', '.npm-global', '.config', '.ssh', '.local',
              '.cargo', '.venv', '.ipython', '.gitconfig', '.wget-hsts',
              '.bash_history', '.python_history', '.profile', '.bashrc'}
 IGNORES = {'.git', '__pycache__', '.claude', 'node_modules', 'coffre',
-           'plf', 'plfss', 'plf2027', 'droit', 'eval', 'machine', 'skills_maj',
+           'plf', 'plfss', 'plf2027', 'droit', 'eval', 'skills_maj',
            'epreuve',
            # Le dépliage du paquet diffusable : un dérivé du pli versé, refait
            # par `make`, et que `.gitignore` exclut.
