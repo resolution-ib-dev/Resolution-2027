@@ -1,4 +1,4 @@
-# Liasse d’amendements au projet de loi de financement de la sécurité sociale pour 2027
+**Liasse d’amendements au projet de loi de financement de la sécurité sociale pour 2027**
 
 Résolution – octobre 2026
 
@@ -10,7 +10,7 @@ La présente liasse compte huit amendements.
 |---|---|---|
 | 1 | Article additionnel après l’article 7 | Exonérations de cotisations sur les salaires et prélèvements uniformes sur les revenus d’activité : abroger les premières et rendre les seconds au salaire net |
 | 2 | Article additionnel après l’article 14 | Retirer de la clé de répartition la part qui n’a plus de produit |
-| 3 | Article additionnel après l’article 14 | Taxe sur les salaires : l’éteindre par marches et l’abroger |
+| 3 | Article additionnel après l’article 14 | Taxe sur les salaires : l’éteindre par marches et l’abroger |
 | 4 | Article additionnel après l’article 30 | Personne ne paie plus de sa santé qu’une part fixe de ses ressources |
 | 5 | Article additionnel après l’article 35 | Indexations sociales : retirer l’automaticité à sa source et rendre la revalorisation au vote |
 | 6 | Article additionnel après l’article 35 | Un régime socle unique remplace les régimes de base par répartition |
@@ -213,7 +213,7 @@ L’effet est la disparition, à compter du 1er décembre 2027, de 114,46 milli
 
 ---
 
-## Amendement n° 3 [Taxe sur les salaires : l’éteindre par marches et l’abroger]
+## Amendement n° 3 [Taxe sur les salaires : l’éteindre par marches et l’abroger]
 
 AMENDEMENT
 

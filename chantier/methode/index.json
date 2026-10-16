@@ -10131,6 +10131,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/md2docx",
+   "chemin": "appareil/md2docx.js",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/md2docx.js",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/pieces_nommees",
    "chemin": "appareil/pieces_nommees.py",
    "rang": "appareil",
@@ -13787,6 +13801,7 @@
    "appareil/lecture_en_creux.py",
    "appareil/leviers_collocs.py",
    "appareil/manifeste.py",
+   "appareil/md2docx.js",
    "appareil/nomenclature_lolf.py",
    "appareil/noter_eval_disposition.py",
    "appareil/noter_eval_expose.py",
@@ -14252,9 +14267,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 902,
-  "au_coffre": 844,
-  "au_depot": 386,
+  "artefacts": 903,
+  "au_coffre": 845,
+  "au_depot": 387,
   "derives": 270,
   "sources": 48,
   "non_restaurables": 16,

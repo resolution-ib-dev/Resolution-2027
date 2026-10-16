@@ -50,7 +50,7 @@ prélever sur les employeurs et les salariés une ressource sans emploi.
 
 L'incidence sur le budget de l'État est directe et se lit au texte déposé. Les deux
 contributions couvrent le même besoin et se déterminent ensemble : laisser celle de
-l'assurance chômage en place, c'est maintenir une activité que la loi interrompt, et
+l'assurance chômage en place, c'est maintenir une activité que la loi interrompt et
 la supprimer sans supprimer la dépense ferait peser l'écart sur la contribution de
 l'État, ouverte à 1 162 900 000 euros au programme « Accès et retour à l'emploi »
 (état B)¹. L'amendement de crédits qui minore ce programme et le présent article
