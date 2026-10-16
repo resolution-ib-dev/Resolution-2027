@@ -117,6 +117,18 @@ soi-même, c'est deviner, et deux fils l'ont déjà fait faux.
 fils qui produisent leurs propres fichiers sont parallélisables. Un seul fil joue
 `make coffre`.
 
+**Une branche meurt avec sa fusion** (inscrit le 20261016). Tout mandat de
+versement se termine par la suppression de la branche distante, dans le même fil et
+après la fusion. Un fil qui ne la supprime pas la laisse pour toujours : aucun autre
+ne sait si elle porte encore quelque chose, et il faut rouvrir son diff pour le
+savoir. **Trente-cinq branches** s'étaient accumulées au 16 octobre, dont trente
+entièrement fusionnées et trois mortes de péremption. C'est au fil qui écrit le
+mandat de le prévoir, jamais à l'auteur de le réclamer.
+
+**Le mandat le dit ainsi** : « après la fusion, supprimer la branche distante, et
+rendre la liste des branches distantes restantes avec, pour chacune, sa date et son
+état — fusionnée, en avance de n commits, ou périmée. »
+
 **Tout sas s'inscrit d'une ligne à `methode/sas.md` en fin de fil.** Un **sas**
 est un document du coffre qui porte ce qu'un fil a fabriqué et que le corpus n'a
 pas encore absorbé — modules d'appareil, entrées de registre, règles de
