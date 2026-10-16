@@ -550,6 +550,11 @@ controle:
 	@if [ -f referentiels/etatB_2027_bg.tsv ] && [ -f referentiels/ratios_cp_ae_pap2026.tsv ]; then \
 	  $(PY) $(APP)/controle_credits_liasse.py livrables/depot_2027/P2/*.md || true; \
 	 else echo "socle de crédits absent — tables de crédits non contrôlées" | tee -a $(SAUTEES); fi
+	@if [ -f referentiels/sort_prelevements_20261015.tsv ] && \
+	    { [ -d depot/data ] || [ -d ../data ] || [ -d droit/data ]; }; then \
+	  $(PY) $(APP)/controle_sieges_prelevements.py \
+	    referentiels/sort_prelevements_20261015.tsv; \
+	 else echo "tri des prélèvements ou dépôt de droit absent — sièges non contrôlés" | tee -a $(SAUTEES); fi
 	@$(PY) $(APP)/controle_lexique.py livrables site || true
 	@cd $(APP) && $(PY) controle_structurel.py ../$(REF_JSON)
 	@cd $(APP) && $(PY) controle_arithmetique.py ../$(REF_JSON)

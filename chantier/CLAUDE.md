@@ -87,8 +87,33 @@ elle prime sur toute mémoire de fil.
   mesure** : il ignore le CP résiduel, qui ne vit qu'au § 15 et sur la seule part
   État de 2027. Tout chiffre de solde se dit avec sa couche, sans exception.
 - **Un référentiel qui porte ses défauts ne se publie pas**, même mis en forme.
-  Le tri des prélèvements en porte trois : 188 rangs sans rendement, 105 sièges
-  non établis, 420 rangs contre 438 au manifeste.
+  Le tri des prélèvements n'en porte plus qu'un : **186 rangs sans rendement
+  2026**, et il ne se comble pas au dépôt. Les trois sources ont été éprouvées le
+  20261016 sur la totalité des rangs vides : l'annexe des ressources affectées en
+  remplit 2, l'état A du texte déposé 0, et la liste IFRAP ne porte aucun montant.
+  **Les 186 restants demandent une source extérieure au dépôt**, donc un arbitrage
+  sur la source.
+
+  *Deux défauts sont clos le 20261016.* **Le rapprochement sur la liste IFRAP** :
+  420 libellés sur 420 couverts, 0 orpheline, 14 rangs d'une autre origine
+  déclarée. Il était écrit « 420 rangs contre 438 au manifeste, écart non
+  expliqué » — formule fausse : **le 438 est le chiffre annoncé par la pièce
+  IFRAP, dont les tables ne publient que 421**, écart de 16 sur les cotisations,
+  relevé au § 5 de `reference/nomenclature_prelevements_ifrap.md` dès le
+  20260902, interne à la source. En diffusion, citer 438 pour la pièce et 421
+  pour le référentiel, jamais l'un pour l'autre. **La colonne `libelle_ifrap`
+  porte des cellules à plusieurs valeurs jointes par « ; »** : une jointure qui
+  ne les éclate pas fabrique 89 faux écarts. **Le second est le relevé des
+  sièges** : les 105 sièges non établis sont tombés à **14**. Les 91 autres se
+  répartissent en 51 relevés à l'annexe des ressources affectées, 26 relevés au
+  dépôt de droit article par article, 1 par renvoi exprès, 3 sièges abrogés — dont
+  un relevé dans un article en vigueur qui porte « (Abrogé) » à la subdivision
+  instituante —, 3 agrégats sans siège par construction, 1 ressource propre de
+  l'Union, 2 sièges réglementaires, 3 créations du PLF sans article en vigueur et
+  1 passé à contrôler. **Le contrôle qui le prouve est
+  `appareil/controle_sieges_prelevements.py`** ; il rejoue chaque siège sur sa
+  pièce et refuse le versement sur un seul échec. Les deux défauts restants
+  tiennent, et le classeur ne se publie pas.
 - **Le CP se lit avant de se calculer** (inscrit le 20261016). Les crédits ouverts se lisent à
   l'état B du texte déposé avant toute minoration : comparer à un exercice antérieur a fabriqué un
   risque bloquant qui n'existait pas. Hors titre 2, **AE ≥ CP**, et l'égalité ne se pose pas, elle

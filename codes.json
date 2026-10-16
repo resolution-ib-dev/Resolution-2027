@@ -6,7 +6,7 @@
   "_deja_couverts_non_dupliques_20260904": "La liste des textes à ajouter du 20260904 nommait aussi « code de l'énergie », « code des douanes », « code général des collectivités territoriales », « livre des procédures fiscales » et « code de l'environnement » — les cinq sont déjà portés par les vingt codes ci-dessous, par identifiant. Ne pas les dupliquer : leurs adresses manquantes sont un problème d'article, pas de texte absent.",
   "_releve_le": "20260902",
   "_temoins": "Le témoin du CGI est l'article 279 : c'est lui qui manquait aux deux premiers extraits, avec tout le bloc TVA, sans que rien ne le dise. Sa version courante porte l'état ABROGE_DIFF — applicable, et abrogée au 1er janvier 2027. D'où la règle qui en sort : c'est l'intervalle de dates qui décide de l'applicabilité, jamais l'état.",
-  "_couverture": "Les vingt codes couvrent la table de vérité-terrain de l'appareil d'éval, plus le code civil et le code général de la propriété des personnes publiques, qui lui manquaient (A-275). Le coût du balayage ne dépend pas du nombre de codes : l'archive se lit en entier dans tous les cas. Ajouter un code coûte quelques mégaoctets, pas une minute.",
+  "_couverture": "Les vingt codes couvrent la table de vérité-terrain de l'appareil d'éval, plus le code civil et le code général de la propriété des personnes publiques, qui lui manquaient (A-275). Le coût du balayage ne dépend pas du nombre de codes : l'archive se lit en entier dans tous les cas. Ajouter un code coûte quelques mégaoctets, pas une minute. **Trois codes ajoutés le 20261016**, par la voie de l'intitulé et non du `legitext` : le fil qui les a demandés n'avait pas l'archive sous la main, et un identifiant relevé ailleurs qu'à l'archive n'est pas un relevé. Code de la sécurité intérieure, code de la route et code des postes et des communications électroniques ferment trois lignes du tri des prélèvements — les « orphelins » des clubs de jeux, la redevance d'examen du code de la route, les taxes sur les stations et liaisons radioélectriques privées. Le nom court `cpce` étant déjà pris par le code des procédures civiles d'exécution, celui des postes prend `postes`. Les témoins sont proposés et non rouverts : s'ils ne mordent pas, l'extraction échoue en les nommant, ce qui est le comportement voulu.",
   "_identifiants": "Les vingt identifiants LEGITEXT et les vingt témoins sont relevés sur legifrance.gouv.fr le 20260902, un par un. Aucun n'est déduit d'un autre.",
   "codes": [
     {
@@ -379,6 +379,22 @@
       "cle": "ordonnance n° 2025-1247 du 17 décembre 2025",
       "court": "tva2025",
       "temoin": "2"
+    },
+    {
+      "cle": "code de la sécurité intérieure",
+      "court": "securite_interieure",
+      "temoin": "L321-1"
+    },
+    {
+      "cle": "code de la route",
+      "legitext": "LEGITEXT000006074228",
+      "court": "route",
+      "temoin": "L221-1"
+    },
+    {
+      "cle": "code des postes et des communications électroniques",
+      "court": "postes",
+      "temoin": "L33-1"
     }
   ],
   "_temoin_non_epingle": "Un `temoin` à null veut dire : non épinglé, faute d'un article dont l'applicabilité soit prouvée. Le contrôle est alors DÉSACTIVÉ pour ce code, le manifeste le déclare en clair, et le journal l'annonce. À épingler au tour suivant depuis `exemples_applicables` du manifeste. Cas du code des douanes : l'article 2, retenu le 20260902 sur une date d'URL Légifrance prise à tort pour une preuve de vigueur, est abrogé depuis le 1er mai 2026 — et c'est le témoin qui l'a dit."
