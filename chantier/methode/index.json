@@ -9837,6 +9837,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/chaine_credits",
+   "chemin": "appareil/chaine_credits.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/chaine_credits.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/controle_credits_liasse",
    "chemin": "appareil/controle_credits_liasse.py",
    "rang": "appareil",
@@ -10089,6 +10103,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/generer_liasse_p2",
+   "chemin": "appareil/generer_liasse_p2.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/generer_liasse_p2.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/index_mesures_2027",
    "chemin": "appareil/index_mesures_2027.py",
    "rang": "appareil",
@@ -10169,6 +10197,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/appareil/socle_texte_2027.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
+   "role": "fichier:appareil/tablette_p2",
+   "chemin": "appareil/tablette_p2.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/tablette_p2.py",
    "releve": true,
    "famille": "outillage"
   },
@@ -10481,6 +10523,20 @@
    "famille": "juridique"
   },
   {
+   "role": "fichier:livrables/depot_2027/P2/n9_france_travail_contribution",
+   "chemin": "livrables/depot_2027/P2/n9_france_travail_contribution.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/depot_2027/P2/n9_france_travail_contribution.md",
+   "releve": true,
+   "famille": "juridique"
+  },
+  {
    "role": "fichier:livrables/depot_2027/SS/.gitkeep",
    "chemin": "livrables/depot_2027/SS/.gitkeep",
    "rang": "derive",
@@ -10701,6 +10757,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/livrables/suivi_trajectoire_20261015.md",
+   "releve": true,
+   "famille": "bac à sable"
+  },
+  {
+   "role": "fichier:livrables/tablette_P2_20261016",
+   "chemin": "livrables/tablette_P2_20261016.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/tablette_P2_20261016.md",
    "releve": true,
    "famille": "bac à sable"
   },
@@ -12875,6 +12945,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:methode/procedure_amendement_credits",
+   "chemin": "methode/procedure_amendement_credits.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/procedure_amendement_credits.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:methode/procedure_liasse_P1_20261009",
    "chemin": "methode/procedure_liasse_P1_20261009.md",
    "rang": "methode",
@@ -13629,6 +13713,7 @@
    "appareil/chaine_a.py",
    "appareil/chaine_a_controles.py",
    "appareil/chaine_a_extraire.py",
+   "appareil/chaine_credits.py",
    "appareil/chantier_vecteurs.py",
    "appareil/cles_eval_expose.py",
    "appareil/cles_eval_gl.py",
@@ -13692,6 +13777,7 @@
    "appareil/generer_index.py",
    "appareil/generer_interface.py",
    "appareil/generer_inventaire.py",
+   "appareil/generer_liasse_p2.py",
    "appareil/generer_ref_chiffres.py",
    "appareil/generer_releve_notes.py",
    "appareil/generer_site.py",
@@ -13735,6 +13821,7 @@
    "appareil/socle_texte_2027.py",
    "appareil/sources_chiffres.py",
    "appareil/structure_fiches.py",
+   "appareil/tablette_p2.py",
    "appareil/texte_livre.py",
    "appareil/tirage/tirage_p1.py",
    "appareil/tracer_economies.py",
@@ -13763,6 +13850,7 @@
    "livrables/depot_2027/LIASSE_PLF_P2.md",
    "livrables/depot_2027/P1/.gitkeep",
    "livrables/depot_2027/P2/.gitkeep",
+   "livrables/depot_2027/P2/n9_france_travail_contribution.md",
    "livrables/depot_2027/SS/.gitkeep",
    "livrables/depot_2027/sans_colonne/.gitkeep",
    "livrables/fiche_reservoir_arguments_livre_20261003.md",
@@ -13779,6 +13867,7 @@
    "livrables/releve_siege_prelevements_20261001.md",
    "livrables/reservoir_arguments_livre.md",
    "livrables/suivi_trajectoire_20261015.md",
+   "livrables/tablette_P2_20261016.md",
    "livrables/valise_phase1_20261002.md",
    "machine/00_COMMENCER_ICI.md",
    "machine/01_DEMARRER.md",
@@ -13934,6 +14023,7 @@
    "methode/passation_20261009.md",
    "methode/passation_20261015.md",
    "methode/passe_numeros_et_corrections_20261004.md",
+   "methode/procedure_amendement_credits.md",
    "methode/procedure_liasse_P1_20261009.md",
    "methode/procedure_revue_fond_depot_2027.md",
    "methode/purge_controle_nuit_reste_20261004.md",
@@ -14162,10 +14252,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 896,
-  "au_coffre": 838,
-  "au_depot": 380,
-  "derives": 268,
+  "artefacts": 902,
+  "au_coffre": 844,
+  "au_depot": 386,
+  "derives": 270,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,
