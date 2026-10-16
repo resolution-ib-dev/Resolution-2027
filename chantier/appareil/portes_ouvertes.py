@@ -58,12 +58,27 @@ def blanchir(t):
 
 
 # --- règle 7 : le contexte de pièce ------------------------------------------
+# Grammaire élargie le 20261016 : elle tronquait les adresses longues, que la
+# frontière de mot rejetait ensuite sans les faire entrer. Trois manques.
+#  - le suffixe latin : l'alternative prenait « ter » avant « terdecies », et
+#    « 199 terdecies-0 » se lisait « 199 ter ». Les composés passent devant, et
+#    le « -0 » qui suit un suffixe se lit avec lui ;
+#  - la lettre de rang : une seule était lue, « 235 ter XB » se lisait
+#    « 235 ter X ». Jusqu'à trois capitales, à condition qu'aucune lettre ni
+#    chiffre ne suive — « article 4 Les » reste « 4 » ;
+#  - l'ordinal : « article 1er » se lisait « 1 », et partait au mauvais texte.
+LATIN = (r"(?:vicies|novodecies|octodecies|septdecies|sexdecies|quindecies"
+         r"|quaterdecies|terdecies|duodecies|undecies|decies|nonies|octies"
+         r"|septies|sexies|quinquies|quater|ter|bis)(?![\w])")
+RANG = r"[A-Z]{1,3}(?![\w])"
+
 ADRESSE = re.compile(
     r"\b(?:articles?|art\.)\s+"
-    r"(?P<a>[LRD]\.?\s?\d+(?:[\-‑]\d+)*(?:\s(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies|undecies|duodecies|terdecies|quaterdecies|quindecies|sexdecies|septdecies|octodecies|novodecies|vicies))?"
-    r"|\d+(?:[\-‑]\d+)*(?:\s?(?:-0)?\s?[A-Z](?:\s(?:bis|ter|quater))?)?"
-    r"(?:\s(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies|undecies|duodecies|terdecies|quaterdecies|quindecies|sexdecies|septdecies|octodecies|novodecies|vicies))?"
-    r"(?:\s[A-Z])?)")
+    r"(?P<a>[LRD]\.?\s?\d+(?:[\-‑]\d+)*(?:\s" + LATIN + r")?"
+    r"|1er(?![\w])"
+    r"|\d+(?:[\-‑]\d+)*(?:\s?(?:-0)?\s?" + RANG + r"(?:\s" + LATIN + r")?)?"
+    r"(?:\s" + LATIN + r"(?:-0)?(?![\w\-])(?:\s" + RANG + r")?)?"
+    r"(?:\s" + RANG + r")?)")
 
 SUITE = re.compile(
     r"\s*(?:,|\set\s|\sou\s)\s*"
@@ -91,14 +106,88 @@ def normalise(a):
     return a.replace("‑", "-")
 
 
+# --- les cellules de tableau coupées en fin de ligne ---------------------------
+# Règle ajoutée le 20261016. Dans un tableau du texte enregistré — l'état des
+# taxes affectées de l'article 42 du PLF 2027 —, une adresse se coupe au tiret en
+# fin de cellule, et sa suite est une ou deux lignes plus bas, à la même colonne :
+# « (création) et art. L. 116- », puis « 1, 6° du code du cinéma ». Lue telle
+# quelle, la ligne donnait « L. 116 », que la frontière rejette.
+#
+# L'adresse se recompose à part, sur le texte brut, et **le texte du dispositif
+# n'est pas réécrit** : le réécrire déplaçait les pièces des autres rangées et
+# changeait leur rattachement. Sa pièce se lit dans la seule suite de la
+# cellule — ses lignes à la même colonne, jusqu'au premier blanc — et doit lui
+# être accolée. À défaut elle sort `indéterminé`, jamais sous la pièce
+# précédente, qui est celle d'une autre rangée ; un nom de pièce coupé entre
+# deux colonnes (« code du cinéma » sans « et de l'image animée ») n'est pas
+# reconnu, et c'est voulu.
+COUPEE = re.compile(r"\b(?:articles?|art\.)\s+"
+                    r"(?P<a>[LRD]\.\s?\d+(?:[\-‑]\d+)*[\-‑])(?=\s{2,}|\s*$)")
+SUITE_CELLULE = re.compile(r"\d+(?:[\-‑]\d+)*\b")
+NOUVELLE_RANGEE = re.compile(r"^\s{0,4}\d{1,3}\s{2,}\S")
+ACCOLEE = re.compile(r"\s*(?:,\s*\d+°\s*)?"
+                     r"(?:(?:,|\s+et)\s+L\.\s?\d+(?:[\-‑]\d+)*\s*)*"
+                     r"(?:du|de\s+la|de\s+l[’'])\s*$")
+
+# Dans la prose, la même coupure — « l'article L. 286- » en fin de ligne, « 5 »
+# en tête de la suivante — se recolle dans le texte même : seul le blanc entre
+# le tiret et le chiffre s'ôte, et aucune pièce ne change de place.
+COUPURE_PROSE = re.compile(r"(?<=\b[LRD]\.\s\d)(\d*(?:[\-‑]\d+)*[\-‑]) (?=\d)")
+
+
+def _fragment(s, c):
+    """Le texte de la cellule qui commence à la colonne `c`, ou None."""
+    if len(s) <= c or s[c] == " " or (c and s[c - 1] != " "):
+        return None
+    g = re.search(r"\s{2,}", s[c:])
+    return s[c:c + (g.start() if g else len(s) - c)]
+
+
+def recollees(texte):
+    """Les adresses coupées en fin de cellule : [(adresse, pièce accolée)]."""
+    lignes = texte.split("\n")
+    out = []
+    for i, l in enumerate(lignes):
+        for m in COUPEE.finditer(l):
+            if INSERTION.search(l[max(0, m.start() - 60):m.start()]):
+                continue
+            ecart = [g.end() for g in re.finditer(r"\s{2,}", l[:m.start()])]
+            c = ecart[-1] if ecart else len(l) - len(l.lstrip())
+            for j in range(i + 1, min(i + 4, len(lignes))):
+                if NOUVELLE_RANGEE.match(lignes[j]) and j > i + 1:
+                    break
+                f = _fragment(lignes[j], c)
+                if f is None:
+                    continue
+                n = SUITE_CELLULE.match(f)
+                if not n:
+                    break
+                morceaux = []
+                for k in range(j, min(j + 3, len(lignes))):
+                    f = _fragment(lignes[k], c)
+                    if f is None:
+                        break
+                    morceaux.append(f)
+                suite = " ".join(" ".join(morceaux).split())
+                adresse = normalise(m.group("a") + n.group(0))
+                reste = suite[n.end():]
+                piece = next((nom for s, e, nom in pieces_nommees.trouver(reste)
+                              if ACCOLEE.match(reste[:s])), None)
+                out.append((adresse, piece or "indéterminé"))
+                break
+    return out
+
+
 def portes(socle):
     lignes = {}
     for art in socle["articles"]:
-        d = blanchir(ALINEA.sub(lambda m: " " * len(m.group(0)), art["dispositif"]))
+        brut = blanchir(ALINEA.sub(lambda m: " " * len(m.group(0)), art["dispositif"]))
+        d = brut
         # Le texte enregistré coupe les noms de pièce et les tournures « de la loi »
         # en fin de ligne. Une fois les citations blanchies, les blancs se
         # ramènent à un seul : les positions ne servent qu'à ordonner, entre elles.
         d = re.sub(r"\s+", " ", d)
+        d = COUPURE_PROSE.sub(r"\1", d)
         if not MODIF.search(d):
             continue
         pieces = pieces_nommees.trouver(d)
@@ -141,7 +230,7 @@ def portes(socle):
             # la ligne (texte enregistré).
             accolee = next((n for s, e, n in pieces
                             if fin_adr <= s <= fin_adr + 40
-                            and re.match(r"\s*(?:du|de\s+la|de\s+l[’'])\s*$", d[fin_adr:s])), None)
+                            and re.match(r"\s*(?:,\s*\d+°\s*)?(?:du|de\s+la|de\s+l[’'])\s*$", d[fin_adr:s])), None)
             fin_phrase = d.find(".", pos)
             fin_phrase = len(d) if fin_phrase < 0 else fin_phrase
             suivante = next((n for s, e, n in pieces if pos < s < fin_phrase), None)
@@ -149,6 +238,17 @@ def portes(socle):
             contexte = accolee or precedente or suivante or "indéterminé"
             cle = (contexte, a)
             e = lignes.setdefault(cle, {"articles": set(), "pages": set()})
+            e["articles"].add(art["numero"])
+            e["pages"].add(art["folio_debut"])
+        vus = {a for _, a, _ in adrs}
+        # Sur le texte blanchi, lignes gardées : une cellule citée entre
+        # guillemets est du texte inséré, et n'ouvre rien.
+        cellules = recollees(brut)
+        rattachees = {a for a, c in cellules if c != "indéterminé"}
+        for a, contexte in cellules:
+            if contexte == "indéterminé" and (a in vus or a in rattachees):
+                continue
+            e = lignes.setdefault((contexte, a), {"articles": set(), "pages": set()})
             e["articles"].add(art["numero"])
             e["pages"].add(art["folio_debut"])
     return lignes
