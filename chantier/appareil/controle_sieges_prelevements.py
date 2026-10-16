@@ -64,9 +64,10 @@ from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RACINE / 'appareil'))
-sys.path.insert(0, str(RACINE / 'depot'))
-import droit
-from chasse_siege import par_annexe, norm, corpus
+# `chasse_siege` résout le dépôt de droit dans ses deux dispositions — sous
+# `depot/` en atelier, un cran au-dessus quand le chantier est sous `chantier/`.
+# On prend son `droit` plutôt que de refaire la résolution ici.
+from chasse_siege import par_annexe, norm, corpus, droit, VOIES_DROIT
 
 DEFAUT = RACINE / 'referentiels/sort_prelevements_20261015.tsv'
 
@@ -90,7 +91,7 @@ def par_id(ident):
 def existe_mais_inapplicable(ident):
     """Vrai si le dépôt porte cet identifiant sans version applicable ce jour."""
     import gzip, json
-    data = Path(droit.__file__).resolve().parent / 'data'
+    data = Path(droit.__file__).resolve().parent / 'data'  # noqa: suit la voie résolue
     for f in data.glob('*.jsonl.gz'):
         for ligne in gzip.open(f, 'rt', encoding='utf-8'):
             a = json.loads(ligne)

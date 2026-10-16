@@ -186,3 +186,39 @@ source à retenir.
 *Relevé de passage, non versé* : l'état A du texte déposé s'extrait proprement du
 socle — 163 lignes, intitulé et évaluation 2027, total 474,2 Md€. Aucun mandat ne
 nomme cette table ; elle n'est donc pas écrite.
+
+## Un outil du chantier doit tourner dans les deux dispositions, et le dépôt n'est pas l'atelier
+
+**20261016, relevé par le fil claude.ai/code au versement.** Le contrôle des
+sièges et sa règle de `make controle` cherchaient le dépôt de droit sous
+`chantier/depot/` — la disposition de l'atelier, où le clone est déplié à la
+racine du chantier. **Dans le dépôt, le chantier est sous `chantier/` et le droit
+est à la racine, un cran au-dessus.** Le contrôle ne trouvait rien, sautait, et
+se comptait en règle sautée : un versement vert qui ne contrôlait rien.
+
+`appareil/chasse_siege.py` résout désormais le dépôt sur trois voies — `depot/`,
+le dossier parent, `droit/` — et échoue en les nommant toutes s'il n'en trouve
+aucune. Le contrôle prend sa résolution au lieu de la refaire, et la condition du
+`Makefile` teste les trois. Éprouvé sur les deux dispositions, même sortie.
+
+**La règle qui en sort** : un module d'appareil qui lit le dépôt de droit ne
+présume jamais de sa place ; il le cherche, et il dit où il a cherché.
+
+## Les trois codes manquants entrent par l'intitulé, non par l'identifiant
+
+**20261016.** `depot/codes.json` passe de 70 à 73 entrées : code de la sécurité
+intérieure, code de la route, code des postes et des communications
+électroniques. Ils ferment trois lignes du tri — les « orphelins » des clubs de
+jeux, la redevance d'examen du code de la route, les taxes sur les stations et
+liaisons radioélectriques privées.
+
+**Les trois prennent la voie de l'intitulé.** Leurs identifiants Légifrance
+avaient été relevés sur des adresses du site ; **un identifiant relevé ailleurs
+qu'à l'archive n'est pas un relevé**, et la voie de l'intitulé résout dans
+l'archive elle-même et échoue en nommant le texte introuvable. Le nom court
+`cpce` étant déjà porté par le code des procédures civiles d'exécution, celui des
+postes prend `postes`. Les témoins — `L321-1`, `L221-1`, `L33-1` — sont proposés
+et non rouverts : s'ils ne mordent pas, l'extraction échoue en les nommant.
+
+Après passage de `extraire_legi.py` dans l'action programmée du dépôt,
+`droit.py etat` doit porter **77 textes au lieu de 74**.

@@ -34,11 +34,28 @@ import csv, difflib, gzip, json, re, sys, unicodedata
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(RACINE / 'depot'))
-try:
-    import droit
-except ImportError:
-    sys.exit("dépôt de droit absent : jouer le clone avant (methode/carte_du_depot.md).")
+
+# Le dépôt de droit vit à DEUX endroits selon la disposition, et les deux sont
+# légitimes. En atelier Cowork, le clone est déplié sous `depot/` à la racine du
+# chantier. Dans le dépôt lui-même, le chantier est sous `chantier/` et le droit
+# est à la racine du dépôt, donc UN CRAN AU-DESSUS. Ne chercher que la première
+# a fait sauter le contrôle des sièges au versement du 20261016, et c'est le fil
+# claude.ai/code qui l'a relevé.
+VOIES_DROIT = (RACINE / 'depot', RACINE.parent, RACINE / 'droit')
+
+
+def _ouvrir_droit():
+    for voie in VOIES_DROIT:
+        if (voie / 'droit.py').is_file() and (voie / 'data').is_dir():
+            sys.path.insert(0, str(voie))
+            import droit as module
+            return module
+    sys.exit("dépôt de droit absent : cherché sous "
+             + ", ".join(str(v) for v in VOIES_DROIT)
+             + " (methode/carte_du_depot.md).")
+
+
+droit = _ouvrir_droit()
 
 DATA = Path(droit.__file__).resolve().parent / 'data'
 ANNEXE = RACINE / 'referentiels/annexe_ressources_affectees_2027.tsv'

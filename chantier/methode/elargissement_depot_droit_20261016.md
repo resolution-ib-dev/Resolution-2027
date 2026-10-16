@@ -32,21 +32,31 @@ L'entrée est un objet à quatre champs — `cle`, `legitext`, `court`, `temoin`
 Le témoin est l'article que `extraire_legi.py` exige de retrouver : sans lui,
 le script échoue plutôt que d'écrire un fichier vide.
 
-| code | `legitext` | `court` | témoin proposé | ligne du tri qu'il ferme |
-|---|---|---|---|---|
-| code de la sécurité intérieure | `LEGITEXT000025503132` | `securite_interieure` | `L321-1` | Sommes constatées par les clubs de jeux au titre des « orphelins » |
-| code de la route | `LEGITEXT000006074228` | `route` | `L221-1` | Redevance pour examen du code de la route |
-| code des postes et des communications électroniques | `LEGITEXT000006070987` | `cpce` | `L33-1` | Taxes sur les stations et liaisons radioélectriques privées |
+**L'ajout est fait** : `depot/codes.json` porte 73 entrées au lieu de 70.
 
-**Les trois identifiants sont relevés sur les adresses de Légifrance, non
-mémorisés.** Les témoins, eux, sont *proposés* : ils n'ont pas été rouverts,
-puisque le dépôt ne porte pas encore ces textes. Le fil qui joue l'ajout les
-confirme à la première extraction, et les corrige si l'un ne mord pas — **un
-témoin qui ne mord pas ne prouve rien sur le code, il prouve que le témoin ne
-mord pas.**
+| code | `court` | témoin | ligne du tri qu'il ferme |
+|---|---|---|---|
+| code de la sécurité intérieure | `securite_interieure` | `L321-1` | Sommes constatées par les clubs de jeux au titre des « orphelins » |
+| code de la route | `route` | `L221-1` | Redevance pour examen du code de la route |
+| code des postes et des communications électroniques | `postes` | `L33-1` | Taxes sur les stations et liaisons radioélectriques privées |
 
-Après ajout, `extraire_legi.py` tourne dans l'action programmée du dépôt, non
-dans l'atelier. `droit.py etat` doit alors porter 77 textes au lieu de 74.
+**Les trois entrées prennent la voie de l'intitulé, non celle du `legitext`.**
+Les identifiants avaient été relevés sur des adresses de Légifrance ; un
+identifiant relevé ailleurs qu'à l'archive n'est pas un relevé, et la voie de
+l'intitulé résout dans l'archive elle-même et échoue en nommant le texte
+introuvable. C'est le comportement prudent. *Pour mémoire, et sans valeur de
+clé* : `LEGITEXT000025503132`, `LEGITEXT000006074228`, `LEGITEXT000006070987`.
+
+**Le nom court `cpce` était déjà pris** par le code des procédures civiles
+d'exécution ; celui des postes prend `postes`.
+
+Les témoins sont **proposés et non rouverts**, puisque le dépôt ne porte pas
+encore ces textes. S'ils ne mordent pas, l'extraction échoue en les nommant et
+`_diagnostic.json` rend les numéros voisins : **un témoin qui ne mord pas ne
+prouve rien sur le code, il prouve que le témoin ne mord pas.**
+
+`extraire_legi.py` tourne dans l'action programmée du dépôt, non dans l'atelier.
+Après passage, `droit.py etat` doit porter **77 textes au lieu de 74**.
 
 ## 2. Le complément de l'extrait du code général des impôts
 
@@ -82,3 +92,21 @@ détermination de l'auteure : la cotisation interprofessionnelle étendue
 « Équarrissage », qui est un accord étendu par arrêté, et la participation des
 concessionnaires de la liaison fixe Trans-Manche, qui procède du traité
 franco-britannique.
+
+
+---
+
+## 4. Le contrôle des sièges tourne dans les deux dispositions — corrigé le 20261016
+
+Le fil claude.ai/code a relevé que le contrôle et la règle de `make controle`
+cherchaient le dépôt de droit sous `chantier/depot/`, qui est la disposition de
+l'atelier. **Dans le dépôt, le chantier est sous `chantier/` et le droit est à la
+racine, donc un cran au-dessus.** Le contrôle sautait, et se comptait en règle
+sautée.
+
+`appareil/chasse_siege.py` résout désormais le dépôt sur **trois voies**, dans
+l'ordre : `depot/` à la racine du chantier, le dossier parent, puis `droit/`. Il
+échoue en nommant les trois s'il n'en trouve aucune.
+`appareil/controle_sieges_prelevements.py` prend sa résolution plutôt que de la
+refaire, et la condition du `Makefile` teste les trois. **Éprouvé sur les deux
+dispositions le 20261016, même sortie : 0 échec, 3 signaux, 420/420.**
