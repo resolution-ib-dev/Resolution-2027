@@ -72,7 +72,17 @@ def chiffres(corps, dispositif_tokens=()):
     entre pas, non plus que l'hypothèse (A3). `dispositif_tokens` les déclare."""
     c = re.sub(APPELS, '', corps)          # un appel de note collé à une année
     c = re.sub(r'\b(19|20)\d{2}\b', ' ', c) # ne fait pas de l'année un chiffre
-    c = re.sub(r"\b(article|articles|n°)\s*[\d  ]+", ' ', c)
+    # Une adresse de droit n'est pas un chiffre de preuve. Trois formes, et la
+    # plus spécifique d'abord : l'article codifié (« L. 3262-1 »), l'article
+    # nommé avec son rang (« article 81 », « article 1er »), et l'énumération
+    # interne (« 19° », « alinéa 3 »). Les compter a déjà fait tomber un exposé
+    # exact sur un plafond de deux.
+    c = re.sub(r"\b(?:L|R|D|LO|A)\.?\s*\d+(?:\s*[-–‑]\s*\d+)*", ' ', c)
+    c = re.sub(r"\b(?:articles?|art\.|n°)\s*(?:du\s+|de\s+l[’']|l[’'])?"
+               r"\d+(?:\s*(?:er|ers|ème|e|bis|ter|quater|quinquies))?"
+               r"(?:\s*[-–‑]\s*\d+)*", ' ', c, flags=re.I)
+    c = re.sub(r"\b\d+\s*°", ' ', c)
+    c = re.sub(r"\b(?:alinéas?|paragraphes?|paragraphe)\s*\d+", ' ', c, flags=re.I)
     bruts = [x.strip() for x in
              re.findall(r'\d[\d  ,]*\s*(?:%|€|millions?|milliards?|points?)?', c)
              if x.strip()]
@@ -292,6 +302,14 @@ def test():
                         "Adopter cet amendement supprime la taxe.\n\n⁴ Note isolée qui ne doit pas compter.\n")
     got = controler(md8, noms=NOMS_ESSAI)['exposes'][0]['mots'] == e['mots']
     print(f"  {'OK   ' if got else 'ÉCHEC'}  [cas 8] note ⁴ isolée hors décompte")
+    ok = ok and got
+    # cas 9 : une adresse de droit n'est pas un chiffre de preuve
+    t9 = ("Les articles L. 3262-1 et L. 3261-6 du code du travail, et "
+          "l'article 81, 19° du code général des impôts, privent le salarié "
+          "de 40 % de la valeur.")
+    got = chiffres(t9)[1] == ['40 %']
+    print(f"  {'OK   ' if got else 'ÉCHEC'}  [cas 9] adresses de droit hors "
+          f"décompte : preuve {chiffres(t9)[1]}")
     ok = ok and got
     print('\nJEU D\'ESSAI :', 'PASSE' if ok else 'ÉCHOUE')
     return 0 if ok else 1

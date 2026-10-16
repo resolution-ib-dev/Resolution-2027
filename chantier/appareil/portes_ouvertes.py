@@ -70,6 +70,9 @@ SUITE = re.compile(
     r"(?P<a>[LRD]\.?\s?\d+(?:[\-‑]\d+)*(?:\s(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies|undecies|duodecies|terdecies|quaterdecies|quindecies|sexdecies|septdecies))?)"
     r"(?![\w\-])")
 
+# Ce qui ne peut pas suivre une adresse entière.
+FRONTIERE = re.compile(r"[\w\-‑]")
+
 INSERTION = re.compile(
     r"(?:après|avant|au même|du même|à la fin du|mentionnés? (?:à|au)|"
     r"mentionnées? (?:à|au)|prévus? (?:à|au)|prévues? (?:à|au)|"
@@ -107,6 +110,13 @@ def portes(socle):
             # comptait ouvert, et deux sièges faux ont voyagé jusqu'à la
             # rédaction.
             if INSERTION.search(d[max(0, m.start() - 60):m.start()]):
+                continue
+            # Règle ajoutée le 20261016 — frontière de mot. Une capture que suit
+            # une lettre, un chiffre ou un tiret est le préfixe d'une adresse
+            # plus longue que la grammaire n'a pas su lire : « 235 ter X » dans
+            # « 235 ter XB », « L. 116 » dans « L. 116- 1 ». La table la donnait
+            # ouverte — seize lignes fausses sur le PLF 2027. Elle se rejette.
+            if FRONTIERE.match(d, m.end("a")):
                 continue
             adrs.append((m.start(), normalise(m.group("a")), m.end()))
             # énumération : « les articles L. 1, L. 2 et L. 3 » — les suivants

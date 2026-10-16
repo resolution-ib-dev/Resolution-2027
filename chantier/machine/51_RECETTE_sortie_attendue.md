@@ -16,15 +16,11 @@ APRÈS L’ARTICLE 2, insérer l’article suivant :
 
 **III.** – Les I et II s’appliquent aux titres dont la péremption, au sens du premier alinéa des articles L. 3262-5 et L. 3261-9 du code du travail, intervient à compter du 1er janvier 2027.
 
-**IV.** – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
-
 EXPOSÉ SOMMAIRE
 
 Cet amendement transfère au salarié la contre-valeur de ses titres-restaurant et titres-transport périmés.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
-
-Le salarié qui n’a pas utilisé ses titres avant leur date de validité en perd la valeur ; la somme ne lui revient pas, et elle ne revient pas non plus à l’employeur qui l’a avancée. La loi la verse aujourd’hui au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres. Un salarié paie donc, par sa négligence, une dépense dont il n’a jamais décidé, et au bénéfice d’un comité dont il n’est pas nécessairement membre. Aucune disposition fiscale n’atteint ce circuit : une règle d’affectation d’une somme jamais imposée ne déroge à aucune règle d’assiette, de tarif ou de montant.
+Le salarié qui n’a pas utilisé ses titres avant leur date de validité en perd la valeur ; la somme ne lui revient pas et elle ne revient pas non plus à l’employeur qui l’a avancée. La loi la verse aujourd’hui au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres. Un salarié paie donc, par sa négligence, une dépense dont il n’a jamais décidé et au bénéfice d’un comité dont il n’est pas nécessairement membre. Aucune disposition fiscale n’atteint ce circuit : une règle d’affectation d’une somme jamais imposée ne déroge à aucune règle d’assiette, de tarif ou de montant.
 
 L’amendement change le destinataire. La contre-valeur des titres-restaurant et des titres-transport périmés est versée au salarié par son employeur, au plus tard avec la paie du deuxième mois qui suit la péremption, pour les titres dont la péremption intervient à compter du 1er janvier 2027. Cette somme constitue un élément de rémunération : elle entre dans l’assiette de l’impôt sur le revenu et dans celle des cotisations sociales. Rien d’autre ne change : la durée de validité des titres, les conditions de leur émission et les droits du salarié pendant cette durée demeurent. Dit simplement : ce que le salarié a perdu lui revient en salaire.
 
