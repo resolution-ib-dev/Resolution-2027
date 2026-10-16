@@ -16,7 +16,7 @@ réserve que ce qui se vérifie contre sa source.
 
 ## 1. Le texte en vigueur, et ce que la pièce en tire
 
-Article 13, au verbatim du corpus (`reference/DDHC_20260806_v1.html`,
+Article 13, au verbatim du corpus (`reference/DDHC.html`,
 `#DDHC-art13`, statut `a-collationner`) :
 
 > Pour l'entretien de la force publique, et pour les dépenses d'administration,

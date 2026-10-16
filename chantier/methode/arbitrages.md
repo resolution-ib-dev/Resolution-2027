@@ -477,7 +477,7 @@ texte en vigueur et à la proposition par substitution.
 **Corrigés sans remonter à l'auteur, et c'est la limite qui vaut** : rétablir un
 verbatim perdu n'est pas une décision de rédaction, c'est une restauration. Le
 fond ne bouge pas, la colonne B n'est pas touchée, et le trois colonnes passe en
-`Constitution_3col_20260916_v46.html`.
+`Constitution_3col.html`.
 
 *Ce que le cas enseigne* : **le défaut du 20260914 n'était pas isolé.** Trois
 alinéas au total avaient disparu de cette colonne. Un défaut trouvé à la main
@@ -695,7 +695,7 @@ mais c'est l'inventaire daté qui le dit, pas l'arithmétique.
 
 ### Les deux ajustements se portent sans déranger un seul renvoi d'alinéa — 20260914
 
-**Prouvé mécaniquement, contre `reference/Constitution_reference_20260806_v1.html`.**
+**Prouvé mécaniquement, contre `reference/Constitution_reference.html`.**
 L'article 34 en vigueur compte **vingt-trois alinéas**. La crainte portée par la
 passation — un renvoi d'alinéa non recalé est un défaut bloquant — ne se matérialise
 pas, et le motif est de structure : **les douze items de l'article 1er adressent les

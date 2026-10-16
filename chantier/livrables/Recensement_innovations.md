@@ -4,7 +4,7 @@
 
 *v3 — l'effet M4.8 est requalifié : retrait de matière et non suppression de catégorie. Arbitrage du 20260916, aucune strate ne change.*
 
-Unité recensée : l'effet. Sources : `PPLC_consolidee_substitution_20260914_v7.md` pour le texte cible, `constitution1958vingtcinquiemerevision.pdf` (Conseil constitutionnel, état du 8 mars 2024) pour le droit en vigueur. Les verbatim figurent en annexe. Aucun texte en vigueur n'est cité de mémoire.
+Unité recensée : l'effet. Sources : `PPLC_consolidee_substitution.md` pour le texte cible, `constitution1958vingtcinquiemerevision.pdf` (Conseil constitutionnel, état du 8 mars 2024) pour le droit en vigueur. Les verbatim figurent en annexe. Aucun texte en vigueur n'est cité de mémoire.
 
 Articles du dispositif couverts : 1er (art. 34 C, bloc finances et fiscalité), 2 (art. 39, coordination), 3 (art. 47), 4 (art. 47‑1, 42, 49), 5 (art. 47‑2), 6 (art. 40), 26 (art. 48, coordination).
 
