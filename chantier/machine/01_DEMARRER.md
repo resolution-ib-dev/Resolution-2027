@@ -107,6 +107,37 @@ maintenant. **Pas davantage.**
 
 ---
 
+# Ce que vous laissez derrière vous
+
+**L'atelier s'efface, le projet reste.** Un espace de travail est effacé après
+une période d'inactivité, et une installation qui n'a rien écrit ailleurs oblige
+à redonner ce jeu dans le fil suivant.
+
+**Écrivez donc, avant de rendre la main, une pièce d'amorçage au projet** —
+l'espace partagé entre les fils, s'il y en a un, aux côtés des autres documents
+de méthode. Nommez-la `methode/installer_la_machine.md`. Elle porte, et rien de
+plus :
+
+- l'adresse du dépôt et les trois lignes du geste d'installation ;
+- la version de la machine et son compte de pièces ;
+- où se trouve la base de droit après le clone, et comment la passer aux
+  contrôles ;
+- les deux recettes à jouer avant la première mesure réelle ;
+- les lignes de la mise à jour.
+
+**Si elle existe déjà**, comparez sa version à celle du manifeste. Plus
+récente ici, vous la réécrivez. Égale, vous n'y touchez pas.
+
+**Si le fil n'a pas de projet partagé**, dites-le à l'utilisateur en une phrase,
+et dites-lui que le jeu devra être redonné au prochain fil. Ne faites pas comme
+si l'installation avait survécu.
+
+**Dès lors, le zip n'est plus la voie d'installation.** Un fil qui sait cloner
+n'a rien à recevoir. Le zip ne sert que si le dépôt est injoignable depuis
+l'atelier.
+
+---
+
 # Voie B — terminal nu, ou pas de terminal
 
 **Dites-le d'abord à l'utilisateur, en une phrase :** dans cet atelier la machine

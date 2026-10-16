@@ -26,35 +26,69 @@ une clause de gage. Elle désigne la source **par son objet en clair et par sa
 référence exacte** — jamais par une périphrase, jamais par un renvoi à une pièce
 du même ensemble.
 
-Trois formes, et le choix se fait par le véhicule, pas par préférence :
+### 2 bis. Le réflexe par défaut — aucun prélèvement nouveau, aucune hausse
 
-| forme | quand | ce qu'elle désigne |
-|---|---|---|
-| **gage de droit commun** | une recette d'État diminue | une recette créée ou majorée à due concurrence |
-| **gage sur abrogation nommée** | une dépense fiscale ou une taxe affectée est supprimée ailleurs dans la même liasse | cette abrogation, par son objet et sa référence |
-| **clause de neutralisation** | la source est une clause générale et non un article | la source **par son objet**, et l'écart de forme se déclare à la ligne |
+**C'est la doctrine de la maison, et elle s'applique sans qu'on la demande.** Un
+amendement de cette chaîne ne crée aucun prélèvement et n'en majore aucun. Un
+gage qui institue une taxe additionnelle au profit d'un opérateur, ou qui relève
+un taux pour combler une perte, est une **mesure fiscale déguisée en clause de
+forme** — et l'auteur ne la signerait pas.
 
-### 2 bis. Qui perd la recette commande la rédaction de la clause
+**L'utilisateur peut la lever, et lui seul** : « gage par création de recette
+autorisée » au dossier, en clair. Sans cette ligne, la chaîne ne l'écrit pas.
 
-**La clause nomme celui qui perd, et elle ne compense que lui.** Trois cas, et
-ils ne s'écrivent pas de la même façon. Les confondre rend la clause inopérante
-sans que rien ne le signale.
+La seule exception est la formule standard du § 2 ter, branche 4 : c'est une
+**convention parlementaire de recevabilité**, non une mesure, et son caractère
+postiche s'explique à l'exposé sommaire.
 
-| celui qui perd | la clause |
-|---|---|
-| **l'État** | la recette est **majorée** à due concurrence |
-| **un opérateur affectataire** | une **taxe additionnelle** est créée à son profit — une majoration d'une recette d'État ne lui reviendrait pas |
-| **les organismes de sécurité sociale** | la recette est **majorée** à due concurrence, dans le véhicule de financement |
+### 2 ter. Les quatre branches, dans l'ordre
 
-**Un prélèvement affecté qui disparaît fait perdre deux fois.** L'affectataire
-perd le produit, et l'État perd les frais d'assiette et de recouvrement qu'il
-prélève dessus. **La clause porte alors deux branches**, une par perdant, et une
-seule branche laisse la seconde perte sans gage. Le taux de ces frais se relève
-à l'article qui les institue, jamais de mémoire.
+**Cet ordre ne se réarrange pas.** Il est arbitré, et chaque branche se tente
+avant la suivante.
 
-**L'ordre est fixe** : l'affectataire d'abord, l'État ensuite. Une branche se
-rédige en entier, référence comprise, et la seconde renvoie aux « mêmes
-articles ».
+**1 — La mesure produit-elle une perte de recettes ?** Sinon, pas de gage : une
+charge nouvelle ne se gage pas.
+
+**2 — La consigne du dossier.** « sans gage », « gage fourni », « gager sur telle
+niche ». Elle prime sur tout ce qui suit.
+
+**3 — Sans consigne, une niche en rapport** — même impôt ou même secteur —,
+cherchée au référentiel des normes puis à l'annexe des dépenses fiscales.
+**C'est la branche à tenter avant la formule standard, et c'est celle qu'on
+oublie.** Une niche ne se gage qu'une fois par lot.
+
+**4 — À défaut, le gage standard, formule entière, État seulement.** Elle est
+relevée sur pièce et s'écrit telle quelle :
+
+> La perte de recettes pour l'État est compensée à due concurrence par la
+> création d'une taxe additionnelle à l'accise sur les tabacs prévue au
+> chapitre IV du titre Ier du livre III du code des impositions sur les biens et
+> services.
+
+**Le gage est un paragraphe de l'amendement, jamais un fragment du texte cible.**
+
+### 2 quater. Les deux formules qui n'existent pas, et qui ne s'inventent pas
+
+**Une perte supportée par les collectivités territoriales, et une perte
+supportée par les organismes de sécurité sociale, n'ont pas de formule
+arbitrée.** Elles se relèvent sur pièce au premier cas concerné — un amendement
+réel, déposé, sur le même type de perte.
+
+**Elles ne se comblent pas de mémoire.** Trois formules ont été écrites de
+mémoire sur ce point et les trois étaient fausses : une taxe additionnelle au
+profit d'un opérateur affectataire, un double gage à deux branches, et une
+majoration des droits sur les tabacs au profit de la sécurité sociale. Aucune
+n'existe au registre.
+
+**Ce que la chaîne fait à la place** : elle écrit la branche 3 si une niche en
+rapport existe, et sinon elle **déclare l'insuffisance** en nommant le perdant et
+en disant que la formule reste à relever. Une déclaration d'insuffisance est un
+résultat, pas un échec.
+
+**Un prélèvement affecté qui disparaît fait perdre deux fois** — l'affectataire
+perd le produit, l'État perd les frais d'assiette qu'il prélève dessus. La
+seconde perte se **déclare**, chiffrée, et elle ne se gage pas par une seconde
+branche inventée.
 
 **Une pièce de loi de financement ne gage pas sur une source de loi de
 finances, ni l'inverse.** La frontière de véhicule est fermée : une source n'est

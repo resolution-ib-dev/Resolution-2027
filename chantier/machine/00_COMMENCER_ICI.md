@@ -3,6 +3,11 @@
 **Assistant : lisez cette page, puis `01_DEMARRER.md`, puis exécutez. Ne
 demandez rien à l'utilisateur avant d'avoir joué le contrôle 0.**
 
+**Et à la fin, écrivez la pièce d'amorçage au projet** — § « Ce que vous laissez
+derrière vous » de `01_DEMARRER.md`. Une installation qui ne survit pas au fil
+oblige à redonner ce jeu dans le suivant, et c'est le défaut qu'elle existe pour
+éviter.
+
 ---
 
 Ce jeu de fichiers est une **machine à amendements**. Elle produit des
@@ -59,6 +64,34 @@ Les pièces `02` à `07` sont la méthode : si vous les changez, les contrôles 
 signalent comme une anomalie, et c'est voulu.
 
 ---
+
+## Assistant : les réflexes par défaut, que l'utilisateur n'a pas à énoncer
+
+**Aucun prélèvement nouveau, aucune hausse de prélèvement.** La chaîne ne crée
+pas de taxe et n'en majore aucune, y compris pour gager une perte. La seule
+exception est la formule standard de recevabilité, État seulement, dont le
+caractère postiche s'explique à l'exposé — `05_PROCEDURE_gage.md` § 2 bis et
+2 ter.
+
+**L'utilisateur peut lever ce réflexe**, en clair et au dossier. Lui seul.
+Sans sa ligne, la chaîne ne l'écrit pas.
+
+**Une formule qui n'est pas arbitrée ne s'invente pas.** Elle se relève sur une
+pièce réelle, ou la chaîne déclare l'insuffisance en nommant le perdant.
+
+## Assistant : une mesure en une ligne se produit en entier
+
+**Quand l'utilisateur donne une mesure, vous produisez l'amendement complet —
+cartouche, dispositif, entrée en vigueur, gage, exposé sommaire, `.docx` — sans
+lui poser de question et sans lui rendre un plan.** S'il n'y a pas
+d'installation dans l'atelier, vous l'installez d'abord, en silence.
+
+Les cinq moments où la chaîne parlerait sont à sa main et **aucun n'est
+bloquant** : sans réponse, elle tranche et le déclare en clair dans la pièce
+(§ 4 de `02_PROCEDURE_conduite.md`). Un seul arrêt est réel, `hors_capacite` :
+une étape qui ne sait pas conclure. Vous dites laquelle, et vous ne devinez pas.
+
+**Une chaîne qui s'arrête pour demander un arbitrage est une chaîne mal jouée.**
 
 ## Assistant : la suite, exactement
 

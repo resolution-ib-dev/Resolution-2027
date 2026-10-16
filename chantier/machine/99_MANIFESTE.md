@@ -1,6 +1,6 @@
 # 99 — MANIFESTE
 
-**Version** : 5.4, 20261016. Machine à amendements, jeu numéroté.
+**Version** : 5.6, 20261016. Machine à amendements, jeu numéroté.
 
 Cette pièce fait foi sur ce que le jeu porte. `62_CONTROLE_integrite.py` confronte
 chaque fichier à sa ligne et refuse un fichier que le manifeste ignore.
@@ -13,18 +13,18 @@ les relevés transversaux, les deux PDF, les extracteurs. `01_DEMARRER.md` dit o
 **Les outils `10` à `20` appartiennent à l'utilisateur.** S'il en modifie un, le
 relevé le nomme — ce n'est pas un défaut, c'est l'usage prévu.
 
-**Jeu** : 41 pièces, 504 969 octets.
+**Jeu** : 42 pièces, 517 087 octets.
 
 ## Les pièces
 
 | fichier | octets | sha256 |
 |---|---:|---|
-| `00_COMMENCER_ICI.md` | 2926 | `79ef7c663a91aed7` |
-| `01_DEMARRER.md` | 7904 | `88912cbe8e583636` |
+| `00_COMMENCER_ICI.md` | 4647 | `b96fa8b2e8a00a93` |
+| `01_DEMARRER.md` | 9229 | `6ef521823e2e9663` |
 | `02_PROCEDURE_conduite.md` | 10030 | `82ceb2bde51f1034` |
 | `03_PROCEDURE_rattachement.md` | 14860 | `504fb4743bb7c326` |
 | `04_PROCEDURE_vecteurs.md` | 12122 | `5aacc166e3eb8cb4` |
-| `05_PROCEDURE_gage.md` | 6495 | `b28a0019b8de68b5` |
+| `05_PROCEDURE_gage.md` | 7919 | `9a255bf348c5516c` |
 | `06_PROCEDURE_contrat_chaine.md` | 24458 | `296c771742b4ed4d` |
 | `07_PROCEDURE_gabarit_liste_articles.md` | 9209 | `ff99d085a668a2df` |
 | `10_OUTIL_vecteur_mesure.md` | 35239 | `f158ccf0776dc63f` |
@@ -49,9 +49,9 @@ relevé le nomme — ce n'est pas un défaut, c'est l'usage prévu.
 | `51_RECETTE_sortie_attendue.md` | 3239 | `d0edcf48e8d4f4d2` |
 | `52_RECETTE_mode_emploi.md` | 2863 | `e8c76413fe2a42d5` |
 | `53_RECETTE_lot2_enonces.md` | 1423 | `d4d2661da58d8534` |
-| `54_RECETTE_lot2_sorties_attendues.md` | 9586 | `fa38a1d95cc2046d` |
+| `54_RECETTE_lot2_sorties_attendues.md` | 10071 | `914024649d461cb4` |
 | `60_CONTROLE_socle.py` | 2993 | `7aaeff62c5bf043f` |
-| `61_CONTROLE_jouer.py` | 4969 | `c84cb75190a819be` |
+| `61_CONTROLE_jouer.py` | 5044 | `654d3fab46f53bff` |
 | `62_CONTROLE_integrite.py` | 4012 | `304dc9ec7158b9f2` |
 | `63_CONTROLE_docx.py` | 6402 | `46b2d15d9329aa5b` |
 | `64_CONTROLE_droit.py` | 6616 | `346193089db5b4cf` |
@@ -59,4 +59,5 @@ relevé le nomme — ce n'est pas un défaut, c'est l'usage prévu.
 | `66_CONTROLE_recette.py` | 10214 | `00377002b7c7823e` |
 | `67_CONTROLE_fuite.py` | 6118 | `19c0f8407d4978c4` |
 | `68_CONTROLE_atelier.py` | 4474 | `26934cec37caab9b` |
+| `69_CONTROLE_doctrine.py` | 7088 | `5156113c98d0d9a1` |
 | `90_SCRIPT_relever_manifeste.py` | 3778 | `44ee9fa40d834663` |

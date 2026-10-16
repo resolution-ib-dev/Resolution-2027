@@ -922,6 +922,7 @@ IMPLICITES = {
     'machine/66_CONTROLE_recette.py': 'outillage',
     'machine/67_CONTROLE_fuite.py': 'outillage',
     'machine/68_CONTROLE_atelier.py': 'outillage',
+    'machine/69_CONTROLE_doctrine.py': 'outillage',
     'machine/90_SCRIPT_relever_manifeste.py': 'outillage',
     'machine/99_MANIFESTE.md': 'outillage',
     # --- 20261011, arbitrage de l'auteure : les fichiers de `livrables/`
