@@ -9837,6 +9837,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/chasse_siege",
+   "chemin": "appareil/chasse_siege.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/chasse_siege.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/controle_credits_liasse",
    "chemin": "appareil/controle_credits_liasse.py",
    "rang": "appareil",
@@ -9861,6 +9875,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/appareil/controle_rejeu_annexes_2027.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
+   "role": "fichier:appareil/controle_sieges_prelevements",
+   "chemin": "appareil/controle_sieges_prelevements.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_sieges_prelevements.py",
    "releve": true,
    "famille": "outillage"
   },
@@ -11517,6 +11545,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:methode/elargissement_depot_droit_20261016",
+   "chemin": "methode/elargissement_depot_droit_20261016.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/elargissement_depot_droit_20261016.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:methode/etats/AUDIT_COFFRE",
    "chemin": "methode/etats/AUDIT_COFFRE.md",
    "rang": "methode",
@@ -12437,6 +12479,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/methode/fragments/arbitrages/20261016-fonds-vert-extinction-totale.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
+   "role": "fichier:methode/fragments/arbitrages/20261016-sieges-prelevements",
+   "chemin": "methode/fragments/arbitrages/20261016-sieges-prelevements.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/fragments/arbitrages/20261016-sieges-prelevements.md",
    "releve": true,
    "famille": "méthode"
   },
@@ -13588,6 +13644,7 @@
    "appareil/chaine_a_controles.py",
    "appareil/chaine_a_extraire.py",
    "appareil/chantier_vecteurs.py",
+   "appareil/chasse_siege.py",
    "appareil/cles_eval_expose.py",
    "appareil/cles_eval_gl.py",
    "appareil/coffre.py",
@@ -13613,6 +13670,7 @@
    "appareil/controle_projection.py",
    "appareil/controle_rejeu_annexes_2027.py",
    "appareil/controle_restauration.py",
+   "appareil/controle_sieges_prelevements.py",
    "appareil/controle_socle.py",
    "appareil/controle_sortie.py",
    "appareil/controle_structurel.py",
@@ -13795,6 +13853,7 @@
    "methode/cr_fil1_20261009.md",
    "methode/dossier_clause_de_lien_et_blocs_20261002.md",
    "methode/dossier_clause_de_lien_et_blocs_20261002_ADDENDUM.md",
+   "methode/elargissement_depot_droit_20261016.md",
    "methode/etats/AUDIT_COFFRE.md",
    "methode/etats/CALCUL_etatB_20261009.md",
    "methode/etats/CHAINE_A_20261009.md",
@@ -13861,6 +13920,7 @@
    "methode/fragments/arbitrages/20261009-p1-29-retablie-p1-12-sortie.md",
    "methode/fragments/arbitrages/20261010-contreparties-et-controles.md",
    "methode/fragments/arbitrages/20261016-fonds-vert-extinction-totale.md",
+   "methode/fragments/arbitrages/20261016-sieges-prelevements.md",
    "methode/fragments/journal/20261001-lecture-plf2027.md",
    "methode/fragments/journal/20261001-lecture-plfss-2027.md",
    "methode/fragments/journal/20261001-liste-plfss-2027.md",
@@ -14117,9 +14177,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 893,
-  "au_coffre": 835,
-  "au_depot": 377,
+  "artefacts": 897,
+  "au_coffre": 839,
+  "au_depot": 381,
   "derives": 268,
   "sources": 48,
   "non_restaurables": 16,

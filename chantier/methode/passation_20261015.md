@@ -202,10 +202,24 @@ qu'ils portaient un impôt principal, reclassés ; 21 rangs appartenant à quatr
 lignes du schéma sans valeur en colonne « Taxes à supprimer » — assurances, taxe
 de séjour, outre-mer, forfaits de cotisation — passés en maintenus.
 
-**Trois défauts tiennent, et ils interdisent toute publication** : 188 rangs sur
-420 sans rendement 2026 · 105 sièges juridiques non établis · 420 rangs relevés
-contre 438 affichés au manifeste, écart non expliqué. S'y ajoute qu'aucune colonne
-ne relie un rang à l'amendement qui le porte.
+**Un seul défaut tient, et il interdit la publication** : **186 rangs sur 420
+sans rendement 2026**, et les trois sources du dépôt ne le comblent pas — l'annexe
+des ressources affectées en remplit 2, l'état A du texte déposé 0, la liste IFRAP
+ne porte aucun montant. Il faut une source extérieure, donc un arbitrage. S'y
+ajoute qu'aucune colonne ne relie un rang à l'amendement qui le porte.
+
+*Les deux autres sont clos le 20261016.* Le rapprochement sur la liste IFRAP est
+fermé — 420 libellés sur 420 couverts, 0 orpheline, 14 rangs d'une autre origine
+déclarée ; la colonne `libelle_ifrap` porte des cellules à plusieurs valeurs, et
+une jointure qui ne les éclate pas fabrique 89 faux écarts. La formule « 420
+rangs contre 438, écart non expliqué » était fausse : 438 est le chiffre annoncé
+par la pièce IFRAP, dont les tables publient 421 — écart de 16 sur les
+cotisations, relevé dès le 20260902 au § 5 de
+`reference/nomenclature_prelevements_ifrap.md` et interne à la source. Les sièges
+non établis sont tombés de 105 à 14.
+
+*Le défaut des sièges est clos le 20261016* : 105 non établis ramenés à 17, les
+88 autres relevés et prouvés par `appareil/controle_sieges_prelevements.py`.
 
 ---
 
@@ -260,9 +274,10 @@ reste ouvert dessus : la clé 90 / 10, posée et non mesurée, et la contemporan
 étendue aux quatre exercices, qui n'est pas écrite — le § 7 du registre ne couvre
 que 2027.
 
-**3. Lever les trois défauts du tri.** *Fil Cowork, parallélisable avec le 2* —
-fichiers différents, aucun conflit. 188 rendements, 105 sièges, l'écart de 18 au
-manifeste. Tant qu'ils tiennent, rien ne part au site.
+**3. Lever les défauts du tri.** *Fil Cowork, parallélisable avec le 2* —
+fichiers différents, aucun conflit. Les sièges sont faits le 20261016 ; restent
+188 rendements et l'écart de 18 au manifeste. Tant qu'ils tiennent, rien ne part
+au site.
 
 **4. Le Sankey des flux.** *Après le 3.* Les 141 rangs non rattachés à une ligne
 de schéma sont exactement ce qui l'empêche aujourd'hui.
