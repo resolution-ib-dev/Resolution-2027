@@ -60,7 +60,7 @@ Supprimer un prélèvement de faible rendement allège un redevable sans refondr
 
 **Ce que la chaîne doit rendre, et rien de plus** : la mesure est sans objet, l’identifiant `LEGIARTI000030059687`, la date de cessation, et la question de savoir si l’auteur vise autre chose — par exemple le maintien de l’abrogation contre un rétablissement, qui serait un amendement de suppression d’article et non une abrogation de code.
 
-**Second constat, sur un référentiel et non sur la mesure** : la table des articles ouverts par le projet de loi de finances porte `235 ter X` comme ouvert par son article 17. L’article 17 ne nomme que `235 ter XB`. Dix-sept lignes sur quatre cent quarante-deux sont dans ce cas, seize par correspondance de préfixe et une absente du dispositif. La table de financement, elle, n'en porte aucune sur cent cinquante-cinq.
+**Second constat, sur un référentiel et non sur la mesure** : la table des articles ouverts par le projet de loi de finances porte `235 ter X` comme ouvert par son article 17. L’article 17 ne nomme que `235 ter XB`. Le compte des lignes fausses se mesure par `44_SCRIPT_article_ouvert.py --table`, sur la table du jour : une borne recopiée vieillit à la première régénération.
 
 ---
 

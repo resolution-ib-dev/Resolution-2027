@@ -1,6 +1,6 @@
 # 99 — MANIFESTE
 
-**Version** : 5.0, 20261016. Machine à amendements, jeu numéroté.
+**Version** : 5.4, 20261016. Machine à amendements, jeu numéroté.
 
 Cette pièce fait foi sur ce que le jeu porte. `62_CONTROLE_integrite.py` confronte
 chaque fichier à sa ligne et refuse un fichier que le manifeste ignore.
@@ -13,7 +13,7 @@ les relevés transversaux, les deux PDF, les extracteurs. `01_DEMARRER.md` dit o
 **Les outils `10` à `20` appartiennent à l'utilisateur.** S'il en modifie un, le
 relevé le nomme — ce n'est pas un défaut, c'est l'usage prévu.
 
-**Jeu** : 41 pièces, 502 132 octets.
+**Jeu** : 41 pièces, 504 969 octets.
 
 ## Les pièces
 
@@ -22,7 +22,7 @@ relevé le nomme — ce n'est pas un défaut, c'est l'usage prévu.
 | `00_COMMENCER_ICI.md` | 2926 | `79ef7c663a91aed7` |
 | `01_DEMARRER.md` | 7904 | `88912cbe8e583636` |
 | `02_PROCEDURE_conduite.md` | 10030 | `82ceb2bde51f1034` |
-| `03_PROCEDURE_rattachement.md` | 14602 | `7dd266039734ceb4` |
+| `03_PROCEDURE_rattachement.md` | 14860 | `504fb4743bb7c326` |
 | `04_PROCEDURE_vecteurs.md` | 12122 | `5aacc166e3eb8cb4` |
 | `05_PROCEDURE_gage.md` | 6495 | `b28a0019b8de68b5` |
 | `06_PROCEDURE_contrat_chaine.md` | 24458 | `296c771742b4ed4d` |
@@ -44,12 +44,12 @@ relevé le nomme — ce n'est pas un défaut, c'est l'usage prévu.
 | `41_SCRIPT_controles_expose.py` | 17420 | `b9d96e9b32e8da73` |
 | `42_SCRIPT_controle_sortie.py` | 19018 | `983222f08ff4f56a` |
 | `43_SCRIPT_diff_cible.py` | 6111 | `224e154b70b5f07b` |
-| `44_SCRIPT_article_ouvert.py` | 4491 | `268f044ab4b19bcb` |
+| `44_SCRIPT_article_ouvert.py` | 7107 | `f78fa99d3ab28693` |
 | `50_RECETTE_enonce.md` | 849 | `e782524c4cd99456` |
 | `51_RECETTE_sortie_attendue.md` | 3239 | `d0edcf48e8d4f4d2` |
 | `52_RECETTE_mode_emploi.md` | 2863 | `e8c76413fe2a42d5` |
 | `53_RECETTE_lot2_enonces.md` | 1423 | `d4d2661da58d8534` |
-| `54_RECETTE_lot2_sorties_attendues.md` | 9623 | `045f642162152fff` |
+| `54_RECETTE_lot2_sorties_attendues.md` | 9586 | `fa38a1d95cc2046d` |
 | `60_CONTROLE_socle.py` | 2993 | `7aaeff62c5bf043f` |
 | `61_CONTROLE_jouer.py` | 4969 | `c84cb75190a819be` |
 | `62_CONTROLE_integrite.py` | 4012 | `304dc9ec7158b9f2` |

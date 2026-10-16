@@ -3,14 +3,16 @@
 """Confirme — ou infirme — qu'un article du véhicule ouvre bien une adresse.
 
 La table des articles ouverts est un relevé, et un relevé se vérifie. Le défaut
-qu'il porte est toujours le même : la correspondance de préfixe. « 235 ter X »
-donné ouvert par un article qui ne nomme que « 235 ter XB ». Sept lignes sur
-quatre cent quarante-deux sont dans ce cas sur la loi de finances 2027.
+le plus courant est la correspondance de préfixe : « 235 ter X » donné ouvert
+par un article qui ne nomme que « 235 ter XB ». **Le compte de lignes fausses se
+mesure en jouant `--table`, il ne se recopie pas d'une notice.**
 
 Ce script rouvre le dispositif de l'article annoncé et y cherche l'adresse avec
-une frontière de mot. Il rend :
+une frontière de mot des deux côtés. Il rend :
 
     OUVERT      l'adresse est nommée par le dispositif — la pièce s'y adresse
+    DOUTEUX     adresse courte et purement numérique, presque toujours un
+                « article 1er » tronqué au relevé — ne vaut pas OUVERT
     PREFIXE     seule une adresse plus longue est nommée — faux de la table
     ABSENT      l'adresse n'est pas dans le dispositif — vaut « aucun »
 
@@ -25,12 +27,20 @@ import json
 import re
 import sys
 
+ORDRE = ("OUVERT", "DOUTEUX", "PREFIXE", "ABSENT")
+
 
 def norm(s):
-    """Apostrophes et espaces — la base et le texte déposé ne les écrivent pas
-    pareil, et une comparaison brute échoue sur ce seul motif."""
-    return (s.replace("’", "'").replace(" ", " ")
-             .replace(" ", " ").replace("–", "-").replace("‑", "-"))
+    """Apostrophes, espaces, tirets — la base et le texte déposé ne les écrivent
+    pas pareil, et une comparaison brute échoue sur ce seul motif.
+
+    Le point de la lettre de code se normalise aussi : un texte déposé écrit
+    « L 31-10-7 » là où la table met « L. 31-10-7 », et sans cela une ligne
+    juste sort ABSENT. Le cas est à l'article 7 de la loi de finances 2027.
+    """
+    s = (s.replace("’", "'").replace(" ", " ")
+          .replace(" ", " ").replace("–", "-").replace("‑", "-"))
+    return re.sub(r"\b(LO|[LRD])\.?[ ]+(?=\d)", r"\1. ", s)
 
 
 def dispositifs(chemin):
@@ -44,16 +54,55 @@ def dispositifs(chemin):
     return out
 
 
-def juger(disp, adresse):
-    """OUVERT, PREFIXE ou ABSENT, pour une adresse dans un dispositif donné."""
+def discriminant(texte):
+    """Ce qui distingue le texte porteur dans le dispositif.
+
+    Pour une loi ou une ordonnance, son numéro — « n° 2022-1157 ». Pour un
+    code, son nom. Sans ce discriminant, « l'article 1er de la loi n° 2022-1158 »
+    fait passer pour ouverte une ligne qui annonce la loi n° 2022-1157, et la
+    ligne est fausse. Le cas est à l'article 7 de la loi de financement 2027.
+    """
+    m = re.search(r"n°\s*([\d-]+)", norm(texte))
+    return ("n° " + m.group(1)) if m else norm(texte).strip()
+
+
+def juger(disp, adresse, texte=None):
+    """Le verdict d'une adresse dans un dispositif donné.
+
+    Trois pièges, et chacun a produit un verdict faux :
+
+    - la frontière de fin. Sans elle « 235 ter X » mord sur « 235 ter XB » ;
+    - la frontière de début. Sans elle « 1 » mord sur « 2026-103 » ;
+    - le rang ordinal. Le dispositif écrit « article 1er », la table relève
+      « 1 », et la frontière de mot ne voit pas la différence parce que le
+      « 1 » nu se trouve ailleurs dans la pièce. Une adresse numérique dont le
+      dispositif ne nomme que la forme ordinale sort DOUTEUX, jamais OUVERT :
+      elle se relève en entier sur la pièce avant emploi.
+    """
     a = norm(adresse).strip()
-    # frontière : ni lettre, ni chiffre, ni tiret ne suit l'adresse. Sans quoi
-    # « 235 ter X » mord sur « 235 ter XB », et c'est tout le défaut.
-    if re.search(re.escape(a) + r"(?![\w-])", disp):
+    frontiere = r"(?<![\w-])" + re.escape(a) + r"(?![\w-])"
+    if a.isdigit():
+        nu = r"(?:articles?|art\.)[^.;]{0,24}?" + frontiere
+        ordinal = (r"(?:articles?|art\.)[^.;]{0,24}?(?<![\w-])"
+                   + re.escape(a) + r"(?:er|ers|bis|ter|quater|quinquies)\b")
+        # Une adresse nue ne suffit pas : elle doit être nommée au voisinage du
+        # texte que la ligne annonce. Sinon l'article d'un texte voisin la fait
+        # passer pour ouverte.
+        d = discriminant(texte) if texte else None
+        # Un code se nomme souvent « du même code » ou « du présent code » :
+        # la fenêtre l'accepte, sans quoi la quasi-totalité des lignes de code
+        # sortirait douteuse.
+        reprise = r"(?:m[êe]me|pr[ée]sent)\s+code"
+        for m in re.finditer(nu, disp, re.I):
+            f = disp[m.start():m.end() + 200]
+            if d is None or d in f or re.search(reprise, f, re.I):
+                return "OUVERT"
+        if re.search(nu, disp, re.I) or re.search(ordinal, disp, re.I):
+            return "DOUTEUX"
+        return "ABSENT"
+    if re.search(frontiere, disp):
         return "OUVERT"
-    if a in disp:
-        return "PREFIXE"
-    return "ABSENT"
+    return "PREFIXE" if a in disp else "ABSENT"
 
 
 def lire_table(chemin):
@@ -77,23 +126,20 @@ def main(argv):
         if len(argv) < 4:
             print("  table attendue après --table")
             return 2
-        compte = {"OUVERT": 0, "PREFIXE": 0, "ABSENT": 0}
+        compte = {k: 0 for k in ORDRE}
         faux = []
         for texte, adresse, arts in lire_table(argv[3]):
-            verdicts = set()
-            for n in re.split(r"[,; ]+", arts):
-                n = n.strip()
-                if n in disp:
-                    verdicts.add(juger(disp[n], adresse))
-            v = ("OUVERT" if "OUVERT" in verdicts
-                 else "PREFIXE" if "PREFIXE" in verdicts else "ABSENT")
+            verdicts = {juger(disp[n.strip()], adresse, texte)
+                        for n in re.split(r"[,; ]+", arts)
+                        if n.strip() in disp}
+            v = next((k for k in ORDRE if k in verdicts), "ABSENT")
             compte[v] += 1
             if v != "OUVERT":
                 faux.append((v, texte, adresse, arts))
         total = sum(compte.values())
         print(f"\n{total} lignes jugées sur {socle}")
-        for k, n in compte.items():
-            print(f"  {k:8} {n}")
+        for k in ORDRE:
+            print(f"  {k:8} {compte[k]}")
         if faux:
             print("\n  lignes à ne pas employer comme articles ouverts :")
             for v, texte, adresse, arts in faux:
@@ -112,7 +158,11 @@ def main(argv):
     if v == "PREFIXE":
         m = re.search(re.escape(norm(adresse)) + r"[\w-]+", disp[art])
         if m:
-            print(f"           le dispositif nomme « {m.group(0)} », pas « {adresse} »")
+            print(f"           le dispositif nomme « {m.group(0)} », "
+                  f"pas « {adresse} »")
+    if v == "DOUTEUX":
+        print("           adresse d'un ou deux chiffres : à relever en entier "
+              "sur la pièce avant emploi")
     return 0 if v == "OUVERT" else 1
 
 
