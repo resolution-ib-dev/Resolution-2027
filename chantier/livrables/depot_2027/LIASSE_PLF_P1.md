@@ -1,4 +1,4 @@
-# Liasse d’amendements au projet de loi de finances pour 2027
+**Liasse d’amendements au projet de loi de finances pour 2027**
 
 Résolution — octobre 2026
 
@@ -6,64 +6,64 @@ Trente-quatre amendements de première partie, répartis en cinq lots. La numér
 
 ---
 
-## Lot I : Restitution et abrogation des niches
+## Lot I : Restitution et abrogation des niches
 
 | n° | article visé | objet |
 |---|---|---|
 | 1 | art. add. après l’art. 2 | Niches fiscales : tous les avantages particuliers abolis, le gain rendu aux salaires |
 | 2 | art. add. après l’art. 2 | Titres-restaurant : la valeur périmée rendue au salarié, en salaire |
-| 3 | article 4 | Dons : fin des réductions d’impôt, l’argent rendu à la paie de tous |
-| 4 | article 7 | Prêt à taux zéro : les intérêts payés aux banques rendus à la paie des ménages |
-| 5 | article 9 | Suramortissement industriel : guichets fermés, la baisse profite à toutes les entreprises |
-| 6 | article 10 | Cessions d’entreprise : aucun avantage nouveau, la ressource va aux salaires |
-| 7 | article 12 | Soutien à la culture : extinction des avantages, enrichissement de tous les travailleurs |
-| 8 | article 13 | Suramortissement agricole : fin des régimes particuliers, gain rendu aux actifs |
-| 9 | art. add. après l’art. 13 | Crédit d’impôt recherche : supprimé, rendu en salaire net |
-| 10 | art. add. après l’art. 13 | Zones franches : dix exonérations abrogées, l’impôt baisse pour tous |
-| 11 | art. add. après l’art. 13 | Taxe au tonnage : les armateurs imposés sur leur bénéfice réel, le produit va au travail |
+| 3 | article 4 | Dons : fin des réductions d’impôt, l’argent rendu à la paie de tous |
+| 4 | article 7 | Prêt à taux zéro : les intérêts payés aux banques rendus à la paie des ménages |
+| 5 | article 9 | Suramortissement industriel : guichets fermés, la baisse profite à toutes les entreprises |
+| 6 | article 10 | Cessions d’entreprise : aucun avantage nouveau, la ressource va aux salaires |
+| 7 | article 12 | Soutien à la culture : extinction des avantages, enrichissement de tous les travailleurs |
+| 8 | article 13 | Suramortissement agricole : fin des régimes particuliers, gain rendu aux actifs |
+| 9 | art. add. après l’art. 13 | Crédit d’impôt recherche : supprimé, rendu en salaire net |
+| 10 | art. add. après l’art. 13 | Zones franches : dix exonérations abrogées, l’impôt baisse pour tous |
+| 11 | art. add. après l’art. 13 | Taxe au tonnage : les armateurs imposés sur leur bénéfice réel, le produit va au travail |
 | 12 | art. add. après l’art. 13 | Crédit d’impôt famille : supprimé, le parent reçoit son salaire |
-| 13 | art. add. après l’art. 13 | Déductions exceptionnelles : huit régimes éteints, la baisse profite à chaque entreprise |
-| 14 | art. add. après l’art. 13 | Accise sur l’énergie : même tarif pour tous les métiers, tous les revenus d’activité augmentés |
+| 13 | art. add. après l’art. 13 | Déductions exceptionnelles : huit régimes éteints, la baisse profite à chaque entreprise |
+| 14 | art. add. après l’art. 13 | Accise sur l’énergie : même tarif pour tous les métiers, tous les revenus d’activité augmentés |
 | 15 | art. add. après l’art. 13 | Régimes agricoles : sortie progressive de la dépendance aux subventions |
-| 16 | art. add. après l’art. 24 | Certificats d’économies d’énergie : fin des impôts cachés sur la facture d’énergie |
-| 17 | article 26 | Impôts locaux : les exonérations d’adresse non prorogées, l’avantage rendu à tous |
-| 18 | article 28 | Aides à l’investissement : abrogées plutôt que prorogées, rendues au salaire net |
+| 16 | art. add. après l’art. 24 | Certificats d’économies d’énergie : fin des impôts cachés sur la facture d’énergie |
+| 17 | article 26 | Impôts locaux : les exonérations d’adresse non prorogées, l’avantage rendu à tous |
+| 18 | article 28 | Aides à l’investissement : abrogées plutôt que prorogées, rendues au salaire net |
 
-## Lot II : Refonte fiscale
+## Lot II : Refonte fiscale
 
 | n° | article visé | objet |
 |---|---|---|
 | 19 | art. add. après l’art. 4 | Droits de mutation : ramenés à 1 % et 3 %, l’équilibre tenu |
 | 20 | art. add. après l’art. 8 | Plus-values : le capital imposé sur son gain réel, au service de l’équilibre |
-| 21 | art. add. après l’art. 16 | TVA : les trois taux réduits réunis en un seul, à rendement constant |
-| 22 | art. add. après l’art. 19 | Taxes d’État : vingt et une disparaissent dans l’impôt, sans hausse du total |
+| 21 | art. add. après l’art. 16 | TVA : les trois taux réduits réunis en un seul, à rendement constant |
+| 22 | art. add. après l’art. 19 | Taxes d’État : vingt et une disparaissent dans l’impôt, sans hausse du total |
 | 23 | art. add. après l’art. 32 | Impôt sur les sociétés : un taux unique, pour l’équilibre de la refonte fiscale |
-| 24 | article 42 | Taxes affectées : plafond à zéro, tout le produit retourne au budget voté par le Parlement |
-| 25 | art. add. après l’art. 42 | Taxes affectées : cinquante-sept supprimées, fondues en une ressource unique à produit égal |
+| 24 | article 42 | Taxes affectées : plafond à zéro, tout le produit retourne au budget voté par le Parlement |
+| 25 | art. add. après l’art. 42 | Taxes affectées : cinquante-sept supprimées, fondues en une ressource unique à produit égal |
 | 26 | art. add. après l’art. 42 | Refermer les canaux budgétaires hors budget général |
 
-## Lot III : Compte d’épargne
+## Lot III : Compte d’épargne
 
 | n° | article visé | objet |
 |---|---|---|
 | 27 | art. add. après l’art. 6 | Un compte d’épargne au nom de chacun, alimenté par la restitution |
 
-## Lot IV : Aide fondamentale et taux unique
+## Lot IV : Aide fondamentale et taux unique
 
 | n° | article visé | objet |
 |---|---|---|
 | 28 | article 2 | Un taux unique finance une aide fondamentale versée à chacun |
 
-## Lot V : Collectivités et fiscalité locale
+## Lot V : Collectivités et fiscalité locale
 
 | n° | article visé | objet |
 |---|---|---|
 | 29 | art. add. après l’art. 27 | Taxe foncière : cinq impôts en une taxe communale lisible et équitable |
-| 30 | article 34 | Compensations : fin des versements pour impôts disparus, l’économie rendue au travail |
-| 31 | art. add. après l’art. 34 | Dotations : moins de compétences facultatives, moins de charges sur les contribuables |
-| 32 | art. add. après l’art. 34 | Départements et régions : les compétences retirées, le financement retiré d’autant |
-| 33 | art. add. après l’art. 34 | Dotation forfaitaire : remplacée par l’impôt que la commune vote elle-même |
-| 34 | article 36 | TVA des collectivités : plafonnée au coût de leurs compétences |
+| 30 | article 34 | Compensations : fin des versements pour impôts disparus, l’économie rendue au travail |
+| 31 | art. add. après l’art. 34 | Dotations : moins de compétences facultatives, moins de charges sur les contribuables |
+| 32 | art. add. après l’art. 34 | Départements et régions : les compétences retirées, le financement retiré d’autant |
+| 33 | art. add. après l’art. 34 | Dotation forfaitaire : remplacée par l’impôt que la commune vote elle-même |
+| 34 | article 36 | TVA des collectivités : plafonnée au coût de leurs compétences |
 
 ---
 
@@ -556,9 +556,9 @@ Cet amendement abroge tout avantage fiscal dérogatoire sur sept impôts, à com
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Deux contribuables au même revenu ne paient pas le même impôt : l’un connaît les dispositifs qui le réduisent, l’autre non. L’annexe des dépenses fiscales en recense plus de quatre cent soixante, pour un coût prévisionnel de 79,5 milliards d’euros en 2026¹. Le taux implicite d’impôt sur les sociétés s’établit à 21,4 % pour les petites et moyennes entreprises contre 14,3 % pour les grandes². Le Parlement vote chaque année un barème qu’il sait inexact, et le taux affiché cesse de dire ce que chacun acquitte.
+Deux contribuables au même revenu ne paient pas le même impôt : l’un connaît les dispositifs qui le réduisent, l’autre non. L’annexe des dépenses fiscales en recense plus de quatre cent soixante, pour un coût prévisionnel de 79,5 milliards d’euros en 2026¹. Le taux implicite d’impôt sur les sociétés s’établit à 21,4 % pour les petites et moyennes entreprises contre 14,3 % pour les grandes². Le Parlement vote chaque année un barème qu’il sait inexact et le taux affiché cesse de dire ce que chacun acquitte.
 
-L’amendement écarte l’avantage par sa forme, et non par une liste. Sept formes sont nommées : exonération, abattement, déduction ou exclusion d’assiette, réduction ou crédit d’impôt, taux réduit ou nul, report, sursis ou étalement, et dégrèvement sans disparition de matière imposable. Elles cessent de s’appliquer à l’impôt sur le revenu, à l’impôt sur les sociétés, à l’impôt sur la fortune immobilière, aux droits d’enregistrement et de timbre, à la taxe sur la valeur ajoutée, aux accises et aux impositions directes locales. Six exceptions de principe subsistent : le revenu imposable de droit commun, l’élimination d’une double imposition, ce qu’impose le droit de l’Union ou une convention internationale, les taux réduits de taxe sur la valeur ajoutée autres que ceux que le III abroge, ce qui s’applique à tous sans considération de la nature des biens ou des opérations, et les régimes que la présente loi institue pour le compte d’épargne personnel et pour le tarif des droits de mutation. Les collectivités régies par les articles 73 et 74 de la Constitution et la Nouvelle-Calédonie sont exclues du dispositif, leur régime fiscal étant distinct. En clair : l’avantage disparaît parce qu’il est un avantage, et non parce qu’on a jugé la politique qu’il servait.
+L’amendement écarte l’avantage par sa forme et non par une liste. Sept formes sont nommées : exonération, abattement, déduction ou exclusion d’assiette, réduction ou crédit d’impôt, taux réduit ou nul, report, sursis ou étalement, et dégrèvement sans disparition de matière imposable. Elles cessent de s’appliquer à l’impôt sur le revenu, à l’impôt sur les sociétés, à l’impôt sur la fortune immobilière, aux droits d’enregistrement et de timbre, à la taxe sur la valeur ajoutée, aux accises et aux impositions directes locales. Six exceptions de principe subsistent : le revenu imposable de droit commun, l’élimination d’une double imposition, ce qu’impose le droit de l’Union ou une convention internationale, les taux réduits de taxe sur la valeur ajoutée autres que ceux que le III abroge, ce qui s’applique à tous sans considération de la nature des biens ou des opérations, et les régimes que la présente loi institue pour le compte d’épargne personnel et pour le tarif des droits de mutation. Les collectivités régies par les articles 73 et 74 de la Constitution et la Nouvelle-Calédonie sont exclues du dispositif, leur régime fiscal étant distinct. En clair : l’avantage disparaît parce qu’il est un avantage et non parce qu’on a jugé la politique qu’il servait.
 
 Le calendrier est graduel et suit la nature de chaque avantage : les dispositifs non incitatifs tombent dès les revenus de 2026, ceux qui rémunèrent un engagement au 1er janvier 2027, les droits de mutation à titre gratuit à la même date que la baisse de leur tarif, les taux réduits de taxe sur la valeur ajoutée au 1er juillet 2027, jour où disparaissent les taxes propres à chaque secteur, le barème et l’épargne en 2028, l’agriculture et les services à la personne par tiers jusqu’en 2029, les dons par moitié puis en totalité. Les créances nées et les engagements pris avant ces dates produisent leurs effets jusqu’à leur terme. Le produit va en priorité à la baisse des prélèvements sur les revenus d’activité. Plus la règle est simple, plus elle est difficile à contourner et plus traquer les abus est facile³. L’abrogation du taux réduit de l’impôt sur les sociétés prend effet après la refonte du taux de cet impôt qu’un amendement distinct porte : le dispositif fait jouer cette refonte d’abord et l’abrogation ensuite, de sorte que les deux ne se contrarient pas. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
@@ -596,7 +596,7 @@ Cet amendement transfère au salarié la contre-valeur de ses titres-restaurant 
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le salarié qui n’a pas utilisé ses titres avant leur date de validité en perd la valeur ; la somme ne lui revient pas, et elle ne revient pas non plus à l’employeur qui l’a avancée. La loi la verse aujourd’hui au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres. Un salarié paie donc, par sa négligence, une dépense dont il n’a jamais décidé, et au bénéfice d’un comité dont il n’est pas nécessairement membre. Aucune disposition fiscale n’atteint ce circuit : une règle d’affectation d’une somme jamais imposée ne déroge à aucune règle d’assiette, de tarif ou de montant.
+Le salarié qui n’a pas utilisé ses titres avant leur date de validité en perd la valeur ; la somme ne lui revient pas et elle ne revient pas non plus à l’employeur qui l’a avancée. La loi la verse aujourd’hui au budget des activités sociales et culturelles des entreprises auprès desquelles les salariés se sont procuré leurs titres. Un salarié paie donc, par sa négligence, une dépense dont il n’a jamais décidé et au bénéfice d’un comité dont il n’est pas nécessairement membre. Aucune disposition fiscale n’atteint ce circuit : une règle d’affectation d’une somme jamais imposée ne déroge à aucune règle d’assiette, de tarif ou de montant.
 
 L’amendement change le destinataire. La contre-valeur des titres-restaurant et des titres-transport périmés est versée au salarié par son employeur, au plus tard avec la paie du deuxième mois qui suit la péremption, pour les titres dont la péremption intervient à compter du 1er janvier 2027. Cette somme constitue un élément de rémunération : elle entre dans l’assiette de l’impôt sur le revenu et dans celle des cotisations sociales. Rien d’autre ne change : la durée de validité des titres, les conditions de leur émission et les droits du salarié pendant cette durée demeurent. Dit simplement : ce que le salarié a perdu lui revient en salaire.
 
@@ -604,7 +604,7 @@ Aucune annexe publique ne porte le montant de cette contre-valeur et la mesure n
 
 ---
 
-## Amendement n° 3 [Dons : fin des réductions d’impôt, l’argent rendu à la paie de tous]
+## Amendement n° 3 [Dons : fin des réductions d’impôt, l’argent rendu à la paie de tous]
 
 AMENDEMENT
 
@@ -616,7 +616,7 @@ ARTICLE 4
 
 I. – Supprimer le B du I.
 
-II. – Compléter cet article par un V ainsi rédigé :
+II. – Compléter cet article par un V ainsi rédigé :
 
 « V. – A. – Pour les dons et versements effectués à compter du 1er juillet 2027, les taux mentionnés aux articles 200, 238 bis et 978 du code général des impôts sont réduits de moitié.
 
@@ -632,19 +632,19 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge les réductions d’impôt pour dons et mécénat à compter de 2028.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le foyer imposable qui donne récupère les deux tiers de son don sur son impôt ; le foyer non imposable qui donne la même somme n’en récupère rien. La réduction d’impôt au titre des dons des particuliers était estimée à 1,745 milliard d’euros en 2022, pendant que le nombre de foyers donateurs reculait (Sénat, rapport d’information n° 188, décembre 2022)¹. La dépense croît et la base des donateurs se resserre : l’avantage se concentre sur ceux qui acquittent l’impôt sur le revenu, et l’ensemble des contribuables finance aux deux tiers des choix de dépense qui restent privés.
+Le foyer imposable qui donne récupère les deux tiers de son don sur son impôt ; le foyer non imposable qui donne la même somme n’en récupère rien. La réduction d’impôt au titre des dons des particuliers était estimée à 1,745 milliard d’euros en 2022, pendant que le nombre de foyers donateurs reculait (Sénat, rapport d’information n° 188, décembre 2022)¹. La dépense croît et la base des donateurs se resserre : l’avantage se concentre sur ceux qui acquittent l’impôt sur le revenu et l’ensemble des contribuables finance aux deux tiers des choix de dépense qui restent privés.
 
-L’amendement éteint l’avantage en deux temps et par la seule voie du taux. Pour les dons et versements effectués à compter du 1er juillet 2027, les taux de la réduction d’impôt sur le revenu, de celle d’impôt sur les sociétés et de celle d’impôt sur la fortune immobilière sont réduits de moitié. Au 1er janvier 2028, les trois articles qui les portent sont abrogés. Les réductions acquises avant cette date, reports compris, demeurent régies par le droit antérieur, et les autres textes qui renvoyaient à ces articles pour désigner les organismes d’intérêt général continuent de s’y référer dans leur rédaction du 31 décembre 2027. Il retire enfin du présent article le taux réduit de droits de donation accordé au donataire qui reverse une fraction de la somme reçue. Dit simplement : chacun donne à qui il veut, et tous les donateurs sont traités de la même façon, qu’ils acquittent l’impôt ou non.
+L’amendement éteint l’avantage en deux temps et par la seule voie du taux. Pour les dons et versements effectués à compter du 1er juillet 2027, les taux de la réduction d’impôt sur le revenu, de celle d’impôt sur les sociétés et de celle d’impôt sur la fortune immobilière sont réduits de moitié. Au 1er janvier 2028, les trois articles qui les portent sont abrogés. Les réductions acquises avant cette date, reports compris, demeurent régies par le droit antérieur et les autres textes qui renvoyaient à ces articles pour désigner les organismes d’intérêt général continuent de s’y référer dans leur rédaction du 31 décembre 2027. Il retire enfin du présent article le taux réduit de droits de donation accordé au donataire qui reverse une fraction de la somme reçue. Dit simplement : chacun donne à qui il veut et tous les donateurs sont traités de la même façon, qu’ils acquittent l’impôt ou non.
 
-Le rendement va au salaire net et alimente la baisse des prélèvements sur les revenus d’activité. La mesure allège aussi l’administration : la délivrance des reçus, leur contrôle et la procédure de suspension des avantages, restée lettre morte selon le même rapport, perdent leur objet. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Le don redevient un acte libre, financé par celui qui le décide.
+Le rendement va au salaire net et alimente la baisse des prélèvements sur les revenus d’activité. La mesure allège aussi l’administration : la délivrance des reçus, leur contrôle et la procédure de suspension des avantages, restée lettre morte selon le même rapport, perdent leur objet. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Le don redevient un acte libre, financé par celui qui le décide.
 
 ¹ Sénat, commission des finances, rapport d’information n° 188 (2022-2023), « Champ et mise en œuvre effective des dispositifs de suspension des avantages fiscaux pour les dons aux associations », 7 décembre 2022.
 
 ---
 
-## Amendement n° 4 [Prêt à taux zéro : les intérêts payés aux banques rendus à la paie des ménages]
+## Amendement n° 4 [Prêt à taux zéro : les intérêts payés aux banques rendus à la paie des ménages]
 
 AMENDEMENT
 
@@ -654,15 +654,15 @@ présenté par
 
 ARTICLE 7
 
-I. – Rédiger ainsi le D du II :
+I. – Rédiger ainsi le D du II :
 
 « D. – L’article 244 quater V est abrogé. »
 
-II. – Compléter cet article par un III ainsi rédigé :
+II. – Compléter cet article par un III ainsi rédigé :
 
 « III. – Le D du II s’applique aux avances remboursables ne portant pas intérêt dont l’offre est émise à compter du 1er janvier 2027. »
 
-III. – Compléter cet article par un IV ainsi rédigé :
+III. – Compléter cet article par un IV ainsi rédigé :
 
 « IV. – Le produit résultant du D du II concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
@@ -670,19 +670,19 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge le crédit d’impôt versé aux banques pour le prêt à taux zéro.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-L’acheteur d’un premier logement croit emprunter sans intérêt : c’est l’État qui paie ces intérêts à sa banque, sous la forme d’un crédit d’impôt. Une aide à la solvabilité se diffuse pour une large part dans le prix du bien, de sorte que le vendeur en capte une part et que l’acheteur paie plus cher le logement qu’on prétend lui rendre accessible. Le présent article resserre le prêt sur les familles qui attendent ou élèvent un jeune enfant et allège le régime du crédit d’impôt (projet de loi de finances pour 2027, article 7)¹ ; il garde le circuit, et avec lui l’effet sur les prix.
+L’acheteur d’un premier logement croit emprunter sans intérêt : c’est l’État qui paie ces intérêts à sa banque, sous la forme d’un crédit d’impôt. Une aide à la solvabilité se diffuse pour une large part dans le prix du bien, de sorte que le vendeur en capte une part et que l’acheteur paie plus cher le logement qu’on prétend lui rendre accessible. Le présent article resserre le prêt sur les familles qui attendent ou élèvent un jeune enfant et allège le régime du crédit d’impôt (projet de loi de finances pour 2027, article 7)¹ ; il garde le circuit et avec lui l’effet sur les prix.
 
-L’amendement abroge l’article qui porte ce crédit d’impôt pour les offres de prêt émises à compter du 1er janvier 2027. Les avances déjà accordées continuent d’ouvrir droit au crédit jusqu’à leur terme, ce qui protège les emprunteurs et les établissements déjà engagés. Le produit qui en résulte concourt à la réduction des prélèvements pesant sur les revenus d’activité. En clair : l’acheteur négocie son crédit comme tout emprunteur, et il garde davantage de sa paie pour financer son projet.
+L’amendement abroge l’article qui porte ce crédit d’impôt pour les offres de prêt émises à compter du 1er janvier 2027. Les avances déjà accordées continuent d’ouvrir droit au crédit jusqu’à leur terme, ce qui protège les emprunteurs et les établissements déjà engagés. Le produit qui en résulte concourt à la réduction des prélèvements pesant sur les revenus d’activité. En clair : l’acheteur négocie son crédit comme tout emprunteur et il garde davantage de sa paie pour financer son projet.
 
-Une aide ciblée cède la place à un revenu libre d’emploi : le ménage qui garde davantage de son salaire choisit lui-même d’acheter, de louer ou d’épargner, et il le fait sur un marché dont le prix n’est plus soutenu par la subvention. La gestion se simplifie d’autant, le calcul actualisé de chaque avance, sa déclaration par l’établissement et son contrôle disparaissant pour les prêts nouveaux. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Le prix du logement redevient celui que l’acheteur et le vendeur conviennent. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Une aide ciblée cède la place à un revenu libre d’emploi : le ménage qui garde davantage de son salaire choisit lui-même d’acheter, de louer ou d’épargner et il le fait sur un marché dont le prix n’est plus soutenu par la subvention. La gestion se simplifie d’autant, le calcul actualisé de chaque avance, sa déclaration par l’établissement et son contrôle disparaissant pour les prêts nouveaux. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Le prix du logement redevient celui que l’acheteur et le vendeur conviennent. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 7, II, D et I, A.
 
 ---
 
-## Amendement n° 5 [Suramortissement industriel : guichets fermés, la baisse profite à toutes les entreprises]
+## Amendement n° 5 [Suramortissement industriel : guichets fermés, la baisse profite à toutes les entreprises]
 
 AMENDEMENT
 
@@ -694,15 +694,15 @@ ARTICLE 9
 
 I. – Supprimer le A du I.
 
-II. – Rédiger ainsi le B du I :
+II. – Rédiger ainsi le B du I :
 
 « B. – L’article 244 quater I est abrogé. »
 
-III. – Rédiger ainsi le II :
+III. – Rédiger ainsi le II :
 
 « II. – Le B du I s’applique aux investissements dont l’agrément est demandé à compter du 1er janvier 2027. L’article 244 quater I du code général des impôts, dans sa rédaction antérieure à la présente loi, demeure applicable aux investissements agréés avant cette date et réalisés avant le 1er juillet 2029. »
 
-IV. – Compléter cet article par un III ainsi rédigé :
+IV. – Compléter cet article par un III ainsi rédigé :
 
 « III. – Le produit résultant du I concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
@@ -710,13 +710,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement supprime le suramortissement industriel et abroge le crédit d’impôt pour l’industrie verte.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Un crédit d’impôt sur investissement rembourse une part de ce que l’entreprise aurait fait de toute façon, et il trie les projets par l’aptitude à monter un dossier d’agrément bien plus que par leur rentabilité¹. L’entreprise qui a un service fiscal obtient ; celle qui n’en a pas finance l’avantage de la première par son propre impôt. Le présent article étend ce crédit à de nouvelles filières et y ajoute, pour les petites et moyennes entreprises comme pour les entreprises de taille intermédiaire, une déduction supplémentaire assise sur la valeur des biens industriels acquis entre 2027 et 2029 (projet de loi de finances pour 2027, article 9)².
+Un crédit d’impôt sur investissement rembourse une part de ce que l’entreprise aurait fait de toute façon et il trie les projets par l’aptitude à monter un dossier d’agrément bien plus que par leur rentabilité¹. L’entreprise qui a un service fiscal obtient ; celle qui n’en a pas finance l’avantage de la première par son propre impôt. Le présent article étend ce crédit à de nouvelles filières et y ajoute, pour les petites et moyennes entreprises comme pour les entreprises de taille intermédiaire, une déduction supplémentaire assise sur la valeur des biens industriels acquis entre 2027 et 2029 (projet de loi de finances pour 2027, article 9)².
 
-L’amendement retire du texte la création de la déduction exceptionnelle et remplace l’extension du crédit d’impôt par son abrogation, pour les demandes d’agrément déposées à compter du 1er janvier 2027. Les projets déjà agréés conservent leur crédit s’ils sont réalisés avant le 1er juillet 2029 : aucune décision d’investissement déjà prise n’est remise en cause. Le produit qui en résulte concourt à la réduction des prélèvements pesant sur les revenus d’activité. Dit simplement : l’industriel garde la liberté de son plan d’investissement, et l’État cesse de choisir filière par filière les usines dont il rembourse une part.
+L’amendement retire du texte la création de la déduction exceptionnelle et remplace l’extension du crédit d’impôt par son abrogation, pour les demandes d’agrément déposées à compter du 1er janvier 2027. Les projets déjà agréés conservent leur crédit s’ils sont réalisés avant le 1er juillet 2029 : aucune décision d’investissement déjà prise n’est remise en cause. Le produit qui en résulte concourt à la réduction des prélèvements pesant sur les revenus d’activité. Dit simplement : l’industriel garde la liberté de son plan d’investissement et l’État cesse de choisir filière par filière les usines dont il rembourse une part.
 
-Rendre le produit par la baisse générale des prélèvements vaut mieux que le redistribuer par agrément, et pour trois raisons : la baisse profite à toutes les entreprises, y compris celles qu’aucun guichet n’aurait retenues ; elle ne coûte ni instruction, ni suivi, ni contentieux ; elle ne se négocie pas filière par filière à chaque loi de finances. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Les Français sont meilleurs stratèges que l’État. À chaque fois qu’il a prétendu l’être, il a échoué.
+Rendre le produit par la baisse générale des prélèvements vaut mieux que le redistribuer par agrément et pour trois raisons : la baisse profite à toutes les entreprises, y compris celles qu’aucun guichet n’aurait retenues ; elle ne coûte ni instruction ni suivi ni contentieux ; elle ne se négocie pas filière par filière à chaque loi de finances. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte celle-ci ; les deux ne se cumulent pas. Les Français sont meilleurs stratèges que l’État. À chaque fois qu’il a prétendu l’être, il a échoué.
 
 ¹ Sénat, commission d’enquête sur les aides publiques aux entreprises, audition de Sanofi, 26 mars 2025.
 
@@ -724,7 +724,7 @@ Rendre le produit par la baisse générale des prélèvements vaut mieux que le 
 
 ---
 
-## Amendement n° 6 [Cessions d’entreprise : aucun avantage nouveau, la ressource va aux salaires]
+## Amendement n° 6 [Cessions d’entreprise : aucun avantage nouveau, la ressource va aux salaires]
 
 AMENDEMENT
 
@@ -742,19 +742,19 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement supprime les trois avantages fiscaux créés pour les cessions et reprises d’entreprises.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le dirigeant qui vend part parce qu’il part ; le repreneur achète parce que l’affaire est rentable. Aucun des deux n’a attendu un avantage fiscal pour décider, et le présent article en crée pourtant trois pour la même opération : abattement porté à un million d’euros sur la plus-value du cédant qui vend à ses salariés, droits de mutation au taux de 0,1 % pour l’acheteur d’un fonds de commerce, déduction de 60 % du prix des biens neufs pour la microentreprise reprise (projet de loi de finances pour 2027, article 10)¹. Chacun suppose en outre des engagements de conservation sur cinq ans, que l’administration devra suivre pendant toute leur durée.
+Le dirigeant qui vend part parce qu’il part ; le repreneur achète parce que l’affaire est rentable. Aucun des deux n’a attendu un avantage fiscal pour décider et le présent article en crée pourtant trois pour la même opération : abattement porté à un million d’euros sur la plus-value du cédant qui vend à ses salariés, droits de mutation au taux de 0,1 % pour l’acheteur d’un fonds de commerce, déduction de 60 % du prix des biens neufs pour la microentreprise reprise (projet de loi de finances pour 2027, article 10)¹. Chacun suppose en outre des engagements de conservation sur cinq ans, que l’administration devra suivre pendant toute leur durée.
 
-L’amendement supprime l’article. Le droit en vigueur continue de régir les transmissions : régime des plus-values, droits de mutation et amortissement de droit commun s’appliquent à toutes les cessions, quels que soient l’acquéreur et la forme de l’opération. La refonte des droits de mutation que porte la même loi réduit par ailleurs, pour tous, le coût d’entrée d’une acquisition. En clair : le dirigeant qui vend et l’entrepreneur qui reprend traitent aux conditions de tous les contribuables.
+L’amendement supprime l’article. Le droit en vigueur continue de régir les transmissions : régime des plus-values, droits de mutation et amortissement de droit commun s’appliquent à toutes les cessions, quels que soient l’acquéreur et la forme de l’opération. La refonte des droits de mutation que porte la même loi réduit par ailleurs, pour tous, le coût d’entrée d’une acquisition. En clair : le dirigeant qui vend et l’entrepreneur qui reprend traitent aux conditions de tous les contribuables.
 
-Le rendement de la mesure est celui que le texte renonce à perdre : la dépense nouvelle n’entre pas dans le droit, et la ressource correspondante va à la baisse des prélèvements sur les revenus d’activité. La gestion y gagne aussi, puisque trois régimes d’engagement, leurs remises en cause et leur contentieux ne voient pas le jour. Un amendement distinct atteindrait ces dispositifs une fois votés ; celui-ci les écarte dès l’origine, et les deux ne se cumulent pas. Une reprise réussie se juge à son affaire, pas à son régime fiscal.
+Le rendement de la mesure est celui que le texte renonce à perdre : la dépense nouvelle n’entre pas dans le droit et la ressource correspondante va à la baisse des prélèvements sur les revenus d’activité. La gestion y gagne aussi, puisque trois régimes d’engagement, leurs remises en cause et leur contentieux ne voient pas le jour. Un amendement distinct atteindrait ces dispositifs une fois votés ; celui-ci les écarte dès l’origine et les deux ne se cumulent pas. Une reprise réussie se juge à son affaire, pas à son régime fiscal.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 10, I, 1° à 4°.
 
 ---
 
-## Amendement n° 7 [Soutien à la culture : extinction des avantages, enrichissement de tous les travailleurs]
+## Amendement n° 7 [Soutien à la culture : extinction des avantages, enrichissement de tous les travailleurs]
 
 AMENDEMENT
 
@@ -766,11 +766,11 @@ ARTICLE 12
 
 I. – Supprimer le 1° du I.
 
-II. – Rédiger ainsi le 2° du I :
+II. – Rédiger ainsi le 2° du I :
 
-« 2° Au premier alinéa du III des articles 220 octies, 220 quindecies et 220 septdecies, l’année : “2027” est remplacée par l’année : “2026”. »
+« 2° Au premier alinéa du III des articles 220 octies, 220 quindecies et 220 septdecies, l’année : “2027” est remplacée par l’année : “2026”. »
 
-III. – Compléter cet article par un IV ainsi rédigé :
+III. – Compléter cet article par un IV ainsi rédigé :
 
 « IV. – Le produit résultant du I concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
@@ -778,19 +778,19 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement supprime la prorogation jusqu’en 2029 de sept avantages fiscaux du secteur culturel.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le contribuable paie une part de chaque production retenue par un guichet, et il ne choisit ni les œuvres, ni les producteurs, ni le moment où l’avantage sera reconduit. Sept provisions, réductions et crédits d’impôt du secteur culturel arrivent à échéance ; le présent article les reconduit tous jusqu’en 2029, en changeant une seule année dans chaque article (projet de loi de finances pour 2027, article 12)¹. L’autorisation est annuelle, le dispositif est perpétuel : la date d’extinction, écrite pour forcer un réexamen, se déplace à chaque échéance sans que le réexamen ait lieu.
+Le contribuable paie une part de chaque production retenue par un guichet et il ne choisit ni les œuvres ni les producteurs ni le moment où l’avantage sera reconduit. Sept provisions, réductions et crédits d’impôt du secteur culturel arrivent à échéance ; le présent article les reconduit tous jusqu’en 2029, en changeant une seule année dans chaque article (projet de loi de finances pour 2027, article 12)¹. L’autorisation est annuelle, le dispositif est perpétuel : la date d’extinction, écrite pour forcer un réexamen, se déplace à chaque échéance sans que le réexamen ait lieu.
 
-L’amendement supprime la prorogation des quatre dispositifs qui expirent à la fin de 2026 et avance d’un an le terme des trois crédits d’impôt de production qui expiraient à la fin de 2027. Les dépenses engagées jusqu’au 31 décembre 2026 restent éligibles, et les œuvres en cours de tournage ou d’édition conservent leur régime. Dit simplement : producteurs et éditeurs financent leurs œuvres par leurs publics, leurs mécènes et les crédits votés, et le contribuable garde l’euro qu’il versait sans l’avoir décidé.
+L’amendement supprime la prorogation des quatre dispositifs qui expirent à la fin de 2026 et avance d’un an le terme des trois crédits d’impôt de production qui expiraient à la fin de 2027. Les dépenses engagées jusqu’au 31 décembre 2026 restent éligibles et les œuvres en cours de tournage ou d’édition conservent leur régime. Dit simplement : producteurs et éditeurs financent leurs œuvres par leurs publics, leurs mécènes et les crédits votés et le contribuable garde l’euro qu’il versait sans l’avoir décidé.
 
-Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La simplification porte sur l’agrément des œuvres, le calcul des dépenses éligibles et leur contrôle. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte ces dispositifs ; les deux ne se cumulent pas. Le Parlement retrouve l’échéance qu’il avait lui-même votée.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La simplification porte sur l’agrément des œuvres, le calcul des dépenses éligibles et leur contrôle. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte ces dispositifs ; les deux ne se cumulent pas. Le Parlement retrouve l’échéance qu’il avait lui-même votée.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 12, I.
 
 ---
 
-## Amendement n° 8 [Suramortissement agricole : fin des régimes particuliers, gain rendu aux actifs]
+## Amendement n° 8 [Suramortissement agricole : fin des régimes particuliers, gain rendu aux actifs]
 
 AMENDEMENT
 
@@ -802,7 +802,7 @@ ARTICLE 13
 
 I. – Supprimer le A du II.
 
-II. – Rédiger ainsi le B du II :
+II. – Rédiger ainsi le B du II :
 
 « B. – L’article 200 undecies est abrogé. »
 
@@ -810,11 +810,11 @@ III. – Supprimer le C du II.
 
 IV. – Supprimer le IV.
 
-V. – Rédiger ainsi le A du V :
+V. – Rédiger ainsi le A du V :
 
 « A. – Le crédit d’impôt prévu à l’article 200 undecies du code général des impôts est réduit d’un tiers pour les dépenses engagées en 2027 et de deux tiers pour les dépenses engagées en 2028. Le B du II s’applique aux dépenses engagées à compter du 1er janvier 2029. »
 
-VI. – Compléter cet article par un VI ainsi rédigé :
+VI. – Compléter cet article par un VI ainsi rédigé :
 
 « VI. – Le produit résultant du B du II concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
@@ -822,19 +822,19 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement supprime le suramortissement agricole et abroge en 2029 le crédit d’impôt de remplacement.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le présent article crée ou proroge pour l’agriculture une prise en charge du remplacement, une déduction sur les bâtiments de stockage, un crédit d’impôt lié à la certification et un dégrèvement de taxe foncière (projet de loi de finances pour 2027, article 13)¹. Quatre aides pour un même secteur, chacune avec son formulaire, son plafond et son contrôle, et aucune dont le bilan ait été rendu. L’exploitant qui n’a pas de comptable passe à côté des quatre ; celui qui en a un les cumule.
+Le présent article crée ou proroge pour l’agriculture une prise en charge du remplacement, une déduction sur les bâtiments de stockage, un crédit d’impôt lié à la certification et un dégrèvement de taxe foncière (projet de loi de finances pour 2027, article 13)¹. Quatre aides pour un même secteur, chacune avec son formulaire, son plafond et son contrôle, et aucune dont le bilan ait été rendu. L’exploitant qui n’a pas de comptable passe à côté des quatre ; celui qui en a un les cumule.
 
-L’amendement retire du texte la création de la déduction exceptionnelle, laisse s’éteindre à leur terme voté le dégrèvement de taxe foncière des associations foncières pastorales et le crédit d’impôt lié à la certification environnementale, et éteint le crédit d’impôt pour dépenses de remplacement par tiers : il est réduit d’un tiers pour les dépenses engagées en 2027, de deux tiers pour celles de 2028, et il est abrogé à compter des dépenses engagées en 2029. La cadence est celle que la même loi retient pour tout le secteur agricole, afin qu’aucune exploitation ne découvre la sortie l’année où elle arrive. En clair : l’agriculteur dispose de trois exercices pour ajuster ses charges, et il décide seul de ses congés, de ses bâtiments et de ses labels.
+L’amendement retire du texte la création de la déduction exceptionnelle, laisse s’éteindre à leur terme voté le dégrèvement de taxe foncière des associations foncières pastorales et le crédit d’impôt lié à la certification environnementale et éteint le crédit d’impôt pour dépenses de remplacement par tiers : il est réduit d’un tiers pour les dépenses engagées en 2027, de deux tiers pour celles de 2028 et il est abrogé à compter des dépenses engagées en 2029. La cadence est celle que la même loi retient pour tout le secteur agricole, afin qu’aucune exploitation ne découvre la sortie l’année où elle arrive. En clair : l’agriculteur dispose de trois exercices pour ajuster ses charges et il décide seul de ses congés, de ses bâtiments et de ses labels.
 
-Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale, et il croît d’un tiers par an jusqu’en 2029. La gestion s’allège de trois régimes d’instruction et de contrôle propres à un seul secteur. Le revenu agricole se défend par le prix, que la baisse générale des prélèvements soutient pour tous. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale, et il croît d’un tiers par an jusqu’en 2029. La gestion s’allège de trois régimes d’instruction et de contrôle propres à un seul secteur. Le revenu agricole se défend par le prix, que la baisse générale des prélèvements soutient pour tous. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 13, II, A à C et IV.
 
 ---
 
-## Amendement n° 9 [Crédit d’impôt recherche : supprimé, rendu en salaire net]
+## Amendement n° 9 [Crédit d’impôt recherche : supprimé, rendu en salaire net]
 
 AMENDEMENT
 
@@ -844,13 +844,13 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 13, insérer l’article suivant :
+APRÈS L’ARTICLE 13, insérer l’article suivant :
 
-I. – Le code général des impôts est ainsi modifié :
+I. – Le code général des impôts est ainsi modifié :
 
 1° Les articles 199 ter B, 199 ter B bis, 220 B, 220 B bis, 244 quater B et 244 quater B bis sont abrogés.
 
-2° Les b et b bis du 1 de l’article 223 O sont ainsi rédigés :
+2° Les b et b bis du 1 de l’article 223 O sont ainsi rédigés :
 
 « b. (Abrogé)
 
@@ -864,13 +864,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge les crédits d’impôt recherche, innovation et recherche collaborative, à compter de 2027.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Une entreprise qui cherche doit aujourd’hui démontrer, dossier à l’appui, que sa dépense entre dans une définition fiscale : l’effort administratif pèse autant que l’effort de recherche. L’avantage trie les entreprises par leur aptitude à le réclamer plutôt que par ce qu’elles cherchent¹. Trois crédits d’impôt se superposent sur la même matière : la recherche, l’innovation et la recherche collaborative, chacun avec sa définition de la dépense éligible, son plafond et son agrément (code général des impôts, articles 244 quater B et 244 quater B bis)².
+Une entreprise qui cherche doit aujourd’hui démontrer, dossier à l’appui, que sa dépense entre dans une définition fiscale : l’effort administratif pèse autant que l’effort de recherche. L’avantage trie les entreprises par leur aptitude à le réclamer plutôt que par ce qu’elles cherchent¹. Trois crédits d’impôt se superposent sur la même matière : la recherche, l’innovation et la recherche collaborative, chacun avec sa définition de la dépense éligible, son plafond et son agrément (code général des impôts, articles 244 quater B et 244 quater B bis)².
 
-La suppression porte sur le mécanisme entier et non sur son taux : les articles d’assiette disparaissent avec les articles qui en organisent l’imputation sur l’impôt sur le revenu, sur l’impôt sur les sociétés et au sein d’un groupe intégré ; aucun socle ne subsiste pour une reconduction partielle. Les dépenses engagées jusqu’au 31 décembre 2026 demeurent couvertes par le droit en vigueur. En clair : l’entreprise qui cherche décide de son effort sur son marché et sur ses brevets ; elle cesse de démontrer à l’administration que sa dépense entre dans une nomenclature.
+La suppression porte sur le mécanisme entier et non sur son taux : les articles d’assiette disparaissent avec les articles qui en organisent l’imputation sur l’impôt sur le revenu, sur l’impôt sur les sociétés et au sein d’un groupe intégré ; aucun socle ne subsiste pour une reconduction partielle. Les dépenses engagées jusqu’au 31 décembre 2026 demeurent couvertes par le droit en vigueur. En clair : l’entreprise qui cherche décide de son effort sur son marché et sur ses brevets ; elle cesse de démontrer à l’administration que sa dépense entre dans une nomenclature.
 
-Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. L’administration cesse d’instruire les agréments et les contrôles d’éligibilité ; l’entreprise cesse de produire l’état annexe qui les accompagne. Toutes les entreprises relèvent désormais du même droit commun, et le chercheur n’a plus de dossier à monter. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Un amendement distinct propose de neutraliser l’ensemble des dépenses fiscales par une clause générale ; les deux ne se cumulent pas. La recherche se décide au laboratoire et non au service fiscal. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. L’administration cesse d’instruire les agréments et les contrôles d’éligibilité ; l’entreprise cesse de produire l’état annexe qui les accompagne. Toutes les entreprises relèvent désormais du même droit commun et le chercheur n’a plus de dossier à monter. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Un amendement distinct propose de neutraliser l’ensemble des dépenses fiscales par une clause générale ; les deux ne se cumulent pas. La recherche se décide au laboratoire et non au service fiscal. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Sénat, commission d’enquête sur les aides publiques aux entreprises, audition de Sanofi, 26 mars 2025.
 
@@ -878,7 +878,7 @@ Le rendement va au salaire net : il finance en priorité la baisse des prélève
 
 ---
 
-## Amendement n° 10 [Zones franches : dix exonérations abrogées, l’impôt baisse pour tous]
+## Amendement n° 10 [Zones franches : dix exonérations abrogées, l’impôt baisse pour tous]
 
 AMENDEMENT
 
@@ -888,7 +888,7 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 13, insérer l’article suivant :
+APRÈS L’ARTICLE 13, insérer l’article suivant :
 
 I. – Les articles 44 sexies, 44 sexies-0 A, 44 sexies A, 44 octies A, 44 duodecies, 44 terdecies, 44 quindecies, 44 quindecies A, 44 sexdecies et 44 septdecies du code général des impôts sont abrogés.
 
@@ -900,21 +900,21 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge les dix régimes d’exonération d’impôt attachés à l’implantation en zone.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 Pour savoir s’il a droit à l’exonération, celui qui crée son entreprise doit identifier la zone où tombe son local, la liste qui la classe, la date à laquelle ce classement a été arrêté et le régime antérieur dont il peut rester tributaire. Dix régimes se partagent cette carte et renvoient les uns aux autres (code général des impôts, articles 44 sexies à 44 septdecies)¹. L’avantage paie une installation qui se décide sur le loyer, sur le bassin d’emploi et sur la clientèle, puis il s’éteint et laisse l’entreprise devant l’impôt qu’elle aurait acquitté sans lui.
 
-La suppression retire la carte et non le taux : les dix articles d’exonération tombent ensemble ; aucun régime résiduel ne recueille les entreprises que les autres cessent de couvrir. Les régimes ultramarins ne sont pas visés par le présent article et relèvent d’un examen distinct. Dit simplement : celui qui crée son entreprise acquitte le même impôt sur le bénéfice où qu’il l’installe et il n’a plus de zonage à vérifier avant de signer un bail.
+La suppression retire la carte et non le taux : les dix articles d’exonération tombent ensemble ; aucun régime résiduel ne recueille les entreprises que les autres cessent de couvrir. Les régimes ultramarins ne sont pas visés par le présent article et relèvent d’un examen distinct. Dit simplement : celui qui crée son entreprise acquitte le même impôt sur le bénéfice où qu’il l’installe et il n’a plus de zonage à vérifier avant de signer un bail.
 
-Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. L’administration cesse de tenir des listes de communes et des régimes de sortie dégressifs ; l’entreprise cesse de justifier chaque exercice qu’elle remplit encore les conditions d’implantation. Chaque entreprise relève du même impôt, où qu’elle soit installée, et la carte des zones cesse de peser sur ses choix. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Plusieurs renvois subsistent dans d’autres articles du même code et dans le code monétaire et financier ; ils demandent une coordination². L’exonération disparaît ; l’entreprise qui s’installe garde son marché, sa main-d’œuvre et son loyer. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. L’administration cesse de tenir des listes de communes et des régimes de sortie dégressifs ; l’entreprise cesse de justifier chaque exercice qu’elle remplit encore les conditions d’implantation. Chaque entreprise relève du même impôt, où qu’elle soit installée, et la carte des zones cesse de peser sur ses choix. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Plusieurs renvois subsistent dans d’autres articles du même code et dans le code monétaire et financier ; ils demandent une coordination². L’exonération disparaît ; l’entreprise qui s’installe garde son marché, sa main-d’œuvre et son loyer. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Code général des impôts, articles 44 sexies à 44 septdecies, dans leur rédaction applicable au 1er octobre 2026.
 
-² Code général des impôts, articles 154 bis-0 A, 220 quinquies, 220 terdecies, 244 quater C, 244 quater E, 244 quater I, 244 quater O, 244 quater W, 302 nonies, 1383 A, 1464 B ; code monétaire et financier, articles L. 221-31 et L. 221-32-2.
+² Code général des impôts, articles 154 bis-0 A, 220 quinquies, 220 terdecies, 244 quater C, 244 quater E, 244 quater I, 244 quater O, 244 quater W, 302 nonies, 1383 A, 1464 B ; code monétaire et financier, articles L. 221-31 et L. 221-32-2.
 
 ---
 
-## Amendement n° 11 [Taxe au tonnage : les armateurs imposés sur leur bénéfice réel, le produit va au travail]
+## Amendement n° 11 [Taxe au tonnage : les armateurs imposés sur leur bénéfice réel, le produit va au travail]
 
 AMENDEMENT
 
@@ -924,7 +924,7 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 13, insérer l’article suivant :
+APRÈS L’ARTICLE 13, insérer l’article suivant :
 
 I. – L’article 209-0 B du code général des impôts est abrogé.
 
@@ -936,13 +936,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge le régime de taxation au tonnage des entreprises de transport maritime.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Pour les entreprises de transport maritime qui l’ont choisi, l’impôt sur les sociétés prend la forme d’un forfait assis sur le volume des navires. Le bénéfice réel sort de l’assiette : une année faste et une année de perte donnent le même impôt et le montant acquitté ne dit plus rien de ce que l’entreprise a gagné. Le régime se prend sur option décennale et le code en organise la coexistence avec le report des déficits ainsi qu’avec deux déductions exceptionnelles (code général des impôts, article 209-0 B)¹.
+Pour les entreprises de transport maritime qui l’ont choisi, l’impôt sur les sociétés prend la forme d’un forfait assis sur le volume des navires. Le bénéfice réel sort de l’assiette : une année faste et une année de perte donnent le même impôt et le montant acquitté ne dit plus rien de ce que l’entreprise a gagné. Le régime se prend sur option décennale et le code en organise la coexistence avec le report des déficits ainsi qu’avec deux déductions exceptionnelles (code général des impôts, article 209-0 B)¹.
 
-L’abrogation retire une assiette de remplacement et non un taux préférentiel : faute d’article qui la porte, le bénéfice des entreprises de transport maritime se détermine selon les règles de droit commun, sans qu’aucune disposition de coordination soit nécessaire pour l’y ramener. Les options en cours cessent de produire effet à la date d’entrée en vigueur. En clair : l’armateur déclare son bénéfice réel et l’administration cesse de tenir un barème par tranche de tonnage.
+L’abrogation retire une assiette de remplacement et non un taux préférentiel : faute d’article qui la porte, le bénéfice des entreprises de transport maritime se détermine selon les règles de droit commun, sans qu’aucune disposition de coordination soit nécessaire pour l’y ramener. Les options en cours cessent de produire effet à la date d’entrée en vigueur. En clair : l’armateur déclare son bénéfice réel et l’administration cesse de tenir un barème par tranche de tonnage.
 
-Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La simplification tient en une phrase : un régime d’assiette entier disparaît, avec son option, sa durée, son barème et sa clause de sortie. Chaque entreprise maritime est imposée sur ses résultats réels, comme toute entreprise, à la hausse comme à la baisse. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés ; son montant ne figure pas ici. Deux articles du même code citent ce régime pour l’articuler avec d’autres dispositifs et ils demandent une coordination². L’impôt sur les sociétés retrouve une assiette unique.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La simplification tient en une phrase : un régime d’assiette entier disparaît, avec son option, sa durée, son barème et sa clause de sortie. Chaque entreprise maritime est imposée sur ses résultats réels, comme toute entreprise, à la hausse comme à la baisse. L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés ; son montant ne figure pas ici. Deux articles du même code citent ce régime pour l’articuler avec d’autres dispositifs et ils demandent une coordination². L’impôt sur les sociétés retrouve une assiette unique.
 
 ¹ Code général des impôts, article 209-0 B, dans sa rédaction applicable au 1er octobre 2026.
 
@@ -992,7 +992,7 @@ Le rendement va au salaire net : il finance en priorité la baisse des prélèv
 
 ---
 
-## Amendement n° 13 [Déductions exceptionnelles : huit régimes éteints, la baisse profite à chaque entreprise]
+## Amendement n° 13 [Déductions exceptionnelles : huit régimes éteints, la baisse profite à chaque entreprise]
 
 AMENDEMENT
 
@@ -1002,7 +1002,7 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 13, insérer l’article suivant :
+APRÈS L’ARTICLE 13, insérer l’article suivant :
 
 I. – Les articles 39 decies, 39 decies A, 39 decies B, 39 decies C, 39 decies D, 39 decies E, 39 decies F et 39 decies G du code général des impôts sont abrogés.
 
@@ -1014,13 +1014,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge les huit déductions exceptionnelles d’investissement du code général des impôts.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le législateur a institué la première déduction exceptionnelle pour une durée bornée, au motif d’un retard d’investissement à rattraper. Huit lui ont succédé depuis, chacune prorogeant la précédente ou visant un matériel voisin : poids lourds, robots, navires, engins, simulateurs, cuves. Le texte en discussion en propose deux de plus. L’autorisation est ponctuelle, la pratique est permanente : aucun de ces dispositifs n’a jamais eu à démontrer qu’il déclenchait un achat au lieu d’en payer une part (code général des impôts, articles 39 decies à 39 decies G)¹.
+Le législateur a institué la première déduction exceptionnelle pour une durée bornée, au motif d’un retard d’investissement à rattraper. Huit lui ont succédé depuis, chacune prorogeant la précédente ou visant un matériel voisin : poids lourds, robots, navires, engins, simulateurs, cuves. Le texte en discussion en propose deux de plus. L’autorisation est ponctuelle, la pratique est permanente : aucun de ces dispositifs n’a jamais eu à démontrer qu’il déclenchait un achat au lieu d’en payer une part (code général des impôts, articles 39 decies à 39 decies G)¹.
 
-La suppression ferme la file et non le dernier maillon : les huit articles tombent ensemble, de sorte que l’entreprise qui investit relève de l’amortissement de droit commun sans avoir à chercher si son matériel figure dans une liste. Les biens acquis jusqu’au 31 décembre 2026 conservent le régime sous lequel ils ont été acquis. En clair : l’entreprise amortit ses machines comme elle les use et son comptable cesse de tenir une déduction parallèle à l’amortissement.
+La suppression ferme la file et non le dernier maillon : les huit articles tombent ensemble, de sorte que l’entreprise qui investit relève de l’amortissement de droit commun sans avoir à chercher si son matériel figure dans une liste. Les biens acquis jusqu’au 31 décembre 2026 conservent le régime sous lequel ils ont été acquis. En clair : l’entreprise amortit ses machines comme elle les use et son comptable cesse de tenir une déduction parallèle à l’amortissement.
 
-Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La gestion s’allège de huit nomenclatures de biens éligibles, de huit plafonds et de huit dates limites. L’entreprise investit au moment que son activité commande, et non plus à celui qu’une fenêtre fiscale lui dicte². L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Deux amendements distincts retirent du texte les deux déductions nouvelles qu’il crée ; le présent article ne les recouvre pas et s’y ajoute. Une durée bornée se tient à son terme.
+Le rendement va au salaire net : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La gestion s’allège de huit nomenclatures de biens éligibles, de huit plafonds et de huit dates limites. L’entreprise investit au moment que son activité commande et non plus à celui qu’une fenêtre fiscale lui dicte². L’effet se constate dès l’exercice 2027 sur l’impôt sur les sociétés comme sur l’impôt sur le revenu ; son montant ne figure pas ici. Deux amendements distincts retirent du texte les deux déductions nouvelles qu’il crée ; le présent article ne les recouvre pas et s’y ajoute. Une durée bornée se tient à son terme.
 
 ¹ Code général des impôts, articles 39 decies à 39 decies G, dans leur rédaction applicable au 1er octobre 2026.
 
@@ -1028,7 +1028,7 @@ Le rendement va au salaire net : il finance en priorité la baisse des prélève
 
 ---
 
-## Amendement n° 14 [Accise sur l’énergie : même tarif pour tous les métiers, tous les revenus d’activité augmentés]
+## Amendement n° 14 [Accise sur l’énergie : même tarif pour tous les métiers, tous les revenus d’activité augmentés]
 
 AMENDEMENT
 
@@ -1038,13 +1038,13 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 13, insérer l’article suivant :
+APRÈS L’ARTICLE 13, insérer l’article suivant :
 
-I. – Le code des impositions sur les biens et services est ainsi modifié :
+I. – Le code des impositions sur les biens et services est ainsi modifié :
 
-1° Dans le secteur des transports :
+1° Dans le secteur des transports :
 
-a) Le tableau du second alinéa de l’article L. 312-48 est ainsi rédigé :
+a) Le tableau du second alinéa de l’article L. 312-48 est ainsi rédigé :
 
 | CONSOMMATIONS | CATÉGORIES FISCALES | CONDITIONS D’APPLICATION | TARIF RÉDUIT (€/MWh) |
 |---|---|---|---|
@@ -1054,9 +1054,9 @@ a) Le tableau du second alinéa de l’article L. 312-48 est ainsi rédigé :
 
 b) Les articles L. 312-49, L. 312-50, L. 312-51, L. 312-52, L. 312-53, L. 312-54, L. 312-56, L. 312-57-1, L. 312-57-2, L. 312-58-1 et L. 312-59 sont abrogés.
 
-2° Pour les procédés et activités industriels :
+2° Pour les procédés et activités industriels :
 
-a) Le tableau du second alinéa de l’article L. 312-64 est ainsi rédigé :
+a) Le tableau du second alinéa de l’article L. 312-64 est ainsi rédigé :
 
 | CONSOMMATIONS | CATÉGORIES FISCALES | CONDITIONS D’APPLICATION | TARIF RÉDUIT (€/MWh) |
 |---|---|---|---|
@@ -1076,13 +1076,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge les tarifs réduits d’accise sur l’énergie qui procèdent d’un choix national.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans hausse des prélèvements obligatoires.
 
-Ce qui se présente comme une accise unique sur l’énergie est un tarif par métier. Le même mégawattheure se paie à des prix différents selon que celui qui le consomme transporte des voyageurs, extrait des minéraux ou relève du marché des quotas, et le partage se lit dans des articles qui désignent des activités, non dans le tarif.
+Ce qui se présente comme une accise unique sur l’énergie est un tarif par métier. Le même mégawattheure se paie à des prix différents selon que celui qui le consomme transporte des voyageurs, extrait des minéraux ou relève du marché des quotas et le partage se lit dans des articles qui désignent des activités, non dans le tarif.
 
-Le droit de l’Union commande le périmètre. Les exonérations qu’il rend obligatoires sont maintenues : navigation maritime, électricité produite à bord et navigation aérienne autre que de tourisme privé, au 1 de l’article 14 de la directive 2003/96/CE. Les consommations qu’il place hors de son champ le sont également : doubles usages, procédés minéralogiques et électricité entrant pour plus de la moitié dans le coût d’un produit, au b du 4 de son article 2. Le reste n’est qu’une faculté ouverte aux États, par le 1 de son article 15 et par son article 17. Ce sont ces facultés que l’amendement cesse d’exercer.
+Le droit de l’Union commande le périmètre. Les exonérations qu’il rend obligatoires sont maintenues : navigation maritime, électricité produite à bord et navigation aérienne autre que de tourisme privé, au 1 de l’article 14 de la directive 2003/96/CE. Les consommations qu’il place hors de son champ le sont également : doubles usages, procédés minéralogiques et électricité entrant pour plus de la moitié dans le coût d’un produit, au b du 4 de son article 2. Le reste n’est qu’une faculté ouverte aux États, par le 1 de son article 15 et par son article 17. Ce sont ces facultés que l’amendement cesse d’exercer.
 
-L’abrogation retire les articles qui ouvrent le droit au tarif réduit et non les tarifs eux-mêmes : le tarif normal s’applique sans qu’il faille le réécrire. Les tarifs agricoles, forestiers et montagnards relèvent d’une disposition distincte, qui organise leur transition. Le rendement va d’abord à la baisse des prélèvements sur les revenus d’activité, le solde à l’équilibre de la refonte. Les régimes de remboursement et les contrôles qui les accompagnent cessent. Le même mégawattheure supporte le même tarif, quel que soit le métier de celui qui le consomme.
+L’abrogation retire les articles qui ouvrent le droit au tarif réduit et non les tarifs eux-mêmes : le tarif normal s’applique sans qu’il faille le réécrire. Les tarifs agricoles, forestiers et montagnards relèvent d’une disposition distincte, qui organise leur transition. Le rendement va d’abord à la baisse des prélèvements sur les revenus d’activité, le solde à l’équilibre de la refonte. Les régimes de remboursement et les contrôles qui les accompagnent cessent. Le même mégawattheure supporte le même tarif, quel que soit le métier de celui qui le consomme.
 
 ---
 
@@ -1136,11 +1136,11 @@ L’extinction s’écrit au calendrier plutôt qu’au taux : chaque régime p
 
 Le rendement va au salaire net à mesure que les étapes tombent : il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La gestion s’allège d’une certification à contrôler, d’un partage entre opérations avec sociétaires et avec non-sociétaires et d’un remboursement d’accise à instruire. Chaque régime rejoint le droit commun selon un calendrier connu trois ans à l’avance. L’effet commence en 2027, par tiers, et il est complet en 2029. Un amendement distinct écarte les avantages agricoles que le texte en discussion crée ou proroge ; le présent article ne les recouvre pas. L’agriculture reçoit en regard la baisse des prélèvements sur le travail et la suppression des taxes qui lui étaient propres. Le délai vient en plus, non à la place.
 
-¹ Code général des impôts, articles 207 et 244 quater L, et code des impositions sur les biens et services, articles L. 312-60 à L. 312-63, dans leur rédaction applicable au 1er octobre 2026.
+¹ Code général des impôts, articles 207 et 244 quater L et code des impositions sur les biens et services, articles L. 312-60 à L. 312-63, dans leur rédaction applicable au 1er octobre 2026.
 
 ---
 
-## Amendement n° 16 [Certificats d’économies d’énergie : fin des impôts cachés sur la facture d’énergie]
+## Amendement n° 16 [Certificats d’économies d’énergie : fin des impôts cachés sur la facture d’énergie]
 
 AMENDEMENT
 
@@ -1150,15 +1150,15 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 24, insérer l’article suivant :
+APRÈS L’ARTICLE 24, insérer l’article suivant :
 
 I. – Les chapitres Ier et II du titre II du livre II du code de l’énergie sont abrogés.
 
-II. – Le code général des impôts est ainsi modifié :
+II. – Le code général des impôts est ainsi modifié :
 
 1° Le second alinéa du 2 de l’article 39 est supprimé.
 
-2° Au a du 4° du 1 de l’article 207, les mots : « ainsi que les produits issus de la cession de certificats d’économies d’énergie mentionnés à l’article L. 221-7 du code de l’énergie » sont supprimés.
+2° Au a du 4° du 1 de l’article 207, les mots : « ainsi que les produits issus de la cession de certificats d’économies d’énergie mentionnés à l’article L. 221-7 du code de l’énergie » sont supprimés.
 
 3° Le 3 de l’article 42 septies est abrogé.
 
@@ -1174,15 +1174,15 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge le dispositif des certificats d’économies d’énergie et les obligations qui le portent.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le législateur a construit une obligation unique, exprimée en kilowattheures d’énergie finale, dont l’assujetti s’acquitte par des travaux, par l’achat de certificats, par un programme éligible ou par un versement au Trésor public. Le volume de l’obligation est l’assiette de la créance de l’État ; la pénalité unitaire en est le taux. La pénalité libératoire est un prélèvement obligatoire perçu au profit de l’État : elle est due à raison d’un manquement à une obligation légale, la loi en fixe le montant unitaire et son produit est versé au Trésor public. Abroger l’obligation éteint la créance de l’État dans son principe et supprime, au 1er juillet 2027, la recette correspondante de l’exercice. Une disposition qui supprime une ressource de l’État et affecte l’équilibre budgétaire de l’année relève du I de l’article 34 de la loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances, donc de la première partie. L’abrogation des deux chapitres du code de l’énergie n’en est pas séparable : sans elle, l’obligation subsiste et la pénalité qui la sanctionne avec elle. C’est à ce titre que la mesure trouve sa place en première partie de la loi de finances.
+Le législateur a construit une obligation unique, exprimée en kilowattheures d’énergie finale, dont l’assujetti s’acquitte par des travaux, par l’achat de certificats, par un programme éligible ou par un versement au Trésor public. Le volume de l’obligation est l’assiette de la créance de l’État ; la pénalité unitaire en est le taux. La pénalité libératoire est un prélèvement obligatoire perçu au profit de l’État : elle est due à raison d’un manquement à une obligation légale, la loi en fixe le montant unitaire et son produit est versé au Trésor public. Abroger l’obligation éteint la créance de l’État dans son principe et supprime, au 1er juillet 2027, la recette correspondante de l’exercice. Une disposition qui supprime une ressource de l’État et affecte l’équilibre budgétaire de l’année relève du I de l’article 34 de la loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances : elle relève donc de la première partie. L’abrogation des deux chapitres du code de l’énergie n’en est pas séparable : sans elle, l’obligation subsiste et la pénalité qui la sanctionne avec elle. C’est à ce titre que la mesure trouve sa place en première partie de la loi de finances.
 
-La facture d’électricité ou de carburant d’un ménage finance des travaux dont il n’entendra jamais parler, sans qu’aucune ligne de la facture ni aucun crédit voté ne le lui dise. Le fournisseur se libère en achetant des certificats qu’il répercute. La Cour des comptes chiffre à 6 milliards d’euros par an le coût de l’ensemble¹. La loi ne fixe ni le volume ni le prix : le volume est arrêté par période de cinq ans, le barème est réglementaire ; le seul chiffre que le législateur ait écrit est la pénalité de 0,02 € par kilowattheure qui sanctionne le manquement (code de l’énergie, article L. 221-4)². L’autorisation est annuelle, la charge est perpétuelle : personne n’a jamais eu à la reconduire.
+La facture d’électricité ou de carburant d’un ménage finance des travaux dont il n’entendra jamais parler, sans qu’aucune ligne de la facture ni aucun crédit voté ne le lui dise. Le fournisseur se libère en achetant des certificats qu’il répercute. La Cour des comptes chiffre à 6 milliards d’euros par an le coût de l’ensemble¹. La loi ne fixe ni le volume ni le prix : le volume est arrêté par période de cinq ans, le barème est réglementaire ; le seul chiffre que le législateur ait écrit est la pénalité de 0,02 € par kilowattheure qui sanctionne le manquement (code de l’énergie, article L. 221-4)². L’autorisation est annuelle, la charge est perpétuelle : personne n’a jamais eu à la reconduire.
 
-Le présent amendement abroge les deux chapitres qui portent l’obligation et sa sanction, éteint les obligations en cours au 1er juillet 2027 et supprime les trois régimes fiscaux attachés aux certificats. En clair : le fournisseur n’a plus d’obligation à répercuter ; le ménage cesse de payer, dans son prix de l’énergie, une dépense qu’il n’a pas votée.
+Le présent amendement abroge les deux chapitres qui portent l’obligation et sa sanction, éteint les obligations en cours au 1er juillet 2027 et supprime les trois régimes fiscaux attachés aux certificats. En clair : le fournisseur n’a plus d’obligation à répercuter ; le ménage cesse de payer, dans son prix de l’énergie, une dépense qu’il n’a pas votée.
 
-La charge ne transitait pas par le budget : elle revient directement au payeur de la facture. La pénalité libératoire disparaît avec l’obligation qu’elle sanctionnait ; cette perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés, au sein de la refonte des prélèvements. L’administration est déchargée d’un registre, d’un barème et d’un contrôle. Les régimes fiscaux attachés aux certificats tombent avec eux. Ce que l’État veut faire financer, il le fera voter.
+La charge ne transitait pas par le budget : elle revient directement au payeur de la facture. La pénalité libératoire disparaît avec l’obligation qu’elle sanctionnait ; cette perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés, au sein de la refonte des prélèvements. L’administration est déchargée d’un registre, d’un barème et d’un contrôle. Les régimes fiscaux attachés aux certificats tombent avec eux. Ce que l’État veut faire financer, il le fera voter.
 
 ¹ Cour des comptes, Les certificats d’économie d’énergie, rapport sur la 5e période, juillet 2024. Le coût total des certificats y est chiffré à 6 milliards d’euros par an, avant la hausse de volume intervenue en 2026.
 
@@ -1190,7 +1190,7 @@ La charge ne transitait pas par le budget : elle revient directement au payeur d
 
 ---
 
-## Amendement n° 17 [Impôts locaux : les exonérations d’adresse non prorogées, l’avantage rendu à tous]
+## Amendement n° 17 [Impôts locaux : les exonérations d’adresse non prorogées, l’avantage rendu à tous]
 
 AMENDEMENT
 
@@ -1202,11 +1202,11 @@ ARTICLE 26
 
 I. – Supprimer les 1° et 3° du I.
 
-II. – Rédiger ainsi le 2° du I :
+II. – Rédiger ainsi le 2° du I :
 
-« 2° Au premier alinéa du I de l’article 44 septdecies, l’année : “2027” est remplacée par l’année : “2026”. »
+« 2° Au premier alinéa du I de l’article 44 septdecies, l’année : “2027” est remplacée par l’année : “2026”. »
 
-III. – Rédiger ainsi le II :
+III. – Rédiger ainsi le II :
 
 « II. – Le produit résultant du I concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
@@ -1214,19 +1214,19 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement supprime la prorogation des exonérations fiscales accordées aux entreprises des zones aidées.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Deux entreprises servent le même marché, de part et d’autre d’une limite tracée sur une carte : l’une est exonérée d’impôt sur ses bénéfices pendant ses premières années et de cotisation foncière pour ses établissements, l’autre paie tout et paie aussi, par son impôt, l’exonération de sa voisine. Le présent article reconduit d’un an les dates de création ouvrant droit à ces exonérations, allonge la durée des classements et prolonge d’un an les exonérations locales des commerces des communes en revitalisation (projet de loi de finances pour 2027, article 26)¹. Le zonage déplace l’implantation de quelques kilomètres sans créer d’activité nouvelle.
+Deux entreprises servent le même marché, de part et d’autre d’une limite tracée sur une carte : l’une est exonérée d’impôt sur ses bénéfices pendant ses premières années et de cotisation foncière pour ses établissements, l’autre paie tout et paie aussi, par son impôt, l’exonération de sa voisine. Le présent article reconduit d’un an les dates de création ouvrant droit à ces exonérations, allonge la durée des classements et prolonge d’un an les exonérations locales des commerces des communes en revitalisation (projet de loi de finances pour 2027, article 26)¹. Le zonage déplace l’implantation de quelques kilomètres sans créer d’activité nouvelle.
 
-L’amendement supprime ces prorogations et ramène au 31 décembre 2026 la date limite de création ouvrant droit à l’exonération dans les zones de développement prioritaire. Les entreprises déjà exonérées conservent leurs droits jusqu’au terme prévu : aucune implantation décidée sous le régime ancien n’est remise en cause. Dit simplement : l’entreprise qui s’installe en 2027 paie l’impôt de tous, quelle que soit sa commune, et celle qui paie déjà cesse de financer l’avantage de sa concurrente.
+L’amendement supprime ces prorogations et ramène au 31 décembre 2026 la date limite de création ouvrant droit à l’exonération dans les zones de développement prioritaire. Les entreprises déjà exonérées conservent leurs droits jusqu’au terme prévu : aucune implantation décidée sous le régime ancien n’est remise en cause. Dit simplement : l’entreprise qui s’installe en 2027 paie l’impôt de tous, quelle que soit sa commune, et celle qui paie déjà cesse de financer l’avantage de sa concurrente.
 
-Le rendement va au salaire net et, pour les exonérations locales, aux collectivités qui les supportaient ; il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La gestion des périmètres, des classements et des attestations de zone cesse pour les créations nouvelles. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte ces exonérations ; les deux ne se cumulent pas. Un territoire se défend par l’activité qu’il retient, à règles égales. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Le rendement va au salaire net et, pour les exonérations locales, aux collectivités qui les supportaient ; il finance en priorité la baisse des prélèvements sur les revenus d’activité, le solde l’équilibre de la refonte fiscale. La gestion des périmètres, des classements et des attestations de zone cesse pour les créations nouvelles. Un amendement distinct neutralise l’ensemble des dépenses fiscales et emporte ces exonérations ; les deux ne se cumulent pas. Un territoire se défend par l’activité qu’il retient, à règles égales. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, article 26, I, 1° à 3° et II.
 
 ---
 
-## Amendement n° 18 [Aides à l’investissement : abrogées plutôt que prorogées, rendues au salaire net]
+## Amendement n° 18 [Aides à l’investissement : abrogées plutôt que prorogées, rendues au salaire net]
 
 AMENDEMENT
 
@@ -1236,23 +1236,23 @@ présenté par
 
 ARTICLE 28
 
-I. – Rédiger ainsi le A du II :
+I. – Rédiger ainsi le A du II :
 
 « A. – L’article 39 decies C est abrogé. »
 
-II. – Rédiger ainsi le C du II :
+II. – Rédiger ainsi le C du II :
 
 « C. – Les articles 199 undecies C et 244 quater X sont abrogés. »
 
-III. – Rédiger ainsi le E du II :
+III. – Rédiger ainsi le E du II :
 
 « E. – L’article 244 quater Y est abrogé. »
 
-IV. – Rédiger ainsi le B du IV :
+IV. – Rédiger ainsi le B du IV :
 
 « B. – Les A, C et E du II s’appliquent aux investissements dont le fait générateur intervient à compter du 1er janvier 2027. Les articles abrogés par ces dispositions demeurent applicables aux investissements ayant fait l’objet, avant cette date, d’une commande ferme assortie du versement d’un acompte ou d’une demande d’agrément et achevés avant le 1er juillet 2029. »
 
-V. – Compléter le IV par un D ainsi rédigé :
+V. – Compléter le IV par un D ainsi rédigé :
 
 « D. – Le produit résultant des A, C et E du II concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
@@ -1260,13 +1260,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge quatre régimes d’aide à l’investissement au lieu d’en reporter l’extinction.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le contribuable qui acquitte l’impôt plein finance chaque année un avantage dont personne n’a eu à démontrer qu’il servait encore à quelque chose. Un régime de faveur institué pour une durée limitée porte une date d’extinction ; à l’approche de cette date, une loi de finances la repousse. La prorogation passe sans que le rendement du dispositif ait été établi, sans que ses bénéficiaires aient été dénombrés, sans qu’une autre dépense lui ait été comparée. La date d’extinction devait être un rendez-vous d’évaluation ; elle est devenue une formalité que l’avantage franchit par inertie.
+Le contribuable qui acquitte l’impôt plein finance chaque année un avantage dont personne n’a eu à démontrer qu’il servait encore à quelque chose. Un régime de faveur institué pour une durée limitée porte une date d’extinction ; à l’approche de cette date, une loi de finances la repousse. La prorogation passe sans que le rendement du dispositif ait été établi, sans que ses bénéficiaires aient été dénombrés, sans qu’une autre dépense lui ait été comparée. La date d’extinction devait être un rendez-vous d’évaluation ; elle est devenue une formalité que l’avantage franchit par inertie.
 
-L’amendement abroge les quatre régimes au lieu d’en repousser le terme : la déduction exceptionnelle en faveur de l’investissement maritime et les trois aides fiscales à l’investissement outre-mer. L’abrogation vaut pour les investissements dont le fait générateur intervient à compter du 1er janvier 2027. Les opérations déjà commandées avec versement d’un acompte ou présentées à l’agrément avant cette date et achevées avant le 1er juillet 2029 demeurent régies par le droit ancien. Dit simplement : l’entrepreneur qui a engagé son projet le mène à son terme aux conditions qu’il connaissait ; celui qui n’a rien engagé cesse d’attendre une prorogation pour décider.
+L’amendement abroge les quatre régimes au lieu d’en repousser le terme : la déduction exceptionnelle en faveur de l’investissement maritime et les trois aides fiscales à l’investissement outre-mer. L’abrogation vaut pour les investissements dont le fait générateur intervient à compter du 1er janvier 2027. Les opérations déjà commandées avec versement d’un acompte ou présentées à l’agrément avant cette date et achevées avant le 1er juillet 2029 demeurent régies par le droit ancien. Dit simplement : l’entrepreneur qui a engagé son projet le mène à son terme aux conditions qu’il connaissait ; celui qui n’a rien engagé cesse d’attendre une prorogation pour décider.
 
-Un impôt se discute d’autant mieux que chacun voit ce qu’il paie et ce que l’État dépense pour d’autres. Un avantage reconduit sans être mesuré est une dépense que le Parlement vote sans la connaître ; le salarié qui n’en profite pas la finance par son propre prélèvement. Ce que l’État cesse ici de dépenser va d’abord aux revenus d’activité, par la baisse des prélèvements qui pèsent sur le salaire ; le solde va à l’équilibre de la refonte des prélèvements obligatoires. Une aide qui a fait sa preuve se vote à nouveau ; une aide qu’on reconduit pour ne pas avoir à la défendre s’arrête.
+Un impôt se discute d’autant mieux que chacun voit ce qu’il paie et ce que l’État dépense pour d’autres. Un avantage reconduit sans être mesuré est une dépense que le Parlement vote sans la connaître ; le salarié qui n’en profite pas la finance par son propre prélèvement. Ce que l’État cesse ici de dépenser va d’abord aux revenus d’activité, par la baisse des prélèvements qui pèsent sur le salaire ; le solde va à l’équilibre de la refonte des prélèvements obligatoires. Une aide qui a fait sa preuve se vote à nouveau ; une aide qu’on reconduit pour ne pas avoir à la défendre s’arrête.
 
 ---
 
@@ -1334,11 +1334,11 @@ Cet amendement substitue aux droits de mutation un tarif unique de 1 % et 3 %.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-L’acquéreur d’un logement acquitte, en plus du prix, un droit départemental de 3,80 % que le conseil départemental peut porter à 4,50 %, et une taxe communale de 1,20 %¹. Pour un appartement de 200 000 euros, c’est 10 000 euros payés comptant, sans rapport avec un quelconque gain : il paie sur ce qu’il dépense, et non sur ce qu’il aura gagné. Les successions et donations suivent de leur côté trois tableaux de taux, de 5 % à 60 % selon le lien de parenté, et une dizaine d’abattements que seuls connaissent ceux qui ont été conseillés².
+L’acquéreur d’un logement acquitte, en plus du prix, un droit départemental de 3,80 % que le conseil départemental peut porter à 4,50 % et une taxe communale de 1,20 %¹. Pour un appartement de 200 000 euros, c’est 10 000 euros payés comptant, sans rapport avec un quelconque gain : il paie sur ce qu’il dépense et non sur ce qu’il aura gagné. Les successions et donations suivent de leur côté trois tableaux de taux, de 5 % à 60 % selon le lien de parenté, et une dizaine d’abattements que seuls connaissent ceux qui ont été conseillés².
 
-L’amendement ramène l’ensemble à un barème unique : rien sous 10 000 euros, 1 % de 10 000 à 100 000 euros, 3 % au-delà, apprécié par acte et par redevable, en rappelant les transmissions de même origine des quinze dernières années. Le droit est supporté par celui qui liquide la plus-value sur laquelle il s’impute : le vendeur pour une vente, l’héritier pour une succession. Les parties peuvent en convenir autrement. Les parts départementale, communale et régionale disparaissent, et les abattements des successions et donations avec elles. Le tarif nouveau est calibré avec l’imposition réelle des plus-values et avec le taux unique de l’impôt sur les sociétés, dont il forme l’une des pièces d’équilibre. Dit simplement : pour le même appartement, le vendeur acquitte 3 900 euros, qui viennent en déduction de l’impôt sur sa plus-value.
+L’amendement ramène l’ensemble à un barème unique : rien sous 10 000 euros, 1 % de 10 000 à 100 000 euros, 3 % au-delà, apprécié par acte et par redevable, en rappelant les transmissions de même origine des quinze dernières années. Le droit est supporté par celui qui liquide la plus-value sur laquelle il s’impute : le vendeur pour une vente, l’héritier pour une succession. Les parties peuvent en convenir autrement. Les parts départementale, communale et régionale disparaissent et les abattements des successions et donations avec elles. Le tarif nouveau est calibré avec l’imposition réelle des plus-values et avec le taux unique de l’impôt sur les sociétés, dont il forme l’une des pièces d’équilibre. Dit simplement : pour le même appartement, le vendeur acquitte 3 900 euros, qui viennent en déduction de l’impôt sur sa plus-value.
 
-La mesure s’applique aux actes, mutations et successions ouvertes à compter du 1er janvier 2027, en même temps que l’imposition réelle des plus-values immobilières : on ne paie plus à l’entrée ce qu’on paiera à la sortie. La perte des départements et des communes ne reste pas sans réponse : elle s’impute sur la réduction de ressources due au titre des compétences que la même loi leur retire, et ce qui excède cette réduction relève de la garantie que la loi organique attache aux ressources propres des collectivités. Cette mesure ne se dépose pas sans celle qui impose les plus-values sur leur gain réel : l’imputation du droit payé à l’entrée suppose l’alinéa que cette dernière ajoute à l’article 200 B du code général des impôts, et le dispositif réserve l’entrée en vigueur de cette imputation à celle de cet alinéa. On paie une fois, sur ce que l’on gagne. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+La mesure s’applique aux actes, mutations et successions ouvertes à compter du 1er janvier 2027, en même temps que l’imposition réelle des plus-values immobilières : on ne paie plus à l’entrée ce qu’on paiera à la sortie. La perte des départements et des communes ne reste pas sans réponse : elle s’impute sur la réduction de ressources due au titre des compétences que la même loi leur retire et ce qui excède cette réduction relève de la garantie que la loi organique attache aux ressources propres des collectivités. Cette mesure ne se dépose pas sans celle qui impose les plus-values sur leur gain réel : l’imputation du droit payé à l’entrée suppose l’alinéa que cette dernière ajoute à l’article 200 B du code général des impôts et le dispositif réserve l’entrée en vigueur de cette imputation à celle de cet alinéa. On paie une fois, sur ce que l’on gagne. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Code général des impôts, articles 1584 et 1594 D.
 ² Code général des impôts, articles 777 et 779.
@@ -1489,15 +1489,15 @@ Le capital supporte aujourd’hui deux prélèvements : 12,8 % ou 19 % d’im
 
 Deux propriétaires vendent le même appartement avec le même gain : celui qui l’a détenu vingt-trois ans ne paie rien, celui qui l’a détenu dix ans paie plein tarif. Des abattements pour durée de détention prétendent neutraliser l’inflation et finissent par tout exonérer. Une surtaxe frappe en outre les plus-values immobilières au-delà de 50 000 euros¹. Le résultat ne dépend ni du gain réel ni du revenu : il dépend du calendrier.
 
-L’amendement calcule la plus-value au réel. Le prix d’achat est revalorisé de l’indice des prix à la consommation hors tabac entre l’achat et la vente, et seul le gain réel est imposé, quelle que soit la durée de détention. Les abattements, les exonérations, les forfaits de frais et de travaux, la taxe forfaitaire sur les objets précieux et la surtaxe disparaissent, et le droit de mutation payé à l’achat s’impute sur l’impôt dû à la revente. Deux dates, et aucune année sans règle : l’immobilier et les biens meubles corporels basculent au 1er janvier 2027, avec la franchise qui remplace les droits de mutation ; le compte d’épargne personnel et les titres suivent au 1er janvier 2028, date à laquelle les supports existants deviennent les compartiments d’un compte unique imposé au seul retrait. En clair : un appartement acheté 200 000 euros et revendu 260 000 euros après une hausse des prix de 10 % dégage un gain réel de 40 000 euros, soit 12 000 euros d’impôt, dont il reste 8 100 euros à payer.
+L’amendement calcule la plus-value au réel. Le prix d’achat est revalorisé de l’indice des prix à la consommation hors tabac entre l’achat et la vente et seul le gain réel est imposé, quelle que soit la durée de détention. Les abattements, les exonérations, les forfaits de frais et de travaux, la taxe forfaitaire sur les objets précieux et la surtaxe disparaissent et le droit de mutation payé à l’achat s’impute sur l’impôt dû à la revente. Deux dates et aucune année sans règle : l’immobilier et les biens meubles corporels basculent au 1er janvier 2027, avec la franchise qui remplace les droits de mutation ; le compte d’épargne personnel et les titres suivent au 1er janvier 2028, date à laquelle les supports existants deviennent les compartiments d’un compte unique imposé au seul retrait. En clair : un appartement acheté 200 000 euros et revendu 260 000 euros après une hausse des prix de 10 % dégage un gain réel de 40 000 euros, soit 12 000 euros d’impôt, dont il reste 8 100 euros à payer.
 
-Hors du compte, dividendes et intérêts sont imposés dès leur versement, plus-values dès la cession : le revenu que l’on consomme est imposé comme un salaire, l’épargne qui reste investie ne l’est qu’en sortant. Rien n’est effacé : les gains acquis avant 2028 restent dans la base et sortent au retrait. Cette mesure ne se dépose pas sans celle qui refond le tarif des droits de mutation : l’acompte qu’elle impute suppose le III de l’article 683 du code général des impôts que cette dernière institue, et le dispositif réserve l’entrée en vigueur de l’imputation à celle de ce III. Le capital paie sur ce qu’il gagne vraiment. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Hors du compte, dividendes et intérêts sont imposés dès leur versement, plus-values dès la cession : le revenu que l’on consomme est imposé comme un salaire, l’épargne qui reste investie ne l’est qu’en sortant. Rien n’est effacé : les gains acquis avant 2028 restent dans la base et sortent au retrait. Cette mesure ne se dépose pas sans celle qui refond le tarif des droits de mutation : l’acompte qu’elle impute suppose le III de l’article 683 du code général des impôts que cette dernière institue et le dispositif réserve l’entrée en vigueur de l’imputation à celle de ce III. Le capital paie sur ce qu’il gagne vraiment. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Code général des impôts, articles 117 quater, 150 VC, 163 quinquies D, 200 A, 200 B, 200 C et 1609 nonies G.
 
 ---
 
-## Amendement n° 21 [TVA : les trois taux réduits réunis en un seul, à rendement constant]
+## Amendement n° 21 [TVA : les trois taux réduits réunis en un seul, à rendement constant]
 
 AMENDEMENT
 
@@ -1507,23 +1507,23 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 16, insérer l’article suivant :
+APRÈS L’ARTICLE 16, insérer l’article suivant :
 
-I. – L’article L. 213-151 du code des impositions sur les biens et services est ainsi modifié :
+I. – L’article L. 213-151 du code des impositions sur les biens et services est ainsi modifié :
 
-1° Au tableau du premier alinéa, à la colonne « Niveau en métropole » :
+1° Au tableau du premier alinéa, à la colonne « Niveau en métropole » :
 
-a) À la ligne « Taux intermédiaire », le taux : « 10 % » est remplacé par le taux : « 20 % ».
+a) À la ligne « Taux intermédiaire », le taux : « 10 % » est remplacé par le taux : « 20 % ».
 
-b) À la ligne « Taux réduit », le taux : « 5,5 % » est remplacé par le taux : « 20 % ».
+b) À la ligne « Taux réduit », le taux : « 5,5 % » est remplacé par le taux : « 20 % ».
 
-c) À la ligne « Taux très réduit », le taux : « 2,1 % » est remplacé par le taux : « 20 % ».
+c) À la ligne « Taux très réduit », le taux : « 2,1 % » est remplacé par le taux : « 20 % ».
 
-2° Après le premier alinéa, il est inséré un alinéa ainsi rédigé :
+2° Après le premier alinéa, il est inséré un alinéa ainsi rédigé :
 
 « Par dérogation au premier alinéa, le niveau en métropole du taux réduit et du taux très réduit est de 10 % pour les biens mentionnés aux articles L. 213-159 et L. 213-166 et pour les prestations de services mentionnées à l’article L. 213-157 qui conduisent à l’obtention de ces biens. »
 
-II. – Au deuxième alinéa de l’article L. 213-151 du même code, dans sa rédaction résultant du I du présent article, le taux : « 10 % » est remplacé par le taux : « 15 % ».
+II. – Au deuxième alinéa de l’article L. 213-151 du même code, dans sa rédaction résultant du I du présent article, le taux : « 10 % » est remplacé par le taux : « 15 % ».
 
 III. – Le deuxième alinéa de l’article L. 213-151 du même code, dans sa rédaction résultant du II du présent article, est supprimé.
 
@@ -1535,19 +1535,19 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement aligne sur le taux normal les taux réduits de taxe sur la valeur ajoutée.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le consommateur paie trois taux différents sans que personne lui ait jamais expliqué la frontière, et le producteur plaide chaque année pour passer de l’un à l’autre. Ces taux réduits forment la plus grosse dépense fiscale qui ne dit pas son nom : le Conseil des prélèvements obligatoires les estimait à 30 milliards d’euros en 2021, dont 20 milliards sur l’eau et l’alimentation (rapport de février 2023, page 32)¹. Ils ne figurent pas au recensement des dépenses fiscales, et échappent ainsi au débat annuel sur leur efficacité.
+Le consommateur paie trois taux différents sans que personne lui ait jamais expliqué la frontière et le producteur plaide chaque année pour passer de l’un à l’autre. Ces taux réduits forment la plus grosse dépense fiscale qui ne dit pas son nom : le Conseil des prélèvements obligatoires les estimait à 30 milliards d’euros en 2021, dont 20 milliards sur l’eau et l’alimentation (rapport de février 2023, page 32)¹. Ils ne figurent pas au recensement des dépenses fiscales et échappent ainsi au débat annuel sur leur efficacité.
 
-L’amendement les ramène au taux normal, qui reste fixé à 20 %, au 1er juillet 2028, sur tout le territoire métropolitain, Corse comprise. Les taux applicables outre-mer ne sont pas modifiés. L’alimentation suit un chemin plus long et plus graduel : elle passe à 10 % au 1er juillet 2028, à 15 % au 1er juillet 2029, puis rejoint le taux normal au 1er juillet 2030, et elle est désignée par renvoi aux articles du code qui la définissent, sans liste nouvelle. Les taux dérogatoires recensés comme dépenses fiscales ne sont pas visés ici : une disposition distincte les supprime au 1er juillet 2027. En clair : le consommateur paie un seul taux, et l’alimentation y vient en trois marches annuelles.
+L’amendement les ramène au taux normal, qui reste fixé à 20 %, au 1er juillet 2028, sur tout le territoire métropolitain, Corse comprise. Les taux applicables outre-mer ne sont pas modifiés. L’alimentation suit un chemin plus long et plus graduel : elle passe à 10 % au 1er juillet 2028, à 15 % au 1er juillet 2029, puis rejoint le taux normal au 1er juillet 2030 et elle est désignée par renvoi aux articles du code qui la définissent, sans liste nouvelle. Les taux dérogatoires recensés comme dépenses fiscales ne sont pas visés ici : une disposition distincte les supprime au 1er juillet 2027. En clair : le consommateur paie un seul taux et l’alimentation y vient en trois marches annuelles.
 
-Chaque marche accompagne la suppression des prélèvements propres au secteur concerné : les taxes sur les spectacles, sur les industries du bois, sur les matériaux de construction, sur l’immatriculation des véhicules et sur les déchets tombent le 1er juillet 2027 ; celles sur les services de télévision, sur la publicité et sur les activités polluantes sont dues pour la dernière fois au titre de 2027. L’alignement est l’une des pièces qui équilibrent la refonte engagée par la première partie : ses trois marches gagent les suppressions d’impositions qui prennent effet au 1er juillet 2027, et sans elles l’équilibre de l’année n’est pas tenu. Une disposition relative au taux d’une imposition de toutes natures qui conditionne cet équilibre relève du I de l’article 34 de la loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances. À défaut de ce rattachement, la mesure trouve sa place en seconde partie, sans que sa rédaction en soit modifiée. L’impôt sur la consommation redevient neutre entre les biens. Plusieurs taux deviennent un taux unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La simplification en est l’effet.
+Chaque marche accompagne la suppression des prélèvements propres au secteur concerné : les taxes sur les spectacles, sur les industries du bois, sur les matériaux de construction, sur l’immatriculation des véhicules et sur les déchets tombent le 1er juillet 2027 ; celles sur les services de télévision, sur la publicité et sur les activités polluantes sont dues pour la dernière fois au titre de 2027. L’alignement est l’une des pièces qui équilibrent la refonte engagée par la première partie : ses trois marches gagent les suppressions d’impositions qui prennent effet au 1er juillet 2027 et sans elles l’équilibre de l’année n’est pas tenu. Une disposition relative au taux d’une imposition de toutes natures qui conditionne cet équilibre relève du I de l’article 34 de la loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances. À défaut de ce rattachement, la mesure trouve sa place en seconde partie, sans que sa rédaction en soit modifiée. L’impôt sur la consommation redevient neutre entre les biens. Plusieurs taux deviennent un taux unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La simplification en est l’effet.
 
 ¹ Conseil des prélèvements obligatoires, « La taxe sur la valeur ajoutée », février 2023, page 32.
 
 ---
 
-## Amendement n° 22 [Taxes d’État : vingt et une disparaissent dans l’impôt, sans hausse du total]
+## Amendement n° 22 [Taxes d’État : vingt et une disparaissent dans l’impôt, sans hausse du total]
 
 AMENDEMENT
 
@@ -1557,9 +1557,9 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 19, insérer l’article suivant :
+APRÈS L’ARTICLE 19, insérer l’article suivant :
 
-I. – Sont abrogés :
+I. – Sont abrogés :
 
 1° Les articles 235 ter C, 235 ter X, 235 ter XB, 235 ter ZC, 235 ter ZD, 235 ter ZD bis, 680, 879 à 881 N, 953, 954, 958 et 959 du code général des impôts.
 
@@ -1567,7 +1567,7 @@ I. – Sont abrogés :
 
 3° L’article L. 313-6 du code de l’entrée et du séjour des étrangers et du droit d’asile.
 
-II. – Sont abrogés :
+II. – Sont abrogés :
 
 1° Les articles 224, 234 nonies, 234 duodecies, 234 terdecies, 234 quaterdecies, 234 quindecies, 299, 299 bis, 299 ter, 299 quater, 299 quinquies, 299 sexies, 299 septies, 302 bis MB et 990 J du code général des impôts.
 
@@ -1589,13 +1589,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement supprime vingt et une impositions de l’État, au 1er juillet 2027.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-À côté de l’impôt sur le revenu, de l’impôt sur les sociétés et de la taxe sur la valeur ajoutée, le contribuable acquitte une série de prélèvements de quelques millions à quelques centaines de millions d’euros chacun : contribution sociale sur l’impôt sur les sociétés, taxe sur les excédents de provisions des assureurs, contribution sur les revenus locatifs, taxe sur les transactions financières, taxe sur les rachats d’actions, taxe générale sur les activités polluantes, taxe sur certains services numériques, contribution de sécurité immobilière, droits de timbre sur le passeport, sur la demande de naturalisation ou sur l’attestation d’accueil¹. Chacun a son assiette, ses exonérations, sa déclaration et son contentieux².
+À côté de l’impôt sur le revenu, de l’impôt sur les sociétés et de la taxe sur la valeur ajoutée, le contribuable acquitte une série de prélèvements de quelques millions à quelques centaines de millions d’euros chacun : contribution sociale sur l’impôt sur les sociétés, taxe sur les excédents de provisions des assureurs, contribution sur les revenus locatifs, taxe sur les transactions financières, taxe sur les rachats d’actions, taxe générale sur les activités polluantes, taxe sur certains services numériques, contribution de sécurité immobilière, droits de timbre sur le passeport, sur la demande de naturalisation ou sur l’attestation d’accueil¹. Chacun a son assiette, ses exonérations, sa déclaration et son contentieux².
 
-La mesure commence le 1er juillet 2027, le jour où les taux réduits de TVA prennent fin. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions et la contribution de sécurité immobilière. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois, et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
+La mesure commence le 1er juillet 2027, le jour où les taux réduits de TVA prennent fin. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions et la contribution de sécurité immobilière. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
 
-La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. L’État cesse d’instruire, de contrôler et de recouvrer vingt et une impositions : c’est l’effet net, que le gage formel ne mesure pas. Vingt et une impositions se fondent dans un impôt unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La clarté de la règle est la première des politesses que l’État doit à tous ses citoyens³. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. L’État cesse d’instruire, de contrôler et de recouvrer vingt et une impositions : c’est l’effet net, que le gage formel ne mesure pas. Vingt et une impositions se fondent dans un impôt unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La clarté de la règle est la première des politesses que l’État doit à tous ses citoyens³. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Direction générale des finances publiques, Les recettes fiscales budgétaires collectées par la DGFiP en 2022, DGFiP Statistiques n° 19, décembre 2023.
 
@@ -1671,11 +1671,11 @@ Cet amendement substitue aux taux de l’impôt sur les sociétés un taux uniqu
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le taux affiché de l’impôt sur les sociétés est de 25 % (code général des impôts, article 219)¹, et le taux effectivement supporté est très inférieur : il s’établit à 21,4 % pour les petites et moyennes entreprises contre 14,3 % pour les grandes². L’article porte un taux réduit pour les petites entreprises et des taux séparés pour les plus-values de cession de titres, pour les produits de concession de licences et pour certaines cessions d’immeubles. Deux entreprises au même bénéfice ne paient donc pas le même impôt, selon la forme sous laquelle ce bénéfice se présente et selon qu’elles savent la choisir.
+Le taux affiché de l’impôt sur les sociétés est de 25 % (code général des impôts, article 219)¹ et le taux effectivement supporté est très inférieur : il s’établit à 21,4 % pour les petites et moyennes entreprises contre 14,3 % pour les grandes². L’article porte un taux réduit pour les petites entreprises et des taux séparés pour les plus-values de cession de titres, pour les produits de concession de licences et pour certaines cessions d’immeubles. Deux entreprises au même bénéfice ne paient donc pas le même impôt, selon la forme sous laquelle ce bénéfice se présente et selon qu’elles savent la choisir.
 
 L’amendement ramène toutes ces situations au droit commun : un seul taux, 27 %, quelle que soit la taille de l’entreprise ou l’origine de son bénéfice, sans taux réduit, sans quote-part dérogatoire et sans taux nul. Il porte le solde de la refonte fiscale, avec la taxe foncière unique, dont chaque commune vote le taux dans la fourchette fixée par la loi et répond de son choix devant ses électeurs. La loi fixe le taux et les deux points dont il peut varier. Au-delà, il se revote. En clair : chaque entreprise paie le même taux sur tout son bénéfice, à compter de l’exercice ouvert le 1er juillet 2027.
 
-Le taux unique porte le solde de la refonte des impositions : c’est sur lui que se referme l’écart entre les impositions supprimées et celles que la loi relève. La refonte fiscale ne relève pas la pression globale et c’est la règle qui tient l’ensemble : les taxes supprimées sur la consommation, le travail, le chiffre d’affaires et les mutations se reportent sur deux impôts à large assiette³, sans que le poids total des prélèvements obligatoires dépasse son niveau de 2026. Le dispositif borne la correction au lieu de la laisser au seul revote. Un décret ajuste le taux de deux points au plus lorsque le rapport des prélèvements obligatoires au produit intérieur brut, constaté par l’Institut national de la statistique et des études économiques pour le dernier exercice clos, s’écarte de son niveau de 2026 : il minore le taux lorsque ce rapport dépasse ce niveau et il le majore lorsque ce rapport lui est inférieur. La loi fixe ainsi les deux points qui bornent la faculté, le fait constatable qui la déclenche et le sens dans lequel elle s’exerce. La majoration ne peut porter ce rapport au-delà du niveau de 2026. À défaut de décret, le taux demeure celui que la loi fixe. L’abrogation générale des avantages fiscaux que porte un autre amendement atteint le a du I de l’article 219 : son dispositif fait jouer la refonte du taux d’abord et l’abrogation ensuite, de sorte que les alinéas modifiés ici produisent effet avant de disparaître. Des taux uniques et uniformes. La même règle pour tous. Pas de piège, aucun dindon de la farce⁴. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Le taux unique porte le solde de la refonte des impositions : c’est sur lui que se referme l’écart entre les impositions supprimées et celles que la loi relève. La refonte fiscale ne relève pas la pression globale et c’est la règle qui tient l’ensemble : les taxes supprimées sur la consommation, le travail, le chiffre d’affaires et les mutations se reportent sur deux impôts à large assiette³, sans que le poids total des prélèvements obligatoires dépasse son niveau de 2026. Le dispositif borne la correction au lieu de la laisser au seul revote. Un décret ajuste le taux de deux points au plus lorsque le rapport des prélèvements obligatoires au produit intérieur brut, constaté par l’Institut national de la statistique et des études économiques pour le dernier exercice clos, s’écarte de son niveau de 2026 : il minore le taux lorsque ce rapport dépasse ce niveau et il le majore lorsque ce rapport lui est inférieur. La loi fixe ainsi les deux points qui bornent la faculté, le fait constatable qui la déclenche et le sens dans lequel elle s’exerce. La majoration ne peut porter ce rapport au-delà du niveau de 2026. À défaut de décret, le taux demeure celui que la loi fixe. L’abrogation générale des avantages fiscaux que porte un autre amendement atteint le a du I de l’article 219 : son dispositif fait jouer la refonte du taux d’abord et l’abrogation ensuite, de sorte que les alinéas modifiés ici produisent effet avant de disparaître. Des taux uniques et uniformes. La même règle pour tous. Pas de piège, aucun dindon de la farce⁴. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Code général des impôts, article 219, I, deuxième alinéa.
 
@@ -1687,7 +1687,7 @@ Le taux unique porte le solde de la refonte des impositions : c’est sur lui q
 
 ---
 
-## Amendement n° 24 [Taxes affectées : plafond à zéro, tout le produit retourne au budget voté par le Parlement]
+## Amendement n° 24 [Taxes affectées : plafond à zéro, tout le produit retourne au budget voté par le Parlement]
 
 AMENDEMENT
 
@@ -1697,97 +1697,97 @@ présenté par
 
 ARTICLE 42
 
-I. – Au tableau du I, à la colonne F :
+I. – Au tableau du I, à la colonne F :
 
-1° Aux lignes 2, 8, 13, 38, 51, 52, 57, 58, 59, 60, 61, 62, 63, 64, 65, 68, 70, 73, 74, 76, 77, 78, 79, 96, 97, 98, 99, 100, 101, 103, 104, 105, 107, 108, 109, 110, 117, 118 et 130, la mention : « Non plafonnée » est remplacée par le montant : « 0 ».
+1° Aux lignes 2, 8, 13, 38, 51, 52, 57, 58, 59, 60, 61, 62, 63, 64, 65, 68, 70, 73, 74, 76, 77, 78, 79, 96, 97, 98, 99, 100, 101, 103, 104, 105, 107, 108, 109, 110, 117, 118 et 130, la mention : « Non plafonnée » est remplacée par le montant : « 0 ».
 
-2° À la ligne 3, le montant : « 566 667 000 » est remplacé par le montant : « 0 ».
+2° À la ligne 3, le montant : « 566 667 000 » est remplacé par le montant : « 0 ».
 
-3° À la ligne 4, le montant : « 271 000 000 » est remplacé par le montant : « 0 ».
+3° À la ligne 4, le montant : « 271 000 000 » est remplacé par le montant : « 0 ».
 
-4° À la ligne 5, le montant : « 1 284 022 748 » est remplacé par le montant : « 0 ».
+4° À la ligne 5, le montant : « 1 284 022 748 » est remplacé par le montant : « 0 ».
 
-5° À la ligne 6, le montant : « 550 000 000 » est remplacé par le montant : « 0 ».
+5° À la ligne 6, le montant : « 550 000 000 » est remplacé par le montant : « 0 ».
 
-6° À la ligne 7, le montant : « 300 000 000 » est remplacé par le montant : « 0 ».
+6° À la ligne 7, le montant : « 300 000 000 » est remplacé par le montant : « 0 ».
 
-7° À la ligne 10, le montant : « 1 377 000 » est remplacé par le montant : « 0 ».
+7° À la ligne 10, le montant : « 1 377 000 » est remplacé par le montant : « 0 ».
 
-8° À la ligne 11, le montant : « 1 353 000 » est remplacé par le montant : « 0 ».
+8° À la ligne 11, le montant : « 1 353 000 » est remplacé par le montant : « 0 ».
 
-9° À la ligne 12, le montant : « 2 482 620 000 » est remplacé par le montant : « 0 ».
+9° À la ligne 12, le montant : « 2 482 620 000 » est remplacé par le montant : « 0 ».
 
-10° À la ligne 17, le montant : « 600 000 000 » est remplacé par le montant : « 0 ».
+10° À la ligne 17, le montant : « 600 000 000 » est remplacé par le montant : « 0 ».
 
-11° À la ligne 22, le montant : « 28 000 000 » est remplacé par le montant : « 0 ».
+11° À la ligne 22, le montant : « 28 000 000 » est remplacé par le montant : « 0 ».
 
-12° À la ligne 23, le montant : « 180 444 000 » est remplacé par le montant : « 0 ».
+12° À la ligne 23, le montant : « 180 444 000 » est remplacé par le montant : « 0 ».
 
-13° À la ligne 24, le montant : « 59 665 000 » est remplacé par le montant : « 0 ».
+13° À la ligne 24, le montant : « 59 665 000 » est remplacé par le montant : « 0 ».
 
-14° À la ligne 36, le montant : « 1 500 000 » est remplacé par le montant : « 0 ».
+14° À la ligne 36, le montant : « 1 500 000 » est remplacé par le montant : « 0 ».
 
-15° À la ligne 37, le montant : « 17 000 000 » est remplacé par le montant : « 0 ».
+15° À la ligne 37, le montant : « 17 000 000 » est remplacé par le montant : « 0 ».
 
-16° À la ligne 39, le montant : « 10 500 000 » est remplacé par le montant : « 0 ».
+16° À la ligne 39, le montant : « 10 500 000 » est remplacé par le montant : « 0 ».
 
-17° À la ligne 41, le montant : « 515 852 092 » est remplacé par le montant : « 0 ».
+17° À la ligne 41, le montant : « 515 852 092 » est remplacé par le montant : « 0 ».
 
-18° À la ligne 42, le montant : « 271 539 015 » est remplacé par le montant : « 0 ».
+18° À la ligne 42, le montant : « 271 539 015 » est remplacé par le montant : « 0 ».
 
-19° À la ligne 43, le montant : « 110 112 382 » est remplacé par le montant : « 0 ».
+19° À la ligne 43, le montant : « 110 112 382 » est remplacé par le montant : « 0 ».
 
-20° À la ligne 55, le montant : « 334 720 915 » est remplacé par le montant : « 0 ».
+20° À la ligne 55, le montant : « 334 720 915 » est remplacé par le montant : « 0 ».
 
-21° À la ligne 56, le montant : « 163 036 343 » est remplacé par le montant : « 0 ».
+21° À la ligne 56, le montant : « 163 036 343 » est remplacé par le montant : « 0 ».
 
-22° À la ligne 66, le montant : « 21 000 000 » est remplacé par le montant : « 0 ».
+22° À la ligne 66, le montant : « 21 000 000 » est remplacé par le montant : « 0 ».
 
-23° À la ligne 67, le montant : « 69 000 000 » est remplacé par le montant : « 0 ».
+23° À la ligne 67, le montant : « 69 000 000 » est remplacé par le montant : « 0 ».
 
-24° À la ligne 71, le montant : « 5 402 832 » est remplacé par le montant : « 0 ».
+24° À la ligne 71, le montant : « 5 402 832 » est remplacé par le montant : « 0 ».
 
-25° À la ligne 75, le montant : « 2 900 000 » est remplacé par le montant : « 0 ».
+25° À la ligne 75, le montant : « 2 900 000 » est remplacé par le montant : « 0 ».
 
-26° À la ligne 80, le montant : « 3 938 000 » est remplacé par le montant : « 0 ».
+26° À la ligne 80, le montant : « 3 938 000 » est remplacé par le montant : « 0 ».
 
-27° À la ligne 81, le montant : « 8 338 000 » est remplacé par le montant : « 0 ».
+27° À la ligne 81, le montant : « 8 338 000 » est remplacé par le montant : « 0 ».
 
-28° À la ligne 82, le montant : « 12 031 000 » est remplacé par le montant : « 0 ».
+28° À la ligne 82, le montant : « 12 031 000 » est remplacé par le montant : « 0 ».
 
-29° À la ligne 83, le montant : « 139 136 000 » est remplacé par le montant : « 0 ».
+29° À la ligne 83, le montant : « 139 136 000 » est remplacé par le montant : « 0 ».
 
-30° À la ligne 84, le montant : « 19 807 000 » est remplacé par le montant : « 0 ».
+30° À la ligne 84, le montant : « 19 807 000 » est remplacé par le montant : « 0 ».
 
-31° À la ligne 85, le montant : « 2 807 000 » est remplacé par le montant : « 0 ».
+31° À la ligne 85, le montant : « 2 807 000 » est remplacé par le montant : « 0 ».
 
-32° À la ligne 86, le montant : « 10 651 000 » est remplacé par le montant : « 0 ».
+32° À la ligne 86, le montant : « 10 651 000 » est remplacé par le montant : « 0 ».
 
-33° À la ligne 87, le montant : « 23 742 000 » est remplacé par le montant : « 0 ».
+33° À la ligne 87, le montant : « 23 742 000 » est remplacé par le montant : « 0 ».
 
-34° À la ligne 88, le montant : « 45 459 000 » est remplacé par le montant : « 0 ».
+34° À la ligne 88, le montant : « 45 459 000 » est remplacé par le montant : « 0 ».
 
-35° À la ligne 89, le montant : « 7 870 000 » est remplacé par le montant : « 0 ».
+35° À la ligne 89, le montant : « 7 870 000 » est remplacé par le montant : « 0 ».
 
-36° À la ligne 90, le montant : « 14 614 000 » est remplacé par le montant : « 0 ».
+36° À la ligne 90, le montant : « 14 614 000 » est remplacé par le montant : « 0 ».
 
-37° À la ligne 91, le montant : « 32 096 000 » est remplacé par le montant : « 0 ».
+37° À la ligne 91, le montant : « 32 096 000 » est remplacé par le montant : « 0 ».
 
-38° À la ligne 102, le montant : « 10 278 758 276 » est remplacé par le montant : « 0 ».
+38° À la ligne 102, le montant : « 10 278 758 276 » est remplacé par le montant : « 0 ».
 
-39° À la ligne 106, le montant : « 99 260 726 » est remplacé par le montant : « 0 ».
+39° À la ligne 106, le montant : « 99 260 726 » est remplacé par le montant : « 0 ».
 
-40° À la ligne 132, le montant : « 115 794 000 » est remplacé par le montant : « 0 ».
+40° À la ligne 132, le montant : « 115 794 000 » est remplacé par le montant : « 0 ».
 
-41° À la ligne 133, le montant : « 67 100 000 » est remplacé par le montant : « 0 ».
+41° À la ligne 133, le montant : « 67 100 000 » est remplacé par le montant : « 0 ».
 
-42° À la ligne 134, le montant : « 93 908 018 » est remplacé par le montant : « 0 ».
+42° À la ligne 134, le montant : « 93 908 018 » est remplacé par le montant : « 0 ».
 
-43° À la ligne 135, le montant : « 861 389 406 » est remplacé par le montant : « 0 ».
+43° À la ligne 135, le montant : « 861 389 406 » est remplacé par le montant : « 0 ».
 
-44° À la ligne 136, le montant : « 19 396 626 » est remplacé par le montant : « 0 ».
+44° À la ligne 136, le montant : « 19 396 626 » est remplacé par le montant : « 0 ».
 
-II. – Compléter cet article par un X ainsi rédigé :
+II. – Compléter cet article par un X ainsi rédigé :
 
 « X. – Le produit des ressources dont le plafond est fixé à zéro par le I concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
@@ -1795,21 +1795,21 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement plafonne à zéro l’affectation de quatre-vingt-deux ressources, dont le produit revient au budget.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le spectateur qui paie une taxe sur son billet, l’abonné d’un service de vidéo à la demande et l’usager qui règle sa facture d’eau financent chacun un organisme sans le savoir : le produit va directement à l’affectataire, et le Parlement vote un plafond, non une politique. Les ressources ainsi affectées se comptent par dizaines, sur des assiettes choisies une à une, et aucun document ne les présente ensemble. Le Conseil des prélèvements obligatoires relevait que l’information du Parlement sur ces taxes « ne crée pas les conditions d’une discussion globale sur les moyens alloués aux politiques publiques » (rapport de juillet 2018)¹. Près de la moitié des lignes retenues ici ne portent même aucun plafond.
+Le spectateur qui paie une taxe sur son billet, l’abonné d’un service de vidéo à la demande et l’usager qui règle sa facture d’eau financent chacun un organisme sans le savoir : le produit va directement à l’affectataire et le Parlement vote un plafond, non une politique. Les ressources ainsi affectées se comptent par dizaines, sur des assiettes choisies une à une, et aucun document ne les présente ensemble. Le Conseil des prélèvements obligatoires relevait que l’information du Parlement sur ces taxes « ne crée pas les conditions d’une discussion globale sur les moyens alloués aux politiques publiques » (rapport de juillet 2018)¹. Près de la moitié des lignes retenues ici ne portent même aucun plafond.
 
-L’amendement porte à zéro, ligne par ligne, le plafond d’affectation de chacune de ces ressources au tableau de l’article 42. La taxe reste perçue et son produit entier revient aux revenus d’activité, après avoir été voté chaque année avec les autres recettes ; l’article complété le dit en toutes lettres. Les lignes conservées se nomment : organismes régaliens, autorités exigées par le droit de l’Union, régimes de garantie et de protection sociale, établissements à patrimoine propre, ressources des collectivités. Dit simplement : chaque euro payé par le contribuable passe par le budget voté avant de financer une agence, et le Parlement décide chaque année s’il la finance encore.
+L’amendement porte à zéro, ligne par ligne, le plafond d’affectation de chacune de ces ressources au tableau de l’article 42. La taxe reste perçue et son produit entier revient aux revenus d’activité, après avoir été voté chaque année avec les autres recettes ; l’article complété le dit en toutes lettres. Les lignes conservées se nomment : organismes régaliens, autorités exigées par le droit de l’Union, régimes de garantie et de protection sociale, établissements à patrimoine propre, ressources des collectivités. Dit simplement : chaque euro payé par le contribuable passe par le budget voté avant de financer une agence et le Parlement décide chaque année s’il la finance encore.
 
-Ces quatre-vingt-deux lignes représentent un rendement prévisionnel de 29 980,5 millions d’euros au titre de 2027 (tableau du I de l’article 42 du présent projet de loi, colonne du rendement prévisionnel)², qui va au salaire net par la réduction des prélèvements pesant sur les revenus d’activité. Un amendement distinct supprime une partie de ces impositions ; les deux ne font qu’une recette et leurs produits ne s’additionnent pas : si cet amendement seul est adopté, le produit revient au budget voté ; si l’autre seul l’est, l’imposition disparaît. La gestion des plafonds, des écrêtements et des reversements devient sans objet pour ces lignes. La fermeture des structures et la reprise de leurs missions relèvent d’amendements de seconde partie, et cette mesure ne se dépose pas sans eux.
+Ces quatre-vingt-deux lignes représentent un rendement prévisionnel de 29 980,5 millions d’euros au titre de 2027 (tableau du I de l’article 42 du présent projet de loi, colonne du rendement prévisionnel)², qui va au salaire net par la réduction des prélèvements pesant sur les revenus d’activité. Un amendement distinct supprime une partie de ces impositions ; les deux ne font qu’une recette et leurs produits ne s’additionnent pas : si cet amendement seul est adopté, le produit revient au budget voté ; si l’autre seul l’est, l’imposition disparaît. La gestion des plafonds, des écrêtements et des reversements devient sans objet pour ces lignes. La fermeture des structures et la reprise de leurs missions relèvent d’amendements de seconde partie et cette mesure ne se dépose pas sans eux.
 
-¹ Conseil des prélèvements obligatoires, « Les taxes affectées : des instruments à mieux encadrer », juillet 2018.
+¹ Conseil des prélèvements obligatoires, « Les taxes affectées : des instruments à mieux encadrer », juillet 2018.
 
 ² Projet de loi de finances pour 2027, n° 3210, article 42, tableau du I, colonne « Rendement prévisionnel 2027 », somme des quatre-vingt-deux lignes visées par le présent amendement, inscrite au texte à titre indicatif.
 
 ---
 
-## Amendement n° 25 [Taxes affectées : cinquante-sept supprimées, fondues en une ressource unique à produit égal]
+## Amendement n° 25 [Taxes affectées : cinquante-sept supprimées, fondues en une ressource unique à produit égal]
 
 AMENDEMENT
 
@@ -1819,9 +1819,9 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 42, insérer l’article suivant :
+APRÈS L’ARTICLE 42, insérer l’article suivant :
 
-I. – Sont abrogés :
+I. – Sont abrogés :
 
 1° Les articles L. 421-29 à L. 421-64, L. 421-67, L. 421-71 à L. 421-73, L. 421-75, L. 421-82 à L. 421-92, L. 421-168 à L. 421-180, L. 422-13 à L. 422-57, L. 423-47 à L. 423-56, L. 433-32 à L. 433-105, L. 452-1 à L. 452-37, L. 455-1 à L. 455-36 et L. 471-1 à L. 471-58 du code des impositions sur les biens et services.
 
@@ -1841,7 +1841,7 @@ I. – Sont abrogés :
 
 9° Les articles L. 2333-64 à L. 2333-75 et L. 2531-2 à L. 2531-11 du code général des collectivités territoriales.
 
-II. – A. – Sont abrogés :
+II. – A. – Sont abrogés :
 
 1° Les articles L. 322-39 à L. 322-66, L. 423-4 à L. 423-37, L. 425-1 à L. 425-20, L. 433-1 à L. 433-31, L. 453-13 à L. 453-44 et L. 454-1 à L. 454-28 du code des impositions sur les biens et services.
 
@@ -1865,11 +1865,11 @@ II. – A. – Sont abrogés :
 
 11° Les articles L. 520-1 à L. 520-23 du code de l’urbanisme.
 
-B. – L’article L. 342-21 du code de la construction et de l’habitation est ainsi modifié :
+B. – L’article L. 342-21 du code de la construction et de l’habitation est ainsi modifié :
 
 1° Le 2° est abrogé et l’avant-dernier alinéa est supprimé.
 
-2° Le dernier alinéa est ainsi rédigé :
+2° Le dernier alinéa est ainsi rédigé :
 
 « Le montant du prélèvement prévu au 1° du présent article, qui ne peut excéder 10 millions d’euros, est déterminé par arrêté conjoint des ministres chargés du logement, de l’économie et du budget. À défaut d’arrêté pris au titre d’une année, le montant du prélèvement dû au titre de cette année est nul. »
 
@@ -1889,17 +1889,19 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement supprime cinquante-sept impositions affectées à des opérateurs et à des organismes.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le Parlement vote une enveloppe et jamais son emploi : le produit de ces taxes ne figure dans aucun crédit soumis au vote et part directement à son affectataire, la discussion budgétaire ne portant que sur un plafond. L’entreprise qui les acquitte les paie sur ses salaires, ses véhicules, ses locaux et ses produits, à des dates et sur des assiettes sans rapport entre elles. Le plus lourd d’entre eux, le versement destiné au financement des services de mobilité, est assis sur les rémunérations qu’elle verse et finance les transports en commun. L’annexe qui les recense les présente une par une ; aucun document ne dit ce qu’elles pèsent ensemble¹.
+Le Parlement vote une enveloppe et jamais son emploi : le produit de ces taxes ne figure dans aucun crédit soumis au vote et part directement à son affectataire, la discussion budgétaire ne portant que sur un plafond. L’entreprise qui les acquitte les paie sur ses salaires, ses véhicules, ses locaux et ses produits, à des dates et sur des assiettes sans rapport entre elles. Le plus lourd d’entre eux, le versement destiné au financement des services de mobilité, est assis sur les rémunérations qu’elle verse et finance les transports en commun. L’annexe qui les recense les présente une par une ; aucun document ne dit ce qu’elles pèsent ensemble¹.
 
-L’amendement les abroge en deux temps, selon leur mécanique. Au 1er juillet 2027 tombent celles qui se perçoivent par opération ou sur les rémunérations versées : culture, centres techniques industriels, transport aérien et maritime, autoroutes, immatriculation des véhicules, déchets, titres, apprentissage, formation², effort de construction, dialogue social, intempéries du bâtiment, versement mobilité. Les taxes annuelles, qui ne se coupent pas en cours d’exercice, sont dues une dernière fois au titre de 2027 : réseaux, installations nucléaires, contrôle bancaire, chambres de commerce, ressources locales, redevances de l’eau, bureaux d’Île-de-France. Dit simplement : une entreprise cesse de verser une dizaine de contributions distinctes et les dépenses qu’elles finançaient se votent au budget.
+L’amendement les abroge en deux temps, selon leur mécanique. Au 1er juillet 2027 tombent celles qui se perçoivent par opération ou sur les rémunérations versées : culture, centres techniques industriels, transport aérien et maritime, autoroutes, immatriculation des véhicules, déchets, titres, apprentissage, formation², effort de construction, dialogue social, intempéries du bâtiment, versement mobilité. Les taxes annuelles, qui ne se coupent pas en cours d’exercice, sont dues une dernière fois au titre de 2027 : réseaux, installations nucléaires, contrôle bancaire, chambres de commerce, ressources locales, redevances de l’eau, bureaux d’Île-de-France. Dit simplement : une entreprise cesse de verser une dizaine de contributions distinctes et les dépenses qu’elles finançaient se votent au budget.
 
-Chaque date est tenue par un mouvement inverse : au 1er juillet 2027 prennent fin les taux réduits de taxe sur la valeur ajoutée recensés comme dépenses fiscales, au 1er janvier 2028 la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-sept impositions se fondent dans une ressource unique votée, à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Chaque date est tenue par un mouvement inverse : au 1er juillet 2027 prennent fin les taux réduits de taxe sur la valeur ajoutée recensés comme dépenses fiscales, au 1er janvier 2028 la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-sept impositions se fondent dans une ressource unique votée, à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 
 ² Cour des comptes, La formation professionnelle des salariés, juin 2023.
+
+---
 
 ## Amendement n° 26 [Refermer les canaux budgétaires hors budget général]
 
@@ -1961,17 +1963,15 @@ Cet amendement referme les canaux budgétaires par lesquels l’État finance de
 
 Un compte de concours financiers verse chaque mois des avances aux sociétés de l’audiovisuel public, alimenté par une fraction du produit de la taxe sur la valeur ajoutée qui s’élève à 3 959 580 513 euros¹. Ce canal met la dotation hors de l’arbitrage budgétaire ordinaire : les crédits d’un compte spécial se votent à l’état D, non à l’état B, et la ressource est préaffectée avant d’entrer au budget général. L’amendement retire du compte les sociétés mentionnées à l’article 44 de la loi du 30 septembre 1986 relative à la liberté de communication, soit France Télévisions, Radio France et France Médias Monde, ainsi que la société TV5 Monde, et il rend à la loi de finances de l’année la détermination de la fraction de taxe, qui est nulle à défaut de détermination. Ce qui n’est plus préaffecté entre au budget général, où le Parlement le vote.
 
-Deux organismes restent financés par ce compte, et l’amendement ne les vise pas. ARTE France procède du traité de Berlin du 2 octobre 1990 portant création de la Chaîne culturelle européenne : son financement est un engagement international de la France, que la loi de finances ne défait pas seule. L’Institut national de l’audiovisuel conserve et exploite un patrimoine dont la conservation est l’objet même de son activité : il relève des établissements à patrimoine propre, que la présente loi maintient et sort de la subvention plutôt qu’elle ne les ferme.
+Deux organismes restent financés par ce compte et l’amendement ne les vise pas. ARTE France procède du traité de Berlin du 2 octobre 1990 portant création de la Chaîne culturelle européenne : son financement est un engagement international de la France, que la loi de finances ne défait pas seule. L’Institut national de l’audiovisuel conserve et exploite un patrimoine dont la conservation est l’objet même de son activité : il relève des établissements à patrimoine propre, que la présente loi maintient et sort de la subvention plutôt qu’elle ne les ferme.
 
-Le même raisonnement vaut pour deux autres comptes. Le compte d’affectation spéciale « Participations financières de l’État » porte les augmentations de capital, les avances d’actionnaire et les achats de titres : ces dépenses sont réservées aux personnes morales de droit public. Le compte de commerce « Soutien financier au commerce extérieur » cesse de mettre des fonds à disposition des organismes privés qui portent les garanties publiques à l’exportation, et les fonds non employés reviennent au compte. Les garanties de l’État régulièrement accordées avant le 1er janvier 2027 ne sont pas touchées par le III, qui ne porte que sur la mise à disposition de fonds : elles demeurent retracées par le compte et s’exécutent jusqu’à leur extinction.
+Le même raisonnement vaut pour deux autres comptes. Le compte d’affectation spéciale « Participations financières de l’État » porte les augmentations de capital, les avances d’actionnaire et les achats de titres : ces dépenses sont réservées aux personnes morales de droit public. Le compte de commerce « Soutien financier au commerce extérieur » cesse de mettre des fonds à disposition des organismes privés qui portent les garanties publiques à l’exportation et les fonds non employés reviennent au compte. Les garanties de l’État régulièrement accordées avant le 1er janvier 2027 ne sont pas touchées par le III, qui ne porte que sur la mise à disposition de fonds : elles demeurent retracées par le compte et s’exécutent jusqu’à leur extinction.
 
-Trois affectations de taxe nommées prennent fin : la taxe sur les spectacles d’art dramatique, lyrique et chorégraphique revient au budget général, et la majoration de la taxe sur le transport aérien de passagers propre à l’aéroport Paris-Charles de Gaulle cesse d’être perçue au profit de la liaison express.
+Trois affectations de taxe nommées prennent fin : la taxe sur les spectacles d’art dramatique, lyrique et chorégraphique revient au budget général et la majoration de la taxe sur le transport aérien de passagers propre à l’aéroport Paris-Charles de Gaulle cesse d’être perçue au profit de la liaison express.
 
 Ce que l’État cesse de verser hors budget général part au salaire net, par la baisse des prélèvements assis sur les revenus d’activité. Un financement qui revient au budget général est un financement que le Parlement vote.
 
 ¹ 2° du 1 du VI de l’article 46 de la loi n° 2005-1719 du 30 décembre 2005 de finances pour 2006, lu au verbatim dans la base LEGI, millésime 20261007, identifiant LEGIARTI000053003099.
-
----
 
 ---
 
@@ -2047,11 +2047,11 @@ Cet amendement introduit un compte d’épargne personnel unique, ouvert à chaq
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-La retraite des Français repose presque entièrement sur la répartition : les cotisations d’aujourd’hui paient les pensions d’aujourd’hui, et rien n’est mis de côté. Chaque génération dépend de la suivante, aucune ne détient ce qu’elle a versé, et le Conseil d’orientation des retraites projette un système durablement déficitaire (rapport annuel 2025)¹. L’épargne, elle, est éclatée entre une dizaine de produits : plan d’épargne en actions, assurance-vie, épargne salariale, plan d’épargne retraite, livrets, chacun avec ses plafonds, ses durées et son régime fiscal propre ; celui qui sait les combiner paie moins que celui qui n’a qu’un livret.
+La retraite des Français repose presque entièrement sur la répartition : les cotisations d’aujourd’hui paient les pensions d’aujourd’hui et rien n’est mis de côté. Chaque génération dépend de la suivante, aucune ne détient ce qu’elle a versé et le Conseil d’orientation des retraites projette un système durablement déficitaire (rapport annuel 2025)¹. L’épargne, elle, est éclatée entre une dizaine de produits : plan d’épargne en actions, assurance-vie, épargne salariale, plan d’épargne retraite, livrets, chacun avec ses plafonds, ses durées et son régime fiscal propre ; celui qui sait les combiner paie moins que celui qui n’a qu’un livret.
 
-L’amendement réunit toute l’épargne d’une personne dans un seul compte et l’alimente par deux versements annuels de nature différente. Le premier est un versement de restitution, dû à qui perçoit des revenus d’activité et proportionnel à ces revenus. Le second est un versement de patrimoine, dû à chacun : une enveloppe globale, votée chaque année en loi de finances, divisée par le nombre de titulaires, donc identique pour tous. Les deux sont portés sur un compartiment tenu par la Caisse des dépôts, bloqué jusqu’à l’âge de la retraite, puis servi en rente viagère et entrant dans la succession. Au 1er janvier 2028, les supports existants deviennent les compartiments du même compte, chacun restant chez son gestionnaire avec ses règles de disponibilité. Dit simplement : chaque Français reçoit chaque année une somme sur un compte à son nom, dont une part égale pour tous, et toute son épargne y vit sous une seule règle fiscale.
+L’amendement réunit toute l’épargne d’une personne dans un seul compte et l’alimente par deux versements annuels de nature différente. Le premier est un versement de restitution, dû à qui perçoit des revenus d’activité et proportionnel à ces revenus. Le second est un versement de patrimoine, dû à chacun : une enveloppe globale, votée chaque année en loi de finances, divisée par le nombre de titulaires et donc identique pour tous. Les deux sont portés sur un compartiment tenu par la Caisse des dépôts, bloqué jusqu’à l’âge de la retraite, puis servi en rente viagère et entrant dans la succession. Au 1er janvier 2028, les supports existants deviennent les compartiments du même compte, chacun restant chez son gestionnaire avec ses règles de disponibilité. Dit simplement : chaque Français reçoit chaque année une somme sur un compte à son nom, dont une part égale pour tous, et toute son épargne y vit sous une seule règle fiscale.
 
-Les paramètres des deux versements sont votés chaque année en loi de finances, et aucun montant n’est inscrit ici. Chacun pourra voir sa future pension de retraite grandir sous ses yeux. Ce que l’État cesse de dépenser, chacun le détient.
+Les paramètres des deux versements sont votés chaque année en loi de finances et aucun montant n’est inscrit ici. Chacun pourra voir sa future pension de retraite grandir sous ses yeux. Ce que l’État cesse de dépenser, chacun le détient.
 
 ¹ Conseil d’orientation des retraites, « Évolutions et perspectives des retraites en France », rapport annuel, juin 2025.
 
@@ -2115,7 +2115,7 @@ II. – Compléter cet article par les V à VIII ainsi rédigés :
 
 « VII. – La perte de recettes résultant pour l’État du V est compensée à due concurrence par les abrogations, prévues par la présente loi, de l’article 157 bis, des 2°, 9° ter, 14° et 14° bis de l’article 81, des c, d et d bis du 1, du 2 et des 3 à 5 de l’article 195 et de l’article 196 A bis du code général des impôts.
 
-« VIII. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
+« VIII. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
 EXPOSÉ SOMMAIRE
 
@@ -2127,7 +2127,7 @@ Le quotient familial et la décote profitent aux seuls foyers imposables : un m
 
 Le taux unique de 23 % remplace le barème progressif ; l’aide fondamentale universelle vient en diminution de l’impôt ainsi calculé, soit 6 600 € par an et par adulte et 3 300 € par enfant à charge, majorés de 6 600 € pour une personne invalide et de 3 300 € pour une pension liquidée avant le 1er janvier 2028. L’excédent est versé. Le quotient familial et la décote disparaissent : à taux proportionnel, diviser le revenu en parts ne change plus l’impôt. Dit simplement : à partir de janvier 2028, le salarié au SMIC reçoit 550 € par mois de l’administration fiscale au lieu d’attendre qu’une caisse lui reconnaisse un droit.
 
-L’aide rend en espèces ce que le quotient familial et la décote ne rendaient qu’aux imposables. Elle prend la place des prestations familiales et de l’action sociale des caisses d’allocations familiales, dont la suppression est portée par une disposition distincte. Le taux unique de 23 % porte l’aide fondamentale : l’une et l’autre se liquident dans le même calcul, et le produit du premier finance la seconde. Son coût est gagé sur les dépenses fiscales d’impôt sur le revenu que la présente loi abroge. Elle retire à l’administration la liquidation des parts et le calcul de la décote. Dès l’imposition des revenus de 2028, l’impôt devient négatif en deçà de 28 696 € pour une personne seule, seuil obtenu en divisant l’aide par le taux. Un amendement distinct neutralise les dépenses fiscales sans porter l’aide fondamentale : les deux se cumulent. Il doit être toujours plus favorable de contribuer que de recevoir. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+L’aide rend en espèces ce que le quotient familial et la décote ne rendaient qu’aux imposables. Elle prend la place des prestations familiales et de l’action sociale des caisses d’allocations familiales, dont la suppression est portée par une disposition distincte. Le taux unique de 23 % porte l’aide fondamentale : l’une et l’autre se liquident dans le même calcul et le produit du premier finance la seconde. Son coût est gagé sur les dépenses fiscales d’impôt sur le revenu que la présente loi abroge. Elle retire à l’administration la liquidation des parts et le calcul de la décote. Dès l’imposition des revenus de 2028, l’impôt devient négatif en deçà de 28 696 € pour une personne seule, seuil obtenu en divisant l’aide par le taux. Un amendement distinct neutralise les dépenses fiscales sans porter l’aide fondamentale : les deux se cumulent. Il doit être toujours plus favorable de contribuer que de recevoir. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Conseil des prélèvements obligatoires, « Conforter l’égalité des citoyens devant l’imposition des revenus », octobre 2024, p. 25.
 
@@ -2233,15 +2233,15 @@ Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit 
 
 Le propriétaire reçoit plusieurs avis pour les mêmes mètres carrés : taxe foncière bâtie, non bâtie, taxe d’habitation sur la résidence secondaire, taxe d’enlèvement des ordures ménagères, taxe d’aménagement. La loi énumère seize ressources pour la seule commune (code général des impôts, article 1379)¹. Toutes reposent sur des valeurs cadastrales calculées sur le marché locatif de 1970 : deux logements identiques sont imposés selon un classement d’il y a cinquante ans.
 
-La taxe unique porte sur toute propriété, bâtie ou non, et son assiette est la valeur locative de marché, c’est-à-dire le montant annuel hors charges que la propriété peut produire en location. La loi dit selon quels critères cette valeur se détermine : les propriétés sont classées par catégories définies par leur nature, leur destination, leurs caractéristiques physiques et leur consistance, le territoire d’une commune est découpé en secteurs de marché locatif homogène, et la valeur d’une propriété résulte du produit d’un tarif au mètre carré par sa surface, ce tarif étant arrêté sur les loyers constatés dans le secteur au cours des trois années précédentes. L’Institut national de la statistique et des études économiques établit les catégories, délimite les secteurs et arrête les tarifs selon ces critères, les actualise chaque année et les publie avant l’ouverture de l’année d’imposition, le décret ne portant que les modalités d’application : la base suit le marché, sans révision générale à engager tous les vingt ans. À défaut de publication de nouveaux tarifs pour un secteur, ceux de l’année précédente y demeurent applicables. Le conseil municipal vote le taux entre 10 % et 30 % de cette valeur ; à 10 %, un logement acquitte à peu près la taxe foncière d’aujourd’hui, ordures ménagères comprises. Faute de délibération, la première année, le taux reproduit le produit local de 2027, augmenté de la taxe additionnelle aux droits de mutation prise au titre de 2026, dernière année où elle a été perçue. Dit simplement : le propriétaire reçoit un avis au lieu de cinq, et le maire assume le taux qu’il a voté.
+La taxe unique porte sur toute propriété, bâtie ou non, et son assiette est la valeur locative de marché, c’est-à-dire le montant annuel hors charges que la propriété peut produire en location. La loi dit selon quels critères cette valeur se détermine : les propriétés sont classées par catégories définies par leur nature, leur destination, leurs caractéristiques physiques et leur consistance, le territoire d’une commune est découpé en secteurs de marché locatif homogène et la valeur d’une propriété résulte du produit d’un tarif au mètre carré par sa surface, ce tarif étant arrêté sur les loyers constatés dans le secteur au cours des trois années précédentes. L’Institut national de la statistique et des études économiques établit les catégories, délimite les secteurs et arrête les tarifs selon ces critères, les actualise chaque année et les publie avant l’ouverture de l’année d’imposition, le décret ne portant que les modalités d’application : la base suit le marché, sans révision générale à engager tous les vingt ans. À défaut de publication de nouveaux tarifs pour un secteur, ceux de l’année précédente y demeurent applicables. Le conseil municipal vote le taux entre 10 % et 30 % de cette valeur ; à 10 %, un logement acquitte à peu près la taxe foncière d’aujourd’hui, ordures ménagères comprises. Faute de délibération, la première année, le taux reproduit le produit local de 2027, augmenté de la taxe additionnelle aux droits de mutation prise au titre de 2026, dernière année où elle a été perçue. Dit simplement : le propriétaire reçoit un avis au lieu de cinq et le maire assume le taux qu’il a voté.
 
-La commune garde le produit des impositions qu’elle perd comme de celles que l’État supprime, et l’intercommunalité n’a plus de fiscalité foncière : un impôt, un élu qui en répond. À partir de 2028, chaque commune de métropole verse à un fonds national 2 % de ses valeurs locatives de marché et 2 % de son produit ; les communes sont classées en trois tiers de population selon le revenu de leurs habitants, le tiers le plus modeste reçoit les deux tiers du fonds et le tiers médian le dernier tiers. La taxe foncière unique porte, avec le taux unique de l’impôt sur les sociétés, le solde de la refonte des impositions. Ce fonds remplace le fonds de péréquation intercommunal et les trois dotations de péréquation, dont la dotation globale est minorée d’autant. La mesure prend effet au 1er janvier 2028, le temps que les valeurs soient établies. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+La commune garde le produit des impositions qu’elle perd comme de celles que l’État supprime et l’intercommunalité n’a plus de fiscalité foncière : un impôt, un élu qui en répond. À partir de 2028, chaque commune de métropole verse à un fonds national 2 % de ses valeurs locatives de marché et 2 % de son produit ; les communes sont classées en trois tiers de population selon le revenu de leurs habitants, le tiers le plus modeste reçoit les deux tiers du fonds et le tiers médian le dernier tiers. La taxe foncière unique porte, avec le taux unique de l’impôt sur les sociétés, le solde de la refonte des impositions. Ce fonds remplace le fonds de péréquation intercommunal et les trois dotations de péréquation, dont la dotation globale est minorée d’autant. La mesure prend effet au 1er janvier 2028, le temps que les valeurs soient établies. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Code général des impôts, article 1379, I.
 
 ---
 
-## Amendement n° 30 [Compensations : fin des versements pour impôts disparus, l’économie rendue au travail]
+## Amendement n° 30 [Compensations : fin des versements pour impôts disparus, l’économie rendue au travail]
 
 AMENDEMENT
 
@@ -2251,41 +2251,41 @@ présenté par
 
 ARTICLE 34
 
-I. – Rédiger ainsi les alinéas 3 à 18 :
+I. – Rédiger ainsi les alinéas 3 à 18 :
 
-« II. – A. – Le 2 du VI de l’article 15 de la loi n° 2015-1785 du 29 décembre 2015 de finances pour 2016 est complété par un alinéa ainsi rédigé :
+« II. – A. – Le 2 du VI de l’article 15 de la loi n° 2015-1785 du 29 décembre 2015 de finances pour 2016 est complété par un alinéa ainsi rédigé :
 
 « “À compter de 2027, la compensation n’est plus versée.”
 
-« B. – La loi n° 2009-1673 du 30 décembre 2009 de finances pour 2010 est ainsi modifiée :
+« B. – La loi n° 2009-1673 du 30 décembre 2009 de finances pour 2010 est ainsi modifiée :
 
-« 1° Le 8 de l’article 77 est ainsi modifié :
+« 1° Le 8 de l’article 77 est ainsi modifié :
 
-« a) Le quinzième alinéa du XVIII est complété par une phrase ainsi rédigée : “À compter de 2027, la dotation prévue au présent XVIII n’est plus versée.”.
+« a) Le quinzième alinéa du XVIII est complété par une phrase ainsi rédigée : “À compter de 2027, la dotation prévue au présent XVIII n’est plus versée.”.
 
-« b) L’avant-dernier alinéa du XIX est complété par une phrase ainsi rédigée : “À compter de 2027, la dotation prévue au présent XIX n’est plus versée.”.
+« b) L’avant-dernier alinéa du XIX est complété par une phrase ainsi rédigée : “À compter de 2027, la dotation prévue au présent XIX n’est plus versée.”.
 
-« 2° L’article 78 est ainsi modifié :
+« 2° L’article 78 est ainsi modifié :
 
-« a) Le 1.5 est complété par un alinéa ainsi rédigé :
+« a) Le 1.5 est complété par un alinéa ainsi rédigé :
 
 « “À compter de 2027, les dotations prévues aux 1.2 et 1.3 cessent d’être versées.”.
 
-« b) Le 1.6 est complété par un alinéa ainsi rédigé :
+« b) Le 1.6 est complété par un alinéa ainsi rédigé :
 
 « “À compter de 2027, la dotation prévue au 1.1 cesse d’être versée.”.
 
-« c) Le B du VIII du 2.1 est complété par une phrase ainsi rédigée : “Il cesse d’être versé à compter de 2027.”
+« c) Le B du VIII du 2.1 est complété par une phrase ainsi rédigée : “Il cesse d’être versé à compter de 2027.”
 
-« C. – Le deuxième alinéa du I de l’article 1648 A du code général des impôts est complété par une phrase ainsi rédigée : “À compter de 2027, cette dotation n’est plus versée.”
+« C. – Le deuxième alinéa du I de l’article 1648 A du code général des impôts est complété par une phrase ainsi rédigée : “À compter de 2027, cette dotation n’est plus versée.”
 
-« D. – Le III de l’article 29 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021 est complété par un C ainsi rédigé :
+« D. – Le III de l’article 29 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021 est complété par un C ainsi rédigé :
 
 « “C. – À compter de 2027, la compensation prévue au A et les dotations prévues au B ne sont plus versées.”
 
 « E. – À compter de 2027, les allocations compensatrices des pertes de recettes résultant, pour les collectivités territoriales et leurs groupements, d’exonérations, d’abattements ou de réductions de bases d’impositions directes locales prévus par la loi ne sont plus versées. »
 
-II. – Compléter cet article par un III ainsi rédigé :
+II. – Compléter cet article par un III ainsi rédigé :
 
 « III. – Le produit résultant du II concourt à la réduction des prélèvements pesant sur les revenus d’activité. »
 
@@ -2293,15 +2293,15 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement supprime au 1er janvier 2027 les dotations compensant des impôts locaux supprimés.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Ces dotations ne financent aucune compétence. Les unes compensent la taxe professionnelle, disparue il y a seize ans, sur la base des recettes de 2010 (loi n° 2009-1673 du 30 décembre 2009 de finances pour 2010, articles 77 et 78)¹. Les autres compensent des exonérations et des réductions de bases que la loi a décidées : locaux industriels, versement transport, allocations compensatrices. Le législateur les réduit déjà chaque année : elles servent de variable d’ajustement, et le projet de loi en fixe encore le montant pour 2027.
+Ces dotations ne financent aucune compétence. Les unes compensent la taxe professionnelle, disparue il y a seize ans, sur la base des recettes de 2010 (loi n° 2009-1673 du 30 décembre 2009 de finances pour 2010, articles 77 et 78)¹. Les autres compensent des exonérations et des réductions de bases que la loi a décidées : locaux industriels, versement transport, allocations compensatrices. Le législateur les réduit déjà chaque année : elles servent de variable d’ajustement et le projet de loi en fixe encore le montant pour 2027.
 
 Le Conseil constitutionnel juge que la Constitution n’impose de ressources qu’en face d’un transfert de compétences ou d’une compétence obligatoire créée ou étendue (décision n° 2011-144 QPC du 30 juin 2011)². Il admet que la loi de finances minore ces compensations (décision n° 2016-744 DC du 29 décembre 2016)³. Une compensation d’impôt n’est pas la ressource d’une mission.
 
-La mesure va au bout de la logique : ces dotations cessent d’être versées. Le fonds national de garantie individuelle des ressources reste en l’état : il se finance entre collectivités, sans un euro de l’État. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. Dit simplement : l’État cesse de payer pour un impôt qui n’existe plus.
+La mesure va au bout de la logique : ces dotations cessent d’être versées. Le fonds national de garantie individuelle des ressources reste en l’état : il se finance entre collectivités, sans un euro de l’État. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. Dit simplement : l’État cesse de payer pour un impôt qui n’existe plus.
 
-L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Loi n° 2009-1673 du 30 décembre 2009 de finances pour 2010, articles 77 et 78 · loi n° 2020-1721 du 29 décembre 2020, article 29 · loi n° 2015-1785 du 29 décembre 2015, article 15 · code général des impôts, article 1648 A.
 
@@ -2311,7 +2311,7 @@ L’économie revient aux actifs par la baisse des prélèvements sur les revenu
 
 ---
 
-## Amendement n° 31 [Dotations : moins de compétences facultatives, moins de charges sur les contribuables]
+## Amendement n° 31 [Dotations : moins de compétences facultatives, moins de charges sur les contribuables]
 
 AMENDEMENT
 
@@ -2321,9 +2321,9 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 34, insérer l’article suivant :
+APRÈS L’ARTICLE 34, insérer l’article suivant :
 
-I. – Après l’article L. 1614-1-1 du code général des collectivités territoriales, il est inséré un article L. 1614-1-2 ainsi rédigé :
+I. – Après l’article L. 1614-1-1 du code général des collectivités territoriales, il est inséré un article L. 1614-1-2 ainsi rédigé :
 
 « Art. L. 1614-1-2. – I. – Lorsque la loi retire une compétence à une catégorie de collectivités territoriales ou rend son exercice facultatif, les ressources que l’État attribue à chacune des collectivités concernées sont réduites, à compter de la date d’effet du retrait, d’un montant égal aux dépenses qu’elle consacrait à l’exercice de cette compétence.
 
@@ -2341,7 +2341,7 @@ I. – Après l’article L. 1614-1-1 du code général des collectivités terri
 
 « VI. – Un décret en Conseil d’État peut préciser les modalités d’application du présent article, notamment la nomenclature des dépenses afférentes à chaque compétence. À défaut, les dépenses afférentes à chaque compétence sont celles que les comptes de la collectivité retracent selon la nomenclature comptable qui lui est applicable. »
 
-II. – Le deuxième alinéa de l’article L. 3334-1 du même code est complété par une phrase ainsi rédigée : « À compter de 2027, ce montant est minoré du montant correspondant aux réductions de dotation à prévoir en application de l’article L. 1614-1-2. »
+II. – Le deuxième alinéa de l’article L. 3334-1 du même code est complété par une phrase ainsi rédigée : « À compter de 2027, ce montant est minoré du montant correspondant aux réductions de dotation à prévoir en application de l’article L. 1614-1-2. »
 
 III. – Le présent article s’applique aux retraits de compétences prenant effet à compter du 1er janvier 2027.
 
@@ -2351,15 +2351,15 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement conditionne les concours de l’État aux compétences que la collectivité exerce effectivement.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-La loi organise déjà le mouvement dans un seul sens. Tout transfert de compétence de l’État vers les collectivités s’accompagne des ressources correspondantes, et toute charge nouvelle de ressources déterminées par la loi (code général des collectivités territoriales, articles L. 1614-1 et L. 1614-1-1)¹. Rien ne dit ce qui advient de la ressource quand la compétence disparaît. Le contribuable continue alors de payer une dotation sans objet².
+La loi organise déjà le mouvement dans un seul sens. Tout transfert de compétence de l’État vers les collectivités s’accompagne des ressources correspondantes et toute charge nouvelle de ressources déterminées par la loi (code général des collectivités territoriales, articles L. 1614-1 et L. 1614-1-1)¹. Rien ne dit ce qui advient de la ressource quand la compétence disparaît. Le contribuable continue alors de payer une dotation sans objet².
 
-La mesure comble ce vide. Si la compétence avait été transférée par l’État, sa compensation, notamment la dotation générale de décentralisation, cesse le jour du retrait : la Constitution garantit des ressources à la compétence exercée, pas à la compétence abandonnée. Pour le reste, les ressources versées par l’État baissent à hauteur de ce que la collectivité y consacrait en moyenne sur trois ans, montant constaté par la commission qui évalue déjà les transferts dans l’autre sens. À compter de 2028, les droits de mutation que la loi attribue à l’État comptent dans cette baisse : leur perte s’impute sur la réduction due, et ce qui la dépasse n’est compensé que si la part des ressources propres tombe sous le seuil que garantit la loi organique. Par exception, le mécanisme joue dès 2027 pour le seul transfert à l’État des droits de mutation que la même loi de finances opère à cette date, de sorte que la perte des départements et des communes trouve sa réponse l’année même où elle naît. La baisse porte sur la dotation globale de fonctionnement, ensuite seulement sur la fraction de taxe sur la valeur ajoutée. L’enveloppe nationale baisse d’autant : l’économie ne se redistribue pas en douce entre collectivités.
+La mesure comble ce vide. Si la compétence avait été transférée par l’État, sa compensation, notamment la dotation générale de décentralisation, cesse le jour du retrait : la Constitution garantit des ressources à la compétence exercée, pas à la compétence abandonnée. Pour le reste, les ressources versées par l’État baissent à hauteur de ce que la collectivité y consacrait en moyenne sur trois ans, montant constaté par la commission qui évalue déjà les transferts dans l’autre sens. À compter de 2028, les droits de mutation que la loi attribue à l’État comptent dans cette baisse : leur perte s’impute sur la réduction due et ce qui la dépasse n’est compensé que si la part des ressources propres tombe sous le seuil que garantit la loi organique. Par exception, le mécanisme joue dès 2027 pour le seul transfert à l’État des droits de mutation que la même loi de finances opère à cette date, de sorte que la perte des départements et des communes trouve sa réponse l’année même où elle naît. La baisse porte sur la dotation globale de fonctionnement, ensuite seulement sur la fraction de taxe sur la valeur ajoutée. L’enveloppe nationale baisse d’autant : l’économie ne se redistribue pas en douce entre collectivités.
 
-L’ordre n’est pas indifférent. La dotation de l’État n’est pas une ressource propre des collectivités : la réduire en premier préserve leur autonomie financière.
+L’ordre n’est pas indifférent. La dotation de l’État n’est pas une ressource propre des collectivités : la réduire en premier préserve leur autonomie financière.
 
-La règle s’applique à tout retrait qui prend effet à compter de 2027. L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Une compétence en moins, c’est une dépense en moins : la facture doit suivre. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement.
+La règle s’applique à tout retrait qui prend effet à compter de 2027. L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Une compétence en moins, c’est une dépense en moins : la facture doit suivre. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement.
 
 ¹ Code général des collectivités territoriales, articles L. 1614-1, L. 1614-1-1, L. 1614-3 et L. 1614-4.
 
@@ -2367,7 +2367,7 @@ La règle s’applique à tout retrait qui prend effet à compter de 2027. L’�
 
 ---
 
-## Amendement n° 32 [Départements et régions : les compétences retirées, le financement retiré d’autant]
+## Amendement n° 32 [Départements et régions : les compétences retirées, le financement retiré d’autant]
 
 AMENDEMENT
 
@@ -2377,13 +2377,13 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 34, insérer l’article suivant :
+APRÈS L’ARTICLE 34, insérer l’article suivant :
 
 I. – A. – À compter de l’année de prise d’effet de chacun des retraits de compétences prévus aux II et III, les ressources que l’État attribue à chaque département et à chaque région sont réduites d’un montant égal à la moyenne des dépenses réelles que la collectivité a consacrées à l’exercice de la compétence retirée. Ces dépenses sont celles constatées dans ses comptes de gestion des deuxième, troisième et quatrième exercices qui précèdent l’année de prise d’effet du retrait.
 
 B. – Ce montant est constaté pour chaque collectivité dans les conditions prévues à l’article L. 1614-3 du code général des collectivités territoriales. Dans l’attente de l’arrêté de constatation, la réduction est opérée à titre provisionnel sur la base des comptes de gestion du deuxième exercice qui précède l’année de prise d’effet du retrait. Elle est régularisée l’année qui suit la publication de l’arrêté.
 
-C. – La réduction s’impute, dans l’ordre suivant :
+C. – La réduction s’impute, dans l’ordre suivant :
 
 1° Sur la dotation générale de décentralisation et les autres ressources attribuées en application de l’article L. 1614-4 du même code au titre de la compétence retirée, qui cessent d’être attribuées à ce titre à la date de prise d’effet du retrait.
 
@@ -2397,9 +2397,9 @@ E. – Les retraits de compétences prévus aux II et III ne donnent lieu, au ti
 
 F. – Un décret en Conseil d’État peut préciser la nomenclature des dépenses afférentes à chaque compétence retirée. À défaut, ces dépenses sont celles que les comptes de gestion de la collectivité retracent selon la nomenclature comptable qui lui est applicable.
 
-II. – Le code général des collectivités territoriales est ainsi modifié :
+II. – Le code général des collectivités territoriales est ainsi modifié :
 
-1° Le deuxième alinéa de l’article L. 1111-4 est ainsi rédigé :
+1° Le deuxième alinéa de l’article L. 1111-4 est ainsi rédigé :
 
 « Les compétences en matière de promotion de l’égalité entre les femmes et les hommes, de culture, de sport, de tourisme, de promotion des langues régionales et d’éducation populaire sont exercées à titre facultatif par les communes. Les départements et les régions ne les exercent pas. »
 
@@ -2433,15 +2433,15 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire des compétences aux départements et aux régions et le financement correspondant.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-L’État cesse de financer une charge qui n’existe plus. Le retrait de la compétence est le fait générateur ; la baisse des concours de l’État en est la conséquence, mesurée sur ce que la collectivité consacrait à la compétence retirée. La ressource suit la compétence, elle ne la commande pas.
+L’État cesse de financer une charge qui n’existe plus. Le retrait de la compétence est le fait générateur ; la baisse des concours de l’État en est la conséquence, mesurée sur ce que la collectivité consacrait à la compétence retirée. La ressource suit la compétence, elle ne la commande pas.
 
-La loi organise le mouvement dans un seul sens : une compétence transférée apporte ses ressources, une compétence abandonnée les garde (code général des collectivités territoriales, articles L. 1614-1 et L. 1614-4)¹. Département et région conservent en outre des clauses générales de promotion et de solidarité, cofinancent les projets des communes et partagent avec elles la culture, le sport, le tourisme, la promotion des langues régionales et l’éducation populaire (article L. 1111-4)¹. Chaque équipement réunit ainsi quatre financeurs, et l’habitant qui en conteste l’usage ne sait devant qui se tourner.
+La loi organise le mouvement dans un seul sens : une compétence transférée apporte ses ressources, une compétence abandonnée les garde (code général des collectivités territoriales, articles L. 1614-1 et L. 1614-4)¹. Département et région conservent en outre des clauses générales de promotion et de solidarité, cofinancent les projets des communes et partagent avec elles la culture, le sport, le tourisme, la promotion des langues régionales et l’éducation populaire (article L. 1111-4)¹. Chaque équipement réunit ainsi quatre financeurs et l’habitant qui en conteste l’usage ne sait devant qui se tourner.
 
-La mesure part de la ressource. Pour chaque compétence retirée, les concours de l’État baissent la même année de ce que la collectivité y consacrait en moyenne sur trois exercices, montant constaté par la commission qui évalue les transferts dans l’autre sens. La baisse porte sur la compensation du transfert, puis sur la dotation globale, enfin sur la fraction de taxe sur la valeur ajoutée, et l’enveloppe nationale baisse d’autant. Les cinq compétences partagées reviennent aux communes, qui les exercent si elles le décident ; les clauses générales des départements et des régions prennent fin, et il leur reste les compétences que la loi leur attribue expressément. Les aides aux entreprises s’éteignent au 1er janvier 2027, à l’exception de l’agriculture, de la forêt et de la pêche, plafonnées aux deux tiers en 2028 et au tiers en 2029 puis supprimées en 2030. Pour ce périmètre, la réduction des concours de l’État court dès 2027, par douzièmes, au tiers de la moyenne, puis aux deux tiers, puis en totalité. En clair : chaque euro de compétence retirée est un euro de concours en moins, l’année même, et non trois ans plus tard.
+La mesure part de la ressource. Pour chaque compétence retirée, les concours de l’État baissent la même année de ce que la collectivité y consacrait en moyenne sur trois exercices, montant constaté par la commission qui évalue les transferts dans l’autre sens. La baisse porte sur la compensation du transfert, puis sur la dotation globale, enfin sur la fraction de taxe sur la valeur ajoutée et l’enveloppe nationale baisse d’autant. Les cinq compétences partagées reviennent aux communes, qui les exercent si elles le décident ; les clauses générales des départements et des régions prennent fin et il leur reste les compétences que la loi leur attribue expressément. Les aides aux entreprises s’éteignent au 1er janvier 2027, à l’exception de l’agriculture, de la forêt et de la pêche, plafonnées aux deux tiers en 2028 et au tiers en 2029 puis supprimées en 2030. Pour ce périmètre, la réduction des concours de l’État court dès 2027, par douzièmes, au tiers de la moyenne, puis aux deux tiers, puis en totalité. En clair : chaque euro de compétence retirée est un euro de concours en moins, l’année même, et non trois ans plus tard.
 
-Une loi de finances a déjà déplacé une compétence en reprenant les ressources correspondantes dans cet ordre (loi n° 2021-1900 du 30 décembre 2021, article 43)². Les engagements signés sont honorés à leur terme, sans prorogation. Un seul responsable par politique, une ressource qui suit la mission : c’est ainsi qu’on sait qui répond de la dépense. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Une loi de finances a déjà déplacé une compétence en reprenant les ressources correspondantes dans cet ordre (loi n° 2021-1900 du 30 décembre 2021, article 43)². Les engagements signés sont honorés à leur terme, sans prorogation. Un seul responsable par politique, une ressource qui suit la mission : c’est ainsi qu’on sait qui répond de la dépense. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Code général des collectivités territoriales, articles L. 1111-4, L. 1111-10, L. 1614-1, L. 1614-3 et L. 1614-4.
 
@@ -2449,7 +2449,7 @@ Une loi de finances a déjà déplacé une compétence en reprenant les ressourc
 
 ---
 
-## Amendement n° 33 [Dotation forfaitaire : remplacée par l’impôt que la commune vote elle-même]
+## Amendement n° 33 [Dotation forfaitaire : remplacée par l’impôt que la commune vote elle-même]
 
 AMENDEMENT
 
@@ -2459,7 +2459,7 @@ présenté par
 
 ARTICLE ADDITIONNEL
 
-APRÈS L’ARTICLE 34, insérer l’article suivant :
+APRÈS L’ARTICLE 34, insérer l’article suivant :
 
 I. – La dotation forfaitaire prévue à l’article L. 2334-7 du code général des collectivités territoriales revenant à chaque commune est minorée, en 2027, d’un montant égal au tiers de la dotation forfaitaire qu’elle a perçue au titre de 2026 et, en 2028, d’un montant égal aux deux tiers de cette dotation. À compter de 2029, la dotation forfaitaire n’est plus versée. Lorsque la minoration excède le montant de la dotation calculé pour l’année, celle-ci est nulle.
 
@@ -2475,13 +2475,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement substitue en trois ans l’impôt foncier communal à la dotation forfaitaire des communes.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
 La dotation forfaitaire est la part la plus ancienne et la plus opaque de la dotation globale de fonctionnement. Son calcul empile des montants hérités de réformes successives, des garanties et des écrêtements (code général des collectivités territoriales, article L. 2334-7)¹. Aucun habitant ne sait ce que sa commune en reçoit ni pourquoi². Le maire, lui, dépend chaque automne d’un arbitrage national sur lequel il n’a aucune prise.
 
-La mesure retire un tiers de cette dotation en 2027, deux tiers en 2028, et la totalité en 2029. Chaque commune choisit alors : reprendre la somme sur sa taxe foncière, par une délibération qui l’autorise à dépasser les plafonds de taux à due concurrence, ou réduire sa dépense. Le premier palier joue dès 2027 sur la taxe foncière existante, le deuxième sur la taxe foncière unique instituée par ailleurs, le troisième achève la fusion. En clair : l’argent que l’État prélevait pour le redistribuer, la commune le lève directement, ou ne le lève pas.
+La mesure retire un tiers de cette dotation en 2027, deux tiers en 2028 et la totalité en 2029. Chaque commune choisit alors : reprendre la somme sur sa taxe foncière, par une délibération qui l’autorise à dépasser les plafonds de taux à due concurrence, ou réduire sa dépense. Le premier palier joue dès 2027 sur la taxe foncière existante, le deuxième sur la taxe foncière unique instituée par ailleurs, le troisième achève la fusion. En clair : l’argent que l’État prélevait pour le redistribuer, la commune le lève directement ou ne le lève pas.
 
-L’enveloppe nationale baisse d’autant chaque année, et l’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. La commune y gagne une ressource propre, qu’elle maîtrise et dont elle répond devant ses électeurs. Celui qui décide de la dépense doit aussi décider de l’impôt. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement.
+L’enveloppe nationale baisse d’autant chaque année et l’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. La commune y gagne une ressource propre, qu’elle maîtrise et dont elle répond devant ses électeurs. Celui qui décide de la dépense doit aussi décider de l’impôt. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement.
 
 ¹ Code général des collectivités territoriales, article L. 2334-7.
 
@@ -2489,7 +2489,7 @@ L’enveloppe nationale baisse d’autant chaque année, et l’économie revien
 
 ---
 
-## Amendement n° 34 [TVA des collectivités : plafonnée au coût de leurs compétences]
+## Amendement n° 34 [TVA des collectivités : plafonnée au coût de leurs compétences]
 
 AMENDEMENT
 
@@ -2499,7 +2499,7 @@ présenté par
 
 ARTICLE 36
 
-Compléter cet article par un IV ainsi rédigé :
+Compléter cet article par un IV ainsi rédigé :
 
 « IV. – A. – Les fractions mentionnées au présent A sont celles du produit net de la taxe sur la valeur ajoutée affectées à une collectivité territoriale ou à un groupement en application des II à VI de l’article 149 de la loi n° 2016-1917 du 29 décembre 2016 de finances pour 2017, du V de l’article 16 de la loi n° 2019-1479 du 28 décembre 2019 de finances pour 2020, du IV de l’article 8 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021 et des XXIV et XXV de l’article 55 de la loi n° 2022-1726 du 30 décembre 2022 de finances pour 2023. À compter de 2027, le montant de ces fractions est minoré de la part des réductions prévues à l’article L. 1614-1-2 du code général des collectivités territoriales qui n’a pu être imputée sur la dotation globale de fonctionnement du bénéficiaire.
 
@@ -2515,13 +2515,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement conditionne aux compétences exercées la fraction de taxe sur la valeur ajoutée des collectivités.
 
-Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Depuis 2018, l’État a remplacé des pans entiers de la fiscalité locale par des parts de TVA : dotation des régions, taxe d’habitation, cotisation sur la valeur ajoutée des entreprises (lois de finances pour 2017, 2020, 2021 et 2023)¹. Ces parts sont versées quelle que soit l’étendue des missions de la collectivité². Elles progressent avec la consommation nationale, non avec les charges locales. Une politique peut être abandonnée sans que la recette qui la finançait ne suive.
+Depuis 2018, l’État a remplacé des pans entiers de la fiscalité locale par des parts de TVA : dotation des régions, taxe d’habitation, cotisation sur la valeur ajoutée des entreprises (lois de finances pour 2017, 2020, 2021 et 2023)¹. Ces parts sont versées quelle que soit l’étendue des missions de la collectivité². Elles progressent avec la consommation nationale, non avec les charges locales. Une politique peut être abandonnée sans que la recette qui la finançait ne suive.
 
-La mesure joue en deux temps. D’abord, la fraction de TVA absorbe la part des baisses de ressources liées aux compétences retirées que la dotation globale de fonctionnement ne suffit pas à porter : la TVA vient en dernier, jamais en premier. Ensuite, à compter de 2028, la fraction versée aux départements et aux régions ne peut excéder ce que chacun justifie avoir dépensé pour ses compétences obligatoires. La justification tient en un état annexé au compte de l’exercice. Faute de le produire, la collectivité voit ses versements suspendus jusqu’à ce qu’elle le transmette.
+La mesure joue en deux temps. D’abord, la fraction de TVA absorbe la part des baisses de ressources liées aux compétences retirées que la dotation globale de fonctionnement ne suffit pas à porter : la TVA vient en dernier, jamais en premier. Ensuite, à compter de 2028, la fraction versée aux départements et aux régions ne peut excéder ce que chacun justifie avoir dépensé pour ses compétences obligatoires. La justification tient en un état annexé au compte de l’exercice. Faute de le produire, la collectivité voit ses versements suspendus jusqu’à ce qu’elle le transmette.
 
-Les communes et leurs groupements ne sont concernés que par le premier temps : leur ressource passe par la taxe foncière, qu’ils votent. Pour les départements et les régions, la ressource suit désormais exactement les compétences que la loi leur confie. L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Une recette publique se justifie par une mission, pas par l’habitude. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Les communes et leurs groupements ne sont concernés que par le premier temps : leur ressource passe par la taxe foncière, qu’ils votent. Pour les départements et les régions, la ressource suit désormais exactement les compétences que la loi leur confie. L’économie revient aux actifs par la baisse des prélèvements sur les revenus du travail. Une recette publique se justifie par une mission, pas par l’habitude. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Loi n° 2016-1917 du 29 décembre 2016, article 149 · loi n° 2019-1479 du 28 décembre 2019, article 16 · loi n° 2020-1721 du 29 décembre 2020, article 8 · loi n° 2022-1726 du 30 décembre 2022, article 55.
 
