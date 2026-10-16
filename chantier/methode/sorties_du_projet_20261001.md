@@ -45,11 +45,11 @@ Tous présents à l'archive, empreinte vérifiée avant sortie.
 | `referentiels/cgi_expert_parametres.tsv` | 7 497 | `157742ece38f0c239a273790297d6b668488c7e0624102a9af52f7475668e0ec` |
 | `livrables/releve_epreuve_EP2.tsv` | 95 095 | `bdf2c372740fe9dc488fecee21fe86356436c6b586748880e7ef61da3313e176` |
 | `livrables/releve_epreuve_EP3.tsv` | 59 150 | `25b0e1cc1b31ea4fa603e3e3884655873e14c47415e2aac4f8fe544b09f5948c` |
-| `reference/Constitution_reference_20260806_v1.html` | 134 250 | `2e07731c5a566cc9372275516b465721b6f0c0fe8435c17594a94ec58ba4cbc3` |
-| `reference/Constitution_3col_20260916_v46.html` | 104 362 | `80de491474511d123e3e87811f65315834b457ee8f735ba0722e5a6f6f73caed` |
-| `reference/LOLF_3col_20260507_v7.html` | 69 342 | `cb319222fb0312eaf6039d5ba48c6a7d0e26213cc5c1146b33890c64b073ee1f` |
+| `reference/Constitution_reference.html` | 134 250 | `2e07731c5a566cc9372275516b465721b6f0c0fe8435c17594a94ec58ba4cbc3` |
+| `reference/Constitution_3col.html` | 104 362 | `80de491474511d123e3e87811f65315834b457ee8f735ba0722e5a6f6f73caed` |
+| `reference/LOLF_3col.html` | 69 342 | `cb319222fb0312eaf6039d5ba48c6a7d0e26213cc5c1146b33890c64b073ee1f` |
 | `reference/LOLF_reference_20260507.html` | 39 449 | `6ade55251222717e7935c2d7cfa75ed788766a5fbecbd3f413848d12fbe87e7b` |
-| `reference/DDHC_20260806_v1.html` | 11 827 | `cb4508e7306f0d5e6efe3dd9e4a565b0cdc0b7e33b2fc3e7727821ddefc694c9` |
+| `reference/DDHC.html` | 11 827 | `cb4508e7306f0d5e6efe3dd9e4a565b0cdc0b7e33b2fc3e7727821ddefc694c9` |
 
 **Total sorti : 1 617 384 o.**
 

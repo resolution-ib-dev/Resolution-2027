@@ -3,7 +3,7 @@
 """Trois colonnes de la PPLC règle d'or.
 
 A — le texte en vigueur, verbatim, relevé sur
-    reference/Constitution_reference_20260806_v1.html
+    reference/Constitution_reference.html
     (Conseil constitutionnel, 8 mars 2024, vingt-cinquième révision).
 B — la disposition modificative, verbatim de la proposition.
 C — le texte résultant, **produit par réapplication de B sur A**, jamais retapé.

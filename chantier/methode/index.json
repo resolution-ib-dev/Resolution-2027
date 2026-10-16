@@ -3125,7 +3125,7 @@
   },
   {
    "role": "pplc_modificative",
-   "chemin": "livrables/PPLC_consolidee_modificative_20260914_v7.md",
+   "chemin": "livrables/PPLC_consolidee_modificative.md",
    "rang": "derive",
    "coffre": true,
    "produit_par": null,
@@ -3136,12 +3136,12 @@
    "alias": [],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "livrables/PPLC_consolidee_modificative_20260914_v7.md",
+   "chemin_coffre": "livrables/PPLC_consolidee_modificative.md",
    "famille": "juridique"
   },
   {
    "role": "pplc_substitution",
-   "chemin": "livrables/PPLC_consolidee_substitution_20260914_v7.md",
+   "chemin": "livrables/PPLC_consolidee_substitution.md",
    "rang": "derive",
    "coffre": true,
    "produit_par": null,
@@ -3152,7 +3152,7 @@
    "alias": [],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "livrables/PPLC_consolidee_substitution_20260914_v7.md",
+   "chemin_coffre": "livrables/PPLC_consolidee_substitution.md",
    "famille": "juridique"
   },
   {
@@ -3265,7 +3265,7 @@
   },
   {
    "role": "source:constitution_3col_20260916_v46",
-   "chemin": "reference/Constitution_3col_20260916_v46.html",
+   "chemin": "reference/Constitution_3col.html",
    "rang": "source",
    "coffre": true,
    "produit_par": null,
@@ -3277,7 +3277,7 @@
    "alias": [],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "reference/Constitution_3col_20260916_v46.html",
+   "chemin_coffre": "reference/Constitution_3col.html",
    "famille": "extensions"
   },
   {
@@ -4037,7 +4037,7 @@
   },
   {
    "role": "presentation_revision_v47",
-   "chemin": "livrables/Presentation_20260916_v47.md",
+   "chemin": "livrables/Presentation.md",
    "rang": "derive",
    "coffre": true,
    "produit_par": null,
@@ -4048,12 +4048,12 @@
    "alias": [],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "livrables/Presentation_20260916_v47.md",
+   "chemin_coffre": "livrables/Presentation.md",
    "famille": "bac à sable"
   },
   {
    "role": "recensement_innovations_v3",
-   "chemin": "livrables/Recensement_innovations_20260916_v3.md",
+   "chemin": "livrables/Recensement_innovations.md",
    "rang": "derive",
    "coffre": true,
    "produit_par": null,
@@ -4064,12 +4064,12 @@
    "alias": [],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "livrables/Recensement_innovations_20260916_v3.md",
+   "chemin_coffre": "livrables/Recensement_innovations.md",
    "famille": "bac à sable"
   },
   {
    "role": "recap_transposabilite_v8",
-   "chemin": "livrables/Recap_transposabilite_20260916_v8.md",
+   "chemin": "livrables/Recap_transposabilite.md",
    "rang": "derive",
    "coffre": true,
    "produit_par": null,
@@ -4080,7 +4080,7 @@
    "alias": [],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "livrables/Recap_transposabilite_20260916_v8.md",
+   "chemin_coffre": "livrables/Recap_transposabilite.md",
    "famille": "bac à sable"
   },
   {
@@ -9121,7 +9121,7 @@
    ],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "reference/Constitution_reference_20260806_v1.html",
+   "chemin_coffre": "reference/Constitution_reference.html",
    "famille": "références externes"
   },
   {
@@ -9138,7 +9138,7 @@
    ],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "reference/DDHC_20260806_v1.html",
+   "chemin_coffre": "reference/DDHC.html",
    "famille": "références externes"
   },
   {
@@ -9257,7 +9257,7 @@
    ],
    "restaurable": true,
    "voie": "coffre",
-   "chemin_coffre": "reference/LOLF_3col_20260507_v7.html",
+   "chemin_coffre": "reference/LOLF_3col.html",
    "famille": "bac à sable"
   },
   {
@@ -13085,8 +13085,8 @@
    "famille": "méthode"
   },
   {
-   "role": "fichier:reference/Constitution_reference_20260806_v1",
-   "chemin": "reference/Constitution_reference_20260806_v1.html",
+   "role": "fichier:reference/Constitution_reference",
+   "chemin": "reference/Constitution_reference.html",
    "rang": "methode",
    "coffre": true,
    "produit_par": null,
@@ -13094,13 +13094,13 @@
    "alias": [],
    "restaurable": true,
    "voie": "depot",
-   "chemin_coffre": "chantier/reference/Constitution_reference_20260806_v1.html",
+   "chemin_coffre": "chantier/reference/Constitution_reference.html",
    "releve": true,
    "famille": "références externes"
   },
   {
-   "role": "fichier:reference/DDHC_20260806_v1",
-   "chemin": "reference/DDHC_20260806_v1.html",
+   "role": "fichier:reference/DDHC",
+   "chemin": "reference/DDHC.html",
    "rang": "methode",
    "coffre": true,
    "produit_par": null,
@@ -13108,13 +13108,13 @@
    "alias": [],
    "restaurable": true,
    "voie": "depot",
-   "chemin_coffre": "chantier/reference/DDHC_20260806_v1.html",
+   "chemin_coffre": "chantier/reference/DDHC.html",
    "releve": true,
    "famille": "références externes"
   },
   {
-   "role": "fichier:reference/LOLF_3col_20260507_v7",
-   "chemin": "reference/LOLF_3col_20260507_v7.html",
+   "role": "fichier:reference/LOLF_3col",
+   "chemin": "reference/LOLF_3col.html",
    "rang": "methode",
    "coffre": true,
    "produit_par": null,
@@ -13122,7 +13122,7 @@
    "alias": [],
    "restaurable": true,
    "voie": "depot",
-   "chemin_coffre": "chantier/reference/LOLF_3col_20260507_v7.html",
+   "chemin_coffre": "chantier/reference/LOLF_3col.html",
    "releve": true,
    "famille": "références externes"
   },
@@ -13907,9 +13907,9 @@
    "paquet/machine_v2_0/tests/test_recette.py",
    "paquet/machine_v2_0/tests/test_socles.py",
    "racine/DEMARRAGE.md",
-   "reference/Constitution_reference_20260806_v1.html",
-   "reference/DDHC_20260806_v1.html",
-   "reference/LOLF_3col_20260507_v7.html",
+   "reference/Constitution_reference.html",
+   "reference/DDHC.html",
+   "reference/LOLF_3col.html",
    "reference/LOLF_reference_20260507.html",
    "reference/gabarit_liste_articles.md",
    "referentiels/Commissions_R_20261014.xlsx",

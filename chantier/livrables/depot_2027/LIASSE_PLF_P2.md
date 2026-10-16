@@ -2,7 +2,7 @@
 
 Résolution — octobre 2026
 
-Quarante et un amendements de seconde partie, répartis en cinq lots. La numérotation va de 1 à 41, sans numéro vacant.
+Quarante et un amendements de seconde partie, répartis en cinq lots. La numérotation va de 1 à 41.
 
 ---
 

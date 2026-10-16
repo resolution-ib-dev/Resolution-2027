@@ -16,13 +16,13 @@ contre-PLF — et ne connaît pas celui-ci.
 
 | pièce | version | rôle |
 |---|---|---|
-| `reference/Constitution_3col_20260916_v46.html` | v46 | texte actuel · réforme visée · rédaction révisée, 37 lignes d'articles |
-| `livrables/PPLC_consolidee_modificative_20260914_v7.md` | v7 | la proposition en dispositions modificatives, 33 articles |
-| `livrables/PPLC_consolidee_substitution_20260914_v7.md` | v7 | la même, en substitution intégrale |
-| `livrables/Presentation_20260916_v47.md` | v47 | le document de présentation au lecteur |
-| `livrables/Recap_transposabilite_20260916_v8.md` | v8 | le récapitulatif de transposabilité |
-| `livrables/Recensement_innovations_20260916_v3.md` | v3 | le recensement des innovations |
-| `reference/Constitution_reference_20260806_v1.html` | — | le texte en vigueur, verbatim, qui fait foi |
+| `reference/Constitution_3col.html` | v46 | texte actuel · réforme visée · rédaction révisée, 37 lignes d'articles |
+| `livrables/PPLC_consolidee_modificative.md` | v7 | la proposition en dispositions modificatives, 33 articles |
+| `livrables/PPLC_consolidee_substitution.md` | v7 | la même, en substitution intégrale |
+| `livrables/Presentation.md` | v47 | le document de présentation au lecteur |
+| `livrables/Recap_transposabilite.md` | v8 | le récapitulatif de transposabilité |
+| `livrables/Recensement_innovations.md` | v3 | le recensement des innovations |
+| `reference/Constitution_reference.html` | — | le texte en vigueur, verbatim, qui fait foi |
 
 Les quatre bases antérieures restent au coffre sous leur nom daté : la v44 du trois
 colonnes, les v6 des deux propositions, la v44 de la présentation. **Elles ne se
@@ -171,7 +171,7 @@ réviser est inchangée, l'adresse ne bougeant pas.
 ### Sortie par l'audit de conformité — **corrigée le jour même**
 
 Les neuf écarts de dispositif de la présentation sont recalés, chacun sur sa
-référence : le texte en vigueur sur `reference/Constitution_reference_20260806_v1.html`,
+référence : le texte en vigueur sur `reference/Constitution_reference.html`,
 la version cible sur la proposition par substitution. Articles 61, 72-1, 65,
 72-2 et 25 pour les versions cibles ; articles 25, 50-1, 1er et 24 pour les
 verbatim en vigueur.
@@ -228,8 +228,8 @@ est dans le document.
 | chemin | rang | voie | famille |
 |---|---|---|---|
 | `reference/Constitution_3col_20260914_v45.html` | source | coffre | extensions |
-| `livrables/PPLC_consolidee_modificative_20260914_v7.md` | derive | coffre | juridique |
-| `livrables/PPLC_consolidee_substitution_20260914_v7.md` | derive | coffre | juridique |
+| `livrables/PPLC_consolidee_modificative.md` | derive | coffre | juridique |
+| `livrables/PPLC_consolidee_substitution.md` | derive | coffre | juridique |
 | `livrables/Presentation_20260916_v46.md` | derive | coffre | rédactionnel |
 | `methode/etat_revision_constitutionnelle.md` | methode | coffre | méthode |
 

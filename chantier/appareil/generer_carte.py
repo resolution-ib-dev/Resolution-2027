@@ -108,7 +108,7 @@ FAMILLES = [
       'présentation du 20260916. La version du 20260730 garde sa propre '
       'entrée, datée et non remplacée.'),
      ('Constitution — trois colonnes, 20260916',
-      ['reference/Constitution_3col_20260916_v46.html'], None,
+      ['reference/Constitution_3col.html'], None,
       'millésime en vigueur. Deux alinéas rétablis en colonne C — la clause '
       'de remplacement temporaire de l’article 25, l’alinéa de suspension '
       'des délais de l’article 47 — sortis par '
@@ -322,11 +322,11 @@ FAMILLES = [
       ['sources/PPLC_consolidee_substitution_20260730_v6.md'], None,
       'consolidée. Même exposé des motifs que la modificative.'),
      ('PPLC — dispositions modificatives, 20260914',
-      ['livrables/PPLC_consolidee_modificative_20260914_v7.md'], None,
+      ['livrables/PPLC_consolidee_modificative.md'], None,
       'consolidée. La version du 20260730 garde sa propre entrée, datée et '
       'non remplacée.'),
      ('PPLC — substitution intégrale, 20260914',
-      ['livrables/PPLC_consolidee_substitution_20260914_v7.md'], None,
+      ['livrables/PPLC_consolidee_substitution.md'], None,
       'consolidée. Même exposé des motifs que la modificative du 20260914.'),
     ]},
 
@@ -514,9 +514,9 @@ IMPLICITES = {
     'referentiels/reperes_resume_2026.tsv': 'grilles',
     'livrables/confrontation_resume_2026.tsv': 'bac à sable',
     'livrables/bordereau_confrontation_resume_2026.md': 'bac à sable',
-    'livrables/Presentation_20260916_v47.md': 'bac à sable',
-    'livrables/Recensement_innovations_20260916_v3.md': 'bac à sable',
-    'livrables/Recap_transposabilite_20260916_v8.md': 'bac à sable',
+    'livrables/Presentation.md': 'bac à sable',
+    'livrables/Recensement_innovations.md': 'bac à sable',
+    'livrables/Recap_transposabilite.md': 'bac à sable',
     'livrables/PPLC_regle_dor_modificative.md': 'bac à sable',
     'livrables/Presentation_regle_dor.md': 'bac à sable',
     'methode/fragments/arbitrages/20260917-socle.md': 'méthode',

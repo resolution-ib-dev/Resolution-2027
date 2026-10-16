@@ -754,10 +754,10 @@ ARTEFACTS = [
      'reference/Constitution_3col_20260914_v45.html', 'source', True, None,
      ["lecture de l'auteur", 'redaction-legistique', 'audit-conformite'], []),
     ('pplc_modificative',
-     'livrables/PPLC_consolidee_modificative_20260914_v7.md', 'derive', True,
+     'livrables/PPLC_consolidee_modificative.md', 'derive', True,
      None, ['dépôt parlementaire', 'audit-conformite'], []),
     ('pplc_substitution',
-     'livrables/PPLC_consolidee_substitution_20260914_v7.md', 'derive', True,
+     'livrables/PPLC_consolidee_substitution.md', 'derive', True,
      None, ['redaction-legistique', 'audit-conformite'], []),
     ('presentation_revision', 'livrables/Presentation_20260916_v46.md',
      'derive', True, None, ['diffusion', "lecture de l'auteur"], []),
@@ -786,7 +786,7 @@ ARTEFACTS = [
     ('controle_colonne_c', 'appareil/controle_colonne_c.py', 'appareil', True,
      None, ['make controle'], []),
     ('source:constitution_3col_20260916_v46',
-     'reference/Constitution_3col_20260916_v46.html', 'source', True, None,
+     'reference/Constitution_3col.html', 'source', True, None,
      ["lecture de l'auteur", 'redaction-legistique', 'audit-conformite'], []),
 
     # ---------------------------------------------------- dette du 20260917
@@ -938,13 +938,13 @@ ARTEFACTS = [
     ('bordereau_confrontation_resume_2026',
      'livrables/bordereau_confrontation_resume_2026.md', 'derive', True, None,
      ['confrontation', "arbitrage de l'auteur"], []),
-    ('presentation_revision_v47', 'livrables/Presentation_20260916_v47.md',
+    ('presentation_revision_v47', 'livrables/Presentation.md',
      'derive', True, None, ['diffusion', "lecture de l'auteur"], []),
     ('recensement_innovations_v3',
-     'livrables/Recensement_innovations_20260916_v3.md', 'derive', True, None,
+     'livrables/Recensement_innovations.md', 'derive', True, None,
      ['analyse-transposabilite', 'contestabilite'], []),
     ('recap_transposabilite_v8',
-     'livrables/Recap_transposabilite_20260916_v8.md', 'derive', True, None,
+     'livrables/Recap_transposabilite.md', 'derive', True, None,
      ['analyse-transposabilite', 'compatibilite-doctrine'], []),
     ('pplc_regle_dor_modificative', 'livrables/PPLC_regle_dor_modificative.md',
      'derive', True, None, ['dépôt parlementaire', 'audit-conformite'], []),
@@ -1880,15 +1880,15 @@ COFFRE_SOURCES = {
         'archive/Precedents_restes_a_payer_20260721.md',
     # --- textes normatifs de référence
     'sources/Constitution_reference_20260806_v1.html':
-        'reference/Constitution_reference_20260806_v1.html',
+        'reference/Constitution_reference.html',
     'sources/Constitution_3col_20260730_v44.html':
         'reference/Constitution_3col_20260730_v44.html',
     'sources/DDHC_20260806_v1.html':
-        'reference/DDHC_20260806_v1.html',
+        'reference/DDHC.html',
     'sources/LOLF_reference_20260507.html':
         'reference/LOLF_reference_20260507.html',
     'sources/LOLF_3col_20260507_v7.html':
-        'reference/LOLF_3col_20260507_v7.html',
+        'reference/LOLF_3col.html',
     'sources/guide_legistique.md':
         'reference/guide_legistique.md',
     'sources/regles_credits.md':

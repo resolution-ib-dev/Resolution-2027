@@ -37,7 +37,7 @@
 
 ## Pièce 2.3-A — mission « Immigration, asile et intégration »
 
-**Titre** Exercer ou acheter l’accueil, au lieu de le subventionner ·
+**Titre** Exercer et piloter l’accueil ·
 **Chapô** Supprimer les subventions aux associations du programme « Immigration et asile » ·
 **Intention** Que la subvention s’éteigne, sans se reconstituer ailleurs ·
 **Mesures portées** M-016, composante `AFFECTATION`, versant État (bloc B-04)
