@@ -36,9 +36,9 @@ APRÈS L’ARTICLE 19, insérer l’article suivant :
 
 **IV.** – Les I à III s’appliquent aux opérations dont le fait générateur intervient à compter du 1er janvier 2027.
 
-**V.** – 1° La perte de recettes pour le Centre national du cinéma et de l’image animée est compensée à due concurrence par la création d’une taxe additionnelle aux droits mentionnés aux articles 575 et 575 A du code général des impôts.
+**V.** – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
 
-2° La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle aux droits mentionnés aux mêmes articles 575 et 575 A.
+**Gage de l’affectataire, déclaré insuffisant.** La perte du Centre national du cinéma et de l’image animée n’est pas gagée : aucune niche en rapport n’est ouverte dans cette liasse, et la formule d’un gage au profit d’un opérateur affectataire n’est pas arrêtée. Elle se relèvera sur une pièce réelle portant la même perte.
 
 EXPOSÉ SOMMAIRE
 
@@ -88,7 +88,7 @@ ARTICLE 9
 
 **IV.** – Les I à III s’appliquent aux contributions dues au titre des dépenses engagées à compter du 1er janvier 2027.
 
-**V.** – La perte de recettes pour les organismes de sécurité sociale est compensée à due concurrence par la majoration des droits mentionnés aux articles 575 et 575 A du code général des impôts.
+**V. – Gage déclaré insuffisant.** La perte de recettes pour les organismes de sécurité sociale n’est pas gagée : la formule d’un gage au profit de ces organismes n’est pas arrêtée et ne s’invente pas, et aucune niche en rapport n’est ouverte dans cette liasse. Elle se relèvera sur une pièce réelle portant la même perte. Le perdant et le montant sont nommés ci-dessus.
 
 EXPOSÉ SOMMAIRE
 
@@ -109,9 +109,9 @@ Une entreprise acquitte une contribution au lieu de deux, sur une assiette qui s
 
 | mesure | ce qu'elle lève |
 |---|---|
-| **A** | l'abrogation d'une section entière · trois coordinations dans deux autres codes · le **double gage**, opérateur affectataire puis État privé de ses frais d'assiette |
+| **A** | l'abrogation d'une section entière · trois coordinations dans deux autres codes · le gage standard, État seulement · et la **déclaration d'insuffisance** pour la perte de l'affectataire, dont la formule n'est pas arrêtée |
 | **B** | **l'arrêt** : le siège porte une abrogation déjà programmée au 1er janvier 2027, et la table des articles ouverts le donne à tort pour ouvert |
-| **C** | le véhicule imposé · un article du véhicule **déjà ouvert** · la rédaction contre l'état que le véhicule laisse · la **jambe** en loi de finances · le gage de sécurité sociale |
+| **C** | le véhicule imposé · un article du véhicule **déjà ouvert** · la rédaction contre l'état que le véhicule laisse · la **jambe** en loi de finances · le gage **déclaré insuffisant**, faute de formule arrêtée pour la sécurité sociale |
 
 **Une chaîne qui rend un amendement sur la mesure B a échoué**, quelle que soit
 la qualité de ce qu'elle rend.
