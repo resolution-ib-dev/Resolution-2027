@@ -534,9 +534,11 @@ manuscrit. C'est le régime transitoire, non la cible.
 - **Le rang suit le registre.** Un constat se dit précis, une promesse en ordre
   de grandeur.
 - **Nos montants sortent toujours arrondis** (règle de l’auteur, 20261019) : 114
-  et non 114,46, 33 et non 33,38, au milliard dans un exposé. Une ventilation
-  arrondie se reboucle sur son total arrondi. Un chiffre cité d’une source
-  garde la précision de sa source — *proposé, non validé*.
+  et non 114,46. Entier au-dessus de 10, une décimale en dessous, dans l’unité
+  qui convient : 13 milliards, 2,3 milliards, 782 millions, 6,9 millions. Une
+  ventilation arrondie se reboucle sur son total arrondi. Un chiffre qui a une
+  source publique concrète garde sa précision. Le dispositif garde ses montants
+  exacts : seul l’exposé arrondit.
 - **L'écart avec les pays comparables mesure le possible ; il ne se promet pas**
   et ne se compte pas avec les pertes.
 - **Aucune sortie ne se termine sur un problème.**
