@@ -395,7 +395,28 @@
       "cle": "code des postes et des communications électroniques",
       "court": "postes",
       "temoin": "L33-1"
+    },
+    {
+      "cle": "code pénal",
+      "court": "cp",
+      "temoin": null
+    },
+    {
+      "cle": "code pénitentiaire",
+      "court": "penitentiaire",
+      "temoin": null
+    },
+    {
+      "cle": "code de l'organisation judiciaire",
+      "court": "coj",
+      "temoin": null
+    },
+    {
+      "cle": "code de la justice pénale des mineurs",
+      "court": "cjpm",
+      "temoin": null
     }
   ],
-  "_temoin_non_epingle": "Un `temoin` à null veut dire : non épinglé, faute d'un article dont l'applicabilité soit prouvée. Le contrôle est alors DÉSACTIVÉ pour ce code, le manifeste le déclare en clair, et le journal l'annonce. À épingler au tour suivant depuis `exemples_applicables` du manifeste. Cas du code des douanes : l'article 2, retenu le 20260902 sur une date d'URL Légifrance prise à tort pour une preuve de vigueur, est abrogé depuis le 1er mai 2026 — et c'est le témoin qui l'a dit."
+  "_temoin_non_epingle": "Un `temoin` à null veut dire : non épinglé, faute d'un article dont l'applicabilité soit prouvée. Le contrôle est alors DÉSACTIVÉ pour ce code, le manifeste le déclare en clair, et le journal l'annonce. À épingler au tour suivant depuis `exemples_applicables` du manifeste. Cas du code des douanes : l'article 2, retenu le 20260902 sur une date d'URL Légifrance prise à tort pour une preuve de vigueur, est abrogé depuis le 1er mai 2026 — et c'est le témoin qui l'a dit.",
+  "_chaine_penale_20261019": "Quatre codes ajoutés pour la révision de la chaîne pénale (methode/procedure_revision_penale.md) : résolution par intitulé, témoin non épinglé, à épingler au passage suivant depuis exemples_applicables."
 }
