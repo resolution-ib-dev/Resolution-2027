@@ -79,7 +79,19 @@ elle prime sur toute mémoire de fil.
 | le sort des prélèvements | `referentiels/prelevements_forces_20260930.tsv`, colonne `rang` | — |
 | le vocabulaire des sorts, et quelle ligne est maintenue | onglet `Refonte fiscalité` de `Synthèse Calculs Résolution` | — |
 | les commissions du Jaune | `referentiels/commissions_jaune2026_20261014.tsv` | — |
+| **toute matière de recettes, de dépenses fiscales ou de taxes affectées en 2027** | `methode/annexes_voies_et_moyens_2027.md` | la table « où va se servir un fil » |
 | la vue d'ensemble, non la source | `livrables/suivi_trajectoire_20261015.md` | § 9 et § 10 |
+
+**Les sept annexes des voies et moyens du PLF 2027 sont au dépôt**, en dix
+tables, digérées et éprouvées à l'octet le 20261019. **Aucune ne se demande à
+l'auteur, aucune ne se retélécharge, et il n'y a pas d'annexe 3 au tome I.**
+`methode/annexes_voies_et_moyens_2027.md` dit laquelle porte quoi et renvoie à la
+table qui répond à chaque question ; `appareil/digerer_annexes_vm2027.py verifier`
+les rejoue sur les classeurs. **Avant de proposer la suppression d'une dépense
+fiscale, ouvrir `annexe_evolution_df_bilan_2027.tsv` et
+`annexe_evolution_df_bornees_2027.tsv`** : une dépense déjà supprimée ou déjà
+éteinte ne se supprime pas deux fois, et l'économie qu'on lui prêterait est acquise
+au tendanciel.
 
 **Trois conséquences, chacune a coûté.**
 
@@ -88,11 +100,16 @@ elle prime sur toute mémoire de fil.
   État de 2027. Tout chiffre de solde se dit avec sa couche, sans exception.
 - **Un référentiel qui porte ses défauts ne se publie pas**, même mis en forme.
   Le tri des prélèvements n'en porte plus qu'un : **186 rangs sans rendement
-  2026**, et il ne se comble pas au dépôt. Les trois sources ont été éprouvées le
-  20261016 sur la totalité des rangs vides : l'annexe des ressources affectées en
-  remplit 2, l'état A du texte déposé 0, et la liste IFRAP ne porte aucun montant.
-  **Les 186 restants demandent une source extérieure au dépôt**, donc un arbitrage
-  sur la source.
+  2026**. **Le point est clos depuis le 20261019 et ne se rouvre pas sans une
+  source nouvelle.** Sept sources ont été éprouvées sur la totalité des rangs
+  vides — l'annexe des ressources affectées en remplit 2, et les six autres
+  aucune, dont toutes les annexes des voies et moyens du PLF 2027. La raison est
+  une disjonction de périmètre, non un défaut de jointure : les 186 rangs sont
+  93 cotisations sociales et 92 taxes affectées à des tiers, quand les voies et
+  moyens portent le budget général et les taxes plafonnées. Le relevé des sept
+  mesures est à `methode/annexes_voies_et_moyens_2027.md`. **Un fil qui rouvrirait
+  ce point referait sept mesures déjà faites** : les rangs restent déclarés sans
+  rendement, et le référentiel garde son défaut déclaré.
 
   *Deux défauts sont clos le 20261016.* **Le rapprochement sur la liste IFRAP** :
   420 libellés sur 420 couverts, 0 orpheline, 14 rangs d'une autre origine
