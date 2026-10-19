@@ -1,7 +1,7 @@
 {
-  "millesime_legi": "20261016",
-  "jour_de_reference": "2026-10-16",
-  "archives": 465,
+  "millesime_legi": "20261018",
+  "jour_de_reference": "2026-10-19",
+  "archives": 467,
   "archive": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz",
   "plancher_historique": "2025-01-01",
   "extrait_le": "",
@@ -78,8 +78,8 @@
     "code de la sécurité sociale": {
       "fichier": "css.jsonl.gz",
       "articles": 8546,
-      "octets": 2829889,
-      "sha256": "9dc8d6d7bbe60c83a912f1f1f20c514182e27d0b74a8cb7f7d7f10d2e93b56af",
+      "octets": 2829888,
+      "sha256": "7fdffcaf35e74a6d9fc8db98cbfb969bb10d5d2d64642f4d416004eb9eb8184f",
       "court": "css",
       "applicables": 7430,
       "a_venir": 184,
@@ -215,8 +215,8 @@
     "code de l'environnement": {
       "fichier": "environnement.jsonl.gz",
       "articles": 7778,
-      "octets": 2485036,
-      "sha256": "bde98576014d4494921645e009612964d86877916e81d5a9dfad0d0d5472cd29",
+      "octets": 2485028,
+      "sha256": "a9c02c937deeb17f1ab8a123adc35351ec1e3e3b42a1e2c7eb5c1c3e517e6275",
       "court": "environnement",
       "applicables": 7284,
       "a_venir": 53,
@@ -718,8 +718,8 @@
     "code de la santé publique": {
       "fichier": "sante.jsonl.gz",
       "articles": 14975,
-      "octets": 3727423,
-      "sha256": "fb6a2536673ad1e629fe5a5a8ac6d0cae0ea623f47ad5d7465921d216a31f323",
+      "octets": 3727440,
+      "sha256": "6a4f78051e47941d56222cfcc9d272ad6265225656933bbac9fa50c95baef1d8",
       "court": "sante",
       "applicables": 13673,
       "a_venir": 138,
@@ -2338,6 +2338,138 @@
         "54-20"
       ],
       "sections_rattachees": 756
+    },
+    "code pénal": {
+      "fichier": "cp.jsonl.gz",
+      "articles": 1479,
+      "octets": 267699,
+      "sha256": "1b12f6fa627b4e5b7f2c8f73cc1c4a7860ea6276703017df55b85348eb840ee5",
+      "court": "cp",
+      "applicables": 1301,
+      "a_venir": 84,
+      "fin_programmee": 88,
+      "historiques": 94,
+      "etats": {
+        "VIGUEUR": 1213,
+        "ABROGE_DIFF": 88,
+        "MODIFIE": 91,
+        "ABROGE": 2,
+        "MODIFIE_MORT_NE": 1,
+        "VIGUEUR_DIFF": 84
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "111-1",
+        "111-2",
+        "111-3",
+        "111-4",
+        "111-5",
+        "112-1",
+        "112-3",
+        "112-4",
+        "113-1",
+        "113-10"
+      ],
+      "sections_rattachees": 1479
+    },
+    "code pénitentiaire": {
+      "fichier": "penitentiaire.jsonl.gz",
+      "articles": 2129,
+      "octets": 340200,
+      "sha256": "7941505fa7c72c2a7688d16c0fdda1a3ab8f25e4493b48669e985c5307fe3aa3",
+      "court": "penitentiaire",
+      "applicables": 1868,
+      "a_venir": 78,
+      "fin_programmee": 79,
+      "historiques": 183,
+      "etats": {
+        "VIGUEUR": 1789,
+        "MODIFIE": 179,
+        "ABROGE_DIFF": 79,
+        "ABROGE": 3,
+        "TRANSFERE": 1,
+        "VIGUEUR_DIFF": 78
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "Annexe",
+        "D112-1",
+        "D112-10",
+        "D112-11",
+        "D112-12",
+        "D112-13",
+        "D112-14",
+        "D112-18",
+        "D112-19",
+        "D112-20"
+      ],
+      "sections_rattachees": 2129
+    },
+    "code de l'organisation judiciaire": {
+      "fichier": "coj.jsonl.gz",
+      "articles": 1171,
+      "octets": 868061,
+      "sha256": "9146cbdfc2258d4b657d63f068b7da06d5b437d3bede546a74db012ac5b70c99",
+      "court": "coj",
+      "applicables": 1019,
+      "a_venir": 31,
+      "fin_programmee": 30,
+      "historiques": 121,
+      "etats": {
+        "VIGUEUR": 989,
+        "ABROGE_DIFF": 29,
+        "MODIFIE": 117,
+        "ABROGE": 4,
+        "MODIFIE_MORT_NE": 1,
+        "VIGUEUR_DIFF": 31
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "Annexe Tableau I",
+        "Annexe Tableau II",
+        "Annexe Tableau III",
+        "Annexe Tableau IV",
+        "Annexe Tableau IV-I",
+        "Annexe Tableau IV-II",
+        "Annexe Tableau IV-III",
+        "Annexe Tableau IV-IV",
+        "Annexe Tableau IX",
+        "Annexe Tableau IX-I"
+      ],
+      "sections_rattachees": 1171
+    },
+    "code de la justice pénale des mineurs": {
+      "fichier": "cjpm.jsonl.gz",
+      "articles": 704,
+      "octets": 124158,
+      "sha256": "b7f71e5d2e74d846f8daf8426c405f872bcfd7a8163bdf59b782637e658ef546",
+      "court": "cjpm",
+      "applicables": 563,
+      "a_venir": 97,
+      "fin_programmee": 92,
+      "historiques": 44,
+      "etats": {
+        "VIGUEUR": 471,
+        "ABROGE_DIFF": 92,
+        "MODIFIE": 43,
+        "ABROGE": 1,
+        "VIGUEUR_DIFF": 96,
+        "MODIFIE_MORT_NE": 1
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "Annexe 1",
+        "Annexe 2",
+        "Annexe à l'article R124-3",
+        "D112-1",
+        "D112-10",
+        "D112-11",
+        "D112-12",
+        "D112-13",
+        "D112-14",
+        "D112-15"
+      ],
+      "sections_rattachees": 704
     }
   },
   "non_verses": {}
