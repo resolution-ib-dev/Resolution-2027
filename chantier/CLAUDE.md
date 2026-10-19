@@ -536,7 +536,7 @@ manuscrit. C'est le régime transitoire, non la cible.
 - **Nos montants sortent toujours arrondis** (règle de l’auteur, 20261019) : 114
   et non 114,46, 33 et non 33,38, au milliard dans un exposé. Une ventilation
   arrondie se reboucle sur son total arrondi. Un chiffre cité d’une source
-  garde la précision de sa source.
+  garde la précision de sa source — *proposé, non validé*.
 - **L'écart avec les pays comparables mesure le possible ; il ne se promet pas**
   et ne se compte pas avec les pertes.
 - **Aucune sortie ne se termine sur un problème.**
