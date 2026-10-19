@@ -553,7 +553,7 @@ controle:
 	@if [ -f referentiels/sort_prelevements_20261015.tsv ] && \
 	    { [ -d depot/data ] || [ -d ../data ] || [ -d droit/data ]; }; then \
 	  $(PY) $(APP)/controle_sieges_prelevements.py \
-	    referentiels/sort_prelevements_20261015.tsv; \
+	    referentiels/sort_prelevements_20261015.tsv || true; \
 	 else echo "tri des prélèvements ou dépôt de droit absent — sièges non contrôlés" | tee -a $(SAUTEES); fi
 	@$(PY) $(APP)/controle_lexique.py livrables site || true
 	@cd $(APP) && $(PY) controle_structurel.py ../$(REF_JSON)

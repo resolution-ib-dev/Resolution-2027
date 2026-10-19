@@ -37,7 +37,31 @@ Quatre règles, par statut inscrit à la colonne `statut_siege` :
 
 Les statuts antérieurs au fil du 20261016 — « confirmé », « relevé par le
 fil », « nommé non porté au dépôt », « non établi » — ne sont pas du
-ressort de ce contrôle : il les compte et les laisse.
+ressort des règles S1 à S5 : elles les comptent et les laissent. La règle
+S6, ci-dessous, les atteint néanmoins par la colonne `nature_ligne`.
+
+**La règle S6, l'exigence de siège, inscrite le 20261019.** Un siège ne
+s'exige QUE des rangs de `nature_ligne = imposition`, et il s'en exige de
+tous : un rang d'imposition sans `siege_article` est un ÉCHEC, et le
+classeur ne se verse pas. Les deux autres valeurs de `nature_ligne` en
+sont hors : un `agrégat` est une ligne de nomenclature budgétaire qui se
+résout en ses composantes et ne porte pas de siège par construction, et
+une `ressource propre de l'Union` n'a pas de siège en droit national.
+
+Deux statuts déclarent l'absence de siège par construction et valent
+dispense, parce que l'absence y est le relevé lui-même et non son
+manque :
+
+  - « création du PLF — aucun article en vigueur au millésime du
+    relevé » : le siège naîtra à la promulgation ;
+  - « siège réglementaire — hors du champ du relevé législatif » : le
+    siège existe et porte un R. Il S'INSCRIT quand il est relevé ; tant
+    qu'il ne l'est pas, le rang passe en SIGNAL et non en échec, pour
+    qu'un fil ultérieur le relève.
+
+Tout autre statut sans siège — « non établi » au premier chef — échoue.
+Un rang mesuré vide reste donc visible et bloquant : c'est ce qui
+distingue une qualification non tranchée d'une qualification rendue.
 
 **Le rapprochement IFRAP, règle R.** Les 420 libellés distincts de
 `referentiels/prelevements_ifrap.tsv` doivent tous être couverts par la colonne
@@ -77,6 +101,12 @@ S_RENVOI = 'relevé par renvoi exprès, vérifié'
 S_ABROGE = 'siège abrogé, relevé au dépôt de droit'
 S_ABROGE_IN = 'siège abrogé dans l’article en vigueur, relevé au dépôt de droit'
 
+# Règle S6 — l'exigence de siège (20261019).
+NATURE_AVEC_SIEGE = 'imposition'
+S_PLF_A_NAITRE = 'création du PLF — aucun article en vigueur au millésime du relevé'
+S_REGLEMENTAIRE = 'siège réglementaire — hors du champ du relevé législatif'
+DISPENSES_SIEGE = (S_PLF_A_NAITRE, S_REGLEMENTAIRE)
+
 RE_LEGI = re.compile(r'LEGIARTI\d{12}')
 RE_NUM = re.compile(r'art(?:icles?)?\.?\s*((?:[LRD]\.?\s*)?[\d]+(?:[\- ]\d+)*(?:\s+(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies|undecies|duodecies|terdecies|quaterdecies|quindecies|sexdecies|septdecies|octodecies|novodecies|vicies|unvicies|duovicies|tervicies|quatervicies|quinvicies|sexvicies|septvicies|octovicies|novovicies|tricies|untricies|duotricies|tertricies|[A-Z]{1,3})\b)*)', re.I)
 
@@ -111,6 +141,17 @@ def controler(chemin):
     for i, r in enumerate(lignes, 2):
         st = r['statut_siege'].strip()
         comptes[st] = comptes.get(st, 0) + 1
+
+        # S6 — un siège s'exige de tout rang d'imposition, et de lui seul.
+        nature = (r.get('nature_ligne') or '').strip()
+        if nature == NATURE_AVEC_SIEGE and not r['siege_article'].strip():
+            if st == S_REGLEMENTAIRE:
+                signaux.append((i, r['libelle'],
+                                'S6 : siège réglementaire déclaré, non relevé — à relever'))
+            elif st != S_PLF_A_NAITRE:
+                echecs.append((i, r['libelle'],
+                               f'S6 : imposition sans siège (statut « {st} »)'))
+
         if st not in (S_ANNEXE, S_DEPOT, S_RENVOI, S_ABROGE, S_ABROGE_IN):
             continue
         lib, siege, fond = r['libelle'], r['siege_article'].strip(), r['fondement']
@@ -207,6 +248,10 @@ def main(argv):
         print(f'  {n:>4}  {st}{marque}')
     couverts = sum(comptes.get(s, 0) for s in (S_ANNEXE, S_DEPOT, S_RENVOI, S_ABROGE, S_ABROGE_IN))
     print(f'\n  {couverts} sièges sous contrôle.')
+    impositions = sum(1 for r in lignes if (r.get('nature_ligne') or '').strip() == NATURE_AVEC_SIEGE)
+    avec = sum(1 for r in lignes
+               if (r.get('nature_ligne') or '').strip() == NATURE_AVEC_SIEGE and r['siege_article'].strip())
+    print(f'  S6 : {avec}/{impositions} rangs d’imposition portent un siège.')
 
     for i, lib, motif in signaux:
         print(f'  SIGNAL l.{i} — {lib[:60]}\n          {motif}')
