@@ -2368,6 +2368,21 @@
    "famille": "graphique"
   },
   {
+   "role": "codes_penaux",
+   "chemin": "revision/codes/_manifeste.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/codes_git.py",
+   "consomme_par": [
+    "methode/procedure_revision_penale.md"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "revision/codes/_manifeste.md",
+   "famille": "méthode"
+  },
+  {
    "role": "feuille_de_route",
    "chemin": "methode/feuille_de_route.md",
    "rang": "methode",
@@ -9865,6 +9880,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/codes_git",
+   "chemin": "appareil/codes_git.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/codes_git.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/controle_credits_liasse",
    "chemin": "appareil/controle_credits_liasse.py",
    "rang": "appareil",
@@ -13085,6 +13114,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:methode/procedure_revision_penale",
+   "chemin": "methode/procedure_revision_penale.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/procedure_revision_penale.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:methode/procedure_revue_fond_depot_2027",
    "chemin": "methode/procedure_revue_fond_depot_2027.md",
    "rang": "methode",
@@ -13659,6 +13702,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/frictions_penal",
+   "chemin": "referentiels/frictions_penal.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/frictions_penal.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/niches_sieges_20261004",
    "chemin": "referentiels/niches_sieges_20261004.tsv",
    "rang": "referentiel",
@@ -13942,6 +13999,7 @@
    "appareil/chasse_siege.py",
    "appareil/cles_eval_expose.py",
    "appareil/cles_eval_gl.py",
+   "appareil/codes_git.py",
    "appareil/coffre.py",
    "appareil/confronter_lecture.py",
    "appareil/construire_positions.py",
@@ -14257,6 +14315,7 @@
    "methode/passe_numeros_et_corrections_20261004.md",
    "methode/procedure_amendement_credits.md",
    "methode/procedure_liasse_P1_20261009.md",
+   "methode/procedure_revision_penale.md",
    "methode/procedure_revue_fond_depot_2027.md",
    "methode/purge_controle_nuit_reste_20261004.md",
    "methode/purge_recevabilite_20261004.md",
@@ -14299,6 +14358,7 @@
    "referentiels/commissions_jaune2026_20261014_lisez_moi.md",
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
    "referentiels/etatB_2027_bg.tsv",
+   "referentiels/frictions_penal.tsv",
    "referentiels/lots_epreuve.json",
    "referentiels/niches_sieges_20261004.tsv",
    "referentiels/niches_sieges_regles_de_lecture_20261004.md",
@@ -14492,10 +14552,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 918,
-  "au_coffre": 860,
-  "au_depot": 402,
-  "derives": 270,
+  "artefacts": 922,
+  "au_coffre": 863,
+  "au_depot": 405,
+  "derives": 271,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

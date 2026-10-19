@@ -596,6 +596,11 @@ ARTEFACTS = [
     ('site', 'site/index.html', 'derive', False,
      'appareil/generer_site.py', ['diffusion', 'Vercel'],
      ['livrables/site_prototype.html', 'site_prototype.html']),
+    # L'arborescence des codes de la chaîne pénale, déclarée en bloc par son
+    # manifeste (`controle_index.BLOCS`) : plus de seize mille articles que
+    # `codes_git.py` refait ensemble depuis le dépôt de droit.
+    ('codes_penaux', 'revision/codes/_manifeste.md', 'derive', False,
+     'appareil/codes_git.py', ['methode/procedure_revision_penale.md'], []),
 
     # ---------------------------------------------------------------- méthode
     ('feuille_de_route', 'methode/feuille_de_route.md', 'methode', True, None,
