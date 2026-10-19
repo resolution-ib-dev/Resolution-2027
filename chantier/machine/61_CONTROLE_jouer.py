@@ -36,6 +36,7 @@ MODULES = [
     ("65_CONTROLE_socles.py", "régénération des socles sur les textes déposés"),
     ("66_CONTROLE_recette.py", "recette de bout en bout sur le mini-lot"),
     ("67_CONTROLE_fuite.py", "aucune marque de l'atelier d'origine"),
+    ("69_CONTROLE_doctrine.py", "aucun prélèvement nouveau ni majoré"),
 ]
 
 

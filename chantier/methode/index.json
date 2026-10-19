@@ -11405,6 +11405,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:machine/69_CONTROLE_doctrine",
+   "chemin": "machine/69_CONTROLE_doctrine.py",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/machine/69_CONTROLE_doctrine.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:machine/90_SCRIPT_relever_manifeste",
    "chemin": "machine/90_SCRIPT_relever_manifeste.py",
    "rang": "methode",
@@ -14123,6 +14137,7 @@
    "machine/66_CONTROLE_recette.py",
    "machine/67_CONTROLE_fuite.py",
    "machine/68_CONTROLE_atelier.py",
+   "machine/69_CONTROLE_doctrine.py",
    "machine/90_SCRIPT_relever_manifeste.py",
    "machine/99_MANIFESTE.md",
    "methode/ARBITRAGES_RENDUS.md",
@@ -14477,9 +14492,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 917,
-  "au_coffre": 859,
-  "au_depot": 401,
+  "artefacts": 918,
+  "au_coffre": 860,
+  "au_depot": 402,
   "derives": 270,
   "sources": 48,
   "non_restaurables": 16,
