@@ -8093,11 +8093,12 @@ référence, onglet Manuscrit, ligne 38 ; Cour des comptes, RALFSS 2024, ch. IV)
 dossier (`livrables/mecanique_gages_restitutions_20260929.md` — aide fondamentale au
 circuit C, « Compense suppressions de taxe » à `Flux`), non tranché.
 
+
 ## 20261019 — sieges-prelevements
 
 *Absorption du sas `methode/fragments/arbitrages/20261016-sieges-prelevements.md`,
 ouvert par le fil Cowork « sièges des prélèvements » le 20261016 et clos ici.
-Quatorze entrées, titrées et datées, numérotées à l’insertion. Trois bornes du
+Seize entrées, titrées et datées, numérotées à l’insertion — les quatorze du fragment, plus les deux arbitrages de l’auteur du 20261019. Trois bornes du
 fragment étaient périmées ; chacune est reprise sur la pièce, millésime LEGI
 20261016.*
 
@@ -8360,4 +8361,3 @@ requalifient en ligne de nomenclature 1782. **Les « orphelins » des clubs de j
 restent non établis** : le code de la sécurité intérieure ne porte aucun article
 qui les institue, et les clubs de jeux tiennent du V de l’article 34 de la loi
 n° 2017-257, hors dépôt.
-
