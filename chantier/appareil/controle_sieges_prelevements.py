@@ -48,8 +48,8 @@ sont hors : un `agrégat` est une ligne de nomenclature budgétaire qui se
 résout en ses composantes et ne porte pas de siège par construction, et
 une `ressource propre de l'Union` n'a pas de siège en droit national.
 
-Deux statuts déclarent l'absence de siège par construction et valent
-dispense, parce que l'absence y est le relevé lui-même et non son
+Trois statuts déclarent l'absence de siège et valent dispense, parce
+que l'absence y est le relevé lui-même, ou un arbitrage, et non son
 manque :
 
   - « création du PLF — aucun article en vigueur au millésime du
@@ -57,7 +57,11 @@ manque :
   - « siège réglementaire — hors du champ du relevé législatif » : le
     siège existe et porte un R. Il S'INSCRIT quand il est relevé ; tant
     qu'il ne l'est pas, le rang passe en SIGNAL et non en échec, pour
-    qu'un fil ultérieur le relève.
+    qu'un fil ultérieur le relève ;
+  - « n.d. » : arbitrage de l'auteur du 20261019 sur les cinq rangs
+    mesurés vides au dépôt comme aux annexes. L'absence est déclarée et le
+    point est clos ; le rang passe en SIGNAL, jamais en échec, et aucun
+    fil ne le rouvre.
 
 Tout autre statut sans siège — « non établi » au premier chef — échoue.
 Un rang mesuré vide reste donc visible et bloquant : c'est ce qui
@@ -105,7 +109,8 @@ S_ABROGE_IN = 'siège abrogé dans l’article en vigueur, relevé au dépôt de
 NATURE_AVEC_SIEGE = 'imposition'
 S_PLF_A_NAITRE = 'création du PLF — aucun article en vigueur au millésime du relevé'
 S_REGLEMENTAIRE = 'siège réglementaire — hors du champ du relevé législatif'
-DISPENSES_SIEGE = (S_PLF_A_NAITRE, S_REGLEMENTAIRE)
+S_ND = 'n.d.'  # arbitrage de l'auteur du 20261019 : absence déclarée, point clos
+DISPENSES_SIEGE = (S_PLF_A_NAITRE, S_REGLEMENTAIRE, S_ND)
 
 RE_LEGI = re.compile(r'LEGIARTI\d{12}')
 RE_NUM = re.compile(r'art(?:icles?)?\.?\s*((?:[LRD]\.?\s*)?[\d]+(?:[\- ]\d+)*(?:\s+(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies|undecies|duodecies|terdecies|quaterdecies|quindecies|sexdecies|septdecies|octodecies|novodecies|vicies|unvicies|duovicies|tervicies|quatervicies|quinvicies|sexvicies|septvicies|octovicies|novovicies|tricies|untricies|duotricies|tertricies|[A-Z]{1,3})\b)*)', re.I)
@@ -148,6 +153,9 @@ def controler(chemin):
             if st == S_REGLEMENTAIRE:
                 signaux.append((i, r['libelle'],
                                 'S6 : siège réglementaire déclaré, non relevé — à relever'))
+            elif st == S_ND:
+                signaux.append((i, r['libelle'],
+                                'S6 : siège n.d. — absence déclarée, arbitrage de l’auteur du 20261019, point clos'))
             elif st != S_PLF_A_NAITRE:
                 echecs.append((i, r['libelle'],
                                f'S6 : imposition sans siège (statut « {st} »)'))

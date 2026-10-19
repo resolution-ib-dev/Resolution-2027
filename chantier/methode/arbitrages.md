@@ -8361,3 +8361,32 @@ requalifient en ligne de nomenclature 1782. **Les « orphelins » des clubs de j
 restent non établis** : le code de la sécurité intérieure ne porte aucun article
 qui les institue, et les clubs de jeux tiennent du V de l’article 34 de la loi
 n° 2017-257, hors dépôt.
+
+### A-440 — Les cinq sièges restés non établis passent à n.d., et le point est clos — 20261019
+
+**Tranché.** *Arbitrage de l’auteur du 20261019.* Les cinq rangs d’imposition
+restés sans siège après A-424 portent désormais `statut_siege = n.d.` au tri,
+avec en observation « siège n.d. — arbitrage de l’auteur du 20261019, point
+clos ». `nature_ligne` reste `imposition` ; les sorts, les rendements et les
+415 autres rangs ne bougent pas. Les cinq rangs sont, au fichier
+`referentiels/sort_prelevements_20261015.tsv` :
+
+- ligne 191 — Taxe annuelle due par les laboratoires de biologie médicale
+- ligne 291 — Sommes constatées par les clubs de jeux au titre des « orphelins »
+- ligne 369 — Taxe sur les émoluments
+- ligne 388 — Participation des concessionnaires de la liaison fixe Trans-Manche
+- ligne 407 — Contributions versées par la SNCF au titre des frais de surveillance et de contrôle des chemins de fer
+
+**Conséquence d’appareil.** La règle S6 de
+`appareil/controle_sieges_prelevements.py` compte « n.d. » parmi les absences
+déclarées, comme « création du PLF » et « siège réglementaire » : le rang sort
+en **signal**, jamais en échec. Mesure à l’écriture : 0 rang « non établi »,
+S6 402/412, les dix rangs d’imposition sans siège se répartissant en 5 n.d.,
+3 créations du PLF et 2 sièges réglementaires non relevés ; le contrôle sort
+**0 échec et 10 signaux**, dont 5 S6 n.d. Un rang remis à « non établi » échoue
+toujours — éprouvé sur la ligne 191.
+
+**Caduc.** L’« Écarté. Clore le défaut » d’A-424, et la qualification « non
+tranchée » des cinq rangs. **Aucun fil ne rouvre ce point** : un siège trouvé
+plus tard pour l’un de ces rangs n’entre que par un arbitrage nouveau de
+l’auteur.
