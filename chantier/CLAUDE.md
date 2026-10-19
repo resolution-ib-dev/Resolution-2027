@@ -533,6 +533,10 @@ manuscrit. C'est le régime transitoire, non la cible.
 - **Tout gain sort avec son miroir nommé, toute perte avec sa raccroche.**
 - **Le rang suit le registre.** Un constat se dit précis, une promesse en ordre
   de grandeur.
+- **Nos montants sortent toujours arrondis** (règle de l’auteur, 20261019) : 114
+  et non 114,46, 33 et non 33,38, au milliard dans un exposé. Une ventilation
+  arrondie se reboucle sur son total arrondi. Un chiffre cité d’une source
+  garde la précision de sa source.
 - **L'écart avec les pays comparables mesure le possible ; il ne se promet pas**
   et ne se compte pas avec les pertes.
 - **Aucune sortie ne se termine sur un problème.**

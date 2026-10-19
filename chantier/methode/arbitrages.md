@@ -8067,3 +8067,26 @@ dans l'historique git. **Révoque d'A-197** (`arbitrages_archive.md`) le
 paragraphe « Rien n'en revient » et sa conséquence d'appareil : le site se
 corrige désormais dans son dépôt. Le reste d'A-197 tient — le dépôt du site ne
 reçoit ni doctrine, ni référentiel, ni appareil.
+
+## 20261019 — montants-arrondis
+
+**Nos montants sortent toujours arrondis.** *Dit par l'auteur le 20261019* : « toujours
+arrondi, je n'ai jamais autorisé de dévier ». Appliqué le jour même à la liasse PLFSS :
+114,46 → 114 et 33,38 → 33 (amendement 1), ventilation de l'amendement 2 rebouclée
+sur 114 (50, 25, 17, 11, 11 ; 5 et 6 pour la caisse d'amortissement). *Proposé, non
+validé* : un chiffre cité d'une source (17,9 Md€ de taxe sur les salaires, 79,5 Md€ de
+dépenses fiscales, état B) garde la précision de sa source, en vertu de « un constat se
+dit précis ».
+
+## 20261019 — liasse-plfss-amendement-1
+
+**Titre et ouverture de l'exposé de l'amendement 1 de la liasse PLFSS.** *Validé par
+l'auteur le 20261019.* Titre : « CSG et CRDS supprimées sur les revenus d'activité : les
+économies rendues au salaire net, soit +13 % ». L'exposé nomme les deux sources de la
+restitution : les économies du projet de loi de finances, principales, et les
+exonérations de cotisations abrogées par l'article, 9 Md€ restitués (tableau de
+référence, onglet Manuscrit, ligne 38 ; Cour des comptes, RALFSS 2024, ch. IV). Les
+18 Md€ supprimés ne sont pas cités : les 9 Md€ non restitués ont deux usages au
+dossier (`livrables/mecanique_gages_restitutions_20260929.md` — aide fondamentale au
+circuit C, « Compense suppressions de taxe » à `Flux`), non tranché.
+

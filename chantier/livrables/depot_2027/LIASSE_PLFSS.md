@@ -8,7 +8,7 @@ La présente liasse compte huit amendements.
 
 | n° | article visé | objet |
 |---|---|---|
-| 1 | Article additionnel après l’article 7 | Exonérations de cotisations sur les salaires et prélèvements uniformes sur les revenus d’activité : abroger les premières et rendre les seconds au salaire net |
+| 1 | Article additionnel après l’article 7 | CSG et CRDS supprimées sur les revenus d’activité : les économies rendues au salaire net, soit +13 % |
 | 2 | Article additionnel après l’article 14 | Retirer de la clé de répartition la part qui n’a plus de produit |
 | 3 | Article additionnel après l’article 14 | Taxe sur les salaires : l’éteindre par marches et l’abroger |
 | 4 | Article additionnel après l’article 30 | Personne ne paie plus de sa santé qu’une part fixe de ses ressources |
@@ -19,7 +19,7 @@ La présente liasse compte huit amendements.
 
 ---
 
-## Amendement n° 1 [Exonérations de cotisations sur les salaires et prélèvements uniformes sur les revenus d’activité : abroger les premières et rendre les seconds au salaire net]
+## Amendement n° 1 [CSG et CRDS supprimées sur les revenus d’activité : les économies rendues au salaire net, soit +13 %]
 
 AMENDEMENT
 
@@ -143,27 +143,29 @@ XI. – Le produit résultant du III concourt à la réduction des prélèvement
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime les exonérations de cotisations et rend leur produit au salaire net.
+Cet amendement supprime la contribution sociale généralisée et la contribution pour le remboursement de la dette sociale sur les revenus d’activité : 114 milliards d’euros en année pleine rendus au salaire net. La restitution a deux sources. La principale est l’ensemble des économies que porte le projet de loi de finances, sur les dépenses publiques et les niches fiscales. La seconde est la suppression des exonérations de cotisations que prononce le présent article et sur laquelle il se gage : elle rend 9 milliards d’euros au salaire net¹. Au terme de la montée en charge, la rémunération nette augmente de près de 13 %, sans aucune hausse des prélèvements obligatoires.
 
-Deux salariés au même salaire brut ne portent pas le même prélèvement : l’un relève d’une rémunération que la loi a voulu encourager, l’autre non. Les dérogations se sont ajoutées article par article, aucune réexaminée : le texte déposé consacre un article aux allègements généraux¹. Sur la même fiche de paie, 9,7 points partent au titre de deux contributions uniformes qui n’ouvrent aucun droit réclamable².
+Deux salariés au même salaire brut ne portent pas le même prélèvement : l’un relève d’une rémunération que la loi a voulu encourager, l’autre non. Les dérogations se sont ajoutées article par article, aucune réexaminée : le texte déposé consacre un article aux allègements généraux². Sur la même fiche de paie, 9,7 points partent au titre de deux contributions uniformes qui n’ouvrent aucun droit réclamable³.
 
-L’amendement ferme la dérogation par sa forme : toute règle dérogatoire d’assiette ou de taux cesse de s’appliquer et vingt-quatre dispositions de trois codes sont abrogées. Trois réserves subsistent : les frais professionnels, les règles d’affiliation et les réductions valant pour tous. Le produit dégagé finance, dans le même article, une restitution déployée sur l’année 2027. Le premier semestre est celui de la mise en place : aucun taux ne bouge. La baisse est ensuite régulière et porte sur le total des deux contributions : six marches, de juillet à décembre 2027, qui ramènent ce total de 9,7 points à 8,1, puis 6,5, 4,8, 3,2, 1,6 et zéro. Cinq de ces marches valent 1,6 point et celle de septembre en vaut 1,7. La contribution sociale généralisée les absorbe seule et son taux décroît de 9,2 % à 1,1 %. La contribution pour le remboursement de la dette sociale ne pouvait suivre de marche propre : son taux est unique et sa part n’est exprimée en points dans aucune clé de répartition, de sorte qu’aucune fraction n’en est restituable mois après mois. Elle demeure donc à 0,5 % jusqu’au bout de la trajectoire et s’éteint avec elle. Au 1er décembre 2027, les deux contributions cessent d’être dues sur ce qui rémunère un travail³. Cette date est celle à laquelle le présent texte retire de la clé de répartition les parts assises sur la contribution sur les revenus d’activité. Le premier semestre 2027 n’est pas un délai perdu : il est celui pendant lequel les employeurs et les organismes de recouvrement se mettent en état d’appliquer les abrogations et la trajectoire, qui prennent effet ensemble le 1er juillet 2027.
+L’amendement ferme la dérogation par sa forme : toute règle dérogatoire d’assiette ou de taux cesse de s’appliquer et vingt-quatre dispositions de trois codes sont abrogées. Trois réserves subsistent : les frais professionnels, les règles d’affiliation et les réductions valant pour tous. Le produit dégagé finance, dans le même article, une restitution déployée sur l’année 2027. Le premier semestre est celui de la mise en place : aucun taux ne bouge. La baisse est ensuite régulière et porte sur le total des deux contributions : six marches, de juillet à décembre 2027, qui ramènent ce total de 9,7 points à 8,1, puis 6,5, 4,8, 3,2, 1,6 et zéro. Cinq de ces marches valent 1,6 point et celle de septembre en vaut 1,7. La contribution sociale généralisée les absorbe seule et son taux décroît de 9,2 % à 1,1 %. La contribution pour le remboursement de la dette sociale ne pouvait suivre de marche propre : son taux est unique et sa part n’est exprimée en points dans aucune clé de répartition, de sorte qu’aucune fraction n’en est restituable mois après mois. Elle demeure donc à 0,5 % jusqu’au bout de la trajectoire et s’éteint avec elle. Au 1er décembre 2027, les deux contributions cessent d’être dues sur ce qui rémunère un travail⁴. Cette date est celle à laquelle le présent texte retire de la clé de répartition les parts assises sur la contribution sur les revenus d’activité. Le premier semestre 2027 n’est pas un délai perdu : il est celui pendant lequel les employeurs et les organismes de recouvrement se mettent en état d’appliquer les abrogations et la trajectoire, qui prennent effet ensemble le 1er juillet 2027.
 
 La contribution pour le remboursement de la dette sociale appelle une observation que le présent amendement ne tranche pas. Elle est affectée à la Caisse d’amortissement de la dette sociale, établissement public de l’État, qui rembourse les porteurs des titres qu’elle émet pour reprendre des déficits de la sécurité sociale. Le circuit est le suivant : le travailleur acquitte des cotisations et des contributions au titre des dépenses sociales de l’année, l’État reprend ce que ces prélèvements n’ont pas couvert et le même travailleur acquitte ensuite la contribution qui rembourse cette reprise. Le même euro de salaire est ainsi prélevé deux fois pour la même dépense, une première fois au titre de l’année où elle est faite, une seconde fois au titre de ce qu’elle a laissé d’impayé. L’affectation d’une fraction de contribution à l’amortissement d’une dette que la même puissance publique a contractée est un mouvement entre poches publiques, que le prélèvement sur le travail alimente aux deux bouts. L’amendement éteint cette contribution sur les revenus d’activité au 1er décembre 2027. Il ne porte aucune disposition sur l’horizon d’amortissement de la dette sociale, qui demeure fixé par les textes en vigueur.
 
-Ce que la loi cesse de dépenser en régimes dérogatoires va d’abord au salaire net⁴. La restitution se fait par le bulletin de paie pour les salariés et par l’appel de cotisations pour les travailleurs indépendants, sans démarche ni demande de leur part. Au terme de la trajectoire, la rémunération nette a monté de treize pour cent⁵. Elle porte 33,38 milliards d’euros en 2027 et 114,46 milliards en année pleine dès 2028⁶. La contribution sociale généralisée continue de porter sur les pensions, les allocations de chômage et les indemnités journalières, aux taux que rien ne modifie.
+Ce que l’État et la sécurité sociale cessent de dépenser va d’abord au salaire net⁵. La restitution se fait par le bulletin de paie pour les salariés et par l’appel de cotisations pour les travailleurs indépendants, sans démarche ni demande de leur part. Au terme de la trajectoire, la rémunération nette a monté de treize pour cent⁶. Elle porte 33 milliards d’euros en 2027 et 114 milliards en année pleine dès 2028⁷. La contribution sociale généralisée continue de porter sur les pensions, les allocations de chômage et les indemnités journalières, aux taux que rien ne modifie.
 
-¹ Projet de loi de financement de la sécurité sociale pour 2027, n° 3211, article 7, « Rationaliser l’assiette des allègements généraux de cotisations sociales ».
+¹ D’après notre décompte, sur la base de Cour des comptes, Rapport sur l’application des lois de financement de la sécurité sociale, 2024, chapitre IV.
 
-² Code de la sécurité sociale, article L. 131-8, version applicable depuis le 1er février 2026, identifiant LEGIARTI000053538201, base LEGI millésime 20261001.
+² Projet de loi de financement de la sécurité sociale pour 2027, n° 3211, article 7, « Rationaliser l’assiette des allègements généraux de cotisations sociales ».
 
-³ OCDE, Les impôts sur les salaires, 2025.
+³ Code de la sécurité sociale, article L. 131-8, version applicable depuis le 1er février 2026, identifiant LEGIARTI000053538201, base LEGI millésime 20261001.
 
-⁴ C. Gendre et Y. Thommen, Le partage de la richesse produite en France entre le travail et le capital, Trésor-Éco n° 363, mai 2025.
+⁴ OCDE, Les impôts sur les salaires, 2025.
 
-⁵ Ingrid Barrat, Arthur Marle et Moïse Mitterrand, État partout, justice nulle part, Éditions Chronique, octobre 2026, p. 141.
+⁵ C. Gendre et Y. Thommen, Le partage de la richesse produite en France entre le travail et le capital, Trésor-Éco n° 363, mai 2025.
 
-⁶ Produit cumulé des deux contributions sur les revenus d’activité en année pleine, données 2024. Restitution de l’exercice 2027 calculée sur la trajectoire de taux arrêtée le 20261005 et que le VII du présent article porte.
+⁶ Ingrid Barrat, Arthur Marle et Moïse Mitterrand, État partout, justice nulle part, Éditions Chronique, octobre 2026, p. 141.
+
+⁷ Produit cumulé des deux contributions sur les revenus d’activité en année pleine, données 2024. Restitution de l’exercice 2027 calculée sur la trajectoire de taux arrêtée le 20261005 et que le VII du présent article porte.
 
 ---
 
@@ -205,11 +207,11 @@ Une clé de répartition qui distribue un produit éteint ne distribue rien et e
 
 La coordination opère par retrait : chaque alinéa dont le taux porte sur la contribution d’activité est supprimé ou restreint. La part de l’assurance chômage, qui n’était assise que sur elle, devient sans objet. Les parts assises sur les revenus de remplacement, sur ceux du capital et sur les produits de placement sont inchangées, aux mêmes taux. En clair : la caisse qui recevait une fraction du prélèvement sur les salaires cesse de l’attendre. Celle qui reçoit une fraction du prélèvement sur les pensions la reçoit comme avant.
 
-L’effet est la disparition, à compter du 1er décembre 2027, de 114,46 milliards d’euros de recettes affectées en rythme annuel, dont 50,15 aux régimes obligatoires d’assurance maladie, 24,54 à la caisse d’autonomie, 17,35 à l’assurance chômage, 11,21 à la caisse des allocations familiales et 11,21 à la caisse d’amortissement de la dette sociale, ces deux derniers montants n’étant pas de même composition². Le présent amendement ne crée ni ne diminue aucune ressource : il tire les conséquences d’une suppression décidée par le même texte et il ne se dépose pas sans elle. Une clé qui ne désigne plus de produit est une recette que personne n’a votée.
+L’effet est la disparition, à compter du 1er décembre 2027, de 114 milliards d’euros de recettes affectées en rythme annuel, dont 50 aux régimes obligatoires d’assurance maladie, 25 à la caisse d’autonomie, 17 à l’assurance chômage, 11 à la caisse des allocations familiales et 11 à la caisse d’amortissement de la dette sociale, ces deux derniers montants n’étant pas de même composition². Le présent amendement ne crée ni ne diminue aucune ressource : il tire les conséquences d’une suppression décidée par le même texte et il ne se dépose pas sans elle. Une clé qui ne désigne plus de produit est une recette que personne n’a votée.
 
 ¹ Code de la sécurité sociale, article L. 131-8, version applicable depuis le 1er février 2026, identifiant LEGIARTI000053538201, base LEGI millésime 20261001.
 
-² Produits 2024 portés par la pièce d’origine, ventilés au prorata des taux du 3° de l’article L. 131-8. La part de la caisse d’amortissement réunit 5,31 milliards au titre de la première contribution et 5,90 au titre de la seconde, qui lui est affectée par l’ordonnance n° 96-50 du 24 janvier 1996 et non par cet article.
+² Produits 2024 portés par la pièce d’origine, ventilés au prorata des taux du 3° de l’article L. 131-8. La part de la caisse d’amortissement réunit 5 milliards au titre de la première contribution et 6 au titre de la seconde, qui lui est affectée par l’ordonnance n° 96-50 du 24 janvier 1996 et non par cet article.
 
 ---
 
