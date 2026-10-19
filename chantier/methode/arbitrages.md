@@ -8073,10 +8073,13 @@ reçoit ni doctrine, ni référentiel, ni appareil.
 **Nos montants sortent toujours arrondis.** *Dit par l'auteur le 20261019* : « toujours
 arrondi, je n'ai jamais autorisé de dévier ». Appliqué le jour même à la liasse PLFSS :
 114,46 → 114 et 33,38 → 33 (amendement 1), ventilation de l'amendement 2 rebouclée
-sur 114 (50, 25, 17, 11, 11 ; 5 et 6 pour la caisse d'amortissement). *Proposé, non
-validé* : un chiffre cité d'une source (17,9 Md€ de taxe sur les salaires, 79,5 Md€ de
-dépenses fiscales, état B) garde la précision de sa source, en vertu de « un constat se
-dit précis ».
+sur 114 (50, 25, 17, 11, 11 ; 5 et 6 pour la caisse d'amortissement). *Validé par l'auteur le
+20261019* : un chiffre qui a une source publique concrète garde sa précision ; nos
+montants s'arrondissent à l'entier au-dessus de 10 et à une décimale en dessous, dans
+l'unité qui convient (« B c'est bien »). Le dispositif garde ses montants exacts.
+Appliqué aux liasses PLF : P2, amendements 1 à 22 (crédits retirés) et 23 ; P1,
+amendement 28 (28 696 € → 28 700 €). Les 5,4 Md€ de l'amendement 32 de P2 tiennent déjà
+la règle.
 
 ## 20261019 — liasse-plfss-amendement-1
 

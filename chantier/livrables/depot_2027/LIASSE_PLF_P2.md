@@ -83,7 +83,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Cohésion des territoires » les crédits des dispositifs que la présente loi interrompt. Il porte sur 6 programmes et sur les crédits de rémunérations, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 26 904 534 644 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 13 292 801 242 euros en autorisations d’engagement et 13 129 046 079 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 26 904 534 644 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 13 milliards d’euros en autorisations d’engagement et 13 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -120,7 +120,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Travail, emploi et administration des ministères sociaux » les crédits des dispositifs que la présente loi interrompt. Il porte sur 4 programmes et sur les crédits de fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 19 087 173 283 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 12 065 359 297 euros en autorisations d’engagement et 10 695 643 750 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 19 087 173 283 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 12 milliards d’euros en autorisations d’engagement et 11 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -156,7 +156,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Aide publique au développement » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de fonctionnement courant, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 2 334 755 315 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 2 334 755 315 euros en autorisations d’engagement et 2 185 603 430 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 2 334 755 315 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 2,3 milliards d’euros en autorisations d’engagement et 2,2 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -196,7 +196,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Écologie, développement et mobilité durables » les crédits des dispositifs que la présente loi interrompt. Il porte sur 7 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 13 140 628 909 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3 772 521 584 euros en autorisations d’engagement et 3 269 826 313 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 13 140 628 909 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3,8 milliards d’euros en autorisations d’engagement et 3,3 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -231,7 +231,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Relations avec les collectivités territoriales » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de fonctionnement courant, investissement de l’État, transferts aux collectivités.
 
-Les programmes visés reçoivent 4 121 875 856 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3 760 085 442 euros en autorisations d’engagement et 2 814 605 562 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 4 121 875 856 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3,8 milliards d’euros en autorisations d’engagement et 2,8 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -268,7 +268,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Culture » les crédits des dispositifs que la présente loi interrompt. Il porte sur 4 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 3 689 542 686 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 2 027 866 360 euros en autorisations d’engagement et 1 743 251 527 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 3 689 542 686 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 2 milliards d’euros en autorisations d’engagement et 1,7 milliard d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -304,7 +304,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Sport, jeunesse et vie associative » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de fonctionnement courant, subventions pour charges de service public, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 1 183 987 268 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1 005 644 806 euros en autorisations d’engagement et 974 423 297 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 1 183 987 268 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1 milliard d’euros en autorisations d’engagement et 974 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -339,7 +339,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Immigration, asile et intégration » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de subventions pour charges de service public, transferts aux ménages, transferts aux entreprises, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 2 261 946 723 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1 259 249 135 euros en autorisations d’engagement et 1 257 002 837 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 2 261 946 723 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1,3 milliard d’euros en autorisations d’engagement et 1,3 milliard d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -374,7 +374,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Santé » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, fonctionnement courant, subventions pour charges de service public, transferts aux ménages, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 1 525 633 278 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 781 560 604 euros en autorisations d’engagement et 779 217 127 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 1 525 633 278 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 782 millions d’euros en autorisations d’engagement et 779 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -408,7 +408,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Recherche et enseignement supérieur » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 3 361 217 042 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 772 662 106 euros en autorisations d’engagement et 670 132 264 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 3 361 217 042 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 773 millions d’euros en autorisations d’engagement et 670 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -443,7 +443,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Médias, livre et industries culturelles » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux entreprises, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 701 933 880 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 674 689 892 euros en autorisations d’engagement et 568 920 102 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 701 933 880 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 675 millions d’euros en autorisations d’engagement et 569 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -479,7 +479,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Économie » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 2 979 267 191 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 630 363 522 euros en autorisations d’engagement et 556 598 409 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 2 979 267 191 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 630 millions d’euros en autorisations d’engagement et 557 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -514,7 +514,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Direction de l’action du Gouvernement » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 952 703 564 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 513 541 366 euros en autorisations d’engagement et 368 209 896 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 952 703 564 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 514 millions d’euros en autorisations d’engagement et 368 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -549,7 +549,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Transformation et fonction publiques » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 282 288 468 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 207 779 344 euros en autorisations d’engagement et 168 004 952 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 282 288 468 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 208 millions d’euros en autorisations d’engagement et 168 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -585,7 +585,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Enseignement scolaire » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de transferts aux ménages.
 
-Les programmes visés reçoivent 50 996 061 881 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 225 417 181 euros en autorisations d’engagement et 225 417 181 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 50 996 061 881 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 225 millions d’euros en autorisations d’engagement et 225 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er juillet 2027 : elle atteint des personnes physiques et la moitié de l’exercice leur est laissée.
 
@@ -620,7 +620,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Action extérieure de l’État » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de fonctionnement courant, transferts aux ménages, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 772 599 840 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 205 826 724 euros en autorisations d’engagement et 200 134 647 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 772 599 840 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 206 millions d’euros en autorisations d’engagement et 200 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -656,7 +656,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Solidarité, insertion et égalité des chances » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de fonctionnement courant, subventions pour charges de service public, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 32 186 322 565 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 102 086 614 euros en autorisations d’engagement et 101 987 363 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 32 186 322 565 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 102 millions d’euros en autorisations d’engagement et 102 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -690,7 +690,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Agriculture, alimentation, forêt et affaires rurales » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, investissement de l’État.
 
-Les programmes visés reçoivent 637 989 867 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 92 065 085 euros en autorisations d’engagement et 78 679 546 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 637 989 867 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 92 millions d’euros en autorisations d’engagement et 79 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -724,7 +724,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Administration générale et territoriale de l’État » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de transferts aux autres collectivités.
 
-Les programmes visés reçoivent 587 023 619 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 68 670 672 euros en autorisations d’engagement et 68 670 672 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 587 023 619 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 69 millions d’euros en autorisations d’engagement et 69 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 : elle n’atteint que des personnes morales et l’exercice est plein.
 
@@ -758,7 +758,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Sécurités » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de fonctionnement courant, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 78 622 634 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 49 278 164 euros en autorisations d’engagement et 37 946 354 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 78 622 634 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 49 millions d’euros en autorisations d’engagement et 38 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -792,7 +792,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Justice » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de fonctionnement courant.
 
-Les programmes visés reçoivent 832 771 821 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 6 924 880 euros en autorisations d’engagement et 5 886 148 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 832 771 821 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 6,9 millions d’euros en autorisations d’engagement et 5,9 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er juillet 2027 : elle atteint des personnes physiques et la moitié de l’exercice leur est laissée.
 
@@ -827,7 +827,7 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Conseil et contrôle de l’État » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 301 105 696 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 6 289 599 euros en autorisations d’engagement et 5 812 720 euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 301 105 696 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 6,3 millions d’euros en autorisations d’engagement et 5,8 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 
@@ -867,7 +867,7 @@ Ces deux sections sont financées, dit le même article, par une contribution de
 
 L’incidence sur le budget de l’État est directe et se lit au texte déposé. Les deux contributions couvrent le même besoin et se déterminent ensemble : laisser celle de l’assurance chômage en place, c’est maintenir une activité que la loi interrompt et la supprimer sans supprimer la dépense ferait peser l’écart sur la contribution de l’État, ouverte à 1 162 900 000 euros au programme « Accès et retour à l’emploi » (état B)¹. L’amendement de crédits qui minore ce programme et le présent article sont les deux moitiés d’une même mesure et aucun ne vaut seul.
 
-L’économie atteint 1 460 000 000 euros en 2027, dont 1 170 000 000 euros hors budget de l’État, et 5 255 000 000 euros en régime. Dit simplement : les cotisations des employeurs et des salariés cessent de financer un service que la loi arrête.
+L’économie atteint 1,5 milliard d’euros en 2027, dont 1,2 milliard d’euros hors budget de l’État, et 5,3 milliards d’euros en régime. Dit simplement : les cotisations des employeurs et des salariés cessent de financer un service que la loi arrête.
 
 ¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Travail, emploi et administration des ministères sociaux », programme « Accès et retour à l’emploi ».
 
