@@ -92,7 +92,12 @@ except ImportError:  # pragma: no cover
 # canonique ni histoire propre, et `generer_site.py` les refait toutes ensemble.
 # Déclarer vingt et un chemins pour une pièce qui se régénère en un geste
 # gonflerait l'index sans rien y ajouter.
-BLOCS = {'site': {'site/index.html', 'site/manifeste.html'}}
+#
+# L'arborescence des codes de la chaîne pénale est dans le même cas : un fichier
+# par article et par cliché, plus de seize mille, que `codes_git.py` refait
+# toutes ensemble depuis le dépôt de droit. Seul son manifeste se déclare.
+BLOCS = {'site': {'site/index.html', 'site/manifeste.html'},
+         'revision': {'revision/codes/_manifeste.md'}}
 
 
 def fichiers(racine):

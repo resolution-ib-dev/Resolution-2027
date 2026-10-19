@@ -10,6 +10,11 @@ seul canal du chantier vers la base LEGI, et écrit deux choses :
       entrée en vigueur du CPP refondu par l'ordonnance n° 2025-1091).
       Une révision = un commit sur ces fichiers, le diff dit ce qui change.
 
+  revision/codes/_manifeste.md
+      Le millésime LEGI, le nombre d'articles par code et par cliché, les
+      codes passés et leur motif. C'est le seul fichier de l'arborescence
+      que l'index déclare : il vaut pour le dossier entier.
+
   referentiels/frictions_penal.tsv
       Une ligne par article et par famille de friction relevée : délai,
       autorisation, avis, nullité, formalité, seuil, compétence, renvoi
@@ -39,6 +44,7 @@ import droit  # noqa: E402
 
 SORTIE = CHANTIER / "revision" / "codes"
 TSV = CHANTIER / "referentiels" / "frictions_penal.tsv"
+MANIFESTE = SORTIE / "_manifeste.md"
 
 CHAINE_PENALE = ["cpp", "cp", "penitentiaire", "coj", "cjpm", "securite_interieure"]
 CLICHES = {"actuel": None, "2029": "2029-01-01"}
@@ -119,6 +125,8 @@ def controle():
     """Chaque fichier relu doit redonner, à l'octet, le texte que rend droit.py."""
     ecarts, vus = 0, 0
     for f in SORTIE.glob("*/*/*/*.md"):
+        if f == MANIFESTE:
+            continue
         court, cliche = f.parts[-4], f.parts[-3]
         ident = f.read_text(encoding="utf-8").split(" | ", 1)[0].removeprefix("<!-- ")
         corps = f.read_text(encoding="utf-8").split("\n\n", 2)[2].removesuffix("\n")
@@ -142,12 +150,14 @@ def main():
         sys.exit(0 if controle() else 1)
     mil, age, perime = droit.fraicheur()
     print(f"base LEGI {mil} ({age} j{' — PÉRIMÉE' if perime else ''})")
-    lignes, bilan = [], []
+    lignes, bilan, passes = [], [], []
     for court in o.codes:
         try:
             droit.charger(court)
         except (KeyError, FileNotFoundError) as e:
-            print(f"PASSÉ {court} : {e}".splitlines()[0])
+            motif = (str(e).splitlines() or [type(e).__name__])[0].replace(f"{RACINE}/", "")
+            passes.append((court, motif))
+            print(f"PASSÉ {court} : {motif}")
             continue
         for cliche in (o.cliche or list(CLICHES)):
             jour = CLICHES[cliche] or str(date.today())
@@ -162,6 +172,19 @@ def main():
         w.writerows(sorted(lignes, key=lambda l: (l[0], l[1], l[2], droit.norm_num(l[3]), l[5])))
     h = hashlib.sha256(TSV.read_bytes()).hexdigest()[:12]
     print(f"{TSV.relative_to(RACINE)} : {len(lignes)} lignes, sha256 {h}")
+    manifeste(mil, bilan, passes)
+
+
+def manifeste(mil, bilan, passes):
+    t = ["# Codes de la chaîne pénale — manifeste de l'extraction", "",
+         f"Écrit par `appareil/codes_git.py`. Base LEGI au millésime **{mil}**.", "",
+         "| code | cliché | articles |", "|---|---|---:|"]
+    t += [f"| {c} | {k} | {n} |" for c, k, n in bilan]
+    t += ["", "## Codes passés", ""]
+    t += [f"- `{c}` : {m}" for c, m in passes] or ["Aucun."]
+    SORTIE.mkdir(parents=True, exist_ok=True)
+    MANIFESTE.write_text("\n".join(t) + "\n", encoding="utf-8")
+    print(f"{MANIFESTE.relative_to(RACINE)} : {len(bilan)} cliché(s), {len(passes)} code(s) passé(s)")
 
 
 if __name__ == "__main__":
