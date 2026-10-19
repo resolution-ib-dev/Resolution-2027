@@ -122,18 +122,20 @@ au tendanciel.
   porte des cellules à plusieurs valeurs jointes par « ; »** : une jointure qui
   ne les éclate pas fabrique 89 faux écarts. **Le second est le relevé des
   sièges** : les 105 sièges non établis sont tombés à **14** le 20261016, puis à
-  **5** le 20261019. La répartition se lit à l'entrée « Le défaut des sièges non
-  établis passe de 105 à 5 » du registre, recomptée sur le tri ; elle ne se
+  **5** le 20261019, puis à **0** le même jour — les cinq derniers passent à
+  **n.d.** par arbitrage de l'auteur, point clos (A-440). La répartition se lit
+  aux entrées A-424 et A-440 du registre, recomptée sur le tri ; elle ne se
   recopie pas d'ici. **Un rang se qualifie en trois états** à la colonne
   `nature_ligne` — imposition, agrégat de ligne d'état A, ressource propre de
   l'Union — et **un siège ne s'exige que d'une imposition** (arbitrage de l'auteur
   du 20261019). **Le contrôle qui le prouve est
   `appareil/controle_sieges_prelevements.py`** ; il rejoue chaque siège sur sa
   pièce, exige un siège de tout rang d'imposition par sa règle S6, et refuse le
-  versement sur un seul échec. **Il en sort cinq** : les cinq rangs restés non
-  établis sont mesurés vides au dépôt comme aux annexes, et leur qualification
-  n'est pas tranchée. Les deux défauts restants tiennent, et le classeur ne se
-  publie pas.
+  versement sur un seul échec. **Il en sort 0 échec**, mesuré au tri le
+  20261019 : S6 402/412, et les dix rangs d'imposition sans siège sont tous des
+  absences déclarées — 5 n.d., 3 créations du PLF, 2 sièges réglementaires non
+  relevés —, qui sortent en signal. **Aucun fil ne rouvre les cinq n.d.** Les
+  deux défauts restants tiennent, et le classeur ne se publie pas.
 - **Le CP se lit avant de se calculer** (inscrit le 20261016). Les crédits ouverts se lisent à
   l'état B du texte déposé avant toute minoration : comparer à un exercice antérieur a fabriqué un
   risque bloquant qui n'existait pas. Hors titre 2, **AE ≥ CP**, et l'égalité ne se pose pas, elle
