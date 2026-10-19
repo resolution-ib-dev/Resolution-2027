@@ -8093,3 +8093,271 @@ référence, onglet Manuscrit, ligne 38 ; Cour des comptes, RALFSS 2024, ch. IV)
 dossier (`livrables/mecanique_gages_restitutions_20260929.md` — aide fondamentale au
 circuit C, « Compense suppressions de taxe » à `Flux`), non tranché.
 
+## 20261019 — sieges-prelevements
+
+*Absorption du sas `methode/fragments/arbitrages/20261016-sieges-prelevements.md`,
+ouvert par le fil Cowork « sièges des prélèvements » le 20261016 et clos ici.
+Quatorze entrées, titrées et datées, numérotées à l’insertion. Trois bornes du
+fragment étaient périmées ; chacune est reprise sur la pièce, millésime LEGI
+20261016.*
+
+### A-424 — Le défaut des sièges non établis passe de 105 à 5 — 20261016, repris le 20261019
+
+**Tranché.** Le tri portait 105 lignes à `statut_siege = non établi`, recomptées
+sur le fichier à l’ouverture du fil du 20261016. Le fil du 20261016 en a laissé
+quatorze ; l’arbitrage du 20261019 en requalifie neuf et en laisse **5**.
+Le fragment écrivait dix-sept : la borne est fausse et ne se recopie pas. Les
+415 autres se répartissent ainsi, chaque groupe portant son propre statut :
+
+| statut inscrit | lignes | ce qu’il dit |
+|---|---:|---|
+| relevé à l’annexe des ressources affectées PLF 2027 | 51 | la colonne `reference_juridique` de l’annexe, réappariée au contrôle |
+| relevé au dépôt de droit, vérifié article par article | 29 | l’article a été rouvert et son texte lu |
+| relevé par renvoi exprès, vérifié | 2 | un article du dépôt nomme le texte hors dépôt |
+| siège abrogé, relevé au dépôt de droit | 2 | la garantie des matières d’or, et les concessions hydrauliques |
+| siège abrogé dans l’article en vigueur, relevé au dépôt de droit | 1 | la subdivision instituante porte « (Abrogé) » |
+| sans siège par construction — agrégat de ligne d’état A | 7 | ligne de nomenclature budgétaire, aucun siège requis |
+| hors droit national — ressource propre de l’Union européenne | 1 | droits d’importation |
+| siège réglementaire — hors du champ du relevé législatif | 3 | l’article existe et porte un R |
+| création du PLF — aucun article en vigueur au millésime du relevé | 3 | le siège naîtra à la promulgation |
+
+**Écarté.** Clore le défaut. Les 5 rangs restants sont mesurés vides —
+aucun article, législatif ou réglementaire, aux 77 textes du dépôt ; aucune
+ligne aux états A portés par le dépôt ; absents de l’annexe des ressources
+affectées PLF 2027 et des tableaux d’affectation des lois de finances 2023, 2024
+et 2025 :
+
+- Taxe annuelle due par les laboratoires de biologie médicale
+- Sommes constatées par les clubs de jeux au titre des "orphelins"
+- Taxe sur les émoluments
+- Participation des concessionnaires de la liaison fixe Trans-Manche au fonctionnement de la commission intergouvernementale et du comité de sécurité chargés de superviser la construction et l'exploitation de l'ouvrage
+- Contributions versées par la SNCF au titre des frais de surveillance et de contrôle des chemins de fer
+
+**Caduc.** La borne « 105 sièges non établis » de `CLAUDE.md`, et la borne
+« dix-sept » du fragment.
+
+### A-425 — Les trois qualifications de `nature_ligne`, et un siège ne s’exige que d’une imposition — 20261019
+
+**Tranché.** *Arbitrage de l’auteur du 20261019.* Un rang du tri se qualifie en
+trois états, et le relevé du siège suit la qualification : **imposition** quand un
+article législatif l’institue, et le siège se relève ; **ligne de nomenclature
+budgétaire** quand le libellé n’existe qu’aux états A annexés aux lois de
+finances et agrège plusieurs impositions, et aucun siège n’est requis ;
+**imposition à siège réglementaire** quand l’article existe et porte un R, et il
+se relève en se déclarant hors du champ du relevé législatif.
+
+**Conséquence d’appareil, tranchée par le fil.** `controle_sieges_prelevements.py`
+porte une règle **S6** : un siège s’exige de tout rang de
+`nature_ligne = imposition`, et de lui seul ; un rang d’imposition sans
+`siege_article` est un échec bloquant. Deux statuts valent dispense, parce que
+l’absence y est le relevé et non son manque — « création du PLF » et « siège
+réglementaire » ; le second passe en signal tant que son article n’est pas
+inscrit. Mesure à l’écriture : **402 des 412 rangs d’imposition portent un siège**,
+et le contrôle sort cinq échecs.
+
+**Écarté.** Dispenser « non établi ». Un rang mesuré vide doit rester visible et
+bloquant : c’est ce qui distingue une qualification non tranchée d’une
+qualification rendue.
+
+### A-426 — La majoration au profit du Conseil national des barreaux est supprimée — 20261019
+
+**Tranché.** *Arbitrage de l’auteur du 20261019.* La « Majoration de la taxe sur
+les assurances de protection juridique au profit du Conseil national des
+barreaux » quitte « maintenu à part » : c’est une **taxe affectée à un ordre
+professionnel**, rangée avec les assurances **par son assiette et non par sa
+nature**. Dans le vocabulaire de l’onglet `Refonte fiscalité`, le sort retenu est
+**« fondu par rattachement »**, impôt absorbant **« Taxe sur la valeur ajoutée »** :
+l’assiette 6, la consommation, se rattache à la TVA sans exception au tri, et
+« fondu dans l’équilibre » ne sert qu’aux cotisations sociales hors mandat et à la
+ligne de la main-d’œuvre. La colonne `complement_de` se vide : elle ne marque que
+les lignes d’assiette 6 maintenues à côté de la TVA.
+
+**Conséquence.** Le rang sort des 43 maintenus, qui tombent à 42. Son siège est
+relevé au même jour : article 1001, 5° ter, du code général des impôts.
+
+**Écarté.** Lire le maintien dans la colonne « Taxes à supprimer » vide de la ligne
+« dont assurances » : cette ligne classe par assiette, et la nature du
+prélèvement prime.
+
+### A-427 — Un libellé de ressource porte plusieurs références à l’annexe — 20261016
+
+**Tranché.** L’annexe des ressources affectées compte 293 lignes pour 215 libellés
+distincts : un même libellé y revient avec des références juridiques différentes.
+Elles s’inscrivent **toutes**, jointes par « ; », et le contrôle compare les deux
+**ensembles**, jamais les deux chaînes.
+
+**Écarté.** Comparer la chaîne entière à une référence unique : cela a fait quatre
+faux au premier jeu du contrôle, le jour même.
+
+### A-428 — Un chapitre entier du code général des impôts peut être éteint sous une recette vivante — 20261016
+
+**Tranché.** La ligne « Garantie des matières d’or et d’argent » figurait au tri
+sans siège. Ce n’est pas un trou : le chapitre II du titre III de la première
+partie du livre premier du code général des impôts est éteint — **23 de ses 25
+articles sont `ABROGE` avec effet au 1er juillet 2025**, seuls les articles 522 et
+524, titres légaux et poinçons, restent applicables en abrogation différée, et
+aucun article de perception ne s’applique. **Un siège éteint se relève et
+s’inscrit ; il ne se laisse pas en blanc.**
+
+### A-429 — Un agrégat de ligne d’état A n’a pas de siège, et le chercher est une faute de catégorie — 20261016
+
+**Tranché.** Une colonne **`nature_ligne`** distingue `imposition`, `agrégat` et
+`ressource propre de l’Union`. Au 20261016 quatre lignes n’étaient pas des
+impositions — trois agrégats de l’état A et les droits d’importation. Au 20261019
+elles sont **7 agrégats et une ressource propre**.
+
+**Écarté.** Chercher un siège à un agrégat. Le fil l’a fait pour les quatre avant
+de poser la distinction ; c’est du temps perdu deux fois.
+
+### A-430 — L’évaluation des voies et moyens, tome I, ne porte aucune base juridique — 20261016
+
+**Tranché, relevé sur pièce.** Les notices de ligne du tome I se limitent à trois
+volets — retour sur l’exécution, révision, évaluation. Aucune rubrique de textes
+de référence. **Le tome I ne sert pas à relever un siège** ; seule son annexe 2,
+les taxes affectées, porte une colonne juridique. La borne s’écrit pour qu’aucun
+fil ne rouvre le document dans ce but.
+
+### A-431 — Les statuts des établissements rendent les sièges que les référentiels n’ont pas — 20261016
+
+**Tranché.** Là où le libellé ne s’apparie nulle part, l’article qui énumère les
+ressources de l’organisme bénéficiaire le donne — la contribution de la Caisse des
+dépôts à l’article L. 518-16 du code monétaire et financier, les trois
+contributions des employeurs de main-d’œuvre étrangère à l’article L. 436-10 du
+code de l’entrée et du séjour des étrangers.
+
+**Étendu le 20261019.** Un tableau d’affectation de loi de finances rend la même
+chose par renvoi exprès : la contribution annuelle au profit de l’Institut de
+radioprotection et de sûreté nucléaire est nommée à la colonne A du tableau de
+l’article 156 de la loi n° 2023-1322 du 29 décembre 2023, qui désigne l’article 96
+de la loi n° 2010-1658 du 29 décembre 2010 de finances rectificative pour 2010.
+Le texte d’institution reste hors dépôt ; le renvoi fait preuve de l’adresse.
+
+### A-432 — L’extrait du code général des impôts n’est pas le code — 20261016, recompté le 20261019
+
+**Tranché, mesuré.** `data/cgi.jsonl.gz` porte **2584 articles distincts**, dont
+**2408 applicables**, sur deux livres seulement. Vingt-neuf plages de huit numéros
+ou plus y manquent, dont **901 à 952**, qui est la matière des droits de timbre.
+**« Absent de l’extrait » ne vaut donc pas abrogation.**
+
+**Repris le 20261019.** Le fragment en tirait quatre lignes restées non établies
+pour cette seule raison. Trois d’entre elles — timbre unique, actes et écrits
+assujettis au timbre de dimension, droits sur les actes judiciaires et
+extrajudiciaires — sont des **lignes de nomenclature budgétaire** de l’état A,
+respectivement 1721, 1723 et 1712, et ne demandent aucun siège. **Une seule reste
+non établie à ce titre, la taxe sur les émoluments.** Le défaut est au dépôt, non
+au classeur.
+
+### A-433 — Un grep sur un mot n’est pas une mesure, et un outil de chasse doit le dire — 20261016
+
+**Tranché.** `appareil/chasse_siege.py` **ne rend que des candidats** et le dit à
+chaque sortie : un siège ne s’inscrit qu’après réouverture de l’article par
+`droit.article` et lecture de son texte. Deux règles mécaniques en sortent :
+l’applicabilité se lit à `droit.applicable` et **jamais à l’état** — un article
+`ABROGE_DIFF` s’applique aujourd’hui ; et le classement des candidats se fait **par
+longueur de texte croissante**, un article d’institution étant court quand un état
+A fait deux cent mille signes.
+
+**Écarté.** Le tri des candidats par mots d’institution : essayé, il remonte du
+bruit.
+
+### A-434 — L’écart « 420 rangs contre 438 au manifeste » est une borne recopiée, expliquée depuis le 20260902 — 20261016
+
+**Tranché.** Le § 5 de `reference/nomenclature_prelevements_ifrap.md`, daté du
+20260902, relève déjà que la pièce de la Fondation IFRAP **annonce 438
+prélèvements** à ses pages 3 et 5 et que **ses tables en publient 421** — 302 taxes
+et impôts pour 303 annoncés, 73 cotisations pour 89, 46 contributions pour 46.
+**L’écart de 16 porte sur les cotisations**, il n’est pas un artefact d’extraction
+et il n’est pas résolu dans la source. Règle de diffusion : citer 438 en renvoyant
+à la pièce, 421 en renvoyant au référentiel, **jamais l’un pour l’autre**.
+
+**Caduc.** La mention « écart non expliqué » de `CLAUDE.md` et de la passation du
+15 octobre. C’est le sixième garde-fou en situation : une borne écrite à un
+document de méthode s’est recopiée sans être vérifiée à la pièce, et elle a
+traversé deux documents en qualifiant d’inexpliqué ce qui était documenté depuis
+six semaines.
+
+### A-435 — Le 420 du tri n’est pas le 421 de la liste IFRAP moins un doublon — 20261016
+
+**Tranché, mesuré.** `referentiels/prelevements_ifrap.tsv` porte 421 lignes pour
+**420 libellés distincts** : les lignes 162 et 168, page 14, reprennent le même
+prélèvement, la seconde avec un point final. Le doublon est dans la source et
+l’extraction l’a fidèlement rendu ; il est **distinct** du doublon de pages 17 et
+18 que la digestion signale déjà. **L’égalité 420 = 421 − 1 est fortuite** et ne
+vaut pas rapprochement.
+
+### A-436 — Le rapprochement IFRAP est fermé, et le compte de 99 appariements était faux — 20261016
+
+**Tranché.** La colonne `libelle_ifrap` de
+`referentiels/prelevements_forces_20260930.tsv` **porte des cellules à plusieurs
+valeurs, jointes par « ; »** : un rang du tri absorbe plusieurs lignes de la liste —
+versement mobilité et ses deux additionnels, redevances de l’eau, taxes spéciales
+d’équipement, taxes d’immatriculation. Vingt-trois cellules sont dans ce cas. Une
+jointure qui n’éclate pas la cellule rend **65 lignes orphelines et 24 déclarations
+introuvables, toutes fausses** : c’est l’état dans lequel le fil a d’abord annoncé
+« 99 décisions d’appariement à prendre ». Après éclatement : **420 libellés couverts
+sur 420, 0 orpheline**, et 14 rangs d’une autre origine, qui la portent en colonne
+`origine`. Une seule correction a été nécessaire, le libellé IFRAP de la
+**TIRUERT**, déclaré sans son suffixe « (remplace la TGAP carburants fossiles) ».
+
+**Caduc.** Le « 99 décisions d’appariement » annoncé le matin même, et le défaut
+« le tri n’est pas adossé à sa liste ». Le rapprochement est contrôlé par la règle
+R de `appareil/controle_sieges_prelevements.py`.
+
+### A-437 — Les rangs sans rendement ne se comblent pas au dépôt — 20261016, recompté le 20261019
+
+**Tranché, mesuré source par source.** L’annexe des ressources affectées PLF 2027
+remplit **2 rangs** — impôt sur les spectacles, jeux et divertissements, 334,0 M€,
+et taxe annuelle sur les locaux à usage de bureaux, 21,9 M€ ; l’état A du texte
+déposé, 163 lignes extraites pour 474,2 Md€, **0 rang** ; la liste IFRAP **0**, ses
+trois colonnes étant `categorie`, `libelle` et `page`. **Le compte tombe de 188 à
+186**, recompté sur le tri à l’écriture ; le fragment écrivait 188, et cette borne
+ne se recopie pas.
+
+**Écarté.** Combler les 186 restants au dépôt. Pour 179 d’entre eux ce sont des
+lignes que seule la liste IFRAP porte — des prélèvements trop petits pour être
+ligne d’état A et non affectés sous plafond, donc absents de l’annexe. **Les
+combler demande une source extérieure au dépôt** : ce n’est pas un travail de
+relevé, c’est une acquisition de données, et elle appelle un arbitrage sur la
+source à retenir.
+
+*Relevé de passage, non versé* : l’état A du texte déposé s’extrait proprement du
+socle — 163 lignes, intitulé et évaluation 2027, total 474,2 Md€. Aucun mandat ne
+nomme cette table ; elle n’est donc pas écrite.
+
+### A-438 — Un outil du chantier doit tourner dans les deux dispositions, et le dépôt n’est pas l’atelier — 20261016
+
+**Tranché, relevé par le fil claude.ai/code au versement.** Le contrôle des sièges
+et sa règle de `make controle` cherchaient le dépôt de droit sous
+`chantier/depot/` — la disposition de l’atelier. Dans le dépôt, le chantier est
+sous `chantier/` et le droit est à la racine, **un cran au-dessus**. Le contrôle ne
+trouvait rien, sautait, et se comptait en règle sautée : un versement vert qui ne
+contrôlait rien. `appareil/chasse_siege.py` résout désormais le dépôt sur trois
+voies — `depot/`, le dossier parent, `droit/` — et échoue en les nommant toutes.
+**Un module d’appareil qui lit le dépôt de droit ne présume jamais de sa place ;
+il le cherche, et il dit où il a cherché.**
+
+### A-439 — Les trois codes manquants entrent par l’intitulé, non par l’identifiant — 20261016, repris le 20261019
+
+**Tranché.** `codes.json` a reçu le code de la sécurité intérieure, le code de la
+route et le code des postes et des communications électroniques. **Les trois
+prennent la voie de l’intitulé** : un identifiant relevé ailleurs qu’à l’archive
+n’est pas un relevé, et la voie de l’intitulé résout dans l’archive elle-même et
+échoue en nommant le texte introuvable. Le nom court `cpce` étant déjà porté par
+le code des procédures civiles d’exécution, celui des postes prend `postes`.
+
+**Repris sur la pièce le 20261019.** Le fragment annonçait « de 70 à 73 entrées »
+puis « 77 textes au lieu de 74 » : les deux comptes ne se suivent pas. Mesure à
+l’écriture — `codes.json` porte **73 entrées**, `droit.py etat` en rend autant, et
+`data/` porte **77 fichiers**, les 4 derniers n’étant pas déclarés au
+référentiel : `lf2006`, `lf2012`, `lf2020`, `lolf`. La borne qui vaut est
+**73 textes déclarés pour 77 fichiers portés**.
+
+**Repris aussi sur le tri.** Le fragment écrivait que les trois codes ferment
+trois lignes. Mesure : ils en ferment **deux** — la redevance pour examen du code
+de la route, à l’article R. 221-3-3 du code de la route, siège réglementaire, et
+les taxes sur les stations et liaisons radioélectriques privées, qui se
+requalifient en ligne de nomenclature 1782. **Les « orphelins » des clubs de jeux
+restent non établis** : le code de la sécurité intérieure ne porte aucun article
+qui les institue, et les clubs de jeux tiennent du V de l’article 34 de la loi
+n° 2017-257, hors dépôt.
+

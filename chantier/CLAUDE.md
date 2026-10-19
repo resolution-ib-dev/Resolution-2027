@@ -121,16 +121,19 @@ au tendanciel.
   pour le référentiel, jamais l'un pour l'autre. **La colonne `libelle_ifrap`
   porte des cellules à plusieurs valeurs jointes par « ; »** : une jointure qui
   ne les éclate pas fabrique 89 faux écarts. **Le second est le relevé des
-  sièges** : les 105 sièges non établis sont tombés à **14**. Les 91 autres se
-  répartissent en 51 relevés à l'annexe des ressources affectées, 26 relevés au
-  dépôt de droit article par article, 1 par renvoi exprès, 3 sièges abrogés — dont
-  un relevé dans un article en vigueur qui porte « (Abrogé) » à la subdivision
-  instituante —, 3 agrégats sans siège par construction, 1 ressource propre de
-  l'Union, 2 sièges réglementaires, 3 créations du PLF sans article en vigueur et
-  1 passé à contrôler. **Le contrôle qui le prouve est
+  sièges** : les 105 sièges non établis sont tombés à **14** le 20261016, puis à
+  **5** le 20261019. La répartition se lit à l'entrée « Le défaut des sièges non
+  établis passe de 105 à 5 » du registre, recomptée sur le tri ; elle ne se
+  recopie pas d'ici. **Un rang se qualifie en trois états** à la colonne
+  `nature_ligne` — imposition, agrégat de ligne d'état A, ressource propre de
+  l'Union — et **un siège ne s'exige que d'une imposition** (arbitrage de l'auteur
+  du 20261019). **Le contrôle qui le prouve est
   `appareil/controle_sieges_prelevements.py`** ; il rejoue chaque siège sur sa
-  pièce et refuse le versement sur un seul échec. Les deux défauts restants
-  tiennent, et le classeur ne se publie pas.
+  pièce, exige un siège de tout rang d'imposition par sa règle S6, et refuse le
+  versement sur un seul échec. **Il en sort cinq** : les cinq rangs restés non
+  établis sont mesurés vides au dépôt comme aux annexes, et leur qualification
+  n'est pas tranchée. Les deux défauts restants tiennent, et le classeur ne se
+  publie pas.
 - **Le CP se lit avant de se calculer** (inscrit le 20261016). Les crédits ouverts se lisent à
   l'état B du texte déposé avant toute minoration : comparer à un exercice antérieur a fabriqué un
   risque bloquant qui n'existait pas. Hors titre 2, **AE ≥ CP**, et l'égalité ne se pose pas, elle
