@@ -26,6 +26,10 @@ Variantes :
               retirés des deux côtés, comme le fait l'auteur
   credits     rothbard, crédits d'impôt gardés en dépense et en recette
               (arbitrage du 20261020)
+  flux        rothbard, et les seuls flux réels de crédits d'impôt : la part
+              imputée sur l'impôt dû n'est versée par personne et sort des deux
+              côtés ; la part restituée est un décaissement du Trésor et reste en
+              dépense (tableau 3.217, ligne « au-delà de l'impôt dû »)
   neutralise  le choix de l'auteur gardé : excédent brut d'exploitation public
               et autres acquisitions retirés de la dépense comme de la recette,
               erreurs de formule levées (maximum, production pour compte propre)
@@ -55,8 +59,16 @@ def charger():
     return t
 
 
+def restitues():
+    for r in csv.DictReader((REF / "insee_3217_payeur.tsv").open(encoding="utf-8"), delimiter="\t"):
+        if r["ligne"] == "109":
+            return {int(k[1:]): -float(v) for k, v in r.items() if k.startswith("y") and v not in ("", "n.d.")}
+    return {}
+
+
 def serie(t, variante="auteur"):
     s = {}
+    rest = restitues() if variante == "flux" else {}
     for a in ANNEES:
         g = lambda l: t[l].get(a, 0.0)
         cot_pub = g(D11_APU) * g(D613CE) / g(D11_MEN)                       # ligne 300
@@ -73,6 +85,7 @@ def serie(t, variante="auteur"):
             if variante != "credits":
                 dg -= g(CI_DEP)
                 rg -= g(CI_REC)
+            dg += rest.get(a, 0.0)
             if variante == "neutralise":
                 dg -= g(EBE) + g(AUTRES_ACQ)
                 rg -= g(EBE) + g(AUTRES_ACQ)
@@ -115,7 +128,7 @@ def main():
     ecarts = verifier(t)
     print("Rejeu du classeur de l'auteur, 2024-2025 :", "concorde" if not ecarts else ecarts)
     h = heures()
-    for v in ("auteur", "neutralise", "rothbard", "credits"):
+    for v in ("auteur", "neutralise", "rothbard", "flux", "credits"):
         s = serie(t, v)
         x = s[2024]
         print(f"\n{v:10} 2024  PP {x['pp']:7.1f}  DG {x['dg']:7.1f}  RG {x['rg']:7.1f}  "

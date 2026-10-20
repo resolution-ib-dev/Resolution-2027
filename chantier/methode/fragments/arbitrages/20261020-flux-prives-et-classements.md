@@ -62,3 +62,30 @@ manuscrit attend l'auteur.
 **Les comptes nationaux distribués de l'INSEE (bénéficiaires nets) sont écartés**
 des argumentaires : l'auteur en conteste la construction (qualité de l'argent à
 l'aller et au retour, volatilité des cas).
+
+---
+
+**Troisième échange du 20261020.**
+
+**TTF : la question portait sur notre schéma, nos gages et nos tablettes.** Le
+schéma compte ses euros au poste « autres taxes sur les produits » (4,5 = 1,7
+logement et construction + 1,85 TTF + 0,97 produits pharmaceutiques, INSEE
+2024), supprimé en totalité : ils sont dans les −137,05 et repris par
+l'équilibre. Le tri, la table de passage et l'amendement P1 4.2 A la portaient
+au poste « IR net », où le schéma n'inscrit aucune suppression. Rattachée au
+poste qui porte ses euros, avec la taxe sur les opérations à haute fréquence :
+« fondu par rattachement — TVA », comme les 18 autres rangs du poste. Le gage
+formel de l'amendement (majoration de l'IS) ne change pas.
+
+**Produit privé restant.** L'auteur tient pour légitime de ne pas retirer
+l'excédent brut public de la dépense, au nom des flux réels : variante
+« rothbard » retenue. Crédits d'impôt : l'auteur nette comme l'INSEE, par
+prudence, et ne les compte en dépense qu'en regardant la dépense ; la variante
+« flux » (part imputée nettée, part restituée en dépense) est proposée, non
+validée.
+
+**Les 29 euros : suspendus.** Soit le référentiel INSEE classique, soit le
+produit privé restant reconstruit d'abord.
+
+**Priorité : publier le tri des prélèvements sur le site une fois confirmé.** Le
+reste (tablettes de fond) est du travail de fond.

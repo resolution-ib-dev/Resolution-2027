@@ -6088,3 +6088,19 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - Sort de la TTF : droits de mutation à titre onéreux proposé.
 - Choix du capital public dans le produit privé restant (retiré de la dépense ou non).
 - Publication des tablettes sur la page Données du site.
+
+## 20261020 — tri-public-et-ttf
+
+## Ce qui a changé au corpus
+
+- TTF et taxe sur les opérations à haute fréquence rattachées au poste du schéma
+  qui porte leurs euros (« autres taxes sur les produits », fondu — TVA) : tri,
+  référentiel, table de passage, [interne] de l'amendement P1 4.2 A.
+- Variante « flux » du produit privé restant (crédits restitués en dépense).
+- Classeur public du tri : `appareil/generer_tri_public.py` →
+  `livrables/tri_public/` ; carte de la page Données préparée sur Site-ETNP,
+  branche `claude/clever-euler-rbeck4`, sans pull request.
+
+## Ce qui reste ouvert
+
+- Six points à trancher avant mise en ligne : `livrables/tri_public/a_confirmer.md`.

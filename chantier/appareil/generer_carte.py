@@ -961,6 +961,7 @@ IMPLICITES = {
     'referentiels/produit_prive_formules_auteur.tsv': 'références internes',
     'referentiels/eurostat_heures_travaillees.tsv': 'références externes',
     'livrables/produit_prive_restant_20261020.md': 'bac à sable',
+    'livrables/tri_public/a_confirmer.md': 'bac à sable',
 }
 
 # La carte se lit en haut du projet, hors famille : elle est la vue, non une
