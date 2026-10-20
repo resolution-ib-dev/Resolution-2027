@@ -13,6 +13,16 @@ A), puis la partie législative (L), sous la doctrine du livre.
   collectivement les contribuables et les innocents.
 - On fait **au plus simple et au plus efficace**, selon la doctrine du livre.
 - On peut s'appuyer sur des sources de confiance.
+- Les lignes rouges excluent ce qui les franchit, à condition d'être **précises et
+  proportionnées**. L'individualisation des peines peut être largement tempérée :
+  telle qu'elle est pratiquée, elle contrevient à l'application de la loi. Sources à
+  exploiter : études de l'IPJ et d'Hémisphère droit. *(20261020)*
+- Les lignes rouges se recensent par comparaison avec les codes napoléoniens et le
+  code de 1958 : ce qui y figurait, ce qui a été ajouté d'utile, ce qui fonctionnait
+  bien sous une forme allégée et simple. *(20261020)*
+- Les principes de la révision constitutionnelle Résolution se transposent au
+  maximum (droit au et du jury, transparence, rapidité, ouverture), sans faire
+  l'hypothèse qu'elle est adoptée. *(20261020)*
 
 ## Ancrage doctrinal (livre EP3)
 
@@ -72,6 +82,53 @@ Une mesure qui les franchit sort du plan et va à `analyse-transposabilite`.
 Toutes les références de décisions sont à confronter au texte des décisions
 avant tout livrable diffusable.
 
+## Lignes rouges : noyau et part tempérable (proposé)
+
+| ligne | ce qu'elle exige au minimum | ce qui se tempère |
+|---|---|---|
+| art. 66 C | contrôle d'un magistrat sur toute privation de liberté, et d'un juge du siège quand elle se prolonge | durées, formes, autorités intermédiaires (le CC admet 96 h en criminalité organisée) |
+| art. 8 DDHC, individualisation (CC 2005-520 DC) | le juge doit **pouvoir** moduler au prononcé ; une peine automatique sans dérogation possible est censurée (CC 2010-6/7 QPC) | planchers avec dérogation motivée (CC 2007-554 DC) ; tout l'aménagement à l'exécution relève de la loi : aménagement obligatoire avant incarcération, libération sous contrainte de plein droit, seuils. Le CC ne pose qu'un objectif de réinsertion (CC 94-334 DC) |
+| art. 9 DDHC | pas de rigueur inutile, preuve à la charge de l'accusation | le formalisme de nullité qu'on en a tiré |
+| art. 16 DDHC | avocat, accès au dossier, un juge, une voie de recours | nombre et délais des recours |
+| art. 2 DDHC, vie privée (CC 99-416 DC) | mesures intrusives encadrées par la loi | au-delà de cet encadrement, rien |
+| CEDH art. 3, 5, 6, 8 | pas de traitement inhumain, un juge, un délai raisonnable | le délai raisonnable vaut aussi pour la victime |
+
+Faits d'appui : 41 % des condamnés à de la prison ferme n'en font aucun jour, et la
+part purgée est de 62 % en moyenne (IPJ, données 2016-2020). Objection à traiter : la
+note IPP n° 120 (décembre 2025) mesure une baisse de la récidive de 7 à 18 points
+sous aménagement, et un allongement des peines prononcées quand l'aménagement est
+disponible.
+
+## Comparatif 1808-1810 / 1958 / 2026 (proposé — faits à confronter aux textes)
+
+| | 1808-1810 (CIC 643 art. ; CP 484 art.) | CPP 1958 | 2026 |
+|---|---|---|---|
+| jury | jury populaire de jugement aux assises | jury associé aux magistrats | cour criminelle en premier ressort ; jury en appel |
+| procédure rapide | flagrant délit ; loi de 1863 : jugement le jour même ou le lendemain | flagrant délit | comparution immédiate, CRPC, ordonnance pénale, amende forfaitaire délictuelle |
+| peines | minimum et maximum légaux, aggravation pour récidive ; circonstances atténuantes en 1832 | juge de l'application des peines, sursis avec mise à l'épreuve | minimum légal supprimé en 1994, aménagement obligatoire avant incarcération (2009, 2019) |
+
+- À garder : avocat en garde à vue, appel des assises, droits de la victime, FNAEG,
+  procédure numérique, CRPC, ordonnance pénale.
+- À retrouver : procès oral, jugement immédiat en flagrance, minimum légal avec
+  dérogation motivée, peine exécutée telle que prononcée, codes courts.
+- À écarter : la relégation des récidivistes (1885).
+- Comparaison mécanique à venir : le CPP au 2 mars 1959 reconstitué depuis LEGI ;
+  le CIC de 1808 et le CP de 1810 depuis une édition numérisée.
+
+## Transposition de la révision constitutionnelle (proposé, à droit constant)
+
+| principe (art. 64 et suivants révisés) | transposition en loi ou en décret |
+|---|---|
+| droit au jury, appel au fond | citoyens assesseurs en cour criminelle et en correctionnelle pour les délits graves ; jury en appel |
+| droit du jury | le jury fixe la peine et ses modalités ; un aménagement ultérieur exige une motivation spéciale |
+| effectivité des jugements | mise à exécution dans un délai butoir ; mandat de dépôt à l'audience |
+| redevabilité des magistrats | publication par juridiction : délais, taux d'exécution, récidive |
+| évaluation du bénéfice net | chaque formalité porte son coût mesuré (étape 2) |
+| fin des instances consultatives | suppression des avis obligatoires du CPP, largement par décret |
+| interprétation réservée au Parlement | article préliminaire réécrit : sûreté de la victime, délai, exécution, à côté des droits de la défense |
+| transparence, ouverture | audiences publiques par défaut, décisions en données ouvertes |
+| rapidité | délais opposables à l'État, au bénéfice de la victime comme du prévenu |
+
 ## Les huit étapes
 
 1. **Cartographier.**
@@ -113,11 +170,14 @@ issus du décret n° 2026-907 du 30 septembre 2026.
 
 ## Codes de la chaîne pénale
 
-| code | court | dans la base au 20261019 |
+| code | court | articles applicables (base LEGI 20261018) |
 |---|---|---|
-| code de procédure pénale | cpp | oui (L, R, D, A, versions actuelle et 2029) |
-| code de la sécurité intérieure | securite_interieure | oui |
-| code pénal | cp | ajouté au 20261019, extrait au prochain passage de l'action |
-| code pénitentiaire | penitentiaire | idem |
-| code de l'organisation judiciaire | coj | idem |
-| code de la justice pénale des mineurs | cjpm | idem |
+| code de procédure pénale | cpp | 4 635 actuel, 6 390 au 1er janvier 2029 |
+| code pénal | cp | 1 301 |
+| code pénitentiaire | penitentiaire | 1 868 |
+| code de l'organisation judiciaire | coj | 1 019 |
+| code de la justice pénale des mineurs | cjpm | 563 |
+| code de la sécurité intérieure | securite_interieure | 2 929 |
+
+Le relevé des frictions est lexical : il trie la lecture, il ne classe pas. Le
+classement se fait par le coût mesuré (étape 2).
