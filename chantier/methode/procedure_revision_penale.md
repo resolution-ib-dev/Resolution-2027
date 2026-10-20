@@ -174,7 +174,7 @@ diminution est une fraction de la peine encourue, et les fractions s'additionnen
 | réitération (CP 132-16-7) | 1/3 |
 | victime mineure ou particulièrement vulnérable | 1/4 |
 
-**Récidive légale (proposé, 20261020).** La peine encourue est doublée, comme
+**Récidive légale (validé dans son principe par l'auteur, 20261020).** La peine encourue est doublée, comme
 aujourd'hui (CP 132-8 à 132-10). La peine prononcée est au moins égale à la peine
 encourue pour l'infraction simple. Seuls le discernement altéré et la minorité
 réduisent ce point de départ. Modulation pour le contrôle constitutionnel, sur le
@@ -206,6 +206,27 @@ antécédent : 18 mois à 3 ans.
 - Correction : CC 2011-625 DC n'a censuré les peines minimales que pour les
   **mineurs** jamais condamnés (cons. 27). Celles des majeurs ont été validées,
   dérogation motivée comprise.
+
+**Arbre de décision (validé dans son principe, 20261020).** L'architecture doit
+rester claire et lisible : c'est une exigence de l'auteur pour la rédaction.
+
+```
+Peine encourue pour l'infraction (ex. vol : 3 ans)
+│
+├─ Mineur ? → point de départ ÷ 2
+├─ Discernement altéré ? → point de départ − 1/3 au plus
+│
+└─ Antécédents ?
+   ├─ Aucun : référence 3 ans, diminutions ≤ 1/2 → 18 mois à 3 ans
+   ├─ Réitération : référence 3 ans, diminutions ≤ 1/3 → 2 à 3 ans
+   └─ Récidive légale : référence doublée 6 ans, plancher = peine simple 3 ans
+        ├─ 1re récidive : circonstance exceptionnelle spécialement motivée ?
+        │    ├─ non → 3 à 6 ans
+        │    └─ oui → plancher abaissé aux 2/3 → 2 à 6 ans
+        └─ récidive suivante → 3 à 6 ans, sans exception
+
+Victime mineure ou vulnérable : diminutions ≤ 1/4 dans tous les cas.
+```
 
 **Mineurs.** La peine encourue sert de point de départ réduit de moitié (logique
 de CJPM L121-5). Le barème s'applique ensuite à cette base. L'atténuation de la
