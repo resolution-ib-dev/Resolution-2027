@@ -172,7 +172,40 @@ diminution est une fraction de la peine encourue, et les fractions s'additionnen
 |---|---|
 | aucun antécédent | 1/2 |
 | réitération (CP 132-16-7) | 1/3 |
-| récidive légale, ou victime mineure ou particulièrement vulnérable | 1/4 |
+| victime mineure ou particulièrement vulnérable | 1/4 |
+
+**Récidive légale (proposé, 20261020).** La peine encourue est doublée, comme
+aujourd'hui (CP 132-8 à 132-10). La peine prononcée est au moins égale à la peine
+encourue pour l'infraction simple. Seuls le discernement altéré et la minorité
+réduisent ce point de départ. Modulation pour le contrôle constitutionnel, sur le
+modèle validé en 2007 :
+
+| | plancher | ce qui permet de descendre sous le plancher |
+|---|---|---|
+| première récidive | la peine encourue simple | décision spécialement motivée par une circonstance exceptionnelle de l'infraction, jusqu'aux deux tiers de la peine encourue simple au plus bas |
+| nouvelle récidive | la peine encourue simple | discernement altéré ou minorité seulement |
+
+Exemple, vol (3 ans) : 3 à 6 ans en récidive, 2 ans au plus bas en cas de
+circonstance exceptionnelle à la première récidive. Réitération : 2 à 3 ans. Sans
+antécédent : 18 mois à 3 ans.
+
+Évaluation (CC 2007-554 DC, 9 août 2007, lu sur le texte de la décision) :
+
+- L'individualisation « ne fait pas obstacle à ce que le législateur fixe des règles
+  assurant une répression effective » (cons. 13). La peine ne doit pas être
+  « exclusivement » déterminée par la personnalité.
+- Le Conseil a validé un plancher d'« environ un tiers de la peine encourue »
+  (cons. 11). Pour la nouvelle récidive, il a validé une dérogation réservée à des
+  « garanties exceptionnelles d'insertion » (cons. 15). Il s'est appuyé sur le jeu
+  de CP 122-1 al. 2 (cons. 18).
+- Le plancher proposé, égal à la peine encourue simple (la moitié de la peine
+  doublée), est plus haut que celui de 2007 : aucune décision ne l'a éprouvé. La
+  structure, elle, est celle de 2007 : une issue étroite à la première récidive, et
+  le seul discernement pour la nouvelle. Risque : moyen, ramené à faible-moyen par
+  l'issue de la première récidive.
+- Correction : CC 2011-625 DC n'a censuré les peines minimales que pour les
+  **mineurs** jamais condamnés (cons. 27). Celles des majeurs ont été validées,
+  dérogation motivée comprise.
 
 **Mineurs.** La peine encourue sert de point de départ réduit de moitié (logique
 de CJPM L121-5). Le barème s'applique ensuite à cette base. L'atténuation de la
