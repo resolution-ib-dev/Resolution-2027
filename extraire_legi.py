@@ -12,6 +12,8 @@ article, il ne devine pas : il écrit un diagnostic et il échoue.
 Sortie, un fichier par code : data/<court>.jsonl.gz, une ligne par article.
   {id, num, code, etat, date_debut, date_fin, section, texte}
 Plus data/_manifeste.json : millésime du dump, comptes, empreintes.
+Plus un cliché historique par code de CLICHES_HISTORIQUES :
+data/<court>_<année>.jsonl.gz, les versions applicables le jour dit.
 """
 import contextlib
 import datetime
@@ -557,6 +559,12 @@ FIN_OUVERTE = ("2999-01-01", "", None)
 # la colonne « texte en vigueur » d'un trois colonnes devient fausse dessus.
 PLANCHER = os.environ.get("PLANCHER_HISTORIQUE", "2025-01-01")
 
+# Clichés historiques : un code, un jour, un fichier à part. Ils se tirent de
+# toutes les versions balayées, avant le filtre du plancher, qui ne bouge donc
+# pour aucun code. Le CPP au 2 mars 1959, jour de son entrée en vigueur, sert
+# la comparaison 1958-2026 de chantier/methode/procedure_revision_penale.md.
+CLICHES_HISTORIQUES = {"cpp": "1959-03-02"}
+
 
 def applicable(a, jour):
     """Vrai si cette version s'applique le jour dit.
@@ -601,8 +609,8 @@ def diagnostic(charge):
         json.dumps(charge, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def ecrire(court, cle, arts, sect):
-    chemin = DATA / f"{court}.jsonl.gz"
+def ecrire(court, cle, arts, sect, nom=None):
+    chemin = DATA / f"{nom or court}.jsonl.gz"
     h = hashlib.sha256()
     n = 0
     with gzip.open(chemin, "wt", encoding="utf-8", compresslevel=9) as sortie:
@@ -616,6 +624,48 @@ def ecrire(court, cle, arts, sect):
             n += 1
     return {"fichier": chemin.name, "articles": n,
             "octets": chemin.stat().st_size, "sha256": h.hexdigest()}
+
+
+RE_NUM_ENTIER = re.compile(r"^([A-Z]?)\.?\s*(\d+)$")
+
+
+def lacunes(arts, retenus):
+    """Part des articles que LEGI ne porte pas au jour du cliché.
+
+    LEGI ne garde pas toutes les versions anciennes : un article modifié avant
+    la consolidation peut n'y apparaître qu'à partir d'une version
+    postérieure. Le cadre se dérive du cliché lui-même, partie par partie
+    (préfixe vide, R, D, A) : les numéros entiers de 1 au plus grand numéro
+    entier porté. Un numéro du cadre absent du cliché est une lacune ; elle
+    est dite « portée plus tard » si LEGI connaît ce numéro à une date
+    postérieure, « jamais portée » sinon. Les numéros à suffixe (63-1…) sont
+    des insertions et n'entrent pas dans le cadre. C'est une borne, pas une
+    preuve : un numéro peut avoir été vacant dès l'origine.
+    """
+    def entiers(versions):
+        par = defaultdict(set)
+        for a in versions:
+            m = RE_NUM_ENTIER.match((a.get("num") or "").strip())
+            if m:
+                par[m.group(1)].add(int(m.group(2)))
+        return par
+    portes, connus = entiers(retenus.values()), entiers(arts.values())
+    parties = {}
+    for p, nums in sorted(portes.items()):
+        cadre = set(range(1, max(nums) + 1))
+        absents = sorted(cadre - nums)
+        plus_tard = [n for n in absents if n in connus[p]]
+        parties[p or "sans préfixe"] = {
+            "cadre": len(cadre), "portes": len(nums), "absents": len(absents),
+            "part_absente": round(len(absents) / len(cadre), 4),
+            "portes_plus_tard": len(plus_tard),
+            "jamais_portes": len(absents) - len(plus_tard),
+            "exemples_absents": [f"{p}{n}" for n in absents[:20]]}
+    cadre = sum(v["cadre"] for v in parties.values())
+    absents = sum(v["absents"] for v in parties.values())
+    return {"cadre": cadre, "absents": absents,
+            "part_absente": round(absents / cadre, 4) if cadre else None,
+            "par_partie": parties}
 
 
 def main():
@@ -778,6 +828,24 @@ def main():
             1 for i in vivants if sections.get(court, {}).get(i))
         journal(f"  {cle} : {app} applicables ({prog} à fin programmée), "
                 f"{av} à venir, {hist} historiques, sur {len(articles[court])} versions")
+
+    manifeste["cliches_historiques"] = {}
+    for court, jour_cliche in CLICHES_HISTORIQUES.items():
+        cle = libelles.get(court)
+        if cle is None or cle not in manifeste["codes"]:
+            journal(f"  cliché {court} au {jour_cliche} : code non extrait, passé")
+            continue
+        retenus = {i: a for i, a in articles[court].items() if applicable(a, jour_cliche)}
+        nom = f"{court}_{jour_cliche[:4]}"
+        info = ecrire(court, cle, retenus, sections.get(court, {}), nom=nom)
+        info["jour"] = jour_cliche
+        info["lacunes_legi"] = lacunes(articles[court], retenus)
+        manifeste["cliches_historiques"][nom] = info
+        lac = info["lacunes_legi"]
+        journal(f"  cliché {nom} : {info['articles']} articles au {jour_cliche}, "
+                f"{lac['absents']} numéros sur {lac['cadre']} non portés par LEGI "
+                f"({lac['part_absente']:.1%})" if lac["cadre"] else
+                f"  cliché {nom} : {info['articles']} articles au {jour_cliche}, cadre vide")
 
     (DATA / "_manifeste.json").write_text(
         json.dumps(manifeste, ensure_ascii=False, indent=2), encoding="utf-8")
