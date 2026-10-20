@@ -10,6 +10,7 @@ on:
     paths:
       - "codes.json"
       - "extraire_legi.py"
+      - "natinf.py"
 
 permissions:
   contents: write
@@ -41,10 +42,18 @@ jobs:
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc || true
           df -h /
 
+      # Avant l'extraction : un échec ici coûte quelques secondes, pas deux heures.
+      - name: Télécharger la nomenclature NATINF
+        run: python3 natinf.py
+
       - name: Extraire les codes de la base LEGI
         env:
           DATE_EXTRACTION: ${{ github.run_started_at }}
         run: python3 extraire_legi.py
+
+      # Après l'extraction, qui réécrit le manifeste.
+      - name: Inscrire NATINF au manifeste
+        run: python3 natinf.py --manifeste
 
       - name: Contrôle — l'extrait se relit
         run: |

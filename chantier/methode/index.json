@@ -10174,6 +10174,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/incriminations",
+   "chemin": "appareil/incriminations.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/incriminations.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/index_mesures_2027",
    "chemin": "appareil/index_mesures_2027.py",
    "rang": "appareil",
@@ -12904,6 +12918,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:methode/lectures_penal",
+   "chemin": "methode/lectures_penal.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/lectures_penal.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:methode/lignes_de_lancement_20261004_soir",
    "chemin": "methode/lignes_de_lancement_20261004_soir.md",
    "rang": "methode",
@@ -13716,6 +13744,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/incriminations",
+   "chemin": "referentiels/incriminations.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/incriminations.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/niches_sieges_20261004",
    "chemin": "referentiels/niches_sieges_20261004.tsv",
    "rang": "referentiel",
@@ -14066,6 +14108,7 @@
    "appareil/generer_releve_notes.py",
    "appareil/generer_site.py",
    "appareil/hypotheses_doctrine.py",
+   "appareil/incriminations.py",
    "appareil/index_mesures_2027.py",
    "appareil/justifications.py",
    "appareil/lecture_en_creux.py",
@@ -14300,6 +14343,7 @@
    "methode/fragments/journal/20261009-chaine-a.md",
    "methode/index_versements.json",
    "methode/instruction_compte_epargne_et_bouclier_20261004.md",
+   "methode/lectures_penal.md",
    "methode/lignes_de_lancement_20261004_soir.md",
    "methode/lots_de_production_ordonnes_20261002.md",
    "methode/manifeste_paquet_depot_20261008.md",
@@ -14359,6 +14403,7 @@
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
    "referentiels/etatB_2027_bg.tsv",
    "referentiels/frictions_penal.tsv",
+   "referentiels/incriminations.tsv",
    "referentiels/lots_epreuve.json",
    "referentiels/niches_sieges_20261004.tsv",
    "referentiels/niches_sieges_regles_de_lecture_20261004.md",
@@ -14552,9 +14597,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 922,
-  "au_coffre": 863,
-  "au_depot": 405,
+  "artefacts": 925,
+  "au_coffre": 866,
+  "au_depot": 408,
   "derives": 271,
   "sources": 48,
   "non_restaurables": 16,
