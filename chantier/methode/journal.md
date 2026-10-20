@@ -6019,3 +6019,23 @@ renvoie plus que par une ligne — il ne porte plus la table.
   intitulé, bloc de tête et virgules alignés sur la liasse ; rejouer le
   générateur ne défait plus les corrections.
 - Site : les six fichiers régénérés, noms sans date, renvoi des anciens noms.
+
+## 20261020 — confrontation-sept-classements
+
+## Ce qui a changé au corpus
+
+- Table « sept classements » d'un fiscaliste versée telle qu'extraite :
+  `referentiels/prelevements_7classements_1995_2024.tsv` (142 lignes, 1995-2024,
+  huit colonnes de rangement) et `referentiels/prelevements_7classements_passage.tsv`.
+- `appareil/rapprocher_7classements.py` la rapproche du tri : le passage brut →
+  prélèvements obligatoires 2024 retombe sur 1 250,76 ; cotisations, CSG-CRDS,
+  contributions de l'assiette 2, IR brut et D51 concordent à l'unité.
+- `livrables/confrontation_sept_classements_20261020.md`, au bac à sable.
+
+## Ce qui reste ouvert
+
+- Le bouclage du compte rendu du 20260930 est faux tel qu'écrit (1 199,53 et
+  non 1 250,76 : les cotisations imputées y sont retranchées deux fois).
+  Correction proposée au § 2 de la confrontation.
+- Trois reclassements proposés au tri (TTF, redevances eau, contributions sur
+  indemnités) et trois colonnes de passage INSEE / OCDE / TAXUD ; non appliqués.

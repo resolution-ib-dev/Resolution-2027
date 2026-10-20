@@ -10244,6 +10244,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/rapprocher_7classements",
+   "chemin": "appareil/rapprocher_7classements.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/rapprocher_7classements.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/redaction_2027",
    "chemin": "appareil/redaction_2027.py",
    "rang": "appareil",
@@ -10508,6 +10522,20 @@
    "chemin_coffre": "chantier/livrables/attendus_scelles_phase1_20261002.md",
    "releve": true,
    "famille": "juridique"
+  },
+  {
+   "role": "fichier:livrables/confrontation_sept_classements_20261020",
+   "chemin": "livrables/confrontation_sept_classements_20261020.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/confrontation_sept_classements_20261020.md",
+   "releve": true,
+   "famille": "bac à sable"
   },
   {
    "role": "fichier:livrables/croisement_tva_20261002",
@@ -13772,6 +13800,34 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/prelevements_7classements_1995_2024",
+   "chemin": "referentiels/prelevements_7classements_1995_2024.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/prelevements_7classements_1995_2024.tsv",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
+   "role": "fichier:referentiels/prelevements_7classements_passage",
+   "chemin": "referentiels/prelevements_7classements_passage.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/prelevements_7classements_passage.tsv",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
    "role": "fichier:referentiels/prelevements_ifrap",
    "chemin": "referentiels/prelevements_ifrap.tsv",
    "rang": "referentiel",
@@ -14087,6 +14143,7 @@
    "appareil/portes_domaine_lfss.py",
    "appareil/portes_ouvertes.py",
    "appareil/preparer_eval_disposition.py",
+   "appareil/rapprocher_7classements.py",
    "appareil/reappliquer.py",
    "appareil/reconcilier_operateurs.py",
    "appareil/redaction_2027.py",
@@ -14129,6 +14186,7 @@
    "livrables/PLFSS2027_liste.md",
    "livrables/attendus_scelles_P1_PLF_20261002.md",
    "livrables/attendus_scelles_phase1_20261002.md",
+   "livrables/confrontation_sept_classements_20261020.md",
    "livrables/croisement_tva_20261002.md",
    "livrables/depot_2027/LIASSE_P1_points_signales.md",
    "livrables/depot_2027/LIASSE_PLFSS.md",
@@ -14365,6 +14423,8 @@
    "referentiels/niches_sociales_sieges_20261004.md",
    "referentiels/notes_manuscrit.json",
    "referentiels/points_donnee_estimes_20261014.tsv",
+   "referentiels/prelevements_7classements_1995_2024.tsv",
+   "referentiels/prelevements_7classements_passage.tsv",
    "referentiels/prelevements_ifrap.tsv",
    "referentiels/ratios_cp_ae_pap2026.tsv",
    "referentiels/redaction_plf.json",
@@ -14552,10 +14612,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 922,
-  "au_coffre": 863,
-  "au_depot": 405,
-  "derives": 271,
+  "artefacts": 926,
+  "au_coffre": 867,
+  "au_depot": 409,
+  "derives": 272,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

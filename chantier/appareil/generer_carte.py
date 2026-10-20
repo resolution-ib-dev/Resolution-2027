@@ -948,6 +948,11 @@ IMPLICITES = {
     'livrables/releve_siege_prelevements_20261001.md': 'juridique',
     'livrables/reservoir_arguments_livre.md': 'juridique',
     'livrables/valise_phase1_20261002.md': 'juridique',
+    # --- la table « sept classements », 20261020. Pièce d'un fiscaliste,
+    # versée telle qu'extraite ; la confrontation reste au bac à sable.
+    'referentiels/prelevements_7classements_1995_2024.tsv': 'références externes',
+    'referentiels/prelevements_7classements_passage.tsv': 'références externes',
+    'livrables/confrontation_sept_classements_20261020.md': 'bac à sable',
 }
 
 # La carte se lit en haut du projet, hors famille : elle est la vue, non une
