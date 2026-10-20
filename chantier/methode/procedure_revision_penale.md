@@ -23,6 +23,11 @@ A), puis la partie législative (L), sous la doctrine du livre.
 - Les principes de la révision constitutionnelle Résolution se transposent au
   maximum (droit au et du jury, transparence, rapidité, ouverture), sans faire
   l'hypothèse qu'elle est adoptée. *(20261020)*
+- Les peines suivent le principe d'une loi qui tient parole : baisser les maxima
+  jamais atteints, poser un minimum effectif, exécuter intégralement la peine
+  prononcée. La loi dit à l'avance, en transparence, ce qui se passe. La dérogation
+  individuelle est très minimale et très motivée ; on peut l'encadrer expressément
+  en pourcentage. *(20261021)*
 
 ## Ancrage doctrinal (livre EP3)
 
@@ -112,8 +117,31 @@ disponible.
 - À retrouver : procès oral, jugement immédiat en flagrance, minimum légal avec
   dérogation motivée, peine exécutée telle que prononcée, codes courts.
 - À écarter : la relégation des récidivistes (1885).
-- Comparaison mécanique à venir : le CPP au 2 mars 1959 reconstitué depuis LEGI ;
-  le CIC de 1808 et le CP de 1810 depuis une édition numérisée.
+- Cliché du CPP au 2 mars 1959 (`data/cpp_1959.jsonl.gz`, 823 articles) : LEGI
+  ne porte pas la version de 1959 de 51 % des numéros du cadre (41,5 % en partie
+  législative). Pour combler, il faut le texte de l'ordonnance n° 58-1296 au JORF du
+  24 décembre 1958. Le CIC de 1808 et le CP de 1810 se prennent sur une édition
+  numérisée.
+
+## Peines : une loi qui tient parole (principe validé, dispositif proposé)
+
+| pièce | dispositif proposé | risque constitutionnel |
+|---|---|---|
+| encouru | maximum ramené à ce que la pratique atteint pour les cas graves (les délits sont punis à 8 % du maximum en moyenne, IPP n° 99) | aucun : la loi peut baisser un maximum |
+| minimum | minimum légal par catégorie, exprimé en fraction de l'encouru, publié avec le barème | faible si une dérogation reste possible (CC 2007-554 DC) |
+| dérogation, récidive | uniquement à l'intérieur d'une bande chiffrée (par exemple, pas en dessous de la moitié du minimum), sur des motifs limitativement énumérés, avec une motivation spéciale | moyen : la bande n'a jamais été éprouvée devant le CC ; l'automaticité pure est censurée (CC 2010-6/7 QPC) |
+| dérogation, primo-délinquant | possible sous le minimum, mais motivée sur ces mêmes motifs, avec appel de droit du parquet | faible ; le CC a censuré des minimums imposés aux primo-délinquants (CC 2011-625 DC, à confronter) |
+| exécution | la peine prononcée s'exécute ; les réductions ne s'obtiennent que pour une cause (travail, conduite), sont plafonnées en pourcentage et annoncées au prononcé | faible : seul l'objectif de réinsertion est constitutionnel (CC 94-334 DC) |
+| transparence | barème public, chaque dérogation tracée, taux de dérogation publiés par juridiction | aucun |
+
+- Modèle de droit comparé : le Sentencing Council d'Angleterre et du pays de Galles.
+  Le juge suit le barème, sauf si cela serait contraire aux intérêts de la justice
+  (Sentencing Act 2020, art. 59). À confronter au texte.
+- Réponse à l'IPP n° 99 : son chiffrage (incarcération multipliée par 7, environ
+  80 Md€ d'investissement) suppose qu'on aligne les peines prononcées sur les maxima
+  actuels. Le dispositif fait l'inverse : il baisse les maxima et rend contraignant
+  un minimum. L'IPP montre lui-même que seule une contrainte change les décisions.
+  Le coût du dispositif reste à chiffrer.
 
 ## Transposition de la révision constitutionnelle (proposé, à droit constant)
 
