@@ -23,11 +23,16 @@ A), puis la partie législative (L), sous la doctrine du livre.
 - Les principes de la révision constitutionnelle Résolution se transposent au
   maximum (droit au et du jury, transparence, rapidité, ouverture), sans faire
   l'hypothèse qu'elle est adoptée. *(20261020)*
-- Les peines suivent le principe d'une loi qui tient parole : baisser les maxima
-  jamais atteints, poser un minimum effectif, exécuter intégralement la peine
-  prononcée. La loi dit à l'avance, en transparence, ce qui se passe. La dérogation
-  individuelle est très minimale et très motivée ; on peut l'encadrer expressément
-  en pourcentage. *(20261021)*
+- Les peines suivent une loi qui tient parole. **Le maximum encouru est la
+  référence** : la loi, le citoyen et même les politiques de mauvaise foi le lisent
+  comme la peine attendue. Le baisser ne répond qu'à une logique de rationalisation.
+  On veut qu'il soit plus souvent atteint, et certaines peines augmentent. La loi
+  dit à l'avance, en transparence, ce qui se passe. La dérogation part de la
+  référence et s'encadre strictement, en pourcentage et en motifs, en s'inspirant
+  des constantes de la jurisprudence qui ont un sens (récidive, discernement…).
+  *(20261020, corrige l'énoncé de la veille)*
+- Ces exigences entrent dans les objectifs, les principes et les points à prendre en
+  compte de la recodification. *(20261020)*
 
 ## Ancrage doctrinal (livre EP3)
 
@@ -123,25 +128,126 @@ disponible.
   24 décembre 1958. Le CIC de 1808 et le CP de 1810 se prennent sur une édition
   numérisée.
 
-## Peines : une loi qui tient parole (principe validé, dispositif proposé)
+## Peines : la référence et ses dérogations bornées (principe validé, barème proposé)
 
-| pièce | dispositif proposé | risque constitutionnel |
+### Ce que dit le droit en vigueur (verbatim LEGI 20261019)
+
+| article | règle | lecture |
 |---|---|---|
-| encouru | maximum ramené à ce que la pratique atteint pour les cas graves (les délits sont punis à 8 % du maximum en moyenne, IPP n° 99) | aucun : la loi peut baisser un maximum |
-| minimum | minimum légal par catégorie, exprimé en fraction de l'encouru, publié avec le barème | faible si une dérogation reste possible (CC 2007-554 DC) |
-| dérogation, récidive | uniquement à l'intérieur d'une bande chiffrée (par exemple, pas en dessous de la moitié du minimum), sur des motifs limitativement énumérés, avec une motivation spéciale | moyen : la bande n'a jamais été éprouvée devant le CC ; l'automaticité pure est censurée (CC 2010-6/7 QPC) |
-| dérogation, primo-délinquant | possible sous le minimum, mais motivée sur ces mêmes motifs, avec appel de droit du parquet | faible ; le CC a censuré des minimums imposés aux primo-délinquants (CC 2011-625 DC, à confronter) |
-| exécution | la peine prononcée s'exécute ; les réductions ne s'obtiennent que pour une cause (travail, conduite), sont plafonnées en pourcentage et annoncées au prononcé | faible : seul l'objectif de réinsertion est constitutionnel (CC 94-334 DC) |
-| transparence | barème public, chaque dérogation tracée, taux de dérogation publiés par juridiction | aucun |
+| CP 132-1 al. 2 et 3 | « Toute peine prononcée par la juridiction doit être individualisée. » Elle se fixe selon les circonstances et la personnalité de l'auteur, « ainsi que de sa situation matérielle, familiale et sociale ». | Le quantum dépend de la situation sociale : c'est le point à renverser. |
+| CP 132-19 al. 2 et 4 | L'emprisonnement ferme se prononce « en dernier recours », si « toute autre sanction est manifestement inadéquate ». Le tribunal « doit spécialement motiver » la prison. | La charge de la motivation pèse sur la sévérité. Elle passe à la clémence. |
+| CP 122-1 al. 2 | Altération du discernement : la peine privative de liberté encourue est « réduite du tiers ». Le juge peut écarter cette réduction par une décision spécialement motivée. | Une constante chiffrée existe déjà : on la garde. |
+| CJPM L121-5 | Mineur : la peine ne peut dépasser « la moitié de la peine encourue ». | Constante chiffrée, à garder. |
+| CP 132-78 | Repenti : la peine encourue est réduite s'il a permis d'éviter l'infraction ou d'identifier les auteurs. | Constante, à garder. |
+| CP 132-9 | Récidive légale : « le maximum […] est doublé ». | Constante, à garder. |
+| CPP 495-8 | CRPC : au plus trois ans, et au plus la moitié de l'emprisonnement encouru. | Le plafonnement en fraction est déjà admis. |
 
-- Modèle de droit comparé : le Sentencing Council d'Angleterre et du pays de Galles.
-  Le juge suit le barème, sauf si cela serait contraire aux intérêts de la justice
-  (Sentencing Act 2020, art. 59). À confronter au texte.
-- Réponse à l'IPP n° 99 : son chiffrage (incarcération multipliée par 7, environ
-  80 Md€ d'investissement) suppose qu'on aligne les peines prononcées sur les maxima
-  actuels. Le dispositif fait l'inverse : il baisse les maxima et rend contraignant
-  un minimum. L'IPP montre lui-même que seule une contrainte change les décisions.
-  Le coût du dispositif reste à chiffrer.
+Le droit français module donc **déjà** l'encouru par fractions fixes : un tiers, la
+moitié, le double. Le barème généralise une technique éprouvée, il ne l'invente pas.
+
+### Le barème proposé
+
+**La règle.** La peine de référence est le maximum encouru, circonstances
+aggravantes et récidive comprises. La juridiction la prononce. Elle ne s'en écarte
+que par les minorations ci-dessous, chacune nommée dans le jugement, chiffrée,
+appuyée sur une pièce du dossier. La situation matérielle, familiale et sociale
+n'entre plus dans le quantum : elle relève du régime d'exécution.
+
+| minoration | taux | condition | constante d'origine |
+|---|---|---|---|
+| discernement altéré | − 1/3 | expertise au dossier | CP 122-1 |
+| minorité | − 1/2 (13-16 ans) ; − 1/2 écartable par motivation (16-18 ans) | âge aux faits | CJPM L121-5 |
+| collaboration | − 1/2 | infraction évitée ou coauteurs identifiés | CP 132-78 |
+| aveu à la première occasion | − 25 % en garde à vue ou à la première comparution ; − 10 % avant l'audience ; 0 à l'audience | aveu circonstancié, maintenu | modèle anglais de la réduction pour plaider-coupable, à confronter |
+| réparation intégrale avant jugement | − 10 % | atteintes aux biens seulement | ajournement pour réparation (CP 132-60) |
+| rôle accessoire | − 20 % | pluralité d'auteurs, rôle établi | complicité |
+| casier vierge | − 20 % | délits seulement, hors atteintes aux personnes | — |
+
+| profil | plafond cumulé des minorations (hors discernement, minorité et collaboration, qui s'appliquent d'abord à l'encouru) |
+|---|---|
+| majeur sans antécédent | 50 % |
+| réitérant (CP 132-16-7) | 30 %, sans la minoration « casier vierge » |
+| récidiviste légal | 25 %, sans « casier vierge » ni « aveu avant l'audience » |
+| atteinte à un mineur ou à une personne vulnérable | 25 % |
+
+**Soupape (option, conseillée pour le contrôle constitutionnel).** Une minoration
+supplémentaire de 25 % au plus, pour une circonstance exceptionnelle tenant aux
+faits, jamais à la personnalité. Elle exige une décision spécialement motivée,
+ouvre l'appel de plein droit au parquet et est publiée dans les statistiques de la
+juridiction.
+
+**Exécution.** La peine prononcée s'exécute. Les réductions ne rémunèrent qu'un
+effort (travail, formation, indemnisation de la victime). Elles sont plafonnées en
+pourcentage, à fixer par l'auteur, et annoncées au prononcé. La règle du
+« dernier recours » et l'aménagement obligatoire (CP 132-19 al. 2 et 3) sont abrogés.
+
+**Hausses.** Le maximum se relève là où la hiérarchie des peines est incohérente
+avec la gravité : atteintes aux personnes, atteintes aux enfants (livre, folio 92),
+récidive. Il ne se baisse que pour rationaliser, par exemple pour un encouru
+symbolique ou incohérent au sein d'une même famille d'infractions.
+
+**Risque constitutionnel.**
+
+- Faible pour les taux et les plafonds : le législateur pratique déjà les fractions
+  fixes, et le juge garde une liste de motifs.
+- Moyen pour deux points : le quantum qui part du maximum dans les petites affaires
+  (art. 8 DDHC, nécessité), et l'exclusion de la situation sociale du quantum
+  (CP 132-1). Les parades sont la rationalisation des maxima et la soupape.
+- Décisions à confronter : CC 2007-554 DC, 2010-6/7 QPC, 2011-625 DC.
+
+**Coût.** Atteindre plus souvent le maximum fait monter l'incarcération : la
+direction est celle que chiffre l'IPP n° 99 (taux multiplié par 7 si les délits
+sont alignés sur 44,6 % du maximum). Le barème se chiffre à l'étape 2 contre ce
+scénario, avec la dissuasion et la capacité (étape 7) en regard.
+
+## Recodification : objectifs, principes, points à prendre en compte
+
+**Objectifs**
+
+1. Une loi qui tient parole : la peine annoncée est la peine prononcée, et la peine
+   prononcée est la peine exécutée.
+2. La sûreté effective des personnes et des biens, d'abord pour les plus faibles
+   (livre, folio 69).
+3. La rapidité, de l'enquête à l'exécution, au bénéfice de la victime comme du
+   prévenu.
+4. Un droit court et lisible : moins d'infractions, moins de procédures
+   particulières, moins de formalités.
+5. Une justice qui rend compte : barème public, dérogations tracées, statistiques
+   par juridiction.
+
+**Principes**
+
+1. Le maximum encouru est la référence. Les dérogations sont nommées, chiffrées,
+   plafonnées et motivées.
+2. Les motifs de dérogation sont des constantes qui ont un sens : discernement,
+   minorité, collaboration, aveu précoce, réparation, rôle accessoire, absence
+   d'antécédent. La récidive et la vulnérabilité de la victime resserrent les
+   plafonds.
+3. La charge de la motivation pèse sur l'écart à la référence, non sur son
+   application.
+4. Chaque norme prouve sa nécessité et son coût (livre, folio 93). Une création se
+   compense par deux abrogations.
+5. Le règlement d'abord, la loi ensuite. Tout se rédige en double numérotation
+   (code actuel et code de 2029).
+6. Les lignes rouges sont tenues au plus près de leur noyau, et seulement là
+   (section « Lignes rouges »).
+7. Les principes de la révision constitutionnelle se transposent à droit constant :
+   jury, effectivité, redevabilité, transparence.
+
+**Points à prendre en compte**
+
+- Capacité carcérale et coût : barème, dissuasion et places se chiffrent ensemble.
+- Contrôle constitutionnel : décisions à confronter avant tout livrable diffusable,
+  et soupape à arbitrer.
+- Objection IPP n° 99 : seule une contrainte change les décisions. Le barème est une
+  contrainte, il produira donc un effet, qui doit être assumé et chiffré.
+- Calendrier : le CPP de 2029 entre en vigueur le 1er janvier 2029 (ordonnance
+  n° 2025-1091). Sa partie réglementaire est en cours depuis le décret
+  n° 2026-907.
+- Données : nomenclature NATINF pour le stock d'infractions, casier judiciaire et
+  SDSE pour les peines prononcées, IPJ pour l'exécution.
+- Cohérence : le barème s'applique aux procédures rapides (CRPC, ordonnance pénale),
+  pour qu'elles n'en deviennent pas le contournement.
 
 ## Transposition de la révision constitutionnelle (proposé, à droit constant)
 

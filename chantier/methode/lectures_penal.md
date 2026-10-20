@@ -74,8 +74,10 @@ PDF, sha256 `149b8716a669692d27e289233b3e67f77e416a6099e40d396fae3bd5e45759f4`.
   d'incarcération. Il faudrait environ 330 000 places et 80 Md€
   d'investissement, et le budget pénitentiaire passerait d'environ 2,7 Md€ à 19 Md€.
 - Conclusion de l'IPP : baisser les maxima encourus.
-- Usage : objection principale. La réponse est dans `procedure_revision_penale.md`,
-  section « Peines ».
+- Usage : l'analyse est retenue (le maximum est la référence lue par tous), sa
+  conclusion non : on fait atteindre le maximum plus souvent. Le chiffrage de
+  l'IPP sert de borne de coût. Voir `procedure_revision_penale.md`, section
+  « Peines ».
 
 ## IPP — note n° 120, aménagements de peine (Ouss, Philippe, décembre 2025)
 
