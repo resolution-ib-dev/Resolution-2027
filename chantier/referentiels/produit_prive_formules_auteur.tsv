@@ -1,0 +1,23 @@
+ligne	code	libelle	formule_2024	valeur_2024	valeur_2025
+4	B1GQ	Produit intérieur brut (PIB)	2935.236	2935.236	2991.056
+5		croissance volume (déflateur PIB)	=(BZ4/'T_1103 en niveau'!BZ$7)/(BY4/'T_1103 en niveau'!BY$7)-1	0.015041	0.008043
+6		écart à la croissance en % du PIB privé	=BZ5-BZ15	0.015041	0.008043
+7		écart à la croissance en % du PPR	=BZ5-BZ23	0.006187	0.005095
+9	B1GS13	Valeur ajoutée brute publique (D1+EBE)	485.568	485.568	496.054
+10		part en % du PIB	=BZ9/BZ4	0.165427	0.165846
+12	PIB-B1GS13	Produit privé intérieur brut (PP)	=BZ4-BZ9	2449.668	2495.002
+13		part en % du PIB	=BZ12/BZ4	0.834573	0.834154
+14		croissance volume (déflateur PIB)	=(BZ12/'T_1103 en niveau'!BZ$7)/(BY12/'T_1103 en niveau'!BY$7)-1	0.013805	0.007538
+16	DG	Dépenses publiques vers privé	=BZ105-BZ108-BZ75-BZ68-BZ103-BZ300-BZ301	1352.995318	1383.122473
+17		part en % du PIB	=BZ16/BZ4	0.460949	0.462419
+18	RG	Recettes publiques nettes	=BZ136-BZ108-BZ75-BZ68-BZ103-BZ300-BZ301	1183.877218	1230.590473
+19	MG	Maximum (recettes, dépenses)	=MAX(BZ18,BZ16)	1352.995318	1383.122473
+21	PP-MG	Produit privé restant (PPR)	=BZ12-BZ16	1096.672682	1111.879527
+22		part en % du PP	=BZ21/BZ12	0.447682	0.445643
+23		croissance volume (déflateur PIB)	=(BZ21/'T_1103 en niveau'!BZ$7)/('T_1101 en niveau'!BY21/'T_1103 en niveau'!BY$7)-1	0.008853	0.002948
+25	PP-DG	Produit privé restant brut du déficit (PPB)	=BZ12-BZ18	1265.790782	1264.411527
+26		part en % du PP	=BZ25/BZ12	0.516719	0.506778
+27		croissance volume (déflateur PIB)	=(BZ25/'T_1103 en niveau'!BZ$7)/('T_1101 en niveau'!BY25/'T_1103 en niveau'!BY$7)-1	0.019094	-0.011847
+28		Taux de taxation facial	=BZ18/BZ12	0.483281	0.493222
+300		Cotisations obligatoires salariés public estimées	=BZ67*BZ237/BZ197	29.247879	29.569298
+301		Impôts payés par les salariés public estimés	=BZ67*BZ231/(BZ197+BZ195+BZ201)	38.242903	40.35873

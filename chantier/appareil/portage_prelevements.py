@@ -27,6 +27,7 @@ RACINE = Path(__file__).resolve().parent.parent
 REF = RACINE / "referentiels"
 AN = "y2025"
 CREDITS = {76, 77, 79, 80}          # crédits d'impôt sur l'IRPP et l'IS
+RESULTATS = {}                      # rempli par main(), lu par generer_tablettes_prelevements.py
 
 
 def tsv(nom):
@@ -82,6 +83,8 @@ def main():
     m0, e0 = somme("Ménages", False), somme("Entreprises", False)
     rendre("      hors prélèvement à la source", base,
            [("ménages", m0), ("entreprises", e0), ("non affecté", base - m0 - e0)])
+    RESULTATS["auteur"] = dict(base=base, menages=m, entreprises=e, menages_hors_pas=m0,
+                               entreprises_hors_pas=e0)
     ok = abs(base - 1153.214) < 1e-3 and abs(e / base - 0.8819) < 1e-3
 
     # --- P2 : corrigé.
@@ -119,6 +122,8 @@ def main():
            [("ménages", m2 + pas_m), ("entreprises", e2 + pas_e), ("non affecté", base2 - m2 - e2)])
     sal = eurostat("D11", "2024", "nasa_10_nf_tr")
     csg_pub = 0.097 * 0.9825 * sal
+    RESULTATS["corrige"] = dict(base=base2, menages=m2 + pas_m, entreprises=e2 + pas_e, menages_hors_pas=m2,
+                                entreprises_hors_pas=e2, csg_pub=csg_pub)
     print(f"\n  variante : sans la CSG-CRDS sur les traitements publics (9,7 % × 98,25 % × {sal:.1f},"
           f" salaires APU 2024, déduit des taux légaux) = {csg_pub:.1f} ; part des entreprises"
           f" {(e2 + pas_e - csg_pub) / (base2 - csg_pub) * 100:.1f} %")

@@ -104,6 +104,10 @@ retraites comptées comme transferts.
 **L'opinion pense déjà l'inverse** : 58 % des Français estiment contribuer plus
 qu'ils ne reçoivent (Elabe pour BFMTV, septembre 2025).
 
+*Écarté par l'auteur le 20261020* : il conteste la construction de ces comptes
+(qualité de l'argent à l'aller et au retour, volatilité des cas) et ne s'en sert
+pas. L'objection reste à attendre en débat.
+
 Le portage sert donc un autre argument, qui tient : **le prélèvement est rendu
 invisible**, et ce qu'on ne voit pas ne se consent pas. « On leur a menti » ne
 tient pas face à ces deux chiffres.

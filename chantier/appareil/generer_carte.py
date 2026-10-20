@@ -957,6 +957,10 @@ IMPLICITES = {
     'referentiels/insee_3217_payeur_corrections.tsv': 'références internes',
     'referentiels/eurostat_prelevements_apu.tsv': 'références externes',
     'livrables/portage_prelevements_20261020.md': 'bac à sable',
+    'referentiels/insee_comptes_pib_apu_menages_1949_2025.tsv': 'références externes',
+    'referentiels/produit_prive_formules_auteur.tsv': 'références internes',
+    'referentiels/eurostat_heures_travaillees.tsv': 'références externes',
+    'livrables/produit_prive_restant_20261020.md': 'bac à sable',
 }
 
 # La carte se lit en haut du projet, hors famille : elle est la vue, non une

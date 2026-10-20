@@ -6064,3 +6064,27 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - Sort de la TTF, désormais en propriété mais absorbée par l'impôt sur le revenu.
 - Ratio du prélèvement à la source et 30 Md€ de cotisations salariés publics,
   sans source.
+
+## 20261020 — produit-prive-restant-et-tablettes
+
+## Ce qui a changé au corpus
+
+- Classeur Rothbard de l'auteur (`T_1101_1103_PIBtoPPR.xlsx`) digéré :
+  `insee_comptes_pib_apu_menages_1949_2025.tsv`, `produit_prive_formules_auteur.tsv` ;
+  heures travaillées Eurostat. `appareil/produit_prive_restant.py` le rejoue
+  (concorde) et le corrige : maximum non appliqué les années d'excédent, renvoi à
+  une ligne vide, recette amputée de l'excédent brut, production pour compte
+  propre non retirée. Produit privé restant 2024 : 44,8 % du produit privé
+  (classeur), 40,6 % (Rothbard, crédits gardés) ; 61 % en 1959.
+- Proposition sur les « 29 euros » : 63,4 € par heure, 10,5 de production
+  publique, 24,6 prélevés, 3,2 encaissés autrement, 3,7 empruntés, 21,5 restants.
+- Sept tablettes : `appareil/generer_tablettes_prelevements.py` →
+  `livrables/tablettes/` (TSV et classeur mis en forme). Non publiées.
+- Arbitrages : comparaison avant / après sur la notion INSEE ; TTF hors des
+  montants du schéma ; comptes distribués écartés.
+
+## Ce qui reste ouvert
+
+- Sort de la TTF : droits de mutation à titre onéreux proposé.
+- Choix du capital public dans le produit privé restant (retiré de la dépense ou non).
+- Publication des tablettes sur la page Données du site.

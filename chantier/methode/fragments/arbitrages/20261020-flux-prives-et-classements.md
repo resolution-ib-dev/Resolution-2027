@@ -36,3 +36,29 @@ reste « fondu par rattachement — impôt sur le revenu » : un prélèvement d
 l'assiette propriété absorbé par l'impôt sur le revenu. Le sort est la doctrine ;
 il n'est pas touché. À trancher par l'auteur : garder, ou rattacher à la taxe
 foncière comme les autres droits de l'assiette 7.
+
+---
+
+**Second échange du 20261020.**
+
+**La comparaison avant / après de la doctrine reste sur la notion INSEE** des
+prélèvements obligatoires (42,9 % → 36,3 %), à dessein : elle évite le débat de
+définition. La notion du projet (brut de crédits, hors imputées) vaut pour tout le
+reste. Le point d'impact relevé le matin sur le chiffre de tête est clos.
+
+**La TTF : secondaire, hors des montants du schéma.** Elle n'entre dans aucune
+ligne chiffrée de « Refonte fiscalité » : la ligne « IR net » (87,3) est l'impôt
+sur le revenu des comptes, et « à titre onéreux » (17,1) les droits
+d'enregistrement de l'INSEE, qui n'incluent pas la TTF (1,85 Md€ en 2024,
+tableau 3.217). Son rattachement est une étiquette de sort, sans effet sur les
+624,9. *Proposé, non validé* : la ranger avec les droits de mutation à titre
+onéreux, dont elle partage la nature (un droit sur une cession de titres), plutôt
+qu'avec la taxe foncière, dont l'assiette est immobilière.
+
+**Les 29 euros : l'auteur demande une proposition de calcul**, sur le produit
+privé (Rothbard). Elle est versée à `livrables/produit_prive_restant_20261020.md` § 4 ; le
+manuscrit attend l'auteur.
+
+**Les comptes nationaux distribués de l'INSEE (bénéficiaires nets) sont écartés**
+des argumentaires : l'auteur en conteste la construction (qualité de l'argent à
+l'aller et au retour, volatilité des cas).
