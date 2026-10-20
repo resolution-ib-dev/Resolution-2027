@@ -6104,3 +6104,20 @@ renvoie plus que par une ligne — il ne porte plus la table.
 ## Ce qui reste ouvert
 
 - Six points à trancher avant mise en ligne : `livrables/tri_public/a_confirmer.md`.
+
+## 20261020 — tri-reconstruit-sur-le-schema
+
+## Ce qui a changé au corpus
+
+- Tri : 81 cotisations sociales « à unifier » ; jeux maintenus ; électricité
+  fondue (TVA) ; TSA au poste assurances, maintenue ; indemnités au poste main
+  d'œuvre. Contrôle des sièges : 0 échec.
+- `appareil/passage_schema_tri.py` : tableau de passage complet schéma ↔ tri, avec
+  verdict par poste ; onglet « Par poste du schéma » au classeur public.
+- Produit privé restant : variantes `agd_net` (Rothbard 1963 net, Geloso et Reilly
+  2025) et `pm1970` ; amortissements Eurostat versés.
+
+## Ce qui reste ouvert
+
+- Quatre restes déclarés au tableau de passage ; motifs publics et textes.
+- Choix de la formule de référence du produit privé restant.

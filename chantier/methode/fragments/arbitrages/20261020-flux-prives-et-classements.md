@@ -89,3 +89,20 @@ produit privé restant reconstruit d'abord.
 
 **Priorité : publier le tri des prélèvements sur le site une fois confirmé.** Le
 reste (tablettes de fond) est du travail de fond.
+
+---
+
+**Quatrième échange du 20261020.**
+
+**Les cotisations sociales s'isolent en « cotisations sociales à unifier »**, sans
+autre forme : ce n'est pas l'enjeu de la refonte fiscale. 81 rangs.
+
+**Le tri se reconstruit sur les tableaux annexes de l'auteur** : c'est le travail
+attendu, auditer et actualiser, non une liste de questions. Fait poste par poste
+contre « Refonte fiscalité » (`appareil/passage_schema_tri.py`) ; corrections et
+restes déclarés à `livrables/tri_public/a_confirmer.md`.
+
+**Produit privé restant : la production publique ne vaut pas son coût**, ce que
+l'auteur rappelle contre toute construction qui l'y ramène. Textes relus :
+Rothbard 1963 et 1970, Geloso et Reilly 2025. *Proposé* : leur formule nette comme
+référence (PPR 2024 = 29,1 % du produit privé net).

@@ -132,3 +132,59 @@ Rien n'est publié. La page « Données » du site peut les porter après valida
 
 [interne] Bac à sable. Contrôle de rejeu : `produit_prive_restant.py`, code
 retour 1 si le classeur de l'auteur ne se rejoue pas à 10⁻⁴ près.
+
+---
+
+## 6. Relecture des textes originaux — 20261020, second passage — relevé
+
+**Rothbard, *America's Great Depression* (1963)**, appendice « Government and
+the National Product, 1929-1932 » : produit privé = PNB − revenu né dans les
+administrations et les entreprises publiques ; produit privé restant = produit
+privé − le plus élevé de la dépense ou de la recette publique, intérêts versés
+compris. Le calcul est aussi donné sur le produit net (NPP).
+
+**Rothbard, *Power and Market* (1970)**, ch. 5, appendice « The Role of
+Government Expenditures in National Product Statistics » : on part du produit
+national **net** ; on retire le revenu né dans les administrations (les
+traitements) ; puis les déprédations : achats aux entreprises, achats des
+entreprises publiques, transferts. Forme simple : produit net − le plus élevé de
+la dépense totale ou de la recette totale. Les traitements y sont retranchés une
+fois.
+
+**Geloso et Reilly, « National output without government? State capacity and
+welfare measurement », *Journal of Government and Economics*, vol. 19, 2025**
+(document de travail GMU 25-21) : PPR = Y − Y_G − max(E, R), sur le produit net,
+États-Unis 1889-2024, le PPR tenu pour borne basse du produit national et le PIB
+pour borne haute. C'est la formule de 1963 sur le produit net. *Article non
+ouvert (accès refusé) : formule relevée sur la présentation qu'en donne le
+Human Action Podcast de l'Institut Mises, juin 2025.*
+
+**Ce qui en découle pour l'excédent brut public.** Aucun des trois textes ne
+compte la production publique à son coût : elle est retirée en entier du
+produit. Le capital public suit le même sort, mais du côté du produit : en
+passant au produit net, l'amortissement de toute l'économie sort, et avec lui
+l'excédent brut public, qui n'est que l'amortissement du capital public compté
+à son coût. Du côté de la dépense, les trois textes retranchent les achats
+publics en brut, investissement compris. Retirer l'excédent brut public de la
+dépense, comme le fait le classeur, n'a de répondant dans aucun d'eux : cela
+revient à nettoyer l'investissement public en gardant le produit privé brut.
+
+| 2024 | formule | PPR, Md€ | % du produit privé | % du PIB |
+|---|---|---|---|---|
+| classeur de l'auteur | brut, EBE retiré de la dépense | 1 096,7 | 44,8 % | 37,4 % |
+| Rothbard 1963, brut | GPP − max(E, R) | 1 013,8 | 41,4 % | 34,5 % |
+| **Rothbard 1963, net = Geloso et Reilly 2025** | PNN − Y_G − max(E, R) | **588,7** | **29,1 %** | **20,1 %** |
+| Rothbard 1970 | PNN − max(E, R) | 779,1 | 38,5 % | 26,5 % |
+
+Dépense et recette hors circuit public (cotisations et impôts sur la masse
+salariale publique), hors production pour compte propre, crédits d'impôt nettés
+comme le fait l'auteur. Amortissements : Eurostat, `nasa_10_nf_tr`, P51C, 1978-2024
+(`referentiels/eurostat_ccf.tsv`). La forme de 1970 garde le circuit dans la
+dépense : les traitements, cotisations comprises, n'y sont comptés qu'une fois.
+
+Série, formule Geloso et Reilly, PPR en % du produit privé net : 42,5 % en 1978,
+38,7 % en 1990, 37,3 % en 2000, 36,0 % en 2007, 32,7 % en 2019, 21,6 % en 2020,
+29,1 % en 2024.
+
+*Proposé, non validé* : la formule de Geloso et Reilly comme référence, publiée
+et relue, et la plus proche de la structure du classeur.

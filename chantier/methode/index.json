@@ -10244,6 +10244,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/passage_schema_tri",
+   "chemin": "appareil/passage_schema_tri.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/passage_schema_tri.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/pieces_nommees",
    "chemin": "appareil/pieces_nommees.py",
    "rang": "appareil",
@@ -11108,6 +11122,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/livrables/tri_public/a_confirmer.md",
+   "releve": true,
+   "famille": "bac à sable"
+  },
+  {
+   "role": "fichier:livrables/tri_public/passage_schema_tri",
+   "chemin": "livrables/tri_public/passage_schema_tri.tsv",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/tri_public/passage_schema_tri.tsv",
    "releve": true,
    "famille": "bac à sable"
   },
@@ -13968,6 +13996,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/eurostat_ccf",
+   "chemin": "referentiels/eurostat_ccf.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/eurostat_ccf.tsv",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
    "role": "fichier:referentiels/eurostat_heures_travaillees",
    "chemin": "referentiels/eurostat_heures_travaillees.tsv",
    "rang": "referentiel",
@@ -14204,6 +14246,20 @@
    "chemin_coffre": "chantier/referentiels/releves_transversaux_plfss2027.tsv",
    "releve": true,
    "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/schema_refonte_fiscalite_2024",
+   "chemin": "referentiels/schema_refonte_fiscalite_2024.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/schema_refonte_fiscalite_2024.tsv",
+   "releve": true,
+   "famille": "références internes"
   },
   {
    "role": "fichier:referentiels/sieges_complement_20261013",
@@ -14458,6 +14514,7 @@
    "appareil/noter_eval_expose.py",
    "appareil/noter_eval_gl.py",
    "appareil/partage_calibrage.py",
+   "appareil/passage_schema_tri.py",
    "appareil/pieces_nommees.py",
    "appareil/plages_articles.py",
    "appareil/plier_lot.py",
@@ -14550,6 +14607,7 @@
    "livrables/tablettes/Tablettes_prelevements.xlsx",
    "livrables/tri_public/Tri des prélèvements Résolution.xlsx",
    "livrables/tri_public/a_confirmer.md",
+   "livrables/tri_public/passage_schema_tri.tsv",
    "livrables/valise_phase1_20261002.md",
    "machine/00_COMMENCER_ICI.md",
    "machine/01_DEMARRER.md",
@@ -14755,6 +14813,7 @@
    "referentiels/commissions_jaune2026_20261014_lisez_moi.md",
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
    "referentiels/etatB_2027_bg.tsv",
+   "referentiels/eurostat_ccf.tsv",
    "referentiels/eurostat_heures_travaillees.tsv",
    "referentiels/eurostat_prelevements_apu.tsv",
    "referentiels/frictions_penal.tsv",
@@ -14778,6 +14837,7 @@
    "referentiels/redaction_plfss2027.json",
    "referentiels/releves_transversaux_plf2027.tsv",
    "referentiels/releves_transversaux_plfss2027.tsv",
+   "referentiels/schema_refonte_fiscalite_2024.tsv",
    "referentiels/sieges_complement_20261013.tsv",
    "referentiels/sieges_operateurs_20261013.tsv",
    "referentiels/sieges_operateurs_20261013_lisez_moi.md",
@@ -14957,10 +15017,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 949,
-  "au_coffre": 890,
-  "au_depot": 432,
-  "derives": 284,
+  "artefacts": 953,
+  "au_coffre": 894,
+  "au_depot": 436,
+  "derives": 285,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

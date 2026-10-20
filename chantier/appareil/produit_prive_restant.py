@@ -11,7 +11,21 @@ Pièces lues :
   referentiels/produit_prive_formules_auteur.tsv  ses formules et valeurs 2024-2025
   referentiels/eurostat_heures_travaillees.tsv    heures travaillées
 
-Les notions, au sens de Rothbard (Power and Market, ch. 5) :
+Les textes de Rothbard, relus le 20261020 :
+  America's Great Depression (1963), appendice « Government and the National
+  Product, 1929-1932 » : produit privé brut (GPP) = PNB − revenu né dans les
+  administrations et les entreprises publiques ; PPR = GPP − le plus élevé de la
+  dépense ou de la recette publique. Les intérêts versés se déduisent en entier.
+  Le calcul est aussi donné en net (NPP), après amortissements.
+  Power and Market (1970), ch. 5, appendice « The Role of Government
+  Expenditures in National Product Statistics » : on part du produit national
+  NET ; NPP = PNN − revenu né dans les administrations (les traitements) ; PPR =
+  NPP − les déprédations : achats aux entreprises, achats des entreprises
+  publiques, transferts. Forme simple : PPR = PNN − le plus élevé de la dépense
+  totale ou de la recette totale. Les traitements publics y sont retranchés une
+  fois, non deux.
+
+Notions du calcul :
   PP   produit privé = PIB − valeur ajoutée des administrations publiques
   DG   dépenses publiques tournées vers le privé, hors flux internes au circuit
   RG   recettes publiques, hors flux internes au circuit
@@ -30,6 +44,12 @@ Variantes :
               imputée sur l'impôt dû n'est versée par personne et sort des deux
               côtés ; la part restituée est un décaissement du Trésor et reste en
               dépense (tableau 3.217, ligne « au-delà de l'impôt dû »)
+  agd_net     America's Great Depression sur le produit net : amortissements de
+              toute l'économie retirés (Eurostat, P51C), dépense et recette comme
+              « rothbard »
+  pm1970      Power and Market : PNN − max(dépense totale, recette totale), hors
+              production pour compte propre et crédits d'impôt ; les traitements
+              publics retranchés une fois
   neutralise  le choix de l'auteur gardé : excédent brut d'exploitation public
               et autres acquisitions retirés de la dépense comme de la recette,
               erreurs de formule levées (maximum, production pour compte propre)
@@ -66,9 +86,17 @@ def restitues():
     return {}
 
 
+def ccf():
+    c = {}
+    for r in csv.DictReader((REF / "eurostat_ccf.tsv").open(encoding="utf-8"), delimiter="\t"):
+        c[(r["secteur"], int(r["annee"]))] = float(r["valeur_M"]) / 1000
+    return c
+
+
 def serie(t, variante="auteur"):
     s = {}
     rest = restitues() if variante == "flux" else {}
+    amort = ccf() if variante in ("agd_net", "pm1970") else {}
     for a in ANNEES:
         g = lambda l: t[l].get(a, 0.0)
         cot_pub = g(D11_APU) * g(D613CE) / g(D11_MEN)                       # ligne 300
@@ -79,6 +107,13 @@ def serie(t, variante="auteur"):
             dg = g(DEP) - g(CI_DEP) - g(EBE) - g(D12) - g(AUTRES_ACQ) - cot_pub - imp_pub
             rg = g(REC) - g(CI_DEP) - g(EBE) - g(D12) - g(AUTRES_ACQ) - cot_pub - imp_pub
             ppr = pp - dg                       # le classeur retranche DG, non le maximum
+        elif variante == "pm1970":
+            if ("S1", a) not in amort:
+                continue
+            pp = g(PIB) - amort[("S1", a)] - (g(VAPUB) - amort[("S13", a)])     # NPP
+            dg = g(DEP) - g(P12_DEP) - g(CI_DEP)
+            rg = g(REC) - g(P12_REC) - g(CI_REC)
+            ppr = (g(PIB) - amort[("S1", a)]) - max(dg, rg)                      # PNN − max
         else:
             dg = g(DEP) - circuit - g(P12_DEP)
             rg = g(REC) - circuit - g(P12_REC)
@@ -89,6 +124,10 @@ def serie(t, variante="auteur"):
             if variante == "neutralise":
                 dg -= g(EBE) + g(AUTRES_ACQ)
                 rg -= g(EBE) + g(AUTRES_ACQ)
+            if variante == "agd_net":
+                if ("S1", a) not in amort:
+                    continue
+                pp -= amort[("S1", a)] - amort[("S13", a)]                       # NPP
             ppr = pp - max(dg, rg)
         s[a] = dict(pib=g(PIB), vapub=g(VAPUB), pp=pp, dg=dg, rg=rg, mg=max(dg, rg), ppr=ppr,
                     ppb=pp - rg, deficit=dg - rg, cot_pub=cot_pub, imp_pub=imp_pub, defl=g(DEFL))
@@ -128,7 +167,7 @@ def main():
     ecarts = verifier(t)
     print("Rejeu du classeur de l'auteur, 2024-2025 :", "concorde" if not ecarts else ecarts)
     h = heures()
-    for v in ("auteur", "neutralise", "rothbard", "flux", "credits"):
+    for v in ("auteur", "neutralise", "rothbard", "flux", "credits", "agd_net", "pm1970"):
         s = serie(t, v)
         x = s[2024]
         print(f"\n{v:10} 2024  PP {x['pp']:7.1f}  DG {x['dg']:7.1f}  RG {x['rg']:7.1f}  "

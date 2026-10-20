@@ -23,12 +23,15 @@ import tempfile
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import passage_schema_tri
+
 RACINE = Path(__file__).resolve().parent.parent
 REF = RACINE / "referentiels"
 SORTIE = RACINE / "livrables/tri_public"
 NOM = "Tri des prélèvements Résolution.xlsx"
 
-SORTS = ["conservé et absorbe", "fondu par rattachement", "fondu dans l’équilibre", "maintenu à part", "hors champ"]
+SORTS = ["conservé et absorbe", "fondu par rattachement", "fondu dans l’équilibre", "maintenu à part",
+         "cotisations sociales à unifier", "hors champ"]
 DEFINITIONS = [
     ("Conservé et absorbe", "L’un des quatre impôts que la refonte garde : taxe sur la valeur ajoutée, impôt sur "
      "le revenu, impôt sur les sociétés, taxe foncière. Il reprend le produit des prélèvements fondus en lui."),
@@ -38,6 +41,8 @@ DEFINITIONS = [
      "quatre impôts conservés, sans rattachement à l’un d’eux."),
     ("Maintenu à part", "Le prélèvement demeure, en complément de l’impôt qu’il prolonge (colonne « Impôt qui le "
      "reprend »)."),
+    ("Cotisations sociales à unifier", "Les cotisations sociales ne relèvent pas de la refonte fiscale : elles "
+     "sont isolées, pour être unifiées."),
     ("Hors champ", "Recette publique qui n’est pas un prélèvement obligatoire (produit d’enchères, recette "
      "non fiscale) : recensée, non triée."),
 ]
@@ -103,7 +108,7 @@ def classeur(data):
         (f"{len(data)} prélèvements obligatoires recensés, un par un, et le sort que la refonte fiscale de "
          "Résolution réserve à chacun.", None),
         ("", None),
-        ("Les cinq sorts", gras),
+        ("Les six sorts", gras),
         *[(f"{a} — {b}", None) for a, b in DEFINITIONS],
         ("", None),
         ("Lire le tri", gras),
@@ -171,6 +176,23 @@ def classeur(data):
     synthese("Par impôt qui reprend", "Impôt", "G",
              ["Taxe sur la valeur ajoutée", "Impôt sur le revenu", "Impôt sur les sociétés", "Taxe foncière"],
              "Prélèvements fondus par rattachement et maintenus en complément.")
+    p = wb.create_sheet("Par poste du schéma")
+    p.append(["Poste du schéma de refonte", "Montant 2024 (Md€)", "Taxes à supprimer (Md€)", "Prélèvements",
+              "dont fondus", "dont maintenus", "Rendement 2026 publié (Md€)"])
+    for c in p[1]:
+        c.font, c.fill = gras, gris
+        c.alignment = Alignment(wrap_text=True, vertical="bottom")
+    for l in passage_schema_tri.table():
+        p.append([l["poste"][:1].upper() + l["poste"][1:], l["montant_2024"], l["taxes_a_supprimer"],
+                  l["prelevements"], l["fondus"], l["maintenus"], l["rendement_2026"]])
+    for row in p.iter_rows(min_row=2):
+        for k in (1, 2, 6):
+            row[k].number_format = "#,##0.0"
+    p.cell(p.max_row + 2, 1, "Montants du schéma : produit 2024 des comptes nationaux (INSEE). Rendements du tri : "
+           "ce que l’État publie pour 2026. Les deux ne se comparent pas terme à terme.")
+    p.column_dimensions["A"].width = 46
+    for col in "BCDEFG":
+        p.column_dimensions[col].width = 16
     return wb
 
 
