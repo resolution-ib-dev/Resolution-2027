@@ -10230,6 +10230,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/portage_prelevements",
+   "chemin": "appareil/portage_prelevements.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/portage_prelevements.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/portes_ouvertes",
    "chemin": "appareil/portes_ouvertes.py",
    "rang": "appareil",
@@ -10802,6 +10816,20 @@
    "chemin_coffre": "chantier/livrables/niches_creees_ou_prorogees_plf2027.md",
    "releve": true,
    "famille": "juridique"
+  },
+  {
+   "role": "fichier:livrables/portage_prelevements_20261020",
+   "chemin": "livrables/portage_prelevements_20261020.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/portage_prelevements_20261020.md",
+   "releve": true,
+   "famille": "bac à sable"
   },
   {
    "role": "fichier:livrables/portes_ouvertes_plf2027",
@@ -12722,6 +12750,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:methode/fragments/arbitrages/20261020-flux-prives-et-classements",
+   "chemin": "methode/fragments/arbitrages/20261020-flux-prives-et-classements.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/fragments/arbitrages/20261020-flux-prives-et-classements.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:methode/fragments/journal/20261001-lecture-plf2027",
    "chemin": "methode/fragments/journal/20261001-lecture-plf2027.md",
    "rang": "methode",
@@ -13730,6 +13772,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/eurostat_prelevements_apu",
+   "chemin": "referentiels/eurostat_prelevements_apu.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/eurostat_prelevements_apu.tsv",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
    "role": "fichier:referentiels/frictions_penal",
    "chemin": "referentiels/frictions_penal.tsv",
    "rang": "referentiel",
@@ -13742,6 +13798,34 @@
    "chemin_coffre": "chantier/referentiels/frictions_penal.tsv",
    "releve": true,
    "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/insee_3217_payeur",
+   "chemin": "referentiels/insee_3217_payeur.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/insee_3217_payeur.tsv",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
+   "role": "fichier:referentiels/insee_3217_payeur_corrections",
+   "chemin": "referentiels/insee_3217_payeur_corrections.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/insee_3217_payeur_corrections.tsv",
+   "releve": true,
+   "famille": "références internes"
   },
   {
    "role": "fichier:referentiels/niches_sieges_20261004",
@@ -14138,6 +14222,7 @@
    "appareil/plages_articles.py",
    "appareil/plier_lot.py",
    "appareil/plier_paquet.py",
+   "appareil/portage_prelevements.py",
    "appareil/porter_bloc.py",
    "appareil/portes_domaine.py",
    "appareil/portes_domaine_lfss.py",
@@ -14206,6 +14291,7 @@
    "livrables/lecture_plf2027_lisible.md",
    "livrables/lecture_plfss2027_lisible.md",
    "livrables/niches_creees_ou_prorogees_plf2027.md",
+   "livrables/portage_prelevements_20261020.md",
    "livrables/portes_ouvertes_plf2027.md",
    "livrables/registre_calcul_etatB.md",
    "livrables/releve_siege_prelevements_20261001.md",
@@ -14343,6 +14429,7 @@
    "methode/fragments/arbitrages/20261010-contreparties-et-controles.md",
    "methode/fragments/arbitrages/20261016-fonds-vert-extinction-totale.md",
    "methode/fragments/arbitrages/20261016-sieges-prelevements.md",
+   "methode/fragments/arbitrages/20261020-flux-prives-et-classements.md",
    "methode/fragments/journal/20261001-lecture-plf2027.md",
    "methode/fragments/journal/20261001-lecture-plfss-2027.md",
    "methode/fragments/journal/20261001-liste-plfss-2027.md",
@@ -14416,7 +14503,10 @@
    "referentiels/commissions_jaune2026_20261014_lisez_moi.md",
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
    "referentiels/etatB_2027_bg.tsv",
+   "referentiels/eurostat_prelevements_apu.tsv",
    "referentiels/frictions_penal.tsv",
+   "referentiels/insee_3217_payeur.tsv",
+   "referentiels/insee_3217_payeur_corrections.tsv",
    "referentiels/lots_epreuve.json",
    "referentiels/niches_sieges_20261004.tsv",
    "referentiels/niches_sieges_regles_de_lecture_20261004.md",
@@ -14612,10 +14702,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 926,
-  "au_coffre": 867,
-  "au_depot": 409,
-  "derives": 272,
+  "artefacts": 932,
+  "au_coffre": 873,
+  "au_depot": 415,
+  "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

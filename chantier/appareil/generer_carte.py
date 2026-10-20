@@ -953,6 +953,10 @@ IMPLICITES = {
     'referentiels/prelevements_7classements_1995_2024.tsv': 'références externes',
     'referentiels/prelevements_7classements_passage.tsv': 'références externes',
     'livrables/confrontation_sept_classements_20261020.md': 'bac à sable',
+    'referentiels/insee_3217_payeur.tsv': 'références externes',
+    'referentiels/insee_3217_payeur_corrections.tsv': 'références internes',
+    'referentiels/eurostat_prelevements_apu.tsv': 'références externes',
+    'livrables/portage_prelevements_20261020.md': 'bac à sable',
 }
 
 # La carte se lit en haut du projet, hors famille : elle est la vue, non une

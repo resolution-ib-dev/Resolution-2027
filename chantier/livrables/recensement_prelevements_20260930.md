@@ -226,3 +226,56 @@ sociales », tableau 5 · INSEE, comptes nationaux base 2020, tableau 3.217,
 exercice 2024 · INSEE, *Informations rapides* n° 81 · *La Revue de la Fondation
 IFRAP* n° 277, avril 2026 · `Synthèse Calculs Résolution`, onglet « Refonte
 fiscalité » · dépôt de droit `resolution-ib-dev/Resolution-2027`.
+
+---
+
+## Erratum du 20261020
+
+Relevé par la confrontation avec la table « sept classements »
+(`livrables/confrontation_sept_classements_20261020.md`), rejoué par
+`appareil/rapprocher_7classements.py`.
+
+**Le bouclage écrit plus haut est faux.** 1 248,09 + 26,77 − 51,22 − 4,62 −
+19,49 = 1 199,53, et non 1 250,76 : les cotisations imputées ne sont dans aucune
+des huit assiettes (l'assiette 1 porte les 431,06 de cotisations effectives), et
+les retrancher les retire deux fois. Le bouclage juste, au millésime de ce
+compte rendu :
+
+| étape | Md€ 2024 |
+|---|---|
+| huit assiettes | 1 248,09 |
+| solde non ventilé, dont 8,88 de crédits d'impôt sur le revenu réintégrés | + 26,77 |
+| = prélèvements bruts, hors cotisations imputées et hors TEOM | 1 274,86 |
+| non recouvré | − 4,62 |
+| = agrégat Eurostat hors cotisations imputées (`gov_10a_taxag`) | 1 270,24 |
+| crédits d'impôt, retranchés par la seule convention INSEE | − 19,49 |
+| = prélèvements obligatoires INSEE | 1 250,75 |
+
+Depuis l'arbitrage du 20261020, **l'agrégat du projet est le brut hors
+cotisations imputées et hors non recouvré, crédits d'impôt non retranchés** :
+1 270,24 à ce millésime. Le taux INSEE se garde en traçabilité.
+
+**La part du bloc social se redit sur cet agrégat** : 617,72 / 1 270,24 =
+48,6 % (et non 49,4 %, rapporté aux prélèvements obligatoires INSEE).
+
+**Millésime.** Les masses de ce compte rendu sont celles de l'édition INSEE qui
+donnait 1 250,76 de prélèvements obligatoires 2024. L'édition du tableau 3.217
+remise par l'auteur le 20261020 (`referentiels/insee_3217_payeur.tsv`) révise
+2024 à 1 254,02 et porte 2025 à 1 305,07. Les masses par assiette n'ont pas été
+reventilées sur la nouvelle édition.
+
+**Trois reclassements**, arbitrage de l'auteur du 20261020 : taxe sur les
+transactions financières de l'assiette 4 à l'assiette 7 ; contributions sur les
+indemnités de rupture conventionnelle et de mise à la retraite de l'assiette 1 à
+l'assiette 2 ; redevances des agences de l'eau dans leur sous-catégorie de
+consommation. Effet sur le tableau des assiettes, recompté au référentiel :
+
+| assiette | prélèvements | rendement connu 2026 |
+|---|---|---|
+| 1. Les cotisations sociales | 83 → 81 | 2,2 → 1,3 |
+| 2. Les contributions sociales sur les revenus | 16 → 18 | 192,4 → 193,2 |
+| 4. Le revenu des personnes | 12 → 11 | 142,8 → 140,2 |
+| 7. La propriété et les droits d'usage | 117 → 118 | 65,4 → 68,1 |
+
+Les masses réelles 2024 ne bougent pas : aucun des quatre rangs n'y était
+ventilé.

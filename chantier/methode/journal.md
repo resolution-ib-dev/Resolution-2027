@@ -6039,3 +6039,28 @@ renvoie plus que par une ligne — il ne porte plus la table.
   Correction proposée au § 2 de la confrontation.
 - Trois reclassements proposés au tri (TTF, redevances eau, contributions sur
   indemnités) et trois colonnes de passage INSEE / OCDE / TAXUD ; non appliqués.
+
+## 20261020 — flux-prives-et-portage
+
+## Ce qui a changé au corpus
+
+- Arbitrages de l'auteur (fragment `20261020-flux-prives-et-classements.md`) :
+  redevances eau en consommation ; cotisations imputées ignorées ; crédits
+  d'impôt non retranchés (comme Eurostat) ; objectif, les flux physiques privés.
+- Tri : TTF en assiette 7, contributions sur indemnités de rupture et de mise à
+  la retraite en assiette 2, redevances eau en « Eau, déchets et boissons
+  sucrées » — `prelevements_forces_20260930.tsv`, `sort_prelevements_20261015.tsv`,
+  `Tri_prelevements_20261015.xlsx` (recalculé). Contrôle des sièges : 0 échec.
+- Erratum au compte rendu du recensement : bouclage, part du bloc social (48,6 %),
+  assiettes recomptées.
+- Portage : `T_3217` de l'auteur digéré (`insee_3217_payeur*.tsv`), extraction
+  Eurostat (`eurostat_prelevements_apu.tsv`), `appareil/portage_prelevements.py`,
+  `livrables/portage_prelevements_20261020.md`. 88,2 % rejoué, 88,1 % corrigé.
+
+## Ce qui reste ouvert
+
+- Base du chiffre de tête 42,9 % → 36,3 % : concept net de crédits et trois
+  millésimes 2024 (1 250,76 / 1 251,8 / 1 254,02). À l'auteur.
+- Sort de la TTF, désormais en propriété mais absorbée par l'impôt sur le revenu.
+- Ratio du prélèvement à la source et 30 Md€ de cotisations salariés publics,
+  sans source.

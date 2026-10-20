@@ -148,3 +148,57 @@ plus fine que son « fiscal / non fiscal ».
 [interne] Rapprochement rejoué par `appareil/rapprocher_7classements.py` le
 20261020 : R1 concorde, R2 écart relevé. Pièce tierce, non validée par l'auteur ;
 reste au bac à sable.
+
+## 8. Suites données le 20261020 — arbitrage de l'auteur
+
+Décisions au registre : `methode/fragments/arbitrages/20261020-flux-prives-et-classements.md`.
+
+| suite | état |
+|---|---|
+| 1. bouclage | corrigé par erratum daté au compte rendu du 20260930 |
+| 2. trois reclassements | appliqués au référentiel, au tri du 20261015 et au classeur ; contrôle des sièges 0 échec |
+| 3. colonnes de passage INSEE / OCDE / TAXUD | non faites : l'appariement des 420 rangs aux 121 lignes est un chantier propre |
+| 4. glissade cotisation → contribution | chiffrée au § 3, à verser à l'argumentaire |
+| crédits d'impôt | l'agrégat du projet est brut de crédits d'impôt, comme Eurostat (1 270,24 en 2024, édition antérieure) |
+| portage | `livrables/portage_prelevements_20261020.md` |
+
+## 9. Où cela porte chez nous — relevé au corpus le 20261020
+
+**Le chiffre de tête de la doctrine.** « Prélèvements ramenés de 42,9 % à
+36,3 % » : `appareil/justifications.py` (l. 663), `REF_doctrine` (D11-e1),
+`appareil/controle_arithmetique.py` (l. 238-240),
+`livrables/mecanique_gages_restitutions_20260929.md`, `livrables/sort_prelevements_20260930.md`,
+onglet `Refonte fiscalité` (F3 : 1 251,8 sur 2 919,9). Deux causes de dérive :
+
+- **le concept** : 1 251,8 est net de crédits d'impôt. Sur l'agrégat arbitré
+  aujourd'hui (brut de crédits, hors imputées), la base 2024 vaut 1 273,6 sur
+  l'édition récente (1 254,0 + 19,6), soit 43,4 % du PIB 2024 de cette édition
+  (2 935,2) ;
+- **le millésime** : trois éditions coexistent pour 2024 — 1 250,76
+  (fiscaliste, Eurostat, compte rendu du 20260930), 1 251,8 (classeur,
+  arbitrage du 20260930), 1 254,02 (tableau remis aujourd'hui).
+
+La cible 36,3 % et la baisse de 191 Md€ sont calculées sur 1 251,8. Le
+classeur est une pièce de l'auteur : rien n'y est touché.
+
+**Le bouclage du schéma** (1 251,8 − 626,9 = 624,9, arbitrage du 20260930) suit
+le même concept net de crédits.
+
+**Le compte rendu du recensement** : bouclage, part du bloc social (49,4 % →
+48,6 %), tableau des assiettes — erratum versé.
+
+**Le tri** : quatre rangs reclassés ; le sort de la TTF (absorbée par l'impôt
+sur le revenu alors qu'elle est désormais dans la propriété) est à trancher.
+
+**Les flux publics dans le tri.** Le premier rang du référentiel — cotisation
+des collectivités aux centres de gestion — est payé par une administration à une
+autre. Le tri ne distingue pas le payeur public du payeur privé : une colonne
+« payeur » le permettrait, sur le critère de l'auteur.
+
+**L'argument « Pour une heure de travail… 29 euros prélevés »** (manuscrit,
+graphique VA) dépend du concept de prélèvement. Le manuscrit ne se révise pas
+depuis l'aval ; à vérifier sur sa note de fin.
+
+**Le site** (Site-ETNP) ne porte aucun taux de prélèvements obligatoires : aucun
+effet. La fiche « entreprise » (« l'entreprise est neutre : ses prélèvements
+nets de subventions et d'aides sont stables ») est cohérente avec le portage.
