@@ -33,6 +33,12 @@ A), puis la partie législative (L), sous la doctrine du livre.
   *(20261020, corrige l'énoncé de la veille)*
 - Ces exigences entrent dans les objectifs, les principes et les points à prendre en
   compte de la recodification. *(20261020)*
+- Les décotes du repenti et de l'aveu sont trop fortes. Toutes les diminutions
+  tiennent dans un même bloc, en catégories larges et principielles tirées des
+  pratiques connues : la personne, le comportement pendant l'acte, le comportement
+  après l'acte. Le référentiel doit être univoque, sans circularité entre peine
+  prévue et peine prononcée. Pour un mineur, le point de départ est réduit de
+  moitié. La rédaction exacte sera revue. *(20261020)*
 
 ## Ancrage doctrinal (livre EP3)
 
@@ -145,36 +151,46 @@ disponible.
 Le droit français module donc **déjà** l'encouru par fractions fixes : un tiers, la
 moitié, le double. Le barème généralise une technique éprouvée, il ne l'invente pas.
 
-### Le barème proposé
+### Le barème proposé (version 2, 20261020)
 
-**La règle.** La peine de référence est le maximum encouru, circonstances
-aggravantes et récidive comprises. La juridiction la prononce. Elle ne s'en écarte
-que par les minorations ci-dessous, chacune nommée dans le jugement, chiffrée,
-appuyée sur une pièce du dossier. La situation matérielle, familiale et sociale
-n'entre plus dans le quantum : elle relève du régime d'exécution.
+**Une seule référence : la peine encourue.** C'est le terme du code. La juridiction
+prononce la peine encourue, circonstances aggravantes et récidive comprises. Toute
+diminution est une fraction de la peine encourue, et les fractions s'additionnent.
+« Prononcée » désigne le seul résultat.
 
-| minoration | taux | condition | constante d'origine |
-|---|---|---|---|
-| discernement altéré | − 1/3 | expertise au dossier | CP 122-1 |
-| minorité | − 1/2 (13-16 ans) ; − 1/2 écartable par motivation (16-18 ans) | âge aux faits | CJPM L121-5 |
-| collaboration | − 1/2 | infraction évitée ou coauteurs identifiés | CP 132-78 |
-| aveu à la première occasion | − 25 % en garde à vue ou à la première comparution ; − 10 % avant l'audience ; 0 à l'audience | aveu circonstancié, maintenu | modèle anglais de la réduction pour plaider-coupable, à confronter |
-| réparation intégrale avant jugement | − 10 % | atteintes aux biens seulement | ajournement pour réparation (CP 132-60) |
-| rôle accessoire | − 20 % | pluralité d'auteurs, rôle établi | complicité |
-| casier vierge | − 20 % | délits seulement, hors atteintes aux personnes | — |
+**Trois catégories de diminution, chacune bornée :**
 
-| profil | plafond cumulé des minorations (hors discernement, minorité et collaboration, qui s'appliquent d'abord à l'encouru) |
+| catégorie | exemples de motifs | limite |
+|---|---|---|
+| 1. la personne de l'auteur au moment des faits | discernement altéré, absence de condamnation antérieure | 1/3 |
+| 2. son comportement pendant l'infraction | rôle accessoire, préjudice limité, provocation de la victime | 1/5 |
+| 3. son comportement après l'infraction | reconnaissance des faits, aide à l'enquête (repenti), réparation du préjudice | 1/5 |
+
+**Plafond total, selon les antécédents et la victime :**
+
+| situation | total des diminutions |
 |---|---|
-| majeur sans antécédent | 50 % |
-| réitérant (CP 132-16-7) | 30 %, sans la minoration « casier vierge » |
-| récidiviste légal | 25 %, sans « casier vierge » ni « aveu avant l'audience » |
-| atteinte à un mineur ou à une personne vulnérable | 25 % |
+| aucun antécédent | 1/2 |
+| réitération (CP 132-16-7) | 1/3 |
+| récidive légale, ou victime mineure ou particulièrement vulnérable | 1/4 |
 
-**Soupape (option, conseillée pour le contrôle constitutionnel).** Une minoration
-supplémentaire de 25 % au plus, pour une circonstance exceptionnelle tenant aux
-faits, jamais à la personnalité. Elle exige une décision spécialement motivée,
-ouvre l'appel de plein droit au parquet et est publiée dans les statistiques de la
-juridiction.
+**Mineurs.** La peine encourue sert de point de départ réduit de moitié (logique
+de CJPM L121-5). Le barème s'applique ensuite à cette base. L'atténuation de la
+responsabilité des mineurs est un principe fondamental reconnu par les lois de la
+République (CC 2002-461 DC). Le point de départ divisé par deux la satisfait.
+
+**Repenti et aveu.** Les décotes actuelles (moitié pour le repenti, CP 132-78 et
+les articles spéciaux qui le déclinent) entrent dans la catégorie 3, limitée au
+cinquième. Les articles spéciaux portant « réduite de moitié » s'alignent : leur
+inventaire est à faire dans la base.
+
+**Motivation.** Le jugement énonce chaque motif retenu, les faits qui l'établissent
+et la fraction appliquée. La situation matérielle, familiale et sociale relève du
+régime d'exécution, pas du quantum.
+
+**À arbitrer** : motifs ouverts (« notamment ») ou fermés à l'intérieur de chaque
+catégorie ; limites des catégories ; suppression de la soupape, proposée parce que
+le plafond total en tient lieu.
 
 **Exécution.** La peine prononcée s'exécute. Les réductions ne rémunèrent qu'un
 effort (travail, formation, indemnisation de la victime). Elles sont plafonnées en
@@ -183,17 +199,16 @@ pourcentage, à fixer par l'auteur, et annoncées au prononcé. La règle du
 
 **Hausses.** Le maximum se relève là où la hiérarchie des peines est incohérente
 avec la gravité : atteintes aux personnes, atteintes aux enfants (livre, folio 92),
-récidive. Il ne se baisse que pour rationaliser, par exemple pour un encouru
-symbolique ou incohérent au sein d'une même famille d'infractions.
+récidive. Il ne se baisse que pour rationaliser.
 
 **Risque constitutionnel.**
 
-- Faible pour les taux et les plafonds : le législateur pratique déjà les fractions
-  fixes, et le juge garde une liste de motifs.
-- Moyen pour deux points : le quantum qui part du maximum dans les petites affaires
-  (art. 8 DDHC, nécessité), et l'exclusion de la situation sociale du quantum
-  (CP 132-1). Les parades sont la rationalisation des maxima et la soupape.
-- Décisions à confronter : CC 2007-554 DC, 2010-6/7 QPC, 2011-625 DC.
+- Faible pour les fractions : le législateur en pratique déjà (CP 122-1, CJPM
+  L121-5, CPP 495-8, CP 132-9).
+- Moyen pour deux points : partir de la peine encourue dans les petites affaires
+  (art. 8 DDHC, nécessité), et retirer la situation sociale du quantum (CP 132-1).
+  La parade est la rationalisation des maxima.
+- Décisions à confronter : CC 2007-554 DC, 2010-6/7 QPC, 2011-625 DC, 2002-461 DC.
 
 **Coût.** Atteindre plus souvent le maximum fait monter l'incarcération : la
 direction est celle que chiffre l'IPP n° 99 (taux multiplié par 7 si les délits
@@ -219,10 +234,9 @@ scénario, avec la dissuasion et la capacité (étape 7) en regard.
 
 1. Le maximum encouru est la référence. Les dérogations sont nommées, chiffrées,
    plafonnées et motivées.
-2. Les motifs de dérogation sont des constantes qui ont un sens : discernement,
-   minorité, collaboration, aveu précoce, réparation, rôle accessoire, absence
-   d'antécédent. La récidive et la vulnérabilité de la victime resserrent les
-   plafonds.
+2. Les diminutions se rangent en trois catégories principielles : la personne, le
+   comportement pendant l'acte, le comportement après l'acte. Chacune est bornée,
+   et le total est plafonné selon les antécédents et la victime.
 3. La charge de la motivation pèse sur l'écart à la référence, non sur son
    application.
 4. Chaque norme prouve sa nécessité et son coût (livre, folio 93). Une création se
@@ -301,6 +315,25 @@ s'applique au 1er janvier 2029. Toute disposition se rédige dans le code actuel
 et dans le code de 2029, avec la table de concordance. La base porte déjà les
 4 184 articles L du code de 2029. Elle porte aussi les premiers articles R et D
 issus du décret n° 2026-907 du 30 septembre 2026.
+
+## Premier relevé des incriminations (20261020)
+
+`appareil/incriminations.py` relève, dans les codes de la base (LEGI 20261019),
+les articles qui punissent : 2 848 lignes dans `referentiels/incriminations.tsv`.
+
+| strate | nature | articles |
+|---|---|---|
+| R/D | contraventions de 1re à 5e classe | 1 466 (dont 603 en 5e classe) |
+| L | délits | 1 260 |
+| L | crimes | 122 |
+
+- La moitié des articles d'incrimination relève du règlement : leur abrogation et
+  leur requalification se font par décret.
+- Les 603 articles de 5e classe forment l'assiette de l'extension de l'amende
+  forfaitaire, qui passe par CPP R48-1 seul (l'art. 529 renvoie la liste au décret).
+- On compte des articles, pas des natures d'infraction (17 168 dans NATINF). Le
+  rapprochement attend la nomenclature NATINF au dépôt, que l'action doit
+  télécharger : data.gouv.fr est fermé depuis l'atelier.
 
 ## Codes de la chaîne pénale
 
