@@ -549,6 +549,82 @@ et l'attractivité de la filière. Il n'y a pas de fiche à ce stade.
 | P8 | Chaque fiche porte le texte en vigueur, la cible et la modificative. Les paramètres sont entre crochets. | toutes |
 | P9 | Chaque texte se rédige dans le code actuel et se reporte au code de 2029 par le décret de coordination. | toutes |
 
+## Paquet législatif n° 1 : textes cibles (proposé, 20261021)
+
+Même gabarit que le paquet réglementaire : texte en vigueur (LEGI 20261020), cible,
+modificative, numéro dans le code de 2029, paramètres entre crochets.
+
+**Fiche L1 — notification électronique par défaut** (CPP 803-1 II ; code de 2029 :
+L1632-3)
+
+- En vigueur : l'envoi électronique suppose que la personne « y ait préalablement
+  consenti par une déclaration expresse recueillie au cours de la procédure ». Le
+  texte de 2029 (L1632-3) reprend la même condition.
+- Cible, première phrase du II :
+  > Lorsque le présent code prévoit que des avis, convocations ou documents sont
+  > adressés à une personne par l'autorité judiciaire par tout moyen, par lettre
+  > simple, par lettre recommandée ou par lettre recommandée avec demande d'avis de
+  > réception, l'envoi est effectué par voie électronique à l'adresse que la
+  > personne a déclarée au cours de la procédure. La personne peut, par une
+  > déclaration expresse, demander un envoi sur support papier.
+- Modificative : « La première phrase du premier alinéa du II de l'article 803-1 du
+  code de procédure pénale est remplacée par deux phrases ainsi rédigées : […] » ;
+  même modification à l'article L. 1632-3 du code dans sa rédaction issue de
+  l'ordonnance n° 2025-1091.
+- Décret à suivre : les 139 articles R/D du CPP et les 31 du code pénitentiaire qui
+  visent une notification ou une lettre recommandée.
+
+**Fiche L2 — fin de l'aménagement obligatoire** (CP 132-19, 132-25 ; CPP 723-15)
+
+- En vigueur :
+  - CP 132-19 al. 1 interdit la prison ferme d'un mois ou moins. Al. 2 la réserve
+    au « dernier recours ». Al. 3 impose l'aménagement des peines de six mois ou
+    moins. Al. 4 impose de motiver spécialement la prison.
+  - CP 132-25 al. 1 et 2 imposent l'aménagement en dessous de six mois et le
+    poussent jusqu'à un an.
+  - CPP 723-15 renvoie les condamnés libres à un an ou moins devant le juge de
+    l'application des peines, avant toute incarcération.
+- Cible CP 132-19 :
+  > Lorsqu'un délit est puni d'une peine d'emprisonnement, la juridiction prononce
+  > la peine dans les conditions des articles 132-1 et 132-1-1.
+- Cible CP 132-25, premier alinéa (le deuxième est abrogé) :
+  > Lorsque la juridiction prononce une peine d'emprisonnement ferme inférieure ou
+  > égale à [six mois], elle peut ordonner, par la même décision, que la peine sera
+  > exécutée sous le régime de la détention à domicile sous surveillance
+  > électronique, de la semi-liberté ou du placement à l'extérieur.
+- Cible CPP 723-15 : abrogé, avec les articles 723-15-1 à 723-18 qui en organisent
+  la procédure. La peine non aménagée à l'audience est mise à exécution.
+- Paramètre : [abroger] ou [garder] l'interdiction de la prison ferme d'un mois ou
+  moins (CP 132-19 al. 1, seconde phrase).
+- Code de 2029 : CP inchangé, il n'est pas refondu. Pour 723-15, la
+  correspondance est à établir : l'avis de convocation devant le juge de
+  l'application des peines remis à l'audience figure à L4432-29.
+
+**Fiche L3 — nullités purgées tôt** (CPP 173-1, 802 ; code de 2029 : L3752-4,
+L1321-2)
+
+- En vigueur : le délai de 173-1 passe de six à quatre mois le 23 octobre 2026 (loi
+  n° 2026-651). **Constat** : la base porte, pour L3752-4 du code de 2029, un délai
+  de six mois. La réduction votée en 2026 n'y est pas reportée, et le délai
+  remonterait à six mois le 1er janvier 2029. C'est un défaut de coordination à
+  signaler.
+- Cible 173-1, première phrase : le délai devient « [un mois] à compter de la date
+  à laquelle elle a eu connaissance de l'acte ».
+- Cible 802 (et L1321-2), alinéa ajouté :
+  > La partie qui a délibérément provoqué l'irrégularité est irrecevable à s'en
+  > prévaloir.
+- Le Sénat a écarté en 2025 la formule « manœuvre ou négligence », jugée imprécise.
+  « Délibérément provoqué » vise le seul fait intentionnel.
+
+**Principes ajoutés au registre**
+
+| n° | principe | appliqué à |
+|---|---|---|
+| P10 | Les modalités d'exécution se fixent à l'audience, par la juridiction qui condamne, et s'annoncent au condamné. Il n'y a plus de second examen avant l'incarcération. | L2 |
+| P11 | Un délai de forclusion court part de la connaissance effective de l'acte : rapidité et droits de la défense se tiennent ensemble. | L3 |
+| P12 | Le numérique est la règle et le papier l'exception, à la demande de la personne. | L1 |
+| P13 | Chaque fiche contrôle la coordination avec le code de 2029, et un défaut constaté se signale. | L3 |
+
 ## Codes de la chaîne pénale
 
 | code | court | articles applicables (base LEGI 20261018) |
