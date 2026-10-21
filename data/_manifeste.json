@@ -1,7 +1,7 @@
 {
-  "millesime_legi": "20261019",
-  "jour_de_reference": "2026-10-20",
-  "archives": 468,
+  "millesime_legi": "20261020",
+  "jour_de_reference": "2026-10-21",
+  "archives": 469,
   "archive": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz",
   "plancher_historique": "2025-01-01",
   "extrait_le": "",
@@ -78,8 +78,8 @@
     "code de la sécurité sociale": {
       "fichier": "css.jsonl.gz",
       "articles": 8546,
-      "octets": 2829888,
-      "sha256": "7fdffcaf35e74a6d9fc8db98cbfb969bb10d5d2d64642f4d416004eb9eb8184f",
+      "octets": 2829885,
+      "sha256": "546eb04a3b546bb352e00d726462c1c8a0cf8bca487ee08f854e8271ccb0f24b",
       "court": "css",
       "applicables": 7430,
       "a_venir": 184,
@@ -147,8 +147,8 @@
     "code du travail": {
       "fichier": "travail.jsonl.gz",
       "articles": 12144,
-      "octets": 2327726,
-      "sha256": "8326eea041c6188f07782f76aa8f7a41921775ea130ce09d9bbbb86a7a9e7d08",
+      "octets": 2327878,
+      "sha256": "e6ba646f0fd195411a7e50ac979eb5ccf9babdb6c952cbe864605744cdd6361d",
       "court": "travail",
       "applicables": 11596,
       "a_venir": 92,
@@ -347,8 +347,8 @@
     "code monétaire et financier": {
       "fichier": "monetaire.jsonl.gz",
       "articles": 6218,
-      "octets": 1979309,
-      "sha256": "23ed7f178af5d2d16d10fc5186eef5a9725e4e4cfec84b167dcab3bd6492dd3c",
+      "octets": 1979316,
+      "sha256": "720aa053c0612d02c90b5b5e2d6619db838902fa29b594cfd0bc153261805f5e",
       "court": "monetaire",
       "applicables": 5314,
       "a_venir": 143,
@@ -415,7 +415,7 @@
       "fichier": "education.jsonl.gz",
       "articles": 5672,
       "octets": 1736401,
-      "sha256": "7abbbaaa5eab1e981501b19d77561c8fa433d917d6bce7a14e8562b8b220fc7e",
+      "sha256": "af9f7be5ba1d68cfa921239f572f697e2221bf118cd9730ae33e8b780fdae67d",
       "court": "education",
       "applicables": 5063,
       "a_venir": 32,
@@ -718,8 +718,8 @@
     "code de la santé publique": {
       "fichier": "sante.jsonl.gz",
       "articles": 14975,
-      "octets": 3727440,
-      "sha256": "6a4f78051e47941d56222cfcc9d272ad6265225656933bbac9fa50c95baef1d8",
+      "octets": 3727418,
+      "sha256": "4700004bca87bc5e5ae391f275f69f95e9c69c371ae32ee1cd27f577389d6e5d",
       "court": "sante",
       "applicables": 13673,
       "a_venir": 138,
@@ -940,8 +940,8 @@
     "code de procédure pénale": {
       "fichier": "cpp.jsonl.gz",
       "articles": 9240,
-      "octets": 1885380,
-      "sha256": "14ea9d4cd3e6dc7ac830f83b274f0cec9cdf1300be9ed3e82170ae7bf6d0b1bc",
+      "octets": 1885401,
+      "sha256": "d037a41baf23706258b1d93bd75f7447aacafe5a238cfee5e40f8bd3bd75b6da",
       "court": "cpp",
       "applicables": 4637,
       "a_venir": 4326,
@@ -1164,8 +1164,8 @@
     "code rural et de la pêche maritime": {
       "fichier": "rural.jsonl.gz",
       "articles": 11377,
-      "octets": 2909945,
-      "sha256": "98afe6e82cb1fb3c37a8b391c7c9725877a43e3aaed008e07a3d1fbf6292e5f9",
+      "octets": 2909942,
+      "sha256": "c57afcd984346f07b19dcc19aa248728cad4ff7467b94af3d682e9eec250561f",
       "court": "rural",
       "applicables": 9825,
       "a_venir": 113,
@@ -1935,17 +1935,17 @@
     },
     "code de la consommation": {
       "fichier": "conso.jsonl.gz",
-      "articles": 2467,
-      "octets": 532000,
-      "sha256": "06895e594d2e2c72d783d3a822d5f39509fae3a3b2f916856032f7caaff1fb98",
+      "articles": 2466,
+      "octets": 531844,
+      "sha256": "858030b4a14b6b57069c2e5dd76a1f7f3c3dfb194757d8d6ad952ebf73b46872",
       "court": "conso",
-      "applicables": 2108,
+      "applicables": 2107,
       "a_venir": 169,
-      "fin_programmee": 179,
+      "fin_programmee": 178,
       "historiques": 190,
       "etats": {
         "VIGUEUR": 1928,
-        "ABROGE_DIFF": 179,
+        "ABROGE_DIFF": 178,
         "MODIFIE": 95,
         "ABROGE": 96,
         "MODIFIE_MORT_NE": 6,
@@ -1964,7 +1964,7 @@
         "Annexe à l'article R221-1",
         "Annexe à l'article R221-3"
       ],
-      "sections_rattachees": 2467
+      "sections_rattachees": 2466
     },
     "loi n° 2015-991 du 7 août 2015": {
       "fichier": "loi2015_991.jsonl.gz",
@@ -1998,18 +1998,18 @@
     },
     "code général de la fonction publique": {
       "fichier": "cgfp.jsonl.gz",
-      "articles": 4482,
-      "octets": 606327,
-      "sha256": "c637a73c0a87cfddf95582922466e9da22c60b1b43d99fe22ad22cc38088fe4b",
+      "articles": 4483,
+      "octets": 606943,
+      "sha256": "f21216cef0a06f42b52f5fc61a767c0ded76ebcc8edbf17d49ea03ff77651727",
       "court": "cgfp",
       "applicables": 4285,
       "a_venir": 5,
       "fin_programmee": 4,
-      "historiques": 192,
+      "historiques": 193,
       "etats": {
         "VIGUEUR": 4281,
         "ABROGE_DIFF": 4,
-        "MODIFIE": 190,
+        "MODIFIE": 191,
         "ABROGE": 2,
         "VIGUEUR_DIFF": 5
       },
@@ -2026,7 +2026,7 @@
         "D132-31",
         "D132-32"
       ],
-      "sections_rattachees": 4482
+      "sections_rattachees": 4483
     },
     "loi n° 2025-1403 du 30 décembre 2025": {
       "fichier": "loi2025_1403.jsonl.gz",
@@ -2407,21 +2407,21 @@
     },
     "code de l'organisation judiciaire": {
       "fichier": "coj.jsonl.gz",
-      "articles": 1171,
-      "octets": 868060,
-      "sha256": "c23a817b0d48371bdd28b40651c5f512d478c5f7fd20d327fa296fcab54a99af",
+      "articles": 1173,
+      "octets": 868311,
+      "sha256": "09f74ee2ce23d33b86eaf54e8fa59c7a3efcb4502e52ef9c6c8f38fd5e631035",
       "court": "coj",
       "applicables": 1019,
-      "a_venir": 31,
-      "fin_programmee": 30,
+      "a_venir": 33,
+      "fin_programmee": 31,
       "historiques": 121,
       "etats": {
-        "VIGUEUR": 989,
-        "ABROGE_DIFF": 30,
+        "VIGUEUR": 988,
+        "ABROGE_DIFF": 31,
         "MODIFIE": 116,
         "ABROGE": 4,
         "MODIFIE_MORT_NE": 1,
-        "VIGUEUR_DIFF": 31
+        "VIGUEUR_DIFF": 33
       },
       "temoin": "L111-1",
       "exemples_applicables": [
@@ -2436,7 +2436,7 @@
         "Annexe Tableau IX",
         "Annexe Tableau IX-I"
       ],
-      "sections_rattachees": 1171
+      "sections_rattachees": 1173
     },
     "code de la justice pénale des mineurs": {
       "fichier": "cjpm.jsonl.gz",
