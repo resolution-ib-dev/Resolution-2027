@@ -439,9 +439,11 @@ est remplacé par les dispositions suivantes : » suivi du texte cible.
 - Le second alinéa de l'art. 529 écarte déjà le concours avec une infraction non
   forfaitisable et la récidive qui constitue un délit : rien à réécrire.
 - Le montant de 200 € (R49 6°) se garde, ou se relève, à arbitrer.
-- Code de 2029 : la partie réglementaire refondue (décret n° 2026-907) ne porte pas
-  encore cet article. La disposition se reporte au numéro nouveau lors de sa
-  publication.
+- Code de 2029 (vérifié le 20261021) : R48-1 reste applicable au 1er janvier 2029
+  sous son numéro actuel. Les 120 articles R et D qui portent une version de 2029
+  gardent leur numérotation et citent encore les articles législatifs actuels
+  (529-10 par exemple), que l'ordonnance n° 2025-1091 abroge. Un décret de
+  coordination sera nécessaire : la disposition s'y adosse.
 
 - La première ligne est la plus rapide : un seul article à modifier, effet immédiat
   sur le contentieux de masse.
@@ -449,6 +451,23 @@ est remplacé par les dispositions suivantes : » suivi du texte cible.
   la loi. Il se range au paquet législatif.
 - Restent à lire avant d'ajouter des lignes : habilitation des OPJ (R15-6 et
   suivants) et frais de justice (R91 et suivants).
+
+### R48-1 II : objections (contestabilité, 20261021)
+
+| rang | objection | parade |
+|---|---|---|
+| 1 | Le forfait de 200 € vaut 13 % du maximum de 1 500 € : la loi ne tient plus parole, alors que le maximum est la référence. | Relever le forfait de 5e classe, par exemple à 750 € (la moitié), avec un forfait minoré pour un paiement rapide (catégorie « après l'acte »). Arbitrage de l'auteur. |
+| 2 | L'amende forfaitaire est « exclusive de l'application des règles de la récidive » (art. 529 al. 1) : la récidive de 5e classe (amende portée à 3 000 €, CP 132-11) disparaît. | Exclure du II les contraventions dont le règlement prévoit la récidive. |
+| 3 | L'amende forfaitaire ne porte pas de peine complémentaire (suspension, confiscation). | Exclure les contraventions qui en prévoient une, ou renvoyer au juge sur réquisition. |
+| 4 | Le droit au juge. | Réclamation et requête en exonération maintenues (art. 529-2). Le Conseil a validé la procédure. |
+
+### Paquet réglementaire n° 1 : lignes ajoutées (20261021)
+
+| mesure | vecteur | constat sur le texte | strate |
+|---|---|---|---|
+| procès-verbal unique sur commission rogatoire | CPP D10 : « des procès-verbaux séparés pour chacun des actes » ; D11 permet déjà un seul procès-verbal en flagrance et en préliminaire | D10 s'aligne sur D11. Même alignement pour les douanes (R15-33-22 sur R15-33-21) et les autres services habilités | décret simple |
+| paiement des frais de justice sans taxe du magistrat | CPP R224-1 à R231 : certification par le greffe pour les frais tarifés ; réquisitions du parquet puis taxe du président de juridiction pour les autres ; recours devant la chambre de l'instruction | étendre la certification par le greffe à tous les frais sous un seuil, avec un barème national des expertises | décret en Conseil d'État |
+| habilitation des OPJ | CPP R15-2-1 et suivants, R15-33-8 (64 articles R15 traitent de l'habilitation) | lecture détaillée à faire | décret en Conseil d'État |
 
 ## Codes de la chaîne pénale
 
