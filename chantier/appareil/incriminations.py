@@ -8,8 +8,8 @@ punit, avec sa strate (L ou R/D), sa nature (crime, délit, contravention de
 classe 1 à 5) et la peine relevée.
 
 C'est un relevé lexical d'ARTICLES, pas de natures d'infraction : un article
-peut porter plusieurs NATINF. Le rapprochement avec la nomenclature NATINF
-(17 168 natures en 2026) se fait quand la nomenclature est au dépôt.
+peut porter plusieurs NATINF. La nomenclature est au dépôt
+(data/natinf.csv.gz, 17 239 natures en juillet 2026, encodée en Windows-1252).
 
 Emploi :
     python3 chantier/appareil/incriminations.py
