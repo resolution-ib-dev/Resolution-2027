@@ -9,7 +9,7 @@ classe 1 à 5) et la peine relevée.
 
 C'est un relevé lexical d'ARTICLES, pas de natures d'infraction : un article
 peut porter plusieurs NATINF. La nomenclature est au dépôt
-(data/natinf.csv.gz, 17 239 natures en juillet 2026, encodée en Windows-1252).
+(data/natinf.csv.gz, 17 239 natures dans le fichier d'octobre 2026, encodée en Windows-1252).
 
 Emploi :
     python3 chantier/appareil/incriminations.py

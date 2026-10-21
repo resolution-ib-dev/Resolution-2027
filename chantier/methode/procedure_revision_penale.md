@@ -388,7 +388,7 @@ les articles qui punissent : 2 848 lignes dans `referentiels/incriminations.tsv`
 - On compte ici des articles. La nomenclature NATINF compte des natures
   d'infraction (section suivante).
 
-## Nomenclature NATINF (fichier de juillet 2026, lu le 20261021)
+## Nomenclature NATINF (fichier d'octobre 2026, publié le 20261020, lu le 20261021)
 
 `data/natinf.csv.gz`, encodé en Windows-1252 : 17 239 natures, chaque numéro une
 seule fois.
@@ -415,11 +415,33 @@ seule fois.
 
 | mesure | vecteur | assiette mesurée | strate |
 |---|---|---|---|
-| amende forfaitaire pour les contraventions de 5e classe courantes | CPP R48-1 (la liste relève du décret, art. 529) | 3 506 natures de 5e classe | décret seul |
+| amende forfaitaire pour toute contravention de 5e classe, sauf atteintes aux personnes | CPP R48-1 II : la liste fermée (11 rubriques aujourd'hui) devient une règle générale à exceptions | 3 506 natures de 5e classe | décret seul |
 | abrogation et requalification des contraventions sans usage | décrets par code : transports, environnement, route, rural, consommation | 6 701 natures de contravention | décret seul, après mesure d'usage |
 | notification électronique par défaut | CPP 803-1 II exige aujourd'hui le consentement exprès de la personne : on passe à un droit d'opposition. Les modalités relèvent du décret. | 139 articles R/D du CPP et 31 du code pénitentiaire visent une notification ou une lettre recommandée | **loi** (803-1), puis décret |
 | suppression des avis obligatoires d'instances | articles R/D visant l'avis d'une commission ou d'un conseil | 16 occurrences dans le CPP, le code pénitentiaire et le CJPM | décret seul |
 | règle « deux pour une » pour toute contravention nouvelle | circulaire du Premier ministre, sur le modèle de 2017 pour les normes réglementaires | — | acte réglementaire |
+
+- Correction (20261021) : R48-1 II ouvre déjà l'amende forfaitaire à onze
+  rubriques de 5e classe (santé publique, outrage sexiste, environnement, route,
+  abandon d'épaves…), au montant de 200 € (R49 6°). Le levier consiste à passer de
+  la liste à la règle générale.
+
+### R48-1 II : texte cible (proposé)
+
+> II.- L'action publique est éteinte par le paiement d'une amende forfaitaire pour
+> les contraventions de la cinquième classe, dans les conditions du second alinéa
+> de l'article 529. Cette procédure s'applique hors les contraventions de violences
+> et les atteintes volontaires à l'intégrité de la personne.
+
+Disposition modificative : « Le II de l'article R. 48-1 du code de procédure pénale
+est remplacé par les dispositions suivantes : » suivi du texte cible.
+
+- Le second alinéa de l'art. 529 écarte déjà le concours avec une infraction non
+  forfaitisable et la récidive qui constitue un délit : rien à réécrire.
+- Le montant de 200 € (R49 6°) se garde, ou se relève, à arbitrer.
+- Code de 2029 : la partie réglementaire refondue (décret n° 2026-907) ne porte pas
+  encore cet article. La disposition se reporte au numéro nouveau lors de sa
+  publication.
 
 - La première ligne est la plus rapide : un seul article à modifier, effet immédiat
   sur le contentieux de masse.
