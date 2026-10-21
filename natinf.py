@@ -14,9 +14,16 @@ l'action du dépôt, en deux temps.
 Même prudence que extraire_legi.py : l'adresse du fichier n'est pas présumée,
 elle se lit sur la fiche du jeu. Pas de CSV, ou plusieurs sans ordre possible :
 diagnostic, et échec.
+
+L'encodage n'est pas présumé non plus : la fiche n'en dit rien, et il a changé
+d'une livraison à l'autre (cp850 en juillet 2026, Windows-1252 en octobre). Il
+se reconnaît à l'en-tête, qui doit se lire « Numéro NATINF ». Les natures se
+comptent en enregistrements CSV, pas en fins de ligne.
 """
+import csv
 import gzip
 import hashlib
+import io
 import json
 import pathlib
 import sys
@@ -31,6 +38,9 @@ JEU = "62c7daa168ebd3a2212821c5"
 API = f"https://www.data.gouv.fr/api/1/datasets/{JEU}/"
 AGENT = {"User-Agent": "Mozilla/5.0 (compatible; resolution-droit/2.0)"}
 
+ENCODAGES = ("utf-8", "cp1252", "cp850")
+EN_TETE = "Numéro NATINF"
+
 
 def recuperer(url, timeout=300):
     req = urllib.request.Request(url, headers=AGENT)
@@ -43,6 +53,20 @@ def echec(charge, message):
     (DATA / "_diagnostic.json").write_text(
         json.dumps(charge, ensure_ascii=False, indent=2), encoding="utf-8")
     sys.exit(f"ÉCHEC — {message}. Voir data/_diagnostic.json.")
+
+
+def decrire(brut):
+    """Rend (encodage, natures, numéros distincts) ; lève si rien ne tient."""
+    for enc in ENCODAGES:
+        try:
+            texte = brut.decode(enc)
+        except UnicodeDecodeError:
+            continue
+        lignes = list(csv.reader(io.StringIO(texte, newline=""), delimiter=";"))
+        if lignes and lignes[0] and lignes[0][0].lstrip("\ufeff") == EN_TETE:
+            natures = [l for l in lignes[1:] if l]
+            return enc, len(natures), len({l[0] for l in natures})
+    raise ValueError(f"aucun encodage parmi {ENCODAGES} ne lit l'en-tête « {EN_TETE} »")
 
 
 def telecharger():
@@ -78,6 +102,12 @@ def telecharger():
                    "algo": algo, "attendu": attendu, "lu": lu},
                   "empreinte NATINF non tenue")
 
+    try:
+        encodage, natures, distincts = decrire(brut)
+    except ValueError as e:
+        echec({"motif": "CSV NATINF illisible", "url": r["url"], "erreur": str(e),
+               "debut": brut[:200].decode("latin-1")}, str(e))
+
     DATA.mkdir(exist_ok=True)
     # mtime à zéro : à contenu égal, le .gz est identique à l'octet d'un run à l'autre.
     with open(SORTIE, "wb") as f, gzip.GzipFile(fileobj=f, mode="wb", mtime=0,
@@ -85,12 +115,13 @@ def telecharger():
         g.write(brut)
     info = {"jeu": JEU, "ressource": r.get("id"), "titre": r.get("title"),
             "url": r["url"], "derniere_modification": r.get("last_modified"),
-            "lignes": brut.count(b"\n"), "octets_csv": len(brut),
+            "encodage": encodage, "natures": natures, "numeros_distincts": distincts,
+            "octets_csv": len(brut),
             "sha256_csv": hashlib.sha256(brut).hexdigest(),
             "fichier": SORTIE.name, "octets": SORTIE.stat().st_size,
             "sha256": hashlib.sha256(SORTIE.read_bytes()).hexdigest()}
     PROVENANCE.write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"NATINF : {info['lignes']} lignes, ressource {info['ressource']}, "
+    print(f"NATINF : {natures} natures ({distincts} numéros distincts), {encodage}, ressource {info['ressource']}, "
           f"modifiée le {info['derniere_modification']}, sha256 {info['sha256']}")
 
 
