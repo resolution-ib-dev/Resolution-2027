@@ -385,9 +385,48 @@ les articles qui punissent : 2 848 lignes dans `referentiels/incriminations.tsv`
   leur requalification se font par décret.
 - Les 603 articles de 5e classe forment l'assiette de l'extension de l'amende
   forfaitaire, qui passe par CPP R48-1 seul (l'art. 529 renvoie la liste au décret).
-- On compte des articles, pas des natures d'infraction (17 168 dans NATINF). Le
-  rapprochement attend la nomenclature NATINF au dépôt, que l'action doit
-  télécharger : data.gouv.fr est fermé depuis l'atelier.
+- On compte ici des articles. La nomenclature NATINF compte des natures
+  d'infraction (section suivante).
+
+## Nomenclature NATINF (fichier de juillet 2026, lu le 20261021)
+
+`data/natinf.csv.gz`, encodé en Windows-1252 : 17 239 natures, chaque numéro une
+seule fois.
+
+| nature | nombre |
+|---|---|
+| délits | 9 248 |
+| crimes | 887 |
+| contraventions, classes 1 à 5 | 6 701 (dont 3 506 de 5e classe) |
+| infractions douanières, civiles, fiscales | 403 |
+
+- **39 % des natures d'infraction sont des contraventions** : elles se créent,
+  s'abrogent et se requalifient par décret. Leur stock se concentre dans cinq codes,
+  par le texte qui réprime : transports (1 226), environnement (1 038), route (831),
+  rural (633), consommation (545). S'y ajoutent les décrets non codifiés (622).
+- **3 506 natures de 5e classe** forment l'assiette de l'amende forfaitaire étendue
+  (CPP R48-1). Elles se concentrent en environnement (590), consommation (544) et
+  transports (439).
+- NATINF ne dit pas quelles natures servent. Le taux d'usage par nature (casier
+  judiciaire, statistiques du ministère) reste à obtenir. Sans lui, l'abrogation
+  se cible par code et par la règle « deux pour une ».
+
+## Paquet réglementaire n° 1 (proposé, 20261021)
+
+| mesure | vecteur | assiette mesurée | strate |
+|---|---|---|---|
+| amende forfaitaire pour les contraventions de 5e classe courantes | CPP R48-1 (la liste relève du décret, art. 529) | 3 506 natures de 5e classe | décret seul |
+| abrogation et requalification des contraventions sans usage | décrets par code : transports, environnement, route, rural, consommation | 6 701 natures de contravention | décret seul, après mesure d'usage |
+| notification électronique par défaut | CPP 803-1 II exige aujourd'hui le consentement exprès de la personne : on passe à un droit d'opposition. Les modalités relèvent du décret. | 139 articles R/D du CPP et 31 du code pénitentiaire visent une notification ou une lettre recommandée | **loi** (803-1), puis décret |
+| suppression des avis obligatoires d'instances | articles R/D visant l'avis d'une commission ou d'un conseil | 16 occurrences dans le CPP, le code pénitentiaire et le CJPM | décret seul |
+| règle « deux pour une » pour toute contravention nouvelle | circulaire du Premier ministre, sur le modèle de 2017 pour les normes réglementaires | — | acte réglementaire |
+
+- La première ligne est la plus rapide : un seul article à modifier, effet immédiat
+  sur le contentieux de masse.
+- La troisième montre la limite du « règlement d'abord » : le levier est écrit dans
+  la loi. Il se range au paquet législatif.
+- Restent à lire avant d'ajouter des lignes : habilitation des OPJ (R15-6 et
+  suivants) et frais de justice (R91 et suivants).
 
 ## Codes de la chaîne pénale
 
