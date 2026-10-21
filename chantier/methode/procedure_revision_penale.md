@@ -439,9 +439,11 @@ est remplacé par les dispositions suivantes : » suivi du texte cible.
 - Le second alinéa de l'art. 529 écarte déjà le concours avec une infraction non
   forfaitisable et la récidive qui constitue un délit : rien à réécrire.
 - Le montant de 200 € (R49 6°) se garde, ou se relève, à arbitrer.
-- Code de 2029 : la partie réglementaire refondue (décret n° 2026-907) ne porte pas
-  encore cet article. La disposition se reporte au numéro nouveau lors de sa
-  publication.
+- Code de 2029 (vérifié le 20261021) : R48-1 reste applicable au 1er janvier 2029
+  sous son numéro actuel. Les 120 articles R et D qui portent une version de 2029
+  gardent leur numérotation et citent encore les articles législatifs actuels
+  (529-10 par exemple), que l'ordonnance n° 2025-1091 abroge. Un décret de
+  coordination sera nécessaire : la disposition s'y adosse.
 
 - La première ligne est la plus rapide : un seul article à modifier, effet immédiat
   sur le contentieux de masse.
@@ -449,6 +451,103 @@ est remplacé par les dispositions suivantes : » suivi du texte cible.
   la loi. Il se range au paquet législatif.
 - Restent à lire avant d'ajouter des lignes : habilitation des OPJ (R15-6 et
   suivants) et frais de justice (R91 et suivants).
+
+### R48-1 II : objections (contestabilité, 20261021)
+
+| rang | objection | parade |
+|---|---|---|
+| 1 | Le forfait de 200 € vaut 13 % du maximum de 1 500 € : la loi ne tient plus parole, alors que le maximum est la référence. | Relever le forfait de 5e classe, par exemple à 750 € (la moitié), avec un forfait minoré pour un paiement rapide (catégorie « après l'acte »). Arbitrage de l'auteur. |
+| 2 | L'amende forfaitaire est « exclusive de l'application des règles de la récidive » (art. 529 al. 1) : la récidive de 5e classe (amende portée à 3 000 €, CP 132-11) disparaît. | Exclure du II les contraventions dont le règlement prévoit la récidive. |
+| 3 | L'amende forfaitaire ne porte pas de peine complémentaire (suspension, confiscation). | Exclure les contraventions qui en prévoient une, ou renvoyer au juge sur réquisition. |
+| 4 | Le droit au juge. | Réclamation et requête en exonération maintenues (art. 529-2). Le Conseil a validé la procédure. |
+
+### Paquet réglementaire n° 1 : lignes ajoutées (20261021)
+
+| mesure | vecteur | constat sur le texte | strate |
+|---|---|---|---|
+| procès-verbal unique sur commission rogatoire | CPP D10 : « des procès-verbaux séparés pour chacun des actes » ; D11 permet déjà un seul procès-verbal en flagrance et en préliminaire | D10 s'aligne sur D11. Même alignement pour les douanes (R15-33-22 sur R15-33-21) et les autres services habilités | décret simple |
+| paiement des frais de justice sans taxe du magistrat | CPP R224-1 à R231 : certification par le greffe pour les frais tarifés ; réquisitions du parquet puis taxe du président de juridiction pour les autres ; recours devant la chambre de l'instruction | étendre la certification par le greffe à tous les frais sous un seuil, avec un barème national des expertises | décret en Conseil d'État |
+| habilitation des OPJ | CPP R15-2-1 et suivants, R15-33-8 (64 articles R15 traitent de l'habilitation) | lecture détaillée à faire | décret en Conseil d'État |
+
+
+### Paquet réglementaire n° 1 : textes cibles (proposé, 20261021)
+
+Les paramètres entre crochets sont à arbitrer par l'auteur. Chaque fiche donne le
+texte en vigueur (LEGI 20261020), le texte cible et la disposition modificative.
+
+**Fiche R1 — amende forfaitaire de 5e classe** (CPP R48-1 II et R49 6°, décret en
+Conseil d'État et décret)
+
+- En vigueur : R48-1 II énumère onze rubriques de 5e classe. R49 6° : « 200 € pour
+  les contraventions de la 5e classe ».
+- Cible R48-1 II :
+  > II.- L'action publique est éteinte par le paiement d'une amende forfaitaire pour
+  > les contraventions de la cinquième classe, dans les conditions du second alinéa
+  > de l'article 529. Sont exclues de cette procédure :
+  > 1° Les contraventions de violences et d'atteinte volontaire à l'intégrité de la personne.
+  > 2° Les contraventions dont le règlement prévoit la récidive.
+  > 3° Les contraventions punies d'une peine complémentaire [obligatoire].
+- Cible R49 6° : « [750] € pour les contraventions de la 5e classe ».
+- Modificative : « Le II de l'article R. 48-1 du code de procédure pénale est
+  remplacé par les dispositions suivantes : […] » ; « Au 6° de l'article R. 49 du
+  même code, le montant : “200 €” est remplacé par le montant : “[750] €”. »
+
+**Fiche R2 — procès-verbal unique** (CPP D10 et R15-33-22, décret simple et décret
+en Conseil d'État)
+
+- En vigueur D10 : « Lorsqu'ils exécutent une commission rogatoire, les officiers de
+  police judiciaire établissent des procès-verbaux séparés pour chacun des actes
+  qu'ils sont appelés à faire. » D11 permet un seul procès-verbal en flagrance et
+  en préliminaire, et réserve au procureur le droit d'exiger des procès-verbaux
+  séparés.
+- Cible D10 :
+  > Lorsqu'ils exécutent une commission rogatoire, les officiers de police
+  > judiciaire peuvent relater dans un seul procès-verbal les opérations effectuées
+  > au cours de son exécution. Si plusieurs officiers de police judiciaire y
+  > concourent, le nom de celui qui a personnellement accompli chacune des
+  > opérations est précisé. Le magistrat mandant peut demander des procès-verbaux
+  > séparés pour chacun des actes.
+- Cible R15-33-21 et R15-33-22 (douanes) : un seul article, sur le modèle de D11,
+  pour l'enquête préliminaire, la flagrance et la commission rogatoire. R15-33-22
+  est abrogé.
+- Modificative : « L'article D. 10 du code de procédure pénale est remplacé par les
+  dispositions suivantes : […] » ; « À l'article R. 15-33-21 du même code, les mots :
+  “dans le cadre de l'enquête préliminaire” sont remplacés par les mots : “dans le
+  cadre de l'enquête préliminaire, de l'enquête de flagrance ou de l'exécution
+  d'une commission rogatoire” et les mots : “une enquête préliminaire” sont
+  remplacés par les mots : “une même enquête” » ; « L'article R. 15-33-22 du même
+  code est abrogé. »
+
+**Fiche R3 — frais de justice certifiés par le greffe** (CPP A43-16, arrêté)
+
+- En vigueur : R224-1 3° soumet à la certification du greffe, sans taxe du
+  magistrat, les frais non tarifés « inférieurs à un montant fixé par arrêté ».
+  A43-16 : « Le montant […] est fixé à 1 500 €. »
+- Cible A43-16 : « Le montant des frais mentionnés au 3° des articles R. 224-1 et
+  R. 224-2 est fixé à [5 000] €. »
+- Modificative : « À l'article A. 43-16 du code de procédure pénale, le montant :
+  “1 500 €” est remplacé par le montant : “[5 000] €”. »
+- Le levier est un arrêté : c'est la strate la plus basse du code.
+
+**Habilitation des OPJ (lue le 20261021)** : depuis la réforme de l'art. 16,
+l'habilitation vaut pour toute la carrière, mutations comprises. Les articles R15
+ne portent plus de verrou notable : ils règlent la demande, le refus contradictoire
+et le recours. Le goulot est ailleurs : l'examen et la formation (arrêtés, R15-17),
+et l'attractivité de la filière. Il n'y a pas de fiche à ce stade.
+
+### Registre des principes appliqués (proposé, à valider par l'auteur)
+
+| n° | principe | appliqué à |
+|---|---|---|
+| P1 | On descend à la strate la plus basse qui porte le verrou : arrêté, puis décret simple, puis décret en Conseil d'État, puis loi. Un verrou trouvé dans la loi se déclare et passe au paquet législatif. | A43-16 (arrêté) ; 803-1 (loi) |
+| P2 | Une liste fermée de cas autorisés devient une règle générale assortie d'exclusions. | R48-1 II |
+| P3 | Une règle s'aligne sur le régime le plus simple que le code applique déjà à un cas voisin. | D10 sur D11 ; R15-33-22 sur R15-33-21 |
+| P4 | Le magistrat juge ; le greffe constate et certifie. | frais de justice |
+| P5 | Une procédure simplifiée reste cohérente avec la référence (le maximum encouru) : un forfait ne vaut pas une remise massive. | R49 6° |
+| P6 | Une simplification ne fait perdre ni la récidive, ni une peine complémentaire. | exclusions de R48-1 II |
+| P7 | Le magistrat garde la main pour demander la forme lourde au cas par cas. | D10 cible |
+| P8 | Chaque fiche porte le texte en vigueur, la cible et la modificative. Les paramètres sont entre crochets. | toutes |
+| P9 | Chaque texte se rédige dans le code actuel et se reporte au code de 2029 par le décret de coordination. | toutes |
 
 ## Codes de la chaîne pénale
 
