@@ -95,9 +95,11 @@ except ImportError:  # pragma: no cover
 #
 # L'arborescence des codes de la chaîne pénale est dans le même cas : un fichier
 # par article et par cliché, plus de seize mille, que `codes_git.py` refait
-# toutes ensemble depuis le dépôt de droit. Seul son manifeste se déclare.
+# toutes ensemble depuis le dépôt de droit. Seul son manifeste se déclare. La
+# clé est le dossier rendu, non la tête de chemin : le reste de `revision/`
+# porte des sources écrites à la main, qui se déclarent une à une.
 BLOCS = {'site': {'site/index.html', 'site/manifeste.html'},
-         'revision': {'revision/codes/_manifeste.md'}}
+         'revision/codes': {'revision/codes/_manifeste.md'}}
 
 
 def fichiers(racine):
@@ -109,8 +111,8 @@ def fichiers(racine):
             if any(p in IGNORES for p in chemin.split(os.sep)):
                 continue
             chemin = chemin.replace(os.sep, '/')
-            tete = chemin.split('/', 1)[0]
-            if tete in BLOCS and chemin not in BLOCS[tete]:
+            bloc = next((b for b in BLOCS if chemin.startswith(b + '/')), None)
+            if bloc and chemin not in BLOCS[bloc]:
                 continue
             trouves.append(chemin)
     return sorted(trouves)

@@ -10286,6 +10286,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/revision_penale",
+   "chemin": "appareil/revision_penale.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/revision_penale.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/socle_texte_2027",
    "chemin": "appareil/socle_texte_2027.py",
    "rang": "appareil",
@@ -10844,6 +10858,20 @@
    "chemin_coffre": "chantier/livrables/reservoir_arguments_livre.md",
    "releve": true,
    "famille": "juridique"
+  },
+  {
+   "role": "fichier:livrables/revision_penale",
+   "chemin": "livrables/revision_penale.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/revision_penale.md",
+   "releve": true,
+   "famille": "bac à sable"
   },
   {
    "role": "fichier:livrables/suivi_trajectoire_20261015",
@@ -13716,6 +13744,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/controle_revision_penale",
+   "chemin": "referentiels/controle_revision_penale.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/controle_revision_penale.json",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/etatB_2027_bg",
    "chemin": "referentiels/etatB_2027_bg.tsv",
    "rang": "referentiel",
@@ -13954,6 +13996,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/fiches_penal",
+   "chemin": "revision/fiches_penal.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/fiches_penal.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:sources/guide-public-du-budgetaire-2023",
    "chemin": "sources/guide-public-du-budgetaire-2023.pdf",
    "rang": "source",
@@ -14142,6 +14198,7 @@
    "appareil/rendre_releve_epreuve.py",
    "appareil/reservoir_livre.py",
    "appareil/restaurer.py",
+   "appareil/revision_penale.py",
    "appareil/sans_cesure.py",
    "appareil/scinder_liasse_trois_colonnes.py",
    "appareil/scinder_liasses.py",
@@ -14195,6 +14252,7 @@
    "livrables/registre_calcul_etatB.md",
    "livrables/releve_siege_prelevements_20261001.md",
    "livrables/reservoir_arguments_livre.md",
+   "livrables/revision_penale.md",
    "livrables/suivi_trajectoire_20261015.md",
    "livrables/tablette_P2_20261016.md",
    "livrables/valise_phase1_20261002.md",
@@ -14401,6 +14459,7 @@
    "referentiels/commissions_jaune2026_20261014.tsv",
    "referentiels/commissions_jaune2026_20261014_lisez_moi.md",
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
+   "referentiels/controle_revision_penale.json",
    "referentiels/etatB_2027_bg.tsv",
    "referentiels/frictions_penal.tsv",
    "referentiels/incriminations.tsv",
@@ -14426,6 +14485,7 @@
    "referentiels/socles_2027.sha256",
    "referentiels/sort_prelevements_20261015.tsv",
    "requirements.txt",
+   "revision/fiches_penal.json",
    "sources/guide-public-du-budgetaire-2023.pdf",
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
@@ -14597,10 +14657,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 925,
-  "au_coffre": 866,
-  "au_depot": 408,
-  "derives": 271,
+  "artefacts": 929,
+  "au_coffre": 870,
+  "au_depot": 412,
+  "derives": 272,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,
