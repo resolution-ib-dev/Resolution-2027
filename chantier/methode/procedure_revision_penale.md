@@ -625,6 +625,21 @@ L1321-2)
 | P12 | Le numérique est la règle et le papier l'exception, à la demande de la personne. | L1 |
 | P13 | Chaque fiche contrôle la coordination avec le code de 2029, et un défaut constaté se signale. | L3 |
 
+## Projet consolidé et chaîne de contrôle (20261022)
+
+- Source unique : `revision/fiches_penal.json`. Chaque fiche décrit des opérations
+  sur le texte en vigueur ; on n'écrit jamais un texte cible à la main.
+- `appareil/revision_penale.py --strict` dérive les textes cibles et les
+  dispositions modificatives, écrit `livrables/revision_penale.md`, et contrôle
+  C1 à C7 (existence, unicité du passage remplacé, réapplication à l'octet, article
+  créé libre, point-virgule, constats 2029, inventaire des paramètres). Le compte
+  rendu va dans `referentiels/controle_revision_penale.json`. Une anomalie fait
+  échouer le script.
+- Le produit lisible et amendable est un doc Claude « Révision de la chaîne
+  pénale ». Ses citations du texte en vigueur ont été contrôlées par sondage sur les
+  plus longs alinéas.
+- Pour amender : modifier la fiche, rejouer le script, verser.
+
 ## Codes de la chaîne pénale
 
 | code | court | articles applicables (base LEGI 20261018) |

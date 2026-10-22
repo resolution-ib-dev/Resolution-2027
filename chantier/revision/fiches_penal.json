@@ -1,0 +1,404 @@
+{
+  "_regle": "Source unique du projet de révision de la chaîne pénale. Chaque fiche décrit des opérations sur le texte en vigueur lu par droit.py. Le texte cible et la disposition modificative en sont dérivés par appareil/revision_penale.py, puis contrôlés. On n'écrit jamais un texte cible à la main. Les paramètres à arbitrer sont entre crochets.",
+  "titre": "Projet de révision de la chaîne pénale",
+  "jour_reference": "2026-10-23",
+  "principes": [
+    [
+      "P1",
+      "On descend à la strate la plus basse qui porte le verrou : arrêté, puis décret simple, puis décret en Conseil d'État, puis loi. Un verrou trouvé dans la loi se déclare et passe au paquet législatif."
+    ],
+    [
+      "P2",
+      "Une liste fermée de cas autorisés devient une règle générale assortie d'exclusions."
+    ],
+    [
+      "P3",
+      "Une règle s'aligne sur le régime le plus simple que le code applique déjà à un cas voisin."
+    ],
+    [
+      "P4",
+      "Le magistrat juge ; le greffe constate et certifie."
+    ],
+    [
+      "P5",
+      "Une procédure simplifiée reste cohérente avec la référence, le maximum encouru : un forfait ne vaut pas une remise massive."
+    ],
+    [
+      "P6",
+      "Une simplification ne fait perdre ni la récidive, ni une peine complémentaire."
+    ],
+    [
+      "P7",
+      "Le magistrat garde la main pour demander la forme lourde au cas par cas."
+    ],
+    [
+      "P8",
+      "Chaque fiche porte le texte en vigueur, la cible et la modificative ; les paramètres sont entre crochets."
+    ],
+    [
+      "P9",
+      "Chaque texte se rédige dans le code actuel et se reporte au code de 2029 par le décret de coordination."
+    ],
+    [
+      "P10",
+      "Les modalités d'exécution se fixent à l'audience, par la juridiction qui condamne, et s'annoncent au condamné."
+    ],
+    [
+      "P11",
+      "Un délai de forclusion court part de la connaissance effective de l'acte."
+    ],
+    [
+      "P12",
+      "Le numérique est la règle, le papier l'exception à la demande de la personne."
+    ],
+    [
+      "P13",
+      "Chaque fiche contrôle la coordination avec le code de 2029 ; un défaut constaté se signale."
+    ],
+    [
+      "P14",
+      "La peine encourue est la référence ; les diminutions sont des fractions de cette peine, rangées en trois catégories bornées, et leur total est plafonné selon les antécédents et la victime."
+    ],
+    [
+      "P15",
+      "La décision se prend au plus près du terrain ; le contradictoire et la durée maximale restent les garanties."
+    ]
+  ],
+  "fiches": [
+    {
+      "id": "R1",
+      "paquet": "réglementaire",
+      "titre": "Amende forfaitaire pour toute contravention de 5e classe",
+      "strate": "décret en Conseil d'État (R48-1) et décret (R49)",
+      "objet": "Remplacer la liste fermée de onze rubriques par une règle générale à exclusions, et porter le forfait à un niveau cohérent avec le maximum de 1 500 €.",
+      "principes": [
+        "P2",
+        "P5",
+        "P6"
+      ],
+      "operations": [
+        {
+          "code": "cpp",
+          "num": "R48-1",
+          "op": "remplacer_depuis",
+          "ancre": "II.-",
+          "nouveau": "II.-L'action publique est éteinte par le paiement d'une amende forfaitaire pour les contraventions de la cinquième classe, dans les conditions du second alinéa de l'article 529. Sont exclues de cette procédure :\n1° Les contraventions de violences et d'atteinte volontaire à l'intégrité de la personne.\n2° Les contraventions dont le règlement prévoit la récidive.\n3° Les contraventions punies d'une peine complémentaire [obligatoire].",
+          "subdivision": "le II"
+        },
+        {
+          "code": "cpp",
+          "num": "R49",
+          "op": "remplacer",
+          "ancien": "200 €",
+          "nouveau": "[750] €",
+          "libelle": "montant"
+        }
+      ],
+      "code_2029": "R48-1 et R49 gardent leur numéro au 1er janvier 2029 ; ils citent l'article 529, que l'ordonnance n° 2025-1091 abroge : le décret de coordination les reprend.",
+      "risques": "Objections traitées par les exclusions : récidive (art. 529 al. 1, CP 132-11) et peines complémentaires. Droit au juge préservé par la réclamation (art. 529-2)."
+    },
+    {
+      "id": "R2",
+      "paquet": "réglementaire",
+      "titre": "Procès-verbal unique sur commission rogatoire",
+      "strate": "décret simple (D10) et décret en Conseil d'État (R15-33-21, R15-33-22)",
+      "objet": "Aligner la commission rogatoire sur la flagrance et l'enquête préliminaire, où un seul procès-verbal est déjà permis (D11).",
+      "principes": [
+        "P3",
+        "P7"
+      ],
+      "operations": [
+        {
+          "code": "cpp",
+          "num": "D10",
+          "op": "rediger",
+          "nouveau": "Lorsqu'ils exécutent une commission rogatoire, les officiers de police judiciaire peuvent relater dans un seul procès-verbal les opérations effectuées au cours de son exécution.\nSi plusieurs officiers de police judiciaire y concourent, le nom de celui qui a personnellement accompli chacune des opérations est précisé.\nLe magistrat mandant peut demander des procès-verbaux séparés pour chacun des actes."
+        },
+        {
+          "code": "cpp",
+          "num": "R15-33-21",
+          "op": "remplacer",
+          "ancien": "dans le cadre de l'enquête préliminaire",
+          "nouveau": "dans le cadre de l'enquête préliminaire, de l'enquête de flagrance ou de l'exécution d'une commission rogatoire"
+        },
+        {
+          "code": "cpp",
+          "num": "R15-33-21",
+          "op": "remplacer",
+          "ancien": "concourent à une enquête préliminaire",
+          "nouveau": "concourent à une même enquête"
+        },
+        {
+          "code": "cpp",
+          "num": "R15-33-22",
+          "op": "abroger"
+        }
+      ],
+      "code_2029": "D10, R15-33-21 et R15-33-22 gardent leur numéro au 1er janvier 2029.",
+      "risques": "Faible : D11 applique déjà la règle en flagrance et en préliminaire depuis 2016."
+    },
+    {
+      "id": "R3",
+      "paquet": "réglementaire",
+      "titre": "Frais de justice certifiés par le greffe",
+      "strate": "arrêté (A43-16)",
+      "objet": "Relever le seuil sous lequel les frais non tarifés sont certifiés par le greffe, sans réquisitions du parquet ni taxe du magistrat (R224-1 3°, R225 à R227).",
+      "principes": [
+        "P1",
+        "P4"
+      ],
+      "operations": [
+        {
+          "code": "cpp",
+          "num": "A43-16",
+          "op": "remplacer",
+          "ancien": "1 500 €",
+          "nouveau": "[5 000] €",
+          "libelle": "montant"
+        }
+      ],
+      "code_2029": "A43-16 garde son numéro.",
+      "risques": "Contrôle a posteriori maintenu : réclamation au ministère public (R234) et modulation des vérifications (A43-17)."
+    },
+    {
+      "id": "RP1",
+      "paquet": "réglementaire",
+      "titre": "Renouvellement des placements en quartier sécurisé au niveau interrégional",
+      "strate": "décret en Conseil d'État (code pénitentiaire R224-20)",
+      "objet": "Au-delà d'un an, le garde des Sceaux est « seul compétent » pour prolonger un placement en quartier de prise en charge de la radicalisation. La décision passe au directeur interrégional des services pénitentiaires, avec la même procédure contradictoire et la même durée maximale.",
+      "principes": [
+        "P15"
+      ],
+      "operations": [
+        {
+          "code": "penitentiaire",
+          "num": "R224-20",
+          "op": "remplacer",
+          "ancien": "le garde des sceaux, ministre de la justice, est seul compétent pour prolonger",
+          "nouveau": "le [directeur interrégional des services pénitentiaires] est compétent pour prolonger"
+        },
+        {
+          "code": "penitentiaire",
+          "num": "R224-20",
+          "op": "remplacer",
+          "ancien": ", du chef de l'établissement pénitentiaire et du directeur interrégional des services pénitentiaires",
+          "nouveau": " et du chef de l'établissement pénitentiaire"
+        }
+      ],
+      "code_2029": "Le code pénitentiaire n'est pas refondu.",
+      "risques": "Le contradictoire (L. 224-2) et la durée maximale de six mois renouvelable sont inchangés. Vérifier les articles voisins qui renvoient à la compétence du ministre."
+    },
+    {
+      "id": "L1",
+      "paquet": "législatif",
+      "titre": "Notification électronique par défaut",
+      "strate": "loi (CPP 803-1 II), puis décret pour les articles R/D qui visent une lettre ou une notification",
+      "objet": "Aujourd'hui, l'envoi électronique suppose le consentement exprès de la personne. Il devient la règle, et la personne peut demander le papier.",
+      "principes": [
+        "P12",
+        "P1"
+      ],
+      "operations": [
+        {
+          "code": "cpp",
+          "num": "803-1",
+          "op": "remplacer",
+          "ancien": "l'envoi peut être effectué par voie électronique, à la condition que la personne y ait préalablement consenti par une déclaration expresse recueillie au cours de la procédure. Cet accord précise le mode de communication électronique",
+          "nouveau": "l'envoi est effectué par voie électronique à l'adresse que la personne a déclarée au cours de la procédure. La personne peut, par une déclaration expresse, demander un envoi sur support papier. La déclaration d'adresse précise le mode de communication électronique"
+        }
+      ],
+      "code_2029": "Même modification à L1632-3 du code issu de l'ordonnance n° 2025-1091, qui reprend la condition de consentement.",
+      "verif_2029": [
+        {
+          "num": "L1632-3",
+          "contient": "préalablement consenti"
+        }
+      ],
+      "risques": "Fracture numérique : le papier reste de droit à la demande."
+    },
+    {
+      "id": "L2",
+      "paquet": "législatif",
+      "titre": "Fin de l'aménagement obligatoire",
+      "strate": "loi (CP 132-19, 132-25 ; CPP 723-15 à 723-18)",
+      "objet": "La prison ferme cesse d'être un « dernier recours ». L'aménagement devient une faculté décidée à l'audience. La procédure de convocation devant le juge de l'application des peines avant toute incarcération est abrogée.",
+      "principes": [
+        "P10",
+        "P14"
+      ],
+      "operations": [
+        {
+          "code": "cp",
+          "num": "132-19",
+          "op": "rediger",
+          "nouveau": "Lorsqu'un délit est puni d'une peine d'emprisonnement, la juridiction prononce la peine dans les conditions des articles 132-1 et 132-1-1."
+        },
+        {
+          "code": "cp",
+          "num": "132-25",
+          "op": "remplacer_alineas",
+          "alineas": [
+            1,
+            2
+          ],
+          "nouveau": "Lorsque la juridiction prononce une peine d'emprisonnement ferme inférieure ou égale à [six mois], elle peut ordonner, par la même décision, que la peine sera exécutée sous le régime de la détention à domicile sous surveillance électronique, de la semi-liberté ou du placement à l'extérieur."
+        },
+        {
+          "code": "cp",
+          "num": "132-25",
+          "op": "remplacer",
+          "ancien": "Dans les cas prévus aux deux premiers alinéas,",
+          "nouveau": "Dans le cas prévu au premier alinéa,"
+        },
+        {
+          "code": "cpp",
+          "num": "723-15",
+          "op": "abroger"
+        },
+        {
+          "code": "cpp",
+          "num": "723-15-1",
+          "op": "abroger"
+        },
+        {
+          "code": "cpp",
+          "num": "723-15-2",
+          "op": "abroger"
+        },
+        {
+          "code": "cpp",
+          "num": "723-16",
+          "op": "abroger"
+        },
+        {
+          "code": "cpp",
+          "num": "723-17",
+          "op": "abroger"
+        },
+        {
+          "code": "cpp",
+          "num": "723-17-1",
+          "op": "abroger"
+        },
+        {
+          "code": "cpp",
+          "num": "723-18",
+          "op": "abroger"
+        }
+      ],
+      "parametres_hors_texte": [
+        "[abroger] ou [garder] l'interdiction de la prison ferme d'un mois ou moins : la cible de 132-19 l'abroge."
+      ],
+      "code_2029": "Le code pénal n'est pas refondu. Pour 723-15 à 723-18, la correspondance dans le code de 2029 est à établir avant dépôt ; l'avis de convocation remis à l'audience figure à L4432-29.",
+      "risques": "Hausse de l'incarcération : à chiffrer avec la capacité (étape 7). Les renvois à 723-15 dans d'autres articles sont à coordonner."
+    },
+    {
+      "id": "L3",
+      "paquet": "législatif",
+      "titre": "Nullités purgées tôt",
+      "strate": "loi (CPP 173-1, 802)",
+      "objet": "Délai de nullité raccourci, et irrecevabilité de la partie qui a délibérément provoqué l'irrégularité.",
+      "principes": [
+        "P11",
+        "P13"
+      ],
+      "operations": [
+        {
+          "code": "cpp",
+          "num": "173-1",
+          "jour": "2026-10-23",
+          "op": "remplacer",
+          "ancien": "dequatre mois",
+          "nouveau": "de [un mois]",
+          "note": "« dequatre » : coquille de la base LEGI dans la version du 23 octobre 2026, à vérifier au Journal officiel."
+        },
+        {
+          "code": "cpp",
+          "num": "173-1",
+          "jour": "2026-10-23",
+          "op": "remplacer",
+          "ancien": "dans un délai de quatre mois à compter de la notification",
+          "nouveau": "dans un délai de [un mois] à compter de la notification"
+        },
+        {
+          "code": "cpp",
+          "num": "173-1",
+          "jour": "2026-10-23",
+          "op": "remplacer",
+          "ancien": "ce délai est également de quatre mois",
+          "nouveau": "ce délai est également de [un mois]"
+        },
+        {
+          "code": "cpp",
+          "num": "802",
+          "op": "ajouter_alinea",
+          "nouveau": "La partie qui a délibérément provoqué l'irrégularité est irrecevable à s'en prévaloir."
+        }
+      ],
+      "code_2029": "Défaut de coordination : L3752-4 du code de 2029 porte encore le délai de six mois, la réduction votée en 2026 n'y est pas reportée. L'alinéa nouveau de 802 se reporte à L1321-2.",
+      "verif_2029": [
+        {
+          "num": "L3752-4",
+          "contient": "six mois"
+        },
+        {
+          "num": "L1321-2",
+          "contient": "intérêts de la partie"
+        }
+      ],
+      "risques": "Le délai court de la connaissance effective (délivrance de la copie du dossier) : droits de la défense préservés. Le Sénat a écarté en 2025 « manœuvre ou négligence » ; « délibérément provoqué » vise le seul fait intentionnel."
+    },
+    {
+      "id": "L4",
+      "paquet": "législatif",
+      "titre": "La peine encourue comme référence, et ses diminutions bornées",
+      "strate": "loi (CP 132-1, article 132-1-1 nouveau)",
+      "objet": "Le juge prononce la peine encourue. Il la diminue pour trois catégories de motifs bornées, dans un plafond total qui dépend des antécédents et de la victime. Rédaction exacte à revoir par l'auteur.",
+      "principes": [
+        "P14"
+      ],
+      "operations": [
+        {
+          "code": "cp",
+          "num": "132-1",
+          "op": "remplacer_alineas",
+          "alineas": [
+            2,
+            3
+          ],
+          "nouveau": "La juridiction prononce la peine encourue. Elle peut prononcer une peine moindre pour les motifs et dans les limites fixés à l'article 132-1-1. Le jugement énonce chaque motif retenu, les faits qui l'établissent et la diminution appliquée."
+        },
+        {
+          "code": "cp",
+          "num": "132-1-1",
+          "op": "creer",
+          "apres": "132-1",
+          "nouveau": "I. – La peine encourue peut être diminuée d'une fraction de son montant :\n1° Au titre de la personne de l'auteur au moment des faits, notamment l'altération de son discernement ou l'absence de condamnation antérieure, dans la limite [du tiers].\n2° Au titre de son comportement lors de l'infraction, notamment un rôle accessoire, un préjudice limité ou la provocation de la victime, dans la limite [du cinquième].\n3° Au titre de son comportement après l'infraction, notamment la reconnaissance des faits, l'aide apportée à l'autorité pour faire cesser l'infraction ou en identifier les auteurs, ou la réparation du préjudice, dans la limite [du cinquième].\nII. – Le total des diminutions est limité à [la moitié] de la peine encourue. Il est limité [au tiers] en cas de réitération, et [au quart] lorsque la victime est mineure ou particulièrement vulnérable.\nIII. – Pour un mineur, la peine encourue servant de référence est réduite de moitié, dans les conditions du code de la justice pénale des mineurs."
+        }
+      ],
+      "code_2029": "Le code pénal n'est pas refondu.",
+      "risques": "Moyen : partir de la peine encourue dans les petites affaires (art. 8 DDHC, nécessité) et retirer la situation sociale du quantum. Parade : rationaliser les maxima. Les décotes spéciales (CP 122-1 al. 2, 132-78 et les articles qui portent « réduite de moitié ») sont à aligner : inventaire à faire."
+    },
+    {
+      "id": "L5",
+      "paquet": "législatif",
+      "titre": "Récidive : la peine simple devient le minimum",
+      "strate": "loi (article 132-1-2 nouveau du CP)",
+      "objet": "En récidive légale, la peine encourue est doublée (CP 132-8 à 132-10, inchangés) et la peine prononcée est au moins égale à la peine encourue pour l'infraction simple. Issue étroite à la première récidive, sur le modèle validé par CC 2007-554 DC.",
+      "principes": [
+        "P14"
+      ],
+      "operations": [
+        {
+          "code": "cp",
+          "num": "132-1-2",
+          "op": "creer",
+          "apres": "132-1-1",
+          "nouveau": "En cas de récidive légale, la peine prononcée est au moins égale à la peine encourue pour l'infraction commise hors récidive. Seules les diminutions au titre de l'altération du discernement et de la minorité s'appliquent à ce minimum.\nPour une première récidive, la juridiction peut, par une décision spécialement motivée par une circonstance exceptionnelle tenant à l'infraction, prononcer une peine au moins égale aux [deux tiers] de ce minimum."
+        }
+      ],
+      "code_2029": "Le code pénal n'est pas refondu.",
+      "risques": "Moyen, ramené à faible-moyen par l'issue de la première récidive : le plancher dépasse celui validé en 2007 (environ un tiers de l'encouru), mais la structure est la même (cons. 11, 13, 15 et 18)."
+    }
+  ]
+}
