@@ -322,10 +322,17 @@
     {
       "code": "cpp",
       "num": "L5243-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Surveillance électronique mobile des condamnés à au moins cinq ans : contrôle de la sortie, nécessité établie.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Surveillance électronique mobile des condamnés à au moins cinq ans : contrôle de la sortie, nécessité établie. Le renvoi à L5232-10 (détention à domicile) est une coquille pour L5332-10 (traitement de contrôle), et L5332-7 (pose et dignité) entre dans la liste.",
+      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "L. 5332-1, L. 5332-2 et L. 5232-10",
+          "nouveau": "L. 5332-1, L. 5332-2, L. 5332-7 et L. 5332-10"
+        }
+      ]
     },
     {
       "code": "cpp",

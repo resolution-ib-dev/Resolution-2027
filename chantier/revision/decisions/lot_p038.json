@@ -40,6 +40,11 @@
           "op": "remplacer",
           "ancien": "en prenant en compte, le cas échéant, de :",
           "nouveau": "en tenant compte, le cas échéant, de :"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "ainsi que par les 1°, 2° et 3° du I de l'article 464-2,",
+          "nouveau": "ainsi que par le I de l'article 464-2,"
         }
       ]
     },
@@ -759,10 +764,17 @@
     {
       "code": "cpp",
       "num": "D49-24",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Synthèse socio-éducative et expertise sur la dangerosité avant libération : protection des victimes potentielles. Renvois aux anciens 712-21, 723-31, 731-1 et 763-3 à coordonner.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Synthèse socio-éducative et expertise sur la dangerosité avant libération : protection des victimes potentielles, gardée. Le renvoi à D. 574, absent du code de 2029, est retiré. Renvois aux anciens 712-21, 723-31, 731-1 et 763-3 à coordonner.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "peut, conformément aux dispositions de l'article D. 574, demander",
+          "nouveau": "peut demander"
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -1113,10 +1125,16 @@
     {
       "code": "cpp",
       "num": "D49-66",
-      "decision": "G",
+      "decision": "S",
       "principe": "P18",
-      "motif": "La victime informée est avisée de l'aide d'une association, le service peut porter l'information de fin de peine ou de probation.",
-      "ligne_rouge": "art. 8 DDHC examiné : information de la victime, sans effet sur la peine"
+      "motif": "La victime informée est avisée de l'aide d'une association, le service peut porter l'information de fin de peine ou de probation. Le juge peut aussi charger le service de recueillir l'avis de la victime, que la doctrine requiert à chaque étape qui touche la peine (P18).",
+      "ligne_rouge": "art. 8 DDHC examiné : information de la victime, sans effet sur la peine",
+      "operations": [
+        {
+          "op": "ajouter_alinea",
+          "nouveau": "Le juge de l'application des peines peut demander au service pénitentiaire d'insertion et de probation de recueillir l'avis de la victime."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -1279,9 +1297,9 @@
     {
       "code": "cpp",
       "num": "D49-79",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "En urgence, le juge de Paris statue sans l'avis du juge local : le délai prime.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Dispense d'avis du juge local en urgence : sans objet, l'avis du juge local devient facultatif (L2152-5, L2152-11 et L2152-16, lot p260). Le juge de Paris statue sans attendre en toute hypothèse.",
       "ligne_rouge": "aucune"
     },
     {
@@ -1395,9 +1413,9 @@
     {
       "code": "cpp",
       "num": "D49-81-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "En urgence, le juge spécialisé statue sans l'avis du juge local : le délai prime.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Dispense d'avis du juge local en urgence : sans objet, l'avis du juge local devient facultatif (L2152-5, L2152-11 et L2152-16, lot p260). Le juge spécialisé statue sans attendre en toute hypothèse.",
       "ligne_rouge": "aucune"
     },
     {
