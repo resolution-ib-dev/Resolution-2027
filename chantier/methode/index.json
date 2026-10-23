@@ -14180,6 +14180,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/bareme/ajuger_monetaire",
+   "chemin": "revision/bareme/ajuger_monetaire.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/bareme/ajuger_monetaire.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/bareme/ajuger_route",
    "chemin": "revision/bareme/ajuger_route.json",
    "rang": "methode",
@@ -16472,6 +16486,7 @@
    "requirements.txt",
    "revision/bareme/ajuger_cp.json",
    "revision/bareme/ajuger_cpp.json",
+   "revision/bareme/ajuger_monetaire.json",
    "revision/bareme/ajuger_route.json",
    "revision/bareme/ajuger_sante.json",
    "revision/bareme/ajuger_securite_interieure.json",
@@ -16772,9 +16787,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1070,
-  "au_coffre": 1009,
-  "au_depot": 551,
+  "artefacts": 1071,
+  "au_coffre": 1010,
+  "au_depot": 552,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
