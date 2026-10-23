@@ -14152,6 +14152,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/bareme/ajuger_autres_codes",
+   "chemin": "revision/bareme/ajuger_autres_codes.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/bareme/ajuger_autres_codes.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/bareme/ajuger_cp",
    "chemin": "revision/bareme/ajuger_cp.json",
    "rang": "methode",
@@ -16498,6 +16512,7 @@
    "referentiels/socles_2027.sha256",
    "referentiels/sort_prelevements_20261015.tsv",
    "requirements.txt",
+   "revision/bareme/ajuger_autres_codes.json",
    "revision/bareme/ajuger_cp.json",
    "revision/bareme/ajuger_cpp.json",
    "revision/bareme/ajuger_monetaire.json",
@@ -16802,9 +16817,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1072,
-  "au_coffre": 1011,
-  "au_depot": 553,
+  "artefacts": 1073,
+  "au_coffre": 1012,
+  "au_depot": 554,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
