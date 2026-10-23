@@ -170,9 +170,17 @@ diminution est une fraction de la peine encourue, et les fractions s'additionnen
 
 | situation | total des diminutions |
 |---|---|
-| aucun antécédent | 1/2 |
+| aucun antécédent, délit sans atteinte aux personnes | 2/3 |
+| aucun antécédent, crime ou atteinte aux personnes | 1/2 |
 | réitération (CP 132-16-7) | 1/3 |
 | victime mineure ou particulièrement vulnérable | 1/4 |
+
+Plafond de 2/3 pour le primo-délinquant arrêté par l'auteur (20261023) : la peine
+prononcée ne descend jamais sous le tiers de la peine encourue. C'est le niveau du
+plancher validé en 2007 (« environ un tiers », CC 2007-554 DC, cons. 11). Il reste
+plus strict que l'Italie, où plusieurs atténuantes ne descendent pas sous le quart de
+la peine de base (art. 67 c.p.). Les trois catégories (1/3 + 1/5 + 1/5) permettent
+d'atteindre ce plafond. Il ne s'ouvre ni aux crimes ni aux atteintes aux personnes.
 
 **Récidive légale (validé dans son principe par l'auteur, 20261020).** La peine encourue est doublée, comme
 aujourd'hui (CP 132-8 à 132-10). La peine prononcée est au moins égale à la peine
@@ -187,7 +195,7 @@ modèle validé en 2007 :
 
 Exemple, vol (3 ans) : 3 à 6 ans en récidive, 2 ans au plus bas en cas de
 circonstance exceptionnelle à la première récidive. Réitération : 2 à 3 ans. Sans
-antécédent : 18 mois à 3 ans.
+antécédent : 1 à 3 ans (vol, délit sans atteinte aux personnes).
 
 Évaluation (CC 2007-554 DC, 9 août 2007, lu sur le texte de la décision) :
 
@@ -217,7 +225,8 @@ Peine encourue pour l'infraction (ex. vol : 3 ans)
 ├─ Discernement altéré ? → point de départ − 1/3 au plus
 │
 └─ Antécédents ?
-   ├─ Aucun : référence 3 ans, diminutions ≤ 1/2 → 18 mois à 3 ans
+   ├─ Aucun : référence 3 ans, diminutions ≤ 2/3 → 1 à 3 ans
+   │    (≤ 1/2 si crime ou atteinte aux personnes)
    ├─ Réitération : référence 3 ans, diminutions ≤ 1/3 → 2 à 3 ans
    └─ Récidive légale : référence doublée 6 ans, plancher = peine simple 3 ans
         ├─ 1re récidive : circonstance exceptionnelle spécialement motivée ?

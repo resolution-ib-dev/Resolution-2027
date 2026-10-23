@@ -40,7 +40,7 @@ EXPLI = {
 
 PRINCIPES = [
     ("La peine encourue est la référence", "le juge fixe librement la peine sous le maximum, selon notamment la situation sociale (CP 132-1)", "le juge prononce la peine encourue et motive chaque diminution, en fraction bornée", "L4"),
-    ("Diminutions en trois catégories plafonnées", "atténuations éparses : un tiers (discernement), moitié (repenti, mineur), libre ailleurs", "personne ≤ [1/3], pendant l'acte ≤ [1/5], après l'acte ≤ [1/5] ; total ≤ [1/2], [1/3] en réitération, [1/4] victime vulnérable", "L4"),
+    ("Diminutions en trois catégories plafonnées", "atténuations éparses : un tiers (discernement), moitié (repenti, mineur), libre ailleurs", "personne ≤ [1/3], pendant l'acte ≤ [1/5], après l'acte ≤ [1/5] ; total ≤ 2/3 pour un primo-délinquant hors atteinte aux personnes, 1/2 sinon, [1/3] en réitération, [1/4] victime vulnérable", "L4"),
     ("La récidive relève le plancher", "maximum doublé ; plus de peine plancher depuis 2014", "minimum = peine de l'infraction simple ; issue motivée à la 1re récidive", "L5"),
     ("La peine prononcée s'exécute", "aménagement obligatoire jusqu'à six mois ; prison « en dernier recours » ; convocation devant le JAP avant incarcération", "aménagement facultatif décidé à l'audience ; sinon mise à exécution", "L2"),
     ("La charge de la motivation s'inverse", "le tribunal motive spécialement la prison ferme", "le jugement motive l'écart à la peine encourue", "L2, L4"),
