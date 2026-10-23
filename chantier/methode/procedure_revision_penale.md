@@ -640,6 +640,62 @@ L1321-2)
   plus longs alinéas.
 - Pour amender : modifier la fiche, rejouer le script, verser.
 
+## Méthode de la réécriture complète (20261023)
+
+L'auteur l'a demandé : **tous les articles sont jaugés et ajustés au besoin**, pas
+seulement les points signalés. La méthode tient en deux passes et un registre.
+
+**Périmètre.** Code de procédure pénale de 2029 (4 179 articles L) et sa partie
+réglementaire en vigueur au 1er janvier 2029 (2 132 articles R, D, A), code pénal
+(1 301), code pénitentiaire (1 868) : 9 473 articles, 874 000 mots.
+
+**Grille.** `revision/grille_principes.json` : 25 principes, chacun avec sa
+question de test et sa source (révision constitutionnelle, livre, DDHC, notes HD,
+IPJ, IPP, modèles étrangers et historiques). P1 à P15 reprennent les principes
+déjà inscrits ; P16 à P25 ajoutent sanction plutôt qu'autorisation, jury et appel
+au fond, victime, délais opposables, deux pour une, charge de la preuve à la norme,
+compte rendu des juridictions, une idée par article, voies rapides, noyau des lignes
+rouges.
+
+**Passe 1, mécanique, sur tous les articles** (`appareil/registre_penal.py`,
+`referentiels/registre_penal.tsv`) : mesures (mots, renvois entrants), signaux
+(délai, autorisation, avis, nullité, notification, dérogation, peine, aménagement,
+liberté, victime, outre-mer, jury, liste), principes concernés, ligne rouge
+éventuelle, concordance avec l'ancien numéro (2 985 articles L appariés par
+similarité), décision proposée avec son principe et sa raison. Une proposition n'est
+jamais une décision.
+
+**Passe 2, jugement article par article** (`revision/decisions/<lot>.json`) : chaque
+article reçoit un verbe (garder, simplifier, fusionner, abroger, déclasser, remonter
+à la loi, réécrire, créer), le principe qui le porte, un motif, la ligne rouge
+examinée, et pour S, R et D les opérations sur le texte. Contrôles
+(`appareil/decisions_penal.py --strict`) :
+
+| contrôle | ce qu'il vérifie |
+|---|---|
+| D1 | couverture : chaque article du lot porte une décision |
+| D2 | forme : verbe connu, principe de la grille, motif, ligne rouge renseignée |
+| D3 | opérations : elles s'appliquent au texte (C2, C3) ; A et G n'en portent pas ; F nomme sa destination |
+| D4 | renvois : tout article abrogé ou fusionné qui reste cité ailleurs est listé, y compris par son ancien numéro dans la partie réglementaire |
+| D5 | ligne rouge : un article signalé en passe 1 ne peut être déclaré sans ligne rouge examinée |
+
+**Lots.** Un lot = un titre du code de 2029. Ordre : 5e partie (exécution), 4e
+(réponses pénales), 3e (investigations), 6e (procédures particulières), 2e
+(acteurs), 1re, 7e et 8e ; partie réglementaire après sa partie législative ; code
+pénal et code pénitentiaire avec les lots 1 et 2. Chaque lot se clôt par : D1 à D5 à
+zéro anomalie, revue adverse (`contestabilite`) des décisions R et A, tableau de bord
+(articles et mots avant et après, décisions par verbe, renvois à coordonner), mise à
+jour du doc. Un versement au dépôt par lot.
+
+**Produits finaux.** Code cible complet, trois colonnes complet (ancien, 2029,
+cible), table de concordance, dossier de synthèse en Word.
+
+**Premier lot jugé (essai)** : 5e partie, livre II, titre V, libération sous
+contrainte, 8 articles. 7 abrogations (P10 : remise de peine sans effort ni décision
+juridictionnelle), 1 fusion vers la libération conditionnelle (étranger éloigné).
+D1 à D5 : 0 anomalie. Renvois à coordonner : L5242-3, et cinq articles réglementaires
+qui citent l'ancien article 720 (D119, D147-18, D147-20, D147-24, D49-33).
+
 ## Codes de la chaîne pénale
 
 | code | court | articles applicables (base LEGI 20261018) |
