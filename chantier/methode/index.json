@@ -14250,6 +14250,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/bareme/noyau_cp_livre2",
+   "chemin": "revision/bareme/noyau_cp_livre2.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/bareme/noyau_cp_livre2.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/decisions/lot1_L5_livre2_titre5",
    "chemin": "revision/decisions/lot1_L5_livre2_titre5.json",
    "rang": "methode",
@@ -16295,6 +16309,7 @@
    "revision/bareme/formel_sante.json",
    "revision/bareme/formel_securite_interieure.json",
    "revision/bareme/formel_transports.json",
+   "revision/bareme/noyau_cp_livre2.json",
    "revision/decisions/lot1_L5_livre2_titre5.json",
    "revision/decisions/lot2_L5_livre2_titre4.json",
    "revision/decisions/lot3_D_livre5_titre3.json",
@@ -16577,9 +16592,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1057,
-  "au_coffre": 996,
-  "au_depot": 538,
+  "artefacts": 1058,
+  "au_coffre": 997,
+  "au_depot": 539,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
