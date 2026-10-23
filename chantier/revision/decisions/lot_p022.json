@@ -1,0 +1,208 @@
+{
+  "lot": "p022",
+  "perimetre": {
+    "code": "cpp",
+    "section_contient": "Partie Arrêtés > Livre V : Des procédures d'exécution > Titre X : Des frais de justice",
+    "prefixe": "A"
+  },
+  "juge_le": "2026-10-23",
+  "decisions": [
+    {
+      "code": "cpp",
+      "num": "A43-10",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Indemnité de l'administrateur ad hoc en procédure civile et indemnité de carence : un montant, une ligne. Tarif sans formalité.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-11",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Indemnités de l'administrateur ad hoc en zone d'attente et en demande d'asile, et indemnité de carence : tarif court. Les points-virgules sont ceux du texte en vigueur.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-12",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Tarif de l'enquête sociale civile et indemnité de carence : un montant par personne, tarif court.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-13",
+      "decision": "S",
+      "principe": "P23",
+      "motif": "Indemnité de la personne qui entend le mineur (code civil, art. 388-1). Reçoit l'indemnité de carence de A43-14, comme A43-10 à A43-12 la portent dans le même article : une idée, un article. Espace parasite (« l' article ») retirée.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "l' article 388-1",
+          "nouveau": "l'article 388-1"
+        },
+        {
+          "op": "ajouter_alinea",
+          "nouveau": "Lorsque cette personne n'a pu remplir sa mission en raison de la carence du mineur, il lui est alloué une indemnité de 10 euros s'il s'agit d'une personne physique et de 20 euros s'il s'agit d'une personne morale."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Indemnité de carence de l'audition du mineur : elle passe, mot pour mot sauf la ponctuation finale manquante, dans A43-13, qui porte l'indemnité principale. Aucune règle perdue.",
+      "ligne_rouge": "aucune",
+      "vers": "A43-13"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-15",
+      "decision": "R",
+      "principe": "P12",
+      "motif": "Remboursement des frais de fourrière au propriétaire relaxé (code de la route, art. L. 325-1-1) : la propriété est rendue indemne, règle gardée. La lettre recommandée cède la place à la voie électronique, la déclaration au greffe reste l'accès sur papier (P12), pour la demande comme pour le recours. La décision du parquet n'avait pas de délai : elle se prend dans [deux mois] à compter de la demande complète (P19). Construction « ainsi que la justification » corrigée. [arbitrage : silence valant acceptation]",
+      "ligne_rouge": "art. 2 DDHC (propriété) examiné : le remboursement au relaxé et le recours au juge qui l'a relaxé sont gardés, la décision reçoit un délai",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Cette demande doit être faite, dans un délai de six mois au plus tard à compter de la date à laquelle la décision de relaxe est devenue définitive, par déclaration au greffe contre récépissé ou par lettre recommandée avec demande d'accusé de réception.",
+          "nouveau": "Cette demande est faite, dans un délai de six mois à compter de la date à laquelle la décision de relaxe est devenue définitive, par voie électronique ou par déclaration au greffe contre récépissé."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "ainsi que la justification du paiement des frais d'enlèvement et de garde en fourrière.",
+          "nouveau": "ainsi que de la justification du paiement des frais d'enlèvement et de garde en fourrière. Le procureur de la République ou le procureur général statue dans un délai de [deux mois] à compter de la réception de la demande complète. À défaut de décision dans ce délai, la demande est réputée acceptée."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "au vu de la décision du procureur de la République ou du procureur général.",
+          "nouveau": "au vu de la décision du procureur de la République ou du procureur général ou, à défaut de décision dans le délai, au vu de la demande complète."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "Ce recours est formé par déclaration au greffe contre récépissé ou par lettre recommandée avec demande d'accusé de réception.",
+          "nouveau": "Ce recours est formé par voie électronique ou par déclaration au greffe contre récépissé."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-16",
+      "decision": "R",
+      "principe": "P4",
+      "motif": "Seuil sous lequel les frais non tarifés sont certifiés par le greffe, sans réquisitions ni taxe (R224-1 3°, R224-2 3°, R225). Relevé selon la fiche R3. Le contrôle a posteriori reste : réclamation au ministère public (R234) et vérifications modulées (A43-17).",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "1 500 €",
+          "nouveau": "[5 000] €"
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-17",
+      "decision": "G",
+      "principe": "P21",
+      "motif": "Contrôle des mémoires de frais de justice modulé selon le risque (approfondi ou formel) : le contrôle se proportionne à l'enjeu, ce que veut la charge de la preuve à la norme. Le texte nomme tantôt le ministre chargé du budget, tantôt celui de l'économie et des finances : à harmoniser par l'auteur s'il s'agit du même ministre.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-18",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Indemnité kilométrique de l'article R. 97 : un chiffre.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-4",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Tarif des enquêteurs de personnalité, contrôleurs judiciaires, délégués et médiateurs personnes physiques (R. 121, R. 121-1) : tableau d'indices, sans formalité.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-5",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Tarif des associations habilitées (R. 121, R. 121-3) : tableau d'indices, sans formalité.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-5-1",
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Tarif des missions des délégués et médiateurs du procureur, gardé. La sanction-réparation de l'article 12-1 de l'ordonnance n° 45-174 du 2 février 1945 renvoie à un texte abrogé depuis l'entrée en vigueur du code de la justice pénale des mineurs : la ligne et sa mention dans la note (1) tombent. Renvois aux anciens 41-1, 41-2 (4e partie), 390-1, 495-3 et 527 à coordonner.",
+      "ligne_rouge": "art. 8 DDHC examiné : le tarif fixe une dépense de l'État, il ne touche ni la procédure ni la peine ; la composition pénale et les alternatives qu'elle tarife sont jugées dans leur lot",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "\n-une peine de sanction-réparation en application de l'article 12-1 de l'ordonnance n° 45-174 du 2 février 1945, y compris le recueil de l'accord du mineur et des titulaires de l'exercice de l'autorité parentale",
+          "nouveau": ""
+        },
+        {
+          "op": "remplacer",
+          "ancien": " ainsi que des mesures prévues à l'article 12-1 de l'ordonnance n° 45-174 du 2 février 1945.",
+          "nouveau": "."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-6",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Rémunération des médecins, psychologues et radiologues requis par coefficients des lettres clés : barème lisible, indexé sur la sécurité sociale.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-6-1",
+      "decision": "G",
+      "principe": "P21",
+      "motif": "Rémunération sur devis des psychiatres et psychologues, plafonnée, par décision spécialement motivée, pour les missions inhabituelles ou complexes : dérogation bornée, l'expertise utile au jugement reste possible.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-6-2",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Tarif des analyses toxicologiques par coefficients de la lettre B : barème lisible. Sert de référence au droit fixe majoré de A38-6, désormais renvoyé ici.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-7",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Tarif des traductions et interprétariats selon l'horaire : barème court.",
+      "ligne_rouge": "art. 16 DDHC examiné : la rémunération des interprètes conditionne l'assistance de la personne qui ne parle pas français, elle est gardée"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-8",
+      "decision": "G",
+      "principe": "P20",
+      "motif": "Indemnités de l'administrateur ad hoc en procédure pénale (R. 216, R. 216-1) : tableau d'indices.",
+      "ligne_rouge": "minorité examinée : l'administrateur ad hoc représente le mineur victime, son indemnisation est gardée"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-9",
+      "decision": "G",
+      "principe": "P21",
+      "motif": "Remboursement des opérateurs pour les réquisitions et interceptions, au tarif ou sur devis : l'État paie la prestation, le coût est connu à l'avance.",
+      "ligne_rouge": "art. 66 C et vie privée (art. 2 DDHC) examinés : l'article tarife des réquisitions et interceptions que la loi autorise et que le juge contrôle, il n'en ouvre ni n'en élargit aucune"
+    }
+  ]
+}
