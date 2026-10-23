@@ -61,7 +61,7 @@ S = {k: re.compile(v, re.I) for k, v in {
 }.items()}
 
 PRINCIPES = {   # signal → principes de la grille qui jugent l'article
-    "amenagement": ["P10", "P14"], "peine": ["P14"], "nullite": ["P11"],
+    "amenagement": ["P10", "P14"], "peine": ["P14", "P27"], "nullite": ["P11"],
     "notification": ["P12"], "liste": ["P2"], "avis_obligatoire": ["P15", "P1"],
     "autorisation": ["P16"], "derogation": ["P3"], "renvoi_reglement": ["P1"],
     "outre_mer": ["P3"], "jury": ["P17"], "victime": ["P18"], "delai": ["P11", "P19"],

@@ -255,6 +255,25 @@ pourcentage, à fixer par l'auteur, et annoncées au prononcé. La règle du
 avec la gravité : atteintes aux personnes, atteintes aux enfants (livre, folio 92),
 récidive. Il ne se baisse que pour rationaliser.
 
+**Peines de référence réalistes (P27, arrêté par l'auteur le 20261023).** Le
+maximum est la référence : il doit donc être une peine qu'on prononce. Les
+délits se trient en trois classes (`appareil/bareme_delits.py`,
+`referentiels/bareme_delits.tsv`) :
+
+- noyau (atteintes aux personnes, aux biens, à la nation, à la justice, à la
+  confiance publique) : la peine encourue reste la référence, contrôlée contre
+  la hiérarchie de la famille, et se relève là où elle est incohérente ;
+- formel (défaut de déclaration, d'autorisation, de registre, de forme, sans
+  dommage nommé) : l'emprisonnement y est une peine d'affichage présumée. Il
+  tombe au profit d'une amende délictuelle, d'une contravention de 5e classe
+  ou d'une sanction administrative ;
+- à juger : décision en passe 2.
+
+Premier tri (20261023) : 1 260 délits relevés hors crimes, dont 471 au noyau,
+199 formels et 590 à juger. Le tri est lexical ; chaque article se confirme en
+passe 2, puis par l'usage (condamnations par NATINF) quand la donnée sera
+obtenue.
+
 **Risque constitutionnel.**
 
 - Faible pour les fractions : le législateur en pratique déjà (CP 122-1, CJPM
@@ -652,13 +671,14 @@ seulement les points signalés. La méthode tient en deux passes et un registre.
 réglementaire en vigueur au 1er janvier 2029 (2 132 articles R, D, A), code pénal
 (1 301), code pénitentiaire (1 868) : 9 473 articles, 874 000 mots.
 
-**Grille.** `revision/grille_principes.json` : 26 principes, chacun avec sa
+**Grille.** `revision/grille_principes.json` : 27 principes, chacun avec sa
 question de test et sa source (révision constitutionnelle, livre, DDHC, notes HD,
 IPJ, IPP, modèles étrangers et historiques). P1 à P15 reprennent les principes
-déjà inscrits ; P16 à P26 ajoutent sanction plutôt qu'autorisation, jury et appel
+déjà inscrits ; P16 à P27 ajoutent sanction plutôt qu'autorisation, jury et appel
 au fond, victime, délais opposables, sobriété de la règle, charge de la preuve à la norme,
 compte rendu des juridictions, une idée par article, voies rapides, noyau des lignes
-rouges, transparence des procédures et des jugements (P26, arrêtée par l'auteur
+rouges, transparence des procédures et des jugements (P26), peines de référence
+réalistes (P27) ; P26 et P27 arrêtés par l'auteur
 le 20261023 ; le « deux pour une » est retiré à la même date).
 
 **Passe 1, mécanique, sur tous les articles** (`appareil/registre_penal.py`,
