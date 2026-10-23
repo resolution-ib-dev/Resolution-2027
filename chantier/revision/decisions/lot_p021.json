@@ -1,0 +1,86 @@
+{
+  "lot": "p021",
+  "perimetre": {
+    "code": "cpp",
+    "section_contient": "Partie Arrêtés > Livre V : Des procédures d'exécution > Titre Ier",
+    "prefixe": "A"
+  },
+  "juge_le": "2026-10-23",
+  "decisions": [
+    {
+      "code": "cpp",
+      "num": "A38-2",
+      "decision": "R",
+      "principe": "P22",
+      "motif": "Modalités de publicité du rapport annuel du parquet sur l'exécution (L5112-2). La consultation sur demande, annoncée par une affiche au tribunal, devient une publication en ligne (P12, P26). Le rapport porte désormais le délai maximal de mise à exécution de L5111-1 réécrit (lot p000) : il dit, pour le ressort, la part des peines mises à exécution dans ce délai. La diffusion interne et la liste de dix destinataires « pour information » tombent : le rapport publié est lisible par tous, et la liste citait des autorités disparues (trésorier-payeur général, juridictions de proximité, chambre des huissiers). La faculté d'envoi aux associations d'aide aux victimes et l'exposé à l'audience de rentrée se gardent. Renvois aux anciens 709-2 (L5112-2), 35 et 41 à coordonner.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "peut être librement consulté par toute personne qui en fait la demande. Avant le dernier jour ouvrable du mois de juin, une affiche est apposée dans une salle ouverte au public du tribunal judiciaire afin d'indiquer les modalités pratiques de cette consultation.",
+          "nouveau": "est publié en ligne sur le site internet du ministère de la justice avant le dernier jour ouvrable du mois de juin. Il indique, pour le ressort du tribunal judiciaire, la part des peines mises à exécution dans le délai fixé par l'article L. 5111-1."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "\nCe rapport est diffusé auprès de l'ensemble des magistrats, greffiers et fonctionnaires du tribunal judiciaire, des tribunaux contraventionnels et des juridictions de proximité.\nUne copie de ce rapport est adressée pour information :\n-au préfet ;\n-au directeur départemental ou interdépartemental de la police nationale ;\n-au directeur territorial de la police nationale ;\n-au commandant du groupement de gendarmerie ;\n-aux chefs des établissements pénitentiaires ;\n-au directeur du service pénitentiaire d'insertion et de probation ;\n-au directeur territorial de la protection judiciaire de la jeunesse ;\n-au trésorier-payeur général ;\n-au bâtonnier de l'ordre des avocats ;\n-au président de la chambre départementale des huissiers.\nCe rapport est diffusé au sein des conseils locaux de sécurité et de prévention de la délinquance et des conseils départementaux de prévention.",
+          "nouveau": ""
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A38-3",
+      "decision": "G",
+      "principe": "P4",
+      "motif": "Comptable compétent pour recouvrer les amendes : celui du siège de la juridiction qui a condamné. Met en œuvre L5112-5 et L5411-1 (gardés, lots p000 et p016) : règle de compétence simple, une seule adresse par juridiction.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A38-4",
+      "decision": "G",
+      "principe": "P3",
+      "motif": "Centralisation à Rennes du recouvrement des amendes forfaitaires majorées du contrôle automatisé et de l'encaissement des télépaiements : un guichet national pour un contentieux de masse, régime le plus simple.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A38-5",
+      "decision": "G",
+      "principe": "P3",
+      "motif": "Dérogation territoriale de A38-3 pour huit départements d'Occitanie, au profit d'une trésorerie spécialisée : organisation du recouvrement, sans effet sur la peine. Garde.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A38-5-1",
+      "decision": "G",
+      "principe": "P3",
+      "motif": "Recouvrement des amendes forfaitaires délictuelles majorées au lieu du domicile du redevable, à défaut au lieu de l'infraction, Paris centralisé : le redevable a un interlocuteur proche. Renvoi à l'ancien 495-18 à coordonner (L4223-5 et L4223-10).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A38-5-2",
+      "decision": "G",
+      "principe": "P3",
+      "motif": "Recouvrement centralisé à Paris des amendes et confiscations douanières (code des douanes, art. 345-0 bis) : compétence spécialisée, sans formalité ajoutée. Garde.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "A38-6",
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Majoration du droit fixe de procédure (CGI, art. 1018 A) du coût de l'analyse de stupéfiants, à la charge du condamné : la dépense causée par l'infraction est payée par son auteur, non par le contribuable. Renvoi mort : l'article R. 118 du code de 2029 n'a plus de 10°, le tarif est fixé par le tableau annexé à l'article A. 43-6-2, absent de la base. La concordance de la somme de 210 euros avec ce tableau et avec l'article 1018 A du CGI (somme des indemnités maximales des différentes analyses) reste à vérifier au Journal officiel. Renvoi corrigé.",
+      "ligne_rouge": "art. 8 DDHC examiné : le droit fixe est une somme forfaitaire de procédure, non une peine, et suit la condamnation prononcée",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "de l'indemnité maximale prévue par le 10° de l'article R. 118 du présent code pour les analyses toxicologiques permettant d'établir la présence de stupéfiants dans le sang",
+          "nouveau": "du tarif maximal fixé par l'article A. 43-6-2 du présent code pour les analyses toxicologiques permettant d'établir la présence de stupéfiants dans le sang"
+        }
+      ]
+    }
+  ]
+}
