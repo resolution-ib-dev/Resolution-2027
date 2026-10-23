@@ -1,0 +1,72 @@
+{
+  "lot": "p230",
+  "perimetre": {
+    "code": "cpp",
+    "section_contient": "Partie réglementaire - Décrets en Conseil d'Etat > Livre IV : De quelques procédures particulières > Titre XXIV - DE LA GÉOLOCALISATION",
+    "prefixe": "R"
+  },
+  "juge_le": "2026-10-23",
+  "decisions": [
+    {
+      "code": "cpp",
+      "num": "R53-40",
+      "decision": "S",
+      "principe": "P15",
+      "motif": "Requête motivée du juge d'instruction au juge des libertés et de la détention, liste des pièces, rapport des enquêteurs : gardés. L'avis préalable du procureur, que la loi ne prévoit pas (ancien 230-40), ne protège aucune liberté : il devient une information.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Le juge d'instruction adresse sa requête au juge des libertés et de la détention après avoir recueilli l'avis du procureur de la République, qui est joint à la requête.",
+          "nouveau": "Le juge d'instruction adresse sa requête au juge des libertés et de la détention et en informe le procureur de la République."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-40-1",
+      "decision": "G",
+      "principe": "P25",
+      "motif": "Dossier distinct et registre conservés par le président du tribunal, communicables aux seuls juges. Renvoi à l'ancien 230-41 à coordonner vers L. 3551-11 (lot p196).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-40-2",
+      "decision": "S",
+      "principe": "P15",
+      "motif": "Pièces versées au dossier distinct : l'avis du procureur, supprimé (R53-40), sort de la liste.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "la requête du juge d'instruction, l'avis du procureur de la République et, le cas échéant,",
+          "nouveau": "la requête du juge d'instruction et, le cas échéant,"
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-40-3",
+      "decision": "S",
+      "principe": "P15",
+      "motif": "Refus du juge : dossier distinct détruit à la prescription. L'avis du procureur, supprimé (R53-40), sort de la liste.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "la décision du juge des libertés et de la détention, l'avis du procureur de la République et, le cas échéant,",
+          "nouveau": "la décision du juge des libertés et de la détention et, le cas échéant,"
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-40-4",
+      "decision": "G",
+      "principe": "P25",
+      "motif": "Avant l'avis de fin d'information, versement au dossier distinct des éléments recueillis, après avis du procureur et observations des parties : contradictoire tenu. Renvoi à l'ancien 230-41 à coordonner vers L. 3551-11 (lot p196).",
+      "ligne_rouge": "art. 16 DDHC examiné : les parties présentent leurs observations, la décision est versée au dossier de la procédure ; art. 66 C non en jeu"
+    }
+  ]
+}
