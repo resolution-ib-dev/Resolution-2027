@@ -1,7 +1,7 @@
 {
   "articles_registre": 9473,
-  "decides": 1136,
-  "part_jugee": 0.1199,
+  "decides": 1140,
+  "part_jugee": 0.1203,
   "lots": [
     {
       "lot": "lot1_L5_livre2_titre5.json",
@@ -23,10 +23,10 @@
           "D147-24",
           "D49-33"
         ],
-        "L5251-1": [
+        "L5252-4": [
           "L5242-3"
         ],
-        "L5252-4": [
+        "L5251-1": [
           "L5242-3"
         ]
       }
@@ -620,6 +620,16 @@
       "decides": 4,
       "decisions": {
         "G": 4
+      },
+      "a_coordonner": {}
+    },
+    {
+      "lot": "lot_p042.json",
+      "attendus": 4,
+      "decides": 4,
+      "decisions": {
+        "S": 2,
+        "G": 2
       },
       "a_coordonner": {}
     }
