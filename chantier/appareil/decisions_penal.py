@@ -77,7 +77,8 @@ def main():
         lot = json.loads(f.read_text(encoding="utf-8"))
         per = lot["perimetre"]
         attendus = {(c, n) for (c, n), (t, s) in textes.items()
-                    if c == per["code"] and per["section_contient"] in s and n.startswith(per.get("prefixe", ""))}
+                    if c == per["code"] and per["section_contient"] in s and n.startswith(per.get("prefixe", ""))
+                    and (c, n) in parcle}   # le registre de passe 1 est le périmètre de la réécriture
         decides = {(d["code"], d["num"]): d for d in lot["decisions"]}
         manq = {k for k in attendus - set(decides) if k not in partout}
         if manq:
