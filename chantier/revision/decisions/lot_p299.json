@@ -1,0 +1,63 @@
+{
+  "lot": "p299",
+  "perimetre": {
+    "code": "cpp",
+    "section_contient": "Partie législative (nouvelle) > 7E PARTIE : SAISINE POUR AVIS DE LA COUR DE CASSATION ET VOIES DE RECOURS EXTRAORDINAIRES > Livre II : POURVOI EN CASSATION > Titre II : POURVOIS FORMÉS DANS L'INTÉRÊT DE LA LOI",
+    "prefixe": "L"
+  },
+  "juge_le": "2026-10-23",
+  "decisions": [
+    {
+      "code": "cpp",
+      "num": "L7221-1",
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Numéro en double dans la base : le texte inscrit au registre renvoie à un L7221-2 absent. Le pourvoi dans l'intérêt de la loi tient en un article, qui nomme son auteur et son effet hors délai.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur général près la Cour de cassation peut d'office, même après l'expiration du délai de pourvoi, former un pourvoi dans le seul intérêt de la loi contre les arrêts et jugements rendus en dernier ressort par une cour d'appel, une cour criminelle départementale, une cour d'assises ou un tribunal délictuel ou contraventionnel, sujets à cassation, et contre lesquels aucune des parties ne s'est pourvue dans le délai déterminé."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7221-3",
+      "decision": "S",
+      "principe": "P13",
+      "motif": "La Cour se prononce sur la recevabilité et le fond. Article manquant rétabli (« intérêt de la loi »).",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "dans l'intérêt de loi",
+          "nouveau": "dans l'intérêt de la loi"
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7221-4",
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Cassation sans effet pour les parties. Conjonction corrigée (« ni s'opposer »).",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "n'y s'opposer",
+          "nouveau": "ni s'opposer"
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7222-1",
+      "decision": "G",
+      "principe": "P25",
+      "motif": "Annulation sur ordre du ministre des actes contraires à la loi : correction des excès de pouvoir.",
+      "ligne_rouge": "aucune"
+    }
+  ]
+}
