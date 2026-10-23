@@ -4,7 +4,7 @@ casf	L225-19	un an	12	noyau	mineur	peine encourue = référence ; contrôler la 
 casf	L227-8	six mois	6	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 casf	L473-1	un an	12	à juger		passe 2		
 casf	L474-6	un an	12	à juger		passe 2		
-cch	L183-11	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cch	L183-11	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de recherche et de constatation en matière de construction et d'habitation. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
 cch	L511-22	un an	12	noyau	vulnérab	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cch	L521-4	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cch	L642-28	un an	12	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -12,7 +12,7 @@ ceseda	L511-7	dix ans	120	noyau	menace	peine encourue = référence ; contrôler
 ceseda	L531-20	un an	12	à juger		passe 2		
 ceseda	L821-1	un an	12	à juger		passe 2		
 ceseda	L821-2	un an	12	à juger		passe 2		
-ceseda	L821-3	trois ans	36	formel	de ne pas présenter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+ceseda	L821-3	trois ans	36	formel	de ne pas présenter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Refus de présenter les documents de voyage ou fausse identité pour faire échec à un refus d'entrée : entrave à l'exécution d'une décision de l'État sur l'accès au territoire, noyau (nation).
 ceseda	L821-4	trois ans	36	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
 ceseda	L821-5	trois ans	36	à juger		passe 2		
 ceseda	L822-1	un an	12	à juger		passe 2		
@@ -23,12 +23,12 @@ ceseda	L823-2	cinq ans	60	à juger		passe 2
 ceseda	L823-3	dix ans	120	noyau	risque immédiat	peine encourue = référence ; contrôler la hiérarchie de la famille		
 ceseda	L823-4	deux ans	24	à juger		passe 2		
 ceseda	L824-10	trois ans	36	à juger		passe 2		
-ceseda	L824-11	trois ans	36	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-ceseda	L824-12	trois ans	36	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+ceseda	L824-11	trois ans	36	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Retour en France malgré une interdiction du territoire ou une expulsion : méconnaissance d'une décision d'éloignement, souvent prononcée par le juge pénal, noyau (nation, justice).
+ceseda	L824-12	trois ans	36	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Retour en France après remise à un autre État, interdiction de circulation ou transfert : même atteinte que L824-11, noyau (nation).
 ceseda	L824-3	un an	12	à juger		passe 2		
-ceseda	L824-4	trois ans	36	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-ceseda	L824-5	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-ceseda	L824-6	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+ceseda	L824-4	trois ans	36	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Assigné à résidence qui ne rejoint pas ou quitte sa résidence : soustraction à une mesure d'éloignement, noyau (nation).
+ceseda	L824-5	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Manquement aux obligations de présentation de l'assigné à résidence : ces présentations sont la garantie de l'éloignement, noyau (nation).
+ceseda	L824-6	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Méconnaissance du placement sous surveillance électronique mobile : la mesure de sûreté perd son objet, noyau (nation).
 ceseda	L824-7	un an	12	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
 ceseda	L824-8	trois ans	36	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
 ceseda	L824-9	trois ans	36	à juger		passe 2		
@@ -58,8 +58,8 @@ commerce	L321-15	deux ans	24	à juger		passe 2
 commerce	L442-9	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 commerce	L654-3	cinq ans	60	à juger		passe 2		
 commerce	L722-21	trois ans	36	à juger		passe 2		
-commerce	L821-7	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-commerce	L822-41	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+commerce	L821-7	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Usage du titre et exercice illégal de commissaire aux comptes : la certification légale des comptes fonde la confiance des tiers, noyau (confiance publique), au rang de l'usurpation de titre (CP 433-17).
+commerce	L822-41	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Usage du titre et exercice illégal d'auditeur de durabilité : même protection de la confiance publique que L821-7, dont il suit le sort.
 commerce	L835-6	un an	12	à juger		passe 2		
 conso	L341-61	une peine de cinq ans	60	à juger		passe 2		
 conso	L454-6	une peine de deux ans	24	à juger		passe 2		
@@ -172,20 +172,20 @@ cp	226-1	un an	12	noyau	mineur	peine encourue = référence ; contrôler la hié
 cp	226-10	cinq ans	60	à juger		passe 2		
 cp	226-13	un an	12	à juger		passe 2		
 cp	226-15	un an	12	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	226-16	cinq ans	60	formel	formalit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	226-16	cinq ans	60	formel	formalit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Traitement de données poursuivi malgré la limitation ou l'interdiction prononcée par la CNIL (al. 2) : atteinte à la vie privée nommée par l'autorité, noyau. Le seul défaut de formalité préalable (al. 1) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 cp	226-16-1	cinq ans	60	à juger		passe 2		
 cp	226-16-2	cinq ans	60	à juger		passe 2		
 cp	226-17	cinq ans	60	à juger		passe 2		
-cp	226-17-1	cinq ans	60	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	226-17-1	cinq ans	60	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	sanction administrative	Défaut de notification d'une violation de données à la CNIL ou aux intéressés : manquement déclaratif, que la CNIL sanctionne plus vite et plus sûrement que le juge pénal, par les amendes du règlement européen.
 cp	226-18	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	226-18-1	cinq ans	60	à juger		passe 2		
 cp	226-19	cinq ans	60	à juger		passe 2		
 cp	226-19-1	cinq ans	60	à juger		passe 2		
 cp	226-20	cinq ans	60	à juger		passe 2		
 cp	226-21	cinq ans	60	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	226-22	cinq ans	60	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	226-22	cinq ans	60	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Divulgation à un tiers de données qui portent atteinte à la considération ou à l'intimité de la personne : atteinte à la vie privée, dommage nommé, noyau.
 cp	226-22-1	cinq ans	60	à juger		passe 2		
-cp	226-22-2	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	226-22-2	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Entrave à la CNIL : traitée comme l'entrave à la commission de contrôle du renseignement (L833-3 gardé), toutes deux gardiennes de la vie privée [arbitrage].
 cp	226-25	un an	12	noyau	dopage	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	226-26	un an	12	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	226-27	un an	12	à juger		passe 2		
@@ -203,7 +203,7 @@ cp	227-12	six mois	6	noyau	menace	peine encourue = référence ; contrôler la h
 cp	227-13	trois ans	36	à juger		passe 2		
 cp	227-15	sept ans	84	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	227-17	deux ans	24	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	227-17-1	six mois	6	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	227-17-1	six mois	6	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Enfant soustrait à toute instruction malgré mise en demeure, école hors contrat maintenue malgré ses manquements ou malgré sa fermeture : mise en péril des mineurs, noyau (atteintes aux enfants).
 cp	227-18	cinq ans	60	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	227-18-1	sept ans	84	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	227-18-2	sept ans	84	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -250,8 +250,8 @@ cp	315-1-1	deux ans	24	à juger		passe 2
 cp	321-1	cinq ans	60	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	321-2	dix ans	120	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	321-6	au moins cinq ans	60	à juger		passe 2		
-cp	321-7	six mois	6	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-cp	321-8	six mois	6	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	321-7	six mois	6	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut de tenue du registre des objets mobiliers usagés : manquement de registre. Le recel lui-même est réprimé par 321-1. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+cp	321-8	six mois	6	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Mentions inexactes au registre des objets usagés ou refus de le présenter : manquement de registre et obstacle au contrôle. Le recel lui-même est réprimé par 321-1. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 cp	322-1	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	322-11-1	sept ans	84	noyau	incendi	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	322-12	six mois	6	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -289,7 +289,7 @@ cp	413-3	cinq ans	60	à juger		passe 2
 cp	413-4	cinq ans	60	à juger		passe 2		
 cp	413-5	un an	12	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	413-6	trois ans	36	à juger		passe 2		
-cp	413-7	six mois	6	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	413-7	six mois	6	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Intrusion dans une zone protégée intéressant la défense nationale : atteinte à la nation, noyau.
 cp	414-1	sept ans	84	à juger		passe 2		
 cp	421-2-3	sept ans	84	à juger		passe 2		
 cp	421-2-5	cinq ans	60	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -429,7 +429,7 @@ cp	445-1-1	cinq ans	60	à juger		passe 2
 cp	445-2	cinq ans	60	à juger		passe 2		
 cp	445-2-1	cinq ans	60	à juger		passe 2		
 cp	445-2-2	dix ans	120	à juger		passe 2		
-cp	446-1	six mois	6	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	446-1	six mois	6	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Vente à la sauvette : amende délictuelle, la forme aggravée de 446-2 et la confiscation de 446-3 restent attachées au délit. Le passage en contravention est écarté, il aurait laissé 446-2 orphelin.
 cp	450-1	au moins cinq ans	60	à juger		passe 2		
 cp	450-1-1	trois ans	36	à juger		passe 2		
 cp	461-18	dix ans	120	à juger		passe 2		
@@ -474,7 +474,7 @@ cp	521-1-1	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler l
 cp	521-1-2	deux ans	24	à juger		passe 2		
 cp	521-1-3	un an	12	à juger		passe 2		
 cp	522-1	six mois	6	noyau	mort	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	713-4	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	713-4	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Adaptation de 226-28 à la Polynésie française et à la Nouvelle-Calédonie : identification génétique hors des cas légaux, atteinte à la vie privée, suit le sort de l'article métropolitain.
 cp	713-5	un an	12	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	714-1	une peine de sept ans	84	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cp	715-5	un an	12	à juger		passe 2		
@@ -498,11 +498,11 @@ cp	726-5	deux ans	24	à juger		passe 2
 cp	726-6	deux ans	24	à juger		passe 2		
 cp	726-7	deux ans	24	à juger		passe 2		
 cp	726-8	deux ans	24	à juger		passe 2		
-cp	726-9	sept ans	84	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cp	726-9	sept ans	84	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Adaptation de 511-16 à Wallis-et-Futuna : obtention d'embryons humains hors autorisation judiciaire, protection de la personne et de la filiation, suit le sort de l'article métropolitain.
 cp	727-2	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	114-1	trois ans	36	à juger		passe 2		
 cpp	116-1	un an	12	à juger		passe 2		
-cpp	137-4	dix ans	120	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cpp	137-4	dix ans	120	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Article de procédure sans incrimination : le seuil de dix ans définit le champ du référé-détention du parquet. Il sort du barème des délits, sans requalification [arbitrage].
 cpp	138-3	au moins trois ans	36	à juger		passe 2		
 cpp	142-12-1	au moins cinq ans	60	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	142-5	plus de sept ans	84	à juger		passe 2		
@@ -526,7 +526,7 @@ cpp	706-105-3	cinq ans	60	noyau	menace	peine encourue = référence ; contrôler
 cpp	706-136	dix ans	120	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	706-136-1	dix ans	120	à juger		passe 2		
 cpp	706-148	au moins cinq ans	60	à juger		passe 2		
-cpp	706-25-21	trois ans	36	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cpp	706-25-21	trois ans	36	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Manquement aux obligations de la mesure judiciaire de prévention de la récidive terroriste : sûreté de la nation, noyau.
 cpp	706-25-7	deux ans	24	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	706-47-2	un an	12	noyau	viol	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	706-52	un an	12	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -534,7 +534,7 @@ cpp	706-53-10	dix ans	120	noyau	mineur	peine encourue = référence ; contrôler
 cpp	706-53-4	dix ans	120	noyau	décès	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	706-53-5	dix ans	120	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	706-56	dix ans	120	à juger		passe 2		
-cpp	706-58	au moins trois ans	36	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cpp	706-58	au moins trois ans	36	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Article de procédure sans incrimination : le seuil de trois ans ouvre le témoignage anonyme, et le registre protège le témoin. Il sort du barème des délits, sans requalification [arbitrage].
 cpp	706-59	cinq ans	60	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	706-62-1	au moins trois ans	36	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	706-62-2	cinq ans	60	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -547,13 +547,13 @@ cpp	78-5	trois mois	3	à juger		passe 2
 cpp	78-6	deux mois	2	à juger		passe 2		
 cpp	8	dix ans	120	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 cpp	802-3	un an	12	à juger		passe 2		
-cpp	803-11	au moins cinq ans	60	formel	défaut de tenue	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+cpp	803-11	au moins cinq ans	60	formel	défaut de tenue	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Article de procédure sans incrimination : le seuil de cinq ans ouvre le maintien exceptionnel en détention sous contrôle du premier président (art. 66 C). Il sort du barème des délits, sans requalification [arbitrage].
 cpp	814	un an	12	à juger		passe 2		
 cpp	880	un an	12	à juger		passe 2		
 css	L114-13	une peine de trois ans	36	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 css	L931-25	six mois	6	à juger		passe 2		
 css	L951-11	un an	12	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-defense	L1333-12	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+defense	L1333-12	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Matières nucléaires : contrôle entravé, mise en demeure inexécutée, activité poursuivie malgré refus ou suspension. Risque de détournement et de malveillance, noyau (nation). L'entrave au contrôle du I peut passer en amende délictuelle lors de la rédaction [arbitrage].
 defense	L1333-13-14	trois ans	36	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 defense	L1333-13-15	sept ans	84	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
 defense	L1333-13-3	dix ans	120	à juger		passe 2		
@@ -566,14 +566,14 @@ defense	L2342-64	cinq ans	60	noyau	arme	peine encourue = référence ; contrôle
 defense	L2342-65	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 defense	L2342-66	deux ans	24	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille		
 defense	L2342-67	six mois	6	à juger		passe 2		
-defense	L2342-68	sept ans	84	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-defense	L2342-69	trois ans	36	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-defense	L2342-70	deux ans	24	formel	défaut de déclaration	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-defense	L2342-71	un an	12	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+defense	L2342-68	sept ans	84	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Armes chimiques : exploitation d'une installation du tableau 1 sans autorisation, commerce avec un État non partie. Prolifération, noyau (nation).
+defense	L2342-69	trois ans	36	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Armes chimiques : fabrication, détention et commerce de produits du tableau 1 sans autorisation. Prolifération, noyau (nation).
+defense	L2342-70	deux ans	24	formel	défaut de déclaration	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Armes chimiques : la déclaration des installations du tableau 1 (1°) et le commerce du tableau 2 avec un État non partie (2°) servent la vérification de la Convention de Paris, noyau (nation). Le défaut d'information annuelle des quantités (3°) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+defense	L2342-71	un an	12	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Commerce sans autorisation de produits du tableau 3 vers un État non partie à la Convention de Paris : prolifération, noyau (nation).
 defense	L2342-74	cinq ans	60	à juger		passe 2		
 defense	L2343-9	dix ans	120	à juger		passe 2		
 defense	L2344-7	dix ans	120	à juger		passe 2		
-defense	L2352-5	six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+defense	L2352-5	six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Explosifs et précurseurs conservés malgré une décision de dessaisissement motivée par un trouble grave et imminent : danger direct pour les personnes, noyau.
 defense	L2353-10	trois ans	36	à juger		passe 2		
 defense	L4122-12	cinq ans	60	à juger		passe 2		
 defense	L4122-9	une peine de trois ans	36	à juger		passe 2		
@@ -581,7 +581,7 @@ douanes	L513-1	trois ans	36	noyau	fraud	peine encourue = référence ; contrôle
 douanes	L513-10	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 douanes	L513-11	dix ans	120	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 douanes	L513-12	dix ans	120	noyau	stupéfiant	peine encourue = référence ; contrôler la hiérarchie de la famille		
-douanes	L513-16	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+douanes	L513-16	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Opposition à l'exercice des fonctions des agents des douanes, hors violence que la rébellion réprime (CP 433-6). L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 douanes	L513-17	un an	12	à juger		passe 2		
 douanes	L513-2	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 douanes	L513-22	un an	12	à juger		passe 2		
@@ -591,59 +591,59 @@ douanes	L513-4	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler
 douanes	L513-5	dix ans	120	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 douanes	L513-8	cinq ans	60	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
 douanes	L513-9	dix ans	120	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-douanes	L531-10	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+douanes	L531-10	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Alcool fabriqué ou importé sans déclaration, transporté hors suivi : fraude aux accises, atteinte aux biens publics, noyau. L'article ne porte pas d'amende : la fraude se sanctionne aussi par les pénalités fiscales. Le défaut de marques et de traceurs (3°) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 douanes	L532-4	deux mois	2	à juger		passe 2		
-douanes	L542-1	cinq ans	60	formel	formalit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+douanes	L542-1	cinq ans	60	formel	formalit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Relations financières avec l'étranger : rapatriement, autorisations et opérations avec les personnes visées par les sanctions de l'Union (art. 215 TFUE). Douane stratégique et vecteur du blanchiment, noyau (nation). Le simple défaut de déclaration de capitaux, que l'amende de L152-4 du code monétaire et financier sanctionne déjà, est à requalifier lors de la rédaction [arbitrage].
 douanes	L542-5	cinq ans	60	à juger		passe 2		
 douanes	L551-1	dix ans	120	noyau	stupéfiant	peine encourue = référence ; contrôler la hiérarchie de la famille		
 douanes	L715-1	trois ans	36	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 education	L131-11	six mois	6	à juger		passe 2		
-education	L441-4	un an	12	formel	formalit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+education	L441-4	un an	12	formel	formalit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Ouverture d'un établissement malgré l'opposition de l'autorité : l'opposition protège l'enfance, au rang de CP 227-17-1 gardé. L'ouverture sans formalités passe en amende délictuelle à la rédaction [arbitrage].
 education	L471-5	un an	12	à juger		passe 2		
 education	L511-3	six mois	6	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
 education	L914-5	un an	12	à juger		passe 2		
 energie	L135-14	six mois	6	à juger		passe 2		
-energie	L142-38	six mois	6	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+energie	L142-38	six mois	6	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de contrôle de l'électricité et du gaz, refus de communication. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
 energie	L222-9	six mois	6	à juger		passe 2		
 energie	L285-1	six mois	6	à juger		passe 2		
-energie	L311-16	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-energie	L343-4	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-energie	L344-12	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-energie	L434-4	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-energie	L443-10	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+energie	L311-16	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Installation de production d'électricité exploitée sans autorisation : défaut de titre, que l'autorité sanctionne aussi (L142-31). L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+energie	L343-4	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Ligne directe construite ou mise en service sans autorisation : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+energie	L344-12	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Réseau fermé de distribution exploité sans autorisation : défaut de titre, peines complémentaires gardées. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+energie	L434-4	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Ordre de délestage de gaz méconnu avec atteinte grave à la sécurité des personnes et des biens : dommage nommé, noyau. Le simple manquement relève déjà de la sanction pécuniaire de l'autorité.
+energie	L443-10	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Fourniture de gaz naturel sans autorisation : défaut de titre, fermeture et interdiction d'exercer gardées. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 energie	L446-54	six mois	6	à juger		passe 2		
-energie	L512-1	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-environnement	L173-1	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+energie	L512-1	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Ouvrage hydraulique dont le titulaire méconnaît les règles de sécurité et de sûreté avec atteinte grave à la santé ou à la sécurité des personnes (III) : dommage nommé, noyau. L'inexécution d'une mise en demeure (II) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+environnement	L173-1	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Exploitation malgré refus, retrait, fermeture ou suspension (II), y compris d'une installation Seveso : même fait que L596-11 et L536-5, gardés. Le I (exploitation sans autorisation) passe en amende délictuelle à la rédaction [arbitrage].
 environnement	L173-12	plus de deux ans	24	à juger		passe 2		
 environnement	L173-2	un an	12	à juger		passe 2		
 environnement	L173-3	deux ans	24	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille		
 environnement	L173-3-1	trois ans	36	noyau	risque immédiat	peine encourue = référence ; contrôler la hiérarchie de la famille		
-environnement	L173-4	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L173-4	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de contrôle de l'environnement : l'efficacité du contrôle passe par une amende certaine. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
 environnement	L216-6	deux ans	24	à juger		passe 2		
 environnement	L218-14	sept ans	84	à juger		passe 2		
-environnement	L218-15	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L218-15	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Rejets d'eaux usées, d'ordures et émissions de navires hors des règles MARPOL : l'amende de 200 000 € est la réponse effective. La pollution grave des eaux porte sa propre peine (L231-1). L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 environnement	L218-17	deux ans	24	à juger		passe 2		
 environnement	L218-34	deux ans	24	à juger		passe 2		
 environnement	L218-48	deux ans	24	à juger		passe 2		
 environnement	L218-64	deux ans	24	à juger		passe 2		
 environnement	L218-84	un an	12	à juger		passe 2		
-environnement	L224-27	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L224-27	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents habilités en matière de qualité de l'air. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
 environnement	L224-28	six mois	6	à juger		passe 2		
-environnement	L226-11	un an	12	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L226-11	un an	12	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Compagnie maritime qui ne paie pas l'amende ou ne restitue pas ses quotas d'émission : manquement financier, que l'amende de 500 000 € à un million d'euros sanctionne à sa mesure. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 environnement	L226-9	deux ans	24	à juger		passe 2		
-environnement	L231-1	cinq ans	60	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L231-1	cinq ans	60	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Pollution de l'air ou des eaux aux effets nuisibles graves et durables sur la santé, la faune et la flore, en violation délibérée d'une obligation de sécurité : dommage nommé, atteinte à la santé des personnes, noyau.
 environnement	L231-2	trois ans	36	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille		
-environnement	L331-26	deux ans	24	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L331-26	deux ans	24	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Les travaux destructeurs en cœur de parc national se gardent, au rang de L332-25 gardé. Les travaux sans autorisation sans destruction passent en amende délictuelle à la rédaction [arbitrage].
 environnement	L331-27	deux ans	24	à juger		passe 2		
-environnement	L332-25	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-environnement	L341-19	six mois	6	formel	sans l'agrément	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-environnement	L363-3	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-environnement	L363-4	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L332-25	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Destruction d'un territoire classé en réserve naturelle (3°) et atteinte non négligeable à la faune, à la flore ou au patrimoine géologique (1°) : dommage nommé à un bien commun protégé, noyau. La modification sans autorisation d'un lieu en instance de classement (2°) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+environnement	L341-19	six mois	6	formel	sans l'agrément	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Destruction d'un monument naturel ou d'un site classé sans autorisation (III) : atteinte à un bien protégé, noyau. Les manquements d'information et d'agrément (I) sont à requalifier en contravention, la méconnaissance des prescriptions (II) en amende délictuelle, lors de la rédaction [arbitrage].
+environnement	L363-3	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Atterrissage ou dépose de passagers par aéronef de loisirs en montagne hors des emplacements autorisés : manquement à une interdiction d'usage, sans dommage nommé. L'amende de 150 000 € sanctionne l'avantage commercial. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+environnement	L363-4	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Publicité pour les déposes en montagne par aéronef de loisirs. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 environnement	L415-3	trois ans	36	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille		
 environnement	L415-3-1	un an	12	à juger		passe 2		
 environnement	L415-6	sept ans	84	à juger		passe 2		
 environnement	L415-7	six mois	6	à juger		passe 2		
-environnement	L415-8	six mois	6	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L415-8	six mois	6	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	La forme aggravée (atteinte aux habitats ou aux espèces) se garde, au rang de L332-25 et L415-3. La seule absence d'évaluation d'incidences passe en amende délictuelle à la rédaction [arbitrage].
 environnement	L428-1	trois mois	3	à juger		passe 2		
 environnement	L428-4	une peine de trois ans	36	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille		
 environnement	L428-5	un an	12	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -653,28 +653,28 @@ environnement	L429-36	trois mois	3	à juger		passe 2
 environnement	L432-2	deux ans	24	à juger		passe 2		
 environnement	L436-16	six mois	6	à juger		passe 2		
 environnement	L436-7	deux ans	24	noyau	explosi	peine encourue = référence ; contrôler la hiérarchie de la famille		
-environnement	L501-17	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L501-17	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	L'altération et la disparition de documents (2°) entravent l'enquête technique, au rang de L1622-1 gardé. Les autres alinéas passent en amende délictuelle à la rédaction [arbitrage].
 environnement	L514-11	deux ans	24	à juger		passe 2		
 environnement	L521-21	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-environnement	L522-16	deux ans	24	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-environnement	L536-3	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-environnement	L536-4	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-environnement	L536-5	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L522-16	deux ans	24	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Mise sur le marché de biocides interdits ou hors autorisation, renseignements inexacts à l'autorité (I) : produits toxiques, risque pour la santé des personnes, noyau. L'usage hors autorisation et le défaut de transmission du registre (II) sont à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+environnement	L536-3	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Installation utilisant des organismes génétiquement modifiés exploitée sans autorisation ou malgré suspension ou retrait : risque biologique, même protection que les micro-organismes classés du code de la santé, noyau.
+environnement	L536-4	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Dissémination ou mise sur le marché d'organismes génétiquement modifiés sans autorisation : l'autorisation porte l'évaluation du risque sanitaire et biologique, noyau.
+environnement	L536-5	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Non-respect d'une suspension, d'un retrait ou d'une consignation d'organismes génétiquement modifiés : l'autorité a nommé le risque, noyau. L'inexécution d'une mise en demeure (second alinéa) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 environnement	L541-46	quatre ans	48	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 environnement	L554-2-2	une peine de six mois	6	à juger		passe 2		
 environnement	L557-60	deux ans	24	à juger		passe 2		
 environnement	L557-60-1	six mois	6	à juger		passe 2		
-environnement	L596-11	trois ans	36	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+environnement	L596-11	trois ans	36	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Installation nucléaire créée, exploitée ou maintenue sans autorisation ou malgré arrêt, transport de substances radioactives sans autorisation, incident non déclaré : sûreté nucléaire, danger pour les personnes, noyau. L'obstacle au contrôle (IV) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 environnement	L624-3	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 environnement	L635-3	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 environnement	L713-5	un an	12	à juger		passe 2		
 monetaire	L163-4	sept ans	84	à juger		passe 2		
-monetaire	L353-1	six mois	6	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+monetaire	L353-1	six mois	6	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Démarchage bancaire ou financier sans carte, sans information, hors délai de rétractation. L'escroquerie et l'abus de faiblesse restent réprimés par le code pénal. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 monetaire	L465-1	cinq ans	60	à juger		passe 2		
 monetaire	L465-3-5	dix ans	120	à juger		passe 2		
-monetaire	L546-4	trois ans	36	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+monetaire	L546-4	trois ans	36	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Faire croire à une immatriculation (volet de L546-3) est une usurpation de qualité, au rang de L821-7 gardé. Le simple défaut d'immatriculation passe en amende délictuelle à la rédaction [arbitrage].
 monetaire	L570-1	trois ans	36	à juger		passe 2		
-monetaire	L571-12	six mois	6	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+monetaire	L571-12	six mois	6	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Maison de prêts sur gages sans autorisation, registre irrégulier, négoce de récépissés. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 monetaire	L571-15	deux ans	24	à juger		passe 2		
 monetaire	L571-16	un an	12	à juger		passe 2		
 monetaire	L571-3	trois ans	36	à juger		passe 2		
@@ -686,10 +686,10 @@ monetaire	L572-13	trois ans	36	à juger		passe 2
 monetaire	L572-16	trois ans	36	à juger		passe 2		
 monetaire	L572-18	un an	12	à juger		passe 2		
 monetaire	L572-20	deux ans	24	à juger		passe 2		
-monetaire	L572-23	un an	12	formel	de ne pas informer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+monetaire	L572-23	un an	12	formel	de ne pas informer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	L'usurpation de qualité (L54-10-4 al. 2) suit L546-4 gardé. L'exercice sans agrément est à aligner sur l'exercice illégal de la banque (L571-3), à juger [arbitrage].
 monetaire	L572-26	six mois	6	à juger		passe 2		
 monetaire	L572-27	trois ans	36	à juger		passe 2		
-monetaire	L572-28	un an	12	formel	méconnaissant	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+monetaire	L572-28	un an	12	formel	méconnaissant	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Promotion en ligne d'une offre d'investissement illicite : l'amende de 300 000 € en est la réponse effective. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 monetaire	L572-5	trois ans	36	à juger		passe 2		
 monetaire	L572-6	trois ans	36	à juger		passe 2		
 monetaire	L572-8	un an	12	à juger		passe 2		
@@ -707,15 +707,15 @@ patrimoine	L641-2	six mois	6	à juger		passe 2
 patrimoine	L641-4	six mois	6	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille		
 postes	L26	un an	12	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 postes	L39-1	six mois	6	à juger		passe 2		
-postes	L39-1-1	cinq ans	60	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-postes	L39-3	un an	12	formel	De ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+postes	L39-1-1	cinq ans	60	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Exploitation sans autorisation d'équipements de réseau mobile soumis au contrôle du Premier ministre pour la défense et la sécurité nationale, injonctions inexécutées : noyau (nation).
+postes	L39-3	un an	12	formel	De ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut d'effacement des données (1°) : à rapprocher de CP 226-20, à juger. Les 2° et 3° (conservation) servent les procédures pénales et la sécurité nationale et pourraient se garder [arbitrage].
 postes	L39-4	trois mois	3	à juger		passe 2		
 postes	L39-7	un an	12	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
-recherche	L412-3	six mois	6	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+recherche	L412-3	six mois	6	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Contrat doctoral de droit privé conclu ou renouvelé hors des règles de durée : l'emprisonnement n'apparaît qu'en récidive. Aligné sur les délits du contrat à durée déterminée (L1248-2 du code du travail). L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. L'emprisonnement prévu en récidive est gardé (P14), seule la forme simple passe en amende.
 route	L130-11	au moins trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
 route	L130-12	deux ans	24	à juger		passe 2		
-route	L212-4	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-route	L213-6	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+route	L212-4	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Enseignement de la conduite ou animation de stage sans autorisation : défaut de titre, interdiction d'exercer et confiscation gardées. Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage]. Les seuls défauts de titre passent en amende délictuelle à la rédaction.
+route	L213-6	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Établissement d'enseignement de la conduite exploité sans agrément : fermeture et interdiction d'exercer gardées. Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage]. Les seuls défauts de titre passent en amende délictuelle à la rédaction.
 route	L221-2	un an	12	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 route	L221-2-1	cinq ans	60	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
 route	L223-5	deux ans	24	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -738,7 +738,7 @@ route	L237-1	trois ans	36	noyau	stupéfiant	peine encourue = référence ; contr
 route	L243-1	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 route	L244-1	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 route	L245-1	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
-route	L317-1	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+route	L317-1	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Limiteur de vitesse d'un poids lourd, d'un engin ou d'un cycle débridé ou non respecté : danger direct pour les usagers de la route, noyau (personnes).
 route	L317-2	cinq ans	60	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
 route	L317-3	cinq ans	60	à juger		passe 2		
 route	L317-4	cinq ans	60	à juger		passe 2		
@@ -746,73 +746,73 @@ route	L317-4-1	sept ans	84	à juger		passe 2
 route	L317-5	deux ans	24	à juger		passe 2		
 route	L322-3	deux ans	24	à juger		passe 2		
 route	L325-3-1	trois mois	3	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
-route	L329-47	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+route	L329-47	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de surveillance du marché des véhicules. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
 route	L329-48	six mois	6	à juger		passe 2		
 route	L329-49	trois ans	36	à juger		passe 2		
-route	L411-7	six mois	6	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+route	L411-7	six mois	6	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Course de véhicules à moteur sur la voie publique sans autorisation, donc sans les mesures de sécurité qu'elle impose : danger direct pour les usagers et le public, noyau (personnes).
 route	L412-1	deux ans	24	à juger		passe 2		
 route	L412-2	six mois	6	à juger		passe 2		
 route	L413-1	trois mois	3	à juger		passe 2		
 route	L413-2	deux ans	24	à juger		passe 2		
-rural	L205-11	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L205-11	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de contrôle sanitaire et phytosanitaire, refus d'assistance aux contrôleurs européens. L'efficacité du contrôle passe par une amende certaine. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
 rural	L215-1	six mois	6	à juger		passe 2		
-rural	L215-11	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L215-13	une peine de six mois	6	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L215-11	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Mauvais traitements exercés par un professionnel sur les animaux placés sous sa garde : souffrance infligée par celui à qui l'animal est confié, noyau. Le manège à poneys interdit est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+rural	L215-13	une peine de six mois	6	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Transport d'animaux sans l'autorisation européenne de transporteur : défaut de titre. Les mauvais traitements en cours de transport sont réprimés à part (L215-11). L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 rural	L215-2	six mois	6	à juger		passe 2		
-rural	L215-2-1	trois mois	3	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L215-3	six mois	6	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L228-5	six mois	6	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L215-2-1	trois mois	3	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Chien dangereux détenu sans permis malgré mise en demeure : défaut de régularisation. La confiscation du chien et l'interdiction de détenir, peines complémentaires gardées, protègent les personnes. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+rural	L215-3	six mois	6	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Dressage de chiens au mordant hors des activités autorisées (1°) : le chien dressé à mordre devient une arme, danger direct pour les personnes, noyau. Le défaut de certificat de capacité et la cession de matériel (2° et 3°) sont à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+rural	L228-5	six mois	6	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Sous-produits animaux utilisés ou éliminés hors des conditions sanitaires (II, 2°) : retour dans la chaîne alimentaire de matières à risque, dont l'épizootie d'encéphalopathie spongiforme a montré le danger, noyau (santé). Le défaut d'enregistrement ou d'agrément (II, 1°) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 rural	L237-1	six mois	6	à juger		passe 2		
-rural	L237-2	six mois	6	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L237-3	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L237-2	six mois	6	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Abattage clandestin, matières animales interdites dans l'alimentation animale, mise sur le marché de denrées consignées, fermeture administrative bravée, denrées préjudiciables à la santé : sécurité sanitaire des aliments, noyau. La mise sur le marché sous seul défaut d'agrément et les obligations d'information (II bis) sont à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+rural	L237-3	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Animaux et produits introduits ou exportés hors des conditions sanitaires ou sans contrôle vétérinaire, prescriptions de quarantaine et de destruction méconnues : risque d'épizootie et atteinte à la santé, aggravé en cas d'atteinte grave, noyau. Le défaut de présentation des registres et certificats (4°) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 rural	L243-4	deux ans	24	à juger		passe 2		
-rural	L250-9	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L251-20	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L251-21	six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L253-15	deux ans	24	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L253-16	un an	12	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L253-17	six mois	6	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L250-9	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Mesure de destruction, de consignation, de retrait ou de rappel méconnue : l'autorité a nommé le danger pour la santé ou l'environnement, noyau. Le défaut d'information de la chaîne commerciale garde déjà sa seule amende.
+rural	L251-20	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Introduction, détention ou transport d'organismes nuisibles de quarantaine, importation de végétaux interdits ou soustraits au contrôle : risque direct pour les cultures et la forêt, noyau (biens). Les obligations d'inscription et de déclaration (II, 2°) sont à requalifier en sanction administrative lors de la rédaction [arbitrage].
+rural	L251-21	six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut de participation des opérateurs d'OGM à la surveillance biologique, inexécution des mesures de collecte de données : manquement de communication. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+rural	L253-15	deux ans	24	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Commerce de produits phytopharmaceutiques sans autorisation ou interdits, publicité pour ces produits, aggravés en bande organisée : trafic de produits actifs dangereux pour la santé et l'environnement, noyau. Le défaut de communication d'informations du titulaire (2°) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+rural	L253-16	un an	12	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Le II punit la bande organisée, le 3° la vente d'un produit interdit après le délai de grâce, au rang de L253-15 gardé. La publicité (1° et 2°) passe en amende délictuelle à la rédaction [arbitrage].
+rural	L253-17	six mois	6	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Usage de produits phytopharmaceutiques non autorisés ou hors des conditions d'emploi, essais sans permis, prescriptions des agents méconnues : l'amende de 150 000 €, portée jusqu'à 10 % du chiffre d'affaires, en est la réponse effective. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 rural	L253-17-1	cinq ans	60	à juger		passe 2		
 rural	L254-12	sept ans	84	à juger		passe 2		
-rural	L255-18	deux ans	24	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L257-12	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-rural	L258-2	deux ans	24	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L255-18	deux ans	24	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Matières fertilisantes vendues ou utilisées sans autorisation ou hors des conditions, défaut de communication d'un incident, publicité non conforme : défaut de titre et de communication. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+rural	L257-12	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Mesures correctives ordonnées devant une menace pour la santé publique méconnues : l'autorité a nommé le danger, noyau. Le renvoi à L250-7 double L250-9 et se retire lors de la rédaction [arbitrage].
+rural	L258-2	deux ans	24	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Introduction de macro-organismes non indigènes utiles aux végétaux sans autorisation : défaut de titre. Les organismes nuisibles nommés relèvent de L251-20, qui est gardé. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 rural	L271-7	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 rural	L664-31	un an	12	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-rural	L671-14	six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L671-14	six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Déclaration des parcelles OGM et information des voisins : aucune sanction administrative n'existe, le délit garde son amende.
 rural	L671-15	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 rural	L723-44	deux ans	24	à juger		passe 2		
 rural	L723-45	deux mois	2	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 rural	L771-4	deux ans	24	à juger		passe 2		
 rural	L945-1	deux ans	24	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
-rural	L945-2	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L945-2	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Navire de pêche aux marques dissimulées ou falsifiées, pêche étrangère sans autorisation dans les eaux françaises, refus d'obtempérer aux sommations, navire de pêche illicite : atteinte aux ressources de la nation et à l'autorité des agents en mer, noyau.
 rural	L945-3	six mois	6	à juger		passe 2		
 rural	L945-4	six mois	6	noyau	explosi	peine encourue = référence ; contrôler la hiérarchie de la famille		
-rural	L945-4-2	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+rural	L945-4-2	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Règles d'une zone de conservation halieutique méconnues : la remise en état sous astreinte, gardée, répare la ressource. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sante	L1110-4	un an	12	noyau	mort	peine encourue = référence ; contrôler la hiérarchie de la famille		
-sante	L1115-1	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L1115-3	un an	12	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1115-1	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Hébergement de données de santé sans agrément : défaut de titre. L'atteinte à la sécurité des données relève de CP 226-17, à juger, qui porte la protection de la vie privée. Présomption à confirmer par les condamnations par NATINF.
+sante	L1115-3	un an	12	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Certificat de virginité : même chaîne que CP 225-4-11 et 225-4-12, gardés au noyau avec la même peine. Atteinte à la personne.
 sante	L1123-1-1	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sante	L1125-21	trois ans	36	à juger		passe 2		
-sante	L1125-23	un an	12	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1125-23	un an	12	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Investigation clinique sans avis du comité de protection des personnes, ou malgré interdiction : expose des personnes à un risque sans garantie. Atteinte aux personnes, noyau.
 sante	L1125-24	un an	12	à juger		passe 2		
 sante	L1125-28	un an	12	à juger		passe 2		
 sante	L1126-20	trois ans	36	à juger		passe 2		
-sante	L1126-22	un an	12	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1126-22	un an	12	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Étude des performances sans avis du comité ou malgré interdiction : même protection des personnes que L1125-23, noyau.
 sante	L1126-23	un an	12	à juger		passe 2		
 sante	L1126-27	un an	12	à juger		passe 2		
 sante	L1128-1	trois ans	36	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-sante	L1128-12	un an	12	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1128-12	un an	12	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut de publication dans la base européenne des essais : aucune sanction administrative ne couvre ce manquement, le délit garde son amende.
 sante	L1128-3	trois ans	36	à juger		passe 2		
-sante	L1128-5	un an	12	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1128-5	un an	12	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Recherche impliquant la personne humaine sans avis ni autorisation, ou malgré interdiction : protection des personnes, noyau.
 sante	L1128-6	un an	12	à juger		passe 2		
-sante	L1128-8	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L1128-9	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1128-8	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut de communication d'informations du promoteur aux expérimentateurs. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+sante	L1128-9	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	L'investigateur privé des données de risque expose les personnes de la recherche, au rang de L1125-23 et L1128-5 gardés.
 sante	L1133-2	un an	12	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sante	L1133-3	un an	12	à juger		passe 2		
 sante	L1133-4	un an	12	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sante	L1133-8	un an	12	à juger		passe 2		
-sante	L1271-1	deux ans	24	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1271-1	deux ans	24	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Activité transfusionnelle sans agrément ou hors prescriptions : risque direct pour la vie des receveurs, noyau (santé des personnes).
 sante	L1271-1-1	deux ans	24	à juger		passe 2		
 sante	L1271-2	cinq ans	60	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sante	L1271-3	cinq ans	60	à juger		passe 2		
@@ -838,16 +838,16 @@ sante	L1273-6	deux ans	24	noyau	santé publique	peine encourue = référence ; c
 sante	L1312-2	six mois	6	à juger		passe 2		
 sante	L1324-3	un an	12	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sante	L1324-4	trois ans	36	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille		
-sante	L1337-5	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L1337-6	six mois	6	formel	De ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L1337-7	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1337-5	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Radioprotection : exposition de personnes au-delà des limites, usage interdit des rayonnements sur le corps humain, activité nucléaire poursuivie malgré interdiction. Danger pour les personnes, noyau.
+sante	L1337-6	six mois	6	formel	De ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Inexécution d'une mise en demeure et défaut d'information du fichier des sources. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+sante	L1337-7	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de contrôle : l'efficacité du contrôle passe par une amende certaine, assortie de l'exécution d'office. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
 sante	L1343-2	trois mois	3	à juger		passe 2		
-sante	L1427-1	un an	12	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1427-1	un an	12	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de contrôle sanitaire. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
 sante	L1454-7	un an	12	à juger		passe 2		
 sante	L1454-8	deux ans	24	à juger		passe 2		
-sante	L1525-2	deux ans	24	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1525-2	deux ans	24	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Adaptation de L1271-1 à Wallis-et-Futuna : suit le sort de l'article métropolitain.
 sante	L1534-16	deux ans	24	à juger		passe 2		
-sante	L1543-2	deux ans	24	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L1543-2	deux ans	24	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Adaptation de L1271-1 à la Nouvelle-Calédonie et à la Polynésie française : suit le sort de l'article métropolitain.
 sante	L2161-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sante	L2161-2	deux ans	24	à juger		passe 2		
 sante	L2162-1	sept ans	84	à juger		passe 2		
@@ -869,17 +869,17 @@ sante	L2222-2	deux ans	24	à juger		passe 2
 sante	L2222-3	deux ans	24	à juger		passe 2		
 sante	L2222-4	trois ans	36	à juger		passe 2		
 sante	L2223-2	deux ans	24	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-sante	L2326-1	trois mois	3	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L2326-2	deux ans	24	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L2326-1	trois mois	3	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Établissement pour enfants maintenu malgré fermeture (2°) : même fait que CP 227-17-1 gardé. L'ouverture sans autorisation et l'entrave (1° et 3°) passent en amende délictuelle à la rédaction [arbitrage].
+sante	L2326-2	deux ans	24	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Établissement ouvert sans autorisation : l'emprisonnement n'apparaît qu'en récidive. La fermeture protège, l'amende sanctionne. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. L'emprisonnement prévu en récidive est gardé (P14), seule la forme simple passe en amende.
 sante	L2326-3	six mois	6	à juger		passe 2		
-sante	L2326-4	trois mois	3	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L2326-4	trois mois	3	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Création ou extension d'un établissement sans autorisation : fermeture et interdiction de diriger gardées. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sante	L3116-5	deux ans	24	à juger		passe 2		
-sante	L3116-6	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L3136-1	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L3116-6	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de contrôle sanitaire aux frontières. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
+sante	L3136-1	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Non-respect des réquisitions sanitaires (L3131-8 et L3131-9, al. 1) et inobservation réitérée des mesures d'urgence : la contravention de 5e classe et l'amende délictuelle en réitération suffisent, présomption à confirmer par les condamnations par NATINF.
 sante	L3211-12	au moins cinq ans	60	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sante	L3213-7	au moins cinq ans	60	à juger		passe 2		
 sante	L3215-1	un an	12	à juger		passe 2		
-sante	L3215-2	six mois	6	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L3215-2	six mois	6	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Admission en soins psychiatriques sans demande ni certificat (1° et 2°) : privation de liberté sans titre, art. 66 C. Les omissions déclaratives des 3° à 6° sont à requalifier en contravention lors de la rédaction [arbitrage].
 sante	L3215-4	six mois	6	à juger		passe 2		
 sante	L3351-12	un an	12	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sante	L3351-13	un an	12	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -923,58 +923,58 @@ sante	L5421-13	cinq ans	60	à juger		passe 2
 sante	L5421-14	trois ans	36	à juger		passe 2		
 sante	L5421-2	cinq ans	60	à juger		passe 2		
 sante	L5421-3	deux ans	24	à juger		passe 2		
-sante	L5421-4	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5421-5	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5421-6	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5421-4	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Dissimuler une information nouvelle sur les risques d'un médicament expose les patients : c'est le mécanisme des grands scandales sanitaires. Le délit se garde [arbitrage : garder ou s'en remettre à la sanction de l'agence].
+sante	L5421-5	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	sanction administrative	Défaut de communication d'une interdiction étrangère : l'agence le sanctionne déjà (L5421-8). Un seul outil par manquement.
+sante	L5421-6	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	sanction administrative	Défaut d'information sur l'arrêt de commercialisation à l'étranger : l'agence le sanctionne déjà (L5421-8). Un seul outil par manquement.
 sante	L5421-6-1	deux ans	24	à juger		passe 2		
 sante	L5421-6-2	deux ans	24	à juger		passe 2		
-sante	L5421-6-3	cinq ans	60	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5422-12	un an	12	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5421-6-3	cinq ans	60	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Fabrication et commerce de médicaments à base de cannabis sans autorisation, publicité illicite : trafic de produit actif, aggravé en bande organisée. Santé des personnes, noyau.
+sante	L5422-12	un an	12	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Publicité sans avertissements ou malgré interdiction pour des objets et méthodes : l'interdiction administrative et l'amende de 150 000 € suffisent. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sante	L5422-3	un an	12	à juger		passe 2		
 sante	L5422-6	un an	12	à juger		passe 2		
 sante	L5422-9	deux ans	24	à juger		passe 2		
 sante	L5423-1	deux ans	24	à juger		passe 2		
 sante	L5423-2	un an	12	à juger		passe 2		
-sante	L5423-3	deux ans	24	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5423-4	cinq ans	60	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5423-5	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5424-1	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5423-3	deux ans	24	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Établissement pharmaceutique ouvert sans autorisation : fabrication de médicaments hors contrôle, risque pour la santé des personnes, noyau.
+sante	L5423-4	cinq ans	60	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Exportation d'un médicament malgré interdiction de l'agence : risque sanitaire nommé par l'autorité, noyau.
+sante	L5423-5	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Manquement du grossiste-répartiteur à ses obligations de service public. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+sante	L5424-1	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Officine exploitée sans licence : l'exercice illégal de la pharmacie est réprimé à part (L4223-1). Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage]. Les seuls défauts de titre passent en amende délictuelle à la rédaction.
 sante	L5424-10	deux ans	24	à juger		passe 2		
 sante	L5424-6	deux ans	24	à juger		passe 2		
 sante	L5424-9	un an	12	à juger		passe 2		
 sante	L5425-1	deux ans	24	à juger		passe 2		
-sante	L5426-1	cinq ans	60	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5431-2	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5426-1	cinq ans	60	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Distribution, importation ou préparation de thérapies géniques ou cellulaires xénogéniques sans autorisation : produit à risque grave, noyau.
+sante	L5431-2	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Cosmétiques : défaut de déclaration ou de notification, mise sur le marché malgré interdiction européenne. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sante	L5431-5	deux ans	24	à juger		passe 2		
 sante	L5431-6	un an	12	à juger		passe 2		
 sante	L5431-8	deux ans	24	à juger		passe 2		
-sante	L5431-9	un an	12	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5432-1	cinq ans	60	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5432-2	cinq ans	60	formel	sans être inscrit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5431-9	un an	12	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut de transmission malgré mise en demeure : la seule astreinte de L5131-6 tire son plafond de l'amende de cet article, qui se garde comme amende délictuelle.
+sante	L5432-1	cinq ans	60	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Substances vénéneuses : production, cession et prescription hors des conditions réglementaires, aggravées en bande organisée. Trafic et mésusage, noyau.
+sante	L5432-2	cinq ans	60	formel	sans être inscrit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Trafic de substances des listes I et II et de psychotropes, ordonnances de complaisance : noyau (santé publique).
 sante	L5434-2	six mois	6	à juger		passe 2		
 sante	L5435-1	deux ans	24	à juger		passe 2		
-sante	L5437-2	deux ans	24	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5437-2	deux ans	24	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Tatouage : défaut de déclaration, de désignation de la personne qualifiée, de transmission aux centres antipoison. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sante	L5437-5	deux ans	24	à juger		passe 2		
 sante	L5438-2	un an	12	à juger		passe 2		
 sante	L5438-3	deux ans	24	à juger		passe 2		
 sante	L5438-4	cinq ans	60	à juger		passe 2		
 sante	L5438-5	trois ans	36	à juger		passe 2		
-sante	L5439-1	cinq ans	60	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5439-1	cinq ans	60	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Micro-organismes et toxines classés : production et cession hors conditions, risque biologique et terroriste, noyau.
 sante	L5441-14	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-sante	L5441-15	deux ans	24	formel	de ne pas déclarer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5441-16	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5441-2	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5441-3	deux ans	24	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5441-15	deux ans	24	formel	de ne pas déclarer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut de déclaration d'un effet indésirable vétérinaire dans la base européenne. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+sante	L5441-16	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Non-respect d'une suspension ou d'un retrait d'autorisation de médicament vétérinaire : l'autorité a nommé le risque, noyau.
+sante	L5441-2	deux ans	24	formel	de ne pas communiquer	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut de communication du promoteur aux expérimentateurs vétérinaires. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+sante	L5441-3	deux ans	24	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Défaut de transmission à l'agence ou non-respect de son opposition à un essai vétérinaire. Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage]. Les seuls défauts de titre passent en amende délictuelle à la rédaction.
 sante	L5441-4	deux ans	24	à juger		passe 2		
-sante	L5441-5	deux ans	24	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5441-5	deux ans	24	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Établissement de médicaments vétérinaires ouvert sans autorisation : même risque sanitaire que L5423-3, noyau.
 sante	L5441-6	deux ans	24	à juger		passe 2		
 sante	L5441-8	cinq ans	60	à juger		passe 2		
-sante	L5441-8-1	deux ans	24	formel	de ne pas tenir	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5441-9	deux ans	24	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5441-8-1	deux ans	24	formel	de ne pas tenir	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Libération de lots non conformes présentant un danger pour la santé humaine ou animale (1°) : noyau. Les manquements de registre (3°) sont à requalifier en contravention lors de la rédaction [arbitrage].
+sante	L5441-9	deux ans	24	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Autovaccins préparés hors obligations, sans certificat ou sans déclaration. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sante	L5442-1	deux ans	24	à juger		passe 2		
-sante	L5442-10	deux ans	24	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5442-10	deux ans	24	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Prescription et délivrance illicites, ententes, trafic de médicaments vétérinaires (5°), usage systématique d'antimicrobiens : santé publique, noyau.
 sante	L5442-11	trois ans	36	à juger		passe 2		
-sante	L5442-12	six mois	6	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5442-12	six mois	6	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Avantages consentis ou reçus en méconnaissance de l'encadrement : l'emprisonnement n'apparaît qu'en récidive, l'interdiction d'exercer est gardée. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. L'emprisonnement prévu en récidive est gardé (P14), seule la forme simple passe en amende.
 sante	L5442-14	cinq ans	60	à juger		passe 2		
 sante	L5442-3	deux ans	24	à juger		passe 2		
 sante	L5442-9	deux ans	24	à juger		passe 2		
@@ -982,35 +982,35 @@ sante	L5451-1	deux ans	24	noyau	santé publique	peine encourue = référence ; c
 sante	L5461-2	deux ans	24	à juger		passe 2		
 sante	L5461-2-1	un an	12	à juger		passe 2		
 sante	L5461-3	cinq ans	60	à juger		passe 2		
-sante	L5461-4	un an	12	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sante	L5461-4-1	un an	12	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5461-4	un an	12	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	sanction administrative	Défaut d'enregistrement du fabricant de dispositifs médicaux : formalité, sanctionnée par l'autorité.
+sante	L5461-4-1	un an	12	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	sanction administrative	Défaut de déclaration d'activité de dispositifs médicaux : formalité, sanctionnée par l'autorité.
 sante	L5461-4-2	un an	12	à juger		passe 2		
 sante	L5461-5	deux ans	24	à juger		passe 2		
 sante	L5461-6	un an	12	à juger		passe 2		
 sante	L5461-6-1	deux ans	24	à juger		passe 2		
-sante	L5461-6-2	deux ans	24	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5461-6-2	deux ans	24	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Vente ou usage de dispositifs médicaux hors des conditions fixées. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sante	L5462-2	deux ans	24	à juger		passe 2		
 sante	L5462-2-1	un an	12	à juger		passe 2		
 sante	L5462-3	cinq ans	60	à juger		passe 2		
-sante	L5462-4	un an	12	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5462-4	un an	12	formel	de ne pas procéder	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	sanction administrative	Défaut d'enregistrement de dispositifs de diagnostic in vitro : formalité, sanctionnée par l'autorité.
 sante	L5462-5	un an	12	à juger		passe 2		
-sante	L5462-5-1	deux ans	24	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L5462-5-1	deux ans	24	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Vente ou usage de dispositifs de diagnostic in vitro hors des conditions fixées. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sante	L5462-7-1	deux ans	24	à juger		passe 2		
 sante	L5463-2	deux ans	24	à juger		passe 2		
 sante	L6242-2	deux ans	24	à juger		passe 2		
-sante	L6242-3	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-securite_interieure	L211-15	deux ans	24	formel	Sans déclaration	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sante	L6242-3	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Refus de contrôle et obstacle aux inspecteurs des laboratoires de biologie médicale. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
+securite_interieure	L211-15	deux ans	24	formel	Sans déclaration	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Rassemblement festif tenu malgré l'interdiction du préfet (3°) : l'autorité a nommé un risque pour la sécurité des participants, noyau. Le défaut de déclaration et la déclaration inexacte (1° et 2°) sont à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 securite_interieure	L211-15-4	six mois	6	à juger		passe 2		
 securite_interieure	L211-17	une peine de trois ans	36	à juger		passe 2		
-securite_interieure	L211-7-1	deux mois	2	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-securite_interieure	L22-11-2	une peine de six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L211-7-1	deux mois	2	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	contravention C5	Loueur de matériel de sonorisation qui omet de vérifier la déclaration du rassemblement : manquement mineur d'un tiers, que la contravention de 5e classe sanctionne à sa mesure.
+securite_interieure	L22-11-2	une peine de six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Non-respect d'une interdiction de paraître prononcée contre un participant au trafic de stupéfiants : la mesure protège les habitants contre le trafic, noyau.
 securite_interieure	L224-1	trois ans	36	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
 securite_interieure	L225-7	trois ans	36	à juger		passe 2		
 securite_interieure	L226-2	trois ans	36	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
 securite_interieure	L227-2	une peine de six mois	6	à juger		passe 2		
 securite_interieure	L228-7	trois ans	36	à juger		passe 2		
 securite_interieure	L232-9	deux ans	24	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
-securite_interieure	L254-1	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L254-1	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Entrave à la commission de vidéoprotection : traitée comme les autres autorités gardiennes de la vie privée (L833-3, CP 226-22-2) [arbitrage].
 securite_interieure	L272-4	deux mois	2	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
 securite_interieure	L317-1-1	sept ans	84	noyau	armes	peine encourue = référence ; contrôler la hiérarchie de la famille		
 securite_interieure	L317-2	cinq ans	60	noyau	armes	peine encourue = référence ; contrôler la hiérarchie de la famille		
@@ -1021,54 +1021,54 @@ securite_interieure	L317-5	trois ans	36	noyau	armes	peine encourue = référence
 securite_interieure	L317-6	trois mois	3	à juger		passe 2		
 securite_interieure	L317-7	trois ans	36	noyau	armes	peine encourue = référence ; contrôler la hiérarchie de la famille		
 securite_interieure	L324-1	trois ans	36	à juger		passe 2		
-securite_interieure	L324-10	trois ans	36	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L324-10	trois ans	36	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Direction d'un casino sans agrément, jeux exploités hors de l'arrêté d'autorisation : défaut de titre. Le blanchiment lui-même est réprimé par le code pénal (324-1). L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 securite_interieure	L324-11	trois ans	36	à juger		passe 2		
-securite_interieure	L324-12	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L324-12	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Prise de participation dans un casino sans autorisation préalable du ministre : défaut de titre. Le blanchiment et le financement du terrorisme sont réprimés à part (CP 324-1 et 421-2-2). L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 securite_interieure	L324-4	trois ans	36	à juger		passe 2		
-securite_interieure	L333-3	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-securite_interieure	L334-1	deux mois	2	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-securite_interieure	L334-2	six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L333-3	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	abroger	Doublon exact de L334-2 : mêmes faits, mêmes peines, mêmes peines complémentaires, même récidive. Le renvoi de L334-2 à L333-3 se retire à la rédaction.
+securite_interieure	L334-1	deux mois	2	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Établissement maintenu ouvert malgré une fermeture pour trouble à l'ordre, à la sécurité ou à la tranquillité publics. Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage].
+securite_interieure	L334-2	six mois	6	formel	non-respect	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Commerce maintenu ouvert malgré une fermeture prise pour prévenir le trafic de stupéfiants, le recel ou le blanchiment (L333-2) ou le mésusage du protoxyde d'azote (L333-4) : protection contre le trafic, noyau. Confiscation et interdiction de gérer gardées.
 securite_interieure	L617-1	trois ans	36	noyau	explosi	peine encourue = référence ; contrôler la hiérarchie de la famille		
-securite_interieure	L617-10	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-securite_interieure	L617-11	deux ans	24	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L617-10	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Salarié d'un service interne de sécurité embauché sans carte professionnelle : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+securite_interieure	L617-11	deux ans	24	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Surveillance exercée sur la voie publique sans l'autorisation du préfet : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 securite_interieure	L617-12-1	trois ans	36	noyau	armes	peine encourue = référence ; contrôler la hiérarchie de la famille		
 securite_interieure	L617-13	trois ans	36	à juger		passe 2		
 securite_interieure	L617-14	un an	12	à juger		passe 2		
 securite_interieure	L617-3	trois ans	36	à juger		passe 2		
-securite_interieure	L617-4	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L617-4	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Activité privée de sécurité exercée sans autorisation ou malgré sa suspension ou son retrait : gardiennage, transport de fonds et protection des personnes confiés à qui n'a pas passé le contrôle de moralité, risque direct pour les personnes et les biens, noyau. La sous-traitance à une entreprise non autorisée (2°) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 securite_interieure	L617-5	un an	12	à juger		passe 2		
 securite_interieure	L617-7	deux ans	24	à juger		passe 2		
-securite_interieure	L617-8	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L617-8	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Salarié d'une entreprise de sécurité embauché sans carte professionnelle : défaut de titre, l'exploitant répond de L617-4. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 securite_interieure	L617-9	deux ans	24	à juger		passe 2		
 securite_interieure	L624-1	trois ans	36	à juger		passe 2		
-securite_interieure	L624-10	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L624-10	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Salarié d'une agence de recherches privées embauché sans carte professionnelle : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 securite_interieure	L624-11	trois ans	36	à juger		passe 2		
 securite_interieure	L624-12	six mois	6	à juger		passe 2		
-securite_interieure	L624-2	deux ans	24	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L624-2	deux ans	24	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Agence de recherches privées exercée hors des règles d'exclusivité, de dénomination ou de délai imposé aux anciens policiers et gendarmes : manquement de forme. L'usurpation de fonction est réprimée à part (CP 433-12 et 433-13). L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 securite_interieure	L624-4	trois ans	36	à juger		passe 2		
-securite_interieure	L624-5	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L624-5	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Agence de recherches privées exploitée sans autorisation ou malgré sa suspension ou son retrait : défaut de titre. L'atteinte à la vie privée est réprimée par le code pénal (226-1 et suivants). Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage]. Les seuls défauts de titre passent en amende délictuelle à la rédaction.
 securite_interieure	L624-6	six mois	6	à juger		passe 2		
 securite_interieure	L624-8	deux ans	24	à juger		passe 2		
 securite_interieure	L624-9	six mois	6	à juger		passe 2		
 securite_interieure	L625-17	trois ans	36	à juger		passe 2		
-securite_interieure	L625-18	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L625-18	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Formation aux métiers de la sécurité privée dispensée sans autorisation ou malgré son retrait : défaut de titre. Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage]. Les seuls défauts de titre passent en amende délictuelle à la rédaction.
 securite_interieure	L625-19	deux ans	24	à juger		passe 2		
-securite_interieure	L625-20	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L625-20	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Formateur en sécurité privée embauché sans carte professionnelle : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 securite_interieure	L625-22	six mois	6	à juger		passe 2		
 securite_interieure	L634-6	deux mois	2	à juger		passe 2		
-securite_interieure	L635-1	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-securite_interieure	L752-2	un an	12	formel	sans agrément	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-securite_interieure	L833-3	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L635-1	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Exercer malgré une interdiction disciplinaire, c'est exercer malgré retrait, comme L617-4 gardé. Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage].
+securite_interieure	L752-2	un an	12	formel	sans agrément	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Activité de sécurité civile ou de formation aux premiers secours exercée sans agrément ou habilitation : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+securite_interieure	L833-3	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Entrave au contrôle des techniques de renseignement, dissimulation ou falsification des renseignements communiqués à la commission : la commission garantit la vie privée contre la surveillance de l'État, noyau.
 securite_interieure	L851-3	dix ans	120	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-securite_interieure	L861-4	un an	12	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+securite_interieure	L861-4	un an	12	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Agent de renseignement qui publie malgré l'opposition du ministre ou la mise en demeure : la mesure protège le secret de la défense et la sécurité des agents, noyau (nation). La publication sans déclaration préalable d'une œuvre que le ministre n'a pas frappée d'opposition est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 securite_interieure	L881-2	deux ans	24	à juger		passe 2		
-sport	L212-10	un an	12	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sport	L212-10	un an	12	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Encadrement sportif par une personne frappée d'incapacité pour violences, atteintes sexuelles ou trafic : protection des pratiquants, souvent mineurs, noyau (personnes).
 sport	L212-12	un an	12	à juger		passe 2		
 sport	L212-14	un an	12	à juger		passe 2		
 sport	L212-8	un an	12	à juger		passe 2		
-sport	L222-20	cinq ans	60	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sport	L222-20	cinq ans	60	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Agent sportif sans licence ou en méconnaissance des incompatibilités : l'amende portée au double des sommes indûment perçues et l'interdiction d'exercer en sont la réponse effective. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 sport	L222-6	deux ans	24	à juger		passe 2		
-sport	L232-25	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sport	L232-25	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Obstacle aux contrôles antidopage et non-respect d'une suspension disciplinaire. Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage]. Les seuls défauts de titre passent en amende délictuelle à la rédaction.
 sport	L232-26	un an	12	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sport	L241-5	cinq ans	60	à juger		passe 2		
 sport	L312-14	deux ans	24	à juger		passe 2		
@@ -1093,18 +1093,18 @@ sport	L332-7	un an	12	à juger		passe 2
 sport	L332-8	trois ans	36	à juger		passe 2		
 sport	L332-8-1	trois ans	36	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille		
 sport	L332-9	trois ans	36	à juger		passe 2		
-sport	L333-13	trois ans	36	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-sport	L425-9	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+sport	L333-13	trois ans	36	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Retransmission illicite de compétitions sportives et dispositifs d'accès illégal : atteinte aux droits d'exploitation, au rang de la contrefaçon, noyau (biens).
+sport	L425-9	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Adaptation outre-mer de L232-25 : suit le sort de l'article métropolitain.
 sport	L425-9-1	un an	12	noyau	dopage	peine encourue = référence ; contrôler la hiérarchie de la famille		
-tourisme	L211-23	un an	12	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+tourisme	L211-23	un an	12	formel	sans respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Opérations de voyage sans immatriculation, garantie financière ou assurance : fermeture gardée, amende administrative pour les manquements d'information. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 transports	L1252-5	un an	12	noyau	risque immédiat	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L1264-11	six mois	6	à juger		passe 2		
 transports	L1452-2	deux ans	24	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L1452-3	un an	12	à juger		passe 2		
 transports	L1452-4	six mois	6	à juger		passe 2		
-transports	L1622-1	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L1622-1	un an	12	formel	entraver l'action	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Entrave aux enquêteurs techniques après un accident de transport, jusqu'à l'altération ou la disparition des enregistrements et des documents : la preuve de l'accident et la sécurité des voyageurs futurs sont atteintes, noyau. La simple opposition et le refus de communiquer (1° et début du 2°) sont à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 transports	L1634-4	trois ans	36	noyau	explosi	peine encourue = référence ; contrôler la hiérarchie de la famille		
-transports	L1634-5	deux mois	2	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L1634-5	deux mois	2	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	contravention C5	Monter ou se tenir à l'extérieur d'un véhicule de transport public en marche : danger couru par l'auteur lui-même, déjà traité par l'amende forfaitaire de 300 €. La contravention de 5e classe en est la mesure juste.
 transports	L2211-6	six mois	6	à juger		passe 2		
 transports	L2214-4	six mois	6	à juger		passe 2		
 transports	L2241-2	deux mois	2	à juger		passe 2		
@@ -1114,18 +1114,18 @@ transports	L2242-2	cinq ans	60	noyau	menace	peine encourue = référence ; contr
 transports	L2242-3	six mois	6	noyau	blessure	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L2242-4	six mois	6	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L2242-5	deux mois	2	à juger		passe 2		
-transports	L2242-6	six mois	6	formel	sans être muni	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L2242-6	six mois	6	formel	sans être muni	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Fraude d'habitude, caractérisée par plus de cinq contraventions impayées en douze mois : atteinte répétée au bien du transporteur et de la collectivité qui le finance, au rang de la filouterie, noyau.
 transports	L2242-7	six mois	6	noyau	outrage	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L2242-8	deux ans	24	à juger		passe 2		
 transports	L2252-1	un an	12	à juger		passe 2		
 transports	L2252-2	un an	12	à juger		passe 2		
 transports	L3116-4	un an	12	à juger		passe 2		
 transports	L3124-12	trois ans	36	à juger		passe 2		
-transports	L3124-4	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-transports	L3124-7	trois ans	36	formel	sans être inscrit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L3124-4	trois ans	36	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Exploitation d'un taxi sans autorisation de stationnement : défaut de titre. La suspension du permis, l'immobilisation et la confiscation du véhicule, peines complémentaires gardées, mettent fin à l'activité. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+transports	L3124-7	trois ans	36	formel	sans être inscrit	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Activité de VTC sans inscription au registre : défaut de titre. La suspension du permis, l'immobilisation et la confiscation du véhicule, peines complémentaires gardées, mettent fin à l'activité. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 transports	L3143-4	deux ans	24	à juger		passe 2		
 transports	L3151-11	deux ans	24	noyau	stupéfiant	peine encourue = référence ; contrôler la hiérarchie de la famille		
-transports	L3151-6	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L3151-6	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Intervention à distance sur un véhicule automatisé sans permis ou sans habilitation : conduite d'un véhicule par une personne sans compétence reconnue, danger direct pour les personnes, au rang de la conduite sans permis, noyau.
 transports	L3151-9	deux ans	24	à juger		passe 2		
 transports	L3163-4	quatre ans	48	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L3242-5	six mois	6	à juger		passe 2		
@@ -1134,18 +1134,18 @@ transports	L3315-4	un an	12	noyau	faux	peine encourue = référence ; contrôler
 transports	L3315-4-1	un an	12	à juger		passe 2		
 transports	L3315-5	six mois	6	à juger		passe 2		
 transports	L3452-10	six mois	6	à juger		passe 2		
-transports	L3452-6	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L3452-6	un an	12	formel	en méconnaissance des	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Transport routier sans autorisation ou sous titre périmé, refus d'exécuter une sanction administrative, circulation pendant une immobilisation, cabotage irrégulier, service d'autocar non déclaré : police économique du marché des transports. L'interdiction d'opérer et l'immobilisation, peines complémentaires gardées, en sont la réponse effective. Règle par défaut : le fait commis malgré une décision de l'autorité se garde, refus d'obtempérer à l'État (P16) [arbitrage]. Les seuls défauts de titre passent en amende délictuelle à la rédaction.
 transports	L3452-9	deux ans	24	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L4142-1	trois ans	36	à juger		passe 2		
 transports	L4244-2	trois mois	3	à juger		passe 2		
 transports	L4274-10	six mois	6	à juger		passe 2		
-transports	L4274-11	six mois	6	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L4274-11	six mois	6	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Conduite d'un bateau sans titre de conduite : navigation par une personne sans compétence reconnue, danger direct pour les personnes, au rang de la conduite sans permis, noyau.
 transports	L4274-11-1	six mois	6	à juger		passe 2		
 transports	L4274-12	un an	12	à juger		passe 2		
 transports	L4274-12-1	six mois	6	à juger		passe 2		
 transports	L4274-13	six mois	6	à juger		passe 2		
 transports	L4274-15	trois mois	3	à juger		passe 2		
-transports	L4274-17	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L4274-17	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Commerce ou spectacle à bord d'un bateau sans l'autorisation spéciale ou hors de ses obligations : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 transports	L4274-18	un an	12	à juger		passe 2		
 transports	L4274-2	trois mois	3	à juger		passe 2		
 transports	L4274-3	six mois	6	à juger		passe 2		
@@ -1158,9 +1158,9 @@ transports	L4274-9	un an	12	à juger		passe 2
 transports	L4463-4	un an	12	à juger		passe 2		
 transports	L4463-9	un an	12	à juger		passe 2		
 transports	L5122-7	six mois	6	à juger		passe 2		
-transports	L5123-6	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L5123-6	un an	12	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut d'assurance ou de garantie financière d'un navire, refus d'obtempérer à l'injonction de quitter le port, obstacle aux agents : manquements à une obligation financière et au contrôle. L'injonction et l'exécution forcée protègent, l'amende de 75 000 € sanctionne. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 transports	L5223-2	deux ans	24	à juger		passe 2		
-transports	L5241-11-1	un an	12	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L5241-11-1	un an	12	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Postes de couchage installés au-delà de la cloison d'abordage ou sous la ligne de charge : l'équipage dort dans la zone que l'abordage ou l'envahissement noie en premier. Danger direct pour les personnes, noyau.
 transports	L5241-12	un an	12	à juger		passe 2		
 transports	L5241-13	deux ans	24	à juger		passe 2		
 transports	L5241-14	un an	12	à juger		passe 2		
@@ -1187,22 +1187,22 @@ transports	L5253-2-2	six mois	6	à juger		passe 2
 transports	L5262-6	deux ans	24	à juger		passe 2		
 transports	L5263-1	trois mois	3	à juger		passe 2		
 transports	L5263-3	six mois	6	à juger		passe 2		
-transports	L5273-1	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-transports	L5273-3	un an	12	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L5273-1	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Formation à la conduite des bateaux sans agrément ou malgré suspension, emploi d'un formateur sans autorisation : défaut de titre. La fermeture et l'interdiction d'exercer, peines complémentaires gardées, protègent. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+transports	L5273-3	un an	12	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Formateur à la conduite des bateaux sans autorisation d'enseigner : défaut de titre. L'interdiction d'exercer et la confiscation, peines complémentaires gardées, protègent. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 transports	L5332-4	au moins trois ans	36	à juger		passe 2		
 transports	L5336-10	deux ans	24	à juger		passe 2		
-transports	L5336-10-1	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-transports	L5336-10-2	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-transports	L5336-10-3	six mois	6	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L5336-10-1	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Intrusion dans une zone portuaire à accès restreint : sûreté des ports contre le terrorisme et le trafic, noyau (nation).
+transports	L5336-10-2	un an	12	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Intrusion dans un terminal à conteneurs : sûreté portuaire, premier point d'entrée du trafic de stupéfiants, noyau (nation).
+transports	L5336-10-3	six mois	6	formel	sans l'autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Intrusion dans une installation portuaire à risques élevés : sûreté des personnes et des installations, noyau.
 transports	L5336-10-4	deux mois	2	à juger		passe 2		
-transports	L5336-10-5	un an	12	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
-transports	L5336-14	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L5336-10-5	un an	12	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Drone engagé sans autorisation au-dessus d'un port, aggravé par la captation de données sur un terminal à conteneurs : repérage au service du trafic et de l'attentat, noyau (nation). Le survol simple (premier alinéa) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+transports	L5336-14	deux ans	24	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Plan de chargement d'un vraquier méconnu, ayant causé un accident de mer et une pollution : dommage nommé et constaté, noyau (biens).
 transports	L5336-15	six mois	6	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L5336-16	trois ans	36	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille		
-transports	L5336-17	deux ans	24	formel	De ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L5336-17	deux ans	24	formel	De ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Marchandises dangereuses manutentionnées ou entreposées hors des règles, expédiées sans déclaration ni étiquetage : risque d'explosion et d'intoxication dans le port, danger direct pour les personnes, noyau.
 transports	L5344-5	trois mois	3	à juger		passe 2		
 transports	L5523-2	six mois	6	à juger		passe 2		
-transports	L5523-5	six mois	6	formel	sans être muni	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L5523-5	six mois	6	formel	sans être muni	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Navire armé sous l'effectif minimal de sécurité, aggravé pour un navire à passagers : danger direct pour l'équipage et les passagers, noyau. La seule absence de la fiche d'effectif à bord est à requalifier en contravention lors de la rédaction [arbitrage].
 transports	L5523-6	six mois	6	à juger		passe 2		
 transports	L5531-10	six mois	6	à juger		passe 2		
 transports	L5531-12	six mois	6	à juger		passe 2		
@@ -1217,9 +1217,9 @@ transports	L5531-7	dix ans	120	noyau	violence	peine encourue = référence ; con
 transports	L5545-15	un an	12	à juger		passe 2		
 transports	L5571-3	cinq ans	60	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L5594-1	six mois	6	à juger		passe 2		
-transports	L5594-2	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L5594-2	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Repos à terre des gens de mer méconnu : l'amende par salarié concerné en est la réponse, l'emprisonnement n'apparaît qu'en récidive. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. L'emprisonnement prévu en récidive est gardé (P14), seule la forme simple passe en amende.
 transports	L5642-2	deux ans	24	à juger		passe 2		
-transports	L6142-4	un an	12	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L6142-4	un an	12	formel	Sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Aéronef en service sans certificat d'immatriculation ou sans marques d'identification : défaut de titre et de forme. Le trafic par aéronef est réprimé à part. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 transports	L6142-5	un an	12	à juger		passe 2		
 transports	L6142-6	trois ans	36	à juger		passe 2		
 transports	L6142-8	deux mois	2	à juger		passe 2		
@@ -1239,23 +1239,23 @@ transports	L6232-2-1	un an	12	à juger		passe 2
 transports	L6232-21	deux ans	24	à juger		passe 2		
 transports	L6232-22	deux ans	24	à juger		passe 2		
 transports	L6232-3	trois ans	36	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille		
-transports	L6232-4	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L6232-4	un an	12	formel	sans avoir obtenu	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Aéronef en service sans document de navigabilité, hors des conditions techniques de navigabilité ou des règles de sécurité d'utilisation et d'équipage : danger direct pour les passagers et les survolés, noyau. Le seul défaut de certificat de limitation de nuisances est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 transports	L6232-5	un an	12	à juger		passe 2		
 transports	L6232-6	un an	12	à juger		passe 2		
 transports	L6232-7	un an	12	à juger		passe 2		
 transports	L6372-11	six mois	6	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L6372-4	cinq ans	60	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
 transports	L6433-3	cinq ans	60	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille		
-transports	L6541-1	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+transports	L6541-1	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Pilotage d'un aéronef sans licence, sans qualification ou sans certificat médical : conduite par une personne sans aptitude reconnue, danger direct pour les personnes, noyau.
 transports	L6541-2	un mois		à juger		passe 2		
 travail	L1155-2	un an	12	noyau	harcèle	peine encourue = référence ; contrôler la hiérarchie de la famille		
-travail	L1255-14	six mois	6	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+travail	L1255-14	six mois	6	formel	en méconnaissance de l'	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Portage salarial : manquements de forme du contrat, de garantie financière et de suivi médical. L'emprisonnement n'apparaît qu'en récidive, l'interdiction d'exercer est gardée. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. L'emprisonnement prévu en récidive est gardé (P14), seule la forme simple passe en amende.
 travail	L1255-16	six mois	6	à juger		passe 2		
 travail	L1255-17	six mois	6	à juger		passe 2		
 travail	L1421-3	trois ans	36	à juger		passe 2		
 travail	L4746-1	une peine de deux ans	24	à juger		passe 2		
 travail	L5312-13-1	six mois	6	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
 travail	L6355-24	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-travail	L7123-27	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+travail	L7123-27	six mois	6	formel	de ne pas respecter	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut du certificat médical qui atteste la santé du mannequin : l'amende délictuelle sanctionne l'employeur, présomption à confirmer par les condamnations par NATINF.
 travail	L8224-2	dix ans	120	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
-urbanisme	L480-12	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative		
+urbanisme	L480-12	six mois	6	formel	obstacle aux fonctions	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Obstacle aux fonctions des agents de contrôle et de constatation en urbanisme. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence. Maximum à unifier dans la famille [arbitrage].
