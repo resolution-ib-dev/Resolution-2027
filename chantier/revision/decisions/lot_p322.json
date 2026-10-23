@@ -1,0 +1,56 @@
+{
+  "lot": "p322",
+  "perimetre": {
+    "code": "cpp",
+    "section_contient": "Partie législative (nouvelle) > TITRE PRÉLIMINAIRE",
+    "prefixe": "L"
+  },
+  "juge_le": "2026-10-23",
+  "decisions": [
+    {
+      "code": "cpp",
+      "num": "L1",
+      "decision": "R",
+      "principe": "P26",
+      "motif": "Principes directeurs de la procédure : gardés. La transparence des audiences et des jugements, arrêtée par l'auteur (P26), n'a pas de siège dans le titre préliminaire : elle y entre, avec la liste fermée des exceptions retenue par défaut (victime à sa demande, mineur, personne poursuivie à sa demande avant le jugement au fond, santé mentale à la demande, sécurité nationale, témoin protégé à la demande d'une juridiction internationale, danger grave pour la vie ou l'intégrité physique d'une personne). Le jugement au fond est toujours prononcé publiquement. La dignité et l'intérêt d'un tiers majeur ne fondent plus le huis clos. Les articles qui organisent la publicité se coordonnent sur cet alinéa. Coordination : L4322-3 (lot p144), L4421-3 (lot p149) et L5113-10 (lot p000) portent des listes qui divergent de cet alinéa.",
+      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : la personne poursuivie peut demander la chambre du conseil avant le jugement au fond. Minorité examinée : chambre du conseil de droit pour les faits commis en minorité. CEDH art. 6 § 1 examiné : publicité de règle, jugement au fond toujours prononcé publiquement",
+      "operations": [
+        {
+          "op": "ajouter_alinea",
+          "nouveau": "Les audiences sont publiques. La chambre du conseil ou le huis clos ne sont ordonnés que lorsque la victime le demande pour sa protection, lorsque la sécurité nationale l'exige, lorsque la publicité mettrait gravement en danger la vie ou l'intégrité physique d'une personne, lorsque la personne poursuivie le demande avant le jugement au fond pour préserver sa présomption d'innocence, lorsque la personne poursuivie était mineure au moment des faits, lorsque la personne dont la santé mentale est débattue le demande ou lorsqu'une juridiction internationale le demande pour protéger un témoin. Le jugement sur le fond est toujours prononcé en audience publique. Les décisions sont publiées dans le respect des mêmes exceptions."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2",
+      "decision": "G",
+      "principe": "P18",
+      "motif": "Garantie des droits des victimes à tous les stades, y compris l'exécution : c'est le principe P18, gardé.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L3",
+      "decision": "G",
+      "principe": "P25",
+      "motif": "Droits de la personne suspectée ou poursuivie (présomption d'innocence, avocat, silence, délai raisonnable, interprète) et égalité devant la procédure : noyau des lignes rouges, tenu.",
+      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) et droits de la défense (art. 16 DDHC) examinés : tenus mot pour mot"
+    },
+    {
+      "code": "cpp",
+      "num": "L4",
+      "decision": "R",
+      "principe": "P10",
+      "motif": "Le double degré et l'exécution effective sont gardés. L'individualisation « au cours de son exécution » fait de la peine prononcée un point de départ révisable : elle se tient au prononcé, l'exécution suit la loi (aménagements au mérite, libération conditionnelle). Arbitrage de l'auteur sur la portée de principe.",
+      "ligne_rouge": "art. 8 DDHC examiné : le juge module au prononcé (CC 2005-520 DC). L'objectif d'amendement et de réinsertion de l'exécution (CC 93-334 DC du 20 janvier 1994) et le réexamen d'une peine perpétuelle (CEDH art. 3) restent servis par l'adaptation judiciaire des modalités, bornée par la loi et réservée à l'effort, en cohérence avec L5112-4, L5221-1 et L1 du code pénitentiaire",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Elle garantit le respect du principe d'individualisation de la peine lors de son prononcé et au cours de son exécution.",
+          "nouveau": "Elle garantit le respect du principe d'individualisation de la peine lors de son prononcé. Au cours de l'exécution, l'autorité judiciaire adapte les modalités de la peine dans les conditions et limites fixées par la loi, au vu des efforts de la personne condamnée."
+        }
+      ]
+    }
+  ]
+}
