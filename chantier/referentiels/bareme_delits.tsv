@@ -64,9 +64,9 @@ commerce	L835-6	un an	12	à juger		passe 2
 conso	L341-61	une peine de cinq ans	60	à juger		passe 2		
 conso	L454-6	une peine de deux ans	24	à juger		passe 2		
 cp	113-8-2	au moins cinq ans	60	à juger		passe 2		
-cp	131-21	au moins cinq ans	60	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	131-30-2	au moins cinq ans	60	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	131-36-12-1	au moins cinq ans	60	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	131-21	au moins cinq ans	60	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Règle générale de la confiscation : n'incrimine aucun fait : le tri lexical l'a classé à tort, sur un seuil de peine qu'il cite. Rien à juger au barème, l'article reste.
+cp	131-30-2	au moins cinq ans	60	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Règle générale des protections contre l'interdiction du territoire : n'incrimine aucun fait : le tri lexical l'a classé à tort, sur un seuil de peine qu'il cite. Rien à juger au barème, l'article reste.
+cp	131-36-12-1	au moins cinq ans	60	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Règle générale de la surveillance électronique mobile après violences conjugales : n'incrimine aucun fait : le tri lexical l'a classé à tort, sur un seuil de peine qu'il cite. Rien à juger au barème, l'article reste.
 cp	132-45-1	au moins trois ans	36	à juger		passe 2		
 cp	132-76	dix ans	120	à juger		passe 2		
 cp	132-77	dix ans	120	à juger		passe 2		
@@ -227,52 +227,52 @@ cp	227-6	six mois	6	à juger		passe 2
 cp	227-7	un an	12	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Soustraction d'un enfant par un ascendant à ceux qui exercent l'autorité parentale : atteinte à l'enfant, au rang de 227-5, cohérent.
 cp	227-8	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Soustraction d'un enfant par un tiers sans fraude ni violence : atteinte à l'enfant, au-dessus de la soustraction par un parent, cohérent.
 cp	227-9	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Non-représentation ou soustraction aggravée quand l'enfant est caché plus de cinq jours ou retenu à l'étranger : un degré au-dessus de 227-5 et 227-7, cohérent.
-cp	311-3	trois ans	36	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	311-4	cinq ans	60	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	311-4-1	sept ans	84	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	311-4-2	sept ans	84	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	311-5	sept ans	84	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	311-6	dix ans	120	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	312-1	sept ans	84	noyau	extorsion	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	311-3	trois ans	36	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Vol simple : atteinte aux biens, noyau. Trois ans, sous l'escroquerie et l'abus de confiance (cinq ans), au rang du détournement de gage (314-5).
+cp	311-4	cinq ans	60	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Vol aggravé (réunion, violences sans incapacité, local d'habitation, visage dissimulé et autres) : noyau, l'échelle à sept puis dix ans selon le cumul des circonstances est cohérente.
+cp	311-4-1	sept ans	84	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Vol commis par un majeur avec l'aide de mineurs : atteinte aux biens et exploitation des enfants, noyau. Sept ans, dix si le mineur a moins de treize ans.
+cp	311-4-2	sept ans	84	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Vol d'un bien culturel protégé : atteinte aux biens et au patrimoine commun, noyau, au rang de la dégradation du même bien (322-3-1).
+cp	311-5	sept ans	84	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Vol avec violences ayant entraîné une incapacité de huit jours au plus, sur personne vulnérable ou avec effraction dans un local d'habitation : atteinte aux biens et aux personnes, noyau.
+cp	311-6	dix ans	120	noyau	vol	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Vol avec violences ayant entraîné une incapacité de plus de huit jours : atteinte aux personnes, noyau, au-dessus de la violence seule.
+cp	312-1	sept ans	84	noyau	extorsion	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Extorsion : obtenir par violence, menace ou contrainte une signature, un secret ou des fonds, atteinte aux biens et aux personnes, noyau.
 cp	312-10	cinq ans	60	à juger		passe 2		
-cp	312-12-1	six mois	6	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	312-2	dix ans	120	noyau	extorsion	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	313-1	cinq ans	60	noyau	escroquer	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	312-12-1	six mois	6	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Mendicité agressive en réunion ou sous la menace d'un animal dangereux : noyau, au rang de la menace simple réitérée contre les personnes (222-17, six mois).
+cp	312-2	dix ans	120	noyau	extorsion	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Extorsion aggravée (violences, victime vulnérable, visage dissimulé, abords d'école) : noyau, au rang du vol aggravé de même degré (311-5 et 311-6).
+cp	313-1	cinq ans	60	noyau	escroquer	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Escroquerie : tromper une personne pour obtenir des fonds ou un service, atteinte aux biens, noyau.
 cp	313-5	six mois	6	à juger		passe 2		
-cp	313-6	six mois	6	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	313-6	six mois	6	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Enchères publiques faussées par dons, ententes, violences ou menaces : atteinte aux biens et à la loyauté des ventes publiques, noyau. La remise aux enchères sans officier ministériel ou opérateur déclaré (2°) est à requalifier en amende délictuelle lors de la rédaction [arbitrage].
 cp	313-6-1	trois ans	36	à juger		passe 2		
-cp	314-1	cinq ans	60	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	314-5	trois ans	36	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	314-6	trois ans	36	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	314-1	cinq ans	60	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Abus de confiance : détourner ce qu'on vous a remis à charge de le rendre, atteinte aux biens, noyau, au rang de l'escroquerie.
+cp	314-5	trois ans	36	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Gage détruit ou détourné par le débiteur : atteinte aux droits du créancier, noyau, au rang du vol simple.
+cp	314-6	trois ans	36	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Objet saisi détruit ou détourné par le saisi : atteinte aux droits du créancier et à l'exécution des décisions, noyau, au rang de 314-5.
 cp	314-7	trois ans	36	à juger		passe 2		
-cp	315-1	deux ans	24	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	315-1	deux ans	24	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Introduction et maintien dans un local d'habitation, commercial ou agricole par manœuvres, menaces ou contrainte : atteinte aux biens, noyau, sous la violation de domicile qui protège la personne (226-4).
 cp	315-1-1	deux ans	24	à juger		passe 2		
-cp	321-1	cinq ans	60	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	321-2	dix ans	120	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	321-1	cinq ans	60	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Recel : détenir ou faire circuler le produit d'un crime ou d'un délit, noyau, au rang de l'escroquerie.
+cp	321-2	dix ans	120	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Recel habituel, professionnel ou en bande organisée : noyau, au rang du blanchiment aggravé (324-2).
 cp	321-6	au moins cinq ans	60	à juger		passe 2		
 cp	321-7	six mois	6	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Défaut de tenue du registre des objets mobiliers usagés : manquement de registre. Le recel lui-même est réprimé par 321-1. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 cp	321-8	six mois	6	formel	registre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	amende délictuelle	Mentions inexactes au registre des objets usagés ou refus de le présenter : manquement de registre et obstacle au contrôle. Le recel lui-même est réprimé par 321-1. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
-cp	322-1	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-11-1	sept ans	84	noyau	incendi	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-12	six mois	6	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-13	un an	12	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-14	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-2	trois ans	36	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-3	cinq ans	60	noyau	vulnérab	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-3-1	sept ans	84	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-3-2	sept ans	84	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	322-1	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Destruction ou dégradation du bien d'autrui : atteinte aux biens, noyau. Les inscriptions à dommage léger (II) sont déjà punies d'amende seule.
+cp	322-11-1	sept ans	84	noyau	incendi	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Détention ou transport d'explosifs ou d'incendiaires pour préparer une destruction dangereuse ou une atteinte aux personnes : noyau. La seule détention sans motif légitime de produits interdits par arrêté (al. 3, 2°) reste à son niveau de trois ans.
+cp	322-12	six mois	6	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Menace réitérée ou écrite d'une destruction dangereuse pour les personnes : noyau, au rang de la menace réitérée contre les personnes (222-17, six mois).
+cp	322-13	un an	12	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Menace de destruction assortie d'un ordre de remplir une condition : noyau. Portée à trois ans quand la destruction menacée est dangereuse pour les personnes, au rang de 222-18.
+cp	322-14	deux ans	24	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Fausse alerte à une destruction dangereuse ou à un sinistre qui déclenche les secours pour rien : trouble à la sécurité des personnes et charge des secours, noyau.
+cp	322-2	trois ans	36	noyau	dégrad	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Dégradation d'un registre, d'une minute ou d'un acte original de l'autorité publique : atteinte aux biens et à la preuve publique, noyau.
+cp	322-3	cinq ans	60	noyau	vulnérab	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Dégradation aggravée (réunion, victime vulnérable, agent public visé, effraction, bien public, école, exploitation agricole) : noyau, l'échelle de cinq puis sept ans est cohérente avec le vol aggravé (311-4).
+cp	322-3-1	sept ans	84	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Destruction ou dégradation d'un bien culturel protégé ou d'un édifice affecté au culte : noyau, au rang du vol du même bien (311-4-2).
+cp	322-3-2	sept ans	84	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Trafic de biens culturels sortis d'un territoire tenu par des groupements terroristes : atteinte au patrimoine et financement du terrorisme, noyau.
 cp	322-4-1	un an	12	à juger		passe 2		
-cp	322-5	un an	12	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-6	dix ans	120	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	322-6-1	trois ans	36	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	323-1	trois ans	36	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	322-5	un an	12	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Destruction involontaire par explosion ou incendie dû à un manquement de sécurité : noyau. L'échelle, jusqu'à dix ans si l'incendie tue, reste au-dessus de l'homicide involontaire (221-6).
+cp	322-6	dix ans	120	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Destruction par explosif, incendie ou autre moyen dangereux pour les personnes : noyau, au rang de la violence aggravée.
+cp	322-6-1	trois ans	36	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Diffusion au grand public de procédés de fabrication d'engins explosifs : mise en danger des personnes, noyau.
+cp	323-1	trois ans	36	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Accès ou maintien frauduleux dans un système informatique : atteinte aux biens, noyau, l'échelle monte à cinq ans s'il y a altération et à sept ans contre un fichier de l'État.
 cp	323-2	cinq ans	60	à juger		passe 2		
-cp	323-3	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	323-3-2	sept ans	84	noyau	séquestr	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	324-1	cinq ans	60	noyau	blanchi	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	324-2	dix ans	120	noyau	blanchi	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	323-3	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Introduction, extraction ou modification frauduleuse de données : atteinte aux biens, noyau, au-dessus de l'accès seul (323-1).
+cp	323-3-2	sept ans	84	noyau	séquestr	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Plateforme ou service de séquestre qui permet sciemment la vente de produits manifestement illicites : facilitation des trafics, noyau.
+cp	324-1	cinq ans	60	noyau	blanchi	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Blanchiment : justifier faussement ou placer le produit d'un crime ou d'un délit, noyau, au rang du recel.
+cp	324-2	dix ans	120	noyau	blanchi	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Blanchiment habituel, professionnel ou en bande organisée : noyau, au rang du recel aggravé (321-2).
 cp	411-10	sept ans	84	à juger		passe 2		
-cp	411-11	sept ans	84	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	411-11	sept ans	84	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Provocation non suivie d'effet à la trahison ou à l'espionnage par promesses, pressions ou menaces : atteinte à la nation, noyau.
 cp	411-12	dix ans	120	à juger		passe 2		
 cp	411-5	dix ans	120	à juger		passe 2		
 cp	411-7	dix ans	120	à juger		passe 2		
@@ -280,33 +280,33 @@ cp	411-8	dix ans	120	à juger		passe 2
 cp	412-2	dix ans	120	à juger		passe 2		
 cp	412-8	cinq ans	60	à juger		passe 2		
 cp	413-1	dix ans	120	à juger		passe 2		
-cp	413-10	sept ans	84	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	413-10	sept ans	84	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Divulgation ou détournement d'un secret de la défense nationale par son dépositaire : atteinte à la nation, noyau. La négligence reste punie à part à trois ans.
 cp	413-11	cinq ans	60	à juger		passe 2		
-cp	413-13	cinq ans	60	noyau	mort	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	413-14	cinq ans	60	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	413-13	cinq ans	60	noyau	mort	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Révélation de l'identité réelle d'un agent de renseignement ou d'une source : atteinte à la nation et danger pour les personnes, noyau, l'échelle monte à dix ans si la révélation tue.
+cp	413-14	cinq ans	60	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Révélation de l'identité d'un membre des forces spéciales ou d'une unité antiterroriste : atteinte à la nation et danger pour les personnes, noyau, au rang de 413-13.
 cp	413-2	cinq ans	60	à juger		passe 2		
 cp	413-3	cinq ans	60	à juger		passe 2		
 cp	413-4	cinq ans	60	à juger		passe 2		
-cp	413-5	un an	12	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	413-5	un an	12	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Intrusion sans autorisation sur un terrain ou dans un engin militaire, survol à basse altitude d'une installation militaire : atteinte à la nation, noyau, au-dessus de l'intrusion dans une zone protégée d'un établissement de défense (413-7, six mois).
 cp	413-6	trois ans	36	à juger		passe 2		
 cp	413-7	six mois	6	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Intrusion dans une zone protégée intéressant la défense nationale : atteinte à la nation, noyau.
 cp	414-1	sept ans	84	à juger		passe 2		
 cp	421-2-3	sept ans	84	à juger		passe 2		
-cp	421-2-5	cinq ans	60	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	421-2-5-1	cinq ans	60	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	421-3	dix ans	120	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	421-5	dix ans	120	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	421-2-5	cinq ans	60	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Provocation directe au terrorisme ou apologie publique : atteinte à la nation et danger pour les personnes, noyau.
+cp	421-2-5-1	cinq ans	60	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Reproduction de contenus terroristes pour faire échec à leur retrait : noyau, au rang de la provocation qu'elle prolonge (421-2-5).
+cp	421-3	dix ans	120	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Règle d'aggravation des infractions commises en relation avec une entreprise terroriste : n'incrimine aucun fait : le tri lexical l'a classé à tort, sur un seuil de peine qu'il cite. Rien à juger au barème, l'article reste.
+cp	421-5	dix ans	120	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Association de malfaiteurs terroriste, financement du terrorisme, préparation individuelle d'un acte terroriste : atteinte à la nation, noyau.
 cp	421-7	dix ans	120	à juger		passe 2		
-cp	431-1	un an	12	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	431-10	trois ans	36	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	431-1	un an	12	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Entrave concertée par menaces à la liberté d'expression, du travail, de réunion, de création ou d'enseignement : noyau, l'entrave par violences monte à trois ans.
+cp	431-10	trois ans	36	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Participation armée à une manifestation ou réunion publique : danger pour les personnes, noyau, au rang de l'attroupement armé (431-5).
 cp	431-14	trois ans	36	à juger		passe 2		
 cp	431-15	trois ans	36	à juger		passe 2		
 cp	431-16	cinq ans	60	à juger		passe 2		
 cp	431-17	sept ans	84	à juger		passe 2		
 cp	431-22	un an	12	à juger		passe 2		
 cp	431-29	six mois	6	à juger		passe 2		
-cp	431-4	un an	12	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	431-5	trois ans	36	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	431-4	un an	12	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Maintien volontaire dans un attroupement après les sommations : atteinte à la paix publique, noyau, trois ans si le visage est dissimulé.
+cp	431-5	trois ans	36	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Participation armée à un attroupement : danger pour les personnes, noyau, cinq ans après sommations ou visage dissimulé.
 cp	431-6	un an	12	à juger		passe 2		
 cp	431-9	six mois	6	à juger		passe 2		
 cp	431-9-1	un an	12	à juger		passe 2		
@@ -316,8 +316,8 @@ cp	432-11	dix ans	120	à juger		passe 2
 cp	432-12	cinq ans	60	à juger		passe 2		
 cp	432-13	trois ans	36	à juger		passe 2		
 cp	432-14	deux ans	24	à juger		passe 2		
-cp	432-15	dix ans	120	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	432-16	un an	12	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	432-15	dix ans	120	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Détournement de fonds ou de biens publics par un agent public ou un comptable : atteinte à la confiance publique, noyau, au-dessus de l'abus de confiance.
+cp	432-16	un an	12	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Agent public dont la négligence a permis le détournement des biens dont il a la garde : atteinte à la confiance publique, noyau, sous la négligence du dépositaire d'un secret de défense (413-10, trois ans).
 cp	432-2	dix ans	120	à juger		passe 2		
 cp	432-3	deux ans	24	à juger		passe 2		
 cp	432-4	sept ans	84	à juger		passe 2		
@@ -325,10 +325,10 @@ cp	432-5	trois ans	36	à juger		passe 2
 cp	432-6	deux ans	24	à juger		passe 2		
 cp	432-7	cinq ans	60	à juger		passe 2		
 cp	432-8	deux ans	24	à juger		passe 2		
-cp	432-9	trois ans	36	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	432-9	trois ans	36	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Agent public qui ouvre, détourne ou intercepte des correspondances hors des cas légaux : atteinte à la vie privée par l'État, noyau, au-dessus de la même atteinte commise par un particulier (226-15).
 cp	433-1	dix ans	120	à juger		passe 2		
-cp	433-10	deux mois	2	noyau	rébellion	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	433-11	un an	12	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	433-10	deux mois	2	noyau	rébellion	peine encourue = référence ; contrôler la hiérarchie de la famille	relever	Provocation publique directe à la rébellion : deux mois, maximum incohérent avec la provocation directe à un attroupement armé (431-6, un an) et la rébellion elle-même (433-7, deux ans). Proposé [un an], au rang de 431-6.
+cp	433-11	un an	12	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Opposition par voies de fait ou violences à l'exécution de travaux publics : atteinte à l'autorité de l'État, noyau. Les violences qui blessent restent réprimées à part.
 cp	433-12	trois ans	36	à juger		passe 2		
 cp	433-13	un an	12	à juger		passe 2		
 cp	433-14	un an	12	à juger		passe 2		
@@ -342,87 +342,87 @@ cp	433-2	cinq ans	60	à juger		passe 2
 cp	433-20	un an	12	à juger		passe 2		
 cp	433-21	un an	12	à juger		passe 2		
 cp	433-21-1	six mois	6	à juger		passe 2		
-cp	433-3	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	433-3-1	cinq ans	60	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	433-4	sept ans	84	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	433-5	un an	12	noyau	outrage	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	433-5-1	six mois	6	noyau	outrage	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	433-7	deux ans	24	noyau	rébellion	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	433-8	cinq ans	60	noyau	rébellion	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-1	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	433-3	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Menaces contre un élu, un magistrat, un agent public, un soignant ou un enseignant, et intimidation pour obtenir un acte de sa fonction : atteinte aux personnes et à l'autorité publique, noyau.
+cp	433-3-1	cinq ans	60	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Menaces ou violences contre un agent du service public pour obtenir une dérogation aux règles du service : atteinte à l'autorité publique, noyau.
+cp	433-4	sept ans	84	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Détournement par un tiers de biens remis à un dépositaire public : atteinte à la confiance publique, noyau, sous le détournement par l'agent lui-même (432-15).
+cp	433-5	un an	12	noyau	outrage	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Outrage à une personne chargée d'une mission de service public ou à un soignant (amende et travail d'intérêt général), puis à une personne dépositaire de l'autorité publique (un an) : noyau, échelle cohérente.
+cp	433-5-1	six mois	6	noyau	outrage	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Outrage public à l'hymne ou au drapeau lors d'une manifestation officielle : la forme simple est déjà punie d'amende seule. Seul l'outrage en réunion garde six mois.
+cp	433-7	deux ans	24	noyau	rébellion	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Rébellion : résistance violente à un agent de l'autorité publique, noyau. Les violences sur agent qui blessent relèvent de 222-13 et suivants.
+cp	433-8	cinq ans	60	noyau	rébellion	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Rébellion armée : danger pour les agents, noyau, dix ans en réunion.
+cp	434-1	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Non-dénonciation d'un crime dont on peut encore prévenir les effets : atteinte à la justice et aux victimes, noyau. L'exception familiale ne joue pas pour les crimes sur mineurs.
 cp	434-10	trois ans	36	à juger		passe 2		
 cp	434-11	trois ans	36	à juger		passe 2		
 cp	434-12	un an	12	à juger		passe 2		
-cp	434-13	cinq ans	60	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	434-13	cinq ans	60	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Faux témoignage sous serment : atteinte à la justice, noyau, avec exemption en cas de rétractation spontanée.
 cp	434-14	sept ans	84	à juger		passe 2		
-cp	434-15	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	434-15	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Subornation de témoin, même sans effet : atteinte à la justice, noyau. Suivie d'effet, elle rejoint le faux témoignage (434-13) par la complicité.
 cp	434-15-2	trois ans	36	à juger		passe 2		
 cp	434-16	six mois	6	à juger		passe 2		
-cp	434-17	trois ans	36	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-22	deux ans	24	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	434-17	trois ans	36	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Faux serment en matière civile : atteinte à la justice, noyau.
+cp	434-22	deux ans	24	noyau	détourne	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Bris de scellés et détournement d'objets placés sous main de justice : atteinte à la justice, noyau.
 cp	434-23	cinq ans	60	à juger		passe 2		
-cp	434-24	un an	12	noyau	outrage	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	434-24	un an	12	noyau	outrage	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Outrage à un magistrat ou à un juré : atteinte à la justice, noyau, au rang de l'outrage à une personne dépositaire de l'autorité publique (433-5).
 cp	434-25	six mois	6	à juger		passe 2		
 cp	434-26	six mois	6	à juger		passe 2		
-cp	434-27	trois ans	36	noyau	évasion	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-3	trois ans	36	noyau	agression	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-30	sept ans	84	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-32	trois ans	36	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-33	dix ans	120	noyau	évasion	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	434-27	trois ans	36	noyau	évasion	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Évasion : atteinte à la justice, noyau, cinq ans par violence, effraction ou corruption.
+cp	434-3	trois ans	36	noyau	agression	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Non-dénonciation de mauvais traitements ou d'agressions sexuelles sur un mineur ou une personne vulnérable : atteinte aux enfants, noyau, portée à cinq ans pour un mineur de quinze ans.
+cp	434-30	sept ans	84	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Évasion sous la menace ou avec usage d'une arme ou d'un explosif : danger pour les personnes, noyau.
+cp	434-32	trois ans	36	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Fournir à un détenu le moyen de s'évader : atteinte à la justice, noyau, au rang de l'évasion (434-27).
+cp	434-33	dix ans	120	noyau	évasion	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Surveillant ou intervenant en détention qui facilite une évasion : atteinte à la justice aggravée par la fonction, noyau.
 cp	434-35	un an	12	à juger		passe 2		
 cp	434-35-1	six mois	6	à juger		passe 2		
 cp	434-38	deux ans	24	à juger		passe 2		
 cp	434-38-1	un an	12	à juger		passe 2		
 cp	434-39	six mois	6	à juger		passe 2		
-cp	434-4	trois ans	36	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-4-1	deux ans	24	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	434-4	trois ans	36	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Modifier une scène de crime ou faire disparaître une preuve pour faire obstacle à la vérité : atteinte à la justice, noyau, cinq ans pour qui concourt par ses fonctions à la manifestation de la vérité.
+cp	434-4-1	deux ans	24	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille	relever	Taire la disparition d'un mineur de quinze ans pour empêcher ou retarder les recherches : deux ans, sous la non-dénonciation de mauvais traitements sur mineur (434-3, trois ans) et l'obstacle à la manifestation de la vérité (434-4, trois ans). Atteinte aux enfants, proposé [trois ans].
 cp	434-40	deux ans	24	à juger		passe 2		
 cp	434-40-1	deux ans	24	à juger		passe 2		
-cp	434-41	deux ans	24	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	434-41	deux ans	24	noyau	arme	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Violation par le condamné des interdictions de sa peine, refus de remettre le permis ou le bien confisqué : atteinte à l'exécution des décisions de justice, noyau.
 cp	434-42	deux ans	24	à juger		passe 2		
 cp	434-42-1	deux ans	24	à juger		passe 2		
 cp	434-43	deux ans	24	à juger		passe 2		
 cp	434-43-1	deux ans	24	à juger		passe 2		
-cp	434-5	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-6	au moins dix ans	120	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-7	deux ans	24	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-7-2	trois ans	36	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	434-8	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	434-5	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Intimidation d'une victime pour qu'elle ne porte pas plainte ou se rétracte : atteinte à la justice et à la victime, noyau.
+cp	434-6	au moins dix ans	120	noyau	terror	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Hébergement ou aide à l'auteur d'un crime ou d'un acte terroriste pour le soustraire aux recherches : atteinte à la justice, noyau, trois ans et cinq ans s'il est habituel. Le relevé « au moins dix ans » vise la gravité du crime couvert, non la peine.
+cp	434-7	deux ans	24	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille	relever	Cacher le cadavre d'une victime d'homicide ou de violences : deux ans, sous l'altération de la scène de crime et la suppression de preuves (434-4, trois ans), alors qu'il prive l'enquête de sa preuve première et la famille de son défunt. Proposé [trois ans].
+cp	434-7-2	trois ans	36	noyau	recel	peine encourue = référence ; contrôler la hiérarchie de la famille	abroger	Révélation d'informations d'une enquête ou d'une instruction en cours : article abrogé au 1er janvier 2029, l'incrimination passe aux mêmes peines à l'article L3131-2 du code de procédure pénale. Aucune perte, L3131-2 est à ajouter au relevé du barème.
+cp	434-8	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Menaces ou intimidation envers un magistrat, un juré, un expert ou un avocat pour influencer ses fonctions : atteinte à la justice, noyau, au rang de 433-3.
 cp	434-9	dix ans	120	à juger		passe 2		
 cp	434-9-1	cinq ans	60	à juger		passe 2		
 cp	435-1	dix ans	120	à juger		passe 2		
 cp	435-10	cinq ans	60	à juger		passe 2		
-cp	435-12	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	435-13	dix ans	120	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	435-12	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Subornation de témoin devant une juridiction étrangère ou internationale : atteinte à la justice, noyau, au rang de 434-15.
+cp	435-13	dix ans	120	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Menaces ou violences sur un magistrat ou un enquêteur étranger ou international pour obtenir un acte de sa fonction : atteinte à la justice, noyau, au rang de l'intimidation d'un agent public français (433-3, dernier alinéa).
 cp	435-2	cinq ans	60	à juger		passe 2		
 cp	435-3	dix ans	120	à juger		passe 2		
 cp	435-4	cinq ans	60	à juger		passe 2		
 cp	435-7	dix ans	120	à juger		passe 2		
 cp	435-8	cinq ans	60	à juger		passe 2		
 cp	435-9	dix ans	120	à juger		passe 2		
-cp	436-1	cinq ans	60	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	436-1	cinq ans	60	noyau	violence	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Participation à une activité mercenaire : atteinte à la paix et aux personnes, noyau.
 cp	436-2	sept ans	84	à juger		passe 2		
-cp	441-1	trois ans	36	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	441-2	cinq ans	60	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	441-3	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	441-4	dix ans	120	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	441-5	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	441-6	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	441-1	trois ans	36	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Faux et usage de faux : atteinte à la confiance publique, noyau.
+cp	441-2	cinq ans	60	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Faux document administratif (identité, titre, autorisation) et son usage : atteinte à la confiance publique, noyau, au-dessus du faux simple (441-1).
+cp	441-3	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Détention frauduleuse d'un faux document administratif : atteinte à la confiance publique, noyau, cinq ans pour plusieurs documents.
+cp	441-4	dix ans	120	noyau	faux	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Faux en écriture publique ou authentique : atteinte à la confiance publique, noyau, crime s'il est commis par un agent public.
+cp	441-5	cinq ans	60	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Procurer frauduleusement à autrui un document administratif : atteinte à la confiance publique, noyau, au rang du faux document (441-2).
+cp	441-6	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Obtention indue d'un document administratif ou fausse déclaration pour toucher une prestation : fraude aux finances publiques, noyau.
 cp	441-7	un an	12	à juger		passe 2		
 cp	441-8	cinq ans	60	à juger		passe 2		
 cp	442-2	dix ans	120	à juger		passe 2		
-cp	442-3	cinq ans	60	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	442-3	cinq ans	60	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Contrefaçon de monnaie qui n'a plus cours : atteinte à la confiance publique, noyau, sous la fausse monnaie ayant cours.
 cp	442-4	cinq ans	60	à juger		passe 2		
-cp	442-5	deux ans	24	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	442-5	deux ans	24	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Fabrication ou détention sans autorisation d'instruments destinés à la fabrication de monnaie : préparation de la fausse monnaie, noyau.
 cp	442-6	un an	12	à juger		passe 2		
-cp	443-1	sept ans	84	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	443-2	cinq ans	60	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	443-1	sept ans	84	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Contrefaçon et usage d'effets du Trésor français ou étranger : atteinte à la confiance publique, noyau.
+cp	443-2	cinq ans	60	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Contrefaçon et usage de timbres-poste ou de timbres fiscaux : atteinte à la confiance publique, noyau.
 cp	443-3	un an	12	à juger		passe 2		
-cp	443-4	six mois	6	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	444-1	dix ans	120	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	444-2	sept ans	84	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	444-3	cinq ans	60	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	444-4	trois ans	36	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	443-4	six mois	6	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Contrefaçon et usage de timbres-poste étrangers : atteinte à la confiance publique, noyau, sous les timbres français (443-2).
+cp	444-1	dix ans	120	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Contrefaçon du sceau de l'État, des timbres nationaux ou des poinçons des métaux précieux : atteinte à la confiance publique, noyau, au rang du faux en écriture publique (441-4).
+cp	444-2	sept ans	84	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Usage frauduleux des vrais sceaux, timbres ou poinçons de l'État : atteinte à la confiance publique, noyau, sous la contrefaçon (444-1).
+cp	444-3	cinq ans	60	noyau	contrefaçon	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Contrefaçon des sceaux, marques, papiers officiels d'une autorité publique ou des estampilles sanitaires : atteinte à la confiance publique, noyau.
+cp	444-4	trois ans	36	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Usage frauduleux des vrais sceaux, papiers officiels ou estampilles sanitaires : atteinte à la confiance publique, noyau, sous la contrefaçon (444-3).
 cp	444-5	un an	12	à juger		passe 2		
 cp	445-1	cinq ans	60	à juger		passe 2		
 cp	445-1-1	cinq ans	60	à juger		passe 2		
@@ -436,56 +436,56 @@ cp	461-18	dix ans	120	à juger		passe 2
 cp	462-1	dix ans	120	à juger		passe 2		
 cp	462-2	dix ans	120	à juger		passe 2		
 cp	511-1	dix ans	120	à juger		passe 2		
-cp	511-1-2	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	511-1-2	trois ans	36	noyau	menace	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Provocation par don, menace ou abus d'autorité à se prêter au clonage reproductif, propagande pour l'eugénisme : protection de l'espèce humaine, noyau.
 cp	511-10	deux ans	24	à juger		passe 2		
-cp	511-11	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-12	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-13	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	511-11	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Prélèvement de gamètes pour une procréation sans les tests de dépistage des maladies transmissibles : risque direct pour la femme et l'enfant, noyau.
+cp	511-12	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Insémination par sperme frais ou par mélange de dons : risque sanitaire et atteinte à la traçabilité de la filiation, noyau.
+cp	511-13	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Centre qui subordonne l'accès au don de gamètes à la désignation d'un donneur par le couple receveur : contrepartie en nature exigée pour un élément du corps humain, marchandage du don, de même valeur que l'obtention de gamètes contre paiement (511-9, cinq ans). Noyau, deux ans gardés, sous 511-9.
 cp	511-15	sept ans	84	à juger		passe 2		
-cp	511-16	sept ans	84	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	511-16	sept ans	84	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Obtention d'embryons humains hors des conditions légales de l'accueil d'embryon : protection de l'embryon et de la filiation, noyau.
 cp	511-17	sept ans	84	à juger		passe 2		
 cp	511-18	sept ans	84	à juger		passe 2		
 cp	511-18-1	sept ans	84	à juger		passe 2		
-cp	511-19	sept ans	84	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-19-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-19-2	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-19-3	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	511-19	sept ans	84	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Recherche sur l'embryon humain sans consentement ni autorisation, ou hors de ses prescriptions : protection de l'embryon, noyau. Les recherches sur cellules souches sans déclaration de protocole (II et III) sont à requalifier en amende délictuelle lors de la rédaction [arbitrage].
+cp	511-19-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Prélèvement ou usage de tissus fœtaux après une interruption de grossesse hors des conditions légales ou à d'autres fins : atteinte au corps humain et au consentement de la femme, noyau.
+cp	511-19-2	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	amende délictuelle	Conservation ou cession d'embryons ou de cellules souches sans autorisation, sans déclaration ou sans information de l'Agence de la biomédecine : défaut de titre. La conservation poursuivie malgré la suspension ou l'interdiction de l'Agence garde l'emprisonnement, à séparer lors de la rédaction [arbitrage]. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+cp	511-19-3	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	amende délictuelle	Importation ou exportation de cellules souches embryonnaires sans autorisation : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 cp	511-2	sept ans	84	à juger		passe 2		
-cp	511-20	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	511-20	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Diagnostic prénatal pratiqué sans l'autorisation de l'activité : un diagnostic dont dépend la décision d'interrompre la grossesse, confié à qui n'a pas été contrôlé, au rang de l'assistance médicale à la procréation sans autorisation (511-22) et du diagnostic préimplantatoire (511-21), gardés à deux ans. Noyau, le tri lexical ne s'est pas trompé.
 cp	511-21	deux ans	24	à juger		passe 2		
-cp	511-22	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-23	trois ans	36	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-24	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-25	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-25-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-3	sept ans	84	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	511-22	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Assistance médicale à la procréation pratiquée sans autorisation ou hors de ses prescriptions : actes médicaux sur la femme et l'embryon confiés à qui n'a pas été contrôlé, risque direct pour les personnes, noyau.
+cp	511-23	trois ans	36	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Entrée ou sortie d'embryons humains du territoire sans autorisation : protection de l'embryon, noyau, au rang de l'obtention d'embryons (511-16) qu'elle permettrait de contourner.
+cp	511-24	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Assistance médicale à la procréation à d'autres fins que celles de la loi : protection de l'embryon et de la filiation, noyau.
+cp	511-25	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Accueil d'embryon sans connaître les tests de dépistage ou hors d'un établissement autorisé, divulgation de l'identité des deux couples : risque sanitaire et atteinte à la vie privée, noyau.
+cp	511-25-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	amende délictuelle	Importation ou exportation de gamètes ou de tissus germinaux sans autorisation ou hors de ses finalités : défaut de titre. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+cp	511-3	sept ans	84	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Prélèvement d'organe sur une personne vivante sans son consentement recueilli devant le juge, ou sur un mineur ou un majeur protégé : atteinte au corps et au consentement, noyau.
 cp	511-4	cinq ans	60	à juger		passe 2		
-cp	511-5	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-5-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-5-2	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	511-5	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Prélèvement de tissus ou de cellules sur une personne vivante sans son consentement, ou de moelle sur un mineur hors des conditions légales : atteinte au corps et au consentement, noyau.
+cp	511-5-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	amende délictuelle	Prélèvement scientifique sur une personne décédée sans transmission préalable du protocole au ministre : défaut de formalité. La mise en œuvre d'un protocole suspendu ou interdit (al. 2) garde l'emprisonnement, à séparer lors de la rédaction [arbitrage]. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+cp	511-5-2	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	amende délictuelle	Conservation et transformation d'éléments du corps humain à des fins scientifiques sans déclaration ou sans autorisation : défaut de titre, cinq ans sans dommage nommé. L'activité poursuivie malgré l'opposition, la suspension ou le retrait garde l'emprisonnement, à séparer lors de la rédaction [arbitrage]. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 cp	511-6	cinq ans	60	à juger		passe 2		
-cp	511-7	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-8	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-8-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	511-8-2	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	511-7	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Prélèvements et greffes pratiqués dans un établissement non autorisé ou après retrait : actes chirurgicaux confiés à qui n'a pas été contrôlé, risque direct pour les personnes, noyau.
+cp	511-8	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Cession d'organes, de tissus ou de produits humains sans les règles de sécurité sanitaire : risque direct pour le receveur, noyau.
+cp	511-8-1	deux ans	24	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	amende délictuelle	Distribution de tissus ou de préparations de thérapie cellulaire par un établissement ou selon un procédé non autorisé : défaut de titre. La cession sans les règles de sécurité sanitaire reste punie par 511-8. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
+cp	511-8-2	cinq ans	60	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	amende délictuelle	Échange ou importation d'organes, de tissus ou de cellules hors des règles d'autorisation : défaut de titre. Le trafic d'organes est puni par 511-2 et la cession sans sécurité sanitaire par 511-8. L'emprisonnement est présumé peine d'affichage pour ce manquement, présomption à confirmer par les condamnations par NATINF : le délit garde son amende, qui devient la peine de référence.
 cp	511-9	cinq ans	60	à juger		passe 2		
-cp	521-1	trois ans	36	noyau	mort	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	521-1-1	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	521-1	trois ans	36	noyau	mort	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Sévices graves, actes de cruauté et abandon d'un animal domestique ou captif : noyau, cinq ans si l'animal meurt. L'interdiction de détenir un animal assure l'effectivité.
+cp	521-1-1	trois ans	36	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Atteintes sexuelles sur un animal : noyau, au rang des sévices graves (521-1). L'interdiction définitive de détenir un animal assure l'effectivité.
 cp	521-1-2	deux ans	24	à juger		passe 2		
 cp	521-1-3	un an	12	à juger		passe 2		
-cp	522-1	six mois	6	noyau	mort	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	522-1	six mois	6	noyau	mort	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Mise à mort sans nécessité d'un animal domestique ou captif : noyau, sous les sévices ayant entraîné la mort (521-1, cinq ans).
 cp	713-4	un an	12	formel	sans être titulaire	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Adaptation de 226-28 à la Polynésie française et à la Nouvelle-Calédonie : identification génétique hors des cas légaux, atteinte à la vie privée, suit le sort de l'article métropolitain.
-cp	713-5	un an	12	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	714-1	une peine de sept ans	84	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	713-5	un an	12	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Adaptation de 226-28 à Wallis-et-Futuna et aux Terres australes : identification génétique hors des cas légaux, atteinte à la vie privée, suit le sort de l'article métropolitain.
+cp	714-1	une peine de sept ans	84	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Adaptation de 322-3-1 aux collectivités du Pacifique : dégradation d'un bien culturel protégé, suit le sort de l'article métropolitain.
 cp	715-5	un an	12	à juger		passe 2		
-cp	717-2	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	717-2	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	garder	Hausse ou baisse artificielle des prix par fausses nouvelles ou manœuvres : délit propre aux collectivités du Pacifique, où le code de commerce ne s'applique pas (lot p062). Atteinte à la loyauté des marchés, noyau, au rang de L442-9 du code de commerce aux mêmes peines.
 cp	723-1	trois ans	36	à juger		passe 2		
-cp	723-4	un an	12	noyau	dopage	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	723-4	un an	12	noyau	dopage	peine encourue = référence ; contrôler la hiérarchie de la famille	abroger	Adaptation de 226-25 à Mayotte, abrogée au lot p061 : 226-25 s'applique à Mayotte comme ailleurs. Perte : l'exception judiciaire tombe et l'exception dans l'intérêt de la personne se réduit à la personne hors d'état d'exprimer sa volonté (L1130-3 du code de la santé publique). Extension : l'examen génétique à des fins non médicales devient punissable à Mayotte.
 cp	723-5	un an	12	à juger		passe 2		
-cp	723-6	un an	12	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille		
-cp	724-1	une peine de sept ans	84	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	723-6	un an	12	noyau	santé publique	peine encourue = référence ; contrôler la hiérarchie de la famille	abroger	Adaptation de 226-28 à Mayotte, abrogée au lot p061 : 226-28 s'applique à Mayotte, avec son alternative emprisonnement ou amende. Extension : l'examen génétique sans l'autorisation de L1131-2-1 du code de la santé publique devient punissable à Mayotte. Aucune perte.
+cp	724-1	une peine de sept ans	84	noyau	destruction	peine encourue = référence ; contrôler la hiérarchie de la famille	abroger	Adaptation de 322-3-1 à Mayotte, abrogée au lot p061 : elle laissait orphelin le 4° (édifice affecté au culte). 322-3-1 s'applique à Mayotte en entier. Aucune perte, extension à l'édifice affecté au culte.
 cp	725-6	un an	12	à juger		passe 2		
-cp	726-1	sept ans	84	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	726-1	sept ans	84	noyau	mineur	peine encourue = référence ; contrôler la hiérarchie de la famille	abroger	Adaptation de 511-3 à Mayotte, abrogée au lot p061 : régime ancien du prélèvement sur donneur vivant. Les articles L1231-1 et suivants du code de la santé publique règlent le prélèvement et 511-3 le sanctionne à Mayotte. Aucune perte.
 cp	726-10	sept ans	84	à juger		passe 2		
 cp	726-11	deux ans	24	à juger		passe 2		
 cp	726-12	deux ans	24	à juger		passe 2		
@@ -499,7 +499,7 @@ cp	726-6	deux ans	24	à juger		passe 2
 cp	726-7	deux ans	24	à juger		passe 2		
 cp	726-8	deux ans	24	à juger		passe 2		
 cp	726-9	sept ans	84	formel	sans autorisation	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Adaptation de 511-16 à Wallis-et-Futuna : obtention d'embryons humains hors autorisation judiciaire, protection de la personne et de la filiation, suit le sort de l'article métropolitain.
-cp	727-2	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille		
+cp	727-2	deux ans	24	noyau	fraud	peine encourue = référence ; contrôler la hiérarchie de la famille	abroger	Hausse ou baisse artificielle des prix à Mayotte, abrogée au lot p061 : L442-9 du code de commerce s'y applique et porte le même délit, la même aggravation et les mêmes peines complémentaires, en visant en plus les sous-offres et les enchères à distance. Aucune perte.
 cpp	114-1	trois ans	36	à juger		passe 2		
 cpp	116-1	un an	12	à juger		passe 2		
 cpp	137-4	dix ans	120	formel	de ne pas transmettre	emprisonnement d'affichage présumé : amende délictuelle, contravention de 5e classe ou sanction administrative	garder	Article de procédure sans incrimination : le seuil de dix ans définit le champ du référé-détention du parquet. Il sort du barème des délits, sans requalification [arbitrage].
