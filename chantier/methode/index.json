@@ -14166,6 +14166,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/bareme/ajuger_sante",
+   "chemin": "revision/bareme/ajuger_sante.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/bareme/ajuger_sante.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/bareme/formel_autres_codes",
    "chemin": "revision/bareme/formel_autres_codes.json",
    "rang": "methode",
@@ -16345,6 +16359,7 @@
    "referentiels/sort_prelevements_20261015.tsv",
    "requirements.txt",
    "revision/bareme/ajuger_cp.json",
+   "revision/bareme/ajuger_sante.json",
    "revision/bareme/formel_autres_codes.json",
    "revision/bareme/formel_cp.json",
    "revision/bareme/formel_environnement.json",
@@ -16637,9 +16652,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1061,
-  "au_coffre": 1000,
-  "au_depot": 542,
+  "artefacts": 1062,
+  "au_coffre": 1001,
+  "au_depot": 543,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
