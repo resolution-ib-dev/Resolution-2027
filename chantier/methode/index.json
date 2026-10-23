@@ -14404,6 +14404,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/decisions/lot_p005",
+   "chemin": "revision/decisions/lot_p005.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/decisions/lot_p005.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/decisions/lot_p006",
    "chemin": "revision/decisions/lot_p006.json",
    "rang": "methode",
@@ -14948,6 +14962,7 @@
    "revision/decisions/lot_p002.json",
    "revision/decisions/lot_p003.json",
    "revision/decisions/lot_p004.json",
+   "revision/decisions/lot_p005.json",
    "revision/decisions/lot_p006.json",
    "revision/fiches_penal.json",
    "revision/grille_principes.json",
@@ -15122,9 +15137,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 960,
-  "au_coffre": 899,
-  "au_depot": 441,
+  "artefacts": 961,
+  "au_coffre": 900,
+  "au_depot": 442,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
