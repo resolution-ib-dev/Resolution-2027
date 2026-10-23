@@ -14334,6 +14334,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/bareme/noyau_route",
+   "chemin": "revision/bareme/noyau_route.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/bareme/noyau_route.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/bareme/noyau_sante",
    "chemin": "revision/bareme/noyau_sante.json",
    "rang": "methode",
@@ -16413,6 +16427,7 @@
    "revision/bareme/noyau_cp_livre2.json",
    "revision/bareme/noyau_cp_livres3a7.json",
    "revision/bareme/noyau_cpp.json",
+   "revision/bareme/noyau_route.json",
    "revision/bareme/noyau_sante.json",
    "revision/bareme/noyau_transports.json",
    "revision/decisions/lot1_L5_livre2_titre5.json",
@@ -16697,9 +16712,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1065,
-  "au_coffre": 1004,
-  "au_depot": 546,
+  "artefacts": 1066,
+  "au_coffre": 1005,
+  "au_depot": 547,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
