@@ -1,7 +1,7 @@
 {
   "articles_registre": 9473,
-  "decides": 2738,
-  "part_jugee": 0.289,
+  "decides": 2744,
+  "part_jugee": 0.2897,
   "lots": [
     {
       "lot": "lot1_L5_livre2_titre5.json",
@@ -1233,6 +1233,22 @@
         "G": 1
       },
       "a_coordonner": {}
+    },
+    {
+      "lot": "lot_p090.json",
+      "attendus": 6,
+      "decides": 6,
+      "decisions": {
+        "G": 3,
+        "A": 3
+      },
+      "a_coordonner": {
+        "L135-1": [
+          "L752-1",
+          "L762-1",
+          "L772-1"
+        ]
+      }
     }
   ],
   "delits": {
