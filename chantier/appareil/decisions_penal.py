@@ -87,7 +87,12 @@ def main():
         retires = []
         for (c, n), d in decides.items():
             cpt[d["decision"]] += 1
-            if (c, n) not in parcle:
+            if d["decision"] == "C":   # création : un numéro libre, rédigé en entier
+                if (c, n) in textes:
+                    anomalies.append(f"{f.name} D2 : {c} {n} créé alors qu'il existe")
+                if [op.get("op") for op in d.get("operations", [])] != ["rediger"]:
+                    anomalies.append(f"{f.name} D3 : {n} création sans rédaction unique")
+            elif (c, n) not in parcle:
                 anomalies.append(f"{f.name} D2 : {c} {n} absent du registre")
             if d["decision"] not in VERBES:
                 anomalies.append(f"{f.name} D2 : {n} verbe inconnu {d['decision']}")
