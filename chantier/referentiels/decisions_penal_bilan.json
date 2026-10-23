@@ -1,7 +1,7 @@
 {
   "articles_registre": 9473,
-  "decides": 84,
-  "part_jugee": 0.0089,
+  "decides": 86,
+  "part_jugee": 0.0091,
   "lots": [
     {
       "lot": "lot1_L5_livre2_titre5.json",
@@ -87,6 +87,16 @@
           "D775-2"
         ]
       }
+    },
+    {
+      "lot": "lot6_cp_periode_surete.json",
+      "attendus": 1,
+      "decides": 2,
+      "decisions": {
+        "R": 1,
+        "S": 1
+      },
+      "a_coordonner": {}
     }
   ],
   "delits": {
