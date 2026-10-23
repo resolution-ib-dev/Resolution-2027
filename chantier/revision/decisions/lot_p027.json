@@ -1,0 +1,52 @@
+{
+  "lot": "p027",
+  "perimetre": {
+    "code": "cpp",
+    "section_contient": "Partie réglementaire - Décrets en Conseil d'Etat > Livre V : Des procédures d'exécution. > Titre IV : Du sursis",
+    "prefixe": "R"
+  },
+  "juge_le": "2026-10-23",
+  "decisions": [
+    {
+      "code": "cpp",
+      "num": "R58",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Doublon de L5321-3, qui place le condamné sous le contrôle du juge de l'application des peines territorialement compétent selon L2141-8 (résidence s'il est libre, établissement s'il est écroué) et le charge de s'assurer de l'exécution des mesures et obligations. Aucune règle propre perdue : le seul critère de la résidence, écrit ici, contredit même L2141-8 pour le condamné écroué.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "R59",
+      "decision": "G",
+      "principe": "P10",
+      "motif": "Convocation, rappel et notification des obligations, procès-verbal émargé dont copie est remise : la preuve que la personne connaît ses obligations fonde la révocation. Délégation possible au service d'insertion et de probation : la décision se prend au plus près.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "R60-1",
+      "decision": "S",
+      "principe": "P1",
+      "motif": "Bracelet anti-rapprochement des articles 132-45, 18° bis, et 132-45-1 du code pénal. Le décret y ajoute trois conditions que la loi ne pose pas : la subsidiarité, le couplage avec les interdictions des 9° et 13° et la durée de deux ans renouvelable. Ensemble, elles bornent une géolocalisation permanente du condamné. Elles remontent en bloc à l'article 132-45-1 du code pénal (remontée signalée) et restent en place jusque-là. La victime est avisée de la demande de réduire les distances ou de lever la mesure et peut présenter ses observations (P18). Coquilles corrigées. Renvoi à l'ancien 712-6 à coordonner.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) et CEDH art. 8 examinés : la géolocalisation reste subsidiaire, couplée aux interdictions qu'elle contrôle et bornée à deux ans renouvelables, le condamné garde la demande de réduction ou de levée à tout moment. Art. 66 C examiné : le bracelet ne prive pas de liberté, sa levée et son renouvellement restent décidés par un juge du siège",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "la juridiction d'application des peines ne peut prononcer",
+          "nouveau": "la juridiction de l'application des peines ne peut prononcer"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "prévues par le 18 bis de l'article 132-45",
+          "nouveau": "prévues par le 18° bis de l'article 132-45"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "Cette décision peut être également prise d'office par le juge de l'application des peines.",
+          "nouveau": "Cette décision peut être également prise d'office par le juge de l'application des peines. La victime est avisée de la demande ou de la décision envisagée et peut présenter ses observations, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine."
+        }
+      ]
+    }
+  ]
+}
