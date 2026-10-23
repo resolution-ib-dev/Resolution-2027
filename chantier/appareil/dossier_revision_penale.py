@@ -51,6 +51,8 @@ PRINCIPES = [
     ("Décider au plus près, garanties maintenues", "prolongation au-delà d'un an par le seul garde des Sceaux", "par le [directeur interrégional] ; contradictoire et durée inchangés", "RP1"),
     ("Le numérique par défaut", "envoi électronique sur consentement exprès", "envoi électronique à l'adresse déclarée ; papier à la demande", "L1"),
     ("Purger tôt les nullités", "quatre mois ; nullité invocable par qui l'a provoquée", "[un mois] après remise du dossier ; irrecevabilité de qui l'a délibérément provoquée", "L3"),
+    ("Sobriété de la règle", "9 473 articles et 874 000 mots dans la chaîne pénale ; un article porte souvent plusieurs règles", "une idée, un article ; l'article sans usage tombe ; cible [−50 %] de mots", "toutes"),
+    ("Transparence des procédures et des jugements", "huis clos et chambre du conseil épars ; publication des décisions partielle", "audiences publiques, décisions publiées ; exceptions : victime à sa demande, sécurité nationale", "toutes"),
     ("Descendre à la strate la plus basse", "tout attendre de la loi", "arrêté, puis décret, puis loi ; un verrou législatif se déclare", "toutes"),
     ("Coordination avec le code de 2029", "délai de nullité de 2026 non reporté au code refondu (L3752-4)", "chaque fiche porte son report ; défaut signalé", "L1, L3"),
 ]

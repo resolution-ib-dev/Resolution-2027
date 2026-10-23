@@ -57,6 +57,7 @@ S = {k: re.compile(v, re.I) for k, v in {
     "outre_mer": r"Nouvelle-Calédonie|Polynésie|Wallis|Saint-Pierre|Mayotte|Martinique|Guadeloupe|Guyane|La Réunion|Saint-Barthélemy|Saint-Martin",
     "jury": r"\bjur[ée]s?\b|\bjury\b|assesseur",
     "liste": r"(?:suivant(?:e)?s|ci-après)\s*:",
+    "publicite": r"huis clos|chambre du conseil|non publique|publicité des débats|\bsecret\b|\bconfidentiel",
 }.items()}
 
 PRINCIPES = {   # signal → principes de la grille qui jugent l'article
@@ -64,6 +65,7 @@ PRINCIPES = {   # signal → principes de la grille qui jugent l'article
     "notification": ["P12"], "liste": ["P2"], "avis_obligatoire": ["P15", "P1"],
     "autorisation": ["P16"], "derogation": ["P3"], "renvoi_reglement": ["P1"],
     "outre_mer": ["P3"], "jury": ["P17"], "victime": ["P18"], "delai": ["P11", "P19"],
+    "publicite": ["P26"],
 }
 LIGNE_ROUGE = {"liberte": "art. 66 C, CEDH art. 5 : contrôle d'un juge", "nullite": "art. 16 DDHC : droits de la défense",
                "peine": "art. 8 DDHC : nécessité, individualisation au prononcé"}

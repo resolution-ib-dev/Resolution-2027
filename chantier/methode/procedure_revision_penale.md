@@ -293,14 +293,18 @@ scénario, avec la dissuasion et la capacité (étape 7) en regard.
    et le total est plafonné selon les antécédents et la victime.
 3. La charge de la motivation pèse sur l'écart à la référence, non sur son
    application.
-4. Chaque norme prouve sa nécessité et son coût (livre, folio 93). Une création se
-   compense par deux abrogations.
+4. Sobriété de la règle (livre, folios 91 à 96) : chaque norme prouve sa nécessité
+   et son coût (folio 93), tient en peu de mots, et tombe si elle ne sert pas.
+   Principe arrêté par l'auteur (20261023), en remplacement du « deux pour une ».
 5. Le règlement d'abord, la loi ensuite. Tout se rédige en double numérotation
    (code actuel et code de 2029).
 6. Les lignes rouges sont tenues au plus près de leur noyau, et seulement là
    (section « Lignes rouges »).
 7. Les principes de la révision constitutionnelle se transposent à droit constant :
    jury, effectivité, redevabilité, transparence.
+8. Transparence des procédures et des jugements : audiences publiques, décisions
+   publiées. Seules exceptions : la protection de la victime, à sa demande, et la
+   sécurité nationale. Principe arrêté par l'auteur (20261023).
 
 **Points à prendre en compte**
 
@@ -409,7 +413,7 @@ seule fois.
   transports (439).
 - NATINF ne dit pas quelles natures servent. Le taux d'usage par nature (casier
   judiciaire, statistiques du ministère) reste à obtenir. Sans lui, l'abrogation
-  se cible par code et par la règle « deux pour une ».
+  se cible par code, à l'aune de la sobriété de la règle (P20).
 
 ## Paquet réglementaire n° 1 (proposé, 20261021)
 
@@ -419,7 +423,6 @@ seule fois.
 | abrogation et requalification des contraventions sans usage | décrets par code : transports, environnement, route, rural, consommation | 6 701 natures de contravention | décret seul, après mesure d'usage |
 | notification électronique par défaut | CPP 803-1 II exige aujourd'hui le consentement exprès de la personne : on passe à un droit d'opposition. Les modalités relèvent du décret. | 139 articles R/D du CPP et 31 du code pénitentiaire visent une notification ou une lettre recommandée | **loi** (803-1), puis décret |
 | suppression des avis obligatoires d'instances | articles R/D visant l'avis d'une commission ou d'un conseil | 16 occurrences dans le CPP, le code pénitentiaire et le CJPM | décret seul |
-| règle « deux pour une » pour toute contravention nouvelle | circulaire du Premier ministre, sur le modèle de 2017 pour les normes réglementaires | — | acte réglementaire |
 
 - Correction (20261021) : R48-1 II ouvre déjà l'amende forfaitaire à onze
   rubriques de 5e classe (santé publique, outrage sexiste, environnement, route,
@@ -649,13 +652,14 @@ seulement les points signalés. La méthode tient en deux passes et un registre.
 réglementaire en vigueur au 1er janvier 2029 (2 132 articles R, D, A), code pénal
 (1 301), code pénitentiaire (1 868) : 9 473 articles, 874 000 mots.
 
-**Grille.** `revision/grille_principes.json` : 25 principes, chacun avec sa
+**Grille.** `revision/grille_principes.json` : 26 principes, chacun avec sa
 question de test et sa source (révision constitutionnelle, livre, DDHC, notes HD,
 IPJ, IPP, modèles étrangers et historiques). P1 à P15 reprennent les principes
-déjà inscrits ; P16 à P25 ajoutent sanction plutôt qu'autorisation, jury et appel
-au fond, victime, délais opposables, deux pour une, charge de la preuve à la norme,
+déjà inscrits ; P16 à P26 ajoutent sanction plutôt qu'autorisation, jury et appel
+au fond, victime, délais opposables, sobriété de la règle, charge de la preuve à la norme,
 compte rendu des juridictions, une idée par article, voies rapides, noyau des lignes
-rouges.
+rouges, transparence des procédures et des jugements (P26, arrêtée par l'auteur
+le 20261023 ; le « deux pour une » est retiré à la même date).
 
 **Passe 1, mécanique, sur tous les articles** (`appareil/registre_penal.py`,
 `referentiels/registre_penal.tsv`) : mesures (mots, renvois entrants), signaux
