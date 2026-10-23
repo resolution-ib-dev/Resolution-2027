@@ -18100,6 +18100,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/decisions/lot_p256",
+   "chemin": "revision/decisions/lot_p256.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/decisions/lot_p256.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/fiches_penal",
    "chemin": "revision/fiches_penal.json",
    "rang": "methode",
@@ -18894,6 +18908,7 @@
    "revision/decisions/lot_p253.json",
    "revision/decisions/lot_p254.json",
    "revision/decisions/lot_p255.json",
+   "revision/decisions/lot_p256.json",
    "revision/fiches_penal.json",
    "revision/grille_principes.json",
    "sources/guide-public-du-budgetaire-2023.pdf",
@@ -19067,9 +19082,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1223,
-  "au_coffre": 1162,
-  "au_depot": 704,
+  "artefacts": 1224,
+  "au_coffre": 1163,
+  "au_depot": 705,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
