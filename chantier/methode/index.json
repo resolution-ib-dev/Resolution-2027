@@ -14180,6 +14180,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/bareme/ajuger_transports",
+   "chemin": "revision/bareme/ajuger_transports.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/bareme/ajuger_transports.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/bareme/formel_autres_codes",
    "chemin": "revision/bareme/formel_autres_codes.json",
    "rang": "methode",
@@ -16374,6 +16388,7 @@
    "requirements.txt",
    "revision/bareme/ajuger_cp.json",
    "revision/bareme/ajuger_sante.json",
+   "revision/bareme/ajuger_transports.json",
    "revision/bareme/formel_autres_codes.json",
    "revision/bareme/formel_cp.json",
    "revision/bareme/formel_environnement.json",
@@ -16667,9 +16682,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1063,
-  "au_coffre": 1002,
-  "au_depot": 544,
+  "artefacts": 1064,
+  "au_coffre": 1003,
+  "au_depot": 545,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
