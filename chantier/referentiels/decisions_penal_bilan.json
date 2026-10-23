@@ -1,7 +1,7 @@
 {
   "articles_registre": 9473,
-  "decides": 44,
-  "part_jugee": 0.0046,
+  "decides": 72,
+  "part_jugee": 0.0076,
   "lots": [
     {
       "lot": "lot1_L5_livre2_titre5.json",
@@ -50,6 +50,17 @@
           "D527-3"
         ]
       }
+    },
+    {
+      "lot": "lot3_D_livre5_titre3.json",
+      "attendus": 28,
+      "decides": 28,
+      "decisions": {
+        "G": 18,
+        "S": 7,
+        "A": 3
+      },
+      "a_coordonner": {}
     }
   ],
   "anomalies": []
