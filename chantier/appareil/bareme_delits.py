@@ -16,6 +16,10 @@ relit chaque article par `droit.py` et le range en trois classes :
 C'est un tri de passe 1, à confirmer article par article, puis par l'usage
 (condamnations par NATINF, casier judiciaire) quand la donnée sera obtenue.
 
+La passe 2 s'écrit dans revision/bareme/<famille>.json, jamais dans le TSV : le
+script reverse chaque décision et son motif dans les colonnes `decision` et
+`motif`, et `decisions_penal.py` (D6) contrôle la source et l'accord du TSV.
+
 Emploi :
     python3 chantier/appareil/bareme_delits.py
 """
@@ -35,6 +39,16 @@ import droit  # noqa: E402
 SRC = CHANTIER / "referentiels" / "incriminations.tsv"
 TSV = CHANTIER / "referentiels" / "bareme_delits.tsv"
 BILAN = CHANTIER / "referentiels" / "bareme_delits_bilan.json"
+DECISIONS = CHANTIER / "revision" / "bareme"
+
+
+def decisions():
+    """(code, num) → décision de passe 2, lue dans revision/bareme/*.json."""
+    out = {}
+    for f in sorted(DECISIONS.glob("*.json")):
+        for d in json.loads(f.read_text(encoding="utf-8"))["decisions"]:
+            out[(d["code"], d["num"])] = d
+    return out
 
 NOYAU = re.compile(
     r"\bviolence|\bmort\b|\bdécès|\bblessure|incapacité totale de travail|\bmeurtre|\bviol\b|agression|"
@@ -65,6 +79,7 @@ def mois(p):
 def main():
     jour = str(date.today())
     lignes, bilan, par_code = [], Counter(), Counter()
+    passe2 = decisions()
     for r in csv.DictReader(SRC.open(encoding="utf-8"), delimiter="\t"):
         if r["nature"] != "délit":
             continue
@@ -79,8 +94,9 @@ def main():
             cl, prop = "à juger", "passe 2"
         bilan[cl] += 1
         par_code[(r["code"], cl)] += 1
+        d = passe2.get((r["code"], r["num"]), {})
         lignes.append([r["code"], r["num"], r["peine_relevee"], mois(r["peine_relevee"]), cl,
-                       (n or f).group(0) if (n or f) else "", prop, "", ""])
+                       (n or f).group(0) if (n or f) else "", prop, d.get("decision", ""), d.get("motif", "")])
     with TSV.open("w", encoding="utf-8", newline="") as h:
         w = csv.writer(h, delimiter="\t", lineterminator="\n")
         w.writerow(["code", "num", "peine_relevee", "mois", "classe", "indice", "proposition", "decision", "motif"])
@@ -89,6 +105,7 @@ def main():
     for (c, cl), v in par_code.items():
         codes.setdefault(c, {})[cl] = v
     out = {"jour": jour, "delits": len(lignes), "classes": dict(bilan),
+           "decisions": dict(Counter(l[7] for l in lignes if l[7])),
            "par_code": dict(sorted(codes.items(), key=lambda kv: -sum(kv[1].values())))}
     BILAN.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps({k: out[k] for k in ("delits", "classes")}, ensure_ascii=False))
