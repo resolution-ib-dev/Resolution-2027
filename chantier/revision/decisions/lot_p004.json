@@ -185,8 +185,8 @@
       "num": "132-25",
       "decision": "R",
       "principe": "P10",
-      "motif": "Fiche L2 : l'aménagement au prononcé devient une faculté de la juridiction pour l'emprisonnement ferme de [six mois] au plus. Le deuxième alinéa (aménagement dû entre six mois et un an) est abrogé. Le maintien en détention avec exécution provisoire reste.",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la juridiction module dans le barème, l'aménagement reste une faculté motivée ; art. 66 C examiné : le placement ou le maintien en détention reste décidé par la juridiction de jugement",
+      "motif": "Fiche L2 : l'aménagement au prononcé devient une faculté de la juridiction pour l'emprisonnement ferme de [six mois] au plus. Le deuxième alinéa (aménagement dû entre six mois et un an) est abrogé. Au 1er janvier 2029, le maintien en détention avec exécution provisoire quitte l'article pour L4432-15 du code de procédure pénale, qui reste applicable.",
+      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la juridiction module dans le barème, l'aménagement reste une faculté motivée ; art. 66 C examiné : le maintien en détention reste décidé par la juridiction de jugement (L4432-15 du code de procédure pénale)",
       "operations": [
         {
           "op": "remplacer_alineas",
@@ -195,11 +195,6 @@
             2
           ],
           "nouveau": "Lorsque la juridiction prononce une peine d'emprisonnement ferme inférieure ou égale à [six mois], elle peut ordonner, par la même décision, que la peine sera exécutée sous le régime de la détention à domicile sous surveillance électronique, de la semi-liberté ou du placement à l'extérieur."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Dans les cas prévus aux deux premiers alinéas,",
-          "nouveau": "Dans le cas prévu au premier alinéa,"
         }
       ]
     }

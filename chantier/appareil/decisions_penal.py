@@ -62,7 +62,7 @@ def main():
     textes = {}
     for code in ("cpp", "cp", "penitentiaire"):
         for vs in droit.charger(code).values():
-            j = "2029-01-01" if code == "cpp" else None
+            j = "2029-01-01"   # les trois codes se jugent dans leur version coordonnée par l'ordonnance n° 2025-1091
             ap = [v for v in vs if droit.applicable(v, j)]
             if ap:
                 textes[(code, ap[-1]["num"])] = (ap[-1]["texte"] or "", ap[-1].get("section") or "")
