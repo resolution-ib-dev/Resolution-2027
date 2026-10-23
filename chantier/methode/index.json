@@ -14348,6 +14348,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/bareme/noyau_autres_codes",
+   "chemin": "revision/bareme/noyau_autres_codes.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/bareme/noyau_autres_codes.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/bareme/noyau_cp_livre2",
    "chemin": "revision/bareme/noyau_cp_livre2.json",
    "rang": "methode",
@@ -16498,6 +16512,7 @@
    "revision/bareme/formel_sante.json",
    "revision/bareme/formel_securite_interieure.json",
    "revision/bareme/formel_transports.json",
+   "revision/bareme/noyau_autres_codes.json",
    "revision/bareme/noyau_cp_livre2.json",
    "revision/bareme/noyau_cp_livres3a7.json",
    "revision/bareme/noyau_cpp.json",
@@ -16787,9 +16802,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1071,
-  "au_coffre": 1010,
-  "au_depot": 552,
+  "artefacts": 1072,
+  "au_coffre": 1011,
+  "au_depot": 553,
   "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
