@@ -170,9 +170,17 @@ diminution est une fraction de la peine encourue, et les fractions s'additionnen
 
 | situation | total des diminutions |
 |---|---|
-| aucun antécédent | 1/2 |
+| aucun antécédent, délit sans atteinte aux personnes | 2/3 |
+| aucun antécédent, crime ou atteinte aux personnes | 1/2 |
 | réitération (CP 132-16-7) | 1/3 |
 | victime mineure ou particulièrement vulnérable | 1/4 |
+
+Plafond de 2/3 pour le primo-délinquant arrêté par l'auteur (20261023) : la peine
+prononcée ne descend jamais sous le tiers de la peine encourue. C'est le niveau du
+plancher validé en 2007 (« environ un tiers », CC 2007-554 DC, cons. 11). Il reste
+plus strict que l'Italie, où plusieurs atténuantes ne descendent pas sous le quart de
+la peine de base (art. 67 c.p.). Les trois catégories (1/3 + 1/5 + 1/5) permettent
+d'atteindre ce plafond. Il ne s'ouvre ni aux crimes ni aux atteintes aux personnes.
 
 **Récidive légale (validé dans son principe par l'auteur, 20261020).** La peine encourue est doublée, comme
 aujourd'hui (CP 132-8 à 132-10). La peine prononcée est au moins égale à la peine
@@ -187,7 +195,7 @@ modèle validé en 2007 :
 
 Exemple, vol (3 ans) : 3 à 6 ans en récidive, 2 ans au plus bas en cas de
 circonstance exceptionnelle à la première récidive. Réitération : 2 à 3 ans. Sans
-antécédent : 18 mois à 3 ans.
+antécédent : 1 à 3 ans (vol, délit sans atteinte aux personnes).
 
 Évaluation (CC 2007-554 DC, 9 août 2007, lu sur le texte de la décision) :
 
@@ -217,7 +225,8 @@ Peine encourue pour l'infraction (ex. vol : 3 ans)
 ├─ Discernement altéré ? → point de départ − 1/3 au plus
 │
 └─ Antécédents ?
-   ├─ Aucun : référence 3 ans, diminutions ≤ 1/2 → 18 mois à 3 ans
+   ├─ Aucun : référence 3 ans, diminutions ≤ 2/3 → 1 à 3 ans
+   │    (≤ 1/2 si crime ou atteinte aux personnes)
    ├─ Réitération : référence 3 ans, diminutions ≤ 1/3 → 2 à 3 ans
    └─ Récidive légale : référence doublée 6 ans, plancher = peine simple 3 ans
         ├─ 1re récidive : circonstance exceptionnelle spécialement motivée ?
@@ -254,6 +263,25 @@ pourcentage, à fixer par l'auteur, et annoncées au prononcé. La règle du
 **Hausses.** Le maximum se relève là où la hiérarchie des peines est incohérente
 avec la gravité : atteintes aux personnes, atteintes aux enfants (livre, folio 92),
 récidive. Il ne se baisse que pour rationaliser.
+
+**Peines de référence réalistes (P27, arrêté par l'auteur le 20261023).** Le
+maximum est la référence : il doit donc être une peine qu'on prononce. Les
+délits se trient en trois classes (`appareil/bareme_delits.py`,
+`referentiels/bareme_delits.tsv`) :
+
+- noyau (atteintes aux personnes, aux biens, à la nation, à la justice, à la
+  confiance publique) : la peine encourue reste la référence, contrôlée contre
+  la hiérarchie de la famille, et se relève là où elle est incohérente ;
+- formel (défaut de déclaration, d'autorisation, de registre, de forme, sans
+  dommage nommé) : l'emprisonnement y est une peine d'affichage présumée. Il
+  tombe au profit d'une amende délictuelle, d'une contravention de 5e classe
+  ou d'une sanction administrative ;
+- à juger : décision en passe 2.
+
+Premier tri (20261023) : 1 260 délits relevés hors crimes, dont 471 au noyau,
+199 formels et 590 à juger. Le tri est lexical ; chaque article se confirme en
+passe 2, puis par l'usage (condamnations par NATINF) quand la donnée sera
+obtenue.
 
 **Risque constitutionnel.**
 
@@ -293,14 +321,18 @@ scénario, avec la dissuasion et la capacité (étape 7) en regard.
    et le total est plafonné selon les antécédents et la victime.
 3. La charge de la motivation pèse sur l'écart à la référence, non sur son
    application.
-4. Chaque norme prouve sa nécessité et son coût (livre, folio 93). Une création se
-   compense par deux abrogations.
+4. Sobriété de la règle (livre, folios 91 à 96) : chaque norme prouve sa nécessité
+   et son coût (folio 93), tient en peu de mots, et tombe si elle ne sert pas.
+   Principe arrêté par l'auteur (20261023), en remplacement du « deux pour une ».
 5. Le règlement d'abord, la loi ensuite. Tout se rédige en double numérotation
    (code actuel et code de 2029).
 6. Les lignes rouges sont tenues au plus près de leur noyau, et seulement là
    (section « Lignes rouges »).
 7. Les principes de la révision constitutionnelle se transposent à droit constant :
    jury, effectivité, redevabilité, transparence.
+8. Transparence des procédures et des jugements : audiences publiques, décisions
+   publiées. Seules exceptions : la protection de la victime, à sa demande, et la
+   sécurité nationale. Principe arrêté par l'auteur (20261023).
 
 **Points à prendre en compte**
 
@@ -409,7 +441,7 @@ seule fois.
   transports (439).
 - NATINF ne dit pas quelles natures servent. Le taux d'usage par nature (casier
   judiciaire, statistiques du ministère) reste à obtenir. Sans lui, l'abrogation
-  se cible par code et par la règle « deux pour une ».
+  se cible par code, à l'aune de la sobriété de la règle (P20).
 
 ## Paquet réglementaire n° 1 (proposé, 20261021)
 
@@ -419,7 +451,6 @@ seule fois.
 | abrogation et requalification des contraventions sans usage | décrets par code : transports, environnement, route, rural, consommation | 6 701 natures de contravention | décret seul, après mesure d'usage |
 | notification électronique par défaut | CPP 803-1 II exige aujourd'hui le consentement exprès de la personne : on passe à un droit d'opposition. Les modalités relèvent du décret. | 139 articles R/D du CPP et 31 du code pénitentiaire visent une notification ou une lettre recommandée | **loi** (803-1), puis décret |
 | suppression des avis obligatoires d'instances | articles R/D visant l'avis d'une commission ou d'un conseil | 16 occurrences dans le CPP, le code pénitentiaire et le CJPM | décret seul |
-| règle « deux pour une » pour toute contravention nouvelle | circulaire du Premier ministre, sur le modèle de 2017 pour les normes réglementaires | — | acte réglementaire |
 
 - Correction (20261021) : R48-1 II ouvre déjà l'amende forfaitaire à onze
   rubriques de 5e classe (santé publique, outrage sexiste, environnement, route,
@@ -639,6 +670,64 @@ L1321-2)
   pénale ». Ses citations du texte en vigueur ont été contrôlées par sondage sur les
   plus longs alinéas.
 - Pour amender : modifier la fiche, rejouer le script, verser.
+
+## Méthode de la réécriture complète (20261023)
+
+L'auteur l'a demandé : **tous les articles sont jaugés et ajustés au besoin**, pas
+seulement les points signalés. La méthode tient en deux passes et un registre.
+
+**Périmètre.** Code de procédure pénale de 2029 (4 179 articles L) et sa partie
+réglementaire en vigueur au 1er janvier 2029 (2 132 articles R, D, A), code pénal
+(1 301), code pénitentiaire (1 868) : 9 473 articles, 874 000 mots.
+
+**Grille.** `revision/grille_principes.json` : 27 principes, chacun avec sa
+question de test et sa source (révision constitutionnelle, livre, DDHC, notes HD,
+IPJ, IPP, modèles étrangers et historiques). P1 à P15 reprennent les principes
+déjà inscrits ; P16 à P27 ajoutent sanction plutôt qu'autorisation, jury et appel
+au fond, victime, délais opposables, sobriété de la règle, charge de la preuve à la norme,
+compte rendu des juridictions, une idée par article, voies rapides, noyau des lignes
+rouges, transparence des procédures et des jugements (P26), peines de référence
+réalistes (P27) ; P26 et P27 arrêtés par l'auteur
+le 20261023 ; le « deux pour une » est retiré à la même date).
+
+**Passe 1, mécanique, sur tous les articles** (`appareil/registre_penal.py`,
+`referentiels/registre_penal.tsv`) : mesures (mots, renvois entrants), signaux
+(délai, autorisation, avis, nullité, notification, dérogation, peine, aménagement,
+liberté, victime, outre-mer, jury, liste), principes concernés, ligne rouge
+éventuelle, concordance avec l'ancien numéro (2 985 articles L appariés par
+similarité), décision proposée avec son principe et sa raison. Une proposition n'est
+jamais une décision.
+
+**Passe 2, jugement article par article** (`revision/decisions/<lot>.json`) : chaque
+article reçoit un verbe (garder, simplifier, fusionner, abroger, déclasser, remonter
+à la loi, réécrire, créer), le principe qui le porte, un motif, la ligne rouge
+examinée, et pour S, R et D les opérations sur le texte. Contrôles
+(`appareil/decisions_penal.py --strict`) :
+
+| contrôle | ce qu'il vérifie |
+|---|---|
+| D1 | couverture : chaque article du lot porte une décision |
+| D2 | forme : verbe connu, principe de la grille, motif, ligne rouge renseignée |
+| D3 | opérations : elles s'appliquent au texte (C2, C3) ; A et G n'en portent pas ; F nomme sa destination |
+| D4 | renvois : tout article abrogé ou fusionné qui reste cité ailleurs est listé, y compris par son ancien numéro dans la partie réglementaire |
+| D5 | ligne rouge : un article signalé en passe 1 ne peut être déclaré sans ligne rouge examinée |
+
+**Lots.** Un lot = un titre du code de 2029. Ordre : 5e partie (exécution), 4e
+(réponses pénales), 3e (investigations), 6e (procédures particulières), 2e
+(acteurs), 1re, 7e et 8e ; partie réglementaire après sa partie législative ; code
+pénal et code pénitentiaire avec les lots 1 et 2. Chaque lot se clôt par : D1 à D5 à
+zéro anomalie, revue adverse (`contestabilite`) des décisions R et A, tableau de bord
+(articles et mots avant et après, décisions par verbe, renvois à coordonner), mise à
+jour du doc. Un versement au dépôt par lot.
+
+**Produits finaux.** Code cible complet, trois colonnes complet (ancien, 2029,
+cible), table de concordance, dossier de synthèse en Word.
+
+**Premier lot jugé (essai)** : 5e partie, livre II, titre V, libération sous
+contrainte, 8 articles. 7 abrogations (P10 : remise de peine sans effort ni décision
+juridictionnelle), 1 fusion vers la libération conditionnelle (étranger éloigné).
+D1 à D5 : 0 anomalie. Renvois à coordonner : L5242-3, et cinq articles réglementaires
+qui citent l'ancien article 720 (D119, D147-18, D147-20, D147-24, D49-33).
 
 ## Codes de la chaîne pénale
 

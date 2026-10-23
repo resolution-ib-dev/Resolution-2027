@@ -465,7 +465,7 @@
 > 1° Au titre de la personne de l'auteur au moment des faits, notamment l'altération de son discernement ou l'absence de condamnation antérieure, dans la limite [du tiers].
 > 2° Au titre de son comportement lors de l'infraction, notamment un rôle accessoire, un préjudice limité ou la provocation de la victime, dans la limite [du cinquième].
 > 3° Au titre de son comportement après l'infraction, notamment la reconnaissance des faits, l'aide apportée à l'autorité pour faire cesser l'infraction ou en identifier les auteurs, ou la réparation du préjudice, dans la limite [du cinquième].
-> II. – Le total des diminutions est limité à [la moitié] de la peine encourue. Il est limité [au tiers] en cas de réitération, et [au quart] lorsque la victime est mineure ou particulièrement vulnérable.
+> II. – Le total des diminutions est limité aux deux tiers de la peine encourue pour l'auteur sans condamnation antérieure d'un délit qui ne porte pas atteinte aux personnes, et à [la moitié] dans les autres cas. Il est limité [au tiers] en cas de réitération, et [au quart] lorsque la victime est mineure ou particulièrement vulnérable.
 > III. – Pour un mineur, la peine encourue servant de référence est réduite de moitié, dans les conditions du code de la justice pénale des mineurs.
 
 *Dispositions modificatives* :
@@ -476,7 +476,7 @@
    « 1° Au titre de la personne de l'auteur au moment des faits, notamment l'altération de son discernement ou l'absence de condamnation antérieure, dans la limite [du tiers]. »
    « 2° Au titre de son comportement lors de l'infraction, notamment un rôle accessoire, un préjudice limité ou la provocation de la victime, dans la limite [du cinquième]. »
    « 3° Au titre de son comportement après l'infraction, notamment la reconnaissance des faits, l'aide apportée à l'autorité pour faire cesser l'infraction ou en identifier les auteurs, ou la réparation du préjudice, dans la limite [du cinquième]. »
-   « II. – Le total des diminutions est limité à [la moitié] de la peine encourue. Il est limité [au tiers] en cas de réitération, et [au quart] lorsque la victime est mineure ou particulièrement vulnérable. »
+   « II. – Le total des diminutions est limité aux deux tiers de la peine encourue pour l'auteur sans condamnation antérieure d'un délit qui ne porte pas atteinte aux personnes, et à [la moitié] dans les autres cas. Il est limité [au tiers] en cas de réitération, et [au quart] lorsque la victime est mineure ou particulièrement vulnérable. »
    « III. – Pour un mineur, la peine encourue servant de référence est réduite de moitié, dans les conditions du code de la justice pénale des mineurs. ».
 
 **Code de 2029.** Le code pénal n'est pas refondu.

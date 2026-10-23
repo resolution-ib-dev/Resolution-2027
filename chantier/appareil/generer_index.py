@@ -601,6 +601,10 @@ ARTEFACTS = [
     # `codes_git.py` refait ensemble depuis le dépôt de droit.
     ('codes_penaux', 'revision/codes/_manifeste.md', 'derive', False,
      'appareil/codes_git.py', ['methode/procedure_revision_penale.md'], []),
+    ('revision_penale_md', 'livrables/revision_penale.md', 'derive', False,
+     'appareil/revision_penale.py', ['methode/procedure_revision_penale.md'], []),
+    ('bareme_delits', 'referentiels/bareme_delits.tsv', 'derive', False,
+     'appareil/bareme_delits.py', ['methode/procedure_revision_penale.md'], []),
 
     # ---------------------------------------------------------------- méthode
     ('feuille_de_route', 'methode/feuille_de_route.md', 'methode', True, None,
