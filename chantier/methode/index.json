@@ -2383,6 +2383,36 @@
    "famille": "méthode"
   },
   {
+   "role": "revision_penale_md",
+   "chemin": "livrables/revision_penale.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/revision_penale.py",
+   "consomme_par": [
+    "methode/procedure_revision_penale.md"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "livrables/revision_penale.md",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "bareme_delits",
+   "chemin": "referentiels/bareme_delits.tsv",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/bareme_delits.py",
+   "consomme_par": [
+    "methode/procedure_revision_penale.md"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "referentiels/bareme_delits.tsv",
+   "famille": "grilles"
+  },
+  {
    "role": "feuille_de_route",
    "chemin": "methode/feuille_de_route.md",
    "rang": "methode",
@@ -9810,6 +9840,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:appareil/bareme_delits",
+   "chemin": "appareil/bareme_delits.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/bareme_delits.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/chaine_a",
    "chemin": "appareil/chaine_a.py",
    "rang": "appareil",
@@ -9992,6 +10036,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/decisions_penal",
+   "chemin": "appareil/decisions_penal.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/decisions_penal.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/digerer_annexes_vm2027",
    "chemin": "appareil/digerer_annexes_vm2027.py",
    "rang": "appareil",
@@ -10002,6 +10060,34 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/appareil/digerer_annexes_vm2027.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
+   "role": "fichier:appareil/dossier_revision_penale",
+   "chemin": "appareil/dossier_revision_penale.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/dossier_revision_penale.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
+   "role": "fichier:appareil/dossier_revision_penale_md",
+   "chemin": "appareil/dossier_revision_penale_md.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/dossier_revision_penale_md.py",
    "releve": true,
    "famille": "outillage"
   },
@@ -10268,6 +10354,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/appareil/redaction_2027.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
+   "role": "fichier:appareil/registre_penal",
+   "chemin": "appareil/registre_penal.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/registre_penal.py",
    "releve": true,
    "famille": "outillage"
   },
@@ -10858,20 +10958,6 @@
    "chemin_coffre": "chantier/livrables/reservoir_arguments_livre.md",
    "releve": true,
    "famille": "juridique"
-  },
-  {
-   "role": "fichier:livrables/revision_penale",
-   "chemin": "livrables/revision_penale.md",
-   "rang": "derive",
-   "coffre": true,
-   "produit_par": null,
-   "consomme_par": [],
-   "alias": [],
-   "restaurable": true,
-   "voie": "depot",
-   "chemin_coffre": "chantier/livrables/revision_penale.md",
-   "releve": true,
-   "famille": "bac à sable"
   },
   {
    "role": "fichier:livrables/suivi_trajectoire_20261015",
@@ -13702,6 +13788,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/bareme_delits_bilan",
+   "chemin": "referentiels/bareme_delits_bilan.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/bareme_delits_bilan.json",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/commissions_jaune2026_20261014",
    "chemin": "referentiels/commissions_jaune2026_20261014.tsv",
    "rang": "referentiel",
@@ -13730,6 +13830,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/concordance_cpp",
+   "chemin": "referentiels/concordance_cpp.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/concordance_cpp.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/concours_discretionnaires_collectivites_20261004",
    "chemin": "referentiels/concours_discretionnaires_collectivites_20261004.md",
    "rang": "referentiel",
@@ -13754,6 +13868,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/referentiels/controle_revision_penale.json",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/decisions_penal_bilan",
+   "chemin": "referentiels/decisions_penal_bilan.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/decisions_penal_bilan.json",
    "releve": true,
    "famille": "grilles"
   },
@@ -13884,6 +14012,34 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/registre_penal",
+   "chemin": "referentiels/registre_penal.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/registre_penal.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/registre_penal_bilan",
+   "chemin": "referentiels/registre_penal_bilan.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/registre_penal_bilan.json",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/releves_transversaux_plf2027",
    "chemin": "referentiels/releves_transversaux_plf2027.tsv",
    "rang": "referentiel",
@@ -13996,6 +14152,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/decisions/lot1_L5_livre2_titre5",
+   "chemin": "revision/decisions/lot1_L5_livre2_titre5.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/decisions/lot1_L5_livre2_titre5.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/fiches_penal",
    "chemin": "revision/fiches_penal.json",
    "rang": "methode",
@@ -14006,6 +14176,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/revision/fiches_penal.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
+   "role": "fichier:revision/grille_principes",
+   "chemin": "revision/grille_principes.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/grille_principes.json",
    "releve": true,
    "famille": "méthode"
   },
@@ -14085,6 +14269,7 @@
    "appareil/apports.py",
    "appareil/articles_ouverts_plf.py",
    "appareil/axe_transparence.py",
+   "appareil/bareme_delits.py",
    "appareil/blocs_disposition.py",
    "appareil/canoniser_ref.py",
    "appareil/carte_attribution.py",
@@ -14129,7 +14314,10 @@
    "appareil/couverture/pieces.py",
    "appareil/couverture/sources.py",
    "appareil/couverture/table.py",
+   "appareil/decisions_penal.py",
    "appareil/digerer_annexes_vm2027.py",
+   "appareil/dossier_revision_penale.py",
+   "appareil/dossier_revision_penale_md.py",
    "appareil/echantillon_epreuve.py",
    "appareil/empreintes.py",
    "appareil/epreuve_controle_blocs.py",
@@ -14192,6 +14380,7 @@
    "appareil/redaction_deposee.py",
    "appareil/ref_norme.py",
    "appareil/refresh_toc_pdf.py",
+   "appareil/registre_penal.py",
    "appareil/relever_ecarts_epreuve.py",
    "appareil/relever_protos.py",
    "appareil/rendre_blocs.py",
@@ -14252,7 +14441,6 @@
    "livrables/registre_calcul_etatB.md",
    "livrables/releve_siege_prelevements_20261001.md",
    "livrables/reservoir_arguments_livre.md",
-   "livrables/revision_penale.md",
    "livrables/suivi_trajectoire_20261015.md",
    "livrables/tablette_P2_20261016.md",
    "livrables/valise_phase1_20261002.md",
@@ -14456,10 +14644,13 @@
    "referentiels/annexe_tva_apu_2027.tsv",
    "referentiels/articles_ouverts_plf2027.tsv",
    "referentiels/articles_ouverts_plfss2027.tsv",
+   "referentiels/bareme_delits_bilan.json",
    "referentiels/commissions_jaune2026_20261014.tsv",
    "referentiels/commissions_jaune2026_20261014_lisez_moi.md",
+   "referentiels/concordance_cpp.tsv",
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
    "referentiels/controle_revision_penale.json",
+   "referentiels/decisions_penal_bilan.json",
    "referentiels/etatB_2027_bg.tsv",
    "referentiels/frictions_penal.tsv",
    "referentiels/incriminations.tsv",
@@ -14475,6 +14666,8 @@
    "referentiels/redaction_plf2027.json",
    "referentiels/redaction_plfss.json",
    "referentiels/redaction_plfss2027.json",
+   "referentiels/registre_penal.tsv",
+   "referentiels/registre_penal_bilan.json",
    "referentiels/releves_transversaux_plf2027.tsv",
    "referentiels/releves_transversaux_plfss2027.tsv",
    "referentiels/sieges_complement_20261013.tsv",
@@ -14485,7 +14678,9 @@
    "referentiels/socles_2027.sha256",
    "referentiels/sort_prelevements_20261015.tsv",
    "requirements.txt",
+   "revision/decisions/lot1_L5_livre2_titre5.json",
    "revision/fiches_penal.json",
+   "revision/grille_principes.json",
    "sources/guide-public-du-budgetaire-2023.pdf",
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
@@ -14657,10 +14852,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 929,
-  "au_coffre": 870,
-  "au_depot": 412,
-  "derives": 272,
+  "artefacts": 942,
+  "au_coffre": 881,
+  "au_depot": 423,
+  "derives": 273,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,
