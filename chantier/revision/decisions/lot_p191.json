@@ -9,851 +9,1185 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "L3641-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Détention à titre exceptionnel, sous le contrôle de l'autorité judiciaire : principe du titre.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; présomption d'innocence (art. 9 DDHC) examinée : caractère exceptionnel, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3641-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Ordonnances motivées en droit et en fait sur l'insuffisance des autres mesures. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3641-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Au-delà d'un an (crime) ou huit mois (délit), motivation sur la poursuite de l'information et le délai prévisible : le délai engage l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et CEDH art. 5 § 3 : délai raisonnable motivé, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3641-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Au-delà de huit mois en matière délictuelle, motivation sur l'insuffisance du bracelet anti-rapprochement et de la surveillance mobile. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3641-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Notification avec copie intégrale contre émargement : la personne sait ce qui la retient.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3641-14",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Déclaration d'adresse à la libération : la personne reste joignable, la procédure avance.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : formalité de sortie sans effet sur la libération, tenue"
-    },
-    {
-      "code": "cpp",
       "num": "L3641-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Deux conditions cumulatives, peine encourue et objectif : charpente.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3641-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Seuil : peine criminelle ou trois ans d'emprisonnement encourus.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
+      "principe": "P23",
+      "motif": "Principe et conditions de la détention en un article : caractère exceptionnel et contrôle de l'autorité judiciaire (L3641-1), conditions cumulatives de peine encourue et d'objectif (L3641-2 et L3641-3 fusionnés).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Détention exceptionnelle sous le contrôle de l'autorité judiciaire, seuil de la peine criminelle ou de trois ans d'emprisonnement encourus, objectifs fermés des articles L3641-6 à L3641-8 : chaque condition reste écrite.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La détention provisoire est exceptionnelle. La personne qui en fait l'objet est incarcérée dans un établissement pénitentiaire, sous le contrôle de l'autorité judiciaire.\nAu cours de l'information, la détention provisoire ne peut être ordonnée ou prolongée que si la personne mise en examen encourt une peine criminelle ou une peine d'emprisonnement délictuel d'au moins trois ans, et si la détention poursuit un ou plusieurs des objectifs des articles L. 3641-6 à L. 3641-8."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3641-4",
+      "principe": "P23",
+      "motif": "Détention sous le seuil en cas de soustraction aux obligations : phrase resserrée, coquille corrigée par la passe 2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Exception bornée à la soustraction volontaire, dans les formes de L3623-6 et L3623-7, durée limitée à quatre mois par L3643-17.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Détention possible sous le seuil de trois ans si la personne se soustrait au contrôle : l'effectivité du contrôle l'exige, durée bornée par L3643-17. Coquille « emprisonnent » corrigée. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "une peine d'emprisonnent d'une durée",
-          "nouveau": "une peine d'emprisonnement d'une durée"
+          "op": "rediger",
+          "nouveau": "La détention provisoire peut aussi être ordonnée dans les conditions des articles L. 3623-6 et L. 3623-7 si la personne se soustrait volontairement aux obligations du contrôle judiciaire ou de l'assignation à résidence avec surveillance électronique, même si elle encourt un emprisonnement inférieur à trois ans."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3641-5",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Unique moyen, démontré sur des éléments précis et circonstanciés, insuffisance des autres mesures : subsidiarité, noyau. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; art. 9 DDHC examiné : nulle rigueur non nécessaire, tenu"
+      "motif": "Subsidiarité : unique moyen, démontré sur des éléments précis et circonstanciés. Inchangé. Cité par L3652-13 et L4413-32.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Noyau gardé mot pour mot.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L3641-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Objectifs liés à l'information : preuves, pression sur les témoins et victimes, concertation.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; P18 : la protection des victimes figure aux motifs"
+      "principe": "P23",
+      "motif": "Objectifs liés à l'information, en phrases, numérotation gardée (L3651-4 cite le 2°).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Liste fermée gardée mot pour mot.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La détention provisoire peut être ordonnée ou prolongée en raison des nécessités de l'information afin de :\n1° Conserver les preuves ou les indices matériels qui sont nécessaires à la manifestation de la vérité.\n2° Empêcher une pression sur les témoins ou les victimes ainsi que sur leur famille.\n3° Empêcher une concertation frauduleuse entre la personne mise en examen et ses coauteurs ou complices."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3641-7",
+      "principe": "P23",
+      "motif": "Objectifs de sûreté, en phrases (doublon corrigé par la passe 2).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Liste fermée gardée mot pour mot.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Objectifs de sûreté : représentation, fin ou renouvellement de l'infraction, protection de la personne. Doublon « peut être également être » corrigé.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "peut être également être ordonnée",
-          "nouveau": "peut également être ordonnée"
+          "op": "rediger",
+          "nouveau": "La détention provisoire peut également être ordonnée ou prolongée à titre de mesure de sûreté afin de :\n1° Garantir le maintien de la personne mise en examen à la disposition de la justice.\n2° Mettre fin à l'infraction ou prévenir son renouvellement.\n3° Protéger la personne mise en examen."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3641-8",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Trouble exceptionnel et persistant à l'ordre public en matière criminelle, jamais le seul retentissement médiatique : borne utile.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
+      "motif": "Trouble exceptionnel et persistant à l'ordre public en matière criminelle : inchangé.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Borne gardée mot pour mot : matière criminelle, trouble exceptionnel et persistant, jamais le seul retentissement médiatique.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière criminelle, la détention provisoire peut également être ordonnée ou prolongée afin de mettre fin au trouble exceptionnel et persistant à l'ordre public provoqué par la gravité de l'infraction, les circonstances de sa commission ou l'importance du préjudice qu'elle a causé. Ce trouble ne peut résulter du seul retentissement médiatique de l'affaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3641-9",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Réquisitions écrites et motivées par référence aux seuls motifs légaux : la charge de la motivation pèse sur la privation de liberté.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
+      "motif": "Réquisitions écrites et motivées par référence aux seuls motifs légaux : une phrase, renvoi recalé sur L3641-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. La charge de la motivation pèse sur la privation de liberté : gardé pour le placement, le maintien et le rejet d'une demande de mise en liberté.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les réquisitions du procureur de la République tendant au placement ou au maintien en détention provisoire, ou au rejet d'une demande de mise en liberté, sont écrites et motivées par référence aux seules dispositions des articles L. 3641-2 à L. 3641-8."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3641-10",
+      "principe": "P25",
+      "motif": "Motivation des ordonnances et notification avec copie intégrale en un article (L3641-13 fusionné), renvoi recalé sur L3641-2. Cité par L4413-16, L4413-31 et L3643-3.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Ordonnances motivées, énoncé des considérations de droit et de fait sur l'insuffisance des mesures moins rigoureuses, motif par référence aux seules conditions légales, copie intégrale contre émargement : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les ordonnances du juge des libertés et de la détention en matière de détention provisoire sont motivées. Celle qui ordonne ou prolonge la détention, ou qui rejette une demande de mise en liberté, énonce les considérations de droit et de fait sur le caractère insuffisant du contrôle judiciaire ou de l'assignation à résidence avec surveillance électronique, et le motif de la détention par référence aux seules dispositions des articles L. 3641-2 à L. 3641-8. Les ordonnances sont notifiées à la personne mise en examen, qui en reçoit copie intégrale contre émargement au dossier de la procédure."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3641-11",
+      "principe": "P19",
+      "motif": "Motivation renforcée au-delà d'un an (crime) ou de huit mois (délit) en un article (L3641-12 fusionné) : poursuite de l'information, délai prévisible, insuffisance du bracelet anti-rapprochement et de la surveillance mobile. Cité par L3643-3 et L3643-9.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Chaque seuil (un an, huit mois, un an pour le terrorisme) et chaque élément de motivation restent écrits. Le report à un an pour le terrorisme ne touche que le premier alinéa, comme en 2029.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au-delà d'un an de détention provisoire en matière criminelle, ou de huit mois en matière délictuelle, la décision qui prolonge la détention ou rejette une demande de mise en liberté indique aussi ce qui justifie en l'espèce la poursuite de l'information et le délai prévisible d'achèvement de la procédure. Elle peut taire la nature des investigations envisagées si cette indication risque d'entraver leur accomplissement. Pour les délits de terrorisme prévus aux articles 421-1 à 421-6 du code pénal, le délai de huit mois est porté à un an.\nAu-delà de huit mois en matière délictuelle, la décision énonce aussi les considérations de fait sur le caractère insuffisant, lorsqu'ils peuvent être ordonnés au regard des faits reprochés, du dispositif électronique anti-rapprochement des articles L. 3621-8 et L. 3621-16 et de l'assignation à résidence sous surveillance électronique mobile des articles L. 3631-9 et L. 3631-10."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3641-14",
+      "principe": "P23",
+      "motif": "Déclaration d'adresse à la libération : phrases resserrées. Le régime de l'adresse déclarée relève de L3431-27 à L3431-30 et de L1632-3. Elle couvre aussi le refus de placement, objet de L3642-12. Cité par L3653-10.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. La personne libérée est avisée des obligations et des conséquences de la déclaration (L1632-3), mention en est faite au procès-verbal ou transmise sans délai au juge d'instruction.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le juge des libertés et de la détention n'ordonne pas ou ne prolonge pas la détention provisoire, ou que ce juge ou le juge d'instruction ordonne la mise en liberté, la personne déclare son adresse selon les articles L. 3431-27 à L. 3431-30, à l'issue de sa comparution ou avant sa libération, auprès de ce juge ou du chef de l'établissement pénitentiaire. Elle est avisée des obligations et conséquences qui en découlent. Mention de cet avis et de la déclaration est portée au procès-verbal du juge ou au document que le chef d'établissement adresse sans délai au juge d'instruction, en original ou en copie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Enquête de situation avant la détention, facultative : sert le choix de la mesure la moins rigoureuse.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
+      "motif": "Enquête de situation avant la détention, facultative ou obligatoire pour les délits punis de cinq ans au plus, en un article (L3642-2 fusionné). Cité par L3642-3, L4121-4, L4413-12, L4413-15 et L4413-21.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Vérification de la situation matérielle, familiale et sociale avant toute réquisition ou décision, obligatoire jusqu'à cinq ans encourus, à la charge du procureur puis du juge d'instruction : gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant toute réquisition ou décision de placement en détention provisoire, le procureur de la République, le juge d'instruction ou le juge des libertés et de la détention peut requérir un enquêteur de personnalité habilité ou le service pénitentiaire d'insertion et de probation pour vérifier la situation matérielle, familiale et sociale de la personne mise en examen et réunir des informations sur les mesures propres à favoriser son insertion sociale. En matière délictuelle, ces vérifications sont obligatoires lorsque la peine encourue n'excède pas cinq ans d'emprisonnement. Le procureur de la République les prescrit alors avant toute réquisition de placement en détention, et le juge d'instruction avant de saisir le juge des libertés et de la détention, si le ministère public ne l'a pas déjà fait."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-3",
+      "principe": "P25",
+      "motif": "Mesures pour l'enfant du parent seul titulaire de l'autorité parentale : phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Intérêt de l'enfant : aucune détention avant que des mesures aient été recherchées, sauf crime, délit contre un mineur ou violation des obligations : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne mise en examen a déclaré au juge d'instruction, lors de son interrogatoire préalable à la saisine du juge des libertés et de la détention, qu'elle exerce seule l'autorité parentale sur un mineur de seize ans au plus qui réside chez elle, sa détention provisoire ne peut être ordonnée qu'après qu'un service ou une personne mentionnés à l'article L. 3642-1 a été chargé de rechercher et de proposer toutes mesures propres à éviter que la santé, la sécurité et la moralité du mineur soient en danger ou que les conditions de son éducation soient gravement compromises. Le présent article ne s'applique pas en cas de crime, de délit commis contre un mineur ou de non-respect des obligations du contrôle judiciaire ou de l'assignation à résidence avec surveillance électronique."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-4",
+      "principe": "P26",
+      "motif": "Saisine du juge des libertés et de la détention par ordonnance motivée. L'indication sur la publicité suit les cas de L. 1, auxquels renvoie L3642-16 (passe 2). Cité par L3643-9.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Séparation entre le juge qui instruit et le juge qui détient, ordonnance motivée, transmission du dossier et des réquisitions : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le juge d'instruction estime que la personne mise en examen doit être placée en détention provisoire, il saisit le juge des libertés et de la détention par ordonnance motivée, en lui transmettant le dossier de la procédure et les réquisitions du procureur de la République. Il peut y indiquer que la publicité du débat lui paraît devoir être écartée pour l'un des cas prévus à l'article L. 1."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-5",
+      "principe": "P19",
+      "motif": "Refus du juge d'instruction de saisir le juge des libertés et de la détention : une phrase.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Ordonnance motivée rendue sans délai et portée immédiatement au procureur, même s'il ordonne une mesure moins rigoureuse : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque, saisi de réquisitions de placement en détention provisoire, le juge d'instruction estime la détention injustifiée et ne transmet pas le dossier au juge des libertés et de la détention, il statue sans délai par ordonnance motivée, immédiatement portée à la connaissance du procureur de la République, y compris s'il place la personne sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-6",
+      "principe": "P4",
+      "motif": "Saisine directe du juge des libertés et de la détention par le procureur, déferrement et renonciation en un article (L3642-7 et L3642-9 fusionnés).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Saisine directe réservée aux crimes et délits punis de dix ans, motivée par la sûreté ou l'ordre public et annoncée dans les réquisitions. La personne n'est retenue que jusqu'à sa comparution devant le juge, sur déferrement sans délai : gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière criminelle ou pour les délits punis de dix ans d'emprisonnement, le procureur de la République peut saisir directement le juge des libertés et de la détention aux fins de placement en détention provisoire si ses réquisitions au juge d'instruction sont motivées, en tout ou partie, par les motifs des articles L. 3641-7 et L. 3641-8 et précisent qu'il envisage cette saisine directe.\nSi le juge d'instruction refuse alors de saisir le juge des libertés et de la détention, le procureur peut saisir directement ce juge en lui déférant sans délai la personne, qui ne peut être remise en liberté avant sa comparution. S'il y renonce, il en avise le juge d'instruction, et la personne peut être laissée en liberté."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-8",
+      "principe": "P4",
+      "motif": "Décision du juge des libertés et de la détention, caducité du contrôle judiciaire ou de l'assignation : phrases resserrées. Cité par L3712-6.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Décision après débat contradictoire selon la section 3, appel ouvert par L3712-6 : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge des libertés et de la détention statue, le cas échéant après un débat contradictoire selon la section 3 du présent chapitre. S'il ordonne la détention provisoire, sa décision rend caduque l'ordonnance du juge d'instruction qui a placé la personne sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-10",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Comparution devant le juge des libertés, avec avocat : tenu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le juge annonce s'il envisage la détention, droit de se taire notifié : tenu.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et art. 16 DDHC, droits de la défense examiné : droit de se taire, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-12",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Sans détention, mesure moins rigoureuse puis déclaration d'adresse. Le renvoi « L. 3431-27 à L. 3437-30 » vise un article absent du code de 2029 : la série est L. 3431-27 à L. 3431-30 (déclaration d'adresse). La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu",
+      "motif": "Comparution devant le juge des libertés et de la détention, annonce de son intention, droit de se taire, mesure moins rigoureuse en un article (L3642-11 et L3642-12 fusionnés). La déclaration d'adresse sans détention relève de L3641-14. Cité par L6114-13 et L8523-11 (plage L. 3642-10 à L. 3642-21).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Comparution avec avocat, droit de se taire notifié avant toute observation, mesure moins rigoureuse : gardés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "L. 3431-27 à L. 3437-30",
-          "nouveau": "L. 3431-27 à L. 3431-30"
+          "op": "rediger",
+          "nouveau": "Le juge des libertés et de la détention saisi aux fins de placement en détention fait comparaître devant lui la personne mise en examen, assistée de son avocat si celui-ci a déjà été désigné. Au vu du dossier, il lui fait connaître s'il envisage de la placer en détention provisoire. Il peut recueillir au préalable ses observations, après lui avoir notifié son droit de se taire sur les faits reprochés. S'il n'envisage pas la détention, il peut la placer sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3642-13",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Débat contradictoire obligatoire, délai pour préparer la défense, avocat choisi ou commis : noyau des droits de la défense.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et art. 16 DDHC, droits de la défense examiné : débat contradictoire et avocat, tenus"
+      "motif": "Débat contradictoire obligatoire, délai pour préparer la défense, avocat choisi ou commis : phrases resserrées. Le second alinéa porte l'avocat, comme le cite L3631-13. Cité par L3652-13 et L3742-16.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Noyau des droits de la défense gardé : aucune détention sans débat contradictoire, droit à un délai, avocat choisi ou commis d'office, avis sans délai, remplacement de l'avocat empêché, mention au procès-verbal.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "S'il envisage la détention provisoire, le juge des libertés et de la détention informe la personne que sa décision ne pourra intervenir qu'à l'issue d'un débat contradictoire et qu'elle a le droit de demander un délai pour préparer sa défense.\nSi la personne n'est pas assistée d'un avocat, le juge l'avise qu'elle sera défendue lors du débat par un avocat de son choix ou, à défaut, par un avocat commis d'office. L'avocat choisi ou, en cas de commission d'office, le bâtonnier en est avisé par tout moyen et sans délai. Si l'avocat choisi ne peut se déplacer, il est remplacé par un avocat commis d'office. Mention de ces formalités est faite au procès-verbal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-14",
-      "decision": "G",
       "principe": "P24",
-      "motif": "Débat immédiat sans demande de délai : la voie rapide quand la défense est prête.",
-      "ligne_rouge": "aucune"
+      "motif": "Débat immédiat lorsque aucun délai n'est demandé : une phrase. Cité par L8123-5.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Débat contradictoire gardé, immédiat seulement si la défense ne demande pas de délai.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la personne ou son avocat ne demande pas de délai pour préparer sa défense, le juge des libertés et de la détention procède immédiatement au débat contradictoire selon l'article L. 3642-15, puis statue sur le placement en détention."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-15",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Déroulement du débat : réquisitions, observations, silence notifié, procès-verbal.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : contradictoire tenu"
+      "motif": "Déroulement du débat : phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Réquisitions développées, observations de la personne après notification du droit de se taire, observations de l'avocat, procès-verbal signé : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours du débat contradictoire, le juge des libertés et de la détention entend le ministère public, qui développe ses réquisitions écrites, puis les observations de la personne mise en examen, à qui son droit de se taire a été notifié, et, le cas échéant, celles de son avocat. Le débat fait l'objet d'un procès-verbal signé par le juge, son greffier, la personne et, le cas échéant, l'interprète."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-16",
-      "decision": "R",
       "principe": "P26",
-      "motif": "Débat public pour le majeur, mais l'opposition s'ouvrait au ministère public et à la défense pour la criminalité organisée, l'entrave aux investigations, la sérénité, la dignité ou l'intérêt d'un tiers. L'audience de cabinet suit les exceptions de L. 1 (registre 3.1) : victime à sa demande, sécurité nationale. La demande de la victime passe par le juge d'instruction ou le ministère public. Le mineur reste hors publicité. Perdus : l'opposition du ministère public en criminalité organisée, l'entrave aux investigations, la sérénité, la dignité, les intérêts d'un tiers, le danger grave et la demande de la personne pour préserver sa présomption d'innocence.",
-      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la publicité renforce le contrôle du juge sur la détention, tenu. Présomption d'innocence (art. 9 DDHC) examinée : le débat porte sur la détention et non sur la culpabilité, la demande de la personne ne fonde plus l'audience de cabinet (registre 3.1). Vie privée des tiers (CEDH art. 8) examinée : protection propre perdue. Minorité examinée : débat non public, tenu.",
+      "motif": "Publicité du débat : texte de la passe 2 (registre 3.1 et 9.5), resserré. Cité par L3132-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Audience publique pour le majeur, audience de cabinet dans les seuls cas de L. 1 (victime à sa demande, sécurité nationale, minorité au moment des faits), décision motivée après observations des parties : gardés. Pertes déclarées par la passe 2 (opposition en criminalité organisée, entrave, sérénité, dignité, tiers, présomption d'innocence).",
+      "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Si la personne mise en examen est majeure, le débat contradictoire a lieu et le juge des libertés et de la détention statue en audience publique.\nToutefois, le débat a lieu et le juge statue en audience de cabinet dans les cas prévus à l'article L. 1.\nLa victime adresse sa demande au juge d'instruction ou au ministère public, qui la transmet au juge des libertés et de la détention.\nLe juge statue sur la demande ou sur les réquisitions en audience de cabinet par ordonnance motivée, après avoir recueilli les observations du ministère public, de la personne mise en examen et de son avocat."
+          "nouveau": "Si la personne mise en examen est majeure, le débat a lieu et le juge des libertés et de la détention statue en audience publique. Dans les cas prévus à l'article L. 1, le débat a lieu et le juge statue en audience de cabinet. La victime adresse sa demande au juge d'instruction ou au ministère public, qui la transmet au juge. Celui-ci statue sur la demande ou sur les réquisitions en audience de cabinet, par ordonnance motivée, après avoir recueilli les observations du ministère public, de la personne et de son avocat."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3642-17",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Débat différé de droit sur demande de la défense : temps de préparer sa défense.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : délai de préparation de droit, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-18",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Débat différé d'office pour vérifier une alternative à la détention : sert la liberté. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
+      "motif": "Débat différé de droit sur demande de la défense, ou d'office pour vérifier une alternative, en un article (L3642-18 fusionné).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Débat différé de droit à la demande de la défense, et d'office si les vérifications peuvent permettre une mesure moins rigoureuse : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne ou son avocat demande un délai pour préparer sa défense, le juge des libertés et de la détention ne peut ordonner la détention qu'à l'issue d'un débat contradictoire différé. Il peut aussi différer d'office le débat pour permettre au juge d'instruction de vérifier la situation personnelle de la personne ou les faits reprochés, lorsque ces vérifications peuvent permettre son placement sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-19",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Incarcération provisoire de quatre jours ouvrables au plus jusqu'au débat différé, ordonnance motivée : délai bref et opposable.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : quatre jours ouvrables au plus sur décision d'un juge, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Enquête de situation obligatoire pour les délits punis d'au plus cinq ans : vérification protectrice de la liberté, pas un avis (P15 ne joue pas).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
+      "motif": "Incarcération provisoire de quatre jours ouvrables au plus jusqu'au débat différé : phrases resserrées. Cité par L3742-21 et L3631-13.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Durée déterminée de quatre jours ouvrables au plus, ordonnance motivée, appel fermé seulement quand le délai a été demandé par la défense : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les cas de l'article L. 3642-17, le juge des libertés et de la détention prescrit, par ordonnance motivée par référence à l'article L. 3642-17, l'incarcération provisoire de la personne jusqu'au débat différé, pour une durée déterminée qui ne peut en aucun cas excéder quatre jours ouvrables. Lorsque le délai a été demandé par la défense, cette ordonnance n'est pas susceptible d'appel."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-20",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Débat différé dans les quatre jours, libération d'office à défaut : délai qui engage l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : libération d'office à défaut de débat, tenue"
+      "motif": "Débat différé dans les quatre jours, libération d'office à défaut : phrases resserrées. Cité par L3652-13.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Délai de quatre jours ouvrables opposable, libération d'office à défaut de débat ou de placement : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans le délai de quatre jours ouvrables, le juge fait comparaître à nouveau la personne et, qu'elle soit ou non assistée d'un avocat, procède au débat différé selon les articles L. 3642-15 et L. 3642-16. S'il n'ordonne pas la détention à l'issue de ce débat, ou à défaut de débat dans ce délai, la personne est mise en liberté d'office si elle n'est pas détenue pour autre cause."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-21",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Incarcération provisoire assimilée à la détention pour la réparation et imputée sur la peine.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : réparation et imputation, tenues ; art. 8 DDHC sans objet"
+      "motif": "Incarcération provisoire assimilée à la détention pour la réparation et imputée sur la peine : phrases resserrées. Cité par L6114-13, L8523-11 et L3631-13.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Réparation de L3661-1 et imputation sur la peine gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'incarcération provisoire est assimilée à une détention provisoire pour la réparation prévue à l'article L. 3661-1. Elle s'impute sur la peine privative de liberté prononcée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-22",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Visioconférence pour la personne détenue pour autre cause, refus possible sauf risque grave : numérique avec garde-fou.",
-      "ligne_rouge": "aucune"
+      "motif": "Visioconférence pour le placement de la personne détenue pour autre cause et pour les débats de prolongation en un article (L3643-4 fusionné) : la règle était écrite deux fois. La forme du refus relève de L1621-3 (lot p292).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Droit de refuser la visioconférence, sauf risque grave de trouble, d'évasion ou dangerosité, et garanties de L1621-1 à L1621-8 (avocat, entretien confidentiel, observations) : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le débat relatif à la prolongation de la détention provisoire et, lorsque la personne est détenue pour autre cause, les formalités de la présente section peuvent être réalisés par un moyen de télécommunication audiovisuelle selon les articles L. 1621-1 à L. 1621-8. La personne détenue peut le refuser selon l'article L. 1621-3, sauf si son transport paraît devoir être évité en raison des risques graves de trouble à l'ordre public ou d'évasion, ou de sa particulière dangerosité."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3642-23",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Visioconférence imposée dans les juridictions spécialisées outre-mer quand la présentation physique est impossible, nouvelle audition physique sous quatre mois. Liste courte de conditions cumulatives : l'inverser élargirait l'exception, la proposition est écartée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : juge des libertés présent par visioconférence, présentation physique sous quatre mois, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Mesures pour l'enfant de moins de seize ans du parent seul titulaire de l'autorité parentale, sauf crime ou délit sur mineur : intérêt de l'enfant. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; CEDH art. 8 : intérêt de l'enfant, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Saisine du juge des libertés par ordonnance motivée du juge d'instruction : séparation des fonctions, tenue.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Refus du juge d'instruction de saisir le juge des libertés : ordonnance motivée sans délai, portée au procureur. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-6",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Saisine directe du juge des libertés par le procureur pour les crimes et délits punis de dix ans, motifs de sûreté : contrepoids tenu.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Déferrement sans délai, personne retenue jusqu'à la comparution : bref, encadré.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : comparution sans délai devant un juge, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-8",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Décision du juge des libertés, caducité du contrôle judiciaire ordonné par le juge d'instruction. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3642-9",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Renonciation du procureur, avis au juge : simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Les durées de détention sont limitées par le chapitre : principe du délai opposable.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-10",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Requalification délictuelle en cours d'information : maintien sur décision du juge des libertés sous trois jours, ou liberté. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Quatre mois en matière délictuelle, sans prolongation pour les délits punis d'au plus cinq ans sauf antécédent grave : délai opposable, gradué.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : durée bornée, tenue ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Prolongations de quatre mois par ordonnance motivée après débat : tenu.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-13",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Un an au plus, deux ans pour les faits à l'étranger ou les délits graves listés. L'inverser en règle assortie d'exclusions allongerait la détention par défaut : la proposition est écartée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : plafonds bornés, tenus ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-14",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Quatre mois exceptionnels au-delà de deux ans, par la chambre : borne tenue.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : décision d'une chambre de la cour, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-15",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Durées allongées pour le terrorisme et la criminalité organisée, plafond de deux ou trois ans : régime dérogatoire nommé, borné.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : plafonds bornés, tenus ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-16",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Requalification criminelle : le mandat devient criminel, délais comptés depuis sa délivrance.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : pas de remise à zéro des délais, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-17",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Quatre mois au plus après révocation pour un délit puni de moins de trois ans : borne. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : durée bornée, tenue ; art. 8 DDHC sans objet"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-18",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Cumul des détentions après révocation : plafond plus quatre mois au plus. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : durée bornée, tenue"
+      "motif": "Visioconférence imposée dans les juridictions spécialisées outre-mer : conditions cumulatives en phrases, nouvelle audition physique sous quatre mois.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Exception bornée par trois conditions cumulatives et compensée par une audition physique dans les quatre mois : gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "À titre exceptionnel et par dérogation au refus prévu à l'article L. 3642-22, les formalités de la présente section et l'interrogatoire de première comparution qui précède le débat peuvent se faire par un moyen de télécommunication audiovisuelle, sans opposition possible, lorsque :\n1° Le juge d'instruction appartient à une juridiction spécialisée en matière de délinquance et de criminalité organisées prévue à l'article L. 2152-10, compétente sur le ressort de plusieurs cours d'appel ou tribunaux supérieurs d'appel d'outre-mer.\n2° La personne se trouve dans le ressort d'une autre de ces juridictions d'appel.\n3° L'impossibilité de la présenter physiquement au juge des libertés et de la détention de la juridiction spécialisée est dûment caractérisée.\nLa personne est alors entendue à nouveau par le juge d'instruction, en sa présence physique, dans les quatre mois de son interrogatoire de première comparution."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3643-2",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Durée raisonnable au regard de la gravité et de la complexité, en plus des plafonds : CEDH art. 5 § 3.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et CEDH art. 5 § 3 : délai raisonnable, tenu"
+      "motif": "Champ du chapitre et durée raisonnable en un article (L3643-1 fusionné). Cité par L3643-9 et L3644-3.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Plafonds légaux de chaque catégorie et exigence d'une durée raisonnable au regard de la gravité et de la complexité (CEDH art. 5 § 3) : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours de l'information et jusqu'à l'ordonnance de règlement, la détention provisoire, initiale et prolongée, ne peut excéder les durées prévues au présent chapitre, ni en aucun cas une durée raisonnable au regard de la gravité des faits reprochés et de la complexité des investigations nécessaires à la manifestation de la vérité."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3643-3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Prolongation par le juge des libertés, débat contradictoire, avocat convoqué cinq jours avant, ordonnance motivée : tenu.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-4",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Visioconférence pour les débats de prolongation, refus possible sauf risque grave : numérique avec garde-fou.",
-      "ligne_rouge": "aucune"
+      "motif": "Procédure de prolongation : juge des libertés et de la détention saisi par ordonnance motivée, débat contradictoire, avis cinq jours ouvrables avant, motivation. Phrases resserrées. Cité par L3712-6.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Prolongation par un juge du siège, débat contradictoire, avis de la personne et convocation de l'avocat cinq jours ouvrables avant, ordonnance motivée selon L3641-10 et L3641-11 : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors les cas des articles L. 3643-9 et L. 3643-14, la prolongation de la détention provisoire est décidée par le juge des libertés et de la détention, saisi par ordonnance motivée du juge d'instruction. Il statue par ordonnance motivée selon les articles L. 3641-10 et L. 3641-11, rendue après un débat contradictoire selon les articles L. 3642-15 et L. 3642-16. La personne détenue est avisée du débat cinq jours ouvrables avant sa tenue, et son avocat est convoqué selon l'article L. 3431-10."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3643-5",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Rapport du service pénitentiaire sur les garanties de représentation et les alternatives : sert la mesure la moins rigoureuse.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
+      "motif": "Rapport du service pénitentiaire sur les garanties de représentation et les alternatives : phrase resserrée.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Le rapport sert la mesure la moins rigoureuse : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "À tout moment, notamment avant de saisir le juge des libertés et de la détention aux fins de prolongation, le juge d'instruction peut demander au service pénitentiaire d'insertion et de probation un rapport sur la situation familiale, matérielle ou sociale de la personne détenue, pour apprécier ses garanties de représentation et les possibilités d'une alternative à la détention."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3643-6",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Un an en matière criminelle, sauf prolongation : délai engagé.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : durée bornée, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3643-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Prolongations de six mois par ordonnance motivée après débat, dans les plafonds : tenu.",
-      "ligne_rouge": "aucune"
+      "motif": "Matière criminelle : un an, prolongations de six mois au plus selon L3643-3, dans les plafonds, en un article (L3643-7 fusionné).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Durée initiale d'un an, prolongations de six mois au plus par ordonnance motivée après débat, dans les plafonds de L3643-8 et L3643-18 : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière criminelle, la détention provisoire ne peut excéder un an. À l'expiration de ce délai, le juge des libertés et de la détention peut la prolonger, selon l'article L. 3643-3, pour six mois au plus. La prolongation peut être renouvelée selon la même procédure, dans la limite des durées des articles L. 3643-8 et L. 3643-18."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3643-8",
+      "principe": "P19",
+      "motif": "Plafonds criminels de deux, trois ou quatre ans, en phrases (coordination de la peine de vingt ans rétablie par la passe 2).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Chaque plafond et chaque catégorie gardés, ainsi que l'allongement pour les faits commis hors du territoire national.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Plafonds de deux, trois ou quatre ans selon la peine encourue. Le 2° vise la peine « supérieure à vingt » ans et oublie le mot « ans » : la peine encourue de vingt ans tombe entre le 1° (inférieure à vingt ans) et le 2°, sans plafond. L'ancien article 145-2 la mettait dans les « autres cas », soit trois ans : coordination rétablie.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : aucune détention sans plafond, gain ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Trois ans lorsque la peine encourue est supérieure à vingt de réclusion",
-          "nouveau": "Trois ans lorsque la peine encourue est égale ou supérieure à vingt ans de réclusion"
+          "op": "rediger",
+          "nouveau": "La durée totale de la détention provisoire ne peut excéder :\n1° Deux ans lorsque la peine encourue est inférieure à vingt ans de réclusion ou de détention criminelles.\n2° Trois ans lorsque la peine encourue est égale ou supérieure à vingt ans de réclusion ou de détention criminelles.\n3° Quatre ans lorsque la personne est poursuivie pour plusieurs crimes mentionnés aux livres II et IV du code pénal, ou pour trafic de stupéfiants, terrorisme, proxénétisme, extorsion de fonds ou pour un crime commis en bande organisée.\nLes durées des 1° et 2° sont portées respectivement à trois et quatre ans lorsque l'un des faits constitutifs de l'infraction a été commis hors du territoire national."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3643-9",
+      "principe": "P19",
+      "motif": "Prolongation exceptionnelle de quatre mois par la chambre, renouvelable une fois : alinéas gardés, le deuxième porte la procédure (cité par L3643-14). Cité par L3643-3.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Caractère exceptionnel, risque d'une particulière gravité, comparution personnelle de droit, motivation selon les conditions de fond, un seul renouvellement : gardés.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Prolongation exceptionnelle de quatre mois par la chambre, comparution de droit, renouvelable une fois : tenu. Faute d'accord corrigée (« la présent partie »).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : décision d'une chambre de la cour, comparution de droit, tenu",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "du livre VII de la présent partie",
-          "nouveau": "du livre VII de la présente partie"
+          "op": "rediger",
+          "nouveau": "À titre exceptionnel, lorsque les investigations du juge d'instruction doivent être poursuivies et que la mise en liberté de la personne mise en examen causerait pour la sécurité des personnes et des biens un risque d'une particulière gravité, la chambre des investigations et des libertés peut prolonger de quatre mois les durées prévues à l'article L. 3643-8.\nLa chambre, devant laquelle la comparution personnelle de la personne est de droit, est saisie par ordonnance motivée du juge des libertés et de la détention dans les formes de l'article L. 3642-4. Elle statue selon les articles L. 3641-5 à L. 3641-8, L. 3641-11, L. 3643-2 et L. 3644-3 et le chapitre 3 du titre Ier du livre VII de la présente partie.\nCette décision peut être renouvelée une fois, dans les mêmes conditions et selon les mêmes modalités."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L3644-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Mise en liberté possible à tout moment de l'information. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3644-10",
-      "decision": "G",
+      "num": "L3643-10",
       "principe": "P19",
-      "motif": "Décision sous cinq jours ouvrables : délai qui engage l'État.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3644-11",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Réponse unique aux demandes simultanées : simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3644-12",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Réquisitions de mise en liberté : transmission sous cinq jours, décision sous trois jours.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : délais brefs au profit de la liberté, tenus"
-    },
-    {
-      "code": "cpp",
-      "num": "L3644-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Mise en liberté pour pathologie engageant le pronostic vital ou état incompatible, sauf risque grave de renouvellement. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et CEDH art. 3 : détention incompatible avec la santé écartée, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3644-14",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Urgence médicale : certificat du médecin responsable suffit. Rapide.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3644-15",
+      "motif": "Requalification délictuelle en cours d'information : décision du juge des libertés et de la détention sous trois jours ou mise en liberté. Phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Maintien seulement sur décision d'un juge du siège dans les trois jours, sinon mise en liberté : gardé.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Nouvelle détention si l'état de santé évolue et que les conditions sont réunies : tenu. Doublon « aux articles aux articles » corrigé.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : nouvelle décision d'un juge, tenue",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "prévues aux articles aux articles L. 3641-6",
-          "nouveau": "prévues aux articles L. 3641-6"
+          "op": "rediger",
+          "nouveau": "S'il apparaît au cours de l'information que la qualification criminelle ne peut être retenue, le juge d'instruction, après avoir communiqué le dossier au procureur de la République aux fins de réquisitions, saisit par ordonnance motivée le juge des libertés et de la détention aux fins de maintien en détention provisoire, ou met la personne en liberté, avec ou sans contrôle judiciaire ou assignation à résidence avec surveillance électronique. Le juge des libertés et de la détention statue dans les trois jours de sa saisine."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L3644-16",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Référé-détention du procureur sous huit heures contre une mise en liberté contraire à ses réquisitions : protège victimes et ordre public, bref.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : appel suspensif sur huit heures, jugé par un juge, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3644-17",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Exécution de l'ordonnance de mise en liberté si le procureur ne forme pas de référé : tenu. Coquille « qui est lors transmise » corrigée.",
-      "ligne_rouge": "aucune",
+      "num": "L3643-11",
+      "principe": "P19",
+      "motif": "Matière délictuelle : quatre mois, interdiction de prolonger pour les délits punis de cinq ans au plus sans antécédent grave, prolongations de quatre mois au plus selon L3643-3, en un article (L3643-12 fusionné). Cité par L3643-15.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Durée initiale de quatre mois, interdiction de prolonger sous le seuil, prolongation exceptionnelle de quatre mois au plus par ordonnance motivée après débat, dans les plafonds : gardés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "qui est lors transmise",
-          "nouveau": "qui est alors transmise"
+          "op": "rediger",
+          "nouveau": "En matière délictuelle, la détention provisoire ne peut excéder quatre mois. Lorsque la personne encourt cinq ans d'emprisonnement au plus, sa détention ne peut être prolongée au-delà de quatre mois si elle n'a pas déjà été condamnée pour crime ou délit de droit commun à une peine criminelle ou à un emprisonnement sans sursis de plus d'un an.\nSi l'emprisonnement encouru est supérieur à cinq ans, ou si la personne a déjà été condamnée à l'une de ces peines, la détention peut, à titre exceptionnel, être prolongée à l'expiration des quatre mois, selon l'article L. 3643-3, pour quatre mois au plus. Elle peut l'être à nouveau dans les mêmes conditions, dans la limite des durées des articles L. 3643-13, L. 3643-14 et L. 3643-17."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L3644-18",
-      "decision": "S",
+      "num": "L3643-13",
       "principe": "P19",
-      "motif": "Maintien jusqu'à la décision sur le référé, libération si aucune décision au deuxième jour ouvrable : délai opposable. Nom de la chambre corrigé (« investigations et de la liberté »).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : libération à défaut de décision au deuxième jour ouvrable, tenue",
+      "motif": "Plafond délictuel d'un an, deux ans dans les cas nommés : en phrases (la passe 2 a écarté l'inversion de la liste).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Plafond d'un an et liste fermée des cas à deux ans gardés.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "chambre des investigations et de la liberté",
-          "nouveau": "chambre des investigations et des libertés"
+          "op": "rediger",
+          "nouveau": "La durée totale de la détention provisoire ne peut excéder un an. Elle est portée à deux ans :\n1° Lorsqu'un des faits constitutifs de l'infraction a été commis hors du territoire national.\n2° Lorsque la personne est poursuivie pour trafic de stupéfiants, association de malfaiteurs, proxénétisme, extorsion de fonds ou pour une infraction commise en bande organisée et qu'elle encourt une peine égale à dix ans d'emprisonnement."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-14",
+      "principe": "P19",
+      "motif": "Prolongation exceptionnelle de quatre mois au-delà de deux ans par la chambre : phrases resserrées, renvoi à la procédure de L3643-9.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Caractère exceptionnel, risque d'une particulière gravité, quatre mois, procédure de L3643-9 : gardés. Le renouvellement de L3643-9 n'est pas ouvert, comme en 2029.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "À titre exceptionnel, lorsque les investigations du juge d'instruction doivent être poursuivies et que la mise en liberté de la personne mise en examen causerait pour la sécurité des personnes et des biens un risque d'une particulière gravité, la chambre des investigations et des libertés peut prolonger de quatre mois la durée de deux ans prévue à l'article L. 3643-13. Elle statue selon le deuxième alinéa de l'article L. 3643-9."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-15",
+      "principe": "P19",
+      "motif": "Durées allongées pour le terrorisme et la criminalité organisée : en phrases, renvoi recalé sur L3643-11 qui porte les prolongations.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Liste fermée des délits, six mois par période, deux ans ou trois ans au total, prolongation exceptionnelle par la chambre : chaque durée reste écrite.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les durées de la détention provisoire sont augmentées lorsque les délits reprochés sont :\n1° Des actes de terrorisme prévus aux articles 421-1 à 421-6 du code pénal.\n2° Des actes commis en bande organisée et punis de dix ans d'emprisonnement, ou prévus aux articles 222-37, 225-5, 312-1 et 450-1 du code pénal.\nLa durée du placement initial et, à titre exceptionnel, celle de chaque prolongation, prévues à l'article L. 3643-11, sont alors portées à six mois. La durée totale d'un an prévue à l'article L. 3643-13 est portée à deux ans, et à trois ans pour le délit d'association de malfaiteurs terroriste prévu à l'article 421-2-1 du code pénal. À titre exceptionnel, cette durée totale peut être prolongée par la chambre des investigations et des libertés selon l'article L. 3643-14."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-16",
+      "principe": "P19",
+      "motif": "Requalification criminelle : le mandat devient criminel, délais comptés depuis sa délivrance. Phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Point de départ des délais au mandat initial gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la substitution d'une qualification criminelle à la qualification délictuelle est notifiée à la personne mise en examen selon l'article L. 3432-25, le mandat de dépôt délivré reste valable et vaut mandat de dépôt criminel. La détention est alors soumise aux règles applicables en matière criminelle, les délais de prolongation étant calculés à compter de la délivrance du mandat."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-17",
+      "principe": "P19",
+      "motif": "Quatre mois au plus après révocation pour un délit puni de moins de trois ans : phrase resserrée. Cité par L3643-11.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Plafond de quatre mois gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la détention provisoire est ordonnée après la révocation du contrôle judiciaire ou de l'assignation à résidence avec surveillance électronique d'une personne qui encourt un emprisonnement délictuel de moins de trois ans, sa durée totale ne peut excéder quatre mois."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-18",
+      "principe": "P19",
+      "motif": "Cumul des détentions après révocation : plafond de la catégorie plus quatre mois au plus. Phrase resserrée. Cité par L3623-7 et L3643-6.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Plafond gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la détention est ordonnée après la révocation du contrôle judiciaire ou de l'assignation à résidence avec surveillance électronique d'une personne déjà placée en détention provisoire pour les mêmes faits, la durée cumulée des détentions ne peut excéder de plus de quatre mois la durée maximale prévue aux sections 2 et 3 du présent chapitre."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3644-2",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Qui ordonne la mise en liberté, et recours contre les conditions indignes. L'avis du procureur sur la mise en liberté d'office lui ouvre le référé-détention (L3644-16), protection de la victime et de l'ordre public : la proposition de le supprimer au titre de P15 est écartée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : liberté ordonnée par un juge à tout moment, tenu"
+      "motif": "Mise en liberté à tout moment, avec ou sans mesure moins rigoureuse, et autorités qui l'ordonnent, en un article (L3644-1 fusionné). La saisine directe du juge des libertés et de la détention contre des conditions indignes est au chapitre 6 (L3646-1, L3646-4) : la phrase qui la rappelait tombe.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Mise en liberté à tout moment, d'office, sur demande ou sur réquisitions, par un juge du siège, avec avis ou réquisitions du procureur qui lui ouvrent le référé-détention : gardés. La mise en liberté pour conditions indignes reste à L3646-4.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La mise en liberté de la personne placée en détention provisoire peut être ordonnée à tout moment de l'information, avec ou sans contrôle judiciaire ou assignation à résidence avec surveillance électronique :\n1° Par le juge d'instruction statuant d'office, après avis du procureur de la République.\n2° Sur la demande de la personne, par le juge d'instruction ou, s'il le saisit, par le juge des libertés et de la détention, après réquisitions du procureur de la République.\n3° Sur réquisitions de mise en liberté du procureur de la République, par le juge d'instruction ou, s'il le saisit, par le juge des libertés et de la détention."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3644-3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Mise en liberté immédiate dès que les conditions cessent ou que la durée devient déraisonnable. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
+      "motif": "Mise en liberté immédiate dès que les conditions cessent ou que la durée devient déraisonnable : en phrases. Cité par L3643-9.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Obligation de mise en liberté immédiate gardée dans ses deux cas.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction ou, lorsqu'il est saisi, le juge des libertés et de la détention ordonne la mise en liberté immédiate de la personne placée en détention provisoire, en décidant s'il y a lieu de la placer sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique :\n1° Dès que les conditions prévues aux articles L. 3641-6 à L. 3641-8 ne sont plus remplies.\n2° S'il estime que la continuation de la détention excéderait une durée raisonnable au sens de l'article L. 3643-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3644-4",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Détention irrégulière : liberté obligatoire, mesure moins rigoureuse si indispensable. Sanction claire, sans nullité en cascade. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
+      "motif": "Détention irrégulière : liberté obligatoire, mesure moins rigoureuse si indispensable. Phrases resserrées. Cité par L3742-10.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Mise en liberté obligatoire pour non-respect des délais ou des formalités gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "S'il constate qu'une détention provisoire est irrégulière faute de respect des délais ou des formalités prévus par le présent code, le juge d'instruction ou, lorsqu'il est saisi, le juge des libertés et de la détention ordonne la mise en liberté de la personne. Il peut, dans la même décision, la placer sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique si cette mesure est indispensable pour assurer l'un des objectifs des articles L. 3641-6 à L. 3641-8."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3644-5",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Mise en liberté risquée pour la victime : interdiction de contact obligatoire et avis à la victime. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : sans effet sur la liberté accordée, tenu"
+      "motif": "Mise en liberté risquée pour la victime : interdiction de contact obligatoire et avis à la victime. Phrases resserrées. Cité par L3653-10 et L3742-11.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. La mise en liberté n'est pas empêchée : elle s'accompagne d'une interdiction de contact. La victime est avisée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une mise en liberté est susceptible de faire courir un risque à la victime, le juge d'instruction ou le juge des libertés et de la détention place la personne sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique en lui interdisant de recevoir ou de rencontrer la victime ou d'entrer en relation avec elle, en application du 5° de l'article L. 3621-5. La victime en est avisée selon l'article L. 3621-14."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3644-6",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Demande de mise en liberté à tout moment, forme de la déclaration au greffe. La paire L3644-6 et L3644-7 sert de forme de référence à onze renvois du code (extradition, mandat d'arrêt européen, réexamen, chambre des investigations) : gardée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : accès effectif au juge, tenu"
+      "principe": "P23",
+      "motif": "Demande de mise en liberté à tout moment : la forme renvoie à la forme commune des déclarations au juge d'instruction (L3431-2, lot p178). Le numéro est gardé : L6133-24, L6151-35, L6232-22, L7322-7 et R57-5-5 citent la paire L3644-6 et L3644-7.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Droit de demander la mise en liberté à tout moment, sous la seule réserve de L3644-8, gardé. La déclaration reste constatée, datée et signée. La lettre recommandée, réservée en 2029 au demandeur hors du ressort, devient ouverte à tous par la règle commune : la faculté s'élargit, aucune ne se perd.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne placée en détention provisoire et son avocat peuvent, à tout moment de l'information et sous réserve de l'article L. 3644-8, adresser au juge d'instruction une demande de mise en liberté. La demande est faite dans les formes du premier alinéa de l'article L. 3431-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3644-7",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Demande par déclaration au chef d'établissement. Le texte reprend le troisième alinéa de L3431-2, mais onze renvois du code le citent comme forme de référence : l'abroger casserait ces renvois sans gain de fond. Gardé, la fusion se fera avec la renumérotation.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : accès effectif au juge pour la personne détenue, tenu"
+      "principe": "P23",
+      "motif": "Demande faite auprès du chef de l'établissement pénitentiaire : renvoi au second alinéa de L3431-2, qui porte la même règle (constat, date, signature, envoi sans délai). Le numéro est gardé : neuf articles le citent comme forme de référence (L3731-5, L3741-3, L3742-15, L6133-24, L6151-35, L6232-22, L7322-7, R57-5-5).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. La personne détenue garde le droit de former sa demande sur place, constatée, datée et transmise sans délai.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue peut aussi faire sa demande de mise en liberté auprès du chef de l'établissement pénitentiaire, dans les formes du second alinéa de l'article L. 3431-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3644-8",
+      "principe": "P11",
+      "motif": "Irrecevabilité d'une nouvelle demande tant que la précédente n'est pas jugée : en phrases (coquilles corrigées par la passe 2).",
+      "ligne_rouge": "Nécessité (art. 8 DDHC) examinée : l'irrecevabilité ne dure que jusqu'à la décision, rendue dans les délais de L3644-9 et L3644-10, ou jusqu'à l'arrêt sur appel.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Irrecevabilité d'une nouvelle demande tant que la précédente n'est pas jugée : purge rapide, conforme à P11. Trois coquilles corrigées (« 1° 1° », « juge des libertés et des détentions », « la chambres »).",
-      "ligne_rouge": "art. 8 DDHC sans objet ; art. 66 C et CEDH art. 5 examinés : la demande pendante est jugée dans les délais de L3644-10, tenu",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "1° 1° Soit",
-          "nouveau": "1° Soit"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "par le juge des libertés et des détentions ou la chambres des investigations",
-          "nouveau": "par le juge des libertés et de la détention ou la chambre des investigations"
+          "op": "rediger",
+          "nouveau": "À peine d'irrecevabilité, aucune demande de mise en liberté ne peut être formée tant qu'il n'a pas été statué :\n1° Sur une précédente demande, par le juge des libertés et de la détention, dans les délais des articles L. 3644-9 et L. 3644-10.\n2° Sur l'appel de la décision de rejet d'une précédente demande, par la chambre des investigations et des libertés.\nCette irrecevabilité s'applique de plein droit jusqu'à la décision du juge des libertés et de la détention ou de la chambre, sans être constatée par ordonnance du juge d'instruction."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3644-9",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Communication au procureur, transmission sous dix jours, réquisitions communiquées à la défense avant rejet : contradictoire et délai.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3645-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Champ du chapitre : toutes les détentions provisoires.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée et contrôlée par le juge des libertés, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3645-10",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Autorité compétente pour les communications : juge d'instruction, puis parquet après clôture.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : décision d'un magistrat, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3645-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Visites et téléphone, refus motivé après un mois, réponse sous vingt jours : délai opposable.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et CEDH art. 8 : vie familiale, refus motivé, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3645-12",
+      "motif": "Communication au procureur, transmission motivée sous dix jours, réquisitions communiquées à la défense avant tout rejet : phrases resserrées. Cité par L3712-6 et L6114-14.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Délai de dix jours opposable au juge d'instruction, communication préalable des réquisitions et de l'ordonnance à l'avocat ou à la personne : gardés.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Permis de visite de droit pour le curateur, tuteur ou mandataire : tenu. Construction fautive corrigée (« la personne est placée en détention provisoire est »).",
-      "ligne_rouge": "CEDH art. 8 examiné : permis de visite de droit du curateur, du tuteur ou du mandataire, tenu. Art. 66 C sans objet",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Si la personne est placée en détention provisoire est un majeur protégé",
-          "nouveau": "Si la personne placée en détention provisoire est un majeur protégé"
+          "op": "rediger",
+          "nouveau": "Lorsqu'il estime la demande de mise en liberté recevable, le juge d'instruction la communique immédiatement avec le dossier au procureur de la République aux fins de réquisitions. Sauf s'il y fait droit, il la transmet par ordonnance motivée au juge des libertés et de la détention dans les dix jours de cette communication. Ce juge ne peut rejeter la demande sans que les réquisitions du procureur et l'ordonnance de transmission aient été communiquées au préalable à l'avocat de la personne ou, à défaut d'avocat, à la personne."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L3645-13",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interdiction de correspondre et rétention du courrier, motivées et notifiées : bornées aux nécessités nommées.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et CEDH art. 8 : décision motivée, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3645-14",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Sortie sous escorte, à titre exceptionnel et pour un temps déterminé : décision du magistrat.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : décision du magistrat, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3645-15",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interdiction de communiquer de dix jours renouvelable une fois, jamais à l'égard de l'avocat : noyau tenu.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et art. 16 DDHC, droits de la défense examiné : l'avocat reste accessible, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3645-16",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Isolement ordonné par le juge, durée du mandat. La phrase qui renvoie à l'article L. 213-7 du code pénitentiaire recopie une règle qui vit à sa source, gardée (lot p078) : elle tombe. Renvoi de L. 213-7 du code pénitentiaire à l'ancien 145-4-1 à coordonner. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "CEDH art. 3 examiné : droits de L. 6 du code pénitentiaire maintenus à leur source (L. 213-7, lot p078). Art. 66 C et CEDH art. 5 examinés : isolement ordonné par le juge, tenu",
+      "num": "L3644-10",
+      "principe": "P19",
+      "motif": "Décision sous cinq jours ouvrables et réponse unique aux demandes simultanées en un article (L3644-11 fusionné). Cité par L3712-6, L3742-13 et L3644-8.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Délai de cinq jours ouvrables opposable, sanctionné par la saisine directe de la chambre (L3742-13) : gardé.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Conformément aux dispositions de l'article L. 213-7 du code pénitentiaire, le placement à l'isolement n'affecte pas l'exercice des droits visés par les dispositions de l'article L. 6 du même code, sous réserve des aménagements qu'impose la sécurité.",
-          "nouveau": ""
+          "op": "rediger",
+          "nouveau": "Le juge des libertés et de la détention statue dans un délai de cinq jours ouvrables. Il peut répondre par une décision unique à plusieurs demandes de mise en liberté déposées simultanément."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-12",
+      "principe": "P19",
+      "motif": "Réquisitions de mise en liberté : transmission sous cinq jours, décision sous trois jours ouvrables. Phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Délais de cinq et de trois jours gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut à tout moment de l'information requérir du juge d'instruction la mise en liberté de la personne. Sauf s'il l'ordonne, le juge d'instruction transmet le dossier au juge des libertés et de la détention dans les cinq jours suivant les réquisitions, selon l'article L. 3644-9. Ce juge statue dans les trois jours ouvrables."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-13",
+      "principe": "P25",
+      "motif": "Mise en liberté pour raisons médicales en un article : expertise ou, en urgence, certificat du médecin responsable, nouvelle détention si l'état de santé évolue (L3644-14 et L3644-15 fusionnés). Cité par L3742-9.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Mise en liberté pour pathologie engageant le pronostic vital ou état incompatible, sauf risque grave de renouvellement, voie d'urgence, nouvelle détention seulement si les conditions légales sont réunies : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours de l'information, sauf risque grave de renouvellement de l'infraction, la mise en liberté de la personne placée en détention provisoire peut être ordonnée, d'office ou à sa demande, avec placement sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique, lorsqu'une expertise médicale établit qu'elle est atteinte d'une pathologie engageant le pronostic vital ou que son état de santé physique ou mentale est incompatible avec le maintien en détention. En cas d'urgence, la mise en liberté peut être ordonnée au vu d'un certificat du médecin responsable de la structure sanitaire qui la prend en charge, ou de son remplaçant.\nL'évolution de l'état de santé de la personne peut constituer un élément nouveau qui permet de la placer à nouveau en détention provisoire, selon le présent code, si les conditions des articles L. 3641-6 à L. 3641-8 sont réunies."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-16",
+      "principe": "P19",
+      "motif": "Référé-détention : notification immédiate, délai de huit heures, exécution de l'ordonnance à défaut de référé, maintien jusqu'à la décision, libération au deuxième jour ouvrable faute de décision, en un article (L3644-17 et L3644-18 fusionnés, coquilles corrigées par la passe 2). Cité par L3742-22.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Délai de huit heures, libération immédiate si le procureur ne forme pas de référé, libération au plus tard le deuxième jour ouvrable faute de décision sur le référé : délais opposables gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'ordonnance de mise en liberté rendue par le juge d'instruction ou le juge des libertés et de la détention contrairement aux réquisitions du procureur de la République lui est immédiatement notifiée. Dans les huit heures, le procureur peut s'opposer à la mise en liberté immédiate en interjetant appel et en formant, selon les articles L. 3742-22 à L. 3742-27, un référé-détention qui rend l'appel suspensif.\nS'il renonce au référé-détention, le procureur retourne l'ordonnance au magistrat qui l'a rendue avec la mention qu'il ne s'oppose pas à son exécution. Si le délai expire sans référé-détention, le greffier le mentionne sur l'ordonnance. Dans les deux cas, l'ordonnance est transmise pour exécution au chef de l'établissement pénitentiaire, et la personne est libérée si elle n'est pas détenue pour une autre cause.\nSi un référé-détention est formé dans le délai, la personne reste détenue jusqu'à la décision sur le référé et, si l'appel est déclaré suspensif, jusqu'à l'arrêt de la chambre des investigations et des libertés. Si aucune décision n'est prise sur le référé au plus tard le deuxième jour ouvrable suivant la demande, l'ordonnance est transmise pour exécution et la personne est libérée, sauf détention pour une autre cause."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-1",
+      "principe": "P23",
+      "motif": "Champ du chapitre : une phrase.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Les garanties du chapitre (mandat, communication avec l'avocat, visites, correspondance) valent pour toute détention provisoire, l'isolement et l'interdiction de communiquer restant propres à l'information.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent chapitre s'applique à la détention provisoire au cours de l'information, jusqu'à son règlement, et, sauf sa section 4, à toute autre détention provisoire, notamment après le renvoi devant la juridiction de jugement."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3645-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Mandat de dépôt, titre de détention : ordre écrit, condition de toute incarcération.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : titre écrit d'un juge, tenu"
+      "motif": "Mandat de dépôt en un article : définition, autorités qui le décernent, mentions, exécution (L3645-3 et L3645-4 fusionnés). Cité par le code pénitentiaire (L212-2, abrogé en passe 3).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Aucune incarcération sans mandat écrit, daté et signé par un magistrat, mentionnant les faits, leur qualification et les textes applicables : gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute décision de placement en détention provisoire donne lieu à un mandat de dépôt, ordre donné au chef de l'établissement pénitentiaire de recevoir et de détenir la personne. Il est décerné par le juge des libertés et de la détention et, selon le présent code, par la chambre des investigations et des libertés, les juridictions de jugement ou leurs présidents, et, pour l'écrou extraditionnel, par le premier président de la cour d'appel ou son délégué.\nLe mandat précise l'identité de la personne, la nature des faits imputés, leur qualification juridique et les articles de loi applicables. Il est daté et signé par le magistrat ou par le président de la juridiction qui l'a décerné et, sauf s'il est numérique, revêtu de son sceau. L'agent qui l'exécute remet la personne au chef de l'établissement, qui lui en délivre reconnaissance. Une fois notifié, le mandat permet aussi de rechercher ou de transférer la personne."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-8",
+      "principe": "P4",
+      "motif": "Ordres des magistrats exécutés dans les maisons d'arrêt : phrase resserrée. Cité par L8211-4 et D55.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Autorité judiciaire sur la détention gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction, le juge des libertés et de la détention, le président de la chambre des investigations et des libertés, le président de la juridiction de jugement, le procureur de la République et le procureur général peuvent donner, à l'égard des personnes placées en détention provisoire, tous les ordres nécessaires à l'instruction ou au jugement, qui sont exécutés dans les maisons d'arrêt."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-9",
+      "principe": "P25",
+      "motif": "Permis de communiquer au nom des associés et collaborateurs de l'avocat : phrase resserrée.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : défense effective gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours de l'information, l'avocat désigné par la personne mise en examen détenue, ou commis d'office à sa demande, peut indiquer les noms de ses associés et collaborateurs, au nom desquels le permis de communiquer est alors aussi établi."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-10",
+      "principe": "P4",
+      "motif": "Autorité compétente pour les communications : phrases resserrées. Cité par L6114-15 et le code pénitentiaire (L341-5).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Décision du juge d'instruction, puis du parquet après la clôture : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les décisions prévues à la présente sous-section sont prises par le juge d'instruction au cours de l'information et, après sa clôture ou dans tout autre cas de détention provisoire, par le procureur de la République ou le procureur général."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-11",
+      "principe": "P19",
+      "motif": "Visites et téléphone, délai de réponse de vingt jours, refus écrit et spécialement motivé après un mois, permis de droit du curateur ou du tuteur en un article (L3645-12 fusionné). Cité par 434-35 du code pénal, L3742-28 et le code pénitentiaire (L341-5).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Délai de vingt jours opposable, refus écrit et spécialement motivé par des motifs nommés après un mois, notification sans délai, permis de droit pour le représentant d'un majeur protégé : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sauf interdiction de communiquer prononcée en application de l'article L. 3645-15, la personne placée en détention provisoire peut, avec l'autorisation de l'autorité mentionnée à l'article L. 3645-10, recevoir des visites ou téléphoner à un tiers. Cette autorité répond dans les vingt jours aux demandes de permis de visite ou de téléphoner. Un mois après le placement en détention, elle ne peut refuser un permis de visite ou l'usage du téléphone que par une décision écrite et spécialement motivée au regard des nécessités de la procédure, du maintien du bon ordre et de la sécurité ou de la prévention des infractions, notifiée sans délai et par tout moyen au demandeur. Le curateur, le tuteur ou le mandataire spécial d'un majeur protégé détenu bénéficie de plein droit d'un permis de visite."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-13",
+      "principe": "P21",
+      "motif": "Interdiction de correspondre et rétention du courrier : phrases resserrées. Cité par le code pénitentiaire (L345-1) et L3742-28.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Mesures bornées aux motifs nommés, motivées et notifiées sans délai : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour les nécessités de la procédure, le maintien du bon ordre et de la sécurité ou la prévention des infractions, l'autorité mentionnée à l'article L. 3645-10 peut interdire à la personne placée en détention provisoire de correspondre par écrit avec une ou plusieurs personnes qu'elle désigne, et retenir un courrier écrit par elle ou qui lui est adressé. Ces décisions sont motivées et notifiées sans délai et par tout moyen à la personne détenue."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-14",
+      "principe": "P4",
+      "motif": "Sortie sous escorte, à titre exceptionnel et pour un temps déterminé : phrase resserrée. Cité par D147 et L3742-28.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Décision du magistrat, recours de L3742-28 : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En toute matière et en tout état de la procédure, l'autorité mentionnée à l'article L. 3645-10 peut, à titre exceptionnel et pour un temps déterminé, autoriser une personne placée en détention provisoire à sortir sous escorte, selon des modalités prévues par décret."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-15",
+      "principe": "P25",
+      "motif": "Interdiction de communiquer de dix jours, renouvelable une fois, jamais à l'égard de l'avocat : phrases resserrées. Cité par D55 et le code pénitentiaire.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Dix jours, un seul renouvellement de dix jours, jamais à l'égard de l'avocat : noyau gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours de l'information, le juge d'instruction peut interdire à la personne placée en détention provisoire de communiquer, pour dix jours, renouvelables une seule fois pour dix jours. Cette interdiction ne s'applique jamais à son avocat."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3645-16",
+      "principe": "P20",
+      "motif": "Isolement ordonné par le juge, durée du mandat : texte de la passe 2 (la phrase qui recopiait L213-7 du code pénitentiaire tombe), resserré. Cité par L6114-15, R57-5-1 et L213-7 du code pénitentiaire.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Ordonnance motivée, isolement indispensable aux nécessités de l'information, durée bornée par le mandat : gardés. Le maintien des droits pendant l'isolement survit à L213-7 du code pénitentiaire (lot p078).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours de l'information, le juge d'instruction ou le juge des libertés et de la détention peut, par ordonnance motivée, placer la personne détenue à l'isolement, séparée des autres personnes détenues, si cette mesure est indispensable aux nécessités de l'information. L'isolement ne peut excéder la durée du mandat de dépôt. Il peut être renouvelé à chaque prolongation de la détention. Un décret en Conseil d'État précise les modalités d'application du présent article."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3646-1",
+      "principe": "P25",
+      "motif": "Recours contre des conditions de détention indignes et recevabilité en un article (L3646-2 fusionné). Le renvoi « L. 1122-1 à L. 1122-3 » tombe (L1122-2 et L1122-3 retirés en passe 3, lot p274) : L1122-1 pose le recours général et rappelle déjà la saisine du juge administratif. Cité par L3742-30 (plage L. 3646-1 à L. 3646-5).",
+      "ligne_rouge": "Dignité (CEDH art. 3 et 13) examinée : requête au juge des libertés et de la détention, recevabilité sur commencement de preuve sous dix jours, information du magistrat saisi, irrecevabilité bornée à la requête pendante ou jugée infondée sans élément nouveau : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne placée en détention provisoire qui estime ses conditions de détention contraires à la dignité de la personne humaine peut saisir par requête le juge des libertés et de la détention, afin qu'il y soit mis fin.\nSi les allégations de la requête sont circonstanciées, personnelles et actuelles, de sorte qu'elles constituent un commencement de preuve de l'atteinte à la dignité, le juge déclare la requête recevable dans les dix jours de sa réception et en informe par tout moyen le magistrat saisi du dossier. À peine d'irrecevabilité, aucune nouvelle requête ne peut être formée tant qu'il n'a pas été statué sur la précédente dans les délais du présent chapitre ou, si elle a été jugée infondée, tant qu'un élément nouveau ne modifie pas les conditions de détention."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3646-3",
+      "principe": "P19",
+      "motif": "Vérifications, délai pour mettre fin aux conditions indignes, transfèrement avec l'accord du magistrat : phrases resserrées. L'expertise et le transport sur les lieux, dits « sans préjudice » au décret (L3646-6), deviennent une faculté écrite du juge. Le deuxième alinéa porte le délai fixé, le dernier le transfèrement (renvois de L3646-4 et L3646-5). Cité par L3742-30 et R249-23.",
+      "ligne_rouge": "Dignité (CEDH art. 3) examinée : vérifications sous trois à sept jours, constat et délai de dix jours à un mois, information du juge, transfèrement avec l'accord du magistrat : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la requête est recevable, le juge procède ou fait procéder aux vérifications nécessaires, au besoin par expertise ou transport sur les lieux de détention, et recueille les observations de l'administration pénitentiaire entre trois jours ouvrables et sept jours après sa décision de recevabilité.\nS'il estime la requête fondée, il fait connaître à l'administration pénitentiaire, dans les dix jours de la décision de recevabilité, les conditions de détention qu'il estime contraires à la dignité de la personne humaine et fixe un délai de dix jours à un mois pour y mettre fin par tout moyen. L'administration l'informe des mesures prises avant la fin de ce délai. Elle apprécie seule les moyens à mettre en œuvre, sans que le juge puisse lui enjoindre des mesures déterminées. Elle peut notamment transférer la personne dans un autre établissement pénitentiaire, avec l'accord du magistrat saisi du dossier."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3646-4",
+      "principe": "P25",
+      "motif": "Faute de remède dans le délai : transfèrement ou mise en liberté sous dix jours, sauf refus d'un transfèrement. En phrases. Cité par L3742-30, R249-17 et L3644-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Transfèrement ou mise en liberté immédiate ordonnés sous dix jours, seule exception le refus d'un transfèrement proposé : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si, à l'issue du délai fixé en application du deuxième alinéa de l'article L. 3646-3, le juge constate, au vu des éléments transmis par l'administration pénitentiaire et de toute vérification qu'il estime utile, qu'il n'a pas été mis fin aux conditions indignes de détention, il ordonne dans les dix jours :\n1° Soit le transfèrement de la personne dans un autre établissement pénitentiaire.\n2° Soit sa mise en liberté immédiate, le cas échéant sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique.\nLe juge peut toutefois refuser de rendre l'une de ces décisions si la personne s'est opposée à un transfèrement que l'administration pénitentiaire lui a proposé en application du dernier alinéa de l'article L. 3646-3."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3646-5",
+      "principe": "P4",
+      "motif": "Motivation, contradictoire et renvoi au décret en Conseil d'État en un article (L3646-6 fusionné). Le décret n'a plus à énumérer son contenu : la saisine et les vérifications relèvent du règlement par nature. Cité par L3742-30.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Décisions motivées, observations de la personne et de son avocat, avis écrit du procureur, audition de droit à la demande du requérant : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les décisions prévues au présent chapitre sont motivées. Celles du deuxième alinéa de l'article L. 3646-3 et de l'article L. 3646-4 sont prises au vu de la requête, des observations de la personne détenue ou de son avocat, des observations écrites de l'administration pénitentiaire, de l'avis écrit du procureur de la République et, si le juge l'estime nécessaire, de l'avis du juge d'instruction. Le requérant peut demander à être entendu, assisté le cas échéant de son avocat. Le juge entend alors aussi, à leur demande, le ministère public et l'administration pénitentiaire. Ces auditions peuvent se faire par un moyen de télécommunication audiovisuelle. Un décret en Conseil d'État précise la saisine du juge et la nature des vérifications qu'il peut ordonner."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3641-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Détention exceptionnelle, incarcération sous le contrôle de l'autorité judiciaire : premier alinéa de L3641-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Caractère exceptionnel et contrôle de l'autorité judiciaire gardés.",
+      "vers": "L3641-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3641-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Seuil de la peine encourue : second alinéa de L3641-2. Les renvois « L. 3641-3 à L. 3641-8 » de L3641-9 et L3641-10 deviennent « L. 3641-2 à L. 3641-8 ».",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Seuil gardé à l'identique (peine criminelle, trois ans d'emprisonnement).",
+      "vers": "L3641-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3641-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Notification avec copie intégrale contre émargement : dernière phrase de L3641-10.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : copie intégrale gardée mot pour mot.",
+      "vers": "L3641-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L3641-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Insuffisance du bracelet anti-rapprochement et de la surveillance mobile au-delà de huit mois : second alinéa de L3641-11.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Motivation spéciale gardée, pour les mêmes mesures, au même seuil.",
+      "vers": "L3641-11"
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Vérifications obligatoires jusqu'à cinq ans encourus : fin de L3642-1.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Obligation et autorité qui la prescrit gardées.",
+      "vers": "L3642-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Déferrement sans délai, personne retenue jusqu'à sa comparution : second alinéa de L3642-6.",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) examiné : la retenue ne dure que jusqu'à la comparution, sur déferrement sans délai.",
+      "vers": "L3642-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renonciation du procureur, avis au juge d'instruction : fin de L3642-6.",
+      "ligne_rouge": "Aucune garantie en jeu : la personne peut être laissée en liberté.",
+      "vers": "L3642-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Annonce de l'intention du juge, droit de se taire : L3642-10.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Droit de se taire notifié gardé.",
+      "vers": "L3642-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mesure moins rigoureuse sans détention : dernière phrase de L3642-10. La déclaration d'adresse (renvoi corrigé par la passe 2) relève de L3641-14, qui vise le juge qui n'ordonne pas la détention.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Déclaration d'adresse et mesure moins rigoureuse gardées (L3641-14, L3642-10).",
+      "vers": "L3642-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L3642-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Débat différé d'office pour vérifier une alternative : seconde phrase de L3642-17.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Faculté du juge au service de la liberté gardée.",
+      "vers": "L3642-17"
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Durées limitées par le chapitre, de l'information à l'ordonnance de règlement : L3643-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Principe du délai opposable gardé.",
+      "vers": "L3643-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Visioconférence pour les débats de prolongation : L3642-22, qui portait la même règle pour le placement.",
+      "ligne_rouge": "Droits de la défense examinés : droit de refus et ses limites gardés à l'identique.",
+      "vers": "L3642-22"
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Prolongations de six mois en matière criminelle : L3643-6, la procédure de L3643-3 en tenant lieu.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Durée de chaque prolongation, débat et motivation gardés.",
+      "vers": "L3643-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L3643-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Prolongations de quatre mois en matière délictuelle : second alinéa de L3643-11.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Durée de chaque prolongation, débat et motivation (L3643-3) gardés.",
+      "vers": "L3643-11"
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mise en liberté à tout moment, avec ou sans mesure moins rigoureuse : premier alinéa de L3644-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Faculté de mise en liberté à tout moment gardée.",
+      "vers": "L3644-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réponse unique aux demandes simultanées : seconde phrase de L3644-10.",
+      "ligne_rouge": "Aucune garantie en jeu.",
+      "vers": "L3644-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mise en liberté en urgence au vu d'un certificat médical : deuxième alinéa de L3644-13.",
+      "ligne_rouge": "Dignité et santé (CEDH art. 3) examinées : voie d'urgence gardée.",
+      "vers": "L3644-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Nouvelle détention si l'état de santé évolue : dernier alinéa de L3644-13.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Nouvelle détention seulement dans les conditions légales, selon les modalités du code : gardé.",
+      "vers": "L3644-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exécution de l'ordonnance à défaut de référé-détention : deuxième alinéa de L3644-16.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Libération immédiate gardée.",
+      "vers": "L3644-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3644-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Maintien jusqu'à la décision sur le référé, libération au deuxième jour ouvrable : dernier alinéa de L3644-16.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Délai du deuxième jour ouvrable et libération de droit gardés.",
+      "vers": "L3644-16"
     },
     {
       "code": "cpp",
       "num": "L3645-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Autorités qui décernent le mandat : juges du siège et présidents de juridiction.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mandat décerné par un juge, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorités qui décernent le mandat : premier alinéa de L3645-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Mandat décerné par un juge ou une juridiction : gardé.",
+      "vers": "L3645-2"
     },
     {
       "code": "cpp",
       "num": "L3645-4",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Mentions du mandat, sceau sauf format numérique : le numérique est déjà prévu.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mentions du mandat : deuxième alinéa de L3645-2.",
+      "ligne_rouge": "Aucune garantie en jeu : mentions gardées.",
+      "vers": "L3645-2"
     },
     {
       "code": "cpp",
       "num": "L3645-5",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : la détention provisoire en maison d'arrêt ou, à titre exceptionnel, en établissement pour peines est réglée par L. 112-3, L. 211-1 et L. 211-2 du code pénitentiaire, gardés (lots p078 et p091), qu'il cite sans rien y ajouter. Vérifié mot à mot : aucune règle propre perdue.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la règle demeure au code pénitentiaire, tenue"
+      "motif": "Article miroir (passe 2) : la détention en maison d'arrêt ou, à titre exceptionnel, en établissement pour peines est réglée par les articles L. 112-3, L. 211-1 et L. 211-2 du code pénitentiaire.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. La règle et son exception survivent mot pour mot à L211-1 et L211-2 du code pénitentiaire (lot p078)."
     },
     {
       "code": "cpp",
       "num": "L3645-6",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'encellulement individuel des prévenus et ses dérogations sont aux articles L. 213-2 et L. 213-5 du code pénitentiaire, gardés (lot p078), qu'il cite sans rien y ajouter. Renvoi entrant de L8211-4 (Saint-Barthélemy et Saint-Martin) à coordonner, opération : {\"op\":\"remplacer\",\"ancien\":\"Les dispositions des articles L. 5221-5 et L. 3645-6 du présent code et celles de l'article L. 412-4 du code pénitentiaire\",\"nouveau\":\"Les dispositions de l'article L. 5221-5 du présent code et celles des articles L. 213-2 et L. 412-4 du code pénitentiaire\"}.",
-      "ligne_rouge": "CEDH art. 3 et présomption d'innocence (art. 9 DDHC) examinés : encellulement individuel et dérogations fermées demeurent à L. 213-2 et L. 213-5 du code pénitentiaire, gardés (lot p078), tenu. Art. 66 C sans objet"
+      "motif": "Article miroir (passe 2) : l'encellulement individuel des prévenus et ses dérogations sont aux articles L. 213-2 et L. 213-5 du code pénitentiaire. Renvoi entrant de L8211-4 à coordonner (passe 2).",
+      "ligne_rouge": "Dignité (CEDH art. 3) examinée : l'encellulement individuel survit à L213-2 et L213-5 du code pénitentiaire (lot p078)."
     },
     {
       "code": "cpp",
       "num": "L3645-7",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : les facilités de défense des prévenus sont à l'article L. 313-3 du code pénitentiaire, gardé (lot p082), qu'il recopie mot pour mot.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : la règle demeure au code pénitentiaire, tenue ; art. 66 C sans objet"
+      "motif": "Article miroir (passe 2) : les facilités de défense des prévenus sont à l'article L. 313-3 du code pénitentiaire, qu'il recopiait.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : la garantie survit mot pour mot à L313-3 du code pénitentiaire (lot p082)."
     },
     {
       "code": "cpp",
-      "num": "L3645-8",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Ordres des magistrats exécutés dans les maisons d'arrêt : autorité judiciaire sur la détention.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : contrôle de l'autorité judiciaire, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3645-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Permis de communiquer au nom des associés et collaborateurs de l'avocat : défense effective.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : accès à l'avocat facilité, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3646-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Recours devant le juge des libertés contre des conditions de détention indignes : CEDH art. 3 et 13.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et CEDH art. 3 et 13 : recours effectif devant un juge, tenu"
+      "num": "L3645-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Permis de visite de droit pour le représentant du majeur protégé : dernière phrase de L3645-11.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Permis de plein droit gardé.",
+      "vers": "L3645-11"
     },
     {
       "code": "cpp",
       "num": "L3646-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Recevabilité sur allégations circonstanciées, sous dix jours : délai opposable, filtre utile.",
-      "ligne_rouge": "art. 8 DDHC sans objet ; CEDH art. 13 examiné : recours effectif, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3646-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Vérifications, délai d'un mois au plus pour mettre fin aux conditions indignes, transfèrement avec accord du magistrat : tenu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3646-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Faute de remède : transfèrement ou mise en liberté, sauf refus d'un transfèrement. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et CEDH art. 3 : issue effective ordonnée par un juge, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3646-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Décisions motivées, avis écrit du procureur, audition sur demande : contradictoire tenu (cohérent avec R249-41, lot p034).",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recevabilité de la requête sous dix jours et irrecevabilité des requêtes répétées : second alinéa de L3646-1.",
+      "ligne_rouge": "Dignité examinée : délai de dix jours et filtre gardés.",
+      "vers": "L3646-1"
     },
     {
       "code": "cpp",
       "num": "L3646-6",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi au décret en Conseil d'État : dernière phrase de L3646-5. L'expertise et le transport sur les lieux sont au premier alinéa de L3646-3.",
+      "ligne_rouge": "Dignité examinée : pouvoirs d'investigation du juge gardés et désormais écrits.",
+      "vers": "L3646-5"
     }
-  ]
+  ],
+  "passe": 3
 }
