@@ -10,10 +10,17 @@
     {
       "code": "cpp",
       "num": "D47-7",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Carte des cours d'assises compétentes en matière de stupéfiants : relève du décret. Renvois aux anciens 706-26 et 706-27 (L2152-12) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P2",
+      "motif": "Carte des cours d'assises compétentes en matière de stupéfiants : une règle (la cour d'assises du département où siège la cour d'appel, pour tout le ressort) et les six ressorts partagés, au lieu d'un tableau de trente-quatre lignes. Les cours d'appel visées sont celles du tableau (métropole, Basse-Terre, Cayenne, Fort-de-France, Saint-Denis de La Réunion) : chaque compétence est inchangée. Anciens 706-26 et 706-27 : L2152-12 (2029), qui renvoie la liste au décret.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les cours d'assises compétentes selon l'article L. 2152-12 sont, dans le ressort de chaque cour d'appel de métropole et des cours d'appel de Basse-Terre, Cayenne, Fort-de-France et Saint-Denis de La Réunion, la cour d'assises du département où siège la cour d'appel, sauf dans les ressorts suivants :\n1° Colmar : les cours d'assises du Bas-Rhin et du Haut-Rhin, chacune pour son département.\n2° Douai : les cours d'assises du Nord et du Pas-de-Calais, chacune pour son département.\n3° Montpellier : la cour d'assises des Pyrénées-Orientales pour ce département, la cour d'assises de l'Hérault pour l'Hérault, l'Aude et l'Aveyron.\n4° Nîmes : la cour d'assises du Gard pour le Gard et la Lozère, la cour d'assises de Vaucluse pour le Vaucluse et l'Ardèche.\n5° Rennes : la cour d'assises d'Ille-et-Vilaine pour l'Ille-et-Vilaine, les Côtes-d'Armor et le Finistère, la cour d'assises de la Loire-Atlantique pour la Loire-Atlantique et le Morbihan.\n6° Versailles : les cours d'assises des Hauts-de-Seine et du Val-d'Oise, chacune pour son département, la cour d'assises des Yvelines pour les Yvelines et l'Eure-et-Loir."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
