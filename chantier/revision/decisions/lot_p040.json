@@ -10,18 +10,25 @@
     {
       "code": "cpp",
       "num": "D569",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Paiement intégral des jours-amende : fin de l'emprisonnement et remboursement des jours subis. La peine est exécutée, la détention cesse. Renvois aux anciens 762 (L5413-3, L5413-4) et 754 (L5412-5) à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la détention cesse dès le paiement constaté par le procureur ; art. 8 DDHC examiné : le paiement exécute la peine prononcée, rien n'est remis"
+      "motif": "Gardé en deux phrases. Les anciens 762 et 754 deviennent L. 5413-1 (L. 5413-4 fusionné, lot p016) et la saisine du juge.",
+      "ligne_rouge": "art. 8 DDHC examiné : la détention cesse dès le paiement intégral, les jours subis sont remboursés ; gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le procureur de la République constate que le condamné a payé l'intégralité des jours-amende, il met fin à l'emprisonnement mis à exécution en application de l'article L. 5413-1 et fait rembourser la part des jours-amende correspondant aux jours de détention subis. Si le paiement intervient avant cette mise à exécution, le juge saisi statue selon l'article D. 49-34-1."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D570",
       "decision": "A",
       "principe": "P20",
-      "motif": "Doublon de L5412-8 : « Le débiteur détenu est soumis au même régime que les condamnés. » La réserve de D115-1 (pas de réduction de peine sur la contrainte judiciaire) s'applique d'elle-même. Aucune règle propre perdue.",
+      "motif": "Doublon de L. 5412-8 : le débiteur détenu est soumis au même régime que les condamnés. La réserve de D. 115-1 s'applique d'elle-même (décision de passe 2).",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
