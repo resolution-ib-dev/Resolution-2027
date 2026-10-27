@@ -10,85 +10,85 @@
     {
       "code": "cpp",
       "num": "L4331-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La cour criminelle départementale suit le régime de la cour d'assises, sous réserves. P17 examiné : elle juge en échevinage, magistrats et citoyens assesseurs (L2124-3, registre 4.1).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4331-2",
-      "decision": "R",
       "principe": "P17",
-      "motif": "Registre 4.1 : les citoyens assesseurs de la cour criminelle départementale suivent le régime des jurés de la cour d'assises : appel, excuses et amende (L4321-2 et L4321-3), tirage et récusation, serment (L4321-18), lecture des textes de la peine (L4325-12). Le nombre des récusations suit le nombre des sièges.",
-      "ligne_rouge": "P17 examiné : les citoyens délibèrent et votent avec les magistrats. Art. 16 DDHC examiné : la défense récuse avant le ministère public, et plus que lui. Art. 9 DDHC : serment des jurés, présomption d'innocence rappelée.",
+      "motif": "Régime de la cour criminelle départementale en un article : renvoi au titre II, attributions (L4331-4), citoyens assesseurs et récusations (L4331-2, texte de la passe 2, registre 4.1, 9.12), dossier au délibéré (L4331-3, L4332-1, registre 9.14), majorité de [quatre] voix (L4332-2, registre 9.11), aide juridictionnelle (L4331-6).",
+      "ligne_rouge": "Jury (P17) et présomption d'innocence : la culpabilité exige la voix d'un citoyen assesseur au moins ; la peine se vote à la majorité absolue et toute diminution se motive (L4325-13).",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Pour l'application devant la cour criminelle départementale des dispositions du titre II du présent livre, les dispositions qui font mention du jury ou des jurés s'appliquent aux citoyens assesseurs.\nLe jury de jugement est formé à l'instant où sont sortis de l'urne les noms de [deux] citoyens assesseurs non récusés et ceux des citoyens assesseurs supplémentaires. L'accusé peut récuser [deux] citoyens assesseurs et le ministère public [un]."
+          "nouveau": "Le jugement d'un crime qui relève de la cour criminelle départementale selon l'article L. 2124-1 suit le titre II du présent livre, sous les réserves suivantes :\n1° Les attributions de la cour d'assises ou de la cour sont exercées par la cour criminelle départementale, et celles du président de la cour d'assises par le président de cette cour.\n2° Les dispositions relatives au jury ou aux jurés s'appliquent aux citoyens assesseurs. Le jury de jugement est formé dès que sont sortis de l'urne les noms de [deux] citoyens assesseurs non récusés et ceux des citoyens assesseurs supplémentaires. L'accusé peut récuser [deux] citoyens assesseurs, le ministère public [un].\n3° Le dossier n'est pas remis au greffier à la clôture des débats, et la cour délibère avec l'entier dossier de la procédure.\n4° La majorité qualifiée prévue à l'article L. 4325-6 est de [quatre] voix au moins.\nPour l'aide juridictionnelle, la cour criminelle départementale est assimilée à la cour d'assises."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L4331-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "La règle écartée devant la cour criminelle est la remise du dossier au greffe à la clôture des débats : elle est à L. 4324-2, non à L. 4325-2 (délibéré sur la seule décision de renvoi, déjà écarté par L4332-1). Renvoi corrigé.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Les dispositions de l'article L. 4325-2 prévoyant",
-          "nouveau": "Les dispositions de l'article L. 4324-2 prévoyant"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L4331-4",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Attributions de la cour et du président transposées.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L4331-5",
-      "decision": "G",
+      "principe": "P23",
+      "motif": "Renvoi à la cour d'assises des crimes de trente ans ou de la perpétuité : gardé, le point-virgule retiré au second alinéa.",
+      "ligne_rouge": "Contrôle d'un juge sur la privation de liberté (art. 66 C, CEDH art. 5) : le mandat n'est décerné qu'après audition du ministère public et des parties. Individualisation au prononcé (art. 8 DDHC) : les crimes les plus graves restent jugés par le jury.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la cour criminelle départementale estime, au cours ou à l'issue des débats, que les faits dont elle est saisie constituent un crime puni de trente ans de réclusion criminelle ou de la réclusion criminelle à perpétuité, ou font encourir à son auteur une telle peine en raison de son état de récidive, elle renvoie l'affaire devant la cour d'assises.\nSi l'accusé comparaissait détenu, il demeure placé en détention provisoire jusqu'à sa comparution devant la cour d'assises. Sinon, la cour criminelle départementale peut, après avoir entendu le ministère public et les parties ou leurs avocats, décerner, par la même décision, mandat de dépôt ou mandat d'arrêt contre l'accusé."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4331-2",
+      "decision": "F",
       "principe": "P17",
-      "motif": "Renvoi à la cour d'assises, avec ses jurés, des crimes punis de trente ans ou de la perpétuité, récidive comprise.",
-      "ligne_rouge": "art. 66 C examiné : maintien en détention ou mandat décerné par la cour, parties entendues ; art. 8 DDHC examiné : la peine encourue, récidive comprise, fixe la juridiction"
+      "motif": "Citoyens assesseurs soumis au régime des jurés, jury de [deux], récusations : 2° de L4331-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4331-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4331-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pas de remise du dossier au greffe : 3° de L4331-1, renvoi à L4324-1 où L4324-2 est fusionné.",
+      "ligne_rouge": "aucune",
+      "vers": "L4331-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4331-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Attributions de la cour et du président : 1° de L4331-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4331-1"
     },
     {
       "code": "cpp",
       "num": "L4331-6",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Aide juridictionnelle alignée sur la cour d'assises.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Aide juridictionnelle : dernier alinéa de L4331-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4331-1"
     },
     {
       "code": "cpp",
       "num": "L4332-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Délibéré sur l'entier dossier : juges professionnels.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délibéré sur l'entier dossier : 3° de L4331-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4331-1"
     },
     {
       "code": "cpp",
       "num": "L4332-2",
-      "decision": "R",
+      "decision": "F",
       "principe": "P17",
-      "motif": "La majorité simple suffisait, faute de jurés. Registre 4.1 et 4.4 : la peine se vote à la majorité absolue (L4325-13), qui vaut pour toute formation. La décision défavorable à l'accusé exige [quatre] voix sur cinq, soit la voix d'un citoyen assesseur au moins, comme à la cour d'assises où la culpabilité exige la voix d'une majorité des jurés.",
-      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : la culpabilité exige quatre voix sur cinq. P17 examiné : les magistrats seuls ne peuvent déclarer la culpabilité.",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Devant la cour criminelle départementale, la majorité qualifiée prévue à l'article L. 4325-6 est de [quatre] voix au moins."
-        }
-      ]
+      "motif": "Majorité de [quatre] voix sur la culpabilité (texte de la passe 2) : 4° de L4331-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4331-1"
     }
-  ]
+  ],
+  "passe": 3
 }
