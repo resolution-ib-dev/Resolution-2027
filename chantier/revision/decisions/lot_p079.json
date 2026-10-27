@@ -10,121 +10,250 @@
     {
       "code": "penitentiaire",
       "num": "L320-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Hébergement, hygiène, alimentation et cohabitation propices à la santé : obligation de l'État envers le détenu. La proposition de déclasser est écartée : la loi pose l'obligation, le décret ses modalités.",
-      "ligne_rouge": "CEDH art. 3 examiné : conditions dignes"
+      "principe": "P20",
+      "motif": "Obligation de l'État gardée. Le renvoi au décret passe à la clause du titre (L322-13).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire assure un hébergement, un accès à l'hygiène, une alimentation et une cohabitation propices à la prévention des affections physiologiques ou psychologiques."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L322-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Soins de qualité équivalente à ceux de la population, état psychologique pris en compte : garantie de dignité.",
-      "ligne_rouge": "CEDH art. 3 examiné : soins équivalents"
+      "principe": "P20",
+      "motif": "Équivalence et continuité des soins, état psychologique pris en compte : gardés. La phrase qui demande à l'administration de « favoriser la coordination » des intervenants ne pose aucune règle (P20).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La qualité et la continuité des soins sont garanties aux personnes détenues dans des conditions équivalentes à celles dont bénéficie l'ensemble de la population. L'état psychologique des personnes détenues est pris en compte lors de leur entrée en détention et pendant leur détention."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L322-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Aucun acte étranger aux soins ni expertise demandés aux soignants : le soin reste un soin.",
-      "ligne_rouge": "aucune"
+      "motif": "Aucun acte étranger aux soins ni expertise demandés aux soignants.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "penitentiaire",
       "num": "L322-3",
-      "decision": "G",
+      "principe": "P20",
+      "motif": "Obligation propre à l'administration gardée. Le renvoi à L. 6141-5 du code de la santé publique tombe : l'article ne recopie plus l'autre code, il pose l'obligation de l'administration (registre 9.28).",
+      "ligne_rouge": "vie privée examinée : secret médical gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire respecte le secret médical des personnes détenues et le secret de la consultation."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L322-5",
+      "principe": "P12",
+      "motif": "Dossier médical électronique unique.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L322-6",
+      "principe": "P23",
+      "motif": "Bilan d'entrée et visite de sortie en un article. « dans un but de santé publique et dans l'intérêt du patient » tombe : c'est l'objet de tout bilan préventif.",
+      "ligne_rouge": "vie privée examinée : confidentialité gardée",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au début de sa détention, il est proposé à toute personne détenue un bilan de santé relatif à sa consommation de produits stupéfiants, de médicaments psychotropes, d'alcool et de tabac. Ce bilan, préventif, est confidentiel. Une visite médicale est proposée à toute personne condamnée dans le mois précédant sa libération."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L322-9",
+      "principe": "P23",
+      "motif": "Même règle, au présent, sujet en tête.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les femmes détenues bénéficient d'une prise en charge sanitaire adaptée à leurs besoins, dans un quartier pour femmes comme dans un établissement dédié."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L322-10",
+      "principe": "P20",
+      "motif": "La règle, sans la formule finale « afin de garantir le droit au respect de la dignité des femmes détenues », qui en dit l'objet sans rien ajouter (P20). Reçoit L226-2, son miroir.",
+      "ligne_rouge": "dignité examinée : accouchement et examen sans entraves ni personnel gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Tout accouchement ou examen gynécologique se déroule sans entraves et hors la présence du personnel pénitentiaire."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L322-11",
       "principe": "P25",
-      "motif": "L'administration pénitentiaire respecte le secret médical et celui de la consultation : obligation propre à l'administration, que le code de la santé publique ne porte pas en ces termes.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : secret de la consultation tenu"
+      "motif": "Aidant choisi par le détenu handicapé, refus spécialement motivé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L322-12",
+      "principe": "P25",
+      "motif": "Entretiens hors la présence du personnel pour les accompagnants prévus par le code de la santé publique : règle propre. Gardé à la lettre : L764-4 et L774-4 en retirent des mots pour le Pacifique.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L322-13",
+      "principe": "P20",
+      "motif": "Clause unique d'application : elle couvre L320-1 et tout le chapitre II, dont les hospitalisations, réglées par le code de la santé publique depuis l'abrogation de L322-8.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'Etat fixe les modalités d'application de l'article L. 320-1 et du chapitre II du présent titre."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L324-1",
+      "principe": "P13",
+      "motif": "Affiliation des écroués. L'article se déclare « dans les conditions » du code de la sécurité sociale (registre 9.28), mais il reste : le lot p102 s'appuie sur lui pour Mayotte (motif de L713-2), et L. 382-33 et L. 382-48 du code de la sécurité sociale, hors base, n'ont pas pu être vérifiés outre-mer [arbitrage].",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L324-4",
+      "principe": "P21",
+      "motif": "Suspension du contrat d'emploi pénitentiaire pendant le congé de maternité.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L324-5",
+      "principe": "P23",
+      "motif": "Base de la couverture du travail (L. 412-8 du code de la sécurité sociale ne vise que les stagiaires) : gardée, sans « dans les conditions et selon les modalités prévues par les dispositions de ».",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes détenues qui exercent une activité de travail dans le cadre d'un contrat d'emploi pénitentiaire ou effectuent un stage de formation professionnelle sont couvertes au titre des accidents du travail et des maladies professionnelles par le livre IV du code de la sécurité sociale."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L324-6",
+      "principe": "P23",
+      "motif": "Le régime d'assurance chômage et l'obligation d'assurance du donneur d'ordre (L324-10) en un article.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de l'article L. 5424-30 du code du travail, les chapitres Ier et II du titre II du livre IV de la cinquième partie de ce code sont applicables, à l'exception des articles L. 5422-1-1 et L. 5422-11 et des deuxième à septième alinéas de l'article L. 5422-12, sous réserve des adaptations des articles L. 324-7 à L. 324-12 du présent code.\nLe donneur d'ordre mentionné à l'article L. 412-3 est assimilé à l'employeur. Pour l'application de l'article L. 5422-13 du code du travail, il assure contre le risque de privation d'emploi les personnes détenues avec lesquelles il a conclu un contrat d'emploi pénitentiaire, y compris lorsqu'il est mentionné au 1° de l'article L. 412-3."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L324-7",
+      "principe": "P23",
+      "motif": "Suspension et reprise de l'allocation : mêmes règles, phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : effet social de la détention, sans effet sur la peine",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le versement de l'allocation d'assurance mentionnée au deuxième alinéa de l'article L. 5421-2 du code du travail est suspendu à compter de l'incarcération. Il reprend à la libération ou à l'aménagement de peine si le temps écoulé depuis l'ouverture du droit ne dépasse pas la durée de ce droit augmentée de six ans. Seule l'ouverture d'un nouveau droit fait courir à nouveau ce délai de reprise."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L324-8",
+      "principe": "P23",
+      "motif": "Mêmes cas de fin du contrat, phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Est assimilée à une privation involontaire d'emploi, pour l'application du deuxième alinéa de l'article L. 5422-1 du code du travail, la fin du contrat d'emploi pénitentiaire par l'arrivée du terme fixé en application de l'article L. 412-12, par une rupture pour l'un des motifs des 2° à 4° de l'article L. 412-16 ou de l'article L. 412-17, ou au cours de la période d'essai de l'article L. 412-13."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L324-11",
+      "principe": "P23",
+      "motif": "Mêmes règles de contribution, de déclaration et de prise en charge, en quatre phrases au lieu de six.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La rémunération mentionnée à l'article L. 412-20 est assujettie, pour les périodes au titre desquelles elle est attribuée, aux contributions du 1° de l'article L. 5422-9 du code du travail. Ces contributions sont assises sur cette rémunération dans les conditions prévues pour les revenus d'activité par l'article L. 242-1 du code de la sécurité sociale.\nL'Etat assume l'obligation de déclaration des rémunérations prévue à l'article L. 5422-14 du code du travail. Il prend en charge les contributions dues par les donneurs d'ordre mentionnés au 2° de l'article L. 412-3 et en verse le montant à l'organisme gestionnaire du régime d'assurance chômage mentionné au premier alinéa de l'article L. 5427-1 du code du travail."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L324-12",
+      "principe": "P3",
+      "motif": "Renvoi à l'accord d'assurance chômage pour les mesures d'application.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "penitentiaire",
       "num": "L322-4",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 1110-4 du code de la santé publique (vie privée et secret des informations de toute personne prise en charge par un professionnel de santé), auquel il renvoie seulement. Le renvoi d'une loi à un article réglementaire (R. 4127-4) est en outre un défaut de strate.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : le secret reste garanti par L. 1110-4 du code de la santé publique et, pour l'administration, par L. 322-3"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L322-5",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Dossier médical électronique unique : le numérique est la règle.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L322-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Bilan préventif et confidentiel des addictions à l'entrée : santé publique, prévention de la récidive.",
+      "motif": "Miroir de L. 1110-4 du code de la santé publique, auquel il renvoie seulement. L322-3 garde le secret médical opposable à l'administration.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L322-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Visite médicale proposée dans le mois qui précède la libération : continuité des soins.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Visite médicale avant la libération : dernière phrase de L322-6. Le compteur de Wallis-et-Futuna (L754-1) se met à jour.",
+      "ligne_rouge": "aucune",
+      "vers": "L322-6"
     },
     {
       "code": "penitentiaire",
       "num": "L322-8",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 3214-1 du code de la santé publique, qui porte la règle mot pour mot (unité hospitalière spécialement aménagée, soins avec ou sans consentement). La proposition de réécrire au titre de l'aménagement de peine est sans objet.",
-      "ligne_rouge": "CEDH art. 3 examiné : l'hospitalisation des détenus souffrant de troubles mentaux reste réglée par L. 3214-1 du code de la santé publique"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L322-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Prise en charge sanitaire adaptée aux femmes détenues.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L322-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Accouchement et examen gynécologique sans entraves et hors la présence du personnel : dignité. Reçoit L. 226-2, son miroir, abrogé.",
-      "ligne_rouge": "CEDH art. 3 examiné : dignité tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L322-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Aidant choisi par le détenu handicapé, refus spécialement motivé : garantie propre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L322-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Entretiens hors la présence du personnel pour les accompagnants prévus par le code de la santé publique : règle propre au milieu pénitentiaire.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : confidentialité des accompagnements"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L322-13",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L324-1",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Affiliation des écroués. Seul article que réécrivent les adaptations de Saint-Pierre-et-Miquelon (L. 744-1, lot p101) et de Mayotte (L. 713-2, lot p102). L'abroger priverait les écroués de Saint-Pierre-et-Miquelon de leur affiliation au régime local.",
+      "motif": "Miroir de L. 3214-1 du code de la santé publique, qui porte la règle mot pour mot.",
       "ligne_rouge": "aucune"
     },
     {
@@ -132,7 +261,7 @@
       "num": "L324-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 382-38 à L. 382-42 et L. 382-49 du code de la sécurité sociale, qui portent les cotisations sur les rémunérations du travail et des stages.",
+      "motif": "Miroir de L. 382-38 à L. 382-42 et L. 382-49 du code de la sécurité sociale (cotisations).",
       "ligne_rouge": "aucune"
     },
     {
@@ -140,80 +269,26 @@
       "num": "L324-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 382-34 à L. 382-36 et L. 382-43 à L. 382-47 du code de la sécurité sociale, qui portent les prestations des personnes écrouées et celles des travailleurs et stagiaires détenus.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L324-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Suspension du contrat d'emploi pénitentiaire ou du stage pendant le congé de maternité : règle propre au contrat, que le code de la sécurité sociale ne porte pas.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L324-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Couverture des accidents du travail et maladies professionnelles des personnes en contrat d'emploi pénitentiaire : L. 412-8 du code de la sécurité sociale ne vise que les stagiaires, l'article est la base de la couverture du travail. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L324-6",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Application du régime d'assurance chômage avec ses exclusions : L. 5424-30 du code du travail renvoie à cette section, qui en est la source.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L324-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Allocation suspendue pendant l'incarcération, reprise à la libération ou à l'aménagement, délai de reprise étendu : règle propre. La proposition de réécrire au titre de l'aménagement de peine est sans objet.",
-      "ligne_rouge": "art. 8 DDHC examiné : la règle touche l'allocation, ni le prononcé ni la durée de la peine"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L324-8",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Fins du contrat d'emploi pénitentiaire assimilées à une privation involontaire d'emploi : adaptation propre.",
+      "motif": "Miroir de L. 382-34 à L. 382-36 et L. 382-43 à L. 382-47 du code de la sécurité sociale (prestations).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L324-9",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret pour les attestations : habilitation ciblée. La proposition de déclasser est sans objet.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Habilitation d'un décret simple pour les attestations et déclarations : le pouvoir réglementaire s'exerce sans elle (art. 21 C).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L324-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le donneur d'ordre assure le risque de privation d'emploi : adaptation propre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L324-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Assiette des contributions, déclaration par l'État, prise en charge pour les donneurs d'ordre en production : adaptation propre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L324-12",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Renvoi à l'accord d'assurance chômage pour les mesures d'application : un seul régime, celui du code du travail. La proposition de réécrire au titre de l'aménagement de peine est sans objet.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Obligation d'assurance du donneur d'ordre : second alinéa de L324-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L324-6"
     }
-  ]
+  ],
+  "passe": 3
 }
