@@ -10,203 +10,142 @@
     {
       "code": "penitentiaire",
       "num": "L751-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Spécialité législative à Wallis-et-Futuna : la loi ne s'y applique que sur mention expresse. Clause imposée par le statut.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Clause d'application et table d'adaptations en un article (registre 7.4 : la version applicable est celle de la loi de réécriture). Les compteurs par livre (L. 751-4, L. 752-1, L. 753-1, L. 754-1, L. 755-1, L. 756-1, L. 757-1) deviennent une règle générale et la liste des seuls articles exclus : L. 113-3-1 (absent de tous les compteurs), L. 324-1 à L. 324-12 (sécurité sociale et assurance chômage, de compétence locale) et L. 411-4 (compte personnel d'activité, qui reçoit L. 411-5 à L. 411-9, tous exclus). L. 115-1, L. 115-2 et L. 322-8, eux aussi exclus, sont abrogés. Les adaptations deviennent les lignes de la table. Celle de L. 322-3 tombe : L. 322-3 réécrit (lot p079) ne renvoie plus au code de la santé publique.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve des dispositions applicables de plein droit, les dispositions législatives du présent code s'appliquent dans les îles Wallis et Futuna dans leur rédaction résultant de la loi n° [...] du [...], à l'exception des articles L. 113-3-1, L. 324-1 à L. 324-12 et L. 411-4, avec les adaptations suivantes :\n1° La collectivité de Wallis et Futuna tient lieu de département, l'administrateur supérieur de préfet et de sous-préfet.\n2° Le tribunal de première instance ou sa section détachée tient lieu de tribunal judiciaire, le juge d'instruction de pôle de l'instruction.\n3° Les renvois au code du travail visent le code du travail applicable localement. Un renvoi à une disposition non applicable localement vise la disposition locale de même objet.\n4° Les collectivités territoriales mentionnées à l'article L. 111-1 sont le territoire et les circonscriptions territoriales.\n5° À l'article L. 114-4, seul le premier alinéa s'applique.\n6° À l'article L. 115-4, le directeur de l'agence de santé tient lieu de directeur général de l'agence régionale de santé.\n7° À l'article L. 412-20, le salaire minimum de référence est celui que définit l'article 95 de la loi n° 52-1322 du 15 décembre 1952 instituant un code du travail dans les territoires et territoires associés relevant des ministères de la France d'outre-mer."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L751-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Grille de substitution (collectivité, administrateur supérieur, tribunal de première instance, juge d'instruction, code du travail local) : nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 751-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L751-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Clause générale de substitution des références non applicables localement : filet.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 751-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L751-4",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Compteur d'application des articles L. 1 à L. 8 : gardé, il se met à jour avec la loi qui porte la réécriture (L. 1 réécrit au lot p106).",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 751-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L752-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre Ier, technique imposée par la spécialité législative : gardé, il se met à jour avec la loi qui porte la réécriture. Les bornes suivent les abrogations du lot p091 et du lot p090 : L. 113-3 sort de la ligne « L. 113-3 et L. 113-4 », la plage « L. 113-5 à L. 113-13 » se réduit à L. 113-5 et L. 113-12 (L. 113-6 à L. 113-11 et L. 113-13 abrogés), la plage « L. 115-3 à L. 135-1 » s'arrête à L. 133-2 (L. 133-3 et L. 135-1 abrogés).",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 751-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 113-3 et L. 113-4\n",
-          "nouveau": "\nL. 113-4\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "L. 113-5 à L. 113-13",
-          "nouveau": "L. 113-5 et L. 113-12"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "L. 115-3 à L. 135-1",
-          "nouveau": "L. 115-3 à L. 133-2"
-        }
-      ]
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L752-2",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Adaptation de L. 111-2 au territoire et aux circonscriptions, nécessaire. Le texte adapté renvoie aux droits « mentionnés au deuxième alinéa » sans dire de quel article : aligné sur la rédaction de Polynésie et de Nouvelle-Calédonie, qui vise L. 111-1. Un mot par notion.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Conventions de L. 111-2 avec le territoire et les circonscriptions : ligne de la table, L. 111-2 étant fusionné dans L. 111-1.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "mentionnés au deuxième alinéa. \"",
-          "nouveau": "mentionnés par les dispositions de l'article L. 111-1. \""
-        }
-      ]
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L752-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "L. 114-5 réduit à l'indemnisation des réservistes : le droit du travail et la sécurité sociale relèvent de règles locales. Nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "L. 114-5 réduit à l'indemnisation : l'indemnisation est à L. 114-1, applicable, et la table n'applique que le premier alinéa de L. 114-4 (qui reçoit L. 114-5).",
+      "ligne_rouge": "aucune",
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L752-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Agence de santé du territoire au lieu de l'agence régionale de santé : nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 751-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L753-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre II, technique imposée par la spécialité législative : gardé. Coordination avec les lots arrêtés : L. 231-3 (A, lot p077) glisse vers L. 231-2.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 751-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 225-1 à L. 231-3\n",
-          "nouveau": "\nL. 225-1 à L. 231-2\n"
-        }
-      ]
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L754-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre III, technique imposée par la spécialité législative : gardé. Coordination avec les lots arrêtés : L. 315-1 (A, lot p082) retiré ; la ligne « L. 315-1 » tombe avec sa date de rédaction.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 751-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 315-1\nla loi n° 2025-532 du 13 juin 2025 visant à sortir la France du piège du narcotrafic",
-          "nouveau": ""
-        }
-      ]
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L754-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "L. 322-3 sans renvoi au code de la santé publique, non applicable localement : le secret médical reste garanti. Nécessaire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Adaptation sans objet : L. 322-3, réécrit au lot p079, ne renvoie plus à L. 6141-5 du code de la santé publique. Le secret médical et celui de la consultation s'appliquent tels quels.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L755-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre IV, technique imposée par la spécialité législative : gardé. Coordination avec les lots arrêtés : L. 421-1 (A, lot p087) glisse vers L. 413-1 ; L. 423-1 (A, lot p087) glisse vers L. 423-4 ; L. 424-5 (A, lot p087) glisse vers L. 424-4.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 751-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 413-1 à L. 421-1\n",
-          "nouveau": "\nL. 413-1\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 423-1 à L. 424-5\n",
-          "nouveau": "\nL. 423-4 à L. 424-4\n"
-        }
-      ]
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L755-2",
-      "decision": "R",
+      "decision": "F",
       "principe": "P3",
-      "motif": "L'adaptation réécrit tout L. 412-20 pour substituer le salaire minimum local au salaire minimum de croissance : elle efface outre-mer les deux premières phrases de l'article métropolitain, dont l'interdiction de tout prélèvement pour frais d'entretien sur le produit du travail. Cette garantie relève de l'État, qui gère les établissements. L'adaptation se réduit à la troisième phrase, seule à dépendre du droit du travail local, et la quatrième (taux variable) s'applique telle quelle. Le salaire minimum de référence reste celui du code du travail du territoire (loi n° 52-1322).",
+      "motif": "Salaire minimum local de L. 412-20 : ligne explicite de la table (relecture adverse), plutôt que la formule générique du 3°. La phrase sur le taux variable s'applique telle quelle.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Pour son application dans les îles Wallis et Futuna, l'article L. 412-20 est ainsi rédigé :\n\" Art. L. 412-20.-La rémunération",
-          "nouveau": "Pour son application dans les îles Wallis et Futuna, la troisième phrase de l'article L. 412-20 est ainsi rédigée :\n\" La rémunération"
-        },
-        {
-          "op": "remplacer",
-          "ancien": " Ce taux peut varier en fonction du régime sous lequel les personnes détenues sont employées. \"",
-          "nouveau": " \""
-        }
-      ]
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L756-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre V, technique imposée par la spécialité législative : gardé. La borne finale suit l'abrogation de L. 545-1 (lot p094) : la plage s'arrête à L. 544-3.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 751-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "L. 511-1 à L. 545-1",
-          "nouveau": "L. 511-1 à L. 544-3"
-        }
-      ]
+      "vers": "L751-1"
     },
     {
       "code": "penitentiaire",
       "num": "L757-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre VI, technique imposée par la spécialité législative : gardé. Les bornes suivent les abrogations des lots p097 et p098 : L. 611-2, L. 612-1 et L. 632-1 abrogés, la ligne de L. 612-1 et sa rédaction tombent, les plages s'arrêtent à L. 611-1 et à L. 631-1. Coordination avec les lots arrêtés : L. 621-1 (A, lot p096) glisse vers L. 621-3.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 751-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "L. 611-1 à L. 611-2\nL. 612-1\nLa loi n° 2023-1059 du 20 novembre 2023 d'orientation et de programmation du ministère de la justice 2023-2027\nL. 621-1 à L. 632-1",
-          "nouveau": "L. 611-1\nL. 621-1 à L. 631-1"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 621-1 à L. 631-1",
-          "nouveau": "\nL. 621-3 à L. 631-1"
-        }
-      ]
+      "vers": "L751-1"
     }
-  ]
+  ],
+  "passe": 3
 }
