@@ -10,184 +10,187 @@
     {
       "code": "cpp",
       "num": "D47-1-30",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Délimite les infractions à signaler au procureur européen délégué. Renvois aux anciens 696-108 et 696-111 (L2411-1, L6111-1) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D47-1-31",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Délits signalés au-delà de 10 000 euros de préjudice, en deçà sous conditions du règlement (UE) 2017/1939 : mise en œuvre due. Coquille corrigée (« suivants'ils »).",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Les infractions à signaler au procureur européen délégué dans un article : champ temporel (ancien D47-1-30), délits et seuil de 10 000 euros (ancien D47-1-31), taxe sur la valeur ajoutée (ancien D47-1-32, sans la liste figée des Etats, passe 2), association de malfaiteurs (ancien D47-1-33), infractions connexes (ancien D47-1-34). Champ exact gardé. Anciens 696-108 et 696-111 : L2411-1 (2029) et L6111-1 (pièce de passe 3, lot p200).",
+      "ligne_rouge": "aucune (passe 1). Aucun élargissement : chaque délit, seuil et condition du règlement (UE) 2017/1939 garde son champ.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "des délits suivants'ils portent",
-          "nouveau": "des délits suivants s'ils portent"
+          "op": "rediger",
+          "nouveau": "Pour l'application des articles L. 2411-1 et L. 6111-1, sont signalées au procureur européen délégué les infractions suivantes, commises après le 20 novembre 2017 :\n1° Les délits qui portent atteinte aux recettes, aux dépenses ou aux avoirs relevant du budget de l'Union européenne, des budgets de ses institutions, organes et organismes ou des budgets qu'ils gèrent et contrôlent directement, lorsque le préjudice causé à l'Union est susceptible d'atteindre 10 000 euros : escroquerie et abus de confiance prévus à la section 1 des chapitres III et IV du titre Ier du livre III du code pénal, soustraction, détournement ou destruction de biens prévus au paragraphe 5 de la section 3 du chapitre II du titre III du livre IV du même code, corruption prévue aux articles 432-11, 433-1, 435-1 et 435-3 du même code, contrebande, importation ou exportation frauduleuse prévues à l'article 414-2 du code des douanes, et blanchiment des fonds provenant de ces délits prévu à l'article 415 du code des douanes ou à la section 1 du chapitre IV du titre II du livre III du code pénal.\n2° Les mêmes délits, pour un préjudice inférieur à 10 000 euros, si les répercussions du dossier à l'échelle de l'Union rendent nécessaire une enquête du Parquet européen, si des fonctionnaires, agents ou membres des institutions de l'Union pourraient être soupçonnés, ou s'il n'est pas possible de déterminer si l'un de ces critères est rempli.\n3° L'association de malfaiteurs prévue à l'article 450-1 du code pénal en vue de préparer et de commettre ces délits.\n4° Les infractions connexes à ces délits qui leur sont indissociablement liées.\nLes délits qui portent sur la taxe sur la valeur ajoutée ne sont signalés que si le préjudice total atteint au moins dix millions d'euros et si l'infraction a un lien avec le territoire d'au moins deux Etats membres participant à la coopération renforcée qui crée le Parquet européen."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "D47-1-32",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "La liste nominative des États participants est figée et se périme à chaque adhésion : la Pologne (décision (UE) 2024/807) et la Suède (décision (UE) 2024/1952) y manquent. Le critère du règlement suffit, sans liste.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "2° L'infraction a un lien avec le territoire d'au moins deux États mentionnés ci-dessous, qui participent à la coopération renforcée concernant la création du Parquet européen :\n-l'Allemagne,\n-l'Autriche,\n-la Belgique,\n-la Bulgarie,\n-Chypre,\n-la Croatie,\n-l'Espagne,\n-l'Estonie,\n-l'Italie,\n-la Finlande,\n-la France,\n-la Grèce,\n-la Lettonie,\n-la Lituanie,\n-le Luxembourg,\n-Malte,\n-les Pays-Bas,\n-le Portugal,\n-la République tchèque,\n-la Roumanie,\n-la Slovaquie,\n-la Slovénie.",
-          "nouveau": "2° L'infraction a un lien avec le territoire d'au moins deux États membres qui participent à la coopération renforcée concernant la création du Parquet européen."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "D47-1-33",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Association de malfaiteurs en vue des délits de D47-1-31 et D47-1-32 : signalement dû par le règlement.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D47-1-34",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Infractions connexes indissociables : signalement dû par le règlement.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "D47-1-35",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Signalement direct au procureur européen délégué, information simultanée des parquets spécialisés et des douanes : coordination nécessaire. Renvois aux anciens 696-111, 19, 40, 80, 704 et 705 (L6111-1, L2222-4, L1521-1, L3415-4, L2152-6, L2152-8) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D47-1-36",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Transmission par les parquets spécialisés dans les meilleurs délais : gardée. Accord corrigé (« juridictions interrégionales spécialisées »). Renvois aux anciens 704, 705, 696-111, 19, 40 et 80 à coordonner (voir D47-1-35).",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Information simultanée des parquets spécialisés et transmission par eux (ancien D47-1-36) dans un article. Les autorités qui signalent sont désignées par renvoi aux 1° à 3° de L. 6111-1 (lot p200), qui remplace les anciens 19, 40 et 80. Anciens 704 et 705 : L2152-6 et L2152-8 (2029).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "juridictions interrégionales spécialisée en",
-          "nouveau": "juridictions interrégionales spécialisées en"
+          "op": "rediger",
+          "nouveau": "Les autorités mentionnées aux 1° à 3° de l'article L. 6111-1 qui adressent directement un signalement au procureur européen délégué en informent en même temps le procureur de la République financier si l'une des infractions relève de l'article L. 2152-8, le procureur de la République près la juridiction interrégionale spécialisée prévue à l'article L. 2152-6 si l'une relève de sa compétence, et le procureur de la République territorialement compétent.\nCes procureurs spécialisés adressent dans les meilleurs délais au procureur européen délégué les signalements que ces autorités ou le procureur territorialement compétent leur ont transmis.\nL'administration des douanes est informée du signalement ou de sa transmission lorsqu'il concerne une infraction prévue par le code des douanes."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D47-1-37",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contenu minimal du signalement : faits, qualifications, personnes, critères de l'art. 25 du règlement.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine maximale encourue n'est mentionnée que pour répartir la compétence (art. 25 § 3 du règlement), aucune peine n'est fixée"
+      "principe": "P23",
+      "motif": "Contenu minimal du signalement : gardé en entier (critères de l'article 25 du règlement), phrases resserrées.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'article ne fixe ni peine ni modulation. La comparaison des peines encourues ne sert qu'au partage de compétence prévu par le règlement : gardée mot pour mot en substance.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le signalement comprend au moins :\n1° Une description des faits et une évaluation du préjudice causé ou susceptible d'être causé à l'Union européenne et, le cas échéant, à d'autres victimes.\n2° La ou les qualifications juridiques possibles.\n3° Toute information disponible sur les victimes potentielles, les suspects et les autres personnes impliquées, notamment sur la mise en cause de fonctionnaires, agents ou membres des institutions de l'Union.\n4° En cas d'infraction connexe, si la peine privative de liberté maximale qu'elle encourt est équivalente ou supérieure à celle des délits mentionnés aux 1° à 3° de l'article D. 47-1-30, et si elle a contribué à l'infraction financière.\n5° S'il y a lieu de supposer que le préjudice causé ou susceptible d'être causé aux intérêts financiers de l'Union n'excède pas celui causé à une autre victime.\n6° Dans les cas des 4° et 5°, si l'autorité estime que le Parquet européen pourrait ne pas exercer sa compétence, selon le paragraphe 3 de l'article 25 du règlement (UE) 2017/1939 du Conseil du 12 octobre 2017."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D47-1-38",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Envoi sans délai de la procédure au procureur européen délégué, dessaisissement sans recours : pas de temps perdu entre deux parquets. Renvois aux anciens 696-112, 696-135 et 696-136 (L6111-2, L6112-4, L6112-5) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Envoi sans délai de la procédure au procureur européen délégué, douanes informées : gardés. « Insusceptible de recours » retiré : L. 4 (v0) ferme tout recours contre une mesure d'administration judiciaire. Anciens 696-112, 696-135 et 696-136 lus sur la pièce de passe 3 (L6111-2, L6112-5).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de l'article L. 6111-2, le magistrat initialement saisi adresse sans délai l'ensemble de la procédure au procureur européen délégué dès que celui-ci l'avise qu'il retient sa saisine, sauf conflit de compétence selon l'article L. 6112-5. L'administration des douanes est informée du dessaisissement lorsque l'enquête porte sur une infraction prévue par le code des douanes.\nLa décision de dessaisissement du procureur de la République et l'ordonnance du juge d'instruction rendue à cette fin sont des mesures d'administration judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D47-1-39",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Désigne le procureur général qui tranche le refus de dessaisissement, décision sans recours transmise dans les meilleurs délais. Renvois aux anciens 696-135 et 704 (L6112-4, L2152-6) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D47-1-40",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Procureur général destinataire des renvois et classements du Parquet européen, douanes informées pour le recouvrement. Coquille corrigée : le règlement du 12 octobre 2017 est le n° 2017/1939. Renvoi à l'ancien 696-137 (L6112-6, L6112-7) à coordonner.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Le procureur général compétent dans un article : refus de dessaisissement et renvoi d'une infraction connexe (ancien D47-1-40), classement sans suite signalé aux douanes. « Insusceptible de recours » retiré (L. 4). Coquille du règlement corrigée en passe 2 (2017/1939). Anciens 696-135, 696-137 et 704 : L6112-5, L6112-6 (pièce de passe 3), L2152-6 (2029).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "règlement (UE) 2017/1039 du Conseil",
-          "nouveau": "règlement (UE) 2017/1939 du Conseil"
+          "op": "rediger",
+          "nouveau": "Le procureur général compétent pour l'application du premier alinéa de l'article L. 6112-5, et pour être informé selon l'article L. 6112-6 du renvoi d'une infraction connexe que le procureur européen délégué envisageait de classer sans suite, est le procureur général près la cour d'appel où siège la juridiction interrégionale spécialisée prévue à l'article L. 2152-6 dont relève le procureur de la République concerné ou, pour le procureur de la République financier, le procureur général près la cour d'appel de Paris.\nSa décision, mesure d'administration judiciaire, est adressée par tout moyen et dans les meilleurs délais au procureur de la République et au procureur européen délégué. Le procureur qu'il charge des investigations peut les confier à l'administration des douanes, selon le code des douanes, lorsque l'infraction relève de ce code.\nInformé d'un classement sans suite par le Parquet européen, il en avise sans délai l'administration des douanes, aux fins de recouvrement des ressources propres selon le paragraphe 4 de l'article 39 du règlement (UE) 2017/1939 du Conseil du 12 octobre 2017."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D47-1-41",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Tout échange avec le procureur européen délégué peut être numérique : gardé. Coordination demandée au lot p044 : D592 fusionne dans D591, la borne devient D. 591. Coquille corrigée (« transmis ou par lui »). Renvois aux anciens 801-1 et 803-1 (L1611-1, L1632-1 et suivants) à coordonner.",
-      "ligne_rouge": "aucune",
+      "motif": "Échanges numériques avec le procureur européen délégué : gardés en une phrase (relecture adverse). Les règles générales ne couvrent ni les transmissions faites par lui ni les signalements des administrations sans protocole. Coquille « transmis ou par lui » corrigée (passe 2). Anciens 801-1 et 803-1 lus sur les pièces de passe 3 (L1611-1, L1632-1) ; la borne D. 589 à D. 592 tombe avec le renvoi direct à la loi.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "transmis ou par lui",
-          "nouveau": "transmis par lui"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "D. 589 à D. 592",
-          "nouveau": "D. 589 à D. 591"
+          "op": "rediger",
+          "nouveau": "Les signalements, informations, avis et procédures adressés au procureur européen délégué ou transmis par lui peuvent être établis ou convertis sous format numérique et communiqués par voie électronique, selon les articles L. 1611-1 et L. 1632-1."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D47-1-42",
-      "decision": "S",
       "principe": "P25",
-      "motif": "Greffier du procureur européen délégué et appels des ordonnances du juge des libertés et de la détention et du procureur européen délégué, ouverts à la personne et à la partie civile : contrôle juridictionnel tenu. Coquille corrigée (« aliéna »). Renvois aux anciens 696-114, 185, 186, 186-1, 187-1, 187-2, 80-1-1, 87, 139, 140 et 167 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la détention, l'assignation et le contrôle judiciaire restent décidés par le juge des libertés et de la détention, avec appel de la personne",
+      "motif": "Les recours contre les décisions de la procédure spécifique d'investigation dans un article : greffier, appels du procureur européen délégué et de la personne contre les ordonnances du juge des libertés et de la détention, appels de la personne et de la partie civile contre les ordonnances du procureur européen délégué, contestation immédiate du contrôle judiciaire et transmission du dossier sous vingt-quatre heures (ancien D47-1-43), avis sur l'assignation à résidence (ancien D47-1-44). Chaque faculté garde son périmètre. Anciens numéros lus sur les pièces de passe 3 : 696-114 (L6113-2), 696-119 (L6114-11, L6115-1), 696-122 (L6114-14), 185 (L3712-4), 186 (L3712-6, L3712-7), 186-1 (L3712-5), 187-1 et 187-2 (L3742-16 à L3742-18), 80-1-1 (L3432-16), 87 (L3434-13), 139 et 140 (L3622-1, L3622-2), 167 (L3443-19).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : tout placement sous contrôle judiciaire décidé par le procureur européen délégué se conteste immédiatement devant le juge des libertés et de la détention, dossier transmis sous vingt-quatre heures, et la personne en est avisée. Chaque ordonnance qui touche la liberté reste susceptible d'appel, référé-liberté compris, et l'assignation à résidence relève du juge.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "quatrième aliéna",
-          "nouveau": "quatrième alinéa"
+          "op": "rediger",
+          "nouveau": "Le procureur européen délégué qui suit la procédure spécifique d'investigation prévue à l'article L. 6113-2 est assisté d'un greffier dans les mêmes conditions que le juge d'instruction.\nLes ordonnances du juge des libertés et de la détention rendues dans cette procédure sont susceptibles d'appel du procureur européen délégué selon l'article L. 3712-4. Celles qui statuent sur le contrôle judiciaire, l'assignation à résidence avec surveillance électronique ou la détention provisoire sont susceptibles d'appel de la personne mise en examen selon l'article L. 3712-6, le cas échéant selon les articles L. 3742-16 à L. 3742-18.\nLa personne mise en examen peut faire appel, selon l'article L. 3712-6, des ordonnances du procureur européen délégué statuant sur la contestation de sa mise en examen ou d'une constitution de partie civile, sur la modification ou la mainlevée de son contrôle judiciaire ou sur une demande de contre-expertise. La partie civile peut faire appel, selon l'article L. 3712-7, de l'ordonnance du procureur européen délégué qui statue sur la contestation de sa constitution. Les parties peuvent faire appel des ordonnances du procureur européen délégué mentionnées à l'article L. 3712-5.\nLe procureur européen délégué qui place la personne sous contrôle judiciaire l'avise qu'elle peut contester immédiatement sa décision devant le juge des libertés et de la détention, selon l'article L. 6114-11. Si elle ou son avocat la conteste, le dossier est transmis sans délai à ce juge, au plus tard dans les vingt-quatre heures. A défaut de contestation immédiate, la personne peut faire appel de l'ordonnance selon l'article L. 3712-6.\nDans l'avis motivé qu'il transmet au juge des libertés et de la détention selon le dernier alinéa de l'article L. 6114-14, le procureur européen délégué indique s'il estime que la personne pourrait être placée sous assignation à résidence avec surveillance électronique."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "D47-1-43",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contrôle judiciaire ordonné par le procureur européen délégué : contestation immédiate devant le juge des libertés et de la détention, dossier transmis sous vingt-quatre heures, appel ouvert. Renvois aux anciens 696-119, 185 et 186 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : le juge du siège contrôle sans délai la mesure restrictive de liberté décidée par un procureur"
-    },
-    {
-      "code": "cpp",
-      "num": "D47-1-44",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "L'assignation à résidence sous surveillance électronique relève du juge des libertés et de la détention, saisi par le procureur européen délégué. Renvoi à l'ancien 696-122 (L6114-14) à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la mesure privative de liberté reste décidée par le juge du siège"
     },
     {
       "code": "cpp",
       "num": "D47-1-45",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Pourvoi du procureur européen délégué devant la Cour de cassation : gardé. Article manquant ajouté (« par les articles »). Renvois aux anciens 696-109, 567, 568 et 585-2 (L2411-2, L7212-1, L7212-15) à coordonner.",
-      "ligne_rouge": "aucune",
+      "motif": "Pourvoi du procureur européen délégué qui exerce les fonctions de procureur général : gardé. Anciens 696-109, 568 et 585-2 : L2411-2, L7212-1 et L7212-15 (2029). L'ancien 567, qui ouvre le pourvoi au ministère public, n'a pas de siège propre en 2029 : le renvoi aux règles du pourvoi suffit.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "prévues par articles",
-          "nouveau": "prévues par les articles"
+          "op": "rediger",
+          "nouveau": "Le procureur européen délégué qui exerce, selon l'article L. 2411-2, les fonctions de procureur général devant la chambre des investigations et des libertés ou la chambre des appels délictuels peut se pourvoir en cassation contre leurs décisions, selon les articles L. 7212-1 et L. 7212-15."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "D47-1-31",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délits signalés et seuil de 10 000 euros : 1° et 2° de D47-1-30. Coquille « suivants'ils » sans objet.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-1-30"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-1-32",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Taxe sur la valeur ajoutée : dernier alinéa de D47-1-30, sans la liste figée des Etats (passe 2 : la Pologne et la Suède y manquaient).",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-1-30"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-1-33",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Association de malfaiteurs : 3° de D47-1-30.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-1-30"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-1-34",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Infractions connexes indissociables : 4° de D47-1-30.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-1-30"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-1-36",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transmission par les parquets spécialisés dans les meilleurs délais : deuxième alinéa de D47-1-35, douanes au dernier alinéa.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-1-35"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-1-40",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procureur général destinataire du renvoi d'une infraction connexe et du classement sans suite : fusionné dans l'article du procureur général compétent.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-1-39"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-1-43",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Contestation immédiate du contrôle judiciaire, dossier transmis sous vingt-quatre heures, appels : quatrième alinéa de D47-1-42, accordé à L. 6114-11 (lot p200) qui fixe le débat et l'appel devant la chambre. L'appel du procureur européen délégué contre l'ordonnance du juge relève du deuxième alinéa.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : l'avis du droit de contester, la transmission sous vingt-quatre heures, l'appel de l'ordonnance du juge et, à défaut de contestation, l'appel de l'ordonnance du procureur européen délégué survivent à D47-1-42.",
+      "vers": "D47-1-42"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-1-44",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Avis sur l'assignation à résidence avec surveillance électronique : dernier alinéa de D47-1-42, accordé au dernier alinéa de L. 6114-14 (lot p200) qui fait transmettre le dossier au juge avec un avis motivé.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : l'assignation à résidence reste décidée par le juge des libertés et de la détention (L. 6114-12). Le procureur européen délégué ne fait qu'en suggérer l'opportunité dans son avis, comme en 2029.",
+      "vers": "D47-1-42"
     }
-  ]
+  ],
+  "passe": 3
 }
