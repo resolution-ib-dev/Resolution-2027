@@ -10,10 +10,17 @@
     {
       "code": "cpp",
       "num": "R41",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Sièges des cours d'assises hors du chef-lieu : règle d'organisation nécessaire, sans autre support.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Sièges des cours d'assises hors du chef-lieu : même table, en une phrase. La règle du siège ordinaire et l'exception par décret en Conseil d'État sont à L2123-3, que l'article vise.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En application de l'article L. 2123-3, le siège de la cour d'assises est fixé à Saintes pour la Charente-Maritime, à Coutances pour la Manche, à Saint-Omer pour le Pas-de-Calais, à Chalon-sur-Saône pour la Saône-et-Loire et à Draguignan pour le Var."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
