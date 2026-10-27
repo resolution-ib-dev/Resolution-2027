@@ -10,319 +10,416 @@
     {
       "code": "cpp",
       "num": "L3411-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information obligatoire en matière criminelle, facultative en matière délictuelle, ouverte par le procureur ou par la victime : accès de la victime au juge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3411-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Information contraventionnelle facultative, sur réquisitoire seulement : simple.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L3411-2 : une règle pour les trois matières et les deux modes d'ouverture.",
+      "ligne_rouge": "Accès de la victime au juge (P18) : la plainte avec constitution de partie civile ouvre toujours l'information en matière criminelle et délictuelle.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'information est obligatoire en matière criminelle. Elle est facultative en matière délictuelle et contraventionnelle.\nElle est ouverte par un réquisitoire du procureur de la République ou, sauf en matière contraventionnelle, par une plainte avec constitution de partie civile."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3412-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réquisitoire introductif : faits, qualification, date et signature. Forme minimale de la saisine.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L3412-6 et L3412-7 : le réquisitoire et le juge qu'il saisit tiennent dans un article.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu : forme et destinataire de la saisine gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République saisit le juge d'instruction par un réquisitoire introductif, daté et signé, pris contre personne dénommée ou non dénommée. Ce réquisitoire vise les faits dont le juge d'instruction est saisi et mentionne leur qualification. Il saisit un juge d'instruction de son tribunal ou, dans les cas prévus par les articles L. 2121-10 et L. 2121-11, celui du tribunal où se trouve le pôle de l'instruction territorialement compétent."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3412-2",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Défèrement devant le juge d'instruction à l'issue de la garde à vue, dans les délais de L3523-28 et L3523-29 : gardé. Doublon « de de » corrigé.",
-      "ligne_rouge": "art. 66 C examiné : la personne déférée comparaît devant le juge dans des délais bornés",
+      "motif": "Défèrement gardé, phrase resserrée.",
+      "ligne_rouge": "Art. 66 C examiné : la comparution devant le juge reste enfermée dans les délais de L3523-28 et L3523-29.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "à l'issue de de cette mesure",
-          "nouveau": "à l'issue de cette mesure"
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut faire déférer devant le juge d'instruction, à l'issue de la garde à vue, la personne contre laquelle il ouvre une information. Elle comparaît devant le juge d'instruction dans les délais prévus par les articles L. 3523-28 ou L. 3523-29."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3412-3",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Continuation de quarante-huit heures des techniques en cours à l'ouverture de l'information, autorisation écrite et motivée, fin possible par le juge : pas de rupture de l'enquête.",
-      "ligne_rouge": "art. 66 C et vie privée (art. 2 DDHC) examinés : quarante-huit heures au plus, décision motivée, le juge d'instruction peut y mettre fin ; art. 8 DDHC : seuil de trois ans, aucune peine fixée"
-    },
-    {
-      "code": "cpp",
-      "num": "L3412-4",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Cosaisine requise par le procureur dans un pôle de l'instruction : simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3412-5",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Réquisitoire supplétif pour les faits nouveaux : gardé. Article manquant corrigé (« la saisine du juge d'instruction »).",
-      "ligne_rouge": "aucune",
+      "motif": "Les cinq catégories d'opérations se regroupent en trois sans changer de champ, la phrase se resserre.",
+      "ligne_rouge": "Art. 66 C et vie privée examinés : seuil de trois ans, durée de quarante-huit heures, décision écrite, spéciale et motivée, contrôle du juge d'instruction, tous gardés. Art. 8 DDHC : aucune peine en cause.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "étendre la saisine de juge d'instruction",
-          "nouveau": "étendre la saisine du juge d'instruction"
+          "op": "rediger",
+          "nouveau": "Pour un crime ou un délit puni d'au moins trois ans d'emprisonnement, le procureur de la République qui requiert l'ouverture d'une information peut, si la manifestation de la vérité exige de ne pas interrompre les investigations en cours, autoriser les officiers et agents de police judiciaire chargés de l'enquête à poursuivre, pendant quarante-huit heures au plus après la délivrance du réquisitoire introductif :\n1° Les surveillances prévues à l'article L. 3511-5.\n2° Les techniques prévues aux chapitres 2, 3, 5 et 6 du titre V du livre V de la présente partie.\n3° Les infiltrations prévues au chapitre 5 du titre VI du même livre.\nL'autorisation est écrite, spéciale et motivée, et mentionne les actes autorisés. Le juge d'instruction peut à tout moment mettre un terme à ces opérations. L'autorisation n'est versée au dossier qu'avec les procès-verbaux qui relatent l'exécution et constatent l'achèvement de ces actes, le cas échéant prolongés par le juge d'instruction."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3412-6",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Saisine d'un juge d'instruction du tribunal : base.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3412-7",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Saisine du pôle de l'instruction pour les affaires qui le requièrent : simple.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L3413-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Plainte avec constitution de partie civile devant le juge d'instruction, pôle en matière criminelle, juge local si peu complexe : accès de la victime au juge.",
-      "ligne_rouge": "art. 8 DDHC examiné : les seuils de peine délimitent la compétence, aucune peine fixée"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réquisitions de non-informer quand les faits ne peuvent être poursuivis : filtre nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Non-lieu requis quand les faits n'ont manifestement pas été commis : filtre des plaintes infondées.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-12",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Refus d'informer avec invitation à la citation directe quand l'enquête a identifié l'auteur d'un délit : voie plus rapide pour la victime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-13",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Décision du juge d'informer ou non, motivée s'il refuse ou passe outre les réquisitions : la victime sait pourquoi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-14",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Amende civile pour constitution abusive ou dilatoire : protège la personne visée à tort.",
-      "ligne_rouge": "art. 8 DDHC examiné : amende civile facultative et plafonnée (L3452-29), réservée à l'abus"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-2",
+      "principe": "P23",
+      "motif": "Exception du crime simple resserrée, sans changer ses conditions.",
+      "ligne_rouge": "Art. 8 DDHC examiné : aucune peine en cause. Accès de la victime au juge gardé.",
       "decision": "S",
-      "principe": "P12",
-      "motif": "Recevabilité de la plainte avec constitution de partie civile après refus du parquet ou trois mois d'attente : gardée, elle borne l'attente de la victime (P19). La plainte au procureur peut aussi être adressée par voie électronique, ce qui fait courir les trois mois.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "contre récépissé ou par lettre recommandée avec demande d'avis de réception, ou depuis",
-          "nouveau": "contre récépissé, par lettre recommandée avec demande d'avis de réception ou par voie électronique, ou depuis"
+          "op": "rediger",
+          "nouveau": "Toute personne qui se prétend lésée par un crime ou un délit peut porter plainte avec constitution de partie civile, contre personne dénommée ou non dénommée, devant le juge d'instruction territorialement compétent et, en matière criminelle, devant celui du pôle de l'instruction. Toutefois, pour un crime puni de quinze ou de vingt ans de réclusion commis hors récidive légale, le procureur de la République peut requérir la saisine du juge d'instruction d'un tribunal sans pôle devant lequel la plainte a été déposée, lorsque l'absence de complexité de l'affaire rend peu probable le recours à la cosaisine, même en cours d'instruction."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L3413-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Dispense du délai pour les crimes, la presse et certains délits électoraux : accès direct au juge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Justification des ressources de la personne morale à but lucratif : sert la fixation de la consignation.",
-      "ligne_rouge": "aucune"
+      "num": "L3413-2",
+      "principe": "P23",
+      "motif": "Reçoit L3413-3 (dispenses) et L3413-4 (personne morale) : une seule règle de recevabilité. La voie électronique de la passe 2 vient de L1632-5, qui ouvre la lettre recommandée électronique.",
+      "ligne_rouge": "Accès de la victime au juge (P18, P19) : l'attente bornée à trois mois et les dispenses sont gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La plainte avec constitution de partie civile n'est recevable que si la personne justifie que le procureur de la République lui a fait connaître qu'il n'engagera pas lui-même de poursuites à la suite de sa plainte, ou que trois mois se sont écoulés depuis qu'elle a déposé plainte devant lui, contre récépissé ou par lettre recommandée avec demande d'avis de réception, ou depuis qu'elle lui a adressé dans les mêmes formes copie de sa plainte déposée devant un service de police judiciaire. La personne qui a exercé son action devant une juridiction civile pendant ce délai peut se constituer partie civile devant le juge d'instruction après s'être désistée de l'instance civile, par dérogation à l'article L. 1221-6.\nCette condition n'est pas requise pour un crime, pour un délit prévu par la loi du 29 juillet 1881 sur la liberté de la presse ou pour un délit prévu par les articles L. 86, L. 87, L. 91 à L. 100, L. 102 à L. 104, L. 106 à L. 108 et L. 113 du code électoral.\nLa plainte d'une personne morale à but lucratif n'est en outre recevable que si elle y joint son bilan et son compte de résultat."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3413-5",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Consignation fixée selon les ressources, restituée, dispensée pour l'aide juridictionnelle : garantit l'amende civile sans fermer le juge.",
-      "ligne_rouge": "art. 8 DDHC examiné : la consignation n'est pas une peine, proportionnée aux ressources et restituée"
+      "principe": "P23",
+      "motif": "Six phrases ramenées à quatre, sans perte.",
+      "ligne_rouge": "Art. 8 DDHC examiné : montant selon les ressources, restitution, dispense pour l'aide juridictionnelle, gardés. L'accès au juge n'est pas fermé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction constate par ordonnance le dépôt de la plainte. Il fixe, en fonction des ressources de la partie civile, le montant de la consignation qui garantit le paiement de l'amende civile prévue à l'article L. 3452-29 et le délai de son dépôt au greffe, à peine d'irrecevabilité de la plainte. La consignation est restituée si l'amende n'est pas prononcée. Elle n'est pas exigée de la partie civile qui a obtenu l'aide juridictionnelle totale ou partielle, ou que le juge d'instruction en dispense."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3413-6",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Transmission au procureur dès la consignation versée : pas de temps mort.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Délai supplémentaire de trois mois au plus pour les réquisitions : borné.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3413-8",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Audition de la partie civile et pièces complémentaires avant réquisitions : la victime est entendue.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L3413-7 et L3413-8 : les formalités préalables aux réquisitions tiennent dans un article. L'absence de recours suit L. 4.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu. La victime reste entendue avant les réquisitions.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la consignation a été versée dans le délai fixé, ou n'a pas été exigée, le juge d'instruction transmet la plainte au procureur de la République pour ses réquisitions. Le procureur de la République peut demander au juge un délai supplémentaire de trois mois pour poursuivre les investigations, sur lequel le juge statue par une mesure d'administration judiciaire. Si la plainte n'est pas suffisamment motivée ou justifiée, il peut demander au juge d'instruction, si celui-ci ne l'a fait d'office, d'entendre la partie civile et de l'inviter à produire toute pièce utile."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3413-9",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Réquisitions aux fins d'informer, contre personne dénommée ou non : base.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L3413-10 à L3413-12 : les quatre réquisitions possibles dans un article.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu : les filtres de la plainte gardent leurs conditions.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République requiert de ne pas informer si, pour des causes affectant l'action pénale elle-même, les faits ne peuvent légalement comporter une poursuite ou si, à supposer ces faits démontrés, ils ne peuvent admettre aucune qualification pénale. Il peut aussi requérir :\n1° D'informer, contre personne dénommée ou non dénommée.\n2° Un non-lieu, s'il est établi de façon manifeste, le cas échéant au vu des investigations réalisées, que les faits dénoncés par la partie civile n'ont pas été commis.\n3° Un refus d'informer, en invitant la partie civile à citer directement, si l'enquête a établi qu'une personne majeure mise en cause pour les délits dénoncés pourrait être poursuivie et qu'il n'a pas mis l'action pénale en mouvement."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-13",
+      "principe": "P23",
+      "motif": "Reçoit L3413-14 (amende civile) : la décision du juge sur la plainte tient dans un article.  Relecture adverse : l'incompétence se constate par ordonnance, qui ouvre l'appel de la partie civile.",
+      "ligne_rouge": "Art. 8 DDHC examiné (signal de L3413-14) : l'amende civile garde ses conditions et son renvoi à L3452-29. La victime sait pourquoi le juge refuse.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au vu des réquisitions du procureur de la République, le juge d'instruction décide s'il informe. Il rend une ordonnance motivée s'il refuse d'informer ou s'il passe outre les réquisitions. S'il n'est pas territorialement compétent, il renvoie par ordonnance la partie civile à se pourvoir devant la juridiction compétente. S'il rend une ordonnance de non-informer ou de non-lieu, il peut prononcer l'amende civile prévue par l'article L. 3452-29 en cas de constitution de partie civile abusive ou dilatoire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3414-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Désignation du juge d'instruction par le président, tableau de roulement : mesure d'administration.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3414-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Remplacement du juge empêché, suppléance en urgence : continuité.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L3414-2 (remplacement, suppléance). L'absence de recours suit L. 4.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'un tribunal compte plusieurs juges d'instruction, son président ou, en cas d'empêchement, le magistrat qui le remplace désigne, pour chaque information, le juge qui en est chargé, le cas échéant selon un tableau de roulement. Il désigne un ou plusieurs juges d'instruction du tribunal pour remplacer le juge empêché ou nommé à un autre poste. En cas d'urgence et pour des actes isolés, tout juge d'instruction peut suppléer un autre juge d'instruction du même tribunal. Ces désignations sont des mesures d'administration judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3414-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Principe de la cosaisine selon la gravité ou la complexité : une phrase qui ouvre la section. La proposition de déclassement est écartée : la composition du collège d'instruction relève de la loi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3414-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Cosaisine dès l'ouverture, obligatoire sur réquisition : simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3414-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Cosaisine en cours d'information, délai d'un mois, saisine du président de la chambre à défaut : délai opposable.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L3414-4, L3414-5 et L3412-4 : la cosaisine, à l'ouverture ou en cours d'information, dans un article. L'absence de recours suit L. 4.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu : la requête des parties et le délai d'un mois sont gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la gravité ou la complexité de l'affaire le justifie, le président du tribunal judiciaire où se trouve un pôle de l'instruction, ou en cas d'empêchement le magistrat qui le remplace, peut adjoindre au juge chargé de l'information un ou plusieurs juges d'instruction cosaisis. Dès l'ouverture de l'information, il peut le faire d'office et le fait si le procureur de la République le requiert dans son réquisitoire introductif. En cours d'information, il peut le faire à la demande du juge chargé de l'information ou avec son accord, d'office, sur réquisition du ministère public ou sur requête des parties déposée selon l'article L. 3431-2, dans le mois de la réception de la demande. Les parties ne peuvent renouveler leur demande avant six mois.\nLorsque l'information a été ouverte dans un tribunal sans pôle de l'instruction, le président du tribunal où se trouve le pôle territorialement compétent désigne le juge chargé de l'information et les juges cosaisis, après dessaisissement du juge initialement saisi, qui prend effet à la date de leur désignation.\nA défaut d'accord du juge chargé de l'information ou de désignation dans le mois, le président de la chambre des investigations et des libertés peut ordonner la cosaisine dans les conditions prévues à l'article L. 3732-7.\nCes décisions sont des mesures d'administration judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3414-6",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le juge chargé coordonne et décide seul de la détention et du règlement, cosignature possible : une autorité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3414-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Suppléance par le juge cosaisi sans formalité : continuité.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L3414-7 (suppléance par le juge cosaisi).",
+      "ligne_rouge": "Aucune garantie de la personne en jeu : une seule autorité décide de la liberté et du règlement.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas de cosaisine, le juge d'instruction chargé de l'information coordonne le déroulement de celle-ci. Il a seul qualité pour saisir le juge des libertés et de la détention, pour ordonner une mise en liberté d'office et pour rendre l'avis de fin d'information prévu par l'article L. 3451-1 et l'ordonnance de règlement, que les juges cosaisis peuvent cosigner. Le premier juge cosaisi dans l'ordre de désignation le remplace ou le supplée s'il est empêché, pour tous les actes, même sans urgence."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3415-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Saisine in rem, qualification libre : base.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Saisine in rem, phrase resserrée.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction instruit sur les faits dont il a été saisi par le réquisitoire introductif ou la plainte avec constitution de partie civile, à l'égard de toute personne auteur ou complice de ces faits, même non désignée dans l'acte de saisine. Il qualifie librement ces faits."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3415-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Faits nouveaux transmis au procureur, défense d'instruire sur eux à peine de nullité, vérifications sommaires admises : séparation de la poursuite et de l'instruction.",
-      "ligne_rouge": "art. 16 DDHC examiné : la saisine bornée protège la personne contre une instruction sans poursuite, la nullité est tenue ; art. 8 DDHC : aucune peine fixée"
+      "principe": "P20",
+      "motif": "Règle gardée, phrase resserrée.",
+      "ligne_rouge": "Art. 16 DDHC examiné : séparation de la poursuite et de l'instruction, nullité gardée mot pour mot. Art. 8 DDHC : aucune peine en cause.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque des faits non visés par l'acte de saisine sont portés à la connaissance du juge d'instruction, y compris par la partie civile, il communique immédiatement au procureur de la République les plaintes ou les procès-verbaux qui les constatent. A peine de nullité, il ne peut instruire sur ces faits. Il peut toutefois effectuer des vérifications sommaires pour en apprécier la vraisemblance, sans procéder à des actes coercitifs exigeant la mise en mouvement de l'action pénale."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3415-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Le procureur informé choisit parmi les suites de L3415-4 à L3415-7 : article de charpente.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L3415-4 à L3415-7 et L3412-5 (réquisitoire supplétif) : les suites des faits nouveaux dans une seule liste.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu : toutes les suites de 2029 sont gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque des faits nouveaux apparaissent au cours de l'information, notamment par la communication prévue à l'article L. 3415-2, le procureur de la République peut :\n1° Requérir du juge d'instruction qu'il informe sur ces faits, par un réquisitoire supplétif qui les vise et mentionne leur qualification.\n2° Requérir l'ouverture d'une information distincte, qui peut être confiée au même juge d'instruction, désigné selon l'article L. 3414-1.\n3° Ordonner une enquête.\n4° Mettre en œuvre une réponse pénale autre que le jugement ou saisir la juridiction de jugement, selon les livres II, IV et V de la quatrième partie.\n5° Prendre une décision de classement judiciaire selon les articles L. 4113-1 à L. 4113-4.\n6° Transmettre les plaintes ou les procès-verbaux au procureur de la République territorialement compétent."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3411-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information contraventionnelle facultative, sur réquisitoire seulement : reprise à L3411-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3411-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3412-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cosaisine requise par le procureur dans son réquisitoire : reprise à L3414-3 (désignation obligatoire sur réquisition). Renvoi à coordonner : L8511-2 (Wallis-et-Futuna) vise L3412-4 et L3414-6, à lire L3414-3 et L3414-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L3414-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3412-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réquisitoire supplétif pour les faits nouveaux, avec ses mentions : repris au 1° de L3415-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3415-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3412-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Saisine d'un juge d'instruction du tribunal : reprise à L3412-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3412-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3412-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Saisine du juge du pôle dans les cas de L2121-10 et L2121-11 : reprise à L3412-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3412-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dispenses de la condition de recevabilité : reprises à L3413-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L3413-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Ressources de la personne morale à but lucratif : reprises à L3413-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L3413-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délai supplémentaire de trois mois pour les réquisitions : repris à L3413-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L3413-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Audition de la partie civile avant réquisitions : reprise à L3413-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L3413-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réquisitions de non-informer : reprises à L3413-9.",
+      "ligne_rouge": "aucune",
+      "vers": "L3413-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Non-lieu requis quand les faits n'ont manifestement pas été commis : repris à L3413-9.",
+      "ligne_rouge": "aucune",
+      "vers": "L3413-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Refus d'informer avec invitation à la citation directe : repris à L3413-9.",
+      "ligne_rouge": "aucune",
+      "vers": "L3413-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L3413-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Amende civile après non-informer ou non-lieu : reprise à L3413-13.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'amende civile garde ses conditions (constitution abusive ou dilatoire, renvoi à L3452-29), reprises à L3413-13.",
+      "vers": "L3413-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L3414-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Remplacement du juge empêché et suppléance en urgence : repris à L3414-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3414-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3414-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cosaisine dès l'ouverture : reprise à L3414-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3414-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3414-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cosaisine en cours d'information : reprise à L3414-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3414-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3414-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Suppléance par le juge cosaisi : reprise à L3414-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L3414-6"
     },
     {
       "code": "cpp",
       "num": "L3415-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réquisitoire supplétif, information distincte ou enquête : options nécessaires.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réquisitoire supplétif, information distincte, enquête : repris à L3415-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3415-3"
     },
     {
       "code": "cpp",
       "num": "L3415-5",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Réponse pénale autre que le jugement ou saisine de la juridiction : voie rapide ouverte.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réponse pénale autre que le jugement, saisine de la juridiction : reprises à L3415-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3415-3"
     },
     {
       "code": "cpp",
       "num": "L3415-6",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Classement des faits nouveaux sans suite possible : simple.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Classement des faits nouveaux : repris à L3415-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3415-3"
     },
     {
       "code": "cpp",
       "num": "L3415-7",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Transmission au parquet compétent : simple.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transmission au parquet compétent : reprise à L3415-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3415-3"
     }
-  ]
+  ],
+  "passe": 3
 }
