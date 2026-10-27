@@ -9,26 +9,46 @@
   "decisions": [
     {
       "code": "penitentiaire",
-      "num": "L421-1",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Miroir de L. 5221-2 (préparation de la sortie encadrée dès la condamnation définitive) et de L. 5224-4 (avis du service sur l'accompagnement de fin de peine) du code de procédure pénale. Bornes des compteurs L. 755-1, L. 765-1 et L. 775-1 à mettre à jour.",
-      "ligne_rouge": "art. 8 DDHC examiné : la préparation de la sortie et l'avis du service restent réglés par L. 5221-2 et L. 5224-4 du code de procédure pénale"
+      "num": "L421-2",
+      "principe": "P23",
+      "motif": "Règle propre du service, sujet en tête.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service pénitentiaire d'insertion et de probation met en place, pour la personne condamnée pour un délit du chapitre Ier ter du titre II du livre II du code pénal, des actions de prévention de la récidive des violences routières et, le cas échéant, de la consommation de stupéfiants ou de substances psychotropes."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
-      "num": "L421-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Actions de prévention de la récidive des violences routières et des addictions : règle propre du service, prévention de la récidive.",
-      "ligne_rouge": "aucune"
+      "num": "L424-4",
+      "principe": "P23",
+      "motif": "Cible de la passe 2 (renvois coordonnés), phrases resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les structures qui accueillent et accompagnent des personnes en placement à l'extérieur, dans les conditions des articles L. 5231-1 à L. 5231-7 et L. 5234-1 du code de procédure pénale, sont agréées par l'Etat. Une convention de trois ans renouvelable peut être conclue entre l'Etat et ces structures. Elle définit le projet de réinsertion de la structure, les conditions d'accueil et d'accompagnement, les droits et obligations des personnes accueillies et le financement de la mesure. Un décret en Conseil d'Etat fixe les modalités d'application du présent article."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L421-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Miroir de L. 5221-2 et L. 5224-4 du code de procédure pénale (préparation de la sortie, avis du service).",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle vit dans l'article source du code de procédure pénale cité au motif, aucun effet sur la peine prononcée"
     },
     {
       "code": "penitentiaire",
       "num": "L423-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 2127-7 du code de procédure pénale (débats du tribunal de l'application des peines dans les établissements du ressort). Le renvoi à L. 2127-9, absent du code de 2029, est erroné. Bornes des compteurs L. 755-1, L. 765-1 et L. 775-1 à mettre à jour.",
+      "motif": "Miroir de L. 2127-7 du code de procédure pénale (débats du tribunal de l'application des peines dans les établissements).",
       "ligne_rouge": "aucune"
     },
     {
@@ -36,37 +56,31 @@
       "num": "L423-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 5131-3 du code de procédure pénale, réécrit (lot p002), qui porte le débat contradictoire de tous les jugements du juge et du tribunal de l'application des peines, sa tenue dans l'établissement et le recours à la télécommunication audiovisuelle.",
-      "ligne_rouge": "art. 8 DDHC examiné : les débats et leur tenue en établissement restent réglés par L. 5131-3 du code de procédure pénale"
+      "motif": "Miroir de L. 5131-3 du code de procédure pénale (débat contradictoire dans l'établissement, télécommunication audiovisuelle).",
+      "ligne_rouge": "art. 8 DDHC examiné : le débat contradictoire et sa tenue dans l'établissement vivent à L. 5131-3 du code de procédure pénale"
     },
     {
       "code": "penitentiaire",
       "num": "L423-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 5132-3 du code de procédure pénale, qui porte l'audition du détenu appelant dans l'établissement ou par télécommunication audiovisuelle.",
+      "motif": "Miroir de L. 5132-3 du code de procédure pénale (audition du détenu appelant).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L423-4",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Composition légale de la commission. L'avis devient facultatif à L5131-6 réécrit (lot p002) et ne se redit pas ici. D49-28 renvoie encore à l'ancien 712-4-1, à coordonner.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Le chef de l'établissement pénitentiaire, le représentant du service pénitentiaire d'insertion et de probation et le représentant du corps de commandement ou du corps d'encadrement et d'application du personnel de surveillance siègent au sein de la commission de l'application des peines prévue à l'article L. 2127-2 du code de procédure pénale."
-        }
-      ]
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Composition de la commission de l'application des peines : L. 2127-2 du code de procédure pénale la renvoie au décret, où elle descend (technique 4). L'avis de la commission est devenu facultatif (L. 5131-6 réécrit). D49-28 renvoie encore à l'ancien 712-4-1.",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L424-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 5131-12 du code de procédure pénale, qui porte la modification des horaires par le chef de l'établissement ou le directeur du service, sur délégation du juge.",
+      "motif": "Miroir de L. 5131-12 du code de procédure pénale (modification des horaires sur délégation du juge).",
       "ligne_rouge": "aucune"
     },
     {
@@ -74,7 +88,7 @@
       "num": "L424-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 2141-9 du code de procédure pénale, qui porte mot pour mot l'inscription au registre d'écrou de l'établissement proche du lieu d'exécution.",
+      "motif": "Miroir de L. 2141-9 du code de procédure pénale (registre d'écrou de l'établissement proche).",
       "ligne_rouge": "aucune"
     },
     {
@@ -82,31 +96,17 @@
       "num": "L424-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 5234-1 du code de procédure pénale (activités du placement à l'extérieur sous le contrôle de l'administration pénitentiaire). Le renvoi à l'ancien article 723, absent du code de 2029, tombe avec lui.",
+      "motif": "Miroir de L. 5234-1 du code de procédure pénale (contrôle des activités du placement à l'extérieur).",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L424-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Agrément et convention des structures d'accueil du placement à l'extérieur : règle propre. Le renvoi aux anciens articles 723 à 723-2 et 723-4, absents du code de 2029, se corrige vers L. 5231-1 à L. 5231-7 et L. 5234-1 du code de procédure pénale (L. 5234-2 est abrogé, lot p006). La proposition de déclasser est écartée : l'agrément par l'État relève de la loi.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "aux articles 723 à 723-2 et 723-4 du code de procédure pénale",
-          "nouveau": "aux articles L. 5231-1 à L. 5231-7 et L. 5234-1 du code de procédure pénale"
-        }
-      ]
     },
     {
       "code": "penitentiaire",
       "num": "L424-5",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 5225-2 du code de procédure pénale, qui porte la première permission par le juge, les suivantes par le chef d'établissement et le recours au juge. Bornes des compteurs L. 755-1, L. 765-1 et L. 775-1 à mettre à jour.",
+      "motif": "Miroir de L. 5225-2 du code de procédure pénale (permissions de sortir et recours au juge).",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
