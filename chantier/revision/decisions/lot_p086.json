@@ -10,10 +10,17 @@
     {
       "code": "penitentiaire",
       "num": "L381-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Image et voix des détenus : consentement écrit, opposition motivée de l'administration (ordre public, victimes, réinsertion), autorisation de l'autorité judiciaire pour les prévenus. Les droits des victimes sont un motif d'opposition.",
-      "ligne_rouge": "art. 9 DDHC (présomption d'innocence) et art. 2 DDHC (vie privée) et CEDH art. 8 examinés : consentement, motifs d'opposition nommés, contrôle du magistrat pour les prévenus"
+      "principe": "P20",
+      "motif": "Consentement écrit, motifs d'opposition (dont les droits des victimes) et autorisation pour les prévenus gardés, phrases resserrées. Le renvoi au décret tombe : renvoi au décret en Conseil d'État d'un titre d'un seul article : le pouvoir réglementaire s'exerce sans lui (art. 21 C), le décret existant demeure.",
+      "ligne_rouge": "vie privée et présomption d'innocence examinées : consentement, motifs fermés et autorisation du magistrat gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La diffusion ou l'utilisation de l'image ou de la voix d'une personne détenue qui permet de l'identifier est subordonnée à son consentement écrit. Pour une personne condamnée, l'administration pénitentiaire peut s'y opposer lorsque c'est nécessaire à la sauvegarde de l'ordre public, à la prévention des infractions, à la protection des droits des victimes ou de ceux des tiers, ou à la réinsertion de la personne. Pour une personne prévenue, la diffusion ou l'utilisation est autorisée par l'autorité chargée du dossier de la procédure."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
