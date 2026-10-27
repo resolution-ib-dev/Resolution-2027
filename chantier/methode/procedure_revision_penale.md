@@ -103,7 +103,7 @@ avant tout livrable diffusable.
 | ligne | ce qu'elle exige au minimum | ce qui se tempère |
 |---|---|---|
 | art. 66 C | contrôle d'un magistrat sur toute privation de liberté, et d'un juge du siège quand elle se prolonge | durées, formes, autorités intermédiaires (le CC admet 96 h en criminalité organisée) |
-| art. 8 DDHC, individualisation (CC 2005-520 DC) | le juge doit **pouvoir** moduler au prononcé ; une peine automatique sans dérogation possible est censurée (CC 2010-6/7 QPC) | planchers avec dérogation motivée (CC 2007-554 DC) ; tout l'aménagement à l'exécution relève de la loi : aménagement obligatoire avant incarcération, libération sous contrainte de plein droit, seuils. Le CC ne pose qu'un objectif de réinsertion (CC 94-334 DC) |
+| art. 8 DDHC, individualisation (CC 2005-520 DC) | le juge doit **pouvoir** moduler au prononcé ; une peine automatique sans dérogation possible est censurée (CC 2010-6/7 QPC) | planchers avec dérogation motivée (CC 2007-554 DC) ; tout l'aménagement à l'exécution relève de la loi : aménagement obligatoire avant incarcération, libération sous contrainte de plein droit, seuils. Le CC ne pose qu'un objectif de réinsertion (CC 93-334 DC) |
 | art. 9 DDHC | pas de rigueur inutile, preuve à la charge de l'accusation | le formalisme de nullité qu'on en a tiré |
 | art. 16 DDHC | avocat, accès au dossier, un juge, une voie de recours | nombre et délais des recours |
 | art. 2 DDHC, vie privée (CC 99-416 DC) | mesures intrusives encadrées par la loi | au-delà de cet encadrement, rien |
@@ -728,6 +728,68 @@ contrainte, 8 articles. 7 abrogations (P10 : remise de peine sans effort ni déc
 juridictionnelle), 1 fusion vers la libération conditionnelle (étranger éloigné).
 D1 à D5 : 0 anomalie. Renvois à coordonner : L5242-3, et cinq articles réglementaires
 qui citent l'ancien article 720 (D119, D147-18, D147-20, D147-24, D49-33).
+
+## Passe 3 : sobriété (20261027)
+
+**Constat de la passe 2** (#416) : 9 472 articles et 958 270 mots avant,
+8 894 articles et 917 791 mots après, soit − 6 % d'articles et − 4 % de mots.
+82 % des articles sont gardés. Jugée article par article, la passe 2 ne fusionne
+pas : elle ne peut pas atteindre l'objectif de volume. La passe 3 réécrit par
+titre entier.
+
+**Arbitrages.** Tous sont tranchés et tenus dans
+`revision/registre_arbitrages_penal.md` (validé par l'auteur ou délégué). La
+passe 3 les porte d'abord dans les textes.
+
+**Cibles de volume, en mots** (paramètres, mesurées par `code_cible_penal.py`) :
+
+| bloc | état 2029 (avant passe 2) | cible, par rapport à l'état 2029 |
+|---|---|---|
+| CPP, partie législative | ≈ 343 000 | − [40] % |
+| CPP, partie réglementaire | ≈ 297 000 | − [50] % |
+| code pénal | 148 555 | − [25] % |
+| code pénitentiaire | 170 168 | − [60] % |
+| ensemble | 958 270 | − [45] % environ |
+
+**Techniques, dans cet ordre :**
+
+1. **Outre-mer** (P3) : une clause d'application par collectivité, avec une table
+   d'adaptations ; les articles qui recopient le droit commun tombent (livre VII
+   du code pénitentiaire, 8e partie du CPP, articles signalés outre-mer).
+2. **Une règle générale par matière** (P2, P23) : délais, notifications,
+   publicité, avis, voies de recours, personnes morales. Un article général, les
+   exceptions listées ; les répétitions tombent.
+3. **Procédures particulières** (6e partie du CPP, ≈ 72 000 mots) : un régime
+   commun de la criminalité grave, la liste des infractions qui y entrent, les
+   seuls écarts propres à chaque matière.
+4. **Déclassement** (P1) : les modalités descendent de la loi au décret, du décret
+   à l'arrêté publié. Le règlement intérieur type des établissements sort du code.
+5. **Rappels et redites** (P20) : articles qui répètent la loi, renvois
+   « sans préjudice », « conformément aux dispositions de », définitions en
+   double.
+6. **Phrase** (P23) : une idée par phrase, le verbe d'action au présent, un mot
+   par notion dans les trois codes.
+
+**Contrôles ajoutés** (à zéro avant chaque versement) :
+
+| contrôle | ce qu'il vérifie |
+|---|---|
+| S1 traçabilité | chaque phrase de l'état 2029 a un destin : gardée, reprise (où), déclassée (vers quel texte), abrogée (par quel principe) |
+| S2 garanties | les garanties des lignes rouges (P25) relevées en passe 1 se retrouvent dans le texte cible, mot pour mot ou par renvoi |
+| S3 volume | volume par titre contre la cible ; un écart se motive au tableau de bord |
+| D1 à D5, C1 à C7 | inchangés |
+
+**Lots.** Un lot = un titre ; un agent réécrit le titre entier et rend le texte
+cible avec sa table de correspondance par phrase. Relecture adverse sur les
+garanties (S2) et sur les abrogations. Une PR `[skip ci]` par lot.
+
+**Produit de relecture.** À la clôture, le dossier de relecture au format du
+20261022 (Word, noir et blanc, une dizaine de pages) : statistiques en tête,
+une page dense des principes avec l'effet avant/après, les principales
+réécritures en deux colonnes avec une ou deux phrases d'explication, puis le
+tableau des principes P1 à P27 avec leur statut (validé ou à confirmer) et le
+registre des arbitrages délégués, une ligne chacun. Annexe : trois colonnes
+(2029, cible, motif) des principales sections.
 
 ## Codes de la chaîne pénale
 
