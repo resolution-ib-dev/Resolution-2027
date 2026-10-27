@@ -10,34 +10,54 @@
     {
       "code": "cpp",
       "num": "D571",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le condamné libre ou libéré déclare sa résidence au ministère public : condition du contrôle de l'interdiction, nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D571-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine du juge de l'application des peines dès que la condamnation est exécutoire : la peine se met à exécution sans attendre.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Déclaration de résidence et saisine du juge en un article : D571-1 fusionné.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée à l'interdiction de séjour déclare le lieu où elle fixe sa résidence au ministère public près la juridiction qui l'a condamnée lorsqu'elle est libre, ou au greffe de l'établissement pénitentiaire lors de sa libération. Le chef de l'établissement en informe immédiatement ce ministère public.\nDès que la condamnation est exécutoire, le ministère public en avise le juge de l'application des peines compétent, auquel il transmet copie de la décision et les informations utiles sur la résidence."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D571-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Document qui permet au condamné de justifier de sa situation et rappelle les lieux interdits et la sanction du manquement : sécurité juridique du condamné et contrôle effectif. Renvois aux anciens 762-1, 762-2 (L5361-6), 762-4 (L5361-2) et 762-5 (L5361-4, L5361-5) à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : aucune privation de liberté, la liberté d'aller et venir est restreinte par la seule peine prononcée ; art. 8 DDHC examiné : le document informe, il ne touche pas la peine"
+      "principe": "P23",
+      "motif": "Document remis au condamné, en deux alinéas : remise, puis contenu. Le rappel de la sanction du manquement devient la reproduction de l'article 434-38 du code pénal. Anciens 762-1 à 762-5 remplacés par L. 5361-1 et L. 5361-3 (texte du lot p015).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : le condamné connaît par écrit les lieux interdits, les mesures et la sanction du manquement ; sécurité juridique gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dès que l'interdiction de séjour est exécutoire, le ministère public remet ou fait remettre au condamné un document qui lui permet de justifier de sa situation. Il est remis à l'issue de l'audience en cas d'exécution provisoire, à la libération ou, à défaut, par le juge de l'application des peines.\nIl mentionne l'état civil du condamné, la décision et sa juridiction, la durée de l'interdiction, la liste des lieux interdits, les mesures de surveillance fixées par la juridiction et, si l'interdiction accompagne une peine privative de liberté sans sursis, cette peine et le jour où elle a pris fin. Il reproduit les articles 131-31, 131-32 et 434-38 du code pénal et les articles L. 5361-1 et L. 5361-3. Toute modification des modalités d'exécution y est portée par le magistrat qui la décide ou, pour le tribunal délictuel, par son procureur de la République. Son modèle est fixé par le ministre de la justice."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D571-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information du ministère public et du fichier des personnes recherchées sur les modifications, suspensions et autorisations : condition du contrôle par les forces de l'ordre. Renvois aux anciens 762-2, 762-4, 762-5 et 741 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Information du ministère public et du fichier des personnes recherchées, sans énumération à point-virgule. Les anciens 741, 762-2, 762-4 et 762-5 sont nommés par la mesure.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministère public près la juridiction de condamnation est avisé, par le magistrat qui décide ou, pour le tribunal délictuel, par son procureur de la République, de toute transmission du dossier à un autre juge après un changement de résidence, de toute modification des lieux interdits ou des mesures de surveillance, de toute suspension ou autorisation provisoire de séjour, de tout ordre de recherche et de toute condamnation pour infraction à l'interdiction.\nIl avise de cette condamnation le juge qui contrôle le condamné. Il transmet pour diffusion au fichier des personnes recherchées les modifications, suspensions et autorisations."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D571-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis au juge de l'application des peines dès la condamnation exécutoire : second alinéa de D571.",
+      "ligne_rouge": "aucune",
+      "vers": "D571"
     }
-  ]
+  ],
+  "passe": 3
 }
