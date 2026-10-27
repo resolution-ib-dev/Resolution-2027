@@ -10,73 +10,110 @@
     {
       "code": "cp",
       "num": "R413-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Annonce la délimitation des zones protégées de 413-7 : c'est le décret en Conseil d'État que la loi exige.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "R413-2",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Le ministre responsable détermine le besoin de protection, avec délégation possible : la décision au plus près.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "L'annonce de la section (« dans les conditions prévues à la présente section ») tombe : l'article dit la règle, le ministre responsable du besoin de protection (R413-2 y fusionne). La délégation passe à R413-3, qui la pose une fois.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les zones protégées que constituent les locaux et terrains clos mentionnés à l'article 413-7 sont délimitées selon le besoin de protection. Celui-ci est déterminé par le ministre qui a la charge des installations, du matériel ou des recherches, études, fabrications à caractère secret qu'il désigne."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R413-3",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Implantation et limites des zones par arrêté du ministre, conjoint si deux ministères : strate la plus basse.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Les deux cas de compétence en une phrase. Les deux délégations par décret (R413-2 et R413-3), identiques, en une.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'implantation et les limites des zones protégées sont fixées par arrêté du ministre qui a déterminé le besoin de protection, conjoint avec le ministre dont relève l'activité principale du service, de l'établissement ou de l'entreprise lorsqu'il est différent.\nLes autorités dont relèvent les services, établissements ou entreprises concernés peuvent recevoir par décret délégation pour déterminer le besoin de protection et pour prendre ces arrêtés."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R413-4",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Notification au chef de service, signalisation des limites, information du ministre de l'intérieur et des préfets : sans forme papier imposée, utile à l'application de 413-7.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Même règle, verbes au présent. L'affichage reste au premier alinéa, que R413-5-1 (VI) vise.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'arrêté portant création d'une zone protégée est notifié au chef du service, de l'établissement ou de l'entreprise. Celui-ci rend apparentes les limites de la zone et les mesures d'interdiction dont elle est l'objet, sous le contrôle de l'autorité qui a déterminé le besoin de protection.\nUn exemplaire de l'arrêté est adressé pour information au ministre de l'intérieur et aux préfets territorialement compétents."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R413-5",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Autorisation d'entrer en zone protégée : la loi incrimine l'introduction sans autorisation (413-7). Écrite, retirable.",
-      "ligne_rouge": "liberté d'aller et venir (art. 2 et 4 DDHC) examinée : l'interdiction se limite aux locaux clos délimités et signalés"
+      "principe": "P23",
+      "motif": "Même règle en deux alinéas : qui autorise, puis la forme écrite et le retrait, qui valent aussi pour les zones à régime restrictif.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'autorisation de pénétrer dans la zone protégée est donnée par le chef du service, de l'établissement ou de l'entreprise, selon les directives et sous le contrôle du ministre ayant déterminé le besoin de protection. Elle est donnée par ce ministre lorsque la zone protège des recherches, études ou fabrications qui doivent être tenues secrètes dans l'intérêt de la défense nationale.\nL'autorisation est délivrée par écrit. Elle peut être retirée à tout moment dans les mêmes formes."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R413-5-1",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Zones à régime restrictif : l'avis conforme du ministre n'est pas un avis consultatif mais la décision de l'État sur l'accès d'une personne à un potentiel scientifique sensible (P15 examiné). Gardé. Coquille « qu'il elle » corrigée.",
-      "ligne_rouge": "P26 examiné : refus et retrait non motivés et éléments d'enquête non communiqués, au titre de la sécurité nationale, seule exception admise ; P19 examiné : silence du ministre en deux mois et du chef d'établissement en trois mois",
+      "motif": "Même régime, numérotation I à VII gardée pour les renvois (R413-5-2 vise le II et le V). Les deux risques en une phrase, les trois présomptions d'avis favorable en une liste, verbes au présent. La dérogation vise le premier alinéa de R413-5 réécrit : forme écrite et retrait valent pour la zone à régime restrictif comme avant.",
+      "ligne_rouge": "droit au recours (art. 16 DDHC) examiné : le refus non motivé et le silence valant rejet restent attaquables devant le juge administratif, comme avant.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "qu'il elle adresse",
-          "nouveau": "qu'elle adresse"
+          "op": "rediger",
+          "nouveau": "I. − Une zone protégée est dite « à régime restrictif » lorsque son besoin de protection tient à l'impératif d'empêcher que des éléments essentiels du potentiel scientifique ou technique de la nation fassent l'objet d'une captation de nature à affaiblir ses moyens de défense, à compromettre sa sécurité ou à porter préjudice à ses autres intérêts fondamentaux, ou soient détournés à des fins de terrorisme, de prolifération d'armes de destruction massive et de leurs vecteurs ou de contribution à l'accroissement d'arsenaux militaires. Le besoin de protection est déterminé par le ministre qui a la charge de ces éléments.\nII. − Par dérogation au premier alinéa de l'article R. 413-5, l'accès à une zone à régime restrictif pour y effectuer un stage, y préparer un doctorat, y participer à une activité de recherche, y suivre une formation hors formation universitaire initiale, y effectuer une prestation de service, y effectuer une mission d'audit ou d'inspection pour le compte d'un État tiers, ou y exercer une activité professionnelle est soumis à l'autorisation du chef de service, d'établissement ou d'entreprise, après avis favorable du ministre qui a déterminé le besoin de protection.\nLe chef de service, d'établissement ou d'entreprise adresse sans délai la demande d'avis au ministre. Le silence du ministre deux mois après réception vaut avis défavorable. Le ministre peut à tout moment revenir sur son avis, même réputé favorable en application du III. Le silence du chef de service, d'établissement ou d'entreprise pendant trois mois à compter de la réception de la demande d'autorisation vaut rejet.\nLes éléments d'une enquête de sécurité conduite sur le fondement de l'article L. 114-1 du code de la sécurité intérieure ne sont pas communiqués au chef de service, d'établissement ou d'entreprise, hors le sens des conclusions du service enquêteur.\nSur avis défavorable du ministre, le chef de service, d'établissement ou d'entreprise refuse ou retire l'autorisation. Le refus et le retrait ne sont pas motivés.\nIII. − Est réputée avoir obtenu l'avis ministériel favorable prévu au II :\n1° La personne habilitée au titre de la protection du secret de la défense nationale, pour les zones dont l'accès est nécessaire à ses fonctions.\n2° La personne qui avait accès aux lieux avant la création ou l'extension de la zone, pour sa première demande d'autorisation. Dès la création ou l'extension, le chef de service, d'établissement ou d'entreprise transmet au ministre les informations utiles à son contrôle.\n3° Sauf mention contraire de son avis, la personne admise à une zone pour y exercer des activités d'entretien des surfaces et des infrastructures, de maintien en condition des prestations d'effluents, de sécurité ou de sûreté, sans accès direct à l'information protégée, pour l'accès aux mêmes fins et dans les mêmes limites aux autres zones à régime restrictif relevant du même ministre.\nIV. − Le chef du service, de l'établissement ou de l'entreprise informe le ministre de sa décision sur l'autorisation.\nV. − Le bénéficiaire d'une autorisation d'accès informe le chef de service, d'établissement ou d'entreprise de tout changement de situation susceptible d'affecter son droit d'accès. Celui-ci en informe sans délai le ministre.\nVI. − L'arrêté mentionné à l'article R. 413-3 peut confier la délivrance des autorisations d'accès, le recueil des avis ministériels et les mesures d'affichage mentionnées au premier alinéa de l'article R. 413-4 au chef d'un service, établissement ou entreprise distinct, lorsque les activités de la zone s'effectuent sous son contrôle ou pour son compte.\nVII. − Un arrêté du Premier ministre précise les modalités de présentation de la demande mentionnée au II et la liste des informations que le bénéficiaire de l'autorisation transmet en application du V."
         }
       ]
     },
     {
       "code": "cp",
       "num": "R413-5-2",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Contraventions de 5e classe sanctionnant les obligations du chef d'établissement en zone à régime restrictif et l'obstruction : sanction plutôt qu'autorisation, à sa place sous le délit de 413-7.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine encourue est l'amende de la classe, plafonnée par la loi (131-13), référence du barème que le juge module au prononcé ; le règlement est compétent (111-2, art. 37 C). Les manquements sont énumérés et définis, la responsabilité pèse sur qui a la charge de l'obligation."
+      "principe": "P23",
+      "motif": "Mêmes contraventions, liste sans point-virgule, « du code pénal » superflu retiré.",
+      "ligne_rouge": "légalité et nécessité des peines (art. 8 DDHC) : chaque contravention garde ses éléments et sa classe.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "I. − Est puni de l'amende prévue pour les contraventions de la cinquième classe le fait :\n1° De ne pas rendre apparentes les limites d'une zone à régime restrictif et les mesures d'interdiction dont elle est l'objet.\n2° De ne pas soumettre à autorisation l'accès d'une personne pénétrant dans une zone à régime restrictif.\n3° D'autoriser l'accès à une zone à régime restrictif dans des conditions non conformes au II de l'article R. 413-5-1.\n4° De ne pas communiquer au ministre les informations transmises en application du V de l'article R. 413-5-1.\n5° De ne pas informer le ministre chargé de l'enseignement supérieur, les autorités de tutelle de l'établissement et le ministre chargé des affaires étrangères d'un projet d'accord avec une institution étrangère ou internationale impliquant des activités conduites dans une zone à régime restrictif, lorsque l'établissement relève des articles L. 123-7-1 et D. 123-19 du code de l'éducation.\nII. − Est puni de la même amende le fait, pour toute personne, de faire obstacle à l'accomplissement des missions des personnels qui, au sein d'un service, d'un établissement ou d'une entreprise comprenant une zone à régime restrictif, sont chargés de la protection de cette zone."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R413-6",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Pont exigé par 413-9 (décret en Conseil d'État) vers la classification du code de la défense (R. 2311-1 et suivants). Seul texte qui rattache le délit à ses niveaux de classification : gardé.",
-      "ligne_rouge": "art. 8 DDHC (légalité) examiné : le contenu du secret, élément du délit de 413-9, reste désigné par un texte"
+      "principe": "P20",
+      "motif": "Pont exigé par 413-9 vers la classification du code de la défense, gardé. L'intitulé de la section citée, redondant, tombe.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de l'article 413-9, les niveaux de classification des renseignements, procédés, objets, documents, données informatisées ou fichiers présentant un caractère de secret de la défense nationale ainsi que les autorités chargées de définir les modalités selon lesquelles est organisée leur protection sont déterminés par les articles R. 2311-1 et suivants du code de la défense."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "R413-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Ministre qui détermine le besoin de protection : R413-1, mot pour mot. La délégation par décret passe à R413-3.",
+      "ligne_rouge": "aucune",
+      "vers": "R413-1"
     }
-  ]
+  ],
+  "passe": 3
 }
