@@ -10,378 +10,483 @@
     {
       "code": "cpp",
       "num": "L1440-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Droit à réparation et ses voies (partie civile, fonds de garantie, aide au recouvrement, biens confisqués), subrogation du fonds : article d'ancrage du titre.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article règle la réparation civile de la victime, il ne fixe ni ne module aucune peine"
+      "principe": "P23",
+      "motif": "Droit à réparation et ses trois voies (partie civile, fonds de garantie, aide au recouvrement, biens confisqués), subrogation du fonds : article d'ancrage gardé, phrases resserrées, énumération sans point-virgule.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle la réparation civile de la victime, il ne fixe aucune peine et ne touche pas l'individualisation.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute victime a droit à la réparation de son préjudice, par une indemnisation ou par tout autre moyen adapté, y compris une mesure de justice restaurative, et y compris au cours de l'exécution de la peine.\nElle l'obtient en se constituant partie civile contre la personne civilement responsable de l'infraction. Elle peut aussi l'obtenir :\n1° Du fonds de garantie des victimes des actes de terrorisme et d'autres infractions prévu aux articles L. 422-1 à L. 422-6 du code des assurances.\n2° Par l'aide de ce fonds au recouvrement des dommages et intérêts qui lui ont été alloués.\n3° Par le paiement des dommages et intérêts sur les biens confisqués au cours de la procédure pénale.\nDans les cas des 1° et 2°, le fonds est subrogé dans les droits de la victime contre la personne responsable du dommage, y compris en se constituant partie civile, selon l'article L. 422-5-1 du code des assurances."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1440-2",
-      "decision": "S",
       "principe": "P18",
-      "motif": "Information de la partie civile, par la juridiction qui condamne, de ses recours devant le fonds et la juridiction d'indemnisation : la victime est informée. L'article ouvre le titre : « présent chapitre » est une coquille pour « présent titre ».",
+      "motif": "Information de la partie civile, par la juridiction qui condamne, de ses recours devant le fonds et la juridiction d'indemnisation : gardée. « Présent chapitre » se lit « présent titre » (passe 2).",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "pour laquelle les dispositions du présent chapitre sont applicables",
-          "nouveau": "pour laquelle les dispositions du présent titre sont applicables"
+          "op": "rediger",
+          "nouveau": "La juridiction qui condamne l'auteur d'une infraction relevant du présent titre à verser des dommages-intérêts à la partie civile l'informe par tout moyen qu'elle peut saisir le fonds de garantie ou la juridiction d'indemnisation des victimes d'infractions d'une demande d'indemnité, ou le fonds d'une demande d'aide au recouvrement."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1441-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Réparation intégrale des victimes du terrorisme par le fonds, réduite pour faute de la victime. La solidarité nationale indemnise la victime que l'auteur ne paie pas, puis se retourne contre lui : la victime d'abord (P18), l'auteur paie in fine.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Réparation intégrale des victimes du terrorisme : gardée. La réduction pour faute de la victime passe à la règle commune du dernier alinéa de L1441-6.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les victimes d'actes de terrorisme commis sur le territoire national, les personnes de nationalité française victimes de ces actes à l'étranger, y compris les agents publics et les militaires, et leurs ayants droit quelle que soit leur nationalité, peuvent obtenir du fonds de garantie la réparation intégrale des dommages qui résultent d'une atteinte à la personne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Réparation intégrale des atteintes graves à la personne, conditions nommées. La solidarité nationale indemnise la victime que l'auteur ne paie pas, puis se retourne contre lui : la victime d'abord (P18), l'auteur paie in fine.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Réparation intégrale des atteintes graves à la personne : conditions gardées, liste des infractions sexuelles et d'exploitation tenue par ses seuls articles. La réduction pour faute de la victime passe à la règle commune du dernier alinéa de L1441-6.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors le cas de l'article L. 1441-1, toute personne, y compris un agent public ou un militaire, qui a subi un préjudice résultant de faits, volontaires ou non, présentant le caractère matériel d'une infraction peut obtenir du fonds de garantie la réparation intégrale des dommages qui résultent des atteintes à la personne, lorsque :\n1° Ces atteintes ne relèvent ni du fonds d'indemnisation des victimes de l'amiante, ni du chapitre Ier de la loi n° 85-677 du 5 juillet 1985 sur les victimes d'accidents de la circulation, ni d'un acte de chasse ou de destruction des animaux susceptibles d'occasionner des dégâts.\n2° Les faits ont entraîné la mort, une incapacité permanente ou une incapacité totale de travail personnel d'au moins un mois, ou constituent l'une des infractions prévues aux articles 222-22 à 222-30, 224-1 A à 224-1 C, 225-4-1 à 225-4-5, 225-5 à 225-10, 225-14-1, 225-14-2 et 227-25 à 227-27 du code pénal.\n3° La personne lésée est de nationalité française ou les faits ont été commis sur le territoire national."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Indemnisation plafonnée des violences de moins d'un mois d'incapacité sur mineur ou au sein du couple, sans condition de ressources : la victime vulnérable est couverte.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Indemnité plafonnée des violences de moins d'un mois sur un mineur ou dans le couple : conditions gardées, énumération sans point-virgule. La réduction pour faute de la victime passe à la règle commune du dernier alinéa de L1441-6.",
+      "ligne_rouge": "Minorité examinée : la victime mineure garde son accès au fonds sans condition de ressources.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime d'une atteinte volontaire à son intégrité physique ou psychique ayant entraîné une incapacité totale de travail de moins d'un mois peut obtenir du fonds de garantie, quelles que soient ses ressources, une indemnité dont le montant maximal est fixé par voie réglementaire, lorsque :\n1° L'infraction est commise sur un mineur, ou par le conjoint, le concubin ou le partenaire lié à la victime par un pacte civil de solidarité, ou par l'un d'eux après la rupture.\n2° L'infraction est prévue à l'article 222-12 du code pénal ou aux quatrième et sixième alinéas de l'article 222-14 du même code, y compris lorsque d'autres circonstances aggravantes s'y ajoutent.\n3° La personne est de nationalité française ou les faits ont été commis sur le territoire national."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Indemnisation plafonnée des atteintes aux biens et des petites atteintes à la personne, sous condition de ressources et de situation grave : solidarité bornée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1441-5",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Indemnisation plafonnée de l'incendie de véhicule, sous condition de ressources et de conformité du véhicule : solidarité bornée.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Indemnité plafonnée sous condition de ressources : atteintes aux biens et petites atteintes à la personne, et incendie de véhicule (L1441-5) en un article, deux régimes voisins qui ne diffèrent que par le seuil de ressources et la situation grave. Plafond commun du triple du montant mensuel. La réduction pour faute de la victime passe à la règle commune du dernier alinéa de L1441-6.",
+      "ligne_rouge": "Propriété (art. 17 DDHC) examinée : l'indemnisation des atteintes aux biens est gardée, conditions inchangées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne victime d'une atteinte à la personne mentionnée aux articles L. 1441-2 et L. 1441-3 ayant entraîné une incapacité totale de travail et qui n'est pas indemnisée en application de ces articles, ou victime d'un vol, d'une escroquerie, d'un abus de confiance, d'une extorsion de fonds, d'une destruction, d'une dégradation ou d'une détérioration d'un bien lui appartenant, d'un chantage, d'un abus de faiblesse ou d'une atteinte aux systèmes de traitement automatisé de données, peut obtenir du fonds de garantie une indemnité lorsque :\n1° Elle ne peut obtenir à aucun titre une réparation ou une indemnisation effective et suffisante de son préjudice, et se trouve de ce fait dans une situation matérielle ou psychologique grave.\n2° Ses ressources sont inférieures au plafond de l'aide juridictionnelle partielle prévu à l'article 4 de la loi n° 91-647 du 10 juillet 1991, compte tenu de ses charges de famille.\n3° Elle est de nationalité française ou les faits ont été commis sur le territoire national.\nLa victime de la destruction par incendie d'un véhicule terrestre à moteur lui appartenant obtient la même indemnité, sans avoir à établir une situation grave, lorsqu'elle ne peut obtenir à aucun titre une réparation effective et suffisante, que ses ressources ne dépassent pas 1,5 fois ce plafond, que les faits ont été commis sur le territoire national et qu'elle justifie avoir satisfait, au moment des faits, aux obligations d'immatriculation, de contrôle technique et d'assurance du véhicule.\nL'indemnité est au plus égale au triple du montant mensuel de ce plafond de ressources."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-6",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Indemnisation plafonnée de la violation de domicile qui met la victime dans une situation matérielle grave : la propriété et la sûreté protégées (art. 2 et 17 DDHC).",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Indemnité de la violation de domicile : gardée. Le dernier alinéa porte la règle commune de la faute de la victime, écrite cinq fois aux articles L1441-1 à L1441-5 : elle ne s'étend pas à la violation de domicile, qui ne la portait pas.",
+      "ligne_rouge": "Propriété et sûreté (art. 2 et 17 DDHC) examinées : l'indemnisation de la victime d'une violation de domicile est gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne victime du délit de violation de domicile prévu au deuxième alinéa de l'article 226-4 du code pénal peut obtenir du fonds de garantie, quelles que soient ses ressources, une indemnité dont le montant maximal est fixé par voie réglementaire, lorsque les faits ont été commis sur le territoire français et qu'elle se trouve, faute d'indemnisation à un autre titre, dans une situation matérielle grave.\nDans les cas prévus aux articles L. 1441-1 à L. 1441-4, la réparation peut être refusée ou son montant réduit à raison de la faute de la victime."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-7",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Saisine directe du fonds par les victimes du terrorisme : voie simple. La virgule qui sépare le sujet du verbe tombe.",
+      "principe": "P23",
+      "motif": "Saisine directe du fonds par les victimes du terrorisme et compétence exclusive de la juridiction parisienne (L1441-10) en un article.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "mentionnées à l'article L. 1441-1, adressent directement",
-          "nouveau": "mentionnées à l'article L. 1441-1 adressent directement"
+          "op": "rediger",
+          "nouveau": "Les victimes d'actes de terrorisme mentionnées à l'article L. 1441-1 adressent directement leurs demandes d'indemnisation au fonds de garantie. Les demandes qu'elles forment ensuite en justice relèvent de la compétence exclusive de la juridiction d'indemnisation des victimes d'actes de terrorisme du tribunal judiciaire de Paris, prévue à l'article L. 217-6 du code de l'organisation judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1441-8",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Provision versée par le fonds dans le mois de la demande : délai opposable.",
-      "ligne_rouge": "aucune"
+      "motif": "Provision du fonds dans le mois : délai opposable gardé. Le « sans préjudice » du référé devient une phrase positive.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fonds de garantie verse, dans le mois de la demande, une ou plusieurs provisions à la victime d'une atteinte à la personne ou, en cas de décès, à ses ayants droit. La victime garde la faculté de saisir le juge des référés."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-9",
-      "decision": "S",
       "principe": "P19",
-      "motif": "Offre d'indemnisation dans les trois mois, dommages et intérêts pour offre tardive ou insuffisante : délai opposable. La provision ayant été placée à L1441-8, le délai de trois mois est au premier alinéa : le renvoi au « deuxième alinéa » se corrige.",
+      "motif": "Offre dans les trois mois, aggravation, offre tardive ou insuffisante, point de départ en cas de décision : gardés en trois phrases, le renvoi corrigé de la passe 2 devient inutile.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "le délai mentionné au deuxième alinéa court",
-          "nouveau": "le délai mentionné au premier alinéa court"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L1441-10",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Compétence exclusive de la juridiction d'indemnisation des victimes d'actes de terrorisme de Paris : un juge spécialisé. Coquilles corrigées (virgule entre sujet et verbe, « de la juridiction »).",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "après saisine du fonds de garantie, relèvent de la compétence exclusive la juridiction",
-          "nouveau": "après saisine du fonds de garantie relèvent de la compétence exclusive de la juridiction"
+          "op": "rediger",
+          "nouveau": "Le fonds de garantie présente à toute victime une offre d'indemnisation dans les trois mois du jour où il reçoit la justification de ses préjudices, y compris en cas d'aggravation du dommage. Lorsque la juridiction reconnaît le droit à indemnisation, ce délai court du jour où sa décision est exécutoire. Une offre tardive ou manifestement insuffisante peut ouvrir droit à des dommages et intérêts au profit de la victime."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L1441-11",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Pouvoirs d'investigation de la juridiction d'indemnisation des victimes du terrorisme, secret professionnel inopposable : la réparation s'établit vite.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1441-12",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Saisine de la juridiction d'indemnisation des victimes d'infractions : voie unique.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L1441-13",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Forclusion de trois ans, différée pour le mineur et prorogée en cas de poursuites, relevé pour motif légitime ou défaut d'information : délai court, tempéré pour la victime.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article règle la réparation civile de la victime, il ne fixe ni ne module aucune peine"
+      "motif": "Saisine de la juridiction d'indemnisation (L1441-12) et forclusion de trois ans en un article : la demande et son délai vont ensemble. Point de départ différé pour le mineur, prorogation en cas de poursuites, relevé de forclusion gardés.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle la réparation civile de la victime, il ne fixe aucune peine et ne touche pas l'individualisation. Minorité examinée : le délai court de la majorité de la victime.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La demande d'indemnisation fondée sur les articles L. 1441-2 à L. 1441-6 est présentée devant la juridiction d'indemnisation des victimes d'infractions, à peine de forclusion, dans les trois ans de l'infraction. Ce délai ne court que de la majorité de la victime mineure. En cas de poursuites pénales, il n'expire qu'un an après la décision de la juridiction répressive qui a statué définitivement sur l'action pénale ou sur l'action civile.\nLa juridiction relève de la forclusion le requérant qui n'a pas reçu l'information prévue à l'article L. 1440-2, qui n'a pas été en mesure de faire valoir ses droits dans le délai, dont le préjudice s'est aggravé, ou pour tout autre motif légitime."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-14",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Complément d'indemnité quand le juge pénal alloue plus : réparation intégrale, délai d'un an.",
-      "ligne_rouge": "aucune"
+      "principe": "P19",
+      "motif": "Complément d'indemnité quand le juge pénal alloue plus, dans l'année : gardé en une phrase.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la juridiction répressive statuant sur les intérêts civils a alloué des dommages-intérêts supérieurs à l'indemnité accordée par la juridiction d'indemnisation des victimes d'infractions, la victime peut demander un complément d'indemnité dans l'année qui suit la date où cette décision est devenue définitive."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-15",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Transmission sans délai de la demande au fonds : délai court.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1441-16",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Offre du fonds dans les deux mois, refus motivé : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1441-17",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Homologation de l'accord, instruction en cas de désaccord : voie rapide quand la victime accepte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1441-18",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Provision du fonds en tout état de la procédure : la victime n'attend pas. La proposition de déclasser est écartée : le décret met déjà en œuvre.",
-      "ligne_rouge": "aucune"
+      "motif": "Transmission de la demande au fonds, offre dans les deux mois, refus motivé, homologation ou instruction (L1441-16 et L1441-17) : la procédure d'offre tient en un article.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le greffe de la juridiction d'indemnisation transmet sans délai la demande et ses pièces justificatives au fonds de garantie. Le fonds présente à la victime une offre d'indemnisation dans les deux mois de leur réception, y compris en cas d'aggravation du préjudice. Son refus est motivé.\nSi la victime accepte l'offre, le fonds transmet le constat d'accord au président de la juridiction d'indemnisation aux fins d'homologation. En cas de refus du fonds ou de désaccord de la victime, l'instruction de l'affaire se poursuit devant le président ou le magistrat assesseur."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-19",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Pouvoirs d'investigation de la juridiction d'indemnisation, renseignements réservés à l'instruction de la demande : enquête utile, usage borné.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Pouvoirs d'investigation des deux juridictions d'indemnisation : L1441-11 (terrorisme) et L1441-19 (autres victimes) portaient le même texte. Un article pour les deux. L'usage borné des renseignements vaut désormais aussi pour la juridiction du terrorisme.",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) examinée : les renseignements recueillis ne servent qu'à l'instruction de la demande et leur divulgation est interdite, pour les deux juridictions.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La juridiction d'indemnisation des victimes d'infractions, la juridiction d'indemnisation des victimes d'actes de terrorisme et leur président peuvent procéder ou faire procéder à toutes auditions et investigations utiles, sans que le secret professionnel leur soit opposable. Ils peuvent se faire communiquer par le procureur de la République ou le juge d'instruction copie des pièces de la procédure pénale, même en cours, et requérir :\n1° De toute personne ou administration, des renseignements sur la situation professionnelle, financière, fiscale ou sociale des personnes tenues de répondre du dommage ou du requérant.\n2° De tout service de l'État, collectivité publique, organisme de sécurité sociale ou de prestations sociales, ou entreprise d'assurance susceptible de réparer tout ou partie du préjudice, des renseignements sur l'exécution de ses obligations éventuelles.\nCes renseignements ne servent qu'à l'instruction de la demande d'indemnité. Leur divulgation est interdite."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-20",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Provisions statuées dans le mois de la demande : délai opposable.",
-      "ligne_rouge": "aucune"
+      "motif": "Provisions du fonds (L1441-18) et du président, ce dernier statuant dans le mois : les provisions tiennent en un article.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le préjudice n'est pas en état d'être liquidé et que le fonds de garantie ne conteste pas le droit à indemnisation, le fonds peut verser une provision à la victime en tout état de la procédure. Il en informe immédiatement le président de la juridiction d'indemnisation.\nLe président peut aussi, à la demande de la victime, accorder une ou plusieurs provisions en tout état de la procédure. Il statue dans le mois de la demande."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-21",
-      "decision": "S",
       "principe": "P26",
-      "motif": "Homologation ou décision de la juridiction d'indemnisation, sursis à la demande de la victime : gardés. La chambre du conseil de droit tombe : les débats sont publics, en chambre du conseil si la victime le demande, pour protéger sa vie privée et sa santé, ou si elle est mineure. La décision est rendue publiquement. Registre 3.1 : renvoi à L. 1. La victime mineure obtient la chambre du conseil par la demande de ses représentants, et non de droit.",
-      "ligne_rouge": "CEDH art. 6 § 1 et art. 8 examinés : publicité de droit, vie privée et santé de la victime protégées à sa demande. Minorité examinée : la victime mineure demande la chambre du conseil par ses représentants légaux ou son administrateur ad hoc (L1451-1).",
+      "motif": "Homologation ou décision de la juridiction d'indemnisation, sursis à statuer : gardés. La chambre du conseil de droit tombe (passe 2) : la publicité suit la règle générale de l'article L. 1, sans phrase de renvoi.",
+      "ligne_rouge": "Vie privée de la victime (CEDH art. 8) examinée : elle obtient la chambre du conseil à sa demande par l'article L. 1.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Les débats ont lieu et la décision est rendue en chambre du conseil.",
-          "nouveau": "Les débats ont lieu en chambre du conseil dans les cas prévus à l'article L. 1. La décision est rendue publiquement."
+          "op": "rediger",
+          "nouveau": "La juridiction d'indemnisation homologue l'offre d'indemnisation acceptée par la victime ou, à défaut d'une telle offre, se prononce sur l'indemnisation. Elle peut statuer avant la décision sur l'action pénale.\nElle peut surseoir à statuer jusqu'à la décision définitive de la juridiction répressive pour apprécier si la faute de la victime justifie un refus ou une réduction de la réparation. Elle sursoit à statuer à la demande de la victime."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1441-22",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Imputation des prestations sociales et indemnités sur la réparation : pas de double indemnisation. Renvoi aux articles 1106-9, 1234-8 et 1234-20 de l'ancien code rural, repris de l'ancien 706-9, à coordonner avec le code rural et de la pêche maritime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1441-23",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Remboursement des sommes versées quand la victime est indemnisée ailleurs : pas de double indemnisation.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Imputation des prestations et indemnités sur la réparation, et remboursement des sommes versées quand la victime est indemnisée ensuite (L1441-23) : un article. Le renvoi à l'ancien code rural (articles 1106-9, 1234-8 et 1234-20) reste à coordonner avec le code rural et de la pêche maritime.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fonds de garantie ou la juridiction d'indemnisation tient compte, dans le montant alloué à la victime :\n1° Des prestations versées par les organismes, établissements et services gérant un régime obligatoire de sécurité sociale et par ceux mentionnés aux articles 1106-9, 1234-8 et 1234-20 du code rural.\n2° Des prestations énumérées au II de l'article 1er de l'ordonnance n° 59-76 du 7 janvier 1959.\n3° Des sommes versées en remboursement des frais de traitement médical et de rééducation.\n4° Des salaires et accessoires du salaire maintenus par l'employeur pendant l'inactivité consécutive au dommage.\n5° Des indemnités journalières de maladie et des prestations d'invalidité versées par les groupements mutualistes régis par le code de la mutualité.\n6° Des indemnités de toute nature reçues ou à recevoir d'autres débiteurs au titre du même préjudice.\nLes sommes allouées sont versées par le fonds de garantie. Si la victime obtient ensuite, au titre du même préjudice, l'une de ces prestations ou indemnités, le fonds peut demander à la juridiction d'indemnisation d'ordonner le remboursement total ou partiel des sommes versées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1441-24",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Obligation de déclarer la saisine du fonds devant le juge civil ou pénal, nullité des seules dispositions civiles à défaut : pas de double indemnisation. La proposition de réécrire au titre du régime de nullité est écartée : la nullité ne touche que l'intérêt civil.",
-      "ligne_rouge": "art. 16 DDHC examiné : la nullité ne frappe que les dispositions civiles, l'action pénale et la défense ne sont pas en cause"
+      "motif": "Obligation de déclarer la saisine de la juridiction d'indemnisation devant le juge pénal ou civil, nullité des seules dispositions civiles dans les deux ans : gardées, phrases resserrées.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : la nullité ne touche que les dispositions civiles, elle est ouverte à toute personne intéressée pendant deux ans.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime ou ses ayants droit qui se constituent partie civile ou agissent contre les personnes responsables du dommage indiquent, en tout état de la procédure, s'ils ont saisi la juridiction d'indemnisation des victimes d'infractions et quelle indemnité elle leur a, le cas échéant, accordée. À défaut, toute personne intéressée peut demander la nullité du jugement en ses dispositions civiles dans les deux ans de la date où il est devenu définitif."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1442-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Aide au recouvrement des dommages et intérêts par le fonds, y compris quand l'auteur doit indemniser au titre de sa peine : la victime est payée vite, le fonds poursuit l'auteur.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article règle la réparation civile de la victime, il ne fixe ni ne module aucune peine. La proposition de réécrire au titre de l'aménagement est sans objet : l'obligation d'indemniser attachée à la peine reste due"
+      "principe": "P23",
+      "motif": "Aide au recouvrement par le fonds, y compris quand l'auteur doit indemniser au titre de sa peine : gardée, phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle la réparation civile de la victime, il ne fixe aucune peine et ne touche pas l'individualisation.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne physique constituée partie civile à qui une décision définitive a alloué des dommages et intérêts, et qui ne peut être indemnisée en application des articles L. 1441-1, L. 1441-2 et L. 1441-4 à L. 1441-7, peut solliciter du fonds de garantie une aide au recouvrement de ces dommages et intérêts et des sommes allouées au titre des frais qu'elle a exposés.\nElle le peut même si l'auteur de l'infraction est tenu de l'indemniser au titre d'une sanction-réparation, d'un sursis probatoire, d'un aménagement de peine ou d'une libération conditionnelle."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1442-2",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Saisine du fonds après deux mois sans paiement, forclusion d'un an relevable : délai court, tempéré.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article règle la réparation civile de la victime, il ne fixe ni ne module aucune peine"
-    },
-    {
-      "code": "cpp",
-      "num": "L1442-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Renonciation de la victime à l'assistance, frais du fonds exigibles : liberté de la victime.",
-      "ligne_rouge": "aucune"
+      "motif": "Saisine du fonds, forclusion d'un an et son relevé, point de départ après irrecevabilité (L1442-5), renonciation à l'aide (L1442-3) : la procédure de l'aide au recouvrement tient en un article.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle la réparation civile de la victime, il ne fixe aucune peine et ne touche pas l'individualisation. Le relevé de forclusion par le juge, sur requête, est gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La partie civile peut saisir le fonds de garantie d'une demande d'aide au recouvrement lorsque le condamné n'a pas payé volontairement les sommes dues dans les deux mois du jour où la décision sur les dommages et intérêts est devenue définitive. La demande est présentée, à peine de forclusion, dans l'année qui suit ce jour. Lorsque la juridiction d'indemnisation a jugé irrecevable une demande d'indemnisation en application de l'article L. 1441-13, ce délai court de la notification de sa décision.\nLe fonds peut relever la victime de la forclusion pour tout motif légitime. En cas de refus, le président du tribunal judiciaire peut l'en relever par ordonnance sur requête présentée, à peine d'irrecevabilité, dans le mois du refus.\nLa victime communique au fonds tout renseignement utile au recouvrement. Elle peut, seule ou avec le débiteur, renoncer à l'aide au recouvrement. Les frais de gestion et de recouvrement exposés par le fonds restent alors exigibles."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1442-4",
-      "decision": "S",
       "principe": "P19",
-      "motif": "Paiement intégral sous deux mois jusqu'à 1 000 euros, provision au-delà : délai opposable, victime payée. Accord corrigé (« qu'elle a exposés »).",
+      "motif": "Paiement intégral sous deux mois jusqu'à 1 000 euros, provision au-delà : délai opposable et montants gardés.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "des sommes allouées en remboursement des frais qu'elle a exposé si",
-          "nouveau": "des sommes allouées en remboursement des frais qu'elle a exposés si"
+          "op": "rediger",
+          "nouveau": "Dans les deux mois de la réception de la demande d'aide au recouvrement, le fonds de garantie paie intégralement à la partie civile les dommages et intérêts et les frais alloués lorsque leur montant total n'excède pas 1 000 euros. Au-delà, il lui verse dans le même délai une provision égale à 30 % de ce montant, qui ne peut être inférieure à 1 000 euros ni supérieure à 3 000 euros."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L1442-5",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Délai d'aide au recouvrement courant de la notification de l'irrecevabilité : le délai part de la connaissance effective.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L1443-1",
-      "decision": "S",
-      "principe": "P18",
-      "motif": "Paiement de la victime sur les biens confisqués de son débiteur : le produit de l'infraction répare la victime. Le renvoi aux « deux précédentes sous-sections » vise les chapitres 1er et 2 du titre : il se corrige.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Paiement de la victime sur les biens confisqués et forclusion de six mois (L1443-2) en un article. La demande se fait par tout moyen laissant une trace écrite (passe 2) ; le délai court de la décision qui alloue les dommages et intérêts, désignée au premier alinéa de l'ancien 706-164.",
+      "ligne_rouge": "art. 8 DDHC examiné (L1443-2) : le délai de forclusion de six mois est gardé, il ne touche aucune peine.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en application des dispositions des deux précédentes sous-sections",
-          "nouveau": "en application des dispositions des chapitres 1er et 2 du présent titre"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L1443-2",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Demande de paiement sous six mois à peine de forclusion : délai court, gardé. La décision visée est celle de L1443-1 (le renvoi au premier alinéa « du présent article » est une coquille de codification), et la demande se fait par tout moyen laissant une trace écrite.",
-      "ligne_rouge": "art. 8 DDHC examiné : la confiscation est prononcée, l'article n'en règle que l'affectation au profit de la victime",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "être adressée par lettre recommandée à l'agence dans un délai de six mois à compter du jour où la décision mentionnée au premier alinéa du présent article a acquis",
-          "nouveau": "être adressée à l'agence par tout moyen laissant une trace écrite dans un délai de six mois à compter du jour où la décision mentionnée à l'article L. 1443-1 a acquis"
+          "op": "rediger",
+          "nouveau": "La personne constituée partie civile qui a obtenu une décision définitive lui allouant des dommages et intérêts et des sommes au titre des frais exposés, et qui n'a obtenu ni indemnisation ni aide au recouvrement en application des chapitres 1er et 2 du présent titre, peut obtenir de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués le paiement de ces sommes par prélèvement sur les fonds ou la valeur liquidative des biens de son débiteur confisqués par une décision définitive et dont l'agence est dépositaire.\nLa demande est adressée à l'agence, à peine de forclusion, par tout moyen laissant une trace écrite, dans les six mois du jour où la décision qui alloue les dommages et intérêts est devenue définitive."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1443-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Ordre de paiement entre créanciers en cas d'actif insuffisant : règle claire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1443-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Subrogation de l'État contre l'auteur, recouvrement par les finances : l'auteur paie in fine, non le contribuable.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Ordre de paiement entre créanciers et subrogation de l'État contre l'auteur (L1443-4) : le paiement et son recours tiennent en un article.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque plusieurs créanciers requièrent le paiement et que l'actif ne suffit pas à les indemniser, l'agence paie dans l'ordre de présentation des demandes et, pour les demandes parvenues à la même date, en proportion des créances. Cette règle ne s'applique pas à la garantie des créances de l'État.\nL'État est subrogé, à concurrence des sommes versées, dans les droits de la victime contre l'auteur de l'infraction, dans le respect du rang des privilèges et sûretés de droit civil. L'agence instruit les dossiers de cette action récursoire et les communique au ministre chargé des finances, qui en assure le recouvrement."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1444-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Aide financière à la victime convoquée à un procès tenu à l'étranger : la victime est présente. La proposition de déclasser est écartée : le droit est dans la loi, ses modalités déjà renvoyées au règlement.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Aide financière au procès pénal tenu à l'étranger : l'article d'ouverture absorbe les quatre articles qui en définissaient les bénéficiaires et assimilaient les demandes (L1444-2 à L1444-5). Les conditions et la juridiction compétente sont inchangées.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent obtenir du fonds de garantie une aide financière au titre des frais de voyage, de l'indemnité de comparution et de l'indemnité journalière de séjour, pour répondre à une convocation à l'audience de jugement d'un procès pénal tenu à l'étranger :\n1° Les personnes physiques de nationalité française victimes à l'étranger d'actes de terrorisme et leurs ayants droit, quelle que soit leur nationalité, qui répondent aux conditions de l'article L. 1441-1. Leur demande est assimilée à une demande formée en application de l'article L. 1441-7, y compris pour l'application de l'article L. 217-6 du code de l'organisation judiciaire.\n2° Les personnes physiques de nationalité française victimes à l'étranger de faits qui répondent aux conditions des articles L. 1441-2 ou L. 1441-3. Leur demande est assimilée à une demande présentée en application de l'article L. 1441-13, y compris pour l'application de l'article L. 214-1 du code de l'organisation judiciaire.\nLes modalités et conditions de l'aide sont fixées par voie réglementaire."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1441-5",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Indemnité de l'incendie de véhicule : régime voisin de L1441-4, fusionné avec son seul écart (seuil de 1,5 fois le plafond, situation grave non exigée, véhicule en règle, faits sur le territoire national).",
+      "ligne_rouge": "aucune",
+      "vers": "L1441-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L1441-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Compétence exclusive de la juridiction parisienne pour le terrorisme : fusionnée dans L1441-7, qui organise la saisine. Coquilles corrigées (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "L1441-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L1441-11",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Pouvoirs d'investigation de la juridiction du terrorisme : texte identique à L1441-19, fusionné dans une règle commune aux deux juridictions.",
+      "ligne_rouge": "aucune",
+      "vers": "L1441-19"
+    },
+    {
+      "code": "cpp",
+      "num": "L1441-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Saisine de la juridiction d'indemnisation des victimes d'infractions : fusionnée dans L1441-13 avec son délai. L1444-5, qui la citait, est fusionné dans L1444-1, qui vise L1441-13.",
+      "ligne_rouge": "aucune",
+      "vers": "L1441-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L1441-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Offre du fonds dans les deux mois, refus motivé, aggravation : fusionnés dans L1441-15 (procédure d'offre).",
+      "ligne_rouge": "aucune",
+      "vers": "L1441-15"
+    },
+    {
+      "code": "cpp",
+      "num": "L1441-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Homologation de l'accord, instruction en cas de désaccord : fusionnées dans L1441-15.",
+      "ligne_rouge": "aucune",
+      "vers": "L1441-15"
+    },
+    {
+      "code": "cpp",
+      "num": "L1441-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Provision du fonds en tout état de la procédure : fusionnée dans L1441-20 (provisions). Le renvoi au décret en Conseil d'État descend au décret d'application.",
+      "ligne_rouge": "aucune",
+      "vers": "L1441-20"
+    },
+    {
+      "code": "cpp",
+      "num": "L1441-23",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Remboursement des sommes versées quand la victime est indemnisée ensuite : fusionné dans L1441-22, dont il est la suite.",
+      "ligne_rouge": "aucune",
+      "vers": "L1441-22"
+    },
+    {
+      "code": "cpp",
+      "num": "L1442-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renonciation à l'aide au recouvrement, frais du fonds exigibles : fusionnées dans L1442-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L1442-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L1442-5",
+      "decision": "F",
+      "principe": "P11",
+      "motif": "Point de départ du délai après irrecevabilité devant la juridiction d'indemnisation : fusionné dans L1442-2, qui porte le délai.",
+      "ligne_rouge": "aucune",
+      "vers": "L1442-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L1443-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Forclusion de six mois de la demande de paiement sur les biens confisqués : fusionnée dans L1443-1.",
+      "ligne_rouge": "art. 8 DDHC examiné : le délai est gardé à L1443-1, il ne touche aucune peine.",
+      "vers": "L1443-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1443-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Subrogation de l'État contre l'auteur, recouvrement par les finances : fusionnée dans L1443-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L1443-3"
     },
     {
       "code": "cpp",
       "num": "L1444-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Bénéficiaires de l'aide pour le terrorisme : renvoi aux conditions de L1441-1.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Bénéficiaires de l'aide pour le terrorisme : fusionnés dans L1444-1, 1°.",
+      "ligne_rouge": "aucune",
+      "vers": "L1444-1"
     },
     {
       "code": "cpp",
       "num": "L1444-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Assimilation aux demandes d'indemnisation du terrorisme : un régime pour deux demandes.",
-      "ligne_rouge": "aucune"
+      "motif": "Assimilation aux demandes d'indemnisation du terrorisme : fusionnée dans L1444-1, 1°.",
+      "ligne_rouge": "aucune",
+      "vers": "L1444-1"
     },
     {
       "code": "cpp",
       "num": "L1444-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Bénéficiaires de l'aide pour les autres infractions : renvoi aux conditions de L1441-2 et L1441-3.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Bénéficiaires de l'aide pour les autres infractions : fusionnés dans L1444-1, 2°.",
+      "ligne_rouge": "aucune",
+      "vers": "L1444-1"
     },
     {
       "code": "cpp",
       "num": "L1444-5",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Assimilation aux demandes devant la juridiction d'indemnisation : un régime pour deux demandes.",
-      "ligne_rouge": "aucune"
+      "motif": "Assimilation aux demandes devant la juridiction d'indemnisation : fusionnée dans L1444-1, 2°, qui vise L1441-13 (saisine et délai réunis).",
+      "ligne_rouge": "aucune",
+      "vers": "L1444-1"
     }
-  ]
+  ],
+  "passe": 3
 }
