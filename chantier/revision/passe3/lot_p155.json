@@ -1,0 +1,163 @@
+{
+  "lot": "lot_p155",
+  "titre": "CPP, 4e partie, livre V, titre Ier : Jugement par le tribunal contraventionnel",
+  "ecart_volume": "Écart motivé : 388 mots pour un plafond de 348 (−33 % au lieu de −40 %). Le titre n'est plus qu'une clause de renvoi au régime délictuel et trois règles propres : chaque renvoi garde son champ exact et ses exceptions (registre : une fusion garde le champ exact), le délit d'audience reste au tribunal délictuel, et les décisions de culpabilité, de relaxe et d'incompétence restent écrites pour la contravention.",
+  "articles_cible": [
+    {
+      "num": "L4511-1",
+      "texte": "Le tribunal contraventionnel est saisi par convocation en justice, par citation directe, par le renvoi ordonné par la juridiction d'instruction ou par la comparution volontaire des parties, le cas échéant après un avertissement délivré par le ministère public, conformément au premier alinéa de l'article L. 4411-2.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Modes de saisine en une phrase, liste inchangée. Le renvoi suit la fusion de L4411-3 dans L4411-2 (lot p148), dont le premier alinéa porte les anciens alinéas un et deux de L4411-3 : renvoi précis, aucune extension.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L4511-2",
+      "texte": "Sont applicables devant le tribunal contraventionnel, au livre IV de la présente partie :\n1° Les chapitres 1er, 2, 4 et 5 du titre Ier, à l'exception des articles L. 4411-26 à L. 4411-29 relatifs aux demandes d'actes.\n2° Le titre II, à l'exception des articles L. 4421-25 et L. 4421-26. Les sanctions prévues à l'article L. 4421-14 ne sont prononcées que par le tribunal délictuel, saisi par le ministère public au vu du procès-verbal de l'incident dressé par le juge du tribunal contraventionnel.\n3° Les articles L. 4431-1 à L. 4431-4, L. 4433-8 et L. 4434-1 à L. 4434-6.\n4° Le titre IV, relatif au défaut et à l'opposition.",
+      "verbe": "R",
+      "principe": "P3",
+      "motif": "Une seule clause de renvoi au régime du tribunal délictuel, au lieu de cinq articles (L4512-2, L4513-1, L4513-6 et L4513-7 fusionnés). Chaque renvoi et chaque exception gardent leur champ exact.",
+      "ligne_rouge": "Droits de la défense : l'audience, le jugement, le défaut et l'opposition suivent les règles du tribunal délictuel, comme avant. Le délit d'audience reste jugé par le tribunal délictuel."
+    },
+    {
+      "num": "L4512-1",
+      "texte": "Avant l'audience, le président du tribunal contraventionnel peut, sur la requête du ministère public ou de la partie civile, estimer ou faire estimer les dommages, dresser ou faire dresser des procès-verbaux, faire ou ordonner tous actes urgents.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Actes urgents avant l'audience : « le jour de » retiré.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L4513-2",
+      "texte": "Si le tribunal estime que les faits reprochés au prévenu sont établis et constituent une contravention, il le déclare coupable et, selon les articles L. 4432-1 à L. 4432-3, prononce la peine, l'en dispense ou ajourne son prononcé. L'article L. 4432-28 est applicable. Il statue s'il y a lieu sur l'action civile conformément à l'article L. 4433-1.\nS'il estime que le fait ne constitue aucune infraction, n'est pas établi ou n'est pas imputable au prévenu, il le relaxe conformément aux articles L. 4432-34 à L. 4432-38. S'il estime que le fait constitue un crime ou un délit, il se déclare incompétent et renvoie le dossier au procureur de la République.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Décisions du tribunal contraventionnel en un article : culpabilité, relaxe et incompétence (L4513-3 fusionné), renvois inchangés.",
+      "ligne_rouge": "Individualisation au prononcé : peine, dispense et ajournement restent ouverts selon le régime délictuel."
+    },
+    {
+      "num": "L4513-4",
+      "texte": "La solidarité des personnes condamnées pour une même contravention aux dommages et intérêts et aux restitutions, et celle du prévenu qui s'est entouré de coauteurs ou complices insolvables au paiement des amendes, ordonnée par décision spéciale et motivée, ne s'appliquent qu'aux contraventions de la cinquième classe.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Les deux règles de solidarité, réservées à la cinquième classe, réunies (L4513-5 fusionné).",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L4512-2",
+      "verbe": "F",
+      "vers": "L4511-2",
+      "principe": "P3",
+      "motif": "Audience du tribunal délictuel applicable et délit d'audience : 2° de L4511-2.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L4513-1",
+      "verbe": "F",
+      "vers": "L4511-2",
+      "principe": "P3",
+      "motif": "Règles du jugement délictuel applicables : 3° de L4511-2.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L4513-3",
+      "verbe": "F",
+      "vers": "L4513-2",
+      "principe": "P23",
+      "motif": "Incompétence pour un crime ou un délit : dans L4513-2, avec les autres décisions.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L4513-5",
+      "verbe": "F",
+      "vers": "L4513-4",
+      "principe": "P23",
+      "motif": "Solidarité des amendes réservée à la cinquième classe : dans L4513-4.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L4513-6",
+      "verbe": "F",
+      "vers": "L4511-2",
+      "principe": "P3",
+      "motif": "Frais et restitutions : 3° de L4511-2.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L4513-7",
+      "verbe": "F",
+      "vers": "L4511-2",
+      "principe": "P3",
+      "motif": "Défaut et opposition : 4° de L4511-2.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L4511-1#1": {
+      "vers": "L4511-1",
+      "destin": "reprise"
+    },
+    "L4511-1#2": {
+      "vers": "L4511-1",
+      "destin": "reprise"
+    },
+    "L4511-2#1": {
+      "vers": "L4511-2",
+      "destin": "reprise"
+    },
+    "L4512-1#1": {
+      "vers": "L4512-1",
+      "destin": "reprise"
+    },
+    "L4512-2#1": {
+      "vers": "L4511-2",
+      "destin": "reprise"
+    },
+    "L4512-2#2": {
+      "vers": "L4511-2",
+      "destin": "reprise"
+    },
+    "L4513-1#1": {
+      "vers": "L4511-2",
+      "destin": "reprise"
+    },
+    "L4513-2#1": {
+      "vers": "L4513-2",
+      "destin": "reprise"
+    },
+    "L4513-2#2": {
+      "vers": "L4513-2",
+      "destin": "reprise"
+    },
+    "L4513-2#3": {
+      "vers": "L4513-2",
+      "destin": "reprise"
+    },
+    "L4513-2#4": {
+      "vers": "L4513-2",
+      "destin": "reprise"
+    },
+    "L4513-3#1": {
+      "vers": "L4513-2",
+      "destin": "reprise"
+    },
+    "L4513-4#1": {
+      "vers": "L4513-4",
+      "destin": "reprise"
+    },
+    "L4513-5#1": {
+      "vers": "L4513-4",
+      "destin": "reprise"
+    },
+    "L4513-6#1": {
+      "vers": "L4511-2",
+      "destin": "reprise"
+    },
+    "L4513-7#1": {
+      "vers": "L4511-2",
+      "destin": "reprise"
+    }
+  }
+}

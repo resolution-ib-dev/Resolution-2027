@@ -10,97 +10,127 @@
     {
       "code": "cpp",
       "num": "L4511-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Saisine du tribunal contraventionnel. Coordination avec la fusion de L4411-3 dans L4411-2 (lot p148) : le renvoi suit la règle là où elle vit désormais.",
+      "principe": "P23",
+      "motif": "Modes de saisine en une phrase, liste inchangée. Le renvoi suit la fusion de L4411-3 dans L4411-2 (lot p148), dont le premier alinéa porte les anciens alinéas un et deux de L4411-3 : renvoi précis, aucune extension.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "conformément aux alinéas un et deux de l'article L. 4411-3.",
-          "nouveau": "conformément aux deux premiers alinéas de l'article L. 4411-2."
+          "op": "rediger",
+          "nouveau": "Le tribunal contraventionnel est saisi par convocation en justice, par citation directe, par le renvoi ordonné par la juridiction d'instruction ou par la comparution volontaire des parties, le cas échéant après un avertissement délivré par le ministère public, conformément au premier alinéa de l'article L. 4411-2."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4511-2",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Saisine du tribunal délictuel applicable, sans demandes d'actes : un régime par renvoi.",
-      "ligne_rouge": "aucune"
+      "motif": "Une seule clause de renvoi au régime du tribunal délictuel, au lieu de cinq articles (L4512-2, L4513-1, L4513-6 et L4513-7 fusionnés). Chaque renvoi et chaque exception gardent leur champ exact.",
+      "ligne_rouge": "Droits de la défense : l'audience, le jugement, le défaut et l'opposition suivent les règles du tribunal délictuel, comme avant. Le délit d'audience reste jugé par le tribunal délictuel.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sont applicables devant le tribunal contraventionnel, au livre IV de la présente partie :\n1° Les chapitres 1er, 2, 4 et 5 du titre Ier, à l'exception des articles L. 4411-26 à L. 4411-29 relatifs aux demandes d'actes.\n2° Le titre II, à l'exception des articles L. 4421-25 et L. 4421-26. Les sanctions prévues à l'article L. 4421-14 ne sont prononcées que par le tribunal délictuel, saisi par le ministère public au vu du procès-verbal de l'incident dressé par le juge du tribunal contraventionnel.\n3° Les articles L. 4431-1 à L. 4431-4, L. 4433-8 et L. 4434-1 à L. 4434-6.\n4° Le titre IV, relatif au défaut et à l'opposition."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4512-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Actes urgents avant l'audience.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4512-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Audience délictuelle applicable, délit d'audience renvoyé au tribunal délictuel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4513-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Règles du jugement délictuel applicables.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Actes urgents avant l'audience : « le jour de » retiré.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant l'audience, le président du tribunal contraventionnel peut, sur la requête du ministère public ou de la partie civile, estimer ou faire estimer les dommages, dresser ou faire dresser des procès-verbaux, faire ou ordonner tous actes urgents."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4513-2",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Culpabilité, peine, dispense ou ajournement, relaxe : renvoi au régime délictuel.",
-      "ligne_rouge": "art. 8 DDHC examiné : mêmes facultés qu'en matière délictuelle, dans le barème"
-    },
-    {
-      "code": "cpp",
-      "num": "L4513-3",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Incompétence si le fait est un crime ou un délit.",
-      "ligne_rouge": "aucune"
+      "motif": "Décisions du tribunal contraventionnel en un article : culpabilité, relaxe et incompétence (L4513-3 fusionné), renvois inchangés.",
+      "ligne_rouge": "Individualisation au prononcé : peine, dispense et ajournement restent ouverts selon le régime délictuel.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le tribunal estime que les faits reprochés au prévenu sont établis et constituent une contravention, il le déclare coupable et, selon les articles L. 4432-1 à L. 4432-3, prononce la peine, l'en dispense ou ajourne son prononcé. L'article L. 4432-28 est applicable. Il statue s'il y a lieu sur l'action civile conformément à l'article L. 4433-1.\nS'il estime que le fait ne constitue aucune infraction, n'est pas établi ou n'est pas imputable au prévenu, il le relaxe conformément aux articles L. 4432-34 à L. 4432-38. S'il estime que le fait constitue un crime ou un délit, il se déclare incompétent et renvoie le dossier au procureur de la République."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4513-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Solidarité civile réservée à la cinquième classe.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Les deux règles de solidarité, réservées à la cinquième classe, réunies (L4513-5 fusionné).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La solidarité des personnes condamnées pour une même contravention aux dommages et intérêts et aux restitutions, et celle du prévenu qui s'est entouré de coauteurs ou complices insolvables au paiement des amendes, ordonnée par décision spéciale et motivée, ne s'appliquent qu'aux contraventions de la cinquième classe."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4512-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Audience du tribunal délictuel applicable et délit d'audience : 2° de L4511-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L4511-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L4513-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Règles du jugement délictuel applicables : 3° de L4511-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L4511-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L4513-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Incompétence pour un crime ou un délit : dans L4513-2, avec les autres décisions.",
+      "ligne_rouge": "aucune",
+      "vers": "L4513-2"
     },
     {
       "code": "cpp",
       "num": "L4513-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Solidarité des amendes réservée à la cinquième classe.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Solidarité des amendes réservée à la cinquième classe : dans L4513-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4513-4"
     },
     {
       "code": "cpp",
       "num": "L4513-6",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Frais et restitutions : renvoi au régime délictuel.",
-      "ligne_rouge": "aucune"
+      "motif": "Frais et restitutions : 3° de L4511-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L4511-2"
     },
     {
       "code": "cpp",
       "num": "L4513-7",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Défaut et opposition : renvoi au titre IV.",
-      "ligne_rouge": "aucune"
+      "motif": "Défaut et opposition : 4° de L4511-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L4511-2"
     }
-  ]
+  ],
+  "passe": 3
 }
