@@ -187,28 +187,29 @@
       "num": "L4421-3",
       "decision": "R",
       "principe": "P26",
-      "motif": "Le huis clos pour « l'ordre, la sérénité des débats, la dignité de la personne ou les intérêts d'un tiers » excède la règle de publicité retenue par défaut (P26 élargi) : il est réservé à la victime qui le demande pour sa protection, au secret de la défense nationale (gardé), et d'office à l'audition d'un mineur et aux débats sur la santé d'une personne. La dignité et l'intérêt d'un tiers majeur ne le fondent plus. L'ordre de l'audience relève de la police du président (L4421-13 et L4421-14). Coquille : L4425-3 n'existe pas, les jugements séparés sur incidents sont à L4421-28 (ancien 459, alinéa 4).",
-      "ligne_rouge": "CEDH art. 6 § 1 examiné : la publicité est la règle, et l'article admet lui-même le huis clos quand l'intérêt des mineurs ou la vie privée des parties l'exige. Vie privée (CEDH art. 8, P25) examinée : la victime obtient le huis clos à sa demande, et la santé de toute personne est soustraite au public par le juge. Minorité examinée : le mineur entendu est protégé d'office. Présomption d'innocence examinée : le jugement sur le fond reste public (L4421-2). Le huis clos pour secret de la défense nationale est gardé.",
+      "motif": "Le huis clos pour « l'ordre, la sérénité des débats, la dignité de la personne ou les intérêts d'un tiers » sort des exceptions de la transparence. La liste de passe 2 (victime, audition d'un mineur d'office, santé d'une personne) divergeait de L. 1 : l'article y renvoie (registre 3.5). Le secret de la défense nationale, réservé aux juridictions spécialisées, relève de la sécurité nationale de L. 1, ouverte à tout tribunal. L'ordre de l'audience relève de la police du président (L4421-13 et L4421-14). Coquille : L4425-3 n'existe pas, les jugements séparés sur incidents sont à L4421-28. Perte à dire : la santé d'une personne et l'audition d'un mineur témoin ne fondent plus le huis clos d'office.",
+      "ligne_rouge": "CEDH art. 6 § 1 examiné : la publicité est la règle. Vie privée (CEDH art. 8) examinée : la victime obtient le huis clos à sa demande, la santé d'un tiers se débat en public, perte déclarée. Minorité examinée : huis clos pour le prévenu mineur au moment des faits, le mineur victime le demande par ses représentants. Présomption d'innocence examinée : le jugement sur le fond reste public (L4421-2).",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "si la publicité des débats est dangereuse pour l'ordre, la sérénité des débats, la dignité de la personne ou les intérêts d'un tiers, le tribunal peut ordonner, par un jugement rendu en audience publique, que les débats se tiendront à huis-clos, en totalité ou pour partie.",
-          "nouveau": "le tribunal peut ordonner, par un jugement rendu en audience publique, que les débats se tiendront à huis clos, en totalité ou pour partie, lorsque la victime le demande pour sa protection. Il peut aussi l'ordonner d'office pour l'audition d'un mineur et pour la partie des débats qui porte sur la santé d'une personne."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "sur des incidents ou exceptions mentionnés à l'article L. 4425-3 alinéa 2.",
-          "nouveau": "sur des incidents ou exceptions en application de l'article L. 4421-28."
+          "op": "rediger",
+          "nouveau": "Par dérogation à l'article L. 4421-1, le tribunal peut ordonner, par un jugement rendu en audience publique, que les débats se tiendront à huis clos, en totalité ou pour partie, dans les cas prévus à l'article L. 1.\nLorsque le huis clos a été ordonné, il s'applique au prononcé des jugements qui peuvent intervenir sur des incidents ou exceptions en application de l'article L. 4421-28."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4421-4",
-      "decision": "G",
+      "decision": "S",
       "principe": "P26",
-      "motif": "Huis clos limité au temps de l'audition du témoin dont la vie est gravement menacée, pour les délits de guerre et la délinquance organisée. Il entre dans la règle de publicité retenue par défaut (danger grave pour la vie ou l'intégrité physique d'une personne) : gardé.",
-      "ligne_rouge": "CEDH art. 2 et 6 § 1 examinés : atteinte à la publicité bornée à une déposition, pour protéger une vie"
+      "motif": "Registre 3.2 : le témoin dont la vie est gravement menacée est protégé par l'anonymat de sa déposition, qui protège son identité. Le huis clos pour danger grave sort des exceptions de L. 1 (registre 3.1) : l'audition se tient en public, sous anonymat. Liste des infractions gardée.",
+      "ligne_rouge": "Vie et intégrité (art. 2 DDHC, CEDH art. 2) examinées : la déposition anonyme, voix et apparence altérées, protège le témoin. Art. 16 DDHC examiné : la défense entend la déposition et la discute (L1532-6). CEDH art. 6 § 1 examiné : publicité tenue.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "ordonner le huis clos pour le temps de l'audition d'un témoin si la déposition publique de celui-ci",
+          "nouveau": "ordonner qu'un témoin dépose dans des conditions de nature à préserver son anonymat, selon les modalités de l'article L. 1532-9, si sa déposition publique"
+        }
+      ]
     },
     {
       "code": "cpp",

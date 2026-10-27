@@ -127,10 +127,17 @@
     {
       "code": "cpp",
       "num": "L3742-17",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Observations écrites, audience de cabinet, avocat en dernier, décision au troisième jour ouvrable, dossier transmis par tout moyen : voie rapide et numérique. L'ordonnance non motivée ne fait que filtrer, la chambre reste saisie au fond.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P26",
+      "motif": "Observations écrites, audience de cabinet, avocat en dernier, décision au troisième jour ouvrable, dossier transmis par tout moyen : voie rapide et numérique. L'ordonnance non motivée ne fait que filtrer, la chambre reste saisie au fond. Registre 3.1 : l'audience de cabinet de droit sort des exceptions de L. 1, elle devient publique sauf ces exceptions.",
+      "ligne_rouge": "Art. 66 C examiné : le président filtre, la chambre reste saisie au fond, la publicité renforce le contrôle de la détention. Art. 16 DDHC examiné : l'avocat a la parole en dernier.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "lors d'une audience de cabinet dont est avisé",
+          "nouveau": "lors d'une audience publique, ou de cabinet dans les cas prévus à l'article L. 1, dont est avisé"
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -191,10 +198,17 @@
     {
       "code": "cpp",
       "num": "L3742-24",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Ordonnance motivée sans recours, observations orales de l'avocat : le contradictoire est tenu dans la voie rapide.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P26",
+      "motif": "Ordonnance motivée sans recours, observations orales de l'avocat : le contradictoire est tenu dans la voie rapide. Registre 3.1 : l'audience de cabinet de droit sort des exceptions de L. 1, elle devient publique sauf ces exceptions.",
+      "ligne_rouge": "Art. 16 DDHC examiné : ordonnance motivée, observations orales de l'avocat. Art. 66 C examiné : la publicité renforce le contrôle de la détention.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "lors d'une audience de cabinet dont le ministère public est avisé",
+          "nouveau": "lors d'une audience publique, ou de cabinet dans les cas prévus à l'article L. 1, dont le ministère public est avisé"
+        }
+      ]
     },
     {
       "code": "cpp",

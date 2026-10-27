@@ -89,11 +89,11 @@ def corpus():
             n = a["num"] or ""
             if re.match(r"^[LRDA]\*?\d", n):
                 out.append(("cpp", a, J2029))
-    for code in ("cp", "penitentiaire"):
+    for code in ("cp", "penitentiaire"):   # au 1er janvier 2029, comme le jugement (arbitrage #97, registre 8.3)
         for vs in droit.charger(code).values():
-            ap = [v for v in vs if droit.applicable(v)]
+            ap = [v for v in vs if droit.applicable(v, J2029)]
             if ap:
-                out.append((code, ap[-1], str(date.today())))
+                out.append((code, ap[-1], J2029))
     return out
 
 

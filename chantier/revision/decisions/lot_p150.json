@@ -84,18 +84,23 @@
       "num": "L4432-14",
       "decision": "R",
       "principe": "P10",
-      "motif": "Choix à l'audience pour l'emprisonnement d'un an au plus (demande des lots p004 et p038 : « le sort du renvoi se tranche au lot de la 4e partie »). Le tribunal doit choisir entre les voies : aménager dans le champ de 132-25 réécrit ([six mois], lot p004), renvoyer au juge de l'application des peines dans le même champ s'il manque d'éléments (l'aménagement est une faculté, L5212-2 réécrit), ou décerner mandat. La borne « d'au moins six mois » du mandat différé tombe avec l'aménagement obligatoire (132-19 et 132-25 réécrits) : la peine prononcée s'exécute quelle que soit sa durée. Coordonne D48-1-1 (seuils de l'ancien 464-2).",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction choisit à l'audience la voie d'exécution, l'aménagement reste une faculté motivée (132-25 réécrit) ; art. 66 C examiné : l'incarcération résulte de la peine prononcée par le tribunal",
+      "motif": "Registre 6.1 : le renvoi au juge de l'application des peines avant incarcération (2°) est abrogé : la peine prononcée s'exécute, l'aménagement se décide à l'audience. Le tribunal choisit entre aménager dans le champ de 132-25 réécrit, décerner un mandat de dépôt à effet différé ou décerner mandat. La borne « d'au moins six mois » du mandat différé tombe avec l'aménagement obligatoire. Renumérotation : les 3° et 4° deviennent 2° et 3° (L4432-20 coordonné). Renvois de la partie réglementaire à l'ancien 464-2 (D45-2-1-1, D48-2, D48-1-1) à coordonner.",
+      "ligne_rouge": "art. 8 DDHC examiné : la juridiction fixe à l'audience la peine et son mode d'exécution, l'aménagement reste une faculté motivée (132-25 réécrit) ; art. 66 C examiné : l'incarcération résulte de la peine prononcée par le tribunal",
       "operations": [
         {
           "op": "remplacer",
-          "ancien": "2° Soit, s'il ne dispose pas des éléments",
-          "nouveau": "2° Soit, si l'emprisonnement est inférieur ou égal à [six mois] et s'il ne dispose pas des éléments"
+          "ancien": "2° Soit, s'il ne dispose pas des éléments lui permettant de déterminer la mesure d'aménagement adaptée, ordonner que le condamné soit convoqué devant le juge de l'application des peines et le service pénitentiaire d'insertion et de probation afin que puisse être prononcée une mesure d'aménagement de peine conformément aux articles L. 5212-1 à L. 5212-7 ;",
+          "nouveau": ""
         },
         {
           "op": "remplacer",
           "ancien": "3° Soit, si l'emprisonnement est d'au moins six mois, décerner un mandat de dépôt à effet différé",
-          "nouveau": "3° Soit décerner un mandat de dépôt à effet différé"
+          "nouveau": "2° Soit décerner un mandat de dépôt à effet différé"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "4° Soit, dans les cas prévus aux articles L. 4432-21 et L. 4432-22",
+          "nouveau": "3° Soit, dans les cas prévus aux articles L. 4432-21 et L. 4432-22"
         }
       ]
     },
@@ -110,10 +115,10 @@
     {
       "code": "cpp",
       "num": "L4432-16",
-      "decision": "G",
+      "decision": "A",
       "principe": "P10",
-      "motif": "Après renvoi au juge de l'application des peines, toute la palette d'exécution reste ouverte au juge.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine est prononcée par la juridiction, dans le barème (132-1 et 132-1-1 du code pénal) ; l'article n'en règle que l'exécution"
+      "motif": "Registre 6.1 : l'article règle les suites du renvoi au juge de l'application des peines (2° de L4432-14), abrogé. Il n'a plus d'objet. Les facultés du juge de l'application des peines sur la peine en cours (libération conditionnelle, conversion, fractionnement, suspension) restent régies par leurs articles propres.",
+      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée s'exécute, les aménagements en cours d'exécution restent ouverts par leurs sièges propres"
     },
     {
       "code": "cpp",
@@ -157,14 +162,19 @@
       "code": "cpp",
       "num": "L4432-20",
       "decision": "S",
-      "principe": "P19",
-      "motif": "Mandat de dépôt à effet différé : convocation sous un mois devant le procureur qui fixe l'incarcération, exécution provisoire possible. Délai opposable. Accord corrigé (« au moins égal »).",
+      "principe": "P13",
+      "motif": "Registre 6.1 : renvoi au 2° de L4432-14 renuméroté. Mandat de dépôt à effet différé : convocation sous un mois devant le procureur qui fixe l'incarcération, exécution provisoire possible. Délai opposable. Accord corrigé (« au moins égal »).",
       "ligne_rouge": "art. 8 DDHC examiné : la peine est prononcée, le mandat en organise l'exécution ; art. 66 C examiné : mandat décerné par le tribunal",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "au moins égal à un an",
           "nouveau": "au moins égale à un an"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "en application du 3° de l'article L. 4432-14",
+          "nouveau": "en application du 2° de l'article L. 4432-14"
         }
       ]
     },

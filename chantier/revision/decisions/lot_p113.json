@@ -26,10 +26,17 @@
     {
       "code": "penitentiaire",
       "num": "D341-20",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Agrément des visiteurs pour deux ans, retrait d'office ou à la demande du juge de l'application des peines ou du procureur, suspension d'urgence : source de D473 du code de procédure pénale, abrogé comme miroir (lot p035). L'avis du préfet est un criblage de sécurité des personnes qui entrent en détention, non un avis préalable sur une décision touchant le détenu : la proposition P15 est écartée, le point est renvoyé à l'auteur.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P15",
+      "motif": "Registre 5.2 : l'avis préalable du préfet sur l'agrément des visiteurs de prison devient une information du préfet, saisi de la demande. Agrément pour deux ans, retrait d'office ou à la demande du juge de l'application des peines ou du procureur, suspension d'urgence gardés : source de D473 du code de procédure pénale, abrogé comme miroir (lot p035).",
+      "ligne_rouge": "CEDH art. 8 examiné : l'accès des visiteurs aux personnes détenues reste ouvert, le retrait et la suspension restent encadrés",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "L'agrément est accordé par le directeur interrégional des services pénitentiaires, après avis du préfet.",
+          "nouveau": "L'agrément est accordé par le directeur interrégional des services pénitentiaires. Le préfet est informé de la demande d'agrément."
+        }
+      ]
     },
     {
       "code": "penitentiaire",

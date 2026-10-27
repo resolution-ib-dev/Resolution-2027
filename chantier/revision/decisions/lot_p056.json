@@ -34,10 +34,17 @@
     {
       "code": "cp",
       "num": "131-3",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Catalogue des peines délictuelles. Le texte de 2029 y définit le délit par l'emprisonnement ou l'amende d'au moins 3 750 euros.",
-      "ligne_rouge": "art. 8 DDHC examiné : liste légale fermée, principe de légalité des peines"
+      "decision": "R",
+      "principe": "P10",
+      "motif": "Registre 1.11 : les peines prononcées à la place de l'emprisonnement (surveillance électronique, travail d'intérêt général, jours-amende, stage, peines privatives ou restrictives de droits, sanction-réparation) sont réservées au primo-délinquant, pour un délit qui ne porte pas atteinte aux personnes. La règle vit une fois, au catalogue des peines délictuelles, au lieu d'être répétée dans 131-4-1 à 131-8-1. Le quantum respecte d'abord le barème (132-1-1, IV).",
+      "ligne_rouge": "Individualisation au prononcé et art. 8 DDHC examinés : la juridiction fixe d'abord la peine dans le barème, le sursis et la substitution restent des facultés réservées au primo-délinquant hors atteinte aux personnes. Nécessité des peines examinée : l'auteur exclu du sursis reste jugé dans le barème, avec ses diminutions.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Ces peines ne sont pas exclusives des peines complémentaires prévues à l'article 131-10.",
+          "nouveau": "Ces peines ne sont pas exclusives des peines complémentaires prévues à l'article 131-10.\nPrononcées à la place de l'emprisonnement, les peines mentionnées aux 2°, 3° et 5° à 8° sont réservées à l'auteur sans condamnation antérieure pour crime ou délit, pour un délit qui ne porte pas atteinte aux personnes."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -582,10 +589,17 @@
     {
       "code": "cp",
       "num": "131-37",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Catalogue des peines criminelles et délictuelles des personnes morales.",
-      "ligne_rouge": "art. 8 DDHC examiné : liste légale fermée"
+      "decision": "R",
+      "principe": "P20",
+      "motif": "Registre 1.22 : une clause générale unique remplace l'article par chapitre. Les peines de 131-39 sont encourues par toute personne morale pour tout crime ou délit, sans renvoi spécial. Le programme de conformité (131-39-2) reste dans les cas prévus par la loi. Les articles de chapitre sont abrogés, ou réduits à leur peine propre.",
+      "ligne_rouge": "Art. 8 DDHC et légalité des peines examinés : la clause générale (131-37, 131-39) fixe par la loi les peines encourues par toute personne morale pour tout crime ou délit, chacune bornée, la dissolution réservée par 131-39 au détournement d'objet et aux faits punis d'au moins trois ans, et exclue pour les personnes publiques, partis et syndicats. Effet déclaré : des délits qui n'ouvraient que certaines peines les ouvrent toutes. L'interdiction d'exercer est limitée à l'activité en cause partout.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "2° Dans les cas prévus par la loi, les peines énumérées à l'article 131-39 et la peine prévue à l'article 131-39-2.",
+          "nouveau": "2° Les peines énumérées à l'article 131-39 et, dans les cas prévus par la loi, la peine prévue à l'article 131-39-2."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -598,10 +612,22 @@
     {
       "code": "cp",
       "num": "131-39",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Peines des personnes morales : liste de la légalité des peines, elle ne s'inverse pas (proposition P2 écartée). Confiscation encourue de plein droit au-delà d'un an.",
-      "ligne_rouge": "art. 8 DDHC examiné : peines prévues par la loi et bornées, dissolution exclue pour les personnes publiques, partis et syndicats"
+      "decision": "R",
+      "principe": "P23",
+      "motif": "Registre 1.22 : la clause générale. Tout crime ou délit dont une personne morale est déclarée responsable (121-2) peut être sanctionné des peines de la liste, outre l'amende de 131-38, sans qu'une loi spéciale le prévoie. La limite que portaient presque tous les articles de chapitre entre au 2° : l'interdiction d'exercer porte sur l'activité en cause. Les gardes du dernier alinéa (personnes publiques, partis, syndicats, institutions représentatives) restent.",
+      "ligne_rouge": "Art. 8 DDHC et légalité des peines examinés : la clause générale (131-37, 131-39) fixe par la loi les peines encourues par toute personne morale pour tout crime ou délit, chacune bornée, la dissolution réservée par 131-39 au détournement d'objet et aux faits punis d'au moins trois ans, et exclue pour les personnes publiques, partis et syndicats. Effet déclaré : des délits qui n'ouvraient que certaines peines les ouvrent toutes. L'interdiction d'exercer est limitée à l'activité en cause partout.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Lorsque la loi le prévoit à l'encontre d'une personne morale, un crime ou un délit peut être sanctionné d'une ou de plusieurs des peines suivantes :",
+          "nouveau": "Le crime ou le délit dont une personne morale est déclarée responsable dans les conditions de l'article 121-2 peut être sanctionné, outre l'amende prévue à l'article 131-38, d'une ou de plusieurs des peines suivantes :"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "une ou plusieurs activités professionnelles ou sociales ;",
+          "nouveau": "une ou plusieurs activités professionnelles ou sociales dans l'exercice ou à l'occasion de l'exercice desquelles l'infraction a été commise ;"
+        }
+      ]
     },
     {
       "code": "cp",
@@ -725,9 +751,9 @@
       "code": "cp",
       "num": "132-1",
       "decision": "R",
-      "principe": "P14",
-      "motif": "Fiche L4 : la juridiction prononce la peine encourue et ne descend en dessous que pour les motifs et dans les limites du barème (article 132-1-1, créé par la fiche L4 hors registre, avec 132-1-2 pour la récidive par la fiche L5). Le jugement énonce chaque motif, ses faits et la diminution. La situation matérielle, familiale et sociale sort du quantum et passe au régime d'exécution. Cohérent avec 132-19 réécrit (lot p004), qui renvoie à 132-1 et 132-1-1.",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés. Le noyau est que le juge prononce expressément la peine et peut en faire varier la durée (CC 2010-6/7 QPC, 11 juin 2010, cons. 5), principe tiré de l'art. 8 (CC 2005-520 DC, 22 juillet 2005, cons. 3). La cible le tient : la juridiction prononce et module dans trois catégories bornées, discernement et minorité réduisent le point de départ, et le législateur peut fixer des règles assurant une répression effective (CC 2007-554 DC, cons. 13). Risque déclaré : le plancher des trois quarts pour une victime mineure ou vulnérable, sans dérogation, dépasse ce que la décision de 2007 a validé (environ un tiers avec dérogation, cons. 11 et 15).",
+      "principe": "P25",
+      "motif": "Fiche L4 et registre 1.17 : la juridiction prononce la peine encourue et ne descend en dessous que pour les motifs et dans les limites du barème (article 132-1-1), le jugement énonce chaque motif, ses faits et la diminution. Le registre 1.17 ajoute la phrase d'individualisation : « La peine est fixée selon les faits et la personne de l'auteur, dans les limites du barème. » La situation matérielle, familiale et sociale sort du quantum et passe au régime d'exécution, sauf les ressources pour le montant de l'amende (registre 1.13, 132-1-1 et 132-20). Cohérent avec 132-19 réécrit (lot p004).",
+      "ligne_rouge": "Individualisation au prononcé et art. 8 DDHC examinés : la phrase du registre 1.17 rend l'individualisation explicite, la juridiction fixe la peine selon les faits et la personne, expressément, et peut en faire varier la durée (CC 2010-6/7 QPC, 11 juin 2010, cons. 5), dans des limites que le législateur fixe pour une répression effective (CC 2007-554 DC, cons. 13). Risque déclaré : le plafond du quart pour une victime mineure ou vulnérable (registre 1.14) dépasse ce que la décision de 2007 a validé, la soupape tient au point de départ réduit pour la minorité et le discernement (132-1-1, III).",
       "operations": [
         {
           "op": "remplacer_alineas",
@@ -735,7 +761,7 @@
             2,
             3
           ],
-          "nouveau": "La juridiction prononce la peine encourue. Elle peut prononcer une peine moindre pour les motifs et dans les limites fixés à l'article 132-1-1. Le jugement énonce chaque motif retenu, les faits qui l'établissent et la diminution appliquée."
+          "nouveau": "La peine est fixée selon les faits et la personne de l'auteur, dans les limites du barème. La juridiction prononce la peine encourue. Elle peut prononcer une peine moindre pour les motifs et dans les limites fixés à l'article 132-1-1. Le jugement énonce chaque motif retenu, les faits qui l'établissent et la diminution appliquée."
         }
       ]
     },
@@ -963,8 +989,8 @@
       "num": "132-20",
       "decision": "R",
       "principe": "P14",
-      "motif": "L'amende inférieure à l'amende encourue entre dans le barème (132-1-1). Les ressources et les charges ne fixent plus le montant : elles fixent les modalités de paiement, selon la règle du barème (la situation matérielle relève du régime d'exécution, pas du quantum). La majoration au profit de l'aide aux victimes reste (la version de 2029 en réécrit le troisième alinéa, sans conflit).",
-      "ligne_rouge": "art. 8 DDHC et individualisation examinés : la juridiction module l'amende dans le barème et adapte le paiement aux ressources (fractionnement de 132-28)",
+      "motif": "Registre 1.13 : les ressources et les charges entrent dans la catégorie 1 du barème (personne, au plus un tiers) pour le montant de l'amende, et dans l'échéancier pour son exécution. Le plafond total des diminutions garde un plancher du tiers de l'amende encourue (132-1-1, II). La majoration au profit de l'aide aux victimes reste.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'amende reste proportionnée aux ressources dans la catégorie 1 et payable selon un échéancier. Égalité devant la charge pénale examinée : le plancher du tiers vaut pour tous.",
       "operations": [
         {
           "op": "remplacer",
@@ -974,7 +1000,7 @@
         {
           "op": "remplacer",
           "ancien": "Le montant de l'amende est déterminé en tenant compte des ressources et des charges de l'auteur de l'infraction.",
-          "nouveau": "La juridiction tient compte des ressources et des charges de l'auteur de l'infraction pour fixer les modalités de paiement de l'amende."
+          "nouveau": "Les ressources et les charges de l'auteur de l'infraction entrent dans la diminution prévue au 1° du I de l'article 132-1-1 pour le montant de l'amende. Elles fixent aussi les modalités de paiement de l'amende."
         }
       ]
     },
@@ -1075,18 +1101,37 @@
     {
       "code": "cp",
       "num": "132-30",
-      "decision": "G",
+      "decision": "R",
       "principe": "P10",
-      "motif": "Conditions d'octroi du sursis simple : il est refusé à qui a déjà été condamné à une peine ferme dans les cinq ans. Il se décide au prononcé et s'annonce (P10).",
-      "ligne_rouge": "art. 8 DDHC examiné : sursis décidé par la juridiction, exclu en cas d'antécédent récent"
+      "motif": "Registre 1.11 : le sursis simple est réservé au primo-délinquant, hors atteinte aux personnes : il est refusé à qui a déjà été condamné pour crime ou délit, quelle que soit la peine et la date, et pour une infraction qui porte atteinte aux personnes. Le régime des personnes morales est gardé, son délai de cinq ans écrit en toutes lettres puisque l'alinéa premier ne le porte plus.",
+      "ligne_rouge": "Individualisation au prononcé et art. 8 DDHC examinés : la juridiction fixe d'abord la peine dans le barème, le sursis et la substitution restent des facultés réservées au primo-délinquant hors atteinte aux personnes. Nécessité des peines examinée : l'auteur exclu du sursis reste jugé dans le barème, avec ses diminutions.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "que lorsque le prévenu n'a pas été condamné, au cours des cinq années précédant les faits, pour crime ou délit de droit commun, à une peine de réclusion ou d'emprisonnement.",
+          "nouveau": "que lorsque le prévenu est sans condamnation antérieure pour crime ou délit et que l'infraction ne porte pas atteinte aux personnes."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "n'a pas été condamnée, dans le même délai, pour un crime",
+          "nouveau": "n'a pas été condamnée, au cours des cinq années précédant les faits, pour un crime"
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "132-31",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Champ du sursis simple : emprisonnement de cinq ans au plus, amende, peines de droits, hors confiscation, fermeture et affichage. Aucune confiscation n'échappe à l'exécution (P6).",
-      "ligne_rouge": "art. 8 DDHC examiné : champ fixé par la loi, confiscation exclue du sursis"
+      "decision": "S",
+      "principe": "P20",
+      "motif": "Registre 1.11, conséquence de 132-30 réécrit : le sursis étant fermé à tout condamné antérieur, l'alinéa qui le limitait à l'emprisonnement pour le condamné à une autre peine n'a plus d'objet. Champ du sursis simple gardé.",
+      "ligne_rouge": "Art. 8 DDHC examiné : champ fixé par la loi, confiscation exclue du sursis. L'alinéa retiré ne restreint plus rien, le primo-délinquant seul accède au sursis (132-30).",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "\nLe sursis simple ne peut être ordonné que pour l'emprisonnement lorsque le prévenu a été condamné dans le délai prévu à l'article 132-30 à une peine autre que la réclusion ou l'emprisonnement.",
+          "nouveau": ""
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1099,10 +1144,22 @@
     {
       "code": "cp",
       "num": "132-33",
-      "decision": "G",
+      "decision": "R",
       "principe": "P10",
-      "motif": "Conditions du sursis simple en matière contraventionnelle.",
-      "ligne_rouge": "art. 8 DDHC examiné : sursis exclu en cas d'antécédent récent"
+      "motif": "Registre 1.11 : en matière contraventionnelle aussi, le sursis simple est réservé au primo-délinquant, hors atteinte aux personnes. Le régime des personnes morales est gardé, son délai de cinq ans écrit en toutes lettres puisque l'alinéa premier ne le porte plus.",
+      "ligne_rouge": "Individualisation au prononcé et art. 8 DDHC examinés : la juridiction fixe d'abord la peine dans le barème, le sursis et la substitution restent des facultés réservées au primo-délinquant hors atteinte aux personnes. Nécessité des peines examinée : l'auteur exclu du sursis reste jugé dans le barème, avec ses diminutions.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "que lorsque le prévenu n'a pas été condamné, au cours des cinq années précédant les faits, pour crime ou délit de droit commun, à une peine de réclusion ou d'emprisonnement.",
+          "nouveau": "que lorsque le prévenu est sans condamnation antérieure pour crime ou délit et que la contravention ne porte pas atteinte aux personnes."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "n'a pas été condamnée, dans le même délai, pour crime",
+          "nouveau": "n'a pas été condamnée, au cours des cinq années précédant les faits, pour crime"
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1175,33 +1232,57 @@
     {
       "code": "cp",
       "num": "132-41",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Champ du sursis probatoire, refusé au récidiviste qui en a déjà bénéficié. Le renvoi au deuxième alinéa de l'article 708, absent du code de 2029 et non coordonné par la version de 2029, passe à l'article L. 5111-2 qui en reprend la règle.",
-      "ligne_rouge": "art. 8 DDHC examiné : sursis probatoire borné à cinq ans, dix en récidive, refusé au récidiviste réitérant",
+      "decision": "R",
+      "principe": "P10",
+      "motif": "Registre 1.11 : le sursis probatoire est réservé au primo-délinquant, hors atteinte aux personnes. Les règles propres au récidiviste (sursis jusqu'à dix ans, refus après deux sursis probatoires) n'ont plus d'objet et tombent. Le renvoi à l'ancien 708, absent du code de 2029, passe à L. 5111-2 (décision antérieure reprise).",
+      "ligne_rouge": "Individualisation au prononcé et art. 8 DDHC examinés : la juridiction fixe d'abord la peine dans le barème, le sursis et la substitution restent des facultés réservées au primo-délinquant hors atteinte aux personnes. Nécessité des peines examinée : l'auteur exclu du sursis reste jugé dans le barème, avec ses diminutions.",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "selon les dispositions du deuxième alinéa de l'article 708 du code de procédure pénale",
           "nouveau": "selon les dispositions de l'article L. 5111-2 du code de procédure pénale"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "en raison d'un crime ou d'un délit de droit commun. Lorsque la personne est en état de récidive légale, il est applicable aux condamnations à l'emprisonnement prononcées pour une durée de dix ans au plus.",
+          "nouveau": "en raison d'un crime ou d'un délit de droit commun qui ne porte pas atteinte aux personnes, à l'encontre d'une personne sans condamnation antérieure pour crime ou délit."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "\nLa juridiction pénale ne peut prononcer le sursis probatoire à l'encontre d'une personne ayant déjà fait l'objet de deux condamnations assorties du sursis probatoire pour des délits identiques ou assimilés au sens des articles 132-16 à 132-16-4 et se trouvant en état de récidive légale. Lorsqu'il s'agit soit d'un crime, soit d'un délit de violences volontaires, d'un délit d'agressions ou d'atteintes sexuelles ou d'un délit commis avec la circonstance aggravante de violences, la juridiction ne peut prononcer le sursis probatoire à l'encontre d'une personne ayant déjà fait l'objet d'une condamnation assortie du sursis probatoire pour des infractions identiques ou assimilées et se trouvant en état de récidive légale. Toutefois, ces dispositions ne sont pas applicables lorsque le sursis probatoire ne porte que sur une partie de la peine d'emprisonnement prononcée en application des dispositions du dernier alinéa de l'article 132-42.",
+          "nouveau": ""
         }
       ]
     },
     {
       "code": "cp",
       "num": "132-41-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Suivi renforcé décidé au prononcé, obligations fixées par la juridiction ou, à défaut d'éléments, par le juge après évaluation : la situation sociale joue ici sur le régime, non sur le quantum.",
-      "ligne_rouge": "art. 8 DDHC examiné : modalité décidée par la juridiction au prononcé"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Registre 1.11, conséquence de 132-41 réécrit : le dernier alinéa de 132-41, qui refusait le sursis probatoire au récidiviste, est retiré, la phrase qui l'écartait pour le suivi renforcé n'a plus d'objet. Le suivi renforcé décidé au prononcé est gardé.",
+      "ligne_rouge": "Art. 8 DDHC examiné : modalité décidée par la juridiction au prononcé, dans le champ de 132-41 (primo-délinquant, hors atteinte aux personnes).",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Dans ce cas, le dernier alinéa de l'article 132-41 n'est pas applicable.\n",
+          "nouveau": ""
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "132-42",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Délai de probation et sursis partiel, allongés en récidive.",
-      "ligne_rouge": "art. 8 DDHC examiné : délais bornés à trois, cinq et sept ans"
+      "decision": "S",
+      "principe": "P20",
+      "motif": "Registre 1.11, conséquence de 132-41 réécrit : le sursis probatoire étant fermé au récidiviste, l'allongement du délai de probation en récidive n'a plus d'objet. Délai de douze mois à trois ans et sursis partiel gardés.",
+      "ligne_rouge": "Art. 8 DDHC examiné : délai de probation borné à trois ans.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": " Lorsque la personne est en état de récidive légale, ce délai peut être porté à cinq ans. Ce délai peut être porté à sept ans lorsque la personne se trouve à nouveau en état de récidive légale.",
+          "nouveau": ""
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1332,13 +1413,13 @@
       "num": "132-59",
       "decision": "R",
       "principe": "P14",
-      "motif": "La dispense de peine est une diminution totale, hors de tout plafond du barème. Elle se réserve au cas où le barème ouvre la plus forte diminution : l'auteur sans condamnation antérieure, pour une contravention ou un délit sans atteinte aux personnes. La non-inscription au casier tombe : elle effacerait l'antécédent dont dépend le plafond. L'alinéa de 2029 qui écarte les incapacités de plein droit est gardé. Renvoi entrant à coordonner : au 2° de L5512-1, supprimer « sauf si la mention de la décision au bulletin n° 1 a été expressément exclue en application de l'article 132-59 du code pénal ».",
-      "ligne_rouge": "art. 8 DDHC et individualisation examinés : la dispense reste ouverte dans son champ et l'ajournement partout, la juridiction module dans le barème ailleurs ; présomption d'innocence non touchée (culpabilité déjà déclarée)",
+      "motif": "Registre 1.11 : la dispense de peine, diminution totale hors plafond du barème, est limitée aux contraventions et aux délits punis de la seule amende. Elle reste réservée à l'auteur sans condamnation antérieure (décision antérieure gardée). La non-inscription au casier tombe : elle effacerait l'antécédent dont dépend le plafond. L'alinéa qui écarte les incapacités de plein droit est gardé. Renvoi entrant à coordonner : au 2° de L5512-1, supprimer « sauf si la mention de la décision au bulletin n° 1 a été expressément exclue en application de l'article 132-59 du code pénal ».",
+      "ligne_rouge": "Art. 8 DDHC et individualisation examinés : la dispense reste ouverte dans son champ et l'ajournement partout, la juridiction module dans le barème ailleurs. Présomption d'innocence non touchée (culpabilité déjà déclarée).",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "et que le trouble résultant de l'infraction a cessé.",
-          "nouveau": "et que le trouble résultant de l'infraction a cessé. Elle est réservée à l'auteur sans condamnation antérieure, pour une contravention ou pour un délit qui ne porte pas atteinte aux personnes."
+          "nouveau": "et que le trouble résultant de l'infraction a cessé. Elle est réservée à l'auteur sans condamnation antérieure, pour une contravention ou pour un délit puni de la seule peine d'amende."
         },
         {
           "op": "remplacer",
@@ -1534,14 +1615,13 @@
       "code": "cp",
       "num": "132-78",
       "decision": "R",
-      "principe": "P14",
-      "motif": "Repenti : la réduction est gardée, mais elle entre dans la catégorie 3 du barème (comportement après l'infraction), limitée [au cinquième] de la peine encourue. Les vingt articles spéciaux du repenti sont alignés sur la même borne (« est réduite [d'un cinquième] au plus si », lots p045 à p053). L'exemption de qui a empêché la réalisation de l'infraction tentée reste : elle évite le dommage.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste due au repenti, bornée ; présomption d'innocence : aucune condamnation sur ses seules déclarations (dernier alinéa, maintenu)",
+      "principe": "P4",
+      "motif": "Registre 1.9 et 1.10 : 132-78 devient le siège unique du repenti. La diminution vaut pour tout crime ou délit, [d'un cinquième] au plus, imputée sur la catégorie 3 du barème (132-1-1). Les articles spéciaux de réduction sont abrogés au profit du barème (lots p045 à p053). La perpétuité du repenti majeur peut être ramenée à [trente] ans, le mineur relève du code de la justice pénale des mineurs. L'exemption de la tentative dénoncée et empêchée reste dans les cas prévus par la loi, hors plafond du barème. L'infraction connexe et l'interdiction de condamner sur les seules déclarations du repenti sont gardées.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution reste due à l'effort, bornée et motivée au prononcé. Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (dernier alinéa, maintenu). Minorité examinée : le mineur relève du code de la justice pénale des mineurs, qui fixe son propre point de départ.",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "d'identifier les autres auteurs ou complices.",
-          "nouveau": "d'identifier les autres auteurs ou complices. Cette réduction est une diminution au titre du 3° du I de l'article 132-1-1. Elle est limitée [au cinquième] de la peine encourue."
+          "op": "rediger",
+          "nouveau": "La personne qui a tenté de commettre un crime ou un délit est, dans les cas prévus par la loi, exempte de peine si, ayant averti l'autorité administrative ou judiciaire, elle a permis d'éviter la réalisation de l'infraction. Cette exemption ne s'impute pas sur les limites de l'article 132-1-1.\nLa peine encourue par l'auteur ou le complice d'un crime ou d'un délit qui, ayant averti l'autorité administrative ou judiciaire, a permis de faire cesser l'infraction, d'éviter qu'elle ne produise un dommage ou d'en identifier les autres auteurs ou complices peut être diminuée [d'un cinquième] au plus. Cette diminution relève du 3° du I de l'article 132-1-1.\nLorsque la peine encourue par un majeur est la réclusion criminelle ou la détention criminelle à perpétuité, elle peut être ramenée, dans le cas prévu à l'alinéa précédent, à [trente] ans. Pour un mineur, la peine se fixe dans les conditions du code de la justice pénale des mineurs.\nLes deux alinéas précédents s'appliquent aussi lorsque la personne a permis soit d'éviter la réalisation d'une infraction connexe de même nature que le crime ou le délit pour lequel elle était poursuivie, soit de faire cesser une telle infraction, d'éviter qu'elle ne produise un dommage ou d'en identifier les auteurs ou complices.\nAucune condamnation ne peut être prononcée sur le seul fondement de déclarations émanant de personnes ayant fait l'objet des dispositions du présent article."
         }
       ]
     },
@@ -1599,30 +1679,6 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Au 1er janvier 2029, le délai des peines contraventionnelles passe à L5111-4 3°. La version de 2029 de cet article renvoie, pour la suspension, à L5111-6, qui porte la prescription civile : le renvoi est erroné, et aucun article du code de 2029 ne règle cette suspension. L'abrogation fait tomber le renvoi erroné sans perte : le droit en vigueur n'a pas non plus de texte sur la suspension.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "133-4-1",
-      "decision": "A",
-      "principe": "P13",
-      "motif": "Article sans version applicable au 1er janvier 2029. Renvoi sur l'interruption de la prescription des peines : l'ordonnance n° 2025-1091 l'abroge au 1er janvier 2029, la règle vit à L5111-5 du code de procédure pénale.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "133-5",
-      "decision": "A",
-      "principe": "P13",
-      "motif": "Article sans version applicable au 1er janvier 2029. La contumace a disparu du code de procédure pénale en 2004, remplacée par le défaut criminel. L'article est sans objet, et l'ordonnance n° 2025-1091 l'abroge au 1er janvier 2029.",
-      "ligne_rouge": "art. 8 DDHC examiné : aucune garantie ne s'y attache plus, le défaut criminel a son régime propre au code de procédure pénale"
-    },
-    {
-      "code": "cp",
-      "num": "133-6",
-      "decision": "A",
-      "principe": "P13",
-      "motif": "Article sans version applicable au 1er janvier 2029. Miroir mot pour mot de L5111-6 du code de procédure pénale de 2029 (prescription civile des obligations nées de la décision pénale) : l'ordonnance n° 2025-1091 l'abroge au 1er janvier 2029.",
       "ligne_rouge": "aucune"
     },
     {
@@ -1720,6 +1776,34 @@
       "principe": "P14",
       "motif": "La remise gracieuse vaut exécution pour la réhabilitation.",
       "ligne_rouge": "art. 8 DDHC examiné : effet fixé par la loi"
+    },
+    {
+      "code": "cp",
+      "num": "132-1-2",
+      "decision": "C",
+      "principe": "P14",
+      "motif": "Créé par la fiche L5 (Récidive : la peine simple devient le minimum), validée par l'auteur (registre 1.1 à 1.5) : porté dans les décisions pour que la passe 3 et le code cible le tiennent.",
+      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la juridiction module la peine dans des catégories bornées et motivées (CC 2005-520 DC, CC 2007-554 DC).",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas de récidive légale, la peine prononcée est au moins égale à la peine encourue pour l'infraction commise hors récidive. Seules les diminutions au titre de l'altération du discernement et de la minorité s'appliquent à ce minimum.\nPour une première récidive, la juridiction peut, par une décision spécialement motivée par une circonstance exceptionnelle tenant à l'infraction, prononcer une peine au moins égale aux [deux tiers] de ce minimum."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "132-1-1",
+      "decision": "C",
+      "principe": "P14",
+      "motif": "Barème des diminutions, repris de la fiche L4 (validée en 1.1 à 1.4) et porté au registre : la fiche le créait hors registre, il entre ici comme décision et la fiche s'aligne sur lui. Ajouts du registre : 1.9, l'aide du repenti s'impute sur la catégorie 3 (132-78). 1.13, les ressources et les charges entrent dans la catégorie 1 pour le montant de l'amende, l'échéancier règle l'exécution (132-20), et le plafond des deux tiers garde un plancher du tiers de l'amende. 1.14, discernement et minorité réduisent le point de départ (III) et sortent de la catégorie 1, le plafond du quart pour une victime mineure ou vulnérable est gardé. 1.15, contraventions au plafond des deux tiers. 1.16, discernement altéré : réduction d'un tiers au plus, appréciée par le juge (122-1). 1.11, le quantum respecte d'abord le barème, sursis et substitution s'y appliquent ensuite (IV).",
+      "ligne_rouge": "Art. 8 DDHC et individualisation au prononcé examinés : la juridiction module dans trois catégories bornées, le point de départ est réduit pour la minorité et le discernement altéré hors plafond, les ressources pèsent sur le montant de l'amende (égalité devant la charge pénale). Minorité examinée : réduction de moitié de droit, renvoi au code de la justice pénale des mineurs. Risque déclaré : plafond du quart pour une victime mineure ou vulnérable, sans dérogation (CC 2007-554 DC, cons. 11 et 15).",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "I. – La peine encourue peut être diminuée d'une fraction de son montant :\n1° Au titre de la personne de l'auteur au moment des faits, notamment l'absence de condamnation antérieure et, pour l'amende, ses ressources et ses charges, dans la limite [du tiers].\n2° Au titre de son comportement lors de l'infraction, notamment un rôle accessoire, un préjudice limité ou la provocation de la victime, dans la limite [du cinquième].\n3° Au titre de son comportement après l'infraction, notamment la reconnaissance des faits, l'aide apportée à l'autorité dans les conditions de l'article 132-78 ou la réparation du préjudice, dans la limite [du cinquième].\nII. – Le total des diminutions est limité aux deux tiers de la peine encourue pour une contravention et pour l'auteur sans condamnation antérieure d'un délit qui ne porte pas atteinte aux personnes, et à [la moitié] dans les autres cas. Il est limité [au tiers] en cas de réitération, et [au quart] lorsque la victime est mineure ou particulièrement vulnérable.\nIII. – Pour un mineur, la peine encourue servant de référence est réduite de moitié, dans les conditions du code de la justice pénale des mineurs. Lorsque le discernement de l'auteur était altéré, elle peut être réduite dans les conditions de l'article 122-1. Ces réductions s'appliquent avant les diminutions du I et ne s'imputent pas sur leurs limites.\nIV. – Le sursis, le sursis probatoire et les peines prononcées à la place de l'emprisonnement s'appliquent à une peine d'abord fixée dans les limites du présent article."
+        }
+      ]
     }
   ]
 }

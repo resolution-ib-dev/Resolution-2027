@@ -105,10 +105,10 @@
     {
       "code": "penitentiaire",
       "num": "D772-13",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Retire de D. 115-15 l'avis du préfet : la règle locale est déjà la plus sobre (P15).",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 5.1 : D115-15 ne prévoit plus l'avis du préfet (lot p123). L'adaptation qui le retirait en Nouvelle-Calédonie n'a plus d'objet : la règle commune s'y applique telle quelle.",
+      "ligne_rouge": "aucune garantie touchée : l'habilitation, sa durée et la condition tirée du bulletin n° 2 restent régies par D115-15"
     },
     {
       "code": "penitentiaire",
@@ -268,14 +268,19 @@
       "code": "penitentiaire",
       "num": "D774-19",
       "decision": "S",
-      "principe": "P23",
-      "motif": "Agrément des aumôniers : règle propre gardée. Le premier alinéa nomme encore le « directeur interrégional, chef de la mission des services pénitentiaires de l'outre-mer », que le dernier alinéa nomme déjà directeur des services pénitentiaires d'outre-mer (R. 112-8), et l'avis du « préfet du département dans lequel se situe l'établissement », qui est ici le haut-commissaire de la République. Un mot par notion.",
-      "ligne_rouge": "aucune",
+      "principe": "P15",
+      "motif": "Registre 5.2, comme D352-1 : l'avis du représentant de l'État en Nouvelle-Calédonie, le haut-commissaire de la République, devient une information. Le directeur des services pénitentiaires d'outre-mer (R. 112-8) est nommé d'un seul mot, comme au dernier alinéa. Agrément des aumôniers : règle propre gardée.",
+      "ligne_rouge": "art. 10 DDHC examiné : l'agrément reste délivré sur proposition de l'aumônier national du culte",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "le directeur interrégional, chef de la mission des services pénitentiaires de l'outre-mer, après avis du préfet du département dans lequel se situe l'établissement visité",
-          "nouveau": "le directeur des services pénitentiaires d'outre-mer, après avis du haut-commissaire de la République"
+          "nouveau": "le directeur des services pénitentiaires d'outre-mer"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "sur proposition de l'aumônier national du culte concerné.\n",
+          "nouveau": "sur proposition de l'aumônier national du culte concerné. Le haut-commissaire de la République est informé de la demande d'agrément.\n"
         }
       ]
     },
@@ -714,15 +719,14 @@
     {
       "code": "penitentiaire",
       "num": "R774-7",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Retire les renvois au code de la santé publique sur la recherche biomédicale. Les mots à supprimer sont cités « conformément à aux dispositions » alors que R. 322-3 porte « Conformément aux dispositions [...], » : la citation ne s'applique pas telle quelle, elle se corrige.",
-      "ligne_rouge": "art. 2 DDHC et intégrité de la personne examinés : la restriction aux recherches à bénéfice direct et majeur demeure dans R. 322-3",
+      "decision": "R",
+      "principe": "P3",
+      "motif": "Registre 6.6 : R322-3 est abrogé parce que L. 1121-6 du code de la santé publique suffit. Ce motif ne vaut pas en Nouvelle-Calédonie, où l'adaptation retire le renvoi au code de la santé publique, qui n'y régit pas la matière : la garantie s'écrit ici comme règle autonome, au lieu d'une adaptation d'un article abrogé.",
+      "ligne_rouge": "CEDH art. 3 et 8 examinés : en Nouvelle-Calédonie, la personne détenue garde la condition du bénéfice direct et majeur et le recueil de son consentement",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "\" conformément à aux dispositions de l'article L. 1121-6 du code de la santé publique \" et les mots :",
-          "nouveau": "\" Conformément aux dispositions de l'article L. 1121-6 du code de la santé publique, les personnes \" sont remplacés par les mots : \" Les personnes \" et les mots :"
+          "op": "rediger",
+          "nouveau": "En Nouvelle-Calédonie, les personnes détenues sont sollicitées pour se prêter à des recherches biomédicales seulement s'il en est attendu un bénéfice direct et majeur pour leur santé. Leur consentement est recueilli."
         }
       ]
     },

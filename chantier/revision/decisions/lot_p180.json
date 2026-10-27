@@ -18,16 +18,10 @@
     {
       "code": "cpp",
       "num": "L3451-1",
-      "decision": "S",
-      "principe": "P17",
-      "motif": "Information de la faculté ouverte par L2124-1 (lot p257). L'avis de fin d'information par le chef d'établissement reste le seul siège de cette notification depuis l'abrogation de L311-3 du code pénitentiaire (lot p082).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "ajouter_alinea",
-          "nouveau": "Lorsque l'information porte sur un crime relevant de la cour criminelle départementale, l'avis informe la personne mise en examen qu'elle peut demander à être jugée par la cour d'assises et que la durée de la détention provisoire avant jugement est alors celle de l'article L. 3653-2."
-        }
-      ]
+      "decision": "G",
+      "principe": "P12",
+      "motif": "Avis de fin d'information aux parties, au témoin assisté et aux avocats, par émargement, lettre recommandée, chef d'établissement ou télécommunication. L'information sur la faculté de demander la cour d'assises tombe avec le retrait de l'option de L2124-1 (registre 4.1).",
+      "ligne_rouge": "Art. 16 DDHC examiné : l'avis ouvre les délais de fin d'information, la personne détenue le reçoit par le chef d'établissement."
     },
     {
       "code": "cpp",
@@ -40,10 +34,17 @@
     {
       "code": "cpp",
       "num": "L3451-3",
-      "decision": "G",
+      "decision": "S",
       "principe": "P11",
-      "motif": "Observations, demandes d'actes et requêtes en nullité dans le même délai d'un ou trois mois, puis irrecevables : les nullités se purgent avant le règlement. La proposition de réécrire est écartée, le régime est déjà celui du principe.",
-      "ligne_rouge": "art. 16 DDHC examiné : un délai d'un mois au moins pour chaque partie, avocat et accès au dossier ; le délai purge, il ne prive pas du recours"
+      "motif": "Registre 5.3 : les requêtes en nullité suivent le délai de [un mois] de L3752-6 réécrit. Observations, demandes d'actes et demandes de constatation de la prescription gardent le délai d'un ou trois mois, puis irrecevables.",
+      "ligne_rouge": "art. 16 DDHC examiné : un délai d'un mois au moins pour chaque partie, avocat et accès au dossier ; le délai purge, il ne prive pas du recours",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "3° Des requêtes en nullité, sous réserve qu'elles ne soient pas irrecevables,",
+          "nouveau": "3° Des requêtes en nullité, dans le délai de [un mois] prévu à l'article L. 3752-6, sous réserve qu'elles ne soient pas irrecevables,"
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -411,13 +412,13 @@
       "num": "L3452-33",
       "decision": "S",
       "principe": "P26",
-      "motif": "Action en dommages-intérêts dans les trois mois devant le tribunal délictuel, gardée. Les débats en chambre du conseil ne protègent ni une victime qui le demande ni la sécurité nationale : ils deviennent publics, sauf si le demandeur ou le plaignant demande la chambre du conseil. Le jugement l'était déjà.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) et vie privée (CEDH art. 8) examinées : la personne mise hors de cause et le plaignant choisissent la chambre du conseil",
+      "motif": "Action en dommages-intérêts dans les trois mois devant le tribunal délictuel, gardée. Les débats en chambre du conseil ne protègent ni une victime qui le demande ni la sécurité nationale : ils deviennent publics, sauf si le demandeur ou le plaignant demande la chambre du conseil. Le jugement l'était déjà. Registre 3.1 : renvoi à L. 1. Le demandeur, mis en cause à tort, est victime de la plainte abusive et obtient la chambre du conseil à sa demande pour sa protection. La demande du plaignant ne la fonde plus.",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : la personne mise hors de cause obtient la chambre du conseil à sa demande, comme victime. Vie privée du plaignant : perte déclarée (registre 3.1).",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "Les débats ont lieu en chambre du conseil. ",
-          "nouveau": "Les débats sont publics. Ils ont lieu en chambre du conseil si le demandeur ou le plaignant le demande. "
+          "nouveau": "Les débats sont publics. Ils ont lieu en chambre du conseil dans les cas prévus à l'article L. 1, le demandeur y ayant qualité de victime. "
         }
       ]
     },

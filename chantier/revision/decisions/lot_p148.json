@@ -270,10 +270,17 @@
     {
       "code": "cpp",
       "num": "L4411-34",
-      "decision": "G",
+      "decision": "S",
       "principe": "P11",
-      "motif": "Purge des nullités de l'instruction par l'ordonnance de renvoi, sauf moyen inconnu ou formalités méconnues : nullités purgées tôt.",
-      "ligne_rouge": "art. 16 DDHC examiné : réserve pour le moyen que la partie ne pouvait connaître"
+      "motif": "Registre 5.3 : la réserve du moyen inconnu se règle sur le délai de requête en nullité de L3752-6 réécrit ([un mois]), non plus sur les délais d'observations de L3451-2 et L3451-3. Purge des nullités de l'instruction par l'ordonnance de renvoi gardée.",
+      "ligne_rouge": "art. 16 DDHC examiné : réserve pour le moyen que la partie ne pouvait connaître, tenue",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "avant l'expiration des délais d'un mois ou de trois mois prévus aux articles L. 3451-2 et L. 3451-3.",
+          "nouveau": "avant l'expiration du délai prévu à l'article L. 3752-6."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -352,7 +359,7 @@
       "num": "L4411-8",
       "decision": "G",
       "principe": "P24",
-      "motif": "Liste des délits jugés à juge unique, jusqu'à cinq ans d'emprisonnement : formation légère pour le contentieux de masse. L'inversion de la liste (P2) ou son resserrement au profit de la collégialité (P17) est un arbitrage de l'auteur.",
+      "motif": "Liste des délits jugés à juge unique, jusqu'à cinq ans d'emprisonnement : formation légère pour le contentieux de masse. Registre 4.6 : gardé, le renvoi à la collégialité reste ouvert (L4411-12).",
       "ligne_rouge": "art. 8 DDHC examiné : la formation (juge unique ou collégiale) ne touche pas la faculté de moduler au prononcé ; la collégialité reste seule compétente au-delà de cinq ans ferme (L4411-9)"
     },
     {
@@ -517,10 +524,17 @@
     {
       "code": "cpp",
       "num": "L4413-15",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le juge des libertés et de la détention statue après enquête sociale, droit de se taire, observations de l'avocat. Débat en chambre du conseil sur une mesure de sûreté provisoire, non jugement au fond.",
-      "ligne_rouge": "art. 66 C examiné : juge du siège ; art. 9 DDHC examiné : droit de se taire"
+      "decision": "S",
+      "principe": "P26",
+      "motif": "Le juge des libertés et de la détention statue après enquête sociale, droit de se taire, observations de l'avocat. Débat en chambre du conseil sur une mesure de sûreté provisoire, non jugement au fond. Registre 3.1 : la chambre du conseil de droit sort des exceptions de L. 1, le juge statue en audience publique, comme sur la détention provisoire (L3642-16).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : décision du juge sur la liberté, prévenu entendu et informé de son droit de se taire, avocat entendu, et la publicité renforce ce contrôle. Présomption d'innocence (art. 9 DDHC) examinée : le juge statue sur la sûreté, non sur la culpabilité. Minorité : chambre du conseil pour les faits commis en minorité (L. 1).",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Le juge des libertés et de la détention statue en chambre du conseil avec",
+          "nouveau": "Le juge des libertés et de la détention statue en audience publique, sauf dans les cas prévus à l'article L. 1, avec"
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -754,10 +768,17 @@
     {
       "code": "cpp",
       "num": "L4413-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Audition du prévenu informé de son droit de se taire, avocat entendu, mesure notifiée sur-le-champ.",
-      "ligne_rouge": "art. 66 C examiné : la mesure restrictive est décidée par un juge du siège ; art. 9 et 16 DDHC examinés : droit de se taire et avocat entendu"
+      "decision": "S",
+      "principe": "P26",
+      "motif": "Audition du prévenu informé de son droit de se taire, avocat entendu, mesure notifiée sur-le-champ. Registre 3.1 : la chambre du conseil de droit sort des exceptions de L. 1, le juge statue en audience publique, comme sur la détention provisoire (L3642-16).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : décision du juge sur la liberté, prévenu entendu et informé de son droit de se taire, avocat entendu, et la publicité renforce ce contrôle. Présomption d'innocence (art. 9 DDHC) examinée : le juge statue sur la sûreté, non sur la culpabilité. Minorité : chambre du conseil pour les faits commis en minorité (L. 1).",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Le juge des libertés et de la détention statue en chambre du conseil avec",
+          "nouveau": "Le juge des libertés et de la détention statue en audience publique, sauf dans les cas prévus à l'article L. 1, avec"
+        }
+      ]
     },
     {
       "code": "cpp",

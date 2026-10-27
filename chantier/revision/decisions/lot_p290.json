@@ -151,10 +151,27 @@
     {
       "code": "cpp",
       "num": "L1532-9",
-      "decision": "G",
+      "decision": "S",
       "principe": "P26",
-      "motif": "Criminalité organisée et crimes internationaux : comparution anonyme ou huis clos pour le témoin ou la victime dont la comparution met gravement en danger la vie ou l'intégrité physique. C'est l'exception de publicité retenue (danger grave), et, pour les crimes internationaux, l'obligation internationale de protéger les témoins. La juridiction statue à huis clos parce que débattre en public révélerait ce que la mesure protège. Cité par L1421-5 et L1452-11.",
-      "ligne_rouge": "CEDH art. 6 § 1 examiné : huis clos borné au danger grave, décidé après observations des parties. Art. 16 DDHC examiné : contradictoire tenu par le dispositif de L1532-6"
+      "motif": "Registre 3.2 : l'anonymat du témoin et de la victime menacés est gardé, il protège une identité. Le huis clos pour danger grave sort des exceptions de L. 1 (registre 3.1) : le témoin dépose sous anonymat, la victime obtient le huis clos à sa demande. La juridiction statue à huis clos sur l'anonymat, parce que débattre en public révélerait l'identité qu'il protège. Cité par L1421-5 et L1452-11.",
+      "ligne_rouge": "Vie et intégrité (art. 2 DDHC) examinées : le témoin menacé dépose sous anonymat, voix et apparence altérées. Art. 16 DDHC examiné : contradictoire tenu par le dispositif de L1532-6 et les observations des parties. CEDH art. 6 § 1 examiné : l'audience reste publique.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "ordonner :1° Soit leur comparution",
+          "nouveau": "ordonner leur comparution"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "leur apparence physique ;2° Soit le huis clos.",
+          "nouveau": "leur apparence physique. La victime obtient en outre le huis clos à sa demande, dans les conditions de l'article L. 1."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "La décision prise au 1° est valable",
+          "nouveau": "La décision ordonnant la comparution anonyme est valable"
+        }
+      ]
     },
     {
       "code": "cpp",

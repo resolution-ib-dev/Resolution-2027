@@ -27,14 +27,19 @@
       "code": "cpp",
       "num": "L6221-3",
       "decision": "S",
-      "principe": "P15",
-      "motif": "Destinataires des demandes urgentes, gardés. La communication « pour avis » au procureur avant exécution par le juge d'instruction devient une information : le procureur garde la transmission au procureur général prévue par L6221-6 pour l'ordre public, sans avis préalable qui retarde l'acte. La communication reste le déclencheur de L6221-6 et L6221-7.",
-      "ligne_rouge": "aucune",
+      "principe": "P19",
+      "motif": "Registre 5.6 : la communication au procureur avant exécution par le juge d'instruction est bornée à [quarante-huit heures], délai dans lequel le procureur saisit le procureur général s'il y a atteinte à l'ordre public (L6221-6). Destinataires des demandes urgentes, gardés. La communication « pour avis » au procureur avant exécution par le juge d'instruction devient une information : le procureur garde la transmission au procureur général prévue par L6221-6 pour l'ordre public, sans avis préalable qui retarde l'acte. La communication reste le déclencheur de L6221-6 et L6221-7.",
+      "ligne_rouge": "sécurité nationale examinée : la transmission au procureur général et au ministre (L6221-6, L6221-7) reste ouverte dans le délai ; art. 66 C examiné : l'acte d'exécution reste ordonné par le juge d'instruction",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "le juge d'instruction la communique immédiatement pour avis au procureur de la République.",
           "nouveau": "le juge d'instruction la communique immédiatement au procureur de la République."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "le juge d'instruction la communique immédiatement au procureur de la République.",
+          "nouveau": "le juge d'instruction la communique immédiatement au procureur de la République. Il y procède à l'expiration d'un délai de [quarante-huit heures] à compter de cette communication, sous réserve de la transmission au procureur général prévue à l'article L. 6221-6."
         }
       ]
     },
@@ -199,14 +204,14 @@
       "code": "cpp",
       "num": "L6223-3",
       "decision": "S",
-      "principe": "P15",
-      "motif": "Saisie ordonnée par le juge d'instruction, aux frais avancés du Trésor. L'avis préalable du procureur, quand il ne requiert pas, devient une information : il ne protège pas le propriétaire, que le juge protège.",
-      "ligne_rouge": "art. 17 DDHC examiné : la saisie reste ordonnée par un juge",
+      "principe": "P19",
+      "motif": "Registre 5.6 : la saisie ordonnée sans requête du procureur l'est à l'expiration de [quarante-huit heures] après communication de la demande. Saisie ordonnée par le juge d'instruction, aux frais avancés du Trésor. L'avis préalable du procureur, quand il ne requiert pas, devient une information : il ne protège pas le propriétaire, que le juge protège.",
+      "ligne_rouge": "art. 17 DDHC examiné : la saisie reste ordonnée par un juge, le procureur informé dans un délai borné",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "sur requête ou après avis du procureur de la République.",
-          "nouveau": "sur requête du procureur de la République ou après lui avoir communiqué la demande."
+          "nouveau": "sur requête du procureur de la République ou à l'expiration d'un délai de [quarante-huit heures] après lui avoir communiqué la demande."
         }
       ]
     },

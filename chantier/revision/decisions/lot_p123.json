@@ -190,10 +190,16 @@
     {
       "code": "penitentiaire",
       "num": "D112-36",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Rapport d'activité annuel du service au directeur interrégional et aux magistrats : le service rend compte.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P26",
+      "motif": "Rapport d'activité annuel du service au directeur interrégional et aux magistrats : le service rend compte. Registre 3.6 : le document est publié, sauf les éléments qui touchent la sécurité nationale (P22, P26).",
+      "ligne_rouge": "Vie privée des personnes détenues et des agents (art. 2 DDHC) examinée : le document rend compte d'un service, sans nommer les personnes, et la publication suit les règles d'occultation de la communication des documents administratifs. Sécurité des établissements : retirée au titre de la sécurité nationale.",
+      "operations": [
+        {
+          "op": "ajouter_alinea",
+          "nouveau": "Ce rapport est publié. Les éléments qui touchent la sécurité nationale en sont retirés."
+        }
+      ]
     },
     {
       "code": "penitentiaire",

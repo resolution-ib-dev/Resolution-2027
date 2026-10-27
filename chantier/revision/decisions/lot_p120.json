@@ -1072,13 +1072,13 @@
       "num": "R412-80",
       "decision": "S",
       "principe": "P12",
-      "motif": "Non-renouvellement du contrat d'implantation trois mois avant la reconduction, résiliation pour force majeure : gardés. La lettre recommandée cède la place à tout moyen donnant date certaine, comme pour la mise en demeure de R412-82.",
+      "motif": "Non-renouvellement du contrat d'implantation trois mois avant la reconduction, résiliation pour force majeure : gardés. La lettre recommandée cède la place à tout moyen donnant date certaine, comme pour la mise en demeure de R412-82. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
       "ligne_rouge": "aucune",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "doit informer par lettre recommandée avec avis de réception le chef de l'établissement pénitentiaire",
-          "nouveau": "doit informer, par tout moyen permettant de donner date certaine à sa réception, le chef de l'établissement pénitentiaire"
+          "nouveau": "doit informer, par tout moyen permettant d'en établir la date de réception, le chef de l'établissement pénitentiaire"
         }
       ]
     },
@@ -1093,10 +1093,17 @@
     {
       "code": "penitentiaire",
       "num": "R412-82",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Résiliation pour manquement après mise en demeure à date certaine, suspension d'urgence : procédure courte, déjà numérique.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P23",
+      "motif": "Résiliation pour manquement après mise en demeure à date certaine, suspension d'urgence : procédure courte, déjà numérique. Registre 5.4 : la mise en demeure, qui fait courir le délai pour remédier, part selon la formule unique « par tout moyen permettant d'en établir la date de réception ».",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "par tout moyen permettant de donner date certaine à sa réception, une mise en demeure",
+          "nouveau": "par tout moyen permettant d'en établir la date de réception, une mise en demeure"
+        }
+      ]
     },
     {
       "code": "penitentiaire",

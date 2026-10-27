@@ -14628,6 +14628,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/coordination_ordonnance_2025_1091",
+   "chemin": "revision/coordination_ordonnance_2025_1091.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/coordination_ordonnance_2025_1091.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/decisions/lot1_L5_livre2_titre5",
    "chemin": "revision/decisions/lot1_L5_livre2_titre5.json",
    "rang": "methode",
@@ -19920,6 +19934,7 @@
    "revision/bareme/noyau_securite_interieure.json",
    "revision/bareme/noyau_transports.json",
    "revision/bareme_hors_releve.json",
+   "revision/coordination_ordonnance_2025_1091.md",
    "revision/decisions/lot1_L5_livre2_titre5.json",
    "revision/decisions/lot2_L5_livre2_titre4.json",
    "revision/decisions/lot3_D_livre5_titre3.json",
@@ -20432,9 +20447,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1314,
-  "au_coffre": 1253,
-  "au_depot": 795,
+  "artefacts": 1315,
+  "au_coffre": 1254,
+  "au_depot": 796,
   "derives": 275,
   "sources": 48,
   "non_restaurables": 16,
