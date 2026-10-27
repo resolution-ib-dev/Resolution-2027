@@ -10,48 +10,73 @@
     {
       "code": "cpp",
       "num": "L1641-1",
-      "decision": "G",
       "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État pour la définition, le tarif et le recouvrement des frais de justice : la strate réglementaire porte déjà la matière. La proposition de déclasser est sans objet.",
-      "ligne_rouge": "aucune"
+      "motif": "Renvoi au décret en Conseil d'État pour la définition, le tarif, le paiement, le recouvrement et les recours des frais de justice : gardé en une phrase.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'État définit les frais de justice criminelle, délictuelle et contraventionnelle, en établit le tarif ou les modalités de son établissement, en règle le paiement et le recouvrement, en détermine les voies de recours et fixe les conditions que doivent remplir les parties prenantes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1641-2",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Demande de paiement dans l'année, par téléservice, forclusion relevable par la chambre pour cause extérieure : délai court, numérique par défaut.",
-      "ligne_rouge": "aucune"
+      "motif": "Demande de paiement dans l'année, par téléservice, forclusion relevable par la chambre pour cause extérieure : gardés, phrases resserrées.",
+      "ligne_rouge": "Droit au recours examiné : le recours devant la chambre des investigations et des libertés et le relevé de forclusion sont gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La demande en paiement des frais de justice est présentée à l'autorité judiciaire, par voie dématérialisée sauf dérogation, dans l'année qui suit l'achèvement de la mission.\nAu-delà de ce délai, le magistrat taxateur constate la forclusion. La partie prenante peut former un recours devant la chambre des investigations et des libertés, selon les modalités et délais fixés par le décret prévu à l'article L. 1641-1. La chambre la relève de la forclusion si la partie prenante établit que sa défaillance est due à une cause extérieure qui ne peut lui être imputée. Sa décision est insusceptible de recours. Si elle relève la forclusion, elle évoque le dossier et taxe le mémoire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1641-3",
-      "decision": "S",
       "principe": "P13",
-      "motif": "L'article 800-1, dans sa rédaction en vigueur depuis le 21 février 2026, met les frais à la charge du condamné, avec partage selon les capacités contributives, prise en charge par l'État pour le mineur et le bénéficiaire de l'aide juridictionnelle, et faculté de décharge. Le code de 2029 a gardé l'ancienne règle : défaut de coordination (P13). La loi votée se reporte, la traduction s'ajoute à l'interprétation. Les frais ne sont pas une peine, aucun automatisme. La personne morale relève de L6314-10.",
-      "ligne_rouge": "art. 8 DDHC examiné : frais hors peine, la juridiction peut en décharger. Minorité examinée : le mineur ne paie pas. Art. 16 DDHC examiné : la relaxe, le non-lieu et l'aide juridictionnelle n'exposent à aucun frais. CEDH art. 6 § 3 e examiné : interprétation et traduction gratuites, sauf l'interprète exposé par la défaillance du prévenu [arbitrage]",
+      "motif": "Règle générale de la charge des frais de justice : la loi votée (article 800-1 en vigueur depuis le 21 février 2026) se reporte (passe 2). Les frais sont à la charge du condamné, partagés entre condamnés, à la charge de l'État pour le mineur et l'aidé, avec faculté de décharge ; interprétation et traduction jamais à la charge du condamné, sauf absence non signalée ; expertises à la charge de la partie civile abusive. La personne morale relève de L6314-10.",
+      "ligne_rouge": "Droits de la défense (CEDH art. 6 § 3 e) examinés : l'interprétation et la traduction restent gratuites pour le condamné, sauf frais d'audience exposés par sa faute. Minorité examinée : les frais du mineur sont à la charge de l'État.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les frais de justice criminelle, délictuelle et contraventionnelle sont à la charge de la personne physique condamnée, sans recours contre la partie civile.Lorsque plusieurs personnes sont condamnées pour une même infraction, les frais de justice sont divisés en autant de parts égales qu'il y a de condamnés et chacun n'est redevable que de sa part. Toutefois, la juridiction peut modifier cette répartition en tenant compte des capacités contributives de chaque personne condamnée.Le présent article s'applique sans préjudice des droits des parties civiles.Lorsque la personne physique condamnée bénéficie de l'aide juridictionnelle ou qu'elle est mineure, les frais de justice sont à la charge de l'Etat.La juridiction peut décider la prise en charge de tout ou partie des frais de justice par l'Etat.Les frais d'interprétation et de traduction ne peuvent être mis à la charge des personnes condamnées. Toutefois, lorsque des frais d'interprétation ont été engagés pour l'audience sans que la personne prévenue ait comparu ou informé la juridiction de son absence dans un délai permettant de ne pas les exposer, ils peuvent être mis à sa charge par la juridiction.Lorsqu'il est fait application de l'article L. 3452-29 à l'encontre de la partie civile dont la constitution a été jugée abusive ou dilatoire, les frais de justice correspondant aux expertises ordonnées à la demande de cette dernière peuvent, selon les modalités prévues par cet article, être mis à la charge de celle-ci par le juge d'instruction ou la chambre des investigations et des libertés.L'alinéa précédent n'est pas applicable en matière criminelle et en matière de délits contre les personnes prévus par le livre II du code pénal ou lorsque la partie civile a obtenu l'aide juridictionnelle."
+          "nouveau": "Les frais de justice criminelle, délictuelle et contraventionnelle sont à la charge de la personne physique condamnée, sans recours contre la partie civile. Les personnes condamnées pour une même infraction en supportent chacune une part égale, que la juridiction peut modifier selon leurs capacités contributives.\nLes frais sont à la charge de l'État lorsque la personne condamnée est mineure ou bénéficie de l'aide juridictionnelle. La juridiction peut aussi décider leur prise en charge, totale ou partielle, par l'État.\nLes frais d'interprétation et de traduction ne sont pas mis à la charge de la personne condamnée. La juridiction peut toutefois mettre à sa charge les frais d'interprétation exposés pour une audience à laquelle elle n'a pas comparu sans avoir informé la juridiction de son absence à temps pour les éviter.\nLorsque la constitution de partie civile est jugée abusive ou dilatoire en application de l'article L. 3452-29, le juge d'instruction ou la chambre des investigations et des libertés peut mettre à la charge de la partie civile les frais des expertises ordonnées à sa demande, selon les modalités prévues à cet article. Cette faculté ne s'applique ni en matière criminelle, ni pour les délits contre les personnes prévus au livre II du code pénal, ni lorsque la partie civile a obtenu l'aide juridictionnelle."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1642-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Droit fixe de procédure dû par chaque condamné majeur, par renvoi au code général des impôts : l'auteur contribue au coût de la procédure.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Droit fixe de procédure dû par chaque condamné majeur : gardé, phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne majeure condamnée pour un crime, un délit ou une contravention doit un droit fixe de procédure, dans les conditions de l'article 1018 A du code général des impôts."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1642-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Droit fixe dû par la partie civile qui a mis l'action en mouvement en cas de non-lieu ou de relaxe : la poursuite privée infondée a un coût, la victime qui se joint à l'action du parquet n'en supporte pas.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Droit fixe dû par la partie civile qui a mis l'action en mouvement en cas de non-lieu ou de relaxe : gardé, phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas de non-lieu ou de relaxe, la partie civile qui a mis l'action pénale en mouvement doit un droit fixe de procédure, dans les conditions de l'article 1018 A du code général des impôts."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
