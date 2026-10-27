@@ -10,225 +10,330 @@
     {
       "code": "cpp",
       "num": "L6251-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Coopération avec la Cour pénale internationale : engagement du statut de Rome.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Champ gardé ; la phrase déclarative sur la participation à la répression tombe (P20). Reçoit la règle commune de transmission, écrite dix fois au titre : les pièces passent par les autorités compétentes en vertu de l'article 87 du statut, nommées une fois, et l'urgence ouvre la voie directe, régularisée ensuite (L6251-2, L6251-3, L6252-1).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent titre régit la coopération de la France avec la Cour pénale internationale, pour l'application de son statut signé le 18 juillet 1998, à l'égard de toute personne poursuivie devant la Cour ou condamnée par elle à raison des actes qui constituent, au sens des articles 6 à 8 et 25 du statut, un génocide, des crimes contre l'humanité ou des crimes de guerre.\nLes demandes de la Cour et les pièces qui lui sont destinées sont transmises par les autorités compétentes en vertu de l'article 87 du statut, ci-après les autorités compétentes. En cas d'urgence, elles peuvent être transmises directement et par tout moyen, puis par cette voie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6251-2",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Transmission des demandes au parquet antiterroriste : la passe 1 proposait de déclasser. La règle désigne l'autorité compétente (art. 34) et sa voie d'urgence : elle reste.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6251-3",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Exécution par le parquet antiterroriste ou le juge d'instruction de Paris : la passe 1 proposait de déclasser. Compétence des autorités judiciaires : elle reste.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6251-3 (exécution des demandes d'entraide) et L6251-5 (transfert consenti d'une personne détenue) : l'entraide dans un article. Autorités judiciaires compétentes inchangées.",
+      "ligne_rouge": "aucune (passe 1) ; le transfert d'une personne détenue reste subordonné à son consentement.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République antiterroriste reçoit les demandes d'entraide de la Cour et leur donne toutes suites utiles. Elles sont exécutées sur l'ensemble du territoire national, selon les cas, par ce magistrat ou par le juge d'instruction de Paris, en présence, le cas échéant, du procureur près la Cour ou de son représentant, ou de toute autre personne mentionnée dans la demande.\nToute personne détenue en France peut, si elle y consent, être transférée à la Cour aux fins d'identification, d'audition ou de tout autre acte d'instruction, sur autorisation du ministre de la justice."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6251-4",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Mesures conservatoires ordonnées par le parquet, deux ans renouvelables : la passe 1 proposait de déclasser. La durée maximale d'une atteinte aux biens relève de la loi.",
-      "ligne_rouge": "art. 17 DDHC examiné : mesure bornée à deux ans"
-    },
-    {
-      "code": "cpp",
-      "num": "L6251-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Transfert d'un détenu à la Cour avec son consentement : garantie tenue.",
-      "ligne_rouge": "aucune"
+      "motif": "Mesures conservatoires ordonnées par le parquet antiterroriste, deux ans renouvelables : gardées. La transmission des difficultés d'exécution pour consultation de la Cour descend au décret en Conseil d'État.",
+      "ligne_rouge": "aucune (passe 1) ; DDHC art. 17 : durée maximale de l'atteinte aux biens gardée dans la loi.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République antiterroriste ordonne, aux frais avancés du Trésor et selon les modalités prévues par le présent code, l'exécution des mesures conservatoires mentionnées au k du paragraphe 1 de l'article 93 du statut, pour deux ans au plus, renouvelables avant leur terme à la demande de la Cour."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6252-1",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Demandes d'arrestation transmises au procureur général de Paris : la passe 1 proposait de déclasser. La règle ouvre une privation de liberté : elle reste.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Transmission et exécution des demandes d'arrestation : gardées ; la forme de transmission suit L6251-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les demandes d'arrestation aux fins de remise de la Cour, adressées en original et accompagnées de toutes pièces justificatives, sont transmises par les autorités compétentes, après contrôle de leur régularité formelle, au procureur général près la cour d'appel de Paris et mises à exécution sur tout le territoire de la République. En cas d'urgence, elles peuvent être adressées directement au procureur de la République territorialement compétent."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6252-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Déférement sous vingt-quatre heures avec les droits de la garde à vue, information, avocat : garanties tenues.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée par le juge des libertés et de la détention puis contrôlée par la chambre, libération d'office à défaut de transfèrement ou de remise dans le délai"
+      "motif": "Déferrement sous vingt-quatre heures, droits de la garde à vue, information dans une langue comprise, avocat : gardés ; phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : présentation à un magistrat sous vingt-quatre heures, droits de la garde à vue, comparution sous cinq jours devant le procureur général, avocat : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne appréhendée en vertu d'une demande d'arrestation aux fins de remise est déférée dans les vingt-quatre heures au procureur de la République territorialement compétent. Durant ce délai, elle bénéficie des droits prévus au cours de la garde à vue par le chapitre 4 du titre II du livre V de la troisième partie. Ce magistrat vérifie son identité et l'informe, dans une langue qu'elle comprend, de la demande, de son droit à l'assistance d'un avocat et de sa comparution dans un délai maximum de cinq jours devant le procureur général près la cour d'appel de Paris, par procès-verbal aussitôt transmis à ce dernier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6252-3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Incarcération par le juge des libertés et de la détention ou contrôle judiciaire selon l'article 59 du statut. La passe 1 proposait une réécriture (P10) : aucune peine n'y est aménagée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée par le juge des libertés et de la détention puis contrôlée par la chambre, libération d'office à défaut de transfèrement ou de remise dans le délai"
+      "motif": "Incarcération ordonnée par le juge des libertés et de la détention ou mesures selon l'article 59 du statut : gardées. Le renvoi suit la fusion de L6232-27 dans L6232-26.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : l'incarcération est ordonnée par un juge du siège, l'alternative de l'assignation ou du contrôle judiciaire est gardée, et la révocation suit L6232-26 (audience sous dix jours, liberté d'office sinon).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République qui décide de ne pas laisser en liberté la personne réclamée la présente au juge des libertés et de la détention, qui ordonne son incarcération à la maison d'arrêt ou, s'il estime sa représentation suffisamment garantie au regard de l'article 59 du statut, la place jusqu'à sa comparution devant la chambre des investigations et des libertés sous assignation à résidence avec surveillance électronique ou sous contrôle judiciaire. L'article L. 6232-26 s'applique en cas de violation de ces mesures."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6252-4",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Transfèrement à Paris sous cinq jours, liberté sinon : délai opposable.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée par le juge des libertés et de la détention puis contrôlée par la chambre, libération d'office à défaut de transfèrement ou de remise dans le délai"
-    },
-    {
-      "code": "cpp",
-      "num": "L6252-5",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Notification des charges, avocat, droit de se taire : garanties tenues.",
-      "ligne_rouge": "art. 16 DDHC et art. 9 DDHC examinés : avocat, accès au dossier, droit de ne pas faire de déclaration"
-    },
-    {
-      "code": "cpp",
-      "num": "L6252-6",
-      "decision": "S",
-      "principe": "P26",
-      "motif": "Comparution sous huit jours, interrogatoire, débats. Point manquant (« personneDans ») rétabli. Les exceptions larges à la publicité se ramènent à celles de P26 : protection de la victime à sa demande, sécurité nationale. Registre 3.1 : renvoi à L. 1. La demande de la Cour pénale internationale ne fonde plus la chambre du conseil : la victime la demande elle-même, le témoin est protégé par l'anonymat (registre 3.2).",
-      "ligne_rouge": "Vie et intégrité des témoins (art. 2 DDHC) examinées : l'anonymat du témoin reste ouvert (L1532-8, L1532-9), la victime obtient la chambre du conseil à sa demande. Obligation de coopération avec la Cour pénale internationale examinée : la protection des témoins passe par l'anonymat, que la chambre ordonne. CEDH art. 6 § 1 : publicité de règle.",
+      "motif": "Reçoit L6252-5 (notification des charges, avocat, droit de se taire) : transfèrement à Paris et comparution devant le procureur général dans un article, cité pour son délai par L8126-1 et les articles d'outre-mer.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : transfèrement sous cinq jours, libération sinon. Droits de la défense examinés : charges notifiées dans une langue comprise, avocat choisi ou commis informé sans délai, accès au dossier, droit de se taire mentionné au procès-verbal : gardés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en audience publique, sauf si la publicité est de nature à nuire au bon déroulement de la procédure en cours, aux intérêts d'un tiers ou à la dignité de la personneDans ce cas, la chambre des investigations et des libertés, à la demande du ministère public, de la personne réclamée ou d'office, statue",
-          "nouveau": "en audience publique.Dans les cas prévus à l'article L. 1, la chambre des investigations et des libertés statue"
+          "op": "rediger",
+          "nouveau": "La personne incarcérée en application de l'article L. 6252-3 est transférée et écrouée à la maison d'arrêt du ressort de la cour d'appel de Paris. A défaut de transfèrement dans un délai de cinq jours, elle est immédiatement libérée sur décision du président de la chambre des investigations et des libertés de cette cour, à moins que le transfèrement ait été retardé par des circonstances insurmontables.\nLe procureur général près la cour d'appel de Paris notifie à la personne réclamée, dans une langue qu'elle comprend, la demande et les chefs d'accusation. Si elle n'a pas déjà un avocat dûment convoqué, il lui rappelle son droit d'en choisir un ou d'en demander un commis d'office, et l'avocat ou le bâtonnier en est informé sans délai et par tout moyen. L'avocat peut consulter sur-le-champ le dossier et communiquer librement avec la personne. Le procureur général reçoit ses déclarations après l'avoir avertie, par mention au procès-verbal, qu'elle est libre de ne pas en faire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6252-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Remise ordonnée en quinze jours en l'absence d'erreur évidente : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6252-8",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Cour de cassation en deux mois : délai opposable.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6252-6 (comparution sous huit jours) et L6252-10 (remise sous un mois) : la décision de remise et ses délais dans un article. L'audition suit la règle commune de L6231-1 (avocat, interprète). Publicité selon L. 1 (registre 3.1) ; la demande de la Cour ne fonde plus la chambre du conseil (registre 3.2). L'information de la Cour sur l'arrêt et la remise descend au décret en Conseil d'État.",
+      "ligne_rouge": "P25 examiné : comparution sous huit jours, audition avec avocat et interprète, décision en quinze jours, remise sous un mois et libération sinon : gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne comparaît devant la chambre des investigations et des libertés de la cour d'appel de Paris, immédiatement saisie, dans les huit jours de sa présentation au procureur général, délai prolongeable de huit jours à la demande du procureur général ou de la personne. Elle est interrogée dans les conditions du second alinéa de l'article L. 6231-1. L'arrêt rendu en chambre du conseil dans les cas prévus à l'article L. 1 n'est susceptible de pourvoi qu'avec l'arrêt sur la remise.\nLa chambre statue dans les quinze jours de la comparution. Si elle constate qu'il n'y a pas d'erreur évidente, elle ordonne la remise et, si la personne est libre, son incarcération à cette fin. Toute autre question est renvoyée à la Cour.\nLa personne est remise dans le mois qui suit le jour où l'arrêt est devenu définitif, faute de quoi elle est immédiatement libérée sur décision du président de la chambre, à moins que la remise ait été retardée par des circonstances insurmontables."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6252-9",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Mise en liberté demandable à tout moment, arrêt en audience publique et motivé. La passe 1 proposait une réécriture (P10) : aucune peine n'y est aménagée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée par le juge des libertés et de la détention puis contrôlée par la chambre, libération d'office à défaut de transfèrement ou de remise dans le délai"
-    },
-    {
-      "code": "cpp",
-      "num": "L6252-10",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Remise sous un mois, libération sinon : délai opposable.",
-      "ligne_rouge": "aucune"
+      "motif": "Mise en liberté et mainlevée demandées à tout moment, arrêt motivé selon l'article 59 du statut : gardés ; la publicité suit L. 1.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : demande de mise en liberté à tout moment devant une juridiction, arrêt motivé : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La mise en liberté, ou la mainlevée ou la modification des mesures prévues à l'article L. 6252-3, peut être demandée à tout moment à la chambre des investigations et des libertés de la cour d'appel de Paris, qui statue selon l'article 59 du statut et les articles L. 3653-7 et L. 3653-8, par un arrêt motivé par référence au paragraphe 4 de cet article 59."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6252-11",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Personne poursuivie ou condamnée en France pour d'autres faits : la remise ne la libère pas, la prescription est suspendue. La peine française n'est pas perdue.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée par la Cour pénale internationale s'exécute telle quelle, la Cour gardant la main sur sa réduction ; la peine française reste exécutable"
-    },
-    {
-      "code": "cpp",
-      "num": "L6252-12",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Transit autorisé selon le statut : court.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L6252-12 (transit). Personne poursuivie ou condamnée en France : remise selon le chapitre, sans libération au titre des délais, prescription suspendue. Renvois mis à jour après les fusions (L6252-10 dans L6252-7).",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine prononcée en France n'est pas perdue : la prescription est suspendue et la remise ne vaut pas libération.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les articles L. 6252-1 à L. 6252-9 s'appliquent à la personne réclamée qui est poursuivie ou condamnée en France pour d'autres chefs que ceux visés par la demande de la Cour. Détenue dans ces conditions, elle ne peut être mise en liberté au titre des articles L. 6252-4 et L. 6252-9 ni du dernier alinéa de l'article L. 6252-7. La procédure devant la Cour suspend à son égard la prescription de l'action pénale et de la peine.\nLe transit sur le territoire français est autorisé par les autorités compétentes, conformément à l'article 89 du statut."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6252-13",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Extension de la remise après contrôle de la chambre : spécialité tenue.",
-      "ligne_rouge": "aucune"
+      "motif": "Extension de la remise après contrôle de la chambre de Paris : gardée ; phrase resserrée.",
+      "ligne_rouge": "aucune (passe 1) ; la spécialité ne cède qu'après contrôle de la chambre, observations et avocat de la personne.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La chambre des investigations et des libertés de la cour d'appel de Paris, à laquelle les autorités compétentes communiquent la demande de la Cour tendant à étendre les conditions de la remise, avec les observations éventuelles de l'intéressé, autorise l'extension si elle constate, au vu des pièces et, le cas échéant, des explications de l'avocat, qu'il n'y a pas d'erreur évidente."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6252-14",
-      "decision": "G",
       "principe": "P24",
-      "motif": "Remise anticipée consentie : voie rapide, consentement recueilli par la chambre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6252-15",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Libération faute de demande formelle, chambre en huit jours : délai opposable.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L6252-15 (libération faute de demande formelle, en huit jours) : l'arrestation provisoire de l'article 92 du statut dans un article.",
+      "ligne_rouge": "aucune (passe 1) ; consentement recueilli par la chambre après information sur la procédure formelle, libération décidée par un juge en huit jours.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne arrêtée provisoirement selon l'article 92 du statut peut, si elle y consent, être remise à la Cour avant toute demande formelle de remise. La chambre des investigations et des libertés de la cour d'appel de Paris décide de la remise après l'avoir informée de son droit à une procédure formelle et avoir recueilli son consentement.\nA défaut de consentement et de demande formelle parvenue aux autorités compétentes dans le délai prescrit par le règlement de procédure et de preuve de la Cour, la chambre peut libérer la personne sur sa requête. Elle statue dans les huit jours de la comparution."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6253-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Exécution des amendes, confiscations et réparations autorisée par le tribunal de Paris, intéressés entendus : le juge décide de l'atteinte aux biens.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée par la Cour pénale internationale s'exécute telle quelle, la Cour gardant la main sur sa réduction"
-    },
-    {
-      "code": "cpp",
-      "num": "L6253-2",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Tribunal lié par la décision de la Cour, récupération de la valeur si la confiscation est impossible : la décision s'exécute.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6253-2 (tribunal lié par la décision de la Cour, récupération de la valeur, tiers de bonne foi) : l'exécution des amendes, confiscations et réparations dans un article.",
+      "ligne_rouge": "Art. 8 DDHC examiné : aucune peine nouvelle : le tribunal exécute la décision de la Cour, entend le condamné et les tiers avec avocat, et renvoie à la Cour le préjudice du tiers de bonne foi.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "A la demande de la Cour, l'exécution des peines d'amende et de confiscation et des décisions de réparation qu'elle a prononcées est autorisée par le tribunal délictuel de Paris saisi par le procureur de la République. Le tribunal entend, au besoin par commission rogatoire, le condamné et toute personne ayant des droits sur les biens, qui peuvent se faire représenter par un avocat.\nLe tribunal est lié par la décision de la Cour, y compris en ce qui concerne les droits des tiers. Si une ordonnance de confiscation ne peut être exécutée, il peut ordonner toute mesure permettant d'en récupérer la valeur. Lorsque l'exécution d'une ordonnance de confiscation ou de réparation porte préjudice à un tiers de bonne foi qui ne peut en relever appel, il en informe le procureur de la République aux fins de renvoi de la question à la Cour."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6253-3",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Produit transféré à la Cour, au fonds ou aux victimes désignées : la victime est servie.",
-      "ligne_rouge": "aucune"
+      "motif": "Transfert du produit à la Cour, au fonds ou aux victimes désignées, contestation renvoyée à la Cour : gardés ; phrases resserrées.",
+      "ligne_rouge": "aucune (passe 1) ; P18 : l'attribution aux victimes désignées par la Cour est gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'autorisation d'exécution entraîne, selon la décision de la Cour, transfert du produit des amendes et des biens confisqués ou de leur vente à la Cour ou au fonds en faveur des victimes, ou leur attribution aux victimes que la Cour a désignées. Toute contestation relative à l'affectation de ces biens ou sommes est renvoyée à la Cour."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6253-4",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Peine de la Cour directement exécutoire en France, selon le présent code : la peine s'exécute.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée par la Cour pénale internationale s'exécute telle quelle, la Cour gardant la main sur sa réduction"
+      "motif": "Peine de la Cour directement exécutoire dès le transfert : gardée. L'exclusion des règles du transfèrement conventionnel (« L. 6241-1 à L. 6241-7 ») suit leur refonte : L6241-1 sauf sa dernière phrase, et L6241-4 ; la présentation est à L6253-5.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine de la Cour s'exécute pour la partie restant à subir, sans adaptation par le juge français : exclusion de L6241-4 gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le Gouvernement a accepté, en application de l'article 103 du statut, qu'une personne condamnée par la Cour exécute en France sa peine d'emprisonnement, la condamnation est directement et immédiatement exécutoire dès son transfert, pour la partie de peine restant à subir. Sous réserve du statut et du présent chapitre, l'exécution et l'application de la peine sont régies par le présent code, à l'exception de l'article L. 6241-4 et des deux premières phrases de l'article L. 6241-1."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6253-5",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Présentation au procureur, vingt-quatre heures au plus d'attente, incarcération : délai opposable.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée par la Cour pénale internationale s'exécute telle quelle, la Cour gardant la main sur sa réduction ; art. 66 C examiné : attente limitée à vingt-quatre heures"
+      "motif": "Présentation au procureur de la République : renvoi à L6241-2, qui porte la même règle, avec les pièces propres au transfert par la Cour. Article gardé sous son numéro (cité par le code pénitentiaire, lot p078).",
+      "ligne_rouge": "Art. 8 DDHC examiné : délai de vingt-quatre heures avant présentation à un magistrat gardé (L6241-2) ; aucune peine en jeu.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dès son arrivée, la personne transférée est présentée au procureur de la République dans les conditions des deux premières phrases de l'article L. 6241-2. Au vu de l'accord entre le Gouvernement et la Cour sur le transfert, d'une copie certifiée conforme du jugement et de la notification par la Cour de la date de début d'exécution et de la durée restant à accomplir, ce magistrat ordonne l'incarcération immédiate du condamné."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6253-6",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Demandes d'aménagement transmises à la Cour, seule juge (art. 110 du statut) : la passe 1 proposait une réécriture (P10). La France n'aménage pas la peine de la Cour : c'est déjà la règle de P10.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée par la Cour pénale internationale s'exécute telle quelle, la Cour gardant la main sur sa réduction"
+      "motif": "Reçoit L6253-7 : la demande d'aménagement transmise à la Cour, seule juge (art. 110 du statut), et la suite d'un refus dans un article. Le chemin de la requête par le procureur général descend au décret en Conseil d'État.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la France n'aménage pas la peine de la Cour, qui seule en décide : gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La demande d'individualisation, d'aménagement de peine ou de libération conditionnelle du condamné est transmise à la Cour par le ministre de la justice. La Cour décide si la personne peut bénéficier de la mesure. Si sa décision est négative, le Gouvernement indique à la Cour s'il accepte de garder la personne en France ou s'il entend demander son transfert dans un autre Etat qu'elle aura désigné."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6251-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exécution des demandes d'entraide : premier alinéa de L6251-2 ; l'envoi des procès-verbaux à la Cour, en urgence comprise, suit la règle commune de L6251-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L6251-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L6251-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transfert consenti d'une personne détenue : second alinéa de L6251-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L6251-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L6252-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Notification des charges, avocat, droit de se taire : second alinéa de L6252-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L6252-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L6252-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Comparution sous huit jours, interrogatoire, audition : premier alinéa de L6252-7 ; publicité selon L. 1.",
+      "ligne_rouge": "aucune",
+      "vers": "L6252-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L6252-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Remise sous un mois et libération sinon : dernier alinéa de L6252-7 ; l'information de la Cour descend au décret en Conseil d'État.",
+      "ligne_rouge": "aucune",
+      "vers": "L6252-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L6252-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transit : second alinéa de L6252-11.",
+      "ligne_rouge": "aucune",
+      "vers": "L6252-11"
+    },
+    {
+      "code": "cpp",
+      "num": "L6252-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Libération faute de demande formelle : second alinéa de L6252-14.",
+      "ligne_rouge": "aucune",
+      "vers": "L6252-14"
+    },
+    {
+      "code": "cpp",
+      "num": "L6253-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Tribunal lié, récupération de la valeur, tiers de bonne foi : second alinéa de L6253-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L6253-1"
     },
     {
       "code": "cpp",
       "num": "L6253-7",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "La Cour décide de la mesure : la peine prononcée reste sous son contrôle.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Décision de la Cour sur la mesure et suite d'un refus : fin de L6253-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L6253-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L6252-8",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Délai de deux mois de la Cour de cassation : redite de L7214-12, qui porte la même règle pour le même pourvoi. Coordination : L7214-12 vise « L. 6252-8 », lire « L. 6252-7 ».",
+      "ligne_rouge": "aucune (passe 1) ; le délai de deux mois reste écrit à L7214-12."
     }
-  ]
+  ],
+  "passe": 3
 }
