@@ -10,97 +10,129 @@
     {
       "code": "cpp",
       "num": "L1311-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Le doute profite à la personne poursuivie : noyau de la présomption d'innocence.",
-      "ligne_rouge": "art. 9 DDHC examiné : présomption d'innocence, tenue"
+      "motif": "Le doute profite à la personne poursuivie.",
+      "ligne_rouge": "Art. 9 DDHC : tenu mot pour mot",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L1311-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Liberté de la preuve et intime conviction : règle de base, courte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1311-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Libre appréciation de toute preuve, aveu compris : l'aveu ne lie pas le juge.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Liberté de la preuve, intime conviction et libre appréciation de toute preuve, aveu compris : deux articles en un.",
+      "ligne_rouge": "Art. 9 DDHC examiné : l'aveu ne lie pas le juge, tenu",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors les cas où la loi en dispose autrement, les infractions peuvent être établies par tout mode de preuve, et tout élément de preuve, y compris l'aveu, est laissé à la libre appréciation des juges, qui décident selon leur intime conviction."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1311-4",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Décision fondée sur les seules preuves débattues contradictoirement : noyau du procès équitable.",
-      "ligne_rouge": "art. 16 DDHC examiné : contradictoire, tenu"
+      "motif": "Décision fondée sur les seules preuves débattues contradictoirement.",
+      "ligne_rouge": "Art. 16 DDHC : tenu mot pour mot",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L1312-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Conditions de la valeur probante d'un procès-verbal, questions retranscrites : fiabilité de la preuve. La proposition de déclasser est écartée : la force probante relève de la procédure pénale (art. 34 C).",
-      "ligne_rouge": "aucune"
+      "motif": "Conditions de la valeur probante d'un procès-verbal, questions retranscrites. Alinéas séparés (« \\n ») là où la base les colle.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un procès-verbal ou rapport n'a de valeur probante que s'il est régulier en la forme, si son auteur a agi dans l'exercice de ses fonctions, s'il a rapporté sur une matière de sa compétence ce qu'il a vu, entendu ou constaté personnellement.\nTout procès-verbal d'interrogatoire ou d'audition doit comporter les questions auxquelles il est répondu."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1312-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Procès-verbaux en matière criminelle et délictuelle : simples renseignements, sauf foi jusqu'à preuve contraire quand la loi le dit. Hiérarchie claire.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Procès-verbaux en matière criminelle et délictuelle : simples renseignements, sauf foi jusqu'à preuve contraire quand la loi le dit. La règle de la preuve contraire, écrite deux fois, l'est ici une fois pour toutes les matières.",
+      "ligne_rouge": "Art. 9 DDHC examiné : la preuve contraire reste ouverte par écrit ou par témoins",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière criminelle et délictuelle, les procès-verbaux et rapports constatant une infraction valent simples renseignements. En matière délictuelle, ils font foi jusqu'à preuve contraire lorsqu'une disposition spéciale de la loi donne à leur auteur le pouvoir de constater des délits par procès-verbal ou rapport.\nLa preuve contraire à un procès-verbal ou à un rapport qui fait foi jusqu'à preuve contraire ne peut être rapportée que par écrit ou par témoins."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1312-3",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Preuve des contraventions par procès-verbal faisant foi jusqu'à preuve contraire : condition des voies rapides du contentieux de masse.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Preuve des contraventions par procès-verbal faisant foi jusqu'à preuve contraire : gardée. La règle de preuve contraire vit à L1312-2.",
+      "ligne_rouge": "Art. 9 DDHC examiné : la preuve contraire reste ouverte (L1312-2)",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les contraventions sont prouvées par procès-verbaux ou rapports, ou par témoins à défaut ou à leur appui. Sauf disposition contraire, les procès-verbaux ou rapports établis en matière contraventionnelle par les officiers, agents et agents adjoints de police judiciaire, ou par les fonctionnaires et agents auxquels la loi attribue le pouvoir de constater les contraventions, font foi jusqu'à preuve contraire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1312-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Actes faisant foi jusqu'à inscription de faux, procédure par renvoi à L1313-1 et L1313-2 : gardé. Coquille corrigée (« s'il en est disposé autrement »).",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Actes faisant foi jusqu'à inscription de faux : énumération sans point-virgule. Reçoit le renvoi de L1313-2 à la procédure devant la Cour de cassation.",
+      "ligne_rouge": "Art. 16 DDHC examiné : l'inscription de faux reste ouverte devant toute juridiction",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Sauf s'il en disposé autrement",
-          "nouveau": "Sauf s'il en est disposé autrement"
+          "op": "rediger",
+          "nouveau": "Font foi jusqu'à inscription de faux :\n1° Les actes de procédure établis et signés par un magistrat et, lorsque le présent code le prévoit, authentifiés par la signature d'un greffier.\n2° Les procès-verbaux auxquels la loi donne cette force.\nSauf disposition contraire, l'inscription de faux suit l'article L. 1313-1 et, devant la Cour de cassation, les articles L. 7231-1 à L. 7231-5."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1312-5",
-      "decision": "G",
       "principe": "P25",
-      "motif": "La correspondance avec l'avocat ne fait pas preuve écrite : secret de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : secret des échanges avec l'avocat, tenu"
+      "motif": "La correspondance avec l'avocat ne fait pas preuve écrite.",
+      "ligne_rouge": "Art. 16 DDHC : tenu mot pour mot",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L1313-1",
-      "decision": "G",
       "principe": "P7",
-      "motif": "Pièce arguée de faux à l'audience : la juridiction décide du sursis ou statue incidemment. Le juge garde la main.",
-      "ligne_rouge": "aucune"
+      "motif": "Pièce arguée de faux à l'audience : la juridiction décide du sursis ou statue incidemment.",
+      "ligne_rouge": "Art. 16 DDHC examiné : ministère public et parties sont entendus",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une pièce de la procédure ou une pièce produite est arguée de faux à l'audience, la juridiction décide, après avoir recueilli les observations du ministère public et des parties, s'il y a lieu de surseoir jusqu'à la décision de la juridiction compétente sur le faux.\nSi l'action pénale du chef de faux est éteinte ou ne peut être exercée, et s'il n'apparaît pas que celui qui a produit la pièce en a fait sciemment usage, la juridiction saisie de l'action principale statue incidemment sur le caractère de la pièce."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1311-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Libre appréciation de toute preuve, aveu compris : portée à L1311-2.",
+      "ligne_rouge": "aucune : règle gardée à L1311-2",
+      "vers": "L1311-2"
     },
     {
       "code": "cpp",
       "num": "L1313-2",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Inscription de faux devant la Cour de cassation par renvoi à L7231-1 à L7231-5 : un régime, un siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi à L7231-1 à L7231-5 pour l'inscription de faux devant la Cour de cassation : porté à L1312-4.",
+      "ligne_rouge": "aucune : la procédure devant la Cour de cassation reste désignée à L1312-4",
+      "vers": "L1312-4"
     }
-  ]
+  ],
+  "passe": 3
 }
