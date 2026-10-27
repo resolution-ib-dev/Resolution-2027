@@ -10,53 +10,49 @@
     {
       "code": "cpp",
       "num": "D571-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Liste des employeurs auprès des mineurs qui peuvent obtenir le bulletin n° 2 vierge pour un recrutement : elle exécute le renvoi de L5514-11, gardée. L'ordonnance n° 45-174 du 2 février 1945, citée deux fois, est remplacée par le code de la justice pénale des mineurs. Renvoi à l'ancien 776 (L5514-11) à coordonner.",
+      "principe": "P23",
+      "motif": "Liste exécutant le renvoi de L. 5514-11, gardée (passe 2 : code de la justice pénale des mineurs au lieu de l'ordonnance de 1945). Chaque item resserré, l'ancien 776 devient L. 5514-10 (L. 5514-11 fusionné, lot p018).",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en application de l'ordonnance n° 45-174 du 2 février 1945 relative à l'enfance délinquante ou des articles 375 à 375-8 du code civil",
-          "nouveau": "en application du code de la justice pénale des mineurs ou des articles 375 à 375-8 du code civil"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "prévues par le code de procédure civile et par l'ordonnance précitée du 2 février 1945.",
-          "nouveau": "prévues par le code de procédure civile et par le code de la justice pénale des mineurs."
+          "op": "rediger",
+          "nouveau": "En application du deuxième alinéa de l'article L. 5514-10, le bulletin n° 2 qui ne porte la mention d'aucune condamnation peut être délivré, pour les seules nécessités du recrutement, aux dirigeants des personnes morales gestionnaires ou organisatrices des établissements, services, lieux et accueils suivants :\n1° Les accueils mentionnés à l'article L. 227-4 du code de l'action sociale et des familles.\n2° Les établissements ou services qui mettent en œuvre les mesures éducatives ordonnées par l'autorité judiciaire en application du code de la justice pénale des mineurs ou des articles 375 à 375-8 du code civil, ou concernant des majeurs de moins de vingt et un ans, ou les mesures d'investigation préalables aux mesures d'assistance éducative.\n3° Les lieux de vie et d'accueil mentionnés aux articles D. 316-1 et suivants du code de l'action sociale et des familles qui accueillent des mineurs mentionnés au 2° du I de l'article D. 316-2 du même code.\n4° Les mêmes lieux, autorisés par le représentant de l'État seul ou conjointement avec le président du conseil départemental, qui accueillent des mineurs mentionnés aux 1°, 3° et 4° du I de cet article.\n5° Les établissements ou services d'enseignement et d'éducation spéciale prévus au 2° du I de l'article L. 312-1 du même code.\n6° Les centres d'action médico-sociale précoce mentionnés à l'article L. 2132-4 du code de la santé publique.\n7° Les établissements d'enseignement scolaire privés, les organismes privés d'enseignement à distance et les organismes de soutien scolaire mentionnés aux articles L. 441-1, L. 444-1 et L. 445-1 du code de l'éducation."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D571-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "L'autorité administrative fait l'intermédiaire entre l'employeur et le casier : l'employeur ne voit jamais le bulletin. Désignation des autorités du 1° à vérifier contre l'organisation déconcentrée en vigueur.",
-      "ligne_rouge": "aucune"
+      "principe": "P1",
+      "motif": "La procédure de délivrance en un article : autorité intermédiaire, interrogation sécurisée et demande (D571-6), réponse à l'employeur (D571-7) fusionnées. L'employeur ne voit jamais le bulletin. La désignation des autorités intermédiaires, qui suit l'organisation déconcentrée de l'État, descend à l'arrêté publié.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : l'employeur ne reçoit que le bulletin néant ou la seule mention de l'incompatibilité ; demande identifiée et motivée par l'emploi.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La demande et la réponse passent par l'autorité administrative désignée, selon l'établissement, le service ou l'accueil, par arrêté du garde des sceaux, ministre de la justice, et des ministres intéressés. Cette autorité interroge le casier judiciaire national informatisé par un moyen de télécommunication sécurisé.\nÀ peine d'irrecevabilité, la demande est faite sur un formulaire dont le modèle est élaboré par le ministère de la justice. Elle est signée du dirigeant, indique son identité et ses fonctions, l'identité de la personne dont le recrutement est envisagé et la nature de l'emploi.\nLe bulletin revêtu de la mention néant est remis ou adressé au dirigeant. Dans le cas contraire, l'autorité l'informe que le bulletin ne peut lui être délivré, en précisant s'il comporte ou non une condamnation prévue à l'article L. 133-6 du code de l'action sociale et des familles, pour les 1° à 6° de l'article D. 571-4, auquel cas la personne ne peut être recrutée, ou aux articles L. 911-5, L. 444-6 ou L. 445-1 du code de l'éducation, pour le 7°."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D571-6",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Interrogation du casier par télécommunication sécurisée, demande identifiée sur formulaire : numérique, et vie privée encadrée.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : la demande nomme l'employeur, la personne et l'emploi, à peine d'irrecevabilité ; art. 8 DDHC examiné : aucune peine en cause"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interrogation par télécommunication sécurisée et demande sur formulaire, à peine d'irrecevabilité : D571-5.",
+      "ligne_rouge": "art. 8 et art. 2 DDHC examinés : demande signée, identifiée et limitée à l'emploi envisagé, reprise à D571-5.",
+      "vers": "D571-5"
     },
     {
       "code": "cpp",
       "num": "D571-7",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "L'employeur reçoit le bulletin vierge, ou la seule mention que le recrutement est interdit : protection des mineurs et vie privée tenues. « Les articles L. 133-6 » ne vise qu'un article : accord corrigé.",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réponse au dirigeant, bulletin néant ou mention de l'incompatibilité : dernier alinéa de D571-5.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "prévues par les articles L. 133-6 du code",
-          "nouveau": "prévues par l'article L. 133-6 du code"
-        }
-      ]
+      "vers": "D571-5"
     }
-  ]
+  ],
+  "passe": 3
 }
