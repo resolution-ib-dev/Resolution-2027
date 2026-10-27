@@ -1,0 +1,95 @@
+{
+  "lot": "lot_p240",
+  "titre": "CPP, partie réglementaire, livre IV, titre XIV : Du juge délégué aux victimes",
+  "ecart_volume": "Écart motivé : 166 mots pour un plafond de 154 (−46 % au lieu de −50 %), 6 → 2 articles. L'équilibre des droits des parties, limite qui protège la défense (P25, art. 16 DDHC), reste écrit dans la mission du juge. Titre déjà sobre : chaque phrase gardée porte une attribution du juge délégué aux victimes (présidences, contrôle de l'information des parties civiles, dispositifs d'aide, rapport annuel publiable, P22).",
+  "articles_cible": [
+    {
+      "num": "D47-6-1",
+      "texte": "Le juge délégué aux victimes veille, dans le respect de l'équilibre des droits des parties, à la prise en compte des droits que la loi reconnaît aux victimes.\nIl préside la juridiction d'indemnisation des victimes d'infractions et chacune de ses formations. Le président du tribunal judiciaire peut le désigner pour présider le tribunal délictuel qui statue sur les seuls intérêts civils après le renvoi de l'article L. 4433-3.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Mission et attributions juridictionnelles du juge délégué aux victimes dans un article : présidence de la juridiction d'indemnisation (ancien D47-6-2) et des audiences sur intérêts civils (ancien D47-6-3). La phrase qui annonce les fonctions du titre tombe (P20), comme le rappel de l'article R. 311-23 du code de l'organisation judiciaire. Ancien 464 lu sur la pièce de passe 3 (L4433-3).",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "num": "D47-6-12",
+      "texte": "Le juge délégué aux victimes vérifie l'information des parties civiles sur leurs droits à l'issue de l'audience selon l'article D. 48-3. Il participe, sous l'autorité du président du tribunal et avec le procureur de la République, aux dispositifs coordonnés d'aide aux victimes du ressort.\nSon rapport annuel d'activité, présenté à l'assemblée générale des magistrats du siège et du parquet, est adressé par le président et le procureur au premier président et au procureur général, qui en transmettent une synthèse au ministère de la justice.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Attributions administratives dans un article : contrôle de l'information des parties civiles, dispositifs coordonnés d'aide aux victimes (ancien D47-6-13), rapport annuel et sa synthèse (ancien D47-6-14, P22).",
+      "ligne_rouge": "aucune (passe 1)."
+    }
+  ],
+  "retires": [
+    {
+      "num": "D47-6-2",
+      "verbe": "F",
+      "vers": "D47-6-1",
+      "principe": "P23",
+      "motif": "Présidence de la juridiction d'indemnisation et de ses formations : deuxième alinéa de D47-6-1.",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "num": "D47-6-3",
+      "verbe": "F",
+      "vers": "D47-6-1",
+      "principe": "P23",
+      "motif": "Présidence des audiences sur intérêts civils : deuxième alinéa de D47-6-1, renvoi à L. 4433-3 (lot p150).",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "num": "D47-6-13",
+      "verbe": "F",
+      "vers": "D47-6-12",
+      "principe": "P23",
+      "motif": "Dispositifs coordonnés d'aide aux victimes : premier alinéa de D47-6-12.",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "num": "D47-6-14",
+      "verbe": "F",
+      "vers": "D47-6-12",
+      "principe": "P22",
+      "motif": "Rapport annuel et synthèse au ministère : second alinéa de D47-6-12.",
+      "ligne_rouge": "aucune (passe 1)."
+    }
+  ],
+  "phrases": {
+    "D47-6-1#1": {
+      "vers": "D47-6-1",
+      "destin": "reprise"
+    },
+    "D47-6-1#2": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "D47-6-12#1": {
+      "vers": "D47-6-12",
+      "destin": "reprise"
+    },
+    "D47-6-13#1": {
+      "vers": "D47-6-12",
+      "destin": "reprise"
+    },
+    "D47-6-14#1": {
+      "vers": "D47-6-12",
+      "destin": "reprise"
+    },
+    "D47-6-14#2": {
+      "vers": "D47-6-12",
+      "destin": "reprise"
+    },
+    "D47-6-2#1": {
+      "vers": "D47-6-1",
+      "destin": "reprise"
+    },
+    "D47-6-2#2": {
+      "vers": "D47-6-1",
+      "destin": "reprise"
+    },
+    "D47-6-3#1": {
+      "vers": "D47-6-1",
+      "destin": "reprise"
+    }
+  }
+}
