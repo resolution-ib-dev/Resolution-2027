@@ -1,0 +1,47 @@
+{
+  "lot": "lot_p289",
+  "titre": "Titre II : DROITS ET OBLIGATIONS DES PERSONNES EXERÇANT DES FONCTIONS PUBLIQUES",
+  "ecart_volume": "Titre de 132 mots, déjà sobre : deux obligations (signalement au parquet, mise à disposition des militaires) qui ne se disent pas plus court sans perte. Écart de quelques mots sur le plafond.",
+  "articles_cible": [
+    {
+      "num": "L1521-1",
+      "texte": "Toute autorité constituée, tout officier public ou fonctionnaire qui acquiert dans l'exercice de ses fonctions la connaissance d'un crime ou d'un délit en avise sans délai le procureur de la République et lui transmet tous les renseignements, procès-verbaux et actes qui s'y rapportent. Il est informé des suites données.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Signalement obligatoire au procureur par toute autorité ou fonctionnaire, et information du signalant sur la suite donnée (L1521-2) : un article.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L1521-3",
+      "texte": "Les supérieurs hiérarchiques d'un militaire en activité le mettent à la disposition de l'autorité judiciaire ou de l'officier de police judiciaire qui le demande pour les nécessités de la procédure.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Mise à disposition des militaires requis par l'autorité judiciaire : gardée, phrase resserrée.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L1521-2",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Information du signalant sur la suite donnée : fusionnée dans L1521-1. Le renvoi aux « dispositions du présent code » tombe, l'information suit la règle commune.",
+      "ligne_rouge": "aucune",
+      "vers": "L1521-1"
+    }
+  ],
+  "phrases": {
+    "L1521-1#1": {
+      "destin": "reprise",
+      "vers": "L1521-1"
+    },
+    "L1521-2#1": {
+      "destin": "reprise",
+      "vers": "L1521-1"
+    },
+    "L1521-3#1": {
+      "destin": "reprise",
+      "vers": "L1521-3"
+    }
+  }
+}

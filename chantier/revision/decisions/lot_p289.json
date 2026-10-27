@@ -10,26 +10,40 @@
     {
       "code": "cpp",
       "num": "L1521-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Signalement obligatoire au procureur par toute autorité ou fonctionnaire qui connaît un crime ou un délit : la sûreté passe par l'information du parquet. Cité par L1453-3.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1521-2",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Information du signalant sur la suite donnée : l'autorité judiciaire rend compte.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Signalement obligatoire au procureur par toute autorité ou fonctionnaire, et information du signalant sur la suite donnée (L1521-2) : un article.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute autorité constituée, tout officier public ou fonctionnaire qui acquiert dans l'exercice de ses fonctions la connaissance d'un crime ou d'un délit en avise sans délai le procureur de la République et lui transmet tous les renseignements, procès-verbaux et actes qui s'y rapportent. Il est informé des suites données."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1521-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Mise à disposition des militaires requis par l'autorité judiciaire : la procédure n'est pas entravée par la hiérarchie militaire.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Mise à disposition des militaires requis par l'autorité judiciaire : gardée, phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les supérieurs hiérarchiques d'un militaire en activité le mettent à la disposition de l'autorité judiciaire ou de l'officier de police judiciaire qui le demande pour les nécessités de la procédure."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1521-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information du signalant sur la suite donnée : fusionnée dans L1521-1. Le renvoi aux « dispositions du présent code » tombe, l'information suit la règle commune.",
+      "ligne_rouge": "aucune",
+      "vers": "L1521-1"
     }
-  ]
+  ],
+  "passe": 3
 }
