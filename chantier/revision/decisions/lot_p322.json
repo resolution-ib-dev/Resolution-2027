@@ -10,47 +10,59 @@
     {
       "code": "cpp",
       "num": "L1",
-      "decision": "R",
       "principe": "P26",
-      "motif": "Principes directeurs gardés. Transparence (P26) au titre préliminaire, liste fermée du registre 1.7 et 3.1 : victime à sa demande, sécurité nationale, minorité de la personne poursuivie au moment des faits. Le débat sur l'anonymat d'une personne menacée se tient à huis clos (registre 3.2), faute de quoi il révélerait l'identité qu'il protège.",
-      "ligne_rouge": "Minorité examinée : chambre du conseil de droit pour les faits commis en minorité, protection constitutionnelle de l'enfance délinquante tenue. Présomption d'innocence (art. 9 DDHC) examinée : elle ne fonde plus la chambre du conseil (registre 3.1), le jugement au fond reste public et la copie d'une décision non définitive ne nomme pas la personne poursuivie (R166). Vie et intégrité des personnes (art. 2 DDHC) examinées : le danger se traite par l'anonymat du témoin, du collaborateur et de l'informateur (registre 3.2), qui protège une identité. Vie privée et santé (CEDH art. 8) examinées : la santé mentale de la personne poursuivie se débat en public, perte déclarée. CEDH art. 6 § 1 examiné : publicité de règle, exceptions admises par le texte même.",
+      "motif": "Principes directeurs resserrés. La règle générale de publicité (P26) entre au titre préliminaire avec la seule liste du registre 3.1 : victime à sa demande, sans condition de protection, sécurité nationale, minorité de la personne poursuivie au moment des faits (9.1, 9.2). Le débat sur l'anonymat d'un témoin, d'une victime ou d'un collaborateur de justice se tient à huis clos (registre 3.2, 9.8) : public, il révélerait l'identité qu'il protège. Le jugement sur le fond est toujours prononcé publiquement et les décisions sont publiées. Les articles qui organisent la publicité renvoient à cet article (registre 3.5). Les phrases qui redisaient L1121-1, L1121-2 et L1151-1 y sont reprises.",
+      "ligne_rouge": "P26 et CEDH art. 6 § 1 examinés : la publicité est la règle, les exceptions forment une liste fermée. Art. 9 DDHC examiné : la présomption d'innocence ne fonde plus le huis clos (registre 3.1), elle reste garantie par L3 et L1111-1. Minorité de la personne poursuivie tenue (principe fondamental reconnu par les lois de la République). Art. 2 DDHC examiné : le danger pour une personne se traite par l'anonymat (registre 3.2), dont le débat est à huis clos.",
+      "decision": "R",
       "operations": [
         {
-          "op": "ajouter_alinea",
-          "nouveau": "Les audiences sont publiques. Elles se tiennent en chambre du conseil ou à huis clos dans les seuls cas suivants : la victime le demande, la sécurité nationale l'exige, la personne poursuivie était mineure au moment des faits. Le débat sur l'anonymat ou la confidentialité de l'identité d'un témoin, d'une victime ou d'un collaborateur de justice se tient à huis clos. Le jugement sur le fond est toujours prononcé en audience publique. Les décisions sont publiées dans le respect des mêmes exceptions."
+          "op": "rediger",
+          "nouveau": "La procédure pénale est équitable et contradictoire. Elle préserve l'équilibre des droits des parties.\nElle garantit l'impartialité des autorités judiciaires et la séparation des autorités chargées de l'action pénale et des autorités de jugement.\nElle garantit le respect de la dignité de la personne et du secret de la défense et du conseil auquel sont tenus les avocats.\nLes audiences sont publiques. La juridiction statue en chambre du conseil ou ordonne le huis clos dans les seuls cas suivants :\n1° La victime le demande.\n2° La sécurité nationale l'exige.\n3° La personne poursuivie était mineure au moment des faits.\nLa personne recherchée, réclamée, mise en examen ou témoin assisté tient lieu de personne poursuivie. La demande d'une victime mineure ou majeure sous tutelle est formée par son représentant légal.\nLe débat sur l'anonymat ou la confidentialité de l'identité d'un témoin, d'une victime ou d'un collaborateur de justice se tient à huis clos.\nLa décision sur le fond est toujours prononcée en audience publique. Les décisions sont publiées, sous les seules exceptions du présent article."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Garantie des droits des victimes à tous les stades, y compris l'exécution : c'est le principe P18, gardé.",
-      "ligne_rouge": "aucune"
+      "motif": "Droits des victimes à tous les stades : gardés, en une phrase de moins.",
+      "ligne_rouge": "aucune : la règle protège la victime (P18), elle ne touche aucune garantie de la personne poursuivie",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La procédure pénale garantit les droits des victimes. L'autorité judiciaire veille à leur respect à tous les stades de la procédure, y compris l'exécution et l'application des peines."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Droits de la personne suspectée ou poursuivie (présomption d'innocence, avocat, silence, délai raisonnable, interprète) et égalité devant la procédure : noyau des lignes rouges, tenu.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) et droits de la défense (art. 16 DDHC) examinés : tenus mot pour mot"
+      "motif": "Charte des droits de la personne poursuivie : chaque droit est nommé une fois ici et développé une fois au titre Ier du livre Ier. Le 5° est repris mot pour mot à L1112-1, le 6° à L1112-3.",
+      "ligne_rouge": "Art. 9 et 16 DDHC examinés : présomption d'innocence, information sur les charges, avocat, silence, interprète et délai raisonnable restent nommés ici. La règle de preuve du 5° vit à L1112-1, la traduction des pièces à L1112-3, sans perte.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La procédure pénale garantit à toute personne suspectée ou poursuivie le respect de la présomption d'innocence, le droit d'être informée des charges, d'être assistée par un avocat et de se taire, l'assistance d'un interprète si elle ne comprend pas le français, et un jugement définitif dans un délai raisonnable.\nElle garantit aussi que les personnes qui se trouvent dans des conditions semblables et poursuivies pour les mêmes infractions sont jugées selon les mêmes règles."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4",
-      "decision": "R",
       "principe": "P10",
-      "motif": "Le double degré et l'exécution effective sont gardés. L'individualisation « au cours de son exécution » fait de la peine prononcée un point de départ révisable : elle se tient au prononcé, l'exécution suit la loi (aménagements au mérite, libération conditionnelle). Arbitrage de l'auteur sur la portée de principe.",
-      "ligne_rouge": "art. 8 DDHC examiné : le juge module au prononcé (CC 2005-520 DC). L'objectif d'amendement et de réinsertion de l'exécution (CC 93-334 DC du 20 janvier 1994) et le réexamen d'une peine perpétuelle (CEDH art. 3) restent servis par l'adaptation judiciaire des modalités, bornée par la loi et réservée à l'effort, en cohérence avec L5112-4, L5221-1 et L1 du code pénitentiaire",
+      "motif": "Double degré et exécution effective gardés. L'individualisation se tient au prononcé, l'exécution suit la loi et les efforts du condamné (passe 2). Règle générale des voies de recours ajoutée : la mesure d'administration judiciaire n'a aucun recours, comme en procédure civile (art. 537 du code de procédure civile, P3). Les articles qui la qualifient n'ont plus à le redire.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'individualisation au prononcé est garantie mot pour mot. Art. 16 DDHC examiné : le recours contre la condamnation est garanti. La mesure d'administration judiciaire ne tranche aucun droit, son absence de recours ne touche pas le droit au juge.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Elle garantit le respect du principe d'individualisation de la peine lors de son prononcé et au cours de son exécution.",
-          "nouveau": "Elle garantit le respect du principe d'individualisation de la peine lors de son prononcé. Au cours de l'exécution, l'autorité judiciaire adapte les modalités de la peine dans les conditions et limites fixées par la loi, au vu des efforts de la personne condamnée."
+          "op": "rediger",
+          "nouveau": "La procédure pénale garantit le droit pour toute personne condamnée de faire examiner sa condamnation par une autre juridiction. Les mesures d'administration judiciaire ne sont susceptibles d'aucun recours.\nElle garantit le respect du principe d'individualisation de la peine lors de son prononcé. Au cours de l'exécution, l'autorité judiciaire adapte les modalités de la peine dans les conditions et limites fixées par la loi, au vu des efforts de la personne condamnée.\nElle garantit la mise à exécution des peines de façon effective et dans les meilleurs délais."
         }
       ]
     }
-  ]
+  ],
+  "passe": 3
 }
