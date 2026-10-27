@@ -10,63 +10,58 @@
     {
       "code": "cpp",
       "num": "R53-40",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Requête motivée du juge d'instruction au juge des libertés et de la détention, liste des pièces, rapport des enquêteurs : gardés. L'avis préalable du procureur, que la loi ne prévoit pas (ancien 230-40), ne protège aucune liberté : il devient une information.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Dossier distinct de géolocalisation en un article : requête et rapport (R53-40), garde et communication (R53-40-1), pièces versées (R53-40-2), refus et destruction (R53-40-3). L'avis du procureur reste une information (passe 2). Renvois aux anciens 230-40 et 230-41 recalés sur L. 3551-7 et L. 3551-11 (pièce de passe 3 du lot p185). Numéro gardé : R287 le cite.",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) et droits de la défense examinés : requête motivée soumise au juge des libertés et de la détention, dossier distinct communicable aux seuls juges, destruction des pièces d'un refus à la prescription.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Le juge d'instruction adresse sa requête au juge des libertés et de la détention après avoir recueilli l'avis du procureur de la République, qui est joint à la requête.",
-          "nouveau": "Le juge d'instruction adresse sa requête au juge des libertés et de la détention et en informe le procureur de la République."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "R53-40-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Dossier distinct et registre conservés par le président du tribunal, communicables aux seuls juges. Renvoi à l'ancien 230-41 à coordonner vers L. 3551-11 (lot p196).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-40-2",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Pièces versées au dossier distinct : l'avis du procureur, supprimé (R53-40), sort de la liste.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "la requête du juge d'instruction, l'avis du procureur de la République et, le cas échéant,",
-          "nouveau": "la requête du juge d'instruction et, le cas échéant,"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "R53-40-3",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Refus du juge : dossier distinct détruit à la prescription. L'avis du procureur, supprimé (R53-40), sort de la liste.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "la décision du juge des libertés et de la détention, l'avis du procureur de la République et, le cas échéant,",
-          "nouveau": "la décision du juge des libertés et de la détention et, le cas échéant,"
+          "op": "rediger",
+          "nouveau": "La requête du juge d'instruction qui demande, pour une géolocalisation, l'application de l'article L. 3551-7 précise pourquoi il en estime les conditions remplies et les pièces à verser au dossier distinct. Un rapport des enquêteurs peut y être joint. Le juge d'instruction en informe le procureur de la République.\nSi le juge des libertés et de la détention l'autorise, la requête, les pièces dont il dresse la liste et l'éventuel rapport sont versés au dossier distinct. Le président du tribunal judiciaire ou le juge qu'il délègue conserve ce dossier et le registre, qui ne sont communiqués qu'aux juges et à la chambre mentionnés au dernier alinéa de l'article L. 3551-7.\nEn cas de refus, la requête, la décision et l'éventuel rapport sont versés dans un dossier distinct, non communicable dans la procédure en cours, que ce magistrat conserve et détruit, avec procès-verbal, à l'expiration du délai de prescription de l'action publique."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R53-40-4",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Avant l'avis de fin d'information, versement au dossier distinct des éléments recueillis, après avis du procureur et observations des parties : contradictoire tenu. Renvoi à l'ancien 230-41 à coordonner vers L. 3551-11 (lot p196).",
-      "ligne_rouge": "art. 16 DDHC examiné : les parties présentent leurs observations, la décision est versée au dossier de la procédure ; art. 66 C non en jeu"
+      "motif": "Versement au dossier distinct avant l'avis de fin d'information : gardé, après avis du procureur et observations des parties ; renvois aux anciens 230-40, 230-41 et 175 recalés sur L. 3551-7, L. 3551-11 et L. 3451-1.",
+      "ligne_rouge": "Art. 66 C et droits de la défense examinés : contradictoire gardé (observations des parties) et décision versée au dossier de la procédure.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sauf versement au dossier de la procédure en application de l'article L. 3551-11, le juge d'instruction, avant l'avis prévu à l'article L. 3451-1, verse au dossier distinct les éléments de la géolocalisation recueillis selon l'article L. 3551-7 qui figurent au dossier de la procédure, après avis du procureur de la République et observations des parties. Sa décision est versée au dossier de la procédure."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-40-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Garde et communication du dossier distinct : deuxième alinéa de R53-40.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-40"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-40-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pièces versées au dossier distinct : deuxième alinéa de R53-40.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-40"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-40-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Refus et destruction : dernier alinéa de R53-40.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-40"
     }
-  ]
+  ],
+  "passe": 3
 }
