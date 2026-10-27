@@ -10,74 +10,112 @@
     {
       "code": "cpp",
       "num": "R54-1",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Conseil d'administration de l'agence : organisation d'un établissement public, à la strate du décret.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Composition du conseil d'administration : membres, désignations, mandats, vacances et gratuité gardés, liste en phrases (la faculté de représentation, écrite pour un seul membre et pour tous, l'est une fois).",
+      "ligne_rouge": "Aucune : organisation d'un établissement public.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le conseil d'administration de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués comprend, outre son président :\n1° Sept membres de droit, qui peuvent se faire représenter : le directeur des affaires criminelles et des grâces, le secrétaire général du ministère de la justice, les directeurs généraux des finances publiques, de la police nationale, de la gendarmerie nationale et des douanes et droits indirects, et le directeur du budget.\n2° Trois personnalités qualifiées en droit des obligations, droit des sociétés, gestion de patrimoine et marchés publics, désignées par le ministre de la justice.\n3° Deux représentants du personnel de l'agence, élus dans les conditions fixées par le ministre de la justice.\nLe président et les membres autres que de droit ont un mandat de trois ans renouvelable. Un siège vacant plus de six mois avant le terme est pourvu dans les mêmes formes pour la durée restante. Le mandat est gratuit, les frais de déplacement et de séjour étant remboursés comme pour les fonctionnaires civils de l'État."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R54-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Fonctionnement du conseil : règles communes des établissements publics. La passe 1 relevait une notification : l'article n'impose aucune forme.",
-      "ligne_rouge": "aucune"
+      "principe": "P1",
+      "motif": "Fonctionnement du conseil : le décret garde la fréquence des réunions, la convocation de droit par la tutelle ou la majorité des membres, la majorité et la voix prépondérante, les voix consultatives de droit. Convocation, ordre du jour, quorum et invités descendent au règlement intérieur, que le conseil adopte (R54-3).",
+      "ligne_rouge": "Aucune : organisation interne d'un établissement public, la tutelle garde son droit de convocation.",
+      "decision": "D",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le conseil se réunit au moins deux fois par an, et de plein droit dans les quinze jours de la demande des ministres de tutelle ou de la majorité de ses membres, sur l'ordre du jour qu'ils fixent. Ses délibérations sont adoptées à la majorité des voix des membres présents ou représentés, celle du président étant prépondérante en cas de partage. Le directeur général, le secrétaire général, le contrôleur budgétaire et l'agent comptable y siègent avec voix consultative. Le règlement intérieur fixe les règles de convocation, d'ordre du jour et de quorum."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R54-3",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Compétences du conseil, rapport annuel d'activité : l'agence rend compte.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Compétences du conseil et délégation au directeur général : gardées, liste en phrase ; le caractère exécutoire des délibérations budgétaires tombe, il découle du titre III du décret n° 2012-1246, auquel R54-7 soumet l'agence.",
+      "ligne_rouge": "Aucune : le rapport annuel d'activité reste délibéré par le conseil (compte rendu, P22).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le conseil règle par ses délibérations les affaires de l'agence, notamment ses programmes généraux d'activité, les conditions générales de ses contrats, conventions et marchés, ses délégations de service public et contrats d'objectifs avec l'État, son budget, ses décisions modificatives, son compte financier et l'affectation des résultats, les conditions générales de recrutement, d'emploi et de rémunération de son personnel, ses actions en justice et transactions, sauf urgence, son organisation générale, son règlement intérieur et son rapport annuel d'activité.\nIl peut déléguer au directeur général, dans les limites du règlement intérieur, ses compétences autres que les contrats, conventions, marchés, délégations et contrats d'objectifs, le budget et ses décisions modificatives, le compte financier et l'affectation des résultats, le règlement intérieur et le rapport annuel."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R54-4",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Directeur général magistrat, secrétaire général, pouvoirs : organisation, à la strate du décret.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Directeur général et secrétaire général : nomination et pouvoirs gardés, phrases resserrées.",
+      "ligne_rouge": "Aucune : le directeur général reste un magistrat de l'ordre judiciaire.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le directeur général est un magistrat de l'ordre judiciaire nommé pour trois ans renouvelables par arrêté du ministre de la justice. Il est secondé par un secrétaire général nommé par arrêté du ministre chargé du budget, à qui il peut déléguer certaines de ses fonctions.\nIl dirige l'agence, la représente en justice et dans les actes de la vie civile, ordonnance ses recettes et ses dépenses, recrute son personnel, passe les actes, contrats et marchés et conclut les transactions, dans la limite des attributions du conseil. Il prépare les séances et le budget, exécute les délibérations et rend compte au conseil, à chaque réunion, de l'activité et des décisions prises par délégation. Il peut déléguer sa signature aux agents d'encadrement et nommer des ordonnateurs secondaires."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R54-7",
+      "principe": "P23",
+      "motif": "Régime financier en un article : régime budgétaire et comptable public, comptables secondaires, régies (R54-7), dépôt des fonds (R54-8). La liste des dépenses (R54-5) tombe : nomenclature budgétaire sans portée propre, que le décret n° 2012-1246 régit. Renvois aux anciens 706-160 et au « 4° de l'article 760-163 » (numéro inexistant) recalés sur les 4° et 5° de L. 2521-2 ; le placement des sommes est nommé sans numéro.",
+      "ligne_rouge": "Propriété (art. 17 DDHC) examinée : les sommes saisies restent déposées à la Caisse des dépôts, sur un compte rémunéré.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'agence est soumise aux titres Ier et III du décret n° 2012-1246 du 7 novembre 2012 relatif à la gestion budgétaire et comptable publique. Des comptables secondaires peuvent être désignés par l'agent comptable, après avis du directeur général et avec l'agrément du ministre chargé du budget. Des régies de recettes et d'avances peuvent être instituées selon le décret n° 2019-798 du 26 juillet 2019.\nSes fonds sont déposés au Trésor public. Les sommes saisies, le produit de l'aliénation des biens prévue aux 4° et 5° de l'article L. 2521-2 et celui de leur placement sont déposés sur un compte ouvert à la Caisse des dépôts et consignations, rémunéré selon l'article L. 518-23 du code monétaire et financier. La Caisse peut aussi conserver pour l'agence des actifs numériques ou des accès à de tels actifs, au sens du 1° de l'article L. 54-10-2 du même code."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R54-9",
+      "principe": "P23",
+      "motif": "Aliénation par les domaines avec publicité et concurrence : gardée, renvois aux anciens 41-5 et 99-2 recalés sur L. 3532-20 (pièce de passe 3 du lot p183).",
+      "ligne_rouge": "Propriété (art. 17 DDHC) examinée : aliénation avec publicité et concurrence, qui préserve la valeur des biens.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'agence peut faire procéder par l'administration chargée des domaines, avec publicité et concurrence, à l'aliénation des biens meubles placés sous main de justice qui lui ont été remis en application de l'article L. 3532-20 et des biens meubles ou immeubles confisqués au cours d'une procédure pénale."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R54-5",
-      "decision": "G",
+      "decision": "A",
       "principe": "P20",
-      "motif": "Dépenses de l'établissement.",
+      "motif": "Liste des dépenses de l'agence : nomenclature budgétaire sans portée normative propre, que régit le décret n° 2012-1246 auquel R54-7 soumet l'agence.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R54-6",
-      "decision": "G",
+      "decision": "A",
       "principe": "P20",
-      "motif": "Accueil d'agents détachés ou mis à disposition.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R54-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Régime budgétaire et comptable public, comptables secondaires après avis du directeur général : la passe 1 proposait de retirer l'avis. C'est la règle commune de gestion des établissements publics, non une procédure pénale : elle reste.",
+      "motif": "Accueil d'agents détachés ou mis à disposition « dans le cadre de la réglementation qui leur est applicable » : l'article ne fait que rappeler les statuts, qui permettent le détachement et la mise à disposition auprès d'un établissement public administratif de l'État.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R54-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Fonds au Trésor, sommes saisies à la Caisse des dépôts, conservation d'actifs numériques. Le renvoi au « 4° de l'article 760-163 » vise un numéro inexistant (706-163, dont le 4° ne porte plus le placement des sommes) : à coordonner avec la loi, sans réécriture à l'aveugle. Renvois aux anciens 706-160 et 706-163 à coordonner.",
-      "ligne_rouge": "art. 17 DDHC examiné : les sommes saisies restent consignées et rémunérées jusqu'à la décision"
-    },
-    {
-      "code": "cpp",
-      "num": "R54-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Aliénation par les domaines, avec publicité et concurrence : valorisation des biens. Renvois aux anciens 41-5 et 99-2 à coordonner.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dépôt des fonds et des sommes saisies : dernier alinéa de R54-7.",
+      "ligne_rouge": "aucune",
+      "vers": "R54-7"
     }
-  ]
+  ],
+  "passe": 3
 }
