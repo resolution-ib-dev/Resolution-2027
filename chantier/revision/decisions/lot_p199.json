@@ -10,129 +10,183 @@
     {
       "code": "cpp",
       "num": "L3761-1",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Saisine du président quand le juge refuse ou tarde à régler l'information, dans les cinq jours : la durée de l'information se contrôle à la demande des parties.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3761-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Filtre du président en huit jours, renvoi motivé au juge à défaut : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3761-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "La chambre peut renvoyer, dire non-lieu, évoquer ou renvoyer au juge : elle règle elle-même l'information qui traîne.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L3761-2 (examen préalable, par renvoi à la règle de L3712-10) et L3761-3 (pouvoirs de la chambre) : le contrôle du refus ou du retard de règlement tient dans un article. Délai de cinq jours et son point de départ gardés.",
+      "ligne_rouge": "aucune (passe 1) ; P19 et CEDH art. 6 : la durée de l'information se contrôle à la demande des parties.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque les parties ou le témoin assisté ont demandé le règlement de l'information selon l'article L. 3451-7 et que le juge d'instruction a déclaré qu'il y a lieu à poursuivre l'information ou n'a pas statué dans le mois, ils peuvent saisir le président de la chambre des investigations et des libertés dans les cinq jours de la notification de l'ordonnance ou de l'expiration de ce délai. L'examen préalable de l'article L. 3712-10 s'applique, la saisine tenant lieu d'appel.\nLa chambre saisie peut renvoyer devant la juridiction de jugement, déclarer qu'il n'y a pas lieu à suivre, évoquer selon les articles L. 3714-1 à L. 3714-5, ou renvoyer le dossier au même juge d'instruction ou à un autre pour poursuivre l'information."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3762-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Les décisions de règlement de la chambre suivent le régime du juge d'instruction : une seule règle.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3762-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le témoin assisté fait valoir ses observations sur l'appel du non-lieu : droit de la défense de celui que le non-lieu protège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3762-11",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Restitution décidée dans le non-lieu, déférée au premier président : voie de recours qui protège la propriété (art. 17 DDHC). Matière de l'art. 34 : la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3762-12",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réouverture sur charges nouvelles, mandat possible en attendant la chambre. La non-communication de l'arrêt de réouverture aux avocats préserve l'effet du mandat : la défense est informée à la mise en examen.",
-      "ligne_rouge": "art. 16 DDHC examiné : la personne reprend tous ses droits dès son interrogatoire. P26 examiné : il s'agit de l'effet d'un mandat, non d'un huis clos ou d'une décision soustraite au public"
-    },
-    {
-      "code": "cpp",
-      "num": "L3762-2",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Un seul arrêt pour les faits connexes : une seule décision.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L3762-2 (un seul arrêt pour les faits connexes). Les décisions de règlement de la chambre suivent le régime du juge d'instruction. Borne de la plage citée par L6321-13.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Saisie de l'appel d'une ordonnance de règlement, ou réglant elle-même la procédure après évocation, la chambre rend ses décisions de renvoi ou de non-lieu selon le chapitre 2 du titre V du livre IV de la présente partie, avec les mêmes effets, sous réserve du présent chapitre. Elle statue par un seul arrêt sur tous les faits connexes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3762-3",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Arrêts de renvoi et de non-lieu portés aux parties dans les trois jours, signification du non-lieu à la partie civile, notification à l'adresse déclarée : gardés (P18). La voie électronique devient la règle, la lettre recommandée l'exception. Seul siège de la notification par le chef de l'établissement pénitentiaire depuis l'abrogation du miroir L311-3 du code pénitentiaire (lot p082) : à garder. La proposition de déclasser est écartée : la notification fait courir les délais de recours.",
-      "ligne_rouge": "aucune",
+      "motif": "Arrêts de renvoi et de non-lieu portés aux parties dans les trois jours, non-lieu signifié à la partie civile : gardés. L'envoi suit L1632-3 (voie électronique par défaut), la notification à la personne détenue L3713-13, l'adresse déclarée L1632-3.",
+      "ligne_rouge": "aucune (passe 1) ; P18 : la partie civile reçoit signification du non-lieu, qui ouvre son pourvoi.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "des parties par lettre recommandée.",
-          "nouveau": "des parties par voie électronique ou, à défaut, par lettre recommandée."
+          "op": "rediger",
+          "nouveau": "Les arrêts de renvoi devant la juridiction de jugement sont portés à la connaissance des parties dans les trois jours, par lettre recommandée. Les arrêts de non-lieu le sont de même aux personnes mises en examen, et signifiés à la partie civile dans les trois jours à la requête du procureur général. La notification à la personne détenue se fait selon le dernier alinéa de l'article L. 3713-13."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3762-4",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Après le règlement par la chambre, seule la Cour de cassation contrôle la régularité : purge.",
-      "ligne_rouge": "aucune"
+      "motif": "Après le règlement par la chambre, seule la Cour de cassation contrôle la régularité : gardé (borne de la plage citée par L6321-13).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la chambre a statué sur le règlement d'une procédure, la régularité de ses arrêts et de la procédure antérieure relève du seul contrôle de la Cour de cassation, que le pourvoi soit immédiatement recevable ou ne puisse être examiné qu'avec l'arrêt sur le fond."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3762-5",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Appel incident du procureur, cinq jours de plus : symétrie des armes, délai bref.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3762-6",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Quatre mois pour statuer sur l'appel du renvoi criminel, liberté d'office à défaut : le délai engage l'État.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L3762-6 (quatre mois pour statuer, liberté d'office à défaut). Appel incident de cinq jours gardé.",
+      "ligne_rouge": "aucune (passe 1) ; art. 66 C : délai de quatre mois sanctionné par la mise en liberté.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas d'appel de la personne mise en examen contre l'ordonnance de renvoi devant une juridiction criminelle, le procureur de la République dispose de cinq jours de plus à compter de cet appel pour former appel incident. La chambre statue sur l'appel d'une telle ordonnance dans les quatre mois de la déclaration d'appel, faute de quoi la personne détenue est mise d'office en liberté."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3762-7",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Appel du renvoi correctionnel borné à trois cas, dont la correctionnalisation d'un crime contestée par la partie civile : la victime garde la voie qui touche la peine encourue.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L3762-8 (non-admission hors des cas ouverts) et L3762-9 (deux mois, liberté d'office) : l'appel du renvoi correctionnel tient dans un article, siège unique de sa limite.",
+      "ligne_rouge": "aucune (passe 1) ; P18 : la partie civile garde l'appel contre la correctionnalisation d'un crime ; art. 66 C : délai de deux mois sanctionné par la mise en liberté.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne mise en examen et la partie civile ne peuvent faire appel de l'ordonnance de renvoi devant le tribunal délictuel que si :\n1° Elles estiment que les faits renvoyés constituent un crime qui aurait dû être renvoyé devant la cour d'assises ou la cour criminelle départementale.\n2° L'ordonnance n'a pas été cosignée par les juges d'instruction cosaisis selon l'article L. 3414-6.\n3° L'ordonnance statue aussi sur une demande formée avant l'avis de fin d'information prévu à l'article L. 3451-1 et restée sans réponse, ou formée après cet avis dans le délai de l'article L. 3451-3, ou omet de répondre à une telle demande recevable.\nHors ces cas, le président de la chambre rend une ordonnance de non-admission selon l'article L. 3712-9. Il fait de même dans le cas du 3° si la demande était irrecevable ou s'il décide, selon l'article L. 3712-10, de ne pas en saisir la chambre.\nLa chambre statue sur l'appel, même irrecevable, dans les deux mois de la déclaration d'appel, faute de quoi la personne détenue est remise d'office en liberté."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3762-10",
+      "principe": "P25",
+      "motif": "Observations du témoin assisté sur l'appel du non-lieu : gardées.",
+      "ligne_rouge": "aucune (passe 1) ; art. 16 DDHC : le témoin assisté est entendu sur l'appel du non-lieu qui le protège.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas d'appel d'une ordonnance de non-lieu, le témoin assisté peut présenter ses observations devant la chambre par son avocat. La date de l'audience est notifiée au témoin assisté et à son avocat selon l'article L. 3713-3."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3762-11",
+      "principe": "P23",
+      "motif": "Restitution décidée dans le non-lieu, déférée au premier président : gardée.",
+      "ligne_rouge": "aucune (passe 1) ; art. 17 DDHC : la restitution a son juge.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne intéressée peut déférer au premier président de la cour d'appel ou au conseiller qu'il désigne, selon les articles L. 3721-5 à L. 3721-8, la décision de restitution prise dans une ordonnance de non-lieu."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3762-12",
+      "principe": "P23",
+      "motif": "Réouverture sur charges nouvelles, mandat en attendant la chambre, arrêt non communiqué aux avocats : gardés.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'il reçoit, après un arrêt de non-lieu de la chambre rendu sur appel ou après évocation, des pièces qui lui paraissent contenir des charges nouvelles au sens de l'article L. 3453-2, le procureur général peut, après avoir mis l'affaire en état, requérir l'ouverture d'une information devant la chambre. En attendant la réunion de la chambre, son président peut, sur ses réquisitions, décerner mandat de dépôt ou d'arrêt. Par dérogation à l'article L. 3713-13, l'arrêt de réouverture n'est pas porté à la connaissance des avocats des parties."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3761-2",
+      "decision": "F",
+      "principe": "P2",
+      "motif": "Examen préalable en huit jours : L3761-1, par renvoi à L3712-10.",
+      "ligne_rouge": "aucune",
+      "vers": "L3761-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3761-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pouvoirs de la chambre saisie : second alinéa de L3761-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3761-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3762-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Un seul arrêt pour les faits connexes : dernière phrase de L3762-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3762-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3762-6",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Quatre mois pour statuer, liberté d'office : L3762-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L3762-5"
     },
     {
       "code": "cpp",
       "num": "L3762-8",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Non-admission par le président de l'appel hors des cas ouverts : purge.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Non-admission de l'appel hors des cas ouverts : L3762-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L3762-7"
     },
     {
       "code": "cpp",
       "num": "L3762-9",
-      "decision": "G",
+      "decision": "F",
       "principe": "P19",
-      "motif": "Deux mois pour statuer sur l'appel du renvoi correctionnel, liberté d'office à défaut : délai opposable.",
-      "ligne_rouge": "aucune"
+      "motif": "Deux mois pour statuer, liberté d'office : dernier alinéa de L3762-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L3762-7"
     }
-  ]
+  ],
+  "passe": 3
 }
