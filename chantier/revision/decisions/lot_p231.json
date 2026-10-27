@@ -10,65 +10,75 @@
     {
       "code": "cpp",
       "num": "R53-50",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Consignation et déconsignation sur pièces. Renvoi à l'ancien 706-155 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Consignation et déconsignation sur pièces : phrases fondues, renvoi à l'ancien 706-155 recalé sur L. 3534-9 (pièce de passe 3 du lot p183).",
+      "ligne_rouge": "Propriété (art. 17 DDHC) examinée : la déconsignation suit la décision définitive qui désigne le bénéficiaire.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La consignation prévue à l'article L. 3534-9 et la déconsignation se font sur production, respectivement, de l'ordonnance qui autorise ou ordonne la saisie des sommes et de la décision définitive qui en désigne le bénéficiaire, avec tout document qui justifie les droits et l'identité du demandeur."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R53-51",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Publicité des saisies de fonds de commerce selon le droit commun du code de commerce.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-52",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Greffe compétent pour l'inscription.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-53",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contenu de la demande d'inscription.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-54",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Copie de la décision jointe au bordereau.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-55",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Radiation demandée par l'agence, sans mention de la nature de la décision : gardée. « R. 521-20 » sans code vise un article absent du code de procédure pénale : c'est l'article du code de commerce.",
-      "ligne_rouge": "aucune",
+      "motif": "Publicité de la saisie d'un fonds de commerce en un article : droit commun du code de commerce et ses seuls écarts, greffe compétent (R53-52), contenu de la demande et pièce jointe (R53-53, R53-54), radiation à la demande de l'agence sans mention de la décision (R53-55). Renvoi à l'ancien 706-157 recalé sur L. 3534-13. La plage R. 53-51 à R. 53-56 que cite R251 garde ses bornes.",
+      "ligne_rouge": "Présomption d'innocence examinée : radiation sans indication de la nature de la décision (non-lieu, relaxe, acquittement ou confiscation).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Par dérogation à l'article R. 521-20,",
-          "nouveau": "Par dérogation à l'article R. 521-20 du code de commerce,"
+          "op": "rediger",
+          "nouveau": "La publicité de la saisie d'un fonds de commerce prévue à l'article L. 3534-13 suit le chapitre Ier du titre II du livre V de la partie réglementaire du code de commerce, avec les écarts suivants :\n1° Le greffe compétent est celui de la juridiction commerciale du lieu d'immatriculation principale du propriétaire du fonds ou, à défaut, de son domicile, sinon celui du tribunal de commerce de Paris.\n2° La demande d'inscription indique la date de la décision de saisie, le propriétaire du fonds, identifié selon le 2° de l'article R. 521-6 du code de commerce, l'adresse et le nom commercial du fonds. Le bordereau est accompagné de la copie de la décision définitive de saisie.\n3° Par dérogation à l'article R. 521-20 du même code, la radiation est demandée par l'Agence de gestion et de recouvrement des avoirs saisis et confisqués, sur production de la décision définitive de mainlevée, de non-lieu, de relaxe, d'acquittement ou de confiscation, et portée en marge, datée, sans indication de la nature de la décision."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R53-56",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Identification du propriétaire pour la réquisition d'état.",
-      "ligne_rouge": "aucune"
+      "motif": "Identification du propriétaire pour la réquisition d'état : gardé, borne de la plage citée par R251.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-52",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Greffe compétent : 1° de R53-51.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-51"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-53",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Contenu de la demande d'inscription : 2° de R53-51.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-51"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-54",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Copie de la décision jointe : 2° de R53-51.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-51"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-55",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Radiation à la demande de l'agence : 3° de R53-51.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-51"
     }
-  ]
+  ],
+  "passe": 3
 }
