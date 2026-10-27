@@ -1,0 +1,111 @@
+{
+  "lot": "lot_p291",
+  "titre": "Titre IER : TRAITEMENTS NUMÉRIQUES DES PROCÉDURES",
+  "ecart_volume": "Titre de 433 mots, déjà sobre : la plate-forme des interceptions garde ses finalités et son contrôle mot pour mot (vie privée, P25), et la règle générale du numérique (L1611-1) reste entière. Écart : −21 % au lieu de −40 %.",
+  "articles_cible": [
+    {
+      "num": "L1611-1",
+      "texte": "Les actes de la procédure, qu'il s'agisse d'actes d'enquête ou d'instruction, de décisions juridictionnelles ou de toute autre pièce, sont établis sous format numérique, sauf impossibilité technique. L'acte établi sous format papier peut être converti sous format numérique.",
+      "verbe": "S",
+      "principe": "P12",
+      "motif": "Règle générale du numérique (P12) : les actes de la procédure sont établis sous format numérique, sauf impossibilité technique (passe 2). Les autres titres y renvoient au lieu de prévoir chacun la forme numérique.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L1611-2",
+      "texte": "L'acte numérique qui doit être signé porte, quel qu'en soit le nombre de pages, une signature numérique unique de chaque signataire, selon des modalités techniques qui garantissent qu'il ne peut plus être modifié. Il n'est pas revêtu d'un sceau.",
+      "verbe": "S",
+      "principe": "P12",
+      "motif": "Signature numérique unique, sans sceau : gardée, phrases resserrées.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L1611-3",
+      "texte": "Le dossier de la procédure peut être intégralement conservé sous format numérique, dans des conditions sécurisées, sans support papier. Ne s'appliquent pas au dossier numérique les dispositions du présent code qui distinguent les actes originaux de leurs copies, qui prévoient la certification conforme des copies ou qui imposent le placement sous scellés, même fermés, des documents, contenus multimédias ou données versés au dossier.",
+      "verbe": "S",
+      "principe": "P12",
+      "motif": "Dossier intégralement numérique, sans distinction de l'original et de la copie, sans certification ni scellés pour les pièces versées : gardé, énumération en une phrase.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L1614-1",
+      "texte": "Le ministre de la justice est autorisé à mettre en œuvre un traitement automatisé de données à caractère personnel dénommé « plate-forme nationale des interceptions judiciaires ». Afin de faciliter la constatation des infractions à la loi pénale et des délits douaniers, le rassemblement des preuves de ces infractions et la recherche de leurs auteurs, ou d'apporter la preuve de la violation de certaines interdictions résultant d'une condamnation, ce traitement assure de façon centralisée :\n1° La transmission et l'exécution des réquisitions prévues au chapitre 3 du titre Ier du livre V de la troisième partie et des techniques spéciales d'investigation prévues au titre V de ce livre.\n2° La conservation des données ou correspondances ainsi obtenues.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Plate-forme nationale des interceptions judiciaires, finalités nommées : gardée, énumération sans point-virgule.",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) et contrôle de l'autorité judiciaire (art. 66 C) examinés : le traitement reste créé et borné par la loi, ses finalités nommées, sous le contrôle d'une personnalité qualifiée et d'un comité parlementaire, son décret pris après avis de la CNIL (registre 5.1)."
+    },
+    {
+      "num": "L1614-3",
+      "texte": "La plate-forme nationale des interceptions judiciaires est placée sous le contrôle d'une personnalité qualifiée, assistée d'un comité qui comprend un député et un sénateur.\nUn décret en Conseil d'État, pris après avis de la Commission nationale de l'informatique et des libertés, fixe les modalités d'application de l'article L. 1614-1 ainsi que les missions, la composition, l'organisation et le fonctionnement du comité.",
+      "verbe": "R",
+      "principe": "P15",
+      "motif": "Contrôle de la plate-forme par une personnalité qualifiée et un comité parlementaire, et décret en Conseil d'État pris après avis de la CNIL (L1614-2) : un article. L'avis de la CNIL est gardé (registre 5.1).",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) et contrôle de l'autorité judiciaire (art. 66 C) examinés : le traitement reste créé et borné par la loi, ses finalités nommées, sous le contrôle d'une personnalité qualifiée et d'un comité parlementaire, son décret pris après avis de la CNIL (registre 5.1)."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L1611-4",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Renvoi au règlement sans objet : le pouvoir réglementaire d'exécution (art. 21 C) fixe les modalités du chapitre sans habilitation. Renvois de D589 à l'ancien 801-1 inchangés.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L1614-2",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Décret en Conseil d'État pris après avis de la CNIL : fusionné dans L1614-3, l'avis de la CNIL gardé (registre 5.1).",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) examinée : l'avis de la CNIL est gardé à L1614-3.",
+      "vers": "L1614-3"
+    }
+  ],
+  "phrases": {
+    "L1611-1#1": {
+      "destin": "reprise",
+      "vers": "L1611-1"
+    },
+    "L1611-1#2": {
+      "destin": "reprise",
+      "vers": "L1611-1"
+    },
+    "L1611-2#1": {
+      "destin": "reprise",
+      "vers": "L1611-2"
+    },
+    "L1611-2#2": {
+      "destin": "reprise",
+      "vers": "L1611-2"
+    },
+    "L1611-3#1": {
+      "destin": "reprise",
+      "vers": "L1611-3"
+    },
+    "L1611-3#2": {
+      "destin": "reprise",
+      "vers": "L1611-3"
+    },
+    "L1611-4#1": {
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Renvoi au règlement sans garantie propre : le décret d'application ne requiert pas d'habilitation (art. 21 C)."
+    },
+    "L1614-1#1": {
+      "destin": "reprise",
+      "vers": "L1614-1"
+    },
+    "L1614-2#1": {
+      "destin": "reprise",
+      "vers": "L1614-3"
+    },
+    "L1614-3#1": {
+      "destin": "reprise",
+      "vers": "L1614-3"
+    },
+    "L1614-3#2": {
+      "destin": "reprise",
+      "vers": "L1614-3"
+    }
+  }
+}
