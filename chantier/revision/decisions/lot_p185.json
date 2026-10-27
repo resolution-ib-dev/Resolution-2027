@@ -10,729 +10,844 @@
     {
       "code": "cpp",
       "num": "L3551-1",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Les techniques spéciales s'ouvrent sur prescription ou autorisation écrite et motivée d'un magistrat : c'est l'encadrement par la loi que la vie privée exige. Le contrôle passe par les nullités devant la chambre des investigations et des libertés, l'absence de recours propre contre l'acte d'enquête est tenue.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : décision écrite et motivée d'un magistrat, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Procès-verbal du dossier distinct et registre au tribunal : trace de ce qui est soustrait au dossier, garantie du contrôle ultérieur.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : trace conservée de ce qui est soustrait au dossier, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-11",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Contestation du dossier distinct dans les dix jours de la connaissance effective de la technique, jamais avant la notification de l'autorisation : délai court qui part de la connaissance, conforme au principe.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : recours devant un juge du siège, annulation si l'information est indispensable à la défense, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-12",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Renvoi à la formation collégiale : utile. Faute d'accord corrigée (« n'est pas susceptibles »).",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Règles communes des techniques spéciales en un article : décision écrite et motivée du magistrat, conduite sous son contrôle, information du juge des libertés et destruction des actes irréguliers pour les chapitres 5 et 6 (texte de la passe 2, qui y avait réuni L3555-5 et L3556-3), procès-verbal de chaque opération (L3551-2 et L3551-3 fusionnés).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : aucune technique sans décision écrite et motivée d'un magistrat, conduite sous son contrôle et interruption à tout moment, contrôle du juge des libertés sur ce qu'il a autorisé avec pouvoir de destruction pour les chapitres 5 et 6, procès-verbal daté et horodaté de chaque opération.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "qui n'est pas susceptibles de recours",
-          "nouveau": "qui n'est pas susceptible de recours"
+          "op": "rediger",
+          "nouveau": "Dans les conditions prévues par le présent titre, le procureur de la République, le juge des libertés et de la détention ou le juge d'instruction peut prescrire ou autoriser le recours à des techniques spéciales d'investigation lorsque les nécessités de la procédure le justifient. Sauf disposition contraire, ces décisions sont écrites et motivées par référence aux éléments de fait et de droit justifiant que les opérations sont nécessaires. Elles n'ont pas de caractère juridictionnel et ne sont susceptibles d'aucun recours.\nLes opérations sont conduites sous l'autorité et le contrôle du magistrat qui les a prescrites ou autorisées ou qui a autorisé leur poursuite. Il peut ordonner à tout moment leur interruption.\nLorsque le juge des libertés et de la détention a autorisé des opérations prévues aux chapitres 5 et 6 du présent titre, il est informé sans délai par le procureur de la République des actes accomplis en exécution de sa décision et les procès-verbaux dressés lui sont communiqués. S'il estime que les opérations n'ont pas été réalisées conformément à son autorisation ou que les dispositions applicables du présent code n'ont pas été respectées, il ordonne la destruction des procès-verbaux et des enregistrements effectués, par une ordonnance motivée qu'il notifie au procureur de la République.\nIl est dressé procès-verbal de la mise en place des dispositifs techniques et de chacune des opérations, par le magistrat qui a autorisé l'opération, par l'officier de police judiciaire requis ou commis par lui ou, sous le contrôle de cet officier, par un agent de police judiciaire. Il mentionne la date et l'heure du début et de la fin des opérations."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-13",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Accès du juge d'instruction, du juge des libertés et de la chambre au dossier distinct : le contrôle juridictionnel garde la vue entière.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-14",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Aucune condamnation sur des éléments restés au dossier distinct : la preuve soumise au juge est celle que la défense connaît.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : et CEDH art. 6 : aucune condamnation sur un élément soustrait à la défense, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-15",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Dossier distinct en géolocalisation, seulement si l'information n'est ni utile à la vérité ni indispensable à la défense : condition protectrice, tenue.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 16 DDHC, droits de la défense examiné : la localisation n'est soustraite que si elle est inutile à la vérité et à la défense, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-16",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Requête motivée par des raisons impérieuses, avec proportionnalité et subsidiarité : la charge de la preuve pèse sur la demande d'exclusion.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : exclusion motivée par des raisons impérieuses et contrôlée par le juge, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-17",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Accès au dossier distinct en enquête et sanction de la divulgation par renvoi à l'article 413-13 du code pénal : la règle pénale vit à sa source.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-2",
-      "decision": "S",
-      "principe": "P3",
-      "motif": "Conduite sous l'autorité du magistrat qui a autorisé, avec pouvoir d'interruption. Reçoit mot pour mot l'information du juge des libertés et son pouvoir de destruction, écrits deux fois à l'identique (L3555-5, L3556-3), pour les chapitres 5 et 6 qu'ils couvraient. Les interceptions gardent leur seule information (L3552-7).",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : contrôle du juge des libertés sur les techniques des chapitres 5 et 6 gardé à l'identique, tenu",
-      "operations": [
-        {
-          "op": "ajouter_alinea",
-          "nouveau": "Lorsque le juge des libertés et de la détention a autorisé des opérations prévues aux chapitres 5 et 6 du présent titre, il est informé sans délai par le procureur de la République des actes accomplis en exécution de sa décision et les procès-verbaux dressés lui sont communiqués. S'il estime que les opérations n'ont pas été réalisées conformément à son autorisation ou que les dispositions applicables du présent code n'ont pas été respectées, il ordonne la destruction des procès-verbaux et des enregistrements effectués. Il statue par une ordonnance motivée qu'il notifie au procureur de la République."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Procès-verbal de chaque opération, daté et horodaté : la traçabilité est la condition du contrôle du juge et de la défense.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L3551-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Seules les données utiles sont transcrites, la vie privée étrangère à l'objet n'est pas conservée, traduction assurée : proportion tenue.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : rien de la vie privée étrangère à l'objet de l'autorisation n'entre au dossier, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-5",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Scellé fermé ou conservation par la plateforme nationale des interceptions : le numérique est déjà la voie normale.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : intégrité des enregistrements garantie par scellé ou par la plateforme nationale, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Destruction des enregistrements à la prescription de l'action publique, avec procès-verbal : conservation bornée à son utilité.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : conservation limitée à la durée de l'action publique, tenue"
+      "principe": "P23",
+      "motif": "Transcription, conservation et destruction des enregistrements en un article (L3551-5 et L3551-6 fusionnés). Cité par L2225-2.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : seules les données utiles sont transcrites, aucune séquence de vie privée étrangère à l'objet n'est conservée, scellés fermés ou plateforme nationale, destruction à la prescription de l'action pénale avec procès-verbal.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'officier de police judiciaire ou, sous son contrôle, l'agent de police judiciaire ou l'assistant d'enquête décrit ou transcrit, dans un procès-verbal versé au dossier, les données enregistrées utiles à la manifestation de la vérité. Aucune séquence relative à la vie privée étrangère à l'objet pour lequel les opérations ont été autorisées et aux infractions visées ne peut être conservée dans le dossier de la procédure. Les correspondances, conversations et données en langue étrangère sont traduites en français avec l'assistance d'un interprète requis à cette fin.\nLes enregistrements sont placés sous scellés fermés, sauf s'ils sont conservés par l'intermédiaire de la plateforme nationale des interceptions judiciaires. Les enregistrements et données recueillis en application du présent titre sont détruits, à la diligence du procureur de la République ou du procureur général, à l'expiration du délai de prescription de l'action pénale. Il est dressé procès-verbal de cette destruction, sauf si les enregistrements et données ont été conservés par l'intermédiaire de la plateforme."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3551-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dossier distinct pour protéger la vie de ceux qui posent les dispositifs, en criminalité organisée, sur autorisation du juge des libertés : nécessité établie, champ borné.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : l'exclusion reste sous le contrôle du président de la chambre (L3551-11) et aucune condamnation ne se fonde sur elle (L3551-14), tenu"
+      "principe": "P23",
+      "motif": "Dossier distinct en un article : champ, conditions, saisine et décision du juge des libertés, conditions propres à la géolocalisation et aux autres techniques, procès-verbal et registre, accès, divulgation réprimée (L3551-8 à L3551-10, L3551-13 et L3551-15 à L3551-17 fusionnés). Cité par L3731-10.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : le dossier distinct reste réservé à la criminalité organisée et au danger grave pour la vie, autorisé par un juge du siège sur requête motivée, ouvert au contrôle des juges, et, en géolocalisation, interdit si l'information est utile à la vérité ou indispensable à la défense. La divulgation reste punie des peines de l'article 413-13 du code pénal pour le seul dossier distinct de la sonorisation et du chapitre 6, comme en 2029 : aucune incrimination élargie par la fusion (art. 8 DDHC).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque, dans une procédure portant sur l'une des infractions mentionnées aux articles L. 1722-2 et L. 1722-3, il est recouru à une géolocalisation prévue au chapitre 3, à une sonorisation ou une fixation d'images prévue au chapitre 5 ou à une technique prévue au chapitre 6 du présent titre, et que la connaissance d'informations relatives à sa mise en œuvre est susceptible de mettre gravement en danger la vie ou l'intégrité physique d'une personne, des membres de sa famille ou de ses proches, le juge des libertés et de la détention peut autoriser que n'apparaissent pas dans le dossier de la procédure :\n1° Les informations relatives à la date, à l'heure et au lieu de la mise en place du dispositif technique.\n2° Les informations permettant d'identifier une personne ayant concouru à l'installation ou au retrait de ce dispositif.\nLe juge est saisi à tout moment par requête du procureur de la République au cours de l'enquête ou du juge d'instruction au cours de l'information. Pour une sonorisation, une fixation d'images ou une technique du chapitre 6, la requête précise les raisons impérieuses qui justifient que ces informations ne soient pas versées au dossier de la procédure et comporte toute indication permettant d'apprécier le respect des principes de proportionnalité et de subsidiarité. Pour une géolocalisation, seul le juge d'instruction peut le saisir, au cours de l'information. Le procès-verbal du dossier distinct comprend alors aussi l'enregistrement des données de localisation. L'autorisation n'est donnée que si la connaissance de ces informations n'est ni utile à la manifestation de la vérité ni indispensable à l'exercice des droits de la défense. La décision du juge est motivée et jointe au dossier de la procédure.\nCes informations sont inscrites dans un procès-verbal versé, avec la requête, dans un dossier distinct du dossier de la procédure, et sur un registre coté et paraphé ouvert à cet effet au tribunal judiciaire. Le dossier distinct est accessible à tout moment au juge des libertés et de la détention et, selon le cas, au procureur de la République au cours de l'enquête ou au juge d'instruction au cours de l'information, ainsi qu'au président de la chambre des investigations et des libertés ou à cette chambre dans le cadre de sa saisine. La divulgation des indications figurant dans le dossier distinct d'une sonorisation, d'une fixation d'images ou d'une technique du chapitre 6 est passible des peines prévues à l'article 413-13 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L3551-8",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Champ du dossier distinct limité à trois familles de techniques : article de périmètre, utile.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 16 DDHC, droits de la défense examiné : le dossier distinct ne couvre que la géolocalisation, la sonorisation et les techniques du chapitre 6, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3551-9",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le juge des libertés statue sur requête, par décision motivée jointe au dossier : acte juridictionnel, tenu.",
-      "ligne_rouge": "aucune"
+      "num": "L3551-11",
+      "principe": "P23",
+      "motif": "Contestation du dossier distinct, renvoi à la formation collégiale et interdiction de condamner sur ses seuls éléments en un article (L3551-12 et L3551-14 fusionnés). Le renvoi à la formation collégiale est une mesure d'administration judiciaire, sans recours par L. 4 (passe 3, lot p322). Cité par L3713-6.",
+      "ligne_rouge": "Droits de la défense et présomption d'innocence (art. 9 et 16 DDHC) examinés : recours dans les dix jours de la connaissance effective, jamais avant la notification de l'autorisation, annulation si la défense en a besoin, aucune condamnation sur des éléments restés au dossier distinct.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne mise en cause ou mise en examen ou le témoin assisté peut, dans un délai de dix jours à compter de la date à laquelle il lui a été donné connaissance de la technique spéciale d'investigation, contester devant le président de la chambre des investigations et des libertés la création d'un dossier distinct. Ce délai ne commence pas à courir avant que la décision du juge des libertés et de la détention qui a autorisé la création de ce dossier ait été formellement portée à sa connaissance.\nLe président statue au vu des pièces de la procédure et de celles du dossier distinct, par décision motivée non susceptible de recours. S'il estime que la technique n'a pas été réalisée régulièrement, que les conditions de création du dossier distinct ne sont pas remplies ou que les informations qui y figurent sont indispensables à l'exercice des droits de la défense, il ordonne l'annulation de la technique. S'il estime que la connaissance de ces informations n'est pas ou n'est plus susceptible de mettre gravement en danger la vie ou l'intégrité physique d'une personne, des membres de sa famille ou de ses proches, il peut aussi ordonner le versement au dossier de la procédure de la requête et du procès-verbal du dossier distinct. Si la complexité du dossier le justifie, il peut, d'office ou à la demande du procureur de la République, de la personne mise en cause ou mise en examen ou du témoin assisté, renvoyer le jugement à la formation collégiale, dont il fait alors partie. Ce renvoi est une mesure d'administration judiciaire.\nCe recours ne fait pas obstacle à ce que la chambre des investigations et des libertés, saisie par la personne mise en examen ou le témoin assisté aux fins d'annulation d'actes relatifs aux techniques spéciales d'investigation, contrôle les conditions de leur mise en œuvre et décide, si la connaissance de ces informations n'est pas ou n'est plus susceptible de mettre gravement en danger ces personnes, du versement des pièces du dossier distinct au dossier de la procédure.\nAucune condamnation ne peut être prononcée sur le fondement des éléments recueillis dans les conditions de l'article L. 3551-7, sauf si la requête et le procès-verbal du dossier distinct ont été versés au dossier de la procédure en application du présent article."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3552-1",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Interceptions autorisées par le juge des libertés en enquête et par le juge d'instruction en information : autorisation par un juge du siège, que la vie privée exige.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : interception autorisée par un juge du siège, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interception d'un parlementaire ou d'un magistrat : information du président de l'assemblée ou du chef de cour, à peine de nullité. Garantie de la séparation des pouvoirs, nullité attachée à une formalité précise. La proposition de réécrire le régime de nullité est écartée.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 16 DDHC, droits de la défense examiné : nullité ciblée sur une garantie précise, proportionnée, tenue ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interdiction de transcrire les échanges qui identifient la source d'un journaliste, à peine de nullité : garantie de la liberté de la presse, ciblée.",
-      "ligne_rouge": "art. 11 DDHC et CEDH art. 10 examinés : secret des sources, nullité ciblée, tenue ; art. 16 DDHC, droits de la défense examiné : sans effet sur la défense ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-12",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Notification à l'État membre où se trouve la personne interceptée hors décision d'enquête européenne : transposition de la directive 2014/41/UE (art. 31), obligation européenne.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : l'État membre peut opposer son propre encadrement, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-13",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Opposition de l'État membre dans les quatre-vingt-seize heures : interruption ou retrait des données. Même source européenne.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : données retirées si l'État membre s'y oppose, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-14",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Le défaut de notification n'annule que si l'interception n'aurait pas pu être autorisée dans l'État membre : nullité déjà réservée au grief réel, conforme au principe.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 16 DDHC, droits de la défense examiné : nullité limitée à l'atteinte réelle, proportionnée, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-15",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Accès à distance aux correspondances stockées, réservé aux crimes et aux délits graves listés : proportion tenue.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : champ réservé aux infractions graves, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-16",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Autorisation par le juge des libertés en enquête, par le juge d'instruction en information : juge du siège, tenu.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : autorisation d'un juge du siège, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-17",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Réquisition d'opérateurs et application des garanties des avocats, parlementaires, magistrats et journalistes : protections étendues à l'accès à distance.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : garanties de L3552-9 à L3552-11 étendues, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "En enquête, interceptions réservées à la criminalité organisée et aux atteintes les plus graves : liste courte, proportionnée.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : champ réservé aux infractions graves, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "En information, seuil de trois ans d'emprisonnement encouru, et interception sur la ligne de la victime à sa demande : proportion et intérêt de la victime tenus (P18).",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : seuil de trois ans encourus, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "La décision identifie la liaison, l'infraction et la durée : contenu minimal du contrôle.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : décision précise et bornée, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Durées d'interception (un mois renouvelable une fois, deux mois dans la limite de six mois ou un an pour la personne en fuite) : la durée maximale d'une mesure intrusive est une garantie qui relève de la loi. La proposition de déclasser est écartée.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : durées bornées par la loi, tenues"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-6",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Réquisitions de géolocalisation transmises par la plateforme nationale des interceptions : numérique et traçabilité, tenus.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : réquisitions tracées par la plateforme nationale, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3552-7",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Information du juge des libertés sur les interceptions qu'il autorise. La fusion y aurait ajouté un pouvoir de destruction que la loi ne donne pas. Gardé.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : information du juge du siège, tenue. Art. 66 C sans objet"
+      "principe": "P23",
+      "motif": "Interceptions en un article : autorités, infractions en enquête et en information, contenu et durée de la décision, information du juge des libertés (L3552-2 à L3552-5 et L3552-7 fusionnés). La liste de l'enquête, identique pour la sonorisation et les techniques du chapitre 6, y est écrite une fois. L'information du juge des libertés reste sans pouvoir de destruction, comme l'a jugé la passe 2.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : autorisation par un juge du siège, liste fermée en enquête, seuil de trois ans en information, ligne de la victime à sa demande, décision identifiant la liaison, l'infraction et la durée, un mois renouvelable une fois, information du juge des libertés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les conditions prévues par le chapitre 1er du présent titre, des opérations d'interception, d'enregistrement et de transcription de correspondances émises par la voie des communications électroniques peuvent être autorisées :\n1° Par le juge des libertés et de la détention, saisi par requête du procureur de la République, lors d'une enquête portant sur :\na) Des faits relevant de la délinquance et de la criminalité organisées mentionnés aux articles L. 1722-2 et L. 1722-3.\nb) Des crimes contre l'humanité et des crimes et délits de guerre, de disparition forcée et de torture mentionnés à l'article L. 1723-2.\nc) Des délits économiques et financiers mentionnés aux 2° et 3° de l'article L. 1724-1.\nd) Des délits d'atteintes à l'environnement et à la santé publique mentionnés à l'article L. 1724-2.\n2° Par le même juge, lors d'une procédure aux fins de recherche d'une personne en fuite.\n3° Par le juge d'instruction, lors d'une information portant sur un crime ou un délit puni d'une peine d'emprisonnement égale ou supérieure à trois ans, ou sur un délit puni d'une peine d'emprisonnement commis par la voie des communications électroniques sur la ligne de la victime si l'interception intervient sur cette ligne et à la demande de la victime, ou lors d'une information pour recherche des causes de la mort ou d'une disparition inquiétante.\nLa décision d'interception comporte tous les éléments d'identification de la liaison à intercepter, l'infraction qui motive le recours à l'interception et la durée de celle-ci. Lorsqu'elle émane du juge des libertés et de la détention, elle est prise pour une durée maximum d'un mois, renouvelable une fois dans les mêmes conditions de forme et de durée. Dans une procédure aux fins de recherche d'une personne en fuite, elle est prise pour une durée maximum de deux mois, renouvelable dans les mêmes conditions de forme et de durée, dans la limite de six mois en matière délictuelle et d'un an en matière criminelle. Le juge des libertés et de la détention qui a autorisé l'interception est informé sans délai par le procureur de la République des opérations accomplies, notamment des procès-verbaux mentionnés aux articles L. 3551-1 et L. 3551-4."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3552-8",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Réquisition des opérateurs pour installer l'interception, par la plateforme nationale : moyen nécessaire, tenu.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : réquisitions tracées, tenu"
+      "principe": "P23",
+      "motif": "Réquisition des opérateurs pour installer l'interception, par la plateforme nationale : texte inchangé, alinéas séparés.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : réquisition bornée à l'installation du dispositif autorisé, traçabilité par la plateforme nationale.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République ou le juge d'instruction, ainsi que l'officier de police judiciaire requis ou commis par ce magistrat, ou, sous le contrôle de cet officier, l'agent de police judiciaire peut requérir tout agent qualifié d'un service ou organisme placé sous l'autorité ou la tutelle du ministre chargé des communications électroniques ou tout agent qualifié d'un exploitant de réseau ou fournisseur de services de communications électroniques autorisé, en vue de procéder à l'installation d'un dispositif d'interception.\nCes réquisitions sont transmises, sauf impossibilité technique, par l'intermédiaire de la plateforme nationale des interceptions judiciaires."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3552-9",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Interception de la ligne d'un avocat : raisons plausibles contre lui, proportionnalité, ordonnance motivée du juge des libertés, bâtonnier informé, secret de la défense, à peine de nullité. Ces garanties tiennent. L'avis préalable du procureur sur l'ordonnance du juge d'instruction ne protège aucune liberté : il tombe, le juge des libertés décide.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : secret de la défense, information du bâtonnier, juge des libertés et nullité gardés, tenu ; art. 66 C sans objet ; art. 8 DDHC sans objet",
+      "principe": "P23",
+      "motif": "Interceptions qui touchent les avocats, les parlementaires, les magistrats et les journalistes en un article (L3552-10 et L3552-11 fusionnés, avis du parquet retiré en passe 2), à peine de nullité. Les infractions pour lesquelles le secret du conseil cède sont celles de L3533-8 : renvoi précis.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : ligne d'un avocat interceptée seulement s'il est lui-même soupçonné et si la mesure est proportionnée, ordonnance motivée du juge des libertés, bâtonnier informé, secret de la défense non transcrit, président d'assemblée ou chef de cour informé, sources des journalistes non transcrites : tout à peine de nullité.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "soit par ordonnance motivée du juge d'instruction, prise après avis du procureur de la République.",
-          "nouveau": "soit par ordonnance motivée du juge d'instruction."
+          "op": "rediger",
+          "nouveau": "À peine de nullité :\n1° Aucune interception ne peut porter sur une ligne dépendant du cabinet d'un avocat ou de son domicile, sauf s'il existe des raisons plausibles de le soupçonner d'avoir commis ou tenté de commettre, en tant qu'auteur ou complice, l'infraction qui fait l'objet de la procédure ou une infraction connexe au sens de l'article L. 1720-2, et à la condition que la mesure soit proportionnée au regard de la nature et de la gravité des faits. La décision est prise par ordonnance motivée du juge des libertés et de la détention, saisi par requête motivée du procureur de la République ou par ordonnance motivée du juge d'instruction. L'interception ne peut avoir lieu sans que le bâtonnier en soit informé par le procureur de la République ou le juge d'instruction.\n2° Ne peuvent être transcrites les correspondances avec un avocat relevant de l'exercice des droits de la défense et couvertes par le secret professionnel de la défense et du conseil, prévu à l'article 66-5 de la loi n° 71-1130 du 31 décembre 1971 portant réforme de certaines professions judiciaires et juridiques, sauf si la procédure est relative aux infractions mentionnées à l'article L. 3533-8 et que ces correspondances établissent la preuve de leur utilisation aux fins de commettre ou de faciliter la commission de ces infractions.\n3° Aucune interception ne peut avoir lieu sur la ligne d'un député ou d'un sénateur sans que le président de l'assemblée à laquelle il appartient en soit informé, ni sur une ligne dépendant du cabinet d'un magistrat ou de son domicile sans que le premier président ou le procureur général de la juridiction où il réside en soit informé, par le procureur de la République ou le juge d'instruction.\n4° Ne peuvent être transcrites les correspondances avec un journaliste permettant d'identifier une source en violation de l'article 2 de la loi du 29 juillet 1881 sur la liberté de la presse."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-12",
+      "principe": "P9",
+      "motif": "Interception d'une adresse utilisée dans un autre État membre : notification, opposition et nullité en un article (L3552-13 et L3552-14 fusionnés). Transposition de la directive 2014/41/UE (art. 31) inchangée.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : notification à l'État membre, opposition dans les quatre-vingt-seize heures, nullité réservée au cas où l'interception n'y aurait pas été autorisée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une interception de correspondances émises par la voie des communications électroniques, qui n'est pas réalisée dans le cadre d'une décision d'enquête européenne, concerne une adresse de communication utilisée sur le territoire d'un autre État membre de l'Union européenne où se trouve la personne visée, le procureur de la République ou le juge d'instruction, ou l'officier de police judiciaire requis ou commis par lui, notifie cette interception à l'autorité compétente de cet État. La notification intervient avant l'interception lorsqu'il résulte des éléments du dossier, au moment où elle est ordonnée, que la personne se trouve ou se trouvera sur ce territoire, et sinon au cours ou après l'interception, dès qu'il est établi que la personne s'y trouve ou s'y trouvait au moment de l'interception.\nSur demande de cette autorité formée dans les quatre-vingt-seize heures de la réception de la notification et justifiée par le fait que l'interception ne pourrait pas être autorisée selon son droit dans une procédure nationale similaire, soit l'interception n'est pas effectuée ou est interrompue, soit les données interceptées pendant que la personne se trouvait sur son territoire ne peuvent être utilisées et sont retirées du dossier de la procédure, ou ne peuvent l'être que dans les conditions et pour les motifs qu'elle précise.\nLe défaut de notification ne constitue une cause de nullité de la procédure que s'il est établi qu'une telle interception ne pouvait pas être autorisée, dans une procédure nationale similaire, selon le droit de l'État membre sur le territoire duquel se trouvait la personne."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-15",
+      "principe": "P23",
+      "motif": "Accès à distance aux correspondances stockées : champ, autorisation, réquisitions et protections en un article (L3552-16 et L3552-17 fusionnés). Les protections des avocats, magistrats, parlementaires et journalistes renvoient aux numéros précis de L3552-9.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : accès réservé aux crimes et aux délits graves listés, ordonnance d'un juge du siège en enquête, protections de L3552-9 applicables aux comptes des professions protégées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les conditions prévues par le chapitre 1er du présent titre, l'accès à distance, à l'insu de la personne visée, aux correspondances stockées par la voie des communications électroniques accessibles au moyen d'un identifiant informatique peut être autorisé au cours d'une enquête ou d'une information portant sur tout crime ou sur une infraction mentionnée aux a à d du 1° de l'article L. 3552-1. Il est autorisé, au cours de l'enquête, par ordonnance du juge des libertés et de la détention saisi par requête du procureur de la République et, au cours de l'information, par ordonnance du juge d'instruction.\nLe magistrat ou l'officier de police judiciaire commis par lui peut requérir tout agent qualifié d'un service ou d'un organisme placé sous l'autorité ou la tutelle du ministre chargé des communications électroniques ou tout agent qualifié d'un exploitant de réseau ou fournisseur de services de communications électroniques autorisé, pour procéder à cet accès. Les données auxquelles il a été permis d'accéder peuvent être saisies et enregistrées ou copiées sur tout support.\nLorsque l'identifiant est associé au compte d'un avocat, d'un magistrat, d'un sénateur ou d'un député, les 1° à 3° de l'article L. 3552-9 sont applicables, à peine de nullité. Le 4° du même article s'applique, à peine de nullité, aux correspondances avec un journaliste."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3553-1",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Géolocalisation en temps réel d'une personne ou d'un objet, par l'officier de police judiciaire, dans le cadre du chapitre : mesure encadrée par la loi.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : mesure intrusive encadrée par la loi et par un magistrat, tenue"
+      "principe": "P23",
+      "motif": "Géolocalisation : objet, procédures ouvertes, mise en œuvre et transmission des réquisitions par la plateforme nationale en un article (L3553-2 et L3552-6 fusionnés).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : seuil de trois ans et procédures de recherche limitativement énumérées, mise en œuvre par un officier ou sous son contrôle, traçabilité par la plateforme.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque les nécessités de l'une des procédures suivantes l'exigent, il peut être recouru à des opérations de géolocalisation par tout moyen technique destiné à la localisation en temps réel, sur l'ensemble du territoire national, d'une personne à son insu, ou d'un véhicule ou de tout autre objet sans le consentement de son propriétaire ou de son possesseur :\n1° Une enquête ou une information portant sur un crime ou sur un délit puni d'au moins trois ans d'emprisonnement.\n2° Une procédure de recherche des causes d'un décès, de blessures graves ou d'une disparition.\n3° Une procédure de recherche d'une personne en fuite.\n4° La recherche d'une personne faisant l'objet d'un mandat d'arrêt européen, dans les conditions prévues à l'article L. 6133-9.\n5° La recherche d'une personne faisant l'objet d'une demande d'extradition ou d'arrestation provisoire aux fins d'extradition, dans les conditions prévues à l'article L. 6232-11.\nLa géolocalisation est mise en œuvre par un officier de police judiciaire ou, sous son contrôle, par un agent de police judiciaire, ou prescrite sur réquisitions de l'officier de police judiciaire, selon le présent chapitre et le chapitre 1er du présent titre. Ces réquisitions sont transmises, sauf impossibilité technique, par l'intermédiaire de la plateforme nationale des interceptions judiciaires."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L3553-10",
+      "num": "L3553-3",
+      "principe": "P25",
+      "motif": "Durées en enquête : mêmes durées, phrases resserrées (cité par L6123-8 et L6232-11).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : le procureur n'autorise que huit ou quinze jours, puis le juge des libertés par mois renouvelables, dans la limite d'un ou deux ans.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Urgence : pose par l'officier de police judiciaire, information immédiate du magistrat, accord préalable pour un lieu d'habitation, autorisation écrite sous vingt-quatre heures. Tenu. Le renvoi à un article L. 3353-8 absent du code de 2029 vise L. 3553-8 (autorisation pour un lieu d'habitation).",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : urgence encadrée par un magistrat sous vingt-quatre heures, tenue",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'article L. 3353-8",
-          "nouveau": "l'article L. 3553-8"
+          "op": "rediger",
+          "nouveau": "Dans le cadre de l'enquête de police judiciaire, la géolocalisation est autorisée par le procureur de la République pour une durée maximale de huit jours consécutifs ou, lorsque l'enquête porte sur un crime ou sur une infraction mentionnée aux articles L. 1722-2 et L. 1722-3, de quinze jours consécutifs. Dans le cadre de l'enquête de recherche des causes d'un décès, de blessures graves ou d'une disparition, ou de la procédure de recherche d'une personne en fuite, elle est autorisée par le procureur de la République pour une durée maximale de quinze jours consécutifs. À l'issue de ces délais, elle est autorisée par le juge des libertés et de la détention à la requête du procureur de la République, pour une durée d'un mois renouvelable dans les mêmes conditions de forme et de durée, sans que la durée totale de l'opération puisse excéder un an ou, pour une infraction mentionnée aux articles L. 1722-2 et L. 1722-3, deux ans."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3553-4",
+      "principe": "P25",
+      "motif": "Durées en information : une phrase (cité par L6232-11).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : juge d'instruction pour quatre mois renouvelables, dans la limite d'un ou deux ans.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans le cadre de l'information, y compris de l'information pour recherche des causes d'un décès ou d'une disparition, la géolocalisation est autorisée par le juge d'instruction pour une durée maximale de quatre mois, renouvelable dans les mêmes conditions de forme et de durée, sans que la durée totale de l'opération puisse excéder un an ou, pour une infraction mentionnée aux articles L. 1722-2 et L. 1722-3, deux ans."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3553-5",
+      "principe": "P18",
+      "motif": "Localisation du téléphone ou du véhicule de la victime ou de la personne disparue sur simple réquisition : deux phrases.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : l'exception ne vise que l'équipement de la victime ou de la personne disparue : aucun tiers n'est surveillé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent chapitre n'est pas applicable lorsque les opérations de géolocalisation en temps réel ont pour objet, aux fins de retrouver une victime, un objet dérobé ou une personne disparue, la localisation d'un équipement terminal de communication électronique, d'un véhicule ou de tout autre objet dont le propriétaire ou le possesseur légitime est la victime de l'infraction sur laquelle porte l'enquête ou l'information, ou la personne disparue au sens du 3° de l'article L. 3211-1. Ces opérations font alors l'objet de réquisitions selon le chapitre 3 du titre Ier du présent livre."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3553-7",
+      "principe": "P23",
+      "motif": "Introduction dans un lieu ou un véhicule pour poser la balise, réquisition de services, pose en urgence en un article (L3553-8 à L3553-10 fusionnés, renvoi à L3553-8 corrigé en passe 2).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : introduction autorisée par décision écrite du magistrat, lieux privés autres que d'entrepôt réservés aux procédures de recherche et aux infractions punies de cinq ans, juge des libertés pour un lieu d'habitation, pose en urgence avec information immédiate, accord préalable pour un lieu d'habitation et autorisation écrite sous vingt-quatre heures, faute de quoi la mesure cesse.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République ou le juge d'instruction peut, lorsque les nécessités de la procédure l'exigent, autoriser par décision écrite l'introduction, à l'insu ou sans le consentement du propriétaire, de l'occupant des lieux ou du véhicule ou de toute personne titulaire d'un droit sur ceux-ci, dans des lieux privés destinés ou utilisés à l'entrepôt de véhicules, fonds, valeurs, marchandises ou matériel, ou dans un véhicule situé sur la voie publique ou dans de tels lieux, aux seules fins de mettre en place ou de retirer le dispositif de géolocalisation, y compris en dehors des heures légales prévues à l'article L. 3531-8. L'introduction dans un autre lieu privé n'est possible que dans les cas des 2° et 3° de l'article L. 3553-1 ou lorsque la procédure vise une infraction punie d'au moins cinq ans d'emprisonnement. Si elle concerne un lieu d'habitation, l'autorisation est délivrée au cours de l'enquête par le juge des libertés et de la détention, saisi par le procureur de la République, et au cours de l'information par le juge d'instruction ou, si l'opération doit intervenir hors des heures légales, par le juge des libertés et de la détention saisi par le juge d'instruction.\nEn vue de l'installation et du retrait du dispositif, le magistrat chargé des investigations ou l'officier de police judiciaire agissant sous son autorité peut requérir tout agent qualifié d'un service, d'une unité ou d'un organisme placé sous l'autorité du ministre de l'intérieur et dont la liste est fixée par décret.\nEn cas d'urgence résultant d'un risque imminent de dépérissement des preuves ou d'atteinte grave aux personnes ou aux biens, le dispositif peut être mis en place ou prescrit par un officier de police judiciaire sans autorisation préalable du procureur de la République ou du juge d'instruction, qu'il en informe immédiatement par tout moyen et qui peut ordonner la mainlevée de la géolocalisation. Toutefois, l'introduction dans un lieu d'habitation exige l'accord préalable, donné par tout moyen, du magistrat compétent pour l'autoriser selon le premier alinéa. Dans tous les cas, le magistrat dispose de vingt-quatre heures pour autoriser par décision écrite la poursuite des opérations, faute de quoi il y est mis fin. L'autorisation énonce les circonstances de fait établissant le risque imminent."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3553-11",
+      "principe": "P23",
+      "motif": "Activation à distance aux seules fins de localisation : mêmes conditions, phrases resserrées (renvoi à L3553-4 corrigé en passe 2).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : seuil de cinq ans, juge des libertés ou juge d'instruction, appareil identifié dans l'autorisation, localisation seule.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Activation à distance d'un appareil aux seules fins de localisation, réservée aux infractions punies d'au moins cinq ans, autorisée par un juge. Le renvoi à un article L. 3353-4 absent du code de 2029 vise L. 3553-4 (autorisation du juge d'instruction).",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : seuil de cinq ans et juge du siège, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "L. 3553-3 et L. 3353-4",
-          "nouveau": "L. 3553-3 et L. 3553-4"
+          "op": "rediger",
+          "nouveau": "Lorsque les nécessités de l'enquête ou de l'instruction relative à un crime ou à un délit puni d'au moins cinq ans d'emprisonnement l'exigent, il peut être procédé à l'activation à distance d'un appareil électronique, à l'insu ou sans le consentement de son propriétaire ou de son possesseur, aux seules fins de procéder à sa localisation en temps réel. L'activation est autorisée par le juge des libertés et de la détention, à la requête du procureur de la République, ou par le juge d'instruction, dans les conditions des articles L. 3553-3 et L. 3553-4. L'autorisation comporte tous les éléments permettant d'identifier l'appareil. Le procureur de la République ou le juge d'instruction peut désigner tout expert inscrit sur l'une des listes prévues à l'article L. 2512-2 ou prescrire le recours aux moyens de l'État soumis au secret de la défense nationale, selon les formes prévues au chapitre 4 du titre IV du présent livre."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3553-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Lieux soustraits à la géolocalisation, à peine de nullité : cabinets d'avocat, presse, médecins, notaires, secret de la défense, juridictions, parlementaires. Nullité attachée à une garantie précise : la proposition de réécrire le régime de nullité est écartée.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 16 DDHC, droits de la défense examiné : secret de la défense et secrets professionnels protégés, nullité ciblée, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3553-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Professions dont l'appareil ne peut être activé à distance, à peine de nullité : même garantie, même lecture.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : secret des professions protégées, nullité ciblée, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3553-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Seuil de trois ans encourus et procédures de recherche : proportion tenue.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : seuil de trois ans encourus, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3553-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Procureur huit ou quinze jours, puis juge des libertés par mois renouvelables, plafond d'un ou deux ans : un juge du siège dès que la mesure dure, conforme au noyau.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : juge du siège au-delà de quinze jours, durée totale bornée, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3553-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "En information, juge d'instruction pour quatre mois renouvelables, plafond d'un ou deux ans : tenu.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : durée bornée, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3553-5",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Localisation du téléphone ou du véhicule de la victime ou de la personne disparue par simple réquisition : aucune atteinte à la vie privée d'un tiers, la victime est servie vite.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : la mesure porte sur le bien de la victime ou du disparu, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3553-7",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Introduction dans un lieu d'entrepôt ou un véhicule pour poser la balise, autres lieux privés réservés aux faits les plus graves : encadrement gradué.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; inviolabilité du domicile (art. 2 DDHC) examinée : les lieux privés autres que d'entrepôt exigent cinq ans encourus, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3553-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Lieu d'habitation : autorisation du juge des libertés en enquête, ou hors heures légales en information.",
-      "ligne_rouge": "inviolabilité du domicile (art. 2 DDHC) examinée : le domicile n'est pénétré que sur autorisation d'un juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3553-9",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Réquisition de services du ministère de l'intérieur dont la liste est fixée par décret : la strate est la bonne.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; aucune autre"
+      "principe": "P23",
+      "motif": "Lieux et appareils soustraits à la géolocalisation et à l'activation à distance en un article (L3553-13 fusionné), à peine de nullité. La liste des lieux sert aussi, par renvoi, aux chapitres 5 et 6.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : cabinets d'avocat, presse, médecins, notaires, commissaires de justice, secret de la défense, juridictions, parlementaires, et appareils de ces professions : interdits à peine de nullité.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "À peine de nullité, la mise en place du dispositif de géolocalisation ne peut concerner :\n1° Le cabinet d'un avocat ou son domicile.\n2° Les locaux d'une entreprise de presse, d'une entreprise de communication audiovisuelle, d'une entreprise de communication au public en ligne, d'une agence de presse, les véhicules professionnels de ces entreprises ou agences ou le domicile d'un journaliste.\n3° Le cabinet d'un médecin, l'étude d'un notaire ou d'un commissaire de justice.\n4° Un lieu précisément identifié, abritant les éléments couverts par le secret de la défense nationale.\n5° Les locaux d'une juridiction ou le domicile d'une personne exerçant des fonctions juridictionnelles.\n6° Le bureau ou le domicile d'un député ou d'un sénateur.\nÀ peine de nullité, l'activation à distance ne peut concerner les appareils électroniques utilisés par les députés, les sénateurs, les magistrats, les avocats, les notaires, les commissaires de justice, les journalistes et les médecins."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3554-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Caméras aéroportées sur la voie publique, seuil de trois ans encourus et procédures de recherche : captation limitée aux lieux publics.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : captation réservée aux lieux publics, seuil de trois ans, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3554-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Durées : un mois renouvelable une fois en enquête, quatre mois dans la limite de deux ans en information : bornées.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3554-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "La décision identifie les lieux et la durée, par tout moyen, mentionnée au dossier : forme minimale, tenue.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3554-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Mise en place par l'officier de police judiciaire ou sous sa responsabilité : répartition des offices tenue.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Caméras aéroportées : objet, procédures, autorités, durées, décision et mise en place en un article (L3554-2 à L3554-4 fusionnés).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : captation limitée aux lieux publics, seuil de trois ans et procédures de recherche, un mois renouvelable une fois en enquête, quatre mois dans la limite de deux ans en information, lieux identifiés dans la décision.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les conditions prévues par le chapitre 1er du présent titre, il peut être recouru, au moyen de caméras aéroportées, à un dispositif technique ayant pour objet la captation, la fixation, la transmission et l'enregistrement sans leur consentement de l'image de personnes se trouvant dans un lieu public, si cette opération est exigée par les nécessités :\n1° D'une enquête ou d'une information portant sur un crime ou sur un délit puni d'au moins trois ans d'emprisonnement.\n2° D'une procédure de recherche des causes d'un décès, de blessures graves ou d'une disparition.\n3° D'une procédure de recherche d'une personne en fuite.\nLe dispositif est autorisé, dans le cadre d'une enquête judiciaire ou d'une enquête de recherche des causes d'un décès, de blessures graves ou d'une disparition, par le procureur de la République pour une durée maximale d'un mois renouvelable une fois, et dans le cadre d'une information, y compris pour recherche des causes d'un décès ou d'une disparition, par le juge d'instruction pour une durée maximale de quatre mois renouvelable, sans que la durée totale des opérations puisse excéder deux ans. L'autorisation, donnée par tout moyen et mentionnée ou versée au dossier de la procédure, comporte tous les éléments permettant d'identifier les lieux concernés et précise sa durée.\nLe dispositif est mis en place par l'officier de police judiciaire commis par le juge d'instruction ou requis par le procureur de la République ou, sous sa responsabilité, par un agent de police judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3555-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Sonorisation et fixation d'images dans les lieux privés : définition de la technique la plus intrusive, que les articles suivants bornent.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : mesure définie par la loi, bornée par les articles L3555-2 à L3555-9, tenue"
+      "principe": "P23",
+      "motif": "Sonorisation et fixation d'images : objet, infractions, autorisation, durées et contenu de la décision en un article (L3555-2 à L3555-4 fusionnés, avis du parquet retiré en passe 2). La liste des infractions est celle de L3552-1 : renvoi précis.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : technique la plus intrusive réservée aux infractions listées, juge des libertés pour un mois renouvelable une fois en enquête, juge d'instruction pour quatre mois dans la limite de deux ans, décision identifiant les lieux, l'infraction et la durée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Il peut être recouru, dans les conditions prévues à la présente section, à la mise en place d'un dispositif technique ayant pour objet, sans le consentement des intéressés, la captation, la fixation, la transmission et l'enregistrement de paroles prononcées par une ou plusieurs personnes à titre privé ou confidentiel, dans des lieux ou véhicules privés ou publics, ou de l'image d'une ou de plusieurs personnes se trouvant dans un lieu privé, lors des enquêtes et informations portant sur les infractions mentionnées aux a à d du 1° de l'article L. 3552-1.\nLe dispositif est autorisé :\n1° Au cours de l'enquête, par le juge des libertés et de la détention à la requête du procureur de la République, pour une durée d'un mois, renouvelable une fois dans les mêmes conditions de forme et de durée.\n2° Au cours de l'information, par le juge d'instruction, pour une durée de quatre mois, renouvelable dans les mêmes conditions de forme et de durée, sans que la durée totale des opérations puisse excéder deux ans.\nLa décision comporte tous les éléments permettant d'identifier les véhicules ou les lieux privés ou publics visés, l'infraction qui motive le recours à ces mesures et leur durée."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3555-7",
+      "principe": "P23",
+      "motif": "Mise en œuvre du dispositif : mise en place, réquisitions, introduction dans un lieu ou un véhicule, lieux interdits, détention des appareils en un article (L3555-6, L3555-8 et L3555-9 fusionnés). Les lieux interdits renvoient à L3553-12, même liste hors le secret de la défense nationale.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : introduction aux seules fins de poser ou retirer le dispositif, autorisée par le juge des libertés ou le juge d'instruction, juge des libertés pour un lieu d'habitation hors des heures légales, lieux des professions protégées exclus.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le dispositif est mis en place par l'officier de police judiciaire commis par le juge d'instruction ou requis par le procureur de la République ou, sous sa responsabilité, par l'agent de police judiciaire. En vue de l'installation, de l'utilisation et du retrait du dispositif, le magistrat chargé des investigations ou l'officier de police judiciaire peut requérir tout agent qualifié d'un service, d'une unité ou d'un organisme placé sous l'autorité ou la tutelle du ministre de l'intérieur ou du ministre de la défense et dont la liste est fixée par décret.\nAux seules fins de mettre en place ou de désinstaller le dispositif, peut être autorisée l'introduction dans un véhicule ou un lieu privé, à l'insu ou sans le consentement du propriétaire ou du possesseur du véhicule, de l'occupant des lieux ou de toute personne titulaire d'un droit sur ceux-ci, y compris en dehors des heures légales prévues à l'article L. 3531-8. L'autorisation est délivrée au cours de l'enquête par le juge des libertés et de la détention et au cours de l'information par le juge d'instruction. Toutefois, s'il s'agit d'un lieu d'habitation et que l'opération doit intervenir hors des heures légales, elle est délivrée par le juge des libertés et de la détention saisi à cette fin par le juge d'instruction.\nLa mise en place du dispositif ne peut concerner les lieux mentionnés aux 1°, 2°, 3°, 5° et 6° de l'article L. 3553-12.\nLes officiers ou agents de police judiciaire ou les agents qualifiés chargés de ces opérations sont autorisés à détenir à cette fin des appareils relevant de l'article 226-3 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3555-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Activation à distance d'un appareil fixe, réservée aux crimes organisés listés et aux délits en bande organisée punis d'au moins cinq ans : proportion tenue.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : champ étroit, seuil de cinq ans, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3555-11",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Activation à distance autorisée par le juge des libertés ou le juge d'instruction, expert désigné, moyens de l'État couverts par le secret. L'avis préalable du procureur sur l'autorisation du juge d'instruction ne protège aucune liberté : il tombe.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : autorisation par un juge du siège gardée",
+      "principe": "P23",
+      "motif": "Activation à distance d'un appareil fixe : infractions et autorisation en un article (L3555-11 fusionné, avis du parquet retiré en passe 2).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : activation réservée aux crimes organisés listés et aux délits en bande organisée punis d'au moins cinq ans, autorisée par le juge des libertés ou le juge d'instruction.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "ou par le juge d'instruction, après avis du procureur de la République.",
-          "nouveau": "ou par le juge d'instruction."
+          "op": "rediger",
+          "nouveau": "Pour les finalités mentionnées à l'article L. 3555-1, il peut être recouru à un dispositif permettant l'activation à distance d'un appareil électronique fixe lorsque la procédure porte :\n1° Sur une des infractions prévues aux 1° à 6°, 8°, 9°, 14° et 16° de l'article L. 1722-2, sur le blanchiment des mêmes infractions ou sur une association de malfaiteurs qui a pour objet la préparation de l'une d'elles. Pour les délits, l'activation n'est possible que s'ils sont commis en bande organisée et punis d'une peine d'emprisonnement d'une durée égale ou supérieure à cinq ans.\n2° Sur des crimes contre l'humanité et des crimes et délits de guerre, de disparition forcée et de torture mentionnés à l'article L. 1723-2.\nL'activation à distance est autorisée par le juge des libertés et de la détention, à la requête du procureur de la République, ou par le juge d'instruction. Le procureur de la République ou le juge d'instruction peut désigner tout expert inscrit sur l'une des listes prévues à l'article L. 2512-2 pour les opérations techniques de mise en œuvre du dispositif, ou prescrire le recours aux moyens de l'État soumis au secret de la défense nationale, selon les formes prévues au chapitre 4 du titre IV du présent livre."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3555-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Activation à distance d'un appareil mobile, pour une durée strictement proportionnée : la condition de fond d'une mesure très intrusive relève de la loi. La proposition de déclasser est écartée.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : proportion de la durée inscrite dans la loi, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3555-13",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Subsidiarité : l'appareil mobile seulement si la pose d'un dispositif fixe est impossible ou dangereuse.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : subsidiarité tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3555-14",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Durées : quinze jours renouvelables une fois en enquête, deux mois renouvelables deux fois en information. L'avis préalable du procureur sur l'autorisation du juge d'instruction ne protège aucune liberté : il tombe.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : durées courtes et juge du siège gardés",
+      "principe": "P23",
+      "motif": "Activation à distance d'un appareil mobile : objet, subsidiarité, autorisation, durées et contenu de la décision en un article (L3555-13 à L3555-15 fusionnés, avis du parquet retiré et renvoi à L3555-11 corrigé en passe 2).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : durée strictement proportionnée, subsidiarité par rapport au dispositif fixe, quinze jours renouvelables une fois en enquête, deux mois renouvelables deux fois en information, décision motivée sur l'impossibilité du dispositif fixe.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par le juge d'instruction, après avis du procureur de la République, pour une durée de deux mois",
-          "nouveau": "par le juge d'instruction, pour une durée de deux mois"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3555-15",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Décision motivée, avec l'impossibilité de recourir au dispositif fixe. Le renvoi à un article L. 3355-11 absent du code de 2029 vise L. 3555-11 (désignation d'un expert et moyens de l'État).",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : motivation de la subsidiarité, tenue",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "l'article L. 3355-11",
-          "nouveau": "l'article L. 3555-11"
+          "op": "rediger",
+          "nouveau": "Lorsque la procédure porte sur des infractions mentionnées à l'article L. 3555-10, il peut être procédé, dans les conditions de la présente section, à l'activation à distance d'un appareil électronique mobile, à l'insu ou sans le consentement de son propriétaire ou de son possesseur, aux seules fins de capter, fixer, transmettre et enregistrer les paroles des personnes ou leur image, pendant une durée strictement proportionnée à l'objectif recherché. Ce dispositif n'est mis en œuvre que si les circonstances de l'enquête ou de l'information ne permettent pas la mise en place de la technique de la section 1 du présent chapitre, en raison soit de l'impossibilité de déterminer les lieux où elle pourrait être utilement mise en place, soit des risques d'atteinte à la vie ou à l'intégrité physique des agents chargés de la mettre en œuvre.\nIl est autorisé, au cours d'une enquête, par le juge des libertés et de la détention, à la requête du procureur de la République, pour une durée de quinze jours renouvelable une fois, et, au cours d'une information, par le juge d'instruction, pour une durée de deux mois renouvelable deux fois. La décision précise l'infraction qui motive ces opérations, leur durée et tous les éléments permettant d'identifier l'appareil. Elle est motivée par référence aux éléments de fait et de droit justifiant que l'opération est nécessaire et fait état des motifs attestant l'impossibilité de recourir au dispositif de la section 1. Le dernier alinéa de l'article L. 3555-10 s'applique à la désignation des personnes qualifiées."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3555-16",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Appareils des parlementaires, magistrats, avocats, journalistes et médecins exclus, à peine de nullité : garantie précise. La proposition de réécrire le régime de nullité est écartée.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : secret des professions protégées, nullité ciblée, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3555-17",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interdiction de transcrire les échanges avec l'avocat couverts par le secret de la défense, les sources d'un journaliste et les captations faites dans un lieu protégé, à peine de nullité.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : secret de la défense et des sources, nullité ciblée, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3555-18",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Destruction des données non transcriptibles et des captations irrégulières. Le renvoi suit la fusion de L3555-5 dans L3551-2.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : destruction des données protégées, tenue",
+      "principe": "P23",
+      "motif": "Appareils mobiles protégés, données non transcriptibles et destruction en un article (L3555-17 et L3555-18 fusionnés, renvoi de destruction recalé sur L3551-1 en passe 2), à peine de nullité.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : appareils des parlementaires, magistrats, avocats, journalistes et médecins exclus, échanges avec l'avocat couverts par le secret de la défense, sources des journalistes et captations dans un lieu protégé non transcrits, à peine de nullité, et détruits.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'article L. 3555-5",
-          "nouveau": "l'article L. 3551-2"
+          "op": "rediger",
+          "nouveau": "À peine de nullité, l'activation à distance d'un appareil électronique mobile mentionnée à l'article L. 3555-12 ne peut concerner les appareils utilisés par un député, un sénateur, un magistrat, un avocat, un journaliste ou un médecin, et ne peuvent être transcrites les données :\n1° Relatives aux échanges avec un avocat qui relèvent de l'exercice des droits de la défense et qui sont couvertes par le secret professionnel de la défense et du conseil, prévu à l'article 66-5 de la loi n° 71-1130 du 31 décembre 1971 portant réforme de certaines professions judiciaires et juridiques, hors les cas prévus au 2° de l'article L. 3552-9.\n2° Relatives aux échanges avec un journaliste permettant d'identifier une source en violation de l'article 2 de la loi du 29 juillet 1881 sur la liberté de la presse.\n3° Collectées grâce à l'activation à distance d'un appareil électronique mobile s'il apparaît que ce dernier se trouvait dans l'un des lieux mentionnés aux 1°, 2°, 3° et 5° de l'article L. 3553-12.\nLe magistrat qui a autorisé le recours au dispositif ordonne, dans les meilleurs délais et dans les conditions prévues à l'article L. 3551-1, la destruction des données qui ne peuvent être transcrites. Il ordonne également la destruction des procès-verbaux et des données collectées lorsque les opérations n'ont pas été réalisées conformément à son autorisation ou lorsque les formalités prévues par le présent code n'ont pas été respectées."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3556-1",
+      "principe": "P23",
+      "motif": "Champ et autorisation des techniques du chapitre en un article (L3556-2 fusionné, avis du parquet retiré en passe 2). La liste des infractions et les durées sont celles de la sonorisation : renvois précis à L3552-1 et L3555-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : techniques réservées aux infractions listées, autorisées par un juge du siège en enquête et par le juge d'instruction en information, pour les mêmes durées bornées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les conditions prévues par le chapitre 1er du présent titre, les techniques spéciales d'investigation prévues par le présent chapitre peuvent être mises en œuvre lors des enquêtes et informations portant sur les infractions mentionnées aux a à d du 1° de l'article L. 3552-1. Elles sont autorisées par les magistrats et pour les durées prévues aux 1° et 2° de l'article L. 3555-1."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3556-4",
+      "principe": "P3",
+      "motif": "Mise en place des techniques du chapitre, introduction dans un lieu ou un véhicule et lieux interdits : régime de la sonorisation par renvoi (L3556-5 et L3556-6 fusionnés). Le renvoi dit l'écart : le véhicule seulement pour la captation de données.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : mêmes autorités, même juge des libertés pour un lieu d'habitation hors des heures légales, mêmes lieux protégés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les deux premiers alinéas de l'article L. 3555-7 s'appliquent à la mise en place, à l'utilisation et au retrait des dispositifs prévus aux articles L. 3556-7 et L. 3556-9. L'introduction dans un véhicule n'est autorisée que pour le dispositif de l'article L. 3556-9. La mise en place de ces dispositifs ne peut concerner les lieux mentionnés aux 1°, 2°, 3°, 5° et 6° de l'article L. 3553-12."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3556-7",
+      "principe": "P23",
+      "motif": "Recueil des données de connexion et interception par un appareil de l'article 226-3 du code pénal en un article (L3556-8 fusionné).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : interception par ce moyen soumise au régime des interceptions, bornée à la personne ou à la liaison visée, quarante-huit heures renouvelables une fois.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Il peut être recouru à la mise en place et à l'utilisation d'un appareil ou d'un dispositif technique mentionné au 1° de l'article 226-3 du code pénal afin de recueillir les données techniques de connexion permettant l'identification d'un équipement terminal ou du numéro d'abonnement de son utilisateur, et les données relatives à la localisation d'un équipement terminal utilisé.\nCet appareil peut aussi servir à intercepter des correspondances émises ou reçues par un équipement terminal. Les modalités des interceptions de correspondances prévues au chapitre 2 du présent titre sont alors applicables. Les correspondances interceptées ne peuvent concerner que la personne ou la liaison visée par l'autorisation d'interception. Par dérogation à l'article L. 3556-1, l'autorisation de cette interception vaut pour quarante-huit heures au plus, renouvelables une fois."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3556-9",
+      "principe": "P23",
+      "motif": "Captation de données informatiques : objet, contenu de la décision et installation à distance en un article (L3556-10 et L3556-11 fusionnés, accord corrigé en passe 2). Cité par l'article 226-3 du code pénal.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : décision précisant l'infraction et la durée à peine de nullité, systèmes visés décrits, installation à distance sur autorisation d'un juge du siège ou du juge d'instruction.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Il peut être recouru à la mise en place d'un dispositif technique ayant pour objet d'accéder, en tous lieux, à des données informatiques, de les enregistrer, de les conserver et de les transmettre, sans le consentement des intéressés, telles que ces données sont stockées dans un système informatique, s'affichent sur un écran pour l'utilisateur d'un système de traitement automatisé de données, sont introduites par cet utilisateur par saisie de caractères ou sont reçues et émises par des périphériques.\nÀ peine de nullité, la décision autorisant ce dispositif précise l'infraction qui motive le recours à ces opérations ainsi que leur durée. Sous réserve de l'article L. 3551-7, elle précise également la localisation exacte ou la description détaillée des systèmes de traitement automatisé de données.\nPour sa mise en place ou sa désinstallation, le dispositif peut être transmis par un réseau de communications électroniques sur autorisation du juge des libertés et de la détention au cours de l'enquête, ou du juge d'instruction au cours de l'information."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Conduite sous le contrôle du magistrat, information et destruction par le juge des libertés : deuxième et troisième alinéas de L3551-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : contrôle et pouvoir de destruction gardés à l'identique.",
+      "vers": "L3551-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procès-verbal de chaque opération : dernier alinéa de L3551-1. Renvoi de L3552-7 recalé sur L3551-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : traçabilité datée et horodatée gardée.",
+      "vers": "L3551-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Scellés fermés ou plateforme nationale : second alinéa de L3551-4.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : conservation gardée.",
+      "vers": "L3551-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Destruction à la prescription : second alinéa de L3551-4.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : destruction et procès-verbal gardés.",
+      "vers": "L3551-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Techniques ouvrant le dossier distinct : premier alinéa de L3551-7.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : champ borné à trois familles de techniques gardé.",
+      "vers": "L3551-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Saisine et décision motivée du juge des libertés : L3551-7.",
+      "ligne_rouge": "Décision juridictionnelle motivée et jointe au dossier gardée.",
+      "vers": "L3551-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procès-verbal du dossier distinct et registre : dernier alinéa de L3551-7.",
+      "ligne_rouge": "Trace de ce qui est soustrait au dossier gardée.",
+      "vers": "L3551-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi à la formation collégiale : deuxième alinéa de L3551-11, sans recours par L. 4.",
+      "ligne_rouge": "Aucune ligne rouge : mesure d'administration judiciaire.",
+      "vers": "L3551-11"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accès des juges au dossier distinct en information : dernier alinéa de L3551-7.",
+      "ligne_rouge": "Contrôle juridictionnel gardé.",
+      "vers": "L3551-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-14",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Aucune condamnation sur les éléments du dossier distinct : dernier alinéa de L3551-11.",
+      "ligne_rouge": "Présomption d'innocence et droits de la défense examinés : règle gardée.",
+      "vers": "L3551-11"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dossier distinct en géolocalisation : L3551-7.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : saisine par le seul juge d'instruction, données de localisation au procès-verbal, condition d'inutilité pour la vérité et la défense gardées.",
+      "vers": "L3551-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Requête motivée par des raisons impérieuses, proportionnalité et subsidiarité : L3551-7.",
+      "ligne_rouge": "Charge de la motivation sur la demande d'exclusion gardée.",
+      "vers": "L3551-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3551-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accès en enquête et divulgation réprimée : dernier alinéa de L3551-7.",
+      "ligne_rouge": "Art. 8 DDHC examiné : renvoi aux peines de l'article 413-13 du code pénal gardé.",
+      "vers": "L3551-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Infractions ouvrant l'interception en enquête : a à d du 1° de L3552-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : liste fermée gardée.",
+      "vers": "L3552-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Infractions ouvrant l'interception en information : 3° de L3552-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : seuil de trois ans et ligne de la victime à sa demande gardés.",
+      "vers": "L3552-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contenu de la décision : dernier alinéa de L3552-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : liaison, infraction et durée gardées.",
+      "vers": "L3552-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-5",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Durées d'interception : dernier alinéa de L3552-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : un mois renouvelable une fois, deux mois dans la limite de six mois ou d'un an pour la personne en fuite : gardés.",
+      "vers": "L3552-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transmission des réquisitions de géolocalisation par la plateforme nationale : dernier alinéa de L3553-1, avec la géolocalisation qu'elle concerne.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : traçabilité gardée.",
+      "vers": "L3553-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-7",
+      "decision": "F",
+      "principe": "P16",
+      "motif": "Information du juge des libertés sur les interceptions : dernier alinéa de L3552-1, sans pouvoir de destruction, comme en passe 2.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : information du juge du siège gardée.",
+      "vers": "L3552-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Parlementaires et magistrats : 3° de L3552-9.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : information du président d'assemblée ou du chef de cour gardée à peine de nullité.",
+      "vers": "L3552-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Sources des journalistes : 4° de L3552-9.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : interdiction de transcrire gardée à peine de nullité.",
+      "vers": "L3552-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-13",
+      "decision": "F",
+      "principe": "P9",
+      "motif": "Opposition de l'État membre : deuxième alinéa de L3552-12.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : quatre-vingt-seize heures et effets gardés.",
+      "vers": "L3552-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-14",
+      "decision": "F",
+      "principe": "P11",
+      "motif": "Nullité pour défaut de notification : dernier alinéa de L3552-12.",
+      "ligne_rouge": "Droits de la défense examinés : nullité réservée au grief réel, gardée.",
+      "vers": "L3552-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-16",
+      "decision": "F",
+      "principe": "P16",
+      "motif": "Autorisation de l'accès à distance : premier alinéa de L3552-15.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : ordonnance d'un juge du siège gardée.",
+      "vers": "L3552-15"
+    },
+    {
+      "code": "cpp",
+      "num": "L3552-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réquisitions et protections des professions : L3552-15, renvois recalés sur les 1° à 4° de L3552-9.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : protections des avocats, magistrats, parlementaires et journalistes gardées par renvoi précis.",
+      "vers": "L3552-15"
+    },
+    {
+      "code": "cpp",
+      "num": "L3553-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procédures ouvrant la géolocalisation : 1° à 5° de L3553-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : seuil de trois ans et procédures de recherche gardés.",
+      "vers": "L3553-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3553-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorisation pour un lieu d'habitation : premier alinéa de L3553-7.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : juge des libertés en enquête et hors heures légales gardé.",
+      "vers": "L3553-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3553-9",
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Réquisition des services listés par décret : deuxième alinéa de L3553-7.",
+      "ligne_rouge": "Aucune ligne rouge : strate gardée.",
+      "vers": "L3553-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3553-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pose en urgence : dernier alinéa de L3553-7.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : information immédiate, accord préalable pour un lieu d'habitation, autorisation écrite sous vingt-quatre heures gardés.",
+      "vers": "L3553-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3553-13",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Appareils soustraits à l'activation à distance : dernier alinéa de L3553-12.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : interdiction gardée à peine de nullité.",
+      "vers": "L3553-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L3554-2",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Autorités et durées : L3554-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : durées bornées gardées.",
+      "vers": "L3554-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3554-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contenu et forme de la décision : L3554-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : lieux et durée dans la décision gardés.",
+      "vers": "L3554-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3554-4",
+      "decision": "F",
+      "principe": "P4",
+      "motif": "Mise en place par l'officier : dernier alinéa de L3554-1.",
+      "ligne_rouge": "Aucune ligne rouge : répartition des offices gardée.",
+      "vers": "L3554-1"
     },
     {
       "code": "cpp",
       "num": "L3555-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Champ réservé à la criminalité organisée, aux crimes contre l'humanité, aux délits économiques et environnementaux graves : proportion tenue.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : champ réservé aux infractions graves, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Infractions ouvrant la sonorisation : premier alinéa de L3555-1, par renvoi à la liste identique de L3552-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : liste fermée gardée.",
+      "vers": "L3555-1"
     },
     {
       "code": "cpp",
       "num": "L3555-3",
-      "decision": "S",
+      "decision": "F",
       "principe": "P15",
-      "motif": "L'avis préalable du procureur de la République sur l'autorisation du juge d'instruction ne protège aucune liberté : il tombe, et avec lui la dérogation d'urgence qui n'existait que pour s'en passer (P15). Durées et autorisation par un juge du siège tenues.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : autorisation par un juge du siège et durées bornées gardées",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "par le juge d'instruction, après avis du procureur de la République, pour une durée de quatre mois",
-          "nouveau": "par le juge d'instruction, pour une durée de quatre mois"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "En cas d'urgence résultant d'un risque imminent de dépérissement des preuves ou d'atteinte grave aux personnes ou aux biens, l'autorisation du juge d'instruction mentionnée au 2° peut être délivrée sans avis préalable du procureur de la République. Elle comporte alors l'énoncé des circonstances de fait établissant l'existence du risque imminent.",
-          "nouveau": ""
-        }
-      ]
+      "motif": "Autorisation et durées : 1° et 2° de L3555-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : juge du siège et durées gardés.",
+      "vers": "L3555-1"
     },
     {
       "code": "cpp",
       "num": "L3555-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "La décision identifie les lieux, l'infraction et la durée : contenu minimal du contrôle.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : décision précise, tenue"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contenu de la décision : dernier alinéa de L3555-1.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : lieux, infraction et durée gardés.",
+      "vers": "L3555-1"
     },
     {
       "code": "cpp",
       "num": "L3555-5",
       "decision": "F",
       "principe": "P3",
-      "motif": "Information du juge des libertés et destruction des actes irréguliers : repris mot pour mot au dernier alinéa de L3551-2, pour les chapitres 5 et 6. Le renvoi de L3555-18 suit.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : garantie gardée à L3551-2",
-      "vers": "L3551-2"
+      "motif": "Information du juge des libertés et destruction des actes irréguliers : troisième alinéa de L3551-1 (passe 2). Renvoi de L3555-18 recalé.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : contrôle du juge des libertés et pouvoir de destruction gardés mot pour mot.",
+      "vers": "L3551-1"
     },
     {
       "code": "cpp",
       "num": "L3555-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Détention par les enquêteurs des appareils de l'article 226-3 du code pénal : exonération nécessaire à la mesure.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3555-7",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Mise en place par l'officier de police judiciaire, réquisition de services listés par décret : strate juste.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Détention des appareils de l'article 226-3 du code pénal : dernier alinéa de L3555-7.",
+      "ligne_rouge": "Aucune ligne rouge : exonération gardée.",
+      "vers": "L3555-7"
     },
     {
       "code": "cpp",
       "num": "L3555-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Introduction dans un véhicule ou un lieu privé pour poser le dispositif, autorisée par le juge des libertés ou le juge d'instruction, juge des libertés pour un domicile hors heures légales : tenu.",
-      "ligne_rouge": "inviolabilité du domicile (art. 2 DDHC) examinée : domicile hors heures légales sur autorisation du juge des libertés, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Introduction dans un véhicule ou un lieu privé : deuxième alinéa de L3555-7.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : autorisation d'un juge et juge des libertés pour un lieu d'habitation de nuit gardés.",
+      "vers": "L3555-7"
     },
     {
       "code": "cpp",
       "num": "L3555-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Lieux soustraits à la sonorisation (avocats, presse, médecins, notaires, juridictions, parlementaires) : secrets professionnels protégés.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : secret de la défense et secrets professionnels protégés, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Lieux soustraits à la sonorisation : troisième alinéa de L3555-7, par renvoi aux numéros de L3553-12.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : mêmes lieux protégés gardés par renvoi précis.",
+      "vers": "L3555-7"
     },
     {
       "code": "cpp",
-      "num": "L3556-1",
-      "decision": "G",
+      "num": "L3555-11",
+      "decision": "F",
+      "principe": "P15",
+      "motif": "Autorisation de l'activation à distance d'un appareil fixe : dernier alinéa de L3555-10.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : juge du siège ou juge d'instruction gardé.",
+      "vers": "L3555-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L3555-13",
+      "decision": "F",
       "principe": "P21",
-      "motif": "Champ des techniques du chapitre réservé aux infractions graves : proportion tenue.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : champ réservé aux infractions graves, tenu"
+      "motif": "Subsidiarité de l'appareil mobile : premier alinéa de L3555-12.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : subsidiarité gardée.",
+      "vers": "L3555-12"
     },
     {
       "code": "cpp",
-      "num": "L3556-10",
-      "decision": "G",
+      "num": "L3555-14",
+      "decision": "F",
+      "principe": "P15",
+      "motif": "Durées de l'activation d'un appareil mobile : second alinéa de L3555-12.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : quinze jours et deux mois renouvelables gardés.",
+      "vers": "L3555-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L3555-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contenu et motivation de la décision : second alinéa de L3555-12.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : motivation sur l'impossibilité du dispositif fixe gardée.",
+      "vers": "L3555-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L3555-17",
+      "decision": "F",
       "principe": "P25",
-      "motif": "La décision précise l'infraction, la durée et les systèmes visés, à peine de nullité : nullité attachée au contenu même du contrôle. La proposition de réécrire le régime de nullité est écartée.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : décision précise exigée, tenu ; art. 16 DDHC, droits de la défense examiné : nullité ciblée, tenue ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
+      "motif": "Données non transcriptibles : 1° à 3° de L3555-16, renvois recalés sur L3552-9 et L3553-12.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : interdiction de transcrire gardée à peine de nullité.",
+      "vers": "L3555-16"
     },
     {
       "code": "cpp",
-      "num": "L3556-11",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Installation à distance du dispositif sur autorisation du juge des libertés ou du juge d'instruction : juge du siège, tenu.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : autorisation d'un juge du siège, tenue"
+      "num": "L3555-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Destruction des données non transcriptibles et des captations irrégulières : dernier alinéa de L3555-16.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : destruction gardée.",
+      "vers": "L3555-16"
     },
     {
       "code": "cpp",
       "num": "L3556-2",
-      "decision": "S",
+      "decision": "F",
       "principe": "P15",
-      "motif": "L'avis préalable du procureur de la République sur l'autorisation du juge d'instruction ne protège aucune liberté : il tombe, et avec lui la dérogation d'urgence qui n'existait que pour s'en passer (P15). Durées et juge du siège tenus.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : autorisation par un juge du siège et durées bornées gardées",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "par le juge d'instruction, après avis du procureur de la République, pour une durée initiale maximale de quatre mois",
-          "nouveau": "par le juge d'instruction, pour une durée initiale maximale de quatre mois"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "En cas d'urgence résultant d'un risque imminent de dépérissement des preuves ou d'atteinte grave aux personnes ou aux biens, l'autorisation du juge d'instruction mentionnée au 2° peut être délivrée sans avis préalable du procureur de la République. Elle comporte alors l'énoncé des circonstances de fait établissant l'existence du risque imminent.",
-          "nouveau": ""
-        }
-      ]
+      "motif": "Autorisation et durées des techniques du chapitre : L3556-1, par renvoi aux 1° et 2° de L3555-1, identiques.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : juge du siège et durées gardés.",
+      "vers": "L3556-1"
     },
     {
       "code": "cpp",
       "num": "L3556-3",
       "decision": "F",
       "principe": "P3",
-      "motif": "Texte identique à L3555-5 : repris mot pour mot au dernier alinéa de L3551-2, pour les chapitres 5 et 6.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : garantie gardée à L3551-2",
-      "vers": "L3551-2"
-    },
-    {
-      "code": "cpp",
-      "num": "L3556-4",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Mise en place par l'officier de police judiciaire, réquisition de services listés par décret : strate juste.",
-      "ligne_rouge": "aucune"
+      "motif": "Texte identique à L3555-5 : troisième alinéa de L3551-1 (passe 2).",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : contrôle du juge des libertés gardé mot pour mot.",
+      "vers": "L3551-1"
     },
     {
       "code": "cpp",
       "num": "L3556-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Introduction dans un lieu privé ou un véhicule pour poser le dispositif, juge des libertés pour un domicile hors heures légales : tenu.",
-      "ligne_rouge": "inviolabilité du domicile (art. 2 DDHC) examinée : domicile hors heures légales sur autorisation du juge des libertés, tenu"
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Introduction dans un lieu ou un véhicule : L3556-4, par renvoi au deuxième alinéa de L3555-7, véhicule réservé à la captation de données.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : même régime d'autorisation gardé par renvoi précis.",
+      "vers": "L3556-4"
     },
     {
       "code": "cpp",
       "num": "L3556-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Lieux soustraits aux techniques des sections 2 et 3 : secrets professionnels protégés.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : secret de la défense et secrets professionnels protégés, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3556-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Recueil des données de connexion et de localisation par un appareil de l'article 226-3 du code pénal : technique nommée, bornée par la section 1.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : mesure encadrée par la loi et un juge du siège, tenue"
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Lieux soustraits : L3556-4, par renvoi aux numéros de L3553-12.",
+      "ligne_rouge": "Secret professionnel, droits de la défense et liberté de la presse examinés : mêmes lieux protégés gardés.",
+      "vers": "L3556-4"
     },
     {
       "code": "cpp",
       "num": "L3556-8",
-      "decision": "G",
+      "decision": "F",
       "principe": "P25",
-      "motif": "Interception de correspondances par ce même appareil, régime des interceptions, quarante-huit heures renouvelables une fois : la durée la plus courte du titre.",
-      "ligne_rouge": "art. 66 C sans objet (aucune privation de liberté) ; art. 2 DDHC, vie privée examiné : durée de quarante-huit heures, régime des interceptions, tenu"
+      "motif": "Interception par un appareil de l'article 226-3 : second alinéa de L3556-7.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : régime des interceptions, personne visée seule, quarante-huit heures renouvelables une fois : gardés.",
+      "vers": "L3556-7"
     },
     {
       "code": "cpp",
-      "num": "L3556-9",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Captation de données informatiques : technique nommée, bornée par la section 1. Faute d'accord corrigée (« des intéressé »).",
-      "ligne_rouge": "art. 2 DDHC, vie privée examiné : mesure encadrée par la loi et un juge du siège, tenue",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "sans le consentement des intéressé, telles",
-          "nouveau": "sans le consentement des intéressés, telles"
-        }
-      ]
+      "num": "L3556-10",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Contenu de la décision de captation : deuxième alinéa de L3556-9.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : infraction et durée à peine de nullité, systèmes visés : gardés.",
+      "vers": "L3556-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L3556-11",
+      "decision": "F",
+      "principe": "P16",
+      "motif": "Installation à distance : dernier alinéa de L3556-9.",
+      "ligne_rouge": "Vie privée et secret des correspondances (art. 2 DDHC, CEDH art. 8) examinés : autorisation d'un juge du siège ou du juge d'instruction gardée.",
+      "vers": "L3556-9"
     }
-  ]
+  ],
+  "passe": 3
 }
