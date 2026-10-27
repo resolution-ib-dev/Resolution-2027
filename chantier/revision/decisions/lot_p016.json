@@ -10,196 +10,223 @@
     {
       "code": "cpp",
       "num": "L5411-1",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Recouvrement des amendes par le comptable public au nom du procureur : répartition des offices tenue.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5411-2",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "La première phrase est déclarative : la priorité donnée au paiement sur l'incarcération est portée par L5412-1 (inexécution volontaire seulement), L5412-3 (insolvable exclu) et L5412-10 (le paiement prévient ou fait cesser la contrainte), la survie de la dette par L5412-9. Reste la règle : le défaut de paiement ouvre la contrainte judiciaire.",
-      "ligne_rouge": "art. 66 C examiné : la contrainte reste prononcée par le juge (L5412-1, L5412-7), l'insolvable en est exclu (L5412-3)",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Le défaut total ou partiel du paiement de l'amende peut entraîner l'incarcération du condamné selon la procédure de contrainte judiciaire prévue par le chapitre 2 du présent titre."
-        }
-      ]
+      "motif": "Gardé : répartition des offices.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L5411-3",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Diminution de 20 %, plafonnée à 1 500 euros, pour un paiement dans le mois : la réduction rémunère un effort après l'acte, elle est plafonnée et connue au prononcé. Conforme au principe.",
-      "ligne_rouge": "art. 8 DDHC examiné : diminution bornée en pourcentage et en montant, ouverte à tous les condamnés à l'amende"
-    },
-    {
-      "code": "cpp",
-      "num": "L5411-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Restitution des sommes versées en cas de recours : le paiement rapide ne prive pas du droit au recours.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5411-5",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "La diminution vaut pour le paiement échelonné autorisé par le Trésor et tenu dans les délais fixés : même effort, même règle.",
-      "ligne_rouge": "art. 8 DDHC examiné : la diminution reste bornée par L5411-3 et suppose le respect des échéances"
-    },
-    {
-      "code": "cpp",
-      "num": "L5411-6",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État pour la section : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "motif": "La diminution pour paiement rapide en un article : délai d'un mois, échelonnement (L5411-5), restitution en cas de recours (L5411-4). Le renvoi au décret (L5411-6) tombe : le pouvoir réglementaire prend ces modalités de lui-même (art. 37 C). Renvoi de L4223-18 à coordonner vers L5411-3.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la diminution rémunère un effort, plafonnée et connue au prononcé. Le droit au recours reste entier.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière délictuelle ou contraventionnelle, la personne condamnée qui paie l'amende et le droit fixe de procédure dû en application de l'article 1018 A du code général des impôts dans le mois du prononcé du jugement, ou selon l'échelonnement accordé par les services du Trésor public, bénéficie d'une diminution de 20 % de ces montants, dans la limite de 1 500 euros. La règle vaut pour le seul droit fixe de procédure en l'absence d'amende.\nSi une voie de recours est exercée contre les dispositions pénales de la décision, les sommes versées sont restituées à la demande de l'intéressé."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5412-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Contrainte judiciaire ordonnée par le juge de l'application des peines, réservée aux amendes criminelles et aux délits punis d'emprisonnement, durée bornée par L5412-2 : l'amende prononcée s'exécute.",
-      "ligne_rouge": "art. 66 C examiné : l'incarcération est ordonnée par un juge, pour une inexécution volontaire seulement"
+      "principe": "P23",
+      "motif": "Conditions et exclusions de la contrainte (L5412-3 et L5412-4) en un article. L'exclusion des personnes de soixante-cinq ans est rétablie (relecture adverse) : la passe 2 en avait réservé le retrait à l'auteur, aucune décision ne l'inscrit.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : contrainte réservée à l'inexécution volontaire, insolvable exclu, durée bornée par la loi.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La contrainte judiciaire peut être ordonnée par le juge de l'application des peines en cas d'inexécution volontaire, par une personne majeure, d'une ou plusieurs condamnations à l'amende, même fiscale ou douanière, prononcées en matière criminelle ou pour un délit puni d'emprisonnement. Elle consiste en un emprisonnement dont la durée maximale est fixée par l'article L. 5412-2 selon le montant de l'amende ou des amendes cumulées.\nElle ne peut être prononcée contre la personne âgée d'au moins soixante-cinq ans au moment de la condamnation, ni contre le condamné qui justifie par tout moyen de son insolvabilité. Elle ne peut être exercée simultanément contre des personnes mariées, même pour des amendes résultant de condamnations différentes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5412-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Durées maximales graduées selon le montant, un an pour le trafic de stupéfiants au-delà de 100 000 euros : contrainte proportionnée.",
-      "ligne_rouge": "art. 8 DDHC examiné : durées bornées et graduées selon le montant"
-    },
-    {
-      "code": "cpp",
-      "num": "L5412-3",
-      "decision": "R",
-      "principe": "P21",
-      "motif": "L'exclusion du condamné de soixante-cinq ans ne protège aucun droit que l'exclusion de l'insolvable ne protège déjà : elle laisse le condamné solvable se soustraire à l'amende par son âge. Seule l'insolvabilité exclut la contrainte. Liste réduite à une phrase sans point-virgule. [arbitrage : exclusion à 65 ans, garantie humanitaire à valider par l'auteur]",
-      "ligne_rouge": "Art. 66 C examiné : la contrainte est ordonnée par le juge de l'application des peines, par jugement contradictoire, pour une inexécution volontaire seulement (L5412-1, L5412-7), et ne frappe jamais l'insolvable. CEDH art. 3 examiné : le juge fixe la durée dans la limite de L5412-2 et peut accorder des délais de paiement, il tient compte de l'état de santé du condamné âgé, et l'âge seul ne rend pas la détention inhumaine. Minorité examinée : la contrainte ne vise que la personne majeure (L5412-1).",
+      "principe": "P23",
+      "motif": "Barème gardé, énumération close par des points.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : durées gardées à l'identique.",
+      "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La contrainte judiciaire ne peut pas être prononcée contre le condamné qui, par tout moyen, justifie de son insolvabilité."
+          "nouveau": "Le maximum de la durée de la contrainte judiciaire est fixé :\n1° A vingt jours lorsque l'amende est au moins égale à 2 000 euros sans excéder 4 000 euros.\n2° A un mois lorsque l'amende est supérieure à 4 000 euros sans excéder 8 000 euros.\n3° A deux mois lorsque l'amende est supérieure à 8 000 euros sans excéder 15 000 euros.\n4° A trois mois lorsque l'amende est supérieure à 15 000 euros, sauf dans les cas prévus au 5°.\n5° A un an lorsque l'amende et les condamnations pécuniaires prononcées pour une infraction en matière de trafic de stupéfiants prévue par les articles 222-34 à 222-40 du code pénal, pour le délit de participation à une association de malfaiteurs prévu par l'article 450-1 du même code lorsqu'il a pour objet de préparer l'une de ces infractions ainsi que pour les infractions douanières connexes sont supérieures à 100 000 euros."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5412-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pas de contrainte simultanée contre deux époux : protège le foyer et les enfants à charge, la contrainte reste exercée successivement.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L5412-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Commandement de payer signifié, délai de cinq jours avant la contrainte : garantie du débiteur, courte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5412-6",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Réquisitions du procureur, à la demande du Trésor, dans l'année du commandement : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5412-7",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Jugement du juge de l'application des peines après débat contradictoire, mandats, délais de paiement de six mois au plus, exécution provisoire, appel : décision juridictionnelle, rapide.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "La procédure de la contrainte en un article : commandement, mise en demeure pour les jours-amende (L5413-3), réquisitions dans l'année (L5412-6), jugement, délais de paiement et appel (L5412-7). Le jugement suit L5131-3. La lettre recommandée suit L1632-5 (registre 9.24).",
+      "ligne_rouge": "art. 16 DDHC : commandement préalable, délai de cinq jours, jugement contradictoire, délais de paiement et appel gardés. Le délai d'un an imposé au procureur reste écrit.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La contrainte judiciaire ne peut être exercée que cinq jours après un commandement de payer signifié au condamné par un commissaire de justice à la requête de la partie poursuivante. Si le jugement de condamnation n'a pas été signifié, le commandement en reproduit un extrait contenant le nom des parties et le dispositif. Pour les jours-amende, une mise en demeure de payer adressée par lettre recommandée avec demande d'avis de réception vaut commandement.\nAu vu du commandement signifié, le procureur de la République, à la demande du Trésor, peut requérir du juge de l'application des peines, dans l'année de la signification, qu'il prononce la contrainte.\nLe juge statue par jugement. Il peut délivrer les mandats prévus aux articles L. 5124-1 et L. 5124-3 et, si la situation personnelle du condamné le justifie, accorder des délais de paiement en ajournant sa décision de six mois au plus. Sa décision est exécutoire par provision. Elle est susceptible d'appel dans les conditions prévues aux articles L. 5132-1 et L. 5132-3."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5412-8",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Exécution en établissement pénitentiaire et régime des condamnés : renvoi tenu. Ponctuation manquante dans la base corrigée. L'article L216-1 du code pénitentiaire cite encore l'ancien 749 : renvoi à l'ancien 749 à coordonner.",
+      "motif": "Texte de la passe 2 (ponctuation corrigée). Renvoi de L216-1 du code pénitentiaire à l'ancien 749 à coordonner.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "du code pénitentiaire",
-          "nouveau": "du code pénitentiaire."
+          "op": "rediger",
+          "nouveau": "La contrainte judiciaire est exécutée conformément à l'article L. 216-1 du code pénitentiaire. Le débiteur détenu est soumis au même régime que les condamnés."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5412-9",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "La contrainte subie ne libère pas de la dette : l'amende prononcée reste due.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L5412-10",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Paiement, consignation ou caution pour prévenir ou faire cesser la contrainte, nouvelle contrainte pour le reliquat : le but est le paiement, la règle sert.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5412-11",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Une contrainte éteinte ne se répète pas pour la même dette, la première incarcération s'impute : règle d'équité courte.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Extinction et répétition de la contrainte en un article : paiement ou caution, dette qui survit (L5412-9), contrainte qui ne se répète pas pour la même dette (L5412-11). Renvoi de L6232-5 à coordonner vers L5412-10.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le condamné peut prévenir ou faire cesser les effets de la contrainte en payant ou en consignant une somme suffisante pour éteindre sa dette, ou en fournissant une caution admise par le comptable public. En cas de contestation, le président du tribunal judiciaire statue en référé.\nLa contrainte subie ne libère pas le condamné de sa dette. A défaut de paiement intégral, elle peut être requise à nouveau pour les sommes restant dues. Une contrainte qui a pris fin ne peut être exercée à nouveau ni pour la même dette ni pour des condamnations antérieures à son exécution, sauf si leur montant entraîne une contrainte plus longue, dont la première incarcération est alors déduite."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5413-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Défaut de paiement des jours-amende : emprisonnement décidé comme en matière de contrainte judiciaire. La dérogation au 1° de L5412-3 devient sans objet avec la suppression de l'exclusion d'âge (L5412-3 réécrit).",
-      "ligne_rouge": "art. 66 C examiné : l'emprisonnement se décide par le juge, comme la contrainte judiciaire, l'insolvable restant exclu (L5412-3)",
+      "principe": "P23",
+      "motif": "Renvois écrits sur le chapitre réécrit (exclusions hors la condition d'âge, comme en 2029, procédure, exécution) et paiement libératoire (L5413-4) en un article.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : l'emprisonnement suit le nombre de jours-amende impayés fixé au prononcé (131-25 du code pénal), le paiement intégral y met fin.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "L'exclusion prévue par le 1° de l'article L. 5412-3 n'est cependant pas applicable.",
-          "nouveau": ""
+          "op": "rediger",
+          "nouveau": "En cas de défaut de paiement des jours-amende, le juge de l'application des peines décide la mise à exécution de l'emprisonnement encouru comme en matière de contrainte judiciaire, selon le second alinéa de l'article L. 5412-1, hors la condition d'âge, et les articles L. 5412-5 et L. 5412-8. Le condamné peut prévenir cette mise à exécution ou en faire cesser les effets en payant l'intégralité de l'amende."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5411-2",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "La phrase déclarative avait été retirée par la passe 2. Le reste annonçait la contrainte judiciaire, que L5412-1 pose : la règle y vit.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la priorité du paiement reste portée par L5412-1 (inexécution volontaire), l'insolvabilité exclue et le paiement qui fait cesser la contrainte (L5412-10)."
+    },
+    {
+      "code": "cpp",
+      "num": "L5411-4",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Restitution des sommes en cas de recours, reprise au deuxième alinéa de L5411-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L5411-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5411-5",
+      "decision": "F",
+      "principe": "P10",
+      "motif": "Paiement échelonné, repris au premier alinéa de L5411-3.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : même effort, même diminution, gardée à L5411-3.",
+      "vers": "L5411-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5411-6",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Renvoi au décret en Conseil d'État pour la section, réduite à L5411-3 : les modalités du paiement relèvent du règlement par nature (art. 37 C).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L5412-3",
+      "decision": "F",
+      "principe": "P21",
+      "motif": "Exclusions de l'âge et de l'insolvabilité, reprises au second alinéa de L5412-1 (l'âge rétabli, arbitrage réservé à l'auteur). Renvoi de L5413-1 réécrit.",
+      "ligne_rouge": "aucune",
+      "vers": "L5412-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5412-4",
+      "decision": "F",
+      "principe": "P21",
+      "motif": "Exclusion de la contrainte simultanée des époux, reprise au second alinéa de L5412-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L5412-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5412-6",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Réquisitions du procureur dans l'année du commandement, reprises au deuxième alinéa de L5412-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L5412-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L5412-7",
+      "decision": "F",
+      "principe": "P4",
+      "motif": "Jugement, mandats, délais de paiement, exécution provisoire et appel, repris au dernier alinéa de L5412-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L5412-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L5412-9",
+      "decision": "F",
+      "principe": "P10",
+      "motif": "La contrainte subie ne libère pas de la dette : règle reprise à L5412-10, avec le paiement et la répétition de la contrainte.",
+      "ligne_rouge": "aucune",
+      "vers": "L5412-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L5412-11",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Interdiction de répéter la contrainte pour la même dette, imputation de la première incarcération, reprises au second alinéa de L5412-10.",
+      "ligne_rouge": "aucune",
+      "vers": "L5412-10"
     },
     {
       "code": "cpp",
       "num": "L5413-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : il recopie le deuxième alinéa de l'article 131-25 du code pénal (incarcération pour le nombre de jours-amende impayés), auquel il renvoie. La règle vit à sa source.",
-      "ligne_rouge": "art. 8 DDHC examiné : la durée reste fixée par l'article 131-25 du code pénal, rien n'est perdu"
+      "motif": "Miroir du deuxième alinéa de l'article 131-25 du code pénal (passe 2) : la règle vit à sa source.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la durée de l'incarcération reste fixée par l'article 131-25 du code pénal."
     },
     {
       "code": "cpp",
       "num": "L5413-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Pour les jours-amende, la mise en demeure par lettre recommandée vaut commandement : le régime le plus simple, sans commissaire de justice.",
-      "ligne_rouge": "aucune"
+      "motif": "Mise en demeure valant commandement pour les jours-amende, reprise au premier alinéa de L5412-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L5412-5"
     },
     {
       "code": "cpp",
       "num": "L5413-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P10",
-      "motif": "Le paiement intégral prévient ou fait cesser l'emprisonnement : l'amende prononcée s'exécute.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'emprisonnement cesse dès que la peine pécuniaire est exécutée"
+      "motif": "Paiement libératoire, repris à L5413-1.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : le paiement intégral prévient ou fait cesser l'emprisonnement, gardé.",
+      "vers": "L5413-1"
     }
-  ]
+  ],
+  "passe": 3
 }
