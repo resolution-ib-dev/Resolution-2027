@@ -10,18 +10,31 @@
     {
       "code": "cpp",
       "num": "R51",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Information du propriétaire ou du bailleur des poursuites pour proxénétisme, par lettre recommandée puis par les services : la passe 1 proposait de dématérialiser. Le destinataire est un tiers dont l'adresse électronique n'est pas connue et la preuve de l'information conditionne ses suites : gardé. Renvoi à l'ancien 706-37 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Information du propriétaire ou du bailleur des poursuites pour proxénétisme : envoi selon la formule unique du registre 5.4 (clause générale de L. 1632-5), remise par la police ou la gendarmerie si le destinataire est inconnu, preuve jointe à la procédure. L'ancien 706-37 n'a pas de siège dans le code de 2029 : la mesure est nommée au lieu du numéro, défaut à porter à la note de coordination 8.2.",
+      "ligne_rouge": "Aucune : information d'un tiers, sa preuve est gardée au dossier.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'information due par la loi au propriétaire ou au bailleur sur les poursuites pour proxénétisme lui est adressée par tout moyen permettant d'en établir la date de réception. Si le destinataire est inconnu à l'adresse, la police ou la gendarmerie la lui notifie. La preuve de l'envoi ou le procès-verbal est joint à la procédure. Cette information n'est pas donnée aux personnes poursuivies."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R51-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Mention des poursuites au registre du commerce, radiation en cas de non-lieu ou de relaxe : publicité qui protège les tiers, effacée pour l'innocent.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Mention des poursuites au registre du commerce et des sociétés et radiation après non-lieu ou relaxe : gardées, phrases resserrées, mêmes formalités écrites une fois pour l'inscription, la décision définitive et la radiation. Le double exemplaire de la réquisition, simple forme de l'accusé de formalité, cède à la certification par le greffier.",
+      "ligne_rouge": "Présomption d'innocence examinée : radiation des mentions en cas de non-lieu ou de relaxe gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dès l'engagement des poursuites contre un établissement dont le propriétaire ou l'exploitant est inscrit au registre du commerce et des sociétés, le ministère public requiert le greffier du tribunal de commerce du lieu de l'établissement d'y mentionner les poursuites. La réquisition indique l'identité de l'exploitant, celle de la personne poursuivie si elle diffère, la nature, le fondement et la date des poursuites, l'activité, l'adresse, le nom commercial et l'enseigne de l'établissement.\nLe greffier porte aussitôt les mentions au registre et, le cas échéant, aux registres des privilèges et sûretés, annexe la réquisition au registre et certifie au ministère public les formalités et leur date, avec un extrait actualisé du registre et, le cas échéant, un relevé des sûretés inscrites.\nIl est procédé de même à la décision définitive. En cas de non-lieu ou de relaxe, le ministère public requiert dans les mêmes formes la radiation des mentions."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
