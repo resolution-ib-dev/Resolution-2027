@@ -10,25 +10,26 @@
     {
       "code": "cpp",
       "num": "D47-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Le renvoi à D. 47-2 (tribunaux économiques) est mort. Sa lecture en D. 47-9 n'est pas vérifiée à la source et sans objet, D. 47-9 ne touchant pas aux contenus conservés. La réserve morte tombe, aucune règle n'est perdue.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Contenus pédopornographiques acquis sous pseudonyme dans un article : conservation trois mois, confidentialité, copie au Centre national, destruction, et seuls contenus transmissibles (ancien D47-9). La réserve morte de D. 47-2 tombe (passe 2). Ancien 230-46 lu sur la pièce de passe 3 (L3562-1, lot p186).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sous réserve des dispositions de l'article D. 47-2 et de la possibilité de transmission",
-          "nouveau": "sous réserve de la possibilité de transmission"
+          "op": "rediger",
+          "nouveau": "Les officiers ou agents de police judiciaire habilités selon l'article L. 3562-1 peuvent conserver trois mois les contenus illicites qu'ils ont acquis ou extraits, outre leur conservation comme preuves sous scellés ou en annexe aux procès-verbaux. Leur conservation garantit leur intégrité et leur confidentialité et les rend inaccessibles, y compris par voie électronique, à tout tiers autre que ces enquêteurs et ceux du même service ou de la même unité qui participent aux investigations, sauf transmission à d'autres enquêteurs pour les nécessités de leurs procédures. Avant l'expiration du délai, une copie en est transmise au Centre national d'analyse des images de pédopornographie. A son expiration, ils sont détruits, quel que soit leur support.\nSur demande expresse dont la trace écrite est conservée dans la procédure, ces enquêteurs ne peuvent transmettre que des contenus fournis par ce centre qui ne permettent pas d'identifier des personnes physiques."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D47-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Seuls des contenus fournis par le centre national et sans identification de personnes peuvent être transmis, sur demande tracée : protège les victimes. Renvoi à l'ancien 230-46 (L3562-1) à coordonner.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Seuls contenus transmissibles : second alinéa de D47-8.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-8"
     }
-  ]
+  ],
+  "passe": 3
 }
