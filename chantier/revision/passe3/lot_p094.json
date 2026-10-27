@@ -1,0 +1,81 @@
+{
+  "lot": "lot_p094",
+  "titre": "Livre V, titre IV : mesures de surveillance des personnes libérées",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L544-1",
+      "texte": "Le dispositif de surveillance électronique mobile ordonné à titre de mesure de sûreté est installé sur la personne condamnée dans le délai prévu à l'article L. 5332-7 du code de procédure pénale.",
+      "verbe": "S",
+      "principe": "P13",
+      "motif": "Délai de pose du dispositif : renvoi corrigé en passe 2 vers L. 5332-7 du code de procédure pénale, phrase courte.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L544-2",
+      "texte": "Le contrôle à distance de la localisation du condamné fait l'objet d'un traitement automatisé de données à caractère personnel. Les officiers de police judiciaire spécialement habilités peuvent en consulter les données pour les recherches relatives à une procédure concernant un crime ou un délit.",
+      "verbe": "S",
+      "principe": "P20",
+      "motif": "Traitement de localisation et consultation par les officiers de police judiciaire habilités : gardés. Le rappel de la loi n° 78-17, qui s'applique d'elle-même, tombe.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : consultation réservée aux officiers spécialement habilités, pour un crime ou un délit."
+    },
+    {
+      "num": "L544-3",
+      "texte": "Un décret en Conseil d'État fixe les conditions d'habilitation des personnes de droit privé chargées des prestations techniques détachables des fonctions de souveraineté, dont la conception et la maintenance du dispositif et du traitement prévus aux articles L. 544-1 et L. 544-2. Ses dispositions relatives au traitement, dont la durée de conservation des données, sont prises après avis de la Commission nationale de l'informatique et des libertés.",
+      "verbe": "S",
+      "principe": "P15",
+      "motif": "Habilitation des prestataires et avis de la Commission nationale de l'informatique et des libertés sur la conservation des données : gardés, une phrase.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : l'avis de la Commission sur la durée de conservation est gardé (registre 5.1)."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L543-1",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Article miroir : l'article L. 5261-11 du code de procédure pénale (le juge de l'application des peines assisté du service pour la surveillance judiciaire), qu'il cite, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois. Coquille « judifciaire » sans objet.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L545-1",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Article miroir : l'article L. 6422-8 du code de procédure pénale (juge de l'application des peines de Paris assisté du service) et l'article L. 6422-5 (informations dues au service) portent la même règle, vérifiée mot à mot, sans perte. L'article renvoie à tort à L. 6422-7 (durée d'un an) : renvoi mort, qui tombe avec lui.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L543-1#1": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "L544-1#1": {
+      "destin": "reprise",
+      "vers": "L544-1"
+    },
+    "L544-2#1": {
+      "destin": "reprise",
+      "vers": "L544-2"
+    },
+    "L544-2#2": {
+      "destin": "reprise",
+      "vers": "L544-2"
+    },
+    "L544-3#1": {
+      "destin": "reprise",
+      "vers": "L544-3"
+    },
+    "L544-3#2": {
+      "destin": "reprise",
+      "vers": "L544-3"
+    },
+    "L545-1#1": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "L545-1#2": {
+      "destin": "abrogee",
+      "principe": "P20"
+    }
+  }
+}
