@@ -10,80 +10,110 @@
     {
       "code": "penitentiaire",
       "num": "R240-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Création de GENESIS et ses cinq finalités, de l'exécution des décisions à la sécurité des victimes : outil nécessaire de l'exécution des peines. Siège du traitement, que R57-9-18 du code de procédure pénale (abrogé au lot p025) renvoyait ici.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement autorisé par décret, finalités fermées, données, accès, durées et droits encadrés ; art. 8 DDHC examiné : l'aide à la décision ne fixe pas la peine, le juge décide"
+      "principe": "P23",
+      "motif": "Création de GENESIS et ses cinq finalités : gardées, rédaction resserrée. Cité par les tableaux d'outre-mer.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'aide à la décision sert le juge, qui individualise, vie privée (art. 2 DDHC) examinée : finalités fermées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministre de la justice met en œuvre un traitement dénommé « gestion nationale des personnes écrouées pour le suivi individualisé et la sécurité » (GENESIS). Ses finalités sont :\n1° La préparation et l'exécution des décisions judiciaires relatives aux personnes écrouées.\n2° L'aide à la décision judiciaire pour l'application et l'individualisation de la peine et le suivi des mesures de sûreté.\n3° La prise en charge et le suivi des personnes écrouées et l'exécution des décisions administratives qui les concernent.\n4° La gestion de l'accès aux droits et des activités de réinsertion des personnes détenues.\n5° La sécurité des personnes détenues, des personnels, des intervenants, des victimes et des établissements."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R240-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Données enregistrées, par catégorie de personnes, sans reconnaissance faciale : liste fermée. Les données des victimes servent leur indemnisation.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement autorisé par décret, finalités fermées, données, accès, durées et droits encadrés ; art. 66 C examiné : le traitement trace la détention sans en décider ; art. 8 DDHC examiné : données d'exécution, sans effet sur le quantum"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R240-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Données sensibles dans la stricte mesure nécessaire : proportionnalité.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement autorisé par décret, finalités fermées, données, accès, durées et droits encadrés"
+      "principe": "P1",
+      "motif": "Le décret garde les catégories de données, personne par personne, en listes fermées, avec leurs bornes (pas de reconnaissance faciale, données sensibles dans la stricte mesure nécessaire, R240-3 fusionné). Les données de santé et les facteurs d'évaluation restent au décret en entier. Le détail des autres catégories descend à un arrêté publié après avis de la CNIL, sans les étendre.",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : le traitement ne décide d'aucune privation de liberté ni d'aucune peine, vie privée (art. 2 DDHC) examinée : catégories fermées au décret, reconnaissance faciale exclue, données sensibles dans la stricte mesure nécessaire",
+      "decision": "D",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le traitement enregistre :\n1° Pour les personnes écrouées :\na) L'identité, les nationalités, les titres d'identité ou de séjour, la photographie, le signalement, le lieu d'incarcération et les numéros d'écrou.\nb) La filiation, la situation familiale, les coordonnées et les liens déclarés avec la famille et des tiers.\nc) Les langues parlées, la scolarité, la formation, la vie professionnelle et les situations militaire et électorale.\nd) La situation pénale, les dates, durées et lieux de détention et le positionnement déclaré face à l'infraction et à la peine.\ne) Les données de santé utiles à la gestion de la détention ou à la prise en charge, déclarées par la personne ou issues de consignes judiciaires : antécédents d'hospitalisation d'office, en unité pour malades difficiles ou en service médico-psychologique régional, suivi somatique, psychologique ou psychiatrique antérieur, en cours ou nécessaire, régime alimentaire particulier, grève de la faim ou de la soif, prescription d'une douche médicale, automutilations graves, addictions, aptitude au sport ou au travail, problème de santé nécessitant des soins, situation de handicap. L'évaluation de la dangerosité, de la vulnérabilité et du risque suicidaire, à partir des seuls facteurs judiciaires, administratifs et pénitentiaires, des facteurs sanitaires qui précèdent, des facteurs sociaux, familiaux et financiers (rupture affective, éloignement familial, absence ou perte de soutien extérieur, deuil récent d'un proche, perte ou séparation dans l'enfance, rupture de scolarité ou de formation, perte d'emploi ou de logement, placement récent des enfants, maltraitance ou négligence dans l'enfance, abus physique ou sexuel subi, agression ou menace récente), des facteurs de risque suicidaire (antécédents, urgence suicidaire, moyens envisagés, mesures de protection immédiates) et des autres facteurs de vulnérabilité (minorité, protection juridique, profession exposée en détention, violence subie en détention, médiatisation de l'affaire).\nf) Les données de la gestion de la détention : affectation, orientation et transfert, cellule et codétenus, isolement, fouilles, vestiaire, activités, audiences et rendez-vous, requêtes et réponses, correspondants visés par une consigne judiciaire, visites, discipline, commissions pluridisciplinaires uniques, entrées et sorties, répertoire des personnes détenues particulièrement signalées.\ng) Les consignes judiciaires et pénitentiaires et les décisions administratives qui concernent les étrangers.\nh) Les données économiques et financières : compte nominatif, bijoux et valeurs, livrets d'épargne et relevés d'identité bancaire, condamnations pécuniaires, répartition des sommes perçues, activité et rémunération, et le numéro d'inscription au répertoire national d'identification des personnes physiques.\n2° Pour les visiteurs : l'identité, les coordonnées, le lien avec la personne écrouée, la profession et les consignes judiciaires sur les visites.\n3° Pour la personne à prévenir en cas d'incident et celle qui accueille la personne en permission de sortir : l'identité, les coordonnées et le lien avec la personne écrouée.\n4° Pour les intervenants en détention : les nom, prénoms, coordonnées professionnelles et fonction.\n5° Pour les personnels pénitentiaires : les nom, prénoms, matricule, service et fonction.\n6° Pour les victimes : l'identité, les coordonnées, les sommes dues au titre de l'indemnisation et les données bancaires.\n7° Pour les magistrats : les nom, prénoms, fonction et identifiants des procédures.\n8° Pour les avocats : les nom, prénoms, cabinet, barreau et coordonnées professionnelles.\nLa photographie ne fait l'objet d'aucun dispositif de reconnaissance faciale. Les données mentionnées à l'article 6 de la loi n° 78-17 du 6 janvier 1978 n'y figurent que dans la stricte mesure nécessaire aux finalités du traitement. Un arrêté du garde des sceaux, ministre de la justice, publié après avis de la Commission nationale de l'informatique et des libertés, détaille les catégories des a) à d) et g) du 1° et des 2° à 8°, sans les étendre."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R240-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Conservation de deux ans, archivage intermédiaire de huit ans à accès restreint, cinquante ans pour le registre d'écrou : durées bornées et justifiées.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement autorisé par décret, finalités fermées, données, accès, durées et droits encadrés"
+      "principe": "P23",
+      "motif": "Conservation de deux ans, archive intermédiaire de huit ans à accès restreint, cinquante ans pour les registres : gardés, rédaction resserrée.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : durées bornées, archive réservée à des agents habilités pour des motifs fermés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les données sont conservées deux ans à compter de la levée d'écrou consécutive à la libération ou au décès de la personne, puis huit ans en archive intermédiaire.\nL'archive n'est accessible qu'aux agents individuellement désignés et spécialement habilités de la direction générale de l'administration pénitentiaire, des directions interrégionales des services pénitentiaires, des greffes pénitentiaires et des régies des comptes nominatifs, et aux magistrats et greffiers pénaux individuellement désignés et spécialement habilités, pour l'exécution des décisions et des peines, les contentieux, les valeurs des personnes décédées, une réincarcération et les droits à retraite.\nLes données de la fiche pénale, du registre d'écrou et du registre alphabétique y sont conservées cinquante ans à compter de la levée d'écrou, de la libération ou du décès."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R240-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Accès limités par attributions, besoin d'en connaître, désignation et habilitation individuelles : encadrement.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement autorisé par décret, finalités fermées, données, accès, durées et droits encadrés"
+      "principe": "P23",
+      "motif": "Accès au traitement : liste fermée gardée, regroupée par service, sous désignation et habilitation individuelles.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : accès borné aux attributions, au besoin d'en connaître et à l'habilitation individuelle",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent accéder au traitement, dans la limite de leurs attributions et du besoin d'en connaître, s'ils sont individuellement désignés et habilités :\n1° Les personnels de l'administration pénitentiaire, renseignement pénitentiaire compris, et de l'Agence du travail d'intérêt général et de l'insertion professionnelle des personnes placées sous main de justice.\n2° Les magistrats, greffiers, attachés de justice et assistants spécialisés qui exercent des fonctions pénales, pour les procédures dont ils sont saisis.\n3° Les agents de la protection judiciaire de la jeunesse qui suivent des mineurs écroués.\n4° Les inspecteurs de l'inspection générale de la justice, le temps d'une mission de contrôle.\n5° Les agents de l'administration centrale du ministère de la justice chargés du contentieux administratif au secrétariat général, ou de l'entraide pénale internationale, de l'exécution des peines et des grâces à la direction des affaires criminelles et des grâces.\n6° Les prestataires de gestion déléguée, les personnels de santé et les enseignants en établissement."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R240-6",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Destinataires limités par attributions, dont le fonds de garantie pour l'indemnisation des victimes : gardés. Coquille « mise en jour » corrigée.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement autorisé par décret, finalités fermées, données, accès, durées et droits encadrés ; art. 8 DDHC examiné : la communication aux destinataires ne touche pas la peine",
+      "motif": "Destinataires : tous gardés avec leur finalité, regroupés par mission. Coquille « mise en jour » corrigée.",
+      "ligne_rouge": "art. 8 DDHC examiné : la transmission ne touche pas au quantum, vie privée (art. 2 DDHC) examinée : chaque destinataire reçoit les données pour une finalité nommée",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "pour la mise en jour du casier",
-          "nouveau": "pour la mise à jour du casier"
+          "op": "rediger",
+          "nouveau": "Peuvent recevoir les données, dans la limite de leurs attributions et du besoin d'en connaître :\n1° Les avocats et mandataires agréés, dans la procédure des articles R. 313-1 et R. 313-2, et les assesseurs de la commission de discipline.\n2° Les agents des fonds de garantie des victimes, pour l'exécution des décisions sur les intérêts civils.\n3° La famille et les demandeurs d'un permis de visite, pour les visites, les courriers et les virements.\n4° Les représentants légaux d'un mineur détenu, pour l'information sur les permis de visite, le régime de détention et la discipline, et pour son compte nominatif.\n5° Les services d'aide sociale à l'enfance, les mandataires judiciaires à la protection des majeurs et l'autorité militaire, pour les personnes dont ils ont la charge.\n6° Le casier judiciaire national, pour sa mise à jour, les mairies, pour les démarches administratives et le vote, l'Institut national de la statistique et des études économiques et les autres instituts français de statistique, pour la statistique des personnes écrouées inscrites sur les listes électorales et la mise à jour du répertoire électoral, et l'organisme du service national, pour le recensement et la journée défense et citoyenneté.\n7° France Travail, les missions locales, pour les personnes écrouées de moins de vingt-six ans, les organismes de formation, d'insertion, d'hébergement et de placement extérieur et les entreprises de réinsertion, pour l'insertion, la sortie et les aménagements de peine.\n8° Les visiteurs de prison, aumôniers et bénévoles qui concourent au service public pénitentiaire.\n9° Les finances publiques, la Banque de France, la banque retenue par l'administration pénitentiaire et la sécurité sociale, pour les comptes, l'épargne, les créances et les droits sociaux.\n10° Le service national des enquêtes administratives de sécurité, pour le recrutement des personnels et intervenants.\n11° La police, la gendarmerie et les douanes, pour les signalements, les enquêtes, les commissions rogatoires et les antécédents judiciaires de personnes interpellées, le recouvrement douanier, le renfort des escortes, les permissions de sortir, les étrangers éloignés à la levée d'écrou et la résidence des condamnés à trois ans d'emprisonnement au moins.\n12° Les préfectures et la direction générale des étrangers en France, pour la garde, les escortes, les permissions et l'éloignement des étrangers, et le parquet du ressort, pour communiquer, selon les conventions internationales, les informations relatives aux personnes écrouées de nationalité étrangère."
         }
       ]
     },
     {
       "code": "penitentiaire",
       "num": "R240-7",
+      "principe": "P23",
+      "motif": "Information, droit d'opposition écarté, droits d'accès et leurs limites : gardés. Le IV vise toutes les personnes habilitées par R240-4 et R240-5 (cible de passe 2). Rédaction resserrée.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : droits d'accès, recours à la CNIL",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Information générale, exclusion du droit d'opposition, droits exercés auprès du chef d'établissement : gardés. Le IV ne renvoie qu'à R240-4, où seuls figurent les personnels habilités à l'archive : il vise toutes les personnes désignées et habilitées par R240-4 et R240-5.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement autorisé par décret, finalités fermées, données, accès, durées et droits encadrés",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "dont sont titulaires les personnes mentionnées à l'article R. 240-4 s'exercent",
-          "nouveau": "dont sont titulaires les personnes individuellement désignées et spécialement habilitées en application des articles R. 240-4 et R. 240-5 s'exercent"
+          "op": "rediger",
+          "nouveau": "Le traitement fait l'objet d'une information sur le site justice.fr et par affichage dans chaque établissement. Le droit d'opposition prévu à l'article 110 de la loi n° 78-17 du 6 janvier 1978 ne s'applique pas.\nLes droits d'accès, de rectification, d'effacement et de limitation s'exercent auprès du chef de l'établissement. Restreints selon les 2° et 3° du II et le III de l'article 107 de la même loi, pour les motifs des 1° à 3° de son I, ils s'exercent auprès de la Commission nationale de l'informatique et des libertés, selon l'article 108 de cette loi.\nLes personnes habilitées en application des articles R. 240-4 et R. 240-5 exercent ces droits auprès de l'autorité qui les a habilitées."
         }
       ]
     },
     {
       "code": "penitentiaire",
       "num": "R240-8",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Journalisation des opérations, conservée trois ans : traçabilité des accès.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement autorisé par décret, finalités fermées, données, accès, durées et droits encadrés"
+      "motif": "Journalisation des opérations, conservée trois ans : gardée.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traçabilité des accès",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute opération de collecte, de consultation, de modification, de communication, d'interconnexion ou d'effacement est enregistrée avec son auteur, son motif, sa date, son heure et ses destinataires. Ces traces sont conservées trois ans."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R240-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Données sensibles dans la stricte mesure nécessaire : réunies à la liste des données.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : borne tenue au dernier alinéa de R. 240-2",
+      "vers": "R240-2"
     }
-  ]
+  ],
+  "passe": 3
 }
