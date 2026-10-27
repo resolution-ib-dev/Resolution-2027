@@ -10,26 +10,40 @@
     {
       "code": "cpp",
       "num": "L3611-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "La personne poursuivie, présumée innocente, demeure libre, la détention est l'exception : principe du livre, noyau. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : liberté de principe, tenu ; art. 66 C et CEDH art. 5 examinés : gradation contrôle judiciaire, assignation, détention, tenue"
+      "motif": "Principe de liberté et gradation des trois mesures : phrases resserrées, sens inchangé (« ces mesures ne suffisent pas » pour « ne permettent pas d'atteindre ces objectifs »).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Présomption d'innocence et liberté de principe gardées mot pour mot. La détention reste exceptionnelle, subsidiaire au contrôle judiciaire et à l'assignation à résidence.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne poursuivie, présumée innocente, demeure libre. En raison des nécessités de la procédure ou à titre de mesure de sûreté, elle peut être placée sous contrôle judiciaire ou, si cette mesure est insuffisante, sous assignation à résidence avec surveillance électronique. À titre exceptionnel, si ces mesures ne suffisent pas, elle peut être placée en détention provisoire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3611-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Article de répartition des cas de recours aux trois mesures : charpente du livre. La proposition de réécrire au titre de l'aménagement de peine est sans objet.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : chaque mesure relève du titre qui l'encadre, tenu"
+      "principe": "P23",
+      "motif": "Cas de recours aux trois mesures et autorités qui les ordonnent en un article (L3611-3 fusionné) : le 1° porte la répartition entre juge d'instruction et juge des libertés et de la détention au cours de l'information, le 2° réunit le renvoi et l'absence d'information, qui relevaient des mêmes textes et des mêmes juges.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Au cours de l'information, la détention provisoire n'est ordonnée que par le juge des libertés et de la détention, juge du siège distinct de celui qui instruit : garantie gardée mot pour mot.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les mesures de l'article L. 3611-1 peuvent être ordonnées :\n1° Au cours de l'information, contre la personne mise en examen, selon les titres II à IV du présent livre. Le contrôle judiciaire et l'assignation à résidence avec surveillance électronique sont ordonnés par le juge d'instruction ou, lorsqu'il est saisi, par le juge des libertés et de la détention. La détention provisoire ne peut être ordonnée que par le juge des libertés et de la détention, saisi par le juge d'instruction ou par le procureur de la République.\n2° Après le renvoi devant la juridiction de jugement ou, sans information, en comparution sur procès-verbal, immédiate ou à délai différé, par le juge des libertés et de la détention ou la juridiction de jugement, selon le titre V du présent livre et le livre IV de la quatrième partie.\n3° Dans les procédures pénales européennes et internationales, notamment l'extradition, selon les livres Ier et II de la sixième partie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3611-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "La détention n'est ordonnée que par le juge des libertés, le contrôle judiciaire et l'assignation par le juge d'instruction ou le juge des libertés : juge du siège, noyau tenu.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée par un juge du siège distinct du juge d'instruction, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorités qui ordonnent les mesures : 1° et 2° de L3611-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Réserve de la détention au juge des libertés et de la détention au cours de l'information gardée mot pour mot au 1° de L3611-2.",
+      "vers": "L3611-2"
     }
-  ]
+  ],
+  "passe": 3
 }
