@@ -10,197 +10,255 @@
     {
       "code": "cpp",
       "num": "L6331-1",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Statut de collaborateur ouvert aux personnes éligibles aux exemptions ou réductions du code pénal, que l'article 132-78 borne désormais [au cinquième] de la peine encourue (lot p056) : la procédure suit la borne.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction est fixée par la loi pénale, bornée en catégorie 3"
-    },
-    {
-      "code": "cpp",
-      "num": "L6331-2",
+      "motif": "Statut ouvert aux personnes éligibles à l'exemption ou à la diminution de peine de l'article 132-78 du code pénal, que la passe 3 du code pénal (lot p056) borne [au cinquième] et dont elle garde les exemptions : la procédure suit la borne. « Diminution » au lieu de « réduction », comme à 132-78 et 132-78-1.",
+      "ligne_rouge": "Art. 8 DDHC examiné : aucune remise hors barème : l'exemption et la diminution restent celles de l'article 132-78 du code pénal, bornées [au cinquième] et imputées sur la catégorie 3.",
       "decision": "S",
-      "principe": "P15",
-      "motif": "Évaluation par un service de l'intérieur, sur réquisition du procureur ou du juge d'instruction. L'avis préalable du procureur à la réquisition du juge devient une information : il ne garantit aucune liberté.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "cette réquisition peut être prise, après avis du procureur de la République, par le juge d'instruction.",
-          "nouveau": "cette réquisition peut être prise par le juge d'instruction, qui en informe le procureur de la République."
+          "op": "rediger",
+          "nouveau": "Les personnes éligibles à l'exemption ou à la diminution de peine prévues à l'article 132-78 du code pénal peuvent bénéficier, au cours de l'enquête ou de l'information, du statut de collaborateur de justice dans les conditions du présent chapitre."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L6331-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Recueil des déclarations par procès-verbal distinct, dans les formes du code : la passe 1 proposait de déclasser. Les formes de l'audition touchent la défense et la preuve.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6331-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Vérification de la sincérité, avis de la commission nationale. L'avis porte sur la protection que l'État s'engage à assurer à des personnes menacées : il garantit la sûreté des personnes, il se garde.",
-      "ligne_rouge": "aucune"
+      "num": "L6331-2",
+      "principe": "P23",
+      "motif": "Reçoit L6331-3 (recueil des déclarations par procès-verbal distinct) et L6331-4 (vérification, avis de la commission) : l'évaluation et le recueil dans un article. L'avis préalable du procureur à la réquisition du juge devient une information (passe 2, P15) ; l'avis de la commission, qui touche la sûreté des personnes, est gardé.",
+      "ligne_rouge": "P25 examiné : déclarations recueillies dans les formes du code, par procès-verbal distinct, et vérifiées par le magistrat ; aucun officier ne procède à l'audition d'une partie hors L. 3442-5.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une personne mise en cause manifeste sa volonté de faire des déclarations permettant d'éviter la réalisation de l'infraction, de la faire cesser, d'éviter qu'elle ne produise un dommage ou d'en identifier les autres auteurs ou complices, le procureur de la République ou, au cours de l'information, le juge d'instruction, qui en informe le procureur, peut requérir un service placé sous l'autorité ou la tutelle du ministre de l'intérieur, inscrit sur une liste fixée par décret, d'évaluer sa personnalité et son environnement.\nAu vu de cette évaluation, s'il existe des raisons sérieuses de penser que ces déclarations sont déterminantes pour la manifestation de la vérité, le magistrat les recueille ou les fait recueillir par procès-verbal distinct, dans les formes du présent code et, au cours de l'information, sous réserve de l'article L. 3442-5. Il vérifie leur caractère sincère, complet et déterminant et recueille l'avis de la commission mentionnée à l'article L. 6332-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6331-5",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Requête à la chambre, juge d'instruction sur avis conforme du parquet, pièces et convention jointes. L'avis conforme est un verrou contre l'octroi et non une consultation : il se garde.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6331-6",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Statut octroyé par la chambre au vu du dossier, réquisitions et observations : la passe 1 proposait de déclasser. Le juge décide, la règle relève de la loi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6331-7",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Notification et appel sous dix jours : voie de recours ouverte.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L6331-6 (octroi par la chambre) et L6331-7 (notification, appel en dix jours) : la requête, la décision du juge et le recours dans un article. Avis conforme du parquet gardé (verrou contre l'octroi).",
+      "ligne_rouge": "P25 examiné : statut octroyé par un juge, par ordonnance motivée, après réquisitions et observations de la personne ou de son avocat ; appel en dix jours devant la chambre autrement composée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le procureur de la République ou, sur son avis conforme, le juge d'instruction estime opportun l'octroi du statut, il saisit par requête la chambre des investigations et des libertés. Il y joint les procès-verbaux, l'avis de la commission et la convention par laquelle la personne s'engage, jusqu'à sa comparution devant la juridiction de jugement, à répondre aux convocations et à ne commettre aucun crime ou délit.\nSi les conditions de l'article 132-78 du code pénal sont réunies, la chambre octroie le statut par ordonnance motivée, sur les réquisitions écrites du procureur général et les observations de la personne ou de son avocat. Elle peut entendre la personne, au besoin selon l'article L. 1621-1. L'ordonnance, notifiée à la personne ou à son avocat, au parquet général et au magistrat qui a saisi la chambre, est susceptible d'appel dans les dix jours devant la même chambre autrement composée, qui statue sans recours."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6331-8",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Pièces versées au dossier une fois le statut définitif : la défense des coaccusés y a accès.",
-      "ligne_rouge": "art. 16 DDHC examiné : les déclarations utilisées contre des tiers sont versées au dossier"
-    },
-    {
-      "code": "cpp",
-      "num": "L6331-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Sans statut, les pièces restent en dossier distinct : elles ne servent pas contre la personne.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L6331-9 (dossier distinct en l'absence de statut) : le sort des pièces dans un article, cité par L6332-10 désormais au dernier alinéa de L6332-9.",
+      "ligne_rouge": "P25 examiné : la défense des coaccusés accède aux pièces une fois le statut définitif ; sans statut, elles ne servent pas contre la personne.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque l'octroi du statut est définitif, toutes les pièces de la procédure d'octroi, déclarations, évaluation, avis de la commission et convention compris, sont versées au dossier de la procédure. A défaut de saisine de la chambre ou d'octroi du statut, elles sont conservées dans un dossier distinct."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6331-10",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Révocation pour mensonge ou nouvelle infraction : la réduction n'est due qu'à l'effort réel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6331-11",
+      "motif": "Reçoit L6331-11 : révocation du statut et refus obligatoire de la diminution (passe 2) dans un article. La juridiction reste tenue d'accorder l'exemption ou la diminution bornée par l'article 132-78 du code pénal ; elle la refuse en cas de révocation, de mensonge ou de nouvelle infraction.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la juridiction accorde l'exemption ou la diminution bornée de l'article 132-78 du code pénal, et la refuse par décision motivée quand l'effort fait défaut : la réduction ne rémunère qu'un effort réel.",
       "decision": "R",
-      "principe": "P10",
-      "motif": "La juridiction reste tenue d'accorder la réduction promise, désormais bornée [au cinquième] par l'article 132-78 du code pénal (lot p056) : la loi tient parole. Son refus devient obligatoire en cas de révocation, de mensonge ou de nouvelle infraction : la réduction ne rémunère qu'un effort.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste due au collaborateur loyal, bornée ; les cas de refus sont fixés par la loi et constatés par le juge ; présomption d'innocence examinée : le refus pour nouvelle infraction suppose une condamnation, la commission non jugée passe par la révocation (L6331-10)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Toutefois, elle peut décider, par décision motivée, de ne pas l'octroyer :",
-          "nouveau": "Toutefois, elle ne l'octroie pas, par décision motivée :"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "3° Soit en cas de commission d'un nouveau crime ou d'un nouveau délit.",
-          "nouveau": "3° Soit en cas de condamnation pour un crime ou un délit commis après l'octroi du statut."
+          "op": "rediger",
+          "nouveau": "La chambre des investigations et des libertés, saisie par le procureur de la République ou le juge d'instruction, peut révoquer le statut en cas de déclarations mensongères ou volontairement incomplètes révélées par des éléments nouveaux, ou de nouveau crime ou délit.\nSaisie en ce sens, la juridiction de jugement accorde au collaborateur de justice l'exemption ou la diminution de peine prévues à l'article 132-78 du code pénal. Elle la refuse, par décision motivée, en cas de révocation du statut, d'élément nouveau survenu après sa saisine révélant des déclarations mensongères ou volontairement incomplètes, ou de condamnation pour un crime ou un délit commis après l'octroi du statut."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6331-12",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Mise à exécution de l'emprisonnement réservé par 132-78-1 en cas de mensonge ou de nouvelle infraction, sur dix ou vingt ans : la peine prononcée revient. Le débat en chambre du conseil protège la vie du collaborateur et de ses proches. [arbitrage : P26 ne nomme pas la protection du témoin menacé, exception gardée par défaut]",
-      "ligne_rouge": "art. 8 DDHC examiné : emprisonnement fixé au prononcé, mis à exécution par un juge après débat contradictoire"
+      "motif": "Mise à exécution de l'emprisonnement réservé par l'article 132-78-1 du code pénal, sur dix ou vingt ans : gardée. Le débat contradictoire suit la publicité de L. 1 : registre 3.1 et 9.8, l'identité du collaborateur menacé est protégée par l'anonymat de L6332-6, non par la chambre du conseil.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'emprisonnement réservé au prononcé ne s'exécute que par décision motivée d'une juridiction, après débat contradictoire, dans les délais de 132-78-1 : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tribunal de l'application des peines du siège de la juridiction de condamnation peut, sur réquisitions du procureur de la République et par décision motivée rendue après un débat contradictoire, ordonner la mise à exécution de l'emprisonnement fixé en application de l'article 132-78-1 du code pénal lorsque, dans les dix ans pour un délit ou les vingt ans pour un crime à compter de la condamnation définitive, des éléments nouveaux révèlent des déclarations mensongères ou volontairement incomplètes, ou la personne commet un nouveau crime ou délit. La personne comparaît, s'il y a lieu, dans les conditions de l'article L. 6332-6."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6332-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Protection et réinsertion du repenti et de ses proches : l'État protège qui l'a aidé.",
-      "ligne_rouge": "aucune"
+      "motif": "Protection et réinsertion du collaborateur et de ses proches, phrase resserrée (borne de la plage citée par L1532-10).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes mentionnées à l'article 132-78 du code pénal, leur famille et leurs proches font l'objet, en tant que de besoin, d'une protection destinée à assurer leur sécurité et peuvent bénéficier de mesures de réinsertion."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6332-2",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Commission nationale, composition par décret en Conseil d'État : la passe 1 proposait de déclasser. La loi crée l'organe et ses pouvoirs, le décret le compose : la strate est juste.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6332-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Mesures d'urgence par les services, commission informée sans délai.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6332-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Domiciliation chez l'avocat ou le service : protège la localisation.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6332-3 (mesures d'urgence) : la commission nationale et l'urgence dans un article (cité par L3566-11 et L6331-2).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les mesures de protection et de réinsertion sont définies, sur réquisitions du procureur de la République, par une commission nationale dont la composition et le fonctionnement sont fixés par décret en Conseil d'Etat. Elle fixe les obligations de la personne et suit les mesures, qu'elle peut modifier ou faire cesser à tout moment. En cas d'urgence, les services compétents prennent les mesures nécessaires et l'en informent sans délai."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6332-5",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Identité d'emprunt en cas de nécessité : protection de la vie.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L6332-4 (domicile déclaré chez l'avocat ou le service) : identité d'emprunt et domiciliation dans un article (borne de la plage citée par L1532-10).",
+      "ligne_rouge": "aucune (passe 1) ; P25 : l'identité d'emprunt protège la vie des personnes menacées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au titre des mesures de protection, les personnes mentionnées à l'article L. 6332-1 peuvent, en cas de nécessité, être autorisées à faire usage d'une identité d'emprunt. Le collaborateur de justice peut déclarer comme domicile l'adresse de son avocat ou du service mentionné à l'article L. 6331-2, avec leur accord."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6332-6",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Comparution anonyme quand la vie est en danger, décision valable pour toute procédure. [arbitrage : la défense des coaccusés face à un témoin anonyme ; l'article 132-78 interdit toute condamnation sur ses seules déclarations]",
-      "ligne_rouge": "art. 16 DDHC examiné : aucune condamnation sur les seules déclarations du collaborateur (132-78 du code pénal)"
+      "motif": "Reçoit L6332-7 (saisine, observations écrites). Comparution anonyme quand la vie est en danger, valable pour toute procédure : gardée. Le huis clos de la décision suit L. 1 (débat sur l'anonymat d'un collaborateur, registre 9.64). Aucune condamnation sur les seules déclarations du collaborateur, anonymes ou non, écrite ici en renvoi au dernier alinéa de l'article 132-78 du code pénal (registre 9.65).",
+      "ligne_rouge": "P25 examiné : la défense des coaccusés est tenue par l'interdiction de condamner sur les seules déclarations du collaborateur (dernier alinéa de l'article 132-78 du code pénal), anonymat compris.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la comparution d'un collaborateur de justice est susceptible de mettre gravement en danger sa vie ou son intégrité physique ou celles de ses proches, la chambre des investigations et des libertés, saisie d'office ou par lui, peut ordonner, sur les observations écrites du procureur général et des parties concernées, sa comparution à tous les stades de la procédure dans des conditions qui préservent son anonymat, notamment par les dispositifs de l'article L. 1532-6. Sa décision vaut pour toute procédure à laquelle la personne est témoin ou partie.\nAucune condamnation ne peut être prononcée sur le seul fondement des déclarations d'un collaborateur de justice, selon le dernier alinéa de l'article 132-78 du code pénal."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6332-9",
+      "principe": "P27",
+      "motif": "Reçoit L6332-10 (révélation de la volonté de collaborer ou des déclarations, mêmes peines). Incriminations et peines inchangées, mot pour mot ; le renvoi au versement des pièces vise L6331-8, qui le porte (L6331-9 visait le dossier distinct).",
+      "ligne_rouge": "Art. 8 DDHC examiné : trois degrés de peine (cinq, sept, dix ans) gardés mot pour mot ; la seconde incrimination garde « les peines prévues au présent article », comme elle visait celles de L6332-9 : aucune peine perdue ni étendue.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fait de révéler qu'une personne fait usage d'une identité d'emprunt en application de l'article L. 6332-5 ou de révéler tout élément permettant son identification ou sa localisation est puni de cinq ans d'emprisonnement et de 75 000 euros d'amende. Lorsque cette révélation a eu pour conséquence, directe ou indirecte, des violences à l'encontre de cette personne ou de son conjoint, de ses enfants ou de ses ascendants directs, ou la mort de l'un d'eux, les peines sont portées respectivement à sept ans d'emprisonnement et à 100 000 euros d'amende, ou à dix ans d'emprisonnement et à 150 000 euros d'amende.\nEst puni des peines prévues au présent article le fait de révéler, tant que les déclarations du collaborateur de justice n'ont pas été versées au dossier de la procédure en application de l'article L. 6331-8, la volonté d'une personne de faire les déclarations mentionnées à l'article L. 6331-2, ou leur contenu."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6331-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recueil des déclarations par procès-verbal distinct : second alinéa de L6331-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L6331-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L6331-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Vérification et avis de la commission : dernière phrase de L6331-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L6331-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L6331-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Octroi par ordonnance motivée de la chambre : second alinéa de L6331-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L6331-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L6331-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Notification et appel en dix jours : fin de L6331-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L6331-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L6331-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dossier distinct à défaut de statut : seconde phrase de L6331-8.",
+      "ligne_rouge": "aucune",
+      "vers": "L6331-8"
+    },
+    {
+      "code": "cpp",
+      "num": "L6331-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exemption ou diminution accordée par la juridiction, refus motivé : second alinéa de L6331-10 (texte de la passe 2).",
+      "ligne_rouge": "Art. 8 DDHC examiné : exemption et diminution bornées par l'article 132-78 du code pénal ; refus motivé gardé à L6331-10.",
+      "vers": "L6331-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L6332-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mesures d'urgence : dernière phrase de L6332-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L6332-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L6332-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Domicile déclaré chez l'avocat ou le service : seconde phrase de L6332-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L6332-5"
     },
     {
       "code": "cpp",
       "num": "L6332-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Chambre saisie d'office ou par le collaborateur, qui statue à huis clos sur observations écrites sur la comparution anonyme : débattre en public révélerait l'identité que la mesure protège. Registre 3.2 : l'anonymat du collaborateur menacé est gardé.",
-      "ligne_rouge": "Vie et intégrité (art. 2 DDHC) examinées : le huis clos se borne à la décision sur l'anonymat. Art. 16 DDHC examiné : observations écrites des parties, aucune condamnation sur les seules déclarations du collaborateur (132-78 du code pénal)."
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Saisine et observations écrites : premier alinéa de L6332-6 ; le huis clos du débat sur l'anonymat suit L. 1.",
+      "ligne_rouge": "aucune",
+      "vers": "L6332-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L6332-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Révélation de la volonté de collaborer ou des déclarations : dernier alinéa de L6332-9, mêmes peines.",
+      "ligne_rouge": "aucune",
+      "vers": "L6332-9"
     },
     {
       "code": "cpp",
       "num": "L6332-8",
       "decision": "A",
       "principe": "P26",
-      "motif": "Registre 3.2 : l'anonymat du collaborateur menacé, ordonné à tous les stades de la procédure (L6332-6), protège son identité devant la juridiction de jugement. Le huis clos de l'audience pour le collaborateur sort des exceptions de L. 1 (registre 3.1) : l'article tombe. La victime garde le huis clos à sa demande (L. 1).",
-      "ligne_rouge": "Vie et intégrité du collaborateur (art. 2 DDHC) examinées : sa comparution anonyme, voix et apparence altérées, reste ouverte devant la juridiction de jugement (L6332-6). CEDH art. 6 § 1 examiné : l'audience reste publique. Art. 16 DDHC : aucune condamnation sur ses seules déclarations (132-78 du code pénal)."
-    },
-    {
-      "code": "cpp",
-      "num": "L6332-9",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Révélation de l'identité d'emprunt : cinq, sept, dix ans selon les suites. Atteinte à la justice et aux personnes, au noyau, échelle cohérente.",
-      "ligne_rouge": "art. 8 DDHC examiné : peines graduées selon le dommage"
-    },
-    {
-      "code": "cpp",
-      "num": "L6332-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Révélation de la volonté de collaborer avant versement au dossier, mêmes peines : protège la personne et l'enquête.",
-      "ligne_rouge": "aucune"
+      "motif": "Décision de la passe 2, registre 3.2 et 9.8 : le huis clos de l'audience pour le collaborateur sort des exceptions de L. 1 ; son identité est protégée par l'anonymat ordonné à tous les stades de la procédure (L6332-6). La victime garde le huis clos à sa demande (L. 1).",
+      "ligne_rouge": "aucune (passe 1) ; P26 : anonymat gardé (L6332-6), décision sur l'anonymat à huis clos (L. 1)."
     }
-  ]
+  ],
+  "passe": 3
 }
