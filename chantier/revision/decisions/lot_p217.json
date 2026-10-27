@@ -10,50 +10,72 @@
     {
       "code": "cpp",
       "num": "A38-1-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Remboursement des frais de voyage de la victime au barème des agents de l'État : la victime ne perd pas à se rendre au procès étranger.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "A38-1-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Indemnité journalière de séjour au même barème.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit A38-1-2 (indemnité de séjour), A38-1-4 (indemnité de comparution) et A38-1-6 (conversion des devises) : le calcul de l'aide dans un article, barèmes inchangés.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; la victime est remboursée au barème des agents de l'État et indemnisée comme un témoin (P18).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les frais de voyage et l'indemnité journalière de séjour sont calculés dans les conditions fixées pour les déplacements des personnels civils de l'Etat. L'indemnité de comparution due à la personne de seize ans et plus suit l'article R. 129. Les sommes fixées en devise étrangère sont converties au taux de change de chancellerie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A38-1-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Avance des frais de voyage et de séjour sur devis, réservée aux victimes aux ressources modestes : aide au moment où la dépense survient.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "A38-1-4",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Indemnité de comparution alignée sur celle des témoins (R129) : régime voisin repris.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Avance des frais : condition de ressources en tête, devis et exclusion de l'indemnité de comparution gardés.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; avance réservée aux victimes aux ressources modestes, au moment où la dépense survient (P18) : tenue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Seule la personne dont les ressources sont inférieures au plafond de l'aide juridictionnelle partielle prévu à l'article 4 de la loi n° 91-647 du 10 juillet 1991, compte tenu de ses charges de famille, peut obtenir l'avance prévue à l'article D. 47-6-15-6. L'avance couvre, sur devis, un billet aller et retour au tarif le plus économique. Elle peut inclure l'indemnité journalière de séjour, sur devis d'hébergement et justificatif de la durée prévisionnelle de l'audience. Elle ne porte pas sur l'indemnité de comparution."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A38-1-5",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Pièces à joindre à la requête : liste fermée, pièces courantes. Renvoi à l'ancien 706-14-2 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P13",
+      "motif": "Pièces de la requête : l'ancien article 706-14-2 est nommé par son siège de 2029 (L1444-1) ; liste en une phrase.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; pièces courantes, liste fermée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La requête aux fins de l'aide financière prévue à l'article L. 1444-1 est accompagnée d'une pièce d'identité, d'un justificatif de domicile de moins de trois mois, des pièces justifiant la nature des faits jugés et la participation à l'audience, de l'attestation de présence et de durée de l'audience délivrée par l'autorité étrangère ou, pour une retransmission en France, par l'autorité française, des justificatifs de paiement et des titres de transport, de la facture d'hébergement acquittée, qui porte le nom de la personne hébergée et la date de la nuitée, et de tout document attestant la perte de revenus professionnels."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A38-1-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans A38-1-1 (calcul de l'aide).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; barème tenu.",
+      "vers": "A38-1-1"
+    },
+    {
+      "code": "cpp",
+      "num": "A38-1-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans A38-1-1 (calcul de l'aide).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; renvoi à R129 tenu.",
+      "vers": "A38-1-1"
     },
     {
       "code": "cpp",
       "num": "A38-1-6",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Conversion des devises au taux de chancellerie : règle de calcul courte.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans A38-1-1 (calcul de l'aide).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; taux de chancellerie tenu.",
+      "vers": "A38-1-1"
     }
-  ]
+  ],
+  "passe": 3
 }
