@@ -1,0 +1,131 @@
+{
+  "lot": "lot_p158",
+  "titre": "CPP, arrêtés, livre II, titre II, chapitre Ier, section 7 : Procédure simplifiée de l'amende forfaitaire délictuelle",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "A36-14",
+      "texte": "La personne qui a reçu un avis d'amende forfaitaire pour un délit constaté selon l'article D. 45-3 peut former en ligne, sur le site www.antai.fr, la requête en exonération ou la réclamation prévues aux articles L. 4223-10 et L. 4223-11, à l'aide des informations portées sur l'avis d'amende forfaitaire ou d'amende forfaitaire majorée. Cette contestation vaut requête ou réclamation.\nUn accusé d'enregistrement, qu'elle peut télécharger ou imprimer, lui est présenté dès l'envoi.",
+      "verbe": "R",
+      "principe": "P12",
+      "motif": "Contestation en ligne et accusé d'enregistrement en un article (A36-17 fusionné). Les anciens 495-18 à 495-20 deviennent L4223-10 et L4223-11 (pièce de passe 3 du lot p142) : la réclamation n'y passe plus par lettre recommandée, la contestation en ligne vaut donc requête ou réclamation.",
+      "ligne_rouge": "Accès au juge (art. 16 DDHC) : la contestation en ligne ouvre la requête ou la réclamation, qui renvoie l'affaire au ministère public."
+    },
+    {
+      "num": "A36-15",
+      "texte": "La contestation en ligne se fonde sur l'un des motifs suivants, avec la pièce justificative numérisée correspondante, au format indiqué sur le site :\n1° Usurpation d'identité au moment des faits : récépissé de la plainte pour le délit prévu à l'article 434-23 du code pénal.\n2° Pour le délit de conduite sans permis, permis de conduire valide au moment des faits : copie de ce permis.\n3° Pour le délit de conduite sans assurance, assurance valide au moment des faits : copie de l'attestation d'assurance.\n4° Pour le délit de conduite sans assurance constaté sans interception, par ou à partir d'un appareil de contrôle automatique selon l'article L. 130-9 du code de la route, véhicule vendu, cédé, volé, détruit ou dont les plaques ont été usurpées : récépissé de la plainte pour vol, destruction ou usurpation de plaque prévue à l'article L. 317-4-1 du même code, déclaration de destruction prévue à l'article R. 322-9 de ce code, ou déclaration de cession et accusé de son enregistrement dans le système d'immatriculation des véhicules.\n5° Tout autre motif.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Motifs de contestation et pièces justificatives en une seule liste (A36-16 fusionné) : à chaque motif sa pièce. Le code de la route est nommé (passe 2).",
+      "ligne_rouge": "Accès au juge et nécessité (art. 8 et 16 DDHC) : le motif libre (5°) reste ouvert sans pièce imposée, aucune contestation n'est fermée."
+    },
+    {
+      "num": "A36-18",
+      "texte": "La consignation ou l'amende forfaitaire se paie par télépaiement automatisé, par chèque joint à la carte de paiement et adressé au comptable public, ou par virement bancaire international.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Modes de paiement inchangés, en une phrase sans tirets ni points-virgules. Le comptable de la direction générale des finances publiques est nommé comptable public, comme à L4521-9 (un mot par notion).",
+      "ligne_rouge": "Nécessité (art. 8 DDHC) : les trois modes de paiement restent ouverts."
+    }
+  ],
+  "retires": [
+    {
+      "num": "A36-16",
+      "verbe": "F",
+      "vers": "A36-15",
+      "principe": "P23",
+      "motif": "Pièces justificatives : chacune avec son motif dans A36-15.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "A36-17",
+      "verbe": "F",
+      "vers": "A36-14",
+      "principe": "P23",
+      "motif": "Accusé d'enregistrement : dans A36-14.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "A36-14#1": {
+      "vers": "A36-14",
+      "destin": "reprise"
+    },
+    "A36-14#2": {
+      "vers": "A36-14",
+      "destin": "reprise"
+    },
+    "A36-14#3": {
+      "vers": "A36-14",
+      "destin": "reprise"
+    },
+    "A36-15#1": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-15#2": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-15#3": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-15#4": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-15#5": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-15#6": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-16#1": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-16#2": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-16#3": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-16#4": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-16#5": {
+      "vers": "A36-15",
+      "destin": "reprise"
+    },
+    "A36-17#1": {
+      "vers": "A36-14",
+      "destin": "reprise"
+    },
+    "A36-17#2": {
+      "vers": "A36-14",
+      "destin": "reprise"
+    },
+    "A36-18#1": {
+      "vers": "A36-18",
+      "destin": "reprise"
+    },
+    "A36-18#2": {
+      "vers": "A36-18",
+      "destin": "reprise"
+    },
+    "A36-18#3": {
+      "vers": "A36-18",
+      "destin": "reprise"
+    },
+    "A36-18#4": {
+      "vers": "A36-18",
+      "destin": "reprise"
+    }
+  }
+}
