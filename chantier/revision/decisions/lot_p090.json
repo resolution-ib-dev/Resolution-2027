@@ -10,18 +10,44 @@
     {
       "code": "penitentiaire",
       "num": "L131-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Visite annuelle de chaque établissement par les magistrats du ressort : contrôle de l'autorité judiciaire sur les lieux de détention. La coordination demandée au lot p035 (« chambre de l'instruction ») est déjà faite dans la version de 2029, qui nomme la chambre des investigations et des libertés.",
-      "ligne_rouge": "art. 66 C examiné : le contrôle des magistrats sur les lieux de privation de liberté est tenu"
+      "principe": "P23",
+      "motif": "Visite annuelle des magistrats du ressort : mêmes magistrats, nommés par paires.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le premier président de la cour d'appel et le procureur général, le président de la chambre des investigations et des libertés, le président du tribunal judiciaire et le procureur de la République, les juges des libertés et de la détention, d'instruction, de l'application des peines et des enfants visitent au moins une fois par an chaque établissement pénitentiaire de leur ressort."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L132-1",
-      "decision": "G",
       "principe": "P26",
-      "motif": "Visite à tout moment des parlementaires et des bâtonniers, accompagnés de journalistes : la détention est vue du dehors, ce que veut la transparence.",
-      "ligne_rouge": "aucune"
+      "motif": "Visite à tout moment des parlementaires et des bâtonniers, avec journalistes : gardée. Le renvoi au décret pour les conditions tombe, le pouvoir réglementaire d'exécution suffit.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les députés, les sénateurs, les représentants au Parlement européen élus en France et les bâtonniers dans leur ressort, ou leur délégué désigné au sein du conseil de l'ordre, peuvent visiter à tout moment les établissements pénitentiaires. Les parlementaires peuvent être accompagnés de journalistes titulaires de la carte d'identité professionnelle mentionnée à l'article L. 7111-6 du code du travail."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L133-2",
+      "principe": "P25",
+      "motif": "Échanges avec le Contrôleur général soustraits à tout contrôle, méconnaissance punie au titre de 432-9 du code pénal : même règle, deux phrases courtes.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : le contrôle extérieur des lieux de privation de liberté garde la confidentialité absolue des échanges, sanctionnée pénalement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Aucun contrôle ne s'exerce sur les échanges, quel qu'en soit le moyen, entre le Contrôleur général des lieux de privation de liberté et les personnes détenues. Leur contrôle constitue le délit d'atteinte au secret des correspondances puni par l'article 432-9 du code pénal."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
@@ -29,15 +55,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article déclaratif : la mission du Contrôleur général des lieux de privation de liberté tient de la loi n° 2007-1545 qu'il cite, et que l'article ne fait que résumer. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 66 C et CEDH art. 3 examinés : le contrôle du Contrôleur général reste entier, il tient de la loi n° 2007-1545 elle-même"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L133-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Correspondances et communications des détenus avec le Contrôleur général soustraites au contrôle, méconnaissance punie au titre de 432-9 du code pénal : règle propre au code, garantie du contrôle extérieur.",
-      "ligne_rouge": "art. 66 C et CEDH art. 8 examinés : la confidentialité des échanges avec l'autorité de contrôle est tenue ; vie privée encadrée"
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la mission du Contrôleur général vit dans la loi n° 2007-1545, qui lui donne accès à tout lieu de privation de liberté. L. 133-2 garde la confidentialité des échanges."
     },
     {
       "code": "penitentiaire",
@@ -45,7 +63,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article déclaratif : la compétence du Défenseur des droits en matière de déontologie des activités de sécurité, et son pouvoir de vérification sur place, tiennent de la loi organique n° 2011-333 qu'il cite. Une loi ordinaire n'y ajoute rien : la règle vit à sa source.",
-      "ligne_rouge": "CEDH art. 3 examiné : le contrôle du Défenseur des droits sur la déontologie du service tient de l'art. 71-1 C et de la loi organique n° 2011-333, qu'une loi ordinaire ne peut ni étendre ni restreindre"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
@@ -53,7 +71,8 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article déclaratif : le droit de visite du Comité européen pour la prévention de la torture tient de la convention du 26 novembre 1987, applicable en vertu de l'art. 55 C. L'article la cite sans rien y ajouter.",
-      "ligne_rouge": "CEDH art. 3 examiné : le droit de visite et d'entretien du Comité reste entier, il tient de la convention elle-même"
+      "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
