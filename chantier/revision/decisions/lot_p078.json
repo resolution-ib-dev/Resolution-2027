@@ -10,65 +10,245 @@
     {
       "code": "penitentiaire",
       "num": "L211-1",
-      "decision": "G",
       "principe": "P25",
       "motif": "Prévenus détenus en maison d'arrêt : séparation des prévenus et des condamnés.",
-      "ligne_rouge": "art. 9 DDHC examiné : présomption d'innocence, séparation tenue"
+      "ligne_rouge": "présomption d'innocence examinée : séparation des prévenus gardée",
+      "decision": "G"
     },
     {
       "code": "penitentiaire",
       "num": "L211-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Prévenus en établissement pour peines à titre exceptionnel, motifs nommés (évasion, sécurité, capacité d'accueil après appel) : dérogation bornée.",
-      "ligne_rouge": "art. 9 DDHC examiné : dérogation exceptionnelle et motivée"
+      "principe": "P23",
+      "motif": "Mêmes exceptions, énumérées. Le renvoi aux quartiers sécurisés vise le chapitre, dont les articles ont été resserrés au lot p076.",
+      "ligne_rouge": "présomption d'innocence examinée : dérogations bornées et nommées, gardées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "A titre exceptionnel, une personne prévenue peut être détenue dans un établissement pour peines :\n1° Lorsque, au regard de sa personnalité ou de son comportement, cette détention est nécessaire à la prévention des évasions ou au maintien de la sécurité et du bon ordre des établissements pénitentiaires.\n2° Si, ayant interjeté appel ou formé un pourvoi en cassation contre sa condamnation, elle y trouve des conditions de détention plus satisfaisantes, eu égard à la capacité d'accueil de la maison d'arrêt.\nElle peut aussi être affectée dans un quartier sécurisé dans les conditions du chapitre IV du titre II du présent livre."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L211-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Condamnés en établissement pour peines, transfèrement de droit dans les neuf mois au-delà de deux ans de reliquat : délai opposable à l'État. La proposition de réécrire au titre de l'aménagement est écartée : l'article règle le lieu d'exécution, pas la durée de la peine.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'affectation règle le lieu d'exécution, non le quantum, le maintien en maison d'arrêt pour un aménagement proche ne réduit pas la peine"
+      "principe": "P23",
+      "motif": "Mêmes règles : les deux cas d'affectation exceptionnelle en maison d'arrêt tiennent en une phrase, le transfèrement de droit dans les neuf mois est gardé.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle le lieu et le régime d'exécution, pas le quantum, rien n'est retranché à la peine prononcée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes condamnées exécutent leur peine dans un établissement pour peines.\nA titre exceptionnel, une personne condamnée à deux ans d'emprisonnement au plus peut être maintenue en maison d'arrêt, et une personne condamnée à qui il reste moins d'un an à exécuter peut y être affectée, dans un quartier distinct, lorsque la préparation de sa libération, sa situation familiale ou sa personnalité le justifient.\nLa personne condamnée détenue en maison d'arrêt à qui il reste plus de deux ans à exécuter obtient, à sa demande, son transfèrement dans un établissement pour peines dans les neuf mois de sa condamnation définitive. Elle peut toutefois être maintenue en maison d'arrêt si elle bénéficie d'un aménagement de peine ou est susceptible d'en bénéficier rapidement.\nElle peut aussi être affectée en maison d'arrêt dans un quartier sécurisé dans les conditions du chapitre IV du titre II du présent livre."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L211-4",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Répartition des condamnés et régime de détention selon la dangerosité et les efforts de réinsertion, droits de L. 6 gardés : le régime suit l'effort.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "« ne saurait porter atteinte aux droits mentionnés par les dispositions de » se dit au présent, sans formule.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La répartition des personnes condamnées dans les établissements pour peines s'effectue compte tenu de leur catégorie pénale, de leur âge, de leur état de santé et de leur personnalité. Leur régime de détention est déterminé en prenant en compte leur personnalité, leur santé, leur dangerosité et leurs efforts en matière de réinsertion sociale. Un régime plus sévère ne porte pas atteinte aux droits de l'article L. 6."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L211-5",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Parcours d'exécution de la peine établi dès la condamnation définitive, porté à la connaissance du juge : l'exécution s'organise.",
-      "ligne_rouge": "art. 8 DDHC examiné : le parcours organise l'exécution de la peine prononcée, il n'en change pas la durée"
+      "motif": "Parcours d'exécution de la peine établi dès la condamnation définitive, porté à la connaissance du juge.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle le lieu et le régime d'exécution, pas le quantum, rien n'est retranché à la peine prononcée",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L211-7",
+      "principe": "P23",
+      "motif": "Règle propre gardée, phrase directe.",
+      "ligne_rouge": "art. 8 DDHC examiné : communication utile au suivi, sans effet sur la peine",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'expertise médicale réalisée en application de l'article L. 3542-1 du code de procédure pénale sur une personne condamnée à une peine privative de liberté est communiquée à l'administration pénitentiaire, pour faciliter son suivi médical et psychologique en détention."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L212-6",
+      "principe": "P20",
+      "motif": "Acte d'écrou gardé. Le renvoi au décret simple tombe : le pouvoir réglementaire s'exerce sans lui (art. 21 C), et la clause du titre (L213-9) couvre l'article.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un acte d'écrou est dressé pour toute personne qui est conduite dans un établissement pénitentiaire ou qui s'y présente librement."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L212-9",
+      "principe": "P10",
+      "motif": "Bilan de personnalité après observation pluridisciplinaire.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L213-1",
+      "principe": "P20",
+      "motif": "Garantie gardée. Le renvoi au décret passe à la clause du titre (L213-9).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne détenue victime d'un acte de violence caractérisé commis par une ou plusieurs personnes codétenues bénéficie prioritairement d'un encellulement individuel."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L213-2",
+      "principe": "P23",
+      "motif": "Le principe de l'encellulement individuel, dit en deux articles (L213-2, L213-3), tient en un.",
+      "ligne_rouge": "présomption d'innocence et dignité examinées : principe gardé pour tous",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes prévenues sont placées en cellule individuelle. Après une éventuelle période d'observation en cellule, les personnes condamnées le sont de jour et de nuit en maison d'arrêt, de nuit seulement en établissement pour peines."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L213-5",
+      "principe": "P23",
+      "motif": "Une seule liste de dérogations pour les prévenus et les condamnés (L213-5, L213-6), avec les mêmes trois cas. Les conditions de la cellule collective, écrites pour les prévenus, valent pour tous (extension favorable, déclarée).",
+      "ligne_rouge": "dignité examinée : dérogations fermées, conditions de la cellule collective étendues aux condamnés",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Il ne peut être dérogé à l'encellulement individuel que dans les cas suivants :\n1° La personne en fait la demande.\n2° Sa personnalité justifie, dans son intérêt, qu'elle ne soit pas laissée seule.\n3° Les nécessités d'organisation du travail ou, pour une personne prévenue, de la formation professionnelle ou scolaire l'imposent.\nUne cellule collective est adaptée au nombre de personnes qui y sont hébergées. Celles-ci doivent être en mesure de cohabiter. Leur sécurité et leur dignité sont assurées."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L213-7",
+      "principe": "P23",
+      "motif": "La réserve des droits de L. 6, dite pour chaque isolement (L213-7, L213-8), l'est une fois. L. 3645-16 du code de procédure pénale renvoie toujours ici.",
+      "ligne_rouge": "droits de L. 6 gardés pendant tout isolement",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les placements à l'isolement judiciaire, décidé par le magistrat en application de l'article L. 3645-16 du code de procédure pénale, et administratif, prévu à l'article L. 213-8, n'affectent pas l'exercice des droits de l'article L. 6, sous réserve des aménagements qu'impose la sécurité."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L213-8",
+      "principe": "P20",
+      "motif": "Durée, débat contradictoire avec avocat et avis judiciaire au-delà d'un an gardés. La réserve des droits passe à L213-7. Le rappel du référé-liberté tombe, comme à L231-3 : L. 521-2 du code de justice administrative est ouvert à toute personne.",
+      "ligne_rouge": "droits de la défense examinés : contradictoire, avocat et avis de l'autorité judiciaire gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne détenue majeure peut être placée à l'isolement par l'autorité administrative, par mesure de protection ou de sécurité, à sa demande ou d'office, pour une durée maximale de trois mois. La mesure n'est renouvelée pour la même durée qu'après un débat contradictoire au cours duquel la personne, qui peut être assistée de son avocat, présente ses observations orales ou écrites. L'isolement n'est prolongé au-delà d'un an qu'après avis de l'autorité judiciaire."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L213-9",
+      "principe": "P20",
+      "motif": "Clause unique d'application du titre : elle remplace les renvois de L212-6, L213-1, L213-9 et L216-2.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'Etat fixe les modalités d'application du présent titre."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L214-1",
+      "principe": "P21",
+      "motif": "Dossier individuel de chaque détenu.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L214-2",
+      "principe": "P23",
+      "motif": "Même communication, phrases resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les services pénitentiaires communiquent aux autorités administratives compétentes l'identité, le lieu de détention, la situation pénale et la date de libération de chaque personne détenue, lorsque ces informations sont nécessaires à l'exercice de leurs attributions. Ils les communiquent notamment aux services du ministère de l'intérieur pour les personnes étrangères qui font ou doivent faire l'objet d'une mesure d'éloignement."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L216-1",
+      "principe": "P13",
+      "motif": "Cible de la passe 2 (renvoi coordonné), sans « des dispositions de ».",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La contrainte judiciaire ordonnée en application de l'article L. 5412-1 du code de procédure pénale est exécutée en établissement pénitentiaire, dans le quartier à ce destiné."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L216-2",
+      "principe": "P20",
+      "motif": "Convention avec le département gardée. Le renvoi au décret passe à la clause du titre (L213-9).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Une convention entre l'établissement pénitentiaire et le département définit l'accompagnement social proposé aux mères détenues avec leurs enfants et prévoit un dispositif permettant la sortie régulière des enfants à l'extérieur de l'établissement pour permettre leur socialisation."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L211-6",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de l'ancien article 763-7 du code de procédure pénale, numéro absent du code de 2029. L. 5226-1 du code de procédure pénale porte la même règle sur un champ plus large : établissement assurant un suivi médical et psychologique adapté pour tout condamné encourant le suivi socio-judiciaire. Rien n'est perdu.",
-      "ligne_rouge": "art. 8 DDHC examiné : la règle reste entière à L. 5226-1 du code de procédure pénale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L211-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Communication à l'administration pénitentiaire de l'expertise de L. 3542-1 du code de procédure pénale : règle propre, que le code de procédure pénale ne porte pas, utile au suivi en détention.",
-      "ligne_rouge": "art. 8 DDHC examiné : la communication sert le suivi médical, elle ne touche pas au prononcé"
+      "motif": "Miroir de l'ancien 763-7 du code de procédure pénale, absent du code de 2029. L. 5226-1 du code de procédure pénale porte la même règle sur un champ plus large.",
+      "ligne_rouge": "art. 8 DDHC examiné : la prise en charge médicale et psychologique adaptée du condamné à un suivi socio-judiciaire vit à L. 5226-1 du code de procédure pénale, rien n'est perdu"
     },
     {
       "code": "penitentiaire",
       "num": "L212-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de l'ancien article 122 du code de procédure pénale, absent du code de 2029 : L. 3444-2 porte la règle (la personne est conduite à la maison d'arrêt indiquée sur le mandat, où elle est reçue et détenue). Rien n'est perdu.",
+      "motif": "Miroir de l'ancien 122 du code de procédure pénale : L. 3444-2 porte la règle.",
       "ligne_rouge": "aucune"
     },
     {
@@ -76,7 +256,7 @@
       "num": "L212-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 3645-2 du code de procédure pénale, qui porte mot pour mot la reconnaissance de la remise délivrée par le chef de l'établissement.",
+      "motif": "Miroir de L. 3645-2 du code de procédure pénale, qui porte la reconnaissance de la remise.",
       "ligne_rouge": "aucune"
     },
     {
@@ -84,39 +264,15 @@
       "num": "L212-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Registre 6.3 : miroir du code pénitentiaire vers un autre code, abrogé. L'article renvoie aux articles L. 211-21, L. 212-105, L. 212-106, L. 212-119, L. 212-159 et L. 222-20 du code de justice militaire et recopie L. 211-21 (« conformément à ») sur la séparation des militaires : il dit lui-même que la règle vit dans l'autre code, qui s'applique sans lui. Aucun renvoi entrant.",
-      "ligne_rouge": "aucune garantie perdue : la règle demeure à sa source, applicable aux personnes détenues"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L212-4",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Miroir. Le renvoi à L. 6252-5 du code de procédure pénale (arrestation aux fins de remise) est erroné : L. 6253-5 porte la règle (conduite à la maison d'arrêt, incarcération ordonnée par le procureur). Rien n'est perdu.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'exécution de la peine prononcée par la Cour pénale internationale reste réglée par L. 6253-5 et suivants du code de procédure pénale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L212-5",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Miroir de L. 6241-2 du code de procédure pénale, qui porte la conduite à la maison d'arrêt et l'incarcération requise par le procureur. Rien n'est perdu.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'exécution du reliquat reste réglée par L. 6241-2 du code de procédure pénale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L212-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Acte d'écrou pour toute personne conduite ou présentée : titre de la détention, règle propre.",
-      "ligne_rouge": "art. 66 C examiné : l'écrou trace le titre de chaque détention"
+      "motif": "Registre 6.3 et 9.28 : miroir du code de justice militaire, qui s'applique sans lui.",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L212-7",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir du 3° de L. 6421-7 du code de procédure pénale, qui porte mot pour mot l'enregistrement de l'écrou au fichier des auteurs d'infractions terroristes et la vérification de l'information par les agents habilités du greffe.",
+      "motif": "Miroir du 3° de L. 6421-7 du code de procédure pénale (fichier des auteurs d'infractions terroristes).",
       "ligne_rouge": "aucune"
     },
     {
@@ -124,167 +280,91 @@
       "num": "L212-8",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir. La règle (enregistrement de l'écrou au fichier des auteurs d'infractions sexuelles ou violentes, vérification de l'information) est au 3° de L. 6411-9 du code de procédure pénale, qui vise l'information de L. 6411-12. Le renvoi au 3° de L. 6411-8 (décisions concernant les mineurs) et à l'ancien 706-53-6 est erroné.",
+      "motif": "Miroir du 3° de L. 6411-9 du code de procédure pénale (fichier des auteurs d'infractions sexuelles ou violentes).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
-      "num": "L212-9",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Bilan de personnalité après observation pluridisciplinaire : base du parcours d'exécution.",
-      "ligne_rouge": "aucune"
+      "num": "L212-4",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Miroir : L. 6253-5 du code de procédure pénale porte la conduite et la détention du condamné transféré par la Cour pénale internationale.",
+      "ligne_rouge": "art. 8 DDHC examiné : la conduite et la détention vivent à L. 6253-5 du code de procédure pénale, rien n'est perdu"
     },
     {
       "code": "penitentiaire",
-      "num": "L213-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Encellulement individuel prioritaire du détenu victime de violences : protection de la personne. La proposition de déclasser est écartée : la priorité est une garantie, le décret la met en œuvre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L213-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Encellulement individuel des prévenus.",
-      "ligne_rouge": "art. 9 DDHC et CEDH art. 3 examinés : présomption d'innocence et dignité"
+      "num": "L212-5",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Miroir de L. 6241-2 du code de procédure pénale, qui porte la conduite et l'incarcération du condamné transféré.",
+      "ligne_rouge": "art. 8 DDHC examiné : la conduite et l'incarcération vivent à L. 6241-2 du code de procédure pénale, rien n'est perdu"
     },
     {
       "code": "penitentiaire",
       "num": "L213-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Encellulement individuel des condamnés, de jour et de nuit en maison d'arrêt, de nuit en établissement pour peines.",
-      "ligne_rouge": "CEDH art. 3 examiné : dignité"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L213-5",
-      "decision": "G",
-      "principe": "P2",
-      "motif": "Dérogations à l'encellulement des prévenus en liste courte, cellules collectives adaptées : la règle générale assortie d'exclusions est déjà la forme de P2.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Encellulement individuel des condamnés : seconde phrase de L213-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L213-2"
     },
     {
       "code": "penitentiaire",
       "num": "L213-6",
-      "decision": "G",
-      "principe": "P2",
-      "motif": "Dérogations à l'encellulement des condamnés en liste courte : la règle générale assortie d'exclusions est déjà la forme de P2.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L213-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Isolement judiciaire sans perte des droits de L. 6 : L. 3645-16 du code de procédure pénale renvoie à cet article, qui est la source.",
-      "ligne_rouge": "CEDH art. 3 examiné : les droits sont gardés pendant l'isolement"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L213-8",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Isolement administratif borné à trois mois, débat contradictoire avec avocat au renouvellement, avis de l'autorité judiciaire au-delà d'un an : cet avis garantit les droits d'une personne isolée durablement, il reste (P15). La proposition de réécrire au titre de l'aménagement est sans objet.",
-      "ligne_rouge": "CEDH art. 3 et art. 16 DDHC examinés : durée bornée, contradictoire, avocat, contrôle de l'autorité judiciaire au-delà d'un an"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L213-9",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L214-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dossier individuel de chaque détenu, informations pénales et pénitentiaires : base du suivi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L214-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Communication aux autorités administratives des informations nécessaires, dont l'éloignement des étrangers : l'exécution de l'éloignement en dépend.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dérogations à l'encellulement des condamnés : mêmes cas que pour les prévenus, liste unique de L213-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L213-5"
     },
     {
       "code": "penitentiaire",
       "num": "L214-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 5514-2 du code de procédure pénale, qui porte la délivrance du bulletin n° 1 au greffe et au directeur du service. La mention de la libération sous contrainte, abrogée (lot 1), tombe avec lui.",
-      "ligne_rouge": "art. 8 DDHC examiné : la délivrance du bulletin n° 1 reste réglée par L. 5514-2 du code de procédure pénale"
+      "motif": "Miroir de L. 5514-2 du code de procédure pénale (bulletin n° 1 au greffe et au service).",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle vit dans l'article source du code de procédure pénale, qui porte l'annonce au prononcé et le contrôle du juge"
     },
     {
       "code": "penitentiaire",
       "num": "L214-4",
       "decision": "A",
-      "principe": "P10",
-      "motif": "Miroir de L. 5224-6 du code de procédure pénale, réécrit (lot p005), qui porte l'information par le greffe à l'écrou et y ajoute l'annonce du plafond au prononcé.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'annonce de la réduction et l'information à l'écrou vivent à L. 5224-6 du code de procédure pénale"
+      "principe": "P20",
+      "motif": "Miroir de L. 5224-6 du code de procédure pénale, réécrit (lot p005).",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle vit dans l'article source du code de procédure pénale, qui porte l'annonce au prononcé et le contrôle du juge"
     },
     {
       "code": "penitentiaire",
       "num": "L214-5",
       "decision": "A",
-      "principe": "P10",
-      "motif": "Miroir de L. 5224-1 à L. 5224-3 du code de procédure pénale. La coordination demandée par le lot p005 (aligner sur L5224-1 réécrit, qui exige les efforts d'indemnisation de la victime) se fait par l'abrogation : la condition vit une fois, à sa source, et le code pénitentiaire ne peut plus la contredire [arbitrage].",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction au mérite reste réglée par L. 5224-1 à L. 5224-3 du code de procédure pénale"
+      "principe": "P20",
+      "motif": "Miroir de L. 5224-1 à L. 5224-3 du code de procédure pénale : la condition de la réduction vit une fois, à sa source.",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle vit dans l'article source du code de procédure pénale, qui porte l'annonce au prononcé et le contrôle du juge"
     },
     {
       "code": "penitentiaire",
       "num": "L214-6",
       "decision": "A",
-      "principe": "P10",
-      "motif": "Miroir de L. 5224-13 du code de procédure pénale, qui porte la saisine du juge par le chef d'établissement aux fins de retrait.",
-      "ligne_rouge": "art. 8 DDHC examiné : le retrait reste réglé par L. 5224-13 du code de procédure pénale"
+      "principe": "P20",
+      "motif": "Miroir de L. 5224-13 du code de procédure pénale (saisine du juge aux fins de retrait).",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle vit dans l'article source du code de procédure pénale, qui porte l'annonce au prononcé et le contrôle du juge"
     },
     {
       "code": "penitentiaire",
       "num": "L214-7",
       "decision": "A",
-      "principe": "P10",
-      "motif": "Miroir de L. 5224-15 à L. 5224-17 du code de procédure pénale, réécrits (lot p005), qui portent la réduction exceptionnelle et son plafond.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction exceptionnelle reste réglée par L. 5224-15 à L. 5224-17 du code de procédure pénale"
+      "principe": "P20",
+      "motif": "Miroir de L. 5224-15 à L. 5224-17 du code de procédure pénale, réécrits (lot p005).",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle vit dans l'article source du code de procédure pénale, qui porte l'annonce au prononcé et le contrôle du juge"
     },
     {
       "code": "penitentiaire",
       "num": "L214-8",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir des articles 79, 84 et 85 du code civil, qui portent l'avis à l'officier de l'état civil, la rédaction de l'acte et l'absence de mention des circonstances du décès en détention.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L216-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Contrainte judiciaire exécutée en établissement, dans un quartier dédié : règle propre, à laquelle renvoie L. 5412-8 du code de procédure pénale. Le renvoi à l'ancien article 749, absent du code de 2029, se corrige vers L. 5412-1 (coordination demandée par le lot p016).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "l'article 749 du code de procédure pénale",
-          "nouveau": "l'article L. 5412-1 du code de procédure pénale"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L216-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Convention avec le département pour l'accompagnement des mères détenues et la sortie des enfants : intérêt de l'enfant. La proposition de déclasser est écartée : l'obligation de convention relève de la loi.",
+      "motif": "Miroir des articles 79, 84 et 85 du code civil (acte de décès en détention).",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
