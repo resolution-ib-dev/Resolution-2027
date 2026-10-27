@@ -9,102 +9,109 @@
   "decisions": [
     {
       "code": "cp",
-      "num": "R711-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Application aux trois collectivités du Pacifique, avec les exceptions (brocante, état civil) et le compteur du dernier décret. Le compteur se met à jour avec le décret qui porte la réécriture, comme 711-1 (lot p062).",
-      "ligne_rouge": "aucune"
+      "num": "D712-9",
+      "principe": "P1",
+      "motif": "Cible de la passe 2 (renvois coordonnés au code pénitentiaire), en deux phrases. Le contenu de la demande d'habilitation d'une tribu est une pièce de dossier : il descend à l'arrêté (P1).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le sénat coutumier et les conseils coutumiers de la Nouvelle-Calédonie, institutions coutumières habilitées par l'article 712-1-A à mettre en œuvre des travaux d'intérêt général, peuvent demander l'inscription de travaux sur la liste prévue par l'article 131-36, dans les conditions de l'article R. 623-7 du code pénitentiaire.\nLes tribus habilitées selon les articles R.* 623-1 à R. 623-3 du même code le peuvent aussi."
+        }
+      ]
     },
     {
       "code": "cp",
-      "num": "R711-2",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Application aux Terres australes et antarctiques françaises.",
-      "ligne_rouge": "aucune"
+      "num": "R711-1",
+      "principe": "P3",
+      "motif": "Clause d'application unique : Nouvelle-Calédonie, Polynésie française et Wallis-et-Futuna avec leurs exceptions, puis les Terres australes et antarctiques françaises (R711-2 fusionné). Le compteur du dernier décret se met à jour avec le décret de réécriture (registre 7.4). La coupure d'alinéa de la base au milieu de la phrase est réparée.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve des adaptations prévues au présent titre, les livres Ier à VI de la deuxième partie du présent code (Décrets en Conseil d'Etat), à l'exception des articles R. 321-1 à R. 321-12, R. 633-1 à R. 633-5, R. 635-3 à R. 635-7 et R. 645-6, sont applicables en Nouvelle-Calédonie et dans les territoires de la Polynésie française et des îles Wallis et Futuna dans leur rédaction résultant du décret n° 2026-723 du 1er août 2026.\nCes livres sont applicables sans exception dans les Terres australes et antarctiques françaises."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R711-3",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Grille de lecture locale (tribunal de première instance, représentant de l'État, Institut d'émission) : nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Table d'adaptations unique (technique 1) : le lexique local, la substitution générale des références, qui couvre désormais le code de la route (R712-1, R712-2), le code rural (R716-1) et le code du travail, et la seule adaptation de fond qui reste, l'avis aux représentants du personnel (R712-8, recalé sur R131-53). La substitution générale des références du 2° couvre aussi les fondements de police de R643-3 (R713-1, R713-2 fusionnés).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application des livres Ier à VI de la deuxième partie du présent code dans les collectivités mentionnées à l'article R. 711-1 :\n1° « Tribunal judiciaire » s'entend du tribunal de première instance, « département » du territoire, « préfet » et « sous-préfet » du représentant de l'Etat dans le territoire, « Banque de France » de l'Institut d'émission d'outre-mer.\n2° Les références à des dispositions qui n'y sont pas applicables, notamment au code de la route, au code du travail et au code rural et de la pêche maritime, sont remplacées par les références aux dispositions ayant le même objet applicables localement.\n3° L'avis de l'article R. 131-53 est adressé aux représentants du personnel prévus par les dispositions applicables localement."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "R711-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Application aux Terres australes et antarctiques françaises : un alinéa de R711-1. Renvoi entrant de A38-2 du code de procédure pénale à coordonner vers R711-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R711-1"
     },
     {
       "code": "cp",
       "num": "R712-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Certificat de conduite au regard du code de la route local : nécessaire, et cohérent avec R131-2 réécrit.",
-      "ligne_rouge": "aucune"
+      "motif": "Le certificat vaut au regard du code de la route applicable localement : la substitution générale des références de R711-3 le dit.",
+      "ligne_rouge": "aucune",
+      "vers": "R711-3"
     },
     {
       "code": "cp",
       "num": "R712-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Même adaptation pour l'interdiction de conduire certains véhicules (R131-4) : nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Même adaptation pour R131-4 : couverte par la substitution générale de R711-3.",
+      "ligne_rouge": "aucune",
+      "vers": "R711-3"
     },
     {
       "code": "cp",
       "num": "R712-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Adaptation locale de l'avis aux représentants du personnel, nécessaire (droit du travail local). Elle vise le deuxième alinéa de R131-36, qui porte aujourd'hui le plafond journalier du stage : la règle visée est à R131-53.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Avis aux représentants du personnel régis par le droit local : 3° de R711-3, recalé sur R131-53 (la passe 2 avait relevé que R131-36 ne porte plus cette règle).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Le deuxième alinéa de l'article R. 131-36",
-          "nouveau": "Le deuxième alinéa de l'article R. 131-53"
-        }
-      ]
-    },
-    {
-      "code": "cp",
-      "num": "D712-9",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Travail d'intérêt général auprès des institutions coutumières de Nouvelle-Calédonie, gardé comme 712-1 A (lot p062). Les articles R. 131-17 et R. 712-4, absents de la base, ont cédé la place aux articles R. 623-7 et R.* 623-1 à R. 623-3 du code pénitentiaire.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "conformément à l'article R. 131-17,",
-          "nouveau": "conformément à l'article R. 623-7 du code pénitentiaire,"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "selon la procédure prévue à l'article R. 712-4.",
-          "nouveau": "selon la procédure prévue aux articles R.* 623-1 à R. 623-3 du code pénitentiaire."
-        }
-      ]
+      "vers": "R711-3"
     },
     {
       "code": "cp",
       "num": "R713-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Références du code général des collectivités territoriales remplacées pour Wallis-et-Futuna dans R643-3 : nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "La substitution générale des références du 2° de R711-3 couvre les fondements de police de R643-3.",
+      "ligne_rouge": "aucune",
+      "vers": "R711-3"
     },
     {
       "code": "cp",
       "num": "R713-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Même substitution pour la Nouvelle-Calédonie (code des communes local) : nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "La substitution générale des références du 2° de R711-3 couvre les fondements de police de R643-3.",
+      "ligne_rouge": "aucune",
+      "vers": "R711-3"
     },
     {
       "code": "cp",
       "num": "R716-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "R511-1 adapté à la réglementation locale de l'expérimentation animale : nécessaire, et il vise déjà 521-2.",
-      "ligne_rouge": "aucune"
+      "motif": "R511-1 renvoie au code rural et de la pêche maritime : la substitution générale de R711-3 renvoie à la réglementation locale de même objet.",
+      "ligne_rouge": "aucune",
+      "vers": "R711-3"
     }
-  ]
+  ],
+  "passe": 3
 }
