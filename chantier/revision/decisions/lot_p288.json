@@ -10,49 +10,73 @@
     {
       "code": "cpp",
       "num": "L1511-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Appréhension de l'auteur d'un crime ou délit flagrant par toute personne, contrainte nécessaire et proportionnée, remise à l'officier de police judiciaire : la sûreté se défend, sous borne.",
-      "ligne_rouge": "art. 66 C examiné : la rétention par un particulier cesse à la remise à l'officier de police judiciaire, sous contrôle de l'autorité judiciaire. Art. 8 DDHC sans objet : aucune peine fixée"
+      "principe": "P23",
+      "motif": "Appréhension de l'auteur d'un crime ou délit flagrant par toute personne, contrainte nécessaire et proportionnée, remise à l'officier de police judiciaire : gardées, phrases resserrées.",
+      "ligne_rouge": "Sûreté et liberté de la personne appréhendée (art. 2 et 7 DDHC, art. 66 C) examinées : la contrainte reste nécessaire et proportionnée, la personne est remise sans délai à l'officier de police judiciaire. art. 8 DDHC : aucune peine en jeu.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas de crime flagrant ou de délit flagrant puni d'emprisonnement, toute personne a qualité pour appréhender l'auteur supposé et le conduire devant l'officier de police judiciaire le plus proche, ou le retenir jusqu'à sa remise à l'officier de police judiciaire avisé dans le meilleur délai permis par les circonstances. Elle ne recourt qu'à une contrainte nécessaire et proportionnée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1511-2",
+      "principe": "P19",
+      "motif": "Règle générale du silence de l'autorité judiciaire : recours contre le rejet implicite né de deux mois sans réponse. La demande se forme selon la formule unique du registre 5.4 ou au greffe : le recommandé papier n'est plus exigé. Les autres titres y renvoient au lieu d'organiser chacun le silence.",
+      "ligne_rouge": "Droit au recours (art. 16 DDHC) examiné : le silence de deux mois ouvre le recours, sauf recours propre prévu par la loi.",
       "decision": "S",
-      "principe": "P12",
-      "motif": "Recours contre le rejet implicite après deux mois sans réponse : les délais engagent l'État (P19). La demande se forme par tout moyen laissant une trace écrite, y compris par voie électronique, ou au greffe : le recommandé papier n'est plus exigé.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "à compter de la demande effectuée par lettre recommandée avec demande d'avis de réception ou par déclaration au greffe contre récépissé",
-          "nouveau": "à compter de la demande effectuée par tout moyen laissant une trace écrite, y compris par voie électronique, ou par déclaration au greffe contre récépissé"
+          "op": "rediger",
+          "nouveau": "Toute personne autorisée par le présent code à saisir le ministère public ou une juridiction d'une demande appelant une décision motivée susceptible de recours peut exercer ce recours contre la décision implicite de rejet née du silence gardé pendant deux mois. Le délai court de la demande, faite par tout moyen permettant d'en établir la date de réception ou par déclaration au greffe contre récépissé.\nLe présent article ne s'applique pas lorsque la loi prévoit un recours propre en l'absence de réponse."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1511-3",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Obligation de répondre aux réquisitions, amende délictuelle sans emprisonnement pour le retard, peine de 434-15-2 pour le refus de déchiffrement : la peine suit la gravité, l'emprisonnement est réservé à l'atteinte à la justice.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, graduée selon le dommage, le quantum relève du barème des délits et la juridiction garde la modulation au prononcé"
+      "principe": "P23",
+      "motif": "Obligation de répondre aux réquisitions, amende délictuelle pour le retard, peine de 434-15-2 pour le refus de déchiffrement : gardées, rédaction positive.",
+      "ligne_rouge": "art. 8 DDHC examiné : peines inchangées, amende délictuelle sans emprisonnement pour le retard, emprisonnement réservé à l'atteinte à la justice (P27).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne requise par un magistrat ou une autorité de police judiciaire agissant dans l'exercice de ses fonctions répond à la réquisition, sauf motif légitime.\nLorsque la réquisition est faite en application d'une disposition particulière du présent code et tend à la remise d'informations, le fait de s'abstenir d'y répondre dans les meilleurs délais est puni d'une amende délictuelle de 3 750 euros.\nLorsque la réquisition tend à la remise ou à la mise en œuvre de la convention secrète de déchiffrement d'un moyen de cryptologie susceptible d'avoir servi à préparer, faciliter ou commettre un crime ou un délit, le refus d'y répondre est puni des peines prévues à l'article 434-15-2 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1511-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Obligation de témoigner de l'innocence d'une personne détenue ou jugée, exemptions familiales et du secret : l'innocent n'est pas condamné faute de témoin. Sanction par renvoi à 434-11 du code pénal.",
-      "ligne_rouge": "art. 9 DDHC examiné : protection de l'innocent, tenue"
+      "principe": "P23",
+      "motif": "Obligation de témoigner de l'innocence d'une personne détenue ou jugée, exemptions familiales et du secret : gardées, énumération sans point-virgule.",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : l'obligation de témoigner de l'innocence est gardée, avec ses exemptions.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne qui connaît la preuve de l'innocence d'une personne détenue provisoirement ou jugée pour crime ou délit en apporte aussitôt le témoignage aux autorités judiciaires ou administratives. Cette obligation ne s'applique pas :\n1° À l'auteur ou au complice de l'infraction poursuivie, à ses parents en ligne directe, à ses frères et sœurs et à leurs conjoints.\n2° Au conjoint de l'auteur ou du complice, ou à la personne qui vit notoirement en situation maritale avec lui.\n3° Aux personnes astreintes au secret professionnel dans les conditions de l'article 226-13 du code pénal.\nSon non-respect est puni selon l'article 434-11 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1511-5",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Interdiction de modifier les lieux d'un crime ou délit flagrant, contravention de quatrième classe : sanction à sa place dans la hiérarchie.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, graduée selon le dommage, le quantum relève du barème des délits et la juridiction garde la modulation au prononcé"
+      "principe": "P23",
+      "motif": "Interdiction de modifier les lieux d'un crime ou délit flagrant, contravention de quatrième classe : gardées, phrase resserrée.",
+      "ligne_rouge": "art. 8 DDHC examiné : peine inchangée, contravention de quatrième classe.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les lieux d'un crime flagrant ou d'un délit flagrant puni d'emprisonnement, il est interdit à toute personne non habilitée de modifier l'état des lieux ou d'y effectuer des prélèvements avant les premières opérations de l'enquête judiciaire, sauf pour les exigences de la sécurité ou de la salubrité publique ou pour les soins aux victimes. Le non-respect de cette interdiction est puni de l'amende prévue pour les contraventions de la quatrième classe."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
