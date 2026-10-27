@@ -10,209 +10,282 @@
     {
       "code": "cp",
       "num": "111-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Classification tripartite des infractions : charpente du code.",
-      "ligne_rouge": "aucune"
+      "motif": "Classification tripartite : charpente du code, gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "111-2",
-      "decision": "G",
       "principe": "P1",
-      "motif": "Partage loi et règlement : crimes et délits à la loi, contraventions au règlement. C'est l'article 34 dans le code.",
-      "ligne_rouge": "aucune"
+      "motif": "Partage de la loi et du règlement (art. 34 et 37 C), gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "111-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Légalité des délits et des peines.",
-      "ligne_rouge": "art. 8 DDHC examiné : légalité des délits et des peines, noyau tenu"
-    },
-    {
-      "code": "cp",
-      "num": "111-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interprétation stricte de la loi pénale.",
-      "ligne_rouge": "art. 8 DDHC examiné : corollaire de la légalité, tenu"
-    },
-    {
-      "code": "cp",
-      "num": "111-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Le juge pénal interprète et apprécie la légalité des actes administratifs dont dépend le procès : une seule juridiction, pas de question préjudicielle qui allonge la procédure.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "112-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Non-rétroactivité de la loi pénale plus sévère et rétroactivité de la loi plus douce.",
-      "ligne_rouge": "art. 8 DDHC examiné : non-rétroactivité, noyau tenu"
-    },
-    {
-      "code": "cp",
-      "num": "112-2",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Application immédiate des lois de compétence, de procédure, d'exécution des peines et de prescription. Le 3° borne l'application immédiate des lois d'exécution plus sévères aux faits postérieurs : il commande l'entrée en vigueur de la réécriture de l'exécution (voir arbitrages).",
-      "ligne_rouge": "art. 8 DDHC examiné : non-rétroactivité des règles d'exécution plus sévères, tenue"
-    },
-    {
-      "code": "cp",
-      "num": "112-3",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Application des lois relatives aux voies de recours aux décisions postérieures : règle transitoire claire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "112-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Validité des actes accomplis sous la loi ancienne. La peine cesse de s'exécuter si le fait n'est plus une infraction.",
-      "ligne_rouge": "art. 8 DDHC examiné : nécessité de la peine, qui tombe avec l'incrimination, tenu"
-    },
-    {
-      "code": "cp",
-      "num": "113-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le territoire comprend les espaces maritime et aérien : définition socle.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "113-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Compétence réelle pour les atteintes aux intérêts fondamentaux, la fausse monnaie et les atteintes aux agents diplomatiques : protège la nation où que soit commis le fait.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "113-11",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Compétence pour les infractions à bord d'aéronefs étrangers quand l'auteur ou la victime est française ou quand l'appareil atterrit en France : protège la victime française.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "113-12",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Compétence au-delà de la mer territoriale quand les conventions et la loi le prévoient.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "113-13",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Compétence pour le terrorisme commis à l'étranger par un Français ou un résident habituel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "113-14",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Le 4° réserve l'article 435-11-2, propre à la corruption judiciaire étrangère, pour les articles 435-1 et 435-3, qui relèvent de 435-6-2 : coquille. 435-11-2 fusionne dans 435-6-2 (lot p050).",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Les deux phrases symétriques (éléments, peine) tiennent en une, la contravention au règlement en une seconde, construite de même (relecture adverse).",
+      "ligne_rouge": "légalité des délits et des peines (art. 8 DDHC) : éléments et peine définis par la loi, ou par le règlement pour la contravention, sans perte.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sans préjudice de l'article 435-11-2",
-          "nouveau": "sans préjudice de l'article 435-6-2"
+          "op": "rediger",
+          "nouveau": "Nul ne peut être puni pour un crime ou un délit dont les éléments ne sont pas définis par la loi, ni d'une peine que la loi ne prévoit pas. Nul ne peut être puni pour une contravention dont les éléments ne sont pas définis par le règlement, ni d'une peine que le règlement ne prévoit pas."
         }
       ]
     },
     {
       "code": "cp",
-      "num": "113-2",
-      "decision": "G",
+      "num": "111-4",
+      "principe": "P25",
+      "motif": "Interprétation stricte, gardée.",
+      "ligne_rouge": "légalité : interprétation stricte gardée mot pour mot.",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "111-5",
+      "principe": "P23",
+      "motif": "Verbe d'action au présent, même règle : une seule juridiction, sans question préjudicielle.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les juridictions pénales interprètent les actes administratifs, réglementaires ou individuels, et en apprécient la légalité lorsque la solution du procès pénal en dépend."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "112-1",
+      "principe": "P23",
+      "motif": "Non-rétroactivité de la loi plus sévère et rétroactivité de la loi plus douce, en phrases plus courtes, à droit constant.",
+      "ligne_rouge": "non-rétroactivité (art. 8 DDHC) et rétroactivité in mitius tenues mot pour mot sur le fond.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sont seuls punissables les faits constitutifs d'une infraction à la date à laquelle ils ont été commis. Seules peuvent être prononcées les peines légalement applicables à cette date.\nToutefois, la loi nouvelle moins sévère s'applique aux infractions commises avant son entrée en vigueur qui n'ont pas donné lieu à une condamnation passée en force de chose jugée."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "112-2",
+      "principe": "P23",
+      "motif": "Énumération sans point-virgule, la réserve du 3° en phrase propre. Droit constant : le 3° commande l'entrée en vigueur de la réécriture de l'exécution.",
+      "ligne_rouge": "non-rétroactivité des lois d'exécution plus sévères (3°) gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "S'appliquent immédiatement à la répression des infractions commises avant leur entrée en vigueur :\n1° Les lois de compétence et d'organisation judiciaire, tant qu'aucun jugement au fond n'a été rendu en première instance.\n2° Les lois fixant les modalités des poursuites et les formes de la procédure.\n3° Les lois relatives au régime d'exécution et d'application des peines. Celles qui rendraient plus sévères les peines prononcées ne s'appliquent qu'aux condamnations pour des faits commis après leur entrée en vigueur.\n4° Les lois relatives à la prescription de l'action publique et des peines, tant que la prescription n'est pas acquise."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "112-3",
+      "principe": "P23",
+      "motif": "Même règle transitoire, verbe au présent.",
+      "ligne_rouge": "droit au recours (art. 16 DDHC) : aucune voie de recours n'est retirée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les lois relatives à la nature et aux cas d'ouverture des voies de recours, à leurs délais et à la qualité des personnes admises à les exercer s'appliquent aux recours contre les décisions prononcées après leur entrée en vigueur. Les recours suivent les règles de forme en vigueur au jour où ils sont exercés."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "112-4",
+      "principe": "P25",
+      "motif": "Validité des actes antérieurs et fin d'exécution de la peine d'un fait dépénalisé, gardées.",
+      "ligne_rouge": "nécessité de la peine (art. 8 DDHC) : la peine d'un fait dépénalisé cesse de s'exécuter, gardé mot pour mot.",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "113-1",
       "principe": "P21",
-      "motif": "Compétence territoriale : un fait constitutif sur le territoire suffit.",
-      "ligne_rouge": "aucune"
+      "motif": "Définition socle du territoire, gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "113-2",
+      "principe": "P21",
+      "motif": "Compétence territoriale, gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "113-2-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Infraction commise par réseau électronique au préjudice d'une personne résidant en France : réputée commise en France. Protège la victime sans détour par l'étranger.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Même règle, phrase allégée : la victime résidant en France est protégée sans détour par l'étranger.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le crime ou le délit commis ou tenté au moyen d'un réseau de communication électronique au préjudice d'une personne physique résidant sur le territoire de la République, ou d'une personne morale qui y a son siège, est réputé commis sur ce territoire."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "113-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Compétence du pavillon français.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "113-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Compétence de l'immatriculation française des aéronefs.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Le pavillon et l'immatriculation suivent la même règle : 113-4 y fusionne. Droit constant, y compris la compétence exclusive pour les navires et aéronefs militaires.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La loi pénale française s'applique aux infractions commises à bord des navires battant pavillon français et des aéronefs immatriculés en France, ou à l'encontre de ces navires, de ces aéronefs ou des personnes à bord, en quelque lieu qu'ils se trouvent.\nElle est seule applicable lorsqu'il s'agit des navires de la marine nationale ou des aéronefs militaires français."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "113-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Complicité en France d'un crime ou délit commis à l'étranger, et provocation en France aux crimes du livre II.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Même règle, phrases allégées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La loi pénale française s'applique à quiconque s'est rendu complice, sur le territoire de la République, d'un crime ou d'un délit commis à l'étranger, si le fait est puni à la fois par la loi française et par la loi étrangère et s'il a été constaté par une décision définitive de la juridiction étrangère.\nElle s'applique aussi aux actes de complicité prévus au second alinéa de l'article 121-7 commis sur ce territoire en vue d'un crime prévu au livre II commis à l'étranger."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "113-6",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Compétence personnelle active. Le renvoi à l'article 692 du code de procédure pénale est coordonné par l'ordonnance n° 2025-1091 : la version en vigueur au 1er janvier 2029 vise l'article L. 6212-1.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Le titre du règlement européen et les tournures passives tombent. Le dernier alinéa reste le dernier : 113-11 y renvoie.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La loi pénale française s'applique à tout crime commis par un Français hors du territoire de la République.\nElle s'applique aux délits commis par des Français hors du territoire de la République si les faits sont punis par la législation du pays où ils ont été commis.\nElle s'applique aux infractions au règlement (CE) n° 561/2006 du Parlement européen et du Conseil du 15 mars 2006 commises dans un autre État membre de l'Union européenne et constatées en France, sous réserve de l'article L. 6212-1 du code de procédure pénale ou de la justification d'une sanction administrative exécutée ou qui ne peut plus l'être.\nLe présent article s'applique même si le prévenu a acquis la nationalité française après le fait qui lui est imputé."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "113-7",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Compétence personnelle passive : crime ou délit puni d'emprisonnement commis contre une victime française. Si le barème remplace l'emprisonnement par l'amende pour des délits formels (P27), ces délits sortent du champ : effet à suivre au barème.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article fonde une compétence, non une peine, tenu"
+      "motif": "Compétence personnelle passive, gardée. Le délit formel passé en amende (P27) sort de son champ, effet suivi au barème.",
+      "ligne_rouge": "légalité de la compétence (art. 8 DDHC) : critère de l'emprisonnement gardé.",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "113-8",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Délits commis à l'étranger : au 1er janvier 2029, l'article renvoie aux articles L. 1212-5 à L. 1212-8 du code de procédure pénale (poursuite par le seul parquet, plainte ou dénonciation officielle préalable, dispenses). La règle vit une fois, au code de procédure. L'ouverture à la victime se pose à l'auteur (voir arbitrages).",
-      "ligne_rouge": "aucune"
+      "motif": "Renvoi au code de procédure, où la règle vit une fois. Gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "113-8-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Compétence de substitution quand la France refuse l'extradition : la personne ne reste pas impunie.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article fonde une compétence, le quantum relève du barème"
+      "principe": "P23",
+      "motif": "Les quatre motifs de refus passent en liste, le « sans préjudice » tombe (P20) : les articles 113-6 à 113-8 s'appliquent d'eux-mêmes.",
+      "ligne_rouge": "légalité de la compétence (art. 8 DDHC) : seuil de cinq ans, quatre motifs et monopole du parquet gardés à l'identique.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La loi pénale française s'applique aussi à tout crime ou délit puni d'au moins cinq ans d'emprisonnement commis hors du territoire de la République par un étranger dont l'extradition ou la remise a été refusée par les autorités françaises pour l'un des motifs suivants :\n1° Le fait est puni d'une peine ou d'une mesure de sûreté contraire à l'ordre public français.\n2° La personne serait jugée par un tribunal qui n'assure pas les garanties fondamentales de procédure et les droits de la défense.\n3° Le fait est une infraction politique.\n4° L'extradition ou la remise serait susceptible d'avoir pour la personne des conséquences d'une gravité exceptionnelle, notamment en raison de son âge ou de son état de santé.\nLa poursuite n'est exercée qu'à la requête du ministère public."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "113-9",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Pas de nouvelle poursuite contre la personne jugée définitivement à l'étranger pour les mêmes faits.",
-      "ligne_rouge": "CEDH (protocole 7, art. 4) et art. 8 DDHC examinés : non bis in idem, tenu"
+      "motif": "Non bis in idem international, gardé.",
+      "ligne_rouge": "non bis in idem (art. 8 DDHC, CEDH protocole 7) gardé mot pour mot.",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "113-10",
+      "principe": "P23",
+      "motif": "Une phrase de soixante-dix mots devient une liste de trois cas, à droit constant.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La loi pénale française s'applique aux crimes et délits suivants commis hors du territoire de la République :\n1° Les atteintes aux intérêts fondamentaux de la nation réprimées par le titre Ier du livre IV.\n2° La falsification et la contrefaçon du sceau de l'État, de pièces de monnaie, de billets de banque ou d'effets publics réprimées par les articles 442-1, 442-2, 442-5, 442-15, 443-1 et 444-1.\n3° Tout crime ou délit contre les agents ou les locaux diplomatiques ou consulaires français."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "113-11",
+      "principe": "P23",
+      "motif": "L'appréciation de la nationalité rejoint le 1° qu'elle précise, liste sans point-virgule.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve de l'article 113-9, la loi pénale française s'applique aux crimes et délits commis à bord ou à l'encontre des aéronefs non immatriculés en France, ou des personnes à bord :\n1° Lorsque l'auteur ou la victime est de nationalité française, appréciée selon le dernier alinéa de l'article 113-6 et l'article 113-7.\n2° Lorsque l'appareil atterrit en France après le crime ou le délit.\n3° Lorsque l'aéronef a été loué sans équipage à une personne qui a le siège principal de son exploitation ou, à défaut, sa résidence permanente sur le territoire de la République."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "113-12",
+      "principe": "P21",
+      "motif": "Gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "113-13",
+      "principe": "P21",
+      "motif": "Gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "113-14",
+      "principe": "P23",
+      "motif": "Liste sans point-virgule, intitulés allégés. Le « sans préjudice de l'article 435-6-2 » tombe (P20) : 435-6-2, qui reçoit 435-11-2 (lot p050), s'applique de lui-même. Le dernier alinéa dit la même dispense en une phrase.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Par dérogation au deuxième alinéa de l'article 113-6, la loi pénale française s'applique en toutes circonstances aux délits suivants commis à l'étranger par un Français, ou par une personne qui réside habituellement ou exerce tout ou partie de son activité économique sur le territoire français, lorsqu'ils portent atteinte aux recettes, aux dépenses ou aux avoirs du budget de l'Union européenne, des budgets de ses institutions, organes et organismes ou des budgets qu'ils gèrent et contrôlent directement :\n1° L'escroquerie prévue à la section 1 du chapitre III du titre Ier du livre III.\n2° L'abus de confiance prévu à la section 1 du chapitre IV du titre Ier du livre III.\n3° La soustraction, le détournement ou la destruction de biens prévus aux articles 432-15 et 433-4.\n4° La corruption prévue aux articles 432-11, 433-1, 435-1 et 435-3.\n5° La contrebande, l'importation ou l'exportation frauduleuse prévues à l'article 414-2 du code des douanes.\n6° Le blanchiment, prévu à la section 1 du chapitre IV du titre II du livre III, de ces délits.\nLa complicité commise sur le territoire français de l'un de ces délits se poursuit sans les conditions de l'article 113-5."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "113-4",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compétence de l'immatriculation des aéronefs : même règle que le pavillon des navires, réunie à 113-3. Aucun renvoi entrant.",
+      "ligne_rouge": "aucune",
+      "vers": "113-3"
     }
-  ]
+  ],
+  "passe": 3
 }
