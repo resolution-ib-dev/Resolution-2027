@@ -10,26 +10,45 @@
     {
       "code": "cpp",
       "num": "D47-5",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Carte des pôles santé publique de Marseille et Paris : relève du décret. Renvoi à l'ancien 706-2 (L2152-23) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P2",
+      "motif": "Carte des pôles de santé publique : Marseille pour sept cours d'appel, Paris pour toutes les autres et le tribunal supérieur d'appel de Saint-Pierre-et-Miquelon. La liste de Paris s'inverse (P2) : « les autres cours d'appel, sauf celle de Mamoudzou » remplace l'énumération de vingt-neuf ressorts, sans changer le partage : Mayotte reste hors de la carte, comme en 2029 (relecture adverse). Ancien 706-2 : L2152-23 (2029).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les pôles de santé publique prévus à l'article L. 2152-23 sont :\n1° Le tribunal judiciaire de Marseille, dans le ressort des cours d'appel d'Aix-en-Provence, Bastia, Chambéry, Grenoble, Lyon, Nîmes et Montpellier.\n2° Le tribunal judiciaire de Paris, dans le ressort des autres cours d'appel, sauf celle de Mamoudzou, et du tribunal supérieur d'appel de Saint-Pierre-et-Miquelon."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D47-5-1",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Carte des pôles régionaux de l'environnement : relève du décret. Renvoi à l'ancien 706-2-3 (L2152-24) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P2",
+      "motif": "Carte des pôles régionaux de l'environnement : une règle (le tribunal judiciaire du siège de la juridiction d'appel) et la liste des quatorze ressorts qui y dérogent, au lieu d'un tableau de trente-sept lignes. Les ressorts de la règle sont nommés, pour que la carte reste exacte. Ancien 706-2-3 : L2152-24 (2029).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le pôle régional de l'environnement prévu à l'article L. 2152-24 est le tribunal judiciaire de la ville où siège la juridiction d'appel, pour les cours d'appel d'Agen, Amiens, Angers, Basse-Terre, Bastia, Besançon, Bordeaux, Cayenne, Dijon, Fort-de-France, Grenoble, Limoges, Lyon, Metz, Montpellier, Nancy, Nîmes, Nouméa, Papeete, Paris, Rouen et Toulouse et pour le tribunal supérieur d'appel de Saint-Pierre-et-Miquelon. Pour les autres cours d'appel, c'est le tribunal judiciaire suivant :\n1° Aix-en-Provence : Marseille.\n2° Bourges : Châteauroux.\n3° Caen : Coutances.\n4° Chambéry : Annecy.\n5° Colmar : Strasbourg.\n6° Douai : Lille.\n7° Orléans : Tours.\n8° Pau : Bayonne.\n9° Poitiers : La Rochelle.\n10° Reims : Troyes.\n11° Rennes : Brest.\n12° Riom : Clermont-Ferrand.\n13° Saint-Denis de La Réunion : Saint-Pierre.\n14° Versailles : Nanterre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D47-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Qualifications des assistants spécialisés en santé et environnement : garantie de compétence. Renvois aux anciens 706-2 et 706-2-3 (L2152-23, L2152-24) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P1",
+      "motif": "Conditions d'accès aux fonctions d'assistant spécialisé en matière sanitaire ou environnementale : renvoi aux conditions de fonction publique et d'expérience de D47-4, diplôme propre à la matière. La liste des dix-sept matières descend à l'arrêté du garde des sceaux (P1), comme celle de D47-4. Anciens 706-2 et 706-2-3 : 4° de L2172-2 (2029).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "D",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peut exercer les fonctions d'assistant spécialisé en matière sanitaire ou environnementale auprès d'un pôle mentionné au 4° de l'article L. 2172-2 la personne qui remplit les conditions d'accès à la fonction publique et d'expérience prévues à l'article D. 47-4 et est titulaire d'un diplôme national sanctionnant au moins quatre années d'études supérieures après le baccalauréat dans une matière sanitaire, environnementale, agricole, technique ou juridique dont la liste est fixée par arrêté du garde des sceaux, ministre de la justice."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
