@@ -10,301 +10,347 @@
     {
       "code": "cp",
       "num": "R131-1",
-      "decision": "G",
       "principe": "P7",
-      "motif": "La juridiction qui limite la suspension du permis à la conduite hors activité professionnelle en fixe les conditions : décret exigé par 131-6, 1°.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "R131-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Certificat de conduite professionnelle remis contre le permis suspendu. Le renvoi à l'article R. 123 du code de la route vise l'ancien code, abrogé : il passe au code de la route.",
+      "motif": "Gardé : décret exigé par 131-6, 1°.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "notamment au regard de l'article R. 123 du code de la route,",
-          "nouveau": "au regard du code de la route,"
-        }
-      ]
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "R131-3",
-      "decision": "G",
       "principe": "P7",
-      "motif": "La juridiction définit les catégories de véhicules interdites et la durée : exécution précise de la peine prononcée.",
-      "ligne_rouge": "aucune"
+      "motif": "Gardé. R17-4-1 du code de procédure pénale vise la suite R. 131-3 à R. 131-4-1.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "R131-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Certificat remis en échange du permis. Le renvoi aux articles R. 221-1-1 à R. 221-3 du « nouveau » code de la route vise un article absent de la base (R. 221-3) : il passe au code de la route, comme R131-2.",
+      "principe": "P23",
+      "motif": "Règle unique du certificat (technique 2) : la suspension limitée (R131-2) et l'interdiction partielle avaient le même certificat, à deux mentions près. R131-2 y fusionne. Renvoi au « nouveau » code de la route corrigé (passe 2). L'avant-dernier alinéa reste la justification du droit de conduire, le 4° reste la mention que R131-4-1 écarte. Renvois à coordonner : R712-1 (adaptation outre-mer du deuxième alinéa de R131-2), R712-2 (avant-dernier alinéa de R131-4), R15-33-53 du code de procédure pénale (« R. 131-2 ou R. 131-4 du code pénal » devient « R. 131-4 du code pénal ») et, s'il survit à la règle des miroirs (registre 9.28), R624-4 du code pénitentiaire (renvoi à R131-40 devenu R131-39).",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "notamment au regard des articles R. 221-1-1 à R. 221-3 du nouveau code de la route,",
-          "nouveau": "au regard du code de la route,"
+          "op": "rediger",
+          "nouveau": "Lorsque le condamné est titulaire d'un permis de conduire, l'agent de l'autorité chargé de l'exécution d'une interdiction de conduire certains véhicules, ou d'une suspension du permis limitée à la conduite en dehors de l'activité professionnelle, lui remet, en échange de ce permis, un certificat établi par le greffier de la juridiction.\nCe certificat mentionne :\n1° La date de la décision, la juridiction qui l'a prononcée et la durée de la mesure.\n2° Les nom, prénoms, date et lieu de naissance, profession et domicile de l'intéressé.\n3° Les références du permis de conduire et les indications qui y sont portées, y compris ses limitations et restrictions de validité.\n4° Selon le cas, la ou les catégories de véhicules pour lesquelles le permis cesse d'être valable, ou l'activité professionnelle pour laquelle la conduite reste autorisée, avec ses conditions et les catégories de véhicules autorisées.\nLe certificat comporte une photographie récente du condamné. Il vaut justification du droit de conduire au regard du code de la route, dans les limites fixées par la juridiction.\nA l'issue de la mesure, le greffier de la juridiction restitue le permis de conduire au condamné contre remise du certificat."
         }
       ]
     },
     {
       "code": "cp",
       "num": "R131-4-1",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Interdiction de conduire un véhicule non équipé d'éthylotest antidémarrage : certificat et rappels. Renvois vérifiés (L. 234-13, L. 234-16, R. 233-1, 5°, et R. 234-5 du code de la route).",
-      "ligne_rouge": "art. 8 DDHC examiné : modalité d'exécution d'une peine prononcée par la juridiction, sans effet sur le quantum"
+      "principe": "P23",
+      "motif": "Mêmes règles, phrases au présent. Les deux premiers alinéas, que vise R15-33-53-1 du code de procédure pénale, gardent leur objet.",
+      "ligne_rouge": "nécessité et exécution de la peine (art. 8 DDHC) : la peine prononcée s'exécute selon ses termes, aucune règle d'exécution retirée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sauf si elle a été prononcée en application des dispositions de l'article L. 234-13 du code de la route, lorsqu'est prononcée la peine d'interdiction de conduire un véhicule qui ne soit pas équipé par un professionnel agréé ou par construction d'un dispositif homologué d'antidémarrage par éthylotest électronique, les dispositions de l'article R. 131-4 sont applicables, à l'exception du 4°.\nLe certificat remis au condamné mentionne que celui-ci n'est autorisé à conduire qu'un véhicule équipé du dispositif prévu au premier alinéa. Il indique que l'intéressé présente, à toute réquisition de l'autorité publique, les documents mentionnés au 5° de l'article R. 233-1 du code de la route. Il rappelle les articles L. 234-16 et R. 234-5 du même code.\nLorsque cette peine est prononcée en même temps qu'une annulation ou une suspension du permis de conduire, le certificat n'est remis qu'à l'issue de l'exécution de celle-ci."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Exécution de l'immobilisation par un officier ou, sous son autorité, un agent de police judiciaire : offices tenus.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "R131-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Mise en demeure de présenter le véhicule : premier acte d'exécution, nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "R131-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Lieu d'immobilisation, remise du certificat d'immatriculation, procès-verbal : exécution vérifiable.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "La mise en œuvre de l'immobilisation en un article : l'agent, la mise en demeure (R131-6), le lieu, le certificat et le procès-verbal (R131-7).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'immobilisation d'un véhicule ordonnée par décision de justice est exécutée par un officier de police judiciaire ou, sous l'autorité de celui-ci, par un agent de police judiciaire. L'agent met en demeure le condamné de présenter son véhicule aux date et lieu qu'il fixe.\nL'immobilisation est exécutée dans un local dont le condamné a la libre disposition dans le département de sa résidence ou, à défaut, dans un lieu désigné par l'agent. Le condamné remet à l'agent le certificat d'immatriculation du véhicule.\nUn procès-verbal est dressé sur-le-champ. Il mentionne la date de la condamnation et la juridiction qui l'a prononcée, la durée de l'immobilisation, les nom, prénoms, date et lieu de naissance et domicile de l'intéressé, les date, heure et lieu d'immobilisation, les éléments d'identification du véhicule et son kilométrage."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-8",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Scellés et immobilisation technique pendant la peine : la peine prononcée s'exécute.",
-      "ligne_rouge": "art. 8 DDHC examiné : modalité d'exécution d'une peine prononcée par la juridiction, sans effet sur le quantum"
-    },
-    {
-      "code": "cp",
-      "num": "R131-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Accès de l'agent au lieu d'immobilisation et compte rendu au procureur des incidents : contrôle de l'exécution.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "R131-10",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Fin de l'immobilisation et restitution du certificat au terme de la peine : ni avant, ni après.",
-      "ligne_rouge": "art. 8 DDHC examiné : modalité d'exécution d'une peine prononcée par la juridiction, sans effet sur le quantum"
-    },
-    {
-      "code": "cp",
-      "num": "R131-10-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "L'immobilisation administrative en fourrière (L. 325-1-1 du code de la route) s'impute sur la peine : même contrainte, comptée une fois, comme la détention provisoire.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'imputation évite une double contrainte pour le même fait, nécessité tenue"
+      "principe": "P23",
+      "motif": "La durée de l'immobilisation en un article : scellés, contrôle (R131-9), imputation de la fourrière (R131-10-1) et fin (R131-10).",
+      "ligne_rouge": "nécessité et exécution de la peine (art. 8 DDHC) : la peine s'exécute en entier, l'immobilisation administrative s'impute, ni avant ni après son terme.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pendant l'exécution de la peine, le véhicule est placé sous scellés et, en tant que de besoin, immobilisé par un moyen technique. L'agent de l'autorité a le droit d'accéder au lieu d'immobilisation. Il rend compte au procureur de la République de tout incident d'exécution.\nLorsque le véhicule a déjà été immobilisé et mis en fourrière en application de l'article L. 325-1-1 du code de la route, cette immobilisation s'impute sur la durée de la peine.\nL'immobilisation cesse et le certificat d'immatriculation est restitué dès la fin de la peine."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-11",
-      "decision": "G",
       "principe": "P21",
-      "motif": "L'immobilisation ne fait obstacle ni aux saisies ou confiscations judiciaires ni aux droits réels antérieurs des créanciers.",
-      "ligne_rouge": "art. 17 DDHC (propriété) examiné : les droits des créanciers antérieurs sont préservés"
+      "motif": "Gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "R131-11-1",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Stage de sécurité routière dispensé par les organismes agréés du code de la route, sauf stage organisé par l'autorité judiciaire. Les articles R. 131-41 à R. 131-44 sont absents de la base : le renvoi s'arrête à R. 131-40.",
+      "motif": "Texte de la passe 2 : renvoi arrêté à R. 131-40, « des dispositions » tombe.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "R. 131-35 à R. 131-44",
-          "nouveau": "R. 131-35 à R. 131-40"
+          "op": "rediger",
+          "nouveau": "Le stage de sensibilisation à la sécurité routière prévu par le 2° de l'article 131-5-1 est dispensé, dans les conditions fixées par les articles R. 223-5 à R. 223-13 du code de la route, par les personnes agréées selon les modalités définies par ces articles, sauf lorsque ces stages ont été mis en place conformément aux articles R. 131-35 à R. 131-40."
         }
       ]
     },
     {
       "code": "cp",
       "num": "R131-12",
-      "decision": "G",
       "principe": "P9",
-      "motif": "Pont vers le code pénitentiaire (R. 623-1 à R. 623-23), où vit désormais le régime du travail d'intérêt général : la règle vit une fois, le renvoi la rend trouvable.",
-      "ligne_rouge": "aucune"
+      "motif": "Pont vers le code pénitentiaire, gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "R131-35",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Objet de chacun des stages de 131-5-1, cadre commun des organisateurs. Les stages des 8° (maltraitance animale) et 9° (respect des personnes en ligne) de 131-5-1 n'y ont pas de contenu : lacune signalée, à compléter par l'auteur ou à laisser à la juridiction qui en fixe le contenu.",
-      "ligne_rouge": "P18 examiné : les stages rappellent la responsabilité civile envers la victime"
+      "principe": "P23",
+      "motif": "Objet commun des stages en tête, objet propre de chacun en une ligne : les « a pour objet », « doit permettre » et « vise également » répétés tombent. Le contenu reste au décret et à la juridiction (131-5-1), aucun arrêté (relecture adverse) : un décret ne restreint pas la faculté que la loi donne au juge. Les stages des 8° et 9° de 131-5-1 restent au contenu fixé par la juridiction.",
+      "ligne_rouge": "individualisation au prononcé (art. 8 DDHC) : la juridiction précise le contenu du stage, comme le prévoit 131-5-1.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les stages prévus par l'article 131-5-1 font prendre conscience au condamné de sa responsabilité pénale et civile, des conséquences de l'infraction pour la victime et pour la société, et des devoirs qu'implique la vie en société. Chacun a en outre l'objet suivant :\n1° Le stage de citoyenneté rappelle les valeurs républicaines de tolérance et de respect de la dignité de la personne humaine et vise l'insertion sociale du condamné. Prononcé pour une infraction commise avec la circonstance aggravante prévue par l'article 132-76, il rappelle l'existence des crimes contre l'humanité, notamment ceux commis pendant la Seconde Guerre mondiale.\n2° Le stage de sensibilisation à la sécurité routière vise à éviter la réitération des comportements dangereux.\n3° Le stage de sensibilisation aux dangers de l'usage de produits stupéfiants fait prendre conscience des conséquences de cet usage pour la santé humaine et pour la société.\n4° Le stage de responsabilisation pour la prévention et la lutte contre les violences au sein du couple et sexistes rappelle le principe d'égalité entre les femmes et les hommes, la gravité de ces violences et le devoir de respect mutuel qu'implique la vie en couple.\n5° Le stage de sensibilisation à la lutte contre l'achat d'actes sexuels rappelle les réalités de la prostitution et les conséquences de la marchandisation du corps.\n6° Le stage de responsabilité parentale rappelle les obligations juridiques, économiques, sociales et morales qu'implique l'éducation d'un enfant.\n7° Le stage de lutte contre le sexisme fait prendre conscience de la gravité des violences sexuelles ou sexistes, dans l'espace public comme dans l'espace privé, notamment au travail, et du caractère discriminatoire et dégradant des comportements sexistes. Il comporte des éléments sur l'histoire de l'émancipation des femmes et du principe républicain d'égalité.\nLa juridiction précise le contenu du stage prononcé, en application de l'article 131-5-1."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-36",
-      "decision": "S",
       "principe": "P14",
-      "motif": "La durée du stage, élément de la peine prononcée (un mois au plus, 131-5-1), se fixait en tenant compte des obligations familiales, sociales ou professionnelles. Ce critère applique 132-1, al. 3 : le décret ne peut l'écarter tant que la loi le pose. Le retrait prend effet avec la réécriture de 132-1 (lot p056), qui fait passer la situation au régime d'exécution. Plafond journalier de six heures gardé.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction fixe et module la durée dans le plafond légal, individualisation au prononcé tenue. Strate examinée : le retrait suit la loi et ne la précède pas",
+      "motif": "Texte de la passe 2 : la situation du condamné sort du quantum avec la réécriture de 132-1 (lot p056). Plafond de six heures gardé. Le deuxième alinéa reste le deuxième, que vise l'adaptation R712-8.",
+      "ligne_rouge": "individualisation au prononcé (art. 8 DDHC) : la juridiction fixe la durée dans la limite légale d'un mois, critère aligné sur 132-1 réécrit.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": " en tenant compte des obligations familiales, sociales ou professionnelles du condamné majeur",
-          "nouveau": ""
+          "op": "rediger",
+          "nouveau": "La durée du stage est fixée par la juridiction.\nLa durée journalière de formation effective ne peut excéder six heures."
         }
       ]
     },
     {
       "code": "cp",
       "num": "R131-37",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Sessions collectives, contrôle du délégué du procureur ou du service pénitentiaire, gardés. L'avis du président du tribunal judiciaire sur le projet de stage, que le procureur valide, ne protège aucune liberté : il tombe.",
-      "ligne_rouge": "art. 8 DDHC examiné : la nature et le contenu du stage restent fixés par la juridiction au prononcé (131-5-1), le projet ne fait que les mettre en œuvre",
+      "motif": "Texte de la passe 2 : l'avis du président du tribunal judiciaire tombe. Les deux contrôleurs possibles en une phrase.",
+      "ligne_rouge": "nécessité et exécution de la peine (art. 8 DDHC) : le stage reste adapté à la personnalité et à l'infraction, sous le contrôle du parquet.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": " après avis du président du tribunal judiciaire",
-          "nouveau": ""
+          "op": "rediger",
+          "nouveau": "Le stage est organisé en sessions collectives, continues ou discontinues, composées d'un ou plusieurs modules de formation adaptés à la personnalité des condamnés et à la nature de l'infraction commise.\nIl est mis en oeuvre sous le contrôle du délégué du procureur de la République du lieu d'exécution de la peine ou du service pénitentiaire d'insertion et de probation. Celui qui en contrôle la mise en oeuvre élabore un projet de contenu, validé par le procureur de la République."
         }
       ]
     },
     {
       "code": "cp",
       "num": "R131-38",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Modules élaborés avec les collectivités et les associations d'aide aux victimes, par convention : le stage associe ceux qui connaissent le dommage. Renvois aux anciens articles 2-16, 2-2 et 2-6 du code de procédure pénale à coordonner (L. 1225-15, L. 1225-12, L. 1225-4).",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Une règle pour tous les stages au lieu d'une phrase par stage : les partenaires nommés stage par stage deviennent les missions d'intérêt général qui les définissent. Les renvois aux anciens articles 2-2, 2-6 et 2-16 du code de procédure pénale tombent avec eux. Les associations d'aide aux victimes restent nommées (P18).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les modules du stage peuvent être élaborés avec le concours des collectivités territoriales, des établissements publics et des personnes publiques ou privées qui participent à des missions d'intérêt général, notamment d'accès au droit, d'aide aux usagers de stupéfiants, d'accompagnement parental ou d'aide aux victimes.\nUn module ainsi élaboré fait l'objet d'une convention entre le procureur de la République, agissant au nom de l'Etat, et cette personne. La convention précise le contenu du module, sa durée, ses objectifs particuliers, les modalités de la prestation et celles du financement des frais engagés."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-39",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le condamné est informé, avant le stage, des conséquences d'un manquement (434-41, 131-9) : la loi dit à l'avance ce qui se passe.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "R131-40",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Attestation de fin de stage adressée au contrôleur : preuve de l'exécution, sans forme papier imposée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Déroulement et fin du stage en un article (R131-40 y fusionne). Le condamné sait à l'avance ce qui suit un manquement.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant le stage, la personne ou le service qui en a la charge reçoit le condamné et lui en expose les objectifs. Il lui précise les conséquences du non-respect de ses obligations, telles qu'elles découlent de l'article 434-41 ou telles que la juridiction les a fixées en application de l'article 131-9.\nUne attestation de fin de stage est délivrée au condamné, qui l'adresse à la personne ou au service chargé d'en contrôler la mise en oeuvre."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-45",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Sanction-réparation : justification de chaque versement au procureur et convocation possible avec la partie civile en cas de retard. L'indemnisation de la victime est suivie jusqu'au bout.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article organise le contrôle de l'exécution, la peine en cas de défaut est fixée au prononcé (131-8-1) ; P18 examiné : la partie civile peut être associée"
+      "motif": "Mêmes règles, phrases au présent : l'indemnisation de la victime est suivie jusqu'au bout.",
+      "ligne_rouge": "nécessité et exécution de la peine (art. 8 DDHC) : le suivi de l'exécution et la convocation avec la partie civile restent.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dès que la condamnation à la sanction-réparation est exécutoire, le procureur de la République ou son délégué informe le condamné qu'il doit lui justifier de l'indemnisation de la victime ou de la remise en état des lieux au plus tard à l'expiration du délai fixé. Lorsque la juridiction a échelonné l'indemnisation, chaque versement est justifié, sauf décision contraire du procureur ou de son délégué.\nEn cas de remise en état des lieux ou de retard dans l'indemnisation, le délégué du procureur peut convoquer le condamné, le cas échéant avec la partie civile, pour faciliter ou vérifier l'exécution de la peine."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-50",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Confiscation d'un animal remis à une fondation non désignée : le procureur choisit l'organisme. Exécution, non jugement.",
-      "ligne_rouge": "art. 8 DDHC examiné : modalité d'exécution d'une peine prononcée par la juridiction, sans effet sur le quantum"
+      "motif": "Gardé.",
+      "ligne_rouge": "nécessité et exécution de la peine (art. 8 DDHC) : exécution par le parquet de la peine prononcée, gardée mot pour mot.",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "R131-51",
-      "decision": "G",
       "principe": "P9",
-      "motif": "Frais de placement d'un animal saisi chez un non-propriétaire : la juridiction statue. Cas propre, distinct de 131-21-1, al. 5 (animal du condamné). Renvoi à l'ancien article 99-1 du code de procédure pénale à coordonner (L. 3532-27 à L. 3532-30).",
-      "ligne_rouge": "aucune"
+      "motif": "Gardé. Renvoi à l'ancien article 99-1 du code de procédure pénale à coordonner (L. 3532-27 à L. 3532-30).",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "R131-51-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "L'interdiction du territoire court du départ effectif de l'étranger, prouvé par tous moyens : la peine prononcée s'exécute en entier, hors du territoire.",
-      "ligne_rouge": "art. 8 DDHC examiné : point de départ objectif, la preuve est ouverte à l'étranger par tous moyens ; CEDH art. 8 : le relèvement reste ouvert par ailleurs"
+      "principe": "P23",
+      "motif": "Les deux points de départ en liste, phrases plus courtes, même règle : la peine s'exécute en entier, hors du territoire.",
+      "ligne_rouge": "nécessité et exécution de la peine (art. 8 DDHC) : la durée prononcée court du départ effectif, prouvé par tous moyens, sans perte.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La durée de l'interdiction du territoire français fixée par la décision de condamnation court :\n1° De la date de l'éloignement effectif de l'étranger, lorsqu'il est éloigné d'office avant qu'elle ait commencé à courir. L'autorité qui procède à l'éloignement en informe sans délai le procureur de la République près la juridiction qui a prononcé la peine.\n2° Dans les autres cas, de la date de la première sortie effective du territoire en exécution de la décision, ou de celle à laquelle la condamnation est devenue exécutoire si l'étranger n'était pas alors présent sur le territoire.\nL'étranger justifie de sa situation par tous moyens auprès du procureur de la République près le tribunal judiciaire qui a prononcé la peine. Lorsque la date de sortie ne peut être établie autrement, la durée court de la date à laquelle l'étranger s'est présenté en personne aux autorités consulaires françaises du pays où il se trouve."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-52",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Mandataire de justice choisi sur les listes d'administrateurs judiciaires ou d'experts, hors liste par décision motivée. Renvoi à l'ancien article 157 du code de procédure pénale à coordonner (L. 2512-2).",
-      "ligne_rouge": "aucune"
+      "motif": "Gardé. Renvoi à l'ancien article 157 du code de procédure pénale à coordonner (L. 2512-2).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le mandataire de justice prévu par l'article 131-46 est choisi soit parmi les personnes inscrites sur la liste prévue par l'article L. 811-2 du code de commerce, soit parmi celles inscrites sur l'une des listes prévues par l'article 157 du code de procédure pénale.\nToutefois, à titre exceptionnel, la juridiction peut, par décision motivée, désigner comme mandataire une personne physique ne figurant sur aucune des listes précitées mais ayant une expérience ou une qualification particulière."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R131-53",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Avis aux représentants du personnel de la personne morale poursuivie, gardé. La lettre recommandée cède au moyen qui établit la réception. Le comité d'entreprise et les délégués du personnel n'existent plus depuis 2017 : l'avis va au comité social et économique. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
-      "ligne_rouge": "P26 examiné : l'audience est annoncée aux salariés, la publicité y gagne",
+      "motif": "Texte de la passe 2 : formule unique de notification (registre 5.4), comité social et économique.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par lettre recommandée adressée dix jours au moins avant la date de l'audience.",
-          "nouveau": "par tout moyen permettant d'en établir la date de réception, dix jours au moins avant la date de l'audience."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "est régie par les dispositions du code du travail relatives à la représentation des salariés, l'avis mentionné au premier alinéa est adressé au secrétaire du comité d'entreprise ou, le cas échéant, au secrétaire du comité central d'entreprise et, en l'absence de tels comités, aux délégués du personnel titulaire.",
-          "nouveau": "est régi par les dispositions du code du travail relatives à la représentation des salariés, l'avis mentionné au premier alinéa est adressé au secrétaire du comité social et économique ou, le cas échéant, du comité social et économique central d'entreprise."
+          "op": "rediger",
+          "nouveau": "Lorsqu'il existe, au sein d'une personne morale citée ou amenée à comparaître devant une juridiction de jugement, des représentants du personnel, le ministère public les avise de la date et de l'objet de l'audience, par tout moyen permettant d'en établir la date de réception, dix jours au moins avant la date de l'audience.\nLorsque le personnel de cette personne morale est régi par les dispositions du code du travail relatives à la représentation des salariés, l'avis est adressé au secrétaire du comité social et économique ou, le cas échéant, du comité social et économique central d'entreprise."
         }
       ]
     },
     {
       "code": "cp",
       "num": "R132-45",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Le sursis avec mise à l'épreuve est devenu sursis probatoire. Les 18° et 20° de 132-45 ne visent plus des stages (résidence hors du domicile du couple, prise en charge), et les articles R. 131-41 à R. 131-44 et R. 131-51-2 sont absents de la base, R. 131-51-1 portant l'interdiction du territoire. Tous les stages relèvent du 15° : un seul renvoi, aux articles R. 131-35 à R. 131-40.",
+      "motif": "Texte de la passe 2 (sursis probatoire, stages au 15°, renvois arrêtés à R. 131-40), les deux phrases des stages en une. R131-4 porte désormais le certificat commun.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Lorsque le sursis avec mise à l'épreuve comprend",
-          "nouveau": "Lorsque le sursis probatoire comprend"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Lorsqu'il comprend comme obligation l'accomplissement d'un stage de citoyenneté prévu au 18° de l'article 132-45, les dispositions des articles R. 131-36 à R. 131-44 qui régissent le stage de citoyenneté sont applicables.\nLorsqu'il comprend comme obligation l'accomplissement d'un stage de responsabilisation pour la prévention et la lutte contre les violences au sein du couple et sexistes prévu au 20° de l'article 132-45, les dispositions des articles R. 131-51-1 et R. 131-51-2 sont applicables.",
-          "nouveau": "Lorsqu'il comprend comme obligation l'accomplissement d'un autre stage prévu au 15° de l'article 132-45, les dispositions des articles R. 131-35 à R. 131-40 sont applicables."
+          "op": "rediger",
+          "nouveau": "Lorsque le sursis probatoire comprend l'obligation mentionnée au 7° de l'article 132-45, les articles R. 131-3 à R. 131-4-1 sont applicables.\nLorsqu'il comprend l'accomplissement d'un stage prévu au 15° de l'article 132-45, l'article R. 131-11-1 est applicable au stage de sensibilisation à la sécurité routière et les articles R. 131-35 à R. 131-40 aux autres stages.\nLorsque le stage n'a pas été organisé par le service pénitentiaire d'insertion et de probation, son accomplissement donne lieu à la remise au condamné d'une attestation que celui-ci adresse au service pénitentiaire d'insertion et de probation. Ce service en avise le juge de l'application des peines."
         }
       ]
     },
     {
       "code": "cp",
       "num": "R133-1",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Instruction des recours en grâce par le ministre de la justice : mise en œuvre de l'art. 17 C, à sa strate.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "La grâce en un article : instruction et contreseing (R133-2 y fusionne).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les recours en grâce sont instruits par le ministre de la justice après, le cas échéant, examen préalable par le ou les ministres intéressés.\nLe décret de grâce, signé par le Président de la République, est contresigné par le Premier ministre, par le ministre de la justice et, le cas échéant, par le ou les ministres ayant procédé à l'examen préalable du recours."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "R131-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Certificat de la suspension limitée : certificat commun de R131-4, la mention de l'activité autorisée au 4°. Renvoi à l'ancien code de la route corrigé. Renvoi à coordonner : l'adaptation R712-1 vise le deuxième alinéa de R131-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R131-4"
+    },
+    {
+      "code": "cp",
+      "num": "R131-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mise en demeure de présenter le véhicule : premier alinéa de R131-5.",
+      "ligne_rouge": "aucune",
+      "vers": "R131-5"
+    },
+    {
+      "code": "cp",
+      "num": "R131-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Lieu, certificat d'immatriculation et procès-verbal : deuxième et troisième alinéas de R131-5.",
+      "ligne_rouge": "aucune",
+      "vers": "R131-5"
+    },
+    {
+      "code": "cp",
+      "num": "R131-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accès et compte rendu : premier alinéa de R131-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R131-8"
+    },
+    {
+      "code": "cp",
+      "num": "R131-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fin de l'immobilisation : dernier alinéa de R131-8, mot pour mot.",
+      "ligne_rouge": "nécessité et exécution de la peine (art. 8 DDHC) : la peine cesse à son terme, gardé mot pour mot.",
+      "vers": "R131-8"
+    },
+    {
+      "code": "cp",
+      "num": "R131-10-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Imputation de la fourrière : deuxième alinéa de R131-8.",
+      "ligne_rouge": "nécessité et exécution de la peine (art. 8 DDHC) : l'immobilisation administrative s'impute toujours sur la peine.",
+      "vers": "R131-8"
+    },
+    {
+      "code": "cp",
+      "num": "R131-40",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Attestation de fin de stage : second alinéa de R131-39, mot pour mot.",
+      "ligne_rouge": "aucune",
+      "vers": "R131-39"
     },
     {
       "code": "cp",
       "num": "R133-2",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Signature et contreseing du décret de grâce : précise l'art. 19 C (ministre de la justice et ministres ayant instruit).",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contreseing du décret de grâce : second alinéa de R133-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R133-1"
     }
-  ]
+  ],
+  "passe": 3
 }
