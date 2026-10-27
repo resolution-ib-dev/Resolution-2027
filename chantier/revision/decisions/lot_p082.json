@@ -10,17 +10,115 @@
     {
       "code": "penitentiaire",
       "num": "L311-1",
-      "decision": "G",
+      "principe": "P20",
+      "motif": "Information à l'admission, dans une langue comprise, gardée. Le renvoi au décret passe à la clause du titre (L312-3).",
+      "ligne_rouge": "droits de la défense examinés : information sur les droits et recours gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lors de son admission dans un établissement pénitentiaire, chaque personne détenue est informée oralement, dans une langue compréhensible par elle, et par la remise d'un livret d'accueil, des dispositions relatives à son régime de détention, à ses droits et obligations et aux recours et requêtes qu'elle peut former. Les règles applicables à l'établissement sont également portées à sa connaissance et lui sont rendues accessibles pendant la durée de sa détention."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L312-1",
+      "principe": "P23",
+      "motif": "Même obligation, sujet en tête.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Chaque établissement pénitentiaire met à la disposition des personnes détenues un dispositif de consultations juridiques gratuites, pour qu'elles connaissent leurs droits."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L312-2",
+      "principe": "P23",
+      "motif": "Même liste, sans point-virgule. Source de l'élection de domicile pour le vote (L362-1 abrogé).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes détenues peuvent élire domicile auprès de l'établissement pénitentiaire :\n1° Pour l'exercice de leurs droits civiques, lorsqu'elles ne disposent pas d'un domicile personnel.\n2° Pour prétendre au bénéfice des droits mentionnés aux articles L. 121-1 et L. 264-1 du code de l'action sociale et des familles, lorsqu'elles ne disposent pas d'un domicile de secours ou d'un domicile personnel au moment de leur entrée en détention ou ne peuvent en justifier.\n3° Pour faciliter leurs démarches administratives."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L312-3",
+      "principe": "P20",
+      "motif": "Clause unique d'application du titre : elle reçoit les renvois de L311-1, L312-3 et L313-2.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'Etat fixe les modalités d'application du présent titre."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L313-2",
+      "principe": "P20",
+      "motif": "Garantie gardée. Le renvoi au décret passe à L312-3.",
+      "ligne_rouge": "art. 16 DDHC examiné : libre communication avec l'avocat gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes détenues communiquent librement avec leurs avocats."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L313-3",
       "principe": "P25",
-      "motif": "Information du détenu à l'admission, dans une langue qu'il comprend, sur son régime, ses droits et ses recours : condition de l'exercice des droits. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "motif": "Facilités de la défense des prévenus, gardées à part : L. 3645-7 du code de procédure pénale cite l'article.",
+      "ligne_rouge": "art. 16 DDHC examiné : garantie gardée",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L315-2",
+      "principe": "P20",
+      "motif": "Registre 9.28 : les 1°, 3° et 4° et l'appel correctionnel du 2° recopient L. 4351-7, L. 4442-3, L. 7212-10 et L. 4471-12 du code de procédure pénale, qui ouvrent chacun la déclaration au chef d'établissement. Ne reste que la règle propre : l'appel par déclaration des décisions sur le recours pour conditions indignes. Renverse l'arbitrage de passe 2 qui gardait l'article entier [arbitrage].",
+      "ligne_rouge": "art. 16 DDHC examiné : chaque voie de recours par déclaration reste ouverte, dans l'article source du code de procédure pénale ou ici",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue peut interjeter appel d'une décision rendue en application des articles L. 1122-1 à L. 1122-3 du code de procédure pénale au moyen d'une déclaration auprès du chef de l'établissement pénitentiaire, dans les formes de l'article L. 4471-12 du même code."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L315-4",
+      "principe": "P23",
+      "motif": "Règle propre (la forme de saisine) gardée, phrase directe.",
+      "ligne_rouge": "art. 16 DDHC examiné : voie de recours par déclaration gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes détenues qui font l'objet d'une extradition obtenue par le gouvernement français peuvent déposer une requête en nullité contre cette extradition, dans les conditions de l'article L. 6233-1 du code de procédure pénale, au moyen d'une déclaration auprès du chef de l'établissement pénitentiaire."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L311-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 1631-1 du code de procédure pénale : la notification d'une décision par le chef de l'établissement vaut signification à personne par exploit de commissaire de justice. Le renvoi à L. 4412-5 (citation) est inexact et le terme d'huissier périmé : l'abrogation règle les deux.",
+      "motif": "Miroir de L. 1631-1 du code de procédure pénale (notification par le chef d'établissement valant signification).",
       "ligne_rouge": "aucune"
     },
     {
@@ -28,7 +126,7 @@
       "num": "L311-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir : chaque notification par le chef de l'établissement est portée par son article source du code de procédure pénale. Conclusions d'expertise : 3° de L. 3443-16 (et non L. 3442-16 et L. 3442-17, absents). Avis de fin d'information : L. 3451-1. Ordonnances de règlement : L. 3452-3 (et non les anciens 99, 183, 186 et 186-1). Date d'audience de la chambre : L. 3713-3. Arrêts de la chambre : L. 3713-13 et L. 3762-3. Convocations : 5° de L. 4412-2. Rien n'est perdu. Le 3° visait aussi les décisions susceptibles de recours : l'ancien 183, deuxième alinéa, n'a pas de siège retrouvé dans le code de 2029, et la notification par le chef de l'établissement vaut signification par L. 1631-1. Défaut de coordination de l'ordonnance à signaler.",
+      "motif": "Miroir : chaque notification par le chef d'établissement est portée par son article source du code de procédure pénale. Défaut de coordination de l'ordonnance (ancien 183, deuxième alinéa) signalé en passe 2.",
       "ligne_rouge": "aucune"
     },
     {
@@ -36,39 +134,7 @@
       "num": "L311-4",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 3444-6 du code de procédure pénale, qui porte la notification du mandat au détenu par le chef de l'établissement, sur instructions du magistrat, et la remise d'une copie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L311-5",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Miroir de L. 3742-18 du code de procédure pénale, qui porte la notification par le greffe de l'établissement et la réception du désistement.",
-      "ligne_rouge": "art. 66 C examiné : l'appel en matière de détention provisoire et sa notification restent réglés par L. 3742-18 du code de procédure pénale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L312-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Consultations juridiques gratuites dans chaque établissement : accès au droit.",
-      "ligne_rouge": "art. 16 DDHC examiné : accès au droit"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L312-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Domiciliation à l'établissement pour les droits civiques, sociaux et les démarches : règle propre, source de L. 362-1.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L312-3",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
+      "motif": "Miroir de L. 3444-6 du code de procédure pénale (notification du mandat au détenu).",
       "ligne_rouge": "aucune"
     },
     {
@@ -76,63 +142,39 @@
       "num": "L313-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 3431-2 et L. 3431-4 du code de procédure pénale, qui portent la désignation de l'avocat par déclaration au chef de l'établissement et sa transmission au greffier.",
-      "ligne_rouge": "art. 16 DDHC examiné : le choix de l'avocat reste ouvert par déclaration au chef de l'établissement (L. 3431-4 du code de procédure pénale)"
+      "motif": "Miroir de L. 3431-2 et L. 3431-4 du code de procédure pénale (désignation de l'avocat par déclaration).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
-      "num": "L313-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Libre communication avec l'avocat : droits de la défense. La proposition de déclasser est écartée.",
-      "ligne_rouge": "art. 16 DDHC examiné : libre communication tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L313-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Toutes communications et facilités compatibles avec la sécurité pour la défense des prévenus.",
-      "ligne_rouge": "art. 16 DDHC examiné : droits de la défense"
+      "num": "L311-5",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Miroir de L. 3742-18 du code de procédure pénale.",
+      "ligne_rouge": "art. 66 C examiné : la notification par le greffe et la réception du désistement vivent à L. 3742-18 du code de procédure pénale, le recours contre la détention provisoire n'est pas touché"
     },
     {
       "code": "penitentiaire",
       "num": "L315-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 1621-1 et L. 1621-12 du code de procédure pénale (comparution par télécommunication audiovisuelle, notification des expertises au détenu par ce moyen). Les anciens 706-71 et 706-71-2 visés sont absents du code de 2029. Règle de l'ancien 706-71-2 sans siège retrouvé dans le code de 2029 : défaut à signaler. Cité nommément dans L. 754-1, L. 764-1 et L. 774-1, à mettre à jour.",
-      "ligne_rouge": "art. 16 DDHC examiné : les garanties de la comparution à distance restent à L. 1621-1 et suivants du code de procédure pénale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L315-2",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Appel, opposition et pourvoi par déclaration au chef de l'établissement. Les 1°, 3° et 4° recopient L. 4351-7, L. 4442-3 et L. 7212-10 du code de procédure pénale. Le 2° ouvre en outre cette forme à l'appel des décisions rendues sur le recours pour conditions indignes (L. 1122-1 à L. 1122-3), que la partie législative du code de procédure pénale ne porte pas. L'article se garde entier plutôt que réduit à ce cas [arbitrage].",
-      "ligne_rouge": "art. 16 DDHC examiné : voies de recours ouvertes depuis la détention"
+      "motif": "Miroir de L. 1621-1 et L. 1621-12 du code de procédure pénale (télécommunication audiovisuelle). Les compteurs d'outre-mer qui le nomment se mettent à jour.",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L315-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Registre 6.3 : miroir du code pénitentiaire vers un autre code, abrogé. L'article recopie, par son propre « conformément aux dispositions de », l'article L. 231-7 du code de justice militaire (pourvoi par lettre au chef de l'établissement) : il dit lui-même que la règle vit dans l'autre code, qui s'applique sans lui. Aucun renvoi entrant.",
-      "ligne_rouge": "art. 16 DDHC examiné : la voie du pourvoi par lettre au chef d'établissement demeure à sa source (code de justice militaire)"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L315-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Requête en nullité de l'extradition déposée auprès du chef de l'établissement : règle propre, que L. 6233-1 à L. 6233-3 du code de procédure pénale ne portent pas. La proposition de réécrire au titre des nullités est écartée : l'article règle une forme de saisine, non un régime de nullité.",
-      "ligne_rouge": "art. 16 DDHC examiné : facilité de saisine de la défense, gardée"
+      "motif": "Registre 6.3 et 9.28 : miroir de L. 231-7 du code de justice militaire.",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L315-5",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 3431-17 et L. 3431-2 du code de procédure pénale, qui portent la demande d'actes et sa déclaration auprès du chef de l'établissement.",
+      "motif": "Miroir de L. 3431-17 et L. 3431-2 du code de procédure pénale (demande d'actes).",
       "ligne_rouge": "aucune"
     },
     {
@@ -140,7 +182,7 @@
       "num": "L315-6",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 4411-26 et L. 4411-27 du code de procédure pénale, qui portent la demande d'actes au tribunal et sa déclaration auprès du chef de l'établissement. Le renvoi à L. 4411-16 et L. 4411-17 (avis au curateur, avis au chef d'établissement scolaire) est erroné.",
+      "motif": "Miroir de L. 4411-26 et L. 4411-27 du code de procédure pénale (demande d'acte au tribunal).",
       "ligne_rouge": "aucune"
     },
     {
@@ -148,24 +190,25 @@
       "num": "L315-7",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 3644-7, L. 3731-5, L. 3741-3 et L. 3742-15 du code de procédure pénale, qui portent la demande de mise en liberté et la saisine directe de la chambre par déclaration au chef de l'établissement.",
-      "ligne_rouge": "art. 66 C examiné : la demande de mise en liberté depuis la détention reste ouverte par ces articles du code de procédure pénale"
+      "motif": "Miroir des articles du code de procédure pénale qui portent la demande de mise en liberté par déclaration au chef d'établissement.",
+      "ligne_rouge": "art. 66 C examiné : la demande de mise en liberté et la saisine directe de la chambre par déclaration vivent à L. 3644-7, L. 3731-5, L. 3741-3 et L. 3742-15 du code de procédure pénale"
     },
     {
       "code": "penitentiaire",
       "num": "L315-8",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 3752-3 du code de procédure pénale, qui porte la requête en nullité par déclaration au chef de l'établissement. La proposition de réécrire au titre des nullités est sans objet.",
-      "ligne_rouge": "art. 16 DDHC examiné : la requête en nullité depuis la détention reste ouverte par L. 3752-3 du code de procédure pénale"
+      "motif": "Miroir de L. 3752-3 du code de procédure pénale.",
+      "ligne_rouge": "art. 16 DDHC examiné : la requête en nullité par déclaration au chef d'établissement vit à L. 3752-3 du code de procédure pénale"
     },
     {
       "code": "penitentiaire",
       "num": "L315-9",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 1122-1 à L. 1122-3 du code de procédure pénale, qui portent le recours pour conditions indignes, ses juges (juge des libertés et de la détention, juge de l'application des peines) et la réserve du référé administratif.",
-      "ligne_rouge": "art. 66 C et CEDH art. 3 examinés : le recours pour conditions indignes reste ouvert par L. 1122-1 à L. 1122-3 du code de procédure pénale. Art. 8 DDHC : l'article ne touche pas au prononcé"
+      "motif": "Miroir de L. 1122-1 à L. 1122-3 du code de procédure pénale.",
+      "ligne_rouge": "art. 66 C et dignité examinés : le recours pour conditions indignes, ses juges et la réserve du référé administratif vivent à L. 1122-1 à L. 1122-3 du code de procédure pénale"
     }
-  ]
+  ],
+  "passe": 3
 }
