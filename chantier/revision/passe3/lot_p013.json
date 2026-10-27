@@ -1,0 +1,79 @@
+{
+  "lot": "lot_p013",
+  "titre": "CPP, 5e partie, livre III, titre IV : Surveillance électronique à domicile",
+  "ecart_volume": "Dépassement motivé : le titre, de quatre articles, renvoie clause par clause au régime de la surveillance électronique (règle du registre : une liste d'extension nomme les clauses et dit ce qui remplace quoi), garde le consentement au dispositif et l'avis de la victime ajouté par la passe 2 (P18). Le titre perd un article et près d'un quart de ses mots.",
+  "articles_cible": [
+    {
+      "num": "L5341-1",
+      "texte": "La personne condamnée à la peine de détention à domicile sous surveillance électronique en application de l'article 131-4-1 du code pénal est placée sous le contrôle du juge de l'application des peines du lieu d'assignation, qui peut modifier ses conditions d'exécution et ses obligations.\nLe second alinéa de l'article L. 5232-1 et les articles L. 5231-6, L. 5232-4, L. 5232-7 et L. 5232-8 s'appliquent. Le refus du dispositif peut entraîner, au lieu du retrait de la mesure, l'emprisonnement pour la durée de la peine restant à exécuter.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Les renvois suivent le titre III réécrit, clause par clause : procédé et émetteur (L5232-1, second alinéa), obligations et aide (L5231-6), consentement, dignité et médecin (L5232-4), contrôle (L5232-7), visites (L5232-8). La modification, que L5232-10 portait et que L5131-10 ne couvre pas pour cette peine, est dite ici. Le renvoi dit ce que le refus entraîne à la place du retrait.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la peine prononcée s'exécute, consentement au dispositif et garanties de vie privée tenus par renvoi précis."
+    },
+    {
+      "num": "L5341-2",
+      "texte": "Le juge de l'application des peines peut, d'office ou sur requête de la personne condamnée, mettre fin de façon anticipée à la peine lorsque la personne a satisfait à ses mesures, obligations et interdictions pendant [les deux tiers] au moins de la peine prononcée, que son reclassement paraît acquis et qu'aucun suivi ne paraît plus nécessaire. Lorsque les deux premières conditions sont réunies, il peut aussi lever la seule surveillance électronique et maintenir la personne sous son contrôle jusqu'au terme de la peine, soumise aux obligations de l'article 132-44 du code pénal et à celles de l'article 132-45 du même code qu'il désigne.\nLa victime ou la partie civile est avisée de la décision envisagée et peut présenter ses observations, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine.\nLe juge statue par ordonnance sur réquisitions conformes du procureur de la République ou, à défaut, par jugement.",
+      "verbe": "R",
+      "principe": "P10",
+      "motif": "Fin anticipée et levée de la surveillance (L5341-3) en un article, textes de la passe 2 ([deux tiers], victime avisée). La procédure suit L5131-10 et L5131-3.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la fin anticipée se gagne aux [deux tiers] au plus tôt, la victime est entendue (P18)."
+    },
+    {
+      "num": "L5341-4",
+      "texte": "En cas d'inobservation des interdictions ou obligations, de mauvaise conduite, de nouvelle condamnation ou de refus d'une modification nécessaire des conditions d'exécution, le juge de l'application des peines peut, par jugement, limiter les autorisations d'absence de la personne ou ordonner son emprisonnement pour la durée de la peine restant à exécuter.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Même règle en une phrase ; le jugement suit L5131-3.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la sanction annoncée s'exécute par jugement après débat contradictoire."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L5341-3",
+      "verbe": "F",
+      "vers": "L5341-2",
+      "principe": "P10",
+      "motif": "Levée de la seule surveillance électronique, reprise au premier alinéa de L5341-2 aux conditions de la passe 2.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : le contrôle et les obligations continuent jusqu'au terme de la peine."
+    }
+  ],
+  "phrases": {
+    "L5341-1#1": {
+      "vers": "L5341-1",
+      "destin": "reprise"
+    },
+    "L5341-1#2": {
+      "vers": "L5341-1",
+      "destin": "reprise"
+    },
+    "L5341-1#3": {
+      "vers": "L5341-1",
+      "destin": "reprise"
+    },
+    "L5341-2#1": {
+      "vers": "L5341-2",
+      "destin": "reprise"
+    },
+    "L5341-2#2": {
+      "vers": "L5341-2",
+      "destin": "reprise"
+    },
+    "L5341-2#3": {
+      "vers": "L5341-2",
+      "destin": "reprise"
+    },
+    "L5341-3#1": {
+      "vers": "L5341-2",
+      "destin": "reprise"
+    },
+    "L5341-4#1": {
+      "vers": "L5341-4",
+      "destin": "reprise"
+    },
+    "L5341-4#2": {
+      "vers": "L5341-4",
+      "destin": "reprise"
+    }
+  }
+}
