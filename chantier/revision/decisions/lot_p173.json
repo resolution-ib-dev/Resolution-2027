@@ -10,138 +10,190 @@
     {
       "code": "cpp",
       "num": "L3311-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Enquête d'initiative ou sur instruction du procureur dès qu'une infraction paraît commise : base.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3311-2",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Délai fixé par le procureur à l'enquête qu'il ordonne, prorogeable sur justification : l'étape a une durée.",
-      "ligne_rouge": "aucune"
+      "motif": "Ouverture de l'enquête et délai fixé par le procureur (L3311-2 fusionné) en un article.",
+      "ligne_rouge": "Délai opposable (P19) : le procureur fixe et contrôle la durée de l'enquête qu'il ordonne, gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une infraction paraît avoir été commise, les officiers de police judiciaire et, sous le contrôle de ceux-ci, les agents de police judiciaire procèdent à des enquêtes de police judiciaire, d'initiative ou sur les instructions du procureur de la République.\nHors flagrance, le procureur de la République qui donne instruction de procéder à une enquête fixe le délai dans lequel elle doit être effectuée. Il peut le proroger au vu des justifications fournies par les enquêteurs."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3312-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Définition de la flagrance : base, inchangée depuis 1958.",
-      "ligne_rouge": "aucune"
+      "motif": "Définition de la flagrance, gardée. Citée par L3514-5, L3525-7, L3531-3, L3531-17 et L3531-19.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Est qualifié crime ou délit flagrant le crime ou le délit qui se commet actuellement, ou qui vient de se commettre. Il y a aussi crime ou délit flagrant lorsque, dans un temps très voisin de l'action, la personne soupçonnée est poursuivie par la clameur publique, ou est trouvée en possession d'objets, ou présente des traces ou indices, laissant penser qu'elle a participé au crime ou au délit."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3312-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Prérogatives renforcées pendant huit jours, sans discontinuer, sous le contrôle du procureur : borné.",
-      "ligne_rouge": "art. 8 DDHC examiné : le seuil de peine d'emprisonnement borne le cadre d'enquête, aucune peine n'est fixée ; art. 66 C : huit jours sous le contrôle du procureur"
+      "principe": "P23",
+      "motif": "Même règle, phrases resserrées. Cité par L3323-4.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : prérogatives réservées au délit puni d'emprisonnement, huit jours sous le contrôle du procureur.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Après la constatation d'un crime ou d'un délit flagrant au sens de l'article L. 3312-1, si le délit est puni d'une peine d'emprisonnement, les enquêteurs disposent de prérogatives renforcées selon le présent titre et le livre V de la présente partie. Ces prérogatives s'exercent, sous le contrôle du procureur de la République, pendant huit jours, à condition que les investigations se poursuivent sans discontinuer."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3312-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Prolongation de huit jours au plus pour les infractions punies d'au moins cinq ans : borné.",
-      "ligne_rouge": "art. 8 DDHC examiné : le seuil de peine d'emprisonnement borne le cadre d'enquête, aucune peine n'est fixée"
+      "principe": "P23",
+      "motif": "Même règle, phrases resserrées. Cité par L3323-4, L3514-5, L3525-7, L3531-3, L3531-17 et L3531-19.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : seuil de cinq ans et prolongation unique de huit jours gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut prolonger ce délai de huit jours au plus si l'enquête porte sur un crime ou un délit puni d'au moins cinq ans d'emprisonnement et si les investigations nécessaires à la manifestation de la vérité ne peuvent être différées. Les enquêteurs gardent alors leurs prérogatives renforcées pendant ce nouveau délai."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3313-1",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Obligation de recevoir toute plainte, même hors compétence territoriale : droit de la victime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3313-10",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Nouvelle audition après plainte à distance si la gravité le justifie : la victime est entendue.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3313-11",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État des infractions et de l'accompagnement. L'avis de la CNIL sur le traitement des données protège la vie privée : il reste (P15).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3313-12",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Signalements recueillis par procès-verbal, électroniques selon le règlement : règle simple, déjà renvoyée au règlement. La proposition de déclassement est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3313-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Procès-verbal de plainte, immatriculation de l'enquêteur, récépissé et copie : droits de la victime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3313-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information des droits de la victime au dépôt de plainte, dans le récépissé : droit de la victime.",
-      "ligne_rouge": "aucune"
+      "motif": "Réception de la plainte en un article : obligation de recevoir, procès-verbal (L3313-2 fusionné) et information de la victime (L3313-3 fusionné), réduite à un renvoi à L1411-2 et L1411-3 (pièce p283), comme l'a posé la vague 0.",
+      "ligne_rouge": "Droits de la victime (P18) : obligation de recevoir toute plainte, récépissé, copie et information complète, par renvoi à L1411-2 et L1411-3.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers et agents de police judiciaire sont tenus de recevoir les plaintes déposées par les victimes d'infractions à la loi pénale, même dans un service ou une unité territorialement incompétent, qui les transmet alors au service ou à l'unité compétents.\nTout dépôt de plainte fait l'objet d'un procès-verbal, dans lequel les officiers ou agents de police judiciaire peuvent s'identifier par leur numéro d'immatriculation administrative, même hors des cas des articles L. 2221-10 et suivants.\nLa victime reçoit le récépissé et, à sa demande, la copie du procès-verbal prévus à l'article L. 1411-2, ainsi que les informations prévues à l'article L. 1411-3, qui peuvent figurer dans le récépissé."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3313-4",
-      "decision": "G",
+      "principe": "P23",
+      "motif": "Plaintes à distance en un article : choix de la victime (L3313-4), procès-verbal numérique (L3313-5), plainte électronique (L3313-7), le format numérique étant la règle de L1611-1, audition (L3313-8, L3313-10), plainte audiovisuelle (L3313-9) et décrets (L3313-11, un seul décret pris après avis de la CNIL) fusionnés. L'information de la victime est celle de L1411-3, qui vaut pour la plainte à distance (L3313-6 retiré).",
+      "ligne_rouge": "Droits de la victime (P18) : le numérique s'offre sans s'imposer, la victime est entendue si la gravité le justifie ; avis de la CNIL gardé (P15).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime peut déposer plainte par voie électronique, pour les infractions et selon les modalités fixées par voie réglementaire, ou par un moyen de télécommunication audiovisuelle qui garantit la confidentialité de la transmission, pour les infractions dont la liste est fixée par décret en Conseil d'État. Ces modalités ne peuvent lui être imposées.\nLe récépissé et, le cas échéant, la copie du procès-verbal sont adressés à la victime dans les meilleurs délais.\nSi la nature ou la gravité des faits le justifie, les enquêteurs entendent la victime après sa plainte à distance, sans moyen de télécommunication après une plainte audiovisuelle, et au besoin par un tel moyen après une plainte électronique, à une date qui peut alors être fixée lors du dépôt.\nUn décret en Conseil d'État, pris après avis de la Commission nationale de l'informatique et des libertés, précise les modalités de la plainte par un moyen de télécommunication audiovisuelle, notamment l'accompagnement de la victime et le traitement des données à caractère personnel qui en sont issues."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3313-12",
       "principe": "P12",
-      "motif": "Plainte électronique ou par visioconférence, jamais imposée : le numérique s'offre, la victime choisit. La règle protège la victime : elle reste dans la loi.",
-      "ligne_rouge": "aucune"
+      "motif": "Gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers et agents de police judiciaire recueillent par procès-verbal les signalements concernant des infractions à la loi pénale. Ces signalements peuvent être réalisés par voie électronique, pour des infractions et selon des modalités prévues par voie réglementaire."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3311-2",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Délai fixé par le procureur à l'enquête qu'il ordonne : second alinéa de L3311-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3311-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3313-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procès-verbal de plainte et identification de l'enquêteur : L3313-1 ; récépissé et copie par renvoi à L1411-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L3313-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3313-3",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Information de la victime au dépôt de plainte : renvoi à L1411-3 (pièce p283), qui fixe la liste ; la plage « L. 1452-1 à L. 1452-3, L. 1452-9, L. 1452-10 et L. 1453-1 » tombe avec la copie (coordination v0b).",
+      "ligne_rouge": "aucune",
+      "vers": "L3313-1"
     },
     {
       "code": "cpp",
       "num": "L3313-5",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Procès-verbal numérique, récépissé et copie envoyés : numérique par défaut.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Récépissé et copie adressés : deuxième alinéa de L3313-4 ; le procès-verbal numérique est la règle de L1611-1 (pièce p291).",
+      "ligne_rouge": "aucune",
+      "vers": "L3313-4"
     },
     {
       "code": "cpp",
       "num": "L3313-6",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Mêmes informations pour la victime qui porte plainte à distance : égalité de traitement.",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Information de la victime qui porte plainte à distance : L1411-3 (pièce p283) la prévoit pour toute plainte, « y compris à distance ».",
+      "ligne_rouge": "Droits de la victime : information gardée par L1411-3."
     },
     {
       "code": "cpp",
       "num": "L3313-7",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Plainte électronique pour les infractions fixées par le règlement : renvoi utile.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Plainte électronique : premier alinéa de L3313-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L3313-4"
     },
     {
       "code": "cpp",
       "num": "L3313-8",
-      "decision": "G",
+      "decision": "F",
       "principe": "P18",
-      "motif": "Audition de la victime si la gravité l'exige, date fixée dès le dépôt : la victime est entendue.",
-      "ligne_rouge": "aucune"
+      "motif": "Audition après plainte électronique et date fixée au dépôt : troisième alinéa de L3313-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L3313-4"
     },
     {
       "code": "cpp",
       "num": "L3313-9",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Plainte par visioconférence confidentielle pour une liste fixée par décret : numérique admis.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Plainte par visioconférence confidentielle : premier alinéa de L3313-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L3313-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3313-10",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Nouvelle audition après plainte audiovisuelle : troisième alinéa de L3313-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L3313-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3313-11",
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Décrets d'application et avis de la CNIL : dernier alinéa de L3313-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L3313-4"
     }
-  ]
+  ],
+  "passe": 3
 }
