@@ -9,200 +9,226 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "A43-10",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Indemnité de l'administrateur ad hoc en procédure civile et indemnité de carence : un montant, une ligne. Tarif sans formalité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "A43-11",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Indemnités de l'administrateur ad hoc en zone d'attente et en demande d'asile, et indemnité de carence : tarif court. Les points-virgules sont ceux du texte en vigueur.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "A43-12",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Tarif de l'enquête sociale civile et indemnité de carence : un montant par personne, tarif court.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "A43-13",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Indemnité de la personne qui entend le mineur (code civil, art. 388-1). Reçoit l'indemnité de carence de A43-14, comme A43-10 à A43-12 la portent dans le même article : une idée, un article. Espace parasite (« l' article ») retirée.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "l' article 388-1",
-          "nouveau": "l'article 388-1"
-        },
-        {
-          "op": "ajouter_alinea",
-          "nouveau": "Lorsque cette personne n'a pu remplir sa mission en raison de la carence du mineur, il lui est alloué une indemnité de 10 euros s'il s'agit d'une personne physique et de 20 euros s'il s'agit d'une personne morale."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "A43-14",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Indemnité de carence de l'audition du mineur : elle passe, mot pour mot sauf la ponctuation finale manquante, dans A43-13, qui porte l'indemnité principale. Aucune règle perdue.",
-      "ligne_rouge": "aucune",
-      "vers": "A43-13"
-    },
-    {
-      "code": "cpp",
-      "num": "A43-15",
-      "decision": "R",
-      "principe": "P12",
-      "motif": "Remboursement des frais de fourrière au propriétaire relaxé (code de la route, art. L. 325-1-1) : la propriété est rendue indemne, règle gardée. La lettre recommandée cède la place à la voie électronique, la déclaration au greffe reste l'accès sur papier (P12), pour la demande comme pour le recours. La décision du parquet n'avait pas de délai : elle se prend dans [deux mois] à compter de la demande complète (P19). Construction « ainsi que la justification » corrigée. [arbitrage : silence valant acceptation]",
-      "ligne_rouge": "art. 2 DDHC (propriété) examiné : le remboursement au relaxé et le recours au juge qui l'a relaxé sont gardés, la décision reçoit un délai",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Cette demande doit être faite, dans un délai de six mois au plus tard à compter de la date à laquelle la décision de relaxe est devenue définitive, par déclaration au greffe contre récépissé ou par lettre recommandée avec demande d'accusé de réception.",
-          "nouveau": "Cette demande est faite, dans un délai de six mois à compter de la date à laquelle la décision de relaxe est devenue définitive, par voie électronique ou par déclaration au greffe contre récépissé."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "ainsi que la justification du paiement des frais d'enlèvement et de garde en fourrière.",
-          "nouveau": "ainsi que de la justification du paiement des frais d'enlèvement et de garde en fourrière. Le procureur de la République ou le procureur général statue dans un délai de [deux mois] à compter de la réception de la demande complète. À défaut de décision dans ce délai, la demande est réputée acceptée."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "au vu de la décision du procureur de la République ou du procureur général.",
-          "nouveau": "au vu de la décision du procureur de la République ou du procureur général ou, à défaut de décision dans le délai, au vu de la demande complète."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Ce recours est formé par déclaration au greffe contre récépissé ou par lettre recommandée avec demande d'accusé de réception.",
-          "nouveau": "Ce recours est formé par voie électronique ou par déclaration au greffe contre récépissé."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "A43-16",
-      "decision": "R",
-      "principe": "P4",
-      "motif": "Seuil sous lequel les frais non tarifés sont certifiés par le greffe, sans réquisitions ni taxe (R224-1 3°, R224-2 3°, R225). Relevé selon la fiche R3. Le contrôle a posteriori reste : réclamation au ministère public (R234) et vérifications modulées (A43-17).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "1 500 €",
-          "nouveau": "[5 000] €"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "A43-17",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contrôle des mémoires de frais de justice modulé selon le risque (approfondi ou formel) : le contrôle se proportionne à l'enjeu, ce que veut la charge de la preuve à la norme. Le texte nomme tantôt le ministre chargé du budget, tantôt celui de l'économie et des finances : à harmoniser par l'auteur s'il s'agit du même ministre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "A43-18",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Indemnité kilométrique de l'article R. 97 : un chiffre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "A43-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Tarif des enquêteurs de personnalité, contrôleurs judiciaires, délégués et médiateurs personnes physiques (R. 121, R. 121-1) : tableau d'indices, sans formalité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "A43-5",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Tarif des associations habilitées (R. 121, R. 121-3) : tableau d'indices, sans formalité.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Les trois barèmes d'indices des collaborateurs occasionnels (IP des personnes physiques, IA des associations habilitées, Iaah des administrateurs ad hoc en procédure pénale) réunis en un article (A43-5 et A43-8 fusionnés), chiffres inchangés, exprimés en euros. Renvois sur la cible de passe 3 (R. 121-1, R. 121-3 et R. 216-1 fusionnés en p033).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les montants des indemnités prévues aux articles R. 121 et R. 216 sont fixés ainsi, en euros :\n1° Enquêteurs de personnalité, contrôleurs judiciaires, délégués et médiateurs du procureur de la République, personnes physiques : IP 1 : 39. IP 2 : 74. IP 3 : 52. IP 4 : 111. IP 5 : 153. IP 6 : 12.\n2° Associations habilitées ayant passé une convention avec le premier président et le procureur général de la cour d'appel : IA 1 : 150. IA 2 : 70. IA 3 : 1 110. IA 4 : 925. IA 5 : 370. IA 6 : 25.\n3° Administrateurs ad hoc en procédure pénale : Iaah 1 : 175. Iaah 2 : 250. Iaah 3 : 450. Iaah 4 : 100. Iaah 5 : 300. Iaah 6 : 75. Iaah 7 : 100. Iaah 8 : 100. Iaah 9 : 300. Iaah 10 : 50."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A43-5-1",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Tarif des missions des délégués et médiateurs du procureur, gardé. La sanction-réparation de l'article 12-1 de l'ordonnance n° 45-174 du 2 février 1945 renvoie à un texte abrogé depuis l'entrée en vigueur du code de la justice pénale des mineurs : la ligne et sa mention dans la note (1) tombent. Renvois aux anciens 41-1, 41-2 (4e partie), 390-1, 495-3 et 527 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : le tarif fixe une dépense de l'État, il ne touche ni la procédure ni la peine ; la composition pénale et les alternatives qu'elle tarife sont jugées dans leur lot",
+      "motif": "Tarif des missions des délégués et médiateurs du procureur, gardé ligne à ligne. Sanction-réparation de l'ordonnance n° 45-174 retirée (passe 2). Les renvois aux anciens 41-1, 41-2, 390-1, 495-3 et 527 sont réécrits : L. 4211-1 garde la numérotation des mesures alternatives, les mesures de composition pénale et les actes notifiés sont nommés, chaque groupe gardant exactement ses mesures. Écart déclaré : le programme éthylotest anti-démarreur (ancien 41-2 4° bis), que le tarif ne classait nulle part, est classé avec les stages (L. 4221-13 7°), au tarif de 10 et 18 unités. D. 147-13 devient D. 147-12 (fusion en p035).",
+      "ligne_rouge": "art. 8 DDHC examiné : le tarif ne touche ni la mesure ni la peine, il paie la mission",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "\n-une peine de sanction-réparation en application de l'article 12-1 de l'ordonnance n° 45-174 du 2 février 1945, y compris le recueil de l'accord du mineur et des titulaires de l'exercice de l'autorité parentale",
-          "nouveau": ""
-        },
-        {
-          "op": "remplacer",
-          "ancien": " ainsi que des mesures prévues à l'article 12-1 de l'ordonnance n° 45-174 du 2 février 1945.",
-          "nouveau": "."
+          "op": "rediger",
+          "nouveau": "Nature de la mission effectuée\nMontant de l'indemnité forfaitaire par mission\n(exprimé en unités de valeur)\nMontant personnes physiques\nMontant associations\nPour adresser un avertissement pénal probatoire portant rappel des obligations résultant de la loi en application du 1° de l'article L. 4211-1 (1)\n4 unités de valeur\n5 unités de valeur\nPour vérifier la réparation du préjudice en application du 1° de l'article L. 4211-1\n3 unités de valeur\n7 unités de valeur\nPour l'exécution des mesures prévues aux 2° à 4°, 6° à 9° et 11° de l'article L. 4211-1, y compris la vérification du respect par la personne des engagements pris\n7 unités de valeur\n12 unités de valeur\nPour l'exécution de la mesure prévue au 10° de l'article L. 4211-1\n6 unités de valeur\n10 unités de valeur\nPour une mission de médiation en application du 5° de l'article L. 4211-1\n-Lorsque la durée de la mission est inférieure ou égale à un mois\n14 unités de valeur\n27 unités de valeur\n-Lorsque la durée de la mission est supérieure à un mois et inférieure ou égale à trois mois\n51 unités de valeur\n-Lorsque la durée de la mission est supérieure à trois mois\n102 unités de valeur\nPour la notification des mesures suivantes :\n-une peine de stage dont le contrôle de la mise en œuvre est confié au service d'insertion ou de probation ou à une autre personne habilitée\n3 unités de valeur\n4 unités de valeur\n-une convocation en justice\n-une ordonnance pénale délictuelle\n-une ordonnance pénale contraventionnelle\n-l'inscription dans le fichier judiciaire national automatisé des auteurs d'infractions terroristes en application de l'article R. 50-38\n-l'inscription dans le fichier judiciaire national automatisé des auteurs d'infractions sexuelles ou violentes en application de l'article R. 53-8-9\n-l'information de l'absence de reliquat de peine à exécuter du fait des réductions de peines en application de l'article D. 147-12\n-les mesures prononcées dans le cadre d'une composition pénale, y compris le recueil de l'accord de la personne\n7 unités de valeur\n12 unités de valeur\nPour le contrôle de l'exécution des mesures suivantes :\n-une peine de stage\n6 unités de valeur\n12 unités de valeur\n-une peine de sanction-réparation en application de l'article 131-8-1 du code pénal\n-en composition pénale, l'amende de composition, le dessaisissement, la remise du véhicule ou d'un permis, l'interdiction d'émettre des chèques, de paraître en certains lieux, de rencontrer la victime ou les coauteurs, de quitter le territoire (2)\n6 unités de valeur\n10 unités de valeur\n-en composition pénale, le travail non rémunéré, les stages et formations, le programme de réhabilitation avec éthylotest anti-démarreur, l'éloignement du domicile, l'activité de jour, l'injonction thérapeutique ou la réparation du préjudice (2)\n10 unités de valeur\n18 unités de valeur\nPour une mission de représentation du procureur de la République en application de l'article D. 15-3\n14 unités de valeur\nPour une mission de permanence d'une demi-journée en application de l'article D. 15-3-1\n14 unités de valeur\n(1) L'indemnité due au titre de l'avertissement pénal probatoire portant rappel des obligations résultant de la loi n'est pas cumulable avec celles prévues pour les autres missions, à l'exception de l'indemnité de vérification du préjudice réparé (1° de l'article L. 4211-1), de la notification d'une peine de stage dont le contrôle de la mise en œuvre est confié au service d'insertion ou de probation ou à une autre personne habilitée, de la convocation en justice et des ordonnances pénales.\n(2) Le montant cumulé dû au titre de l'ensemble des actes de contrôle de l'exécution effectués dans le cadre d'une composition pénale ne peut excéder celui équivalent à quarante unités de valeur.\nLe montant de l'indemnité supplémentaire allouée lorsque la mission concerne un mineur est égal à trois unités de valeur. Cette indemnité n'est pas cumulable avec la convocation en justice et les missions des articles D. 15-3 et D. 15-3-1.\nII.-Le délégué ou le médiateur du procureur de la République n'ayant pu remplir sa mission en raison de la carence de l'intéressé qui n'a pas répondu à au moins deux convocations est indemnisé dans les conditions prévues par le tableau suivant :\nPour les personnes physiques\n-lorsque l'indemnité correspondant à l'accomplissement de la mission est inférieure ou égale à 4 unités de valeur\n2 unités de valeur\n-lorsque l'indemnité correspondant à l'accomplissement de la mission est supérieure à 4 unités de valeur\n4 unités de valeur\nPour les associations\n-lorsque l'indemnité correspondant à l'accomplissement de la mission est inférieure ou égale à 9 unités de valeur\n4 unités de valeur\n-lorsque l'indemnité correspondant à l'accomplissement de la mission est supérieure à 9 unités de valeur\n9 unités de valeur"
         }
       ]
     },
     {
       "code": "cpp",
       "num": "A43-6",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Rémunération des médecins, psychologues et radiologues requis par coefficients des lettres clés : barème lisible, indexé sur la sécurité sociale.",
-      "ligne_rouge": "aucune"
+      "motif": "Rémunération des médecins, psychologues et radiologues par coefficients des lettres clés : « conformément aux dispositions de » retiré. R. 120 et R. 120-2 sont fusionnés dans R. 117 (p033).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La rémunération des médecins, experts psychologues et radiologues requis ou commis (article R. 117) est déterminée, pour les prestations mentionnées, par application aux lettres clés de la sécurité sociale des coefficients des tableaux annexés au présent article. L'examen radiologique d'une personne vivante suit les cotations de la deuxième partie de la classification commune des actes médicaux."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A43-6-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Rémunération sur devis des psychiatres et psychologues, plafonnée, par décision spécialement motivée, pour les missions inhabituelles ou complexes : dérogation bornée, l'expertise utile au jugement reste possible.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Rémunération sur devis des psychiatres et psychologues, plafonnée, sur décision spécialement motivée : gardée, en une phrase sans point-virgule.",
+      "ligne_rouge": "art. 9 DDHC examiné : l'expertise utile au jugement reste possible dans les affaires complexes",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les médecins experts psychiatres et les experts psychologues peuvent, par décision spécialement motivée de l'autorité requérante, être rémunérés sur devis, dans la limite de 750 euros hors taxe pour les experts affiliés à un régime de travailleurs non-salariés et de 468,75 euros hors taxe pour ceux affiliés à un régime de travailleurs salariés, lorsque la mission comporte des questions inhabituelles qui exigent des recherches spécifiques ou s'inscrit dans une procédure complexe ou un contexte particulier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A43-6-2",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Tarif des analyses toxicologiques par coefficients de la lettre B : barème lisible. Sert de référence au droit fixe majoré de A38-6, désormais renvoyé ici.",
-      "ligne_rouge": "aucune"
+      "motif": "Tarif des analyses toxicologiques : « conformément aux dispositions de » retiré. R. 118 est fusionné dans R. 117 (p033).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tarif des experts en toxicologie requis ou commis (article R. 117) est déterminé, pour les prestations mentionnées, par application à la lettre clé B de la sécurité sociale des coefficients du tableau annexé au présent article."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A43-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Tarif des traductions et interprétariats selon l'horaire : barème court.",
-      "ligne_rouge": "art. 16 DDHC examiné : la rémunération des interprètes conditionne l'assistance de la personne qui ne parle pas français, elle est gardée"
-    },
-    {
-      "code": "cpp",
-      "num": "A43-8",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Indemnités de l'administrateur ad hoc en procédure pénale (R. 216, R. 216-1) : tableau d'indices.",
-      "ligne_rouge": "minorité examinée : l'administrateur ad hoc représente le mineur victime, son indemnisation est gardée"
+      "principe": "P23",
+      "motif": "Tarif des traductions et interprétariats : le tableau devient une liste, chiffres inchangés.",
+      "ligne_rouge": "droits de la défense examinés : l'interprète reste payé, le tarif ne touche pas le droit à l'interprète",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les traductions (article R. 122) sont payées selon les tarifs suivants, en euros. Le premier chiffre vaut pour l'interprète traducteur qui n'a pas exercé son droit d'option, le second pour celui qui l'a exercé.\n1° Traduction écrite : 25 et 38,50.\n2° Traduction orale du lundi au vendredi de 7 h à 22 h : 42 et 65 la première heure, 30 et 46,50 les heures suivantes.\n3° Traduction orale du lundi au vendredi de 22 h à 7 h : 49,50 et 76,80 la première heure, 37,50 et 58 les heures suivantes.\n4° Traduction orale les samedis, dimanches et jours fériés de 7 h à 22 h : 49,50 et 76,80 la première heure, 37,50 et 58 les heures suivantes.\n5° Traduction orale les samedis, dimanches et jours fériés de 22 h à 7 h : 57 et 88,50 la première heure, 45 et 69,80 les heures suivantes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A43-9",
-      "decision": "G",
+      "principe": "P1",
+      "motif": "Le principe reste au texte de l'article : remboursement sur facture au tarif hors taxes, par prestation, ou sur devis. Les quatre tableaux de tarifs (2 800 mots de codes et de montants) sortent du texte de l'article et sont gardés en annexe publiée de l'arrêté tarifaire conjoint justice et budget (R. 91 de p033), comme le règlement intérieur type sort du code pénitentiaire. R. 213-2 est fusionné dans R. 213-1 (p033).",
+      "ligne_rouge": "art. 66 C et vie privée examinés : les tarifs ne portent aucune garantie. L'interception et la réquisition restent autorisées et contrôlées selon la loi (L. 3552-1, L. 3552-8, L. 3513-7), le texte ne règle ici que le paiement de l'opérateur",
+      "decision": "D",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les réquisitions adressées aux opérateurs de communications électroniques pour l'interception de communications ou pour la fourniture des données mentionnées à l'article R. 10-13 du code des postes et des communications électroniques (article R. 213-1) donnent lieu à remboursement, sur facture et justificatifs, au montant hors taxes des tarifs fixés par prestation dans l'annexe du présent article, publiée au Journal officiel. Une prestation que cette annexe ne tarife pas est remboursée au montant convenu avec l'opérateur ou sur devis."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-10",
+      "principe": "P23",
+      "motif": "Indemnités des personnes désignées en matière civile et pour l'audition du mineur, avec leurs indemnités de carence, réunies en un article (A43-11 à A43-14 fusionnés), montants inchangés. « Conformément aux dispositions de » retiré.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sont fixées ainsi les indemnités allouées :\n1° À l'administrateur ad hoc désigné dans une procédure civile (article 1210-3 du code de procédure civile) : 200 euros, et 50 euros d'indemnité de carence.\n2° À l'administrateur ad hoc désigné dans une procédure de maintien en zone d'attente ou de demande d'asile (article R. 111-20 du code de l'entrée et du séjour des étrangers et du droit d'asile) : 150 euros pour chacune des indemnités des 1°, 2° et 3° de cet article, et 50 euros d'indemnité de carence.\n3° Pour l'enquête sociale des articles 1072, 1171 et 1221 du code de procédure civile : 600 euros à une personne physique et 700 euros à une personne morale, et 30 euros d'indemnité de carence.\n4° À la personne désignée par le juge pour entendre un mineur (article 388-1 du code civil) : 40 euros à une personne physique et 70 euros à une personne morale. Si la mission échoue du fait de la carence du mineur, l'indemnité est de 10 euros pour une personne physique et de 20 euros pour une personne morale."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-15",
+      "principe": "P12",
+      "motif": "Remboursement des frais de fourrière au propriétaire relaxé : règle gardée, demande et recours par voie électronique ou au greffe, décision du parquet sous [deux mois], silence valant acceptation (passe 2). Rappel « conformément aux dispositions du dernier alinéa de L. 325-1-1 » retiré, phrases resserrées.",
+      "ligne_rouge": "propriété (art. 17 DDHC) examinée : le relaxé est rendu indemne, recours devant la juridiction de la relaxe gardé",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le propriétaire dont le véhicule a été mis en fourrière sur autorisation du procureur de la République en application des articles L. 325-1-1 ou L. 325-1-2 du code de la route, puis relaxé par une décision définitive, peut demander le remboursement, au titre des frais de justice, des frais d'enlèvement et de garde qu'il a acquittés pour récupérer son véhicule.\nLa demande est adressée au procureur de la République ou, si la relaxe a été prononcée par la chambre des appels délictuels, au procureur général. Elle est formée dans les six mois qui suivent la date à laquelle la relaxe est devenue définitive, par voie électronique ou par déclaration au greffe contre récépissé. Elle est accompagnée de la copie de la décision de relaxe et de la justification du paiement des frais.\nLe procureur de la République ou le procureur général statue dans un délai de [deux mois] à compter de la réception de la demande complète. À défaut de décision dans ce délai, la demande est réputée acceptée.\nLe remboursement est calculé selon les tarifs fixés en application du IV de l'article R. 325-29 du code de la route. Il exclut les frais de garde postérieurs à la mainlevée de la mise en fourrière. Le régisseur d'avances de la juridiction le paie au vu de la décision ou, à défaut de décision dans le délai, de la demande complète.\nLe demandeur peut former un recours contre la décision dans les dix jours de sa notification, devant la juridiction qui a prononcé la relaxe, par voie électronique ou par déclaration au greffe contre récépissé."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-16",
+      "principe": "P4",
+      "motif": "Seuil de certification par le greffe des frais non tarifés relevé à [5 000] € (passe 2, fiche R3). Contrôle a posteriori gardé (R. 234, A43-17).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le montant des frais mentionnés au 3° des articles R. 224-1 et R. 224-2 est fixé à [5 000] €."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-17",
       "principe": "P21",
-      "motif": "Remboursement des opérateurs pour les réquisitions et interceptions, au tarif ou sur devis : l'État paie la prestation, le coût est connu à l'avance.",
-      "ligne_rouge": "art. 66 C et vie privée (art. 2 DDHC) examinés : l'article tarife des réquisitions et interceptions que la loi autorise et que le juge contrôle, il n'en ouvre ni n'en élargit aucune"
+      "motif": "Contrôle des mémoires de frais modulé selon le risque : gardé, resserré. Le ministre chargé du budget est nommé partout de la même façon (P23).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les vérifications faites lors de la certification (article R. 225) sont modulées ainsi.\nI. Les chefs de la cour d'appel ou leurs délégués analysent les dépenses de frais de justice selon leurs risques, leurs enjeux et les facteurs aggravants. Ils établissent un plan de contrôle qui soumet chaque état ou mémoire de frais soit à un contrôle approfondi, soit à un contrôle formel.\nII. Le contrôle formel ne s'applique qu'aux mémoires des 1° et 3° des articles R. 224-1 et R. 224-2 dont le montant est inférieur au seuil fixé conjointement par le ministre de la justice et le ministre chargé du budget.\nIII. L'analyse, le plan de contrôle et les vérifications suivent les orientations de ces deux ministres.\nIV. L'analyse des dépenses et le bilan du plan de contrôle sont communiqués au comptable assignataire. À sa demande, le contrôle d'intensité variable peut être suspendu si le suivi du plan donne des résultats insuffisants."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-18",
+      "principe": "P20",
+      "motif": "Indemnité kilométrique : autorenvoi « du code de procédure pénale » retiré. R. 97 est fusionné dans R. 95 (p033).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le montant de l'indemnité kilométrique prévue à l'article R. 95 est fixé à 0,24 euro."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A43-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Barème d'indices réuni dans A43-4, chiffres inchangés.",
+      "ligne_rouge": "aucune",
+      "vers": "A43-4"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Barème d'indices réuni dans A43-4, chiffres inchangés.",
+      "ligne_rouge": "aucune",
+      "vers": "A43-4"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Indemnité et indemnité de carence réunies dans A43-10, montants inchangés.",
+      "ligne_rouge": "aucune",
+      "vers": "A43-10"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Indemnité et indemnité de carence réunies dans A43-10, montants inchangés.",
+      "ligne_rouge": "aucune",
+      "vers": "A43-10"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Indemnité et indemnité de carence réunies dans A43-10, montants inchangés.",
+      "ligne_rouge": "aucune",
+      "vers": "A43-10"
+    },
+    {
+      "code": "cpp",
+      "num": "A43-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Indemnité et indemnité de carence réunies dans A43-10, montants inchangés.",
+      "ligne_rouge": "aucune",
+      "vers": "A43-10"
     }
-  ]
+  ],
+  "passe": 3
 }
