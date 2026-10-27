@@ -10,109 +10,220 @@
     {
       "code": "cpp",
       "num": "D589",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Pièces de procédure numériques, établies et transmises sans papier, autorisations par protocole ou par le magistrat : le numérique est la règle. Renvoi à l'ancien 801-1 (L1611-1 et suivants) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D589-1",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Dossier de procédure numérique et son archivage sous la responsabilité du ministère : charpente du numérique. Renvoi à l'ancien 801-1 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Le numérique de la procédure en un article : établissement et transmission, autorisations, archivage (D589-1), faculté de ne pas verser (D589-6) et arrêté (D589-7). Les phrases qui répétaient la loi tombent : la pièce numérique transmise et consultée (L. 1611-1), le dossier numérique (L. 1611-3) et ses dispenses.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les services de la police nationale, les unités de la gendarmerie nationale, les fonctionnaires et agents exerçant des pouvoirs de police judiciaire, les services pénitentiaires et de la protection judiciaire de la jeunesse et, sur autorisation expresse, toute personne publique ou privée peuvent établir, convertir et transmettre à l'autorité judiciaire des pièces de procédure sous format numérique, sans support papier. L'autorisation est délivrée soit par un protocole conclu par le ministère de la justice ou, à défaut, par les chefs de la juridiction destinataire, le cas échéant avec la personne morale ou l'organisme professionnel dont relèvent les personnes privées, soit, dans une procédure, par le magistrat qui dirige l'enquête, l'officier de police judiciaire qui y procède ou, sous son contrôle, l'agent de police judiciaire. Le support papier converti peut être restitué à son possesseur ou détruit dès que la pièce numérique doit être transmise.\nLa conservation et l'archivage du dossier de procédure numérique sont placés sous la responsabilité du ministère de la justice, sans préjudice des règles applicables aux pièces que détiennent les services et personnes mentionnés au premier alinéa. Le magistrat qui dirige l'enquête peut ne pas verser au dossier numérique les documents, contenus multimédias ou données qui lui sont transmis, le cas échéant en ordonnant leur placement sous scellés.\nUn arrêté du garde des sceaux, ministre de la justice, et du ministre de l'intérieur précise l'application des articles D. 589 et D. 589-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D589-2",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Procédés de signature numérique ouverts à toute personne concourant à la procédure. Renvois aux anciens 801-1 et 11 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D589-3",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Exigences de la signature électronique, sans nullité pour le seul niveau de certificat : la procédure ne tombe pas pour une forme technique.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'identification du signataire et l'intégrité de l'acte restent exigées, seule la norme du certificat cesse d'être une cause de nullité"
-    },
-    {
-      "code": "cpp",
-      "num": "D589-4",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Signature manuscrite numérique, validée par une signature électronique ou l'appareil sécurisé, refus mentionné : garanties tenues. Renvoi à l'ancien 11 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D589-5",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Cachet électronique en lieu de signature quand l'identification personnelle n'est pas exigée, sans nullité pour le seul niveau de certificat.",
-      "ligne_rouge": "art. 16 DDHC examiné : le cachet n'est admis que là où la signature personnelle n'est pas exigée, l'intégrité reste garantie"
-    },
-    {
-      "code": "cpp",
-      "num": "D589-6",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Dispenses de l'ancien 801-1, II, et faculté de ne pas verser au dossier numérique des contenus transmis, placés au besoin sous scellés. Renvoi à l'ancien 801-1 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : les contenus non versés restent sous scellés, accessibles selon le droit commun"
-    },
-    {
-      "code": "cpp",
-      "num": "D589-7",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi à un arrêté interministériel : un ministre n'a de pouvoir réglementaire que sur habilitation, celle-ci est nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D590",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Adresse électronique de l'avocat recueillie dès la première comparution : condition des notifications numériques. Renvoi à l'ancien 803-1 (L1632-1 et suivants) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D590-1",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Convocations, avis, décisions et copies notifiés à l'avocat par voie électronique : le numérique est déjà la règle. Renvois aux anciens 801-1 et 803-1 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "La signature numérique en un article : procédés (D589-2), signature électronique (D589-3), signature manuscrite numérique (D589-4) et cachet (D589-5). Le règlement (UE) n° 910/2014 et la règle de non-nullité sont dits une fois. Les anciens 801-1 et 11 sont nommés.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sont des procédés de signature sous forme numérique la signature électronique, la signature manuscrite recueillie sous forme numérique et, lorsque l'identification personnelle du signataire n'est pas exigée, le cachet électronique. Toute personne, y compris celles qui concourent à la procédure, peut y recourir.\nLa signature électronique n'est valablement apposée que par un procédé qui identifie le signataire, garantit le lien de la signature avec l'acte et assure l'intégrité de celui-ci. Elle est au moins d'un niveau avancé reposant sur un certificat qualifié, et le cachet électronique d'un niveau avancé avec certificat qualifié, au sens du règlement (UE) n° 910/2014 du Parlement européen et du Conseil du 23 juillet 2014. Le seul défaut de ce niveau ne constitue pas une cause de nullité de la procédure. Le cachet peut remplacer la signature électronique, y compris après une signature manuscrite numérique.\nLa signature manuscrite numérique est apposée au moyen d'un dispositif technique, après que le signataire a pris connaissance de l'acte sous format numérique. Elle n'est valable que si une personne qui concourt à la procédure appose ensuite sur l'acte une signature électronique, ou s'il est recouru à l'appareil sécurisé de l'article R. 49-1. Le refus ou l'impossibilité de signer est mentionné dans l'acte."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D591",
-      "decision": "R",
       "principe": "P2",
-      "motif": "Liste fermée de vingt et un cas que l'avocat peut transmettre par voie électronique : elle devient une règle générale pour les demandes, déclarations, observations et mémoires adressés au parquet et aux juges et juridictions d'instruction, assortie d'exclusions. La règle vaut pour l'avocat de toute personne que le code admet à agir, partie ou non : personne suspectée (ancien 77-2), témoin assisté, plaignant, personne qui propose la comparution sur reconnaissance préalable de culpabilité (ancien 495-15). Les demandes de copie au greffe (R155) restent couvertes. Elle reçoit les mémoires de D592 et l'exclusion de D593. Les déclarations d'appel, d'opposition et de pourvoi, dont la forme est fixée par la loi, sont exclues expressément. Renvois entrants servis : D1-12, D15-6-3, D31-3, D40, D40-2, D47-1-41 et A53-9. [arbitrage : ouvrir la demande de mise en liberté et les juridictions de jugement]",
-      "ligne_rouge": "art. 16 DDHC examiné : la défense, y compris celle de la personne suspectée pendant l'enquête (ancien 77-2), gagne une voie de transmission, et les voies de recours gardent leur forme légale. Art. 66 C examiné : la demande de mise en liberté reste exclue et se forme selon la loi, comme aujourd'hui.",
+      "motif": "Règle générale de passe 2 (toute demande au parquet et aux juridictions d'instruction, exclusions dites), mémoires de la chambre des investigations (D592) et exclusion de la liberté (D593) compris. L'adresse de l'avocat (D590) y fusionne. La demande de mise en liberté reste exclue (arbitrage).",
+      "ligne_rouge": "aucune ; la liberté reste hors de la voie électronique, comme en 2029.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "les avocats des parties peuvent transmettre",
-          "nouveau": "les avocats peuvent transmettre"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "les demandes, déclarations et observations suivantes :\n1° Les demandes de délivrance de copie des pièces d'un dossier prévues par l'article R. 155 ;\n1° bis. Les demandes et observations adressées au procureur de la République en application de l'article 77-2, ainsi que les saisines du procureur général prévues par cet article ;\n2° Les demandes tendant à l'octroi du statut de témoin assisté prévues par l'article 80-1-1 ;\n3° Les demandes d'investigations sur la personnalité prévues par le neuvième alinéa de l'article 81 ;\n4° Les demandes de la partie civile prévues par l'article 81-1 ;\n5° Les demandes d'actes prévues par l'article 82-1 ;\n6° Les demandes tendant à la constatation de la prescription prévues par l'article 82-3 ;\n7° Les constitutions de partie civile et les plaintes adressées au procureur de la République respectivement prévues par les premiers et deuxièmes alinéas de l'article 85 ;\n8° La requête en restitution d'objet placé sous main de justice prévue par le deuxième alinéa de l'article 99 ;\n9° Les demandes d'un témoin assisté tendant à sa mise en examen, prévues par l'article 113-6 ;\n10° Les demandes de délivrance d'une copie du dossier de l'instruction prévues par le quatrième alinéa de l'article 114 ;\n11° Les déclarations de la liste des pièces dont l'avocat souhaite remettre une reproduction à son client, prévues par le septième alinéa de l'article 114 ;\n12° Les déclarations de changement de l'adresse déclarée prévues par le dernier alinéa de l'article 116 ;\n13° Les demandes de confrontations individuelles prévues par l'article 120-1 ;\n14° Les demandes d'expertises prévues par l'article 156 ;\n15° Les demandes de modification de la mission d'un expert ou d'adjonction d'un co-expert prévues par l'article 161-1 ;\n16° Les observations concernant les rapports d'expertise d'étape, prévues par l'article 161-2 ;\n17° Les observations et les demandes de complément d'expertise ou de contre-expertise, prévues par l'article 167 ;\n18° Les observations concernant les rapports d'expertise provisoires, prévues par l'article 167-2 ;\n19° Les observations, les demandes d'actes et les observations complémentaires faites en application de l'article 175 ;\n20° Les demandes formées en application de l'article 77-2 ;\n21° Les demandes formées en application de l'article 495-15.",
-          "nouveau": "les demandes, déclarations, observations et mémoires que le présent code permet d'adresser au procureur de la République, au procureur général, au juge d'instruction ou à une juridiction d'instruction, ainsi que les demandes de copie de pièces adressées au greffe d'une juridiction.\nNe peuvent être ainsi transmises ni les déclarations d'appel, d'opposition et de pourvoi, ni les demandes de mise en liberté ou de mainlevée du contrôle judiciaire."
+          "op": "rediger",
+          "nouveau": "Selon les modalités d'une convention passée entre le ministère de la justice et les organisations nationales représentatives des barreaux, les avocats peuvent transmettre par un moyen de télécommunication sécurisé, à l'adresse électronique de la juridiction ou de son service compétent, avec conservation d'une trace écrite, les demandes, déclarations, observations et mémoires que le présent code permet d'adresser au procureur de la République, au procureur général, au juge d'instruction ou à une juridiction d'instruction, les demandes de copie de pièces adressées au greffe d'une juridiction et toute demande que le présent code permet de faire par simple lettre. Ne peuvent être ainsi transmises ni les déclarations d'appel, d'opposition et de pourvoi, ni les demandes de mise en liberté ou de mainlevée du contrôle judiciaire.\nL'accusé de réception électronique émis à la réception de la demande fait courir, s'il y a lieu, les délais prévus par le présent code. Pour une demande reçue en dehors des jours ouvrables ou après 17 heures, ils ne courent qu'à compter du premier jour ouvrable suivant. La demande transmise à une adresse électronique qui ne figure pas sur la liste transmise par le ministère de la justice en application de la convention est irrecevable.\nL'avocat absent du répertoire communiqué à la juridiction peut faire connaître son adresse électronique à la première comparution de la personne mise en examen ou à la première audition de la partie civile ou du témoin assisté."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "D593-1",
+      "principe": "P12",
+      "motif": "Gardé ; le renvoi à l'ancien 801-1 tombe (L. 1611-1).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les actes des avocats au Conseil d'État et à la Cour de cassation prévus par le présent code dans le cadre de leur mandat de représentation, notamment les constitutions, les mémoires et les pièces qui leur sont associées, les observations, les demandes de prorogation et de dérogation et les requêtes, peuvent être établis et transmis à la chambre criminelle de la Cour de cassation sous format numérique, selon les modalités techniques arrêtées en application de l'article 748-6 du code de procédure civile."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D593-1-1",
+      "principe": "P23",
+      "motif": "Signification électronique gardée sur le fond : date certaine, téléchargement sous cinq jours valant signification à personne, repli sur la signification à domicile avec lettre, délai de citation. Les renvois aux alinéas de l'ancien 558 deviennent L. 1631-7, l'ancien 803-1 devient L. 1632-6, les anciens 550 à 566 sont nommés (règles générales de la signification).",
+      "ligne_rouge": "art. 16 DDHC examiné : la signification ne produit ses effets qu'au téléchargement ou après envoi de la lettre de la signification à domicile, et la citation ne vaut que si le délai de comparution est respecté depuis le téléchargement ; gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "I. Les significations par voie électronique prévues à l'article L. 1632-6 peuvent être faites au ministère public ou à sa demande, dans le respect des articles L. 1631-2 à L. 1631-5, L. 4412-9, L. 4412-10, L. 4412-12 et L. 4415-2. Elles passent par des plateformes d'échanges dématérialisés qui adressent au destinataire un avis de mise à disposition l'invitant à télécharger l'acte, et qui émettent un avis de réception lorsqu'il le télécharge. Une trace de ces avis est conservée.\nII. Les significations au ministère public suivent une convention entre le ministère de la justice et la chambre nationale des commissaires de justice. L'accusé de réception électronique émis à la réception de l'avis de mise à disposition sur la boîte aux lettres électronique du ministère public fait courir, s'il y a lieu, les délais. Pour un avis reçu en dehors des jours ouvrables ou après 17 heures, ils ne courent qu'à compter du premier jour ouvrable suivant. L'avis transmis à une adresse qui ne figure pas sur la liste communiquée par le ministère de la justice en application de la convention est irrecevable.\nIII. Lorsque le destinataire d'une signification demandée par le ministère public a expressément consenti à la communication électronique dans le dossier, le commissaire de justice peut lui adresser, à l'adresse qu'il a choisie, un avis électronique de mise à disposition de l'acte sur une plateforme dédiée, qui indique la date et, le cas échéant, l'heure de la mise à disposition. La signification est datée de l'envoi de cet avis. À l'égard du destinataire, elle ne produit ses effets qu'au jour du téléchargement de l'acte ou, au plus tard, à l'expiration du délai prévu ci-dessous. Le téléchargement se fait selon des modalités qui garantissent l'identification de la personne, l'intégrité de l'acte, la sécurité, la confidentialité et la conservation de la transmission, et établissent sa date avec certitude. Fait dans les cinq jours de l'envoi, il vaut signification à personne. À défaut, la signification est réputée faite à domicile le sixième jour après l'envoi de l'avis, et le commissaire de justice adresse au destinataire la lettre prévue au second alinéa de l'article L. 1631-7, dont les effets s'appliquent. Une citation à comparaître ne produit alors ces effets que si le délai entre le téléchargement et le jour de la comparution est au moins égal au délai fixé aux articles L. 4412-9 et L. 4412-10.\nIV. Les modalités d'application du présent article sont précisées par arrêté du ministre de la justice."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D594-2",
+      "principe": "P23",
+      "motif": "L'interprète lors des auditions en un article : contestation (D594-2), interprétation à distance (D594-4) et troubles de la parole ou de l'audition (D594-5).",
+      "ligne_rouge": "aucune ; contestation consignée, interprète des personnes atteintes de troubles de la parole gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne suspectée ou poursuivie qui conteste l'absence d'interprète ou la qualité de l'interprétation peut faire des observations. Faites immédiatement, elles sont mentionnées au procès-verbal ou aux notes d'audience. Faites ultérieurement, elles sont versées au dossier. S'il apparaît que la personne ne parle pas ou ne comprend pas le français, l'interprète l'assiste sans délai.\nLorsque l'interprète ne peut se déplacer, l'assistance en langue étrangère ou en langue des signes peut se faire par un moyen de télécommunication, conformément à l'article L. 1621-11.\nLa personne présentant des troubles de la parole ou de l'audition est assistée, si son état le justifie, lors de son audition et de ses entretiens avec son avocat, par un interprète en langue des signes ou par toute personne qualifiée maîtrisant un langage, une méthode ou un dispositif technique permettant de communiquer avec elle."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D594-3",
+      "principe": "P23",
+      "motif": "Gardé ; l'article préliminaire devient L. 1112-3, énumération sans point-virgule.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : interprète aux entretiens avec l'avocat en garde à vue, avant audition, recours ou demande de mise en liberté, gardé mot pour mot.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les entretiens avec l'avocat pour lesquels la personne peut demander l'assistance d'un interprète en application de l'article L. 1112-3 sont ceux qui se tiennent, dans des conditions garantissant leur confidentialité, dans les locaux des services d'enquête, des juridictions et des établissements pénitentiaires :\n1° Au cours de la garde à vue ou de toute mesure privative de liberté dont le régime est, en tout ou partie, défini par renvoi à celui de la garde à vue.\n2° Préalablement à l'audition par un magistrat ou à la comparution devant une juridiction.\n3° Préalablement au dépôt éventuel d'un recours contre une décision juridictionnelle.\n4° Préalablement au dépôt éventuel d'une demande de mise en liberté."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D594-6",
+      "principe": "P23",
+      "motif": "La traduction des pièces essentielles en un article : liste (D594-6), passages pertinents (D594-7), délai raisonnable (D594-8), traduction orale (D594-9) et exclusion des avis d'amende forfaitaire (D594-10). Les anciens 803-5, 114, 390-1, 145 et 529 sont remplacés ou nommés ; énumération sans point-virgule. Le « sans préjudice » ouvre la traduction d'autres pièces : gardé.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : traduction des décisions de détention et de rejet de mise en liberté gardée mot pour mot ; mention de la traduction orale gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sans préjudice de la traduction de tout autre document essentiel ordonnée, d'office ou à la demande de la personne, par le procureur de la République ou la juridiction d'instruction ou de jugement, sont traduits en application de l'article L. 1112-3 :\n1° Les décisions de placement en détention provisoire, de prolongation ou de maintien de la détention ou de rejet d'une demande de mise en liberté, et les ordres d'incarcération pris pour l'exécution d'un mandat d'arrêt européen.\n2° Les décisions de saisine de la juridiction de jugement.\n3° Les décisions statuant sur l'action publique et portant condamnation, prononcées ou homologuées par une juridiction.\n4° Le procès-verbal de première comparution ou de mise en examen supplétive, lorsque sa copie a été demandée.\nLa traduction peut ne porter que sur les passages qui permettent à la personne de connaître les faits qui lui sont reprochés, déterminés selon le stade de la procédure par le procureur de la République, le juge d'instruction ou la juridiction de jugement. Elle intervient dans un délai raisonnable, compte tenu du nombre et de la complexité des documents et de la langue. La traduction ou le résumé oral fait à titre exceptionnel est mentionné au procès-verbal ou aux notes d'audience, le cas échéant dans le document lui-même, notamment le procès-verbal de convocation ou du débat sur la détention provisoire.\nLe présent article ne s'applique pas aux avis d'amende forfaitaire et d'amende forfaitaire majorée."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D594-11",
+      "principe": "P18",
+      "motif": "Les droits de la victime à l'interprète et à la traduction en un article : D594-12 à D594-15 fusionnés, les règles communes renvoient à D594-2 et D594-6. Les anciens 10-3 et 15-3 deviennent L. 1421-3 ou sont nommés.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime bénéficie de l'assistance d'un interprète lors de son audition dans les conditions de l'article D. 594-2. Elle a droit, à sa demande, à la traduction des informations indispensables à l'exercice de ses droits, notamment du récépissé de dépôt de plainte.\nSans préjudice de la traduction de toute autre pièce essentielle ordonnée, d'office ou à sa demande, par le procureur de la République ou la juridiction d'instruction ou de jugement, la partie civile obtient, à sa demande, la traduction des décisions de classement sans suite, des ordonnances de non-lieu et des décisions de condamnation, de relaxe ou d'acquittement. La traduction peut ne porter que sur les passages pertinents pour l'exercice de ses droits, déterminés comme il est dit à l'article D. 594-6, et intervient dans un délai raisonnable.\nLa traduction ou le résumé oral fait à titre exceptionnel en application de l'article L. 1421-3 est mentionné au procès-verbal ou aux notes d'audience."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D594-16",
+      "principe": "P23",
+      "motif": "Gardé en phrases courtes, énumération sans point-virgule.",
+      "ligne_rouge": "art. 16 DDHC examiné : qualité et neutralité de l'interprète (listes, exclusions, serment, confidentialité) gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'interprète ou le traducteur requis ou désigné par l'autorité judiciaire est choisi sur la liste nationale des experts judiciaires ou sur celle d'une cour d'appel, à défaut sur la liste des interprètes traducteurs prévue à l'article R. 141-1 du code de l'entrée et du séjour des étrangers et du droit d'asile. En cas de nécessité, une personne majeure hors liste peut être désignée, si elle n'est ni enquêteur, magistrat ou greffier chargé du dossier, ni partie, ni témoin. Celle-ci prête, chaque fois qu'elle est commise, le serment d'apporter son concours à la justice en son honneur et en sa conscience, consigné par procès-verbal.\nInterprètes et traducteurs respectent la confidentialité de leurs travaux."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D589-1",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Archivage du dossier numérique sous la responsabilité du ministère : deuxième alinéa de D589 ; la définition du dossier numérique est dans L. 1611-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D589"
+    },
+    {
+      "code": "cpp",
+      "num": "D589-6",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Faculté de ne pas verser au dossier numérique : deuxième alinéa de D589 ; les dispenses de l'ancien 801-1, II, sont dans L. 1611-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D589"
+    },
+    {
+      "code": "cpp",
+      "num": "D589-7",
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Arrêté d'application : dernier alinéa de D589.",
+      "ligne_rouge": "aucune",
+      "vers": "D589"
+    },
+    {
+      "code": "cpp",
+      "num": "D589-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exigences de la signature électronique et non-nullité pour le seul niveau du certificat : deuxième alinéa de D589-2.",
+      "ligne_rouge": "art. 16 DDHC (droits de la défense) examiné : identification du signataire et intégrité de l'acte gardées ; la non-nullité pour un défaut de niveau technique ne prive la défense d'aucun moyen sur l'authenticité de l'acte.",
+      "vers": "D589-2"
+    },
+    {
+      "code": "cpp",
+      "num": "D589-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Signature manuscrite numérique : dernier alinéa de D589-2.",
+      "ligne_rouge": "aucune",
+      "vers": "D589-2"
+    },
+    {
+      "code": "cpp",
+      "num": "D589-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cachet électronique : deuxième alinéa de D589-2.",
+      "ligne_rouge": "art. 16 DDHC (droits de la défense) examiné : même règle que la signature électronique, reprise à D589-2.",
+      "vers": "D589-2"
+    },
+    {
+      "code": "cpp",
+      "num": "D590",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Adresse électronique de l'avocat déclarée à la première comparution : dernier alinéa de D591.",
+      "ligne_rouge": "aucune",
+      "vers": "D591"
+    },
+    {
+      "code": "cpp",
+      "num": "D590-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Redite de L. 1632-2 : les notifications, convocations et envois faits à un avocat lui sont adressés à son adresse électronique, sauf impossibilité technique. La liste des actes concernés (convocations, avis, décisions, copies) y est entière.",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "D592",
       "decision": "F",
       "principe": "P2",
-      "motif": "Les mémoires déposés devant la chambre des investigations et des libertés (ancien 198) entrent dans la règle générale de D591 réécrit. Renvois entrants : D47-1-41 (« D. 589 à D. 592 ») reste servi par D591, à coordonner.",
+      "motif": "Mémoires devant la chambre des investigations et des libertés : règle générale de D591 (décision de passe 2).",
       "ligne_rouge": "aucune",
       "vers": "D591"
     },
@@ -121,161 +232,116 @@
       "num": "D593",
       "decision": "F",
       "principe": "P23",
-      "motif": "L'exclusion des demandes de mise en liberté et de mainlevée du contrôle judiciaire passe dans D591 réécrit : une seule règle, avec ses exclusions. Renvoi entrant : A53-9 (« D. 591 à D. 593 ») reste servi par D591, à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : l'exclusion est gardée mot pour mot dans D591, la demande de mise en liberté reste ouverte selon les formes de la loi",
+      "motif": "Exclusion des demandes de mise en liberté et de mainlevée du contrôle judiciaire : premier alinéa de D591 (décision de passe 2).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la demande de mise en liberté garde ses formes légales, l'exclusion est reprise mot pour mot à D591.",
       "vers": "D591"
     },
     {
       "code": "cpp",
-      "num": "D593-1",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Actes des avocats aux Conseils transmis sous format numérique à la chambre criminelle. Renvoi à l'ancien 801-1 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D593-1-1",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Signification électronique au ministère public et à sa demande, avec téléchargement, date certaine et repli sur la signification à domicile : numérique, garanties tenues. Renvois aux anciens 803-1, 550 à 558 et 564 à 566 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "D594",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Champ du chapitre de l'interprète et de la traduction, pour la défense et pour la victime. Renvois aux anciens 803-5, 10-2 et 10-3 (L1421-3) et aux articles d'audition cités à coordonner.",
-      "ligne_rouge": "art. 16 DDHC et CEDH art. 6 § 3 examinés : droit à l'interprète et à la traduction des pièces essentielles, tenu"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article de champ : le droit à l'interprète et à la traduction est porté par L. 1112-3 et L. 1421-3, qui renvoient au décret ; les articles du chapitre s'appliquent d'eux-mêmes. La liste des anciens articles d'audition tombe.",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "D594-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Vérification d'office de la compréhension de la langue, interprète sans délai : garantie de la défense.",
-      "ligne_rouge": "art. 16 DDHC et CEDH art. 6 § 3 examinés : interprète sans délai dès le doute, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-10",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Pas de traduction des avis d'amende forfaitaire : la voie rapide reste simple, la contestation ouvre le droit commun.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-11",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Interprète de la victime lors de son audition, mention de la traduction orale : la victime est entendue. Renvoi à l'ancien 10-3 (L1421-3) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-12",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Traduction, à sa demande, des informations indispensables à la victime, dont le récépissé de plainte. Renvoi à l'ancien 15-3 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-13",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Traduction, à la demande de la partie civile, du classement, du non-lieu et du jugement : la victime est informée des étapes qui touchent la peine. Renvoi à l'ancien 10-3 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-14",
-      "decision": "G",
+      "decision": "A",
       "principe": "P20",
-      "motif": "Traduction limitée aux passages pertinents, désignés par le magistrat : sobriété, droits de la partie civile tenus.",
+      "motif": "Redite de L. 1112-3, deuxième alinéa, pour la vérification de la langue en cas de doute. L'assistance sans délai de l'interprète passe au premier alinéa de D594-2 (directive 2010/64/UE, art. 2).",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-15",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Délai raisonnable de traduction pour la partie civile, apprécié selon le volume et la langue.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-16",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Choix de l'interprète sur liste, serment hors liste, confidentialité : qualité et neutralité de l'interprétation.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'interprète n'est choisi ni parmi les enquêteurs ni parmi les parties, serment et confidentialité tenus"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contestation de l'absence ou de la qualité de l'interprétation, consignée au dossier : garantie de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : la contestation est consignée et versée au dossier, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interprète pour les entretiens avec l'avocat liés à la garde à vue, à l'audition, au recours et à la demande de mise en liberté : droits de la défense.",
-      "ligne_rouge": "art. 66 C et art. 16 DDHC examinés : l'entretien confidentiel avec l'avocat pendant la privation de liberté est servi par l'interprète, tenu"
     },
     {
       "code": "cpp",
       "num": "D594-4",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Interprétation par télécommunication : le numérique sert la rapidité. Renvoi à l'ancien 706-71 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : le moyen de télécommunication est une faculté, l'interprétation reste due"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interprétation par télécommunication : deuxième alinéa de D594-2 ; l'ancien 706-71 est nommé.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-2"
     },
     {
       "code": "cpp",
       "num": "D594-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interprète en langue des signes ou personne qualifiée pour les troubles de la parole ou de l'audition : garantie de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : la personne handicapée comprend et se fait comprendre, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "D594-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pièces essentielles traduites d'office : détention, saisine de la juridiction, condamnation, première comparution. Renvois aux anciens 803-5 et 114 à coordonner.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 § 2 examinés : la décision de détention est traduite, la personne connaît les raisons de sa privation de liberté"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Troubles de la parole ou de l'audition : dernier alinéa de D594-2 ; la surdité seule est déjà dans L. 1112-4.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-2"
     },
     {
       "code": "cpp",
       "num": "D594-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Traduction limitée aux passages pertinents, désignés par le magistrat : sobriété, connaissance des faits reprochés tenue.",
-      "ligne_rouge": "art. 16 DDHC examiné : les passages qui font connaître les faits reprochés restent traduits"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passages pertinents désignés par le magistrat : D594-6.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-6"
     },
     {
       "code": "cpp",
       "num": "D594-8",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Délai raisonnable de traduction pour la défense, apprécié selon le volume et la langue.",
-      "ligne_rouge": "CEDH art. 6 § 3 examiné : la traduction intervient à temps pour l'exercice de la défense"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délai raisonnable de traduction : D594-6.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-6"
     },
     {
       "code": "cpp",
       "num": "D594-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Traduction orale ou résumé oral à titre d'exception, mentionné au procès-verbal : trace de la garantie. Renvois aux anciens 803-5, 390-1 et 145 à coordonner.",
-      "ligne_rouge": "art. 66 C et art. 16 DDHC examinés : l'exception est tracée, y compris au débat de détention provisoire, et contrôlable par le juge"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Traduction ou résumé oral mentionné au procès-verbal : D594-6.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la trace de la traduction orale, y compris au débat sur la détention provisoire, est reprise à D594-6.",
+      "vers": "D594-6"
+    },
+    {
+      "code": "cpp",
+      "num": "D594-10",
+      "decision": "F",
+      "principe": "P24",
+      "motif": "Pas de traduction des avis d'amende forfaitaire : dernier alinéa de D594-6.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-6"
+    },
+    {
+      "code": "cpp",
+      "num": "D594-12",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Traduction des informations indispensables, récépissé de plainte compris : premier alinéa de D594-11.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-11"
+    },
+    {
+      "code": "cpp",
+      "num": "D594-13",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Pièces essentielles traduites pour la partie civile : deuxième alinéa de D594-11.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-11"
+    },
+    {
+      "code": "cpp",
+      "num": "D594-14",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Passages pertinents : deuxième alinéa de D594-11.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-11"
+    },
+    {
+      "code": "cpp",
+      "num": "D594-15",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Délai raisonnable : deuxième alinéa de D594-11.",
+      "ligne_rouge": "aucune",
+      "vers": "D594-11"
     }
-  ]
+  ],
+  "passe": 3
 }
