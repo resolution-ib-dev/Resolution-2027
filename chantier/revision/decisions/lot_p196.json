@@ -9,202 +9,226 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "L3731-1",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Articulation des contrôles de l'information : charpente. Faute corrigée (« à de demandes »).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "ou à de demandes des parties",
-          "nouveau": "ou à des demandes des parties"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3731-10",
-      "decision": "A",
-      "principe": "P3",
-      "motif": "Doublon de L3551-11 (même ancien article 230-41), qui ouvre déjà la contestation du dossier distinct pour toutes les techniques du titre V, géolocalisation comprise (L3551-8, 1°). Vérifié mot à mot : L3551-11 porte les mêmes cas d'annulation et le même versement, et y ajoute que le délai ne court pas avant la notification de l'autorisation. Aucune règle propre perdue. Renvoi à l'ancien 230-41 à coordonner : R53-40-1 et R53-40-4, vers L. 3551-11.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : contestation gardée à L3551-11, plus protectrice ; art. 66 C sans objet"
-    },
-    {
-      "code": "cpp",
-      "num": "L3731-2",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Articulation avec les autres titres du livre. Deux fautes corrigées (« d'exercent », « requêtes en annulation prévus »).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Ces contrôles d'exercent",
-          "nouveau": "Ces contrôles s'exercent"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "requêtes en annulation prévus",
-          "nouveau": "requêtes en annulation prévues"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
       "num": "L3731-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine directe de la chambre par le procureur faute d'ordonnance en cinq jours : délai engagé.",
-      "ligne_rouge": "aucune"
+      "principe": "P2",
+      "motif": "Saisine directe du procureur faute d'ordonnance dans les cinq jours de L3422-2, pour tout réquisitoire et toute mesure de sûreté : seul siège (L3741-2 abrogé, L3742-12 réduit).",
+      "ligne_rouge": "aucune (passe 1) ; P19 : délai de dix jours opposable.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le juge d'instruction ne rend pas dans les cinq jours l'ordonnance prévue à l'article L. 3422-2, le procureur de la République peut saisir directement la chambre des investigations et des libertés dans les dix jours."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3731-4",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine directe par les parties faute d'ordonnance en un mois sur une demande d'acte ou de prescription : délai engagé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3731-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Forme des saisines directes par renvoi à L3622-3 et L3644-7, gardés : une forme, une fois.",
-      "ligne_rouge": "aucune"
+      "principe": "P2",
+      "motif": "Reçoit L3731-5 : la forme des saisines directes renvoie à la règle générale de L3712-2 au lieu de L3622-3 et L3644-7. Délai d'un mois gardé (cité par L7211-5, L3713-6).",
+      "ligne_rouge": "aucune (passe 1) ; P19 : délai d'un mois opposable au juge.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le juge d'instruction n'a pas statué par ordonnance dans le mois, les parties peuvent saisir directement le président de la chambre des investigations et des libertés, pour que la chambre examine :\n1° Leur demande d'acte formée selon l'article L. 3431-17.\n2° Leur demande de constatation de la prescription de l'action pénale formée selon l'article L. 3431-26.\nLe témoin assisté peut de même saisir le président des demandes d'actes que lui ouvre le dernier alinéa de l'article L. 3431-17 et de celles du 2°.\nLa saisine est faite dans les formes de l'article L. 3712-2, au greffe de la chambre ou auprès du chef de l'établissement pénitentiaire, qui la transmet."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3731-6",
+      "principe": "P2",
+      "motif": "Examen préalable en huit jours : renvoi à la règle de L3712-10, la saisine tenant lieu d'appel. Renvoi corrigé (passe 2) : les saisines directes sont celles de L3731-4. Cité par L3721-7 et L3732-6.",
+      "ligne_rouge": "aucune (passe 1).",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Examen préalable des saisines directes sous huit jours. Le renvoi vise L. 3731-2, qui n'organise aucune saisine : les saisines directes adressées au président sont celles de L. 3731-4.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "saisines directes prévues par l'article L. 3731-2.",
-          "nouveau": "saisines directes prévues par l'article L. 3731-4."
+          "op": "rediger",
+          "nouveau": "L'examen préalable de l'article L. 3712-10 s'applique aux saisines directes de l'article L. 3731-4, la saisine tenant lieu d'appel."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3731-7",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Opposition du juge à la remise de copies contestée en deux jours, décision en cinq, remise acquise à défaut : délais brefs, sanction utile.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : accès aux pièces garanti par un juge, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3731-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Remise de copies par l'avocat d'une partie civile contestée : recours au président, cinq jours. Le renvoi vise un article L. 3414-14 absent du code de 2029 : la règle est à L. 3434-14 (partie civile dont la recevabilité est contestée).",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Reçoit L3731-8 : les deux contestations sur la remise de copies tiennent dans un article. Renvoi corrigé : le refus opposé à l'avocat de la partie civile contestée est au second alinéa de L3431-15 depuis la fusion de L3434-14 (lot p178).",
+      "ligne_rouge": "aucune (passe 1) ; art. 16 DDHC : accès de la défense aux pièces, décision en cinq jours ouvrables et remise acquise à défaut : gardés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'article L. 3414-14",
-          "nouveau": "l'article L. 3434-14"
+          "op": "rediger",
+          "nouveau": "L'ordonnance par laquelle le juge d'instruction s'oppose, selon le premier alinéa de l'article L. 3431-15, à la remise de copies aux parties ou au témoin assisté peut être contestée par eux ou par leurs avocats devant le président de la chambre des investigations et des libertés, dans les deux jours de sa notification. Le président statue dans les cinq jours ouvrables, par décision écrite et motivée insusceptible de recours. A défaut de décision dans ce délai, l'avocat qui a demandé la remise peut communiquer à son client la reproduction des pièces ou actes demandés.\nL'avocat d'une partie civile dont la recevabilité est contestée peut contester devant le président le refus d'autorisation prévu au second alinéa de l'article L. 3431-15, ou le saisir directement si le juge d'instruction n'a pas répondu dans les cinq jours ouvrables. Le président statue dans les mêmes délai et formes. Sans son autorisation, l'avocat ne transmet pas la reproduction des pièces à son client."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3731-9",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Contestation du refus de modifier une expertise : dix jours, décision motivée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3732-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine de la chambre par son président après quatre mois sans acte : le retard a un juge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3732-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine par les parties après quatre mois sans acte, deux pour le détenu, puis un autre juge : délai qui engage l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : délai raccourci pour la personne détenue, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3732-3",
-      "decision": "R",
-      "principe": "P19",
-      "motif": "Coordination du registre 5.5 : l'ordonnance à deux ans cède à la demande de prolongation (L3421-3). Le président garde la faculté de saisir la chambre de l'ensemble de la procédure.",
-      "ligne_rouge": "Art. 6 CEDH examiné : le contrôle de la durée par la chambre est gardé.",
+      "principe": "P23",
+      "motif": "Contestation du refus de modifier une expertise : gardée en une phrase.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "reçoit communication de l'ordonnance que le juge d'instruction est tenu de prendre deux ans après l'ouverture de l'information en application de l'article L. 3421-4,",
-          "nouveau": "reçoit la demande de prolongation de l'information présentée par le juge d'instruction en application de l'article L. 3421-3,"
+          "op": "rediger",
+          "nouveau": "Lorsque le juge d'instruction ne fait pas droit dans les dix jours, selon l'article L. 3443-5, à une demande de modification d'une mission d'expertise ou d'adjonction d'un expert, les parties et le témoin assisté peuvent contester l'ordonnance ou l'absence d'ordonnance dans les dix jours devant le président de la chambre des investigations et des libertés, qui statue par décision motivée insusceptible de recours."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L3732-4",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Contrôle à chaque renouvellement semestriel : même logique.",
-      "ligne_rouge": "aucune"
+      "num": "L3732-1",
+      "principe": "P23",
+      "motif": "Saisine par le président après quatre mois sans acte : gardée. Elle porte les suites communes (évocation ou renvoi), auxquelles L3732-2 renvoie.",
+      "ligne_rouge": "aucune (passe 1) ; P19 : le retard a un juge.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque quatre mois se sont écoulés depuis le dernier acte d'instruction nécessaire à la manifestation de la vérité, le président de la chambre des investigations et des libertés peut saisir la chambre par requête. Celle-ci peut, dans l'intérêt d'une bonne administration de la justice, évoquer selon les articles L. 3714-1 à L. 3714-5 ou renvoyer le dossier au juge d'instruction saisi ou à un autre pour poursuivre l'information."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3732-2",
+      "principe": "P23",
+      "motif": "Saisine par les parties après quatre mois, deux pour le détenu, puis nouvelle saisine : gardée, suites renvoyées à L3732-1.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : délais raccourcis pour la personne détenue, dessaisissement obligatoire après un second retard : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque quatre mois se sont écoulés depuis le dernier acte d'instruction, ou deux mois pour la personne mise en examen détenue, les parties peuvent saisir la chambre par requête déposée selon l'article L. 3752-3. Dans les huit jours de la réception du dossier par le greffe de la chambre, le président peut décider, par ordonnance motivée insusceptible de recours, qu'il n'y a pas lieu de la saisir. La chambre saisie évoque ou renvoie le dossier comme il est dit à l'article L. 3732-1.\nSi aucun acte d'instruction n'a été accompli dans les deux mois du renvoi au juge d'instruction initialement saisi, ou dans le mois pour la personne détenue, la chambre peut être saisie à nouveau dans les mêmes conditions. Elle doit alors évoquer ou renvoyer le dossier à un autre juge d'instruction."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3732-3",
+      "principe": "P19",
+      "motif": "Passe 2 tenue (registre 5.5 et 9.25) : l'ordonnance des deux ans cède à la demande de prolongation de L3421-3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le président de la chambre des investigations et des libertés qui reçoit la demande de prolongation de l'information présentée selon l'article L. 3421-3 peut saisir la chambre par requête selon l'article L. 3732-1."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3732-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Examen de l'ensemble de la procédure après trois mois de détention : contrôle de la durée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : contrôle d'office de la détention par une chambre de la cour, tenu"
+      "principe": "P23",
+      "motif": "Reçoit L3732-9 (nouvelle saisine six mois après l'arrêt) : l'examen de l'information avec détenu s'ouvre et se renouvelle dans le même article.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : contrôle de l'ensemble de la procédure après trois mois de détention, renouvelable tous les six mois tant que la détention dure : gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le président de la chambre des investigations et des libertés peut, d'office ou à la demande du ministère public ou de la personne mise en examen, saisir la chambre pour qu'elle examine l'ensemble de la procédure lorsque la personne mise en examen est détenue depuis trois mois et que l'avis de fin d'information prévu à l'article L. 3451-1 n'a pas été délivré. Saisi d'une demande, il statue dans les huit jours, par décision insusceptible de recours.\nSix mois après que l'arrêt est devenu définitif, si la détention provisoire dure toujours et que l'avis de fin d'information n'a pas été délivré, le président peut saisir à nouveau la chambre selon la présente section."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3732-6",
-      "decision": "R",
       "principe": "P26",
-      "motif": "Audience d'examen de l'information avec détenu. La publicité suit désormais L3713-7, réécrit. Perte nommée : le président de la chambre perd le pouvoir de décider d'office la chambre du conseil pour entrave aux investigations, dignité ou intérêt d'un tiers, hors des exceptions de P26.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : comparution du détenu, refus motivé seulement, tenu ; présomption d'innocence (art. 9 DDHC) examinée : chambre du conseil à la demande de la personne (L3713-7), tenu",
+      "motif": "Passe 2 tenue : la publicité suit L3713-7 et L. 1, qui valent pour toute audience de la chambre ; la phrase de renvoi tombe. Le pouvoir du président d'ordonner d'office la chambre du conseil (entrave, dignité, tiers) tombe hors des exceptions de P26. Audience, comparution, refus motivé, visioconférence et mémoires gardés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : comparution de la personne détenue qui la demande, refus seulement motivé, demandes de mise en liberté et requêtes en annulation à l'audience : gardés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Lorsque la personne mise en examen est majeure, les débats se déroulent et l'arrêt est rendu en audience publique, sauf en cas d'opposition sur laquelle la chambre statue conformément à l'article L. 3713-7. Le président de la chambre des investigations et des libertés peut également ordonner d'office, après avoir recueilli les observations du ministère public et des parties, que les débats se déroulent en chambre du conseil si la publicité est de nature à entraver les investigations spécifiques nécessitées par l'information ou à nuire à la dignité de la personne ou aux intérêts d'un tiers ; le président de la chambre des investigations et des libertés statue par une ordonnance rendue en chambre du conseil qui n'est susceptible de pourvoi en cassation qu'en même temps que l'arrêt rendu à l'issue des débats.",
-          "nouveau": "Les débats se déroulent et l'arrêt est rendu dans les conditions de publicité prévues à l'article L. 3713-7."
+          "op": "rediger",
+          "nouveau": "La chambre statue après une audience à laquelle sont convoqués les avocats de toutes les parties et des témoins assistés. La chambre ou son président peut ordonner, d'office ou à la demande des parties, la comparution des personnes mises en examen et des témoins assistés. Le président ne peut refuser que par décision motivée la comparution demandée par une personne détenue. La comparution peut se faire par un moyen de télécommunication audiovisuelle selon les articles L. 1621-1 et suivants.\nDeux jours ouvrables au moins avant l'audience, les parties peuvent déposer des mémoires contenant des demandes de mise en liberté, des demandes d'actes, même déjà rejetées selon les articles L. 3712-10 et L. 3731-6, des requêtes en annulation, sous réserve des articles L. 3752-4 à L. 3752-7, ou des demandes de constatation de la prescription de l'action pénale."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3732-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Pouvoirs de la chambre : liberté, nullité, évocation, renvoi avec délai, cosaisine, dessaisissement, règlement. Le contrôle a les moyens d'aboutir. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mise en liberté d'office possible, tenu ; art. 16 DDHC, droits de la défense examiné : nullités sous L3753-1, tenu"
+      "principe": "P23",
+      "motif": "Reçoit L3732-8 (arrêt sous trois mois, liberté à défaut). Liste des pouvoirs gardée, points-virgules retirés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : mise en liberté même sans demande, nullités, délai de trois mois sanctionné par la mise en liberté : gardés ; art. 16 DDHC : règlement et non-lieu ouverts.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Après avoir statué, le cas échéant, sur les demandes de l'article L. 3732-6, la chambre peut :\n1° Ordonner, même sans demande, la mise en liberté d'une ou plusieurs personnes mises en examen, avec ou sans contrôle judiciaire ou assignation à résidence avec surveillance électronique.\n2° Prononcer la nullité d'actes selon l'article L. 3753-1.\n3° Evoquer selon les articles L. 3714-1 à L. 3714-5.\n4° N'accomplir que certains actes avant de renvoyer le dossier au juge d'instruction.\n5° Renvoyer le dossier au juge d'instruction pour poursuivre l'information, en lui prescrivant le cas échéant, dans le délai qu'elle fixe, des actes autres que ceux relatifs à la détention provisoire ou au contrôle judiciaire.\n6° Désigner un ou plusieurs juges d'instruction cosaisis, selon l'article L. 3414-3.\n7° Si cette décision est indispensable à la manifestation de la vérité et à la bonne administration de la justice et que les désignations du 6° sont impossibles, dessaisir le juge d'instruction et désigner un ou plusieurs juges d'instruction de la juridiction d'origine ou d'une autre juridiction du ressort.\n8° Ordonner le règlement, même partiel, de la procédure, notamment par un ou plusieurs non-lieux.\nL'arrêt est rendu au plus tard trois mois après la saisine par le président, faute de quoi les personnes détenues sont remises en liberté."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3731-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Annonce des voies de contrôle de l'information : les appels sont ouverts par L3712-4 à L3712-7, les saisines directes et recours par L3731-3 à L3731-9.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L3731-2",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "« Sans préjudice » des titres IV à VI : chaque titre ouvre ses propres contrôles, l'article n'ajoute rien.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L3731-5",
+      "decision": "F",
+      "principe": "P2",
+      "motif": "Forme des saisines directes : dernier alinéa de L3731-4, par renvoi à L3712-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L3731-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3731-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contestation par l'avocat de la partie civile contestée : second alinéa de L3731-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L3731-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3731-10",
+      "decision": "A",
+      "principe": "P3",
+      "motif": "Passe 2 tenue : doublon de L3551-11 (même ancien 230-41), vérifié sur la pièce de passe 3 du lot p185 : contestation dans les dix jours devant le président, annulation, versement au dossier, décision motivée sans recours, pour toute technique du dossier distinct, géolocalisation comprise (L3551-7). Renvois de R53-40-1 et R53-40-4 à coordonner vers L3551-11.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : et art. 2 DDHC (vie privée) : la contestation du dossier distinct et l'interdiction de condamner sur ses seuls éléments survivent à L3551-11, qui ajoute que le délai ne court pas avant la notification de l'autorisation."
+    },
+    {
+      "code": "cpp",
+      "num": "L3732-4",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Saisine à chaque renouvellement semestriel de l'ordonnance de deux ans : cette ordonnance n'existe plus depuis la réécriture de L3421-3 (registre 5.5, L3421-4 fusionné, lot p177). La saisine sur la demande de prolongation reste à L3732-3.",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L3732-8",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Arrêt sous trois mois, à défaut liberté : délai qui engage l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : libération à défaut d'arrêt, tenue"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Arrêt sous trois mois, liberté à défaut : dernier alinéa de L3732-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L3732-7"
     },
     {
       "code": "cpp",
       "num": "L3732-9",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Nouvelle saisine six mois après si la détention dure : contrôle périodique.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : contrôle renouvelé, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Nouvelle saisine six mois après l'arrêt : second alinéa de L3732-5.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : contrôle périodique de la détention reprise à L3732-5.",
+      "vers": "L3732-5"
     }
-  ]
+  ],
+  "passe": 3
 }
