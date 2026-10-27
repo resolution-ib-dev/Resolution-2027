@@ -10,18 +10,26 @@
     {
       "code": "cpp",
       "num": "L3111-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Article de charpente : les deux cadres d'investigation, enquête sous la direction du procureur et information. Cité par L3121-1.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Les deux articles de charpente (cadres principaux et procédures de recherche, L3111-2 fusionné) en un. « Conformément aux dispositions de la présente partie » et « portant sur des crimes, délits ou contraventions » tombent (P20).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les investigations pénales se réalisent :\n1° Dans les enquêtes de police judiciaire, sous la direction du procureur de la République, par les autorités qui exercent des missions de police judiciaire.\n2° Dans les informations, par les juridictions d'instruction ou sur leur commission rogatoire, y compris lors d'un supplément d'information ordonné par une juridiction de jugement.\n3° Dans les contrôles et vérifications d'identité, la recherche des causes d'un décès, de blessures graves ou d'une disparition, et la recherche d'une personne en fuite."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3111-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Article de charpente : contrôles d'identité, recherche des causes de la mort ou d'une disparition, recherche des fugitifs. Cité par L3121-1.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contrôles d'identité, recherche des causes de la mort ou d'une disparition, recherche des fugitifs : 3° de L3111-1. L3121-1 renvoie désormais au seul L3111-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3111-1"
     }
-  ]
+  ],
+  "passe": 3
 }
