@@ -10,257 +10,306 @@
     {
       "code": "cpp",
       "num": "L4451-1",
-      "decision": "G",
       "principe": "P24",
-      "motif": "Comparution sur reconnaissance préalable de culpabilité pour le majeur qui reconnaît les faits : voie rapide du contentieux reconnu. Son extension aux crimes reconnus (P24) est un arbitrage de l'auteur.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4451-2",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Tous délits sauf homicides involontaires, atteintes graves à la personne et délits politiques ou de presse.",
-      "ligne_rouge": "art. 8 DDHC examiné : les atteintes graves aux personnes restent jugées à l'audience ordinaire"
+      "motif": "Recours à la procédure et champ (L4451-2) en un article ; exceptions gardées (registre 9.41). Plage mise sur la pièce p045 : 222-31-1 et 222-31-2 n'existent pas dans la base 2029, la tentative de 222-31 est passée à 229-6.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : les exceptions graves restent hors de la procédure ; la peine est homologuée par un juge.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une personne majeure reconnaît les faits qui lui sont reprochés, le procureur de la République peut, d'office ou à la demande de la personne ou de son avocat, recourir à la comparution sur reconnaissance préalable de culpabilité en lui proposant une ou plusieurs peines selon l'article L. 4451-3.\nCette procédure s'applique à tous les délits, sauf :\n1° Les homicides involontaires.\n2° Les atteintes volontaires et involontaires à l'intégrité des personnes et les agressions sexuelles prévues aux articles 222-9 à 222-30-2 du code pénal, et leur tentative prévue à l'article 229-6 du même code, lorsqu'elles sont punies de plus de cinq ans d'emprisonnement.\n3° Les délits politiques mentionnés à l'article L. 1726-1.\n4° Les délits de presse mentionnés à l'article L. 1727-1."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4451-3",
-      "decision": "R",
       "principe": "P24",
-      "motif": "Registre 1.20 : la comparution sur reconnaissance préalable de culpabilité est ouverte à tous les délits qu'elle vise, réitérants et récidivistes compris, et le quantum est celui du barème : la reconnaissance des faits compte en catégorie 3 (au plus un cinquième, 132-1-1), le minimum de la récidive s'applique (132-1-2). Le plafond de trois ans et la fermeture quand le barème impose davantage sont retirés, le plafond de la moitié de l'encourue aussi. L'aménagement proposé suit le champ de 132-25 réécrit ([six mois]), annoncé au prononcé (P10).",
-      "ligne_rouge": "Art. 8 DDHC examiné : la peine est individualisée dans le barème et homologuée par un juge du siège (L4452-8), la personne peut refuser et aller à l'audience. Art. 9 et 16 DDHC examinés : avocat obligatoire, délai de réflexion de dix jours (L4452-3). Risque déclaré : une peine longue proposée par le parquet, que seule l'homologation contrôle.",
+      "motif": "Texte de passe 2 (registre 1.20 : quantum dans le barème, plafond de trois ans retiré), phrases resserrées.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : le quantum suit le barème, la reconnaissance des faits en catégorie 3, sous le contrôle du juge de l'homologation (L4452-8).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "conformément aux articles 130-1 et 132-1 du code pénal",
-          "nouveau": "conformément aux articles 130-1 et 132-1 à 132-1-2 du code pénal"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "sa durée ne peut être supérieure à trois ans ni excéder la moitié de la peine d'emprisonnement encourue",
-          "nouveau": "sa durée est fixée dans les limites des articles 132-1-1 et 132-1-2 du code pénal, la reconnaissance des faits comptant au titre du 3° du I de l'article 132-1-1"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Il peut également proposer qu'elle fasse l'objet d'une mesure de fractionnement, de suspension, de semi-liberté, de détention à domicile avec surveillance électronique ou de placement à l'extérieur.",
-          "nouveau": "Il peut également proposer qu'elle fasse l'objet d'une mesure de fractionnement ou de suspension ou, dans les conditions de l'article 132-25 du code pénal, de semi-liberté, de détention à domicile avec surveillance électronique ou de placement à l'extérieur."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "ou si la personne sera convoquée devant le juge de l'application des peines",
-          "nouveau": "ou, lorsque cette peine est inférieure ou égale à [six mois], si la personne sera convoquée devant le juge de l'application des peines"
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut proposer une ou plusieurs des peines principales ou complémentaires encourues, dont il fixe la nature et le quantum selon les articles 130-1 et 132-1 à 132-1-2 du code pénal, la reconnaissance des faits comptant au titre du 3° du I de l'article 132-1-1. L'emprisonnement proposé peut être assorti en tout ou partie du sursis, ou faire l'objet d'un fractionnement, d'une suspension ou, dans les conditions de l'article 132-25 du même code, d'une semi-liberté, d'une détention à domicile sous surveillance électronique ou d'un placement à l'extérieur. Pour un emprisonnement ferme, le procureur précise s'il sera mis à exécution immédiatement ou, s'il n'excède pas [six mois], si la personne sera convoquée devant le juge de l'application des peines pour en fixer les modalités d'exécution.\nL'amende proposée n'excède pas l'amende encourue. Elle peut être assortie du sursis.\nLe procureur de la République peut aussi proposer la révocation de sursis antérieurs, le relèvement d'une interdiction, d'une déchéance ou d'une incapacité résultant de plein droit de la condamnation, ou l'exclusion de sa mention au bulletin n° 2 ou n° 3 du casier judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4451-4",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Quatre moments du recours à la procédure, jusqu'à l'appel limité aux peines. Ponctuation de l'introduction corrigée.",
-      "ligne_rouge": "aucune",
+      "principe": "P24",
+      "motif": "Moments du recours en un article, chacun avec sa règle propre : convocation simultanée (L4451-5), bascule après saisine du tribunal et caducité (L4451-6), accord de la partie civile (L4451-7), attributions en appel (L4451-8).",
+      "ligne_rouge": "Consentement aux procédures simplifiées : la personne reconnaît les faits et accepte la peine ; la partie civile qui a mis en mouvement l'action garde son accord.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "culpabilité ;1°",
-          "nouveau": "culpabilité :1°"
+          "op": "rediger",
+          "nouveau": "Il peut être recouru à la comparution sur reconnaissance préalable de culpabilité :\n1° À l'issue de l'enquête, à l'égard de la personne convoquée à cette fin ou déférée devant le procureur de la République. Sans défèrement, le procureur peut délivrer en même temps une convocation en justice, dont la saisine devient caduque si les peines acceptées sont homologuées.\n2° À l'issue d'une information, lorsque la personne a été renvoyée à cette fin devant le procureur de la République selon l'article L. 3451-9.\n3° Après une citation directe, une convocation en justice, une comparution sur procès-verbal ou une ordonnance de renvoi devant le tribunal délictuel, tant que le tribunal n'a pas examiné l'affaire au fond, même après un renvoi, à la demande du prévenu ou de son avocat qui reconnaît les faits, ou à l'initiative du procureur. La saisine du tribunal devient caduque, sauf si, plus de dix jours avant l'audience au fond, la personne refuse les peines ou l'homologation est refusée. Si le tribunal a été saisi par citation directe de la partie civile ou sur sa plainte avec constitution de partie civile, son accord est requis.\n4° Après l'appel du prévenu limité aux peines prononcées, tant que la cour d'appel n'a pas examiné l'affaire au fond, même après un renvoi. Le procureur général et le président de la chambre des appels délictuels ou son délégué exercent alors les attributions du procureur de la République et du président du tribunal judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L4451-5",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Convocation en justice parallèle, caduque en cas d'homologation : pas de perte de temps en cas d'échec.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4451-6",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Bascule vers la reconnaissance de culpabilité après saisine du tribunal, à l'initiative du prévenu ou du parquet.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4451-7",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Accord de la partie civile qui a cité ou porté plainte : la victime garde son procès.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4451-8",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "En appel, procureur général et président de chambre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "L4451-9",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Avis au curateur ou tuteur du majeur protégé.",
-      "ligne_rouge": "aucune"
+      "motif": "Avis au curateur ou au tuteur du majeur protégé : inchangé.",
+      "ligne_rouge": "Droits de la défense du majeur protégé : avis gardé.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L4452-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Avocat obligatoire, sans renonciation possible.",
-      "ligne_rouge": "art. 16 DDHC examiné : avocat obligatoire"
-    },
-    {
-      "code": "cpp",
-      "num": "L4452-10",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Victime informée sans délai, invitée à l'audience d'homologation, droit d'appel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4452-11",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Victime absente : audience sur les intérêts civils à sa demande.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4452-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Procès-verbal des formalités à peine de nullité : il est la preuve du consentement donné avec l'avocat, la nullité sanctionne une garantie et non une forme.",
-      "ligne_rouge": "art. 16 DDHC examiné : la nullité protège le consentement à la peine ; art. 8 DDHC examiné : sans procès-verbal, pas de peine consentie"
+      "motif": "Avocat obligatoire et procès-verbal à peine de nullité (L4452-2) en un article.",
+      "ligne_rouge": "Avocat (art. 16 DDHC) : assistance obligatoire, sans renonciation ; le procès-verbal prouve le consentement donné avec l'avocat, à peine de nullité.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne est assistée par un avocat de son choix ou, à sa demande, commis d'office par le bâtonnier. Elle ne peut renoncer à ce droit. Elle est informée que les frais d'avocat sont à sa charge sauf si elle remplit les conditions d'accès à l'aide juridictionnelle.\nÀ peine de nullité de la procédure, il est dressé procès-verbal des formalités du présent chapitre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4452-3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Reconnaissance devant le procureur en présence de l'avocat, délai de réflexion de dix jours, entretien libre.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine proposée suit L4451-3 réécrit ; art. 16 DDHC examiné : avocat et délai de réflexion"
-    },
-    {
-      "code": "cpp",
-      "num": "L4452-4",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Information préalable sur les propositions envisagées : la négociation est transparente.",
-      "ligne_rouge": "art. 8 DDHC examiné : la proposition reste dans le barème"
+      "motif": "Comparution devant le procureur et information préalable sur les propositions (L4452-4) en un article.",
+      "ligne_rouge": "Consentement aux procédures simplifiées et avocat : reconnaissance en présence de l'avocat, entretien libre, dossier ouvert, délai de réflexion de dix jours.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne comparaît devant le procureur de la République, qui recueille, en présence de son avocat, ses déclarations par lesquelles elle reconnaît les faits, puis lui fait connaître la ou les peines proposées selon l'article L. 4451-3. Le procureur peut auparavant informer la personne ou son avocat, par tout moyen, des propositions qu'il envisage.\nL'avocat peut consulter le dossier sur-le-champ. La personne peut s'entretenir librement avec lui, hors la présence du procureur de la République, avant de faire connaître sa décision. Elle est avisée qu'elle peut demander un délai de dix jours avant d'accepter ou de refuser les peines proposées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4452-5",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Mesures de sûreté pendant le délai de réflexion, par le juge des libertés et de la détention, nouvelle comparution sous dix à vingt jours.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la privation de liberté est décidée par un juge du siège (juge des libertés et de la détention ou tribunal), bornée dans le temps, à peine de mise en liberté d'office ; art. 8 DDHC examiné : la détention n'est possible qu'au-delà de deux mois ferme proposés avec exécution immédiate"
-    },
-    {
-      "code": "cpp",
-      "num": "L4452-6",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Présentation immédiate au juge de l'homologation, ou sous un mois.",
-      "ligne_rouge": "aucune"
+      "motif": "Mesures pendant le délai de réflexion : phrases resserrées.",
+      "ligne_rouge": "Détention avant jugement (art. 66 C) : décision d'un juge du siège, détention exceptionnelle, délai de dix à vingt jours, fin de la mesure à défaut.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la personne demande le délai de dix jours prévu à l'article L. 4452-3, le procureur de la République peut la présenter au juge des libertés et de la détention, qui peut la placer sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique jusqu'à sa nouvelle comparution. À titre exceptionnel, lorsque l'une des peines proposées est d'au moins deux mois d'emprisonnement ferme avec mise à exécution immédiate, le juge peut ordonner la détention provisoire. Il statue selon les articles L. 4413-9 et L. 4413-15.\nLa nouvelle comparution devant le procureur de la République a lieu dans un délai de dix à vingt jours à compter de la décision du juge. À défaut, il est mis fin à la mesure prise."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4452-7",
-      "decision": "G",
       "principe": "P26",
-      "motif": "Homologation en audience publique, vérification des faits et de la qualification, ordonnance motivée le jour même.",
-      "ligne_rouge": "aucune"
+      "motif": "Saisine du juge de l'homologation (L4452-6) et audience en un article.",
+      "ligne_rouge": "Consentement et publicité (P26) : acceptation en présence de l'avocat, audience publique, contrôle des faits et de la qualification par un juge.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne accepte, en présence de son avocat, la ou les peines proposées, le procureur de la République saisit d'une requête en homologation le président du tribunal judiciaire ou le juge qu'il délègue. La personne lui est aussitôt présentée ou, si elle n'est pas détenue, convoquée devant lui dans un délai d'un mois au plus.\nLe juge statue en audience publique, en présence de la personne et de son avocat, qu'il entend. La présence du procureur de la République n'est pas obligatoire. Après avoir vérifié la réalité des faits et leur qualification juridique, il peut homologuer les peines proposées. Il statue le jour même par ordonnance motivée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4452-8",
-      "decision": "S",
       "principe": "P5",
-      "motif": "Le juge de l'homologation vérifie que la peine est dans le barème (132-1-1 et 132-1-2) et l'ordonnance énonce les motifs de diminution : c'est le verrou qui empêche la voie rapide de contourner la référence (P5).",
-      "ligne_rouge": "art. 8 DDHC examiné : la voie rapide reste dans le barème (P5), un juge du siège statue et la personne peut demander l'audience ordinaire",
+      "motif": "Texte de passe 2 (verrou du barème), sans les 1° et 2°.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : le juge vérifie la peine au regard des circonstances, de la personnalité et du barème.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "personnalité de son auteur.",
-          "nouveau": "personnalité de son auteur, et qu'elles respectent les limites fixées aux articles 132-1-1 et 132-1-2 du code pénal."
-        },
-        {
-          "op": "ajouter_alinea",
-          "nouveau": "L'ordonnance énonce chaque motif de diminution retenu, les faits qui l'établissent et la diminution appliquée."
+          "op": "rediger",
+          "nouveau": "L'ordonnance d'homologation constate que la personne, en présence de son avocat, reconnaît les faits qui lui sont reprochés et accepte la ou les peines proposées, et que ces peines sont justifiées au regard des circonstances de l'infraction et de la personnalité de son auteur et respectent les limites des articles 132-1-1 et 132-1-2 du code pénal. Elle énonce chaque motif de diminution retenu, les faits qui l'établissent et la diminution appliquée."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4452-9",
-      "decision": "G",
       "principe": "P7",
-      "motif": "Refus d'homologuer pour la nature des faits, la victime ou l'intérêt de la société : soupape du juge vers l'audience ordinaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Refus d'homologation : sans les 1° et 2° ; « sans préjudice » remplacé par « aussi ».",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge peut aussi refuser l'homologation s'il estime que la nature des faits, la personnalité de l'intéressé, la situation de la victime ou les intérêts de la société justifient une audience délictuelle ordinaire, ou lorsque les déclarations de la victime apportent un éclairage nouveau sur les conditions de l'infraction ou sur la personnalité de son auteur."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4452-10",
+      "principe": "P18",
+      "motif": "Droits de la victime en un article : comparution à l'homologation et audience sur intérêts civils (L4452-11).",
+      "ligne_rouge": "Droits de la victime (P18) : information, constitution et appel gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime identifiée est informée sans délai, par tout moyen, du recours à cette procédure. Elle est invitée à comparaître avec l'auteur des faits, avec son avocat s'il y a lieu, devant le juge de l'homologation, pour se constituer partie civile et demander réparation. Le juge statue sur sa demande même si elle n'a pas comparu, selon l'article L. 4422-3. La partie civile peut faire appel de l'ordonnance selon les articles L. 4471-5 et L. 4471-9.\nLa victime qui n'a pu exercer ce droit est informée par le procureur de la République qu'elle peut lui demander de citer l'auteur des faits devant le tribunal délictuel, qui statue selon l'article L. 4433-3 sur les seuls intérêts civils au vu du dossier. Elle est avisée de la date de l'audience pour se constituer partie civile."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4453-1",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Ordonnance exécutoire, incarcération immédiate ou convocation devant le juge de l'application des peines, selon ce que la proposition a annoncé.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine est prononcée par la juridiction, dans le barème (132-1 et 132-1-1 du code pénal) ; l'article n'en règle que l'exécution"
-    },
-    {
-      "code": "cpp",
-      "num": "L4453-2",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Appel du condamné, appel incident du parquet.",
-      "ligne_rouge": "aucune"
+      "motif": "Effets de l'ordonnance et appel (L4453-2) en un article ; renvoi interne mis à jour (L4451-3 réécrit). Numéro gardé (cité par L5111-2).",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : la peine homologuée s'exécute selon ce que la proposition a annoncé ; appel du condamné ouvert.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'ordonnance d'homologation a les effets d'un jugement de condamnation. Elle est immédiatement exécutoire. Selon ce qu'a précisé le procureur de la République en application de l'article L. 4451-3, la personne condamnée à un emprisonnement ferme est aussitôt incarcérée en maison d'arrêt ou convoquée devant le juge de l'application des peines, à qui l'ordonnance est transmise sans délai.\nLe condamné peut faire appel de l'ordonnance selon les articles L. 4471-5, L. 4471-9 et L. 4471-11. Le ministère public peut former un appel incident dans les mêmes conditions. À défaut d'appel, l'ordonnance a les effets d'un jugement passé en force de chose jugée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4453-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Échec de la procédure : saisine du tribunal ou information. Coquille : L3322-14 n'existe pas ; après renvoi par le juge d'instruction, l'ordonnance est caduque et l'information reprend (L3452-21).",
-      "ligne_rouge": "aucune",
+      "principe": "P24",
+      "motif": "Suites de l'échec et seconde requête (L4453-6) en un article ; coquille L3322-14 corrigée (passe 2).",
+      "ligne_rouge": "Consentement : la seconde requête exige une nouvelle acceptation.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'article L. 3322-14",
-          "nouveau": "l'article L. 3452-21"
+          "op": "rediger",
+          "nouveau": "En cas d'échec de la procédure, le procureur de la République saisit, sauf élément nouveau, le tribunal délictuel selon l'un des modes de l'article L. 4411-1 ou requiert l'ouverture d'une information. Si l'échec suit une ordonnance de renvoi du juge d'instruction aux fins de comparution sur reconnaissance préalable de culpabilité, il applique l'article L. 3452-21.\nLorsque la personne a refusé les peines ou que l'homologation a été refusée, le procureur de la République peut toutefois, une seule fois, présenter une nouvelle requête en homologation d'une peine, sous réserve de son acceptation par la personne qui reconnaît les faits."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4453-4",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Les déclarations faites dans la procédure échouée ne peuvent être utilisées.",
-      "ligne_rouge": "art. 9 DDHC examiné : la reconnaissance non homologuée ne vaut pas aveu"
+      "motif": "Neutralisation des déclarations : phrases resserrées, renvoi mis à jour (L4452-2 fusionné dans L4452-1).",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) : la reconnaissance faite dans la procédure échouée ne peut servir.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne n'a pas accepté les peines proposées ou qu'elles n'ont pas été homologuées, le procès-verbal prévu à l'article L. 4452-1 n'est pas transmis à la juridiction d'instruction ou de jugement. Ni le ministère public ni les parties ne peuvent y faire état des déclarations faites ou des documents remis au cours de la procédure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4453-5",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Personne déférée retenue jusqu'à comparution le jour même, sinon juge des libertés et de la détention.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la privation de liberté est décidée par un juge du siège (juge des libertés et de la détention ou tribunal), bornée dans le temps, à peine de mise en liberté d'office"
+      "motif": "Retenue de la personne déférée : phrases resserrées.",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : comparution le jour même, sinon devant le juge des libertés et de la détention.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut retenir la personne déférée devant lui jusqu'à sa comparution, le jour même, devant le tribunal délictuel ou le juge d'instruction, selon l'article L. 4413-13. Si le tribunal ne peut se réunir le jour même, l'article L. 4413-14 s'applique. Le présent article vaut aussi pour la personne qui avait demandé un délai et avait été placée en détention provisoire selon l'article L. 4452-5."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4451-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Champ de la procédure : second alinéa de L4451-1.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : les exceptions (homicides involontaires, atteintes graves, délits politiques et de presse) sont gardées à L4451-1.",
+      "vers": "L4451-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4451-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Convocation simultanée : 1° de L4451-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4451-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L4451-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Bascule après saisine du tribunal : 3° de L4451-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4451-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L4451-7",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Accord de la partie civile : 3° de L4451-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4451-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L4451-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Attributions en appel : 4° de L4451-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4451-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L4452-2",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Procès-verbal à peine de nullité : second alinéa de L4452-1. Renvoi interne (L4453-4) mis à jour.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : la nullité sanctionne l'absence de preuve du consentement donné avec l'avocat, gardée à L4452-1.",
+      "vers": "L4452-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4452-4",
+      "decision": "F",
+      "principe": "P24",
+      "motif": "Information préalable sur les propositions : L4452-3.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : l'information préalable reste une faculté du procureur (L4452-3).",
+      "vers": "L4452-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L4452-6",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Présentation au juge de l'homologation, sous un mois : L4452-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L4452-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L4452-11",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Audience sur intérêts civils : second alinéa de L4452-10.",
+      "ligne_rouge": "aucune",
+      "vers": "L4452-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L4453-2",
+      "decision": "F",
+      "principe": "P17",
+      "motif": "Appel de l'ordonnance : second alinéa de L4453-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4453-1"
     },
     {
       "code": "cpp",
       "num": "L4453-6",
-      "decision": "G",
+      "decision": "F",
       "principe": "P24",
-      "motif": "Une seconde requête en homologation, avec l'accord de la personne : la voie rapide se rattrape une fois.",
-      "ligne_rouge": "art. 8 DDHC examiné : la nouvelle proposition reste dans le barème et sous homologation"
+      "motif": "Seconde requête en homologation : second alinéa de L4453-3.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : la seconde requête suppose une nouvelle acceptation (L4453-3).",
+      "vers": "L4453-3"
     }
-  ]
+  ],
+  "passe": 3
 }
