@@ -10,42 +10,58 @@
     {
       "code": "cpp",
       "num": "L1151-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Définition de la justice restaurative, qui associe la victime à la réparation : la victime est partie prenante.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1151-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Mesure proposée à tout stade, exécution comprise, si les faits sont reconnus : elle ne touche pas la peine.",
-      "ligne_rouge": "art. 8 DDHC examiné : la mesure est sans effet sur la peine prononcée ni sur son exécution, l'individualisation n'est pas en cause"
+      "principe": "P23",
+      "motif": "Définition et ouverture de la mesure : deux articles en un. Reçoit la phrase de L1 qui garantissait l'accès à la mesure.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la mesure suppose les faits reconnus et ne touche pas la peine",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Une mesure de justice restaurative permet à la victime et à l'auteur d'une infraction de participer activement à la résolution des difficultés nées de l'infraction, notamment à la réparation des préjudices. Ils y ont accès à tout stade de la procédure, y compris pendant l'exécution de la peine et après la prescription de l'action pénale, si les faits sont reconnus."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1151-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information complète et consentement exprès de la victime et de l'auteur : la victime n'est pas contrainte.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Consentement, tiers indépendant et confidentialité : trois articles en un.",
+      "ligne_rouge": "P26 examiné : la mesure n'est ni une audience ni un jugement, sa confidentialité protège la parole des parties. P18 examiné : la victime n'est pas contrainte",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La mesure suppose l'information complète de la victime et de l'auteur et leur consentement exprès. Un tiers indépendant formé à cet effet la met en œuvre, sous le contrôle de l'autorité judiciaire ou, à sa demande, de l'administration pénitentiaire.\nElle est confidentielle, sauf accord contraire des parties ou lorsqu'un intérêt supérieur lié à la nécessité de prévenir ou de réprimer des infractions justifie d'informer le procureur de la République de son déroulement."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1151-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Proposition de la mesure à tout stade, faits reconnus : portée à L1151-1.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la mesure reste sans effet sur la peine, condition de reconnaissance des faits gardée à L1151-1",
+      "vers": "L1151-1"
     },
     {
       "code": "cpp",
       "num": "L1151-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Tiers indépendant formé, sous le contrôle de l'autorité judiciaire : répartition des offices tenue.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Tiers indépendant sous contrôle judiciaire : porté à L1151-3.",
+      "ligne_rouge": "aucune : le contrôle de l'autorité judiciaire est gardé à L1151-3",
+      "vers": "L1151-3"
     },
     {
       "code": "cpp",
       "num": "L1151-5",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Confidentialité de la mesure, sauf accord des parties ou nécessité de prévenir une infraction : la mesure n'est ni une audience ni un jugement, la confidentialité protège la parole de la victime, à sa demande comme à celle de l'auteur.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Confidentialité de la mesure : portée à L1151-3.",
+      "ligne_rouge": "aucune : la confidentialité et son exception sont gardées à L1151-3",
+      "vers": "L1151-3"
     }
-  ]
+  ],
+  "passe": 3
 }
