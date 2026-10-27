@@ -42,10 +42,22 @@
     {
       "code": "cpp",
       "num": "L1721-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Liste des infractions sexuelles, violentes ou commises contre des mineurs, qui ouvre la prescription allongée, le fichier, l'information de la victime : protection des plus faibles, nécessité établie.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Coordination du registre 2.2 : 225-12-2 et 227-23 comptent des crimes.",
+      "ligne_rouge": "Minorité examinée : les crimes nouveaux contre les mineurs restent dans la liste.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "7° Délits de recours à la prostitution",
+          "nouveau": "7° Délits et crime de recours à la prostitution"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "10° Délits de captation",
+          "nouveau": "10° Délits et crimes de captation"
+        }
+      ]
     },
     {
       "code": "cpp",

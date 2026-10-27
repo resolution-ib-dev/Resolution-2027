@@ -110,3 +110,18 @@ Ces relevés sont automatiques. Ils ne sont pas instruits ligne à ligne et n’
 - Sur les 62 défauts confirmés, 55 tiennent à l’ordonnance ou au report des lois postérieures, dont la ligne 55, qui attend sa référence exacte. 5 tiennent à la base (lignes 60 à 64) et 2 au décret (lignes 57 et 58).
 - Passe 2 : 19 défauts confirmés et 3 non confirmés. Défauts ajoutés en vérifiant : 43.
 - Annexe, non comptée : 88 articles du code actuel candidats au report (A) et 66 articles d’autres codes qui renvoient à l’ancienne numérotation (B).
+
+## Renvois d'autres codes vers des articles que la révision abroge (relecture du 20261027)
+
+Hors des trois codes, ces renvois sont à porter par la loi de réécriture, qui coordonne les autres codes.
+
+| article | renvoi | correction |
+|---|---|---|
+| énergie L446-53 et L222-8 | 441-12 du code pénal, abrogé (personnes morales, registre 1.22) | renvoi aux articles 131-37 et 131-39 du code pénal |
+| organisation judiciaire L111-13 | 226-24 du code pénal, abrogé | renvoi aux articles 131-37 et 131-39 du code pénal |
+| recherche L221-2 | 226-30 du code pénal, abrogé | renvoi aux articles 131-37 et 131-39 du code pénal |
+| recherche L223-3 | 223-9 du code pénal, abrogé | renvoi aux articles 131-37 et 131-39 du code pénal |
+| santé publique L1128-2 et L1133-6 | reproduisent 223-9 et 226-30, abrogés | abrogation des reproductions |
+| éducation L131-11 | reproduit 227-17-2, abrogé | abrogation de la reproduction |
+| monétaire et financier L465-3-7 | « réduite des deux tiers » pour le repenti, contre 132-78 réécrit (registre 1.9) | renvoi à l'article 132-78 du code pénal |
+

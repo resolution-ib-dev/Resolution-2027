@@ -393,13 +393,12 @@
       "num": "222-17",
       "decision": "R",
       "principe": "P27",
-      "motif": "Registre 2.1 : la menace de commettre un crime contre les personnes (viol, torture) se relève à [deux ans], la menace d'un délit garde six mois, la menace de mort trois ans et l'aggravation conjugale de 222-18-3 reste au-dessus. L'amende suit l'emprisonnement selon la correspondance du code (paramètre entre crochets).",
+      "motif": "Registre 2.1 : la menace de commettre un crime contre les personnes autre qu'une atteinte volontaire à la vie passe à [deux ans], placée au troisième alinéa pour que le renvoi de 222-18-3 au second alinéa (menace de mort) tienne. La menace d'un délit garde six mois, la menace de mort trois ans. L'amende suit la correspondance du code.",
       "ligne_rouge": "Art. 8 DDHC examiné : maximum relevé pour rétablir la hiérarchie de la famille (P27), la peine encourue reste la référence, la juridiction module dans le barème.",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "\nLa peine est portée à trois ans d'emprisonnement et à 45 000 euros d'amende s'il s'agit d'une menace de mort.",
-          "nouveau": "\nLa peine est portée à [deux ans] d'emprisonnement et à [30 000] euros d'amende s'il s'agit de la menace de commettre un crime.\nLa peine est portée à trois ans d'emprisonnement et à 45 000 euros d'amende s'il s'agit d'une menace de mort."
+          "op": "ajouter_alinea",
+          "nouveau": "La peine est portée à [deux ans] d'emprisonnement et à [30 000] euros d'amende s'il s'agit de la menace de commettre un crime autre qu'une atteinte volontaire à la vie."
         }
       ]
     },
@@ -1287,7 +1286,7 @@
         {
           "op": "remplacer",
           "ancien": "Les peines sont portées à cinq ans d'emprisonnement et à 75 000 euros d'amende lorsque la victime de l'infraction définie à l'alinéa précédent est un mineur de quinze ans.",
-          "nouveau": "Lorsque la victime de l'infraction définie à l'alinéa précédent est un mineur de quinze ans, l'infraction est punie de [quinze] ans de réclusion criminelle."
+          "nouveau": "Lorsque la victime de l'infraction définie à l'alinéa précédent est un mineur de quinze ans, l'infraction est punie de [quinze] ans de réclusion criminelle. La tentative de ce crime n'est pas punissable."
         },
         {
           "op": "remplacer",
@@ -1307,10 +1306,17 @@
     {
       "code": "cp",
       "num": "223-15",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Responsabilité selon le droit de la presse pour les provocations au suicide : règle de détermination des personnes responsables.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Coordination du registre 2.2 : 223-13 compte un crime.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Lorsque les délits prévus par les articles 223-13 et 223-14 sont commis",
+          "nouveau": "Lorsque les infractions prévues par les articles 223-13 et 223-14 sont commises"
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1716,22 +1722,29 @@
         {
           "op": "remplacer",
           "ancien": "sont portées à sept ans d'emprisonnement et à 100 000 euros d'amende :",
-          "nouveau": "sont portées à sept ans d'emprisonnement et à 100 000 euros d'amende, et à [dix ans] d'emprisonnement et à [150 000] euros d'amende lorsque la personne est mineure :"
+          "nouveau": "sont portées à sept ans d'emprisonnement et à 100 000 euros d'amende ou, lorsque la personne est mineure, à [dix ans] d'emprisonnement et à [150 000] euros d'amende, dans les cas suivants :"
         },
         {
           "op": "remplacer",
           "ancien": "les peines prévues au second alinéa de l'article 225-12-1 sont portées à dix ans d'emprisonnement et à 150 000 euros d'amende lorsqu'il s'agit d'un mineur de quinze ans.",
-          "nouveau": "l'infraction prévue au second alinéa de l'article 225-12-1 est punie de [quinze] ans de réclusion criminelle lorsqu'il s'agit d'un mineur de quinze ans."
+          "nouveau": "l'infraction prévue au second alinéa de l'article 225-12-1 est punie de [quinze] ans de réclusion criminelle lorsqu'il s'agit d'un mineur de quinze ans. La tentative de ce crime n'est pas punissable."
         }
       ]
     },
     {
       "code": "cp",
       "num": "225-12-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Loi française applicable au recours à la prostitution de mineurs commis à l'étranger.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Coordination du registre 2.2 : 225-12-2 compte un crime. La compétence extraterritoriale le suit.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Dans le cas où les délits prévus au second alinéa de l'article 225-12-1 et à l'article 225-12-2 sont commis à l'étranger",
+          "nouveau": "Dans le cas où les infractions prévues au second alinéa de l'article 225-12-1 et à l'article 225-12-2 sont commises à l'étranger"
+        }
+      ]
     },
     {
       "code": "cp",
@@ -2538,10 +2551,17 @@
     {
       "code": "cp",
       "num": "226-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Applique à la représentation de la personne la tentative et les peines des personnes morales : un renvoi.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P20",
+      "motif": "Registre 1.22 : 226-7 abrogé au profit de la clause générale (131-37, 131-39). Seul le renvoi à la tentative reste.",
+      "ligne_rouge": "Art. 8 DDHC examiné : les peines des personnes morales restent fixées par la loi générale.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Les articles 226-5 et 226-7 sont applicables à la présente section.",
+          "nouveau": "L'article 226-5 est applicable à la présente section."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -2828,10 +2848,17 @@
     {
       "code": "cp",
       "num": "227-28",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Responsabilité selon le droit de la presse pour les provocations et la pédopornographie diffusées par la presse.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Coordination du registre 2.2 : 227-23 compte des crimes.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Lorsque les délits prévus aux articles 227-18 à 227-21 et 227-23 sont commis",
+          "nouveau": "Lorsque les infractions prévues aux articles 227-18 à 227-21 et 227-23 sont commises"
+        }
+      ]
     },
     {
       "code": "cp",

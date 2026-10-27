@@ -178,3 +178,11 @@ Chaque ligne renvoie au point du registre qu'elle précise.
 | 9.56 | 8.3 | registre de passe 1 construit au 1er janvier 2029 pour le code pénal et le code pénitentiaire, comme le jugement : 225-10-1 entre, 434-7-2, 133-4-1, 133-5, 133-6, 113-8-1 et L213-4 du code pénitentiaire sortent (sans version en 2029), leurs décisions de passe 2 sont retirées | P13 | délégué |
 | 9.57 | 8.4 | D4 : un renvoi vers un autre code ne compte que si le texte nomme ce code | P13 | délégué |
 | 9.58 | 2.8 | 49 articles qui n'incriminent rien sortent du barème (seuils de procédure, règles générales, circonstances aggravantes générales, articles hors barème), L3131-2 du CPP y entre ; barème de 1 212 délits | P27 | délégué |
+| 9.59 | 2.2 | tentative des crimes nouveaux de 223-13 et 225-12-2 non punissable ; celle de 227-23 reste punie comme avant (la peine est relevée, l'incrimination n'est pas étendue) | P27 | délégué |
+| 9.60 | 2.2 | la peine complémentaire de 131-35-1 n'est pas étendue à la forme criminelle de 223-13 sans décision expresse | P27 | délégué |
+| 9.61 | 1.11 | la dispense de peine ne peut plus exclure l'inscription au casier (132-59, L5512-1) | P14, P10 | délégué |
+| 9.62 | 1.16 | devant la cour d'assises, l'altération du discernement reconnue se délibère et sa suite, réduction ou refus, se motive, sans majorité propre (L4325-15) | P14 | délégué |
+| 9.63 | 1.17 | « la juridiction prononce la peine encourue » vise le quantum ; le choix entre plusieurs peines reste ouvert par 132-17 | P25 | délégué |
+| 9.64 | 3.2 | le débat sur l'anonymat ou la confidentialité de l'identité d'un témoin, d'une victime ou d'un collaborateur se tient à huis clos, inscrit à L. 1 | P26 | délégué |
+| 9.65 | 3.2 | aucune condamnation sur les seules déclarations anonymes, déposition anonyme comprise (L1532-7) | P25 | délégué |
+| 9.66 | 6.6 | écart déclaré : les détenus du Pacifique gardent la condition du bénéfice direct et majeur (R764-7, R774-7), ceux de métropole relèvent de L1121-6 du code de la santé publique | P3 | délégué |
