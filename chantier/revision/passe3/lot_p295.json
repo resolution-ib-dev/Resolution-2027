@@ -1,0 +1,107 @@
+{
+  "lot": "lot_p295",
+  "titre": "Titre IER : CATÉGORIES DE PERSONNES FAISANT L'OBJET DE RÈGLES PROPRES",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L1711-1",
+      "texte": "Les dispositions du présent code dont il n'est pas indiqué qu'elles ne concernent que les personnes majeures sont applicables aux mineurs suspectés, poursuivis ou condamnés, sous réserve des exclusions et des adaptations prévues par le code de la justice pénale des mineurs.",
+      "verbe": "G",
+      "principe": "P25",
+      "motif": "Application du code aux mineurs sous réserve du code de la justice pénale des mineurs : inchangée.",
+      "ligne_rouge": "Minorité examinée : les exclusions et adaptations du code de la justice pénale des mineurs priment."
+    },
+    {
+      "num": "L1711-2",
+      "texte": "Le majeur qui bénéficie d'une mesure de protection juridique prévue au titre XI du livre Ier du code civil et qui est soupçonné, poursuivi ou condamné fait l'objet des règles propres que prévoit le présent code pour la mise en mouvement de l'action pénale, certains actes d'investigation, le jugement et l'exécution ou l'application des peines, notamment l'information de son curateur ou de son tuteur. Ces règles s'appliquent dès qu'il est établi au cours de la procédure que la personne bénéficie d'une telle mesure.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Règles propres aux majeurs protégés et leur point de départ (L1711-3) : un article. Définition citée par douze articles, gardée.",
+      "ligne_rouge": "Protection de la personne vulnérable examinée : l'information du curateur ou du tuteur est gardée, dès que la mesure est établie."
+    },
+    {
+      "num": "L1711-4",
+      "texte": "S'il existe des raisons plausibles de présumer que le curateur ou le tuteur est coauteur ou complice de l'infraction, ou s'il en est victime, le procureur de la République ou le juge d'instruction demande au juge des tutelles de désigner un curateur ou un tuteur ad hoc, faute de subrogé curateur ou de subrogé tuteur. À défaut, le président du tribunal judiciaire désigne un représentant ad hoc pour assister la personne au cours de la procédure pénale. Le curateur, le tuteur ou le représentant ad hoc ainsi désigné reçoit les informations et exerce les attributions que le présent code confie au curateur ou au tuteur.",
+      "verbe": "S",
+      "principe": "P25",
+      "motif": "Curateur ou tuteur ad hoc quand le protecteur est coauteur, complice ou victime : gardé, phrases resserrées.",
+      "ligne_rouge": "Protection de la personne vulnérable examinée : la protection ne joue pas contre la personne protégée, un représentant ad hoc est toujours désigné."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L1710-1",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Article d'annonce : il dit que des règles propres existent pour certaines personnes, sans en poser aucune. Aucun renvoi entrant, aucune règle perdue (même traitement que L1721-1 en passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L1711-3",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Point de départ des règles propres aux majeurs protégés : fusionné dans L1711-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L1711-2"
+    },
+    {
+      "num": "L1712-1",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Table des règles propres à certaines personnes (témoins, militaires, professions protégées, personnes morales, troubles mentaux) : elle répète le plan du code sans poser de règle. Chaque règle vit à son siège. Aucun renvoi entrant.",
+      "ligne_rouge": "Professions protégées et personnes morales examinées : leurs garanties sont aux articles qui les posent, la table n'en portait aucune."
+    },
+    {
+      "num": "L1712-2",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Rappel des régimes constitutionnels et conventionnels (Président de la République, ministres, parlementaires, immunité diplomatique) : la loi ordinaire signale des sièges qu'elle ne fixe pas. Ces régimes s'appliquent par eux-mêmes. Aucun renvoi entrant.",
+      "ligne_rouge": "Séparation des pouvoirs examinée : les articles 26, 67, 68 et 68-1 à 68-3 de la Constitution et la convention de Vienne s'appliquent sans renvoi."
+    }
+  ],
+  "phrases": {
+    "L1710-1#1": {
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Article d'annonce sans règle."
+    },
+    "L1711-1#1": {
+      "destin": "gardee",
+      "vers": "L1711-1"
+    },
+    "L1711-2#1": {
+      "destin": "reprise",
+      "vers": "L1711-2"
+    },
+    "L1711-3#1": {
+      "destin": "reprise",
+      "vers": "L1711-2"
+    },
+    "L1711-4#1": {
+      "destin": "reprise",
+      "vers": "L1711-4"
+    },
+    "L1711-4#2": {
+      "destin": "reprise",
+      "vers": "L1711-4"
+    },
+    "L1711-4#3": {
+      "destin": "reprise",
+      "vers": "L1711-4"
+    },
+    "L1711-4#4": {
+      "destin": "reprise",
+      "vers": "L1711-4"
+    },
+    "L1712-1#1": {
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Table de renvois sans règle : les règles propres restent aux titres qu'elle citait."
+    },
+    "L1712-2#1": {
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Rappel de normes supérieures (Constitution, lois organiques, convention de Vienne), qui s'appliquent sans renvoi."
+    }
+  }
+}
