@@ -10,10 +10,17 @@
     {
       "code": "cpp",
       "num": "A38",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Liste des segments d'ADN analysés : règle technique, à la strate la plus basse (arrêté), conforme aux standards européens d'échange. Segments non codants, ce qui borne l'atteinte à la vie privée.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Liste des segments d'ADN analysés : le tableau devient une liste en deux phrases. La colonne de localisation chromosomique est retirée : la nomenclature internationale désigne chaque segment sans ambiguïté, la localisation n'ajoute aucune règle.",
+      "ligne_rouge": "Art. 2 DDHC (vie privée) examiné : la liste fermée des segments analysés, qui borne l'atteinte, est tenue segment par segment ; aucun segment ajouté ni retiré.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les analyses destinées à l'identification génétique portent sur les segments d'ADN suivants, désignés selon la nomenclature internationale : D3S1358, VWA, D8S1179, D21S11, D18S51, TH01, FGA, D16S539, D5S818, D13S317, D7S820, CSF1PO, TPOX, D1S1656, D2S441, D10S1248, D12S391, D22S1045, D2S1338, D19S433 et amélogénine.\nElles peuvent aussi porter sur les segments Penta E, Penta D, SE33 (ACTBP2), DYS391 et YINDEL."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
