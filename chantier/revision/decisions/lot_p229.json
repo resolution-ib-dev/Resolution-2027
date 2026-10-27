@@ -10,73 +10,90 @@
     {
       "code": "cpp",
       "num": "R53-33",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Recours aux moyens de télécommunication dans les cas légaux. Renvois aux anciens 706-71 et 803-5 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-34",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Décision du procureur pendant l'enquête.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-35",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Décision du juge d'instruction pendant l'information. L'avis préalable du procureur sur le choix d'un moyen de télécommunication ne protège aucune liberté : il tombe.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'avis retiré est celui du parquet, les garanties de la personne interrogée restent dans la loi (ancien 706-71).",
+      "principe": "P23",
+      "motif": "Recours aux moyens de télécommunication en un article : cas légaux (R53-33), décision du procureur ou du juge d'instruction (R53-34, R53-35, avis du procureur retiré en passe 2), information du parquet du lieu (R53-36), qualité de la transmission et incidents (R53-38). Renvois aux anciens 706-71 et 803-5 recalés sur L. 1621-1 et L. 3521-6. Le numéro est gardé : D47-12-1 cite les articles R. 53-33 à R. 53-39.",
+      "ligne_rouge": "Droits de la défense examinés : retransmission fidèle, loyale et confidentielle, incidents consignés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "est décidée par le juge d'instruction, après avis du procureur de la République.",
-          "nouveau": "est décidée par le juge d'instruction."
+          "op": "rediger",
+          "nouveau": "Le procureur de la République au cours de l'enquête, et le juge d'instruction au cours de l'information, décide le recours aux moyens de télécommunication sonore ou audiovisuelle prévus à l'article L. 1621-1 et en informe préalablement le procureur du lieu de l'acte s'il est hors du ressort.\nLes moyens utilisés assurent une retransmission fidèle, loyale et confidentielle à l'égard des tiers. Un arrêté du ministre de la justice et du ministre de l'intérieur précise les caractéristiques des moyens audiovisuels et des moyens sonores autres que le téléphone. Tout incident technique qui a perturbé une transmission est mentionné au procès-verbal."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R53-36",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Information du procureur du lieu où se trouve la personne entendue.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "R53-37",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Procès-verbaux en plusieurs points, seul fait foi celui signé par l'intéressé : fiabilité de la preuve.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-38",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Retransmission fidèle et confidentielle, mention des incidents, arrêté technique (A38-1).",
-      "ligne_rouge": "aucune"
+      "motif": "Procès-verbaux en plusieurs points, seul fait foi celui signé par l'intéressé : gardé (cité par D47-12-2), renvoi à l'ancien 706-58 recalé sur L. 1532-4.",
+      "ligne_rouge": "Droits de la défense examinés : fiabilité de la preuve, la retranscription signée par l'intéressé fait foi.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les déclarations faites en plusieurs lieux sont retranscrites dans des procès-verbaux établis sous la direction de l'officier de police judiciaire ou du magistrat chargé de la procédure. En cas de différence, seule fait foi la retranscription du procès-verbal signé par l'intéressé ou établi selon l'article L. 1532-4."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R53-39",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Serment de l'interprète recueilli à distance. Renvois aux anciens 706-71 et 102 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Interprète à distance en un article : serment recueilli par le moyen de télécommunication (R53-39), choix de l'officier en garde à vue ou en audition libre, vérification de la langue et de l'identité (R53-39-1). Renvois aux anciens 706-71, 102, 61-1 et 803-5 recalés sur L. 1621-11 et L. 3521-6.",
+      "ligne_rouge": "Art. 66 C et droits de la défense examinés : vérification que l'interprète communique dans une langue que la personne comprend et mention au procès-verbal gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque l'interprète assiste à distance une personne selon les articles L. 1621-11 ou L. 3521-6, son serment est recueilli par ce moyen, après vérification de son identité. En garde à vue ou en audition libre d'une personne majeure, l'officier de police judiciaire décide ce recours, vérifie que l'interprète communique avec la personne dans une langue qu'elle comprend et mentionne ce choix, fait selon l'article D. 594-16, et cette vérification au procès-verbal d'audition, de confrontation ou de notification des droits."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-34",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Décision du procureur pendant l'enquête : R53-33.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-33"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-35",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Décision du juge d'instruction pendant l'information : R53-33.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-33"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-36",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information du procureur du lieu : R53-33.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-33"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-38",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Qualité de la transmission, incidents, arrêté technique : second alinéa de R53-33.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-33"
     },
     {
       "code": "cpp",
       "num": "R53-39-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interprète à distance en garde à vue ou en audition libre, vérification de la langue comprise et de l'identité de l'interprète : droit à l'interprète tenu.",
-      "ligne_rouge": "art. 66 C examiné : la garde à vue reste sous contrôle du parquet ; art. 16 DDHC examiné : la personne comprend ce qui lui est notifié"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interprète à distance en garde à vue ou en audition libre : R53-39.",
+      "ligne_rouge": "Art. 66 C examiné : choix de l'officier, vérification de la langue et de l'identité de l'interprète, mentions au procès-verbal gardés à R53-39.",
+      "vers": "R53-39"
     }
-  ]
+  ],
+  "passe": 3
 }
