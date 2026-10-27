@@ -10,10 +10,22 @@
     {
       "code": "penitentiaire",
       "num": "D352-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Agrément des aumôniers, indemnité, condition de diplôme civil et civique, limite d'âge : règle propre. L'avis du préfet est un criblage de sécurité des personnes qui entrent en détention, non un avis préalable sur une décision touchant le détenu : la proposition P15 est écartée, le point est renvoyé à l'auteur.",
-      "ligne_rouge": "art. 10 DDHC examiné : l'agrément encadre l'accès des ministres du culte, l'exercice du culte reste libre (R351-1)"
+      "decision": "S",
+      "principe": "P15",
+      "motif": "Registre 5.2 : l'avis préalable du préfet sur l'agrément des aumôniers devient une information du préfet, saisi de la demande : il garde le criblage de sécurité sans que la décision l'attende. Agrément, indemnité, condition de diplôme civil et civique, limite d'âge gardés.",
+      "ligne_rouge": "art. 10 DDHC examiné : l'exercice du culte reste libre (R351-1), l'agrément reste délivré sur proposition de l'aumônier national du culte",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "par le directeur interrégional des services pénitentiaires après avis du préfet du département dans lequel se situe l'établissement visité, sur proposition de l'aumônier national du culte concerné.",
+          "nouveau": "par le directeur interrégional des services pénitentiaires, sur proposition de l'aumônier national du culte concerné. Le préfet du département dans lequel se situe l'établissement visité est informé de la demande d'agrément."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "le préfet de région exerce la compétence dévolue au préfet de département en application des dispositions de l'alinéa précédent.",
+          "nouveau": "le préfet de région est informé en lieu et place du préfet de département."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
@@ -26,10 +38,17 @@
     {
       "code": "penitentiaire",
       "num": "D352-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Auxiliaires bénévoles d'aumônerie agréés pour deux ans, sans entretien individuel : concours encadré. Même lecture de l'avis du préfet qu'en D352-1.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P15",
+      "motif": "Registre 5.2 : l'avis préalable du préfet sur l'agrément des auxiliaires bénévoles d'aumônerie devient une information du préfet. L'avis de l'aumônier national du culte est gardé : il garde au culte le choix de ceux qui le servent. Agrément pour deux ans, sans entretien individuel, gardé.",
+      "ligne_rouge": "art. 10 DDHC examiné : le culte garde la main sur ses auxiliaires par l'avis de son aumônier national",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "agréés par le directeur interrégional des services pénitentiaires après avis du préfet du département dans lequel se situe l'établissement pénitentiaire ou, lorsque la demande d'agrément porte sur des établissements situés dans plusieurs départements, du préfet de région et de l'aumônier national du culte concerné, pour une période de deux ans renouvelable.",
+          "nouveau": "agréés par le directeur interrégional des services pénitentiaires après avis de l'aumônier national du culte concerné, pour une période de deux ans renouvelable. Le préfet du département dans lequel se situe l'établissement pénitentiaire ou, lorsque la demande d'agrément porte sur des établissements situés dans plusieurs départements, le préfet de région est informé de la demande d'agrément."
+        }
+      ]
     },
     {
       "code": "penitentiaire",

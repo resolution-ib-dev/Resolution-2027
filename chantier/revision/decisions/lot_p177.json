@@ -26,18 +26,30 @@
     {
       "code": "cpp",
       "num": "L3421-3",
-      "decision": "G",
+      "decision": "R",
       "principe": "P19",
-      "motif": "Délai raisonnable de l'information. [arbitrage : P19 demande une durée maximale opposable, sur le modèle de L3332-1 pour l'enquête]",
-      "ligne_rouge": "aucune"
+      "motif": "Registre 5.5 : durée maximale opposable de l'information, sur le modèle de L3332-1 pour l'enquête : [un an] en matière délictuelle, [deux ans] en matière criminelle, prolongation motivée [une fois] par la chambre des investigations et des libertés. Le délai raisonnable et ses critères restent la mesure à l'intérieur de ces bornes. À l'échéance, le juge d'instruction règle l'information (titre V).",
+      "ligne_rouge": "CEDH art. 6 § 1 et art. 16 DDHC examinés : la durée devient opposable au bénéfice du mis en examen et de la victime ; la prolongation reste décidée par un juge, motivée au regard de la gravité, de la complexité et des droits de la défense ; les parties gardent la demande de clôture (L3451-7)",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'information dure au plus [un an] en matière délictuelle et [deux ans] en matière criminelle à compter de son ouverture. Dans ces limites, sa durée reste raisonnable au regard de la gravité des faits reprochés à la personne mise en examen, de la complexité des investigations nécessaires à la manifestation de la vérité et de l'exercice des droits de la défense.\nAvant l'expiration de cette durée, la chambre des investigations et des libertés, saisie par le juge d'instruction, peut la prolonger [une fois], pour une durée au plus égale, par une décision motivée au regard des mêmes critères.\nA l'expiration de la durée de l'information, le juge d'instruction procède à son règlement dans les conditions prévues par le titre V du présent livre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3421-4",
-      "decision": "G",
+      "decision": "R",
       "principe": "P22",
-      "motif": "Ordonnance motivée à deux ans, renouvelée tous les six mois, communiquée au président de la chambre : la durée se justifie et se contrôle. [arbitrage : même durée maximale que L3421-3]",
-      "ligne_rouge": "aucune"
+      "motif": "Registre 5.5 : l'ordonnance motivée à deux ans, renouvelée tous les six mois, cède la place à la demande motivée de prolongation présentée à la chambre (L3421-3 réécrit). Son contenu est repris : raisons de la durée, justification de la poursuite, perspectives de règlement. Les parties présentent leurs observations.",
+      "ligne_rouge": "art. 16 DDHC examiné : la prolongation se débat devant la chambre, parties entendues par écrit ; P22 examiné : la durée se justifie devant un juge et se publie",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La demande de prolongation présentée par le juge d'instruction en application de l'article L. 3421-3 est motivée en référence aux critères prévus à cet article. Elle explique les raisons de la durée de la procédure, comporte les indications qui justifient la poursuite de l'information et précise les perspectives de règlement.\nLa demande est communiquée aux parties et au témoin assisté, qui peuvent adresser leurs observations écrites à la chambre des investigations et des libertés."
+        }
+      ]
     },
     {
       "code": "cpp",

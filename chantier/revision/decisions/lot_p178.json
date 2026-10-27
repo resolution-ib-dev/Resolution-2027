@@ -293,10 +293,17 @@
     {
       "code": "cpp",
       "num": "L3432-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Faits notifiés, droit aux demandes d'actes et aux requêtes en nullité, délai prévisible : information de la personne.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P11",
+      "motif": "Registre 5.3 : l'information donnée sur le délai des requêtes en annulation suit L3752-6 réécrit ([un mois]). Faits notifiés, droit aux demandes d'actes et aux requêtes en nullité, délai prévisible : information de la personne.",
+      "ligne_rouge": "art. 16 DDHC examiné : la personne mise en examen est informée du délai de purge, qui court de l'avis de fin d'information",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "dans un délai d'un mois ou de trois mois à compter de l'envoi de l'avis de fin d'information",
+          "nouveau": "dans un délai de [un mois] à compter de l'envoi de l'avis de fin d'information"
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -600,14 +607,19 @@
       "code": "cpp",
       "num": "L3433-6",
       "decision": "S",
-      "principe": "P23",
-      "motif": "Information du témoin assisté à sa première audition : droits, avocat, interprète, actes, nullités, délai, adresse. Gardée. Accord corrigé (« Mention ... est faite »).",
-      "ligne_rouge": "aucune",
+      "principe": "P11",
+      "motif": "Registre 5.3 : l'information donnée sur le délai des requêtes en annulation suit L3752-6 réécrit ([un mois]). Information du témoin assisté à sa première audition : droits, avocat, interprète, actes, nullités, délai, adresse. Gardée. Accord corrigé (« Mention ... est faite »).",
+      "ligne_rouge": "art. 16 DDHC examiné : le témoin assisté est informé du délai de purge, qui court de l'avis de fin d'information",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "Mention de ces informations sont faites au procès-verbal.",
           "nouveau": "Mention de ces informations est faite au procès-verbal."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "dans un délai d'un mois ou de trois mois à compter de l'envoi de l'avis de fin d'information",
+          "nouveau": "dans un délai de [un mois] à compter de l'envoi de l'avis de fin d'information"
         }
       ]
     },
@@ -722,10 +734,17 @@
     {
       "code": "cpp",
       "num": "L3434-5",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information de la partie civile sur ses droits et le délai prévisible. La lettre recommandée part par voie électronique par défaut une fois L1632-3 réécrit (fiche L1) : rien à changer ici.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P11",
+      "motif": "Registre 5.3 : l'information donnée sur le délai des requêtes en annulation suit L3752-6 réécrit ([un mois]). Information de la partie civile sur ses droits et le délai prévisible. La lettre recommandée part par voie électronique par défaut une fois L1632-3 réécrit (fiche L1) : rien à changer ici.",
+      "ligne_rouge": "P18 examiné : la partie civile est informée du délai de purge, qui court de l'avis de fin d'information",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "dans un délai d'un mois ou de trois mois à compter de l'envoi de l'avis de fin d'information",
+          "nouveau": "dans un délai de [un mois] à compter de l'envoi de l'avis de fin d'information"
+        }
+      ]
     },
     {
       "code": "cpp",

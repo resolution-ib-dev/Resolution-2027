@@ -58,10 +58,17 @@
     {
       "code": "cpp",
       "num": "L3222-5",
-      "decision": "G",
+      "decision": "R",
       "principe": "P27",
-      "motif": "Obligation de demeurer à disposition, deux mois et 7 500 € pour qui s'y soustrait quand la loi le prévoit : atteinte à l'autorité, classe noyau, peine proportionnée.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine proportionnée au refus d'un acte de police borné dans le temps"
+      "motif": "Registre 2.3 : délit formel passé en amende délictuelle (barème, ajuger_cpp, ancien 78-6). L'emprisonnement, présumé peine d'affichage pour ce manquement, tombe, l'amende reste et devient la peine de référence. Personne qui ne reste pas à la disposition de l'agent de police judiciaire adjoint pendant le relevé d'identité : la rébellion reste punie par 433-6 du code pénal.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine d'emprisonnement d'affichage retirée (P27), l'amende reste. Art. 66 C examiné : la retenue pour relevé d'identité reste bornée au temps nécessaire à la décision de l'officier.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est punie de deux mois d'emprisonnement et de 7 500 euros d'amende.",
+          "nouveau": "est punie de 7 500 euros d'amende."
+        }
+      ]
     },
     {
       "code": "cpp",

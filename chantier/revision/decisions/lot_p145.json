@@ -12,16 +12,22 @@
       "num": "L4331-1",
       "decision": "G",
       "principe": "P3",
-      "motif": "La cour criminelle départementale suit le régime de la cour d'assises, sous réserves. P17 examiné : sa composition sans jurés relève de L2124-1 (2e partie), où le droit au jury se juge.",
+      "motif": "La cour criminelle départementale suit le régime de la cour d'assises, sous réserves. P17 examiné : elle juge en échevinage, magistrats et citoyens assesseurs (L2124-3, registre 4.1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L4331-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Neutralisation des dispositions relatives au jury : règle de renvoi nécessaire. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "decision": "R",
+      "principe": "P17",
+      "motif": "Registre 4.1 : les citoyens assesseurs de la cour criminelle départementale suivent le régime des jurés de la cour d'assises : appel, excuses et amende (L4321-2 et L4321-3), tirage et récusation, serment (L4321-18), lecture des textes de la peine (L4325-12). Le nombre des récusations suit le nombre des sièges.",
+      "ligne_rouge": "P17 examiné : les citoyens délibèrent et votent avec les magistrats. Art. 16 DDHC examiné : la défense récuse avant le ministère public, et plus que lui. Art. 9 DDHC : serment des jurés, présomption d'innocence rappelée.",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application devant la cour criminelle départementale des dispositions du titre II du présent livre, les dispositions qui font mention du jury ou des jurés s'appliquent aux citoyens assesseurs.\nLe jury de jugement est formé à l'instant où sont sortis de l'urne les noms de [deux] citoyens assesseurs non récusés et ceux des citoyens assesseurs supplémentaires. L'accusé peut récuser [deux] citoyens assesseurs et le ministère public [un]."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -73,10 +79,16 @@
     {
       "code": "cpp",
       "num": "L4332-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Majorité simple de magistrats professionnels, sur la culpabilité et la peine.",
-      "ligne_rouge": "aucune"
+      "decision": "R",
+      "principe": "P17",
+      "motif": "La majorité simple suffisait, faute de jurés. Registre 4.1 et 4.4 : la peine se vote à la majorité absolue (L4325-13), qui vaut pour toute formation. La décision défavorable à l'accusé exige [quatre] voix sur cinq, soit la voix d'un citoyen assesseur au moins, comme à la cour d'assises où la culpabilité exige la voix d'une majorité des jurés.",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : la culpabilité exige quatre voix sur cinq. P17 examiné : les magistrats seuls ne peuvent déclarer la culpabilité.",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Devant la cour criminelle départementale, la majorité qualifiée prévue à l'article L. 4325-6 est de [quatre] voix au moins."
+        }
+      ]
     }
   ]
 }

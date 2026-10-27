@@ -168,10 +168,10 @@
     {
       "code": "cp",
       "num": "431-20",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Responsabilité des personnes morales pour les groupes de combat. La passe 1 rapproche l'article 225-12-4 : même formule, autre livre et autres infractions, la fusion déplacerait la peine hors du chapitre qui la porte.",
-      "ligne_rouge": "art. 8 DDHC examiné : renvoi aux peines de droit commun des personnes morales (131-38 et 131-39), la juridiction choisit"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
     },
     {
       "code": "cp",
@@ -224,18 +224,30 @@
     {
       "code": "cp",
       "num": "431-29",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Distribution d'argent sur la voie publique à des fins publicitaires et son annonce. Peine au barème, classe à juger. Emprisonnement de six et trois mois sur un sujet de police de la voie publique : candidat à l'amende délictuelle (P27), à trier au barème.",
-      "ligne_rouge": "art. 8 DDHC examiné : le dommage visé est un trouble à l'ordre public sur la voie publique, la nécessité de l'emprisonnement est à établir au barème"
+      "decision": "R",
+      "principe": "P27",
+      "motif": "Registre 2.3 : délit formel passé en amende délictuelle (barème, ajuger_cp). L'emprisonnement, présumé peine d'affichage pour ce manquement, tombe, l'amende reste et devient la peine de référence. Distribution d'argent sur la voie publique à des fins publicitaires et son annonce : l'amende portée au double des sommes distribuées est gardée.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine d'emprisonnement d'affichage retirée (P27), le délit garde son amende, qui devient la référence. Aucune liberté n'est touchée.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est puni de six mois d'emprisonnement et 30 000 € d'amende.",
+          "nouveau": "est puni de 30 000 € d'amende."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "est puni de trois mois d'emprisonnement et 15 000 € d'amende.",
+          "nouveau": "est puni de 15 000 € d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "431-30",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Peine d'affichage des personnes morales pour la distribution d'argent : effet utile de la condamnation.",
-      "ligne_rouge": "art. 8 DDHC examiné : renvoi à l'amende de droit commun des personnes morales, la juridiction choisit"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
     },
     {
       "code": "cp",
@@ -296,10 +308,17 @@
     {
       "code": "cp",
       "num": "432-8",
-      "decision": "G",
+      "decision": "R",
       "principe": "P25",
-      "motif": "Violation de domicile par un agent public hors les cas prévus par la loi. Peine au barème, classe à juger.",
-      "ligne_rouge": "art. 2 DDHC et CEDH art. 8 examinés : l'article sanctionne l'intrusion hors des cas légaux, il tient l'encadrement de la vie privée ; art. 8 DDHC examiné : la juridiction module dans le barème"
+      "motif": "Registre 2.1 : la violation de domicile par un agent public passe de deux à [trois ans], au rang de 226-4 pour le particulier qui use de manœuvres ou de contrainte. L'amende suit l'emprisonnement selon la correspondance du code (paramètre entre crochets).",
+      "ligne_rouge": "Inviolabilité du domicile et vie privée examinées (art. 2 DDHC) : l'agent public qui entre contre le gré de l'occupant hors les cas prévus par la loi est puni plus que le particulier, sa qualité aggravant le fait de 226-4.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est puni de deux ans d'emprisonnement et de 30 000 euros d'amende.",
+          "nouveau": "est puni de [trois ans] d'emprisonnement et de [45 000] euros d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -328,17 +347,10 @@
     {
       "code": "cp",
       "num": "432-11-1",
-      "decision": "R",
-      "principe": "P14",
-      "motif": "Repenti : la décote actuelle (des deux tiers) dépasse le barème. Décote du repenti alignée sur 132-78 réécrit (lot p056) : [un cinquième] au plus, imputé sur la limite du comportement après l'infraction (3° du I de 132-1-1).",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la juridiction applique la décote du repenti jusqu'au cinquième, imputée sur la catégorie du comportement après l'infraction (132-78, lot p056). Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa).",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "est réduite des deux tiers si",
-          "nouveau": "est réduite [d'un cinquième] au plus si"
-        }
-      ]
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.9 : article spécial de réduction du repenti, abrogé au profit du barème. Le repenti relève de 132-78 réécrit : diminution [d'un cinquième] au plus, imputée sur la catégorie 3 de 132-1-1, perpétuité ramenée à [trente] ans pour un majeur (registre 1.10). Aucune exemption n'y vivait.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution du repenti reste ouverte par 132-78, bornée au cinquième au lieu des deux tiers ou de la moitié. Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa)."
     },
     {
       "code": "cp",
@@ -430,17 +442,10 @@
     {
       "code": "cp",
       "num": "433-2-1",
-      "decision": "R",
-      "principe": "P14",
-      "motif": "Repenti : la décote actuelle (de moitié) dépasse le barème. Décote du repenti alignée sur 132-78 réécrit (lot p056) : [un cinquième] au plus, imputé sur la limite du comportement après l'infraction (3° du I de 132-1-1).",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la juridiction applique la décote du repenti jusqu'au cinquième, imputée sur la catégorie du comportement après l'infraction (132-78, lot p056). Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa).",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "est réduite de moitié si",
-          "nouveau": "est réduite [d'un cinquième] au plus si"
-        }
-      ]
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.9 : article spécial de réduction du repenti, abrogé au profit du barème. Le repenti relève de 132-78 réécrit : diminution [d'un cinquième] au plus, imputée sur la catégorie 3 de 132-1-1, perpétuité ramenée à [trente] ans pour un majeur (registre 1.10). Aucune exemption n'y vivait.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution du repenti reste ouverte par 132-78, bornée au cinquième au lieu des deux tiers ou de la moitié. Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa)."
     },
     {
       "code": "cp",
@@ -517,10 +522,17 @@
     {
       "code": "cp",
       "num": "433-10",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Provocation directe à la rébellion. Peine au barème, classe noyau : l'encouru reste la référence. Deux mois d'emprisonnement, sous la provocation à l'attroupement armé (431-6, un an) : la hiérarchie de la famille est à contrôler au barème.",
-      "ligne_rouge": "art. 8 DDHC examiné : provocation directe seulement, le régime de la presse fixe les responsables, la juridiction module dans le barème"
+      "decision": "R",
+      "principe": "P27",
+      "motif": "Registre 2.1 : la provocation directe à la rébellion passe de deux mois à [un an], au rang de 431-6.",
+      "ligne_rouge": "Art. 8 DDHC et liberté d'expression examinés : seule la provocation directe à la rébellion est punie, le maximum se range sous la rébellion (433-7, deux ans), au rang de la provocation à l'attroupement armé (431-6, un an).",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est punie de deux mois d'emprisonnement et de 7 500 euros d'amende.",
+          "nouveau": "est punie [d'un an] d'emprisonnement et de 7 500 euros d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -581,18 +593,32 @@
     {
       "code": "cp",
       "num": "433-18",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Usage publicitaire du nom et de la qualité d'un membre d'une institution publique par un dirigeant d'entreprise. Peine au barème, classe à juger.",
-      "ligne_rouge": "art. 8 DDHC examiné : publicité trompeuse sur un patronage public, la juridiction module dans le barème"
+      "decision": "R",
+      "principe": "P27",
+      "motif": "Registre 2.3 : délit formel passé en amende délictuelle (barème, ajuger_cp). L'emprisonnement, présumé peine d'affichage pour ce manquement, tombe, l'amende reste et devient la peine de référence. Publicité qui use du nom et de la qualité d'un membre d'une institution publique : l'escroquerie par fausse qualité reste punie par 313-1.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine d'emprisonnement d'affichage retirée (P27), le délit garde son amende, qui devient la référence. Aucune liberté n'est touchée.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Est puni de six mois d'emprisonnement et de 7 500 euros d'amende le fait",
+          "nouveau": "Est puni de 7 500 euros d'amende le fait"
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "433-18-1",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Défaut de déclaration de naissance par la personne qui a assisté à l'accouchement. Peine au barème, classe à juger. Défaut de déclaration sans dommage nommé : candidat à la classe formelle (P27), à trier au barème.",
-      "ligne_rouge": "art. 8 DDHC examiné : la nécessité de l'emprisonnement pour un défaut de déclaration est à établir au barème"
+      "decision": "R",
+      "principe": "P27",
+      "motif": "Registre 2.3 : délit formel passé en amende délictuelle (barème, ajuger_cp). L'emprisonnement, présumé peine d'affichage pour ce manquement, tombe, l'amende reste et devient la peine de référence. Défaut de déclaration de naissance par la personne qui a assisté à l'accouchement : l'atteinte à l'état civil de l'enfant reste punie par 227-13.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine d'emprisonnement d'affichage retirée (P27), le délit garde son amende, qui devient la référence. Aucune liberté n'est touchée.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est puni de six mois d'emprisonnement et de 3 750 euros d'amende.",
+          "nouveau": "est puni de 3 750 euros d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -613,18 +639,32 @@
     {
       "code": "cp",
       "num": "433-21",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Célébration habituelle d'un mariage religieux sans acte civil préalable. Peine au barème, classe à juger. La nécessité de l'emprisonnement est à établir au barème.",
-      "ligne_rouge": "art. 8 DDHC examiné : habitude exigée, la liberté de culte reste entière hors de la célébration du mariage, la juridiction module dans le barème"
+      "decision": "R",
+      "principe": "P27",
+      "motif": "Registre 2.3 : délit formel passé en amende délictuelle (barème, ajuger_cp). L'emprisonnement, présumé peine d'affichage pour ce manquement, tombe, l'amende reste et devient la peine de référence. Célébration habituelle d'un mariage religieux sans acte civil préalable : la bigamie reste punie par 433-20.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine d'emprisonnement d'affichage retirée (P27), le délit garde son amende, qui devient la référence. Aucune liberté n'est touchée.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "sera puni d'un an d'emprisonnement et de 7 500 euros d'amende.",
+          "nouveau": "sera puni de 7 500 euros d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "433-21-1",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Funérailles contraires à la volonté du défunt ou à une décision judiciaire connues de l'auteur. Peine au barème, classe à juger.",
-      "ligne_rouge": "art. 8 DDHC examiné : connaissance de la volonté ou de la décision exigée, la juridiction module dans le barème"
+      "decision": "R",
+      "principe": "P27",
+      "motif": "Registre 2.3 : délit formel passé en amende délictuelle (barème, ajuger_cp). L'emprisonnement, présumé peine d'affichage pour ce manquement, tombe, l'amende reste et devient la peine de référence. Funérailles contraires à la volonté connue du défunt ou à une décision judiciaire : le juge civil tranche le désaccord.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine d'emprisonnement d'affichage retirée (P27), le délit garde son amende, qui devient la référence. Aucune liberté n'est touchée.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "sera punie de six mois d'emprisonnement et de 7 500 euros d'amende.",
+          "nouveau": "sera punie de 7 500 euros d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -661,10 +701,10 @@
     {
       "code": "cp",
       "num": "433-25",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Responsabilité des personnes morales pour les sections 1, 6, 7, 9 et 10 : peines de droit commun bornées à cinq ans.",
-      "ligne_rouge": "art. 8 DDHC examiné : renvoi aux peines de droit commun des personnes morales, la juridiction choisit"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
     },
     {
       "code": "cp",
@@ -709,15 +749,20 @@
     {
       "code": "cp",
       "num": "434-4-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Non-signalement de la disparition d'un mineur de quinze ans pour retarder les recherches : protection du mineur. La version au 1er janvier 2029 renvoie encore à l'article 74-1 du code de procédure pénale, absent du code de 2029 : il passe au chapitre qui porte ces recherches (L. 3211-1 et suivants). Peine au barème, classe noyau : l'encouru reste la référence.",
-      "ligne_rouge": "art. 8 DDHC examiné : dol spécial (empêcher ou retarder les recherches), la juridiction module dans le barème",
+      "decision": "R",
+      "principe": "P27",
+      "motif": "Registre 2.1 : taire la disparition d'un mineur de quinze ans pour retarder les recherches passe de deux à [trois ans]. Le renvoi à l'ancien 74-1 passe au chapitre des recherches du code de 2029 (décision antérieure reprise). L'amende suit l'emprisonnement selon la correspondance du code (paramètre entre crochets).",
+      "ligne_rouge": "Art. 8 DDHC examiné : maximum relevé au rang de la non-dénonciation de mauvais traitements sur mineur (434-3) et de l'obstacle à la vérité (434-4). Minorité examinée : protection du mineur disparu.",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "prévues par l'article 74-1 du code de procédure pénale",
           "nouveau": "prévues au chapitre 1er du titre Ier du livre II de la troisième partie du code de procédure pénale"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "est puni de deux ans d'emprisonnement et de 30 000 euros d'amende.",
+          "nouveau": "est puni de [trois ans] d'emprisonnement et de [45 000] euros d'amende."
         }
       ]
     },
@@ -748,10 +793,17 @@
     {
       "code": "cp",
       "num": "434-7",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Recel de cadavre d'une victime d'homicide ou de violences : il prive les proches et la justice. Peine au barème, classe noyau : l'encouru reste la référence.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction module dans le barème"
+      "decision": "R",
+      "principe": "P27",
+      "motif": "Registre 2.1 : cacher le cadavre d'une victime d'homicide ou de violences passe de deux à [trois ans], au rang de l'altération de la scène de crime (434-4). L'amende suit l'emprisonnement selon la correspondance du code (paramètre entre crochets).",
+      "ligne_rouge": "Art. 8 DDHC examiné : maximum relevé pour rétablir la hiérarchie de la famille (P27), la peine encourue reste la référence, la juridiction module dans le barème. Art. 2 DDHC (sûreté) : la famille privée de son défunt, l'enquête de sa preuve.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est puni de deux ans d'emprisonnement et de 30 000 euros d'amende.",
+          "nouveau": "est puni de [trois ans] d'emprisonnement et de [45 000] euros d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -760,14 +812,6 @@
       "principe": "P14",
       "motif": "Déni de justice persistant après injonction : amende et interdiction des fonctions publiques de cinq à vingt ans. La durée minimale d'interdiction, sans dérogation écrite, est à confronter au barème.",
       "ligne_rouge": "art. 8 DDHC examiné : individualisation au prononcé examinée : le minimum de cinq ans d'interdiction ne porte pas de dérogation motivée, point signalé à l'auteur ; art. 16 DDHC examiné : l'incrimination sert le droit d'obtenir un juge"
-    },
-    {
-      "code": "cp",
-      "num": "434-7-2",
-      "decision": "A",
-      "principe": "P13",
-      "motif": "Article sans version applicable au 1er janvier 2029. Son texte passe au code de procédure pénale, article L. 3131-2, qui renvoie déjà à la criminalité organisée par l'article L. 1722-2. Rien à rédiger au code pénal. Le jugement de fond, peines et classe, se porte sur L. 3131-2. Renvois entrants à coordonner vers L. 3131-2 : articles L. 8123-4, L. 8323-9, L. 8423-9 et L. 8523-9 du code de procédure pénale de 2029, qui citent encore l'article 434-7-2 du code pénal.",
-      "ligne_rouge": "droits de la défense et des victimes : réservés en tête de chacun des deux premiers alinéas de L. 3131-2, qui reprend la règle"
     },
     {
       "code": "cp",
@@ -796,17 +840,10 @@
     {
       "code": "cp",
       "num": "434-9-2",
-      "decision": "R",
-      "principe": "P14",
-      "motif": "Repenti : la décote actuelle (de moitié) dépasse le barème. Décote du repenti alignée sur 132-78 réécrit (lot p056) : [un cinquième] au plus, imputé sur la limite du comportement après l'infraction (3° du I de 132-1-1).",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la juridiction applique la décote du repenti jusqu'au cinquième, imputée sur la catégorie du comportement après l'infraction (132-78, lot p056). Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa).",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "est réduite de moitié si",
-          "nouveau": "est réduite [d'un cinquième] au plus si"
-        }
-      ]
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.9 : article spécial de réduction du repenti, abrogé au profit du barème. Le repenti relève de 132-78 réécrit : diminution [d'un cinquième] au plus, imputée sur la catégorie 3 de 132-1-1, perpétuité ramenée à [trente] ans pour un majeur (registre 1.10). Aucune exemption n'y vivait.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution du repenti reste ouverte par 132-78, bornée au cinquième au lieu des deux tiers ou de la moitié. Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa)."
     },
     {
       "code": "cp",
@@ -962,10 +999,17 @@
     {
       "code": "cp",
       "num": "434-25",
-      "decision": "G",
+      "decision": "R",
       "principe": "P26",
-      "motif": "Discrédit public jeté sur une décision de justice, commentaires techniques et demandes de réformation exclus. Peine au barème, classe à juger.",
-      "ligne_rouge": "art. 8 DDHC examiné : art. 11 DDHC examiné : la critique technique et les voies de recours restent libres, seule l'atteinte à l'autorité ou à l'indépendance de la justice est punie"
+      "motif": "Registre 2.3 : délit formel passé en amende délictuelle (barème, ajuger_cp). L'emprisonnement, présumé peine d'affichage pour ce manquement, tombe, l'amende reste et devient la peine de référence. Discrédit public jeté sur une décision de justice : délit d'opinion sans victime nommée, les commentaires techniques et les recours restent libres.",
+      "ligne_rouge": "Liberté d'expression (art. 11 DDHC) examinée : la peine d'emprisonnement d'un délit d'opinion tombe, l'amende reste, les commentaires techniques et les recours sont exclus. Autorité de la justice gardée.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est puni de six mois d'emprisonnement et de 7 500 euros d'amende.",
+          "nouveau": "est puni de 7 500 euros d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1090,10 +1134,17 @@
     {
       "code": "cp",
       "num": "434-39",
-      "decision": "G",
+      "decision": "R",
       "principe": "P10",
-      "motif": "Lacération des affiches ordonnées à titre de peine, et nouvel affichage aux frais du condamné : la peine prononcée s'exécute. Peine au barème, classe à juger.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction module dans le barème"
+      "motif": "Registre 2.3 : délit formel passé en amende délictuelle (barème, ajuger_cp). L'emprisonnement, présumé peine d'affichage pour ce manquement, tombe, l'amende reste et devient la peine de référence. Lacération des affiches ordonnées à titre de peine : le nouvel affichage aux frais du condamné est gardé.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine d'emprisonnement d'affichage retirée (P27), le délit garde son amende, qui devient la référence. Aucune liberté n'est touchée.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est puni de six mois d'emprisonnement et de 7 500 euros d'amende.",
+          "nouveau": "est puni de 7 500 euros d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1130,10 +1181,17 @@
     {
       "code": "cp",
       "num": "434-42-1",
-      "decision": "G",
+      "decision": "R",
       "principe": "P18",
-      "motif": "Violation d'une décision de protection européenne : la victime est protégée hors de son État. La version au 1er janvier 2029 coordonne le renvoi au code de procédure pénale. Peine au barème, classe à juger.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction module dans le barème"
+      "motif": "Registre 2.6 : la violation d'une décision de protection européenne passe de deux à [trois ans], alignée sur l'ordonnance de protection (227-4-2). L'amende suit l'emprisonnement selon la correspondance du code (paramètre entre crochets).",
+      "ligne_rouge": "Art. 8 DDHC examiné : la violation d'une décision de protection européenne rejoint la violation de l'ordonnance de protection française (227-4-2). Protection de la victime (art. 2 DDHC, sûreté) examinée.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "est puni de deux ans d'emprisonnement et de 30 000 € d'amende.",
+          "nouveau": "est puni de [trois ans] d'emprisonnement et de [45 000] € d'amende."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1177,10 +1235,16 @@
     {
       "code": "cp",
       "num": "434-47",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Peines des personnes morales pour la corruption judiciaire active, la lacération d'affiches et la violation des peines des personnes morales.",
-      "ligne_rouge": "art. 8 DDHC examiné : renvoi aux peines de droit commun des personnes morales, la juridiction choisit"
+      "decision": "S",
+      "principe": "P20",
+      "motif": "Registre 1.22 : l'amende et les peines de 131-39 passent à la clause générale (131-37 et 131-39 réécrits). L'article ne garde que sa peine propre : la dissolution pour la violation des peines prononcées contre une personne morale.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine propre prévue par la loi, le reste relève de la clause générale bornée (131-38, 131-39).",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes morales déclarées responsables pénalement des infractions prévues aux deuxième et troisième alinéas de l'article 434-43 encourent également la peine de dissolution mentionnée au 1° de l'article 131-39."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1233,17 +1297,10 @@
     {
       "code": "cp",
       "num": "435-6-1",
-      "decision": "R",
-      "principe": "P14",
-      "motif": "Repenti de la corruption internationale : la décote actuelle (des deux tiers) dépasse le barème. Décote du repenti alignée sur 132-78 réécrit (lot p056) : [un cinquième] au plus, imputé sur la limite du comportement après l'infraction (3° du I de 132-1-1). Reçoit 435-11-1, même règle pour la justice étrangère ou internationale.",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la juridiction applique la décote du repenti jusqu'au cinquième, imputée sur la catégorie du comportement après l'infraction (132-78, lot p056). Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa).",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "prévues aux articles 435-1 à 435-4 est réduite des deux tiers si",
-          "nouveau": "prévues aux articles 435-1 à 435-4 et 435-7 à 435-10 est réduite [d'un cinquième] au plus si"
-        }
-      ]
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.9 : article spécial de réduction du repenti, abrogé au profit du barème. Le repenti relève de 132-78 réécrit : diminution [d'un cinquième] au plus, imputée sur la catégorie 3 de 132-1-1, perpétuité ramenée à [trente] ans pour un majeur (registre 1.10). Aucune exemption n'y vivait.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution du repenti reste ouverte par 132-78, bornée au cinquième au lieu des deux tiers ou de la moitié. Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa)."
     },
     {
       "code": "cp",
@@ -1300,11 +1357,10 @@
     {
       "code": "cp",
       "num": "435-11-1",
-      "decision": "F",
-      "principe": "P3",
-      "motif": "Repenti de la corruption judiciaire étrangère : texte identique à 435-6-1 hors renvois, qui le reçoit.",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la juridiction applique la décote du repenti jusqu'au cinquième, imputée sur la catégorie du comportement après l'infraction (132-78, lot p056). Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa).",
-      "vers": "435-6-1"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.9 : article spécial de réduction du repenti, abrogé au profit du barème. Le repenti relève de 132-78 réécrit : diminution [d'un cinquième] au plus, imputée sur la catégorie 3 de 132-1-1, perpétuité ramenée à [trente] ans pour un majeur (registre 1.10). Aucune exemption n'y vivait.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution du repenti reste ouverte par 132-78, bornée au cinquième au lieu des deux tiers ou de la moitié. Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa)."
     },
     {
       "code": "cp",
@@ -1342,10 +1398,16 @@
     {
       "code": "cp",
       "num": "435-15",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Peines des personnes morales pour la corruption internationale, dont le programme de mise en conformité.",
-      "ligne_rouge": "art. 8 DDHC examiné : renvoi aux peines de droit commun des personnes morales, la juridiction choisit"
+      "decision": "S",
+      "principe": "P20",
+      "motif": "Registre 1.22 : l'amende et les peines de 131-39 passent à la clause générale (131-37 et 131-39 réécrits). L'article ne garde que sa peine propre : le programme de mise en conformité (131-39-2), qui reste dans les cas prévus par la loi.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peine propre prévue par la loi, le reste relève de la clause générale bornée (131-38, 131-39).",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes morales déclarées responsables pénalement des infractions prévues aux articles 435-3, 435-4, 435-9 et 435-10 encourent également la peine prévue à l'article 131-39-2."
+        }
+      ]
     },
     {
       "code": "cp",
@@ -1390,10 +1452,10 @@
     {
       "code": "cp",
       "num": "436-5",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Peines des personnes morales pour la direction d'un groupement de mercenaires.",
-      "ligne_rouge": "art. 8 DDHC examiné : renvoi aux peines de droit commun des personnes morales, la juridiction choisit"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
     }
   ]
 }

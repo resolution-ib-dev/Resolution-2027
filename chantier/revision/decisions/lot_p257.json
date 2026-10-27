@@ -373,8 +373,8 @@
       "num": "L2123-31",
       "decision": "S",
       "principe": "P17",
-      "motif": "La cour d'assises sans jurés juge le terrorisme, la prolifération, la criminalité organisée, les stupéfiants, les atteintes aux intérêts fondamentaux et les crimes militaires couverts par le secret. L'étendue de l'exception au jury est à arbitrer. Préposition corrigée.",
-      "ligne_rouge": "P17 examiné : l'exception au jury couvre le terrorisme, la prolifération, les stupéfiants, les intérêts fondamentaux, le secret de la défense nationale et, au 3°, tout crime commis en bande organisée, sans condition de risque de pression sur les jurés [arbitrage]. Minorité examinée : au 3°, l'accusé mineur de seize ans au moins est jugé sans jurés, deux assesseurs juges des enfants (CJPM L231-11). Art. 8 DDHC : aucune peine fixée.",
+      "motif": "La cour d'assises sans jurés juge le terrorisme, la prolifération, la criminalité organisée, les stupéfiants, les atteintes aux intérêts fondamentaux et les crimes militaires couverts par le secret. Registre 4.3 : exception au jury gardée, pour la sécurité des jurés. Préposition corrigée.",
+      "ligne_rouge": "P17 examiné : l'exception au jury est gardée (registre 4.3) pour protéger les jurés des pressions dans la criminalité organisée et le terrorisme, l'appel au fond reste ouvert. Minorité examinée : au 3°, l'accusé mineur de seize ans au moins est jugé sans jurés, deux assesseurs juges des enfants (CJPM L231-11). Art. 8 DDHC : aucune peine fixée.",
       "operations": [
         {
           "op": "remplacer",
@@ -449,16 +449,10 @@
     {
       "code": "cpp",
       "num": "L2124-1",
-      "decision": "R",
+      "decision": "G",
       "principe": "P17",
-      "motif": "La cour criminelle départementale juge sans jurés les crimes de quinze et vingt ans : le droit d'être jugé par des citoyens devient un droit de la personne mise en examen, qui peut demander la cour d'assises dans le délai des observations de fin d'information. Sans demande, la cour criminelle reste compétente. Coordination : L3451-1 (lot p180) informe la personne de cette faculté.",
-      "ligne_rouge": "P17 examiné : toute personne mise en examen pour un crime de quinze ou vingt ans obtient le jury sur simple demande, informée par l'avis de fin d'information. Art. 66 C et CEDH art. 5 examinés : la demande porte la durée maximale de détention provisoire de six mois (L3653-3) à un an (L3653-2), la personne en est avisée. Art. 16 DDHC examiné : la demande se forme avec l'accès au dossier et l'assistance de l'avocat. Art. 8 DDHC : aucune peine fixée.",
-      "operations": [
-        {
-          "op": "ajouter_alinea",
-          "nouveau": "Elle n'est pas non plus compétente lorsqu'une personne mise en examen a demandé à être jugée par la cour d'assises, par des observations adressées au juge d'instruction dans le délai prévu à l'article L. 3451-3."
-        }
-      ]
+      "motif": "Compétence de la cour criminelle départementale pour les crimes de quinze et vingt ans hors récidive, délits connexes, coaccusés. Registre 4.1 : la cour juge en échevinage, magistrats et citoyens assesseurs tirés au sort (L2124-3), sur le modèle des Schöffen. Le droit d'être jugé par des citoyens est tenu dans la composition : l'option « jury à la demande » écrite en passe 2 est retirée.",
+      "ligne_rouge": "P17 examiné : toute personne accusée d'un crime est jugée avec des citoyens, à la cour criminelle départementale comme à la cour d'assises, et l'appel au fond devant la cour d'assises reste ouvert (L2132-1). Art. 16 DDHC examiné : composition fixée par la loi. Art. 66 C : durées de détention de L3653-3 inchangées."
     },
     {
       "code": "cpp",
@@ -471,18 +465,36 @@
     {
       "code": "cpp",
       "num": "L2124-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Composition de la cour criminelle départementale.",
-      "ligne_rouge": "aucune"
+      "decision": "R",
+      "principe": "P17",
+      "motif": "Registre 4.1 : échevinage sur le modèle des Schöffen. La cour criminelle départementale juge avec [trois] magistrats et [deux] citoyens assesseurs tirés au sort sur la liste du jury. Les citoyens assesseurs sont recréés dans la loi (registre 4.2) : aptitude, incapacités, incompatibilités et dispenses des jurés, serment des jurés. Le détail du tirage et de la convocation est aux articles R2-6 à R2-14.",
+      "ligne_rouge": "P17 examiné : la cour criminelle associe des citoyens tirés au sort, le droit d'être jugé par des citoyens est tenu pour tout crime. Art. 16 DDHC et CEDH art. 6 examinés : citoyens soumis aux incapacités et au serment des jurés, impartialité tenue, récusation ouverte (L4331-2). Art. 34 C : composition fixée par la loi.",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La cour criminelle départementale est composée de [trois] magistrats, dont le président, choisis par le premier président de la cour d'appel, et de [deux] citoyens assesseurs.\nLes citoyens assesseurs sont tirés au sort sur la liste annuelle du jury criminel du département, dans les formes de l'article L. 2123-29. Ils remplissent les conditions des articles L. 2123-16 à L. 2123-20. Ils prêtent le serment des jurés et en ont les droits et les devoirs."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2124-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Désignation du président et des assesseurs.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P17",
+      "motif": "Registre 4.1 : la cour compte [trois] magistrats, dont le président. Les deux autres magistrats sont choisis parmi les conseillers et les juges. Un seul au plus peut être magistrat à titre temporaire ou honoraire, pour garder deux magistrats de carrière sur trois, comme la composition précédente en gardait trois sur cinq.",
+      "ligne_rouge": "Art. 16 DDHC et CEDH art. 6 examinés : magistrats du siège désignés par le premier président, impartialité tenue (L2123-10). P17 : les citoyens assesseurs siègent aux côtés des magistrats.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Les assesseurs sont choisis parmi",
+          "nouveau": "Les autres magistrats sont choisis parmi"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "peut désigner deux assesseurs au plus parmi",
+          "nouveau": "peut en désigner un au plus parmi"
+        }
+      ]
     },
     {
       "code": "cpp",

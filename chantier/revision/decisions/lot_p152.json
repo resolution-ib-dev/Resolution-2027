@@ -27,9 +27,9 @@
       "code": "cpp",
       "num": "L4451-3",
       "decision": "R",
-      "principe": "P5",
-      "motif": "La voie rapide reste dans le barème (P5) : le procureur propose la peine selon 132-1 à 132-1-2 du code pénal. Le plafond « moitié de l'encourue » accordait à la reconnaissance une remise hors barème, qui la limite à la catégorie 3 (un cinquième) : il tombe, la durée reste plafonnée à [trois] ans, et la procédure est fermée quand le barème impose davantage. L'aménagement proposé suit le champ de 132-25 réécrit ([six mois]), annoncé au prononcé, ce que veut P10.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine est individualisée dans le barème et homologuée par un juge du siège (L4452-8), la personne peut refuser et aller à l'audience",
+      "principe": "P24",
+      "motif": "Registre 1.20 : la comparution sur reconnaissance préalable de culpabilité est ouverte à tous les délits qu'elle vise, réitérants et récidivistes compris, et le quantum est celui du barème : la reconnaissance des faits compte en catégorie 3 (au plus un cinquième, 132-1-1), le minimum de la récidive s'applique (132-1-2). Le plafond de trois ans et la fermeture quand le barème impose davantage sont retirés, le plafond de la moitié de l'encourue aussi. L'aménagement proposé suit le champ de 132-25 réécrit ([six mois]), annoncé au prononcé (P10).",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine est individualisée dans le barème et homologuée par un juge du siège (L4452-8), la personne peut refuser et aller à l'audience. Art. 9 et 16 DDHC examinés : avocat obligatoire, délai de réflexion de dix jours (L4452-3). Risque déclaré : une peine longue proposée par le parquet, que seule l'homologation contrôle.",
       "operations": [
         {
           "op": "remplacer",
@@ -39,7 +39,7 @@
         {
           "op": "remplacer",
           "ancien": "sa durée ne peut être supérieure à trois ans ni excéder la moitié de la peine d'emprisonnement encourue",
-          "nouveau": "sa durée ne peut être supérieure à [trois] ans. La procédure n'est pas applicable lorsque les articles 132-1-1 et 132-1-2 du code pénal imposent une durée supérieure"
+          "nouveau": "sa durée est fixée dans les limites des articles 132-1-1 et 132-1-2 du code pénal, la reconnaissance des faits comptant au titre du 3° du I de l'article 132-1-1"
         },
         {
           "op": "remplacer",

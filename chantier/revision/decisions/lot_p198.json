@@ -74,13 +74,13 @@
       "num": "L3752-4",
       "decision": "R",
       "principe": "P11",
-      "motif": "Forclusion des nullités antérieures à chaque interrogatoire : six mois, c'est long pour une purge qui doit être précoce. Le délai passe à [trois mois], toujours à compter de la notification à la personne et sous réserve des moyens qu'elle n'a pu connaître.",
-      "ligne_rouge": "art. 16 DDHC examiné : avocat et accès au dossier gardés, la copie est délivrée dans le mois de la demande (L3431-8), le délai utile est donc d'au moins deux mois, et il cède devant les moyens que la personne n'a pu connaître [arbitrage : durée et point de départ réservés à l'auteur]. Art. 8 DDHC examiné : aucune peine en cause. P18 examiné : la partie civile suit la même purge.",
+      "motif": "Registre 5.3 : purge des nullités en [un mois] après remise du dossier, partout. Le délai court de la notification de la mise en examen ou, lorsque l'avocat a demandé copie du dossier dans ce délai, de la délivrance de cette copie (L3431-8). Le délai de [trois mois] de la passe 2 (lot p198) est aligné sur la fiche L3. Réserve des moyens que la personne n'a pu connaître gardée.",
+      "ligne_rouge": "art. 16 DDHC examiné : le délai court de l'accès effectif au dossier, la copie est délivrée dans le mois de la demande (L3431-8), l'avocat est présent, et le délai cède devant les moyens que la personne n'a pu connaître. Art. 8 DDHC examiné : aucune peine en cause. P18 examiné : la partie civile suit la même purge",
       "operations": [
         {
           "op": "remplacer",
-          "ancien": "dans un délai de six mois à compter de la notification",
-          "nouveau": "dans un délai de [trois mois] à compter de la notification"
+          "ancien": "dans un délai de six mois à compter de la notification de sa mise en examen, sauf",
+          "nouveau": "dans un délai de [un mois] à compter de la notification de sa mise en examen ou, lorsque son avocat a demandé copie du dossier dans ce délai, à compter de la délivrance de cette copie, sauf"
         }
       ]
     },
@@ -95,10 +95,17 @@
     {
       "code": "cpp",
       "num": "L3752-6",
-      "decision": "G",
+      "decision": "R",
       "principe": "P11",
-      "motif": "Forclusion trois mois (un mois si détenu) après l'avis de fin d'information : purge avant le règlement.",
-      "ligne_rouge": "aucune"
+      "motif": "Registre 5.3 : purge des nullités en [un mois] partout. Après l'avis de fin d'information, le dossier est entre les mains des parties : le délai de requête en annulation passe à [un mois], que la personne soit détenue ou non.",
+      "ligne_rouge": "art. 16 DDHC examiné : le dossier est communiqué à l'avis de fin d'information, avocat présent ; la réserve des moyens inconnus reste ouverte devant la juridiction de jugement (L4411-34)",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "à l'issue d'un délai de trois mois, ou d'un mois si la personne mise en examen est détenue, à compter de l'envoi de cet avis.",
+          "nouveau": "à l'issue d'un délai de [un mois] à compter de l'envoi de cet avis."
+        }
+      ]
     },
     {
       "code": "cpp",

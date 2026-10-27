@@ -10,10 +10,17 @@
     {
       "code": "cp",
       "num": "711-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Clause d'application aux trois collectivités du Pacifique, avec le compteur de la dernière loi rendue applicable : technique imposée par la spécialité législative. Le compteur se met à jour avec la loi qui porte la réécriture. Au 1er janvier 2029, la version issue de l'ordonnance n° 2025-1091 ramène le compteur avant les lois de 2026 déjà étendues : la loi de réécriture fixe le compteur sur elle-même.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P3",
+      "motif": "Registre 7.4 : la version des livres Ier à V applicable dans le Pacifique est fixée par la loi de réécriture, qui place le compteur sur elle-même. Elle reprend les lois de 2026 déjà étendues, que la version issue de l'ordonnance n° 2025-1091 laissait derrière.",
+      "ligne_rouge": "aucune garantie touchée : la clause dit quelle rédaction s'applique, la loi de réécriture étend ses propres dispositions",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "dans leur rédaction résultant de l'ordonnance n° 2025-1091 du 19 novembre 2025 portant réécriture du code de procédure pénale (partie législative),",
+          "nouveau": "dans leur rédaction résultant de la loi n° [numéro] du [date],"
+        }
+      ]
     },
     {
       "code": "cp",
@@ -207,10 +214,10 @@
     {
       "code": "cp",
       "num": "717-3",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Peines des personnes morales pour 717-2 : la simplification ne les perd pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'incrimination est définie par la loi, le quantum relève du barème, qui garde la modulation au prononcé dans ses bornes"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
+      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
     }
   ]
 }

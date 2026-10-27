@@ -318,10 +318,17 @@
     {
       "code": "cpp",
       "num": "L1225-16",
-      "decision": "G",
+      "decision": "S",
       "principe": "P15",
-      "motif": "Action civile des associations de lutte contre les dérives sectaires, à titre principal et sans l'accord des victimes. L'avis du ministère public sur l'agrément est le seul filtre extérieur depuis le retrait de la consultation de la mission interministérielle (R*1-2, lot p330). Il protège la liberté de conscience des personnes visées (art. 10 DDHC, CEDH art. 9), exception de P15. Il reste. La plage « 312-1 à 312-12 » reste telle quelle (lot p048).",
-      "ligne_rouge": "art. 10 DDHC et CEDH art. 9 examinés : l'avis filtre l'agrément d'associations qui peuvent poursuivre seules"
+      "motif": "Registre 5.1 : l'avis du procureur sur l'agrément des associations n'est pas au nombre des avis gardés et tombe. L'agrément reste délivré par l'autorité administrative dans les conditions du décret en Conseil d'État, et le parquet garde l'action publique. Action civile des associations de lutte contre les dérives sectaires, à titre principal et sans l'accord des victimes, gardée. La plage « 312-1 à 312-12 » reste telle quelle (lot p048).",
+      "ligne_rouge": "art. 10 DDHC et CEDH art. 9 examinés : la liberté de conscience des personnes visées reste garantie par l'agrément, ses conditions fixées par décret en Conseil d'État et le contrôle du juge sur l'action civile ; le procureur reste partie au procès",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "peuvent être agréées, après avis du ministère public, sont définies",
+          "nouveau": "peuvent être agréées sont définies"
+        }
+      ]
     },
     {
       "code": "cpp",

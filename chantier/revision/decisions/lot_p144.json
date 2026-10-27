@@ -340,12 +340,12 @@
       "num": "L4322-3",
       "decision": "R",
       "principe": "P26",
-      "motif": "Le huis clos est ouvert pour l'ordre, la sérénité, la dignité ou les intérêts d'un tiers, et le secret de la défense nationale devant les seules juridictions spécialisées : hors des exceptions de la transparence. Il ne reste ordonné qu'à la demande de la victime pour sa protection, pour la protection d'un mineur ou pour le secret de la défense nationale. L'ordre de l'audience relève de la police du président (L4322-13, L4322-14). Le renvoi à L. 4353-9 (incidents en appel, ancien 316) vise les incidents réglés par L. 4322-32 : corrigé. Le huis clos protège aussi tout mineur, qu'il soit victime, témoin ou tiers : ligne rouge minorité (P25). Le secret de la défense nationale, réservé jusqu'ici aux juridictions spécialisées (L. 2152-34 à L. 2152-39), s'ouvre à toute cour : extension déclarée. Perte à dire : la dignité de l'accusé ne fonde plus le huis clos, y compris pour la personne au discernement aboli devant la chambre des investigations et des libertés (L6321-6, qui renvoie à cet article, lot p211). La vie privée d'un tiers majeur non plus.",
-      "ligne_rouge": "art. 2 DDHC et CEDH art. 8, vie privée examinée : la victime obtient le huis clos à sa demande, de droit pour les crimes sexuels (L4322-4), le témoin menacé est entendu à huis clos (L4322-5). Minorité examinée : le huis clos protège tout mineur, et la publicité restreinte de la cour d'assises des mineurs reste (CJPM L513-2 et L513-3). CEDH art. 6 § 1 examiné : la publicité est la règle [arbitrage : dignité de l'accusé, vie privée d'un tiers majeur]",
+      "motif": "Le huis clos pour l'ordre, la sérénité, la dignité ou les intérêts d'un tiers sort des exceptions de la transparence. La liste de passe 2 (victime, protection d'un mineur, secret de la défense nationale) divergeait de L. 1 : l'article y renvoie (registre 3.5). Le secret de la défense nationale relève de la sécurité nationale, ouverte à toute cour. Le renvoi à L. 4353-9 visait les incidents réglés par L. 4322-32 : corrigé. Perte à dire : la protection d'un mineur témoin ou tiers ne fonde plus le huis clos d'office, la victime mineure le demande par ses représentants. La dignité de l'accusé et la vie privée d'un tiers majeur non plus, y compris devant la chambre des investigations et des libertés (L6321-6 renvoie à cet article).",
+      "ligne_rouge": "Vie privée (art. 2 DDHC, CEDH art. 8) examinée : la victime obtient le huis clos à sa demande, de droit pour les crimes sexuels (L4322-4), le témoin menacé dépose sous anonymat (L4322-5, L1532-9). Minorité examinée : huis clos pour l'accusé mineur au moment des faits, publicité restreinte de la cour d'assises des mineurs (CJPM), le mineur victime protégé à sa demande. CEDH art. 6 § 1 examiné : la publicité est la règle.",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Par dérogation à l'article L. 4322-1, la cour peut ordonner, par un arrêt rendu en audience publique, que les débats se tiendront à huis clos en totalité ou pour partie si la victime le demande pour sa protection, si la protection d'un mineur l'exige ou si la publicité risque d'entraîner la divulgation d'un secret de la défense nationale.\nLorsque le huis clos a été ordonné, celui-ci s'applique au prononcé des arrêts qui peuvent intervenir sur les incidents contentieux mentionnés à l'article L. 4322-32."
+          "nouveau": "Par dérogation à l'article L. 4322-1, la cour peut ordonner, par un arrêt rendu en audience publique, que les débats se tiendront à huis clos en totalité ou pour partie dans les cas prévus à l'article L. 1.\nLorsque le huis clos a été ordonné, celui-ci s'applique au prononcé des arrêts qui peuvent intervenir sur les incidents contentieux mentionnés à l'article L. 4322-32."
         }
       ]
     },
@@ -419,18 +419,37 @@
     {
       "code": "cpp",
       "num": "L4322-4",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Huis clos de droit à la demande de la victime partie civile de viol, tortures avec agression sexuelle, traite ou proxénétisme aggravé, et jamais contre son opposition : c'est l'exception de la transparence, à la main de la victime.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P18",
+      "motif": "Registre 3.3 : huis clos de droit à la seule demande de la victime, sans condition de protection, et jamais contre son opposition. La victime n'a plus à s'être constituée partie civile. Le huis clos partiel reste à sa main.",
+      "ligne_rouge": "Vie privée et dignité de la victime (art. 2 DDHC, CEDH art. 8) examinées : huis clos de droit à sa demande, tenu. CEDH art. 6 § 1 examiné : l'exception est celle de la victime (P26), l'arrêt est prononcé publiquement (L4322-2). Art. 16 DDHC : la défense reste présente aux débats.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "le huis clos est de droit si la victime partie civile ou l'une des victimes parties civiles le demande.",
+          "nouveau": "le huis clos est de droit à la seule demande de la victime ou de l'une des victimes, sans autre condition."
+        },
+        {
+          "op": "remplacer",
+          "ancien": "si la victime partie civile ou l'une des victimes parties civiles ne s'y oppose pas.",
+          "nouveau": "si la victime ou l'une des victimes ne s'y oppose pas."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4322-5",
-      "decision": "G",
+      "decision": "S",
       "principe": "P26",
-      "motif": "Huis clos le temps de la déposition d'un témoin dont la vie est gravement menacée, pour la criminalité organisée, les crimes contre l'humanité, la disparition forcée, la torture et les crimes de guerre : protection de la vie de la personne qui concourt à la justice, au plus près de la sécurité nationale. Gardé [arbitrage : troisième exception à P26].",
-      "ligne_rouge": "aucune"
+      "motif": "Registre 3.2 : le témoin dont la vie est gravement menacée est protégé par l'anonymat de sa déposition, qui protège son identité. Le huis clos pour danger grave sort des exceptions de L. 1 (registre 3.1) : l'audition se tient en public, sous anonymat. Liste des infractions gardée.",
+      "ligne_rouge": "Vie et intégrité (art. 2 DDHC, CEDH art. 2) examinées : la déposition anonyme, voix et apparence altérées, protège le témoin. Art. 16 DDHC examiné : la défense entend la déposition et la discute (L1532-6). CEDH art. 6 § 1 examiné : publicité tenue.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "ordonner le huis clos pour le temps de l'audition d'un témoin si la déposition publique de celui-ci",
+          "nouveau": "ordonner qu'un témoin dépose dans des conditions de nature à préserver son anonymat, selon les modalités de l'article L. 1532-9, si sa déposition publique"
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -904,13 +923,13 @@
       "num": "L4325-13",
       "decision": "S",
       "principe": "P14",
-      "motif": "Scrutin secret, majorité absolue des votants, tours successifs : gardés. La réserve de L4325-14 (abrogé) et de L4325-15 (réécrit à la majorité absolue, dans ce lot) tombe : la peine se décide à la majorité absolue, maximum compris.",
-      "ligne_rouge": "art. 8 DDHC examiné : le vote se fait dans les limites du barème, sans peine automatique ; l'élimination de la peine la plus forte après deux tours reste [arbitrage]",
+      "motif": "Scrutin secret, majorité absolue des votants : gardés. Registre 4.4 : majorité absolue pour toute peine, perpétuité comprise (L4325-14 abrogé, L4325-15 réécrit). La règle d'éviction de la peine la plus forte après deux tours est abrogée : elle faisait baisser la peine sans motif. Toute diminution se vote motivée, conformément à 132-1 du code pénal et à L4325-20.",
+      "ligne_rouge": "Art. 8 DDHC et individualisation au prononcé examinés : la cour vote dans le barème, peut descendre sous la référence par des motifs énoncés, aucune peine n'est automatique. P17 examiné : les jurés votent chaque tour au scrutin secret.",
       "operations": [
         {
           "op": "remplacer",
-          "ancien": "La décision sur la peine se forme à la majorité absolue des votants, sous réserve des dispositions des articles L. 4325-14 et L. 4325-15.",
-          "nouveau": "La décision sur la peine se forme à la majorité absolue des votants."
+          "ancien": "La décision sur la peine se forme à la majorité absolue des votants, sous réserve des dispositions des articles L. 4325-14 et L. 4325-15.Si, après deux tours de scrutin, aucune peine n'a réuni la majorité des suffrages, il est procédé à un troisième tour au cours duquel la peine la plus forte proposée au tour précédent est écartée. Si, à ce troisième tour, aucune peine n'a encore obtenu la majorité absolue des votes, il est procédé à un quatrième tour et ainsi de suite, en continuant à écarter la peine la plus forte, jusqu'à ce qu'une peine obtienne la majorité absolue.",
+          "nouveau": "La décision sur la peine se forme à la majorité absolue des votants. Les tours de scrutin se répètent jusqu'à ce qu'une peine obtienne cette majorité. Une peine inférieure à la peine encourue se vote avec les motifs de la diminution, énoncés dans la feuille de motivation prévue à l'article L. 4325-20."
         }
       ]
     },
@@ -920,7 +939,7 @@
       "decision": "A",
       "principe": "P14",
       "motif": "Le maximum encouru ne peut être prononcé qu'à sept voix sur neuf : la loi met la charge sur la référence. La doctrine la met sur l'écart : la peine encourue est la référence, la diminution se motive (132-1 réécrit, lot p056). La majorité absolue de L4325-13 tient lieu de règle pour toute peine. Le second alinéa n'a pas de contenu propre : la réclusion à temps est de trente ans au plus (131-1 du code pénal), et 132-18 réécrit compte la perpétuité pour trente ans. Renvois entrants : L4325-13 (corrigé dans ce lot), L4325-15 (réécrit dans ce lot), L4353-13 (lot p147, corrigé), L4332-2 (plage L4325-12 à L4325-17, sans effet), L8224-3 (Saint-Pierre-et-Miquelon, à coordonner au lot de la 8e partie).",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la cour vote la peine dans le barème, peut descendre sous la référence par des motifs énoncés, et aucune peine n'est automatique (CC 2007-554 DC, 9 août 2007, cons. 13). Art. 9 DDHC examiné : la culpabilité reste votée à sept voix (L4325-6). P17 examiné, perte déclarée : à la majorité absolue, trois magistrats et deux jurés sur six suffisent pour prononcer le maximum, perpétuité comprise, contre quatre jurés (en appel, trois magistrats et quatre jurés sur neuf) [arbitrage : majorité de jurés pour la perpétuité]"
+      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la cour vote la peine dans le barème, peut descendre sous la référence par des motifs énoncés, et aucune peine n'est automatique (CC 2007-554 DC, 9 août 2007, cons. 13). Art. 9 DDHC examiné : la culpabilité reste votée à sept voix (L4325-6). P17 examiné, perte déclarée : à la majorité absolue, trois magistrats et deux jurés sur six suffisent pour prononcer le maximum, perpétuité comprise, contre quatre jurés (en appel, trois magistrats et quatre jurés sur neuf) Registre 4.4 : majorité absolue, perpétuité comprise."
     },
     {
       "code": "cpp",
@@ -928,7 +947,7 @@
       "decision": "R",
       "principe": "P14",
       "motif": "Après une réponse positive sur l'altération du discernement, 122-1 du code pénal (gardé, lot p055) réduit du tiers la peine privative de liberté encourue, ou ramène la perpétuité à trente ans. Il ne permet de l'écarter par décision spécialement motivée qu'en matière correctionnelle. Devant la cour d'assises, cet article est le seul moyen de l'écarter. L'abroger rendrait la diminution intangible en matière criminelle. La majorité qualifiée cède à la majorité absolue, comme pour le maximum (L4325-14, abrogé), et l'écart se motive. Renvois entrants : L4325-13 (corrigé dans ce lot), L8224-3 (à coordonner au lot de la 8e partie).",
-      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la diminution pour trouble mental reste de droit (122-1 du code pénal), et l'écarter exige une décision spécialement motivée, énoncée dans la feuille de motivation (L4325-20). P17 examiné : la majorité absolue remplace sept voix sur neuf [arbitrage, avec L4325-14]",
+      "ligne_rouge": "art. 8 DDHC et individualisation au prononcé examinés : la diminution pour trouble mental reste de droit (122-1 du code pénal), et l'écarter exige une décision spécialement motivée, énoncée dans la feuille de motivation (L4325-20). P17 examiné : la majorité absolue remplace sept voix sur neuf (registre 4.4)",
       "operations": [
         {
           "op": "rediger",

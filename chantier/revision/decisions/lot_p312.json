@@ -10,10 +10,17 @@
     {
       "code": "cpp",
       "num": "L8511-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Clause d'application en îles Wallis et Futuna avec le compteur de l'ordonnance n° 2025-1091 : technique imposée par la spécialité législative. Le compteur se met à jour avec la loi qui porte la réécriture, comme celui de 711-1 du code pénal (lot p062).",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P3",
+      "motif": "Registre 7.4 : la version applicable en îles Wallis et Futuna est fixée par la loi de réécriture, qui place le compteur sur elle-même (spécialité législative). Le paramètre nomme cette loi.",
+      "ligne_rouge": "aucune garantie touchée : la clause dit quelle rédaction s'applique, la loi de réécriture étend ses propres dispositions",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "dans sa rédaction résultant de l'ordonnance n° 2025-1091 du 19 novembre 2025,",
+          "nouveau": "dans sa rédaction résultant de la loi n° [numéro] du [date],"
+        }
+      ]
     },
     {
       "code": "cpp",

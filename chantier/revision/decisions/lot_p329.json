@@ -1156,8 +1156,8 @@
       "num": "R15-33-47",
       "decision": "R",
       "principe": "P26",
-      "motif": "Composition pénale (anciens 41-2 et 41-3) : voie rapide sur faits reconnus, mesures acceptées et validées par un juge. Les auditions de validation « ne sont pas publiques » sans exception ni demande : elles deviennent publiques, sauf chambre du conseil pour la protection de la victime à sa demande, la sécurité nationale, un danger grave pour la vie ou l'intégrité d'une personne, la présomption d'innocence à la demande de l'auteur, et de droit si l'auteur était mineur. Coquille « décide, de procéder ». L4221-18 confie l'audition au magistrat saisi pour valider la composition pénale.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : l'auteur des faits obtient la chambre du conseil à sa demande. Minorité examinée : chambre du conseil de droit pour les faits commis en minorité",
+      "motif": "Composition pénale (anciens 41-2 et 41-3) : voie rapide sur faits reconnus, mesures acceptées et validées par un juge. Les auditions de validation « ne sont pas publiques » sans exception ni demande : elles deviennent publiques, sauf chambre du conseil pour la protection de la victime à sa demande, la sécurité nationale, un danger grave pour la vie ou l'intégrité d'une personne, la présomption d'innocence à la demande de l'auteur, et de droit si l'auteur était mineur. Coquille « décide, de procéder ». L4221-18 confie l'audition au magistrat saisi pour valider la composition pénale. Registre 3.1 : renvoi à L. 1. Le danger grave et la demande de l'auteur pour préserver sa présomption d'innocence ne fondent plus la chambre du conseil.",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : l'auteur a reconnu les faits, la demande ne fonde plus la chambre du conseil (registre 3.1). Minorité examinée : chambre du conseil pour les faits commis en minorité (L. 1).",
       "operations": [
         {
           "op": "remplacer",
@@ -1167,7 +1167,7 @@
         {
           "op": "remplacer",
           "ancien": "Ces auditions, qui font l'objet d'un procès-verbal signé du président et des intéressés, ne sont pas publiques.",
-          "nouveau": "Ces auditions font l'objet d'un procès-verbal signé du président et des intéressés. Elles sont publiques. Toutefois, elles ont lieu en chambre du conseil lorsque la victime le demande pour sa protection, lorsque la sécurité nationale l'exige, lorsque la publicité mettrait gravement en danger la vie ou l'intégrité physique d'une personne, lorsque l'auteur des faits le demande pour préserver sa présomption d'innocence ou lorsque l'auteur des faits était mineur au moment des faits."
+          "nouveau": "Ces auditions font l'objet d'un procès-verbal signé du président et des intéressés. Elles sont publiques. Toutefois, elles ont lieu en chambre du conseil dans les cas prévus à l'article L. 1."
         }
       ]
     },
@@ -1405,13 +1405,13 @@
       "num": "R15-33-60-10",
       "decision": "S",
       "principe": "P12",
-      "motif": "Convention judiciaire d'intérêt public (ancien 41-1-2) : interruption de la convention notifiée par tout moyen qui en établit la réception, victime avisée, prise en compte de l'exécution partielle au jugement (catégorie du comportement après l'acte).",
+      "motif": "Convention judiciaire d'intérêt public (ancien 41-1-2) : interruption de la convention notifiée par tout moyen qui en établit la réception, victime avisée, prise en compte de l'exécution partielle au jugement (catégorie du comportement après l'acte). Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
       "ligne_rouge": "art. 8 DDHC examiné : l'exécution partielle n'est qu'un élément apprécié par la juridiction au prononcé",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "notifiée aux représentants de la personne morale par lettre recommandée avec demande d'accusé de réception.",
-          "nouveau": "notifiée aux représentants de la personne morale par tout moyen permettant d'en établir la réception."
+          "nouveau": "notifiée aux représentants de la personne morale par tout moyen permettant d'en établir la date de réception."
         },
         {
           "op": "remplacer",
@@ -1433,13 +1433,13 @@
       "num": "R15-33-60-3",
       "decision": "S",
       "principe": "P12",
-      "motif": "Convention judiciaire d'intérêt public (ancien 41-1-2) : requête en validation, audience publique prévue par la loi. La notification se fait par tout moyen qui en établit la réception.",
+      "motif": "Convention judiciaire d'intérêt public (ancien 41-1-2) : requête en validation, audience publique prévue par la loi. La notification se fait par tout moyen qui en établit la réception. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
       "ligne_rouge": "aucune",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "à la victime, par lettre recommandée avec demande d'accusé de réception.",
-          "nouveau": "à la victime, par tout moyen permettant d'en établir la réception."
+          "nouveau": "à la victime, par tout moyen permettant d'en établir la date de réception."
         }
       ]
     },

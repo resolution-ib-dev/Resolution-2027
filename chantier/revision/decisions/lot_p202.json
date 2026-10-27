@@ -171,18 +171,23 @@
       "num": "L6133-16",
       "decision": "R",
       "principe": "P26",
-      "motif": "Comparution devant la chambre : gardée. L'audience est publique. Les motifs du huis clos (bon déroulement de la procédure, intérêts d'un tiers, dignité de la personne) sortent des deux exceptions de P26 : la chambre du conseil se réserve à la protection de la victime, à sa demande, à la sécurité nationale et à la présomption d'innocence de la personne recherchée, à sa demande.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC, Charte art. 48) et vie privée (art. 2 DDHC, Charte art. 7) examinées : la personne recherchée obtient la chambre du conseil à sa demande, tenu [arbitrage : bon déroulement de la procédure étrangère réservé à l'auteur]",
+      "motif": "Comparution devant la chambre : gardée. L'audience est publique. Les motifs du huis clos (bon déroulement de la procédure, intérêts d'un tiers, dignité de la personne) sortent des deux exceptions de P26 : la chambre du conseil se réserve à la protection de la victime, à sa demande, à la sécurité nationale et à la présomption d'innocence de la personne recherchée, à sa demande. Registre 3.1 : renvoi à L. 1. La demande de la personne recherchée pour préserver sa présomption d'innocence ne fonde plus la chambre du conseil, la minorité au moment des faits s'y ajoute.",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : elle ne fonde plus la chambre du conseil (registre 3.1), l'audience porte sur la remise et non sur la culpabilité. Minorité examinée : chambre du conseil pour la personne recherchée mineure au moment des faits.",
       "operations": [
         {
           "op": "remplacer",
           "ancien": "sauf si la publicité est de nature à nuire au bon déroulement de la procédure en cours, aux intérêts d'un tiers ou à la dignité de la personne",
-          "nouveau": "sauf si la victime le demande pour sa protection, si la sécurité nationale l'exige ou si la personne recherchée le demande pour préserver sa présomption d'innocence"
+          "nouveau": "sauf dans les cas prévus à l'article L. 1, la personne recherchée y tenant lieu de personne poursuivie"
         },
         {
           "op": "remplacer",
           "ancien": "d'office ou à la demande du ministère public ou de la personne recherchée",
           "nouveau": "d'office ou à la demande de la victime, du ministère public ou de la personne recherchée"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "Dans ce cas, la chambre",
+          "nouveau": "Dans ces cas, la chambre"
         }
       ]
     },

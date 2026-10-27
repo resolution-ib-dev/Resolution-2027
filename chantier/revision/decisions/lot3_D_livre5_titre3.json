@@ -189,10 +189,22 @@
     {
       "code": "cpp",
       "num": "D534-1",
-      "decision": "G",
+      "decision": "S",
       "principe": "P19",
-      "motif": "Délais de transmission du dossier et de convocation, raccourcis pour les crimes sexuels : délais opposables, tenus.",
-      "ligne_rouge": "aucune"
+      "motif": "Registre 5.7 : la convocation après libération conditionnelle passe d'un mois à [cinq] jours ouvrables, comme pour l'ancienne libération sous contrainte. Pour les crimes sexuels, la convocation reste remise avant la libération, ce qui l'emporte sur l'ancien délai de huit jours. Transmission du dossier deux semaines avant et exception d'urgence gardées.",
+      "ligne_rouge": "P18 examiné : le suivi commence dans les jours qui suivent la libération, plus tôt pour les auteurs de crimes sexuels",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Dans un délai d'un mois à compter de sa libération, le condamné doit être convoqué devant",
+          "nouveau": "Dans un délai de [cinq] jours ouvrables à compter de sa libération, le condamné est convoqué devant"
+        },
+        {
+          "op": "remplacer",
+          "ancien": "cette convocation doit intervenir au plus tard dans un délai de huit jours, et doit être remise au condamné avant sa libération.",
+          "nouveau": "cette convocation est remise au condamné avant sa libération."
+        }
+      ]
     },
     {
       "code": "cpp",

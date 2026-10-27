@@ -66,10 +66,17 @@
     {
       "code": "cp",
       "num": "122-1",
-      "decision": "G",
+      "decision": "R",
       "principe": "P14",
-      "motif": "Abolition du discernement : irresponsabilité. Altération : la peine privative de liberté encourue est réduite du tiers, réduction que la juridiction peut écarter en matière délictuelle par décision spécialement motivée (rédaction au 1er janvier 2029). C'est la constante chiffrée que la doctrine garde comme premier motif de la catégorie 1 du barème (« point de départ moins un tiers »). L'avis médical sert les soins adaptés, non une autorisation préalable : la proposition de passe 1 (P15) est écartée. Le barème s'y adosse sans le réécrire ici.",
-      "ligne_rouge": "art. 8 et 9 DDHC examinés : irresponsabilité du dément et atténuation chiffrée, la juridiction garde l'appréciation ; CEDH art. 3 examiné : la peine permet des soins adaptés"
+      "motif": "Registre 1.16 : la réduction pour discernement altéré devient une faculté de la juridiction, d'un tiers au plus, et la perpétuité peut être ramenée à trente ans. Elle s'applique au point de départ du barème, hors plafond des diminutions (registre 1.14, 132-1-1, III). La dérogation motivée en matière délictuelle tombe, la juridiction appréciant désormais le quantum de la réduction. L'irresponsabilité pour abolition et les soins adaptés sont gardés.",
+      "ligne_rouge": "Art. 8 et 9 DDHC examinés : irresponsabilité du dément gardée. L'atténuation, de droit en matière criminelle, devient appréciée par le juge dans la limite d'un tiers : durcissement possible pour les crimes, déclaré. La juridiction tient compte du trouble et s'assure de soins adaptés (CEDH art. 3).",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "Si est encourue une peine privative de liberté, celle-ci est réduite du tiers ou, en cas de crime puni de la réclusion criminelle ou de la détention criminelle à perpétuité, est ramenée à trente ans. La juridiction peut toutefois, par une décision spécialement motivée en matière délictuelle, décider de ne pas appliquer cette diminution de peine.",
+          "nouveau": "Si est encourue une peine privative de liberté, la juridiction peut la réduire d'un tiers au plus ou, en cas de crime puni de la réclusion criminelle ou de la détention criminelle à perpétuité, la ramener à trente ans. Cette réduction s'applique à la peine encourue servant de référence au barème de l'article 132-1-1."
+        }
+      ]
     },
     {
       "code": "cp",

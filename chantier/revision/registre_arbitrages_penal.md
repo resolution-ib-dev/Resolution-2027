@@ -48,7 +48,7 @@ passe 2 (`arbitrages_passe2.md`) sont tous repris ici et tranchés.
 | 2.5 | bioéthique | règle unique : défaut d'autorisation d'un acte sur une personne ou sur l'embryon au noyau ; le reste en amende délictuelle | P23, P27 | délégué |
 | 2.6 | hiérarchies | rétablies : faute délibérée contre faute routière (221-6, 222-19 contre 221-18, 221-19) ; 434-42-1 aligné sur 227-4-2 ; déchets L541-46 contre L231-2 | P27 | délégué |
 | 2.7 | vie privée | 226-3 et 226-18 baissés ; 226-1 inchangé | P27 | délégué |
-| 2.8 | barème des délits | 38 articles non incriminateurs retirés du TSV ; L3131-2 du CPP ajouté | — | délégué |
+| 2.8 | barème des délits | articles non incriminateurs retirés du relevé (49 au recompte, `revision/bareme_hors_releve.json`) ; L3131-2 du CPP ajouté ; 1 212 délits | — | délégué, fait 20261027 |
 
 ## 3. Publicité (P26)
 
@@ -110,6 +110,71 @@ passe 2 (`arbitrages_passe2.md`) sont tous repris ici et tranchés.
 | n° | point | décision | statut |
 |---|---|---|---|
 | 8.1 | référence constitutionnelle | CC 93-334 DC du 20 janvier 1994, corrigée au lot 1 et à la procédure (20261027) | fait |
-| 8.2 | défauts de l'ordonnance n° 2025-1091 | portés à une note de coordination (`revision/coordination_ordonnance_2025_1091.md`), un défaut par ligne avec sa correction | délégué |
-| 8.3 | numéros en double de la base 2029 et 225-10-1 absent | signalés au dépôt de droit ; 225-10-1 ajouté au registre de passe 1 | délégué |
-| 8.4 | faux positifs inter-codes de D4 | le contrôle filtre le code de l'article cité | délégué |
+| 8.2 | défauts de l'ordonnance n° 2025-1091 | portés à une note de coordination (`revision/coordination_ordonnance_2025_1091.md`), un défaut par ligne avec sa correction : 65 lignes, 62 confirmées | délégué, fait 20261027 |
+| 8.3 | numéros en double de la base 2029 et 225-10-1 absent | signalés au dépôt de droit (note de coordination, lignes 59 à 64 : les doublons viennent de la base) ; registre de passe 1 construit au 1er janvier 2029 pour les trois codes, 225-10-1 y entre | délégué, fait 20261027 |
+| 8.4 | faux positifs inter-codes de D4 | le contrôle filtre le code de l'article cité | délégué, fait 20261027 |
+
+## 9. Arbitrages tranchés en portant le registre dans les textes (20261027)
+
+Chaque ligne renvoie au point du registre qu'elle précise.
+
+| n° | point | décision | principe | statut |
+|---|---|---|---|---|
+| 9.1 | 3.1 | La minorité de L. 1 vise la personne poursuivie au moment des faits. La victime mineure obtient la chambre du conseil par la demande de ses représentants, plus de droit (L1441-21, L3713-7, L4322-3, L4421-3) | P26, P25 | délégué |
+| 9.2 | 3.1 | La personne recherchée, réclamée, mise en examen ou témoin assisté tient lieu de personne poursuivie pour l'exception de minorité (L6133-16, L6232-15, L6232-32, L3713-7) | P26 | délégué |
+| 9.3 | 3.1 | L'usurpé d'état civil (L5113-6) et le demandeur victime d'une plainte abusive (L3452-33) ont qualité de victime. La demande du plaignant ne fonde plus la chambre du conseil | P26 | délégué |
+| 9.4 | 3.1 | La personne indemnisée d'une détention injustifiée garde l'opposition à la publicité, comme victime (L3662-3, R35, R40-16 gardés) | P26 | délégué |
+| 9.5 | 3.1 | La chambre du conseil ou l'audience de cabinet de droit sur la détention en comparution immédiate (L4413-9, L4413-15) et sur le référé-liberté (L3742-17, L3742-24) devient publique, sauf les cas de L. 1 | P26 | délégué |
+| 9.6 | 3.1 | La copie d'une décision rendue publiquement en matière d'instruction ou d'application des peines se délivre sans autorisation (R170) | P26 | délégué |
+| 9.7 | 3.1 | La santé mentale se débat en public : irresponsabilité (L6324-2), mesures de sûreté (L6323-8), surveillance de sûreté (L6422-4) | P26 | délégué |
+| 9.8 | 3.2 | Le huis clos du témoin menacé devient une déposition anonyme (L4322-5, L4421-4, L1532-9). Le huis clos du collaborateur à l'audience est abrogé (L6332-8). La décision sur l'anonymat se prend toujours à huis clos | P26 | délégué |
+| 9.9 | 3.3 | Le huis clos de droit est ouvert à la victime même non constituée partie civile | P18, P26 | délégué |
+| 9.10 | 4.1 | Citoyens assesseurs tirés au sort par session sur la liste annuelle du jury, dans les formes de L2123-29, sous tout le régime des jurés | P17 | délégué |
+| 9.11 | 4.1 | Cour criminelle départementale : culpabilité à [quatre] voix sur cinq, peine à la majorité absolue | P17, P25 | délégué |
+| 9.12 | 4.1 | Récusations : [deux] pour l'accusé, [un] pour le ministère public | P17 | délégué |
+| 9.13 | 4.1 | Un seul magistrat temporaire ou honoraire au plus sur les trois (L2124-4) | P17 | délégué |
+| 9.14 | 4.1 | La cour garde le dossier au délibéré (L4332-1, L4331-3) | P17 | délégué |
+| 9.15 | 4.2 | Cassiopée consultée par la commission du jury (R2-6) ; consultation des fichiers de police et audition des candidats retirées | P17, P25 | délégué |
+| 9.16 | 4.2 | Au moins [deux] citoyens assesseurs supplémentaires par affaire (R2-11) | P17 | délégué |
+| 9.17 | 4.4 | Sans éviction, les tours de scrutin se répètent jusqu'à la majorité absolue | P4 | délégué |
+| 9.18 | 4.5 | Mayotte garde un jury de trois et six assesseurs-jurés, ses récusations (L8122-4) et sa révision de liste (L8124-1, L8124-2) | P3 | délégué |
+| 9.19 | 5.1 | L1225-16 : avis du parquet sur l'agrément des associations de lutte contre les dérives sectaires retiré (renverse la passe 2, lot p279) | P15 | délégué |
+| 9.20 | 5.1 | D211-11 : avis du juge de l'application des peines au dossier d'orientation rendu sous [huit jours], le dossier part ensuite sans lui | P15 | délégué |
+| 9.21 | 5.2 | « information du préfet » s'entend de la demande d'agrément ; avis de l'aumônier national gardé à D352-3 | P15 | délégué |
+| 9.22 | 5.3 | point de départ de [un mois] : notification de la mise en examen, ou délivrance de la copie du dossier si l'avocat l'a demandée dans le délai | P11 | délégué |
+| 9.23 | 5.3 | [un mois] s'étend aux requêtes en nullité après l'avis de fin d'information (L3752-6, L3451-3) ; observations et demandes d'actes gardent un ou trois mois | P11 | délégué |
+| 9.24 | 5.4 | formule unique de notification posée par une clause générale à L1632-5, valant pour toute lettre recommandée avec avis de réception du code ; envoi électronique par lettre recommandée électronique | P12, P20 | délégué |
+| 9.25 | 5.5 | à l'échéance, le juge d'instruction règle l'information ; L3421-4 devient la demande de prolongation motivée, les parties présentent des observations | P19 | délégué |
+| 9.26 | 5.6 | à l'expiration de [quarante-huit heures], le juge d'instruction exécute la demande, sauf transmission au procureur général (L6221-6) | P19 | délégué |
+| 9.27 | 5.7 | crimes sexuels : convocation remise avant la libération, le délai de huit jours tombe | P19 | délégué |
+| 9.28 | 6.3 | un article qui se déclare « conformément à » ou « dans les conditions de » un autre code est un miroir, même source hors base ; L212-3, L315-3, L362-2, R363-2 à R363-5 abrogés | P20 | délégué |
+| 9.29 | 6.4 | l'assesseur extérieur garde une voix consultative | P20 | délégué |
+| 9.30 | 6.5 | détenus particulièrement signalés : critères (risque élevé d'évasion, criminalité organisée, terrorisme, menace grave), décision motivée, notifiée après observations, réexaminée [une fois par an] | P26 | délégué |
+| 9.31 | 6.6 | Polynésie française et Nouvelle-Calédonie : condition du bénéfice direct et majeur gardée en règle autonome (R764-7, R774-7) | P3 | délégué |
+| 9.32 | 1.9 | 132-78 s'applique à tout crime ou délit ; les articles qui ne portaient qu'une réduction sont abrogés, ceux qui portaient une exemption la gardent seule | P4, P20 | délégué |
+| 9.33 | 1.13 | 132-1-1 entre aux décisions comme article créé (C) et remplace l'opération de la fiche L4 ; 132-1-2 de même pour la fiche L5 | P14 | délégué |
+| 9.34 | 1.13 | L4221-7 revient au texte de 2029 (amende de composition selon gravité et ressources) | P5 | délégué |
+| 9.35 | 1.11 | « primo-délinquant » s'écrit « sans condamnation antérieure pour crime ou délit », sans délai de cinq ans, pour les personnes physiques ; régime des personnes morales gardé | P10 | délégué |
+| 9.36 | 1.11 | restriction des peines de substitution écrite une seule fois, à 131-3 | P20 | délégué |
+| 9.37 | 1.11 | le sursis contraventionnel suit la même règle (132-33) | P10 | délégué |
+| 9.38 | 1.11 | règles de sursis probatoire propres aux récidivistes abrogées (132-41 al. 3, 132-41-1 al. 2, 132-42) | P20 | délégué |
+| 9.39 | 1.11 | la dispense garde sa condition « sans condamnation antérieure » | P14 | délégué |
+| 9.40 | 1.16 | réduction pour discernement altéré facultative, y compris en matière criminelle | P4 | délégué |
+| 9.41 | 1.20 | exceptions de L4451-2 gardées (homicides involontaires, atteintes graves, délits politiques et de presse) | P24 | délégué |
+| 9.42 | 1.22 | interdiction d'exercer limitée à l'activité en cause ; toute la liste de 131-39 encourue pour tout crime ou délit (élargissement déclaré) | P20, P23 | délégué |
+| 9.43 | 1.22 | les articles qui portent une peine propre (confiscation, programme de conformité, dissolution de 434-47) la gardent ; 433-26 et 434-48 inchangés | P20 | délégué |
+| 9.44 | 2.1 | l'amende suit l'emprisonnement selon la correspondance du code, entre crochets | P27 | délégué |
+| 9.45 | 2.1 | 222-17 : [deux ans] pour la menace d'un crime, six mois pour la menace d'un délit | P27 | délégué |
+| 9.46 | 2.1 | 225-17 aggravé à [trois ans] ; 227-22-1 suivi d'une rencontre à [dix ans] | P27 | délégué |
+| 9.47 | 2.1 | 432-8 : [trois ans] pour la forme simple | P25 | délégué |
+| 9.48 | 2.1 | 225-12-1 : la majoration pour le mineur reste au second alinéa, pour que les renvois tiennent | P27 | délégué |
+| 9.49 | 2.2 | 227-23 : base à [dix ans] ; diffusion par réseau ouvert et bande organisée en crimes de [quinze] ans ; détention et consultation à cinq ans | P27 | délégué |
+| 9.50 | 2.2 | 225-12-2 : aggravations à [dix ans] pour le mineur, crime de [quinze] ans pour le mineur de quinze ans | P27 | délégué |
+| 9.51 | 2.4 | abrogation sèche des cinq délits, 226-17-1 compris ; perte possible pour les traitements de l'État, déclarée | P16 | délégué |
+| 9.52 | 2.5 | conservation et cession d'embryons au noyau ; cellules souches, gamètes et éléments en amende ; le fait commis malgré la suspension de l'autorité garde l'emprisonnement | P27 | délégué |
+| 9.53 | 2.6 | alignement vers le haut : 221-6 al. 2 à [sept ans], 222-19 al. 2 à [cinq ans], 434-42-1 à [trois ans] | P27 | délégué |
+| 9.54 | 2.7 | 226-3 et 226-18 ramenés à [un an] et [45 000] €, au rang de 226-1 ; écart déclaré avec 226-16, 226-19 et 226-21 (cinq ans) | P27 | délégué |
+| 9.55 | 2.3 | L3222-5 du CPP passe en amende délictuelle selon le barème, contre sa décision de lot | P27 | délégué |
+| 9.56 | 8.3 | registre de passe 1 construit au 1er janvier 2029 pour le code pénal et le code pénitentiaire, comme le jugement : 225-10-1 entre, 434-7-2, 133-4-1, 133-5, 133-6, 113-8-1 et L213-4 du code pénitentiaire sortent (sans version en 2029), leurs décisions de passe 2 sont retirées | P13 | délégué |
+| 9.57 | 8.4 | D4 : un renvoi vers un autre code ne compte que si le texte nomme ce code | P13 | délégué |
+| 9.58 | 2.8 | 49 articles qui n'incriminent rien sortent du barème (seuils de procédure, règles générales, circonstances aggravantes générales, articles hors barème), L3131-2 du CPP y entre ; barème de 1 212 délits | P27 | délégué |

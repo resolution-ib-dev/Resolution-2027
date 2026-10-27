@@ -90,10 +90,17 @@
     {
       "code": "penitentiaire",
       "num": "D211-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contenu du dossier d'orientation et transmission au directeur interrégional : les avis qu'il réunit sont des pièces d'information, pas des avis conformes.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P15",
+      "motif": "Registre 5.1 : l'avis du juge de l'application des peines sur l'affectation est gardé, dans un délai de [huit jours], comme à D211-22 et D211-28. Passé ce délai, le dossier d'orientation part sans cet avis : l'affectation n'attend pas. Contenu du dossier et transmission au directeur interrégional gardés.",
+      "ligne_rouge": "CEDH art. 8 examiné : l'affectation reste précédée de l'avis du juge de l'application des peines, rendu dans un délai borné ; la décision reste motivée et contestable",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "ainsi que la proposition du chef d'établissement.",
+          "nouveau": "ainsi que la proposition du chef d'établissement. Le juge de l'application des peines rend son avis dans un délai de [huit jours] à compter du jour où il en est informé. Passé ce délai, le dossier est transmis sans cet avis."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
