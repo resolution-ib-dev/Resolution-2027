@@ -10,15 +10,14 @@
     {
       "code": "penitentiaire",
       "num": "L631-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Concours de l'administration pénitentiaire au bracelet anti-rapprochement des personnes ni détenues ni condamnées : attribution propre, gardée. Le 2° renvoie à L. 3621-9 (comptes de plateforme en ligne) et L. 3621-17 (droit de visite) : coquilles du code de 2029, le bracelet du contrôle judiciaire est à L. 3621-8 et L. 3621-16.",
+      "principe": "P23",
+      "motif": "Concours au bracelet anti-rapprochement des personnes ni détenues ni condamnées : renvois corrigés en passe 2 (L. 3621-8 et L. 3621-16 du code de procédure pénale), une phrase.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "des articles L. 3621-9 et L. 3621-17 du code de procédure pénale",
-          "nouveau": "des articles L. 3621-8 et L. 3621-16 du code de procédure pénale"
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire concourt au dispositif électronique mobile anti-rapprochement porté par une personne ni détenue ni condamnée, en exécution d'une décision prise en application de l'article 515-11-1 du code civil ou des articles L. 3621-8 et L. 3621-16 du code de procédure pénale."
         }
       ]
     },
@@ -26,9 +25,10 @@
       "code": "penitentiaire",
       "num": "L632-1",
       "decision": "A",
-      "principe": "P3",
+      "principe": "P20",
       "motif": "Article miroir : l'article L. 3632-3 du code de procédure pénale, qu'il cite, porte la même règle (modification des horaires d'assignation par le chef d'établissement ou le directeur du service avec l'accord du juge d'instruction), vérifiée mot à mot, sans perte, et la borne en outre aux modifications favorables.",
-      "ligne_rouge": "art. 66 C examiné : l'accord préalable du juge d'instruction reste à L. 3632-3 du code de procédure pénale"
+      "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
