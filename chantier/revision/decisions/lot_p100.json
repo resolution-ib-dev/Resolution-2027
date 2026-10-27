@@ -10,26 +10,35 @@
     {
       "code": "penitentiaire",
       "num": "L731-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Application de plein droit à Saint-Martin, sous réserve des adaptations du titre : identité législative en matière pénitentiaire, des adaptations subsistent (L. 731-2).",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Clause d'application et table d'adaptations en un article : substitutions de la collectivité et du représentant de l'État (L. 731-2) et filet des renvois (L. 731-3).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent code s'applique à Saint-Martin. La collectivité y tient lieu de département, le représentant de l'État de préfet et de sous-préfet. Un renvoi à une disposition non applicable localement vise la disposition locale de même objet."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L731-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Substitution de la collectivité au département et du représentant de l'État au préfet : nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 731-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L731-1"
     },
     {
       "code": "penitentiaire",
       "num": "L731-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Clause générale de substitution des références non applicables localement : filet.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 731-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L731-1"
     }
-  ]
+  ],
+  "passe": 3
 }
