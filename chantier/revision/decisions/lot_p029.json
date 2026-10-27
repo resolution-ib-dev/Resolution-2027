@@ -10,80 +10,104 @@
     {
       "code": "cpp",
       "num": "R61",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Convocation, rappel des obligations, de la durée du suivi et de l'emprisonnement encouru en cas de manquement, médecin coordonnateur à voir dans le mois, procès-verbal émargé : la contrainte et sa sanction sont annoncées, la preuve est faite. Renvoi aux anciens 763-1 et 763-3 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : le suivi socio-judiciaire et l'emprisonnement qui le garantit sont fixés par la juridiction de jugement, l'article en organise l'exécution"
+      "motif": "Convocation, rappel des obligations, de la durée du suivi et de l'emprisonnement encouru, médecin coordonnateur dans le mois, procès-verbal émargé : gardés, resserrés. Les anciens 763-1 et 763-3 deviennent L. 5331-1 et L. 5331-4 (L. 5331-5 fusionné en p012).",
+      "ligne_rouge": "art. 8 DDHC examiné : la contrainte et sa sanction sont annoncées, la preuve en est faite, rien n'est retiré",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines qui contrôle le suivi socio-judiciaire (article L. 5331-1) convoque le condamné pour lui rappeler les obligations issues de la condamnation et lui notifier celles qu'il y ajoute (article L. 5331-4). Il lui fait connaître les conditions de leur contrôle, la durée du suivi et la durée maximale de l'emprisonnement encouru en cas de manquement (article 131-36-1 du code pénal).\nEn cas d'injonction de soins (article 131-36-4 du code pénal ou L. 5331-4), il lui indique le médecin coordonnateur qu'il a désigné et le délai, d'un mois au plus, dans lequel il doit le rencontrer.\nIl l'informe de même de toute modification de ses obligations. Un procès-verbal constate ces formalités. Le condamné l'émarge et en reçoit copie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R61-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "La décision de mise à exécution précise la durée d'emprisonnement à subir et vaut ordre d'écrou ; appel au greffe ou au chef d'établissement : exécution rapide, recours ouvert. Renvoi aux anciens 502 et 503 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : le suivi socio-judiciaire et l'emprisonnement qui le garantit sont fixés par la juridiction de jugement, l'article en organise l'exécution ; art. 16 DDHC examiné : appel ouvert, y compris depuis l'établissement"
-    },
-    {
-      "code": "cpp",
-      "num": "R61-2",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Le juge peut mettre fin à l'emprisonnement pour manquement quand le condamné est en mesure de respecter ses obligations : l'emprisonnement sert à faire exécuter le suivi, qui reprend. Seule la durée effectivement subie s'impute sur le plafond de L5331-21 : le reliquat reste mobilisable au manquement suivant, rien ne se perd. Renvoi à l'ancien 763-5 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : le suivi socio-judiciaire et l'emprisonnement qui le garantit sont fixés par la juridiction de jugement, l'article en organise l'exécution ; P10 examiné : le reliquat d'emprisonnement reste disponible jusqu'au plafond fixé par la juridiction"
+      "principe": "P23",
+      "motif": "Mise à exécution de l'emprisonnement du suivi et fin anticipée de celui-ci (R. 61-2 fusionné) : un article. Les anciens 502, 503 et 763-5 deviennent L. 4471-11, L. 4471-12 et L. 5331-19 (L. 5331-21 fusionné en p012).",
+      "ligne_rouge": "art. 8 DDHC examiné : décision précisant la durée, copie à l'avocat, appel ouvert, fin possible dès que le condamné peut respecter ses obligations, seule la durée subie s'impute",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La décision du juge de l'application des peines qui met à exécution l'emprisonnement prévu au troisième alinéa de l'article 131-36-1 du code pénal précise la durée à subir. Elle vaut ordre au chef de l'établissement pénitentiaire désigné de recevoir et de détenir le condamné. Copie en est remise au condamné et, le cas échéant, à son avocat. Le condamné peut en faire appel auprès du greffier du juge de l'application des peines ou auprès du chef de l'établissement pénitentiaire, dans les formes des articles L. 4471-11 et L. 4471-12.\nLe juge de l'application des peines peut, par ordonnance motivée, mettre fin à cet emprisonnement lorsque le condamné est en mesure de respecter ses obligations. Seule la durée d'emprisonnement effectivement subie s'impute sur le plafond de l'article L. 5331-19."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R61-3",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Dossier individuel tenu par le greffe, limité aux pièces nécessaires au suivi : outil du contrôle, court.",
-      "ligne_rouge": "art. 8 DDHC examiné : le suivi socio-judiciaire et l'emprisonnement qui le garantit sont fixés par la juridiction de jugement, l'article en organise l'exécution ; vie privée examinée : pièces limitées à ce que le suivi exige"
+      "motif": "Dossier individuel tenu par le greffe, limité aux pièces utiles au suivi : resserré.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) et art. 8 DDHC examinés : le dossier reste borné aux pièces nécessaires au suivi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le greffier du juge de l'application des peines tient un dossier individuel du condamné. Il contient les copies des pièces de la procédure de condamnation nécessaires au suivi, puis les rapports et les décisions établis pendant la mesure et, le cas échéant, pendant la peine privative de liberté."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R61-4",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Rappel des obligations avant la libération ou dans les huit jours, convocation remise avant la sortie, dossier transmis deux semaines avant au juge de la résidence : délais opposables, pas de rupture entre la détention et le suivi. Renvoi à l'ancien 763-7-1 à coordonner (L5331-10).",
-      "ligne_rouge": "aucune"
+      "motif": "Rappel des obligations avant la libération ou dans les huit jours, convocation remise avant la sortie, dossier transmis deux semaines avant : délais gardés, phrases resserrées. L'ancien 763-7-1 devient L. 5331-10.",
+      "ligne_rouge": "aucune garantie retirée : délais opposables gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le condamné détenu se voit rappeler ses obligations dans les jours qui précèdent sa libération ou dans les huit jours qui la suivent (article L. 5331-10), par le juge de l'application des peines chargé du suivi ou, sur sa délégation, par celui du lieu de détention.\nSi le rappel a lieu en détention, le juge chargé du suivi décide si le condamné sera convoqué, dans les huit jours de sa libération, devant lui ou devant le service pénitentiaire d'insertion et de probation, et en avise ce service. L'avis de convocation est remis au condamné avant sa libération, par ce service s'il est convoqué devant lui.\nSi le condamné fixe sa résidence hors du ressort du tribunal judiciaire de l'établissement, le juge du lieu de détention transmet le dossier individuel au juge compétent en temps utile et, sauf impossibilité, deux semaines au moins avant la libération."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R61-4-1",
-      "decision": "S",
       "principe": "P3",
-      "motif": "Après l'expertise de fin de peine qui conclut à la possibilité d'un traitement, l'injonction de soins s'applique sauf décision contraire (L5331-9, qui renvoie à L5331-5). La loi ne fixe pas la forme de cette décision : L5331-6 ne régit que la section 2. La même décision prise en cours de suivi (L5331-5) se rend par ordonnance, après audition et réquisitions, avec appel (L5331-6) : le décret s'aligne sur ce régime voisin (P3). Perte à dire : le débat contradictoire en chambre du conseil et l'appel en dix jours cèdent à l'audition et à un appel dans les vingt-quatre heures. Renvoi à l'ancien 763-3 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : audition, réquisitions et appel restent garantis par L5331-6, le débat contradictoire en chambre du conseil disparaît. CEDH art. 8 examiné : aucun traitement sans le consentement du condamné (L5331-5)",
+      "motif": "Après l'expertise de fin de peine, l'injonction de soins se constate ou s'écarte par ordonnance, comme la même décision prise en cours de suivi (passe 2). Perte déclarée en passe 2 : le débat contradictoire et l'appel en dix jours cèdent à l'audition et à l'appel dans les vingt-quatre heures. L'ancien 763-3 devient L. 5331-8, et L. 5331-6 se lit au troisième alinéa de L. 5331-4 (fusions en p012).",
+      "ligne_rouge": "art. 8 DDHC examiné : décision du juge, audition du condamné et appel gardés par le troisième alinéa de L. 5331-4",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par un jugement rendu selon les modalités prévues par l'article 712-6,",
-          "nouveau": "par ordonnance rendue selon les modalités prévues à l'article L. 5331-6,"
+          "op": "rediger",
+          "nouveau": "Lorsque l'expertise prévue à l'article L. 5331-8 établit que le condamné peut être traité, le juge de l'application des peines, par ordonnance rendue selon le troisième alinéa de l'article L. 5331-4, constate qu'il fera l'objet d'une injonction de soins ou décide expressément qu'il n'y a pas lieu à injonction de soins."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R61-5",
-      "decision": "S",
       "principe": "P10",
-      "motif": "Les périodes de permission, de semi-liberté, de placement extérieur et de détention à domicile ne s'imputent pas sur la durée du suivi : la mesure s'exécute en entier, gardé. Le juge pouvait écarter l'injonction de soins pendant tout aménagement, alors que la loi rend les obligations du suivi applicables en semi-liberté, placement extérieur, détention à domicile, suspension et fractionnement (L5331-7) : la dispense se limite à la permission de sortir, que la loi ne vise pas, en raison de sa brièveté. Renvoi à l'ancien 763-5 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : le suivi socio-judiciaire et l'emprisonnement qui le garantit sont fixés par la juridiction de jugement, l'article en organise l'exécution ; CEDH art. 8 examiné : l'injonction de soins reste soumise au consentement du condamné (L5331-5)",
+      "motif": "Les périodes d'aménagement ne s'imputent pas sur le suivi, l'injonction de soins ne s'écarte que pour une permission de sortir (passe 2), la sanction de la mesure d'aménagement passe avant l'emprisonnement du suivi. L'ancien 763-5 devient L. 5331-19.",
+      "ligne_rouge": "art. 8 DDHC examiné : la mesure s'exécute en entier, la dispense de soins reste bornée à la permission de sortir",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "incompatible avec la mesure d'aménagement dont bénéficie l'intéressé, notamment en raison de la brièveté de la sortie de l'établissement pénitentiaire.",
-          "nouveau": "incompatible avec une permission de sortir, en raison de sa brièveté."
+          "op": "rediger",
+          "nouveau": "Lorsque le suivi accompagne une peine privative de liberté, les périodes de permission de sortir, de semi-liberté, de placement à l'extérieur et de détention à domicile sous surveillance électronique ne s'imputent pas sur sa durée. Le juge de l'application des peines peut écarter l'injonction de soins pendant une permission de sortir, en raison de sa brièveté.\nLe manquement aux obligations du suivi pendant l'une de ces mesures est d'abord sanctionné selon les règles de la mesure, avant l'éventuel emprisonnement de l'article L. 5331-19."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R61-6",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Cumul possible du suivi socio-judiciaire avec un sursis probatoire ou une libération conditionnelle : les contrôles s'ajoutent, aucun ne s'efface.",
-      "ligne_rouge": "aucune"
+      "motif": "Cumul du suivi avec un sursis probatoire ou une libération conditionnelle : les contrôles s'ajoutent.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "R61-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fin de l'emprisonnement pour manquement : réunie dans R. 61-1.",
+      "ligne_rouge": "art. 8 DDHC examiné : la faculté du juge de mettre fin à l'emprisonnement et l'imputation de la seule durée subie sont tenues à R. 61-1",
+      "vers": "R61-1"
     }
-  ]
+  ],
+  "passe": 3
 }
