@@ -19402,6 +19402,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/passe3/lot1_L5_livre2_titre5",
+   "chemin": "revision/passe3/lot1_L5_livre2_titre5.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/passe3/lot1_L5_livre2_titre5.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/passe3/lot_p045",
    "chemin": "revision/passe3/lot_p045.json",
    "rang": "methode",
@@ -21031,6 +21045,7 @@
    "revision/decisions/lot_p334.json",
    "revision/fiches_penal.json",
    "revision/grille_principes.json",
+   "revision/passe3/lot1_L5_livre2_titre5.json",
    "revision/passe3/lot_p045.json",
    "revision/passe3/lot_p046.json",
    "revision/passe3/lot_p047.json",
@@ -21257,9 +21272,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1369,
-  "au_coffre": 1308,
-  "au_depot": 850,
+  "artefacts": 1370,
+  "au_coffre": 1309,
+  "au_depot": 851,
   "derives": 275,
   "sources": 48,
   "non_restaurables": 16,
