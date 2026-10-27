@@ -10,186 +10,209 @@
     {
       "code": "cpp",
       "num": "L5321-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le sursis probatoire soumet le condamné aux mesures de contrôle et aux obligations fixées au jugement ou par le juge ensuite : la peine s'exécute hors les murs.",
-      "ligne_rouge": "art. 8 DDHC examiné : les obligations se fixent au prononcé, le juge de l'application des peines les complète par ordonnance (L5131-10)"
-    },
-    {
-      "code": "cpp",
-      "num": "L5321-10",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Avis à la victime de la fin de la probation quand le condamné doit l'éviter : information de la victime (P18), tenue. Reçoit l'exception de L5321-11 : un seul article.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Contenu du sursis probatoire et ce qu'il ne couvre pas (L5321-2) en un article. L'ordonnance du juge suit L5131-10, règle générale.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la peine prononcée s'exécute hors les murs, les obligations viennent du jugement ou du juge.",
+      "decision": "R",
       "operations": [
         {
-          "op": "ajouter_alinea",
-          "nouveau": "Cet avis n'est pas adressé lorsque la victime ou la partie civile a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine."
+          "op": "rediger",
+          "nouveau": "Lorsqu'une peine d'emprisonnement est assortie du sursis probatoire en application des articles 132-40 à 132-57 du code pénal, le condamné satisfait, pendant le délai de probation, aux mesures de contrôle prévues à l'article 132-44 du même code et aux obligations particulières prévues à l'article 132-45 du même code que lui impose la décision de condamnation ou, à tout moment, même pendant une incarcération, le juge de l'application des peines.\nLe sursis probatoire ne s'étend ni aux incapacités, interdictions et déchéances résultant de plein droit de la condamnation ou prononcées à titre de peine complémentaire, ni au paiement des dommages-intérêts."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5321-11",
-      "decision": "F",
-      "principe": "P20",
-      "motif": "L'exception à l'avis de L5321-10, à la demande de la victime, passe mot pour mot dans cet article, dont elle devient le dernier alinéa. Les renvois à l'ancien 745 (D49-64, D49-66, D49-67, D546, L621-2 du code pénitentiaire) restent servis par L5321-10. Le renvoi au deuxième alinéa de l'ancien 745 (D49-72) est à coordonner vers le dernier alinéa de L. 5321-10.",
-      "ligne_rouge": "P18 examiné : la volonté de la victime de ne pas être avisée est gardée dans L5321-10 ; art. 8 DDHC non en jeu (avis, non peine)",
-      "vers": "L5321-10"
-    },
-    {
-      "code": "cpp",
-      "num": "L5321-2",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Le sursis ne couvre ni les incapacités, interdictions et déchéances, ni les dommages-intérêts : la simplification ne fait perdre ni peine complémentaire ni créance de la victime.",
-      "ligne_rouge": "art. 8 DDHC examiné : les peines complémentaires prononcées s'exécutent"
     },
     {
       "code": "cpp",
       "num": "L5321-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Contrôle par le juge compétent (L2141-8), convocations, mandats : procédure pénale, de l'art. 34. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5321-4",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La personne qui suivait le contrôle judiciaire peut suivre la probation : continuité, sans nouvel intervenant.",
-      "ligne_rouge": "art. 66 C examiné : l'article ne prive pas de liberté, le juge de l'application des peines désigne et contrôle"
-    },
-    {
-      "code": "cpp",
-      "num": "L5321-5",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Coordination de 132-41-1 simplifié (registre 1.11) : numérotation des alinéas.",
+      "principe": "P23",
+      "motif": "Contrôle et continuité avec le contrôle judiciaire (L5321-4) en un article. Le mandat contre le condamné défaillant relève de L5124-1 et L5124-3, règles générales.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "du troisième alinéa de l'article 132-41-1 du code pénal",
-          "nouveau": "du deuxième alinéa de l'article 132-41-1 du code pénal"
+          "op": "rediger",
+          "nouveau": "Le condamné est placé sous le contrôle du juge de l'application des peines territorialement compétent selon l'article L. 2141-8, qui s'assure, par lui-même ou par toute personne qualifiée, de l'exécution des mesures et des obligations imposées. Le condamné se présente devant le juge chaque fois qu'il en est requis.\nLorsque le condamné était placé sous contrôle judiciaire, le juge peut charger la personne qui le suivait de veiller au respect des obligations, à la place du service pénitentiaire d'insertion et de probation."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L5321-6",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Délai de quatre mois, ordonnance motivée, avertissement des conséquences : délai opposable, tenu. Le renvoi au deuxième alinéa de L5321-5, qui ne prend aucune décision, est une coquille du code de 2029 (apostrophe typographique fautive comprise). Il vise la fixation (premier alinéa) et la modification (troisième alinéa) : l'ancien 741-2 soumettait à ce régime la fixation comme la modification des obligations.",
-      "ligne_rouge": "art. 16 DDHC examiné : réquisitions écrites, observations du condamné et de son avocat, information sur le droit de refuser le travail d'intérêt général, tenues pour la fixation comme pour la modification des obligations",
+      "num": "L5321-5",
+      "principe": "P23",
+      "motif": "Fixation des obligations du suivi renforcé (texte de la passe 2) et sa procédure (L5321-6, renvoi corrigé par la passe 2 vers la fixation et la modification) en un article.",
+      "ligne_rouge": "art. 16 DDHC : réquisitions, observations du condamné et de l'avocat, ordonnance motivée et droit de refuser le travail d'intérêt général gardés. Délai de quatre mois opposable.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "La décision prévue au deuxième alinéa de l‘article L. 5321-5",
-          "nouveau": "La décision prévue au premier ou au troisième alinéa de l'article L. 5321-5"
+          "op": "rediger",
+          "nouveau": "Lorsque la juridiction a prononcé un sursis probatoire renforcé sans faire application du deuxième alinéa de l'article 132-41-1 du code pénal, le juge de l'application des peines détermine les obligations, les interdictions et les mesures d'aide, au vu du rapport du service pénitentiaire d'insertion et de probation. Si la juridiction les a fixées, il peut toujours les modifier, les supprimer ou les compléter.\nIl statue dans les quatre mois du jugement de condamnation ou, si le condamné était absent à l'audience, de sa notification, par ordonnance motivée, après réquisitions écrites du procureur de la République et après avoir entendu les observations du condamné et, le cas échéant, de son avocat. Avant d'imposer un travail d'intérêt général, il informe le condamné de son droit de le refuser et reçoit sa réponse. Il lui notifie l'ordonnance et l'avertit des conséquences d'une nouvelle infraction ou d'un manquement pendant le délai de probation."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5321-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Réévaluation au moins annuelle et adaptation des obligations : délai opposable. La situation sociale sert ici le régime d'exécution, non le quantum.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée reste entière, seules les obligations s'adaptent"
-    },
-    {
-      "code": "cpp",
-      "num": "L5321-8",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Le juge peut ordonner un suivi renforcé en cours de probation : soupape vers la forme lourde au cas par cas.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Réévaluation annuelle et suivi renforcé décidé en cours de probation (L5321-8) en un article.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : réévaluation au moins annuelle gardée. La situation du condamné sert le régime d'exécution, pas le quantum.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service pénitentiaire d'insertion et de probation réévalue la situation du condamné chaque fois que nécessaire, et au moins une fois par an. Au vu de chaque évaluation, le juge de l'application des peines peut, par ordonnance et après avoir entendu les observations du condamné et, le cas échéant, de son avocat, modifier, compléter ou supprimer ses obligations et interdictions, ou mettre fin au suivi renforcé si sa personnalité et sa situation ne le justifient plus.\nLorsque la juridiction n'a pas prononcé de sursis probatoire renforcé, le juge peut l'ordonner à tout moment dans les mêmes formes si la personnalité du condamné le justifie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5321-9",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Convocation remise avant la libération, dans huit jours ou un mois : délais opposables, pas de rupture entre détention et probation.",
-      "ligne_rouge": "art. 8 DDHC examiné : exécution de la peine prononcée, sans modulation"
+      "principe": "P23",
+      "motif": "Même règle, délais gardés, phrases allégées.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : délais opposables de huit jours et d'un mois gardés, pas de rupture entre détention et probation.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le condamné incarcéré pour une peine assortie pour partie du sursis probatoire reçoit, avant sa libération, une convocation devant le service pénitentiaire d'insertion et de probation, qui est alors saisi de la mesure. La date de convocation est fixée dans les huit jours de la libération si la personne est ou a été condamnée pour une infraction pour laquelle le suivi socio-judiciaire est encouru, dans le mois dans les autres cas."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L5322-1",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Renvoi déclaratif aux articles 132-52 et 132-53 du code pénal, qui portent la règle du non-avenu : miroir d'un autre code, la règle vit à sa source. Aucun renvoi entrant dans le code de 2029.",
-      "ligne_rouge": "aucune"
+      "num": "L5321-10",
+      "principe": "P18",
+      "motif": "Texte de la passe 2 (reçoit L5321-11), énumération fondue dans la phrase. L'exception reste au dernier alinéa, que vise le renvoi de D49-72 à coordonner.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines ou le service pénitentiaire d'insertion et de probation avise la victime ou la partie civile, directement ou par son avocat, de la date de fin de la probation lorsque le condamné est tenu, en application des 9°, 13° et 18° bis de l'article 132-45 du code pénal, de ne pas paraître dans un lieu ou une zone désigné pour l'éviter ou de ne pas entrer en relation avec elle.\nCet avis n'est pas adressé lorsque la victime ou la partie civile a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5322-2",
-      "decision": "R",
       "principe": "P10",
-      "motif": "Le non-avenu anticipé rémunère un effort (obligations tenues, reclassement acquis), mais il pouvait tomber après un an sur trois, voire sur cinq ou sept en récidive. Il s'ouvre au plus tôt [aux deux tiers] du délai de probation, l'an minimal gardé. La victime est avisée et peut écrire au juge (P18).",
-      "ligne_rouge": "art. 8 DDHC examiné : la faculté du juge de déclarer non avenu reste entière, ouverte plus tard ; CP 132-53 vise encore l'ancien 744, coordination inchangée",
+      "motif": "Texte de la passe 2 (non-avenu anticipé au plus tôt [aux deux tiers], victime avisée), phrases allégées ; le jugement suit L5131-3, règle générale.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : le non-avenu anticipé rémunère l'effort, il n'intervient qu'après [les deux tiers] de la probation.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "devenue définitive.Sa décision",
-          "nouveau": "devenue définitive ni avant l'expiration [des deux tiers] du délai de probation.Sa décision"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "conformément aux dispositions de l'article L. 5131-3.",
-          "nouveau": "conformément aux dispositions de l'article L. 5131-3. La victime ou la partie civile est avisée de la saisine du juge, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine. Elle peut adresser ses observations au juge avant le jugement."
+          "op": "rediger",
+          "nouveau": "Si le condamné satisfait aux mesures et obligations qui lui sont imposées et si son reclassement paraît acquis, le juge de l'application des peines peut, par jugement, déclarer non avenue la condamnation. Il ne peut être saisi ou se saisir à cette fin ni avant un an à compter du jour où la condamnation est devenue définitive, ni avant l'expiration [des deux tiers] du délai de probation.\nLa victime ou la partie civile est avisée de la saisine du juge, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine. Elle peut adresser ses observations au juge avant le jugement."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5322-3",
-      "decision": "G",
       "principe": "P6",
-      "motif": "Les incapacités de plein droit cessent avec le non-avenu, sauf l'interdiction d'activité au contact de mineurs : protection gardée.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'interdiction au contact des mineurs survit au non-avenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L5322-4",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Les peines complémentaires définitives ne cessent que quarante ans après le non-avenu : la simplification ne les efface pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine complémentaire prononcée garde son effet"
-    },
-    {
-      "code": "cpp",
-      "num": "L5322-5",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Prolongation de la probation en cas de manquement ou de nouvelle condamnation : sanction effective. Le plafond de trois ans au total, hérité de l'ancien 742, ne suit pas les délais de récidive de CP 132-42 (cinq et sept ans) : point à arbitrer, signalé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5322-6",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Révocation par le juge de l'application des peines, selon CP 132-49 à 132-51 : tenue, et de l'art. 34. Le renvoi à L. 5313-5, absent du code de 2029, est une coquille pour L. 5322-5, dont la phrase reprend les cas et les modalités.",
-      "ligne_rouge": "aucune",
+      "motif": "Effets du non-avenu sur les incapacités de plein droit et sur les peines complémentaires définitives (L5322-4) en un article.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : l'interdiction d'activité au contact de mineurs et les peines complémentaires définitives restent opposables, délai de quarante ans gardé.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'article L. 5313-5",
-          "nouveau": "l'article L. 5322-5"
+          "op": "rediger",
+          "nouveau": "Les incapacités, interdictions et déchéances résultant de plein droit de la condamnation cessent d'avoir effet du jour où la condamnation est réputée ou déclarée non avenue. Cette règle ne s'applique pas à l'interdiction d'exercer une activité professionnelle ou bénévole impliquant un contact habituel avec des mineurs.\nPrononcées comme peine complémentaire et à titre définitif, les incapacités, interdictions et déchéances cessent d'avoir effet quarante ans après le jour où la condamnation a été réputée ou déclarée non avenue."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L5322-7",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Prolongation ou révocation possibles après le terme pour un motif né pendant la probation : le manquement ne s'efface pas par l'écoulement du temps.",
+      "num": "L5322-5",
+      "principe": "P23",
+      "motif": "Sanction du manquement en un article : prolongation, révocation (L5322-6, renvoi corrigé par la passe 2) et décision après le terme (L5322-7). Le plafond de trois ans hérité de l'ancien 742 est gardé, son alignement sur 132-42 du code pénal reste signalé (passe 2).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le condamné ne se soumet pas aux mesures de contrôle ou aux obligations particulières qui lui sont imposées, ou lorsqu'il a été condamné pour une infraction sans que la révocation du sursis ait été prononcée, le juge de l'application des peines peut, d'office ou sur réquisitions du parquet, par jugement motivé, prolonger le délai de probation ou révoquer le sursis en tout ou partie dans les conditions prévues aux articles 132-49 à 132-51 du code pénal. La probation prolongée ne peut excéder trois ans au total.\nCes décisions peuvent être prises après l'expiration du délai de probation lorsque leur motif est survenu pendant ce délai."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5321-2",
+      "decision": "F",
+      "principe": "P6",
+      "motif": "Ce que le sursis ne couvre pas, repris au second alinéa de L5321-1.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : le sursis n'efface ni peine complémentaire ni créance de la victime, gardé à L5321-1.",
+      "vers": "L5321-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5321-4",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Désignation de la personne qui suivait le contrôle judiciaire, reprise au second alinéa de L5321-3.",
+      "ligne_rouge": "art. 66 C : l'article ne touche aucune privation de liberté, il désigne qui veille aux obligations ; règle gardée à L5321-3.",
+      "vers": "L5321-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5321-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procédure et délai de quatre mois, repris au second alinéa de L5321-5. Le point de départ pour le condamné absent, que D546-4 posait, remonte à la loi (un décret ne peut allonger le délai légal).",
+      "ligne_rouge": "aucune",
+      "vers": "L5321-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L5321-8",
+      "decision": "F",
+      "principe": "P7",
+      "motif": "Suivi renforcé ordonné en cours de probation, repris au second alinéa de L5321-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L5321-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L5321-11",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Exception à l'avis, reprise mot pour mot au dernier alinéa de L5321-10 (passe 2).",
+      "ligne_rouge": "P18 : la victime garde la maîtrise de son information, gardée à L5321-10.",
+      "vers": "L5321-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L5322-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Renvoi déclaratif aux articles 132-52 et 132-53 du code pénal, qui portent la règle du non-avenu (passe 2).",
       "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L5322-4",
+      "decision": "F",
+      "principe": "P6",
+      "motif": "Peines complémentaires définitives, reprises au second alinéa de L5322-3.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : délai de quarante ans gardé à L5322-3.",
+      "vers": "L5322-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5322-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Révocation par le juge de l'application des peines, reprise au premier alinéa de L5322-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L5322-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L5322-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Décision après le terme pour un motif né pendant la probation, reprise au second alinéa de L5322-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L5322-5"
     }
-  ]
+  ],
+  "passe": 3
 }
