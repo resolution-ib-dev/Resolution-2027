@@ -10,16 +10,30 @@
     {
       "code": "penitentiaire",
       "num": "L511-1",
-      "decision": "G",
+      "principe": "P1",
+      "motif": "Élection de domicile près du lieu du projet d'insertion : gardée, une phrase. Le renvoi au décret en Conseil d'État tombe, le pouvoir réglementaire d'exécution suffit.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour préparer leur sortie, les personnes détenues peuvent élire domicile, au sens de l'article L. 264-1 du code de l'action sociale et des familles, auprès du centre communal ou intercommunal d'action sociale ou de l'organisme agréé le plus proche du lieu où elles recherchent une activité d'insertion ou du lieu d'implantation d'un établissement de santé ou médico-social susceptible de les accueillir."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L512-2",
       "principe": "P21",
-      "motif": "Élection de domicile des détenus près du lieu de leur projet d'insertion : l'article L. 264-1 du code de l'action sociale et des familles ne vise que les personnes sans domicile stable et ne porte pas ce choix. Règle propre, qui conditionne l'accès aux droits civils et sociaux : elle relève de la loi. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "motif": "Communication de l'adresse des condamnés à trois ans au moins : déjà sobre.",
+      "ligne_rouge": "art. 8 DDHC examiné : mesure d'information des forces de sécurité à la libération, sans effet sur la peine prononcée.",
+      "decision": "G"
     },
     {
       "code": "penitentiaire",
       "num": "L511-2",
       "decision": "A",
-      "principe": "P3",
+      "principe": "P20",
       "motif": "Article miroir : les articles L. 3641-14, L. 4471-13, L. 6133-24 et L. 6232-24 du code de procédure pénale, qu'il cite, portent chacun la déclaration d'adresse recueillie par le chef d'établissement et transmise à l'autorité judiciaire, vérifiée mot à mot, sans perte.",
       "ligne_rouge": "aucune"
     },
@@ -27,9 +41,9 @@
       "code": "penitentiaire",
       "num": "L511-3",
       "decision": "A",
-      "principe": "P3",
+      "principe": "P20",
       "motif": "Article miroir : l'article L. 5321-9 du code de procédure pénale (avis de convocation remis avant la libération, qui saisit le service), qu'il cite, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois. Les délais de huit jours et d'un mois n'y figurent qu'à la source.",
-      "ligne_rouge": "art. 8 DDHC examiné : la règle reste entière dans le code de procédure pénale, l'abrogation ne touche ni la peine ni la modulation au prononcé"
+      "ligne_rouge": "art. 8 DDHC examiné : la convocation devant le service et la saisine valent à la source, L. 5321-9 du code de procédure pénale. Aucune perte pour la peine prononcée."
     },
     {
       "code": "penitentiaire",
@@ -37,21 +51,13 @@
       "decision": "A",
       "principe": "P18",
       "motif": "Article miroir de l'article L. 5133-4 du code de procédure pénale, qui porte l'information de la victime sur la libération. Le lot p002 a ouvert cette information à toute victime qui la demande : l'article, qui la réserve encore aux infractions de L. 1721-2, contredirait la source. Il tombe, la règle vit à L. 5133-4.",
-      "ligne_rouge": "P18 examiné : l'information de la victime est gardée et élargie à L. 5133-4 du code de procédure pénale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L512-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Communication à la police ou à la gendarmerie de l'adresse des condamnés à trois ans au moins, à leur libération : règle propre, protection des personnes.",
-      "ligne_rouge": "art. 8 DDHC examiné : information des forces de sécurité, sans effet sur la peine ; vie privée (art. 2 DDHC) : transmission prévue par la loi et bornée par le seuil"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L512-3",
       "decision": "A",
-      "principe": "P3",
+      "principe": "P20",
       "motif": "Article miroir : le 3° de l'article L. 6421-7 du code de procédure pénale (enregistrement par le greffe pénitentiaire de la date de libération et de l'adresse au fichier des auteurs d'infractions terroristes), qu'il cite, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
       "ligne_rouge": "aucune"
     },
@@ -59,7 +65,7 @@
       "code": "penitentiaire",
       "num": "L512-4",
       "decision": "A",
-      "principe": "P3",
+      "principe": "P20",
       "motif": "Article miroir : le 3° de l'article L. 6411-9 du code de procédure pénale porte la même règle (enregistrement par le greffe pénitentiaire de la date de libération et de l'adresse au fichier des auteurs d'infractions sexuelles ou violentes), vérifiée mot à mot, sans perte. L'article renvoie à tort à L. 6411-8 (mineurs) : renvoi mort, qui tombe avec lui.",
       "ligne_rouge": "aucune"
     },
@@ -67,9 +73,10 @@
       "code": "penitentiaire",
       "num": "L513-1",
       "decision": "A",
-      "principe": "P3",
+      "principe": "P20",
       "motif": "Article miroir : l'article L. 161-13-1 du code de la sécurité sociale, qu'il cite, porte lui-même le retour aux droits ouverts avant l'écrou, vérifié mot à mot, sans perte : miroir d'un autre code. Il visait en outre L. 381-30 de ce code, abrogé (l'affiliation des écroués est à L. 382-33) : renvoi mort. La source, L. 161-13-1 du code de la sécurité sociale, vise elle-même L. 381-30, absent du code : renvoi à coordonner dans ce code (L. 382-33). Renvoi entrant R. 513-1, abrogé au lot p127.",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
