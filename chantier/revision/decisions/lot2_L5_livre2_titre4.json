@@ -10,219 +10,334 @@
     {
       "code": "cpp",
       "num": "L5241-1",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Ouvre la libération conditionnelle, mesure au mérite que la réécriture garde comme seule voie de sortie anticipée (le titre V est abrogé).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5241-2",
+      "motif": "Ouverture et conditions de la libération conditionnelle en un article (L5241-2 fusionné). L'indemnisation des victimes, lorsqu'elle est due, reste une condition cumulative (passe 2). La finalité déclarative tombe (P20).",
+      "ligne_rouge": "art. 8 DDHC : l'aménagement à l'exécution relève de la loi ; la mesure au mérite reste ouverte à tout condamné",
       "decision": "R",
-      "principe": "P10",
-      "motif": "L'indemnisation de la victime n'est qu'une option parmi cinq : elle devient une condition cumulative, lorsqu'une indemnisation est due. Liste réécrite sans point-virgule.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite ; CEDH art. 3 examiné : la libération médicale (L5241-7) ne dépend pas de l'indemnisation, qui n'est exigée que si elle est due",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La libération conditionnelle peut être accordée à la personne condamnée qui manifeste des efforts sérieux de réinsertion, qui justifie, lorsqu'une indemnisation est due aux victimes, de ses efforts pour les indemniser et qui justifie en outre :\n1° Soit de l'exercice d'une activité professionnelle, d'un stage ou d'un emploi temporaire, ou de son assiduité à un enseignement ou à une formation professionnelle.\n2° Soit de sa participation essentielle à la vie de sa famille.\n3° Soit de la nécessité de suivre un traitement médical.\n4° Soit de son implication dans tout autre projet sérieux d'insertion ou de réinsertion."
+          "nouveau": "La personne condamnée à une ou plusieurs peines privatives de liberté peut obtenir une libération conditionnelle si elle manifeste des efforts sérieux de réinsertion et justifie :\n1° Soit d'une activité professionnelle, d'un stage, d'un emploi temporaire, ou de son assiduité à un enseignement ou à une formation professionnelle.\n2° Soit de sa participation essentielle à la vie de sa famille.\n3° Soit de la nécessité de suivre un traitement médical.\n4° Soit de son implication dans tout autre projet sérieux d'insertion ou de réinsertion.\nLorsqu'une indemnisation est due aux victimes, elle justifie en outre de ses efforts pour les indemniser."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5241-3",
-      "decision": "R",
       "principe": "P10",
-      "motif": "Le temps d'épreuve à mi-peine fait d'une libération au mérite une remise de moitié. Il passe à une fraction de la peine prononcée, à fixer par l'auteur et annoncée au prononcé.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite",
+      "motif": "Temps d'épreuve aux [deux tiers] de la peine prononcée (passe 2), rédigé en deux points.",
+      "ligne_rouge": "art. 8 DDHC examiné : la fraction se fixe dans la loi et s'annonce au prononcé ; la perpétuité garde un temps d'épreuve fixe et un réexamen (CC 93-334 DC, 20 janv. 1994)",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "d'une durée égale à la durée de la peine restant à subir",
-          "nouveau": "d'une durée égale [aux deux tiers] de la peine prononcée"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "vingt années ;",
-          "nouveau": "vingt années."
+          "op": "rediger",
+          "nouveau": "Sous réserve de la période de sûreté prévue à l'article 132-23 du code pénal, la libération conditionnelle n'est accordée qu'après un temps d'épreuve égal :\n1° Pour une peine à temps, [aux deux tiers] de la peine prononcée, sans excéder quinze ans ou, en état de récidive légale, vingt ans.\n2° Pour la réclusion criminelle à perpétuité, à dix-huit ans ou, en état de récidive légale, à vingt-deux ans."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5241-4",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Les réductions de temps d'épreuve suivent le régime des réductions de peine (titre II, lot à venir), qui les attache à un effort. Renvoi à coordonner avec ce lot.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite"
-    },
-    {
-      "code": "cpp",
-      "num": "L5241-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Libération après soixante-dix ans, sous réserve d'ordre public et de risque de récidive : elle répond à l'interdiction des traitements inhumains pour les très longues peines.",
-      "ligne_rouge": "CEDH art. 3 examiné : garde-fou des très longues peines, tenu"
+      "principe": "P23",
+      "motif": "Réductions du temps d'épreuve des perpétuités, phrases resserrées, plafonds inchangés. Les réductions exceptionnelles sont dites à L5224-15 et L5224-18 (lot p005) : le rappel tombe.",
+      "ligne_rouge": "art. 8 DDHC examiné : réductions décidées par le juge, plafonnées, imputées hors période de sûreté",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée à la réclusion criminelle à perpétuité peut obtenir des réductions du temps d'épreuve, accordées comme les réductions de peine. Elles n'excèdent pas, par année d'incarcération, un mois, ou vingt jours en état de récidive légale. Elles ne s'imputent que sur la partie de la peine qui excède la période de sûreté prévue à l'article 132-23 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5241-6",
-      "decision": "R",
       "principe": "P10",
-      "motif": "La situation familiale relève du régime d'exécution, non du quantum : elle avance la libération sans effacer tout le temps d'épreuve. Seuil de peine et fraction à arbitrer.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite ; CEDH art. 8 et intérêt de l'enfant examinés : la libération parentale reste ouverte, avancée de moitié",
+      "motif": "Libération parentale à [la moitié] du temps d'épreuve, peine de [deux ans] au plus (passe 2), phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : la situation familiale avance la libération sans effacer le temps d'épreuve ; exclusion des crimes et délits sur mineur gardée",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sans que soit respecté le temps d'épreuve prévu à l'article L. 5241-3",
-          "nouveau": "à l'issue de [la moitié] du temps d'épreuve prévu à l'article L. 5241-3"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "si la peine prononcée ou la durée de la peine restant à subir est inférieure ou égale à quatre ans",
-          "nouveau": "si la peine prononcée est inférieure ou égale à [deux ans]"
+          "op": "rediger",
+          "nouveau": "Lorsque la personne condamnée exerce l'autorité parentale sur un enfant de moins de dix ans qui réside habituellement chez elle, ou s'il s'agit d'une femme enceinte de plus de douze semaines, la libération conditionnelle peut être accordée à l'issue de [la moitié] du temps d'épreuve si la peine prononcée n'excède pas [deux ans]. Le présent article ne s'applique pas à la personne condamnée pour un crime ou pour un délit commis sur un mineur."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5241-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Libération après suspension médicale, sur nouvelle expertise : garde-fou contre la détention incompatible avec l'état de santé.",
-      "ligne_rouge": "CEDH art. 3 examiné : détention incompatible avec l'état de santé, tenu"
+      "principe": "P23",
+      "motif": "Les deux cas de libération sans temps d'épreuve en un article : plus de soixante-dix ans (L5241-5 fusionné) et suite d'une suspension médicale. Le numéro cité par L5223-1 est gardé.",
+      "ligne_rouge": "CEDH art. 3 examiné : la libération des personnes âgées et des malades incompatibles avec la détention reste ouverte, période de sûreté comprise pour le 2°",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La libération conditionnelle peut être accordée sans condition de temps d'épreuve :\n1° À la personne âgée de plus de soixante-dix ans dont l'insertion ou la réinsertion est assurée, notamment par une prise en charge adaptée ou un hébergement, sauf risque de trouble grave à l'ordre public ou risque grave de renouvellement de l'infraction.\n2° À la personne qui a bénéficié d'une suspension de peine pour raisons médicales graves en application de l'article L. 5142-9, lorsqu'une nouvelle expertise, faite un an après la suspension, établit que son état de santé physique ou mentale reste durablement incompatible avec la détention et qu'elle justifie d'une prise en charge adaptée. Cette libération peut intervenir pendant la période de sûreté."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5241-8",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Libération subordonnée à l'éloignement de l'étranger, sans son consentement. Reçoit le cas de L5252-2 (lot 1), qu'il porte déjà mot pour mot.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite"
+      "motif": "Libération subordonnée à l'éloignement, sans consentement : reçoit L5252-2 (lot 1), liste des mesures gardée entière.",
+      "ligne_rouge": "art. 8 DDHC examiné : la mesure d'éloignement est exécutée, la libération reste décidée par le juge",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve de l'article L. 5243-9, la libération conditionnelle de la personne étrangère qui fait l'objet d'une interdiction judiciaire ou administrative du territoire français, d'une obligation de quitter le territoire français, d'une interdiction de retour ou de circulation sur le territoire français, d'une expulsion, d'une extradition ou d'une remise sur le fondement d'un mandat d'arrêt européen est subordonnée à l'exécution de cette mesure. Elle peut être décidée sans le consentement de la personne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5241-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Refus du traitement : pas de libération. Protège les victimes potentielles, nécessité établie.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Refus du traitement : pas de libération. Rédaction en trois points sans point-virgule.",
+      "ligne_rouge": "aucune ligne rouge : condition d'octroi d'une mesure d'aménagement",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La libération conditionnelle ne peut être accordée à la personne condamnée pour un crime ou un délit pour lequel le suivi socio-judiciaire est encouru qui refuse pendant son incarcération le traitement que lui propose le juge de l'application des peines en application des articles L. 5226-4 et L. 5226-5, qui ne le suit pas régulièrement selon l'information reçue par le juge, ou qui ne s'engage pas à suivre après sa libération le traitement proposé en application de l'article L. 5243-7."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5242-1",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Répartition de la décision entre juge et tribunal de l'application des peines, par jugement : acte juridictionnel.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite"
-    },
-    {
-      "code": "cpp",
-      "num": "L5242-2",
+      "motif": "Répartition entre juge et tribunal de l'application des peines, par jugement : seuils gardés, renvoi aux cas réservés au tribunal (L5242-5).",
+      "ligne_rouge": "art. 8 DDHC examiné : décision juridictionnelle après débat contradictoire (L5131-3)",
       "decision": "R",
-      "principe": "P18",
-      "motif": "La partie civile n'est entendue qu'au-delà de cinq ans de peine et par son avocat. La victime est avisée de toute demande et peut être entendue elle-même.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Lorsque la demande de libération conditionnelle concerne une personne condamnée à une peine d'emprisonnement égale ou supérieure à cinq ans ou à une peine de réclusion, l'avocat de la partie civile peut, s'il en fait la demande, assister",
-          "nouveau": "La victime ou la partie civile est avisée par la juridiction de l'application des peines de tout examen d'une libération conditionnelle, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine. Elle-même ou son avocat peut, à sa demande, assister"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Il peut y faire valoir",
-          "nouveau": "Elle-même ou son avocat peut y faire valoir"
+          "op": "rediger",
+          "nouveau": "La libération conditionnelle est accordée par jugement rendu conformément à l'article L. 5131-3 :\n1° Par le juge de l'application des peines lorsque la peine prononcée n'excède pas dix ans ou que la détention restant à subir n'excède pas trois ans.\n2° Par le tribunal de l'application des peines dans les autres cas et dans ceux de l'article L. 5242-5."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5242-3",
-      "decision": "R",
       "principe": "P3",
-      "motif": "L'examen annuel reçoit le débat contradictoire d'office des peines de plus de cinq ans (L5242-11) et la dispense en cas de refus (L5242-13) : un seul examen systématique. Le renvoi aux articles « L. 5243-11, L. 5243-12 » (coquilles du code de 2029 pour L. 5242-11 et L. 5242-12) et au titre V abrogé tombe.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite ; CEDH art. 5 § 4 examiné : réexamen annuel, contradictoire au-delà de cinq ans",
+      "motif": "Examen dès l'expiration du temps d'épreuve puis annuel ; premier examen en débat contradictoire au-delà de cinq ans (L5242-11 fusionné) ; saisine de la chambre à défaut de ce débat dans les quatre mois, remontée à la loi (L5242-14 fusionné, D523-1) ; dispense en cas de refus (L5242-13 fusionné).",
+      "ligne_rouge": "contrôle du juge et débat contradictoire : l'examen d'office et le débat des longues peines sont gardés",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": ", sans préjudice des procédures d'examen systématique dans le cadre d'un débat contradictoire prévues par les articles L. 5243-11, L. 5243-12 et L. 5251-1 à L. 5252-4.",
-          "nouveau": ". Lorsque la durée totale des peines excède cinq ans, le premier examen se tient en débat contradictoire selon les modalités de l'article L. 5131-3. Cet examen n'a pas lieu lorsque la personne a fait savoir, selon des modalités prévues par voie réglementaire, qu'elle refusait toute libération conditionnelle."
+          "op": "rediger",
+          "nouveau": "La situation de chaque personne condamnée est examinée dès que le temps d'épreuve prévu à l'article L. 5241-3 est accompli, puis au moins une fois par an. Lorsque la durée totale des peines excède cinq ans, le premier examen se tient en débat contradictoire selon l'article L. 5131-3. À défaut de ce débat dans les quatre mois de l'expiration du temps d'épreuve, la chambre de l'application des peines de la cour d'appel peut être saisie par la personne condamnée ou par le procureur de la République, ou se saisir d'office. L'examen n'a pas lieu si la personne a fait savoir qu'elle refuse toute libération conditionnelle."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5242-4",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Libération précédée d'une mesure probatoire : la sortie se gagne par étapes, ce que vise le principe.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5242-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Longues peines et infractions sexuelles graves : décision collégiale du tribunal de l'application des peines.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite"
-    },
-    {
-      "code": "cpp",
-      "num": "L5242-6",
-      "decision": "S",
-      "principe": "P3",
-      "motif": "L'évaluation pluridisciplinaire de dangerosité des longues peines s'étend aux condamnés pour terrorisme : une seule procédure au lieu de deux (fusion de L5242-9).",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Mesure probatoire avant libération : la faculté que D542 donnait au tribunal de l'application des peines remonte à la loi (« la juridiction de l'application des peines »). Exclusion terroriste gardée à l'identique.",
+      "ligne_rouge": "aucune ligne rouge : faculté du juge, sortie par étapes",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Dans les cas mentionnés à l'article L. 5242-5,",
-          "nouveau": "Dans les cas mentionnés aux articles L. 5242-5 et L. 5242-8,"
+          "op": "rediger",
+          "nouveau": "La juridiction de l'application des peines peut subordonner la libération conditionnelle à l'exécution, à titre probatoire et pour un an au plus, d'une détention à domicile sous surveillance électronique, d'une semi-liberté ou d'un placement à l'extérieur. Cette mesure peut commencer un an avant la fin du temps d'épreuve prévu à l'article L. 5241-3 ou un an avant la date à laquelle la libération prévue à l'article L. 5241-6 est possible. La semi-liberté et le placement à l'extérieur sont exclus pour la personne condamnée pour un acte de terrorisme mentionné aux articles 421-1 à 421-6 du code pénal, à l'exclusion de ceux définis aux articles 421-2-5 à 421-2-5-2 du même code."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L5242-7",
-      "decision": "G",
+      "num": "L5242-5",
+      "principe": "P3",
+      "motif": "Régime commun des longues peines et du terrorisme : compétence exclusive du tribunal (L5242-8 fusionné), évaluation pluridisciplinaire de dangerosité (L5242-6 et L5242-9 fusionnés), mesure probatoire (L5242-7 fusionné) et refus pour trouble grave en matière terroriste (L5242-10 fusionné). Chaque règle garde son champ exact. La composition et l'objet de l'expertise des crimes de L6412-1 descendent au décret (D527-1).",
+      "ligne_rouge": "art. 8 DDHC examiné : décision collégiale du tribunal, après évaluation et expertise ; l'évaluation assortie d'une expertise médicale s'étend au 4°, en lieu de la commission de L5242-9 (passe 2) ; les autres règles gardent leur champ de 2029",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Par dérogation à l'article L. 5242-1, seul le tribunal de l'application des peines accorde la libération conditionnelle, quelle que soit la durée de la détention restant à subir, lorsque la personne a été condamnée :\n1° À la réclusion criminelle à perpétuité.\n2° À une peine d'emprisonnement ou de réclusion criminelle égale ou supérieure à quinze ans pour un crime ou un délit pour lequel le suivi socio-judiciaire est encouru.\n3° À une peine d'emprisonnement ou de réclusion criminelle égale ou supérieure à dix ans pour un crime mentionné à l'article L. 6412-1.\n4° Pour un ou plusieurs actes de terrorisme mentionnés aux articles 421-1 à 421-6 du code pénal, à l'exclusion de ceux définis aux articles 421-2-5 à 421-2-5-1 du même code.\nDans ces cas, la libération conditionnelle n'est accordée qu'après une évaluation pluridisciplinaire de dangerosité assortie d'une expertise médicale.\nDans les cas prévus aux 1° à 3°, sauf placement sous surveillance électronique mobile, elle n'est accordée qu'après l'exécution, à titre probatoire et pendant un à trois ans, d'une semi-liberté, d'un placement à l'extérieur ou d'un placement sous surveillance électronique, qui ne commence pas avant la fin du temps d'épreuve prévu à l'article L. 5241-3.\nDans le cas prévu au 4°, le tribunal peut refuser la libération conditionnelle si elle est susceptible de causer un trouble grave à l'ordre public."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5243-1",
+      "principe": "P23",
+      "motif": "Décision, mise en œuvre et modification de la libération conditionnelle en un article (L5243-4 et L5243-5 fusionnés, renvoi mort à L. 5343-1 corrigé).",
+      "ligne_rouge": "contrôle du juge : la modification reste une ordonnance ou un jugement du juge",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La décision de libération conditionnelle fixe ses modalités d'exécution, les conditions de l'octroi et du maintien de la liberté, et la nature et la durée des mesures d'assistance et de contrôle. Le tribunal de l'application des peines peut prévoir que la libération a lieu au jour fixé par le juge de l'application des peines entre deux dates qu'il détermine.\nLe juge de l'application des peines met ces mesures en œuvre avec le service pénitentiaire d'insertion et de probation et, le cas échéant, les organismes habilités. Il peut modifier la décision pendant toute la libération conditionnelle, par ordonnance ou par jugement selon les articles L. 5131-10 et L. 5131-11."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5243-2",
       "principe": "P10",
-      "motif": "Mesure probatoire obligatoire pour les longues peines : la sortie se gagne par étapes.",
-      "ligne_rouge": "aucune"
+      "motif": "Conditions et obligations ; réparation de droit tant que la victime n'est pas indemnisée (passe 2).",
+      "ligne_rouge": "aucune ligne rouge : contenu de la mesure au mérite",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La libération conditionnelle peut être assortie de conditions particulières et de mesures d'assistance et de contrôle qui facilitent et vérifient le reclassement de la personne libérée. Elle peut être soumise aux mesures de contrôle et aux obligations et interdictions des articles 132-44 et 132-45 du code pénal.\nLorsque l'infraction a causé un préjudice et que la victime n'a pas été entièrement indemnisée, la personne est soumise à l'obligation mentionnée au 5° de l'article 132-45 du code pénal."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5243-3",
+      "principe": "P23",
+      "motif": "Durée des mesures de contrôle et libération définitive (L5243-6 fusionné), plafonds inchangés.",
+      "ligne_rouge": "art. 8 DDHC examiné : le contrôle couvre au moins le reliquat ; la peine se termine sans révocation",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour une peine à temps, les mesures d'assistance et de contrôle durent au moins la partie de la peine non subie au jour de la libération et au plus cette durée augmentée d'un an, sans excéder dix ans. Pour la réclusion criminelle à perpétuité, elles durent de cinq à dix ans. Leur durée n'est pas limitée dans les cas prévus aux derniers alinéas des articles L. 5223-10 et L. 5223-11.\nSans révocation avant leur terme, la libération est définitive et la peine est réputée terminée depuis le jour de la libération conditionnelle."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5243-7",
+      "principe": "P21",
+      "motif": "Obligations du suivi socio-judiciaire et injonction de soins, phrases resserrées.",
+      "ligne_rouge": "aucune ligne rouge : injonction de soins sauf décision contraire du juge",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée pour un crime ou un délit pour lequel le suivi socio-judiciaire est encouru peut être soumise, pendant la libération conditionnelle, aux obligations de cette mesure. Sauf décision contraire de la juridiction qui accorde la libération, elle est soumise à une injonction de soins dans les conditions prévues aux articles L. 3711-1 et suivants du code de la santé publique si l'expertise prévue à l'article L. 5226-7 établit qu'elle est susceptible de faire l'objet d'un traitement."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5243-8",
+      "principe": "P13",
+      "motif": "Surveillance électronique mobile : renvois corrigés (passe 2), phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : durée fixée par la juridiction, bornée par la loi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée à une peine d'au moins cinq ans d'emprisonnement pour une infraction pour laquelle le suivi socio-judiciaire est encouru peut être placée sous surveillance électronique mobile selon les articles L. 5332-1, L. 5332-2, L. 5332-7 et L. 5332-10. La juridiction compétente selon les articles L. 5242-1 et L. 5242-5 fixe la durée du placement, qui n'excède pas deux ans, renouvelable une fois en matière délictuelle et deux fois en matière criminelle."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5243-9",
+      "principe": "P6",
+      "motif": "Interdiction du territoire suspendue pendant le contrôle, puis exécutoire : le relèvement de plein droit tombe (passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : la peine complémentaire prononcée par la juridiction ne tombe pas sans décision",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Par dérogation à l'article L. 5241-8, lorsque la libération conditionnelle est accordée à une personne étrangère condamnée à la peine complémentaire d'interdiction du territoire français, la juridiction de l'application des peines peut suspendre l'exécution de cette peine pendant la durée des mesures d'assistance et de contrôle prévue à l'article L. 5243-3. À l'issue de cette durée, l'interdiction du territoire français redevient exécutoire."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5244-1",
+      "principe": "P23",
+      "motif": "Révocation en un article : cas (L5244-2 fusionné), compétence et jugement (L5244-3 fusionné), effet (L5244-4 fusionné, réduction motivée bornée [d'un tiers], passe 2). Aggravation déclarée : en 2029 la juridiction pouvait limiter librement le reliquat (« tout ou partie ») ; il est désormais subi pour [deux tiers] au moins.",
+      "ligne_rouge": "art. 8 DDHC examiné : révocation par jugement après débat contradictoire ; la réduction du reliquat est une dérogation motivée et bornée",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La libération conditionnelle peut être révoquée en cas de nouvelle condamnation, de mauvaise conduite ou de manquement aux conditions et mesures fixées par la décision, notamment de refus de commencer ou de poursuivre le traitement prescrit dans le cadre de l'injonction de soins prévue à l'article L. 5243-7. Elle peut l'être avant son exécution si la personne ne remplit plus les conditions légales.\nLa révocation est prononcée selon les articles L. 5242-1 et L. 5242-5, par jugement rendu conformément à l'article L. 5131-3.\nLa personne subit alors le reliquat de peine qu'elle avait à subir au jour de sa libération conditionnelle, cumulé s'il y a lieu avec toute nouvelle peine. La juridiction peut, par décision spécialement motivée, réduire ce reliquat [d'un tiers] au plus. Le temps passé en état d'arrestation provisoire compte pour l'exécution de la peine."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5241-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Conditions de la libération conditionnelle, réunies à son ouverture.",
+      "ligne_rouge": "aucune",
+      "vers": "L5241-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5241-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Libération des plus de soixante-dix ans sans temps d'épreuve, réunie à l'autre cas sans temps d'épreuve.",
+      "ligne_rouge": "CEDH art. 3 examiné : la règle et ses réserves (ordre public, récidive) sont reprises à L5241-7, 1°",
+      "vers": "L5241-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L5242-2",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Avis et audition de la victime : la règle générale de L5133-1 (avis avant toute sortie, audition au débat à sa demande, avant les réquisitions) en tient lieu pour toutes les mesures.",
+      "ligne_rouge": "art. 8 DDHC examiné : la victime, elle-même ou par son avocat, est avisée et entendue avant les réquisitions (L5133-1)",
+      "vers": "L5133-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5242-6",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Évaluation pluridisciplinaire de dangerosité, réunie au régime des longues peines. Le renvoi au décret tombe (P1) : D527-1 existe.",
+      "ligne_rouge": "aucune",
+      "vers": "L5242-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L5242-7",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Mesure probatoire obligatoire des longues peines, réunie au même régime.",
+      "ligne_rouge": "aucune",
+      "vers": "L5242-5"
     },
     {
       "code": "cpp",
       "num": "L5242-8",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Terrorisme : décision du tribunal de l'application des peines, compétence parisienne. Garde.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compétence du tribunal en matière terroriste, réunie au même régime. La compétence parisienne est à L2152-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L5242-5"
     },
     {
       "code": "cpp",
       "num": "L5242-9",
       "decision": "F",
       "principe": "P3",
-      "motif": "Avis d'une commission d'évaluation propre au terrorisme : l'évaluation pluridisciplinaire de L5242-6, étendue, en tient lieu.",
+      "motif": "Commission d'évaluation propre au terrorisme : l'évaluation de L5242-5 en tient lieu (passe 2).",
       "ligne_rouge": "aucune",
-      "vers": "L5242-6"
+      "vers": "L5242-5"
     },
     {
       "code": "cpp",
       "num": "L5242-10",
-      "decision": "G",
+      "decision": "F",
       "principe": "P21",
-      "motif": "Refus pour trouble grave à l'ordre public en matière de terrorisme : nécessité établie.",
-      "ligne_rouge": "aucune"
+      "motif": "Refus pour trouble grave à l'ordre public en matière terroriste, réuni au même régime.",
+      "ligne_rouge": "aucune",
+      "vers": "L5242-5"
     },
     {
       "code": "cpp",
       "num": "L5242-11",
       "decision": "F",
       "principe": "P3",
-      "motif": "Débat contradictoire d'office des peines de plus de cinq ans : il devient le premier examen annuel de L5242-3, sans date propre.",
-      "ligne_rouge": "CEDH art. 5 § 4 et réexamen des perpétuités (Vinter c. R.-U.) examinés : le débat contradictoire est maintenu dans L5242-3",
+      "motif": "Débat contradictoire d'office des peines de plus de cinq ans : premier examen de L5242-3 (passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : débat contradictoire selon L5131-3 gardé à L5242-3",
       "vers": "L5242-3"
     },
     {
@@ -230,168 +345,81 @@
       "num": "L5242-12",
       "decision": "A",
       "principe": "P20",
-      "motif": "Calendrier du débat de L5242-11 : le temps d'épreuve (L5241-3, sous réserve de la période de sûreté) borne déjà l'examen de L5242-3.",
-      "ligne_rouge": "CEDH art. 5 § 4 examiné : réexamen annuel maintenu par L5242-3"
+      "motif": "Calendrier du débat des perpétuités : le temps d'épreuve et la période de sûreté (L5241-3) bornent déjà l'examen (passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'examen ne s'ouvre qu'au terme du temps d'épreuve, sous réserve de la période de sûreté (L5241-3, L5242-3)"
     },
     {
       "code": "cpp",
       "num": "L5242-13",
       "decision": "F",
       "principe": "P3",
-      "motif": "La dispense d'examen en cas de refus passe dans L5242-3 et vaut pour l'examen annuel.",
-      "ligne_rouge": "CEDH art. 5 § 4 examiné : réexamen annuel maintenu par L5242-3",
+      "motif": "Dispense d'examen en cas de refus, reprise à L5242-3 (passe 2).",
+      "ligne_rouge": "aucune",
       "vers": "L5242-3"
     },
     {
       "code": "cpp",
       "num": "L5242-14",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Débat de rattrapage devant la chambre de l'application des peines, sans objet une fois L5242-11 fondu dans l'examen annuel. Le condamné garde sa demande et l'appel.",
-      "ligne_rouge": "CEDH art. 5 § 4 examiné : réexamen annuel maintenu par L5242-3"
-    },
-    {
-      "code": "cpp",
-      "num": "L5243-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Les modalités et obligations se fixent dans la décision de libération : c'est le régime d'exécution, annoncé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5243-2",
-      "decision": "S",
-      "principe": "P10",
-      "motif": "Obligations et contrôles de la libération, condition de la mesure au mérite. La réparation du préjudice devient de droit tant que la victime n'est pas indemnisée : la règle est dans la loi, le décret (D537) la met en œuvre.",
-      "ligne_rouge": "P25 et P7 examinés : le 5° de l'article 132-45 du code pénal proportionne la réparation aux facultés du condamné",
-      "operations": [
-        {
-          "op": "ajouter_alinea",
-          "nouveau": "Lorsque l'infraction a causé un préjudice et que la victime n'a pas été entièrement indemnisée, la personne est soumise à l'obligation mentionnée au 5° de l'article 132-45 du code pénal."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5243-3",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le contrôle couvre au moins le reliquat de peine : la peine prononcée continue de s'exécuter hors les murs.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite"
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Saisine de la chambre à défaut de débat : règle de compétence (art. 34 C), reprise à L5242-3 avec le délai de quatre mois de D523-1.",
+      "ligne_rouge": "recours : saisine de la chambre par le condamné, le procureur ou d'office, gardée dans la loi (L5242-3)",
+      "vers": "L5242-3"
     },
     {
       "code": "cpp",
       "num": "L5243-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Mise en œuvre par le juge et le service d'insertion et de probation : répartition des offices tenue.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mise en œuvre par le juge et le service, réunie à la décision.",
+      "ligne_rouge": "aucune",
+      "vers": "L5243-1"
     },
     {
       "code": "cpp",
       "num": "L5243-5",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Renvoi erroné à un article L. 5343-1 absent du code de 2029 : la décision visée est celle de L. 5243-1.",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Modification de la décision, réunie à la décision ; renvoi mort à L. 5343-1 corrigé.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "l'article L. 5343-1",
-          "nouveau": "l'article L. 5243-1"
-        }
-      ]
+      "vers": "L5243-1"
     },
     {
       "code": "cpp",
       "num": "L5243-6",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Sans révocation, la libération devient définitive et la peine réputée exécutée : fin de l'exécution, tenue.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite"
-    },
-    {
-      "code": "cpp",
-      "num": "L5243-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Obligations du suivi socio-judiciaire et injonction de soins : protection des victimes potentielles.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5243-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Surveillance électronique mobile des condamnés à au moins cinq ans : contrôle de la sortie, nécessité établie. Le renvoi à L5232-10 (détention à domicile) est une coquille pour L5332-10 (traitement de contrôle), et L5332-7 (pose et dignité) entre dans la liste.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "L. 5332-1, L. 5332-2 et L. 5232-10",
-          "nouveau": "L. 5332-1, L. 5332-2, L. 5332-7 et L. 5332-10"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5243-9",
-      "decision": "R",
-      "principe": "P6",
-      "motif": "Le relèvement de plein droit de l'interdiction du territoire efface une peine complémentaire sans décision : la mesure suspendue redevient exécutoire à l'issue du contrôle.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite ; CEDH art. 8 examiné : le relèvement de l'interdiction reste ouvert sur demande motivée (titre II du livre V de la 5e partie)",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "A l'issue de cette durée, si la décision de mise en liberté conditionnelle n'a pas été révoquée, la personne étrangère est relevée de plein droit de la mesure d'interdiction du territoire français.Dans le cas contraire, la mesure redevient exécutoire.",
-          "nouveau": "A l'issue de cette durée, l'interdiction du territoire français redevient exécutoire."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5244-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Cas de révocation : la contrepartie de la mesure au mérite.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Libération définitive, réunie à la durée du contrôle.",
+      "ligne_rouge": "art. 8 DDHC examiné : la peine est réputée terminée, comme en 2029",
+      "vers": "L5243-3"
     },
     {
       "code": "cpp",
       "num": "L5244-2",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Refus de traitement : cause de révocation, tenue.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Refus de traitement, cause de révocation, réuni aux cas de révocation.",
+      "ligne_rouge": "aucune",
+      "vers": "L5244-1"
     },
     {
       "code": "cpp",
       "num": "L5244-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Compétence de révocation par jugement : relève de l'art. 34 (procédure pénale), la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Compétence de révocation, réunie ; la répartition vise L5242-1 et L5242-5.",
+      "ligne_rouge": "contrôle du juge : jugement après débat contradictoire",
+      "vers": "L5244-1"
     },
     {
       "code": "cpp",
       "num": "L5244-4",
-      "decision": "R",
+      "decision": "F",
       "principe": "P10",
-      "motif": "La révocation remet à exécution le reliquat. « Tout ou partie » laissait la peine prononcée inexécutée sans borne : la réduction devient une dérogation motivée et plafonnée.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), qui reste servi par la libération au mérite",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", selon les dispositions de la décision de révocation, tout ou partie de la durée de la peine",
-          "nouveau": " la durée de la peine"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Toutefois, le temps pendant",
-          "nouveau": "La juridiction peut, par décision spécialement motivée, réduire cette durée [d'un tiers] au plus. Toutefois, le temps pendant"
-        }
-      ]
+      "motif": "Effet de la révocation, réuni ; réduction motivée bornée [d'un tiers] (passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée s'exécute, la réduction est motivée et bornée",
+      "vers": "L5244-1"
     }
-  ]
+  ],
+  "passe": 3
 }
