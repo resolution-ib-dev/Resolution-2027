@@ -10,206 +10,246 @@
     {
       "code": "cpp",
       "num": "L5231-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Liste des trois mesures d'aménagement sous écrou : la personne reste écrouée, la peine prononcée court.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine s'exécute sous écrou, l'individualisation au prononcé reste entière (L5231-2, 1°)"
-    },
-    {
-      "code": "cpp",
-      "num": "L5231-2",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Deux voies : la juridiction aménage au prononcé (CP 132-25), voie que vise P10, ou le juge de l'application des peines après, voie bornée par L5231-5 réécrit.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction de jugement garde la faculté d'aménager au prononcé"
+      "principe": "P23",
+      "motif": "Les trois mesures et les deux autorités qui les décident (L5231-2) en un article. Énumérations fondues dans la phrase, sans point-virgule.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la personne reste écrouée, la peine prononcée court. L'aménagement au prononcé par la juridiction, voie que vise P10, reste en tête.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée à une peine d'emprisonnement ferme ou à une réclusion peut, sous écrou, bénéficier d'un aménagement de sa peine sous la forme d'une détention à domicile sous surveillance électronique, d'une semi-liberté ou d'un placement à l'extérieur.\nCes mesures sont décidées par la juridiction de jugement au prononcé de la peine, conformément à l'article 132-25 du code pénal, ou, après la condamnation, par le juge de l'application des peines."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5231-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Le juge de l'application des peines met en œuvre la mesure choisie par la juridiction, dans quatre mois ou cinq jours ouvrables : délais opposables à l'État, tenus.",
-      "ligne_rouge": "art. 8 et 16 DDHC examinés : l'ordonnance exécute le choix de la juridiction, elle ne le refait pas ; la substitution d'une mesure (L5231-4) se prend par jugement contradictoire"
-    },
-    {
-      "code": "cpp",
-      "num": "L5231-4",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Substitution d'une mesure d'aménagement à une autre, par jugement : la modalité change, pas le quantum. La conversion à laquelle l'article renvoie (L5143-8 à L5143-13) se juge dans son lot (livre Ier, titre IV).",
-      "ligne_rouge": "art. 8 DDHC examiné : la substitution reste entre mesures sous écrou, la peine prononcée court"
+      "principe": "P23",
+      "motif": "Mise en œuvre, délais et substitution (L5231-4) en un article. Le jugement de substitution suit L5131-7, règle générale. La conversion tombe d'ici : L5143-8 la pose pour toute peine d'emprisonnement ferme qui y entre (P20). Renvoi de L4432-15 à coordonner vers L5231-3 seul.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : délais opposables à l'État (quatre mois, cinq jours ouvrables) gardés, la substitution change la modalité, pas le quantum.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la juridiction de jugement a ordonné l'aménagement de la peine en application de l'article 132-25 du code pénal, le juge de l'application des peines fixe les modalités d'exécution de la mesure par une ordonnance non susceptible de recours, dans les quatre mois de la date à laquelle la condamnation est exécutoire. Ce délai est de cinq jours ouvrables lorsque la juridiction a ordonné le placement ou le maintien en détention du condamné et déclaré sa décision exécutoire par provision.\nSi la personnalité du condamné ou les moyens disponibles le justifient, le juge peut, par jugement, substituer à la mesure décidée par la juridiction une autre mesure prévue à l'article 132-25 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5231-5",
-      "decision": "R",
       "principe": "P10",
-      "motif": "Le juge de l'application des peines pouvait aménager toute peine dont le reliquat tombait sous deux ans : une peine longue finissait aménagée sans décision de la juridiction ni effort. L'aménagement après condamnation se limite aux peines prononcées courtes, seuil à arbitrer ; la sortie anticipée des longues peines passe par la libération conditionnelle au mérite et sa mesure probatoire (L5242-4). Deux accords corrigés (« décidées », « définis »). Coordination : D119 et D137 visent les anciens 723-1 et 723-7, y compris le reliquat de deux ans. D119, dernier alinéa, rend l'aménagement obligatoire en renvoyant à l'ancien 720, alors que la libération sous contrainte est abrogée au lot 1. Ces renvois sont à coordonner. La loi du 20 août 2026 excluant la semi-liberté et le placement à l'extérieur pour la criminalité organisée (ancien 723-1) n'est pas reprise dans le code de 2029 [arbitrage].",
-      "ligne_rouge": "art. 8 DDHC examiné : l'individualisation au prononcé reste entière (L5231-2, 1°) ; l'aménagement à l'exécution relève de la loi et se tempère ; la sortie anticipée des longues peines passe par la libération conditionnelle au mérite et sa mesure probatoire (L5242-4)",
+      "motif": "Texte de la passe 2 (seuil des peines prononcées à [deux ans]). La mesure probatoire de la libération conditionnelle tombe d'ici : L5242-4 la pose déjà, avec sa durée et sa propre exclusion du terrorisme (P20).",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : l'aménagement après condamnation reste borné aux peines courtes prononcées, la sortie des longues peines passe par la libération conditionnelle au mérite.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Lorsque la personne condamnée est incarcérée,",
-          "nouveau": "Lorsque la personne condamnée à une ou plusieurs peines privatives de liberté dont la durée totale n'excède pas [deux ans] est incarcérée,"
-        },
-        {
-          "op": "remplacer",
-          "ancien": " :1° Soit en cas de condamnation à une ou plusieurs peines privatives de liberté dont la durée totale n'excède pas deux ans ;2° Soit lorsqu'il reste à subir par la personne condamnée une ou plusieurs peines privatives de liberté dont la durée totale n'excède pas deux ans.",
-          "nouveau": "."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "être décidés par",
-          "nouveau": "être décidées par"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "ceux définies",
-          "nouveau": "ceux définis"
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines peut ordonner une des mesures mentionnées à l'article L. 5231-1 à l'égard de la personne incarcérée condamnée à une ou plusieurs peines privatives de liberté d'une durée totale n'excédant pas [deux ans]. Lorsqu'un mandat de dépôt ou d'arrêt a été délivré, la mesure peut être ordonnée sans attendre que la condamnation soit exécutoire, sous réserve de l'appel suspensif du ministère public.\nPour la personne condamnée pour un acte de terrorisme mentionné aux articles 421-1 à 421-6 du code pénal, à l'exclusion des articles 421-2-5 à 421-2-5-2 du même code, le juge ne peut ordonner que la détention à domicile sous surveillance électronique."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5231-6",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Obligations et interdictions de CP 132-44 et 132-45 attachées à la mesure : contrepartie de l'aménagement.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5231-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Mesures d'aide de CP 132-46. Cité par L5341-1 (surveillance électronique à domicile) : une fusion dans L5231-6 casserait ce renvoi pour le gain d'une ligne.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5231-8",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Retrait de la mesure pour conditions disparues, manquement ou mauvaise conduite : la contrepartie de l'aménagement.",
-      "ligne_rouge": "art. 8 et 16 DDHC examinés : retrait par jugement après débat contradictoire (L5131-3)"
-    },
-    {
-      "code": "cpp",
-      "num": "L5232-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contenu de la détention à domicile sous surveillance électronique : assignation, émetteur, absences limitées à des motifs nommés.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accord du maître des lieux et absences fixées par le juge, tenus"
-    },
-    {
-      "code": "cpp",
-      "num": "L5232-10",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Modification des conditions et obligations par le juge : l'avis préalable du procureur ne protège aucune liberté, il tombe. Le procureur garde ses réquisitions et la demande de débat contradictoire (L5131-11).",
+      "principe": "P23",
+      "motif": "Obligations et mesures d'aide (L5231-7) en une phrase.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": ", et après avis du procureur de la République,",
-          "nouveau": ","
+          "op": "rediger",
+          "nouveau": "Les mesures prévues à l'article L. 5231-1 peuvent être assorties d'obligations ou d'interdictions prévues aux articles 132-44 et 132-45 du code pénal et des mesures d'aide prévues à l'article 132-46 du même code."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L5232-11",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Cas propres de retrait de la surveillance électronique (nouvelle condamnation, refus d'une modification, demande de la personne), par jugement.",
-      "ligne_rouge": "aucune"
+      "num": "L5231-8",
+      "principe": "P23",
+      "motif": "Tous les cas de retrait en un article (reçoit L5232-11). Le jugement de retrait suit L5131-7 et L5131-3, règles générales.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : retrait par le juge, après débat contradictoire (L5131-3), dans des cas fermés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines peut retirer la mesure si les conditions qui l'ont permise ne sont plus remplies, si la personne condamnée ne satisfait pas aux interdictions ou obligations qui lui sont imposées ou si elle fait preuve de mauvaise conduite.\nLa détention à domicile sous surveillance électronique peut aussi être retirée si la personne fait l'objet d'une nouvelle condamnation, refuse une modification nécessaire de ses conditions d'exécution ou demande qu'il soit mis fin à la mesure."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L5232-2",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application d'une mesure de surveillance électronique, comme L5331-3 et L5332-3 (lot p012).",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : le texte d'application d'une mesure de surveillance électronique reste soumis à l'examen du Conseil d'État"
-    },
-    {
-      "code": "cpp",
-      "num": "L5232-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Procédé de contrôle à distance, limité au seul lieu désigné, homologué par le ministre : nécessité établie, garantie de fiabilité.",
-      "ligne_rouge": "aucune"
+      "num": "L5232-1",
+      "principe": "P23",
+      "motif": "Contenu de la mesure et procédé de contrôle (L5232-3) en un article : le port de l'émetteur, écrit deux fois, l'est une fois.",
+      "ligne_rouge": "art. 2 DDHC, vie privée : la surveillance se limite au seul lieu désigné, par un procédé homologué, et les absences restent ouvertes aux motifs nommés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La détention à domicile sous surveillance électronique oblige la personne condamnée à demeurer dans son domicile ou dans tout autre lieu désigné par la juridiction ou le juge de l'application des peines, avec l'accord du maître des lieux s'il ne s'agit pas d'un lieu public. Elle ne peut s'en absenter, pendant les périodes qu'ils fixent, que pour le temps nécessaire à une activité professionnelle, à un enseignement, un stage, une formation ou un traitement médical, à la recherche d'un emploi, à la vie de famille ou à tout projet d'insertion ou de réinsertion.\nLa personne porte un dispositif intégrant un émetteur. Un procédé homologué par le ministre de la justice détecte à distance sa présence ou son absence dans le seul lieu désigné, pour chaque période fixée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5232-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le dispositif ne se pose pas sans consentement, le refus vaut manquement : l'alternative est annoncée.",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : aucune pose forcée, le refus n'entraîne que le retrait de la mesure"
-    },
-    {
-      "code": "cpp",
-      "num": "L5232-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Dignité, intégrité et vie privée dans la mise en œuvre du dispositif : garantie que la loi doit porter.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : l'encadrement légal de la mesure intrusive est tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L5232-6",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Habilitation d'une personne privée à mettre en œuvre le dispositif technique : la délégation d'une mission de contrôle pénal relève de la loi.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Les garanties de la personne surveillée (consentement, dignité, contrôle médical : L5232-5 et L5232-9) en un article.",
+      "ligne_rouge": "art. 2 DDHC et CEDH art. 8 : consentement, dignité, intégrité, vie privée et vérification médicale de droit gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée est avisée que le dispositif ne peut être installé sur elle sans son consentement, mais que son refus constitue une violation de ses obligations et peut entraîner le retrait de la mesure.\nLa mise en œuvre du dispositif garantit le respect de la dignité, de l'intégrité et de la vie privée de la personne. Le juge de l'application des peines peut à tout moment désigner un médecin pour vérifier que le dispositif ne nuit pas à la santé de la personne. Cette désignation est de droit à la demande de la personne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5232-7",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Contrôle par le juge du ressort, surveillance à distance par l'administration pénitentiaire : répartition des offices tenue.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Contrôle du juge, contrôle à distance, habilitation du prestataire privé (L5232-6) et décret en Conseil d'État (L5232-2) en un article. Le numéro reste : L3631-7 et L622-2 du code pénitentiaire y renvoient.",
+      "ligne_rouge": "art. 2 DDHC : le traitement de données et la délégation à une personne privée restent posés par la loi.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée effectue la mesure sous le contrôle du juge de l'application des peines du lieu d'assignation.\nLe contrôle à distance est assuré par des fonctionnaires de l'administration pénitentiaire autorisés à mettre en œuvre un traitement automatisé de données nominatives. La mise en œuvre du dispositif technique peut être confiée à une personne de droit privé habilitée.\nUn décret en Conseil d'Etat détermine les conditions de cette habilitation et d'application du présent chapitre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5232-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Visites des agents dans les périodes fixées, sans entrée au domicile sans accord, constat des absences par police et gendarmerie : contrôle effectif et encadré.",
-      "ligne_rouge": "art. 2 DDHC (vie privée, inviolabilité du domicile) examiné : pas d'entrée sans l'accord de l'occupant, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L5232-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Vérification médicale du procédé, de droit à la demande de la personne : garde-fou sanitaire.",
-      "ligne_rouge": "CEDH art. 3 examiné : contrôle médical à la demande, tenu"
+      "principe": "P23",
+      "motif": "Même règle, phrases allégées.",
+      "ligne_rouge": "art. 2 DDHC : inviolabilité du domicile sans accord gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans la limite des périodes fixées par la décision, les agents de l'administration pénitentiaire chargés du contrôle peuvent se rendre sur le lieu de l'assignation pour demander à rencontrer la personne condamnée. Ils ne peuvent pénétrer au domicile de la personne chez qui le contrôle est pratiqué sans son accord. Ils font aussitôt rapport au juge de l'application des peines.\nLes services de police ou de gendarmerie peuvent toujours constater l'absence irrégulière de la personne et en faire rapport au juge."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5233-1",
-      "decision": "G",
+      "principe": "P23",
+      "motif": "Même règle en une phrase. Avec L5233-2 abrogé, la loi est le seul siège des motifs : la liste des activités reste entière (vie de famille et soins compris).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée qui bénéficie d'une semi-liberté rejoint l'établissement pénitentiaire pendant les périodes que fixe le juge de l'application des peines, notamment en fonction du temps nécessaire à une activité professionnelle, à un enseignement, un stage, une formation ou un traitement, à la recherche d'un emploi, à la vie de famille ou à tout projet d'insertion ou de réinsertion."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5234-1",
       "principe": "P10",
-      "motif": "Régime de la semi-liberté : retour à l'établissement hors des périodes fixées par le juge pour des motifs nommés.",
+      "motif": "Gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L5231-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Les deux voies de décision, reprises au second alinéa de L5231-1.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la juridiction de jugement garde l'aménagement au prononcé.",
+      "vers": "L5231-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5231-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Substitution de mesure, reprise au second alinéa de L5231-3. La conversion relève de L5143-8.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la faculté du juge et la voie du jugement sont gardées.",
+      "vers": "L5231-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5231-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mesures d'aide, reprises à L5231-6. Renvoi de L5341-1 réécrit dans son titre vers L5231-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L5231-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L5232-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi au décret en Conseil d'État, repris à L5232-7, qui fixait déjà ce niveau pour l'habilitation du prestataire.",
+      "ligne_rouge": "aucune",
+      "vers": "L5232-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L5232-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procédé de contrôle, émetteur et homologation, repris au second alinéa de L5232-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L5232-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5232-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Garantie de dignité, d'intégrité et de vie privée, reprise au second alinéa de L5232-4.",
+      "ligne_rouge": "art. 2 DDHC : garantie gardée à L5232-4.",
+      "vers": "L5232-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L5232-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Habilitation d'une personne de droit privé, reprise à L5232-7 avec le décret en Conseil d'État.",
+      "ligne_rouge": "aucune",
+      "vers": "L5232-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L5232-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Vérification médicale du procédé, reprise à L5232-4, de droit à la demande de la personne.",
+      "ligne_rouge": "CEDH art. 3 et 8 : garde-fou sanitaire gardé.",
+      "vers": "L5232-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L5232-10",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Redite de L5131-10, qui donne déjà au juge de l'application des peines, par ordonnance, la modification des mesures d'aménagement sous écrou et de leurs obligations (avis du procureur retiré par la passe 2). Renvoi de L5341-1 réécrit dans son titre.",
       "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L5232-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cas propres de retrait de la surveillance électronique, repris au second alinéa de L5231-8.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : retrait par jugement après débat contradictoire, cas gardés.",
+      "vers": "L5231-8"
     },
     {
       "code": "cpp",
       "num": "L5233-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi au règlement des motifs et des modalités de la semi-liberté. Les motifs sont déjà dans la loi (L5233-1) et un décret ne peut restreindre la faculté que la loi donne au juge. Les modalités sont réglementaires par nature (art. 37 C), sans habilitation. L'article porte une coquille (« ainsi les modalités »). Aucun renvoi entrant dans le code de 2029.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5234-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Régime du placement à l'extérieur : activités ou prise en charge sanitaire hors de l'établissement, sous contrôle de l'administration pénitentiaire.",
+      "motif": "Renvoi au règlement des motifs et des modalités de la semi-liberté : les motifs sont dans la loi (L5233-1), les modalités sont réglementaires par nature (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -217,8 +257,9 @@
       "num": "L5234-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi au règlement des motifs et des modalités du placement à l'extérieur : la proposition de déclasser revient à l'abroger. Les modalités sont réglementaires par nature (art. 37 C) et un décret ne peut restreindre la faculté que la loi donne au juge. Aucun renvoi entrant dans le code de 2029.",
+      "motif": "Renvoi au règlement des motifs et des modalités du placement à l'extérieur : modalités réglementaires par nature (passe 2).",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
