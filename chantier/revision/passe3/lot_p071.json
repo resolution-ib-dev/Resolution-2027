@@ -1,0 +1,90 @@
+{
+  "lot": "lot_p071",
+  "titre": "Livre VI, titre Ier : dispositions générales (contraventions)",
+  "ecart_volume": "Le titre gagne deux règles générales (R610-6 personnes morales, R610-7 récidive) qui retirent la même phrase de treize articles du titre IV (lot p070, sous son plafond). Le volume se juge sur le livre, pas sur le titre des dispositions générales.",
+  "articles_cible": [
+    {
+      "num": "R610-1",
+      "texte": "Les contraventions, ainsi que les classes dont elles relèvent, sont déterminées par décrets en Conseil d'Etat.",
+      "verbe": "G",
+      "principe": "P1",
+      "motif": "Les contraventions et leurs classes se fixent par décret en Conseil d'État (111-2, art. 37 C).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "R610-2",
+      "texte": "Les dispositions des troisième et quatrième alinéas de l'article 121-3 sont applicables aux contraventions pour lesquelles le règlement exige une faute d'imprudence ou de négligence.\nLe complice d'une contravention au sens du second alinéa de l'article 121-7 est puni conformément à l'article 121-6.",
+      "verbe": "G",
+      "principe": "P21",
+      "motif": "Faute d'imprudence de 121-3 et complicité par provocation ou instruction appliquées aux contraventions : nécessaires, la loi ne le dit pas pour elles.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "R610-4",
+      "texte": "Les contraventions punies d'une amende dont le taux est proportionnel au montant ou à la valeur exprimée en numéraire du préjudice, des réparations ou de l'objet de l'infraction constituent des contraventions de la 5e classe dont la peine d'amende ne peut excéder les montants fixés par le 5° de l'article 131-13.",
+      "verbe": "G",
+      "principe": "P14",
+      "motif": "Les amendes proportionnelles sont de 5e classe et plafonnées par le 5° de 131-13.",
+      "ligne_rouge": "art. 8 DDHC examiné : la proportion ne dépasse pas le maximum légal"
+    },
+    {
+      "num": "R610-5",
+      "texte": "La violation des interdictions ou le manquement aux obligations édictées par les décrets et arrêtés de police sont punis de l'amende prévue pour les contraventions de la 2e classe.",
+      "verbe": "G",
+      "principe": "P14",
+      "motif": "Violation des décrets et arrêtés de police, 2e classe : la règle générale qui rend les mesures de police effectives.",
+      "ligne_rouge": "art. 8 DDHC examiné : classe la plus basse utile, inchangée"
+    },
+    {
+      "num": "R610-6",
+      "texte": "Les personnes morales déclarées responsables pénalement, dans les conditions prévues par l'article 121-2, des contraventions prévues aux articles R. 642-2, R. 642-4, R. 643-1, R. 643-2, R. 645-1, R. 645-8, R. 645-9, R. 645-10 et R. 645-11 encourent, outre l'amende suivant les modalités prévues par l'article 131-41, la peine de confiscation de la chose qui a servi ou était destinée à commettre l'infraction ou de la chose qui en est le produit.",
+      "verbe": "C",
+      "principe": "P23",
+      "motif": "Règle des personnes morales pour les contraventions du titre IV (registre 1.22, technique 2) : elle remplace la phrase que les neuf articles répétaient mot pour mot, sur le même champ.",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle générale ne crée aucune incrimination, elle porte une fois les peines que les articles du livre répétaient, dans les bornes des articles 131-41, 131-43, 132-11 et 132-15"
+    },
+    {
+      "num": "R610-7",
+      "texte": "La récidive des contraventions prévues aux articles R. 645-1, R. 645-6, R. 645-7, R. 645-8, R. 645-9, R. 645-10, R. 645-11, R. 645-14 et R. 645-15 est réprimée conformément aux articles 132-11 et 132-15. La récidive des contraventions prévues aux articles R. 645-2, R. 645-3, R. 645-12 et R. 645-13 est réprimée conformément à l'article 132-11.",
+      "verbe": "C",
+      "principe": "P23",
+      "motif": "Règle de la récidive des contraventions de 5e classe du titre IV : elle remplace la phrase que chaque article répétait, sur le même champ (132-11 et 132-15, ou 132-11 seul, comme avant).",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle générale ne crée aucune incrimination, elle porte une fois les peines que les articles du livre répétaient, dans les bornes des articles 131-41, 131-43, 132-11 et 132-15"
+    }
+  ],
+  "retires": [
+    {
+      "num": "R610-3",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Miroir de 131-13 : rappelle que la loi fixe le montant des amendes. Aucune règle propre.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "R610-1#1": {
+      "destin": "gardee",
+      "vers": "R610-1"
+    },
+    "R610-2#1": {
+      "destin": "gardee",
+      "vers": "R610-2"
+    },
+    "R610-2#2": {
+      "destin": "gardee",
+      "vers": "R610-2"
+    },
+    "R610-3#1": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "R610-4#1": {
+      "destin": "gardee",
+      "vers": "R610-4"
+    },
+    "R610-5#1": {
+      "destin": "gardee",
+      "vers": "R610-5"
+    }
+  }
+}
