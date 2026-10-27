@@ -10,312 +10,404 @@
     {
       "code": "cpp",
       "num": "L4351-1",
-      "decision": "G",
       "principe": "P17",
-      "motif": "Appel des arrêts au fond, fermé au condamné par défaut, dont l'arrêt tombe à l'arrestation : droit d'appel au fond.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-10",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Appel limité à la peine : débat resserré, plus rapide.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine est rejugée dans le barème"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Comparution en appel sous un an pour l'accusé détenu, prolongations motivées de six mois une fois renouvelables, liberté à défaut : délai opposable.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : prolongation par un juge, motivée, comparution de droit, liberté d'office au terme, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-12",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Sursis à l'exécution pendant l'appel, sauf le titre de détention de L4326-4 : la privation de liberté prononcée tient.",
-      "ligne_rouge": "art. 8 DDHC et présomption d'innocence examinés : la peine ne s'exécute qu'une fois définitive, la détention tient sur titre de la cour"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pas d'aggravation sur le seul appel civil de l'appelant.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-14",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Pas de demande nouvelle, augmentation du préjudice souffert depuis.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-15",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "La partie civile non appelante exerce ses droits en appel, frais compris.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-16",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Partie civile avisée de la date d'audience : la victime est informée de l'étape.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-17",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Sursis à l'exécution civile, sauf exécution provisoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-18",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Arrêt ou octroi de l'exécution provisoire par le premier président en référé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-19",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Appel civil seul porté à la chambre des appels délictuels : juridiction ordinaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-2",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Titulaires de l'appel ; acquittement attaquable par le seul procureur général. La partie civile appelle sur ses intérêts civils, comme devant toute juridiction.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-3",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Appel devant une autre cour d'assises, qui réexamine l'affaire : relève de l'organisation du jugement (art. 34). La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "motif": "Droit d'appel en un article : arrêts attaquables, titulaires (L4351-2), juridiction d'appel (L4351-3) ; la règle de l'autre cour d'assises est écrite une fois, à L4352-1.",
+      "ligne_rouge": "Double degré en matière criminelle (P17, L. 4) : l'appel au fond devant une autre cour d'assises avec jury est gardé ; le condamné par défaut est rejugé (L4343-1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les arrêts rendus au fond en premier ressort par la cour d'assises ou par la cour criminelle départementale peuvent faire l'objet d'un appel, sauf de la part de la personne condamnée par défaut. La faculté de former appel appartient :\n1° À l'accusé.\n2° Au ministère public.\n3° À la personne civilement responsable et à la partie civile, quant à leurs intérêts civils.\n4° Aux administrations publiques qui exercent l'action pénale, si le ministère public a fait appel.\nContre un arrêt d'acquittement, même partiel, l'appel ne peut être formé que par le procureur général.\nL'appel est porté devant une cour d'assises, désignée selon le chapitre 2 du présent titre, qui statue en dernier ressort et réexamine l'affaire selon le présent titre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4351-4",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Appel sous dix jours du prononcé, ou de la signification pour la partie absente non informée : le délai part de la connaissance.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-5",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Appel incident sous cinq jours supplémentaires.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Délais d'appel et appel incident (L4351-5) en un article.",
+      "ligne_rouge": "Double degré : le délai ne court qu'à compter de la signification pour la partie absente non informée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'appel est formé dans les dix jours du prononcé de l'arrêt. Pour la partie qui n'était ni présente ni représentée au prononcé et qui n'a pas été informée, elle-même ou son représentant, de sa date, le délai court de la signification de l'arrêt, quel qu'en soit le mode. En cas d'appel d'une partie dans ce délai, les autres parties disposent de cinq jours supplémentaires pour interjeter appel."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4351-6",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Déclaration d'appel au greffe, registre public dont toute personne obtient copie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4351-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Appel du détenu par déclaration au chef d'établissement : accès au juge du détenu, que L315-2 du code pénitentiaire reprend (lot p082). La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Forme de l'appel et appel du détenu (L4351-7) en un article.",
+      "ligne_rouge": "Accès au juge de la personne détenue : la déclaration au chef d'établissement est gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La déclaration d'appel est faite au greffe de la juridiction qui a rendu l'arrêt. Elle est signée par le greffier et par l'appelant, un avocat ou un fondé de pouvoir spécial, dont le pouvoir est annexé à l'acte. Si l'appelant ne peut signer, le greffier le mentionne. Elle est inscrite sur un registre public dont toute personne peut obtenir copie.\nL'appelant détenu peut faire appel par une déclaration auprès du chef de l'établissement pénitentiaire, qui la constate, la date et la signe avec l'appelant ou mentionne qu'il ne peut signer.\nLa déclaration du détenu et celle du procureur général, lorsque le siège de la cour n'est pas celui de la cour d'appel, sont adressées sans délai, en original ou en copie, au greffe de la juridiction qui a rendu l'arrêt, transcrites sur le registre et annexées à l'acte du greffier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4351-8",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Désistement jusqu'à l'interrogatoire, caducité des appels incidents.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Désistement : gardé, renvoi mis à jour (L4352-2 fusionné dans L4352-1).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'accusé peut se désister de son appel jusqu'à son interrogatoire prévu à l'article L. 4311-1. Son désistement rend caducs les appels incidents, et le ministère public peut alors se désister de l'appel qu'il a formé après celui de l'accusé. Avant la désignation de la cour d'assises d'appel, le désistement est constaté par ordonnance du premier président de la cour d'appel ou, si la chambre criminelle de la Cour de cassation est saisie selon l'article L. 4352-1, de son président. Après cette désignation, il l'est par ordonnance du président de la cour d'assises d'appel."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L4351-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pas d'aggravation sur le seul appel de l'accusé.",
-      "ligne_rouge": "aucune"
+      "num": "L4351-10",
+      "principe": "P23",
+      "motif": "Appel sur l'action pénale en un article : appel limité à la peine, interdiction d'aggraver le sort de l'accusé seul appelant (L4351-9), effet suspensif et titre de détention (L4351-12).",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : appel limité à la peine gardé, pas d'aggravation sur le seul appel de l'accusé. Contrôle d'un juge sur la privation de liberté (art. 66 C, CEDH art. 5) : la détention suit le titre de L4326-4, contrôlé par la demande de mise en liberté.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'appel formé par l'accusé ou le ministère public peut indiquer qu'il ne conteste pas les réponses données sur la culpabilité et qu'il est limité à la décision sur la peine.\nSur le seul appel de l'accusé, la cour d'assises statuant en appel ne peut aggraver son sort.\nPendant le délai d'appel et l'instance d'appel, il est sursis à l'exécution de l'arrêt sur l'action pénale. L'arrêt continue toutefois de produire ses effets contre la personne condamnée à une peine privative de liberté, selon l'article L. 4326-4."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-11",
+      "principe": "P19",
+      "motif": "Délai de comparution de l'accusé détenu en appel : délais, prolongations motivées et remise en liberté inchangés, phrases resserrées.",
+      "ligne_rouge": "Contrôle d'un juge sur la privation de liberté (art. 66 C, CEDH art. 5) : délai opposable d'un an, prolongation motivée par un juge, comparution de droit, liberté à l'expiration.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'accusé détenu comparaît devant la cour d'assises statuant en appel dans le délai d'un an à compter de l'appel ou, s'il a été placé ensuite en détention provisoire en exécution de la décision de premier ressort, de ce placement. Si l'audience au fond ne peut se tenir avant l'expiration de ce délai, le président de la chambre des investigations et des libertés peut, à titre exceptionnel, par une décision qui mentionne les raisons de fait ou de droit qui font obstacle au jugement, prolonger la détention pour six mois, prolongation renouvelable une fois dans les mêmes formes. L'accusé comparaît de droit devant ce président s'il le demande, lui ou son avocat. La durée de six mois est portée à un an en cas de poursuites pour crime contre l'humanité ou pour un crime constituant un acte de terrorisme.\nFaute de comparution dans ces délais, l'accusé est remis immédiatement en liberté s'il n'est détenu pour une autre cause."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-13",
+      "principe": "P23",
+      "motif": "Appel sur l'action civile et droits de la partie civile en un article (L4351-14 à L4351-18 fusionnés).",
+      "ligne_rouge": "Droits de la victime : la partie civile non appelante garde ses droits et est avisée de l'audience, l'augmentation du préjudice et les frais restent demandables, l'exécution provisoire reste ouverte.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sur l'action civile, la cour d'assises statuant en appel ne peut aggraver le sort de l'appelant sur son seul appel, qu'il soit l'accusé, le civilement responsable, la partie civile ou une partie intervenante.\nLa partie civile ne peut former en appel aucune demande nouvelle, hors l'augmentation des dommages-intérêts pour le préjudice souffert depuis la première décision et le remboursement de ses frais selon l'article L. 4326-18. Même sans appel sur l'action civile, la victime constituée partie civile en premier ressort exerce devant la cour d'assises statuant en appel les droits de la partie civile jusqu'à la clôture des débats, et elle est avisée par tout moyen de la date de l'audience.\nPendant le délai d'appel et l'instance d'appel, il est sursis à l'exécution de l'arrêt sur l'action civile, hors l'exécution provisoire prévue à l'article L. 4326-15. Le premier président de la cour d'appel dans le ressort de laquelle siège la cour d'assises désignée pour l'appel peut, en référé, arrêter l'exécution provisoire des dommages-intérêts si elle risque d'entraîner des conséquences manifestement excessives, en la subordonnant le cas échéant à une garantie réelle ou personnelle suffisante pour répondre de toutes restitutions ou réparations. Il peut aussi l'accorder lorsqu'elle a été refusée, n'a pas été demandée ou a été omise."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-19",
+      "principe": "P23",
+      "motif": "Appel civil seul : gardé, phrase resserrée. Numéro cité par L6322-4.",
+      "ligne_rouge": "Droits de la victime : l'appel civil reste ouvert devant une chambre de la cour d'appel.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la cour d'assises n'est pas saisie d'un appel formé contre l'arrêt rendu sur l'action pénale, l'appel formé par une partie contre le seul arrêt rendu sur l'action civile est porté devant la chambre des appels délictuels. Le chapitre 2 du présent titre ne s'applique pas."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4352-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Désignation de la cour d'appel par le premier président, observations écrites.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4352-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Désignation hors ressort par la chambre criminelle dans le mois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4352-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Autre cour d'assises en principe, même cour autrement composée par exception.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4352-4",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Appel tardif ou irrecevable : pas de désignation.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Désignation de la cour d'assises d'appel en un article : premier président, chambre criminelle (L4352-2), autre cour ou même cour autrement composée (L4352-3), appel irrecevable (L4352-4).",
+      "ligne_rouge": "Double degré et impartialité : l'appel va en principe à une autre cour d'assises, et la chambre criminelle statue dans le mois.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Après avoir recueilli les observations écrites du ministère public et des parties ou de leurs avocats, le premier président de la cour d'appel désigne la cour d'assises statuant en appel parmi les cours d'assises du ressort. Lorsque l'appel est formé contre un arrêt de cour d'assises, il désigne une autre cour d'assises. Il peut désigner la même cour d'assises, autrement composée, lorsque l'appel est formé contre un arrêt d'une cour d'assises composée uniquement de magistrats selon l'article L. 2123-31, de la cour d'assises de Paris statuant en application de l'article L. 2152-1, ou d'une cour d'assises spécialisée en criminalité organisée en application des articles L. 2152-10 et L. 2152-11.\nSi le ministère public ou une partie le demande, ou si le premier président estime nécessaire de désigner une cour d'assises hors du ressort, le ministère public adresse sans délai au greffe de la chambre criminelle de la Cour de cassation l'arrêt attaqué, les observations et, le cas échéant, le dossier de la procédure. Dans le mois de la réception de l'appel, la chambre criminelle, après avoir recueilli s'il y a lieu les observations écrites du ministère public et des parties, désigne la cour d'assises statuant en appel, dans les mêmes conditions. Il est alors procédé comme en cas de renvoi après cassation.\nSi l'appel n'a pas été formé dans les délais ou porte sur un arrêt non susceptible d'appel, le premier président ou le président de la chambre criminelle dit n'y avoir lieu à désignation."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4353-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Le régime du premier degré s'applique en appel, sous réserves.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Procédure d'appel en un article : réserves au titre II, composition (L4353-2 à L4353-4), majorité de huit voix (L4353-13, texte de la passe 2), enregistrement (L4353-6, L4353-7), présentation et délibéré (L4353-8, L4353-12), incidents (L4353-9), pourvoi (L4353-15).",
+      "ligne_rouge": "Double degré et présomption d'innocence : jury de neuf, culpabilité à huit voix sur douze, enregistrement contrôlable en cassation, motivation de premier ressort connue de la cour d'appel. Individualisation au prononcé (art. 8 DDHC) : la peine se vote à la majorité absolue, la diminution se motive (L4325-13).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La cour d'assises qui examine une affaire en appel suit le titre II du présent livre, sous les réserves suivantes :\n1° La liste de session est complétée selon l'article L. 4321-5 s'il y reste moins de vingt-trois jurés.\n2° Le jury de jugement est formé de neuf jurés non récusés et des jurés supplémentaires. L'accusé peut récuser cinq jurés, le ministère public quatre.\n3° La majorité qualifiée prévue à l'article L. 4325-6 pour toute décision défavorable à l'accusé est de huit voix au moins.\n4° Les débats font l'objet d'un enregistrement sonore sous le contrôle du président, selon l'article L. 4322-30, sauf renonciation expresse de tous les accusés. Sans renonciation, le défaut d'enregistrement est un motif de cassation de l'arrêt de condamnation s'il a porté atteinte aux intérêts du condamné. La cour peut consulter l'enregistrement sonore ou audiovisuel réalisé en premier ressort.\n5° En présentant l'accusation, le président donne aussi connaissance du sens de la décision de premier ressort, de sa motivation et, le cas échéant, de la condamnation prononcée. Il conserve pour le délibéré, avec la décision de renvoi, l'arrêt de premier ressort et la feuille de motivation qui l'accompagne.\n6° Les arrêts sur les incidents contentieux ne peuvent être attaqués en cassation qu'avec l'arrêt sur le fond.\n7° Après le prononcé, le président avertit l'accusé, s'il y a lieu, de sa faculté de se pourvoir en cassation et du délai de pourvoi."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4353-5",
+      "principe": "P23",
+      "motif": "Serment des jurés en appel limité à la peine : formule gardée mot pour mot.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : le serment fait juger la peine d'après les charges et les moyens de défense.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L4353-10",
-      "decision": "G",
       "principe": "P24",
-      "motif": "Appel limité à la peine : seuls les témoins utiles à la peine sont entendus.",
-      "ligne_rouge": "art. 8 DDHC examiné : la cour connaît les faits et la personnalité pour fixer la peine"
-    },
-    {
-      "code": "cpp",
-      "num": "L4353-11",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Appel limité à la peine : pas de questions sur la culpabilité.",
-      "ligne_rouge": "art. 8 DDHC examiné : la culpabilité est acquise, la peine se fixe dans le barème"
-    },
-    {
-      "code": "cpp",
-      "num": "L4353-12",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Le président conserve pour le délibéré l'arrêt de premier ressort et sa motivation.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4353-13",
+      "motif": "Appel limité à la peine : audition des seuls témoins utiles à la peine et délibéré sans questions sur la culpabilité (L4353-11 fusionné).",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : la cour d'appel entend ce qui éclaire les faits et la personnalité de l'accusé avant de fixer la peine.",
       "decision": "R",
-      "principe": "P14",
-      "motif": "En appel, la culpabilité exige huit voix sur douze : gardé. La majorité qualifiée pour le maximum de la peine tombe avec L4325-14 (lot p144) : la peine encourue est la référence, la diminution se motive.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : majorité de huit voix sur la culpabilité, tenue ; art. 8 DDHC examiné : la cour vote la peine dans le barème à la majorité absolue (registre 4.4)",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque la cour d'assises statue en appel, la majorité qualifiée exigée par l'article L. 4325-6 pour prononcer une décision défavorable à l'accusé est de huit voix au moins."
+          "nouveau": "Lorsque l'appel est limité à la décision sur la peine selon l'article L. 4351-10, seuls sont entendus les témoins et experts dont la déposition est nécessaire pour éclairer les assesseurs et les jurés sur les faits commis et sur la personnalité de l'accusé, à l'exclusion des personnes dont la déposition ne serait utile qu'à établir sa culpabilité. Les dispositions relatives aux questions sur la culpabilité ne s'appliquent pas au délibéré."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4353-14",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Acquittement ou absence de confiscation en appel : mainlevée de la saisie et restitution du produit.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Mainlevée et restitution après acquittement ou sans confiscation en appel : gardées, en une phrase.",
+      "ligne_rouge": "Propriété (art. 17 DDHC) et présomption d'innocence : l'acquitté recouvre son bien ou le produit de sa vente.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la saisie d'un bien confisqué qui n'était pas sous main de justice, ou sa remise aux fins d'aliénation à l'Agence de gestion et de recouvrement des avoirs saisis et confisqués, a été ordonnée en premier ressort selon l'article L. 4326-7, l'arrêt d'appel qui acquitte l'accusé ou ne prononce pas la confiscation du bien emporte de plein droit mainlevée de la saisie, aux frais avancés du Trésor, et restitution du produit de la vente à la demande du propriétaire, sauf décision de non-restitution prise selon le présent code."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L4353-15",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Avertissement du délai de pourvoi.",
-      "ligne_rouge": "aucune"
+      "num": "L4351-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Titulaires de l'appel, acquittement attaquable par le seul procureur général : L4351-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Juridiction d'appel : L4351-1 ; la désignation d'une autre cour d'assises est écrite à L4352-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Appel incident sous cinq jours : L4351-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Appel du détenu par déclaration au chef d'établissement : L4351-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pas d'aggravation sur le seul appel de l'accusé : L4351-10.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Effet suspensif sauf titre de détention : L4351-10.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : la peine prononcée en premier ressort reste suspendue, sauf le titre de détention de L4326-4.",
+      "vers": "L4351-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pas de demande nouvelle de la partie civile, augmentation du préjudice : L4351-13.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Droits de la partie civile non appelante : L4351-13.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis de la date d'audience à la partie civile : L4351-13.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Sursis à l'exécution civile : L4351-13.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L4351-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exécution provisoire en référé devant le premier président : L4351-13.",
+      "ligne_rouge": "aucune",
+      "vers": "L4351-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L4352-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Désignation hors ressort par la chambre criminelle dans le mois : L4352-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4352-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4352-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autre cour d'assises ou même cour autrement composée : L4352-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4352-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4352-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Appel tardif ou irrecevable : L4352-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4352-1"
     },
     {
       "code": "cpp",
       "num": "L4353-2",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Complément de la liste de session sous vingt-trois jurés.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Complément de la liste sous vingt-trois jurés : 1° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
     },
     {
       "code": "cpp",
       "num": "L4353-3",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Jury d'appel de neuf.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Jury d'appel de neuf : 2° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
     },
     {
       "code": "cpp",
       "num": "L4353-4",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Récusations en appel : cinq et quatre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4353-5",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Serment des jurés en appel limité à la peine.",
-      "ligne_rouge": "art. 8 DDHC examiné : les jurés se prononcent sur la peine d'après les charges et la défense, dans le barème"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Récusations en appel : 2° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
     },
     {
       "code": "cpp",
       "num": "L4353-6",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Enregistrement sonore obligatoire en appel, cassation si son défaut a nui au condamné : la décision se contrôle.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Enregistrement sonore obligatoire en appel : 4° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
     },
     {
       "code": "cpp",
       "num": "L4353-7",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Consultation de l'enregistrement du premier ressort.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Consultation de l'enregistrement de premier ressort : 4° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
     },
     {
       "code": "cpp",
       "num": "L4353-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le président donne connaissance de la décision de premier ressort et de sa motivation.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Connaissance de la décision de premier ressort et de sa motivation : 5° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
     },
     {
       "code": "cpp",
       "num": "L4353-9",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Arrêts incidents attaquables en cassation avec l'arrêt au fond seulement.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Arrêts incidents attaquables avec le fond : 6° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4353-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pas de questions sur la culpabilité en appel limité à la peine : L4353-10.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : la culpabilité n'est plus en débat, la peine seule se délibère.",
+      "vers": "L4353-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L4353-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pièces conservées pour le délibéré : 5° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4353-13",
+      "decision": "F",
+      "principe": "P14",
+      "motif": "Majorité de huit voix en appel (texte de la passe 2) : 3° de L4353-1.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) et présomption d'innocence : huit voix sur douze pour la culpabilité, gardées mot pour mot au 3° de L4353-1.",
+      "vers": "L4353-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4353-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avertissement du délai de pourvoi : 7° de L4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4353-1"
     }
-  ]
+  ],
+  "passe": 3
 }
