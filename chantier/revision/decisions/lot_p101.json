@@ -10,58 +10,71 @@
     {
       "code": "penitentiaire",
       "num": "L741-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Application de plein droit à Saint-Pierre-et-Miquelon, sous réserve des adaptations du titre : des adaptations subsistent.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Clause d'application et table d'adaptations en un article : les six articles du titre (collectivité, juridictions, chef d'établissement au lieu du service d'insertion et de probation pour L. 5212-5 du code de procédure pénale et L. 411-1, sécurité sociale de l'archipel, filet) deviennent ses lignes.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent code s'applique à Saint-Pierre-et-Miquelon, ainsi adapté :\n1° La collectivité tient lieu de département.\n2° Le tribunal de première instance ou sa section détachée tient lieu de tribunal judiciaire, le juge d'instruction de pôle de l'instruction.\n3° Pour l'article L. 5212-5 du code de procédure pénale et l'article L. 411-1, le chef de l'établissement pénitentiaire tient lieu du service pénitentiaire d'insertion et de probation et de son directeur.\n4° Les personnes écrouées sont affiliées au régime obligatoire de sécurité sociale de l'archipel (ordonnance n° 77-1102 du 26 septembre 1977).\n5° Un renvoi à une disposition non applicable localement vise la disposition locale de même objet."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L741-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Substitution de la collectivité au département : nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L741-1"
     },
     {
       "code": "penitentiaire",
       "num": "L741-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Clause générale de substitution des références non applicables localement : filet.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L741-1"
     },
     {
       "code": "penitentiaire",
       "num": "L741-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Tribunal de première instance au lieu du tribunal judiciaire, juge d'instruction au lieu du pôle : organisation judiciaire propre à l'archipel, nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L741-1"
     },
     {
       "code": "penitentiaire",
       "num": "L743-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Sans service d'insertion et de probation dans l'archipel, le chef d'établissement en exerce les fonctions pour L. 5212-5 du code de procédure pénale : contrainte matérielle, adaptation nécessaire pour que la convocation après condamnation reste possible.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L741-1"
     },
     {
       "code": "penitentiaire",
       "num": "L744-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Affiliation des écroués au régime de sécurité sociale propre à l'archipel (ordonnance n° 77-1102) : le régime général n'y est pas applicable, adaptation nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L741-1"
     },
     {
       "code": "penitentiaire",
       "num": "L745-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "L'obligation d'activité de L. 411-1 sans le directeur du service d'insertion et de probation, absent de l'archipel : le chef d'établissement propose seul les activités. Adaptation nécessaire, l'obligation est tenue.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L741-1"
     }
-  ]
+  ],
+  "passe": 3
 }
