@@ -10,144 +10,182 @@
     {
       "code": "cpp",
       "num": "L6241-1",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Transfèrement conventionnel : la peine étrangère s'exécute selon le présent code.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine exécutée en France est celle prononcée par l'État de condamnation, jamais aggravée, ramenée au plus au maximum légal français"
+      "motif": "Reçoit L6241-3 (exécution directe), L6241-6 (imputation des délais de transfèrement) et L6241-8 (non bis in idem) : l'effet du transfèrement dans un article. La peine étrangère s'exécute, sans autre réduction que la détention déjà subie.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine prononcée s'exécute pour la partie restant à subir, les délais de transfèrement s'imputent, et la personne ne peut être poursuivie ni condamnée en France pour les mêmes faits : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue transférée sur le territoire français en application d'une convention ou d'un accord internationaux exécute directement et immédiatement, dans les conditions du présent code, la partie restant à subir de la peine prononcée par la juridiction étrangère. Les délais de transfèrement s'imputent intégralement sur sa durée. Aucune poursuite ne peut être exercée ou continuée, ni aucune condamnation exécutée, contre elle à raison des mêmes faits."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6241-2",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Présentation au procureur, vingt-quatre heures au plus en maison d'arrêt, incarcération immédiate requise : délai opposable.",
-      "ligne_rouge": "art. 66 C examiné : détention d'attente limitée à vingt-quatre heures, titre étranger reconnu par convention"
-    },
-    {
-      "code": "cpp",
-      "num": "L6241-3",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Exécution directe et immédiate de la partie restant à subir : la peine prononcée s'exécute.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine exécutée en France est celle prononcée par l'État de condamnation, jamais aggravée, ramenée au plus au maximum légal français"
+      "motif": "Présentation au procureur de la République, vingt-quatre heures au plus en maison d'arrêt, incarcération sur pièces : gardées ; phrases resserrées. L'article sert aussi à la personne transférée par la Cour pénale internationale (L6253-5).",
+      "ligne_rouge": "aucune (passe 1) ; délai de vingt-quatre heures avant présentation à un magistrat gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dès son arrivée, la personne est présentée au procureur de la République du lieu d'arrivée, qui l'interroge sur son identité par procès-verbal. A défaut d'interrogatoire immédiat, elle est conduite à la maison d'arrêt, où elle ne peut être détenue plus de vingt-quatre heures avant d'être conduite d'office devant ce magistrat. Au vu de l'accord des Etats sur le transfèrement, du consentement de l'intéressé et du jugement étranger et, s'il y a lieu, de sa traduction officielle, le procureur de la République requiert l'incarcération immédiate du condamné."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6241-4",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Adaptation au maximum légal français par le tribunal, saisi par le parquet ou le condamné : le maximum encouru reste la référence.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine exécutée en France est celle prononcée par l'État de condamnation, jamais aggravée, ramenée au plus au maximum légal français"
-    },
-    {
-      "code": "cpp",
-      "num": "L6241-5",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Jugement en audience publique, condamné et avocat entendus : conforme à P26.",
-      "ligne_rouge": "art. 16 DDHC examiné : condamné et avocat entendus"
-    },
-    {
-      "code": "cpp",
-      "num": "L6241-6",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Imputation des délais de transfèrement : la détention subie compte, sans autre réduction.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine exécutée en France est celle prononcée par l'État de condamnation, jamais aggravée, ramenée au plus au maximum légal français"
-    },
-    {
-      "code": "cpp",
-      "num": "L6241-7",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Incidents d'exécution selon la procédure commune de L5113-10 et L5113-11 (L5113-10 rendu public au lot p000) : un seul régime.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine exécutée en France est celle prononcée par l'État de condamnation, jamais aggravée, ramenée au plus au maximum légal français"
-    },
-    {
-      "code": "cpp",
-      "num": "L6241-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Non bis in idem pendant l'exécution en France de la peine étrangère.",
-      "ligne_rouge": "art. 8 DDHC examiné : nul n'est puni deux fois pour les mêmes faits"
+      "motif": "Reçoit L6241-5 (jugement, audition, exécution provisoire) et L6241-7 (incidents d'exécution) : le tribunal du lieu de détention et ses deux offices dans un article. La publicité suit L. 1.",
+      "ligne_rouge": "Art. 8 DDHC examiné : le maximum légal français reste la borne de la peine exécutée en France, le tribunal adapte sans aggraver ; la personne est entendue avec son avocat : gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la peine est, par sa nature ou sa durée, plus rigoureuse que la peine prévue par la loi française pour les mêmes faits, le tribunal délictuel du lieu de détention, saisi par le procureur de la République ou la personne condamnée, lui substitue la peine française la plus proche ou la réduit au maximum légal. Il fixe la nature et, dans la limite de la partie restant à subir, la durée de la peine à exécuter. Il statue après avoir entendu le ministère public, la personne et, le cas échéant, son avocat choisi ou commis d'office à sa demande. Le jugement est exécutoire nonobstant appel.\nIl connaît aussi des incidents contentieux d'exécution, selon les articles L. 5113-10 et L. 5113-11."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6242-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Champ de l'exécution des confiscations étrangères hors convention : la confiscation s'exécute.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6242-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Autorisation par le tribunal du lieu des biens, sur requête du parquet, d'une décision définitive : le juge décide de l'atteinte au bien.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6242-2 (autorisation par le tribunal, décision définitive) : le champ et le juge de l'exécution des confiscations étrangères dans un article.",
+      "ligne_rouge": "aucune (passe 1) ; DDHC art. 17 : l'atteinte au bien est autorisée par un juge, sur une décision étrangère définitive.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sauf convention internationale contraire, l'exécution d'une décision de confiscation d'une autorité judiciaire étrangère, portant sur tout bien qui a servi ou était destiné à commettre l'infraction, qui paraît en être le produit direct ou indirect ou dont la valeur correspond à ce produit, est autorisée par le tribunal délictuel du lieu de l'un des biens ou, à défaut, de Paris, sur requête du procureur de la République. La décision étrangère doit être définitive et exécutoire selon la loi de l'Etat requérant."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6242-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Transfert de propriété à l'État, vente, partage au-delà de 10 000 € : règle courte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6242-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Confiscation en valeur : l'État devient créancier. « L'article précédent » devient le numéro qu'il désigne (L. 6242-3), pour que le renvoi tienne.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Reçoit L6242-4 (confiscation en valeur) : les effets de l'exécution et le partage du produit dans un article. Seuil de 10 000 € et partage par moitié gardés. Le renvoi au code du domaine de l'Etat pour la vente tombe : ce code régit seul les biens de l'Etat.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "selon les règles prévues à l'article précédent.",
-          "nouveau": "selon les règles prévues à l'article L. 6242-3."
+          "op": "rediger",
+          "nouveau": "L'exécution transfère à l'Etat la propriété des biens confisqués, sauf accord contraire avec l'Etat requérant. La confiscation en valeur rend l'Etat créancier de la somme correspondante, qu'il recouvre à défaut de paiement sur tout bien disponible. Les sommes recouvrées et le produit de la vente des biens, frais d'exécution déduits, reviennent à l'Etat lorsque leur montant est inférieur à 10 000 € et, dans les autres cas, pour moitié à l'Etat et pour moitié à l'Etat requérant."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L6242-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Droits des tiers réservés, sauf s'ils ont pu les faire valoir à l'étranger : propriété protégée.",
-      "ligne_rouge": "art. 17 DDHC examiné : droits des tiers de bonne foi réservés"
     },
     {
       "code": "cpp",
       "num": "L6242-6",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Audition facultative des intéressés, avocat, tribunal lié par les faits étrangers : garanties et célérité.",
-      "ligne_rouge": "art. 16 DDHC examiné : représentation par avocat"
+      "motif": "Reçoit L6242-5 (droits des tiers) : la procédure devant le tribunal et la protection des tiers dans un article.",
+      "ligne_rouge": "aucune (passe 1) ; DDHC art. 17 : propriétaire, condamné et tiers entendus avec un avocat, droits des tiers réservés sauf s'ils ont pu les faire valoir à l'étranger.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tribunal peut entendre, au besoin par commission rogatoire, le propriétaire du bien, le condamné et toute personne ayant des droits sur les biens, qui peuvent se faire représenter par un avocat. Il est lié par les constatations de fait de la décision étrangère et peut demander à l'autorité étrangère, dans un délai qu'il fixe, les informations complémentaires nécessaires.\nL'exécution ne porte pas atteinte aux droits licitement constitués au profit des tiers selon la loi française. La décision étrangère qui statue sur ces droits s'impose toutefois, sauf si les tiers n'ont pu les faire valoir devant la juridiction étrangère dans des conditions analogues à celles de la loi française."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6242-7",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Motifs de refus : double incrimination, garanties de défense, discrimination, non bis in idem, infraction politique.",
-      "ligne_rouge": "art. 8 DDHC et art. 17 DDHC (propriété) examinés : la confiscation étrangère s'exécute dans les limites de la loi française, droits des tiers de bonne foi réservés ; art. 16 DDHC examiné : refus si la décision étrangère n'offre pas les garanties de la défense"
+      "motif": "Reçoit L6242-8 (mainlevée de plein droit, aux frais du Trésor, reçue de L6223-4 en passe 2). Motifs de refus gardés, les deux premiers réunis au 1° sans changement de champ ; « Sans préjudice de l'application de l'article L. 6221-6 » se lit « Outre le cas de », qui garde le cumul.",
+      "ligne_rouge": "Art. 8 DDHC examiné : double incrimination, garanties de défense, non-discrimination, non bis in idem, infraction politique : gardés ; mainlevée de plein droit à défaut d'exécution gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Outre le cas de l'article L. 6221-6, l'exécution de la confiscation est refusée :\n1° Si les faits ne constituent pas une infraction, ou si les biens ne peuvent être confisqués, selon la loi française.\n2° Si la décision étrangère n'offre pas de garanties suffisantes au regard des libertés individuelles et des droits de la défense.\n3° S'il est établi qu'elle a été émise dans le but de poursuivre ou de condamner une personne en raison de son sexe, de sa race, de sa religion, de son origine ethnique, de sa nationalité, de sa langue, de ses opinions politiques ou de son orientation sexuelle ou identité de genre.\n4° Si le ministère public français a décidé de ne pas poursuivre les faits, ou s'ils ont été jugés définitivement en France ou dans un Etat autre que l'Etat demandeur, à condition, en cas de condamnation, que la peine ait été exécutée, soit en cours d'exécution ou ne puisse plus l'être selon la loi de l'Etat de condamnation.\n5° Si elle porte sur une infraction politique.\nLe refus emporte de plein droit mainlevée des saisies, aux frais du Trésor. Il en est de même lorsque les poursuites étrangères ont pris fin ou n'ont pas conduit à la confiscation des biens saisis."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6241-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exécution directe et immédiate : premier alinéa de L6241-1.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la partie restant à subir s'exécute : gardé à L6241-1.",
+      "vers": "L6241-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L6241-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Audition et exécution nonobstant appel : premier alinéa de L6241-4 ; la publicité suit L. 1.",
+      "ligne_rouge": "aucune",
+      "vers": "L6241-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L6241-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Imputation des délais de transfèrement : premier alinéa de L6241-1.",
+      "ligne_rouge": "Art. 8 DDHC examiné : imputation intégrale gardée à L6241-1.",
+      "vers": "L6241-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L6241-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Incidents d'exécution devant le tribunal du lieu de détention : second alinéa de L6241-4.",
+      "ligne_rouge": "Art. 8 DDHC examiné : procédure commune de L5113-10 et L5113-11 gardée à L6241-4.",
+      "vers": "L6241-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L6241-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Non bis in idem : second alinéa de L6241-1.",
+      "ligne_rouge": "Art. 8 DDHC examiné : interdiction de poursuivre ou d'exécuter pour les mêmes faits gardée mot pour mot ou presque à L6241-1.",
+      "vers": "L6241-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L6242-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorisation par le tribunal sur décision définitive : L6242-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L6242-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L6242-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Confiscation en valeur et partage : L6242-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L6242-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L6242-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Droits des tiers : second alinéa de L6242-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L6242-6"
     },
     {
       "code": "cpp",
       "num": "L6242-8",
-      "decision": "S",
-      "principe": "P3",
-      "motif": "Mainlevée de plein droit de la saisie sur refus ou fin des poursuites. Reçoit L6223-4, qui portait la même règle : la charge des frais par le Trésor est reprise, au pluriel des saisies.",
-      "ligne_rouge": "art. 17 DDHC examiné : mainlevée de plein droit aux frais du Trésor",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "emporte de plein droit mainlevée de la saisie.",
-          "nouveau": "emporte de plein droit, aux frais du Trésor, mainlevée des saisies ordonnées."
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mainlevée de plein droit : dernier alinéa de L6242-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L6242-7"
     }
-  ]
+  ],
+  "passe": 3
 }
