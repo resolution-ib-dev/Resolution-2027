@@ -10,113 +10,154 @@
     {
       "code": "cp",
       "num": "311-1",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Définition du vol : socle du livre III.",
-      "ligne_rouge": "aucune"
+      "motif": "Inchangé : définition du vol.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "311-2",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Soustraction d'énergie assimilée au vol.",
-      "ligne_rouge": "aucune"
+      "motif": "Inchangé : soustraction d'énergie.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "311-3",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Vol simple. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; atteinte aux biens, noyau"
+      "motif": "Inchangé : vol simple.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "311-3-1",
-      "decision": "R",
       "principe": "P5",
-      "motif": "Amende forfaitaire du vol de 300 euros au plus, chose restituée ou victime indemnisée. Ouverte au récidiviste, elle sort du barème : le récidiviste revient à la règle générale de L. 4223-3, qui le renvoie devant le juge. Renvoi coordonné par la version du 1er janvier 2029.",
-      "ligne_rouge": "art. 8 DDHC examiné : la voie forfaitaire reste ouverte au primo-délinquant, le récidiviste passe devant le juge qui module dans le barème ; art. 16 DDHC examiné : la contestation va au ministère public (L. 4223-10 à L. 4223-14), qui renonce ou poursuit devant le tribunal. L'irrecevabilité se conteste devant le juge (L. 4223-21). La consignation reste écartée. P18 examiné : la voie forfaitaire suppose la victime restituée ou indemnisée, elle peut faire citer l'auteur (L. 4223-23).",
+      "motif": "Registre 1.18 : l'amende forfaitaire n'est plus ouverte au récidiviste, qui revient devant le juge (L. 4223-3 du code de procédure pénale). Montants en une phrase.",
+      "ligne_rouge": "Art. 8 DDHC et individualisation examinés : le récidiviste est jugé ; la victime est restituée ou indemnisée avant toute extinction (P18).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "éteinte, y compris en cas de récidive, dans",
-          "nouveau": "éteinte dans"
+          "op": "rediger",
+          "nouveau": "Lorsque le vol prévu à l'article 311-3 porte sur une chose dont la valeur est inférieure ou égale à 300 euros et qu'il apparaît au moment de la constatation de l'infraction que cette chose a été restituée à la victime ou que celle-ci a été indemnisée de son préjudice, l'action pénale peut être éteinte dans les conditions prévues aux articles L. 4223-1 à L. 4223-23 du code de procédure pénale, par le versement d'une amende forfaitaire de 300 euros, minorée à 250 euros et majorée à 600 euros."
         }
       ]
     },
     {
       "code": "cp",
       "num": "311-4",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Douze circonstances aggravantes du vol, cumulables. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "principe": "P23",
+      "motif": "Douze circonstances aggravantes gardées, sans point-virgule.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le vol est puni de cinq ans d'emprisonnement et de 75 000 euros d'amende :\n1° Lorsqu'il est commis par plusieurs personnes agissant en qualité d'auteur ou de complice, sans qu'elles constituent une bande organisée.\n2° Lorsqu'il est commis par une personne dépositaire de l'autorité publique ou chargée d'une mission de service public, dans l'exercice ou à l'occasion de l'exercice de ses fonctions ou de sa mission.\n3° Lorsqu'il est commis par une personne qui prend indûment la qualité d'une personne dépositaire de l'autorité publique ou chargée d'une mission de service public.\n4° Lorsqu'il est précédé, accompagné ou suivi de violences sur autrui n'ayant pas entraîné une incapacité totale de travail.\n5° Lorsqu'il porte sur du matériel médical ou paramédical ou lorsqu'il est commis dans un établissement de santé ou au préjudice d'un professionnel de santé à l'occasion de l'exercice ou en raison de ses fonctions.\n6° Lorsqu'il est commis dans un local d'habitation ou dans un lieu utilisé ou destiné à l'entrepôt de fonds, valeurs, marchandises ou matériels.\n7° Lorsqu'il est commis dans un véhicule affecté au transport collectif de voyageurs ou dans un lieu destiné à l'accès à un moyen de transport collectif de voyageurs.\n8° Lorsqu'il est précédé, accompagné ou suivi d'un acte de destruction, dégradation ou détérioration.\n9° Lorsqu'il est commis dans un lieu dans lequel est exercée une activité agricole, de pêche maritime ou d'aquaculture, au sens des articles L. 311-1 ou L. 911-1 du code rural et de la pêche maritime.\n10° Lorsqu'il est commis par une personne dissimulant volontairement en tout ou partie son visage afin de ne pas être identifiée.\n11° Lorsqu'il est commis dans les établissements d'enseignement ou d'éducation ainsi que, lors des entrées ou sorties des élèves ou dans un temps très voisin de celles-ci, aux abords de ces établissements.\n12° Lorsqu'il est destiné à alimenter le commerce illégal d'animaux.\nLes peines sont portées à sept ans d'emprisonnement et à 100 000 euros d'amende lorsque le vol est commis dans deux des circonstances prévues par le présent article. Elles sont portées à dix ans d'emprisonnement et à 150 000 euros d'amende lorsque le vol est commis dans trois de ces circonstances."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-4-1",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Vol commis par un majeur avec l'aide de mineurs. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; minorité examinée : l'aggravation frappe le majeur qui enrôle, non le mineur"
+      "motif": "Inchangé : vol commis par un majeur avec l'aide de mineurs.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "311-4-2",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Vol de biens culturels protégés. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; art. 66 C signalé par la passe 1 : l'article ne touche aucune privation de liberté, aucune garantie en jeu"
+      "principe": "P23",
+      "motif": "Vol de biens culturels, sans point-virgule ; texte inchangé.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; la ligne rouge de l'art. 66 C relevée en passe 1 ne touche pas cet article d'incrimination, qui ne prévoit aucune privation de liberté hors jugement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le vol est puni de sept ans d'emprisonnement et de 100 000 € d'amende lorsqu'il porte sur :\n1° Un objet mobilier classé ou inscrit en application des dispositions du code du patrimoine ou un document d'archives privées classé en application des dispositions du même code.\n2° Une découverte archéologique faite au cours de fouilles ou fortuitement.\n3° Un bien culturel qui relève du domaine public mobilier ou qui est exposé, conservé ou déposé, même de façon temporaire, soit dans un musée de France, une bibliothèque, une médiathèque ou un service d'archives, soit dans un lieu dépendant d'une personne publique ou d'une personne privée assurant une mission d'intérêt général, soit dans un édifice affecté au culte.\nLes peines sont portées à dix ans d'emprisonnement et 150 000 € d'amende lorsque l'infraction prévue au présent article est commise avec l'une des circonstances prévues à l'article 311-4.\nLes peines d'amende mentionnées au présent article peuvent être élevées jusqu'à la moitié de la valeur du bien volé."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-5",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Vol avec violences légères, sur personne vulnérable ou avec effraction au domicile. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; P18 examiné : la vulnérabilité de la victime aggrave"
+      "principe": "P23",
+      "motif": "Énumération sans point-virgule ; texte inchangé.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le vol est puni de sept ans d'emprisonnement et de 100 000 € d'amende :\n1° Lorsqu'il est précédé, accompagné ou suivi de violence sur autrui ayant entraîné une incapacité totale de travail pendant huit jours au plus.\n2° Lorsqu'il est facilité par l'état d'une personne dont la particulière vulnérabilité, due à son âge, à une maladie, à une infirmité, à une déficience physique ou psychique ou à un état de grossesse, est apparente ou connue de son auteur.\n3° Lorsqu'il est commis dans un local d'habitation ou dans un lieu utilisé ou destiné à l'entrepôt de fonds, valeurs, marchandises ou matériels, en pénétrant dans les lieux par ruse, effraction ou escalade.\nLes peines sont portées à dix ans d'emprisonnement et à 150 000 € d'amende lorsque le vol est commis dans deux des circonstances prévues par le présent article ou lorsque le vol prévu au présent article est également commis dans l'une des circonstances prévues par l'article 311-4."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-6",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Vol avec violences ayant causé une incapacité de plus de huit jours, période de sûreté de droit. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "principe": "P20",
+      "motif": "La période de sûreté rejoint la clause commune de 311-10.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; période de sûreté de plein droit gardée par la clause commune de 311-10, qui nomme cet article",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le vol est puni de dix ans d'emprisonnement et de 150 000 euros d'amende lorsqu'il est précédé, accompagné ou suivi de violences sur autrui ayant entraîné une incapacité totale de travail pendant plus de huit jours."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-7",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Vol avec violences ayant causé une mutilation ou une infirmité permanente. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P20",
+      "motif": "La période de sûreté rejoint la clause commune de 311-10.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; période de sûreté de plein droit gardée par la clause commune de 311-10, qui nomme cet article",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le vol est puni de quinze ans de réclusion criminelle et de 150 000 euros d'amende lorsqu'il est précédé, accompagné ou suivi de violences sur autrui ayant entraîné une mutilation ou une infirmité permanente."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-8",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Vol avec arme. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P20",
+      "motif": "La période de sûreté rejoint la clause commune de 311-10.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; période de sûreté de plein droit gardée par la clause commune de 311-10, qui nomme cet article",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le vol est puni de vingt ans de réclusion criminelle et de 150 000 euros d'amende lorsqu'il est commis soit avec usage ou menace d'une arme, soit par une personne porteuse d'une arme soumise à autorisation ou dont le port est prohibé."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-9",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Vol en bande organisée, gradué par la violence et l'arme. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P20",
+      "motif": "La période de sûreté rejoint la clause commune de 311-10.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; période de sûreté de plein droit gardée par la clause commune de 311-10, qui nomme cet article",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le vol en bande organisée est puni de quinze ans de réclusion criminelle et de 150 000 euros d'amende.\nIl est puni de vingt ans de réclusion criminelle et de 150 000 euros d'amende lorsqu'il est précédé, accompagné ou suivi de violences sur autrui.\nIl est puni de trente ans de réclusion criminelle et de 150 000 euros d'amende lorsqu'il est commis soit avec usage ou menace d'une arme, soit par une personne porteuse d'une arme soumise à autorisation ou dont le port est prohibé."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-9-1",
-      "decision": "S",
       "principe": "P20",
-      "motif": "Registre 1.9 : la réduction spéciale du repenti (deuxième alinéa) est abrogée au profit du barème, le repenti relevant de 132-78 (diminution [d'un cinquième] au plus, catégorie 3 de 132-1-1, perpétuité ramenée à [trente] ans pour un majeur, registre 1.10). L'exemption de la tentative dénoncée et empêchée est gardée, hors plafond du barème.",
-      "ligne_rouge": "Art. 8 DDHC et individualisation au prononcé examinés : le repenti garde sa diminution par 132-78, bornée et imputée sur la catégorie 3, la juridiction l'apprécie. Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa). L'exemption de la tentative avortée par l'auteur est gardée.",
+      "motif": "Registre 1.9 et 9.32 : la réduction spéciale du repenti (deux tiers) est abrogée, le repenti relève de 132-78 (un cinquième au plus, catégorie 3 de 132-1-1). L'exemption de la tentative dénoncée et empêchée est gardée, hors plafond.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution pour aide à l'autorité reste due par 132-78, bornée et motivée ; aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa).",
+      "decision": "S",
       "operations": [
         {
           "op": "rediger",
@@ -127,106 +168,146 @@
     {
       "code": "cp",
       "num": "311-10",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Vol avec violences mortelles, tortures ou actes de barbarie. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P23",
+      "motif": "Une clause de période de sûreté pour les cinq vols aggravés de 311-6 à 311-10, au lieu de cinq.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; la période de sûreté de plein droit vise les mêmes infractions qu'en 2029, la juridiction garde la modulation de 132-23.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le vol est puni de la réclusion criminelle à perpétuité et de 150 000 euros d'amende lorsqu'il est précédé, accompagné ou suivi soit de violences ayant entraîné la mort, soit de tortures ou d'actes de barbarie.\nLes deux premiers alinéas de l'article 132-23 relatif à la période de sûreté sont applicables aux infractions prévues par les articles 311-6 à 311-10."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-11",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Définition du vol suivi de violences, une fois pour les articles qui l'emploient.",
-      "ligne_rouge": "aucune"
+      "motif": "Inchangé : définition du vol suivi de violences.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "311-12",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Immunité familiale du vol, écartée pour les documents indispensables à la vie quotidienne et pour les protecteurs légaux : elle préserve la famille sans livrer la victime vulnérable.",
-      "ligne_rouge": "P18 examiné : l'immunité tombe quand le vol porte sur les documents ou moyens de paiement de la victime, ou quand l'auteur est son tuteur, curateur ou mandataire"
+      "principe": "P23",
+      "motif": "L'immunité familiale, étendue par quatre renvois (312-9, 312-12, 313-3, 314-4), s'écrit une fois avec son champ entier ; 314-4 est fusionné. Énumération sans point-virgule.",
+      "ligne_rouge": "Vie familiale (CEDH art. 8) examinée : l'immunité garde ses exceptions protectrices de la victime vulnérable (documents indispensables, protecteurs légaux) ; même champ qu'en 2029.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ne peut donner lieu à des poursuites pénales le vol commis par une personne :\n1° Au préjudice de son ascendant ou de son descendant.\n2° Au préjudice de son conjoint, sauf lorsque les époux sont séparés de corps ou autorisés à résider séparément.\nLe présent article n'est pas applicable :\na) Lorsque le vol porte sur des objets ou des documents indispensables à la vie quotidienne de la victime, tels que des documents d'identité, relatifs au titre de séjour ou de résidence d'un étranger, ou des moyens de paiement ou de télécommunication.\nb) Lorsque l'auteur des faits est le tuteur, le curateur, le mandataire spécial désigné dans le cadre d'une sauvegarde de justice, la personne habilitée dans le cadre d'une habilitation familiale ou le mandataire exécutant un mandat de protection future de la victime.\nLe présent article s'applique, dans les mêmes conditions, à l'extorsion, au chantage, au délit d'escroquerie et à l'abus de confiance."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "311-13",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Tentative des délits du chapitre punie comme l'infraction consommée.",
-      "ligne_rouge": "aucune"
+      "motif": "Inchangé : tentative des délits du chapitre.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "311-14",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Peines complémentaires attachées au chapitre : outils de la peine encourue, gardés. Le quantum relève du barème. L'interdiction d'arme obligatoire, écartée par décision spécialement motivée, porte la charge de la motivation sur la clémence.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; l'interdiction d'arme peut être écartée par décision spécialement motivée"
-    },
-    {
-      "code": "cp",
-      "num": "311-16",
-      "decision": "A",
       "principe": "P20",
-      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
-      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
+      "motif": "La confiscation de la chose et du produit tombe : 131-21 la prévoit de plein droit pour tous les vols, punis d'au moins trois ans. Les modalités des articles 131-26 à 131-31 sont visées sans être répétées ; énumération sans point-virgule.",
+      "ligne_rouge": "Art. 8 DDHC et individualisation examinés : l'interdiction d'arme reste obligatoire sauf décision spécialement motivée ; chaque peine garde sa borne.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "I.-Les personnes physiques coupables de l'une des infractions prévues au présent chapitre encourent également les peines complémentaires suivantes :\n1° L'interdiction des droits civiques, civils et de famille prévue à l'article 131-26.\n2° L'interdiction, prévue à l'article 131-27, d'exercer une fonction publique ou l'activité professionnelle ou sociale dans l'exercice ou à l'occasion de l'exercice de laquelle l'infraction a été commise, ou d'exercer une profession commerciale ou industrielle ou de diriger, d'administrer, de gérer ou de contrôler une entreprise commerciale ou industrielle ou une société commerciale. Elle est définitive ou temporaire dans les cas prévus aux articles 311-6 à 311-10 et de cinq ans au plus dans les cas prévus aux articles 311-3 à 311-5. Ces interdictions d'exercice peuvent être prononcées cumulativement.\n3° L'interdiction de détenir ou de porter, pour une durée de cinq ans au plus, une arme soumise à autorisation.\n4° L'interdiction de séjour prévue à l'article 131-31, dans les cas prévus par les articles 311-5 à 311-10.\nII.-En cas de condamnation pour vol commis avec violence ou pour vol puni d'une peine criminelle, le prononcé de la peine complémentaire prévue au 3° du I est obligatoire.\nToutefois, la juridiction peut, par une décision spécialement motivée lorsque la condamnation est prononcée par une juridiction délictuelle, décider de ne pas prononcer cette peine, en considération des circonstances de l'infraction et de la personnalité de son auteur."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-1",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Extorsion, définition et peine simple. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; atteinte aux biens et aux personnes, noyau"
+      "motif": "Inchangé : extorsion.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "312-2",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Extorsion aggravée. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "principe": "P20",
+      "motif": "La mention du 3° abrogé tombe, les numéros restent ; énumération sans point-virgule.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; protection de la personne vulnérable gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'extorsion est punie de dix ans d'emprisonnement et de 150 000 euros d'amende :\n1° Lorsqu'elle est précédée, accompagnée ou suivie de violences sur autrui ayant entraîné une incapacité totale de travail pendant huit jours au plus.\n2° Lorsqu'elle est commise au préjudice d'une personne dont la particulière vulnérabilité, due à son âge, à une maladie, à une infirmité, à une déficience physique ou psychique ou à un état de grossesse, est apparente ou connue de son auteur.\n4° Lorsqu'elle est commise par une personne dissimulant volontairement en tout ou partie son visage afin de ne pas être identifiée.\n5° Lorsqu'elle est commise dans les établissements d'enseignement ou d'éducation ainsi que, lors des entrées ou sorties des élèves ou dans un temps très voisin de celles-ci, aux abords de ces établissements."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-3",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Extorsion avec incapacité de plus de huit jours. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P20",
+      "motif": "La période de sûreté rejoint la clause commune de 312-7.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; période de sûreté de plein droit gardée par la clause commune de 312-7, qui nomme cet article",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'extorsion est punie de quinze ans de réclusion criminelle et de 150 000 euros d'amende lorsqu'elle est précédée, accompagnée ou suivie de violences sur autrui ayant entraîné une incapacité totale de travail pendant plus de huit jours."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-4",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Extorsion avec mutilation ou infirmité permanente. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P20",
+      "motif": "La période de sûreté rejoint la clause commune de 312-7.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; période de sûreté de plein droit gardée par la clause commune de 312-7, qui nomme cet article",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'extorsion est punie de vingt ans de réclusion criminelle et de 150 000 euros d'amende lorsqu'elle est précédée, accompagnée ou suivie de violences sur autrui ayant entraîné une mutilation ou une infirmité permanente."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-5",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Extorsion avec arme. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P20",
+      "motif": "La période de sûreté rejoint la clause commune de 312-7.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; période de sûreté de plein droit gardée par la clause commune de 312-7, qui nomme cet article",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'extorsion est punie de trente ans de réclusion criminelle et de 150 000 euros d'amende lorsqu'elle est commise soit avec usage ou menace d'une arme, soit par une personne porteuse d'une arme soumise à autorisation ou dont le port est prohibé."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-6",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Extorsion en bande organisée. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P20",
+      "motif": "La période de sûreté rejoint la clause commune de 312-7.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; période de sûreté de plein droit gardée par la clause commune de 312-7, qui nomme cet article",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'extorsion en bande organisée est punie de vingt ans de réclusion criminelle et de 150 000 euros d'amende.\nElle est punie de trente ans de réclusion criminelle et de 150 000 euros d'amende lorsqu'elle est précédée, accompagnée ou suivie de violences sur autrui ayant entraîné une mutilation ou une infirmité permanente.\nElle est punie de la réclusion criminelle à perpétuité lorsqu'elle est commise soit avec usage ou menace d'une arme, soit par une personne porteuse d'une arme soumise à autorisation ou dont le port est prohibé."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-6-1",
-      "decision": "S",
       "principe": "P20",
-      "motif": "Registre 1.9 : la réduction spéciale du repenti (deuxième alinéa) est abrogée au profit du barème, le repenti relevant de 132-78 (diminution [d'un cinquième] au plus, catégorie 3 de 132-1-1, perpétuité ramenée à [trente] ans pour un majeur, registre 1.10). L'exemption de la tentative dénoncée et empêchée est gardée, hors plafond du barème.",
-      "ligne_rouge": "Art. 8 DDHC et individualisation au prononcé examinés : le repenti garde sa diminution par 132-78, bornée et imputée sur la catégorie 3, la juridiction l'apprécie. Art. 9 et 16 DDHC examinés : aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa). L'exemption de la tentative avortée par l'auteur est gardée.",
+      "motif": "Registre 1.9, 1.10 et 9.32 : la réduction spéciale du repenti (deux tiers, perpétuité ramenée à vingt ans) est abrogée ; le repenti relève de 132-78 (un cinquième au plus, perpétuité ramenée à [trente] ans pour un majeur). L'exemption de la tentative dénoncée et empêchée est gardée, hors plafond.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution pour aide à l'autorité reste due par 132-78, bornée et motivée ; aucune condamnation sur les seules déclarations du repenti (132-78, dernier alinéa).",
+      "decision": "S",
       "operations": [
         {
           "op": "rediger",
@@ -237,302 +318,380 @@
     {
       "code": "cp",
       "num": "312-7",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Extorsion avec violences mortelles, tortures ou actes de barbarie. Peine criminelle : la peine encourue est la référence (P14), le barème des délits ne la touche pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la cour d'assises garde la modulation au prononcé"
+      "principe": "P23",
+      "motif": "Une clause de période de sûreté pour les extorsions de 312-3 à 312-7, au lieu de cinq.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée ; la période de sûreté de plein droit vise les mêmes infractions qu'en 2029, la juridiction garde la modulation de 132-23.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'extorsion est punie de la réclusion criminelle à perpétuité et de 150 000 euros d'amende lorsqu'elle est précédée, accompagnée ou suivie soit de violences ayant entraîné la mort, soit de tortures ou d'actes de barbarie.\nLes deux premiers alinéas de l'article 132-23 relatif à la période de sûreté sont applicables aux infractions prévues par les articles 312-3 à 312-7."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-8",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Définition de l'extorsion suivie de violences, une fois pour les articles qui l'emploient.",
-      "ligne_rouge": "aucune"
+      "motif": "Inchangé : définition de l'extorsion suivie de violences.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "312-9",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Tentative et immunité familiale de l'extorsion. La règle identique du chantage reste en 312-12 : les plages de renvoi qui s'arrêtent à 312-9 ne bougent pas.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Le renvoi à l'immunité familiale passe à 311-12, qui en fixe le champ. L'article reste : les plages « 312-1 à 312-9 » de la procédure s'y arrêtent.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La tentative des délits prévus par la présente section est punie des mêmes peines."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-10",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Chantage, aggravé en ligne par l'image sexuelle. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "principe": "P23",
+      "motif": "« La peine d'emprisonnement est portée à sept ans d'emprisonnement et à 100 000 euros d'amende » corrigé en « Les peines sont portées » ; énumération sans point-virgule.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le chantage est le fait d'obtenir, en menaçant de révéler ou d'imputer des faits de nature à porter atteinte à l'honneur ou à la considération, soit une signature, un engagement ou une renonciation, soit la révélation d'un secret, soit la remise de fonds, de valeurs ou d'un bien quelconque.\nLe chantage est puni de cinq ans d'emprisonnement et de 75 000 euros d'amende.\nLes peines sont portées à sept ans d'emprisonnement et à 100 000 euros d'amende lorsque le chantage est exercé par un service de communication au public en ligne :\n1° Au moyen d'images ou de vidéos à caractère sexuel.\n2° En vue d'obtenir des images ou des vidéos à caractère sexuel."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-11",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Chantage dont la menace a été exécutée. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "motif": "Inchangé : chantage exécuté.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "312-12",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Texte identique à 312-9 pour la section du chantage. La fusion étendrait à la tentative de chantage les plages « 312-1 à 312-9 » de L. 1225-5, de L. 3572-3 (fichier des empreintes génétiques) et de l'article L. 742-6 du code de l'entrée et du séjour des étrangers, et déplacerait la borne de L. 1225-16. Gardé.",
-      "ligne_rouge": "vie privée examinée : le périmètre du fichier des empreintes génétiques reste inchangé"
+      "principe": "P20",
+      "motif": "Le renvoi à l'immunité familiale passe à 311-12. L'article reste distinct de 312-9 pour les plages de renvoi (passe 2).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La tentative des délits prévus par la présente section est punie des mêmes peines."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "312-12-1",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Demande de fonds sous contrainte, en réunion ou sous la menace d'un animal. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "motif": "Inchangé : demande de fonds sous contrainte.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "312-13",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Peines complémentaires attachées au chapitre : outils de la peine encourue, gardés. Le quantum relève du barème. L'interdiction d'arme obligatoire, écartée par décision spécialement motivée, porte la charge de la motivation sur la clémence.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; l'interdiction d'arme peut être écartée par décision spécialement motivée"
-    },
-    {
-      "code": "cp",
-      "num": "312-15",
-      "decision": "A",
       "principe": "P20",
-      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
-      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
+      "motif": "La confiscation de la chose ne reste que pour la demande de fonds sous contrainte (six mois) : 131-21 la prévoit de plein droit pour les autres délits du chapitre, punis de plus d'un an. Mention du 3° abrogé retirée, numéros gardés ; énumération sans point-virgule.",
+      "ligne_rouge": "Art. 8 DDHC et individualisation examinés : l'interdiction d'arme reste obligatoire sauf décision spécialement motivée ; chaque peine garde sa borne.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "I. – Les personnes physiques coupables de l'une des infractions prévues au présent chapitre encourent également les peines complémentaires suivantes :\n1° L'interdiction des droits civiques, civils et de famille prévue à l'article 131-26.\n2° L'interdiction, prévue à l'article 131-27, d'exercer une fonction publique ou l'activité professionnelle ou sociale dans l'exercice ou à l'occasion de l'exercice de laquelle l'infraction a été commise, définitive ou temporaire dans les cas prévus aux articles 312-3 à 312-7 et de cinq ans au plus dans les cas prévus aux articles 312-1, 312-2 et 312-10, ou d'exercer une profession commerciale ou industrielle ou de diriger, d'administrer, de gérer ou de contrôler une entreprise commerciale ou industrielle ou une société commerciale. Ces interdictions d'exercice peuvent être prononcées cumulativement.\n4° Pour le délit prévu à l'article 312-12-1, la confiscation de la chose qui a servi ou était destinée à commettre l'infraction ou de la chose qui en est le produit, à l'exception des objets susceptibles de restitution.\n5° L'interdiction de séjour prévue à l'article 131-31.\nII. – En cas de condamnation pour les infractions prévues au présent chapitre, le prononcé de la peine complémentaire d'interdiction de détenir ou de porter, pour une durée de cinq ans au plus, une arme soumise à autorisation est obligatoire.\nToutefois, la juridiction peut, par une décision spécialement motivée lorsque la condamnation est prononcée par une juridiction délictuelle, décider de ne pas prononcer cette peine, en considération des circonstances de l'infraction et de la personnalité de son auteur."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "313-1",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Escroquerie, définition et peine simple. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; atteinte aux biens, noyau"
+      "motif": "Inchangé : escroquerie.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "313-2",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Escroquerie aggravée, dont la fraude aux organismes sociaux en bande organisée, criminelle. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "principe": "P23",
+      "motif": "Énumération sans point-virgule ; texte inchangé, période de sûreté propre au crime de l'avant-dernier alinéa gardée.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les peines sont portées à sept ans d'emprisonnement et à 750 000 euros d'amende lorsque l'escroquerie est réalisée :\n1° Par une personne dépositaire de l'autorité publique ou chargée d'une mission de service public, dans l'exercice ou à l'occasion de l'exercice de ses fonctions ou de sa mission.\n2° Par une personne qui prend indûment la qualité d'une personne dépositaire de l'autorité publique ou chargée d'une mission de service public.\n3° Par une personne qui fait appel au public en vue de l'émission de titres ou en vue de la collecte de fonds à des fins d'entraide humanitaire ou sociale.\n4° Au préjudice d'une personne dont la particulière vulnérabilité, due à son âge, à une maladie, à une infirmité, à une déficience physique ou psychique ou à un état de grossesse, est apparente ou connue de son auteur.\n4° bis Au préjudice d'une personne dont l'état de sujétion psychologique ou physique, au sens de l'article 223-15-3, est connu de son auteur.\n5° Au préjudice d'une personne publique, d'un organisme de protection sociale ou d'un organisme chargé d'une mission de service public, pour l'obtention d'une allocation, d'une prestation, d'un paiement ou d'un avantage indu.\nLes peines sont portées à dix ans d'emprisonnement et à 1 000 000 euros d'amende lorsque les escroqueries mentionnées à l'article 313-1 et aux 1° à 4° bis du présent article sont commises en bande organisée.\nLes peines sont portées à quinze ans de réclusion criminelle et à un million d'euros d'amende lorsque l'escroquerie mentionnée au 5° est commise en bande organisée.\nLes deux premiers alinéas de l'article 132-23 sont applicables à l'infraction mentionnée à l'avant-dernier alinéa du présent article."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "313-3",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Tentative de l'escroquerie et immunité familiale de 311-12.",
-      "ligne_rouge": "P18 examiné : l'immunité suit les exceptions de 311-12 (documents de la victime, protecteurs légaux)"
+      "principe": "P20",
+      "motif": "Le renvoi à l'immunité familiale passe à 311-12.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La tentative des infractions prévues par la présente section est punie des mêmes peines."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "313-5",
-      "decision": "R",
       "principe": "P5",
-      "motif": "Filouterie. L'amende forfaitaire ouverte au récidiviste sort du barème : le récidiviste revient à la règle générale de L. 4223-3, qui le renvoie devant le juge. Le renvoi aux anciens 495-17 à 495-25 est coordonné par la version du 1er janvier 2029. Celui aux anciens 495-20 et 495-21, qu'elle laisse, passe au 3° de L. 4223-12, siège de la consignation. Le quantum relève du barème.",
-      "ligne_rouge": "art. 8 DDHC examiné : la voie forfaitaire reste ouverte au primo-délinquant, le récidiviste passe devant le juge qui module dans le barème ; art. 16 DDHC examiné : la contestation va au ministère public (L. 4223-10 à L. 4223-14), qui renonce ou poursuit devant le tribunal. L'irrecevabilité se conteste devant le juge (L. 4223-21). La consignation reste écartée.",
+      "motif": "Registre 1.18 : l'amende forfaitaire n'est plus ouverte au récidiviste (L. 4223-3 du code de procédure pénale). Renvoi aux anciens 495-20 et 495-21 porté au 3° de L. 4223-12 (passe 2). Énumération sans point-virgule.",
+      "ligne_rouge": "Art. 8 DDHC et individualisation examinés : le récidiviste est jugé ; la contestation sans consignation est gardée (art. 16 DDHC).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "éteinte, y compris en cas de récidive, dans",
-          "nouveau": "éteinte dans"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Les dispositions des articles 495-20 et 495-21 du même code relatives",
-          "nouveau": "Les dispositions du 3° de l'article L. 4223-12 du même code relatives"
+          "op": "rediger",
+          "nouveau": "La filouterie est le fait par une personne qui sait être dans l'impossibilité absolue de payer ou qui est déterminée à ne pas payer :\n1° De se faire servir des boissons ou des aliments dans un établissement vendant des boissons ou des aliments.\n2° De se faire attribuer et d'occuper effectivement une ou plusieurs chambres dans un établissement louant des chambres, lorsque l'occupation n'a pas excédé dix jours.\n3° De se faire servir des carburants ou lubrifiants dont elle fait remplir tout ou partie des réservoirs d'un véhicule par des professionnels de la distribution.\n4° De se faire transporter en taxi ou en voiture de place.\nLa filouterie est punie de six mois d'emprisonnement et de 7 500 euros d'amende.\nL'action pénale peut être éteinte dans les conditions prévues aux articles L. 4223-1 à L. 4223-23 du code de procédure pénale, par le versement d'une amende forfaitaire de 300 euros, minorée à 250 euros et majorée à 600 euros. Sa contestation n'est pas soumise à la consignation prévue au 3° de l'article L. 4223-12 du même code."
         }
       ]
     },
     {
       "code": "cp",
       "num": "313-6",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Entraves à la liberté des enchères publiques. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "principe": "P23",
+      "motif": "Énumération sans point-virgule ; texte inchangé.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fait, dans une adjudication publique, par dons, promesses, ententes ou tout autre moyen frauduleux, d'écarter un enchérisseur ou de limiter les enchères ou les soumissions, est puni de six mois d'emprisonnement et de 22 500 euros d'amende.\nEst puni des mêmes peines le fait d'accepter de tels dons ou promesses.\nEst puni des mêmes peines :\n1° Le fait, dans une adjudication publique, d'entraver ou de troubler la liberté des enchères ou des soumissions, par violences, voies de fait ou menaces.\n2° Le fait de procéder ou de participer, après une adjudication publique, à une remise aux enchères sans le concours de l'officier ministériel ou du courtier de marchandises assermenté compétent ou d'un opérateur de ventes volontaires de meubles aux enchères publiques déclaré.\nLa tentative des infractions prévues au présent article est punie des mêmes peines."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "313-6-1",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Mise à disposition contre paiement du bien immobilier d'autrui (marchands de sommeil du squat). Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "motif": "Inchangé : mise à disposition contre paiement du bien immobilier d'autrui.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "313-6-2",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Revente habituelle de billets sans autorisation, punie d'amende seule. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "motif": "Inchangé : revente habituelle de billets, amende seule.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "313-7",
-      "decision": "G",
+      "principe": "P23",
+      "motif": "Les peines complémentaires de l'escroquerie en un article : l'exclusion des marchés publics, au même champ, y entre (313-8 fusionné). La confiscation de la chose ne reste que pour 313-6 (six mois) : 131-21 la prévoit de plein droit pour les autres délits visés. Énumération sans point-virgule.",
+      "ligne_rouge": "Art. 8 DDHC examiné : chaque peine garde son champ et sa borne ; art. 17 DDHC : droits du propriétaire de bonne foi réservés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes physiques coupables de l'un des délits prévus aux articles 313-1, 313-2, 313-6 et 313-6-1 encourent également les peines complémentaires suivantes :\n1° L'interdiction des droits civiques, civils et de famille prévue à l'article 131-26.\n2° L'interdiction, prévue à l'article 131-27, d'exercer une fonction publique ou l'activité professionnelle ou sociale dans l'exercice ou à l'occasion de l'exercice de laquelle l'infraction a été commise, ou d'exercer une profession commerciale ou industrielle ou de diriger, d'administrer, de gérer ou de contrôler une entreprise commerciale ou industrielle ou une société commerciale. Ces interdictions d'exercice peuvent être prononcées cumulativement.\n3° La fermeture, pour une durée de cinq ans au plus, des établissements ou de l'un ou de plusieurs des établissements de l'entreprise ayant servi à commettre les faits incriminés.\n4° Pour le délit prévu à l'article 313-6, la confiscation de la chose qui a servi ou était destinée à commettre l'infraction ou de la chose qui en est le produit, à l'exception des objets susceptibles de restitution et sous réserve du treizième alinéa de l'article 131-21.\n5° L'interdiction de séjour prévue à l'article 131-31.\n6° L'interdiction, pour une durée de cinq ans au plus, d'émettre des chèques autres que ceux qui permettent le retrait de fonds par le tireur auprès du tiré ou ceux qui sont certifiés.\n7° L'affichage ou la diffusion de la décision prononcée dans les conditions prévues par l'article 131-35.\n8° L'exclusion des marchés publics pour une durée de cinq ans au plus.\nLes personnes physiques ou morales coupables du délit prévu à la présente section encourent également la peine complémentaire suivante : interdiction de l'activité de prestataire de formation professionnelle continue au sens de l'article L. 6313-1 du code du travail pour une durée de cinq ans.\nLes personnes physiques ou morales coupables des crimes et délits prévus à l'article 313-2 encourent également la peine complémentaire de confiscation de tout ou partie des biens leur appartenant ou, sous réserve des droits du propriétaire de bonne foi, dont elles ont la libre disposition, quelle qu'en soit la nature, meubles ou immeubles, divis ou indivis."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "314-1",
       "principe": "P14",
-      "motif": "Peines complémentaires attachées au chapitre : outils de la peine encourue, gardés. Le quantum relève du barème. La liste est celle des peines encourues, elle ne s'inverse pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "motif": "Inchangé : abus de confiance.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "314-1-1",
+      "principe": "P14",
+      "motif": "Inchangé : abus de confiance en bande organisée, tentative.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "314-2",
+      "principe": "P23",
+      "motif": "Énumération sans point-virgule ; texte inchangé.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les peines sont portées à sept ans d'emprisonnement et à 750 000 euros d'amende lorsque l'abus de confiance est réalisé :\n1° Par une personne qui fait appel au public afin d'obtenir la remise de fonds ou de valeurs soit pour son propre compte, soit comme dirigeant ou préposé de droit ou de fait d'une entreprise industrielle ou commerciale.\n2° Par toute autre personne qui, de manière habituelle, se livre ou prête son concours, même à titre accessoire, à des opérations portant sur les biens des tiers pour le compte desquels elle recouvre des fonds ou des valeurs.\n3° Au préjudice d'une association qui fait appel au public en vue de la collecte de fonds à des fins d'entraide humanitaire ou sociale.\n4° Au préjudice d'une personne dont la particulière vulnérabilité, due à son âge, à une maladie, à une infirmité, à une déficience physique ou psychique ou à un état de grossesse, est apparente ou connue de son auteur."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "314-3",
+      "principe": "P14",
+      "motif": "Inchangé : abus de confiance du mandataire de justice ou de l'officier public.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "314-5",
+      "principe": "P14",
+      "motif": "Inchangé : détournement de gage.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "314-6",
+      "principe": "P14",
+      "motif": "Inchangé : détournement d'objet saisi.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "314-7",
+      "principe": "P14",
+      "motif": "Inchangé : organisation frauduleuse d'insolvabilité.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "314-8",
+      "principe": "P23",
+      "motif": "La phrase de la prescription est coupée en deux, sans point-virgule ; règle inchangée.",
+      "ligne_rouge": "Victime (P18) examinée : solidarité du complice et point de départ de la prescription gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La juridiction peut décider que la personne condamnée comme complice de l'infraction définie à l'article 314-7 est tenue solidairement, dans la limite des fonds ou de la valeur vénale des biens reçus à titre gratuit ou onéreux, aux obligations pécuniaires résultant de la condamnation à l'exécution de laquelle l'auteur de l'infraction a voulu se soustraire.\nLorsque la condamnation de nature patrimoniale a été prononcée par une juridiction répressive, le tribunal peut décider que la peine qu'il prononce ne se confondra pas avec celle qui a été précédemment prononcée.\nLa prescription de l'action pénale ne court qu'à compter de la condamnation à l'exécution de laquelle le débiteur a voulu se soustraire. Elle court toutefois du dernier agissement ayant pour objet d'organiser ou d'aggraver l'insolvabilité du débiteur lorsque ce dernier agissement est postérieur à cette condamnation."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "314-9",
+      "principe": "P14",
+      "motif": "Inchangé : assimilation des contributions homologuées aux aliments.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "314-10",
+      "principe": "P23",
+      "motif": "Les peines complémentaires du chapitre en un article (314-11 fusionné). La confiscation de la chose et du produit tombe : 131-21 la prévoit de plein droit pour tous les délits visés, punis d'au moins trois ans. Énumération sans point-virgule.",
+      "ligne_rouge": "Art. 8 DDHC examiné : chaque peine garde son champ et sa borne.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes physiques coupables de l'un des délits prévus aux articles 314-1, 314-2 et 314-3 encourent également les peines complémentaires suivantes :\n1° L'interdiction des droits civiques, civils et de famille prévue à l'article 131-26.\n2° L'interdiction, prévue à l'article 131-27, d'exercer une fonction publique ou l'activité professionnelle ou sociale dans l'exercice ou à l'occasion de l'exercice de laquelle l'infraction a été commise, ou d'exercer une profession commerciale ou industrielle ou de diriger, d'administrer, de gérer ou de contrôler une entreprise commerciale ou industrielle ou une société commerciale. Ces interdictions d'exercice peuvent être prononcées cumulativement.\n3° La fermeture, pour une durée de cinq ans au plus, des établissements ou de l'un ou de plusieurs des établissements de l'entreprise ayant servi à commettre les faits incriminés.\n4° L'exclusion des marchés publics pour une durée de cinq ans au plus.\n5° L'interdiction, pour une durée de cinq ans au plus, d'émettre des chèques autres que ceux qui permettent le retrait de fonds par le tireur auprès du tiré ou ceux qui sont certifiés.\n6° L'affichage ou la diffusion de la décision prononcée dans les conditions prévues par l'article 131-35.\nLes personnes physiques coupables de l'un des délits prévus aux articles 314-5, 314-6 et 314-7 encourent également l'affichage ou la diffusion de la décision prononcée dans les conditions prévues par l'article 131-35."
+        }
+      ]
+    },
+    {
+      "code": "cp",
+      "num": "315-1",
+      "principe": "P14",
+      "motif": "Inchangé : introduction et maintien dans le local d'autrui.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "315-1-1",
+      "principe": "P14",
+      "motif": "Inchangé : local d'élevage ou d'abattage.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "315-2",
+      "principe": "P19",
+      "motif": "Inchangé : maintien malgré une expulsion définitive, délais du juge de l'exécution réservés.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste fixée par la loi, inchangée",
+      "decision": "G"
+    },
+    {
+      "code": "cp",
+      "num": "311-16",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.22 : article de chapitre sur les personnes morales, abrogé au profit de la clause générale (131-37 à 131-39 réécrits). Effet déclaré : la liste entière de 131-39 devient encourue.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'amende (131-38), l'interdiction d'exercer limitée à l'activité en cause et la confiscation (131-39, 2° et 8°) restent encourues par la clause générale."
+    },
+    {
+      "code": "cp",
+      "num": "312-15",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 1.22 : article de chapitre sur les personnes morales, abrogé au profit de la clause générale (131-37 à 131-39 réécrits), qui en reprend tout le contenu.",
+      "ligne_rouge": "Art. 8 DDHC examiné : mêmes peines encourues par la clause générale, interdiction limitée à l'activité en cause (131-39, 2°)."
     },
     {
       "code": "cp",
       "num": "313-8",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Exclusion des marchés publics pour l'escroquerie : peine complémentaire utile, gardée.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exclusion des marchés publics pour l'escroquerie, même champ que 313-7 : elle y devient le 8°.",
+      "ligne_rouge": "aucune perte : même peine, même champ, même durée, à 313-7",
+      "vers": "313-7"
     },
     {
       "code": "cp",
       "num": "313-9",
       "decision": "A",
       "principe": "P20",
-      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
-      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
-    },
-    {
-      "code": "cp",
-      "num": "314-1",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Abus de confiance, définition et peine simple. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; atteinte aux biens, noyau"
-    },
-    {
-      "code": "cp",
-      "num": "314-1-1",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Abus de confiance en bande organisée, tentative punissable. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
-    },
-    {
-      "code": "cp",
-      "num": "314-2",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Abus de confiance aggravé (appel au public, gestion pour autrui, victime vulnérable). Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
-    },
-    {
-      "code": "cp",
-      "num": "314-3",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Abus de confiance du mandataire de justice ou de l'officier public. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
+      "motif": "Registre 1.22 : article de chapitre sur les personnes morales, abrogé au profit de la clause générale (131-37 à 131-39 réécrits), qui en reprend tout le contenu.",
+      "ligne_rouge": "Art. 8 DDHC examiné : mêmes peines encourues par la clause générale, interdiction limitée à l'activité en cause (131-39, 2°)."
     },
     {
       "code": "cp",
       "num": "314-4",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Immunité familiale de 311-12 étendue à l'abus de confiance.",
-      "ligne_rouge": "P18 examiné : l'immunité suit les exceptions de 311-12 (documents de la victime, protecteurs légaux)"
-    },
-    {
-      "code": "cp",
-      "num": "314-5",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Détournement de gage. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
-    },
-    {
-      "code": "cp",
-      "num": "314-6",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Détournement d'objet saisi. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
-    },
-    {
-      "code": "cp",
-      "num": "314-7",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Organisation frauduleuse d'insolvabilité pour échapper à une condamnation. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; P18 examiné : protège le créancier victime"
-    },
-    {
-      "code": "cp",
-      "num": "314-8",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Solidarité du complice, peine non confondue et prescription qui court de la condamnation éludée : la victime garde son recouvrement.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; la non-confusion reste une faculté du tribunal"
-    },
-    {
-      "code": "cp",
-      "num": "314-9",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Assimilation des pensions et contributions homologuées aux condamnations d'aliments.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cp",
-      "num": "314-10",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Peines complémentaires attachées au chapitre : outils de la peine encourue, gardés. Le quantum relève du barème. La liste est celle des peines encourues, elle ne s'inverse pas.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi à l'immunité familiale : 311-12 en fixe désormais le champ, abus de confiance compris.",
+      "ligne_rouge": "aucune perte : l'immunité et ses exceptions s'appliquent à l'abus de confiance par 311-12",
+      "vers": "311-12"
     },
     {
       "code": "cp",
       "num": "314-11",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Peines complémentaires attachées au chapitre : outils de la peine encourue, gardés. Le quantum relève du barème.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Peines complémentaires du détournement de gage, d'objet saisi et de l'insolvabilité : l'affichage passe au dernier alinéa de 314-10 ; la confiscation de la chose répète 131-21, de plein droit pour ces délits punis de trois ans.",
+      "ligne_rouge": "aucune perte : affichage gardé à 314-10, confiscation de plein droit par 131-21",
+      "vers": "314-10"
     },
     {
       "code": "cp",
       "num": "314-12",
       "decision": "A",
       "principe": "P20",
-      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
-      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
+      "motif": "Registre 1.22 : article de chapitre sur les personnes morales, abrogé au profit de la clause générale (131-37 à 131-39 réécrits), qui en reprend tout le contenu.",
+      "ligne_rouge": "Art. 8 DDHC examiné : mêmes peines encourues par la clause générale, interdiction limitée à l'activité en cause (131-39, 2°)."
     },
     {
       "code": "cp",
       "num": "314-13",
       "decision": "A",
       "principe": "P20",
-      "motif": "Registre 1.22 : article de chapitre sur les peines des personnes morales, abrogé au profit de la clause générale (131-37 et 131-39 réécrits). L'amende de 131-38, les peines de 131-39 et la limite de l'interdiction d'exercer à l'activité en cause y sont reprises. Effet déclaré : quand l'article ne visait qu'une partie de la liste de 131-39 ou une durée de cinq ans, la liste entière devient encourue.",
-      "ligne_rouge": "Art. 8 DDHC examiné : peines prévues par la loi générale et bornées (131-38, 131-39), dissolution soumise aux conditions de 131-39, 1°. L'élargissement du choix des peines pour certains délits est déclaré."
-    },
-    {
-      "code": "cp",
-      "num": "315-1",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Introduction et maintien par manœuvres ou contrainte dans le local d'autrui. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; art. 2 et 17 DDHC examinés : protège la propriété et la sûreté du domicile"
-    },
-    {
-      "code": "cp",
-      "num": "315-1-1",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Aggravation de l'introduction dans un local d'élevage ou d'abattage. Le quantum relève du barème (P14), il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème"
-    },
-    {
-      "code": "cp",
-      "num": "315-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Maintien dans un logement malgré une expulsion définitive et commandée depuis deux mois, puni d'amende. Les délais du juge de l'exécution et la trêve sont réservés.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, la juridiction garde la modulation au prononcé dans les bornes du barème ; CEDH art. 8 examiné : le délai de grâce, la trêve et le logement social restent hors du champ"
+      "motif": "Registre 1.22 : article de chapitre sur les personnes morales, abrogé au profit de la clause générale. Effet déclaré : la liste entière de 131-39 devient encourue pour 314-5 à 314-7, qui n'ouvraient que la confiscation et l'affichage.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'amende et les peines de 131-39 sont fixées par la loi et bornées ; l'élargissement est déclaré (registre 9.42)."
     }
-  ]
+  ],
+  "passe": 3
 }
