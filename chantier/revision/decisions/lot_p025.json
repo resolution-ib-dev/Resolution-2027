@@ -10,98 +10,121 @@
     {
       "code": "cpp",
       "num": "R57-5",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Définit, pour le titre, le magistrat saisi du dossier de la procédure à chaque stade : un mot pour une notion. Il sert R57-6-17 (image des prévenus).",
-      "ligne_rouge": "aucune"
+      "motif": "Définition du magistrat saisi du dossier pour tout le titre, gardée (elle sert R. 57-6-17 et les articles D du titre), phrase resserrée.",
+      "ligne_rouge": "présomption d'innocence examinée : la définition désigne le juge qui autorise la diffusion de l'image du prévenu",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application du présent titre, le magistrat saisi du dossier de la procédure est, selon le stade, le juge d'instruction, le juge des enfants, le juge des libertés et de la détention, le procureur de la République, le président de la chambre des investigations et des libertés, le président de la cour d'assises, le procureur général près la cour d'appel ou le procureur général près la Cour de cassation."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R57-5-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Isolement judiciaire décidé par le juge d'instruction, qui peut le demander au juge des libertés et de la détention dans sa saisine : la mesure suit le magistrat qui conduit l'information.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : l'isolement judiciaire aggrave la détention provisoire, il est décidé, renouvelé et levé par un juge du siège ou le juge d'instruction, borné par le titre de détention"
-    },
-    {
-      "code": "cpp",
-      "num": "R57-5-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Isolement judiciaire décidé par le juge des libertés et de la détention lorsqu'il statue sur la détention : un seul acte, un juge du siège.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : l'isolement judiciaire aggrave la détention provisoire, il est décidé, renouvelé et levé par un juge du siège ou le juge d'instruction, borné par le titre de détention"
-    },
-    {
-      "code": "cpp",
-      "num": "R57-5-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Durée de l'isolement fixée par l'ordonnance, bornée par le titre de détention, mentionnée sur la notice transmise à l'établissement : borne opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R57-5-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Décision motivée, dans l'ordonnance de détention ou à part. L'isolement tombe de plein droit s'il n'est pas expressément renouvelé avec la prolongation : garde-fou simple contre la mesure qui survit à son titre.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : l'isolement judiciaire aggrave la détention provisoire, il est décidé, renouvelé et levé par un juge du siège ou le juge d'instruction, borné par le titre de détention"
+      "principe": "P23",
+      "motif": "Isolement judiciaire : qui le décide (le juge des libertés et de la détention sans restriction aux majeurs, comme en 2029), la motivation, la forme, la durée, la mention à l'établissement et la fin de plein droit à défaut de renouvellement, réunis en un article (R. 57-5-2 à R. 57-5-4 fusionnés). Renvoi à la loi qui le fonde (L. 3645-16).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : décision d'un juge, motivée, durée bornée par le titre de détention, fin de plein droit si le juge ne la renouvelle pas, toutes gardées mot pour mot ou presque",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction peut placer à l'isolement judiciaire une personne majeure détenue, à tout moment de l'information (article L. 3645-16). Le juge des libertés et de la détention peut placer à l'isolement judiciaire toute personne détenue lorsqu'il statue sur son placement en détention provisoire ou sur la prolongation de celle-ci. Le juge d'instruction qui le saisit peut demander, dans son ordonnance, que la personne soit soumise ou maintenue à l'isolement.\nLa décision de placement ou de prolongation est motivée. Elle figure dans l'ordonnance de détention ou de prolongation ou dans une ordonnance distincte. Elle fixe la durée de la mesure, qui n'excède pas celle du titre de détention et lui est égale à défaut de précision. Le chef d'établissement en est informé par la notice individuelle jointe au titre de détention ou par un document distinct.\nLorsque la détention est prolongée, l'isolement prend fin s'il n'est pas expressément renouvelé dans l'ordonnance de prolongation ou dans une ordonnance distincte du même jour."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R57-5-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Fin de l'isolement à tout moment, d'office, sur réquisitions, à la requête du chef d'établissement ou à la demande du détenu : le juge garde la main.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : l'isolement judiciaire aggrave la détention provisoire, il est décidé, renouvelé et levé par un juge du siège ou le juge d'instruction, borné par le titre de détention"
-    },
-    {
-      "code": "cpp",
-      "num": "R57-5-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Demande de levée à tout moment par la personne : voie d'accès au juge. Renvoi aux anciens 148-6 et 148-7 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : demande de levée ouverte à tout moment, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "R57-5-7",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Notification par tout moyen, déjà numérique, et recours devant le président de la chambre des investigations et des libertés : tenu. Renvoi aux anciens 148-6 et 148-7 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : voie de recours contre l'isolement, tenue"
+      "principe": "P23",
+      "motif": "Fin de l'isolement, demande de levée à tout moment, notification et recours devant le président de la chambre des investigations et des libertés réunis (R. 57-5-6 et R. 57-5-7 fusionnés). Les anciens 148-6 et 148-7 deviennent L. 3644-6 et L. 3644-7 (formes de la demande de mise en liberté).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : le juge garde la main à tout moment, la personne peut demander la levée et déférer l'ordonnance à un juge du siège, notification par tout moyen gardée",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction peut mettre fin à l'isolement à tout moment de l'information, d'office, sur réquisitions du procureur de la République, à la requête du chef de l'établissement pénitentiaire ou à la demande de la personne détenue. Le juge des libertés et de la détention le peut aussi, d'office, sur réquisitions du procureur de la République ou à la demande de la personne détenue, lorsqu'il statue sur la prolongation de la détention ou sur une demande de mise en liberté.\nLa personne peut à tout moment demander la levée de l'isolement au juge d'instruction, dans les formes des articles L. 3644-6 et L. 3644-7.\nL'ordonnance qui place à l'isolement, le renouvelle ou refuse d'y mettre fin est notifiée à la personne par tout moyen. La personne peut la déférer au président de la chambre des investigations et des libertés, dans les mêmes formes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R57-5-8",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Étend à l'isolement judiciaire le régime de l'isolement administratif des articles R. 213-18 et R. 213-19 du code pénitentiaire (cellule seule, droits gardés, visite médicale bihebdomadaire). Ces articles ne visent que l'isolement de protection ou de sécurité : l'article n'est pas un miroir, il porte l'extension.",
-      "ligne_rouge": "CEDH art. 3 examiné : les droits et le contrôle médical de l'isolé sont gardés par le renvoi"
+      "motif": "Régime de l'isolement administratif (R. 213-18 et R. 213-19 du code pénitentiaire) étendu à l'isolement judiciaire : règle propre, gardée.",
+      "ligne_rouge": "CEDH art. 3 examiné : cellule seule, droits gardés et visite médicale par renvoi au code pénitentiaire",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "R57-6-17",
+      "principe": "P25",
+      "motif": "La diffusion de l'image ou de la voix d'un prévenu passe par le magistrat saisi du dossier : gardé.",
+      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : autorisation du magistrat gardée",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "R57-5-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni dans R. 57-5-1, qui règle en un article la décision d'isolement, sa forme et sa durée.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : décision d'un juge du siège ou du juge d'instruction, motivation et durée bornée tenues à R. 57-5-1",
+      "vers": "R57-5-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R57-5-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni dans R. 57-5-1, qui règle en un article la décision d'isolement, sa forme et sa durée.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : décision d'un juge du siège ou du juge d'instruction, motivation et durée bornée tenues à R. 57-5-1",
+      "vers": "R57-5-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R57-5-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni dans R. 57-5-1, qui règle en un article la décision d'isolement, sa forme et sa durée.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : décision d'un juge du siège ou du juge d'instruction, motivation et durée bornée tenues à R. 57-5-1",
+      "vers": "R57-5-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R57-5-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni dans R. 57-5-5 (levée, notification et recours de l'isolement).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : voie d'accès au juge et recours devant le président de la chambre des investigations et des libertés tenus à R. 57-5-5",
+      "vers": "R57-5-5"
+    },
+    {
+      "code": "cpp",
+      "num": "R57-5-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni dans R. 57-5-5 (levée, notification et recours de l'isolement).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : voie d'accès au juge et recours devant le président de la chambre des investigations et des libertés tenus à R. 57-5-5",
+      "vers": "R57-5-5"
     },
     {
       "code": "cpp",
       "num": "R57-6-5",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi déclaratif aux articles R. 313-14 à R. 313-16 du code pénitentiaire, qui règlent eux-mêmes le permis de communiquer des prévenus (délivré par le magistrat chargé du dossier) et la libre communication avec l'avocat. Miroir d'un autre code : la règle vit à sa source, aucune règle propre perdue.",
-      "ligne_rouge": "art. 16 DDHC examiné : la libre communication avec l'avocat et le permis délivré par le magistrat restent portés par R. 313-14 à R. 313-16 du code pénitentiaire"
-    },
-    {
-      "code": "cpp",
-      "num": "R57-6-17",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "La diffusion de l'image ou de la voix d'un prévenu passe par le magistrat saisi du dossier : elle protège la présomption d'innocence. La transparence (P26) porte sur l'audience et la décision, non sur l'image du prévenu en détention.",
-      "ligne_rouge": "art. 9 DDHC examiné : présomption d'innocence du prévenu, tenue ; P26 examiné : la publicité des audiences n'est pas en cause"
+      "motif": "Renvoi déclaratif aux articles R. 313-14 à R. 313-16 du code pénitentiaire, qui règlent eux-mêmes le permis de communiquer et la libre communication avec l'avocat : miroir d'un autre code (registre 9.28).",
+      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : permis de communiquer délivré par le magistrat et libre communication tenus à R. 313-14 à R. 313-16 du code pénitentiaire"
     },
     {
       "code": "cpp",
       "num": "R57-8-7",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi déclaratif au titre IV du livre III du code pénitentiaire, qui règle lui-même visites, rapprochements familiaux, correspondances et téléphone des prévenus sous le contrôle du magistrat chargé du dossier (R. 341-4, R. 341-13, R. 342-1, R. 345-1, R. 345-12). Le contrôle de l'autorité judiciaire y est déjà écrit : aucune règle propre perdue.",
-      "ligne_rouge": "CEDH art. 8 examiné : le maintien des liens familiaux des prévenus et le contrôle du magistrat restent portés par le code pénitentiaire"
+      "motif": "Renvoi déclaratif au titre IV du livre III du code pénitentiaire (visites, rapprochements familiaux, correspondances, téléphone), qui écrit lui-même le contrôle de l'autorité judiciaire sur les prévenus : miroir d'un autre code.",
+      "ligne_rouge": "vie privée et familiale (CEDH art. 8) examinée : maintien des liens et contrôle du magistrat tenus aux articles R. 341-4, R. 341-13, R. 342-1, R. 345-1 et R. 345-12 du code pénitentiaire"
     },
     {
       "code": "cpp",
@@ -109,7 +132,8 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Renvoi déclaratif au traitement GENESIS, que les articles R. 240-1 et suivants du code pénitentiaire autorisent et règlent en entier : miroir d'un autre code.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : le traitement reste autorisé et encadré, finalités, données, accès et droits compris, par le code pénitentiaire (R. 240-1 et suivants)"
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : finalités, données, accès et droits tenus à R. 240-1 et suivants du code pénitentiaire"
     }
-  ]
+  ],
+  "passe": 3
 }
