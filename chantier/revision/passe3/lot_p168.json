@@ -1,0 +1,39 @@
+{
+  "lot": "lot_p168",
+  "titre": "CPP, 3e partie, livre Ier, titre Ier : Cadres juridiques des investigations",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L3111-1",
+      "texte": "Les investigations pénales se réalisent :\n1° Dans les enquêtes de police judiciaire, sous la direction du procureur de la République, par les autorités qui exercent des missions de police judiciaire.\n2° Dans les informations, par les juridictions d'instruction ou sur leur commission rogatoire, y compris lors d'un supplément d'information ordonné par une juridiction de jugement.\n3° Dans les contrôles et vérifications d'identité, la recherche des causes d'un décès, de blessures graves ou d'une disparition, et la recherche d'une personne en fuite.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Les deux articles de charpente (cadres principaux et procédures de recherche, L3111-2 fusionné) en un. « Conformément aux dispositions de la présente partie » et « portant sur des crimes, délits ou contraventions » tombent (P20).",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L3111-2",
+      "verbe": "F",
+      "vers": "L3111-1",
+      "principe": "P23",
+      "motif": "Contrôles d'identité, recherche des causes de la mort ou d'une disparition, recherche des fugitifs : 3° de L3111-1. L3121-1 renvoie désormais au seul L3111-1.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L3111-1#1": {
+      "vers": "L3111-1",
+      "destin": "reprise"
+    },
+    "L3111-1#2": {
+      "vers": "L3111-1",
+      "destin": "reprise"
+    },
+    "L3111-2#1": {
+      "vers": "L3111-1",
+      "destin": "reprise"
+    }
+  }
+}
