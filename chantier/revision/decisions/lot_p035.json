@@ -10,42 +10,458 @@
     {
       "code": "cpp",
       "num": "D50",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Définitions de « détenus », « condamnés » et « prévenus » : un mot par notion pour tout le titre. Renvois aux anciens 708 et 505 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Définitions de « détenus », « condamnés » et « prévenus » : un mot par notion, gardées et resserrées. Les anciens 708 et 505 deviennent L. 4471-4.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au présent titre, sont des détenus les personnes privées de liberté dans un établissement pénitentiaire. Sont des condamnés ceux dont la condamnation est définitive, sans égard au délai d'appel du procureur général prévu à l'article L. 4471-4. Sont des prévenus tous les autres détenus poursuivis, personnes mises en examen, prévenus et accusés, y compris les condamnés qui ont formé opposition, appel ou pourvoi."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D51",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Les interdictions de contact et de paraître survivent à l'incarcération, le bracelet anti-rapprochement se repose à la sortie : protection de la victime pendant et après la détention.",
-      "ligne_rouge": "art. 66 C examiné : les interdictions ne se lèvent que par l'autorité judiciaire compétente ; art. 8 DDHC examiné : aucune peine nouvelle, les mesures prononcées restent applicables"
+      "motif": "Les interdictions de contact ou de paraître survivent à l'incarcération, le bracelet anti-rapprochement se repose à la sortie : gardé, en trois phrases. L'ancien 138-3 devient L. 3621-8 ; « conformément » au second alinéa de 132-43 du code pénal tombe.",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : aucune mesure nouvelle, la protection de la victime pendant et après la détention est tenue",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Restent applicables pendant l'incarcération, tant que l'autorité compétente ne les a pas levées et même si leur délai d'exécution est suspendu, les interdictions de contact ou de paraître prévues aux 9°, 11°, 12°, 13°, 18° et 18° bis de l'article 132-45 du code pénal, prononcées par une juridiction pénale à titre de peine, de mesure de personnalisation ou d'aménagement de peine ou de mesure de sûreté, celles prononcées dans un contrôle judiciaire et, pour les enfants mineurs, celles qui résultent d'un retrait ou d'une suspension de l'autorité parentale ou de son exercice ou des droits de visite et d'hébergement prononcé par une juridiction pénale ou civile. Il en est ainsi notamment des interdictions assorties d'une surveillance électronique, mobile ou non, ou d'un dispositif électronique mobile anti-rapprochement, dont le port est suspendu pendant l'incarcération.\nLe personnel pénitentiaire dépose le dispositif à l'incarcération. Le bracelet anti-rapprochement prévu aux articles L. 3621-8 du présent code et 132-45-1 du code pénal est reposé, selon les articles R. 631-1 et R. 631-3 du code pénitentiaire, à la libération ou à toute cessation, même temporaire, de l'incarcération. Il en va de même du dispositif ordonné dans une ordonnance de protection en application des articles 515-11 et 515-11-1 du code civil, sauf si elle a pris fin."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D52",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Le détenu prévenu pour une cause et condamné pour une autre suit le régime des condamnés, avec les facilités de sa défense. Source de D211-3 du code pénitentiaire. Renvoi à R. 57-5 à vérifier au lot de cet article.",
-      "ligne_rouge": "aucune"
+      "motif": "Le détenu prévenu pour une cause et condamné pour une autre suit le régime des condamnés, avec les facilités de sa défense : gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "D52-1",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Déclarations et notifications reçues par un agent désigné, transmises sans délai et par tout moyen : déjà ouvert au numérique.",
-      "ligne_rouge": "aucune"
+      "motif": "Déclarations et notifications reçues par un agent désigné, transmises sans délai et par tout moyen : gardées, phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les déclarations que le présent code permet aux détenus de former auprès du chef d'établissement, demandes d'actes ou de mise en liberté, requêtes en annulation, appels, pourvois et oppositions, peuvent être reçues par tout fonctionnaire qu'il désigne. Ce fonctionnaire les constate, les date et les signe, avec le détenu ou en mentionnant qu'il ne peut signer, et les adresse sans délai, en original ou en copie et par tout moyen, à l'autorité judiciaire destinataire.\nIl en va de même des notifications que le chef d'établissement doit faire aux détenus."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D55",
+      "principe": "P4",
+      "motif": "Ordres des magistrats, notice hors instruction, interdiction de communiquer jamais opposable à l'avocat et séparation (D55, D55-1, D56, D56-2) : un article. Les anciens 715 et 145-4 deviennent L. 3645-8 et L. 3645-15 ; « D. 211-13 » devient le deuxième alinéa de D. 211-11 du code pénitentiaire (coordination de la relecture p110).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : les ordres restent ceux du magistrat ; art. 16 DDHC : l'interdiction de communiquer ne s'applique jamais à l'avocat",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction, le président de la chambre des investigations et des libertés, le président de la cour d'assises, le procureur de la République et le procureur général donnent, en application de l'article L. 3645-8, les ordres nécessaires à l'instruction ou au jugement, que les maisons d'arrêt et les établissements pénitentiaires spécialisés pour mineurs exécutent. Les difficultés d'exécution leur sont rapportées d'urgence.\nHors l'instruction, l'autorité qui ordonne la détention provisoire ou, à défaut, le ministère public chargé de l'exécution adresse au chef d'établissement, avec le titre de détention, la notice prévue au premier alinéa de l'article D. 32-1-1, qui mentionne les mesures prescrites et l'avis prévu au deuxième alinéa de l'article D. 211-11 du code pénitentiaire.\nOutre l'isolement ou la séparation, le magistrat saisi du dossier de l'information peut prescrire une interdiction temporaire de communiquer en application de l'article L. 3645-15. Elle ne s'applique jamais à l'avocat de la personne mise en examen. Elle interdit toute visite et toute correspondance d'une autre personne étrangère à l'administration pénitentiaire. La séparation ordonnée pour les nécessités de l'information est précisée dans la notice individuelle ou, si elle est décidée ensuite, dans un document transmis au chef d'établissement."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D57",
+      "principe": "P20",
+      "motif": "Translations et extractions : services requis, renfort des escortes, frais de justice. Le renvoi à R. 99, absent du code de 2029, tombe.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les autorités judiciaires requièrent la translation ou l'extraction des prévenus dans les conditions du chapitre V du titre Ier du livre II du code pénitentiaire. Elle est exécutée par la police ou la gendarmerie nationales ou, dans les zones fixées par arrêté des ministres de la justice et de l'intérieur, par l'administration pénitentiaire.\nL'escorte pénitentiaire d'un détenu inscrit au répertoire des détenus particulièrement signalés prévu à l'article D. 223-11 du code pénitentiaire est renforcée par la police ou la gendarmerie. À titre exceptionnel, la direction de l'administration pénitentiaire et les directions de la police et de la gendarmerie nationales peuvent décider ensemble de renforcer l'escorte d'un détenu présentant un risque d'atteinte très grave à l'ordre public, identifié par les forces de l'ordre ou signalé par l'autorité judiciaire.\nLes frais de l'opération sont des frais de justice pénale."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D115",
+      "principe": "P23",
+      "motif": "Règles communes des réductions et des peines successives : champ, imputation, examen de la détention provisoire, reliquat inférieur à un an, réexamen sur la fraction annuelle, régime le plus strict (D115, D115-1, D116, D116-1, D116-2, D116-3, D150-2, D150-3). L'examen annuel est la loi (L. 5224-5).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les réductions de peine s'appliquent, la condamnation devenue définitive, à toute peine privative de liberté, y compris sous semi-liberté, placement à l'extérieur ou détention à domicile sous surveillance électronique, sauf à l'emprisonnement qui résulte d'un retrait de réduction de peine ou de la contrainte judiciaire. Elles s'imputent sur la durée d'incarcération restant à subir, décomptée à partir de la date de libération.\nLorsque la détention provisoire a duré un an au moins, le juge de l'application des peines examine la situation du condamné dans les deux mois qui suivent la date à laquelle la condamnation est devenue définitive. Lorsque le reliquat est inférieur à un an, il apprécie la réduction sur toute sa durée. Il peut rapporter une décision prise sur une fraction inférieure à un an pour réexaminer la situation sur la fraction annuelle, lorsque des condamnations inscrites ensuite à la fiche pénale le permettent.\nLorsqu'une personne exécute plusieurs peines privatives de liberté, les règles plus strictes propres à un régime de réduction de peine, à la récidive légale ou aux infractions du chapitre Ier du titre II du livre IV du code pénal, y compris pour les mesures des juridictions de l'application des peines, s'appliquent tant qu'une peine qui y est soumise reste à exécuter."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D116-4",
+      "principe": "P10",
+      "motif": "Retrait des réductions : mauvaise conduite et ses exemples, procédure contradictoire en dix jours, quantum annoncé, exécution après la dernière peine, avis au casier (D116-4 à D116-8). Le prélèvement biologique de l'ancien 706-56 est nommé (L. 5121-3).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La mauvaise conduite du condamné peut justifier le retrait d'une réduction de peine, y compris pendant une semi-liberté, un placement à l'extérieur ou une détention à domicile sous surveillance électronique, sans préjudice du retrait de la mesure. Elle peut notamment résulter d'une sanction disciplinaire pour une faute des 10° ou 11° de l'article R. 232-4 du code pénitentiaire, du refus du prélèvement biologique prévu à l'article L. 5121-3 ou, pour le condamné de ce chef, de manœuvres destinées à y substituer le matériel biologique d'un tiers.\nLe juge de l'application des peines qui envisage un retrait, d'office, sur saisine du chef d'établissement ou sur réquisitions du procureur de la République, en avise le condamné dix jours au moins avant de l'examiner. L'avis joint la saisine, les réquisitions ou le document du juge, qui énoncent la mauvaise conduite reprochée et le quantum maximal du retrait. Il informe le condamné qu'il peut présenter des observations écrites, au moyen du formulaire que lui remet le chef d'établissement, ou par un avocat choisi ou commis d'office. L'avocat reçoit les mêmes avis par le greffe, selon les articles D. 49-15 ou D. 590-1. Le juge peut entendre le condamné selon le cinquième alinéa de l'article D. 49-28. En cas d'urgence, notamment à l'approche de la libération ou de l'échéance d'un an après l'octroi, le délai de dix jours ne s'applique pas, mais le condamné est mis en mesure de présenter ses observations. Le retrait ne peut dépasser le quantum annoncé.\nLe retrait s'exécute à la suite de la dernière peine portée à l'écrou. L'avis de fin de peine adressé au casier judiciaire en application du 5° de l'article R. 69 précise la durée totale des retraits."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D117",
+      "principe": "P10",
+      "motif": "Réductions exceptionnelles : le plafond du sixième est à la loi (L. 5224-15, L. 5224-18, passe 2) ; restent l'octroi en une ou plusieurs fois, l'assiette et l'énoncé des peines prises en compte.",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les réductions exceptionnelles prévues aux articles L. 5224-15 et L. 5224-18 peuvent être accordées en une ou plusieurs fois. Leur plafond se calcule sur l'ensemble des condamnations à exécuter ou portées à l'écrou au jour de la requête. La décision précise les peines prises en compte."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D119",
+      "principe": "P10",
+      "motif": "Aménagement par le juge au vu des efforts de réinsertion, non de la situation sociale (passe 2) ; l'aménagement obligatoire de l'ancien 720 tombe avec la libération sous contrainte. Phrase resserrée, les anciens 723-1, 723-7 et 707 sont nommés par la mesure.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé ; l'aménagement reste une décision du juge",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines peut ordonner la semi-liberté, le placement à l'extérieur ou la détention à domicile sous surveillance électronique au vu des efforts de réinsertion du condamné, notamment pour lui permettre d'exercer une activité professionnelle, même temporaire, de suivre un enseignement, un stage ou une formation, de rechercher un emploi, de participer à la vie de sa famille, de suivre un traitement médical ou de s'engager dans un projet d'insertion de nature à prévenir la récidive."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D136",
+      "principe": "P10",
+      "motif": "Placement à l'extérieur sans surveillance continue : seuil sur la durée totale des peines (passe 2), la libération conditionnelle probatoire, conditions fixées par le juge, obligations des articles 132-44 et 132-45 du code pénal, information de l'administration par l'employeur. Phrase resserrée.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent être autorisés à travailler à l'extérieur, à y suivre un enseignement, un stage, un emploi temporaire ou une formation professionnelle, ou à y recevoir des soins, sans surveillance continue du personnel pénitentiaire :\n1° Les condamnés à une ou plusieurs peines privatives de liberté d'une durée totale de [deux ans] au plus, ou [un an] au plus en état de récidive légale.\n2° Les condamnés admis à la libération conditionnelle sous la condition d'un placement à l'extérieur probatoire.\nLe juge de l'application des peines fixe les conditions de la mesure selon l'activité ou les soins et la personnalité du condamné. Il peut en subordonner l'octroi ou le maintien aux obligations et interdictions des articles 132-44 et 132-45 du code pénal. L'employeur ou le directeur de l'établissement de formation ou de soins informe sans délai l'administration pénitentiaire de tout incident, notamment de toute absence."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D137",
+      "principe": "P10",
+      "motif": "Semi-liberté : engagements du condamné, horaires et conditions fixés par le juge, obligations modifiables (D137 et D138). Les anciens 723-1 et 712-8 sont nommés (L. 5131-10).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le condamné admis à la semi-liberté s'engage à la bonne tenue et à l'assiduité au travail, à la participation effective à son activité et au suivi de son traitement médical. Le juge de l'application des peines fixe les jours et heures de sortie et de retour et les conditions propres à l'activité, au traitement et à la personnalité du condamné.\nLe maintien de la semi-liberté peut être subordonné aux obligations et interdictions des articles 132-44 et 132-45 du code pénal, que le juge peut modifier ou compléter en cours de mesure selon l'article L. 5131-10."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D142",
+      "principe": "P18",
+      "motif": "Régime commun des permissions de sortir : lieu, conditions, interdictions protégeant la victime, interdictions de plein droit, délai de route, retrait et réincarcération, période de sûreté, quartiers de lutte contre la criminalité organisée, frais à la charge du détenu, appel après la date prévue (D142, D142-1, D142-1-1, D142-2, D142-3). L'ancien 712-17 devient L. 5124-1.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé ; la victime reste protégée par les interdictions de plein droit",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La permission de sortir, accordée pour une ou plusieurs sorties, autorise le condamné à se rendre en un lieu du territoire national. Elle peut être assortie de conditions, notamment des obligations des articles 132-44 et 132-45 du code pénal, et de l'interdiction d'entrer en relation avec la victime ou de paraître dans les lieux qu'elle fréquente, notamment pour un crime ou un délit relevant de l'article 132-80 du code pénal. Elle est de plein droit assortie des interdictions de contact, de fréquentation ou de paraître prononcées contre le condamné en application de l'article L. 3621-4 du présent code, des articles 131-6, 131-10 ou 132-45 du code pénal, y compris dans un suivi socio-judiciaire, un sursis probatoire ou une peine, ou d'une ordonnance de protection de l'article 515-11 du code civil. La décision peut les rappeler. Un délai de route, calculé selon le trajet et les horaires des transports, peut être accordé.\nAucune permission n'est accordée pendant une période de sûreté. Aucune permission n'est accordée à un détenu placé dans un quartier de lutte contre la criminalité organisée en application des articles L. 224-5 et suivants du code pénitentiaire en cas de risque avéré de fuite ou lorsqu'aucune condition ne peut prévenir ses liens avec les réseaux criminels. Tout octroi d'une permission à un détenu placé dans un tel quartier est motivé.\nLe détenu supporte les frais de sa sortie, transport compris. Aucune permission n'est accordée s'il n'a pas une somme suffisante à sa part disponible ou ne justifie pas d'un hébergement et d'un transport licites.\nLe juge de l'application des peines peut retirer la permission, avant ou pendant son exécution, et ordonner la réincarcération immédiate si les conditions de l'octroi ne sont plus réunies, si le condamné manque à ses obligations ou fait preuve de mauvaise conduite. Il peut décerner à cette fin un mandat d'amener ou d'arrêt en application des articles L. 5124-1 et L. 5124-3. Le chef d'établissement peut, pour les mêmes motifs, retirer la permission qu'il a accordée en application de l'article D. 142-3-1 et ordonner la réincarcération immédiate.\nLe président de la chambre de l'application des peines qui confirme l'octroi ou infirme le refus d'une permission dont la date est dépassée fixe une autre date ou dit qu'elle le sera par le juge de l'application des peines ou, selon l'article D. 144, par le directeur du service pénitentiaire d'insertion et de probation."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D142-3-1",
+      "principe": "P15",
+      "motif": "Permissions suivantes accordées par le chef d'établissement, sans avis préalable du service (passe 2), sous le contrôle du juge, délai de deux mois. L'ancien 723-3 devient L. 5225-2. Phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le juge de l'application des peines a accordé une permission de sortir prévue aux articles D. 143 et D. 143-4, le chef d'établissement peut accorder les permissions suivantes, en application de l'article L. 5225-2. Le juge fixe les obligations et interdictions des articles 132-44 et 132-45 du code pénal qui s'y appliquent, les modifie ou en donne mainlevée. Il peut, dans la décision d'octroi ou ensuite, d'office ou à la demande du procureur de la République ou du chef d'établissement, écarter cette faculté. Ces décisions sont des mesures d'administration judiciaire sans recours.\nLe chef d'établissement informe aussitôt le juge et le parquet de sa décision. S'il refuse la permission, il informe le condamné que ce refus est sans recours, mais qu'il peut saisir le juge de la même demande. Saisi d'une demande formée selon l'article D. 49-11, il statue dans les deux mois, faute de quoi le condamné peut saisir directement le juge."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D143",
+      "principe": "P10",
+      "motif": "Permissions pour le maintien des liens familiaux ou la réinsertion : conditions de peine et de reliquat par établissement, durées de trois, cinq et dix jours, permissions de fin de semaine des aménagés (D143, D143-1, D143-2, D143-3). L'ancien renvoi à D535 et aux anciens 712-6 et 712-7 est nommé par la mesure.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les condamnés incarcérés en maison d'arrêt, en maison centrale, en centre de semi-liberté ou, majeurs, en établissement pénitentiaire spécialisé pour mineurs peuvent obtenir des permissions de sortir de trois jours au plus pour le maintien des liens familiaux ou la préparation de leur réinsertion professionnelle ou sociale :\n1° S'ils exécutent une ou plusieurs peines privatives de liberté d'une durée totale d'un an au plus.\n2° S'ils ont exécuté la moitié de leur peine et ont moins de trois ans à subir.\n3° Si la juridiction de l'application des peines a subordonné leur libération conditionnelle à l'octroi de permissions de sortir.\nEn centre de détention, ces permissions sont ouvertes au tiers de la peine et peuvent durer cinq jours, et dix jours une fois par an. En structure d'accompagnement vers la sortie, elles sont ouvertes sans condition de délai et peuvent durer cinq jours.\nDes permissions peuvent être accordées, ponctuellement ou habituellement, les samedis, dimanches et jours fériés ou chômés aux condamnés en semi-liberté, en placement à l'extérieur selon l'article D. 136 ou sous surveillance électronique."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D143-4",
+      "principe": "P23",
+      "motif": "Permissions d'une journée pour des motifs nommés, permissions de trois jours pour maladie grave, décès ou naissance, permission pour une obligation qui exige la présence (D143-4, D143-5, D145) : une condition de peine commune, cinq ans au plus ou la moitié exécutée. La libération sous contrainte sort du 1° (passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les condamnés à une ou plusieurs peines privatives de liberté d'une durée totale de cinq ans au plus, ou d'une durée supérieure s'ils en ont exécuté la moitié, peuvent obtenir :\n1° Une permission d'une journée au plus pour se présenter à un employeur ou à une structure de formation, de stage ou d'enseignement en vue d'une libération, d'une libération conditionnelle, d'une semi-liberté, d'une détention à domicile sous surveillance électronique ou d'un placement à l'extérieur selon l'article D. 136, pour passer un examen, pour se présenter à une structure de soins, pour une activité culturelle ou sportive organisée ou pour voter.\n2° Une permission de trois jours au plus en cas de maladie grave ou de décès d'un membre de leur famille proche ou de naissance de leur enfant.\n3° Une permission d'une journée au plus pour accomplir une obligation qui exige leur présence, lorsqu'ils ne peuvent être représentés auprès de l'organisme et que celui-ci ne peut intervenir dans l'établissement, ou lorsqu'ils sont convoqués devant une juridiction et que la visioconférence est impossible."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D144",
+      "principe": "P15",
+      "motif": "Date et modalités fixées par le directeur du service d'insertion et de probation sur délégation du juge, sans avis préalable du chef d'établissement (passe 2) : phrase resserrée.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines qui accorde une ou plusieurs permissions de sortir pour la préparation de la réinsertion professionnelle ou sociale, ou pour le maintien des liens familiaux lorsque le reliquat est d'un an au plus, peut confier au directeur du service pénitentiaire d'insertion et de probation la fixation de leur date et de leurs modalités. Ce directeur peut déléguer sa signature et ses pouvoirs à un directeur d'insertion et de probation."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147",
+      "principe": "P25",
+      "motif": "Sortie sous escorte, exceptionnelle, autorisée et retirée par le magistrat compétent, escorte sans uniforme. Les anciens 148-5 et 723-6 deviennent L. 3645-14 et L. 5225-4.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la sortie reste autorisée et retirée par un magistrat",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Tout détenu peut, à titre exceptionnel et pour un temps déterminé, être autorisé à sortir sous escorte en application des articles L. 3645-14 ou L. 5225-4. L'autorisation est délivrée, pour le prévenu, par le juge d'instruction au cours de l'information et par le procureur de la République ou le procureur général lorsque la juridiction de jugement est saisie. Le condamné y est admissible même s'il remplit les conditions d'une permission de sortir.\nLa juridiction de l'application des peines, le juge d'instruction ou le magistrat du parquet compétent peut la retirer si ses motifs ne sont plus réunis ou si le détenu fait preuve de mauvaise conduite. Les agents chargés de l'escorte peuvent être dispensés du port de l'uniforme."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-1",
+      "principe": "P18",
+      "motif": "Suspension de peine médicale : surveillance du juge, obligations dont la protection des victimes et des mineurs, relèvement sans avis préalable (passe 2), fin en cas de manquement, expertise de contrôle à la demande du parquet (D147-1 à D147-5). Les anciens 720-1-1, 712-6 à 712-17 deviennent L. 5142-10 à L. 5142-13, L. 2141-8, L. 5131-3, L. 5124-1 et L. 5124-3.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé ; la suspension et sa fin restent décidées par le juge après débat contradictoire",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le condamné dont la peine est suspendue pour raison médicale en application des articles L. 5142-10 et suivants est placé sous la surveillance du juge de l'application des peines territorialement compétent selon l'article L. 2141-8, assisté du service pénitentiaire d'insertion et de probation.\nLa juridiction qui accorde la suspension peut, notamment pour vérifier que ses conditions demeurent remplies, obliger le condamné à résider ou être hospitalisé dans un lieu ou des limites qu'elle fixe, à informer le juge de tout changement, à ne pas sortir de ces limites et à remettre son passeport, à se soumettre aux expertises médicales ordonnées par le juge, à recevoir les visites du service et à lui communiquer les documents utiles, à répondre aux convocations si son état le permet, à ne pas entrer en relation avec les victimes et, pour une infraction mentionnée à l'article L. 1721-2, à ne pas fréquenter ni rencontrer certaines personnes, notamment des mineurs, sauf ceux que la décision désigne. Elle peut aussi ordonner les obligations et interdictions des articles 132-44 et 132-45 du code pénal et une injonction de soins selon l'article 131-36-4 du même code. Le juge de l'application des peines peut relever ou modifier ces obligations.\nLe juge peut mettre fin à la suspension si les obligations ne sont pas respectées, après le débat contradictoire prévu à l'article L. 5131-3, et délivrer à cette fin les mandats prévus aux articles L. 5124-1 et L. 5124-3. Le procureur de la République peut à tout moment le saisir pour qu'il ordonne une expertise médicale de contrôle ou l'expertise semestrielle prévue à l'article L. 5142-13."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-8",
+      "principe": "P10",
+      "motif": "Condamnés libres (L. 5212-1 et suivants) : conditions de la libération conditionnelle, transmission au juge de la résidence, ordre des convocations, délais sans nullité (D147-8 à D147-11). Les anciens 723-15, 723-1, 723-7, 729 et 474 sont nommés.",
+      "ligne_rouge": "art. 66 C, art. 8 et art. 16 DDHC examinés : la peine prononcée s'exécute ; les réductions restent décidées par le juge au vu de la conduite et des efforts ; le retard de l'État ne fait pas tomber la convocation",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La libération conditionnelle d'un condamné libre n'est accordée que si sont réunies les conditions de la mesure probatoire prononcée ou, à défaut, celles des articles L. 5241-1 et suivants, temps d'épreuve compris.\nSi le condamné réside hors du ressort de la juridiction de condamnation, le ministère public adresse directement copie de la décision au juge de l'application des peines compétent, qui délivre les convocations prévues à l'article L. 5212-5.\nLorsque la convocation n'a pas été remise à l'audience en application de l'article L. 4432-29 ou de l'article D. 48-2, le condamné est convoqué d'abord devant le juge de l'application des peines puis devant le service pénitentiaire d'insertion et de probation. Le juge peut, au vu notamment de la peine, des faits et des antécédents, décider qu'il sera convoqué d'abord devant le service, ou devant lui seul, le service n'étant alors saisi qu'ensuite.\nLe non-respect des délais de convocation de l'article L. 5212-5 n'entraîne pas la nullité des convocations."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-12",
+      "principe": "P15",
+      "motif": "Réductions sur la détention provisoire d'un condamné libre, au vu des éléments transmis (passe 2), information du condamné sans reliquat par tout moyen qui prouve la réception, écrou évité quand la détention couvre la peine ou ouvre la libération conditionnelle (D147-12 à D147-14). Les anciens 721 et 723-18 sont nommés (L. 5224-6, L. 5224-7).",
+      "ligne_rouge": "art. 66 C, art. 8 et art. 16 DDHC examinés : la peine prononcée s'exécute ; les réductions restent décidées par le juge au vu de la conduite et des efforts ; le retard de l'État ne fait pas tomber la convocation",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines qui reçoit la décision d'un condamné déjà écroué en détention provisoire examine les réductions de peine au titre de cette détention. Il statue sans la commission de l'application des peines, au vu des éléments sur la conduite et les efforts du condamné que lui transmettent, sauf urgence ou impossibilité, le chef de l'établissement et le service pénitentiaire d'insertion et de probation.\nSi aucun reliquat ne reste à exécuter, le juge ou, sur son instruction, le service informe le condamné, le cas échéant par tout moyen permettant d'en établir la date de réception, y compris par voie électronique, puis en avise le procureur de la République. Le procureur ou son délégué fait cette information lorsqu'il n'a pas adressé la décision au juge.\nLe procureur de la République peut appliquer la présente procédure à un reliquat supérieur à un an lorsque la détention provisoire, avec les réductions susceptibles d'être accordées selon l'article L. 5224-7, couvre la peine, ou rend le condamné admissible à la libération conditionnelle."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-16",
+      "principe": "P10",
+      "motif": "Sans demande ou après refus, le juge fixe la date d'incarcération ; pas d'expertise sauf réquisition ; la procédure ne vaut pas pour l'emprisonnement issu d'une révocation, sauf décision du parquet (D147-15 à D147-16-1). La coquille « aliéna » tombe.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines peut fixer la date d'incarcération, après avoir convoqué le condamné et recueilli ses observations, si celui-ci n'a pas formé de demande selon l'article D. 49-11, ou à l'issue du débat contradictoire s'il refuse la mesure demandée.\nL'expertise de l'article L. 5226-7 n'est pas requise pour ces aménagements, sauf réquisition du procureur de la République lorsqu'il saisit le juge.\nSauf décision du procureur de la République justifiée par la situation du condamné, la présente procédure ne s'applique pas à l'emprisonnement qui résulte d'une décision d'une juridiction de l'application des peines, notamment de la révocation d'un sursis probatoire ou d'une libération conditionnelle."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-31",
+      "principe": "P23",
+      "motif": "Liste des crimes et délits ouvrant la surveillance judiciaire, gardée entière, rédaction resserrée ; exclusions (suivi socio-judiciaire, libération conditionnelle) réunies (D147-31-1). Les anciens 723-29 à 723-37 deviennent L. 5261-1 et suivants.",
+      "ligne_rouge": "art. 8 DDHC examiné : la surveillance judiciaire reste prononcée par le tribunal de l'application des peines après expertise ; la liste des crimes et délits est gardée entière",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ouvrent la surveillance judiciaire prévue aux articles L. 5261-1 et suivants, lorsque la peine privative de liberté prononcée est de sept ans au moins, les crimes et délits suivants, pour lesquels le suivi socio-judiciaire est encouru :\n1° Les crimes des articles 221-1 à 221-5-1 du code pénal.\n2° Les crimes des articles 222-1 à 222-6 du code pénal.\n3° Les crimes et délits des articles 222-8, 222-10, 222-12, 222-13 et 222-14 du code pénal commis par le conjoint, le concubin ou le partenaire lié par un pacte civil de solidarité de la victime, actuel ou ancien, ou sur un mineur de quinze ans par un ascendant ou toute personne ayant autorité sur lui.\n4° Les menaces de l'article 222-18-3 du code pénal commises par le conjoint, le concubin ou le partenaire, actuel ou ancien.\n5° Les crimes des articles 222-23 à 222-26 du code pénal.\n6° Les délits des articles 222-27 à 222-31 du code pénal.\n7° Les crimes des articles 224-1 à 224-5-2 du code pénal.\n8° Les délits des articles 227-22, 227-22-1, deuxième alinéa, 227-23, 227-25 et 227-26 du code pénal.\n9° Les infractions des articles 322-6 à 322-10 du code pénal, sauf l'article 322-6-1.\n10° Les délits des articles 222-52 à 222-59 du code pénal.\n11° Les crimes et délits des articles 421-1 à 421-6 du code pénal.\nLa surveillance judiciaire n'est pas prononcée contre la personne condamnée à un suivi socio-judiciaire, sauf pour des faits commis avant le 13 décembre 2005 selon le dernier alinéa de l'article 41 de la loi n° 2005-1549 du 12 décembre 2005, ni contre celle qui bénéficie d'une libération conditionnelle, sauf si celle-ci s'est achevée par une révocation."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-32",
+      "principe": "P19",
+      "motif": "Préparation de la surveillance judiciaire : transmission mensuelle des fiches pénales, vérifications du parquet, expertises au choix des magistrats, réquisitions, dispense d'une expertise récente (D147-32 à D147-36). Les anciens 723-31 et 723-31-1 deviennent L. 5261-4.",
+      "ligne_rouge": "art. 8 DDHC examiné : la surveillance judiciaire reste prononcée par le tribunal de l'application des peines après expertise ; la liste des crimes et délits est gardée entière",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au début de chaque mois, le greffe de l'établissement transmet au procureur de la République, avec copie au juge de l'application des peines, la fiche pénale des condamnés à une peine privative de liberté de sept ans au moins, ou cinq ans en récidive, dont la libération doit intervenir entre le sixième et le douzième mois suivants. Pour un condamné dont la libération conditionnelle a été révoquée et qui a moins de six mois à subir, la transmission est immédiate.\nLe procureur de la République vérifie que le condamné relève de l'article D. 147-31 sans suivi socio-judiciaire et s'enquiert auprès du juge d'un éventuel projet de libération conditionnelle. En l'absence de requête, ou s'il entend s'y opposer, il examine le dossier pour apprécier s'il y a lieu de requérir la surveillance judiciaire.\nLe juge de l'application des peines et le procureur de la République peuvent ordonner l'expertise médicale prévue à l'article L. 5261-4, confiée à un seul expert, et, s'ils l'estiment opportun, selon le même article, une seconde expertise, le placement du condamné au centre national d'évaluation pour deux à six semaines fixées par l'administration au vu des informations judiciaires, ou l'avis de la commission pluridisciplinaire des mesures de sûreté. Chacun informe l'autre et lui transmet les conclusions.\nSi l'expertise conclut à la dangerosité et à un risque de récidive avéré, le procureur requiert la surveillance judiciaire dès la libération et transmet ses réquisitions au juge aux fins de saisine du tribunal de l'application des peines. Une expertise de moins de deux ans figurant au dossier et concluant de même dispense d'en ordonner une nouvelle. Le condamné pour des faits antérieurs au 14 décembre 2005 peut alors obtenir de droit une contre-expertise, ordonnée par le tribunal ou par le procureur, avant qu'il soit statué."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-37",
+      "principe": "P21",
+      "motif": "Contenu de la surveillance judiciaire : injonction de soins de droit sauf avis contraire, consentement aux soins et à la surveillance électronique mobile avec retrait de réductions annoncé, résidence, jugement commun avec l'aménagement, date de fin (D147-37 à D147-39). Les anciens 723-30, 131-36-4, 763-12 et 712-16 sont nommés.",
+      "ligne_rouge": "art. 8 DDHC examiné : la surveillance judiciaire reste prononcée par le tribunal de l'application des peines après expertise ; la liste des crimes et délits est gardée entière",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La surveillance judiciaire comporte l'injonction de soins prévue à l'article 131-36-4 du code pénal lorsque l'expertise conclut que le condamné est susceptible d'un traitement. Le tribunal de l'application des peines la constate, sauf si le juge de l'application des peines a indiqué en le saisissant qu'elle n'était pas nécessaire. Les règles du suivi socio-judiciaire relatives à l'injonction de soins s'appliquent alors.\nAvant la libération, le juge avise le condamné qu'aucun traitement et aucun placement sous surveillance électronique mobile ne peuvent être mis en œuvre sans son consentement, mais que son refus ou ses manquements peuvent entraîner le retrait de tout ou partie de ses réductions de peine.\nLe jugement fixe la résidence du condamné à sa libération. En cas de nécessité, le juge la fixe ensuite, avant la libération, au besoin par réquisitions selon l'article L. 5121-1. Le tribunal peut statuer par le même jugement sur une demande d'aménagement relevant du juge initialement saisi. Lorsque la surveillance porte sur la totalité des réductions non retirées, il peut fixer sa date de fin au lieu de sa durée."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-40",
+      "principe": "P19",
+      "motif": "Mise en œuvre : dossier au juge de la résidence deux semaines avant la libération, médecin coordonnateur désigné avant la sortie, convocation dans les huit jours remise contre émargement (D147-40 à D147-40-2).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Deux semaines au moins avant la libération, une copie du dossier individuel, dont la décision de surveillance judiciaire, est adressée au juge de l'application des peines du ressort de la future résidence. S'il y a injonction de soins, ce juge désigne avant la libération le médecin coordonnateur selon les articles R. 3711-8 et R. 3711-12 à R. 3711-17 du code de la santé publique, pour que le médecin traitant soit choisi, sauf impossibilité, avant la sortie. Le condamné peut obtenir à cette fin des permissions de sortir ou des sorties sous escorte.\nLe condamné est convoqué par ce juge dans les huit jours de sa libération. La convocation lui est notifiée contre émargement avant sa libération par le chef d'établissement."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-40-3",
+      "principe": "P25",
+      "motif": "Suspension médicale des obligations, trois mois renouvelables, reprise de plein droit : gardée, phrase resserrée. L'ancien 712-8 devient L. 5131-10.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines peut, par ordonnance rendue selon l'article L. 5131-10, suspendre pour raison médicale, notamment une hospitalisation, tout ou partie des obligations de la surveillance judiciaire, surveillance électronique mobile comprise, pour trois mois au plus, renouvelables si l'état de santé le justifie. Les obligations reprennent de plein droit dès qu'il constate par ordonnance que cet état ne justifie plus la suspension. S'il ne suspend qu'une partie des obligations, il peut modifier ou compléter les autres pendant la suspension, notamment en fixant la résidence au lieu d'hospitalisation."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-41",
+      "principe": "P10",
+      "motif": "Manquements : retrait des réductions par le juge, y compris avant 2005 et avant la libération en cas de refus de pose, reprise de plein droit après retrait partiel, nouvelle surveillance après retrait total sans nouvelle expertise, surveillance électronique mobile consentie sans réincarcération (D147-41 à D147-44). Les anciens 723-35, 763-10, 763-12 et 712-6 deviennent L. 5261-17, L. 5332-4, L. 5332-7 et L. 5131-3.",
+      "ligne_rouge": "art. 8 DDHC examiné : la surveillance judiciaire reste prononcée par le tribunal de l'application des peines après expertise ; la liste des crimes et délits est gardée entière ; toute décision reste du juge, après débat contradictoire",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines ordonne le retrait des réductions de peine prévu à l'article L. 5261-17, y compris pour des faits antérieurs au 14 décembre 2005 et une surveillance ordonnée par le tribunal de l'application des peines. Si le condamné refuse avant sa libération la pose du dispositif de surveillance électronique mobile prévu à l'article L. 5332-7 et à l'article R. 544-5 du code pénitentiaire, le juge ordonne le retrait avant la libération.\nAprès un retrait partiel, la surveillance judiciaire reprend de plein droit, avec toutes ses obligations, à la libération et jusqu'à la date fixée, et le juge peut avant la libération ordonner une surveillance électronique mobile. Après un retrait total, il peut décider une nouvelle surveillance judiciaire, le cas échéant sous surveillance électronique mobile, pour la durée du retrait non exécutée, sans nouvelle expertise de dangerosité.\nEn cas de manquement d'un condamné sous surveillance judiciaire sans surveillance électronique mobile, le juge peut, avec l'accord du condamné assisté de son avocat, ordonner ce placement sans retrait de réductions ni réincarcération.\nLes décisions des deux alinéas précédents sont prises par le juge de l'application des peines, même pour des faits antérieurs au 14 décembre 2005 et une première surveillance ordonnée par le tribunal de l'application des peines, par jugement rendu selon l'article L. 5131-3, sans le délai d'un an de l'article L. 5332-4 pour celles du deuxième alinéa. L'avis de la commission pluridisciplinaire des mesures de sûreté n'est pas requis pour un placement sous surveillance électronique mobile en cas de manquement, ni après retrait partiel lorsque la commission s'était déjà prononcée et que la mesure avait été ordonnée lors de la première surveillance."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D147-46",
+      "principe": "P11",
+      "motif": "Suivi après la libération pendant le temps des réductions (L. 5262-1 à L. 5262-6) : information par formulaire du retrait encouru, contrôle par le juge de la résidence, convocation dans le mois, modification par ordonnance, délai non suspendu, retrait sans remise à exécution de la peine d'origine (D147-46 à D147-51).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé ; la conséquence d'un manquement est connue avant lui",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le condamné soumis à un suivi après sa libération en application de l'article L. 5262-1 est informé à sa libération, par un formulaire que lui remet le chef d'établissement, du retrait de réductions de peine encouru en cas de manquement. Le juge de l'application des peines de sa résidence habituelle contrôle ses obligations et interdictions, assisté du service pénitentiaire d'insertion et de probation et, le cas échéant, d'organismes habilités. Il le convoque dans le mois de sa libération. La convocation lui est notifiée contre émargement avant sa libération par le chef d'établissement.\nHors manquement, le juge modifie ces obligations par ordonnance rendue selon l'article L. 5131-10. Le délai du suivi n'est pas suspendu par une nouvelle incarcération. Le retrait prononcé en application de l'article L. 5262-6 ne remet pas à exécution les peines auxquelles correspondait la réduction retirée."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D158",
+      "principe": "P18",
+      "motif": "Notice individuelle : renseignements, faits, interdictions de contact ou de paraître protégeant le conjoint et les enfants, obligation au-delà de trois mois, transmission électronique. Phrase resserrée, l'ancien 138 devient L. 3621-4 ; la référence en double à 378-2 du code civil tombe.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé ; P18 : les interdictions protégeant la victime sont signalées à l'établissement",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La notice individuelle de la partie judiciaire du dossier prévue à l'article D. 214-11 du code pénitentiaire contient l'état civil, la profession, la situation de famille, les moyens d'existence, le degré d'instruction, la conduite, la moralité et les antécédents du condamné, l'exposé des faits, les éléments qui aggravent ou atténuent sa culpabilité et ses coauteurs ou complices.\nLe procureur de la République y mentionne les interdictions de contact ou de paraître dont il a connaissance, notamment à l'égard du conjoint, du concubin ou du partenaire, actuel ou ancien, ou des enfants mineurs, prononcées en application de l'article L. 3621-4 du présent code, des articles 131-6, 131-10 ou 132-45 du code pénal ou d'une ordonnance de protection de l'article 515-11 du code civil, ou résultant d'une suspension ou d'un retrait de l'autorité parentale ou des droits de visite et d'hébergement en application des articles 378 à 379-1 du code civil. La notice indique les nom et prénoms des personnes protégées et, s'ils sont connus, leur adresse, leurs date et lieu de naissance et la date d'expiration de la décision.\nLe ministère public près la juridiction de condamnation rédige la notice pour tout condamné qui a plus de trois mois à subir lorsque la décision devient définitive, et l'adresse au plus vite, de préférence par voie électronique."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D249",
+      "principe": "P17",
+      "motif": "Habilitation des assesseurs extérieurs de la commission de discipline par le président du tribunal, silence de deux mois valant rejet, liste, retrait après observations (D249 et D250). Cité par D234-11 du code pénitentiaire.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne qui souhaite siéger comme assesseur à la commission de discipline adresse sa candidature, avec l'adresse des établissements où elle souhaite intervenir, au président du tribunal judiciaire compétent, directement ou par le chef d'établissement qui la lui transmet sans délai. Le silence gardé deux mois vaut rejet. L'habilitation emporte inscription sur la liste prévue au troisième alinéa de l'article R. 234-6 du code pénitentiaire, communiquée au chef d'établissement à chaque inscription et au moins une fois par an.\nLe président retire l'habilitation à la demande de l'intéressé ou lorsqu'il ne remplit plus les conditions de l'article R. 234-7 du même code. Il peut aussi la retirer, d'office ou à la demande du chef d'établissement ou du procureur de la République, après observations écrites et, sur demande, orales de l'intéressé, si celui-ci ne défère pas sans motif légitime à plusieurs convocations ou manque aux obligations de l'article R. 234-4 du même code. Le retrait emporte radiation de la liste."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D428",
+      "principe": "P20",
+      "motif": "Renseignements dus aux autorités judiciaires (passe 2) : gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les services pénitentiaires fournissent aux autorités judiciaires qualifiées pour en connaître les renseignements relatifs au lieu d'incarcération, à la situation pénale ou à la date de libération d'un détenu."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D521-1-1",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Information du délai de recours de dix jours contre la décision du parquet sur l'exécution dans un autre État membre : délai opposable. Renvoi à l'ancien 728-22-1 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Information du délai de recours de dix jours contre la décision du parquet sur l'exécution dans un autre État membre : gardée. L'ancien 728-22-1 devient L. 6151-14.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La notification au condamné d'une décision du ministère public prise en application de l'article L. 6151-14 l'informe qu'il peut la contester devant le président de la chambre de l'application des peines dans les dix jours."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -53,7 +469,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : l'article D. 211-4 du code pénitentiaire porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 66 C examiné : la maison d'arrêt reste désignée selon les prescriptions du mandat (D211-4 du code pénitentiaire)"
+      "ligne_rouge": "garantie examinée : Article miroir : l'article D. 211-4 du code pénitentiaire porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois."
     },
     {
       "code": "cpp",
@@ -65,43 +481,30 @@
     },
     {
       "code": "cpp",
-      "num": "D55",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Ordres des magistrats exécutés en maison d'arrêt, compte rendu des difficultés : le juge ordonne, l'administration exécute. Source de D211-5 du code pénitentiaire. Renvoi à l'ancien 715 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "D55-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Envoi de la notice avec le titre de détention, hors instruction : seul article qui le prévoit, cité par D211-6 du code pénitentiaire.",
-      "ligne_rouge": "art. 66 C examiné : le titre de détention et les mesures prescrites par l'autorité judiciaire accompagnent la personne"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D55 (ordres de l'autorité judiciaire au cours de la détention provisoire).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la notice et les mesures restent prescrites par le magistrat",
+      "vers": "D55"
     },
     {
       "code": "cpp",
       "num": "D56",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interdiction de communiquer prescrite par le juge, jamais opposable à l'avocat : droits de la défense. Source de D211-7 et D313-17 du code pénitentiaire. Renvoi à l'ancien 145-4 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'avocat reste joignable en toute hypothèse"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D55 (ordres de l'autorité judiciaire au cours de la détention provisoire).",
+      "ligne_rouge": "aucune",
+      "vers": "D55"
     },
     {
       "code": "cpp",
       "num": "D56-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Séparation ordonnée par le juge, instructions écrites au chef d'établissement : source de D211-8 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D57",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Translations et extractions : services requis, renfort des escortes des détenus particulièrement signalés, frais de justice. Règle propre, source de D215-8, D215-10 et D215-26 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D55 (ordres de l'autorité judiciaire au cours de la détention provisoire).",
+      "ligne_rouge": "aucune",
+      "vers": "D55"
     },
     {
       "code": "cpp",
@@ -117,7 +520,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : les articles R. 122-14 et D. 313-9 du code pénitentiaire portent la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 16 DDHC examiné : le libre choix du défenseur et l'interdiction d'influer sur la défense restent à R122-14 et D313-9 du code pénitentiaire"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -133,7 +536,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : la sous-section du code pénitentiaire à laquelle il renvoie seulement (orientation et affectation) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'affectation est un lieu d'exécution, sans effet sur le quantum"
+      "ligne_rouge": "garantie examinée : Article miroir : la sous-section du code pénitentiaire à laquelle il renvoie seulement (orientation et affectation) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une s"
     },
     {
       "code": "cpp",
@@ -141,7 +544,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : l'avant-dernier alinéa de l'article D. 211-12 du code pénitentiaire (copie au juge de l'application des peines, versée au dossier de D49-29) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois. Cité par D47-11-4 : renvoi à coordonner vers D. 211-12 du code pénitentiaire, qui porte aussi l'envoi des interdictions de contact.",
-      "ligne_rouge": "art. 8 DDHC examiné : transmission de pièces, sans effet sur la peine"
+      "ligne_rouge": "garantie examinée : Article miroir : l'avant-dernier alinéa de l'article D. 211-12 du code pénitentiaire (copie au juge de l'application des peines, versée au dossier de D49-29) porte la même règle, vérifiée mot à mot, s"
     },
     {
       "code": "cpp",
@@ -157,7 +560,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : la sous-section du code pénitentiaire à laquelle il renvoie seulement (parcours d'exécution) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 8 DDHC examiné : le parcours d'exécution est un régime, sans effet sur le quantum"
+      "ligne_rouge": "garantie examinée : Article miroir : la sous-section du code pénitentiaire à laquelle il renvoie seulement (parcours d'exécution) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule f"
     },
     {
       "code": "cpp",
@@ -169,135 +572,84 @@
     },
     {
       "code": "cpp",
-      "num": "D115",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Imputation des réductions sur le reliquat, décompte à la date de libération : règle de computation.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
-    },
-    {
-      "code": "cpp",
       "num": "D115-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Les réductions valent pour les peines aménagées, jamais pour l'emprisonnement issu d'un retrait ou de la contrainte judiciaire : pas de réduction sur la sanction d'un manquement. Renvois aux anciens 721, 721-2 et 723-35 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D115 (règles communes des réductions et des peines successives).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D115"
     },
     {
       "code": "cpp",
       "num": "D116",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "L'examen par la commission de l'application des peines suit L5224-5 réécrit (lot p005), qui retire son avis obligatoire : le juge examine.",
-      "ligne_rouge": "art. 66 C examiné : la privation de liberté déjà subie est examinée sans attendre ; art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "la commission de l'application des peines examine la situation",
-          "nouveau": "le juge de l'application des peines examine la situation"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "est examinée par la commission de l'application des peines dans",
-          "nouveau": "est examinée par le juge de l'application des peines dans"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D115 (règles communes des réductions et des peines successives).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D115"
     },
     {
       "code": "cpp",
       "num": "D116-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Sous un an de reliquat, le juge apprécie la réduction sur toute la durée : suit la règle de l'octroi en une fois (L5224-5).",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D115 (règles communes des réductions et des peines successives).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D115"
     },
     {
       "code": "cpp",
       "num": "D116-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Le juge peut rapporter une décision prise sur une fraction et réexaminer sur la fraction annuelle : évite deux régimes de calcul pour la même détention.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D115 (règles communes des réductions et des peines successives).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D115"
     },
     {
       "code": "cpp",
       "num": "D116-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Peines successives sous régimes distincts : le plus strict s'applique tant qu'une peine qui le porte reste à exécuter. Règle propre, distincte de L5224-11 (peines confondues). Renvois aux anciens 721, 721-1-1 et 721-1-2 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
-    },
-    {
-      "code": "cpp",
-      "num": "D116-4",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "La mauvaise conduite en aménagement justifie le retrait de la réduction : contrepartie de la réduction au mérite.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D115 (règles communes des réductions et des peines successives).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D115"
     },
     {
       "code": "cpp",
       "num": "D116-5",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Exemples de mauvaise conduite (faute disciplinaire grave, refus du prélèvement biologique) : condition de la réduction, tenue.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D116-4 (retrait des réductions de peine).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D116-4"
     },
     {
       "code": "cpp",
       "num": "D116-6",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Le retrait de réduction suit L5224-13 réécrit (lot p005) : l'examen obligatoire en commission tombe, le contradictoire, l'avocat et le quantum annoncé restent.",
-      "ligne_rouge": "art. 16 DDHC examiné : contradictoire, avocat et quantum annoncé, tenus ; art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "doit être examiné en commission de l'application des peines.",
-          "nouveau": "doit être examiné."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "des observations écrites à la commission.",
-          "nouveau": "des observations écrites au juge de l'application des peines."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "que le condamné soit entendu par la commission de l'application des peines lors de l'examen",
-          "nouveau": "que le condamné soit entendu par le juge lors de l'examen"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D116-4 (retrait des réductions de peine).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D116-4"
     },
     {
       "code": "cpp",
       "num": "D116-7",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le retrait s'exécute après la dernière peine portée à l'écrou : la peine prononcée s'exécute en entier.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D116-4 (retrait des réductions de peine).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D116-4"
     },
     {
       "code": "cpp",
       "num": "D116-8",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "L'avis de fin de peine au casier mentionne la durée des retraits : information exacte et publiable. Source de D214-20 du code pénitentiaire.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
-    },
-    {
-      "code": "cpp",
-      "num": "D117",
-      "decision": "S",
-      "principe": "P10",
-      "motif": "Réductions exceptionnelles (anciens 721-3 et 721-4, devenus L5224-18 et L5224-15) : le plafond suit la loi réécrite au lot p005, du tiers au [sixième] de la peine prononcée. La précision du calcul et l'énoncé des peines prises en compte restent.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "sans dépasser le tiers de la peine prononcée",
-          "nouveau": "sans dépasser [le sixième] de la peine prononcée"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D116-4 (retrait des réductions de peine).",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la réduction reste décidée et retirée par le juge, contradictoire et quantum annoncé compris ; aucune réduction sans effort ni décision (P10)",
+      "vers": "D116-4"
     },
     {
       "code": "cpp",
@@ -306,26 +658,6 @@
       "principe": "P20",
       "motif": "Article déclaratif : il énumère les cas où un condamné se trouve hors de l'établissement, que la loi porte déjà (L5225-1, L5231-1). Le maintien sous écrou que D212-12 du code pénitentiaire tire de lui résulte de L5231-1 (« en étant placées sous écrou ») et de l'imputation de la permission sur la peine (L5225-1). Renvois à coordonner : à D212-12 du code pénitentiaire, « faisant l'objet des mesures prévues par les dispositions de l'article D. 118 du code de procédure pénale » devient « bénéficiant d'une permission de sortir, d'une semi-liberté, d'un placement à l'extérieur ou d'une détention à domicile sous surveillance électronique ». À D216-10 du même code, « des articles D. 118 et D. 119 du code de procédure pénale » devient « de l'article D. 119 du code de procédure pénale et des permissions de sortir ».",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D119",
-      "decision": "S",
-      "principe": "P10",
-      "motif": "Aménagement par le juge de l'application des peines : il s'apprécie au vu des efforts de réinsertion, comme L5221-1 réécrit (lot p005), non de la situation sociale. Le dernier alinéa (aménagement obligatoire de l'ancien 720) tombe avec la libération sous contrainte (lot 1). Renvois aux anciens 707, 723-1 et 723-7 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'individualisation au prononcé reste entière, l'aménagement à l'exécution devient une faculté au mérite (part tempérable) ; art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "au regard de l'évolution de la personnalité et de la situation matérielle, familiale et sociale de la personne condamnée, et notamment lorsque",
-          "nouveau": "au vu des efforts de réinsertion de la personne condamnée, notamment lorsque"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nToutefois, conformément à l'article 720, lorsque la personne condamnée exécute une ou plusieurs peines privatives de liberté d'une durée totale inférieure ou égale à cinq ans et que la durée de la peine accomplie est au moins égale au double de la durée de la peine restant à subir, l'aménagement doit être ordonné, sauf s'il est impossible à mettre en œuvre au regard des exigences de l'article 707.",
-          "nouveau": ""
-        }
-      ]
     },
     {
       "code": "cpp",
@@ -365,252 +697,133 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Doublon de L5231-6, qui permet d'assortir le placement à l'extérieur des obligations et interdictions des articles 132-44 et 132-45 du code pénal. La référence à l'article 131-36-2 n'ajoute rien : cet article renvoie lui-même aux articles 132-44 et 132-45. Cité par D147-19 et D147-24, abrogés au même lot.",
-      "ligne_rouge": "P25 examiné : les obligations restrictives de liberté restent fondées sur la loi (L5231-6)"
-    },
-    {
-      "code": "cpp",
-      "num": "D136",
-      "decision": "S",
-      "principe": "P10",
-      "motif": "Placement à l'extérieur sans surveillance : le seuil suit L5231-5 réécrit (lot p006), sur la durée totale des peines prononcées et non sur le reliquat. Le 3° (fin de longue peine sans libération conditionnelle) tombe : la sortie des longues peines passe par la libération conditionnelle et sa mesure probatoire (2°). Le seuil réduit en récidive règle le degré de contrôle de la mesure, non la faculté d'aménager que la loi donne au juge : il reste au règlement (art. 37 C). La référence à l'article 131-36-2 du code pénal, qui renvoie lui-même aux articles 132-44 et 132-45, tombe. Coquille « conditionelle » corrigée. Cité par D424-14 du code pénitentiaire.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'individualisation au prononcé reste entière (L5231-2), l'aménagement à l'exécution se tempère ; art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "1° Les condamnés dont la peine restant à subir n'excède pas deux ans ou un an s'ils sont en état de récidive légale ;\n2° Les condamnés admis au bénéfice de la libération conditionelle, sous la condition d'avoir été soumis à titre probatoire au régime du placement à l'extérieur ;\n3° Les condamnés qui remplissent les conditions de délai requises pour être proposés au bénéfice de la libération conditionnelle et dont la peine restant à subir n'excède pas trois ans.",
-          "nouveau": "1° Les condamnés à une ou plusieurs peines privatives de liberté dont la durée totale n'excède pas [deux ans], ou [un an] s'ils sont en état de récidive légale.\n2° Les condamnés admis au bénéfice de la libération conditionnelle, sous la condition d'avoir été soumis à titre probatoire au régime du placement à l'extérieur."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "articles 131-36-2,132-44 et 132-45",
-          "nouveau": "articles 132-44 et 132-45"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "D137",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Engagements du semi-libre et horaires fixés par le juge : contrepartie de la mesure. Renvoi à l'ancien 723-1 à coordonner.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "D138",
-      "decision": "S",
+      "decision": "F",
       "principe": "P20",
-      "motif": "Obligations de la semi-liberté, modifiables en cours de mesure. La référence à l'article 131-36-2 du code pénal tombe : cet article renvoie lui-même aux articles 132-44 et 132-45, que vise L5231-6. Renvoi à l'ancien 712-8 à coordonner.",
+      "motif": "Obligations de la semi-liberté : réunies à D137.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "articles 131-36-2,\n132-44 et 132-45",
-          "nouveau": "articles 132-44 et 132-45"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "D142",
-      "decision": "S",
-      "principe": "P18",
-      "motif": "Régime de la permission : lieu, conditions, interdiction d'entrer en relation avec la victime, interdictions judiciaires de plein droit, retrait et réincarcération. La référence à l'article 131-36-2 du code pénal tombe : cet article renvoie lui-même aux articles 132-44 et 132-45. Source de D424-23 et D424-24 du code pénitentiaire.",
-      "ligne_rouge": "art. 8 DDHC examiné : la permission s'impute sur la peine (L5225-1), aucune remise ; P18 examiné : interdiction de contact avec la victime de plein droit",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "articles 131-36-2,132-44 et 132-45",
-          "nouveau": "articles 132-44 et 132-45"
-        }
-      ]
+      "vers": "D137"
     },
     {
       "code": "cpp",
       "num": "D142-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Aucune permission pendant la période de sûreté : la période fixée par la juridiction s'exécute.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D142 (régime commun des permissions de sortir).",
+      "ligne_rouge": "aucune",
+      "vers": "D142"
     },
     {
       "code": "cpp",
       "num": "D142-1-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Quartiers de lutte contre la criminalité organisée : refus en cas de risque de fuite ou de liens avec les réseaux, octroi motivé. Nécessité établie.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D142 (régime commun des permissions de sortir).",
+      "ligne_rouge": "aucune",
+      "vers": "D142"
     },
     {
       "code": "cpp",
       "num": "D142-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Appel jugé après la date prévue : le président fixe une autre date. Le recours garde un effet utile.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D142 (régime commun des permissions de sortir).",
+      "ligne_rouge": "aucune",
+      "vers": "D142"
     },
     {
       "code": "cpp",
       "num": "D142-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Frais à la charge du détenu, hébergement et transport justifiés : pas de sortie sans moyens licites. Source de D424-26 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D142-3-1",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Permissions suivantes accordées par le chef d'établissement (L5225-2) : l'avis écrit préalable du service d'insertion et de probation ne protège aucune liberté, il tombe. Le juge fixe les obligations et peut reprendre la main, le délai de deux mois reste opposable. Source de D424-22 du code pénitentiaire.",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D142 (régime commun des permissions de sortir).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "statue après avis écrit du service pénitentiaire d'insertion de probation. Il informe immédiatement",
-          "nouveau": "informe immédiatement"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "D143",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Permissions de trois jours : conditions de durée et de reliquat. Le temps dehors s'impute sur la peine. Source de D424-27 et D343-1 du code pénitentiaire.",
-      "ligne_rouge": "art. 8 DDHC examiné : la permission s'impute sur la peine (L5225-1), aucune remise"
+      "vers": "D142"
     },
     {
       "code": "cpp",
       "num": "D143-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Centres de détention : permissions au tiers de la peine, cinq jours et dix une fois l'an. Source de D424-27 du code pénitentiaire.",
-      "ligne_rouge": "art. 8 DDHC examiné : la permission s'impute sur la peine (L5225-1), aucune remise"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D143 (permissions pour les liens familiaux et la réinsertion).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "vers": "D143"
     },
     {
       "code": "cpp",
       "num": "D143-2",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Structures d'accompagnement vers la sortie : permissions sans condition de délai, cinq jours. Ces structures reçoivent des fins de peine.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D143 (permissions pour les liens familiaux et la réinsertion).",
+      "ligne_rouge": "aucune",
+      "vers": "D143"
     },
     {
       "code": "cpp",
       "num": "D143-3",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Permissions de fin de semaine des semi-libres, placés à l'extérieur et placés sous surveillance électronique : continuité de la mesure.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D143-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Permissions d'une journée pour des motifs nommés : la libération sous contrainte, abrogée (lot 1), sort du 1°. Source de D424-28 du code pénitentiaire.",
-      "ligne_rouge": "art. 8 DDHC examiné : la permission s'impute sur la peine (L5225-1), aucune remise ; art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "libération conditionnelle ou de la libération sous contrainte ou au régime",
-          "nouveau": "libération conditionnelle ou au régime"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D143 (permissions pour les liens familiaux et la réinsertion).",
+      "ligne_rouge": "aucune",
+      "vers": "D143"
     },
     {
       "code": "cpp",
       "num": "D143-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Permission pour maladie grave, décès d'un proche ou naissance : maintien des liens familiaux, trois jours au plus.",
-      "ligne_rouge": "CEDH art. 8 examiné : vie familiale ; art. 8 DDHC examiné : la permission s'impute sur la peine (L5225-1)"
-    },
-    {
-      "code": "cpp",
-      "num": "D144",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Date et modalités fixées par le directeur du service d'insertion et de probation sur délégation du juge : l'avis préalable du chef d'établissement ne protège aucune liberté, il tombe. Source de D424-25 du code pénitentiaire.",
-      "ligne_rouge": "art. 8 DDHC examiné : le juge accorde la permission, seule la date est déléguée",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", après avis du chef de l'établissement pénitentiaire.",
-          "nouveau": "."
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D143-4 (permissions pour motif nommé).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "vers": "D143-4"
     },
     {
       "code": "cpp",
       "num": "D145",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Permission pour une obligation qui exige la présence, réservée aux cas où ni la représentation ni la visioconférence ne suffisent : le numérique d'abord.",
-      "ligne_rouge": "art. 16 DDHC examiné : la comparution devant une juridiction reste assurée ; art. 8 DDHC examiné : la permission s'impute sur la peine"
-    },
-    {
-      "code": "cpp",
-      "num": "D147",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Sortie sous escorte, exceptionnelle, autorisée par le magistrat compétent et retirée par lui. Source de D215-29 du code pénitentiaire. Renvois aux anciens 148-5 et 723-6 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la personne reste sous escorte, la décision appartient au juge d'instruction, au parquet ou à la juridiction de l'application des peines"
-    },
-    {
-      "code": "cpp",
-      "num": "D147-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Surveillance du condamné en suspension médicale par le juge, assisté du service. Renvois aux anciens 720-1-1 et 712-10 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la suspension ne retranche rien, la peine reprend (L5142-9 et suivants)"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D143-4 (permissions pour motif nommé).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "vers": "D143-4"
     },
     {
       "code": "cpp",
       "num": "D147-2",
-      "decision": "S",
-      "principe": "P18",
-      "motif": "Obligations de la suspension médicale, dont l'interdiction d'entrer en relation avec la victime et de fréquenter des mineurs : contrôle proportionné. La référence à l'article 131-36-2 du code pénal tombe : cet article renvoie lui-même aux articles 132-44 et 132-45.",
-      "ligne_rouge": "CEDH art. 3 examiné : la suspension pour raison médicale demeure ; art. 8 DDHC examiné : obligations de contrôle, sans effet sur le quantum ; P18 examiné : la victime est protégée",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "articles 131-36-2,132-44 et 132-45",
-          "nouveau": "articles 132-44 et 132-45"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-1 (suspension de peine pour raison médicale).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "vers": "D147-1"
     },
     {
       "code": "cpp",
       "num": "D147-3",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Relèvement ou modification des obligations par le juge : l'avis préalable du service ne protège aucune liberté, il tombe. Source de D322-36 du code pénitentiaire.",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-1 (suspension de peine pour raison médicale).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", après avis du service pénitentiaire d'insertion et de probation, par",
-          "nouveau": " par"
-        }
-      ]
+      "vers": "D147-1"
     },
     {
       "code": "cpp",
       "num": "D147-4",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Fin de la suspension en cas de manquement, après débat contradictoire : la peine reprend.",
-      "ligne_rouge": "art. 16 DDHC examiné : débat contradictoire ; art. 8 DDHC examiné : la peine prononcée reprend son cours"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-1 (suspension de peine pour raison médicale).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "vers": "D147-1"
     },
     {
       "code": "cpp",
       "num": "D147-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le parquet peut demander à tout moment une expertise de contrôle : la suspension reste fondée sur un état vérifié.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-1 (suspension de peine pour raison médicale).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-1"
     },
     {
       "code": "cpp",
@@ -626,108 +839,70 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Seuil d'un an en cas de récidive : le seuil commun de L5212-1 est déjà d'un an pour toute peine ou cumul, l'article ne dit plus rien de propre.",
-      "ligne_rouge": "art. 8 DDHC examiné : le seuil de la loi s'applique au récidiviste comme à tous"
-    },
-    {
-      "code": "cpp",
-      "num": "D147-8",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Libération conditionnelle d'un condamné libre : mêmes conditions et temps d'épreuve que pour un détenu. Renvois aux anciens 723-1, 723-7 et 729 à coordonner.",
-      "ligne_rouge": "aucune"
+      "ligne_rouge": "garantie examinée : Seuil d'un an en cas de récidive : le seuil commun de L5212-1 est déjà d'un an pour toute peine ou cumul, l'article ne dit plus rien de propre."
     },
     {
       "code": "cpp",
       "num": "D147-9",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Ordre des convocations devant le juge et le service, que le juge peut inverser au vu de la peine, des faits et des antécédents. Renvois aux anciens 474 et 723-15 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : organisation des convocations, sans effet sur le quantum"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-8 (procédure des condamnés libres).",
+      "ligne_rouge": "art. 66 C, art. 8 et art. 16 DDHC examinés : la peine prononcée s'exécute ; les réductions restent décidées par le juge au vu de la conduite et des efforts ; le retard de l'État ne fait pas tomber la convocation",
+      "vers": "D147-8"
     },
     {
       "code": "cpp",
       "num": "D147-10",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Transmission directe de la décision au juge de la résidence : pas d'intermédiaire.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-8 (procédure des condamnés libres).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-8"
     },
     {
       "code": "cpp",
       "num": "D147-11",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Pas de nullité des convocations tardives : le retard de l'État ne doit pas retarder l'exécution (P11). Les délais cités (un mois, quarante-cinq jours) ne sont plus ceux de la loi (vingt et trente jours, L5212-5) : ils sortent du texte. Renvoi à l'ancien 723-15 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : la personne est entendue par le juge, seule la nullité de la convocation est écartée ; P19 : la sanction du délai est la saisine du juge (L5212-8)",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "des délais d'un mois et de quarante-cinq jours prévus",
-          "nouveau": "des délais de convocation prévus"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "D147-12",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Réductions sur la détention provisoire d'un condamné libre : l'avis préalable du chef d'établissement devient une transmission d'éléments sur la conduite et les efforts, que la réduction exige (L5224-5 réécrit). D214-21 du code pénitentiaire, qui le recopie, est à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la détention provisoire subie est prise en compte sans incarcération nouvelle ; art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", mais, sauf urgence ou impossibilité, après avis du chef d'établissement dans lequel le condamné était écroué et au vu d'une synthèse socio-éducative établie par le service pénitentiaire d'insertion et de probation compétent de cet établissement.",
-          "nouveau": ", au vu des éléments sur la conduite et les efforts du condamné que lui transmettent, sauf urgence ou impossibilité, le chef de l'établissement dans lequel le condamné était écroué et le service pénitentiaire d'insertion et de probation compétent de cet établissement."
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-8 (procédure des condamnés libres).",
+      "ligne_rouge": "art. 66 C, art. 8 et art. 16 DDHC examinés : la peine prononcée s'exécute ; les réductions restent décidées par le juge au vu de la conduite et des efforts ; le retard de l'État ne fait pas tomber la convocation",
+      "vers": "D147-8"
     },
     {
       "code": "cpp",
       "num": "D147-13",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Information du condamné sans reliquat : la lettre recommandée cède au moyen qui prouve la réception, numérique compris. Renvoi à l'ancien 721 à coordonner. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
-      "ligne_rouge": "art. 8 DDHC examiné : information, sans effet sur la peine",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "par lettre recommandée.",
-          "nouveau": "par tout moyen permettant d'en établir la date de réception, y compris par voie électronique."
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-12 (réductions et détention provisoire du condamné libre).",
+      "ligne_rouge": "art. 66 C, art. 8 et art. 16 DDHC examinés : la peine prononcée s'exécute ; les réductions restent décidées par le juge au vu de la conduite et des efforts ; le retard de l'État ne fait pas tomber la convocation",
+      "vers": "D147-12"
     },
     {
       "code": "cpp",
       "num": "D147-14",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Le parquet évite une incarcération quand la détention provisoire couvre la peine ou ouvre la libération conditionnelle : pas d'écrou inutile. La libération conditionnelle reste au mérite. Renvois aux anciens 723-15 et 723-18 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la privation de liberté déjà subie s'impute ; art. 8 DDHC examiné : aucune réduction sans les conditions de la loi"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-12 (réductions et détention provisoire du condamné libre).",
+      "ligne_rouge": "art. 66 C, art. 8 et art. 16 DDHC examinés : la peine prononcée s'exécute ; les réductions restent décidées par le juge au vu de la conduite et des efforts ; le retard de l'État ne fait pas tomber la convocation",
+      "vers": "D147-12"
     },
     {
       "code": "cpp",
       "num": "D147-15",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Pas d'expertise de l'ancien 712-21 pour les aménagements des condamnés libres, sauf réquisition du parquet : dispense prévue par la loi (L5226-9), avec la main du procureur.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D147-16",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Sans demande ou après refus, le juge fixe la date d'incarcération : la peine s'exécute (L5212-10). Coquille « aliéna » laissée au lot de coordination.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-16 (mise à exécution pour le condamné libre).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-16"
     },
     {
       "code": "cpp",
       "num": "D147-16-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "La procédure des condamnés libres ne vaut pas pour l'emprisonnement issu d'une révocation, sauf décision du parquet : la sanction d'un manquement s'exécute.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-16 (mise à exécution pour le condamné libre).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-16"
     },
     {
       "code": "cpp",
@@ -735,7 +910,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Information sur la libération sous contrainte : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "art. 8 DDHC examiné : la libération sous contrainte, sans décision juridictionnelle au mérite, tombe avec la loi ; la libération conditionnelle, décidée par le juge, reste"
     },
     {
       "code": "cpp",
@@ -743,7 +918,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Constat du refus de la libération sous contrainte : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -751,7 +926,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Avis du service sur la libération sous contrainte : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -759,7 +934,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Exclusion en cas de requête pendante : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "art. 8 DDHC examiné : la libération sous contrainte, sans décision juridictionnelle au mérite, tombe avec la loi ; la libération conditionnelle, décidée par le juge, reste"
     },
     {
       "code": "cpp",
@@ -767,7 +942,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Décision anticipée de libération sous contrainte : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "art. 8 DDHC examiné : la libération sous contrainte, sans décision juridictionnelle au mérite, tombe avec la loi ; la libération conditionnelle, décidée par le juge, reste"
     },
     {
       "code": "cpp",
@@ -775,7 +950,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Convocation après libération sous contrainte : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -783,7 +958,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Saisine du président de la chambre à défaut de décision sur la libération sous contrainte : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "art. 8 DDHC examiné : la libération sous contrainte, sans décision juridictionnelle au mérite, tombe avec la loi ; la libération conditionnelle, décidée par le juge, reste"
     },
     {
       "code": "cpp",
@@ -791,7 +966,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Exclusion des aménagements sous écrou : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "art. 8 DDHC examiné : la libération sous contrainte, sans décision juridictionnelle au mérite, tombe avec la loi ; la libération conditionnelle, décidée par le juge, reste"
     },
     {
       "code": "cpp",
@@ -799,7 +974,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Information sur la libération sous contrainte de plein droit : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "art. 8 DDHC examiné : la libération sous contrainte, sans décision juridictionnelle au mérite, tombe avec la loi ; la libération conditionnelle, décidée par le juge, reste"
     },
     {
       "code": "cpp",
@@ -807,7 +982,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Avis du service et impossibilité matérielle de la libération de plein droit : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -815,7 +990,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Convocation après libération sous contrainte de plein droit : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -823,7 +998,7 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Décision anticipée de libération de plein droit : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
+      "ligne_rouge": "art. 8 DDHC examiné : la libération sous contrainte, sans décision juridictionnelle au mérite, tombe avec la loi ; la libération conditionnelle, décidée par le juge, reste"
     },
     {
       "code": "cpp",
@@ -831,174 +1006,133 @@
       "decision": "A",
       "principe": "P10",
       "motif": "Champ de la libération de plein droit : mise en œuvre de la libération sous contrainte, abrogée dans la loi (L5251-1 à L5252-4, lot 1). Le miroir du code pénitentiaire (D422-1 à D422-4-3) tombe avec lui, à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la libération anticipée sert l'objectif de réinsertion (CC 93-334 DC, 20 janv. 1994), que la libération conditionnelle au mérite continue de servir"
-    },
-    {
-      "code": "cpp",
-      "num": "D147-31",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Liste des crimes et délits ouvrant la surveillance judiciaire à sept ans de peine : protection des victimes potentielles. Renvoi aux anciens 723-29 à 723-37 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : mesure de sûreté décidée par jugement après expertise, durée bornée par les réductions obtenues"
+      "ligne_rouge": "art. 8 DDHC examiné : la libération sous contrainte, sans décision juridictionnelle au mérite, tombe avec la loi ; la libération conditionnelle, décidée par le juge, reste"
     },
     {
       "code": "cpp",
       "num": "D147-31-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Pas de surveillance judiciaire en cas de suivi socio-judiciaire ou de libération conditionnelle en cours : une seule mesure à la fois. La réserve transitoire de 2005 vise des peines encore en cours.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D147-32",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Transmission mensuelle des fiches pénales six à douze mois avant la libération : le parquet décide à temps.",
-      "ligne_rouge": "art. 8 DDHC examiné : mesure de sûreté décidée par jugement après expertise, durée bornée par les réductions obtenues"
+      "motif": "Exclusions de la surveillance judiciaire : réunies à D147-31.",
+      "ligne_rouge": "aucune",
+      "vers": "D147-31"
     },
     {
       "code": "cpp",
       "num": "D147-33",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le parquet vérifie le champ et l'éventuel projet de libération conditionnelle avant de requérir.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-32 (préparation de la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-32"
     },
     {
       "code": "cpp",
       "num": "D147-34",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Expertise et évaluation pluridisciplinaire au choix des magistrats, sans dualité d'expert obligatoire : nécessité établie, coût mesuré. Source de D211-17 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-32 (préparation de la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-32"
     },
     {
       "code": "cpp",
       "num": "D147-35",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Dangerosité et risque avérés : le parquet requiert, le tribunal de l'application des peines juge.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-32 (préparation de la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-32"
     },
     {
       "code": "cpp",
       "num": "D147-36",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Pas de nouvelle expertise si une expertise de moins de deux ans conclut déjà au risque : pas d'examen inutile. Coquille « de moins de moins » corrigée.",
-      "ligne_rouge": "art. 16 DDHC examiné : contre-expertise de droit maintenue pour les faits antérieurs à 2005",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "de moins de moins de deux ans",
-          "nouveau": "de moins de deux ans"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "D147-37",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Injonction de soins de droit sauf avis contraire, avec avis au condamné que le refus emporte retrait de réductions : soins consentis, conséquence annoncée.",
-      "ligne_rouge": "art. 8 DDHC examiné : mesure de sûreté décidée par jugement après expertise, durée bornée par les réductions obtenues ; CEDH art. 3 et 8 examinés : aucun traitement sans consentement"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-32 (préparation de la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-32"
     },
     {
       "code": "cpp",
       "num": "D147-37-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Surveillance électronique mobile consentie, refus sanctionné par le retrait de réductions annoncé avant la libération.",
-      "ligne_rouge": "art. 8 DDHC examiné : mesure de sûreté décidée par jugement après expertise, durée bornée par les réductions obtenues ; CEDH art. 8 examiné : consentement requis"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-37 (contenu de la surveillance judiciaire).",
+      "ligne_rouge": "art. 8 DDHC examiné : la surveillance judiciaire reste prononcée par le tribunal de l'application des peines après expertise ; la liste des crimes et délits est gardée entière",
+      "vers": "D147-37"
     },
     {
       "code": "cpp",
       "num": "D147-37-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Résidence fixée par le jugement, ou par le juge avant la libération : contrôle effectif.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-37 (contenu de la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-37"
     },
     {
       "code": "cpp",
       "num": "D147-38",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Un seul jugement pour la surveillance judiciaire et l'aménagement demandé : une audience au lieu de deux.",
-      "ligne_rouge": "art. 8 DDHC examiné : mesure de sûreté décidée par jugement après expertise, durée bornée par les réductions obtenues"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-37 (contenu de la surveillance judiciaire).",
+      "ligne_rouge": "art. 8 DDHC examiné : la surveillance judiciaire reste prononcée par le tribunal de l'application des peines après expertise ; la liste des crimes et délits est gardée entière",
+      "vers": "D147-37"
     },
     {
       "code": "cpp",
       "num": "D147-39",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Fin de la mesure fixée par une date plutôt qu'une durée : calcul simple.",
-      "ligne_rouge": "art. 8 DDHC examiné : mesure de sûreté décidée par jugement après expertise, durée bornée par les réductions obtenues"
-    },
-    {
-      "code": "cpp",
-      "num": "D147-40",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Dossier transmis au juge de la résidence deux semaines avant la libération : la surveillance commence à la sortie.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-37 (contenu de la surveillance judiciaire).",
+      "ligne_rouge": "art. 8 DDHC examiné : la surveillance judiciaire reste prononcée par le tribunal de l'application des peines après expertise ; la liste des crimes et délits est gardée entière",
+      "vers": "D147-37"
     },
     {
       "code": "cpp",
       "num": "D147-40-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Médecin coordonnateur désigné avant la libération, sorties pour le rencontrer : l'injonction de soins commence sans délai.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-40 (mise en œuvre de la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-40"
     },
     {
       "code": "cpp",
       "num": "D147-40-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Convocation dans les huit jours de la libération, remise en main propre avant la sortie : délai opposable, preuve de la remise. Source de D543-3 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D147-40-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Suspension médicale des obligations, trois mois renouvelables, reprise de plein droit : proportionnée (comme D534-2, lot 3).",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : suspension pour raison médicale, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "D147-41",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le juge de l'application des peines ordonne le retrait des réductions en cas de manquement, y compris pour les faits antérieurs à 2005.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-40 (mise en œuvre de la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-40"
     },
     {
       "code": "cpp",
       "num": "D147-42",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Refus de la pose du dispositif avant la libération : retrait des réductions avant la sortie. Contrepartie annoncée.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-41 (manquements pendant la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-41"
     },
     {
       "code": "cpp",
       "num": "D147-43",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Après retrait partiel, la surveillance reprend de plein droit, après retrait total une nouvelle surveillance est possible sans nouvelle expertise : réponse graduée.",
-      "ligne_rouge": "art. 8 DDHC examiné : mesure de sûreté décidée par jugement après expertise, durée bornée par les réductions obtenues"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-41 (manquements pendant la surveillance judiciaire).",
+      "ligne_rouge": "art. 8 DDHC examiné : la surveillance judiciaire reste prononcée par le tribunal de l'application des peines après expertise ; la liste des crimes et délits est gardée entière",
+      "vers": "D147-41"
     },
     {
       "code": "cpp",
       "num": "D147-44",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Manquement : surveillance électronique mobile avec l'accord du condamné assisté, sans retrait ni réincarcération préalables. Réponse graduée, avis de commission écarté (P15).",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-41 (manquements pendant la surveillance judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-41"
     },
     {
       "code": "cpp",
@@ -1010,67 +1144,66 @@
     },
     {
       "code": "cpp",
-      "num": "D147-46",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Information du condamné, à sa libération et par formulaire, du retrait encouru : la conséquence est connue avant le manquement.",
-      "ligne_rouge": "art. 8 DDHC examiné : information, sans effet sur la peine"
-    },
-    {
-      "code": "cpp",
       "num": "D147-47",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Contrôle par le juge de la résidence, assisté du service : répartition des offices tenue. Source de D543-4 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-46 (suivi après libération).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-46"
     },
     {
       "code": "cpp",
       "num": "D147-48",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Convocation dans le mois de la libération, remise avant la sortie : délai opposable. Source de D543-5 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-46 (suivi après libération).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-46"
     },
     {
       "code": "cpp",
       "num": "D147-49",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Modification des obligations par ordonnance hors manquement : forme légère pour une décision légère.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-46 (suivi après libération).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-46"
     },
     {
       "code": "cpp",
       "num": "D147-50",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le délai du suivi n'est pas suspendu par une nouvelle incarcération : la mesure ne s'allonge pas sans décision.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-46 (suivi après libération).",
+      "ligne_rouge": "aucune",
+      "vers": "D147-46"
     },
     {
       "code": "cpp",
       "num": "D147-51",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le retrait des réductions ne remet pas à exécution la peine d'origine elle-même : seule la durée retirée s'exécute. Règle de computation.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réduction reste décidée par le juge au vu des efforts, sans effet sur le quantum prononcé"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D147-46 (suivi après libération).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article règle l'exécution, il ne touche ni au quantum ni à l'individualisation au prononcé",
+      "vers": "D147-46"
     },
     {
       "code": "cpp",
       "num": "D150-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Peines successives : les règles de la récidive s'appliquent tant qu'une peine prononcée en récidive reste à exécuter. Règle de conflit simple.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D115 (règles communes des réductions et des peines successives).",
+      "ligne_rouge": "aucune",
+      "vers": "D115"
     },
     {
       "code": "cpp",
       "num": "D150-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Même règle pour les condamnations pour terrorisme : le régime le plus strict s'applique tant qu'une telle peine reste à exécuter.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D115 (règles communes des réductions et des peines successives).",
+      "ligne_rouge": "aucune",
+      "vers": "D115"
     },
     {
       "code": "cpp",
@@ -1079,14 +1212,6 @@
       "principe": "P20",
       "motif": "Article miroir : l'article D. 214-11 du code pénitentiaire, qui définit la partie judiciaire du dossier, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D158",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Contenu de la notice individuelle et interdictions de contact ou de paraître protégeant la victime et les enfants : règle propre, citée par D211-12, D214-11 et R341-2 du code pénitentiaire. Transmission électronique privilégiée.",
-      "ligne_rouge": "art. 8 DDHC examiné : renseignements pour l'exécution, sans effet sur le quantum ; P18 examiné : interdictions protégeant la victime transmises à l'établissement"
     },
     {
       "code": "cpp",
@@ -1130,19 +1255,12 @@
     },
     {
       "code": "cpp",
-      "num": "D249",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Habilitation des assesseurs extérieurs de la commission de discipline par le président du tribunal : des citoyens associés à la discipline. Silence de deux mois valant rejet : délai borné. Règle propre, citée par D234-11 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "D250",
-      "decision": "G",
+      "decision": "F",
       "principe": "P17",
-      "motif": "Retrait de l'habilitation, après observations : règle propre, citée par D234-11 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Retrait de l'habilitation : réuni à D249.",
+      "ligne_rouge": "aucune",
+      "vers": "D249"
     },
     {
       "code": "cpp",
@@ -1190,7 +1308,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : le chapitre du code pénitentiaire auquel il renvoie seulement (transfèrements et extractions) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 66 C examiné : les prérogatives de l'autorité judiciaire sur les personnes détenues restent au chapitre V du titre Ier du livre II du code pénitentiaire"
+      "ligne_rouge": "garantie examinée : Article miroir : le chapitre du code pénitentiaire auquel il renvoie seulement (transfèrements et extractions) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule "
     },
     {
       "code": "cpp",
@@ -1198,7 +1316,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : le second alinéa de l'article D. 332-11 du code pénitentiaire porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "P18 examiné : l'information de l'établissement sur les créances des parties civiles reste à D332-11 du code pénitentiaire"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -1206,7 +1324,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : l'article D. 332-17 du code pénitentiaire porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 66 C examiné : l'autorisation du magistrat pour les versements d'un prévenu reste à D332-17 du code pénitentiaire"
+      "ligne_rouge": "garantie examinée : Article miroir : l'article D. 332-17 du code pénitentiaire porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois."
     },
     {
       "code": "cpp",
@@ -1222,7 +1340,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : le code pénitentiaire (R. 322-5 et D. 215-13) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 66 C examiné : le transfèrement d'un prévenu reste soumis à l'accord du magistrat, après information sur la durée du traitement (R322-5 du code pénitentiaire)"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -1238,7 +1356,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Registre 6.7 : doublon de D115-25 du code pénitentiaire, corrigé au lot p123 : le chef d'établissement informe aussitôt, sans « s'il y a lieu », l'autorité judiciaire compétente de l'incompatibilité de l'état de santé avec la détention, pour toute personne détenue, prévenus compris. La règle vit une fois, à sa source.",
-      "ligne_rouge": "art. 66 C et CEDH art. 3 examinés : le magistrat saisi reste informé de droit de l'incompatibilité de l'état de santé avec la détention, par D115-25 du code pénitentiaire. Renvoi à l'ancien 147-1 sans objet"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -1246,7 +1364,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : l'article R. 6111-40-1 du code de la santé publique (le renvoi à R. 6111-41, qui traite désormais de la permanence des soins, était mort) porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 66 C examiné : l'accord préalable du magistrat pour l'hospitalisation d'un prévenu reste à R6111-40-1 du code de la santé publique"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -1262,7 +1380,7 @@
       "decision": "A",
       "principe": "P20",
       "motif": "Article miroir : l'article R. 341-2 et la section des permis de visite du code pénitentiaire (le renvoi au chapitre IV, qui traite des événements familiaux, était erroné : il s'agit du chapitre Ier) portent la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "P18 examiné : le refus de permis dans l'intérêt de la victime reste à R341-2 du code pénitentiaire"
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -1271,21 +1389,6 @@
       "principe": "P20",
       "motif": "Article miroir : le 1° de l'article D. 343-1 du code pénitentiaire porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D428",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Le premier alinéa (renseignements dus aux autorités judiciaires) est propre. Les deux suivants recopient D214-31 du code pénitentiaire, qui porte le consentement du détenu et la requête au procureur : ils tombent.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : le consentement exprès du détenu reste à D214-31 du code pénitentiaire",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nConformément aux dispositions de l'article D. 214-31 du code pénitentiaire, la communication de ces renseignements à des tiers par l'administration pénitentiaire est subordonnée, d'une part et s'il y a lieu, à l'appréciation du magistrat saisi du dossier de l'information et, d'autre part, au consentement exprès du détenu.\nCes mêmes dispositions déterminent les conditions dans lesquelles le procureur de la République peut délivrer de tels renseignements à des tiers en l'absence du consentement de la personne détenue.",
-          "nouveau": ""
-        }
-      ]
     },
     {
       "code": "cpp",
@@ -1327,5 +1430,6 @@
       "motif": "Article miroir : l'article D. 216-19 du code pénitentiaire porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
