@@ -9,18 +9,38 @@
   "decisions": [
     {
       "code": "penitentiaire",
-      "num": "R641-1",
-      "decision": "A",
-      "principe": "P3",
-      "motif": "Article miroir qui recopie le premier alinéa de R228-1 du code de la sécurité intérieure (le ministre s'assure auprès de l'administration pénitentiaire de la disponibilité et de la faisabilité), sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "num": "R641-2",
+      "principe": "P20",
+      "motif": "Attribution de la pose et de la dépose au personnel pénitentiaire, que R. 228-3 du code de la sécurité intérieure ne fait pas : gardée, le rappel « dans les conditions et selon les modalités prévues par les dispositions de » se réduit à « selon ».",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire pose et dépose le dispositif de surveillance électronique mobile, selon l'article R. 228-3 du code de la sécurité intérieure."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
-      "num": "R641-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pose et dépose par le personnel pénitentiaire : R228-3 du code de la sécurité intérieure en règle les modalités, sans dire lui-même qui pose. L'attribution est une règle propre (même lecture que R61-27 du code de procédure pénale, lot p031).",
+      "num": "R642-2",
+      "principe": "P20",
+      "motif": "Même attribution pour l'étranger assigné à résidence (R. 733-17 du code de l'entrée et du séjour des étrangers et du droit d'asile) : gardée, rédaction resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire pose et dépose le dispositif de surveillance électronique mobile, selon l'article R. 733-17 du code de l'entrée et du séjour des étrangers et du droit d'asile."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R641-1",
+      "decision": "A",
+      "principe": "P3",
+      "motif": "Miroir du premier alinéa de R. 228-1 du code de la sécurité intérieure (disponibilité et faisabilité vérifiées auprès de l'administration pénitentiaire), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -28,7 +48,7 @@
       "num": "R641-3",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R228-5 du code de la sécurité intérieure (avis sans délai de la police et de la gendarmerie en cas de sortie de zone ou d'altération du dispositif), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir de R. 228-5 du code de la sécurité intérieure (avis sans délai de la police et de la gendarmerie), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -36,7 +56,7 @@
       "num": "R641-4",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R228-6 du code de la sécurité intérieure (habilitation régie par R544-11 à R544-17 du présent code), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir de R. 228-6 du code de la sécurité intérieure (mise en œuvre par une personne habilitée), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -44,15 +64,7 @@
       "num": "R642-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie la première phrase de R733-15 du code de l'entrée et du séjour des étrangers et du droit d'asile (vérification de disponibilité et de faisabilité par l'administration pénitentiaire), sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R642-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pose et dépose par le personnel pénitentiaire : R733-17 du code de l'entrée et du séjour des étrangers en règle les modalités, sans dire lui-même qui pose. L'attribution est une règle propre (même lecture que R641-2).",
+      "motif": "Miroir de R. 733-15 du code de l'entrée et du séjour des étrangers et du droit d'asile (disponibilité et faisabilité), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -60,7 +72,7 @@
       "num": "R642-3",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R733-19 du code de l'entrée et du séjour des étrangers et du droit d'asile (avis sans délai de la police et de la gendarmerie), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir de R. 733-19 du code de l'entrée et du séjour des étrangers et du droit d'asile (avis sans délai de la police et de la gendarmerie), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -68,8 +80,9 @@
       "num": "R642-4",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R733-20 du code de l'entrée et du séjour des étrangers et du droit d'asile (habilitation régie par R544-11 à R544-17 du présent code), sans rien y ajouter : la règle vit à sa source, une seule fois. Les plages des tableaux outre-mer (R757-1, R767-1, R777-1) qui commencent ou finissent sur cet article sont à coordonner au lot de ces articles.",
+      "motif": "Miroir de R. 733-20 du code de l'entrée et du séjour des étrangers et du droit d'asile (mise en œuvre par une personne habilitée), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
