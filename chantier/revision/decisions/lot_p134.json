@@ -9,121 +9,173 @@
   "decisions": [
     {
       "code": "penitentiaire",
-      "num": "D741-3",
-      "decision": "G",
+      "num": "R741-1",
       "principe": "P3",
-      "motif": "Saint-Pierre-et-Miquelon n'a ni service pénitentiaire d'insertion et de probation ni encadrement complet : un conseiller unique et un petit effectif de surveillance. La substitution du conseiller au service et du directeur des services pénitentiaires d'outre-mer au directeur du service est une règle d'organisation propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Table des adaptations de rang R de la collectivité, en un article (technique 1, comme L. 741-1) : délégations de signature du chef d'établissement (R. 742-2, R. 743-1), commission de discipline à petit effectif (R. 743-2 à R. 743-4), absence du directeur du service (R. 744-1, et R. 745-1 portée sur R. 411-2, qui reçoit R. 411-3). R. 741-2 (finances publiques) est sans objet. La clause d'application elle-même est à L. 741-1.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application du présent code à Saint-Pierre-et-Miquelon :\n1° Aux articles R. 113-66 et R. 234-1, le chef de l'établissement pénitentiaire peut déléguer sa signature à son adjoint ou à un personnel de surveillance.\n2° À l'article R. 234-6, le premier assesseur peut être choisi parmi les personnels de surveillance d'un autre grade lorsque l'établissement n'en compte aucun du grade exigé.\n3° À l'article R. 234-12, l'auteur du compte rendu ne siège pas en commission de discipline, dans la mesure du possible.\n4° À l'article R. 234-13, le rapport peut être établi par un personnel de surveillance d'un autre grade lorsque l'établissement n'en compte aucun, hors son chef, du grade exigé.\n5° Aux articles R. 312-1 et R. 411-2, la mention du directeur du service pénitentiaire d'insertion et de probation ne s'applique pas."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D741-3",
+      "principe": "P3",
+      "motif": "Table des adaptations de rang D de la collectivité, en un article du même rang : substitution générale du conseiller au service (D. 741-3), puis les adaptations des articles du livre Ier tels que le lot p123 les a réunis : missions et autorité (D. 742-3, D. 112-35 recevant D. 113-23), rapport d'activité (D. 742-6, D. 112-35 recevant D. 112-36), dossier et secret (D. 742-4 et D. 742-5, D. 113-45 recevant D. 113-34, D. 113-42 passant à D. 113-40 sous la substitution générale), délégations (D. 742-7 et D. 742-8, D. 113-69 recevant D. 113-68), condition de diplôme des aumôniers (D. 744-2) et direction du travail compétente (D. 745-2). Les renvois à R. 112-8 et R. 112-9, fusionnés dans R. 112-7, tombent, la direction se nomme.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application du présent code à Saint-Pierre-et-Miquelon :\n1° Le conseiller pénitentiaire d'insertion et de probation tient lieu de service pénitentiaire d'insertion et de probation, et le directeur des services pénitentiaires d'outre-mer de directeur de ce service.\n2° À l'article D. 112-35, un conseiller pénitentiaire d'insertion et de probation, placé sous l'autorité du directeur des services pénitentiaires d'outre-mer, exécute les missions du service. Ce directeur n'adresse pas le rapport d'activité au directeur interrégional.\n3° À l'article D. 113-45, le conseiller est tenu au secret professionnel, et seuls lui et le directeur des services pénitentiaires d'outre-mer consultent les documents que ce secret couvre. En cas de changement de résidence, ce directeur transmet le dossier, par un moyen qui garantit sa confidentialité, au service pénitentiaire d'insertion et de probation de la nouvelle résidence.\n4° À l'article D. 113-69, le directeur des services pénitentiaires d'outre-mer peut déléguer sa signature à un conseiller pénitentiaire d'insertion et de probation. La délégation pour les dépenses courantes en l'absence du chef de service ne s'applique pas.\n5° La condition de diplôme de l'article D. 352-1 ne s'applique aux aumôniers que si l'un des diplômes de la liste peut être obtenu dans la collectivité, y compris à distance.\n6° À l'article D. 412-72, le directeur des territoires, de l'alimentation et de la mer tient lieu de directeur régional de l'économie, de l'emploi, du travail et des solidarités."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R742-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R741-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R743-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R741-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R743-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R741-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R743-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R741-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R743-4",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R741-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R744-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R741-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R745-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 741-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R741-1"
     },
     {
       "code": "penitentiaire",
       "num": "D742-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Missions du conseiller pénitentiaire d'insertion et de probation et son rattachement au directeur des services pénitentiaires d'outre-mer : organisation propre au territoire, gardée. D. 113-26, abrogé au lot p123, sort de la liste des missions.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de D. 741-3.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "D. 113-25, D. 113-26, D. 113-36",
-          "nouveau": "D. 113-25, D. 113-36"
-        }
-      ]
+      "vers": "D741-3"
     },
     {
       "code": "penitentiaire",
       "num": "D742-4",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Dossier individuel tenu par le conseiller : règle propre gardée. L'autorité y est nommée deux fois « directeur interrégional, chef de la mission des services pénitentiaires de l'outre-mer », dénomination disparue : R. 112-8 et R. 112-9 nomment le directeur des services pénitentiaires d'outre-mer, que vise déjà le dernier alinéa. Un mot par notion.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de D. 741-3.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "par le directeur interrégional, chef de la mission des services pénitentiaires de l'outre-mer, mentionnée",
-          "nouveau": "par le directeur des services pénitentiaires d'outre-mer, mentionné"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "le directeur interrégional, chef de la mission des services pénitentiaires de l'outre-mer transmet",
-          "nouveau": "le directeur des services pénitentiaires d'outre-mer transmet"
-        }
-      ]
+      "vers": "D741-3"
     },
     {
       "code": "penitentiaire",
       "num": "D742-5",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Secret professionnel et aide à l'individualisation rédigés pour un conseiller unique : la substitution générale de D741-3 ne couvre pas « les personnels du service ». Règle propre au territoire.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : le secret professionnel du conseiller est tenu, sauf envers l'autorité judiciaire, confidences exceptées"
+      "motif": "Ligne de la table de D. 741-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D741-3"
     },
     {
       "code": "penitentiaire",
       "num": "D742-6",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Combinée avec D741-3, 2°, qui fait du directeur des services pénitentiaires d'outre-mer l'auteur du rapport d'activité de D. 112-36, la substitution lui fait adresser ce rapport à lui-même. Le destinataire interrégional se retire. Renvoi à D. 112-36 à coordonner avec le lot du livre Ier.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de D. 741-3.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Pour son application à Saint-Pierre-et-Miquelon, à l'article D. 112-36, les mots : \" au directeur interrégional des services pénitentiaires, \" sont supprimés."
-        }
-      ]
+      "vers": "D741-3"
     },
     {
       "code": "penitentiaire",
       "num": "D742-7",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "L'article D. 112-37 n'existe plus au code de 2029 : sa mention tombe. D. 113-68 (délégation pour les dépenses courantes en l'absence du chef de service) reste écarté faute de chef de service.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de D. 741-3.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "L'article D. 113-68 n'est pas applicable à Saint-Pierre-et-Miquelon."
-        }
-      ]
+      "vers": "D741-3"
     },
     {
       "code": "penitentiaire",
       "num": "D742-8",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Délégation de signature du directeur des services pénitentiaires d'outre-mer au conseiller, faute d'encadrement local : organisation propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de D. 741-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D741-3"
     },
     {
       "code": "penitentiaire",
       "num": "D744-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Condition propre au territoire : la règle du diplôme de formation civile et civique ne s'applique aux aumôniers que si un diplôme de la liste peut y être obtenu, même à distance. Aucune pièce n'établit que cette condition est remplie partout. L'abroger soumettrait l'indemnité des aumôniers à un diplôme peut-être inaccessible. Le second alinéa garde la substitution de l'agence de santé. Règle gardée.",
-      "ligne_rouge": "liberté de culte (art. 10 DDHC, CEDH art. 9) examinée : l'indemnité des aumôniers, qui sert l'exercice du culte en détention, ne dépend pas d'un diplôme inaccessible localement"
+      "motif": "Ligne de la table de D. 741-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D741-3"
     },
     {
       "code": "penitentiaire",
       "num": "D745-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Le directeur des territoires, de l'alimentation et de la mer exerce localement les attributions de la direction régionale du travail : substitution d'autorité propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R741-1",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Clause d'application de plein droit sous réserve des adaptations du titre : l'article L. 741-1, qui vaut pour tout le code, porte la même règle, et la loi organique (LO 6413-1 du code général des collectivités territoriales) pose l'applicabilité de plein droit. Miroir, la règle vit une fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de D. 741-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D741-3"
     },
     {
       "code": "penitentiaire",
       "num": "R741-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La direction des services fiscaux locale remplace l'administration centrale de la direction générale des finances publiques : la collectivité a sa propre compétence fiscale. Règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Aucun article du code de 2029 ne nomme l'administration centrale de la direction générale des finances publiques : la substitution est sans objet.",
       "ligne_rouge": "aucune"
     },
     {
@@ -131,90 +183,15 @@
       "num": "R742-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Serment devant le président du tribunal de première instance : le 1° de L. 741-4 substitue déjà, pour tout le code, le tribunal de première instance au tribunal judiciaire, et R. 122-8 s'applique ainsi. Le second alinéa (agents en poste au 18 juillet 2024, avant le 31 décembre 2026) est épuisé au 1er janvier 2029. Rien n'est perdu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R742-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Saint-Pierre-et-Miquelon n'a ni service pénitentiaire d'insertion et de probation ni encadrement complet : un conseiller unique et un petit effectif de surveillance. La délégation de signature du chef d'établissement à son adjoint ou à un surveillant tient à cet effectif.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R743-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Délégation de signature en matière disciplinaire à l'adjoint ou à un surveillant, faute de cadres A et de corps de commandement sur place : règle propre au territoire.",
-      "ligne_rouge": "art. 16 DDHC et impartialité de la commission de discipline examinées : la décision reste au chef d'établissement, la délégation suit l'effectif local"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R743-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Premier assesseur pris dans un autre grade lorsque le grade exigé manque : sans elle, la commission de discipline ne peut siéger. Règle propre au territoire.",
-      "ligne_rouge": "art. 16 DDHC et impartialité de la commission de discipline examinées : la commission reste composée de deux assesseurs, dont un extérieur"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R743-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "L'auteur du compte rendu ne siège pas « dans la mesure du possible » : l'interdiction absolue de R. 234-12 empêcherait la commission de siéger avec un très petit effectif. Règle propre au territoire, tempérée au plus près.",
-      "ligne_rouge": "art. 16 DDHC et impartialité de la commission de discipline examinées : l'impartialité est tempérée par la seule contrainte d'effectif, l'assesseur extérieur et le recours devant le directeur des services pénitentiaires d'outre-mer demeurent"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R743-4",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Le premier alinéa ajouté (rapport rédigé par un surveillant d'un autre grade) est propre au territoire. Le second répète R743-3 sur l'auteur du compte rendu et contredit la dernière phrase de R. 234-13, qui écarte l'auteur du rapport : il tombe, une idée par article.",
-      "ligne_rouge": "art. 16 DDHC et impartialité de la commission de discipline examinées : l'auteur du rapport ne siège pas (R. 234-13), l'auteur du compte rendu dans la mesure du possible (R743-3)",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "complété par deux alinéas ainsi rédigés",
-          "nouveau": "complété par un alinéa ainsi rédigé"
-        },
-        {
-          "op": "remplacer",
-          "ancien": " Dans la mesure du possible, l'auteur de ce compte rendu ne siège pas à la commission de discipline. \"",
-          "nouveau": " \""
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R744-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Retire de R. 312-1 les directeurs des services d'insertion et de probation, absents du territoire : règle propre gardée. Le point-virgule après le nom de la collectivité est une coquille, remplacé par une virgule.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Saint-Pierre-et-Miquelon ; à",
-          "nouveau": "Saint-Pierre-et-Miquelon, à"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R745-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Retire de R. 411-3 le directeur du service d'insertion et de probation, absent du territoire, en écho de L745-1 : règle propre au territoire.",
+      "motif": "Serment devant le président du tribunal de première instance : la substitution du tribunal vaut pour tout le code (L. 741-1, 2°), et l'alinéa transitoire est épuisé au 1er janvier 2029 (passe 2 confirmée).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R747-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Admet la copie du Journal officiel de Saint-Pierre-et-Miquelon, institué par la loi organique, pour la publication de la déclaration d'une association : règle tenant au statut.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "La liste des pièces de la demande d'habilitation descend à l'arrêté de R. 623-2 : la copie du Journal officiel de la collectivité l'y suit.",
       "ligne_rouge": "aucune"
     },
     {
@@ -222,7 +199,7 @@
       "num": "R747-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Reprend R. 623-3 avec le président du tribunal de première instance et le représentant de l'Etat : le 1° de L. 741-4 porte la substitution du tribunal pour tout le code, et le préfet de Saint-Pierre-et-Miquelon est le représentant de l'Etat. Miroir, rien n'est perdu.",
+      "motif": "Miroir de R. 623-3 avec les substitutions que la clause porte déjà (passe 2 confirmée).",
       "ligne_rouge": "aucune"
     },
     {
@@ -230,8 +207,9 @@
       "num": "R747-3",
       "decision": "A",
       "principe": "P15",
-      "motif": "Reprend R. 623-8 avec le représentant de l'Etat, qui est ici le préfet, et y ajoute un délai d'avis d'un mois : avis préalable qui ne protège aucune liberté. R. 623-8 s'applique tel quel.",
+      "motif": "Avis préalable avec délai, qui ne protège aucune liberté : R. 623-9, qui reçoit R. 623-8, s'applique (passe 2 confirmée).",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
