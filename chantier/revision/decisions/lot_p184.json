@@ -9,229 +9,284 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "L3541-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Champ commun des examens et expertises, renvoi aux régimes de l'enquête et de l'information : un seul régime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "L3541-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Ouverture des scellés par l'expert, hors la présence de la défense en information.",
-      "ligne_rouge": "art. 16 DDHC examiné : la dérogation se limite aux opérations techniques, le rapport est contradictoire (L3443-16 à L3443-21)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3541-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Nouveaux scellés et mention au rapport : traçabilité de la preuve. La proposition de déclasser est écartée : la règle relève de la procédure pénale (art. 34 C).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3541-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contenu et signature du rapport, opinions divergentes motivées.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Champ commun des examens et expertises, ouverture et confection des scellés en un article (L3541-1 et L3541-3 fusionnés). Numéro gardé, borne de la plage citée par L3323-1.",
+      "ligne_rouge": "Droits de la défense examinés : l'ouverture des scellés par l'expert hors la présence de la défense reste une dérogation expresse à L3532-5, bornée à sa mission, et tout nouveau scellé est mentionné au rapport.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes requises au cours de l'enquête ou commises au cours de l'information, selon les articles L. 2512-1 à L. 2512-5, pour procéder à des constatations, à des examens techniques ou scientifiques ou à des expertises, opèrent selon le présent titre et, au cours de l'enquête, y compris de recherche des causes d'un décès, de blessures graves ou d'une disparition ou de recherche d'une personne en fuite, selon les articles L. 3323-1 à L. 3323-7, ou, au cours de l'information, selon les articles L. 3443-1 à L. 3443-21.\nPour l'accomplissement de leur mission, elles peuvent ouvrir ou rouvrir les scellés qui leur ont été remis, le cas échéant après que l'officier de police judiciaire ou le juge d'instruction les a inventoriés et énumérés dans un procès-verbal. Par dérogation à l'article L. 3532-5, au cours de l'information, cette ouverture se fait hors la présence de la personne mise en examen et de son avocat. Elles peuvent confectionner de nouveaux scellés, après avoir le cas échéant reconditionné les objets examinés, et en font mention dans leur rapport, après inventaire s'il y a lieu."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3541-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dépôt du rapport et des scellés, procès-verbal.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Rapport et dépôt du rapport et des scellés en un article (L3541-4 fusionné). Numéro gardé, borne des plages citées par L3323-1 et L3443-15.",
+      "ligne_rouge": "Droits de la défense examinés : rapport signé qui décrit les opérations, nomme les assistants et motive les avis divergents, dépôt constaté par procès-verbal.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque leurs opérations sont terminées, ces personnes rédigent un rapport qui décrit ces opérations et contient leurs conclusions. Elles le signent et y mentionnent s'il y a lieu les noms et qualités des personnes qui les ont assistées, sous leur contrôle et leur responsabilité, pour les opérations jugées par elles nécessaires. Lorsque plusieurs personnes ont été désignées et qu'elles sont d'avis différents ou ont des réserves sur des conclusions communes, chacune indique son opinion ou ses réserves en les motivant.\nLe rapport et les scellés, ou leurs résidus, sont remis à l'officier de police judiciaire qui a sollicité l'examen technique ou au greffier de la juridiction qui a ordonné l'expertise. Ce dépôt est constaté par procès-verbal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3542-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Expertise médicale obligatoire avant jugement pour les infractions sexuelles et violentes, question de l'injonction de soins : protection des victimes potentielles.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3542-2",
-      "decision": "S",
-      "principe": "P25",
-      "motif": "Expertise de responsabilité du majeur protégé avant jugement : gardée. Deux coquilles (« en sens de », « ordonnées »).",
-      "ligne_rouge": "art. 16 DDHC examiné : la vulnérabilité est évaluée avant le jugement",
+      "principe": "P23",
+      "motif": "Expertises médicales obligatoires avant jugement en un article : infractions sexuelles ou violentes, majeur protégé (L3542-2 fusionné, coquilles corrigées en passe 2). Cité par L211-7 du code pénitentiaire.",
+      "ligne_rouge": "Majeur protégé et responsabilité pénale (art. 9 DDHC) examinés : l'expertise de responsabilité avant tout jugement au fond reste obligatoire.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en sens de l'article L. 1711-2",
-          "nouveau": "au sens de l'article L. 1711-2"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "peut être ordonnées",
-          "nouveau": "peut être ordonnée"
+          "op": "rediger",
+          "nouveau": "Doit être soumise, avant tout jugement au fond, à une expertise médicale :\n1° La personne poursuivie pour l'une des infractions mentionnées à l'article L. 1721-2. L'expert est interrogé sur l'opportunité d'une injonction de soins.\n2° La personne poursuivie qui est un majeur protégé au sens de l'article L. 1711-2, afin d'évaluer sa responsabilité pénale au moment des faits.\nCes expertises peuvent être ordonnées dès le stade de l'enquête par le procureur de la République."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3542-3",
-      "decision": "S",
       "principe": "P18",
-      "motif": "Expertise médico-psychologique du mineur victime : le préjudice est établi tôt. Point manquant entre les deux phrases.",
-      "ligne_rouge": "aucune",
+      "motif": "Expertise médico-psychologique du mineur victime : une phrase (point manquant rétabli en passe 2).",
+      "ligne_rouge": "Minorité et droits de la victime (P18) examinés : expertise du préjudice et des soins, possible dès l'enquête.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "appropriésCette expertise",
-          "nouveau": "appropriés.Cette expertise"
+          "op": "rediger",
+          "nouveau": "Le mineur victime de l'une des infractions mentionnées à l'article L. 1721-2 peut faire l'objet, le cas échéant dès l'enquête sur décision du procureur de la République, d'une expertise médico-psychologique destinée à apprécier la nature et l'importance du préjudice subi et à établir si celui-ci rend nécessaires des traitements ou des soins appropriés."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3542-4",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Dépistage des maladies sexuellement transmissibles chez l'auteur présumé de viol ou d'agression sexuelle, sans consentement sur instructions écrites d'un magistrat, résultat à la victime.",
-      "ligne_rouge": "art. 2 DDHC, intégrité et vie privée examinées : infractions limitatives, instructions écrites d'un magistrat, résultat transmis par un médecin ; art. 8 DDHC : refus puni d'un an, cumul proportionné"
-    },
-    {
-      "code": "cpp",
-      "num": "L3543-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Autopsie ordonnée, par un médecin légiste, avec prélèvements.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3543-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information des proches de l'autopsie et des prélèvements.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3543-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Remise du corps et permis d'inhumer dans les meilleurs délais.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3543-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Restauration du corps avant remise aux proches.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3543-5",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Accès des proches au corps, charte affichée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3543-6",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Demande de restitution après un mois, réponse écrite dans les quinze jours : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3543-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Destruction des prélèvements, restitution pour inhumation s'ils seuls ont permis l'identification. La proposition de déclasser est écartée : la règle relève de la procédure pénale (art. 34 C) et du respect dû au corps.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3543-8",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : le détail est déjà au règlement.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3544-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Objet de la mise au clair des données chiffrées.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3544-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Mise au clair demandée par les magistrats ou l'officier autorisé. Siège visé par R208 (lot p033).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3544-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Désignation d'une personne qualifiée, serment écrit. Siège visé par R208 (lot p033).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3544-4",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Recours aux moyens classifiés de l'État pour les infractions punies de deux ans, délai fixé, interruption à tout moment : la sécurité nationale est une exception admise.",
-      "ligne_rouge": "art. 66 C sans objet ; art. 2 DDHC, vie privée examinée : seuil de deux ans, réquisition écrite d'un magistrat ; art. 8 DDHC sans objet"
-    },
-    {
-      "code": "cpp",
-      "num": "L3544-5",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Ouverture des scellés par l'organisme, altération du support autorisée par un magistrat.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3544-6",
+      "motif": "Dépistage des maladies sexuellement transmissibles : mêmes conditions, même peine, phrases resserrées.",
+      "ligne_rouge": "Art. 8 DDHC examiné : incrimination du refus, peine d'un an et de 15 000 euros et cumul sans confusion gardés à l'identique. Intégrité physique (art. 2 DDHC) examinée : indices graves ou concordants, consentement recherché, contrainte sur instructions écrites du magistrat seulement.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Retour des résultats et attestation de sincérité, gardés. L'ordre d'interruption est prévu au dernier alinéa de L. 3544-4, non à L. 3544-3 (désignation d'une personne qualifiée).",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'ordre d'interruption prévu à l'article L. 3544-3",
-          "nouveau": "l'ordre d'interruption prévu à l'article L. 3544-4"
+          "op": "rediger",
+          "nouveau": "L'officier de police judiciaire, agissant au cours de l'enquête ou sur commission rogatoire, peut faire procéder sur toute personne contre laquelle il existe des indices graves ou concordants d'avoir commis un viol, une agression sexuelle ou une atteinte sexuelle prévus par les articles 222-23 à 222-26 et 227-25 à 227-27 du code pénal, à un examen médical et à une prise de sang afin de déterminer si elle est atteinte d'une maladie sexuellement transmissible. Le médecin, l'infirmier ou la personne habilitée par le code de la santé publique à effectuer ces actes, requis par l'officier de police judiciaire, s'efforce d'obtenir le consentement de l'intéressé. À la demande de la victime ou lorsque son intérêt le justifie, l'opération peut être effectuée sans ce consentement sur instructions écrites du procureur de la République ou du juge d'instruction, versées au dossier. Le résultat est porté dans les meilleurs délais, par l'intermédiaire d'un médecin, à la connaissance de la victime ou, si elle est mineure, de ses représentants légaux ou de l'administrateur ad hoc désigné en application de l'article L. 1451-1.\nLe fait de refuser de se soumettre à ce dépistage est puni d'un an d'emprisonnement et de 15 000 euros d'amende. Par dérogation aux articles 132-2 à 132-5 du code pénal, ces peines se cumulent, sans possibilité de confusion, avec celles prononcées pour le crime ou le délit qui fait l'objet de la procédure."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L3544-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Décisions sans caractère juridictionnel ni recours : pas de contentieux inutile.",
-      "ligne_rouge": "aucune"
+      "num": "L3543-1",
+      "principe": "P23",
+      "motif": "Autopsie judiciaire, praticien et information des proches en un article (L3543-2 fusionné). Numéro gardé, borne de la plage citée par L3323-1.",
+      "ligne_rouge": "Respect dû au corps et droits des proches (P18) examinés : autopsie par un médecin légiste, information des proches dans les meilleurs délais sous réserve de l'enquête.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Une autopsie judiciaire peut être ordonnée au cours d'une enquête de recherche des causes d'un décès, d'une enquête de police judiciaire ou d'une information, en application des articles L. 3211-3, L. 3323-1 ou L. 3443-1. Elle n'est réalisée que par un praticien titulaire d'un diplôme attestant sa formation en médecine légale ou d'un titre justifiant de son expérience en médecine légale, qui procède aux prélèvements biologiques nécessaires à l'enquête ou à l'information. Sous réserve des nécessités de l'enquête ou de l'information, le conjoint, le concubin, le partenaire lié par un pacte civil de solidarité, les ascendants et les descendants en ligne directe du défunt sont informés dans les meilleurs délais de l'autopsie et des prélèvements."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3543-3",
+      "principe": "P18",
+      "motif": "Remise du corps, restauration, accès des proches, charte et demande de restitution en un article (L3543-4 à L3543-6 fusionnés).",
+      "ligne_rouge": "Droits des proches (P18) examinés : remise et permis d'inhumer dans les meilleurs délais, restauration, accès au corps sauf santé publique, charte affichée, réponse écrite dans les quinze jours à la demande faite un mois après l'autopsie.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une autopsie judiciaire a été réalisée et que la conservation du corps n'est plus nécessaire à la manifestation de la vérité, l'autorité judiciaire compétente délivre dans les meilleurs délais l'autorisation de remise du corps et le permis d'inhumer. Le praticien qui a procédé à l'autopsie s'assure de la meilleure restauration possible du corps avant sa remise aux proches.\nL'accès au corps avant sa mise en bière ne peut être refusé aux proches du défunt qui le souhaitent, sauf pour des raisons de santé publique. Il se déroule dans des conditions qui leur garantissent respect, dignité, décence et humanité. Une charte de bonnes pratiques, dont le contenu est défini par voie réglementaire et qui est affichée en un lieu visible, informe les familles de leurs droits et devoirs.\nUn mois après l'autopsie, les proches qui ont qualité pour pourvoir aux funérailles peuvent demander la restitution du corps au procureur de la République ou au juge d'instruction, qui répond par une décision écrite dans un délai de quinze jours."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3543-8",
+      "principe": "P1",
+      "motif": "Sort des prélèvements et renvoi au décret en un article (L3543-7 fusionné). Numéro gardé, borne de la plage citée par L3323-1.",
+      "ligne_rouge": "Respect dû au corps examiné : destruction des prélèvements devenus inutiles, restitution pour inhumation de ceux qui ont seuls permis l'identification.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque les prélèvements biologiques réalisés au cours d'une autopsie judiciaire ne sont plus nécessaires à la manifestation de la vérité, l'autorité judiciaire compétente peut ordonner leur destruction, selon les dispositions réglementaires du code de la santé publique. Sous réserve des contraintes de santé publique, elle peut autoriser leur restitution en vue d'une inhumation ou d'une crémation lorsqu'ils sont les seuls éléments ayant permis l'identification du défunt.\nLes modalités d'application du présent chapitre sont précisées par décret en Conseil d'État."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3544-1",
+      "principe": "P23",
+      "motif": "Mise au clair de données chiffrées : objet, autorités et désignation d'une personne qualifiée en un article (L3544-2 et L3544-3 fusionnés). Numéro gardé, début des plages citées par L4323-30 et L4421-22.",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) examinée : opérations prescrites ou autorisées par un magistrat, bornées aux données saisies ou obtenues dans la procédure.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque des données saisies ou obtenues au cours de l'enquête ou de l'instruction ont fait l'objet d'opérations de transformation qui empêchent d'accéder aux informations en clair qu'elles contiennent ou de les comprendre, ou sont protégées par un mécanisme d'authentification, le procureur de la République, le juge d'instruction ou, sur leur autorisation, l'officier de police judiciaire peut demander, sans préjudice des règles relatives aux examens techniques et scientifiques et aux expertises, des opérations techniques de mise au clair. Elles ont pour objet d'obtenir l'accès à ces informations, leur version en clair et, si un moyen de cryptologie a été utilisé et que cela apparaît nécessaire, la convention secrète de déchiffrement.\nCes autorités peuvent désigner à cette fin toute personne physique ou morale qualifiée. Les articles L. 2512-3 et L. 2512-4 sont applicables. Si une prestation de serment est nécessaire, elle se fait par écrit."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3544-5",
+      "principe": "P23",
+      "motif": "Recours aux moyens classifiés de l'État : seuil, réquisition, délai, interruption, scellés, altération du support, retour des résultats et attestation en un article (L3544-4 et L3544-6 fusionnés, renvoi à l'ordre d'interruption corrigé en passe 2). Numéro gardé, borne de la plage citée par L4421-22.",
+      "ligne_rouge": "Sécurité nationale (exception admise par P26) et contrôle du magistrat examinés : seuil de deux ans, réquisition écrite fixant un délai, interruption à tout moment, altération autorisée par un magistrat, résultats certifiés versés au dossier.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la peine encourue est égale ou supérieure à deux ans d'emprisonnement et que les nécessités de l'enquête ou de l'information l'exigent, les autorités mentionnées à l'article L. 3544-1 peuvent prescrire le recours aux moyens de l'État soumis au secret de la défense nationale. Elles adressent alors une réquisition écrite, avec le support physique des données ou sa copie, à un organisme technique soumis à ce secret et désigné par décret. Pour les données obtenues dans le cadre d'interceptions de communications électroniques par l'intermédiaire de la plateforme nationale des interceptions judiciaires mentionnée à l'article L. 1614-1, la réquisition est adressée directement à l'organisme. La réquisition fixe le délai des opérations, qui peut être prorogé dans les mêmes conditions de forme. Ces autorités peuvent à tout moment ordonner l'interruption des opérations.\nL'organisme peut ouvrir ou rouvrir les scellés et en confectionner de nouveaux, après avoir le cas échéant reconditionné les supports examinés. En cas de risque de destruction des données ou de leur support physique, l'autorisation d'altérer ce support est délivrée par le procureur de la République ou le juge d'instruction. Les données protégées au titre du secret de la défense nationale ne sont communiquées que selon les articles L. 2312-4 à L. 2312-8 du code de la défense.\nDès l'achèvement des opérations, dès qu'elles s'avèrent techniquement impossibles, à l'expiration du délai prescrit ou à la réception de l'ordre d'interruption, le responsable de l'organisme retourne les résultats obtenus et les pièces reçues à l'auteur de la réquisition ou, en cas de réquisition directe, au magistrat mandant. Sous réserve du secret de la défense nationale, les résultats sont accompagnés des indications techniques utiles à leur compréhension et à leur exploitation, et d'une attestation visée par le responsable de l'organisme qui certifie leur sincérité. Ils font l'objet d'un procès-verbal de réception et sont versés au dossier de la procédure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3544-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Concours obligatoire des agents requis.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Absence de recours et concours des agents requis en un article (L3544-7 fusionné). Numéro gardé, borne de la plage citée par L4323-30.",
+      "ligne_rouge": "Aucune ligne rouge : décisions techniques sans caractère juridictionnel. Le contrôle passe par les nullités de la procédure.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les décisions prises en application du présent chapitre n'ont pas de caractère juridictionnel et ne sont susceptibles d'aucun recours. Sous réserve des obligations découlant du secret de la défense nationale, les agents requis en application du présent chapitre sont tenus d'apporter leur concours à la justice."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3541-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Champ commun des examens et expertises : premier alinéa de L3541-2. Plage de L3532-9 (passe 3, lot p183) recalée sur L3541-5.",
+      "ligne_rouge": "Aucune ligne rouge : renvois gardés.",
+      "vers": "L3541-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3541-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Confection de nouveaux scellés et mention au rapport : second alinéa de L3541-2. Renvoi entrant de L3443-12 (« L3541-2 et L3541-3 ») à coordonner vers L3541-2.",
+      "ligne_rouge": "Traçabilité de la preuve gardée.",
+      "vers": "L3541-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3541-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contenu et signature du rapport : premier alinéa de L3541-5. Renvoi entrant de L3443-15 (« L3541-4 et L3541-5 ») à coordonner vers L3541-5.",
+      "ligne_rouge": "Avis divergents motivés gardés.",
+      "vers": "L3541-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L3542-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Expertise de responsabilité du majeur protégé : 2° de L3542-1.",
+      "ligne_rouge": "Majeur protégé examiné : expertise obligatoire gardée.",
+      "vers": "L3542-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3543-2",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Information des proches de l'autopsie : L3543-1.",
+      "ligne_rouge": "Droits des proches gardés.",
+      "vers": "L3543-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3543-4",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Restauration du corps : premier alinéa de L3543-3.",
+      "ligne_rouge": "Respect dû au corps gardé.",
+      "vers": "L3543-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3543-5",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Accès des proches au corps et charte : deuxième alinéa de L3543-3.",
+      "ligne_rouge": "Droits des proches gardés.",
+      "vers": "L3543-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3543-6",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Demande de restitution et réponse dans les quinze jours : dernier alinéa de L3543-3.",
+      "ligne_rouge": "Délai opposable gardé.",
+      "vers": "L3543-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3543-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Destruction ou restitution des prélèvements : premier alinéa de L3543-8.",
+      "ligne_rouge": "Respect dû au corps gardé.",
+      "vers": "L3543-8"
+    },
+    {
+      "code": "cpp",
+      "num": "L3544-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorités qui demandent la mise au clair : premier alinéa de L3544-1. Siège visé par R208 (lot p033), à coordonner vers L3544-1.",
+      "ligne_rouge": "Autorisation du magistrat gardée.",
+      "vers": "L3544-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3544-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Désignation d'une personne qualifiée et serment écrit : second alinéa de L3544-1. Siège visé par R208, à coordonner.",
+      "ligne_rouge": "Aucune ligne rouge : règles gardées.",
+      "vers": "L3544-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3544-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recours aux moyens classifiés de l'État : premier alinéa de L3544-5. Renvois internes recalés sur L3544-1.",
+      "ligne_rouge": "Art. 66 C examiné (signalement de passe 1) : la mesure ne prive personne de liberté. Contrôle du magistrat gardé : seuil de deux ans, délai fixé, interruption à tout moment.",
+      "vers": "L3544-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L3544-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Retour des résultats et attestation de sincérité : dernier alinéa de L3544-5.",
+      "ligne_rouge": "Résultats certifiés versés au dossier, gardés.",
+      "vers": "L3544-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L3544-7",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Absence de caractère juridictionnel et de recours : L3544-8.",
+      "ligne_rouge": "Aucune ligne rouge : règle gardée.",
+      "vers": "L3544-8"
     }
-  ]
+  ],
+  "passe": 3
 }
