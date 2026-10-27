@@ -10,153 +10,249 @@
     {
       "code": "cpp",
       "num": "L6211-1",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Principe de compétence des juridictions françaises pour les faits commis hors du territoire, selon le code pénal, une loi ou une convention. Accord fautif (« celle-ci » pour les juridictions) : corrigé.",
-      "ligne_rouge": "aucune",
+      "motif": "Principe de compétence pour les faits commis hors du territoire, accord corrigé (passe 2), phrase resserrée.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "lorsque celle-ci sont compétentes",
-          "nouveau": "lorsque celles-ci sont compétentes"
+          "op": "rediger",
+          "nouveau": "Les infractions commises hors du territoire de la République sont poursuivies et jugées par les juridictions françaises lorsque celles-ci sont compétentes en application du livre Ier du code pénal ou d'un autre texte législatif, d'une convention internationale ou d'un acte pris en application du traité sur le fonctionnement de l'Union européenne."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6211-2",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Compétence quasi universelle pour les conventions de la section 2, sous condition de présence en France, tentative comprise : règle commune, qui évite de la répéter dans chaque article.",
-      "ligne_rouge": "aucune"
+      "motif": "Règle commune de la compétence quasi universelle : présence en France sauf disposition contraire, tentative punissable comprise. La section est désignée par ses bornes (L6211-3 à L6211-15).",
+      "ligne_rouge": "aucune (passe 1) ; la condition de présence en France est gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En application des conventions internationales mentionnées aux articles L. 6211-3 à L. 6211-15, peut être poursuivie et jugée par les juridictions françaises toute personne soupçonnée d'avoir commis hors du territoire de la République l'une des infractions qu'ils énumèrent, à condition, sauf disposition contraire, qu'elle se trouve sur le territoire national. Le présent article s'applique à la tentative de ces infractions, chaque fois qu'elle est punissable."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Torture (convention de New York de 1984) : l'impunité d'un tortionnaire présent en France est le dommage évité.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Torture. Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention contre la torture et autres peines ou traitements cruels, inhumains ou dégradants du 10 décembre 1984, relèvent de l'article L. 6211-2 les tortures au sens de l'article 1er de la convention."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Terrorisme (convention de Strasbourg de 1977, accord de Dublin) : engagement conventionnel, nécessité établie.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Terrorisme (convention européenne de 1977, accord de Dublin de 1979). Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention européenne pour la répression du terrorisme du 27 janvier 1977 et de l'accord du 4 décembre 1979 entre les États membres des Communautés européennes concernant son application, relèvent de l'article L. 6211-2 :\n1° Lorsqu'elles sont commises contre une personne ayant droit à une protection internationale, y compris les agents diplomatiques, l'atteinte volontaire à la vie, les tortures et actes de barbarie, les violences ayant entraîné la mort, une mutilation ou une infirmité permanente ou, si la victime est mineure, une incapacité totale de travail supérieure à huit jours, l'enlèvement et la séquestration réprimés par le livre II du code pénal, ainsi que les menaces définies au deuxième alinéa de l'article 222-17 et à l'article 222-18 de ce code.\n2° Lorsqu'ils sont en relation avec une entreprise individuelle ou collective ayant pour but de troubler gravement l'ordre public par l'intimidation ou la terreur, les atteintes à la liberté d'aller et venir définies à l'article 421-1 du code pénal et tout autre crime ou délit comportant l'utilisation de bombes, de grenades, de fusées, d'armes à feu automatiques, de lettres ou de colis piégés, dans la mesure où cette utilisation présente un danger pour les personnes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Matières nucléaires (convention de Vienne et New York de 1980) : engagement conventionnel. Renvois au code de la défense vérifiés.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Matières nucléaires. Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention sur la protection physique des matières nucléaires du 3 mars 1980, relèvent de l'article L. 6211-2 :\n1° Le délit prévu à l'article L. 1333-11 du code de la défense.\n2° Lorsqu'ils sont commis au moyen des matières nucléaires entrant dans le champ des articles 1er et 2 de la convention ou portent sur elles, le délit d'appropriation indue prévu à l'article L. 1333-9 du même code, et l'atteinte volontaire à la vie ou à l'intégrité de la personne, le vol, l'extorsion, le chantage, l'escroquerie, l'abus de confiance, le recel, la destruction, la dégradation ou la détérioration, ou la menace d'une atteinte aux personnes ou aux biens définis par les livres II et III du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Sécurité de la navigation maritime (conventions de Rome et Londres) : engagement conventionnel. Renvois au code de la défense et au code des transports vérifiés.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Navigation maritime et plates-formes fixes. Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention pour la répression d'actes illicites contre la sécurité de la navigation maritime et du protocole pour la répression d'actes illicites contre la sécurité des plates-formes fixes situées sur le plateau continental, du 10 mars 1988, révisés le 14 octobre 2005, relèvent de l'article L. 6211-2 :\n1° Les crimes définis aux articles 224-6 et 224-7 du code pénal.\n2° L'atteinte volontaire à la vie ou à l'intégrité physique, la destruction, la dégradation ou la détérioration et la menace d'une atteinte aux personnes ou aux biens réprimées par les livres II et III du code pénal, et les délits définis à l'article 224-8 de ce code et à l'article L. 5242-23 du code des transports, lorsque l'infraction compromet ou est de nature à compromettre la sécurité de la navigation maritime ou d'une plate-forme fixe située sur le plateau continental.\n3° Les infractions prévues au titre II du livre IV du code pénal.\n4° Les infractions prévues aux articles L. 1333-9 à L. 1333-13-11, L. 2341-3 à L. 2341-7, L. 2342-57 à L. 2342-81 et L. 2353-4 à L. 2353-14 du code de la défense, et à l'article 414 du code des douanes lorsque la marchandise prohibée est constituée par les armes mentionnées dans la convention et le protocole.\n5° L'atteinte volontaire à la vie, les tortures et actes de barbarie et les violences réprimés par le livre II du code pénal, lorsqu'ils sont connexes à l'une des infractions des 1°, 3° et 4° ou à une infraction de nature à compromettre la sécurité de la navigation maritime ou d'une plate-forme mentionnée au 2°.\n6° La participation à une association de malfaiteurs prévue à l'article 450-1 du code pénal et le concours à une organisation criminelle prévu à l'article 450-1-1 du même code, lorsque l'association de malfaiteurs ou l'organisation criminelle a pour objet un crime ou un délit mentionné aux 1°, 2° et 4°.\n7° Le délit prévu à l'article 434-6 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Capture illicite d'aéronefs et sûreté de l'aviation civile : engagement conventionnel.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Aviation civile (La Haye 1970 et son protocole de 2010, Montréal 1971, Pékin 2010). Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention pour la répression de la capture illicite d'aéronefs du 16 décembre 1970 et de son protocole complémentaire du 10 septembre 2010, de la convention pour la répression d'actes illicites dirigés contre la sécurité de l'aviation civile du 23 septembre 1971 et de la convention sur la répression des actes illicites dirigés contre l'aviation civile internationale du 10 septembre 2010, relèvent de l'article L. 6211-2 :\n1° Les infractions concernant un aéronef non immatriculé en France et énumérées à l'article 1er de la convention du 16 décembre 1970, et tout autre acte de violence dirigé contre les passagers ou l'équipage et commis par l'auteur présumé de ces infractions, en relation directe avec celles-ci.\n2° Les infractions concernant un aéronef non immatriculé en France et énumérées aux a, b et c du 1° de l'article 1er de la convention du 23 septembre 1971.\n3° Les infractions énumérées à l'article 1er de la convention du 10 septembre 2010."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Violence dans les aéroports (protocole de Montréal de 1988) : engagement conventionnel. Le renvoi aux 3° et 5° de l'article L. 282-1 du code de l'aviation civile, code dont la base ne porte pas le texte, est à vérifier contre sa codification au code des transports avant toute coordination.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Violence dans les aéroports (protocole de 1988). Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature. Le renvoi à L. 282-1 du code de l'aviation civile reste à coordonner avec le code des transports (passe 2).",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application du protocole pour la répression des actes illicites de violence dans les aéroports servant à l'aviation civile internationale du 24 février 1988, complémentaire à la convention du 23 septembre 1971, relèvent de l'article L. 6211-2, lorsqu'elles sont commises à l'aide d'un dispositif matériel, d'une substance ou d'une arme :\n1° Si elles portent atteinte ou sont de nature à porter atteinte à la sécurité dans un aérodrome affecté à l'aviation civile internationale :\na) Les atteintes volontaires à la vie, les tortures et actes de barbarie, les violences ayant entraîné la mort, une mutilation ou une infirmité permanente ou, si la victime est mineure, une incapacité totale de travail pendant plus de huit jours, réprimés par le livre II du code pénal, commis dans un tel aérodrome.\nb) Les destructions, dégradations et détériorations réprimées par le livre III du code pénal, commises contre les installations d'un tel aérodrome ou contre un aéronef qui y stationne et n'est pas en service.\nc) Le délit prévu au 3° de l'article L. 282-1 du code de l'aviation civile, commis contre les installations d'un tel aérodrome ou contre un aéronef qui s'y trouve et n'est pas en service.\n2° L'infraction définie au 5° de l'article L. 282-1 du code de l'aviation civile, commise contre les services d'un aérodrome affecté à l'aviation civile internationale."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Fraude aux intérêts financiers de l'Union et corruption de fonctionnaires européens : engagement de l'Union.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Intérêts financiers de l'Union et corruption de fonctionnaires européens. Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la directive (UE) 2017/1371 du Parlement européen et du Conseil du 5 juillet 2017 et de la convention du 26 mai 1997 relative à la lutte contre la corruption impliquant des fonctionnaires des Communautés européennes ou des fonctionnaires des États membres de l'Union européenne, relèvent de l'article L. 6211-2 les infractions portant atteinte aux intérêts financiers de l'Union au sens de cette directive, ainsi que :\n1° Les délits prévus aux articles 435-1 et 435-7 du code pénal, commis par un agent de l'Union européenne ou d'un organisme créé conformément aux traités instituant cette Union et ayant son siège en France.\n2° Les délits prévus aux articles 435-1, 435-3, 435-7 et 435-9 du code pénal, commis par un Français ou par une personne appartenant à la fonction publique française.\n3° Les délits prévus aux articles 435-3 et 435-9 du code pénal, commis à l'encontre d'un ressortissant français."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Attentats terroristes à l'explosif (convention de New York de 1998) : engagement conventionnel.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Attentats terroristes à l'explosif (1998). Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention internationale pour la répression des attentats terroristes, ouverte à la signature le 12 janvier 1998, relèvent de l'article L. 6211-2 les crimes et délits d'acte de terrorisme définis aux articles 421-1 et 421-2 du code pénal et le délit d'association terroriste prévu à l'article 421-2-1 du même code, lorsqu'ils sont commis en employant un engin explosif ou un autre engin meurtrier défini à l'article 1er de la convention."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Financement du terrorisme (convention de New York de 2000) : engagement conventionnel.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Financement du terrorisme (2000). Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention internationale pour la répression du financement du terrorisme, ouverte à la signature le 10 janvier 2000, relèvent de l'article L. 6211-2 les crimes et délits définis aux articles 421-1 à 421-2-2 du code pénal lorsqu'ils constituent un financement d'actes de terrorisme au sens de l'article 2 de la convention."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-12",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Compétence universelle pour génocide, crimes contre l'humanité et crimes de guerre, sous condition de résidence habituelle. [arbitrage : la condition de résidence habituelle restreint la poursuite des auteurs de passage, gardée par défaut]",
-      "ligne_rouge": "aucune"
+      "motif": "Compétence universelle pour le génocide, les crimes contre l'humanité et les crimes et délits de guerre, sous condition de résidence habituelle définie par un lien de rattachement suffisant : gardée (arbitrage de la passe 2 tenu).",
+      "ligne_rouge": "aucune (passe 1) ; la condition de résidence habituelle est gardée, la compétence n'est pas étendue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors les cas prévus au titre V du présent livre pour l'application de la convention portant statut de la Cour pénale internationale, ouverte à la signature le 18 juillet 1998, peut être poursuivie et jugée par les juridictions françaises toute personne soupçonnée d'avoir commis à l'étranger :\n1° Le crime de génocide défini au chapitre Ier du sous-titre Ier du titre Ier du livre II du code pénal.\n2° Les autres crimes contre l'humanité définis au chapitre II du même sous-titre Ier.\n3° Les crimes et les délits de guerre définis aux articles 461-1 à 461-31 du même code.\nLa personne soupçonnée doit avoir sa résidence habituelle en France, c'est-à-dire un lien de rattachement suffisant avec la France, apprécié notamment au regard de la durée actuelle ou prévisible de sa présence, des conditions et des raisons de celle-ci, de sa volonté de s'y installer ou de s'y maintenir et de ses liens familiaux, sociaux, matériels ou professionnels."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-13",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Temps de conduite et de repos dans l'Union (règlement 561/2006) : engagement de l'Union, contrôle des transporteurs.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Temps de conduite et de repos (règlement 561/2006). Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application du règlement (CE) n° 561/2006 du Parlement européen et du Conseil du 15 mars 2006, relèvent de l'article L. 6211-2 les infractions à la réglementation du temps de conduite et de repos au sens du chapitre II de ce règlement, commises dans un État de l'Union européenne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-14",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Disparitions forcées (convention de New York de 2006) : engagement conventionnel.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Disparitions forcées (2006). Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention internationale pour la protection de toutes les personnes contre les disparitions forcées du 20 décembre 2006, relèvent de l'article L. 6211-2 les crimes définis au 9° de l'article 212-1 et à l'article 221-12 du code pénal lorsqu'ils constituent une disparition forcée au sens de l'article 2 de la convention."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6211-15",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Atteintes aux biens culturels en conflit armé (protocole de La Haye de 1999), à la requête du ministère public : engagement conventionnel.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Biens culturels en cas de conflit armé (1954 et protocole de 1999), condition de résidence habituelle et monopole du ministère public gardés. Chaque article de convention garde son champ exact : mêmes infractions, mêmes conditions de lien. La formule « peut être poursuivie et jugée dans les conditions prévues à l'article L. 6211-2 toute personne soupçonnée de » devient « relèvent de l'article L. 6211-2 », qui pose la condition de présence en France et vise la tentative. Les conventions sont désignées par leur intitulé et leur date, sans le lieu de signature.",
+      "ligne_rouge": "aucune (passe 1) ; aucune incrimination ni compétence n'est étendue ni perdue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de la convention pour la protection des biens culturels en cas de conflit armé du 14 mai 1954 et de son deuxième protocole du 26 mars 1999, relèvent de l'article L. 6211-2, lorsque la personne soupçonnée réside habituellement sur le territoire de la République, les atteintes aux biens culturels mentionnées aux a à c du 1 de l'article 15 du protocole. Leur poursuite ne peut être exercée qu'à la requête du ministère public."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6212-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Non bis in idem pour la personne jugée définitivement à l'étranger dont la peine a été subie ou prescrite : garantie tenue, la peine subie compte.",
-      "ligne_rouge": "art. 8 DDHC examiné : nul n'est puni deux fois pour les mêmes faits, sous condition que la peine ait été subie ou prescrite"
+      "motif": "Non bis in idem pour la personne jugée définitivement à l'étranger : gardé mot pour mot (cité par l'article 113-6 du code pénal).",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine subie ou prescrite à l'étranger fait obstacle à une nouvelle poursuite, gardé.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L6212-2",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Compétence territoriale, dont la résidence de la victime, et compétence concurrente de Paris : la victime peut saisir près de chez elle. Renvois à L. 2151-6 et L. 2151-7 vérifiés.",
-      "ligne_rouge": "aucune"
+      "motif": "Compétence territoriale, dont la résidence de la victime, compétence concurrente de Paris, dessaisissement selon L2151-6 et L2151-7 : gardés, resserrés.",
+      "ligne_rouge": "aucune (passe 1) ; la victime garde la juridiction de sa résidence.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La juridiction compétente est celle du lieu où réside le prévenu, de sa dernière résidence connue, du lieu où il est trouvé ou de la résidence de la victime ou, si l'infraction a été commise à bord ou à l'encontre d'un aéronef ou contre les personnes qui se trouvaient à bord, celle du lieu de décollage, de destination ou d'atterrissage de cet aéronef. Ces règles n'excluent pas les règles particulières de compétence des juridictions spécialisées.\nLa juridiction de Paris exerce une compétence concurrente à celle de la première phrase du premier alinéa. Lorsque le procureur de la République près un autre tribunal judiciaire requiert le juge d'instruction saisi d'une infraction relevant du chapitre 1er du présent titre de se dessaisir au profit de la juridiction d'instruction de Paris, les articles L. 2151-6 et L. 2151-7 sont applicables."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6212-3",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Monopole du parquet antiterroriste et subsidiarité pour les crimes de l'article L. 6211-12, recours du dénonciateur entendu à sa demande, décision écrite motivée : la victime garde un recours. [arbitrage : la constitution de partie civile reste fermée en compétence universelle, comme en droit en vigueur]",
-      "ligne_rouge": "aucune"
+      "motif": "Monopole du parquet antiterroriste et subsidiarité pour les crimes de L6211-12, recours du dénonciateur entendu à sa demande (L4113-4, pièce de passe 3 du lot p139), décision écrite motivée : gardés.",
+      "ligne_rouge": "aucune (passe 1) ; la victime garde un recours, entendue à sa demande (arbitrage de la passe 2 tenu : constitution de partie civile fermée).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La poursuite des crimes et délits mentionnés à l'article L. 6211-12 ne peut être exercée qu'à la requête du procureur de la République antiterroriste, et si aucune juridiction internationale ou nationale ne demande la remise ou l'extradition de la personne. À cette fin, le ministère public s'assure de l'absence de poursuite par la Cour pénale internationale et vérifie qu'aucune autre juridiction internationale compétente n'a demandé la remise de la personne et qu'aucun autre État n'a demandé son extradition.\nLe procureur général près la cour d'appel de Paris, saisi en application de l'article L. 4113-4 d'un recours contre un classement judiciaire décidé par le procureur de la République antiterroriste, entend la personne qui a dénoncé les faits si elle le demande. S'il estime le recours infondé, il l'en informe par une décision écrite motivée."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
