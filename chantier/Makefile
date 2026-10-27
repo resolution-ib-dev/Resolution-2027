@@ -762,3 +762,31 @@ propre:
 
 # Le référentiel des faits ne s'efface pas avec les dérivés : il porte le
 # sourçage écrit à la main, et `make propre` ne détruit pas ce travail.
+
+# --- révision de la chaîne pénale -------------------------------------------
+# Les décisions (revision/decisions/, revision/bareme/, revision/passe3/) sont la
+# source ; les produits se dérivent, jamais à la main. `make penal` joue les
+# contrôles de la passe 2 (D1 à D6), de la passe 3 (S1 à S3) et des fiches (C1 à C7),
+# puis régénère le barème, le code cible, le trois-colonnes, la concordance et la
+# synthèse. Inscrit le 20261027 (registre des arbitrages pénaux, mandat passe 3).
+PENAL_SRC := $(wildcard revision/decisions/*.json) $(wildcard revision/bareme/*.json) \
+             $(wildcard revision/passe3/*.json) revision/bareme_hors_releve.json
+CODE_CIBLE := $(LIV)/code_cible_penal.md
+SYNTHESE_PENAL := $(LIV)/synthese_revision_penale.md
+
+$(REF)/bareme_delits.tsv: $(APP)/bareme_delits.py revision/bareme_hors_releve.json $(wildcard revision/bareme/*.json)
+	$(PY) $(APP)/bareme_delits.py
+
+$(CODE_CIBLE) $(REF)/trois_colonnes_penal.tsv $(REF)/concordance_penale.tsv &: $(APP)/code_cible_penal.py $(PENAL_SRC)
+	$(PY) $(APP)/code_cible_penal.py
+
+$(SYNTHESE_PENAL): $(APP)/synthese_revision_penale.py $(REF)/trois_colonnes_penal.tsv \
+                   $(REF)/bareme_delits.tsv revision/arbitrages_passe2.md
+	$(PY) $(APP)/synthese_revision_penale.py
+
+.PHONY: penal
+penal: $(REF)/bareme_delits.tsv
+	$(PY) $(APP)/decisions_penal.py --strict | tail -2
+	$(PY) $(APP)/sobriete_penal.py controle --strict | tail -6
+	$(PY) $(APP)/revision_penale.py --strict | tail -1
+	$(MAKE) --no-print-directory $(CODE_CIBLE) $(SYNTHESE_PENAL)

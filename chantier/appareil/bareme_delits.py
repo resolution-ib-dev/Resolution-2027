@@ -2,6 +2,7 @@
 """Peines de référence des délits : tri entre l'essentiel et l'affichage (P27).
 
 Lit referentiels/incriminations.tsv (articles L qui punissent d'emprisonnement),
+corrigé par revision/bareme_hors_releve.json (articles qui n'incriminent rien, ajouts),
 relit chaque article par `droit.py` et le range en trois classes :
 
 - noyau : atteinte aux personnes, aux biens, à la nation, à la justice ou à la
@@ -40,6 +41,7 @@ SRC = CHANTIER / "referentiels" / "incriminations.tsv"
 TSV = CHANTIER / "referentiels" / "bareme_delits.tsv"
 BILAN = CHANTIER / "referentiels" / "bareme_delits_bilan.json"
 DECISIONS = CHANTIER / "revision" / "bareme"
+HORS = CHANTIER / "revision" / "bareme_hors_releve.json"   # exclusions et ajouts au relevé (registre 2.8)
 
 
 def decisions():
@@ -80,10 +82,13 @@ def main():
     jour = str(date.today())
     lignes, bilan, par_code = [], Counter(), Counter()
     passe2 = decisions()
-    for r in csv.DictReader(SRC.open(encoding="utf-8"), delimiter="\t"):
-        if r["nature"] != "délit":
-            continue
-        a = droit.article(r["code"], r["num"], jour)
+    hors = json.loads(HORS.read_text(encoding="utf-8")) if HORS.exists() else {"exclus": [], "ajouts": []}
+    exclus = {(e["code"], e["num"]) for e in hors["exclus"]}
+    source = [r for r in csv.DictReader(SRC.open(encoding="utf-8"), delimiter="\t")
+              if r["nature"] == "délit" and (r["code"], r["num"]) not in exclus]
+    source += [dict(a, nature="délit") for a in hors["ajouts"]]
+    for r in source:
+        a = droit.article(r["code"], r["num"], r.get("jour") or jour)
         t = (a or {}).get("texte") or ""
         n, f = NOYAU.search(t), FORMEL.search(t)
         if n:

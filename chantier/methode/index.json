@@ -10414,6 +10414,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/sobriete_penal",
+   "chemin": "appareil/sobriete_penal.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/sobriete_penal.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/socle_texte_2027",
    "chemin": "appareil/socle_texte_2027.py",
    "rang": "appareil",
@@ -14194,6 +14208,20 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/sobriete_penal_bilan",
+   "chemin": "referentiels/sobriete_penal_bilan.json",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/sobriete_penal_bilan.json",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/socles_2027",
    "chemin": "referentiels/socles_2027.sha256",
    "rang": "referentiel",
@@ -14582,6 +14610,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/revision/bareme/noyau_transports.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
+   "role": "fichier:revision/bareme_hors_releve",
+   "chemin": "revision/bareme_hors_releve.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/bareme_hors_releve.json",
    "releve": true,
    "famille": "méthode"
   },
@@ -19346,6 +19388,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/registre_arbitrages_penal",
+   "chemin": "revision/registre_arbitrages_penal.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/registre_arbitrages_penal.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:sources/guide-public-du-budgetaire-2023",
    "chemin": "sources/guide-public-du-budgetaire-2023.pdf",
    "rang": "source",
@@ -19544,6 +19600,7 @@
    "appareil/sans_cesure.py",
    "appareil/scinder_liasse_trois_colonnes.py",
    "appareil/scinder_liasses.py",
+   "appareil/sobriete_penal.py",
    "appareil/socle_budgetaire.py",
    "appareil/socle_plf_texte.py",
    "appareil/socle_texte_2027.py",
@@ -19831,6 +19888,7 @@
    "referentiels/sieges_complement_20261013.tsv",
    "referentiels/sieges_operateurs_20261013.tsv",
    "referentiels/sieges_operateurs_20261013_lisez_moi.md",
+   "referentiels/sobriete_penal_bilan.json",
    "referentiels/socle_texte_plf2027.json",
    "referentiels/socle_texte_plfss2027.json",
    "referentiels/socles_2027.sha256",
@@ -19861,6 +19919,7 @@
    "revision/bareme/noyau_sante.json",
    "revision/bareme/noyau_securite_interieure.json",
    "revision/bareme/noyau_transports.json",
+   "revision/bareme_hors_releve.json",
    "revision/decisions/lot1_L5_livre2_titre5.json",
    "revision/decisions/lot2_L5_livre2_titre4.json",
    "revision/decisions/lot3_D_livre5_titre3.json",
@@ -20201,6 +20260,7 @@
    "revision/decisions/lot_p334.json",
    "revision/fiches_penal.json",
    "revision/grille_principes.json",
+   "revision/registre_arbitrages_penal.md",
    "sources/guide-public-du-budgetaire-2023.pdf",
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
@@ -20372,9 +20432,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1310,
-  "au_coffre": 1249,
-  "au_depot": 791,
+  "artefacts": 1314,
+  "au_coffre": 1253,
+  "au_depot": 795,
   "derives": 275,
   "sources": 48,
   "non_restaurables": 16,
