@@ -9,361 +9,423 @@
   "decisions": [
     {
       "code": "penitentiaire",
+      "num": "D313-9",
+      "principe": "P25",
+      "motif": "Choix du défenseur et confidentialité des entretiens liés à un interrogatoire ou une audience en un article (D313-13 fusionné), pour toute personne détenue. Le renvoi inexact à D. 594-3 tombe (passe 2).",
+      "ligne_rouge": "droits de la défense examinés : tableau des avocats et confidentialité gardés pour toute personne détenue, condamnée comprise.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tableau des avocats inscrits dans les barreaux du département est affiché au greffe et tenu à la disposition des personnes détenues pour le choix de leur défenseur. Les entretiens entre une personne détenue et son avocat, en lien direct avec un interrogatoire ou une audience, se tiennent dans l'établissement dans des conditions qui en garantissent la confidentialité."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R311-1",
+      "principe": "P23",
+      "motif": "Information de la personne détenue en un article (R311-2 à R311-5 fusionnés) : information et recueil des observations, consultation confidentielle des titres d'écrou, notice du greffe, certificat de présence. La mise à disposition du règlement intérieur tombe : L. 311-1 rend les règles de l'établissement accessibles pendant toute la détention.",
+      "ligne_rouge": "aucune : la personne consulte le motif de son écrou (art. 66 C), le certificat ne dit ni motif ni appréciation.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le chef d'établissement et le personnel informent les personnes détenues par les moyens les plus appropriés et recueillent leurs observations et suggestions.\nLa personne détenue consulte, dans un local qui en garantit la confidentialité, les documents mentionnant le motif de son écrou déposés au greffe. Le greffe inscrit sur une notice la nature de ces documents et de ceux qui lui sont confiés selon l'article R. 331-1, avec les dates de leur remise, de leur consultation et de leur restitution.\nLe greffe délivre à la personne qui le demande, pendant ou après sa détention, un certificat de sa présence et de sa durée, sans motif ni appréciation, qui mentionne s'il y a lieu son affiliation à la sécurité sociale."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R311-10",
+      "principe": "P19",
+      "motif": "Copies des pièces de l'instruction remises à la personne détenue en un article (R311-11, R311-12, R311-13 fusionnés), sur l'habilitation de L. 3431-16 du code de procédure pénale : envoi par l'avocat, remise sous trois jours ouvrables, attestation, conservation au greffe, consultation sous trois jours ouvrables, remise à la libération. Les anciens articles 114 et 114-1 deviennent L. 3431-12 à L. 3431-16. L'envoi recommandé suit la formule unique (registre 5.4).",
+      "ligne_rouge": "aucune : droits de la défense (accès aux pièces) et délais opposables gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'avocat adresse au greffe de l'établissement, par voie électronique sécurisée, par tout moyen permettant d'en établir la date de réception ou par remise directe contre récépissé, les reproductions des pièces de l'instruction qu'il transmet à la personne détenue selon les articles L. 3431-12 à L. 3431-16 du code de procédure pénale. Le greffe les lui remet dans les trois jours ouvrables de leur réception, après l'avoir informée de l'article L. 3431-13 du même code. Elle atteste par écrit en avoir pris connaissance. L'attestation et l'avis écrit de remise sont transmis dans les meilleurs délais au juge d'instruction et à l'avocat.\nLe juge d'instruction peut subordonner la remise à la conservation des documents au greffe. Sa décision est notifiée à l'avocat et il en informe sans délai l'établissement. Les documents sont aussi conservés au greffe, après consultation, lorsque la personne détenue le demande. Elle peut alors les consulter à tout moment. Le chef d'établissement organise la consultation dans les trois jours ouvrables de sa demande, sauf exigence du bon fonctionnement de l'établissement, dans un local qui en garantit la confidentialité. Les documents sont restitués au greffe après chaque consultation et remis à la personne à sa libération ou à la fin définitive de l'information."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R312-1",
+      "principe": "P23",
+      "motif": "Points d'accès au droit en un article (R312-2 fusionné) : organisation et champ, qui exclut l'affaire pénale, l'exécution de la peine et toute affaire dont un avocat est saisi. L. 312-1 pose le droit à la consultation gratuite.",
+      "ligne_rouge": "art. 8 DDHC examiné (R312-2) : le point d'accès au droit ne touche ni l'affaire pénale ni l'exécution de la peine, la défense reste à l'avocat.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les conseils départementaux de l'accès au droit organisent dans chaque établissement, avec le chef d'établissement et le directeur du service pénitentiaire d'insertion et de probation, des permanences et consultations juridiques gratuites appelées points d'accès au droit. Elles répondent à toute demande d'information juridique, sauf sur l'affaire pénale pour laquelle la personne est détenue, sur l'exécution de sa peine ou sur une affaire dont un avocat est saisi."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R313-1",
+      "principe": "P25",
+      "motif": "Assistance avant une décision défavorable en un article (R313-2, R313-3, R313-4 fusionnés) : conseil ou mandataire, délai de trois heures, réserve de sécurité, copie des pièces.",
+      "ligne_rouge": "droits de la défense examinés : contradictoire administratif, délai minimal et accès aux pièces gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant une décision individuelle défavorable qui doit être motivée selon les articles L. 211-2 et L. 211-3 du code des relations entre le public et l'administration, la personne détenue peut se faire assister ou représenter par un conseil. Hors des décisions en matière disciplinaire, d'isolement ou d'affectation en quartier sécurisé, elle peut aussi choisir un mandataire, titulaire d'un permis de visite ou d'un agrément selon l'article R. 313-5.\nPour présenter ses observations selon l'article L. 122-1 du même code, elle dispose d'au moins trois heures à compter du moment où elle peut consulter les éléments de la procédure, en présence de son avocat ou du mandataire agréé si elle le demande. L'autorité peut ne pas communiquer à la personne, à son avocat ou au mandataire agréé les informations ou documents qui contiennent des éléments pouvant porter atteinte à la sécurité des personnes ou des établissements. Le mandataire peut obtenir copie des pièces communiquées à la personne détenue."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R313-5",
+      "principe": "P23",
+      "motif": "Agrément du mandataire en un article (R313-6, R313-7, R313-8, R313-11 fusionnés) : conditions, instruction, enquête facultative, autorisation du magistrat pour la personne en détention provisoire, durée, extension, effets, retrait et suspension. L'ancien article 145-4 devient L. 3645-11 du code de procédure pénale.",
+      "ligne_rouge": "art. 66 C examiné (R313-6) : le mandataire d'une personne en détention provisoire obtient l'autorisation du magistrat, contrôle du juge gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peut demander l'agrément de mandataire toute personne qui n'est pas détenue, jouit de ses droits civils et politiques, n'a aucune condamnation, incapacité ou déchéance inscrite au bulletin n° 2 du casier judiciaire, n'exerce aucune activité dans un service du ministère de la justice et, si elle est étrangère, séjourne régulièrement en France.\nLe directeur interrégional des services pénitentiaires statue sur proposition du chef d'établissement, qui instruit la demande et veille à ce qu'elle ne serve pas à contourner les règles des visites. Il peut faire diligenter une enquête administrative selon le décret n° 2005-1124 du 6 septembre 2005. Le mandataire choisi par une personne en détention provisoire obtient aussi l'autorisation prévue à l'article L. 3645-11 du code de procédure pénale.\nL'agrément vaut deux ans, renouvelable, auprès des établissements d'une même direction interrégionale. Le directeur interrégional d'une autre région peut autoriser le mandataire à exercer dans son ressort jusqu'à l'expiration de l'agrément. L'agrément emporte la confidentialité des entretiens et de la correspondance avec la personne qui a désigné le mandataire, et un titre d'accès à la détention.\nLe directeur interrégional retire l'agrément à la demande écrite du procureur de la République. Il peut aussi le retirer par décision motivée, au vu d'un rapport du chef d'établissement, notamment pour manquement aux règles de sécurité et de bon ordre. En cas d'urgence et pour des motifs graves, le chef d'établissement peut le suspendre deux mois au plus, dans l'attente de cette décision."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R313-12",
+      "principe": "P25",
+      "motif": "Communication avec le conseil en un article (R313-10, R313-14, R313-15, R313-16 fusionnés) : parloir et correspondance confidentiels de la personne prévenue, aucune sanction ne restreint la communication, correspondance non contrôlée, permis de communiquer, officiers publics et auxiliaires de justice. Gardé dans le code, hors du règlement intérieur type. Les anciens articles 712-6 à 712-8 cèdent la place au nom de la procédure.",
+      "ligne_rouge": "droits de la défense examinés : noyau gardé (libre communication, absence de contrôle, confidentialité). L. 313-2 pose la libre communication.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne prévenue s'entretient avec son avocat dans un parloir spécial qui garantit la confidentialité de l'échange et correspond avec lui de manière confidentielle par téléphone et par courrier.\nLa communication de la personne détenue avec son conseil se fait oralement ou par écrit. Aucune sanction ni mesure ne peut la supprimer ou la restreindre. Une correspondance dont il est constaté sans équivoque qu'elle est réellement destinée au conseil ou qu'elle provient de lui n'est ni contrôlée ni retenue.\nLe permis de communiquer est délivré à l'avocat par le magistrat chargé du dossier de la procédure pour une personne prévenue. Pour une personne condamnée, il l'est par le juge de l'application des peines ou son greffier dans les procédures relevant du juge ou du tribunal de l'application des peines, et par le chef d'établissement dans les autres cas.\nLes entretiens avec les officiers publics ou ministériels et les auxiliaires de justice sont confidentiels lorsque le procureur de la République atteste, par une pièce jointe à la demande de permis de communiquer, que la nature des intérêts en cause justifie le secret."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R315-2",
+      "principe": "P23",
+      "motif": "Requêtes, plaintes et recours hiérarchique en un article (R314-1 fusionné), gardés dans le code, hors du règlement intérieur type : ce sont les voies de recours de la personne détenue.",
+      "ligne_rouge": "art. 16 DDHC examiné : voies de recours gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue peut adresser des requêtes ou des plaintes au chef d'établissement, qui la reçoit en audience si elle invoque un motif suffisant.\nContre une décision administrative qui lui fait grief, elle peut former, selon les articles L. 411-1 à L. 411-7 du code des relations entre le public et l'administration, un recours hiérarchique non suspensif auprès du directeur interrégional des services pénitentiaires contre une décision du chef d'établissement, et auprès du garde des sceaux, ministre de la justice, contre une décision du directeur interrégional."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R315-3",
+      "principe": "P13",
+      "motif": "Requête de la personne étrangère contre une mesure d'éloignement déposée auprès du chef d'établissement : gardée (seule base en Guadeloupe, en Guyane et à Mayotte, passe 2). « Conformément à » tombe.",
+      "ligne_rouge": "aucune : recours effectif de la personne détenue étrangère gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue étrangère qui demande au tribunal administratif l'annulation d'une obligation de quitter le territoire français, d'une décision relative au délai de départ volontaire, d'une interdiction de retour sur le territoire français, d'une décision fixant le pays de renvoi ou d'une assignation à résidence peut déposer sa requête auprès du chef d'établissement, qui la transmet sans délai et par tout moyen au président du tribunal administratif."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
       "num": "D311-6",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie D46-2 (notification valant signification par tout fonctionnaire désigné par le chef d'établissement) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : D. 46-2 du code de procédure pénale. L. 311-2, que l'article mettait en œuvre, est abrogé (lot p082).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "D311-7",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie les articles D49-81-2 et D49-81-4 (notification au condamné de l'avis de la commission et des conclusions du collège d'experts en matière de période de sûreté terroriste) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : D. 49-81-1 du code de procédure pénale (D. 49-81-2 et D. 49-81-4 y sont réunis, lot p038).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "D311-8",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie D47-12-4 (ordonnance du juge des libertés et de la détention transmise au chef d'établissement par voie électronique et notifiée au détenu) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : D. 47-12-4 du code de procédure pénale.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "D313-13",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Seul texte qui impose la confidentialité de l'entretien avec l'avocat pour toute personne détenue, condamnée comprise : R313-12 ne vise que les prévenus. D594-3 du code de procédure pénale définit les entretiens qui ouvrent droit à un interprète, il ne porte pas cette règle. Le renvoi inexact tombe, la règle se garde.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC, CEDH art. 6 § 3) examinés : la confidentialité de l'entretien du condamné avec son avocat n'a pas d'autre siège",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Conformément aux dispositions de l'article D. 594-3 du code de procédure pénale, les entretiens",
-          "nouveau": "Les entretiens"
-        }
-      ]
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Confidentialité des entretiens avec l'avocat fusionnée dans D313-9.",
+      "ligne_rouge": "droits de la défense examinés : règle gardée à D313-9 pour toute personne détenue.",
+      "vers": "D313-9"
     },
     {
       "code": "penitentiaire",
       "num": "D313-17",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie le second alinéa de D56 (interdiction de communiquer jamais opposable à l'avocat) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois. Le lot p035 a désigné D56 comme sa source.",
-      "ligne_rouge": "droits de la défense examinés : la libre communication avec l'avocat reste garantie par D56"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D313-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Tableau des avocats affiché au greffe pour le choix du défenseur : seule source de la règle, D66 du code de procédure pénale ayant été abrogé comme son miroir (lot p035).",
-      "ligne_rouge": "droits de la défense examinés : choix du défenseur facilité, tenu"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. L'interdiction de communiquer ne s'applique jamais à l'avocat : la loi le dit (L. 3645-15 du code de procédure pénale).",
+      "ligne_rouge": "droits de la défense examinés : garantie tenue par L. 3645-15 du code de procédure pénale."
     },
     {
       "code": "penitentiaire",
       "num": "D315-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie D47-12-6 (relevé de constatations techniques après une comparution par visioconférence, signé par un fonctionnaire pénitentiaire désigné) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : D. 47-12-6 du code de procédure pénale.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "D315-5",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie D45-26 (transmission de la déclaration d'appel du détenu le jour même ou le premier jour ouvrable suivant) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : D. 45-26 du code de procédure pénale.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "D315-6",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie le deuxième alinéa de D49-11 (requête au juge de l'application des peines par déclaration auprès du chef d'établissement) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : D. 49-11 du code de procédure pénale.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "D315-7",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie D43-4 (requête à la chambre des investigations et des libertés par déclaration auprès du chef d'établissement et notification de la décision) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R311-1",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Règlement intérieur tenu à la disposition des détenus : la règle qui s'applique est connue.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R311-10",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Copies des pièces de l'instruction adressées par l'avocat au greffe de l'établissement : la voie électronique sécurisée s'ajoute à l'envoi recommandé et à la remise directe. Renvoi à l'ancien 114 à coordonner.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "par envoi recommandé avec demande d'avis de réception ou par remise directe contre récépissé",
-          "nouveau": "par envoi recommandé avec demande d'avis de réception, par voie électronique sécurisée ou par remise directe contre récépissé"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R311-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Remise des copies au détenu sous trois jours ouvrables, après rappel de l'interdiction de les diffuser, attestation transmise au juge et à l'avocat : délai opposable. Renvoi aux anciens 114 et 114-1 à coordonner.",
-      "ligne_rouge": "droits de la défense examinés : le détenu reçoit les pièces de son dossier dans un délai bref, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R311-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le juge d'instruction peut exiger la conservation des copies au greffe, avec droit de consultation ; le détenu peut le demander lui-même : protège la victime et les tiers sans priver la défense. Renvoi à l'ancien 114 à coordonner.",
-      "ligne_rouge": "droits de la défense examinés : consultation des pièces garantie (R311-13), tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R311-13",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Consultation des pièces sous trois jours ouvrables, dans un local confidentiel : délai opposable, défense gardée.",
-      "ligne_rouge": "droits de la défense examinés : consultation confidentielle dans un délai bref, tenue"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : D. 43-4 du code de procédure pénale.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R311-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Certificat de présence sans motif ni appréciation : sert l'emploi et les droits sociaux sans stigmatiser.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Certificat de présence fusionné dans R311-1, hors du règlement intérieur type.",
+      "ligne_rouge": "aucune.",
+      "vers": "R311-1"
     },
     {
       "code": "penitentiaire",
       "num": "R311-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Consultation confidentielle des documents qui fondent l'écrou : le détenu sait pourquoi il est détenu.",
-      "ligne_rouge": "art. 66 C examiné : accès au titre de détention, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Consultation des documents d'écrou fusionnée dans R311-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R311-1"
     },
     {
       "code": "penitentiaire",
       "num": "R311-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Notice des documents remis, consultés et restitués : traçabilité, une phrase.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Notice du greffe fusionnée dans R311-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R311-1"
     },
     {
       "code": "penitentiaire",
       "num": "R311-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information des détenus et recueil de leurs observations par le chef d'établissement : une phrase, ouvre une voie de remontée sans procédure.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information et observations des personnes détenues fusionnées dans R311-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R311-1"
     },
     {
       "code": "penitentiaire",
       "num": "R311-9",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir de l'article R. 632-5 du code de l'entrée et du séjour des étrangers et du droit d'asile, qui règle lui-même la remise du bulletin de notification par le greffier de l'établissement pénitentiaire : la règle vit à sa source, une seule fois, sans perte.",
-      "ligne_rouge": "aucune"
+      "motif": "Miroir de l'article R. 632-5 du code de l'entrée et du séjour des étrangers et du droit d'asile (passe 2).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
-      "num": "R312-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Points d'accès au droit en détention, mis en place par les conseils départementaux : consultation gratuite, coût partagé.",
-      "ligne_rouge": "aucune"
+      "num": "R311-11",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Remise des copies sous trois jours ouvrables fusionnée dans R311-10.",
+      "ligne_rouge": "aucune.",
+      "vers": "R311-10"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R311-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Conservation des copies au greffe fusionnée dans R311-10.",
+      "ligne_rouge": "aucune.",
+      "vers": "R311-10"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R311-13",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Consultation des copies fusionnée dans R311-10.",
+      "ligne_rouge": "aucune.",
+      "vers": "R311-10"
     },
     {
       "code": "penitentiaire",
       "num": "R312-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le point d'accès au droit ne traite pas de l'affaire pénale ni de l'exécution de la peine, ni d'une affaire où un avocat est saisi : la défense reste à l'avocat.",
-      "ligne_rouge": "droits de la défense examinés : l'affaire pénale reste à l'avocat, le point d'accès au droit ne s'y substitue pas"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R313-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Assistance par un conseil ou un mandataire avant une décision défavorable motivée, hors discipline, isolement et quartier sécurisé : contradictoire administratif.",
-      "ligne_rouge": "droits de la défense examinés : assistance avant décision défavorable, tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R313-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Confidentialité des entretiens avec officiers publics et auxiliaires de justice sur attestation du procureur : secret borné à l'intérêt qui le justifie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R313-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le mandataire agréé bénéficie de la confidentialité et d'un titre d'accès : l'assistance est effective.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R313-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Parloir confidentiel, téléphone et courrier confidentiels du prévenu avec son avocat : droits de la défense.",
-      "ligne_rouge": "droits de la défense examinés : communication confidentielle avec l'avocat, tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R313-14",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Permis de communiquer délivré par le juge de l'application des peines ou le chef d'établissement pour le condamné, par le magistrat pour le prévenu : seule source de la règle, R57-6-5 du code de procédure pénale ayant été abrogé comme son miroir (lot p025). Renvoi aux anciens 712-6, 712-7 et 712-8 à coordonner.",
-      "ligne_rouge": "droits de la défense examinés : accès de l'avocat, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R313-15",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Aucune sanction ne restreint la libre communication avec le conseil : noyau des droits de la défense. Seule source, R57-6-5 du code de procédure pénale ayant été abrogé (lot p025).",
-      "ligne_rouge": "droits de la défense examinés : libre communication avec le conseil, tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R313-16",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pas de contrôle des correspondances réellement échangées avec le conseil : noyau des droits de la défense. Seule source, R57-6-5 du code de procédure pénale ayant été abrogé (lot p025).",
-      "ligne_rouge": "droits de la défense examinés : secret des correspondances avec le conseil, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Champ des consultations fusionné dans R312-1.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'exclusion de l'affaire pénale et de l'exécution de la peine est gardée à R312-1.",
+      "vers": "R312-1"
     },
     {
       "code": "penitentiaire",
       "num": "R313-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Trois heures au moins pour préparer ses observations, communication des éléments sauf atteinte à la sécurité : contradictoire praticable.",
-      "ligne_rouge": "droits de la défense examinés : délai minimal pour préparer les observations, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délai de trois heures et réserve de sécurité fusionnés dans R313-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-1"
     },
     {
       "code": "penitentiaire",
       "num": "R313-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Mandataire titulaire d'un permis de visite ou agréé : deux cas, une phrase.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Qualité du mandataire fusionnée dans R313-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-1"
     },
     {
       "code": "penitentiaire",
       "num": "R313-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le mandataire obtient copie des pièces communiquées au détenu : l'assistance est effective.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R313-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Conditions de l'agrément du mandataire (droits civiques, bulletin n° 2 vierge, pas d'emploi au ministère) : prévient l'usage du mandat pour contourner le permis de visite.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Copie des pièces au mandataire fusionnée dans R313-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-1"
     },
     {
       "code": "penitentiaire",
       "num": "R313-6",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Agrément par le directeur interrégional sur proposition du chef d'établissement, enquête administrative facultative, autorisation du magistrat pour le prévenu : décision au plus près. Renvoi à l'ancien 145-4 à coordonner.",
-      "ligne_rouge": "contrôle du juge sur la détention provisoire examiné : le mandataire d'un prévenu passe aussi par l'autorisation du magistrat, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Instruction de l'agrément et autorisation du magistrat fusionnées dans R313-5.",
+      "ligne_rouge": "art. 66 C examiné : l'autorisation du magistrat pour le mandataire d'une personne en détention provisoire est gardée à R313-5 (L. 3645-11 du code de procédure pénale).",
+      "vers": "R313-5"
     },
     {
       "code": "penitentiaire",
       "num": "R313-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Agrément de deux ans, extension à une autre région : durée bornée.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Durée et extension de l'agrément fusionnées dans R313-5.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-5"
     },
     {
       "code": "penitentiaire",
       "num": "R313-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Retrait sur demande du procureur ou pour manquement, suspension d'urgence de deux mois au plus : contrôle borné.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Retrait et suspension de l'agrément fusionnés dans R313-5.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R313-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Confidentialité avec les officiers publics et auxiliaires de justice fusionnée dans R313-12.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-12"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R313-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Effets de l'agrément fusionnés dans R313-5.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R313-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Permis de communiquer fusionné dans R313-12.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-12"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R313-15",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Libre communication avec le conseil fusionnée dans R313-12.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-12"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R313-16",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Absence de contrôle de la correspondance avec le conseil fusionnée dans R313-12.",
+      "ligne_rouge": "aucune.",
+      "vers": "R313-12"
     },
     {
       "code": "penitentiaire",
       "num": "R314-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Requêtes et plaintes au chef d'établissement, audience sur motif suffisant : voie simple avant le recours.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R315-10",
-      "decision": "A",
-      "principe": "P3",
-      "motif": "Article miroir qui recopie les articles R249-17 à R249-41 (recours judiciaire contre les conditions de détention indignes, recevabilité, observations de l'administration, mesures correctives et décisions du juge) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois. Le délai des observations de l'administration a été ramené à sept jours dans sa source (R249-23, lot p034).",
-      "ligne_rouge": "CEDH art. 3 et 13 examinés : le recours contre les conditions indignes reste entier dans le code de procédure pénale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R315-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Recours hiérarchique non suspensif, autorité désignée selon l'auteur de la décision : voie simple, précise le code des relations entre le public et l'administration.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R315-3",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Le titre II du livre IX du code de l'entrée et du séjour des étrangers et du droit d'asile, dont R. 922-9, n'est pas applicable en Guadeloupe, en Guyane ni à Mayotte (R. 931-2 à R. 931-4 de ce code). Adapté par R712-1-1 et R713-2, cet article y est la seule base du dépôt de la requête du détenu étranger auprès du chef d'établissement. Il se garde.",
-      "ligne_rouge": "art. 16 DDHC et CEDH art. 13 examinés : le recours effectif du détenu étranger contre l'éloignement passe, dans ces trois territoires, par cet article"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Requêtes et plaintes fusionnées dans R315-2.",
+      "ligne_rouge": "aucune.",
+      "vers": "R315-2"
     },
     {
       "code": "penitentiaire",
       "num": "R315-4",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R*49-24 (remise de l'écrit distinct de la question prioritaire de constitutionnalité au chef d'établissement) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : R*. 49-24 du code de procédure pénale.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R315-8",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R249-18 (information des détenus sur le recours contre les conditions indignes) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Source : R. 249-19 du code de procédure pénale (R. 249-18 y est réuni, lot p034).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R315-9",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie les articles R249-20 (II) et R249-36 (requête et appel par déclaration auprès du chef d'établissement en matière de conditions de détention) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, une seule fois.",
-      "ligne_rouge": "CEDH art. 13 examiné : la déclaration auprès du chef d'établissement reste ouverte par le code de procédure pénale"
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Sources : R. 249-19 (R. 249-20 y est réuni) et R. 249-36 du code de procédure pénale.",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R315-10",
+      "decision": "A",
+      "principe": "P3",
+      "motif": "Article miroir du code de procédure pénale (passe 2) : la règle vit à sa source, une seule fois. Sources : R. 249-17 à R. 249-38 du code de procédure pénale.",
+      "ligne_rouge": "aucune."
     }
-  ]
+  ],
+  "passe": 3
 }
