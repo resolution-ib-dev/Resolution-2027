@@ -10,240 +10,300 @@
     {
       "code": "cpp",
       "num": "L4311-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interrogatoire préalable, cinq jours au moins avant les débats, sauf renonciation : préparation de la défense.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4311-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Interrogatoire par le président ou un assesseur désigné.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4311-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interprète, identité, notification de la décision de renvoi vérifiée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4311-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Avocat choisi ou commis d'office, accès au dossier, libre communication, conseil d'un proche à titre exceptionnel.",
-      "ligne_rouge": "art. 16 DDHC examiné : avocat obligatoire et accès au dossier, tenus"
-    },
-    {
-      "code": "cpp",
-      "num": "L4311-5",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Interrogatoire par moyen de télécommunication audiovisuelle : numérique admis.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4311-6",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Convocation de l'accusé libre, mandat d'arrêt motivé s'il ne se présente pas : la procédure ne dépend pas de l'absent.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4311-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Procès-verbal signé de l'interrogatoire : trace des droits notifiés, relève de la procédure pénale. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4312-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Réunion préparatoire criminelle avec le ministère public et les avocats : elle tient la durée de l'audience.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4312-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Accord sur les témoins, les experts, l'ordre et la durée, appel limité à la peine pris en compte : audience plus courte.",
-      "ligne_rouge": "art. 8 DDHC examiné : la réunion n'emporte aucune décision sur la peine, elle n'organise que l'audience"
-    },
-    {
-      "code": "cpp",
-      "num": "L4312-3",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "La réunion préparatoire, réunion d'organisation sans débat ni décision juridictionnelle, se tient en chambre du conseil, à distance si besoin : l'audience, elle, reste publique.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4312-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "L'accord laisse citer d'autres témoins en cas de nécessité : gardé. À défaut d'accord, l'ancien 276-1 renvoyait aux articles 277 à 287. Le code de 2029 cite L. 4353-5 (serment des jurés en appel, ancien 304), sans rapport, et omet le supplément d'information (anciens 283 et 284, L. 4313-4 et L. 4313-5) : renvoi corrigé.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Interrogatoire préalable en un article : délai de cinq jours, auteur (L4311-2), interprète, identité et notification (L4311-3), télécommunication (L4311-5), convocation de l'accusé libre (L4311-6), procès-verbal (L4311-7).",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : délai de cinq jours sauf renonciation avec l'avocat, interprète, vérification de la notification du renvoi, mandat d'arrêt par décision motivée seulement.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "L. 4314-1 à L. 4314-10 et L. 4353-5.",
-          "nouveau": "L. 4313-4, L. 4313-5 et L. 4314-1 à L. 4314-10."
+          "op": "rediger",
+          "nouveau": "Au moins cinq jours avant l'ouverture des débats devant la cour d'assises ou la cour criminelle départementale, le président de la cour, ou l'assesseur qu'il désigne, interroge l'accusé, sauf renonciation expresse de l'accusé et de son avocat à ce délai. Il l'informe, s'il y a lieu, de son droit d'être assisté d'un interprète, vérifie son identité et s'assure qu'il a reçu notification de la décision de renvoi ou, en appel, de la décision qui désigne la cour d'assises d'appel. L'interrogatoire peut se faire par un moyen de télécommunication audiovisuelle selon les articles L. 1621-1 et suivants.\nL'accusé libre est convoqué par la voie administrative au greffe. S'il ne se présente pas sans motif légitime, le président peut décerner mandat d'arrêt par décision motivée.\nUn procès-verbal, signé par le président ou son délégué, le greffier, l'accusé et, s'il y a lieu, l'interprète, constate ces formalités. Si l'accusé ne sait ou ne veut signer, il en est fait mention."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L4312-5",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "L'irrespect du chapitre ne vicie pas l'audience : la réunion est d'organisation, aucune nullité n'y est utile. La proposition de réécrire est écartée.",
-      "ligne_rouge": "art. 16 DDHC examiné : les droits de citer des témoins et de les faire entendre restent entiers aux articles L. 4314-1 à L. 4314-10"
+      "num": "L4311-4",
+      "principe": "P23",
+      "motif": "Avocat de l'accusé : choix, désignation d'office, accès au dossier, libre communication, conseil d'un proche ; phrases resserrées.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : avocat obligatoire, désigné d'office à défaut, accès à toutes les pièces et libre communication avec l'accusé détenu, gardés mot pour mot dans leur substance.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le président ou l'assesseur désigné vérifie que l'accusé est assisté d'un avocat. À défaut, il l'invite à en choisir un et, faute de choix, lui en désigne un d'office. Cette désignation tombe si l'accusé choisit ensuite un avocat. L'avocat peut prendre communication sur place de toutes les pièces du dossier, sans retarder la procédure. L'accusé détenu communique librement avec lui.\nÀ titre exceptionnel, le président peut autoriser l'accusé à prendre pour conseil un parent ou un ami. Il avertit cette personne, en début d'audience, qu'elle ne peut rien dire contre sa conscience ou le respect dû aux lois et qu'elle s'exprime avec décence et modération."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4312-1",
+      "principe": "P23",
+      "motif": "Réunion préparatoire en un article (L4312-2 à L4312-5 fusionnés). La phrase « à défaut d'accord, il est procédé selon… » tombe : à défaut d'accord, les règles du titre s'appliquent d'elles-mêmes, et son renvoi était faux en 2029.",
+      "ligne_rouge": "Droits de la défense : la réunion ne décide rien, l'accord laisse citer tout témoin nécessaire ; la règle d'absence de nullité est gardée (réunion d'organisation). Audience publique inchangée (L. 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Après l'interrogatoire, le président organise une réunion préparatoire avec le ministère public et les avocats des parties, dûment convoqués. Elle recherche un accord sur la liste des témoins et experts cités à l'audience, sur l'ordre de leurs dépositions et sur la durée de l'audience. En appel, l'accord tient compte de la limitation de l'appel à la peine prévue à l'article L. 4351-10. La réunion se tient en chambre du conseil, et la participation peut se faire par tout moyen de télécommunication.\nL'accord n'empêche pas, en cas de nécessité, de citer d'autres témoins ou experts ni de modifier l'ordre des dépositions. Le non-respect du présent chapitre ne constitue pas une cause de nullité de l'audience."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4313-1",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Contestation des irrégularités de l'information trois mois au plus tard avant l'audience, pour l'accusé qui n'en a pas été régulièrement informé : les nullités se purgent tôt.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4313-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Décision du président de la chambre des investigations et des libertés dans le mois, pourvoi ouvert : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4313-3",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "La décision de renvoi purge les vices à défaut de recours.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Contestation de la régularité de l'information en un article : conditions, juge et délai (L4313-2), purge (L4313-3). Numéro cité par L3452-9.",
+      "ligne_rouge": "Droits de la défense : la requête reste ouverte à l'accusé non informé, un juge statue dans le mois par décision motivée, le pourvoi est ouvert.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au plus tard trois mois avant sa comparution, l'accusé peut contester les irrégularités de l'information par requête au président de la chambre des investigations et des libertés, lorsque les conditions suivantes sont réunies :\n1° Il n'a pas été régulièrement informé, selon le cas, de sa mise en examen ou de sa qualité de partie, de l'avis de fin d'information ou de l'ordonnance de renvoi devant la juridiction criminelle.\n2° Cette défaillance ne procède ni d'une manœuvre ni d'une négligence de sa part.\n3° L'ordonnance de renvoi est devenue définitive.\nLe président de la chambre des investigations et des libertés statue dans le délai d'un mois, au vu des observations écrites de l'accusé ou de son avocat et du ministère public, par une décision motivée susceptible de pourvoi en cassation. À défaut de ce recours, l'ordonnance de mise en accusation couvre les vices de la procédure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4313-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Supplément d'information ordonné par le président, règles de l'instruction applicables.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4313-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pièces du supplément déposées au greffe, parties avisées : contradictoire.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Supplément d'information et dépôt de ses pièces (L4313-5) en un article. Numéro cité par R123.",
+      "ligne_rouge": "Contradictoire : les pièces sont versées au dossier et les parties avisées de leur dépôt.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si l'instruction lui semble incomplète ou si des éléments nouveaux sont apparus depuis sa clôture, le président peut ordonner tout acte d'information utile. Il y procède ou le délègue à un assesseur ou à un juge d'instruction. Les livres IV et V de la troisième partie s'appliquent, à l'exception des articles L. 3443-16 à L. 3443-21 sur la notification des expertises.\nLes pièces réunies sont déposées au greffe et jointes au dossier, et le greffier avise le ministère public et les parties de leur dépôt. Le procureur général peut à tout moment requérir communication de la procédure, à charge de la rendre dans les vingt-quatre heures."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4314-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Signification réciproque des listes de témoins et d'experts un mois au moins avant les débats : égalité des armes.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4314-10",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Renvoi à une session ultérieure des affaires non en état.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4314-11",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Jonction, disjonction et renvoi : mesures d'administration judiciaire sans recours.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4314-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Citation par le ministère public de cinq témoins des parties à ses frais, les autres aux frais de la partie : nécessité et coût bornés.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4314-3",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Liste des jurés de session signifiée à l'accusé, sans domicile : exercice des récusations et sûreté des jurés.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Significations et citations préalables en un article : listes des témoins et des experts, citation de cinq témoins par le ministère public (L4314-2), liste des jurés (L4314-3). La liste des jurés est signifiée devant toute cour qui juge avec des citoyens, les citoyens assesseurs de la cour criminelle départementale étant tirés sur la liste du jury (registre 4.1 et 9.10).",
+      "ligne_rouge": "Égalité des armes et droits de la défense : significations réciproques un mois avant, citation de cinq témoins aux frais de l'État, liste des jurés pour exercer les récusations, domicile des jurés protégé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministère public et la partie civile signifient à l'accusé, et l'accusé signifie au ministère public et, s'il y a lieu, à la partie civile, la liste des témoins qu'ils veulent faire entendre et les noms des experts appelés à rendre compte des travaux dont ils ont été chargés au cours de l'information. La signification intervient dès que possible et au moins un mois avant l'ouverture des débats. L'exploit mentionne les nom, prénoms, profession et résidence de chacun.\nLe ministère public cite à sa requête, dans la limite de cinq, les témoins dont les parties lui ont communiqué la liste au moins un mois et dix jours avant l'ouverture des débats. Les autres témoins sont cités à la requête et aux frais des parties, qui supportent aussi leurs indemnités si elles sont demandées.\nLa liste de session des jurés, arrêtée selon l'article L. 2123-29, est signifiée à chaque accusé au plus tard l'avant-veille de l'ouverture des débats. Elle permet l'identification des jurés, sans indiquer leur domicile ou résidence."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4314-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Curateur, tuteur ou mandataire de l'accusé protégé avisé de l'audience pour être entendu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4314-5",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Avis au chef d'établissement scolaire de l'audience criminelle sur un fait commis dans l'établissement : gardé. La lettre recommandée cède la place à tout moyen laissant une trace écrite.",
+      "principe": "P23",
+      "motif": "Avis préalables à l'audience en un article : curateur ou tuteur de l'accusé protégé, chef d'établissement scolaire (L4314-5, texte de la passe 2).",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Cet avis est adressé par lettre recommandée dix jours au moins",
-          "nouveau": "Cet avis est adressé par tout moyen laissant une trace écrite dix jours au moins"
+          "op": "rediger",
+          "nouveau": "Le curateur, le tuteur ou le mandataire spécial de l'accusé qui fait l'objet d'une mesure de protection juridique au sens de l'article L. 1711-2 est avisé de la date d'audience pour être entendu comme témoin.\nLorsque le crime a été commis dans l'enceinte d'un établissement scolaire, ou qu'il a concerné, aux abords immédiats de celui-ci, un élève ou un membre de son personnel, le procureur de la République avise le chef d'établissement de la date et de l'objet de l'audience, par tout moyen permettant d'en établir la date de réception, dix jours au moins avant celle-ci."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4314-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Copie gratuite des procès-verbaux, déclarations et expertises aux accusés et parties civiles.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Copie gratuite de la procédure : gardée, une phrase. Numéro cité par R154.",
+      "ligne_rouge": "Droits de la défense : la copie gratuite des pièces essentielles est gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant l'ouverture des débats, chaque accusé et chaque partie civile reçoit gratuitement copie des procès-verbaux constatant l'infraction, des déclarations écrites des témoins et des rapports d'expertise."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4314-7",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Jonction des procédures connexes ou visant le même accusé : un procès pour plusieurs.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Jonction, disjonction (L4314-8), renvoi (L4314-10), nature d'administration judiciaire (L4314-11, sans recours selon L. 4) et délit connexe jugé sans jurés (L4314-9) en un article.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le président peut, d'office ou sur réquisition du ministère public :\n1° Joindre les procédures lorsque plusieurs décisions de renvoi ont été rendues contre différents accusés pour un même crime ou des crimes connexes, ou contre un même accusé pour des infractions différentes.\n2° Disjoindre la procédure qui vise plusieurs infractions, pour que les accusés ne soient jugés immédiatement que sur certaines d'entre elles.\n3° Renvoyer à une session ou à une audience ultérieure l'affaire qui ne lui paraît pas en état d'être jugée.\nCes décisions sont des mesures d'administration judiciaire.\nLorsque, par suite d'une disjonction, d'un appel ou de toute autre cause, la cour d'assises n'est plus saisie que d'un délit connexe à un crime, elle statue sans l'assistance des jurés."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4311-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interrogatoire par le président ou un assesseur désigné : L4311-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4311-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4311-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interprète, identité, notification de la décision de renvoi : L4311-1.",
+      "ligne_rouge": "Droits de la défense : l'interprète et la vérification de la notification sont gardés à L4311-1.",
+      "vers": "L4311-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4311-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interrogatoire par télécommunication audiovisuelle : L4311-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4311-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4311-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Convocation de l'accusé libre, mandat d'arrêt motivé : L4311-1.",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : le mandat d'arrêt reste décerné par le président, par décision motivée.",
+      "vers": "L4311-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4311-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procès-verbal de l'interrogatoire : dernier alinéa de L4311-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4311-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4312-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Objet de la réunion préparatoire et appel limité à la peine : L4312-1.",
+      "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : la réunion n'organise que l'audience, la peine reste débattue et délibérée par la cour.",
+      "vers": "L4312-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4312-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réunion en chambre du conseil, à distance : L4312-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4312-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4312-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Portée de l'accord : L4312-1 ; la phrase « à défaut d'accord » tombe comme redite (P20).",
+      "ligne_rouge": "aucune",
+      "vers": "L4312-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4312-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Absence de nullité de l'audience : dernière phrase de L4312-1.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : la règle est gardée mot pour mot ; la réunion ne tranche rien et ne prive l'accusé d'aucun témoin.",
+      "vers": "L4312-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4313-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Juge et délai d'un mois, pourvoi ouvert : L4313-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4313-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4313-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Purge des vices par l'ordonnance de mise en accusation : L4313-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4313-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4313-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dépôt des pièces du supplément d'information, avis aux parties : L4313-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4313-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L4314-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Citation de cinq témoins par le ministère public : L4314-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4314-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4314-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Signification de la liste des jurés : L4314-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4314-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4314-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis au chef d'établissement scolaire : L4314-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4314-4"
     },
     {
       "code": "cpp",
       "num": "L4314-8",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Disjonction pour juger immédiatement une partie des faits.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Disjonction : 2° de L4314-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L4314-7"
     },
     {
       "code": "cpp",
       "num": "L4314-9",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Délit connexe seul restant : la cour statue sans jurés, l'infraction n'étant plus criminelle.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délit connexe jugé sans jurés : dernier alinéa de L4314-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L4314-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L4314-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi à une session ultérieure : 3° de L4314-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L4314-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L4314-11",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Décisions d'administration judiciaire sans recours : L4314-7, l'absence de recours étant la règle générale de L. 4.",
+      "ligne_rouge": "aucune",
+      "vers": "L4314-7"
     }
-  ]
+  ],
+  "passe": 3
 }
