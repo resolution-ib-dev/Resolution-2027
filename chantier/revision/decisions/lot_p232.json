@@ -10,138 +10,184 @@
     {
       "code": "cpp",
       "num": "R53-41",
-      "decision": "S",
       "principe": "P3",
-      "motif": "Autorisation d'anonymat écrite du procureur général, confirmée par écrit en cas d'urgence. Le régime des professionnels accompagnant les mineurs (R53-43-1 à R53-43-4) est le même mot pour mot : les deux chapitres fusionnent ici.",
-      "ligne_rouge": "aucune",
+      "motif": "Régime commun de l'anonymat par numéro anonymisé, délivré par le procureur général compétent : interprètes (L. 2513-4, qui couvre la criminalité organisée et le terrorisme, 14° de L. 1722-2) et professionnels accompagnant un mineur. Autorisation écrite ou urgente confirmée, registre unique, signature, nouveau numéro : R53-41-1 à R53-41-3, R53-43-1 à R53-43-4 et R50-29-1 y sont fusionnés. Renvois aux anciens 706-24-2 et 706-105-2 recalés sur L. 2513-4 ; l'ancien 706-105-4 (professionnels accompagnant les mineurs) n'a pas de siège dans le code de 2029, défaut à porter à la note de coordination 8.2.",
+      "ligne_rouge": "P26 examiné : anonymat qui protège une identité (registre 3.2) ; l'état civil reste communicable au président de la juridiction de jugement selon L. 2513-4.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "L'autorisation mentionnée à l'article 706-105-2 est délivrée",
-          "nouveau": "L'autorisation mentionnée aux articles 706-105-2 et 706-105-4 est délivrée"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "R53-41-1",
-      "decision": "S",
-      "principe": "P3",
-      "motif": "Signature par numéro anonymisé, annexée au registre de R53-41-2 : étendue aux professionnels accompagnant les mineurs, dont R53-43-2 renvoyait déjà à ce registre.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Les bénéficiaires de l'autorisation mentionnée à l'article 706-105-2 peuvent",
-          "nouveau": "Les bénéficiaires de l'autorisation mentionnée aux articles 706-105-2 et 706-105-4 peuvent"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "R53-41-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Registre unique des autorisations de R53-41, désormais commun aux interprètes et aux professionnels accompagnant les mineurs.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-41-3",
-      "decision": "S",
-      "principe": "P3",
-      "motif": "Nouveau numéro si l'anonymat est compromis : étendu au bénéficiaire de l'une ou l'autre autorisation.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "délivré à l'interprète ne permet plus",
-          "nouveau": "délivré au bénéficiaire de l'autorisation ne permet plus"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "si les conditions prévues par l'article 706-105-2 sont toujours remplies",
-          "nouveau": "si les conditions prévues par l'article 706-105-2 ou par l'article 706-105-4 sont toujours remplies"
+          "op": "rediger",
+          "nouveau": "L'autorisation de s'identifier par un numéro anonymisé, accordée à un interprète selon l'article L. 2513-4 ou à un professionnel accompagnant un mineur mentionné à l'article R. 53-43, est délivrée par écrit par le procureur général compétent et indique ce numéro. En cas d'urgence, elle est délivrée par tout moyen et confirmée par écrit dès le premier jour ouvrable suivant. En matière de terrorisme, le procureur général compétent est celui de Paris, au parquet général duquel le registre est tenu.\nLe parquet général tient un registre coté et paraphé de ces autorisations, auquel leur copie est annexée. Le bénéficiaire peut signer les procès-verbaux où il intervient d'une signature qui reproduit tout ou partie de son numéro, dont un exemplaire est annexé au registre. Si son numéro ne permet plus d'assurer son anonymat, le procureur général peut lui en attribuer un nouveau, inscrit au registre, si les conditions de l'autorisation sont toujours remplies."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R53-42",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Autorisation d'anonymat des agents pénitentiaires sur demande motivée : protection contre les représailles du crime organisé. Renvoi à l'ancien 706-105-3 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-42-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Autorisation limitée à la procédure.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-42-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Anonymat présumé dans les quartiers de lutte contre la criminalité organisée, renonciation possible, autorisation globale bornée à l'affectation.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-42-3",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Registre des agents autorisés, copie au magistrat si nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-42-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Nouveau numéro selon le code pénitentiaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-42-5",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Demande de levée de l'anonymat : la voie électronique s'ajoute à la lettre recommandée et à la remise au greffe.",
-      "ligne_rouge": "art. 16 DDHC examiné : la défense peut demander la levée, devant le juge",
+      "principe": "P23",
+      "motif": "Anonymat des agents pénitentiaires en un article : autorité, demande motivée, urgence, contenu (R53-42), validité limitée à la procédure (R53-42-1), registre et copie au magistrat (R53-42-3), nouveau numéro (R53-42-4). Renvois aux I et II de l'ancien 706-105-3 recalés sur L. 2515-2.",
+      "ligne_rouge": "P26 examiné : anonymat qui protège l'agent contre les représailles du crime organisé, identité communicable selon L. 2515-5.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "est adressée par lettre recommandée avec demande d'avis de réception ou par remise au greffe contre récépissé.",
-          "nouveau": "est adressée par voie électronique, par lettre recommandée avec demande d'avis de réception ou par remise au greffe contre récépissé."
+          "op": "rediger",
+          "nouveau": "Les autorisations prévues à l'article L. 2515-2 sont délivrées par écrit, sur demande écrite et motivée de l'agent au regard de la nature, du lieu et des circonstances d'exercice de ses missions, par le chef de l'établissement pénitentiaire ou le directeur du service pénitentiaire d'insertion et de probation de son lieu d'affectation ou, à défaut, par le directeur interrégional des services pénitentiaires ou le directeur général de l'administration pénitentiaire. En cas d'urgence, elles sont demandées et délivrées par tout moyen et confirmées par écrit dès le premier jour ouvrable suivant. Sauf dans le cas de l'article R. 53-42-2, elles ne valent que pour la procédure au titre de laquelle elles sont délivrées.\nL'autorisation indique l'identité de l'agent, ses motifs et le numéro d'immatriculation administrative, défini au deuxième alinéa de l'article R. 113-9-2 du code pénitentiaire, par lequel l'agent s'identifie, avec sa qualité, son établissement ou service et, le cas échéant, sa signature, dans les actes et rapports qu'il rédige. Si ce numéro ne permet plus d'assurer son anonymat, un nouveau numéro peut lui être attribué selon l'article R. 113-9-3 du même code.\nLe chef d'établissement et le directeur du service tiennent chacun un registre des agents autorisés, où figure tout nouveau numéro. Copie de l'autorisation est transmise au procureur de la République ou au juge d'instruction qui en a besoin pour l'enquête dont il a la charge."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R53-42-6",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Action en réparation des agents anonymes : la victime agent public garde ses droits.",
-      "ligne_rouge": "aucune"
+      "num": "R53-42-2",
+      "principe": "P20",
+      "motif": "Anonymat présumé dans les établissements dotés d'un quartier de lutte contre la criminalité organisée : présomption, renonciation, autorisation globale bornée à l'affectation gardées, phrases resserrées ; « conformément aux dispositions de » retiré ; renvoi recalé sur L. 2515-2.",
+      "ligne_rouge": "P26 examiné : la renonciation de l'agent reste ouverte, l'autorisation globale est bornée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En application de l'article L. 224-10 du code pénitentiaire, l'agent affecté ou intervenant dans un établissement qui comprend un quartier de lutte contre la criminalité organisée est réputé avoir demandé l'autorisation prévue à l'article L. 2515-2. Le chef d'établissement ou le directeur du service pénitentiaire d'insertion et de probation la délivre par écrit, ou prend acte de la renonciation de l'agent à son anonymat. Elle peut valoir pour toutes les procédures où l'agent est témoin ou victime ou rédige des rapports à la demande de l'autorité judiciaire, pour la durée qu'elle précise, au plus celle de son affectation ou de sa mise à disposition. Après un changement d'affectation, elle reste valide jusqu'à la décision définitive qui met fin à ces procédures."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-42-5",
+      "principe": "P12",
+      "motif": "Demande de levée de l'anonymat et action en réparation de l'agent en un article (R53-42-6 fusionné). Formes de la demande : voie électronique ajoutée en passe 2, formule du registre 5.4. Renvois recalés sur L. 2515-2 et L. 2515-5.",
+      "ligne_rouge": "Droits de la défense examinés : la demande de levée reste ouverte par plusieurs voies, au détenu par déclaration au chef d'établissement, et l'autorisation est transmise au juge saisi. Victime (P18) : l'agent anonyme garde l'action en réparation.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La demande de levée de l'anonymat prévue à l'article L. 2515-5 est adressée par voie électronique, par tout moyen permettant d'en établir la date de réception ou par remise au greffe contre récépissé, ou, pour une personne détenue, par déclaration au chef de l'établissement pénitentiaire. L'autorisation est alors transmise à l'autorité judiciaire saisie.\nLes articles R. 2-22 à R. 2-24, relatifs à l'action en réparation et au recouvrement des dommages-intérêts, s'appliquent à l'agent autorisé au titre du 2° de l'article L. 2515-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R53-43",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Professionnels accompagnant les mineurs qui peuvent être anonymisés : protection de l'entourage de l'enfant victime. Renvoi à l'ancien 706-105-4 à coordonner.",
-      "ligne_rouge": "minorité examinée : la protection vise l'accompagnement du mineur"
+      "principe": "P23",
+      "motif": "Professionnels accompagnant un mineur qui peuvent bénéficier de l'anonymat de R53-41 : liste gardée, sans point-virgule ; renvois aux anciens 706-50, 706-53 et 41 recalés sur L. 1451-1 et L. 1451-5 (pièce de passe 3 du lot p287).",
+      "ligne_rouge": "Minorité et victime (P18, P25) examinées : protection de l'entourage professionnel de l'enfant gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les professionnels accompagnant un mineur qui peuvent bénéficier de l'autorisation de l'article R. 53-41 sont :\n1° Les personnels des services et établissements de la protection judiciaire de la jeunesse et du secteur associatif habilité qui interviennent selon le code de la justice pénale des mineurs.\n2° L'administrateur ad hoc inscrit sur la liste prévue à l'article R. 53 et désigné selon l'article L. 1451-1 ou les articles L. 311-1 à L. 311-3 du code de la justice pénale des mineurs.\n3° Les professionnels des associations d'aide aux victimes qui accompagnent le mineur selon l'article L. 1451-5.\n4° Tout autre professionnel qui accompagne le mineur, à sa demande ou à celle de l'autorité administrative ou judiciaire, et dont l'identité peut être mentionnée dans la procédure."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-44-1",
+      "principe": "P23",
+      "motif": "Infiltration civile : pièces communiquées à la commission pour son avis motivé et information de la commission en un article (R53-44-4 fusionné). Renvois à l'ancien 706-87-1 et à l'ancien 706-63-1 recalés sur L. 3566-3, L. 3566-15 et L. 6332-2 (pièces de passe 3 des lots p186 et p212).",
+      "ligne_rouge": "Aucune : avis motivé de la commission et information de ses suites.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'avis motivé que rend la commission mentionnée à l'article L. 6332-2 sur l'infiltration civile prévue à l'article L. 3566-3, le procureur de la République anti-criminalité organisée lui communique la copie du procès-verbal d'évaluation de la personnalité et de l'environnement de l'informateur et toute pièce utile de la procédure. Il l'informe du renouvellement et de l'interruption de l'infiltration, et de sa fin de plein droit en application de l'article L. 3566-15."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-44-2",
+      "principe": "P23",
+      "motif": "Convention d'infiltration et suites de l'infiltration en un article (R53-44-3 fusionné) : participation limitée aux infractions énumérées, avis de l'interruption, observations avant révocation des avantages. Renvois aux alinéas de l'ancien 706-87-1 recalés sur L. 3566-5, L. 3566-8, L. 3566-15 et L. 3566-16 ; le renvoi faux à R53-41-2 était corrigé en passe 2.",
+      "ligne_rouge": "Droits de la défense examinés : l'infiltré présente ses observations avant la révocation de ses avantages.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La convention prévue à l'article L. 3566-5 peut préciser les modalités de la participation de l'infiltré civil, comme auteur, coauteur, complice ou receleur, aux infractions qu'elle énumère limitativement. Le procureur de la République anti-criminalité organisée avise l'infiltré de l'interruption de l'infiltration en application de l'article L. 3566-8 ou de sa fin de plein droit en application de l'article L. 3566-15. Avant de révoquer ses avantages en application de l'article L. 3566-16, il l'en informe et recueille ses observations."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-44-5",
+      "principe": "P3",
+      "motif": "Mise à exécution de l'emprisonnement réservé et remboursement des rétributions de l'infiltré : régime commun de R53-32-4 (procédure, durée, écrou, copie, information du casier et de la commission), écarts propres gardés (décision de jugement définitive, montant et modalités du remboursement). Renvois aux anciens 706-87-1 et 712-7 recalés sur L. 3566-17 et L. 5131-3.",
+      "ligne_rouge": "Art. 8 DDHC examiné : jugement après débat contradictoire, durée et montant fixés par la décision.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la décision de jugement rendue contre l'infiltré est devenue définitive, le tribunal de l'application des peines statue selon l'article R. 53-32-4 sur la mise à exécution ou le remboursement prévus à l'article L. 3566-17. S'il ordonne le remboursement des rétributions, sa décision en fixe le montant et les modalités."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-41-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Signature par numéro : régime commun de R53-41.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-41"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-41-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Registre unique : régime commun de R53-41.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-41"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-41-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Nouveau numéro : régime commun de R53-41.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-41"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-42-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Validité limitée à la procédure : premier alinéa de R53-42.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-42"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-42-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Registre et copie au magistrat : dernier alinéa de R53-42.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-42"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-42-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Nouveau numéro : deuxième alinéa de R53-42.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-42"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-42-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Action en réparation de l'agent anonyme : second alinéa de R53-42-5.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-42-5"
     },
     {
       "code": "cpp",
       "num": "R53-43-1",
       "decision": "F",
       "principe": "P3",
-      "motif": "Texte identique à R53-41, qui le reçoit (autorisation de 706-105-4 ajoutée).",
+      "motif": "Autorisation des professionnels accompagnant les mineurs, identique à celle des interprètes : régime commun de R53-41 (fusion de passe 2 tenue).",
       "ligne_rouge": "aucune",
       "vers": "R53-41"
     },
@@ -150,74 +196,46 @@
       "num": "R53-43-2",
       "decision": "F",
       "principe": "P3",
-      "motif": "Texte identique à R53-41-1, qui le reçoit ; il renvoyait déjà au registre de R53-41-2.",
+      "motif": "Signature : régime commun de R53-41 (fusion de passe 2 tenue).",
       "ligne_rouge": "aucune",
-      "vers": "R53-41-1"
+      "vers": "R53-41"
     },
     {
       "code": "cpp",
       "num": "R53-43-3",
       "decision": "F",
       "principe": "P3",
-      "motif": "Second registre au même parquet général pour un régime identique : le registre de R53-41-2 le reçoit.",
+      "motif": "Registre : registre unique de R53-41 (fusion de passe 2 tenue).",
       "ligne_rouge": "aucune",
-      "vers": "R53-41-2"
+      "vers": "R53-41"
     },
     {
       "code": "cpp",
       "num": "R53-43-4",
       "decision": "F",
       "principe": "P3",
-      "motif": "Même règle, R53-41-3 en reprend la formule la plus large.",
+      "motif": "Nouveau numéro : régime commun de R53-41 (fusion de passe 2 tenue).",
       "ligne_rouge": "aucune",
-      "vers": "R53-41-3"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-44-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pièces communiquées à la commission pour son avis motivé sur l'infiltration civile. Renvoi à l'ancien 706-87-1 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-44-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contenu possible de la convention d'infiltration, infractions limitativement énumérées.",
-      "ligne_rouge": "aucune"
+      "vers": "R53-41"
     },
     {
       "code": "cpp",
       "num": "R53-44-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Interruption et révocation des avantages après observations de l'infiltré. La « convention mentionnée à l'article R. 53-41-2 » (registre des interprètes anonymes) est celle de R53-44-2 : renvoi corrigé.",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interruption et révocation des avantages : R53-44-2.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "dans le cadre de la convention mentionnée à l'article R. 53-41-2,",
-          "nouveau": "dans le cadre de la convention mentionnée à l'article R. 53-44-2,"
-        }
-      ]
+      "vers": "R53-44-2"
     },
     {
       "code": "cpp",
       "num": "R53-44-4",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Information de la commission des renouvellements et interruptions.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-44-5",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Mise à exécution de l'emprisonnement réservé et remboursement des rétributions de l'infiltré défaillant : l'avantage ne rémunère que l'effort tenu. Renvoi à l'ancien 712-7 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : emprisonnement fixé au prononcé par la juridiction de jugement, mis à exécution par le tribunal de l'application des peines après débat contradictoire"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information de la commission : R53-44-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-44-1"
     }
-  ]
+  ],
+  "passe": 3
 }
