@@ -10,109 +10,96 @@
     {
       "code": "cpp",
       "num": "D49-82",
-      "decision": "S",
       "principe": "P3",
-      "motif": "La peine suit le régime de la détention à domicile prononcée en aménagement : un seul régime, gardé. Reçoit D49-83 : D622-9 du code pénitentiaire (procès-verbal de pose) entre dans la liste. Les articles R622-11 à R622-18 sont fusionnés dans R544-11 à R544-17 (lot p128) : la plage suit. Renvois aux anciens 713-42 à 713-44 (L5341-1 à L5341-4), 723-7 et 723-15 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction de jugement fixe la peine, l'article n'en règle que l'exécution",
+      "motif": "Un seul régime pour la peine et l'aménagement, liste de passe 2 gardée : le lieu d'assignation autre que le domicile (R. 622-4) et le procès-verbal de pose (D. 622-9) y figurent, D49-83 y fusionne. Les anciens 713-42 à 713-44 deviennent L. 5341-1 à L. 5341-4 ; les fondements de l'aménagement (132-25, 723-7, 723-15) sont nommés par la mesure.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : la peine suit le régime de l'aménagement, contrôlé par le juge ; aucune garantie retirée.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "R. 57-10 à R. 57-14 et R. 57-16 à R. 57-18 du présent code, et R. 622-1, R. 622-2, R. 622-4, R. 622-6, R. 622-7, R. 622-8, R. 622-11 à R. 622-19 et R. 622-22 et suivants du code pénitentiaire",
-          "nouveau": "R. 57-10 à R. 57-13 et R. 57-16 à R. 57-18 du présent code, et R. 622-1, R. 622-2, R. 622-4, R. 622-6, R. 622-7, R. 622-8, R. 622-19, R. 622-22 et suivants, D. 622-9 et R. 544-11 à R. 544-17 du code pénitentiaire"
+          "op": "rediger",
+          "nouveau": "La peine de détention à domicile sous surveillance électronique prévue à l'article 131-4-1 du code pénal et aux articles L. 5341-1 à L. 5341-4 suit les règles de la détention à domicile sous surveillance électronique prononcée en aménagement de peine, fixées par les articles R. 57-10 à R. 57-13 et R. 57-16 du présent code et par les articles R. 622-1, R. 622-2, R. 622-4, R. 622-6 à R. 622-8, R. 622-19, R. 622-22 et suivants, D. 622-9 et R. 544-11 à R. 544-17 du code pénitentiaire."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "D49-83",
-      "decision": "F",
-      "principe": "P20",
-      "motif": "Trois renvois sans règle propre. L'accord du propriétaire (R622-4 du code pénitentiaire) est déjà dans la liste de D49-82. Le suivi par le service est porté par D622-21 du code pénitentiaire, qui vise lui-même l'article 131-4-1 du code pénal. Le procès-verbal de pose (D622-9) passe dans la liste de D49-82.",
-      "ligne_rouge": "aucune",
-      "vers": "D49-82"
-    },
-    {
-      "code": "cpp",
       "num": "D49-84",
-      "decision": "S",
       "principe": "P19",
-      "motif": "Pose sous cinq ou trente jours et convocation remise à l'audience : délais opposables, gardés. « Dans les meilleurs délais » n'engage personne : la convocation non remise à l'audience reçoit un délai maximal (aligné sur L5111-1 réécrit). Renvoi à l'ancien 471 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée est mise à exécution, son quantum n'est pas touché ; art. 66 C examiné : l'emprisonnement en cas de défaut reste ordonné par le juge de l'application des peines (L5341-4)",
+      "motif": "Délais de pose et convocation gardés, en phrases courtes ; délai maximal de [huit jours] pour la convocation non remise (passe 2). L'ancien 471 est nommé (exécution provisoire). Énumération sans point-virgule.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : délais opposables à l'administration, avertissement du condamné et droit à la vérification médicale gardés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "elle est adressée au condamné dans les meilleurs délais à compter du caractère exécutoire de la décision.",
-          "nouveau": "elle est adressée au condamné dans un délai de [huit jours] au plus à compter du caractère exécutoire de la décision."
+          "op": "rediger",
+          "nouveau": "Lorsque la juridiction de jugement a fixé le lieu où le condamné est tenu de demeurer et les périodes pendant lesquelles il peut s'en absenter, le dispositif de surveillance électronique est posé au plus tard cinq jours après la décision si la condamnation est exécutoire par provision, et trente jours après la date à laquelle elle est exécutoire dans les autres cas.\nLe condamné présent à l'issue de l'audience reçoit une convocation devant le service pénitentiaire d'insertion et de probation pour la pose dans ce délai. Elle vaut saisine du service et l'informe que, faute de se présenter, sauf motif légitime ou, en l'absence d'exécution provisoire, exercice des voies de recours, le juge de l'application des peines pourra ordonner son emprisonnement pour la durée de la peine prononcée. La convocation qui n'a pas été remise à l'audience ou par le bureau de l'exécution des peines lui est adressée dans un délai de [huit jours] au plus à compter du caractère exécutoire de la décision.\nLors de la pose, le condamné est informé qu'il peut demander à tout moment qu'un médecin vérifie que le procédé décrit à l'article R. 57-11 ne présente pas d'inconvénient pour sa santé."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D49-85",
-      "decision": "S",
       "principe": "P19",
-      "motif": "Lieu et horaires fixés par le juge quand la juridiction ne l'a pas fait, sous quatre mois, convocation sous trente jours, pose sous cinq jours : délais opposables, gardés. La convocation du condamné absent reçoit un délai maximal. Intitulé du juge corrigé. Renvoi à l'ancien 712-8 (L5131-10) à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : le juge règle les modalités, non le quantum ; art. 16 DDHC examiné : audition du condamné assisté de son avocat, tenue",
+      "motif": "Délais gardés (passe 2). L'information médicale renvoie à D49-84 au lieu d'être répétée. L'ancien 712-8 devient L. 5131-10.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : audition du condamné et de son avocat, délais opposables et avertissement gardés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "cette convocation lui est adressée dans les meilleurs délais.",
-          "nouveau": "cette convocation lui est adressée dans un délai de [huit jours] au plus."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "du juge de l'application de peine prévue",
-          "nouveau": "du juge de l'application des peines prévue"
+          "op": "rediger",
+          "nouveau": "Lorsque la juridiction de jugement n'a pas fixé le lieu où le condamné est tenu de demeurer ou les périodes pendant lesquelles il peut s'en absenter, le juge de l'application des peines les fixe dans un délai de quatre mois à compter du caractère exécutoire de la décision, par ordonnance rendue dans les conditions des articles L. 5131-10 et L. 5131-11, après audition du condamné assisté, le cas échéant, de son avocat.\nLe condamné présent à l'issue de l'audience reçoit un avis de convocation devant ce juge dans un délai qui ne peut excéder trente jours. S'il est absent, la convocation lui est adressée dans un délai de [huit jours] au plus. L'avis précise que, s'il ne se présente pas, sauf motif légitime ou, en l'absence d'exécution provisoire, exercice des voies de recours, le juge pourra ordonner son emprisonnement pour la durée de la peine prononcée. Le juge l'informe de la vérification médicale prévue au dernier alinéa de l'article D. 49-84.\nLe dispositif est posé dans un délai maximal de cinq jours à compter de la décision du juge."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D49-86",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Suspension par une détention, qui laisse courir les interdictions protégeant la victime, et suspension par le juge pour motif grave : la suspension diffère la peine, elle ne l'abrège pas (comme L5361-5 réécrit). Délégation des horaires bornée et annulable (L5131-12, lot p002). Renvois à coordonner : ancien 712-8 (L5131-10) et ancien 712-1, qui vise en réalité L5131-12 (L5112-3 abrogé, lot p000).",
-      "ligne_rouge": "art. 66 C examiné : aucune privation de liberté nouvelle, la suspension et la délégation restent sous le contrôle du juge ; art. 8 DDHC examiné : la peine prononcée n'est pas réduite"
+      "principe": "P13",
+      "motif": "Gardé (passe 2) ; anciens 712-1 et 712-8 remplacés par L. 5131-12 et L. 5131-10 ; les bornes de la délégation des horaires (sens favorable, équilibre de la peine, information et annulation par le juge) sont celles de L. 5131-12, qui les porte.",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la suspension diffère la peine sans l'abréger, les interdictions protégeant la victime courent, la délégation des horaires est bornée et annulable par le juge.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La peine de détention à domicile sous surveillance électronique est suspendue par toute détention provisoire ou toute incarcération résultant d'une peine privative de liberté intervenue au cours de son exécution. Conformément au second alinéa de l'article 132-43 du code pénal, la suspension ne s'applique pas aux interdictions de contact ou de paraître prévues aux 9°, 11°, 12°, 13°, 18° et 18° bis de l'article 132-45 du même code.\nLe juge de l'application des peines peut suspendre la peine pour motif d'ordre familial, social, médical ou professionnel, dans les conditions des articles L. 5131-10 et L. 5131-11.\nIl peut, dans les conditions de l'article L. 5131-12, autoriser le directeur du service pénitentiaire d'insertion et de probation ou, pour un mineur, le directeur régional de la protection judiciaire de la jeunesse, à modifier les horaires d'entrée et de sortie du lieu d'assignation, dans le respect des suspensions ordonnées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D49-87",
-      "decision": "R",
       "principe": "P18",
-      "motif": "La victime n'était avisée de la fin de la peine que si le juge le décidait. Elle est avisée de droit, sauf refus de sa part, comme pour le sursis probatoire (L5321-10) : régime voisin, un seul régime (P3). La faculté écartée vient du décret, non de la loi. Les changements d'adresse se signalent par tout moyen (P12). [arbitrage : viser aussi le 18° bis de l'article 132-45 du code pénal, comme L5321-10]",
-      "ligne_rouge": "art. 8 DDHC examiné : l'avis informe la victime, il ne touche pas la peine ; art. 2 DDHC, vie privée de la victime examinée : son adresse peut rester confidentielle",
+      "motif": "La victime est avisée de droit, sauf refus, comme pour le sursis probatoire (L. 5321-10, passe 2). Le 18° bis est ajouté comme dans L. 5321-10 (arbitrage). Adresse et confidentialité renvoient à la règle générale de D49-67.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : information de la victime de droit, confidentialité de son adresse gardée par renvoi à D49-67 ; aucune garantie du condamné touchée.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "le juge de l'application des peines peut décider d'aviser ou de faire aviser la victime ou la partie civile, directement ou par l'intermédiaire de son avocat, de la date de fin de la peine.",
-          "nouveau": "le juge de l'application des peines avise ou fait aviser la victime ou la partie civile, directement ou par l'intermédiaire de son avocat, de la date de fin de la peine, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "La victime peut, par lettre recommandée avec accusé de réception, faire connaître",
-          "nouveau": "La victime peut, par tout moyen, faire connaître"
-        },
-        {
-          "op": "remplacer",
-          "ancien": " Qu'elle se soit ou non constituée partie civile lors de la procédure, la victime peut demander à être informée de la fin de la peine.",
-          "nouveau": ""
+          "op": "rediger",
+          "nouveau": "Lorsque le condamné doit, en application des 9°, 13°, 18° ou 18° bis de l'article 132-45 du code pénal, s'abstenir de paraître dans un lieu ou une zone désignés afin d'éviter un contact avec la victime ou la partie civile, ou d'entrer en relation avec elle, le juge de l'application des peines l'avise ou la fait aviser, directement ou par l'intermédiaire de son avocat, de la date de fin de la peine, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine. Ses demandes et son adresse suivent l'article D. 49-67."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D49-89",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Le dépassement des délais de pose ne fait pas tomber les actes, et le service rend compte sans délai au juge : l'exécution n'est pas perdue, l'État rend compte (P19).",
-      "ligne_rouge": "art. 16 DDHC examiné : les délais servent la rapidité de l'exécution, non la défense ; le condamné garde le débat contradictoire de L5341-4"
+      "motif": "Gardé : le dépassement des délais de pose ne fait pas tomber les actes, le service rend compte sans délai au juge.",
+      "ligne_rouge": "art. 16 DDHC examiné : aucune garantie de défense ne dépend de ces délais administratifs, le compte rendu au juge est gardé.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "D49-83",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Trois renvois sans règle propre : R. 622-4 et D. 622-9 entrent dans la liste de D49-82, le suivi par le service est porté par D. 622-21 du code pénitentiaire (décision de passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "D49-82"
     },
     {
       "code": "cpp",
       "num": "D49-90",
       "decision": "A",
       "principe": "P20",
-      "motif": "Débat sur les incidents de la contrainte pénale, peine supprimée au profit du sursis probatoire : l'ancien 713-47 n'a pas de successeur dans le code de 2029. Article sans objet.",
+      "motif": "Débat sur les incidents de la contrainte pénale, peine supprimée : l'ancien 713-47 n'a pas de successeur (décision de passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -120,7 +107,7 @@
       "num": "D49-92",
       "decision": "A",
       "principe": "P20",
-      "motif": "Délai de décision sur les incidents de la contrainte pénale (ancien 713-47), peine supprimée : article sans objet.",
+      "motif": "Délai de décision sur les incidents de la contrainte pénale, peine supprimée (décision de passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -128,8 +115,9 @@
       "num": "D49-93",
       "decision": "A",
       "principe": "P20",
-      "motif": "Avis à la victime de la fin de la contrainte pénale, peine supprimée : article sans objet. La règle vit pour le sursis probatoire, qui l'a remplacée (L5321-10 et D49-67).",
-      "ligne_rouge": "P18 examiné : l'avis de fin de mesure et la confidentialité de l'adresse restent portés par L5321-10 et D49-67 pour le sursis probatoire"
+      "motif": "Avis à la victime de la fin de la contrainte pénale, peine supprimée : la règle vit pour le sursis probatoire (L. 5321-10, D49-67) et la détention à domicile (D49-87).",
+      "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
