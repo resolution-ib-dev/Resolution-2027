@@ -9,148 +9,133 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "R41-10",
+      "num": "R41-2",
+      "principe": "P23",
+      "motif": "Renvoi de l'action civile : même règle. L'ancien 470-1 devient L4433-2 , visé sans numéro d'alinéa.",
+      "ligne_rouge": "Droits de la victime : le dossier suit la victime devant le juge civil, sans nouvelle saisine.",
       "decision": "S",
-      "principe": "P12",
-      "motif": "Recouvrement à l'expiration du délai d'opposition de quarante-cinq jours : gardé. Le délai court de l'envoi de la notification, électronique par défaut (R41-3 réécrit). Renvoi à l'ancien 495-3 à coordonner.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "à compter de la date d'envoi de la lettre recommandée prévue aux articles 495-3 et R. 41-3",
-          "nouveau": "à compter de la date d'envoi de la notification prévue aux articles 495-3 et R. 41-3"
+          "op": "rediger",
+          "nouveau": "La décision qui renvoie l'action civile devant la juridiction civile en application de l'article L. 4433-2 désigne la juridiction civile compétente et l'identité des tiers responsables qui paraissent devoir être mis en cause. Le greffe transmet aussitôt à cette juridiction une copie de la décision et le dossier de l'affaire."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "R41-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réserve aux magistrats professionnels le jugement des diffamations, injures et provocations non publiques : la liberté d'expression y est en jeu, la règle est proportionnée. Renvoi à l'ancien 523 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R41-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Renvoi de l'action civile devant la juridiction civile, avec désignation des tiers responsables et transmission immédiate du dossier : la victime n'a pas à recommencer, règle utile. Renvoi à l'ancien 470-1 à coordonner.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R41-3",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Notification de l'ordonnance pénale délictuelle et de ses délais. La notification électronique devient la règle, la lettre recommandée l'exception (L1632-3 réécrit par la fiche L1). La diminution de 20 % pour paiement dans le mois rémunère un effort, elle est annoncée et tient dans le cinquième (P10). La voie électronique garde la nature de la lettre recommandée avec avis de réception (L1632-5 : date de réception établie). La réserve de L4462-9 joue quand la réception n'est pas établie. Renvoi à l'ancien 495-3 à coordonner.",
-      "ligne_rouge": "art. 8 et 16 DDHC examinés : l'ordonnance pénale ne retire pas le juge, l'opposition ouvre l'audience où la peine s'individualise ; le délai d'opposition ne court pas contre le prévenu dont la réception n'est pas établie ; la diminution de 20 % pour paiement rapide est une réduction annoncée qui rémunère un effort",
+      "motif": "Notification au prévenu et à la partie civile en un article (R41-3-1 fusionné). La forme de la notification suit L4462-6 (pièce de passe 3 du lot p153) : tout moyen qui établit la date de réception, électronique par défaut (L1632-3, L1632-5). La précision de la passe 2 tombe (P20). Les anciens 495-3 et 495-3-1 deviennent L4462-6, L4462-9 et L4462-14. Diminution de 20 % gardée.",
+      "ligne_rouge": "Nécessité et individualisation (art. 8 DDHC) : le prévenu reçoit les délais et voies d'opposition, qui rouvrent le débat devant le tribunal. La diminution de 20 % pour paiement rapide tient dans le cinquième (P10).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par une lettre recommandée avec demande d'avis de réception qui comporte les mentions",
-          "nouveau": "par lettre recommandée avec demande d'avis de réception, adressée par voie électronique sauf si le prévenu n'a pas déclaré d'adresse électronique ou a demandé un envoi sur support papier. La notification comporte les mentions"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Cette lettre indique les délais",
-          "nouveau": "Elle indique les délais"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "cette lettre indique qu'en cas",
-          "nouveau": "la notification indique qu'en cas"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "R41-3-1",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Notification de l'ordonnance à la partie civile, avec les délais d'opposition aux dispositions civiles : la victime est informée (P18). La notification électronique devient la règle, la lettre recommandée l'exception (L1632-3 réécrit par la fiche L1). La voie électronique garde la nature de la lettre recommandée avec avis de réception (L1632-5 : date de réception établie). La réserve de L4462-9 joue quand la réception n'est pas établie. Renvoi à l'ancien 495-3-1 à coordonner.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "par lettre recommandée avec demande d'avis de réception qui précise",
-          "nouveau": "par lettre recommandée avec demande d'avis de réception, adressée par voie électronique sauf si la partie civile n'a pas déclaré d'adresse électronique ou a demandé un envoi sur support papier. La notification précise"
+          "op": "rediger",
+          "nouveau": "Dès que le ministère public décide de poursuivre l'exécution de l'ordonnance pénale, le greffier en chef la notifie au prévenu par tout moyen permettant d'en établir la date de réception. La notification comporte les informations prévues à l'article L. 4462-6, les délais d'opposition prévus à l'article L. 4462-9, les modalités d'opposition prévues à l'article R. 41-8 et, en cas de condamnation à l'amende, les délais et modalités de paiement. Sauf si l'ordonnance les précise, elle indique que le montant de l'amende, du droit fixe de procédure et, s'il y a lieu, de la majoration est diminué de 20 % s'il est payé dans le mois de l'envoi.\nL'ordonnance qui statue sur les intérêts civils est notifiée de même à la partie civile, avec les informations prévues à l'article L. 4462-14 et les modalités d'opposition prévues à l'article R. 41-8.\nLorsque le procureur de la République ou son délégué notifie lui-même l'ordonnance, il communique les mêmes informations."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R41-4",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Point de départ du délai d'opposition : l'envoi de la notification, électronique par défaut (R41-3 réécrit), ou la notification par le parquet. Renvoi à l'ancien 495-3 à coordonner.",
-      "ligne_rouge": "aucune",
+      "principe": "P19",
+      "motif": "Délai d'opposition, délai de paiement et recouvrement en un article (R41-6 et R41-10 fusionnés) : un seul délai de quarante-cinq jours. Son point de départ s'aligne sur la loi (L4462-9, lot p153 : la notification) au lieu de l'envoi, qu'un décret ne peut avancer.",
+      "ligne_rouge": "Nécessité et individualisation (art. 8 DDHC) : le paiement n'est exigible et le recouvrement ne commence qu'à défaut d'opposition, dans un délai dont le point de départ reste écrit.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "à compter de la date d'envoi de la lettre recommandée",
-          "nouveau": "à compter de la date d'envoi de la notification"
+          "op": "rediger",
+          "nouveau": "Le délai d'opposition de quarante-cinq jours court de la notification de l'ordonnance, faite par le greffier en chef ou par le procureur de la République ou son délégué, dans les conditions de l'article L. 4462-9. Dans le même délai, à moins qu'il ne fasse opposition, le prévenu paie au comptable public l'amende, le droit fixe de procédure et, s'il y a lieu, la majoration de l'amende, en indiquant les références portées sur l'ordonnance. À l'expiration de ce délai sans opposition, le comptable public procède au recouvrement."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R41-5",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Vérification des extraits et relevé de condamnation transmis au comptable : la peine d'amende part au recouvrement sans délai.",
-      "ligne_rouge": "art. 8 DDHC examiné : article de mise à exécution, il ne touche pas au quantum prononcé"
-    },
-    {
-      "code": "cpp",
-      "num": "R41-6",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Paiement de l'amende et du droit fixe dans les quarante-cinq jours : gardé. Le délai court de l'envoi de la notification, électronique par défaut (R41-3 réécrit).",
-      "ligne_rouge": "art. 8 DDHC examiné : article de mise à exécution, il ne touche pas au quantum prononcé",
+      "principe": "P23",
+      "motif": "Suites comptables de l'ordonnance en un article : relevé de condamnation, droit fixe unique (R41-7 fusionné), avis des oppositions (R41-9 fusionné). R55-5 est fusionné dans R55-4 (pièce de passe 3 du lot p028).",
+      "ligne_rouge": "Nécessité et individualisation (art. 8 DDHC) : l'opposition annule l'extrait transmis au comptable.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Dans les quarante-cinq jours de la date d'envoi de la lettre recommandée",
-          "nouveau": "Dans les quarante-cinq jours de la date d'envoi de la notification"
+          "op": "rediger",
+          "nouveau": "Le ministère public vérifie les extraits des ordonnances pénales. L'ordonnance qui prononce une amende fait l'objet d'un relevé de condamnation pénale adressé par le greffier en chef au comptable public conformément à l'article R. 55-4. Le prévenu condamné pour plusieurs délits et contraventions par une seule ordonnance acquitte une seule fois le droit fixe de procédure.\nÀ l'expiration du délai d'opposition, le greffier en chef avise le comptable public des oppositions reçues et de l'annulation des extraits correspondants. Il avise sans délai le procureur de la République de toute opposition."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "R41-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Un seul droit fixe pour une seule ordonnance : règle simple, utile.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R41-8",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Formes de l'opposition, ouvertes au prévenu et à la partie civile : gardées. L'opposition peut aussi se former par voie électronique, la date de l'envoi faisant foi comme le cachet de la poste. Renvoi à l'ancien 495-3 à coordonner.",
-      "ligne_rouge": "aucune",
+      "motif": "Formes de l'opposition : les trois voies (écrite ou électronique, déclaration au greffe, mention devant le parquet) en une liste, la voie électronique de la passe 2 gardée. Le renvoi à l'ancien 495-3 devient L4462-9 (lot p153).",
+      "ligne_rouge": "Droits de la défense : trois voies d'opposition, dont la voie électronique, et la date d'envoi fait foi.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Soit par lettre adressée au greffier en chef du tribunal qui a rendu la décision. La lettre doit être expédiée dans le délai prescrit, le cachet de la poste faisant foi",
-          "nouveau": "Soit par lettre ou par voie électronique adressée au greffier en chef du tribunal qui a rendu la décision. L'envoi doit être fait dans le délai prescrit, le cachet de la poste ou la date de l'envoi électronique faisant foi"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "remettre ou adresser la lettre de notification au greffier en chef",
-          "nouveau": "remettre ou adresser la notification au greffier en chef"
+          "op": "rediger",
+          "nouveau": "Le prévenu forme opposition, dans les délais prévus à l'article L. 4462-9 :\n1° Par lettre ou par voie électronique adressée dans le délai au greffier en chef du tribunal qui a rendu la décision, le cachet de la poste ou la date de l'envoi électronique faisant foi.\n2° Par déclaration au greffier en chef, enregistrée et signée par celui-ci et par le prévenu, un avocat ou un fondé de pouvoir spécial, dont le pouvoir est annexé à l'acte.\n3° Devant le procureur de la République ou son délégué qui lui notifie l'ordonnance, par une mention signée d'eux deux sur l'imprimé de notification, dont le greffier en chef est avisé sans délai.\nÀ l'appui de l'opposition, le prévenu remet ou adresse la notification ou en indique les références. Les déclarations d'opposition sont inscrites sur un registre. Le présent article s'applique à l'opposition de la partie civile."
         }
       ]
     },
     {
       "code": "cpp",
+      "num": "R41-11",
+      "principe": "P21",
+      "motif": "Réserve aux magistrats professionnels des contraventions d'expression non publiques : mêmes contraventions, en une phrase. R621-2 du code pénal est fusionné dans R621-1 (lot p068). L'ancien 523 devient L2126-3, qui renvoie à ce décret.",
+      "ligne_rouge": "Liberté d'expression (art. 11 DDHC) : ces contraventions restent jugées par un magistrat de carrière.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En application de l'article L. 2126-3, le tribunal contraventionnel ne peut être constitué par un magistrat exerçant à titre temporaire ou par un magistrat honoraire pour juger les contraventions non publiques de diffamation, d'injure et de provocation prévues aux articles R. 621-1, R. 625-7, R. 625-8 et R. 625-8-1 du code pénal."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R41-3-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Notification à la partie civile : deuxième alinéa de R41-3, mêmes informations.",
+      "ligne_rouge": "aucune",
+      "vers": "R41-3"
+    },
+    {
+      "code": "cpp",
+      "num": "R41-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Paiement dans les quarante-cinq jours, références de l'ordonnance : dans R41-4.",
+      "ligne_rouge": "Nécessité (art. 8 DDHC) : le délai de paiement et sa réserve de l'opposition sont gardés dans R41-4.",
+      "vers": "R41-4"
+    },
+    {
+      "code": "cpp",
+      "num": "R41-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Droit fixe unique pour une seule ordonnance : dans R41-5.",
+      "ligne_rouge": "aucune",
+      "vers": "R41-5"
+    },
+    {
+      "code": "cpp",
       "num": "R41-9",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Avis au comptable des oppositions et avis sans délai au procureur : la procédure reprend sans temps mort.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis au comptable et au procureur des oppositions : dans R41-5.",
+      "ligne_rouge": "aucune",
+      "vers": "R41-5"
+    },
+    {
+      "code": "cpp",
+      "num": "R41-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recouvrement à l'expiration du délai d'opposition : dans R41-4.",
+      "ligne_rouge": "aucune",
+      "vers": "R41-4"
     }
-  ]
+  ],
+  "passe": 3
 }
