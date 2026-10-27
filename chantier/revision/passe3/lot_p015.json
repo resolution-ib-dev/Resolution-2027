@@ -1,0 +1,107 @@
+{
+  "lot": "lot_p015",
+  "titre": "CPP, 5e partie, livre III, titre VI : Interdiction de séjour",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L5361-1",
+      "texte": "La personne condamnée à l'interdiction de séjour en application de l'article 131-31 du code pénal est placée sous le contrôle du juge de l'application des peines du lieu où elle a déclaré fixer sa résidence. Elle l'informe de tout changement de résidence.\nLe juge met en œuvre les mesures d'assistance et de surveillance prononcées. Il peut à tout moment, après audition de la personne et avis du procureur de la République, modifier la liste des lieux interdits et ces mesures.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Contrôle, obligation d'informer du changement de résidence (L5361-6) et modification par le juge (L5361-2) en un article. L'ordonnance ou le jugement suit L5131-10 et L5131-11.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la peine prononcée s'exécute sous le contrôle d'un juge, qui l'adapte après audition."
+    },
+    {
+      "num": "L5361-3",
+      "texte": "Le juge de l'application des peines peut, par jugement, suspendre provisoirement l'exécution de l'interdiction de séjour. Le temps de la suspension n'est pas compté dans la durée de l'interdiction, sauf disposition contraire et motivée de la décision.\nEn cas d'urgence, le procureur de la République d'une localité interdite peut y autoriser un séjour de huit jours au plus. Il en informe sans délai le juge.",
+      "verbe": "R",
+      "principe": "P10",
+      "motif": "Suspension, son effet sur la durée (L5361-5, texte de la passe 2 : la suspension diffère la peine sans l'abréger) et autorisation d'urgence (L5361-4) en un article. Le jugement suit L5131-3.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L5361-7",
+      "texte": "En cas de prescription d'une peine criminelle, la personne condamnée est soumise de plein droit et à titre définitif à l'interdiction de séjour dans le département où demeurent la victime du crime ou ses héritiers directs. Elle peut en demander le relèvement selon le titre II du livre V de la présente partie.",
+      "verbe": "S",
+      "principe": "P18",
+      "motif": "Même règle, en deux phrases.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la victime reste protégée, le relèvement par un juge reste ouvert."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L5361-2",
+      "verbe": "F",
+      "vers": "L5361-1",
+      "principe": "P7",
+      "motif": "Modification de la liste des lieux et des mesures, reprise au second alinéa de L5361-1.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L5361-4",
+      "verbe": "F",
+      "vers": "L5361-3",
+      "principe": "P19",
+      "motif": "Autorisation provisoire d'urgence, bornée à huit jours, reprise au second alinéa de L5361-3.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L5361-5",
+      "verbe": "F",
+      "vers": "L5361-3",
+      "principe": "P10",
+      "motif": "Effet de la suspension sur la durée (passe 2), repris au premier alinéa de L5361-3.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L5361-6",
+      "verbe": "F",
+      "vers": "L5361-1",
+      "principe": "P21",
+      "motif": "Obligation d'informer le juge de tout changement de résidence, reprise au premier alinéa de L5361-1.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : condition du contrôle de la peine, gardée."
+    }
+  ],
+  "phrases": {
+    "L5361-1#1": {
+      "vers": "L5361-1",
+      "destin": "reprise"
+    },
+    "L5361-1#2": {
+      "vers": "L5361-1",
+      "destin": "reprise"
+    },
+    "L5361-2#1": {
+      "vers": "L5361-1",
+      "destin": "reprise"
+    },
+    "L5361-2#2": {
+      "vers": "L5361-1",
+      "destin": "reprise"
+    },
+    "L5361-3#1": {
+      "vers": "L5361-3",
+      "destin": "reprise"
+    },
+    "L5361-4#1": {
+      "vers": "L5361-3",
+      "destin": "reprise"
+    },
+    "L5361-4#2": {
+      "vers": "L5361-3",
+      "destin": "reprise"
+    },
+    "L5361-5#1": {
+      "vers": "L5361-3",
+      "destin": "reprise"
+    },
+    "L5361-6#1": {
+      "vers": "L5361-1",
+      "destin": "reprise"
+    },
+    "L5361-7#1": {
+      "vers": "L5361-7",
+      "destin": "reprise"
+    }
+  }
+}
