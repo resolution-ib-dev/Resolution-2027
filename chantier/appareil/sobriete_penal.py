@@ -310,7 +310,10 @@ def appliquer(lots_):
         for nom, f in fichiers.items():
             if nom != lot:
                 f["decisions"] = [d for d in f["decisions"] if (d["code"], d["num"]) not in nums_lot]
-        fichiers[lot]["decisions"] = decs
+        # les décisions que le fichier du lot porte hors du titre restent en place
+        hors = [d for d in fichiers[lot]["decisions"]
+                if (d["code"], d["num"]) not in nums_lot and not (d["code"] == code and d["num"] in nums)]
+        fichiers[lot]["decisions"] = decs + hors
         fichiers[lot]["passe"] = 3
     for nom, f in fichiers.items():
         (DEC / f"{nom}.json").write_text(json.dumps(f, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

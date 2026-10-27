@@ -10,18 +10,31 @@
     {
       "code": "cp",
       "num": "R653-1",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Mort ou blessure involontaire d'un animal domestique ou captif, 3e classe, remise de l'animal.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine encourue est l'amende de la classe, plafonnée par la loi (131-13), référence du barème que le juge module au prononcé ; le règlement est compétent (111-2, art. 37 C). Propriété (art. 17 DDHC) examinée : la remise de l'animal est une faculté du tribunal."
+      "principe": "P23",
+      "motif": "Incrimination inchangée, vocabulaire de la faute de 221-6 gardé. Remise de l'animal au présent et dans l'ordre de la phrase.",
+      "ligne_rouge": "art. 8 DDHC examiné : incrimination et classe inchangées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fait d'occasionner, par maladresse, imprudence, inattention, négligence ou manquement à une obligation de sécurité ou de prudence imposée par la loi ou les règlements, la mort ou la blessure d'un animal domestique, apprivoisé ou tenu en captivité est puni de l'amende prévue pour les contraventions de la 3e classe.\nLe tribunal peut remettre l'animal à une œuvre de protection animale reconnue d'utilité publique ou déclarée, qui en dispose librement, lorsque le propriétaire est condamné ou inconnu."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "R654-1",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Mauvais traitements à un animal, 4e classe, hors sévices de 521-1, avec l'exception de tradition locale qu'y garde 521-1 (lot p058).",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine encourue est l'amende de la classe, plafonnée par la loi (131-13), référence du barème que le juge module au prononcé ; le règlement est compétent (111-2, art. 37 C). Propriété (art. 17 DDHC) examinée : la remise de l'animal est une faculté du tribunal."
+      "principe": "P23",
+      "motif": "« publiquement ou non » retiré : l'incrimination ne pose aucune condition de publicité (P20). Remise de l'animal par renvoi au second alinéa de R653-1, qui la porte mot pour mot. Les deux exceptions de tradition locale, gardées comme à 521-1, tiennent en une phrase.",
+      "ligne_rouge": "art. 8 DDHC examiné : incrimination et classe inchangées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors le cas prévu par l'article 521-1, le fait, sans nécessité, d'exercer volontairement des mauvais traitements envers un animal domestique ou apprivoisé ou tenu en captivité est puni de l'amende prévue pour les contraventions de la 4e classe.\nLe second alinéa de l'article R. 653-1 s'applique en cas de condamnation pour la contravention prévue au présent article.\nLe présent article ne s'applique pas aux courses de taureaux lorsqu'une tradition locale ininterrompue peut être invoquée, ni aux combats de coqs dans les localités où une tradition ininterrompue peut être établie."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
