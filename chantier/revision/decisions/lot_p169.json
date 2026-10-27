@@ -10,34 +10,49 @@
     {
       "code": "cpp",
       "num": "L3121-1",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Tout acte d'investigation fait l'objet d'un procès-verbal rédigé sur-le-champ, versé au dossier, numérique admis : base de la preuve écrite.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3121-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le procès-verbal relate ce que son auteur a lui-même constaté : condition de sa force probante.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3121-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Auteurs du procès-verbal et identification, par le numéro d'immatriculation quand la loi le permet : garantie d'identification et protection des enquêteurs.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Rédaction, contenu et auteurs du procès-verbal (L3121-2 et L3121-3 fusionnés) en un article. Le format numérique est la règle de L1611-1 (pièce p291) : la copie tombe. Cité par L3512-3.",
+      "ligne_rouge": "Droits de la défense : le procès-verbal rapporte ce que l'auteur a lui-même constaté et l'identifie, gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sauf disposition contraire, tout acte d'investigation accompli dans l'un des cadres de l'article L. 3111-1 fait l'objet d'un procès-verbal rédigé sur-le-champ ou dès que possible et versé au dossier de la procédure.\nLe procès-verbal est établi par la personne qui exerce des missions de police judiciaire ou par le magistrat compétent, assisté s'il y a lieu de son greffier. Il rapporte ce que son auteur a personnellement vu, entendu ou constaté et les actes qu'il a réalisés. L'auteur y énonce ses nom, prénom et qualité, ou son numéro d'immatriculation administrative dans les cas des articles L. 2221-10 et suivants."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3121-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Signatures, intégrité du procès-verbal, mention du refus : gardées dans la loi. La signature de chaque page et l'approbation des ratures protègent la personne entendue (art. 34 C, art. 16 DDHC). La voie numérique, à signature unique, est déjà la règle simple (P12).",
-      "ligne_rouge": "art. 16 DDHC examiné : la personne reconnaît chaque page de ses déclarations."
+      "principe": "P20",
+      "motif": "La signature numérique unique de chaque signataire est la règle de L1611-2 (pièce p291) : seul le papier garde ses formes. Cité par L3512-3.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : signature de la personne, mention du refus, intégrité du papier, gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procès-verbal est signé par son auteur, par l'interprète et, lorsque la loi le prévoit, par la personne qui fait l'objet de l'acte. Son refus de signer est mentionné.\nLe procès-verbal sur support papier porte les signatures sur chacune de ses pages. Il ne comporte aucun interligne, et les ratures et les renvois sont approuvés par chacun des signataires."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3121-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Le procès-verbal rapporte ce que son auteur a personnellement constaté : second alinéa de L3121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3121-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Auteurs du procès-verbal et identification : second alinéa de L3121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3121-1"
     }
-  ]
+  ],
+  "passe": 3
 }
