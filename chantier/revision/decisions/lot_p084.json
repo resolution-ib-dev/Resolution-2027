@@ -9,51 +9,59 @@
   "decisions": [
     {
       "code": "penitentiaire",
+      "num": "L362-3",
+      "principe": "P13",
+      "motif": "Transmission de la demande d'inscription par le chef de l'établissement. L. 18-1 du code électoral est hors base et n'a pas pu être vérifié : l'article reste tant qu'on n'a pas lu qu'il confie la transmission au chef d'établissement [arbitrage].",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L363-1",
+      "principe": "P23",
+      "motif": "Le chef de l'établissement organise le vote avant chaque scrutin : règle propre. « Leur » n'a plus d'antécédent depuis les fusions du titre : le sujet est nommé.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant chaque scrutin, le chef de l'établissement pénitentiaire organise avec l'autorité administrative compétente une procédure destinée à assurer l'exercice du droit de vote des personnes détenues."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
       "num": "L362-1",
-      "decision": "A",
+      "decision": "F",
       "principe": "P20",
-      "motif": "Miroir interne du 1° de L. 312-2 du présent code (domicile élu à l'établissement pour l'exercice des droits civiques) : la règle vit une fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Miroir interne du 1° de L312-2 (domicile élu à l'établissement pour les droits civiques).",
+      "ligne_rouge": "aucune",
+      "vers": "L312-2"
     },
     {
       "code": "penitentiaire",
       "num": "L362-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Registre 6.3 : miroir du code pénitentiaire vers un autre code, abrogé. L'article renvoie à l'article L. 12-1 du code électoral, qui fixe la commune d'inscription des personnes détenues : il dit lui-même que la règle vit dans l'autre code, qui s'applique sans lui. Aucun renvoi entrant.",
-      "ligne_rouge": "aucune garantie perdue : la règle demeure à sa source, applicable aux personnes détenues"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L362-3",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Transmission de la demande d'inscription par le chef de l'établissement selon L. 18-1 du code électoral. La source n'est pas dans la base : l'article se garde [arbitrage].",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L363-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le chef de l'établissement organise le vote avant chaque scrutin : règle propre, condition de l'exercice du droit de vote.",
+      "motif": "Registre 6.3 : miroir de L. 12-1 du code électoral.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L363-2",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Vote par correspondance selon L. 79 du code électoral. La source n'est pas dans la base : l'article se garde [arbitrage].",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 9.28 : miroir de L. 79 du code électoral (vote par correspondance des personnes détenues), même source hors base.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L363-3",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Vote après la détention selon L. 80 du code électoral. La source n'est pas dans la base : l'article se garde [arbitrage].",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Registre 9.28 : miroir de L. 80 du code électoral (vote après la détention), même source hors base.",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }

@@ -1,0 +1,80 @@
+{
+  "lot": "lot_p084",
+  "titre": "Livre III, titre VI : exercice du droit de vote",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L362-3",
+      "texte": "La demande d'inscription sur la liste électorale formée par une personne détenue est transmise au maire de la commune par le chef de l'établissement pénitentiaire, dans les conditions prévues par les dispositions de l'article L. 18-1 du code électoral.",
+      "verbe": "G",
+      "principe": "P13",
+      "motif": "Transmission de la demande d'inscription par le chef de l'établissement. L. 18-1 du code électoral est hors base et n'a pas pu être vérifié : l'article reste tant qu'on n'a pas lu qu'il confie la transmission au chef d'établissement [arbitrage].",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L363-1",
+      "texte": "Avant chaque scrutin, le chef de l'établissement pénitentiaire organise avec l'autorité administrative compétente une procédure destinée à assurer l'exercice du droit de vote des personnes détenues.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Le chef de l'établissement organise le vote avant chaque scrutin : règle propre. « Leur » n'a plus d'antécédent depuis les fusions du titre : le sujet est nommé.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L362-1",
+      "verbe": "F",
+      "principe": "P20",
+      "motif": "Miroir interne du 1° de L312-2 (domicile élu à l'établissement pour les droits civiques).",
+      "ligne_rouge": "aucune",
+      "vers": "L312-2"
+    },
+    {
+      "num": "L362-2",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Registre 6.3 : miroir de L. 12-1 du code électoral.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L363-2",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Registre 9.28 : miroir de L. 79 du code électoral (vote par correspondance des personnes détenues), même source hors base.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L363-3",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Registre 9.28 : miroir de L. 80 du code électoral (vote après la détention), même source hors base.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L362-1#1": {
+      "destin": "reprise",
+      "vers": "L312-2"
+    },
+    "L362-2#1": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "L362-3#1": {
+      "destin": "gardee",
+      "vers": "L362-3"
+    },
+    "L363-1#1": {
+      "destin": "reprise",
+      "vers": "L363-1"
+    },
+    "L363-2#1": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "L363-3#1": {
+      "destin": "abrogee",
+      "principe": "P20"
+    }
+  }
+}
