@@ -10,161 +10,208 @@
     {
       "code": "cpp",
       "num": "L5211-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "La peine court du jour de la détention ou de la mesure sous écrou : point de départ unique, la peine exécutée sous écrou compte en entier.",
-      "ligne_rouge": "art. 8 DDHC examiné : règle de computation, sans effet sur le quantum prononcé"
-    },
-    {
-      "code": "cpp",
-      "num": "L5211-2",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Unités de calcul de la peine (jour, mois, quantième) : règle courte et nécessaire.",
-      "ligne_rouge": "art. 8 DDHC examiné : règle de computation, sans effet sur le quantum prononcé"
+      "motif": "Point de départ et calcul de la durée de la peine en un article : unités (L5211-2 fusionné), libération la veille d'un jour chômé (L5211-6 fusionné).",
+      "ligne_rouge": "art. 8 DDHC examiné : la peine exécutée sous écrou compte en entier, calcul inchangé",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La durée d'une peine privative de liberté court du jour où la personne condamnée est détenue ou fait l'objet d'une mesure d'aménagement sous écrou en vertu d'une condamnation exécutoire. Un jour d'emprisonnement dure vingt-quatre heures et un mois trente jours. Au-delà d'un mois, la peine se calcule de quantième en quantième. La personne dont l'incarcération devrait prendre fin un dimanche ou un jour de fête légale est libérée le jour ouvrable précédent."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5211-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "La détention provisoire s'impute en entier sur la peine, y compris d'une procédure annulée pour les mêmes faits : nul ne subit deux fois la même privation.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la privation de liberté déjà subie se déduit, tenu ; art. 8 DDHC examiné : imputation sans retrait du quantum prononcé"
-    },
-    {
-      "code": "cpp",
-      "num": "L5211-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Imputation étendue aux mandats, à l'incarcération provisoire et à la détention subie à l'étranger sur mandat d'arrêt européen ou extradition : même règle, même garantie.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : toute privation de liberté subie pour les faits se déduit, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L5211-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "L'assignation à résidence sous surveillance électronique, privation de liberté, s'impute comme la détention provisoire.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : imputation de la privation de liberté subie ; art. 8 DDHC examiné : aucune remise au-delà"
-    },
-    {
-      "code": "cpp",
-      "num": "L5211-6",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Libération la veille ouvrable d'un dimanche ou jour férié : au plus deux jours, au profit de la sortie encadrée par les services ouverts.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Imputation en un article : détention provisoire, procédure annulée, mandats, incarcération provisoire, privation subie hors de France (L5211-4 fusionné), assignation à résidence sous surveillance électronique (L5211-5 fusionné).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : toute privation de liberté subie pour les mêmes faits s'impute en entier",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La détention provisoire subie à quelque stade que ce soit de la procédure est intégralement déduite de la durée de la peine prononcée ou, s'il y a lieu, de la durée totale de la peine à subir après confusion. Il en est de même de la détention provisoire ordonnée dans une procédure suivie pour les mêmes faits et ultérieurement annulée, ainsi que de la privation de liberté qui résulte :\n1° D'un mandat d'amener ou d'arrêt décerné par le juge des libertés et de la détention ou par une juridiction d'instruction, de jugement ou de l'application des peines.\n2° D'une ordonnance d'incarcération provisoire du juge des libertés et de la détention ou du juge de l'application des peines.\n3° D'un mandat d'arrêt européen ou d'une demande d'extradition exécutés hors de France.\n4° D'une assignation à résidence avec surveillance électronique."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5212-1",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Champ de l'examen avant incarcération des peines d'un an au plus, hors mandat de dépôt. Le choix se fait à l'audience (L4432-14) : le tribunal aménage, renvoie au juge de l'application des peines ou incarcère. Le sort du renvoi (2° de L4432-14) se tranche au lot de la 4e partie.",
-      "ligne_rouge": "art. 8 DDHC examiné : le tribunal choisit à l'audience la voie d'exécution, l'article ne fait que l'exécuter"
+      "motif": "Champ de l'examen avant incarcération et faculté d'aménagement (L5212-2 fusionné, présomption d'aménagement retirée, passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'aménagement reste une faculté du juge, la peine prononcée s'exécute",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent chapitre s'applique à la mise à exécution, à l'encontre d'une personne non incarcérée, y compris sous le régime de la semi-liberté, du placement à l'extérieur ou de la détention à domicile sous surveillance électronique, d'un ou de plusieurs emprisonnements fermes dont le total prononcé ou restant à subir n'excède pas un an. Il ne s'applique pas lorsque le tribunal a décerné un mandat de dépôt à effet différé.\nSi sa personnalité et sa situation le permettent, cette personne peut bénéficier d'une semi-liberté, d'un placement à l'extérieur, d'une détention à domicile sous surveillance électronique, d'un fractionnement ou d'une suspension de peine, d'une libération conditionnelle ou d'une conversion de peine."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5212-5",
+      "principe": "P19",
+      "motif": "Procédure avant mise à exécution en un article : information du juge (L5212-4 fusionné), convocations sous vingt et trente jours, aménagement par jugement (L5212-6 fusionné), enquête du service en deux mois (L5212-7 fusionné). Bornes de la plage citée par L5143-8 gardées.",
+      "ligne_rouge": "art. 8 DDHC examiné : délais opposables à l'État, décision par jugement après débat contradictoire",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant la mise à exécution, le ministère public informe le juge de l'application des peines de la condamnation et lui adresse toutes pièces utiles, dont une copie de la décision et le bulletin n° 1 du casier judiciaire.\nSauf décision contraire de ce juge, la personne est convoquée devant lui, puis devant le service pénitentiaire d'insertion et de probation, respectivement dans les vingt et trente jours de leur information par le ministère public, afin de déterminer les modalités d'exécution de sa peine. Ces convocations n'ont pas lieu si la personne en a été avisée à l'issue de l'audience en application des articles L. 4432-29 à L. 4432-31.\nSi une mesure d'aménagement ou de conversion paraît possible et que l'intéressé l'accepte, le juge l'ordonne par jugement rendu conformément à l'article L. 5131-3. S'il manque d'éléments, il peut charger le service pénitentiaire d'insertion et de probation d'examiner, dans les deux mois, les modalités de la mesure envisagée et, le cas échéant, de lui en proposer une autre. Au vu du rapport motivé du service, il peut ordonner l'aménagement ou la conversion de la même manière."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5212-8",
+      "principe": "P19",
+      "motif": "Peine non exécutée dans l'année ou dans les trois ans : saisine ou convocation, effet suspensif (L5212-9 fusionné).",
+      "ligne_rouge": "art. 8 DDHC examiné : le retard de l'État ne se reporte pas sur la personne ; jugement après débat contradictoire",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une condamnation mentionnée à l'article L. 5212-1 n'a pas été mise à exécution dans le délai d'un an à compter du jour où elle est devenue définitive, la personne condamnée peut saisir le juge de l'application des peines d'une demande tendant à l'une des mesures prévues à l'article L. 5131-7, même après un refus. Il statue par jugement rendu conformément à l'article L. 5131-3.\nLorsque la condamnation n'a pas été mise à exécution dans le délai de trois ans, la personne est convoquée devant le juge de l'application des peines avant toute mise à exécution, afin de déterminer les modalités d'exécution de sa peine.\nLa saisine et la convocation suspendent la mise à exécution par le parquet, sous réserve de l'article L. 5212-13."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5212-10",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Sans aménagement voulu ou possible, le juge fixe la date d'incarcération : la peine s'exécute.",
-      "ligne_rouge": "art. 8 DDHC examiné : décision du juge, peine prononcée exécutée"
-    },
-    {
-      "code": "cpp",
-      "num": "L5212-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Six mois sans décision du juge : le parquet ramène la peine à exécution. Délai opposable, au profit de l'exécution.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée s'exécute, le délai tient le juge"
-    },
-    {
-      "code": "cpp",
-      "num": "L5212-12",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Absence aux convocations sans motif légitime : la peine s'exécute.",
-      "ligne_rouge": "art. 8 DDHC examiné : le motif légitime et les voies de recours sont réservés"
+      "motif": "Incarcération à défaut d'aménagement en un article : date fixée par le juge, délai de six mois (L5212-11 fusionné), absence aux convocations (L5212-12 fusionné).",
+      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée s'exécute ; motif légitime et voies de recours réservés",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la personne condamnée ne souhaite pas d'aménagement ou de conversion de sa peine, ou si le juge de l'application des peines l'estime impossible au vu du rapport motivé du service pénitentiaire d'insertion et de probation, il peut fixer la date d'incarcération.\nÀ défaut de décision du juge dans les six mois de la communication de la copie du jugement, le ministère public peut ramener la peine à exécution. Si la personne ne se présente pas aux convocations, sauf motif légitime ou exercice des voies de recours, le juge en informe le ministère public, qui ramène la peine à exécution."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5212-13",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Mise à exécution immédiate en cas de danger, d'autre incarcération ou de fuite : nécessité établie.",
-      "ligne_rouge": "art. 8 DDHC examiné : urgence motivée et limitée à trois cas, juge informé"
+      "motif": "Mise à exécution immédiate en cas d'urgence motivée, en une phrase ; renvois aux articles réunis.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : urgence motivée par des cas limitatifs, juge informé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Par dérogation aux articles L. 5212-1 et L. 5212-5, le ministère public peut mettre la peine à exécution en établissement pénitentiaire en cas d'urgence motivée par un risque de danger pour les personnes ou les biens établi par un fait nouveau, par l'incarcération de la personne dans une autre procédure ou par un risque avéré de fuite. Il en informe immédiatement le juge de l'application des peines si celui-ci a été saisi."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5211-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Unités de calcul, réunies.",
+      "ligne_rouge": "art. 8 DDHC examiné : calcul de la durée inchangé, gardé à L5211-1",
+      "vers": "L5211-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5211-4",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Imputation des mandats, de l'incarcération provisoire et de la détention à l'étranger, réunie.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : règle gardée entière à L5211-3",
+      "vers": "L5211-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5211-5",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Imputation de l'assignation à résidence sous surveillance électronique, réunie.",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : règle gardée à L5211-3",
+      "vers": "L5211-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5211-6",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Libération la veille d'un dimanche ou d'un jour de fête légale, réunie.",
+      "ligne_rouge": "aucune",
+      "vers": "L5211-1"
     },
     {
       "code": "cpp",
       "num": "L5212-2",
-      "decision": "R",
+      "decision": "F",
       "principe": "P10",
-      "motif": "La présomption d'aménagement (« bénéficient, dans la mesure du possible ») devient une faculté : la peine prononcée s'exécute, l'aménagement se demande et se motive.",
-      "ligne_rouge": "art. 8 DDHC examiné : le juge de l'application des peines garde la faculté d'aménager, la loi cesse de la présumer (aménagement à l'exécution : part tempérable)",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "bénéficient, dans la mesure du possible et si leur personnalité et leur situation le permettent,",
-          "nouveau": "peuvent bénéficier, si leur personnalité et leur situation le permettent,"
-        }
-      ]
+      "motif": "Faculté d'aménagement (passe 2), réunie au champ.",
+      "ligne_rouge": "art. 8 DDHC examiné : faculté du juge",
+      "vers": "L5212-1"
     },
     {
       "code": "cpp",
       "num": "L5212-3",
       "decision": "A",
       "principe": "P10",
-      "motif": "Aménagement obligatoire des peines de six mois au plus, sauf impossibilité : la doctrine l'abroge. L5212-2 réécrit garde la faculté. L'abrogation se verse avec celle de l'article 132-19, alinéas 2 et 3, du code pénal (même lot). D48-1-1 (seuil de six mois de l'ancien 723-15) à coordonner. Les autres renvois à l'ancien 723-15 visent la procédure maintenue à L5212-1, L5212-2, L5212-4 et L5212-5. Objection IPP n° 120 (récidive moindre de 7 à 18 points sous aménagement) : la faculté demeure, l'aménagement se motive au cas par cas.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'aménagement obligatoire avant incarcération relève de la part tempérable, le juge garde la faculté d'aménager (L5212-2)"
+      "motif": "Aménagement obligatoire des peines de six mois au plus : abrogé (passe 2), la faculté demeure (L5212-1). D48-1-1 à coordonner. Objection IPP n° 120 : l'aménagement reste possible et se motive au cas par cas.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'individualisation au prononcé est entière ; l'aménagement à l'exécution relève de la loi et se tempère"
     },
     {
       "code": "cpp",
       "num": "L5212-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P12",
-      "motif": "Transmission au juge de l'application des peines de la décision et du bulletin n° 1, sans support imposé : formalité utile, numérique possible.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5212-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Convocation devant le juge en vingt jours, devant le service en trente : délais opposables à l'État. La situation de la personne y relève du régime d'exécution, non du quantum.",
-      "ligne_rouge": "art. 8 DDHC examiné : le juge détermine les modalités, sans toucher au quantum"
+      "motif": "Information du juge par le parquet, réunie.",
+      "ligne_rouge": "aucune",
+      "vers": "L5212-5"
     },
     {
       "code": "cpp",
       "num": "L5212-6",
-      "decision": "G",
+      "decision": "F",
       "principe": "P4",
-      "motif": "Aménagement ou conversion par jugement, avec l'accord de l'intéressé : acte juridictionnel.",
-      "ligne_rouge": "art. 8 DDHC examiné : décision par jugement après débat (L5131-3)"
+      "motif": "Aménagement par jugement avec l'accord de l'intéressé, réuni.",
+      "ligne_rouge": "art. 8 DDHC examiné : jugement gardé",
+      "vers": "L5212-5"
     },
     {
       "code": "cpp",
       "num": "L5212-7",
-      "decision": "G",
+      "decision": "F",
       "principe": "P19",
-      "motif": "Enquête du service en deux mois, puis jugement : délai opposable.",
-      "ligne_rouge": "art. 8 DDHC examiné : décision par jugement après débat (L5131-3)"
-    },
-    {
-      "code": "cpp",
-      "num": "L5212-8",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Peine non exécutée dans l'année : la personne saisit le juge. Le retard est celui de l'État, il ne se reporte pas sur elle.",
-      "ligne_rouge": "art. 8 DDHC examiné : la saisine ne retranche rien de la peine, l'urgence (L5212-13) reste réservée"
+      "motif": "Enquête du service en deux mois, réunie.",
+      "ligne_rouge": "art. 8 DDHC examiné : délai gardé",
+      "vers": "L5212-5"
     },
     {
       "code": "cpp",
       "num": "L5212-9",
-      "decision": "G",
+      "decision": "F",
       "principe": "P19",
-      "motif": "Peine non exécutée en trois ans : convocation obligatoire avant mise à exécution. Le délai engage l'État.",
-      "ligne_rouge": "art. 8 DDHC examiné : la convocation ne retranche rien de la peine, l'urgence (L5212-13) reste réservée"
+      "motif": "Convocation obligatoire après trois ans, réunie.",
+      "ligne_rouge": "art. 8 DDHC examiné : règle et effet suspensif gardés",
+      "vers": "L5212-8"
+    },
+    {
+      "code": "cpp",
+      "num": "L5212-11",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Délai de six mois, réuni.",
+      "ligne_rouge": "art. 8 DDHC examiné : délai gardé",
+      "vers": "L5212-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L5212-12",
+      "decision": "F",
+      "principe": "P10",
+      "motif": "Absence aux convocations, réunie.",
+      "ligne_rouge": "art. 8 DDHC examiné : motif légitime et recours réservés",
+      "vers": "L5212-10"
     }
-  ]
+  ],
+  "passe": 3
 }
