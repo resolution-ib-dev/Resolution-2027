@@ -10,26 +10,45 @@
     {
       "code": "cpp",
       "num": "A36-12",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Nombre de jurés des listes annuelles par département : le jury vit (P17). Renvoi à l'ancien 260 (L2123-22) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Table des listes annuelles gardée, valeurs inchangées, sans les mentions d'arrêtés modificatifs. La clause de cessation devient une condition (« tant qu'il dépasse »). Le renvoi à l'ancien 260 devient L2123-22.",
+      "ligne_rouge": "Jury (P17) : chaque cour d'assises garde le nombre de jurés de sa liste annuelle.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En application de l'article L. 2123-22, le nombre des jurés de la liste annuelle est fixé comme suit, tant qu'il dépasse celui qui résulte du premier alinéa de cet article :\nAlpes-Maritimes, 1000. Ardèche, 420. Aude, 360. Bouches-du-Rhône, 2000. Charente, 500. Cher, 280. Corse-du-Sud, 280. Côte-d'Or, 600. Dordogne, 500. Essonne, 1115. Eure, 500. Guadeloupe, 500. Guyane, 550. Haute-Corse, 280. Haute-Garonne, 2000. Haute-Marne, 300. Haute-Savoie, 600. Ille-et-Vilaine, 900. Indre, 250. Martinique, 650. Mayenne, 300. Meurthe-et-Moselle, 600. Nièvre, 250. Paris, 2300. Pyrénées-Atlantiques, 2025. Savoie, 390. Seine-et-Marne, 1500. Seine-Saint-Denis, 2000. Val-de-Marne, 1900. Var, 1000. Yonne, 350."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A36-13",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Listes de jurés suppléants. Renvoi à l'ancien 264 (L2123-27) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Liste des jurés suppléants : valeurs et ressorts inchangés, chiffres en nombres, points-virgules retirés. Le renvoi à l'ancien 264 devient L2123-27. Les valeurs de Paris (900) et du Val-de-Marne (800) dépassent le plafond de sept cents de L2123-27 : écart de la base 2029, signalé, non corrigé.",
+      "ligne_rouge": "Jury (P17) : listes de suppléants inchangées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En application de l'article L. 2123-27, la liste des jurés suppléants comprend, par cour d'assises :\n1° Paris : 900 jurés.\n2° Seine-Saint-Denis : 700 jurés.\n3° Val-de-Marne : 800 jurés.\n4° Pyrénées-Atlantiques : 580 jurés.\n5° Seine-et-Marne : 600 jurés.\n6° Essonne : 435 jurés.\n7° Bouches-du-Rhône, Gironde, Hauts-de-Seine, Nord, Val-d'Oise et Yvelines : 450 jurés.\n8° Alpes-Maritimes, Corse-du-Sud, Haute-Corse, Haute-Garonne, Ille-et-Vilaine, Loire-Atlantique, Martinique, Moselle, Pas-de-Calais, Rhône, Seine-Maritime et Var : 250 jurés.\n9° Aude, Cher, Guadeloupe, Haute-Savoie, Hérault, Guyane, Marne, Meurthe-et-Moselle, Pyrénées-Orientales, La Réunion, Bas-Rhin, Haut-Rhin et Savoie : 200 jurés.\n10° Aisne, Ardèche, Aveyron, Calvados, Charente, Côte-d'Or, Dordogne, Eure, Finistère, Gard, Indre, Isère, Maine-et-Loire, Meuse, Nièvre, Oise, Sarthe, Somme, Vaucluse, Vosges et Yonne : 150 jurés.\n11° Polynésie française : 70 jurés.\n12° Autres cours d'assises : 100 jurés."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A36-13-1",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Jurés et suppléants tirés au sort portés à quarante-cinq et quinze. Renvoi à l'ancien 266 (L2123-29) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P13",
+      "motif": "Liste de session élargie : ressorts et nombres inchangés. Le renvoi à l'ancien 266 devient L2123-29.",
+      "ligne_rouge": "Jury (P17) : listes de session inchangées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En application de l'article L. 2123-29, le nombre de jurés et de jurés suppléants tirés au sort sur la liste annuelle est porté à quarante-cinq et à quinze pour les cours d'assises suivantes : Alpes-Maritimes, Bouches-du-Rhône, Charente, Corse-du-Sud, Dordogne, Essonne, Gard, Gironde, Guadeloupe, Guyane, Haute-Corse, Haute-Garonne, Haute-Vienne, Hauts-de-Seine, Maine-et-Loire, Martinique, Morbihan, Nord, Pas-de-Calais, Pyrénées-Atlantiques, La Réunion, Rhône, Sarthe, Seine-et-Marne, Seine-Saint-Denis, Val-de-Marne, Val-d'Oise, Var, Vaucluse et Yvelines."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
