@@ -9,87 +9,125 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "A53-10",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Modalités de la captation sonore des audiences aux parties civiles nombreuses (habilitation de L2151-4) : accès des victimes aux débats, P18 et P26 servis. Accords corrigés (« elles veulent » pour ceux-ci, « leur avocats »). Renvoi à l'ancien 802-3 à coordonner (L2151-4, dont la base a fondu les alinéas : le délit n'y est plus au « deuxième alinéa »).",
-      "ligne_rouge": "P26 et P18 examinés : la diffusion élargit l'accès des parties civiles à l'audience publique, l'interruption par le président reste bornée par la loi",
+      "num": "A53-2",
+      "principe": "P23",
+      "motif": "Signature électronique avancée et cachet électronique avancé à certificat qualifié, avec l'homologation de leurs dispositifs, réunis (A53-5 fusionné). D. 589-3 et D. 589-5 sont fusionnés dans D. 589-2 (p044).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "si elles veulent bénéficier",
-          "nouveau": "s'ils veulent bénéficier"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "des parties civiles et de leur avocats",
-          "nouveau": "des parties civiles et de leurs avocats"
+          "op": "rediger",
+          "nouveau": "La signature électronique avancée reposant sur un certificat qualifié (article D. 589-2) est conforme à l'article 26 du règlement (UE) n° 910/2014 du Parlement européen et du Conseil du 23 juillet 2014 et repose sur un certificat qualifié de signature électronique conforme à l'article 28 de ce règlement.\nLe cachet électronique avancé avec certificat qualifié (article D. 589-2) est conforme à l'article 36 du même règlement. Il est créé par un dispositif de création de cachet électronique qualifié conforme à son article 39 et repose sur un certificat qualifié de cachet électronique conforme à son article 38.\nLes dispositifs qui apposent cette signature et ce cachet font l'objet d'une homologation de sécurité selon l'article 5 du décret n° 2010-112 du 2 février 2010."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "A53-2",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Définition de la signature électronique avancée à certificat qualifié (règlement eIDAS) et homologation de sécurité du dispositif : condition de la procédure numérique.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "A53-3",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Inscription des signataires électroniques sous la responsabilité de leur ministère, ou de la justice : répartition simple. Renvoi à l'ancien 11 à coordonner (L3131-1 et L3132-1).",
-      "ligne_rouge": "aucune"
+      "principe": "P13",
+      "motif": "Inscription des procédés de signature : répartition gardée. L'ancien 11 devient L. 3131-1.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les procédés de signature électronique des magistrats, militaires et agents publics qui concourent à la procédure (article L. 3131-1) sont inscrits et enregistrés à l'initiative et sous la responsabilité du ministère dont ils relèvent ou sous le contrôle duquel ils sont placés. Pour les autres personnes, l'inscription relève du ministère de la justice, qui peut passer un protocole avec la personne morale ou l'organisme professionnel dont relève la personne ou sous le contrôle duquel elle est placée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A53-4",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Recueil numérique de la signature manuscrite, intégrité de l'acte après signature, assistance lors d'une visioconférence : le numérique remplace le papier sans perte de garantie. Renvois aux anciens 11, 801-1 et 706-71 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'identité du signataire est mentionnée et l'acte ne peut plus être altéré, la preuve reste sûre pour la défense"
-    },
-    {
-      "code": "cpp",
-      "num": "A53-5",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Définition du cachet électronique avancé à certificat qualifié et homologation : condition de la procédure numérique.",
-      "ligne_rouge": "aucune"
+      "principe": "P13",
+      "motif": "Recueil numérique de la signature manuscrite : gardé, resserré. Les anciens 11, 801-1 et 706-71 deviennent L. 3131-1, L. 1611-1 et L. 1621-1. D. 589-4 est fusionné dans D. 589-2 (p044).",
+      "ligne_rouge": "droits de la défense examinés : identité du signataire mentionnée, intégrité de l'acte gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le dispositif technique de l'article D. 589-2 recueille la signature manuscrite de toute personne, y compris de celle qui concourt à la procédure, pour en faire une image numérique intégrée à l'acte établi sous format numérique (article L. 1611-1). Le recueil se fait sous le contrôle de la personne qui appose sa signature électronique sur l'acte.\nL'acte mentionne l'identité du signataire manuscrit ou indique qu'elle est présumée ou inconnue. Après l'apposition de la signature électronique, aucun élément de l'acte, signatures manuscrites comprises, ne peut être altéré.\nLorsque l'acte est tenu par un moyen de télécommunication audiovisuelle (article L. 1621-1), une personne qui n'est pas partie à la procédure, présente aux côtés du signataire, peut l'assister.\nLe présent article ne s'applique pas aux signatures recueillies par l'appareil de l'article R. 49-1."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A53-6",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Archivage électronique sécurisé du dossier numérique, empreintes et traçabilité : conservation fiable de la procédure.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Archivage électronique sécurisé du dossier numérique : garanties gardées, phrases resserrées. D. 589-1 est fusionné dans D. 589 (p044).",
+      "ligne_rouge": "droits de la défense examinés : intégrité et traçabilité des pièces gardées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le dossier de procédure numérique (article D. 589) est archivé dans un système d'archivage électronique sécurisé. Ce système garantit la conservation, l'intégrité, l'intelligibilité et l'accessibilité des pièces et la traçabilité des consultations, versements, migrations, effacements et extractions.\nUne empreinte électronique atteste l'intégrité de chaque pièce et rend détectable toute modification. Une migration nécessaire à la lisibilité n'altère pas la pièce si elle est tracée et produit une nouvelle empreinte. Empreintes et traces sont conservées, sans modification possible, aussi longtemps que la pièce."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A53-7",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Numérisation fidèle des pièces, vérification de celles converties par un tiers non autorisé : garantie de la preuve numérique.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Numérisation fidèle et vérification des pièces converties par un tiers non autorisé : gardées, resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La conversion sous format numérique d'une pièce destinée à l'autorité judiciaire ou au dossier de procédure numérique se fait sous la responsabilité de cette autorité, par un dispositif qui reproduit fidèlement sa forme, son contenu et sa couleur. Une pièce convertie par une personne non autorisée au sens de l'article D. 589 n'est versée au dossier qu'après vérification de sa fidélité, de sa complétude, de son émetteur et de sa date de conversion. La conversion, la restitution et la destruction des pièces suivent les règles applicables aux archives."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A53-8",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Impression des pièces numériques « s'il y a lieu », avec attestation de fidélité : le papier est l'exception, ce que veut le principe.",
-      "ligne_rouge": "aucune"
+      "motif": "Impression des pièces numériques et attestation de fidélité : gardées, resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les magistrats et les agents de greffe qui les assistent, la police nationale, la gendarmerie nationale, les agents exerçant des pouvoirs de police judiciaire et les services pénitentiaires ou de la protection judiciaire de la jeunesse peuvent imprimer une pièce numérique pour la remettre ou la transmettre sur papier. La pièce signée sous forme numérique (article D. 589-2) garde sa valeur probante une fois imprimée si une attestation unique ou une mention sur chaque impression certifie sa fidélité à la version numérique détenue par le service."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "A53-9",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Autorisation de transmission numérique aux avocats : moyen, horaires, événement de réception qui fait courir les délais. Tous les actes sont transmissibles à défaut de précision : la règle générale est le numérique.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'événement de réception est fixé à l'avance, le délai de recours a un point de départ certain"
+      "motif": "Autorisation de transmission numérique aux avocats : mentions obligatoires en liste, numérique par défaut gardé. Alinéas de D. 589 fondus et D. 592, D. 593 réunis dans D. 591 (p044).",
+      "ligne_rouge": "droits de la défense examinés : l'événement qui fait courir les délais reste écrit dans l'autorisation",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne autorisée à transmettre des pièces sous format numérique (article D. 589) respecte les conditions de son autorisation. L'autorisation délivrée à un avocat ou à son barreau mentionne :\n1° Le moyen de télécommunication, avec l'adresse électronique du destinataire et, le cas échéant, la plateforme sécurisée d'échange.\n2° Les jours et horaires de réception au-delà desquels une pièce soumise à un délai d'expiration n'est plus recevable.\n3° L'événement technique qui vaut réception par la juridiction et fait courir les délais du code.\nL'autorisation peut lister les actes transmissibles ou exclus. À défaut, tous les actes, demandes, déclarations et observations du code sont transmissibles. Les protocoles passés entre les chefs de juridiction et les avocats ou leurs barreaux (article D. 589) peuvent écarter tout ou partie des conditions, restrictions et modalités de l'article D. 591."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A53-10",
+      "principe": "P18",
+      "motif": "Captation sonore des audiences aux parties civiles nombreuses : accès des victimes et sécurité de la diffusion gardés. L'ancien 802-3 devient L. 2151-4, qui porte le délit d'enregistrement ou de diffusion.",
+      "ligne_rouge": "vie privée examinée : identifiants pseudonymisés, liste d'identité détenue par le seul greffe, flux chiffré",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le premier président de la cour d'appel ordonne la captation sonore de l'audience (article L. 2151-4), il en informe par tout moyen les parties civiles et leurs avocats. Ceux qui veulent la recevoir dès le début des débats le font savoir au greffe au moins huit jours avant.\nLes identifiants et mots de passe des comptes d'utilisateurs sont générés de manière aléatoire, chiffrés et sécurisés. Le greffe est seul à détenir la liste qui les rattache à l'identité de chaque utilisateur et seul à attribuer et communiquer les éléments de connexion. Il transmet ces informations pseudonymisées aux équipes chargées du traitement.\nLes modalités d'accès communiquées aux parties civiles et à leurs avocats comportent un code confidentiel propre à chaque partie civile et les informent du délit prévu à l'article L. 2151-4.\nLa diffusion se fait en différé. Le président de l'audience peut l'interrompre à tout moment. La chaîne de retransmission est sécurisée de l'encodeur à la plateforme de diffusion, avec un encodage et un flux redondés depuis la régie, et le flux est chiffré de bout en bout."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "A53-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cachet électronique : réuni dans A53-2 avec la signature électronique.",
+      "ligne_rouge": "aucune",
+      "vers": "A53-2"
     }
-  ]
+  ],
+  "passe": 3
 }
