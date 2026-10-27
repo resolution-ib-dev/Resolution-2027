@@ -10,118 +10,122 @@
     {
       "code": "cpp",
       "num": "R53-22",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Mention de l'autorisation de domiciliation au procès-verbal : trace. Renvoi à l'ancien 706-57 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-23",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Registre des adresses personnelles tenu au service, présenté au procureur. La loi le tient « sous format papier ou numérique » (L1532-1) : le paraphe, propre au papier, cède à cette règle.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Domiciliation au commissariat ou à la brigade en un article : mention au procès-verbal (R53-22), registre (R53-23, tenu sous format papier ou numérique selon L. 1532-1), changements d'adresse et remise des convocations (R53-24), domicile déclaré devant la juridiction (R53-25), absence de nullité (R53-26). Renvoi à l'ancien 706-57 recalé sur L. 1532-1.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : la juridiction peut toujours exiger le domicile réel ; l'absence de nullité porte sur des formalités de tenue du registre, non sur la déposition.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Il est paraphé par le chef du service de police ou de l'unité de gendarmerie.",
-          "nouveau": "Il est tenu sous format papier ou numérique, sous la responsabilité du chef du service de police ou de l'unité de gendarmerie."
+          "op": "rediger",
+          "nouveau": "Lorsque le témoin ou la victime déclare comme domicile, en application de l'article L. 1532-1, l'adresse du commissariat ou de la brigade de gendarmerie ou son adresse professionnelle, le procès-verbal de ses déclarations mentionne, s'il y a lieu, l'autorisation du magistrat, son numéro d'ordre au registre et le nom et l'adresse du service ou de l'unité qui tient ce registre. Le registre, tenu au siège du service sous la responsabilité de son chef, est présenté à tout moment au procureur de la République qui le demande.\nLa personne est avisée qu'elle doit faire connaître au service ses changements d'adresse pendant l'année qui suit son audition. Le service lui remet dans les meilleurs délais, à la demande des seules autorités judiciaires, les convocations et citations qui la concernent. Il inscrit toute nouvelle adresse au registre, en marge de la précédente, et informe immédiatement le magistrat mandant si la remise est impossible.\nDevant une juridiction d'instruction ou de jugement, la personne peut continuer de déclarer comme domicile l'adresse du service, sauf si la juridiction lui demande de déclarer son véritable domicile. Les formalités du présent article ne sont pas prescrites à peine de nullité."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R53-24",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Changements d'adresse pendant un an, remise des convocations dans les meilleurs délais : le témoin protégé reste joignable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-25",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Domicile déclaré devant la juridiction, qui peut exiger le domicile réel : soupape au juge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-26",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Formalités non prescrites à peine de nullité : la passe 1 proposait une réécriture du régime de nullité. L'article fait déjà ce que veut P11 : pas de nullité de forme.",
-      "ligne_rouge": "art. 16 DDHC examiné : les droits de la défense ne dépendent pas de ces formalités, l'identité reste connue du magistrat ; art. 8 DDHC non en jeu"
-    },
-    {
-      "code": "cpp",
       "num": "R53-27",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Contenu de la requête en témoignage anonyme : gardé. L'avis préalable du procureur sur la requête du juge d'instruction ne protège aucune liberté : il devient une information. Le juge des libertés et de la détention décide.",
-      "ligne_rouge": "art. 16 DDHC examiné : la décision reste celle du juge des libertés et de la détention, contestable dans les conditions de l'ancien 706-60",
+      "motif": "Contenu de la requête en audition anonyme : gardé, phrases resserrées ; l'avis préalable du procureur sur la requête du juge d'instruction devient une information (passe 2). Renvoi à l'ancien 706-58 recalé sur L. 1532-4.",
+      "ligne_rouge": "Droits de la défense examinés : la requête motivée au vu du dossier, jointe au dossier distinct, reste soumise au juge des libertés et de la détention.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "celui-ci l'adresse au juge des libertés et de la détention après avoir pris l'avis du procureur de la République, cet avis étant également joint à la requête.",
-          "nouveau": "celui-ci l'adresse au juge des libertés et de la détention et en informe le procureur de la République."
+          "op": "rediger",
+          "nouveau": "La requête prévue à l'article L. 1532-4 précise l'identité de la personne et les raisons pour lesquelles, au vu du dossier de l'enquête ou de l'information qui y est joint en copie ou en original, ses déclarations doivent être recueillies sans que son identité apparaisse. Peuvent y être joints le procès-verbal où la personne accepte de témoigner anonymement en exposant, le cas échéant, les risques encourus par elle, sa famille ou ses proches, et un rapport des enquêteurs qui justifie ce recours. Le juge d'instruction qui forme la requête en informe le procureur de la République."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R53-28",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Dossiers distincts et registre au parquet, communicables aux seuls juges : protection du témoin.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-29",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Numéro d'ordre du témoin anonyme.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-30",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Relecture, persistance et signature du procès-verbal distinct : fiabilité de la déposition.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R53-31",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Changements d'adresse du témoin anonyme, convocations par le parquet. Le registre visé est celui des témoins anonymes (deuxième alinéa de l'ancien 706-58, R53-28), non celui des témoins domiciliés au commissariat (706-57) : renvoi corrigé, numéros anciens à coordonner.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Audition anonyme en un article : garde du dossier distinct et du registre (R53-28), numéro d'ordre (R53-29), relecture et signature (R53-30), adresse et convocations (R53-31, registre de l'audition anonyme, renvoi corrigé en passe 2), par renvoi à la règle commune du deuxième alinéa de R53-22. Renvois aux anciens 706-58 et 706-60 recalés sur L. 1532-4 et L. 1532-5.",
+      "ligne_rouge": "Droits de la défense examinés : dossier distinct communicable aux seuls juges, relecture, persistance et signature de la déposition gardées.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "dans le registre prévu au deuxième alinéa de l'article 706-57",
-          "nouveau": "dans le registre prévu au deuxième alinéa de l'article 706-58"
+          "op": "rediger",
+          "nouveau": "Le procureur de la République conserve les dossiers distincts et le registre prévus à l'article L. 1532-4. Il ne peut les communiquer qu'au juge des libertés et de la détention, au juge d'instruction ou, dans le cas du deuxième alinéa de l'article L. 1532-5, au président de la chambre des investigations et des libertés.\nSi le juge des libertés et de la détention autorise l'audition anonyme, un numéro d'ordre est attribué à la personne et inscrit sur le dossier distinct, au registre et sur ses deux procès-verbaux. A l'issue de l'audition, la personne relit sa déposition, dit si elle y persiste et signe le procès-verbal distinct. Mention en est faite au procès-verbal principal, dont chaque page est signée par l'officier de police judiciaire ou le magistrat qui procède à l'audition, son greffier et, le cas échéant, l'interprète.\nLe deuxième alinéa de l'article R. 53-22 s'applique à la personne entendue anonymement, le procureur de la République tenant lieu du service, le registre prévu à l'article L. 1532-4 de celui du service et la juridiction mandante du magistrat mandant."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R53-32",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Refus de l'anonymat : pièces en dossier distinct, non communicables, détruites à la prescription. L'avis du procureur, supprimé (R53-27), sort de la liste.",
-      "ligne_rouge": "art. 16 DDHC examiné : rien de ce dossier n'est utilisé contre la personne poursuivie",
+      "motif": "Refus de l'audition anonyme : dossier distinct non communicable, détruit à la prescription avec procès-verbal ; phrases resserrées, l'avis du procureur, supprimé (R53-27), sort de la liste (passe 2).",
+      "ligne_rouge": "Droits de la défense examinés : les pièces d'un refus ne servent pas dans la procédure, sauf témoignage ultérieur sous identité.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "ainsi que, le cas échéant, l'avis du procureur de la République, le procès-verbal d'audition et le rapport prévus par les deuxième et troisième alinéas de l'article R. 53-27",
-          "nouveau": "ainsi que, le cas échéant, le procès-verbal d'audition et le rapport prévus au deuxième alinéa de l'article R. 53-27"
+          "op": "rediger",
+          "nouveau": "Si le juge des libertés et de la détention refuse l'audition anonyme, la requête, sa décision et, le cas échéant, les pièces jointes à la requête sont versées dans un dossier distinct que conserve le procureur de la République. Ce dossier n'est pas communiqué dans la procédure en cours, sauf si la personne accepte ensuite de témoigner sous son identité. A défaut, le procureur le détruit à l'expiration du délai de prescription de l'action publique et en dresse procès-verbal."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "R53-23",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Registre des adresses : premier alinéa de R53-22.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-22"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Changements d'adresse et remise des convocations : deuxième alinéa de R53-22.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-22"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-25",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Domicile déclaré devant la juridiction : dernier alinéa de R53-22.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-22"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-26",
+      "decision": "F",
+      "principe": "P11",
+      "motif": "Formalités non prescrites à peine de nullité : dernière phrase de R53-22, limitée comme avant au chapitre de la domiciliation.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) et art. 8 DDHC examinés : la règle, gardée à R53-22, ne couvre que les formalités du registre et de la domiciliation, la contestation de l'audition reste ouverte par la loi.",
+      "vers": "R53-22"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-29",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Numéro d'ordre : deuxième alinéa de R53-28.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-28"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-30",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Relecture, persistance, signature : deuxième alinéa de R53-28.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-28"
+    },
+    {
+      "code": "cpp",
+      "num": "R53-31",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Adresse et convocations du témoin anonyme : dernier alinéa de R53-28.",
+      "ligne_rouge": "aucune",
+      "vers": "R53-28"
     }
-  ]
+  ],
+  "passe": 3
 }
