@@ -21432,6 +21432,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/passe3/lot_p151",
+   "chemin": "revision/passe3/lot_p151.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/passe3/lot_p151.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/passe3/lot_p273",
    "chemin": "revision/passe3/lot_p273.json",
    "rang": "methode",
@@ -22800,6 +22814,7 @@
    "revision/passe3/lot_p148.json",
    "revision/passe3/lot_p149.json",
    "revision/passe3/lot_p150.json",
+   "revision/passe3/lot_p151.json",
    "revision/passe3/lot_p273.json",
    "revision/passe3/lot_p274.json",
    "revision/passe3/lot_p275.json",
@@ -22997,9 +23012,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1485,
-  "au_coffre": 1424,
-  "au_depot": 966,
+  "artefacts": 1486,
+  "au_coffre": 1425,
+  "au_depot": 967,
   "derives": 275,
   "sources": 48,
   "non_restaurables": 16,

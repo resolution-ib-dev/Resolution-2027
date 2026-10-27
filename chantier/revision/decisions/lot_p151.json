@@ -10,112 +10,143 @@
     {
       "code": "cpp",
       "num": "L4441-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Jugement par défaut de la personne non touchée, opposition ou appel : garantie du justiciable qui ignorait l'audience.",
-      "ligne_rouge": "art. 16 DDHC examiné : la personne jugée sans le savoir peut être rejugée"
-    },
-    {
-      "code": "cpp",
-      "num": "L4441-2",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Signification du jugement par défaut.",
-      "ligne_rouge": "aucune"
+      "motif": "Jugement par défaut et sa signification (L4441-2) en un article.",
+      "ligne_rouge": "Opposition (droits de la défense) : la personne qui n'a pas connu l'audience est rejugée sur opposition.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne régulièrement citée qui ne comparaît pas et n'est ni représentée ni défendue par un avocat au jour et à l'heure fixés est jugée par défaut, sauf si la citation lui a été délivrée à personne ou au domicile qu'elle a élu, ou s'il est établi qu'elle en a eu connaissance.\nLe jugement par défaut est signifié par exploit de commissaire de justice, selon les articles L. 1631-1 à L. 1631-4. La personne jugée par défaut peut y faire opposition, sauf si elle fait appel."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4441-3",
-      "decision": "G",
       "principe": "P6",
-      "motif": "Biens confisqués par défaut acquis à l'État à la prescription de la peine : la confiscation ne se perd pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : la confiscation est la peine prononcée ; art. 2 DDHC (propriété) examiné : opposition ouverte jusqu'à la prescription"
+      "motif": "Biens confisqués par défaut acquis à l'État : inchangé.",
+      "ligne_rouge": "Propriété (art. 17 DDHC) : l'acquisition n'intervient qu'à la prescription de la peine, faute d'opposition.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L4442-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Opposition anéantissant le jugement par défaut, limitable aux dispositions civiles : relève de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4442-2",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Avis de l'opposition à la partie civile (P18). La lettre recommandée cède à tout moyen qui établit la date de réception.",
-      "ligne_rouge": "aucune",
+      "motif": "Effet de l'opposition et avis à la partie civile (L4442-2) en un article ; formule de L1632-5.",
+      "ligne_rouge": "Opposition : le jugement par défaut est anéanti.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par lettre recommandée avec demande d'avis de réception",
-          "nouveau": "par tout moyen permettant d'en établir la date de réception"
+          "op": "rediger",
+          "nouveau": "L'opposition du prévenu rend le jugement par défaut non avenu dans toutes ses dispositions. Le prévenu peut la limiter aux dispositions civiles. Le ministère public, informé de l'opposition, en avise la partie civile par tout moyen permettant d'en établir la date de réception."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4442-3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Opposition du détenu par déclaration au chef de l'établissement : article source du code pénitentiaire (L315-2, lot p082). Relève de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "motif": "Opposition du détenu : phrases resserrées.",
+      "ligne_rouge": "Opposition : accès au juge du détenu gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le prévenu détenu peut former opposition par déclaration au chef de l'établissement pénitentiaire, qui la constate, la date et la signe avec lui, ou mentionne qu'il ne peut signer. La déclaration est adressée sans délai, en original ou en copie et par tout moyen, au ministère public près la juridiction qui a rendu la décision."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4442-4",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Délai d'opposition de dix jours ou d'un mois, quel que soit le mode de signification : règle commune, que L4442-6 applique aux autres parties.",
-      "ligne_rouge": "aucune"
+      "motif": "Délai d'opposition : sans les 1° et 2°.",
+      "ligne_rouge": "Opposition : délais de dix jours et d'un mois gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la signification du jugement a été faite à la personne du prévenu, à domicile, à étude de commissaire de justice ou à parquet, l'opposition est formée dans un délai de dix jours à compter de la signification si le prévenu réside en France métropolitaine, et d'un mois s'il réside hors de ce territoire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4442-5",
-      "decision": "S",
       "principe": "P11",
-      "motif": "Le premier alinéa répétait les délais de L4442-4 pour la signification à domicile, à étude ou à parquet : il tombe. Reste la règle propre, fidèle à P11 : sans preuve que le prévenu a connu la signification, le délai court du jour où il l'a connue.",
-      "ligne_rouge": "aucune",
+      "motif": "Texte de passe 2 (le premier alinéa répétait L4442-4), phrases resserrées (cité par L1632-3).",
+      "ligne_rouge": "Opposition : le délai ne court que de la connaissance effective.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Si la signification du jugement a été faite à domicile, à étude de commissaire de justice ou à parquet, l'opposition doit être formée, à compter de la signification, dans le délai :1° De dix jours si le prévenu réside en France métropolitaine ;2° D'un mois s'il réside hors de ce territoire.Toutefois, s'il s'agit d'un jugement de condamnation",
-          "nouveau": "Lorsque la signification du jugement n'a pas été faite à la personne du prévenu, s'il s'agit d'un jugement de condamnation"
+          "op": "rediger",
+          "nouveau": "Lorsque la signification d'un jugement de condamnation n'a pas été faite à la personne du prévenu et qu'il ne résulte ni de l'avis de réception ou du récépissé prévus aux articles L. 1631-7 et L. 1631-8, ni d'un acte d'exécution, ni de l'avis donné selon l'article L. 1631-12 qu'il a eu connaissance de la signification, l'opposition reste recevable sur les intérêts civils comme sur la condamnation pénale. Le délai d'opposition ne court alors que du jour où il en a eu connaissance."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4442-6",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Opposition de la partie civile et du civilement responsable dans les mêmes délais.",
-      "ligne_rouge": "aucune"
+      "motif": "Opposition des autres parties : inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L4443-1",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Opposant défaillant : opposition non avenue par itératif défaut, appel seul ouvert. Fin des manœuvres dilatoires.",
-      "ligne_rouge": "aucune"
+      "motif": "Itératif défaut : phrases resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'opposition est non avenue si l'opposant ne comparaît pas à la date qui lui a été fixée, soit par notification verbale constatée par procès-verbal lors de l'opposition, soit par une nouvelle citation délivrée à sa personne selon les articles L. 1631-1 à L. 1631-4. Le tribunal le constate par un jugement d'itératif défaut, susceptible d'appel mais non d'opposition."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4443-2",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Prison ferme : recherche de l'opposant et renvoi, rétention bornée à vingt-quatre heures, sinon opposition non avenue.",
-      "ligne_rouge": "art. 66 C examiné : rétention de vingt-quatre heures au plus, sous le contrôle du procureur puis du tribunal ; art. 8 DDHC examiné : la peine prononcée n'est pas modifiée"
+      "motif": "Recherche de l'opposant : phrases resserrées.",
+      "ligne_rouge": "Contrôle de la privation de liberté (art. 66 C) : rétention bornée à vingt-quatre heures. Individualisation (art. 8 DDHC) : la condamnation ferme n'est confirmée qu'après recherche.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas de condamnation à un emprisonnement sans sursis, le tribunal peut renvoyer l'affaire à une prochaine audience, sans nouvelle citation, et ordonner à la force publique de rechercher l'opposant et de le conduire devant le procureur de la République du siège du tribunal ou, s'il est trouvé hors du ressort, du lieu de l'arrestation. Le procureur le met en demeure de se présenter à l'audience de renvoi ou, s'il est celui du siège, l'y fait comparaître. Il dresse procès-verbal de ses diligences. L'opposant ne peut être retenu plus de vingt-quatre heures.\nSi les recherches restent vaines, ou si l'opposant mis en demeure ne comparaît pas, le tribunal déclare l'opposition non avenue sans nouveau renvoi."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4443-3",
-      "decision": "G",
       "principe": "P7",
-      "motif": "Modification du jugement sans aggravation, décision spécialement motivée : soupape au cas par cas.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction garde la faculté de moduler, dans le barème"
+      "motif": "Modification sans aggravation : inchangé.",
+      "ligne_rouge": "Individualisation (art. 8 DDHC) : soupape motivée, sans aggravation possible.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L4441-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Signification du jugement par défaut : second alinéa de L4441-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4441-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4442-2",
+      "decision": "F",
+      "principe": "P12",
+      "motif": "Avis de l'opposition à la partie civile : L4442-1, formule de L1632-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L4442-1"
     }
-  ]
+  ],
+  "passe": 3
 }
