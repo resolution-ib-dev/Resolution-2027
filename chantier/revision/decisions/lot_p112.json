@@ -9,459 +9,553 @@
   "decisions": [
     {
       "code": "penitentiaire",
-      "num": "D332-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Provision alimentaire de 200 euros par mois versée à la part disponible, surplus réparti : base de la répartition du compte nominatif. Le niveau de la provision, qui retarde la part des victimes, est renvoyé à l'auteur avec D332-12.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-11",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Indemnisation des parties civiles sur la première part, information sans délai de l'établissement par le parquet, part indisponible : la victime d'abord. Source de D325 du code de procédure pénale, abrogé comme miroir (lot p035).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-12",
-      "decision": "R",
-      "principe": "P18",
-      "motif": "Registre 6.2 : la part des victimes et des créanciers d'aliments est portée à [50] % des sommes au-delà de la provision alimentaire de 200 euros, gardée (D332-10). Un taux unique remplace les trois tranches de 20 à 30 %. Plafond levé dès qu'une victime se manifeste et versement volontaire gardés.",
-      "ligne_rouge": "art. 2 DDHC (propriété) examiné : le prélèvement porte sur les sommes reçues en détention au-delà d'une provision alimentaire gardée, au profit d'une créance de réparation ; P18 : la réparation passe avant la consommation",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "est déterminée en appliquant à la fraction des sommes que reçoivent les personnes détenues les taux de :\n- 20 %, pour la fraction supérieure à 200 euros et inférieure ou égale à 400 euros ;- 25 %, pour la fraction supérieure à 400 euros et inférieure ou égale à 600 euros ;- 30 %, pour la fraction supérieure à 600 euros.",
-          "nouveau": "est déterminée en appliquant le taux de [50] % à la fraction supérieure à 200 euros des sommes que reçoivent les personnes détenues."
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-13",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Pécule de libération à 10 %, dispense pour les aménagements (D424-1) : épargne de sortie, une ligne.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-14",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Pécule versé sur un livret A au-delà d'un seuil, indisponible et insaisissable pendant la détention : gardé. La phrase qui renvoie à une instruction de service ne pose aucune règle : elle tombe.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Une instruction de service détermine les modalités d'application de ces dispositions.",
-          "nouveau": ""
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-15",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Part disponible définie comme le reste après prélèvements : définition nécessaire, une phrase.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-16",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Remise de 2,5 % au régisseur sur les condamnations pécuniaires acquittées : incitation au recouvrement, la peine d'amende s'exécute.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-17",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Versement à l'extérieur consenti par le détenu et autorisé par le magistrat pour le prévenu, par le chef d'établissement sinon : prévient la collusion. Source de D330 du code de procédure pénale, abrogé comme miroir (lot p035).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-18",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Retenue pour dommage causé en détention, strictement nécessaire, décision chiffrée et notifiée : réparation proportionnée. La notification n'impose aucun papier : la proposition P12 est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-19",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Sommes détenues irrégulièrement versées au Trésor sur décision notifiée : pas de profit d'un trafic. La notification n'impose aucun papier : la proposition P12 est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-20",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Saisie-attribution sur la part disponible et saisie des rémunérations dans les conditions du droit commun : les créanciers, victimes comprises, gardent leurs voies d'exécution.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-21",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Liquidation du compte à la libération, avec les justificatifs des paiements aux victimes et au Trésor : règle de sortie, nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-22",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Sommes non réclamées des parties civiles versées au fonds de garantie, avec les informations utiles à l'indemnisation des victimes : la part des victimes ne revient pas au condamné.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-23",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Contrainte judiciaire : les parts réservées n'éteignent la dette envers l'État qu'une fois les victimes et créanciers d'aliments désintéressés. Renvoi à l'ancien 759 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-24",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Pendant une suspension ou un fractionnement, seule la part disponible est remise : la part des victimes et le pécule attendent la fin de l'exécution. Renvoi à l'ancien 720-1 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la suspension ou le fractionnement relève de la juridiction, l'article ne règle que la liquidation du compte et garde la part des victimes jusqu'à la fin de la peine"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-34",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Prix de cantine fixés par le chef d'établissement, frais de manutention compris : le contribuable ne finance pas la consommation.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
       "num": "D332-7",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Information de l'autorité judiciaire sur les sommes et objets susceptibles de saisie : sert l'enquête et la confiscation. Source de D339 du code de procédure pénale, abrogé comme miroir (lot p035).",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Signalement à l'autorité judiciaire des sommes et objets saisissables : gardé en une phrase courte.",
+      "ligne_rouge": "aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le chef d'établissement signale à l'autorité judiciaire les sommes et objets trouvés sur une personne détenue, apportés par elle ou qui lui sont envoyés, que leur nature, leur importance ou leur origine rend susceptibles d'être retenus ou saisis."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "D332-8",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Biens d'un détenu décédé non réclamés en trois ans remis aux domaines : délai de clôture, décharge de l'administration.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-8-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Évasion : la part disponible va d'office à l'indemnisation des parties civiles, rétablissement possible après reprise sur décision notifiée. La notification n'impose aucun papier : la proposition P12 est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D332-8-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Évadé non repris en un an : sommes au Trésor, objets aux domaines. Délai de clôture, met en œuvre L332-4.",
-      "ligne_rouge": "aucune"
+      "motif": "Biens en cas de décès ou d'évasion en un article (D332-8-1, D332-8-2 fusionnés). L'évasion renvoie à L. 332-4, qui pose déjà l'affectation d'office, le reliquat au Trésor et le délai d'un an : seuls l'autorité qui rétablit le reliquat et la notification restent.",
+      "ligne_rouge": "aucune.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les bijoux, valeurs, vêtements et effets personnels d'une personne détenue décédée que ses ayants droit n'ont pas réclamés dans les trois ans sont remis à l'administration chargée des domaines, ce qui décharge l'administration pénitentiaire. L'argent est versé au Trésor.\nEn cas d'évasion, le régisseur procède aux affectations et versements prévus à l'article L. 332-4. Le directeur interrégional des services pénitentiaires du lieu de l'évasion, saisi d'une demande, décide du rétablissement du reliquat au profit de la personne reprise. Sa décision est notifiée à la personne et au régisseur."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "D332-9",
-      "decision": "G",
+      "principe": "P23",
+      "motif": "Compte nominatif : inscription des sommes à l'écrou, crédit et débit, revenus extérieurs versés au choix sur un compte bancaire (reprise de R332-1, dont l'interdiction de l'argent en détention sort au règlement intérieur type).",
+      "ligne_rouge": "aucune.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Chaque établissement pénitentiaire tient le compte nominatif de chaque personne détenue. Les sommes qu'elle porte à son écrou y sont inscrites sur-le-champ, sauf si elle en demande l'envoi à un tiers ou la consignation. Leur importance ne justifie jamais un refus de prise en charge. Le compte est crédité ou débité de toutes les sommes dues à la personne détenue ou par elle. Elle peut faire verser ses allocations et revenus extérieurs sur un compte bancaire personnel ou sur ce compte."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-10",
+      "principe": "P18",
+      "motif": "Répartition en un article (D332-13 et D332-15 fusionnés) : provision alimentaire de 200 euros gardée, taux unique de [50] % pour la part des victimes (registre 6.2, décision de passe 2), pécule à 10 %, part disponible pour le reste.",
+      "ligne_rouge": "aucune : la part des victimes passe avant la part disponible.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les sommes que reçoit la personne détenue ont un caractère alimentaire jusqu'à 200 euros par mois, montant doublé pour les fêtes de fin d'année. Elles vont en entier à la part disponible jusqu'à ce montant. Sauf règles propres aux rentes, pensions et indemnités, le surplus se répartit ainsi :\n1° [50] % à la part des parties civiles et des créanciers d'aliments, sous réserve de l'article D. 332-12.\n2° 10 % au pécule de libération, sauf dispense prévue à l'article D. 424-1.\n3° Le reste à la part disponible."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-12",
+      "principe": "P18",
+      "motif": "Part des parties civiles et des créanciers d'aliments en un article (D332-11 fusionné) : indisponibilité, information par le ministère public, plafond de 1 000 euros levé dès qu'une victime ou un créancier se manifeste, versement volontaire. Le taux unique est à D332-10.",
+      "ligne_rouge": "aucune : la victime d'abord (P18).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La première part indemnise les parties civiles et les créanciers d'aliments. La personne détenue ne peut en disposer. Dès que la condamnation est définitive, le ministère public près la juridiction qui l'a prononcée informe sans délai l'établissement des créances des parties civiles et de leur montant.\nLe prélèvement pour cette part va à la part disponible lorsque cette part atteint 1 000 euros, que les parties civiles sont entièrement indemnisées ou que la décision définitive ne compte aucune partie civile ou n'alloue aucun dommage et intérêt, et qu'aucun créancier d'aliments ne s'est prévalu d'un titre exécutoire. Il reprend, même au-delà de ce plafond, dès qu'un créancier d'aliments se prévaut d'un titre exécutoire ou qu'une victime d'une infraction visée par une condamnation inscrite à l'écrou se prévaut d'une décision exécutoire lui allouant des dommages et intérêts.\nÀ sa demande, la personne détenue peut verser sur cette part des sommes de sa part disponible, même sans décision connue sur les intérêts civils."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-14",
       "principe": "P20",
-      "motif": "Compte nominatif tenu dans chaque établissement, sommes d'entrée inscrites sans que leur montant justifie un refus : définition socle du compte.",
-      "ligne_rouge": "aucune"
+      "motif": "Pécule de libération : compte spécial, livret A, capital des rentes d'accident du travail, indisponibilité. L'instruction de service tombe (passe 2). L'insaisissabilité est posée par L. 332-1.",
+      "ligne_rouge": "aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le pécule de libération est inscrit à un compte spécial et versé sur un livret A au-delà d'un montant fixé par arrêté du garde des sceaux, ministre de la justice, annexé au présent code. Le capital représentatif des rentes d'accident du travail converties en application du décret n° 59-734 du 15 juin 1959 y est versé en entier. Le pécule est indisponible pendant la détention."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-17",
+      "principe": "P4",
+      "motif": "Versement à l'extérieur consenti par la personne et autorisé : gardé, il absorbe l'envoi d'argent à la famille (R332-3) et l'information du magistrat sur cet envoi (R332-5), que l'autorisation du magistrat couvre.",
+      "ligne_rouge": "aucune : contrôle du juge sur la personne prévenue gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Tout versement à l'extérieur sur la part disponible est demandé ou consenti par la personne détenue et autorisé expressément par le chef d'établissement ou, pour une personne prévenue, par le magistrat chargé du dossier de la procédure."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-18",
+      "principe": "P23",
+      "motif": "Retenues pour dommage et versement au Trésor des sommes irrégulières en un article (D332-19 fusionné) : la décision du chef d'établissement est chiffrée et notifiée. Le principe est à L. 332-3.",
+      "ligne_rouge": "aucune : réparation proportionnée et notifiée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le chef d'établissement décide les retenues et les versements au Trésor prévus au premier alinéa de l'article L. 332-3. La retenue est strictement nécessaire à la réparation du dommage constaté. La décision en fixe le montant et les bases de liquidation. Toute décision est notifiée à la personne détenue et au régisseur, qui prélève la retenue sur la part disponible et verse les sommes au Trésor public."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-20",
+      "principe": "P23",
+      "motif": "Saisie-attribution sur la part disponible et saisie des rémunérations : gardées en phrases courtes.",
+      "ligne_rouge": "aucune : les créanciers, victimes comprises, gardent leurs voies d'exécution.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Une saisie-attribution peut être formée dans les conditions du droit commun entre les mains du régisseur des comptes nominatifs. Elle ne porte que sur la part disponible, sous réserve du cantonnement ordonné par l'autorité judiciaire et des insaisissabilités légales. La rémunération de la personne détenue peut être saisie dans les conditions du droit commun."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-21",
+      "principe": "P23",
+      "motif": "Liquidation du compte à la libération en un article (D332-24 et R332-30 fusionnés) : solde, justificatifs, virement ou espèces, escorte, transfert, suspension et fractionnement de peine. Le renvoi à D215-18, abrogé (lot p110), tombe.",
+      "ligne_rouge": "art. 8 DDHC examiné (D332-24) : la suspension ou le fractionnement ne libère que la part disponible, la part des victimes et le pécule attendent la fin de l'exécution.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "À sa libération, la personne détenue reçoit le solde de son compte nominatif, sous réserve du versement prévu à l'article D. 332-22. Lui sont remis, le cas échéant, les justificatifs des sommes payées pour ses condamnations pécuniaires et pour l'indemnisation des parties civiles, un état de son pécule et un état des cotisations sociales prélevées. Le solde est versé par virement bancaire, ou en espèces lorsqu'elle n'a pas de compte bancaire ou que le virement international est impossible. Si elle est escortée après sa libération, les fonds et justificatifs sont remis contre décharge au chef d'escorte. En cas de transfert, les justificatifs sont remis de même.\nLa personne qui bénéficie d'une suspension ou d'un fractionnement de peine ne reçoit que sa part disponible. Les deux autres parts ne sont liquidées qu'à la fin de l'exécution de la peine."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-22",
+      "principe": "P20",
+      "motif": "Seuil de versement au fonds de garantie fixé à 500 euros : L. 332-3 pose la règle et renvoie au décret pour le montant. Transmission des informations utiles aux victimes gardée.",
+      "ligne_rouge": "aucune : la part des victimes ne revient pas au condamné.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le montant prévu au second alinéa de l'article L. 332-3 est de 500 euros. Lors du versement, l'administration pénitentiaire transmet au fonds de garantie les informations utiles à l'indemnisation des victimes, selon le septième alinéa de l'article L. 422-1 du code des assurances."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-23",
+      "principe": "P18",
+      "motif": "Contrainte judiciaire : répartition commune, extinction de la dette par les parts réservées une fois les victimes et créanciers désintéressés. L'ancien article 759 cède la place au nom de la mesure. Les renvois suivent les fusions de D332-13 et D332-15 dans D332-10.",
+      "ligne_rouge": "aucune : la victime d'abord.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La répartition prévue aux articles D. 332-10 et D. 332-12 s'applique à la personne qui exécute une contrainte judiciaire. Pour faire cesser la contrainte par le paiement, elle peut demander que les sommes de sa part des parties civiles et de son pécule éteignent sa dette, lorsque les parties civiles sont entièrement indemnisées ou que la décision définitive ne compte aucune partie civile ou n'alloue aucun dommage et intérêt, et qu'aucun créancier d'aliments ne s'est prévalu d'un titre exécutoire."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "D333-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Seuils cumulatifs d'indigence à 100 euros pour l'aide en nature : aide ciblée, critères chiffrés.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D333-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Aide en numéraire sous 60 euros, critères cumulatifs : aide ciblée, chiffrée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D333-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Aides attribuées par l'administration en tenant compte des aides de tiers autorisés : pas de cumul au-delà du besoin.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Aide aux personnes sans ressources suffisantes en un article (D333-2 et D333-3 fusionnés) : seuils de 100 et 60 euros, premier mois, aides de tiers. L. 333-1 pose le droit.",
+      "ligne_rouge": "aucune.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Est dépourvue de ressources suffisantes la personne détenue dont la part disponible du mois précédent, la part disponible du mois courant et les dépenses cumulées du mois courant sont chacune inférieures à 100 euros. Elle peut alors recevoir des aides en nature de l'État. Pour ces aides, la part disponible du mois précédent n'est pas prise en compte pendant le premier mois de détention. Elle peut recevoir une aide en numéraire de l'État lorsque ces trois montants sont chacun inférieurs à 60 euros.\nL'administration pénitentiaire attribue ces aides en tenant compte de celles que des tiers qu'elle a autorisés versent à la personne."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R331-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Dépôt au greffe, sous pli fermé, des documents personnels et des copies de pièces de procédure, restitution à tout moment : confidentialité des pièces de la défense.",
-      "ligne_rouge": "droits de la défense examinés : copies de procédure conservées sous pli fermé au greffe, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R331-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Documents d'un détenu décédé remis aux ayants droit ou archivés : règle de clôture, une phrase.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Ni argent ni moyen de paiement en détention, sommes d'entrée envoyées, consignées ou inscrites, revenus versés à l'extérieur au choix : prévient le racket et le trafic.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Dépôt des documents personnels et des copies de pièces au greffe et sort des documents au décès en un article (R331-2 fusionné). Le droit à la confidentialité est posé par L. 331-1.",
+      "ligne_rouge": "aucune : confidentialité des pièces de la défense gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue peut remettre à tout moment au greffe, sous pli fermé, les documents personnels qu'elle détient à son écrou ou qu'elle reçoit en détention, ainsi que les copies de pièces de procédure obtenues selon les articles R. 155 et R. 165 du code de procédure pénale. Le greffe les conserve et en préserve la confidentialité. Elle peut en demander la restitution à tout moment.\nÀ son décès, ces documents sont remis à ses ayants droit ou, à défaut, joints à son dossier individuel et versés avec lui, s'il y a lieu, aux archives départementales."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R332-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le détenu garde la gestion de ses biens extérieurs, par mandataire étranger à l'administration : propriété (art. 2 DDHC) tenue.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-25",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Création des régies et nomination du régisseur par arrêté, cumul des régies possible : organisation comptable minimale.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-26",
+      "motif": "Gestion des biens extérieurs par la personne ou son mandataire : gardée. Le renvoi aux règles de correspondance pour l'envoi des procurations tombe : elles s'appliquent d'elles-mêmes.",
+      "ligne_rouge": "aucune : propriété (art. 2 DDHC) tenue.",
       "decision": "S",
-      "principe": "P15",
-      "motif": "Mandataires suppléants nommés par le régisseur avec l'accord du chef d'établissement : l'avis supplémentaire du directeur interrégional ne protège aucune liberté, il tombe. Coquille corrigée : le décret relatif aux régies est le n° 2019-798 du 26 juillet 2019 (R332-6).",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "après accord du chef de l'établissement pénitentiaire et après avis du directeur interrégional des services pénitentiaires.",
-          "nouveau": "après accord du chef de l'établissement pénitentiaire."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "décret n° 2018-798 du 26 juillet 2019",
-          "nouveau": "décret n° 2019-798 du 26 juillet 2019"
+          "op": "rediger",
+          "nouveau": "La personne détenue garde la gestion de ses biens patrimoniaux extérieurs. Elle peut l'exercer par un mandataire étranger à l'administration pénitentiaire."
         }
       ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-27",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Comptabilité auxiliaire, affectation des recettes à chaque compte, fonds au Trésor : traçabilité des deniers des détenus.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-28",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Encaissements et paiements du régisseur, dont les sommes dues par les détenus et les reversements à la sortie : règle de caisse.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article règle les opérations de caisse, non la peine ; l'aménagement reste décidé par le juge"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-29",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Avances sur rémunérations et aides, virement du solde au transfèrement, régularisation au plus tard le mois suivant : délais tenus.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Envois à la famille et subsides de titulaires d'un permis sur autorisation, subsides exceptionnels pour une dépense justifiée : contrôle des flux d'argent.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-30",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Solde versé par virement, espèces à défaut de compte : le paiement dématérialisé est la règle.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-31",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Oppositions notifiées entre les mains du régisseur : guichet unique pour les créanciers.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-32",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Clôture mensuelle, pièces au comptable et au directeur interrégional, contrôle interne : la régie rend compte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-33",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Cantine sous contrôle du chef d'établissement, prix affichés, alcool interdit : gardé. Coquille corrigée (« des d'objets »).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "acquérir des d'objets",
-          "nouveau": "acquérir des objets"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-35",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le détenu porte ses vêtements, sauf décision pour l'ordre, la sécurité ou la propreté, vêtements fournis à l'indigent : dignité et coût maîtrisés.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-36",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Tenue en bon état fournie au prévenu pour sa comparution : il se présente au juge sans marque de détention.",
-      "ligne_rouge": "présomption d'innocence examinée : le prévenu comparaît dans une tenue décente, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-37",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Bijoux retirés sauf alliance, montre et pendentif religieux, inventaire et responsabilité de l'administration en cas de perte : propriété protégée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-38",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Refus de prise en charge des objets encombrants ou précieux, remise à un proche ou expédition aux frais du détenu : charge maîtrisée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-39",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Objets suivant le détenu transféré, restitués à la libération ou à la sortie en aménagement, contre décharge : règle de gestion.",
-      "ligne_rouge": "art. 8 DDHC examiné : restitution des objets, sans effet sur la peine"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le prévenu peut établir des procurations et solliciter un notaire : gestion de ses affaires pendant la détention provisoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-40",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Remise d'objets du prévenu à un tiers avec l'accord du magistrat chargé du dossier : prévient la disparition de preuves. Renvoi à l'ancien 715 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-41",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Équipement informatique acquis par l'administration, contrôlé, retenu pour l'ordre ou si le détenu en bloque l'accès : nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-42",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réception et envoi d'objets interdits hors liste fixée par arrêté, notification et réexpédition aux frais de l'expéditeur : prévient l'entrée d'objets illicites. La notification n'impose aucun papier : la proposition P12 est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-43",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Contrôles de sécurité et voies de réception ou d'envoi des objets autorisés : gardés. Coquille corrigée (« son l'autorité parentale »).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "son l'autorité parentale",
-          "nouveau": "son autorité parentale"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-44",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Retrait d'objets pour la sécurité, contre une dotation de protection, dépôt au vestiaire : prévention du suicide et des violences.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R332-45",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Objets interdits et pièces d'identité au vestiaire, restitués à la sortie, photographies de famille gardées : sécurité sans atteinte aux liens.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R332-5",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Contrôle du magistrat sur les procurations, les notaires, les envois et les subsides du prévenu : prévient la collusion. Renvoi à l'ancien 715 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Biens de la personne prévenue en un article (R332-4 et R332-40 fusionnés) : procurations, notaire, subsides, objets dont elle se défait, sous le contrôle du magistrat chargé du dossier. L'ancien article 715 cède la place au nom du magistrat. L'envoi d'argent à la famille relève de D332-17.",
+      "ligne_rouge": "aucune : contrôle du juge sur les biens de la personne prévenue gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne prévenue peut établir des procurations et faire établir un acte par un notaire qui intervient dans l'établissement. Le magistrat chargé du dossier de la procédure contrôle ses procurations dans les conditions qu'il fixe, autorise l'intervention du notaire et autorise les subsides qu'elle reçoit. Elle ne remet ou n'envoie à un tiers les objets et bijoux dont elle veut se défaire qu'avec l'accord de ce magistrat."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R332-6",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Régie des comptes nominatifs, compte de tiers, deniers privés réglementés, règles du décret de 2019 : cadre comptable, nécessaire.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Régie des comptes nominatifs en un article (R332-25, R332-26, R332-27, R332-28, R332-29, R332-31 fusionnés) : création, régisseur, mandataires, avances, virement au transfèrement, oppositions. Les dérogations aux décrets de 2012 et de 2019 restent au décret. La comptabilité auxiliaire, le compte de commerce, les mandatements et la clôture mensuelle descendent à l'arrêté. L'avis du directeur interrégional sur les mandataires tombe (passe 2).",
+      "ligne_rouge": "aucune.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans chaque établissement pénitentiaire, une régie des comptes nominatifs, créée par arrêté du garde des sceaux, ministre de la justice, gère les biens et valeurs des personnes détenues. Leurs fonds sont des deniers privés réglementés, inscrits en compte de tiers dans la comptabilité de l'État et déposés sur un compte de dépôt de fonds au Trésor. Sauf disposition contraire du présent code, la régie suit le décret n° 2019-798 du 26 juillet 2019 relatif aux régies de recettes et d'avances des organismes publics. Son comptable assignataire est celui de l'établissement.\nLe régisseur des comptes nominatifs est nommé par arrêté du garde des sceaux, ministre de la justice, après agrément du comptable public assignataire. Il peut être aussi régisseur de recettes et d'avances de l'établissement lorsque le service l'impose. Avec l'accord du chef d'établissement, il nomme un ou plusieurs mandataires suppléants et désigne d'autres mandataires parmi le personnel. Le régisseur intérimaire est nommé comme le régisseur. Lorsque le service l'exige, le troisième alinéa de l'article 3 du même décret ne s'applique pas aux mandataires.\nLe régisseur encaisse, conserve et comptabilise les fonds et valeurs des personnes détenues. Il paie les sommes qu'elles doivent et celles qu'elles demandent à payer avec l'autorisation du chef d'établissement. Dans la limite des fonds de son compte au Trésor, il crédite par avance la rémunération nette et l'aide en numéraire dès réception des éléments de paye ou de la décision d'aide. Au transfèrement, il vire le solde du compte sans délai à la régie de l'établissement d'arrivée.\nToute opposition sur les sommes des personnes détenues se notifie au régisseur, par dérogation à l'article 37 du décret n° 2012-1246 du 7 novembre 2012 relatif à la gestion budgétaire et comptable publique."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-36",
+      "principe": "P25",
+      "motif": "Tenue en bon état fournie à la personne prévenue pour sa comparution : gardée dans le code, hors du règlement intérieur type, parce qu'elle sert la présomption d'innocence.",
+      "ligne_rouge": "présomption d'innocence examinée : la personne prévenue comparaît sans marque de détention.",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-37",
+      "principe": "P21",
+      "motif": "Bijoux et effets personnels en un article (relecture adverse) : alliance, montre et pendentifs religieux (CEDH art. 9), photographies de famille en cellule (CEDH art. 8), inventaire, estimation, dépôt, restitution à la libération et aux sorties en aménagement ou suspension de peine, responsabilité de l'établissement en cas de perte (art. 2 et 17 DDHC). La faculté de s'en défaire et les modalités sortent au règlement intérieur type.",
+      "ligne_rouge": "aucune : propriété (art. 2 DDHC) tenue.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue garde son alliance, sa montre, ses pendentifs religieux et, en cellule, ses photographies de famille. Ses autres bijoux et ses valeurs sont inventoriés, estimés et déposés à la régie des comptes nominatifs. Les objets et valeurs déposés lui sont restitués contre décharge à sa libération et à sa sortie en aménagement ou en suspension de peine. En cas de perte par l'établissement, leur valeur d'estimation est remise à la personne ou à ses ayants droit."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-41",
+      "principe": "P25",
+      "motif": "Équipements informatiques : gardés dans le code, hors du règlement intérieur type, parce qu'ils règlent le contrôle des données de la personne. « Sans préjudice » devient la saisie judiciaire qui reste possible.",
+      "ligne_rouge": "vie privée examinée : contrôle des données borné à l'ordre et à la sécurité, retenue jusqu'à la libération seulement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue peut acquérir des équipements informatiques par l'intermédiaire de l'administration. Elle n'y conserve que des documents liés à des activités socioculturelles, d'enseignement, de formation ou professionnelles. L'administration contrôle ces équipements et leurs données. Elle peut retenir un équipement jusqu'à la libération pour des raisons d'ordre et de sécurité, ou lorsque la personne empêche volontairement l'accès à ses données. La saisie par l'autorité judiciaire reste possible."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-8-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Évasion fusionnée dans D332-8 par renvoi à L. 332-4.",
+      "ligne_rouge": "aucune.",
+      "vers": "D332-8"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-8-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Évadé non repris : L. 332-4 pose le délai d'un an, D332-8 y renvoie.",
+      "ligne_rouge": "aucune.",
+      "vers": "D332-8"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-11",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Indemnisation des parties civiles et information par le ministère public fusionnées dans D332-12.",
+      "ligne_rouge": "aucune.",
+      "vers": "D332-12"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pécule de 10 % fusionné dans la répartition (D332-10).",
+      "ligne_rouge": "aucune.",
+      "vers": "D332-10"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Part disponible fusionnée dans la répartition (D332-10).",
+      "ligne_rouge": "aucune.",
+      "vers": "D332-10"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-16",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Remise de 2,5 % aux régisseurs : rémunération d'agents comptables, à l'arrêté du garde des sceaux et du ministre chargé du budget (P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-19",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Sommes irrégulières versées au Trésor fusionnées dans D332-18.",
+      "ligne_rouge": "aucune.",
+      "vers": "D332-18"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-24",
+      "decision": "F",
+      "principe": "P10",
+      "motif": "Suspension et fractionnement de peine fusionnés dans D332-21.",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle est reprise au second alinéa de D332-21 ; la peine n'est pas touchée.",
+      "vers": "D332-21"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D332-34",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Prix de cantine : modalité de gestion, à l'arrêté du garde des sceaux (P1). La cantine elle-même sort au règlement intérieur type (R332-33).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D333-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Aide en numéraire fusionnée dans D333-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "D333-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D333-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Attribution des aides fusionnée dans D333-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "D333-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R331-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Documents au décès fusionnés dans R331-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R331-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-1",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1). Les sommes à l'écrou et les revenus extérieurs sont repris à D332-9.",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-3",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1). L'envoi d'argent à la famille rejoint D332-17, les subsides de la personne prévenue R332-5.",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procurations et notaire de la personne prévenue fusionnés dans R332-5.",
+      "ligne_rouge": "aucune.",
+      "vers": "R332-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-25",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Création des régies et nomination du régisseur fusionnées dans R332-6.",
+      "ligne_rouge": "aucune.",
+      "vers": "R332-6"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-26",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mandataires et régisseur intérimaire fusionnés dans R332-6 ; l'avis du directeur interrégional tombe (passe 2).",
+      "ligne_rouge": "aucune.",
+      "vers": "R332-6"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-27",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dépôt des fonds au Trésor fusionné dans R332-6 ; la forme de la comptabilité auxiliaire descend à l'arrêté (P1).",
+      "ligne_rouge": "aucune.",
+      "vers": "R332-6"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-28",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Encaissements et paiements du régisseur fusionnés dans R332-6.",
+      "ligne_rouge": "art. 8 DDHC examiné : règle de caisse, elle ne touche ni le prononcé ni la durée de la peine ; le reversement des sommes à la sortie et aux aménagements reste dû (R332-6, D332-21).",
+      "vers": "R332-6"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-29",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avances et virement au transfèrement fusionnés dans R332-6 ; le compte de commerce et les mandatements descendent à l'arrêté (P1).",
+      "ligne_rouge": "aucune.",
+      "vers": "R332-6"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-30",
+      "decision": "F",
+      "principe": "P12",
+      "motif": "Versement du solde par virement ou en espèces fusionné dans D332-21 (libération) et R332-6 (transfèrement).",
+      "ligne_rouge": "aucune.",
+      "vers": "D332-21"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-31",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Oppositions entre les mains du régisseur fusionnées dans R332-6.",
+      "ligne_rouge": "aucune.",
+      "vers": "R332-6"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-32",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Clôture mensuelle, transmission des pièces et contrôle interne de la régie : règles de gestion comptable, à l'arrêté du garde des sceaux (P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-33",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-35",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-38",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-39",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "art. 8 DDHC examiné : restitution à la libération et à l'aménagement gardée à R332-37."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-40",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accord du magistrat sur les objets de la personne prévenue fusionné dans R332-5.",
+      "ligne_rouge": "aucune.",
+      "vers": "R332-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-42",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-43",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-44",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R332-45",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
     }
-  ]
+  ],
+  "passe": 3
 }
