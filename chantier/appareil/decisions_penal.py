@@ -68,6 +68,8 @@ def main():
             ap = [v for v in vs if droit.applicable(v, j)]
             if ap:
                 textes[(code, ap[-1]["num"])] = (ap[-1]["texte"] or "", ap[-1].get("section") or "")
+    # les renvois de chaque texte, normalisés une fois pour tous les lots
+    refs = {k: [droit.norm_num(x) for x in renvois(t)] for k, (t, _) in textes.items()}
     partout = collections.defaultdict(list)
     for f in sorted(DEC.glob("*.json")):
         for d in json.loads(f.read_text(encoding="utf-8"))["decisions"]:
@@ -132,8 +134,7 @@ def main():
         for (c, n), (t, _) in textes.items():
             if (c, n) in decides:
                 continue
-            for x in renvois(t):
-                k = droit.norm_num(x)
+            for k in refs[(c, n)]:
                 # un renvoi vers un autre code ne compte que si le texte nomme ce code (registre 8.4)
                 if k in cibles and (cibles[k][0] == c or NOMS_CODES[cibles[k][0]] in t):
                     coord[cibles[k][1]].append(n)
