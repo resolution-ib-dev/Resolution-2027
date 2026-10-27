@@ -10,128 +10,174 @@
     {
       "code": "cpp",
       "num": "L4211-1",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Liste des mesures alternatives aux poursuites, proposées pour réparer, faire cesser le trouble ou reclasser : réponse rapide au petit contentieux, avant décision sur l'action pénale. Avis au curateur et au juge des tutelles pour le majeur protégé.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Régime commun des mesures alternatives en un article : liste (numérotation gardée, citée par A43-5-1), personnes qui les mettent en œuvre (L4211-2), avis au curateur, suite de l'inexécution (L4211-3).",
+      "ligne_rouge": "Présomption d'innocence et accord de la personne (art. 9 DDHC) : la mesure est proposée à l'auteur, qui l'accepte ou s'expose aux poursuites. Droits de la victime : réparation et médiation à sa demande gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour réparer le dommage causé à la victime, mettre fin au trouble résultant de l'infraction ou contribuer au reclassement de l'auteur des faits, le procureur de la République peut, avant de décider de l'action pénale, lui proposer une ou plusieurs des mesures suivantes :\n1° Avertissement pénal probatoire.\n2° Réparation.\n3° Régularisation.\n4° Orientation ou stage.\n5° Médiation.\n6° Éloignement du logement.\n7° Abstention de paraître.\n8° Abstention de contacts avec la victime.\n9° Abstention de contacts avec les coauteurs ou complices.\n10° Contribution citoyenne.\n11° Orientation en vue d'une transaction municipale.\nLa mesure est mise en œuvre par le procureur de la République, son délégué ou son médiateur ou, sauf disposition contraire, par un officier de police judiciaire ou une personne chargée de certaines fonctions de police judiciaire relevant du titre IV du livre II de la deuxième partie.\nPour les mesures prévues aux 2° et 5°, le procureur de la République avise le curateur ou le tuteur et le juge des tutelles du majeur protégé au sens de l'article L. 1711-2.\nSi la mesure n'est pas exécutée du fait de l'auteur, le procureur de la République, sauf élément nouveau, met en œuvre une composition pénale ou engage des poursuites."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4211-4",
+      "principe": "P23",
+      "motif": "Avertissement pénal probatoire : mêmes conditions et mêmes exclusions, phrases resserrées, le point-virgule tombe.",
+      "ligne_rouge": "Présomption d'innocence : la reconnaissance de culpabilité reste la condition de l'avertissement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Seul le procureur de la République ou son délégué peut adresser l'avertissement pénal probatoire. Il rappelle à l'auteur qui a reconnu sa culpabilité les obligations résultant de la loi ou du règlement et les peines encourues, et lui indique que l'avertissement est revu s'il commet une nouvelle infraction dans les deux ans, ou dans l'année en matière contraventionnelle. L'avertissement est exclu pour la personne déjà condamnée, pour un délit de violences et pour un délit commis contre une personne dépositaire de l'autorité publique ou investie d'un mandat électif public. Si l'infraction a causé un préjudice, il suppose sa réparation ou l'application de la mesure de réparation."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4211-5",
+      "principe": "P23",
+      "motif": "Réparation et régularisation en un article : contenu de chaque mesure inchangé (L4211-6 fusionné).",
+      "ligne_rouge": "Droits de la victime : réparation, restitution et versement à la victime gardés. Propriété (art. 17 DDHC) : le dessaisissement au profit d'un tiers suppose toujours l'absence de droit d'un tiers.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La réparation consiste pour l'auteur à réparer le dommage résultant des faits. Elle peut notamment consister en une restitution, en un versement à la victime ou à la personne qui a engagé des frais pour remettre en état les lieux ou les choses dégradés, ou en leur remise en état.\nLa régularisation consiste pour l'auteur à régulariser sa situation au regard de la loi ou des règlements. Elle peut notamment consister à se dessaisir au profit de l'État de la chose qui a servi ou était destinée à commettre l'infraction ou qui en était le produit. Le dessaisissement peut se faire au bénéfice d'une personne morale à but non lucratif désignée par le procureur de la République, si l'auteur est propriétaire de la chose et qu'aucun tiers n'est susceptible d'avoir des droits sur elle."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4211-7",
+      "principe": "P23",
+      "motif": "Liste des stages gardée, numérotée en phrases : elle sert aussi à la composition pénale (L4221-13 y renvoie au lieu de la recopier).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'orientation consiste à se présenter dans une structure sanitaire, sociale ou professionnelle, ou à y accomplir à ses frais un stage ou une formation, notamment un stage :\n1° De citoyenneté.\n2° De responsabilité parentale.\n3° De sensibilisation à la lutte contre l'achat d'actes sexuels.\n4° De responsabilisation pour la prévention et la lutte contre les violences au sein du couple et sexistes.\n5° De lutte contre le sexisme et de sensibilisation à l'égalité entre les femmes et les hommes.\n6° De sensibilisation aux dangers de l'usage de produits stupéfiants.\n7° De sensibilisation à la sécurité routière."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4211-8",
+      "principe": "P23",
+      "motif": "Médiation : accord de la victime, exclusion des violences conjugales et titre pour l'injonction de payer gardés, phrases resserrées, point-virgule retiré.",
+      "ligne_rouge": "Droits de la victime : la médiation reste à sa demande ou avec son accord, et le recouvrement des dommages et intérêts reste ouvert.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La médiation entre l'auteur et la victime est conduite par le procureur de la République ou son médiateur, à la demande ou avec l'accord de la victime. Elle est exclue en cas de violences au sein du couple relevant de l'article 132-80 du code pénal.\nSa réussite est constatée par un procès-verbal signé par le procureur de la République ou son médiateur, l'auteur et la victime, qui en reçoivent copie. Au vu de ce procès-verbal, la victime peut demander le recouvrement des dommages et intérêts promis par la procédure d'injonction de payer du code de procédure civile."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4211-9",
+      "principe": "P23",
+      "motif": "Éloignement du logement : champ, contenu, avis de la victime et frais gardés, phrases resserrées. La composition pénale y renvoie (L4221-11).",
+      "ligne_rouge": "Droits de la victime : son avis est recueilli et la mesure est de règle quand elle la sollicite.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'éloignement du logement s'applique à l'infraction commise au sein du couple au sens de l'article 132-80 du code pénal, ou contre les enfants de l'un des membres du couple. Si l'auteur est l'ancien conjoint, concubin ou partenaire, le domicile concerné est celui de la victime.\nL'auteur réside hors du domicile ou de la résidence du couple et, le cas échéant, s'abstient d'y paraître ou d'en approcher les abords immédiats. Il fait l'objet, si nécessaire, d'une prise en charge sanitaire, sociale ou psychologique.\nLe procureur de la République recueille sans délai, par tout moyen, l'avis de la victime. Sauf circonstances particulières, la mesure est prise lorsque les violences sont susceptibles d'être renouvelées et que la victime la sollicite. Le procureur de la République peut préciser la prise en charge des frais du logement pour six mois au plus."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4211-10",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Interdiction de paraître sur les lieux de l'infraction ou de résidence de la victime, six mois au plus : protection proportionnée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4211-11",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Interdiction de contact avec la victime, six mois au plus : protection proportionnée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4211-12",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interdiction de contact avec les coauteurs ou complices, six mois au plus.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Trois mesures d'abstention de même durée réunies (L4211-11 et L4211-12 fusionnés) : six mois au plus, désignation par le parquet ou son intermédiaire.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Il peut être demandé à l'auteur, pour six mois au plus :\n1° De ne pas paraître dans un ou plusieurs lieux où l'infraction a été commise ou où réside la victime.\n2° De ne pas rencontrer ou recevoir la ou les victimes de l'infraction, ni entrer en relation avec elles.\n3° De ne pas rencontrer ou recevoir les coauteurs ou complices éventuels, ni entrer en relation avec eux.\nLe procureur de la République ou la personne qui met en œuvre la mesure désigne les lieux et les personnes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4211-13",
-      "decision": "S",
-      "principe": "P3",
-      "motif": "Contribution citoyenne à une association d'aide aux victimes, 3 000 euros au plus : gardée. Les ressources et les charges ne fixent plus le montant, qui suit la gravité, comme l'amende de composition (L4221-7, lot p142). Elles jouent sur un échéancier d'un an au plus, sur le modèle de L4221-7.",
+      "principe": "P5",
+      "motif": "Contribution citoyenne alignée sur l'amende de composition revenue au texte de 2029 (registre 9.34) : gravité, ressources et charges fixent le montant, l'échéancier d'un an de la passe 2 est gardé.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Il est fixé par le procureur de la République en fonction de la gravité des faits ainsi que des ressources et des charges de l'auteur des faits.",
-          "nouveau": "Il est fixé par le procureur de la République en fonction de la gravité des faits. Son versement peut être échelonné, selon un échéancier fixé par le procureur de la République, sur une durée qui ne peut être supérieure à un an."
+          "op": "rediger",
+          "nouveau": "La contribution citoyenne est versée à une association d'aide aux victimes agréée par le ministre de la justice, du ressort du tribunal judiciaire ou, à défaut, de la cour d'appel. Le procureur de la République en fixe le montant, de 3 000 euros au plus, selon la gravité des faits et les ressources et charges de l'auteur, et peut l'échelonner sur un an au plus."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4211-14",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Orientation vers la transaction municipale, accord du maire : gardée. Le renvoi aux articles L. 4422-2 à L. 4422-5 vise la constitution de partie civile devant le tribunal délictuel : la transaction municipale est aux articles L. 4222-2 à L. 4222-5.",
+      "motif": "Orientation vers la transaction municipale : le renvoi faux (L. 4422-2 à L. 4422-5, corrigé en passe 2) devient inutile, la transaction étant définie à L4222-1 et L4222-2.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "conformément aux dispositions des articles L. 4422-2 à L. 4422-5",
-          "nouveau": "conformément aux dispositions des articles L. 4222-2 à L. 4222-5"
+          "op": "rediger",
+          "nouveau": "Dans les cas prévus à l'article L. 4222-1 et avec l'accord du maire, l'auteur peut être invité à répondre à la convocation du maire en vue d'une transaction municipale. Le maire informe le procureur de la République de l'absence de l'auteur ou de l'échec de la transaction."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4211-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Mise en œuvre par le procureur, son délégué ou médiateur, ou un officier de police judiciaire : répartition des offices.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Personnes qui mettent en œuvre les mesures : passent au régime commun de L4211-1, sans changement.",
+      "ligne_rouge": "aucune",
+      "vers": "L4211-1"
     },
     {
       "code": "cpp",
       "num": "L4211-3",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Inexécution par le fait de l'auteur : composition pénale ou poursuites, sauf élément nouveau. La mesure se tient ou la réponse se durcit.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4211-4",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Avertissement pénal probatoire, réservé à l'auteur sans condamnation, hors violences et atteintes aux dépositaires de l'autorité, préjudice réparé : réponse rapide et bornée, revue en cas de réitération.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4211-5",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Réparation du dommage, restitution ou remise en état : la victime d'abord.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Suite de l'inexécution (composition pénale ou poursuites, sauf élément nouveau) : au régime commun de L4211-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4211-1"
     },
     {
       "code": "cpp",
       "num": "L4211-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Régularisation et dessaisissement de la chose : fait cesser l'infraction.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Régularisation et dessaisissement : réunis à la réparation dans L4211-5, contenu inchangé.",
+      "ligne_rouge": "aucune",
+      "vers": "L4211-5"
     },
     {
       "code": "cpp",
-      "num": "L4211-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Orientation et stages aux frais de l'auteur : mesure éducative courte.",
-      "ligne_rouge": "aucune"
+      "num": "L4211-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Abstention de contact avec la victime, six mois au plus : 2° de L4211-10.",
+      "ligne_rouge": "aucune",
+      "vers": "L4211-10"
     },
     {
       "code": "cpp",
-      "num": "L4211-8",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Médiation à la demande ou avec l'accord de la victime, exclue pour les violences au sein du couple, procès-verbal valant titre pour l'injonction de payer : la victime décide.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4211-9",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Éloignement du logement de l'auteur de violences au sein du couple, avis de la victime recueilli, de règle si elle le sollicite : protection de la victime.",
-      "ligne_rouge": "aucune"
+      "num": "L4211-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Abstention de contact avec les coauteurs ou complices, six mois au plus : 3° de L4211-10.",
+      "ligne_rouge": "aucune",
+      "vers": "L4211-10"
     }
-  ]
+  ],
+  "passe": 3
 }
