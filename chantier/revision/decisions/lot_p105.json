@@ -10,233 +10,177 @@
     {
       "code": "penitentiaire",
       "num": "L771-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Spécialité législative en Nouvelle-Calédonie : la loi ne s'y applique que sur mention expresse. Clause imposée par le statut.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L771-2",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Grille de substitution (collectivité, représentant de l'État, tribunal de première instance, juge d'instruction, code du travail local, centres d'aide par le travail) : nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L771-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Clause générale de substitution des références non applicables localement : filet.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L771-4",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Compteur d'application des articles L. 1 à L. 8 : gardé, il se met à jour avec la loi qui porte la réécriture (L. 1 réécrit au lot p106).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L772-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre Ier, technique imposée par la spécialité législative : gardé, il se met à jour avec la loi qui porte la réécriture. Les bornes suivent les abrogations du lot p091 et du lot p090 : L. 113-3 sort de la ligne « L. 113-3 et L. 113-4 », la plage « L. 113-5 à L. 113-13 » se réduit à L. 113-5 et L. 113-12 (L. 113-6 à L. 113-11 et L. 113-13 abrogés), la plage « L. 115-3 à L. 135-1 » s'arrête à L. 133-2 (L. 133-3 et L. 135-1 abrogés).",
+      "motif": "Clause d'application et table d'adaptations en un article (registre 7.4 : la version applicable est celle de la loi de réécriture). Les compteurs par livre (L. 771-4, L. 772-1, L. 773-1, L. 774-1, L. 775-1, L. 776-1, L. 777-1) deviennent une règle générale et la liste des seuls articles exclus : L. 113-3-1 (absent de tous les compteurs), L. 324-1 à L. 324-12 (sécurité sociale et assurance chômage, de compétence locale) et L. 411-4 (compte personnel d'activité, qui reçoit L. 411-5 à L. 411-9, tous exclus). L. 115-1, L. 115-2 et L. 322-8, eux aussi exclus, sont abrogés. Les adaptations deviennent les lignes de la table. Celle de L. 322-3 tombe : L. 322-3 réécrit (lot p079) ne renvoie plus au code de la santé publique.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "\nL. 113-3 et L. 113-4\n",
-          "nouveau": "\nL. 113-4\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "L. 113-5 à L. 113-13",
-          "nouveau": "L. 113-5 et L. 113-12"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "L. 115-3 à L. 135-1",
-          "nouveau": "L. 115-3 à L. 133-2"
+          "op": "rediger",
+          "nouveau": "Sous réserve des dispositions applicables de plein droit, les dispositions législatives du présent code s'appliquent en Nouvelle-Calédonie dans leur rédaction résultant de la loi n° [...] du [...], à l'exception des articles L. 113-3-1, L. 324-1 à L. 324-12 et L. 411-4, avec les adaptations suivantes :\n1° La collectivité de Nouvelle-Calédonie tient lieu de département, le représentant de l'État en Nouvelle-Calédonie de préfet et de sous-préfet.\n2° Le tribunal de première instance ou sa section détachée tient lieu de tribunal judiciaire, le juge d'instruction de pôle de l'instruction.\n3° Les renvois au code du travail visent le code du travail applicable localement. Un renvoi à une disposition non applicable localement vise la disposition locale de même objet.\n4° Pour l'application de l'article L. 111-1, la Nouvelle-Calédonie est regardée comme une collectivité territoriale. Dans les conventions qu'il prévoit, les communes tiennent lieu de collectivités territoriales, les autres collectivités, dont la Nouvelle-Calédonie, pouvant y participer.\n5° À l'article L. 114-4, seul le premier alinéa s'applique.\n6° À l'article L. 115-4, les institutions compétentes de la collectivité tiennent lieu de directeur général de l'agence régionale de santé.\n7° L'État peut conclure avec les autorités compétentes de la Nouvelle-Calédonie une convention fixant les modalités d'application des articles L. 115-4, L. 320-1 et L. 322-1.\n8° Au 1° de l'article L. 322-12, le renvoi au code de la santé publique ne s'applique pas.\n9° Les centres d'aide par le travail tiennent lieu, le cas échéant, d'établissements ou services d'accompagnement par le travail.\n10° À l'article L. 412-20, le salaire minimum de référence est celui que définissent les autorités compétentes de la Nouvelle-Calédonie."
         }
       ]
     },
     {
       "code": "penitentiaire",
-      "num": "L772-2",
-      "decision": "G",
+      "num": "L771-2",
+      "decision": "F",
       "principe": "P3",
-      "motif": "La Nouvelle-Calédonie regardée comme une collectivité territoriale pour L. 111-1 et L. 111-2 : son statut sui generis l'exige pour qu'elle concoure à l'accès aux droits.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L771-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de L. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L771-4",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 771-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L772-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 771-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L772-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de L. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L772-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Adaptation de L. 111-2 aux communes, les autres collectivités pouvant participer : la répartition des compétences locales l'impose.",
-      "ligne_rouge": "aucune"
+      "motif": "Conventions de L. 111-2 avec les communes : ligne de la table, L. 111-2 étant fusionné dans L. 111-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L772-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "L. 114-5 réduit à l'indemnisation des réservistes : droit du travail et protection sociale de compétence locale. Nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "L. 114-5 réduit à l'indemnisation : l'indemnisation est à L. 114-1, applicable, et la table n'applique que le premier alinéa de L. 114-4 (qui reçoit L. 114-5).",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L772-5",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Institutions compétentes de la collectivité au lieu de l'agence régionale de santé : la santé est de compétence locale. Nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L772-6",
       "decision": "A",
-      "principe": "P3",
+      "principe": "P20",
       "motif": "Doublon : L. 774-2 ouvre la même convention entre l'État et la Nouvelle-Calédonie pour L. 115-4, et en outre pour L. 320-1 et L. 322-1. Mot pour mot, aucune perte.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L773-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre II, technique imposée par la spécialité législative : gardé. Coordination avec les lots arrêtés : L. 231-3 (A, lot p077) glisse vers L. 231-2.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 771-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 225-1 à L. 231-3\n",
-          "nouveau": "\nL. 225-1 à L. 231-2\n"
-        }
-      ]
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L774-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre III, technique imposée par la spécialité législative : gardé. Coordination avec les lots arrêtés : L. 315-1 (A, lot p082) retiré ; la ligne « L. 315-1 » tombe avec sa date de rédaction.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 771-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 315-1\nla loi n° 2025-532 du 13 juin 2025 visant à sortir la France du piège du narcotrafic",
-          "nouveau": ""
-        }
-      ]
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L774-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Convention entre l'État et la collectivité pour l'application de L. 115-4, L. 320-1 et L. 322-1 (santé, hygiène, soins) : compétence partagée, seul article qui l'ouvre. Reçoit seul le cas de L. 772-6.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L774-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "L. 322-3 sans renvoi au code de la santé publique, non applicable localement : le secret médical reste garanti. Nécessaire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Adaptation sans objet : L. 322-3, réécrit au lot p079, ne renvoie plus à L. 6141-5 du code de la santé publique. Le secret médical et celui de la consultation s'appliquent tels quels.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L774-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Le 1° de L. 322-12 sans renvoi au code de la santé publique, non applicable localement : l'entretien avec les bénévoles d'accompagnement reste ouvert. Nécessaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Ligne de la table de L. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L775-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre IV, technique imposée par la spécialité législative : gardé. Coordination avec les lots arrêtés : L. 421-1 (A, lot p087) glisse vers L. 413-1 ; L. 423-1 (A, lot p087) glisse vers L. 423-4 ; L. 424-5 (A, lot p087) glisse vers L. 424-4.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 771-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 413-1 à L. 421-1\n",
-          "nouveau": "\nL. 413-1\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 423-1 à L. 424-5\n",
-          "nouveau": "\nL. 423-4 à L. 424-4\n"
-        }
-      ]
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L775-2",
-      "decision": "R",
+      "decision": "F",
       "principe": "P3",
-      "motif": "L'adaptation réécrit tout L. 412-20 pour substituer le salaire minimum local au salaire minimum de croissance : elle efface outre-mer les deux premières phrases de l'article métropolitain, dont l'interdiction de tout prélèvement pour frais d'entretien sur le produit du travail. Cette garantie relève de l'État, qui gère les établissements. L'adaptation se réduit à la troisième phrase, seule à dépendre du droit du travail local, et la quatrième (taux variable) s'applique telle quelle. Le texte adapté, propre à la Nouvelle-Calédonie, nommait aussi la Polynésie française : la mention tombe.",
+      "motif": "Salaire minimum local de L. 412-20 : ligne explicite de la table (relecture adverse), plutôt que la formule générique du 3°. La phrase sur le taux variable s'applique telle quelle.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Pour son application en Nouvelle-Calédonie, l'article L. 412-20 est ainsi rédigé :\n\" Art. L. 412-20.-La rémunération",
-          "nouveau": "Pour son application en Nouvelle-Calédonie, la troisième phrase de l'article L. 412-20 est ainsi rédigée :\n\" La rémunération"
-        },
-        {
-          "op": "remplacer",
-          "ancien": " Ce taux peut varier en fonction du régime sous lequel les personnes détenues sont employées. \"",
-          "nouveau": " \""
-        },
-        {
-          "op": "remplacer",
-          "ancien": "de la Polynésie française ou de la Nouvelle-Calédonie.",
-          "nouveau": "de la Nouvelle-Calédonie."
-        }
-      ]
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L776-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre V, technique imposée par la spécialité législative : gardé. La borne finale suit l'abrogation de L. 545-1 (lot p094) : la plage s'arrête à L. 544-3.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 771-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "L. 511-1 à L. 545-1",
-          "nouveau": "L. 511-1 à L. 544-3"
-        }
-      ]
+      "vers": "L771-1"
     },
     {
       "code": "penitentiaire",
       "num": "L777-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Compteur d'application du livre VI, technique imposée par la spécialité législative : gardé. Les bornes suivent les abrogations des lots p097 et p098 : L. 611-2, L. 612-1 et L. 632-1 abrogés, la ligne de L. 612-1 et sa rédaction tombent, les plages s'arrêtent à L. 611-1 et à L. 631-1. Coordination avec les lots arrêtés : L. 621-1 (A, lot p096) glisse vers L. 621-3.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compteur d'application d'un livre : la clause générale de L. 771-1 et sa liste d'exclusions le remplacent, dans la rédaction de la loi de réécriture (registre 7.4).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "L. 611-1 à L. 611-2\nL. 612-1\nLa loi n° 2023-1059 du 20 novembre 2023 d'orientation et de programmation du ministère de la justice 2023-2027\nL. 621-1 à L. 632-1",
-          "nouveau": "L. 611-1\nL. 621-1 à L. 631-1"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nL. 621-1 à L. 631-1",
-          "nouveau": "\nL. 621-3 à L. 631-1"
-        }
-      ]
+      "vers": "L771-1"
     }
-  ]
+  ],
+  "passe": 3
 }
