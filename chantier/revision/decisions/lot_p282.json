@@ -10,10 +10,17 @@
     {
       "code": "cpp",
       "num": "L1400-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Définition de la victime au sens du code, sans préjuger de l'infraction ni de la culpabilité : article d'ancrage du livre, tenu entre les droits de la victime et la présomption d'innocence.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Définition de la victime en une phrase et une réserve : la liste en deux points devient une phrase, la réserve sur l'infraction et la culpabilité est gardée.",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : la qualité de victime ne préjuge ni de l'infraction ni de la culpabilité, réserve gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Est victime toute personne physique ou morale qui déclare ou paraît avoir été lésée par une infraction, ou qu'une décision de justice définitive reconnaît comme telle. Cette qualité ne préjuge ni de l'infraction ni de la culpabilité."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
