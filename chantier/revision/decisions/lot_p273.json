@@ -10,66 +10,109 @@
     {
       "code": "cpp",
       "num": "L1111-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Présomption d'innocence et sa protection : noyau, énoncé en deux phrases.",
-      "ligne_rouge": "art. 9 DDHC examiné : présomption d'innocence, tenue"
+      "motif": "Présomption d'innocence : noyau, en deux phrases. Alinéas séparés (« \\n ») là où la base les colle.",
+      "ligne_rouge": "Art. 9 DDHC : tenu mot pour mot",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne suspectée ou poursuivie est présumée innocente tant que sa culpabilité n'a pas été établie.\nLes atteintes à sa présomption d'innocence sont prévenues, réparées et réprimées dans les conditions prévues par la loi."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1111-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pas d'image de la personne menottée, diffusion réprimée par la loi de 1881 : protection de la présomption d'innocence.",
-      "ligne_rouge": "art. 9 DDHC examiné : présomption d'innocence, tenue"
+      "principe": "P20",
+      "motif": "Image de la personne menottée : la règle de prévention reste. Le rappel de la répression par l'article 35 ter de la loi du 29 juillet 1881 tombe : cette loi s'applique sans relais.",
+      "ligne_rouge": "Art. 9 DDHC examiné : la protection de l'image tient, la répression vit dans la loi de 1881",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une personne porte des menottes ou des entraves, toutes mesures utiles sont prises, dans les conditions compatibles avec les exigences de sécurité, pour éviter qu'elle soit filmée ou photographiée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1111-3",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Indemnité des frais de défense de la personne relaxée, acquittée ou bénéficiaire d'un non-lieu, à la charge de l'État ou de la partie civile qui a mis l'action en mouvement : l'innocent ne paie pas sa défense, et la constitution abusive a un coût. Le décret fixe les modalités.",
-      "ligne_rouge": "art. 9 DDHC examiné : l'innocent n'est pas puni par le coût de la procédure. P18 examiné : la partie civile n'est condamnée qu'à l'appréciation de la juridiction"
+      "motif": "Indemnité des frais de défense de la personne mise hors de cause : gardée, en phrases courtes.",
+      "ligne_rouge": "Art. 9 DDHC examiné : l'innocent ne paie pas sa défense, tenu",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne poursuivie qui bénéficie d'une décision autre qu'une condamnation ou une déclaration d'irresponsabilité pénale peut demander à la juridiction qui l'a rendue une indemnité pour les frais qu'elle a exposés et que l'État ne paie pas. La personne civilement responsable mise hors de cause a le même droit. La demande peut aussi être formée devant la Cour de cassation lorsqu'elle rejette un pourvoi contre l'une de ces décisions.\nL'indemnité est à la charge de l'État. La juridiction peut la mettre à la charge de la partie civile qui a mis l'action pénale en mouvement.\nUn décret en Conseil d'État fixe les conditions d'application du présent article."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1112-1",
+      "principe": "P20",
+      "motif": "Règle de preuve gardée. La réserve « sans préjudice » des nullités tombe : la nullité attachée à l'absence irrégulière d'avocat vit dans les articles qui la prescrivent.",
+      "ligne_rouge": "Art. 16 DDHC examiné : aucune condamnation sur les seules déclarations faites sans avocat, tenu mot pour mot",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les déclarations faites par une personne suspectée ou poursuivie sans avoir pu s'entretenir avec un avocat et être assistée par lui ne peuvent constituer le seul fondement d'une condamnation prononcée contre elle en matière criminelle ou délictuelle."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1112-2",
+      "principe": "P23",
+      "motif": "Notification du droit de se taire : une idée par phrase. La réserve « sans préjudice » des nullités tombe (P20) : la nullité vit dans les articles qui la prescrivent.",
+      "ligne_rouge": "Art. 16 DDHC examiné : notification avant toute audition et règle de preuve, tenues. Art. 8 DDHC examiné : la notification précède aussi la mesure de sûreté, tenu",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière criminelle ou délictuelle, le droit de se taire sur les faits reprochés est notifié à toute personne suspectée ou poursuivie lors de sa première présentation devant un service d'enquête, un magistrat, une juridiction ou toute personne ou tout service mandaté par l'autorité judiciaire, avant tout recueil de ses observations et tout interrogatoire, y compris sur sa personnalité ou en vue d'une mesure de sûreté.\nAucune condamnation ne peut être prononcée sur le seul fondement de déclarations faites sans que ce droit ait été notifié."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1112-3",
+      "principe": "P23",
+      "motif": "Interprète et traduction (directive 2010/64/UE) : gardés, en phrases courtes. Porte le 6° de L3.",
+      "ligne_rouge": "Art. 16 DDHC examiné : interprète, traduction des pièces essentielles et vérification de la compréhension, tenus",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne suspectée ou poursuivie qui ne comprend pas le français a droit, dans une langue qu'elle comprend et jusqu'au terme de la procédure, à l'assistance d'un interprète, y compris pour les entretiens avec son avocat liés à un interrogatoire ou à une audience. Sauf renonciation expresse et éclairée, les pièces essentielles à sa défense et à l'équité du procès qui lui sont remises ou notifiées sont traduites. À titre exceptionnel, elles peuvent être traduites ou résumées oralement.\nEn cas de doute, l'autorité qui entend la personne ou devant laquelle elle comparaît vérifie qu'elle parle et comprend le français.\nUn décret fixe la liste des pièces essentielles et les modalités d'application du présent article."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1112-4",
+      "principe": "P23",
+      "motif": "Personne sourde : interprète en langue des signes, tout moyen technique ou l'écrit. Trois phrases en deux.",
+      "ligne_rouge": "Art. 16 DDHC examiné : la communication avec la personne sourde est assurée, tenu",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne suspectée ou poursuivie atteinte de surdité est assistée par un interprète en langue des signes ou par toute personne qualifiée maîtrisant un langage ou une méthode permettant de communiquer avec elle. Il peut aussi être recouru à tout dispositif technique adapté ou, si elle sait lire et écrire, à l'écrit."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1111-4",
       "decision": "A",
       "principe": "P20",
-      "motif": "Annonce du droit à réparation de la détention provisoire ou de l'assignation à résidence avec surveillance électronique suivie d'un non-lieu, d'une relaxe ou d'un acquittement, par renvoi à L3661-1 à L3662-6. L3661-1 porte la même règle en substance, avec en plus l'exigence d'une décision définitive, et L3661-2 ses exceptions. Rien n'est perdu, la règle vit une fois, à sa source. Aucun renvoi entrant dans le code de procédure pénale.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 § 5 examinés : le droit à réparation intégrale reste entier à L3661-1, sous le contrôle du juge (L3662-1 et suivants)"
-    },
-    {
-      "code": "cpp",
-      "num": "L1112-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pas de condamnation sur le seul fondement de déclarations faites sans avocat. La proposition de réécrire au titre du régime de nullité est écartée : la règle est de preuve, elle ne crée pas de nullité.",
-      "ligne_rouge": "art. 16 DDHC examiné : assistance de l'avocat, tenue (CEDH art. 6 § 3, jurisprudence Salduz)"
-    },
-    {
-      "code": "cpp",
-      "num": "L1112-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Notification du droit de se taire avant toute audition, pas de condamnation sur le seul fondement de déclarations faites sans elle. La proposition de réécrire au titre du régime de nullité est écartée : règle de preuve.",
-      "ligne_rouge": "art. 16 DDHC examiné : droit de se taire, tenu. Art. 8 DDHC sans objet : aucune peine fixée"
-    },
-    {
-      "code": "cpp",
-      "num": "L1112-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interprète et traduction des pièces essentielles, résumé oral à titre exceptionnel, vérification de la compréhension : directive 2010/64/UE, noyau des droits de la défense. Renvoi entrant de D594 (lot p044, ancien 803-5) : rien à changer ici.",
-      "ligne_rouge": "art. 16 DDHC examiné : droit à l'interprète et à la traduction, tenu (CEDH art. 6 § 3)"
-    },
-    {
-      "code": "cpp",
-      "num": "L1112-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interprète en langue des signes ou tout moyen de communiquer avec la personne sourde : article cité par L3512-4, L4322-25 et L4421-16.",
-      "ligne_rouge": "art. 16 DDHC examiné : communication effective, tenue"
+      "motif": "Annonce du droit à réparation de la détention injustifiée par renvoi à L3661-1 à L3662-6, qui portent la règle et ses exceptions. La règle vit une fois, à sa source.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la réparation intégrale de la détention suivie d'un non-lieu, d'une relaxe ou d'un acquittement survit à L3661-1 à L3662-6"
     }
-  ]
+  ],
+  "passe": 3
 }
