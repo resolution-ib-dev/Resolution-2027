@@ -9,411 +9,526 @@
   "decisions": [
     {
       "code": "penitentiaire",
+      "num": "D324-2",
+      "principe": "P23",
+      "motif": "Part restant à charge des appareillages et soins non remboursés : gardée en phrases courtes.",
+      "ligne_rouge": "aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La part d'un appareillage ou d'une prothèse qui reste due après remboursement par l'assurance maladie est prélevée sur le compte nominatif de la personne détenue. L'administration pénitentiaire peut s'y substituer lorsque ses ressources sont insuffisantes.\nLes appareillages, prothèses, actes, traitements et interventions que l'assurance maladie ne prend pas en charge sont à la charge de la personne, après autorisation du chef d'établissement, sous réserve des prestations dues au titre des accidents du travail et des maladies professionnelles."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D324-5",
+      "principe": "P12",
+      "motif": "Attestation d'assurance chômage (L. 324-9) : délivrance, transmission électronique, modèle (D324-6 fusionné). L'ancien article 723 cède la place au nom de la mesure.",
+      "ligne_rouge": "aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire délivre à la personne détenue qui a travaillé sous contrat d'emploi pénitentiaire l'attestation qui lui ouvre le droit à l'allocation d'assurance mentionnée à l'article L. 5424-30 du code du travail, à sa sortie de détention ou à son admission en semi-liberté. Elle transmet cette attestation sans délai, par voie électronique, à l'opérateur France Travail à la fin du contrat. L'organisme gestionnaire du régime d'assurance chômage en établit le modèle."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D324-7",
+      "principe": "P23",
+      "motif": "Déclaration des rémunérations et contributions d'assurance chômage : les deux déclarations qui se recouvraient n'en font qu'une.",
+      "ligne_rouge": "aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire déclare à l'organisme de recouvrement mentionné à l'article L. 5427-1 du code du travail, pour chaque personne détenue employée sous contrat d'emploi pénitentiaire, le montant total des rémunérations versées et les périodes de travail correspondantes. Elle joint à cette déclaration, le cas échéant, le versement des contributions prévues au 1° de l'article L. 5422-9 du même code. La déclaration et le paiement suivent les dates et modalités des cotisations du régime général de sécurité sociale."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R321-1",
+      "principe": "P23",
+      "motif": "Normes d'hygiène et de salubrité des locaux en un article (R321-1, R321-2, R321-3) : socle de la détention digne, sans redite.",
+      "ligne_rouge": "aucune : conditions matérielles de détention (CEDH art. 3) gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Chaque personne est détenue dans des conditions satisfaisantes d'hygiène et de salubrité, pour l'aménagement et l'entretien des bâtiments, le fonctionnement des services économiques, l'organisation du travail, la propreté individuelle et les exercices physiques.\nLes locaux de détention, et d'abord les cellules, répondent aux exigences de l'hygiène, compte tenu du climat, pour le volume d'air, l'éclairage, le chauffage et l'aération. Les fenêtres permettent de lire et de travailler à la lumière naturelle et laissent entrer l'air frais. La lumière artificielle permet de lire et de travailler sans altérer la vue.\nLes installations sanitaires sont propres, décentes, bien réparties et en nombre proportionné à l'effectif. Dans une cellule occupée par plus d'une personne, l'espace sanitaire est aménagé pour protéger l'intimité."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-1",
+      "principe": "P23",
+      "motif": "Médecin choisi par la personne détenue, à ses frais, sur décision du directeur interrégional : gardé. Les anciens articles 723 et 723-3 cèdent la place au nom des mesures.",
+      "ligne_rouge": "aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors des périodes passées hors de l'établissement en semi-liberté, en placement à l'extérieur ou en permission de sortir, la personne détenue n'est examinée ou soignée par un médecin de son choix que sur décision du directeur interrégional des services pénitentiaires. Elle en supporte alors les frais."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-4",
+      "principe": "P23",
+      "motif": "Grève de la faim : pas de traitement sans consentement, sauf altération grave, sur décision médicale. Le compte rendu aux autorités suit la règle générale des avis (D214-26).",
+      "ligne_rouge": "aucune : consentement aux soins gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue en grève de la faim prolongée n'est traitée sans son consentement que si son état de santé s'altère gravement, sur décision et sous surveillance médicales."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-5",
+      "principe": "P23",
+      "motif": "Transfèrement pour raison de santé gardé ; le renvoi suit la fusion de D215-13 dans D215-12. Accord préalable du magistrat pour le prévenu gardé.",
+      "ligne_rouge": "aucune : le juge garde la main sur le transfert du prévenu.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le transfèrement dans un établissement mieux approprié peut être demandé, dans les conditions de l'article D. 115-25, pour la personne détenue dont l'établissement n'offre pas des conditions de détention adaptées à son état de santé ou la prise en charge particulière qu'elle nécessite.\nLe directeur interrégional des services pénitentiaires y fait procéder dans sa direction interrégionale, selon l'article D. 215-12. Pour une personne prévenue, le magistrat chargé du dossier de la procédure donne son accord préalable, après avoir été informé de la durée probable du traitement."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-6",
+      "principe": "P23",
+      "motif": "Maladies transmissibles en un article (R322-6, R322-7, R322-9). Les phrases qui rappelaient le code de la santé publique (prophylaxie « prévue par le code », déclaration obligatoire de L. 3113-1) tombent.",
+      "ligne_rouge": "aucune : consentement au dépistage du VIH gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Des moyens de prévention et d'information sur les maladies transmissibles sont mis à la disposition des personnes détenues. Le médecin responsable des structures mentionnées à l'article D. 115-3 prescrit, avec le médecin de prévention du personnel pénitentiaire, les mesures de prophylaxie individuelle et collective. L'administration pénitentiaire les met en œuvre avec lui.\nToute personne détenue pour la première fois, ou jamais dépistée, fait l'objet dans les plus brefs délais, sur place sauf impossibilité, d'un examen clinique de dépistage de la tuberculose. Le médecin de l'unité sanitaire prescrit si nécessaire un examen radiologique. Il isole les personnes dont l'état le nécessite et prescrit les mesures contre la contamination. Le médecin du service de lutte antituberculeuse dépiste les personnes qui ont été en contact avec un malade.\nToute personne détenue peut bénéficier, avec son accord, d'une information et d'un conseil personnalisés sur l'infection par le virus de l'immunodéficience humaine et, en consultation, de la prescription d'un test de dépistage et de la remise de son résultat."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-15",
+      "principe": "P23",
+      "motif": "Surveillance dans l'unité hospitalière spécialement aménagée en un article (R322-15 à R322-20). R. 3214-5 du code de la santé publique renvoie aux articles R. 322-15 à R. 322-25 : la plage reste valide.",
+      "ligne_rouge": "art. 66 C examiné (R322-18) : le partage des offices entre soin et garde est gardé ; la décision du juge (isolement, séparation, interdiction de communiquer) s'applique à l'hôpital.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire surveille les personnes détenues hospitalisées dans une unité hospitalière spécialement aménagée, dans le respect de la confidentialité des soins prévu à l'article L. 322-3. Elle communique à l'établissement de santé les éléments utiles pour apprécier leur dangerosité ou leur vulnérabilité. L'établissement de santé organise l'unité de façon à protéger les personnes hospitalisées.\nLe chef d'établissement pénitentiaire communique au directeur de l'établissement de santé les décisions de l'autorité judiciaire, notamment d'isolement, de séparation ou d'interdiction temporaire de communiquer. Elles s'appliquent dans l'unité, et ce directeur veille à leur exécution.\nLe personnel pénitentiaire surveille l'enceinte et les locaux de l'unité et en contrôle les accès. Il n'entre dans les locaux de soins et les chambres que pour la fouille et le contrôle des équipements, ou à la demande du personnel hospitalier lorsque la sécurité des personnes ou des biens est compromise. Toute personne qui entre dans l'unité justifie de son identité et se soumet aux contrôles fixés par la convention prévue à l'article R. 3214-3 du code de la santé publique. Le personnel pénitentiaire inscrit à un registre le nom, la qualité et les heures d'entrée et de sortie de chacun.\nUne vidéoprotection couvre les abords et les locaux de l'unité, sauf les chambres et les locaux de soins. Le directeur de l'établissement de santé en demande l'autorisation avec le chef d'établissement pénitentiaire. La convention désigne et habilite les agents destinataires des images.\nAucun agent de l'unité ne rend aux personnes hospitalisées un service étranger à sa mission. Les personnels ne communiquent aux proches et aux visiteurs ni les dates d'entrée et de sortie ni celles des examens hors de l'unité. Sous cette réserve, le médecin peut, selon sa déontologie, informer de l'état de santé du patient sa famille, ses proches ou sa personne de confiance."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-21",
+      "principe": "P23",
+      "motif": "Fouilles dans l'unité en un article (R322-21, R322-22).",
+      "ligne_rouge": "art. 66 C et vie privée examinés : la fouille des personnes reste dans les conditions de la loi (L. 225-1 à L. 225-3), sans gêner les soins ; la fouille générale requiert l'accord et la présence du directeur de l'hôpital et du médecin.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sans faire obstacle aux soins, le personnel pénitentiaire peut fouiller les personnes hospitalisées dans les conditions des articles L. 225-1 à L. 225-3. Il fouille les locaux de l'unité et en contrôle les équipements et aménagements spéciaux. Toute fouille générale ou sectorielle est décidée avec l'accord du directeur de l'établissement de santé. Elle se déroule en sa présence et en celle du médecin responsable de l'unité, ou de leurs représentants."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-23",
+      "principe": "P23",
+      "motif": "Incidents et absences irrégulières dans l'unité en un article (R322-23, R322-24, R322-25). Les destinataires renvoient à la règle générale des avis (D214-26), avec le directeur général de l'agence régionale de santé.",
+      "ligne_rouge": "aucune : information immédiate de l'autorité judiciaire et du préfet gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel hospitalier signale sans délai toute absence irrégulière d'une personne hospitalisée au directeur de l'établissement de santé et au personnel pénitentiaire.\nLe directeur de l'établissement de santé et le chef d'établissement pénitentiaire portent immédiatement toute absence irrégulière et tout incident grave touchant à l'ordre ou à la sécurité de l'unité à la connaissance des autorités mentionnées à l'article D. 214-26 et du directeur général de l'agence régionale de santé.\nSi le personnel pénitentiaire présent ne suffit pas à rétablir l'ordre, le préfet, saisi par le directeur de l'établissement de santé, peut faire appel aux forces de l'ordre."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-26",
+      "principe": "P10",
+      "motif": "La personne hospitalisée continue d'exécuter sa peine ou sa détention provisoire : gardé.",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : le temps d'hospitalisation compte dans la peine et la détention provisoire.",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-27",
+      "principe": "P23",
+      "motif": "Régime disciplinaire à l'hôpital gardé en phrases courtes ; délai d'un mois opposable.",
+      "ligne_rouge": "aucune : délai de prescription disciplinaire gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne hospitalisée dans l'unité reste soumise au régime disciplinaire pénitentiaire lorsqu'elle est sous la surveillance exclusive du personnel pénitentiaire. Le chef d'établissement pénitentiaire informe le directeur de l'établissement de santé de tout incident disciplinaire commis dans ce cadre. Il informe le responsable médical de l'unité et, le cas échéant, du service médico-psychologique régional, de toute poursuite disciplinaire envisagée. Aucune sanction ne peut être prononcée pendant l'hospitalisation ni plus d'un mois après les faits."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-28",
+      "principe": "P23",
+      "motif": "Relations avec l'extérieur à l'hôpital en un article (R322-28, R322-29, R322-30) : visites, avocat, téléphone, courrier.",
+      "ligne_rouge": "aucune : droits de la défense (entretien de l'avocat hors la présence du personnel) gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes hospitalisées dans l'unité reçoivent les visites des titulaires d'un permis de visite délivré selon le présent code, au parloir, sous la surveillance du personnel pénitentiaire qui peut écouter les conversations. Les avocats et les visiteurs de prison s'entretiennent avec elles hors la présence de ce personnel. Le téléphone et la correspondance suivent les règles du présent code.\nLa convention prévue à l'article R. 3214-3 du code de la santé publique fixe les jours, heures et durée des visites, les modalités d'accès au téléphone et l'organisation du courrier dans l'unité."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-31",
+      "principe": "P23",
+      "motif": "Suivi médico-psychologique des auteurs d'infractions sexuelles et des condamnés à un suivi socio-judiciaire en un article (R322-31, R322-32, R322-33). Seul siège de la règle depuis l'abrogation de L. 211-6.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'affectation et le suivi ne touchent pas au prononcé ; ils protègent les victimes potentielles.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes condamnées à un suivi socio-judiciaire, quel qu'en soit le motif, et celles condamnées pour le meurtre ou l'assassinat d'un mineur de quinze ans précédé ou accompagné d'un viol, de tortures ou d'actes de barbarie, ou pour une infraction prévue aux articles 222-23 à 222-32 et 227-25 à 227-27 du code pénal, exécutent leur peine dans un établissement qui assure un suivi médical et psychologique adapté :\n1° Un établissement siège d'un service médico-psychologique régional.\n2° Un établissement pour peines doté d'une unité fonctionnelle rattachée à un tel service.\n3° Un établissement où intervient le secteur de psychiatrie générale selon les protocoles prévus aux articles R. 6111-29 et R. 6111-37 du code de la santé publique.\nLe chef d'établissement les signale au psychiatre de l'établissement et lui transmet un résumé de leur situation pénale et les expertises psychologiques ou psychiatriques de leur dossier.\nAvant leur libération, ces personnes font l'objet d'un examen psychiatrique qui prépare, le cas échéant, leur prise en charge après la détention."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-34",
+      "principe": "P23",
+      "motif": "Suivi des femmes enceintes gardé. La désignation du lieu dans l'acte de naissance rejoint la règle de l'état civil de D214-28.",
+      "ligne_rouge": "aucune : protection de l'enfant gardée (D214-28).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les médecins des structures mentionnées à l'article D. 115-3 assurent aux femmes détenues enceintes un suivi médical adapté et un accouchement dans le service hospitalier approprié à leur état de santé."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-35",
+      "principe": "P23",
+      "motif": "Aidant de la personne handicapée (L. 322-11) : gardé en phrases courtes.",
+      "ligne_rouge": "aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue choisit son aidant en application de l'article L. 322-11, pour accomplir les gestes liés aux soins prescrits par un médecin en l'absence des soignants. L'aidant peut être une autre personne détenue. Il consent expressément à ce rôle. Le deuxième alinéa de l'article L. 1111-6-1 du code de la santé publique s'applique à la personne détenue et à son aidant.\nLe chef d'établissement peut s'opposer à la désignation, notamment pour la sécurité des personnes ou le maintien de l'ordre."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
       "num": "D322-14",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Levée d'écrou simplifiée pour l'hospitalisation éloignée, réintégration dans les délais les plus brefs ou transfert en régularisation : règle de gestion propre, simple.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Écrou simplifié de l'hospitalisation éloignée : il rejoint la règle générale de l'écrou simplifié, D214-4 du titre de la prise en charge des personnes détenues, qui le disait déjà (D215-25).",
+      "ligne_rouge": "aucune.",
+      "vers": "D214-4"
     },
     {
       "code": "penitentiaire",
       "num": "D322-36",
       "decision": "A",
-      "principe": "P3",
-      "motif": "Article miroir qui rappelle la suspension médicale de peine du code de procédure pénale (ancien 720-1-1) et sa surveillance (D147-1 à D147-3), sans rien y ajouter : la règle vit à sa source. Le lot p035 a désigné D147-3 comme sa source.",
-      "ligne_rouge": "art. 8 DDHC et CEDH art. 3 examinés : la suspension médicale reste décidée par la juridiction selon le code de procédure pénale, l'article ne fait que la rappeler"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D324-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Prothèses et soins non remboursés à la charge du détenu, l'administration se substituant à l'indigent : règle propre du compte nominatif, protège la santé sans charge indue pour le contribuable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D324-5",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Attestation d'assurance chômage remise à la sortie et transmise sans délai, par voie électronique, à France Travail : règle propre, numérique. Renvoi à l'ancien 723 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Miroir de la suspension médicale de peine du code de procédure pénale (passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : la suspension médicale de peine reste décidée par le juge selon le code de procédure pénale (D147-3 et la loi) ; aucune garantie perdue."
     },
     {
       "code": "penitentiaire",
       "num": "D324-6",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Modèle d'attestation établi par l'organisme gestionnaire : une ligne, nécessaire à D324-5.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D324-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Déclaration des rémunérations du contrat d'emploi pénitentiaire et versement des contributions d'assurance chômage : obligation de l'employeur public, condition du droit ouvert par D324-5.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R321-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Conditions d'hygiène et de salubrité de la détention : garantie minimale (CEDH art. 3). La proposition de passe 1 (régime d'aménagement) tient au mot « aménagement » des bâtiments : elle est écartée.",
-      "ligne_rouge": "CEDH art. 3 examiné : conditions d'hygiène de la détention, tenues"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Modèle d'attestation fusionné dans D324-5.",
+      "ligne_rouge": "aucune.",
+      "vers": "D324-5"
     },
     {
       "code": "penitentiaire",
       "num": "R321-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Exigences d'hygiène des locaux (air, lumière, chauffage, aération) : norme minimale de la détention.",
-      "ligne_rouge": "CEDH art. 3 examiné : salubrité des cellules, tenue"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exigences d'hygiène des locaux fusionnées dans R321-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R321-1"
     },
     {
       "code": "penitentiaire",
       "num": "R321-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Fenêtres, lumière, sanitaires proportionnés et intimité en cellule partagée : norme minimale. La proposition de passe 1 (régime d'aménagement) tient au mot « aménagement » de l'espace sanitaire : elle est écartée.",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : sanitaires décents et intimité en cellule partagée, tenus"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fenêtres, lumière, sanitaires et intimité fusionnés dans R321-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R321-1"
     },
     {
       "code": "penitentiaire",
       "num": "R321-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Entretien de la cellule par le détenu, produits fournis, interdictions de dégrader : la propreté pèse d'abord sur l'occupant, le coût collectif baisse.",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune : règle de vie en détention, à la même strate hors du code."
     },
     {
       "code": "penitentiaire",
       "num": "R321-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Propreté exigée, trousse renouvelée pour l'indigent, trois douches par semaine, une heure de promenade, lit individuel : socle de la détention digne. Source de R412-5, abrogé comme miroir.",
-      "ligne_rouge": "CEDH art. 3 examiné : douche, promenade quotidienne et lit individuel, tenus"
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1). Douches, promenade quotidienne et lit individuel y sont repris.",
+      "ligne_rouge": "aucune : les normes minimales survivent au règlement intérieur type, décret en Conseil d'État."
     },
     {
       "code": "penitentiaire",
       "num": "R321-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Vêtements adaptés, inventaire et restitution des effets retirés, désinfection avant réemploi : règle d'hygiène et de propriété.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le détenu est soigné par le service public ; un médecin de son choix sur décision du directeur interrégional, à ses frais. Renvoi aux anciens 723 et 723-3 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-10",
       "decision": "A",
-      "principe": "P20",
-      "motif": "Article déclaratif : il demande aux secteurs de psychiatrie de « favoriser et coordonner » les interventions en addictologie, sans règle opposable. Les modalités d'intervention des établissements de santé sont fixées par les protocoles des articles R. 6111-29 et suivants du code de la santé publique. Les adaptations R764-10 et R774-10, qui remplacent cet article en Polynésie française et en Nouvelle-Calédonie, perdent leur objet et tombent avec lui (lots p137 et p138).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interdiction du stockage et de l'échange de médicaments, prescription justifiée, aucune entrée par les parloirs : prévient le trafic, nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-12",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Règlement intérieur de l'établissement d'origine applicable à l'hôpital, somme d'argent pour les dépenses courantes : continuité du régime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-13",
-      "decision": "A",
-      "principe": "P3",
-      "motif": "Article miroir de l'article R. 1112-30 du code de la santé publique, qui règle lui-même l'hospitalisation des détenus intransférables et des prévenus retenus près de leur juridiction, dans un service aménagé ou un local d'isolement, et auquel il renvoie avec R. 1112-31 à R. 1112-33 : la règle vit à sa source, sans perte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-15",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Surveillance pénitentiaire des détenus hospitalisés pour troubles mentaux, dans le respect de la confidentialité des soins, et information de l'hôpital sur la dangerosité : protection des soignants et des patients.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-16",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Les décisions de l'autorité judiciaire (isolement, séparation, interdiction de communiquer) s'appliquent dans l'unité hospitalière : le juge garde la main pendant l'hospitalisation.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-17",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interdiction aux agents de rendre des services étrangers à leur mission et de révéler les dates de sortie et d'examen : prévient l'évasion ; l'information médicale de la famille reste ouverte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-18",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Surveillance de l'enceinte par le personnel pénitentiaire, accès aux chambres limité à la fouille et à la sécurité compromise : partage net des offices entre soin et garde.",
-      "ligne_rouge": "art. 66 C et CEDH art. 8 examinés : l'article règle l'accès du personnel aux chambres, non la privation de liberté elle-même, qui reste décidée par le juge ; le secret des soins est tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-19",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Vidéoprotection des abords et des locaux de l'unité, à l'exception des chambres et des locaux de soins : sécurité proportionnée.",
-      "ligne_rouge": "CEDH art. 8 examiné : chambres et locaux de soins exclus de la vidéoprotection, tenu"
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R322-2",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Pour la Polynésie française et la Nouvelle-Calédonie, R764-6 et R774-6 retirent le renvoi au code de la santé publique, qui n'y est pas applicable : l'article y est la seule base du consentement du détenu aux soins. Il se garde. En métropole, il double R. 4127-36 du code de la santé publique.",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : le consentement aux soins du détenu en Polynésie française et en Nouvelle-Calédonie n'a pas d'autre siège dans le code (droit sanitaire local non vérifié)"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-20",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contrôle d'identité et registre des entrées et sorties de l'unité : traçabilité, nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-21",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Fouille des détenus hospitalisés dans les seules conditions de la loi (L. 225-1 à L. 225-3), sans gêner les soins : renvoi utile, aucune règle nouvelle.",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : fouilles encadrées par la loi, sans faire obstacle aux soins ; aucune privation de liberté nouvelle"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-22",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Fouille des locaux par le personnel pénitentiaire, fouille générale avec l'accord et en présence du directeur de l'hôpital et du médecin : sécurité sans atteinte aux soins.",
-      "ligne_rouge": "CEDH art. 8 examiné : fouille générale décidée avec l'établissement de santé, en présence du médecin ; aucune privation de liberté nouvelle"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-23",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Signalement sans délai de l'absence irrégulière, information du préfet, du parquet et du magistrat chargé du dossier ou de l'application des peines : réaction immédiate de l'État.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-24",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information immédiate des autorités sur tout incident grave et appel aux forces de l'ordre par le préfet : ordre rétabli sans délai.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-25",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Étend à l'unité hospitalière l'avis au magistrat et à l'autorité militaire que D214-26 prévoit pour l'établissement pénitentiaire : règle propre au lieu de soins.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-26",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le détenu hospitalisé continue d'exécuter sa peine ou sa détention provisoire : le temps à l'hôpital compte, la peine prononcée s'exécute.",
-      "ligne_rouge": "art. 66 C et art. 8 DDHC examinés : la peine ou la détention provisoire continue de courir sous le contrôle du juge qui l'a ordonnée ; rien n'est retranché de la peine prononcée"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-27",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Régime disciplinaire maintenu sous surveillance pénitentiaire, information du médecin, aucune sanction plus d'un mois après les faits : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-28",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Visites sur permis, au parloir et sous surveillance, entretiens avec l'avocat et le visiteur hors présence du personnel : liens et défense gardés à l'hôpital.",
-      "ligne_rouge": "droits de la défense examinés : entretien avec l'avocat hors présence du personnel, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-29",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Téléphone selon les règles du code, modalités par la convention de l'unité : continuité des droits.",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Redite de R. 4127-36 du code de la santé publique en métropole. Comme pour R322-3 (registre 9.31), les adaptations de la Polynésie française et de la Nouvelle-Calédonie (R764-6, R774-6) deviennent des règles autonomes du consentement aux soins, à coordonner aux lots p137 et p138.",
+      "ligne_rouge": "aucune : le consentement aux soins reste garanti par R. 4127-36 du code de la santé publique et, dans le Pacifique, par la règle autonome."
     },
     {
       "code": "penitentiaire",
       "num": "R322-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Registre 6.6 : abrogé. L'article L. 1121-6 du code de la santé publique régit seul les recherches sur les personnes privées de liberté, consentement compris (L. 1122-1, L. 1122-1-1). La condition plus stricte d'un bénéfice direct et majeur, qu'un décret ne pouvait ajouter, n'est pas remontée dans la loi. Les adaptations du Pacifique (R764-7, R774-7) deviennent des règles autonomes.",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : le consentement libre et éclairé et la protection des personnes privées de liberté restent garantis par L. 1121-6, L. 1122-1 et L. 1122-1-1 du code de la santé publique"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-30",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Correspondance selon les règles du code, collecte du courrier par la convention de l'unité : continuité des droits.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-31",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Auteurs d'infractions sexuelles et suivi socio-judiciaire affectés dans des établissements dotés d'un suivi médico-psychologique : protection des victimes potentielles.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'affectation est une modalité d'exécution, elle ne touche pas au quantum"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-32",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Signalement au psychiatre et transmission de la situation pénale et des expertises : le suivi s'appuie sur le dossier, nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-33",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Examen psychiatrique avant la libération des personnes de R322-31 pour préparer leur prise en charge : protection des victimes potentielles.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-34",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Suivi médical des femmes enceintes, accouchement à l'hôpital, acte d'état civil sans mention de la prison : protection de l'enfant.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-35",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Aidant choisi par le détenu handicapé, consentement de l'aidant, opposition motivée pour la sécurité : met en œuvre L322-11.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Grève de la faim : pas de traitement sans consentement, sauf altération grave, sur décision et sous surveillance médicales ; compte rendu selon D214-26. Source de D364 du code de procédure pénale, abrogé comme miroir (lot p035).",
-      "ligne_rouge": "CEDH art. 3 examiné : traitement contraint réservé à l'altération grave, sur décision médicale, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Transfèrement pour raison de santé ; pour le prévenu, accord préalable du magistrat informé de la durée du traitement : le juge garde la main. Source de D360 du code de procédure pénale, abrogé comme miroir (lot p035).",
-      "ligne_rouge": "contrôle du juge sur la détention provisoire examiné : accord préalable du magistrat au transfèrement du prévenu, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R322-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Prévention des maladies transmissibles, mesures prescrites par le médecin avec la médecine de prévention : protection collective des détenus et des agents.",
-      "ligne_rouge": "aucune"
+      "motif": "Registre 6.6 : L. 1121-6 du code de la santé publique suffit. Décision de passe 2 gardée.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R322-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dépistage de la tuberculose à l'entrée, isolement sur avis médical, dépistage des contacts : protection collective. L'avis médical est un acte de soin, non un avis administratif préalable : la proposition P15 est écartée.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dépistage de la tuberculose fusionné dans R322-6.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-6"
     },
     {
       "code": "penitentiaire",
       "num": "R322-8",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article déclaratif : la prophylaxie des maladies vénériennes « prévue par le code de la santé publique est assurée par les services compétents ». Aucune règle que le code de la santé publique et R322-6 (prévention des maladies transmissibles) ne portent déjà. Les adaptations R764-9 et R774-9, qui remplacent cet article en Polynésie française et en Nouvelle-Calédonie, perdent leur objet et tombent avec lui (lots p137 et p138).",
-      "ligne_rouge": "aucune"
+      "motif": "Article déclaratif (passe 2).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R322-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information, conseil et dépistage du VIH avec l'accord du détenu : prévention ciblée, consentement gardé.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information et dépistage du VIH fusionnés dans R322-6.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-6"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-10",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article déclaratif (passe 2).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-11",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-12",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-13",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Miroir de R. 1112-30 du code de la santé publique (passe 2).",
+      "ligne_rouge": "aucune."
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Surveillance dans l'unité hospitalière fusionnée dans R322-15.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-15"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Surveillance dans l'unité hospitalière fusionnée dans R322-15.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-15"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Surveillance dans l'unité hospitalière fusionnée dans R322-15.",
+      "ligne_rouge": "art. 66 C examiné : le partage des offices entre soin et garde est gardé à R322-15.",
+      "vers": "R322-15"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-19",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Surveillance dans l'unité hospitalière fusionnée dans R322-15.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-15"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-20",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Surveillance dans l'unité hospitalière fusionnée dans R322-15.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-15"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-22",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fouille des locaux fusionnée dans R322-21.",
+      "ligne_rouge": "art. 66 C examiné : accord et présence du directeur de l'hôpital et du médecin gardés à R322-21.",
+      "vers": "R322-21"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Incident grave fusionné dans R322-23.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-23"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-25",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis au magistrat et à l'autorité militaire fusionnés dans R322-23 par renvoi à D214-26.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-23"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-29",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Téléphone fusionné dans R322-28.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-28"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-30",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Correspondance fusionnée dans R322-28.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-28"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-32",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Signalement au psychiatre fusionné dans R322-31.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-31"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R322-33",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Examen psychiatrique avant libération fusionné dans R322-31.",
+      "ligne_rouge": "aucune.",
+      "vers": "R322-31"
     },
     {
       "code": "penitentiaire",
       "num": "R323-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Alimentation variée, trois distributions, régime médical : norme de base. Source de R351-5 et de R412-3.",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1). Alimentation et régime médical y sont repris.",
+      "ligne_rouge": "aucune : la norme d'alimentation survit au règlement intérieur type."
     },
     {
       "code": "penitentiaire",
       "num": "R324-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Cotisations et liquidation des droits sociaux du contrat d'emploi pénitentiaire : articulation nécessaire avec le code de la sécurité sociale.",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Redite du code de la sécurité sociale (L. 382-39, L. 382-48, L. 412-8 et section 3 du chapitre 2 du titre VIII du livre III) auquel il renvoie ; L. 324-1 et L. 324-2 posent déjà l'affiliation et les cotisations.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R324-3",
       "decision": "A",
-      "principe": "P3",
-      "motif": "Article miroir de l'article R. 821-8 du code de la sécurité sociale, qui règle lui-même la réduction de l'allocation aux adultes handicapés pendant la détention : la règle vit à sa source, une seule fois, sans perte.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Miroir de R. 821-8 du code de la sécurité sociale (passe 2).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R324-4",
       "decision": "A",
-      "principe": "P3",
-      "motif": "Article miroir de l'article R. 262-45 du code de l'action sociale et des familles, qui règle lui-même la suppression du revenu de solidarité active pendant la détention : la règle vit à sa source, une seule fois, sans perte.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Miroir de R. 262-45 du code de l'action sociale et des familles (passe 2).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R324-4-1",
       "decision": "A",
-      "principe": "P3",
-      "motif": "Article miroir de l'article R. 846-8 du code de la sécurité sociale, qui règle lui-même la suspension de la prime d'activité pendant l'incarcération : la règle vit à sa source, une seule fois, sans perte.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Miroir de R. 846-8 du code de la sécurité sociale (passe 2).",
+      "ligne_rouge": "aucune."
     }
-  ]
+  ],
+  "passe": 3
 }
