@@ -10,285 +10,310 @@
     {
       "code": "cpp",
       "num": "L5111-1",
-      "decision": "R",
       "principe": "P19",
-      "motif": "« Dans les meilleurs délais » n'engage personne : la mise à exécution reçoit un délai maximal, opposable à l'État et suivi par le rapport annuel du parquet (L5112-2). Durée à arbitrer.",
-      "ligne_rouge": "art. 8 DDHC examiné : la règle accélère l'exécution de la peine prononcée, elle ne touche ni son quantum ni son individualisation",
+      "motif": "Délai maximal de [trois mois] pour la mise à exécution (passe 2), phrase réordonnée.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "mises à exécution de façon effective et dans les meilleurs délais.",
-          "nouveau": "mises à exécution de façon effective, dans un délai de [trois mois] au plus à compter du jour où la décision est devenue exécutoire, sauf délai particulier fixé par la présente partie."
+          "op": "rediger",
+          "nouveau": "Les peines prononcées par les juridictions pénales sont mises à exécution de façon effective, sur décision ou sous le contrôle des autorités judiciaires, dans un délai de [trois mois] au plus à compter du jour où la décision est devenue exécutoire, sauf circonstances insurmontables ou délai particulier fixé par la présente partie."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5111-2",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Exécution à la décision définitive, sans attendre le délai d'appel propre au procureur général (L4471-4) : la peine s'exécute dès qu'elle peut l'être.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : l'exécution suit la décision définitive, l'exécution provisoire reste l'exception légale de L5111-3"
-    },
-    {
-      "code": "cpp",
-      "num": "L5111-3",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Exécution immédiate en cas d'exécution provisoire prononcée ou de droit (CRPC) : la peine prononcée s'exécute sans délai.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'exécution provisoire est prononcée par la juridiction (L4432-7, CP 132-41) ou acceptée par le condamné (CRPC), l'individualisation au prononcé est tenue ; art. 9 DDHC examiné : la culpabilité est jugée, l'appel reste ouvert"
-    },
-    {
-      "code": "cpp",
-      "num": "L5111-4",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Prescription des peines (vingt, six, trois ans) : elle sanctionne l'inaction de l'État dans l'exécution, ce que veut P19. Durées gardées.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5111-5",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Interruption de la prescription par tout acte d'exécution du parquet, des juridictions de l'application des peines, du Trésor ou de l'AGRASC : sert l'exécution effective.",
-      "ligne_rouge": "art. 8 DDHC examiné : règle d'exécution, sans effet sur le quantum ni sur l'individualisation"
-    },
-    {
-      "code": "cpp",
-      "num": "L5111-6",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Les condamnations civiles suivent la prescription du code civil, non celle de la peine : la victime ne perd pas sa créance avec la prescription courte de la peine. Règle de partage utile, non déclarative.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5111-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Imprescriptibilité des peines pour génocide et crimes contre l'humanité : nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5111-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Prescription trentenaire des peines pour les crimes les plus graves (terrorisme, stupéfiants, guerre, prolifération, disparition forcée, eugénisme) : nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5111-9",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Prescription vicennale des peines pour certains délits graves, gardée. Coquille du code de 2029 : « et de leurs vecteurs », reprise de la prolifération, s'est glissée après l'apologie du terrorisme (CP 421-2-5 et 421-2-5-1). Elle tombe.",
-      "ligne_rouge": "art. 8 DDHC examiné : la règle allonge le temps d'exécution, elle ne touche ni le quantum ni l'individualisation",
+      "principe": "P23",
+      "motif": "Moment de l'exécution en un article : décision définitive, exécution immédiate (L5111-3 fusionné).",
+      "ligne_rouge": "art. 8 DDHC examiné : l'exécution provisoire reste prononcée par la juridiction ou prévue par la loi",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "délits d'apologie du terrorisme et de leurs vecteurs prévus aux articles",
-          "nouveau": "délits d'apologie du terrorisme prévus aux articles"
+          "op": "rediger",
+          "nouveau": "La peine s'exécute lorsque la décision est devenue définitive. Le délai d'appel du procureur général prévu à l'article L. 4471-4 ne fait pas obstacle à cette exécution.\nLa peine s'exécute dès le prononcé de la décision :\n1° Lorsque la juridiction l'a assortie de l'exécution provisoire en application de l'article L. 4432-7 ou, pour l'emprisonnement avec sursis probatoire, de l'article 132-41 du code pénal.\n2° Lorsque l'exécution provisoire est de droit en comparution sur reconnaissance préalable de culpabilité (article L. 4453-1)."
         }
       ]
     },
     {
       "code": "cpp",
+      "num": "L5111-4",
+      "principe": "P23",
+      "motif": "Prescription des peines en un article : règle générale, trente ans (L5111-8 fusionné), vingt ans (L5111-9 fusionné, coquille « et de leurs vecteurs » après l'apologie retirée, passe 2), imprescriptibilité (L5111-7 fusionné). Chaque liste garde son champ exact.",
+      "ligne_rouge": "aucune ligne rouge : aucune durée ni aucun champ ne change",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les peines se prescrivent à compter du jour où la condamnation est devenue définitive :\n1° Par vingt années révolues pour un crime.\n2° Par six années révolues pour un délit.\n3° Par trois années révolues pour une contravention.\nSe prescrivent par trente années révolues les peines prononcées pour les crimes d'eugénisme et de clonage reproductif (articles 214-1 à 214-4 du code pénal), de disparition forcée (article 221-12 du même code), de trafic de stupéfiants (articles 222-34 à 222-40 du même code), pour les crimes de guerre (livre IV bis du même code) et pour les crimes de terrorisme et de prolifération d'armes de destruction massive et de leurs vecteurs mentionnés aux articles L. 1723-1 et L. 1723-3.\nSe prescrivent par vingt années révolues les peines prononcées pour les délits de trafic de stupéfiants (articles 222-36 à 222-40 du code pénal) et d'association de malfaiteurs en vue de les préparer (article 450-1 du même code), pour les délits de guerre (livre IV bis du même code), pour les délits de terrorisme mentionnés à l'article L. 1723-1, hors apologie du terrorisme (articles 421-2-5 à 421-2-5-1 du code pénal), et pour les délits de prolifération mentionnés à l'article L. 1723-3 punis de dix ans d'emprisonnement.\nLes peines prononcées pour le génocide et les autres crimes contre l'humanité (articles 211-1 à 212-3 du code pénal) sont imprescriptibles."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5111-5",
+      "principe": "P23",
+      "motif": "Interruption de la prescription : la liste en deux points devient une phrase, champ inchangé.",
+      "ligne_rouge": "art. 8 DDHC examiné : la prescription de la peine reste interrompue par les seuls actes d'exécution",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La prescription de la peine est interrompue par les actes ou décisions tendant à son exécution du ministère public, des juridictions de l'application des peines et, pour les amendes et confiscations de leur ressort, du Trésor ou de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5111-6",
+      "principe": "P18",
+      "motif": "Les condamnations civiles suivent le code civil : la victime garde sa créance.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
       "num": "L5112-1",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Le ministère public poursuit l'exécution des peines : répartition des offices tenue.",
-      "ligne_rouge": "aucune"
+      "motif": "Le ministère public poursuit l'exécution.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L5112-2",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Rapport annuel public du procureur sur l'état et les délais d'exécution : la juridiction rend compte. Il porte désormais le délai de L5111-1.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5112-3",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Miroir de L2127-1 du même code, qui dit mot pour mot la mission des juridictions de l'application des peines (fixer les modalités d'exécution, orienter, contrôler). Perte vérifiée : les qualificatifs « principales » et « certaines » et le renvoi à L5112-4, sans portée normative propre. La règle vit une fois, au livre II de la 2e partie. Renvois à l'ancien 712-1 à coordonner : D49-86 (vise en réalité l'ancien 712-8, soit L5131-12) et L113-6 du code pénitentiaire (vers L2127-1). D712-9 et D777-8 visent l'article 712-1 A du code pénal (Nouvelle-Calédonie) : faux positifs.",
-      "ligne_rouge": "aucune"
+      "motif": "Rapport annuel public sur l'exécution et ses délais.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L5112-4",
-      "decision": "R",
       "principe": "P18",
-      "motif": "Le régime d'exécution s'adapte à la personne : c'est sa place, pas celle du quantum. Mais il ne vise que la réinsertion : la protection de la victime et de la société entre dans son objet.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'individualisation au prononcé n'est pas touchée ; l'objectif de réinsertion de l'exécution (CC 93-334 DC, 20 janv. 1994) reste servi, à côté de la protection de la société que la même décision nomme",
+      "motif": "Régime d'exécution adapté à la personne, qui protège aussi la victime et la société (passe 2), phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : la situation de la personne entre au régime d'exécution, non au quantum ; l'adaptation reste confiée aux juridictions",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Il vise à préparer l'insertion ou la réinsertion de cette personne",
-          "nouveau": "Il assure la protection de la victime et de la société. Il vise aussi à préparer l'insertion ou la réinsertion de la personne condamnée"
+          "op": "rediger",
+          "nouveau": "Les juridictions de l'application des peines adaptent le régime d'exécution des peines privatives et restrictives de liberté à l'évolution, régulièrement évaluée, de la personnalité et de la situation matérielle, familiale et sociale de la personne condamnée. Ce régime protège la victime et la société. Il prépare aussi la réinsertion de la personne condamnée, pour qu'elle agisse de façon responsable, respecte les règles et les intérêts de la société et ne commette pas de nouvelle infraction."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5112-5",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Comptable public et AGRASC exécutent amendes, confiscations et droits fixes au nom du parquet : office tenu.",
-      "ligne_rouge": "art. 8 DDHC examiné : règle d'exécution, sans effet sur la peine prononcée"
-    },
-    {
-      "code": "cpp",
-      "num": "L5112-6",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Miroir de L2127-1, deuxième et troisième phrases : les services pénitentiaires d'insertion et de probation avisent les juridictions de l'application des peines, qui peuvent faire procéder aux modifications nécessaires au contrôle. Aucune règle propre perdue. Renvois à l'ancien 712-1 : voir L5112-3. L8425-2 cite L. 5112-6 pour les attributions du comptable public : coquille du code de 2029, le renvoi vise L5112-5, à corriger dans son lot.",
-      "ligne_rouge": "art. 8 DDHC examiné : le contrôle des juridictions sur la prise en charge reste porté par L2127-1"
+      "motif": "Comptable public et agence d'exécution des amendes et confiscations, phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : exécution au nom du procureur, sous contrôle juridictionnel des incidents (L5113-3)",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le comptable public et l'Agence de gestion et de recouvrement des avoirs saisis et confisqués exécutent, au nom du procureur de la République, les peines d'amende ou de confiscation selon le livre IV de la présente partie. Le comptable public recouvre aussi les droits fixes de procédure prévus aux articles L. 1642-1 et L. 1642-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5112-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Les parties poursuivent l'exécution des condamnations civiles : règle de partage, courte, utile.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5112-8",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Le parquet ou le juge de l'application des peines veille à l'indemnisation de la victime quand elle est une peine ou une obligation : la victime est servie. L'obligation de réparer devenue de droit en libération conditionnelle (L5243-2 réécrit) passe par le 5° de l'article 132-45 et entre donc dans le 2°.",
-      "ligne_rouge": "art. 8 DDHC examiné : contrôle de l'exécution d'une peine ou obligation déjà prononcée, sans effet sur le quantum"
+      "motif": "Exécution de l'action civile et contrôle de l'indemnisation de la victime en un article (L5112-8 fusionné).",
+      "ligne_rouge": "art. 8 DDHC examiné : le parquet et le juge veillent à l'indemnisation prononcée",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les parties poursuivent l'exécution des décisions des juridictions répressives sur l'action civile. Le ministère public ou les juridictions de l'application des peines, chacun pour ce qui le concerne, s'assurent toutefois de l'indemnisation de la victime lorsqu'ont été prononcées la sanction-réparation prévue à l'article 131-8-1 du code pénal ou l'obligation d'indemnisation prévue au 5° de l'article 132-45 du même code."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5113-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Demande de confusion portée devant un seul ordre de juridiction, avec appel : régime simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5113-2",
-      "decision": "R",
       "principe": "P14",
-      "motif": "La confusion réduit la peine exécutée : elle touche le quantum. La situation matérielle, familiale et sociale relève du régime d'exécution, pas du quantum, et sort des critères. Restent la gravité des faits et le comportement depuis la condamnation, qui est un effort (P10).",
-      "ligne_rouge": "art. 8 DDHC examiné : la confusion reste une faculté de la juridiction, qui individualise sur les faits et sur le comportement du condamné (P7)",
+      "motif": "Confusion des peines en un article : compétence, critères (L5113-2 fusionné : nature et gravité des faits, comportement, la situation sociale sort du quantum, passe 2). L'appel est dit une fois à L5113-3.",
+      "ligne_rouge": "aucune ligne rouge relevée ; appel gardé (L5113-3)",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "tiennent compte du comportement de la personne condamnée depuis la condamnation, de sa personnalité, ainsi que de sa situation matérielle, familiale et sociale.",
-          "nouveau": "tiennent compte de la nature et de la gravité des infractions, ainsi que du comportement de la personne condamnée depuis la condamnation."
+          "op": "rediger",
+          "nouveau": "La personne condamnée peut demander, en application de l'article 132-4 du code pénal, la confusion des peines prononcées contre elle par des décisions définitives, quelles que soient les juridictions qui ont statué. La demande est portée devant le tribunal délictuel qui a prononcé l'une des peines ou qui siège au lieu de l'une de ces juridictions. Le tribunal, ou en appel la chambre des appels délictuels, tient compte de la nature et de la gravité des infractions et du comportement de la personne depuis la condamnation."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5113-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Les incidents d'exécution vont à la juridiction qui a jugé, qui rectifie aussi ses erreurs matérielles : régime simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5113-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Incidents d'exécution des décisions criminelles devant la chambre des investigations et des libertés, gardé. Accord du verbe corrigé.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Incidents d'exécution en un article : décisions délictuelles, décisions criminelles (L5113-4 fusionné, accord corrigé), tiers propriétaire (L5113-5 fusionné), appel commun à la confusion.",
+      "ligne_rouge": "art. 8 DDHC examiné : le tiers propriétaire garde un juge et un appel",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "relève de la compétence",
-          "nouveau": "relèvent de la compétence"
+          "op": "rediger",
+          "nouveau": "Les incidents contentieux relatifs à l'exécution d'une décision rendue en matière délictuelle ou contraventionnelle sont portés devant le tribunal ou la chambre des appels délictuels qui l'a rendue, ceux d'une décision de la cour d'assises ou de la cour criminelle départementale devant la chambre des investigations et des libertés. Ces juridictions rectifient aussi les erreurs purement matérielles de ces décisions.\nPar dérogation, les incidents relatifs à l'exécution d'une confiscation, soulevés par un tiers propriétaire dont le titre n'était pas connu et qui n'a pas réclamé cette qualité au cours de la procédure, sont portés devant le tribunal délictuel qui a prononcé la peine ou qui siège au lieu de la juridiction qui l'a prononcée.\nLes décisions rendues par le tribunal délictuel en application du présent article et de l'article L. 5113-1 sont susceptibles d'appel devant la chambre des appels délictuels."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5113-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Tiers propriétaire ignoré pendant la procédure : un seul tribunal pour contester la confiscation, avec appel.",
-      "ligne_rouge": "art. 2 et 17 DDHC (propriété) examinés : le tiers garde un juge et un appel ; art. 8 DDHC examiné : la peine de confiscation n'est pas touchée à l'égard du condamné"
     },
     {
       "code": "cpp",
       "num": "L5113-6",
-      "decision": "R",
       "principe": "P26",
-      "motif": "Rectification d'une condamnation prononcée sous une fausse identité, gardée. Les débats se tiennent en audience publique, sauf demande de la personne dont l'état civil a été usurpé, seule victime en cause (P26). Coquille du code de 2029 corrigée : « au président de la chambre […] ou à son président » devient la chambre elle-même, juge des incidents criminels (L5113-4). Renvoi entrant : L5113-7 (réhabilitation de droit, amnistie), dont le débat devient public [arbitrage : exception à la demande du condamné]. Exceptions de publicité : renvoi à L. 1 (registre 3.1). La personne dont l'état civil a été usurpé y est victime et obtient la chambre du conseil à sa demande pour sa protection.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : la personne usurpée peut demander la chambre du conseil ; art. 16 DDHC examiné : requête, rapport et comparution possible gardés",
+      "motif": "Rectification d'identité : la publicité suit L. 1, l'usurpé a qualité de victime (registre 9.3) ; la coquille du président de chambre est corrigée (passe 2) ; la réhabilitation et l'amnistie suivent la même procédure (L5113-7 fusionné). « Audience publique » se tait : c'est la règle de L. 1.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "la requête est soumise au président de la chambre des investigations et des libertés ou à son président.",
-          "nouveau": "la requête est soumise à la chambre des investigations et des libertés."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Les débats ont lieu et le jugement est rendu en chambre du conseil.",
-          "nouveau": "Les débats ont lieu et le jugement est rendu en audience publique. Ils ont lieu en chambre du conseil dans les cas prévus à l'article L. 1. La personne dont l'état civil a été usurpé y a qualité de victime."
+          "op": "rediger",
+          "nouveau": "Lorsque, au cours d'une procédure, le procureur de la République ou le juge d'instruction constate qu'une personne a été condamnée sous une fausse identité ou a usurpé un état civil, le procureur de la République fait procéder d'office aux rectifications nécessaires avant la clôture de la procédure.\nLa rectification est demandée par requête au président de la juridiction qui a rendu la décision ou, pour une décision de la cour d'assises ou de la cour criminelle départementale, à la chambre des investigations et des libertés. Le président communique la requête au ministère public et commet un magistrat rapporteur. La personne dont l'état civil a été usurpé a qualité de victime pour l'application de l'article L. 1. La juridiction peut ordonner la comparution de la personne condamnée.\nSi la requête est admise, les frais incombent à celui qui a causé l'inscription erronée s'il a été appelé dans l'instance, sinon, ou s'il est insolvable, au Trésor. La décision est mentionnée en marge de la décision rectifiée.\nCette procédure s'applique aux contestations sur la réhabilitation de droit et aux difficultés d'interprétation d'une loi d'amnistie."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L5113-7",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Contestations sur la réhabilitation de droit et l'amnistie : même procédure que la rectification, un seul régime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5113-8",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Compétence concurrente de la juridiction du lieu de détention : rapproche le juge du détenu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5113-9",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Juge unique, renvoi collégial possible et de droit pour les peines criminelles sur demande : simple, soupape tenue (P7).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "L5113-10",
-      "decision": "R",
       "principe": "P26",
-      "motif": "Confusion et incidents d'exécution jugés en chambre du conseil : l'audience devient publique, sous les seules exceptions de l'article L. 1 réécrit (lot p322), une liste unique pour tout le code. Ordonnance sans audience sur accord gardée (voie rapide). Accord de « signifiée » corrigé. Appliqué par renvoi depuis L4223-8 et L6241-7.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : la victime peut demander la chambre du conseil ; art. 16 DDHC examiné : ministère public, avocat et partie entendus ; minorité examinée : chambre du conseil de droit pour les faits commis par un mineur",
+      "motif": "Dispositions communes en un article : juridiction du lieu de détention (L5113-8 fusionné), juge unique et renvoi collégial de droit (L5113-9 fusionné), audience publique selon L. 1 au lieu de la chambre du conseil (passe 2), suspension, ordonnance sur accord, signification.",
+      "ligne_rouge": "débat contradictoire et avocat : audition du ministère public et du conseil de la partie, renvoi collégial de droit en matière criminelle",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "la juridiction statue en chambre du conseil après avoir entendu",
-          "nouveau": "la juridiction statue en audience publique, sauf les exceptions prévues à l'article L. 1, après avoir entendu"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "est signifié à la requête",
-          "nouveau": "est signifiée à la requête"
+          "op": "rediger",
+          "nouveau": "La juridiction du lieu de détention du condamné est aussi compétente. Le ministère public saisi par une personne détenue peut lui transmettre la requête.\nLa juridiction statue sur requête du ministère public ou de la partie intéressée, après avoir entendu le ministère public, le conseil de la partie s'il le demande et, le cas échéant, la partie elle-même, sous réserve de l'article L. 5113-11. Son président statue seul et peut renvoyer l'affaire à la formation collégiale si sa complexité le justifie. Ce renvoi est de droit, à la demande du condamné ou du ministère public, pour une demande de confusion qui porte sur une peine criminelle.\nL'exécution de la décision contestée est suspendue si la juridiction l'ordonne. En cas d'accord des parties, le président peut statuer sans audience, par ordonnance. La décision est signifiée aux parties à la requête du ministère public."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5113-11",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Comparution du détenu à sa demande, audition délocalisée ou par moyen audiovisuel : simple, numérique possible.",
-      "ligne_rouge": "art. 16 DDHC examiné : le détenu comparaît de droit s'il le demande"
+      "motif": "Comparution du détenu à sa demande, audition audiovisuelle ou par commission rogatoire : phrases resserrées.",
+      "ligne_rouge": "droits de la défense : comparution de droit à la demande du détenu",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le requérant détenu ne comparaît de droit que s'il le demande expressément dans sa requête. La juridiction peut l'entendre par un moyen de télécommunication audiovisuelle conformément aux articles L. 1621-1 et suivants, ou donner commission rogatoire au président du tribunal judiciaire le plus proche du lieu de détention, qui peut déléguer un juge pour l'entendre par procès-verbal."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5111-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exécution immédiate, réunie au moment de l'exécution.",
+      "ligne_rouge": "art. 8 DDHC examiné : exécution provisoire prononcée ou de droit, inchangée",
+      "vers": "L5111-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L5111-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Imprescriptibilité, réunie à la prescription des peines.",
+      "ligne_rouge": "aucune",
+      "vers": "L5111-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L5111-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Prescription trentenaire, réunie, liste inchangée.",
+      "ligne_rouge": "aucune",
+      "vers": "L5111-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L5111-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Prescription vicennale des délits, réunie, liste inchangée (coquille retirée).",
+      "ligne_rouge": "art. 8 DDHC examiné : aucun délit n'entre ni ne sort de la liste",
+      "vers": "L5111-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L5112-3",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Miroir de L2127-1 (passe 2). Renvois à l'ancien 712-1 à coordonner (D49-86, L113-6 du code pénitentiaire).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L5112-6",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Miroir de L2127-1, deuxième et troisième phrases (passe 2). L8425-2 vise L5112-5.",
+      "ligne_rouge": "art. 8 DDHC examiné : les juridictions gardent le pouvoir de modifier la prise en charge (L2127-1)"
+    },
+    {
+      "code": "cpp",
+      "num": "L5112-8",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Contrôle de l'indemnisation de la victime, réuni à l'exécution de l'action civile.",
+      "ligne_rouge": "art. 8 DDHC examiné : règle gardée entière à L5112-7",
+      "vers": "L5112-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L5113-2",
+      "decision": "F",
+      "principe": "P14",
+      "motif": "Critères de la confusion, réunis à la demande (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "L5113-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5113-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Incidents des décisions criminelles, réunis.",
+      "ligne_rouge": "aucune",
+      "vers": "L5113-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5113-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Tiers propriétaire, réuni aux incidents, compétence et appel gardés.",
+      "ligne_rouge": "art. 8 DDHC examiné : juge et appel gardés",
+      "vers": "L5113-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5113-7",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Réhabilitation de droit et amnistie : même procédure, réunie.",
+      "ligne_rouge": "aucune",
+      "vers": "L5113-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L5113-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Compétence du lieu de détention, réunie aux dispositions communes.",
+      "ligne_rouge": "aucune",
+      "vers": "L5113-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L5113-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Juge unique et renvoi collégial, réunis aux dispositions communes.",
+      "ligne_rouge": "aucune",
+      "vers": "L5113-10"
     }
-  ]
+  ],
+  "passe": 3
 }
