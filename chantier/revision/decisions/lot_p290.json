@@ -10,339 +10,365 @@
     {
       "code": "cpp",
       "num": "L1530-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Définition du témoin : personne sans raison plausible de soupçon. Article d'ancrage.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Définition du témoin : article d'ancrage inchangé, cité par L3574-3 et repris par L1532-1.",
+      "ligne_rouge": "Présomption d'innocence examinée : le témoin est celui contre qui n'existe aucune raison plausible de soupçon.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L1531-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Obligation de comparaître du témoin, contrainte par la force publique : la manifestation de la vérité. La proposition de déclasser est écartée : la contrainte relève de la loi (art. 34 C).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1531-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Obligation de déposer sous serment, réserve du secret professionnel : règle de base.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1531-3",
-      "decision": "S",
-      "principe": "P27",
-      "motif": "Amende délictuelle du témoin défaillant ou qui refuse de déposer, sans emprisonnement : peine à sa place. Le doublon « d'amende » tombe.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, graduée selon le dommage, le quantum relève du barème des délits et la juridiction garde la modulation au prononcé",
+      "principe": "P23",
+      "motif": "Obligations du témoin : comparaître, déposer sous serment (L1531-2) et l'amende du témoin défaillant (L1531-3) en un article. Le doublon « d'amende » tombe (passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : amende délictuelle sans emprisonnement, inchangée. Secret professionnel examiné : la réserve des articles 226-13 et 226-14 du code pénal est gardée.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "une amende délictuelle de 3 750 euros d'amende conformément",
-          "nouveau": "une amende délictuelle de 3 750 euros conformément"
+          "op": "rediger",
+          "nouveau": "Toute personne convoquée comme témoin pour fournir des renseignements intéressant la procédure est tenue de comparaître. À défaut, elle peut y être contrainte par la force publique, selon les modalités prévues par le présent code. Convoquée au cours d'une information ou devant une juridiction, elle est tenue de déposer, après avoir prêté serment s'il y a lieu, sous réserve du secret professionnel prévu aux articles 226-13 et 226-14 du code pénal.\nLe témoin cité au cours de l'information ou devant la juridiction de jugement qui ne comparaît pas, ou qui refuse de prêter serment ou de déposer, peut être condamné à l'amende délictuelle de 3 750 euros prévue à l'article 434-15-1 du code pénal ou aux articles L. 4323-4 et L. 4423-19 du présent code."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1531-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dispense de serment des mineurs de seize ans et des proches de la personne poursuivie : la parole n'est pas forcée contre sa famille.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1531-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Secret des sources du journaliste témoin : liberté de la presse.",
-      "ligne_rouge": "art. 11 DDHC examiné : protection des sources, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L1531-6",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Indemnités de comparution des témoins, modalités renvoyées au règlement : la loi ouvre le droit. La proposition de déclasser est sans objet.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1532-1",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Domiciliation du témoin au commissariat ou à son adresse professionnelle, registre papier ou numérique : protection simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1532-2",
+      "principe": "P23",
+      "motif": "Dispense de serment des mineurs de seize ans et des proches de la personne poursuivie : gardée, énumération sans point-virgule.",
+      "ligne_rouge": "Minorité examinée : le mineur de seize ans est entendu sans serment.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Domiciliation professionnelle de l'agent public témoin sans autorisation : simple. Accord corrigé (« qu'elle a connus »).",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "pour des faits qu'elle a connu en raison",
-          "nouveau": "pour des faits qu'elle a connus en raison"
+          "op": "rediger",
+          "nouveau": "Sont entendus sans prestation de serment les témoins âgés de moins de seize ans et ceux qui sont, à l'égard de l'une des personnes poursuivies :\n1° Père, mère ou autre ascendant.\n2° Enfant ou autre descendant.\n3° Frère ou sœur.\n4° Allié aux mêmes degrés.\n5° Conjoint, partenaire lié par un pacte civil de solidarité ou concubin au sens de l'article 515-8 du code civil, lorsque le témoin ou une partie allègue cet état sans qu'il soit contesté ou que la procédure l'établit. La dispense subsiste après le divorce, la dissolution du pacte ou la cessation du concubinage."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L1532-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Domiciliation ouverte à la victime : la victime a la même protection que le témoin.",
-      "ligne_rouge": "aucune"
+      "num": "L1531-5",
+      "principe": "P25",
+      "motif": "Secret des sources du journaliste témoin : inchangé.",
+      "ligne_rouge": "Liberté de la presse (art. 11 DDHC) examinée : le secret des sources est gardé mot pour mot.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L1531-6",
+      "principe": "P1",
+      "motif": "Indemnités de comparution des témoins, modalités au règlement : gardées, phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les témoins convoqués devant une juridiction d'instruction ou de jugement ont droit à des indemnités de comparution fixées par voie réglementaire."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1532-1",
+      "principe": "P23",
+      "motif": "Domiciliation du témoin au commissariat ou à son adresse professionnelle, sans autorisation pour l'agent public (L1532-2), ouverte à la victime (L1532-3) : un article. La définition de L1530-1 remplace sa périphrase.",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) examinée : l'adresse personnelle est tenue sur un registre, papier ou numérique.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le témoin ou la victime peut, sur autorisation du procureur de la République ou du juge d'instruction, déclarer comme domicile l'adresse du commissariat ou de la brigade de gendarmerie ou, s'il est convoqué en raison de sa profession, son adresse professionnelle. Son adresse personnelle est inscrite sur un registre ouvert à cet effet et tenu sous format papier ou numérique.\nL'autorisation n'est pas nécessaire lorsque le témoin ou la victime, dépositaire de l'autorité publique ou chargé d'une mission de service public, déclare son adresse professionnelle pour des faits connus en raison de ses fonctions ou de sa mission."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1532-4",
+      "principe": "P23",
+      "motif": "Témoignage anonyme autorisé par le juge des libertés : gardé. Le registre coté et paraphé s'aligne sur celui de L1532-1, papier ou numérique (passe 2). Phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : aucune peine en jeu. Contrôle du juge examiné : l'anonymat reste autorisé par le juge des libertés et de la détention, par décision motivée. Droits de la défense (art. 16 DDHC, CEDH art. 6 § 3 d) examinés : la confrontation à distance, la contestation devant le président de la chambre et l'interdiction de condamner sur le seul témoignage anonyme sont gardées.",
       "decision": "S",
-      "principe": "P12",
-      "motif": "Témoignage anonyme autorisé par le juge des libertés pour les crimes et délits graves, quand la vie du témoin est en danger : protection du témoin sous contrôle d'un juge. Le registre « coté et paraphé » s'aligne sur celui de L1532-1, papier ou numérique.",
-      "ligne_rouge": "art. 16 DDHC examiné : pas de condamnation sur le seul fondement d'un témoignage anonyme (L1532-7), confrontation à distance ouverte, contestation devant le président de la chambre des investigations et des libertés. Art. 8 DDHC sans objet : aucune peine fixée",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sont inscrites sur un registre coté et paraphé, qui est ouvert à cet effet",
-          "nouveau": "sont inscrites sur un registre tenu sous format papier ou numérique, qui est ouvert à cet effet"
+          "op": "rediger",
+          "nouveau": "Dans une procédure portant sur un crime ou sur un délit puni d'au moins trois ans d'emprisonnement, lorsque l'audition d'un témoin est susceptible de mettre gravement en danger sa vie ou son intégrité physique, ou celles des membres de sa famille ou de ses proches, le juge des libertés et de la détention, saisi par requête motivée du procureur de la République ou du juge d'instruction, peut autoriser par décision motivée que ses déclarations soient recueillies sans que son identité apparaisse dans le dossier de la procédure. Cette décision n'est susceptible d'aucun recours, sous réserve de l'article L. 1532-5. Le juge peut procéder lui-même à l'audition.\nLa décision, qui ne fait pas apparaître l'identité du témoin, est jointe au procès-verbal d'audition, que le témoin ne signe pas. Son identité et son adresse figurent dans un autre procès-verbal, signé par lui et versé avec la requête dans un dossier distinct du dossier de la procédure, et sur un registre tenu sous format papier ou numérique au tribunal judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1532-5",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Anonymat exclu quand l'identité est indispensable à la défense, contestation en dix jours devant le président de la chambre : garantie de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : pas de condamnation sur le seul fondement d'un témoignage anonyme (L1532-7), confrontation à distance ouverte, contestation devant le président de la chambre des investigations et des libertés"
+      "motif": "Anonymat exclu quand l'identité est indispensable à la défense, contestation en dix jours devant le président de la chambre : gardés, phrases resserrées.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC, CEDH art. 6 § 3 d) examinés : la confrontation à distance, la contestation devant le président de la chambre et l'interdiction de condamner sur le seul témoignage anonyme sont gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'article L. 1532-4 ne s'applique pas lorsque, au regard des circonstances de l'infraction ou de la personnalité du témoin, la connaissance de son identité est indispensable à l'exercice des droits de la défense.\nLa personne mise en examen peut, dans les dix jours à compter de la date à laquelle elle a eu connaissance du contenu de l'audition anonyme, contester devant le président de la chambre des investigations et des libertés le recours à cette procédure. Le président statue par décision motivée, sans recours, au vu des pièces de la procédure et du dossier distinct. S'il estime la contestation justifiée, il annule l'audition. Il peut aussi ordonner la révélation de l'identité du témoin qui accepte expressément la levée de son anonymat."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1532-6",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Confrontation à distance avec le témoin anonyme, voix et apparence transformées : contradictoire préservé.",
-      "ligne_rouge": "art. 16 DDHC examiné : pas de condamnation sur le seul fondement d'un témoignage anonyme (L1532-7), confrontation à distance ouverte, contestation devant le président de la chambre des investigations et des libertés"
+      "motif": "Confrontation à distance avec le témoin anonyme, voix et apparence transformées : gardées, phrases resserrées.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC, CEDH art. 6 § 3 d) examinés : la confrontation à distance, la contestation devant le président de la chambre et l'interdiction de condamner sur le seul témoignage anonyme sont gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne mise en examen ou renvoyée devant la juridiction de jugement peut demander à être confrontée au témoin entendu en application de l'article L. 1532-4, ou à le faire interroger par son avocat, par un dispositif technique d'audition à distance. L'anonymat du témoin est préservé par tout moyen, y compris par un dispositif qui altère ou transforme sa voix ou son apparence physique. Si la juridiction ordonne un supplément d'information pour entendre le témoin, il est entendu soit par le juge d'instruction désigné pour l'exécuter, soit, par ce dispositif, par le membre de la juridiction désigné."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1532-7",
-      "decision": "S",
       "principe": "P25",
-      "motif": "Registre 3.2 : la déposition anonyme remplace le huis clos du témoin menacé (L4322-5, L4421-4). La garde du procès équitable la suit.",
-      "ligne_rouge": "Art. 16 DDHC et CEDH art. 6 § 3 d examinés : aucune condamnation sur les seules déclarations anonymes, à tous les stades.",
+      "motif": "Règle générale : aucune condamnation sur le seul fondement de déclarations anonymes, du témoin protégé (L1532-4, L1532-6), du témoin ou de la victime qui comparaît anonymement (L1532-9, registre 3.2, relecture) comme de l'agent de renseignement (L1533-9). Un article pour les deux.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC, CEDH art. 6 § 3 d) examinés : la confrontation à distance, la contestation devant le président de la chambre et l'interdiction de condamner sur le seul témoignage anonyme sont gardées.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par les articles L. 1532-4 et L. 1532-6.",
-          "nouveau": "par les articles L. 1532-4, L. 1532-6 et L. 1532-9."
+          "op": "rediger",
+          "nouveau": "Aucune condamnation ne peut être prononcée sur le seul fondement de déclarations recueillies dans les conditions prévues par les articles L. 1532-4, L. 1532-6, L. 1532-9 et L. 1533-7."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1532-8",
-      "decision": "G",
       "principe": "P26",
-      "motif": "Identité du témoin en danger tue à l'audience et dans les décisions, numéro attribué : l'audience reste publique, seule l'identité est protégée. La décision se prend en chambre du conseil parce que la débattre en public révélerait ce qu'elle protège.",
-      "ligne_rouge": "art. 8 DDHC sans objet : aucune peine fixée. art. 16 DDHC examiné : les parties reçoivent copie de la décision et connaissent le contenu du témoignage"
+      "motif": "Identité du témoin en danger tue à l'audience et dans les décisions, numéro attribué : l'audience reste publique, seule l'identité est protégée (registre 3.2). Phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : aucune peine en jeu. Publicité (P26) examinée : l'audience reste publique. Droits de la défense examinés : la copie de la décision est adressée aux parties.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans une procédure portant sur un crime ou sur un délit puni d'au moins trois ans d'emprisonnement, lorsque la révélation de l'identité d'un témoin est susceptible de mettre gravement en danger sa vie ou son intégrité physique ou celles de ses proches, le juge d'instruction ou le président de la juridiction de jugement statuant en chambre du conseil peut ordonner, d'office ou à la demande du procureur de la République ou des parties, que cette identité ne soit pas mentionnée au cours des audiences publiques et ne figure pas dans les décisions susceptibles d'être rendues publiques. Le témoin y est désigné par un numéro que lui attribue ce magistrat.\nCette décision n'est susceptible d'aucun recours. Le juge d'instruction en adresse sans délai copie au procureur de la République et aux parties."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1532-9",
-      "decision": "S",
       "principe": "P26",
-      "motif": "Registre 3.2 : l'anonymat du témoin et de la victime menacés est gardé, il protège une identité. Le huis clos pour danger grave sort des exceptions de L. 1 (registre 3.1) : le témoin dépose sous anonymat, la victime obtient le huis clos à sa demande. La juridiction statue à huis clos sur l'anonymat, parce que débattre en public révélerait l'identité qu'il protège. Cité par L1421-5 et L1452-11.",
-      "ligne_rouge": "Vie et intégrité (art. 2 DDHC) examinées : le témoin menacé dépose sous anonymat, voix et apparence altérées. Art. 16 DDHC examiné : contradictoire tenu par le dispositif de L1532-6 et les observations des parties. CEDH art. 6 § 1 examiné : l'audience reste publique.",
+      "motif": "Comparution anonyme du témoin ou de la victime en danger dans les procédures de criminalité organisée et de crimes internationaux : gardée (registre 3.2). Le huis clos pour danger grave sort des exceptions (registre 3.1) : la victime l'obtient à sa demande par L. 1 (passe 2). Recueille L1452-11.",
+      "ligne_rouge": "Publicité (P26) examinée : l'anonymat protège une identité, la juridiction en décide à huis clos parce qu'un débat public révélerait l'identité protégée. Droits de la défense examinés : observations écrites des parties recueillies.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "ordonner :1° Soit leur comparution",
-          "nouveau": "ordonner leur comparution"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "leur apparence physique ;2° Soit le huis clos.",
-          "nouveau": "leur apparence physique. La victime obtient en outre le huis clos à sa demande, dans les conditions de l'article L. 1."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "La décision prise au 1° est valable",
-          "nouveau": "La décision ordonnant la comparution anonyme est valable"
+          "op": "rediger",
+          "nouveau": "Dans une procédure portant sur des infractions mentionnées aux articles L. 1722-2, L. 1722-3 ou L. 1723-2, lorsque la comparution d'un témoin ou d'une victime est susceptible de mettre gravement en danger sa vie ou son intégrité physique ou celles de ses proches, la juridiction de jugement peut, d'office ou à sa demande, ordonner sa comparution dans des conditions qui préservent son anonymat, y compris par le dispositif mentionné à l'article L. 1532-6 ou par un dispositif qui altère ou transforme sa voix ou son apparence physique. Elle statue à huis clos après avoir recueilli les observations écrites du procureur de la République et des parties concernées. Sa décision vaut pour toute procédure dans laquelle la personne est témoin ou partie.\nLa victime obtient en outre le huis clos à sa demande, dans les conditions de l'article L. 1."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1532-10",
+      "principe": "P23",
+      "motif": "Mesures de protection et identité d'emprunt du témoin ou de la victime en danger, selon le régime des collaborateurs de justice : gardées, pour le danger né de l'audition à tous les stades (relecture). Le « sans préjudice » devient une phrase positive.",
+      "ligne_rouge": "Vie et intégrité des personnes (art. 2 DDHC) examinées : la protection et l'identité d'emprunt sont gardées.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Mesures de protection et identité d'emprunt du témoin ou de la victime en danger, selon le régime des collaborateurs de justice : protection effective. La phrase de renvoi, mal construite, se rétablit.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Ces mesures sont décidées dans les conditions définies aux articles L. 6332-1 à L. 6332-5 aux collaborateurs de justice.",
-          "nouveau": "Ces mesures sont décidées dans les conditions définies, pour les collaborateurs de justice, aux articles L. 6332-1 à L. 6332-5."
+          "op": "rediger",
+          "nouveau": "Dans les procédures mentionnées à l'article L. 1532-9, lorsque l'audition d'un témoin ou d'une victime est susceptible de mettre gravement en danger sa vie ou son intégrité physique ou celles de ses proches, cette personne et ses proches bénéficient, en tant que de besoin, de mesures de protection destinées à assurer leur sécurité, y compris une identité d'emprunt. Ces mesures sont décidées dans les conditions prévues, pour les collaborateurs de justice, aux articles L. 6332-1 à L. 6332-5. Elles se cumulent avec le témoignage anonyme de l'article L. 1532-4."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1532-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Identité et adresse des personnes protégées jamais révélées, sauf levée consentie de L1532-5 : protection tenue.",
-      "ligne_rouge": "aucune"
+      "principe": "P25",
+      "motif": "Identité et adresse des personnes protégées jamais révélées, sauf levée consentie : gardé, phrase positive.",
+      "ligne_rouge": "Vie et intégrité des personnes protégées examinées : le secret est absolu, hors levée consentie de l'anonymat.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'identité et l'adresse d'une personne protégée en application du présent chapitre ne sont jamais révélées, hors le cas prévu à la dernière phrase de l'article L. 1532-5."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1532-12",
-      "decision": "S",
       "principe": "P27",
-      "motif": "Révélation de l'identité d'une personne protégée : atteinte à la justice et aux personnes, au noyau, graduée selon le dommage. Coquilles corrigées (« ou l'adresse », « a eu pour conséquence »).",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, graduée selon le dommage, le quantum relève du barème des délits et la juridiction garde la modulation au prononcé",
+      "motif": "Révélation de l'identité d'une personne protégée : peines inchangées, énumération en une phrase, coquilles corrigées (passe 2).",
+      "ligne_rouge": "art. 8 DDHC examiné : peines inchangées et graduées selon le dommage, atteinte à la justice et aux personnes au noyau (P27).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Le fait de révéler l'identité ou de l'adresse",
-          "nouveau": "Le fait de révéler l'identité ou l'adresse"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "lorsque cette révélation eu pour conséquence",
-          "nouveau": "lorsque cette révélation a eu pour conséquence"
+          "op": "rediger",
+          "nouveau": "Est puni de cinq ans d'emprisonnement et de 75 000 euros d'amende le fait de révéler l'identité ou l'adresse d'une personne protégée en application des articles L. 1532-1 à L. 1532-4, de révéler l'identité d'une personne protégée en application de l'article L. 1532-8 ou de diffuser des informations permettant son identification ou sa localisation, ou de révéler qu'une personne fait usage d'une identité d'emprunt en application de l'article L. 1532-10 ou de diffuser tout élément permettant son identification ou sa localisation.\nLes peines sont portées à sept ans d'emprisonnement et 100 000 euros d'amende lorsque la révélation a eu pour conséquence, directe ou indirecte, des violences contre cette personne, son conjoint, ses enfants ou ses ascendants directs, et à dix ans d'emprisonnement et 150 000 euros d'amende lorsqu'elle a eu pour conséquence leur mort."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1532-13",
-      "decision": "G",
       "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "motif": "Renvoi au décret en Conseil d'État : inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L1533-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Comparution des membres du Gouvernement comme témoins sur autorisation du conseil des ministres, sauf témoin assisté : la déposition reste due (L1533-3), seule sa forme change. Séparation des pouvoirs.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1533-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Déposition du ministre autorisé dans les formes ordinaires. La proposition de déclasser est écartée : la forme d'une déposition relève de la procédure pénale. Le renvoi à « l'article précédent » se rédige par son numéro.",
+      "principe": "P23",
+      "motif": "Comparution des membres du Gouvernement sur autorisation par décret en conseil des ministres, déposition alors reçue dans les formes ordinaires (L1533-2) : un article.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en vertu de l'autorisation prévue à l'article précédent",
-          "nouveau": "en vertu de l'autorisation prévue à l'article L. 1533-1"
+          "op": "rediger",
+          "nouveau": "Le Premier ministre et les autres membres du Gouvernement ne peuvent comparaître comme témoins devant une juridiction d'instruction ou de jugement qu'après autorisation du conseil des ministres, donnée par décret sur le rapport du garde des sceaux, ministre de la justice. Leur déposition est alors reçue dans les formes ordinaires. Le présent article ne s'applique pas au membre du Gouvernement entendu comme témoin assisté."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1533-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Déposition écrite du ministre non autorisé, reçue par un magistrat sur les questions de la juridiction : la déposition reste due. Accord corrigé (« sur lesquelles »).",
+      "principe": "P23",
+      "motif": "Déposition écrite du ministre non autorisé, reçue par un magistrat sur les questions de la juridiction : gardée. Accord corrigé (passe 2).",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "une liste des demandes et questions sur lesquels le témoignage",
-          "nouveau": "une liste des demandes et questions sur lesquelles le témoignage"
+          "op": "rediger",
+          "nouveau": "Lorsque la comparution n'a pas été demandée ou n'a pas été autorisée, la déposition est reçue par écrit dans la demeure du témoin, par le premier président de la cour d'appel ou, si le témoin réside hors du chef-lieu de la cour, par le président du tribunal judiciaire de sa résidence. La juridiction saisie de l'affaire adresse à ce magistrat un exposé des faits et la liste des demandes et questions sur lesquelles le témoignage est requis."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1533-4",
-      "decision": "G",
       "principe": "P26",
-      "motif": "Transmission immédiate de la déposition, lecture publique devant la cour d'assises et la cour criminelle : publicité et contradictoire tenus.",
-      "ligne_rouge": "aucune"
+      "motif": "Transmission immédiate de la déposition, lecture publique devant les juridictions criminelles : gardées.",
+      "ligne_rouge": "Publicité et contradictoire examinés : la déposition est communiquée aux parties et lue publiquement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La déposition ainsi reçue est aussitôt remise au greffe ou envoyée, close et cachetée, à celui de la juridiction requérante, puis communiquée sans délai au ministère public et aux parties intéressées. Devant la cour d'assises et la cour criminelle départementale, elle est lue publiquement et soumise aux débats."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1533-5",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Déposition écrite des représentants étrangers par la voie diplomatique, mêmes formes que pour les ministres : un régime. La proposition de déclasser est écartée : la forme de la preuve relève de la loi.",
-      "ligne_rouge": "aucune"
+      "motif": "Déposition écrite des représentants étrangers par la voie diplomatique, dans les formes prévues pour les ministres : gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La déposition écrite d'un représentant d'une puissance étrangère est demandée par l'entremise du ministre des affaires étrangères. Si la demande est agréée, elle est reçue par le premier président de la cour d'appel ou par le magistrat qu'il délègue, dans les formes prévues à la dernière phrase de l'article L. 1533-3 et à l'article L. 1533-4."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1533-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Témoignage et rapports des experts d'organisations internationales : la preuve des crimes internationaux.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Témoignage et rapports des experts d'organisations internationales : gardés en une phrase.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'autorité judiciaire peut recueillir, par l'entremise du ministre des affaires étrangères, le témoignage d'experts d'organisations internationales, ou utiliser un rapport qu'ils ont rédigé, comme faisceau d'indices de l'élément matériel de l'infraction ou pour contribuer à la manifestation de la vérité."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1533-7",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Anonymat des agents de renseignement témoins sur des faits de sécurité nationale : exception admise à la publicité.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Témoignage des agents de renseignement et des agents étrangers antiterroristes : identité réelle jamais révélée, questions bornées, audition en lieu sûr, confrontation à distance (L1533-8 et L1533-10) en un article. Les renvois de L1533-8, cassés par la découpe de l'ancien 656-1, disparaissent avec la fusion. L'interdiction de condamner sur ces seules déclarations passe à la règle générale de L1532-7.",
+      "ligne_rouge": "Sécurité nationale (P26) examinée : exception admise à la publicité de l'identité. Droits de la défense (art. 16 DDHC, CEDH art. 6 § 3 d) examinés : la confrontation à distance, la contestation devant le président de la chambre et l'interdiction de condamner sur le seul témoignage anonyme sont gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le témoignage d'un agent d'un service mentionné à l'article L. 811-2 du code de la sécurité intérieure ou d'un service désigné par le décret en Conseil d'État prévu à l'article L. 811-4 du même code, ou d'une personne mentionnée à l'article 413-14 du code pénal, est requis sur des faits dont il aurait eu connaissance lors d'une mission intéressant la défense et la sécurité nationale, son identité réelle n'apparaît jamais au cours de la procédure. Son autorité hiérarchique atteste au besoin son appartenance au service et la réalité de sa mission. Il en est de même pour le témoignage des agents étrangers affectés dans des services de police judiciaire spécialement chargés de la lutte contre le terrorisme, sur des faits connus dans l'exercice de leurs fonctions.\nLes questions posées à l'agent ne doivent avoir ni pour objet ni pour effet de révéler, même indirectement, sa véritable identité. Il est entendu dans des conditions qui garantissent son anonymat. Si l'autorité hiérarchique indique que l'audition comporte des risques pour l'agent, ses proches ou son service, elle se tient dans un lieu qui assure l'anonymat et la confidentialité, choisi par le chef du service.\nLa confrontation entre l'agent et une personne mise en examen ou comparaissant devant la juridiction de jugement, en raison de preuves à charge résultant de ses constatations personnelles, est réalisée dans les conditions de l'article L. 1532-6."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1531-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Obligation de déposer sous serment, réserve du secret professionnel : fusionnée dans L1531-1 (obligations du témoin).",
+      "ligne_rouge": "Secret professionnel examiné : réserve gardée à L1531-1.",
+      "vers": "L1531-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1531-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Amende délictuelle du témoin défaillant ou qui refuse de déposer : fusionnée dans L1531-1, montant et renvois inchangés.",
+      "ligne_rouge": "art. 8 DDHC examiné : amende délictuelle de 3 750 euros gardée à L1531-1, sans emprisonnement.",
+      "vers": "L1531-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1532-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Domiciliation professionnelle de l'agent public témoin sans autorisation : fusionnée dans L1532-1. Accord corrigé (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "L1532-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1532-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Domiciliation ouverte à la victime : fusionnée dans L1532-1 (« le témoin ou la victime »). L1421-5, qui la citait, vise L1532-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L1532-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1533-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Déposition du ministre autorisé dans les formes ordinaires : fusionnée dans L1533-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L1533-1"
     },
     {
       "code": "cpp",
       "num": "L1533-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Questions sans révélation d'identité, audition en lieu sûr, confrontation à distance : la défense confronte le témoin sans l'exposer. L'article renvoie à des « premier et troisième alinéas » et à « un agent mentionné au premier alinéa » qui sont, depuis la découpe de l'ancien 656-1, à L1533-7 : les renvois se corrigent.",
-      "ligne_rouge": "art. 16 DDHC examiné : confrontation selon L1532-6, et pas de condamnation sur ce seul témoignage (L1533-9)",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "même effectuée dans les conditions d'anonymat indiquées aux premier et troisième alinéas,",
-          "nouveau": "même effectuée dans les conditions d'anonymat indiquées à l'article L. 1533-7 et au premier alinéa du présent article,"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "et un agent mentionné au premier alinéa en raison",
-          "nouveau": "et un agent mentionné à l'article L. 1533-7 en raison"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Questions, audition en lieu sûr et confrontation à distance de l'agent de renseignement : fusionnées dans L1533-7, ce qui répare les renvois cassés par la découpe de l'ancien 656-1.",
+      "ligne_rouge": "Droits de la défense examinés : la confrontation à distance (L1532-6) est gardée à L1533-7.",
+      "vers": "L1533-7"
     },
     {
       "code": "cpp",
       "num": "L1533-9",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Pas de condamnation sur le seul fondement de ces déclarations : noyau du procès équitable. Depuis la découpe de l'ancien 656-1, « le présent article » vise la section.",
-      "ligne_rouge": "art. 16 DDHC examiné : garantie tenue",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "dans les conditions prévues par le présent article.",
-          "nouveau": "dans les conditions prévues par la présente section."
-        }
-      ]
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Aucune condamnation sur le seul fondement des déclarations de l'agent : fusionnée dans la règle générale de L1532-7, qui vise L1533-7.",
+      "ligne_rouge": "Procès équitable (CEDH art. 6) examiné : la règle est gardée à L1532-7.",
+      "vers": "L1532-7"
     },
     {
       "code": "cpp",
       "num": "L1533-10",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Extension aux agents étrangers des services antiterroristes : sécurité nationale, exception admise.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Extension aux agents étrangers des services antiterroristes : fusionnée dans L1533-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L1533-7"
     }
-  ]
+  ],
+  "passe": 3
 }
