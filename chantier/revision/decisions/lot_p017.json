@@ -10,26 +10,35 @@
     {
       "code": "cpp",
       "num": "L5421-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Exécution des confiscations de biens et sommes saisis par l'agence de gestion et de recouvrement des avoirs saisis et confisqués : la confiscation du produit de l'infraction s'exécute (DDHC art. 17).",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Le titre en un article : l'Agence exécute les confiscations de biens saisis et les valorise (L5421-2), le comptable public exécute les autres confiscations en valeur (L5421-3). Chaque champ est gardé.",
+      "ligne_rouge": "DDHC art. 17 : la confiscation prononcée s'exécute, sans élargir les biens visés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'Agence de gestion et de recouvrement des avoirs saisis et confisqués exécute, au nom du procureur de la République, les confiscations de biens ou de sommes saisis au cours de la procédure, ou de biens qui y ont fait l'objet d'une mesure conservatoire, et les confiscations en valeur qui s'exécutent sur des biens saisis, même si ces biens ne lui ont pas été confiés. Sauf affectation, elle vend ces biens, accomplit les formalités de publication et, jusqu'à la vente, les actes nécessaires à leur conservation et à leur valorisation.\nLes autres confiscations en valeur sont exécutées au nom du procureur de la République par le comptable public compétent."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5421-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Vente, publication et conservation des biens par l'agence : la valeur confisquée est préservée jusqu'à la vente.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Vente, publication et conservation par l'Agence, reprises au premier alinéa de L5421-1. Renvoi de L1724-2 à coordonner vers L5421-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L5421-1"
     },
     {
       "code": "cpp",
       "num": "L5421-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Confiscation en valeur hors biens saisis : recouvrement par le comptable public, comme l'amende.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Confiscations en valeur hors biens saisis, reprises au second alinéa de L5421-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L5421-1"
     }
-  ]
+  ],
+  "passe": 3
 }
