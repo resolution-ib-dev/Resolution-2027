@@ -10,90 +10,132 @@
     {
       "code": "cpp",
       "num": "L3721-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contestation du sort des biens saisis par les mis en cause, les parties et les tiers qui prétendent à des droits : la propriété a son juge.",
-      "ligne_rouge": "art. 2 et 17 DDHC, propriété examinée : recours ouvert aux tiers, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3721-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Refus de restitution contesté devant le premier président.",
-      "ligne_rouge": "art. 2 et 17 DDHC, propriété examinée : recours devant un juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3721-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Destruction ou remise à l'agence des avoirs contestées devant le premier président.",
-      "ligne_rouge": "art. 2 et 17 DDHC, propriété examinée : recours avant l'atteinte irréversible, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3721-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Remise, cession ou euthanasie d'un animal contestées par son propriétaire.",
-      "ligne_rouge": "art. 2 et 17 DDHC, propriété examinée : recours ouvert, tenu"
+      "principe": "P23",
+      "motif": "Reçoit L3721-2 (refus de restitution), L3721-3 (destruction, remise à l'agence) et L3721-4 (animal) : qui conteste, quoi, devant qui, en un article. Renvois mis à jour sur le lot p183 : L3532-17 est fusionné dans L3532-16, L3532-19 dans L3532-20. Le 1° vise aussi le refus de restituer le produit de la vente d'un bien saisi (L3532-20), que la loi doit ouvrir au recours (coordination avec R15-41-2, lot p327).",
+      "ligne_rouge": "aucune (passe 1) ; art. 17 DDHC : la propriété a son juge : refus de restitution, destruction, aliénation et sort de l'animal restent soumis au premier président, les tiers qui prétendent à des droits sont admis.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes mises en cause, les parties à l'information et les personnes qui prétendent avoir des droits sur un bien saisi peuvent contester devant le premier président de la cour d'appel ou le magistrat qu'il désigne les décisions du procureur de la République, du procureur général ou du juge d'instruction, prises au cours ou à l'issue de l'enquête ou de l'information, qui :\n1° Refusent la restitution d'un bien saisi ou du produit de sa vente, selon les articles L. 3532-14 et L. 3532-20.\n2° Ordonnent la destruction d'un bien saisi, selon les articles L. 3532-12 et L. 3532-16.\n3° Ordonnent la remise d'un bien saisi à l'Agence de gestion et de recouvrement des avoirs saisis et confisqués, selon l'article L. 3532-20.\nLe propriétaire d'un animal peut contester de même les décisions de remise, de cession ou d'euthanasie prises selon les articles L. 3532-28 et L. 3532-30."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3721-5",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Délais de dix jours, un mois, cinq jours, vingt-quatre heures selon l'enjeu, partant de la notification : courts et connus.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3721-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Délais et recours suspensifs : le bien n'est pas détruit avant le juge.",
-      "ligne_rouge": "art. 2 et 17 DDHC, propriété examinée : effet suspensif, tenu"
+      "principe": "P23",
+      "motif": "Reçoit L3721-6 (effet suspensif). Délais de dix jours, un mois, cinq jours et vingt-quatre heures gardés. Le recours à distance prend la formule de L1632-5. La destruction de stupéfiants est désormais à L3532-12 (lot p183). Borne de la plage citée par L3762-11.",
+      "ligne_rouge": "aucune (passe 1) ; art. 17 DDHC : le bien n'est ni détruit ni aliéné avant le juge : effet suspensif gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les recours de l'article L. 3721-1 sont formés dans les dix jours, par requête déposée au greffe du tribunal dans les formes de l'article L. 3712-2. Toutefois, la décision du procureur de la République ou du procureur général sur une demande de restitution peut être contestée dans le mois de sa notification, par déclaration au greffe du tribunal ou de la cour ou par tout moyen permettant d'en établir la date de réception. La décision du procureur de la République ordonnant la destruction du bien ou sa remise à l'Agence peut être contestée dans les cinq jours de sa notification, par déclaration au greffe du tribunal ou à l'autorité qui l'a notifiée. Ce délai est de vingt-quatre heures en cas de notification orale d'une décision de destruction de produits stupéfiants prise selon l'article L. 3532-12.\nCes délais et l'exercice de ces recours sont suspensifs."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3721-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine directe du président de la chambre faute de décision du juge d'instruction en un mois : délai engagé.",
-      "ligne_rouge": "aucune"
+      "principe": "P13",
+      "motif": "Saisine directe faute de décision du juge d'instruction en un mois : gardée. Le renvoi à L3523-13 (prolongation de garde à vue) était une coquille de la base : la requête en restitution est à L3532-13.",
+      "ligne_rouge": "aucune (passe 1) ; P19 : délai d'un mois opposable.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Faute pour le juge d'instruction d'avoir statué dans le mois sur une requête en restitution présentée selon l'article L. 3532-13, la personne peut saisir directement le président de la chambre des investigations et des libertés, qui procède selon l'article L. 3712-10, la saisine tenant lieu d'appel."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3721-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le tiers est entendu sans accès à la procédure : propriété et secret de l'information conciliés.",
-      "ligne_rouge": "art. 2 et 17 DDHC, propriété examinée : audition du tiers, tenue"
+      "principe": "P23",
+      "motif": "Le tiers est entendu sans accès à la procédure : gardé (borne de la plage citée par L3762-11).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tiers peut, comme les parties, être entendu en ses observations par le premier président ou le conseiller qu'il désigne, sans pouvoir obtenir la mise à disposition de la procédure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3722-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Recours suspensif de vingt-quatre heures contre la décision sur un document saisi chez un avocat, décision en cinq jours, bâtonnier entendu : noyau des droits de la défense.",
-      "ligne_rouge": "art. 16 DDHC, droits de la défense examiné : secret de la défense sous le contrôle d'un juge, tenu ; art. 66 C sans objet"
+      "principe": "P23",
+      "motif": "Recours suspensif de vingt-quatre heures, décision en cinq jours, audition du bâtonnier, ouverture du scellé : gardés en phrases courtes.",
+      "ligne_rouge": "Art. 66 C (signalé) et art. 16 DDHC examinés : secret de la défense protégé par un juge, recours suspensif, bâtonnier entendu : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La décision du juge des libertés et de la détention qui statue, selon l'article L. 3533-6, sur la contestation de la saisie d'un document ou d'un objet susceptible de relever de l'exercice des droits de la défense peut faire l'objet, dans les vingt-quatre heures, d'un recours suspensif devant le président de la chambre des investigations et des libertés. Le recours est ouvert au procureur de la République, à l'avocat, au bâtonnier ou à son délégué, et à l'administration ou l'autorité administrative compétente. Il est formé par déclaration au greffe du juge des libertés et de la détention ou de la chambre.\nLe président statue dans les cinq jours de sa saisine, après avoir entendu le magistrat qui a procédé à la perquisition et, le cas échéant, le procureur de la République, l'avocat chez qui elle a eu lieu et le bâtonnier ou son délégué. Il peut ouvrir le scellé en leur présence."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3722-2",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Appel sur l'exécution des saisies conservatoires spéciales, suspensif : voie de recours, qui relève de la loi. La proposition de déclasser est écartée.",
-      "ligne_rouge": "art. 2 et 17 DDHC, propriété examinée : recours suspensif, tenu"
+      "principe": "P23",
+      "motif": "Reçoit L3722-3 : les recours en matière de saisies conservatoires et spéciales tiennent dans un article, chacun avec ses titulaires et son effet. Accès limité aux pièces et audition des non-appelants gardés.",
+      "ligne_rouge": "aucune (passe 1) ; art. 17 DDHC : voies de recours, effet suspensif sur l'exécution, accès du propriétaire et des tiers aux pièces qui les concernent : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sont susceptibles d'appel devant la chambre des investigations et des libertés, selon les articles L. 3712-1 et L. 3712-2 :\n1° De la part du requérant, la décision sur une requête relative à l'exécution d'une saisie, prise selon l'article L. 3534-20. L'appel est suspensif.\n2° De la part du ministère public, du propriétaire du bien et des tiers qui prétendent avoir des droits sur ce bien, les décisions de saisie spéciale prises selon les articles L. 3534-2 à L. 3534-14. L'appel n'est pas suspensif.\nLe recours est porté devant le premier président de la cour d'appel ou le juge qu'il délègue lorsque la décision du 1° émane du président du tribunal judiciaire ou d'un juge qu'il délègue, et dans le cas de l'article L. 3534-8. Il a le même effet que l'appel.\nLe propriétaire ou le tiers appelant n'a accès qu'aux pièces de la procédure relatives à la saisie qu'il conteste. S'ils ne sont pas appelants, le propriétaire et les tiers peuvent être entendus par la chambre, sans accès à la procédure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3722-3",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Appel du ministère public, du propriétaire et des tiers sur les saisies spéciales, accès limité aux pièces de la saisie : tenu.",
-      "ligne_rouge": "art. 2 et 17 DDHC, propriété examinée : recours ouvert au propriétaire et aux tiers, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Appel des saisies spéciales, accès limité aux pièces, audition des non-appelants : 2° et derniers alinéas de L3722-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L3722-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3721-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Refus de restitution : 1° de L3721-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3721-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3721-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Destruction et remise à l'agence : 2° et 3° de L3721-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3721-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3721-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recours du propriétaire d'un animal : dernier alinéa de L3721-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L3721-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3721-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Effet suspensif des délais et des recours : second alinéa de L3721-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L3721-5"
     }
-  ]
+  ],
+  "passe": 3
 }
