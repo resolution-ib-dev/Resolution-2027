@@ -1,0 +1,69 @@
+{
+  "lot": "lot_p102",
+  "titre": "Livre VII, titre Ier : collectivités régies par l'article 73 de la Constitution",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L711-1",
+      "texte": "Le présent code s'applique en Guadeloupe, en Guyane, à la Martinique, à La Réunion et à Mayotte. À Mayotte, l'accord prévu à l'article L. 5524-3 du code du travail tient lieu de celui que vise l'article L. 324-12.",
+      "verbe": "R",
+      "principe": "P3",
+      "motif": "Clause d'application aux collectivités de l'article 73, avec sa table : il ne reste qu'une adaptation, l'accord d'assurance chômage propre à Mayotte (L. 713-3). La contrainte judiciaire à Mayotte suit le droit commun (registre 7.1), l'affiliation des écroués aussi (passe 2).",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L713-1",
+      "verbe": "A",
+      "principe": "P3",
+      "motif": "Mayotte s'aligne sur le droit commun (registre 7.1) : la contrainte judiciaire s'y exécute, comme ailleurs, dans le quartier de l'établissement destiné à cet effet (L. 216-1). L'établissement unique du département n'empêche pas d'y affecter un quartier.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L713-2",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Mayotte est un département régi par l'identité législative (art. 73 C). L'adaptation dit ce que dit L. 324-1 (affiliation des écroués au régime général), mais se renvoie à elle-même (« dans les conditions prévues à l'article L. 324-1 ») et réserve L. 753-7-2 du code de la sécurité sociale, qui ne règle que la retraite des anciens assurés du régime mahorais (ordonnance n° 2002-411, abrogée par l'ordonnance n° 2026-647) et s'applique de lui-même. L. 324-1 s'applique à Mayotte sans adaptation. Effet à dire : le second alinéa métropolitain (retraite complémentaire, L. 382-48 du code de la sécurité sociale) s'étend à Mayotte.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L713-3",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Accord d'assurance chômage propre à Mayotte (L. 5524-3 du code du travail) : une ligne de la table de L. 711-1, sans réécrire L. 324-12. L'aménagement pour les personnes sous contrat d'emploi pénitentiaire suit de L. 324-12.",
+      "ligne_rouge": "aucune",
+      "vers": "L711-1"
+    }
+  ],
+  "phrases": {
+    "L711-1#1": {
+      "destin": "reprise",
+      "vers": "L711-1"
+    },
+    "L713-1#1": {
+      "destin": "abrogee",
+      "principe": "P3"
+    },
+    "L713-1#2": {
+      "destin": "abrogee",
+      "principe": "P3"
+    },
+    "L713-2#1": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "L713-2#2": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "L713-3#1": {
+      "destin": "reprise",
+      "vers": "L711-1"
+    },
+    "L713-3#2": {
+      "destin": "reprise",
+      "vers": "L711-1"
+    }
+  }
+}
