@@ -10,26 +10,39 @@
     {
       "code": "penitentiaire",
       "num": "D381-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Diffusion hors de la prison des productions audiovisuelles d'insertion autorisée par le directeur interrégional, droit à l'image réservé : règle propre.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Diffusion hors de l'établissement des productions audiovisuelles d'insertion autorisée par le directeur interrégional : gardée. Le rappel « sans préjudice » du droit à l'image tombe : L. 381-1 s'applique de lui-même.",
+      "ligne_rouge": "aucune : droit à l'image tenu par L. 381-1.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le directeur interrégional des services pénitentiaires autorise la diffusion hors de l'établissement des productions audiovisuelles des activités d'insertion."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R381-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Sortie des écrits destinés à publication autorisée par le directeur interrégional, manuscrit retenu pour l'ordre public et restitué à la libération : protège les victimes contre la publicité des faits.",
-      "ligne_rouge": "art. 11 DDHC et droits de la défense examinés : retenue motivée par l'ordre public, restitution à la libération, droits de la défense réservés"
+      "principe": "P25",
+      "motif": "Sortie des écrits destinés à publication et retenue du manuscrit : gardées dans le code, hors du règlement intérieur type, parce qu'elles bornent la liberté d'expression.",
+      "ligne_rouge": "liberté d'expression examinée : la retenue est bornée à l'ordre public, sous réserve des droits de la défense, jusqu'à la libération.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le directeur interrégional des services pénitentiaires autorise la sortie des écrits destinés à publication ou divulgation. Tout manuscrit rédigé en détention peut être saisi par l'autorité judiciaire ou, pour des raisons d'ordre public et sous réserve des droits de la défense, retenu jusqu'à la libération de son auteur."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R382-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R57-6-17 (diffusion de l'image et de la voix du prévenu autorisée par le magistrat saisi) du code de procédure pénale, sans rien y ajouter : la règle vit à sa source, gardée au lot p025.",
-      "ligne_rouge": "présomption d'innocence examinée : la diffusion de l'image du prévenu reste soumise au magistrat par R57-6-17 du code de procédure pénale"
+      "motif": "Miroir de R. 57-6-17 du code de procédure pénale (passe 2) : la diffusion de l'image de la personne prévenue y est réglée.",
+      "ligne_rouge": "aucune."
     }
-  ]
+  ],
+  "passe": 3
 }
