@@ -10,20 +10,42 @@
     {
       "code": "penitentiaire",
       "num": "D352-1",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Registre 5.2 : l'avis préalable du préfet sur l'agrément des aumôniers devient une information du préfet, saisi de la demande : il garde le criblage de sécurité sans que la décision l'attende. Agrément, indemnité, condition de diplôme civil et civique, limite d'âge gardés.",
-      "ligne_rouge": "art. 10 DDHC examiné : l'exercice du culte reste libre (R351-1), l'agrément reste délivré sur proposition de l'aumônier national du culte",
+      "motif": "Aumônerie en un article (D352-3 à D352-6 fusionnés) : agrément des aumôniers et des auxiliaires, information du préfet (registre 5.2 et 9.21), avis de l'aumônier national gardé pour les auxiliaires, limite d'âge, rôle, autres ministres, nom des pratiquants, indemnité et condition de diplôme. Le respect du code et du règlement intérieur, qui s'impose de lui-même, n'est plus redit.",
+      "ligne_rouge": "aucune : liberté de culte gardée, le culte choisit ceux qui le servent.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par le directeur interrégional des services pénitentiaires après avis du préfet du département dans lequel se situe l'établissement visité, sur proposition de l'aumônier national du culte concerné.",
-          "nouveau": "par le directeur interrégional des services pénitentiaires, sur proposition de l'aumônier national du culte concerné. Le préfet du département dans lequel se situe l'établissement visité est informé de la demande d'agrément."
-        },
+          "op": "rediger",
+          "nouveau": "Le directeur interrégional des services pénitentiaires agrée les aumôniers sur proposition de l'aumônier national du culte. Il agrée pour deux ans renouvelables, après avis de celui-ci, les auxiliaires bénévoles d'aumônerie, qui animent des groupes de réflexion, de prière et d'étude, sans entretien individuel. Le préfet du département, ou le préfet de région pour plusieurs départements, est informé de toute demande d'agrément. L'agrément d'un aumônier est retiré à soixante-quinze ans.\nAumôniers et auxiliaires ont un rôle exclusivement spirituel et moral. À la demande de l'aumônier, le chef d'établissement peut autoriser d'autres ministres du culte à célébrer les offices. L'aumônier reçoit sans délai le nom des personnes détenues qui déclarent pratiquer son culte.\nLes aumôniers peuvent recevoir une indemnité forfaitaire, sans cumul avec une autre rémunération publique au même titre, dont le montant annuel est fixé par arrêté des ministres chargés de la justice et du budget. L'aumônier agréé depuis le 1er octobre 2017 n'est indemnisé par vacations horaires que s'il détient, ou s'engage à obtenir dans les deux ans de son agrément, un diplôme de formation civile et civique inscrit sur une liste fixée par arrêté des ministres chargés de l'intérieur, de l'enseignement supérieur et de l'outre-mer. Faute de diplôme à ce terme, l'indemnité cesse."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R351-1",
+      "principe": "P23",
+      "motif": "Exercice du culte en un article (R351-3, R352-9 fusionnés) : culte en cellule ou collectif, aumôniers agréés, objets et livres. L. 351-1 pose la liberté de culte et L. 311-1 l'information de la personne sur ses droits dès son admission : leurs redites (R351-2) tombent.",
+      "ligne_rouge": "aucune : liberté de culte gardée.",
+      "decision": "R",
+      "operations": [
         {
-          "op": "remplacer",
-          "ancien": "le préfet de région exerce la compétence dévolue au préfet de département en application des dispositions de l'alinéa précédent.",
-          "nouveau": "le préfet de région est informé en lieu et place du préfet de département."
+          "op": "rediger",
+          "nouveau": "La personne détenue exerce son culte seule dans sa cellule ou collectivement dans les salles prévues, en présence des intervenants d'aumônerie. Les aumôniers agréés de chaque culte assurent les offices, les réunions cultuelles et l'assistance spirituelle. La personne détenue reçoit et garde les objets de pratique religieuse et les livres nécessaires à sa vie spirituelle."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R352-8",
+      "principe": "P25",
+      "motif": "Entretien avec l'aumônier aussi souvent que nécessaire, hors de la présence du personnel, quartier disciplinaire compris : gardé. L'accès à l'aumônier de la personne qui travaille est gardé (relecture adverse, CEDH art. 9).",
+      "ligne_rouge": "aucune : liberté de conscience gardée sous la discipline.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue s'entretient, à sa demande et aussi souvent que nécessaire, avec un aumônier de sa confession. Aucune mesure ni sanction ne peut entraver ce droit. L'entretien a lieu hors de la présence du personnel de surveillance, au parloir, dans un local prévu ou en cellule, et au quartier disciplinaire dans un local désigné par le chef d'établissement. La personne détenue qui travaille obtient l'entretien hors des heures de travail ou, à titre exceptionnel, pendant son activité si cette interruption ne gêne pas celle des autres."
         }
       ]
     },
@@ -32,111 +54,95 @@
       "num": "D352-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article déclaratif : les aumôniers consacrent « tout ou partie de leur temps » à leurs fonctions selon la demande, sans règle opposable. Leurs fonctions sont définies par R351-3, leur rémunération par D352-1.",
-      "ligne_rouge": "aucune"
+      "motif": "Article déclaratif (passe 2) : les fonctions des aumôniers sont à R351-1, leur indemnité à D352-1.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "D352-3",
-      "decision": "S",
+      "decision": "F",
       "principe": "P15",
-      "motif": "Registre 5.2 : l'avis préalable du préfet sur l'agrément des auxiliaires bénévoles d'aumônerie devient une information du préfet. L'avis de l'aumônier national du culte est gardé : il garde au culte le choix de ceux qui le servent. Agrément pour deux ans, sans entretien individuel, gardé.",
-      "ligne_rouge": "art. 10 DDHC examiné : le culte garde la main sur ses auxiliaires par l'avis de son aumônier national",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "agréés par le directeur interrégional des services pénitentiaires après avis du préfet du département dans lequel se situe l'établissement pénitentiaire ou, lorsque la demande d'agrément porte sur des établissements situés dans plusieurs départements, du préfet de région et de l'aumônier national du culte concerné, pour une période de deux ans renouvelable.",
-          "nouveau": "agréés par le directeur interrégional des services pénitentiaires après avis de l'aumônier national du culte concerné, pour une période de deux ans renouvelable. Le préfet du département dans lequel se situe l'établissement pénitentiaire ou, lorsque la demande d'agrément porte sur des établissements situés dans plusieurs départements, le préfet de région est informé de la demande d'agrément."
-        }
-      ]
+      "motif": "Auxiliaires bénévoles d'aumônerie fusionnés dans D352-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "D352-1"
     },
     {
       "code": "penitentiaire",
       "num": "D352-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Rôle exclusivement spirituel et moral des aumôniers, dans le respect du code et du règlement intérieur : borne utile.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Rôle des aumôniers fusionné dans D352-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "D352-1"
     },
     {
       "code": "penitentiaire",
       "num": "D352-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Offices célébrés par d'autres ministres du culte sur autorisation du chef d'établissement : souplesse au plus près.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autres ministres du culte fusionnés dans D352-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "D352-1"
     },
     {
       "code": "penitentiaire",
       "num": "D352-6",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Communication à l'aumônier du nom des détenus qui ont déclaré vouloir pratiquer : le culte s'organise sur la demande du détenu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R351-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Exercice du culte en cellule ou collectivement : liberté de conscience.",
-      "ligne_rouge": "art. 10 DDHC examiné : liberté de culte en détention, tenue"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Nom des pratiquants fusionné dans D352-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "D352-1"
     },
     {
       "code": "penitentiaire",
       "num": "R351-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le détenu est avisé à l'arrivée de son droit de recevoir un ministre du culte : un droit ignoré n'est pas exercé.",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Redite de la loi : L. 351-1 pose la liberté de culte, L. 311-1 l'information de la personne sur ses droits à son admission, droit de recevoir un ministre du culte compris.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R351-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Offices et assistance spirituelle assurés par des aumôniers agréés : définit la fonction, une phrase.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Aumôniers agréés fusionnés dans R351-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R351-1"
     },
     {
       "code": "penitentiaire",
       "num": "R351-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Vêtements religieux réservés à la salle de culte, transport dans un sac : ordre dans les lieux collectifs.",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Règle du règlement intérieur type (R112-22) : elle sort du code vers le décret en Conseil d'État qui fixe ce règlement (L. 112-4), à strate égale (technique 4, P1). Le port des vêtements religieux y est repris.",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R351-5",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie le premier alinéa de R323-1 (alimentation variée tenant compte, dans toute la mesure du possible, des convictions) du présent code, auquel il renvoie : la règle vit une fois.",
-      "ligne_rouge": "aucune"
+      "motif": "Miroir de R323-1 (passe 2), qui sort lui-même au règlement intérieur type (lot p111).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R352-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Jours et heures des offices fixés avec le chef d'établissement, local désigné : une phrase.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R352-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Entretien avec l'aumônier aussi souvent que nécessaire, hors présence du personnel, y compris au quartier disciplinaire : liberté de conscience gardée sous discipline.",
-      "ligne_rouge": "aucune"
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Jours et heures des offices et local : organisation de l'établissement, au règlement intérieur type (L. 112-4), à strate égale (P1).",
+      "ligne_rouge": "aucune."
     },
     {
       "code": "penitentiaire",
       "num": "R352-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Objets de culte et livres conservés : liberté de culte.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Objets de culte et livres fusionnés dans R351-1.",
+      "ligne_rouge": "aucune.",
+      "vers": "R351-1"
     }
-  ]
+  ],
+  "passe": 3
 }
