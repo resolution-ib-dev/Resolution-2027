@@ -10,170 +10,199 @@
     {
       "code": "cpp",
       "num": "L1131-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Impartialité des magistrats du siège et du parquet : principe directeur, court.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)"
-    },
-    {
-      "code": "cpp",
-      "num": "L1131-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Investigations et débats à charge et à décharge : principe directeur, court.",
-      "ligne_rouge": "art. 9 DDHC examiné : la preuve est recherchée dans les deux sens, tenue"
+      "principe": "P23",
+      "motif": "Impartialité des magistrats et instruction à charge et à décharge : deux articles d'une phrase en un.",
+      "ligne_rouge": "Art. 16 DDHC examiné : impartialité et recherche de la vérité à charge et à décharge, tenues",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les magistrats du siège et du ministère public concourent à la procédure pénale dans le respect du principe d'impartialité auquel ils sont tenus. Les investigations et débats qu'ils mènent, dirigent ou contrôlent tendent à la manifestation de la vérité et sont accomplis à charge et à décharge."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1131-3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Les juges ne manifestent pas leur opinion sur la culpabilité pendant les débats : impartialité objective.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)"
+      "motif": "Les juges ne manifestent pas leur opinion sur la culpabilité pendant les débats.",
+      "ligne_rouge": "Art. 9 DDHC : impartialité objective tenue mot pour mot",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L1131-4",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Secret du délibéré, absence du parquet, du greffe et des parties : le délibéré secret garantit l'indépendance des juges, l'audience et la décision restent publiques. Ce n'est pas un huis clos.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)"
+      "principe": "P23",
+      "motif": "Secret du délibéré : gardé, en phrases courtes. Le délibéré secret n'est pas un huis clos (L1).",
+      "ligne_rouge": "Art. 16 DDHC examiné : indépendance des juges tenue",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le magistrat du ministère public, le greffier, les parties et leurs avocats n'assistent pas au délibéré. Les personnes qui participent ou assistent au délibéré en gardent le secret, sous les peines prévues par l'article 226-13 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1132-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Incompatibilités entre poursuite, instruction, détention et jugement, à peine de nullité. La proposition de réécrire au titre de l'aménagement est sans objet : l'article règle l'impartialité.",
-      "ligne_rouge": "art. 66 C examiné : le juge des libertés qui décide de la détention ne juge pas l'affaire. art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1). Art. 8 DDHC sans objet : aucune peine fixée"
+      "principe": "P23",
+      "motif": "Incompatibilités à peine de nullité : gardées, énumération sans point-virgule.",
+      "ligne_rouge": "Art. 16 DDHC examiné : séparation de la poursuite, de l'instruction, de la détention et du jugement, à peine de nullité, tenue. Art. 66 C examiné : le juge des libertés reste distinct du juge d'instruction et du juge du fond",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ne peuvent être exercées par une même personne dans une même procédure, à peine de nullité :\n1° Les fonctions du ministère public et les fonctions d'instruction, de juge des libertés et de la détention ou de jugement.\n2° Les fonctions d'instruction et les fonctions de jugement.\n3° Les fonctions de juge des libertés et de la détention, lorsqu'il intervient au cours de l'information ou statue sur la détention provisoire, l'assignation à résidence avec surveillance électronique ou le contrôle judiciaire, et les fonctions d'instruction ou de jugement."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1132-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Les juges qui ont apprécié les charges en chambre des investigations ne jugent pas l'affaire : impartialité objective.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)"
-    },
-    {
-      "code": "cpp",
-      "num": "L1132-3",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Articulation avec les incompatibilités du code de l'organisation judiciaire : renvoi utile, sans doublon.",
-      "ligne_rouge": "aucune"
+      "motif": "Les juges qui ont apprécié les charges ne jugent pas l'affaire.",
+      "ligne_rouge": "Art. 16 DDHC : impartialité objective tenue mot pour mot",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L1133-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Dépaysement des affaires qui mettent en cause des personnes en relation habituelle avec la juridiction, comme suspect ou comme victime : apparence d'impartialité, mesure d'administration judiciaire.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)"
+      "principe": "P23",
+      "motif": "Dépaysement des affaires mettant en cause une personne en relation habituelle avec la juridiction : gardé, en phrases courtes. L'absence de recours suit la règle générale de L4.",
+      "ligne_rouge": "Art. 16 DDHC examiné : apparence d'impartialité tenue",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le procureur de la République compétent est saisi de faits mettant en cause, comme personne suspectée ou comme victime, un magistrat, un avocat, un officier public ou ministériel ou toute personne dépositaire de l'autorité publique ou chargée d'une mission de service public, habituellement en relation par ses fonctions avec les magistrats ou fonctionnaires de la juridiction, le procureur général peut, d'office, sur proposition du procureur de la République ou à la demande de l'intéressé, transmettre la procédure au procureur de la République près le tribunal judiciaire le plus proche dans le ressort de la cour d'appel. Si la personne est en relation avec les magistrats ou fonctionnaires de la cour d'appel, il peut transmettre la procédure au procureur général près la cour d'appel la plus proche, qui la transmet au procureur de la République près le tribunal judiciaire le plus proche de la juridiction initialement compétente.\nLe tribunal destinataire devient territorialement compétent. Le présent article s'applique aussi au maire ou à l'adjoint au maire mis en cause comme auteur dans l'exercice de son mandat.\nLa décision du procureur général est une mesure d'administration judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1133-2",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Renvoi à la juridiction limitrophe quand les incompatibilités empêchent de composer la juridiction, délais de dix et quinze jours gardés. L'ordonnance annuelle du premier président est une mesure d'organisation : l'avis préalable des présidents et du procureur général ne protège aucune liberté, il tombe.",
-      "ligne_rouge": "aucune",
+      "motif": "Renvoi à la juridiction limitrophe quand les incompatibilités empêchent de composer la juridiction : délais de dix et quinze jours gardés. L'avis préalable sur l'ordonnance annuelle tombe (P15). L'absence de recours suit la règle générale de L4.",
+      "ligne_rouge": "Art. 16 DDHC examiné : la juridiction de renvoi est désignée à l'avance, les parties présentent leurs observations, tenu",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Le premier président prend chaque année, après avis des présidents des tribunaux judiciaires concernés et du procureur général, une ordonnance",
-          "nouveau": "Le premier président prend chaque année une ordonnance"
+          "op": "rediger",
+          "nouveau": "Lorsque les incompatibilités prévues par la loi empêchent de composer la juridiction compétente, le premier président de la cour d'appel peut, sur requête du procureur de la République près la juridiction saisie, renvoyer l'affaire devant la juridiction limitrophe du ressort désignée par son ordonnance annuelle.\nLa requête est signifiée aux parties, qui présentent leurs observations dans les dix jours. Le premier président statue dans les quinze jours de la requête, par une mesure d'administration judiciaire.\nLe premier président désigne chaque année par ordonnance, pour chaque juridiction de son ressort, la juridiction de renvoi. Cette ordonnance n'est pas modifiée en cours d'année."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1133-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Renvoi pour suspicion légitime par la chambre criminelle, à la demande des parties comme du parquet : garantie d'impartialité, sans effet suspensif de principe.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)"
-    },
-    {
-      "code": "cpp",
-      "num": "L1134-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Récusation d'office ou à la demande d'une partie, parquet non récusable : garantie d'impartialité du siège.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)"
-    },
-    {
-      "code": "cpp",
-      "num": "L1134-2",
+      "principe": "P23",
+      "motif": "Renvoi pour suspicion légitime : gardé, en phrases courtes. La mention des trois matières tombe, le code les couvre toutes.",
+      "ligne_rouge": "Art. 16 DDHC examiné : les parties comme le parquet saisissent la chambre criminelle, tenu",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Causes de récusation, liste fermée complétée par la clause générale du 9° : la règle générale existe déjà. Accord corrigé (« ligne directe »).",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en ligne direct du magistrat",
-          "nouveau": "en ligne directe du magistrat"
+          "op": "rediger",
+          "nouveau": "La chambre criminelle de la Cour de cassation peut, pour cause de suspicion légitime, dessaisir toute juridiction d'instruction ou de jugement et renvoyer l'affaire à une autre juridiction du même ordre.\nLa requête est présentée par le procureur général près la Cour de cassation, par le ministère public près la juridiction saisie ou par une partie. Elle est signifiée aux parties, qui déposent un mémoire au greffe de la Cour de cassation dans les dix jours. Elle n'est pas suspensive, sauf décision contraire de la Cour.\nL'arrêt est signifié aux parties à la diligence du procureur général près la Cour de cassation. Le rejet de la requête n'interdit pas une nouvelle demande fondée sur des faits survenus depuis."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L1134-3",
+      "num": "L1134-1",
+      "principe": "P23",
+      "motif": "Récusation d'office ou à la demande d'une partie : reçoit l'autorisation du premier président de L1134-3. Le parquet n'est pas récusable.",
+      "ligne_rouge": "Art. 16 DDHC examiné : le justiciable peut récuser le juge du siège, tenu",
       "decision": "S",
-      "principe": "P15",
-      "motif": "Récusation d'office autorisée par le premier président, sans recours. L'avis obligatoire du procureur général est consultatif, il ne lie pas le premier président et ne protège aucune liberté. L'impartialité tient à la décision du premier président (P15).",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "est autorisée par le premier président de la cour d'appel, après avis du procureur général.",
-          "nouveau": "est autorisée par le premier président de la cour d'appel."
+          "op": "rediger",
+          "nouveau": "Pour les causes mentionnées à l'article L. 1134-2, un magistrat du siège d'une juridiction pénale du premier ou du second degré peut être récusé :\n1° D'office, à sa demande, avec l'autorisation, sans recours, du premier président de la cour d'appel.\n2° À la demande d'une partie.\nLes magistrats du ministère public ne peuvent être récusés."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1134-2",
+      "principe": "P23",
+      "motif": "Causes de récusation : les neuf cas gardés, énumération sans point-virgule. La réserve « sans préjudice » de l'article L. 111-6 du code de l'organisation judiciaire tombe (P20) : cet article s'applique de lui-même.",
+      "ligne_rouge": "Art. 16 DDHC examiné : la clause générale du 9° tient lieu de règle d'impartialité, tenue",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La récusation peut intervenir si le magistrat, son conjoint, son partenaire lié par un pacte civil de solidarité ou son concubin :\n1° Est parent ou allié d'une partie, ou de son conjoint, partenaire ou concubin, jusqu'au cinquième degré inclusivement. Ce cas subsiste après la cessation de l'union du magistrat lorsque son conjoint, partenaire ou concubin a été allié d'une partie jusqu'au deuxième degré inclusivement.\n2° Est parent ou allié, jusqu'au deuxième degré, du tuteur, subrogé tuteur, curateur ou mandataire spécial d'une partie faisant l'objet d'une mesure de protection juridique.\n3° Est parent ou allié, jusqu'au deuxième degré, de l'administrateur, du directeur ou du gérant d'une personne morale partie à la procédure.\n4° A un intérêt dans la contestation, ou l'une des personnes mentionnées aux 2° et 3° y a un intérêt.\n5° Se trouve dans une situation de dépendance à l'égard d'une partie.\n6° Fait l'objet d'un procès devant une juridiction où une partie est juge.\n7° A un différend sur une question similaire à celle débattue entre les parties.\n8° A eu un procès avec une partie, son conjoint, son partenaire ou son concubin, ou leurs parents ou alliés dans la même ligne.\n9° Présente avec une partie toute autre relation d'une nature assez grave pour faire suspecter son impartialité.\nLes 7° et 8° s'appliquent aussi aux parents et alliés en ligne directe du magistrat.\nLa récusation peut aussi intervenir si le magistrat a connu du procès comme magistrat, arbitre ou conseil, ou s'il a déposé comme témoin sur les faits du procès."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1134-4",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Requête en récusation devant le premier président, mémoires du demandeur et du magistrat, sursis possible, amende civile en cas de rejet. L'avis obligatoire du procureur général est consultatif, pour l'ordonnance comme pour le sursis. Le ministère public peut toujours présenter des observations. L'avis ne protège aucune liberté (P15).",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1). Art. 8 DDHC examiné : l'amende civile, plafonnée à 750 euros, est une faculté du premier président et sanctionne la requête abusive",
+      "motif": "Requête en récusation devant le premier président : gardée, en phrases courtes. L'avis du procureur général, consultatif, tombe (P15, passe 2).",
+      "ligne_rouge": "Art. 16 DDHC examiné : le demandeur et le magistrat présentent leurs mémoires, le premier président statue. Art. 8 DDHC examiné : l'amende civile reste plafonnée à 750 euros",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Il statue par ordonnance sur la requête après avoir pris l'avis du procureur général.",
-          "nouveau": "Il statue par ordonnance sur la requête."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "le premier président peut, après avis du procureur général, ordonner qu'il sera sursis",
-          "nouveau": "le premier président peut ordonner qu'il sera sursis"
+          "op": "rediger",
+          "nouveau": "La partie présente sa demande de récusation au premier président de la cour d'appel, à peine d'irrecevabilité, par une requête qui désigne nommément le magistrat, expose les moyens et joint les justifications utiles. Le premier président notifie la requête au président de la juridiction du magistrat et reçoit les mémoires du demandeur et du magistrat. Il statue par une ordonnance sans recours, qui produit effet de plein droit.\nLa requête ne dessaisit pas le magistrat. Le premier président peut surseoir à la continuation de l'information ou des débats, ou au prononcé de la décision.\nL'ordonnance qui rejette la demande peut condamner le demandeur à une amende civile de 750 euros au plus."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1134-5",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Récusation visant le premier président de la cour d'appel : compétence du premier président de la Cour de cassation. L'avis du procureur général près cette Cour, qui n'est pas partie à l'instance, est consultatif et ne protège aucune liberté (P15).",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)",
+      "motif": "Récusation du premier président de la cour d'appel : le premier président de la Cour de cassation statue. L'avis du procureur général tombe (P15, passe 2). Renvois mis à jour après la fusion de L1134-3.",
+      "ligne_rouge": "Art. 16 DDHC examiné : un juge distinct statue, tenu",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sont prises par le premier président de la Cour de cassation, après avis du procureur général près cette Cour.",
-          "nouveau": "sont prises par le premier président de la Cour de cassation."
+          "op": "rediger",
+          "nouveau": "Lorsque la récusation vise le premier président de la cour d'appel, le premier président de la Cour de cassation exerce les attributions prévues aux articles L. 1134-1 et L. 1134-4."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1134-6",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Récusation des conseillers de la chambre criminelle selon le code de procédure civile, formation sans le conseiller visé : alignement sur un régime existant. La proposition de déclasser est écartée : le renvoi désigne le régime, il relève de la loi.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité du juge, tenue (CEDH art. 6 § 1)"
+      "motif": "Récusation des conseillers de la chambre criminelle selon le code de procédure civile : gardée, en phrases courtes.",
+      "ligne_rouge": "Art. 16 DDHC examiné : le conseiller visé ne siège pas, tenu",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les conseillers de la chambre criminelle de la Cour de cassation peuvent être récusés selon les règles du code de procédure civile. Une formation de la chambre criminelle à laquelle ne siège pas le conseiller visé statue sur la requête."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1131-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Une phrase de principe, portée à L1131-1 avec l'impartialité qu'elle prolonge.",
+      "ligne_rouge": "aucune : la règle à charge et à décharge est gardée à L1131-1",
+      "vers": "L1131-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1132-3",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Réserve « sans préjudice » des incompatibilités de l'article L. 111-9 du code de l'organisation judiciaire : cet article s'applique de lui-même.",
+      "ligne_rouge": "aucune : les incompatibilités entre degrés de juridiction restent à l'article L. 111-9 du code de l'organisation judiciaire"
+    },
+    {
+      "code": "cpp",
+      "num": "L1134-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorisation de la récusation d'office par le premier président, sans recours : portée au 1° de L1134-1. L'avis du procureur général tombe (P15).",
+      "ligne_rouge": "aucune : l'autorisation et l'absence de recours sont gardées à L1134-1",
+      "vers": "L1134-1"
     }
-  ]
+  ],
+  "passe": 3
 }
