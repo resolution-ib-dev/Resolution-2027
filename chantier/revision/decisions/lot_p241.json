@@ -10,50 +10,72 @@
     {
       "code": "cpp",
       "num": "D47-6-15-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Aide aux frais de la victime appelée à un procès pénal à l'étranger, étendue à l'accompagnant du mineur ou de la personne infirme. Renvoi à l'ancien 706-14-2 (L1444-1 et suivants) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D47-6-15-2",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Pas d'aide pour une zone formellement déconseillée ni quand la retransmission en France garantit les droits, sauf déplacement au lieu de retransmission : la liste est courte et motivée, l'inverser n'apporterait rien.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Conditions d'octroi de l'aide dans un article : accompagnant du mineur ou de la personne infirme, cas où l'aide n'est pas due (ancien D47-6-15-2). La phrase qui renvoie aux conditions du titre tombe (P20). Ancien 706-14-2 lu sur la pièce de passe 3 (L1444-1, qui renvoie les modalités au règlement).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'aide financière prévue à l'article L. 1444-1 est aussi due à la personne sous l'autorité de laquelle se trouve le mineur, ou à son délégué, lorsqu'elle doit l'accompagner, et au tiers qui doit accompagner une personne infirme.\nElle n'est pas due pour un déplacement dans une zone formellement déconseillée par le ministère de l'Europe et des affaires étrangères, ni lorsque la retransmission audiovisuelle du procès en France garantit l'exercice effectif des droits de la personne. Dans ce cas, elle est due pour se rendre au lieu de retransmission, sur convocation à l'audience de jugement."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D47-6-15-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Déduction des prises en charge déjà versées : pas de double indemnisation. Renvoi à l'ancien 706-14-2 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D47-6-15-4",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Barème des frais de déplacement des agents de l'État : régime existant, le plus simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D47-6-15-5",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Modalités de calcul à l'arrêté : strate la plus basse.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Montant de l'aide dans un article : barème des frais de déplacement des agents de l'État (ancien D47-6-15-4), déduction des prises en charge, arrêté de calcul (ancien D47-6-15-5) qui vaut aussi pour l'avance (D47-6-15-6). Ancien 706-14-2 : L1444-1 (pièce de passe 3).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les frais de voyage et l'indemnité journalière de séjour suivent la réglementation des frais de déplacement des personnels civils de l'Etat en résidence administrative en France, déduction faite des sommes versées et des frais pris en charge par une autorité publique française ou étrangère, notamment l'Etat du procès, ou par un autre organisme débiteur. Un arrêté du garde des sceaux, ministre de la justice, et du ministre chargé de l'économie précise le calcul de l'aide et de l'avance prévue à l'article D. 47-6-15-6."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D47-6-15-6",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Avance à la victime sans ressources, demandée un mois avant, sauf circonstances exceptionnelles : le délai permet de payer à temps.",
-      "ligne_rouge": "art. 8 DDHC examiné : aucune peine en cause : l'article règle une avance de frais à la victime"
+      "motif": "Avance à la personne sans ressources, demandée un mois avant le déplacement : gardée (cité par A38-1-3). L'arrêté de calcul est dit une fois, à D47-6-15-3.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'article ne fixe ni peine ni modulation. Il garantit à la victime sans ressources une avance qui lui permet d'assister au procès : gardée, délai d'un mois compris.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne hors d'état de payer son déplacement reçoit, à sa demande, une avance sur les frais de voyage et l'indemnité journalière de séjour. A peine de rejet, elle la demande au plus tard un mois avant le déplacement, sauf circonstances exceptionnelles."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D47-6-15-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cas où l'aide n'est pas due : second alinéa de D47-6-15-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-6-15-1"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-6-15-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Barème des frais de déplacement de l'État : premier alinéa de D47-6-15-3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-6-15-3"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-6-15-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Arrêté de calcul : second alinéa de D47-6-15-3, qui vise aussi l'avance.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-6-15-3"
     }
-  ]
+  ],
+  "passe": 3
 }
