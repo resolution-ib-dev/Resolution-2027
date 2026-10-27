@@ -10,353 +10,425 @@
     {
       "code": "cpp",
       "num": "L5131-1",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Le juge de l'application des peines statue par ordonnance ou jugement motivés, d'office, à la demande ou sur réquisitions : acte juridictionnel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5131-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le tribunal de l'application des peines statue par jugement motivé : acte juridictionnel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L5131-3",
-      "decision": "R",
-      "principe": "P26",
-      "motif": "Le débat contradictoire se tient en audience publique, sauf demande de la victime pour sa protection ou sécurité nationale (P26). L'avis obligatoire de l'administration pénitentiaire devient une faculté d'observations (P15) : il informe le juge, il ne protège aucune liberté. Le reste est gardé, débat sans audience sur accord compris. [arbitrage : exception à la demande du condamné quand le débat porte sur sa santé]",
-      "ligne_rouge": "art. 16 DDHC examiné : débat contradictoire, réquisitions, observations du condamné et de son avocat, tenus ; art. 2 DDHC, vie privée du condamné examinée : la publicité expose santé et famille débattues, point renvoyé à l'auteur ; minorité examinée : CJPM L612-1 et L612-2 renvoient à ce débat (ancien 712-6, à coordonner), chambre du conseil de droit pour les faits commis par un mineur",
+      "motif": "Ordonnance ou jugement motivés du juge de l'application des peines, phrases resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sont rendus après avis du représentant de l'administration pénitentiaire, à l'issue d'un débat contradictoire tenu en chambre du conseil,",
-          "nouveau": "sont rendus à l'issue d'un débat contradictoire tenu en audience publique,"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "celles de son avocat.Si la personne est détenue",
-          "nouveau": "celles de son avocat.Le représentant de l'administration pénitentiaire peut y présenter ses observations.Le débat se tient en chambre du conseil si la victime le demande pour sa protection, si la sécurité nationale l'exige ou si la personne condamnée était mineure au moment des faits.Si la personne est détenue"
+          "op": "rediger",
+          "nouveau": "Pour accorder, modifier, ajourner, refuser, retirer ou révoquer les mesures de sa compétence, le juge de l'application des peines statue par ordonnance motivée ou par jugement motivé, selon les distinctions du présent chapitre. Il agit d'office, à la demande de la personne condamnée ou sur réquisitions du procureur de la République."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L5131-4",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Le condamné libre qui ne se présente pas sans motif est jugé en son absence : le délai ne dépend pas de lui.",
-      "ligne_rouge": "art. 16 DDHC examiné : convocation régulière, appel ouvert à compter de la connaissance effective (L5132-5)"
+      "num": "L5131-2",
+      "principe": "P4",
+      "motif": "Jugement motivé du tribunal de l'application des peines, phrases resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tribunal de l'application des peines statue sur les mesures de sa compétence par jugement motivé. Il est saisi à la demande de la personne condamnée, sur réquisitions du procureur de la République ou à l'initiative du juge de l'application des peines."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L5131-5",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Exécution provisoire des décisions de l'application des peines, gardée. L'article se cite lui-même : l'appel suspensif du ministère public est à L5132-4.",
-      "ligne_rouge": "aucune",
+      "num": "L5131-3",
+      "principe": "P26",
+      "motif": "Débat contradictoire : public selon L. 1 (registre 3.5, la liste divergente de la passe 2 renvoie à L. 1), observations facultatives de l'administration pénitentiaire (passe 2), jugement en l'absence du condamné convoqué (L5131-4 fusionné), débat sans audience sur accord gardé.",
+      "ligne_rouge": "débat contradictoire et avocat gardés ; art. 16 DDHC examiné : la personne absente sans motif légitime a été dûment convoquée, et garde l'appel (L5132-5)",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "prévu à l'article L. 5131-5",
-          "nouveau": "prévu à l'article L. 5132-4"
+          "op": "rediger",
+          "nouveau": "Les jugements du juge ou du tribunal de l'application des peines sont rendus après un débat contradictoire, public dans les conditions de l'article L. 1, au cours duquel sont entendues les réquisitions du ministère public et les observations de la personne condamnée et, le cas échéant, de son avocat. Le représentant de l'administration pénitentiaire peut y présenter ses observations.\nLe débat peut se tenir dans l'établissement pénitentiaire où la personne est détenue, ou par un moyen de télécommunication audiovisuelle conformément aux articles L. 1621-1 et suivants. Si la personne condamnée non détenue, dûment convoquée à l'adresse déclarée au juge de l'application des peines qui la contrôle, ne se présente pas sans motif légitime, la juridiction peut statuer en son absence.\nAvec l'accord du procureur de la République et celui de la personne condamnée ou de son avocat, le juge de l'application des peines peut octroyer par jugement une mesure de sa compétence sans débat contradictoire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5131-6",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Réductions de peine, sorties sous escorte et permissions par ordonnance, gardé. L'avis obligatoire de la commission de l'application des peines devient une faculté : il éclaire, il ne protège aucune liberté. À coordonner : L2127-2, premier alinéa, devient sans objet. L5224-17 garde un avis obligatoire de la commission, à aligner. L'avis de la commission n'est plus obligatoire nulle part [arbitrage].",
-      "ligne_rouge": "art. 8 DDHC examiné : l'individualisation au prononcé n'est pas touchée ; art. 16 DDHC examiné : ordonnance motivée, appel ouvert (L5132-2)",
+      "motif": "Ordonnances du juge : avis de la commission facultatif (passe 2), « sorties sous escortes » corrigé.",
+      "ligne_rouge": "art. 8 DDHC examiné : décision du juge, motivée (L5131-1)",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Ces ordonnances sont prises, sauf en cas d'urgence, après avis de la commission de l'application des peines prévue à l'article L. 2127-2.",
-          "nouveau": "Le juge peut recueillir l'avis de la commission de l'application des peines prévue à l'article L. 2127-2."
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines statue par ordonnance pour octroyer, ajourner, refuser ou retirer les réductions de peine, les autorisations de sortie sous escorte et les permissions de sortir. Il peut recueillir l'avis de la commission de l'application des peines prévue à l'article L. 2127-2."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5131-7",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Compétence du juge de l'application des peines par jugement : répartition des offices. Le fond des mesures (aménagement, conversion, fractionnement) se juge dans leurs titres, au livre II. La proposition de réécrire est écartée ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : règle de compétence, sans effet sur la peine ; art. 16 DDHC : jugement après débat contradictoire (L5131-3)"
+      "principe": "P23",
+      "motif": "Compétence du juge par jugement : liste sans point-virgule, inchangée.",
+      "ligne_rouge": "art. 8 DDHC examiné : liste inchangée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sauf si la loi les attribue au tribunal de l'application des peines, le juge de l'application des peines statue par jugement pour octroyer, ajourner, refuser, retirer ou révoquer :\n1° Le fractionnement, la suspension ou la conversion des peines.\n2° Les mesures d'aménagement de peine sous écrou.\n3° La libération conditionnelle.\n4° La surveillance judiciaire et les suivis postérieurs à la libération.\n5° L'ajournement avec probation.\n6° L'emprisonnement avec sursis probatoire.\n7° Le suivi socio-judiciaire.\n8° Le travail d'intérêt général.\n9° L'interdiction de séjour.\nIl statue aussi par jugement pour mettre à exécution l'amende ou l'emprisonnement fixé par la juridiction en application des deuxièmes alinéas des articles 131-9 et 131-11 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5131-8",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Compétence du tribunal de l'application des peines, collégial, pour les mesures lourdes (période de sûreté, perpétuité) : répartition tenue.",
-      "ligne_rouge": "art. 8 DDHC examiné : règle de compétence, sans effet sur la peine"
+      "principe": "P23",
+      "motif": "Compétence du tribunal : liste sans point-virgule, inchangée.",
+      "ligne_rouge": "art. 8 DDHC examiné : liste inchangée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tribunal de l'application des peines statue par jugement pour accorder, ajourner, refuser, retirer ou révoquer :\n1° Le relèvement de la période de sûreté.\n2° Les réductions du temps d'épreuve des personnes condamnées à la réclusion criminelle à perpétuité.\n3° Les réductions de peine, la libération conditionnelle, la suspension de peine ou la surveillance judiciaire qui ne relèvent pas du juge de l'application des peines."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5131-9",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Renvoi au tribunal décidé par le juge : le magistrat garde la main pour la forme lourde.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Renvoi au tribunal : « non susceptible de recours » tombe, L. 4 le dit de toute mesure d'administration judiciaire.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'il est compétent en application de l'article L. 5131-7, le juge de l'application des peines peut, d'office ou à la demande du condamné ou du ministère public, renvoyer l'affaire au tribunal de l'application des peines, dont il fait alors partie. Ce renvoi est une mesure d'administration judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5131-10",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Modifications des mesures par ordonnance, sauf jugement demandé par le parquet : régime simple.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Modifications par ordonnance ; le renvoi à L5131-11 est dit par cet article même.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines statue par ordonnance pour modifier ou refuser de modifier les mesures et peines mentionnées à l'article L. 5131-7 et leurs obligations, ainsi que les obligations des mesures ordonnées par le tribunal de l'application des peines en application de l'article L. 5131-8."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5131-11",
-      "decision": "G",
       "principe": "P7",
-      "motif": "Le parquet peut exiger la forme du jugement : soupape tenue.",
-      "ligne_rouge": "aucune"
+      "motif": "Jugement à la demande du parquet, phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le procureur de la République le demande, ces décisions font l'objet d'un jugement du juge de l'application des peines, rendu conformément à l'article L. 5131-3."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5131-12",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Modification des horaires par le chef d'établissement ou le service, sur délégation du juge, dans un sens favorable et sans toucher l'équilibre : la décision se prend au plus près. Accord et intitulé du juge corrigés.",
-      "ligne_rouge": "art. 8 DDHC examiné : délégation bornée, annulable par le juge, sans effet sur la peine",
+      "motif": "Modification des horaires sur délégation, accord et intitulé du juge corrigés (passe 2), phrases resserrées.",
+      "ligne_rouge": "art. 8 DDHC examiné : seules des modifications favorables, sous le contrôle du juge",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "la décision du juge de l'application de peine prévu aux articles",
-          "nouveau": "la décision du juge de l'application des peines prévue aux articles"
+          "op": "rediger",
+          "nouveau": "Lorsque sa décision rendue en application des articles L. 5131-10 ou L. 5131-11 porte sur une semi-liberté, un placement à l'extérieur, une détention à domicile sous surveillance électronique ou des permissions de sortir, le juge de l'application des peines peut autoriser le chef d'établissement ou le directeur du service pénitentiaire d'insertion et de probation à modifier les horaires d'entrée et de sortie de l'établissement ou de présence en un lieu déterminé, dans un sens favorable à la personne condamnée et sans toucher à son équilibre. Informé sans délai, le juge peut annuler ces modifications par ordonnance non susceptible de recours."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5131-13",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Suspension de la semi-liberté, du placement extérieur ou de la détention à domicile en cas de manquement, gardée. L'avis préalable du procureur tombe : il retarde la réponse et ne protège aucune liberté, le juge du siège décide et le débat suit à délai fixe.",
-      "ligne_rouge": "art. 66 C examiné : incarcération ordonnée par un juge du siège, débat contradictoire sous quinze jours ou un mois (L5131-15), tenus",
+      "motif": "Suspension d'un aménagement sous écrou sans avis préalable du parquet (passe 2) ; le délai du débat est à L5131-14.",
+      "ligne_rouge": "art. 66 C examiné : incarcération jusqu'à un débat à délai fixe, à défaut reprise de la mesure (L5131-14)",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "peut, après avis du procureur de la République, ordonner la suspension",
-          "nouveau": "peut ordonner la suspension"
+          "op": "rediger",
+          "nouveau": "En cas d'inobservation de ses obligations par la personne condamnée, le juge de l'application des peines peut ordonner la suspension d'une semi-liberté, d'un placement à l'extérieur ou d'une détention à domicile sous surveillance électronique. Cette décision entraîne l'incarcération de l'intéressé jusqu'au débat contradictoire prévu à l'article L. 5131-14."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5131-14",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Incarcération provisoire en cas de manquement, gardée. L'avis préalable du procureur tombe pour la même raison qu'à L5131-13. Le 5° est corrigé (« d'un ») et le 8° clos d'un point.",
-      "ligne_rouge": "art. 66 C examiné : incarcération ordonnée par un juge du siège, débat contradictoire à délai fixe (L5131-15), tenus ; art. 8 DDHC : la peine prononcée n'est pas touchée",
+      "principe": "P19",
+      "motif": "Incarcération provisoire sans avis préalable du parquet (passe 2) ; liste sans point-virgule, 7° et 8° réunis à champ égal ; délais du débat et sanction du retard réunis (L5131-15 fusionné).",
+      "ligne_rouge": "art. 66 C examiné : débat et jugement sous quinze jours ou un mois, à défaut liberté ou reprise de la mesure",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "peut, après avis du procureur de la République, ordonner l'incarcération provisoire",
-          "nouveau": "peut ordonner l'incarcération provisoire"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "5° Une suspension ou d'un fractionnement de peine",
-          "nouveau": "5° Une suspension ou un fractionnement de peine"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "mise à exécution ;L'ordonnance",
-          "nouveau": "mise à exécution.L'ordonnance"
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines, y compris celui du lieu où se trouve le condamné, peut ordonner l'incarcération provisoire du condamné qui n'observe pas les obligations de l'une des peines et mesures suivantes :\n1° La détention à domicile sous surveillance électronique.\n2° Le sursis probatoire.\n3° Le suivi socio-judiciaire.\n4° La surveillance judiciaire.\n5° La suspension ou le fractionnement de peine.\n6° La libération conditionnelle.\n7° Le travail d'intérêt général ou une peine complémentaire, lorsque la juridiction de jugement a fixé, en application du deuxième alinéa de l'article 131-9 ou du second alinéa de l'article 131-11 du code pénal, une durée maximale d'emprisonnement que le juge de l'application des peines peut mettre à exécution.\nDans ce cas et dans celui de l'article L. 5131-13, le débat contradictoire se tient et le jugement est rendu dans les quinze jours de l'incarcération devant le juge de l'application des peines, dans le mois devant le tribunal de l'application des peines. À défaut, la mesure suspendue reprend son cours ou la personne est remise en liberté si elle n'est pas détenue pour une autre cause."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L5131-15",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Débat sous quinze jours ou un mois, jugement dans le même délai, sinon reprise de la mesure ou libération : délai opposable à l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : durée maximale de l'incarcération provisoire et sanction du dépassement, tenues"
-    },
-    {
-      "code": "cpp",
       "num": "L5132-1",
-      "decision": "G",
       "principe": "P17",
-      "motif": "Appel ouvert au condamné et au parquet contre les décisions de l'application des peines : droit d'appel tenu.",
-      "ligne_rouge": "aucune"
+      "motif": "Appel ouvert au condamné et au parquet, phrase resserrée.",
+      "ligne_rouge": "recours gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le condamné, le procureur de la République et le procureur général peuvent faire appel, dans les conditions du présent chapitre, des décisions du juge et du tribunal de l'application des peines prévues aux sections 2 et 3 du chapitre 1er du présent titre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5132-2",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Appel des ordonnances sous vingt-quatre heures de la notification, devant le président de chambre : délai court, purge rapide.",
-      "ligne_rouge": "aucune"
+      "motif": "Appel des ordonnances sous vingt-quatre heures de la notification, point de départ écrit gardé.",
+      "ligne_rouge": "recours gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'appel des ordonnances se forme dans les vingt-quatre heures de leur notification. Il est porté devant le président de la chambre de l'application des peines de la cour d'appel, qui statue par ordonnance motivée au vu des observations écrites du ministère public et de celles du condamné ou de son avocat."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5132-3",
-      "decision": "G",
       "principe": "P17",
-      "motif": "Appel des jugements sous dix jours, chambre élargie à deux citoyens (association de réinsertion et association d'aide aux victimes) en appel du tribunal : citoyens associés.",
-      "ligne_rouge": "art. 16 DDHC examiné : avocat entendu, condamné entendu à sa demande, refus motivé avec audition à distance ou en détention"
+      "motif": "Appel des jugements sous dix jours de la notification, chambre élargie, audition du condamné : phrases resserrées.",
+      "ligne_rouge": "recours, avocat et débat contradictoire gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'appel des jugements se forme dans les dix jours de leur notification. Il est porté devant la chambre de l'application des peines de la cour d'appel, composée conformément à l'article L. 2134-2, qui statue par arrêt motivé après un débat contradictoire où sont entendues les réquisitions du ministère public et les observations de l'avocat du condamné.\nLe condamné est entendu s'il le demande ou si la chambre le décide. Le président peut refuser sa comparution personnelle par une décision motivée insusceptible de recours. Il est alors entendu, en présence de son avocat ou celui-ci dûment convoqué, par un moyen de télécommunication audiovisuelle ou par un membre de la juridiction dans l'établissement où il est détenu."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5132-4",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Appel suspensif du parquet sous vingt-quatre heures, jugé sous deux mois à peine d'être non avenu : délai opposable.",
-      "ligne_rouge": "aucune"
+      "motif": "Exécution par provision (L5131-5 fusionné, autorenvoi corrigé) et appel suspensif du parquet jugé sous deux mois.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les décisions du juge et du tribunal de l'application des peines sont exécutoires par provision. L'appel du ministère public formé dans les vingt-quatre heures de la notification d'une décision du juge de l'application des peines en suspend toutefois l'exécution jusqu'à ce que la chambre de l'application des peines ou son président ait statué. L'affaire est examinée au plus tard dans les deux mois de l'appel, faute de quoi celui-ci est non avenu."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5132-5",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Délai d'appel du condamné jugé absent courant de sa connaissance effective en cas de révocation : c'est P11.",
-      "ligne_rouge": "art. 16 DDHC examiné : recours effectif du condamné absent, audition de droit en appel ; art. 8 DDHC : sans effet sur le quantum"
+      "motif": "Délai d'appel du condamné jugé absent ; renvoi à L5131-3 qui reçoit L5131-4.",
+      "ligne_rouge": "art. 8 DDHC examiné : délai qui court de la connaissance effective en cas de révocation, audition de droit",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le débat de première instance a eu lieu en l'absence du condamné en application de l'article L. 5131-3, le délai d'appel court de la notification du jugement à l'adresse déclarée. Si le jugement a révoqué ou retiré la mesure et qu'il n'est pas établi que le condamné a eu connaissance de cette notification, l'appel reste recevable jusqu'à la prescription de la peine et le délai d'appel court du jour où il a eu connaissance du jugement. Son audition par la chambre est alors de droit, le cas échéant par un moyen de télécommunication audiovisuelle."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5132-6",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Irrecevabilité temporaire d'une nouvelle demande après refus confirmé, bornée : évite la répétition des instances.",
-      "ligne_rouge": "aucune"
+      "motif": "Irrecevabilité temporaire après refus confirmé, bornée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la chambre confirme un jugement qui refuse une mesure mentionnée aux articles L. 5131-7 ou L. 5131-8, elle peut fixer un délai pendant lequel toute nouvelle demande tendant à la même mesure est irrecevable. Ce délai n'excède ni le tiers du temps de détention restant à subir ni trois ans."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5133-1",
-      "decision": "R",
       "principe": "P18",
-      "motif": "La victime n'est informée que si la juridiction l'estime opportun. Elle devient avisée de droit avant toute décision qui met fin, même temporairement, à l'incarcération avant terme, sauf refus de sa part, et entendue à sa demande lorsqu'il y a débat. Généralise L5242-2 réécrit (libération conditionnelle).",
-      "ligne_rouge": "art. 8 DDHC examiné : l'individualisation au prononcé n'est pas touchée, la juridiction garde sa décision ; art. 16 DDHC examiné : les observations de la victime sont versées au débat contradictoire, le condamné y répond ; CEDH art. 3 examiné : l'urgence médicale n'attend pas le délai d'observations",
+      "motif": "Règle générale de la victime : avis avant toute sortie (passe 2), date du débat et audition avant les réquisitions (L5242-2 fusionné, étendu à tout débat), information de la libération en fin de peine (L5133-4 fusionné), refus d'être avisée commun. Les observations écrites de la victime sont communiquées au condamné ou à son avocat (art. 16 DDHC).",
+      "ligne_rouge": "victime (P18) examinée : avis, observations, audition au débat, information de la sortie ; l'urgence se motive spécialement",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les juridictions de l'application des peines prennent en considération les intérêts de la victime ou de la partie civile, préalablement à toute décision entraînant la cessation temporaire ou définitive de l'incarcération d'une personne condamnée à une peine privative de liberté avant la date d'échéance de cette peine, au regard des conséquences pour celle-ci de cette décision.\nAvant toute décision, elles informent la victime ou la partie civile, directement ou par l'intermédiaire de son avocat, qu'elle peut leur adresser, par tout moyen, ses observations écrites dans un délai de quinze jours à compter de la notification de cette information. Lorsque la décision est prise après débat contradictoire, la victime ou la partie civile y est entendue à sa demande, elle-même ou par son avocat.\nEn cas d'urgence, notamment dans le cas prévu au second alinéa de l'article L. 5142-10, la juridiction peut statuer avant l'expiration de ce délai par une décision spécialement motivée. La victime ou la partie civile est alors informée sans délai de la décision.\nCette information n'est pas due lorsque la victime ou la partie civile a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine.\nLes juridictions peuvent en outre procéder ou faire procéder aux mesures d'investigation prévues à l'article L. 5121-2 pour évaluer les conséquences de leur décision pour la victime ou la partie civile, et notamment le risque que le condamné puisse se trouver en présence de celle-ci."
+          "nouveau": "Avant toute décision qui met fin, même temporairement, à l'incarcération d'une personne condamnée avant l'échéance de sa peine, les juridictions de l'application des peines prennent en considération les intérêts de la victime ou de la partie civile au regard des conséquences de cette décision pour elle.\nElles informent la victime ou la partie civile, directement ou par son avocat, qu'elle peut leur adresser par tout moyen ses observations écrites dans les quinze jours de cette information. Ces observations sont versées au dossier et communiquées à la personne condamnée ou à son avocat. Lorsque la décision est prise après débat contradictoire, la victime ou la partie civile est avisée de sa date et y est entendue à sa demande, elle-même ou par son avocat, avant les réquisitions du ministère public. En cas d'urgence, notamment dans le cas prévu au second alinéa de l'article L. 5142-10, la juridiction peut statuer avant l'expiration du délai par une décision spécialement motivée, dont la victime ou la partie civile est informée sans délai.\nLes juridictions peuvent faire procéder aux investigations prévues à l'article L. 5121-1 pour évaluer les conséquences de leur décision pour la victime ou la partie civile, notamment le risque que le condamné se trouve en sa présence.\nÀ sa demande, la victime ou la partie civile est informée par le juge de l'application des peines ou le service pénitentiaire d'insertion et de probation, directement ou par son avocat, de la libération du condamné à l'échéance de sa peine.\nCes informations et l'avis prévu à l'article L. 5133-2 ne sont pas dus à la victime ou à la partie civile qui a fait savoir qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5133-2",
+      "principe": "P18",
+      "motif": "Interdiction de contact de principe (passe 2) et avis à la victime (L5133-3 fusionné, dispense par la seule volonté de la victime).",
+      "ligne_rouge": "victime (P18) examinée : l'interdiction est la règle, écartée par décision spécialement motivée",
       "decision": "R",
-      "principe": "P2",
-      "motif": "L'interdiction de contact et de paraître n'était prononcée que sous deux conditions cumulées, et obligatoire pour les seules infractions de L1721-2. Elle devient la règle pour toute sortie, écartée par décision spécialement motivée par l'absence de risque de rencontre ou par l'accord de la victime.",
-      "ligne_rouge": "art. 8 DDHC et P7 examinés : le juge garde la dérogation motivée ; CEDH art. 8 et liberté d'aller et venir du condamné examinées : interdiction limitée à la victime, à son domicile et à son travail",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les juridictions de l'application des peines assortissent toute décision entraînant la cessation temporaire ou définitive de l'incarcération d'une interdiction d'entrer en relation avec la victime ou la partie civile, lorsqu'elle est une personne physique identifiée, et, le cas échéant, de paraître à proximité de son domicile et de son lieu de travail.\nElles peuvent l'écarter par une décision spécialement motivée par l'absence de risque que le condamné se trouve en présence de la victime ou de la partie civile, ou par l'accord de celle-ci lorsqu'elle est majeure.\nPour l'application du présent article, la victime ou la partie civile peut informer la juridiction de l'application des peines de ses changements de résidence ou de lieu de travail."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5133-3",
-      "decision": "R",
-      "principe": "P18",
-      "motif": "Avis de l'interdiction à la victime, gardé. La juridiction ne peut plus s'en dispenser au vu de la « personnalité » de la victime ni pour une sortie courte : seul le refus de la victime l'en dispense.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'avis informe la victime, il ne touche pas la peine ; art. 2 DDHC, vie privée du condamné examinée : l'avis ne porte que l'interdiction et ses conséquences",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "La juridiction adresse à la victime ou la partie civile, ainsi qu'à son avocat, un avis l'informant de cette interdiction.\nCet avis précise les conséquences susceptibles de résulter pour le condamné du non-respect de cette interdiction.\nL'avis n'est pas adressé lorsque la victime ou la partie civile a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L5133-4",
-      "decision": "R",
-      "principe": "P18",
-      "motif": "Information de la victime, à sa demande, de la libération en fin de peine : réservée aux infractions de L1721-2, elle s'ouvre à toute victime qui la demande. Virgule parasite retirée.",
-      "ligne_rouge": "art. 8 DDHC examiné : information, sans effet sur la peine ; art. 2 DDHC, vie privée du condamné examinée : information limitée à la libération, à la demande de la victime",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Lorsque la personne a été condamnée pour l'une des infractions sexuelles, violentes ou commises contre des mineurs mentionnées à l'article L. 1721-2 et que la victime",
-          "nouveau": "Lorsque la victime"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "d'insertion et de probation, informe",
-          "nouveau": "d'insertion et de probation informe"
+          "nouveau": "Les juridictions de l'application des peines assortissent toute décision qui met fin, même temporairement, à l'incarcération d'une interdiction d'entrer en relation avec la victime ou la partie civile, lorsqu'elle est une personne physique identifiée, et, le cas échéant, de paraître à proximité de son domicile et de son lieu de travail. Elles peuvent l'écarter par une décision spécialement motivée par l'absence de risque que le condamné se trouve en présence de la victime ou de la partie civile, ou par l'accord de celle-ci lorsqu'elle est majeure.\nLa juridiction adresse à la victime ou à la partie civile, ainsi qu'à son avocat, un avis qui l'informe de cette interdiction et des conséquences de sa violation pour le condamné. La victime ou la partie civile peut informer la juridiction de ses changements de résidence ou de lieu de travail."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L5133-5",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Transmission de la décision à l'hébergeur quand elle prévient la récidive, pour les crimes et les infractions de L1721-2 : protection des personnes. La proposition de réécrire est écartée, l'article n'aménage aucune peine.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : transmission décidée par un juge, nécessaire à la prévention, limitée aux infractions graves, secret sanctionné (L5133-7) ; art. 8 DDHC : sans effet sur la peine"
-    },
-    {
-      "code": "cpp",
-      "num": "L5133-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Transmission à l'autorité scolaire pour un condamné scolarisé, partage strictement limité : protection des élèves.",
-      "ligne_rouge": "art. 2 DDHC, vie privée et minorité examinées : partage limité aux personnels de sécurité et au suivi social et sanitaire, au strict nécessaire"
+      "motif": "Transmission des décisions à l'hébergeur et à l'autorité scolaire en un article (L5133-6 fusionné), partage strictement limité gardé.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : transmission nécessaire à la prévention de la récidive, partage limité aux missions",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne placée sous le contrôle du juge de l'application des peines a été condamnée pour un crime ou pour une infraction mentionnée à l'article L. 1721-2, ce juge peut, d'office ou sur réquisitions du ministère public, faire transmettre une copie de la décision de condamnation, d'aménagement de la peine, de libération conditionnelle, de surveillance judiciaire ou de surveillance de sûreté à la personne chez qui le condamné réside, si cette transmission est nécessaire pour prévenir la récidive.\nSi le condamné est scolarisé ou a vocation à l'être, le juge transmet ces décisions, et celles qui modifient le lieu ou le mode de sa scolarisation, à l'autorité académique et, le cas échéant, au chef d'établissement. Ces autorités n'en font état qu'aux personnels chargés de la sécurité et de l'ordre de l'établissement ou de l'hébergement des élèves et aux professionnels soumis au secret professionnel chargés de leur suivi social et sanitaire, dans la stricte mesure de leurs missions."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5133-7",
-      "decision": "G",
       "principe": "P27",
-      "motif": "Divulgation des décisions transmises : amende de 3 750 euros, sans emprisonnement. Peine réaliste, à sa place.",
-      "ligne_rouge": "art. 8 DDHC examiné : amende proportionnée, modulée au prononcé"
+      "motif": "Divulgation des décisions transmises : amende de 3 750 € inchangée ; « sans préjudice » de 226-13 gardé, il autorise le cumul.",
+      "ligne_rouge": "art. 8 DDHC examiné : peine inchangée, champ inchangé (L5133-5 reçoit L5133-6)",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sans préjudice de l'article 226-13 du code pénal, le fait, pour une personne qui a reçu communication de ces décisions ou de leur contenu en application de l'article L. 5133-5, de les communiquer à des tiers non autorisés à partager ces informations est puni d'une amende de 3 750 €."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5133-8",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Majeur protégé : tuteur ou curateur avisé et entendu, avocat obligatoire. Garde-fou de la défense des personnes vulnérables.",
-      "ligne_rouge": "art. 16 DDHC examiné : assistance obligatoire d'un avocat, tenue"
+      "motif": "Majeur protégé : avis au protecteur, observations, avocat obligatoire, phrases resserrées.",
+      "ligne_rouge": "avocat obligatoire gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne condamnée est un majeur protégé au sens de l'article L. 1711-2, son curateur, son tuteur ou la personne désignée en application des articles L. 1212-4 ou L. 1711-4 est avisé de la date du débat ou de l'audience prévus aux articles L. 5131-3 et L. 5132-3. Il peut présenter des observations écrites ou, sur décision du président, être entendu comme témoin. La personne condamnée est assistée d'un avocat, choisi par elle ou par l'une de ces personnes ou, à la demande du juge, désigné par le bâtonnier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5133-9",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Relèvement d'interdictions professionnelles, sur demande, dans le jugement d'aménagement : décision juridictionnelle, la peine complémentaire ne tombe pas sans juge (P6).",
-      "ligne_rouge": "art. 8 DDHC examiné : relèvement juridictionnel, motivé, à la demande du condamné"
-    },
-    {
-      "code": "cpp",
-      "num": "L5133-10",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Relèvement préalable par le juge de l'application des peines, par jugement ou par ordonnance sauf opposition du parquet : acte juridictionnel. La proposition de réécrire est écartée, l'article n'aménage pas la peine.",
-      "ligne_rouge": "art. 8 DDHC examiné : décision juridictionnelle, le parquet garde l'opposition"
-    },
-    {
-      "code": "cpp",
-      "num": "L5133-11",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Exclusion du bulletin n° 2 par la juridiction de l'application des peines, dans les mêmes formes : décision juridictionnelle.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Relèvement et exclusion du bulletin n° 2 en un article : relèvement au jugement d'aménagement, exclusion (L5133-11 fusionné), décision préalable du juge (L5133-10 fusionné).",
+      "ligne_rouge": "art. 8 DDHC examiné : décision juridictionnelle à la demande du condamné ; la peine complémentaire ne tombe pas sans juge",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'elles statuent sur une mesure prévue aux articles L. 5131-7 et L. 5131-8, les juridictions de l'application des peines peuvent, dans le même jugement et à la demande du condamné, le relever en tout ou partie, y compris quant à sa durée, d'une interdiction résultant de plein droit d'une condamnation pénale ou prononcée à titre de peine complémentaire :\n1° D'exercer une fonction publique ou une activité professionnelle ou sociale.\n2° D'exercer une profession commerciale ou industrielle, ou de diriger, d'administrer, de gérer ou de contrôler à un titre quelconque, directement ou indirectement, pour son compte ou pour celui d'autrui, une entreprise commerciale ou industrielle ou une société commerciale.\nElles peuvent, dans les mêmes conditions, exclure du bulletin n° 2 du casier judiciaire les condamnations qui font obstacle au projet d'aménagement de peine.\nLe juge de l'application des peines peut aussi prendre ces décisions avant d'octroyer une mesure d'aménagement de la peine, pour en permettre le prononcé, par jugement rendu conformément à l'article L. 5131-3 ou par ordonnance sauf opposition du ministère public."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5133-12",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Révocation ou prolongation après l'échéance si la juridiction est saisie sous un mois : le manquement ne s'efface pas avec le temps. La proposition de réécrire est écartée, l'article sert déjà le principe.",
-      "ligne_rouge": "art. 66 C examiné : décision d'un juge, saisine bornée à un mois, tenue"
+      "motif": "Révocation ou prolongation après l'expiration sur saisine sous un mois, en une phrase.",
+      "ligne_rouge": "art. 8 DDHC examiné : délai de saisine d'un mois gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le condamné a violé, pendant leur exécution, les obligations d'un placement à l'extérieur, d'une semi-liberté, d'un fractionnement ou d'une suspension de peine, d'une détention à domicile sous surveillance électronique, d'une libération conditionnelle ou d'un sursis probatoire, les juridictions de l'application des peines peuvent ordonner après son expiration la révocation, le retrait ou, s'il y a lieu, la prolongation de la mesure, si elles ont été saisies ou se sont saisies à cette fin au plus tard un mois après cette expiration."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L5131-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Jugement en l'absence du condamné dûment convoqué, réuni au débat contradictoire.",
+      "ligne_rouge": "droits de la défense : convocation à l'adresse déclarée, motif légitime, appel prolongé (L5132-5)",
+      "vers": "L5131-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L5131-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exécution par provision, réunie à l'appel suspensif du parquet (autorenvoi corrigé).",
+      "ligne_rouge": "art. 8 DDHC examiné : règle inchangée",
+      "vers": "L5132-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L5131-15",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Délais du débat après suspension ou incarcération provisoire et sanction du retard, réunis.",
+      "ligne_rouge": "art. 8 DDHC examiné : délais et sanction gardés à L5131-14",
+      "vers": "L5131-14"
+    },
+    {
+      "code": "cpp",
+      "num": "L5133-3",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Avis de l'interdiction à la victime, réuni à l'interdiction (dispenses de la passe 2 retirées).",
+      "ligne_rouge": "victime (P18) examinée : seul le refus de la victime dispense de l'avis (L5133-1)",
+      "vers": "L5133-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L5133-4",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Information de la victime de la libération en fin de peine, ouverte à toute victime (passe 2), réunie.",
+      "ligne_rouge": "victime (P18) examinée : gardée à L5133-1",
+      "vers": "L5133-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L5133-6",
+      "decision": "F",
+      "principe": "P21",
+      "motif": "Transmission à l'autorité scolaire, réunie.",
+      "ligne_rouge": "aucune",
+      "vers": "L5133-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L5133-10",
+      "decision": "F",
+      "principe": "P4",
+      "motif": "Relèvement préalable par le juge, réuni.",
+      "ligne_rouge": "art. 8 DDHC examiné : jugement ou ordonnance sauf opposition du parquet, gardés",
+      "vers": "L5133-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L5133-11",
+      "decision": "F",
+      "principe": "P4",
+      "motif": "Exclusion du bulletin n° 2, réunie.",
+      "ligne_rouge": "aucune",
+      "vers": "L5133-9"
     }
-  ]
+  ],
+  "passe": 3
 }
