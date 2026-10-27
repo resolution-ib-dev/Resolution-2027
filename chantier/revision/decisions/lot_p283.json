@@ -10,45 +10,45 @@
     {
       "code": "cpp",
       "num": "L1411-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Droit de déposer plainte auprès de tout service, même incompétent, ou du procureur, par voie électronique ou audiovisuelle sans l'imposer : la victime n'est pas renvoyée. Coquille corrigée (« Auprès des officiers »).",
+      "principe": "P23",
+      "motif": "Droit de déposer plainte auprès de tout enquêteur, même incompétent, ou du procureur, et à distance sans que ce mode soit imposé : gardé en deux phrases. Coquille « Après des officiers » corrigée.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "1° Après des officiers et agents de police judiciaire",
-          "nouveau": "1° Auprès des officiers et agents de police judiciaire"
+          "op": "rediger",
+          "nouveau": "Toute victime peut déposer plainte auprès du procureur de la République ou de tout officier ou agent de police judiciaire, tenu de la recevoir même si son service est territorialement incompétent.\nLorsque le présent code le prévoit, elle peut déposer plainte par voie électronique ou par un moyen de télécommunication audiovisuelle qui garantit la confidentialité de la transmission. Ce mode ne lui est jamais imposé."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1411-2",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Récépissé immédiat mentionnant la prescription, copie du procès-verbal sur demande : la victime connaît ses délais.",
-      "ligne_rouge": "aucune"
+      "motif": "Récépissé immédiat qui mentionne la prescription et sa faculté d'interruption, copie du procès-verbal à la demande : gardés, phrase resserrée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime qui dépose plainte auprès d'un service ou d'une unité de police judiciaire reçoit aussitôt un récépissé qui mentionne les délais de prescription de l'action pénale et la faculté de les interrompre par une plainte avec constitution de partie civile. Elle reçoit à sa demande une copie du procès-verbal de plainte."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1411-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Information de la victime sur ses droits au dépôt de plainte : la victime est informée. Coquilles corrigées (« auprès d'un service », accord au singulier de la victime).",
+      "principe": "P23",
+      "motif": "Règle générale de l'information au dépôt de plainte : la liste des droits garde ses sept points sans renvois article par article (ils sont aux titres II à IV), et les informations propres à certaines victimes sont appelées en une phrase (L1452-1, L1452-9, L1453-1). L3313-3 et L3313-6 n'ont plus qu'à renvoyer ici. Coquilles corrigées (« auprès », accord).",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "qui dépose plainte après d'un service",
-          "nouveau": "qui dépose plainte auprès d'un service"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "si elles ne comprennent pas la langue française",
-          "nouveau": "si elle ne comprend pas la langue française"
+          "op": "rediger",
+          "nouveau": "La victime qui dépose plainte, y compris à distance, est informée par tout moyen des droits que lui reconnaissent les titres II à IV du présent livre :\n1° Être accompagnée par la personne de son choix.\n2° Déclarer comme domicile l'adresse d'un tiers.\n3° Bénéficier d'un interprète et d'une traduction.\n4° Être aidée par un service ou une association d'aide aux victimes.\n5° Être informée des mesures de protection dont elle peut bénéficier.\n6° Se constituer partie civile et être assistée par un avocat.\n7° Obtenir la réparation de son préjudice, y compris par le fonds de garantie.\nElle reçoit en outre, s'il y a lieu, les informations prévues aux articles L. 1452-1, L. 1452-9 et L. 1453-1."
         }
       ]
     }
-  ]
+  ],
+  "passe": 3
 }
