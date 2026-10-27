@@ -65,10 +65,17 @@
     {
       "code": "cpp",
       "num": "L5321-5",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Sursis probatoire renforcé : le juge fixe les obligations sur rapport du service quand la juridiction ne l'a pas fait, et peut les modifier sinon.",
-      "ligne_rouge": "aucune"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Coordination de 132-41-1 simplifié (registre 1.11) : numérotation des alinéas.",
+      "ligne_rouge": "aucune",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "du troisième alinéa de l'article 132-41-1 du code pénal",
+          "nouveau": "du deuxième alinéa de l'article 132-41-1 du code pénal"
+        }
+      ]
     },
     {
       "code": "cpp",

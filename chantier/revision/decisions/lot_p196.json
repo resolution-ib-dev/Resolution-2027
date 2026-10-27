@@ -139,10 +139,17 @@
     {
       "code": "cpp",
       "num": "L3732-3",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Contrôle à deux ans d'information : l'information rend compte de sa durée.",
-      "ligne_rouge": "aucune"
+      "decision": "R",
+      "principe": "P19",
+      "motif": "Coordination du registre 5.5 : l'ordonnance à deux ans cède à la demande de prolongation (L3421-3). Le président garde la faculté de saisir la chambre de l'ensemble de la procédure.",
+      "ligne_rouge": "Art. 6 CEDH examiné : le contrôle de la durée par la chambre est gardé.",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": "reçoit communication de l'ordonnance que le juge d'instruction est tenu de prendre deux ans après l'ouverture de l'information en application de l'article L. 3421-4,",
+          "nouveau": "reçoit la demande de prolongation de l'information présentée par le juge d'instruction en application de l'article L. 3421-3,"
+        }
+      ]
     },
     {
       "code": "cpp",

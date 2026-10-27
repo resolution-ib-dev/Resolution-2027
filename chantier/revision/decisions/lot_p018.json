@@ -136,10 +136,17 @@
     {
       "code": "cpp",
       "num": "L5512-1",
-      "decision": "G",
-      "principe": "P6",
-      "motif": "Liste des décisions inscrites : condamnations pour crime, délit et contravention de 5e classe, dispenses et ajournements, mesures éducatives, compositions pénales, condamnations étrangères, amendes forfaitaires délictuelles. L'inscription est la condition de la récidive : la liste est complète et se garde. La proposition d'inverser la liste (P2) n'apporte rien, la règle générale serait plus large que le besoin.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article ne fixe ni ne module la peine, il en organise la mémoire ; P6 examiné : toute décision qui peut fonder la récidive ou la réitération est inscrite"
+      "decision": "S",
+      "principe": "P13",
+      "motif": "Coordination de 132-59 réécrit : la dispense ne peut plus exclure l'inscription au casier.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'article ne fixe ni ne module la peine, il en organise la mémoire ; P6 examiné : toute décision qui peut fonder la récidive ou la réitération est inscrite",
+      "operations": [
+        {
+          "op": "remplacer",
+          "ancien": " sauf si la mention de la décision au bulletin n° 1 a été expressément exclue en application de l'article 132-59 du code pénal ;",
+          "nouveau": " ;"
+        }
+      ]
     },
     {
       "code": "cpp",
