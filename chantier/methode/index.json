@@ -19654,6 +19654,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/passe3/lot_p076",
+   "chemin": "revision/passe3/lot_p076.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/passe3/lot_p076.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/passe3/lot_p110",
    "chemin": "revision/passe3/lot_p110.json",
    "rang": "methode",
@@ -20573,6 +20587,7 @@
    "revision/passe3/lot_p073.json",
    "revision/passe3/lot_p074.json",
    "revision/passe3/lot_p075.json",
+   "revision/passe3/lot_p076.json",
    "revision/passe3/lot_p110.json",
    "revision/passe3/lot_p111.json",
    "revision/registre_arbitrages_penal.md",
@@ -20747,9 +20762,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1335,
-  "au_coffre": 1274,
-  "au_depot": 816,
+  "artefacts": 1336,
+  "au_coffre": 1275,
+  "au_depot": 817,
   "derives": 275,
   "sources": 48,
   "non_restaurables": 16,

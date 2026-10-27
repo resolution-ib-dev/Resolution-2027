@@ -10,440 +10,623 @@
     {
       "code": "penitentiaire",
       "num": "L221-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Surveillance et régime particuliers pour le détenu victime de violences de codétenus : protection de la personne, nécessité établie. La proposition de déclasser est écartée : la loi pose la garantie, le décret en Conseil d'État la met en œuvre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interception des communications autorisées et accès aux terminaux, sur autorisation du garde des sceaux, pour un an renouvelable, correspondances avec l'avocat exclues, information préalable : mesure intrusive encadrée par la loi.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : finalités, agents habilités, durée d'un an, avocat exclu, information préalable"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Matériels illicites découverts : avis immédiat au procureur, conservation sur son autorisation, exploitation autorisée pour un an, information de la personne, destruction : encadrement tenu.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : exploitation subordonnée à l'autorisation du procureur et du garde des sceaux, recours ouverts en cas de saisie"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-3",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Relevé de chaque mise en œuvre accessible en permanence au procureur, registre central, recours devant le juge administratif : traçabilité.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : contrôle permanent du procureur sur la mise en œuvre"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Destruction à quatre-vingt-dix jours, procès-verbal, accès du procureur : durée de conservation bornée.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : conservation bornée"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-5",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Caméras dans les espaces collectifs à risque, obligatoires dans les établissements ouverts après 2009 : prévention des violences entre personnes, nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Vidéosurveillance de cellule ouverte aux seuls prévenus criminels isolés dont l'évasion ou le suicide troublerait gravement l'ordre public : champ étroit, régime des articles L. 223-8 à L. 223-15.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : champ réservé aux cas exceptionnels"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Traitement de vidéosurveillance des cellules, finalités nommées (évasion, suicide), à titre exceptionnel, pour les seuls prévenus sous mandat de dépôt criminel : atteinte à l'intimité encadrée par la loi.",
-      "ligne_rouge": "art. 66 C examiné : la vidéosurveillance ne prive pas de liberté, elle restreint la vie privée de personnes déjà détenues sur décision d'un juge. art. 2 DDHC (vie privée) et CEDH art. 8 examinés : mesure exceptionnelle, motivée, bornée à trois mois renouvelables (L223-9)"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-9",
+      "principe": "P20",
+      "motif": "La garantie reste. Le renvoi au décret passe à la clause unique du titre (L227-3).",
+      "ligne_rouge": "aucune",
       "decision": "S",
-      "principe": "P23",
-      "motif": "Procédure contradictoire avec avocat, urgence bornée à cinq jours, décision spécialement motivée pour trois mois : garanties tenues. Le point manquant dans la base après « intéressée » est corrigé.",
-      "ligne_rouge": "art. 16 DDHC examiné : contradictoire et assistance de l'avocat tenus",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "de la personne intéressée Le placement provisoire",
-          "nouveau": "de la personne intéressée. Le placement provisoire"
+          "op": "rediger",
+          "nouveau": "Toute personne détenue victime d'un acte de violence caractérisé commis par une ou plusieurs personnes codétenues fait l'objet d'une surveillance et d'un régime de détention particuliers."
         }
       ]
     },
     {
       "code": "penitentiaire",
-      "num": "L223-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Avis du médecin recueilli à tout moment : faculté qui protège la santé de la personne filmée, non avis obligatoire préalable.",
-      "ligne_rouge": "aucune"
+      "num": "L223-1",
+      "principe": "P23",
+      "motif": "Mêmes finalités, mêmes techniques, même exception de l'avocat, même durée, même information préalable. Énumération en phrases, sans point-virgule.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour prévenir les évasions et assurer la sécurité et le bon ordre des établissements pénitentiaires et des établissements de santé qui reçoivent des personnes détenues, le garde des sceaux, ministre de la justice, peut autoriser des agents de l'administration pénitentiaire individuellement désignés et habilités :\n1° À intercepter, enregistrer, transcrire ou interrompre les correspondances électroniques autorisées en détention qu'émettent les personnes détenues, sauf celles avec leur avocat, et à en conserver les données de connexion.\n2° À accéder aux données d'un équipement terminal ou d'un système informatique qu'une personne détenue utilise avec autorisation en détention, à les enregistrer, à les conserver et à les transmettre.\nL'autorisation vaut un an au plus, renouvelable. Les personnes détenues et leurs correspondants sont informés au préalable du présent article."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-2",
+      "principe": "P20",
+      "motif": "Mêmes garanties (avis du procureur, autorisation d'un an, information, destruction), phrases resserrées. Le rappel des recours ouverts par la saisie tombe : les articles L. 3721-2 à L. 3721-6 du code de procédure pénale les ouvrent d'eux-mêmes à toute saisie.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République est immédiatement avisé de la découverte, dans un établissement mentionné à l'article L. 223-1, de tout équipement terminal, système informatique ou support de données informatiques dont la détention est illicite. S'il estime ces matériels inutiles à la manifestation de la vérité, il peut autoriser par tout moyen l'administration pénitentiaire à les conserver, sauf saisie par l'autorité judiciaire.\nLe garde des sceaux peut alors autoriser, aux fins et dans les formes de l'article L. 223-1, la mise en œuvre sur ces matériels des techniques du 2° du même article, pour un an au plus, renouvelable. La personne concernée, si elle est identifiée, en est informée. Elle est aussi informée de la destruction des matériels au terme de l'autorisation, sauf si leur exploitation conduit à l'ouverture d'une procédure judiciaire au dossier de laquelle ils sont versés."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-3",
+      "principe": "P20",
+      "motif": "Relevé, accès du procureur, registre et recours gardés. « dans les conditions prévues par le code de justice administrative » tombe : ce code s'applique de lui-même.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Chaque mise en œuvre d'une technique des articles L. 223-1 et L. 223-2 donne lieu à un relevé de ses dates de début et de fin et de la nature des renseignements collectés. Le procureur de la République y accède de manière permanente, complète et directe, quel que soit son degré d'achèvement.\nLa décision de mise en œuvre est consignée dans un registre tenu par la direction générale de l'administration pénitentiaire. Elle peut faire l'objet d'un recours devant le juge administratif."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-4",
+      "principe": "P23",
+      "motif": "Durées et contrôle du procureur gardés, phrases resserrées.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les données et enregistrements qui ne sont pas transmis à l'autorité judiciaire sont détruits quatre-vingt-dix jours après leur recueil. Ce délai est suspendu jusqu'à l'extinction des voies de recours lorsqu'ils servent de support à une procédure disciplinaire. Les transcriptions et extractions sont détruites dès que leur conservation n'est plus indispensable aux finalités de l'article L. 223-1.\nLa destruction fait l'objet d'un procès-verbal. Le procureur de la République accède à tout instant aux données, enregistrements, transcriptions, extractions et procès-verbaux."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-6",
+      "principe": "P23",
+      "motif": "« Cette faculté constitue une obligation » se dit directement. Règle inchangée.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Des caméras de surveillance peuvent être installées dans les espaces collectifs présentant un risque d'atteinte à l'intégrité physique des personnes. Elles sont obligatoires dans les établissements pénitentiaires ouverts après le 26 novembre 2009."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-8",
+      "principe": "P23",
+      "motif": "L223-7 et L223-8 disaient deux fois le même champ (prévenu sous mandat de dépôt criminel, isolé, impact sur l'ordre public) : un seul article. L'exclusion du droit d'opposition (L223-14) y entre. Les modalités d'accès et l'affichage descendent au décret pris après avis de la CNIL (L227-3).",
+      "ligne_rouge": "art. 66 C et vie privée examinés : champ exceptionnel et étroit, finalités fermées, inchangés, la décision individuelle et ses garanties sont à L223-9",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La direction générale de l'administration pénitentiaire peut mettre en œuvre, à titre exceptionnel, un traitement de données à caractère personnel de vidéosurveillance de la cellule d'une personne placée en détention provisoire sous mandat de dépôt criminel et faisant l'objet d'une mesure d'isolement, lorsque son évasion ou son suicide pourrait avoir un impact important sur l'ordre public eu égard aux circonstances particulières à l'origine de sa détention et à leur impact sur l'opinion publique.\nCe traitement a pour seules finalités de prévenir l'évasion et le passage à l'acte suicidaire. Le droit d'opposition ne s'y applique pas."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-9",
+      "principe": "P23",
+      "motif": "Procédure contradictoire, avocat, décision spécialement motivée de trois mois, notification et urgence de cinq jours gardées. L'avis du médecin à tout moment (L223-10) y entre.",
+      "ligne_rouge": "vie privée et droits de la défense examinés : contradictoire, avocat, motivation spéciale, notification, durée bornée, tous gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue est informée du projet de son placement sous vidéosurveillance. Elle présente ses observations écrites et orales dans le cadre d'une procédure contradictoire et peut être assistée d'un avocat.\nLe garde des sceaux, ministre de la justice, décide le placement par une décision spécialement motivée, pour trois mois, renouvelable. Cette décision est notifiée à la personne détenue. L'avis écrit du médecin intervenant dans l'établissement peut être recueilli à tout moment, notamment avant tout renouvellement.\nEn cas d'urgence, le garde des sceaux peut décider un placement provisoire si la mesure est l'unique moyen d'éviter l'évasion ou le suicide de la personne. Ce placement ne peut excéder cinq jours. À ce terme, la mesure prend fin si aucune décision n'est intervenue dans les conditions du présent article. Sa durée s'impute sur celle de la mesure."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L223-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Garanties techniques : pare-vue, caméras visibles, ni son ni biométrie, conservation d'un mois. Elles bornent l'atteinte à l'intimité.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : intimité préservée par le pare-vue, conservation d'un mois"
+      "principe": "P23",
+      "motif": "Garanties techniques gardées : pare-vue, caméras visibles, ni son ni biométrie, conservation d'un mois.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le système de vidéosurveillance permet un contrôle en temps réel de la personne détenue. Un pare-vue fixé dans la cellule garantit son intimité tout en permettant la restitution d'images opacifiées. L'emplacement des caméras est visible. Les séquences vidéo des cellules concernées sont enregistrées, sans transmission ni enregistrement sonore et sans dispositif biométrique. Les images enregistrées sont conservées un mois."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L223-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Consultation des images dans les sept jours sur raisons sérieuses, au-delà seulement en enquête, effacement à un mois : accès borné.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : accès et durée bornés"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Personnes habilitées à accéder aux images, liste fermée : accès borné.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : accès limité à trois catégories habilitées"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-14",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Droits d'accès et de rectification auprès du chef d'établissement, information par affiche, droit d'opposition écarté pour la finalité de sécurité : encadrement tenu.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : droits d'accès et de rectification ouverts"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-15",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Journalisation des consultations et des extractions : traçabilité des accès aux images.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : traçabilité des accès"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-16",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Accès aux images en un article : liste fermée des personnes qui y accèdent (L223-13), consultation à sept jours, effacement à un mois, journalisation des accès et des extractions (L223-15). La liste d'accès et le contrôle des accès sont des bornes de l'atteinte à la vie privée, ils restent dans la loi.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ont seuls accès aux données : les agents de l'administration pénitentiaire individuellement désignés et habilités par le chef de l'établissement, pour le visionnage en temps réel, le chef de l'établissement pénitentiaire ou son représentant, pour la consultation des enregistrements dans le délai de sept jours, et le correspondant local informatique individuellement désigné et habilité par le chef de l'établissement. S'il existe des raisons sérieuses de penser que la personne détenue présente des risques de passage à l'acte suicidaire ou d'évasion, le chef de l'établissement pénitentiaire ou son représentant peut consulter les enregistrements dans les sept jours qui suivent leur réalisation. Au-delà, ils ne peuvent être visionnés que dans le cadre d'une enquête judiciaire ou administrative. Au terme d'un mois, les données qui n'ont fait l'objet ni d'une transmission à l'autorité judiciaire ni d'une enquête administrative sont effacées. Les consultations, créations et mises à jour sont journalisées et leurs journaux conservés trois mois. Les extractions de séquences sont journalisées et leur journal conservé un an."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L223-17",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contrôle des personnes aux abords de l'établissement par des agents désignés, sur raisons sérieuses de penser qu'elles préparent une infraction contre l'établissement : nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-18",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Justification d'identité, palpation par une personne de même sexe, inspection visuelle des bagages, fouille avec consentement : mesures bornées.",
-      "ligne_rouge": "art. 66 C examiné : palpation et inspection ne privent pas de liberté, la fouille des bagages exige le consentement, la retenue relève de L223-19 sous le contrôle immédiat d'un officier de police judiciaire"
+      "principe": "P23",
+      "motif": "Le contrôle et ses mesures (L223-18) en un article.",
+      "ligne_rouge": "art. 66 C examiné : contrôle d'une personne libre aux abords, sans privation de liberté hors la retenue de L223-19, palpation par une personne de même sexe et fouille des bagages avec consentement gardées mot pour mot ou presque",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnels de surveillance affectés aux équipes de sécurité pénitentiaire et individuellement désignés par le chef de l'établissement pénitentiaire ou par le directeur interrégional des services pénitentiaires peuvent contrôler, sur le domaine affecté à l'établissement et à ses abords immédiats, toute personne autre qu'une personne détenue à l'égard de laquelle existe une ou plusieurs raisons sérieuses de penser qu'elle se prépare à commettre une infraction portant atteinte à la sécurité de l'établissement.\nIls peuvent l'inviter à justifier de son identité par tout moyen, procéder à une palpation de sécurité, faite par une personne de même sexe, à l'inspection visuelle de ses bagages et, avec son consentement, à leur fouille."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L223-19",
+      "principe": "P23",
+      "motif": "Cible de la passe 2 (renvois au code de 2029). Retenue sous l'ordre d'un officier de police judiciaire, imputation du délai et rapport au procureur gardés.",
+      "ligne_rouge": "art. 66 C examiné : la retenue cesse sans ordre de l'officier de police judiciaire, le délai court dès le contrôle, rapport au procureur",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Retenue en cas de refus, compte rendu immédiat à l'officier de police judiciaire, rapport au procureur : garanties tenues. Le renvoi à l'ancien article 78-3, absent du code de 2029, se corrige : la vérification d'identité est ouverte par L. 3225-1 et suivants et la durée de la retenue à L. 3225-4 du code de procédure pénale.",
-      "ligne_rouge": "art. 66 C examiné : retenue brève, sans ordre de l'officier de police judiciaire elle cesse, la durée s'impute sur celle de la vérification d'identité",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en application de l'article 78-3 du code de procédure pénale, le délai prévu au troisième alinéa du même article 78-3 court",
-          "nouveau": "en application des articles L. 3225-1 et suivants du code de procédure pénale, le délai prévu à l'article L. 3225-4 du même code court"
+          "op": "rediger",
+          "nouveau": "Si la personne refuse le contrôle ou ne peut justifier de son identité, l'agent peut la retenir en utilisant au besoin la force strictement nécessaire. Il en rend compte immédiatement à tout officier de police judiciaire de la police nationale ou de la gendarmerie nationale territorialement compétent, qui peut lui ordonner sans délai de lui présenter sur-le-champ la personne ou de la retenir jusqu'à son arrivée ou celle d'un agent de police judiciaire placé sous son contrôle. Sans ordre, la personne ne peut être retenue.\nSi l'officier de police judiciaire procède à une vérification d'identité en application des articles L. 3225-1 et suivants du code de procédure pénale, le délai prévu à l'article L. 3225-4 du même code court à compter du début du contrôle. Toute retenue fait l'objet d'un rapport de l'agent au procureur de la République territorialement compétent."
         }
       ]
     },
     {
       "code": "penitentiaire",
       "num": "L223-20",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Caméras individuelles pour les missions à risque : enregistrement non permanent, interdit pendant les fouilles, signal visuel, effacement à trois mois. L'avis public de la CNIL sur le décret protège la vie privée : il reste (P15).",
-      "ligne_rouge": "art. 66 C examiné : l'enregistrement ne prive pas de liberté. art. 2 DDHC (vie privée) et CEDH art. 8 examinés : finalités, durée de trois mois, fouilles exclues, avis de la CNIL"
+      "principe": "P23",
+      "motif": "Ne garde que ce qui est propre aux caméras individuelles : le cas d'emploi, l'interdiction pendant les fouilles (étendue à toute fouille de personne, y compris celle de L224-8), le port apparent, l'information des personnes filmées, les finalités et l'effacement à trois mois. Le régime commun des caméras (signal, transmission, accès des agents, intégrité, anonymisation) passe à L223-22.",
+      "ligne_rouge": "art. 66 C et vie privée examinés : aucune privation de liberté, enregistrement non permanent, information des personnes filmées, effacement à trois mois et garanties communes de L223-22, tous tenus",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour les missions qui présentent un risque particulier d'incident ou d'évasion, en raison de leur nature ou de la dangerosité des personnes détenues concernées, des personnels de surveillance individuellement désignés peuvent être autorisés à enregistrer leurs interventions au moyen de caméras individuelles, lorsqu'un incident se produit ou est susceptible de se produire, eu égard aux circonstances de l'intervention ou au comportement des personnes concernées.\nAucun enregistrement n'est déclenché pendant la fouille d'une personne. Les caméras sont portées de façon apparente. Le déclenchement de l'enregistrement fait l'objet d'une information expresse des personnes filmées, sauf si les circonstances l'interdisent.\nLes enregistrements servent à prévenir les incidents et les évasions, à constater les infractions et à en rassembler les preuves, et à former les agents. Hors procédure judiciaire, administrative ou disciplinaire, ils sont effacés au bout de trois mois."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L223-21",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Caméras aéroportées : finalités nommées, proportionnalité, autorisation écrite et motivée du directeur interrégional pour trois mois, registre hebdomadaire, cellules et domiciles exclus : encadrement tenu.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : autorisation motivée, durée et périmètre bornés"
+      "principe": "P1",
+      "motif": "Ne garde que ce qui est propre aux caméras aéroportées : finalités, proportionnalité, autorisation écrite et motivée de trois mois, registre hebdomadaire, ni son ni cellules, transmission pendant l'intervention (L223-22 et L223-24 en partie). Le contenu de la demande d'autorisation (service, caractéristiques techniques, durée souhaitée…) et l'information du représentant de l'État, qui ne garde aucune liberté, descendent au décret (L227-3). Le reste passe au régime commun de L223-22.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les services de l'administration pénitentiaire peuvent être autorisés à capter, enregistrer et transmettre des images au moyen de caméras installées sur des aéronefs, lorsque c'est proportionné à l'une des finalités suivantes :\n1° Prévenir les atteintes à la sécurité des personnes et des biens dans les établissements pénitentiaires particulièrement exposés, par leurs caractéristiques ou par les faits qui s'y sont déjà produits, à des risques d'incident, d'évasion ou de trafic d'objets ou de substances interdits ou constituant une menace pour la sécurité.\n2° Surveiller et protéger les établissements, leur domaine et leurs abords immédiats particulièrement exposés à des risques d'intrusion ou de dégradation.\n3° Appuyer dans ces lieux les interventions de maintien de l'ordre des équipes de sécurité pénitentiaire.\n4° Constater les infractions et en rassembler les preuves.\n5° Former les agents.\nLe directeur interrégional des services pénitentiaires délivre l'autorisation, sur demande motivée, par décision écrite et motivée. Elle détermine la finalité poursuivie et le périmètre géographique strictement nécessaire. Elle vaut trois mois au plus, renouvelable tant que ses conditions sont réunies. Le directeur interrégional y met fin dès qu'elles ne le sont plus. Le registre de l'article L. 223-22 lui est transmis chaque semaine, et il contrôle la conformité des interventions à l'autorisation.\nLes caméras aéroportées ne captent pas le son. Elles ne visent pas l'intérieur des cellules, sauf incident grave touchant à l'ordre, à la discipline ou à la sécurité de l'établissement. Pendant la durée strictement nécessaire à l'intervention, la cellule de crise de l'établissement et les agents qui conduisent l'intervention peuvent visionner les images en temps réel ou en différé."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L223-22",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Transmission des images pendant l'intervention, intégrité et traçabilité : encadrement tenu.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : traçabilité des consultations"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-23",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Information du public sur les dispositifs aéroportés, exceptions renvoyées au décret : encadrement tenu.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : information du public"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-24",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Usage non permanent, ni son ni traitement algorithmique, registre, conservation de sept jours : bornes de l'atteinte.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : conservation de sept jours, ni son ni algorithme"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-25",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Décret en Conseil d'État pris après avis de la CNIL : cet avis protège la vie privée, il reste (P15). La proposition de supprimer l'avis est écartée.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : avis de la CNIL sur le décret gardé"
+      "principe": "P23",
+      "motif": "Régime commun des trois sortes de caméras (technique 2) : les sections 3 à 5 répétaient chacune le caractère non permanent, le signal, l'information générale, la transmission, l'accès des agents, l'intégrité et la traçabilité, le registre, les lieux exclus, la conservation et l'anonymisation. Chaque garantie vit une fois. Les garanties les plus protectrices s'étendent aux trois (aucun traitement algorithmique, aucune reconnaissance faciale ni interconnexion, registre), extension déclarée. Les facultés d'agir (signal, transmission en temps réel, accès direct des agents) restent chacune à leur périmètre d'origine.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les caméras individuelles, aéroportées et embarquées des articles L. 223-20, L. 223-21 et L. 223-26 obéissent aux règles suivantes :\n1° Elles sont fournies par le service. Leur emploi est strictement nécessaire à la mission, adapté aux circonstances de chaque intervention et jamais permanent. Seules les données à caractère personnel strictement nécessaires sont collectées, dans le respect de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.\n2° Un signal visuel spécifique indique que la caméra individuelle enregistre. Un signal visuel ou sonore spécifique indique si la caméra embarquée enregistre, sauf si les circonstances de l'intervention l'interdisent. Le public est informé de l'emploi des caméras aéroportées et de l'autorité responsable, sauf si les circonstances l'interdisent ou si cette information contrarie les objectifs poursuivis. Le ministre de la justice organise une information générale du public sur l'emploi de ces caméras.\n3° Les images des caméras individuelles peuvent être transmises en temps réel à la cellule de crise de l'établissement et aux personnels qui conduisent l'intervention, lorsque la sécurité des personnels, des personnes ou des biens est menacée. Elle l'est lorsqu'il existe un risque immédiat d'atteinte à leur intégrité. Les images des caméras embarquées peuvent être transmises en temps réel au poste de commandement du service et aux agents qui conduisent l'intervention, lorsque la sécurité des agents est menacée.\n4° Les agents n'accèdent directement aux enregistrements qu'ils réalisent avec une caméra individuelle que lorsque c'est nécessaire pour prévenir une atteinte imminente à l'ordre public, secourir une personne ou établir fidèlement les faits dans le compte rendu de l'intervention. Avec une caméra embarquée, ils n'y accèdent que lorsque c'est nécessaire pour assurer la sécurité de l'intervention ou établir fidèlement les faits dans le compte rendu.\n5° Les dispositifs garantissent l'intégrité des enregistrements jusqu'à leur effacement et la traçabilité des consultations. Ils ne comportent ni traitement algorithmique, ni reconnaissance faciale, ni rapprochement ou interconnexion avec d'autres traitements de données à caractère personnel.\n6° L'autorité responsable tient un registre des enregistrements, qui précise pour chaque intervention sa finalité, la durée des enregistrements et les personnes qui ont accès aux images, y compris par un dispositif de renvoi en temps réel.\n7° Les caméras aéroportées et embarquées ne visent pas l'intérieur des domiciles ni leurs entrées. Lorsque leur emploi conduit à visualiser ces lieux, ou une cellule hors du cas prévu à l'article L. 223-21, l'enregistrement est immédiatement interrompu. À défaut, les images sont supprimées dans les quarante-huit heures qui suivent la fin du déploiement, sauf signalement dans ce délai à l'autorité judiciaire en application de l'article L. 1521-1 du code de procédure pénale.\n8° Hors procédure judiciaire, administrative ou disciplinaire, les enregistrements des caméras aéroportées et embarquées sont conservés sept jours au plus après la fin du déploiement, sous la responsabilité du chef du service, sans que nul puisse y avoir accès, sauf pour un tel signalement.\n9° Les enregistrements utilisés pour la pédagogie et la formation des agents sont anonymisés."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L223-26",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Caméras embarquées pendant les transfèrements et extractions, aux seules fins de sécurité, sur incident : finalité étroite.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : finalité et déclenchement bornés"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-27",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Enregistrement non permanent, borné à la durée de la mission : encadrement tenu.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : durée bornée"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-28",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Signalétique et signal d'enregistrement, exception pour les véhicules banalisés : information du public.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : information du public"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-29",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Transmission en temps réel sur menace, registre, intégrité, aucune reconnaissance faciale ni interconnexion : encadrement tenu.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : ni reconnaissance faciale ni interconnexion"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-30",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Conservation de sept jours, domiciles exclus, suppression à quarante-huit heures : bornes de l'atteinte.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : conservation de sept jours"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L223-31",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Décret en Conseil d'État pris après avis de la CNIL : cet avis protège la vie privée, il reste (P15).",
-      "ligne_rouge": "art. 2 DDHC (vie privée) et CEDH art. 8 examinés : avis de la CNIL sur le décret gardé"
+      "principe": "P23",
+      "motif": "Ne garde que ce qui est propre aux caméras embarquées : finalité étroite, cas d'emploi, durée de la mission (L223-27), signalétique du véhicule (L223-28). Le régime commun passe à L223-22.",
+      "ligne_rouge": "art. 2 DDHC, vie privée examinée : mesure intrusive, ses bornes (finalité, durée, accès, conservation, information) restent dans la loi",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour la seule sécurité des transfèrements et des extractions, les services de l'administration pénitentiaire peuvent enregistrer leurs opérations dans des lieux publics au moyen de caméras embarquées dans les véhicules fournis par le service, lorsqu'un incident se produit ou est susceptible de se produire, eu égard aux circonstances, à la personnalité ou au comportement des personnes détenues concernées. L'enregistrement ne se prolonge pas au-delà de la mission.\nUne signalétique apposée sur le véhicule informe le public de la présence d'une caméra, sauf sur les véhicules sans signalisation spécifique affectés à des missions qui impliquent l'absence d'identification du service pénitentiaire."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L224-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Quartiers spécifiques pour les détenus qui menacent l'ordre ou la sécurité publique, programme de prise en charge : nécessité établie.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Même règle en deux phrases : affectation, puis programme et régime.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes détenues majeures dont le comportement porte ou est susceptible de porter atteinte au bon ordre de l'établissement ou à la sécurité publique peuvent, sur décision de l'autorité administrative, être affectées dans un quartier spécifique. Elles y bénéficient d'un programme adapté de prise en charge, sous un régime de sécurité renforcée."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L224-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Décision motivée, contradictoire avec avocat, réexamen régulier : droits de la défense tenus.",
-      "ligne_rouge": "art. 16 DDHC examiné : contradictoire et assistance de l'avocat tenus"
+      "principe": "P23",
+      "motif": "Garanties inchangées, en phrases courtes. L224-6 y renvoie pour les quartiers de lutte contre la criminalité organisée.",
+      "ligne_rouge": "droits de la défense examinés : motivation, contradictoire, avocat, réexamen gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La décision d'affectation dans un quartier spécifique est motivée. Elle n'intervient qu'après une procédure contradictoire au cours de laquelle la personne intéressée, qui peut être assistée de son avocat, présente ses observations orales ou écrites. Elle fait l'objet d'un nouvel examen régulier."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L224-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Les droits du livre III restent, sous les seuls aménagements de sécurité. La proposition de réécrire au titre de l'aménagement de peine est sans objet : l'article règle le régime de détention.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article règle le régime de détention, il ne touche ni au prononcé ni à la durée de la peine"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L224-4",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "La réserve des droits du livre III, dite deux fois (L224-3, L224-7), l'est une fois pour les deux sortes de quartiers.",
+      "ligne_rouge": "droits du livre III gardés dans les deux quartiers, seules restrictions celles de L224-8",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'affectation dans un quartier spécifique ou dans un quartier de lutte contre la criminalité organisée ne porte pas atteinte aux droits que le livre III reconnaît aux personnes détenues, sous réserve des aménagements qu'imposent les impératifs de sécurité et, dans un quartier de lutte contre la criminalité organisée, des restrictions de l'article L. 224-8.\nDans un quartier spécifique, les activités mentionnées à l'article L. 411-1 peuvent s'exercer à l'écart des autres personnes détenues, sous les mêmes réserves."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L224-5",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Affectation en quartier de lutte contre la criminalité organisée par le ministre, après avis du juge de l'application des peines pour un condamné, sauf opposition du magistrat pour un prévenu. Régime le plus restrictif de la détention, pour un an renouvelable : l'avis du juge est la seule intervention judiciaire préalable pour un condamné, il garde une liberté (exception de P15), comme le retient R224-38 (lot p107). Renvois coordonnés au 1er janvier 2029.",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : avis préalable du juge pour le condamné, contradictoire avec avocat et motivation (L224-6), contrôle du juge administratif."
+      "principe": "P23",
+      "motif": "Même champ, même avis du juge de l'application des peines (registre 5.1), même opposition du magistrat dans les huit jours. Phrases resserrées.",
+      "ligne_rouge": "contrôle du juge examiné : avis du juge de l'application des peines et opposition du magistrat gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "A titre exceptionnel, pour prévenir la poursuite ou l'établissement de liens avec les réseaux de la criminalité et de la délinquance organisées, le ministre de la justice peut affecter dans un quartier de lutte contre la criminalité organisée une personne majeure détenue pour une infraction entrant dans le champ des articles L. 1722-2, L. 1722-3 ou L. 1722-4 du code de procédure pénale.\nPour une personne condamnée, il recueille l'avis du juge de l'application des peines compétent. Pour une personne prévenue, mise en examen ou accusée, il informe le magistrat chargé de l'enquête ou de l'instruction, et l'affectation n'intervient qu'à défaut d'opposition de sa part dans les huit jours de la réception de cette information."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L224-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Décision motivée, contradictoire avec avocat, valable un an, réexamen à la fin de la détention provisoire ou au jugement : garanties tenues.",
-      "ligne_rouge": "art. 66 C examiné : l'affectation règle le régime de la détention ordonnée par un juge, elle ne la prolonge pas. Art. 16 DDHC : contradictoire et avocat tenus"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L224-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Les droits du livre III restent, sous les aménagements de sécurité et les restrictions de la section. La proposition de réécrire au titre de l'aménagement de peine est sans objet.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article règle le régime de détention, il ne touche ni au prononcé ni à la durée de la peine"
+      "principe": "P23",
+      "motif": "La procédure (motivation, contradictoire, avocat) est celle de L224-2, par renvoi. Durée et réexamens propres gardés.",
+      "ligne_rouge": "art. 66 C et droits de la défense examinés : motivation, contradictoire et avocat par renvoi précis à L224-2, durée d'un an et réexamens gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La décision d'affectation dans un quartier de lutte contre la criminalité organisée est prise dans les formes de l'article L. 224-2, pour un an. Elle est renouvelable dans les mêmes formes. Elle fait l'objet d'un nouvel examen lorsque la détention provisoire qui a justifié le placement prend fin alors que la personne reste détenue pour une autre cause, ou lorsque la personne est jugée pour les faits qui l'ont justifié."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L224-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Régime des quartiers de lutte contre la criminalité organisée : fouilles après contact, parloirs à séparation, téléphone garanti au moins deux heures deux jours par semaine, avocat et enfants hors du dispositif : nécessité établie, proportionnée.",
-      "ligne_rouge": "art. 66 C examiné : le régime ne prolonge pas la détention. CEDH art. 8 examiné : enfants mineurs et avocat exclus de la séparation, accès au téléphone garanti"
+      "principe": "P23",
+      "motif": "Régime inchangé, énuméré. « sans préjudice des articles L. 225-1 à L. 225-5 » tombe : ces articles s'appliquent d'eux-mêmes (P20). L'exception de l'avocat vise les visites et le téléphone, comme les deuxième et troisième alinéas d'origine.",
+      "ligne_rouge": "art. 66 C examiné : fouille bornée au contact physique hors surveillance, séparation écartée pour les enfants et l'avocat, téléphone au moins deux heures deux jours par semaine, tous gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans un quartier de lutte contre la criminalité organisée :\n1° La personne détenue fait l'objet d'une fouille intégrale après tout contact physique avec une personne en mission ou en visite dans l'établissement, lorsqu'elle n'est pas restée sous la surveillance constante d'un agent de l'administration pénitentiaire, sous réserve des adaptations décidées par l'autorité administrative compétente.\n2° Les visites se déroulent dans un parloir équipé d'un dispositif de séparation. Ce dispositif ne s'applique ni aux mineurs sur lesquels la personne détenue, son conjoint, le partenaire auquel elle est liée par un pacte civil de solidarité ou son concubin exerce l'autorité parentale, ni en cas de circonstances familiales exceptionnelles. Pour les mineurs de plus de seize ans, l'autorité administrative compétente peut toutefois l'imposer en cas de risque d'atteinte au bon ordre de l'établissement.\n3° Les unités de vie familiale et les parloirs familiaux de l'article L. 341-8 ne sont pas ouverts.\n4° L'accès au téléphone fait l'objet de restrictions réglementaires qui garantissent à chaque personne détenue au moins deux heures, au moins deux jours par semaine.\nLes 2° et 4° ne s'appliquent pas aux échanges avec l'avocat. A la demande de la personne détenue ou de son avocat, la visite de ce dernier se déroule dans un parloir équipé d'un dispositif de séparation qui permet de transmettre et de présenter des documents."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L224-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Collaborateurs de justice exclus des quartiers : cohérence avec leur protection. Le renvoi au titre III du livre III de la sixième partie du code de procédure pénale est exact.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article règle le lieu de détention, il ne touche ni au prononcé ni au quantum"
+      "principe": "P23",
+      "motif": "Collaborateurs de justice exclus des quartiers : même règle, phrase directe.",
+      "ligne_rouge": "art. 8 DDHC examiné : exclusion favorable au collaborateur, gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La présente section ne s'applique ni aux collaborateurs de justice du titre III du livre III de la sixième partie du code de procédure pénale, ni aux personnes qui ont eu ce statut dans la procédure pour laquelle elles exécutent leur peine."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L224-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Anonymat des agents des quartiers de criminalité organisée, nom révélé au juge sur demande : protection des agents, contrôle juridictionnel gardé.",
-      "ligne_rouge": "art. 16 DDHC examiné : le juge accède à l'identité de l'auteur de l'acte et peut la verser au contradictoire"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L224-11",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Anonymat, signature numérotée et levée devant le juge gardés. « Sans préjudice des articles L. 2515-2 à L. 2515-7 » tombe (P20). La mention du numéro sur la délégation de signature descend au décret (L227-3).",
+      "ligne_rouge": "art. 16 DDHC examiné : le juge connaît toujours l'identité de l'agent, le juge administratif peut la verser au contradictoire, la partie saisit le juge judiciaire selon L2515-5",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les agents de l'administration pénitentiaire affectés ou intervenant dans un établissement qui comprend un quartier de lutte contre la criminalité organisée interviennent dans des conditions qui préservent leur anonymat.\nPar dérogation aux articles L. 111-2 et L. 212-1 du code des relations entre le public et l'administration, leurs décisions et actes administratifs pris dans ces établissements ou dans les services pénitentiaires d'insertion et de probation compétents peuvent ne comporter, outre la signature et la qualité, que le numéro d'immatriculation administrative de leur auteur.\nLorsque la solution d'un litige dépend d'un acte ainsi signé, les nom et prénom de l'agent sont communiqués, à sa demande, à la juridiction ou au magistrat qu'elle délègue, sans être versés au contradictoire. Le juge administratif saisi d'une demande en ce sens par une partie peut les y verser si, après avoir mis l'administration en mesure de présenter ses observations, il estime que la révélation de l'identité de l'agent ne mettrait en danger ni sa vie ou son intégrité physique, ni celles de ses proches. Devant le juge judiciaire, la partie présente sa demande selon l'article L. 2515-5 du code de procédure pénale."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L225-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Fouilles intégrales justifiées et proportionnées, systématiques seulement par décision de trois mois renouvelable : dignité tenue.",
-      "ligne_rouge": "art. 66 C examiné : la fouille ne prive pas de liberté. CEDH art. 3 et 8 examinés : justification, proportionnalité, durée bornée"
+      "principe": "P23",
+      "motif": "Règle inchangée, au présent et dans l'ordre règle puis exception.",
+      "ligne_rouge": "art. 66 C et CEDH art. 3 examinés : fouilles justifiées, proportionnées, subsidiaires, systématiques seulement par décision de trois mois, investigations internes par un médecin requis par l'autorité judiciaire, tous gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les fouilles intégrales des personnes détenues sont justifiées par la présomption d'une infraction ou par les risques que leur comportement fait courir à la sécurité des personnes et au maintien du bon ordre dans l'établissement, sauf lorsque la personne accède à l'établissement sans être restée sous la surveillance constante de l'administration pénitentiaire ou des forces de police ou de gendarmerie. Leur nature et leur fréquence sont strictement adaptées à ces nécessités et à la personnalité des personnes détenues.\nElles peuvent être systématiques lorsque les nécessités de l'ordre public et les contraintes du service public pénitentiaire l'imposent. Le chef de l'établissement pénitentiaire prend alors une décision pour trois mois au plus, renouvelable après un nouvel examen de la situation de la personne détenue."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L225-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Fouilles collectives sur raisons sérieuses, en lieux et temps déterminés, motivées, rapport au procureur : encadrement tenu.",
-      "ligne_rouge": "art. 66 C examiné : la fouille ne prive pas de liberté. CEDH art. 8 examiné : motivation et rapport au procureur"
+      "principe": "P23",
+      "motif": "Règle inchangée, phrases resserrées.",
+      "ligne_rouge": "art. 66 C et CEDH art. 3 examinés : fouilles justifiées, proportionnées, subsidiaires, systématiques seulement par décision de trois mois, investigations internes par un médecin requis par l'autorité judiciaire, tous gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'il existe des raisons sérieuses de soupçonner l'introduction dans l'établissement d'objets ou de substances interdits ou constituant une menace pour la sécurité des personnes ou des biens, le chef de l'établissement pénitentiaire peut ordonner des fouilles de personnes détenues dans des lieux et pour une période déterminés, indépendamment de leur personnalité. Ces fouilles sont strictement nécessaires et proportionnées. Elles sont spécialement motivées et font l'objet d'un rapport circonstancié transmis au procureur de la République territorialement compétent et à la direction générale de l'administration pénitentiaire."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L225-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Subsidiarité de la fouille intégrale, investigations corporelles internes proscrites sauf médecin extérieur requis par l'autorité judiciaire : dignité tenue.",
-      "ligne_rouge": "art. 66 C et CEDH art. 3 examinés : investigation interne réservée à un médecin requis par l'autorité judiciaire"
+      "principe": "P23",
+      "motif": "Règle inchangée.",
+      "ligne_rouge": "art. 66 C et CEDH art. 3 examinés : fouilles justifiées, proportionnées, subsidiaires, systématiques seulement par décision de trois mois, investigations internes par un médecin requis par l'autorité judiciaire, tous gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Une fouille intégrale n'est possible que si la palpation ou les moyens de détection électronique sont insuffisants. Les investigations corporelles internes sont proscrites, sauf impératif spécialement motivé. Elles ne peuvent alors être réalisées que par un médecin qui n'exerce pas dans l'établissement pénitentiaire, requis à cet effet par l'autorité judiciaire."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L225-4",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Fouilles des cellules et des locaux en l'absence des détenus : sécurité de l'établissement.",
-      "ligne_rouge": "art. 66 C examiné : la fouille des locaux ne touche pas la liberté d'aller et venir"
+      "motif": "Fouilles des cellules et des locaux en l'absence des détenus.",
+      "ligne_rouge": "art. 66 C examiné : fouille de locaux, aucune privation de liberté",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L227-1",
+      "principe": "P23",
+      "motif": "Mêmes conditions, en une phrase positive, sans point-virgule. Les forces de l'ordre appelées dans l'établissement (L227-2) suivent la même règle, dite au second alinéa.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnels de surveillance de l'administration pénitentiaire n'utilisent la force que dans la mesure strictement nécessaire et seulement en cas de légitime défense, de tentative d'évasion ou de résistance par la violence ou par inertie physique aux ordres donnés. Dans ces cas, ainsi que dans ceux des 1° et 2° de l'article L. 435-1 du code de la sécurité intérieure, ils peuvent faire usage d'une arme à feu en cas d'absolue nécessité et de manière strictement proportionnée.\nLe présent article s'applique aux forces de l'ordre qui interviennent, à la demande du chef de l'établissement, pour le maintien de l'ordre dans l'établissement ou pour une mission de protection et de garde dans l'établissement ou à ses abords."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L227-3",
+      "principe": "P20",
+      "motif": "Clause unique d'application du titre : elle remplace les neuf renvois au décret en Conseil d'État (L221-1, L223-5, L223-16, L223-25, L223-31, L224-4, L224-11, L225-5, L227-3) et garde l'avis de la CNIL pour les données (registre 5.1), désormais public et motivé pour toutes les caméras comme il l'était pour les caméras individuelles.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'Etat fixe les modalités d'application du présent titre. Pour les traitements de données et les caméras du chapitre III, il est pris après avis public et motivé de la Commission nationale de l'informatique et des libertés et précise les exceptions à l'information du public prévue au 2° de l'article L. 223-22."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-5",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Renvoi au décret de la sous-section : clause unique du titre à L227-3. R223-7 vise « L. 223-1 à L. 223-5 », à lire « L. 223-1 à L. 223-4 ».",
+      "ligne_rouge": "aucune",
+      "vers": "L227-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Même champ que L223-8, qui le dit seul.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-8"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis du médecin recueilli à tout moment : une phrase de L223-9, qui règle la décision.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-9"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Liste fermée des personnes qui accèdent aux images : première phrase de L223-12, inchangée.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-12"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-14",
+      "decision": "F",
+      "principe": "P1",
+      "motif": "L'exclusion du droit d'opposition passe à L223-8. Le lieu d'exercice des droits d'accès et de rectification, que la loi n° 78-17 ouvre d'elle-même, et l'affichage à l'entrée de la cellule sont des modalités du traitement : décret pris après avis de la CNIL (L227-3).",
+      "ligne_rouge": "aucune",
+      "vers": "L223-8"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Journalisation des consultations, créations, mises à jour et extractions, et durées de conservation des journaux : contrôle des accès, il reste dans la loi, aux deux dernières phrases de L223-12.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-12"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-16",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Renvoi au décret de la sous-section : clause unique du titre à L227-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L227-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mesures du contrôle de L223-17, qui les porte : identité, palpation par une personne de même sexe, inspection visuelle des bagages, fouille avec consentement.",
+      "ligne_rouge": "art. 66 C examiné : contrôle d'une personne libre aux abords, sans privation de liberté hors la retenue de L223-19, palpation par une personne de même sexe et fouille des bagages avec consentement gardées mot pour mot ou presque",
+      "vers": "L223-17"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-23",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Garanties communes aux caméras : régime unique de L223-22, qui les porte toutes.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-22"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Garanties communes aux caméras : régime unique de L223-22, qui les porte toutes.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-22"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-29",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Garanties communes aux caméras : régime unique de L223-22, qui les porte toutes.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-22"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-30",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Garanties communes aux caméras : régime unique de L223-22, qui les porte toutes.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-22"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-25",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Décret pris après avis de la CNIL : clause unique du titre à L227-3, qui garde l'avis (registre 5.1) et l'objet des exceptions à l'information du public.",
+      "ligne_rouge": "aucune",
+      "vers": "L227-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-27",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Caméras fournies par le service, enregistrement non permanent et borné à la mission : L223-26 et L223-22.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-26"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-28",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Signalétique du véhicule à L223-26, signal d'enregistrement et information générale à L223-22.",
+      "ligne_rouge": "aucune",
+      "vers": "L223-26"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L223-31",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Décret pris après avis de la CNIL : clause unique du titre à L227-3. Les compteurs d'outre-mer (L753-1, L763-1, L773-1) qui finissent leur plage à L. 223-31 se mettent à jour.",
+      "ligne_rouge": "aucune",
+      "vers": "L227-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L224-4",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Renvoi au décret de la section : clause unique du titre à L227-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L227-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L224-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réserve des droits du livre III : L224-3, qui la dit pour les deux sortes de quartiers.",
+      "ligne_rouge": "aucune",
+      "vers": "L224-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L224-11",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Renvoi au décret de la section : clause unique du titre à L227-3. L211-2 et L211-3 visent « L. 224-1 à L. 224-11 » (réécrits au lot p078) et les compteurs d'outre-mer se mettent à jour.",
+      "ligne_rouge": "aucune",
+      "vers": "L227-3"
     },
     {
       "code": "penitentiaire",
       "num": "L225-5",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Renvoi au décret du chapitre : clause unique du titre à L227-3. L224-8 ne le cite plus.",
+      "ligne_rouge": "aucune",
+      "vers": "L227-3"
     },
     {
       "code": "penitentiaire",
       "num": "L226-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Pur renvoi à L. 1121-3 du code de procédure pénale, qui borne pour toute personne le port des menottes et entraves et lie l'administration pénitentiaire sans ce relais : article vide.",
+      "motif": "Pur renvoi à L. 1121-3 du code de procédure pénale, qui borne pour toute personne le port des menottes et entraves et lie l'administration pénitentiaire sans ce relais.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "L226-2",
-      "decision": "A",
+      "decision": "F",
       "principe": "P20",
-      "motif": "Miroir interne de L. 322-10 du présent code, qui porte la règle (accouchement et examen gynécologique sans entraves, hors la présence du personnel) : la règle vit une fois.",
-      "ligne_rouge": "CEDH art. 3 examiné : la garantie reste entière à L. 322-10"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L227-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Force strictement nécessaire, arme à feu en absolue nécessité : nécessité et proportionnalité inscrites dans la loi.",
-      "ligne_rouge": "CEDH art. 2 et 3 examinés : nécessité absolue et proportionnalité"
+      "motif": "Miroir interne de L322-10, qui porte la règle.",
+      "ligne_rouge": "aucune",
+      "vers": "L322-10"
     },
     {
       "code": "penitentiaire",
       "num": "L227-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Les forces de l'ordre appelées dans l'établissement suivent la même règle : un seul régime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L227-3",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "motif": "Les forces de l'ordre appelées dans l'établissement suivent la règle de L227-1, qui le dit au second alinéa.",
+      "ligne_rouge": "aucune",
+      "vers": "L227-1"
     }
-  ]
+  ],
+  "passe": 3
 }
