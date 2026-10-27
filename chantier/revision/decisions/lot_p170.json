@@ -10,312 +10,385 @@
     {
       "code": "cpp",
       "num": "L3131-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Secret de l'enquête et de l'information, sauf droits de la défense, sanctionné par L3131-2. P26 vise les audiences et les décisions : le secret de l'investigation protège la présomption d'innocence et l'efficacité de la recherche, il cède à la communication du procureur (L3132-1) et prend fin à l'audience publique. A53-3 renvoie à l'ancien 11 : la coordination se fait sur A53-3. [arbitrage : étendre P26 à la phase d'investigation]",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : le secret protège la personne mise en cause ; P26 examiné : le secret ne couvre ni l'audience ni la décision"
+      "motif": "Principe du secret, réserve des droits de la défense : gardé. Cité par A53-3, L6121-2 et L6122-3.",
+      "ligne_rouge": "Droits de la défense et présomption d'innocence : le secret cède aux droits de la défense, gardé mot pour mot.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sauf dans le cas où la loi en dispose autrement et sans préjudice des droits de la défense, la procédure au cours de l'enquête et de l'information est secrète.\nToute personne qui concourt à cette procédure est tenue au secret professionnel dans les conditions et sous les peines prévues à l'article L. 3131-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3131-2",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Révélation d'informations d'enquête ou d'instruction, texte venu de l'article 434-7-2 du code pénal (lot p050). Jugement de fond : classe noyau (atteinte à la justice). Trois ans et 45 000 € au niveau de l'entrave à la justice (434-4), cinq ans quand la révélation vise les suspects pour entraver, sept ans en criminalité organisée : hiérarchie tenue, peines gardées. Renvois entrants à coordonner vers L. 3131-2 : L8123-4, L8323-9, L8423-9 et L8523-9 citent encore l'article 434-7-2 du code pénal.",
-      "ligne_rouge": "art. 8 DDHC examiné : peines graduées selon l'entrave et la gravité de l'enquête, proportionnées"
+      "principe": "P23",
+      "motif": "Même délit, mêmes peines et même champ ; la réserve des droits de la défense, dite deux fois, l'est une fois pour tout l'article.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : incrimination et peines inchangées (trois, cinq, sept ans), la réserve des droits de la défense couvre les trois degrés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fait, pour toute personne qui a connaissance en raison de ses fonctions, en application du présent code, d'informations issues d'une enquête ou d'une information en cours concernant un crime ou un délit, de révéler sciemment ces informations à des tiers est puni de trois ans d'emprisonnement et de 45 000 euros d'amende, sans préjudice des droits de la défense mentionnés à l'article L. 3131-1.\nLes peines sont portées à cinq ans d'emprisonnement et à 75 000 euros d'amende lorsque la révélation est faite à des personnes que l'auteur sait susceptibles d'être impliquées comme auteurs, coauteurs, complices ou receleurs, dans le dessein d'entraver le déroulement des investigations ou la manifestation de la vérité. Elles sont portées à sept ans d'emprisonnement et à 100 000 euros d'amende lorsque, dans ce cas, l'enquête ou l'information porte sur des faits de délinquance ou de criminalité organisées mentionnés à l'article L. 1722-2 et constituant un crime ou un délit puni de dix ans d'emprisonnement."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3131-3",
-      "decision": "R",
       "principe": "P27",
-      "motif": "Divulgation d'un document saisi en perquisition sans l'accord de la personne : protège sa vie privée, classe noyau. L'amende de 4 500 € ne suit pas l'emprisonnement de deux ans, que le code pénal accompagne de 30 000 € : elle se relève dans la hiérarchie de la famille. Ordre emprisonnement puis amende rétabli.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la peine protège les documents saisis chez la personne ; art. 8 DDHC examiné : amende remise en proportion de l'emprisonnement ; art. 66 C : aucune privation de liberté en cause",
+      "motif": "Texte de la passe 2 : amende relevée au rang de l'emprisonnement de deux ans, ordre emprisonnement puis amende. Cité par L3531-12.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) et vie privée (art. 2 DDHC) examinés : l'amende suit la hiérarchie de la famille, entre crochets ; l'emprisonnement est inchangé.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "est punie de 4 500 euros d'amende et de deux ans d'emprisonnement.",
-          "nouveau": "est punie de deux ans d'emprisonnement et de [30 000] euros d'amende."
+          "op": "rediger",
+          "nouveau": "Sous réserve des nécessités de l'enquête ou de l'information, toute communication ou toute divulgation sans l'autorisation de la personne mise en examen ou de ses ayants droit ou du signataire ou du destinataire d'un document provenant d'une perquisition à une personne non qualifiée par la loi pour en prendre connaissance est punie de deux ans d'emprisonnement et de [30 000] euros d'amende."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3131-4",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Diffusion d'enregistrements d'auditions de mineurs victimes, d'actes à distance, d'interrogatoires criminels : un an et 15 000 €, protège la victime et la personne entendue. Hiérarchie tenue.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine proportionnée à l'atteinte à la victime et à la vie privée"
+      "principe": "P23",
+      "motif": "Les quatre enregistrements en une phrase ; champ et peines inchangés. Cité par L3523-23.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : peine inchangée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Est puni d'un an d'emprisonnement et 15 000 euros d'amende le fait, pour toute personne, de diffuser l'original ou la copie de l'enregistrement de l'audition ou de la confrontation d'un mineur victime d'une infraction mentionnée à l'article L. 1721-2 réalisé selon l'article L. 1451-4, d'un acte accompli par un moyen de télécommunication enregistré selon l'article L. 1621-5, de l'interrogatoire ou de la confrontation d'une personne mise en examen pour crime enregistré selon l'article L. 3432-23, ou de l'audition ou de la confrontation d'une personne gardée à vue pour crime enregistrée selon l'article L. 3523-22."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3132-1",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Communication publique du procureur, objective, contre les rumeurs ou le trouble : transparence encadrée. A53-3 renvoie à l'ancien 11 : la coordination se fait sur A53-3.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3132-2",
+      "principe": "P23",
+      "motif": "Même règle en trois phrases, verbe au présent.",
+      "ligne_rouge": "Présomption d'innocence : aucune appréciation sur le bien-fondé des charges, gardé.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Publicité des débats sur la détention, des audiences de la chambre des investigations et des libertés, enregistrement des audiences : dérogations au secret qui servent la transparence (P26). L'exception de publicité vit à L3713-7 réécrit (lot p194), non à L3742-3 : le renvoi suit.",
-      "ligne_rouge": "art. 66 C examiné : la publicité des débats sur la détention renforce le contrôle du juge",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'article L. 3742-3 relatives",
-          "nouveau": "l'article L. 3713-7 relatives"
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut, d'office ou à la demande de la juridiction d'instruction ou des parties, communiquer au public des éléments tirés d'une enquête ou d'une information, afin d'éviter la propagation d'informations parcellaires ou inexactes, pour mettre fin à un trouble à l'ordre public ou lorsque tout autre impératif d'intérêt public le justifie. Ces éléments sont objectifs et ne comportent aucune appréciation sur le bien-fondé des charges retenues contre les personnes mises en cause. La communication peut passer par un officier de police judiciaire qui agit avec l'accord et sous le contrôle de ce magistrat."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3133-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Partage d'informations avec des tiers tenus au secret professionnel, sauf condamnation publique : cadre nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information réservée aux autorités qui peuvent suspendre l'activité, fait justificatif écarté : borne la diffusion.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Issue de la procédure notifiée à l'administration informée, personne avisée, exclusion du bulletin n° 2 signalée : garantie de la personne, elle reste dans la loi. La proposition de déclassement est écartée.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : l'administration connaît l'issue, relaxe comprise"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Effacement de l'information après non-lieu, relaxe ou acquittement : présomption d'innocence tenue.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-13",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret des formes de transmission et des professions visées : la strate basse porte le détail.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-14",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Article de charpente : dérogation au secret au profit des services spécialisés, bornée par la section.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-15",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Communication aux services de renseignement en matière de terrorisme par le parquet antiterroriste : prévention d'atteintes graves, finalité bornée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-16",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Communication par tout procureur des éléments sur une personne menaçante liée au terrorisme : finalité et personnes bornées.",
-      "ligne_rouge": "art. 8 DDHC examiné : aucune peine fixée, le seuil d'emprisonnement borne la communication ; vie privée (art. 2 DDHC) : finalité limitée à la prévention du terrorisme"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-17",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pas de retransmission hors des services de prévention du terrorisme : borne la diffusion.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-18",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Communication aux services de défense des systèmes d'information : gardée. Deux coquilles corrigées (virgule après « peut », double apostrophe).",
-      "ligne_rouge": "aucune",
+      "motif": "Une phrase au lieu de trois, même règle : l'annonce du chapitre se fond dans la règle du secret des destinataires.",
+      "ligne_rouge": "Vie privée : secret professionnel des destinataires, gardé.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "peut, communiquer",
-          "nouveau": "peut communiquer"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "d''association",
-          "nouveau": "d'association"
+          "op": "rediger",
+          "nouveau": "Les personnes qui ne concourent pas à la procédure et reçoivent, dans les conditions du présent chapitre, des éléments issus d'une enquête ou d'une information ou une condamnation prononcée à leur issue sont tenues au secret professionnel sur ces informations, dans les conditions et sous les peines des articles 226-13 et 226-14 du code pénal, sauf pour une condamnation rendue publiquement."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-19",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Communication aux services de renseignement en criminalité organisée, avis des suites : finalité bornée.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L3133-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information facultative de l'employeur public sur une mise en examen, une saisine ou une condamnation, pour prévenir un trouble ou protéger les personnes : nécessité motivée.",
-      "ligne_rouge": "art. 8 DDHC examiné : aucune peine, information bornée aux infractions punies d'emprisonnement ; présomption d'innocence (art. 9 DDHC) : la personne est avisée (L3133-9) et l'information s'efface après non-lieu ou relaxe (L3133-12)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-20",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "L'accord du juge d'instruction pour les communications du procureur en cours d'information reste : il dirige l'information et en garde le secret (P4). L'avis du procureur avant les communications du juge devient une information : il ne protège aucune liberté.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la communication reste décidée par un magistrat du siège, dans les finalités fixées par la section, le parquet en est informé avant.",
+      "principe": "P23",
+      "motif": "Information facultative de l'employeur public et des autorités de contrôle (L3133-3 fusionné) en un article ; énumération sans point-virgule. Destinataires du dernier alinéa rattachés à l'activité, comme dans L3133-3 (relecture adverse).",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) et présomption d'innocence examinés : information facultative, motivée par la nécessité, limitée aux crimes et délits punis d'emprisonnement.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "après avoir recueilli, selon les cas, l'avis du procureur de la République antiterroriste ou du procureur de la République compétent.",
-          "nouveau": "après en avoir informé, selon les cas, le procureur de la République antiterroriste ou le procureur de la République compétent."
+          "op": "rediger",
+          "nouveau": "Lorsqu'il l'estime nécessaire, en raison de la nature des faits ou des circonstances de leur commission, pour mettre fin ou prévenir un trouble à l'ordre public ou pour assurer la sécurité des personnes ou des biens, le ministère public peut informer par écrit l'administration des décisions suivantes rendues contre une personne qu'elle emploie, y compris à titre bénévole, lorsqu'elles concernent un crime ou un délit puni d'une peine d'emprisonnement :\n1° La mise en examen.\n2° La saisine d'une juridiction de jugement par le procureur de la République ou par le juge d'instruction.\n3° La condamnation, même non définitive.\nDans les mêmes conditions, il peut informer de ces décisions les personnes publiques, les personnes morales de droit privé chargées d'une mission de service public ou les ordres professionnels sous le contrôle ou l'autorité desquels est placée l'activité professionnelle ou sociale de la personne."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-21",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pas d'échange avec des services étrangers : borne la diffusion.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-22",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information sans délai du juge des enfants quand le mineur victime est suivi en assistance éducative : protection de la victime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-23",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Communication du contrôle judiciaire ou de l'assignation à l'hébergeur et à l'établissement scolaire : protection des victimes potentielles.",
-      "ligne_rouge": "art. 66 C examiné : la communication suit une mesure décidée par un juge, sans effet sur la liberté ; vie privée : bornée aux crimes et aux infractions de L1721-2"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-24",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Communication d'éléments pour la recherche sur les accidents ou l'indemnisation des victimes, sur autorisation du magistrat : gardée (P18). L'avis des ministres intéressés avant l'arrêté d'habilitation ne protège aucune liberté : il tombe.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", pris le cas échéant après avis du ou des ministres intéressés,",
-          "nouveau": ","
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-25",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Échange de données entre administrations, parquets et associations après une catastrophe : prise en charge des victimes. L'avis de la CNIL sur le décret protège la vie privée : il reste (P15).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-26",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Communication des enquêteurs fiscaux et douaniers aux services de contrôle : gardée. L'avis du procureur avant l'autorisation du juge d'instruction ne protège aucune liberté : le magistrat qui dirige la procédure autorise seul.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : les éléments recueillis par la contrainte judiciaire ne passent à l'administration que sur autorisation d'un magistrat.",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "du procureur de la République ou, après avis de celui-ci, du juge d'instruction,",
-          "nouveau": "du procureur de la République ou du juge d'instruction,"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information des ordres et organismes de contrôle dans les mêmes conditions : même régime.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L3133-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information obligatoire de l'employeur public en criminalité organisée, sauf atteinte à l'enquête : nécessité établie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-5",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Information obligatoire des ordres de santé sur les condamnations et contrôles judiciaires pour les infractions de L1225-16 : gardée. Construction corrigée (« se livrer à l'exercice », « sociale »).",
-      "ligne_rouge": "art. 66 C examiné : la communication suit une mesure décidée par un juge, sans effet sur la liberté",
+      "motif": "Informations obligatoires en criminalité organisée et aux ordres de santé (L3133-5 fusionné, texte corrigé de la passe 2) en un article ; la réserve du bon déroulement de la procédure, dite trois fois, l'est une fois.",
+      "ligne_rouge": "Présomption d'innocence et art. 66 C, CEDH art. 5 (contrôle d'un juge) examinés : information limitée aux décisions d'un juge ou du ministère public déjà prises, réserve de l'efficacité de la procédure gardée.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "se livrer l'exercice d'une activité de nature professionnelle ou social,",
-          "nouveau": "se livrer à l'exercice d'une activité de nature professionnelle ou sociale,"
+          "op": "rediger",
+          "nouveau": "Le ministère public informe sans délai par écrit l'administration, toute personne morale chargée d'une mission de service public ou tout ordre professionnel des décisions mentionnées aux 1° à 3° de l'article L. 3133-2 concernant une personne qu'il emploie, lorsqu'elles sont relatives à une ou plusieurs infractions de délinquance ou de criminalité organisées mentionnées aux articles L. 1722-2 et L. 1722-3.\nIl informe de même les ordres professionnels nationaux mentionnés à la quatrième partie du code de la santé publique de la condamnation, même non définitive, d'une personne qui en relève pour une infraction mentionnée à l'article L. 1225-16, et de son placement sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique pour une telle infraction avec interdiction d'exercer une activité impliquant un contact habituel avec des mineurs ou une activité de nature professionnelle ou sociale.\nCes informations ne sont pas données lorsqu'elles sont susceptibles de porter atteinte au bon déroulement de la procédure judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3133-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information obligatoire de l'administration sur la personne au contact de mineurs, sous contrôle judiciaire ou condamnée : protection des mineurs.",
-      "ligne_rouge": "art. 66 C examiné : la communication suit une mesure décidée par un juge, sans effet sur la liberté ; présomption d'innocence : bornée aux infractions graves de L3133-7"
-    },
-    {
-      "code": "cpp",
-      "num": "L3133-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Liste des infractions qui imposent l'information : atteintes aux mineurs, violences graves, terrorisme. Liste fermée justifiée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Information obligatoire de l'administration sur la personne au contact de mineurs et liste des infractions qui l'imposent (L3133-7 fusionné) en un article ; placement et condamnation rattachés aux infractions de la liste (relecture adverse, P25).",
+      "ligne_rouge": "art. 66 C, CEDH art. 5 (contrôle d'un juge) examiné : l'information porte sur des mesures décidées par un juge ; protection des mineurs gardée, liste inchangée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'il a été établi au cours de l'enquête ou de l'information qu'une personne exerce une activité professionnelle ou sociale impliquant un contact habituel avec des mineurs et dont l'exercice est contrôlé, directement ou indirectement, par l'administration, le ministère public informe par écrit l'administration :\n1° Du placement de cette personne sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique pour l'une des infractions énumérées ci-après, avec interdiction d'exercer une activité impliquant un contact habituel avec des mineurs.\n2° De sa condamnation, même non définitive, pour l'une de ces infractions.\nCes infractions sont :\na) Les infractions sexuelles, violentes ou commises contre des mineurs mentionnées à l'article L. 1721-2.\nb) Les crimes de torture et d'actes de barbarie ou de violences prévus aux articles 221-1 à 221-5, 222-7, 222-8, 222-10 et 222-14 du code pénal et, lorsqu'ils sont commis sur un mineur de quinze ans, les délits de violences prévus aux articles 222-11, 222-12 et 222-14 du même code.\nc) Les délits de harcèlement sexuel prévus à l'article 222-33 du même code.\nd) Les délits de trafic de stupéfiants et de provocation ou d'incitation à commettre des infractions prévus au deuxième alinéa de l'article 222-39 et aux articles 227-18 à 227-21 et 227-28-3 du même code.\ne) Les crimes et les délits de terrorisme prévus aux articles 421-1 à 421-6 du même code."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3133-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Les condamnations exclues du bulletin n° 2 ne sont pas communiquées d'initiative : la décision du juge est respectée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Dispositions communes de la section en un article : avis à la personne (L3133-9), bulletin n° 2 (L3133-8, L3133-11), issue et effacement (L3133-11, L3133-12), diffusion bornée et fait justificatif écarté (L3133-10).",
+      "ligne_rouge": "Droits de la défense, présomption d'innocence et vie privée examinés : la personne est avisée, l'exclusion du bulletin n° 2 est respectée, l'information s'efface après non-lieu, relaxe ou acquittement, la diffusion reste bornée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministère public avise sans délai la personne de sa décision de transmettre une information la concernant en application des articles L. 3133-2 à L. 3133-6. Il ne communique pas de sa propre initiative une condamnation dont la juridiction de jugement a exclu la mention au bulletin n° 2 du casier judiciaire, hors le cas de l'alinéa suivant.\nIl notifie sans délai l'issue de la procédure aux destinataires de l'information et en avise la personne, même si la juridiction a exclu la mention de la condamnation au bulletin n° 2, en faisant alors expressément état de cette exclusion. Lorsque la procédure s'est terminée par un non-lieu, une relaxe ou un acquittement, le destinataire supprime l'information du dossier relatif à l'activité de la personne, sauf si une sanction a été légalement fondée sur elle.\nLe destinataire ne peut communiquer l'information qu'aux personnes compétentes pour faire cesser ou suspendre l'exercice de l'activité de la personne. Le fait justificatif prévu au 1° de l'article 226-14 du code pénal ne s'applique pas à la personne mentionnée à ce 1° qui a eu connaissance des faits par l'information de l'administration employeur prévue au premier alinéa de l'article L. 3133-2 ou par celle prévue à l'article L. 3133-6."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-13",
+      "principe": "P1",
+      "motif": "Un seul renvoi au décret, renvois internes retirés.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret précise les modalités d'application de la présente section, notamment les formes de la transmission par le ministère public, de la transmission des décisions à l'issue des procédures et de la suppression de l'information, et, pour l'article L. 3133-6, les professions et activités concernées et les autorités administratives destinataires."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-15",
+      "principe": "P23",
+      "motif": "Communications en matière de terrorisme en un article : services de renseignement (L3133-15), autres procureurs (L3133-16 fusionné), limite de retransmission (L3133-17 fusionné). La dérogation au secret (L3133-14, charpente) est dite pour toute la section à L3133-20.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) et vie privée examinés : finalité, personnes et destinataires bornés comme en 2029.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République antiterroriste peut communiquer aux services spécialisés de renseignement mentionnés à l'article L. 811-2 du code de la sécurité intérieure, d'office ou à leur demande, des éléments de toute nature figurant dans les procédures d'enquête ou d'information ouvertes pour des infractions de sa compétence et nécessaires à leurs missions de prévention du terrorisme.\nTout procureur de la République peut faire la même communication, aux mêmes fins, aux autorités et services compétents pour la prévention du terrorisme, notamment aux services mentionnés aux articles L. 811-2 et L. 811-4 du même code, dans les procédures ouvertes pour un crime ou un délit puni d'emprisonnement qui font apparaître des éléments concernant une personne :\n1° Dont le comportement constitue une menace d'une particulière gravité pour la sécurité et l'ordre publics.\n2° Et qui soit entre en relation de manière habituelle avec des personnes ou des organisations incitant, facilitant ou participant à des actes de terrorisme, soit soutient, diffuse, lorsque cette diffusion s'accompagne d'une manifestation d'adhésion à l'idéologie exprimée, ou adhère à des thèses incitant à la commission d'actes de terrorisme ou faisant l'apologie de tels actes.\nLes destinataires ne transmettent ces informations qu'à d'autres autorités ou services chargés de la prévention du terrorisme, pour les mêmes finalités."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-18",
+      "principe": "P23",
+      "motif": "Texte de la passe 2 (coquilles), énumération sans point-virgule. Cité par L2152-20.",
+      "ligne_rouge": "Vie privée : finalité bornée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République de Paris peut communiquer aux services de l'État mentionnés au second alinéa de l'article L. 2321-2 du code de la défense, de sa propre initiative ou à la demande de ces services, des éléments de toute nature nécessaires à l'exercice de leur mission en matière de sécurité et de défense des systèmes d'information, figurant dans des procédures d'enquête ou d'information portant :\n1° Sur les délits mentionnés aux articles 323-1 à 323-4-1 et 411-9 du code pénal, lorsqu'ils sont commis sur un système de traitement automatisé d'informations.\n2° Sur le blanchiment de ces délits.\n3° Sur le délit d'association de malfaiteurs lorsqu'il a pour objet la préparation de l'un de ces délits."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-19",
+      "principe": "P23",
+      "motif": "Énumération sans point-virgule ; texte inchangé. Cité par L2152-20.",
+      "ligne_rouge": "Vie privée : finalité bornée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République compétent peut communiquer aux services spécialisés de renseignement mentionnés à l'article L. 811-2 du code de la sécurité intérieure ainsi qu'aux services mentionnés à l'article L. 811-4 du même code désignés, au regard de leurs missions, par décret en Conseil d'État, de sa propre initiative ou à la demande de ces services, des éléments de toute nature nécessaires à l'exercice de leurs missions au titre de la prévention de la criminalité et de la délinquance organisées, figurant dans des procédures d'enquête ou d'information portant :\n1° Sur les infractions relevant de la compétence des juridictions spécialisées prévues par la section 3 du chapitre 2 du titre V du livre Ier de la deuxième partie du présent code et mentionnées aux 1°, 3°, 5°, 6°, 8°, 10°, 11°, 12°, 16°, 17° et 24° de l'article L. 1722-2 du présent code et au dernier alinéa de l'article 434-30 du code pénal.\n2° Sur le blanchiment de ces infractions.\nLe procureur de la République avise les services ayant bénéficié de cette communication des poursuites ou des mesures alternatives aux poursuites qui ont été décidées à la suite de la mise en œuvre de la procédure."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-20",
+      "principe": "P23",
+      "motif": "Dispositions communes de la section en un article : dérogation au secret (L3133-14), accord du juge d'instruction et information du procureur (texte de la passe 2), interdiction des échanges avec l'étranger (L3133-21 fusionné).",
+      "ligne_rouge": "Le juge d'instruction qui dirige l'information garde la main sur les communications ; aucune transmission à l'étranger.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les communications prévues par la présente section dérogent à l'article L. 3131-1. Lorsque la procédure fait l'objet d'une information, le procureur de la République ne peut y procéder que sur avis favorable du juge d'instruction. Le juge d'instruction peut aussi y procéder, dans les mêmes conditions et pour les mêmes finalités, pour les informations dont il est saisi, après en avoir informé selon les cas le procureur de la République antiterroriste ou le procureur de la République compétent.\nLes informations communiquées ne peuvent faire l'objet d'un échange avec des services de renseignement étrangers ou avec des organismes internationaux compétents dans le domaine du renseignement."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-22",
+      "principe": "P23",
+      "motif": "Une phrase au lieu de deux, même règle.",
+      "ligne_rouge": "Droits de la victime (P18) : le juge des enfants est informé, gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République ou le juge d'instruction informe sans délai le juge des enfants de l'existence d'une procédure concernant un mineur victime de l'une des infractions mentionnées à l'article L. 1721-2, dès lors qu'une procédure d'assistance éducative a été ouverte à l'égard de ce mineur, et lui communique toutes pièces utiles."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-23",
+      "principe": "P23",
+      "motif": "Énumération sans point-virgule ; texte inchangé.",
+      "ligne_rouge": "art. 66 C, CEDH art. 5 (contrôle d'un juge) examiné : seules des décisions du juge sont communiquées, dans les conditions de L3621-18 à L3621-22.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les conditions prévues par les articles L. 3621-18 à L. 3621-22, les décisions de placement sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique pour un crime ou pour une infraction sexuelle, violente, ou commise contre des mineurs, mentionnée à l'article L. 1721-2 sont communiquées :\n1° À la personne chez qui réside la personne poursuivie.\n2° À l'autorité académique et au chef d'établissement scolaire dans lequel la personne poursuivie est scolarisée ou a vocation à poursuivre sa scolarité."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-24",
+      "principe": "P23",
+      "motif": "Les deux communications sur autorisation du magistrat (recherche et indemnisation, enquêtes douanières et fiscales, L3133-26 fusionné) en un article ; textes de la passe 2 (avis des ministres et avis du procureur retirés, P15).",
+      "ligne_rouge": "Droits de la victime : l'indemnisation est facilitée ; le magistrat qui dirige la procédure autorise chaque communication.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sur autorisation, selon le cas, du procureur de la République ou du juge d'instruction :\n1° Des éléments des procédures judiciaires en cours peuvent être communiqués à des autorités ou organismes habilités à cette fin par arrêté du ministre de la justice, pour réaliser des recherches ou enquêtes scientifiques ou techniques, destinées notamment à prévenir les accidents, ou pour faciliter l'indemnisation des victimes ou la réparation de leur préjudice.\n2° Les officiers de douane judiciaire, les officiers fiscaux judiciaires et les agents de police judiciaire des finances qui effectuent des enquêtes judiciaires selon le chapitre II du titre IV du livre II de la deuxième partie peuvent communiquer aux agents des administrations des douanes et des finances publiques chargés d'une mission de contrôle les informations et documents recueillis dans ces enquêtes et utiles à cette mission."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-25",
+      "principe": "P23",
+      "motif": "Même règle, avis de la CNIL gardé (P15) ; « conformément aux dispositions du présent code » tombe (P20).",
+      "ligne_rouge": "Droits de la victime et vie privée : échanges strictement nécessaires, avis de la CNIL gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Après un accident, un sinistre, une catastrophe ou une infraction susceptible de provoquer de nombreuses victimes, les administrations au sens de l'article L. 100-3 du code des relations entre le public et l'administration qui gèrent la crise, prennent en charge ou accompagnent les victimes ou mettent en œuvre leurs droits, les parquets et juridictions saisis et les associations d'aide aux victimes agréées peuvent échanger les données, informations ou documents strictement nécessaires à ces missions et à l'information des personnes présentes et de leurs proches. Un décret en Conseil d'État pris après avis de la Commission nationale de l'informatique et des libertés en fixe les modalités."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3132-2",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Rappel des articles qui dérogent au secret : chacune de ces dérogations vit dans son article (L3642-16, L3713-7, article 38 quater de la loi du 29 juillet 1881), et L3131-1 réserve déjà les cas où la loi en dispose autrement.",
+      "ligne_rouge": "art. 66 C, CEDH art. 5 (contrôle d'un juge) examiné : la publicité des débats sur la détention provisoire reste écrite à L3642-16 et à L3713-7 ; rien ne dépend du rappel."
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information des ordres de santé : deuxième alinéa de L3133-4.",
+      "ligne_rouge": "art. 66 C, CEDH art. 5 (contrôle d'un juge) examiné : information sur des mesures décidées par un juge, réserve du bon déroulement de la procédure gardée.",
+      "vers": "L3133-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Liste des infractions qui imposent l'information : a) à e) de L3133-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information des personnes publiques, organismes et ordres : dernier alinéa de L3133-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-2"
     },
     {
       "code": "cpp",
       "num": "L3133-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "La personne est avisée sans délai de la transmission : elle peut s'en défendre.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis à la personne : premier alinéa de L3133-8.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-8"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Diffusion bornée et fait justificatif écarté : dernier alinéa de L3133-8, champ inchangé (administration employeur et information de L3133-6).",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-8"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Issue de la procédure et bulletin n° 2 : deuxième alinéa de L3133-8.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-8"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Effacement après non-lieu, relaxe ou acquittement : deuxième alinéa de L3133-8.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-8"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dérogation au secret au profit des services spécialisés : première phrase de L3133-20.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-20"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Communication par tout procureur en matière de terrorisme : deuxième alinéa de L3133-15.",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : personnes et finalités inchangées.",
+      "vers": "L3133-15"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Limite de retransmission : dernier alinéa de L3133-15.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-15"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-26",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Communication des enquêteurs douaniers et fiscaux : 2° de L3133-24.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-24"
+    },
+    {
+      "code": "cpp",
+      "num": "L3133-21",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pas d'échange avec des services étrangers : dernier alinéa de L3133-20.",
+      "ligne_rouge": "aucune",
+      "vers": "L3133-20"
     }
-  ]
+  ],
+  "passe": 3
 }
