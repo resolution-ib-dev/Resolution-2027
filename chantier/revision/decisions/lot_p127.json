@@ -10,33 +10,59 @@
     {
       "code": "penitentiaire",
       "num": "R510-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Sortie avant midi : la personne libérée trouve services et transports ouverts le jour même. Règle courte, utile, seule à la fixer.",
-      "ligne_rouge": "aucune"
+      "motif": "Sortie avant midi : règle courte et utile, seule à la fixer. Gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R511-2",
+      "principe": "P13",
+      "motif": "Billet de sortie gardé. La surveillance électronique de fin de peine, absente du droit de 2029 (aucun autre article ne la nomme), tombe, et l'invitation à conserver le billet, qui n'oblige personne, aussi.",
+      "ligne_rouge": "art. 8 DDHC examiné : le billet prouve la régularité de la sortie et ne touche ni à la peine ni à son quantum",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne qui sort de détention reçoit un billet de sortie, qu'il s'agisse d'une sortie définitive ou d'une sortie en aménagement de peine, hors permission de sortir. Le billet justifie de la régularité de sa situation. Un certificat de présence destiné à l'opérateur France Travail peut lui être remis."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D511-3",
+      "principe": "P23",
+      "motif": "Contenu du billet : gardé, rédaction resserrée en deux phrases.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le billet de sortie mentionne l'état civil de la personne, son numéro d'immatriculation à la sécurité sociale, les dates de son entrée et de sa sortie de détention, ses ressources financières à la sortie et les secours qu'elle a reçus, ainsi que l'adresse du service pénitentiaire d'insertion et de probation ou de l'antenne locale de son lieu de résidence. Une copie peut en être remise à l'opérateur France Travail."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R512-2",
+      "principe": "P23",
+      "motif": "Décret d'application de L. 512-2 : données limitées, destinataires désignés, gardés en deux phrases.",
+      "ligne_rouge": "art. 8 DDHC examiné : la transmission ne touche pas à la peine, vie privée examinée : données et destinataires fermés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de l'article L. 512-2, le chef de l'établissement pénitentiaire communique par écrit le nom, les prénoms, la date de naissance, l'adresse déclarée et la date de libération des personnes condamnées à un emprisonnement égal ou supérieur à trois ans au directeur départemental ou interdépartemental de la police nationale, au directeur territorial de la police nationale ou au commandant du groupement de gendarmerie dont relève l'adresse déclarée. Pour une adresse à Paris ou dans les Hauts-de-Seine, la Seine-Saint-Denis ou le Val-de-Marne, il les adresse au directeur de la sécurité de proximité de l'agglomération parisienne et au directeur régional de la police judiciaire de Paris."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "D511-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie D571 du code de procédure pénale (déclaration de résidence au greffe à la libération, information immédiate du ministère public par le chef d'établissement), sans rien y ajouter : la règle vit à sa source, une seule fois. Les plages des tableaux outre-mer (D756-3, D766-3, D776-3) qui commencent ou finissent sur cet article sont à coordonner au lot de ces articles.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R511-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Billet de sortie remis à toute personne libérée : il prouve la régularité de la sortie, contrôle par contrôle. Seul article qui le crée.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article atteste la sortie, il ne touche ni la peine prononcée ni son aménagement"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D511-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contenu du billet de sortie et adresse du service d'insertion et de probation : la personne sait où se présenter. Seul article qui le fixe.",
+      "motif": "Miroir de D. 571 du code de procédure pénale (résidence de l'interdit de séjour enregistrée au greffe et portée au ministère public), qui porte la règle (passe 2 confirmée).",
       "ligne_rouge": "aucune"
     },
     {
@@ -44,23 +70,15 @@
       "num": "D512-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article de renvoi : l'information de la victime sur la libération est portée par L5133-4 du code de procédure pénale (ouvert à toute victime au lot p002, L512-1 abrogé à son profit au lot p095) et par D49-66, deuxième alinéa, du même code, qu'un lot de coordination complète pour que le juge puisse charger le service de l'avis de D1-11-2.",
-      "ligne_rouge": "P18 examiné : l'avis de la libération reste dans L5133-4 et D49-66 du code de procédure pénale, celui de la cessation temporaire dans D1-11-2, le service pouvant en être chargé (D49-66 complété)"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R512-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information de la police et de la gendarmerie de la libération des condamnés à trois ans au moins : décret d'application que L512-2 exige, données limitées, destinataires désignés.",
-      "ligne_rouge": "art. 8 DDHC non en jeu (aucune peine) ; vie privée (art. 2 DDHC) examinée : transmission prévue par la loi, bornée aux peines de trois ans et à cinq données"
+      "motif": "Article de renvoi : l'information de la victime sur la libération est portée par L. 5133-1 du code de procédure pénale et par D. 49-66 du même code, qui permet au juge d'en charger le service (passe 2 confirmée, L. 512-1 abrogé au lot p095).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R512-3",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie le premier alinéa de R50-34 du code de procédure pénale (enregistrement sans délai de la libération et de l'adresse au fichier des auteurs d'infractions terroristes par l'agent habilité du greffe pénitentiaire), sans rien y ajouter : la règle vit à sa source, une seule fois. Les plages des tableaux outre-mer (R756-1, R766-1, R776-1) qui commencent ou finissent sur cet article sont à coordonner au lot de ces articles.",
+      "motif": "Miroir de R. 50-34 du code de procédure pénale (enregistrement de la libération et de l'adresse au fichier des auteurs d'infractions terroristes), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -68,7 +86,7 @@
       "num": "R512-4",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R50-38, quatrième alinéa, R50-41 et R50-42 du code de procédure pénale (information de la personne par le greffe pénitentiaire, avis sans délai au procureur), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir de R. 50-38, R. 50-41 et R. 50-42 du code de procédure pénale (information de la personne inscrite et avis au procureur), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -76,7 +94,7 @@
       "num": "R512-5",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie le second alinéa de R53-8-5 du code de procédure pénale (enregistrement sans délai de la libération et de l'adresse au fichier des auteurs d'infractions sexuelles ou violentes), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir de R. 53-8-5 du code de procédure pénale (enregistrement de la libération au fichier des auteurs d'infractions sexuelles ou violentes), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -84,7 +102,7 @@
       "num": "R512-6",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie R53-8-9, quatrième alinéa, R53-8-12-1 et le premier alinéa de R53-8-5 du code de procédure pénale (information par le greffe pénitentiaire, avis sans délai au procureur), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir de R. 53-8-9, R. 53-8-12-1 et R. 53-8-5 du code de procédure pénale (information de la personne inscrite et avis au procureur), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -92,8 +110,9 @@
       "num": "R513-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie la dernière phrase du II de R161-4-1 du code de la sécurité sociale (le maintien des droits n'est pas suspendu par la mise sous écrou), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir de la dernière phrase du II de R. 161-4-1 du code de la sécurité sociale (le maintien des droits n'est pas suspendu par l'écrou), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
