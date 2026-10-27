@@ -1,0 +1,47 @@
+{
+  "lot": "lot_p100",
+  "titre": "Livre VII, titre III : Saint-Martin",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L731-1",
+      "texte": "Le présent code s'applique à Saint-Martin. La collectivité y tient lieu de département, le représentant de l'État de préfet et de sous-préfet. Un renvoi à une disposition non applicable localement vise la disposition locale de même objet.",
+      "verbe": "R",
+      "principe": "P3",
+      "motif": "Clause d'application et table d'adaptations en un article : substitutions de la collectivité et du représentant de l'État (L. 731-2) et filet des renvois (L. 731-3).",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L731-2",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de L. 731-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L731-1"
+    },
+    {
+      "num": "L731-3",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de L. 731-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L731-1"
+    }
+  ],
+  "phrases": {
+    "L731-1#1": {
+      "destin": "reprise",
+      "vers": "L731-1"
+    },
+    "L731-2#1": {
+      "destin": "reprise",
+      "vers": "L731-1"
+    },
+    "L731-3#1": {
+      "destin": "reprise",
+      "vers": "L731-1"
+    }
+  }
+}
