@@ -10,322 +10,442 @@
     {
       "code": "cpp",
       "num": "L3741-1",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Délai de deux mois pour statuer sur l'appel en matière de contrôle judiciaire ou d'assignation à résidence, mainlevée de plein droit à défaut : le délai engage l'État, au bénéfice de la personne. Les deux réserves (vérifications ordonnées, obstacle insurmontable) sont bornées. La proposition R au titre de l'aménagement est sans objet : aucune peine n'est en cause.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la mesure restrictive est contrôlée par une juridiction du siège dans un délai sanctionné par la mainlevée, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3741-2",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Doublon vérifié mot à mot de L3731-3 : le juge d'instruction qui ne suit pas des réquisitions portant sur une mesure de sûreté rend ordonnance dans les cinq jours (L3422-2), à défaut le procureur saisit directement la chambre dans les dix jours. Le contrôle judiciaire et l'assignation à résidence sont des mesures de sûreté de la troisième partie : aucune règle propre n'est perdue. Renvoi entrant de L3742-12, réécrit dans ce lot. L3731-3 devient seul siège : à garder au lot qui le juge.",
-      "ligne_rouge": "art. 66 C examiné : la saisine directe de la chambre par le procureur reste ouverte par L3731-3"
+      "motif": "Délai de deux mois et mainlevée de plein droit gardés (cité par L6151-36). Le point de départ sur renvoi après cassation est dit à L3713-6 pour tous les délais de la chambre en matière de sûreté.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : délai opposable, mainlevée de plein droit à défaut, réserves bornées : gardés ; point de départ sur renvoi après cassation à L3713-6.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas d'appel, au cours de l'information, d'une ordonnance de placement sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique, ou de refus de mainlevée de l'une de ces mesures, la chambre statue dans le délai de deux mois de l'article L. 3713-6. A défaut, la mainlevée est acquise de plein droit, sauf si des vérifications concernant la demande de la personne ont été ordonnées ou si des circonstances imprévisibles et insurmontables font obstacle au jugement de l'affaire dans ce délai."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3741-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine directe de la chambre par la personne quand le juge d'instruction ne statue pas en cinq jours sur la mainlevée, décision en vingt jours, mainlevée de plein droit à défaut : délai opposable à l'État. Filtre du président pour les demandes manifestement irrecevables : purge rapide. Seul siège de la demande remise au chef de l'établissement pénitentiaire depuis l'abrogation du miroir L315-7 du code pénitentiaire (lot p082) : à garder.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : recours au juge du siège dans un délai sanctionné, tenu. Art. 16 DDHC examiné : l'ordonnance d'irrecevabilité est motivée et versée au dossier"
+      "principe": "P2",
+      "motif": "Saisine directe de la chambre par la personne, filtre, vingt jours, mainlevée de plein droit : gardés. La forme renvoie à L3712-2 (seul siège de la demande remise au chef d'établissement depuis l'abrogation du miroir pénitentiaire, gardée par renvoi). Cité par L6114-14.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : accès direct au juge faute de décision en cinq jours, délai de vingt jours, mainlevée de plein droit à défaut : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le juge d'instruction ne statue pas dans les cinq jours, selon les articles L. 3622-2 et L. 3632-2, sur une demande de mainlevée du contrôle judiciaire ou de l'assignation à résidence avec surveillance électronique, la personne peut saisir directement la chambre de sa demande, dans les formes de l'article L. 3712-2, au greffe de la chambre ou auprès du chef de l'établissement pénitentiaire. Le président peut décider, par ordonnance motivée insusceptible de recours, qu'il n'y a pas lieu de statuer sur une demande manifestement irrecevable. La demande et l'ordonnance sont versées au dossier. Dans les autres cas, la chambre se prononce dans les vingt jours de sa saisine, sur les réquisitions écrites et motivées du procureur général. A défaut, la mainlevée est acquise de plein droit, sauf si des vérifications concernant la demande ont été ordonnées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3741-4",
+      "principe": "P24",
+      "motif": "Appel en vingt-quatre heures devant le président seul, renvoi à la collégialité : gardés (coquille « d'un d'appel » corrigée, passe 2). Le renvoi est une mesure d'administration judiciaire (L. 4).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : voie de recours rapide devant un juge du siège : gardée.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Appel en vingt-quatre heures des ordonnances du juge des libertés sur le contrôle judiciaire d'une personne renvoyée, président seul avec renvoi possible à la collégialité : voie rapide gardée (P24, P7). Coquille du code de 2029 corrigée : « d'un d'appel ».",
-      "ligne_rouge": "art. 66 C examiné : la mesure est contrôlée par un juge du siège, la collégialité reste ouverte à la demande de la personne",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "peuvent faire l'objet d'un d'appel",
-          "nouveau": "peuvent faire l'objet d'un appel"
+          "op": "rediger",
+          "nouveau": "Les ordonnances prises selon les articles L. 3652-3 et L. 3652-4 en matière de contrôle judiciaire ou d'assignation à résidence avec surveillance électronique d'une personne renvoyée devant la juridiction de jugement sont susceptibles d'appel dans les vingt-quatre heures devant le président de la chambre, statuant seul. Si la complexité du dossier le justifie, il peut, d'office, à la demande de la personne ou sur réquisitions du ministère public, renvoyer le jugement à la formation collégiale. Ce renvoi est une mesure d'administration judiciaire."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3741-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Référé-liberté ouvert contre le placement conditionnel sous assignation à résidence assorti d'une incarcération provisoire : la privation de liberté provisoire reçoit le même contrôle immédiat que la détention.",
-      "ligne_rouge": "art. 66 C examiné : l'incarcération provisoire est soumise au contrôle immédiat du président de la chambre, tenu"
     },
     {
       "code": "cpp",
       "num": "L3742-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Saisine d'office de la chambre par son président, à tout moment, sur le maintien en détention : contrôle du juge sur la privation de liberté.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 § 4 examinés : contrôle d'office par une juridiction du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "La chambre qui libère pour détention irrégulière peut prononcer une mesure de sûreté (L3644-4) : la sûreté des tiers n'est pas sacrifiée à l'irrégularité de forme.",
-      "ligne_rouge": "art. 66 C examiné : la libération est acquise, seule une mesure restrictive peut l'accompagner, décidée par la chambre"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-11",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Protection de la victime lors d'une mise en liberté ordonnée par la chambre (L3644-5) : la victime est prise en compte à l'étape qui touche la liberté de l'auteur présumé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-12",
+      "motif": "Saisine d'office par le président, à tout moment : gardée.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : contrôle du juge sur la détention à tout moment : gardé.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "La saisine directe du procureur quand le juge d'instruction ne statue pas sur ses réquisitions de détention est portée par L3731-3 (L3422-2 vise toute mesure de sûreté). Le renvoi doublé « à l'article à l'article L. 3741-2 » visait de plus le contrôle judiciaire (L3741-2, abrogé comme doublon) : il tombe. Reste la règle propre, la saisine directe quand le juge des libertés ne statue pas dans les dix jours.",
-      "ligne_rouge": "art. 66 C examiné : l'article ouvre une voie au ministère public, il ne prive personne de liberté sans juge, la chambre du siège statue",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le procureur de la République peut, dans les dix jours, saisir directement la chambre des investigations et des libertés lorsque le juge des libertés et de la détention, saisi par le juge d'instruction de réquisitions de placement, de prolongation ou de maintien en détention provisoire, ne rend pas d'ordonnance dans le délai de dix jours à compter de sa saisine."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-13",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine directe de la chambre par la personne, ou par le procureur, quand le juge des libertés ne statue pas dans le délai de L3644-10 : le délai engage l'État.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-14",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine directe de la chambre par la personne détenue qui n'a pas comparu depuis six mois devant le juge d'instruction : garde-fou contre la détention oubliée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-15",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Forme des saisines directes, filtre des demandes manifestement irrecevables, décision en trente jours, mise en liberté d'office à défaut : délai opposable. Seul siège de la demande remise au chef de l'établissement pénitentiaire depuis l'abrogation du miroir L315-7 du code pénitentiaire (lot p082) : à garder.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-16",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Référé-liberté contre le placement en détention, formé avec l'appel au plus tard le lendemain : examen immédiat de la privation de liberté.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 § 4 examinés : contrôle immédiat par le président de la chambre, tenu. Art. 8 DDHC examiné : aucune peine fixée, la détention provisoire n'est pas une peine"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-17",
-      "decision": "S",
-      "principe": "P26",
-      "motif": "Observations écrites, audience de cabinet, avocat en dernier, décision au troisième jour ouvrable, dossier transmis par tout moyen : voie rapide et numérique. L'ordonnance non motivée ne fait que filtrer, la chambre reste saisie au fond. Registre 3.1 : l'audience de cabinet de droit sort des exceptions de L. 1, elle devient publique sauf ces exceptions.",
-      "ligne_rouge": "Art. 66 C examiné : le président filtre, la chambre reste saisie au fond, la publicité renforce le contrôle de la détention. Art. 16 DDHC examiné : l'avocat a la parole en dernier.",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "lors d'une audience de cabinet dont est avisé",
-          "nouveau": "lors d'une audience publique, ou de cabinet dans les cas prévus à l'article L. 1, dont est avisé"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-18",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Infirmation par le président et mise en liberté, ou renvoi à la chambre. Seul siège de la notification par le greffe de l'établissement et de la réception du désistement depuis l'abrogation du miroir L311-5 du code pénitentiaire (lot p082) : à garder. La proposition R au titre de l'aménagement est sans objet.",
-      "ligne_rouge": "art. 66 C examiné : la décision sur la liberté appartient au président de la chambre, juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-19",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Suppléance du président empêché : la compétence attribuée personnellement doit avoir un remplaçant nommé pour que le référé soit jugé dans le délai de trois jours.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Mise en état par le procureur général dans les quarante-huit heures en matière de détention : délai court au bénéfice de la personne détenue.",
-      "ligne_rouge": "art. 66 C examiné : le délai réduit sert le contrôle rapide de la détention"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-20",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Examen direct du référé par la chambre, au cinquième jour ouvrable : délai opposable. Il fixe une garantie de liberté et un délai, matière de l'art. 34 : la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-21",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Référé-liberté ouvert contre l'incarcération provisoire décidée d'office : même contrôle immédiat que la détention.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-22",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Référé-détention du procureur contre une mise en liberté contraire à ses réquisitions, appel dans les huit heures : il évite la libération d'une personne dangereuse avant que la chambre ait statué. Personne et avocat avisés et admis à observer.",
-      "ligne_rouge": "art. 8 DDHC examiné : aucune peine en cause. Art. 66 C examiné : la suspension de la mise en liberté est brève et décidée par le premier président, juge du siège"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-23",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Décision au deuxième jour ouvrable, liberté à défaut, transmission par tout moyen : délai opposable et numérique.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-24",
-      "decision": "S",
-      "principe": "P26",
-      "motif": "Ordonnance motivée sans recours, observations orales de l'avocat : le contradictoire est tenu dans la voie rapide. Registre 3.1 : l'audience de cabinet de droit sort des exceptions de L. 1, elle devient publique sauf ces exceptions.",
-      "ligne_rouge": "Art. 16 DDHC examiné : ordonnance motivée, observations orales de l'avocat. Art. 66 C examiné : la publicité renforce le contrôle de la détention.",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "lors d'une audience de cabinet dont le ministère public est avisé",
-          "nouveau": "lors d'une audience publique, ou de cabinet dans les cas prévus à l'article L. 1, dont le ministère public est avisé"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-25",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Suspension seulement si la détention est manifestement nécessaire au regard de deux critères au moins, comparution personnelle de droit, chambre en dix jours, liberté d'office à défaut : la dérogation est bornée et le délai engage l'État.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-26",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Suppléance du premier président empêché : le référé-détention doit être jugé en deux jours ouvrables, la compétence personnelle a besoin d'un remplaçant nommé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-27",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le magistrat du référé-détention ne siège pas à la chambre qui juge l'appel : impartialité objective. La nullité sanctionne une garantie du procès équitable, non une formalité : la proposition de réécrire au titre des nullités est écartée.",
-      "ligne_rouge": "art. 16 DDHC et CEDH art. 6 examinés : impartialité de la juridiction, tenue. Art. 8 DDHC examiné : aucune peine en cause"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-28",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Recours devant le président de la chambre contre les refus de permis de visite, de téléphone, de correspondance et de sorties sous escorte, et contre les autres décisions et avis conformes judiciaires sur la détention provisoire. Ces avis conformes protègent la vie familiale de la personne présumée innocente : la proposition de supprimer un avis préalable est écartée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 8 examinés : les restrictions à la vie familiale du prévenu restent soumises au juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-29",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Délais de cinq jours et d'un mois, délivrance du permis par le président qui infirme, saisine directe après vingt jours sans réponse : gardés (P19). Le renvoi au « 1° de l'article L. 3742-27 » vise l'impartialité du référé-détention : la liste des recours est à L. 3742-28.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "recours prévus au 1° de l'article L. 3742-27",
-          "nouveau": "recours prévus au 1° de l'article L. 3742-28"
+          "nouveau": "A tout moment de l'information, le président de la chambre peut la saisir pour qu'elle statue sur le maintien en détention ou la mise en liberté d'une personne détenue."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3742-3",
+      "principe": "P26",
+      "motif": "Reçoit L3742-2 (mise en état en quarante-huit heures). La publicité en matière de détention suit la règle commune de L3713-7 et les exceptions de L. 1 (passe 2, registre 3.1) : les phrases qui l'organisaient à part tombent. Article gardé à son numéro : borne de la plage citée par L6133-24 et L6232-22.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : mise en état en quarante-huit heures au bénéfice de la personne détenue : gardée ; la publicité ne porte pas la garantie de l'art. 66.",
       "decision": "R",
-      "principe": "P23",
-      "motif": "La publicité en matière de détention suit la règle générale de L3713-7 réécrite (lot p194) : audience publique, chambre du conseil pour le mineur, pour la victime à sa demande, pour la sécurité nationale et pour la personne qui le demande afin de préserver sa présomption d'innocence. Une règle, un siège.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) et vie privée (art. 2 DDHC, CEDH art. 8) examinées : la personne mise en examen obtient la chambre du conseil à sa demande (L3713-7), tenu. CEDH art. 5 § 4 examiné : il n'impose pas la publicité et n'y fait pas obstacle (Reinprecht c. Autriche, 15 novembre 2005, § 41). Minorité examinée : le mineur reste en chambre du conseil, tenu.",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque la chambre des investigations et des libertés statue en matière de détention provisoire, les débats se déroulent et l'arrêt est rendu dans les conditions de publicité prévues à l'article L. 3713-7."
+          "nouveau": "En matière de détention provisoire, le procureur général met l'affaire en état dans les quarante-huit heures de la réception des pièces."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-4",
+      "principe": "P23",
+      "motif": "Comparution de droit, refus motivé si comparution depuis moins de quatre mois, comparution sur appel du ministère public : gardés (cité par L6151-36).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : comparution personnelle de droit à la demande de la personne détenue et sur l'appel du ministère public : gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière de détention provisoire, la comparution personnelle de la personne détenue est de droit si elle ou son avocat la demande, à peine d'irrecevabilité, en même temps que la déclaration d'appel ou la demande de mise en liberté adressée à la chambre. Si la personne a comparu devant la chambre depuis moins de quatre mois, le président peut, sur l'appel d'une ordonnance rejetant une demande de mise en liberté, refuser sa comparution par décision motivée insusceptible de recours.\nSur l'appel du ministère public contre un refus de placement en détention ou une remise en liberté, la personne mise en examen est avisée de la date de l'audience et sa comparution personnelle est de droit."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-5",
+      "principe": "P19",
+      "motif": "Délais de dix et quinze jours, prolongés en cas de comparution, liberté d'office à défaut : gardés (cité par L6133-24, L6151-36, L6232-22). Point de départ sur renvoi après cassation à L3713-6.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : délais opposables, mise en liberté d'office à défaut, réserves bornées : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière de détention provisoire, la chambre se prononce dans les plus brefs délais, et au plus tard dans les dix jours de l'appel d'une ordonnance de placement en détention et dans les quinze jours dans les autres cas. En cas de comparution personnelle, ces délais sont prolongés de cinq jours, ou de dix jours sur renvoi après cassation. A défaut, la personne est mise d'office en liberté, sauf si des vérifications concernant sa demande ont été ordonnées ou si des circonstances imprévisibles et insurmontables font obstacle au jugement de l'affaire dans ces délais."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-6",
+      "principe": "P3",
+      "motif": "La chambre se saisit à l'audience d'une demande pendante : gardé.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sur l'appel d'une ordonnance de refus de mise en liberté, la chambre peut, à l'audience et avant la clôture des débats, se saisir de toute demande de mise en liberté sur laquelle le juge d'instruction ou le juge des libertés et de la détention n'a pas encore statué. Elle statue alors à la fois sur l'appel et sur cette demande."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-7",
+      "principe": "P12",
+      "motif": "Visioconférence de droit, refus borné aux audiences de placement, de prolongation et de réexamen d'une longue détention criminelle : gardés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : droit de refuser la visioconférence aux audiences qui décident de la détention, sauf risque grave ou dangerosité : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les audiences de la chambre relatives à la détention provisoire peuvent se tenir par un moyen de télécommunication audiovisuelle selon les articles L. 1621-1 et suivants. Sauf si son transport doit être évité en raison de risques graves de trouble à l'ordre public ou d'évasion, ou de sa particulière dangerosité, la personne détenue, informée de la date de l'audience et du recours envisagé à ce moyen, peut le refuser :\n1° Lorsqu'il est statué sur le placement en détention provisoire ou sur sa prolongation.\n2° Lorsqu'il est statué sur l'appel d'un refus de mise en liberté ou sur la saisine directe prévue aux articles L. 3742-13 ou L. 3742-14, s'agissant d'une personne détenue en matière criminelle depuis plus de six mois, dont la détention n'a pas été prolongée et qui n'a pas comparu physiquement devant la chambre depuis au moins six mois."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-8",
+      "principe": "P23",
+      "motif": "Retour du dossier au juge d'instruction après exécution de l'arrêt : gardé, liste des décisions ramenée à « statué ».",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : exécution de l'arrêt sur la détention avant retour du dossier : gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la chambre a statué en matière de détention provisoire, sur appel ou sur saisine du procureur de la République, le procureur général assure l'exécution de l'arrêt puis renvoie sans délai le dossier au juge d'instruction."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-9",
+      "principe": "P23",
+      "motif": "Reçoit L3742-10 (mesure de sûreté après détention irrégulière) et L3742-11 (protection de la victime) : les pouvoirs de la chambre qui libère tiennent dans un article.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : mise en liberté pour raison médicale, mesure restrictive seulement si indispensable après détention irrégulière : gardées ; P18 : protection de la victime gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La chambre peut mettre en liberté une personne pour raison médicale selon l'article L. 3644-13. Lorsqu'elle libère une personne dont la détention est irrégulière, elle peut ordonner une mesure de sûreté selon l'article L. 3644-4. Lorsqu'elle ordonne une mise en liberté, l'article L. 3644-5 relatif à la protection de la victime s'applique."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-12",
+      "principe": "P20",
+      "motif": "Passe 2 tenue : la saisine directe du procureur faute d'ordonnance du juge d'instruction est à L3731-3 ; reste la saisine faute de décision du juge des libertés dans les dix jours.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : aucune garantie de la personne n'est en jeu dans la saisine du procureur ; délai de dix jours gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut saisir directement la chambre dans les dix jours lorsque le juge des libertés et de la détention, saisi par le juge d'instruction de réquisitions de placement, de prolongation ou de maintien en détention provisoire, ne statue pas dans les dix jours de sa saisine."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-13",
+      "principe": "P19",
+      "motif": "Saisine directe de la chambre faute de décision du juge des libertés : gardée en une phrase (cité par L6151-35).",
+      "ligne_rouge": "aucune (passe 1) ; P19 : délai de L3644-10 opposable.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le juge des libertés et de la détention ne statue pas sur une demande de mise en liberté dans le délai de l'article L. 3644-10, la personne ou le procureur de la République peut saisir directement la chambre de cette demande."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-14",
+      "principe": "P19",
+      "motif": "Saisine directe par la personne détenue qui n'a pas comparu depuis six mois : gardée.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Tant que l'ordonnance de règlement n'est pas rendue, la personne détenue qui n'a pas comparu depuis six mois devant le juge d'instruction ou le magistrat qu'il délègue peut, elle-même ou par son avocat, saisir directement la chambre d'une demande de mise en liberté."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-15",
+      "principe": "P2",
+      "motif": "Forme, filtre et réquisitions par renvoi à L3741-3 (et par lui à L3712-2, qui porte la demande remise au chef d'établissement) ; délai de trente jours et mise en liberté d'office écrits ici (cité par L6151-35).",
+      "ligne_rouge": "aucune (passe 1) ; P19 : délai de trente jours sanctionné par la mise en liberté d'office.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les demandes des articles L. 3742-13 et L. 3742-14 suivent l'article L. 3741-3 pour leur forme, leur irrecevabilité manifeste et les réquisitions du procureur général. La chambre se prononce toutefois dans les trente jours de la réception de la demande, faute de quoi la personne est mise d'office en liberté, sauf si des vérifications concernant sa demande ont été ordonnées."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-16",
+      "principe": "P23",
+      "motif": "Reçoit L3741-5 (placement conditionnel avec incarcération provisoire) et L3742-21 (incarcération provisoire d'office) : tous les cas ouverts au référé-liberté dans un article. Renvoi mis à jour sur la pièce de passe 3 du lot p191 : le débat contradictoire est à L3642-15 et L3642-16.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : examen immédiat de toute privation de liberté ordonnée au début de la procédure : gardé, sans cas nouveau.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas d'appel d'une ordonnance de placement en détention provisoire formé au plus tard le jour suivant la décision, la personne mise en examen ou le procureur de la République peut former un référé-liberté, en demandant au président de la chambre d'examiner immédiatement l'appel sans attendre l'audience de la chambre. A peine d'irrecevabilité, la demande est formée en même temps que l'appel. Le juge des libertés et de la détention peut constater la déclaration d'appel et la demande à l'issue du débat contradictoire des articles L. 3642-15 et L. 3642-16.\nLe référé-liberté est aussi ouvert contre l'ordonnance d'incarcération provisoire décidée d'office selon l'article L. 3642-19, et contre l'ordonnance de placement conditionnel sous assignation à résidence avec surveillance électronique prévue à l'article L. 3631-13 lorsqu'elle est assortie de l'incarcération provisoire."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-17",
+      "principe": "P26",
+      "motif": "Passe 2 tenue (registre 9.5 : audience publique, de cabinet dans les cas de L. 1). Reçoit L3742-20 (examen direct par la chambre au cinquième jour ouvrable) en troisième alinéa ; le délai de trois jours reste au deuxième alinéa, adapté par L8523-13.",
+      "ligne_rouge": "aucune (passe 1) ; P19 : délais de trois et cinq jours ouvrables opposables.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne mise en examen, son avocat ou le procureur de la République peut joindre des observations écrites à la demande. A sa demande, l'avocat de la personne présente oralement ses observations devant le président, lors d'une audience publique, ou de cabinet dans les cas prévus à l'article L. 1, dont le ministère public est avisé pour y prendre, le cas échéant, ses réquisitions. L'avocat a la parole en dernier.\nLe président statue au plus tard le troisième jour ouvrable suivant la demande, au vu du dossier de la procédure, qui peut lui être adressé par tout moyen, par une ordonnance non motivée insusceptible de recours.\nLa personne qui forme un référé-liberté peut demander qu'il soit examiné directement par la chambre, qui statue au vu du dossier au plus tard le cinquième jour ouvrable suivant la demande."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-18",
+      "principe": "P23",
+      "motif": "Infirmation par le président et mise en liberté, ou renvoi à la chambre ; notification par le greffe de l'établissement et désistement (seul siège depuis l'abrogation du miroir pénitentiaire) : gardés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : mise en liberté par un juge du siège en trois jours au plus : gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le président estime que les conditions des articles L. 3641-6 à L. 3641-8 ne sont pas remplies, il peut infirmer l'ordonnance du juge des libertés et de la détention et ordonner la remise en liberté de la personne, le cas échéant sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique. La chambre est alors dessaisie. Dans le cas contraire, il renvoie l'examen de l'appel à la chambre. Cette décision est portée à la connaissance du procureur général et notifiée à la personne par le greffe de l'établissement pénitentiaire, qui peut recevoir son désistement d'appel."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-22",
+      "principe": "P23",
+      "motif": "Référé-détention : appel dans les huit heures, saisine simultanée, observations, avis à la personne et à son avocat : gardés (borne de la plage citée par L3644-16).",
+      "ligne_rouge": "Art. 8 DDHC (signalé) et art. 66 C examinés : la suspension de la mise en liberté reste une exception décidée par un juge, la personne est avisée et présente ses observations.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans le cas de l'article L. 3644-16, le procureur de la République qui fait appel d'une ordonnance de mise en liberté contraire à ses réquisitions dans les huit heures de sa notification peut, en même temps et à peine d'irrecevabilité, saisir le premier président de la cour d'appel d'un référé-détention pour déclarer cet appel suspensif. Il joint à sa demande ses observations écrites justifiant le maintien en détention. La personne mise en examen et son avocat en sont avisés lors de la notification de l'ordonnance, qui ne peut être mise à exécution. Ils sont aussi avisés de leur droit de présenter des observations écrites au premier président."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-23",
+      "principe": "P23",
+      "motif": "Reçoit L3742-24 : délai de deux jours ouvrables, ordonnance motivée sans recours, observations orales à une audience publique, de cabinet dans les cas de L. 1 (passe 2, registre 9.5).",
+      "ligne_rouge": "aucune (passe 1) ; P19 : délai de deux jours ouvrables sanctionné par la remise en liberté.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le premier président statue au plus tard le deuxième jour ouvrable suivant la demande, au vu du dossier, qui peut lui être transmis par tout moyen, par une ordonnance motivée insusceptible de recours. Jusque-là, les effets de l'ordonnance de mise en liberté sont suspendus et la personne reste détenue. A défaut de décision dans ce délai, elle est remise en liberté si elle n'est pas détenue pour autre cause.\nA sa demande, l'avocat de la personne présente des observations orales devant le premier président, lors d'une audience publique, ou de cabinet dans les cas prévus à l'article L. 1, dont le ministère public est avisé pour y prendre, le cas échéant, ses réquisitions."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-25",
+      "principe": "P19",
+      "motif": "Suspension bornée à deux critères au moins, comparution de droit, dix jours, liberté d'office à défaut : gardés.",
+      "ligne_rouge": "aucune (passe 1) ; art. 66 C : la suspension est bornée et sanctionnée par la mise en liberté d'office.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le premier président estime le maintien en détention manifestement nécessaire au regard d'au moins deux des critères des articles L. 3641-6 à L. 3641-8 jusqu'à ce que la chambre statue sur l'appel, il suspend les effets de l'ordonnance de mise en liberté jusqu'à cette date. La personne ne peut être libérée avant l'audience de la chambre, devant laquelle sa comparution personnelle est de droit. La chambre se prononce dans les plus brefs délais et au plus tard dans les dix jours de l'appel, faute de quoi la personne est mise d'office en liberté si elle n'est pas détenue pour autre cause.\nDans le cas contraire, le premier président ordonne la mise en liberté de la personne si elle n'est pas détenue pour autre cause."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-26",
+      "principe": "P23",
+      "motif": "Reçoit L3742-19 : la suppléance du président de la chambre et celle du premier président tiennent dans une phrase.",
+      "ligne_rouge": "aucune (passe 1) ; P19 : les délais de trois et deux jours ouvrables tiennent même en cas d'empêchement.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas d'empêchement du président de la chambre ou du premier président de la cour d'appel, le référé-liberté ou le référé-détention est porté devant le magistrat qui le remplace."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-27",
+      "principe": "P25",
+      "motif": "Impartialité : le magistrat du référé-détention ne siège pas sur l'appel, à peine de nullité. Gardé (borne de la plage citée par L3644-16).",
+      "ligne_rouge": "Art. 16 DDHC et art. 8 DDHC (signalés) examinés : impartialité objective sanctionnée par la nullité : gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "A peine de nullité, le magistrat qui a statué sur le référé-détention ne siège pas dans la chambre qui statue sur l'appel du ministère public."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-28",
+      "principe": "P23",
+      "motif": "Reçoit L3742-29 (délais de cinq jours et d'un mois, permis délivré par le président, saisine après vingt jours de silence) ; renvoi interne corrigé (passe 2). Liste gardée.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : recours devant un juge du siège sur les visites, le téléphone, la correspondance et les sorties, avec délais opposables : gardés ; art. 8 CEDH : vie familiale du présumé innocent protégée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue ou le ministère public peut contester devant le président de la chambre les décisions prises selon les articles L. 3645-11 à L. 3645-14 qui :\n1° Refusent un permis de visite ou l'usage du téléphone.\n2° Interdisent de correspondre par écrit ou retiennent le courrier écrit par la personne détenue ou qui lui est adressé.\n3° Accordent ou refusent une sortie sous escorte.\nPeuvent aussi être contestés les autres décisions ou avis conformes de l'autorité judiciaire, prévus par la partie réglementaire du présent code ou par le code pénitentiaire, relatifs aux modalités d'exécution de la détention provisoire ou à l'exercice de ses droits par la personne détenue.\nLe président statue dans les cinq jours sur les recours du 1° et dans le mois sur ceux du 2°, par décision écrite et motivée insusceptible de recours. S'il infirme une décision du 1°, il délivre le permis de visite ou l'autorisation de téléphoner. Faute de réponse dans les vingt jours à une demande de permis de visite ou de téléphoner, la personne peut aussi le saisir."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3742-30",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Appel sur les requêtes pour conditions de détention indignes, délais d'un mois et de quinze jours, saisine directe à défaut de décision : garde-fou tenu.",
-      "ligne_rouge": "CEDH art. 3 et art. 66 C examinés : conditions indignes soumises au juge dans un délai sanctionné, tenu"
+      "principe": "P23",
+      "motif": "Appel sur les conditions de détention indignes, délais d'un mois et de quinze jours, saisine directe à défaut de décision : gardés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : et CEDH art. 3 : recours effectif contre des conditions indignes, délais opposables : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les décisions du juge des libertés et de la détention sur la recevabilité et le bien-fondé d'une requête tendant à mettre fin à des conditions de détention provisoire indignes, prévue aux articles L. 3646-1 à L. 3646-5, sont susceptibles d'appel du ministère public ou de la personne détenue devant le président de la chambre, qui examine l'affaire dans le mois. L'appel du ministère public formé dans les vingt-quatre heures est suspensif. L'affaire est alors examinée dans les quinze jours, faute de quoi l'appel est non avenu. Si le juge des libertés et de la détention ne statue pas dans les délais des articles L. 3646-3 et L. 3646-4, la personne détenue peut saisir directement le président de la chambre."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L3742-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Comparution personnelle de droit à la demande de la personne détenue, et de droit sur l'appel du ministère public. Refus motivé possible si elle a comparu depuis moins de quatre mois : borne raisonnable.",
-      "ligne_rouge": "art. 16 DDHC et CEDH art. 5 § 4 examinés : la personne détenue est entendue par le juge qui contrôle sa détention, tenu. Art. 8 DDHC : aucune peine en cause"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Délais de dix et quinze jours pour statuer sur la détention, prolongés de cinq ou dix jours en cas de comparution, mise en liberté d'office à défaut : le délai engage l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 § 4 examinés : contrôle à bref délai, sanctionné par la liberté, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-6",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La chambre se saisit à l'audience d'une demande de mise en liberté pendante : une seule décision au lieu de deux.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-7",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "La visioconférence est la règle aux audiences de détention devant la chambre. Le refus de la personne détenue est borné aux audiences de placement, de prolongation, et au réexamen d'une détention criminelle de plus de six mois sans comparution physique, sauf risque grave de trouble, d'évasion ou dangerosité : numérique par défaut, exception tenue au plus près.",
-      "ligne_rouge": "art. 66 C et art. 16 DDHC examinés : la jurisprudence constitutionnelle exige que la personne puisse refuser la visioconférence lorsque sa détention est décidée ou prolongée sans qu'elle ait été présentée physiquement au juge depuis un temps prolongé, les cas de refus gardés y répondent"
-    },
-    {
-      "code": "cpp",
-      "num": "L3742-8",
-      "decision": "G",
+      "num": "L3741-2",
+      "decision": "A",
       "principe": "P20",
-      "motif": "Retour du dossier au juge d'instruction après exécution de l'arrêt de la chambre : une phrase, nécessaire à la continuité de l'information.",
-      "ligne_rouge": "art. 66 C examiné : l'article suit l'exécution de l'arrêt de détention, il n'y ajoute aucune restriction"
+      "motif": "Passe 2 tenue : doublon de L3731-3, qui porte seul la saisine directe du procureur faute d'ordonnance dans les cinq jours de L3422-2, pour toute mesure de sûreté.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la saisine du procureur ne porte pas de garantie de la personne ; la règle survit à L3731-3."
     },
     {
       "code": "cpp",
-      "num": "L3742-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "La chambre peut mettre en liberté pour raison médicale, comme le juge des libertés (L3644-13).",
-      "ligne_rouge": "CEDH art. 3 examiné : détention incompatible avec l'état de santé, garde-fou tenu"
+      "num": "L3741-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Référé-liberté contre le placement conditionnel avec incarcération provisoire : second alinéa de L3742-16.",
+      "ligne_rouge": "Art. 66 C examiné : contrôle immédiat de l'incarcération provisoire repris à L3742-16.",
+      "vers": "L3742-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mise en état en quarante-huit heures : L3742-3.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : délai court au bénéfice de la personne détenue repris à L3742-3.",
+      "vers": "L3742-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mesure de sûreté après détention irrégulière : L3742-9.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : mesure restrictive seulement si indispensable (L3644-4), reprise à L3742-9.",
+      "vers": "L3742-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-11",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Protection de la victime à la mise en liberté : L3742-9.",
+      "ligne_rouge": "aucune",
+      "vers": "L3742-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-19",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Suppléance du président de la chambre : L3742-26.",
+      "ligne_rouge": "aucune",
+      "vers": "L3742-26"
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-20",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Examen direct du référé-liberté par la chambre : troisième alinéa de L3742-17.",
+      "ligne_rouge": "aucune",
+      "vers": "L3742-17"
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-21",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Référé-liberté contre l'incarcération provisoire d'office : second alinéa de L3742-16.",
+      "ligne_rouge": "aucune",
+      "vers": "L3742-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Ordonnance motivée et observations orales sur le référé-détention : L3742-23.",
+      "ligne_rouge": "aucune",
+      "vers": "L3742-23"
+    },
+    {
+      "code": "cpp",
+      "num": "L3742-29",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délais et suites des recours sur l'exécution de la détention : dernier alinéa de L3742-28.",
+      "ligne_rouge": "aucune",
+      "vers": "L3742-28"
     }
-  ]
+  ],
+  "passe": 3
 }
