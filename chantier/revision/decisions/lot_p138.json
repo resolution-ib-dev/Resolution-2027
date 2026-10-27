@@ -9,720 +9,67 @@
   "decisions": [
     {
       "code": "penitentiaire",
-      "num": "D772-5",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles D. 112-1 à D. 136-6 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coquilles de plage corrigées : « D. 134-1 à D. 131-5 » (plage inversée, D. 134-6 suit) et « D. 112-29 à D. 112-63 » (D. 112-63 n'existe pas, la plage court jusqu'à D. 113-63, D. 113-64 suit). Coordination des tableaux : D. 112-21-1 retiré (lot_p123).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "D. 134-1 à D. 131-5",
-          "nouveau": "D. 134-1 à D. 134-5"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "D. 112-29 à D. 112-63",
-          "nouveau": "D. 112-29 à D. 113-63"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 112-21-1\nDécret n° 2022-1710 du 29 décembre 2022",
-          "nouveau": ""
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-6",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Soins somatiques assurés par une équipe hospitalière de l'établissement de santé voisin : règle propre au territoire.",
-      "ligne_rouge": "CEDH art. 3 examiné : l'accès aux soins des personnes détenues est garanti"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-7",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Convention d'intervention de l'établissement de santé : règle propre gardée. L'avis préalable du conseil de surveillance de l'établissement de santé ne protège aucune liberté : il tombe (P15), l'établissement reste signataire par son directeur et les règles locales de gouvernance hospitalière s'appliquent d'elles-mêmes.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", après avis du conseil de surveillance.",
-          "nouveau": "."
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-8",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Locaux de soins et cellules d'hébergement momentané à proximité : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-9",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Prise en charge psychiatrique par une équipe hospitalière et convention : règle propre gardée. L'avis préalable du conseil de surveillance de l'établissement de santé ne protège aucune liberté : il tombe (P15), l'établissement reste signataire par son directeur et les règles locales de gouvernance hospitalière s'appliquent d'elles-mêmes.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", après avis du conseil de surveillance.",
-          "nouveau": "."
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-10",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Intervention médicale hors des heures de présence selon la convention locale : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-11",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Rapport d'activité adressé aux signataires des conventions et au conseil d'évaluation, à la place des instances du code de la santé publique : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-12",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Habilitation des soignants par le haut-commissaire : autorité propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-13",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Registre 5.1 : D115-15 ne prévoit plus l'avis du préfet (lot p123). L'adaptation qui le retirait en Nouvelle-Calédonie n'a plus d'objet : la règle commune s'y applique telle quelle.",
-      "ligne_rouge": "aucune garantie touchée : l'habilitation, sa durée et la condition tirée du bulletin n° 2 restent régies par D115-15"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-14",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Les conventions locales remplacent le protocole du code de la santé publique : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-15",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Structures locales d'addictologie à la place des centres du code de la santé publique : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-16",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Suivi médical et prévention selon la réglementation locale : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-17",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Adaptation de D115-26, abrogé au lot p123 : sans objet. La réglementation locale régit l'exercice infirmier par elle-même.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D772-18",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Composition du conseil d'évaluation avec les institutions de la Nouvelle-Calédonie (haut-commissaire, gouvernement, congrès, cour d'appel de Nouméa) : règle propre au statut. Renvoi à D. 136-2 à coordonner avec le lot du livre Ier.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D773-10",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles D. 211-2 à D. 234-11 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination des tableaux : D. 211-3 retiré (lot_p110), D. 211-5 retiré (lot_p110), début glissé à D. 211-9, plage D. 214-20 à D. 214-23-1 entièrement retirée (lot_p110).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 211-2 et D. 211-3\n",
-          "nouveau": "\nD. 211-2\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 211-5 à D. 212-4\n",
-          "nouveau": "\nD. 211-9 à D. 212-4\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 214-20 à D. 214-23-1\nDécret n° 2022-1261 du 28 septembre 2022",
-          "nouveau": ""
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D773-11",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. La commission pluridisciplinaire entend un membre des équipes hospitalières locales, faute d'unité sanitaire et de service médico-psychologique régional : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D773-12",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Information mensuelle sur les effectifs adressée au haut-commissaire, à la cour d'appel de Nouméa et au tribunal de première instance : destinataires propres au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D773-13",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Le dossier individuel tenu au greffe (D. 214-6) suit la personne d'établissement en établissement, et l'adaptation y rend obligatoire la mention de l'inscription électorale et des modalités de vote. R. 240-2 n'ouvre qu'une faculté d'enregistrement dans GENESIS. Ce n'est pas un doublon. Règle propre gardée.",
-      "ligne_rouge": "droit de vote des personnes détenues (art. 3 C) examiné : la trace de l'inscription suit la personne détenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D773-14",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Retire la référence à la protection maternelle et infantile, compétence de la collectivité organisée autrement : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D774-14",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles D. 311-6 à D. 381-2 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coquille de plage « D. 3333-3 » corrigée en D. 333-3. Coordination des tableaux : D. 311-6 retiré (lot_p114), début glissé à D. 313-9, D. 363-1 retiré (lot_p116), fin glissée à D. 352-6.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "D. 332-9 à D. 3333-3",
-          "nouveau": "D. 332-9 à D. 333-3"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 311-6 à D. 332-8\n",
-          "nouveau": "\nD. 313-9 à D. 332-8\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 346-1 à D. 363-1\n",
-          "nouveau": "\nD. 346-1 à D. 352-6\n"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D774-15",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Gratuité des soins et prise en charge des frais rédigées pour le régime local de protection sociale et d'accidents du travail : règle propre au territoire.",
-      "ligne_rouge": "CEDH art. 3 examiné : la gratuité des soins nécessaires est garantie. Art. 8 DDHC (signal de passe 1) examiné : l'article ne touche pas la peine, il règle les frais de soins"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D774-16",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Le décret de 1959 sur la conversion des rentes d'accident du travail ne s'applique pas localement : toute rente convertie entre au pécule de libération. Règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D774-17",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Les prix réglementés localement remplacent l'exception du tabac pour la cantine : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D774-18",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Correspondance sous pli fermé avec les autorités de la Nouvelle-Calédonie : autorités propres au statut.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la protection du courrier s'étend aux autorités locales"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D774-19",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Registre 5.2, comme D352-1 : l'avis du représentant de l'État en Nouvelle-Calédonie, le haut-commissaire de la République, devient une information. Le directeur des services pénitentiaires d'outre-mer (R. 112-8) est nommé d'un seul mot, comme au dernier alinéa. Agrément des aumôniers : règle propre gardée.",
-      "ligne_rouge": "art. 10 DDHC examiné : l'agrément reste délivré sur proposition de l'aumônier national du culte",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "le directeur interrégional, chef de la mission des services pénitentiaires de l'outre-mer, après avis du préfet du département dans lequel se situe l'établissement visité",
-          "nouveau": "le directeur des services pénitentiaires d'outre-mer"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "sur proposition de l'aumônier national du culte concerné.\n",
-          "nouveau": "sur proposition de l'aumônier national du culte concerné. Le haut-commissaire de la République est informé de la demande d'agrément.\n"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D774-20",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Condition propre au territoire : la règle du diplôme de formation civile et civique ne s'applique aux aumôniers que si un diplôme de la liste peut y être obtenu, même à distance. Aucune pièce n'établit que cette condition est remplie partout. L'abroger soumettrait l'indemnité des aumôniers à un diplôme peut-être inaccessible. Règle gardée.",
-      "ligne_rouge": "liberté de culte (art. 10 DDHC, CEDH art. 9) examinée : l'indemnité des aumôniers, qui sert l'exercice du culte en détention, ne dépend pas d'un diplôme inaccessible localement"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D775-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles D. 412-6 à D. 424-30 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination demandée par le lot 5 (abrogation de D422-5 à D422-9) : la plage « D. 422-5 à D. 424-1 » devient « D. 423-1 à D. 424-1 ». Coordination des tableaux : D. 412-69 retiré (lot_p120), début glissé à D. 412-70, D. 413-10 retiré (lot_p120), fin glissée à D. 413-9, D. 422-4 retiré (lot_p119), fin glissée à D. 421-3, plage D. 422-4-1 à D. 422-4-3 entièrement retirée (lot_p119), D. 423-1 retiré (lot_p119), début glissé à D. 424-1, D. 424-9 retiré (lot_p119), fin glissée à D. 424-8, D. 424-14 retiré (lot_p119), fin glissée à D. 424-13, plage D. 424-22 à D. 424-30 entièrement retirée (lot_p119). Coquilles de plage corrigées en passant : borne D. 412-77 inexistante au code de 2029, fin portée à D. 412-74.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "D. 422-5 à D. 424-1",
-          "nouveau": "D. 423-1 à D. 424-1"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 412-69 à D. 412-72\n",
-          "nouveau": "\nD. 412-70 à D. 412-72\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 412-74 à D. 412-77\n",
-          "nouveau": "\nD. 412-74\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 413-9 à D. 413-10\n",
-          "nouveau": "\nD. 413-9\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 414-2 à D. 422-4\n",
-          "nouveau": "\nD. 414-2 à D. 421-3\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 422-4-1 à D. 422-4-3\nDécret n° 2022-1261 du 28 septembre 2022",
-          "nouveau": ""
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 423-1 à D. 424-1\n",
-          "nouveau": "\nD. 424-1\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 424-3 à D. 424-9\n",
-          "nouveau": "\nD. 424-3 à D. 424-8\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 424-10 à D. 424-14\n",
-          "nouveau": "\nD. 424-10 à D. 424-13\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 424-22 à D. 424-30",
-          "nouveau": ""
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D775-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Versement des rémunérations sans le renvoi au code de la sécurité sociale, inapplicable localement : règle propre au territoire. L'en-tête cité porte « Art. D. 412-15 » pour l'article D. 412-67 qu'il rédige : coquille corrigée.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Art. D. 412-15.-",
-          "nouveau": "Art. D. 412-67.-"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D775-4",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Services d'enseignement localement compétents, l'éducation relevant de la collectivité : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D775-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Enseignants affectés selon la réglementation locale et agréés par le directeur des services pénitentiaires d'outre-mer : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D775-6",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Services locaux de la jeunesse et des sports : compétence de la collectivité, règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D775-7",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Le haut-commissaire remplace le garde des sceaux à D. 414-10 : déconcentration propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D775-9",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Le droit du travail est de la compétence de la Nouvelle-Calédonie : textes locaux, inspection du travail organisée par la loi organique et chef du service local. Règle propre au statut.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D776-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles D. 511-1 à D. 544-6 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination des tableaux : D. 511-1 retiré (lot_p127), début glissé à D. 511-3, D. 522-2 retiré (lot_p124), fin glissée à D. 521-1, D. 544-6 retiré (lot_p126), fin glissée à D. 542-1.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 511-1 à D. 522-2\n",
-          "nouveau": "\nD. 511-3 à D. 521-1\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 522-4 à D. 544-6",
-          "nouveau": "\nD. 522-4 à D. 542-1"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D777-7",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles D. 611-1 à D. 633-2 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination des tableaux : D. 611-1 retiré (lot_p131), début glissé à D. 621-10, D. 622-5 retiré (lot_p128), fin glissée à D. 621-12, D. 632-1 retiré (lot_p129), fin glissée à D. 622-21, D. 633-2 retiré (lot_p129), fin glissée à D. 632-4.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 611-1 à D. 622-5\n",
-          "nouveau": "\nD. 621-10 à D. 621-12\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 622-10 à D. 632-1\n",
-          "nouveau": "\nD. 622-10 à D. 622-21\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nD. 632-3 à D. 633-2",
-          "nouveau": "\nD. 632-3 à D. 632-4"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D777-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Travaux d'intérêt général auprès du sénat coutumier, des conseils coutumiers et des tribus, en application de 712-1 A du code pénal (gardé au lot p062) : règle propre au statut coutumier. La tribu est habilitée « selon la procédure prévue à l'article R. 777-3 », adaptation de la seule communication de la décision, abrogée par ce lot : le renvoi passe à R. 623-3, qui règle l'habilitation.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "l'article R. 777-3",
-          "nouveau": "l'article R. 623-3"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
       "num": "R771-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Clause qui subordonne l'application du règlement aux tableaux du titre : technique imposée par le statut.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Clause d'application et table des substitutions générales en un article, comme L. 771-1 (lot p105). La spécialité législative impose une mention expresse : les douze tableaux d'application par livre, en R et en D, deviennent une règle générale et la liste des seuls articles qu'ils n'appliquaient pas (unités hospitalières sécurisées et spécialement aménagées, R. 115-1, R. 215-30, R. 322-15 à R. 322-28, et établissements d'accompagnement par le travail, R. 412-80 à R. 412-89, D. 412-86), relevée sur les tableaux de la passe 2 confrontés aux articles vivants de la cible. Les versions datées tombent : la version applicable est celle du décret de réécriture (registre 7.4). La grille de substitution, le filet des renvois et la conversion monétaire deviennent les lignes de la table. Deux règles que les tableaux n'appliquaient pas entrent par fusion dans des articles appliqués : R. 412-79 (mentions du contrat d'implantation, renvoyées à l'arrêté de R. 412-78) et R. 412-94 (exception de remboursement des établissements d'accompagnement par le travail, dans R. 412-27, sans effet faute de tels établissements). Extension déclarée.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve des dispositions applicables de plein droit, les dispositions réglementaires du présent code s'appliquent en Nouvelle-Calédonie dans leur rédaction résultant du décret n° [...] du [...], à l'exception des articles R. 115-1, R. 215-30, R. 322-15 à R. 322-28, R. 412-80 à R. 412-89 et D. 412-86, avec les adaptations suivantes et celles des articles R. 771-2 et D. 772-5 :\n1° La collectivité tient lieu de département et de région, le représentant de l'État de préfet et de sous-préfet.\n2° Le tribunal de première instance ou sa section détachée tient lieu de tribunal judiciaire, le chef du greffe de greffier.\n3° L'Institut d'émission d'outre-mer tient lieu de Banque de France, l'agent chargé du recouvrement des amendes de comptable de la direction générale des finances publiques et de régisseur des recettes.\n4° Le salaire minimum horaire garanti tient lieu de salaire minimum interprofessionnel de croissance, le tribunal du travail de conseil de prud'hommes. Les renvois au code du travail visent le code du travail applicable localement.\n5° Le directeur des services pénitentiaires d'outre-mer tient lieu de directeur interrégional des services pénitentiaires.\n6° L'organisme de protection sociale tient lieu de sécurité sociale. Les services localement compétents tiennent lieu de l'opérateur France Travail, de l'association pour l'emploi dans l'industrie et le commerce, des services sociaux, éducatifs et médico-sociaux, des services de l'inspection du travail et de l'inspecteur du travail. La structure d'insertion par le travail tient lieu de structure d'insertion par l'activité économique, la structure d'emploi adapté d'entreprise adaptée.\n7° Les autorités localement compétentes en matière de santé tiennent lieu de services des agences régionales de santé.\n8° Les sommes prévues par le présent code sont converties en monnaie locale selon la contre-valeur de l'euro.\n9° Un renvoi à une disposition non applicable localement vise la disposition locale de même objet."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R771-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Grille de substitution des références : règle propre au territoire. Le 15° porte « les mots : » à la place de « par » : coquille corrigée.",
-      "ligne_rouge": "aucune",
+      "principe": "P3",
+      "motif": "Table des adaptations propres à un article, réécrite sur le texte cible de chaque article adapté (passe 3 des lots p107 à p123 quand elle existe). Une ligne par adaptation, au lieu d'un article qui récrivait l'article entier. Les adaptations que la cible a rendues sans objet, ou que la grille générale porte déjà, tombent. Articles R.",
+      "ligne_rouge": "art. 8 DDHC relevé sur l'adaptation de R. 512-2 : l'information des forces de sécurité à la libération d'un condamné à trois ans ou plus est une mesure administrative sans effet sur la peine prononcée. Seuls ses destinataires locaux sont écrits à la table, la règle de R. 512-2 s'applique telle quelle.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "” les mots : “ structure d'insertion par le travail",
-          "nouveau": "” par “ structure d'insertion par le travail"
+          "op": "rediger",
+          "nouveau": "Pour l'application du présent code en Nouvelle-Calédonie :\n1° Les attributions que les articles R. 115-21, R. 213-19, R. 213-21, R. 213-27, R. 234-31 et R. 235-10 confient aux médecins sont exercées par les médecins des établissements de santé de la collectivité chargés de la médecine dans les établissements pénitentiaires, selon la convention prévue au 7° de l'article L. 771-1, ou, à défaut de convention, par les médecins qui interviennent dans ces établissements.\n2° Aux articles R. 213-21, R. 234-15, R. 234-17, R. 234-26, R. 235-10, R. 313-1 et R. 313-12, les règles applicables à l'avocat valent pour la personne agréée qui assiste une personne détenue en application de l'article 23-4 de l'ordonnance n° 92-1147 du 12 octobre 1992.\n3° À l'article R. 234-6, le premier assesseur est choisi parmi les personnels chargés de la surveillance de l'établissement où siège la commission de discipline.\n4° Aux articles R. 234-12 et R. 234-13, le rapport est établi par un agent chargé de la surveillance. Les auteurs du compte rendu et du rapport ne siègent pas à la commission de discipline, dans la mesure du possible.\n5° À l'article R. 312-1, les points d'accès au droit sont mis en place par une convention entre le représentant de l'État et les institutions compétentes de la Nouvelle-Calédonie.\n6° À l'article R. 341-1, le représentant de l'État délivre, refuse, suspend ou retire le permis de visite de la personne condamnée hospitalisée dans un établissement de santé de la collectivité.\n7° À l'article R. 370-1, les bibliothèques localement compétentes tiennent lieu de bibliothèques territoriales.\n8° À l'article R. 512-2, les informations sont transmises au directeur de la sécurité publique, au directeur territorial de la police nationale ou au commandant territorial de la gendarmerie outre-mer dont relève l'adresse déclarée.\n9° Aux articles R. 623-2, R. 623-6 et R. 623-7, seules les associations et les personnes morales de droit privé chargées d'une mission de service public peuvent être habilitées. Le Journal officiel de la collectivité vaut Journal officiel pour la publication de la déclaration d'une association."
         }
       ]
     },
     {
       "code": "penitentiaire",
-      "num": "R771-3",
-      "decision": "G",
+      "num": "D772-5",
       "principe": "P3",
-      "motif": "Clause générale de substitution des références inapplicables : filet de la spécialité législative, comme 721-2 du code pénal (lot p061).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R771-4",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Conversion des sommes en monnaie locale (franc CFP) : règle propre au territoire, comme 711-3 du code pénal (lot p062).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R772-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles R. 112-2 à R. 136-1 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination des tableaux : R. 112-2 retiré (lot_p123), début glissé à R. 112-4, R. 113-9-4 retiré (lot_p123), fin glissée à R. 113-9-3, plage R 113-12 à R. 113-14 entièrement retirée (lot_p123), R. 113-14-1 retiré (lot_p123), R. 113-15 retiré (lot_p123), début glissé à R. 113-22-1.",
-      "ligne_rouge": "aucune",
+      "motif": "Table des adaptations propres à un article, réécrite sur le texte cible de chaque article adapté (passe 3 des lots p107 à p123 quand elle existe). Une ligne par adaptation, au lieu d'un article qui récrivait l'article entier. Les adaptations que la cible a rendues sans objet, ou que la grille générale porte déjà, tombent. Articles D, au rang du décret simple, sous le numéro de l'ancien tableau du livre Ier. La règle de gratuité des soins, propre au territoire où la sécurité sociale relève de la collectivité, reste entière.",
+      "ligne_rouge": "art. 8 DDHC relevé en passe 1 : l'article ne touche ni la nécessité ni l'individualisation de la peine. La garantie en jeu est l'accès aux soins de la personne détenue (CEDH art. 3) : la gratuité des soins reste écrite entière à la ligne 7° de D. 772-5.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "\nR. 112-2 à R. 112-4\n",
-          "nouveau": "\nR. 112-4\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 113-9-1 à R. 113-9-4\n",
-          "nouveau": "\nR. 113-9-1 à R. 113-9-3\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nR 113-12 à R. 113-14",
-          "nouveau": ""
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 113-14-1\nDécret n° 2024-1073 du 28 novembre 2024",
-          "nouveau": ""
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 113-15 à R. 113-57\n",
-          "nouveau": "\nR. 113-22-1 à R. 113-57\n"
+          "op": "rediger",
+          "nouveau": "Pour l'application du présent code en Nouvelle-Calédonie :\n1° Pour l'application des articles D. 115-3 à D. 115-23, deux équipes hospitalières rattachées à un établissement de santé situé à proximité de l'établissement pénitentiaire assurent les soins, l'une les soins somatiques, sous l'autorité médicale d'un praticien hospitalier, l'autre les soins psychiatriques, sous celle d'un psychiatre praticien hospitalier. Elles tiennent lieu d'unité sanitaire et de secteur de psychiatrie en milieu pénitentiaire. Une convention signée par le représentant de l'État, le directeur des services pénitentiaires d'outre-mer, le chef de l'établissement pénitentiaire et le directeur de l'établissement de santé tient lieu de protocole. Elle fixe les modalités d'intervention des équipes et leur coordination. L'administration pénitentiaire met à leur disposition des locaux adaptés et en assure la maintenance. De l'article D. 115-3, seule la première phrase s'applique.\n2° À l'article D. 115-10, le rapport d'activité est transmis aux signataires de la convention, au conseil d'évaluation et aux instances délibératives et consultatives de l'établissement de santé.\n3° À l'article D. 115-14, le représentant de l'État habilite les praticiens et les autres personnels des équipes hospitalières.\n4° À l'article D. 211-4, le chef de l'établissement informe aussi chaque mois des effectifs le représentant de l'État, le premier président et le procureur général près la cour d'appel.\n5° À l'article D. 214-6, le dossier individuel contient aussi les informations relatives à l'inscription de la personne détenue sur les listes électorales et à l'exercice de son droit de vote.\n6° À l'article D. 216-23, le médecin pédiatre de la commission est choisi sans condition d'appartenance à un service de protection maternelle et infantile.\n7° L'article D. 324-2 est remplacé par les règles suivantes. Les personnes détenues reçoivent gratuitement les soins que requiert leur état de santé, les produits et spécialités pharmaceutiques autorisés, les examens et traitements de spécialistes et les prothèses. La personne qui bénéficie d'une mesure d'aménagement de peine ou d'exécution de fin de peine garde cette gratuité jusqu'à ce qu'elle remplisse les conditions d'ouverture du droit aux prestations de l'assurance maladie. La part qui reste à la charge de la personne détenue, après le remboursement par l'assurance maladie et le versement par l'administration pénitentiaire de la part des dépenses relative à la dotation annuelle de financement, est prélevée sur son compte nominatif. L'administration pénitentiaire peut se substituer à la personne dont les ressources sont insuffisantes. Les soins, appareillages, prothèses, traitements et interventions dont la nécessité médicale n'est pas reconnue sont à la charge de la personne, après autorisation du chef de l'établissement, sous réserve des prestations dues au titre de la réglementation locale des accidents du travail et des maladies professionnelles. Les frais de séjour des personnes détenues hospitalisées sont à la charge du ministère de la justice. Les frais de transfèrement et de séjour des personnes détenues militaires dirigées vers un hôpital militaire sont à la charge du ministère de la défense.\n8° À l'article D. 332-14, le capital représentatif de toute rente d'accident du travail convertie est versé en entier au pécule de libération.\n9° À l'article D. 345-10, la personne détenue correspond aussi sous pli fermé avec le président et les membres du congrès de la Nouvelle-Calédonie, le président et les membres du gouvernement de la Nouvelle-Calédonie, les membres du sénat coutumier et les présidents et membres des assemblées de province.\n10° À l'article D. 352-1, la condition de diplôme vaut pour les aumôniers dès lors que l'un des diplômes de la liste peut être obtenu en Nouvelle-Calédonie, y compris à distance.\n11° À l'article D. 412-72, l'intervention de l'inspection du travail suit l'article 202 de la loi organique n° 99-209 du 19 mars 1999 relative à la Nouvelle-Calédonie. L'agent de contrôle en réfère au chef du service de l'inspection du travail en Nouvelle-Calédonie.\n12° À l'article D. 413-5, les enseignants sont affectés selon la réglementation locale.\n13° À l'article D. 414-8, les services localement compétents tiennent lieu des services de l'État chargés de l'éducation nationale, de la jeunesse et des sports.\n14° À l'article D. 414-10, l'agrément des associations est délivré par le représentant de l'État."
         }
       ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R772-2",
-      "decision": "A",
-      "principe": "P13",
-      "motif": "Fait exercer par le président du tribunal de première instance les fonctions du juge et du tribunal de l'application des peines à l'article 112-23. Le code de procédure pénale ne prévoit cette substitution qu'à Wallis-et-Futuna (L8522-12) : le tribunal de première instance de Nouméa a ses juges de l'application des peines, que nomment D772-18 et D773-12. L'adaptation, recopiée du titre de Wallis-et-Futuna, retire l'acte au juge compétent. Elle s'abroge, R. 112-23 s'applique tel quel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R772-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Les médecins des établissements de santé locaux, liés par la convention de L7{c}4-2, exercent les attributions de R. 115-21 et R. 115-22 : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R772-4",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Serment devant le président du tribunal de première instance : le 4° de R771-2, qui vaut pour tout le code, substitue déjà ce tribunal au tribunal judiciaire, et R. 122-8 s'applique ainsi (cour d'appel de Nouméa comprise). Le second alinéa (agents en poste au 18 juillet 2024, avant le 31 décembre 2026) est épuisé au 1er janvier 2029. Rien n'est perdu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles R. 211-1 à R. 240-8 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination des tableaux : R. 212-1 retiré (lot_p110), début glissé à R. 212-14, R. 214-24 retiré (lot_p110), fin glissée à R. 214-1.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 212-1 à R. 213-20\n",
-          "nouveau": "\nR. 212-14 à R. 213-20\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 213-22 à R. 214-24\n",
-          "nouveau": "\nR. 213-22 à R. 214-1\n"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Les médecins locaux, liés par la convention, exercent les attributions médicales des articles d'isolement et de discipline : règle propre au territoire.",
-      "ligne_rouge": "CEDH art. 3 examiné : l'avis médical sur l'isolement et la cellule disciplinaire est tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-4",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Retire de R. 227-5 et R. 227-6 les mentions de l'établissement de Fresnes et des unités hospitalières sécurisées, absents du territoire. Une règle qui vise une structure absente reste sans objet là où elle manque : l'adaptation ne porte aucune règle propre et s'abroge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Premier assesseur pris parmi les personnels chargés de la surveillance, sans condition de grade : l'effectif local ne compte pas les grades exigés. Règle propre au territoire.",
-      "ligne_rouge": "art. 16 DDHC et impartialité de la commission de discipline examinées : la commission garde ses deux assesseurs, dont un extérieur"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-6",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Permet de choisir le premier assesseur dans un autre grade « lorsqu'il n'existe pas [...] l'un des grades exigés par le deuxième alinéa » : le deuxième alinéa récrit par R773-5 n'exige plus aucun grade. Sans objet.",
-      "ligne_rouge": "art. 16 DDHC et impartialité de la commission de discipline examinées : la composition reste fixée par R773-5"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-7",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "L'auteur du compte rendu ne siège pas « dans la mesure du possible » : l'interdiction absolue de R. 234-12 empêcherait la commission de siéger avec l'effectif local. Règle propre au territoire, tempérée au plus près.",
-      "ligne_rouge": "art. 16 DDHC et impartialité de la commission de discipline examinées : l'impartialité n'est tempérée que par la contrainte d'effectif, l'assesseur extérieur et le recours préalable de R. 234-43 demeurent"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-8",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Rapport d'incident rédigé par tout agent chargé de la surveillance : règle propre gardée. Deux alinéas tombent. Le quatrième autorise un autre grade « lorsqu'il n'existe pas [...] l'un des grades exigés par le premier alinéa » : le premier alinéa récrit n'en exige aucun. Le dernier répète, pour l'auteur du compte rendu, la règle que R773-7 pose déjà à R. 234-12. Une idée par article.",
-      "ligne_rouge": "art. 16 DDHC et impartialité de la commission de discipline examinées : l'impartialité n'est tempérée que par la contrainte d'effectif, l'assesseur extérieur et le recours préalable de R. 234-43 demeurent",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nLorsqu'il n'existe pas dans l'établissement pénitentiaire un personnel de surveillance, autre que le chef d'établissement, détenant l'un des grades exigés par le premier alinéa, le rapport peut être rédigé par un personnel de surveillance d'un autre grade.",
-          "nouveau": ""
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nDans la mesure du possible, l'auteur de ce compte rendu ne siège pas à la commission de discipline. \"",
-          "nouveau": " \""
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Les règles applicables aux avocats valent aussi pour les personnes agréées qui assistent la personne détenue (ordonnance n° 92-1147, art. 23-4) : assistance propre à la justice du territoire.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : l'assistance s'étend, l'avocat garde ses droits"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R773-9",
-      "decision": "A",
-      "principe": "P13",
-      "motif": "Fait exercer par le président du tribunal de première instance les fonctions du juge et du tribunal de l'application des peines à l'article 234-29. Le code de procédure pénale ne prévoit cette substitution qu'à Wallis-et-Futuna (L8522-12) : le tribunal de première instance de Nouméa a ses juges de l'application des peines, que nomment D772-18 et D773-12. L'adaptation, recopiée du titre de Wallis-et-Futuna, retire l'acte au juge compétent. Elle s'abroge, R. 234-29 s'applique tel quel.",
-      "ligne_rouge": "art. 16 DDHC examiné : la sanction disciplinaire reste transmise au juge de l'application des peines qui suit la personne détenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R774-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles R. 311-1 à R. 382-1 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination des tableaux : R. 382-1 retiré (lot_p118), fin glissée à R. 381-1.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 322-31 à R. 382-1",
-          "nouveau": "\nR. 322-31 à R. 381-1"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R774-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Organismes locaux de protection sociale et d'emploi à la place de la sécurité sociale et de France Travail : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R774-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Points d'accès au droit fixés par convention avec les institutions de la collectivité, faute de conseil départemental de l'accès au droit : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R774-4",
-      "decision": "A",
-      "principe": "P13",
-      "motif": "Fait exercer par le président du tribunal de première instance les fonctions du juge de l'application des peines pour le permis de communiquer à l'article 313-14. Le code de procédure pénale ne prévoit cette substitution qu'à Wallis-et-Futuna (L8522-12) : le tribunal de première instance de Nouméa a ses juges de l'application des peines, que nomment D772-18 et D773-12. L'adaptation, recopiée du titre de Wallis-et-Futuna, retire l'acte au juge compétent. Elle s'abroge, R. 313-14 s'applique tel quel.",
-      "ligne_rouge": "contrôle du juge (art. 66 C et P25) examiné : l'acte revient au juge de l'application des peines, juge du siège. Droits de la défense (art. 16 DDHC) : le permis de communiquer de l'avocat reste délivré par un juge"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R774-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Les règles applicables aux avocats valent aussi pour les personnes agréées qui assistent la personne détenue (ordonnance n° 92-1147, art. 23-4) : assistance propre à la justice du territoire.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : l'assistance s'étend, l'avocat garde ses droits"
     },
     {
       "code": "penitentiaire",
       "num": "R774-6",
-      "decision": "G",
       "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Retire les renvois au code de la santé publique inapplicable : règle propre au territoire.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : le secret médical reste dû par la déontologie locale"
+      "motif": "R. 322-2 est abrogé en métropole comme redite de R. 4127-36 du code de la santé publique (lot p111). Ce code ne régit pas la matière en Nouvelle-Calédonie : le consentement aux soins s'écrit ici en règle autonome (relecture p110, extension de 9.31).",
+      "ligne_rouge": "CEDH art. 3 et 8 : consentement de la personne détenue aux actes médicaux, garanti en règle autonome",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En Nouvelle-Calédonie, hors le cas où son état de santé rend nécessaire un acte de diagnostic ou de soins auquel elle n'est pas à même de consentir, la personne détenue exprime son consentement préalablement à tout acte médical. En cas de refus, le médecin l'informe des conséquences de ce refus."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "R774-7",
-      "decision": "R",
       "principe": "P3",
-      "motif": "Registre 6.6 : R322-3 est abrogé parce que L. 1121-6 du code de la santé publique suffit. Ce motif ne vaut pas en Nouvelle-Calédonie, où l'adaptation retire le renvoi au code de la santé publique, qui n'y régit pas la matière : la garantie s'écrit ici comme règle autonome, au lieu d'une adaptation d'un article abrogé.",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : en Nouvelle-Calédonie, la personne détenue garde la condition du bénéfice direct et majeur et le recueil de son consentement",
+      "motif": "Registre 9.31 et 9.66 : condition du bénéfice direct et majeur gardée en règle autonome (passe 2).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
@@ -732,25 +79,532 @@
     },
     {
       "code": "penitentiaire",
-      "num": "R774-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Signalement de la tuberculose selon la réglementation locale : règle propre gardée. Espace manquante (« R. 322-7est ») rétablie.",
+      "num": "D777-8",
+      "principe": "P23",
+      "motif": "Travaux d'intérêt général auprès des institutions coutumières (712-1 A du code pénal) : règle propre gardée, phrases resserrées, renvoi de la tribu à R. 623-3 (passe 2).",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "R. 322-7est",
-          "nouveau": "R. 322-7 est"
+          "op": "rediger",
+          "nouveau": "En leur qualité d'institutions coutumières de la Nouvelle-Calédonie et en application de l'article 712-1 A du code pénal, le sénat coutumier et les conseils coutumiers sont habilités à mettre en œuvre des travaux d'intérêt général. Ils peuvent demander l'inscription de travaux sur la liste prévue par l'article 131-36 du code pénal, selon l'article R. 623-7. Les tribus habilitées selon l'article R. 623-3 le peuvent aussi.\nLa tribu joint à sa demande d'habilitation, adressée au directeur du service pénitentiaire d'insertion et de probation compétent, son lieu d'établissement et les nom, prénoms, date et lieu de naissance et nationalité de son responsable ou représentant. Elle l'informe de toute modification de ces éléments."
         }
       ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D773-10",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D774-14",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D775-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D776-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D777-7",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R772-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R774-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R775-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R776-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R777-1",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tableau d'application, en version datée, d'un livre : la clause de R. 771-1 et sa liste d'exclusions le remplacent (registre 7.4).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-6",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Organisation des soins par équipes hospitalières et convention locale : ligne 1° de D. 772-5, sur D. 115-3 et D. 115-5 réécrits au lot p123, qui reçoivent D. 115-4, D. 115-6 et D. 115-8. L'avis du conseil de surveillance était déjà retiré (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-7",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Organisation des soins par équipes hospitalières et convention locale : ligne 1° de D. 772-5, sur D. 115-3 et D. 115-5 réécrits au lot p123, qui reçoivent D. 115-4, D. 115-6 et D. 115-8. L'avis du conseil de surveillance était déjà retiré (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-8",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Organisation des soins par équipes hospitalières et convention locale : ligne 1° de D. 772-5, sur D. 115-3 et D. 115-5 réécrits au lot p123, qui reçoivent D. 115-4, D. 115-6 et D. 115-8. L'avis du conseil de surveillance était déjà retiré (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-9",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Organisation des soins par équipes hospitalières et convention locale : ligne 1° de D. 772-5, sur D. 115-3 et D. 115-5 réécrits au lot p123, qui reçoivent D. 115-4, D. 115-6 et D. 115-8. L'avis du conseil de surveillance était déjà retiré (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-10",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Intervention médicale hors des heures de présence : D. 115-8 est fusionné dans D. 115-5 (lot p123), qui renvoie au protocole, auquel la convention locale tient lieu (1° de D. 772-5).",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-11",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Destinataires du rapport d'activité : ligne 2° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-12",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Habilitation des soignants par le représentant de l'État : ligne 3° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-13",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "D. 115-15 ne prévoit plus l'avis du préfet (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-14",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Les conventions locales tiennent lieu de protocole : 1° de D. 772-5 (D. 115-18 est fusionné dans D. 115-14).",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-15",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "D. 115-20 est fusionné dans D. 115-19 (lot p123), qui ne cite plus les centres d'addictologie qu'à titre d'exemple. L'adaptation est sans objet.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-16",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Suivi médical selon la réglementation locale : filet de R. 771-1 et 1° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-17",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Adaptation de D. 115-26, abrogé (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D772-18",
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Composition du conseil d'évaluation : R. 136-1 de la cible (lot p122, qui reçoit D. 136-2) renvoie la liste des membres à un arrêté. La composition propre à la Nouvelle-Calédonie le suit. La présidence, la vice-présidence et l'arrêté de composition résultent de R. 136-1 et des substitutions de R. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D773-11",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Représentant des équipes soignantes à la commission pluridisciplinaire unique : D. 211-34 de la cible (lot p110) renvoie la composition à un arrêté, l'adaptation le suit.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D773-12",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Information mensuelle sur les effectifs : D. 212-4 est fusionné dans D. 211-4 (lot p110), ligne 4° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D773-13",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Inscription électorale au dossier individuel : ligne 5° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D773-14",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Pédiatre sans condition de protection maternelle et infantile : D. 216-24 est fusionné dans D. 216-23 (lot p110), ligne 6° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D774-15",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Gratuité des soins : la sécurité sociale est de compétence locale (L. 324-1 à L. 324-12 exclus par L. 771-1), la règle propre reste entière à la ligne 7° de D. 772-5.",
+      "ligne_rouge": "art. 8 DDHC relevé en passe 1 : l'article ne touche ni la nécessité ni l'individualisation de la peine. La garantie en jeu est l'accès aux soins de la personne détenue (CEDH art. 3) : la gratuité des soins reste écrite entière à la ligne 7° de D. 772-5.",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D774-16",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Rentes d'accident du travail converties : ligne 8° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D774-17",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "D. 332-34 est abrogé (lot p112), l'adaptation est sans objet.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D774-18",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Correspondance sous pli fermé avec les autorités de la collectivité : ligne 9° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D774-19",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Agrément et indemnité des aumôniers : D. 352-1 réécrit au lot p115 dit la même règle avec l'information du préfet (registre 5.2), que les substitutions de R. 771-1 donnent au représentant de l'État et au directeur des services pénitentiaires d'outre-mer.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D774-20",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Condition de diplôme accessible localement : ligne 10° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D775-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "D. 412-67 est fusionné dans D. 412-66 (lot p120) : son renvoi au code de la sécurité sociale vise la règle locale par le filet de R. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D775-4",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "D. 413-4 réécrit (lot p120) ne nomme plus les services de l'éducation nationale : sans objet.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D775-5",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Enseignants affectés selon la réglementation locale : ligne 12° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D775-6",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Services locaux de la jeunesse et des sports : ligne 13° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D775-7",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Agrément des associations par le représentant de l'État : ligne 14° de D. 772-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D775-9",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Section 5 du livre IV : code du travail local (4° de R. 771-1), inspection du travail selon la loi organique (11° de D. 772-5).",
+      "ligne_rouge": "aucune",
+      "vers": "D772-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R771-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Filet des renvois : dernière ligne de R. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R771-4",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Conversion monétaire : ligne de R. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R772-2",
+      "decision": "A",
+      "principe": "P13",
+      "motif": "Substitution propre à Wallis-et-Futuna (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R772-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Médecins des établissements de santé de la collectivité : ligne 1° de R. 771-2, avec R. 773-2. Le repli faute de convention, que R. 773-2 portait, vaut aussi pour R. 115-21. La convention est celle du 7° de L. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R772-4",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Serment : R. 122-8 et R. 771-1 le portent (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Médecins de la collectivité : ligne 1° de R. 771-2. R. 213-30 est fusionné dans R. 213-21 (lot p110).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Personnes agréées : ligne 2° de R. 771-2, avec R. 774-5. R. 234-16 est abrogé (lot p108), R. 313-2 et R. 313-14 à R. 313-16 sont fusionnés dans R. 313-1 et R. 313-12 (lot p114).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-4",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Structures absentes du territoire : sans objet (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-5",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Premier assesseur : ligne 3° de R. 771-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-6",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Sans objet (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-7",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Compte rendu d'incident : ligne 4° de R. 771-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-8",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Rapport d'incident : ligne 4° de R. 771-2, les deux derniers alinéas tombent (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R773-9",
+      "decision": "A",
+      "principe": "P13",
+      "motif": "Substitution propre à Wallis-et-Futuna (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R774-2",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "R. 311-2 est fusionné dans R. 311-1 (lot p114), et le 6° de R. 771-1 porte déjà les deux substitutions.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R774-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Points d'accès au droit par convention : ligne 5° de R. 771-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R774-4",
+      "decision": "A",
+      "principe": "P13",
+      "motif": "Substitution propre à Wallis-et-Futuna (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R774-5",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Personnes agréées : ligne 2° de R. 771-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R774-8",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Signalement de la tuberculose : R. 322-7 est fusionné dans R. 322-6 (lot p111), qui ne porte plus le signalement (relecture p110).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R774-9",
       "decision": "A",
       "principe": "P20",
-      "motif": "Adaptation de R322-8, abrogé au lot p111 : sans objet.",
+      "motif": "Adaptation de R. 322-8, abrogé (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -758,172 +612,122 @@
       "num": "R774-10",
       "decision": "A",
       "principe": "P20",
-      "motif": "Adaptation de R322-10, abrogé au lot p111 : sans objet.",
+      "motif": "Adaptation de R. 322-10, abrogé (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R774-11",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Affiliation au régime local de protection sociale : règle propre au territoire.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'article ne touche pas la peine, il règle l'affiliation sociale"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Affiliation au régime local de protection sociale : R. 324-1 est abrogé (lot p111) et la protection sociale relève de la collectivité (L. 324-1 à L. 324-12 exclus par L. 771-1). La règle ne fait que renvoyer au droit local.",
+      "ligne_rouge": "art. 8 DDHC relevé en passe 1 : l'article ne touche ni la nécessité ni l'individualisation de la peine. La garantie en jeu est l'accès aux soins de la personne détenue (CEDH art. 3) : la gratuité des soins reste écrite entière à la ligne 7° de D. 772-5."
     },
     {
       "code": "penitentiaire",
       "num": "R774-12",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Permis de visite des condamnés hospitalisés délivré par le représentant de l'Etat, faute d'unités hospitalières spécialisées : organisation propre au territoire.",
-      "ligne_rouge": "vie familiale (CEDH art. 8) examinée : le permis de visite reste ouvert, seule l'autorité change"
+      "motif": "Permis de visite des condamnés hospitalisés : R. 341-5 et R. 341-6 sont fusionnés dans R. 341-1 (lot p113), ligne 6° de R. 771-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
     },
     {
       "code": "penitentiaire",
       "num": "R774-13",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Bibliothèques localement compétentes à la place des bibliothèques territoriales : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R775-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles R. 411-1 à R. 424-31 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coquille : R. 412-23 figure deux fois, dans la plage de 2022 et seul dans sa version de 2023. La plage s'arrête à R. 412-22, comme dans le tableau polynésien. Coquilles de plage corrigées en passant : borne R. 412-77 inexistante au code de 2029, fin portée à R. 412-63.",
+      "motif": "Bibliothèques : ligne 7° de R. 771-2.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "R. 412-3 à R. 412-23",
-          "nouveau": "R. 412-3 à R. 412-22"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 412-26 à R. 412-77\n",
-          "nouveau": "\nR. 412-26 à R. 412-63\n"
-        }
-      ]
+      "vers": "R771-2"
     },
     {
       "code": "penitentiaire",
       "num": "R775-2-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Jours fériés fixés par le droit du travail local : règle propre au statut.",
-      "ligne_rouge": "aucune"
+      "motif": "Jours fériés : R. 412-62 est fusionné dans R. 412-61 (lot p120), dont le renvoi au code du travail vise le code local par le 4° de R. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
     },
     {
       "code": "penitentiaire",
       "num": "R775-8",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Section des établissements d'accompagnement par le travail : le code du travail de la Nouvelle-Calédonie, établissements de santé autorisés localement et textes sanitaires locaux. Règle propre au statut.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R776-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles R. 510-1 à R. 545-5 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination des tableaux : R. 512-3 retiré (lot_p127), début glissé à R. 522-1, R. 545-5 retiré (lot_p126), fin glissée à R. 544-29.",
+      "motif": "Section 10 du livre IV : code du travail local (4° de R. 771-1) et filet pour le code de la santé publique. Le renvoi à L. 115-2, abrogé (lot p088), est sans objet.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 512-3 à R. 544-18\n",
-          "nouveau": "\nR. 522-1 à R. 544-18\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 544-21 à R. 545-5",
-          "nouveau": "\nR. 544-21 à R. 544-29"
-        }
-      ]
+      "vers": "R771-1"
     },
     {
       "code": "penitentiaire",
       "num": "R776-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Information des forces de sécurité à la libération des condamnés à trois ans et plus, adressée à la police et à la gendarmerie présentes outre-mer : seuls changent les destinataires, propres au territoire.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article ne touche pas la peine, il informe à la libération. Vie privée (art. 2 DDHC) : données limitées et destinataires nommés"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R777-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le règlement ne s'applique que sur mention expresse. Tableau d'application des articles R. 621-1 à R. 642-4 dans leur rédaction datée : technique imposée par le statut, comme le compteur de 711-1 du code pénal (lot p062). Il se met à jour avec le décret qui portera la réécriture, et les articles abrogés par les autres lots en sortent alors. Coordination des tableaux : R. 622-3 retiré (lot_p128), fin glissée à R. 622-2, R. 642-4 retiré (lot_p130), fin glissée à R. 642-2.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 621-1 à R. 622-3\n",
-          "nouveau": "\nR. 621-1 à R. 622-2\n"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\nR. 622-6 à R. 642-4",
-          "nouveau": "\nR. 622-6 à R. 642-2"
-        }
-      ]
+      "motif": "Destinataires locaux de l'information à la libération : ligne 8° de R. 771-2.",
+      "ligne_rouge": "art. 8 DDHC relevé sur l'adaptation de R. 512-2 : l'information des forces de sécurité à la libération d'un condamné à trois ans ou plus est une mesure administrative sans effet sur la peine prononcée. Seuls ses destinataires locaux sont écrits à la table, la règle de R. 512-2 s'applique telle quelle.",
+      "vers": "R771-2"
     },
     {
       "code": "penitentiaire",
       "num": "R777-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Retire les personnes de l'économie sociale et solidaire, dont la loi n° 2014-856 n'est pas étendue localement, et admet le Journal officiel de la collectivité : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Économie sociale et solidaire, Journal officiel local : ligne 9° de R. 771-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
     },
     {
       "code": "penitentiaire",
       "num": "R777-3",
       "decision": "A",
       "principe": "P20",
-      "motif": "Reprend la première phrase du troisième alinéa de R. 623-3 en remplaçant le tribunal judiciaire et le préfet : les 4° et 2° de R771-2, qui valent pour tout le code, portent ces deux substitutions. Doublon vérifié mot à mot, la règle vit une fois.",
+      "motif": "Doublon des substitutions générales (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R777-3-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Habilitation nationale sans les personnes de l'économie sociale et solidaire, dont la loi n'est pas étendue localement : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Habilitation nationale : ligne 9° de R. 771-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
     },
     {
       "code": "penitentiaire",
       "num": "R777-3-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Les demandes d'inscription de travaux d'intérêt général vont au service d'insertion et de probation de la Nouvelle-Calédonie : organisation propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Demandes d'inscription : ligne 9° de R. 771-2, le service compétent étant celui de la collectivité par le 1° de R. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-2"
     },
     {
       "code": "penitentiaire",
       "num": "R777-4",
       "decision": "A",
       "principe": "P15",
-      "motif": "Reprend R. 623-8 en ajoutant un délai d'avis d'un mois au représentant de l'Etat : avis préalable qui ne protège aucune liberté. R. 623-8 s'applique, le représentant de l'Etat se substituant au préfet par le 2° de R771-2.",
+      "motif": "Avis préalable sans liberté protégée (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R777-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La santé relève de la compétence de la collectivité : la Nouvelle-Calédonie fixe ses propres règles sanitaires et organise ses établissements de santé. Immunisation des personnes affectées à un travail d'intérêt général en milieu de soins selon la réglementation locale : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Immunisation selon la réglementation locale : filet de R. 771-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R771-1"
     },
     {
       "code": "penitentiaire",
       "num": "R777-6",
       "decision": "A",
       "principe": "P20",
-      "motif": "Ajoute à R. 623-16 « fixée par le code du travail » : la durée légale du travail est fixée localement par le code du travail de la Nouvelle-Calédonie, et la mention fait lire un code inapplicable. R. 623-16, qui vise « la durée légale du travail » sans source, s'applique tel quel.",
+      "motif": "R. 623-16 s'applique tel quel (passe 2).",
       "ligne_rouge": "aucune"
     }
-  ]
+  ],
+  "passe": 3
 }
