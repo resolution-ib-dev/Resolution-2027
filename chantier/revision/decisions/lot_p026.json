@@ -10,31 +10,70 @@
     {
       "code": "cpp",
       "num": "R57-10",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Champ du titre : surveillance électronique des prévenus assignés et des condamnés. Article de charpente. Renvoi aux anciens 138 et 723-7 à coordonner. L'article 132-25 du code pénal (aménagement obligatoire au prononcé) est visé : il suit le sort que lui fera le lot du code pénal, la faculté d'aménager restant (L5212-2 réécrit, lot p004).",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article délimite le champ du titre, il ne fixe ni ne module la peine"
+      "principe": "P13",
+      "motif": "Champ du titre resserré. Les anciens 138 et 723-7 deviennent L. 3631-1 (assignation à résidence avec surveillance électronique) et L. 5231-5 (aménagement par le juge de l'application des peines).",
+      "ligne_rouge": "art. 8 DDHC examiné : article de champ, la juridiction garde le choix et la durée de la mesure",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La détention à domicile sous surveillance électronique (articles L. 5231-5 du présent code, 132-25 et 132-26 du code pénal) et l'assignation à résidence avec surveillance électronique (article L. 3631-1) s'exécutent selon le présent titre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R57-11",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Renvoi aux articles R. 622-1 et R. 622-2 du code pénitentiaire pour le procédé de surveillance électronique. Sept articles le citent comme ancre du dispositif (D32-4, D32-4-1, D32-11, D32-12, D32-13, D49-84, D49-85) : l'abroger casserait ces renvois pour le gain d'une ligne. Renvoi à l'ancien 723-8 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P13",
+      "motif": "Ancre du procédé de surveillance, citée par sept articles : gardée, phrase resserrée. L'ancien 723-8 devient L. 5232-1 (L. 5232-3 fusionné en p006).",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : homologation du procédé tenue à R. 622-1 et R. 622-2 du code pénitentiaire",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les fonctionnalités et l'homologation du procédé de surveillance électronique (article L. 5232-1) sont régies par les articles R. 622-1 et R. 622-2 du code pénitentiaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R57-13",
-      "decision": "S",
       "principe": "P18",
-      "motif": "Le magistrat peut faire vérifier la disponibilité du dispositif et la situation de la personne pour fixer horaires et lieux : régime d'exécution, à sa place. La situation de la victime entre dans la vérification, comme pour la surveillance mobile (R61-23) : les lieux d'assignation ne doivent pas mettre le condamné en présence de la victime (L5133-1 réécrit, lot p002).",
-      "ligne_rouge": "aucune",
+      "motif": "Vérifications préalables confiées au service d'insertion et de probation, situation de la victime comprise (passe 2) : les lieux d'assignation ne mettent pas le condamné en présence de la victime.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la vérification sert la fixation des horaires et des lieux, rien de plus",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "de la personne condamnée ou prévenue, notamment aux fins",
-          "nouveau": "de la personne condamnée ou prévenue ainsi que, le cas échéant, celle de la victime, notamment aux fins"
+          "op": "rediger",
+          "nouveau": "Lorsqu'il est saisi d'une demande de surveillance électronique ou qu'il envisage de l'ordonner d'office, le juge d'instruction, le juge des libertés et de la détention ou le juge de l'application des peines peut charger le service pénitentiaire d'insertion et de probation de vérifier la disponibilité du dispositif de l'article R. 622-1 du code pénitentiaire et la situation familiale, matérielle et sociale de la personne et, le cas échéant, de la victime, pour fixer les horaires et les lieux d'assignation."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R57-16",
+      "principe": "P23",
+      "motif": "Tout ce que le magistrat notifie ou rappelle à la personne réuni en un article : obligations, cas de retrait, délit d'évasion, droit au médecin (R. 57-15), modifications (R. 57-17), convocation de l'avocat au débat de retrait (R. 57-18). Les anciens 723-11 et 723-13 deviennent L. 5131-10 et L. 5231-8 (L. 5232-10 et L. 5232-11 fusionné ou abrogé en p006).",
+      "ligne_rouge": "art. 8 DDHC et droits de la défense examinés : la contrainte et sa sanction sont annoncées, l'avocat est convoqué sans délai au débat de retrait, le droit à un contrôle médical est rappelé",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le magistrat qui place la personne sous surveillance électronique lui notifie les périodes et les lieux d'assignation, les obligations de l'article R. 622-19 du code pénitentiaire et, le cas échéant, les mesures des articles 132-43 à 132-46 du code pénal. Il l'informe qu'il peut retirer la mesure dans les cas de l'article L. 5231-8 et qu'elle peut demander à tout moment qu'un médecin vérifie que le procédé de l'article R. 622-1 du code pénitentiaire ne nuit pas à sa santé. Il porte à la connaissance de la personne condamnée les 2° et 4° de l'article 434-29 du code pénal.\nIl lui notifie de même toute modification des conditions d'exécution, des mesures de contrôle ou des obligations (article L. 5131-10).\nPour le débat contradictoire qui précède le retrait de la mesure, l'avocat de la personne est convoqué sans délai et par tout moyen."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R57-19",
+      "principe": "P3",
+      "motif": "Pose, dépose et contrôle par l'administration pénitentiaire, étendus à l'assignation à résidence des prévenus : règle propre, phrase resserrée.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : contrôle borné aux obligations fixées par le magistrat",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire pose et dépose le bracelet prévu à l'article R. 622-1 du code pénitentiaire et contrôle le respect des obligations de la personne assignée, selon les articles R. 622-6 à R. 622-8 et R. 622-19 du même code."
         }
       ]
     },
@@ -43,56 +82,44 @@
       "num": "R57-14",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi à l'article R. 622-4 du code pénitentiaire, qui porte lui-même la règle mot pour mot : accord écrit du propriétaire ou du locataire, recueilli par le service d'insertion et de probation. Miroir d'un autre code, aucune règle propre perdue. Renvoi entrant : D49-82 vise la plage « R. 57-10 à R. 57-14 » et cite aussi R. 622-4 directement, la règle reste servie ; plage à coordonner en « R. 57-10 à R. 57-13 ».",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : l'accord du tiers occupant reste exigé par R. 622-4 du code pénitentiaire"
+      "motif": "Renvoi à l'article R. 622-4 du code pénitentiaire, qui porte la règle mot pour mot (accord écrit du propriétaire ou du locataire) : miroir d'un autre code. D. 49-82 vise la plage « R. 57-10 à R. 57-14 » : à lire « R. 57-10 à R. 57-13 ».",
+      "ligne_rouge": "vie privée et domicile (art. 2 DDHC) examinés : l'accord écrit du propriétaire ou du locataire reste exigé à R. 622-4 du code pénitentiaire"
     },
     {
       "code": "cpp",
       "num": "R57-15",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Information de la personne sur son droit à faire vérifier par un médecin que le bracelet ne nuit pas à sa santé : garantie courte.",
-      "ligne_rouge": "CEDH art. 3 et 8 examinés : contrôle médical du dispositif ouvert à tout moment, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "R57-16",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Notification des périodes, lieux et obligations, des cas de retrait et du délit d'évasion encouru : la contrainte et sa sanction sont annoncées. Renvoi à l'ancien 723-13 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article informe la personne, il ne module pas la peine prononcée"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information sur le contrôle médical du bracelet : réunie dans R. 57-16, avec les autres informations données par le magistrat. Renvoi entrant : R. 424-31 du code pénitentiaire (lot p119) cite « R. 57-13, R. 57-15 à R. 57-18 », à lire « R. 57-13 et R. 57-16 ».",
+      "ligne_rouge": "intégrité physique examinée : droit de demander à tout moment un médecin tenu à R. 57-16",
+      "vers": "R57-16"
     },
     {
       "code": "cpp",
       "num": "R57-17",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Notification des modifications des conditions et obligations : la personne connaît la contrainte qu'elle doit respecter. Renvoi à l'ancien 723-11 à coordonner (L5232-10).",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Notification des modifications : réunie dans R. 57-16. Renvoi entrant : R. 424-31 du code pénitentiaire (lot p119) cite « R. 57-13, R. 57-15 à R. 57-18 », à lire « R. 57-13 et R. 57-16 ».",
+      "ligne_rouge": "art. 8 DDHC examiné : la personne connaît toute contrainte nouvelle, R. 57-16",
+      "vers": "R57-16"
     },
     {
       "code": "cpp",
       "num": "R57-18",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Avocat convoqué sans délai et par tout moyen au débat de retrait : déjà numérique, délai opposable. Renvoi à l'ancien 723-13 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R57-19",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Pose, dépose et contrôle par l'administration pénitentiaire selon les articles R. 622-6 à R. 622-8 et R. 622-19 du code pénitentiaire. Le renvoi étend ces règles, écrites pour la détention à domicile, à l'assignation à résidence des prévenus, que le titre couvre (R57-10) : il n'est pas un miroir.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Convocation de l'avocat au débat de retrait : réunie dans R. 57-16. Renvoi entrant : R. 424-31 du code pénitentiaire (lot p119) cite « R. 57-13, R. 57-15 à R. 57-18 », à lire « R. 57-13 et R. 57-16 ».",
+      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : avocat convoqué sans délai et par tout moyen, R. 57-16",
+      "vers": "R57-16"
     },
     {
       "code": "cpp",
       "num": "R57-30-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi déclaratif au traitement de contrôle de la surveillance électronique, que les articles R. 622-22 et suivants du code pénitentiaire autorisent et règlent en entier, assignation à résidence des prévenus comprise (R. 622-23) : miroir d'un autre code.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : le traitement reste autorisé et encadré, finalités, données, accès et droits compris, par le code pénitentiaire (R. 622-22 et suivants)"
+      "motif": "Renvoi déclaratif au traitement de contrôle de la surveillance électronique, que les articles R. 622-22 et suivants du code pénitentiaire règlent en entier : miroir.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : finalités, données, accès, droits et interconnexions tenus à R. 622-22 et suivants du code pénitentiaire"
     }
-  ]
+  ],
+  "passe": 3
 }
