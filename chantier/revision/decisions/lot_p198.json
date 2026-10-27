@@ -9,163 +9,194 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "L3751-1",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Contrôle de régularité par la chambre au cours de l'information, sous réserve des forclusions de L3752-4 à L3752-6 : les nullités se purgent pendant l'information, non au procès.",
-      "ligne_rouge": "art. 16 DDHC examiné : le contrôle de régularité reste ouvert, borné par des forclusions qui partent de la connaissance de l'acte"
-    },
-    {
-      "code": "cpp",
       "num": "L3751-2",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Renonciation expresse à une nullité, en présence de l'avocat : purge par la partie protégée elle-même.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3751-3",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Saisine en annulation par le juge, le procureur, les parties ou le témoin assisté. Exclusion des actes sujets à appel, détention et contrôle judiciaire compris : une seule voie par acte.",
-      "ligne_rouge": "art. 66 C examiné : les décisions sur la détention gardent leur voie propre, l'appel devant la chambre"
-    },
-    {
-      "code": "cpp",
-      "num": "L3752-1",
+      "motif": "Renonciation expresse en présence de l'avocat : gardée en une phrase.",
+      "ligne_rouge": "aucune (passe 1) ; art. 16 DDHC : la renonciation suppose l'avocat présent ou dûment appelé.",
       "decision": "S",
-      "principe": "P15",
-      "motif": "Saisine de la chambre par le juge d'instruction : l'avis préalable obligatoire du procureur ne protège aucune liberté. Il devient une information, comme celle des parties.",
-      "ligne_rouge": "art. 16 DDHC examiné : les parties restent informées de la saisine, le procureur aussi",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "après avoir pris l'avis du procureur de la République et avoir informé les parties",
-          "nouveau": "après en avoir informé le procureur de la République et les parties"
+          "op": "rediger",
+          "nouveau": "La partie ou le témoin assisté à l'égard duquel une formalité substantielle a été méconnue peut renoncer expressément à s'en prévaloir, en présence de son avocat ou celui-ci dûment appelé, et régulariser ainsi la procédure."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L3752-2",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Saisine par le procureur, parties informées : symétrique de L3752-1.",
-      "ligne_rouge": "art. 16 DDHC examiné : les parties sont informées, tenu"
+      "num": "L3751-3",
+      "principe": "P23",
+      "motif": "Reçoit L3751-1 (examen de la régularité sous réserve des irrecevabilités). Saisine en annulation et exclusion des actes sujets à appel gardées. Article cité par L6141-23 (« L3751-3 et suivants »).",
+      "ligne_rouge": "Art. 66 C (signalé) et art. 16 DDHC examinés : chaque acte a une voie de contestation, appel ou requête ; les décisions sur la liberté gardent l'appel.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours de l'information, la chambre des investigations et des libertés peut être saisie en toute matière, selon le chapitre 2 du présent titre, aux fins d'annulation d'un acte ou d'une pièce de la procédure, par le juge d'instruction, le procureur de la République, les parties ou le témoin assisté. Cette saisine n'est pas ouverte contre les actes susceptibles d'appel des parties, notamment les décisions en matière de détention provisoire ou de contrôle judiciaire.\nLa chambre examine la régularité des procédures qui lui sont soumises, sous réserve des irrecevabilités prévues aux articles L. 3752-4 à L. 3752-6."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3752-1",
+      "principe": "P15",
+      "motif": "Passe 2 tenue : l'avis préalable du procureur devient une information. Reçoit L3752-2 (saisine par le procureur) : les deux saisines d'office tiennent dans un article.",
+      "ligne_rouge": "Art. 16 DDHC examiné : les parties sont informées de toute saisine en annulation : gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "S'il estime qu'un acte ou une pièce de la procédure est frappé de nullité, le juge d'instruction saisit la chambre aux fins d'annulation, après en avoir informé le procureur de la République et les parties.\nSi le procureur de la République estime qu'une nullité a été commise, il requiert du juge d'instruction communication de la procédure, saisit la chambre aux fins d'annulation et en informe les parties."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3752-3",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Requête motivée, copie au juge d'instruction, déclaration au greffe : gardées. La déclaration à distance s'ouvre à la voie électronique, à côté de la lettre recommandée. Seul siège de la requête déposée auprès du chef de l'établissement pénitentiaire depuis l'abrogation du miroir L315-8 du code pénitentiaire (lot p082) : à garder.",
-      "ligne_rouge": "art. 16 DDHC examiné : la voie de la personne détenue reste ouverte. Art. 8 DDHC examiné : aucune peine en cause",
+      "principe": "P2",
+      "motif": "Requête motivée, copie au juge d'instruction, déclaration au greffe : gardées à peine d'irrecevabilité. La forme (signature, envoi à distance, déclaration au chef d'établissement, seul siège depuis l'abrogation du miroir pénitentiaire) renvoie à la règle générale de L3712-2. Cité par L3451-3 et L3732-2.",
+      "ligne_rouge": "Art. 16 DDHC examiné : et art. 8 DDHC (signalé) : accès à la chambre pour toute partie, y compris détenue, gardé ; l'irrecevabilité ne frappe que le défaut de motivation, de copie ou de déclaration.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "la déclaration au greffe peut être faite au moyen d'une lettre recommandée avec demande d'avis de réception",
-          "nouveau": "la déclaration au greffe peut être faite par voie électronique ou au moyen d'une lettre recommandée avec demande d'avis de réception"
+          "op": "rediger",
+          "nouveau": "La partie ou le témoin assisté qui estime qu'une nullité a été commise saisit la chambre par requête motivée. A peine d'irrecevabilité, il en adresse copie au juge d'instruction, qui transmet le dossier au président de la chambre, et dépose la requête au greffe de la chambre dans les formes de l'article L. 3712-2."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3752-4",
+      "principe": "P20",
+      "motif": "Purge des nullités en [un mois] (registre 5.3 et 9.22) : la règle complète, point de départ, interrogatoires ultérieurs, actes notifiés, témoin assisté, partie civile et moyen ignoré, est écrite au second alinéa de L1321-1 (lot p281). L'article y renvoie au lieu de la recopier ; il reste cité par L3431-22, L3451-3, L3732-6 et L3752-7.",
+      "ligne_rouge": "Art. 16 DDHC examiné : et art. 8 DDHC (signalés) : délai de [un mois] courant de la notification ou de la copie du dossier, réserve du moyen que la partie ne pouvait connaître : gardés par renvoi exact à L1321-1.",
       "decision": "R",
-      "principe": "P11",
-      "motif": "Registre 5.3 : purge des nullités en [un mois] après remise du dossier, partout. Le délai court de la notification de la mise en examen ou, lorsque l'avocat a demandé copie du dossier dans ce délai, de la délivrance de cette copie (L3431-8). Le délai de [trois mois] de la passe 2 (lot p198) est aligné sur la fiche L3. Réserve des moyens que la personne n'a pu connaître gardée.",
-      "ligne_rouge": "art. 16 DDHC examiné : le délai court de l'accès effectif au dossier, la copie est délivrée dans le mois de la demande (L3431-8), l'avocat est présent, et le délai cède devant les moyens que la personne n'a pu connaître. Art. 8 DDHC examiné : aucune peine en cause. P18 examiné : la partie civile suit la même purge",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "dans un délai de six mois à compter de la notification de sa mise en examen, sauf",
-          "nouveau": "dans un délai de [un mois] à compter de la notification de sa mise en examen ou, lorsque son avocat a demandé copie du dossier dans ce délai, à compter de la délivrance de cette copie, sauf"
+          "op": "rediger",
+          "nouveau": "La personne mise en examen, le témoin assisté et la partie civile font état des moyens de nullité, à peine d'irrecevabilité, dans le délai de [un mois] et selon les règles du second alinéa de l'article L. 1321-1."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3752-5",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Concentration des moyens de nullité dans une seule requête, sauf moyen ignoré : purge.",
-      "ligne_rouge": "art. 16 DDHC examiné : réserve des moyens que la partie n'a pu connaître, tenue"
+      "motif": "Concentration des moyens dans une requête, sauf moyen ignoré : gardée.",
+      "ligne_rouge": "Art. 16 DDHC examiné : réserve du moyen que la partie ne pouvait connaître et relevé d'office : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la chambre est saisie d'une requête en annulation, tous les moyens de nullité de la procédure qui lui est transmise lui sont proposés, sans préjudice de son droit de les relever d'office. A défaut, les parties et le témoin assisté ne peuvent plus en faire état, sauf s'ils ne pouvaient les connaître."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3752-6",
-      "decision": "R",
       "principe": "P11",
-      "motif": "Registre 5.3 : purge des nullités en [un mois] partout. Après l'avis de fin d'information, le dossier est entre les mains des parties : le délai de requête en annulation passe à [un mois], que la personne soit détenue ou non.",
-      "ligne_rouge": "art. 16 DDHC examiné : le dossier est communiqué à l'avis de fin d'information, avocat présent ; la réserve des moyens inconnus reste ouverte devant la juridiction de jugement (L4411-34)",
+      "motif": "Passe 2 tenue (registre 5.3, 9.23) : [un mois] après l'envoi de l'avis de fin d'information, détenu ou non. Point de départ écrit. Cité par L3433-11, L3451-3, L4411-34.",
+      "ligne_rouge": "aucune (passe 1) ; art. 16 DDHC : délai de [un mois] courant de l'envoi de l'avis, dossier entre les mains des parties.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "à l'issue d'un délai de trois mois, ou d'un mois si la personne mise en examen est détenue, à compter de l'envoi de cet avis.",
-          "nouveau": "à l'issue d'un délai de [un mois] à compter de l'envoi de cet avis."
+          "op": "rediger",
+          "nouveau": "Après l'envoi de l'avis de fin d'information prévu à l'article L. 3451-1, les parties et le témoin assisté ne peuvent plus déposer de requête en annulation passé un délai de [un mois] à compter de cet envoi."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3752-7",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Filtre du président en huit jours : gardé. Le 4° renvoie au délai de L3752-4 sans le chiffrer, pour suivre sa réécriture. La seconde numérotation « 5° » est une coquille du code de 2029 : elle devient « 6° ».",
-      "ligne_rouge": "aucune",
+      "motif": "Filtre du président en huit jours : gardé. Passe 2 tenue : les délais sont désignés par leur article, la double numérotation « 5° » disparaît (4° réunit les deux délais).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "4° Si elle est déposée après le délai de six mois en violation de l'article L. 3752-4",
-          "nouveau": "4° Si elle est déposée après le délai prévu à l'article L. 3752-4"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "5° Si elle est déposée après les délais de trois ou un mois en violation de l'article L. 3752-6",
-          "nouveau": "6° Si elle est déposée après le délai prévu à l'article L. 3752-6"
+          "op": "rediger",
+          "nouveau": "Dans les huit jours de la réception du dossier par le greffe de la chambre, le président peut, par ordonnance insusceptible de recours, constater l'irrecevabilité de la requête :\n1° Qui porte sur un acte susceptible d'appel des parties ou du témoin assisté.\n2° Qui n'est pas motivée.\n3° Qui n'est pas déposée selon l'article L. 3752-3.\n4° Qui est déposée après le délai de l'article L. 3752-4 ou de l'article L. 3752-6.\n5° Qui aurait dû être soulevée lors d'une précédente saisine de la chambre, selon l'article L. 3752-5.\nIl renvoie alors le dossier de l'information au juge d'instruction. Dans les autres cas, il le transmet au procureur général, qui procède selon les articles L. 3713-2 et suivants."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3753-1",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Annulation sous condition de grief (L1321-2) et étendue de l'annulation (L1321-3), évocation ou renvoi : la nullité sanctionne une atteinte, non une forme.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'annulation reste due quand une garantie a été méconnue avec grief, tenu"
+      "motif": "Annulation sous condition de grief (L1321-2), étendue (L1321-3), évocation ou renvoi : gardés. Renvoi mis à jour : la voie présidentielle tient à L3753-3.",
+      "ligne_rouge": "Art. 16 DDHC examiné : la nullité sanctionne l'atteinte aux intérêts de la partie, la chambre en décide l'étendue : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve de l'article L. 3753-3, la chambre statue sur les requêtes en annulation selon les articles L. 3713-6 à L. 3713-10. Lorsqu'elle constate une irrégularité qui permet de prononcer la nullité selon l'article L. 1321-2, elle annule l'acte et, le cas échéant, tout ou partie de la procédure ultérieure selon l'article L. 1321-3. Elle peut ensuite évoquer selon les articles L. 3714-1 à L. 3714-5 ou renvoyer le dossier au même juge d'instruction ou à un autre pour poursuivre l'information."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3753-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Mise en examen annulée faute d'indices : la personne redevient témoin assisté. Garantie de la présomption d'innocence.",
-      "ligne_rouge": "aucune"
+      "motif": "Mise en examen annulée faute d'indices : la personne redevient témoin assisté. Gardé en une phrase.",
+      "ligne_rouge": "aucune (passe 1) ; art. 9 DDHC : statut protecteur restauré.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la chambre annule une mise en examen pour violation de l'article L. 3432-2, la personne est témoin assisté à compter de son interrogatoire de première comparution et jusqu'à l'issue de l'information, sauf mise en examen ultérieure selon les articles L. 3433-9 à L. 3433-11."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3753-3",
-      "decision": "G",
       "principe": "P24",
-      "motif": "Le président statue seul quand la solution s'impose : voie rapide.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L3753-4 (annulation par ordonnance sans audience, avec l'accord du ministère public) et L3753-5 (demande de collégialité) : la voie rapide et sa soupape tiennent dans un article.",
+      "ligne_rouge": "aucune (passe 1) ; P7 : l'auteur de la requête garde la formation collégiale.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la solution d'une requête en annulation paraît s'imposer de façon manifeste, le président de la chambre statue seul, selon les articles L. 3713-7 à L. 3713-10. Si cette solution est l'annulation, il peut, avec l'accord du ministère public, statuer par ordonnance sans audience. Le présent article ne s'applique pas lorsque l'auteur de la requête a demandé son examen par la chambre."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3751-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Examen de la régularité sous réserve des irrecevabilités : second alinéa de L3751-3.",
+      "ligne_rouge": "Art. 16 DDHC examiné : contrôle de régularité par la chambre au cours de l'information, repris à L3751-3.",
+      "vers": "L3751-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3752-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Saisine par le procureur, parties informées : second alinéa de L3752-1.",
+      "ligne_rouge": "Art. 16 DDHC examiné : information des parties reprise à L3752-1.",
+      "vers": "L3752-1"
     },
     {
       "code": "cpp",
       "num": "L3753-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P24",
-      "motif": "Annulation manifeste par ordonnance sans audience, sur accord du ministère public : voie rapide.",
-      "ligne_rouge": "aucune"
+      "motif": "Annulation par ordonnance sans audience : L3753-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3753-3"
     },
     {
       "code": "cpp",
       "num": "L3753-5",
-      "decision": "G",
+      "decision": "F",
       "principe": "P7",
-      "motif": "L'auteur de la requête peut demander la formation collégiale : la soupape de la voie rapide.",
-      "ligne_rouge": "aucune"
+      "motif": "Demande de collégialité : dernière phrase de L3753-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3753-3"
     }
-  ]
+  ],
+  "passe": 3
 }
