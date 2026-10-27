@@ -10,309 +10,432 @@
     {
       "code": "cpp",
       "num": "L6111-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Signalements adressés directement au procureur européen délégué (art. 24 du règlement (UE) 2017/1939), procureur spécialisé informé : mise en œuvre due du règlement.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Signalements au procureur européen délégué : liste gardée, le règlement est nommé en entier une fois pour le titre.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les autorités nationales suivantes adressent directement au procureur européen délégué les signalements prévus aux 1 à 3 et 5 de l'article 24 du règlement (UE) 2017/1939 du Conseil du 12 octobre 2017 mettant en œuvre une coopération renforcée concernant la création du Parquet européen :\n1° Les officiers de police judiciaire.\n2° Les autorités constituées, officiers publics ou fonctionnaires agissant dans l'exercice de leurs fonctions.\n3° Le juge d'instruction.\n4° Le procureur de la République.\nElles en informent en même temps le procureur de la République spécialisé compétent, qui peut aussi adresser ces signalements au procureur européen délégué."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6111-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dessaisissement au profit du Parquet européen (art. 25 et 27 du règlement), ordonnance notifiée aux parties : mise en œuvre due.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Dessaisissement au profit du Parquet européen, réquisition du procureur, notification aux parties : gardés.",
+      "ligne_rouge": "aucune (passe 1) ; art. 16 DDHC : les parties reçoivent notification du dessaisissement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le Parquet européen décide d'exercer sa compétence, le procureur de la République ou le juge d'instruction saisi d'une enquête ou d'une information sur des faits relevant de l'article L. 2411-1 se dessaisit à son profit, selon le 1 de l'article 25 et le 5 de l'article 27 du règlement (UE) 2017/1939. Le procureur de la République requiert le juge d'instruction de se dessaisir. Le juge d'instruction notifie son ordonnance de dessaisissement aux parties."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6112-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Le procureur européen qui conduit lui-même les investigations a les attributions du délégué : une règle, sans doublon.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Le procureur européen qui conduit lui-même les investigations exerce les attributions du délégué : gardé.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur européen qui conduit personnellement les investigations selon le 4 de l'article 28 du règlement (UE) 2017/1939 exerce les attributions du procureur européen délégué prévues aux chapitres 3 et 4 du présent titre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6112-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Compétence nationale maintenue quand le Parquet européen décline : continuité des poursuites.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6112-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Recevabilité de la plainte avec constitution de partie civile suspendue, prescription suspendue jusqu'à la réponse du Parquet européen : la victime ne perd pas son action pendant l'attente.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6112-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Refus de dessaisissement par le procureur : désignation par le procureur général. Règle de conflit due au règlement.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6112-3 (plainte et prescription suspendues jusqu'à la réponse du Parquet européen) : la compétence nationale maintenue et l'attente tiennent dans un article.",
+      "ligne_rouge": "aucune (passe 1) ; P18 : la victime ne perd pas son action pendant l'attente, la prescription est suspendue.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le Parquet européen décide de ne pas exercer sa compétence, le procureur de la République saisi de l'enquête ou le juge d'instruction saisi de l'information demeure compétent, y compris dans les cas du 6 de l'article 25 du règlement (UE) 2017/1939.\nTant que le Parquet européen n'a pas statué sur l'exercice de sa compétence, le juge d'instruction n'examine pas la recevabilité d'une plainte avec constitution de partie civile portant sur des faits susceptibles de relever de l'article L. 2411-1. La prescription de l'action pénale est suspendue jusqu'à la réponse du Parquet européen."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6112-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Refus de dessaisissement par le juge d'instruction : observations en cinq jours, recours en cinq jours, désignation par la chambre criminelle en huit jours. Délais courts et opposables.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6112-4 (refus de dessaisissement du procureur, désignation par le procureur général) : les deux refus de dessaisissement tiennent dans un article. Délais de cinq et huit jours gardés.",
+      "ligne_rouge": "aucune (passe 1) ; art. 16 DDHC : observations et recours des parties devant la chambre criminelle, notification de l'arrêt : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque, dans les cas du 6 de l'article 25 du règlement (UE) 2017/1939, le procureur de la République saisi de l'enquête refuse de se dessaisir au profit du Parquet européen, le procureur général désigne le magistrat compétent pour poursuivre les investigations.\nLorsque, dans les mêmes cas, le juge d'instruction refuse de se dessaisir, il invite les parties à présenter leurs observations dans les cinq jours, puis rend une ordonnance de refus de dessaisissement notifiée au procureur de la République et aux parties. Dans les cinq jours de sa notification, le Parquet européen, le procureur de la République ou les parties peuvent la déférer à la chambre criminelle de la Cour de cassation, qui désigne dans les huit jours de la réception du dossier le magistrat compétent. L'arrêt est porté à la connaissance du Parquet européen, du juge d'instruction et du ministère public, et notifié aux parties. Le juge d'instruction demeure saisi jusqu'à ce qu'il en ait connaissance."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6112-6",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Renvoi de l'affaire aux autorités nationales (art. 34 du règlement), acceptation dans les trente jours : délai opposable.",
-      "ligne_rouge": "aucune"
+      "motif": "Renvoi aux autorités nationales, réponse sous trente jours : gardés.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le Parquet européen renvoie l'affaire aux autorités nationales selon l'article 34 du règlement (UE) 2017/1939, le procureur européen délégué en informe le procureur de la République compétent dans les cas des 1 à 3 de cet article, le procureur général compétent dans le cas de son 6. Dans les cas des 2 et 3, le procureur de la République indique dans les trente jours de la réception de l'information s'il accepte de se charger de l'affaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6112-7",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Cadre des investigations après dessaisissement du Parquet européen : gardé. Le renvoi au « 1° de l'article L. 6413-1 », absent du code de 2029, vise l'enquête de police judiciaire de L. 6113-1 (ancien 696-113).",
-      "ligne_rouge": "aucune",
+      "motif": "Cadre des investigations après dessaisissement du Parquet européen : gardé. Renvoi corrigé (passe 2) : L6413-1 n'existe pas, l'enquête de police judiciaire est au 1° de L6113-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "prévue au 1° de l'article L. 6413-1 du présent code",
-          "nouveau": "prévue au 1° de l'article L. 6113-1 du présent code"
+          "op": "rediger",
+          "nouveau": "Lorsque le Parquet européen se dessaisit d'investigations conduites selon le 1° de l'article L. 6113-1, elles se poursuivent dans le cadre de l'enquête de police judiciaire. Lorsqu'il se dessaisit d'une procédure spécifique d'investigation, elles se poursuivent dans le cadre d'une information judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6113-1",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Le procureur européen délégué conduit l'enquête selon le droit commun, ou la procédure spécifique : il emprunte les régimes existants.",
-      "ligne_rouge": "aucune"
+      "motif": "Deux cadres d'investigation du procureur européen délégué : gardés, points-virgules retirés.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur européen délégué conduit les investigations qui relèvent de sa compétence :\n1° Soit selon les dispositions de la troisième partie du présent code applicables à l'enquête de police judiciaire et selon le code des douanes.\n2° Soit selon la procédure spécifique d'investigation du chapitre 4 du présent titre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6113-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Trois cas de procédure spécifique, bornés par les actes qui exigent une information.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6113-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Suite des investigations après dessaisissement du procureur : gardée. Le chapitre 4 visé est celui du présent titre, non du livre (coquille du code de 2029).",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Reçoit L6113-3 (suite des investigations après dessaisissement du procureur). Trois cas de procédure spécifique gardés.",
+      "ligne_rouge": "aucune (passe 1) ; les actes qui exigent une information basculent dans la procédure spécifique, avec les droits de l'information (L6114-16).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "prévue par le chapitre 4 du présent livre",
-          "nouveau": "prévue par le chapitre 4 du présent titre"
+          "op": "rediger",
+          "nouveau": "Le procureur européen délégué suit la procédure spécifique d'investigation :\n1° Lorsqu'il poursuit les investigations après l'expiration des délais d'enquête du chapitre 2 du titre II du livre III de la troisième partie.\n2° Lorsqu'il faut mettre une personne en examen ou la placer sous le statut de témoin assisté, ou recourir à des actes qui, par leur durée ou leur nature, ne peuvent être ordonnés qu'au cours d'une information.\n3° Lorsqu'il poursuit des investigations à la suite d'une ordonnance de dessaisissement d'un juge d'instruction à son profit.\nLorsque le procureur de la République se dessaisit à son profit, les investigations se poursuivent dans le cadre de l'enquête de police judiciaire ou, dans les cas des 1° et 2°, de la procédure spécifique d'investigation."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6114-1",
-      "decision": "G",
       "principe": "P3",
-      "motif": "La procédure spécifique emprunte les règles de l'information, sous adaptations : pas de régime parallèle.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interceptions, géolocalisation et techniques spéciales décidées par le juge des libertés, sauf dans les limites de l'enquête : mesures intrusives encadrées par la loi.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : autorisation du juge des libertés au-delà du régime de l'enquête, tenue. Art. 66 C : aucune privation de liberté en cause"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contrôle judiciaire décidé par le procureur européen délégué, assignation de plus de douze heures par jour autorisée par le juge des libertés, contestation en soixante-douze heures, appel : restriction bornée, juge à portée.",
-      "ligne_rouge": "art. 66 C examiné : le contrôle judiciaire restreint la liberté sans en priver, son placement et son suivi restent décidés par un magistrat et contestables devant un juge du siège, l'astreinte au domicile au-delà de douze heures exige le juge des libertés, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Assignation à résidence avec surveillance électronique décidée par le juge des libertés, débat contradictoire. La proposition R au titre de l'aménagement est sans objet : mesure de sûreté, non peine.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Détention provisoire décidée et prolongée par le juge des libertés après débat contradictoire : art. 66 C.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la privation de liberté est décidée par le juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-14",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Le procureur européen délégué peut alléger ou lever la mesure, ou libérer. À défaut dans les cinq jours, le juge des libertés statue en trois jours ouvrables : délai opposable. La proposition R au titre de l'aménagement est sans objet.",
-      "ligne_rouge": "art. 66 C examiné : le procureur ne peut qu'alléger ou libérer, le refus passe au juge du siège dans un délai bref, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-15",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Décisions sur les modalités de la détention provisoire (permis de visite, correspondance) par le procureur européen délégué, comme le juge d'instruction : même régime, recours de L3742-28 ouvert.",
-      "ligne_rouge": "art. 66 C et CEDH art. 8 examinés : les décisions restent contestables devant le président de la chambre, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-16",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Droits des parties et du témoin assisté (avocat, dossier, demandes d'actes, nullités, recours) : garantie exigée par le règlement (art. 41). Matière de l'art. 34 : la proposition de déclasser est écartée.",
-      "ligne_rouge": "art. 16 DDHC examiné : droits de la défense nommés, tenus"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-17",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Statut protecteur de la personne contre laquelle existent des indices graves, avis à la victime de son droit de se constituer partie civile.",
-      "ligne_rouge": "art. 16 DDHC examiné : la personne mise en cause est entendue avec les droits du témoin assisté ou de la mise en examen, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-18",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Constitution de partie civile ouverte dès le premier acte de l'information spécifique : la victime entre au procès quand il commence.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-19",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Avis de fin d'information et observations dans les délais de droit commun : même régime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Les réquisitoires et avis du ministère public au juge d'instruction tombent quand le procureur européen tient lui-même l'information : une formalité sans objet est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-20",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Règlement par le procureur européen délégué, maintien en détention ou sous assignation au juge des libertés. La proposition R au titre de l'aménagement est sans objet.",
-      "ligne_rouge": "art. 66 C examiné : le maintien en détention reste au juge du siège, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-21",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Comparution sur reconnaissance préalable de culpabilité proposée par le procureur européen délégué : voie rapide.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit L6114-2 (réquisitoires et avis du ministère public écartés). La procédure spécifique emprunte l'information. Cité par L6312-6.",
+      "ligne_rouge": "aucune (passe 1) ; les garanties de l'information s'appliquent, seules tombent les formalités du ministère public envers lui-même.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La procédure spécifique d'investigation suit les dispositions de la troisième partie relatives au déroulement de l'information, sous les adaptations du présent chapitre. Ne s'y appliquent pas les dispositions du livre IV de la troisième partie relatives au réquisitoire introductif et aux réquisitoires supplétifs, ni celles qui prévoient des réquisitions ou des avis du ministère public au juge d'instruction."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6114-3",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Le juge des libertés exerce ses attributions de l'information sur réquisitions du procureur européen délégué. La phrase portait deux fois la saisine et une coquille (« qui sont lui sont confiées ») : elle est resserrée.",
-      "ligne_rouge": "art. 66 C examiné : les décisions juridictionnelles restent au juge des libertés, tenu",
+      "motif": "Reçoit L6114-4 (répartition des attributions du juge d'instruction). La saisine du juge des libertés par le procureur européen délégué, par réquisitions écrites et motivées, est dite une fois pour le chapitre, au lieu de huit. La personne garde sa propre saisine (L6114-11) et la transmission avec avis (L6114-14).",
+      "ligne_rouge": "Art. 66 C examiné : tout acte attentatoire à la liberté relève du juge des libertés et de la détention, saisi par réquisitions écrites et motivées : gardé.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le juge des libertés et de la détention exerce, sur réquisitions écrites et motivées du procureur européen délégué, les attributions qui lui sont confiées au cours de l'information en application des dispositions des livres IV, V et VI de la troisième partie du présent code."
+          "nouveau": "Le juge des libertés et de la détention exerce les attributions qui lui sont confiées au cours de l'information par les livres IV, V et VI de la troisième partie. Les attributions du juge d'instruction prévues par ces livres sont exercées, selon la section 2 du présent chapitre, par le procureur européen délégué ou par le juge des libertés et de la détention. Le procureur européen délégué saisit le juge des libertés et de la détention par réquisitions écrites et motivées."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Répartition des attributions du juge d'instruction entre procureur européen délégué et juge des libertés : ce qui touche aux libertés va au juge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6114-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pas d'évocation par la chambre de Paris : la conduite de l'enquête reste au Parquet européen, comme le règlement l'exige.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L6114-6",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Actes que le procureur européen délégué accomplit seul : ceux du juge d'instruction qui ne portent pas atteinte à une liberté.",
-      "ligne_rouge": "P18 examiné : la recevabilité de la constitution de partie civile reste décidée et contestable devant la chambre (L6114-16)"
+      "motif": "Actes du procureur européen délégué : liste gardée, points-virgules retirés.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur européen délégué accomplit les actes et prend les décisions de :\n1° Mise en examen.\n2° Placement sous le statut de témoin assisté.\n3° Interrogatoire et confrontation.\n4° Audition de témoins.\n5° Recevabilité de la constitution de partie civile et audition de la partie civile.\n6° Transport.\n7° Commission rogatoire.\n8° Expertise.\n9° Mandat de recherche, de comparution ou d'amener."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6114-7",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Mandat d'arrêt décidé par le juge des libertés : décision privative de liberté au juge du siège. Matière de l'art. 34 : la proposition de déclasser est écartée.",
-      "ligne_rouge": "art. 66 C examiné : le mandat d'arrêt est décerné par un juge du siège, tenu"
+      "motif": "Mandat d'arrêt décidé par le juge des libertés, exécuté en mandat d'arrêt européen : gardé.",
+      "ligne_rouge": "aucune (passe 1) ; art. 66 C : la décision privative de liberté reste au juge du siège.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge des libertés et de la détention décide de décerner un mandat d'arrêt. Le procureur européen délégué le met à exécution sous la forme d'un mandat d'arrêt européen selon l'article L. 6132-1."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L6114-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Perquisitions sans assentiment autorisées par le juge des libertés : mesure intrusive encadrée.",
-      "ligne_rouge": "art. 2 DDHC, vie privée et inviolabilité du domicile examinées : autorisation du juge des libertés hors flagrance et assentiment, tenue. Art. 66 C : aucune privation de liberté en cause"
+      "num": "L6114-10",
+      "principe": "P23",
+      "motif": "Reçoit L6114-8 (perquisitions) et L6114-9 (saisies spéciales) : les mesures intrusives décidées par le juge des libertés tiennent dans une liste. L'exception des mesures de durée d'enquête reste propre au 3°, auquel L6114-17 renvoie seul.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : et art. 2 DDHC (vie privée), art. 17 DDHC : perquisitions sans assentiment, saisies spéciales et techniques spéciales autorisées par un juge du siège : gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge des libertés et de la détention décide :\n1° Des perquisitions, visites domiciliaires et saisies, en l'absence de flagrance ou d'assentiment exprès de la personne chez qui elles ont lieu, dans les conditions de l'article L. 3531-5.\n2° Des saisies spéciales et des mesures conservatoires du chapitre 4 du titre III du livre V de la troisième partie, sous réserve des pouvoirs propres du procureur prévus à l'article L. 3534-10.\n3° Des interceptions de correspondances émises par la voie des télécommunications, des géolocalisations et des autres techniques spéciales d'investigation du titre V du livre V de la troisième partie.\nToutefois, les mesures du 3° sont décidées par le procureur européen délégué lorsqu'elles sont ordonnées dans des conditions d'utilisation et de durée qui permettent au procureur de la République d'y recourir dans l'enquête de police judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L6114-9",
-      "decision": "G",
+      "num": "L6114-11",
       "principe": "P25",
-      "motif": "Saisies spéciales et mesures conservatoires décidées par le juge des libertés, sauf pouvoirs propres du procureur : la propriété (art. 17 DDHC) est atteinte sur décision d'un juge.",
-      "ligne_rouge": "aucune"
+      "motif": "Contrôle judiciaire par le procureur européen délégué, autorisation du juge au-delà de douze heures d'assignation au domicile, contestation en soixante-douze heures, appel : gardés. Seul siège : L6115-1 y renvoie.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : restriction de plus de douze heures autorisée par un juge du siège, contestation immédiate devant lui en soixante-douze heures après débat contradictoire, appel à la chambre : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur européen délégué décide du placement, du maintien et de la modification du contrôle judiciaire. La décision qui interdit à la personne de s'absenter de son domicile ou de son lieu de résidence plus de douze heures par jour requiert l'autorisation du juge des libertés et de la détention.\nLa personne peut contester immédiatement les autres décisions du procureur européen délégué devant le juge des libertés et de la détention, qui statue dans les soixante-douze heures après un débat contradictoire.\nLa personne peut faire appel devant la chambre des investigations et des libertés de la décision du juge qui confirme celle du procureur européen délégué, et de la décision prise avec l'autorisation prévue au premier alinéa."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-12",
+      "principe": "P23",
+      "motif": "Reçoit L6114-13 (détention provisoire) : assignation et détention décidées par le juge des libertés, en une liste.",
+      "ligne_rouge": "Art. 66 C examiné : assignation et détention décidées et prolongées par le juge des libertés après débat contradictoire : gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge des libertés et de la détention décide :\n1° Du placement, de la prolongation et de la modification de l'assignation à résidence avec surveillance électronique, le cas échéant après un débat contradictoire organisé selon les articles L. 3631-5, L. 3631-6, L. 3631-13 et L. 3632-1.\n2° Du placement et de la prolongation de la détention provisoire, à l'issue d'un débat contradictoire organisé selon les articles L. 3642-10 à L. 3642-21."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-14",
+      "principe": "P19",
+      "motif": "Allègement, mainlevée ou mise en liberté par le procureur européen délégué, juge des libertés en trois jours ouvrables à défaut : gardés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la personne obtient un juge du siège en trois jours ouvrables si le procureur européen délégué refuse : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur européen délégué peut, d'office ou à la demande de la personne mise en examen :\n1° Supprimer tout ou partie des obligations de l'assignation à résidence avec surveillance électronique, ou accorder une dispense occasionnelle ou temporaire de les observer.\n2° Ordonner la mainlevée de l'assignation à résidence avec surveillance électronique.\n3° Modifier les horaires de présence au domicile ou dans les lieux d'assignation, ou autoriser le chef d'établissement pénitentiaire ou le directeur du service pénitentiaire d'insertion et de probation à le faire, dans un sens favorable à la personne et sans toucher à l'équilibre de la mesure.\n4° Ordonner la mise en liberté d'une personne détenue, le cas échéant sous contrôle judiciaire.\nS'il ne fait pas droit à la demande de la personne dans les cinq jours, il transmet le dossier avec son avis motivé au juge des libertés et de la détention, qui statue dans les trois jours ouvrables de cette transmission, selon les articles L. 3644-9 et L. 3741-3."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-15",
+      "principe": "P3",
+      "motif": "Décisions sur les modalités de la détention par le procureur européen délégué : gardées, recours de L3742-28 ouvert.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : les décisions sur les visites, la correspondance et le téléphone restent contestables devant le président de la chambre (L3742-28).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur européen délégué prend aussi les décisions relatives aux modalités d'exécution de la détention provisoire et à l'exercice de ses droits par la personne détenue, prévues aux articles L. 3645-10 à L. 3645-16 du présent code et aux articles L. 341-1 à L. 341-5, L. 341-7, L. 341-8 et L. 345-1 à L. 345-6 du code pénitentiaire."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-16",
+      "principe": "P25",
+      "motif": "Droits des parties et du témoin assisté : gardés en entier ; la liste nommée reste et dit qui reçoit les demandes (garantie exigée par l'article 41 du règlement).",
+      "ligne_rouge": "aucune (passe 1) ; art. 16 DDHC : avocat, accès au dossier, demandes d'actes, nullités et recours, sans perte par rapport à l'information nationale.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes mises en examen, les témoins assistés et les parties civiles exercent tous les droits que leur reconnaît le présent code au cours de l'information. Ils ont le droit d'être assistés d'un avocat et d'accéder au contenu de la procédure. Ils présentent leurs demandes d'actes au procureur européen délégué, leurs requêtes en annulation et leurs recours à la chambre des investigations et des libertés."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-17",
+      "principe": "P18",
+      "motif": "Reçoit L6114-18 (constitution de partie civile à compter de ces actes). Renvoi précisé au 3° de L6114-10, qui portait seul l'exception de durée d'enquête : champ inchangé.",
+      "ligne_rouge": "aucune (passe 1) ; art. 9 DDHC : statut protecteur de la personne contre qui existent des indices graves ; P18 : la victime est avisée de son droit.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dès que le procureur européen délégué a mis une personne en examen ou l'a placée sous le statut de témoin assisté, ou que le juge des libertés et de la détention a autorisé l'un des actes prévus à l'article L. 6114-7 ou au 3° de l'article L. 6114-10 dans des conditions qui ne permettent pas d'y recourir dans l'enquête de police judiciaire, le procureur européen délégué :\n1° N'entend que comme témoin assisté ou personne mise en examen toute personne contre laquelle il existe des indices graves et concordants d'avoir participé aux faits.\n2° Avise la victime de son droit de se constituer partie civile selon l'article L. 3434-3.\nLa victime ne peut se constituer partie civile qu'à partir de l'un de ces actes."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-19",
+      "principe": "P3",
+      "motif": "Avis de fin d'information et observations dans les délais de droit commun : gardés, témoin assisté compris.",
+      "ligne_rouge": "aucune (passe 1) ; art. 16 DDHC : délais de l'information nationale (L3451-3) gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la procédure spécifique d'investigation lui paraît terminée, le procureur européen délégué en avise les parties, le témoin assisté et leurs avocats selon l'article L. 3451-1. Ils peuvent alors lui adresser des observations, des demandes ou des requêtes dans les conditions et délais de l'article L. 3451-3."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-20",
+      "principe": "P23",
+      "motif": "Reçoit L6114-21 (comparution sur reconnaissance préalable de culpabilité) : le règlement de la procédure spécifique tient dans un article. Maintien en détention ou sous assignation au seul juge des libertés : gardé.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le maintien en détention ou sous assignation au règlement reste décidé par le juge des libertés : gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "A l'issue des délais de l'article L. 3451-3, le procureur européen délégué règle la procédure au vu des observations des parties. Il rend son ordonnance selon le chapitre 2 du titre V du livre IV et le chapitre 1er du titre V du livre VI de la troisième partie. Le juge des libertés et de la détention ordonne seul le maintien de la personne sous assignation à résidence avec surveillance électronique ou en détention provisoire.\nEn matière délictuelle, le procureur européen délégué qui ne renvoie pas la personne mise en examen devant le tribunal délictuel peut, si les conditions en sont réunies, lui proposer une comparution sur reconnaissance préalable de culpabilité, dont il ordonne la mise en œuvre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6115-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contrôle judiciaire dans les comparutions rapides, assignation de plus de douze heures sous autorisation du juge des libertés.",
-      "ligne_rouge": "art. 66 C examiné : le contrôle judiciaire restreint la liberté sans en priver, son placement et son suivi restent décidés par un magistrat et contestables devant un juge du siège, tenu"
+      "principe": "P23",
+      "motif": "Reçoit L6115-2 : en comparution par procès-verbal ou à délai différé, le contrôle judiciaire suit le régime de L6114-11 (autorisation au-delà de douze heures, contestation en soixante-douze heures, appel). Coquille « chambre des investigations et de libertés » disparue. Élargissement déclaré (P25) : la contestation en soixante-douze heures et l'appel, ouverts en 2029 contre le seul placement, s'étendent à la modification du contrôle judiciaire décidée par le procureur européen délégué.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : autorisation du juge au-delà de douze heures, contestation immédiate en soixante-douze heures, appel : gardés par renvoi exact à L6114-11.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le procureur européen délégué engage des poursuites selon la procédure de comparution par procès-verbal ou de comparution à délai différé, il décide, à la place du juge des libertés et de la détention, du placement sous contrôle judiciaire et de sa modification. La seconde phrase du premier alinéa et les deuxième et troisième alinéas de l'article L. 6114-11 s'appliquent alors."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6112-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Plainte et prescription suspendues : second alinéa de L6112-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L6112-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L6112-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Refus de dessaisissement du procureur : premier alinéa de L6112-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L6112-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L6113-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Suite des investigations après dessaisissement du procureur : dernier alinéa de L6113-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L6113-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Réquisitoires et avis écartés : seconde phrase de L6114-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L6114-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Répartition des attributions du juge d'instruction : L6114-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L6114-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-5",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Redite de L2411-5, qui interdit déjà à la chambre de Paris d'évoquer les procédures des procureurs européens délégués, par dérogation à L3714-1.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Perquisitions sans assentiment autorisées par le juge des libertés : 1° de L6114-10.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : et art. 2 DDHC : autorisation du juge du siège reprise au 1° de L6114-10.",
+      "vers": "L6114-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Saisies spéciales et mesures conservatoires : 2° de L6114-10.",
+      "ligne_rouge": "aucune",
+      "vers": "L6114-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Détention provisoire décidée par le juge des libertés : 2° de L6114-12.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : placement et prolongation par le juge des libertés après débat contradictoire, repris au 2° de L6114-12.",
+      "vers": "L6114-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-18",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Constitution de partie civile à compter des actes de L6114-17 : dernier alinéa de L6114-17.",
+      "ligne_rouge": "aucune",
+      "vers": "L6114-17"
+    },
+    {
+      "code": "cpp",
+      "num": "L6114-21",
+      "decision": "F",
+      "principe": "P24",
+      "motif": "Comparution sur reconnaissance préalable de culpabilité : second alinéa de L6114-20.",
+      "ligne_rouge": "aucune",
+      "vers": "L6114-20"
     },
     {
       "code": "cpp",
       "num": "L6115-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Contestation en soixante-douze heures devant le juge des libertés, appel : gardés (P19). Coquille du code de 2029 corrigée : « chambre des investigations et de libertés ».",
-      "ligne_rouge": "art. 66 C examiné : le contrôle judiciaire restreint la liberté sans en priver, son placement et son suivi restent décidés par un magistrat et contestables devant un juge du siège, tenu",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "chambre des investigations et de libertés",
-          "nouveau": "chambre des investigations et des libertés"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contestation et appel du contrôle judiciaire décidé par le procureur européen délégué : L6115-1, par renvoi à L6114-11.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : contestation en soixante-douze heures devant le juge et appel, repris par renvoi exact aux deuxième et troisième alinéas de L6114-11.",
+      "vers": "L6115-1"
     }
-  ]
+  ],
+  "passe": 3
 }
