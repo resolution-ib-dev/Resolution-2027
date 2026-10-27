@@ -10,176 +10,253 @@
     {
       "code": "cpp",
       "num": "L3631-1",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Objet du titre, sanction de la violation, renvoi au décret en Conseil d'État. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mesure privative de liberté partielle, ordonnée et contrôlée par un juge, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3631-10",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Surveillance mobile par renvoi aux articles de la surveillance électronique mobile des condamnés : une règle, une fois. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3631-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Placement conditionnel avec incarcération provisoire de quinze jours au plus en attendant la faisabilité : la liberté sous surveillance n'attend pas un rapport. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : incarcération décidée par le juge des libertés, quinze jours au plus, tenu ; art. 8 DDHC sans objet"
-    },
-    {
-      "code": "cpp",
-      "num": "L3631-12",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Saisine immédiate du service pénitentiaire : délai engagé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3631-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Débat contradictoire, avocat obligatoire, ordonnance motivée : garanties tenues.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : débat contradictoire devant le juge, avocat, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3631-14",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Rapport sous dix jours, nouveau débat sous cinq jours, libération à défaut : délais opposables à l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : libération de droit à défaut de débat, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L3631-15",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Imputation de l'incarcération provisoire sur la détention, la réparation et la peine : rien ne se compte deux fois contre la personne.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : durée imputée, tenu ; art. 8 DDHC sans objet"
+      "principe": "P23",
+      "motif": "Objet de la mesure, contenu de l'assignation, dispositif homologué, sanction de la violation et décret en Conseil d'État en un article (L3631-3 fusionné, coquille « obligé » corrigée par la passe 2). Cité par L6151-33 et R57-10.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Dispositif homologué dont la mise en œuvre garantit dignité, intégrité et vie privée, absences aux seules conditions fixées par la décision, révocation facultative : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'assignation à résidence avec surveillance électronique oblige la personne à demeurer à son domicile ou dans une résidence fixée par la décision, et à ne s'en absenter qu'aux conditions et pour les motifs fixés par cette décision. La personne porte un dispositif intégrant un émetteur qui permet de détecter à distance sa présence ou son absence dans le seul lieu désigné, pour chaque période fixée. Ce procédé est homologué par le ministre de la justice. Sa mise en œuvre garantit le respect de la dignité, de l'intégrité et de la vie privée de la personne. Celle-ci peut en outre être astreinte aux obligations et interdictions du contrôle judiciaire.\nLa violation de la mesure peut entraîner la révocation de l'assignation et le placement de la personne en détention provisoire. Les modalités d'application du présent titre sont déterminées par décret en Conseil d'État."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3631-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Seuils : peine criminelle, deux ans d'emprisonnement encourus, ou soustraction au contrôle judiciaire. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mesure privative de liberté partielle, ordonnée et contrôlée par un juge, tenue ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
-    },
-    {
-      "code": "cpp",
-      "num": "L3631-3",
+      "principe": "P23",
+      "motif": "Seuils de l'assignation : une phrase. Cité par L4413-9.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Seuils gardés : peine criminelle, deux ans d'emprisonnement encourus, ou soustraction au contrôle judiciaire.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Contenu de l'assignation, dispositif homologué respectueux de la dignité et de la vie privée : tenu. Coquille « obligé » corrigée. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mesure privative de liberté partielle, ordonnée et contrôlée par un juge, tenue ; art. 2 DDHC, vie privée examiné : dispositif limité à la présence au lieu désigné, tenu",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "avec surveillance électronique obligé la personne",
-          "nouveau": "avec surveillance électronique oblige la personne"
+          "op": "rediger",
+          "nouveau": "L'assignation à résidence avec surveillance électronique peut être ordonnée lorsque la personne encourt une peine criminelle ou un emprisonnement délictuel d'au moins deux ans, ou lorsqu'elle se soustrait volontairement aux obligations du contrôle judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3631-4",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Consentement à la pose, le refus valant violation : garantie de la dignité sans priver la mesure d'effet. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mesure privative de liberté partielle, ordonnée et contrôlée par un juge, tenue"
+      "motif": "Consentement à la pose, refus valant violation : phrase resserrée. Cité par L4413-9.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Pose impossible sans consentement, information de la personne sur les suites de son refus : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne est avisée que le dispositif ne peut être installé sans son consentement, mais que son refus constitue une violation de ses obligations qui peut entraîner la révocation de l'assignation et son placement en détention provisoire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3631-5",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Ordonnée par le juge d'instruction ou le juge des libertés, après débat contradictoire ou réquisitions lues : tenu. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mesure privative de liberté partielle, ordonnée et contrôlée par un juge, tenue"
+      "motif": "Autorités, demande de la personne détenue, débat contradictoire ou réquisitions lues, ordonnance motivée : phrases resserrées. Cité par L3712-6, L6114-12 et L3632-1.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Ordonnance motivée d'un juge du siège, après débat contradictoire ou observations de la personne et de son avocat, sauf mise en liberté : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'assignation à résidence avec surveillance électronique peut être ordonnée à tout moment de l'information, d'office par le juge d'instruction ou, lorsqu'il est saisi, par le juge des libertés et de la détention. Elle peut l'être à la demande de la personne en détention provisoire. Elle est décidée par ordonnance motivée, après un débat contradictoire selon les articles L. 3642-15 et L. 3642-16 ou au vu des réquisitions écrites du procureur de la République lues à la personne mise en examen, dont les observations et celles de son avocat sont entendues. Elle peut aussi être décidée, sans débat ni observations préalables, par l'ordonnance qui statue sur une demande de mise en liberté ou décide une mise en liberté d'office."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3631-6",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Vérification de faisabilité, saisine du service obligatoire avant certaines prolongations de détention pour les délits punis d'au plus cinq ans : préfère la mesure la moins rigoureuse, ce qu'exige l'art. 9 DDHC avant le jugement. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : et art. 9 DDHC : la détention reste subsidiaire, tenu ; art. 8 DDHC sans objet (l'article ne fixe ni ne module aucune peine)"
+      "motif": "Vérification de faisabilité, saisine obligatoire du service avant certaines prolongations, refus limité : en phrases. Cité par L4413-9 (plage L. 3631-6 à L. 3631-10) et L6114-12.",
+      "ligne_rouge": "Nécessité (art. 9 DDHC) examinée : la mesure la moins rigoureuse est vérifiée avant de prolonger la détention pour les délits punis de cinq ans au plus. Refus seulement pour impossibilité liée à la personnalité ou à la situation matérielle : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors le placement conditionnel de l'article L. 3631-11, le juge statue après avoir fait vérifier la faisabilité technique de la mesure par le service pénitentiaire d'insertion et de probation, qui peut être saisi à tout moment de l'information. En matière délictuelle, cette saisine est obligatoire si la personne détenue ou son avocat la demande un mois avant la date à laquelle la détention peut être prolongée, sauf refus spécialement motivé du juge d'instruction. Lorsque la personne encourt cinq ans d'emprisonnement au plus, la saisine est aussi obligatoire avant la date à laquelle la détention peut être prolongée, sauf refus spécialement motivé du juge, et, sans exception, avant la date de sa seconde prolongation.\nSauf s'il envisage un contrôle judiciaire, le juge ne peut refuser l'assignation qu'en cas d'impossibilité liée à la personnalité ou à la situation matérielle de la personne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3631-7",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Contrôle à distance par l'administration pénitentiaire comme pour la détention à domicile : régime voisin repris par renvoi, une règle, une fois. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3631-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Médecin de droit à la demande de la personne : garantie de santé.",
-      "ligne_rouge": "aucune"
+      "motif": "Contrôle à distance par renvoi aux articles de la détention à domicile, constat des absences et médecin de droit en un article (L3631-8 fusionné).",
+      "ligne_rouge": "Droit à la santé et dignité examinés : désignation d'un médecin de droit à la demande de la personne, certificat versé au dossier : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les articles L. 5232-7 et L. 5232-8 relatifs au contrôle à distance par l'administration pénitentiaire de la détention à domicile sous surveillance électronique s'appliquent, le juge d'instruction exerçant les compétences du juge de l'application des peines. Les services de police ou de gendarmerie peuvent toujours constater l'absence irrégulière de la personne et en faire rapport au juge d'instruction. Le juge d'instruction peut à tout moment désigner un médecin pour vérifier que le dispositif ne présente pas d'inconvénient pour la santé de la personne. Cette désignation est de droit à sa demande. Le certificat médical est versé au dossier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3631-9",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Surveillance mobile pour les infractions punies de plus de sept ans avec suivi socio-judiciaire, ou les violences conjugales punies d'au moins cinq ans : protection des victimes. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 8 DDHC sans objet (mesure de sûreté) ; art. 2 DDHC, vie privée examiné : réservée aux infractions graves, tenu"
+      "motif": "Surveillance électronique mobile : cas en phrases. La clause « le domicile concerné étant alors celui de la victime », sans objet dans un article qui ne vise aucun domicile, tombe.",
+      "ligne_rouge": "Nécessité (art. 8 DDHC) examinée : seuils de sept ans avec suivi socio-judiciaire encouru, ou de cinq ans pour les violences et menaces dans le couple, actuel ou ancien, gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'assignation à résidence peut être exécutée sous le régime du placement sous surveillance électronique mobile lorsque la personne est poursuivie :\n1° Pour une infraction punie de plus de sept ans d'emprisonnement pour laquelle le suivi socio-judiciaire est encouru.\n2° Pour des violences ou des menaces punies d'au moins cinq ans d'emprisonnement, commises contre son conjoint, son concubin ou son partenaire lié par un pacte civil de solidarité, ou contre ses enfants ou ceux de ces personnes, ou par l'ancien conjoint, concubin ou partenaire de la victime."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3631-10",
+      "principe": "P20",
+      "motif": "Surveillance mobile par renvoi aux articles des condamnés : la définition du dispositif recopiait L5332-2, auquel l'article renvoie, elle tombe. Cité par L4413-9 et L3641-11.",
+      "ligne_rouge": "Aucune garantie de la personne n'est touchée : L5332-2, L5332-7 et L5332-10 portent le dispositif, son homologation, la dignité et le traitement des données.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les articles L. 5332-2, L. 5332-7 et L. 5332-10 relatifs au placement sous surveillance électronique mobile des condamnés s'appliquent à l'assignation à résidence exécutée sous ce régime, le juge d'instruction exerçant les compétences du juge de l'application des peines."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3631-11",
+      "principe": "P21",
+      "motif": "Placement conditionnel, incarcération provisoire de quinze jours au plus et saisine immédiate du service en un article (L3631-12 fusionné). Cité par L3712-6, L3631-6 et D632-2 du code pénitentiaire.",
+      "ligne_rouge": "Nécessité (art. 8 DDHC) examinée : seuil de trois ans en matière délictuelle, incarcération bornée à quinze jours, saisine immédiate du service : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière délictuelle, pour une peine encourue d'au moins trois ans d'emprisonnement, le juge des libertés et de la détention peut ordonner le placement conditionnel de la personne mise en examen sous assignation à résidence avec surveillance électronique lorsque le service pénitentiaire d'insertion et de probation n'a pas vérifié, ou pas achevé de vérifier, la faisabilité technique de la mesure. Il décide alors son incarcération provisoire jusqu'à ce que l'assignation puisse être mise en œuvre, pour quinze jours au plus. Il saisit immédiatement le service d'une demande de rapport sur la faisabilité de la mesure, en lui transmettant les pièces fixées par décret."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3631-13",
+      "principe": "P19",
+      "motif": "Débat, avocat obligatoire, motivation, rapport sous dix jours, nouveau débat sous cinq jours, libération à défaut, imputations, en un article (L3631-14 et L3631-15 fusionnés). L'assimilation à la détention pour la réparation et l'imputation sur la peine se disent par renvoi à L3642-21, qui porte la même règle. Cité par L3741-5 et L6114-12.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Débat contradictoire avec avocat obligatoire, ordonnance motivée sur des éléments précis et circonstanciés, délais de dix et cinq jours opposables, libération de droit à défaut de débat, imputation sur la détention, la réparation et la peine : tout est gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le placement conditionnel est décidé après un débat contradictoire selon le second alinéa de l'article L. 3642-13 et les articles L. 3642-15 et L. 3642-16, la personne étant obligatoirement assistée par un avocat. L'ordonnance motivée dit pourquoi, au regard des éléments précis et circonstanciés de la procédure et des objectifs des articles L. 3641-6 à L. 3641-8, la personne ne peut être libérée sans la mise en place préalable du dispositif.\nLe service pénitentiaire d'insertion et de probation transmet son rapport au juge des libertés et de la détention dans les dix jours de la décision. Sans impossibilité technique, le dispositif est posé et la personne libérée. Si le rapport constate une impossibilité technique ou n'est pas rendu dans ce délai, le juge fait comparaître à nouveau la personne dans les cinq jours pour un nouveau débat contradictoire selon les articles L. 3642-15 et L. 3642-16, au besoin par un moyen de télécommunication audiovisuelle selon les articles L. 1621-1 à L. 1621-8. À défaut de débat dans ce délai et de placement en détention provisoire, la personne est remise en liberté si elle n'est pas détenue pour une autre cause.\nL'incarcération provisoire ordonnée en application de l'article L. 3642-19 s'impute sur celle de l'article L. 3631-11. L'incarcération provisoire de l'article L. 3631-11 s'impute sur la durée de la détention provisoire pour l'application des articles L. 3643-8 et L. 3643-13. L'article L. 3642-21 lui est applicable."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3632-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Six mois renouvelables, deux ans au plus : la durée maximale d'une mesure privative de liberté relève de la loi. La proposition de déclasser est écartée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : durée bornée par la loi, tenue"
+      "motif": "Six mois renouvelables, deux ans au plus : phrases resserrées. Cité par L3712-6 et L6114-12.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Durée maximale de six mois, prolongation dans les formes de L3631-5, plafond de deux ans : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'assignation à résidence est ordonnée pour six mois au plus. Au cours de l'information, elle peut être prolongée pour la même durée dans les formes de l'article L. 3631-5, sans que sa durée totale dépasse deux ans."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3632-2",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Modification et mainlevée par renvoi au contrôle judiciaire : une règle, une fois. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mesure privative de liberté partielle, ordonnée et contrôlée par un juge, tenue"
+      "motif": "Modification et mainlevée par renvoi au contrôle judiciaire : phrase resserrée. Cité par L3712-6 et L3741-3.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Mainlevée à tout moment et décision sous cinq jours (L3622-2) gardées par renvoi.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les articles L. 3622-1 et L. 3622-2 relatifs à la modification et à la mainlevée du contrôle judiciaire et aux demandes de la personne s'appliquent à l'assignation à résidence avec surveillance électronique."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3632-3",
-      "decision": "G",
       "principe": "P15",
-      "motif": "Horaires modifiés par l'administration avec l'accord préalable du juge, dans le sens favorable : décision au plus près.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3633-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Violation : mandat et détention par renvoi aux articles du contrôle judiciaire, ou modification des obligations. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : détention ordonnée par le juge des libertés, tenu"
+      "motif": "Horaires modifiés dans un sens favorable par l'administration, avec l'accord préalable du juge : phrase resserrée.",
+      "ligne_rouge": "Aucune garantie en jeu : seules les modifications favorables, sans toucher à l'équilibre de la mesure, et avec l'accord préalable du juge.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avec l'accord préalable du juge d'instruction, qu'il informe ensuite, le chef d'établissement pénitentiaire ou le directeur du service pénitentiaire d'insertion et de probation peut modifier les horaires de présence en faveur de la personne, sans toucher à l'équilibre de la mesure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3633-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Renvois au contrôle judiciaire en cas de violation. Le 2° vise « L. 3623-2 à L. 3622-4 » : L. 3622-4 est absent du code de 2029, la série est L. 3623-2 à L. 3623-4 (appréhension et retenue).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : retenue encadrée par renvoi, tenue",
+      "principe": "P3",
+      "motif": "Violation de l'assignation : tous les articles du contrôle judiciaire sur la violation s'appliquent, de la perquisition à la détention et à sa durée (L3633-1 fusionné, renvoi corrigé par la passe 2). Cité par L4413-21.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Mandat par le juge d'instruction, détention par le juge des libertés et de la détention selon le titre IV, durée limitée par L3643-18, mesure moins rigoureuse possible : gardés par renvoi précis.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "L. 3623-2 à L. 3622-4",
-          "nouveau": "L. 3623-2 à L. 3623-4"
+          "op": "rediger",
+          "nouveau": "En cas de violation de l'assignation à résidence avec surveillance électronique, les articles L. 3623-1 à L. 3623-7 relatifs à la violation du contrôle judiciaire s'appliquent, la révocation de l'assignation tenant lieu de celle du contrôle judiciaire. Saisi aux fins de révocation, le juge des libertés et de la détention peut, s'il estime la détention provisoire injustifiée, modifier les obligations de l'assignation."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3631-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contenu de l'assignation et dispositif homologué : premier alinéa de L3631-1. Renvoi de L3631-8 recalé.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Dignité, intégrité et vie privée gardées mot pour mot.",
+      "vers": "L3631-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3631-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Médecin désigné, de droit à la demande de la personne : fin de L3631-7.",
+      "ligne_rouge": "Droit à la santé examiné : garantie gardée mot pour mot.",
+      "vers": "L3631-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3631-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Saisine immédiate du service et pièces fixées par décret : dernière phrase de L3631-11.",
+      "ligne_rouge": "Aucune garantie en jeu : délai « immédiatement » gardé.",
+      "vers": "L3631-11"
+    },
+    {
+      "code": "cpp",
+      "num": "L3631-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Rapport sous dix jours, nouveau débat sous cinq jours, libération à défaut : deuxième alinéa de L3631-13.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Délais opposables et libération de droit gardés mot pour mot ou presque.",
+      "vers": "L3631-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L3631-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Imputations de l'incarcération provisoire : dernier alinéa de L3631-13, par renvoi à L3642-21 pour la réparation et la peine.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Imputation sur la détention, assimilation pour la réparation de L3661-1 et imputation sur la peine gardées (L3631-13 et L3642-21).",
+      "vers": "L3631-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L3633-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mandat et détention en cas de violation, modification des obligations : L3633-2 (renvoi aux articles L. 3623-5 à L. 3623-7 compris dans la plage L. 3623-1 à L. 3623-7).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés. Décision d'un juge du siège sur la détention gardée par renvoi.",
+      "vers": "L3633-2"
     }
-  ]
+  ],
+  "passe": 3
 }
