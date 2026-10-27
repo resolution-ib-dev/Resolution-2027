@@ -10,153 +10,223 @@
     {
       "code": "penitentiaire",
       "num": "L341-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Droit au maintien des relations familiales, exercé par les visites.",
-      "ligne_rouge": "CEDH art. 8 examiné : vie familiale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L341-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Prévenus : visites au moins trois fois par semaine.",
-      "ligne_rouge": "CEDH art. 8 examiné : vie familiale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L341-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Condamnés : visites au moins une fois par semaine.",
-      "ligne_rouge": "CEDH art. 8 examiné : vie familiale"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L341-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Refus de permis de visite motivé : contrôle possible du juge.",
-      "ligne_rouge": "CEDH art. 8 examiné : motivation"
+      "principe": "P23",
+      "motif": "Le droit de visite, ses deux fréquences minimales (L341-2, L341-3) et la motivation des refus (L341-4) en un article.",
+      "ligne_rouge": "CEDH art. 8, vie familiale examinée : fréquences minimales, motivation des refus et motifs fermés gardés",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le droit des personnes détenues au maintien des relations avec les membres de leur famille s'exerce notamment par les visites. Elles peuvent recevoir la visite des membres de leur famille ou d'autres personnes au moins trois fois par semaine si elles sont prévenues, au moins une fois par semaine si elles sont condamnées. Tout refus de délivrer un permis de visite est motivé."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "L341-5",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Seul siège du retrait et de la suspension du permis de visite d'un prévenu par le magistrat. Renvois entrants : R. 341-1, R. 341-2, L. 6114-15 du code de procédure pénale. Renvoi à l'ancien 145-4 corrigé.",
-      "ligne_rouge": "CEDH art. 8 examiné : la décision sur les visites du prévenu reste au magistrat.",
+      "motif": "Cible de la passe 2 (renvoi coordonné), sans « prévues aux ». Seul siège de la compétence du magistrat, cité par R341-1, R341-2 et L. 6114-15 du code de procédure pénale.",
+      "ligne_rouge": "CEDH art. 8, vie familiale examinée : fréquences minimales, motivation des refus et motifs fermés gardés",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "dans les conditions prévues par les dispositions de l'article 145-4 du code de procédure pénale",
-          "nouveau": "dans les conditions prévues aux articles L. 3645-10 et L. 3645-11 du code de procédure pénale"
+          "op": "rediger",
+          "nouveau": "Pour les personnes prévenues, les permis de visite sont délivrés, refusés, retirés ou suspendus par le magistrat chargé du dossier de la procédure, dans les conditions des articles L. 3645-10 et L. 3645-11 du code de procédure pénale."
         }
       ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L341-7",
+      "principe": "P23",
+      "motif": "Mêmes motifs fermés, phrases resserrées.",
+      "ligne_rouge": "CEDH art. 8, vie familiale examinée : fréquences minimales, motivation des refus et motifs fermés gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour les personnes condamnées, l'autorité administrative ne refuse, ne suspend ou ne retire un permis de visite que pour des motifs liés au maintien du bon ordre et de la sécurité ou à la prévention des infractions. Elle le peut aussi, pour les visiteurs qui ne sont pas membres de la famille, lorsque les visites font obstacle à la réinsertion de la personne condamnée."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L341-8",
+      "principe": "P23",
+      "motif": "La première phrase (« peuvent accueillir toute personne détenue ») est contenue dans le droit à une visite par trimestre.",
+      "ligne_rouge": "CEDH art. 8, vie familiale examinée : fréquences minimales, motivation des refus et motifs fermés gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute personne détenue peut bénéficier, à sa demande, d'au moins une visite par trimestre dans une unité de vie familiale ou un parloir familial, dont la durée tient compte de l'éloignement du visiteur. Pour une personne prévenue, ce droit s'exerce sous réserve de l'accord de l'autorité chargée du dossier de la procédure."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L342-1",
+      "principe": "P15",
+      "motif": "Avis conforme du juge gardé (c'est son contrôle sur la détention qu'il a ordonnée). Le renvoi au décret passe à L345-7.",
+      "ligne_rouge": "contrôle du juge examiné : avis conforme contestable gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Une personne prévenue dont l'instruction est achevée peut bénéficier d'un rapprochement familial jusqu'à sa comparution devant la juridiction de jugement, après avis conforme de l'autorité judiciaire, contestable selon l'article L. 3742-28 du code de procédure pénale."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L344-1",
+      "principe": "P20",
+      "motif": "Information de la famille gardée. Le renvoi au décret passe à L345-7.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'une personne détenue s'est donné la mort, l'administration pénitentiaire informe immédiatement sa famille ou ses proches des circonstances dans lesquelles est intervenu le décès et facilite, à leur demande, les démarches qu'ils peuvent être conduits à engager."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L345-1",
+      "principe": "P23",
+      "motif": "Seul énoncé de la liberté de correspondance des prévenus, cité par 434-35 du code pénal et L. 6114-15 du code de procédure pénale : « prévues par les dispositions de » tombe.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes prévenues peuvent correspondre par écrit avec toute personne de leur choix, sous réserve des interdictions de correspondance ou retenues décidées par le magistrat chargé du dossier de la procédure dans les conditions de l'article L. 3645-13 du code de procédure pénale."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L345-2",
+      "principe": "P25",
+      "motif": "Correspondance écrite libre des condamnés, citée par R345-3.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L345-3",
+      "principe": "P23",
+      "motif": "Mêmes motifs graves, même notification, phrases directes.",
+      "ligne_rouge": "vie privée examinée : contrôle borné à des motifs graves, retenue notifiée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire peut contrôler et retenir le courrier adressé ou reçu par une personne détenue lorsqu'il paraît compromettre gravement sa réinsertion ou le maintien du bon ordre et la sécurité. Elle notifie toute retenue à la personne. Le courrier des personnes prévenues est en outre communiqué à l'autorité judiciaire selon les modalités qu'elle détermine."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L345-4",
+      "principe": "P23",
+      "motif": "Même liste, sans point-virgule.",
+      "ligne_rouge": "droits de la défense examinés : correspondance avec le défenseur protégée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ne peuvent être ni contrôlées ni retenues les correspondances échangées entre les personnes détenues et leur défenseur, les autorités administratives et judiciaires françaises et internationales dont la liste est fixée par l'article D. 345-10, ou les aumôniers agréés auprès de l'établissement pénitentiaire."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L345-5",
+      "principe": "P13",
+      "motif": "Droit de téléphoner et motifs de restriction gardés. Le renvoi interne suit le titre II réécrit (L223-5 fusionné dans L227-3).",
+      "ligne_rouge": "vie privée examinée : contrôle encadré par L223-1 à L223-4",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes détenues ont le droit de téléphoner aux membres de leur famille. Elles peuvent être autorisées à téléphoner à d'autres personnes pour préparer leur réinsertion. L'accès au téléphone peut être refusé, suspendu ou retiré pour des motifs liés au maintien du bon ordre et de la sécurité ou à la prévention des infractions. Les communications sont contrôlées dans les conditions des articles L. 223-1 à L. 223-4."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L345-6",
+      "principe": "P23",
+      "motif": "Règle propre gardée (L. 3645-11 du code de procédure pénale ne porte ni la suspension ni le retrait), phrase directe.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes prévenues ne peuvent téléphoner que sur autorisation du magistrat chargé du dossier de la procédure. Il peut leur refuser, suspendre ou retirer l'accès au téléphone pour les nécessités de l'information, outre les motifs de l'article L. 345-5."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L345-7",
+      "principe": "P20",
+      "motif": "Clause unique d'application du titre : elle reçoit les renvois de L341-9, L342-1, L344-1 et L345-7.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'Etat fixe les modalités d'application du présent titre."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L341-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fréquence minimale des visites ou motivation des refus : une phrase de L341-1, inchangée.",
+      "ligne_rouge": "aucune",
+      "vers": "L341-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L341-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fréquence minimale des visites ou motivation des refus : une phrase de L341-1, inchangée.",
+      "ligne_rouge": "aucune",
+      "vers": "L341-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "L341-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fréquence minimale des visites ou motivation des refus : une phrase de L341-1, inchangée.",
+      "ligne_rouge": "aucune",
+      "vers": "L341-1"
     },
     {
       "code": "penitentiaire",
       "num": "L341-6",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de L. 3645-11 et L. 3645-15 du code de procédure pénale, qui portent l'interdiction de communiquer et l'obstacle qu'elle fait aux visites.",
+      "motif": "Miroir de L. 3645-11 et L. 3645-15 du code de procédure pénale (interdiction de communiquer).",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L341-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Refus, suspension et retrait du permis de visite des condamnés pour des motifs nommés : bornes de l'atteinte à la vie familiale.",
-      "ligne_rouge": "CEDH art. 8 examiné : motifs limitatifs"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L341-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Unités de vie familiale et parloirs familiaux, au moins une visite par trimestre : vie familiale.",
-      "ligne_rouge": "CEDH art. 8 examiné : vie familiale"
     },
     {
       "code": "penitentiaire",
       "num": "L341-9",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L342-1",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Rapprochement familial des prévenus en attente de jugement, sur avis conforme contestable de l'autorité judiciaire : ce n'est pas un avis consultatif, c'est le contrôle du juge sur la détention provisoire qu'il a ordonnée. Il reste. La proposition de supprimer l'avis est écartée.",
-      "ligne_rouge": "CEDH art. 8 examiné : rapprochement familial ouvert, décision contestable devant le président de la chambre des investigations et des libertés"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L344-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information immédiate de la famille en cas de suicide, aide aux démarches : les proches sont avisés. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L345-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Liberté de correspondance des prévenus, seul énoncé du code. Renvoi déjà coordonné. Cité par CP 434-35 et CPP L6114-15.",
-      "ligne_rouge": "CEDH art. 8 examiné : liberté de correspondance gardée, restrictions par le juge (L. 3645-13 du code de procédure pénale)."
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L345-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Condamnés : correspondance écrite libre.",
-      "ligne_rouge": "CEDH art. 8 examiné : correspondance"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L345-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contrôle et retenue du courrier pour des motifs graves, décision notifiée : atteinte bornée. La proposition de déclasser est écartée.",
-      "ligne_rouge": "CEDH art. 8 examiné : motifs graves, notification"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L345-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Correspondances protégées avec l'avocat, les autorités et les aumôniers.",
-      "ligne_rouge": "art. 16 DDHC et CEDH art. 8 examinés : correspondance avec l'avocat protégée"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L345-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Droit de téléphoner à la famille, restrictions pour des motifs nommés, contrôle selon L. 223-1 à L. 223-5.",
-      "ligne_rouge": "CEDH art. 8 examiné : motifs limitatifs"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L345-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Téléphone des prévenus sur autorisation du magistrat. L. 3645-11 du code de procédure pénale porte l'autorisation et le refus, mais non la suspension ni le retrait pour les nécessités de l'information : règle propre, l'article se garde.",
-      "ligne_rouge": "CEDH art. 8 examiné : restriction motivée par l'information"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "L345-7",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Renvoi au décret du chapitre : clause unique du titre à L345-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L345-7"
     }
-  ]
+  ],
+  "passe": 3
 }
