@@ -1,0 +1,74 @@
+{
+  "lot": "lot_p077",
+  "titre": "Livre II, titre III : régime disciplinaire des personnes détenues",
+  "ecart_volume": "Le Conseil constitutionnel exige que la loi encadre le régime disciplinaire des personnes détenues (art. 34 C, droits de la défense, art. 66 C) : les plafonds de durée, l'avocat, l'accès au dossier, le membre extérieur, le parloir et la santé restent dans la loi. Le titre passe de 408 à 264 mots : sous le plafond, il faudrait retirer une de ces garanties.",
+  "articles_cible": [
+    {
+      "num": "L231-1",
+      "texte": "Un décret en Conseil d'Etat fixe le régime disciplinaire des personnes détenues, dans les limites suivantes :\n1° Les fautes disciplinaires sont classées selon leur nature et leur gravité. Les sanctions sont graduées selon la gravité des fautes.\n2° Le placement en cellule disciplinaire ou le confinement en cellule individuelle ordinaire ne peut excéder vingt jours, ou trente jours pour tout acte de violence physique contre les personnes.\n3° La commission de discipline comprend au moins un membre extérieur à l'administration pénitentiaire.\n4° La personne peut être assistée d'un avocat choisi ou commis d'office, au besoin avec l'aide de l'Etat. Le dossier de la procédure est mis à sa disposition. Son avocat, ou elle-même si elle n'est pas assistée, prend connaissance de tout élément utile à l'exercice des droits de la défense, sauf risque d'atteinte à la sécurité publique ou à celle des personnes.\n5° La personne placée en cellule disciplinaire ou confinée exerce son droit à un parloir hebdomadaire.\n6° Le placement ou le confinement prend fin lorsqu'il est incompatible avec l'état de santé de la personne.",
+      "verbe": "R",
+      "principe": "P25",
+      "motif": "La loi pose elle-même les bornes du régime au lieu de les confier au décret : les six garanties sont écrites comme règles, le décret en Conseil d'État garde les modalités (contenu des fautes, échelle des sanctions, procédure, conditions de l'accès au dossier et du parloir, constat de l'incompatibilité).",
+      "ligne_rouge": "art. 66 C et art. 16 DDHC examinés : classement des fautes, plafonds de vingt et trente jours, membre extérieur, avocat choisi ou commis avec l'aide de l'État, accès au dossier, parloir hebdomadaire, fin de la mesure incompatible avec la santé : tous écrits dans la loi"
+    },
+    {
+      "num": "L231-2",
+      "texte": "En cas d'urgence, la personne détenue peut être placée à titre préventif en cellule disciplinaire ou confinée en cellule individuelle, pour deux jours ouvrables au plus.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Même règle, une phrase.",
+      "ligne_rouge": "art. 66 C examiné : mesure préventive bornée à deux jours ouvrables, gardée"
+    },
+    {
+      "num": "L231-4",
+      "texte": "Avec le consentement de la personne détenue, certains manquements au règlement intérieur de l'établissement, au présent code, au code de procédure pénale ou aux instructions de service peuvent donner lieu à une procédure alternative aux poursuites disciplinaires, dans des conditions fixées par décret en Conseil d'Etat.",
+      "verbe": "S",
+      "principe": "P24",
+      "motif": "Voie rapide gardée. Le renvoi au règlement intérieur ne passe plus par L112-4 : le règlement intérieur type sort du code (technique 4), le règlement de l'établissement demeure.",
+      "ligne_rouge": "droits de la défense examinés : la procédure suppose le consentement de la personne"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L231-3",
+      "verbe": "A",
+      "principe": "P20",
+      "motif": "Rappel du référé-liberté de L. 521-2 du code de justice administrative, ouvert à toute personne sans ce relais. Renvoi entrant de L412-7 (lot p088) et des compteurs d'outre-mer à coordonner.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L231-1#1": {
+      "destin": "reprise",
+      "vers": "L231-1"
+    },
+    "L231-1#2": {
+      "destin": "reprise",
+      "vers": "L231-1"
+    },
+    "L231-1#3": {
+      "destin": "reprise",
+      "vers": "L231-1"
+    },
+    "L231-1#4": {
+      "destin": "reprise",
+      "vers": "L231-1"
+    },
+    "L231-2#1": {
+      "destin": "reprise",
+      "vers": "L231-2"
+    },
+    "L231-2#2": {
+      "destin": "reprise",
+      "vers": "L231-2"
+    },
+    "L231-3#1": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "L231-4#1": {
+      "destin": "reprise",
+      "vers": "L231-4"
+    }
+  }
+}
