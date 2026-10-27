@@ -10,496 +10,652 @@
     {
       "code": "cpp",
       "num": "L6411-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Création du fichier des auteurs d'infractions sexuelles ou violentes et de ses finalités : la passe 1 proposait de déclasser. Un fichier de données pénales qui astreint à des obligations sous peine relève de l'art. 34 : il reste dans la loi.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : fichier créé par la loi, finalités, accès et durées bornés, effacement sous le contrôle d'un magistrat"
+      "principe": "P23",
+      "motif": "Création, tenue et finalités du fichier : phrase d'autorisation au présent, une idée par phrase.",
+      "ligne_rouge": "Art. 2 DDHC (vie privée) examiné : fichier créé par la loi, tenu par le casier judiciaire sous le contrôle d'un magistrat, finalités fermées : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministre de la justice met en œuvre le fichier national automatisé des auteurs d'infractions sexuelles ou violentes. Ce traitement de données à caractère personnel est tenu par le service du casier judiciaire, sous le contrôle d'un magistrat. Il a pour finalités de prévenir le renouvellement des infractions mentionnées à l'article L. 1721-2 et de faciliter l'identification de leurs auteurs. Il reçoit, conserve et communique aux personnes habilitées les informations prévues à l'article L. 6411-5."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Interdiction d'interconnexion hors fichier des personnes recherchées, interdiction de mention dans d'autres fichiers, sanction de 226-21 : garde-fou de la vie privée.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : fichier créé par la loi, finalités, accès et durées bornés, effacement sous le contrôle d'un magistrat"
-    },
-    {
-      "code": "cpp",
-      "num": "L6411-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "L'inscription ne prouve pas à elle seule la récidive. La passe 1 proposait de fusionner avec L6421-3 : chaque fichier a son chapitre, une règle commune obligerait à un article de renvoi, sans gain.",
-      "ligne_rouge": "art. 9 DDHC examiné : la preuve de la récidive reste à la charge de l'accusation, par le casier"
+      "motif": "Reçoit L6411-3 (l'inscription ne prouve pas seule la récidive) : les garde-fous du fichier dans un article, que L6421-2 étend au fichier des auteurs d'infractions terroristes au lieu de les recopier. Article du régime commun des deux fichiers judiciaires : L6421-2 l'applique au fichier des auteurs d'infractions terroristes (technique 3).",
+      "ligne_rouge": "Art. 2 DDHC (vie privée) examiné : interdiction d'interconnexion hors du ministère de la justice (sauf fichier des personnes recherchées), interdiction de mention dans un autre fichier, peine de l'article 226-21 du code pénal, et la présomption d'innocence (art. 9 DDHC) qui interdit de prouver la récidive par la seule inscription : tenues mot pour mot sur le fond.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Aucune interconnexion, au sens de l'article 33 de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, ne relie le fichier à un fichier ou traitement de données à caractère personnel mis en œuvre par une personne ou un service de l'Etat ne dépendant pas du ministère de la justice, sauf au fichier des personnes recherchées pour les diligences prévues au présent chapitre.\nAucun fichier ou recueil de données nominatives détenu par une telle personne ou un tel service ne mentionne les informations du fichier, hors les cas et conditions prévus par la loi.\nLa violation des deux alinéas précédents est punie des peines du délit prévu à l'article 226-21 du code pénal.\nLes informations du fichier ne peuvent, à elles seules, servir de preuve de l'état de récidive."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-4",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Décret en Conseil d'État après avis de la CNIL : la passe 1 proposait de retirer l'avis. Il porte sur un traitement de données pénales et garantit la vie privée (art. 2 DDHC), il se garde.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : fichier créé par la loi, finalités, accès et durées bornés, effacement sous le contrôle d'un magistrat"
+      "principe": "P23",
+      "motif": "Décret en Conseil d'État après avis de la CNIL : gardé (avis protecteur de la vie privée, passe 2), phrase au présent.",
+      "ligne_rouge": "Art. 2 DDHC (vie privée) examiné : avis de la CNIL sur le décret d'un traitement de données pénales gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'Etat, pris après avis de la Commission nationale de l'informatique et des libertés, fixe les modalités d'application du présent chapitre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-5",
+      "principe": "P23",
+      "motif": "Contenu du fichier : texte de la passe 2 (mineurs inscrits, sous la réserve des délits) tenu, la réserve vise désormais L6411-6 qui reçoit L6411-8. Les décisions en liste de phrases ; numérotation 1° à 6° gardée (citée par L6411-6, L6411-21, L6411-24, et par le règlement).",
+      "ligne_rouge": "Art. 8 DDHC examiné : inscription attachée à une décision juridictionnelle ou du parquet nommée, mise en examen inscrite sur ordre du juge d'instruction (de droit en matière criminelle sauf décision motivée) : gardées.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Contenu du fichier et décisions inscrites. Le code de 2029 n'y vise les mineurs de treize à dix-huit ans que « dans le cas prévu à l'article L. 6411-8 », qui ne traite que des délits : les crimes commis par un mineur ne seraient plus inscrits, alors que L6411-14 et L6411-20 supposent leur inscription et que l'ancien 706-53-2 la prévoyait. Rédaction rétablie : mineurs inscrits, sous la réserve de L6411-8 pour les délits.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'inscription est une mesure de sûreté et non une peine, de plein droit pour les faits graves, écartée ou ordonnée par décision motivée de la juridiction pour les autres ; minorité examinée : les mineurs de moins de treize ans restent hors du fichier, les délits d'un mineur n'y entrent que sur décision expresse (L6411-8), la durée est réduite à dix ans (L6411-20)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "des personnes majeures et, dans le cas prévu à l'article L. 6411-8, des mineurs de treize à dix-huit ans,",
-          "nouveau": "des personnes majeures et des mineurs de treize à dix-huit ans, sous réserve de l'article L. 6411-8,"
+          "op": "rediger",
+          "nouveau": "Sont enregistrés dans le fichier l'identité et les adresses successives du domicile et, le cas échéant, des résidences des personnes majeures et des mineurs de treize à dix-huit ans, sous réserve de l'article L. 6411-6, qui ont fait l'objet, pour une ou plusieurs des infractions mentionnées à l'article L. 1721-2 :\n1° D'une condamnation, même non définitive ou par défaut, ou d'une déclaration de culpabilité assortie d'une dispense ou d'un ajournement de la peine.\n2° D'une décision, même non définitive, prononçant à l'égard d'un mineur une mesure éducative, une dispense de mesure éducative ou une déclaration de réussite éducative en application du titre Ier du livre Ier du code de la justice pénale des mineurs.\n3° D'une composition pénale dont le procureur de la République a constaté l'exécution.\n4° D'une décision d'irresponsabilité pénale pour cause de trouble mental.\n5° D'une mise en examen, lorsque le juge d'instruction a ordonné l'inscription. En matière criminelle, l'inscription est de droit, sauf décision motivée du juge d'instruction.\n6° D'une décision de même nature rendue par une juridiction ou une autorité judiciaire étrangère, qui a fait l'objet d'un avis aux autorités françaises en application d'une convention ou d'un accord internationaux ou qui a été exécutée en France après le transfèrement de la personne condamnée.\nLe fichier comprend aussi la décision qui a justifié l'inscription et la nature de l'infraction."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6411-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Délits punis de cinq ans : inscription de plein droit, sauf décision contraire spécialement motivée. La charge de la motivation pèse sur l'écart, comme le veut la méthode.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'inscription est une mesure de sûreté et non une peine, de plein droit pour les faits graves, écartée ou ordonnée par décision motivée de la juridiction pour les autres"
-    },
-    {
-      "code": "cpp",
-      "num": "L6411-7",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Délits punis de moins de cinq ans : inscription sur décision expresse, de plein droit si la victime est mineure, sauf décision spécialement motivée. La protection de la victime mineure est la règle.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'inscription est une mesure de sûreté et non une peine, de plein droit pour les faits graves, écartée ou ordonnée par décision motivée de la juridiction pour les autres"
-    },
-    {
-      "code": "cpp",
-      "num": "L6411-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Délits commis par un mineur : inscription seulement sur décision expresse. Atténuation de la responsabilité des mineurs tenue.",
-      "ligne_rouge": "minorité examinée : inscription d'un mineur pour un délit seulement sur décision expresse de la juridiction ou du parquet"
+      "principe": "P23",
+      "motif": "Reçoit L6411-7 (délits punis de moins de cinq ans, victime mineure) et L6411-8 (auteur mineur) : les trois règles d'inscription des délits dans un article, chacune à son champ exact ; l'autorité qui décide est dite une fois. Relecture : champ borné aux délits punis de cinq ans au plus ou commis par un mineur (les autres restent inscrits de droit), et la règle des mineurs prime, comme dans la lettre de 2029.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la charge de la motivation pèse sur l'écart (délit puni de cinq ans, victime mineure) ; l'auteur mineur n'est inscrit que sur décision expresse (minorité, P25) : champs et décideurs inchangés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Par dérogation à l'article L. 6411-5, la décision qui concerne un délit mentionné à l'article L. 1721-2 puni de cinq ans d'emprisonnement au plus, ou commis par un mineur de treize à dix-huit ans, est inscrite dans le fichier selon les règles suivantes :\n1° Si le délit est puni de cinq ans d'emprisonnement, ou s'il est puni de moins de cinq ans et que la victime est mineure, elle est inscrite, sauf décision contraire spécialement motivée.\n2° Si le délit est puni de moins de cinq ans et que la victime est majeure, elle n'est inscrite que sur décision expresse.\n3° Si elle concerne un mineur de treize à dix-huit ans, elle n'est inscrite que sur décision expresse, quels que soient la peine encourue et l'âge de la victime.\nLa décision contraire ou expresse appartient à la juridiction ou, dans les cas prévus aux 3° et 4° de l'article L. 6411-5, au procureur de la République."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Accès des autorités judiciaires, des officiers de police judiciaire et du greffe pénitentiaire. Le 3° est désormais le seul siège de l'enregistrement de l'écrou et de la libération par le greffe pénitentiaire : le code pénitentiaire a abrogé ses miroirs (L212-8, L512-4, lots p078 et p095) en s'y appuyant. Il se garde.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : fichier créé par la loi, finalités, accès et durées bornés, effacement sous le contrôle d'un magistrat"
+      "principe": "P23",
+      "motif": "Accès judiciaire : phrase resserrée, 3° gardé (seul siège de l'enregistrement de l'écrou par le greffe pénitentiaire depuis l'abrogation des miroirs du code pénitentiaire).",
+      "ligne_rouge": "Art. 2 DDHC (vie privée) examiné : accès des officiers de police judiciaire borné aux infractions nommées, sinon sur instruction ou autorisation d'un magistrat : tenu.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ont un accès direct au fichier, par un système de communications électroniques sécurisé :\n1° Les autorités judiciaires.\n2° Les officiers de police judiciaire, pour les procédures concernant un crime d'atteinte volontaire à la vie, d'enlèvement ou de séquestration ou une infraction mentionnée à l'article L. 1721-2, et pour les diligences prévues aux articles L. 6411-15 et L. 6411-17. Pour une autre infraction, ils le consultent sur instruction ou avec l'autorisation du procureur de la République ou du juge d'instruction.\n3° Les agents des greffes pénitentiaires spécialement habilités par les chefs d'établissement, pour vérifier que la personne incarcérée a reçu l'information prévue à l'article L. 6411-12 et pour enregistrer les dates de mise sous écrou et de libération et l'adresse du domicile déclaré par la personne libérée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Accès des préfets et administrations pour les activités au contact des mineurs et des majeurs vulnérables, destinataires locaux par l'intermédiaire du préfet : protection des plus faibles (objectif 2), accès borné par décret.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : fichier créé par la loi, finalités, accès et durées bornés, effacement sous le contrôle d'un magistrat"
-    },
-    {
-      "code": "cpp",
-      "num": "L6411-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Obligations de sûreté des personnes inscrites, sous la peine de L6411-18 : charpente de la section.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Accès administratif pour les activités au contact des mineurs et des majeurs vulnérables : phrases resserrées, listes et renvois au décret gardés.",
+      "ligne_rouge": "Art. 2 DDHC (vie privée) examiné : accès borné aux procédures de recrutement, d'agrément ou de contrôle d'activités nommées, administrations fixées par décret : tenu.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ont aussi un accès direct au fichier, par le même système, les préfets et les administrations de l'Etat dont la liste est fixée par le décret prévu à l'article L. 6411-4, pour les procédures de recrutement, d'affectation, d'autorisation, d'agrément ou d'habilitation, ou pour le contrôle de l'exercice :\n1° Des activités ou professions impliquant un contact avec des mineurs.\n2° Des activités ou professions, dont la liste est fixée par décret en Conseil d'Etat, impliquant un contact avec des majeurs en situation de vulnérabilité du fait de leur âge ou de leur handicap, au sens de l'article L. 114 du code de l'action sociale et des familles.\nLes maires et les présidents d'établissement public de coopération intercommunale, de conseil départemental et de conseil régional reçoivent ces informations, pour les mêmes procédures et contrôles, par l'intermédiaire des préfets ou des administrations de l'Etat désignées par décret en Conseil d'Etat."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-12",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Information de la personne inscrite, au besoin par la force publique sur autorisation du procureur : la passe 1 proposait de déclasser. La contrainte par la force publique relève de la loi, les modalités sont déjà renvoyées au règlement.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Information de la personne inscrite et recours à la force publique : une idée par phrase. Article du régime commun des deux fichiers judiciaires : L6421-2 l'applique au fichier des auteurs d'infractions terroristes (technique 3).",
+      "ligne_rouge": "Droits de la défense examinés : la personne est informée de son inscription, de ses obligations et des peines encourues avant de pouvoir être poursuivie ; la force publique n'est employée qu'avec l'autorisation préalable du procureur de la République.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'autorité judiciaire informe la personne de son inscription dans le fichier, des obligations qui en découlent et des peines encourues si elle ne les respecte pas, selon des modalités fixées par voie réglementaire. En cas de nécessité, un officier de police judiciaire délivre cette information en recourant à la force publique, avec l'autorisation préalable du procureur de la République."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-13",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Justification annuelle de l'adresse et déclaration des changements d'adresse. L'ancien 706-53-5, dans sa version en vigueur, astreint aussi à déclarer toute demande et tout changement de nom ou de prénom : le code de 2029 l'omet, ce qui ouvre une voie d'évasion au contrôle. L'obligation est reprise. Le manquement est puni par L6411-11 et L6411-18, comme il l'est depuis le 29 juillet 2026 par le dernier alinéa de l'ancien 706-53-5 : ni délit ni peine nouveaux.",
-      "ligne_rouge": "art. 2 DDHC, vie privée examinée : la déclaration du changement de nom sert la seule finalité du fichier, sous les garanties de L6411-2 ; art. 8 DDHC, légalité examinée : obligation et peine dans la loi, fait précis (demande ou changement de nom, délai de quinze jours).",
+      "principe": "P23",
+      "motif": "Reçoit L6411-11 (obligations à titre de mesure de sûreté) : les obligations dans l'article qui les énonce. Texte de la passe 2 tenu (déclaration des changements de nom, coordination avec l'ancien 706-53-5 en vigueur). Délais dits en une formule ; la peine est à L6411-18.",
+      "ligne_rouge": "Art. 8 DDHC examiné : obligations de mesure de sûreté proportionnées (justification annuelle, déclarations dans les quinze jours) ; aucune obligation ni peine nouvelle au-delà de la passe 2.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "2° De déclarer leurs changements d'adresse, dans un délai de quinze jours au plus tard après ce changement.",
-          "nouveau": "2° De déclarer leurs changements d'adresse, dans un délai de quinze jours au plus tard après ce changement.3° De déclarer toute demande de changement de prénom ou de nom, au plus tard quinze jours après le dépôt de la demande auprès de l'officier de l'état civil, ainsi que tout changement de prénom ou de nom, dans un délai de quinze jours à compter de ce changement."
+          "op": "rediger",
+          "nouveau": "A titre de mesure de sûreté, la personne inscrite dans le fichier est tenue :\n1° De justifier de son adresse une première fois après avoir reçu l'information prévue à l'article L. 6411-12, puis chaque année.\n2° De déclarer tout changement d'adresse dans les quinze jours.\n3° De déclarer toute demande de changement de prénom ou de nom dans les quinze jours de son dépôt auprès de l'officier de l'état civil, et tout changement de prénom ou de nom dans les quinze jours."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6411-14",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Justification semestrielle pour les crimes et délits punis de dix ans, mensuelle sur décision ou de plein droit en récidive : intensité graduée selon la gravité. Mineurs : crimes punis de vingt ans seulement.",
-      "ligne_rouge": "art. 8 DDHC examiné : obligations de sûreté proportionnées à la gravité des faits, bornées dans le temps, relevables sur demande ; minorité examinée : présentation renforcée réservée au mineur condamné pour un crime puni de vingt ans"
+      "principe": "P23",
+      "motif": "Reçoit L6411-16 (suspension pendant l'incarcération) : régime renforcé et suspension dans un article ; « régime de présentation mensuelle » dit « chaque mois ». Relecture : l'exception des mineurs vise le seul premier alinéa, la suspension pendant l'incarcération leur reste acquise.",
+      "ligne_rouge": "Art. 8 DDHC examiné : intensité graduée selon la gravité, régime mensuel sur décision d'une juridiction ou de plein droit en récidive, mineur limité aux crimes punis d'au moins vingt ans : tenus.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne condamnée pour un crime ou pour un délit puni de dix ans d'emprisonnement justifie de son adresse tous les six mois. Elle en justifie chaque mois si sa dangerosité le justifie et que la juridiction de jugement ou, selon l'article L. 5131-3, le juge de l'application des peines l'a ordonné. Elle en justifie chaque mois de plein droit si elle est en état de récidive légale.\nLe premier alinéa ne s'applique au mineur de treize à dix-huit ans qu'en cas de condamnation pour un crime puni d'au moins vingt ans de réclusion.\nLes obligations de justification et de présentation prévues à l'article L. 6411-13 et au premier alinéa du présent article cessent pendant l'incarcération de la personne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-15",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Lieux et formes de la justification. La présentation en personne pour le régime renforcé garantit le contrôle d'identité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6411-16",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Obligations suspendues pendant l'incarcération : elles n'ont pas d'objet.",
-      "ligne_rouge": "aucune"
+      "principe": "P1",
+      "motif": "Lieux et formes des justifications : la lettre recommandée devient la formule unique de L1632-5 (registre 5.4, 9.24). La présentation en personne du régime renforcé reste dans la loi ; la liste des services où la personne se présente descend au décret, qui la porte déjà (R53-8-15).",
+      "ligne_rouge": "Art. 8 DDHC examiné : le mode de justification garantit l'identité et la date, condition du délit de L6411-18, et la présentation en personne reste dans la loi : tenus. Seule la désignation des services descend au décret.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne justifie de son adresse et fait ses déclarations au service de police ou de gendarmerie de son domicile, en s'y présentant ou par tout moyen permettant d'en établir la date de réception. Si elle réside à l'étranger, elle les adresse au gestionnaire du fichier par tout moyen permettant d'en établir la date de réception. Dans le cas prévu à l'article L. 6411-14, elle justifie de son adresse en se présentant en personne au service de police ou de gendarmerie que désigne le décret prévu à l'article L. 6411-4."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-17",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Avis sans délai au ministère de l'intérieur, inscription sans délai au fichier des personnes recherchées : délai opposable aux services.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Avis au ministère de l'intérieur et inscription au fichier des personnes recherchées : les trois cas d'avis en une phrase (cités par L3576-1). Article du régime commun des deux fichiers judiciaires : L6421-2 l'applique au fichier des auteurs d'infractions terroristes (technique 3). L'écart propre au terrorisme (déplacements, services compétents) est écrit à L6421-2.",
+      "ligne_rouge": "Délai opposable aux services (P19) : avis et inscription sans délai, tenus.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le gestionnaire du fichier avise directement le ministère de l'intérieur de toute nouvelle inscription, de tout changement d'adresse et de tout défaut de justification d'adresse dans les délais. Le ministère transmet sans délai l'information aux services de police ou de gendarmerie compétents.\nS'il apparaît que la personne ne se trouve plus à l'adresse indiquée, l'officier de police judiciaire en informe le procureur de la République, qui la fait inscrire sans délai au fichier des personnes recherchées. Les services de police ou de gendarmerie peuvent procéder à toutes vérifications et réquisitions utiles auprès des administrations publiques pour vérifier ou retrouver l'adresse de la personne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-18",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Manquement aux obligations : deux ans et 30 000 euros. Atteinte à l'autorité de la justice et à la sûreté des personnes, au noyau, peine cohérente avec L6421-16.",
-      "ligne_rouge": "art. 8 DDHC examiné : délit autonome, peine fixée par la loi et prononcée par le juge"
+      "principe": "P23",
+      "motif": "Reçoit le renvoi de L6411-11 : le délit vise désormais les obligations des articles L6411-13 à L6411-15, qui sont toutes celles de la section : champ inchangé, peine inchangée.",
+      "ligne_rouge": "Art. 8 DDHC examiné : délit et peine inchangés (deux ans, 30 000 euros), aucun élargissement : les obligations visées sont exactement celles de la section.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fait, pour la personne inscrite dans le fichier, de ne pas respecter les obligations prévues aux articles L. 6411-13 à L. 6411-15 est puni de deux ans d'emprisonnement et de 30 000 euros d'amende."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-19",
+      "principe": "P23",
+      "motif": "Avis au fichier des personnes recherchées des retraits, effacements et changements d'état civil : texte de la passe 2 tenu (coordination avec l'ancien 706-53-8 en vigueur), en une phrase (cité par L3576-1). Article du régime commun des deux fichiers judiciaires : L6421-2 l'applique au fichier des auteurs d'infractions terroristes (technique 3).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; vie privée : le fichier des personnes recherchées suit les effacements.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Avis au fichier des personnes recherchées en cas de retrait ou d'effacement. La passe 1 proposait de fusionner avec L6421-18 : chaque fichier a sa section, la fusion exigerait un renvoi croisé. Coordination avec l'ancien 706-53-8 dans sa version du 29 juillet 2026 : l'avis des changements d'état civil est repris.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "ajouter_alinea",
-          "nouveau": "Le gestionnaire du fichier avise aussi directement le service gestionnaire du fichier des personnes recherchées des changements d'état civil dont il a connaissance au vu du répertoire national d'identification des personnes physiques."
+          "op": "rediger",
+          "nouveau": "Le gestionnaire du fichier avise directement le service gestionnaire du fichier des personnes recherchées de tout retrait ou effacement de mentions, et des changements d'état civil dont il a connaissance au vu du répertoire national d'identification des personnes physiques."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6411-20",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Durées de conservation : trente ans pour les crimes et délits punis de dix ans, vingt ans sinon, dix ans pour un mineur, à compter de la libération. Durées graduées, nécessité établie.",
-      "ligne_rouge": "art. 8 DDHC examiné : durée bornée et graduée selon la gravité et la minorité, effacement anticipé ouvert (L6411-24)"
+      "principe": "P23",
+      "motif": "Durées de conservation : phrases resserrées, durées et point de départ inchangés.",
+      "ligne_rouge": "Art. 8 DDHC examiné : durées graduées (trente, vingt, dix ans pour un mineur), point de départ à la libération : inchangés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les informations concernant une personne sont retirées du fichier à l'expiration d'un délai, courant du prononcé de la décision prévue à l'article L. 6411-5, de :\n1° Trente ans s'il s'agit d'un crime ou d'un délit puni de dix ans d'emprisonnement.\n2° Vingt ans dans les autres cas.\nCe délai est de dix ans s'il s'agit d'un mineur. Lorsque la personne exécute une peine privative de liberté sans sursis en application de la condamnation qui a entraîné l'inscription, ces délais ne courent qu'à compter de sa libération."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-21",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Retrait en cas de non-lieu, relaxe ou acquittement : la passe 1 proposait de déclasser. La règle tient la présomption d'innocence, elle reste dans la loi.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : la mention tombe avec la décision qui écarte la culpabilité"
-    },
-    {
-      "code": "cpp",
-      "num": "L6411-22",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Retrait au décès.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6411-23",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Amnistie, réhabilitation et effacement du casier sans effet sur le fichier : la mesure de sûreté suit sa propre durée. La passe 1 proposait de fusionner avec L6421-22 : même raison que L6411-19.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6411-22 (décès) et L6411-23 (amnistie, réhabilitation) : tous les retraits hors délai dans un article. Article du régime commun des deux fichiers judiciaires : L6421-2 l'applique au fichier des auteurs d'infractions terroristes (technique 3). L'écart propre au terrorisme (retrait sur décision de la juridiction) est écrit à L6421-2.",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : retrait de droit en cas de non-lieu, relaxe ou acquittement définitif, tenu ; la mesure de sûreté garde sa propre durée malgré l'amnistie ou la réhabilitation (passe 2).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les mentions prévues aux 1°, 2° et 5° de l'article L. 6411-5 sont retirées du fichier en cas de décision définitive de non-lieu, de relaxe ou d'acquittement. Celles du 5° peuvent aussi être retirées sur décision du juge d'instruction.\nLes informations concernant une personne sont retirées du fichier à son décès. L'amnistie, la réhabilitation et les règles d'effacement des condamnations du casier judiciaire n'entraînent pas leur effacement."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-24",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Demande de rectification ou d'effacement au procureur ou au juge d'instruction, au regard de la finalité du fichier.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'effacement reste ouvert sur demande, la décision est motivée au regard de la finalité du fichier, et un recours devant un juge du siège est ouvert"
+      "principe": "P23",
+      "motif": "Reçoit le 1° de L6411-25 (irrecevabilité pendant la procédure), le premier alinéa de L6411-27 (vérifications) et L6411-26 (recours au président de la chambre) : la demande, sa recevabilité, son instruction et son recours dans un article. Article du régime commun des deux fichiers judiciaires : L6421-2 l'applique au fichier des auteurs d'infractions terroristes (technique 3). Le juge d'instruction, qui statue sur la demande dans le cas du 5°, peut aussi faire procéder aux vérifications (alignement sur le fichier des auteurs d'infractions terroristes, P3).",
+      "ligne_rouge": "Contrôle d'un juge du siège (P17, P25) : recours au président de la chambre des investigations et des libertés gardé ; demande ouverte sur l'exactitude et sur la nécessité de la conservation.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne inscrite peut demander au procureur de la République de rectifier les informations la concernant ou d'en ordonner l'effacement :\n1° Si elles ne sont pas exactes.\n2° Si leur conservation n'apparaît plus nécessaire compte tenu de la finalité du fichier, au regard de la nature de l'infraction, de l'âge de la personne lors de sa commission, du temps écoulé depuis lors et de sa personnalité actuelle.\nLa même demande peut être faite au juge d'instruction lorsque l'inscription résulte d'une mise en examen, sur le fondement du 5° de l'article L. 6411-5. La demande d'effacement est irrecevable tant que les mentions se rapportent à une procédure judiciaire en cours, sauf inscription sur ce fondement.\nAvant de statuer, le procureur de la République, le juge d'instruction ou le président de la chambre des investigations et des libertés peut faire procéder à toutes les vérifications nécessaires, notamment à une expertise médicale de la personne. Si le procureur de la République ou le juge d'instruction n'ordonne pas la rectification ou l'effacement, la personne peut exercer un recours devant le président de la chambre des investigations et des libertés."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-25",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Irrecevabilité pendant la procédure et avant effacement du bulletin n° 1 : la passe 1 proposait de déclasser. La recevabilité d'une demande touchant une mesure de sûreté relève de la loi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L6411-26",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Recours devant le président de la chambre des investigations et des libertés : un juge du siège.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Irrecevabilité propre au fichier des auteurs d'infractions sexuelles ou violentes (bulletin n° 1) : le cas commun de la procédure en cours passe à L6411-24.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; la condition d'effacement préalable du bulletin n° 1, sauf réhabilitation, est tenue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La demande d'effacement est aussi irrecevable tant que la mesure qui a entraîné l'inscription n'a pas été effacée du bulletin n° 1 du casier judiciaire, sauf en cas de réhabilitation."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-27",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Vérifications et expertise médicale, obligatoire avant tout effacement pour un crime ou un délit de dix ans contre un mineur : protection des enfants.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'expertise conditionne l'effacement anticipé, elle ne prolonge pas la durée légale"
+      "principe": "P23",
+      "motif": "Le premier alinéa (vérifications) passe à L6411-24, commun aux deux fichiers ; reste l'expertise obligatoire avant l'effacement d'une mention grave commise contre un mineur, propre à ce fichier.",
+      "ligne_rouge": "Art. 8 DDHC examiné : expertise préalable obligatoire pour un crime ou un délit puni de dix ans commis contre un mineur : tenue ; la faculté de vérification survit à L6411-24.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "S'il s'agit d'une mention concernant soit un crime, soit un délit puni de dix ans d'emprisonnement et commis contre un mineur, l'effacement ne peut intervenir sans expertise médicale de la personne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6411-28",
-      "decision": "G",
       "principe": "P7",
-      "motif": "Allègement de la périodicité de présentation sur demande : soupape au juge, proportionnée.",
-      "ligne_rouge": "aucune"
+      "motif": "Allègement de la périodicité de présentation : phrase resserrée, renvoi à la demande de L6411-24.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; soupape au juge gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les cas prévus à l'article L. 6411-14, le procureur de la République ou le président de la chambre des investigations et des libertés, saisi d'une demande selon l'article L. 6411-24, peut aussi ordonner, à la demande de la personne, qu'elle ne justifie de son adresse en se présentant qu'une fois par an ou, si elle se présentait chaque mois, qu'une fois tous les six mois."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Champ de la rétention et de la surveillance de sûreté : crimes les plus graves, peine de quinze ans au moins. La protection des victimes potentielles en est l'objet.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai ; art. 8 DDHC examiné : mesure de sûreté réservée aux crimes les plus graves, à titre exceptionnel, prévue par la juridiction de condamnation, subsidiaire aux autres mesures"
+      "principe": "P23",
+      "motif": "Champ des deux mesures : crimes et seuil de quinze ans inchangés, liste des articles du code pénal tenue à l'identique (citée par de nombreux articles des cinquième et sixième parties).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : champ fermé aux crimes les plus graves punis d'au moins quinze ans de réclusion, inchangé ; aucun élargissement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les conditions du présent chapitre, peuvent faire l'objet, à l'issue de l'exécution de leur peine, d'une rétention de sûreté ou d'une surveillance de sûreté les personnes condamnées à une réclusion criminelle d'au moins quinze ans :\n1° Pour les crimes d'assassinat ou de meurtre, de torture ou actes de barbarie, de viol, d'enlèvement ou de séquestration commis sur une victime mineure.\n2° Pour les crimes prévus aux articles 221-2, 221-3, 221-4, 222-2, 222-3, 222-4, 222-5, 222-6, 222-24, 222-25, 222-26, 224-2, 224-3 et 224-5-2 du code pénal, commis sur une victime majeure.\n3° Pour les crimes de meurtre, de torture ou d'actes de barbarie, de viol, d'enlèvement ou de séquestration commis en récidive."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Définition de la rétention (prise en charge permanente visant la fin de la mesure) et de la surveillance de sûreté (obligations de la surveillance judiciaire). La passe 1 proposait une réécriture d'aménagement : c'est une mesure de sûreté, non une remise de peine.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai"
+      "principe": "P23",
+      "motif": "Définition des deux mesures : phrases resserrées (citée par L4325-12 et L4325-19).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la rétention est une prise en charge permanente destinée à permettre la fin de la mesure : définition tenue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La rétention de sûreté consiste dans le placement de la personne dans un centre socio-médico-judiciaire de sûreté, où lui est proposée en permanence une prise en charge médicale, sociale et psychologique destinée à permettre la fin de la mesure.\nLa surveillance de sûreté comprend des obligations identiques à celles de la surveillance judiciaire prévue au chapitre Ier du titre VI du livre II de la cinquième partie, notamment une injonction de soins et, après vérification de sa faisabilité technique, un placement sous surveillance électronique mobile."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-3",
-      "decision": "R",
       "principe": "P26",
-      "motif": "Juridiction régionale, jugement motivé après débat contradictoire avec avocat, recours national et pourvoi : gardés. Le débat, public seulement à la demande de la personne, devient public par principe, en chambre du conseil à la demande de la victime pour sa protection, à la demande de la personne, de la victime pour sa protection, pour la sécurité nationale, si la personne était mineure ou si la publicité mettrait gravement en danger la vie ou l'intégrité physique d'une personne, comme le débat de l'application des peines (L5131-3, lot p002). Registre 3.4 : audience publique selon la règle commune, exceptions de L. 1 seules. La demande de la personne, le danger grave et la santé mentale ne fondent plus la chambre du conseil.",
-      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la privation de liberté se décide par une juridiction, après débat contradictoire, avocat présent, recours ouvert, et la publicité renforce ce contrôle. Vie privée et santé (CEDH art. 8) examinées : l'évaluation de dangerosité se débat en public, perte déclarée (registre 3.4). Minorité examinée : chambre du conseil pour les faits commis en minorité (L. 1).",
+      "motif": "Texte de la passe 2 tenu : débat public dans les conditions de L. 1 (registre 3.4). Phrases resserrées ; c'est le siège des formes et des recours auxquels renvoient les articles du chapitre, qui nomment ensuite la juridiction « juridiction régionale ».",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : décision d'une juridiction composée de magistrats du siège, jugement motivé, débat contradictoire avec avocat choisi ou commis d'office, recours devant la juridiction nationale et pourvoi en cassation : tenus.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Si la personne le demande, ce débat est public.",
-          "nouveau": "Ce débat est public. Il se tient en chambre du conseil dans les cas prévus à l'article L. 1."
+          "op": "rediger",
+          "nouveau": "La juridiction régionale de la rétention de sûreté territorialement compétente décide du placement en rétention de sûreté ou sous surveillance de sûreté. Elle statue par jugement motivé, après un débat contradictoire, public dans les conditions de l'article L. 1, au cours duquel la personne est assistée par un avocat choisi ou commis d'office. Sa décision est exécutoire dès la fin de la peine.\nElle peut faire l'objet d'un recours devant la juridiction nationale de la rétention de sûreté, qui statue par une décision motivée susceptible de pourvoi en cassation."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6412-4",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Suspension par une détention, confirmation dans les trois mois au-delà de six mois de détention, sinon fin d'office : délai opposable à l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai"
+      "motif": "Suspension par une détention, confirmation dans les trois mois : phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : confirmation par la juridiction dans un délai opposable, sinon fin d'office de la mesure : tenue.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La rétention de sûreté et la surveillance de sûreté sont suspendues par toute détention intervenue pendant leur exécution. Si la détention dépasse six mois, la juridiction régionale confirme la reprise de la mesure dans les trois mois qui suivent la fin de la détention. A défaut, il est mis fin d'office à la mesure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-5",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Demande de fin de mesure après trois mois, fin d'office à défaut de décision dans les trois mois : délai opposable, contrôle du juge sur demande.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai"
+      "motif": "Demande de fin de mesure : phrases resserrées, délais inchangés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : droit de demander la fin de la mesure après trois mois, fin d'office faute de décision dans les trois mois, recours de L6412-3 : tenus.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Trois mois après la décision définitive de rétention de sûreté ou de surveillance de sûreté, la personne peut demander à la juridiction régionale d'y mettre fin. Il est mis fin d'office à la mesure si la juridiction n'a pas statué dans les trois mois de la réception de la demande. Après un rejet, aucune nouvelle demande n'est recevable avant trois mois. La décision est susceptible des recours prévus à l'article L. 6412-3."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-6",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Mesures inapplicables pendant une libération conditionnelle non révoquée : la libération porte déjà ses obligations, pas de double régime.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Exclusion pendant la libération conditionnelle : phrase resserrée.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent chapitre ne s'applique pas à la personne qui bénéficie d'une libération conditionnelle, sauf si celle-ci a été révoquée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-7",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : la passe 1 proposait de déclasser ; c'est déjà le renvoi au règlement.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Reçoit L6412-12 (droits des personnes retenues fixés par le décret) : le décret d'application et son encadrement dans un article.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le décret n'apporte aux droits des personnes retenues que les restrictions strictement nécessaires à l'ordre public : garantie tenue mot pour mot sur le fond.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'Etat fixe les conditions et les modalités d'application du présent chapitre. Il précise les conditions d'exercice des droits des personnes retenues, notamment en matière d'emploi, d'éducation et de formation, de visites, de correspondances, d'exercice du culte et de permissions de sortie sous escorte ou sous surveillance électronique mobile. Il n'apporte à ces droits que les restrictions strictement nécessaires aux exigences de l'ordre public."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Rétention à titre exceptionnel, si la cour l'a prévue à la condamnation et si la dangerosité tient à un trouble grave de la personnalité : la juridiction de jugement garde la main au prononcé.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai ; art. 8 DDHC examiné : mesure de sûreté réservée aux crimes les plus graves, à titre exceptionnel, prévue par la juridiction de condamnation, subsidiaire aux autres mesures"
+      "principe": "P23",
+      "motif": "Conditions de la rétention : phrases resserrées, conditions inchangées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : Art. 8 DDHC examiné : rétention exceptionnelle, prévue par la cour au prononcé (individualisation au prononcé), dangerosité tenant à un trouble grave de la personnalité : tenues.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La rétention de sûreté ne peut être prononcée à l'égard des personnes mentionnées à l'article L. 6412-1 qu'à titre exceptionnel, lorsque les conditions suivantes sont réunies :\n1° La cour d'assises ou la cour criminelle départementale a expressément prévu, dans sa décision de condamnation, que la personne pourra faire l'objet à la fin de sa peine d'un réexamen de sa situation en vue d'une éventuelle rétention de sûreté.\n2° Il est établi, à l'issue de ce réexamen, que la personne présente une particulière dangerosité caractérisée par une probabilité très élevée de récidive parce qu'elle souffre d'un trouble grave de la personnalité."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Examen par la commission un an avant la libération, six semaines d'évaluation et double expertise : le préalable de la mesure la plus lourde.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Examen par la commission un an avant la libération : phrases resserrées (cité par L4325-12) ; la commission est ensuite nommée « la commission ».",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; double expertise et évaluation de six semaines gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La commission pluridisciplinaire des mesures de sûreté examine la situation des personnes mentionnées à l'article L. 6412-8 au moins un an avant la date prévue pour leur libération, afin d'évaluer leur dangerosité. Elle demande à cette fin leur placement, pour au moins six semaines, dans un service spécialisé chargé de l'observation des personnes détenues, aux fins d'une évaluation pluridisciplinaire de dangerosité assortie d'une expertise médicale réalisée par deux experts."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Avis motivé de la commission, double condition de subsidiarité et vérification de la prise en charge pendant la peine. La passe 1 proposait une réécriture d'aménagement : c'est le cœur des garanties de la mesure.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai ; art. 8 DDHC examiné : mesure de sûreté réservée aux crimes les plus graves, à titre exceptionnel, prévue par la juridiction de condamnation, subsidiaire aux autres mesures"
+      "principe": "P23",
+      "motif": "Avis motivé de la commission : phrases resserrées, double condition de subsidiarité et vérification de la prise en charge inchangées (cité par L4325-12). Le fichier est désigné par son article de création, L6411-1.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : Art. 8 DDHC examiné : subsidiarité (insuffisance des autres mesures, unique moyen), probabilité très élevée, vérification de la prise en charge pendant la peine : tenues mot pour mot sur le fond.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la commission conclut à la particulière dangerosité de la personne condamnée, elle peut proposer, par un avis motivé, sa rétention de sûreté lorsque :\n1° Les obligations résultant de l'inscription dans le fichier prévu à l'article L. 6411-1, ainsi que celles d'une injonction de soins ou d'un placement sous surveillance électronique mobile susceptibles d'être prononcés dans le cadre d'un suivi socio-judiciaire ou d'une surveillance judiciaire, apparaissent insuffisantes pour prévenir la commission des crimes mentionnés à l'article L. 6412-1.\n2° Cette rétention constitue l'unique moyen de prévenir la commission, dont la probabilité est très élevée, de ces infractions.\nLa commission vérifie aussi que la personne a effectivement été mise en mesure de bénéficier, pendant l'exécution de sa peine, d'une prise en charge médicale, sociale et psychologique adaptée au trouble de la personnalité dont elle souffre.\nSi elle estime que les conditions de la rétention de sûreté ne sont pas remplies mais que la personne paraît dangereuse, elle renvoie le dossier au juge de l'application des peines, qui apprécie un éventuel placement sous surveillance judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-11",
+      "principe": "P23",
+      "motif": "Texte de la passe 2 tenu (renvoi corrigé vers L6412-3) ; la vérification de la prise en charge est écrite en toutes lettres (relecture : garantie de l'art. 66 C), le « quatrième alinéa du présent article » est nommé par son objet.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : saisine trois mois avant la libération, contre-expertise de droit, vérification de la prise en charge par la juridiction écrite en toutes lettres, motivation spéciale : tenues.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Saisine par le procureur général trois mois avant la libération, contre-expertise de droit, motivation spéciale. Le renvoi à « L. 6412-2 » (définition des mesures) vise en réalité les règles de décision de L. 6412-3 (ancien 706-53-15).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai ; art. 8 DDHC examiné : mesure de sûreté réservée aux crimes les plus graves, à titre exceptionnel, prévue par la juridiction de condamnation, subsidiaire aux autres mesures",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "La juridiction statue conformément à l'article L. 6412-2.",
-          "nouveau": "La juridiction statue conformément à l'article L. 6412-3."
+          "op": "rediger",
+          "nouveau": "Lorsque la commission propose une rétention de sûreté, le procureur général saisit la juridiction régionale au moins trois mois avant la date prévue pour la libération de la personne. La juridiction statue selon l'article L. 6412-3. La contre-expertise que sollicite la personne est de droit. La juridiction ne peut prononcer la rétention qu'après avoir vérifié que la personne a effectivement été mise en mesure de bénéficier, pendant l'exécution de sa peine, d'une prise en charge médicale, sociale et psychologique adaptée au trouble de la personnalité dont elle souffre. Sa décision est spécialement motivée au regard des 1° et 2° de l'article L. 6412-10 et de cette prise en charge."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L6412-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Droits des personnes retenues fixés par décret, restrictions strictement nécessaires : la passe 1 proposait une réécriture d'aménagement, l'article encadre le décret et protège la personne.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L6412-13",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Durée d'un an, renouvellement sur avis favorable de la commission. L'avis conforme est un verrou contre la prolongation : il garantit une liberté, il se garde (P15). Renvoi à « L. 6412-2 » corrigé en L. 6412-3, siège des règles de décision.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai",
+      "principe": "P23",
+      "motif": "Reçoit L6412-14 (fin d'office) : durée, renouvellement et fin de la rétention dans un article. Texte de la passe 2 tenu (renvoi vers L6412-3).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : durée d'un an, renouvellement sur avis favorable de la commission (verrou conforme gardé), fin d'office et immédiate dès que les conditions ne sont plus remplies : tenus.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "selon les modalités prévues par l'article L. 6412-2 et pour la même durée",
-          "nouveau": "selon les modalités prévues par l'article L. 6412-3 et pour la même durée"
+          "op": "rediger",
+          "nouveau": "La rétention de sûreté est décidée pour un an. Elle peut être renouvelée pour la même durée, selon l'article L. 6412-3 et après avis favorable de la commission, tant que les conditions prévues aux 1° et 2° de l'article L. 6412-10 restent remplies. La juridiction régionale y met fin d'office et immédiatement dès que ces conditions ne sont plus remplies."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L6412-14",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Fin d'office dès que les conditions ne sont plus remplies : le juge doit libérer.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai"
-    },
-    {
-      "code": "cpp",
       "num": "L6412-15",
-      "decision": "G",
       "principe": "P6",
-      "motif": "Le suivi socio-judiciaire prononcé reprend à la fin de la rétention : la peine complémentaire ne se perd pas.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai"
-    },
-    {
-      "code": "cpp",
-      "num": "L6412-16",
+      "motif": "Reprise du suivi socio-judiciaire à la fin de la rétention : phrase resserrée.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la peine complémentaire reprend pour sa durée fixée par la condamnation : tenu.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Surveillance de sûreté à la sortie de rétention. Le 1° renvoie à « L. 6412-4 » (suspension par détention) pour la fin de rétention sur demande de la personne : c'est L. 6412-5 (ancien 706-53-17).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'article L. 6412-4",
-          "nouveau": "l'article L. 6412-5"
+          "op": "rediger",
+          "nouveau": "Le suivi socio-judiciaire prononcé contre une personne placée en rétention de sûreté s'applique, pour la durée fixée par la condamnation, à compter de la fin de la rétention."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6412-17",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Surveillance de sûreté du condamné à perpétuité libéré conditionnellement avec injonction de soins. Renvoi à « L. 6412-2 » corrigé en L. 6412-3. Conjonction manquante dans la double constatation de l'expertise : rétablie.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai ; art. 8 DDHC examiné : mesure de sûreté réservée aux crimes les plus graves, à titre exceptionnel, prévue par la juridiction de condamnation, subsidiaire aux autres mesures",
+      "principe": "P3",
+      "motif": "Reçoit L6412-16, L6412-18 et L6412-19 : les quatre cas de placement sous surveillance de sûreté (après libération conditionnelle, surveillance judiciaire, retrait des réductions de peine, rétention) dans un article, avec une seule écriture de l'expertise et de la double condition, qui gardent leur champ exact (1° et 2°). Textes de la passe 2 tenus (renvois vers L6412-3, L6412-5, coquilles de L6412-19 corrigées). Rétablit l'ancien 763-8, abrogé sans numéro par l'ordonnance (P13), selon la même méthode que les anciens 706-53-5 et 706-25-7 en passe 2. Base de R53-8-44. Ni mesure ni condition nouvelles par rapport au droit de 2026. Relecture : la portée des conditions (saisine, expertise, subsidiarité) est dite à chaque phrase pour les 1°, 2° et 5°.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : Art. 8 DDHC examiné : décision selon les formes de L6412-3 ; pour les 1° et 2°, saisine six mois avant la fin de la mesure, expertise préalable, insuffisance du fichier et unique moyen face à une probabilité très élevée ; pour le 3°, risque de réitération ; pour le 4°, même décision et risque : tenus mot pour mot sur le fond ; le 5° rétablit le cas de l'ancien 763-8 (droit de 2026), sous les mêmes conditions que les 1° et 2°.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "selon les modalités prévues par l'article L. 6412-2, décider",
-          "nouveau": "selon les modalités prévues par l'article L. 6412-3, décider"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "la persistance de la dangerosité le caractère indispensable",
-          "nouveau": "la persistance de la dangerosité et le caractère indispensable"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L6412-18",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Surveillance de sûreté à la suite d'une surveillance judiciaire. Renvoi à « L. 6412-2 » corrigé en L. 6412-3 (ancien 706-53-15, que visait l'ancien 723-37).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai ; art. 8 DDHC examiné : mesure de sûreté réservée aux crimes les plus graves, à titre exceptionnel, prévue par la juridiction de condamnation, subsidiaire aux autres mesures",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "selon les modalités prévues par l'article L. 6412-2, décider",
-          "nouveau": "selon les modalités prévues par l'article L. 6412-3, décider"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L6412-19",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Surveillance de sûreté après retrait de toutes les réductions de peine. L'article renvoie au titre du terrorisme (« L. 6421-2 », interdiction d'interconnexion du fichier, et « L. 6421-1 ») au lieu des articles L. 6412-3 (règles de décision) et L. 6412-1 (crimes visés) : coquilles corrigées.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai ; art. 8 DDHC examiné : mesure de sûreté réservée aux crimes les plus graves, à titre exceptionnel, prévue par la juridiction de condamnation, subsidiaire aux autres mesures",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "selon les modalités prévues à l'article L. 6421-2,",
-          "nouveau": "selon les modalités prévues à l'article L. 6412-3,"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "l'une des infractions mentionnées à l'article L. 6421-1.",
-          "nouveau": "l'une des infractions mentionnées à l'article L. 6412-1."
+          "op": "rediger",
+          "nouveau": "La juridiction régionale peut, selon l'article L. 6412-3, placer sous surveillance de sûreté :\n1° La personne condamnée à la réclusion criminelle à perpétuité pour l'un des crimes mentionnés à l'article L. 6412-1 qui a bénéficié d'une libération conditionnelle avec injonction de soins, en prolongeant avec injonction de soins tout ou partie de ses obligations au-delà de la libération conditionnelle.\n2° La personne condamnée à une réclusion criminelle d'au moins quinze ans pour l'une de ces infractions et placée sous surveillance judiciaire, en prolongeant tout ou partie de ses obligations au-delà de la surveillance judiciaire.\n3° La personne placée sous surveillance judiciaire à laquelle toutes les réductions de peine ont été retirées en application de l'article L. 5261-17, à la suite d'une violation de ses obligations dans des conditions qui font apparaître des risques qu'elle commette à nouveau l'une de ces infractions. La surveillance de sûreté s'applique dès sa libération.\n4° La personne dont elle fait cesser la rétention de sûreté, sur sa demande en application de l'article L. 6412-5, faute de renouvellement ou d'office en application de l'article L. 6412-13, si elle présente des risques de commettre ces infractions. Elle l'ordonne par la même décision.\n5° La personne condamnée à une réclusion criminelle d'au moins quinze ans pour l'une de ces infractions et soumise à un suivi socio-judiciaire, en prolongeant tout ou partie de ses obligations au-delà de la durée prononcée par la juridiction de jugement et des limites prévues à l'article 131-36-1 du code pénal, y compris si elle a bénéficié d'une libération conditionnelle.\nDans les cas des 1°, 2° et 5°, la juridiction est saisie par le juge de l'application des peines ou le procureur de la République six mois avant la fin de la mesure en cours. Dans ces cas, le placement ne peut être ordonné qu'après une expertise médicale constatant la persistance de la dangerosité et, dans le cas du 1°, le caractère indispensable du maintien d'une injonction de soins pour prévenir la récidive. Il ne peut l'être, dans ces mêmes cas, que si les obligations résultant de l'inscription dans le fichier prévu à l'article L. 6411-1 apparaissent insuffisantes pour prévenir la commission des crimes mentionnés à l'article L. 6412-1, et si cette mesure constitue l'unique moyen de prévenir leur commission, dont la probabilité est très élevée."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6412-20",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Consentement à la surveillance électronique mobile et avertissement des suites du refus : garantie tenue.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la rétention qui peut suivre le refus reste décidée dans les conditions de L6412-22"
+      "principe": "P23",
+      "motif": "Avertissement sur le consentement à la surveillance électronique mobile : phrase resserrée.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : consentement exigé et avertissement des suites du refus : tenus.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la surveillance de sûreté comprend un placement sous surveillance électronique mobile, le président de la juridiction régionale avertit la personne que ce placement ne peut être mis en œuvre sans son consentement, mais qu'à défaut, ou si elle manque à ses obligations, son placement dans un centre socio-médico-judiciaire de sûreté pourra être ordonné dans les conditions de l'article L. 6412-22."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-21",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Surveillance de sûreté de deux ans, prolongeable si les conditions demeurent : durée bornée. La passe 1 proposait une réécriture d'aménagement : sans objet.",
-      "ligne_rouge": "aucune"
+      "motif": "Durée de deux ans et prolongation : phrases resserrées.",
+      "ligne_rouge": "Durée bornée (P19) examinée : deux ans, prolongation dans les mêmes formes si les conditions demeurent : tenues.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le placement sous surveillance de sûreté est décidé pour deux ans. Il peut être prolongé dans les mêmes formes et pour la même durée si les conditions qui l'ont justifié restent remplies. Le placement sous surveillance électronique mobile qu'il comprend peut être renouvelé tant que dure la surveillance de sûreté."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L6412-22",
+      "principe": "P23",
+      "motif": "Texte de la passe 2 tenu (renvoi vers L6412-3) ; ordre des phrases resserré : condition de subsidiarité et refus de soins avant la confirmation.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : placement provisoire en urgence par un juge, subsidiarité, confirmation dans les trois mois après avis favorable de la commission (verrou conforme gardé), sinon fin d'office, recours ouverts : tenus.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Placement provisoire en urgence, confirmation dans les trois mois sur avis favorable de la commission, sinon fin d'office. L'avis conforme protège la liberté, il se garde (P15). Renvoi à « L. 6412-2 » corrigé en L. 6412-3, qui porte aussi les recours visés par « ce même article ».",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : rétention prononcée et renouvelée par une juridiction de magistrats du siège, après débat contradictoire et avec avocat, réexamen sur demande, fin d'office à défaut de décision dans le délai",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par la juridiction régionale statuant conformément à l'article L. 6412-2,",
-          "nouveau": "par la juridiction régionale statuant conformément à l'article L. 6412-3,"
+          "op": "rediger",
+          "nouveau": "Si la méconnaissance de ses obligations par la personne placée sous surveillance de sûreté fait apparaître qu'elle présente à nouveau une particulière dangerosité caractérisée par une probabilité très élevée de commettre à nouveau l'une des infractions mentionnées à l'article L. 6412-1, le président de la juridiction régionale peut ordonner en urgence son placement provisoire dans un centre socio-médico-judiciaire de sûreté. Ce placement ne peut être ordonné que si un renforcement des obligations de la surveillance apparaît insuffisant pour prévenir ces infractions. Le refus de commencer ou de poursuivre le traitement prescrit par le médecin traitant et proposé dans le cadre d'une injonction de soins constitue une telle méconnaissance.\nLa juridiction régionale confirme le placement dans les trois mois au plus, selon l'article L. 6412-3, après avis favorable de la commission. A défaut, il est mis fin d'office à la rétention. La décision de confirmation peut faire l'objet des recours prévus au même article."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6412-23",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Rétention de vingt-quatre heures et mandats en cas de violation, présentation au président : régime commun de l'application des peines.",
-      "ligne_rouge": "art. 66 C examiné : rétention de vingt-quatre heures sous le contrôle du magistrat, avec les droits de L5122-10"
+      "principe": "P23",
+      "motif": "Rétention de vingt-quatre heures et mandats : phrases resserrées, renvois au régime commun de l'application des peines gardés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : rétention de vingt-quatre heures selon le régime commun, mandat d'un juge (du parquet en cas d'urgence et d'empêchement), présentation au président de la juridiction : tenus.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas de violation de ses obligations par la personne placée sous surveillance de sûreté :\n1° Elle peut être appréhendée par les services de police ou les unités de gendarmerie et placée en rétention vingt-quatre heures selon les articles L. 5122-10 à L. 5122-12.\n2° Le juge de l'application des peines ou, en cas d'urgence et d'empêchement de ce juge ou du magistrat du siège qui le remplace, le procureur de la République peut décerner un mandat d'arrêt ou d'amener selon les articles L. 5124-1 à L. 5124-3, pour sa présentation au président de la juridiction régionale. Si ce président ordonne son placement en rétention, elle peut être retenue le temps strictement nécessaire à sa conduite au centre."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L6411-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6411-2, dernier alinéa (garde-fous du fichier).",
+      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) : la règle passe mot pour mot sur le fond au dernier alinéa de L6411-2.",
+      "vers": "L6411-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L6411-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6411-6, 2° (délits punis de moins de cinq ans, victime mineure).",
+      "ligne_rouge": "Art. 8 DDHC examiné : inscription sur décision expresse, de plein droit si la victime est mineure sauf décision spécialement motivée : tenue au 2° de L6411-6.",
+      "vers": "L6411-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L6411-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6411-6, 3° (auteur mineur).",
+      "ligne_rouge": "Minorité (P25) : inscription du mineur auteur d'un délit sur décision expresse seulement, tenue au 3° de L6411-6.",
+      "vers": "L6411-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L6411-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6411-13 (mesure de sûreté) et L6411-18 (peine).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; la qualification de mesure de sûreté et le renvoi à la peine survivent à L6411-13 et L6411-18.",
+      "vers": "L6411-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L6411-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6411-14, dernier alinéa (suspension pendant l'incarcération).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; suspension tenue mot pour mot sur le fond.",
+      "vers": "L6411-14"
+    },
+    {
+      "code": "cpp",
+      "num": "L6411-22",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6411-21 (retraits hors délai).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "L6411-21"
+    },
+    {
+      "code": "cpp",
+      "num": "L6411-23",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6411-21 (retraits hors délai).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "L6411-21"
+    },
+    {
+      "code": "cpp",
+      "num": "L6411-26",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6411-24, dernier alinéa (recours au président de la chambre des investigations et des libertés).",
+      "ligne_rouge": "Contrôle d'un juge du siège : recours tenu mot pour mot sur le fond à L6411-24.",
+      "vers": "L6411-24"
+    },
+    {
+      "code": "cpp",
+      "num": "L6412-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6412-7 (décret d'application et droits des personnes retenues).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : les restrictions aux droits des personnes retenues restent bornées à ce qu'exige strictement l'ordre public, à L6412-7.",
+      "vers": "L6412-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L6412-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans L6412-13 (fin d'office de la rétention).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le juge met fin d'office et immédiatement à la rétention dès que ses conditions cessent : garantie tenue mot pour mot sur le fond à L6412-13.",
+      "vers": "L6412-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L6412-16",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Fusionné dans L6412-17, 4° (surveillance de sûreté à la sortie de la rétention) : les quatre cas de placement sous surveillance de sûreté dans un article. Texte de la passe 2 tenu (renvoi vers L6412-5).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : placement décidé par la même décision et seulement en cas de risque de commettre les infractions de L6412-1 : tenu au 4° de L6412-17.",
+      "vers": "L6412-17"
+    },
+    {
+      "code": "cpp",
+      "num": "L6412-18",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Fusionné dans L6412-17, 2° et dernier alinéa (surveillance de sûreté après une surveillance judiciaire).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : Art. 8 DDHC examiné : saisine six mois avant la fin, expertise préalable et conditions de subsidiarité tenues au dernier alinéa de L6412-17, pour le seul cas du 2°.",
+      "vers": "L6412-17"
+    },
+    {
+      "code": "cpp",
+      "num": "L6412-19",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Fusionné dans L6412-17, 3° (surveillance de sûreté après retrait des réductions de peine).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : Art. 8 DDHC examiné : décision selon L6412-3, condition de risque de réitération et application dès la libération tenues au 3° de L6412-17.",
+      "vers": "L6412-17"
     }
-  ]
+  ],
+  "passe": 3
 }
