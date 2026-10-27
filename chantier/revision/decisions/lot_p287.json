@@ -10,176 +10,227 @@
     {
       "code": "cpp",
       "num": "L1451-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Administrateur ad hoc et avocat du mineur victime quand ses représentants ne protègent pas ses intérêts, appel non suspensif en dix jours : la victime mineure est défendue.",
-      "ligne_rouge": "minorité examinée : protection du mineur victime, tenue"
+      "principe": "P23",
+      "motif": "Administrateur ad hoc du mineur victime, avocat d'office, appel non suspensif en dix jours : gardés, phrases resserrées. Le renvoi au décret en Conseil d'État (liste et indemnisation) reste.",
+      "ligne_rouge": "Minorité examinée : la protection du mineur victime par un tiers quand ses représentants y manquent est gardée, avec l'appel des représentants légaux.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République ou le juge d'instruction saisi de faits commis volontairement contre un mineur lui désigne un administrateur ad hoc lorsque ses représentants légaux, ou l'un d'eux, n'assurent pas complètement la protection de ses intérêts. Il le choisit parmi les proches de l'enfant ou sur une liste de personnalités. L'administrateur ad hoc protège les intérêts du mineur et exerce en son nom, s'il y a lieu, les droits de la partie civile. La juridiction de jugement dispose des mêmes pouvoirs.\nEn cas de constitution de partie civile, le juge fait désigner un avocat d'office au mineur qui n'en a pas choisi.\nLes représentants légaux du mineur peuvent faire appel de la désignation, sans effet suspensif, dans les dix jours de sa notification, devant la chambre des investigations et des libertés ou la chambre des appels délictuels ou contraventionnels.\nUn décret en Conseil d'État fixe la constitution de la liste et l'indemnisation des administrateurs ad hoc."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1451-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Avocat obligatoire du mineur victime d'infraction sexuelle ou violente entendu par le juge, accès au dossier : la victime mineure est assistée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1451-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Accompagnement du mineur victime par son représentant, une personne de son choix ou une association : la victime mineure est soutenue.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Avocat obligatoire du mineur victime entendu par le juge d'instruction, accès au dossier : gardés, phrases resserrées.",
+      "ligne_rouge": "Minorité et droits de la défense de la victime (art. 16 DDHC) examinés : l'avocat d'office et l'accès au dossier sont gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le mineur victime d'une infraction mentionnée à l'article L. 1721-2 est assisté par un avocat lorsque le juge d'instruction l'entend, même sans constitution de partie civile. À défaut d'avocat choisi par ses représentants légaux ou par l'administrateur ad hoc, le juge avise immédiatement le bâtonnier, qui en commet un d'office. Lors des auditions suivantes, cet avocat a accès au dossier, peut en obtenir copie et est convoqué comme les avocats des parties civiles."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1451-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Enregistrement audiovisuel des auditions du mineur victime pour en limiter le nombre : une audition, une trace.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Enregistrement audiovisuel des auditions du mineur victime : gardé. La mention de l'impossibilité technique relève de la règle générale de L1622-2.",
+      "ligne_rouge": "Minorité et vie privée examinées : l'enregistrement limite le nombre des auditions, sa diffusion reste punie (L3131-4).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Afin d'en limiter le nombre, toute audition d'un mineur victime d'une infraction mentionnée à l'article L. 1721-2 au cours de l'enquête et de l'information fait l'objet d'un enregistrement audiovisuel. L'audition d'un mineur victime d'une infraction prévue aux articles 222-33-2-2 et 222-33-2-3 du code pénal peut faire l'objet d'un tel enregistrement. Le procureur de la République ou le juge d'instruction peut décider un enregistrement seulement sonore si l'intérêt du mineur le justifie. Il est avisé sans délai de l'audition réalisée au cours de l'enquête ou sur commission rogatoire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1451-5",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Présence d'un psychologue, d'un médecin, d'un proche ou de l'administrateur ad hoc aux auditions du mineur victime : protection proportionnée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Accompagnement du mineur victime (L1451-3) et présence d'un tiers à ses auditions : un article. L'accompagnement suit la règle générale de L1421-1, avec ses seuls écarts (administrateur ad hoc, association habilitée).",
+      "ligne_rouge": "Minorité examinée : l'accompagnement et la présence d'un psychologue, d'un médecin ou d'un proche sont gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le mineur victime d'un crime ou d'un délit peut être accompagné, dans les conditions de l'article L. 1421-1, par son représentant légal, par la personne majeure de son choix ou par un représentant d'une association d'aide aux victimes habilitée par le ministre de la justice, sauf si un administrateur ad hoc lui a été désigné.\nAu cours de l'enquête ou de l'information, l'audition ou la confrontation d'un mineur victime d'une infraction mentionnée à l'article L. 1721-2 se fait, sur décision du procureur de la République ou du juge d'instruction, le cas échéant à la demande du mineur ou de son représentant légal, en présence d'un psychologue ou d'un médecin spécialistes de l'enfance, d'un membre de sa famille, de l'administrateur ad hoc ou d'une personne chargée d'un mandat du juge des enfants."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1452-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information de la victime de violences conjugales sur le bracelet anti-rapprochement, que seule la juridiction ordonne : la victime est informée.",
-      "ligne_rouge": "art. 8 DDHC examiné : le dispositif est ordonné par la juridiction compétente, l'information ne préjuge pas de la mesure"
-    },
-    {
-      "code": "cpp",
-      "num": "L1452-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information de la victime de violences conjugales sur l'ordonnance de protection : la victime est informée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1452-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information sur l'aide d'urgence du code de l'action sociale : la victime est informée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Informations de la victime de violences au sein du couple au dépôt de plainte : dispositif anti-rapprochement, ordonnance de protection (L1452-2) et aide d'urgence (L1452-3) en un article, appelé par la règle générale de L1411-3.",
+      "ligne_rouge": "art. 8 DDHC examiné : l'information sur le dispositif anti-rapprochement ne touche pas la peine, seule la juridiction l'ordonne.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime qui dépose plainte pour une infraction commise par son conjoint, son concubin ou le partenaire lié à elle par un pacte civil de solidarité, même sans cohabitation, ou par l'un d'eux après la rupture, est informée :\n1° De son droit d'être informée sur les ordonnances de protection que peut délivrer le juge aux affaires familiales en application du titre XIV du livre Ier du code civil.\n2° De l'aide d'urgence dont elle peut bénéficier au titre de l'article L. 214-9 du code de l'action sociale et des familles.\n3° Si l'infraction est punie d'au moins trois ans d'emprisonnement, de sa faculté de demander le dispositif électronique mobile anti-rapprochement prévu à l'article L. 3621-8 du présent code, à l'article 132-45-1 du code pénal ou à l'article 515-11-1 du code civil, ou d'y consentir, que la juridiction compétente peut ordonner. Cette information est délivrée oralement et par la remise d'un document."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1452-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Téléprotection grave danger pour la victime de viol ou de violences conjugales, hors cohabitation : sûreté de la victime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1452-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Consentement exprès de la victime au dispositif et à sa géolocalisation : la protection ne s'impose pas à elle.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 sans objet : la mesure ne prive personne de liberté, elle protège la victime avec son accord. Art. 2 DDHC (vie privée) examiné : géolocalisation consentie, au seul déclenchement de l'alerte"
-    },
-    {
-      "code": "cpp",
-      "num": "L1452-6",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Attribution par le procureur pour six mois renouvelables, demande par tout moyen : décision au plus près, simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1452-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Attribution subordonnée à une interdiction judiciaire de contact : le dispositif accompagne une décision du juge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1452-8",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Attribution en cas de danger imminent, auteur en fuite ou interdiction pas encore prononcée : la victime n'attend pas.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Téléprotection grave danger : attribution, consentement, géolocalisation, durée, interdiction de contact et danger imminent (L1452-5 à L1452-8) en un article, les conditions énumérées.",
+      "ligne_rouge": "Liberté de la victime (art. 2 DDHC) examinée : le consentement exprès et l'accord à la géolocalisation sont gardés mot pour mot. Contrôle du juge (art. 66 C) examiné : le dispositif suit une interdiction judiciaire de contact, sauf danger avéré et imminent.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut attribuer à la victime d'un viol, ou de violences commises par son conjoint, son concubin ou le partenaire lié à elle par un pacte civil de solidarité, ou par l'un d'eux après la rupture, un dispositif de téléprotection qui lui permet d'alerter les autorités publiques en cas de grave danger. L'attribution peut être sollicitée par tout moyen. Elle est décidée pour une durée renouvelable de six mois.\nLe dispositif n'est attribué qu'aux conditions suivantes :\n1° La victime y consent expressément. Avec son accord, il peut permettre sa géolocalisation au moment où elle déclenche l'alerte.\n2° La victime ne cohabite pas avec la personne suspectée, poursuivie ou condamnée.\n3° L'auteur de l'infraction fait l'objet d'une interdiction judiciaire d'entrer en contact avec la victime, sauf danger avéré et imminent lorsque l'auteur est en fuite, n'a pas encore pu être interpellé ou que l'interdiction n'a pas encore été prononcée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1452-9",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Remise du certificat médical à la victime de violences : la victime dispose de sa preuve. La proposition de déclasser est écartée : le droit relève de la loi, ses modalités sont renvoyées au règlement.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1452-10",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Information de la victime de violences sur les peines encourues et les conditions d'exécution : la loi dit à l'avance ce qui se passe, la peine encourue est la référence annoncée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1452-11",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Anonymat ou huis clos pour la victime de criminalité organisée ou de crimes internationaux, par renvoi à L1532-9 et L1532-10 : protection de la victime, exception admise à la publicité.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Certificat médical de la victime de violences et information au dépôt de plainte sur ce droit, sur les peines encourues et sur l'exécution des condamnations (L1452-10) : un article pour la victime de violences, appelé par L1411-3.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime de violences pour laquelle un officier de police judiciaire ou un magistrat a requis un examen médical a droit à la remise du certificat qui constate son état de santé, selon des modalités fixées par voie réglementaire. Lorsqu'elle dépose plainte, y compris à distance, elle est informée par tout moyen de ce droit, des peines encourues par les auteurs de ces infractions et des conditions d'exécution des condamnations qui pourraient être prononcées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1453-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Domiciliation professionnelle de l'agent public ou du professionnel de santé victime en raison de ses fonctions, sans accord hiérarchique : protection de la victime.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Domiciliation professionnelle de la victime agent public ou professionnel de santé, sans accord hiérarchique, et information sur ce droit : gardées, phrases resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne dépositaire de l'autorité publique ou chargée d'une mission de service public victime d'une infraction commise en raison de ses fonctions ou de sa mission peut déclarer comme domicile son adresse professionnelle, sans l'accord de sa hiérarchie. Il en est de même du professionnel de santé régi par la quatrième partie du code de la santé publique, même s'il exerce à titre libéral. La victime est informée de ce droit lorsqu'elle dépose plainte, y compris à distance, et lorsqu'elle déclare au procureur de la République ou au juge d'instruction vouloir se constituer partie civile."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1453-2",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Plainte obligatoire de l'administration pour les menaces contre ses agents (433-3-1 du code pénal) : la victime n'est pas seule.",
-      "ligne_rouge": "aucune"
+      "motif": "Plainte obligatoire de l'administration pour les menaces contre ses agents (433-3-1 du code pénal) : inchangée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L1453-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Plainte de l'employeur ou de l'ordre pour le compte du professionnel de santé victime : la victime n'est pas seule. Coquille corrigée (« plainte »).",
+      "principe": "P23",
+      "motif": "Plainte de l'employeur ou de l'ordre pour le compte du professionnel de santé victime, et renvoi au décret (L1453-4) : un article. Le « sans préjudice » de L1453-2 tombe : l'obligation de plainte de l'administration vaut par elle-même. Coquille « plaine » corrigée.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Le dépôt de cette plaine ne dispense pas",
-          "nouveau": "Le dépôt de cette plainte ne dispense pas"
+          "op": "rediger",
+          "nouveau": "L'employeur de la victime, l'ordre professionnel ou l'union régionale de professionnels de santé dont elle dépend peut déposer plainte pour le compte d'un professionnel de santé, même s'il exerce à titre libéral, ou d'une personne travaillant avec lui, victime de l'une des infractions prévues aux articles 222-1, 222-9 à 222-13, 222-15, 222-16, 222-17, 222-18, 322-1, 322-3 et 433-3 du code pénal. Cette plainte ne dispense pas l'employeur ou l'organisme représentatif de l'obligation de signalement prévue à l'article L. 1521-1. Elle ne donne pas à l'employeur la qualité de victime. Le présent article ne s'applique pas aux faits commis par un professionnel de santé ou un membre du personnel.\nUn décret précise les professionnels et personnels concernés, les organismes représentatifs autorisés à déposer plainte et les modalités de cette plainte."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L1453-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Renvoi au décret pour L1453-3 : la proposition de déclasser est sans objet, l'article est lui-même un renvoi. Accord corrigé (« selon lesquelles »).",
+      "num": "L1451-3",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Accompagnement du mineur victime : il répète la règle générale de L1421-1 avec deux écarts (administrateur ad hoc, association habilitée), gardés dans L1451-5.",
+      "ligne_rouge": "Minorité examinée : l'accompagnement du mineur est gardé à L1451-5.",
+      "vers": "L1451-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L1452-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information sur l'ordonnance de protection au dépôt de plainte : fusionnée dans L1452-1, 1°.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Les modalités selon lesquels ces organismes",
-          "nouveau": "Les modalités selon lesquelles ces organismes"
-        }
-      ]
+      "vers": "L1452-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1452-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information sur l'aide d'urgence au dépôt de plainte : fusionnée dans L1452-1, 2°. Elle s'étend à la victime d'un ancien conjoint, concubin ou partenaire, comme les deux autres informations.",
+      "ligne_rouge": "aucune",
+      "vers": "L1452-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1452-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Consentement exprès de la victime au dispositif et à sa géolocalisation : fusionné dans L1452-4, 1°, mot pour mot.",
+      "ligne_rouge": "Liberté de la victime (art. 2 DDHC) et art. 66 C examinés : le consentement exprès et l'accord à la géolocalisation sont gardés à L1452-4.",
+      "vers": "L1452-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L1452-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Attribution par le procureur pour six mois renouvelables, sollicitée par tout moyen : fusionnée dans L1452-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L1452-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L1452-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interdiction judiciaire de contact préalable : fusionnée dans L1452-4, 3°.",
+      "ligne_rouge": "aucune",
+      "vers": "L1452-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L1452-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Attribution en cas de danger avéré et imminent : fusionnée dans L1452-4, 3°.",
+      "ligne_rouge": "aucune",
+      "vers": "L1452-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L1452-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information de la victime de violences sur les peines encourues et l'exécution : fusionnée dans L1452-9 (victimes de violences).",
+      "ligne_rouge": "aucune",
+      "vers": "L1452-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L1452-11",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Anonymat, huis clos et protection de la victime de criminalité organisée ou de crimes internationaux : l'article répète L1532-9 et L1532-10, qui visent déjà le témoin et la victime. Le huis clos de la victime suit L. 1 (registre 3.1 et 3.2), l'identité d'emprunt L1532-10.",
+      "ligne_rouge": "Publicité (P26) examinée : la victime obtient le huis clos à sa demande par L. 1, rappelé à L1532-9.",
+      "vers": "L1532-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L1453-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi au décret pour L1453-3 : fusionné dans L1453-3. Accord corrigé (« selon lesquelles »).",
+      "ligne_rouge": "aucune",
+      "vers": "L1453-3"
     }
-  ]
+  ],
+  "passe": 3
 }
