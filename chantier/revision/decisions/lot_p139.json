@@ -10,93 +10,109 @@
     {
       "code": "cpp",
       "num": "L4111-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le procureur apprécie la suite à donner au vu des enquêtes, plaintes et signalements, en droit et en opportunité : siège de l'orientation, nécessaire.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Orientation de la procédure et choix entre investigations, réponse pénale et classement en un article : L. 4111-2 y entre. Le procureur « compétent » est dit une fois.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au vu des enquêtes de police judiciaire, des plaintes et des signalements, le procureur de la République compétent décide de l'orientation de la procédure, en droit et en opportunité. S'il ne fait pas procéder à des investigations selon la troisième partie du présent code, il décide d'une réponse pénale ou d'un classement judiciaire, selon les chapitres 2 et 3 du présent titre."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4111-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Alternative investigations, réponse pénale ou classement : charpente du titre, courte.",
-      "ligne_rouge": "aucune"
+      "principe": "P18",
+      "motif": "Règle générale de l'avis de l'orientation (P2) : les avis de la réponse pénale (L. 4112-2) et du classement (L. 4113-3) deviennent un seul article. La victime est avisée selon la règle générale de L. 1421-6 (motifs du classement compris), l'auteur d'un signalement selon L. 1521-1. Restent propres à l'orientation l'avis au plaignant, l'indication du recours de L. 4113-4 (passe 2) et l'avis à l'autorité militaire.",
+      "ligne_rouge": "art. 16 DDHC et P18 : la victime et le plaignant connaissent les motifs du classement et le recours qui le conteste, avis gardé",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République avise de sa décision de réponse pénale ou de classement judiciaire les plaignants, la victime selon l'article L. 1421-6 et l'auteur du signalement prévu à l'article L. 1521-1. L'avis de classement indique les raisons juridiques ou d'opportunité de la décision et le recours prévu à l'article L. 4113-4. Dans les cas de l'article L. 1212-11, l'avis va au ministre de la défense ou à l'autorité militaire qu'il habilite."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4112-1",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Les trois réponses pénales, dont les voies rapides (composition, transaction, reconnaissance préalable de culpabilité, ordonnance pénale) : la liste ordonne le choix du parquet, elle ne restreint rien.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4112-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Avis aux plaignants, aux victimes identifiées et aux signalants de la réponse retenue : la victime est informée de l'étape.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4112-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "L'amende forfaitaire échappe à l'orientation, sauf contestation : gardé. Le renvoi au « chapitre 4 du titre Ier du présent livre » vise un chapitre qui n'existe pas (le titre Ier du livre Ier n'a que trois chapitres) : l'amende forfaitaire est au chapitre 3 du titre II du livre II de la 4e partie.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article ne fixe ni ne module aucune peine, il renvoie l'amende forfaitaire à son propre régime, contestation comprise",
+      "principe": "P23",
+      "motif": "Les trois réponses pénales, en énumération sans point-virgule. L'exclusion de l'amende forfaitaire (L. 4112-3, renvoi corrigé en passe 2) devient son dernier alinéa : elle vise le présent chapitre.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "conformément aux dispositions du chapitre 4 du titre Ier du présent livre",
-          "nouveau": "conformément aux dispositions du chapitre 3 du titre II du livre II de la présente partie"
+          "op": "rediger",
+          "nouveau": "Lorsque les faits constituent une contravention ou un délit commis par une personne dont l'identité et le domicile sont connus, sans obstacle légal aux poursuites, le procureur de la République décide s'il est opportun de recourir à l'une des réponses pénales suivantes :\n1° Une mesure alternative aux poursuites, selon le titre Ier du livre II de la présente partie.\n2° Une composition pénale ou l'homologation d'une transaction, selon le titre II du même livre.\n3° La saisine du tribunal délictuel ou du tribunal contraventionnel, la comparution sur reconnaissance préalable de culpabilité ou l'ordonnance pénale, selon les livres IV et V.\nLe présent chapitre ne s'applique pas à l'infraction réglée par une amende forfaitaire selon le chapitre 3 du titre II du livre II, sauf contestation de cette amende."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4113-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Classement en droit (pas d'infraction, obstacle légal) : décision du parquet, nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4113-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Classement d'opportunité borné aux circonstances particulières des faits, auteur identifié : la 2029 encadre déjà la faculté, l'avis motivé et le recours (L4113-3, L4113-4) la contrôlent.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4113-3",
-      "decision": "S",
-      "principe": "P18",
-      "motif": "Avis motivé du classement aux plaignants, victimes et signalants : gardé. L'avis annonce aussi le recours de L4113-4, que la victime doit connaître pour l'exercer. Accord de « les plaignant » corrigé.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Classement en droit et classement d'opportunité en un article : L. 4113-2 (ancien 40-1) y entre, bornes inchangées (auteur identifié, aucun obstacle légal, circonstances particulières des faits).",
+      "ligne_rouge": "P21 et art. 16 DDHC : le classement d'opportunité reste borné et soumis à l'avis motivé (L. 4111-2) et au recours (L. 4113-4)",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en avise les plaignant et les victimes",
-          "nouveau": "en avise les plaignants et les victimes"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Il leur indique les raisons juridiques ou d'opportunité qui justifient sa décision.",
-          "nouveau": "Il leur indique les raisons juridiques ou d'opportunité qui justifient sa décision et la faculté de former le recours prévu à l'article L. 4113-4."
+          "op": "rediger",
+          "nouveau": "Le procureur de la République classe la procédure lorsque les faits dont il est saisi selon l'article L. 4111-1 ne constituent pas une infraction ou qu'une disposition légale fait obstacle aux poursuites.\nIl peut aussi classer l'infraction commise par une personne dont l'identité est connue, sans obstacle légal aux poursuites, lorsque les circonstances particulières de sa commission le justifient."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4113-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Recours du plaignant ou du signalant au procureur général contre le classement, injonction de poursuivre possible : contrôle hiérarchique ouvert à la victime.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Recours du plaignant et du signalant au procureur général contre le classement : règle gardée, phrase resserrée.",
+      "ligne_rouge": "P18 et art. 16 DDHC : recours contre le classement gardé, injonction de poursuivre comprise",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le plaignant ou l'auteur d'un signalement peut former un recours auprès du procureur général contre le classement judiciaire des faits. Le procureur général peut, dans les conditions de l'article L. 2114-3, enjoindre au procureur de la République d'engager des poursuites. S'il estime le recours infondé, il en informe l'intéressé."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4112-2",
+      "decision": "F",
+      "principe": "P2",
+      "motif": "Avis de la réponse pénale : règle générale de l'avis à L. 4111-2.",
+      "ligne_rouge": "P18 : avis de la victime et du plaignant gardé à L. 4111-2 et L. 1421-6",
+      "vers": "L4111-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L4112-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exclusion de l'amende forfaitaire : dernier alinéa de L. 4112-1.",
+      "ligne_rouge": "art. 8 DDHC relevé : la règle soustrait à l'orientation l'infraction déjà réglée par une amende forfaitaire, sauf contestation. Elle ne touche ni la nécessité ni l'individualisation de la peine et reste entière au dernier alinéa de L. 4112-1, renvoi corrigé (passe 2).",
+      "vers": "L4112-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4113-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Classement d'opportunité : second alinéa de L. 4113-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L4113-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4113-3",
+      "decision": "F",
+      "principe": "P2",
+      "motif": "Avis motivé du classement et recours : L. 4111-2.",
+      "ligne_rouge": "P18 et art. 16 DDHC : motifs et recours toujours indiqués, L. 4111-2",
+      "vers": "L4111-2"
     }
-  ]
+  ],
+  "passe": 3
 }
