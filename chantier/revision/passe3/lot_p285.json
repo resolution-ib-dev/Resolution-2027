@@ -1,0 +1,127 @@
+{
+  "lot": "lot_p285",
+  "titre": "Titre III : DROIT DE SE CONSTITUER PARTIE CIVILE",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L1431-1",
+      "texte": "Toute victime peut se constituer partie civile, par intervention lorsque le ministère public a mis en mouvement l'action pénale, par citation directe devant la juridiction de jugement ou par plainte devant le juge d'instruction.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Trois voies de la constitution de partie civile : gardées, phrase resserrée.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L1431-2",
+      "texte": "La victime qui souhaite se constituer partie civile peut être assistée d'un avocat qu'elle choisit ou que le bâtonnier désigne à sa demande. Les frais d'avocat sont à sa charge, sauf si elle remplit les conditions de l'aide juridictionnelle ou bénéficie d'une assurance de protection juridique.\nLorsque la victime informée de ce droit a demandé un avocat, le procureur de la République qui met en mouvement l'action pénale, ou le juge d'instruction, en informe sans délai le bâtonnier. En cas de non-poursuite, le procureur de la République indique à la victime qu'elle peut saisir directement le bâtonnier.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Avocat de la victime partie civile : choix ou désignation par le bâtonnier, frais, et information du bâtonnier par le parquet ou le juge d'instruction (L1431-5) en un article.",
+      "ligne_rouge": "Droits de la défense de la partie civile (art. 16 DDHC) examinés : avocat choisi ou désigné, aide juridictionnelle, gardés."
+    },
+    {
+      "num": "L1431-3",
+      "texte": "Avec l'accord du procureur de la République, la victime d'un délit ou d'une contravention peut demander, au cours de l'enquête, une restitution ou des dommages-intérêts à un officier ou agent de police judiciaire, qui en dresse procès-verbal. Cette demande vaut constitution de partie civile si l'action pénale est mise en mouvement et que le tribunal délictuel ou contraventionnel est directement saisi.",
+      "verbe": "S",
+      "principe": "P24",
+      "motif": "Demande de réparation recueillie par procès-verbal pendant l'enquête, valant constitution de partie civile : voie simple gardée, phrase resserrée.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L1431-4",
+      "texte": "En cas d'ouverture d'une information, le juge d'instruction avise aussitôt la victime qui n'est pas constituée partie civile de son droit de se constituer partie civile, des modalités de son exercice et de son droit à un avocat prévu à l'article L. 1431-2. L'avis à la victime mineure est donné à ses représentants légaux.",
+      "verbe": "S",
+      "principe": "P18",
+      "motif": "Avis à la victime de l'ouverture d'une information, de son droit d'être partie civile et d'être assistée : gardé, en deux phrases.",
+      "ligne_rouge": "Minorité examinée : l'avis à la victime mineure va à ses représentants légaux."
+    },
+    {
+      "num": "L1431-7",
+      "texte": "La victime constituée partie civile exerce, directement ou par son avocat, les droits que le présent code reconnaît à la partie civile, notamment l'accès au dossier, l'information sur le déroulement de la procédure, le droit de formuler des demandes et des observations et les voies de recours contre les décisions qui font grief à ses intérêts.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Droits de la partie civile (dossier, information, demandes, recours) : article d'ancrage gardé, énumération en une phrase.",
+      "ligne_rouge": "Droits de la partie civile (art. 16 DDHC) examinés : accès au dossier et recours gardés."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L1431-5",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Information du bâtonnier pour l'avocat de la victime, demande directe en cas de non-poursuite : fusionnée dans L1431-2, siège de l'avocat de la partie civile.",
+      "ligne_rouge": "aucune",
+      "vers": "L1431-2"
+    },
+    {
+      "num": "L1431-6",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Déclaration d'adresse de la partie civile, changement signalé par écrit, notification réputée faite à la dernière adresse : la règle vaut pour toute personne qui déclare une adresse, elle passe à la règle générale de L1632-3. La partie civile y est soumise sans changement.",
+      "ligne_rouge": "Droits de la partie civile (art. 16 DDHC) examinés : l'avis préalable des effets de la déclaration d'adresse est gardé dans L1632-3.",
+      "vers": "L1632-3"
+    }
+  ],
+  "phrases": {
+    "L1431-1#1": {
+      "destin": "reprise",
+      "vers": "L1431-1"
+    },
+    "L1431-2#1": {
+      "destin": "reprise",
+      "vers": "L1431-2"
+    },
+    "L1431-2#2": {
+      "destin": "reprise",
+      "vers": "L1431-2"
+    },
+    "L1431-3#1": {
+      "destin": "reprise",
+      "vers": "L1431-3"
+    },
+    "L1431-3#2": {
+      "destin": "gardee",
+      "vers": "L1431-3"
+    },
+    "L1431-4#1": {
+      "destin": "reprise",
+      "vers": "L1431-4"
+    },
+    "L1431-4#2": {
+      "destin": "reprise",
+      "vers": "L1431-4"
+    },
+    "L1431-4#3": {
+      "destin": "reprise",
+      "vers": "L1431-4"
+    },
+    "L1431-4#4": {
+      "destin": "reprise",
+      "vers": "L1431-4"
+    },
+    "L1431-5#1": {
+      "destin": "reprise",
+      "vers": "L1431-2"
+    },
+    "L1431-5#2": {
+      "destin": "reprise",
+      "vers": "L1431-2"
+    },
+    "L1431-6#1": {
+      "destin": "reprise",
+      "vers": "L1632-3"
+    },
+    "L1431-6#2": {
+      "destin": "reprise",
+      "vers": "L1632-3"
+    },
+    "L1431-6#3": {
+      "destin": "reprise",
+      "vers": "L1632-3"
+    },
+    "L1431-7#1": {
+      "destin": "reprise",
+      "vers": "L1431-7"
+    }
+  }
+}
