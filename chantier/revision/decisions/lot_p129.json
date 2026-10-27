@@ -9,10 +9,136 @@
   "decisions": [
     {
       "code": "penitentiaire",
+      "num": "R631-1",
+      "principe": "P18",
+      "motif": "Pose, dépose et information du porteur, articulation avec l'ordonnance de protection : gardées, rédaction resserrée. Cité par D. 51, R. 24-23, R. 24-24 et R. 60-1 du code de procédure pénale.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire pose et dépose le bracelet anti-rapprochement. À la pose, il teste la mise en service et informe la personne du fonctionnement du dispositif. Si la personne porte déjà un tel dispositif en application de l'article 515-11-1 du code civil, il n'y a pas de nouvelle pose, mais l'information peut être renouvelée. Dès que la décision du juge pénal est enregistrée dans le traitement de l'article R. 631-6, la mainlevée de la mesure civile est acquise de plein droit, conformément à l'article 1136-23 du code de procédure civile."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-3",
+      "principe": "P23",
+      "motif": "Assistance par les personnes habilitées, citée par D. 51 et R. 24-23 du code de procédure pénale, et supervision par un agent pénitentiaire (R. 631-5) en un article. L'habilitation elle-même suit le régime unique de R. 544-11 à R. 544-17.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire peut être assisté des personnes habilitées selon les articles R. 544-11 à R. 544-17. Les personnes privées habilitées chargées du contrôle à distance du dispositif travaillent sous la supervision d'un agent de l'administration pénitentiaire."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-6",
+      "principe": "P18",
+      "motif": "Création, contrôle du magistrat et finalités du traitement : gardés, listes fermées. Les renvois aux anciens 138 et 138-3 visent L. 3621-8 du code de procédure pénale (interdiction de rapprochement sous contrôle judiciaire).",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : finalités fermées, magistrat de contrôle gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le garde des sceaux, ministre de la justice (direction générale de l'administration pénitentiaire), met en œuvre, sous le contrôle du magistrat de l'article R. 544-20, le traitement « Bracelet anti-rapprochement ». Il assure le contrôle à distance des personnes placées sous dispositif électronique mobile anti-rapprochement par une décision prise en application de l'article L. 3621-8 du code de procédure pénale, des articles 132-45 et 132-45-1 du code pénal ou de l'article 515-11-1 du code civil, pour garantir l'interdiction faite au porteur de rencontrer une personne protégée, victime d'une infraction commise au sein du couple. Il permet :\n1° D'alerter les personnels chargés du contrôle à distance lorsque le porteur s'approche de la personne protégée en deçà des distances de pré-alerte ou d'alerte, ou lorsque le dispositif est altéré.\n2° De localiser la personne protégée et le porteur pour prendre, après l'alerte, les mesures de protection appropriées, notamment enjoindre au porteur de s'éloigner et faire intervenir la police ou la gendarmerie.\nIl poursuit aussi une finalité statistique."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-7",
+      "principe": "P23",
+      "motif": "Données enregistrées : liste fermée gardée, regroupée par personne, sans en ajouter ni en perdre. L'interdiction de sélectionner une catégorie de personnes à partir des données sensibles est gardée.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : liste fermée, stricte nécessité et interdiction de sélection gardées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le traitement enregistre, dans la stricte mesure où elles sont nécessaires à ses finalités, les données suivantes :\n1° Pour le porteur du bracelet : son identité (nom de famille, nom d'usage, prénoms, alias, date et lieu de naissance, sexe, nationalité, photographie du visage inutilisable pour un contrôle biométrique, situation familiale et caractéristiques physiques nécessaires à la pose et à une interpellation), son adresse, son téléphone et sa messagerie, ses données d'authentification biométrique vocale (article R. 24-16 du code de procédure pénale), les décisions de placement, de prolongation ou de modification transmises sous le contrôle de l'autorité judiciaire (juridiction, nature, contenu, durée), les données techniques du bracelet (numéros de série de l'unité mobile, du bracelet et de la carte SIM, adresse IP ou MAC de l'unité mobile), le relevé à intervalles réguliers de ses positions GPS et la liste des alertes (date, heure, positions, circonstances, gestion).\n2° Pour la personne protégée : son identité (nom de famille, nom d'usage, prénoms, date et lieu de naissance, sexe, nationalité, situation familiale et caractéristiques physiques nécessaires à sa protection), son adresse, son téléphone et sa messagerie, les personnes à contacter en urgence (identité, adresse, téléphone, messagerie, lien avec elle), ses données d'authentification biométrique vocale, après son consentement, les mêmes décisions, les données techniques de son dispositif de téléprotection (numéros de série de l'unité mobile et de la carte SIM, adresse IP ou MAC de l'unité mobile), le relevé à intervalles réguliers de ses positions GPS et la liste des alertes.\n3° Pour les personnels habilités de l'administration pénitentiaire et ceux chargés du contrôle à distance : nom de famille, prénoms, qualité et messagerie professionnelles et identifiants techniques (matricule, dont l'identifiant SAPHIR pour l'administration pénitentiaire, adresse IP).\n4° Pour le magistrat chargé du suivi de la décision : nom de famille, prénoms, qualité et coordonnées professionnelles.\n5° Pour chaque alerte, le contenu, la date et l'heure des conversations téléphoniques entre les personnels chargés du contrôle à distance, le porteur, la personne protégée, les personnes à contacter en urgence et les forces de police et de gendarmerie.\nDes données mentionnées au I de l'article 6 de la loi n° 78-17 du 6 janvier 1978 peuvent y apparaître. Aucune catégorie particulière de personnes ne peut être sélectionnée à partir de ces seules données."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-8",
+      "principe": "P23",
+      "motif": "Accès (R. 631-8), archive intermédiaire (R. 631-9) et destinataires (R. 631-10) en un article : listes fermées gardées. Le renvoi au troisième alinéa de l'ancien 35 vise les rapports du procureur général au ministre, à L. 2114-2 du code de procédure pénale.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : accès borné au besoin d'en connaître, archive réservée, destinataires nommés avec leur finalité",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent accéder aux données, dans la limite de leurs attributions et du besoin d'en connaître, les personnels habilités des services centraux et déconcentrés de l'administration pénitentiaire, les personnels habilités chargés du contrôle à distance et le magistrat de l'article R. 544-20. N'accèdent à l'archive intermédiaire que les agents des services centraux de l'administration pénitentiaire chargés de superviser le contrôle à distance, des systèmes d'information ou de l'application de la réglementation informatique et libertés.\nPeuvent recevoir les données strictement nécessaires à leur mission :\n1° Les magistrats et fonctionnaires des tribunaux judiciaires habilités par les chefs de juridiction.\n2° Les officiers et agents de police judiciaire habilités qui interviennent pour protéger la personne protégée ou appréhender le porteur qui ne respecte pas l'interdiction de s'en approcher.\n3° Les magistrats et fonctionnaires habilités de la direction des affaires criminelles et des grâces, pour les rapports que le procureur général adresse au ministre de la justice selon l'article L. 2114-2 du code de procédure pénale et pour la seule permanence du ministère de la justice."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-11",
+      "principe": "P23",
+      "motif": "Durées de conservation par catégorie et journal des opérations (R. 631-12) en un article : durées gardées.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : durées bornées et journal gardés",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les données des personnels chargés du contrôle à distance sont conservées en base active jusqu'au terme de leur habilitation. Les autres données sont conservées en base active pendant le placement et un mois après sa fin. Les données biométriques vocales sont alors effacées, les conversations enregistrées passent deux mois en archive intermédiaire et les autres données cinq ans et onze mois.\nToute opération de collecte, de modification, de consultation, de communication et d'effacement est enregistrée avec l'identifiant de son auteur, sa date, son heure et sa nature. Ces traces sont conservées trois ans."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-13",
+      "principe": "P23",
+      "motif": "Droits et leurs restrictions, et exclusion bornée du droit d'opposition (R. 631-14), en un article.",
+      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : droits d'accès et recours à la CNIL gardés, droit d'opposition gardé aux personnes à contacter en urgence",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les droits d'information, d'accès, de rectification, d'effacement et de limitation des articles 104 à 106 de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés s'exercent directement auprès de la direction générale de l'administration pénitentiaire, sans préjudice du code de procédure pénale et du code de procédure civile. Pour les motifs des 1°, 2° et 5° du I de l'article 107 de cette loi, les droits d'accès et de rectification peuvent être restreints selon les 2° et 3° de son II. La personne exerce alors son droit d'accès auprès de la Commission nationale de l'informatique et des libertés, selon l'article 108 de la même loi. Le droit d'opposition de l'article 110 de cette loi ne s'applique pas, sauf aux personnes à contacter en urgence."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D632-2",
+      "principe": "P13",
+      "motif": "Enregistrement, pose sous cinq jours, pose avant la libération, rapport de faisabilité (D. 632-2-1) et pose du dispositif mobile (D. 632-3) en un article. Les renvois à l'ancien 142-6-1 visent le placement conditionnel de L. 3631-11 du code de procédure pénale.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne placée sous assignation à résidence avec surveillance électronique est enregistrée dans le traitement de l'article R. 622-22. Le personnel de l'administration pénitentiaire pose le dispositif, fixe ou mobile, dans les cinq jours de l'ordonnance de placement, et le dépose, notamment à l'incarcération selon l'article D. 51 du code de procédure pénale. Le dispositif est posé avant la libération lorsque la surveillance électronique mobile accompagne une mise en liberté ou que le magistrat subordonne la mise en liberté à sa pose.\nDans le placement conditionnel de l'article L. 3631-11 du code de procédure pénale, le service saisi adresse son rapport de faisabilité au juge des libertés et de la détention, au greffe pénitentiaire et au service du lieu d'incarcération. S'il conclut à la faisabilité, le dispositif est posé et l'écrou levé, sans attendre le délai de cinq jours."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D632-4",
+      "principe": "P23",
+      "motif": "Contrôle et suivi par le service, cité par D. 32-14 du code de procédure pénale : gardés.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service pénitentiaire d'insertion et de probation contrôle et suit l'assignation à résidence avec surveillance électronique, selon l'article R. 622-8."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
       "num": "D631-2",
       "decision": "A",
       "principe": "P3",
-      "motif": "La pose et la dépose du bracelet anti-rapprochement par le personnel pénitentiaire sont portées par R631-1, et sa dépose à l'incarcération puis sa repose à la sortie par D51 du code de procédure pénale : aucune règle propre perdue.",
+      "motif": "La pose et la dépose du bracelet anti-rapprochement sont portées par R. 631-1, et sa dépose à l'incarcération puis sa repose par D. 51 du code de procédure pénale (passe 2 confirmée).",
       "ligne_rouge": "aucune"
     },
     {
@@ -20,39 +146,7 @@
       "num": "D632-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie D32-5 du code de procédure pénale (accord écrit du propriétaire ou du locataire recueilli par le service, sauf s'il figure au dossier), sans rien y ajouter : la règle vit à sa source, une seule fois. Les plages des tableaux outre-mer (D757-6, D767-7, D777-7) qui commencent ou finissent sur cet article sont à coordonner au lot de ces articles.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D632-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Inscription au traitement, pose par le personnel pénitentiaire sous cinq jours, pose avant la sortie en cas de mise en liberté : délai opposable. Source de D32-14 du code de procédure pénale. Renvoi à l'ancien 142-6-1 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D632-2-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Rapport de faisabilité transmis au juge et au greffe, puis pose et levée d'écrou : enchaînement qui évite une détention prolongée faute de pose. Règle propre. Renvoi à l'ancien 142-6-1 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D632-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pose et dépose du dispositif mobile de l'assignation à résidence par le personnel pénitentiaire : R61-27 du code de procédure pénale ne vise que la personne condamnée, l'attribution pour la personne mise en examen n'a pas d'autre siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D632-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Contrôle et suivi de l'assignation par le service d'insertion et de probation : source de D32-14 du code de procédure pénale, qui le cite.",
+      "motif": "Miroir de D. 32-5 du code de procédure pénale (accord écrit du propriétaire ou du locataire), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -60,7 +154,7 @@
       "num": "D632-5",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie D32-17 et D32-18 du code de procédure pénale (modification des horaires par le chef d'établissement ou le directeur du service, accord préalable du juge, copie au juge qui peut annuler), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir de D. 32-17 et D. 32-18 du code de procédure pénale (modification des horaires après accord du juge), passe 2 confirmée.",
       "ligne_rouge": "aucune"
     },
     {
@@ -68,128 +162,97 @@
       "num": "D633-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Recopie, dans le même code, de la phrase de D113-41 qui confie au service le suivi et le contrôle des personnes sous contrôle judiciaire. Aucune règle propre perdue. Les plages des tableaux outre-mer (D757-6, D767-7, D777-7) qui commencent ou finissent sur cet article sont à coordonner au lot de ces articles.",
-      "ligne_rouge": "art. 66 C examiné : le contrôle judiciaire reste ordonné et contrôlé par le juge (138 et R16 du code de procédure pénale), la mission du service reste dans D113-41"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Pose, dépose et information du porteur du bracelet anti-rapprochement, articulation avec l'ordonnance de protection : protection de la victime. Cité par D51 du code de procédure pénale.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Assistance par les personnes habilitées : cité par D51 du code de procédure pénale.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Habilitation des prestataires du contrôle à distance, par renvoi au régime unique de R544-11 à R544-17 : déjà la forme courte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Les prestataires privés travaillent sous la supervision d'un agent pénitentiaire : la mission de souveraineté reste à l'État.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-6",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Traitement « Bracelet anti-rapprochement » : finalité de protection de la victime, alerte et localisation. Cité par R61-43 du code de procédure pénale, abrogé au lot p030 sur ce fondement.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement prévu par la loi (138-3 du code de procédure pénale, 132-45-1 du code pénal, 515-11-1 du code civil), finalités, données, accès et durées fixés, sous le contrôle d'un magistrat"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Données enregistrées, listées et limitées au strict nécessaire : encadrement de la mesure intrusive.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement prévu par la loi (138-3 du code de procédure pénale, 132-45-1 du code pénal, 515-11-1 du code civil), finalités, données, accès et durées fixés, sous le contrôle d'un magistrat"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Accès borné au besoin d'en connaître : encadrement tenu.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement prévu par la loi (138-3 du code de procédure pénale, 132-45-1 du code pénal, 515-11-1 du code civil), finalités, données, accès et durées fixés, sous le contrôle d'un magistrat"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Accès à l'archive intermédiaire réservé à trois catégories d'agents : encadrement tenu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Destinataires nommés, dont les officiers de police judiciaire qui protègent la victime : encadrement tenu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Durées de conservation bornées par catégorie : encadrement tenu.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : traitement prévu par la loi (138-3 du code de procédure pénale, 132-45-1 du code pénal, 515-11-1 du code civil), finalités, données, accès et durées fixés, sous le contrôle d'un magistrat"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Journal des opérations conservé trois ans : traçabilité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Lieu d'exercice des droits et restrictions de la loi informatique et libertés : seul article qui les fixe pour ce traitement.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R631-14",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Exclusion du droit d'opposition, sauf pour les personnes à contacter en urgence : bornée.",
-      "ligne_rouge": "aucune"
+      "motif": "Recopie de la phrase de D. 113-41 qui confie au service le suivi et le contrôle des personnes sous contrôle judiciaire (passe 2 confirmée).",
+      "ligne_rouge": "art. 66 C examiné : le contrôle judiciaire reste ordonné et suivi par le juge d'instruction, la mission du service reste écrite à D. 113-41"
     },
     {
       "code": "penitentiaire",
       "num": "R633-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article de renvoi : R16 du code de procédure pénale permet déjà de désigner tout service judiciaire ou administratif compétent, R16-1 règle ses diligences, et D113-41 du présent code confie le suivi du contrôle judiciaire au service. Aucune règle propre perdue.",
-      "ligne_rouge": "art. 66 C examiné : la désignation et le contrôle restent au juge d'instruction (R16 et R16-1 du code de procédure pénale)"
+      "motif": "Article de renvoi : R. 16 du code de procédure pénale permet de désigner tout service compétent, R. 16-1 règle ses diligences, et D. 113-41 confie le suivi au service (passe 2 confirmée).",
+      "ligne_rouge": "art. 66 C examiné : la désignation par le juge d'instruction et le compte rendu au juge restent écrits à R. 16 et R. 16-1 du code de procédure pénale"
     },
     {
       "code": "penitentiaire",
       "num": "R634-1",
       "decision": "A",
       "principe": "P3",
-      "motif": "Article miroir qui recopie le second alinéa de R15-33-55 du code de procédure pénale (le service, chargé par le procureur, met en œuvre le travail non rémunéré de la composition pénale), sans rien y ajouter : la règle vit à sa source, une seule fois.",
+      "motif": "Miroir du second alinéa de R. 15-33-55 du code de procédure pénale (le service met en œuvre le travail non rémunéré de la composition pénale), passe 2 confirmée.",
       "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D632-2-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Rapport de faisabilité et levée d'écrou : second alinéa de D. 632-2.",
+      "ligne_rouge": "aucune",
+      "vers": "D632-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D632-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pose du dispositif mobile de l'assignation : réunie à D. 632-2.",
+      "ligne_rouge": "aucune",
+      "vers": "D632-2"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-4",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Habilitation des prestataires du contrôle à distance : le régime unique de R. 544-11 à R. 544-17, auquel l'article renvoyait, la porte.",
+      "ligne_rouge": "aucune",
+      "vers": "R544-11"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Supervision par un agent pénitentiaire : réunie à R. 631-3.",
+      "ligne_rouge": "aucune",
+      "vers": "R631-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accès à l'archive intermédiaire : réuni à R. 631-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R631-8"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Destinataires : réunis à R. 631-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R631-8"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Journal des opérations : réuni à R. 631-11.",
+      "ligne_rouge": "aucune",
+      "vers": "R631-11"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R631-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exclusion bornée du droit d'opposition : réunie à R. 631-13.",
+      "ligne_rouge": "aucune",
+      "vers": "R631-13"
     }
-  ]
+  ],
+  "passe": 3
 }
