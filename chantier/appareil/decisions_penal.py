@@ -9,7 +9,8 @@ Lit revision/decisions/*.json et le registre de la passe 1, et vérifie, lot par
   D3  opérations : pour S, R, D, les opérations s'appliquent (contrôles C2 et C3 de
       revision_penale.py) ; A et G n'en portent pas ; F nomme sa destination
   D4  renvois : tout article abrogé ou fusionné qui est cité ailleurs dans le
-      périmètre est listé, avec les articles à coordonner
+      périmètre est listé, avec les articles à coordonner ; un renvoi d'un autre code ne
+      compte que si le texte nomme le code de l'article cité
   D5  ligne rouge : un article signalé en passe 1 (liberté, nullité, peine) porte
       une ligne rouge explicitement examinée
   D6  délits (revision/bareme/*.json) : le délit figure au barème, la décision est
@@ -41,6 +42,7 @@ BAREME = CHANTIER / "referentiels" / "bareme_delits.tsv"
 DEC_DELITS = CHANTIER / "revision" / "bareme"
 VERBES_DELITS = {"garder", "relever", "amende délictuelle", "contravention C5",
                  "sanction administrative", "abroger"}
+NOMS_CODES = {"cpp": "code de procédure pénale", "cp": "code pénal", "penitentiaire": "code pénitentiaire"}
 RE_PREFIXE = re.compile(r"\b(?:L|R|D|A)\.\s?\d+(?:-\d+)*")
 RE_LISTE = re.compile(r"articles? (\d+(?:-\d+)*(?:(?:, | et | à | ou )\d+(?:-\d+)*)*)")
 
@@ -122,18 +124,19 @@ def main():
                 retires.append((c, n))
         # D4 : renvois vers les articles retirés, hors du lot lui-même
         coord = collections.defaultdict(list)
-        cibles = {droit.norm_num(n): n for _, n in retires}
+        cibles = {droit.norm_num(n): (c, n) for c, n in retires}
         for c, n in retires:   # l'ancien numéro, cité par la partie réglementaire
             anc = parcle.get((c, n), {}).get("num_actuel")
             if anc:
-                cibles.setdefault(droit.norm_num(anc), f"{n} (ancien {anc})")
+                cibles.setdefault(droit.norm_num(anc), (c, f"{n} (ancien {anc})"))
         for (c, n), (t, _) in textes.items():
             if (c, n) in decides:
                 continue
             for x in renvois(t):
                 k = droit.norm_num(x)
-                if k in cibles:
-                    coord[cibles[k]].append(n)
+                # un renvoi vers un autre code ne compte que si le texte nomme ce code (registre 8.4)
+                if k in cibles and (cibles[k][0] == c or NOMS_CODES[cibles[k][0]] in t):
+                    coord[cibles[k][1]].append(n)
         lots.append({"lot": f.name, "attendus": len(attendus), "decides": len(decides),
                      "decisions": dict(cpt), "a_coordonner": {k: sorted(v) for k, v in coord.items()}})
     bar = {(r["code"], r["num"]): r for r in csv.DictReader(BAREME.open(encoding="utf-8"), delimiter="\t")}
