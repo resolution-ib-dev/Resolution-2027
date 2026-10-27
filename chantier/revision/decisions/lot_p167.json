@@ -10,73 +10,114 @@
     {
       "code": "cpp",
       "num": "D45",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Interrogatoire et réunion préparatoire fixés par le président, au moins quarante-cinq jours avant l'audience : l'audience se prépare et sa durée se tient. Renvois aux anciens 238, 272, 276-1 et 281 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D45-1",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Avocat avisé cinq jours avant l'interrogatoire, faculté pour l'accusé appelant de limiter son appel à la peine : l'appel au fond reste ouvert, la limitation est un choix. Renvois aux anciens 380-2-1 A et 276 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la cour statue sur la peine, l'individualisation au prononcé est tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "D45-1-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Avis de la réunion préparatoire cinq jours avant, participation à distance, projet de déroulement : l'audience se prépare.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D45-1-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Procès-verbal de la réunion préparatoire : accord ou désaccord sur témoins, experts et durée, absences sans effet bloquant. Simple.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D45-1-3",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Pas de nullité de l'audience pour un manquement à la réunion préparatoire : ces règles organisent l'audience, elles ne portent pas de droit de la défense. Renvoi à l'ancien 276-1 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'accusé n'assiste pas à la réunion, le débat oral reste entier à l'audience"
-    },
-    {
-      "code": "cpp",
-      "num": "D45-1-4",
+      "principe": "P13",
+      "motif": "Renvois aux anciens 238, 272, 276-1 et 281 écrits sur L2123-7, L4311-1, L4312-1 et L4314-1 (pièce p143). Phrases courtes.",
+      "ligne_rouge": "Droits de la défense : le délai de quarante-cinq jours, qui laisse à chacun le temps de connaître les témoins, est gardé.",
       "decision": "S",
-      "principe": "P12",
-      "motif": "Avis au tiers propriétaire d'un bien confiscable un mois avant l'audience, observations, restitution : garantie de la propriété (art. 2 et 17 DDHC), gardée. Les observations écrites peuvent aussi parvenir par voie électronique. Renvois aux anciens 373 et 710 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC et propriété (art. 17 DDHC) examinés : le tiers est avisé et entendu avant que la confiscation ne frappe son bien, les jurés sont informés de ses observations",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par lettre recommandée avec demande d'accusé de réception parvenue au moins 24 heures avant la date d'audience",
-          "nouveau": "par lettre recommandée avec demande d'accusé de réception ou par voie électronique, parvenues au moins 24 heures avant la date d'audience"
+          "op": "rediger",
+          "nouveau": "Lorsque la date de l'audience a été arrêtée selon l'article L. 2123-7, le président de la cour d'assises fixe la date de l'interrogatoire de l'accusé prévu à l'article L. 4311-1 et celle de la réunion préparatoire prévue à l'article L. 4312-1, au regard notamment de la complexité du dossier et du nombre des accusés et des parties civiles. La réunion préparatoire, à laquelle l'accusé n'assiste pas, peut suivre immédiatement l'interrogatoire.\nSauf impossibilité, la réunion préparatoire se tient au moins quarante-cinq jours avant l'ouverture des débats, afin de permettre la signification de la liste des témoins un mois avant, selon l'article L. 4314-1."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "D45-1-4-1",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Retransmission de l'audience de la cour d'assises dans d'autres salles : la publicité s'étend. Renvoi à l'ancien 306 à coordonner.",
-      "ligne_rouge": "aucune"
+      "num": "D45-1",
+      "principe": "P13",
+      "motif": "Renvois aux anciens 380-2-1 A et 276 écrits sur L4351-10 (pièce p147) et L4311-1 (pièce p143).",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) et appel au fond (P17) examinés : la limitation à la peine n'est proposée qu'en présence de l'avocat et reste un choix de l'accusé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'avocat de l'accusé est avisé par tout moyen de la date de l'interrogatoire au moins cinq jours ouvrables avant celui-ci.\nLorsque l'avocat est présent à l'interrogatoire et que la cour d'assises statue sur l'appel de l'accusé qui ne l'a pas limité selon l'article L. 4351-10, le président peut demander à l'accusé s'il ne conteste pas les réponses données en premier ressort sur la culpabilité et s'il entend limiter son appel à la décision sur la peine. Sa réponse est mentionnée au procès-verbal prévu à l'article L. 4311-1."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D45-1-1",
+      "principe": "P23",
+      "motif": "Avis de la réunion et projet de déroulement en deux phrases.",
+      "ligne_rouge": "Droits de la défense : avis de cinq jours ouvrables aux avocats, gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministère public et les avocats des parties sont avisés par tout moyen de la date de la réunion préparatoire au moins cinq jours ouvrables avant celle-ci, et des modalités, notamment de télécommunication, de leur participation. Le président peut joindre à cet avis un projet de déroulement de l'audience qui mentionne, au vu notamment des propositions du ministère public, les témoins et experts cités, l'ordre de leurs dépositions et la durée de l'audience."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D45-1-2",
+      "principe": "P23",
+      "motif": "Procès-verbal de la réunion et absence de nullité (D45-1-3 fusionné, champ exact D. 45-1 à D. 45-1-2 rétabli après relecture adverse ; pour la réunion elle-même, L4312-1 le dit déjà).",
+      "ligne_rouge": "art. 16 DDHC (droits de la défense) examiné : l'absence de nullité ne vise que l'organisation de l'audience ; l'avis aux avocats et la copie du procès-verbal restent dus.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "À l'issue de la réunion préparatoire, qui peut se tenir avec l'assistance du greffier, le président établit ou fait établir un procès-verbal qui constate l'absence d'accord ou l'accord intervenu, sur tout ou partie de la liste des témoins et experts cités, de l'ordre de leurs dépositions et de la durée de l'audience. Le procès-verbal ne fait pas état du contenu des échanges. Il est signé par le président et, le cas échéant, par le greffier, et une copie en est remise ou adressée par tout moyen au ministère public et aux avocats des parties.\nL'absence d'un ou plusieurs avocats convoqués est mentionnée au procès-verbal. Elle ne fait obstacle ni à la tenue de la réunion ni à un accord, sauf si le président estime, au regard notamment du nombre des avocats absents, qu'un accord ne peut être utilement obtenu.\nLe non-respect des articles D. 45-1 à D. 45-1-2 ne constitue pas une cause de nullité de l'audience."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D45-1-5",
+      "principe": "P13",
+      "motif": "L'information des jurés renvoie aux textes qui fixent la période de sûreté au lieu de recopier des durées (moitié, deux tiers, dix-huit et vingt-deux ans) que la réécriture de 132-23 fait évoluer : le président expose la règle en vigueur, sans risque de tromper le jury. Renvois aux anciens 362 et 720-4 écrits sur L4325-12 (pièce p144) et L5223-7, L5223-9, L5223-10 (pièce p005 ; L5223-8 y est fusionné dans L5223-7).",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) examiné : les jurés reçoivent, avant de délibérer, toute l'information sur la période de sûreté et sa modulation, par renvoi précis aux articles qui la fixent.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque les deux premiers alinéas de l'article 132-23 du code pénal sont applicables, le président, pour l'information prévue au premier alinéa de l'article L. 4325-12, expose aux jurés les mesures d'exécution de la peine exclues pendant cette période, sa durée et le pouvoir de la cour de l'allonger ou de la réduire selon cet article, ainsi que la faculté du tribunal de l'application des peines d'y mettre fin ou de la réduire selon l'article L. 5223-7. Lorsque le dernier alinéa des articles 221-3 ou 221-4 du code pénal est applicable, il les informe aussi de ces dispositions et des articles L. 5223-9 et L. 5223-10."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D45-2",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Arrêt de la cour d'assises valant titre de détention, mandat de dépôt immédiat ou différé sur décision spéciale : la peine prononcée s'exécute. Renvoi à l'ancien 367 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la cour décide du mandat par décision spéciale et motivée, la mise en liberté reste demandable"
+      "principe": "P20",
+      "motif": "Les cas où l'arrêt vaut titre de détention et ceux du mandat de dépôt, immédiat ou différé, sont au second alinéa de L4326-4 (pièce p144) : copie de la loi. Signature du mandat et exécution provisoire : D45-2-1-1 (lot p164). Reste la définition de l'accusé détenu et le régime du mandat différé.",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC (nécessité, individualisation au prononcé) examinés : titre de détention et mandat de dépôt restent décidés par la cour selon L4326-4, la mise en liberté peut toujours être demandée ; l'exécution provisoire reste bornée (D45-2-1-1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de l'article L. 4326-4, est considéré comme détenu l'accusé qui est détenu dans le cadre de la procédure dont la cour d'assises est saisie.\nLorsque la cour d'assises décerne un mandat de dépôt à effet différé, les articles D. 45-2-3, D. 45-2-4 et D. 45-2-7 s'appliquent."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D45-1-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Absence de nullité : dernier alinéa de D45-1-2.",
+      "ligne_rouge": "art. 16 DDHC (droits de la défense) examiné : la règle, gardée, ne touche que l'organisation de l'audience.",
+      "vers": "D45-1-2"
+    },
+    {
+      "code": "cpp",
+      "num": "D45-1-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Tiers propriétaire d'un bien confiscable devant la cour d'assises : la règle générale de D45-2-1 (lot p164) vaut pour toutes les juridictions de jugement, avec le délai d'un mois et l'information des jurés propres à la cour d'assises. Renvoi à l'ancien 373 écrit sur L4326-17 (pièce p144).",
+      "ligne_rouge": "art. 8 DDHC (nécessité, individualisation au prononcé) et propriété examinés : avis un mois avant, observations avec avocat, accès aux pièces de la saisie et restitution gardés dans D45-2-1.",
+      "vers": "D45-2-1"
+    },
+    {
+      "code": "cpp",
+      "num": "D45-1-4-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Retransmission des audiences de la cour d'assises : règle générale de D45-2-1 bis (lot p164), qui garde la décision du président du tribunal judiciaire ou du premier président.",
+      "ligne_rouge": "Publicité (P26) : gardée.",
+      "vers": "D45-2-1 bis"
     }
-  ]
+  ],
+  "passe": 3
 }
