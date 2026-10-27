@@ -9,6 +9,48 @@
   "decisions": [
     {
       "code": "cpp",
+      "num": "D546-1",
+      "principe": "P19",
+      "motif": "Sursis probatoire avec suivi renforcé : convocation sous huit jours ou entre dix et quinze jours, délai maximal pour le condamné absent (passe 2), délais sans nullité (D546-1, D546-2, D546-4, D546-8). Le délai de quatre mois du juge pour le condamné absent ne peut allonger celui de la loi : il remonte à L. 5321-5 (relecture adverse, coordination au lot p011). L'ancien 741-2 devient L. 5321-5 et L. 5321-7.",
+      "ligne_rouge": "art. 16 DDHC examiné : le dépassement d'un délai par l'État ne libère pas le condamné de sa probation, la victime reste protégée ; les droits de la défense devant le juge (L. 5321-5) restent entiers",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la juridiction de jugement, en application de l'article 132-41-1 du code pénal, ou le juge de l'application des peines, en application de l'article L. 5321-7, ordonne un sursis probatoire avec suivi renforcé, le condamné présent à l'audience reçoit une convocation devant le service pénitentiaire d'insertion et de probation dans les huit jours si l'exécution provisoire est ordonnée, et entre dix et quinze jours sinon. Le condamné absent la reçoit à la notification de la condamnation ou dans les [huit jours] qui la suivent.\nLe non-respect de ces délais et de ceux des articles D. 621-10 et D. 621-11 du code pénitentiaire n'entraîne pas la nullité des convocations ou des actes."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D547",
+      "principe": "P10",
+      "motif": "La conversion de la partie ferme d'un sursis probatoire partiel n'est pas une seconde condamnation ; la liste suit L. 5143-8 réécrit (passe 2). L'ancien 747-1 devient L. 5143-8.",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle évite un effet de récidive sans nouvelle condamnation",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La conversion, en application de l'article L. 5143-8, de la partie ferme d'un emprisonnement assorti d'un sursis probatoire partiel en détention à domicile sous surveillance électronique ou en travail d'intérêt général ne constitue pas une seconde condamnation au sens de l'article 132-53 du code pénal."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D548",
+      "principe": "P3",
+      "motif": "Cautionnement de l'ajournement aux fins d'investigations et consignation de l'ajournement aux fins de consignation : un régime, celui du contrôle judiciaire (D548 et D549). L'ancien 397-3-1 devient L. 4432-32.",
+      "ligne_rouge": "art. 66 C examiné : le contrôle judiciaire reste ordonné par la juridiction, seul le régime du versement est commun",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le cautionnement ordonné dans le contrôle judiciaire décidé en application de l'article L. 4432-32 lors d'un ajournement aux fins d'investigations prévu à l'article 132-70-1 du code pénal, et la consignation ordonnée lors d'un ajournement prévu à l'article 132-70-3 du même code, suivent les articles R. 19 et suivants. La copie de décision prévue à l'article R. 19 est celle de la juridiction qui a prononcé l'ajournement. Les avis prévus à l'article R. 22 sont adressés au procureur de la République."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
       "num": "D544-1",
       "decision": "A",
       "principe": "P20",
@@ -25,31 +67,12 @@
     },
     {
       "code": "cpp",
-      "num": "D546-1",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Champ de la section du sursis probatoire renforcé (CP 132-41-1), que la juridiction ou le juge de l'application des peines ordonne. Renvoi à l'ancien 741-2 (L5321-5) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "D546-2",
-      "decision": "S",
-      "principe": "P19",
-      "motif": "Convocation devant le service sous huit jours ou entre dix et quinze jours : délai opposable, gardé. « Dans les meilleurs délais » n'engage personne : l'envoi au condamné absent reçoit un délai maximal (aligné sur L5111-1 réécrit). Coquille « ne serait être » corrigée.",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D546-1 (suivi renforcé).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "ne serait être supérieur",
-          "nouveau": "ne saurait être supérieur"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "ou lui est adressée dans les meilleurs délais après cette notification.",
-          "nouveau": "ou lui est adressée dans un délai de [huit jours] au plus après cette notification."
-        }
-      ]
+      "vers": "D546-1"
     },
     {
       "code": "cpp",
@@ -62,17 +85,11 @@
     {
       "code": "cpp",
       "num": "D546-4",
-      "decision": "S",
-      "principe": "P19",
-      "motif": "Délai de quatre mois pour la décision du juge sur les obligations du condamné absent à l'audience : délai opposable, gardé. Espace manquant après « 741-2 » rétabli. Renvoi à l'ancien 741-2 (L5321-5) à coordonner.",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D546-1 (suivi renforcé).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "l'article 741-2doit intervenir",
-          "nouveau": "l'article 741-2 doit intervenir"
-        }
-      ]
+      "vers": "D546-1"
     },
     {
       "code": "cpp",
@@ -85,41 +102,21 @@
     {
       "code": "cpp",
       "num": "D546-8",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Le dépassement des délais de convocation, de rapport et de décision ne fait pas tomber les actes : une nullité libérerait le condamné de sa probation, au détriment de la victime. Règle gardée. Renvoi à D546-2, D546-4, D621-10 et D621-11 du code pénitentiaire, tous gardés.",
-      "ligne_rouge": "art. 16 DDHC examiné : les délais servent la rapidité de l'exécution, non la défense ; le condamné garde le débat contradictoire et l'appel sur les obligations fixées"
-    },
-    {
-      "code": "cpp",
-      "num": "D547",
-      "decision": "S",
-      "principe": "P10",
-      "motif": "La conversion de la partie ferme d'un sursis probatoire partiel n'est pas une seconde condamnation : règle gardée. Elle suit L5143-8 réécrit (lot p003), qui ne garde que la surveillance électronique et le travail d'intérêt général : la conversion en jours-amende et en sursis probatoire renforcé sort de la liste. Renvoi à l'ancien 747-1 (L5143-8) à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction de jugement garde toute la modulation au prononcé ; la conversion en cours d'exécution reste ouverte vers les peines qui gardent une contrainte de même durée",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", en peine de travail d'intérêt général, en peine de jours-amende ou en un emprisonnement assorti d'un sursis probatoire renforcé,",
-          "nouveau": " ou en peine de travail d'intérêt général,"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "D548",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Ajournement aux fins d'investigations avec contrôle judiciaire : le cautionnement suit le régime commun (R19 et suivants), un seul régime. Renvoi à l'ancien 397-3-1 (L4432-32) à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : le contrôle judiciaire est décidé par le tribunal (L4432-32), le cautionnement suit le régime commun, sans privation de liberté"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réuni à D546-1 (suivi renforcé).",
+      "ligne_rouge": "art. 16 DDHC examiné : la règle sans nullité est gardée à D546-1",
+      "vers": "D546-1"
     },
     {
       "code": "cpp",
       "num": "D549",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "La consignation de l'ajournement suit le régime du cautionnement de D548 : un seul régime.",
-      "ligne_rouge": "art. 66 C examiné : consignation ordonnée par la juridiction, sans privation de liberté"
+      "motif": "Consignation de l'ajournement : réunie à D548.",
+      "ligne_rouge": "art. 66 C examiné : régime du cautionnement de D548, sous le contrôle de la juridiction",
+      "vers": "D548"
     }
-  ]
+  ],
+  "passe": 3
 }
