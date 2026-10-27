@@ -10,310 +10,451 @@
     {
       "code": "cpp",
       "num": "L3651-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Contrôle et assignation continuent jusqu'au jugement criminel, durée de l'assignation bornée, mainlevée possible. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mainlevée ouverte devant un juge, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3651-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Le mandat de dépôt garde effet jusqu'au jugement criminel, sous les délais de L3653-2 et L3653-3.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : durée bornée, demande de liberté ouverte, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3651-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Renvoi pour délits connexes seulement : la mesure prend fin sauf maintien motivé. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : maintien par décision spécialement motivée, tenu"
+      "principe": "P23",
+      "motif": "Reçoit L3651-2 (mandat de dépôt de l'accusé) et L3651-3 (délits connexes) : les effets du renvoi criminel sur les trois mesures tiennent dans un article. « Sans préjudice » et « sous réserve » deviennent des renvois directs.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : contrôle, assignation et détention se poursuivent sous les durées maximales de L3652-2, L3653-2 et L3653-3, mainlevée et mise en liberté demandables (L3652-3, L3653-7), fin des mesures pour les seuls délits connexes sauf maintien motivé : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque l'accusé est renvoyé pour crime devant la cour d'assises ou la cour criminelle départementale, le contrôle judiciaire, l'assignation à résidence avec surveillance électronique et le mandat de dépôt continuent à produire leurs effets jusqu'à son jugement. La durée de l'assignation est limitée par l'article L. 3652-2, celle de la détention par les articles L. 3653-2 et L. 3653-3. La personne peut demander la mainlevée de la mesure selon l'article L. 3652-3 ou sa mise en liberté selon l'article L. 3653-7.\nLorsque la personne n'est renvoyée devant ces juridictions que pour des délits connexes, la mesure prend fin, sauf maintien ordonné selon le second alinéa de l'article L. 3651-4."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3651-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Renvoi devant le tribunal délictuel : fin des mesures sauf ordonnance distincte spécialement motivée. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : maintien par ordonnance motivée, délais bornés, tenu"
+      "principe": "P13",
+      "motif": "Phrases resserrées. Le renvoi à L3653-2 (délai de l'accusé) visait par erreur la détention du prévenu renvoyé devant le tribunal : il devient L3653-6 (ancien 179, deux mois).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : fin des mesures au renvoi, maintien par ordonnance distincte spécialement motivée, motivation de la détention par référence aux critères, délais et demandes de liberté : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne mise en examen est renvoyée devant le tribunal délictuel, l'ordonnance de règlement met fin à la détention provisoire, à l'assignation à résidence avec surveillance électronique ou au contrôle judiciaire.\nLe juge d'instruction peut toutefois, par ordonnance distincte spécialement motivée, maintenir la mesure jusqu'à la comparution devant le tribunal, dans les limites de durée de l'article L. 3652-2 et, pour la détention, de l'article L. 3653-6, ou de l'article L. 3653-5 en cas de renvoi pour délit connexe selon l'article L. 3651-1. La personne peut en demander la mainlevée selon l'article L. 3652-3 ou sa mise en liberté selon l'article L. 3653-7. Le maintien en détention provisoire est motivé par référence au 2° de l'article L. 3641-6 et à l'article L. 3641-7."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3651-5",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Renvoi en comparution sur reconnaissance de culpabilité : même régime que le renvoi au tribunal. La voie rapide n'ouvre aucune détention de plus. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : maintien par ordonnance motivée, tenu"
+      "principe": "P20",
+      "motif": "Le renvoi aux fins de comparution sur reconnaissance préalable de culpabilité suit le régime de L3651-4, dit en une phrase. Article cité par L3452-20, gardé à son numéro.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : fin des mesures, maintien seulement par ordonnance distincte spécialement motivée (second alinéa de L3651-4) : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'ordonnance qui renvoie l'affaire au procureur de la République aux fins de comparution sur reconnaissance préalable de culpabilité, selon l'article L. 3452-20, met fin à la détention provisoire, à l'assignation à résidence avec surveillance électronique ou au contrôle judiciaire, sauf maintien ordonné selon le second alinéa de l'article L. 3651-4."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3651-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Non-lieu : fin des mesures et mise en liberté. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : liberté immédiate, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3651-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Information du droit à réparation lors de la notification du non-lieu. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) examinée : réparation de la détention de l'innocent, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Objet du chapitre. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : champ du chapitre, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-10",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Champ de la section des personnes découvertes sur mandat : utile.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Rétention de vingt-quatre heures au plus, procureur avisé dès le début : borné.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : magistrat avisé dès le début, vingt-quatre heures au plus, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-12",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Présentation au procureur sous vingt-quatre heures, puis au juge des libertés : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le juge des libertés décide après débat contradictoire, délais de comparution, appel sous dix jours. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : débat contradictoire devant un juge du siège, appel ouvert, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-14",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Pas de passage par le juge des libertés si la juridiction de jugement peut statuer dans le délai : voie directe.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-15",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Arrestation lointaine : présentation au juge des libertés du lieu, notification, droit de se taire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-16",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Transfèrement sous quatre ou six jours, ou visioconférence : délai opposable, numérique.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-17",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Mandat après condamnation contradictoire : détention jusqu'à l'expiration des recours, demandes de liberté ouvertes. La décision de la juridiction s'exécute.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la privation de liberté repose sur une décision de juridiction, demandes de liberté ouvertes, tenu ; art. 8 DDHC sans objet"
+      "principe": "P23",
+      "motif": "Effets du non-lieu en deux phrases. L'information sur le droit à réparation (L3651-7) est déjà portée par L3661-3.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : fin du contrôle et de l'assignation, mise en liberté de la personne détenue : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le non-lieu met fin au contrôle judiciaire et à l'assignation à résidence avec surveillance électronique de la personne mise en examen. La personne détenue est mise en liberté."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3652-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Assignation après renvoi : deux ans au plus en tout, mainlevée possible. Borne. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Durée totale de deux ans gardée, phrase scindée.",
+      "ligne_rouge": "aucune (passe 1) ; borne de deux ans et mainlevée demandable gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne renvoyée devant la cour d'assises, la cour criminelle départementale ou le tribunal délictuel demeure ou est maintenue sous assignation à résidence avec surveillance électronique, la durée totale de la mesure, information comprise, ne peut excéder deux ans. Aucune prolongation semestrielle n'est ordonnée. La personne peut en demander la mainlevée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3652-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Après renvoi, le juge des libertés modifie ou lève le contrôle ou l'assignation, forme de la demande. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : juge du siège saisi à tout moment, tenu"
+      "principe": "P2",
+      "motif": "Reçoit L3652-6 (compétence de la juridiction de jugement à son audience). La forme de la demande renvoie à la règle générale de L3712-2 (déclaration au greffe, envoi à distance, personne détenue) au lieu de la recopier. L'objet du chapitre (L3652-1) tient dans la liste des personnes visées ici.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le juge des libertés et de la détention peut à tout moment alléger, lever ou aggraver la mesure, sur demande de la personne : gardé ; la juridiction de jugement statue à son audience.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne renvoyée devant la juridiction de jugement, ou poursuivie selon la procédure de comparution par procès-verbal, de comparution immédiate ou de comparution à délai différé, est sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique, le juge des libertés et de la détention peut, à tout moment, sur réquisitions du ministère public ou à la demande de la personne :\n1° Lui imposer une ou plusieurs obligations nouvelles.\n2° Ordonner la mainlevée totale ou partielle de la mesure.\n3° Modifier une ou plusieurs obligations.\n4° Accorder une dispense occasionnelle ou temporaire d'observer certaines d'entre elles.\nLa demande de la personne est faite au greffe du juge des libertés et de la détention, dans les formes de l'article L. 3712-2. La juridiction de jugement statue elle-même sur les réquisitions et demandes formées à son audience."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3652-4",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Décision sous dix jours, deux ou quatre mois selon l'instance, fin de la mesure à défaut : délai opposable. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : fin de la mesure à défaut de décision, tenue"
+      "motif": "Délais de dix jours, deux et quatre mois gardés avec leur sanction, en trois phrases.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : décision motivée, audition de la personne, délais opposables et fin de la mesure à défaut : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge des libertés et de la détention statue par ordonnance motivée, au vu des réquisitions du ministère public. Sauf s'il fait droit à la demande, il entend la personne, assistée le cas échéant de son avocat.\nSaisi par la personne, il statue dans les dix jours de la réception de la demande. Ce délai est de deux mois si elle a été jugée en premier ressort et se trouve en instance d'appel, de quatre mois si elle a été jugée en second ressort et a formé un pourvoi en cassation. A défaut, il est mis fin au contrôle judiciaire ou à l'assignation à résidence avec surveillance électronique."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3652-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Accusé : président de la chambre, vingt jours, renvoi possible à la formation collégiale. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : juge du siège, délai borné, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-6",
+      "principe": "P23",
+      "motif": "Président de la chambre pour l'accusé, vingt jours, renvoi à la collégialité : gardés. L'absence de recours suit L. 4 (mesure d'administration judiciaire).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : juge du siège compétent, délai de vingt jours opposable : gardés.",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Compétence de la juridiction de jugement à l'audience : la décision au plus près. Faute d'accord corrigée (« demandes prévus »).",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "les réquisitions et demandes prévus à",
-          "nouveau": "les réquisitions et demandes prévues à"
+          "op": "rediger",
+          "nouveau": "Lorsque la personne est mise en accusation devant la cour d'assises ou la cour criminelle départementale, les pouvoirs que les articles L. 3652-3 et L. 3652-4 donnent au juge des libertés et de la détention sont exercés par le président de la chambre des investigations et des libertés ou le conseiller qu'il désigne. Lorsque ce magistrat est saisi par l'accusé, le délai de dix jours de l'article L. 3652-4 est porté à vingt jours. Si la complexité du dossier le justifie, il peut, d'office, à la demande de la personne ou sur réquisitions du ministère public, renvoyer le jugement à la formation collégiale de la chambre. Ce renvoi est une mesure d'administration judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3652-7",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Perquisition pour armes après renvoi, par renvoi à L3623-1, procureur au lieu du juge d'instruction. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "inviolabilité du domicile (art. 2 DDHC) examinée : régime de L3623-1, tenu ; art. 66 C sans objet"
-    },
-    {
-      "code": "cpp",
-      "num": "L3652-8",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Appréhension et retenue après renvoi, par renvoi à L3623-2 à L3623-4. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : retenue de vingt-quatre heures au plus, magistrat informé, tenu"
+      "principe": "P23",
+      "motif": "Reçoit L3652-8 : perquisition pour arme (L3623-1) et appréhension ou retenue (L3623-2 à L3623-4) en cas de violation, après renvoi, dans un article. Bornes des plages citées par L4413-10, L4413-17, L4413-21, L4413-31 et L4432-9 gardées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : appréhension et retenue sous le régime de L3623-2 à L3623-4, sous le contrôle du procureur : gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la personne est renvoyée devant la juridiction de jugement, ou que celle-ci est autrement saisie, les articles L. 3623-1 à L. 3623-4 s'appliquent en cas de violation du contrôle judiciaire ou de l'assignation à résidence avec surveillance électronique. Le procureur de la République y exerce les attributions du juge d'instruction."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3652-9",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Violation après renvoi : mandat et détention par le juge des libertés. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine). Le renvoi à « L.4316-6 », absent du code de 2029, vise le mandat d'arrêt du président de la cour d'assises ou de la cour criminelle, qui est L. 4311-6 (ancien 272-1, al. 1er, dont L. 4322-12 porte l'al. 2) : coquille corrigée, espaces rétablis.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : mandat et détention décidés par un juge, tenu",
+      "motif": "Mandat et détention par le juge des libertés en cas de soustraction aux obligations. Renvoi corrigé : L4316-6 n'existe pas, et le mandat d'arrêt du président de la cour est au second alinéa de L4311-1 depuis la fusion de L4311-6 (lot p143).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : mandat décerné et détention ordonnée par le juge des libertés, selon la section 4 : gardés.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "articles L.4316-6 ou L.4322-12",
-          "nouveau": "articles L. 4311-6 ou L. 4322-12"
+          "op": "rediger",
+          "nouveau": "Si la personne placée sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique se soustrait à ses obligations alors qu'elle est renvoyée devant la juridiction de jugement ou que celle-ci est autrement saisie, le procureur de la République peut saisir le juge des libertés et de la détention aux fins de mandat d'arrêt ou d'amener. Ce juge peut ordonner la détention provisoire de la personne selon la section 4 du présent chapitre.\nLe présent article ne s'applique pas lorsque le mandat d'arrêt peut être décerné par le président de la cour d'assises ou de la cour criminelle départementale, ou par ces juridictions, selon le second alinéa de l'article L. 4311-1 ou l'article L. 4322-12."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-10",
+      "principe": "P20",
+      "motif": "Champ de la section gardé (borne de la plage citée par L4432-23). L'exclusion du condamné est dite une fois, à L3652-17.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La présente section s'applique à la personne découverte après le règlement de l'information alors qu'elle fait l'objet d'un mandat d'arrêt délivré pendant l'information ou après son règlement. Elle s'applique aussi à la personne découverte qui fait l'objet d'un mandat d'arrêt ou d'amener délivré par le tribunal délictuel contre un prévenu non comparant, même sans information préalable."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-11",
+      "principe": "P20",
+      "motif": "Rétention de vingt-quatre heures au plus gardée. L'avis au procureur dès le début de la rétention est déjà porté par L3444-8, auquel l'article renvoie. Article cité par L4413-17.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : rétention bornée à vingt-quatre heures, droits de L3444-8 et avis au procureur : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne arrêtée en vertu du mandat par les services de police ou de gendarmerie est retenue selon l'article L. 3444-8 pendant vingt-quatre heures au plus."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-12",
+      "principe": "P23",
+      "motif": "Présentation au procureur dans les vingt-quatre heures, puis au juge des libertés : gardée.",
+      "ligne_rouge": "aucune (passe 1) ; délai de présentation de vingt-quatre heures gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne est conduite dans les meilleurs délais, et au plus tard dans les vingt-quatre heures de son arrestation, devant le procureur de la République du tribunal judiciaire dans le ressort duquel siège la juridiction de jugement saisie. Ce magistrat vérifie son identité, lui notifie le mandat et la présente au juge des libertés et de la détention."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-13",
+      "principe": "P23",
+      "motif": "Reçoit L3652-14 (dispense de présentation si la juridiction de jugement peut statuer dans le délai). Phrases resserrées, renvois gardés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : décision du juge des libertés par ordonnance motivée selon les critères, après débat contradictoire, délais de détention, appel dans les dix jours : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge des libertés et de la détention peut, sur les réquisitions du procureur de la République, placer la personne sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique, ou en détention provisoire jusqu'à sa comparution devant la juridiction de jugement. Il statue par ordonnance motivée selon les articles L. 3641-5 à L. 3641-8, à l'issue d'un débat contradictoire tenu selon les articles L. 3642-13 à L. 3642-20. Les délais des articles L. 3653-2 et L. 3653-6 courent de l'ordonnance de placement en détention.\nL'ordonnance est susceptible d'appel dans les dix jours, devant la chambre des appels délictuels si la personne est renvoyée devant le tribunal délictuel, devant la chambre des investigations et des libertés si elle est renvoyée devant la cour d'assises ou la cour criminelle départementale.\nLa présentation au juge des libertés et de la détention n'a pas lieu si la personne peut comparaître devant la juridiction de jugement saisie dans le délai prévu pour cette présentation."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-15",
+      "principe": "P23",
+      "motif": "Arrestation à plus de deux cents kilomètres : présentation au juge du lieu, droit de se taire, incarcération et avis : gardés en phrases courtes.",
+      "ligne_rouge": "aucune (passe 1) ; présentation à un juge du siège et avertissement du droit de se taire gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la personne est arrêtée à plus de deux cents kilomètres du siège de la juridiction de jugement et ne peut être conduite dans les vingt-quatre heures devant le procureur de la République de cette juridiction, elle est conduite devant le juge des libertés et de la détention du lieu de l'arrestation. Ce juge vérifie son identité, lui notifie le mandat et reçoit ses déclarations après l'avoir avertie qu'elle est libre de ne pas en faire. Il fait conduire la personne à la maison d'arrêt et en avise le procureur de la République du tribunal judiciaire dans le ressort duquel siège la juridiction de jugement."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-16",
+      "principe": "P23",
+      "motif": "Délais de transfèrement de quatre et six jours gardés à leur place (adaptés par L8223-1, L8323-6, L8423-5, L8523-6). Visioconférence et refus borné gardés.",
+      "ligne_rouge": "aucune (passe 1) ; délai de comparution opposable et refus de la visioconférence gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République ordonne le transfèrement de la personne, qui comparaît devant lui dans les quatre jours de la notification du mandat. Ce délai est porté à six jours en cas de transfèrement entre un département d'outre-mer et la France métropolitaine ou un autre département d'outre-mer. Il est alors procédé selon les articles L. 3652-12 et L. 3652-13.\nLes comparutions devant le procureur de la République et devant le juge des libertés et de la détention peuvent se faire, dans les mêmes délais, par un moyen de télécommunication audiovisuelle selon les articles L. 1621-1 et suivants, sauf refus de la personne. Elle ne peut refuser lorsque son transport doit être évité en raison de risques graves de trouble à l'ordre public ou d'évasion. Le transfèrement n'est alors pas ordonné."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-17",
+      "principe": "P23",
+      "motif": "Personne déjà condamnée : la section ne s'applique pas, détention jusqu'à l'expiration des recours, demandes de liberté ouvertes. Porte seule l'exclusion que répétait L3652-10.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : titre de détention issu d'une condamnation, demandes de mise en liberté ouvertes : gardés ; art. 8 DDHC : la peine prononcée s'exécute.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La présente section ne s'applique pas lorsque, après la délivrance du mandat, la personne a été condamnée à une peine privative de liberté, en matière délictuelle par un jugement contradictoire ou contradictoire à signifier, en matière criminelle par un arrêt rendu par défaut. Elle ne s'applique pas non plus au mandat délivré à la suite d'une telle condamnation. La personne arrêtée est alors placée en détention provisoire, sans présentation au juge des libertés et de la détention, jusqu'à l'expiration des délais de recours et, en cas de recours, jusqu'à sa comparution devant la juridiction de jugement. Elle peut former des demandes de mise en liberté."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3653-1",
+      "principe": "P20",
+      "motif": "Le rappel d'ouverture (« Conformément aux articles L. 3653-2 à L. 3653-6 », remise en liberté à l'expiration des délais) tombe : chaque article de délai porte sa sanction. Restent la motivation de la prolongation et la visioconférence avec son refus borné.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la remise en liberté à l'expiration des délais est écrite à L3653-2, L3653-5 et L3653-6 ; motivation de la prolongation par les critères et les obstacles au jugement, refus de la visioconférence : gardés.",
       "decision": "S",
-      "principe": "P19",
-      "motif": "Liberté immédiate à l'expiration des délais de comparution, prolongation motivée, visioconférence. Délais opposables. Faute d'accord corrigée (« réalisés »).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : liberté de droit à l'expiration des délais, tenue",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "peuvent être réalisés en utilisant",
-          "nouveau": "peuvent être réalisées en utilisant"
+          "op": "rediger",
+          "nouveau": "La décision qui prolonge les délais de la présente section est motivée par référence aux articles L. 3641-6 à L. 3641-8 et mentionne les raisons de fait ou de droit qui font obstacle au jugement de l'affaire.\nLes audiences de prolongation peuvent se tenir par un moyen de télécommunication audiovisuelle selon les articles L. 1621-1 et suivants. La personne détenue, informée de la date de l'audience et du recours envisagé à ce moyen, peut le refuser, sauf si son transport doit être évité en raison de risques graves de trouble à l'ordre public ou d'évasion."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3653-2",
+      "principe": "P23",
+      "motif": "Délai d'un an et deux prolongations de six mois gardés, en deux alinéas (cité par L4343-1, L3653-3).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : remise en liberté immédiate à l'expiration, prolongation exceptionnelle par la chambre, comparution de droit : gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'accusé détenu pour les crimes qui ont motivé son renvoi devant la cour d'assises est immédiatement remis en liberté s'il n'a pas comparu devant elle dans le délai d'un an. Ce délai court de la date à laquelle la décision de mise en accusation est devenue définitive s'il était alors détenu, ou de celle de son placement ultérieur en détention provisoire.\nSi l'audience sur le fond ne peut débuter avant l'expiration de ce délai, la chambre des investigations et des libertés peut, à titre exceptionnel, prolonger la détention de six mois, une fois renouvelable dans les mêmes formes. La comparution de l'accusé est de droit s'il la demande ou si son avocat la demande."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3653-3",
+      "principe": "P23",
+      "motif": "Reçoit L3653-4 (erreur d'orientation) : les délais de la cour criminelle départementale tiennent dans un article (cité par L4343-1).",
+      "ligne_rouge": "aucune (passe 1) ; délai de six mois, une prolongation, plafond de la cour d'assises gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'article L. 3653-2 s'applique à l'accusé renvoyé pour crime devant la cour criminelle départementale. Le délai est de six mois et une seule prolongation est possible.\nSi, après rectification d'une erreur d'orientation, l'accusé renvoyé devant la cour criminelle départementale l'est devant la cour d'assises, les délais de l'article L. 3653-2 s'appliquent. Dans le cas inverse, les délais du premier alinéa s'appliquent, sans dépasser ceux de l'article L. 3653-2."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3653-5",
+      "principe": "P23",
+      "motif": "Délit connexe : six mois, liberté à défaut, point de départ renvoyé à L3653-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : remise en liberté immédiate à l'expiration du délai : gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le prévenu détenu renvoyé pour délit connexe devant la cour d'assises ou la cour criminelle départementale est immédiatement remis en liberté s'il n'a pas comparu devant elle dans le délai de six mois. Ce délai court comme celui de l'article L. 3653-2."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3653-6",
+      "principe": "P23",
+      "motif": "Deux mois, deux prolongations au plus, comparution de droit : gardés en phrases courtes (cité par L4414-1).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : remise en liberté immédiate, prolongation exceptionnelle motivée (L3653-1), comparution de droit : gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le prévenu détenu pour les faits qui ont motivé son renvoi devant le tribunal délictuel est immédiatement remis en liberté si le tribunal n'a pas commencé à examiner l'affaire au fond dans le délai de deux mois. Ce délai court de la date à laquelle la décision de renvoi est devenue définitive, ou de celle de son placement ultérieur en détention provisoire.\nSi l'audience sur le fond ne peut se tenir avant l'expiration de ce délai, le tribunal peut, à titre exceptionnel, prolonger la détention de deux mois, une fois renouvelable dans les mêmes formes. La comparution personnelle du prévenu est de droit s'il la demande ou si son avocat la demande."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3653-7",
+      "principe": "P2",
+      "motif": "Demande de mise en liberté en toute période gardée. Sa forme (déclaration au greffe, envoi à distance, chef d'établissement) renvoie à la règle générale de L3712-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : demande de mise en liberté ouverte en toute période, déclaration auprès du chef d'établissement pour la personne détenue (L3712-2) : gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque l'information est clôturée ou en l'absence d'information, la personne placée en détention provisoire peut demander sa mise en liberté en toute période de la procédure. La demande est faite dans les formes de l'article L. 3712-2, au greffe de la juridiction compétente selon l'article L. 3653-8 ou auprès du chef de l'établissement pénitentiaire, qui la transmet."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3653-8",
+      "principe": "P23",
+      "motif": "Répartition des compétences gardée, en phrases plus courtes.",
+      "ligne_rouge": "aucune (passe 1) ; un juge est toujours compétent, y compris pendant le pourvoi et après une décision d'incompétence.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La juridiction saisie statue sur la demande de mise en liberté. En matière criminelle, la cour d'assises ou la cour criminelle départementale n'est compétente que pour la demande formée pendant la session au cours de laquelle elle doit juger l'accusé. Dans les autres cas, la chambre des investigations et des libertés statue.\nEn cas de pourvoi, et jusqu'à l'arrêt de la Cour de cassation, statue la juridiction qui a connu en dernier lieu de l'affaire au fond, ou la chambre des investigations et des libertés si le pourvoi vise un arrêt de la cour d'assises ou de la cour criminelle départementale. En cas de décision d'incompétence, et dans tous les cas où aucune juridiction n'est saisie, la chambre des investigations et des libertés connaît des demandes."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3653-9",
+      "principe": "P19",
+      "motif": "Passe 2 tenue (accord « remise »). Délais par degré, report en cas de demande pendante, liberté d'office à défaut, exécution provisoire : gardés, phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : audition, droit de se taire, délais opposables et mise en liberté d'office à défaut, appel jugé en trente jours : gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La juridiction statue après avoir entendu le ministère public et la personne détenue, à qui son droit de se taire sur les faits reprochés est préalablement notifié, ou son avocat. Si la personne a comparu devant elle depuis moins de quatre mois, le président peut refuser sa comparution personnelle par une décision motivée insusceptible de recours.\nLorsque la personne n'a pas encore été jugée en premier ressort, la juridiction statue dans les dix jours de la réception de la demande si elle est du premier degré, dans les vingt jours si elle est du second degré. Elle statue dans les deux mois de la demande si la personne est en instance d'appel, dans les quatre mois si elle a formé un pourvoi contre une décision de second ressort. Lorsqu'au jour de la réception de la demande il n'a pas encore été statué sur une précédente demande de mise en liberté ou sur l'appel d'un refus, ces délais courent de la décision rendue sur celle-ci. Faute de décision dans ces délais, la personne est remise en liberté d'office si elle n'est pas détenue pour autre cause, sauf si des vérifications concernant sa demande ont été ordonnées ou si des circonstances imprévisibles et insurmontables font obstacle au jugement de l'affaire dans ces délais.\nLa décision du tribunal délictuel sur la demande est exécutoire nonobstant appel. Si le prévenu est maintenu en détention, la cour statue dans les trente jours de l'appel, faute de quoi il est mis d'office en liberté s'il n'est pas détenu pour autre cause."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L3653-10",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Déclaration d'adresse et protection de la victime à la mise en liberté : tenu.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Déclaration d'adresse et protection de la victime à la mise en liberté : gardées en deux phrases (cité par L6133-24).",
+      "ligne_rouge": "aucune (passe 1) ; P18 : protection de la victime gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la mise en liberté est ordonnée, l'article L. 3641-14 relatif à la déclaration d'adresse s'applique, et tout changement d'adresse est déclaré au procureur de la République ou au procureur général. L'article L. 3644-5 relatif à la protection de la victime s'applique également."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L3653-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Détention irrégulière : liberté, mesure moins rigoureuse si indispensable, ou saisine du juge des libertés par le procureur. La proposition de réécrire au titre de l'aménagement de peine est sans objet (mesure de sûreté, non peine).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : libération et décision d'un juge du siège, tenu"
+      "principe": "P23",
+      "motif": "Détention irrégulière : mesure moins rigoureuse si indispensable, ou saisine du juge des libertés par le procureur : gardés, phrases resserrées.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : mise en liberté de la personne irrégulièrement détenue, mesure restrictive seulement par un juge et si elle est indispensable : gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La juridiction qui ordonne la mise en liberté immédiate d'une personne dont la détention provisoire est irrégulière, faute de respect des délais ou formalités du présent code, peut, dans la même décision, la placer sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique si cette mesure est indispensable pour atteindre l'un des objectifs des articles L. 3641-6 à L. 3641-8.\nLorsque le procureur de la République ordonne lui-même la libération de la personne pour la même cause, il peut saisir sans délai le juge des libertés et de la détention de réquisitions tendant à ce placement immédiat, si cette mesure est indispensable pour atteindre l'un de ces objectifs."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "L3653-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Accusé détenu : comparution sous un an, deux prolongations de six mois par la chambre au plus.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : délai borné, prolongation par une chambre de la cour, tenu"
+      "num": "L3651-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mandat de dépôt de l'accusé jusqu'au jugement : premier alinéa de L3651-1.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : détention bornée par L3653-2 et L3653-3, mise en liberté demandable (L3653-7) : reprises à L3651-1.",
+      "vers": "L3651-1"
     },
     {
       "code": "cpp",
-      "num": "L3653-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Cour criminelle départementale : six mois, une prolongation. Plus rapide.",
-      "ligne_rouge": "aucune"
+      "num": "L3651-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délits connexes : second alinéa de L3651-1.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : fin des mesures sauf maintien spécialement motivé : reprise à L3651-1.",
+      "vers": "L3651-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3651-7",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Redite de L3661-3, qui avise de son droit à réparation toute personne détenue ou assignée lors de la notification du non-lieu.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : l'information sur la réparation survit à L3661-3, mot pour mot sur le fond."
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Objet du chapitre, déclaratif : les personnes visées sont nommées par L3652-3 (renvoyées ou poursuivies en comparution par procès-verbal, immédiate ou à délai différé).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : aucune règle de liberté : le champ survit à L3652-3."
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Compétence de la juridiction de jugement à son audience : dernière phrase de L3652-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3652-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Appréhension et retenue (L3623-2 à L3623-4) : L3652-7, qui vise désormais L3623-1 à L3623-4.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : retenue sous le régime de L3623-2 à L3623-4 : reprise à L3652-7.",
+      "vers": "L3652-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L3652-14",
+      "decision": "F",
+      "principe": "P24",
+      "motif": "Dispense de présentation au juge des libertés : dernier alinéa de L3652-13.",
+      "ligne_rouge": "aucune",
+      "vers": "L3652-13"
     },
     {
       "code": "cpp",
       "num": "L3653-4",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Erreur d'orientation : délais de la juridiction effective, sans dépasser ceux de la cour d'assises.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3653-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Délit connexe : comparution sous six mois, faute de quoi liberté.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : délai borné, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3653-6",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Prévenu renvoyé devant le tribunal : examen au fond sous deux mois, deux prolongations au plus.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : délai borné, comparution de droit, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3653-7",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Demande de mise en liberté en toute période, forme de la déclaration. Gardé comme forme propre après clôture.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : accès effectif au juge, tenu"
-    },
-    {
-      "code": "cpp",
-      "num": "L3653-8",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Juridiction compétente pour la demande de mise en liberté selon le stade : répartition nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L3653-9",
-      "decision": "S",
-      "principe": "P19",
-      "motif": "Décision sous dix ou vingt jours, deux ou quatre mois selon le stade, libération d'office à défaut : délais opposables. Faute d'accord corrigée (« la personne ... étant d'office remis »).",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : libération d'office à défaut de décision, tenue",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "étant d'office remis en liberté",
-          "nouveau": "étant d'office remise en liberté"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Erreur d'orientation : second alinéa de L3653-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L3653-3"
     }
-  ]
+  ],
+  "passe": 3
 }
