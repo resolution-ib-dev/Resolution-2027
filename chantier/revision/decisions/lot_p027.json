@@ -9,44 +9,40 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "R58",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Doublon de L5321-3, qui place le condamné sous le contrôle du juge de l'application des peines territorialement compétent selon L2141-8 (résidence s'il est libre, établissement s'il est écroué) et le charge de s'assurer de l'exécution des mesures et obligations. Aucune règle propre perdue : le seul critère de la résidence, écrit ici, contredit même L2141-8 pour le condamné écroué.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "R59",
-      "decision": "G",
       "principe": "P10",
-      "motif": "Convocation, rappel et notification des obligations, procès-verbal émargé dont copie est remise : la preuve que la personne connaît ses obligations fonde la révocation. Délégation possible au service d'insertion et de probation : la décision se prend au plus près.",
-      "ligne_rouge": "aucune"
+      "motif": "Convocation, rappel et notification des obligations, procès-verbal émargé dont copie est remise, délégation au service d'insertion et de probation : gardés en trois phrases.",
+      "ligne_rouge": "art. 8 DDHC examiné : la preuve que la personne connaît ses obligations, qui fonde la révocation, reste écrite",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge de l'application des peines ou, sur son instruction, le service pénitentiaire d'insertion et de probation peut convoquer le condamné pour lui rappeler les mesures de contrôle, les obligations particulières et l'injonction de soins issues de la condamnation, lui notifier les obligations particulières que le juge ordonne et lui faire connaître les conditions de leur application et de leur contrôle. Un procès-verbal constate ces formalités. Le condamné l'émarge et en reçoit copie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R60-1",
-      "decision": "S",
       "principe": "P1",
-      "motif": "Bracelet anti-rapprochement des articles 132-45, 18° bis, et 132-45-1 du code pénal. Le décret y ajoute trois conditions que la loi ne pose pas : la subsidiarité, le couplage avec les interdictions des 9° et 13° et la durée de deux ans renouvelable. Ensemble, elles bornent une géolocalisation permanente du condamné. Elles remontent en bloc à l'article 132-45-1 du code pénal (remontée signalée) et restent en place jusque-là. La victime est avisée de la demande de réduire les distances ou de lever la mesure et peut présenter ses observations (P18). Coquilles corrigées. Renvoi à l'ancien 712-6 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) et CEDH art. 8 examinés : la géolocalisation reste subsidiaire, couplée aux interdictions qu'elle contrôle et bornée à deux ans renouvelables, le condamné garde la demande de réduction ou de levée à tout moment. Art. 66 C examiné : le bracelet ne prive pas de liberté, sa levée et son renouvellement restent décidés par un juge du siège",
+      "motif": "Bracelet anti-rapprochement : subsidiarité, couplage avec les interdictions des 9° et 13°, durée de deux ans renouvelable, levée en cas d'atteinte excessive à la vie privée, avis de la victime (passe 2). Rédaction resserrée, renvoi « qui remplace qui » écrit. L'ancien 712-6 devient L. 5131-3. Remontée des trois bornes à l'article 132-45-1 du code pénal signalée (passe 2).",
+      "ligne_rouge": "art. 66 C, art. 8 DDHC et vie privée (CEDH art. 8) examinés : géolocalisation permanente bornée (subsidiarité, durée, juge, levée à tout moment), toutes gardées",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "la juridiction d'application des peines ne peut prononcer",
-          "nouveau": "la juridiction de l'application des peines ne peut prononcer"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "prévues par le 18 bis de l'article 132-45",
-          "nouveau": "prévues par le 18° bis de l'article 132-45"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Cette décision peut être également prise d'office par le juge de l'application des peines.",
-          "nouveau": "Cette décision peut être également prise d'office par le juge de l'application des peines. La victime est avisée de la demande ou de la décision envisagée et peut présenter ses observations, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine."
+          "op": "rediger",
+          "nouveau": "La juridiction de jugement ou de l'application des peines ne prononce contre un majeur l'interdiction de se rapprocher de la victime avec port d'un bracelet anti-rapprochement (18° bis de l'article 132-45 et article 132-45-1 du code pénal), dans le cadre d'un sursis probatoire, d'une semi-liberté, d'un placement à l'extérieur, d'une détention à domicile sous surveillance électronique, d'un fractionnement ou d'une suspension de peine, d'un suivi socio-judiciaire, d'une libération conditionnelle, d'une surveillance judiciaire ou d'un placement sous surveillance électronique mobile, que si les interdictions des 9° et 13° de l'article 132-45 du même code sont à elles seules insuffisantes pour prévenir le renouvellement de l'infraction. Elle prononce alors aussi ces deux interdictions : ne pas se rendre dans les lieux où la victime réside, travaille ou se trouve habituellement, et ne pas la recevoir, la rencontrer ni entrer en relation avec elle de quelque façon que ce soit.\nLes articles R. 631-1 et R. 631-3 du code pénitentiaire et R. 24-16 à R. 24-23 du présent code, sauf R. 24-19 et R. 24-22, s'appliquent alors. La révocation du sursis probatoire, ou la révocation ou le retrait de la mesure d'aménagement, y remplace la révocation du contrôle judiciaire prévue à l'article R. 24-20.\nSi l'interdiction provoque, du fait des déplacements du condamné ou de la victime, des alertes nombreuses qui portent une atteinte excessive à son droit au respect de sa vie privée et familiale, le condamné peut demander à tout moment au juge de l'application des peines de réduire les distances d'alerte et de pré-alerte ou de lever l'interdiction et le bracelet. Le juge peut aussi le décider d'office. Il statue selon l'article L. 5131-3. La victime est avisée de la demande ou de la décision envisagée et peut présenter ses observations, sauf si elle a fait connaître qu'elle ne souhaitait pas être avisée des modalités d'exécution de la peine.\nLa durée de l'interdiction et du port du bracelet n'excède ni celle de la peine, de la probation ou de la mesure d'aménagement, ni deux ans. Le juge de l'application des peines peut la renouveler, selon l'article L. 5131-3, une fois en matière délictuelle et deux fois en matière criminelle."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "R58",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Doublon de L. 5321-3, qui place le condamné sous le contrôle du juge de l'application des peines compétent selon L. 2141-8. Le seul critère de la résidence, écrit ici, contredit la loi pour le condamné écroué (passe 2 confirmée).",
+      "ligne_rouge": "art. 66 C examiné : le contrôle du juge de l'application des peines reste écrit à L. 5321-3"
     }
-  ]
+  ],
+  "passe": 3
 }
