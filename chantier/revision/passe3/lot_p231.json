@@ -1,0 +1,119 @@
+{
+  "lot": "lot_p231",
+  "titre": "CPP, partie réglementaire, livre IV, titre XXIX : Des saisies spéciales",
+  "ecart_volume": "Écart motivé : 263 mots pour un plafond de 220 (−40 % au lieu de −50 %), 7 → 3 articles. R53-56 est gardé à part parce que R251 cite la plage R. 53-51 à R. 53-56, dont il est la borne. Le reste ne contient que les écarts au droit commun du code de commerce.",
+  "articles_cible": [
+    {
+      "num": "R53-50",
+      "texte": "La consignation prévue à l'article L. 3534-9 et la déconsignation se font sur production, respectivement, de l'ordonnance qui autorise ou ordonne la saisie des sommes et de la décision définitive qui en désigne le bénéficiaire, avec tout document qui justifie les droits et l'identité du demandeur.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Consignation et déconsignation sur pièces : phrases fondues, renvoi à l'ancien 706-155 recalé sur L. 3534-9 (pièce de passe 3 du lot p183).",
+      "ligne_rouge": "Propriété (art. 17 DDHC) examinée : la déconsignation suit la décision définitive qui désigne le bénéficiaire."
+    },
+    {
+      "num": "R53-51",
+      "texte": "La publicité de la saisie d'un fonds de commerce prévue à l'article L. 3534-13 suit le chapitre Ier du titre II du livre V de la partie réglementaire du code de commerce, avec les écarts suivants :\n1° Le greffe compétent est celui de la juridiction commerciale du lieu d'immatriculation principale du propriétaire du fonds ou, à défaut, de son domicile, sinon celui du tribunal de commerce de Paris.\n2° La demande d'inscription indique la date de la décision de saisie, le propriétaire du fonds, identifié selon le 2° de l'article R. 521-6 du code de commerce, l'adresse et le nom commercial du fonds. Le bordereau est accompagné de la copie de la décision définitive de saisie.\n3° Par dérogation à l'article R. 521-20 du même code, la radiation est demandée par l'Agence de gestion et de recouvrement des avoirs saisis et confisqués, sur production de la décision définitive de mainlevée, de non-lieu, de relaxe, d'acquittement ou de confiscation, et portée en marge, datée, sans indication de la nature de la décision.",
+      "verbe": "R",
+      "principe": "P3",
+      "motif": "Publicité de la saisie d'un fonds de commerce en un article : droit commun du code de commerce et ses seuls écarts, greffe compétent (R53-52), contenu de la demande et pièce jointe (R53-53, R53-54), radiation à la demande de l'agence sans mention de la décision (R53-55). Renvoi à l'ancien 706-157 recalé sur L. 3534-13. La plage R. 53-51 à R. 53-56 que cite R251 garde ses bornes.",
+      "ligne_rouge": "Présomption d'innocence examinée : radiation sans indication de la nature de la décision (non-lieu, relaxe, acquittement ou confiscation)."
+    },
+    {
+      "num": "R53-56",
+      "texte": "Pour l'application du 1° de l'article R. 521-32 du code de commerce, le requérant indique les éléments d'identification du propriétaire du fonds de commerce saisi.",
+      "verbe": "G",
+      "principe": "P20",
+      "motif": "Identification du propriétaire pour la réquisition d'état : gardé, borne de la plage citée par R251.",
+      "ligne_rouge": "Aucune."
+    }
+  ],
+  "retires": [
+    {
+      "num": "R53-52",
+      "verbe": "F",
+      "vers": "R53-51",
+      "principe": "P3",
+      "motif": "Greffe compétent : 1° de R53-51.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "R53-53",
+      "verbe": "F",
+      "vers": "R53-51",
+      "principe": "P3",
+      "motif": "Contenu de la demande d'inscription : 2° de R53-51.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "R53-54",
+      "verbe": "F",
+      "vers": "R53-51",
+      "principe": "P3",
+      "motif": "Copie de la décision jointe : 2° de R53-51.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "R53-55",
+      "verbe": "F",
+      "vers": "R53-51",
+      "principe": "P3",
+      "motif": "Radiation à la demande de l'agence : 3° de R53-51.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "R53-50#1": {
+      "destin": "reprise",
+      "vers": "R53-50"
+    },
+    "R53-50#2": {
+      "destin": "reprise",
+      "vers": "R53-50"
+    },
+    "R53-51#1": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-52#1": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-52#2": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-53#1": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-53#2": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-53#3": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-53#4": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-54#1": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-55#1": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-55#2": {
+      "destin": "reprise",
+      "vers": "R53-51"
+    },
+    "R53-56#1": {
+      "destin": "gardee",
+      "vers": "R53-56"
+    }
+  }
+}
