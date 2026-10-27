@@ -10,459 +10,602 @@
     {
       "code": "cpp",
       "num": "L4471-1",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Appel des jugements délictuels : droit d'appel au fond.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-10",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Appel en vingt-quatre heures sur la liberté et le contrôle judiciaire : délai court.",
-      "ligne_rouge": "art. 66 C examiné : recours rapide sur la liberté"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-11",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Déclaration d'appel au greffe, registre public, avis à la partie civile : relève de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-12",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Appel du détenu par déclaration au chef de l'établissement. Ponctuation corrigée. Relève de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune",
+      "motif": "Ouverture de l'appel et titulaires réunis (L4471-2 fusionné). Les trois titulaires limités aux intérêts civils tiennent dans un seul numéro, de même les deux procureurs : aucun titulaire ni aucune limite n'est perdu.",
+      "ligne_rouge": "Double degré de juridiction (art. 16 DDHC, L. 4) : chaque titulaire garde son droit d'appel et sa limite, le prévenu sans restriction.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "attaquée ;Il est",
-          "nouveau": "attaquée.Il est"
+          "op": "rediger",
+          "nouveau": "Les jugements rendus en matière délictuelle peuvent être attaqués par la voie de l'appel devant la chambre des appels délictuels de la cour d'appel.\nLa faculté de former appel appartient :\n1° Au prévenu.\n2° À la personne civilement responsable, à la partie civile et à l'assureur d'une partie, quant aux intérêts civils seulement.\n3° Au procureur de la République et au procureur général près la cour d'appel.\n4° Aux administrations publiques, dans les cas où elles exercent l'action pénale.\n5° À la personne prétendant disposer d'un droit sur un bien placé sous main de justice, quant au jugement rejetant sa demande de restitution.\nLe jugement qui accorde la restitution est susceptible d'appel du ministère public, du prévenu, de la personne civilement responsable et de la partie civile à qui il fait grief. Dans ces deux cas, la chambre des appels délictuels n'est saisie qu'après le jugement sur le fond."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-13",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Déclaration d'adresse de l'appelant libre, réputée valoir pour toute notification : seul siège depuis l'abrogation du miroir pénitentiaire L511-2 (lot p095). Le changement d'adresse se signale par tout moyen qui établit la date de réception.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "tout changement de l'adresse déclarée par lettre recommandée avec demande d'avis de réception",
-          "nouveau": "tout changement de l'adresse déclarée par tout moyen permettant d'en établir la date de réception"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-14",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Demande de formation collégiale en appel, dans le mois : relève de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-15",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Notification de l'appel de l'assureur à l'assuré sous trois jours. Le doublon de L4471-25 tombe là-bas : la règle vit ici, où L4411-22 la cite.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-16",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Requête d'appel motivée possible.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-17",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Portée de l'appel déclarée : relève de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-18",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Limitation ultérieure de l'appel jusqu'à l'audience.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-19",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Retour sur la limitation dans le mois ou à l'audience.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-2",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Titulaires de l'appel, restitution comprise.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-20",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Non-admission d'office de l'appel tardif, sans objet ou irrégulier : tri rapide.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-21",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Effet suspensif, sauf exécution provisoire et mesures de sûreté.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-22",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Appel d'un jugement distinct : recevabilité immédiate sur requête, sinon jonction au fond.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-23",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Requête jugée en huit jours, appel jugé dans le mois : délais opposables.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-24",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Effet dévolutif borné par l'acte d'appel et la qualité de l'appelant. Coquille partielle : l'ancien 509 renvoie à l'ancien 515, réparti entre L4473-4, L4473-5 et L4471-26.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "à l'article L. 4471-26.",
-          "nouveau": "aux articles L. 4471-26, L. 4473-4 et L. 4473-5."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-25",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Effet de l'appel de l'assureur à l'égard de l'assuré, gardé. La seconde phrase répète mot pour mot L4471-15 : elle tombe.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": " Il est, dans un délai de trois jours, notifié à l'assuré par lettre recommandée avec demande d'avis de réception adressée par l'assureur.",
-          "nouveau": ""
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-26",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Pas de demande nouvelle de la partie civile en appel, sauf préjudice survenu depuis.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-27",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Compétence de la chambre sur les restitutions, au régime du tribunal (L4434-1 à L4434-6).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-28",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Désistement par tout moyen, constaté par ordonnance : relève de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-29",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Caducité des appels incidents si l'appel principal est retiré tôt : la procédure s'éteint vite.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L4471-3",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Appel principal du parquet en dix jours.",
-      "ligne_rouge": "aucune"
+      "motif": "Appel principal du parquet en dix jours, inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L4471-4",
-      "decision": "G",
       "principe": "P17",
-      "motif": "Appel du procureur général en vingt jours contre une condamnation. L'exécution n'attend pas ce délai (L5111-2, lot p000).",
-      "ligne_rouge": "aucune"
+      "motif": "Délai de vingt jours du procureur général, inchangé : cité par L5111-2 et D50 pour l'exécution.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L4471-5",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Point de départ du délai d'appel des parties. Espace parasite dans le renvoi corrigé.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Délai d'appel des parties et définition du jugement contradictoire réunis (L4471-6 fusionné, renvoi à L4421-10 corrigé en passe 2). Les points de départ restent écrits : prononcé, ou signification.",
+      "ligne_rouge": "Délais d'appel : dix jours, avec leur point de départ écrit pour chaque forme de jugement.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "l'article L. 4471- 6",
-          "nouveau": "l'article L. 4471-6"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L4471-6",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Jugement contradictoire. Coquille : l'article se citait lui-même ; la représentation par avocat est réglée à L4421-10 (ancien 411).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "dans les conditions prévues par l'article L. 4471-6",
-          "nouveau": "dans les conditions prévues par l'article L. 4421-10"
+          "op": "rediger",
+          "nouveau": "Les parties peuvent former appel dans un délai de dix jours à compter :\n1° Du prononcé du jugement, s'il est contradictoire.\n2° De la signification du jugement, s'il est contradictoire à signifier au sens de l'article L. 4471-7 ou rendu par défaut ou par itératif défaut.\nLe jugement est contradictoire lorsque le prévenu ou la partie a comparu ou a été représenté par un avocat dans les conditions prévues à l'article L. 4421-10, hors les cas prévus à l'article L. 4471-7."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L4471-7",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Jugement contradictoire à signifier : le délai court de la signification.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Six cas inchangés, phrases resserrées, points-virgules retirés.",
+      "ligne_rouge": "Droits de la défense : la partie absente ou non représentée garde un délai qui ne court que de la signification.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le jugement est contradictoire à signifier à l'égard de la partie :\n1° Qui n'a pas comparu ni été représentée alors qu'il est établi qu'elle connaissait la date et l'heure de l'audience.\n2° Qui a déclaré une adresse au cours de la procédure et n'a pas comparu ni été représentée, lorsque la citation a été délivrée à sa dernière adresse déclarée.\n3° Qui était présente ou représentée par un avocat aux débats mais non au prononcé, sauf si elle ou son représentant avait été informé de la date du prononcé.\n4° Qui a été jugée en son absence après audition d'un avocat venu assurer sa défense sans mandat de représentation signé d'elle.\n5° Qui n'a pas comparu après avoir demandé à être représentée par un avocat, lorsque cet avocat était absent.\n6° Qui, partie civile, n'a pas comparu, quant au jugement statuant sur sa demande de restitution ou de dommages-intérêts présentée en application des articles L. 1431-3 ou L. 4422-4.\nLe délai d'appel court alors de la signification du jugement, quel qu'en soit le mode, sous réserve de l'article L. 4471-8."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4471-8",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Prison ferme non signifiée à personne : le délai court de la connaissance effective, la détention se poursuit sous le régime de la détention provisoire.",
-      "ligne_rouge": "art. 66 C examiné : la personne écrouée garde ses demandes de mise en liberté ; art. 8 DDHC examiné : la peine n'est pas modifiée ; art. 16 examiné : l'appel reste ouvert jusqu'à la prescription"
+      "motif": "Même règle, phrases resserrées : le délai court de la connaissance effective de la condamnation, l'appel reste ouvert jusqu'à la prescription de la peine, la détention suit le régime de la détention provisoire.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 : la personne écrouée reste sous le contrôle du juge de la détention provisoire et garde ses demandes de mise en liberté. Droits de la défense et délais d'appel : le délai ne court que de la connaissance effective.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'un jugement contradictoire à signifier ou par itératif défaut prononce une peine d'emprisonnement ferme ou assortie d'un sursis partiel sans avoir été signifié à personne, le délai d'appel de dix jours du prévenu court de la signification faite à domicile, à commissaire de justice ou à parquet, et le jugement est exécutoire à son expiration. Toutefois, s'il n'est établi ni par l'avis de réception ou le récépissé prévus aux articles L. 1631-7 et L. 1631-8, ni par un acte d'exécution, ni par l'avis prévu à l'article L. 1631-12, que le prévenu a eu connaissance de la signification, le délai d'appel court du jour où il a eu connaissance de la condamnation. L'appel reste alors recevable, sur l'action pénale comme sur les intérêts civils, jusqu'à la prescription de la peine.\nLa personne écrouée en exécution de la condamnation après l'expiration du délai de dix jours, qui forme appel en application de l'alinéa précédent, demeure détenue sous le régime de la détention provisoire, avec le droit de demander sa mise en liberté, jusqu'à l'audience de la chambre des appels délictuels."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4471-9",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Appel incident en cinq jours.",
-      "ligne_rouge": "aucune"
+      "motif": "Appel incident et délai de vingt-quatre heures sur la liberté réunis (L4471-10 fusionné), délais inchangés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 : l'appel en vingt-quatre heures sur la liberté et le contrôle judiciaire est gardé (L4471-10). Délais d'appel inchangés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas d'appel du ministère public ou d'une partie dans le délai de dix jours, les autres parties et le ministère public disposent d'un délai supplémentaire de cinq jours pour former appel incident. Les parties disposent du même délai après l'appel formé par le procureur général dans le délai de vingt jours prévu à l'article L. 4471-4.\nLorsque le tribunal statue sur une demande de mise en liberté, ou de mainlevée ou de modification du contrôle judiciaire ou de l'assignation à résidence avec surveillance électronique, l'appel est formé dans un délai de vingt-quatre heures."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-11",
+      "principe": "P23",
+      "motif": "Forme de la déclaration d'appel : mêmes règles, registre public gardé, point-virgule retiré.",
+      "ligne_rouge": "Publicité (P26) : registre public et copie à toute personne gardés. Droits de la victime : avis de l'appel pénal gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La déclaration d'appel est faite au greffier de la juridiction qui a rendu la décision attaquée. Elle est signée par le greffier et par l'appelant, un avocat ou un fondé de pouvoir spécial, dont le pouvoir est annexé à l'acte. Si l'appelant ne peut signer, le greffier en fait mention. Elle est inscrite sur un registre public, dont toute personne peut se faire délivrer copie.\nEn l'absence d'appel sur l'action civile, le parquet avise la partie civile de l'appel portant sur l'action pénale."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-12",
+      "principe": "P23",
+      "motif": "Appel du détenu : même règle, phrases resserrées, point-virgule et coquille de ponctuation retirés.",
+      "ligne_rouge": "Droits de la défense : le détenu garde la déclaration d'appel auprès du chef d'établissement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque l'appelant est détenu, l'appel peut être fait par déclaration auprès du chef de l'établissement pénitentiaire, qui la constate, la date et la signe avec l'appelant ou mentionne que celui-ci ne peut signer. La déclaration est adressée sans délai, en original ou en copie, au greffe de la juridiction qui a rendu la décision attaquée et transcrite sur le registre prévu à l'article L. 4471-11."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-13",
+      "principe": "P12",
+      "motif": "Déclaration d'adresse de l'appelant : la forme du changement d'adresse suit la règle générale de L1632-3, la conséquence propre à l'appel (arrêt contradictoire à signifier) reste écrite.",
+      "ligne_rouge": "Droits de la défense : l'arrêt reste contradictoire à signifier, et le délai de recours contre une condamnation ne court que dans les conditions de L4471-8 (L1632-3).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le prévenu libre qui forme appel, ou son avocat s'il forme l'appel, déclare l'adresse personnelle du prévenu ou celle d'un tiers qui accepte de recevoir les notifications qui lui sont destinées. À défaut, l'adresse déclarée est celle qui figure dans le jugement. Le prévenu détenu au moment de l'appel et remis en liberté avant l'examen de son affaire fait cette déclaration auprès du chef de l'établissement pénitentiaire avant sa mise en liberté.\nJusqu'au jugement définitif, l'article L. 1632-3 s'applique à cette adresse, dont le changement est signalé au procureur de la République. Le prévenu cité à la dernière adresse déclarée qui ne comparaît pas sans excuse reconnue valable est jugé par arrêt contradictoire à signifier."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-15",
+      "principe": "P23",
+      "motif": "Notification et effet de l'appel de l'assureur réunis (L4471-25 fusionné, son doublon mot pour mot tombe).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'appel de l'assureur produit effet à l'égard de l'assuré en ce qui concerne l'action civile. Il est notifié à l'assuré par l'assureur dans un délai de trois jours, par lettre recommandée avec demande d'avis de réception."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-16",
+      "principe": "P23",
+      "motif": "Requête d'appel motivée : deux phrases en une.",
+      "ligne_rouge": "Droits de la défense : la faculté de motiver l'appel par écrit est gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Une requête contenant les moyens d'appel, signée par l'appelant, un avocat ou un fondé de pouvoir spécial, peut être remise au greffe du tribunal dans les délais prévus pour la déclaration d'appel."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-17",
+      "principe": "P23",
+      "motif": "Portée de l'appel, limitation ultérieure et retour sur la limitation réunis (L4471-18 et L4471-19 fusionnés), règles inchangées.",
+      "ligne_rouge": "Double degré de juridiction (art. 16 DDHC, L. 4) : à défaut de précision, l'appel porte sur toute la décision, et le prévenu peut revenir sur une limitation faite sans son avocat.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La déclaration d'appel du prévenu indique si l'appel porte sur la décision sur l'action pénale, sur la décision sur l'action civile ou sur les deux. Sur l'action pénale, elle indique si l'appel porte sur l'ensemble de la décision ou s'il est limité aux peines prononcées, à certaines d'entre elles ou à leurs modalités d'application et, si le prévenu a été déclaré coupable de plusieurs infractions, lesquelles il concerne. À défaut de ces précisions, l'appel porte sur l'intégralité de la décision.\nLe prévenu peut limiter la portée de son appel jusqu'à l'audience de jugement. Il peut revenir sur une limitation aux peines prononcées dans le délai d'un mois à compter de la déclaration d'appel, ou à l'audience si l'affaire est audiencée avant ce délai ou si la limitation n'a pas été faite par son avocat ou en sa présence."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-20",
+      "principe": "P19",
+      "motif": "Non-admission d'office : mêmes trois cas, liste en une phrase, point-virgule retiré.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le président de la chambre des appels délictuels rend d'office une ordonnance de non-admission de l'appel formé après l'expiration des délais d'appel, devenu sans objet ou formé sans respecter les formalités prévues à l'article L. 4471-11. Cette ordonnance n'est susceptible d'aucun recours."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-21",
+      "principe": "P10",
+      "motif": "Effet suspensif : mêmes exceptions, en deux phrases. Le renvoi à L4471-23 suit sa fusion dans L4471-22.",
+      "ligne_rouge": "Effet suspensif de l'appel gardé, exceptions inchangées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pendant les délais d'appel, à l'exception du délai de vingt jours du procureur général prévu à l'article L. 4471-4, et durant l'instance d'appel, il est sursis à l'exécution du jugement. Font exception l'exécution provisoire ordonnée par le tribunal, la mise en liberté du prévenu en application des articles L. 4432-8 et L. 4432-12, le prononcé ou le maintien d'une mesure de sûreté et les cas prévus à l'article L. 4471-22."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-22",
+      "principe": "P19",
+      "motif": "Appel d'un jugement distinct et requête en recevabilité immédiate réunis (L4471-23 fusionné) : délais de huit jours et d'un mois, suspension de l'exécution et absence de recours inchangés.",
+      "ligne_rouge": "Effet suspensif : le jugement distinct n'est pas exécutoire pendant les délais d'appel et l'instance sur requête.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le tribunal statue par jugement distinct du jugement sur le fond, l'appel est immédiatement recevable si ce jugement met fin à la procédure. Dans le cas contraire, le jugement n'est pas exécutoire et le tribunal ne statue pas au fond jusqu'à l'expiration des délais d'appel et, si la partie appelante a déposé au greffe dans ces délais une requête tendant à faire déclarer l'appel immédiatement recevable, jusqu'à la décision sur cette requête.\nLe greffier transmet la requête au président de la chambre des appels délictuels avec une expédition du jugement et de l'acte d'appel, et en avise le président du tribunal. Le président de la chambre statue dans les huit jours de la réception, par ordonnance non motivée et non susceptible de recours. S'il rejette la requête, l'appel n'est jugé qu'avec l'appel du jugement sur le fond. S'il fait droit à la requête dans l'intérêt de l'ordre public ou d'une bonne administration de la justice, il fixe la date à laquelle l'appel est jugé. La chambre statue dans le mois de l'ordonnance, sans que puisse être soulevée devant elle une exception tirée de ce que l'appel ne serait pas suspensif, et l'exécution du jugement est suspendue jusqu'à son arrêt."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-24",
+      "principe": "P23",
+      "motif": "Effet dévolutif en un article : limites de l'appel, interdiction des demandes nouvelles de la partie civile (L4471-26 fusionné) et compétence sur les restitutions (L4471-27 fusionné). Le renvoi suit la fusion de L4473-4 dans L4473-5.",
+      "ligne_rouge": "Interdiction d'aggraver sur le seul appel du prévenu : la dévolution reste bornée par la qualité de l'appelant (L4473-5).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'affaire est dévolue à la chambre des appels délictuels dans les limites fixées par l'acte d'appel conformément à l'article L. 4471-17 et par la qualité de l'appelant ainsi qu'il est dit à l'article L. 4473-5.\nLa partie civile ne peut, en cause d'appel, former aucune demande nouvelle. Elle peut toutefois demander une augmentation des dommages et intérêts pour le préjudice souffert depuis la décision de première instance.\nLorsque la chambre des appels délictuels est saisie du fond de l'affaire, elle est compétente pour statuer sur les restitutions dans les conditions définies par les articles L. 4434-1 à L. 4434-6."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-28",
+      "principe": "P23",
+      "motif": "Désistement et caducité des appels incidents réunis (L4471-29 fusionné), conditions inchangées.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'appelant peut se désister de son appel dans les formes de la déclaration d'appel ou par tout moyen, y compris à l'audience. Avant l'audience, le désistement est constaté par ordonnance du président de la chambre des appels délictuels. Le ministère public peut toujours se désister de son appel formé après celui du prévenu si celui-ci se désiste.\nLe désistement par le prévenu ou la partie civile de son appel principal rend caducs les appels incidents. Il rend caduc l'appel incident du ministère public s'il intervient plus de deux mois avant la date de l'audience et dans les formes de la déclaration d'appel. Est incident l'appel formé dans le délai supplémentaire prévu à l'article L. 4471-9, ou celui qui, formé à la suite d'un précédent appel dans le délai prévu aux articles L. 4471-3 à L. 4471-5, est déclaré incident par l'appelant."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4472-1",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Détenu jugé en appel sous quatre mois, prolongation motivée deux fois, sinon liberté : délai opposable.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : la privation de liberté est décidée par un juge du siège (juge des libertés et de la détention ou tribunal), bornée dans le temps, à peine de mise en liberté d'office"
-    },
-    {
-      "code": "cpp",
-      "num": "L4472-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Comparution immédiate : arrêt sous quatre mois, sinon liberté d'office.",
-      "ligne_rouge": "aucune"
+      "motif": "Délais d'audiencement du détenu réunis (L4472-2 fusionné) : quatre mois, prolongation motivée renouvelable une fois, six mois pour les faits commis à l'étranger ou la délinquance organisée, quatre mois en comparution immédiate, liberté d'office à défaut.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 : délais de détention opposables, prolongation motivée par un juge, comparution personnelle de droit et liberté d'office gardées mot pour mot ou à l'identique.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le prévenu en détention provisoire est, dans le plus bref délai suivant l'appel, transféré sur ordre du procureur de la République dans la maison d'arrêt du lieu où siège la cour d'appel. Il comparaît devant la chambre des appels délictuels dans un délai de quatre mois à compter de l'appel ou de son placement ultérieur en détention provisoire en application du jugement.\nÀ titre exceptionnel, le président de la chambre peut prolonger la détention de quatre mois, deux fois au plus, par une décision mentionnant les raisons de fait ou de droit qui font obstacle au jugement de l'affaire. La comparution personnelle du prévenu est de droit si lui-même ou son avocat la demande. Ces délais sont de six mois lorsqu'un des faits constitutifs de l'infraction a été commis hors du territoire national ou que la personne est poursuivie pour des faits de délinquance organisée mentionnée aux articles L. 1722-2 et L. 1722-3.\nSur l'appel du prévenu détenu contre un jugement sur le fond rendu selon la procédure de comparution immédiate ou de comparution à délai différé, la chambre statue dans les quatre mois de l'appel. À défaut, le prévenu est mis d'office en liberté s'il n'est pas détenu pour une autre cause.\nLe prévenu qui n'a pas comparu devant la chambre des appels délictuels avant l'expiration des délais prévus aux deux premiers alinéas est remis immédiatement en liberté s'il n'est pas détenu pour une autre cause."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4472-3",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Règles du tribunal applicables en appel : un seul régime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4472-4",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Victime partie civile avisée de l'audience d'appel, même sans appel civil.",
-      "ligne_rouge": "aucune"
+      "motif": "Règles du tribunal applicables en appel et avis d'audience à la partie civile réunis (L4472-4 fusionné), traduction gardée.",
+      "ligne_rouge": "Publicité et droits de la victime : la règle du tribunal vaut en appel, l'avis d'audience et sa traduction sont gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'ensemble des règles édictées pour le tribunal délictuel est applicable devant la chambre des appels délictuels, sous réserve des dispositions du présent chapitre.\nMême en l'absence d'appel sur les intérêts civils, le parquet avise de la date de l'audience la victime constituée partie civile en premier ressort, avec, à sa demande et si elle ne comprend pas le français, une traduction écrite ou, à titre exceptionnel, orale ou résumée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4472-5",
-      "decision": "G",
       "principe": "P7",
-      "motif": "Juge unique d'appel limité à cinq ans ferme, renvoi possible à la collégiale.",
-      "ligne_rouge": "art. 8 DDHC examiné : la collégialité reste disponible au-delà de cinq ans ferme"
+      "motif": "Juge unique d'appel en un article : demande de collégialité du prévenu dans le mois (L4471-14 fusionné), renvoi d'office et limite de cinq ans ferme gardés. Relecture g39 : la règle vaut pour tout juge unique d'appel désigné selon L2133-3, pas pour le seul président (P7, P25).",
+      "ligne_rouge": "Individualisation et droits de la défense : la collégialité reste ouverte au prévenu à sa demande, et le juge unique ne prononce pas plus de cinq ans ferme (registre 4.6). Le plafond de cinq ans ferme et le renvoi à la collégialité valent pour tout juge unique d'appel.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la chambre des appels délictuels statue à juge unique en application de l'article L. 2133-3, le prévenu peut demander expressément, dans sa déclaration d'appel ou dans le mois qui suit, que l'affaire soit examinée par une formation collégiale. Le juge unique peut aussi, d'office ou à la demande des parties ou du ministère public, renvoyer l'affaire à la formation collégiale en raison de la complexité des faits ou de l'importance de la peine susceptible d'être prononcée. Il ne peut prononcer une peine d'emprisonnement ferme de plus de cinq ans."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4472-6",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Rapport, interrogatoire, témoins : appel au fond.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Rapport, interrogatoire et témoins : mêmes règles, point-virgule retiré.",
+      "ligne_rouge": "Droits de la défense : interrogatoire du prévenu et audition de ses témoins gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'appel est jugé à l'audience sur le rapport oral d'un conseiller. Le prévenu est interrogé. Les témoins cités par le prévenu sont entendus dans les règles prévues devant le tribunal délictuel. Le ministère public peut s'opposer à l'audition d'un témoin entendu en première instance, et la chambre des appels délictuels tranche avant tout débat au fond."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4472-7",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Ordre des plaidoiries, victime entendue comme témoin sans appel civil.",
-      "ligne_rouge": "aucune"
+      "motif": "Ordre des plaidoiries, victime entendue comme témoin, dernier mot au prévenu : inchangé, alinéas séparés.",
+      "ligne_rouge": "Droits de la défense : le prévenu a la parole en dernier.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Après que l'appelant ou son représentant a sommairement indiqué les motifs de son appel, les parties en cause ont la parole dans l'ordre prévu par l'article L. 4423-28.\nLorsqu'il n'a pas été fait appel de la décision sur l'action civile, la victime constituée partie civile en premier ressort peut demander à être entendue en qualité de témoin.\nLe prévenu ou son avocat auront toujours la parole les derniers."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4473-1",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Confirmation.",
-      "ligne_rouge": "aucune"
+      "motif": "Confirmation et infirmation en un article (L4473-3 fusionné).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la chambre des appels délictuels estime que l'appel, bien que recevable, n'est pas fondé, elle confirme le jugement attaqué. Si elle estime que l'appel est fondé, elle infirme, en tout ou partie, le jugement attaqué."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-2",
+      "principe": "P21",
+      "motif": "Amende civile en appel pour citation abusive : même condition (réquisitions en première instance), phrase resserrée. Elle reste hors du renvoi de L4532-2.",
+      "ligne_rouge": "Nécessité (art. 8 DDHC) : l'amende civile ne se prononce en appel que si elle a été requise en première instance.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'elle confirme un jugement de relaxe, la chambre des appels délictuels peut condamner la partie civile à l'amende civile prévue par l'article L. 4432-37 pour citation directe abusive ou dilatoire si le procureur de la République l'a requise en première instance."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-5",
+      "principe": "P25",
+      "motif": "Pouvoirs de la chambre selon la qualité de l'appelant en un article (L4473-4 fusionné), mot pour mot.",
+      "ligne_rouge": "Interdiction d'aggraver le sort de l'appelant sur son seul appel : gardée mot pour mot.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La chambre des appels délictuels peut, sur l'appel du ministère public, soit confirmer le jugement, soit l'infirmer en tout ou en partie dans un sens favorable ou défavorable au prévenu.\nLa chambre des appels délictuels ne peut, sur le seul appel du prévenu, du civilement responsable, de la partie civile ou de l'assureur de l'une de ces personnes, aggraver le sort de l'appelant."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-6",
+      "principe": "P23",
+      "motif": "Relaxe en appel et demande du relaxé : même règle, « Dans ce cas » retiré.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le jugement de condamnation est infirmé parce que la chambre des appels délictuels estime qu'il n'y a ni crime, ni délit, ni contravention, ou que le fait n'est pas établi ou qu'il n'est pas imputable au prévenu, elle prononce sa relaxe. Si le prévenu relaxé demande des dommages-intérêts dans les conditions prévues à l'article L. 4432-38, il porte directement sa demande devant la chambre des appels délictuels."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-7",
+      "principe": "P14",
+      "motif": "Dispense, ajournement ou exemption en appel : même renvoi, phrase resserrée.",
+      "ligne_rouge": "Individualisation au prononcé : la cour garde la dispense et l'ajournement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la chambre estime que le prévenu doit être dispensé de peine ou voir le prononcé de sa peine ajourné, ou qu'il bénéficie d'une cause légale d'exemption de peine, elle applique les articles L. 4432-2 et L. 4432-3."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4473-10",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Annulation pour vice de forme : évocation, pas de renvoi qui allonge.",
-      "ligne_rouge": "art. 16 DDHC examiné : les nullités restent invocables, purgées tôt (avant toute défense au fond), ce que veut P11 ; art. 8 DDHC examiné : la chambre juge elle-même la peine"
+      "principe": "P23",
+      "motif": "Décisions d'annulation en un article : évocation, requalification en contravention (L4473-8 fusionné), incompétence pour un fait criminel (L4473-9 fusionné).",
+      "ligne_rouge": "Droits de la défense et individualisation : l'évocation juge le fond sans perte de degré, le fait criminel retourne au parquet.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le jugement est annulé pour violation ou omission non réparée de formes prescrites par la loi à peine de nullité, la chambre des appels délictuels évoque et statue sur le fond. S'il est annulé parce que le fait ne constitue qu'une contravention, elle prononce la peine et statue, s'il y a lieu, sur l'action civile. S'il est annulé parce que le fait est de nature à entraîner une peine criminelle, elle se déclare incompétente et renvoie le ministère public à se pourvoir ainsi qu'il avisera. Elle peut alors, après avoir entendu le ministère public, décerner par la même décision mandat de dépôt ou d'arrêt contre le prévenu."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4473-11",
-      "decision": "G",
       "principe": "P5",
-      "motif": "Appel d'une homologation : évocation, sans aggravation sauf appel du parquet.",
-      "ligne_rouge": "art. 8 DDHC examiné : la voie rapide reste dans le barème (P5), un juge du siège statue et la personne peut demander l'audience ordinaire"
+      "motif": "Appel de l'homologation : évocation sans aggravation sauf appel du parquet, inchangé.",
+      "ligne_rouge": "Interdiction d'aggraver sur le seul appel du condamné : gardée mot pour mot.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L4473-12",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Irrecevabilité de l'appel tardif ou irrégulier.",
-      "ligne_rouge": "aucune"
+      "motif": "Irrecevabilité, inchangée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L4473-13",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Libération pour détention irrégulière, contrôle judiciaire si indispensable. « Du prévenu personne dont » corrigé.",
-      "ligne_rouge": "art. 66 C examiné : la détention irrégulière cesse, la mesure de substitution est décidée par la chambre",
+      "motif": "Coquille « du prévenu personne dont » corrigée (passe 2).",
+      "ligne_rouge": "Art. 66 C : la détention irrégulière cesse, une mesure de contrôle ne se prononce que si elle est indispensable.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "du prévenu personne dont",
-          "nouveau": "du prévenu dont"
+          "op": "rediger",
+          "nouveau": "Si la chambre des appels délictuels ordonne la mise en liberté immédiate du prévenu dont la détention provisoire est irrégulière faute de respect des délais ou formalités prévus par le présent code, elle peut, par la même décision, le placer sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique si cette mesure est indispensable à l'un des objectifs énumérés aux articles L. 3641-6 et L. 3641-7."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-15",
+      "principe": "P23",
+      "motif": "Mainlevée et restitution du produit après relaxe en appel : même règle, en deux phrases, « en application des dispositions du présent code » retiré.",
+      "ligne_rouge": "Propriété (art. 17 DDHC) : mainlevée de plein droit et restitution du produit gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque, sur appel d'une décision prononçant une confiscation ou autorisant une remise aux fins d'aliénation en application de l'article L. 4432-28, la chambre relaxe le prévenu ou n'ordonne pas la confiscation du bien, la saisie est levée de plein droit aux frais avancés du Trésor. Le produit de la vente est restitué au propriétaire qui le demande, sauf décision de non-restitution."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Titulaires de l'appel et appel du jugement de restitution : dans L4471-1.",
+      "ligne_rouge": "Double degré de juridiction (art. 16 DDHC, L. 4) : aucun titulaire ni aucune limite n'est perdu.",
+      "vers": "L4471-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Définition du jugement contradictoire : dans L4471-5, avec le délai qu'elle commande.",
+      "ligne_rouge": "Délais d'appel : point de départ au prononcé pour le seul jugement contradictoire.",
+      "vers": "L4471-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-10",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Délai de vingt-quatre heures sur la liberté et le contrôle judiciaire : dans L4471-9, avec l'autre délai de la sous-section.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 : le délai de vingt-quatre heures est gardé à l'identique dans L4471-9.",
+      "vers": "L4471-9"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Demande de collégialité du prévenu : avec la règle du juge unique d'appel, dans L4472-5.",
+      "ligne_rouge": "Droits de la défense : demande gardée, même délai d'un mois.",
+      "vers": "L4472-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Limitation ultérieure de l'appel : dans L4471-17.",
+      "ligne_rouge": "aucune",
+      "vers": "L4471-17"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-19",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Retour sur la limitation aux peines : dans L4471-17, mêmes conditions.",
+      "ligne_rouge": "aucune",
+      "vers": "L4471-17"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-23",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Instruction de la requête en recevabilité immédiate : dans L4471-22.",
+      "ligne_rouge": "aucune",
+      "vers": "L4471-22"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-25",
+      "decision": "F",
+      "principe": "P20",
+      "motif": "Effet de l'appel de l'assureur : dans L4471-15. Sa seconde phrase répétait L4471-15 mot pour mot.",
+      "ligne_rouge": "aucune",
+      "vers": "L4471-15"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-26",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interdiction des demandes nouvelles de la partie civile en appel : dans L4471-24, avec l'effet dévolutif.",
+      "ligne_rouge": "aucune",
+      "vers": "L4471-24"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-27",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Compétence de la chambre sur les restitutions : dans L4471-24.",
+      "ligne_rouge": "aucune",
+      "vers": "L4471-24"
+    },
+    {
+      "code": "cpp",
+      "num": "L4471-29",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Caducité des appels incidents : dans L4471-28, avec le désistement.",
+      "ligne_rouge": "aucune",
+      "vers": "L4471-28"
+    },
+    {
+      "code": "cpp",
+      "num": "L4472-2",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Délai de quatre mois après comparution immédiate : dans L4472-1, avec les autres délais du détenu.",
+      "ligne_rouge": "Art. 66 C : délai et liberté d'office gardés dans L4472-1.",
+      "vers": "L4472-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4472-4",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Avis d'audience à la partie civile et traduction : dans L4472-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L4472-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Infirmation : dans L4473-1, avec la confirmation.",
+      "ligne_rouge": "aucune",
+      "vers": "L4473-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pouvoirs sur l'appel du ministère public : dans L4473-5, mot pour mot.",
+      "ligne_rouge": "aucune",
+      "vers": "L4473-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Requalification en contravention : dans L4473-10, avec les autres décisions d'annulation.",
+      "ligne_rouge": "Individualisation : la chambre prononce la peine, comme avant.",
+      "vers": "L4473-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L4473-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Incompétence pour un fait criminel et mandat : dans L4473-10.",
+      "ligne_rouge": "Art. 66 C : le mandat se décerne après audition du ministère public, comme avant.",
+      "vers": "L4473-10"
     },
     {
       "code": "cpp",
       "num": "L4473-14",
       "decision": "A",
       "principe": "P20",
-      "motif": "Doublon vérifié mot à mot : la compétence de la chambre sur les restitutions « dans les mêmes conditions que le tribunal » est à L4471-27, le refus pour danger, instrument ou produit de l'infraction à L4434-5, que L4471-27 rend applicable. Rien n'est perdu.",
+      "motif": "Doublon vérifié en passe 2 : la compétence sur les restitutions est à L4471-24, le refus pour danger, instrument ou produit de l'infraction à L4434-6 (L4434-5 y est fusionné, lot p150), que L4471-24 rend applicable.",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-15",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Relaxe ou absence de confiscation en appel : mainlevée et restitution du produit.",
-      "ligne_rouge": "art. 2 DDHC (propriété) examiné : restitution de plein droit"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Amende civile en appel pour citation abusive.",
-      "ligne_rouge": "art. 8 DDHC examiné : amende requise en première instance, plafonnée par la loi"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-3",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Infirmation.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-4",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Sur appel du parquet, aggravation possible.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pas d'aggravation sur le seul appel du prévenu ou des parties privées.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-6",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Relaxe en appel, dommages-intérêts du relaxé portés devant la chambre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-7",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Dispense, ajournement ou exemption prononcés en appel selon L4432-2 et L4432-3.",
-      "ligne_rouge": "art. 8 DDHC examiné : mêmes facultés qu'en première instance, bornées par 132-59 réécrit"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-8",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Requalification en contravention : la chambre prononce la peine.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine suit la qualification retenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L4473-9",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Fait criminel : incompétence, mandat possible.",
-      "ligne_rouge": "art. 66 C examiné : mandat décerné par la chambre après le ministère public ; art. 8 DDHC examiné : la qualification criminelle est rendue à son juge"
     }
-  ]
+  ],
+  "passe": 3
 }
