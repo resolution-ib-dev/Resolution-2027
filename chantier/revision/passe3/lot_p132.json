@@ -1,0 +1,127 @@
+{
+  "lot": "lot_p132",
+  "titre": "Partie réglementaire, livre VII, titre II : Saint-Barthélemy",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "R721-1",
+      "verbe": "R",
+      "principe": "P3",
+      "ligne_rouge": "aucune",
+      "texte": "Pour l'application du présent code à Saint-Barthélemy :\n1° Le représentant de l'État dans la collectivité tient lieu de préfet de département.\n2° À l'article R. 412-61, les jours fériés chômés comprennent aussi celui de l'article L. 3422-2 du code du travail.",
+      "motif": "Table des adaptations de rang R de la collectivité, en un article (technique 1, comme L. 721-1) : représentant de l'État (R. 721-2) et jour férié de l'abolition de l'esclavage (R. 725-1), porté sur R. 412-61, qui reçoit R. 412-62 (lot p120). La copie du Journal officiel de la collectivité (R. 727-1) suit les pièces de la demande d'habilitation, descendues à l'arrêté de R. 623-2. La clause d'application elle-même est à L. 721-1."
+    },
+    {
+      "num": "D724-1",
+      "verbe": "R",
+      "principe": "P3",
+      "ligne_rouge": "aucune",
+      "texte": "Pour l'application du présent code à Saint-Barthélemy :\n1° La condition de diplôme de l'article D. 352-1 ne s'applique aux aumôniers que si l'un des diplômes de la liste peut être obtenu dans la collectivité, y compris à distance.\n2° À l'article D. 412-72, le directeur de l'économie, de l'emploi, du travail et des solidarités de la Guadeloupe tient lieu de directeur régional de l'économie, de l'emploi, du travail et des solidarités.",
+      "motif": "Table des adaptations de rang D de la collectivité, en un article du même rang : condition de diplôme des aumôniers (D. 724-1) et direction du travail compétente (D. 725-2). La substitution de l'agence de santé est sans objet."
+    }
+  ],
+  "retires": [
+    {
+      "num": "R721-2",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 721-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R721-1"
+    },
+    {
+      "num": "R725-1",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de R. 721-1, portée sur R. 412-61.",
+      "ligne_rouge": "aucune",
+      "vers": "R721-1"
+    },
+    {
+      "num": "D725-2",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Ligne de la table de D. 724-1.",
+      "ligne_rouge": "aucune",
+      "vers": "D724-1"
+    },
+    {
+      "num": "R722-1",
+      "verbe": "A",
+      "principe": "P13",
+      "motif": "Serment devant un tribunal de première instance absent de Saint-Barthélemy, qui relève du tribunal judiciaire de Basse-Terre, et alinéa transitoire épuisé au 1er janvier 2029 : R. 122-8 s'applique (passe 2 confirmée).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "R727-1",
+      "verbe": "A",
+      "principe": "P1",
+      "motif": "La liste des pièces de la demande d'habilitation descend à l'arrêté de R. 623-2 : la copie du Journal officiel de la collectivité l'y suit.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "R727-2",
+      "verbe": "A",
+      "principe": "P13",
+      "motif": "Désigne un tribunal de première instance absent de Saint-Barthélemy, et le représentant de l'État est à la table de R. 721-1 : R. 623-3 s'applique (passe 2 confirmée).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "R727-3",
+      "verbe": "A",
+      "principe": "P15",
+      "motif": "Avis préalable avec délai, qui ne protège aucune liberté : R. 623-9, qui reçoit R. 623-8, s'applique (passe 2 confirmée).",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "D724-1#1": {
+      "vers": "D724-1",
+      "destin": "reprise"
+    },
+    "D724-1#2": {
+      "destin": "abrogee",
+      "principe": "P20"
+    },
+    "D725-2#1": {
+      "vers": "D724-1",
+      "destin": "reprise"
+    },
+    "R721-1#1": {
+      "vers": "R721-1",
+      "destin": "reprise"
+    },
+    "R721-2#1": {
+      "vers": "R721-1",
+      "destin": "reprise"
+    },
+    "R722-1#1": {
+      "destin": "abrogee",
+      "principe": "P13"
+    },
+    "R722-1#2": {
+      "destin": "abrogee",
+      "principe": "P13"
+    },
+    "R722-1#3": {
+      "destin": "abrogee",
+      "principe": "P13"
+    },
+    "R725-1#1": {
+      "vers": "R721-1",
+      "destin": "reprise"
+    },
+    "R727-1#1": {
+      "destin": "declassee",
+      "vers": "arrêté du garde des sceaux, ministre de la justice, publié, prévu à l'article R. 623-2 (pièces de la demande d'habilitation au travail d'intérêt général : la déclaration d'une association peut y être justifiée par le Journal officiel de la collectivité)"
+    },
+    "R727-2#1": {
+      "destin": "abrogee",
+      "principe": "P13"
+    },
+    "R727-3#1": {
+      "destin": "abrogee",
+      "principe": "P15"
+    }
+  }
+}
