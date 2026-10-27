@@ -9,258 +9,283 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "R50-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Organisation de la juridiction d'indemnisation renvoyée au code de l'organisation judiciaire. Renvoi à l'ancien 706-4 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "R50-7",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Aide juridictionnelle devant la commission, interruption des délais : la victime ne perd pas son droit en le demandant. Renvois aux anciens 706-5 et 706-8 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-8",
+      "principe": "P13",
+      "motif": "Aide juridictionnelle et interruption des délais : les anciens articles 706-5 et 706-8 sont nommés par leurs sièges de 2029 (L1441-13, L1441-14). La « commission » et son « secrétaire » deviennent la juridiction d'indemnisation et son greffe, comme dans la loi (L1441-13, L1441-15) : un mot par notion.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; la victime ne perd pas son droit en demandant l'aide juridictionnelle (P18) : tenu.",
       "decision": "S",
-      "principe": "P12",
-      "motif": "Saisine par requête remise ou adressée par lettre recommandée : la voie électronique s'y ajoute.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "et remise, ou adressée par lettre recommandée, au secrétaire de la commission",
-          "nouveau": "et remise, adressée par lettre recommandée ou transmise par voie électronique au secrétaire de la commission"
+          "op": "rediger",
+          "nouveau": "L'aide juridictionnelle devant la juridiction d'indemnisation peut être accordée par le bureau établi près le tribunal judiciaire. Sa demande interrompt les délais prévus aux articles L. 1441-13 et L. 1441-14."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R50-9",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Contenu de la requête et pièces : ce qui permet d'instruire vite. La passe 1 relevait la notification : l'article n'en impose aucune forme.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-10",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Justificatifs propres à la demande fondée sur les ressources (ancien 706-14, à coordonner) : nécessaires à l'examen de la condition.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-11",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Pièce de la requête en complément d'indemnité (ancien 706-8, à coordonner).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-12",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Transmission sans délai au parquet et au fonds : délai opposable.",
-      "ligne_rouge": "aucune"
+      "num": "R50-8",
+      "principe": "P23",
+      "motif": "Reçoit R50-9 (contenu et pièces de la requête), R50-10 (pièces de la demande fondée sur les ressources), R50-11 (complément d'indemnité) et R50-12 (transmission au parquet ; la transmission au fonds est déjà dans la loi, L1441-15) : la saisine dans un article. La saisine se fait par la formule unique de L1632-5, voie électronique comprise (texte de la passe 2, registre 5.4). Anciens 706-8 et 706-14 nommés par leurs sièges (L1441-14, L1441-4). La liste indicative des renseignements et des pièces descend à l'arrêté qui fixe le modèle de requête (technique 4) ; les justifications exigées par les conditions de la loi (ressources, complément d'indemnité) restent. La « commission » et son « secrétaire » deviennent la juridiction d'indemnisation et son greffe, comme dans la loi (L1441-13, L1441-15) : un mot par notion.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; la requête reste ouverte à la personne lésée, à son représentant et à son conseil, avec récépissé ; les renseignements et pièces que la liste indicative nommait passent au modèle de requête fixé par arrêté (P18).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La juridiction d'indemnisation est saisie par une requête signée de la personne lésée, de son représentant légal ou de son conseil, remise au greffe ou adressée par tout moyen permettant d'en établir la date de réception. Le greffe en délivre récépissé et en transmet sans délai copie, avec les pièces annexes, au procureur de la République.\nLa requête contient tous renseignements utiles à l'instruction de la demande et est accompagnée des pièces justificatives, selon un modèle fixé par arrêté du ministre de la justice.\nLa requête fondée sur l'article L. 1441-4 indique en outre les ressources du demandeur, justifiées notamment par ses déclarations de revenus de l'année précédant l'infraction et de l'année précédant la saisine ou par un certificat de non-imposition et, le cas échéant, par la liste de ses biens immobiliers. Elle expose aussi ce qui l'empêche d'obtenir une réparation effective et suffisante de son préjudice et la situation grave qui en résulte. La requête en complément d'indemnité prévue à l'article L. 1441-14 est accompagnée de la décision définitive qui a statué sur les intérêts civils."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R50-12-1",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Contenu de l'offre du fonds, chef de préjudice par chef de préjudice : la victime sait ce qu'on lui propose. Renvoi à l'ancien 706-5-1 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-12-2",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Homologation du constat d'accord, silence valant désaccord. La notification au demandeur passe de la lettre recommandée à tout moyen qui en établit la réception, y compris électronique. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
-      "ligne_rouge": "aucune",
+      "motif": "Reçoit R50-12-2 (homologation, notification, silence de la victime) : l'offre du fonds et ses suites dans un article. La saisine du président aux fins d'homologation est déjà dans la loi (L1441-15). Ancien 706-5-1 nommé par son siège (L1441-15). Notification par la formule unique (texte de la passe 2, registre 5.4).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; offre détaillée chef de préjudice par chef de préjudice, silence valant désaccord après deux mois seulement si l'offre l'annonce : la victime sait ce qu'on lui propose (P18).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "La décision est notifiée sans délai par lettre recommandée avec demande d'avis de réception au demandeur et par lettre simple au fonds.",
-          "nouveau": "La décision est notifiée sans délai au demandeur par tout moyen permettant d'en établir la date de réception, y compris par voie électronique, et au fonds par tout moyen."
+          "op": "rediger",
+          "nouveau": "L'offre d'indemnisation du fonds de garantie prévue à l'article L. 1441-15 indique, pour chaque chef de préjudice, l'évaluation retenue et l'indemnité qui revient à la victime compte tenu des prestations énumérées à l'article 29 de la loi n° 85-677 du 5 juillet 1985 et des indemnités de toute nature reçues ou à recevoir d'autres débiteurs au titre du même préjudice. Elle est accompagnée, le cas échéant, des décomptes produits par ces débiteurs. Le silence de la victime pendant deux mois à compter de la présentation de l'offre vaut désaccord. L'offre le mentionne.\nL'homologation confère force exécutoire au constat d'accord. La décision du président sur l'homologation est notifiée sans délai au demandeur par tout moyen permettant d'en établir la date de réception, et au fonds par tout moyen."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R50-13",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Instruction par le président ou l'assesseur, rejet immédiat de la requête manifestement irrecevable : gardés. Coquille corrigée (« ne remplit par » pour « ne remplit pas »). Renvoi à l'ancien 706-3 à coordonner.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Reçoit R50-14 (accès au dossier, copies) : l'instruction dans un article. Le magistrat qui instruit et ses pouvoirs d'investigation sont déjà dans la loi (L1441-15, L1441-19). Texte de la passe 2 tenu (coquilles corrigées) ; ancien 706-3 nommé par ses sièges (L1441-2, L1441-3). La « commission » et son « secrétaire » deviennent la juridiction d'indemnisation et son greffe, comme dans la loi (L1441-13, L1441-15) : un mot par notion.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; contradictoire : accès au dossier, observations et copies pour le demandeur et le fonds, autorisation du parquet pour les pièces pénales : tenus.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "ne remplit par une des conditions",
-          "nouveau": "ne remplit pas une des conditions"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "R50-14",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Accès au dossier du demandeur et du fonds, copies, autorisation du parquet pour les pièces pénales : gardés. Coquille corrigée (« le fond de garantie »).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "ainsi que le fond de garantie",
-          "nouveau": "ainsi que le fonds de garantie"
+          "op": "rediger",
+          "nouveau": "Lorsque la requête ou ses pièces montrent manifestement que le demandeur ne remplit pas l'une des conditions des articles L. 1441-2 et L. 1441-3, il est procédé immédiatement selon les articles R. 50-17 et suivants.\nLe demandeur et le fonds de garantie peuvent prendre connaissance du dossier au greffe, présenter toutes observations utiles et se faire délivrer, à leurs frais, copie des pièces. La copie des procès-verbaux constatant l'infraction et des pièces de la procédure pénale est subordonnée à l'autorisation du ministère public."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R50-15",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Provision : décision du président dans le mois. Délai opposable, au bénéfice de la victime.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-16",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Fixation de l'audience une fois l'affaire instruite.",
-      "ligne_rouge": "aucune"
+      "motif": "Provision demandée au président : le délai d'un mois est déjà dans la loi (L1441-20) ; restent la communication pour observations et la notification.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; décision du président dans le mois (L1441-20), observations du parquet et du fonds : tenues.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Saisi d'une demande de provision, le président communique sans délai la requête au procureur de la République et au fonds de garantie et recueille leurs observations. Il statue par une ordonnance portée à la connaissance du procureur de la République et notifiée selon l'article R. 50-22."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R50-17",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Convocation deux mois à l'avance, observations quinze jours avant l'audience : gardées. La convocation du demandeur passe de la lettre recommandée à tout moyen qui en établit la réception, y compris électronique. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Reçoit R50-16 (fixation de l'audience) et R50-18 (conclusions du parquet) : la préparation de l'audience dans un article, numéro gardé (cité par R284, R285 et R375). Convocation par la formule unique (texte de la passe 2, registre 5.4). La « commission » et son « secrétaire » deviennent la juridiction d'indemnisation et son greffe, comme dans la loi (L1441-13, L1441-15) : un mot par notion.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; convocation deux mois à l'avance, observations et conclusions quinze jours avant, consultation du dossier jusqu'à l'audience : tenus.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Cette convocation est faite par lettre recommandée avec demande d'avis de réception au demandeur et par lettre simple au fonds de garantie.",
-          "nouveau": "Cette convocation est faite au demandeur par tout moyen permettant d'en établir la date de réception, y compris par voie électronique, et au fonds de garantie par tout moyen."
+          "op": "rediger",
+          "nouveau": "Une fois l'affaire instruite, le président fixe la date de l'audience. Le greffe y convoque au moins deux mois à l'avance le demandeur, par tout moyen permettant d'en établir la date de réception, et le fonds de garantie, par tout moyen. La convocation informe les parties qu'elles adressent leurs observations au plus tard quinze jours avant l'audience et peuvent consulter le dossier au greffe jusqu'à l'audience. Le procureur de la République, informé de la date, dépose ses conclusions quinze jours au moins avant."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "R50-18",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Conclusions du parquet quinze jours avant l'audience.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-19",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Rapport, audition des parties, conclusions du parquet : contradictoire.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R50-20",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Renvoi à date fixe. L'information des parties absentes passe de la lettre recommandée à tout moyen qui en établit la réception, y compris électronique, pour toutes les parties. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Reçoit R50-19 (déroulement de l'audience) : l'audience et son renvoi dans un article, numéro gardé (cité par R284). Texte de la passe 2 tenu (formule unique pour toutes les parties).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; contradictoire : rapport, audition du demandeur et du fonds, conclusions du parquet : tenus.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "celles-ci sont informées de ce renvoi par lettre recommandée avec demande d'avis de réception, à l'exception du fonds de garantie qui est informé par lettre simple.",
-          "nouveau": "celles-ci sont informées de ce renvoi par tout moyen permettant d'en établir la date de réception, y compris par voie électronique."
+          "op": "rediger",
+          "nouveau": "A l'audience, le magistrat qui a instruit l'affaire fait son rapport. Le demandeur et le fonds de garantie, présents ou représentés, sont entendus, puis le procureur de la République développe ses conclusions.\nLa juridiction qui renvoie l'affaire fixe immédiatement la date de la nouvelle audience. Les parties ni présentes ni représentées en sont informées par tout moyen permettant d'en établir la date de réception."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "R50-21",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Dépens à la charge du demandeur débouté, sauf décharge par la commission : la commission garde la main pour en dispenser la victime de bonne foi.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R50-22",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Notification sans délai de la décision : la lettre recommandée cède à tout moyen qui en établit la réception, y compris électronique. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Reçoit R50-21 (dépens) et R50-23 (voies de recours) : la décision, sa notification et ses recours dans un article, numéro gardé (cité par R284). Texte de la passe 2 tenu (formule unique).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; appel ouvert quel que soit le montant, décharge des dépens possible pour la victime de bonne foi : tenus.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "est notifiée sans délai, par lettre recommandée avec demande d'avis de réception, au demandeur",
-          "nouveau": "est notifiée sans délai, par tout moyen permettant d'en établir la date de réception, y compris par voie électronique, au demandeur"
+          "op": "rediger",
+          "nouveau": "La décision de la juridiction d'indemnisation est notifiée sans délai au demandeur et au fonds de garantie par tout moyen permettant d'en établir la date de réception. Les décisions de la juridiction et de son président ne sont pas susceptibles d'opposition. Elles sont susceptibles d'appel quel que soit le montant de la demande. Le demandeur dont la requête est rejetée est condamné aux dépens, sauf décharge totale ou partielle décidée par la juridiction."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R50-23",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Appel ouvert quel que soit le montant : voie de recours au fond.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "R50-24",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Paiement par le fonds dans le mois de la notification : délai opposable, au bénéfice de la victime. Renvoi aux anciens 706-3 à 706-14 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-25",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Action en remboursement du fonds devant la commission, selon la même procédure (ancien 706-10, à coordonner).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R50-26",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Information du fonds en cas de poursuites postérieures : condition de son recours contre l'auteur.",
-      "ligne_rouge": "aucune"
+      "motif": "Reçoit R50-25 (action en remboursement du fonds) : paiement et remboursement dans un article. Anciens 706-3 à 706-14 et 706-10 nommés par leurs sièges (L1441-22).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; paiement dans le mois de la notification, délai opposable au bénéfice de la victime (P19) ; remboursement décidé par la juridiction, parties entendues ou appelées : tenus.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fonds de garantie verse les sommes allouées à la victime dans le mois de la notification de la décision ou de l'homologation du constat d'accord, et en avise sans délai le président. Lorsqu'il demande, selon l'article L. 1441-22, le remboursement de tout ou partie de l'indemnité versée, il saisit la juridiction par simple requête. Elle statue, les parties entendues ou appelées, selon les articles R. 50-17 et suivants."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R50-27",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Communication au fonds de la déclaration de la victime devant la juridiction répressive et de la date d'audience : gardée. Les grades de « greffier en chef » et de « secrétaire-greffier » ont disparu : le greffe agit. La lettre recommandée cède à tout moyen qui en établit la réception. Renvois aux anciens 706-11 et 706-12 à coordonner. Registre 5.4 : formule unique « par tout moyen permettant d'en établir la date de réception ».",
-      "ligne_rouge": "aucune",
+      "motif": "Reçoit R50-26 (information du fonds en cas de poursuites postérieures) : les liens entre la juridiction répressive et le fonds dans un article. Texte de la passe 2 tenu (greffe, formule unique) ; anciens 706-11 et 706-12 nommés par leurs sièges (L1440-1, L1441-24).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; information du fonds pour son recours contre l'auteur, notification un mois avant l'audience, renvoi en cas de déclaration tardive : tenus.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La déclaration de la victime ou de ses ayants droit faite par application des dispositions de l'article 706-12 est communiquée au fonds de garantie par le greffe de la juridiction saisie dans le délai de quinze jours, par tout moyen permettant d'en établir la date de réception, y compris par voie électronique. Cette communication est accompagnée des renseignements nécessaires à l'exercice de l'action prévue à l'article 706-11. La date de l'audience au cours de laquelle il sera statué sur les intérêts civils est notifiée par le greffe au fonds de garantie dans les mêmes formes, au moins un mois à l'avance. En cas de déclaration tardive, l'affaire est renvoyée à une audience ultérieure dont le fonds de garantie est informé dans le délai ci-dessus indiqué."
+          "nouveau": "Lorsque des poursuites pénales sont engagées contre l'auteur présumé de l'infraction après l'attribution d'une provision ou d'une indemnité, le ministère public de la juridiction répressive saisie en informe le fonds de garantie.\nLe greffe de la juridiction saisie communique au fonds, dans les quinze jours et par tout moyen permettant d'en établir la date de réception, la déclaration de la victime ou de ses ayants droit prévue à l'article L. 1441-24, avec les renseignements nécessaires à l'exercice de son recours prévu à l'article L. 1440-1. Il lui notifie dans les mêmes formes, au moins un mois à l'avance, la date de l'audience sur les intérêts civils. En cas de déclaration tardive, l'affaire est renvoyée à une audience ultérieure dont le fonds est informé dans le même délai."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R50-28",
-      "decision": "G",
+      "principe": "P13",
+      "motif": "Délais de distance : ils ne valent que pour les délais réglementaires de deux mois (silence de la victime à R50-12-1, convocation à R50-17) ; le délai d'un mois de la provision, remonté dans la loi (L1441-20), n'est pas allongé par décret (relecture, P1) ; numéro gardé (cité par R285).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; délais de distance du code de procédure civile tenus pour les délais réglementaires.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les articles 643 à 647 du code de procédure civile s'appliquent aux délais de deux mois prévus aux articles R. 50-12-1 et R. 50-17."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R50-1",
+      "decision": "A",
       "principe": "P20",
-      "motif": "Délais de distance du code de procédure civile : règle commune.",
-      "ligne_rouge": "aucune"
+      "motif": "Renvoi déclaratif : la composition, le siège, le ressort et la compétence de la juridiction d'indemnisation des victimes d'infractions sont fixés par le code de l'organisation judiciaire (article L. 214-1 et ses articles réglementaires), qui s'applique par lui-même.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; l'organisation de la juridiction survit entière au code de l'organisation judiciaire."
+    },
+    {
+      "code": "cpp",
+      "num": "R50-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-8 (contenu et pièces de la requête).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-8, dernier alinéa (demande fondée sur les ressources, L1441-4).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-8, dernier alinéa (complément d'indemnité, L1441-14).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-8 (transmission au parquet) ; la transmission au fonds de garantie est déjà prévue par L1441-15.",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-12-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-12-1 (suites de l'offre) ; la saisine du président aux fins d'homologation est déjà dans la loi (L1441-15).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-12-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-13, second alinéa (accès au dossier).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-13"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-17 (fixation de l'audience).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-17"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-17 (conclusions du parquet).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-17"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-19",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-20, premier alinéa (déroulement de l'audience).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-20"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-21",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-22 (dépens).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-22"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-23",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-22 (voies de recours).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-22"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-25",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-24 (remboursement).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-24"
+    },
+    {
+      "code": "cpp",
+      "num": "R50-26",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Fusionné dans R50-27, premier alinéa (poursuites postérieures).",
+      "ligne_rouge": "Aucune ligne rouge relevée en passe 1 ; règle tenue mot pour mot sur le fond.",
+      "vers": "R50-27"
     }
-  ]
+  ],
+  "passe": 3
 }
