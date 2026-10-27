@@ -10,65 +10,90 @@
     {
       "code": "cpp",
       "num": "L1611-1",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Procédure pénale numérique : le numérique devient la règle, le papier l'exception quand la technique ne le permet pas. Renvoi entrant de D589 (lot p044, ancien 801-1) : il suit.",
+      "motif": "Règle générale du numérique (P12) : les actes de la procédure sont établis sous format numérique, sauf impossibilité technique (passe 2). Les autres titres y renvoient au lieu de prévoir chacun la forme numérique.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "peuvent être établis sous format numérique.Lorsque",
-          "nouveau": "sont établis sous format numérique, sauf impossibilité technique.Lorsque"
+          "op": "rediger",
+          "nouveau": "Les actes de la procédure, qu'il s'agisse d'actes d'enquête ou d'instruction, de décisions juridictionnelles ou de toute autre pièce, sont établis sous format numérique, sauf impossibilité technique. L'acte établi sous format papier peut être converti sous format numérique."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L1611-2",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Signature numérique unique, sans sceau : l'allègement est déjà fait. La proposition de déclasser est écartée : la validité de l'acte signé relève de la loi.",
-      "ligne_rouge": "aucune"
+      "motif": "Signature numérique unique, sans sceau : gardée, phrases resserrées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'acte numérique qui doit être signé porte, quel qu'en soit le nombre de pages, une signature numérique unique de chaque signataire, selon des modalités techniques qui garantissent qu'il ne peut plus être modifié. Il n'est pas revêtu d'un sceau."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1611-3",
-      "decision": "G",
       "principe": "P12",
-      "motif": "Dossier intégralement numérique, sans distinction original et copie ni scellés pour les pièces versées : formalités retirées.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L1611-4",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au règlement : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "motif": "Dossier intégralement numérique, sans distinction de l'original et de la copie, sans certification ni scellés pour les pièces versées : gardé, énumération en une phrase.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le dossier de la procédure peut être intégralement conservé sous format numérique, dans des conditions sécurisées, sans support papier. Ne s'appliquent pas au dossier numérique les dispositions du présent code qui distinguent les actes originaux de leurs copies, qui prévoient la certification conforme des copies ou qui imposent le placement sous scellés, même fermés, des documents, contenus multimédias ou données versés au dossier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1614-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Plate-forme nationale des interceptions judiciaires, finalités nommées : le traitement des données intrusives est créé et borné par la loi.",
-      "ligne_rouge": "art. 66 C sans objet : le traitement ne prive pas de liberté. Art. 2 DDHC (vie privée) examiné : finalités et contenu fixés par la loi, les réquisitions et interceptions restent autorisées par le magistrat"
-    },
-    {
-      "code": "cpp",
-      "num": "L1614-2",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Décret en Conseil d'État pris après avis de la CNIL : cet avis protège la vie privée, il reste. La proposition de supprimer l'avis est écartée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Plate-forme nationale des interceptions judiciaires, finalités nommées : gardée, énumération sans point-virgule.",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) et contrôle de l'autorité judiciaire (art. 66 C) examinés : le traitement reste créé et borné par la loi, ses finalités nommées, sous le contrôle d'une personnalité qualifiée et d'un comité parlementaire, son décret pris après avis de la CNIL (registre 5.1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministre de la justice est autorisé à mettre en œuvre un traitement automatisé de données à caractère personnel dénommé « plate-forme nationale des interceptions judiciaires ». Afin de faciliter la constatation des infractions à la loi pénale et des délits douaniers, le rassemblement des preuves de ces infractions et la recherche de leurs auteurs, ou d'apporter la preuve de la violation de certaines interdictions résultant d'une condamnation, ce traitement assure de façon centralisée :\n1° La transmission et l'exécution des réquisitions prévues au chapitre 3 du titre Ier du livre V de la troisième partie et des techniques spéciales d'investigation prévues au titre V de ce livre.\n2° La conservation des données ou correspondances ainsi obtenues."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L1614-3",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Contrôle de la plate-forme par une personnalité qualifiée et un comité avec un député et un sénateur : la mesure intrusive rend compte.",
-      "ligne_rouge": "art. 66 C sans objet : aucune privation de liberté. Art. 2 DDHC examiné : contrôle externe de la plate-forme, tenu"
+      "principe": "P15",
+      "motif": "Contrôle de la plate-forme par une personnalité qualifiée et un comité parlementaire, et décret en Conseil d'État pris après avis de la CNIL (L1614-2) : un article. L'avis de la CNIL est gardé (registre 5.1).",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) et contrôle de l'autorité judiciaire (art. 66 C) examinés : le traitement reste créé et borné par la loi, ses finalités nommées, sous le contrôle d'une personnalité qualifiée et d'un comité parlementaire, son décret pris après avis de la CNIL (registre 5.1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La plate-forme nationale des interceptions judiciaires est placée sous le contrôle d'une personnalité qualifiée, assistée d'un comité qui comprend un député et un sénateur.\nUn décret en Conseil d'État, pris après avis de la Commission nationale de l'informatique et des libertés, fixe les modalités d'application de l'article L. 1614-1 ainsi que les missions, la composition, l'organisation et le fonctionnement du comité."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L1611-4",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Renvoi au règlement sans objet : le pouvoir réglementaire d'exécution (art. 21 C) fixe les modalités du chapitre sans habilitation. Renvois de D589 à l'ancien 801-1 inchangés.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L1614-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Décret en Conseil d'État pris après avis de la CNIL : fusionné dans L1614-3, l'avis de la CNIL gardé (registre 5.1).",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) examinée : l'avis de la CNIL est gardé à L1614-3.",
+      "vers": "L1614-3"
     }
-  ]
+  ],
+  "passe": 3
 }
