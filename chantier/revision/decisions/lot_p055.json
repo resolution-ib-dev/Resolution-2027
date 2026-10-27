@@ -10,153 +10,195 @@
     {
       "code": "cp",
       "num": "121-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Responsabilité personnelle : nul ne répond que de son propre fait. Socle de la punition individuelle, sans peine collective.",
-      "ligne_rouge": "art. 8 et 9 DDHC examinés : personnalité de la responsabilité pénale, tenue"
+      "motif": "Responsabilité personnelle : gardée.",
+      "ligne_rouge": "Art. 8 et 9 DDHC examinés : nul ne répond que de son propre fait, socle de la punition individuelle.",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "121-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Responsabilité des personnes morales, hors l'État, et des collectivités pour les seules activités délégables. Elle n'exclut pas celle des personnes physiques. Nécessité établie : l'entreprise répond de l'infraction commise pour son compte.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Responsabilité des personnes morales gardée, socle de la clause générale des peines (131-37, 131-39). « Des dispositions » tombe du renvoi à 121-3.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes morales, à l'exclusion de l'Etat, sont responsables pénalement, selon les distinctions des articles 121-4 à 121-7, des infractions commises, pour leur compte, par leurs organes ou représentants.\nToutefois, les collectivités territoriales et leurs groupements ne sont responsables pénalement que des infractions commises dans l'exercice d'activités susceptibles de faire l'objet de conventions de délégation de service public.\nLa responsabilité pénale des personnes morales n'exclut pas celle des personnes physiques auteurs ou complices des mêmes faits, sous réserve du quatrième alinéa de l'article 121-3."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "121-3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Élément intentionnel, mise en danger délibérée, faute non intentionnelle et faute caractérisée de l'auteur indirect. Le filtre de la causalité indirecte protège le décideur de bonne foi sans couvrir la faute caractérisée.",
-      "ligne_rouge": "art. 8 et 9 DDHC examinés : pas de délit sans intention hors les cas que la loi prévoit, tenu"
+      "motif": "Élément moral et faute non intentionnelle : gardés, en cinq alinéas (R610-2 et L. 4433-2 du code de procédure pénale visent les deuxième à quatrième).",
+      "ligne_rouge": "Art. 8 et 9 DDHC examinés : pas de crime ni de délit sans intention, sauf les fautes que la loi nomme.",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "121-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Définition de l'auteur, tentative comprise. Notion socle, une fois dans le code.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Définition de l'auteur gardée, énumération terminée par des points.",
+      "ligne_rouge": "Art. 8 DDHC (légalité) examiné : la tentative d'un délit reste punissable dans les seuls cas prévus par la loi.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Est auteur de l'infraction la personne qui :\n1° Commet les faits incriminés.\n2° Tente de commettre un crime ou, dans les cas prévus par la loi, un délit."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "121-5",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Définition de la tentative par le commencement d'exécution. Notion socle.",
-      "ligne_rouge": "aucune"
+      "motif": "Définition de la tentative : gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "121-6",
-      "decision": "G",
-      "principe": "P14",
-      "motif": "Le complice encourt la peine de l'auteur : la peine encourue reste la référence, le rôle accessoire se traite dans la catégorie 2 du barème (comportement pendant l'infraction).",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Le complice encourt la peine de l'auteur : gardé, verbe au présent. Le rôle accessoire se traite dans la catégorie 2 du barème (132-1-1).",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine encourue reste la référence, le rôle accessoire se module au prononcé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le complice de l'infraction, au sens de l'article 121-7, est puni comme auteur."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "121-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Complicité par aide ou assistance et par provocation ou instructions. Notion socle.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Complicité par aide et par provocation gardée, verbe au présent.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Est complice d'un crime ou d'un délit la personne qui sciemment, par aide ou assistance, en a facilité la préparation ou la consommation.\nEst également complice la personne qui par don, promesse, menace, ordre, abus d'autorité ou de pouvoir a provoqué à une infraction ou donné des instructions pour la commettre."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "122-1",
-      "decision": "R",
       "principe": "P14",
-      "motif": "Registre 1.16 : la réduction pour discernement altéré devient une faculté de la juridiction, d'un tiers au plus, et la perpétuité peut être ramenée à trente ans. Elle s'applique au point de départ du barème, hors plafond des diminutions (registre 1.14, 132-1-1, III). La dérogation motivée en matière délictuelle tombe, la juridiction appréciant désormais le quantum de la réduction. L'irresponsabilité pour abolition et les soins adaptés sont gardés.",
-      "ligne_rouge": "Art. 8 et 9 DDHC examinés : irresponsabilité du dément gardée. L'atténuation, de droit en matière criminelle, devient appréciée par le juge dans la limite d'un tiers : durcissement possible pour les crimes, déclaré. La juridiction tient compte du trouble et s'assure de soins adaptés (CEDH art. 3).",
+      "motif": "Texte de la passe 2 (registre 1.16 et 9.40), en deux alinéas que visent trente-cinq renvois : la réduction pour discernement altéré devient une faculté, d'un tiers au plus, perpétuité ramenable à trente ans, et la dérogation motivée en matière délictuelle tombe. La phrase ajoutée en passe 2 sur la peine de référence tombe : le III de l'article 132-1-1 le dit déjà (P20).",
+      "ligne_rouge": "Art. 8 DDHC et individualisation examinés : la juridiction apprécie la réduction au prononcé, hors plafond des diminutions (132-1-1, III). Art. 9 DDHC : l'irresponsabilité pour abolition du discernement est gardée mot pour mot, comme les soins adaptés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Si est encourue une peine privative de liberté, celle-ci est réduite du tiers ou, en cas de crime puni de la réclusion criminelle ou de la détention criminelle à perpétuité, est ramenée à trente ans. La juridiction peut toutefois, par une décision spécialement motivée en matière délictuelle, décider de ne pas appliquer cette diminution de peine.",
-          "nouveau": "Si est encourue une peine privative de liberté, la juridiction peut la réduire d'un tiers au plus ou, en cas de crime puni de la réclusion criminelle ou de la détention criminelle à perpétuité, la ramener à trente ans. Cette réduction s'applique à la peine encourue servant de référence au barème de l'article 132-1-1."
+          "op": "rediger",
+          "nouveau": "N'est pas pénalement responsable la personne qui était atteinte, au moment des faits, d'un trouble psychique ou neuropsychique ayant aboli son discernement ou le contrôle de ses actes.\nLa personne qui était atteinte, au moment des faits, d'un trouble psychique ou neuropsychique ayant altéré son discernement ou entravé le contrôle de ses actes demeure punissable. Toutefois, la juridiction tient compte de cette circonstance lorsqu'elle détermine la peine et en fixe le régime. Si est encourue une peine privative de liberté, la juridiction peut la réduire d'un tiers au plus ou, en cas de crime puni de la réclusion criminelle ou de la détention criminelle à perpétuité, la ramener à trente ans. Lorsque, après avis médical, la juridiction considère que la nature du trouble le justifie, elle s'assure que la peine prononcée permette que le condamné fasse l'objet de soins adaptés à son état."
         }
       ]
     },
     {
       "code": "cp",
       "num": "122-1-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "L'intoxication volontaire en vue de l'infraction n'abolit pas la responsabilité : protège la victime contre l'impunité recherchée.",
-      "ligne_rouge": "aucune"
+      "motif": "Intoxication volontaire en vue de l'infraction : gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "122-1-2",
-      "decision": "G",
       "principe": "P14",
-      "motif": "La consommation volontaire de psychotropes ne donne pas la réduction de 122-1 : la diminution ne récompense pas la faute de l'auteur. Cohérent avec la catégorie 1 du barème.",
-      "ligne_rouge": "art. 8 DDHC examiné : la juridiction garde la modulation au prononcé, seule la réduction de droit est écartée"
+      "motif": "Pas de réduction pour l'altération due à une consommation volontaire : gardée. Le renvoi au second alinéa de l'article 122-1 tient, sa structure étant gardée.",
+      "ligne_rouge": "Art. 8 DDHC examiné : la diminution ne récompense pas la faute de l'auteur, la juridiction garde le barème de l'article 132-1-1.",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "122-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Contrainte irrésistible : cause d'irresponsabilité socle.",
-      "ligne_rouge": "art. 9 DDHC examiné : pas de rigueur contre qui n'a pu résister, tenu"
+      "motif": "Contrainte irrésistible : gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "122-3",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Erreur de droit invincible : cause d'irresponsabilité étroite, nécessité établie.",
-      "ligne_rouge": "aucune"
+      "motif": "Erreur de droit invincible : gardée.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "122-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Commandement de la loi et de l'autorité légitime, sauf illégalité manifeste. Couvre l'agent public qui exécute, sans couvrir l'ordre manifestement illégal.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Commandement de la loi et de l'autorité légitime gardé. La seconde phrase ne répète plus la formule d'irresponsabilité.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "N'est pas pénalement responsable la personne qui accomplit un acte prescrit ou autorisé par des dispositions législatives ou réglementaires.\nIl en est de même de la personne qui accomplit un acte commandé par l'autorité légitime, sauf si cet acte est manifestement illégal."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "122-5",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Légitime défense des personnes et défense des biens, sous proportionnalité. Sert la sûreté et la propriété (DDHC art. 2), lecture que retient la doctrine.",
-      "ligne_rouge": "aucune"
+      "motif": "Légitime défense des personnes et des biens : gardée (DDHC art. 2, sûreté et propriété).",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "122-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Présomption de légitime défense contre l'entrée de nuit par effraction dans un lieu habité et contre le vol avec violence. Gardée. Son extension relève de l'auteur (voir arbitrages).",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Présomption de légitime défense gardée, énumération terminée par des points.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Est présumé avoir agi en état de légitime défense celui qui accomplit l'acte :\n1° Pour repousser, de nuit, l'entrée par effraction, violence ou ruse dans un lieu habité.\n2° Pour se défendre contre les auteurs de vols ou de pillages exécutés avec violence."
+        }
+      ]
     },
     {
       "code": "cp",
       "num": "122-7",
-      "decision": "G",
       "principe": "P21",
-      "motif": "État de nécessité, sous proportionnalité : cause d'irresponsabilité socle.",
-      "ligne_rouge": "aucune"
+      "motif": "État de nécessité : gardé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "122-8",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Responsabilité des mineurs capables de discernement, avec l'atténuation renvoyée au code de la justice pénale des mineurs, où vit la règle de la moitié de la peine encourue.",
-      "ligne_rouge": "minorité examinée : principe d'atténuation de la responsabilité des mineurs (CC 2002-461 DC), tenu par le renvoi au CJPM"
+      "motif": "Responsabilité des mineurs capables de discernement, atténuation renvoyée au code de la justice pénale des mineurs : gardée.",
+      "ligne_rouge": "Minorité examinée : l'atténuation de responsabilité reste de droit, fixée par le code de la justice pénale des mineurs (point de départ réduit de moitié, 132-1-1, III).",
+      "decision": "G"
     },
     {
       "code": "cp",
       "num": "122-9",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Irresponsabilité du lanceur d'alerte qui révèle un secret de façon nécessaire et proportionnée : sert la transparence et la redevabilité.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Irresponsabilité du lanceur d'alerte gardée. La loi n° 2016-1691 se cite par son numéro et sa date, sans son intitulé. Dernière phrase au présent.",
+      "ligne_rouge": "Transparence (P26) examinée : la protection du lanceur d'alerte est inchangée, complice compris.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "N'est pas pénalement responsable la personne qui porte atteinte à un secret protégé par la loi, dès lors que cette divulgation est nécessaire et proportionnée à la sauvegarde des intérêts en cause, qu'elle intervient dans le respect des conditions de signalement définies par la loi et que la personne répond aux critères de définition du lanceur d'alerte prévus à l'article 6 de la loi n° 2016-1691 du 9 décembre 2016.\nN'est pas non plus pénalement responsable le lanceur d'alerte qui soustrait, détourne ou recèle les documents ou tout autre support contenant les informations dont il a eu connaissance de manière licite et qu'il signale ou divulgue dans les conditions mentionnées au premier alinéa du présent article.\nLe présent article s'applique aussi au complice de ces infractions."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
