@@ -1,0 +1,95 @@
+{
+  "lot": "lot_p010",
+  "titre": "CPP, 5e partie, livre III, titre Ier : Ajournement avec probation ou avec injonction",
+  "ecart_volume": "Dépassement de 6 mots (3 %), motivé : la relecture adverse borne le mandat et l'incarcération provisoire à la seule personne ajournée avec probation, comme en 2029 (art. 66 C). Le titre perd 3 articles sur 5 et 38 % de ses mots.",
+  "articles_cible": [
+    {
+      "num": "L5311-1",
+      "texte": "La personne dont le prononcé de la peine est ajourné avec probation en application de l'article 132-63 du code pénal, ou avec injonction en application de l'article 132-66 du même code, est placée sous le contrôle du juge de l'application des peines de sa résidence. Le juge s'assure, par lui-même ou par toute personne qualifiée, de l'exécution de la probation ou des prescriptions de l'injonction.\nLa personne ajournée avec probation se présente devant le juge chaque fois qu'il le requiert. Le juge peut, par ordonnance, aménager, modifier, compléter ou supprimer ses obligations particulières.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Une matière, un article : contrôle de la probation, de l'injonction (L5311-5) et adaptation des obligations (L5311-2). L'ordonnance suit L5131-10, règle générale. Les mandats passent à L5311-3, avec la sanction de l'inobservation.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : contrôle par un juge de la mesure ordonnée par la juridiction, sans changer la peine à venir."
+    },
+    {
+      "num": "L5311-3",
+      "texte": "En cas d'inobservation de ses obligations par la personne ajournée avec probation, le juge de l'application des peines peut décerner contre la personne un mandat d'amener ou d'arrêt conformément aux articles L. 5124-1 à L. 5124-8 et saisir le tribunal délictuel, avant l'expiration du délai d'épreuve, pour qu'il statue sur la peine.\nLorsque la personne est arrêtée sur mandat, le juge peut, par ordonnance motivée sur réquisitions du procureur de la République, ordonner son incarcération provisoire dans l'établissement pénitentiaire le plus proche. Le tribunal statue alors au plus tard dans les cinq jours de l'écrou, faute de quoi la personne est remise en liberté d'office.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "La sanction de l'inobservation en un article : mandats (L5311-1), saisine anticipée du tribunal, incarcération provisoire et délai de cinq jours (L5311-4).",
+      "ligne_rouge": "art. 66 C : incarcération provisoire par ordonnance motivée d'un juge, tribunal saisi pour statuer dans les cinq jours, libération d'office à défaut. Délai opposable gardé."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L5311-2",
+      "verbe": "F",
+      "vers": "L5311-1",
+      "principe": "P23",
+      "motif": "Adaptation des obligations par ordonnance, reprise au second alinéa de L5311-1. La procédure suit L5131-10.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L5311-4",
+      "verbe": "F",
+      "vers": "L5311-3",
+      "principe": "P19",
+      "motif": "Incarcération provisoire et délai de cinq jours, repris au second alinéa de L5311-3.",
+      "ligne_rouge": "art. 66 C et art. 8 DDHC : délai de cinq jours, libération d'office et décision sur la peine par le tribunal gardés à L5311-3."
+    },
+    {
+      "num": "L5311-5",
+      "verbe": "F",
+      "vers": "L5311-1",
+      "principe": "P23",
+      "motif": "Contrôle de l'ajournement avec injonction, repris au premier alinéa de L5311-1.",
+      "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : le contrôle des prescriptions de l'injonction reste au juge de la résidence."
+    }
+  ],
+  "phrases": {
+    "L5311-1#1": {
+      "vers": "L5311-1",
+      "destin": "reprise"
+    },
+    "L5311-1#2": {
+      "vers": "L5311-1",
+      "destin": "reprise"
+    },
+    "L5311-1#3": {
+      "vers": "L5311-1",
+      "destin": "reprise"
+    },
+    "L5311-1#4": {
+      "destin": "reprise",
+      "vers": "L5311-3"
+    },
+    "L5311-2#1": {
+      "vers": "L5311-1",
+      "destin": "reprise"
+    },
+    "L5311-2#2": {
+      "vers": "L5311-1",
+      "destin": "reprise"
+    },
+    "L5311-3#1": {
+      "vers": "L5311-3",
+      "destin": "reprise"
+    },
+    "L5311-4#1": {
+      "vers": "L5311-3",
+      "destin": "reprise"
+    },
+    "L5311-4#2": {
+      "vers": "L5311-3",
+      "destin": "reprise"
+    },
+    "L5311-4#3": {
+      "vers": "L5311-3",
+      "destin": "reprise"
+    },
+    "L5311-5#1": {
+      "vers": "L5311-1",
+      "destin": "reprise"
+    }
+  }
+}
