@@ -10,283 +10,285 @@
     {
       "code": "cpp",
       "num": "L8121-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Annonce des adaptations à Mayotte : seuil du titre, sans autre contenu, mais il fonde la lecture des articles qui suivent. Gardé comme dans les autres collectivités.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8121-2",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Substitution des références non applicables à Mayotte : clause de coordination utile.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8121-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Imputation des prestations sur l'indemnité de la victime, adaptée aux régimes locaux, versée par le fonds de garantie.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-1",
+      "principe": "P3",
+      "motif": "Clause d'application et table d'adaptations de Mayotte (technique 1) : les vingt-cinq articles d'adaptation deviennent les 19 points d'un seul article. Chaque adaptation est refaite sur le texte cible actuel : 2123-16 à 2123-30 (jury désigné comme ailleurs, registre 4.5), 4321-13 et 2° de 4353-1 (récusations, registre 9.18), 4325-6 et 3° de 4353-1 (majorités, 4353-13 fusionné), 3444-14 (3444-19 fusionné), 3642-15, 4442-4 (seul à fixer un délai), 1621-1 à 1621-12. La liste n'exclut plus 4321-3, qui porte la même amende du juré que l'ancien L. 8124-1 : la règle n'est plus recopiée. L'alignement sur le droit commun (registre 7.1) fait tomber l'imputation des prestations (L. 8121-3) et le remplacement du président empêché (L. 8122-3), que le droit commun règle désormais.",
+      "ligne_rouge": "art. 66 C examiné : la retenue de huit heures (11°) et le délai de transfèrement (12°) restent écrits, sous le contrôle de l'article L. 3444-15 ; art. 16 DDHC : personnes agréées (9°) et requête en nullité à distance (14°) gardées ; art. 8 DDHC : l'amende du juré défaillant reste celle de l'article L. 4321-3, aucune peine changée",
       "decision": "R",
-      "principe": "P3",
-      "motif": "Cour d'assises de Mayotte : trois assesseurs-jurés en premier ressort, six en appel. La liste était composée de personnes proposées par le procureur ou les maires et arrêtée avec le préfet. Registre 4.5 et 7.1 : le jury de Mayotte est tiré au sort comme ailleurs, liste préparatoire par les maires sur la liste électorale, liste annuelle par la commission, liste de session par le sort.",
-      "ligne_rouge": "Art. 16 DDHC et CEDH 6 examinés : le juré n'est plus choisi par la partie poursuivante ni par l'État. P17 : tirage au sort sur la liste électorale, aptitude, incapacités et dispenses du droit commun.",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Ces assesseurs-jurés sont tirés au sort, pour chaque session, sur une liste arrêtée conjointement par le préfet et le président du tribunal judiciaire, composée de personnes proposées par le procureur de la République ou par les maires et remplissant les conditions prévues par les articles L. 2123-16 à L. 2123-18.",
-          "nouveau": "Ces assesseurs-jurés sont désignés conformément aux articles L. 2123-16 à L. 2123-30."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-2",
-      "decision": "A",
-      "principe": "P3",
-      "motif": "Registre 4.5 : le jury de Mayotte est tiré au sort comme ailleurs (L8122-1) : l'exclusion des articles L. 2123-19 à L. 2123-30 tombe.",
-      "ligne_rouge": "P17 examiné : dispenses, liste annuelle, commission et liste de session du droit commun s'appliquent à Mayotte."
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Remplacement du président et des assesseurs empêchés : la proposition de déclasser est écartée, c'est la composition d'une juridiction (art. 34).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-4",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Récusation adaptée à un jury de trois ou six.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-5",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Pas de cour criminelle départementale à Mayotte : le crime est jugé avec des citoyens.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-6",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Substitution de la chambre d'appel de Mamoudzou à la cour d'appel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-7",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Officiers de police de Mayotte assimilés aux officiers de police judiciaire nationaux.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-8",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Agents de police de Mayotte assimilés aux agents de police judiciaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8122-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Personnes agréées pour les attributions de l'avocat, faute d'avocat sur place : la défense est assurée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8123-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Contrôle des titres sur tout le territoire de Mayotte : réponse à la pression migratoire, bornée à l'objet des titres.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8123-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Vérification d'identité portée à huit heures à Mayotte.",
-      "ligne_rouge": "art. 66 C examiné : rétention pour vérification d'identité portée à huit heures, sous contrôle du procureur et avec fin de plein droit, adaptée à l'éloignement"
-    },
-    {
-      "code": "cpp",
-      "num": "L8123-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Délai de transfèrement de quinze jours. Coordination demandée : il vise L3444-14 et L3444-19, les deux délais de transfèrement du mandat (juge d'instruction et maison d'arrêt).",
-      "ligne_rouge": "art. 66 C et CEDH 5 examinés : la personne a vu dans les vingt-quatre heures le juge des libertés et de la détention du lieu de l'arrestation (L3444-12, L3444-18), qui ordonne le transfèrement. Le délai de quinze jours tient à la distance, il reprend le droit en vigueur, et son dépassement emporte la libération (L3444-15, L3444-20).",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Les délais prévus à l'article L. 3444-14 sont portés",
-          "nouveau": "Les délais prévus aux articles L. 3444-14 et L. 3444-19 sont portés"
+          "op": "rediger",
+          "nouveau": "Le présent code s'applique à Mayotte avec les adaptations suivantes :\n1° En l'absence d'adaptation, les références à des dispositions qui ne sont pas applicables à Mayotte visent les dispositions applicables localement ayant le même objet.\n2° La chambre d'appel de Mamoudzou tient lieu de cour d'appel et de chambre des appels délictuels.\n3° Les dispositions relatives à la cour criminelle départementale ne sont pas applicables.\n4° Le jury de la cour d'assises comprend trois assesseurs-jurés en premier ressort et six en appel, désignés selon les articles L. 2123-16 à L. 2123-30.\n5° Pour l'application de l'article L. 4321-13 et du 2° de l'article L. 4353-1, la défense ne peut récuser plus d'un assesseur-juré en premier ressort et plus de deux en appel, et le ministère public n'en récuse aucun. Le jury de jugement est formé dès que sont sortis de l'urne les noms de trois assesseurs-jurés non récusés en premier ressort, ou de six en appel.\n6° Les majorités de sept et de huit voix prévues à l'article L. 4325-6 et au 3° de l'article L. 4353-1 sont de [cinq] et de [sept] voix.\n7° Les articles L. 4321-1 à L. 4321-8 ne sont pas applicables, à l'exception de l'article L. 4321-3, qui vise les assesseurs-jurés, de la seconde phrase de l'article L. 4321-4, appliquée avant l'ouverture de la session, et de la seconde phrase du premier alinéa de l'article L. 4321-8, appliquée avant le jugement de chaque affaire.\n8° Les officiers de police de Mayotte mis à la disposition de l'État, assimilés aux fonctionnaires du corps de commandement de la police nationale, ont la qualité d'officier de police judiciaire. Les agents de police de Mayotte mis à sa disposition, assimilés aux agents de la police nationale, ont la qualité d'agent de police judiciaire ou d'agent de police judiciaire adjoint dans les conditions des articles L. 2223-1 et L. 2224-1.\n9° Les attributions que le présent code confie aux avocats et aux conseils des parties peuvent être exercées par des personnes agréées par le président de la chambre d'appel de Mamoudzou, dispensées de procuration.\n10° Les contrôles d'identité prévus à l'article L. 3224-5 peuvent être réalisés sur l'ensemble du territoire de Mayotte.\n11° La retenue pour vérification d'identité prévue à l'article L. 3225-4 ne peut excéder huit heures.\n12° Les délais de l'article L. 3444-14 sont portés à quinze jours lorsque le transfèrement se fait à partir ou à destination de Mayotte.\n13° Les audiences de la chambre des investigations et des libertés de la cour d'appel de Saint-Denis de La Réunion sur une procédure suivie devant le tribunal judiciaire de Mamoudzou ou sur l'appel d'une ordonnance de ses juges peuvent se tenir par un moyen de télécommunication audiovisuelle garantissant la confidentialité de la transmission, selon les articles L. 1621-1 à L. 1621-12.\n14° Lorsque le demandeur ou son avocat réside dans le ressort du tribunal judiciaire de Mamoudzou, la déclaration au greffe d'une requête en nullité transmise à cette chambre peut être faite par tout moyen permettant d'en établir la date de réception.\n15° Devant le tribunal délictuel et le tribunal contraventionnel, le délai de citation de l'article L. 4412-9 est augmenté d'un mois si la partie citée réside ailleurs sur le territoire de la République, et les délais d'opposition de l'article L. 4442-4 sont de dix jours si le prévenu réside à Mayotte et d'un mois s'il réside hors de Mayotte.\n16° Le délai d'appel incident du premier alinéa de l'article L. 4471-9 est de quinze jours pour les parties qui résident hors de Mayotte.\n17° Le délai d'opposition à l'ordonnance pénale prévu à l'article L. 4521-6 est de deux mois si le prévenu ne réside pas à Mayotte.\n18° Le délai de transfèrement prévu à l'article L. 6252-4 est de quinze jours lorsque le transfèrement se fait à partir de Mayotte.\n19° Le délai de pourvoi prévu à l'article L. 7212-1 est d'un mois si le demandeur en cassation réside hors de l'île où siège la juridiction qui a rendu la décision attaquée. Ce demandeur peut aussi faire sa déclaration de pourvoi par lettre signée adressée au greffier de cette juridiction, qui dresse l'acte de pourvoi et y annexe la lettre. Il confirme alors son pourvoi à la mairie ou à la gendarmerie la plus proche de sa résidence, dans les délais des articles L. 7212-1, L. 7212-2, L. 7212-4 et L. 7212-5."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L8123-4",
+      "principe": "P23",
+      "motif": "Tiers choisi pour les attributions de l'avocat quand nul ne peut se déplacer : gardé hors de la table, parce qu'il porte une incrimination. Le délit est écrit en entier, élément et peine inchangés, et vise L. 3131-2 (l'ancien 434-7-2 du code pénal n'a plus de version). Renvoi au 9° de L. 8121-1, où sont réunies les personnes agréées.",
+      "ligne_rouge": "art. 66 C et art. 16 DDHC examinés : l'assistance pendant la garde à vue reste assurée par une personne choisie, sous le secret de L. 3521-12 ; art. 8 DDHC : délit et peine inchangés, aucun élargissement",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Tiers choisi pour les attributions de l'avocat quand nul ne peut se déplacer. Coordination demandée par les lots p050 et p170 : l'article 434-7-2 du code pénal n'a plus de version, son texte est à L. 3131-2.",
-      "ligne_rouge": "art. 16 DDHC examiné : à défaut d'avocat joignable, la défense passe à un tiers choisi, soumis au secret, la garantie est adaptée et non retirée ; art. 8 DDHC examiné : le délit de révélation, un an, reste sous le niveau de L3131-2",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Sans préjudice de l'application de l'article 434-7-2 du code pénal",
-          "nouveau": "Sans préjudice de l'application de l'article L. 3131-2"
+          "op": "rediger",
+          "nouveau": "Lorsque le déplacement d'un avocat ou d'une personne agréée selon le 9° de l'article L. 8121-1 paraît matériellement impossible, les attributions de l'avocat au cours de l'audition libre ou de la garde à vue peuvent être exercées par une personne choisie par la personne qui fait l'objet de la mesure. La personne choisie n'est pas mise en cause pour les mêmes faits ou pour des faits connexes et n'a fait l'objet d'aucune condamnation, incapacité ou déchéance mentionnée au bulletin n° 2 du casier judiciaire.\nL'article L. 3521-12 s'applique à la personne choisie, qui en est informée par l'officier de police judiciaire.\nSans préjudice de l'application de l'article L. 3131-2, le fait pour une personne appelée à intervenir dans les conditions du premier alinéa de faire état auprès de quiconque de l'entretien, des auditions ou du contenu des procès-verbaux consultés dans le but d'entraver le cours de la justice est puni d'un an d'emprisonnement et de 15 000 € d'amende."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L8123-5",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Débat contradictoire sur la demande de mise en liberté après six mois de détention criminelle.",
+      "motif": "Débat contradictoire sur la demande de mise en liberté après six mois de détention criminelle : garantie propre à Mayotte, gardée. Le débat se tient selon L. 3642-15 (L. 3642-14 y renvoie) et l'avocat est convoqué selon L. 3431-10. La garantie de D. 602 (visioconférence seulement avec l'accord de la personne ou en cas de risque grave) remonte au troisième alinéa : un décret ne restreint pas la faculté que L. 1621-1 et L. 1621-3 donnent au magistrat, et la garantie touche l'art. 66 C (art. 34 C).",
+      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : un juge statue après débat contradictoire, tenu en présence de la personne sauf accord ou risque grave, garantie tenue et remontée de D. 602",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière criminelle, lorsque la personne mise en examen est détenue depuis plus de six mois, le juge des libertés et de la détention saisi par le juge d'instruction d'une demande de mise en liberté qu'il n'envisage pas d'accepter statue après un débat contradictoire tenu selon l'article L. 3642-15, l'avocat ayant été convoqué selon l'article L. 3431-10.\nCette règle ne s'applique pas si un tel débat a déjà été tenu sur une précédente demande de mise en liberté.\nLe débat ne se tient par un moyen de télécommunication audiovisuelle qu'avec l'accord de la personne, ou si son transport doit être évité en raison de risques graves de trouble à l'ordre public ou d'évasion."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L8121-2",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Clause de substitution des références : 1° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8121-3",
+      "decision": "A",
+      "principe": "P3",
+      "motif": "Réécrivait L. 1441-22 pour Mayotte en recopiant le droit commun, sans les références aux régimes agricole et mutualiste. Registre 7.1 : le texte cible de L. 1441-22 s'applique, et le 1° de L. 8121-1 remplace les références non applicables. La règle de remboursement au fonds s'étend à Mayotte (alignement, aucune répression).",
       "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-1",
+      "decision": "F",
+      "principe": "P17",
+      "motif": "Jury de trois et six assesseurs-jurés, désignés selon L. 2123-16 à L. 2123-30 (registre 4.5 et 9.18) : 4° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-2",
+      "decision": "A",
+      "principe": "P3",
+      "motif": "Abrogé en passe 2 (registre 4.5) : le jury de Mayotte est tiré au sort comme ailleurs.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-3",
+      "decision": "A",
+      "principe": "P3",
+      "motif": "Remplacement du président et des assesseurs empêchés : L. 2123-11, troisième alinéa, le règle désormais, et la chambre d'appel de Mamoudzou tient lieu de cour d'appel (2° de L. 8121-1). Alignement sur le droit commun (registre 7.1).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-4",
+      "decision": "F",
+      "principe": "P17",
+      "motif": "Récusations de la défense limitées, aucune pour le ministère public (registre 9.18) : 5° de L. 8121-1, refait sur L. 4321-13 et le 2° de L. 4353-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-5",
+      "decision": "F",
+      "principe": "P17",
+      "motif": "Pas de cour criminelle départementale : 3° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-6",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Substitution de la chambre d'appel de Mamoudzou : 2° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-7",
+      "decision": "F",
+      "principe": "P9",
+      "motif": "Officiers de police de Mayotte : 8° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-8",
+      "decision": "F",
+      "principe": "P9",
+      "motif": "Agents de police de Mayotte : 8° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8122-9",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Personnes agréées pour les attributions de l'avocat : 9° de L. 8121-1, que vise L. 8123-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8123-1",
+      "decision": "F",
+      "principe": "P21",
+      "motif": "Contrôle des titres sur tout le territoire : 10° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8123-2",
+      "decision": "F",
+      "principe": "P25",
+      "motif": "Retenue de huit heures : 11° de L. 8121-1.",
+      "ligne_rouge": "art. 66 C examiné : la durée maximale de la retenue reste écrite, mot pour mot quant au délai, au 11° de L. 8121-1, et le procureur peut y mettre fin (L. 3225-4)",
+      "vers": "L8121-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8123-3",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Transfèrement à quinze jours : 12° de L. 8121-1, sur L. 3444-14 (L. 3444-19 y est fusionné).",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8123-6",
-      "decision": "G",
+      "decision": "F",
       "principe": "P12",
-      "motif": "Visioconférence pour les audiences de la chambre de La Réunion sur les procédures de Mamoudzou.",
-      "ligne_rouge": "aucune"
+      "motif": "Visioconférence de la chambre des investigations de Saint-Denis : 13° de L. 8121-1, sous les garanties de L. 1621-1 à L. 1621-12 (procès-verbal, avocat, observations).",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8123-7",
-      "decision": "S",
+      "decision": "F",
       "principe": "P12",
-      "motif": "Requête en nullité depuis Mamoudzou. La voie électronique s'ouvre à côté de la lettre recommandée.",
-      "ligne_rouge": "art. 16 DDHC examiné : la requête en nullité reste ouverte à distance, par deux voies au lieu d'une",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "au moyen d'une lettre recommandée avec demande d'avis de réception",
-          "nouveau": "par voie électronique ou au moyen d'une lettre recommandée avec demande d'avis de réception"
-        }
-      ]
+      "motif": "Requête en nullité à distance : 14° de L. 8121-1, par tout moyen qui établit la date de réception (L. 1632-5, registre 5.4).",
+      "ligne_rouge": "art. 16 DDHC examiné : la voie de la requête en nullité à distance reste ouverte, au 14° de L. 8121-1",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8124-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P17",
-      "motif": "Incompatibilités des assesseurs-jurés et amende du juré défaillant : le jury vit et répond de sa présence.",
-      "ligne_rouge": "art. 8 DDHC examiné : amende de 3 750 € prononcée par la cour, opposition ouverte, proportionnée au manquement civique"
+      "motif": "Retraits de la liste avant la session et avant chaque affaire (registre 9.18) : 7° de L. 8121-1, par renvoi aux phrases de L. 4321-4 et L. 4321-8 qui portent les mêmes retraits. L'amende du juré défaillant est celle de L. 4321-3, identique, que le 7° n'exclut plus.",
+      "ligne_rouge": "art. 8 DDHC examiné : amende de 3 750 €, opposition dans les dix jours devant le tribunal délictuel : L. 4321-3 porte la même peine et la même voie de recours, aucune peine perdue ni élargie",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8124-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P9",
-      "motif": "Révision nationale de la liste du jury écartée, la liste locale en tient lieu.",
-      "ligne_rouge": "aucune"
+      "motif": "Exclusion de la révision de liste de droit commun (registre 9.18) : 7° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8124-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Majorités qualifiées adaptées à un jury de trois ou six. Le deuxième alinéa de L4325-13 ne porte plus de majorité qualifiée (réécrit au lot p144) : la majorité de huit voix en appel est à L4353-13 (lot p147). Les renvois suivent. Les majorités passent à [cinq] ou [sept] voix pour que la culpabilité exige la voix d'une majorité des jurés.",
-      "ligne_rouge": "présomption d'innocence (art. 9 DDHC) et P17 examinés : la culpabilité exige la voix d'une majorité des jurés, comme à L4325-6 et L4353-13.",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Les majorités de sept ou huit voix prévues aux articles L. 4325-6 et L. 4353-13 sont remplacées par des majorités de [cinq] ou [sept] voix."
-        }
-      ]
+      "decision": "F",
+      "principe": "P17",
+      "motif": "Majorités adaptées à un jury de trois ou six : 6° de L. 8121-1, sur L. 4325-6 et le 3° de L. 4353-1 (L. 4353-13 fusionné).",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8124-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P19",
-      "motif": "Délai de citation augmenté d'un mois hors du département.",
-      "ligne_rouge": "aucune"
+      "motif": "Délai de citation : 15° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8124-5",
-      "decision": "G",
+      "decision": "F",
       "principe": "P11",
-      "motif": "Délais d'opposition de dix jours ou d'un mois selon la résidence.",
-      "ligne_rouge": "aucune"
+      "motif": "Délais d'opposition : 15° de L. 8121-1, sur L. 4442-4 (L. 4442-5 ne fixe plus de délai).",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8124-6",
-      "decision": "G",
+      "decision": "F",
       "principe": "P19",
-      "motif": "Appel incident porté à quinze jours hors du département.",
-      "ligne_rouge": "aucune"
+      "motif": "Appel incident : 16° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8124-7",
-      "decision": "G",
+      "decision": "F",
       "principe": "P11",
-      "motif": "Opposition à l'ordonnance pénale portée à deux mois hors du département.",
-      "ligne_rouge": "aucune"
+      "motif": "Opposition à l'ordonnance pénale : 17° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8124-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Délais de citation et d'opposition étendus au tribunal contraventionnel. Le renvoi à L. 8214-4 et L. 8214-5, absents, vise L. 8124-4 et L. 8124-5 du même chapitre.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Extension au tribunal contraventionnel : 15° de L. 8121-1.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Les articles L. 8214-4 et L. 8214-5",
-          "nouveau": "Les articles L. 8124-4 et L. 8124-5"
-        }
-      ]
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8126-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P19",
-      "motif": "Remise à la Cour pénale internationale : délai de transfèrement de quinze jours depuis Mayotte.",
-      "ligne_rouge": "aucune"
+      "motif": "Transfèrement vers la Cour pénale internationale : 18° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8127-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P11",
-      "motif": "Délai de pourvoi d'un mois hors de l'île du siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Délai de pourvoi : 19° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     },
     {
       "code": "cpp",
       "num": "L8127-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P12",
-      "motif": "Pourvoi par lettre depuis une autre île, confirmé en mairie ou gendarmerie : accès au juge.",
-      "ligne_rouge": "aucune"
+      "motif": "Pourvoi par lettre : 19° de L. 8121-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8121-1"
     }
-  ]
+  ],
+  "passe": 3
 }
