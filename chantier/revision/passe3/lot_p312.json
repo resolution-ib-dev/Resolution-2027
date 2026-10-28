@@ -1,0 +1,71 @@
+{
+  "lot": "lot_p312",
+  "titre": "8e partie, livre V, titre Ier : îles Wallis et Futuna, dispositions générales",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L8511-1",
+      "texte": "Sous réserve des dispositions qui y sont applicables de plein droit, le présent code s'applique dans les îles Wallis et Futuna dans sa rédaction résultant de la loi n° [numéro] du [date], avec les adaptations du titre II du présent livre. Les dispositions relatives à la cour criminelle départementale, l'article L. 2125-9 et les articles L. 4223-31 à L. 4223-43 n'y sont pas applicables. Les dispositions relatives à la cosaisine du juge d'instruction n'y sont pas non plus applicables.\nPour cette application :\n1° La collectivité tient lieu de département, le représentant de l'État dans la collectivité de préfet et de sous-préfet, le tribunal de première instance ou, le cas échéant, sa section détachée de tribunal judiciaire, et le juge d'instruction de pôle de l'instruction.\n2° En l'absence d'adaptation, les références à des dispositions qui n'y sont pas applicables visent les dispositions applicables localement ayant le même objet.\n3° Les sanctions pécuniaires sont prononcées en monnaie locale, compte tenu de la contre-valeur de l'euro dans cette monnaie.",
+      "verbe": "R",
+      "principe": "P3",
+      "motif": "Clause d'application de la collectivité (technique 1) : version fixée par la loi de réécriture (registre 7.4), exceptions, substitutions générales et monnaie locale en un article. L8511-2 et L8512-1 à L8512-3 y fusionnent. Les adaptations propres restent en table au titre II. La plage des indemnités forfaitaires transactionnelles va de L. 4223-31 à L. 4223-43, comme la section (passe 2). Consultation de l'assemblée locale avant le dépôt (registre 7.3). La cosaisine est écartée par sa matière, et non plus par les articles L. 2121-10, L. 3412-4 et L. 3414-6 : L. 3412-4 est fusionné dans L. 3414-3.",
+      "ligne_rouge": "aucune garantie touchée : la conversion en monnaie locale suit la contre-valeur de l'euro et ne change aucune peine ; la clause de substitution ne définit aucune incrimination"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L8511-2",
+      "verbe": "F",
+      "vers": "L8511-1",
+      "principe": "P3",
+      "motif": "Exceptions à l'application du code : premier alinéa de L8511-1.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L8512-1",
+      "verbe": "F",
+      "vers": "L8511-1",
+      "principe": "P9",
+      "motif": "Substitutions générales : 1° de L8511-1.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L8512-2",
+      "verbe": "F",
+      "vers": "L8511-1",
+      "principe": "P9",
+      "motif": "Substitution des références non applicables : 2° de L8511-1.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L8512-3",
+      "verbe": "F",
+      "vers": "L8511-1",
+      "principe": "P9",
+      "motif": "Monnaie locale : 3° de L8511-1.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L8511-1#1": {
+      "vers": "L8511-1",
+      "destin": "reprise"
+    },
+    "L8511-2#1": {
+      "vers": "L8511-1",
+      "destin": "reprise"
+    },
+    "L8512-1#1": {
+      "vers": "L8511-1",
+      "destin": "reprise"
+    },
+    "L8512-2#1": {
+      "vers": "L8511-1",
+      "destin": "reprise"
+    },
+    "L8512-3#1": {
+      "vers": "L8511-1",
+      "destin": "reprise"
+    }
+  }
+}
