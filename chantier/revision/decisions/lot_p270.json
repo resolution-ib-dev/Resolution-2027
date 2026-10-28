@@ -10,18 +10,26 @@
     {
       "code": "cpp",
       "num": "L2421-1",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Renvoi au règlement (UE) 2018/1727 pour les missions d'Eurojust : article d'ancrage du membre national, cité par L2421-2 et L6125-1. Son abrogation obligerait à réécrire ces deux renvois pour un gain nul.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Eurojust et son membre national en un article : renvoi au règlement (UE) 2018/1727, statut du membre national et instructions générales (L2421-2 fusionné) ; « organe de l'Union doté de la personnalité juridique », rappel du règlement, retiré.",
+      "ligne_rouge": "Aucune.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le règlement (UE) 2018/1727 du Parlement européen et du Conseil du 14 novembre 2018 fixe les missions de l'Agence Eurojust, qui agit en collège ou par son membre national. Celui-ci est un magistrat du troisième grade mis à disposition de l'Agence pour cinq ans, renouvelables une fois, par arrêté du ministre de la justice, qui peut lui adresser des instructions générales selon l'article L. 2111-1."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2421-2",
-      "decision": "G",
-      "principe": "P13",
-      "motif": "Statut du membre national, magistrat détaché cinq ans renouvelable une fois, instructions générales du ministre dans le cadre de L2111-1 : règle propre.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Statut et instructions du membre national : repris à L2421-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L2421-1"
     }
-  ]
+  ],
+  "passe": 3
 }
