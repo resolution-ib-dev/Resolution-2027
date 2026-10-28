@@ -14,27 +14,27 @@ passe 2 (`arbitrages_passe2.md`) sont tous repris ici et tranchés.
 
 | n° | point | décision | principe | statut |
 |---|---|---|---|---|
-| 1.1 | référence de la peine | le maximum encouru est la référence ; il ne baisse que pour rationaliser | P4, P27 | validé 20261020 |
-| 1.2 | diminutions | trois catégories : personne ≤ 1/3, pendant l'acte ≤ 1/5, après l'acte ≤ 1/5 | P4 | validé 20261020 |
-| 1.3 | plafond total | primo-délinquant, délit sans atteinte aux personnes : 2/3 ; crime ou atteinte aux personnes : 1/2 ; réitération : 1/3 ; victime mineure ou vulnérable : 1/4 | P4 | validé 20261023 |
-| 1.4 | mineurs | point de départ réduit de moitié | P4 | validé 20261020 |
-| 1.5 | récidive | la peine simple devient le minimum ; à la 1re récidive, circonstance exceptionnelle motivée jusqu'aux 2/3 | P5 | validé 20261020 |
+| 1.1 | référence de la peine | le maximum encouru est la référence ; il ne baisse que pour rationaliser | P14, P27 | validé 20261020 |
+| 1.2 | diminutions | trois catégories : personne ≤ 1/3, pendant l'acte ≤ 1/5, après l'acte ≤ 1/5 | P14 | validé 20261020 |
+| 1.3 | plafond total | primo-délinquant, délit sans atteinte aux personnes : 2/3 ; crime ou atteinte aux personnes : 1/2 ; réitération : 1/3 ; victime mineure ou vulnérable : 1/4 | P14 | validé 20261023 |
+| 1.4 | mineurs | point de départ réduit de moitié | P14 | validé 20261020 |
+| 1.5 | récidive | la peine simple devient le minimum ; à la 1re récidive, circonstance exceptionnelle motivée jusqu'aux 2/3 | P14 | validé 20261020 |
 | 1.6 | sobriété | « deux pour une » retiré ; sobriété de la règle (P20) | P20 | validé 20261023 |
 | 1.7 | transparence | audiences publiques, décisions publiées ; exceptions : victime à sa demande, sécurité nationale | P26 | validé 20261023 |
 | 1.8 | peines d'affichage | prison réservée au noyau ; peines d'affichage requalifiées | P27 | validé 20261023 |
-| 1.9 | repenti | réduction d'1/5 au plus, imputée sur la catégorie 3 ; les articles spéciaux de réduction sont abrogés au profit du barème ; les exemptions (tentative dénoncée et empêchée, otage libéré) sont gardées hors plafond | P4, P20 | délégué |
-| 1.10 | perpétuité du repenti | ramenée à [trente] ans pour un majeur ; le mineur relève du CJPM | P4 | délégué |
-| 1.11 | sursis, substitution, dispense | le quantum respecte d'abord le barème ; sursis et peines de substitution réservés au primo-délinquant, hors atteinte aux personnes ; dispense de peine limitée aux contraventions et aux délits punis d'amende seule | P4, P10 | délégué |
+| 1.9 | repenti | réduction d'1/5 au plus, imputée sur la catégorie 3 ; les articles spéciaux de réduction sont abrogés au profit du barème ; les exemptions (tentative dénoncée et empêchée, otage libéré) sont gardées hors plafond | P14, P20 | délégué |
+| 1.10 | perpétuité du repenti | ramenée à [trente] ans pour un majeur ; le mineur relève du CJPM | P14 | délégué |
+| 1.11 | sursis, substitution, dispense | le quantum respecte d'abord le barème ; sursis et peines de substitution réservés au primo-délinquant, hors atteinte aux personnes ; dispense de peine limitée aux contraventions et aux délits punis d'amende seule | P14, P10 | délégué |
 | 1.12 | révocation du sursis | de plein droit, sauf décision motivée | P10 | délégué |
-| 1.13 | ressources du condamné | elles entrent dans la catégorie 1 (personne, ≤ 1/3) pour le montant de l'amende, et dans l'échéancier pour l'exécution ; plancher du tiers de l'amende gardé | P4 ; DDHC art. 8 | délégué |
-| 1.14 | victime mineure ou vulnérable | plafond d'1/4 gardé ; discernement et minorité s'appliquent au point de départ, ce qui tient lieu de soupape | P4 | délégué |
-| 1.15 | contraventions | plafond des diminutions aux 2/3, comme pour le primo-délinquant | P4 | délégué |
-| 1.16 | discernement altéré | réduction d'un tiers au plus, appréciée par le juge | P4 | délégué |
+| 1.13 | ressources du condamné | elles entrent dans la catégorie 1 (personne, ≤ 1/3) pour le montant de l'amende, et dans l'échéancier pour l'exécution ; plancher du tiers de l'amende gardé | P14 ; DDHC art. 8 | délégué |
+| 1.14 | victime mineure ou vulnérable | plafond d'1/4 gardé ; discernement et minorité s'appliquent au point de départ, ce qui tient lieu de soupape | P14 | délégué |
+| 1.15 | contraventions | plafond des diminutions aux 2/3, comme pour le primo-délinquant | P14 | délégué |
+| 1.16 | discernement altéré | réduction d'un tiers au plus, appréciée par le juge | P14 | délégué |
 | 1.17 | individualisation | 132-1 dit : « La peine est fixée selon les faits et la personne de l'auteur, dans les limites du barème. » | P25 | délégué |
-| 1.18 | amende forfaitaire délictuelle | fermée au récidiviste dans tous les codes (santé publique, route, transports, commerce, sport, sécurité intérieure) | P5 | délégué |
+| 1.18 | amende forfaitaire délictuelle | fermée au récidiviste dans tous les codes (santé publique, route, transports, commerce, sport, sécurité intérieure) | P14 | délégué |
 | 1.19 | forfait de 5e classe | [750] €, minoré [600] €, majoré [1 500] € ; la fiche R1 s'étend à R49-6-2, R49-7, R49-8-5, R49-9 | P2, P24 | délégué |
 | 1.20 | CRPC | ouverte à tous les délits, réitérants compris ; quantum dans le barème (aveu en catégorie 3) ; plafond de trois ans retiré | P24 | délégué |
-| 1.21 | confiscation générale | gardée pour les crimes et délits qui la prévoient | P4 ; DDHC art. 17 | délégué |
+| 1.21 | confiscation générale | gardée pour les crimes et délits qui la prévoient | P14 ; DDHC art. 17 | délégué |
 | 1.22 | personnes morales | une clause générale unique remplace l'article par chapitre | P20, P23 | délégué |
 
 ## 2. Délits
@@ -68,7 +68,7 @@ passe 2 (`arbitrages_passe2.md`) sont tous repris ici et tranchés.
 | 4.1 | cour criminelle départementale | échevinage : [trois] magistrats et [deux] citoyens assesseurs tirés au sort sur la liste du jury, sur le modèle des Schöffen ; l'option « jury à la demande » est retirée | P17 | délégué |
 | 4.2 | citoyens assesseurs | recréés dans la loi par 4.1 ; R2-6 à R2-14 réécrits sur cette base | P17 | délégué |
 | 4.3 | assises sans jurés (criminalité organisée, terrorisme) | gardée | P17 ; sécurité des jurés | délégué |
-| 4.4 | majorité pour le maximum | majorité absolue, perpétuité comprise ; la règle d'éviction après deux tours (L4325-13) est abrogée : toute diminution se vote motivée | P4 | délégué |
+| 4.4 | majorité pour le maximum | majorité absolue, perpétuité comprise ; la règle d'éviction après deux tours (L4325-13) est abrogée : toute diminution se vote motivée | P14 | délégué |
 | 4.5 | outre-mer | majorités alignées sur le droit commun ; jury de Mayotte tiré au sort comme ailleurs | P3 | délégué |
 | 4.6 | pourvoi suspensif, juge unique jusqu'à cinq ans | gardés | — | délégué |
 
@@ -139,7 +139,7 @@ Chaque ligne renvoie au point du registre qu'elle précise.
 | 9.14 | 4.1 | La cour garde le dossier au délibéré (L4332-1, L4331-3) | P17 | délégué |
 | 9.15 | 4.2 | Cassiopée consultée par la commission du jury (R2-6) ; consultation des fichiers de police et audition des candidats retirées | P17, P25 | délégué |
 | 9.16 | 4.2 | Au moins [deux] citoyens assesseurs supplémentaires par affaire (R2-11) | P17 | délégué |
-| 9.17 | 4.4 | Sans éviction, les tours de scrutin se répètent jusqu'à la majorité absolue | P4 | délégué |
+| 9.17 | 4.4 | Sans éviction, les tours de scrutin se répètent jusqu'à la majorité absolue | P14 | délégué |
 | 9.18 | 4.5 | Mayotte garde un jury de trois et six assesseurs-jurés, ses récusations (L8122-4) et sa révision de liste (L8124-1, L8124-2) | P3 | délégué |
 | 9.19 | 5.1 | L1225-16 : avis du parquet sur l'agrément des associations de lutte contre les dérives sectaires retiré (renverse la passe 2, lot p279) | P15 | délégué |
 | 9.20 | 5.1 | D211-11 : avis du juge de l'application des peines au dossier d'orientation rendu sous [huit jours], le dossier part ensuite sans lui | P15 | délégué |
@@ -154,15 +154,15 @@ Chaque ligne renvoie au point du registre qu'elle précise.
 | 9.29 | 6.4 | l'assesseur extérieur garde une voix consultative | P20 | délégué |
 | 9.30 | 6.5 | détenus particulièrement signalés : critères (risque élevé d'évasion, criminalité organisée, terrorisme, menace grave), décision motivée, notifiée après observations, réexaminée [une fois par an] | P26 | délégué |
 | 9.31 | 6.6 | Polynésie française et Nouvelle-Calédonie : condition du bénéfice direct et majeur gardée en règle autonome (R764-7, R774-7) | P3 | délégué |
-| 9.32 | 1.9 | 132-78 s'applique à tout crime ou délit ; les articles qui ne portaient qu'une réduction sont abrogés, ceux qui portaient une exemption la gardent seule | P4, P20 | délégué |
+| 9.32 | 1.9 | 132-78 s'applique à tout crime ou délit ; les articles qui ne portaient qu'une réduction sont abrogés, ceux qui portaient une exemption la gardent seule | P14, P20 | délégué |
 | 9.33 | 1.13 | 132-1-1 entre aux décisions comme article créé (C) et remplace l'opération de la fiche L4 ; 132-1-2 de même pour la fiche L5 | P14 | délégué |
-| 9.34 | 1.13 | L4221-7 revient au texte de 2029 (amende de composition selon gravité et ressources) | P5 | délégué |
+| 9.34 | 1.13 | L4221-7 revient au texte de 2029 (amende de composition selon gravité et ressources) | P14 | délégué |
 | 9.35 | 1.11 | « primo-délinquant » s'écrit « sans condamnation antérieure pour crime ou délit », sans délai de cinq ans, pour les personnes physiques ; régime des personnes morales gardé | P10 | délégué |
 | 9.36 | 1.11 | restriction des peines de substitution écrite une seule fois, à 131-3 | P20 | délégué |
 | 9.37 | 1.11 | le sursis contraventionnel suit la même règle (132-33) | P10 | délégué |
 | 9.38 | 1.11 | règles de sursis probatoire propres aux récidivistes abrogées (132-41 al. 3, 132-41-1 al. 2, 132-42) | P20 | délégué |
 | 9.39 | 1.11 | la dispense garde sa condition « sans condamnation antérieure » | P14 | délégué |
-| 9.40 | 1.16 | réduction pour discernement altéré facultative, y compris en matière criminelle | P4 | délégué |
+| 9.40 | 1.16 | réduction pour discernement altéré facultative, y compris en matière criminelle | P14 | délégué |
 | 9.41 | 1.20 | exceptions de L4451-2 gardées (homicides involontaires, atteintes graves, délits politiques et de presse) | P24 | délégué |
 | 9.42 | 1.22 | interdiction d'exercer limitée à l'activité en cause ; toute la liste de 131-39 encourue pour tout crime ou délit (élargissement déclaré) | P20, P23 | délégué |
 | 9.43 | 1.22 | les articles qui portent une peine propre (confiscation, programme de conformité, dissolution de 434-47) la gardent ; 433-26 et 434-48 inchangés | P20 | délégué |
@@ -552,3 +552,16 @@ Ordre : règles transverses du mandat 10.1 à 10.4, règles générales (délais
 | 10.352 | 8.4 | Un renvoi à une règle de compétence (229-3) ou de presse (229-7) cité comme infraction vise l'infraction elle-même ou l'alinéa de 229-3 qui la nomme (L1727-1, L1212-7, 132-16). 227-23 sort du b de L1727-1, écart déclaré | P23 | délégué |
 | 10.353 | 8.4 | R635-3 exclu dans le Pacifique, la récidive de R635-7 (2° de R630-1) n'y a plus d'objet et n'est pas exclue à part (R711-1) | P3, P20 | délégué |
 | 10.354 | 8.4 | Un renvoi vers un article d'un autre code qui porte le même numéro reste tel quel. Trois corrections demandées en relecture sur ce fondement sont écartées (R227-4, R412-84, R15-33-29-3) | P13 | délégué |
+
+## 11. Arbitrages de clôture (20261028)
+
+Points que les relecteurs de la passe 3 ont laissés à l'auteur, tranchés par délégation.
+
+| n° | point | décision | principe | statut |
+|---|---|---|---|---|
+| 11.1 | 10.300 | La révocation de la libération conditionnelle garde le plancher de [deux tiers] du reliquat : la peine prononcée s'exécute, et la libération anticipée révoquée ne doit pas valoir mieux que le sursis révoqué de plein droit (1.12) | P10, P14 | délégué |
+| 11.2 | 10.213 | La liste I de R48-1 est gardée pour les quatre premières classes, et le II à exclusions vaut liste fixée par décret au sens de L4223-1 2° | P2, P24 | délégué |
+| 11.3 | 10.332 | Le 8° de R40-47 renvoie à L3544-5, article qui reçoit L3544-4 depuis le lot p184 ; la demande de la relecture, qui visait un article retiré, est écartée | P13 | délégué |
+| 11.4 | 10.302 | L'exclusion de la contrainte judiciaire à partir de soixante-cinq ans est gardée, comme en 2029 | P6 | délégué |
+| 11.5 | volume | Le résultat de − 38 % est accepté pour la relecture. Les dépassements motivés par une garantie restent (10.58). Une passe 4 ciblée reprend après la relecture de l'auteur les titres de la partie législative du CPP les plus éloignés de leur cible (3e et 6e parties d'abord), avec les mêmes contrôles | P20 | délégué |
+| 11.6 | dossier de relecture | Le dossier porte la grille, les points à la main de l'auteur et un résumé du registre par matière ; le registre complet reste au dépôt, une ligne par arbitrage | P26 | délégué |
