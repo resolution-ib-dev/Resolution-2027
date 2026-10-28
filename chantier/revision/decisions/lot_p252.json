@@ -10,18 +10,26 @@
     {
       "code": "cpp",
       "num": "D47-13-1",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Carte des juridictions du littoral maritime pour les pollutions par rejets des navires : relève du décret. Renvoi à l'ancien 706-107 (L2152-30) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Carte des juridictions du littoral maritime, tableau écrit en liste, valant pour les pollutions par rejets des navires et pour les atteintes aux biens culturels maritimes (ancien D47-13-2) : un seul article. Anciens 706-107 et 706-111-1 : L2152-30 et L2152-33 (2029), qui renvoient la liste au décret.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les juridictions du littoral maritime prévues aux articles L. 2152-30 et L. 2152-33 sont, dans le ressort des juridictions d'appel indiquées, les tribunaux judiciaires et le tribunal de première instance suivants :\n1° Brest : Rennes, Poitiers, Bordeaux, Pau.\n2° Le Havre : Douai, Amiens, Rouen, Caen.\n3° Marseille : Aix-en-Provence, Nîmes, Montpellier, Bastia.\n4° Fort-de-France : Fort-de-France, Basse-Terre, Cayenne.\n5° Saint-Denis de La Réunion : Saint-Denis de La Réunion.\n6° Saint-Pierre-et-Miquelon : Saint-Pierre-et-Miquelon."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D47-13-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Mêmes juridictions pour les atteintes aux biens culturels maritimes : un seul tableau. Renvoi à l'ancien 706-111-1 (L2152-33) à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Mêmes juridictions pour les biens culturels maritimes : D47-13-1 vise les deux articles de loi.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-13-1"
     }
-  ]
+  ],
+  "passe": 3
 }
