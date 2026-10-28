@@ -1,0 +1,103 @@
+{
+  "lot": "lot_p300",
+  "titre": "Demande en inscription de faux devant la Cour de cassation",
+  "ecart_volume": "Écart motivé (−26 % contre −40 %) : procédure brève de l'inscription de faux, cible du renvoi de L1312-4, faite de délais et de formes qui ne se raccourcissent plus.",
+  "articles_cible": [
+    {
+      "num": "L7231-1",
+      "texte": "La demande en inscription de faux contre une pièce produite devant la Cour de cassation est adressée au premier président et déposée au greffe. Elle est signée par le demandeur, par un avocat au Conseil d'Etat et à la Cour de cassation ou par un fondé de pouvoir spécial dont le pouvoir est annexé à l'acte du greffier, qui mentionne le cas échéant que le déposant ne peut signer.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Forme de la demande d'inscription de faux : mêmes exigences, deux phrases. L1312-4 le cite.",
+      "ligne_rouge": "Aucune."
+    },
+    {
+      "num": "L7231-2",
+      "texte": "Le premier président statue dans le mois du dépôt de la requête au greffe, par une ordonnance de rejet ou une ordonnance portant permission de s'inscrire en faux. En cas de rejet et sauf dispense expresse, le demandeur est condamné au paiement d'une amende dont le taux est fixé par décret.",
+      "verbe": "S",
+      "principe": "P15",
+      "motif": "Ordonnance du premier président dans le mois, sans avis préalable du procureur général (passe 2, P15) ; amende civile du rejet et dispense gardées.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'amende reste fixée par décret et la dispense expresse est gardée."
+    },
+    {
+      "num": "L7231-3",
+      "texte": "L'ordonnance portant permission de s'inscrire en faux est signifiée au défendeur dans les quinze jours, avec une copie de la requête et sommation de déclarer s'il entend se servir de la pièce arguée de faux. Le défendeur répond dans les quinze jours, et sa déclaration est signifiée au demandeur.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Signification avec sommation et réponse du défendeur, deux délais de quinze jours, en un article (L7231-4 fusionné).",
+      "ligne_rouge": "Aucune : délais de quinze jours gardés."
+    },
+    {
+      "num": "L7231-5",
+      "texte": "Si le défendeur entend se servir de la pièce arguée de faux, le premier président renvoie les parties devant la juridiction qu'il désigne pour juger l'inscription de faux incident.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Renvoi au juge du faux incident : même règle, phrase resserrée. L1312-4 le cite.",
+      "ligne_rouge": "Aucune."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L7231-4",
+      "verbe": "F",
+      "vers": "L7231-3",
+      "principe": "P23",
+      "motif": "Réponse du défendeur dans les quinze jours : reprise à L7231-3.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L7231-1#1": {
+      "destin": "reprise",
+      "vers": "L7231-1"
+    },
+    "L7231-1#2": {
+      "destin": "reprise",
+      "vers": "L7231-1"
+    },
+    "L7231-1#3": {
+      "destin": "reprise",
+      "vers": "L7231-1"
+    },
+    "L7231-1#4": {
+      "destin": "reprise",
+      "vers": "L7231-1"
+    },
+    "L7231-1#5": {
+      "destin": "reprise",
+      "vers": "L7231-1"
+    },
+    "L7231-2#1": {
+      "destin": "reprise",
+      "vers": "L7231-2"
+    },
+    "L7231-2#2": {
+      "destin": "reprise",
+      "vers": "L7231-2"
+    },
+    "L7231-2#3": {
+      "destin": "reprise",
+      "vers": "L7231-2"
+    },
+    "L7231-3#1": {
+      "destin": "reprise",
+      "vers": "L7231-3"
+    },
+    "L7231-3#2": {
+      "destin": "reprise",
+      "vers": "L7231-3"
+    },
+    "L7231-4#1": {
+      "destin": "reprise",
+      "vers": "L7231-3"
+    },
+    "L7231-4#2": {
+      "destin": "reprise",
+      "vers": "L7231-3"
+    },
+    "L7231-5#1": {
+      "destin": "reprise",
+      "vers": "L7231-5"
+    }
+  }
+}

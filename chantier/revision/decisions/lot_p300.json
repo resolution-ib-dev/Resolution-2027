@@ -10,49 +10,68 @@
     {
       "code": "cpp",
       "num": "L7231-1",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Forme de la demande d'inscription de faux, cible du renvoi de L1313-2 : procédure pénale, de l'art. 34. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Forme de la demande d'inscription de faux : mêmes exigences, deux phrases. L1312-4 le cite.",
+      "ligne_rouge": "Aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La demande en inscription de faux contre une pièce produite devant la Cour de cassation est adressée au premier président et déposée au greffe. Elle est signée par le demandeur, par un avocat au Conseil d'Etat et à la Cour de cassation ou par un fondé de pouvoir spécial dont le pouvoir est annexé à l'acte du greffier, qui mentionne le cas échéant que le déposant ne peut signer."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7231-2",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Ordonnance du premier président dans le mois. L'avis préalable du procureur général ne protège aucune liberté : il tombe. L'amende civile du rejet, dispense possible, est gardée.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'amende sanctionne une demande rejetée, le premier président peut en dispenser, elle n'est pas une peine",
+      "motif": "Ordonnance du premier président dans le mois, sans avis préalable du procureur général (passe 2, P15) ; amende civile du rejet et dispense gardées.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'amende reste fixée par décret et la dispense expresse est gardée.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": ", après avis du procureur général",
-          "nouveau": ""
+          "op": "rediger",
+          "nouveau": "Le premier président statue dans le mois du dépôt de la requête au greffe, par une ordonnance de rejet ou une ordonnance portant permission de s'inscrire en faux. En cas de rejet et sauf dispense expresse, le demandeur est condamné au paiement d'une amende dont le taux est fixé par décret."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L7231-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Signification dans les quinze jours avec sommation : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7231-4",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Réponse du défendeur dans les quinze jours.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Signification avec sommation et réponse du défendeur, deux délais de quinze jours, en un article (L7231-4 fusionné).",
+      "ligne_rouge": "Aucune : délais de quinze jours gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'ordonnance portant permission de s'inscrire en faux est signifiée au défendeur dans les quinze jours, avec une copie de la requête et sommation de déclarer s'il entend se servir de la pièce arguée de faux. Le défendeur répond dans les quinze jours, et sa déclaration est signifiée au demandeur."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7231-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Renvoi au juge du faux incident si la pièce est maintenue.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Renvoi au juge du faux incident : même règle, phrase resserrée. L1312-4 le cite.",
+      "ligne_rouge": "Aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le défendeur entend se servir de la pièce arguée de faux, le premier président renvoie les parties devant la juridiction qu'il désigne pour juger l'inscription de faux incident."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7231-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réponse du défendeur dans les quinze jours : reprise à L7231-3.",
+      "ligne_rouge": "aucune",
+      "vers": "L7231-3"
     }
-  ]
+  ],
+  "passe": 3
 }
