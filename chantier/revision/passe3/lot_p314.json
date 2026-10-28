@@ -1,0 +1,92 @@
+{
+  "lot": "lot_p314",
+  "titre": "8e partie, livre VI : Terres australes et antarctiques françaises",
+  "ecart_volume": "Plafond dépassé : titre de cinq articles déjà sobre, dont L. 8611-4 règle une privation de liberté (art. 66 C) loin de tout juge : présentation à la première escale, détention autorisée par le juge d'instruction et rendue compte chaque mois, imputation sur la peine, qui restent écrites en entier.",
+  "articles_cible": [
+    {
+      "num": "L8611-1",
+      "texte": "Le présent code s'applique de plein droit dans les Terres australes et antarctiques françaises avec les adaptations suivantes :\n1° Un décret en Conseil d'État désigne les juridictions pénales territorialement compétentes.\n2° Les chefs de district ou ceux qui en assument les fonctions exercent les pouvoirs des officiers de police judiciaire. Ils informent sans délai le procureur de la République compétent des infractions dont ils ont connaissance.\n3° La signification des actes est faite par un citoyen français désigné par décision du chef de district.",
+      "verbe": "R",
+      "principe": "P3",
+      "motif": "Clause d'application des Terres australes et antarctiques françaises (technique 1) : désignation des juridictions par décret en Conseil d'État, pouvoirs des chefs de district et signification en un article. L. 8611-2, L. 8611-3 et L. 8611-5 y fusionnent.",
+      "ligne_rouge": "art. 66 C examiné : le chef de district exerce les pouvoirs d'officier de police judiciaire sous le contrôle du procureur, qu'il informe sans délai"
+    },
+    {
+      "num": "L8611-4",
+      "texte": "Lorsqu'un mandat d'amener est délivré contre une personne mise en examen pour un crime ou pour un délit puni d'au moins deux ans d'emprisonnement, les autorités judiciaires compétentes requièrent le commandant de tout aéronef ou navire français à destination d'une escale française de la recevoir à son bord, avec le dossier de la procédure sous pli fermé et scellé, et de lui procurer le passage et la nourriture.\nÀ la première escale française, la personne est présentée au juge des libertés et de la détention, qui applique l'article L. 3444-13.\nSi les circonstances l'exigent, le juge d'instruction peut assortir le mandat d'une disposition spéciale et révocable autorisant le chef de district à la maintenir en détention le temps nécessaire à son embarquement, à charge pour lui d'en rendre compte chaque mois au juge d'instruction.\nLe temps de la conduite devant le juge d'instruction compétent et celui de la détention avant l'embarquement s'imputent sur la durée de la peine.",
+      "verbe": "S",
+      "principe": "P25",
+      "motif": "Conduite de la personne visée par un mandat d'amener depuis les Terres australes : gardée hors de la clause, parce qu'elle règle une privation de liberté. Les autorités sont celles des juridictions désignées au 1° de L. 8611-1. Coquille « au moins de deux ans » corrigée (passe 2). Le renvoi aux mesures du capitaine tombe : la consignation à bord reste régie par l'article L. 5531-19 du code des transports dans son propre champ (péril pour le navire ou les personnes, accord du procureur, contrôle du juge des libertés et de la détention). Perte déclarée d'un pouvoir, non d'une garantie : hors de ce péril, le capitaine n'a plus de base pour consigner la personne conduite, et la conduite repose sur le mandat d'amener.",
+      "ligne_rouge": "art. 66 C examiné : présentation au juge des libertés et de la détention à la première escale, détention avant l'embarquement autorisée par le juge d'instruction et rendue compte chaque mois ; art. 8 DDHC : imputation sur la peine gardée"
+    }
+  ],
+  "retires": [
+    {
+      "num": "L8611-2",
+      "verbe": "F",
+      "vers": "L8611-1",
+      "principe": "P1",
+      "motif": "Juridictions désignées par décret en Conseil d'État : 1° de L. 8611-1.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L8611-3",
+      "verbe": "F",
+      "vers": "L8611-1",
+      "principe": "P3",
+      "motif": "Chefs de district officiers de police judiciaire : 2° de L. 8611-1.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L8611-5",
+      "verbe": "F",
+      "vers": "L8611-1",
+      "principe": "P3",
+      "motif": "Signification par un citoyen désigné : 3° de L. 8611-1.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L8611-1#1": {
+      "vers": "L8611-1",
+      "destin": "reprise"
+    },
+    "L8611-2#1": {
+      "vers": "L8611-1",
+      "destin": "reprise"
+    },
+    "L8611-3#1": {
+      "vers": "L8611-1",
+      "destin": "reprise"
+    },
+    "L8611-3#2": {
+      "vers": "L8611-1",
+      "destin": "reprise"
+    },
+    "L8611-4#1": {
+      "vers": "L8611-4",
+      "destin": "reprise"
+    },
+    "L8611-4#2": {
+      "vers": "L8611-4",
+      "destin": "reprise"
+    },
+    "L8611-4#3": {
+      "vers": "L8611-4",
+      "destin": "reprise"
+    },
+    "L8611-4#4": {
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "La phrase ne portait pas de garantie de la personne : la consignation à bord reste régie par l'article L. 5531-19 du code des transports dans son propre champ, sous l'accord du procureur et le contrôle du juge des libertés et de la détention. Perte déclarée : hors de ce péril, le capitaine n'a plus de base pour consigner la personne conduite, et la conduite repose sur le mandat d'amener."
+    },
+    "L8611-4#5": {
+      "vers": "L8611-4",
+      "destin": "reprise"
+    },
+    "L8611-5#1": {
+      "vers": "L8611-1",
+      "destin": "reprise"
+    }
+  }
+}
