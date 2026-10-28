@@ -10,33 +10,35 @@
     {
       "code": "cpp",
       "num": "D599",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Clause d'application des décrets simples dans les départements d'outre-mer et à Saint-Pierre-et-Miquelon : une ligne, sécurité juridique.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Technique 1 : une clause d'application et une table d'adaptations. La clause garde les cinq collectivités. « ainsi que les décrets qui le modifient » tombe : les collectivités de l'article 73 et Saint-Pierre-et-Miquelon sont sous identité législative, le code s'y applique dans sa rédaction en vigueur. La table reprend les deux substitutions de D600-1 et l'adaptation de D600-2, refaite sur le texte cible actuel : D577 est fusionné dans le deuxième alinéa de D576 (lot p043), seul y reste propre le partage entre le directeur, qui définit la prise en charge, et le conseiller, qui la met en œuvre.",
+      "ligne_rouge": "aucune : organisation du suivi des mesures à Saint-Pierre-et-Miquelon, l'avis au magistrat mandant et ses observations restent (D576)",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent code est applicable en Guadeloupe, en Guyane, en Martinique, à La Réunion et à Saint-Pierre-et-Miquelon.\nPour l'application des titres Ier à IV, VI et XI du livre V à Saint-Pierre-et-Miquelon :\n1° Le conseiller pénitentiaire d'insertion et de probation tient lieu de service pénitentiaire d'insertion et de probation, et le directeur des services pénitentiaires d'outre-mer de directeur de ce service.\n2° À la deuxième phrase du deuxième alinéa de l'article D. 576, les mots « Le service définit et met en œuvre » sont remplacés par les mots « Le directeur des services pénitentiaires d'outre-mer définit, et le conseiller pénitentiaire d'insertion et de probation met en œuvre, »."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D600-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Substitutions propres à Saint-Pierre-et-Miquelon, où un conseiller tient lieu de service pénitentiaire d'insertion et de probation : organisation propre à la collectivité.",
-      "ligne_rouge": "aucune"
+      "motif": "Substitutions propres à Saint-Pierre-et-Miquelon : 1° de la table de D599, même champ (titres Ier à IV, VI et XI du livre V).",
+      "ligne_rouge": "aucune",
+      "vers": "D599"
     },
     {
       "code": "cpp",
       "num": "D600-2",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Rédaction de D577 pour Saint-Pierre-et-Miquelon, adaptée à un conseiller unique : règle propre gardée. Le dernier alinéa nomme le « directeur interrégional, chef de la mission des services pénitentiaires de l'outre-mer », que le deuxième alinéa nomme déjà directeur des services pénitentiaires d'outre-mer (R. 112-8 du code pénitentiaire). Un mot par notion, comme au lot p138 (D774-19).",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Rédaction de D577 pour Saint-Pierre-et-Miquelon : D577 est fusionné dans D576 (lot p043). Les instructions du magistrat mandant et le signalement des difficultés suivent D576 avec la substitution du 1° ; le partage propre (le directeur définit, le conseiller met en œuvre) devient le 2° de la table de D599. Le « directeur interrégional, chef de la mission » est le directeur des services pénitentiaires d'outre-mer (un mot par notion).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "au directeur interrégional, chef de la mission des services pénitentiaires de l'outre-mer toute difficulté",
-          "nouveau": "au directeur des services pénitentiaires d'outre-mer toute difficulté"
-        }
-      ]
+      "vers": "D599"
     }
-  ]
+  ],
+  "passe": 3
 }
