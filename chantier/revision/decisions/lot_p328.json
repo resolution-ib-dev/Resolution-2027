@@ -10,568 +10,687 @@
     {
       "code": "cpp",
       "num": "R40-23",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier de police judiciaire : création du traitement d'antécédents judiciaires pour les finalités de la loi. Renvoi à l'ancien 230-6 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : finalités fixées par la loi"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-24",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Fichier de police judiciaire : origine des données, données sensibles limitées au signalement : gardé. Le renvoi au « I de l'article 8 » de la loi de 1978 vise désormais le I de l'article 6 (loi de 1978 renumérotée par l'ordonnance n° 2018-1125, comme R15-33-82 et R2-36).",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : données sensibles limitées",
+      "principe": "P23",
+      "motif": "Création du traitement d'antécédents judiciaires, origine des données, données sensibles limitées au signalement (renvoi à l'article 6 de la loi de 1978, passe 2) et liste des contraventions (R40-25) en un article. Les catégories de personnes sont à la loi (L3573-3, pièce du lot p187), renvoi à l'ancien 230-6 écrit sur L3573-1.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : liste fermée des contraventions et limitation des données sensibles gardées",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "au I de l'article 8 de la loi du 6 janvier 1978",
-          "nouveau": "au I de l'article 6 de la loi du 6 janvier 1978"
+          "op": "rediger",
+          "nouveau": "Le ministre de l'intérieur (direction générale de la police nationale et direction générale de la gendarmerie nationale) met en œuvre le traitement d'antécédents judiciaires prévu à l'article L. 3573-1. Il est constitué des données recueillies dans les procédures établies par les services de la police et les unités de la gendarmerie nationales et par les agents des douanes habilités à exercer des missions de police judiciaire. En tant que de besoin et dans le cadre des engagements internationaux en vigueur, il comprend aussi des données issues des traitements des organismes de coopération internationale en matière de police judiciaire ou des services de police étrangers.\nIl ne contient de données mentionnées au I de l'article 6 de la loi n° 78-17 du 6 janvier 1978 que si elles résultent de la nature ou des circonstances de l'infraction ou se rapportent à des signes physiques particuliers, objectifs et permanents, en tant qu'éléments de signalement nécessaires à ses finalités.\nLes contraventions de la cinquième classe mentionnées au 1° de l'article L. 3573-1 sont celles des articles R. 625-1 à R. 625-3, R. 625-7, R. 625-9, R. 635-1, R. 635-3 à R. 635-5, R. 645-1, R. 645-2 et R. 645-5 à R. 645-15 du code pénal."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R40-25",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier de police judiciaire : catégories de personnes enregistrées : mis en cause sur indices graves ou concordants, victimes, disparus.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : seuil d'indices graves ou concordants"
-    },
-    {
-      "code": "cpp",
       "num": "R40-26",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier de police judiciaire : données enregistrées par catégorie de personnes.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : liste fermée"
+      "principe": "P23",
+      "motif": "Données du traitement : toutes les catégories gardées, les trois listes de personnes physiques et les deux listes de personnes morales fondues avec leurs écarts.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : aucune donnée ajoutée, la reconnaissance faciale reste limitée à la photographie du visage de face",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent être enregistrées, pour les personnes mentionnées à l'article L. 3573-3 :\n1° Pour les personnes physiques : identité (nom, nom marital, nom d'emprunt officiel, prénoms, sexe), date et lieu de naissance, situation familiale, nationalité, adresses, adresses électroniques, numéros de téléphone, profession et état de la personne. S'y ajoutent, pour les personnes mises en cause, le surnom ou l'alias, la filiation, le signalement, la photographie du visage de face, dont les caractéristiques techniques permettent le recours à un dispositif de reconnaissance faciale, et les autres photographies, et, pour les personnes disparues et les corps non identifiés, le signalement, la photographie du visage de face et les autres photographies.\n2° Pour les personnes morales mises en cause ou victimes : raison sociale, enseigne commerciale, sigle, forme juridique, numéro d'inscription au registre du commerce et des sociétés, lieu du siège social, secteur d'activité, adresses, adresses électroniques et numéros de téléphone, et, pour les personnes mises en cause, numéros SIREN et SIRET.\nSont aussi enregistrées les données non personnelles sur les faits, les lieux, les dates et les modes opératoires, et les données et images relatives aux objets, y compris celles qui permettent indirectement d'identifier les personnes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-27",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier de police judiciaire : durées de conservation graduées selon la gravité, réduites pour les mineurs et les victimes.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : durées bornées ; minorité examinée : durées réduites pour les mineurs"
+      "principe": "P23",
+      "motif": "Durées de conservation et trois tableaux gardés, en phrases. La base 2029 ne fixe pas de durée pour le mineur mis en cause hors des deux listes : paramètre [cinq ans] inscrit, défaut de base à la note de coordination (8.3).",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : durées graduées, réduites pour les mineurs et les victimes, effacement des disparus retrouvés gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les données d'une personne mise en cause majeure sont conservées vingt ans. Elles le sont cinq ans pour les délits prévus par le code de la route, aux articles 221-6, 221-6-1, 222-19, 222-19-1, 222-20-1, 225-10-1, 227-3 à 227-11, 311-3, 314-5, 314-6, 431-1, 431-4 et 434-10 du code pénal et à l'article L. 3421-1 du code de la santé publique, et pour les contraventions mentionnées à l'article R. 40-23. Elles le sont quarante ans pour les infractions suivantes :\n1° Contre les personnes : administration de substances nuisibles, détournement de moyen de transport, empoisonnement, enlèvement, séquestration, prise d'otage, exploitation de la mendicité aggravée ou en bande organisée, crime contre l'humanité, génocide, meurtre, assassinat, menace de mort, menace de destruction, dégradation ou détérioration dangereuse pour les personnes, torture, acte de barbarie, violences volontaires ayant entraîné la mort, une mutilation ou une infirmité permanente, vol avec violences, agression sexuelle, atteinte sexuelle sur mineur de quinze ans, atteinte sexuelle aggravée sur mineur de plus de quinze ans, corruption de mineur, proxénétisme, viol, trafic de stupéfiants, traite des êtres humains.\n2° Contre les biens : abus de confiance aggravé, destruction, dégradation ou détérioration d'un bien d'autrui par une substance explosive, un incendie ou tout autre moyen dangereux pour les personnes, escroquerie aggravée, extorsion, vol en bande organisée, vol avec arme, blanchiment, contrefaçon ou falsification de monnaies et de moyens de paiement, faux en écriture publique, abus de biens sociaux, délit d'initié, atteintes aux systèmes de traitement automatisé de données.\n3° Contre la paix publique : acte de terrorisme, association de malfaiteurs, évasion, infraction au régime des armes et munitions, sauf le port ou le transport d'arme de catégorie D, atteinte aux intérêts fondamentaux de la Nation, recel de malfaiteurs, violation de secret professionnel ou de fabrique.\nLes données d'une personne mise en cause mineure sont conservées vingt ans pour les infractions suivantes : administration de substances nuisibles, détournement de moyen de transport, empoisonnement, enlèvement, séquestration, prise d'otage, crime contre l'humanité, génocide, meurtre, assassinat, torture, acte de barbarie, violences volontaires ayant entraîné la mort, une mutilation ou une infirmité permanente, vol avec violences aggravé, agression sexuelle, proxénétisme, viol, trafic de stupéfiants autre que ceux de l'alinéa suivant, traite des êtres humains en bande organisée ou avec tortures ou actes de barbarie, vol en bande organisée, vol avec arme, acte de terrorisme, association de malfaiteurs, atteinte aux intérêts fondamentaux de la Nation.\nElles sont conservées dix ans pour les infractions suivantes : exploitation de la mendicité aggravée ou en bande organisée, vol avec violences, violences volontaires aggravées autres que celles de l'alinéa précédent, transport, détention, offre, cession, acquisition ou emploi illicites de stupéfiants, traite des êtres humains autre que celle de l'alinéa précédent, exhibition sexuelle, destruction, dégradation ou détérioration d'un bien d'autrui par une substance explosive, un incendie ou tout autre moyen dangereux pour les personnes, extorsion, atteintes aux systèmes de traitement automatisé de données, blanchiment, contrefaçon ou falsification de monnaies ou de moyens de paiement, recel de malfaiteurs.\nLes données d'une personne mise en cause mineure le sont [cinq ans] pour les autres infractions.\nSi la personne est mise en cause pour une nouvelle infraction avant l'expiration d'une durée de conservation, la durée restante la plus longue s'applique à l'ensemble de ses données. Les données des victimes sont conservées quinze ans au plus. Celles des personnes du 3° de l'article L. 3573-3 sont effacées lorsque l'enquête a retrouvé la personne disparue ou écarté toute suspicion de crime ou de délit."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-28",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier de police judiciaire : accès nominatif des enquêteurs et magistrats, accès mobile restreint.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : habilitation individuelle"
+      "principe": "P23",
+      "motif": "Accès et destinataires gardés ; autorités d'habilitation renvoyées à R40-35. Renvoi à l'ancien 230-9 écrit sur L3573-8.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accès mobile réservé aux 1° (police, gendarmerie, Office), jonction au dossier limitée à la procédure en cours",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ont accès, pour les besoins des enquêtes judiciaires, à tout ou partie des données de l'article R. 40-26, à raison de leurs attributions :\n1° Les agents de la police nationale et les militaires de la gendarmerie nationale qui exercent des missions de police judiciaire, et les agents de l'Office national anti-fraude dans le cadre de leurs attributions légales, individuellement désignés et spécialement habilités selon l'article R. 40-35. Ils peuvent seuls y accéder par des moyens techniques mobiles.\n2° Les magistrats du parquet.\n3° Les agents des services judiciaires individuellement désignés et spécialement habilités par le procureur de la République, qui indiquent au gestionnaire les décisions judiciaires et les requalifications qui entraînent mise à jour ou effacement des données.\n4° Le magistrat mentionné à l'article L. 3573-8 et les agents des services judiciaires qu'il désigne et habilite pour instruire les demandes de rectification et d'effacement.\n5° Les agents de la police et de la gendarmerie nationales chargés d'une mission de police judiciaire, habilités selon l'article R. 40-35 pour la collecte, la vérification, la mise à jour et l'effacement des données.\nPeuvent être destinataires des mêmes données les autres agents de l'État investis par la loi d'attributions de police judiciaire, les magistrats instructeurs pour les infractions dont ils sont saisis, et les organismes de coopération internationale en matière de police judiciaire et les services de police étrangers, dans les conditions de l'article L. 235-1 du code de la sécurité intérieure. Seules les informations relatives à la procédure en cours peuvent être jointes au dossier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-29",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier de police judiciaire : consultation administrative hors classements, non-lieux, relaxes et acquittements, avis défavorable subordonné à vérification des suites judiciaires.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : les mises hors de cause ne sont pas opposées ; présomption d'innocence examinée : vérification des suites avant avis défavorable"
+      "principe": "P23",
+      "motif": "Consultation administrative gardée, hors classements, non-lieux, relaxes, acquittements et victimes ; vérification des suites judiciaires avant tout avis défavorable. Renvoi à l'ancien 230-8 écrit sur le 3° de L3573-5.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : présomption d'innocence (art. 9 DDHC) tenue : aucun avis défavorable sans vérification des suites judiciaires",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour les enquêtes administratives prévues à l'article 17-1 de la loi n° 95-73 du 21 janvier 1995, aux articles L. 114-1, L. 114-2, L. 211-11-1, L. 234-1 et L. 234-2 du code de la sécurité intérieure et à l'article L. 4123-9-1 du code de la défense, peuvent consulter sans autorisation du ministère public les données des procédures en cours ou closes, sauf celles qui ont fait l'objet d'un classement sans suite, d'un non-lieu, d'une relaxe ou d'un acquittement définitifs et sauf celles des victimes :\n1° Les personnels de la police et de la gendarmerie habilités selon l'article R. 40-35.\n2° Les agents individuellement désignés et spécialement habilités des services spécialisés de renseignement mentionnés à l'article R. 234-2 du code de la sécurité intérieure.\n3° Les agents du service national des enquêtes administratives de sécurité, individuellement désignés et spécialement habilités par le directeur général de la police nationale, et ceux du commandement spécialisé pour la sécurité nucléaire, désignés et habilités de même par le directeur général de la gendarmerie nationale.\n4° Les personnels investis de missions de police administrative individuellement désignés et spécialement habilités par le représentant de l'État.\nL'habilitation précise limitativement les motifs des consultations autorisées. Lorsque la personne est enregistrée comme mise en cause, l'enquête administrative ne peut aboutir à un avis ou une décision défavorables qu'après saisine, pour complément d'information, des services de police ou des unités de gendarmerie compétents et, pour les suites judiciaires, du ou des procureurs de la République compétents. Le procureur adresse aux gestionnaires un relevé des suites judiciaires à faire figurer dans le traitement et indique à l'autorité de police administrative si les données portent la mention qui en interdit la consultation (3° de l'article L. 3573-5).\nDans les mêmes conditions, les personnels du 1° peuvent consulter ces données pour les missions et interventions de l'article L. 234-3 du code de la sécurité intérieure, et les agents des services de renseignement désignés par le ministre de la défense, individuellement désignés et spécialement habilités par leur directeur, aux seules fins de protéger la sécurité de leurs personnels. Les organismes de coopération internationale en matière de police judiciaire et les services de police étrangers peuvent être destinataires des données consultables selon le présent article, pour leurs missions de police administrative, dans la limite du besoin d'en connaître et dans les conditions de l'article L. 235-1 du même code."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-29-1",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier de police judiciaire : consultation par le renseignement et Tracfin, hors données des victimes.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : victimes exclues"
+      "principe": "P23",
+      "motif": "Consultation par le renseignement et Tracfin, hors victimes : gardée.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : données des victimes exclues",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent consulter les données du traitement, sauf celles des victimes :\n1° Les agents des services mentionnés à l'article R. 234-3 du code de la sécurité intérieure, individuellement désignés et habilités par leur directeur, dans les conditions de l'article L. 234-4 du même code.\n2° Les agents du service mentionné à l'article L. 561-23 du code monétaire et financier, individuellement désignés et habilités par son directeur, dans les conditions de l'article L. 561-27 du même code."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-30",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Fichier de police judiciaire : journalisation six ans : traçabilité des consultations.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Journalisation : une règle pour les quatre traitements du titre (R40-38-9, R40-50, R40-62), durées gardées (six ans et trois ans).",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : toutes les opérations restent tracées",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les opérations de collecte, de modification, de consultation, de communication, de transfert, d'interconnexion et d'effacement des données des traitements prévus aux articles R. 40-23, R. 40-38-1, R. 40-42 et R. 40-57, et toute autre opération sur la plate-forme de l'article R. 40-42, sont enregistrées avec l'identifiant de leur auteur, la date, l'heure et la nature administrative ou judiciaire de l'opération. Les journaux de consultation et de communication établissent aussi le motif et les destinataires. Ces enregistrements sont conservés six ans pour le traitement d'antécédents judiciaires et trois ans pour les autres traitements."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-31",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Fichier de police judiciaire : contrôle par le procureur et le magistrat référent, demandes de rectification ou d'effacement : gardés. L'irrecevabilité de la demande qui n'est pas adressée par lettre recommandée tombe : la demande s'adresse par tout moyen permettant d'en établir la date de réception. Renvois aux anciens 230-8 et 230-9 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'article ne touche aucune peine ; vie privée (art. 2 DDHC) examinée : le droit d'effacement s'exerce sans formalité qui le ferme",
+      "motif": "Demandes de rectification ou d'effacement, communes au traitement d'antécédents et à l'analyse sérielle (R40-36), que la loi soumet au même contrôle (L3574-4). Envoi par tout moyen permettant d'en établir la date de réception (passe 2). Le premier alinéa redisait L3573-5 et L3573-8.",
+      "ligne_rouge": "art. 8 et 16 DDHC examinés : la demande et son destinataire gardés, l'irrecevabilité faute de recommandé tombe",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "doit, à peine d'irrecevabilité, être adressée par lettre recommandée avec demande d'avis de réception.",
-          "nouveau": "est adressée par tout moyen permettant d'en établir la date de réception."
+          "op": "rediger",
+          "nouveau": "Les personnes intéressées peuvent adresser leurs demandes de rectification ou d'effacement des données du traitement d'antécédents judiciaires ou d'un traitement d'analyse sérielle au procureur de la République territorialement compétent ou au magistrat mentionné à l'article L. 3573-8, par tout moyen permettant d'en établir la date de réception. Pour un traitement d'analyse sérielle, elles peuvent aussi les adresser au responsable du traitement par l'intermédiaire de la Commission nationale de l'informatique et des libertés. Les personnes morales ne s'adressent qu'au procureur de la République. Le procureur ou le responsable du traitement saisi transmet au magistrat mentionné à l'article L. 3573-8 la demande qui porte sur des données issues de procédures de plusieurs ressorts."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R40-31-1",
-      "decision": "S",
       "principe": "P11",
-      "motif": "Fichier de police judiciaire : décision du magistrat, recours devant le président de la chambre des investigations et des libertés, délais : gardés. Le délai de recours d'un mois partait de l'envoi de la décision : il part de sa réception. Les échanges se font par tout moyen permettant d'en établir la date de réception.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'article ne touche aucune peine ; vie privée (art. 2 DDHC) examinée : recours effectif contre le refus d'effacement",
+      "motif": "Décision, recours motivé sous un mois de la réception (passe 2), silence de deux mois (L1511-2, ancien 802-1), caducité, ordonnance sous six mois, pourvoi limité : gardés.",
+      "ligne_rouge": "art. 16 DDHC examiné : recours au juge, délais et pourvoi gardés",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "fait connaître sa décision à l'intéressé, par lettre recommandée.",
-          "nouveau": "fait connaître sa décision à l'intéressé par tout moyen permettant d'en établir la date de réception."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "dans un délai d'un mois à compter de l'envoi de la décision de refus, par lettre recommandée avec demande d'avis de réception ou par déclaration",
-          "nouveau": "dans un délai d'un mois à compter de la réception de la décision de refus, par tout moyen permettant d'en établir la date de réception ou par déclaration"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "à compter de la date de réception de la lettre recommandée ou de la déclaration au greffe par le requérant",
-          "nouveau": "à compter de la date de réception du recours"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "et notifiée par lettre recommandée à l'intéressé.",
-          "nouveau": "et notifiée à l'intéressé par tout moyen permettant d'en établir la date de réception."
+          "op": "rediger",
+          "nouveau": "Le procureur de la République ou le magistrat mentionné à l'article L. 3573-8 fait connaître sa décision à l'intéressé par tout moyen permettant d'en établir la date de réception. S'il n'ordonne pas l'effacement ou la rectification, l'intéressé peut, dans le mois de la réception de la décision, saisir le président de la chambre des investigations et des libertés ou, pour une décision du magistrat, celui de la cour d'appel de Paris, selon les articles L. 3573-5 et L. 3573-8, par tout moyen permettant d'en établir la date de réception ou par déclaration au greffe. À peine d'irrecevabilité, la contestation est motivée. À défaut de décision dans les deux mois, l'intéressé exerce le même recours selon l'article L. 1511-2, dans le mois qui suit.\nL'auteur de la décision contestée est informé sans délai et par tout moyen du recours, qui devient caduc s'il fait droit à la demande. Le président statue, après avoir sollicité les réquisitions écrites du procureur général, par ordonnance motivée dans les six mois de la réception du recours. L'ordonnance est portée à la connaissance de l'auteur de la décision et notifiée à l'intéressé par tout moyen permettant d'en établir la date de réception. Elle ne peut faire l'objet d'un pourvoi en cassation que si elle ne satisfait pas, en la forme, aux conditions essentielles de son existence légale."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R40-32",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Fichier de police judiciaire : magistrat de contrôle et rapport annuel : gardés. Les articles 44 et 70-22 de la loi de 1978 sont devenus 19 et 108 (loi de 1978 renumérotée par l'ordonnance n° 2018-1125, comme R15-33-82 et R2-36).",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : contrôle d'un magistrat et de la CNIL",
+      "principe": "P23",
+      "motif": "Magistrat de contrôle : une règle pour le traitement d'antécédents, l'analyse sérielle et les logiciels de rapprochement (R40-37, R40-41), compte rendu annuel à la CNIL (R40-34). D44-5, qui cite R40-37 et R40-41, est à coordonner sur R40-32.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : contrôle par un magistrat et rapport annuel gardés pour chaque traitement",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "articles 44 et 70-22 de la loi",
-          "nouveau": "articles 19 et 108 de la loi"
+          "op": "rediger",
+          "nouveau": "La mise en œuvre et la mise à jour du traitement d'antécédents judiciaires et des traitements d'analyse sérielle sont contrôlées par le magistrat désigné selon l'article L. 3573-8, celles des logiciels de rapprochement judiciaire par le magistrat désigné selon l'article L. 3575-3. Chacun est un magistrat du parquet du troisième grade, désigné pour trois ans par arrêté du ministre de la justice et assisté d'un comité de trois membres nommés de même. Les autorités gestionnaires lui adressent, sur sa demande, toutes informations sur ces traitements. Il peut ordonner toute mesure nécessaire à son contrôle. Il adresse un rapport annuel au ministre de la justice, avec copie aux autorités gestionnaires. Ses pouvoirs s'exercent sans préjudice du contrôle de la Commission nationale de l'informatique et des libertés selon les articles 19 et 108 de la loi n° 78-17 du 6 janvier 1978.\nLe directeur général de la police nationale et le directeur général de la gendarmerie nationale rendent compte conjointement chaque année à la Commission nationale de l'informatique et des libertés des vérifications, mises à jour et effacements des données du traitement d'antécédents judiciaires."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R40-33",
+      "principe": "P23",
+      "motif": "Droits des personnes gardés ; l'opposition de la victime est à la loi (L3573-3), son information reste. Les fins de la restriction sont gardées (relecture).",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : délais de la procédure devant la CNIL et communication après clôture gardés",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Fichier de police judiciaire : droits des personnes, opposition de la victime après condamnation, restrictions et délais de la CNIL : gardés. Renvois à la loi de 1978 mis à jour : 38 devient 110, 70-18 à 70-20 deviennent 104 à 106, 70-21 devient 107, 70-22 devient 108 (loi de 1978 renumérotée par l'ordonnance n° 2018-1125, comme R15-33-82 et R2-36).",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : droits d'accès et d'effacement, délais de traitement",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "prévu à l'article 38 de la loi",
-          "nouveau": "prévu à l'article 110 de la loi"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "aux articles 70-18 à 70-20 de la même loi",
-          "nouveau": "aux articles 104 à 106 de la même loi"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "de l'article 70-21 de la même loi",
-          "nouveau": "de l'article 107 de la même loi"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "à l'article 70-22 de la même loi",
-          "nouveau": "à l'article 108 de la même loi"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "R40-34",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Fichier de police judiciaire : compte rendu annuel à la CNIL : gardé (P22). L'article 44 de la loi de 1978 est devenu l'article 19 (loi de 1978 renumérotée par l'ordonnance n° 2018-1125, comme R15-33-82 et R2-36).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "de l'article 44 de la loi",
-          "nouveau": "de l'article 19 de la loi"
+          "op": "rediger",
+          "nouveau": "Le droit d'opposition prévu à l'article 110 de la loi n° 78-17 du 6 janvier 1978 ne s'applique pas au traitement d'antécédents judiciaires. Les victimes sont informées de leur droit de s'opposer à la conservation de leurs données, prévu au 2° de l'article L. 3573-3.\nSans préjudice de l'article R. 40-31, les droits d'information, d'accès, de rectification et d'effacement des articles 104 à 106 de la même loi s'exercent directement auprès du responsable du traitement. Pour éviter de gêner des enquêtes, des recherches et des procédures administratives ou judiciaires et de nuire aux enquêtes, aux poursuites ou à l'exécution des sanctions pénales, les droits d'accès, de rectification et d'effacement peuvent être restreints selon les 2° et 3° du II et le III de l'article 107 de la même loi. La personne exerce alors ses droits auprès de la Commission nationale de l'informatique et des libertés selon l'article 108 de la même loi.\nLa Commission traite la demande en six mois. Dès sa réception, le responsable du traitement dispose d'un mois et demi pour saisir le procureur de la République, délai prorogé d'un mois si l'instruction de la demande exige des investigations complexes, dont la Commission est informée. Le procureur se prononce dans les trois mois et communique ses prescriptions au responsable, qui informe la Commission des suites dans les quinze jours. Les informations relatives à une procédure judiciaire ne sont communiquées qu'après sa clôture. Toutefois, la Commission peut constater, en accord avec le responsable du traitement, que des données ne mettent en cause ni la sûreté de l'État, ni la défense, ni la sécurité publique et qu'il y a lieu de les communiquer à la personne, avec l'accord du procureur si la procédure n'est pas close."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R40-35",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichiers d'analyse sérielle : habilitations par les chefs de service.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : habilitation individuelle"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-36",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichiers d'analyse sérielle : demandes de rectification ou d'effacement. Renvois aux anciens 230-9 et 230-14 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : droit d'effacement"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-37",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Fichiers d'analyse sérielle : magistrat de contrôle gardé. Les articles 41 et 44 de la loi de 1978 sont devenus 108 et 19 (loi de 1978 renumérotée par l'ordonnance n° 2018-1125, comme R15-33-82 et R2-36).",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : contrôle d'un magistrat et de la CNIL",
+      "principe": "P23",
+      "motif": "Autorités qui délivrent les habilitations, identiques dans cinq articles (R15-33-79, R40-28, R40-29, R40-35, R40-39) : écrites une fois.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : chaque habilitation reste individuelle et délivrée par un chef de service désigné",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par les articles 41 et 44 de la loi",
-          "nouveau": "par les articles 19 et 108 de la loi"
+          "op": "rediger",
+          "nouveau": "Les habilitations prévues aux articles R. 15-33-79, R. 40-28 et R. 40-29 et celles d'accès aux traitements d'analyse sérielle et aux logiciels de rapprochement judiciaire sont délivrées :\n1° Pour les agents de la police nationale, par les chefs des services territoriaux, les chefs des services actifs de la préfecture de police ou le préfet de police, ou les chefs des services centraux ou le directeur général de la police nationale.\n2° Pour les militaires de la gendarmerie nationale, par les commandants de groupement, les commandants de la gendarmerie dans les départements et collectivités d'outre-mer et en Nouvelle-Calédonie, les commandants de région ou des gendarmeries spécialisées, le sous-directeur de la police judiciaire ou le directeur général de la gendarmerie nationale.\n3° Pour les agents de l'Office national anti-fraude, par son directeur ou son représentant."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R40-38",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Fichier des personnes recherchées régi par son décret propre : la règle vit à sa source.",
-      "ligne_rouge": "aucune"
+      "principe": "P13",
+      "motif": "Fichier des personnes recherchées : renvoi à l'ancien 230-19 écrit sur L3576-1.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fichier des personnes recherchées prévu à l'article L. 3576-1 est régi par le décret n° 2010-569 du 28 mai 2010."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-38-1",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier des empreintes digitales : finalités.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : finalités fermées"
+      "principe": "P20",
+      "motif": "Finalités du fichier des empreintes : celles des procédures pénales sont à la loi (L3571-1) ; restent les finalités hors procédure (identification extrajudiciaire, étrangers).",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : aucune finalité ajoutée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministre de l'intérieur (direction générale de la police nationale) met en œuvre le fichier automatisé des empreintes digitales prévu à l'article L. 3571-1. Outre les finalités de cet article, le fichier facilite l'identification, hors procédure judiciaire, des personnes décédées dont l'identité n'est pas établie, des victimes de catastrophes naturelles et des personnes recherchées dont la mort est supposée, et l'identification d'un étranger selon l'article L. 142-2 du code de l'entrée et du séjour des étrangers et du droit d'asile."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-38-2",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier des empreintes : données enregistrées, comparaison sans conservation des vérifications d'identité. Liste fermée, sa forme protège : la proposition de l'inverser est écartée.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : comparaison sans conservation pour les vérifications"
+      "principe": "P23",
+      "motif": "Empreintes enregistrées : liste fermée gardée, en phrases. Renvois aux anciens 74, 74-1, 80-4 et 78-3 écrits sur leurs chapitres de 2029. R265 bis, qui le cite, tient.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : liste fermée gardée, comparaison sans conservation gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent être enregistrées les empreintes digitales et palmaires :\n1° D'origine inconnue, collectées dans une enquête ou une information pour crime ou délit ou dans l'exécution d'un ordre de recherche d'une autorité judiciaire nationale ou étrangère.\n2° D'origine inconnue, collectées dans une procédure de recherche des causes d'un décès, de blessures graves ou d'une disparition (chapitre 1er du titre Ier du livre II de la troisième partie).\n3° Collectées dans une enquête, une information ou l'exécution d'un tel ordre de recherche sur une personne contre laquelle il existe des indices graves ou concordants de sa participation, comme auteur ou complice, à un crime ou à un délit, ou sur une personne mise en cause dans une procédure criminelle ou délictuelle dont l'identification certaine est nécessaire.\n4° Collectées sur les personnes détenues, pour s'assurer de leur identité et établir la récidive.\n5° Collectées sur les cadavres non identifiés et les personnes grièvement blessées dont l'identité n'a pu être établie, dans une enquête ou une information pour crime ou délit ou dans une procédure du 2°.\n6° Issues ou susceptibles d'être issues d'une victime d'enlèvement ou de séquestration, dans une enquête ou une information pour crime ou délit, ou d'une personne disparue, dans une procédure du 2°.\n7° Transmises par des organismes de coopération internationale en matière de police judiciaire, des autorités judiciaires ou des services de police étrangers en application d'engagements internationaux.\n8° Collectées en application de l'article L. 2223-42 du code général des collectivités territoriales, de l'article 87 du code civil et du décret n° 2012-125 du 30 janvier 2012 relatif à la procédure extrajudiciaire d'identification des personnes décédées.\n9° Issues ou susceptibles d'être issues de personnes disparues recherchées selon l'article 26 de la loi n° 95-73 du 21 janvier 1995.\nLes empreintes collectées lors d'une vérification d'identité (chapitre 5 du titre II du livre II de la troisième partie) ou selon l'article L. 142-2 du code de l'entrée et du séjour des étrangers et du droit d'asile peuvent être comparées avec celles des 3° à 6° et avec celles des personnes identifiées du 7°, sans être conservées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-38-3",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier des empreintes : informations associées.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : liste fermée"
+      "principe": "P23",
+      "motif": "Informations associées : gardées, regroupées.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : liste fermée gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les empreintes peuvent être accompagnées des informations suivantes :\n1° Date, lieu, emplacement et numéros de la collecte et, le cas échéant, immatriculation, marque et type du véhicule sur lequel l'empreinte a été prélevée.\n2° Date et numéros d'enregistrement.\n3° Date des faits, références des infractions, du cadre procédural ou juridique de la collecte et de la procédure.\n4° Sexe, noms, prénoms, date et lieu de naissance, filiation et nationalité des personnes dont les empreintes sont collectées, et clichés anthropométriques et leur numéro.\n5° Pour les seules empreintes du 1° de l'article R. 40-38-2, noms et prénoms de la victime lorsque les nécessités de l'enquête ou de l'information le justifient, et pour celles du 7°, pays et organisme d'origine.\n6° Éléments d'identification et service de l'agent ou du magistrat qui a procédé ou fait procéder à la collecte, à l'enregistrement ou à la comparaison.\n7° Informations sur le contrôle de la qualité des données et sur le procédé technique utilisé pour révéler l'empreinte."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-38-4",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier des empreintes : durées graduées, réduites pour les mineurs.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : durées bornées ; minorité examinée"
+      "principe": "P23",
+      "motif": "Durées de conservation gardées, réduites pour les mineurs. Renvois aux anciens 706-47 et 706-73 écrits sur L1721-2 et L1722-2.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : durées et décision du magistrat pour l'allongement gardées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les empreintes et les informations qui leur sont liées sont conservées, à compter de leur enregistrement :\n1° Pour celles du 1° de l'article R. 40-38-2, quinze ans pour les délits, vingt-cinq ans pour un délit mentionné aux articles L. 1721-2 ou L. 1722-2 ou pour un crime. Pour un crime dont l'action publique n'est pas prescrite, le procureur de la République ou, en cours d'information, le juge d'instruction peut porter cette durée à quarante ans, aux seules fins de l'article R. 40-38-1.\n2° Pour celles des 3° et 4°, quinze ans pour les délits, vingt-cinq ans pour un délit mentionné aux articles L. 1721-2 ou L. 1722-2 et quarante ans pour un crime. Ces durées sont de dix, quinze et vingt-cinq ans pour une personne mineure, la dernière sauf opposition du procureur de la République.\n3° Pour celles des 2° et 7° à 9°, vingt-cinq ans.\n4° Pour celles des 5° et 6°, vingt-cinq ans, ou quarante ans dans une procédure criminelle sur décision du procureur de la République ou, en cours d'information, du juge d'instruction, aux seules fins de l'article R. 40-38-1."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-38-5",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier des empreintes : effacements de droit et sur instruction.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : effacement à la relaxe ou à l'acquittement"
+      "principe": "P23",
+      "motif": "Effacements de droit et sur instruction : gardés.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : effacement après relaxe ou acquittement et sur demande gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service gestionnaire efface avant ce terme :\n1° Les empreintes des 1° et 2° de l'article R. 40-38-2 dès l'identification de la personne à qui elles se rapportent et, pour celles du 2°, dès l'identification de la personne grièvement blessée ou décédée ou dès l'avis de la découverte de la personne disparue.\n2° Celles des 5°, 6°, 8° et 9° dès l'avis de l'identification définitive de la personne grièvement blessée ou décédée ou de la découverte de la personne disparue.\n3° Celles du 7° à la demande des organismes ou autorités qui les ont transmises.\n4° Celles des 3° et 4° dès l'avis d'une relaxe ou d'un acquittement définitifs.\nSont effacées sur instruction du procureur de la République ou du juge d'instruction, ou de l'officier de police judiciaire à leur demande, les empreintes des 1° et 2° dont la conservation n'est plus nécessaire aux finalités du fichier, notamment lorsque l'action publique est prescrite.\nSont effacées sur instruction du procureur général ou du procureur de la République les empreintes des 3° et 4° en cas de non-lieu ou de classement sans suite pour absence d'infraction, insuffisance de charges ou auteur inconnu, sauf si ce magistrat en prescrit le maintien parce que l'action publique n'est pas prescrite et que leur conservation est nécessaire aux finalités du fichier compte tenu de la nature ou des circonstances de l'infraction ou de la personnalité de l'intéressé. Elles le sont aussi à la demande de l'intéressé lorsque ce magistrat estime, selon les mêmes critères, que leur conservation n'est plus nécessaire. Le service gestionnaire efface dès réception de l'avis.\nL'effacement d'une empreinte entraîne celui des informations qui lui sont liées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-38-6",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Fichier des empreintes : demande d'effacement, décision sous deux mois, recours : gardés. L'irrecevabilité de la demande qui n'est pas adressée par lettre recommandée tombe, chaque échange se fait par tout moyen permettant d'en établir la date de réception, le délai du président court de la réception du recours.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'article ne touche aucune peine ; vie privée (art. 2 DDHC) examinée : droit d'effacement sans formalité qui le ferme",
+      "motif": "Demande d'effacement, décision sous deux mois, recours sous dix jours : gardés (passe 2).",
+      "ligne_rouge": "art. 16 DDHC examiné : recours au juge, délais et pourvoi gardés",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Toute demande d'effacement doit, à peine d'irrecevabilité, être adressée par lettre recommandée avec demande d'avis de réception ou formée par déclaration au greffe.",
-          "nouveau": "Toute demande d'effacement est adressée par tout moyen permettant d'en établir la date de réception ou formée par déclaration au greffe."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "fait connaître sa décision à l'intéressé, par lettre recommandée dans un délai",
-          "nouveau": "fait connaître sa décision à l'intéressé, par tout moyen permettant d'en établir la date de réception, dans un délai"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "de la décision du procureur de la République, par lettre recommandée avec demande d'avis de réception ou par déclaration",
-          "nouveau": "de la décision du procureur de la République, par tout moyen permettant d'en établir la date de réception ou par déclaration"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "à compter de la date de réception de la lettre recommandée ou de la déclaration au greffe par le requérant",
-          "nouveau": "à compter de la date de réception du recours"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "et, par lettre recommandée à l'intéressé.",
-          "nouveau": "et, par tout moyen permettant d'en établir la date de réception, à l'intéressé."
+          "op": "rediger",
+          "nouveau": "La demande d'effacement est adressée par tout moyen permettant d'en établir la date de réception, ou formée par déclaration au greffe, au procureur de la République de la juridiction où a été menée la procédure qui a donné lieu à l'enregistrement, ou à celui du domicile de l'intéressé, qui la lui transmet. Le magistrat compétent notifie sa décision dans les deux mois de la réception de la demande, par tout moyen permettant d'en établir la date de réception.\nÀ défaut de réponse dans ce délai, ou si l'effacement n'est pas ordonné, l'intéressé peut former un recours motivé, à peine d'irrecevabilité, devant le président de la chambre des investigations et des libertés, dans les dix jours de l'expiration du délai ou de la réception de la décision, par tout moyen permettant d'en établir la date de réception ou par déclaration au greffe de la chambre. Le président statue, après avoir sollicité les réquisitions écrites du procureur général, par ordonnance motivée dans les trois mois de la réception du recours. L'ordonnance est notifiée au procureur de la République et à l'intéressé par tout moyen permettant d'en établir la date de réception. Elle ne peut faire l'objet d'un pourvoi en cassation que si elle ne satisfait pas, en la forme, aux conditions essentielles de son existence légale."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R40-38-7",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier des empreintes : accès et destinataires.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : besoin d'en connaître"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-38-8",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier des empreintes : consultation par des services étrangers dans le cadre européen ou d'engagements à protection suffisante.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : protection suffisante exigée"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-38-9",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Fichier des empreintes : journalisation trois ans.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-38-10",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Fichier des empreintes : contrôle du procureur général de Lyon et de la CNIL.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : contrôle d'un magistrat"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-38-11",
+      "principe": "P23",
+      "motif": "Accès et destinataires gardés. Renvois aux anciens 28-1, 28-2 et 21-3 écrits sur leurs titres et sur L2225-2.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accès limité au besoin d'en connaître, résultats limités aux procédures des demandeurs",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Fichier des empreintes : droits des personnes. Le second alinéa du I n'a pas de verbe (« Les droits d'accès [...] et aux articles 49 à 51, de la loi. ») : il est complété sur le modèle du II, qui désigne le chef du service national de police scientifique, à confirmer au décret de coordination. « des articles 56 » corrigé.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : droits d'accès et de rectification rendus exerçables",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "et des articles 56 de la loi",
-          "nouveau": "et de l'article 56 de la loi"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "et aux articles 49 à 51, de la loi.",
-          "nouveau": "et aux articles 49 à 51 de la loi du 6 janvier 1978 précitée s'exercent auprès du chef du service national de police scientifique."
+          "op": "rediger",
+          "nouveau": "Ont accès, à raison de leurs attributions et dans la limite du besoin d'en connaître, à tout ou partie des données des articles R. 40-38-2 et R. 40-38-3 :\n1° Les personnels de la police et de la gendarmerie nationales individuellement désignés et dûment habilités, affectés dans un service chargé d'une mission de police judiciaire et spécialement chargés du fichier, pour consulter, alimenter et identifier.\n2° Les personnels de la police et de la gendarmerie nationales, les officiers de douane judiciaire et les officiers fiscaux judiciaires individuellement désignés et habilités, pour consulter et alimenter.\n3° Le magistrat chargé du casier judiciaire national automatisé et les agents qu'il habilite.\nPeuvent en être destinataires, dans les mêmes limites :\n1° Les officiers et agents de police judiciaire de la police ou de la gendarmerie nationales, les officiers de douane judiciaire et les officiers fiscaux judiciaires, pour les seuls résultats des identifications qu'ils ont demandées pour les besoins exclusifs des procédures judiciaires dont ils sont saisis, et sous leur contrôle les assistants d'enquête, pour la seule mission du 3° de l'article L. 2225-2.\n2° Les personnels de la police ou de la gendarmerie nationales, pour les seuls résultats des identifications qu'ils ont demandées aux fins extrajudiciaires de l'article R. 40-38-1, pour les besoins exclusifs des procédures dont ils sont saisis.\n3° Les personnels de la police et de la gendarmerie nationales chargés de la mise à jour du traitement d'antécédents judiciaires."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R40-39",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Logiciels de rapprochement : habilitations. Renvoi à l'ancien 230-25 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : habilitation individuelle"
+      "num": "R40-38-8",
+      "principe": "P23",
+      "motif": "Consultation étrangère dans le cadre européen ou d'engagements à protection suffisante : gardée.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : niveau de protection suffisant exigé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Selon l'article L. 235-1 du code de la sécurité intérieure, les empreintes et informations du fichier, sauf celles des 8° et 9° de l'article R. 40-38-2, peuvent être consultées aux fins de comparaison par les agents des organismes de coopération internationale en matière de police judiciaire ou des services de police ou de justice d'États étrangers, aux fins et dans les conditions de la décision 2008/615/JAI du Conseil du 23 juin 2008, de tout acte pris en application du titre V de la troisième partie du traité sur le fonctionnement de l'Union européenne qui poursuit des buts analogues, ou de tout engagement qui lie la France à des organismes internationaux ou à des États étrangers assurant un niveau de protection suffisant de la vie privée, des libertés et des droits fondamentaux au sens des articles 112 à 114 de la loi n° 78-17 du 6 janvier 1978."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R40-38-10",
+      "principe": "P22",
+      "motif": "Contrôle du procureur général de Lyon : gardé.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : contrôle d'un magistrat gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le fichier est placé sous le contrôle du procureur général près la cour d'appel de Lyon. Il dispose d'un accès permanent au fichier et à ses locaux. Le service gestionnaire lui adresse un rapport annuel d'activité et, sur sa demande, toutes informations. Il peut ordonner toute mesure nécessaire à son contrôle, notamment des saisies ou copies d'informations et l'effacement d'enregistrements illicites. Il adresse un rapport annuel au ministre de la justice, au ministre de l'intérieur et à la Commission nationale de l'informatique et des libertés. Ses pouvoirs s'exercent sans préjudice du contrôle de la Commission selon l'article 19 de la loi n° 78-17 du 6 janvier 1978."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R40-38-11",
+      "principe": "P13",
+      "motif": "Droits des personnes gardés (passe 2), fins de la restriction gardées.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : restrictions bornées par l'article 107, recours à la CNIL gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour les données collectées hors procédure judiciaire, le droit d'opposition ne s'applique pas, en application de l'article 23 du règlement (UE) 2016/679 du 27 avril 2016 et de l'article 56 de la loi n° 78-17 du 6 janvier 1978, et les droits d'accès, de rectification et de limitation des articles 15, 16 et 18 de ce règlement et 49 à 51 de cette loi s'exercent auprès du chef du service national de police scientifique.\nPour les données collectées dans une procédure judiciaire, le droit d'opposition de l'article 110 de la même loi ne s'applique pas, et les droits d'accès, de rectification et de limitation de ses articles 105 et 106 s'exercent auprès du même chef de service. Pour éviter de gêner des enquêtes, des recherches ou des procédures administratives ou judiciaires, ou de nuire à la prévention ou à la détection d'infractions pénales, aux enquêtes ou aux poursuites en la matière ou à l'exécution de sanctions pénales, les droits d'accès et de rectification peuvent être restreints selon les 2° et 3° du II et le III de son article 107. La personne exerce alors ses droits auprès de la Commission nationale de l'informatique et des libertés selon son article 108."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-40",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Logiciels de rapprochement : autorisés par le magistrat pour chaque procédure, réputés autorisés en flagrance sauf décision contraire, rapport joint.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : contrôle du magistrat sur chaque procédure"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-41",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Logiciels de rapprochement : magistrat de contrôle et rapport annuel.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : contrôle d'un magistrat"
+      "principe": "P23",
+      "motif": "Autorisation du magistrat pour chaque procédure, mention, rapport : gardés. Renvoi à l'ancien 230-20 écrit sur L3575-1.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : autorisation du magistrat gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La mise en œuvre d'un logiciel de rapprochement judiciaire prévu à l'article L. 3575-1 est autorisée, pour chaque procédure qu'il contrôle, par le magistrat saisi de l'enquête ou chargé de l'instruction. En enquête de flagrance, elle est réputée autorisée sauf décision contraire du procureur de la République. Le recours au logiciel et l'autorisation sont mentionnés en procédure. À la clôture de l'enquête, l'exploitation donne lieu à un rapport joint à la procédure, accompagné à la demande du magistrat d'une copie informatique des données exploitées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-42",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme nationale des interceptions judiciaires : création, sous la responsabilité du ministère de la justice.",
-      "ligne_rouge": "art. 66 C examiné : l'article organise un outil, il ne prive personne de liberté ; vie privée (art. 2 DDHC) examinée : interceptions sous contrôle judiciaire"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-43",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : finalités et destinataires.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : finalités fermées"
+      "principe": "P20",
+      "motif": "La loi crée la plate-forme et fixe ses finalités (L1614-1, pièce du lot p291) : le décret garde la responsabilité du secrétaire général et les destinataires (R40-43).",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : destinataires limités, mot pour mot quant au fond",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La plate-forme nationale des interceptions judiciaires prévue à l'article L. 1614-1 est placée sous la responsabilité du secrétaire général du ministère de la justice. Elle met les informations, données et contenus de communication de l'article R. 40-43-1 à la disposition :\n1° Des magistrats, des officiers et agents de police judiciaire de la gendarmerie et de la police nationales qui les secondent, et des officiers de douane judiciaire et des officiers fiscaux judiciaires.\n2° Des agents des douanes habilités par le ministre chargé des douanes selon l'article 67 bis-2 du code des douanes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-43-1",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : contenus et données mis à disposition, par renvoi aux mesures autorisées par la loi.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : seules les mesures autorisées par le juge ou la loi"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-43-2",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : sonorisations.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : mesure autorisée par le juge"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-44",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : données sensibles seulement si elles apparaissent dans les contenus.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : données sensibles bornées"
+      "principe": "P23",
+      "motif": "Contenus et données mis à disposition (R40-43-2) et données sensibles (R40-44) en un article. Les anciens 60-1, 60-2, 74-2, 77-1-1, 77-1-2, 80-4, 99-3, 99-4, 100 à 100-8, 230-32 à 230-44, 706-95, 706-96 à 706-98 et 709-1-3 sont écrits sur leurs chapitres de 2029.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : aucune mesure ajoutée, données sensibles seulement si elles figurent dans les contenus",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sont mis à disposition, sauf impossibilité technique :\n1° Des personnes du 1° de l'article R. 40-42, le contenu des communications interceptées selon le chapitre 2 du titre V du livre V de la troisième partie ou l'article L. 5123-1, les données et informations communiquées sur réquisition selon le chapitre 3 du titre Ier du même livre, les données de géolocalisation obtenues selon le chapitre 3 du titre V du même livre ou l'article L. 5123-1, et les données et informations obtenues par la captation, la fixation, la transmission ou l'enregistrement de paroles selon l'article L. 3555-1.\n2° Des personnes du 2° du même article, les données et informations communiquées selon l'article 67 bis-2 du code des douanes.\nLes données mentionnées au I de l'article 6 de la loi n° 78-17 du 6 janvier 1978 ne sont enregistrées, conservées et traitées que si elles apparaissent dans ces informations, données et contenus, pour les seules fins du traitement et dans la limite des nécessités des missions qui les ont fait collecter."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-45",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Plate-forme : transmission électronique des réquisitions aux opérateurs.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Transmission des réquisitions aux opérateurs : gardée. Renvois aux anciens 628-9 et 706 écrits sur L2172-1, et à R15-33-67 à R15-33-75 sur R15-33-68 à R15-33-74 (lot p326).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Selon les articles R. 15-33-68 à R. 15-33-74, la plate-forme transmet aux opérateurs du 1° de l'article R. 15-33-68 les réquisitions des magistrats, des officiers et agents de police judiciaire de la gendarmerie et de la police nationales, des officiers de douane judiciaire, des officiers fiscaux judiciaires et des assistants spécialisés mentionnés à l'article L. 2172-1, préalablement authentifiés par leur administration, ainsi que celles des agents des douanes habilités selon l'article 67 bis-2 du code des douanes. Elle reçoit les réponses et les met à la disposition de leurs auteurs."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-46",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : données conservées par type de mesure.",
-      "ligne_rouge": "art. 66 C examiné : l'article ne touche pas la privation de liberté ; vie privée (art. 2 DDHC) examinée : liste fermée"
+      "principe": "P23",
+      "motif": "Données conservées : toutes gardées, les listes identiques des interceptions, réquisitions et captations fondues avec leurs écarts. Renvois aux anciens 100-5 et 706-98-15 écrits sur L3551-4.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : aucune donnée ajoutée, commentaires libres bornés, accès réservé aux utilisateurs du dossier",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent être conservées, dans la mesure nécessaire aux finalités de l'article L. 1614-1 :\n1° Pour les interceptions et les captations de paroles mentionnées à l'article R. 40-43-1 et pour les données obtenues selon l'article L. 3513-10 : l'identité (nom, nom marital, nom d'usage, prénoms), le surnom, l'alias, la date et le lieu de naissance, le sexe, la filiation, la situation familiale et la nationalité de la personne physique, et la dénomination, l'enseigne commerciale, les représentants légaux, les dirigeants et le numéro d'inscription au registre du commerce et des sociétés de la personne morale, émettrices ou destinataires des communications ou des paroles, l'adresse ou toute information qui identifie le domicile, le lieu ou l'établissement, les éléments d'identification de la liaison et les données relatives aux outils de communication, les numéros de téléphone fixes et mobiles, personnels et professionnels, les données techniques de localisation de la communication, de l'équipement terminal ou du dispositif de sonorisation, les données de trafic et, sauf pour les captations de paroles, l'adresse électronique ou les données relatives aux services demandés ou utilisés et les données de facturation et de paiement.\n2° Pour les interceptions et les captations de paroles, en outre, le contenu des communications ou les paroles enregistrées et les informations qui leur sont liées, le cas échéant transcrites selon l'article L. 3551-4, tout élément sonore utile à la manifestation de la vérité et les empreintes vocales (gabarits) créées à partir de ces enregistrements.\n3° Pour la géolocalisation en temps réel, y compris à l'occasion d'une sonorisation, les données de signalisation générées par l'usage du terminal et leur mise à jour sur sollicitation du réseau, transmises en temps réel.\n4° Pour l'utilisation et la sécurité de la plate-forme, l'identité, les grades, les fonctions et le numéro de référentiel des identités et de l'organisation ou le matricule de l'utilisateur, son service ou sa juridiction et leurs coordonnées postales, ses numéros de téléphone et de télécopie et son adresse électronique.\nSont aussi enregistrées les informations sur les faits, les lieux, les dates et la qualification des infractions, et les commentaires libres des personnes mentionnées à l'article R. 40-42 saisies du dossier. Ces commentaires ne contiennent que des données, y compris celles de l'article 6 de la loi n° 78-17 du 6 janvier 1978, strictement nécessaires, adéquates et non excessives au regard des finalités. Seuls les utilisateurs chargés du dossier, mentionnés aux 1° à 3° de l'article R. 40-47, y accèdent."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-47",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : accès gradués, scellés réservés au magistrat ou sur son autorisation.",
-      "ligne_rouge": "art. 66 C examiné : aucune privation de liberté ; vie privée (art. 2 DDHC) examinée : accès aux scellés sur autorisation du magistrat"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-48",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Plate-forme : identité des interprètes conservée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Accès gradués gardés en dix points, identité des interprètes (R40-48) reprise. Renvois aux anciens 16, 20, 28-1, 28-2 et 230-2 écrits sur les titres et sur L3544-5.",
+      "ligne_rouge": "art. 66 C et art. 2 DDHC examinés : scellés réservés au magistrat ou à son autorisation, accès techniques limités dans le temps et autorisés, information du magistrat et de la personnalité qualifiée gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Accèdent aux données, informations et contenus de communication enregistrés dans la plate-forme :\n1° Les magistrats, pour les procédures dont ils sont saisis.\n2° Pour les procédures dont ils sont saisis, les officiers et agents de police judiciaire de la gendarmerie et de la police nationales, les officiers de douane judiciaire et les officiers fiscaux judiciaires, spécialement habilités et individuellement désignés par leur supérieur hiérarchique, à l'exception des données placées sous scellés, sauf autorisation du magistrat saisi.\n3° Les greffiers individuellement désignés par le directeur de greffe, pour les procédures des magistrats qu'ils assistent.\n4° Les assistants spécialisés, sur autorisation du magistrat, pour les procédures des magistrats qu'ils assistent.\n5° Les agents des douanes habilités par le ministre chargé des douanes selon l'article 67 bis-2 du code des douanes et individuellement désignés par leur supérieur hiérarchique, pour les missions de cet article.\n6° Les interprètes-traducteurs, pour une durée limitée et sur autorisation du magistrat, de l'officier de police judiciaire ou de l'agent habilité à effectuer des enquêtes judiciaires, aux données, informations et contenus qu'il désigne. Leur identité et leur qualité sont conservées par le traitement.\n7° Les enquêteurs d'un État qui exécutent une décision d'enquête européenne ou une demande formée selon l'article 18 de la convention du 29 mai 2000 relative à l'entraide judiciaire en matière pénale entre les États membres de l'Union européenne, sur autorisation du magistrat saisi et pour une durée limitée, aux données, informations et contenus qu'il désigne.\n8° L'organisme technique de l'article L. 3544-5, sur autorisation du magistrat saisi, aux données et contenus chiffrés et aux données utiles au déchiffrement que lui désigne l'enquêteur.\n9° Les magistrats, fonctionnaires, militaires de la gendarmerie et agents du ministère de la justice chargés du fonctionnement, de la maintenance et de l'entretien de la plate-forme, individuellement désignés par le secrétaire général du ministère, pour une durée limitée et sur autorisation expresse du magistrat saisi, notamment pour résoudre les difficultés techniques des utilisateurs des 1° à 5°.\n10° Les agents de l'Agence nationale des techniques d'enquêtes numériques judiciaires chargés du suivi des frais de justice, individuellement désignés par le secrétaire général, aux seules identités et coordonnées des utilisateurs qui ont demandé des prestations, pour contrôler le paiement des réquisitions.\nLes prestataires des tâches détachables des finalités judiciaires n'accèdent aux données qu'en cas de difficultés techniques exceptionnelles, ponctuellement et pour la durée nécessaire, sur autorisation expresse du directeur de l'Agence ou de son délégué donnée après autorisation du magistrat saisi.\nEn cas d'impossibilité absolue d'identifier le magistrat saisi sans accéder aux données, le directeur de l'Agence ou un magistrat qui y est affecté peut autoriser l'accès d'un requérant des 1° à 3°. Le magistrat saisi en est informé sans délai par l'accédant, et la personnalité qualifiée de l'article R. 40-53 par le directeur."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-49",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : scellés jusqu'à la prescription, effacement des données inutiles.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : effacement à la clôture"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-50",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Plate-forme : journalisation trois ans.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Scellés jusqu'à la prescription (L3551-4, anciens 706-95-18 et 706-95-19), effacement des données inutiles : gardés.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accès aux scellés réservé au magistrat",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les données des interceptions, des géolocalisations et des captations de paroles sont placées sous scellés et conservées dans la plate-forme jusqu'à l'expiration du délai de prescription de l'action publique, selon l'article L. 3551-4. Seuls le magistrat chargé de la procédure et les personnes qu'il autorise y accèdent. Les données obtenues sur réquisition et les informations de reconnaissance vocale du locuteur sont conservées de même lorsqu'elles sont utiles à la manifestation de la vérité, et sinon effacées à la clôture des opérations requises."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-51",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Plate-forme : agence dirigée par un magistrat, garde des scellés numériques.",
-      "ligne_rouge": "art. 66 C examiné : aucune privation de liberté ; contrôle d'un magistrat sur les scellés"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-52",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Plate-forme : habilitation au niveau Secret et secret professionnel des opérateurs. C'est l'exception de la sécurité nationale et la protection de la vie privée des personnes interceptées, non un secret de la procédure.",
-      "ligne_rouge": "art. 66 C examiné : aucune privation de liberté ; vie privée (art. 2 DDHC) examinée : secret des opérateurs"
+      "principe": "P23",
+      "motif": "Agence dirigée par un magistrat, scellés numériques, habilitation Secret et secret professionnel (R40-52) en un article.",
+      "ligne_rouge": "art. 66 C et art. 2 DDHC examinés : magistrat à la tête de l'Agence, secret professionnel sanctionné par 226-13 gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La plate-forme est mise en œuvre par l'Agence nationale des techniques d'enquêtes numériques judiciaires, service à compétence nationale dirigé par un magistrat de l'ordre judiciaire et rattaché au secrétaire général du ministère de la justice. L'Agence constitue et conserve les données placées sous scellés. Le magistrat ou le greffier lui transmet les demandes de reproduction de ces scellés.\nLes magistrats, fonctionnaires et agents chargés du fonctionnement, de la maintenance et de l'entretien de la plate-forme, et les prestataires des tâches détachables de ses finalités judiciaires, sont habilités au niveau Secret. Ils sont soumis au secret professionnel dans les conditions et sous les peines de l'article 226-13 du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-53",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Plate-forme : personnalité qualifiée et comité de contrôle, rapport annuel.",
-      "ligne_rouge": "art. 66 C examiné : aucune privation de liberté ; contrôle indépendant"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-54",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Plate-forme : comité avec un député et un sénateur.",
-      "ligne_rouge": "aucune"
+      "motif": "Personnalité qualifiée et comité (R40-54) : la loi les crée (L1614-3, ancien 230-45), le décret garde durée, pouvoirs, accès, rapport et composition.",
+      "ligne_rouge": "art. 66 C examiné : contrôle indépendant de la plate-forme gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personnalité qualifiée prévue à l'article L. 1614-3 est désignée pour cinq ans non renouvelables par arrêté du ministre de la justice. L'Agence lui adresse, sur sa demande, toutes informations sur le traitement. Elle peut ordonner toute mesure nécessaire à son contrôle. Elle et les membres du comité ont un accès permanent aux lieux où se trouve la plate-forme. Elle adresse un rapport annuel au ministre de la justice. Ses pouvoirs s'exercent sans préjudice du contrôle de la Commission nationale de l'informatique et des libertés selon les articles 19 et 108 de la loi n° 78-17 du 6 janvier 1978.\nLe comité comprend un sénateur et un député, choisis par le président de leur assemblée sur proposition de sa commission compétente, après chaque renouvellement partiel du Sénat ou pour la durée de la législature, un magistrat du siège honoraire de la Cour de cassation et deux personnalités qualifiées, l'une proposée par le ministre chargé des communications électroniques, l'autre par le ministre de l'intérieur. Les trois derniers sont désignés pour cinq ans non renouvelables par arrêté du ministre de la justice."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-55",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : droits des personnes régis par l'accès au dossier pénal.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : accès par le dossier"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-56",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Plate-forme : pas de droit d'opposition.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la loi de 1978 permet de l'écarter pour un traitement judiciaire"
+      "principe": "P23",
+      "motif": "Droits des personnes : une règle pour la plate-forme et les caméras aéroportées (R40-56, R40-63).",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accès selon les règles du dossier pénal, droits sans restriction des utilisateurs gardés",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Selon l'article 111 de la loi n° 78-17 du 6 janvier 1978, l'accès aux données de la plate-forme et du traitement de l'article R. 40-57, leur rectification et leur effacement sont régis par les règles d'accès au dossier de la procédure pénale. Les utilisateurs mentionnés aux articles R. 40-47 et R. 40-60 exercent ces droits sans restriction, directement auprès du directeur de l'Agence nationale des techniques d'enquêtes numériques judiciaires pour la plate-forme, de la direction des affaires criminelles et des grâces pour l'autre traitement. Le droit d'opposition prévu à l'article 110 de la même loi ne s'applique à aucun de ces traitements."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-57",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Caméras aéroportées : traitement dans les conditions de la loi. Renvois aux anciens 230-47 à 230-53 et 706-96 à 706-98 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : conditions fixées par la loi"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-58",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Caméras aéroportées : images sans le son, données limitées.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : sons exclus"
+      "principe": "P23",
+      "motif": "Caméras aéroportées : création et données (R40-58) en un article. Les finalités sont à la loi (L3554-1). Renvois aux anciens 230-47 à 230-53 et 706-96 à 706-98 écrits sur L3554-1 et L3555-1.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : images sans le son, interdiction de sélectionner une catégorie de personnes gardées",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministère de la justice est autorisé à traiter les données des caméras aéroportées utilisées selon les articles L. 3554-1 et L. 3555-1, pour les finalités de ces articles. Le traitement porte sur les images, à l'exclusion des sons, sur le jour, la plage horaire et le lieu ou la zone de l'enregistrement, et sur le nom, le prénom ou le numéro d'identification administrative du télépilote et de l'opérateur et, le cas échéant, le numéro d'enregistrement de l'aéronef. Ces données peuvent faire apparaître des données mentionnées au I de l'article 6 de la loi n° 78-17 du 6 janvier 1978. Il est interdit de sélectionner une catégorie particulière de personnes à partir de ces seules données."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-59",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Caméras aéroportées : intégrité des enregistrements.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Intégrité et conservation (R40-61) : un mois au plus, puis scellé jusqu'à la prescription (L3551-4, anciens 230-52, 230-53, 706-95-18, 706-95-19).",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : durée et scellé gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les caméras sont équipées de dispositifs qui garantissent l'intégrité des enregistrements jusqu'à leur effacement. À la fin de la captation, les données sont conservées sur un support informatique sécurisé, sous la responsabilité de l'officier de police judiciaire, un mois au plus ou jusqu'à la clôture des investigations si elle intervient avant. Elles sont alors placées sous scellé fermé et effacées du support, puis conservées jusqu'à l'expiration du délai de prescription de l'action publique, selon l'article L. 3551-4."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-60",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Caméras aéroportées : accès et destinataires, avocats compris.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : les avocats sont destinataires"
+      "principe": "P23",
+      "motif": "Accès et destinataires gardés. Renvois aux anciens 97, 308 et 163 écrits sur L3532-5 et L3541-2.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accès limité aux procédures dont les personnes sont saisies",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Accèdent seuls au traitement, pour les procédures dont ils sont saisis, les magistrats, les personnels des services judiciaires, les officiers de police judiciaire et, sous leur responsabilité, les agents de police judiciaire, les télépilotes et les opérateurs.\nPeuvent être destinataires des données, dans la limite du besoin d'en connaître, les accédants aux traitements d'aide à la rédaction des procédures du ministère de l'intérieur et au traitement « dossier pénal numérique », les avocats et les parties autorisés à assister à l'ouverture des scellés, au cours de l'information selon l'article L. 3532-5 ou devant la juridiction de jugement, et les experts commis par un magistrat selon l'article L. 3541-2."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R40-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Origine des données et données sensibles : R40-23.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-23"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-25",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Catégories de personnes : loi (L3573-3) ; liste des contraventions : R40-23.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-23"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-34",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Compte rendu annuel à la CNIL : dernier alinéa de R40-32.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-32"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-36",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Demandes de rectification ou d'effacement des traitements d'analyse sérielle : R40-31.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-31"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-37",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Magistrat de contrôle des traitements d'analyse sérielle : R40-32. D44-5 est à coordonner.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-32"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-38-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Journalisation du fichier des empreintes : R40-30, trois ans.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-30"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-39",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Habilitations des logiciels de rapprochement : R40-35. Renvoi à l'ancien 230-25 sans objet.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-35"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-41",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Magistrat de contrôle des logiciels de rapprochement : R40-32. D44-5 est à coordonner.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-32"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-43",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Finalités (loi, L1614-1) et destinataires : R40-42.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-42"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-43-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Captations de paroles : 1° de R40-43-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-43-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-44",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Données sensibles : dernier alinéa de R40-43-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-43-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-48",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Identité des interprètes : 6° de R40-47.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-47"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-50",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Journalisation de la plate-forme : R40-30, trois ans.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-30"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-52",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Habilitation Secret et secret professionnel : second alinéa de R40-51.",
+      "ligne_rouge": "art. 66 C et art. 2 DDHC examinés : habilitation et secret professionnel repris à R40-51",
+      "vers": "R40-51"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-54",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Composition du comité : second alinéa de R40-53.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-53"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-56",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pas de droit d'opposition : R40-55.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-55"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-58",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Données des caméras : R40-57.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-57"
     },
     {
       "code": "cpp",
       "num": "R40-61",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Caméras aéroportées : un mois au plus, puis scellés jusqu'à la prescription.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : durée bornée"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Conservation des images : R40-59.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-59"
     },
     {
       "code": "cpp",
       "num": "R40-62",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Caméras aéroportées : journalisation trois ans.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Journalisation des caméras : R40-30, trois ans.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-30"
     },
     {
       "code": "cpp",
       "num": "R40-63",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Caméras aéroportées : droits des personnes.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : accès par le dossier"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Droits des personnes : R40-55.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-55"
     }
-  ]
+  ],
+  "passe": 3
 }
