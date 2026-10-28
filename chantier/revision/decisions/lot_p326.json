@@ -9,153 +9,212 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "R15-33-67",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Objet de la section : réquisitions de données par voie électronique en enquête et en instruction. Renvois aux anciens 60-2, 77-1-2 et 99-4 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "R15-33-68",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Catégories d'organismes requis par voie électronique : liste fermée, qui borne l'atteinte à la vie privée.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la liste borne les détenteurs de données que l'enquêteur peut requérir"
+      "principe": "P23",
+      "motif": "Objet de la section (R15-33-67) et liste fermée des organismes requis en un article. Renvoi aux anciens 60-2, 77-1-2 et 99-4 écrit sur L3513-10 (pièce du lot p181), qui couvre désormais l'enquête et l'instruction.",
+      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : la liste reste fermée, mot pour mot",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les demandes de mise à disposition de données par voie électronique prévues à l'article L. 3513-10 peuvent être adressées aux organismes publics et personnes morales de droit privé des catégories suivantes :\n1° Les opérateurs de communications électroniques définis à l'article L. 34-1 du code des postes et des communications électroniques et les prestataires mentionnés par la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique.\n2° Les établissements financiers, bancaires et de crédit.\n3° Le Groupement des cartes bancaires « CB ».\n4° Les organismes sociaux mentionnés au code de la sécurité sociale et au code rural et de la pêche maritime.\n5° Les entreprises d'assurance.\n6° Les organismes publics ou privés gestionnaires de logements.\n7° Les services des administrations publiques gestionnaires de fichiers administratifs, notamment fiscaux et bancaires.\n8° Les entreprises de transport collectif de voyageurs.\n9° Les opérateurs de distribution de l'énergie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-33-69",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Mise à disposition par fichier ou accès temporaire et limité, selon un protocole : numérique, borné.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : accès temporaire et limité aux seules informations demandées"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-33-70",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Seuls des OPJ expressément habilités procèdent aux demandes : traçabilité.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : l'accès est nominatif"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-33-71",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Procès-verbal de chaque demande, accord du procureur en enquête préliminaire recueilli par tout moyen : la loi l'exige, le décret le trace.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : accord préalable du magistrat en préliminaire, tenu"
+      "principe": "P23",
+      "motif": "Habilitation des officiers, procès-verbal, autorisation du procureur et modes de mise à disposition en un article (R15-33-69 à R15-33-71). L'autorisation suit la condition de L3513-10 (hors flagrance).",
+      "ligne_rouge": "art. 2 DDHC examiné : officier habilité, procès-verbal et autorisation du procureur gardés",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Seuls procèdent à ces demandes les officiers de police judiciaire affectés dans un service ou une unité exerçant des missions de police judiciaire et expressément habilités à cette fin par son responsable. Chaque demande fait l'objet d'un procès-verbal qui indique son destinataire et la nature des informations demandées. Lorsque l'article L. 3513-10 exige l'autorisation du procureur de la République, le procès-verbal la mentionne. Elle peut être donnée par tout moyen.\nLes informations sont mises à la disposition de l'officier dans un fichier spécifique ou par un accès temporaire et limité à la base de données de l'organisme, selon le protocole prévu à l'article R. 15-33-72."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-33-72",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Protocole technique : sécurité, traçabilité, exclusion des secrets protégés par la loi.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : le secret médical et les secrets légaux restent hors d'atteinte"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-33-73",
+      "principe": "P23",
+      "motif": "Protocole et ses six contenus, regroupés en quatre ; copie à la CNIL (R15-33-73) reprise. Les agents des anciens 28-1 et 28-2 sont nommés par leur titre de L2242-2.",
+      "ligne_rouge": "art. 2 DDHC examiné : secret médical et limitation aux seules informations demandées gardés",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Copie du protocole à la CNIL : gardée, elle permet le contrôle. Les « formalités » préalables de la loi de 1978 auxquelles elle était attachée ont disparu en 2018 : la copie s'adresse directement.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la CNIL reçoit le protocole",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": " à l'occasion de l'accomplissement des formalités prévues par la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.",
-          "nouveau": "."
+          "op": "rediger",
+          "nouveau": "Les modalités techniques d'interrogation et de transmission sont fixées par un protocole passé par le ministre de la justice et, selon le cas, le ministre de l'intérieur ou le ministre chargé du budget avec chaque organisme mentionné à l'article R. 15-33-68. Il précise les traitements intéressés, la nature des données mises à disposition, les modalités de la consultation et du transfert électronique vers le service, la sécurisation de la liaison, qui garantit l'origine, la destination, l'intégrité et la confidentialité des données, le suivi des demandes et des consultations avec l'identification de l'officier, et les garanties qui limitent la consultation aux seules informations demandées et empêchent tout accès à une information protégée par un secret prévu par la loi, notamment le secret médical, hors les cas où ce secret n'est pas opposable à l'autorité judiciaire.\nLe protocole est porté à la connaissance des officiers habilités à procéder aux demandes, officiers de douane judiciaire et officiers fiscaux judiciaires compris. L'organisme en adresse copie à la Commission nationale de l'informatique et des libertés."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R15-33-74",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Réception constatée par procès-verbal, copie sous scellés : gardées. La sauvegarde numérique intégrale devient la règle, l'impression papier l'exception.",
-      "ligne_rouge": "aucune",
+      "motif": "Réception constatée, sauvegarde numérique par défaut (passe 2), scellé, procès-verbal unique ; interdiction de tout autre traitement (R15-33-75) reprise.",
+      "ligne_rouge": "art. 2 DDHC examiné : finalité bornée aux procédures pénales gardée",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "procède soit à leur impression sur un document papier, soit à leur sauvegarde intégrale sur un support numérique conforme aux standards techniques en vigueur au moment de la transmission.",
-          "nouveau": "procède à leur sauvegarde intégrale sur un support numérique conforme aux standards techniques en vigueur au moment de la transmission ou, à défaut, à leur impression sur un document papier."
+          "op": "rediger",
+          "nouveau": "L'officier de police judiciaire constate la réception des informations par procès-verbal. Il les sauvegarde intégralement sur un support numérique conforme aux standards techniques en vigueur ou, à défaut, les imprime. Le support ou le document est annexé au procès-verbal, et une copie du support numérique est placée sous scellés. Un procès-verbal unique peut constater la demande et la réception.\nLes données à caractère personnel ainsi recueillies ne font l'objet d'aucun traitement automatisé autre que ceux nécessaires à leur exploitation dans des procédures pénales."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R15-33-75",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Interdiction de tout autre traitement automatisé des données recueillies : finalité bornée.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : finalité limitée aux procédures pénales"
-    },
-    {
-      "code": "cpp",
       "num": "R15-33-76",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Convocations et citations remises par le service à l'enquêteur domicilié à son adresse professionnelle (ancien 62-1), qui peut la garder comme témoin. L'article écarte déjà la nullité : c'est ce que vise P11, la proposition de réécriture tombe. Renvoi à l'ancien 62-1 à coordonner.",
-      "ligne_rouge": "art. 16 et art. 8 DDHC (signaux de passe 1) examinés : la domiciliation protège l'enquêteur témoin sans priver la défense de le faire citer"
+      "principe": "P23",
+      "motif": "Convocations et citations des enquêteurs domiciliés à leur service : gardées en trois phrases. Renvoi à l'ancien 62-1 écrit sur L2211-4, qui couvre les personnels des anciens articles 16 à 29.",
+      "ligne_rouge": "art. 16 DDHC examiné : la règle ne touche pas les droits de la défense, elle sert la remise des actes. L'absence de nullité est gardée mot pour mot",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "À la demande des seules autorités judiciaires, les services de police et les unités de gendarmerie délivrent dans les meilleurs délais les convocations et remettent les citations destinées aux personnes qui ont déclaré comme domicile l'adresse de leur service selon l'article L. 2211-4. Entendues comme témoins devant une juridiction d'instruction ou de jugement, ces personnes peuvent continuer de déclarer cette adresse. Le présent article n'est pas prescrit à peine de nullité."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-33-77",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Registre dématérialisé des gardes à vue et rétentions : il permet de contrôler la régularité de chaque privation de liberté, pendant et après. Renvois aux anciens 78-3, 78-3-1, 125, 133, 141-4, 695-27, 696-10, 709-1-1, 716-5 et 728-64 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : le registre sert le contrôle du magistrat sur la mesure"
+      "principe": "P23",
+      "motif": "Registre dématérialisé des gardes à vue : création et finalités gardées. Les anciens 78-3, 78-3-1, 125, 133, 141-4, 695-27, 696-10, 709-1-1, 716-5 et 728-64 sont écrits sur leurs articles de 2029 (pièces des lots p172, p179, p189, p001, p202, p204, p207).",
+      "ligne_rouge": "art. 66 C examiné : le registre sert au contrôle de la régularité de chaque privation de liberté par le magistrat, pendant et après la mesure. Toutes les mesures enregistrées restent nommées, aucune n'est ajoutée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministre de l'intérieur (direction générale de la police nationale, direction générale de la gendarmerie nationale et préfecture de police) est autorisé à mettre en œuvre un traitement de données à caractère personnel dénommé « Informatisation de la gestion des gardes à vue et autres mesures privatives de liberté ». Il enregistre les mesures de garde à vue, de rétention judiciaire et de retenue administrative ou judiciaire, pour conduire et gérer leur déroulement dans les services et unités, les suivre et contrôler leur régularité pendant et après leur mise en œuvre.\nLes rétentions et retenues sont celles des articles L. 3225-4, L. 3225-9, L. 3444-10, L. 3444-17, L. 3623-2, L. 5122-2, L. 6133-10, L. 6151-31 et L. 6232-12, de l'article L. 413-1 du code de la justice pénale des mineurs, de l'article L. 3341-1 du code de la santé publique et des articles L. 813-1 et L. 813-2 du code de l'entrée et du séjour des étrangers et du droit d'asile."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-33-78",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Données du registre : heures, droits exercés, avocat, médecin, interprète, mesures de sécurité. Elles prouvent le respect des droits. La proposition de passe 1 (notification) est sans objet.",
-      "ligne_rouge": "art. 66 C examiné : chaque prolongation et chaque droit sont tracés ; vie privée (art. 2 DDHC) examinée : interdiction de sélectionner une catégorie de personnes par des données sensibles"
+      "principe": "P23",
+      "motif": "Données du registre : toutes les catégories gardées, la liste se resserre en cinq rubriques et les quatre listes identiques des personnels en une.",
+      "ligne_rouge": "art. 66 C et art. 2 DDHC examinés : les données qui prouvent le respect des droits (avocat, médecin, interprète, avis, heures) restent toutes, l'interdiction de sélectionner une catégorie de personnes est gardée",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent être enregistrées les données suivantes :\n1° Sur la personne privée de liberté : noms, prénoms et alias, sexe, date et lieu de naissance, nationalités, filiation, profession, coordonnées téléphoniques, électroniques et postales, photographie, mesure de protection des majeurs, représentants légaux du mineur et personne ou service auquel il est confié, éléments objectifs sur sa dangerosité (comportement agressif, risque d'évasion), sa vulnérabilité (risque d'automutilation ou de suicide) et sa santé révélée ou portée à la connaissance du service (affection déclarée, traitement, prescription médicale).\n2° Sur les personnels de police et de gendarmerie : grade, nom, prénom, identifiants, unité, coordonnées et sexe de ceux qui interviennent dans la mesure, la surveillance, les mesures de sécurité ou la signalisation, et nom, prénom, identifiants et unité de ceux qui visionnent la vidéosurveillance, y compris en temps réel.\n3° Sur la mesure : service ou unité où elle s'effectue, type, raisons qui l'ont justifiée, circonstances de l'interpellation, qualification et date de l'infraction, service qui traite la procédure, cadre d'enquête, durée notifiée et prolongations, dates et heures du début, des prolongations avec ou sans présentation au magistrat, de la fin, des repos et repas, des transports et de leurs lieux, des auditions, confrontations, perquisitions et parades d'identification, des fouilles intégrales réalisées par l'officier de police judiciaire, des investigations corporelles qu'il a demandées et de la signalisation, contre-indications alimentaires, début, fin et durée du placement sous vidéosurveillance, numéros de la mesure au registre et de la procédure, suites, surveillance particulière, identité, fonctions et coordonnées des magistrats, identifiants et coordonnées des services intervenants.\n4° Sur les droits : date et heure de chaque demande ou refus d'exercer un droit et des avis, identité et coordonnées de l'avocat, dates, heures et durée des entretiens, identité, spécialité et coordonnées du médecin, date, lieu et heure de l'examen, avis du médecin sur la compatibilité de l'état de santé avec la mesure, suivi d'un traitement médical, identité de l'interprète, date et heure de sa présence, identité et coordonnées des personnes prévenues, contactées ou accompagnantes (proche, curateur, tuteur, mandataire spécial, employeur), avis aux autorités consulaires de la personne étrangère, modalités et durée de l'avis à un proche ou à l'employeur, identité, coordonnées et lien de la personne autorisée à communiquer avec la personne privée de liberté, dates, heures et durée de la communication ou de l'entretien.\n5° Les effets personnels écartés au début de la mesure et restitués à son issue, et les mesures de sécurité pratiquées sur la personne.\nCes données peuvent faire apparaître des données mentionnées au I de l'article 6 de la loi n° 78-17 du 6 janvier 1978. Il est interdit de sélectionner une catégorie particulière de personnes à partir de ces seules données."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-33-79",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Accès nominatif et limité au besoin d'en connaître, magistrats de contrôle compris.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : accès par habilitation individuelle"
+      "principe": "P23",
+      "motif": "Accès au registre gardé. Les autorités d'habilitation, identiques dans quatre traitements, sont écrites une fois à R40-35. Le II, déjà abrogé, tombe.",
+      "ligne_rouge": "art. 2 DDHC examiné : besoin d'en connaître, habilitation individuelle, accès des magistrats de contrôle gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ont accès à tout ou partie de ces données, à raison de leurs attributions et dans la limite du besoin d'en connaître :\n1° Les personnels de la police nationale et les militaires de la gendarmerie nationale qui interviennent dans la mesure, individuellement désignés et spécialement habilités selon l'article R. 40-35.\n2° Leurs supérieurs hiérarchiques, les personnels des états-majors des directions des services qui gèrent ces mesures, les groupes de commandement des échelons territoriaux et les brigades départementales de renseignements et d'investigations judiciaires.\n3° Les magistrats compétents pour contrôler ces mesures."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-33-80",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Conservation d'un an, puis neuf ans en accès restreint, effacement des vérifications sans suite : durée proportionnée.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : effacement des vérifications d'identité sans suite"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-33-81",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Journalisation des opérations, trois ans : traçabilité. Fusion avec R2-35 écartée : traitements distincts.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Conservation (un an, puis neuf en accès restreint, effacement des vérifications sans suite) et journalisation de trois ans (R15-33-81) en un article. Renvoi à l'ancien 78-3 écrit sur L3225-4.",
+      "ligne_rouge": "art. 2 DDHC examiné : durées et effacement gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les données sont conservées un an à compter de leur enregistrement, puis neuf ans accessibles aux seules personnes mentionnées aux 2° et 3° de l'article R. 15-33-79. Celles des personnes soumises à une vérification d'identité selon l'article L. 3225-4 ou à une vérification du droit de circulation ou de séjour selon l'article L. 813-1 du code de l'entrée et du séjour des étrangers et du droit d'asile sont effacées si la vérification n'est suivie d'aucune procédure d'enquête ou d'exécution adressée à l'autorité judiciaire.\nLes opérations de collecte, de modification, de consultation, de communication, d'interconnexion et d'effacement sont enregistrées. Les journaux de consultation et de communication établissent le motif, la date et l'heure, et identifient l'auteur et les destinataires. Ils sont conservés trois ans."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-33-82",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Droits d'accès et de rectification, restrictions pour les enquêtes, saisine de la CNIL : renvois à jour de la loi de 1978.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : droits exercés directement ou par la CNIL"
+      "principe": "P23",
+      "motif": "Droits des personnes gardés, renvois à la loi de 1978 à jour. Les fins de la restriction sont gardées (relecture : la limite d'une liberté ne se déclasse pas).",
+      "ligne_rouge": "art. 2 DDHC examiné : restrictions bornées par l'article 107, recours à la CNIL gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le droit d'opposition prévu à l'article 110 de la loi n° 78-17 du 6 janvier 1978 ne s'applique pas au traitement. Les droits d'accès, de rectification, d'effacement et à la limitation des articles 105 et 106 de la même loi s'exercent directement auprès de la direction générale de la police nationale, de la direction générale de la gendarmerie nationale ou de la préfecture de police. Pour éviter de gêner des enquêtes, des recherches ou des procédures administratives ou judiciaires, de nuire à la prévention ou à la détection d'infractions pénales, aux enquêtes ou aux poursuites en la matière ou à l'exécution de sanctions pénales, ou pour protéger la sécurité publique, ces droits peuvent être restreints selon les 2° et 3° du II et le III de l'article 107 de la même loi. La personne exerce alors ses droits auprès de la Commission nationale de l'informatique et des libertés selon l'article 108 de la même loi."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-33-83",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Examen médical de garde à vue par vidéotransmission, avec accord de la personne, attestation, examen physique si le médecin l'estime nécessaire : numérique, borné. Renvois aux anciens 63-2 et 63-3 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : le médecin se prononce sur l'aptitude au maintien en garde à vue, l'examen physique reste de droit sur avis du médecin ; CEDH art. 3 examiné : la personne peut refuser la visioconférence quand elle demande l'examen"
+      "principe": "P23",
+      "motif": "Examen médical à distance en prolongation de garde à vue : toutes les conditions gardées. Renvois aux anciens 63-2 et 63-3 écrits sur L3524-32, qui porte les exclusions et l'accord du demandeur (pièce du lot p182).",
+      "ligne_rouge": "art. 66 C et CEDH art. 3 examinés : exclusions, accord exprès ou absence d'opposition, mention émargée, examen physique sur avis du médecin ou en cas d'obstacle technique gardés",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque l'examen médical d'une personne gardée à vue est réalisé à distance selon l'article L. 3524-32, il se tient dans un local adapté, distinct de la cellule, par des moyens qui assurent la qualité, la confidentialité et la sécurité de l'examen, l'authentification du médecin et l'identification de la personne.\nL'officier de police judiciaire s'assure que la personne n'entre dans aucun des cas d'exclusion de l'article L. 3524-32. Il s'assure aussi qu'elle donne son accord exprès à l'examen à distance qu'elle a demandé ou qu'elle ne s'oppose pas à celui que l'officier ou le magistrat a demandé. Ces vérifications sont mentionnées au procès-verbal de déroulement de la garde à vue, émargé par la personne. L'autorisation du magistrat et l'accord exprès du demandeur peuvent être recueillis par tout moyen et sont mentionnés au dossier. Le recours à l'examen à distance est mentionné au procès-verbal de réquisition du médecin.\nLe médecin qui estime l'examen à distance inadapté atteste qu'un examen physique direct est nécessaire. Il remet à l'officier de police judiciaire une attestation de réalisation qui mentionne tout incident de transmission. Si un incident a empêché l'examen, l'officier peut demander un nouvel examen à distance dès que possible et, si l'obstacle technique persiste, demande sans délai un examen physique. Le médecin transmet le certificat médical par voie électronique sécurisée à l'officier qui l'a requis. Le certificat est versé au dossier."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R15-33-67",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Objet de la section : première phrase de R15-33-68. R40-45, qui le cite, est réécrit (lot p328).",
+      "ligne_rouge": "aucune",
+      "vers": "R15-33-68"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-33-70",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Habilitation des officiers : première phrase de R15-33-69.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-33-69"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-33-71",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procès-verbal de la demande et autorisation du procureur : R15-33-69.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-33-69"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-33-73",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Copie du protocole à la CNIL : dernière phrase de R15-33-72.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-33-72"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-33-75",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interdiction de tout autre traitement : second alinéa de R15-33-74. R40-45, qui le cite, est réécrit (lot p328).",
+      "ligne_rouge": "aucune",
+      "vers": "R15-33-74"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-33-81",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Journalisation de trois ans : second alinéa de R15-33-80.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-33-80"
     }
-  ]
+  ],
+  "passe": 3
 }
