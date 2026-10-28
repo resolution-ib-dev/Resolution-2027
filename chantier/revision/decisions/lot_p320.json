@@ -10,26 +10,45 @@
     {
       "code": "cpp",
       "num": "D603",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le décret ne s'applique en Nouvelle-Calédonie, en Polynésie française et à Wallis-et-Futuna que sur mention expresse, dans sa rédaction datée. Le compteur se met à jour avec le décret qui portera la réécriture.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Clause d'application des décrets simples (spécialité législative) : version fixée par le décret qui portera la réécriture (registre 7.4, comme R. 251), un article pour les trois collectivités. Les exclusions de Wallis-et-Futuna sont refaites sur les lots p332 et p333 : D. 15-4-7 est fusionné dans D. 15-4-6 (la plage s'arrête donc à D. 15-4-6, D. 15-4-8 n'existait pas), D. 31-2 dans D. 31-1, et D. 31-4 et D. 32-2-3 sont abrogés.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent code (décrets simples) s'applique en Nouvelle-Calédonie, en Polynésie française et dans les îles Wallis et Futuna dans sa rédaction résultant du décret n° [numéro] du [date], avec les adaptations du présent titre, à l'exception, dans les îles Wallis et Futuna, des articles D. 15-4-1 à D. 15-4-6 et D. 31-1."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D604",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Grille de substitution des termes et des références inapplicables localement, par renvoi aux grilles du code et du code pénitentiaire : un seul mécanisme. Renvoi à l'ancien 805 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Substitutions applicables aux décrets simples : elles sont réunies à R. 252, monnaie locale et tarifs compris (R. 253 et R. 254 y sont fusionnés), et aux articles L. 751-1, L. 761-1, L. 771-1, R. 751-1, R. 761-1 et R. 771-1 du code pénitentiaire, où sont fusionnés les articles qu'il citait. L'ancien 805 est le 1° des articles L. 8311-1, L. 8411-1 et L. 8511-1, que la loi applique déjà. La clause des références non applicables est au 7° de R. 252.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les substitutions de l'article R. 252 et des articles L. 751-1, L. 761-1, L. 771-1, R. 751-1, R. 761-1 et R. 771-1 du code pénitentiaire valent pour les décrets simples dans ces collectivités."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D605",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Incarcération dans un autre local, pour raison de sécurité, sur décision du magistrat saisi : règle propre aux territoires où l'établissement manque. Renvoi à l'ancien 868 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : le changement de lieu de détention est décidé par le magistrat saisi"
+      "motif": "Incarcération dans un autre local, pour raison de sécurité, sur décision du magistrat saisi : gardée. L'ancien 868 est devenu un point des tables de L. 8321-1, L. 8421-1 et L. 8521-1 : la règle se lit seule.",
+      "ligne_rouge": "art. 66 C examiné : le lieu de détention dépend d'une décision du magistrat saisi",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque les circonstances, notamment la sécurité, l'exigent, le magistrat saisi peut décider qu'une personne placée en détention provisoire est incarcérée dans un local autre qu'une maison d'arrêt."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
