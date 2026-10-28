@@ -10,34 +10,49 @@
     {
       "code": "cpp",
       "num": "L2311-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Mission de l'avocat à tous les stades, pour la défense comme pour la victime : article d'ancrage, cité par L2311-3 et les articles du titre II.",
-      "ligne_rouge": "art. 16 DDHC examiné : assistance de l'avocat à tous les stades, tenue, et ouverte à la victime (P18)"
+      "principe": "P23",
+      "motif": "Mission de l'avocat à tous les stades : même champ, verbes au présent ; « dans les conditions prévues par le présent code et conformément aux dispositions de la loi n° 71-1130 » retiré (P20), la loi de 1971 restant citée à L2311-2.",
+      "ligne_rouge": "Art. 16 DDHC (droits de la défense) examiné : la mission couvre toutes les personnes suspectées, poursuivies ou condamnées et les victimes, à tous les stades.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'avocat conseille, défend, assiste et représente, à tous les stades de la procédure pénale, les personnes suspectées, poursuivies ou condamnées, ainsi que les victimes, plaignants et parties civiles."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2311-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Secret professionnel de la défense et du conseil garanti au cours de la procédure : noyau des droits de la défense. Le huis clos n'est pas en cause, P26 sans objet.",
-      "ligne_rouge": "art. 16 DDHC examiné : secret de la défense, tenu"
+      "principe": "P23",
+      "motif": "Garanties de la défense en un article : secret professionnel, libre communication confidentielle, inviolabilité de la correspondance, accès au dossier (L2311-3 et L2311-4 fusionnés), chacune dans les conditions du code comme en 2029.",
+      "ligne_rouge": "Art. 16 DDHC examiné : secret de la défense et du conseil, confidentialité des échanges, inviolabilité de la correspondance de défense et accès au dossier gardés mot pour mot dans leur portée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les conditions prévues par le présent code, le secret professionnel de la défense et du conseil auquel sont tenus les avocats, prévu à l'article 66-5 de la loi n° 71-1130 du 31 décembre 1971 portant réforme de certaines professions judiciaires et juridiques, est garanti au cours de la procédure pénale. Dans les conditions prévues par le présent code, l'avocat communique librement avec la personne mentionnée à l'article L. 2311-1 à tous les stades de la procédure, dans des conditions qui garantissent la confidentialité de leurs échanges, et peut, à sa demande, consulter le dossier de la procédure et s'en faire communiquer une copie.\nLorsqu'elle relève de l'exercice des droits de la défense, la correspondance entre l'avocat et cette personne est inviolable."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2311-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Libre communication, confidentialité et inviolabilité de la correspondance de défense : noyau des droits de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : confidentialité des échanges avec l'avocat, tenue"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Libre communication et inviolabilité de la correspondance de défense : reprises à L2311-2.",
+      "ligne_rouge": "Art. 16 DDHC examiné : garanties reprises sans perte.",
+      "vers": "L2311-2"
     },
     {
       "code": "cpp",
       "num": "L2311-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Consultation et copie du dossier par l'avocat, dans les conditions du code : accès au dossier, noyau des droits de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : accès au dossier, tenu"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accès de l'avocat au dossier : repris au premier alinéa de L2311-2.",
+      "ligne_rouge": "Art. 16 DDHC examiné : accès au dossier repris sans perte.",
+      "vers": "L2311-2"
     }
-  ]
+  ],
+  "passe": 3
 }
