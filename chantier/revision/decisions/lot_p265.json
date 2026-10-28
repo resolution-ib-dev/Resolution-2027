@@ -10,135 +10,177 @@
     {
       "code": "cpp",
       "num": "L2231-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Qualité d'officier de police judiciaire du maire et des adjoints : siège unique de la règle, courte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2231-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Autorité du maire sur les agents municipaux qui exercent des missions de police judiciaire, sous la direction du parquet (L2232-1) : répartition des offices tenue.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Qualité d'officier de police judiciaire du maire et de ses adjoints, et autorité du maire sur les agents municipaux, en un article (L2231-2 fusionné).",
+      "ligne_rouge": "Aucune qualité élargie : maire et adjoints, comme en 2029 ; les agents municipaux restent sous la direction du parquet (L2232-1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le maire et ses adjoints ont la qualité d'officier de police judiciaire.\nLe maire a autorité sur les agents de police municipale et les gardes champêtres qui exercent des missions de police judiciaire selon les chapitres 2 et 3 du présent titre et, à Paris, sur les contrôleurs et agents de surveillance qui les exercent selon la section 2 du chapitre 3."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2232-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Qualité d'agent de police judiciaire adjoint des policiers municipaux, direction du procureur et contrôle de la chambre des investigations et des libertés : le contrôle judiciaire de la police judiciaire est tenu.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Qualité d'agent de police judiciaire adjoint des policiers municipaux, direction du procureur, surveillance du procureur général, contrôle de la chambre : gardés en une phrase.",
+      "ligne_rouge": "Contrôle de l'autorité judiciaire sur la police judiciaire examiné : direction du procureur de la République, surveillance du procureur général et contrôle de la chambre des investigations et des libertés gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les agents de police municipale relevant du titre Ier du livre V du code de la sécurité intérieure ont la qualité d'agents de police judiciaire adjoints. Ils exercent leurs missions de police judiciaire, dans la limite de leurs attributions, sous la direction du procureur de la République, la surveillance du procureur général et le contrôle de la chambre des investigations et des libertés."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2232-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Missions des policiers municipaux en qualité d'agents de police judiciaire adjoints, avec compte rendu au maire et à l'officier de police judiciaire : règle propre, plus large que L2224-2 (compte rendu au maire), non un doublon.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Missions des policiers municipaux : celles des agents de police judiciaire adjoints de l'État (L2224-2, mêmes trois missions mot pour mot), par renvoi, et le compte rendu propre au maire et à l'officier de police judiciaire territorialement compétent ; « sans préjudice » et « conformément aux dispositions du présent chapitre » retirés (P20).",
+      "ligne_rouge": "Contrôle de l'autorité judiciaire examiné : le compte rendu à l'officier de police judiciaire de l'État reste dû, par rapport ou par procès-verbal.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les agents de police municipale exercent les missions définies à l'article L. 2224-2. Ils rendent compte des crimes, délits ou contraventions dont ils ont connaissance au maire et à tout officier de police judiciaire de la police nationale ou de la gendarmerie nationale territorialement compétent, par rapport ou, dans les cas mentionnés à l'article L. 2232-3, par procès-verbal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2232-3",
+      "principe": "P23",
+      "motif": "Liste des infractions constatées par procès-verbal : sept items gardés à leurs numéros (L2233-1 cite les 1° à 3°), sans point-virgule ; « sans préjudice » des compétences propres écrit « outre », il autorise le cumul.",
+      "ligne_rouge": "Aucune compétence élargie : les sept catégories de 2029, l'exclusion des atteintes à l'intégrité des personnes et des actes d'enquête gardées.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Liste des infractions que les policiers municipaux constatent par procès-verbal : la constatation au plus près sert la sûreté. Accord corrigé (« agents de police judiciaire adjoints »).",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "en qualité d'agents de police judiciaire adjoint ou",
-          "nouveau": "en qualité d'agents de police judiciaire adjoints ou"
+          "op": "rediger",
+          "nouveau": "Outre les compétences qu'ils tiennent de leur qualité d'agents de police judiciaire adjoints ou de lois spéciales, les agents de police municipale peuvent rechercher et constater par procès-verbal :\n1° Les contraventions aux arrêtés de police du maire.\n2° Les contraventions du livre VI du code pénal dont la liste est fixée par décret en Conseil d'Etat, lorsqu'elles n'exigent de leur part aucun acte d'enquête et ne répriment pas une atteinte à l'intégrité des personnes.\n3° Les contraventions au code de la route dont la liste est fixée par décret en Conseil d'Etat.\n4° L'outrage sexiste et sexuel lorsqu'il constitue une contravention, et le délit prévu à l'article 222-33-1-1 du code pénal.\n5° Les infractions forestières, selon le chapitre Ier du titre VI du livre Ier du code forestier.\n6° Les infractions mentionnées à l'article L. 2241-1 du code des transports en matière de transport collectif de voyageurs.\n7° Le délit d'occupation des halls d'immeuble prévu à l'article L. 272-4 du code de la sécurité intérieure.\nIls peuvent recueillir dans le procès-verbal les observations du contrevenant."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2232-4",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Relevé d'identité et amende forfaitaire pour les infractions constatées : voie rapide, dans le barème, par renvoi aux régimes de droit commun.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine reste fixée par la loi, l'amende forfaitaire ne s'applique que dans les cas que la loi prévoit. Les agents constatent, l'amende forfaitaire reste une voie rapide dans le barème (P24) et l'opposition rouvre le juge"
+      "principe": "P23",
+      "motif": "Relevé d'identité et amende forfaitaire : même règle, une phrase. L2233-2 l'étend aux gardes champêtres.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'amende forfaitaire suit son régime de droit commun, dans le barème.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour les infractions qu'ils sont autorisés à constater par procès-verbal, les agents de police municipale peuvent procéder à des relevés d'identité selon la section 2 du chapitre 2 du titre II du livre II de la troisième partie et recourir à l'amende forfaitaire selon le chapitre 3 du titre II du livre II de la quatrième partie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2232-5",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Transmission sans délai des rapports et procès-verbaux au maire et au procureur : délai court, tenu. Accord corrigé (« leurs rapports »).",
-      "ligne_rouge": "aucune",
+      "motif": "Transmission sans délai des rapports et procès-verbaux au maire et au procureur : accord corrigé (passe 2).",
+      "ligne_rouge": "Contrôle du parquet examiné : transmission sans délai gardée.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "adressent sans délai leur rapports",
-          "nouveau": "adressent sans délai leurs rapports"
+          "op": "rediger",
+          "nouveau": "Les agents de police municipale adressent sans délai leurs rapports et procès-verbaux simultanément au maire et, par l'intermédiaire des officiers de police judiciaire territorialement compétents, au procureur de la République."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2232-6",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Réquisition des policiers municipaux par le procureur, le juge et l'officier de police judiciaire : concours à l'enquête, utile.",
-      "ligne_rouge": "aucune"
+      "motif": "Réquisition des policiers municipaux : gardé. L2233-2 l'étend aux gardes champêtres (L2233-4 fusionné).",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2232-7",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Compétence territoriale communale ou intercommunale, par renvoi au code de la sécurité intérieure : borne des pouvoirs.",
-      "ligne_rouge": "aucune"
+      "motif": "Compétence communale ou intercommunale par renvoi au code de la sécurité intérieure : gardé.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2233-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Infractions que les gardes champêtres constatent par procès-verbal, par renvoi à la liste des policiers municipaux et au code forestier : une liste, un renvoi.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Infractions constatées par les gardes champêtres : trois items remis en ordre (le 1° de 2029 était coupé par l'alinéa sur la qualité d'agent adjoint), sans point-virgule ; « sans préjudice » des lois spéciales écrit « outre ».",
+      "ligne_rouge": "Aucune compétence élargie : renvoi aux 1° à 3° de L2232-3, qualité d'agent adjoint pour le seul 2°, infractions forestières et atteintes aux propriétés des communes d'assermentation, comme en 2029.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Outre les compétences qu'ils tiennent de lois spéciales, les gardes champêtres relevant du titre II du livre V du code de la sécurité intérieure peuvent rechercher et constater par procès-verbal :\n1° Les infractions mentionnées aux 1° à 3° de l'article L. 2232-3. Pour celles du 2°, ils agissent en qualité d'agent de police judiciaire adjoint, avec les missions définies à l'article L. 2232-2.\n2° Les infractions forestières mentionnées aux articles L. 161-1 et L. 161-4 du code forestier.\n3° Les délits et contraventions qui portent atteinte aux propriétés situées dans les communes pour lesquelles ils sont assermentés, dans les conditions des articles L. 161-14 à L. 161-18 du code forestier et L. 172-8 du code de l'environnement."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2233-2",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Relevé d'identité et amende forfaitaire pour les gardes champêtres : même régime que les policiers municipaux.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine reste fixée par la loi, l'amende forfaitaire ne s'applique que dans les cas que la loi prévoit. Les agents constatent, l'amende forfaitaire reste une voie rapide dans le barème (P24) et l'opposition rouvre le juge"
+      "principe": "P3",
+      "motif": "Relevé d'identité, amende forfaitaire et réquisition des gardes champêtres : même régime que les policiers municipaux, par renvoi à L2232-4 et L2232-6 (L2233-4 fusionné). « Lorsque celle-ci est applicable » retiré : l'amende forfaitaire ne s'applique qu'aux infractions que son régime vise.",
+      "ligne_rouge": "Art. 8 DDHC examiné : mêmes facultés qu'en 2029, rien n'est ajouté (les observations du contrevenant restent propres aux policiers municipaux).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les articles L. 2232-4 et L. 2232-6 s'appliquent aux gardes champêtres, qui y tiennent la place des agents de police municipale."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2233-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Transmission des procès-verbaux des gardes champêtres dans les cinq jours : délai opposable, tenu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2233-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réquisition des gardes champêtres : concours à l'enquête, utile.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Transmission des procès-verbaux des gardes champêtres : destinataires, intermédiaire des officiers de police judiciaire de l'Etat et délai de cinq jours gardés, une phrase (relecture adverse : pas de renvoi à L2232-5).",
+      "ligne_rouge": "Contrôle du parquet examiné : délai de cinq jours, jour de la constatation compris, gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les gardes champêtres adressent leurs rapports et procès-verbaux simultanément au maire et, par l'intermédiaire des officiers de police judiciaire de la police nationale ou de la gendarmerie nationale territorialement compétents, au procureur de la République, dans les cinq jours au plus tard, y compris celui de la constatation."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2233-5",
+      "principe": "P20",
+      "motif": "Contrôleurs et agents de surveillance de Paris : qualité d'agent adjoint et missions de L2224-2 ; le renvoi à L2224-1, liste des catégories d'agents adjoints, était sans objet pour eux.",
+      "ligne_rouge": "Aucune qualité ni compétence élargie.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Qualité d'agent de police judiciaire adjoint des contrôleurs et agents de surveillance de Paris. Accord corrigé (« leur sont applicables »).",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "leurs sont applicables",
-          "nouveau": "leur sont applicables"
+          "op": "rediger",
+          "nouveau": "Les contrôleurs relevant du statut des administrations parisiennes exerçant leurs fonctions dans la spécialité voie publique et les agents de surveillance de Paris ont la qualité d'agents de police judiciaire adjoints et exercent les missions définies à l'article L. 2224-2."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2231-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorité du maire sur les agents municipaux : reprise au second alinéa de L2231-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L2231-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L2233-4",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Réquisition des gardes champêtres : couverte par le renvoi de L2233-2 à L2232-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L2233-2"
     }
-  ]
+  ],
+  "passe": 3
 }
