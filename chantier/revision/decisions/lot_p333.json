@@ -10,304 +10,420 @@
     {
       "code": "cpp",
       "num": "D1-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Information de l'employeur public ou de l'ordre professionnel sur les poursuites ou condamnations (ancien 11-2) : contenu, information de la personne, effacement après non-lieu, relaxe ou acquittement. Le défaut d'information de la personne n'annule pas la procédure : la nullité de forme est purgée (P11). Renvois aux anciens 11-2, 390-1, 393, 495-8 et 495-14 à coordonner.",
-      "ligne_rouge": "art. 9 et 16 DDHC examinés : la personne est informée de la transmission, la qualification et l'état du recours sont précisés, et les éléments sont effacés après non-lieu, relaxe ou acquittement"
-    },
-    {
-      "code": "cpp",
-      "num": "D10",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Procès-verbaux séparés sur commission rogatoire, nom de l'officier qui a opéré : traçabilité de l'acte délégué par le juge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D11",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Un seul procès-verbal pour l'enquête de flagrance ou préliminaire, sauf instruction contraire du procureur : allègement avec soupape. Renvoi à l'ancien 20 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Information de l'employeur ou de l'ordre professionnel (décret de L3133-13) : auteur, contenu, avis à la personne, suppression après non-lieu, relaxe ou acquittement. Ce que la loi porte déjà (avis sans délai à la personne, suppression par le destinataire, diffusion bornée, secret) n'est plus redit ; les anciens 390-1, 393, 495-8 et 495-14 sont nommés par leurs actes.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : la personne est avisée de la transmission par l'un des moyens listés, la destruction ou l'effacement lui sont notifiés ; le défaut d'avis reste sans nullité, comme en 2029, la nullité de forme étant purgée (P11).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "I.-L'information prévue aux articles L. 3133-2 à L. 3133-6 est donnée par le procureur de la République ou, après une mise en examen décidée par la chambre des investigations et des libertés ou une condamnation prononcée par la cour d'appel, par le procureur général ou, sur ses instructions, par le procureur de la République. Elle peut être transmise par voie électronique.\nII.-Elle indique l'identité et l'adresse de la personne, la nature de la décision, la qualification juridique détaillée, la date, le lieu et une description sommaire des faits, l'activité professionnelle ou sociale qui justifie la transmission, son lieu et le nom de l'employeur. Elle rappelle l'article L. 3133-1 et le dernier alinéa de l'article L. 3133-8. Pour une condamnation, même non définitive, elle est accompagnée de la copie de la décision ou de son dispositif et précise si la décision est définitive, frappée d'un recours ou encore susceptible de l'être. La copie de la décision est transmise de droit au destinataire qui la demande. Le ministère public peut, d'office ou à la demande du destinataire, lui adresser copie des pièces utiles à ses décisions.\nIII.-L'avis à la personne prévu au premier alinéa de l'article L. 3133-8 est donné par tout moyen qui en laisse trace au dossier, notamment par une mention de l'acte de poursuite, du procès-verbal de première comparution, des notes d'audience ou de la signification de la décision, ou par la remise ou l'envoi d'une copie de l'information transmise. En cas de poursuites ou de mise en examen, son défaut n'entraîne pas la nullité de la procédure.\nIV.-En notifiant un non-lieu, une relaxe ou un acquittement définitif, le ministère public rappelle au destinataire son obligation de supprimer l'information. Les documents qui la contiennent sont détruits et les données effacées. Le destinataire en avise par écrit la personne, ou l'informe qu'il n'y a pas été procédé en raison d'une sanction légalement fondée sur l'information."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D2",
+      "principe": "P20",
+      "motif": "Direction de la police judiciaire : la surveillance du procureur général et le contrôle de la chambre (L2211-1) et le libre choix des formations (L2221-3) sont à la loi ; restent la voie hiérarchique et le rôle du chef de formation. La formule « égaux devant la loi en prérogative et en responsabilité » est déclarative.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers et agents de police judiciaire sont dirigés par le procureur de la République et ses substituts par la voie, s'il y a lieu, de leurs supérieurs hiérarchiques, sous réserve de l'article D. 15-4. Le chef de chaque formation coordonne l'exécution des opérations de police judiciaire de son service et veille à la transmission des procès-verbaux aux autorités judiciaires."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D3",
+      "principe": "P23",
+      "motif": "Organisation de l'enquête entre services en un article : avis de flagrance, dessaisissement, recours aux services centraux (ancien D4), avis réciproques, collaboration police-gendarmerie étendue aux fonctionnaires de L2241-1 (anciens D5 et D14-2).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dès qu'il est informé d'un crime ou d'un délit flagrant, l'officier de police judiciaire local prévient le procureur de la République et provoque l'enquête ou y procède. Le magistrat apprécie, selon l'affaire et l'étendue des recherches, s'il dessaisit l'officier qui l'a commencée. En cas de nécessité, notamment pour une compétence technique particulière, dont celle des offices centraux, ou pour des investigations internationales, il fait appel aux officiers de police judiciaire de la direction nationale de la police judiciaire, de la direction nationale de la police aux frontières ou de la sous-direction de la police judiciaire de la direction générale de la gendarmerie nationale, compte tenu des atouts de l'officier premier saisi.\nLes officiers de police judiciaire de la police et de la gendarmerie nationales s'avisent réciproquement, dans les meilleurs délais, de tout crime ou délit d'un caractère particulier susceptible d'être rapproché de faits de même nature. Ils en avisent sans délai les services centraux mentionnés au premier alinéa lorsqu'il peut appeler leur intervention.\nLes enquêteurs de la police et de la gendarmerie nationales qui participent à une même enquête, et les fonctionnaires et agents de l'article L. 2241-1 qui y concourent, collaborent dans l'intérêt de la justice, mettent en commun leurs compétences et leurs moyens, se communiquent leurs renseignements et leurs opérations et mentionnent dans leur procédure les concours apportés. Le magistrat saisi répartit les tâches et centralise les éléments de l'enquête. Les offices centraux assurent au besoin la coordination entre police et gendarmerie."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D6",
+      "principe": "P4",
+      "motif": "Information du responsable de la sécurité publique avant un acte qui peut troubler l'ordre public : gardée, renvoi à l'ancien 706-80 recalé sur L3511-5.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant un acte d'enquête susceptible de troubler l'ordre public, les officiers de police judiciaire, et les agents de police judiciaire qui surveillent des personnes selon l'article L. 3511-5, informent par tout moyen, après avis au magistrat mandant, le responsable local de la sécurité publique de la police ou de la gendarmerie nationale. Celui-ci facilite l'opération dans la mesure de ses moyens. Il est avisé dans les meilleurs délais de sa fin et, dans la limite des instructions du magistrat, de son résultat lorsqu'il peut avoir des incidences sur l'ordre public."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D7",
+      "principe": "P4",
+      "motif": "Préservation des lieux et police technique et scientifique : gardées, phrases resserrées.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers et agents de police judiciaire préservent l'état des lieux et les traces et indices jusqu'aux opérations de police technique et scientifique, que conduisent les spécialistes habituels des premiers intervenants, sauf désignation d'un autre service par le magistrat. Pour les examens qui ne peuvent être différés, les officiers de police judiciaire peuvent faire appel aux personnes qualifiées des organismes spécialisés de la police ou de la gendarmerie nationales, à qui l'interprétation des résultats peut aussi être confiée et qui mettent en commun leurs moyens au besoin."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D8",
+      "principe": "P3",
+      "motif": "Documentation criminelle et diffusion des recherches : gardées, phrases resserrées.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les services de police et les unités de gendarmerie adressent aux services centraux mentionnés au premier alinéa de l'article D. 3 les renseignements sur la délinquance et la criminalité exploitables pour la centralisation, la classification ou la diffusion, et informent les offices centraux et les organes de coopération des articles D. 8-1 et D. 8-2, qui centralisent et diffusent l'information au niveau national. Les services centraux diffusent par tout moyen les indications utiles à la recherche des malfaiteurs. Le service ou l'unité à l'origine d'une demande de diffusion est prévenu dès la découverte de la personne recherchée."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D8-1",
+      "principe": "P25",
+      "motif": "Liste fermée des offices centraux de police judiciaire, gardée au décret en une phrase : D15-1-5 et D15-1-7 y renvoient pour les techniques spéciales et la géolocalisation, dont la loi renvoie la liste au décret (L3555-7, L3556-4, L3553-7). La descente à l'arrêté est révoquée (relecture adverse).",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) examinée : la liste borne les services requis pour des techniques intrusives ; elle reste au décret, inchangée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les offices centraux de police judiciaire, au sein des services mentionnés aux articles R. 15-18 et R. 15-22, sont l'office central pour la répression du faux-monnayage, l'office anti-stupéfiants, l'office central pour la répression de la traite des êtres humains, l'office central de lutte contre le trafic des biens culturels, l'office central pour la répression de la grande délinquance financière, l'office de lutte contre le trafic illicite de migrants, l'office anti-cybercriminalité, l'office central pour la répression des violences aux personnes, l'office central de lutte contre le crime organisé, l'office central de lutte contre la corruption et les infractions financières et fiscales, l'office central de lutte contre les crimes contre l'humanité et les crimes de haine, l'office mineurs et, à la sous-direction de la police judiciaire de la direction générale de la gendarmerie nationale, l'office central de lutte contre les atteintes à l'environnement et à la santé publique, l'office central de lutte contre la délinquance itinérante et l'office central de lutte contre le travail illégal, l'exploitation par le travail et la fraude en matière sociale."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D8-2",
+      "principe": "P9",
+      "motif": "Organes de coopération internationale et autorités nationales Schengen et Eurodac : gardés, phrases resserrées.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les organes de coopération internationale policière placés au sein de la direction nationale de la police judiciaire sont le bureau central national-France de l'organisation internationale de police criminelle Interpol, l'office N-SIS II et le bureau Sirene, qui composent la partie nationale du système d'information Schengen, et l'unité nationale de l'Office européen de police, Europol.\nLa direction nationale de la police judiciaire est l'autorité nationale désignée par l'article 40, paragraphe 5, de la convention d'application de l'accord de Schengen du 14 juin 1985, et l'autorité nationale chargée de vérifier les demandes d'accès à la base Eurodac à des fins répressives selon le règlement (UE) n° 603/2013 du Parlement européen et du Conseil du 26 juin 2013."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D8-2-1",
+      "principe": "P12",
+      "motif": "Champ de la plainte en ligne : gardé ; la plage 311-1 à 314-13 du code pénal est gardée, et le renvoi à R632-1 du code pénal, abrogé avant 2029, tombe.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La victime peut déposer plainte par voie électronique, selon l'article L. 3313-4 :\n1° Par le service de plainte en ligne de l'article R. 2-30, pour les délits d'appropriation frauduleuse des articles 311-1 à 314-13 du code pénal, sauf ceux des articles 311-4-2, 313-6, 313-6-1 et 314-5 à 314-9, les destructions, dégradations et détériorations délictuelles des articles 322-1 à 322-18 du même code, sauf celles du 3° de l'article 322-3 et des articles 322-3-1, 322-3-2 et 322-14, le délit de fuite de l'article 434-10 du même code et les contraventions contre les biens des articles R. 631-1, R. 634-1, R. 635-1, R. 635-2 et R. 635-8 du même code.\n2° Par le traitement harmonisé des enquêtes et des signalements pour les e-escroqueries (THESEE), pour l'escroquerie, y compris connexe à un accès frauduleux à un système de traitement automatisé de données, le chantage et l'extorsion connexe à une entrave au fonctionnement d'un tel système ou à un accès frauduleux à celui-ci."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D8-2-2",
+      "principe": "P23",
+      "motif": "Information de la victime qui porte plainte en ligne en un article : faculté, audition, droits, préjudice, preuves, prise en charge, fausse déclaration, interprète et traduction (anciens D8-2-3 à D8-2-6), étendue à la plainte en ligne au procureur (ancien D8-2-9). Les infractions sexuelles qui imposent l'audition sont visées par les bornes qui existent en 2029 (222-22 à 222-31, 227-25 à 227-27-2-1), 222-31-1, 222-31-2 et 227-27-3 ayant disparu.",
+      "ligne_rouge": "Victime (P18) examinée : chaque information est gardée ; l'audition reste obligatoire pour les agressions et atteintes sexuelles.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant le dépôt d'une plainte en ligne, y compris auprès du procureur de la République, les écrans d'accueil du service informent lisiblement la victime :\n1° Que ce mode de plainte n'est qu'une faculté et qu'elle peut toujours déposer plainte au service de police ou à l'unité de gendarmerie de son choix.\n2° Qu'elle peut demander à être entendue ultérieurement, et que les enquêteurs l'entendent si la nature ou la gravité des faits le justifie.\n3° Des droits de l'article L. 1411-3, des modalités d'information sur les suites de sa plainte et du recours contre un classement prévu à l'article L. 4113-4, par un document imprimable.\n4° Si l'infraction a causé un préjudice matériel, de la possibilité d'en fixer le montant et d'en adresser les justificatifs par voie électronique.\n5° Si elle a causé un préjudice corporel, qu'elle doit obtenir d'une unité médico-judiciaire ou d'un médecin un certificat des lésions et de l'éventuelle incapacité totale de travail, dont elle peut adresser copie par voie électronique.\n6° En cas d'atteinte grave et récente à la personne, notamment sexuelle, qu'elle doit contacter immédiatement la police ou la gendarmerie et, à défaut, conserver les preuves, notamment ses vêtements, pour les remettre au plus vite aux enquêteurs, et se rendre dans une unité médico-judiciaire ou un établissement hospitalier pour les constatations et prélèvements médicaux.\n7° Si la nature des infractions le justifie, notamment en matière sexuelle, des possibilités de prise en charge psychologique et médicale.\n8° Si la nature de l'infraction le justifie, de ce que toute fausse déclaration l'expose aux poursuites de l'article 434-26 du code pénal.\nDans les cas des 5° et 6°, une réquisition imprimable qui saisit le service chargé de l'examen médical et en indique, le cas échéant, la date peut être mise à sa disposition. Les enquêteurs entendent toujours la victime qui a déposé plainte en ligne pour une infraction des articles 222-22 à 222-31 ou 227-25 à 227-27-2-1 du code pénal.\nLa victime qui ne comprend pas le français est informée de son droit à un interprète selon l'article L. 1421-3. Si elle l'exerce, elle est orientée vers un service ou une unité qui reçoit sa plainte. Sinon, elle dépose plainte dans l'une des langues du téléservice et reçoit dans cette langue, à la validation, les informations indispensables à l'exercice de ses droits. Les enquêteurs peuvent recourir à l'outil de traduction automatique du téléservice, ce que mentionne le procès-verbal, auquel sont annexés les éléments rédigés par la victime. Le procureur de la République ou la juridiction peut ordonner, d'office ou à la demande de la partie civile ou d'une personne mise en cause, la traduction en français des pièces essentielles par une personne désignée selon l'article D. 594-16."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D8-2-7",
+      "principe": "P12",
+      "motif": "Récépissé et procès-verbal signés du seul enquêteur, rendez-vous, identification sécurisée (ancien D8-2-8), récépissé de la plainte en ligne au procureur (ancien D8-2-9).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service de plainte en ligne met à la disposition de la victime, sous un format imprimable, le récépissé de sa plainte et la copie du procès-verbal de réception, signé selon l'article L. 1611-2 par le seul officier ou agent de police judiciaire qui l'a reçue, sans signature du plaignant. Il peut lui fixer un rendez-vous auprès du service ou de l'unité territorialement compétent, qui peut aussi la recontacter rapidement à cette fin. Le service de plainte en ligne auprès du procureur de la République lui remet un récépissé imprimable.\nLa victime qui dépose plainte en ligne s'identifie de façon sécurisée selon des modalités fixées par arrêté du ministre de la justice et du ministre de l'intérieur."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D8-2-10",
+      "principe": "P13",
+      "motif": "Désignation du tribunal judiciaire de Paris, compétent selon L2152-43 pour les délits commis en ligne qui ont fait l'objet d'une plainte électronique.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tribunal judiciaire compétent selon l'article L. 2152-43 est le tribunal judiciaire de Paris."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D8-3",
+      "principe": "P23",
+      "motif": "Autorités qui autorisent un agent à ne pas être identifié (décret de L2221-10) en un article, douanes et services fiscaux compris (anciens D8-4 à D8-6).",
+      "ligne_rouge": "Transparence (P26) examinée : l'anonymat d'un agent exposé n'est ni un huis clos ni une décision non publiée ; liste des autorités inchangée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les autorisations prévues à l'article L. 2221-10 sont délivrées par le responsable hiérarchique, parmi ceux qui suivent, dont relève le service ou l'unité où l'agent est affecté ou mis temporairement à disposition :\n1° Pour la police nationale, les directeurs des services territoriaux de la police nationale, les directeurs des établissements publics de la police nationale, les chefs des services ou d'offices centraux relevant de la police nationale, le chef de service du détachement de la police nationale auprès de la direction nationale du renseignement et des enquêtes douanières, le chef de l'unité de coordination des enquêtes de l'inspection générale de la police nationale, les directeurs ou sous-directeurs des services actifs de la police nationale ou, le cas échéant, le préfet de police, le directeur général de la sécurité intérieure ou le directeur général de la police nationale.\n2° Pour la gendarmerie nationale, les commandants de groupement, les commandants de section de recherches, les commandants de section d'appui judiciaire, les commandants de la gendarmerie dans les départements et collectivités d'outre-mer et en Nouvelle-Calédonie, les commandants de région, les commandants des gendarmeries spécialisées, le commandant de la gendarmerie prévôtale, le sous-directeur de la police judiciaire de la direction des opérations et de l'emploi de la direction générale de la gendarmerie nationale, les commandants des offices centraux relevant de la direction générale de la gendarmerie nationale, les commandants des organismes directement subordonnés au directeur général de la gendarmerie nationale ou, le cas échéant, le directeur général de la gendarmerie nationale.\n3° Les adjoints des responsables mentionnés aux 1° et 2°.\nElles sont délivrées aux officiers de douane judiciaire désignés selon l'article L. 2242-2 par le directeur de l'Office national anti-fraude ou les adjoints qu'il délègue, et aux officiers fiscaux judiciaires désignés selon le même article par le chef du service de police judiciaire de la direction nationale de la police judiciaire spécialisé dans la répression de la délinquance fiscale ou ses adjoints ou, le cas échéant, par le directeur national de la police judiciaire ou ses adjoints."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D9",
+      "principe": "P23",
+      "motif": "Procès-verbaux des officiers de police judiciaire en un article : nom et qualité, procès-verbal par acte sur commission rogatoire, procès-verbal unique en flagrance ou en préliminaire (anciens D10, D11).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers de police judiciaire énoncent leur nom et leur qualité dans tous leurs procès-verbaux de police judiciaire. Sur commission rogatoire, ils dressent un procès-verbal par acte, qui nomme le seul officier qui l'a accompli personnellement. En flagrance ou en préliminaire, les officiers et les agents de police judiciaire de l'article L. 2223-1 peuvent relater les opérations d'une même enquête dans un seul procès-verbal, qui nomme l'auteur de chacune, sauf instructions particulières du procureur de la République demandant des procès-verbaux séparés."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D12",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Transport hors ressort : avis aux magistrats, sauf ressort limitrophe, et assistance territoriale. Renvoi à l'ancien 18 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D12-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Libre choix par le magistrat de la division du service départemental de police judiciaire. Renvoi à l'ancien 12-1 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Transport hors ressort : l'avis préalable aux magistrats, l'exception du ressort limitrophe et de la petite couronne et l'assistance territoriale sont à L3511-2 et L3511-3 ; restent l'avis à l'officier local, le compte rendu, les mentions et l'avis aux services centraux.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'officier de police judiciaire qui se transporte hors de son ressort selon l'article L. 3511-2 avise aussi au préalable l'officier chargé de la sécurité publique du lieu. Il informe les autorités avisées des résultats obtenus et mentionne dans sa procédure les avis donnés et les concours reçus. Lorsque le magistrat a décidé une assistance territoriale selon l'article L. 3511-3, il avise au plus tôt, si possible avant son transport, un officier de la circonscription où il doit opérer, avec les précisions utiles de temps et de lieu, et mentionne cet avis et ce concours. Hors d'un ressort limitrophe, il avise aussi les services centraux mentionnés au premier alinéa de l'article D. 3 lorsque les investigations portent sur un fait qui leur a été signalé."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D13",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Les agents de police judiciaire secondent les officiers sans pouvoir propre et ne décident jamais d'une garde à vue. Renvois aux anciens 20, 21, 62, 109, 110 et 153 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la garde à vue reste décidée par un officier sous contrôle du magistrat"
+      "principe": "P20",
+      "motif": "Missions des agents de police judiciaire : seconder, constater et dresser procès-verbal sont à L2223-3 ; restent les exécutions confiées et l'interdiction de décider une garde à vue, étendue en termes exprès aux agents adjoints.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : aucun agent ne décide d'une garde à vue (L2223-4 et D13) ; aucun pouvoir propre de l'officier ne leur est délégué.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Outre les missions de l'article L. 2223-3, les agents de police judiciaire exécutent les mesures de contrainte contre les témoins défaillants, les mandats d'amener, de dépôt et d'arrêt, les ordonnances de prise de corps, les décisions de condamnation et les contraintes judiciaires. Ils s'en tiennent aux opérations prescrites, aucun pouvoir propre de l'officier chargé de l'enquête ne pouvant leur être délégué. Ni eux ni les agents de police judiciaire adjoints n'ont qualité pour décider d'une garde à vue."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D14",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Compétence des agents de police judiciaire de l'ancien 20, transmission des procès-verbaux par la hiérarchie. Renvois aux anciens 19 et 20 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D14-1",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Rapports des agents de l'ancien 21 transmis sans délai au procureur. Renvois aux anciens 19 et 21 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D14-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Collaboration de D5 étendue aux fonctionnaires de l'ancien 28 : un seul régime. Renvoi à l'ancien 28 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D15",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Pas de nouveau serment au changement d'affectation, pour tous les agents de police judiciaire. Renvoi à l'ancien 28 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Agents de police judiciaire : enquêtes préliminaires, auditions en flagrance sur ordre, transmission des procès-verbaux ; serment non renouvelé au changement d'affectation (ancien D15). Les rapports des agents adjoints sont à L2224-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les agents de police judiciaire de l'article L. 2223-1 peuvent mener des enquêtes préliminaires, d'office ou sur instructions du procureur de la République ou de leurs chefs. En flagrance, ils n'entendent les personnes susceptibles de fournir des renseignements que sur ordre et dans les limites fixées. Leurs chefs hiérarchiques transmettent sans délai leurs procès-verbaux au procureur.\nLe serment n'est pas renouvelé au changement d'affectation, selon le dernier alinéa de l'article L. 2241-1, pour toute personne qui exerce des missions de police judiciaire, quel que soit son statut, public ou privé."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-1-1",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Service interministériel d'assistance technique : formation des agents infiltrés, évaluation des collaborateurs de justice. Renvois aux anciens 706-81 et 706-63-1 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Service interministériel d'assistance technique : gardé, renvois recalés (L3565-2, L6332-2).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service interministériel d'assistance technique de la direction nationale de la police judiciaire, composé de policiers, de gendarmes et de douaniers, forme les agents infiltrés, assiste techniquement les infiltrations de l'article L. 3565-2 et de l'article 67 bis-II du code des douanes et en centralise les informations. Il procède à l'évaluation préalable au statut de collaborateur de justice et met en œuvre les mesures de protection et de réinsertion décidées par la commission nationale de l'article L. 6332-2."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-1-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Agents habilités à l'infiltration. Renvoi à l'ancien 706-81 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : les techniques restent autorisées et contrôlées par un magistrat, la liste fermée des services en limite les opérateurs"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-1-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Habilitation par le procureur général de Paris après agrément et stage, retrait à tout moment : contrôle judiciaire de l'infiltration.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : les techniques restent autorisées et contrôlées par un magistrat, la liste fermée des services en limite les opérateurs"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-1-4",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Accord du ministre de la justice aux infiltrations transfrontalières. Les avis préalables du directeur national de la police judiciaire et du directeur général des douanes ne protègent aucune liberté : ils tombent, le ministre reste libre de s'informer. Renvois aux anciens 694-7 et 695-2 à coordonner.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Agents habilités à l'infiltration et habilitation par le procureur général de Paris après agrément et stage, en un article (ancien D15-1-3) ; décret prévu à L3565-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "le ministre de la justice donne son accord après avis du directeur national de la police judiciaire.",
-          "nouveau": "le ministre de la justice donne son accord."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "le ministre de la justice donne son accord après avis du directeur général des douanes.",
-          "nouveau": "le ministre de la justice donne son accord."
+          "op": "rediger",
+          "nouveau": "Peuvent être habilités aux opérations d'infiltration de l'article L. 3565-2 les officiers et agents de police judiciaire de la police et de la gendarmerie nationales, les agents des douanes habilités à effectuer des enquêtes et, pour les infractions du II de l'article 67 bis du code des douanes, les agents des douanes de cet article.\nLe procureur général près la cour d'appel de Paris délivre l'habilitation après l'agrément du directeur général de la police nationale, de la gendarmerie nationale ou des douanes et droits indirects. L'agrément n'est accordé, sur proposition du directeur national de la police judiciaire, qu'aux personnes jugées aptes à l'issue d'un stage organisé par le service interministériel d'assistance technique. L'habilitation et l'agrément peuvent être retirés à tout moment par leurs auteurs. Le retrait de l'agrément rend l'habilitation caduque."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D15-1-5",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Liste des services habilités aux techniques spéciales d'enquête : la liste fermée borne les intrusions. Sonorisations et captations d'images. Renvois aux anciens 706-95-17, 706-96 et 706-99 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : les techniques restent autorisées et contrôlées par un magistrat, la liste fermée des services en limite les opérateurs"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-1-5-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Liste des services habilités aux techniques spéciales d'enquête : la liste fermée borne les intrusions. IMSI-catcher. Renvois aux anciens 706-95-17 et 706-95-20 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : les techniques restent autorisées et contrôlées par un magistrat, la liste fermée des services en limite les opérateurs"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-1-6",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Liste des services habilités aux techniques spéciales d'enquête : la liste fermée borne les intrusions. Captation de données informatiques. Renvoi à l'ancien 706-102-1 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : les techniques restent autorisées et contrôlées par un magistrat, la liste fermée des services en limite les opérateurs"
+      "principe": "P23",
+      "motif": "Listes des services requis pour les techniques spéciales d'enquête en un article (anciens D15-1-5-1, D15-1-6) : chaque technique garde exactement sa liste.",
+      "ligne_rouge": "Vie privée (art. 2 DDHC) examinée : aucune unité ajoutée à une technique, les trois listes fermées sont gardées telles quelles.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "I.-Les services, unités et organismes dont les agents qualifiés peuvent être requis, selon l'article L. 3555-7, pour installer les dispositifs des articles L. 3555-1 et L. 3555-12 sont :\n-la direction nationale de la police judiciaire et les services territoriaux de la police nationale chargés de la police judiciaire au sein des directions départementales, interdépartementales ou territoriales de la police nationale.\n-la direction générale de la sécurité intérieure.\n-les offices centraux de police judiciaire.\n-la force d'intervention de la police nationale.\n-les unités chargées de la police judiciaire à la direction des aérodromes parisiens.\n-la sous-direction de la police judiciaire de la gendarmerie nationale.\n-le commandement du ministère de l'intérieur dans le cyberespace.\n-l'unité nationale de police judiciaire de la gendarmerie nationale.\n-l'unité nationale d'investigation de la gendarmerie nationale.\n-l'unité nationale cyber.\n-les unités des forces aériennes de la gendarmerie nationale.\n-les sections de recherches de la gendarmerie nationale.\n-le groupe d'intervention de la gendarmerie nationale.\n-les sections d'appui judiciaire de la gendarmerie nationale.\n-la sous-direction des brigades centrales, la sous-direction des services territoriaux, la sous-direction cyber et financière et l'état-major de la direction de la police judiciaire de la préfecture de police.\n-le service chargé du soutien opérationnel et technique de la direction du renseignement de la préfecture de police.\n-les sûretés territoriales des directions territoriales et le département criminalité organisée de la sous-direction de la lutte contre l'immigration irrégulière de la direction de la sécurité de proximité de l'agglomération parisienne.\nII.-Peuvent être requis, selon l'article L. 3556-4, pour utiliser l'appareil de l'article L. 3556-7 : la direction nationale de la police judiciaire et les services territoriaux de la police nationale chargés de la police judiciaire au sein des directions départementales ou interdépartementales de la police nationale, la direction générale de la sécurité intérieure, la force d'intervention de la police nationale, les services territoriaux de police judiciaire, le commandement du ministère de l'intérieur dans le cyberespace, l'unité nationale de police judiciaire et l'unité nationale d'investigation de la gendarmerie nationale, l'unité nationale cyber, le groupe d'intervention de la gendarmerie nationale, le service chargé du soutien opérationnel et technique de la direction du renseignement de la préfecture de police et les services et unités de la direction opérationnelle des services techniques et logistiques de la préfecture de police.\nIII.-Peuvent être requis, selon l'article L. 3556-4, pour installer le dispositif de l'article L. 3556-9 : la direction nationale de la police judiciaire et les services territoriaux de la police nationale chargés de la police judiciaire au sein des directions départementales ou interdépartementales de la police nationale, la direction générale de la sécurité intérieure, les offices centraux de police judiciaire, la force d'intervention de la police nationale, les services territoriaux de police judiciaire, la sous-direction de la police judiciaire de la gendarmerie nationale, le commandement du ministère de l'intérieur dans le cyberespace, l'unité nationale de police judiciaire et l'unité nationale d'investigation de la gendarmerie nationale, l'unité nationale cyber, le service central de renseignement criminel, les sections de recherches, les sections d'appui judiciaire et le groupe d'intervention de la gendarmerie nationale."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-1-7",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Géolocalisation : réquisition d'un agent qualifié des services de D15-1-5 par le magistrat ou l'officier. Renvoi à l'ancien 230-32 à coordonner.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : les techniques restent autorisées et contrôlées par un magistrat, la liste fermée des services en limite les opérateurs"
+      "principe": "P13",
+      "motif": "Géolocalisation : liste des services de L3553-7 par renvoi au I de D15-1-5.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les services, unités et organismes dont les agents qualifiés peuvent être requis selon l'article L. 3553-7 pour installer et retirer le moyen de géolocalisation sont ceux du I de l'article D. 15-1-5."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-2",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Rapport annuel de politique pénale du procureur général, diffusé aux magistrats : la juridiction rend compte. Renvois aux anciens 35 et 39-1 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-2-1",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Rapport annuel du procureur, avec le rapport sur la garde à vue et sur l'exécution des peines : information publiable. Renvois aux anciens 39-1, 41 et 709-2 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : le rapport sur les gardes à vue et leurs locaux nourrit le contrôle du magistrat"
+      "motif": "Rapports annuels des parquets en un article (ancien D15-2-1) : calendrier, synthèse, rapports garde à vue et exécution des peines, diffusion aux magistrats du siège.",
+      "ligne_rouge": "Contrôle de la garde à vue (art. 66 C) examiné : le rapport du procureur sur les mesures et locaux de garde à vue reste annexé et nourrit le rapport public de L3523-16.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République adresse au procureur général avant le 31 janvier, et le procureur général au ministre de la justice avant le 31 mars, leurs rapports annuels de politique pénale et d'activité et de gestion prévus aux articles L. 2113-5 et L. 2114-2, qui peuvent être réunis. Celui du procureur général synthétise ceux des procureurs de son ressort. Celui du procureur de la République comprend son rapport sur les mesures et locaux de garde à vue, établi notamment au vu des données des services et unités de police judiciaire, qui nourrit le rapport public de l'article L. 3523-16, et le rapport sur l'exécution des peines de l'article L. 5112-2. Ces rapports sont diffusés aux magistrats du siège, par le premier président ou le président du tribunal judiciaire, avant l'assemblée générale où le procureur général ou le procureur de la République rend compte de la mise en œuvre de la politique pénale."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le procureur représente l'autorité judiciaire dans les instances locales de prévention de la délinquance. Renvois aux anciens 39-1 et 39-2 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-3-1",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Permanences des délégués du procureur pour les alternatives et compositions pénales : voie rapide au plus près. Renvois aux anciens 41-1 à 41-3 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Le procureur dans les instances de prévention et les permanences de ses délégués, en un article (ancien D15-3-1).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de l'article L. 2113-6, le procureur de la République est membre de droit des instances territoriales de prévention de la délinquance prévues par le code général des collectivités territoriales. Il y représente, comme dans toute instance administrative territoriale, l'autorité judiciaire et les services déconcentrés du ministère de la justice, avec les magistrats du siège qui en sont membres, et peut s'y faire représenter par un délégué habilité qu'il désigne. Il signe les conventions des articles L. 2215-2 et L. 2512-15 du code général des collectivités territoriales. Ses délégués habilités selon les articles R. 15-33-30 à R. 15-33-37 peuvent tenir des permanences au tribunal, dans les lieux d'accès au droit ou en tout lieu qu'il désigne, notamment pour les mesures de l'article L. 4211-1 et les compositions pénales."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-3-2",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Classement sans suite : la victime peut obtenir copie du dossier, motivation circonstanciée pour les crimes sexuels, rappel du recours. Renvois aux anciens 40-2, 40-3 et 706-47 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Classement : copie du dossier sur demande, motivation circonstanciée pour les crimes de L1721-2. Le rappel du recours est à L4111-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République qui avise une victime d'un classement selon l'article L. 4111-2 l'informe qu'elle peut demander une copie du dossier selon le second alinéa de l'article R. 155. Pour un crime mentionné à l'article L. 1721-2, la motivation portée à la connaissance du plaignant et de la victime identifiée est individualisée et circonstanciée au regard de la nature des faits et des éléments de la procédure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-3-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Nettoyage des lieux du crime pris en frais de justice, sur réquisition du procureur.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Nettoyage des lieux du crime sur réquisition du procureur ou du juge d'instruction, en un article (ancien D32-2-4, lot p332).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsqu'un crime prévu aux articles 221-1 à 221-4 et 222-1 à 222-10 du code pénal a été commis sur le territoire national dans des locaux privés d'habitation, le procureur de la République ou, au cours de l'information, le juge d'instruction peut requérir, au titre des frais du 6° de l'article R. 92, une entreprise pour des travaux techniques de nettoyage des lieux, dès qu'il n'est plus nécessaire de les laisser en l'état pour les besoins de la procédure, notamment après une reconstitution. Au cours de l'information, le procureur ne le fait qu'avec l'accord préalable du juge d'instruction ou à sa demande."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-4",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Retour des procès-verbaux au procureur mandant et réquisitions d'enquête sociale en appel. L'alinéa 2 nomme deux fois « la chambre des appels délictuels » : la première mention vise la chambre des investigations et des libertés (ancienne chambre de l'instruction). Renvoi à l'ancien 41 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'enquête éclaire le prononcé et la faisabilité de la peine, la situation sociale relevant du régime d'exécution et non du quantum art. 66 C examiné : l'enquête éclaire les alternatives à la détention devant la chambre des investigations et des libertés.",
+      "motif": "Retour des procès-verbaux au procureur mandant et enquête sociale en appel : gardés, renvois recalés (L2113-7) et coquille sur la chambre corrigée.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'enquête sociale rapide reste une faculté du parquet général, sans effet sur la peine encourue.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Lorsque la chambre des appels délictuels ou la chambre des appels délictuels de la cour d'appel est saisie",
-          "nouveau": "Lorsque la chambre des investigations et des libertés ou la chambre des appels délictuels de la cour d'appel est saisie"
+          "op": "rediger",
+          "nouveau": "Les procès-verbaux des actes accomplis sur les réquisitions du procureur de la République prévues au troisième alinéa de l'article L. 2113-7 lui sont directement retournés. Lorsque la chambre des investigations et des libertés ou la chambre des appels délictuels est saisie, le procureur général peut requérir une enquête sur la situation matérielle, familiale et sociale de la personne poursuivie ou la vérification de la faisabilité matérielle de certaines peines ou aménagements de peine."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D15-4-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Concertation des procureurs avec et sans pôle de l'instruction, coordination par le procureur général.",
-      "ligne_rouge": "art. 8 DDHC examiné : règle de compétence entre parquets, la peine n'est pas en cause"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-4-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Avis sans délai du procureur du pôle de l'instruction. Il manque une virgule entre deux renvois, qui rend la phrase illisible. Renvois aux anciens 80, 397-2 et 397-7 à coordonner.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Concertation et avis entre parquets avec et sans pôle de l'instruction, en un article (anciens D15-4-2, D15-4-3) ; renvois recalés (L2113-4, L4121-6, L4413-30, L2121-11).",
+      "ligne_rouge": "Art. 8 DDHC examiné : règles de répartition entre parquets, sans effet sur la personne poursuivie ; la comparution sous cinq jours ouvrables est à L4121-6.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "du premier alinéa du II de l'article 80 du dernier alinéa de l'article 397-2",
-          "nouveau": "du premier alinéa du II de l'article 80, du dernier alinéa de l'article 397-2"
+          "op": "rediger",
+          "nouveau": "Le procureur de la République d'un tribunal sans pôle de l'instruction avise celui du pôle des affaires qui paraissent pouvoir donner lieu à une information criminelle ou avec cosaisine. Ils se concertent pour décider lequel dirige l'enquête et requiert l'ouverture d'une information, et si une information criminelle relève du juge d'instruction du tribunal sans pôle selon l'article L. 2121-11. Le procureur général coordonne au besoin leur action.\nLe procureur du tribunal sans pôle avise sans délai celui du pôle lorsqu'il requiert une information devant le pôle selon l'article L. 2113-4, qu'un dossier lui est renvoyé selon l'article L. 4413-30 ou qu'il applique le deuxième alinéa de l'article L. 4121-6. Dans ce dernier cas, il requiert l'information devant le pôle, notifie à la personne les faits du réquisitoire et la présente ensuite au juge des libertés et de la détention de son tribunal. Le procureur du pôle l'avise sans délai lorsqu'il exerce sa compétence sur le ressort du pôle selon l'article L. 2113-4, l'avise en temps utile de ses réquisitions de règlement et lui adresse sans délai la procédure renvoyée devant la juridiction de son tribunal."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "D15-4-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Avis réciproque sans délai et transmission de la procédure. Renvoi à l'ancien 80 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "D15-4-4",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Carte des pôles de l'instruction et de leur ressort. Renvoi à l'ancien 52-1 à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Carte des pôles de l'instruction (décret de L2121-9) : inchangée, présentée en une ligne par cour d'appel.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les tribunaux judiciaires dotés d'un pôle de l'instruction, désignés pour l'application de l'article L. 2121-9, sont les suivants, par cour d'appel. La compétence territoriale de chaque pôle s'étend au ressort des tribunaux judiciaires nommés entre parenthèses ou, à défaut de parenthèse, au ressort de son seul tribunal.\nCour d'appel d'Agen : Agen (Agen, Auch, Cahors).\nCour d'appel d'Aix-en-Provence : Aix-en-Provence (Aix-en-Provence, Digne-les-Bains, Tarascon), Draguignan, Grasse, Marseille, Nice, Toulon.\nCour d'appel d'Amiens : Amiens, Laon (Laon, Saint-Quentin, Soissons), Senlis (Beauvais, Compiègne, Senlis).\nCour d'appel d'Angers : Angers (Angers, Saumur), Le Mans (Laval, Le Mans).\nCour d'appel de Bastia : Ajaccio, Bastia.\nCour d'appel de Besançon : Besançon (Besançon, Lons-Le-Saunier, Vesoul), Montbéliard (Belfort, Montbéliard).\nCour d'appel de Bordeaux : Angoulême, Bordeaux (Bordeaux, Libourne), Périgueux (Bergerac, Périgueux).\nCour d'appel de Bourges : Bourges (Bourges, Châteauroux, Nevers).\nCour d'appel de Caen : Caen (Alençon, Argentan, Caen, Lisieux), Coutances (Cherbourg-en-Cotentin, Coutances).\nCour d'appel de Chambéry : Annecy (Annecy, Bonneville, Thonon-les-Bains), Chambéry (Albertville, Chambéry).\nCour d'appel de Colmar : Colmar, Mulhouse, Strasbourg (Saverne, Strasbourg).\nCour d'appel de Dijon : Chalon-sur-Saône (Chalon-sur-Saône, Mâcon), Dijon (Dijon, Chaumont).\nCour d'appel de Douai : Béthune (Arras, Béthune), Boulogne-sur-Mer (Boulogne-sur-Mer, Saint-Omer), Douai (Douai, Cambrai), Dunkerque, Lille, Valenciennes (Avesnes-sur-Helpe, Valenciennes).\nCour d'appel de Grenoble : Grenoble (Gap, Bourgoin-Jallieu, Grenoble, Vienne), Valence.\nCour d'appel de Limoges : Limoges (Brive-la-Gaillarde, Guéret, Limoges, Tulle).\nCour d'appel de Lyon : Bourg-en-Bresse, Lyon (Lyon, Villefranche-sur-Saône), Saint-Étienne (Roanne, Saint-Étienne).\nCour d'appel de Metz : Metz (Metz, Sarreguemines, Thionville).\nCour d'appel de Montpellier : Béziers, Montpellier (Montpellier, Rodez), Narbonne (Carcassonne, Narbonne), Perpignan.\nCour d'appel de Nancy : Épinal, Nancy (Bar-le-Duc, Val de Briey, Nancy, Verdun).\nCour d'appel de Nîmes : Avignon (Avignon, Carpentras, Privas), Nîmes (Alès, Mende, Nîmes).\nCour d'appel d'Orléans : Blois, Orléans (Montargis, Orléans), Tours.\nCour d'appel de Paris : Auxerre (Auxerre, Sens), Bobigny, Créteil, Évry-Courcouronnes, Meaux, Melun (Fontainebleau, Melun), Paris.\nCour d'appel de Pau : Bayonne, Mont-de-Marsan (Dax, Mont-de-Marsan), Pau (Pau, Tarbes).\nCour d'appel de Poitiers : La Rochelle (La Rochelle, Saintes), La Roche-sur-Yon (La Roche-sur-Yon, Les Sables-d'Olonne), Poitiers (Niort, Poitiers).\nCour d'appel de Reims : Reims (Châlons-en-Champagne, Charleville-Mézières, Reims), Troyes.\nCour d'appel de Rennes : Brest (Brest, Quimper), Lorient (Lorient, Vannes), Nantes (Nantes, Saint-Nazaire), Rennes (Rennes, Saint-Malo), Saint-Brieuc.\nCour d'appel de Riom : Clermont-Ferrand (Aurillac, Clermont-Ferrand, Le Puy-en-Velay), Cusset (Cusset, Montluçon, Moulins).\nCour d'appel de Rouen : Evreux, Le Havre, Rouen (Dieppe, Rouen).\nCour d'appel de Toulouse : Montauban, Toulouse (Albi, Castres, Foix, Saint-Gaudens, Toulouse).\nCour d'appel de Versailles : Chartres, Nanterre, Pontoise, Versailles.\nCour d'appel de Basse-Terre : Pointe-à-Pitre (Basse-Terre, Pointe-à-Pitre).\nCour d'appel de Cayenne : Cayenne.\nCour d'appel de Fort-de-France : Fort-de-France.\nCour d'appel de Saint-Denis : Mamoudzou, Saint-Denis, Saint-Pierre.\nCour d'appel de Nouméa : Nouméa.\nCour d'appel de Papeete : Papeete."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D15-4-5",
-      "decision": "S",
       "principe": "P15",
-      "motif": "Juge coordonnateur du pôle : désignation par le président, réunions d'avancement couvertes par le secret de l'instruction (ancien 11, qui n'est ni une audience ni un jugement). L'avis préalable de l'assemblée générale ne protège aucune liberté : il tombe. Renvois aux anciens 52-1, 83 et 83-1 à coordonner.",
-      "ligne_rouge": "aucune",
+      "motif": "Juge coordonnateur du pôle : l'avis de l'assemblée générale tombe (passe 2), renvois recalés (L2121-9, L3131-1, L3414-1, L3414-3).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "au début de l'année judiciaire, après avis de l'assemblée générale des magistrats du siège.",
-          "nouveau": "au début de l'année judiciaire."
+          "op": "rediger",
+          "nouveau": "Le président du tribunal judiciaire désigne au début de l'année judiciaire le ou les juges d'instruction coordonnateurs du pôle prévus à l'article L. 2121-9. Le juge coordonnateur peut réunir régulièrement les juges d'instruction du pôle, ou les seuls juges spécialisés, pour examiner l'avancement des procédures et envisager des cosaisines. Leurs échanges sont couverts par le secret de l'article L. 3131-1. Le procureur de la République peut y participer avec son accord. Le juge coordonnateur peut préconiser toute mesure utile au service, dans le respect des prérogatives de chaque juge saisi."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D15-4-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Commission d'office d'un avocat du barreau d'origine quand l'information est au pôle : proximité de la défense. Renvois aux anciens 113-3 et 116 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'avocat est désigné sans délai, par le barreau du pôle à défaut"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-4-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Demandes de mise en liberté ou de mainlevée déposées au greffe du tribunal sans pôle et transmises sans délai. Renvoi à l'ancien 148-6 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la demande de mise en liberté est facilitée, le juge saisi statue. Art. 8 DDHC examiné : sans effet sur la peine"
-    },
-    {
-      "code": "cpp",
-      "num": "D2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Organisation de la police judiciaire sous la direction de l'autorité judiciaire. Surveillance du procureur général, direction par le parquet, libre choix des services par les magistrats. La « chambre d'instruction » se nomme chambre des investigations et des libertés en 2029.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Avocat du barreau d'origine et dépôt des demandes au greffe du tribunal sans pôle, en un article (ancien D15-4-7).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sous le contrôle de la chambre d'instruction",
-          "nouveau": "sous le contrôle de la chambre des investigations et des libertés"
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction du pôle qui conduit une information sur des faits relevant initialement d'un tribunal sans pôle et qui est saisi d'une demande de commission d'office d'un avocat en informe par tout moyen le bâtonnier de ce tribunal, pour qu'il désigne un avocat de son barreau, ou, à défaut, le bâtonnier du tribunal du pôle.\nL'avocat de la personne mise en examen qui appartient au barreau du tribunal sans pôle peut déposer au greffe du juge d'instruction de ce tribunal les demandes de mainlevée ou de modification du contrôle judiciaire et de mise en liberté. La demande nomme, à peine d'irrecevabilité, le juge d'instruction saisi. Le greffier la constate, la signe avec l'avocat et l'adresse sans délai au greffe de ce juge."
         }
       ]
     },
@@ -316,192 +432,240 @@
       "num": "D2-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article déclaratif : les officiers des différents corps « entretiennent des relations de coopération et d'aide réciproque ». Il n'impose rien de contrôlable, la coopération concrète est réglée par D3 à D5.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Organisation de la police judiciaire sous la direction de l'autorité judiciaire. Avis au procureur dès la flagrance, dessaisissement à l'appréciation du magistrat, avis réciproques entre police et gendarmerie.",
-      "ligne_rouge": "aucune"
+      "motif": "Article déclaratif (relations de coopération et d'aide réciproque) : la coopération concrète est réglée à D3. Décision de passe 2 tenue.",
+      "ligne_rouge": "aucune (passe 1)."
     },
     {
       "code": "cpp",
       "num": "D4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Organisation de la police judiciaire sous la direction de l'autorité judiciaire. Recours aux services centraux selon la nécessité appréciée par le magistrat.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recours aux services centraux : premier alinéa de D3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D3"
     },
     {
       "code": "cpp",
       "num": "D5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Organisation de la police judiciaire sous la direction de l'autorité judiciaire. Collaboration police et gendarmerie dans une même enquête, répartition par le magistrat. Cité par D14-2.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D6",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Organisation de la police judiciaire sous la direction de l'autorité judiciaire. Information du responsable local de la sécurité publique avant un acte qui peut troubler l'ordre public. L'avis au magistrat est une information, non un avis conforme. Renvoi à l'ancien 706-80 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D7",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Préservation des lieux et des traces, police technique et scientifique mutualisée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D8",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Centralisation de la documentation criminelle entre police et gendarmerie et diffusion des recherches.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D8-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Liste des offices centraux de police judiciaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D8-2",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Organes de coopération internationale (Interpol, Sirene, Europol) et autorité nationale Eurodac : conformité européenne.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D8-2-1",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Champ de la plainte en ligne (atteintes aux biens contre auteur inconnu, escroqueries en ligne). Renvoi à l'ancien 15-3-1 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D8-2-10",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Compétence du tribunal judiciaire de Paris pour les escroqueries en ligne déclarées par voie électronique. Renvois aux anciens 15-3-1 et 15-3-3 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D8-2-2",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Information sur le caractère facultatif, audition obligatoire pour les violences sexuelles, interprète ou traduction. Renvois aux anciens 15-3 et 10-3 à coordonner.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Collaboration police-gendarmerie dans une même enquête : dernier alinéa de D3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D3"
     },
     {
       "code": "cpp",
       "num": "D8-2-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Information sur les droits de la victime et le recours contre le classement. Renvois aux anciens 10-2 et 40-3 à coordonner.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information sur les droits, les suites et le recours : 3° de D8-2-2 ; la liste des droits est à L1411-3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-2-2"
     },
     {
       "code": "cpp",
       "num": "D8-2-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Justificatifs du préjudice, orientation vers l'examen médical et conservation des preuves.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Préjudice, certificat médical, preuves et réquisition imprimable : 4° à 6° et alinéa suivant de D8-2-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-2-2"
     },
     {
       "code": "cpp",
       "num": "D8-2-5",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Information sur la prise en charge psychologique et médicale.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Prise en charge psychologique et médicale : 7° de D8-2-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-2-2"
     },
     {
       "code": "cpp",
       "num": "D8-2-6",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Rappel du délit de fausse déclaration : prévention des plaintes abusives.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D8-2-7",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Récépissé et procès-verbal signés électroniquement par le seul enquêteur. Renvoi à l'ancien 801-1 à coordonner.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Rappel du délit de fausse déclaration : 8° de D8-2-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-2-2"
     },
     {
       "code": "cpp",
       "num": "D8-2-8",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Identification sécurisée de la victime, modalités par arrêté.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Identification sécurisée par arrêté : second alinéa de D8-2-7.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-2-7"
     },
     {
       "code": "cpp",
       "num": "D8-2-9",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Plainte en ligne : numérique par défaut, la victime garde le choix du guichet. Mêmes règles pour la plainte en ligne adressée au procureur : un seul régime. Renvoi à l'ancien 40 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D8-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Protection de l'identité de certains agents (ancien 15-4) : P26 examiné, l'anonymat d'un agent exposé n'est ni un huis clos ni une décision non publiée, il est voulu par la loi pour sa sécurité. Liste des responsables qui délivrent l'autorisation.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Plainte en ligne au procureur : chapeau de D8-2-2 et récépissé à D8-2-7.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-2-2"
     },
     {
       "code": "cpp",
       "num": "D8-4",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Protection de l'identité de certains agents (ancien 15-4) : P26 examiné, l'anonymat d'un agent exposé n'est ni un huis clos ni une décision non publiée, il est voulu par la loi pour sa sécurité. Autorisation délivrée par le responsable du service d'affectation.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorité de délivrance selon l'affectation : chapeau de D8-3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-3"
     },
     {
       "code": "cpp",
       "num": "D8-5",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Protection de l'identité de certains agents (ancien 15-4) : P26 examiné, l'anonymat d'un agent exposé n'est ni un huis clos ni une décision non publiée, il est voulu par la loi pour sa sécurité. Autorité de délivrance pour les agents des douanes habilités.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Agents des douanes : dernier alinéa de D8-3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-3"
     },
     {
       "code": "cpp",
       "num": "D8-6",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Protection de l'identité de certains agents (ancien 15-4) : P26 examiné, l'anonymat d'un agent exposé n'est ni un huis clos ni une décision non publiée, il est voulu par la loi pour sa sécurité. Autorité de délivrance pour les agents des services fiscaux habilités.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Agents des services fiscaux : dernier alinéa de D8-3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D8-3"
     },
     {
       "code": "cpp",
-      "num": "D9",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Nom et qualité de l'officier dans tout procès-verbal : traçabilité.",
-      "ligne_rouge": "aucune"
+      "num": "D10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procès-verbal par acte sur commission rogatoire : premier alinéa de D9.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D9"
+    },
+    {
+      "code": "cpp",
+      "num": "D11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Procès-verbal unique en flagrance ou en préliminaire : second alinéa de D9.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D9"
+    },
+    {
+      "code": "cpp",
+      "num": "D12-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Libre choix de la division du service départemental de police judiciaire : L2221-3 (pièce p264) donne au procureur et au juge d'instruction le libre choix des formations.",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "code": "cpp",
+      "num": "D14-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Rapports des agents de police judiciaire adjoints à leurs chefs, transmis sans délai au procureur : L2224-2 et L2222-4 (pièce p264).",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "code": "cpp",
+      "num": "D14-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Collaboration des fonctionnaires de L2241-1 aux enquêtes : dernier alinéa de D3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D3"
+    },
+    {
+      "code": "cpp",
+      "num": "D15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Serment non renouvelé au changement d'affectation, pour toute personne exerçant des missions de police judiciaire : second alinéa de D14.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D14"
+    },
+    {
+      "code": "cpp",
+      "num": "D15-1-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Habilitation par le procureur général de Paris, agrément, stage, retrait : second alinéa de D15-1-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D15-1-2"
+    },
+    {
+      "code": "cpp",
+      "num": "D15-1-4",
+      "decision": "A",
+      "principe": "P15",
+      "motif": "Accord du ministre de la justice aux infiltrations étrangères : les avis préalables tombent (passe 2) ; l'accord lui-même est à la loi (L6222-8) et au code des douanes (article 67 bis-VIII).",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "code": "cpp",
+      "num": "D15-1-5-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Liste des services pour l'appareil de L3556-7 : II de D15-1-5, inchangée.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D15-1-5"
+    },
+    {
+      "code": "cpp",
+      "num": "D15-1-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Liste des services pour la captation de données : III de D15-1-5, inchangée.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D15-1-5"
+    },
+    {
+      "code": "cpp",
+      "num": "D15-2-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Rapports du procureur de la République : D15-2.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le rapport sur les mesures et locaux de garde à vue reste annexé au rapport du procureur (D15-2) et nourrit le rapport public de L3523-16.",
+      "vers": "D15-2"
+    },
+    {
+      "code": "cpp",
+      "num": "D15-3-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Permanences des délégués du procureur : second alinéa de D15-3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D15-3"
+    },
+    {
+      "code": "cpp",
+      "num": "D15-4-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis du parquet sans pôle au parquet du pôle : deuxième alinéa de D15-4-1 ; virgule manquante rétablie par la réécriture.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D15-4-1"
+    },
+    {
+      "code": "cpp",
+      "num": "D15-4-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis du parquet du pôle au parquet sans pôle : dernier alinéa de D15-4-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D15-4-1"
+    },
+    {
+      "code": "cpp",
+      "num": "D15-4-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dépôt des demandes de liberté au greffe du tribunal sans pôle : second alinéa de D15-4-6.",
+      "ligne_rouge": "Art. 66 C et art. 8 DDHC examinés : la faculté de déposer les demandes de mise en liberté au greffe local est gardée mot pour mot dans son sens à D15-4-6.",
+      "vers": "D15-4-6"
     }
-  ]
+  ],
+  "passe": 3
 }
