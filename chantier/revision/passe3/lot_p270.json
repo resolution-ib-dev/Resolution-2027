@@ -1,0 +1,39 @@
+{
+  "lot": "lot_p270",
+  "titre": "Eurojust",
+  "ecart_volume": "",
+  "articles_cible": [
+    {
+      "num": "L2421-1",
+      "texte": "Le règlement (UE) 2018/1727 du Parlement européen et du Conseil du 14 novembre 2018 fixe les missions de l'Agence Eurojust, qui agit en collège ou par son membre national. Celui-ci est un magistrat du troisième grade mis à disposition de l'Agence pour cinq ans, renouvelables une fois, par arrêté du ministre de la justice, qui peut lui adresser des instructions générales selon l'article L. 2111-1.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Eurojust et son membre national en un article : renvoi au règlement (UE) 2018/1727, statut du membre national et instructions générales (L2421-2 fusionné) ; « organe de l'Union doté de la personnalité juridique », rappel du règlement, retiré.",
+      "ligne_rouge": "Aucune."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L2421-2",
+      "verbe": "F",
+      "vers": "L2421-1",
+      "principe": "P23",
+      "motif": "Statut et instructions du membre national : repris à L2421-1.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L2421-1#1": {
+      "destin": "reprise",
+      "vers": "L2421-1"
+    },
+    "L2421-2#1": {
+      "destin": "reprise",
+      "vers": "L2421-1"
+    },
+    "L2421-2#2": {
+      "destin": "reprise",
+      "vers": "L2421-1"
+    }
+  }
+}
