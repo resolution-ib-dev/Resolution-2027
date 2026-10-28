@@ -10,50 +10,72 @@
     {
       "code": "cpp",
       "num": "L2171-1",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Le greffe atteste et certifie : office du greffe.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2171-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Assistance du greffier au magistrat.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2171-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Présence des greffiers auprès des juridictions.",
-      "ligne_rouge": "aucune"
+      "motif": "Office du greffier en un article (L2171-2 et L2171-3 fusionnés). Les « conformément aux dispositions » tombent (P20).",
+      "ligne_rouge": "Office du greffe (P4) : le greffier atteste le déroulement des actes et en certifie l'intégrité, comme en 2029.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le greffier assiste le magistrat aux débats et audiences et dans les actes qu'il cosigne avec lui, dont il atteste le déroulement ou certifie l'intégrité. Il apporte au magistrat une assistance immédiate dans l'accomplissement de son office, notamment dans la mise en état et le traitement des dossiers. Des greffiers sont présents auprès du ministère public et des juridictions répressives."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2172-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Assistants spécialisés : appui technique aux magistrats.",
-      "ligne_rouge": "aucune"
+      "motif": "Assistants spécialisés et attachés de justice (L2173-1 fusionné) : participation sous la responsabilité des magistrats, missions des assistants, interdiction de la délégation de signature hors réquisitions, commune aux deux.",
+      "ligne_rouge": "Office du magistrat : ni les assistants ni les attachés ne reçoivent de délégation de signature, hors les réquisitions.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les assistants spécialisés prévus à l'article L. 123-5 du code de l'organisation judiciaire peuvent participer, sous la responsabilité de magistrats du siège ou du parquet, au traitement des procédures pénales relevant de contentieux techniques ou spécifiques. Ils accomplissent toutes les tâches que ces magistrats leur confient et peuvent notamment :\n1° Assister les juges d'instruction dans tous les actes d'information.\n2° Assister les magistrats du ministère public dans l'exercice de l'action pénale, y compris devant la juridiction d'appel à la demande du procureur général.\n3° Assister les officiers de police judiciaire agissant sur délégation des magistrats.\n4° Remettre aux magistrats des documents de synthèse ou d'analyse qui peuvent être versés au dossier de la procédure.\n5° Mettre en œuvre auprès des agents des finances publiques le droit de communication reconnu aux magistrats en application de l'article 132-22 du code pénal et de l'article L. 142 A du livre des procédures fiscales.\nLes attachés de justice peuvent participer, sous la responsabilité de magistrats du siège ou du parquet, au traitement des procédures pénales, en exerçant les missions prévues à l'article L. 123-4 du code de l'organisation judiciaire.\nLes assistants spécialisés et les attachés de justice ne peuvent recevoir délégation de signature, sauf pour les réquisitions prévues au chapitre 3 du titre Ier du livre V de la troisième partie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2172-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Juridictions auprès desquelles servent les assistants spécialisés.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Juridictions auprès desquelles servent les assistants spécialisés : les six catégories de 2029 couvrent exactement les articles L2152-1 à L2152-29, soit, après la réécriture du titre V (lot p260), L2152-1 à L2152-28. La liste devient ce renvoi.",
+      "ligne_rouge": "aucune (passe 1) : le champ est inchangé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les assistants spécialisés peuvent être nommés pour exercer leurs fonctions auprès des pôles de l'instruction et auprès des juridictions et des parquets spécialisés prévus aux articles L. 2152-1 à L. 2152-28. Auprès des juridictions parisiennes spécialisées en application de l'article L. 2152-1, peuvent être nommés des assistants spécialisés pour la prévention des actes de terrorisme."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2171-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Assistance du greffier portée à L2171-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2171-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L2171-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Présence des greffiers portée à L2171-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2171-1"
     },
     {
       "code": "cpp",
       "num": "L2173-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Attachés de justice.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Attachés de justice portés à L2172-1, avec la règle commune de délégation de signature.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2172-1"
     }
-  ]
+  ],
+  "passe": 3
 }
