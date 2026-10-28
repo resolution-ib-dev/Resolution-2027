@@ -10,761 +10,791 @@
     {
       "code": "cpp",
       "num": "R251",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Spécialité législative (art. 74 et 77 C) : le décret ne s'applique que sur mention expresse, dans sa rédaction datée, sauf les articles exclus. Technique imposée par le statut. Le compteur et la liste des exclusions se mettent à jour avec le décret qui portera la réécriture. L'exclusion des alinéas 8 et 9 de R65 reste juste (lot p032).",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Clause d'application (spécialité législative, art. 74 et 77 C) : version fixée par le décret qui portera la réécriture (registre 7.4, comme R. 751-1 du code pénitentiaire), exclusions écrites une fois pour les trois collectivités. Les exclusions sont refaites sur le texte cible : R. 93-2 et R. 93-3 sont fusionnés dans R. 93-1, dont les règles visent les 1° du I et 9° du II de R. 93, écartés par R. 256. R. 96 est fusionné dans R. 95 : seul son premier alinéa (chemin de fer) reste exclu, la réquisition au transporteur s'applique (ce que R. 312, abrogé en passe 2, supposait).",
+      "ligne_rouge": "art. 2 DDHC examiné : les traitements du casier national qui ne s'appliquent pas au casier local de la Nouvelle-Calédonie restent exclus, sans élargissement",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent code (décrets en Conseil d'État) s'applique en Nouvelle-Calédonie, en Polynésie française et dans les îles Wallis et Futuna dans sa rédaction résultant du décret n° [numéro] du [date], avec les adaptations du présent titre. En sont exceptés :\n1° Dans les trois collectivités, les articles R. 15-29 à R. 15-33, R. 15-33-43, R. 15-33-59, R. 48-1 et R. 53-51 à R. 53-56 et le premier alinéa de l'article R. 95.\n2° En Nouvelle-Calédonie, le I de l'article R. 49-8-3 et les articles R. 49-8-5 à R. 49-19.\n3° En Polynésie française et dans les îles Wallis et Futuna, les articles R. 49-8-1 à R. 49-19.\n4° En Nouvelle-Calédonie et dans les îles Wallis et Futuna, les articles R. 63, R. 64, R. 65-1, R. 66-2, R. 70-1, R. 84-1 à R. 84-5 et R. 90-1 et les huitième et neuvième alinéas de l'article R. 65."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R252",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Grille de substitution des institutions (représentant de l'Etat, tribunal de première instance, agent chargé du recouvrement, tribunal du travail) et filet des références inapplicables : règle propre au territoire. Le 7° couvre déjà le « comptable de la direction générale des finances publiques » que R49-5 réécrit retient.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R253",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Peines pécuniaires prononcées en monnaie locale : règle propre au territoire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R254",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Tarif des frais de justice converti en monnaie locale : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Substitutions générales et monnaie locale : R. 253 et R. 254 y fusionnent, R. 265 aussi (services de la direction générale des finances publiques). Le comptable public, que R. 42, R. 43 et R. 48 nomment désormais, s'ajoute à l'agent chargé du recouvrement, comme le faisait la réécriture locale de R. 48. Le régisseur de recettes est nommé comme dans R. 19 à R. 23-1 (« de recettes », la base disait « des recettes »).",
+      "ligne_rouge": "art. 8 DDHC examiné : la conversion en monnaie locale suit la contre-valeur de l'euro et ne change aucune peine ; la clause de substitution ne définit aucune incrimination",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application du présent code en Nouvelle-Calédonie, en Polynésie française et dans les îles Wallis et Futuna :\n1° La collectivité d'outre-mer ou la Nouvelle-Calédonie tient lieu de département, le représentant de l'État de préfet et de sous-préfet, et l'Institut d'émission d'outre-mer de Banque de France.\n2° Le tribunal de première instance ou, le cas échéant, sa section détachée tient lieu de tribunal judiciaire, le procureur de la République près le tribunal de première instance de procureur de la République, et le chef du greffe de greffier.\n3° L'agent chargé du recouvrement des amendes tient lieu de comptable public, de régisseur de recettes et de comptable ou de service de la direction générale des finances publiques.\n4° Le salaire minimum horaire garanti tient lieu de salaire minimum interprofessionnel de croissance, et le tribunal du travail de conseil de prud'hommes.\n5° Dans les îles Wallis et Futuna, le chef de circonscription tient lieu de maire, la circonscription de commune, et l'autorité administrative compétente pour assurer le service public pénitentiaire de chef d'établissement pénitentiaire. Les références au directeur des services pénitentiaires d'insertion et de probation y sont sans objet.\n6° Les sanctions pécuniaires sont prononcées en monnaie locale, et le tarif des frais de justice exprimé en euros y est converti, compte tenu de la contre-valeur de l'euro dans cette monnaie.\n7° Les références à des dispositions qui n'y sont pas applicables visent les dispositions applicables localement ayant le même objet."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R256",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Le délai de quinze jours ouvert à l'officier de police judiciaire avant un refus d'habilitation court de la première liaison quand il sert dans une autre île : le délai part de la connaissance effective.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : l'intéressé dispose réellement de son délai pour consulter son dossier"
+      "principe": "P3",
+      "motif": "Table des adaptations propres au Pacifique (technique 1) : les articles qui réécrivaient un article entier pour n'y changer qu'un mot deviennent des points. Chaque adaptation est refaite sur le texte cible des lots p032, p033, p162, p221 et p224 : le casier local de la Nouvelle-Calédonie en un point au lieu de vingt réécritures de R. 62 à R. 90, l'ordonnance pénale dans les îles sans poste en un point sur R. 42 à R. 48, les tarifs que l'arrêté tarifaire fixe désormais renvoyés à cet arrêté, le plancher de R. 129 restant au décret et la conversion de R. 252 jouant à défaut d'arrêté. R. 267 est rétabli en un point (25°) : la faculté de prendre un parent ou un ami pour conseil vit à L. 4311-4. Les adaptations que la clause de substitution de R. 252 couvre, ou qui visent un texte disparu, tombent.",
+      "ligne_rouge": "art. 8 DDHC examiné : montants de l'amende forfaitaire fixés par les autorités locales dans les limites de leurs lois organiques ; délais de paiement et d'opposition de l'ordonnance pénale allongés pour les îles sans poste ; recouvrement des frais de tutelle selon les textes locaux ; aucune peine changée",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application du présent code en Nouvelle-Calédonie, en Polynésie française et dans les îles Wallis et Futuna :\n1° À l'article R. 15-1, le délai de quinze jours court de la première liaison aérienne ou maritime lorsque l'intéressé est en fonction dans une île autre que celle où siège la cour d'appel.\n2° Aux articles R. 15-12 et R. 15-14, les notifications au requérant sont faites par l'intermédiaire de l'autorité militaire ou administrative hiérarchique, qui délivre un avis contre émargement. Le délai de douze jours de l'article R. 15-12 est d'un mois, et celui de cinq jours de l'article R. 15-13 de quinze jours.\n3° L'article R. 15-28 s'applique à tous les officiers et agents de police judiciaire, sans référence aux articles R. 15-29 à R. 15-33.\n4° Dans les îles Wallis et Futuna, le président et le procureur de la République du tribunal de première instance exercent les attributions que l'article R. 15-37 confie à l'assemblée générale des magistrats du siège et du parquet.\n5° Lorsqu'une régie de recettes est installée auprès du greffe, le cautionnement prévu à l'article R. 19 est versé au régisseur.\n6° Des assises se tiennent à Nouméa, à Papeete et à Mata-Utu.\n7° Lorsque le prévenu réside dans une île qui n'est pas desservie par un service régulier des postes, l'ordonnance pénale lui est notifiée par l'autorité administrative ou militaire, qui lui remet sans délai, contre émargement, un avis mentionnant la date de la demande de notification du greffier. Le délai de paiement de l'article R. 43 et celui du recouvrement de l'article R. 48 sont alors de soixante jours à compter de cette notification. L'avis émargé et les références qu'il porte tiennent lieu de la notification à l'appui du paiement et de l'opposition.\n8° En Nouvelle-Calédonie et en Polynésie française, le montant de l'amende forfaitaire et celui de l'amende forfaitaire majorée sont fixés respectivement par le congrès de la Nouvelle-Calédonie et par le conseil des ministres de la Polynésie française, dans les limites de l'article 86 de la loi organique n° 99-209 du 19 mars 1999 relative à la Nouvelle-Calédonie et de l'article 94 de la loi organique n° 2004-192 du 27 février 2004 portant statut d'autonomie de la Polynésie française.\n9° À l'article R. 49-1, la dernière phrase du deuxième alinéa et le troisième alinéa ne s'appliquent pas.\n10° En Polynésie française, le conseil des ministres fixe le modèle du carnet de quittances à souches prévu à l'article R. 49-2.\n11° En Nouvelle-Calédonie, aux articles R. 49-8-1 et R. 49-8-4, le 7° de l'article L. 8321-1 tient lieu de l'article L. 3222-7.\n12° Aux articles R. 50-17, R. 50-20 et R. 50-22, les convocations, informations et décisions destinées au demandeur peuvent aussi lui être notifiées par l'autorité administrative, contre émargement.\n13° Par dérogation à l'article R. 50-28, le délai de deux mois de l'article R. 50-17 est augmenté d'un mois pour les personnes qui ne demeurent pas dans la collectivité où la commission a son siège.\n14° En Nouvelle-Calédonie, un casier judiciaire tenu au tribunal de première instance par le greffier en chef, sous la surveillance du procureur de la République et du procureur général, reçoit les fiches des personnes physiques nées dans son ressort et des personnes morales qui y ont leur siège. Pour ces personnes, le greffier exerce les attributions que les articles R. 65 à R. 90 confient au service du casier judiciaire national automatisé, et les fiches, avis et demandes de bulletins lui sont adressés. Il adresse au casier judiciaire national automatisé les copies des fiches destinées à l'échange international. Avant d'établir un bulletin, il vérifie l'état civil sur les registres de l'état civil, ou l'immatriculation de la personne morale au répertoire d'identification des entreprises. Si aucun acte de naissance n'est applicable, il le mentionne sur le bulletin n° 1 et refuse le bulletin n° 3 en informant le procureur de la République. S'il ne dispose pas des actes de l'état civil, il porte sur le bulletin la mention « identité non vérifiée », et pour la personne morale non immatriculée la mention « identité non vérifiable ». Le bulletin n° 3 peut aussi être délivré à la personne qui se présente au greffe et justifie de son identité. Si le demandeur ne sait ou ne peut signer, le maire ou le commissaire de police constate cette impossibilité et atteste que la demande est faite au nom et à l'initiative de l'intéressé.\n15° Au 4° de l'article R. 69, l'autorité dont émane la décision tient lieu de ministre de l'intérieur. À l'article R. 75, l'autorité administrative compétente tient lieu d'Institut national de la statistique et des études économiques. Le second alinéa de l'article R. 90 ne s'applique pas.\n16° À l'article R. 93 :\na) Le 10° du I s'applique sans sa référence au règlement (UE) 2020/1783 du 25 novembre 2020.\nb) Le 9° du II ne s'applique pas.\nc) En Nouvelle-Calédonie et en Polynésie française, le 12° du I ne vise pas l'avance de frais prévue au livre VI du code de commerce, et le 5° du II et la signification de l'article 1136-3 du code de procédure civile mentionnée au 3° du II ne s'appliquent pas.\nd) En Nouvelle-Calédonie, le 11° du I ne s'applique pas.\ne) Dans les îles Wallis et Futuna, le 1° du I ne s'applique pas.\n17° Pour l'application de l'article R. 117, les tarifs fixés localement pour des actes similaires tiennent lieu des tarifs conventionnels fixés en application de l'article L. 162-14-1 du code de la sécurité sociale.\n18° Par dérogation à l'article R. 134, le témoin ou le juré hors d'état de payer son déplacement reçoit, à sa demande et sur présentation de sa convocation ou de sa citation, une réquisition de transport délivrée par le commandant de la brigade de gendarmerie.\n19° Le représentant de l'État fixe le tarif de garde des véhicules prévu à l'article R. 147.\n20° L'indemnité de séjour du commissaire de justice prévue à l'article R. 181 est égale à celle des personnels civils de l'État.\n21° L'arrêté tarifaire peut fixer des montants propres à ces collectivités.\n22° Au premier alinéa de l'article R. 217, les mots : « selon les procédures et sous les garanties prévues en matière d'amende pénale » sont remplacés par les mots : « selon les textes applicables dans la collectivité », et la seconde phrase du second alinéa est remplacée par la phrase : « Il fixe, s'il y a lieu, les frais qui restent à la charge de la personne protégée. » À l'article R. 218, les mêmes mots sont remplacés par les mots : « comme frais de justice pénale ».\n23° En Nouvelle-Calédonie, l'article R. 217-1 s'applique dans sa rédaction résultant du décret n° 2008-1485 du 22 décembre 2008.\n24° Au 2° de l'article R. 224-2, la part contributive de la collectivité s'ajoute à celle de l'État.\n25° Lorsque le président autorise l'accusé à prendre pour conseil un parent ou un ami selon l'article L. 4311-4, le bulletin n° 2 du casier judiciaire de cette personne est versé au dossier de la procédure."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R253",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Monnaie locale : 6° de R. 252.",
+      "ligne_rouge": "aucune",
+      "vers": "R252"
+    },
+    {
+      "code": "cpp",
+      "num": "R254",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Tarif des frais de justice converti : 6° de R. 252.",
+      "ligne_rouge": "aucune",
+      "vers": "R252"
     },
     {
       "code": "cpp",
       "num": "R257",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Recours contre le retrait d'habilitation : notification par l'autorité hiérarchique contre émargement et délai porté à un mois, faute de service postal régulier dans les îles. règle propre au territoire. La fusion avec R363 (Mayotte) est écartée : chaque titre suit le statut de sa collectivité.",
-      "ligne_rouge": "aucune"
+      "motif": "Notifications et délai du recours en matière d'habilitation : 2° de R. 256, sur R. 15-12 réécrit (lot p329), où le délai de douze jours reste écrit.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R258",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Délai d'indication des témoins porté de cinq à quinze jours : distances insulaires, règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Délai d'indication des témoins : 2° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R259",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Notification de la décision de la commission par l'autorité hiérarchique contre émargement : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Notification de la décision de la commission : 2° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R260",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Commission d'examen des agents de police judiciaire dans les ressorts de Nouméa et de Papeete, composée des services locaux : organisation propre aux territoires.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Commission d'examen des agents de police judiciaire à Nouméa et Papeete : R. 15-17 est abrogé au lot p329 (L. 2223-1 donne la qualité d'agent de police judiciaire aux fonctionnaires des services actifs sans examen). Sans objet.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R261",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Compétence des officiers et agents dans les transports collectifs, sans renvoi aux services métropolitains de R15-29 à R15-33, exclus par R251 : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Compétence dans les transports collectifs : 3° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R261-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Références au code des communes local à la place du code général des collectivités territoriales : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Remplaçait le code général des collectivités territoriales par le code des communes local à R. 15-33-29-3 : le 7° de R. 252 le fait.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R261-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Réquisitions électroniques : opérateurs et organismes sociaux désignés sans les codes métropolitains inapplicables : règle propre au territoire.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la liste locale ne s'étend pas au-delà de la liste métropolitaine"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Retirait de R. 15-33-68 les renvois aux codes métropolitains : le 7° de R. 252 vise les dispositions locales de même objet.",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R262",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Journal officiel de la collectivité pour la déclaration des associations : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Journal officiel de la collectivité au 1° de R. 15-35 : la composition du dossier de l'association descend à l'arrêté du ministre de la justice (lot p327), qui peut désigner le journal officiel local.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R263",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "A Wallis-et-Futuna, le président et le procureur du tribunal tiennent lieu d'assemblée générale pour habiliter les enquêteurs de personnalité : juridiction trop petite pour une assemblée.",
-      "ligne_rouge": "aucune"
+      "motif": "Habilitation des enquêteurs de personnalité à Wallis-et-Futuna : 4° de R. 256, sur R. 15-37 où R. 15-38 à R. 15-40 sont fusionnés (lot p327).",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R264",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Cautionnement versé au régisseur lorsque la régie existe auprès du greffe : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Cautionnement versé au régisseur : 5° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R265",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Agent chargé du recouvrement des amendes à la place des services de la direction générale des finances publiques : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Services de la direction générale des finances publiques : 3° de R. 252.",
+      "ligne_rouge": "aucune",
+      "vers": "R252"
     },
     {
       "code": "cpp",
       "num": "R265 bis",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Références locales pour l'enregistrement des empreintes des personnes décédées : règle propre au territoire. Renvoi à l'ancien 814-2 à coordonner.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Remplaçait au 8° de R. 40-38-2 le renvoi au code général des collectivités territoriales par le code des communes de la Nouvelle-Calédonie et par l'ancien 814-2, sans numéro dans le code de 2029 : le 7° de R. 252 vise les dispositions locales de même objet.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R266",
-      "decision": "G",
+      "decision": "F",
       "principe": "P17",
-      "motif": "Sièges des cours d'assises à Nouméa, Papeete et Mata-Utu : le jugement par des citoyens se tient sur place.",
-      "ligne_rouge": "aucune"
+      "motif": "Sièges des assises : 6° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R267",
-      "decision": "G",
+      "decision": "F",
       "principe": "P25",
-      "motif": "Le bulletin n° 2 du parent ou ami choisi comme conseil par l'accusé est versé au dossier : la faculté de défense reste ouverte, la juridiction connaît le conseil. Fusion avec R373 (Mayotte) écartée, chaque titre suit son statut. Renvoi à l'ancien 275 à coordonner.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : le choix du conseil reste libre"
+      "motif": "Bulletin n° 2 du parent ou ami que l'accusé prend pour conseil : 25° de R. 256, sur L. 4311-4 où vit la faculté de l'ancien 275.",
+      "ligne_rouge": "art. 16 DDHC examiné : la faculté de défense reste ouverte (L. 4311-4), la juridiction connaît le conseil",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R268",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Ordonnance pénale : notification par l'autorité administrative contre émargement pour qui réside dans une île sans service postal régulier. S'insère après le premier alinéa de R42, électronique par défaut (lot p162) : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P12",
+      "motif": "Notification de l'ordonnance pénale dans les îles sans poste : 7° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R269",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Délai de paiement porté à soixante jours pour la notification administrative, références « ou sur l'avis » : règle propre au territoire. L'ajout en fin du dernier alinéa de R43 réécrit (lot p162) se lit encore.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : le montant ne change pas, seul le délai suit la distance, l'opposition reste ouverte"
+      "decision": "F",
+      "principe": "P12",
+      "motif": "Paiement à soixante jours : 7° de R. 256.",
+      "ligne_rouge": "art. 8 DDHC examiné : le délai de paiement de soixante jours reste écrit au 7° de R. 256",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R270",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Opposition à l'ordonnance pénale : renvoi local à 849 et avis émargé, règle propre au territoire. R45 réécrit (lot p162) dit « la notification » et non plus « la lettre de notification » : le mot visé suit, sinon l'adaptation ne s'applique plus.",
+      "decision": "F",
+      "principe": "P12",
+      "motif": "Opposition sur l'avis émargé : 7° de R. 256. Le délai d'opposition de deux mois hors de l'île est aux tables des titres II des livres III à V.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "après les mots : \" la lettre de notification \" les mots",
-          "nouveau": "après les mots : \" la notification \" les mots"
-        }
-      ]
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R271",
-      "decision": "S",
+      "decision": "F",
       "principe": "P12",
-      "motif": "Recouvrement de l'ordonnance pénale à trente jours, soixante pour la notification administrative : gardé. Le délai court de l'envoi de la notification, électronique par défaut, comme dans R48 réécrit (lot p162).",
+      "motif": "Recouvrement à soixante jours : 7° de R. 256, l'agent chargé du recouvrement au 3° de R. 252.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "à compter de la date d'envoi de la lettre recommandée prévue à l'article R. 42, alinéa 1",
-          "nouveau": "à compter de la date d'envoi de la notification prévue à l'article R. 42, alinéa 1"
-        }
-      ]
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R272",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Montant de l'amende forfaitaire fixé par le congrès de la Nouvelle-Calédonie et le conseil des ministres de la Polynésie française, dans les limites de leurs lois organiques : compétence statutaire (art. 74 et 77 C).",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'amende forfaitaire reste plafonnée par la loi organique, la contestation reste ouverte"
+      "motif": "Montant de l'amende forfaitaire fixé localement : 8° de R. 256.",
+      "ligne_rouge": "art. 8 DDHC examiné : compétence locale dans les limites des lois organiques, aucune peine changée",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R273",
-      "decision": "S",
+      "decision": "F",
       "principe": "P12",
-      "motif": "La suppression de la dernière phrase du deuxième alinéa et du troisième alinéa de R49-1 suit les conditions locales : gardée. Elle emportait aussi le quatrième alinéa, le procès-verbal électronique du II, qui n'est qu'une faculté : il reste ouvert localement.",
+      "motif": "Avis de contravention : 9° de R. 256.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "la dernière phrase du deuxième alinéa et les troisième et quatrième alinéas sont supprimés",
-          "nouveau": "la dernière phrase du deuxième alinéa et le troisième alinéa sont supprimés"
-        }
-      ]
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R274",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Modèle du carnet de quittance fixé par le conseil des ministres de la Polynésie française : compétence statutaire.",
-      "ligne_rouge": "aucune"
+      "motif": "Carnet de quittances en Polynésie française : 10° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R275",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "La référence à l'ancien 529-5, inapplicable localement, est retirée de R49-5 : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Retirait de R. 49-5 la référence à l'ancien 529-5, devenu L. 4223-34 : les articles L. 4223-31 à L. 4223-43 ne s'appliquent pas dans le Pacifique (L. 8311-1, L. 8411-1, L. 8511-1), la référence est sans effet.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R276",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Montant de l'amende forfaitaire majorée fixé par les autorités de la Nouvelle-Calédonie et de la Polynésie française : compétence statutaire.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : la majoration reste encadrée par la loi organique, la contestation reste ouverte"
+      "motif": "Montant de l'amende forfaitaire majorée : 8° de R. 256.",
+      "ligne_rouge": "art. 8 DDHC examiné : compétence locale, désormais dans les limites des lois organiques, aucune peine changée",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R277",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Références locales (850-1) pour l'agrément des agents des transports en Nouvelle-Calédonie : règle propre au territoire. Renvois aux anciens 529-3, 529-4 et 850-1 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Agrément des agents des transports en Nouvelle-Calédonie : 11° de R. 256, refait sur L. 3222-7 et sur le 7° de L. 8321-1 (ancien 850-1).",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R278",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Haut-commissaire à la place du préfet pour le dossier des agents des transports : autorité propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Remplaçait le préfet par le haut-commissaire à R. 49-8-2 : le 1° de R. 252 fait du représentant de l'État le destinataire du dossier.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R279",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Référence locale (850-1) pour la justification de l'agrément : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Justification de l'agrément : 11° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R284",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Indemnisation des victimes : convocations et décisions par lettre recommandée ou notification administrative contre émargement, faute de service postal partout. Elle suit la forme métropolitaine de R50-17 à R51, que leur lot rendra électronique : l'adaptation n'en dépend pas.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P12",
+      "motif": "Notification administrative au demandeur d'indemnisation : 12° de R. 256. R. 51 ne vise plus de demandeur.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R285",
-      "decision": "G",
+      "decision": "F",
       "principe": "P11",
-      "motif": "Délai de deux mois de R50-17 augmenté d'un mois pour qui demeure hors de la collectivité : le délai suit la distance.",
-      "ligne_rouge": "aucune"
+      "motif": "Délai augmenté d'un mois hors de la collectivité : 13° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R286",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Immatriculation et action sociale selon la réglementation locale : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Remplaçait les registres du commerce et le code de l'action sociale et des familles par la réglementation locale : le 7° de R. 252 le fait.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R287",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Références aux codes métropolitains dans les mesures de R53-40 applicables seulement s'il existe un texte local de même objet : filet de la spécialité législative.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Adaptait aux codes métropolitains les mesures d'un R. 53-40 qui n'existe plus : R. 53-40 porte désormais la requête de géolocalisation (lot p230). Sans objet.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R290",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Casier judiciaire de la Nouvelle-Calédonie tenu au tribunal de première instance sous la surveillance du parquet, partage avec le casier national : règle propre au territoire (R62 gardé, lot p032).",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : le fichier local reste sous contrôle d'un magistrat"
+      "motif": "Casier judiciaire de la Nouvelle-Calédonie : 14° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R291",
-      "decision": "S",
+      "decision": "F",
       "principe": "P12",
-      "motif": "Transmission des fiches au casier local : la voie électronique devient la règle, le papier l'exception, comme dans R66-1 réécrit (lot p032). Le support magnétique disparaît.",
+      "motif": "Transmission des fiches au casier local : 14° de R. 256, par la voie de R. 66-1.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "soit sur un support papier, soit sous la forme d'un enregistrement magnétique, soit par voie électronique sécurisée",
-          "nouveau": "par voie électronique sécurisée ou, à défaut, sur support papier"
-        }
-      ]
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R292",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Fiches des décisions disciplinaires et des arrêtés d'expulsion vers le casier du lieu de naissance ou le casier national : règle propre au territoire. R67 réécrit (lot p032) suit déjà la formule locale (autorité qui a pris l'arrêté).",
-      "ligne_rouge": "aucune"
+      "motif": "Fiches disciplinaires et arrêtés d'expulsion : 14° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R293",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Classement des fiches au casier local : règle propre au territoire (R68 gardé pour ce renvoi, lot p032).",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Classement des fiches au casier local : gestion interne du greffe, qui relève d'un arrêté du garde des sceaux.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R294",
-      "decision": "S",
+      "decision": "F",
       "principe": "P19",
-      "motif": "Avis d'exécution portés aux fiches du casier local : gardés. Ils partaient « dans le plus bref délai » : ils ont le délai opposable de R69 réécrit (lot p032). Renvois aux anciens 769 et 769-1 à coordonner.",
+      "motif": "Avis portés aux fiches du casier local : 14° de R. 256 et 15° de R. 256, sous le délai de R. 69.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "L'avis est adressé dans le plus bref délai au procureur de la République",
-          "nouveau": "L'avis est adressé, dans les [quinze jours] qui suivent la décision ou l'événement qu'il constate, au procureur de la République"
-        }
-      ]
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R295",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Retrait des fiches par le greffier du tribunal de première instance : la règle de décès ou de cent vingt ans suit R70 réécrit (lot p032), dont les deux premiers alinéas restent en place.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la fiche s'efface au décès ou à cent vingt ans"
+      "motif": "Retrait des fiches par le greffier : 14° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R296",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Avis des condamnations étrangères reçus au casier du lieu de naissance ou au casier national : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Condamnations étrangères : 14° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R297",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Transmission des fiches des personnes nées en Nouvelle-Calédonie à la juridiction du territoire : règle nécessaire (R72 gardé, lot p032). Coquille « nées ou en Nouvelle-Calédonie » corrigée.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Pour les personnes nées ou en Nouvelle-Calédonie",
-          "nouveau": "Pour les personnes nées en Nouvelle-Calédonie"
-        }
-      ]
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Transmission au casier local des fiches des personnes nées en Nouvelle-Calédonie : R. 72 la porte désormais (lot p032).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R298",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Copies des fiches pour l'échange international par le greffier local : règle propre au territoire. La transition métropolitaine retirée de R73 (lot p032) n'y figure pas.",
-      "ligne_rouge": "aucune"
+      "motif": "Copies pour l'échange international : 14° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R299",
       "decision": "A",
       "principe": "P20",
-      "motif": "Adapte R74 (copies des fiches aux directions du recrutement militaire), abrogé au lot p032 : sans objet. Coordination demandée par ce lot.",
+      "motif": "Abrogé en passe 2 avec R. 74.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R300",
-      "decision": "G",
+      "decision": "F",
       "principe": "P6",
-      "motif": "Copie à l'autorité administrative des privations de droits électoraux et de leur terme : la peine complémentaire s'applique et la capacité revient à son terme (R75 gardé, lot p032).",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : seules l'incapacité et sa date de fin sont communiquées"
+      "motif": "Privation des droits électoraux : 15° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R301",
-      "decision": "S",
+      "decision": "F",
       "principe": "P12",
-      "motif": "Demande du bulletin n° 1 au casier local : la voie électronique sécurisée devient la règle, la lettre l'exception, comme dans R76 réécrit (lot p032). Le télégramme et la télécopie disparaissent. Renvoi à l'ancien 774 à coordonner.",
+      "motif": "Demande du bulletin n° 1 : 14° de R. 256.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "par lettre, télégramme, télécopie ou télétransmission, indiquant",
-          "nouveau": "par voie électronique sécurisée ou, à défaut, par lettre, indiquant"
-        }
-      ]
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R302",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Vérification de l'état civil avant le bulletin n° 1 par le greffier local : exactitude des données (R77 gardé, lot p032).",
-      "ligne_rouge": "aucune"
+      "motif": "Vérification de l'état civil avant le bulletin n° 1 : 14° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R303",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Vérification de l'immatriculation de la personne morale par le greffier local (R77-1 gardé, lot p032).",
-      "ligne_rouge": "aucune"
+      "motif": "Vérification de l'immatriculation de la personne morale : 14° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R304",
-      "decision": "G",
+      "decision": "A",
       "principe": "P3",
-      "motif": "Destinataires locaux du bulletin n° 2 aux 10°, 14° et 19° de R79 : règle propre au territoire. R79 réécrit (lot p032) retire les 6° et 21° sans renuméroter : les numéros visés restent justes.",
-      "ligne_rouge": "aucune"
+      "motif": "Adaptait les 10°, 14° et 19° de R. 79. Alignement (P3), effet déclaré : le bulletin n° 2 est désormais délivré dans le Pacifique aux conseils de l'ordre des pharmaciens et aux employeurs qui contrôlent les emplois au contact de mineurs, et il cesse de l'être aux institutions de l'ancien L. 351-2 du code du travail et aux hôpitaux publics.",
+      "ligne_rouge": "art. 2 DDHC examiné : destinataires alignés sur la métropole, dans le cadre de L. 5514-10"
     },
     {
       "code": "cpp",
       "num": "R305",
-      "decision": "S",
+      "decision": "F",
       "principe": "P12",
-      "motif": "Demande du bulletin n° 2 au casier local : voie électronique sécurisée par défaut, lettre à défaut, comme dans R80 réécrit (lot p032).",
+      "motif": "Demande du bulletin n° 2 : 14° de R. 256.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "par lettre, télégramme, télécopie ou télétransmission, avec",
-          "nouveau": "par voie électronique sécurisée ou, à défaut, par lettre, avec"
-        }
-      ]
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R306",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Bulletin n° 3 demandé par la personne, par lettre ou voie électronique, chef de circonscription à Wallis-et-Futuna : règle propre au territoire.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : le bulletin n° 3 n'est délivré qu'à la personne"
+      "motif": "Bulletin n° 3 : 14° de R. 256, le chef de circonscription des îles Wallis et Futuna au 5° de R. 252.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R307",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Vérification de l'état civil avant le bulletin n° 3 par le greffier local (R83 gardé, lot p032).",
-      "ligne_rouge": "aucune"
+      "motif": "Vérification avant le bulletin n° 3 : 14° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R308",
-      "decision": "G",
+      "decision": "F",
       "principe": "P10",
-      "motif": "Mandats et condamnations non exécutés signalés au parquet dès qu'un bulletin est demandé : le casier sert l'exécution de la peine (R88 gardé, lot p032).",
-      "ligne_rouge": "aucune"
+      "motif": "Mandats et condamnations non exécutés : 14° de R. 256, qui confie au greffier les attributions de R. 88.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R309",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Suppression du second alinéa de R90 (modèle INSEE de la capacité électorale) : l'INSEE n'y tient pas les listes. règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Second alinéa de R. 90 : 15° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R310",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Adaptations de la liste des frais assimilés de R93 au droit civil et social local : règle propre au territoire.",
+      "motif": "Frais assimilés de R. 93 : 16° de R. 256, refait sur la numérotation cible.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
+    },
+    {
+      "code": "cpp",
+      "num": "R312",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Abrogé en passe 2 : la réquisition au transporteur vaut partout (second alinéa de R. 95).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R318",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Indemnité de comparution des experts : formules locales, en concordance avec R112.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Formules locales de l'indemnité des experts : R. 112 est fusionné dans R. 129, qui renvoie les montants à l'arrêté tarifaire. Les montants locaux relèvent de cet arrêté (R. 256).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R319",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Tarif local d'analyse des échantillons, en francs CFP : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Tarif local de R. 116, abrogé au lot p033 : sans objet.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R320",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Médecine légale rémunérée selon les tarifs fixés localement, la sécurité sociale relevant de la collectivité : règle gardée. R117 vise désormais l'article L. 162-14-1 du code de la sécurité sociale et non plus L. 162-15-2 : les mots visés suivent, sinon l'adaptation ne s'applique plus. La fusion avec R406 (Mayotte) est écartée.",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Médecine légale aux tarifs locaux : 17° de R. 256.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\" fixés en application de l'article L. 162-15-2 du code de la sécurité sociale \"",
-          "nouveau": "\" fixés sur le fondement de l'article L. 162-14-1 du code de la sécurité sociale \""
-        }
-      ]
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R322",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Forfait local d'expertise mécanique, en francs CFP : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Forfait local de R. 120-1, abrogé au lot p033 : sans objet.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R323",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Tarif de traduction de R122 converti selon R254 : une ligne.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Tarif de traduction converti selon R. 254 : le 6° de R. 252 convertit tout tarif.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R324",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Indemnité de comparution des témoins : formule locale gardée. R129 porte « I = 1,5 + (S x 4) » et non « I = 10 + (S x 4) » : la formule visée suit.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\" I = 10 + (S x 4) \"",
-          "nouveau": "\" I = 1,5 + (S x 4) \""
-        }
-      ]
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Formule locale de l'indemnité des témoins : R. 129 renvoie les montants à l'arrêté tarifaire, qui fixe les montants locaux (R. 256).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R325",
       "decision": "A",
       "principe": "P20",
-      "motif": "Remplace « les six premiers alinéas » de R133, qui n'en compte plus qu'un et renvoie déjà au régime des déplacements des personnels civils de l'Etat (R133 gardé, lot p033). Adaptation sans objet. Perte à dire : la mention explicite du tarif de la classe la plus économique, que le régime des personnels civils porte déjà.",
+      "motif": "Abrogé en passe 2.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R326",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Réquisition de transport délivrée par la brigade de gendarmerie au témoin sans ressources : règle propre au territoire, qui ne dépend pas des mots de R134 réécrit (lot p033).",
-      "ligne_rouge": "aucune"
+      "motif": "Réquisition de transport par la gendarmerie : 18° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R328",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Indemnité journalière des jurés : formule locale gardée. R140 porte « I = 6 + (S x 8) » et non « I = 40 + (S x 8) » : la formule visée suit.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\" I = 40 + (S x 8) \"",
-          "nouveau": "\" I = 6 + (S x 8) \""
-        }
-      ]
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Formule locale de l'indemnité des jurés : R. 140 est fusionné dans R. 129, qui renvoie les montants à l'arrêté tarifaire (R. 256).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R329",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Transport des jurés au régime des experts et réquisition de transport locale : le jugement par des citoyens ne coûte pas au citoyen.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Transport des jurés au régime des experts : R. 141 est fusionné dans R. 110, qui le règle pour tous, et le renvoi à R. 134 est au point de la réquisition de transport.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R330",
-      "decision": "G",
+      "decision": "F",
       "principe": "P17",
-      "motif": "Juré sans ressources : réquisition de transport locale (R326).",
-      "ligne_rouge": "aucune"
+      "motif": "Juré sans ressources : 18° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R331",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Garde des scellés en francs CFP, véhicules au tarif du haut-commissaire : règle propre au territoire. Renvois aux anciens 54, 56, 97 et 151 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Garde des scellés et des véhicules : 19° de R. 256, les montants à l'arrêté tarifaire.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R332",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Garde du véhicule immobilisé à titre de peine au tarif du haut-commissaire : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Garde du véhicule immobilisé : 19° de R. 256 (R. 147-1 est fusionné dans R. 147).",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R334",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "La réécriture locale du premier alinéa de R165 ne changeait que le tarif à la page, mais emportait la copie numérisée par défaut que R165 réécrit porte dans ce même alinéa (lot p033). L'adaptation se réduit au tarif.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Pour l'application de l'article R. 165, la somme de : “ 0,46 euro ˮ est remplacée par celle de : “ 0,84 euros (100 F CFP) ˮ."
-        }
-      ]
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Tarif local de la page : R. 165 renvoie les montants à l'arrêté tarifaire (R. 256).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R335",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Forfait local de citation et de signification : en concordance avec R181.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Forfait local de citation : R. 181 renvoie les montants à l'arrêté tarifaire (R. 256).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R336",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Supplément local pour remise à personne : en concordance avec R182.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Supplément local de remise à personne : R. 182 est fusionné dans R. 181, montants à l'arrêté tarifaire (R. 256).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R336-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Forfaits locaux de la signification électronique : en concordance avec R182-1. Fusion avec R417-4 écartée, chaque titre suit son statut.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Forfaits locaux de signification électronique : R. 182-1 est fusionné dans R. 181, montants à l'arrêté tarifaire (R. 256).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R337",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Forfait local de copie : gardé. R185 porte « 0,91 euro » et « 1,37 euro » au singulier : les sommes visées suivent.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\" 0,91 euros \"",
-          "nouveau": "\" 0,91 euro \""
-        },
-        {
-          "op": "remplacer",
-          "ancien": "\" 1,37 euros \"",
-          "nouveau": "\" 1,37 euro \""
-        }
-      ]
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Forfait local de copie : R. 185 est fusionné dans R. 181, montants à l'arrêté tarifaire (R. 256).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R338",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Réserve des gendarmes agissant comme commissaires de justice : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Réserve des gendarmes agissant comme commissaires de justice : R. 187 est fusionné dans R. 188, dont le second alinéa réserve déjà les dispositions spéciales.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "R339",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Abrogé en passe 2.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "R340",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Abrogé en passe 2.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "R341",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Abrogé en passe 2 avec R. 191.",
+      "ligne_rouge": "art. 8 DDHC examiné : primes de capture, sans lien avec une peine ; R. 191 abrogé"
+    },
+    {
+      "code": "cpp",
+      "num": "R342",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Abrogé en passe 2.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "R343",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Abrogé en passe 2.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R344",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Suppression des alinéas 2 et 3 de R194 (réductions de tarif de transport) : règle propre au territoire. La base porte R194 en un seul alinéa, la concordance se vérifie au décret de coordination.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Supprimait les alinéas 2 et 3 de R. 194, qui n'a plus qu'un alinéa : sans objet.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R345",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Indemnité de séjour du commissaire de justice alignée sur les personnels civils de l'Etat : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Séjour du commissaire de justice : 20° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R346",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Tarifs civils applicables localement : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Tarif civil applicable localement à R. 199 : le 7° de R. 252 le fait.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "cpp",
+      "num": "R348",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Abrogé en passe 2.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R349",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Frais de tutelle recouvrés selon les textes locaux : règle propre au territoire.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'article règle des frais de tutelle, il ne touche aucune peine"
+      "motif": "Frais de tutelle : 22° de R. 256.",
+      "ligne_rouge": "art. 8 DDHC examiné : le recouvrement suit les textes locaux et le juge fixe les frais laissés à la charge de la personne protégée sans ressources (22° de R. 256)",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R349-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P9",
-      "motif": "R217-1 applicable en Nouvelle-Calédonie dans sa rédaction datée : spécialité législative.",
-      "ligne_rouge": "aucune"
+      "motif": "Version datée de R. 217-1 : 23° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R350",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Frais de succession recouvrés comme frais de justice : règle propre au territoire.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'article règle des frais, il ne touche aucune peine"
+      "motif": "Frais de succession : 22° de R. 256.",
+      "ligne_rouge": "art. 8 DDHC examiné : recouvrement comme frais de justice pénale (22° de R. 256)",
+      "vers": "R256"
     },
     {
       "code": "cpp",
       "num": "R352",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Tarifs civils applicables localement pour le recouvrement des amendes : règle propre au territoire.",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Tarif civil applicable localement à R. 220 : le 7° de R. 252 le fait.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R353",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Certification étendue aux frais de la collectivité : règle propre au territoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Certification des frais de la collectivité : 24° de R. 256.",
+      "ligne_rouge": "aucune",
+      "vers": "R256"
     }
-  ]
+  ],
+  "passe": 3
 }
