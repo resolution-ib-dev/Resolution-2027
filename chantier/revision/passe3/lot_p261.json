@@ -1,0 +1,179 @@
+{
+  "lot": "lot_p261",
+  "titre": "CPP, partie législative, 2e partie, livre Ier, titre VI : Chambre criminelle de la Cour de cassation et juridictions placées auprès de cette Cour",
+  "ecart_volume": "Écart motivé : 530 mots pour un plafond de 412 (−23 % au lieu de −40 %), 9 → 4 articles. Composition de la chambre criminelle, de la juridiction de réparation des détentions et de la cour de révision : collégialité et impartialité (séparation de l'instruction et du jugement, incompatibilités) gardées mot pour mot (P25).",
+  "articles_cible": [
+    {
+      "num": "L2161-2",
+      "texte": "La chambre criminelle de la Cour de cassation statue sur les pourvois formés contre les arrêts de la chambre des investigations et des libertés et contre les arrêts et jugements rendus en dernier ressort en matière criminelle, délictuelle et contraventionnelle, hors les cas où ces pourvois sont examinés par une chambre mixte ou par l'assemblée plénière en application des articles L. 431-5 à L. 431-10 du code de l'organisation judiciaire. En matière pénale, elle statue aussi sur les pourvois dans l'intérêt de la loi, sur la transmission au Conseil constitutionnel des questions prioritaires de constitutionnalité et sur les demandes de dessaisissement, et rend des avis à la demande des juridictions pénales.\nSes formations sont composées d'au moins cinq magistrats ayant voix délibérative. Dans les conditions prévues à l'article L. 7214-3, elle peut siéger en formation restreinte de trois magistrats.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "La chambre criminelle en un article : compétences (L2161-1 fusionné) et formations. Le numéro gardé est celui que vise L7214-3.",
+      "ligne_rouge": "Collégialité : cinq magistrats au moins, trois en formation restreinte dans les seuls cas de L7214-3, comme en 2029."
+    },
+    {
+      "num": "L2162-1",
+      "texte": "La juridiction nationale de réparation des détentions, placée auprès de la Cour de cassation, statue sur les recours formés contre les décisions du premier président de la cour d'appel en matière de réparation des détentions provisoires. Elle est présidée par le premier président de la Cour de cassation ou son représentant et comprend deux magistrats du siège de la cour ayant le grade de président de chambre, de conseiller ou de conseiller référendaire, que le bureau de la cour désigne chaque année avec trois suppléants. Le bureau peut décider qu'elle comportera plusieurs formations, composées de même. Le parquet général près la Cour de cassation exerce le ministère public.",
+      "verbe": "R",
+      "principe": "P25",
+      "motif": "Juridiction nationale de réparation des détentions : compétence et composition (L2162-2 fusionné).",
+      "ligne_rouge": "Réparation de l'atteinte injustifiée à la liberté : recours devant une juridiction collégiale de la Cour de cassation, comme en 2029."
+    },
+    {
+      "num": "L2163-1",
+      "texte": "La Cour de révision et de réexamen examine les demandes en révision et les demandes en réexamen. Elle est composée de dix-huit magistrats de la Cour de cassation, chacune des chambres y étant représentée par trois de ses membres. Elle est présidée par le président de la chambre criminelle, que supplée le conseiller de cette chambre du rang le plus élevé. Les dix-sept autres magistrats et dix-sept suppléants sont désignés par l'assemblée générale de la Cour de cassation pour trois ans, renouvelables une fois.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Cour de révision et de réexamen : compétence et composition (L2163-2 fusionné).",
+      "ligne_rouge": "Réparation de l'erreur judiciaire : composition de dix-huit magistrats de toutes les chambres, gardée."
+    },
+    {
+      "num": "L2163-3",
+      "texte": "La Cour de révision et de réexamen comporte deux formations, la commission d'instruction des demandes en révision et en réexamen, et la formation de jugement. La cour désigne en son sein, pour trois ans renouvelables une fois, cinq magistrats titulaires et cinq suppléants qui composent la commission d'instruction. Celle-ci désigne en son sein son président. Les treize autres magistrats composent la formation de jugement, présidée par le président de la chambre criminelle. Les magistrats qui siègent au sein de la commission d'instruction et leurs suppléants ne peuvent siéger au sein de la formation de jugement.\nLe parquet général près la Cour de cassation assure les fonctions du ministère public devant les deux formations.\nNe peuvent siéger au sein de la commission d'instruction et de la formation de jugement ou y exercer les fonctions du ministère public les magistrats qui, dans l'affaire soumise à la cour de révision et de réexamen, ont, au sein d'autres juridictions, soit fait un acte de poursuite ou d'instruction, soit participé à une décision sur le fond relative à la culpabilité du requérant.",
+      "verbe": "R",
+      "principe": "P25",
+      "motif": "Formations de la cour de révision, ministère public (L2163-4) et incompatibilités (L2163-5) en un article.",
+      "ligne_rouge": "Impartialité : séparation de la commission d'instruction et de la formation de jugement, et incompatibilités des magistrats qui ont connu de l'affaire, gardées mot pour mot."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L2161-1",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Compétences de la chambre criminelle portées à L2161-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2161-2"
+    },
+    {
+      "num": "L2162-2",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Composition de la juridiction nationale de réparation portée à L2162-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2162-1"
+    },
+    {
+      "num": "L2163-2",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Composition de la cour de révision et de réexamen portée à L2163-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2163-1"
+    },
+    {
+      "num": "L2163-4",
+      "verbe": "F",
+      "principe": "P23",
+      "motif": "Ministère public porté à L2163-3.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2163-3"
+    },
+    {
+      "num": "L2163-5",
+      "verbe": "F",
+      "principe": "P25",
+      "motif": "Incompatibilités portées mot pour mot à L2163-3.",
+      "ligne_rouge": "Impartialité : gardée mot pour mot à L2163-3.",
+      "vers": "L2163-3"
+    }
+  ],
+  "phrases": {
+    "L2161-1#1": {
+      "destin": "reprise",
+      "vers": "L2161-2"
+    },
+    "L2161-1#2": {
+      "destin": "reprise",
+      "vers": "L2161-2"
+    },
+    "L2161-2#1": {
+      "destin": "reprise",
+      "vers": "L2161-2"
+    },
+    "L2161-2#2": {
+      "destin": "reprise",
+      "vers": "L2161-2"
+    },
+    "L2162-1#1": {
+      "destin": "reprise",
+      "vers": "L2162-1"
+    },
+    "L2162-2#1": {
+      "destin": "reprise",
+      "vers": "L2162-1"
+    },
+    "L2162-2#2": {
+      "destin": "reprise",
+      "vers": "L2162-1"
+    },
+    "L2162-2#3": {
+      "destin": "reprise",
+      "vers": "L2162-1"
+    },
+    "L2162-2#4": {
+      "destin": "reprise",
+      "vers": "L2162-1"
+    },
+    "L2162-2#5": {
+      "destin": "reprise",
+      "vers": "L2162-1"
+    },
+    "L2163-1#1": {
+      "destin": "reprise",
+      "vers": "L2163-1"
+    },
+    "L2163-2#1": {
+      "destin": "reprise",
+      "vers": "L2163-1"
+    },
+    "L2163-2#2": {
+      "destin": "reprise",
+      "vers": "L2163-1"
+    },
+    "L2163-2#3": {
+      "destin": "reprise",
+      "vers": "L2163-1"
+    },
+    "L2163-2#4": {
+      "destin": "reprise",
+      "vers": "L2163-1"
+    },
+    "L2163-2#5": {
+      "destin": "reprise",
+      "vers": "L2163-1"
+    },
+    "L2163-3#1": {
+      "destin": "gardee",
+      "vers": "L2163-3"
+    },
+    "L2163-3#2": {
+      "destin": "reprise",
+      "vers": "L2163-3"
+    },
+    "L2163-3#3": {
+      "destin": "reprise",
+      "vers": "L2163-3"
+    },
+    "L2163-3#4": {
+      "destin": "reprise",
+      "vers": "L2163-3"
+    },
+    "L2163-3#5": {
+      "destin": "reprise",
+      "vers": "L2163-3"
+    },
+    "L2163-3#6": {
+      "destin": "reprise",
+      "vers": "L2163-3"
+    },
+    "L2163-4#1": {
+      "destin": "reprise",
+      "vers": "L2163-3"
+    },
+    "L2163-5#1": {
+      "destin": "gardee",
+      "vers": "L2163-3"
+    }
+  }
+}
