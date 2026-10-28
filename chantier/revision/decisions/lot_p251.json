@@ -9,27 +9,36 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "D47-12-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Officiers de police judiciaire auprès du pôle des crimes non élucidés : conseil et coordination des enquêtes. Renvois aux anciens 706-106-5 et 706, alinéas 3 à 11 (L2152-29, L2172-1) à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "D47-12-8",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Désigne Nanterre pour les crimes sériels ou non élucidés et la cour d'assises des Hauts-de-Seine. Renvois aux anciens 706-106-1, 43, 52 et 382 (L2152-26, L2141-1) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Le pôle des crimes sériels ou non élucidés dans un article : compétence concurrente de Nanterre et cour d'assises des Hauts-de-Seine, formes de l'enquête sur le parcours criminel (ancien D47-12-9), officiers de police judiciaire désignés (ancien D47-12-10). La liste des crimes, qui recopiait la loi, s'écrit par renvoi. « Enquête de police judiciaire » au lieu d'« enquête préliminaire », un mot par notion. Anciens 706-106-1, 706-106-4, 706-106-5, 706, 43, 52 et 382 : L2152-26, L2152-28, L2152-29, L2172-1 et L2141-1 (2029).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le tribunal judiciaire de Nanterre exerce sur tout le territoire national, pour les crimes mentionnés à l'article L. 2152-26 et les délits qui leur sont connexes, lorsque les conditions de cet article sont remplies, une compétence concurrente à celle qui résulte de l'article L. 2141-1. Ces crimes sont jugés par la cour d'assises des Hauts-de-Seine.\nL'enquête sur le parcours criminel que le procureur de la République près ce tribunal ordonne selon l'article L. 2152-28 suit les formes de l'enquête de police judiciaire. Lorsqu'il en saisit le juge d'instruction, la procédure suit les formes de l'instruction.\nLes officiers de police judiciaire spécialement désignés selon l'article L. 2152-29 pour assister les magistrats spécialisés de ce tribunal participent aux procédures selon l'article L. 2172-1. Ils les conseillent sur le choix des services enquêteurs et l'orientation des investigations, et veillent à la qualité de leurs échanges d'information avec les enquêteurs saisis."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "D47-12-9",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Enquête sur le parcours criminel dans les formes de l'enquête préliminaire ou de l'instruction : pas de forme nouvelle. Renvois aux anciens 706-106-4 et 706-106-1 (L2152-28, L2152-26) à coordonner.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Formes de l'enquête sur le parcours criminel : deuxième alinéa de D47-12-8.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-12-8"
+    },
+    {
+      "code": "cpp",
+      "num": "D47-12-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Officiers de police judiciaire auprès du pôle : dernier alinéa de D47-12-8.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D47-12-8"
     }
-  ]
+  ],
+  "passe": 3
 }
