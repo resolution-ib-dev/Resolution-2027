@@ -10,56 +10,53 @@
     {
       "code": "cpp",
       "num": "L8511-1",
-      "decision": "S",
       "principe": "P3",
-      "motif": "Registre 7.4 : la version applicable en îles Wallis et Futuna est fixée par la loi de réécriture, qui place le compteur sur elle-même (spécialité législative). Le paramètre nomme cette loi.",
-      "ligne_rouge": "aucune garantie touchée : la clause dit quelle rédaction s'applique, la loi de réécriture étend ses propres dispositions",
+      "motif": "Clause d'application de la collectivité (technique 1) : version fixée par la loi de réécriture (registre 7.4), exceptions, substitutions générales et monnaie locale en un article. L8511-2 et L8512-1 à L8512-3 y fusionnent. Les adaptations propres restent en table au titre II. La plage des indemnités forfaitaires transactionnelles va de L. 4223-31 à L. 4223-43, comme la section (passe 2). Consultation de l'assemblée locale avant le dépôt (registre 7.3). La cosaisine est écartée par sa matière, et non plus par les articles L. 2121-10, L. 3412-4 et L. 3414-6 : L. 3412-4 est fusionné dans L. 3414-3.",
+      "ligne_rouge": "aucune garantie touchée : la conversion en monnaie locale suit la contre-valeur de l'euro et ne change aucune peine ; la clause de substitution ne définit aucune incrimination",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "dans sa rédaction résultant de l'ordonnance n° 2025-1091 du 19 novembre 2025,",
-          "nouveau": "dans sa rédaction résultant de la loi n° [numéro] du [date],"
+          "op": "rediger",
+          "nouveau": "Sous réserve des dispositions qui y sont applicables de plein droit, le présent code s'applique dans les îles Wallis et Futuna dans sa rédaction résultant de la loi n° [numéro] du [date], avec les adaptations du titre II du présent livre. Les dispositions relatives à la cour criminelle départementale, l'article L. 2125-9 et les articles L. 4223-31 à L. 4223-43 n'y sont pas applicables. Les dispositions relatives à la cosaisine du juge d'instruction n'y sont pas non plus applicables.\nPour cette application :\n1° La collectivité tient lieu de département, le représentant de l'État dans la collectivité de préfet et de sous-préfet, le tribunal de première instance ou, le cas échéant, sa section détachée de tribunal judiciaire, et le juge d'instruction de pôle de l'instruction.\n2° En l'absence d'adaptation, les références à des dispositions qui n'y sont pas applicables visent les dispositions applicables localement ayant le même objet.\n3° Les sanctions pécuniaires sont prononcées en monnaie locale, compte tenu de la contre-valeur de l'euro dans cette monnaie."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L8511-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Exceptions : cour criminelle départementale, magistrats à titre temporaire, indemnités forfaitaires transactionnelles, cosaisine. Article manquant rétabli (« aux magistrats »).",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Exceptions à l'application du code : premier alinéa de L8511-1.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "permettant à magistrats",
-          "nouveau": "permettant aux magistrats"
-        }
-      ]
+      "vers": "L8511-1"
     },
     {
       "code": "cpp",
       "num": "L8512-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P9",
-      "motif": "Substitutions générales : collectivité, représentant de l'État, tribunal de première instance, juge d'instruction.",
-      "ligne_rouge": "aucune"
+      "motif": "Substitutions générales : 1° de L8511-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8511-1"
     },
     {
       "code": "cpp",
       "num": "L8512-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P9",
-      "motif": "Substitution des références non applicables localement : clause de coordination.",
-      "ligne_rouge": "aucune"
+      "motif": "Substitution des références non applicables : 2° de L8511-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8511-1"
     },
     {
       "code": "cpp",
       "num": "L8512-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P9",
-      "motif": "Sanctions pécuniaires en monnaie locale.",
-      "ligne_rouge": "aucune"
+      "motif": "Monnaie locale : 3° de L8511-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8511-1"
     }
-  ]
+  ],
+  "passe": 3
 }
