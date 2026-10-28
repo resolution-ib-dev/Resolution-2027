@@ -10,751 +10,947 @@
     {
       "code": "cpp",
       "num": "L7211-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Ouverture du pourvoi contre les décisions en dernier ressort : une voie de recours en droit.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7211-2",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Pourvoi contre l'arrêt de renvoi limité à la compétence et aux dispositions définitives : le procès n'est pas retardé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7211-3",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "L'acquittement de la cour d'assises n'est attaquable que dans l'intérêt de la loi : la décision des citoyens tient.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7211-4",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Pourvoi ouvert sur l'action civile et les restitutions après acquittement : la victime garde son recours.",
-      "ligne_rouge": "aucune"
+      "principe": "P2",
+      "motif": "Ouverture du pourvoi et décisions qui y échappent en un article : règle générale, puis les exceptions listées (décisions sans recours, sauf excès de pouvoir, L7211-9 ; arrêt de renvoi au tribunal délictuel, L7211-2 ; acquittement de la cour d'assises, sauf intérêt de la loi, action civile et restitutions, L7211-3 et L7211-4).",
+      "ligne_rouge": "Droit au recours (art. 16 DDHC) examiné : chaque exception de 2029 est reprise avec sa réserve (compétence, dispositions définitives, excès de pouvoir, action civile de la victime) ; aucune n'est ajoutée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les décisions des juridictions pénales rendues en dernier ressort peuvent faire l'objet d'un pourvoi en cassation du ministère public ou de la partie à laquelle elles font grief, dans les conditions du présent titre, sauf :\n1° Les décisions que le présent code déclare insusceptibles de recours, hors excès de pouvoir.\n2° L'arrêt de la chambre des investigations et des libertés qui renvoie le prévenu devant le tribunal délictuel ou contraventionnel, sauf s'il statue sur la compétence ou comporte des dispositions définitives que le tribunal ne peut modifier.\n3° L'arrêt d'acquittement de la cour d'assises, attaquable dans le seul intérêt de la loi selon le titre II du présent livre, sans préjudice pour l'acquitté. L'arrêt qui statue ensuite sur l'action civile selon les articles L. 4326-11 ou L. 4326-14 ou sur les restitutions reste susceptible de pourvoi."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7211-5",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Pourvoi immédiat réservé aux décisions qui mettent fin à la procédure, filtre du président : le fond n'attend pas.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Pourvoi contre une décision distincte du fond : recevabilité immédiate si elle met fin à la procédure, filtre du président, effet sur l'exécution et sur le jugement du fond, cas de l'appel d'une ordonnance du juge d'instruction et retour du dossier, en trois alinéas.",
+      "ligne_rouge": "Aucune : le filtre et les délais de 2029 sont gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le pourvoi contre une décision du tribunal ou de la cour d'appel distincte de la décision sur le fond n'est immédiatement recevable que si elle met fin à la procédure. Lorsque la décision a été à tort considérée comme y mettant fin, le président de la chambre criminelle admet ou non le pourvoi, par ordonnance rendue d'office, selon l'intérêt de l'ordre public ou d'une bonne administration de la justice.\nSi la décision ne met pas fin à la procédure, elle n'est pas exécutoire et le fond n'est pas jugé avant l'expiration du délai de pourvoi. Elle devient exécutoire et le fond est jugé si aucun pourvoi n'est formé ou si le demandeur n'a pas déposé au greffe, dans ce délai, la requête prévue à l'article L. 7211-6.\nIl en est de même, nonobstant l'article L. 7211-6, de l'arrêt rendu sur l'appel d'une ordonnance du juge d'instruction en application de l'article L. 3731-4 ou faute pour celui-ci d'avoir rendu cette ordonnance. Si la procédure a néanmoins été transmise à la Cour de cassation, le président de la chambre criminelle en ordonne le retour à la juridiction saisie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7211-6",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Requête en recevabilité immédiate, ordonnance dans les huit jours, arrêt dans les deux mois : délais opposables.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7211-7",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Même régime pour les arrêts avant dire droit de la chambre des investigations et des libertés.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7211-8",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Suspension de l'information sur décision du président, actes urgents réservés : soupape au cas par cas.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7211-9",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Décisions sans recours : pas de pourvoi, sauf excès de pouvoir.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Requête en recevabilité immédiate : dépôt, transmission, ordonnance dans les huit jours, arrêt dans les deux mois et suspension gardés ; extension aux arrêts avant dire droit de la chambre des investigations et des libertés (L7211-7) et suspension de l'information (L7211-8) fusionnées.",
+      "ligne_rouge": "Aucune : délais opposables de huit jours et deux mois gardés ; actes urgents de l'information réservés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application du deuxième alinéa de l'article L. 7211-5, le demandeur peut déposer au greffe, avant l'expiration du délai de pourvoi, une requête tendant à faire déclarer son pourvoi immédiatement recevable. Le greffier en avise le chef de la juridiction et la transmet au président de la chambre criminelle avec une expédition de la décision et de la déclaration de pourvoi. Tant qu'il n'a pas été statué sur la requête, la décision n'est pas exécutoire et le fond n'est pas jugé.\nLe président statue dans les huit jours de la réception du dossier, par une ordonnance non susceptible de recours en cas de rejet. S'il rejette la requête, la décision s'exécute, le fond est jugé et le pourvoi n'est examiné qu'avec celui formé contre la décision sur le fond. S'il l'accueille dans l'intérêt de l'ordre public ou d'une bonne administration de la justice, la chambre criminelle statue, à la date qu'il fixe, dans les deux mois de son ordonnance, sans que le caractère non suspensif du pourvoi puisse lui être opposé, et l'exécution est suspendue jusqu'à son arrêt.\nLe présent article et l'article L. 7211-5 s'appliquent aux pourvois contre les arrêts préparatoires, interlocutoires ou d'instruction des chambres des investigations et des libertés, sauf aux arrêts mentionnés au troisième alinéa de l'article L. 7211-5. Le président qui déclare immédiatement recevable le pourvoi contre un arrêt statuant sur une requête en annulation peut ordonner au juge d'instruction de suspendre son information, hors les actes urgents."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7211-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Effet suspensif du pourvoi, sauf exécution provisoire, condamnations civiles et application des peines : la condamnation n'est pas définitive tant que la Cour n'a pas statué.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7211-11",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Mesures de sûreté maintenues malgré le pourvoi, décidées par la cour d'appel. La dernière phrase, sans verbe, est rétablie et sort de l'énumération. Le renvoi suit l'ancien 569 (premier et deuxième alinéas de 142-2, deuxième alinéa de 142-3).",
-      "ligne_rouge": "art. 66 C examiné : la détention ou le contrôle maintenus le sont par décision de la cour d'appel ; art. 8 DDHC examiné : l'article ne touche pas la peine",
+      "principe": "P23",
+      "motif": "Effet suspensif du pourvoi et ses exceptions en une liste : exécution provisoire, condamnations civiles, application des peines, et mesures de sûreté maintenues par la cour d'appel (L7211-11 fusionné, phrase sans verbe rétablie en passe 2) ; cautionnement recalé sur la deuxième phrase de L. 3621-13 (pièce de passe 3 du lot p189, où les deuxième et troisième alinéas de 2029 sont réunis).",
+      "ligne_rouge": "Art. 66 C et art. 8 DDHC examinés : la condamnation reste suspendue par le pourvoi ; seules les mesures de sûreté que la cour d'appel décide expressément en prononçant la peine survivent, comme en 2029.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": " ; lorsqu'un cautionnement a été fourni, les dispositions des articles L. 3621-12 et L. 3621-13.",
-          "nouveau": ". Lorsqu'un cautionnement a été fourni, l'article L. 3621-12 et les deuxième et troisième alinéas de l'article L. 3621-13 sont applicables."
+          "op": "rediger",
+          "nouveau": "Pendant le délai de pourvoi et, s'il y a pourvoi, jusqu'au prononcé de l'arrêt de la Cour de cassation, il est sursis à l'exécution de l'arrêt de la cour d'appel, sauf en ce qui concerne :\n1° Les peines dont l'exécution provisoire a été prononcée.\n2° Les condamnations civiles.\n3° Les décisions de la chambre de l'application des peines ou de son président.\n4° La détention provisoire que la cour d'appel, en prononçant ou confirmant une peine privative de liberté, ordonne ou maintient, et le mandat qu'elle délivre ou confirme.\n5° Le contrôle judiciaire ou l'assignation à résidence avec surveillance électronique que la cour d'appel, en prononçant l'emprisonnement sans sursis ou assorti du sursis probatoire, décide de ne pas lever. Lorsqu'un cautionnement a été fourni, l'article L. 3621-12 et la deuxième phrase de l'article L. 3621-13 s'appliquent."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L7211-12",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Mise en liberté immédiate en cas d'acquittement, de sursis ou d'amende, et dès que la détention atteint la peine.",
-      "ligne_rouge": "art. 66 C examiné : aucune détention au-delà de la peine prononcée ; art. 8 DDHC examiné : la peine prononcée reste la mesure"
-    },
-    {
-      "code": "cpp",
-      "num": "L7211-13",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Maintien en détention du condamné absent malgré le pourvoi : la peine prononcée s'exécute.",
-      "ligne_rouge": "art. 8 DDHC examiné : la règle suit la décision de la juridiction qui a statué, sans peine ajoutée"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-1",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Délai de pourvoi de dix jours francs : court.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-2",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Le délai part de la signification pour la partie qui ignorait l'audience : point de départ dans la connaissance effective.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-3",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Point de départ du délai contre les arrêts de la chambre des investigations et des libertés.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-4",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Pourvoi contre un défaut : le délai court quand l'opposition est fermée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-5",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Point de départ du délai pour le condamné à l'emprisonnement ferme absent : renvoi à L4471-8.",
-      "ligne_rouge": "art. 8 DDHC examiné : règle de délai, sans effet sur la peine"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-6",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Condamné par défaut en appel criminel : le délai court de la connaissance de l'arrêt.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-7",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Délai de cinq jours en application des peines : rapide.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-8",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Délai de trois jours pour le mandat d'arrêt européen et la reconnaissance européenne des décisions : rapide.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : le délai bref sert la personne retenue, tenu ; art. 8 DDHC sans objet"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-9",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Déclaration de pourvoi au greffe, inscrite sur un registre public dont toute personne obtient copie : forme de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pourvoi du détenu par déclaration au chef d'établissement : l'accès au juge suit la personne en détention. Cité par L. 315-2 du code pénitentiaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-11",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Notification du pourvoi aux autres parties dans les trois jours. Elle part par voie électronique, la lettre recommandée devient l'exception.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Mise en liberté immédiate malgré le pourvoi (renvoi recalé sur le 4° de L7211-10) et maintien en détention du condamné absent (L7211-13 fusionné), en un article.",
+      "ligne_rouge": "Art. 66 C examiné : liberté immédiate en cas d'acquittement, d'exemption, de sursis ou d'amende, et dès que la détention atteint la peine, gardée ; maintien en détention du condamné absent, avec droit de demander sa mise en liberté (L. 4471-8), gardé.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par lettre recommandée avec demande d'avis de réception, dans un délai de trois jours",
-          "nouveau": "par voie électronique ou, à défaut, par lettre recommandée avec demande d'avis de réception, dans un délai de trois jours"
+          "op": "rediger",
+          "nouveau": "En cas d'acquittement, d'exemption de peine ou de condamnation à l'emprisonnement assorti du sursis simple ou du sursis probatoire ou à l'amende, le prévenu détenu est, nonobstant pourvoi, mis en liberté immédiatement après l'arrêt. Il en est de même en cas de condamnation à l'emprisonnement, lorsque la détention provisoire a été ordonnée ou maintenue selon le 4° de l'article L. 7211-10, aussitôt que la durée de la détention atteint celle de la peine prononcée.\nLe second alinéa de l'article L. 4471-8 s'applique au pourvoi formé contre un arrêt de condamnation à l'emprisonnement ferme rendu selon l'article L. 4471-7 alors que le prévenu n'était ni présent ni représenté."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L7212-12",
-      "decision": "G",
+      "num": "L7212-1",
+      "principe": "P11",
+      "motif": "Délai de pourvoi de dix jours francs : gardé (cité par la huitième partie et D47-1-45).",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-2",
+      "principe": "P11",
+      "motif": "Points de départ du délai qui ne courent pas du prononcé, en un article : signification pour la partie absente (six cas gardés), arrêts de la chambre des investigations et des libertés (L7212-3 fusionné), arrêt de cour d'assises par défaut en appel (L7212-6 fusionné).",
+      "ligne_rouge": "Droits de la défense examinés : le délai court de la connaissance effective de la décision pour chaque partie absente que 2029 protège.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le délai de pourvoi ne court qu'à compter de la signification de la décision, quel qu'en soit le mode, pour :\n1° La partie qui, après débat contradictoire, n'était ni présente ni représentée à l'audience du prononcé, sans en avoir appris la date lors de la première audience où elle était présente.\n2° Le prévenu jugé en son absence après audition d'un avocat venu assurer sa défense sans mandat de représentation signé de lui.\n3° La partie citée à personne ou ayant eu connaissance de la citation, non comparante et non excusée, sauf si un avocat venu assurer sa défense a été entendu à sa demande.\n4° La partie non comparante qui a demandé à être représentée par un avocat, lorsque celui-ci est absent.\n5° La partie qui a déclaré une adresse et qui, sans excuse, n'a ni comparu ni été représentée, lorsque la citation a été délivrée à sa dernière adresse déclarée.\n6° Le prévenu jugé par itératif défaut.\nContre les arrêts de la chambre des investigations et des libertés, le délai court, selon l'article L. 3713-13, de leur signification s'ils mettent fin à l'instance, de leur notification si l'information est en cours. Contre l'arrêt de la cour d'assises statuant par défaut en appel, le délai de l'accusé condamné court du jour où l'arrêt est porté à sa connaissance."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-4",
+      "principe": "P11",
+      "motif": "Pourvoi contre une décision par défaut : délai qui court de la fermeture de l'opposition, gardé (cité par L8127-2).",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-5",
+      "principe": "P11",
+      "motif": "Point de départ du délai pour le condamné à l'emprisonnement ferme ou avec sursis partiel : renvoi à L. 4471-8 gardé, phrase resserrée (cité par L8127-2).",
+      "ligne_rouge": "Art. 8 DDHC examiné : le délai court de la connaissance effective de la signification, comme pour l'appel.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'article L. 4471-8 détermine le point de départ du délai de pourvoi de la personne condamnée à une peine d'emprisonnement ferme ou assortie d'un sursis partiel."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-7",
+      "principe": "P19",
+      "motif": "Délai de cinq jours en application des peines : gardé.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-8",
+      "principe": "P19",
+      "motif": "Délai de trois jours pour le mandat d'arrêt européen et la reconnaissance européenne des décisions : quatre cas gardés à leurs numéros, items sans point-virgule.",
+      "ligne_rouge": "Art. 66 C examiné : délais brefs au bénéfice de la personne privée de liberté, gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le délai de pourvoi est de trois jours contre :\n1° L'arrêt de la chambre des investigations et des libertés statuant en matière de mandat d'arrêt européen dans les conditions des articles L. 6133-19 ou L. 6133-41.\n2° L'arrêt de la chambre des investigations et des libertés statuant selon l'article L. 6142-34 sur la reconnaissance et l'exécution d'une décision de contrôle judiciaire d'un Etat membre de l'Union européenne.\n3° L'arrêt de la chambre des appels délictuels statuant selon l'article L. 6151-54 sur la reconnaissance et l'exécution d'une peine ou d'une mesure de sûreté privative de liberté prononcée par un Etat membre de l'Union européenne.\n4° La décision du président de la chambre de l'application des peines statuant selon l'article L. 6152-33 sur la reconnaissance et l'exécution d'une décision de probation prononcée par un Etat membre de l'Union européenne.\nDans les cas des 1° à 3°, ce délai est franc."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-9",
       "principe": "P23",
-      "motif": "Contenu du mémoire : moyens et textes visés.",
-      "ligne_rouge": "aucune"
+      "motif": "Déclaration de pourvoi au greffe et registre public : gardés, phrases resserrées.",
+      "ligne_rouge": "Transparence (P26) examinée : registre public dont toute personne obtient copie, gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La déclaration de pourvoi est faite au greffier de la juridiction qui a rendu la décision attaquée. Elle est signée par le greffier et par le demandeur lui-même, un avocat près cette juridiction ou un fondé de pouvoir spécial, dont le pouvoir est annexé à l'acte. Si le déclarant ne peut signer, le greffier le mentionne.\nLa déclaration est inscrite sur un registre public, dont toute personne peut obtenir copie."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-10",
+      "principe": "P23",
+      "motif": "Pourvoi du détenu par déclaration au chef d'établissement : même règle, sans point-virgule ; renvoi au registre recalé sur le second alinéa de L7212-9.",
+      "ligne_rouge": "Accès au juge de la personne détenue examiné : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le demandeur détenu peut former son pourvoi par une déclaration au chef de l'établissement pénitentiaire, qui la constate, la date et la signe avec lui ou mentionne qu'il ne peut signer. Elle est adressée sans délai, en original ou en copie, au greffe de la juridiction qui a rendu la décision, transcrite sur le registre du second alinéa de l'article L. 7212-9 et annexée à l'acte du greffier."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-11",
+      "principe": "P12",
+      "motif": "Notification du pourvoi dans les trois jours : la lettre recommandée cède à la formule « par tout moyen permettant d'en établir la date de réception », écrite dans l'article (registre 5.4). L7215-25 la vise.",
+      "ligne_rouge": "Contradictoire examiné : la partie non notifiée garde l'opposition de L7215-25.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le demandeur en cassation notifie son pourvoi au ministère public et aux autres parties dans un délai de trois jours, par tout moyen permettant d'en établir la date de réception."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7212-13",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Mémoire au greffe dans les dix jours : délai court.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Mémoire du demandeur : contenu (L7212-12 fusionné), dépôt au greffe dans les dix jours et reçu, en un article (cité par la huitième partie).",
+      "ligne_rouge": "Droits de la défense examinés : délai de dix jours gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le demandeur en cassation peut, en faisant sa déclaration ou dans les dix jours suivants, déposer au greffe de la juridiction qui a rendu la décision attaquée un mémoire signé de lui, dont le greffier lui délivre reçu. Les mémoires contiennent les moyens de cassation et visent les textes de loi dont la violation est invoquée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7212-14",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Mémoire du condamné transmis à la Cour dans le mois. Les copies papier par partie cèdent à la transmission électronique, gardées à défaut.",
-      "ligne_rouge": "aucune",
+      "motif": "Mémoire du condamné transmis à la Cour dans le mois : gardé ; transmission électronique de principe, copies papier à défaut (passe 2).",
+      "ligne_rouge": "Droits de la défense examinés : dérogation du président gardée.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Le mémoire doit être accompagné d'autant de copies qu'il y a de parties en cause.",
-          "nouveau": "Le mémoire est transmis par voie électronique ou, à défaut, accompagné d'autant de copies qu'il y a de parties en cause."
+          "op": "rediger",
+          "nouveau": "Après l'expiration du délai prévu à l'article L. 7212-13, le demandeur condamné pénalement peut transmettre son mémoire directement au greffe de la Cour de cassation.\nLe mémoire est transmis par voie électronique ou, à défaut, accompagné d'autant de copies qu'il y a de parties en cause.\nSauf dérogation accordée par le président de la chambre criminelle, il doit parvenir au greffe de la Cour de cassation un mois au plus tard après la date du pourvoi."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L7212-15",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Mémoire du ministère public dans le mois : même délai que le condamné.",
-      "ligne_rouge": "aucune"
+      "motif": "Mémoire du ministère public dans le mois : gardé (D47-1-45 et L7215-2 le citent).",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L7212-16",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Délai fixé par le président quand des avocats sont constitués.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Délai fixé par le président quand des avocats sont constitués et dépôt des mémoires dans le délai imparti, sans mémoire additionnel après le rapport (L7212-19 fusionné).",
+      "ligne_rouge": "Droits de la défense examinés : la sanction du dépôt tardif reste une faculté (« peut entraîner »).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si un ou plusieurs avocats se sont constitués, le président de la chambre fixe un délai pour le dépôt des mémoires entre les mains du greffier de la chambre criminelle. Les mémoires sont déposés dans le délai imparti. Aucun mémoire additionnel ne peut être joint après le dépôt de son rapport par le conseiller commis, et le dépôt tardif d'un mémoire proposant des moyens additionnels peut entraîner son irrecevabilité."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7212-17",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Dossier coté dans les vingt jours, transmis en quarante-huit heures dans les cas urgents : délais opposables.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-18",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Circuit du dossier par le parquet jusqu'au greffe de la chambre criminelle.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-19",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Pas de mémoire après le rapport, mémoire tardif irrecevable : les moyens se purgent tôt.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Constitution et circuit du dossier : vingt jours, quarante-huit heures dans les cas de L7212-8, transmission par le parquet (L7212-18 fusionné). Cité par la sixième partie.",
+      "ligne_rouge": "Aucune : délais opposables gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le greffier, dans les vingt jours de la déclaration de pourvoi, cote, paraphe et inventorie les pièces du dossier, auquel il joint une expédition de la décision attaquée et de l'acte de pourvoi et, s'il y a lieu, le mémoire du demandeur. Lorsque le dossier est en état, il le remet au ministère public, qui l'adresse sans délai au procureur général près la Cour de cassation, qui le transmet au greffe de la chambre criminelle. Dans les cas de l'article L. 7212-8, le dossier parvient à ce greffe, par tout moyen permettant d'en conserver une trace écrite, dans les quarante-huit heures de la déclaration de pourvoi."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7212-20",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Mémoire dans le mois, à peine de déchéance, en matière de renvoi et de détention provisoire : délai opposable.",
-      "ligne_rouge": "art. 66 C examiné : le délai court accélère l'examen de la détention, prorogation de huit jours au plus ; art. 8 DDHC sans objet, aucune peine en jeu"
+      "principe": "P11",
+      "motif": "Mémoire dans le mois, à peine de déchéance, en matière de renvoi et de détention provisoire, prorogation de huit jours, puis forclusion des moyens nouveaux et fixation de l'audience (L7212-22 fusionné, il valait pour L7212-20 et L7212-21).",
+      "ligne_rouge": "Art. 66 C examiné : les délais courts servent la personne détenue ; prorogation exceptionnelle gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la décision attaquée est un arrêt portant renvoi devant la cour criminelle départementale, la cour d'assises ou le tribunal délictuel, ou un arrêt de la chambre des investigations et des libertés ou de la chambre des appels délictuels rendu en matière de détention provisoire, le demandeur en cassation ou son avocat dépose, à peine de déchéance, son mémoire dans le mois de la réception du dossier à la Cour de cassation. Le président de la chambre criminelle peut, à titre exceptionnel, proroger ce délai de huit jours.\nAprès l'expiration des délais prévus au présent article et à l'article L. 7212-21, aucun moyen nouveau ne peut être soulevé ni aucun mémoire déposé. Dès la réception du mémoire, le président de la chambre criminelle fixe la date de l'audience."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7212-21",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Mémoire dans les cinq jours en matière de mandat d'arrêt européen et de contrôle judiciaire européen.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : délai bref au bénéfice de la personne retenue, tenu ; art. 8 DDHC sans objet"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-22",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Pas de moyen nouveau après les délais, audience fixée dès le mémoire.",
-      "ligne_rouge": "aucune"
+      "motif": "Mémoire dans les cinq jours en matière de mandat d'arrêt européen et de contrôle judiciaire européen : cas désignés par renvoi aux 1° et 2° de L7212-8, qui les énumère dans les mêmes termes.",
+      "ligne_rouge": "Art. 66 C examiné : délai bref au bénéfice de la personne privée de liberté.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le demandeur en cassation ou son avocat dépose, à peine de déchéance, son mémoire dans les cinq jours de la réception du dossier, par tout moyen permettant d'en conserver une trace écrite, lorsque la décision attaquée relève du 1° ou du 2° de l'article L. 7212-8."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7212-23",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Le demandeur peut se défendre seul, les autres parties passent par un avocat aux Conseils : accès au juge gardé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7212-24",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Avocat aux Conseils choisi ou désigné à la demande : droits de la défense.",
-      "ligne_rouge": "aucune"
+      "motif": "Ministère d'avocat aux Conseils : faculté pour le demandeur, obligation pour les autres parties, règles de dépôt applicables, choix ou désignation (L7212-24 fusionné) ; renvoi à L7212-19 recalé sur L7212-16.",
+      "ligne_rouge": "Droits de la défense examinés : le demandeur peut se défendre seul ; l'avocat aux Conseils est choisi ou, à la demande, désigné par le président de l'ordre.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le demandeur en cassation peut recourir au ministère d'un avocat au Conseil d'Etat et à la Cour de cassation, choisi par lui ou, à sa demande, désigné par le président de l'ordre. Les autres parties y recourent pour transmettre leur mémoire, et le deuxième alinéa de l'article L. 7212-14 et l'article L. 7212-16 leur sont applicables."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7212-25",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Constitution d'avocat dans le mois, point de départ adapté aux matières urgentes.",
-      "ligne_rouge": "art. 66 C examiné : en matière de détention, le délai court de la réception du dossier, sans retarder l'arrêt (L7214-10)"
+      "motif": "Constitution d'avocat dans le mois, point de départ propre aux matières urgentes : gardé, phrase resserrée.",
+      "ligne_rouge": "Art. 66 C examiné : point de départ à la réception du dossier en matière de détention, de renvoi et de mandat d'arrêt européen gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sauf dérogation accordée par le président de la chambre criminelle, la déclaration de l'avocat qui se constitue au nom du demandeur au pourvoi doit parvenir au greffe de la Cour de cassation un mois au plus tard après la date du pourvoi. En matière de détention provisoire, de renvoi devant une juridiction criminelle ou le tribunal délictuel, ou de mandat d'arrêt européen, ce délai court de la réception du dossier à la Cour de cassation."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7213-1",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Principe : la cassation ne sanctionne que la violation de la loi. Règle de fond de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7213-2",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Nullité des décisions rendues sans le nombre de juges, sans le parquet ou hors audience publique : la publicité est sanctionnée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7213-3",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Nullité pour défaut de motifs ou omission de statuer : la décision rend compte.",
-      "ligne_rouge": "aucune"
+      "motif": "Ouverture à cassation en un article : violation de la loi (L7213-1), nullités de composition, de parquet et de publicité (L7213-2), défaut de motifs et omission de statuer (L7213-3).",
+      "ligne_rouge": "Publicité (P26) et motivation examinées : la nullité des décisions rendues hors audience publique, sous les exceptions de la loi, et des décisions non motivées est gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les décisions revêtues des formes prescrites par la loi ne peuvent être cassées que pour violation de la loi. Sont nulles les décisions :\n1° Rendues par un nombre de juges autre que celui prescrit ou par des juges qui n'ont pas assisté à toutes les audiences de la cause, ceux qui ont concouru à la décision étant présumés y avoir assisté.\n2° Rendues sans que le ministère public ait été entendu.\n3° Qui, sous réserve des exceptions prévues par la loi, n'ont pas été rendues ou débattues en audience publique.\n4° Dépourvues de motifs, ou dont les motifs insuffisants ne permettent pas à la Cour de cassation de contrôler si la loi a été respectée dans le dispositif.\n5° Qui ont omis ou refusé de se prononcer sur une ou plusieurs demandes des parties ou réquisitions du ministère public."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7213-4",
-      "decision": "G",
       "principe": "P14",
-      "motif": "Cassation de la peine autre que celle que la loi attache au crime : la peine encourue est la référence.",
-      "ligne_rouge": "art. 8 DDHC examiné : légalité de la peine contrôlée par la Cour"
-    },
-    {
-      "code": "cpp",
-      "num": "L7213-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pourvoi du parquet contre l'acquittement fondé sur l'inexistence erronée d'une loi pénale.",
-      "ligne_rouge": "aucune"
+      "motif": "Cassation pour peine non légale et pour acquittement fondé sur l'inexistence erronée d'une loi pénale en un article (L7213-5 fusionné).",
+      "ligne_rouge": "Art. 8 DDHC examiné : la peine prononcée hors de celle que la loi attache au crime reste attaquable par le ministère public comme par le condamné.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En matière criminelle, lorsque l'arrêt a prononcé contre l'accusé une peine autre que celle que la loi applique à la nature du crime, le ministère public comme la partie condamnée peuvent en poursuivre l'annulation. Le ministère public a la même action contre les arrêts d'acquittement mentionnés à l'article L. 4325-11 lorsque la décision repose sur la non-existence d'une loi pénale qui pourtant existait."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7213-6",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Nullités de l'information purgées devant la chambre qui règle la procédure : les nullités se purgent tôt.",
-      "ligne_rouge": "art. 16 DDHC examiné : la partie qui n'a pu connaître la nullité garde son moyen, la Cour peut relever d'office"
-    },
-    {
-      "code": "cpp",
-      "num": "L7213-7",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Nullités de première instance non soulevées en appel irrecevables en cassation : purge tôt.",
-      "ligne_rouge": "art. 16 DDHC examiné : la défense a soulevé ou pu soulever la nullité devant le juge d'appel, l'incompétence reste ouverte"
+      "motif": "Purge des nullités avant la cassation en un article : devant la chambre des investigations et des libertés qui règle la procédure, devant la cour d'appel et devant la cour d'assises statuant en appel (L7213-7 fusionné). « Sans préjudice » du relevé d'office gardé : il réserve un pouvoir de la Cour.",
+      "ligne_rouge": "Art. 16 DDHC examiné : réserve du moyen que la partie n'a pu connaître, exception d'incompétence sur appel du parquet et relevé d'office par la Cour gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les nullités de l'information sont proposées à la chambre des investigations et des libertés qui statue sur le règlement de la procédure, faute de quoi les parties ne peuvent plus en faire état, sauf si elles n'ont pu les connaître, et sans préjudice du pouvoir de la Cour de cassation de relever tout moyen d'office.\nEn matière délictuelle, le prévenu ne peut invoquer en cassation les nullités de première instance qu'il n'a pas opposées devant la cour d'appel, sauf l'incompétence lorsque le ministère public a fait appel. En matière criminelle, l'accusé ne peut invoquer en cassation les nullités qu'il n'a pas soulevées devant la cour d'assises statuant en appel selon l'article L. 4322-35."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7213-8",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Pourvoi contre l'avis d'extradition limité aux vices de forme essentiels : borne utile, de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "motif": "Pourvoi contre l'avis d'extradition limité aux vices de forme essentiels : gardé.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L7213-9",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Les règles de la défense ne se retournent pas contre la personne poursuivie : droits de la défense.",
-      "ligne_rouge": "aucune"
+      "motif": "Les règles de la défense ne se retournent pas contre la personne poursuivie : gardé.",
+      "ligne_rouge": "Droits de la défense examinés : gardé mot pour mot.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L7214-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Désignation du rapporteur par le président de la chambre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7214-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Séance d'instruction pour les affaires complexes.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Rapporteurs et séance d'instruction des affaires complexes en un article (L7214-2 fusionné).",
+      "ligne_rouge": "Aucune.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Après le dépôt des mémoires, le président de la chambre criminelle désigne un rapporteur ou, si la complexité ou la nature de l'affaire le justifie, deux rapporteurs parmi les conseillers et conseillers référendaires. Si l'affaire nécessite une instruction approfondie, il peut tenir, avant le dépôt du rapport, une séance d'instruction avec le ou les doyens de section, les rapporteurs, les conseillers et conseillers référendaires qu'il choisit et le ou les avocats généraux."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7214-3",
-      "decision": "G",
       "principe": "P24",
-      "motif": "Formation de trois magistrats pour les affaires à la solution évidente, renvoi de droit sur demande d'un de ses membres : voie rapide avec soupape.",
-      "ligne_rouge": "aucune"
+      "motif": "Formation de trois magistrats pour les affaires à la solution évidente : gardée, sans point-virgule (citée par L2161-2).",
+      "ligne_rouge": "Droits de la défense examinés : renvoi à la chambre à la demande d'une partie, de droit à la demande d'un des trois magistrats.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le pourvoi est porté devant la chambre criminelle de la Cour de cassation, composée conformément à l'article L. 2161-2. Lorsque la solution d'une affaire lui paraît s'imposer, le premier président ou le président de la chambre criminelle peut la faire juger par une formation de trois magistrats, qui déclare non admis les pourvois irrecevables ou non fondés sur un moyen sérieux de cassation. Cette formation peut renvoyer l'affaire à l'audience de la chambre à la demande de l'une des parties. Le renvoi est de droit si l'un de ses magistrats le demande."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7214-4",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Second pourvoi sur les mêmes moyens porté devant l'assemblée plénière : renvoi au code de l'organisation judiciaire (L. 431-6 à L. 431-10), de l'art. 34, la proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "motif": "Second pourvoi sur les mêmes moyens devant l'assemblée plénière : gardé.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L7214-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Avis d'une autre chambre de la Cour sur un point de sa compétence : unité de la jurisprudence.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7214-6",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Publicité, police et discipline des audiences devant la Cour de cassation : transparence.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Avis d'une autre chambre : même règle, phrases resserrées.",
+      "ligne_rouge": "Contradictoire examiné : avocat général et parties avisés et admis à présenter des observations.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La chambre criminelle saisie d'un pourvoi peut solliciter l'avis d'une autre chambre sur un point de droit relevant de la compétence de celle-ci. Le président de la chambre criminelle en avise l'avocat général et les parties, qui peuvent présenter des observations devant la chambre appelée à donner son avis. Le ou les rapporteurs de la chambre criminelle assistent au délibéré de cette formation, et le rapporteur de celle-ci au délibéré de la chambre criminelle."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7214-7",
-      "decision": "G",
       "principe": "P26",
-      "motif": "Rapport fait à l'audience, avocats et avocat général entendus : débat public.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7214-8",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Ordre des opinions au délibéré.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7214-9",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "La Cour peut statuer dix jours après la réception du dossier.",
-      "ligne_rouge": "aucune"
+      "motif": "Audience devant la Cour de cassation : règles de publicité, de police et de discipline (L7214-6 fusionné), rapport, observations des avocats et conclusions de l'avocat général, délai de dix jours avant de statuer (L7214-9 fusionné).",
+      "ligne_rouge": "Publicité (P26) examinée : audience publique selon les règles communes.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les règles concernant la publicité, la police et la discipline des audiences s'appliquent devant la Cour de cassation. Les rapports sont faits à l'audience. Les avocats des parties présentent, s'il y a lieu, leurs observations après le rapport, et l'avocat général ses conclusions.\nEn toute matière, la Cour de cassation peut statuer sur le pourvoi dès l'expiration d'un délai de dix jours à compter de la réception du dossier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7214-10",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Pourvoi en matière de détention provisoire : arrêt dans les trois mois, à défaut liberté d'office. Délai opposable à l'État.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : sanction effective du délai, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L7214-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Pourvoi contre l'arrêt de renvoi : trois mois, à défaut liberté du détenu.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : sanction effective du délai, tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L7214-12",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Remise à la Cour pénale internationale : arrêt dans les deux mois.",
-      "ligne_rouge": "aucune"
+      "motif": "Délai de trois mois, à peine de mise en liberté, en matière de détention provisoire et sur l'arrêt de renvoi (L7214-11 fusionné). Cité par L6151-54 et L6152-34 pour la règle de détention.",
+      "ligne_rouge": "Art. 66 C examiné : la personne détenue est mise d'office en liberté si la Cour n'a pas statué dans les trois mois, dans les deux cas de 2029.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La Cour de cassation saisie d'un pourvoi contre un arrêt de la chambre des investigations et des libertés ou de la chambre des appels délictuels rendu en matière de détention provisoire, ou contre l'arrêt ordonnant le renvoi devant la cour criminelle départementale, la cour d'assises ou le tribunal délictuel, statue dans les trois mois qui suivent la réception du dossier. A défaut, la personne placée en détention provisoire est mise d'office en liberté."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7214-13",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Mandat d'arrêt européen et contrôle judiciaire européen : arrêt dans les quarante jours. L'énumération saute du 1° au 3° : coquille corrigée.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : délai bref au bénéfice de la personne retenue, tenu",
+      "principe": "P19",
+      "motif": "Délais propres à la coopération : quarante jours pour le mandat d'arrêt européen et le contrôle judiciaire européen (cas désignés par renvoi aux 1° et 2° de L7212-8, mêmes termes), deux mois pour la remise à la Cour pénale internationale (L7214-12 fusionné, renvoi recalé sur L. 6252-7, L. 6252-8 étant abrogé, pièce de passe 3 du lot p209, note de coordination g35).",
+      "ligne_rouge": "Art. 66 C examiné : délais opposables au bénéfice de la personne remise, gardés.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "3° Statuant",
-          "nouveau": "2° Statuant"
+          "op": "rediger",
+          "nouveau": "La Cour de cassation statue dans les quarante jours du pourvoi lorsque la décision attaquée relève du 1° ou du 2° de l'article L. 7212-8. Elle statue dans les deux mois de la réception du dossier sur le pourvoi contre l'arrêt de la chambre des investigations et des libertés de la cour d'appel de Paris qui ordonne la remise d'une personne à la Cour pénale internationale en application de l'article L. 6252-7."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L7215-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contrôle de régularité du pourvoi avant le fond : irrecevabilité ou déchéance.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Issues du pourvoi en un article : contrôle de régularité (irrecevabilité, déchéance), désistement (L7215-4), non-lieu à statuer (L7215-5), non-admission totale ou partielle (L7215-6, L7215-7), non-admission par le président du pourvoi contre une décision sans recours (L7215-8), rejet (L7215-9).",
+      "ligne_rouge": "Droit au recours examiné : chaque issue de 2029 gardée, l'ordonnance du président reste sans recours comme en 2029.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La Cour de cassation recherche d'abord si le pourvoi est régulier. A défaut, elle rend un arrêt d'irrecevabilité ou de déchéance. Elle rend un arrêt de non-lieu à statuer si le pourvoi est devenu sans objet, et de rejet s'il est mal fondé. Elle déclare non admis, le cas échéant par la formation de trois magistrats prévue à l'article L. 7214-3, le pourvoi irrecevable ou non fondé sur un moyen sérieux, ou une partie de ses moyens ou griefs.\nLe président de la chambre criminelle constate par ordonnance, sans recours, la non-admission du pourvoi formé contre une décision insusceptible de recours. Il constate par ordonnance le désistement d'une partie ou, à défaut, la chambre criminelle en donne acte par arrêt."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7215-2",
-      "decision": "G",
       "principe": "P11",
-      "motif": "Déchéance faute de mémoire dans les délais, sauf peine non prévue par la loi.",
-      "ligne_rouge": "art. 8 DDHC examiné : le condamné à une peine illégale n'est jamais déchu, légalité tenue"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Déchéance prononcée par ordonnance du président.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Désistement constaté par ordonnance.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-5",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Non-lieu à statuer si le pourvoi est devenu sans objet.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-6",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Non-admission des pourvois irrecevables ou sans moyen sérieux : filtre rapide.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-7",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Non-admission partielle des moyens : filtre rapide.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-8",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Non-admission par le président du pourvoi contre une décision sans recours. Point final manquant rétabli.",
-      "ligne_rouge": "aucune",
+      "motif": "Déchéance faute de mémoire dans les délais, sauf peine non prévue par la loi, et ordonnance du président qui la prononce (L7215-3 fusionné ; plage recalée sur L7212-20 et L7212-21, L7212-22 y étant fusionné).",
+      "ligne_rouge": "Art. 8 DDHC examiné : le condamné à une peine non prévue par la loi n'est jamais déchu.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Sa décision n'est pas susceptible de recours",
-          "nouveau": "Sa décision n'est pas susceptible de recours."
+          "op": "rediger",
+          "nouveau": "Est déchu de son pourvoi le demandeur sans avocat qui n'a pas déposé son mémoire dans le délai de dix jours de l'article L. 7212-13 et, sauf dérogation du président de la chambre criminelle, le demandeur condamné pénalement sans avocat et le ministère public dont le mémoire n'est pas parvenu à la Cour de cassation dans les délais des articles L. 7212-14 et L. 7212-15. Le demandeur condamné à une peine non prévue par la loi n'en est toutefois pas déchu.\nLa déchéance, dans les cas du présent article et des articles L. 7212-20 et L. 7212-21, est prononcée par ordonnance du président de la chambre criminelle ou du conseiller qu'il désigne."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-9",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Arrêt de rejet du pourvoi mal fondé.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L7215-10",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Pas de second pourvoi après rejet : l'affaire se clôt.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-11",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Frais exposés mis à la charge du demandeur débouté, selon l'équité : la partie civile n'en supporte pas le coût.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Après le rejet : pas de second pourvoi, frais exposés à la charge du demandeur débouté selon l'équité (L7215-11 fusionné).",
+      "ligne_rouge": "Victime (P18) examinée : la partie civile défenderesse peut obtenir le remboursement de ses frais.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La partie dont la demande en cassation a été rejetée ne peut plus se pourvoir contre le même arrêt ou jugement, sous quelque prétexte et par quelque moyen que ce soit.\nLorsque le pourvoi de la personne poursuivie ou de la partie civile est rejeté, la Cour de cassation peut condamner le demandeur à payer à l'autre partie la somme qu'elle détermine au titre des frais exposés par celle-ci et non payés par l'Etat. Elle tient compte de l'équité ou de la situation économique du demandeur et des justificatifs produits."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7215-12",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Renvoi devant une juridiction de même ordre et degré : l'appel au fond reste devant le juge du fond.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Renvoi après cassation en un article : matière délictuelle et contraventionnelle, incompétence, cassation partielle (L7215-16), matière criminelle (L7215-14, nom de la chambre corrigé en passe 2), désignation de la juridiction de jugement (L7215-15), délibération spéciale sur le choix (L7215-18), cassation sans renvoi (L7215-19).",
+      "ligne_rouge": "Art. 16 DDHC examiné : renvoi devant une juridiction de même ordre et degré, autre que celle qui a statué ; la délibération spéciale se tient en chambre du conseil, c'est un délibéré, non une audience (P26 sans objet).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque la Cour de cassation annule une décision en matière délictuelle ou contraventionnelle, elle renvoie le procès et les parties devant une juridiction de même ordre et degré que celle qui a statué ou, en cas d'annulation pour incompétence, devant les juges qu'elle désigne comme devant en connaître.\nEn matière criminelle, elle renvoie devant une autre chambre des investigations et des libertés si l'arrêt annulé émane d'une telle chambre, devant une autre cour d'assises si la nullité a été commise devant la cour d'assises, devant une cour d'appel autre que celle du ressort de cette cour d'assises si l'annulation ne porte que sur les intérêts civils. La chambre de renvoi désigne, s'il y a lieu, la juridiction de jugement dans son ressort, à moins que la Cour de cassation ne l'ait désignée par avance, même dans un autre ressort.\nLa Cour de cassation peut n'annuler que les dispositions viciées par la nullité, et casser sans renvoi dans les cas et conditions de l'article L. 411-3 du code de l'organisation judiciaire. Elle choisit la juridiction de renvoi par une délibération spéciale prise immédiatement en chambre du conseil, dont l'arrêt fait mention expresse."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7215-13",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Renvoi après cassation d'un arrêt de la chambre des investigations et des libertés, retour immédiat au juge en matière de détention.",
-      "ligne_rouge": "art. 66 C examiné : en matière de détention, le dossier revient sans délai au juge saisi"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-14",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Renvoi en matière criminelle. Un mot par notion : « chambre des investigations et de la liberté » devient « chambre des investigations et des libertés », le nom du code.",
-      "ligne_rouge": "art. 16 DDHC examiné : le renvoi devant une autre juridiction garantit l'impartialité, tenu",
+      "motif": "Renvoi après cassation d'un arrêt de la chambre des investigations et des libertés : compétence de la chambre de renvoi, retour du dossier et retour sans délai en matière de détention gardés, phrases resserrées.",
+      "ligne_rouge": "Art. 66 C examiné : retour sans délai au juge d'instruction en matière de détention provisoire gardé.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "devant une chambre des investigations et de la liberté autre",
-          "nouveau": "devant une chambre des investigations et des libertés autre"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "émane d'une chambre des investigations et de la liberté",
-          "nouveau": "émane d'une chambre des investigations et des libertés"
+          "op": "rediger",
+          "nouveau": "Lorsque la Cour de cassation annule l'arrêt d'une chambre des investigations et des libertés statuant sur l'appel d'une ordonnance de règlement, elle renvoie devant une autre chambre des investigations et des libertés, qui devient compétente pour toute la suite de la procédure. Lorsqu'elle annule un autre arrêt de cette chambre, la chambre de renvoi ne connaît, sauf décision contraire de la Cour, que du contentieux qui a motivé sa saisine. Après la décision définitive de la chambre de renvoi, le dossier retourne à la chambre initialement saisie, aux fins d'évocation, même partielle, ou de renvoi au juge d'instruction saisi ou à un autre, ou sans délai au juge d'instruction saisi si la décision a été rendue en matière de détention provisoire."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-15",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Désignation de la juridiction de jugement après renvoi. Même correction du nom de la chambre.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "à une chambre des investigations et de la liberté",
-          "nouveau": "à une chambre des investigations et des libertés"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-16",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Cassation pour incompétence et cassation partielle : seul ce qui est vicié tombe.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'annulation partielle garde les droits acquis par la défense"
     },
     {
       "code": "cpp",
       "num": "L7215-17",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Extension de l'annulation aux parties non pourvues, sans aggravation pour le condamné.",
-      "ligne_rouge": "art. 8 DDHC examiné : la peine prononcée ne peut être aggravée au profit de qui ne s'est pas pourvu"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-18",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Choix de la juridiction de renvoi par délibération spéciale : c'est un délibéré, non une audience, P26 n'est pas en jeu. Mention à l'arrêt. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-19",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Cassation sans renvoi dans les cas du code de l'organisation judiciaire : le procès finit plus tôt.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-20",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Mise en liberté pour détention irrégulière avec contrôle judiciaire ou assignation décidé par la Cour elle-même : la sûreté et la liberté se tiennent.",
-      "ligne_rouge": "art. 66 C examiné : la Cour, juge, ordonne la mesure de substitution, bornée aux objectifs de la loi"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-21",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Mentions des arrêts : composition, avocats, parties, moyens. La décision rend compte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L7215-22",
+      "motif": "Extension de l'annulation aux parties non pourvues, sans aggravation pour le condamné : texte gardé, alinéas séparés (la base les colle, le second vise le premier).",
+      "ligne_rouge": "Art. 8 DDHC examiné : interdiction d'aggraver la peine du condamné non pourvu gardée.",
       "decision": "S",
-      "principe": "P12",
-      "motif": "Expédition et notification de l'arrêt de rejet. La notification part par voie électronique, la lettre recommandée devient l'exception.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "par lettre recommandée avec demande d'avis de réception.",
-          "nouveau": "par voie électronique ou, à défaut, par lettre recommandée avec demande d'avis de réception."
+          "op": "rediger",
+          "nouveau": "En toute matière, lorsque l'intérêt de l'ordre public ou d'une bonne administration de la justice le commande, la Cour de cassation peut ordonner que l'annulation qu'elle prononce aura effet à l'égard des parties à la procédure qui ne se sont pas pourvues.\nLe condamné qui ne s'est pas pourvu et au profit duquel l'annulation de la condamnation a été étendue en application des dispositions du premier alinéa ne peut être condamné à une peine supérieure à celle prononcée par la juridiction dont la décision a été annulée."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L7215-23",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Expédition de l'arrêt de renvoi dans les trois jours : délai opposable.",
-      "ligne_rouge": "aucune"
+      "num": "L7215-20",
+      "principe": "P25",
+      "motif": "Mise en liberté pour détention irrégulière, avec contrôle judiciaire ou assignation décidé par la Cour : gardé.",
+      "ligne_rouge": "Art. 66 C examiné : gardé mot pour mot.",
+      "decision": "G"
     },
     {
       "code": "cpp",
-      "num": "L7215-24",
-      "decision": "G",
+      "num": "L7215-21",
       "principe": "P22",
-      "motif": "Transmission au ministre des annulations pour vice de forme : la chancellerie voit les défauts de la chaîne. La proposition de déclasser est écartée.",
-      "ligne_rouge": "aucune"
+      "motif": "Mentions des arrêts : gardé.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-23",
+      "principe": "P23",
+      "motif": "Expédition et notification des arrêts en un article : arrêt de rejet ou de cassation sans renvoi (L7215-22), arrêt de renvoi, transmission au ministre des annulations pour vice de forme (L7215-24) ; notification « par tout moyen permettant d'en établir la date de réception », écrite dans l'article (registre 5.4). Cité par L7215-25 et L7215-26.",
+      "ligne_rouge": "Contradictoire examiné : l'arrêt est notifié aux parties, ce qui ouvre l'opposition.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les trois jours, l'arrêt est délivré au procureur général près la Cour de cassation, par extrait signé du greffier s'il rejette le pourvoi ou casse sans renvoi, par expédition s'il casse avec renvoi. Le procureur général l'adresse au ministère public près la juridiction qui a rendu la décision attaquée ou, en cas de renvoi, avec le dossier, au ministère public près la juridiction de renvoi, qui le notifie aux parties par tout moyen permettant d'en établir la date de réception. En cas de renvoi, il en adresse aussi une expédition au ministère public près la juridiction dont la décision est annulée. Une expédition de l'arrêt qui annule une décision pour violation des formes substantielles est transmise au ministre de la justice."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L7215-25",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Opposition de la partie qui n'a pas reçu notification du pourvoi : contradictoire tenu.",
-      "ligne_rouge": "aucune"
+      "motif": "Opposition de la partie qui n'a pas reçu notification du pourvoi : gardé (cité par la huitième partie).",
+      "ligne_rouge": "Contradictoire examiné : gardé.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L7215-26",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Opposition de la partie privée des mémoires : contradictoire tenu.",
-      "ligne_rouge": "aucune"
+      "motif": "Opposition de la partie privée des mémoires : même règle, phrase resserrée ; gardé à part pour que l'allongement outre-mer du délai de L7215-25 ne s'y étende pas.",
+      "ligne_rouge": "Contradictoire examiné : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La partie intéressée au pourvoi qui n'a pas reçu copie des mémoires produits à son appui peut former opposition à l'arrêt rendu par la Cour de cassation, par déclaration au greffe de la juridiction qui a rendu la décision, dans les cinq jours de la notification prévue à l'article L. 7215-23."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L7211-2",
+      "decision": "F",
+      "principe": "P2",
+      "motif": "Pourvoi limité contre l'arrêt de renvoi au tribunal délictuel : repris au 2° de L7211-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7211-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7211-3",
+      "decision": "F",
+      "principe": "P2",
+      "motif": "Acquittement de la cour d'assises, pourvoi dans l'intérêt de la loi seulement : repris au 3° de L7211-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7211-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7211-4",
+      "decision": "F",
+      "principe": "P2",
+      "motif": "Pourvoi sur l'action civile et les restitutions après acquittement : repris au 3° de L7211-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7211-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7211-7",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Même régime pour les arrêts avant dire droit de la chambre des investigations et des libertés : repris au dernier alinéa de L7211-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L7211-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L7211-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Suspension de l'information : reprise au dernier alinéa de L7211-6.",
+      "ligne_rouge": "aucune",
+      "vers": "L7211-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L7211-9",
+      "decision": "F",
+      "principe": "P2",
+      "motif": "Décisions sans recours, sauf excès de pouvoir : repris au 1° de L7211-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7211-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7211-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mesures de sûreté maintenues malgré le pourvoi : reprises aux 4° et 5° de L7211-10.",
+      "ligne_rouge": "Art. 66 C et art. 8 DDHC examinés : seules les mesures que la cour d'appel décide en prononçant la peine survivent au pourvoi, comme en 2029.",
+      "vers": "L7211-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L7211-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Maintien en détention du condamné absent : repris au second alinéa de L7211-12.",
+      "ligne_rouge": "Art. 8 DDHC examiné : renvoi à L. 4471-8 repris sans changement.",
+      "vers": "L7211-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-3",
+      "decision": "F",
+      "principe": "P11",
+      "motif": "Point de départ du délai contre les arrêts de la chambre des investigations et des libertés : repris au dernier alinéa de L7212-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L7212-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-6",
+      "decision": "F",
+      "principe": "P11",
+      "motif": "Point de départ du délai de l'accusé condamné par défaut en appel : repris au dernier alinéa de L7212-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L7212-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contenu des mémoires : repris à L7212-13.",
+      "ligne_rouge": "aucune",
+      "vers": "L7212-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Circuit du dossier par le parquet : repris au second alinéa de L7212-17.",
+      "ligne_rouge": "aucune",
+      "vers": "L7212-17"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-19",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dépôt dans le délai imparti, pas de mémoire additionnel après le rapport : repris à L7212-16.",
+      "ligne_rouge": "aucune",
+      "vers": "L7212-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-22",
+      "decision": "F",
+      "principe": "P11",
+      "motif": "Forclusion des moyens nouveaux et fixation de l'audience : reprises au dernier alinéa de L7212-20.",
+      "ligne_rouge": "aucune",
+      "vers": "L7212-20"
+    },
+    {
+      "code": "cpp",
+      "num": "L7212-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Choix ou désignation de l'avocat aux Conseils : repris au second alinéa de L7212-23.",
+      "ligne_rouge": "aucune",
+      "vers": "L7212-23"
+    },
+    {
+      "code": "cpp",
+      "num": "L7213-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Nullités de composition, de parquet et de publicité : reprises au deuxième alinéa de L7213-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7213-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7213-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Nullités pour défaut de motifs et omission de statuer : reprises au dernier alinéa de L7213-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7213-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7213-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pourvoi du parquet contre l'acquittement fondé sur l'inexistence erronée d'une loi : repris à L7213-4.",
+      "ligne_rouge": "aucune",
+      "vers": "L7213-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L7213-7",
+      "decision": "F",
+      "principe": "P11",
+      "motif": "Nullités de première instance non soulevées en appel : reprises au second alinéa de L7213-6.",
+      "ligne_rouge": "Art. 16 DDHC examiné : exception d'incompétence sur appel du parquet reprise.",
+      "vers": "L7213-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L7214-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Séance d'instruction : reprise à L7214-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7214-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7214-6",
+      "decision": "F",
+      "principe": "P26",
+      "motif": "Publicité, police et discipline des audiences : reprises à L7214-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L7214-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L7214-8",
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Ordre des opinions au délibéré : modalité d'organisation du délibéré, déclassée au décret en Conseil d'État (partie réglementaire du code de l'organisation judiciaire).",
+      "ligne_rouge": "aucune",
+      "vers": "L7214-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L7214-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délai de dix jours avant de statuer : repris au second alinéa de L7214-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L7214-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L7214-11",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Pourvoi contre l'arrêt de renvoi : trois mois, à défaut liberté, repris à L7214-10.",
+      "ligne_rouge": "Art. 66 C examiné : mise en liberté d'office reprise.",
+      "vers": "L7214-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L7214-12",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Remise à la Cour pénale internationale : délai de deux mois repris au dernier alinéa de L7214-13, renvoi recalé sur L. 6252-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L7214-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Déchéance prononcée par ordonnance du président : reprise au second alinéa de L7215-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Désistement : repris au dernier alinéa de L7215-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Non-lieu à statuer : repris au premier alinéa de L7215-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-6",
+      "decision": "F",
+      "principe": "P24",
+      "motif": "Non-admission : reprise au deuxième alinéa de L7215-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-7",
+      "decision": "F",
+      "principe": "P24",
+      "motif": "Non-admission partielle : reprise au deuxième alinéa de L7215-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Non-admission par le président du pourvoi contre une décision sans recours : reprise au deuxième alinéa de L7215-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Arrêt de rejet : repris au premier alinéa de L7215-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-11",
+      "decision": "F",
+      "principe": "P18",
+      "motif": "Frais exposés à la charge du demandeur débouté : repris au second alinéa de L7215-10.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-10"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi en matière criminelle : repris au deuxième alinéa de L7215-12.",
+      "ligne_rouge": "Art. 16 DDHC examiné : renvoi devant une juridiction autre que celle qui a statué, repris.",
+      "vers": "L7215-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Désignation de la juridiction de jugement après renvoi : reprise au deuxième alinéa de L7215-12.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cassation pour incompétence et cassation partielle : reprises à L7215-12.",
+      "ligne_rouge": "Art. 16 DDHC examiné : seule la partie viciée tombe, repris.",
+      "vers": "L7215-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Délibération spéciale sur le choix de la juridiction de renvoi : reprise au dernier alinéa de L7215-12.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-19",
+      "decision": "F",
+      "principe": "P19",
+      "motif": "Cassation sans renvoi : reprise au dernier alinéa de L7215-12.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-12"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-22",
+      "decision": "F",
+      "principe": "P12",
+      "motif": "Expédition et notification de l'arrêt de rejet : reprises au premier alinéa de L7215-23.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-23"
+    },
+    {
+      "code": "cpp",
+      "num": "L7215-24",
+      "decision": "F",
+      "principe": "P22",
+      "motif": "Transmission au ministre des annulations pour vice de forme : reprise au dernier alinéa de L7215-23.",
+      "ligne_rouge": "aucune",
+      "vers": "L7215-23"
     }
-  ]
+  ],
+  "passe": 3
 }
