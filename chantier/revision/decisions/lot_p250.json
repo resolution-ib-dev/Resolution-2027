@@ -10,10 +10,17 @@
     {
       "code": "cpp",
       "num": "D47-12-7",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Carte des juridictions interrégionales spécialisées en criminalité organisée : relève du décret. Renvois aux anciens 706-73, 706-74 et 706-75 (L1722-2, L1722-4, L2152-10) à coordonner : l'exception du 11° de l'ancien 706-73 correspond aux exceptions des 13°, 14° et 21° de L1722-2.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Carte des juridictions interrégionales spécialisées en criminalité organisée : ce sont les huit tribunaux et ressorts de la carte économique et financière (D47-3), mot pour mot, avec la cour d'assises du département de chaque siège (Gironde, Nord, Rhône, Bouches-du-Rhône, Meurthe-et-Moselle, Paris, Ille-et-Vilaine, Martinique) : un seul tableau (P3). Le champ s'écrit par renvoi à L2152-10 (2029), qui fixe lui-même les infractions et leurs exceptions. Le champ de la loi prévaut sur celui que le décret recopiait (ancien 706-73 hors 11°, et 706-74) : par rapport à la lettre de 2029, les délits de L. 1722-3 entrent, et les 13° et 21° de L. 1722-2 sortent, comme le veut L. 2152-10.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les juridictions interrégionales spécialisées prévues à l'article L. 2152-10 sont les tribunaux judiciaires désignés à l'article D. 47-3, dans les mêmes ressorts, et la cour d'assises du département où chacun d'eux siège."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
