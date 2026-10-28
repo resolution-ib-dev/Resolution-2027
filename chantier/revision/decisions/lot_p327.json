@@ -10,850 +10,1023 @@
     {
       "code": "cpp",
       "num": "R15-34",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Enquête de personnalité confiée par le juge d'instruction à une personne habilitée : le juge décide, la personne habilitée constate. Renvoi à l'ancien 81 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-35",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dossier de demande d'habilitation des associations : il permet de vérifier qui intervient.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-36",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Instruction de la demande par le doyen ou le président de chambre : une ligne.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-37",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Habilitation par l'assemblée générale des magistrats ou sa commission restreinte, convention avec les chefs de cour : décision de magistrats.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-38",
+      "principe": "P23",
+      "motif": "Enquête de personnalité confiée à une personne habilitée : gardée. Renvoi à l'ancien 81 écrit sur L3432-21 (pièce du lot p178).",
+      "ligne_rouge": "aucune",
       "decision": "S",
-      "principe": "P15",
-      "motif": "Habilitation provisoire d'urgence par le doyen ou le président de chambre. L'avis conforme du parquet donne un veto qui ne protège aucune liberté : le parquet garde l'initiative, le magistrat peut agir d'office.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la personne habilitée en urgence accède à la vie privée de la personne mise en examen, le contrôle du bulletin n° 2 (R15-39) précède l'habilitation",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sur proposition ou après avis conforme du procureur de la République,",
-          "nouveau": "d'office ou sur proposition du procureur de la République, au vu du bulletin n° 2 du casier judiciaire de la personne,"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "sur proposition ou après avis conforme du procureur général.",
-          "nouveau": "d'office ou sur proposition du procureur général, au vu du même bulletin."
+          "op": "rediger",
+          "nouveau": "Lorsqu'il ne fait pas lui-même ou par un officier de police judiciaire l'enquête de personnalité prévue à l'article L. 3432-21, le juge d'instruction saisi ou, sur délégation, celui du ressort où réside la personne mise en examen peut la confier à une personne physique ou morale habilitée selon les articles R. 15-35 et R. 15-37 ou, à titre exceptionnel, à un contrôleur judiciaire."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R15-39",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pas d'habilitation pour une personne condamnée (bulletin n° 2), contrôle des nouveaux intervenants par le parquet : protection des personnes suivies.",
-      "ligne_rouge": "aucune"
+      "num": "R15-35",
+      "principe": "P1",
+      "motif": "Demande d'habilitation gardée. La composition du dossier de l'association (statuts, établissements, fonctionnement, dirigeants, comptes) descend à l'arrêté (P1). La liste des intervenants reste, R15-37 s'y réfère.",
+      "ligne_rouge": "aucune",
+      "decision": "D",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne physique ou morale qui demande à être habilitée pour le ressort d'un tribunal judiciaire ou d'une cour d'appel saisit le doyen des juges d'instruction ou le président de la chambre des investigations et des libertés. La demande d'une association comprend la liste des personnes qui accompliront les missions confiées, avec leurs nom, prénoms, date et lieu de naissance, nationalité, profession et domicile, et les autres pièces fixées par arrêté du ministre de la justice."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "R15-40",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Retrait de l'habilitation : gardé. Le retrait provisoire d'urgence ne dépend plus de l'avis conforme du parquet, comme l'habilitation provisoire (R15-38).",
+      "num": "R15-37",
+      "principe": "P23",
+      "motif": "Instruction de la demande, décision de l'assemblée générale, exclusion par le bulletin n° 2, convention, retrait, habilitation et retrait provisoires d'urgence (passe 2 : sans avis conforme du parquet), avis du parquet sur les nouveaux intervenants : R15-36 à R15-40 en un article. R263 (Wallis-et-Futuna) vise « R. 15-37 à R. 15-40 » : à coordonner sur R15-37.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sur proposition ou avis conforme du procureur de la République,",
-          "nouveau": "d'office ou sur proposition du procureur de la République,"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "sur proposition ou avis conforme du procureur général,",
-          "nouveau": "d'office ou sur proposition du procureur général,"
+          "op": "rediger",
+          "nouveau": "Après les diligences qu'il juge utiles, le doyen ou le président de chambre transmet la demande au président du tribunal ou au premier président. L'assemblée générale des magistrats du siège et du parquet du tribunal ou de la cour d'appel, ou sa commission restreinte là où elle est obligatoire, statue sur le rapport du magistrat saisi, à la majorité des membres présents. Ne peut être habilitée la personne dont le bulletin n° 2 du casier judiciaire porte une condamnation, une incapacité ou une déchéance. La personne morale habilitée passe avec le premier président et le procureur général de la cour d'appel de son siège une convention qui fixe ses conditions d'intervention.\nL'habilitation est retirée dans les mêmes formes, le cas échéant sur saisine du procureur de la République ou du procureur général. En cas d'urgence, le doyen ou le président de chambre, d'office ou sur proposition du procureur de la République ou du procureur général, peut accorder une habilitation provisoire au vu du bulletin n° 2, ou retirer provisoirement l'habilitation, jusqu'à la décision de la prochaine assemblée générale ou commission restreinte.\nL'association qui veut modifier la liste de ses intervenants ou confier une mission à une personne qui n'a pas été habilitée personnellement en avise le procureur de la République. Celui-ci lui indique, le cas échéant, les personnes que leur bulletin n° 2 exclut."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R15-41",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Consignation de la partie civile garantissant l'amende civile pour constitution abusive, restituée sinon : elle évite les plaintes dilatoires. Renvois aux anciens 88, 88-1 et 91 à coordonner.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'amende civile n'est pas une peine, la consignation est fixée par le juge selon les ressources et peut être dispensée ; P18 examiné : l'accès de la victime au juge reste ouvert"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-41-1",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Objet de la sous-section : vente des biens saisis et restitution du produit. Renvoi à l'ancien 99-2 à coordonner.",
-      "ligne_rouge": "aucune"
+      "motif": "Consignation de la partie civile : la loi (L3413-5, pièce du lot p176) en porte l'obligation, le délai et la sanction. Restent l'emploi au paiement de l'amende civile (L3452-29) et la remise sur récépissé.",
+      "ligne_rouge": "art. 16 DDHC examiné : l'irrecevabilité et la restitution sont à la loi (L3413-5), le décret garde la remise sur simple récépissé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La consignation de la partie civile prévue à l'article L. 3413-5 est employée au paiement de l'amende civile prononcée selon l'article L. 3452-29. Elle est remise à la partie civile sur simple récépissé dès que l'action en amende civile est prescrite ou qu'une décision définitive constate que la constitution de partie civile n'était ni abusive ni dilatoire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R15-41-2",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Vente par l'Agence de gestion et de recouvrement des avoirs saisis et confisqués, produit consigné : un seul opérateur.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R15-41-3",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Restitution du produit de la vente après décision définitive sans confiscation : gardée, délai de six mois. L'information du propriétaire et sa demande se font par tout moyen permettant d'en établir la date de réception, le délai de six mois court de la réception. Renvoi à l'ancien 41-4 à coordonner.",
-      "ligne_rouge": "droit de propriété (art. 2 et 17 DDHC) et art. 8 DDHC (signal de passe 1) examinés : le propriétaire non condamné à la confiscation est informé et retrouve la valeur de son bien",
+      "principe": "P23",
+      "motif": "Vente des biens saisis pendant l'information et restitution du produit : R15-41-1 à R15-41-3 en un article. Renvois aux anciens 99-2 et 41-4 écrits sur L3532-20 et le 1° de L3721-1 (pièces des lots p183 et p195, ce dernier coordonné pour viser le produit de la vente). Le délai de six mois, propre à l'instruction, est gardé.",
+      "ligne_rouge": "art. 17 DDHC et art. 16 DDHC examinés : information du propriétaire, délai de six mois qui court de la réception, attestation et recours contre le refus gardés",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "informe, par lettre recommandée avec demande d'avis de réception, le propriétaire",
-          "nouveau": "informe, par tout moyen permettant d'en établir la date de réception, le propriétaire"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "par déclaration contre récépissé ou par lettre recommandée avec demande d'avis de réception.",
-          "nouveau": "par déclaration contre récépissé ou par tout moyen permettant d'en établir la date de réception."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "Dans les six mois suivant cette notification,",
-          "nouveau": "Dans les six mois suivant la réception de cette notification,"
+          "op": "rediger",
+          "nouveau": "Lorsque le juge d'instruction autorise, selon l'article L. 3532-20, la remise de biens meubles placés sous main de justice à l'Agence de gestion et de recouvrement des avoirs saisis et confisqués, l'Agence les aliène. Le produit de la vente est versé à la Caisse des dépôts et consignations, avec mention au registre spécial tenu par le greffe du tribunal judiciaire.\nDès qu'est devenue définitive une décision de non-lieu, de relaxe ou d'acquittement, ou une condamnation qui ne prononce pas la confiscation, le procureur de la République de la juridiction où s'est déroulée l'instruction informe le propriétaire des modalités de restitution du produit de la vente, par tout moyen permettant d'en établir la date de réception. Le propriétaire forme sa demande auprès de lui dans les six mois de cette réception, par déclaration contre récépissé ou par tout moyen permettant d'en établir la date de réception. Si les conditions de la loi sont remplies, le procureur lui délivre une attestation au vu de laquelle la Caisse des dépôts et consignations lui verse sans délai les sommes déposées, augmentées des intérêts échus. Son refus peut être contesté comme un refus de restitution, selon le 1° de l'article L. 3721-1."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R15-42",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Remise des pièces de l'instruction à la personne détenue : renvoi aux articles R. 311-10 à R. 311-13 du code pénitentiaire, en vigueur. La règle vit à sa source.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : accès au dossier de la personne détenue, tenu"
+      "principe": "P13",
+      "motif": "Remise des pièces à la personne détenue : le code pénitentiaire la règle à R311-10 (pièce du lot p114, relecture g18).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La remise à une personne détenue de la reproduction des pièces d'une procédure d'instruction et leur consultation suivent l'article R. 311-10 du code pénitentiaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R16",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Contrôle judiciaire : le juge désigne la personne ou le service qui contribue au contrôle. Source devenue seul siège (R633-1 du code pénitentiaire abrogé au lot p129) : gardée.",
-      "ligne_rouge": "art. 66 C examiné : le juge d'instruction désigne et contrôle"
-    },
-    {
-      "code": "cpp",
-      "num": "R16-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Contrôle judiciaire : diligences des personnes chargées du contrôle et compte rendu sans délai au juge. Seul siège depuis le lot p129 : gardé.",
-      "ligne_rouge": "art. 66 C examiné : le juge est avisé sans délai de tout manquement"
-    },
-    {
-      "code": "cpp",
-      "num": "R16-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contrôle judiciaire : rétribution des contributeurs non fonctionnaires comme frais de justice. Renvoi à l'ancien 138 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R17",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contrôle judiciaire : il ne porte atteinte ni aux opinions ni aux droits de la défense : garantie de proportion.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) et liberté d'opinion (art. 10 DDHC) examinés : tenus"
+      "principe": "P23",
+      "motif": "Personnes qui contribuent au contrôle judiciaire, leurs diligences, la garantie d'opinion et des droits de la défense, leur rétribution : R16 à R17 en un article. Ancien 138 (6°) écrit sur le 3° de L3621-4.",
+      "ligne_rouge": "art. 66 C examiné : le juge désigne et reste informé sans délai de tout manquement. La liberté d'opinion et les droits de la défense (R17) sont gardés mot pour mot quant au fond",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour contribuer à l'application du contrôle judiciaire, le juge d'instruction saisi ou, sur délégation, celui du ressort où réside la personne mise en examen désigne une personne physique ou morale habilitée selon les articles R. 15-35 et R. 15-37, un service de police ou de gendarmerie, tout service judiciaire ou administratif compétent ou, à titre exceptionnel, un enquêteur de personnalité.\nCes autorités ou personnes s'assurent que la personne se soumet à ses obligations. Elles peuvent la convoquer, lui rendre visite et faire toutes démarches et recherches utiles. Elles rendent compte au juge de son comportement, dans les conditions qu'il fixe, et l'avisent sans délai de tout manquement. L'application du contrôle judiciaire ne porte atteinte ni à la liberté d'opinion ni aux convictions religieuses ou politiques de la personne, ni aux droits de la défense.\nLa rétribution et les frais de déplacement des enquêteurs de personnalité et des personnes désignées selon le 3° de l'article L. 3621-4 sont payés comme frais de justice criminelle, sauf pour les agents de l'État en activité d'un service de la justice, de la police ou de la gendarmerie, d'un service social ou d'un service chargé de l'exécution des décisions judiciaires."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R17-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contrôle judiciaire : avis aux services de police et de gendarmerie des obligations qu'ils contrôlent : effectivité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R17-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contrôle judiciaire : relevé des présentations périodiques.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R17-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contrôle judiciaire : justificatifs de travail ou de scolarité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R17-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contrôle judiciaire : récépissé valant justification d'identité en échange des documents retirés.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R17-4-1",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Contrôle judiciaire : suspension du permis par renvoi aux articles du code pénal sur la remise du permis : un seul régime.",
-      "ligne_rouge": "art. 66 C examiné : obligation du contrôle judiciaire ordonnée par le juge"
-    },
-    {
-      "code": "cpp",
-      "num": "R17-5",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Contrôle judiciaire : libre choix du praticien pour les soins : gardé. Le second alinéa renvoie aux articles L. 355-1 et L. 355-3 du code de la santé publique, renumérotés L. 3312-1 et suivants en 2000 et absents du code en vigueur : renvoi mort, l'alinéa tombe. Les soins restent ordonnés au titre du 10° de l'article 138.",
-      "ligne_rouge": "art. 66 C examiné : obligation de soins décidée par le juge ; vie privée (art. 2 DDHC) examinée : le choix du praticien reste à la personne",
+      "principe": "P23",
+      "motif": "Modalités des obligations du contrôle judiciaire (avis à la police, à l'employeur, à la banque, présentations, justificatifs, récépissé, permis, soins) : R17-1 à R18-1 en un article. Les numéros de l'ancien 138 sont écrits sur L3621-4 à L3621-7 (pièce du lot p189).",
+      "ligne_rouge": "art. 66 C examiné : aucune privation de liberté n'en dépend. Le libre choix du praticien est gardé",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "\nDans le cas où les dispositions des articles L. 355-1 et suivants du code de la santé publique sont applicables, le juge d'instruction peut ordonner à la personne mise en examen, au titre du contrôle judiciaire, de se soumettre aux mesures de surveillance sanitaire prévues à l'article L. 355-3 dudit code. Avis de l'ordonnance portant placement sous contrôle judiciaire est donné à l'autorité sanitaire.",
-          "nouveau": ""
+          "op": "rediger",
+          "nouveau": "Les chefs des services de police ou de gendarmerie du lieu de résidence de la personne sont avisés des ordonnances qui imposent, modifient, suppriment ou dispensent des obligations du 1° de l'article L. 3621-4, des 1° à 3°, 5°, 7° et 9° de l'article L. 3621-5 et des articles L. 3621-6 et L. 3621-7. Sont aussi avisés, s'il y a lieu, l'employeur, l'autorité hiérarchique, l'ordre professionnel ou l'autorité d'agrément de la personne, de l'interdiction de l'article L. 3621-6, et l'établissement ou le service qui gère ses comptes, de celle du 8° de l'article L. 3621-5.\nLe service ou l'autorité auquel la personne se présente périodiquement (2° de l'article L. 3621-4) relève les dates de ses présentations. Celui qui contrôle ses activités professionnelles ou son assiduité à un enseignement (3° du même article) peut se faire présenter tous documents ou renseignements sur son travail ou sa scolarité.\nLe récépissé remis en échange des documents retirés (4° du même article) mentionne leur nature et leurs références, les nom, prénoms, date de naissance et domicile de la personne, porte sa photographie récente et vaut justification d'identité. Il est rendu à la restitution du document. Pour la remise du permis de conduire (7° de l'article L. 3621-5), les articles R. 131-3 à R. 131-4-1 du code pénal s'appliquent et leur certificat tient lieu de récépissé.\nLa personne soumise à des mesures d'examen, de traitement ou de soins (8° de l'article L. 3621-4) choisit le praticien ou l'établissement et en justifie auprès du juge."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "R18",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contrôle judiciaire : avis à l'employeur ou à l'ordre en cas d'interdiction professionnelle : effectivité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R18-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Contrôle judiciaire : avis à la banque en cas d'interdiction d'émettre des chèques : effectivité.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "R19",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Cautionnement versé au régisseur de recettes de la juridiction.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R20",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Récépissé du cautionnement.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R21",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Seuil de 1 000 € et chèque certifié.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R22",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Avis au juge des défauts de versement, et sans délai du versement qui conditionne une mise en liberté : la libération n'attend pas.",
-      "ligne_rouge": "art. 66 C examiné : le juge est avisé sans délai du versement dont dépend la mise en liberté"
-    },
-    {
-      "code": "cpp",
-      "num": "R23",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Versement à la Caisse des dépôts sous deux jours.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R23-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Versement par provision à la victime ou au créancier d'aliments : la victime est payée tôt.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R23-2",
-      "decision": "S",
-      "principe": "P26",
-      "motif": "Recouvrement de la part du cautionnement acquise à l'Etat et distribution aux ayants droit : gardés. Certificat unique, transmis par voie électronique (P12). La contestation suit le régime des incidents d'exécution de L5113-10 réécrit (lot p000) : audience publique, exceptions de la règle de publicité. Renvois aux anciens 142-2, 142-3 et 372 à coordonner.",
+      "principe": "P23",
+      "motif": "Versement du cautionnement, récépissé, seuil des espèces (renvoi à l'ancien 142 écrit sur L3621-10), chèque certifié, versement à la Caisse sous deux jours : R19 à R21 et R23 en un article. R368 (Mayotte), qui vise R20 et R21, est à coordonner.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "un certificat du greffe établi en double exemplaire constatant",
-          "nouveau": "un certificat du greffe, transmis par voie électronique, constatant"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "jugée sur requête, en chambre du conseil, comme incident",
-          "nouveau": "jugée sur requête, comme incident"
+          "op": "rediger",
+          "nouveau": "Le cautionnement (5° de l'article L. 3621-4) est versé au régisseur de recettes de la juridiction, à qui le greffe adresse copie de l'ordonnance. Le régisseur délivre un récépissé de chaque versement, total ou partiel. Le montant au-delà duquel le cautionnement ne peut être versé en espèces, prévu à l'article L. 3621-10, est de 1 000 €. Le chèque est certifié et établi au nom du régisseur. Les espèces et valeurs sont versées à la Caisse des dépôts et consignations dans les deux jours, sous la responsabilité du greffier jusqu'à ce versement."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R23-3",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information de la partie civile sur le cautionnement qui garantit ses dommages et intérêts : la victime est informée.",
-      "ligne_rouge": "aucune"
+      "num": "R22",
+      "principe": "P19",
+      "motif": "Avis au juge des défauts de versement et du versement dont dépend une mise en liberté : gardé.",
+      "ligne_rouge": "art. 66 C examiné : l'avis sans délai qui conditionne la mise en liberté est gardé mot pour mot quant au fond",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le greffier avise le juge d'instruction des défauts ou retards de versement du cautionnement, et sans délai du versement dont dépend une mise en liberté sous contrôle judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "R23-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Intérêts restitués avec le cautionnement.",
-      "ligne_rouge": "aucune"
+      "num": "R23-1",
+      "principe": "P18",
+      "motif": "Versement par provision à la victime : gardé. Renvoi à l'ancien 142-1 écrit sur L3621-11.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le juge d'instruction ordonne le versement par provision prévu à l'article L. 3621-11, la victime ou le créancier d'aliments en est avisé. La Caisse des dépôts et consignations, sur les diligences du régisseur, crédite le compte de celui-ci de la somme, qu'il verse aux ayants droit."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R23-2",
+      "principe": "P23",
+      "motif": "Recouvrement de la part acquise à l'État, distribution, information de la partie civile et intérêts : R23-2 à R23-4 en un article. Renvois aux anciens 142-2, 142-3 et 372 écrits sur L3621-12, L3621-13 et L4326-14.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour le recouvrement de la part du cautionnement acquise à l'État selon l'article L. 3621-12, le ministère public, d'office ou à la demande des parties civiles, transmet par voie électronique aux services de la direction générale des finances publiques un certificat du greffe qui constate la responsabilité encourue et, dans les cas des articles L. 3621-13 et L. 4326-14, un second certificat qui mentionne les condamnations et le numéro de l'extrait de la décision. La Caisse des dépôts et consignations distribue sans délai les sommes aux ayants droit. Toute contestation est jugée sur requête, comme incident d'exécution de la décision.\nEn cas de condamnation définitive à des dommages et intérêts, le procureur de la République informe la partie civile de l'existence du cautionnement et des formalités à accomplir pour en obtenir le versement. Les sommes versées à la partie civile ou restituées à la personne poursuivie sont augmentées, le cas échéant, des intérêts échus."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Sûretés ordonnées par le juge pour garantir les droits des victimes et du Trésor.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-1",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Bénéficiaire des sûretés selon ce qu'elles garantissent.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Décision du juge sur les sûretés, bénéficiaires, constitution, délai et justificatifs : R24, R24-1, R24-3, R24-5 et R24-13. Renvois aux anciens 138 (15°) et 706-45 (2°) écrits sur L3621-4 et L6312-1.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le juge d'instruction qui ordonne la constitution de sûretés personnelles ou réelles (6° de l'article L. 3621-4 et 2° de l'article L. 6312-1) fixe le délai de leur constitution, leur durée et le montant garanti, au besoin pour chaque victime identifiée ou identifiable. Pour une sûreté réelle, il désigne les biens qui en forment l'assiette, sa nature et, le cas échéant, son rang. Les sûretés sont constituées au bénéfice des parties civiles, du Trésor public ou des deux, selon qu'elles garantissent leurs droits, la représentation de la personne et le paiement des amendes, ou l'ensemble.\nLa personne constitue et, le cas échéant, publie la sûreté dans le délai fixé, selon les règles propres à cette sûreté. Elle peut obtenir du juge un délai supplémentaire en justifiant des formalités accomplies. Elle adresse au greffier, par voie électronique ou à défaut sur papier, les documents qui attestent la constitution et la publicité, versés au dossier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-2",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Bénéficiaire provisoire pour les victimes non encore identifiées : la victime future est protégée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-3",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Constitution dans le délai fixé par le juge, délai supplémentaire sur justification.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Mentions des actes constitutifs.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-5",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Justificatifs de la sûreté versés au dossier : gardés. Le triple exemplaire tombe, la transmission électronique devient possible.",
+      "motif": "Bénéficiaire provisoire des victimes non encore identifiées, sa rémunération et les mentions des actes (R24-4, R24-12) : gardés. R249-2 qui le cite tient.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sont adressés en triple exemplaire, en original ou en copie, par la personne",
-          "nouveau": "sont adressés en copie par voie électronique ou, à défaut, en original ou en copie sur papier, par la personne"
+          "op": "rediger",
+          "nouveau": "Les sûretés qui garantissent les droits de victimes non encore identifiées ou constituées parties civiles sont établies au nom d'un bénéficiaire provisoire, qui agit pour leur compte et, le cas échéant, pour celui du Trésor public. Il est choisi parmi les personnes qui exercent une activité réglementée par l'autorité publique et soumise à une assurance professionnelle obligatoire, proposé par la personne mise en examen et accepté par le juge d'instruction. Il s'engage à transférer les sûretés aux victimes et, le cas échéant, au Trésor public en cas de condamnation à leur profit. Sa rémunération, fixée par le contrat constitutif, incombe à la personne mise en examen. Les actes constitutifs et de publicité précisent pour qui il agit et mentionnent les références de la décision du juge."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R24-6",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Information du juge en cas d'aliénation ou de destruction du bien grevé : la garantie ne s'évapore pas.",
-      "ligne_rouge": "art. 66 C examiné : mention portée dans l'ordonnance de contrôle judiciaire du juge"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-7",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Report de la garantie sur les sommes perçues, versement à la victime possible.",
-      "ligne_rouge": "aucune"
+      "motif": "Aliénation ou destruction du bien grevé et report de la garantie sur les sommes perçues (R24-7) : gardés. R249-2 qui le cite tient.",
+      "ligne_rouge": "art. 66 C examiné : aucune privation de liberté n'en dépend, la règle garde la garantie de la victime",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour une sûreté réelle, l'ordonnance précise que la personne mise en examen et les autres parties à la constitution informent le juge d'instruction, ou le procureur de la République après l'information, de l'aliénation du bien grevé ou de l'indemnité versée pour sa destruction. Le juge ou le procureur ordonne alors le versement des sommes perçues, comme cautionnement, au régisseur selon les articles R. 19 et R. 23-2. Elles garantissent, selon la décision initiale, soit les seuls droits des victimes identifiées, soit, en proportion des montants recouvrés, les intérêts des 1° et 2° de l'article L. 3621-10. Le juge ou le procureur peut en ordonner le versement à la victime dans les conditions de l'article L. 3621-11."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-8",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Recouvrement de la sûreté de représentation par la direction générale des finances publiques. Renvois aux anciens 142-2 et 710 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-9",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Transmission des justificatifs aux parties civiles bénéficiaires.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-10",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Transmission au Trésor public en cas d'amende et rang prioritaire des parties civiles.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : l'article exécute l'amende prononcée, il ne la module pas ; P18 : rang prioritaire de la victime"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-11",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Radiation de la sûreté sur décision définitive de non-lieu, relaxe, acquittement ou condamnation sans amende ni dommages et intérêts.",
-      "ligne_rouge": "art. 8 DDHC (signal de passe 1) examiné : la garantie tombe avec l'obligation, la présomption d'innocence est respectée"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-12",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Rémunération du bénéficiaire provisoire à la charge de la personne.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-13",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Même régime pour les sûretés des personnes morales.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Recouvrement de la sûreté de représentation, transmission aux bénéficiaires définitifs, rang prioritaire des parties civiles, radiation : R24-8 à R24-11 en un article. Renvois aux anciens 142-2, 142-3 et 710 écrits sur L3621-12, L3621-13 et L5113-3.",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle n'est pas une peine, la radiation après relaxe ou acquittement reste de droit",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La créance garantie par la première partie d'une sûreté n'est recouvrée, selon l'article L. 3621-12, que si le jugement de condamnation ou une décision de la juridiction des incidents d'exécution (article L. 5113-3) constate que les conditions en sont remplies. La juridiction ordonne alors le recouvrement par la direction générale des finances publiques.\nLe procureur de la République adresse les documents de constitution à la direction générale des finances publiques dans ce cas, au Trésor public en cas de condamnation définitive à une amende, à chaque partie civile en cas de condamnation définitive à des dommages et intérêts. Le bénéficiaire définitif en informe le bénéficiaire provisoire, la caution ou le détenteur du bien, et accomplit les formalités de publicité modificatives. Lorsque la condamnation porte aussi sur des dommages et intérêts ou la dette alimentaire, le Trésor public informe ces personnes et les parties civiles du rang prioritaire de celles-ci, dont font état les formalités rectificatives.\nSelon les distinctions des articles L. 3621-12 et L. 3621-13, la personne poursuivie obtient la radiation de la sûreté réelle, et la caution sa libération, sur présentation d'une copie exécutoire, délivrée par le greffe, d'une décision définitive de non-lieu, de relaxe ou d'acquittement, d'une condamnation sans amende ferme ni dommages et intérêts, ou d'une décision qui constate que le premier alinéa n'a pas été appliqué."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-14",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Bracelet anti-rapprochement ordonné par ordonnance motivée, après réquisitions et observations de la défense ou débat contradictoire, distances fixées : protection de la victime sous le contrôle du juge. Renvoi à l'ancien 138-3 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : mesure ordonnée par un juge, après débat ou observations de l'avocat"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-15",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Subsidiarité du bracelet aux interdictions simples : proportion.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Décision de placement sous bracelet anti-rapprochement et sa subsidiarité (R24-15) : gardées. Renvois aux anciens 138-3 et 145 écrits sur L3621-8, L3621-16 et L3642-10 ; numéros de l'ancien 138 écrits sur L3621-5.",
+      "ligne_rouge": "art. 66 C examiné : ordonnance motivée, réquisitions lues, observations de la personne et de son avocat ou débat contradictoire, lecture et notification gardés ; la mesure reste subsidiaire",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Seul un majeur peut être soumis à l'interdiction de rapprochement contrôlée par un bracelet anti-rapprochement (articles L. 3621-8 et L. 3621-16). Elle est ordonnée par ordonnance motivée du juge d'instruction, au vu des réquisitions écrites du procureur de la République lues à la personne et après avoir entendu ses observations et celles de son avocat, ou du juge des libertés et de la détention, dans les mêmes formes ou après le débat contradictoire de l'article L. 3642-10. Elle peut aussi l'être, sans ces formalités, par l'ordonnance qui statue sur une demande de mise en liberté ou décide une mise en liberté d'office. Il est donné lecture de la décision à la personne, à qui elle est notifiée. Elle fixe les conditions d'exécution, dont les distances de l'article R. 24-18.\nLe juge n'ordonne la mesure que si les interdictions des 3° et 5° de l'article L. 3621-5 sont à elles seules insuffisantes pour prévenir le renouvellement de l'infraction. Il prononce alors aussi ces deux interdictions : ne pas se rendre dans les lieux où la victime réside, travaille ou se trouve habituellement, et ne pas la recevoir, la rencontrer ni entrer en relation avec elle de quelque façon que ce soit."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-16",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Géolocalisation de la personne et de la victime, authentification vocale, procédés homologués. La proposition de passe 1 (aménagement) est sans objet.",
-      "ligne_rouge": "art. 66 C examiné : mesure ordonnée par le juge ; vie privée (art. 2 DDHC) examinée : géolocalisation limitée à l'effectivité de l'interdiction"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-17",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Médecin désigné à tout moment, de droit à la demande : contrôle de la compatibilité avec la santé.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Géolocalisation, authentification vocale, homologation et médecin (R24-17) : gardés.",
+      "ligne_rouge": "art. 2 DDHC et CEDH art. 8 examinés : procédés homologués, médecin de droit à la demande de la personne",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le dispositif géolocalise la personne porteuse du bracelet et la personne protégée dotée d'un dispositif de téléprotection, et les relie à un téléopérateur. Leur identité peut être vérifiée à distance par authentification biométrique vocale. Ces procédés sont homologués par arrêté du ministre de la justice.\nLe magistrat chargé de la mesure peut à tout moment désigner un médecin qui vérifie que le bracelet ne présente pas d'inconvénient pour la santé de la personne. Cette désignation est de droit à la demande de la personne ou de son avocat. Le certificat médical est versé au dossier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-18",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Distances d'alerte bornées (un à dix kilomètres), conciliation avec la vie privée et l'insertion, exceptions horaires : proportion.",
-      "ligne_rouge": "art. 66 C examiné : distances fixées par le juge ; vie privée (art. 2 DDHC) examinée : conciliation expresse"
+      "principe": "P23",
+      "motif": "Distances d'alerte et de pré-alerte, conciliation avec la vie privée et l'insertion, exceptions : gardées.",
+      "ligne_rouge": "art. 66 C examiné : bornes d'un à dix kilomètres et conciliation gardées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La distance d'alerte, d'un à dix kilomètres en nombre entier, est fixée par le juge en conciliant la protection de la victime avec la dignité, l'intégrité et la vie privée, familiale et professionnelle de la personne, sans entraver son insertion sociale, compte tenu notamment de leurs domiciles et lieux de travail, de leurs déplacements et du caractère rural ou urbain de leur lieu de vie. La distance de pré-alerte en est le double. Le juge peut autoriser la présence de la personne à des heures et en des lieux qu'il détermine, même compris dans une zone d'alerte ou de pré-alerte."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-19",
-      "decision": "G",
       "principe": "P19",
-      "motif": "Durée de six mois, prolongeable jusqu'à deux ans : bornée. Renvois aux anciens 179, 181, 394, 396, 397-1-1 et 397-3 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : durée bornée, mainlevée demandable"
+      "motif": "Durée de six mois, prolongeable jusqu'à deux ans : gardée. Renvois aux anciens 179, 181, 394, 396, 397-1-1 et 397-3 écrits sur le chapitre de la comparution différée et immédiate (L4413).",
+      "ligne_rouge": "art. 66 C examiné : durée bornée et faculté de demander la mainlevée gardées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La mesure est ordonnée pour six mois au plus. Elle peut être prolongée pour la même durée, dans les formes du premier alinéa de l'article R. 24-14 et si la condition de son second alinéa est toujours remplie, sans dépasser deux ans au total. Lorsque la personne renvoyée devant la juridiction de jugement reste sous contrôle judiciaire, ou que le contrôle judiciaire a été ordonné selon le chapitre 3 du titre Ier du livre IV de la quatrième partie, la durée totale, y compris celle exécutée pendant l'instruction, ne peut dépasser deux ans, sans prolongation tous les six mois et sous réserve de la demande de mainlevée."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-20",
-      "decision": "G",
       "principe": "P18",
-      "motif": "Information de la personne : consentement à la pose, conséquences des manquements, intervention en faveur de la victime.",
-      "ligne_rouge": "art. 66 C examiné : la révocation du contrôle judiciaire reste décidée par le juge"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-21",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Information de la victime sur les distances et le téléopérateur : la victime est avisée.",
-      "ligne_rouge": "aucune"
+      "motif": "Information de la personne et de la victime (R24-21) : gardée.",
+      "ligne_rouge": "art. 66 C examiné : le franchissement de la pré-alerte ne peut entraîner la révocation, gardé mot pour mot quant au fond",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne est avisée que :\n1° Son refus de la pose du bracelet, comme le défaut de rechargement périodique du dispositif, constitue une violation de ses obligations qui peut entraîner la révocation du contrôle judiciaire et son placement en détention provisoire.\n2° Le franchissement de la distance de pré-alerte donne lieu à un avertissement par les personnes chargées du contrôle à distance et ne peut en aucun cas entraîner la révocation.\n3° Le fait de se rapprocher volontairement de la victime, ou de provoquer son rapprochement, en deçà de la distance d'alerte constitue une violation de l'interdiction qui peut entraîner la révocation et le placement en détention provisoire.\n4° En cas de nécessité, les personnes chargées du contrôle à distance prennent l'attache de la personne protégée pour la mettre en sécurité et alertent, selon les procédures établies, les forces de police et de gendarmerie.\nLa personne protégée est avisée par tout moyen des distances, de ce que le téléopérateur peut la contacter pour la mettre en sécurité et de ce qu'elle peut le contacter à tout moment."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-22",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Révision des distances ou mainlevée à la demande de la personne ou de la victime, ou d'office : proportion.",
-      "ligne_rouge": "art. 66 C examiné : le juge statue ; vie privée (art. 2 DDHC) examinée : révision en cas d'atteinte excessive"
+      "motif": "Révision des distances ou mainlevée, à la demande ou d'office ; extension à l'assignation à résidence (R24-24). Renvoi à l'ancien 140 écrit sur L3622-2 (décision motivée sous cinq jours).",
+      "ligne_rouge": "art. 66 C examiné : la demande de la personne et de la victime et la décision du juge gardées",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque des rapprochements, imputables aux déplacements de la personne ou de la victime, causent des alertes nombreuses qui portent une atteinte excessive à la vie privée et familiale de la personne, celle-ci ou la victime peut à tout moment demander la révision des distances ou la fin du port du bracelet. Le juge d'instruction statue selon l'article L. 3622-2. Il peut aussi décider d'office. Après renvoi devant la juridiction de jugement, ou pour un contrôle judiciaire ordonné selon le chapitre 3 du titre Ier du livre IV de la quatrième partie, le juge des libertés et de la détention statue de même.\nLes articles R. 24-14 à R. 24-23 s'appliquent à l'interdiction de rapprochement ordonnée sous assignation à résidence avec surveillance électronique, mobile ou non."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R24-23",
-      "decision": "G",
       "principe": "P9",
-      "motif": "Pose et dépose par l'administration pénitentiaire, par renvoi au code pénitentiaire (R631-1 et R631-3, gardés au lot p129).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R24-24",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Même régime sous assignation à résidence avec surveillance électronique. La proposition de passe 1 (aménagement) est sans objet : il s'agit d'une mesure avant jugement.",
-      "ligne_rouge": "aucune"
+      "motif": "Pose et dépose par l'administration pénitentiaire : gardées.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire pose et dépose le bracelet selon les articles R. 631-1 et R. 631-3 du code pénitentiaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R26",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Réparation de la détention : requête, contenu, délai de six mois qui ne court que si la personne a été avisée de son droit. La voie électronique suit R27 réécrit. Renvois aux anciens 149-1 à 149-3 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : réparation de la détention injustifiée, délai partant de l'information effective"
+      "principe": "P23",
+      "motif": "Requête en réparation, son contenu, le délai de six mois qui ne court que si la personne a été avisée : gardés. Renvois aux anciens 149-1 à 149-3 écrits sur L3662-2 à L3662-4 (pièce du lot p193). L'assignation à résidence avec surveillance électronique, que la loi répare (L3661-1), est nommée.",
+      "ligne_rouge": "art. 66 C examiné : l'avis du droit à réparation conditionne le délai, gardé",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le premier président de la cour d'appel compétent selon l'article L. 3662-2 est saisi par une requête signée du demandeur ou de son avocat, remise au greffe de la cour d'appel contre récépissé ou adressée selon l'article L. 1632-5. La requête expose les faits et le montant demandé, avec toutes indications utiles, notamment la date et la nature de la décision qui a ordonné la détention provisoire ou l'assignation à résidence avec surveillance électronique et l'établissement où la détention a été subie, la juridiction et la date de la décision de non-lieu, de relaxe ou d'acquittement, et l'adresse où notifier le demandeur. Elle est accompagnée des pièces justificatives, notamment de la copie de cette décision.\nLe délai de six mois de l'article L. 3662-2 ne court que si la personne a été avisée, lors de la notification de la décision de non-lieu, de relaxe ou d'acquittement, de son droit de demander réparation et des articles L. 3662-2 à L. 3662-4."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R27",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Avocat et notifications à l'avocat : gardés. Les échanges de la procédure de réparation passaient tous par lettre recommandée : une règle unique ouvre la voie électronique, qui devient la règle pour les notifications du greffe. Elle vaut devant la Commission nationale (R40-5 renvoie à cet alinéa), sans retoucher chaque article. Nom « Commission nationale » de R38, R40-4 et suivants à coordonner sur L2162-1.",
+      "motif": "Avocat et notifications à l'avocat : gardés. L'alinéa de la passe 2 sur la voie électronique est la règle générale de L1632-3 et L1632-5 (registre 5.4, 9.24) : il n'est pas redit.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "ces notifications sont faites dans les mêmes formes au seul avocat.",
-          "nouveau": "ces notifications sont faites dans les mêmes formes au seul avocat.\nDevant le premier président de la cour d'appel comme devant la juridiction nationale de réparation des détentions, toute requête, notification, communication ou observation que la procédure de réparation prévoit d'adresser par lettre recommandée avec demande d'avis de réception peut l'être par tout moyen permettant d'en établir la date de réception. Le greffe et le secrétariat de la juridiction nationale notifient par voie électronique à l'adresse déclarée par la partie ou par son avocat, sauf si la partie demande à recevoir les notifications sur papier. Un délai qui court de la réception d'une lettre recommandée court de la date de réception ainsi établie."
+          "op": "rediger",
+          "nouveau": "Devant le premier président, le demandeur et l'agent judiciaire de l'État peuvent être assistés ou représentés par un avocat. Les notifications sont alors faites au seul avocat, avec copie à la partie qu'il assiste."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "R28",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Dossier demandé dès réception, copie de la requête sous quinze jours : délais courts. La voie électronique suit R27.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R29",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Copie gratuite des pièces pour le demandeur.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : accès au dossier"
-    },
-    {
-      "code": "cpp",
-      "num": "R30",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Accès de l'agent judiciaire de l'Etat au dossier.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R31",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Conclusions de l'agent judiciaire sous deux mois, notification sous quinze jours : délais opposables. La voie électronique suit R27.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R32",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Conclusions du procureur général sous deux mois : délai opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R33",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Réponse du demandeur sous un mois : délai.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R34",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Mesures d'instruction et audition par le premier président.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Instruction de la requête : dossier, copies, conclusions de l'agent judiciaire et du procureur général sous deux mois, notifications sous quinze jours, réponse sous un mois, mesures d'instruction et audition : R28 à R34 en un article, tous les délais gardés.",
+      "ligne_rouge": "art. 16 DDHC examiné : contradictoire, copie gratuite, réponse du demandeur et audition en présence de l'avocat gardés",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dès la réception de la requête, le greffe de la cour d'appel demande à la juridiction qui a rendu la décision de non-lieu, de relaxe ou d'acquittement le dossier de la procédure pénale, ou sa copie si elle se poursuit à l'égard d'autres personnes. Dans les quinze jours de la réception de ce dossier, le greffe transmet copie de la requête au procureur général et à l'agent judiciaire de l'État. Le demandeur et l'agent judiciaire de l'État peuvent obtenir sans frais copie des pièces de la procédure pénale. L'agent judiciaire de l'État et l'avocat du demandeur peuvent seuls en prendre connaissance au greffe.\nL'agent judiciaire de l'État dépose ses conclusions dans les deux mois de la réception de la copie de la requête. Dès ce dépôt ou à l'expiration de ce délai, le greffe transmet le dossier au procureur général, qui conclut dans les deux mois. Le greffe notifie au demandeur chacune de ces conclusions dans les quinze jours de son dépôt et communique celles du procureur général à l'agent judiciaire de l'État dans le même délai. Le demandeur remet ou adresse ses observations en réponse dans le mois de la notification des conclusions du procureur général. Elles sont communiquées à l'agent judiciaire de l'État et au procureur général dans les quinze jours. Les conclusions ultérieures sont communiquées entre parties par leur auteur.\nLe premier président procède ou fait procéder à toute mesure d'instruction utile. Il peut entendre le demandeur, en présence de son avocat ou celui-ci dûment convoqué, et en présence de l'agent judiciaire de l'État et du procureur général ou ceux-ci dûment convoqués."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R35",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Date d'audience fixée par le premier président. L'avis préalable du procureur général sur la date ne protège aucune liberté : il devient un avis donné au parquet. L'opposition du demandeur à la publicité est posée par la loi (L3662-3, L3662-4), gardée au lot p193 au titre de la victime à sa demande, ici victime d'une détention suivie d'une mise hors de cause : le décret l'en avise.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la personne mise hors de cause, victime de la détention, peut s'opposer à la publicité (L3662-3)",
+      "principe": "P26",
+      "motif": "Date d'audience, opposition à la publicité (passe 2), irrecevabilité manifeste (R36) et ordre de parole, demandeur en dernier (R37).",
+      "ligne_rouge": "art. 66 C examiné : le demandeur garde la parole en dernier et l'opposition à la publicité (L3662-3)",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "fixe la date de l'audience après avis du procureur général.",
-          "nouveau": "fixe la date de l'audience et en avise le procureur général."
+          "op": "rediger",
+          "nouveau": "Le premier président fixe la date de l'audience et en avise le procureur général. Le greffe la notifie au demandeur et à l'agent judiciaire de l'État un mois au moins avant l'audience et avise le demandeur qu'il peut s'opposer, jusqu'à l'ouverture des débats, à ce qu'ils aient lieu en audience publique.\nLorsqu'il apparaît manifestement que le demandeur n'a fait l'objet ni d'une détention provisoire ni d'une assignation à résidence avec surveillance électronique au cours d'une procédure terminée à son égard par une décision définitive de non-lieu, de relaxe ou d'acquittement, ou que sa requête est tardive, le premier président peut, après en avoir avisé le demandeur, l'agent judiciaire de l'État et le procureur général, fixer l'audience sans les actes des deux derniers alinéas de l'article R. 28.\nÀ l'audience, le demandeur ou son avocat, puis l'agent judiciaire de l'État ou son avocat présentent leurs observations. Le procureur général développe ses conclusions. Les parties peuvent répliquer, le demandeur ou son avocat ayant la parole en dernier."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "R36",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Requête manifestement irrecevable jugée sans instruction : économie.",
-      "ligne_rouge": "art. 66 C examiné : la réparation reste due à toute détention suivie d'une décision de non-lieu, de relaxe ou d'acquittement"
-    },
-    {
-      "code": "cpp",
-      "num": "R37",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Ordre de parole, le demandeur en dernier.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : parole en dernier"
     },
     {
       "code": "cpp",
       "num": "R38",
-      "decision": "G",
       "principe": "P26",
-      "motif": "Décision rendue en audience publique, notifiée avec le délai de recours de dix jours, copie à la commission de suivi de la détention provisoire : transparence et compte rendu.",
-      "ligne_rouge": "art. 66 C examiné : recours ouvert devant la Commission nationale"
-    },
-    {
-      "code": "cpp",
-      "num": "R39",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Provision en référé : la réparation n'attend pas.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Exécution provisoire de plein droit.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Paiement par le comptable ministériel.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dépens à la charge du demandeur débouté, sauf décharge.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Renvoi du dossier pénal à la juridiction d'origine.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-4",
-      "decision": "G",
-      "principe": "P17",
-      "motif": "Recours devant la Commission nationale de réparation des détentions : ouvert aux trois parties. Déclaration en quatre exemplaires : la voie électronique suit R27.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Avocat devant la Commission nationale, notifications à l'avocat par renvoi à R27 : la voie électronique de R27 réécrit s'applique.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-6",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Transmission sans délai, greffe de la Cour de cassation.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Copie gratuite des pièces devant la commission.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-8",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Conclusions de l'auteur du recours sous un mois : la voie électronique suit R27.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-9",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Conclusions de l'autre partie sous deux mois : la voie électronique suit R27.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-10",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Conclusions du procureur général sous deux mois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-11",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Notification des conclusions sous quinze jours : la voie électronique suit R27.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-12",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Réponse sous un mois : la voie électronique suit R27.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-13",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Recours du procureur général : conclusions et délais. La voie électronique suit R27.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-14",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Rapporteur désigné dans le mois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-15",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Mesures d'instruction et audition devant la commission.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "R40-16",
+      "motif": "Décision publique, notification avec le délai de recours, copies au procureur général et à la commission de suivi : gardées.",
+      "ligne_rouge": "art. 66 C examiné : notification avec l'indication du recours de dix jours gardée",
       "decision": "S",
-      "principe": "P15",
-      "motif": "Date d'audience fixée par le président de la commission : l'avis préalable du procureur général devient un avis donné. L'opposition du demandeur à la publicité est posée par la loi (L3662-3, L3662-4), gardée au lot p193 au titre de la victime à sa demande, ici victime d'une détention suivie d'une mise hors de cause : le décret l'en avise.",
-      "ligne_rouge": "vie privée (art. 2 DDHC) examinée : la personne mise hors de cause, victime de la détention, peut s'opposer à la publicité (L3662-3)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "fixe la date de l'audience après avis du procureur général près la Cour de cassation.",
-          "nouveau": "fixe la date de l'audience et en avise le procureur général près la Cour de cassation."
+          "op": "rediger",
+          "nouveau": "La décision du premier président est rendue en audience publique. Elle est notifiée au demandeur et à l'agent judiciaire de l'État par remise d'une copie contre récépissé ou selon l'article L. 1632-5, avec l'indication que le recours de l'article L. 3662-4 peut être formé dans les dix jours. Copie en est remise au procureur général et adressée à la commission de suivi de la détention provisoire au ministère de la justice."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "R40-17",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Recours manifestement tardif jugé sans instruction : économie. Renvoi à l'ancien 149-3 à coordonner.",
-      "ligne_rouge": "aucune"
+      "num": "R40",
+      "principe": "P19",
+      "motif": "Exécution provisoire, provision en référé sans recours (R39), paiement (R40-1), dépens (R40-2), renvoi du dossier (R40-3).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La décision du premier président qui accorde une réparation est exécutoire par provision de plein droit. Le premier président peut, à tout moment de la procédure, accorder en référé une provision au demandeur, par une décision sans recours. La réparation et la provision sont payées par les services du contrôleur budgétaire et comptable ministériel près le ministère de la justice.\nSi la requête est rejetée, le demandeur est condamné aux dépens, à moins que le premier président ne l'en décharge en tout ou partie. La décision comporte exécution forcée pour le paiement des dépens.\nSi le recours n'est pas formé, le dossier de la procédure pénale est renvoyé, avec copie de la décision, à la juridiction qui a rendu la décision de non-lieu, de relaxe ou d'acquittement."
+        }
+      ]
     },
     {
       "code": "cpp",
-      "num": "R40-18",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Ordre de parole, le demandeur en dernier.",
-      "ligne_rouge": "droits de la défense (art. 16 DDHC) examinés : parole en dernier"
+      "num": "R40-4",
+      "principe": "P17",
+      "motif": "Recours devant la juridiction nationale (nom de L2162-1, pièce du lot p261) : déclaration, transmission, secrétariat, avocat, copies (R40-5 à R40-7). Les quatre exemplaires tombent (P12).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le demandeur, l'agent judiciaire de l'État et le procureur général près la cour d'appel peuvent former le recours de l'article L. 3662-4 par déclaration remise au greffe de la cour d'appel. Le greffe en constate la date, en restitue un exemplaire à son auteur et en adresse copie aux deux autres. Il transmet sans délai à la juridiction nationale de réparation des détentions le dossier de la procédure de réparation, la déclaration et le dossier de la procédure pénale. Un greffier de la Cour de cassation est le secrétaire et le greffier de la juridiction.\nDevant elle, le demandeur et l'agent judiciaire de l'État peuvent être assistés ou représentés par un avocat au Conseil d'État et à la Cour de cassation ou par un avocat inscrit au barreau d'une cour d'appel ou d'un tribunal judiciaire, et l'article R. 27 s'applique. S'ils ne l'ont fait devant le premier président, ils peuvent obtenir sans frais copie des pièces de la procédure pénale. Seuls leurs avocats en prennent connaissance au secrétariat."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R40-8",
+      "principe": "P19",
+      "motif": "Échange des conclusions devant la juridiction nationale, quel que soit l'auteur du recours : R40-8 à R40-13 en un article, tous les délais gardés.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les quinze jours de la réception du dossier, le secrétaire demande à l'auteur du recours ses conclusions, à déposer dans le mois. Dès leur réception, il en adresse copie au procureur général près la Cour de cassation et à ceux du demandeur et de l'agent judiciaire de l'État qui ne sont pas auteurs du recours. Ceux-ci ont deux mois à compter de cette réception pour déposer leurs conclusions. Dès ce dépôt ou à l'expiration de ce délai, le dossier est transmis au procureur général près la Cour de cassation, qui conclut dans les deux mois.\nDans les quinze jours de leur dépôt, les conclusions du procureur général sont notifiées au demandeur et à l'agent judiciaire de l'État, chacun recevant aussi celles de l'autre. Lorsque l'auteur du recours est le demandeur ou l'agent judiciaire de l'État, il présente ses observations en réponse dans le mois de cette notification. Elles sont communiquées dans les quinze jours au procureur général et à l'autre partie. Les conclusions ultérieures sont communiquées entre parties par leur auteur."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R40-14",
+      "principe": "P23",
+      "motif": "Rapporteur, mesures d'instruction et audition, date et opposition à la publicité, recours manifestement tardif, ordre de parole : R40-14 à R40-18. Renvoi à l'ancien 149-3 écrit sur L3662-4.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans le mois qui suit l'expiration des délais de l'article R. 40-8, le président de la juridiction nationale désigne un rapporteur parmi ses membres. Le président et le rapporteur peuvent procéder ou faire procéder à toute mesure d'instruction complémentaire et entendre le demandeur comme le prévoit le dernier alinéa de l'article R. 28, le procureur général près la Cour de cassation y tenant lieu de procureur général.\nLe président fixe la date de l'audience selon le premier alinéa de l'article R. 35, le secrétaire y tenant lieu de greffe et le procureur général près la Cour de cassation de procureur général. Après en avoir avisé le demandeur, l'agent judiciaire de l'État et le procureur général près la cour d'appel, il peut fixer l'audience sans les actes de l'article R. 40-8 ni ceux du présent article lorsque le recours est manifestement formé après le délai de dix jours, ou contre une décision rendue selon le deuxième alinéa de l'article R. 35 ou une provision accordée en référé.\nÀ l'audience, après le rapport, l'auteur du recours, ou le demandeur si le recours émane du procureur général près la cour d'appel, a la parole en premier. Le procureur général près la Cour de cassation développe ses conclusions. Les parties peuvent répliquer, le demandeur ou son avocat ayant la parole en dernier."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R40-19",
-      "decision": "G",
       "principe": "P26",
-      "motif": "Décision rendue en audience publique, copie à la commission de suivi de la détention provisoire : transparence.",
-      "ligne_rouge": "art. 66 C examiné : contrôle juridictionnel de la réparation, tenu"
+      "motif": "Décision publique, notification et copies, paiement du complément, dépens, renvoi du dossier : R40-19 à R40-22.",
+      "ligne_rouge": "art. 66 C examiné : décision publique et notifiée, copie à la commission de suivi gardées",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La décision de la juridiction nationale est rendue en audience publique et notifiée au demandeur et à l'agent judiciaire de l'État par remise d'une copie contre récépissé ou selon l'article L. 1632-5. Copie en est remise au procureur général près la Cour de cassation et adressée à la commission de suivi de la détention provisoire au ministère de la justice.\nLa provision ou la réparation accordée au-delà du montant fixé par le premier président est payée, par dérogation à l'article R. 233, par le directeur régional des finances publiques d'Île-de-France et de Paris.\nSi le recours est rejeté, son auteur est condamné aux dépens, à moins que la juridiction ne l'en décharge en tout ou partie, et la décision comporte exécution forcée pour leur paiement. Le présent alinéa ne s'applique pas au procureur général près la cour d'appel.\nLe dossier de la procédure pénale est renvoyé, avec copie de la décision, au premier président, pour transmission à la juridiction qui a rendu la décision de non-lieu, de relaxe ou d'acquittement. Copie de la décision est adressée au procureur général près la cour d'appel."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "R15-36",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Instruction de la demande d'habilitation : première phrase de R15-37.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-37"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-38",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Habilitation provisoire d'urgence : deuxième alinéa de R15-37.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-37"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-39",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exclusion par le bulletin n° 2 et avis du parquet sur les nouveaux intervenants : R15-37.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-37"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-40",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Retrait de l'habilitation : deuxième alinéa de R15-37. R263 est à coordonner.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-37"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-41-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Objet de la sous-section : premier alinéa de R15-41-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R15-41-2"
+    },
+    {
+      "code": "cpp",
+      "num": "R15-41-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Restitution du produit de la vente : second alinéa de R15-41-2.",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle n'est pas une peine. Information, délai de six mois, attestation et recours gardés à R15-41-2",
+      "vers": "R15-41-2"
+    },
+    {
+      "code": "cpp",
+      "num": "R16-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Diligences des personnes chargées du contrôle : deuxième alinéa de R16.",
+      "ligne_rouge": "art. 66 C examiné : la règle est reprise sans perte dans l'article de destination",
+      "vers": "R16"
+    },
+    {
+      "code": "cpp",
+      "num": "R16-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Rétribution des contributeurs : dernier alinéa de R16.",
+      "ligne_rouge": "aucune",
+      "vers": "R16"
+    },
+    {
+      "code": "cpp",
+      "num": "R17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Liberté d'opinion et droits de la défense : deuxième alinéa de R16.",
+      "ligne_rouge": "art. 66 C examiné : la garantie d'opinion et des droits de la défense est reprise à R16",
+      "vers": "R16"
+    },
+    {
+      "code": "cpp",
+      "num": "R17-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Relevé des présentations : R17-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R17-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R17-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Justificatifs de travail ou de scolarité : R17-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R17-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R17-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Récépissé des documents retirés : R17-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R17-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R17-4-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Remise du permis de conduire : R17-1.",
+      "ligne_rouge": "art. 66 C examiné : la règle est reprise sans perte dans l'article de destination",
+      "vers": "R17-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R17-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Libre choix du praticien : R17-1. L'alinéa mort (anciens L. 355-1 et L. 355-3 du code de la santé publique) tombe, comme en passe 2.",
+      "ligne_rouge": "art. 66 C examiné : le libre choix du praticien et la justification au juge sont repris à R17-1, l'alinéa abrogé visait des articles disparus",
+      "vers": "R17-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis à l'employeur ou à l'ordre : R17-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R17-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R18-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avis à la banque : R17-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R17-1"
+    },
+    {
+      "code": "cpp",
+      "num": "R20",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Récépissé du cautionnement : R19. R368 est à coordonner.",
+      "ligne_rouge": "aucune",
+      "vers": "R19"
+    },
+    {
+      "code": "cpp",
+      "num": "R21",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Seuil de 1 000 € et chèque certifié : R19. R368 est à coordonner.",
+      "ligne_rouge": "aucune",
+      "vers": "R19"
+    },
+    {
+      "code": "cpp",
+      "num": "R23",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Versement à la Caisse sous deux jours : R19. R369, abrogé en passe 2, le visait.",
+      "ligne_rouge": "aucune",
+      "vers": "R19"
+    },
+    {
+      "code": "cpp",
+      "num": "R23-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information de la partie civile : R23-2. R369, abrogé en passe 2, le visait.",
+      "ligne_rouge": "aucune",
+      "vers": "R23-2"
+    },
+    {
+      "code": "cpp",
+      "num": "R23-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Intérêts restitués : R23-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R23-2"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Bénéficiaires des sûretés : R24.",
+      "ligne_rouge": "aucune",
+      "vers": "R24"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Constitution dans le délai et délai supplémentaire : R24.",
+      "ligne_rouge": "aucune",
+      "vers": "R24"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mentions des actes constitutifs : R24-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R24-2"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Justificatifs au dossier : R24 (voie électronique, passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "R24"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Report de la garantie sur les sommes perçues : R24-6.",
+      "ligne_rouge": "aucune",
+      "vers": "R24-6"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transmission aux parties civiles : R24-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R24-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transmission au Trésor public et rang prioritaire : R24-8.",
+      "ligne_rouge": "art. 8 DDHC examiné : la règle n'est pas une peine, reprise à R24-8",
+      "vers": "R24-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Radiation de la sûreté : dernier alinéa de R24-8.",
+      "ligne_rouge": "art. 8 DDHC examiné : la radiation après non-lieu, relaxe ou acquittement est reprise à R24-8",
+      "vers": "R24-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Rémunération du bénéficiaire provisoire : R24-2.",
+      "ligne_rouge": "aucune",
+      "vers": "R24-2"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Sûretés des personnes morales : R24 vise le 2° de L6312-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R24"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Subsidiarité du bracelet : second alinéa de R24-14.",
+      "ligne_rouge": "aucune",
+      "vers": "R24-14"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Médecin désigné, de droit à la demande : second alinéa de R24-16.",
+      "ligne_rouge": "CEDH art. 3 et 8 examinés : la désignation de droit du médecin est reprise à R24-16",
+      "vers": "R24-16"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-21",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Information de la victime : dernier alinéa de R24-20.",
+      "ligne_rouge": "aucune",
+      "vers": "R24-20"
+    },
+    {
+      "code": "cpp",
+      "num": "R24-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Application sous assignation à résidence : dernier alinéa de R24-22.",
+      "ligne_rouge": "aucune",
+      "vers": "R24-22"
+    },
+    {
+      "code": "cpp",
+      "num": "R29",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Copie gratuite et consultation par l'avocat : R28.",
+      "ligne_rouge": "aucune",
+      "vers": "R28"
+    },
+    {
+      "code": "cpp",
+      "num": "R30",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accès de l'agent judiciaire : R28.",
+      "ligne_rouge": "aucune",
+      "vers": "R28"
+    },
+    {
+      "code": "cpp",
+      "num": "R31",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Conclusions de l'agent judiciaire et notification : R28.",
+      "ligne_rouge": "aucune",
+      "vers": "R28"
+    },
+    {
+      "code": "cpp",
+      "num": "R32",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Conclusions du procureur général : R28.",
+      "ligne_rouge": "aucune",
+      "vers": "R28"
+    },
+    {
+      "code": "cpp",
+      "num": "R33",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réponse du demandeur et conclusions ultérieures : R28.",
+      "ligne_rouge": "aucune",
+      "vers": "R28"
+    },
+    {
+      "code": "cpp",
+      "num": "R34",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mesures d'instruction et audition : R28.",
+      "ligne_rouge": "aucune",
+      "vers": "R28"
+    },
+    {
+      "code": "cpp",
+      "num": "R36",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Requête manifestement irrecevable : deuxième alinéa de R35.",
+      "ligne_rouge": "art. 66 C examiné : la faculté de juger sans plus ample instruction reste précédée d'un avis aux parties, reprise à R35",
+      "vers": "R35"
+    },
+    {
+      "code": "cpp",
+      "num": "R37",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Ordre de parole : dernier alinéa de R35.",
+      "ligne_rouge": "aucune",
+      "vers": "R35"
+    },
+    {
+      "code": "cpp",
+      "num": "R39",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Provision en référé sans recours : R40.",
+      "ligne_rouge": "aucune",
+      "vers": "R40"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Paiement : R40.",
+      "ligne_rouge": "aucune",
+      "vers": "R40"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dépens : R40.",
+      "ligne_rouge": "aucune",
+      "vers": "R40"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi du dossier : R40.",
+      "ligne_rouge": "aucune",
+      "vers": "R40"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Avocat devant la juridiction nationale : R40-4.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-4"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transmission et secrétariat : R40-4.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-4"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Copie gratuite : R40-4.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-4"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Conclusions de l'autre partie : R40-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Conclusions du procureur général : R40-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Notification des conclusions : R40-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réponse de l'auteur du recours : R40-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recours du procureur général près la cour d'appel : R40-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-8"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mesures d'instruction : R40-14.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-14"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Date d'audience et opposition à la publicité : R40-14 renvoie au premier alinéa de R35.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-14"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recours manifestement tardif : R40-14.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-14"
+    },
+    {
+      "code": "cpp",
+      "num": "R40-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Ordre de parole : R40-14.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-14"
     },
     {
       "code": "cpp",
       "num": "R40-20",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Paiement du complément par la direction régionale des finances publiques de Paris.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Paiement du complément : R40-19.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-19"
     },
     {
       "code": "cpp",
       "num": "R40-21",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Dépens à la charge de l'auteur du recours débouté, sauf le parquet.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dépens : R40-19.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-19"
     },
     {
       "code": "cpp",
       "num": "R40-22",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Renvoi du dossier pénal à la juridiction d'origine.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Renvoi du dossier : R40-19.",
+      "ligne_rouge": "aucune",
+      "vers": "R40-19"
     }
-  ]
+  ],
+  "passe": 3
 }
