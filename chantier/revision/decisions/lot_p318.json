@@ -10,26 +10,35 @@
     {
       "code": "cpp",
       "num": "R250",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Clause d'application de la partie réglementaire dans les départements d'outre-mer et à Saint-Barthélemy, Saint-Martin et Saint-Pierre-et-Miquelon : sécurité juridique, une ligne.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Clause d'application et substitutions des collectivités (technique 1) : R. 250-1 et R. 250-2 y fusionnent, les lettres abrogées de R. 250-1 disparaissent avec lui. La mention des départements de Guadeloupe, de Guyane, de Martinique et de La Réunion, où le code s'applique de plein droit (art. 73 C), et « ainsi que les règlements qui le modifient » tombent : une modification fait partie du code.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent code s'applique à Saint-Barthélemy, à Saint-Martin et à Saint-Pierre-et-Miquelon, où le représentant de l'État dans la collectivité tient lieu de préfet de département. À Saint-Pierre-et-Miquelon, la caisse de prévoyance sociale tient lieu de caisse nationale d'assurance maladie et de caisse nationale des allocations familiales, et la direction des services fiscaux localement compétente d'administration centrale de la direction générale des finances publiques."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "R250-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Substitutions propres à Saint-Pierre-et-Miquelon (représentant de l'Etat, caisse de prévoyance sociale, services fiscaux) : institutions propres à la collectivité. Les lettres abrogées restent pour ne pas renuméroter.",
-      "ligne_rouge": "aucune"
+      "motif": "Substitutions propres à Saint-Pierre-et-Miquelon : R. 250.",
+      "ligne_rouge": "aucune",
+      "vers": "R250"
     },
     {
       "code": "cpp",
       "num": "R250-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P3",
-      "motif": "Représentant de l'Etat à la place du préfet à Saint-Barthélemy et Saint-Martin : autorité propre aux collectivités.",
-      "ligne_rouge": "aucune"
+      "motif": "Représentant de l'État à Saint-Barthélemy et à Saint-Martin : R. 250.",
+      "ligne_rouge": "aucune",
+      "vers": "R250"
     }
-  ]
+  ],
+  "passe": 3
 }
