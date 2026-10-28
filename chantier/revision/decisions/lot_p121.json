@@ -10,10 +10,10 @@
     {
       "code": "penitentiaire",
       "num": "D121-4",
-      "decision": "S",
       "principe": "P20",
-      "motif": "Le 1° (tabac dans les lieux fermés et couverts à usage collectif ou de travail) est le miroir des articles L. 3512-8 et R. 3512-2 du code de la santé publique, qui s'appliquent déjà aux établissements : il tombe. La réserve « indépendamment des défenses de la loi pénale » ne dit rien. Reste la règle propre : alcool interdit dans l'établissement, hors logements et restauration.",
+      "motif": "Alcool interdit dans l'établissement, hors logements et restauration : gardé (passe 2). Le tabac, miroir du code de la santé publique, et la réserve de la loi pénale tombent.",
       "ligne_rouge": "aucune",
+      "decision": "S",
       "operations": [
         {
           "op": "rediger",
@@ -24,45 +24,155 @@
     {
       "code": "penitentiaire",
       "num": "R120-1",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Désigne les articles qui forment le code de déontologie que L. 120-1 renvoie au décret en Conseil d'État : rattachement nécessaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R120-2",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Champ du code de déontologie, gardé. La liste des exclusions applicables aux réservistes vise R. 822-1, R. 832-1, R. 842-1, R. 852-4, R. 862-5 et R. 872-5, coquilles pour les adaptations ultramarines du serment (R722-1, R732-1, R742-1, R752-4, R762-4, R772-4), abrogées aux lots p132 à p138, et deux articles abrogés dans ce lot (R. 122-2, R. 122-24). Renvois retirés. La plage du 1° s'arrête à R. 122-22, R. 122-23 et R. 122-24 étant abrogés.",
+      "principe": "P23",
+      "motif": "Objet, champ et publicité du code de déontologie en un article (R120-2 et R120-3 y fusionnent). Les exclusions des réservistes se réduisent aux articles qui subsistent (R. 122-8, R. 122-21), comme en passe 2.",
       "ligne_rouge": "aucune",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "à l'exclusion des articles R. 122-2, R. 122-8, R. 122-21, R. 122-24, R. 822-1, R. 832-1, R. 842-1, R. 852-4, R. 862-5 et R. 872-5,",
-          "nouveau": "à l'exclusion des articles R. 122-8 et R. 122-21,"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "des articles R. 122-1 à R. 122-24 du chapitre II",
-          "nouveau": "des articles R. 122-1 à R. 122-22 du chapitre II"
+          "op": "rediger",
+          "nouveau": "Le présent titre constitue le code de déontologie du service public pénitentiaire prévu à l'article L. 120-1. Le chapitre II s'applique aux personnels de l'administration pénitentiaire mentionnés à l'article L. 113-1, dans le respect des règles qui les régissent, et aux réservistes mentionnés à l'article L. 114-1, sauf les articles R. 122-8 et R. 122-21. Le chapitre III s'applique aux personnes physiques et aux agents des personnes morales de droit public ou privé qui concourent au service public pénitentiaire en vertu d'une habilitation ou d'un agrément.\nLe code est remis à chacune des personnes auxquelles il s'applique. Il est affiché dans les établissements et services pénitentiaires de façon que les personnes placées sous main de justice en aient aussi connaissance."
         }
       ]
     },
     {
       "code": "penitentiaire",
+      "num": "R121-3",
+      "principe": "P16",
+      "motif": "Sanction du manquement, disciplinaire ou par retrait du titre, cumulable avec la peine : inchangé. Le « sans préjudice » autorise le cumul, il reste.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-1",
+      "principe": "P23",
+      "motif": "Devoirs généraux du personnel en un article : loyauté, intégrité, dignité, sécurité et bon ordre, réserve et secret, entraide, usage de la force borné, signalement (R122-3 à R122-7 y fusionnent).",
+      "ligne_rouge": "Usage de la force borné par les lois et règlements (P25) : gardé mot pour mot.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire est loyal envers les institutions républicaines. Il est intègre, impartial et probe. Il ne se départit de sa dignité en aucune circonstance.\nIl s'abstient de tout acte, propos ou écrit qui porterait atteinte à la sécurité et au bon ordre des établissements et services ou à la bonne exécution des missions du service public pénitentiaire. Il est astreint au devoir de réserve et au respect de la discrétion et du secret professionnels, dans les conditions prévues par les lois et règlements. Ses membres se doivent mutuellement respect, aide et assistance.\nLe personnel de l'administration pénitentiaire ne peut faire un usage de la force que dans les conditions et limites posées par les lois et règlements. Témoin d'agissements que le présent code prohibe, il s'efforce de les faire cesser et les porte à la connaissance de sa hiérarchie et, s'ils constituent une infraction, du procureur de la République."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-8",
+      "principe": "P23",
+      "motif": "Serment prêté en audience publique avant la prise de fonctions, et sa formule, en un article (R122-9 y fusionne). L'alinéa transitoire épuisé tombe (passe 2).",
+      "ligne_rouge": "Publicité du serment devant le juge (P26) : gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lors de sa première affectation, avant sa prise de fonctions, tout agent de l'administration pénitentiaire prête serment en audience publique devant le président du tribunal judiciaire ou le premier président de la cour d'appel dans le ressort desquels se trouve son lieu d'affectation ou, s'il est en formation, le lieu d'implantation de l'École nationale d'administration pénitentiaire. La formule du serment est la suivante :\n« Je déclare solennellement m'engager à servir dans le respect des principes de la République, à bien et loyalement remplir mes fonctions, à observer les devoirs qu'elles m'imposent dans le strict respect des personnes confiées au service public pénitentiaire et de leurs droits, à me conformer à la loi et aux ordres reçus et à ne faire qu'un usage légitime des pouvoirs qui me sont confiés. »"
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-10",
+      "principe": "P23",
+      "motif": "Devoirs du personnel envers les personnes confiées en un article : respect absolu, interdiction de la violence, de l'intimidation, de la discrimination et du langage injurieux, sauvegarde de la vie et de la santé, exemplarité, rappel et exercice des droits (R122-11 à R122-13 y fusionnent).",
+      "ligne_rouge": "Dignité et droits des personnes confiées (art. 3 CEDH, art. 9 DDHC) : chaque devoir du personnel envers elles reste écrit.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire exerce ses missions dans le respect absolu des personnes que l'autorité judiciaire lui confie et de leurs droits. Il s'interdit à leur égard toute forme de violence ou d'intimidation. Il ne manifeste aucune discrimination. Il n'use ni de dénomination injurieuse, ni de tutoiement, ni de langage grossier ou familier. Il a le même comportement envers leurs proches.\nIl prend toute mesure tendant à la sauvegarde de leur vie et de leur santé, notamment en faisant appel au personnel de santé. Il se conduit en toute circonstance de manière que son exemple ait sur elles une influence positive et suscite leur respect.\nIl leur rappelle en tant que de besoin leurs droits, leurs devoirs et les sanctions ou mesures dont elles peuvent faire l'objet. Pendant toute la durée de leur placement, il veille à leur permettre l'exercice de leurs droits, dans le respect des lois et règlements."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-14",
+      "principe": "P23",
+      "motif": "Interdits envers les personnes confiées et relations à éviter ou à déclarer, en un article (R122-15 y fusionne).",
+      "ligne_rouge": "Droits de la défense : l'interdiction d'influer sur les moyens de défense et le choix du défenseur est gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le personnel de l'administration pénitentiaire n'occupe pas à des fins personnelles les personnes qui lui sont confiées et n'accepte d'elles, directement ou indirectement, aucun don ni avantage. Il ne se charge pour elles d'aucun message, d'aucune mission ni d'aucun achat ou vente. Il ne leur remet et ne reçoit d'elles ni somme d'argent, ni objet, ni substance, hors des cas prévus par la loi. Il ne permet ni ne facilite aucune communication que les textes n'autorisent pas entre personnes détenues ou avec l'extérieur. Il n'agit pas, directement ou indirectement, auprès de ces personnes pour influer sur leurs moyens de défense ou le choix de leurs défenseurs.\nIl n'entretient sciemment, avec les personnes placées par décision de justice sous l'autorité ou le contrôle de son établissement ou service, ni avec leur famille ou leurs amis, aucune relation que les nécessités du service ne justifient pas. Cette interdiction dure cinq ans après la fin de cette autorité ou de ce contrôle, que marquent la cessation de ses fonctions dans l'établissement ou le service, le transfèrement de la personne détenue ou sa levée d'écrou. Il informe son chef d'établissement ou de service, dès la prise en charge, des relations qu'il a eues auparavant avec ces personnes, leur famille ou leurs amis, et de ses liens familiaux avec elles."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-16",
+      "principe": "P23",
+      "motif": "Hiérarchie en un article : commandement, responsabilité de l'auteur de l'ordre, voie hiérarchique, exécution loyale, ordre manifestement illégal et objection, compte rendu et relève (R122-17 à R122-20 y fusionnent).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'autorité investie du pouvoir hiérarchique exerce les fonctions de commandement et d'encadrement. Elle prend les décisions, les fait appliquer et les traduit en ordres précis et expliqués. Elle répond de ses ordres, de leur exécution et de leurs conséquences, y compris des actes réguliers du subordonné qu'elle charge d'agir à sa place. Elle transmet ses ordres par la voie hiérarchique. Si l'urgence ne le permet pas, les échelons intermédiaires en sont informés sans délai. Hors réquisition, aucun ordre n'est donné à un agent qui ne relève pas de l'autorité fonctionnelle de son auteur, sauf pour faire appliquer les règles générales de la discipline.\nL'agent exécute loyalement les ordres reçus et répond des tâches qui lui sont confiées et des conséquences de leur inexécution. Il se conforme aux instructions de son supérieur, sauf si l'ordre est manifestement illégal et de nature à compromettre gravement un intérêt public. Il fait alors part de ses objections à l'auteur de l'ordre, en indiquant expressément l'illégalité qu'il y voit. Si l'ordre est maintenu et que l'agent persiste, il est pris acte de son opposition et il en est rendu compte à l'autorité supérieure. Le refus d'exécuter un ordre hors de ces conditions engage sa responsabilité.\nTout personnel rend compte à sa hiérarchie, sans omission ni dissimulation, de son action et de l'exécution de ses missions, ou de ce qui l'a empêchée. Les informations utiles sont consignées aux relèves de service pour les agents qui prennent la charge des personnes confiées."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-21",
+      "principe": "P13",
+      "motif": "Formation initiale aux droits de l'homme et à la déontologie, formation à l'usage de la force et des armes, actualisation des connaissances : gardées. Le renvoi à L. 113-2, abrogé (lot p091), tombe : l'obligation de formation tient à L. 422-20 du code général de la fonction publique.",
+      "ligne_rouge": "Formation à l'usage de la force (P25) : gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire assure à ses fonctionnaires la formation initiale et continue prévue à l'article L. 422-20 du code général de la fonction publique. Avant la prise de fonctions, elle porte sur les principales règles nationales et internationales de protection des droits de l'homme et sur la déontologie. Les agents susceptibles d'user de la force et des armes reçoivent une formation spécifique. Le personnel actualise régulièrement ses connaissances professionnelles."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-22",
+      "principe": "P21",
+      "motif": "Protection fonctionnelle étendue aux réservistes : inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R123-1",
+      "principe": "P23",
+      "motif": "Devoirs des personnes qui concourent au service public pénitentiaire en un article (R123-2 à R123-5 y fusionnent) : principes de l'article R. 122-10, impartialité, relations interdites et liens à déclarer pour la seule durée de la mission (écrits en clair, sans renvoi à R. 122-14 dont l'interdiction dure cinq ans), interdits, consignes, secret.",
+      "ligne_rouge": "Vie privée des personnes suivies (P25) : l'interdiction de divulguer leur santé, leur vie privée et leur situation pénale est gardée dans les mêmes termes.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnes physiques et les agents des personnes morales qui concourent au service public pénitentiaire appliquent, envers les personnes placées sous main de justice auprès desquelles ils interviennent, les principes de respect absolu, de non-discrimination et d'exemplarité de l'article R. 122-10. Ils interviennent avec une stricte impartialité et selon les règles déontologiques de leur profession.\nIls n'entretiennent sciemment, avec les personnes placées par décision de justice sous l'autorité ou le contrôle de l'établissement ou du service où ils interviennent, ni avec leur famille ou leurs amis, aucune relation que les nécessités de leur mission ne justifient pas. Cette interdiction cesse avec la fin de leur mission dans l'établissement ou le service, le transfèrement de la personne détenue ou sa levée d'écrou. Ils informent le chef de l'établissement ou du service, dès la prise en charge, des relations qu'ils ont eues auparavant avec ces personnes, leur famille ou leurs amis, et de leurs liens familiaux avec elles.\nIls n'occupent pas ces personnes à des fins personnelles et n'acceptent d'elles, directement ou indirectement, aucun don ni avantage. Hors les cas prévus par la loi ou par leur intervention, ils ne leur remettent et ne reçoivent d'elles ni argent, ni objet, ni substance. Ils ne permettent ni ne facilitent aucune mission ni aucun message irréguliers entre personnes détenues ou avec l'extérieur. Ils n'entravent pas le fonctionnement régulier des établissements et services et se conforment aux consignes de sécurité de l'administration. Hors les cas prévus par la loi, ils ne divulguent aucune information relative à la sécurité des établissements ou services ou à l'état de santé, à la vie privée ou à la situation pénale de ces personnes."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R120-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Champ du code de déontologie : repris à R. 120-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R120-1"
+    },
+    {
+      "code": "penitentiaire",
       "num": "R120-3",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Remise individuelle et affichage du code, porté aussi à la connaissance des personnes placées sous main de justice : la règle est publique pour ceux qu'elle protège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Remise et affichage du code : repris à R. 120-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R120-1"
     },
     {
       "code": "penitentiaire",
       "num": "R121-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Énoncé de valeurs, sans devoir ni sanction : article déclaratif. Les devoirs sanctionnables sont aux chapitres II et III, les missions à l'article L. 1.",
+      "motif": "Énoncé de valeurs, sans devoir ni sanction : article déclaratif (passe 2). Les devoirs sanctionnables sont aux chapitres II et III.",
       "ligne_rouge": "aucune"
     },
     {
@@ -70,110 +180,7 @@
       "num": "R121-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Description du concours de l'administration à l'ordre public et à la réinsertion : déclaratif, les missions du service public pénitentiaire sont fixées par l'article L. 1, qui les énonce lui-même.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R121-3",
-      "decision": "G",
-      "principe": "P16",
-      "motif": "Sanction du manquement aux devoirs déontologiques, disciplinaire ou par retrait du titre : la sanction effective rend le code opposable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Loyauté envers les institutions, intégrité, impartialité, probité, dignité. L'article L. 121-1 du code général de la fonction publique ne vaut que pour l'agent public : celui-ci les rend opposables aussi aux réservistes (R. 120-2, 2°) et y ajoute la loyauté.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-10",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Respect absolu des personnes confiées, interdiction de la violence, de l'intimidation et de la discrimination : garantie de dignité, citée par R. 123-1.",
-      "ligne_rouge": "CEDH art. 3 examiné : interdiction des violences et traitements dégradants, tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-11",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Sauvegarde de la vie et de la santé des personnes confiées : obligation positive de l'État.",
-      "ligne_rouge": "CEDH art. 2 et 3 examinés : obligation de protection, tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-12",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Exemplarité du personnel, citée par R. 123-1 qui l'étend aux intervenants.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-13",
-      "decision": "S",
-      "principe": "P23",
-      "motif": "Rappel des droits et devoirs et exercice des droits pendant le placement : gardé. Coquille grammaticale corrigée.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "leurs droits et de leurs devoirs",
-          "nouveau": "leurs droits et leurs devoirs"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-14",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interdits à l'égard des personnes confiées (dons, messages, communications irrégulières, pression sur la défense). Source de la règle depuis que D66 du code de procédure pénale a été abrogé comme son miroir (lot p035).",
-      "ligne_rouge": "droits de la défense examinés : interdiction d'influer sur la défense ou le choix du défenseur, tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-15",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interdiction de relations non justifiées, cinq ans après la fin de l'autorité, et déclaration des liens antérieurs ou familiaux : prévention de la corruption et des évasions.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-16",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "L'autorité hiérarchique décide et donne des ordres précis et expliqués : répartition des offices.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-17",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Responsabilité de l'auteur de l'ordre et exécution loyale par l'agent : règle propre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-18",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Transmission des ordres par la voie hiérarchique, information sans délai en cas d'urgence : règle propre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-19",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Ordre manifestement illégal : la règle de fond est celle de L. 121-10 du code général de la fonction publique, l'article y ajoute la procédure d'objection et sa trace écrite. Aucune notification papier en cause : la proposition P12 est écartée.",
+      "motif": "Description du concours de l'administration à l'ordre public et à la réinsertion : déclaratif, les missions sont fixées par l'article L. 1 (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -181,39 +188,141 @@
       "num": "R122-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Miroir de l'article L. 121-3 du code général de la fonction publique (« L'agent public consacre l'intégralité de son activité professionnelle aux tâches qui lui sont confiées »), auquel il renvoie seulement. Exclu pour les réservistes, il ne vise que des agents publics déjà tenus par ce code : aucune perte. Le renvoi de R. 120-2 est retiré dans ce lot.",
+      "motif": "Miroir de l'article L. 121-3 du code général de la fonction publique, qui ne vise que des agents publics déjà tenus par ce code (passe 2).",
       "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir général du personnel : repris à R. 122-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir général du personnel : repris à R. 122-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir général du personnel : repris à R. 122-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Usage de la force borné par les lois et règlements : repris mot pour mot à R. 122-1.",
+      "ligne_rouge": "Usage de la force (P25) : gardé mot pour mot à R. 122-1.",
+      "vers": "R122-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir général du personnel : repris à R. 122-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Formule du serment : reprise mot pour mot à R. 122-8.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-8"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir envers les personnes confiées : repris à R. 122-10, sans perte.",
+      "ligne_rouge": "Dignité et droits des personnes confiées (art. 3 CEDH, art. 9 DDHC) : chaque devoir du personnel envers elles reste écrit.",
+      "vers": "R122-10"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir envers les personnes confiées : repris à R. 122-10, sans perte.",
+      "ligne_rouge": "Dignité et droits des personnes confiées (art. 3 CEDH, art. 9 DDHC) : chaque devoir du personnel envers elles reste écrit.",
+      "vers": "R122-10"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir envers les personnes confiées : repris à R. 122-10, sans perte.",
+      "ligne_rouge": "Dignité et droits des personnes confiées (art. 3 CEDH, art. 9 DDHC) : chaque devoir du personnel envers elles reste écrit.",
+      "vers": "R122-10"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Relations interdites et liens à déclarer : repris à R. 122-14, durée de cinq ans gardée.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-14"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle de la hiérarchie : reprise à R. 122-16, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-16"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle de la hiérarchie : reprise à R. 122-16, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-16"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R122-19",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle de la hiérarchie : reprise à R. 122-16, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-16"
     },
     {
       "code": "penitentiaire",
       "num": "R122-20",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Compte rendu à la hiérarchie et consignation des informations aux relèves : continuité de la garde.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-21",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Formation initiale aux droits de l'homme et à la déontologie avant la prise de fonctions, formation spécifique à l'usage de la force et des armes : précise L. 113-2 et L. 422-20 du code général de la fonction publique.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-22",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Protection fonctionnelle : l'article l'étend aux réservistes (R. 120-2, 2°), que le code général de la fonction publique ne couvre pas en cette qualité.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle de la hiérarchie : reprise à R. 122-16, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "R122-16"
     },
     {
       "code": "penitentiaire",
       "num": "R122-23",
       "decision": "A",
       "principe": "P20",
-      "motif": "Énoncé déclaratif : le droit syndical est garanti par le Préambule de 1946 et par l'article L. 113-1 du code général de la fonction publique.",
+      "motif": "Énoncé déclaratif : le droit syndical est garanti par le Préambule de 1946 et par l'article L. 113-1 du code général de la fonction publique (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -221,116 +330,45 @@
       "num": "R122-24",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi au statut pour l'expression et la manifestation, sans règle propre : déclaratif. Le renvoi de R. 120-2 est retiré dans ce lot.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Abstention de tout acte ou propos qui atteint la sécurité et le bon ordre : devoir propre au milieu pénitentiaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réserve, discrétion et secret professionnels : le code général de la fonction publique (L. 121-6, L. 121-7) ne lie que les agents publics, l'article l'étend aux réservistes (R. 120-2, 2°). Le secret ne couvre pas les procédures ni les décisions de justice.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Respect, aide et assistance mutuels : devoir sanctionnable par R. 121-3.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Usage de la force borné par la loi (L. 227-1) : le manquement devient une faute déontologique.",
-      "ligne_rouge": "CEDH art. 3 examiné : usage de la force limité aux conditions légales, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Obligation de faire cesser et de signaler les agissements prohibés, à la hiérarchie et au procureur. Plus large que l'article 40 du code de procédure pénale, qui ne vise que crimes et délits : règle propre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-8",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Prestation de serment publique devant le juge, prévue par L. 120-1 : gardée. L'alinéa transitoire (agents en poste au 18 juillet 2024, serment avant le 31 décembre 2026) est épuisé au 1er janvier 2029 : il tombe. L'énumération devient une phrase unique.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "\nTout agent de l'administration pénitentiaire déjà affecté au sein de l'administration pénitentiaire au 18 juillet 2024 prête serment en audience publique devant le président du tribunal judiciaire ou devant le premier président de la cour d'appel dans le ressort desquels se trouve son lieu d'affectation, avant le 31 décembre 2026.",
-          "nouveau": ""
-        },
-        {
-          "op": "remplacer",
-          "ancien": "se trouve :\n1° Son lieu d'affectation ou ;\n2° Le lieu d'implantation de l'Ecole nationale d'administration pénitentiaire, s'il est en formation.",
-          "nouveau": "se trouve son lieu d'affectation ou, s'il est en formation, le lieu d'implantation de l'Ecole nationale d'administration pénitentiaire."
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R122-9",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Formule du serment, renvoyée au décret par L. 120-1.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R123-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Respect, non-discrimination, exemplarité et impartialité imposés aux intervenants habilités ou agréés (L. 120-1) : seul siège.",
+      "motif": "Renvoi au statut pour l'expression et la manifestation, sans règle propre (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R123-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Relations interdites et liens à déclarer pour les intervenants : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir des intervenants : repris à R. 123-1, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "R123-1"
     },
     {
       "code": "penitentiaire",
       "num": "R123-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interdits des intervenants (dons, remises, messages irréguliers) : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir des intervenants : repris à R. 123-1, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "R123-1"
     },
     {
       "code": "penitentiaire",
       "num": "R123-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Pas d'entrave au fonctionnement, respect des consignes de sécurité : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Devoir des intervenants : repris à R. 123-1, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "R123-1"
     },
     {
       "code": "penitentiaire",
       "num": "R123-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interdiction de divulguer santé, vie privée et situation pénale des personnes suivies : protection de la vie privée.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : discrétion imposée aux intervenants, tenue"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Secret sur la santé, la vie privée et la situation pénale : repris à R. 123-1, mêmes termes.",
+      "ligne_rouge": "Vie privée (P25) : gardée à R. 123-1 dans les mêmes termes.",
+      "vers": "R123-1"
     }
-  ]
+  ],
+  "passe": 3
 }
