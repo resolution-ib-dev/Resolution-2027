@@ -10,41 +10,49 @@
     {
       "code": "cpp",
       "num": "L8211-1",
-      "decision": "G",
-      "principe": "P9",
-      "motif": "Substitution de la collectivité au département et des références locales : clause de coordination.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8211-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Zone littorale de contrôle des titres : bornée par le lieu.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L8211-3",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Débat du juge des libertés de Basse-Terre par visioconférence pour Saint-Martin, ordonnance transmise par voie électronique.",
-      "ligne_rouge": "art. 66 C examiné : le juge des libertés et de la détention statue lui-même, seul le mode de comparution change, avec l'avocat"
+      "principe": "P3",
+      "motif": "Clause d'application et table d'adaptations de Saint-Barthélemy et Saint-Martin (technique 1) : L. 8211-2 et L. 8211-3 y fusionnent. La visioconférence suit L. 1621-1 à L. 1621-12, que l'ancien renvoi « et suivants » visait.",
+      "ligne_rouge": "art. 66 C examiné : le débat devant le juge des libertés et de la détention reste tenu, à distance sous les garanties de L. 1621-1 à L. 1621-12 (procès-verbal, avocat, observations), et la détention part d'une ordonnance notifiée au prévenu",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent code s'applique à Saint-Barthélemy et à Saint-Martin avec les adaptations suivantes :\n1° La collectivité tient lieu de département.\n2° En l'absence d'adaptation, les références à des dispositions qui n'y sont pas applicables visent les dispositions applicables localement ayant le même objet.\n3° Les contrôles d'identité prévus à l'article L. 3224-5 peuvent être réalisés dans une zone comprise entre le littoral et une ligne tracée à un kilomètre en deçà.\n4° Lorsque le prévenu se trouve à Saint-Martin, le débat contradictoire que tient en comparution immédiate le juge des libertés et de la détention de Basse-Terre selon l'article L. 4413-15 peut se tenir par un moyen de télécommunication audiovisuelle, selon les articles L. 1621-1 à L. 1621-12. L'ordonnance de placement en détention provisoire est transmise sans délai par voie électronique, pour notification au prévenu et mise à exécution."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L8211-4",
+      "principe": "P25",
+      "motif": "Détention dans un local autre qu'une maison d'arrêt jusqu'au troisième jour ouvrable, sinon liberté d'office : gardé hors de la table, parce qu'il touche une privation de liberté. Refait sur le texte cible : L. 5221-5 et L. 3645-6 sont abrogés (l'encellulement individuel est à L. 213-2 du code pénitentiaire, passe 2). L'habilitation au décret sort du texte : le pouvoir réglementaire fixe, s'il y a lieu, le régime intérieur du local (art. 37 C). Article cité par la pièce du code pénitentiaire (L. 412-4) : numéro gardé.",
+      "ligne_rouge": "art. 66 C examiné : délai maximal de trois jours ouvrables et liberté d'office gardés mot pour mot quant au délai ; contrôle parlementaire (L. 132-1 du code pénitentiaire) et détention arbitraire (L. 5) étendus au local",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Détention dans un local autre qu'une maison d'arrêt jusqu'au troisième jour ouvrable, sinon liberté d'office. Coordination demandée par le lot p191 : L3645-6 est abrogé, l'encellulement individuel des prévenus vit à L. 213-2 du code pénitentiaire.",
-      "ligne_rouge": "art. 66 C examiné : délai de trois jours ouvrables sanctionné par la mise en liberté, titre de détention exigé (L. 5 du code pénitentiaire)",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Les dispositions des articles L. 5221-5 et L. 3645-6 du présent code et celles de l'article L. 412-4 du code pénitentiaire ne leur sont pas applicables.",
-          "nouveau": "Les dispositions de l'article L. 5221-5 du présent code et celles des articles L. 213-2 et L. 412-4 du code pénitentiaire ne leur sont pas applicables."
+          "op": "rediger",
+          "nouveau": "Le prévenu placé en détention provisoire jusqu'à sa comparution devant le tribunal peut être détenu dans un local autre qu'une maison d'arrêt jusqu'au troisième jour ouvrable qui suit l'ordonnance de détention. À défaut, il est mis d'office en liberté selon l'article L. 4413-16.\nLes articles L. 213-2 et L. 412-4 du code pénitentiaire ne s'appliquent pas dans ce local. Pour l'application des articles L. 3645-8 et L. 5221-3 du présent code et des articles L. 5 et L. 132-1 du code pénitentiaire, le local est regardé comme un établissement pénitentiaire, et la personne dépositaire de l'autorité publique qui y reçoit le prévenu comme un agent de l'administration pénitentiaire.\nL'autorité responsable du local inventorie et garde les valeurs, bijoux et effets du prévenu qui ne sont pas placés sous main de justice, pour les remettre à l'intéressé à sa libération ou à l'établissement pénitentiaire où il est conduit."
         }
       ]
+    },
+    {
+      "code": "cpp",
+      "num": "L8211-2",
+      "decision": "F",
+      "principe": "P21",
+      "motif": "Zone littorale de contrôle des titres : 3° de L. 8211-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L8211-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L8211-3",
+      "decision": "F",
+      "principe": "P12",
+      "motif": "Visioconférence du juge des libertés de Basse-Terre pour Saint-Martin : 4° de L. 8211-1.",
+      "ligne_rouge": "art. 66 C examiné : le débat contradictoire et l'ordonnance notifiée au prévenu restent écrits au 4° de L. 8211-1",
+      "vers": "L8211-1"
     }
-  ]
+  ],
+  "passe": 3
 }
