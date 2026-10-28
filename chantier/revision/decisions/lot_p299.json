@@ -10,54 +10,43 @@
     {
       "code": "cpp",
       "num": "L7221-1",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Numéro en double dans la base : le texte inscrit au registre renvoie à un L7221-2 absent. Le pourvoi dans l'intérêt de la loi tient en un article, qui nomme son auteur et son effet hors délai.",
-      "ligne_rouge": "aucune",
+      "principe": "P23",
+      "motif": "Pourvoi dans l'intérêt de la loi en un article : auteur et effet hors délai (passe 2), recevabilité et fond (L7221-3), cassation sans effet pour les parties (L7221-4), ces deux articles fusionnés.",
+      "ligne_rouge": "Aucune : la cassation ne profite ni ne nuit aux parties.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le procureur général près la Cour de cassation peut d'office, même après l'expiration du délai de pourvoi, former un pourvoi dans le seul intérêt de la loi contre les arrêts et jugements rendus en dernier ressort par une cour d'appel, une cour criminelle départementale, une cour d'assises ou un tribunal délictuel ou contraventionnel, sujets à cassation, et contre lesquels aucune des parties ne s'est pourvue dans le délai déterminé."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L7221-3",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "La Cour se prononce sur la recevabilité et le fond. Article manquant rétabli (« intérêt de la loi »).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "dans l'intérêt de loi",
-          "nouveau": "dans l'intérêt de la loi"
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L7221-4",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Cassation sans effet pour les parties. Conjonction corrigée (« ni s'opposer »).",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "n'y s'opposer",
-          "nouveau": "ni s'opposer"
+          "nouveau": "Le procureur général près la Cour de cassation peut d'office, même après l'expiration du délai, former un pourvoi dans l'intérêt de la loi contre les décisions en dernier ressort d'une cour d'appel, d'une cour criminelle départementale, d'une cour d'assises ou d'un tribunal délictuel ou contraventionnel qu'aucune partie n'a attaquées dans le délai. La Cour se prononce sur sa recevabilité et son bien-fondé. Les parties ne peuvent se prévaloir de la cassation ni s'opposer à l'exécution de la décision annulée."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L7222-1",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Annulation sur ordre du ministre des actes contraires à la loi : correction des excès de pouvoir.",
-      "ligne_rouge": "aucune"
+      "motif": "Annulation, sur ordre du ministre, des actes contraires à la loi : gardé (R70 le cite).",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L7221-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Recevabilité et bien-fondé : repris à L7221-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7221-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L7221-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Cassation sans effet pour les parties : reprise à L7221-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L7221-1"
     }
-  ]
+  ],
+  "passe": 3
 }

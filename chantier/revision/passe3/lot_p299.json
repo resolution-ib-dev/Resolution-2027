@@ -1,0 +1,63 @@
+{
+  "lot": "lot_p299",
+  "titre": "Pourvois formés dans l'intérêt de la loi",
+  "ecart_volume": "Écart motivé (−8 % contre −40 %) : deux règles distinctes de quelques lignes, la liste des juridictions dont les décisions peuvent être attaquées ne se raccourcit pas sans étendre le pourvoi.",
+  "articles_cible": [
+    {
+      "num": "L7221-1",
+      "texte": "Le procureur général près la Cour de cassation peut d'office, même après l'expiration du délai, former un pourvoi dans l'intérêt de la loi contre les décisions en dernier ressort d'une cour d'appel, d'une cour criminelle départementale, d'une cour d'assises ou d'un tribunal délictuel ou contraventionnel qu'aucune partie n'a attaquées dans le délai. La Cour se prononce sur sa recevabilité et son bien-fondé. Les parties ne peuvent se prévaloir de la cassation ni s'opposer à l'exécution de la décision annulée.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Pourvoi dans l'intérêt de la loi en un article : auteur et effet hors délai (passe 2), recevabilité et fond (L7221-3), cassation sans effet pour les parties (L7221-4), ces deux articles fusionnés.",
+      "ligne_rouge": "Aucune : la cassation ne profite ni ne nuit aux parties."
+    },
+    {
+      "num": "L7222-1",
+      "texte": "Lorsque, sur l'ordre formel du ministre de la justice, le procureur général près la Cour de cassation dénonce à la chambre criminelle des actes judiciaires, arrêts ou jugements contraires à la loi, ces actes, arrêts ou jugements peuvent être annulés.",
+      "verbe": "G",
+      "principe": "P25",
+      "motif": "Annulation, sur ordre du ministre, des actes contraires à la loi : gardé (R70 le cite).",
+      "ligne_rouge": "Aucune."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L7221-3",
+      "verbe": "F",
+      "vers": "L7221-1",
+      "principe": "P23",
+      "motif": "Recevabilité et bien-fondé : repris à L7221-1.",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L7221-4",
+      "verbe": "F",
+      "vers": "L7221-1",
+      "principe": "P23",
+      "motif": "Cassation sans effet pour les parties : reprise à L7221-1.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L7221-1#1": {
+      "destin": "reprise",
+      "vers": "L7221-1"
+    },
+    "L7221-3#1": {
+      "destin": "reprise",
+      "vers": "L7221-1"
+    },
+    "L7221-4#1": {
+      "destin": "reprise",
+      "vers": "L7221-1"
+    },
+    "L7221-4#2": {
+      "destin": "reprise",
+      "vers": "L7221-1"
+    },
+    "L7222-1#1": {
+      "destin": "gardee",
+      "vers": "L7222-1"
+    }
+  }
+}
