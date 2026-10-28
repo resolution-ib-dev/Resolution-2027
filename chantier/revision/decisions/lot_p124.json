@@ -10,17 +10,45 @@
     {
       "code": "penitentiaire",
       "num": "D521-1",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Le service s'assure d'un hébergement à la sortie : une sortie à la rue prépare la récidive. Obligation de service, seul article qui la porte.",
-      "ligne_rouge": "aucune"
+      "motif": "Le service s'assure d'un hébergement à la sortie : inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D522-3",
+      "principe": "P23",
+      "motif": "Aide du service pendant six mois après la libération et continuité des actions d'insertion engagées en détention, en un article (D522-4 y fusionne). Les renvois à D113-63, D413-9 et D414-6, fusionnés, cèdent la place à la notion qu'ils désignaient.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pendant les six mois qui suivent sa libération, toute personne peut bénéficier, à sa demande, de l'aide du service pénitentiaire d'insertion et de probation du lieu de sa résidence. Le service s'assure de la continuité des actions d'insertion engagées en détention."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R522-1",
+      "principe": "P23",
+      "motif": "Aide matérielle, vêtements, titre de transport et report de la sortie au lendemain matin : gardés, en phrases courtes.",
+      "ligne_rouge": "Sortie de détention : le report de la libération effective au lendemain matin reste à la seule demande écrite de la personne, après une levée d'écrou régulière ; aucune prolongation de détention n'en résulte.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne détenue dépourvue de ressources à sa sortie peut recevoir une aide matérielle pour subvenir à ses besoins le temps de rejoindre le lieu où elle a déclaré se rendre. L'établissement pénitentiaire fournit si possible des vêtements à celle qui n'en a pas et ne peut s'en procurer. Il peut procurer un titre de transport à la personne détenue dont le compte nominatif ne suffit pas pour rejoindre ce lieu.\nAprès une levée d'écrou régulière, la personne qui n'est pas assurée d'un gîte ou d'un moyen de transport immédiat obtient, à sa demande expresse et écrite, que sa libération effective soit reportée du soir au lendemain matin."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "D521-2",
       "decision": "A",
       "principe": "P15",
-      "motif": "Avis obligatoire du directeur du service sur l'agrément des organismes d'hébergement, transmis de ministre à ministre : il ne protège aucune liberté, l'agrément relève de la législation de l'aide sociale qui le règle elle-même.",
+      "motif": "Avis obligatoire du directeur du service sur l'agrément des organismes d'hébergement : il ne protège aucune liberté, l'agrément relève de la législation de l'aide sociale (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -28,32 +56,18 @@
       "num": "D522-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article déclaratif : le service « favorise » l'accès aux droits, sans obligation ni procédure. L'aide concrète est portée par D522-3, D522-4 et R522-1. Les plages des tableaux outre-mer (D756-3, D766-3, D776-3) qui commencent ou finissent sur cet article sont à coordonner au lot de ces articles.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D522-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Continuité, après la libération, des actions d'insertion engagées en détention : pas de rupture entre la détention et la sortie.",
+      "motif": "Déclaratif (« favorise l'accès aux droits ») : l'aide concrète est portée par D. 522-3 et R. 522-1, et l'accès aux droits par D. 113-60 (passe 2). Plages des tableaux outre-mer (D756-3, D766-3, D776-3) à coordonner.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "D522-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Aide du service à la demande pendant six mois après la libération : droit borné dans le temps, utile à la réinsertion.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R522-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Aide matérielle, vêtements et titre de transport du libéré sans ressources, report de la sortie au lendemain matin à sa demande : le minimum qui évite une sortie sans moyen de rejoindre sa résidence.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Aide du service pendant six mois : reprise à D. 522-3. La seconde phrase, déclarative, tombe : le concours des partenaires est porté par D. 113-60.",
+      "ligne_rouge": "aucune",
+      "vers": "D522-3"
     }
-  ]
+  ],
+  "passe": 3
 }
