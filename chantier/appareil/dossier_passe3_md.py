@@ -73,7 +73,7 @@ EXEMPLES = (
 )
 
 # sections de l'annexe en trois colonnes
-ANNEXE = ("lot_p322", "lot_p106", "lot_p293", "lot_p278", "lot_p182", "lot_p189", "lot_p306")
+ANNEXE = ("lot_p322", "lot_p106", "lot_p293", "lot_p278", "lot_p189", "lot_p306")
 
 
 def pieces():
@@ -162,7 +162,7 @@ def dossier(ps, bilan, textes):
     L += [typo("*Lecture : la variation se mesure sur l'état du 1er janvier 2029, avant la passe 2. Un dépassement de plafond "
                "tient aux garanties à garder écrites (art. 34 et 66 C, vie privée, défense) ; il est motivé titre par titre.*"), ""]
     L += ["## Principes et effet avant / après", "",
-          "<!-- colonnes : 0.17, 0.09, 0.24, 0.32, 0.18 -->", "| Technique | Principe | Avant | Après | Effet compté |", "|---|---|---|---|---|"]
+          "<!-- colonnes : 0.17, 0.10, 0.24, 0.31, 0.18 -->", "| Technique | Principe | Avant | Après | Effet compté |", "|---|---|---|---|---|"]
     vus = set()
     for tech, pr, avant, apres in TECHNIQUES:
         propre = re.findall(r"P\d+", pr)[0]
@@ -192,7 +192,7 @@ def dossier(ps, bilan, textes):
     for p in json.loads(GRILLE.read_text(encoding="utf-8"))["principes"]:
         L.append(f"| {p['id']} | {typo(p['enonce'])} | {VALIDES.get(p['id'], 'à confirmer')} |")
     L += ["", typo("*Les lignes 1.1 à 1.5 du registre citent P4 et P5 au sens du barème ; la grille range le barème sous P14.*"), ""]
-    L += ["# Registre des arbitrages délégués", "",
+    L += ["# Annexe : registre des arbitrages délégués", "",
           typo("Une ligne par décision déléguée, à confirmer ou révoquer. Les décisions validées par l'auteur n'y figurent pas."), "",
           "<!-- corps : 16 -->", "<!-- colonnes : 0.07, 0.12, 0.69, 0.12 -->", "| n° | Point | Décision | Principe |", "|---|---|---|---|"]
     for sec, n, point, dec, pr, statut in registre():

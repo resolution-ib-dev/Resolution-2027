@@ -12,18 +12,18 @@ Code de procédure pénale de 2029, code pénal, code pénitentiaire
 
 ## Objet
 
-Chacun des 9 473 articles de la chaîne pénale a été lu et jugé contre la grille des vingt-sept principes. Chaque décision porte un verbe, le principe qui la fonde, un motif et la ligne rouge examinée. Les textes cibles sont dérivés des opérations appliquées au texte en vigueur au 1er janvier 2029 : aucun ne s’écrit à la main.
+Chacun des 9 483 articles de la chaîne pénale a été lu et jugé contre la grille des vingt-sept principes. Chaque décision porte un verbe, le principe qui la fonde, un motif et la ligne rouge examinée. Les textes cibles sont dérivés des opérations appliquées au texte en vigueur au 1er janvier 2029 : aucun ne s’écrit à la main.
 
-Le travail s’est fait en 336 lots, un par titre, chacun contrôlé (couverture, forme, opérations, renvois, lignes rouges) puis relu en adversaire sur ses abrogations et ses réécritures avant d’être versé.
+Le travail s’est fait en 335 lots, un par titre, chacun contrôlé (couverture, forme, opérations, renvois, lignes rouges) puis relu en adversaire sur ses abrogations et ses réécritures avant d’être versé.
 
 ## Bilan par code
 
 | code | articles avant | articles après | mots avant | mots après |
 |---|---|---|---|---|
-| Code de procédure pénale (2029) | 6 304 | 6 094 | 639 547 | 623 913 |
-| Code pénal | 1 301 | 1 252 | 148 555 | 144 421 |
-| Code pénitentiaire | 1 867 | 1 548 | 170 168 | 149 457 |
-| **Total** | **9 472** | **8 894** | **958 270** | **917 791** |
+| Code de procédure pénale (2029) | 6 304 | 3 305 | 639 547 | 410 721 |
+| Code pénal | 1 297 | 1 018 | 148 677 | 112 473 |
+| Code pénitentiaire | 1 867 | 600 | 170 168 | 69 054 |
+| **Total** | **9 468** | **4 923** | **958 392** | **592 248** |
 
 Les mots sont comptés comme suites de lettres et de chiffres. Un article fusionné ou abrogé sort du compte après réécriture.
 
@@ -31,47 +31,47 @@ Les mots sont comptés comme suites de lettres et de chiffres. Un article fusion
 
 | verbe | Code de procédure pénale (2029) | Code pénal | Code pénitentiaire | total |
 |---|---|---|---|---|
-| gardés | 5 243 | 1 161 | 1 378 | 7 782 |
-| simplifiés | 754 | 53 | 164 | 971 |
-| réécrits | 95 | 37 | 5 | 137 |
-| fusionnés | 28 | 5 | 13 | 46 |
-| abrogés | 182 | 45 | 306 | 533 |
-| déclassés | 1 | 0 | 0 | 1 |
-| remontés à la loi | 1 | 0 | 1 | 2 |
-| créés | 0 | 1 | 0 | 1 |
+| gardés | 175 | 468 | 52 | 695 |
+| simplifiés | 1 591 | 329 | 244 | 2 164 |
+| réécrits | 1 515 | 200 | 293 | 2 008 |
+| fusionnés | 2 663 | 188 | 815 | 3 666 |
+| abrogés | 336 | 106 | 452 | 894 |
+| déclassés | 23 | 6 | 11 | 40 |
+| remontés à la loi | 1 | 0 | 0 | 1 |
+| créés | 0 | 15 | 0 | 15 |
 
 ## Barème des délits
 
-Les 1 260 délits du barème ont été jugés, par famille de code, en commençant par les délits formels.
+Les 1 212 délits du barème ont été jugés, par famille de code, en commençant par les délits formels.
 
 | décision | délits |
 |---|---|
-| garder | 895 |
+| garder | 848 |
 | relever | 28 |
 | amende délictuelle | 239 |
 | contravention C5 | 7 |
 | sanction administrative | 20 |
-| abroger | 71 |
+| abroger | 70 |
 
 ## Paramètres à arbitrer
 
-Les textes cibles portent 36 paramètres distincts entre crochets, en 94 occurrences. Les plus fréquents :
+Les textes cibles portent 56 paramètres distincts entre crochets, en 154 occurrences. Les plus fréquents :
 
-- [d’un cinquième] : 20
-- [trente] : 12
-- [huit jours] : 5
+- [...] : 12
+- [deux ans] : 8
+- [45 000] : 7
+- [numéro] : 6
+- [date] : 6
+- [dix ans] : 6
+- [150 000] : 6
+- [un mois] : 5
+- [quinze] : 5
+- [deux] : 5
+- [30 000] : 5
+- [trois ans] : 5
 - [deux mois] : 4
-- [trois quarts] : 4
-- [six mois] : 3
-- [deux tiers] : 3
-- [trois années] : 3
-- [deux ans] : 3
-- [d’un tiers] : 3
-- [trois mois] : 2
-- [sixième] : 2
-- [aux deux tiers] : 2
-- [un an] : 2
-- [cinq] : 2
+- [huit jours] : 4
+- [sept ans] : 4
 
 ## Produits
 
