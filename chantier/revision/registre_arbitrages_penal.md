@@ -547,3 +547,8 @@ Ordre : règles transverses du mandat 10.1 à 10.4, règles générales (délais
 | 10.347 | loi n° 2004-204 | Les renvois à l'article 216 de la loi n° 2004-204 sont gardés tant que des inscriptions transitoires courent (R53-8-7) | P13 | délégué |
 | 10.348 | jurés | Les valeurs de Paris (900) et du Val-de-Marne (800) restent signalées sans être ramenées à 700, faute de décision (A36-13) | P13 | délégué |
 | 10.349 | base | R113-50 du code pénitentiaire est gardé mot pour mot, ses deux défauts de base allant à la note 8.2 | P13 | délégué |
+| 10.350 | 8.4 | Une plage d'articles dont la borne est retirée s'arrête au dernier article de la cible qui crée une infraction. Un article qui qualifie, un article civil, une règle de tentative, de compétence, de presse ou de personnes morales ne fait pas borne | P23, P13 | délégué |
+| 10.351 | 8.4 | Une liste d'infractions qui déclenche une procédure, une compétence ou un fichier ajoute « et leur tentative prévue à l'article 229-6 ». Un texte qui vise des actes commis (complicité, provocation, peines complémentaires) ne l'ajoute pas | P23 | délégué |
+| 10.352 | 8.4 | Un renvoi à une règle de compétence (229-3) ou de presse (229-7) cité comme infraction vise l'infraction elle-même ou l'alinéa de 229-3 qui la nomme (L1727-1, L1212-7, 132-16). 227-23 sort du b de L1727-1, écart déclaré | P23 | délégué |
+| 10.353 | 8.4 | R635-3 exclu dans le Pacifique, la récidive de R635-7 (2° de R630-1) n'y a plus d'objet et n'est pas exclue à part (R711-1) | P3, P20 | délégué |
+| 10.354 | 8.4 | Un renvoi vers un article d'un autre code qui porte le même numéro reste tel quel. Trois corrections demandées en relecture sur ce fondement sont écartées (R227-4, R412-84, R15-33-29-3) | P13 | délégué |
