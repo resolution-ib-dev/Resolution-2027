@@ -10,10 +10,17 @@
     {
       "code": "cpp",
       "num": "D47-38",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Carte des pôles accidents collectifs de Marseille et Paris : relève du décret. Renvoi à l'ancien 706-176 (L2152-25) à coordonner.",
-      "ligne_rouge": "aucune"
+      "principe": "P3",
+      "motif": "Carte des pôles des accidents collectifs : Marseille et Paris, dans les ressorts mot pour mot identiques à ceux des pôles de santé publique (D47-5, lot p239) : renvoi au lieu d'un second tableau (P3). Ancien 706-176 : L2152-25 (2029).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les pôles des accidents collectifs prévus à l'article L. 2152-25 sont les tribunaux judiciaires de Marseille et de Paris, chacun dans le ressort que lui fixe l'article D. 47-5."
+        }
+      ]
     }
-  ]
+  ],
+  "passe": 3
 }
