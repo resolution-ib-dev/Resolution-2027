@@ -10078,6 +10078,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/dossier_passe3_md",
+   "chemin": "appareil/dossier_passe3_md.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/dossier_passe3_md.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/dossier_revision_penale",
    "chemin": "appareil/dossier_revision_penale.py",
    "rang": "appareil",
@@ -10834,6 +10848,20 @@
    "famille": "juridique"
   },
   {
+   "role": "fichier:livrables/dossier_revision_penale_passe3",
+   "chemin": "livrables/dossier_revision_penale_passe3.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/dossier_revision_penale_passe3.md",
+   "releve": true,
+   "famille": "bac à sable"
+  },
+  {
    "role": "fichier:livrables/fiche_reservoir_arguments_livre_20261003",
    "chemin": "livrables/fiche_reservoir_arguments_livre_20261003.md",
    "rang": "derive",
@@ -11054,6 +11082,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/livrables/tablette_P2_20261016.md",
+   "releve": true,
+   "famille": "bac à sable"
+  },
+  {
+   "role": "fichier:livrables/trois_colonnes_penal_passe3",
+   "chemin": "livrables/trois_colonnes_penal_passe3.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/trois_colonnes_penal_passe3.md",
    "releve": true,
    "famille": "bac à sable"
   },
@@ -24229,6 +24271,7 @@
    "appareil/couverture/table.py",
    "appareil/decisions_penal.py",
    "appareil/digerer_annexes_vm2027.py",
+   "appareil/dossier_passe3_md.py",
    "appareil/dossier_revision_penale.py",
    "appareil/dossier_revision_penale_md.py",
    "appareil/echantillon_epreuve.py",
@@ -24344,6 +24387,7 @@
    "livrables/depot_2027/P2/n9_france_travail_contribution.md",
    "livrables/depot_2027/SS/.gitkeep",
    "livrables/depot_2027/sans_colonne/.gitkeep",
+   "livrables/dossier_revision_penale_passe3.md",
    "livrables/fiche_reservoir_arguments_livre_20261003.md",
    "livrables/fiches_mesures_plf2027.md",
    "livrables/fiches_mesures_plfss_2027.md",
@@ -24360,6 +24404,7 @@
    "livrables/suivi_trajectoire_20261015.md",
    "livrables/synthese_revision_penale.md",
    "livrables/tablette_P2_20261016.md",
+   "livrables/trois_colonnes_penal_passe3.md",
    "livrables/valise_phase1_20261002.md",
    "machine/00_COMMENCER_ICI.md",
    "machine/01_DEMARRER.md",
@@ -25472,10 +25517,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 1650,
-  "au_coffre": 1589,
-  "au_depot": 1131,
-  "derives": 275,
+  "artefacts": 1653,
+  "au_coffre": 1592,
+  "au_depot": 1134,
+  "derives": 277,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

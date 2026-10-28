@@ -27,6 +27,7 @@ const LARGEUR_TABLE = 9072;   // DXA — 6,3 pouces utiles
 
 const [, , SRC, OUT, PROFIL = 'pplc'] = process.argv;
 const DEPOT = process.argv.includes('--depot');   // retire les descripteurs de travail
+const NB = process.argv.includes('--nb');         // noir et blanc : ni fond ni filet gris
 if (!SRC || !OUT) {
   console.error('usage : node md2docx.js entree.md sortie.docx [pplc|note|presentation]');
   process.exit(1);
@@ -141,7 +142,12 @@ function bloc2table(lignes) {
   // milieu. Corrigé le 20261016, après refus de la liasse P2 à la publication.
   const PROPS = { 2: [0.42, 0.58], 3: [0.08, 0.30, 0.62], 4: [0.40, 0.20, 0.20, 0.20],
                   5: [0.28, 0.18, 0.18, 0.18, 0.18] };
-  const prop = PROPS[nb] || Array(nb).fill(1 / nb);
+  // « <!-- colonnes : 0.2, 0.5, 0.3 --> » juste avant un tableau impose ses largeurs
+  const prop = (colonnesSuivantes && colonnesSuivantes.length === nb ? colonnesSuivantes : null)
+    || PROPS[nb] || Array(nb).fill(1 / nb);
+  colonnesSuivantes = null;
+  const corpsTable = corpsSuivant || 19;
+  corpsSuivant = null;
   const cols = prop.map((p) => Math.floor(LARGEUR_TABLE * p));
   const large = Math.floor(LARGEUR_TABLE / nb);
   const trs = rows.map((cs, i) => new TableRow({
@@ -150,10 +156,10 @@ function bloc2table(lignes) {
     children: cs.map((txt, ci) => new TableCell({
       width: { size: cs.length < nb ? LARGEUR_TABLE : cols[ci], type: WidthType.DXA },
       columnSpan: cs.length < nb ? nb : 1,
-      shading: i === 0 ? { type: ShadingType.CLEAR, fill: 'F2F0EB' } : undefined,
+      shading: i === 0 && !NB ? { type: ShadingType.CLEAR, fill: 'F2F0EB' } : undefined,
       margins: { top: 60, bottom: 60, left: 100, right: 100 },
       children: alineas(txt).map((al, k, tab) => new Paragraph({
-        children: runs(al, { size: 19 }),
+        children: runs(al, { size: corpsTable }),
         alignment: cs.length < nb ? AlignmentType.CENTER : AlignmentType.LEFT,
         spacing: { line: 240, after: k === tab.length - 1 ? 0 : 80 },
         keepLines: true,
@@ -165,12 +171,12 @@ function bloc2table(lignes) {
     columnWidths: cols,
     width: { size: LARGEUR_TABLE, type: WidthType.DXA },
     borders: {
-      top: { style: BorderStyle.SINGLE, size: 2, color: 'B0AAA0' },
-      bottom: { style: BorderStyle.SINGLE, size: 2, color: 'B0AAA0' },
-      left: { style: BorderStyle.SINGLE, size: 2, color: 'B0AAA0' },
-      right: { style: BorderStyle.SINGLE, size: 2, color: 'B0AAA0' },
-      insideHorizontal: { style: BorderStyle.SINGLE, size: 2, color: 'D4CFC4' },
-      insideVertical: { style: BorderStyle.SINGLE, size: 2, color: 'D4CFC4' },
+      top: { style: BorderStyle.SINGLE, size: 2, color: NB ? '000000' : 'B0AAA0' },
+      bottom: { style: BorderStyle.SINGLE, size: 2, color: NB ? '000000' : 'B0AAA0' },
+      left: { style: BorderStyle.SINGLE, size: 2, color: NB ? '000000' : 'B0AAA0' },
+      right: { style: BorderStyle.SINGLE, size: 2, color: NB ? '000000' : 'B0AAA0' },
+      insideHorizontal: { style: BorderStyle.SINGLE, size: 2, color: NB ? '000000' : 'D4CFC4' },
+      insideVertical: { style: BorderStyle.SINGLE, size: 2, color: NB ? '000000' : 'D4CFC4' },
     },
   });
 }
@@ -202,6 +208,8 @@ if (pageDeTitre) {
 // ---------------------------------------------------------------- corps
 let premierH1 = true;
 let tampon = [];
+var colonnesSuivantes = null;
+var corpsSuivant = null;   // « <!-- corps : 16 --> » : corps du tableau suivant, en demi-points
 const viderTampon = () => {
   if (tampon.length) {
     enfants.push(bloc2table(tampon));
@@ -213,6 +221,10 @@ const viderTampon = () => {
 const lignes = corps.split('\n');
 for (let i = 0; i < lignes.length; i += 1) {
   const l = lignes[i].trim();
+  const mCol = l.match(/^<!--\s*colonnes\s*:\s*([\d.,\s]+)-->$/);
+  if (mCol) { viderTampon(); colonnesSuivantes = mCol[1].split(',').map(Number); continue; }
+  const mCorps = l.match(/^<!--\s*corps\s*:\s*(\d+)\s*-->$/);
+  if (mCorps) { viderTampon(); corpsSuivant = Number(mCorps[1]); continue; }
 
   if (l.startsWith('|')) { tampon.push(l); continue; }
   viderTampon();
