@@ -10,162 +10,240 @@
     {
       "code": "cpp",
       "num": "L2511-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Missions des commissaires de justice dans la procédure pénale : citations, significations, service d'audience. Article d'ancrage du nom de la profession.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Missions des commissaires de justice : mêmes trois missions en une phrase ; « conformément à l'ordonnance n° 2016-728 » retiré (rappel du statut).",
+      "ligne_rouge": "Aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours de la procédure pénale, les commissaires de justice délivrent les citations en vue d'une audience judiciaire, signifient les décisions judiciaires et assurent le service d'audience des juridictions répressives."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2512-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Définition de l'expert et de son rapport : article d'ancrage, cité par L3211-3, L3323-1, L3443-1, L3532-9 et L3541-1.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Définition de l'expert et de son rapport : même règle, items en une phrase. Article d'ancrage cité par cinq articles.",
+      "ligne_rouge": "Aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les experts sont des personnes qualifiées chargées, au cours d'une procédure pénale, de procéder à des constatations ou à des examens techniques et scientifiques, ou de réaliser des expertises portant sur des questions d'ordre technique. Ils remettent à l'autorité qui les a mandatés un rapport qui répond aux questions qui leur ont été posées."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2512-2",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Choix des experts sur les listes nationale et des cours d'appel : garantie de compétence. Renvoi entrant de R131-52 du code pénal (lot p066), qui cite l'ancien 157 : rien à changer ici, la règle reste à ce siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Choix des experts sur les listes nationale et des cours d'appel : gardé.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2512-3",
-      "decision": "G",
-      "principe": "P7",
-      "motif": "Expert hors liste, à titre exceptionnel et par décision motivée s'il est désigné par une juridiction, serment à chaque désignation, serment écrit en cas d'empêchement : le juge garde la main, la garantie de compétence suit.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Expert hors liste : décision motivée de la juridiction, serment à chaque désignation et serment écrit en cas d'empêchement gardés, en deux phrases.",
+      "ligne_rouge": "Aucune : garanties de compétence et de serment gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Peuvent également être désignés des experts ne figurant sur aucune des listes mentionnées à l'article L. 2512-2, à titre exceptionnel et par décision motivée si la désignation émane d'une juridiction.\nSauf s'il s'agit d'un service ou organisme mentionné à l'article L. 2512-5, ils prêtent, chaque fois qu'ils sont désignés, le serment d'apporter leur concours à la justice en leur honneur et en leur conscience. Le procès-verbal de prestation de serment est signé par le magistrat compétent, l'expert et le greffier. En cas d'empêchement dont les motifs sont précisés, le serment est reçu par écrit et la lettre de serment est annexée au dossier de la procédure."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2512-4",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Agrément par la juridiction des personnes physiques qui réalisent l'expertise d'une personne morale : le juge sait qui expertise.",
-      "ligne_rouge": "aucune"
+      "motif": "Agrément des personnes physiques qui expertisent pour une personne morale : gardé (L3544-1 le cite).",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2512-5",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Services de police technique et scientifique habilités à expertiser, agrément des personnes par la juridiction : ressource publique ouverte, cité par six articles.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Services de police technique et scientifique experts : même règle, phrase resserrée.",
+      "ligne_rouge": "Aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les services ou organismes de police technique et scientifique de la police nationale et de la gendarmerie nationale, dont la liste est fixée par arrêté du ministre de la justice et du ministre de l'intérieur, peuvent réaliser des expertises. Si une juridiction les demande, le responsable du service ou de l'organisme désigné soumet à son agrément le nom des personnes qui les effectueront."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2513-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Interprètes en langue étrangère ou des signes, sollicités par l'autorité judiciaire ou de police judiciaire : article d'ancrage, cité par sept articles.",
-      "ligne_rouge": "art. 16 DDHC examiné : droit à l'interprète, tenu (CEDH art. 6 § 3)"
-    },
-    {
-      "code": "cpp",
-      "num": "L2513-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interprètes choisis sur les listes d'experts, serment à défaut : garantie de fidélité de la traduction.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Interprètes : sollicitation, choix sur les listes d'experts et serment à défaut en un article (L2513-2 fusionné).",
+      "ligne_rouge": "Droit à l'interprète (art. 6 CEDH) examiné : garanties de fidélité (liste ou serment) gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Des interprètes en langue étrangère ou en langue des signes peuvent être sollicités au cours de la procédure pénale par une autorité judiciaire ou de police judiciaire pour procéder à des traductions orales ou écrites. Ils sont choisis sur les listes d'experts prévues à l'article L. 2512-2 ou, à défaut, prêtent serment d'apporter leur concours à la justice en leur honneur et en leur conscience."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2513-3",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Interprète choisi hors du greffier, des juges, des parties et des témoins : impartialité de la traduction.",
-      "ligne_rouge": "art. 16 DDHC examiné : impartialité de l'interprète, tenue"
+      "motif": "Impartialité de l'interprète désigné par une juridiction : gardé.",
+      "ligne_rouge": "Droits de la défense examinés : l'interprète reste choisi hors du greffier, des juges, des parties et des témoins.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2513-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Anonymat de l'interprète en criminalité organisée, sur autorisation du procureur général, identité communicable au président de la juridiction : protection proportionnée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Anonymat de l'interprète en criminalité organisée : autorisation nominative du procureur général, numéro anonymisé, communication de l'état civil au président et décret gardés, phrases resserrées.",
+      "ligne_rouge": "Droits de la défense examinés : l'état civil reste communiqué, à sa demande, au président de la juridiction de jugement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans les procédures portant sur des faits de délinquance ou de criminalité organisée mentionnés à l'article L. 1722-2, l'interprète requis peut être nominativement autorisé par le procureur général compétent à être identifié par un numéro anonymisé, au lieu de ses nom et prénoms, lorsque la révélation de son identité est susceptible, compte tenu des conditions d'exercice de sa mission, de mettre en danger sa vie ou son intégrité physique ou celles de ses proches. Son état civil n'est alors communiqué que sur décision du procureur général compétent. Il est communiqué au président de la juridiction de jugement saisie des faits qui le demande. Les modalités d'application du présent article sont précisées par décret en Conseil d'Etat."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2513-5",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Révélation de l'identité d'un interprète protégé : atteinte à la justice et aux personnes, au noyau. Le quantum relève du barème des délits, il ne se juge pas ici.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, graduée selon le dommage (violences, mort), la juridiction garde la modulation au prononcé dans le barème"
+      "principe": "P23",
+      "motif": "Révélation de l'identité d'un interprète protégé : incrimination, peines, aggravations et exclusion du terrorisme gardées, en deux phrases.",
+      "ligne_rouge": "Art. 8 DDHC examiné : incrimination, peines et champ inchangés (procédures de terrorisme exclues comme en 2029) ; « sans préjudice » gardé, il autorise le cumul.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors les procédures portant sur des actes de terrorisme, la révélation des nom et prénom ou de tout élément permettant l'identification personnelle ou la localisation d'un interprète autorisé à ne pas être identifié par ses nom et prénom est punie de cinq ans d'emprisonnement et de 75 000 euros d'amende.\nLorsque cette révélation a entraîné des violences à l'encontre de l'interprète ou de ses proches, les peines sont portées à sept ans d'emprisonnement et à 100 000 euros d'amende. Lorsqu'elle a entraîné la mort de l'interprète ou de l'un de ses proches, elles sont portées à dix ans d'emprisonnement et à 150 000 euros d'amende, sans préjudice de l'application du chapitre Ier du titre II du livre II du code pénal."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2514-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Enquêteurs de personnalité habilités, mandatés par l'autorité judiciaire, pour le suspect comme pour la victime. L'enquête sert le contrôle judiciaire et le régime d'exécution : la situation sociale ne fixe pas le quantum (barème), elle éclaire les modalités.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2514-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Contrôleurs judiciaires habilités, mandatés par l'autorité judiciaire pour exécuter le contrôle judiciaire : ils exécutent, le juge décide.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : le contrôle judiciaire est ordonné et suivi par le juge, le contrôleur n'en est que l'exécutant"
+      "principe": "P23",
+      "motif": "Enquêteurs de personnalité et contrôleurs judiciaires habilités en un article (L2514-2 fusionné), même habilitation par décret en Conseil d'État.",
+      "ligne_rouge": "Art. 66 C examiné : le contrôleur judiciaire exécute les mesures que le juge décide, il ne les décide pas.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Des enquêteurs de personnalité et des contrôleurs judiciaires, habilités dans des conditions déterminées par décret en Conseil d'Etat, peuvent être mandatés par l'autorité judiciaire, les premiers pour enquêter sur la personnalité et la situation matérielle, familiale ou sociale des personnes suspectées ou des victimes déclarées, les seconds pour assurer l'exécution des mesures de contrôle judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2515-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Missions des personnels pénitentiaires dans la procédure pénale (probation, surveillance, transfèrements) : article d'ancrage du livre, il nomme qui exécute les décisions du juge.",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : l'article confie l'exécution, la privation de liberté reste décidée et contrôlée par le juge. Art. 8 DDHC sans objet : aucune peine fixée"
+      "principe": "P20",
+      "motif": "Missions des personnels pénitentiaires : mêmes trois missions en une phrase ; « conformément aux dispositions du code pénitentiaire et du présent code » retiré (rappel).",
+      "ligne_rouge": "Art. 66 C et art. 8 DDHC examinés : l'article nomme qui exécute les décisions du juge, il ne leur donne aucun pouvoir de décision.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Au cours des procédures pénales, les personnels de l'administration pénitentiaire exercent des missions d'insertion et de probation auprès des personnes placées sous main de justice, prévenues ou condamnées, des missions de surveillance des personnes placées en détention provisoire ou exécutant une peine privative de liberté, et des missions de transfèrement et d'extraction des personnes détenues."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2515-2",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Identification des agents pénitentiaires par numéro d'immatriculation en criminalité organisée, dans les rapports et, s'ils sont menacés, dans les actes où ils sont victimes ou témoins : protection proportionnée.",
-      "ligne_rouge": "art. 2 DDHC (sûreté de l'agent) et art. 16 DDHC (droits de la défense) examinés : l'anonymat est borné aux cas de danger, la partie peut obtenir l'identité devant un juge et l'agent mis en cause pour ses actes ne bénéficie pas de l'anonymat"
-    },
-    {
-      "code": "cpp",
-      "num": "L2515-3",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Autorisation par le chef d'établissement ou le directeur du service pénitentiaire d'insertion et de probation : décision au plus près.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2515-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Exclusion de l'anonymat quand l'agent est entendu ou poursuivi pour ses actes, ou dépose sur des faits étrangers à ses fonctions. La proposition de fusion avec L2221-18 est écartée : L2221-18 ne vise que L2221-17 (police et gendarmerie), une fusion exigerait un régime commun des agents anonymisés, à construire au lot qui juge le titre II du livre II [arbitrage].",
-      "ligne_rouge": "art. 66 C et CEDH art. 5 examinés : l'agent placé en garde à vue ou poursuivi l'est sous son nom, avec toutes les garanties. art. 2 DDHC (sûreté de l'agent) et art. 16 DDHC (droits de la défense) examinés : l'anonymat est borné aux cas de danger, la partie peut obtenir l'identité devant un juge et l'agent mis en cause pour ses actes ne bénéficie pas de l'anonymat"
+      "principe": "P23",
+      "motif": "Identification par numéro des agents pénitentiaires : les deux cas, l'autorité qui autorise et la mention des seuls éléments d'identification (L2515-3 fusionné), puis le décret (L2515-7 fusionné), en un article.",
+      "ligne_rouge": "Droits de la défense examinés : exclusions et communication de l'identité tenues par L2515-5 ; aucun cas d'anonymat ajouté.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Tout agent de l'administration pénitentiaire peut être autorisé par le chef de l'établissement pénitentiaire ou par le directeur du service pénitentiaire d'insertion et de probation compétent à être identifié, à défaut de ses nom et prénom, par un numéro d'immatriculation administrative, complété par sa qualité et son établissement ou son service d'affectation :\n1° Dans les rapports qu'il rédige à la demande de l'autorité judiciaire dans le cadre d'une procédure pénale portant sur une infraction mentionnée aux articles L. 1722-2 à L. 1722-4 ou sur une personne mise en cause, prévenue, accusée ou condamnée pour une telle infraction.\n2° Dans les actes de procédure, s'il a été victime ou témoin, dans l'exercice de ses fonctions, d'une telle infraction ou d'une infraction commise par une telle personne, lorsque la révélation de son identité est susceptible, compte tenu des conditions d'exercice de sa mission, de mettre en danger sa vie ou son intégrité physique ou celles de ses proches. Il peut alors déposer ou comparaître comme témoin au cours de l'enquête ou devant les juridictions d'instruction ou de jugement et se constituer partie civile sous ces mêmes éléments.\nCes éléments sont alors seuls mentionnés dans les rapports, procès-verbaux, citations, convocations, ordonnances, jugements ou arrêts. Les modalités d'application des articles L. 2515-2 à L. 2515-6 sont précisées par décret en Conseil d'Etat."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2515-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Levée de l'anonymat sur requête motivée de la défense ou de la partie civile, avec recours suspensif de l'agent et appel du parquet en dix jours. Même motif que L2515-4 pour écarter la fusion avec L2221-19 [arbitrage].",
-      "ligne_rouge": "art. 2 DDHC (sûreté de l'agent) et art. 16 DDHC (droits de la défense) examinés : l'anonymat est borné aux cas de danger, la partie peut obtenir l'identité devant un juge et l'agent mis en cause pour ses actes ne bénéficie pas de l'anonymat, et la victime a la même voie que la défense (P18)"
+      "principe": "P3",
+      "motif": "Exclusions et communication de l'identité de l'agent pénitentiaire : textes identiques, hors références, à L2221-18 et L2221-19 ; régime unique par renvoi exact, la substitution portant sur l'article (L2515-2 au lieu de L2221-17) pour que les exclusions mordent (L2515-4 fusionné). R53-42-5 le cite, numéro gardé.",
+      "ligne_rouge": "Art. 66 C et droits de la défense examinés : l'agent entendu, gardé à vue ou poursuivi pour un acte de ses fonctions répond sous son nom ; requête motivée, communication de principe, recours suspensif et appel du procureur dans les dix jours gardés par renvoi.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les articles L. 2221-18 et L. 2221-19 s'appliquent à l'agent identifié selon l'article L. 2515-2, l'article L. 2515-2 y tenant la place de l'article L. 2221-17."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2515-6",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Révélation de l'identité d'un agent pénitentiaire protégé : atteinte à la justice et aux personnes, au noyau. Le quantum relève du barème. La peine n'est pas celle de L2221-15 (cercle des proches plus large), le renvoi à cet article ne se fait donc pas.",
-      "ligne_rouge": "art. 8 DDHC examiné : peine fixée par la loi, graduée selon le dommage, la juridiction garde la modulation au prononcé dans le barème"
+      "principe": "P23",
+      "motif": "Révélation de l'identité d'un agent pénitentiaire protégé : incrimination, peines et aggravations écrites en entier (relecture adverse : un renvoi à L2513-5 aurait pu emporter son exclusion du terrorisme) ; exceptions recalées sur L2515-5.",
+      "ligne_rouge": "Art. 8 DDHC examiné : incrimination, peines, aggravations et champ inchangés ; « sans préjudice » gardé, il autorise le cumul.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors les cas prévus à l'article L. 2515-5, la révélation des nom et prénom du bénéficiaire d'une autorisation délivrée en application de l'article L. 2515-2 ou de tout élément permettant son identification personnelle ou sa localisation est punie de cinq ans d'emprisonnement et de 75 000 euros d'amende.\nLorsque cette révélation a entraîné des violences à l'encontre de l'agent ou de ses proches, les peines sont portées à sept ans d'emprisonnement et à 100 000 euros d'amende. Lorsqu'elle a entraîné la mort de l'agent ou de l'un de ses proches, elles sont portées à dix ans d'emprisonnement et à 150 000 euros d'amende, sans préjudice de l'application du chapitre Ier du titre II du livre II du code pénal."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2513-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Choix des interprètes et serment : repris à L2513-1.",
+      "ligne_rouge": "aucune",
+      "vers": "L2513-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L2514-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contrôleurs judiciaires : repris à L2514-1.",
+      "ligne_rouge": "Art. 66 C examiné : le contrôleur exécute le contrôle judiciaire décidé par le juge, repris sans changement.",
+      "vers": "L2514-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L2515-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorité qui autorise et mention des seuls éléments d'identification : reprises à L2515-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L2515-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L2515-4",
+      "decision": "F",
+      "principe": "P3",
+      "motif": "Exclusions de l'anonymat, texte identique à L2221-18 : reprises par le renvoi de L2515-5.",
+      "ligne_rouge": "Art. 66 C examiné : l'agent entendu en audition libre, gardé à vue ou poursuivi pour un acte de ses fonctions répond sous son nom, par renvoi exact à L2221-18.",
+      "vers": "L2515-5"
     },
     {
       "code": "cpp",
       "num": "L2515-7",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : il fixe le niveau du texte d'application. La proposition de déclasser est sans objet, l'article est lui-même un renvoi.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Décret d'application : repris au dernier alinéa de L2515-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L2515-2"
     }
-  ]
+  ],
+  "passe": 3
 }
