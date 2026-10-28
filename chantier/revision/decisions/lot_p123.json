@@ -10,450 +10,811 @@
     {
       "code": "penitentiaire",
       "num": "D112-1",
-      "decision": "G",
       "principe": "P23",
-      "motif": "Niveau central : la direction générale sous l'autorité du ministre. Définition utilisée par le chapitre.",
-      "ligne_rouge": "aucune"
+      "motif": "Niveau central : la direction générale sous l'autorité du ministre. Inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
     },
     {
       "code": "penitentiaire",
-      "num": "D112-10",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le directeur interrégional organise et réalise les transfèrements qu'il ordonne : répartition des offices.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D112-11",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Équipes régionales d'intervention et de sécurité, équipes de sécurité au sens de L. 223-17 : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D112-12",
+      "num": "D112-3",
+      "principe": "P21",
+      "motif": "Service national du renseignement pénitentiaire et ses missions : gardés. Typographie : espace fautive avant une virgule retirée.",
+      "ligne_rouge": "aucune",
       "decision": "S",
-      "principe": "P20",
-      "motif": "Missions des équipes régionales d'intervention et de sécurité, gardées. La dernière phrase décrit une expertise sans rien régler : elle tombe. Un mot par notion : « équipes régionales de sécurité » prend le nom des équipes.",
-      "ligne_rouge": "art. 66 C examiné : maintien de l'ordre, fouilles et escortes dans une détention ordonnée par le juge, sans privation de liberté nouvelle",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "En outre, certains fonctionnaires des équipes régionales d'intervention et de sécurité disposent d'une expertise particulière en matière de réalisation de dossiers d'objectifs et opérationnels.",
-          "nouveau": ""
-        },
-        {
-          "op": "remplacer",
-          "ancien": "les fonctionnaires des équipes régionales de sécurité titulaires",
-          "nouveau": "les fonctionnaires des équipes régionales d'intervention et de sécurité titulaires"
+          "op": "rediger",
+          "nouveau": "Le service national du renseignement pénitentiaire est un service à compétence nationale rattaché au directeur général de l'administration pénitentiaire.\nIl a pour missions de rechercher, collecter, exploiter, analyser et diffuser les informations et renseignements relatifs à la défense et à la promotion des intérêts fondamentaux de la Nation mentionnés par les dispositions de l'article R. 811-2 du code de la sécurité intérieure, ainsi qu'à la prévention des évasions et à la sécurité au sein des établissements pénitentiaires ou des établissements de santé destinés à recevoir des personnes détenues et des services pénitentiaires."
         }
       ]
     },
     {
       "code": "penitentiaire",
-      "num": "D112-13",
-      "decision": "G",
+      "num": "D112-5",
       "principe": "P23",
-      "motif": "Pôles de rattachement des extractions judiciaires, équipes de sécurité au sens de L. 223-17 : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Transfèrements en un article : service national et compétence du directeur interrégional (D112-10 y fusionne).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La direction générale de l'administration pénitentiaire comprend un service national des transfèrements, dirigé par un directeur des services pénitentiaires, qui exécute les ordres de transfèrement de l'administration centrale. Le directeur interrégional des services pénitentiaires organise et réalise, par ses moyens, les transfèrements qu'il ordonne, ainsi que ceux que l'administration centrale prescrit entre établissements de sa direction interrégionale ou lui confie par instruction."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
-      "num": "D112-14",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Missions des pôles d'extraction : la présentation du détenu au juge en dépend.",
-      "ligne_rouge": "aucune"
+      "num": "D112-6",
+      "principe": "P13",
+      "motif": "Centre national d'évaluation : renvois à R. 50-73 et D. 527-1 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La direction générale de l'administration pénitentiaire comprend un centre national d'évaluation, chargé de concourir à la procédure d'orientation prévue par l'article D. 211-9 et aux évaluations mentionnées aux articles R. 50-73 et D. 527-1 du code de procédure pénale."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D112-11",
+      "principe": "P23",
+      "motif": "Équipes de sécurité pénitentiaire au sens de L. 223-17 en un article, une catégorie par alinéa : autorité de rattachement et missions (D112-12 à D112-14 et D112-29 à D112-32 y fusionnent). La phrase descriptive sur l'expertise des équipes régionales tombe (passe 2).",
+      "ligne_rouge": "Contrôle du juge (art. 66 C) : les équipes de sécurité exécutent des extractions, escortes et opérations décidées ailleurs, sous l'autorité qui les commande ; aucune ne décide d'une privation de liberté. Les missions restent écrites.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Constituent des équipes de sécurité pénitentiaire au sens de l'article L. 223-17 :\n1° Les équipes régionales d'intervention et de sécurité, implantées dans chaque direction interrégionale, dont les membres sont affectés au siège, à la disposition du directeur interrégional. Elles participent au rétablissement et au maintien de l'ordre en cas de mouvements collectifs ou individuels de personnes détenues, à la sécurité globale des fouilles générales ou sectorielles, à la prévention des mouvements lorsque la détention est fragilisée, au transfert administratif des personnes détenues signalées violentes ou sensibles, en renfort ou en escorte principale, et aux échanges d'expertise avec les autres forces de sécurité. Leurs moniteurs habilités peuvent former les personnels des établissements.\n2° Les pôles de rattachement des extractions judiciaires, placés sous l'autorité du directeur interrégional, qui assurent les extractions judiciaires, les autorisations de sortie sous escorte, les transferts administratifs et les translations judiciaires.\n3° Les équipes locales de sécurité pénitentiaire, placées sous l'autorité du chef de l'établissement, qui assurent les missions du 2° et les extractions médicales, la sécurisation intérieure et périmétrique de l'établissement et, selon son organisation, toute mission des personnels de surveillance de leur corps et grade.\n4° Les équipes de sécurité des unités hospitalières, placées sous l'autorité du chef de l'établissement, qui sécurisent les unités hospitalières sécurisées interrégionales et les unités hospitalières spécialement aménagées, assurent les extractions médicales et judiciaires et les transferts des personnes qui y sont affectées, et surveillent les personnes affectées en unité hospitalière sécurisée interrégionale."
+        }
+      ]
     },
     {
       "code": "penitentiaire",
       "num": "D112-18",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Maisons centrales : régime de sécurité renforcé pour les longues peines, liste arrêtée et annexée.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Régimes et listes des établissements en un article (D112-19 à D112-21, D112-27 et D112-28 y fusionnent) : maisons centrales, centres de détention, semi-liberté et structures d'accompagnement vers la sortie, maisons d'arrêt auprès des juridictions. Les listes, dont les tableaux de rattachement des juridictions sans maison d'arrêt, vont à l'arrêté annexé, comme les autres listes du chapitre. Le renvoi à D136 du code de procédure pénale devient la notion qu'il désigne.",
+      "ligne_rouge": "Individualisation (art. 8 DDHC, signalé à D. 112-20) : l'article dit où s'exécutent la semi-liberté et le placement à l'extérieur que le juge accorde, il n'en accorde ni n'en retire aucun. Le régime orienté vers la réinsertion est gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les maisons centrales et les quartiers maison centrale ont une organisation et un régime de sécurité renforcés, dont les modalités préservent et développent aussi les possibilités de réinsertion sociale des personnes condamnées. Les centres de détention et leurs quartiers ont un régime orienté principalement vers la réinsertion sociale et, le cas échéant, la préparation à la sortie.\nLes centres et quartiers de semi-liberté et les structures d'accompagnement vers la sortie ont un régime orienté essentiellement vers la réinsertion sociale et la préparation à la sortie. Les personnes condamnées à la semi-liberté y sont détenues, et les personnes condamnées placées à l'extérieur peuvent l'être. Les structures d'accompagnement vers la sortie reçoivent les personnes condamnées dont le reliquat de peine est inférieur à deux ans, et leur offrent un accompagnement global, renforcé et individualisé.\nUne maison d'arrêt ou un quartier maison d'arrêt est implanté auprès de chaque cour d'assises et de chaque tribunal judiciaire. À défaut, les personnes prévenues, accusées ou appelantes qui en relèvent sont détenues dans une maison d'arrêt ou un quartier maison d'arrêt d'un autre ressort.\nUn arrêté du garde des sceaux, ministre de la justice, annexé au présent code, fixe la liste de chaque catégorie d'établissements et de quartiers et celle des établissements de rattachement des juridictions sans maison d'arrêt."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D112-34",
+      "principe": "P23",
+      "motif": "Cellules et zones adaptées aux personnes détenues handicapées, arrêtés d'accessibilité annexés : gardés en deux phrases.",
+      "ligne_rouge": "Dignité de la personne détenue handicapée (art. 3 CEDH) : obligation d'aménagement gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire aménage les zones nécessaires et prévoit un nombre adapté de cellules aménagées pour les personnes détenues en situation de handicap. Les arrêtés interministériels qui fixent les règles d'accessibilité des établissements pénitentiaires, pris en application des articles R. 162-13 et R. 164-5 du code de la construction et de l'habitation, sont annexés au présent code."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D112-35",
+      "principe": "P23",
+      "motif": "Service pénitentiaire d'insertion et de probation en un article : implantation, autorité, missions par renvoi, siège et antennes annexés, permanence, rapport annuel publié sauf la sécurité nationale (registre 3.6). D112-36, D112-38 et D113-23 y fusionnent. Les renvois suivent les articles qui portent désormais les missions. Renvoi entrant à coordonner : D742-3 (lot p134) vise D113-23, D113-25, D113-43, D113-44, D113-59 et D113-62.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Dans chaque département, un service pénitentiaire d'insertion et de probation, service déconcentré de l'administration pénitentiaire dont le directeur est placé sous l'autorité du directeur interrégional des services pénitentiaires, exécute les missions prévues aux articles D. 113-36, D. 113-40, D. 113-41, D. 113-60, D. 522-3 et D. 542-1. Un arrêté du garde des sceaux, ministre de la justice, annexé au présent code, fixe son siège et la liste de ses antennes locales.\nLe service assure une permanence pour répondre aux demandes de la juridiction et aux urgences qu'exige la situation des personnes qui lui sont confiées. Son directeur transmet chaque année un rapport d'activité au directeur interrégional, au président du tribunal judiciaire, au procureur de la République près ce tribunal et au juge de l'application des peines. Ce rapport est publié, sans les éléments qui touchent la sécurité nationale."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D112-39",
+      "principe": "P23",
+      "motif": "Agence du travail d'intérêt général et de l'insertion professionnelle en un article : statut, missions, activités proposées aux personnes détenues, direction, rapport, comité d'orientation (D112-40 à D112-42 y fusionnent, et D412-6 du lot p120).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'agence du travail d'intérêt général et de l'insertion professionnelle des personnes placées sous main de justice est un service à compétence nationale rattaché au directeur général de l'administration pénitentiaire. Elle développe le travail d'intérêt général, la formation professionnelle, le travail et l'insertion professionnelle par l'activité économique des personnes placées sous main de justice, en particulier en détention, et participe à leur réinsertion. Elle propose aux personnes détenues des activités d'insertion, de formation professionnelle et de travail qui préparent leur sortie et préviennent la récidive, au vu des difficultés sociales et professionnelles qu'elles rencontrent.\nElle gère en régie l'emploi dans les établissements pénitentiaires et la commercialisation des biens et services produits par les personnes détenues, au moyen du compte de commerce « Régie industrielle des établissements pénitentiaires ». Un directeur, nommé par arrêté du garde des sceaux, ministre de la justice, dirige l'agence et établit un rapport annuel d'activité. Un comité d'orientation stratégique présidé par le directeur général de l'administration pénitentiaire, où siègent l'État, des collectivités publiques et des représentants des entreprises, des associations et de l'économie sociale et solidaire, propose ses orientations et donne son avis sur son plan d'action. Un arrêté du garde des sceaux, ministre de la justice, fixe le détail de ses missions, la composition et l'organisation du comité."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-2",
+      "principe": "P23",
+      "motif": "Définition des travailleurs sociaux, employée par R. 541-3 : inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-3",
+      "principe": "P23",
+      "motif": "Personnel des établissements en un article : composition fixée par le ministre, réunions de synthèse, uniforme et consignation des observations des surveillants, gratifications (D113-10, D113-21 et D113-22 y fusionnent).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le garde des sceaux, ministre de la justice, fixe la composition du personnel de chaque direction interrégionale et de chaque établissement ou service pénitentiaire, selon les textes qui régissent le recrutement et les attributions des agents. Les chefs d'établissement réunissent régulièrement les différents personnels pour coordonner leur action et échanger les informations utiles sur l'application des régimes de détention.\nLes personnels de surveillance portent l'uniforme pendant le service et, hors service, dans les locaux de la détention, sauf le chef d'établissement et les agents dont une instruction de service définit la fonction. Les surveillants consignent leurs observations sur les missions qui leur sont confiées. Outre les récompenses de son statut, le personnel peut recevoir, dans la limite des crédits ouverts, des gratifications exceptionnelles pour actes de courage ou de dévouement."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-5",
+      "principe": "P23",
+      "motif": "Soins et service social du personnel en un article (D113-6 y fusionne) : médecin conventionné, remboursement, autorisation du spécialiste, unité sanitaire en urgence seulement.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Auprès de chaque établissement ou service, un ou plusieurs médecins liés par convention avec l'administration pénitentiaire et désignés par le directeur interrégional des services pénitentiaires soignent le personnel. Ils examinent et soignent hors vacation les agents qui le demandent, et visitent à domicile ceux qui, malades, ne peuvent se déplacer et résident à moins de deux kilomètres. Le personnel titulaire et stagiaire a droit au remboursement intégral de ces frais médicaux, pharmaceutiques et d'hospitalisation, ainsi que de ceux d'un médecin spécialiste autorisé par l'administration sur avis conforme du médecin conventionné, sauf en disponibilité, en détachement ou en congé annuel ou exceptionnel. L'unité sanitaire ne soigne le personnel qu'en urgence.\nLe personnel bénéficie du service social de l'assistant social attaché à l'établissement, selon les règles de coordination des services sociaux."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-7",
+      "principe": "P23",
+      "motif": "Logements de fonction en un article (D113-8 et D113-9 y fusionnent).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnels de l'administration pénitentiaire occupent personnellement les logements qui leur sont concédés par nécessité absolue de service. Ces logements sont situés hors de la zone où sont hébergées les personnes détenues, sauf, à titre exceptionnel, pour les agents qui vivent seuls. Les membres du personnel logés à l'établissement ne reçoivent en aucun cas de personne détenue dans leur logement, et aucun membre de leur famille ne pénètre dans la zone de détention."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-36",
+      "principe": "P13",
+      "motif": "Mesures dont le service assure le contrôle, propositions d'aménagement et compte rendu au magistrat mandant, en un article (D113-25 et D113-43 y fusionnent). Les renvois aux anciens 721-2, 706-25-16 à 706-25-21 et 764-1 à 764-42 du code de procédure pénale passent à leurs numéros de 2029 (L. 5262-1, L. 6422-1 à L. 6422-12, L. 6152-1 à L. 6152-42).",
+      "ligne_rouge": "Individualisation et contrôle du juge (art. 8 DDHC, art. 66 C) : le service exécute ce que le juge prononce, lui propose les aménagements et lui rend compte ; le juge décide. Ces offices restent écrits sans changement.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service pénitentiaire d'insertion et de probation met en œuvre les mesures de contrôle et veille au respect des obligations imposées aux personnes condamnées à l'emprisonnement avec sursis probatoire, à un suivi socio-judiciaire ou à un travail d'intérêt général, aux personnes ajournées avec mise à l'épreuve, aux libérés conditionnels, aux condamnés placés sous surveillance judiciaire ou suivis en application de l'article L. 5262-1 ou des articles L. 6422-1 à L. 6422-12 du code de procédure pénale, ou faisant l'objet d'une suspension de peine, d'une semi-liberté, d'un placement à l'extérieur ou d'un placement sous surveillance électronique, fixe ou mobile, aux interdits de séjour et aux personnes visées à l'article L. 51 du code du service national. Il met aussi en œuvre les peines de substitution et les mesures de contrôle et de surveillance des personnes condamnées dans un autre État membre de l'Union européenne, dont la décision a été reconnue selon les articles L. 6152-1 à L. 6152-42 du code de procédure pénale.\nSous l'autorité de son directeur, il s'assure que la personne qui lui est confiée se soumet aux mesures de contrôle et respecte ses obligations. Il propose au magistrat mandant les aménagements de peine et les modifications des mesures de contrôle et des obligations, et lui rend compte de leur respect ou de leur violation."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-40",
+      "principe": "P23",
+      "motif": "Éléments d'individualisation fournis à l'autorité judiciaire et à l'administration pour toutes les personnes placées sous main de justice, avis et rapports en commission de l'application des peines, en un article (D113-42 y fusionne). Le cité D214-10 (lot p110) le vise toujours.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service pénitentiaire d'insertion et de probation recherche les moyens de favoriser l'individualisation de la situation pénale des personnes détenues, notamment dans le cadre des orientations du juge de l'application des peines. À la demande de l'autorité judiciaire ou de l'administration pénitentiaire, ou de sa propre initiative, il leur fournit les éléments qui permettent de mieux individualiser la situation des personnes placées sous main de justice et l'exécution de la mesure privative de liberté. Il élabore notamment des avis ou rapports sur les personnes dont la situation pénale est examinée en commission de l'application des peines."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-41",
+      "principe": "P4",
+      "motif": "Concours du service à la préparation des décisions, enquêtes, contrôle judiciaire : gardé. Typographie : espace rétablie entre deux phrases.",
+      "ligne_rouge": "Contrôle du juge (art. 66 C) : le service exécute les mesures préalables et le contrôle judiciaire décidés par le juge, sur sa saisine. Article gardé mot pour mot.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service pénitentiaire d'insertion et de probation concourt, sur saisine des autorités judiciaires, à la préparation des décisions de justice à caractère pénal ; il peut être chargé de l'exécution des enquêtes et des mesures préalables au jugement. A cet effet, il effectue les vérifications sur la situation matérielle, familiale et sociale des personnes faisant l'objet d'enquêtes ou de poursuites judiciaires afin de permettre une meilleure individualisation des mesures ou peines et de favoriser l'insertion des personnes intéressées. Il assure le suivi et le contrôle des personnes placées sous contrôle judiciaire. Il effectue les investigations qui lui sont demandées préalablement à l'exécution des peines privatives de liberté."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-44",
+      "principe": "P19",
+      "motif": "Suivi des mesures et rapports au magistrat mandant en un article (D113-33 y fusionne) : délais de trois mois, d'un mois et d'un an, rapports d'incident sans délai.",
+      "ligne_rouge": "Délais opposables au service (P19) : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le directeur du service pénitentiaire d'insertion et de probation s'assure du suivi de chaque mesure et de l'exécution des instructions des magistrats mandants, et vérifie que les rapports leur sont régulièrement adressés. Le service adresse au magistrat mandant un rapport d'évaluation dans les trois mois qui suivent la date à laquelle la mesure lui est confiée, un rapport de fin de mesure un mois avant son échéance et un rapport annuel lorsque la mesure dure plus de deux ans.\nIl lui adresse un rapport en cours de mesure en cas de difficulté dans l'application des orientations générales ou des instructions particulières, de changement de la situation de la personne susceptible d'influer sur ses obligations, de changement significatif des modalités de sa prise en charge, et à sa demande. En cas d'incident, il le fait dans les plus brefs délais."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-45",
+      "principe": "P23",
+      "motif": "Dossier individuel et secret professionnel du service en un article (D113-34 y fusionne). La transmission « sous pli fermé » devient une transmission qui garantit la confidentialité, y compris numérique (passe 2).",
+      "ligne_rouge": "Vie privée (P25) : secret professionnel, consultation réservée au service, confidences exclues de toute communication au magistrat, transmission confidentielle : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le service pénitentiaire d'insertion et de probation tient un dossier pour chaque personne suivie au titre des articles D. 113-36, D. 113-41 et D. 542-1. Il comprend les pièces judiciaires nécessaires au suivi de la mesure, les éléments du contrôle des obligations ou conditions imposées et la copie des rapports adressés au magistrat mandant. En cas de changement de résidence de la personne, le service le transmet au service compétent de la nouvelle résidence par un moyen qui garantit sa confidentialité.\nLes personnels du service sont tenus au secret professionnel, et seuls ses membres consultent les documents qu'il couvre. Ils ne l'opposent pas aux autorités judiciaires dans l'exécution de ces mesures, sauf pour les renseignements recueillis par voie de confidences auprès des personnes prises en charge. Sous la même réserve, le dossier est communiqué à sa demande au magistrat qui a saisi le service."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-60",
+      "principe": "P23",
+      "motif": "Missions du service en détention en un article (D113-24, D113-35, D113-38, D113-59, D113-61 à D113-63 y fusionnent) : prévention de la désocialisation, liens familiaux, accès aux droits, formation, sport, aide matérielle, avis d'orientation, partie réservée du dossier, libre accès et entretiens confidentiels. Les renvois aux articles D. 214-13 et D. 211-31, fusionnés, passent à D. 214-10 et D. 211-9 (lot p110). Renvoi entrant à coordonner : D742-3 (lot p134) vise D113-59 et D113-62.",
+      "ligne_rouge": "Individualisation (art. 8 DDHC, signalé à D. 113-60) : missions du service en détention gardées, il prépare la réinsertion et éclaire le juge, sans décider d'aucune mesure.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Auprès de chaque établissement pénitentiaire, le service pénitentiaire d'insertion et de probation participe à la prévention des effets désocialisants de l'emprisonnement, favorise le maintien des liens sociaux et familiaux et aide les personnes détenues à préparer leur réinsertion. Il assure les liaisons avec les services sociaux, éducatifs et médico-sociaux et prend tous contacts utiles à leur réinsertion. Avec les autres services de l'État, les collectivités territoriales et les organismes publics ou privés, il favorise l'accès des personnes détenues et des personnes qui lui sont confiées aux droits et aux dispositifs d'insertion de droit commun, et s'assure de la continuité des actions d'insertion. Il détermine avec les chefs d'établissement les actions de formation professionnelle et contribue à la programmation des activités sportives. Il peut apporter une aide matérielle aux personnes que les autorités judiciaires lui confient.\nSon avis sur l'orientation d'une personne condamnée est versé au dossier d'orientation prévu à l'article D. 211-9. La troisième partie du dossier individuel prévu à l'article D. 214-10 lui est réservée.\nSes personnels ont libre accès aux locaux de détention, aux heures de service de jour, pour les besoins de leur service. Ils s'entretiennent avec les personnes détenues dans des conditions qui garantissent la confidentialité, au parloir, au bureau ou en cellule et, au quartier disciplinaire, dans un local spécial."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-64",
+      "principe": "P15",
+      "motif": "Bénévoles agréés par le directeur du service, retrait ou suspension à la demande du juge ou du procureur : gardés. L'avis préalable du juge tombe (passe 2).",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "À titre exceptionnel, il peut être fait appel à des personnes bénévoles, agréées par le directeur du service pénitentiaire d'insertion et de probation dans des conditions fixées par arrêté du garde des sceaux, ministre de la justice, annexé au présent code. Le directeur du service peut retirer ou suspendre l'agrément d'office ou à la demande du juge de l'application des peines ou du procureur de la République."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-69",
+      "principe": "P4",
+      "motif": "Délégations de signature du directeur du service en un article (D113-68 y fusionne).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'exercice des compétences que lui donne le présent code, le directeur du service pénitentiaire d'insertion et de probation peut déléguer sa signature à un directeur d'insertion et de probation, à un chef de service d'insertion et de probation et à un conseiller technique de service social. En l'absence du chef de service, il délègue sa signature à un personnel du service pour ordonner les dépenses courantes nécessaires à son fonctionnement."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D114-1",
+      "principe": "P23",
+      "motif": "Emploi des réservistes en un article (D114-2 à D114-5 et D114-7 y fusionnent) : appel, gestion, affectation, autorité, prérogatives, uniforme, carte, formation d'adaptation, contrôle de la capacité.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le garde des sceaux, ministre de la justice, peut faire appel à des réservistes pour les missions de l'article L. 114-1. La direction interrégionale des services pénitentiaires de leur domicile les gère et les affecte dans un service du ministère de la justice. Ils servent sous l'autorité du chef de ce service et selon les règles du pouvoir hiérarchique. Ils disposent des prérogatives liées à leurs fonctions, portent l'uniforme dont ils reçoivent dotation lorsque la mission le requiert et reçoivent une carte professionnelle de réserviste. Ils signalent tout changement de leur situation qui affecte leur mission. Selon la mission et leur expérience, ils peuvent suivre une formation d'adaptation. Un arrêté du garde des sceaux, ministre de la justice, fixe le contrôle de leur capacité à servir."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D114-9",
+      "principe": "P23",
+      "motif": "Contrat d'engagement du réserviste en un article (D114-10 à D114-16 y fusionnent) : signature, durée, suspension, résiliation, radiations, indemnités, accord de l'employeur. La voie recommandée cède la place à tout moyen qui laisse une trace écrite (passe 2).",
+      "ligne_rouge": "Aucune peine : la radiation après condamnation (art. 8 DDHC, signalé à D. 114-13) est une condition d'aptitude d'un volontaire, gardée sans changement, et l'avis de la commission avant toute radiation pour faute est gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le réserviste volontaire signe avec l'État, après reconnaissance de sa capacité et de son aptitude à l'emploi, un contrat d'engagement qui énonce ses droits et obligations et le rattache à un lieu d'affectation, fixé en priorité dans le département de son domicile. Le contrat est conclu pour un à cinq ans, se renouvelle par tacite reconduction et se modifie par avenant. Un arrêté du garde des sceaux, ministre de la justice, en fixe les mentions. À la demande du réserviste, son exécution peut être suspendue six mois au plus, sans prorogation de sa durée.\nL'autorité administrative peut résilier le contrat d'office en cas d'inaptitude médicale, ou sur demande justifiée du réserviste. Elle radie d'office de la réserve le réserviste qui atteint soixante-sept ans ou qui est condamné à une peine criminelle ou correctionnelle. Elle peut le radier pour insuffisance professionnelle, inconduite ou manquement au code de déontologie, après avis d'une commission présidée par le directeur interrégional, dont un arrêté du garde des sceaux, ministre de la justice, fixe la composition et le fonctionnement.\nLes réservistes perçoivent une indemnité, due du jour de leur départ au jour de leur retour à leur domicile, et le remboursement de leurs frais de déplacement entre domicile et lieu d'affectation, selon un barème fixé par arrêté conjoint du garde des sceaux, ministre de la justice, et du ministre chargé du budget.\nLe réserviste salarié adresse à son employeur, par tout moyen laissant une trace écrite, la demande d'accord prévue à l'article L. 114-4. L'employeur se prononce dans le mois de la notification de la demande et notifie son refus au salarié, qui en informe l'administration pénitentiaire. Le silence de l'employeur pendant ce mois vaut accord."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-3",
+      "principe": "P23",
+      "motif": "Organisation des soins en un article : unité sanitaire, désignation des établissements de santé, protocoles, secteurs de psychiatrie et service médico-psychologique régional (D115-4 et D115-6 y fusionnent). Le renvoi mort au « décret mentionné par le précédent alinéa » tombe (passe 2).",
+      "ligne_rouge": "Accès aux soins de la personne détenue (art. 3 CEDH) : organisation des soins somatiques et psychiatriques gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le diagnostic et les soins en milieu pénitentiaire, et la coordination de la prévention et de l'éducation pour la santé, sont assurés par une équipe hospitalière placée sous l'autorité médicale d'un praticien hospitalier, dans une unité sanitaire en milieu pénitentiaire, selon les articles R. 6111-27 à R. 6111-38 du code de la santé publique. En application de l'article R. 6122-14 du même code, le directeur général de l'agence régionale de santé désigne pour chaque établissement pénitentiaire l'établissement public de santé voisin qui en est chargé. Si celui-ci n'a pas de service de psychiatrie et que l'établissement pénitentiaire n'est pas desservi par un service médico-psychologique régional, il désigne aussi, selon l'article R. 6111-28 de ce code, l'établissement de santé voisin qui dispense les soins psychiatriques. Un protocole et, le cas échéant, un protocole complémentaire, signés selon l'article R. 6111-29 du même code, fixent leurs modalités d'intervention.\nLes secteurs de psychiatrie en milieu pénitentiaire répondent aux besoins de santé mentale des personnes détenues de leur ressort, sans préjudice de la prévention, du diagnostic et des soins courants des secteurs de psychiatrie générale ou infanto-juvénile. Chacun est rattaché à un établissement de santé mentionné à l'article L. 6111-1-2 du même code, placé sous l'autorité d'un psychiatre praticien hospitalier assisté d'une équipe pluridisciplinaire, et comporte un service médico-psychologique régional aménagé dans un établissement pénitentiaire. L'administration pénitentiaire construit, aménage et entretient les locaux de ce service."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-5",
+      "principe": "P23",
+      "motif": "Sécurité des soignants, locaux, cellules proches de l'unité, surveillants affectés après avis des médecins, intervention hors des heures d'ouverture, en un article (D115-7 et D115-8 y fusionnent).",
+      "ligne_rouge": "Secret médical et accès aux soins : l'avis des médecins sur l'affectation des surveillants aux unités de soins est gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'administration pénitentiaire assure la sécurité des personnes qui concourent aux missions de santé dans l'établissement. Elle met à la disposition de l'unité sanitaire les locaux de consultation, d'examen et, le cas échéant, de pharmacie à usage intérieur prévus à l'article R. 6111-32 du code de la santé publique. Des cellules proches de l'unité peuvent être réservées à l'hébergement momentané des personnes détenues malades dont l'état exige des soins fréquents ou un suivi médical particulier sans hospitalisation. Le chef de l'établissement y affecte les personnes sur proposition du praticien responsable de l'unité.\nLe chef de l'établissement affecte des personnels de surveillance aux unités sanitaires et aux secteurs de psychiatrie après avis des médecins responsables. Hors des heures d'ouverture de l'unité, les personnels pénitentiaires appliquent les directives du protocole prévu à l'article D. 115-3 pour toute intervention médicale nécessaire."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-9",
+      "principe": "P13",
+      "motif": "Dossier médical conservé par l'établissement de santé, accès réservé aux soignants : gardé. Le renvoi à D. 115-6, fusionné, se réduit à D. 115-3.",
+      "ligne_rouge": "Secret médical (P25) : accès réservé aux soignants et transmission inviolable gardés mot pour mot.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le dossier médical des personnes détenues est conservé sous la responsabilité des établissements de santé comprenant une unité sanitaire ou un secteur de psychiatrie mentionnés à l'article D. 115-3.\nQuand le dossier est établi par l'établissement de santé, il est soumis aux dispositions relatives aux règles de recueil des informations des patients du code de la santé publique.\nSeul le personnel soignant peut avoir accès au dossier médical.\nEn cas de transfèrement ou d'extraction vers un établissement hospitalier, les informations médicales contenues dans le dossier sont transmises au médecin destinataire dans des conditions matérielles garantissant leur inviolabilité."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-10",
+      "principe": "P22",
+      "motif": "Rapport annuel d'activité des unités de soins et sa transmission au ministère en un article (D115-11 y fusionne).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les établissements de santé qui comprennent une unité sanitaire ou un secteur de psychiatrie établissent un rapport annuel d'activité, qui présente aussi les actions de prévention et d'éducation pour la santé. Le rapport est transmis aux signataires des protocoles, présenté à l'instance de concertation prévue à l'article R. 6111-36 du code de la santé publique et à la commission de surveillance, puis adressé au directeur interrégional des services pénitentiaires, qui le transmet au ministère de la justice avec ses observations."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-14",
+      "principe": "P23",
+      "motif": "Habilitation des personnels hospitaliers en un article (D115-15 à D115-18 y fusionnent) : autorités, durée, condition tirée du casier, retrait de plein droit, suspension contradictoire et décision motivée dans le mois, information, remise du règlement intérieur, remplacement. L'avis préalable du préfet tombe (passe 2).",
+      "ligne_rouge": "Indépendance des soignants et accès aux soins : suspension seulement pour manquement grave, information préalable du directeur de l'établissement de santé, observations de l'intéressé et avis de l'autorité de nomination, décision motivée dans le mois : gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Avant leur nomination ou leur affectation, les praticiens hospitaliers à temps plein des unités sanitaires et des secteurs de psychiatrie sont habilités par le garde des sceaux, ministre de la justice, et les autres personnels hospitaliers qui y exercent, par le directeur interrégional des services pénitentiaires territorialement compétent. L'habilitation vaut cinq ans et se renouvelle par tacite reconduction. Elle n'est pas accordée à la personne condamnée pour des agissements contraires à l'honneur, à la probité ou aux bonnes mœurs, dont la condamnation justifie l'inscription au bulletin n° 2 du casier judiciaire, et elle est retirée de plein droit quand cette condition cesse d'être remplie.\nEn cas de manquement grave au présent code, au code de procédure pénale, au code de la santé publique ou au règlement intérieur, l'habilitation peut être suspendue par le directeur interrégional pour les praticiens hospitaliers à temps plein, ou par le chef de l'établissement pour les autres personnels, après information du directeur de l'établissement de santé. L'autorité qui l'a délivrée décide dans le mois, par décision motivée, de la maintenir ou de la retirer, après avoir recueilli les observations de l'intéressé et l'avis de l'autorité investie du pouvoir de nomination.\nLe directeur interrégional informe les personnels hospitaliers des conditions d'exercice en milieu pénitentiaire et de leurs obligations, et le chef de l'établissement leur remet le règlement intérieur. En cas d'absence, d'empêchement ou de nécessité de service, le chef de l'établissement peut autoriser d'autres personnels de l'établissement de santé signataire du protocole à entrer, sur proposition de son directeur."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-19",
+      "principe": "P23",
+      "motif": "Accès des intervenants de santé autorisé par le chef de l'établissement, en un article (D115-20 et D115-20-1 y fusionnent).",
+      "ligne_rouge": "Accès aux soins (art. 3 CEDH) : chaque catégorie d'intervenants reste nommée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le chef de l'établissement pénitentiaire autorise l'accès à l'établissement des personnes qui interviennent pour les collectivités territoriales et des membres du réseau associatif auquel l'établissement de santé fait appel pour la prévention et l'éducation pour la santé, des personnels des structures de soins spécialisées dans la prise en charge des dépendances, notamment des centres de soins, d'accompagnement et de prévention en addictologie, et des personnels des services de prévention et de santé au travail interentreprises qui suivent les personnes détenues qui travaillent."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-23",
+      "principe": "P23",
+      "motif": "Praticien responsable : suivi médical, prévention, hygiène, visites des locaux et signalements, en un article (D115-24 y fusionne). Le « conformément » à R. 6111-33 du code de la santé publique devient un renvoi direct.",
+      "ligne_rouge": "Santé des personnes détenues (art. 3 CEDH) : le droit du médecin de visiter tous les locaux et de signaler toute situation qui affecte leur santé est gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le praticien responsable de l'unité sanitaire organise le suivi médical des personnes détenues et coordonne les actions de prévention et d'éducation pour la santé, selon l'article R. 6111-33 du code de la santé publique. Le médecin responsable des unités sanitaires et des secteurs de psychiatrie veille à l'hygiène collective et individuelle dans l'établissement. Il visite à cet effet tous les locaux, signale aux services compétents les insuffisances d'hygiène et toute situation qui peut affecter la santé des personnes détenues, et donne son avis sur les moyens d'y remédier."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-25",
+      "principe": "P25",
+      "motif": "Certificats, attestations et avis d'incompatibilité avec la détention : gardés. Le juge est toujours informé de l'avis d'incompatibilité (passe 2).",
+      "ligne_rouge": "Contrôle du juge et dignité (art. 3 CEDH) : l'avis écrit d'incompatibilité est porté aussitôt à l'autorité judiciaire, sans « s'il y a lieu ».",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les médecins des unités sanitaires et des secteurs de psychiatrie délivrent à la personne détenue, à sa demande, des certificats ou attestations relatifs à son état de santé et, avec son accord exprès, à sa famille ou à son conseil. Ils lui fournissent les attestations et documents indispensables à ses droits de sécurité sociale, notamment en matière d'accidents du travail et de maladies professionnelles. Ils délivrent aux autorités pénitentiaires des attestations écrites limitées aux renseignements strictement nécessaires à l'orientation de la personne et aux modifications ou aménagements du régime pénitentiaire que pourrait justifier son état de santé.\nSi ces médecins estiment que l'état de santé d'une personne détenue n'est pas compatible avec un maintien en détention ou avec le régime qui lui est appliqué, ils en avisent par écrit le chef de l'établissement pénitentiaire, qui en informe aussitôt l'autorité judiciaire compétente. Un double des attestations et avis délivrés aux autorités est remis à la personne détenue, à sa demande."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-4",
+      "principe": "P21",
+      "motif": "Accès du service national du renseignement pénitentiaire au fichier des auteurs d'infractions terroristes : inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-7",
+      "principe": "P23",
+      "motif": "Services déconcentrés en un article : directions interrégionales et direction de l'outre-mer, ressort, autorité, missions dites en une phrase, application au directeur de l'outre-mer (R112-8 et R112-9 y fusionnent). Renvoi entrant à coordonner : D742-3 (lot p134) vise R. 112-8 et R. 112-9.",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les services déconcentrés de l'administration pénitentiaire sont les directions interrégionales des services pénitentiaires, dont le ressort couvre une ou plusieurs régions et est fixé par arrêté du garde des sceaux, ministre de la justice, et la direction des services pénitentiaires d'outre-mer, dont le ressort couvre les collectivités des articles 73 et 74 de la Constitution et la Nouvelle-Calédonie. Leur directeur a autorité sur les établissements pénitentiaires et les services pénitentiaires d'insertion et de probation de son ressort, sauf ceux qu'un texte place sous l'autorité directe de l'administration centrale. Les dispositions réglementaires relatives aux directeurs interrégionaux s'appliquent au directeur des services pénitentiaires d'outre-mer, sauf mention contraire ou inapplicabilité dans sa circonscription.\nDans leur ressort, ces directions déclinent la politique nationale en objectifs, en pilotent et en évaluent la mise en œuvre, et animent, contrôlent et coordonnent les établissements et les services d'insertion et de probation. Un arrêté du garde des sceaux, ministre de la justice, fixe le détail de leurs missions."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-15",
+      "principe": "P23",
+      "motif": "Catégories d'établissements pour peines, quartiers des centres pénitentiaires et centres socio-médico-judiciaires de sûreté, en un article (R112-16 et R112-17 y fusionnent).",
+      "ligne_rouge": "Rétention de sûreté (art. 66 C, signalé à R. 112-17) : l'article dit seulement quelles structures accueillent les personnes retenues. La décision et son contrôle relèvent du juge, sans changement.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les établissements pour peines sont les maisons centrales, les centres de détention, les établissements pénitentiaires spécialisés pour mineurs et les centres de semi-liberté. Les centres pénitentiaires peuvent comporter des quartiers maison centrale, centre de détention, de semi-liberté et maison d'arrêt, et des structures d'accompagnement vers la sortie.\nLes centres socio-médico-judiciaires de sûreté sont des structures placées sous l'autorité conjointe du ministre chargé de la santé et du garde des sceaux, ministre de la justice, qui accueillent des personnes placées en rétention de sûreté."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-23",
+      "principe": "P23",
+      "motif": "Adaptation du règlement intérieur type par chaque établissement, avis des personnels, approbation, envoi aux magistrats : gardés en phrases courtes.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Chaque chef d'établissement pénitentiaire adapte le règlement intérieur type de la catégorie de son établissement aux modalités propres de son fonctionnement, après avis des personnels. Le directeur interrégional des services pénitentiaires approuve ce règlement intérieur et ses modifications. Il est adressé pour information au juge de l'application des peines, au président du tribunal judiciaire et au procureur de la République."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-43",
+      "principe": "P1",
+      "motif": "Statut et missions de l'École nationale d'administration pénitentiaire en un article (R112-44 y fusionne). Son organisation interne, ses conseils, sa direction, son personnel et son régime financier (R112-45 à R112-66) ne touchent ni la personne détenue ni l'exécution des peines : ils descendent à un décret simple propre à l'établissement public, publié hors du code (P1). La phrase transitoire de 2001 tombe (passe 2).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'École nationale d'administration pénitentiaire est un établissement public administratif de l'État, doté de la personnalité morale et de l'autonomie financière, placé sous la tutelle du garde des sceaux, ministre de la justice. Son siège est à Agen. Elle assure la formation initiale et continue des fonctionnaires et agents publics de l'administration pénitentiaire et la formation continue des partenaires du service public pénitentiaire, prépare aux concours de la fonction publique, conduit et diffuse des recherches et des études, et développe des partenariats d'enseignement et de recherche et la coopération internationale. Elle peut assurer des prestations de service à titre onéreux. Un décret fixe son organisation, son fonctionnement, son personnel et son régime financier."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-9-1",
+      "principe": "P23",
+      "motif": "Autorisation d'anonymat d'un agent : demande motivée, critères, écrit motivé à durée bornée, réexamen, urgence, registre. Gardés en phrases courtes.",
+      "ligne_rouge": "Contrôle de l'acte (P26) : l'acte reste attribuable par l'administration et le registre est tenu.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'autorisation, prévue au premier alinéa de l'article L. 113-3-1, pour un agent de l'administration pénitentiaire de ne pas être identifié par ses nom et prénom est délivrée par écrit, sur sa demande écrite et motivée, par le chef de l'établissement pénitentiaire ou le directeur du service pénitentiaire d'insertion et de probation. L'autorité apprécie le risque que comporte la révélation de son identité au regard de la nature et du lieu de ses missions et des circonstances dans lesquelles il les exerce.\nL'autorisation indique l'identité de l'agent, sa durée et ses motifs. Elle vaut au plus pour la durée de son affectation ou de sa mise à disposition dans l'établissement ou le service, et est réexaminée d'office si ses fonctions ou ses missions changent. En cas d'urgence, elle peut être demandée et délivrée par tout moyen, puis confirmée par écrit dès le premier jour ouvrable suivant. Chaque autorité tient le registre des agents qui en bénéficient."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-9-2",
+      "principe": "P26",
+      "motif": "Numéro d'immatriculation dans les actes : inchangé, visé par R. 224-46.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-9-3",
+      "principe": "P26",
+      "motif": "Renouvellement du numéro et traçabilité : inchangé, visé par R. 224-46.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-22-1",
+      "principe": "P23",
+      "motif": "Surveillants adjoints en un article : tâches listées, interdiction des armes, uniforme, examens médicaux, évaluation annuelle par l'inspection générale de la justice (R113-22-2 et R113-22-3 y fusionnent).",
+      "ligne_rouge": "Contrôle du juge (art. 66 C, signalé à R. 113-22-1) : les tâches des surveillants adjoints restent nommément listées, sans port ni usage d'arme, la palpation dans les conditions de R. 225-1. Aucune tâche ajoutée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les surveillants adjoints concourent aux missions du service public pénitentiaire. Pour l'application de l'article L. 113-4-1, ils ont pour tâches, en complémentarité avec les membres du corps d'encadrement et d'application :\n1° De participer à l'encadrement de la population pénale en détention, en renfort pour les mouvements individuels et collectifs ou en binôme en unité d'hébergement ou dans d'autres unités.\n2° De contribuer à l'accueil des familles, à la surveillance des parloirs et au contrôle des personnes détenues à l'issue des visites.\n3° D'accompagner les prestataires délégués, les personnels hospitaliers et les intervenants ou entreprises extérieurs pour certaines distributions, activités ou travaux en détention.\n4° De participer aux écoutes téléphoniques prévues au 1° de l'article L. 223-1.\n5° De participer en renfort aux fouilles sectorielles et de cellules et à la garde des murs.\n6° De procéder aux fouilles par palpation des personnes détenues dans les conditions de l'article R. 225-1.\n7° D'apporter un soutien administratif aux greffes pénitentiaires et aux bureaux de gestion de la détention.\nIls ne participent à aucune mission qui implique le port ou l'usage d'une arme au sens des articles R. 227-2 et R. 227-4. Ils portent l'uniforme dans l'exercice de leurs missions et bénéficient d'examens médicaux périodiques par le service médical de leur établissement d'affectation. L'inspection générale de la justice évalue chaque année l'adéquation de leurs activités aux besoins des établissements et le respect de leurs conditions d'emploi, dans un rapport adressé au garde des sceaux, ministre de la justice."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-37",
+      "principe": "P13",
+      "motif": "Participation des services d'insertion et de probation aux évaluations des quartiers pour détenus violents et de prise en charge de la radicalisation : gardée. La plage « R. 224-1 à R. 224-25 », dont la borne haute n'existe plus (lot p107), et le « conformément » tombent.",
+      "ligne_rouge": "aucune",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les personnels des services pénitentiaires d'insertion et de probation participent aux évaluations pluridisciplinaires des personnes détenues placées en unité pour personnes détenues violentes ou en quartier de prise en charge de la radicalisation."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-49",
+      "principe": "P21",
+      "motif": "Finalités du traitement APPI : inchangé.",
+      "ligne_rouge": "aucune",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-50",
+      "principe": "P21",
+      "motif": "Données enregistrées dans APPI : liste fermée gardée mot pour mot, aucune catégorie élargie.",
+      "ligne_rouge": "Vie privée (P25) et contrôle du juge : la liste fermée des données est gardée mot pour mot, sans élargissement.",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-51",
+      "principe": "P23",
+      "motif": "Régime du traitement APPI en un article (R113-52 à R113-58 y fusionnent) : données sensibles, durée de conservation, accès, destinataires, droits, opposition exclue, journalisation, interconnexions. Listes fermées gardées sans élargissement.",
+      "ligne_rouge": "Vie privée encadrée (P25) : données sensibles bornées et jamais interconnectées, durée de cinq ans, accès et destinataires nommés, droits exercés auprès du procureur, journalisation de trois ans. Tout est gardé.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les données mentionnées au I de l'article 6 de la loi n° 78-17 du 6 janvier 1978 ne sont enregistrées que si les services pénitentiaires d'insertion et de probation les ont recueillies à la demande des autorités judiciaires pour évaluer la situation de la personne suivie et qu'elles sont nécessaires à l'application des peines. Aucune catégorie de personnes n'est sélectionnée à partir d'elles, et elles ne font l'objet d'aucune interconnexion ni mise en relation. Les données sont conservées cinq ans à compter de la fin de la peine, de la mesure d'aménagement de la peine ou de la mesure de sûreté.\nSeuls accèdent aux données, lorsque la conduite des procédures d'application des peines ou de l'une des mesures de l'article R. 113-49 dont ils ont la charge l'exige :\n1° Les procureurs de la République, les magistrats du siège chargés de l'application des peines, les juges d'instruction et les juges des libertés et de la détention.\n2° Les directeurs des services pénitentiaires d'insertion et de probation, les directeurs pénitentiaires d'insertion et de probation et les personnels d'insertion et de probation.\n3° Les chefs d'établissement pénitentiaire.\n4° Les directeurs des services, chefs de service et éducateurs du secteur public de la protection judiciaire de la jeunesse, pour l'exécution des condamnations prononcées par une juridiction spécialisée pour mineurs contre une personne devenue majeure.\n5° Les agents du greffe qui assistent les magistrats du 1°, individuellement désignés et spécialement habilités par les chefs de juridiction.\n6° Les personnels administratifs, de service social et de surveillance des services pénitentiaires d'insertion et de probation, individuellement désignés et spécialement habilités par le directeur interrégional.\nEn sont aussi destinataires les magistrats du siège et du ministère public pour les seules procédures dont ils sont saisis, et les personnels habilités des services centraux et déconcentrés de l'administration pénitentiaire chargés du suivi des personnes placées sous main de justice, pour leur mission.\nLes droits d'information, d'accès, de rectification, d'effacement et de limitation prévus aux articles 104 à 106 de la loi n° 78-17 du 6 janvier 1978 s'exercent auprès du procureur de la République près le tribunal judiciaire du siège de la juridiction saisie ou du ressort du service chargé de la mesure. Le droit d'opposition de l'article 110 de la même loi ne s'applique pas. Chaque consultation est enregistrée avec l'identifiant de son auteur, sa date, son heure et son objet, et l'enregistrement est conservé trois ans.\nLe traitement peut être interconnecté avec le traitement automatisé de contrôle des personnes placées sous surveillance électronique mobile et avec le système de gestion informatisée des personnes placées sous surveillance électronique. Il peut être mis en relation avec le traitement dénommé « Cassiopée », le casier judiciaire national et le traitement dénommé « gestion nationale des personnes écrouées pour le suivi individualisé et la sécurité » (GENESIS)."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-65",
+      "principe": "P4",
+      "motif": "Décisions individuelles du directeur interrégional, délégation, et évocation ou compétence d'urgence entre échelons, en un article (D113-67 y fusionne).",
+      "ligne_rouge": "Droits de la personne détenue (soins par un médecin choisi, enfant gardé au-delà de dix-huit mois, écrits publiés, hospitalisation) : l'autorité compétente reste nommée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le directeur interrégional des services pénitentiaires prend les décisions administratives individuelles suivantes :\n1° Agrément des associations pour le compte desquelles les personnes détenues peuvent être autorisées à travailler.\n2° Autorisation de visiter ou de communiquer avec des personnes détenues non nominativement désignées dans les établissements de son ressort.\n3° Restitution de tout ou partie de la part disponible du compte nominatif d'une personne réincarcérée après une évasion.\n4° Autorisation, pour une personne détenue, de se faire soigner par un médecin de son choix.\n5° Autorisation de portée interrégionale d'effectuer des photographies, croquis, prises de vue ou enregistrements sonores se rapportant à la détention.\n6° Autorisation, pour une mère détenue avec son enfant, de le garder auprès d'elle au-delà de l'âge de dix-huit mois, et nomination des membres non fonctionnaires de la commission consultative qui donne son avis sur la demande.\n7° Habilitation des aumôniers.\n8° Autorisation de sortie des écrits d'une personne détenue en vue de leur publication ou divulgation.\n9° Autorisation d'hospitaliser une personne détenue dans un établissement de santé privé ou dans un établissement de santé de son ressort.\nIl peut déléguer sa signature à des fonctionnaires de catégorie A en poste au siège de la direction interrégionale. Tout chef d'établissement peut lui soumettre une décision d'exécution de la détention relevant de sa compétence, et le directeur interrégional peut de même saisir le garde des sceaux, ministre de la justice. L'urgence peut donner au chef d'établissement une compétence du directeur interrégional, à charge de lui en rendre compte immédiatement, au besoin par téléphone."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-66",
+      "principe": "P4",
+      "motif": "Autorisations de visite et délégations de signature du chef d'établissement, y compris aux gradés pour la fouille et la contrainte : inchangé.",
+      "ligne_rouge": "Contrôle du juge (art. 66 C) : les délégations restent nommément bornées (affectation en cellule, retraits, fouilles, contrainte, contrôle des accès) ; article gardé mot pour mot.",
+      "decision": "G"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R115-1",
+      "principe": "P23",
+      "motif": "Listes des unités hospitalières sécurisées interrégionales et des unités hospitalières spécialement aménagées, annexées, en un article (R115-2 y fusionne). Les alinéas qui recopiaient le code de la santé publique tombent (passe 2).",
+      "ligne_rouge": "aucune",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La liste des unités hospitalières sécurisées interrégionales est établie par arrêté conjoint du garde des sceaux, ministre de la justice, du ministre chargé de la santé et du ministre chargé du budget. La liste des unités hospitalières spécialement aménagées est établie par arrêté conjoint du garde des sceaux, ministre de la justice, du ministre de l'intérieur et du ministre chargé de la santé. Ces arrêtés sont annexés au présent code."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R115-21",
+      "principe": "P23",
+      "motif": "Missions des médecins généralistes et continuité des soins au transfert, en un article (R115-22 y fusionne). Visites au quartier disciplinaire et à l'isolement au moins deux fois par semaine gardées.",
+      "ligne_rouge": "Santé et dignité de la personne détenue (art. 3 CEDH) : examen d'entrée et visites au quartier disciplinaire, au confinement et à l'isolement deux fois par semaine au moins, gardés mot pour mot.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les médecins chargés de la médecine générale dans les unités sanitaires et dans les services médico-psychologiques régionaux mentionnés à l'article R. 3221-5 du code de la santé publique assurent les consultations demandées par la personne détenue ou, le cas échéant, par le personnel pénitentiaire ou toute autre personne qui agit dans son intérêt. Ces médecins sont en outre chargés de :\n1° Réaliser un examen médical systématique pour les personnes détenues venant de l'état de liberté.\n2° Réaliser les visites aux personnes détenues placées au quartier disciplinaire ou confinées dans une cellule ordinaire dans les conditions prévues par les dispositions de l'article R. 234-31, chaque fois que ces médecins l'estiment nécessaire et au minimum, en tout état de cause, deux fois par semaine.\n3° Réaliser les visites aux personnes détenues placées à l'isolement, dans les conditions prévues par les dispositions de l'article R. 213-19, chaque fois que ces médecins l'estiment nécessaire et au moins deux fois par semaine.\n4° Assurer le suivi individuel de l'état de santé des personnes détenues qui travaillent, prévu à l'article L. 412-47.\n5° Examiner les personnes détenues qui demandent une attestation pour la pratique d'une activité sportive, ou un changement d'affectation ou une modification de leur régime de détention pour raison médicale.\nIls veillent à la transmission au personnel médical du nouvel établissement des éléments utiles à la continuité des soins lors du transfert d'une personne détenue, selon les articles R. 1112-1 et R. 1112-2 du code de la santé publique."
+        }
+      ]
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D112-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transfèrements ordonnés par le directeur interrégional : repris à D. 112-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D112-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Missions des équipes régionales : reprises au 1° de D. 112-11. La phrase sur l'expertise de certains membres, descriptive, tombe (passe 2).",
+      "ligne_rouge": "Contrôle du juge (art. 66 C) : les équipes de sécurité exécutent des extractions, escortes et opérations décidées ailleurs, sous l'autorité qui les commande ; aucune ne décide d'une privation de liberté. Les missions restent écrites.",
+      "vers": "D112-11"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D112-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Équipe de sécurité pénitentiaire, autorité et missions : reprises à D. 112-11, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-11"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D112-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Équipe de sécurité pénitentiaire, autorité et missions : reprises à D. 112-11, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-11"
     },
     {
       "code": "penitentiaire",
       "num": "D112-19",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Centres de détention : régime et liste. L'affectation ne touche pas la durée de la peine.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Régime et liste d'une catégorie d'établissements : repris à D. 112-18.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-18"
     },
     {
       "code": "penitentiaire",
       "num": "D112-20",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Centres et quartiers de semi-liberté, structures d'accompagnement vers la sortie : l'article dit où s'exécutent des mesures que le juge accorde, il n'en accorde aucune. La proposition R est écartée. Renvoi à D136 du code de procédure pénale, gardé et réécrit au lot p035.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article affecte, il ne fixe ni ne réduit la peine ; la semi-liberté et le placement à l'extérieur restent décidés par le juge"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Semi-liberté et structures d'accompagnement vers la sortie : reprises à D. 112-18, sans perte.",
+      "ligne_rouge": "Individualisation (art. 8 DDHC, signalé à D. 112-20) : l'article dit où s'exécutent la semi-liberté et le placement à l'extérieur que le juge accorde, il n'en accorde ni n'en retire aucun. Le régime orienté vers la réinsertion est gardé.",
+      "vers": "D112-18"
     },
     {
       "code": "penitentiaire",
       "num": "D112-21",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Structures d'accompagnement vers la sortie, liste arrêtée et annexée : préparation de la sortie pendant la peine.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Régime et liste d'une catégorie d'établissements : repris à D. 112-18.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-18"
     },
     {
       "code": "penitentiaire",
       "num": "D112-21-1",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article R. 124-9 du code de la justice pénale des mineurs, auquel il renvoie (liste des établissements où les mineurs sont incarcérés, fixée par arrêté et annexée à ce code),  porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois. L'article ne fait qu'annoncer des listes annexées à un autre code.",
-      "ligne_rouge": "minorité examinée : les lieux de détention des mineurs restent fixés par L. 124-1 et R. 124-9 du code de la justice pénale des mineurs"
+      "motif": "Article miroir de l'article R. 124-9 du code de la justice pénale des mineurs (passe 2).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "D112-27",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Une maison d'arrêt auprès de chaque juridiction, liste arrêtée et annexée : source de la règle depuis l'abrogation de D54 du code de procédure pénale (lot p035).",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Régime et liste d'une catégorie d'établissements : repris à D. 112-18.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-18"
     },
     {
       "code": "penitentiaire",
       "num": "D112-28",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Établissements de rattachement des juridictions sans maison d'arrêt (tableaux) : source de la règle depuis l'abrogation de D54 du code de procédure pénale (lot p035).",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Rattachement des juridictions sans maison d'arrêt : la règle est reprise à D. 112-18, les tableaux vont à l'arrêté annexé qui fixe déjà les listes d'établissements (P1). Le renvoi à D. 211-4 tombe : cet article règle l'affectation, il n'a pas besoin d'être réservé.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-18"
     },
     {
       "code": "penitentiaire",
       "num": "D112-29",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Équipes locales de sécurité pénitentiaire : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D112-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Service national du renseignement pénitentiaire et ses missions : seul article qui les fixe.",
-      "ligne_rouge": "aucune"
+      "motif": "Équipe de sécurité pénitentiaire, autorité et missions : reprises à D. 112-11, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-11"
     },
     {
       "code": "penitentiaire",
       "num": "D112-30",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Missions des équipes locales (extractions, escortes, sécurité périmétrique) : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Équipe de sécurité pénitentiaire, autorité et missions : reprises à D. 112-11, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-11"
     },
     {
       "code": "penitentiaire",
       "num": "D112-31",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Équipes de sécurité des unités hospitalières : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Équipe de sécurité pénitentiaire, autorité et missions : reprises à D. 112-11, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-11"
     },
     {
       "code": "penitentiaire",
       "num": "D112-32",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Missions des équipes de sécurité des unités hospitalières. Le signal « aménagement » vient des « unités spécialement aménagées » : aucune peine en cause, la proposition R est écartée.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Équipe de sécurité pénitentiaire, autorité et missions : reprises à D. 112-11, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-11"
     },
     {
       "code": "penitentiaire",
       "num": "D112-33",
       "decision": "A",
       "principe": "P20",
-      "motif": "Déclaratif (« favorise l'accessibilité ») : l'obligation concrète, cellules adaptées et règles d'accessibilité du code de la construction et de l'habitation annexées, est portée par D112-34.",
-      "ligne_rouge": "CEDH art. 3 examiné : les cellules adaptées et les règles d'accessibilité restent obligatoires (D112-34)"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D112-34",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Cellules et zones adaptées aux détenus handicapés, arrêtés d'accessibilité annexés : obligation concrète. Le signal « aménagement » vise des locaux : la proposition R est écartée.",
-      "ligne_rouge": "CEDH art. 3 examiné : détention adaptée au handicap, tenue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D112-35",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Un service d'insertion et de probation par département, missions par renvoi aux articles du code, siège et antennes arrêtés et annexés.",
+      "motif": "Déclaratif (« favorise l'accessibilité ») : l'obligation concrète est portée par D. 112-34 (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "D112-36",
-      "decision": "S",
+      "decision": "F",
       "principe": "P26",
-      "motif": "Rapport d'activité annuel du service au directeur interrégional et aux magistrats : le service rend compte. Registre 3.6 : le document est publié, sauf les éléments qui touchent la sécurité nationale (P22, P26).",
-      "ligne_rouge": "Vie privée des personnes détenues et des agents (art. 2 DDHC) examinée : le document rend compte d'un service, sans nommer les personnes, et la publication suit les règles d'occultation de la communication des documents administratifs. Sécurité des établissements : retirée au titre de la sécurité nationale.",
-      "operations": [
-        {
-          "op": "ajouter_alinea",
-          "nouveau": "Ce rapport est publié. Les éléments qui touchent la sécurité nationale en sont retirés."
-        }
-      ]
+      "motif": "Rapport annuel, publié sauf la sécurité nationale : repris à D. 112-35.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-35"
     },
     {
       "code": "penitentiaire",
       "num": "D112-38",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Permanence du service pour les demandes de la juridiction et les urgences : la juridiction est servie sans délai.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D112-39",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Agence du travail d'intérêt général et de l'insertion professionnelle, service à compétence nationale : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Permanence du service : reprise à D. 112-35.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-35"
     },
     {
       "code": "penitentiaire",
       "num": "D112-40",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Missions de l'agence : développer le travail d'intérêt général et le travail en détention, qui sont des efforts du condamné. Seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Missions, direction ou comité d'orientation de l'agence : le cœur repris à D. 112-39, le détail (liste des tâches, adjoint, effectif et désignation du comité) descend à l'arrêté d'organisation du service à compétence nationale (P1).",
+      "ligne_rouge": "aucune",
+      "vers": "D112-39"
     },
     {
       "code": "penitentiaire",
       "num": "D112-41",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Direction de l'agence et rapport annuel d'activité.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Missions, direction ou comité d'orientation de l'agence : le cœur repris à D. 112-39, le détail (liste des tâches, adjoint, effectif et désignation du comité) descend à l'arrêté d'organisation du service à compétence nationale (P1).",
+      "ligne_rouge": "aucune",
+      "vers": "D112-39"
     },
     {
       "code": "penitentiaire",
       "num": "D112-42",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Comité d'orientation stratégique de l'agence : composition et rôle, seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D112-5",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Service national des transfèrements : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Missions, direction ou comité d'orientation de l'agence : le cœur repris à D. 112-39, le détail (liste des tâches, adjoint, effectif et désignation du comité) descend à l'arrêté d'organisation du service à compétence nationale (P1).",
+      "ligne_rouge": "aucune",
+      "vers": "D112-39"
     },
     {
       "code": "penitentiaire",
       "num": "D113-1",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Catégories de personnels des services déconcentrés, citées par d'autres articles (D113-11, R112-46).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Gratifications pour actes de courage ou de dévouement : règle propre, dans la limite des crédits.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-11",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi déclaratif : les agents exercent les fonctions que leur statut et les textes leur donnent. L'article n'ajoute aucune règle.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-18",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article D. 132-6 du code de la sécurité intérieure, auquel il renvoie (2° : représentants de l'administration pénitentiaire au conseil départemental de prévention de la délinquance), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-19",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Participation des directions interrégionales à la conférence régionale de D48-5-1 du code de procédure pénale, abrogé au lot p038 : l'article est sans objet. Coordination demandée par le lot p038.",
-      "ligne_rouge": "art. 8 DDHC examiné : la conférence ne touche ni au prononcé ni à l'exécution d'une peine"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-2",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Définition des travailleurs sociaux, employée par R541-3.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-20",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article D. 48-5-4 du code de procédure pénale (formation élargie de la commission de l'exécution et de l'application des peines : chefs d'établissement, responsables des greffes pénitentiaires, directeur du service d'insertion et de probation, membres de droit), réécrit au lot p038 sans toucher à cette composition, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-21",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Réunions de synthèse entre personnels : coordination dans l'établissement.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-22",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Port de l'uniforme et consignation des observations des surveillants : trace des missions.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-23",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Rattachement hiérarchique du directeur du service d'insertion et de probation.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-24",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Libre accès du service à la détention, entretiens confidentiels : condition du suivi.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-25",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le service s'assure du respect des obligations et des mesures de contrôle : la peine hors les murs s'exécute.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-26",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Déclaratif : la prévention de la récidive est une mission que l'article L. 1 donne déjà au service public pénitentiaire, et que les articles du chapitre déclinent. Renvoi entrant : D742-3 (lot p134) à coordonner en retirant « D. 113-26, » de la liste.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-28",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article D. 576 du code de procédure pénale, auquel il renvoie (orientations générales fixées et évaluées par les magistrats mandants), gardé au lot p043, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-29",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article D. 577, alinéa 1er, du code de procédure pénale, auquel il renvoie (instructions particulières des magistrats mandants), gardé au lot p043, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-3",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Composition du personnel fixée par le ministre : répartition des compétences.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-30",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article D. 577, alinéa 2, du code de procédure pénale, auquel il renvoie (le service définit et met en œuvre la prise en charge, après avis au magistrat mandant), gardé au lot p043, qui dit en outre l'avis préalable au magistrat, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-31",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article D. 49-27 du code de procédure pénale, auquel il renvoie (le juge de l'application des peines est assisté par le service, qu'il mandate pour les peines restrictives de liberté), réécrit au lot p038 en gardant cette assistance, et R. 57-3 du même code, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-32",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article D. 49-81 du code de procédure pénale, auquel il renvoie (mandat du service local par le juge de l'application des peines de Paris en matière de terrorisme), gardé au lot p038, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-33",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Le directeur du service veille au suivi des mesures et à l'envoi régulier des rapports : le service rend compte.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-34",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Dossier individuel, secret professionnel et communication au magistrat : gardés. La transmission « sous pli fermé » au service de la nouvelle résidence devient une transmission par tout moyen qui garantit la confidentialité, y compris numérique.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : confidentialité du dossier tenue",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "le service transmet sous pli fermé ces documents",
-          "nouveau": "le service transmet ces documents par un moyen garantissant leur confidentialité"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-35",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Partie du dossier individuel destinée au service : renvoi interne utile.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-36",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Mesures dont le service assure le contrôle : il exécute ce que le juge a prononcé. Renvois aux anciens 721-2, 706-25-16 à 706-25-21 et 764-1 à 764-42 du code de procédure pénale à coordonner.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article attribue l'exécution des mesures au service, il ne touche ni au prononcé ni au quantum"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-38",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Avis du service versé au dossier d'orientation : renvoi interne utile.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-39",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article D. 49-24 du code de procédure pénale, auquel il renvoie (synthèse socio-éducative du service avant la libération, à la demande du juge ou du tribunal de l'application des peines), gardé au lot p038, qui en dit en outre l'objet (dangerosité, risque de récidive), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois. La source D49-24 renvoie à D. 574, absent du code de 2029 : renvoi à retirer au lot p038.",
+      "motif": "Énumération descriptive des corps et catégories de personnels, sans règle : les catégories sont fixées par L. 113-1, les corps par leurs statuts particuliers. Renvois entrants : D113-11 et R112-46, retirés dans ce lot.",
       "ligne_rouge": "aucune"
     },
     {
@@ -461,70 +822,238 @@
       "num": "D113-4",
       "decision": "A",
       "principe": "P20",
-      "motif": "Doublon : l'obligation de formation initiale et continue des agents pénitentiaires est portée par l'article L. 422-20 du code général de la fonction publique et par R. 122-21 (devoir d'actualiser ses connaissances, formation par l'administration). Aucune règle propre perdue.",
+      "motif": "Doublon de l'article L. 422-20 du code général de la fonction publique et de R. 122-21 (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
-      "num": "D113-40",
-      "decision": "S",
+      "num": "D113-6",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Concours du service à l'individualisation de l'exécution, avis et rapports en commission d'application des peines : source de la règle depuis l'abrogation de D461 du code de procédure pénale (lot p035). Article manquant corrigé.",
+      "motif": "Service social du personnel : repris à D. 113-5.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "ou à leur initiative, personnels du service",
-          "nouveau": "ou à leur initiative, les personnels du service"
-        }
-      ]
+      "vers": "D113-5"
     },
     {
       "code": "penitentiaire",
-      "num": "D113-41",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Concours du service à la préparation des décisions, enquêtes, suivi du contrôle judiciaire : seul siège.",
-      "ligne_rouge": "art. 66 C examiné : le service suit le contrôle judiciaire ordonné par le juge, qui garde la décision"
+      "num": "D113-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Situation des logements : reprise à D. 113-7.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-7"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Interdictions liées au logement : reprises à D. 113-7.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-7"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-10",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle propre au personnel : reprise à D. 113-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-11",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Renvoi déclaratif aux statuts et aux textes d'organisation (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-18",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article D. 132-6 du code de la sécurité intérieure (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-19",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article D. 48-5-1 du code de procédure pénale, abrogé au lot p038 (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-20",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article D. 48-5-4 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-21",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle propre au personnel : reprise à D. 113-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-22",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle propre au personnel : reprise à D. 113-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-23",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Rattachement du directeur du service au directeur interrégional : repris à D. 112-35.",
+      "ligne_rouge": "aucune",
+      "vers": "D112-35"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mission du service en détention : reprise à D. 113-60, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-60"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-25",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Contrôle du respect des obligations : repris à D. 113-36.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-36"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-26",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Déclaratif : la prévention de la récidive est une mission que l'article L. 1 donne au service public pénitentiaire (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-28",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article D. 576 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-29",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir du premier alinéa de l'article D. 577 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-30",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir du second alinéa de l'article D. 577 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-31",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article D. 49-27 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-32",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article D. 49-81 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-33",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Suivi des mesures et des rapports par le directeur : repris à D. 113-44.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-44"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-34",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Dossier individuel : repris à D. 113-45, transmission confidentielle.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-45"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-35",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mission du service en détention : reprise à D. 113-60, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-60"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-38",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mission du service en détention : reprise à D. 113-60, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-60"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D113-39",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article D. 49-24 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "D113-42",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Éléments d'individualisation fournis à l'autorité judiciaire pour toutes les personnes placées sous main de justice, milieu ouvert compris : plus large que D113-40, qui ne vise que les détenus.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Éléments d'individualisation pour toutes les personnes placées sous main de justice : repris à D. 113-40.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-40"
     },
     {
       "code": "penitentiaire",
       "num": "D113-43",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Le service propose et rend compte, le magistrat mandant décide : répartition des offices tenue.",
-      "ligne_rouge": "art. 8 DDHC examiné : la proposition du service n'est pas une décision, le juge statue"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-44",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Rapports à délai fixe (trois mois, un mois avant l'échéance, annuel) et rapports d'incident « dans les plus brefs délais » : délais opposables. Aucune lettre recommandée en cause : la proposition P12 est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-45",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Secret professionnel du service, inopposable aux autorités judiciaires sauf confidences : équilibre entre suivi et vie privée.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : confidences protégées, informations du suivi accessibles au juge"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Propositions au magistrat mandant et compte rendu : repris mot pour mot à D. 113-36.",
+      "ligne_rouge": "Individualisation et contrôle du juge (art. 8 DDHC, art. 66 C) : le service exécute ce que le juge prononce, lui propose les aménagements et lui rend compte ; le juge décide. Ces offices restent écrits sans changement.",
+      "vers": "D113-36"
     },
     {
       "code": "penitentiaire",
       "num": "D113-46",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article D. 49-18, alinéa 4, du code de procédure pénale (copie du jugement adressée au directeur du service), réécrit au lot p038 sans toucher à cet alinéa, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
+      "motif": "Article miroir de l'article D. 49-18 du code de procédure pénale (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -532,7 +1061,7 @@
       "num": "D113-47",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article D. 49-44, alinéa 2, du code de procédure pénale (copie de l'arrêt adressée au directeur du service), réécrit au lot p038 sans toucher à cet alinéa, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
+      "motif": "Article miroir de l'article D. 49-44 du code de procédure pénale (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -540,498 +1069,353 @@
       "num": "D113-48",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article D. 578 du code de procédure pénale, auquel il renvoie (visite annuelle des foyers d'hébergement par le juge et le directeur du service), gardé au lot p043, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-5",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Médecin conventionné pour les soins au personnel et remboursement des frais. L'avis conforme du médecin conditionne une dépense, il ne retarde aucune décision sur une personne placée sous main de justice : la proposition P15 est écartée.",
+      "motif": "Article miroir de l'article D. 578 du code de procédure pénale (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "D113-59",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Aide matérielle du service aux personnes suivies : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-6",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Service social du personnel : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-60",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le service limite les effets désocialisants de la détention et prépare la sortie, pendant la peine.",
-      "ligne_rouge": "art. 8 DDHC examiné : mission d'accompagnement pendant la peine, sans effet sur sa durée"
+      "motif": "Mission du service en détention : reprise à D. 113-60, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-60"
     },
     {
       "code": "penitentiaire",
       "num": "D113-61",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Concours du service à la programmation des activités sportives : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mission du service en détention : reprise à D. 113-60, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-60"
     },
     {
       "code": "penitentiaire",
       "num": "D113-62",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Accès aux droits et aux dispositifs d'insertion, continuité des actions : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mission du service en détention : reprise à D. 113-60, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-60"
     },
     {
       "code": "penitentiaire",
       "num": "D113-63",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Programmation de la formation professionnelle des personnes suivies : la formation est un effort rémunéré par la doctrine.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-64",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Bénévoles agréés par le directeur du service : gardé, source de la règle depuis l'abrogation de D583 du code de procédure pénale (lot p043), qui renvoyait ici le jugement de l'avis. L'avis préalable du juge de l'application des peines ne protège aucune liberté : il tombe. Le juge et le procureur gardent la demande de retrait ou de suspension.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : le bénévole agréé est tenu au secret par R. 123-5, sanctionné par R. 121-3, et l'agrément peut être retiré à la demande du juge ou du procureur.",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "agréées par le directeur du service pénitentiaire d'insertion et de probation après avis du juge de l'application des peines,",
-          "nouveau": "agréées par le directeur du service pénitentiaire d'insertion et de probation,"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Mission du service en détention : reprise à D. 113-60, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D113-60"
     },
     {
       "code": "penitentiaire",
       "num": "D113-67",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Évocation par l'autorité supérieure et compétence d'urgence avec compte rendu : la décision se prend au plus près.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Évocation et compétence d'urgence : reprises à R. 113-65.",
+      "ligne_rouge": "aucune",
+      "vers": "R113-65"
     },
     {
       "code": "penitentiaire",
       "num": "D113-68",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Délégation de signature pour les dépenses courantes : continuité du service.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-69",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Délégation de signature du directeur du service : la décision se prend au plus près.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-7",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Occupation personnelle des logements de fonction par nécessité absolue de service : sécurité de l'établissement.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-8",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Logements hors de la zone de détention, exception bornée aux agents seuls : sécurité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D113-9",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interdiction de recevoir des détenus au logement et d'y faire entrer la famille : sécurité.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D114-1",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Appel aux réservistes pour les missions de L. 114-1 : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D114-10",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Durée et renouvellement du contrat : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D114-11",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Suspension du contrat à la demande, six mois au plus : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D114-12",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Résiliation du contrat : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D114-13",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Radiation à la limite d'âge ou après une condamnation criminelle ou correctionnelle : condition d'aptitude d'un volontaire, non une peine.",
-      "ligne_rouge": "art. 8 DDHC examiné : la radiation d'une réserve volontaire est une condition d'aptitude, non une sanction ayant le caractère d'une punition"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D114-14",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Radiation pour insuffisance ou manquement après avis d'une commission : cet avis est la garantie du réserviste avant une mesure prise en considération de la personne, il reste.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D114-15",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Indemnité et frais de déplacement des réservistes : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D114-16",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Accord de l'employeur au-delà de dix jours, acquis à défaut de réponse en un mois : gardé. La voie recommandée cède la place à tout moyen laissant une trace écrite.",
+      "motif": "Délégation pour les dépenses courantes : reprise à D. 113-69.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "il adresse par la voie recommandée une demande d'accord",
-          "nouveau": "il adresse par tout moyen laissant une trace écrite une demande d'accord"
-        }
-      ]
+      "vers": "D113-69"
     },
     {
       "code": "penitentiaire",
       "num": "D114-2",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Réservistes soumis au pouvoir hiérarchique du service : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Règle d'emploi des réservistes : reprise à D. 114-1.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-1"
     },
     {
       "code": "penitentiaire",
       "num": "D114-3",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Prérogatives, uniforme et carte des réservistes : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Règle d'emploi des réservistes : reprise à D. 114-1.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-1"
     },
     {
       "code": "penitentiaire",
       "num": "D114-4",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Gestion et affectation des réservistes par la direction interrégionale : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Règle d'emploi des réservistes : reprise à D. 114-1.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-1"
     },
     {
       "code": "penitentiaire",
       "num": "D114-5",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Contrôle de la capacité à servir : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Règle d'emploi des réservistes : reprise à D. 114-1.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-1"
     },
     {
       "code": "penitentiaire",
       "num": "D114-6",
       "decision": "A",
       "principe": "P20",
-      "motif": "Déclaratif : le ministre peut donner des instructions sans qu'un décret l'y autorise. D114-4 règle l'affectation.",
+      "motif": "Déclaratif : le ministre peut donner des instructions sans qu'un décret l'y autorise (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "D114-7",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Formation d'adaptation du réserviste : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Règle d'emploi des réservistes : reprise à D. 114-1.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-1"
     },
     {
       "code": "penitentiaire",
-      "num": "D114-9",
-      "decision": "G",
+      "num": "D114-10",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Contrat d'engagement, aptitude préalable, affectation près du domicile : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Règle du contrat d'engagement : reprise à D. 114-9.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-9"
     },
     {
       "code": "penitentiaire",
-      "num": "D115-10",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Rapport annuel d'activité des unités de soins : l'établissement de santé rend compte.",
-      "ligne_rouge": "aucune"
+      "num": "D114-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du contrat d'engagement : reprise à D. 114-9.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-9"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D114-12",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du contrat d'engagement : reprise à D. 114-9.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-9"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D114-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Radiation d'office : reprise à D. 114-9, sans changement.",
+      "ligne_rouge": "Aucune peine : la radiation après condamnation (art. 8 DDHC, signalé à D. 114-13) est une condition d'aptitude d'un volontaire, gardée sans changement, et l'avis de la commission avant toute radiation pour faute est gardé.",
+      "vers": "D114-9"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D114-14",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du contrat d'engagement : reprise à D. 114-9.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-9"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D114-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du contrat d'engagement : reprise à D. 114-9.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-9"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D114-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du contrat d'engagement : reprise à D. 114-9.",
+      "ligne_rouge": "aucune",
+      "vers": "D114-9"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Protocoles d'intervention : repris à D. 115-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Secteurs de psychiatrie et service médico-psychologique régional : repris à D. 115-3.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-3"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Sécurité des soignants et affectation des surveillants après avis des médecins : reprises à D. 115-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-5"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "D115-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Intervention hors des heures d'ouverture : reprise à D. 115-5.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-5"
     },
     {
       "code": "penitentiaire",
       "num": "D115-11",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Transmission des rapports au ministère par le directeur interrégional.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transmission des rapports au ministère : reprise à D. 115-10.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-10"
     },
     {
       "code": "penitentiaire",
       "num": "D115-13",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article D. 312-154-1 du code de l'action sociale et des familles, auquel il renvoie (prise en charge en appartement de coordination thérapeutique sur orientation d'un service médico-psychologique régional), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-14",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Habilitation préalable des personnels hospitaliers : sécurité de l'établissement.",
+      "motif": "Article miroir de l'article D. 312-154-1 du code de l'action sociale et des familles (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "D115-15",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Habilitation de cinq ans, exclusion des personnes condamnées pour des faits contraires à l'honneur et retrait de plein droit : gardés. L'avis préalable du préfet ne protège aucune liberté : il tombe, la condition tirée du bulletin n° 2 reste vérifiée par l'autorité qui habilite.",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle de l'habilitation des personnels hospitaliers : reprise à D. 115-14, sans perte.",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "L'habilitation est accordée, après avis du préfet de département ou, à Paris, du préfet de police, pour une période",
-          "nouveau": "L'habilitation est accordée pour une période"
-        }
-      ]
+      "vers": "D115-14"
     },
     {
       "code": "penitentiaire",
       "num": "D115-16",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Information des personnels hospitaliers et remise du règlement intérieur : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle de l'habilitation des personnels hospitaliers : reprise à D. 115-14, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-14"
     },
     {
       "code": "penitentiaire",
       "num": "D115-17",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Suspension pour manquement grave, décision motivée dans le mois après observations de l'intéressé et avis de l'autorité de nomination : gardés. L'avis de l'employeur hospitalier garde l'indépendance du soignant face à l'administration qui l'habilite. Le médecin qui certifie une incompatibilité avec la détention ou constate des violences ne peut être écarté par la seule administration pénitentiaire.",
-      "ligne_rouge": "CEDH art. 3 examiné : l'indépendance des soignants, condition du constat des mauvais traitements et de l'avis d'incompatibilité (D115-25), est tenue par l'avis de l'autorité de nomination. Droits de la défense de la personne habilitée tenus (observations, décision motivée)."
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle de l'habilitation des personnels hospitaliers : reprise à D. 115-14, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-14"
     },
     {
       "code": "penitentiaire",
       "num": "D115-18",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Remplacement des personnels habilités absents : continuité des soins.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-19",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Accès des intervenants de prévention et d'éducation pour la santé : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle de l'habilitation des personnels hospitaliers : reprise à D. 115-14, sans perte.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-14"
     },
     {
       "code": "penitentiaire",
       "num": "D115-20",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Accès des structures de soins en addictologie : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accès des structures de soins en addictologie : repris à D. 115-19.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-19"
     },
     {
       "code": "penitentiaire",
       "num": "D115-20-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Accès des services de santé au travail pour les détenus qui travaillent : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-23",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le praticien responsable organise le suivi médical. R. 6111-33 du code de la santé publique ne charge que l'établissement de santé de la coordination de la prévention : la désignation du praticien est propre.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Accès des services de santé au travail : repris à D. 115-19.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-19"
     },
     {
       "code": "penitentiaire",
       "num": "D115-24",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le médecin veille à l'hygiène et signale les situations qui affectent la santé : seul siège.",
-      "ligne_rouge": "CEDH art. 3 examiné : conditions matérielles de détention contrôlées par le médecin, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-25",
-      "decision": "S",
-      "principe": "P25",
-      "motif": "Certificats médicaux et avis d'incompatibilité avec la détention : gardés. L'information du juge par le chef d'établissement ne dépend plus d'un « s'il y a lieu » : le juge qui peut suspendre la peine ou mettre fin à la détention est toujours avisé, ce qu'attendait le lot p035 en gardant D382 du code de procédure pénale. Le signal « aménagement » vise le régime de détention : la proposition R est écartée.",
-      "ligne_rouge": "CEDH art. 3 et art. 66 C examinés : le juge est avisé de toute incompatibilité de l'état de santé avec la détention",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Ce dernier en informe aussitôt, s'il y a lieu, l'autorité judiciaire compétente.",
-          "nouveau": "Ce dernier en informe aussitôt l'autorité judiciaire compétente."
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Hygiène et signalements du médecin : repris à D. 115-23.",
+      "ligne_rouge": "aucune",
+      "vers": "D115-23"
     },
     {
       "code": "penitentiaire",
       "num": "D115-26",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi déclaratif aux règles de la profession d'infirmier du code de la santé publique, qui s'appliquent par elles-mêmes : aucune règle propre. Renvois entrants : D762-18 (Polynésie française) et D772-17 (Nouvelle-Calédonie) adaptent cet article. Ils tombent avec lui, la réglementation locale s'appliquant par elle-même, à abroger dans leurs lots.",
+      "motif": "Renvoi déclaratif aux règles de la profession d'infirmier, qui s'appliquent par elles-mêmes (passe 2). Renvois entrants D762-18 et D772-17 tombés dans leurs lots.",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Unité sanitaire et désignation de l'établissement de santé : seul article du code qui les nomme, cité par D115-7, D115-9, D115-10, D115-14, D115-24 et D115-25.",
-      "ligne_rouge": "CEDH art. 3 examiné : accès aux soins des détenus, tenu"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-4",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Protocole et protocole complémentaire avec l'établissement de santé, cités par D115-8.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Locaux de soins et cellules proches de l'unité sanitaire, affectation sur proposition du praticien : soins des détenus malades.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-6",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Secteurs de psychiatrie en milieu pénitentiaire et charge des locaux du service médico-psychologique régional : gardés. Le renvoi au « décret mentionné par le précédent alinéa » ne vise aucun décret : renvoi mort retiré.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", en application du décret mentionné par le précédent alinéa.",
-          "nouveau": "."
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Surveillants affectés aux unités de soins après avis des médecins : l'avis protège le secret médical des patients détenus, il reste.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : secret médical tenu dans les unités de soins"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-8",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Intervention médicale hors des heures d'ouverture selon le protocole : continuité des soins.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "D115-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Dossier médical conservé par l'établissement de santé, accès réservé aux soignants : secret médical.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accès au dossier réservé au personnel soignant"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-15",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Catégories d'établissements pour peines : source de la règle depuis l'abrogation de D70 du code de procédure pénale (lot p035). Typologie, aucune peine en cause : la proposition R est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-16",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Quartiers des centres pénitentiaires : source de la règle depuis l'abrogation de D70 du code de procédure pénale (lot p035). La proposition R est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-17",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Centres socio-médico-judiciaires de sûreté, sous double tutelle : seul siège.",
-      "ligne_rouge": "art. 66 C examiné : la rétention de sûreté est décidée et contrôlée par une juridiction, l'article ne fait qu'identifier le lieu"
     },
     {
       "code": "penitentiaire",
       "num": "R112-2",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article R. 855-1 du code de la sécurité intérieure (le service national du renseignement pénitentiaire est le service mentionné à L. 855-1), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : l'autorisation et l'encadrement des techniques de renseignement restent dans le code de la sécurité intérieure (L. 855-1, R. 855-1)"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-22",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Règlement intérieur type composé des articles qu'il énumère : tous existent au code de 2029. Cité par D115-16, D115-17, D136-5 et R112-59.",
+      "motif": "Article miroir de l'article R. 855-1 du code de la sécurité intérieure (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
-      "num": "R112-23",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Règlement intérieur de chaque établissement, approuvé par le directeur interrégional et adressé aux magistrats.",
+      "num": "R112-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Ressort et autorité des directions : repris à R. 112-7.",
+      "ligne_rouge": "aucune",
+      "vers": "R112-7"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-9",
+      "decision": "F",
+      "principe": "P1",
+      "motif": "Missions des directions interrégionales : le cœur repris en une phrase à R. 112-7, le détail (relations extérieures, crédits, achats, immobilier, gestion déléguée, ressources humaines, dialogue social) descend à l'arrêté d'organisation (P1).",
+      "ligne_rouge": "aucune",
+      "vers": "R112-7"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Quartiers des centres pénitentiaires : repris à R. 112-15.",
+      "ligne_rouge": "aucune",
+      "vers": "R112-15"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Centres socio-médico-judiciaires de sûreté : repris mot pour mot à R. 112-15.",
+      "ligne_rouge": "Rétention de sûreté (art. 66 C) : la phrase est reprise mot pour mot à R. 112-15, le contrôle du juge sur la mesure est inchangé.",
+      "vers": "R112-15"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R112-22",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "L'article L. 112-4 pose que des règlements intérieurs types fixés par décret en Conseil d'État règlent le fonctionnement de chaque catégorie d'établissements. Ce décret est désormais distinct du code (lots p108, p110, p111) : la liste des articles qui le composaient n'a plus d'objet. Renvois entrants réécrits dans ce lot et les lots p120 et p122 (« règlement intérieur de l'établissement ») ; R224-2 et les autres articles du lot p107 relèvent de leur lot.",
       "ligne_rouge": "aucune"
     },
     {
@@ -1039,7 +1423,7 @@
       "num": "R112-24",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article R*. 421-8, d, du code de l'urbanisme (constructions dans l'enceinte des établissements pénitentiaires dispensées de toute formalité), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
+      "motif": "Article miroir de l'article R*. 421-8 du code de l'urbanisme (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -1047,7 +1431,7 @@
       "num": "R112-25",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article R*. 421-13 du code de l'urbanisme (reconstruction d'établissements pénitentiaires après mutinerie dispensée de toute formalité), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
+      "motif": "Article miroir de l'article R*. 421-13 du code de l'urbanisme (passe 2).",
       "ligne_rouge": "aucune"
     },
     {
@@ -1055,480 +1439,192 @@
       "num": "R112-26",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi déclaratif (« conformément à ») à R. 331-4 du code de l'urbanisme, absent de la base, non vérifié. La taxe d'aménagement relève du code général des impôts (art. 1635 quater D, I, 1°, liste par décret en Conseil d'État, non vérifiée). L'article ne crée pas l'exonération, il la rappelle : aucune règle propre.",
+      "motif": "Renvoi déclaratif à l'exonération de taxe d'aménagement, qu'il ne crée pas (passe 2).",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Accès du service national du renseignement pénitentiaire au fichier des auteurs d'infractions terroristes, par des agents habilités par son chef. R. 50-51 du code de procédure pénale vise encore le « bureau du renseignement pénitentiaire » : l'article seul nomme le service actuel et l'autorité qui habilite.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accès réservé à des agents désignés et habilités, dans les conditions de R. 50-51"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-43",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Statut de l'École nationale d'administration pénitentiaire, gardé. La substitution de l'École à l'État dans les contrats antérieurs au 1er janvier 2001 a produit son effet : la phrase transitoire tombe.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Elle est substituée à l'Etat dans l'ensemble des droits et obligations qui résultaient pour celui-ci des contrats et conventions conclus pour la gestion de l'Ecole nationale d'administration pénitentiaire avant le 1er janvier 2001.",
-          "nouveau": ""
-        }
-      ]
     },
     {
       "code": "penitentiaire",
       "num": "R112-44",
-      "decision": "G",
+      "decision": "F",
       "principe": "P23",
-      "motif": "Missions de l'École : seul siège.",
-      "ligne_rouge": "aucune"
+      "motif": "Missions de l'École : reprises à R. 112-43. Les modalités des préparations aux concours, fixées par arrêté, suivent le décret de l'École.",
+      "ligne_rouge": "aucune",
+      "vers": "R112-43"
     },
     {
       "code": "penitentiaire",
       "num": "R112-45",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Conseil d'administration et directeur de l'École : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-46",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Composition du conseil d'administration de l'École. Le 5° nomme le « comité technique », devenu comité social d'administration : à coordonner.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-47",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Mandats et participants du conseil d'administration : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-48",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Gratuité du mandat : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-49",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Réunions, quorum, délais de convocation et de procès-verbal du conseil : délais tenus. L'avis du directeur sur l'ordre du jour est interne au conseil, il ne retarde aucune décision sur une personne : la proposition P15 est écartée.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-50",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Attributions du conseil d'administration. L'avis du conseil pédagogique et scientifique sur les programmes est la raison d'être de ce conseil (R112-60) : la proposition P15 est écartée.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-51",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Comité restreint et délégation : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-52",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Caractère exécutoire des délibérations, délais de quinze et trente jours : délais tenus.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-53",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Nomination du directeur et de ses adjoints : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-54",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Pouvoirs du directeur de l'École : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-55",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Délégation au directeur de l'avertissement et du blâme des élèves : la décision se prend au plus près.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-56",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Personnel de l'École, gardé. Les lois n° 83-634 et n° 84-16 sont abrogées et codifiées au code général de la fonction publique : renvois morts mis à jour.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "les agents soumis aux dispositions de la loi n° 83-634 du 13 juillet 1983 portant droits et obligations des fonctionnaires affectés",
-          "nouveau": "les fonctionnaires affectés"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "selon les modalités prévues par la loi n° 84-16 du 11 janvier 1984 portant dispositions statutaires relatives à la fonction publique de l'Etat",
-          "nouveau": "selon les modalités prévues par le code général de la fonction publique"
-        }
-      ]
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-57",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Durée des fonctions des formateurs : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-58",
-      "decision": "S",
-      "principe": "P15",
-      "motif": "Programmes et scolarité fixés par arrêté : gardé. L'avis préalable du conseil d'administration ne protège aucune liberté, et le conseil délibère déjà des orientations et du programme des formations (R112-50) : il tombe.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": ", pris après avis du conseil d'administration.",
-          "nouveau": "."
-        }
-      ]
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-59",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Règlement intérieur applicable aux agents en formation, auditeurs libres : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-60",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Conseil pédagogique et scientifique : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-61",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Régime budgétaire et comptable de l'École : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-62",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Recettes de l'École : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-63",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Dépenses de l'École : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-64",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Régies d'avances et de recettes : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-65",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Affectation des biens à l'École : seul siège.",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
       "num": "R112-66",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Convention d'objectifs et de moyens : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-7",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Services déconcentrés : directions interrégionales et direction de l'outre-mer.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-8",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Ressort et autorité des directions interrégionales et de la direction de l'outre-mer. L'alinéa outre-mer fixe un ressort, il n'adapte aucune règle : la proposition P3 est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R112-9",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Missions des directions interrégionales : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-12",
       "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article R. 312-13 du code de l'organisation judiciaire, auquel il renvoie (directeurs interrégionaux des services pénitentiaires invités à la conférence annuelle sur la justice des mineurs), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-13",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : les articles R. 212-64 et R. 312-85 du code de l'organisation judiciaire, auxquels il renvoie (représentants de l'administration pénitentiaire aux conseils de juridiction), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-14",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article R. 131-2 du code de l'organisation judiciaire, auquel il renvoie (avis des directeurs de l'administration pénitentiaire sur les conventions des maisons de justice et du droit), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-14-1",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article R. 212-62-2, III, du code de l'organisation judiciaire, auquel il renvoie (représentants de l'administration pénitentiaire invités au comité de pilotage contre les violences intrafamiliales), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-15",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article R. 132-6-1 du code de la sécurité intérieure, auquel il renvoie (services d'insertion et de probation associés à la cellule de coordination des zones de sécurité prioritaires), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-16",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article R. 50-52, II, 2°, d, du code de procédure pénale, auquel il renvoie (direction générale et directions interrégionales interrogent le fichier des auteurs d'infractions terroristes à partir de la seule identité), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-17",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article R. 53-8-24, I, 2°, d, du code de procédure pénale, auquel il renvoie (même accès au fichier des auteurs d'infractions sexuelles ou violentes), porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-22-1",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Tâches des surveillants adjoints, sans port ni usage d'arme : seul siège.",
-      "ligne_rouge": "art. 66 C examiné : tâches d'appui dans une détention ordonnée par le juge ; fouilles par palpation dans les conditions de R. 225-1"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-22-2",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Uniforme et examens médicaux des surveillants adjoints, gardés. Le premier alinéa redit que le code de déontologie s'applique, ce que portent L. 120-1 et R. 120-2 pour tout le personnel : il tombe.",
-      "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Les surveillants adjoints exercent leurs missions dans le respect du code de déontologie du service public pénitentiaire prévu à l'article L. 120-1.\nIls sont tenus",
-          "nouveau": "Les surveillants adjoints sont tenus"
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-22-3",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Évaluation annuelle par l'inspection générale de la justice de l'emploi des surveillants adjoints : rapport au ministre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-27",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Article miroir : l'article R. 57-3 du code de procédure pénale, auquel il renvoie (le juge de l'application des peines est assisté par le service d'insertion et de probation), gardé au lot p028, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-37",
-      "decision": "G",
-      "principe": "P23",
-      "motif": "Participation des services d'insertion et de probation aux évaluations des unités pour détenus violents et des quartiers de prise en charge de la radicalisation : les articles R. 224-1 à R. 224-25 parlent d'équipe pluridisciplinaire sans nommer le service, la règle est propre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-49",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Finalités du traitement APPI : seul acte qui le crée, vers lequel le lot p028 coordonne le renvoi de R15-33-66-12 du code de procédure pénale.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : finalités déterminées"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-50",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Données enregistrées dans APPI, dont celles des victimes : catégories fermées, utiles à l'exécution et à l'information de la victime.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : liste fermée de données ; art. 66 C et art. 8 DDHC examinés : le traitement enregistre les mesures, il n'en décide aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-51",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Données sensibles admises seulement si nécessaires à l'application des peines, sélection interdite : encadrement de la vie privée.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : données sensibles bornées, sélection interdite"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-52",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Conservation cinq ans après la fin de la peine ou de la mesure : durée bornée. Le signal « aménagement » vise une échéance : la proposition R est écartée.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'article fixe une durée de conservation, aucune peine en cause"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-53",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Accès au traitement réservé et nominatif : seul siège.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : accès limité aux personnes désignées"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-54",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Destinataires des données : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-55",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Exercice des droits des personnes auprès du procureur : seul siège.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-56",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Exclusion du droit d'opposition pour ce traitement. R622-29 vise un autre traitement : chaque acte réglementaire dit son propre régime, la fusion proposée est écartée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-57",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Journalisation des consultations, conservée trois ans : contrôle des accès.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-58",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Interconnexions avec la surveillance électronique, Cassiopée, le casier et GENESIS, données sensibles exclues : seul siège. Aucune peine en cause : la proposition R est écartée.",
-      "ligne_rouge": "art. 2 DDHC (vie privée) examiné : interconnexions énumérées, données sensibles exclues"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-65",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Décisions individuelles du directeur interrégional et délégation de signature : la décision se prend au plus près.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-66",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Autorisations de visite et délégations de signature du chef d'établissement, y compris aux gradés pour fouilles et contrainte : la décision se prend au plus près.",
-      "ligne_rouge": "art. 66 C examiné : mesures de sécurité dans une détention ordonnée par le juge, sous le contrôle du juge administratif ; aucune privation de liberté nouvelle"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-9-1",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Anonymat d'un agent, autorisation écrite, motivée et à durée bornée, registre tenu : l'exception au nom est encadrée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-9-2",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Numéro d'immatriculation dans les actes : l'acte reste attribuable à un agent identifiable par l'administration.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R113-9-3",
-      "decision": "G",
-      "principe": "P26",
-      "motif": "Renouvellement du numéro et traçabilité : l'auteur de l'acte reste retrouvable.",
+      "principe": "P1",
+      "motif": "Organisation, fonctionnement, personnel ou régime financier de l'École nationale d'administration pénitentiaire : règle propre à l'établissement public, sans effet sur la personne détenue ni sur l'exécution des peines. Elle sort du code vers le décret simple qui porte le statut de l'École, annoncé à R. 112-43 (P1).",
       "ligne_rouge": "aucune"
     },
     {
@@ -1536,61 +1632,180 @@
       "num": "R113-9-4",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi déclaratif à l'article R. 412-2-1 du code de justice administrative (non vérifié, code absent de la base). Renvoi entrant : R224-46 (lot p107) à coordonner en « des articles R. 113-9-2, deuxième alinéa, et R. 113-9-3 ».",
+      "motif": "Renvoi déclaratif au code de justice administrative (passe 2). R. 224-46 vise désormais R. 113-9-2 et R. 113-9-3, qui subsistent.",
       "ligne_rouge": "aucune"
     },
     {
       "code": "penitentiaire",
-      "num": "R115-1",
-      "decision": "S",
+      "num": "R113-12",
+      "decision": "A",
       "principe": "P20",
-      "motif": "Le premier alinéa redit la désignation de l'établissement de santé et le protocole (R. 6111-27 à R. 6111-39 du code de la santé publique), le deuxième la prise en charge des frais (R. 6111-35 et R. 6111-40) : ils tombent. Reste la liste des unités hospitalières sécurisées interrégionales, annexée.",
+      "motif": "Article miroir de l'article R. 312-13 du code de l'organisation judiciaire (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-13",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir des articles R. 212-64 et R. 312-85 du code de l'organisation judiciaire (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-14",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article R. 131-2 du code de l'organisation judiciaire (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-14-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article R. 212-62-2 du code de l'organisation judiciaire (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-15",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article R. 132-6-1 du code de la sécurité intérieure (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-16",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article R. 50-52 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-17",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article R. 53-8-24 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-22-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Uniforme et examens médicaux : repris à R. 113-22-1. La phrase qui redisait l'application du code de déontologie tombe (passe 2).",
       "ligne_rouge": "aucune",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "La liste des unités hospitalières sécurisées interrégionales est établie par arrêté conjoint du garde des sceaux, ministre de la justice, du ministre en charge de la santé et du ministre en charge du budget. Cet arrêté est annexé au présent code."
-        }
-      ]
+      "vers": "R113-22-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-22-3",
+      "decision": "F",
+      "principe": "P22",
+      "motif": "Évaluation annuelle par l'inspection générale de la justice : reprise à R. 113-22-1.",
+      "ligne_rouge": "aucune",
+      "vers": "R113-22-1"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-27",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Article miroir de l'article R. 57-3 du code de procédure pénale (passe 2).",
+      "ligne_rouge": "aucune"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-52",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Durée de conservation de cinq ans : reprise à R. 113-51, sans changement.",
+      "ligne_rouge": "Individualisation (art. 8 DDHC) : l'article ne fixe qu'une durée de conservation, reprise sans changement à R. 113-51.",
+      "vers": "R113-51"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-53",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du traitement APPI : reprise à R. 113-51, sans perte ni élargissement.",
+      "ligne_rouge": "Vie privée encadrée (P25) : données sensibles bornées et jamais interconnectées, durée de cinq ans, accès et destinataires nommés, droits exercés auprès du procureur, journalisation de trois ans. Tout est gardé.",
+      "vers": "R113-51"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-54",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du traitement APPI : reprise à R. 113-51, sans perte ni élargissement.",
+      "ligne_rouge": "Vie privée encadrée (P25) : données sensibles bornées et jamais interconnectées, durée de cinq ans, accès et destinataires nommés, droits exercés auprès du procureur, journalisation de trois ans. Tout est gardé.",
+      "vers": "R113-51"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-55",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du traitement APPI : reprise à R. 113-51, sans perte ni élargissement.",
+      "ligne_rouge": "Vie privée encadrée (P25) : données sensibles bornées et jamais interconnectées, durée de cinq ans, accès et destinataires nommés, droits exercés auprès du procureur, journalisation de trois ans. Tout est gardé.",
+      "vers": "R113-51"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-56",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du traitement APPI : reprise à R. 113-51, sans perte ni élargissement.",
+      "ligne_rouge": "Vie privée encadrée (P25) : données sensibles bornées et jamais interconnectées, durée de cinq ans, accès et destinataires nommés, droits exercés auprès du procureur, journalisation de trois ans. Tout est gardé.",
+      "vers": "R113-51"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-57",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du traitement APPI : reprise à R. 113-51, sans perte ni élargissement.",
+      "ligne_rouge": "Vie privée encadrée (P25) : données sensibles bornées et jamais interconnectées, durée de cinq ans, accès et destinataires nommés, droits exercés auprès du procureur, journalisation de trois ans. Tout est gardé.",
+      "vers": "R113-51"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R113-58",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Règle du traitement APPI : reprise à R. 113-51, sans perte ni élargissement.",
+      "ligne_rouge": "Vie privée encadrée (P25) : données sensibles bornées et jamais interconnectées, durée de cinq ans, accès et destinataires nommés, droits exercés auprès du procureur, journalisation de trois ans. Tout est gardé.",
+      "vers": "R113-51"
+    },
+    {
+      "code": "penitentiaire",
+      "num": "R115-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Liste des unités hospitalières spécialement aménagées : reprise à R. 115-1. Le premier alinéa recopiait les articles R. 3214-1 à R. 3214-3 du code de la santé publique (passe 2).",
+      "ligne_rouge": "aucune",
+      "vers": "R115-1"
     },
     {
       "code": "penitentiaire",
       "num": "R115-12",
       "decision": "A",
       "principe": "P20",
-      "motif": "Article miroir : l'article R. 3221-5 du code de la santé publique, auquel il renvoie (services médico-psychologiques régionaux aménagés dans les secteurs de psychiatrie en milieu pénitentiaire), et D115-6 du présent code, porte la même règle, vérifiée mot à mot, sans perte. La règle vit à sa source, une seule fois.",
+      "motif": "Article miroir de l'article R. 3221-5 du code de la santé publique et de D. 115-6 (passe 2).",
       "ligne_rouge": "aucune"
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R115-2",
-      "decision": "S",
-      "principe": "P20",
-      "motif": "Le premier alinéa redit les articles R. 3214-1 à R. 3214-3 du code de la santé publique, auxquels il renvoie : il tombe. Reste la liste des unités hospitalières spécialement aménagées, annexée.",
-      "ligne_rouge": "art. 66 C examiné : l'hospitalisation sans consentement des détenus reste régie et contrôlée par le code de la santé publique (L. 3214-3 et R. 3214-1)",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "Les unités hospitalières spécialement aménagées au sein des établissements de santé prennent en charge les personnes détenues souffrant de troubles psychiatriques, avec ou sans leur consentement, dans les conditions prévues par les dispositions des articles R. 3214-1 et R. 3214-2 du code de la santé publique, et selon les modalités arrêtées par la convention prévue par les dispositions de l'article R. 3214-3 du même code.\n",
-          "nouveau": ""
-        }
-      ]
-    },
-    {
-      "code": "penitentiaire",
-      "num": "R115-21",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Consultations à la demande, examen d'entrée, visites au quartier disciplinaire et à l'isolement deux fois par semaine au moins : garanties de santé. Le signal « aménagement » vise le régime de détention : la proposition R est écartée.",
-      "ligne_rouge": "CEDH art. 3 examiné : visites médicales minimales des détenus isolés ou punis, tenues"
     },
     {
       "code": "penitentiaire",
       "num": "R115-22",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Continuité des soins au transfert : seul siège.",
-      "ligne_rouge": "aucune"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Continuité des soins au transfert : reprise à R. 115-21.",
+      "ligne_rouge": "aucune",
+      "vers": "R115-21"
     }
-  ]
+  ],
+  "passe": 3
 }
