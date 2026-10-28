@@ -10,292 +10,414 @@
     {
       "code": "cpp",
       "num": "L2111-1",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Le ministre conduit la politique pénale par instructions générales : responsabilité politique identifiée.",
-      "ligne_rouge": "aucune"
+      "motif": "Le ministre conduit la politique pénale et adresse des instructions générales : gardé mot pour mot, alinéas rétablis (le deuxième alinéa est cité par L2111-3, l'article par L2411-3 et L2421-2).",
+      "ligne_rouge": "Indépendance et impartialité examinées : le ministre n'agit que par instructions générales, publiques par le rapport de L. 2111-3 ; l'interdiction des instructions individuelles reste à L. 2111-2, comme en 2029.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministre de la justice conduit la politique pénale déterminée par le Gouvernement. Il veille à la cohérence de son application sur le territoire de la République.\nA cette fin, il adresse aux magistrats du ministère public des instructions générales."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2111-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Interdiction des instructions individuelles : garantie d'impartialité de la poursuite.",
-      "ligne_rouge": "aucune"
+      "motif": "Interdiction des instructions individuelles : gardée mot pour mot, garantie de la passe 3 (instructions individuelles interdites, comme en 2029).",
+      "ligne_rouge": "Indépendance et impartialité examinées : aucune instruction du ministre dans une affaire individuelle : noyau de l'impartialité de la poursuite, mot pour mot.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2111-3",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Rapport annuel de politique pénale au Parlement : le Gouvernement rend compte.",
-      "ligne_rouge": "aucune"
+      "motif": "Rapport annuel de politique pénale publié et transmis au Parlement : gardé. La phrase qui permet un débat dans chaque assemblée tombe (P20) : le Parlement débat de ce qu'il veut, le code n'a pas à le lui permettre.",
+      "ligne_rouge": "Indépendance et impartialité examinées : la publicité des instructions générales, contrepoids de l'interdiction des instructions individuelles, est gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministre de la justice publie chaque année un rapport sur l'application de la politique pénale déterminée par le Gouvernement, sur les conditions de mise en œuvre de cette politique et des instructions générales prévues au deuxième alinéa de l'article L. 2111-1. Ce rapport est transmis au Parlement."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2112-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Ministère public représenté auprès de chaque juridiction répressive : socle d'organisation.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Organisation du ministère public dans un article : représentation auprès de chaque juridiction répressive et indivisibilité (ancien L2112-3).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministère public est représenté auprès de chaque juridiction répressive. Il est indivisible : au sein de chaque parquet, ses magistrats peuvent se substituer les uns aux autres pour accomplir les actes de leur fonction."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2112-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Impartialité du ministère public : garantie d'un procès équitable.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2112-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Indivisibilité du parquet : souplesse de fonctionnement sans formalité.",
-      "ligne_rouge": "aucune"
+      "motif": "Impartialité du ministère public : gardée mot pour mot.",
+      "ligne_rouge": "Indépendance et impartialité examinées : le ministère public est tenu à l'impartialité, mot pour mot.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2112-4",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Attributions du ministère public : action pénale, application de la loi, politiques pénales.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2112-5",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Le ministère public assure l'exécution des décisions : la peine prononcée s'exécute.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2112-6",
-      "decision": "G",
-      "principe": "P10",
-      "motif": "Réquisition directe de la force publique : moyen de l'exécution.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Attributions du ministère public dans un article : action pénale, application de la loi, politiques pénales et de prévention, exécution des décisions (ancien L2112-5), réquisition de la force publique (ancien L2112-6).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministère public exerce l'action pénale et requiert l'application de la loi. Il met en œuvre les politiques pénales, participe aux politiques de prévention de la délinquance et assure l'exécution des décisions de justice. Il peut requérir directement la force publique dans l'exercice de ses fonctions."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2112-7",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Réquisitions écrites conformes aux instructions (L2113-13, L2114-3) : la chaîne hiérarchique est tracée.",
-      "ligne_rouge": "aucune"
+      "motif": "Réquisitions écrites conformes aux instructions : gardé, « est tenu de prendre » devient le présent de l'obligation (P23). Article distinct de L2112-8, parce que L2411-4 écarte l'un et non l'autre pour les procureurs européens délégués.",
+      "ligne_rouge": "Indépendance et impartialité examinées : les seules instructions sont celles de L. 2113-13 et L. 2114-3, écrites et versées au dossier : la chaîne reste tracée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministère public prend des réquisitions écrites conformes aux instructions qui lui sont données dans les conditions prévues aux articles L. 2113-13 et L. 2114-3."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2112-8",
-      "decision": "G",
       "principe": "P25",
-      "motif": "La parole est libre à l'audience : contrepoids classique, garantie du débat.",
-      "ligne_rouge": "aucune"
+      "motif": "La parole est libre à l'audience : gardée mot pour mot.",
+      "ligne_rouge": "Indépendance et impartialité examinées : liberté de la parole à l'audience, contrepoids des réquisitions écrites : mot pour mot.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2112-9",
-      "decision": "G",
       "principe": "P26",
-      "motif": "Ministère public présent aux débats et au prononcé : publicité du jugement.",
-      "ligne_rouge": "aucune"
+      "motif": "Présence du ministère public aux débats et au prononcé : gardée mot pour mot (une dérogation relève de la loi, relecture adverse).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2113-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Représentation du ministère public par le procureur de la République et ses substituts.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2113-10",
-      "decision": "G",
-      "principe": "P18",
-      "motif": "Recours aux associations d'aide aux victimes agréées : la victime est accompagnée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2113-11",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Transport du procureur sur tout le territoire et à l'étranger.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2113-12",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Partage du ministère public contraventionnel entre parquet et officier du ministère public : contentieux de masse traité simplement.",
-      "ligne_rouge": "art. 8 DDHC examiné : aucune peine fixée : l'article répartit la représentation du ministère public"
-    },
-    {
-      "code": "cpp",
-      "num": "L2113-13",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Autorité du procureur sur les officiers du ministère public.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2113-14",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Désignation des officiers du ministère public par le procureur général : règle d'organisation de la poursuite, de l'art. 34.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2113-15",
+      "principe": "P23",
+      "motif": "Représentation par le procureur de la République et ses substituts : gardée, énumération mise en alinéas, points-virgules retirés.",
+      "ligne_rouge": "aucune (passe 1).",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Représentation du ministère public par le service habilité pour certaines contraventions : relève de la loi (procédure pénale), la proposition de déclasser est écartée. Pronom manquant rétabli.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "s'il estime opportun",
-          "nouveau": "s'il l'estime opportun"
+          "op": "rediger",
+          "nouveau": "Le procureur de la République représente en personne ou par ses substituts le ministère public :\n1° Auprès des juridictions répressives du tribunal judiciaire, sous réserve de l'article L. 2113-12 pour le tribunal contraventionnel.\n2° Auprès de la cour d'assises ou de la cour criminelle départementale instituée au siège du tribunal, sous réserve de l'article L. 2114-1."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2113-2",
-      "decision": "G",
       "principe": "P3",
-      "motif": "Procureur départemental référent auprès de l'administration : un interlocuteur unique.",
-      "ligne_rouge": "aucune"
+      "motif": "Procureur départemental référent : gardé mot pour mot (cité par L8222-20).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Quand un département compte plusieurs tribunaux judiciaires, le procureur général peut désigner l'un des procureurs de la République de ce département pour représenter, sous son autorité, l'ensemble des parquets dans le cadre de leurs relations avec les autorités administratives du département, notamment pour l'application du dernier alinéa de l'article L. 2113-6, et pour assurer la coordination des activités s'y rapportant. Ce procureur tient les autres procureurs informés de ses diligences et rend compte au procureur général."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2113-3",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Missions des délégués et médiateurs du procureur : gardées. Le renvoi « titre Ier du livre II » vise, dans la 2e partie, la police judiciaire : les mesures alternatives sont au livre II de la quatrième partie. Majuscule fautive corrigée.",
-      "ligne_rouge": "art. 8 DDHC examiné : les délégués exécutent des mesures alternatives et des compositions validées par le juge, aucune peine n'est prononcée par eux",
+      "motif": "Missions des délégués et médiateurs du procureur : texte de passe 2 (renvoi au titre Ier du livre II de la quatrième partie, lot p141), énumération mise en alinéas, points-virgules retirés.",
+      "ligne_rouge": "Art. 8 DDHC examiné : les délégués mettent en œuvre des mesures et des peines que le procureur ou la juridiction ont décidées : ils ne fixent aucune peine.",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Le Procureur peut confier",
-          "nouveau": "Le procureur de la République peut confier"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "chapitre unique du titre Ier du livre II",
-          "nouveau": "chapitre unique du titre Ier du livre II de la quatrième partie"
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut confier à ses délégués et médiateurs :\n1° La mise en œuvre des mesures alternatives aux poursuites prévues au titre Ier du livre II de la quatrième partie.\n2° La mise en œuvre des compositions pénales.\n3° Le contrôle de l'exécution de la peine de sanction-réparation prévue à l'article 131-8-1 du code pénal.\n4° La notification des convocations en justice, des ordonnances pénales et de toute autre décision judiciaire.\nLes délégués et médiateurs sont habilités dans les conditions fixées par décret en Conseil d'Etat."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2113-4",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Compétence territoriale du procureur, étendue au ressort du pôle de l'instruction : une règle simple.",
-      "ligne_rouge": "aucune"
+      "principe": "P20",
+      "motif": "Compétence territoriale du procureur : gardée. La phrase qui annonce l'extension du ressort des juridictions spécialisées tombe (P20) : chaque article du titre V qui étend un ressort se suffit. « Mentionné au deuxième alinéa » remplacé par le procureur du pôle, nommé.",
+      "ligne_rouge": "Compétence et saisine examinées : le procureur du pôle reste seul compétent pour suivre les informations qu'a requises un procureur sans pôle, jusqu'à leur règlement.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ressort de compétence territoriale du procureur de la République est celui du tribunal judiciaire.\nToutefois, le procureur de la République d'un tribunal dans lequel il y a un pôle de l'instruction est compétent sur l'ensemble du ressort de compétence de ce pôle, y compris pour diriger et contrôler les enquêtes de police judiciaire, pour les infractions relevant de la compétence de ce pôle.\nLe procureur de la République d'un tribunal dans lequel il n'y a pas de pôle de l'instruction est compétent pour requérir l'ouverture d'une information devant les juges d'instruction du pôle territorialement compétent, pour les infractions relevant de la compétence de celui-ci. Le procureur du tribunal où siège le pôle est alors seul compétent pour suivre ces informations jusqu'à leur règlement."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2113-5",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Rapports annuels de politique pénale et d'activité, information de l'assemblée des magistrats : le parquet rend compte.",
-      "ligne_rouge": "aucune"
+      "motif": "Mise en œuvre de la politique pénale par le procureur et comptes rendus : gardés, phrases resserrées. Article distinct de L2114-2 : L2411-4 les écarte tous deux pour les procureurs européens délégués.",
+      "ligne_rouge": "Indépendance et impartialité examinées : le procureur ne reçoit que des instructions générales, précisées par le procureur général, et rend compte de leur application à l'assemblée des magistrats : transparence gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En tenant compte du contexte propre à son ressort, le procureur de la République met en œuvre la politique pénale définie par les instructions générales du ministre de la justice, précisées et, le cas échéant, adaptées par le procureur général.\nIl adresse au procureur général des rapports particuliers, d'initiative ou à sa demande, et chaque année un rapport de politique pénale sur l'application de la loi et des instructions générales et un rapport sur l'activité et la gestion de son parquet. Il informe chaque année l'assemblée des magistrats du siège et du parquet des conditions de mise en œuvre, dans le ressort, de la politique pénale et des instructions générales du ministre de la justice."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2113-6",
-      "decision": "G",
       "principe": "P21",
-      "motif": "Prévention de la délinquance dans sa composante judiciaire, consultation sur le plan préfectoral : mission utile.",
-      "ligne_rouge": "aucune"
+      "motif": "Prévention de la délinquance dans sa composante judiciaire : gardée. La phrase déclarative qui énumère les attributions par lesquelles le procureur prévient les infractions tombe (P20) : sa participation à la prévention est dite à L2112-4. La consultation sur le plan départemental reste au dernier alinéa, cité par L2113-2.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République anime et coordonne dans le ressort du tribunal judiciaire la politique de prévention de la délinquance dans sa composante judiciaire, selon les orientations nationales de l'Etat précisées par le procureur général.\nLe représentant de l'Etat dans le département le consulte avant d'arrêter le plan de prévention de la délinquance."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2113-7",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Direction et contrôle de la police judiciaire, dont la garde à vue, enquête à charge et à décharge.",
-      "ligne_rouge": "art. 66 C examiné : le procureur contrôle la garde à vue, le juge du siège en autorise la prolongation au-delà de la durée initiale (troisième partie)"
+      "motif": "Direction et contrôle de la police judiciaire : gardés mot pour mot, alinéas rétablis (le troisième alinéa, actes hors du ressort, est cité par L2152-14 et L2411-4).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le procureur contrôle la légalité, la proportionnalité et la qualité des actes, en particulier la garde à vue, et veille à une enquête à charge et à décharge : mot pour mot. Le juge du siège garde le contrôle de la prolongation (troisième partie).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République procède ou fait procéder à tous les actes nécessaires à la recherche et à la poursuite des infractions à la loi pénale.\nA cette fin, il dirige l'activité des personnes exerçant des missions de police judiciaire dans le ressort de son tribunal. Il peut leur adresser des instructions générales ou particulières.\nLorsqu'il s'agit d'actes d'enquête devant être exécutés dans le ressort d'un autre tribunal que le sien, il peut demander au procureur de la République territorialement compétent d'y procéder ou d'y faire procéder. Il peut également requérir directement ces personnes sur l'ensemble du territoire national de procéder à ces actes.\nIl contrôle la légalité des moyens mis en œuvre par ces personnes, la proportionnalité des actes d'investigation au regard de la nature et de la gravité des faits, l'orientation donnée à l'enquête ainsi que la qualité de celle-ci. Il contrôle en particulier les mesures de garde à vue conformément aux dispositions du chapitre 3 du titre II du livre V de la troisième partie.\nIl veille à ce que les investigations tendent à la manifestation de la vérité et qu'elles soient accomplies à charge et à décharge, dans le respect des droits de la personne suspectée, de la victime et du plaignant."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2113-8",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Le procureur a les pouvoirs d'officier de police judiciaire : pas de dédoublement.",
-      "ligne_rouge": "aucune"
+      "motif": "Pouvoirs d'officier de police judiciaire du procureur : gardés.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2113-9",
-      "decision": "G",
       "principe": "P24",
-      "motif": "Orientation des procédures par le procureur : porte des voies rapides.",
-      "ligne_rouge": "aucune"
+      "motif": "Orientation des procédures par le procureur : gardée, « conformément aux dispositions du » devient « selon le » (P20).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Selon le livre Ier de la quatrième partie, le procureur de la République décide de l'orientation des procédures qui lui sont transmises par les services de police judiciaire ainsi que des plaintes et dénonciations qui lui sont directement adressées, aux fins d'y apporter les suites qui lui paraissent opportunes."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2113-10",
+      "principe": "P18",
+      "motif": "Recours aux associations d'aide aux victimes agréées : gardé.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L2113-11",
+      "principe": "P20",
+      "motif": "Transport du procureur en France et à l'étranger : gardé en une phrase (cité par L6123-6).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République peut se transporter dans toute l'étendue du territoire national pour l'exécution de ses missions, et sur le territoire d'un Etat étranger selon la sixième partie."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2113-12",
+      "principe": "P24",
+      "motif": "Partage du ministère public contraventionnel : gardé, énumération mise en alinéas, points-virgules retirés.",
+      "ligne_rouge": "Art. 8 DDHC examiné : l'article répartit la représentation du ministère public, sans fixer de peine : le procureur garde la faculté d'exercer lui-même le ministère public en toute matière.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Devant le tribunal contraventionnel, le ministère public est représenté :\n1° Par le procureur de la République ou ses substituts pour les contraventions de la 5e classe ne relevant pas de la procédure de l'amende forfaitaire.\n2° Par un commissaire de police, exerçant les fonctions d'officier du ministère public sous le contrôle du procureur de la République, pour les contraventions des 1re à 4e classes et les contraventions de la 5e classe relevant de la procédure de l'amende forfaitaire.\nLe procureur de la République peut toutefois exercer les fonctions de ministère public en toute matière s'il l'estime opportun."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2113-13",
+      "principe": "P4",
+      "motif": "Autorité du procureur sur les officiers du ministère public : gardée (citée par L2112-7 et L2411-4).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République a autorité sur les officiers du ministère public près les tribunaux contraventionnels de son ressort. Il peut leur dénoncer les contraventions dont il est informé et leur enjoindre d'exercer des poursuites."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2113-14",
+      "principe": "P1",
+      "motif": "Désignation des officiers du ministère public par le procureur général : gardée, phrases resserrées, trois alinéas gardés (les deuxième et troisième sont cités par L8322-2, L8422-2 et L8522-2).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "S'il y a plusieurs commissaires de police au lieu où siège le tribunal contraventionnel, le procureur général désigne celui qui exerce les fonctions d'officier du ministère public.\nEn cas d'empêchement du commissaire de police, le procureur général désigne, pour une année entière, un ou plusieurs remplaçants parmi les commissaires, commandants ou capitaines de police en résidence dans le ressort du tribunal judiciaire.\nS'il n'y a pas de commissaire de police au lieu où siège le tribunal contraventionnel, le procureur général désigne pour exercer les fonctions d'officier du ministère public un commissaire, un commandant ou un capitaine de police en résidence dans le ressort du tribunal judiciaire ou, à défaut, d'un tribunal judiciaire limitrophe du même département."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2113-15",
+      "principe": "P13",
+      "motif": "Représentation du ministère public par le service de l'Etat habilité : texte de passe 2 (pronom rétabli). Le renvoi des articles L8322-3, L8422-3 et L8522-3 au « 1° » de cet article, qui n'a pas de 1°, est à coordonner (8e partie).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour le jugement de certaines contraventions, le ministère public près le tribunal contraventionnel est représenté, dans les cas et selon les modalités précisés par décret en Conseil d'Etat, par le responsable du service de l'Etat habilité par la loi à exercer l'action pénale pour ces contraventions.\nDans les cas prévus au premier alinéa, le procureur de la République peut toutefois exercer les fonctions de ministère public s'il l'estime opportun."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2114-1",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Représentation du ministère public par le procureur général et délégation dans le ressort.",
-      "ligne_rouge": "aucune"
+      "motif": "Représentation par le procureur général et délégation dans le ressort : gardées, énumération mise en alinéas, points-virgules retirés (cité par L2113-1 et L2152-1).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur général représente en personne ou par ses substituts le ministère public :\n1° Auprès des juridictions répressives de la cour d'appel.\n2° Auprès de la cour d'assises ou de la cour criminelle départementale instituée au siège de la cour d'appel.\nIl peut également représenter le ministère public auprès des autres cours d'assises ou cours criminelles départementales du ressort de la cour d'appel, ou déléguer à cette fin tout magistrat du ministère public du ressort."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2114-2",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Le procureur général anime, évalue et rend compte de la politique pénale du ressort.",
-      "ligne_rouge": "aucune"
+      "motif": "Le procureur général anime, adapte, évalue et rend compte : gardé, phrases resserrées comme à L2113-5.",
+      "ligne_rouge": "Indépendance et impartialité examinées : le procureur général n'adapte que des instructions générales et rend compte de leur application à l'assemblée des magistrats : transparence gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur général veille à l'application de la loi pénale dans toute l'étendue du ressort de la cour d'appel et au bon fonctionnement des parquets de son ressort. Il anime et coordonne l'action des procureurs de la République, tant en matière de prévention que de répression des infractions à la loi pénale.\nIl précise et, le cas échéant, adapte les instructions générales du ministre de la justice au contexte propre au ressort, et en évalue l'application par les procureurs de la République.\nIl adresse au ministre de la justice des rapports particuliers, d'initiative ou à sa demande, et chaque année un rapport de politique pénale sur l'application de la loi et des instructions générales et un rapport sur l'activité et la gestion des parquets de son ressort. Il informe chaque année l'assemblée des magistrats du siège et du parquet des conditions de mise en œuvre, dans le ressort, de la politique pénale et des instructions générales du ministre de la justice."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2114-3",
-      "decision": "G",
       "principe": "P22",
-      "motif": "Autorité du procureur général, injonctions écrites versées au dossier : traçabilité.",
-      "ligne_rouge": "aucune"
+      "motif": "Autorité du procureur général, injonctions écrites et versées au dossier : gardées mot pour mot (citées par L2112-7, L2411-4 et L4113-4).",
+      "ligne_rouge": "Indépendance et impartialité examinées : les instructions individuelles dans la hiérarchie du parquet restent encadrées comme en 2029 : du seul procureur général, écrites, versées au dossier, et tendant à engager des poursuites ou à saisir la juridiction.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur général a autorité sur les procureurs de la République et officiers du ministère public du ressort de la cour d'appel. Il peut enjoindre aux procureurs de la République, par instructions écrites et versées au dossier de la procédure, d'engager ou de faire engager des poursuites ou de saisir la juridiction compétente des réquisitions écrites qu'il juge opportunes."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2114-4",
-      "decision": "S",
       "principe": "P13",
-      "motif": "Le texte de 2029 a perdu un mot : « exerce une mission des personnes » ne veut rien dire. L'ancien 38 place la police judiciaire sous la surveillance du procureur général.",
-      "ligne_rouge": "aucune",
+      "motif": "Surveillance de la police judiciaire par le procureur général : texte de passe 2 (mot manquant rétabli, ancien 38).",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "exerce une mission des personnes",
-          "nouveau": "exerce une mission de surveillance des personnes"
+          "op": "rediger",
+          "nouveau": "Le procureur général exerce une mission de surveillance des personnes assurant des missions de police judiciaire dans le ressort de la cour d'appel. Il peut les charger de recueillir tous renseignements qu'il estime utiles à une bonne administration de la justice."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2115-1",
-      "decision": "G",
       "principe": "P20",
-      "motif": "Ministère public près la Cour de cassation et les juridictions rattachées.",
-      "ligne_rouge": "art. 66 C examiné : la juridiction nationale de la rétention de sûreté est un juge du siège, le parquet y requiert sans décider"
+      "motif": "Ministère public près la Cour de cassation et les juridictions rattachées : gardé, énumération mise en alinéas, points-virgules retirés.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le parquet général porte la parole devant les juridictions nationales qui contrôlent la détention (réparation des détentions, rétention de sûreté) : la liste est gardée entière.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur général près la Cour de cassation et les magistrats du parquet général près cette Cour représentent le ministère public :\n1° Auprès de la chambre criminelle de la Cour de cassation ou des autres chambres de la Cour.\n2° Auprès de la juridiction nationale de réparation des détentions provisoires.\n3° Auprès de la juridiction nationale de la rétention de sûreté.\n4° Auprès de la cour de révision et de réexamen.\n5° Auprès de la commission d'examen des recours en matière de discipline des officiers de police judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2115-2",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Le parquet général de cassation n'exerce pas l'action pénale et ne reçoit aucune instruction : impartialité.",
-      "ligne_rouge": "aucune"
+      "motif": "Le parquet général de cassation n'exerce pas l'action pénale et ne reçoit aucune instruction : gardé mot pour mot.",
+      "ligne_rouge": "Indépendance et impartialité examinées : aucune instruction, impartialité, pas d'action pénale devant la chambre criminelle : mot pour mot.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Devant la chambre criminelle, les membres du parquet général près la Cour de cassation n'exercent pas l'action pénale. Ils rendent des avis dans l'intérêt de la loi et du bien commun, éclairent la Cour sur la portée des décisions à intervenir et portent la parole aux audiences de la chambre. Ils exercent leurs missions en toute impartialité et ne reçoivent, dans leur accomplissement, aucune instruction."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2112-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Indivisibilité du parquet : L2112-1.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2112-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L2112-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Exécution des décisions de justice : L2112-4.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2112-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L2112-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réquisition directe de la force publique : L2112-4.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2112-4"
     }
-  ]
+  ],
+  "passe": 3
 }
