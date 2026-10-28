@@ -10,367 +10,503 @@
     {
       "code": "cpp",
       "num": "L2221-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Catégories de personnels de police judiciaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-10",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Anonymat de l'agent menacé, autorisation motivée, copie au procureur.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-11",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Champ de l'anonymat : délits de trois ans au moins, ou cas particulier.",
-      "ligne_rouge": "art. 8 DDHC examiné : le seuil de peine délimite le champ de l'anonymat, aucune peine n'est fixée"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-12",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Témoignage et constitution de partie civile sous numéro.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-13",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pas d'anonymat quand l'agent est lui-même mis en cause.",
-      "ligne_rouge": "art. 66 C examiné : l'agent entendu en garde à vue ou poursuivi l'est sous son nom, avec les garanties de droit commun"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-14",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Accès des juridictions à l'identité, communication sur requête au regard des droits de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : le juge pèse la menace et les droits de la défense ; la nullité invoquée reste jugée ; art. 8 DDHC examiné : aucune peine fixée"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-15",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Révélation de l'identité d'un agent protégé : délit du noyau (atteinte aux personnes et à la justice), peines graduées par le dommage.",
-      "ligne_rouge": "art. 8 DDHC examiné : peines graduées selon les violences ou la mort causées, cohérentes avec la famille des atteintes aux personnes"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-16",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : la proposition de déclasser est déjà satisfaite.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-17",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Identification par numéro des enquêteurs de la criminalité organisée.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-18",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Exclusions de l'anonymat. Texte identique, hors références, à L2515-4 (personnels pénitentiaires) : régime à unifier, à signaler au lot qui juge L2515-4 (p271).",
-      "ligne_rouge": "art. 66 C examiné : l'agent mis en cause est entendu sous son nom, avec les garanties de droit commun"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-19",
-      "decision": "G",
-      "principe": "P3",
-      "motif": "Communication de l'identité sur requête, opposition de l'agent, recours suspensif. Texte identique, hors références, à L2515-5 : à signaler au lot qui juge L2515-5 (p271).",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Catégories de personnels de police judiciaire : énumération en items terminés par un point, rappel « conformément aux distinctions prévues par le présent titre » retiré.",
+      "ligne_rouge": "Aucune : l'article nomme les catégories, sans élargir aucune qualité.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les fonctionnaires de la police nationale et les militaires de la gendarmerie nationale qui exercent des missions de police judiciaire sont :\n1° Les officiers de police judiciaire.\n2° Les agents de police judiciaire.\n3° Les agents de police judiciaire adjoints.\n4° Les assistants d'enquête."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2221-2",
-      "decision": "S",
       "principe": "P23",
-      "motif": "Affectation dans les services de police judiciaire, catégories par décret : gardées. La proposition de déclasser est écartée (renvoi déjà fait). Accords corrigés (« personnes … affectées », « catégories … déterminées »).",
-      "ligne_rouge": "aucune",
+      "motif": "Affectation et décret des services en un article : le décret qui crée les catégories de services fixe aussi leur compétence territoriale (L2221-6 fusionné, ses trois ressorts gardés). Accords corrigés (passe 2).",
+      "ligne_rouge": "Aucune : organisation des services, compétence territoriale fixée par décret en Conseil d'État comme en 2029.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "sont affectés et exercent",
-          "nouveau": "sont affectées et exercent"
-        },
-        {
-          "op": "remplacer",
-          "ancien": "sont déterminés par décret",
-          "nouveau": "sont déterminées par décret"
+          "op": "rediger",
+          "nouveau": "Les personnes mentionnées à l'article L. 2221-1 sont affectées et exercent leurs fonctions habituelles dans des services de police judiciaire de la police nationale ou des unités de police judiciaire de la gendarmerie nationale. Un décret en Conseil d'Etat détermine les catégories de ces services et unités, leurs modalités de création et leur compétence territoriale, nationale, d'une ou plusieurs zones de défense ou parties de zone, ou départementale."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-20",
-      "decision": "G",
-      "principe": "P27",
-      "motif": "Révélation punie comme à L2221-15 : une seule échelle.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-21",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Anonymat des enquêteurs antiterroristes, aucune condamnation sur leurs seuls actes si l'identité est refusée au président : garantie de la défense.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-22",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Enquêtes administratives associant l'inspection générale de la justice.",
-      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
       "num": "L2221-3",
-      "decision": "G",
       "principe": "P4",
-      "motif": "Libre choix des services enquêteurs par le magistrat.",
-      "ligne_rouge": "aucune"
+      "motif": "Libre choix des formations d'officiers de police judiciaire par le procureur de la République et le juge d'instruction : gardé.",
+      "ligne_rouge": "Contrôle de l'autorité judiciaire sur la police judiciaire examiné : le magistrat choisit le service.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2221-4",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Police technique et scientifique.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-5",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Suspension des attributions en maintien de l'ordre.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-6",
-      "decision": "G",
-      "principe": "P1",
-      "motif": "Compétence territoriale par décret.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-7",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Compétence territoriale des personnels.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-8",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Transport des officiers de police judiciaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2221-9",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Compétence dans les transports collectifs.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2222-1",
-      "decision": "G",
-      "principe": "P15",
-      "motif": "Qualité d'officier de police judiciaire, avis conforme d'une commission pour les gradés : la qualité ouvre la garde à vue, l'avis garantit une liberté (exception de P15).",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2222-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Réservistes officiers de police judiciaire cinq ans.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2222-3",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Prérogatives des officiers de police judiciaire, dont la garde à vue.",
-      "ligne_rouge": "art. 66 C examiné : la garde à vue décidée par l'officier reste sous le contrôle du procureur et du juge (troisième partie)"
-    },
-    {
-      "code": "cpp",
-      "num": "L2222-4",
-      "decision": "G",
-      "principe": "P19",
-      "motif": "Information sans délai du procureur et du parquet spécialisé.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2222-5",
+      "principe": "P23",
+      "motif": "Police technique et scientifique : même règle, phrase resserrée.",
+      "ligne_rouge": "Aucune : la participation reste demandée par l'officier ou, sous son contrôle, par l'agent de police judiciaire.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Habilitation personnelle par le procureur général : gardée. Les directeurs dispensés d'habilitation sont ceux des 1° et 2° de L2222-1 : le renvoi à L2221-1 (catégories de personnels) est une coquille.",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "mentionnés aux 1° et 2° de l'article L. 2221-1",
-          "nouveau": "mentionnés aux 1° et 2° de l'article L. 2222-1"
+          "op": "rediger",
+          "nouveau": "Les services et organismes de police technique et scientifique de la police nationale et de la gendarmerie nationale participent aux procédures pénales à la demande de l'officier ou, sous son contrôle, de l'agent de police judiciaire, même si leurs personnels ne relèvent d'aucune catégorie de l'article L. 2221-1."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L2222-6",
-      "decision": "S",
-      "principe": "P13",
-      "motif": "Durée de l'habilitation : gardée. Préposition corrigée (« de l'engagement »).",
-      "ligne_rouge": "aucune",
+      "num": "L2221-5",
+      "principe": "P20",
+      "motif": "Suspension des attributions pendant le maintien de l'ordre en unité constituée : gardé.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-7",
+      "principe": "P23",
+      "motif": "Compétence territoriale des personnels en un article : ressort habituel, mise à disposition, transport sur tout le territoire (L2221-8 fusionné). Renvois à L. 3511-2 et L. 3511-3 vérifiés sur la pièce de passe 3 du lot p181.",
+      "ligne_rouge": "Contrôle du parquet examiné : le transport hors ressort reste soumis à l'avis préalable des magistrats prévu aux articles L. 3511-2 et L. 3511-3 ; aucune compétence n'est élargie.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "toute la durée dans l'engagement",
-          "nouveau": "toute la durée de l'engagement"
+          "op": "rediger",
+          "nouveau": "Les personnes mentionnées à l'article L. 2221-1 ont compétence dans les limites territoriales où elles exercent leurs fonctions habituelles. L'officier de police judiciaire mis à disposition temporaire d'un autre service ou d'une autre unité a la compétence territoriale de ce service ou de cette unité.\nL'officier de police judiciaire qui n'a pas de compétence nationale peut se transporter sur tout le territoire national pour y poursuivre ses investigations, selon les articles L. 3511-2 et L. 3511-3.\nL'agent de police judiciaire, l'agent de police judiciaire adjoint et l'assistant d'enquête mis nominativement à disposition temporaire d'un service ou d'une unité ont compétence dans les limites où l'officier de police judiciaire responsable de ce service ou de cette unité exerce ses fonctions. Ceux qui secondent un officier de police judiciaire en transport ont compétence dans les limites où il exerce ses attributions."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-9",
+      "principe": "P23",
+      "motif": "Compétence dans les transports collectifs : même champ, phrases resserrées. Renvoi à L. 3223-8 vérifié sur la pièce de passe 3 du lot p172.",
+      "ligne_rouge": "Aucune : l'extension au trajet ferroviaire reste subordonnée aux réquisitions expresses du procureur de la République.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers et agents de police judiciaire et les agents de police judiciaire adjoints qui exercent habituellement leur mission dans les véhicules de transport collectif de voyageurs ou dans les lieux d'accès à ces transports sont compétents sur la zone de défense de leur service d'affectation, dans des conditions fixées par décret en Conseil d'Etat. Lorsque les réquisitions du procureur de la République prises selon l'article L. 3223-8 le prévoient expressément, ils sont compétents pour les mettre en œuvre sur l'ensemble du trajet d'un véhicule de transport ferroviaire de voyageurs."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-10",
+      "principe": "P23",
+      "motif": "Autorisation d'anonymat de l'agent menacé : conditions, décision motivée et copie au procureur gardées, phrases resserrées.",
+      "ligne_rouge": "Contrôle du parquet examiné : copie de l'autorisation au procureur de la République gardée ; la menace sur la vie ou l'intégrité physique reste la condition.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Tout agent de la police nationale ou de la gendarmerie nationale peut être autorisé à ne pas être identifié par ses nom et prénom dans les actes de procédure définis à l'article L. 2221-11, lorsque la révélation de son identité peut, du fait des conditions d'exercice de sa mission ou de la nature des faits qu'il constate habituellement, mettre en danger sa vie ou son intégrité physique ou celles de ses proches.\nL'autorisation est délivrée nominativement, par une décision motivée, par un responsable hiérarchique d'un niveau défini par décret. Copie en est transmise au procureur de la République territorialement compétent."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-11",
+      "principe": "P23",
+      "motif": "Champ de l'anonymat : seuil de trois ans et cas particulier gardés, items terminés par un point.",
+      "ligne_rouge": "Art. 8 DDHC examiné : le seuil de trois ans et l'autorisation spéciale, pour toute la procédure, sous trois ans sont gardés mot pour mot dans leur sens ; aucun champ n'est élargi.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'autorisation permet à l'agent d'être identifié par un numéro d'immatriculation administrative, sa qualité et son service ou unité d'affectation dans tous les actes des procédures suivantes :\n1° Celles qui portent sur un crime ou sur un délit puni d'au moins trois ans d'emprisonnement.\n2° Celles qui portent sur un délit puni de moins de trois ans d'emprisonnement, sur une autorisation délivrée dans les formes du deuxième alinéa de l'article L. 2221-10 pour l'ensemble de la procédure, lorsque les circonstances particulières des faits ou la personnalité des personnes mises en cause exposent l'agent ou ses proches au même danger."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-12",
+      "principe": "P23",
+      "motif": "Témoignage et constitution de partie civile sous numéro : même règle, deux phrases.",
+      "ligne_rouge": "Publicité (P26) examinée : l'anonymat protège une identité, pas le secret de l'audience (registre 3.2).",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le bénéficiaire peut aussi, sous ces éléments d'identification, déposer ou comparaître comme témoin au cours de l'enquête ou devant les juridictions d'instruction ou de jugement et se constituer partie civile. Seuls ces éléments figurent dans les actes de procédure et les décisions. Ses nom et prénom ne sont pas cités aux audiences publiques."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-13",
+      "principe": "P25",
+      "motif": "Pas d'anonymat pour l'agent entendu ou poursuivi pour un acte de ses fonctions : gardé.",
+      "ligne_rouge": "Art. 66 C et droits de la défense examinés : l'agent mis en cause répond sous son nom, en audition libre, en garde à vue comme en poursuite.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-14",
+      "principe": "P23",
+      "motif": "Accès des juridictions à l'identité, communication sur requête et nullités : trois alinéas au lieu de quatre, la requête et la décision du procureur dans l'enquête contradictoire au deuxième alinéa, que vise L2221-15.",
+      "ligne_rouge": "Art. 16 DDHC (droits de la défense) examiné : accès des juridictions, requête motivée, avis du ministère public et mise en balance de la menace et des droits de la défense gardés ; le juge des nullités statue sans révéler l'identité.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les juridictions d'instruction ou de jugement saisies des faits ont accès aux nom et prénom de la personne identifiée par un numéro d'immatriculation administrative.\nSaisi par une partie d'une requête écrite et motivée tendant à la communication des nom et prénom d'un bénéficiaire de l'autorisation prévue à l'article L. 2221-10, le juge d'instruction ou le président de la juridiction de jugement statue après avis du ministère public, en mettant en balance la menace que cette révélation ferait peser sur la vie ou l'intégrité physique de cette personne ou de ses proches et la nécessité de la communication pour les droits de la défense du demandeur. Le procureur de la République statue de même lorsque l'enquête est ouverte au contradictoire selon le chapitre 4 du titre II du livre III de la troisième partie.\nLe juge d'instruction, le président de la chambre des investigations et des libertés ou le président de la juridiction de jugement saisi d'une demande d'annulation dont l'examen exige de connaître ces nom et prénom statue sans les verser au débat contradictoire ni les indiquer dans sa décision."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-15",
+      "principe": "P23",
+      "motif": "Révélation de l'identité d'un agent protégé : une seule échelle de peines pour les agents autorisés (L2221-10) et les agents de la criminalité organisée (L2221-17), L2221-20 fusionné ; exceptions de chaque régime écrites, peines et aggravations inchangées.",
+      "ligne_rouge": "Art. 8 DDHC examiné : incrimination et peines inchangées, champ exact de chaque régime gardé (exceptions propres à chacun) ; « sans préjudice » gardé, il autorise le cumul avec les crimes contre la vie.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Hors les cas prévus au deuxième alinéa de l'article L. 2221-14, la révélation des nom et prénom du bénéficiaire de l'autorisation prévue à l'article L. 2221-10, ou de tout élément permettant son identification personnelle ou sa localisation, est punie de cinq ans d'emprisonnement et de 75 000 € d'amende. La même révélation concernant l'agent identifié selon l'article L. 2221-17 est punie des mêmes peines, hors les cas des articles L. 2221-18 et L. 2221-19.\nLorsque la révélation a entraîné des violences contre l'agent ou son conjoint, ses enfants ou ses ascendants directs, les peines sont portées à sept ans d'emprisonnement et à 100 000 € d'amende. Lorsqu'elle a entraîné leur mort, elles sont portées à dix ans d'emprisonnement et à 150 000 € d'amende, sans préjudice de l'application du chapitre Ier du titre II du livre II du code pénal."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-16",
+      "principe": "P1",
+      "motif": "Renvoi au décret en Conseil d'État : gardé, il borne la plage L. 2221-10 à L. 2221-16 citée par L2242-14 et L2243-6.",
+      "ligne_rouge": "Aucune.",
+      "decision": "G"
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-17",
+      "principe": "P23",
+      "motif": "Identification par numéro des enquêteurs de la criminalité organisée : « sans préjudice » de la section 1 (coquille pour l'autorisation de l'ancien 15-4) écrit « outre l'autorisation prévue à l'article L. 2221-10 », cas de témoignage gardés en une phrase.",
+      "ligne_rouge": "Droits de la défense examinés : les cas de dépôt sous numéro restent les deux de 2029 ; les exclusions de L2221-18 et la communication de L2221-19 sont gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Outre l'autorisation prévue à l'article L. 2221-10, tout agent de la police nationale ou de la gendarmerie nationale affecté dans un service spécialement chargé des enquêtes en matière de délinquance et de criminalité organisées, dont la liste est fixée par arrêté des ministres de l'intérieur et de la justice, peut être identifié par un numéro d'immatriculation administrative, sa qualité et son service ou unité d'affectation dans les actes de procédure qu'il établit ou auxquels il participe.\nIl peut, sous ces éléments, déposer ou comparaître comme témoin au cours de l'enquête ou devant les juridictions d'instruction ou de jugement et se constituer partie civile, lorsqu'il a rédigé des actes de procédure ou participé à des actes d'enquête, ou lorsqu'il est entendu pour des faits commis dans l'exercice de ses fonctions ou en rapport avec elles. Seuls ces éléments figurent dans les actes de procédure et les décisions."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-18",
+      "principe": "P23",
+      "motif": "Exclusions de l'anonymat de la criminalité organisée : même règle, items sans point-virgule. Le régime vaut aussi pour les personnels pénitentiaires (L2515-4 y renvoie, lot p271).",
+      "ligne_rouge": "Art. 66 C examiné : l'agent entendu en audition libre, placé en garde à vue ou poursuivi pour un acte de ses fonctions répond sous son nom.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'article L. 2221-17 ne s'applique pas :\n1° A l'agent entendu en audition libre ou en garde à vue, ou poursuivi, pour un acte commis dans l'exercice de ses fonctions.\n2° A l'agent qui dépose ou comparaît comme témoin ou partie civile pour des faits sans rapport avec ses fonctions."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-19",
+      "principe": "P23",
+      "motif": "Communication de l'identité sur requête : requête, information de l'agent, communication de principe, recours suspensif et appel du procureur gardés, en trois alinéas. Le régime vaut aussi pour les personnels pénitentiaires (L2515-5 y renvoie, lot p271).",
+      "ligne_rouge": "Droits de la défense et de la partie civile examinés : la communication reste la règle, le refus n'est fondé que sur la menace pour la vie ou l'intégrité physique ; recours suspensif de l'agent et appel du procureur dans les dix jours gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Une partie peut, pour l'exercice des droits de la défense ou de la partie civile, demander par requête écrite et motivée au juge d'instruction ou au président de la juridiction de jugement la communication des nom et prénom d'un agent identifié selon l'article L. 2221-17. Lorsque le dossier est communiqué selon le chapitre 4 du titre II du livre III de la troisième partie, la requête est adressée au procureur de la République.\nLe magistrat saisi en informe l'agent, qui peut s'y opposer par ses observations. Il communique l'identité, sauf s'il estime, au vu de ces observations, que sa révélation menace la vie ou l'intégrité physique de l'agent ou de ses proches.\nSi la communication est envisagée malgré l'opposition de l'agent, celui-ci peut former un recours suspensif devant la chambre des investigations et des libertés ou, contre la décision du procureur de la République, devant le procureur général. Le procureur de la République peut faire appel de la décision du juge d'instruction ou du président de la juridiction de jugement devant la chambre des investigations et des libertés dans les dix jours de sa notification."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-21",
+      "principe": "P23",
+      "motif": "Anonymat des enquêteurs antiterroristes : autorisation du procureur général de Paris, communication de l'état civil, peines et interdiction de condamner sur leurs seuls actes gardées ; renvoi au décret « en tant que de besoin » abrogé (P20, le pouvoir réglementaire général suffit). R50-29 le cite, numéro gardé.",
+      "ligne_rouge": "Droits de la défense examinés : l'état civil reste communiqué au président de la juridiction de jugement qui le demande, et aucune condamnation ne repose sur les seuls actes d'enquêteurs dont l'état civil lui a été refusé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers et agents de police judiciaire des services spécialement chargés de la lutte contre le terrorisme peuvent être nominativement autorisés par le procureur général près la cour d'appel de Paris à enquêter sur les infractions relevant de l'article L. 1723-1, et à déposer ou comparaître comme témoins, sous leur numéro d'immatriculation administrative.\nLeur état civil n'est communiqué que sur décision de ce procureur général. Il est communiqué au président de la juridiction de jugement saisie des faits qui le demande. Hors ces cas, sa révélation est punie des peines prévues à l'article L. 2221-15.\nAucune condamnation ne peut être prononcée sur le seul fondement d'actes de procédure accomplis par ces enquêteurs lorsque leur état civil n'a pas été communiqué au président de la juridiction saisie des faits qui l'a demandé."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-22",
+      "principe": "P22",
+      "motif": "Enquêtes administratives associant l'inspection générale de la justice : même règle, phrases resserrées.",
+      "ligne_rouge": "Contrôle de l'autorité judiciaire sur la police judiciaire examiné : gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les enquêtes administratives sur le comportement d'un officier ou d'un agent de police judiciaire dans une mission de police judiciaire associent l'inspection générale de la justice au service d'enquête compétent. Ordonnées par le ministre de la justice, elles sont dirigées par un magistrat de cette inspection."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2222-1",
+      "principe": "P23",
+      "motif": "Qualité d'officier de police judiciaire : liste des huit catégories gardée à ses numéros (L2222-5 cite les 1° à 8°), items terminés par un point.",
+      "ligne_rouge": "Art. 66 C examiné : la qualité ouvre la garde à vue ; aucune catégorie n'est ajoutée, l'avis conforme de la commission pour les gradés est gardé.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Ont la qualité d'officier de police judiciaire :\n1° Les directeurs, directeurs adjoints et sous-directeurs de la police judiciaire de la police nationale.\n2° Le directeur général et le major général de la gendarmerie nationale.\n3° Les directeurs de service actif, les inspecteurs généraux et les contrôleurs généraux de la police nationale.\n4° Les membres du corps de conception et de direction de la police nationale.\n5° Les membres du corps de commandement de la police nationale.\n6° Les officiers et les gradés de la gendarmerie.\n7° Les fonctionnaires du corps d'encadrement et d'application de la police nationale nominativement désignés par arrêté des ministres de la justice et de l'intérieur, après avis conforme d'une commission dont un décret en Conseil d'Etat fixe la composition.\n8° Les gendarmes désignés dans les mêmes formes."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2222-2",
+      "principe": "P23",
+      "motif": "Réservistes officiers et agents de police judiciaire en un article (L2223-2 fusionné) : conditions d'actualisation, d'expérience et d'aptitude, durée de cinq ans et décret gardés.",
+      "ligne_rouge": "Art. 66 C examiné : actualisation des connaissances, expérience, aptitude et limite de cinq ans gardées ; l'habilitation de L2222-5 reste exigée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les fonctionnaires de la police nationale et les militaires de la gendarmerie nationale, actifs ou retraités, qui servent dans la réserve opérationnelle de la police nationale ou de la gendarmerie nationale peuvent :\n1° S'ils ont eu durant leur activité la qualité d'officier de police judiciaire, la conserver pendant cinq ans à compter de leur départ à la retraite, après une actualisation de leurs connaissances et s'il est établi qu'ils réunissent les conditions d'expérience et d'aptitude requises.\n2° A défaut, s'ils ont eu la qualité d'officier ou d'agent de police judiciaire, avoir celle d'agent de police judiciaire, dans des conditions d'expérience et de qualités fixées par décret en Conseil d'Etat."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2222-3",
+      "principe": "P23",
+      "motif": "Prérogatives des officiers de police judiciaire : quatre phrases en deux, garde à vue gardée.",
+      "ligne_rouge": "Art. 66 C examiné : la décision de garde à vue reste réservée à l'officier de police judiciaire, sous le contrôle prévu par la troisième partie.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers de police judiciaire exercent l'ensemble des prérogatives de police judiciaire nécessaires aux missions définies à l'article L. 2211-1. Ils reçoivent les plaintes et dénonciations, procèdent aux investigations selon la troisième partie, peuvent décider des mesures de garde à vue et requièrent directement le concours de la force publique."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2222-4",
+      "principe": "P23",
+      "motif": "Information sans délai du procureur et de la section spécialisée : même règle, verbe au présent.",
+      "ligne_rouge": "Contrôle du parquet examiné : information sans délai gardée.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers de police judiciaire informent sans délai le procureur de la République des crimes, délits et contraventions dont ils ont connaissance. Lorsque le crime ou le délit relève du premier alinéa de l'article L. 2152-10, ils informent simultanément le procureur de la République territorialement compétent et la section spécialisée du parquet mentionnée à cet article."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2222-5",
+      "principe": "P23",
+      "motif": "Habilitation en un article : condition d'emploi et décision personnelle du procureur général, conditions propres aux 7° et 8°, dispense des 1° et 2° (coquille de renvoi corrigée en passe 2), puis autorité, durée et décret de l'habilitation (L2222-6 fusionné, « de l'engagement » corrigé).",
+      "ligne_rouge": "Contrôle de l'autorité judiciaire examiné : aucune qualité n'est exercée sans habilitation personnelle du procureur général, sauf les directeurs des 1° et 2° comme en 2029 ; conditions d'ancienneté et d'affectation gardées.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers de police judiciaire mentionnés aux 3° à 8° de l'article L. 2222-1 et au 1° de l'article L. 2222-2 n'exercent les attributions attachées à cette qualité et ne s'en prévalent que s'ils sont affectés à un emploi comportant cet exercice et habilités personnellement par le procureur général près la cour d'appel du ressort de leur première affectation. Ceux des 1° et 2° de l'article L. 2222-1 les exercent sans habilitation.\nCeux des 7° et 8° de l'article L. 2222-1 ne sont habilités que s'ils comptent au moins trente mois de services depuis le début de leur formation initiale, dont six mois au moins dans un emploi comportant les attributions d'agent de police judiciaire, et s'ils sont affectés dans un service ou une catégorie de services de police judiciaire inscrits sur une liste fixée par arrêté des ministres de la justice et de l'intérieur ou, à titre exclusif, dans une formation d'un service mentionnée par cet arrêté.\nL'habilitation vaut pour toute la durée des fonctions ou, dans la limite de cinq ans du 1° de l'article L. 2222-2, de l'engagement dans la réserve, même en cas de changement d'affectation. Un décret en Conseil d'Etat pris sur le rapport des ministres de la justice et de l'intérieur fixe les conditions de son octroi, de son retrait et de sa suspension pour une durée déterminée."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2222-7",
-      "decision": "S",
-      "principe": "P26",
-      "motif": "Recours contre le refus ou le retrait d'habilitation : délais d'un mois gardés. La chambre du conseil de droit sort des exceptions de publicité retenues : les débats deviennent publics, la chambre du conseil restant ouverte à l'officier poursuivi qui la demande, en cas de danger grave pour une personne et pour la sécurité nationale. Registre 3.1 : renvoi à L. 1. La demande de l'officier poursuivi et le danger grave ne fondent plus la chambre du conseil.",
-      "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) examinée : l'officier poursuivi n'obtient plus la chambre du conseil (registre 3.1), la commission juge l'habilitation et non la culpabilité. CEDH art. 6 examiné : publicité, débat oral, conseil. Vie privée de l'officier : perte déclarée.",
+      "principe": "P23",
+      "motif": "Recours contre le refus, la suspension ou le retrait d'habilitation : délais d'un mois, silence valant rejet, commission de la Cour de cassation et débat oral gardés ; les deux mentions de la chambre du conseil tombent, la publicité et ses exceptions relèvent de L. 1 (registre 3.1, passe 2). Siège commun des habilitations de L2242-13 et L2243-3, qui y renvoient (lot p266).",
+      "ligne_rouge": "Droits de la défense examinés : recours devant trois magistrats du siège, débat oral, audition du requérant et assistance de son conseil, décision motivée gardés ; publicité selon L. 1.",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "Les débats de la commission ont lieu en chambre du conseil.",
-          "nouveau": "Les débats de la commission sont publics. Ils ont lieu en chambre du conseil dans les cas prévus à l'article L. 1."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "La commission statue en chambre du conseil par une décision motivée.",
-          "nouveau": "La commission statue par une décision motivée."
+          "op": "rediger",
+          "nouveau": "Dans le mois qui suit la notification d'une décision de refus, de suspension ou de retrait d'habilitation, l'officier de police judiciaire peut demander au procureur général de la rapporter. Le procureur général statue dans le mois. Son silence vaut rejet.\nDans le mois qui suit le rejet, explicite ou implicite, l'officier peut former un recours devant une commission de trois magistrats du siège de la Cour de cassation ayant le grade de président de chambre ou de conseiller, désignés chaque année avec trois suppléants par le bureau de la Cour. Le parquet général près la Cour de cassation y exerce le ministère public.\nLe débat est oral. Le requérant est entendu à sa demande ou à celle de son conseil, qui peut l'assister. La commission statue par une décision motivée, selon une procédure fixée par décret en Conseil d'Etat."
         }
       ]
     },
     {
       "code": "cpp",
-      "num": "L2222-8",
-      "decision": "G",
-      "principe": "P22",
-      "motif": "Notation par le procureur général.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
       "num": "L2222-9",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Dossier individuel, communiqué avant le contrôle de la chambre.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Notation et dossier individuel des officiers habilités en un article (L2222-8 fusionné).",
+      "ligne_rouge": "Droits de la défense examinés : l'officier soumis au contrôle de la chambre (L. 2212-3) prend connaissance de son dossier au préalable.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les officiers de police judiciaire habilités sont notés par le procureur général, et cette notation compte pour leur avancement. Le parquet général tient un dossier individuel de l'activité de police judiciaire de chaque officier habilité affecté dans le ressort de la cour d'appel. L'officier qui fait l'objet de la procédure prévue à l'article L. 2212-3 est mis à même d'en prendre connaissance au préalable."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2223-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Qualité d'agent de police judiciaire.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "L2223-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Réservistes agents de police judiciaire.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Qualité d'agent de police judiciaire : items terminés par un point, condition d'affectation à un emploi gardée.",
+      "ligne_rouge": "Aucune qualité élargie.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve de l'article L. 2222-2, ont la qualité d'agent de police judiciaire, lorsqu'ils n'ont pas celle d'officier :\n1° Les militaires de la gendarmerie nationale autres que les volontaires.\n2° Les fonctionnaires des services actifs de la police nationale, titulaires et stagiaires.\nIls n'exercent les attributions attachées à cette qualité et ne s'en prévalent que s'ils sont affectés à un emploi comportant cet exercice."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2223-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Missions des agents de police judiciaire.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Missions des agents de police judiciaire : une phrase, sans point-virgule. L2242-10 y renvoie.",
+      "ligne_rouge": "Aucune : les agents secondent les officiers et constatent, sans pouvoir propre de contrainte.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les agents de police judiciaire secondent les officiers de police judiciaire, constatent les crimes, délits ou contraventions et en dressent procès-verbal, et reçoivent par procès-verbal les plaintes, les dénonciations et les déclarations de toute personne susceptible de leur fournir des indices, preuves et renseignements sur les auteurs et complices de ces infractions."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2223-4",
-      "decision": "G",
       "principe": "P25",
-      "motif": "Pas de garde à vue ni de perquisition sans consentement par un agent de police judiciaire.",
-      "ligne_rouge": "art. 66 C examiné : la décision de garde à vue reste à l'officier, sous contrôle du parquet"
+      "motif": "Ni garde à vue ni perquisition sans consentement par l'agent de police judiciaire : gardé.",
+      "ligne_rouge": "Art. 66 C examiné : la garde à vue et la perquisition sans consentement restent réservées à l'officier de police judiciaire.",
+      "decision": "G"
     },
     {
       "code": "cpp",
       "num": "L2224-1",
+      "principe": "P23",
+      "motif": "Qualité d'agent de police judiciaire adjoint : les réservistes de la police et de la gendarmerie en un seul item (3° et 5° réunis, aucun texte ne cite le 5°), renvoi à L. 2223-2 fusionné recalé sur L. 2222-2, items terminés par un point.",
+      "ligne_rouge": "Aucune qualité élargie.",
       "decision": "S",
-      "principe": "P13",
-      "motif": "Qualité d'agent de police judiciaire adjoint : gardée. Participe manquant rétabli (« conditions prévues aux articles »).",
-      "ligne_rouge": "aucune",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "ne remplissant pas les conditions aux articles",
-          "nouveau": "ne remplissant pas les conditions prévues aux articles"
+          "op": "rediger",
+          "nouveau": "Ont la qualité d'agent de police judiciaire adjoint :\n1° Les fonctionnaires des services actifs de la police nationale qui ne remplissent pas les conditions prévues par l'article L. 2223-1.\n2° Les policiers adjoints mentionnés à l'article L. 411-5 du code de la sécurité intérieure.\n3° Les membres de la réserve opérationnelle de la police nationale ou de la gendarmerie nationale qui n'ont pas la qualité d'officier ou d'agent de police judiciaire en application de l'article L. 2222-2.\n4° Les volontaires servant en qualité de militaire dans la gendarmerie."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2224-2",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Missions des agents adjoints.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Missions des agents de police judiciaire adjoints : une phrase, sans point-virgule.",
+      "ligne_rouge": "Aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les agents de police judiciaire adjoints secondent les officiers de police judiciaire, rendent compte à leurs chefs hiérarchiques des crimes, délits ou contraventions dont ils ont connaissance et constatent, selon les ordres de leurs chefs, les infractions à la loi pénale en recueillant tout renseignement utile à la découverte de leurs auteurs."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2224-3",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "Constatations routières et amende forfaitaire par les agents adjoints : voie rapide.",
-      "ligne_rouge": "art. 8 DDHC examiné : l'amende forfaitaire suit son barème légal, la contestation ouvre le juge"
+      "principe": "P23",
+      "motif": "Constatations des agents adjoints : même champ (contraventions routières listées par décret, outrage sexiste et sexuel contraventionnel, délit de 222-33-1-1), trois facultés en une phrase.",
+      "ligne_rouge": "Art. 8 DDHC examiné : champ des constatations inchangé ; l'amende forfaitaire suit son régime de la quatrième partie.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les agents de police judiciaire adjoints peuvent constater par procès-verbal les contraventions au code de la route dont la liste est fixée par décret en Conseil d'Etat, l'outrage sexiste et sexuel lorsqu'il constitue une contravention et le délit prévu à l'article 222-33-1-1 du code pénal. Ils peuvent alors recueillir les observations du contrevenant dans le procès-verbal, relever son identité selon la section 2 du chapitre 2 du titre II du livre II de la troisième partie et recourir à l'amende forfaitaire selon le chapitre 3 du titre II du livre II de la quatrième partie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2225-1",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Recrutement des assistants d'enquête.",
-      "ligne_rouge": "aucune"
+      "principe": "P23",
+      "motif": "Recrutement des assistants d'enquête : items terminés par un point.",
+      "ligne_rouge": "Aucune.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les assistants d'enquête sont recrutés, après une formation sanctionnée par un examen certifiant leur aptitude à assurer les missions que la loi leur confie, parmi :\n1° Les militaires du corps de soutien technique et administratif de la gendarmerie nationale.\n2° Les personnels administratifs de catégorie B de la police nationale et de la gendarmerie nationale.\n3° Les agents de police judiciaire adjoints de la police nationale et de la gendarmerie nationale."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2225-2",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Assistants d'enquête pour les actes matériels, sous contrôle de l'officier : le juge et l'officier gardent les actes qui touchent la liberté.",
-      "ligne_rouge": "art. 66 C examiné : l'assistant n'informe et ne convoque que sur demande expresse ; la garde à vue reste décidée par l'officier"
+      "principe": "P23",
+      "motif": "Actes des assistants d'enquête : liste fermée gardée, verbes à l'infinitif, items sans point-virgule ; renvois recalés sur les pièces de passe 3 (L. 3532-9 fusionné dans le deuxième alinéa de L. 3532-8, lot p183 ; L. 3524-8 fusionné dans L. 3524-7, lot p182).",
+      "ligne_rouge": "Art. 66 C examiné : l'assistant n'agit qu'à la demande expresse et sous le contrôle de l'officier ou de l'agent ; les réquisitions restent soumises à l'autorisation préalable du magistrat quand elle est prévue ; aucune décision sur la garde à vue ne lui revient.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les assistants d'enquête secondent les officiers et agents de police judiciaire. A la demande expresse et sous le contrôle de l'officier ou, lorsqu'il est compétent, de l'agent de police judiciaire, ils accomplissent les seuls actes suivants et en dressent procès-verbal :\n1° Convoquer toute personne à entendre par un officier ou un agent de police judiciaire et, s'il y a lieu, contacter l'interprète.\n2° Notifier leurs droits aux victimes selon l'article L. 1411-3.\n3° Procéder, avec l'autorisation préalable du procureur de la République ou du juge des libertés et de la détention lorsqu'elle est prévue, aux réquisitions de l'article L. 3513-1 et du deuxième alinéa de l'article L. 3532-8, et à celles des articles L. 3513-3 et L. 3513-4 qui portent sur des enregistrements de vidéoprotection.\n4° Informer de la garde à vue, par téléphone, les personnes mentionnées à l'article L. 3524-21.\n5° Accomplir les diligences de l'article L. 3524-25 pour l'examen médical de la personne gardée à vue.\n6° Informer l'avocat de la personne gardée à vue de la nature et de la date présumée de l'infraction, selon l'article L. 3524-7.\n7° Transcrire les enregistrements prévus à l'article L. 3551-4 que les officiers de police judiciaire ont identifiés comme nécessaires à la manifestation de la vérité.\n8° Délivrer les convocations devant le tribunal délictuel ou contraventionnel prévues aux articles L. 4412-1 et L. 4511-1.\nL'officier ou l'agent de police judiciaire est immédiatement avisé de toute difficulté, notamment s'il est impossible de joindre les personnes mentionnées aux 1° et 4° à 6°. Un décret en Conseil d'Etat fixe les modalités d'affectation et de serment des assistants d'enquête et celles des transcriptions."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L2223-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Réservistes agents de police judiciaire : repris au 2° de L2222-2 ; L2223-1 et L2224-1 renvoient à L2222-2.",
+      "ligne_rouge": "aucune",
+      "vers": "L2222-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Compétence territoriale fixée par le décret des services : reprise au second alinéa de L2221-2, avec ses trois ressorts.",
+      "ligne_rouge": "aucune",
+      "vers": "L2221-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Transport des officiers sur tout le territoire et compétence des agents qui les secondent : repris au dernier alinéa de L2221-7.",
+      "ligne_rouge": "aucune",
+      "vers": "L2221-7"
+    },
+    {
+      "code": "cpp",
+      "num": "L2221-20",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Révélation de l'identité de l'agent de la criminalité organisée : reprise à L2221-15, avec ses exceptions (L2221-18 et L2221-19) et toute l'échelle des peines.",
+      "ligne_rouge": "aucune",
+      "vers": "L2221-15"
+    },
+    {
+      "code": "cpp",
+      "num": "L2222-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Autorité, durée et décret de l'habilitation : repris au dernier alinéa de L2222-5.",
+      "ligne_rouge": "aucune",
+      "vers": "L2222-5"
+    },
+    {
+      "code": "cpp",
+      "num": "L2222-8",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Notation par le procureur général : reprise au premier alinéa de L2222-9.",
+      "ligne_rouge": "aucune",
+      "vers": "L2222-9"
     }
-  ]
+  ],
+  "passe": 3
 }
