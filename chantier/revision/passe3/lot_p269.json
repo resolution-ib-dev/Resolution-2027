@@ -1,0 +1,83 @@
+{
+  "lot": "lot_p269",
+  "titre": "Parquet européen",
+  "ecart_volume": "Écart motivé (−22 % contre −40 %) : le titre tient dans les renvois exacts au règlement (UE) 2017/1939 et la liste des articles du statut du parquet écartés, qui ne se raccourcissent pas.",
+  "articles_cible": [
+    {
+      "num": "L2411-1",
+      "texte": "Les procureurs européens délégués sont compétents sur l'ensemble du territoire national pour rechercher, poursuivre et renvoyer en jugement les auteurs et complices des infractions pénales portant atteinte aux intérêts financiers de l'Union européenne mentionnées aux articles 4, 22, 23 et 25 du règlement (UE) 2017/1939 du Conseil du 12 octobre 2017 mettant en œuvre une coopération renforcée concernant la création du Parquet européen, commises après le 20 novembre 2017.",
+      "verbe": "S",
+      "principe": "P20",
+      "motif": "Compétence nationale des procureurs européens délégués : même champ et même date ; « conformément à l'article 120 de ce règlement » retiré (rappel).",
+      "ligne_rouge": "Aucune."
+    },
+    {
+      "num": "L2411-2",
+      "texte": "Pour ces infractions, ils exercent les attributions du procureur de la République et du procureur général près la cour d'appel, direction et contrôle de la police judiciaire et voies de recours comprises.",
+      "verbe": "S",
+      "principe": "P20",
+      "motif": "Attributions du parquet exercées par les procureurs européens délégués : même règle, rappel des articles du règlement retiré.",
+      "ligne_rouge": "Contrôle de la police judiciaire examiné : direction et contrôle gardés."
+    },
+    {
+      "num": "L2411-3",
+      "texte": "Les procureurs européens délégués ne peuvent faire l'objet d'instructions générales du ministre de la justice. Ne leur sont pas applicables les articles L. 2111-1 à L. 2111-3, L. 2112-7, L. 2113-5 et L. 2113-6, le troisième alinéa de l'article L. 2113-7 et les articles L. 2113-13, L. 2114-2, L. 2114-3 et L. 4113-4.",
+      "verbe": "R",
+      "principe": "P23",
+      "motif": "Indépendance des procureurs européens délégués : l'interdiction des instructions générales et la liste des articles du statut du parquet écartés en un article (L2411-4 fusionné), liste inchangée.",
+      "ligne_rouge": "Aucune."
+    },
+    {
+      "num": "L2411-5",
+      "texte": "Les procédures dont sont saisis les procureurs européens délégués relèvent des juridictions de jugement de Paris, en première instance comme en appel. Par dérogation à l'article L. 3714-1, la chambre des investigations et des libertés de la cour d'appel de Paris ne peut pas évoquer ces procédures.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Compétence des juridictions de Paris et interdiction d'évocation : les deux règles gardées (le second alinéa reste, L6114-5 étant abrogé, note de coordination p197–p200).",
+      "ligne_rouge": "Aucune."
+    }
+  ],
+  "retires": [
+    {
+      "num": "L2411-4",
+      "verbe": "F",
+      "vers": "L2411-3",
+      "principe": "P23",
+      "motif": "Liste des articles du statut du parquet écartés : reprise à L2411-3.",
+      "ligne_rouge": "aucune"
+    }
+  ],
+  "phrases": {
+    "L2411-1#1": {
+      "destin": "reprise",
+      "vers": "L2411-1"
+    },
+    "L2411-1#2": {
+      "destin": "reprise",
+      "vers": "L2411-1"
+    },
+    "L2411-2#1": {
+      "destin": "reprise",
+      "vers": "L2411-2"
+    },
+    "L2411-3#1": {
+      "destin": "gardee",
+      "vers": "L2411-3"
+    },
+    "L2411-3#2": {
+      "destin": "reprise",
+      "vers": "L2411-3"
+    },
+    "L2411-4#1": {
+      "destin": "reprise",
+      "vers": "L2411-3"
+    },
+    "L2411-5#1": {
+      "destin": "reprise",
+      "vers": "L2411-5"
+    },
+    "L2411-5#2": {
+      "destin": "reprise",
+      "vers": "L2411-5"
+    }
+  }
+}
