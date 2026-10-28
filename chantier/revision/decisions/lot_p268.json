@@ -10,34 +10,54 @@
     {
       "code": "cpp",
       "num": "L2321-1",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Libre choix de l'avocat, pluralité d'avocats, barreau indifférent, sous la réserve de la garde à vue en matière de criminalité organisée (L3524-9 et L3524-10).",
-      "ligne_rouge": "art. 16 DDHC examiné : libre choix de l'avocat, tenu, sous une réserve bornée par la loi"
+      "principe": "P13",
+      "motif": "Libre choix de l'avocat et pluralité : gardés ; réserve recalée sur L. 3524-7 (L. 3524-9 et L. 3524-10 y sont fusionnés, pièce de passe 3 du lot p182 : commission d'office si l'avocat choisi est injoignable ou en conflit d'intérêts).",
+      "ligne_rouge": "Art. 16 DDHC examiné : libre choix, pluralité et barreau indifférent gardés ; la réserve est celle de 2029.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve des deuxième et quatrième alinéas de l'article L. 3524-7, les personnes mentionnées à l'article L. 2311-1 ont le libre choix de leur avocat, qui peut appartenir au barreau d'une autre juridiction que la juridiction saisie ou compétente. Les personnes poursuivies et les parties civiles peuvent choisir plusieurs avocats."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2321-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Commission d'office par le bâtonnier sur demande, information du droit : l'avocat est accessible à qui ne peut le choisir.",
-      "ligne_rouge": "art. 16 DDHC examiné : accès effectif à l'avocat, tenu"
+      "principe": "P23",
+      "motif": "Commission d'office en un article : à la demande, information du droit, assistance obligatoire (L2321-4 fusionné), désignation par le président de la juridiction.",
+      "ligne_rouge": "Art. 16 DDHC examiné : l'avocat reste accessible à qui ne peut le choisir et désigné d'office quand l'assistance est obligatoire.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne mentionnée à l'article L. 2311-1 qui n'est pas en mesure de choisir un avocat peut demander au bâtonnier de lui en commettre un d'office, et elle est informée de ce droit. Lorsque l'assistance d'un avocat est obligatoire et que la personne n'en choisit pas, l'autorité judiciaire demande au bâtonnier d'en commettre un. Dans les cas prévus par le présent code, le président de la juridiction peut aussi commettre un avocat d'office."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2321-3",
-      "decision": "G",
-      "principe": "P21",
-      "motif": "Frais de l'avocat à la charge de la personne, sauf aide juridique, et à la charge de l'État pour le suspect non poursuivi commis d'office : partage clair, renvoi à la loi de 1991.",
-      "ligne_rouge": "art. 16 DDHC examiné : l'aide juridique garantit l'accès à l'avocat sous condition de ressources"
+      "principe": "P23",
+      "motif": "Frais de l'avocat : même partage, phrases resserrées. La condition « qui ne remplit pas les conditions de l'aide à l'intervention » tombe sans effet : si elle les remplit, l'aide couvre déjà les frais.",
+      "ligne_rouge": "Art. 16 DDHC examiné : aide juridictionnelle, aide à l'intervention de l'avocat et prise en charge par l'État du suspect non poursuivi gardées.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Sous réserve d'une assurance de protection juridique, les frais de l'avocat choisi ou commis d'office sont à la charge de la personne, sauf si ses ressources lui ouvrent l'aide juridictionnelle ou l'aide à l'intervention de l'avocat prévues par la loi n° 91-647 du 10 juillet 1991 relative à l'aide juridique. L'Etat les supporte en tout cas lorsqu'un avocat est commis d'office à une personne suspectée mais non poursuivie."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2321-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Désignation d'office quand l'assistance est obligatoire : garantie de l'effectivité des droits de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : assistance obligatoire effective, tenue"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Désignation d'office quand l'assistance est obligatoire : reprise à L2321-2.",
+      "ligne_rouge": "Art. 16 DDHC examiné : garantie reprise sans perte.",
+      "vers": "L2321-2"
     }
-  ]
+  ],
+  "passe": 3
 }
