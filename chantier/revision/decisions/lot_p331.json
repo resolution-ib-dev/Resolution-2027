@@ -10,130 +10,163 @@
     {
       "code": "cpp",
       "num": "D15-5",
-      "decision": "S",
       "principe": "P12",
-      "motif": "Mention de la réquisition au procès-verbal, sans procès-verbal dédié, annexe sans signature : allègement utile. L'annexe se fait sous format numérique, le papier n'est plus qu'un repli. Renvois aux anciens 60-1, 77-1-1 et 99-3 à coordonner.",
-      "ligne_rouge": "aucune",
+      "motif": "Réquisitions en un article : mention au procès-verbal sans procès-verbal dédié, annexe numérique non signée et limitée au nécessaire, remise sous forme numérique normalisée (ancien D15-5-1). Le renvoi à L3513-1 couvre l'enquête, l'information et la recherche des causes de la mort : les extensions aux anciens 77-1-1 et 99-3 et l'article D36-1 tombent.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "R",
       "operations": [
         {
-          "op": "remplacer",
-          "ancien": "est annexé, sous format papier ou numérique, au procès-verbal précédent",
-          "nouveau": "est annexé, sous format numérique ou, à défaut, papier, au procès-verbal précédent"
-        },
+          "op": "rediger",
+          "nouveau": "Lorsqu'une réquisition prévue à l'article L. 3513-1 est faite sans procès-verbal dédié, elle est mentionnée au procès-verbal des diligences du magistrat requérant, de l'officier de police judiciaire ou de l'agent de police judiciaire agissant sous son contrôle. La réquisition faite par voie électronique et les documents remis sous forme numérique sont annexés à ce procès-verbal sous format numérique ou, à défaut, papier. L'annexe n'est pas signée par le requérant. Elle peut se limiter aux éléments nécessaires à la manifestation de la vérité.\nL'organisme ou la personne mentionnés à l'article R. 15-33-68 peut être requis de remettre sous forme numérique, selon des normes fixées par arrêté du ministre de la justice et du ministre de l'intérieur, les informations issues d'un système informatique ou d'un traitement de données nominatives."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D15-5-1-1",
+      "principe": "P4",
+      "motif": "Prélèvements et scellés par les agents et techniciens sur instruction de l'officier, avec inventaire : gardés, renvois aux anciens 55-1 et 706-56 recalés sur L3514-1 et L3514-7.",
+      "ligne_rouge": "aucune (passe 1).",
+      "decision": "S",
+      "operations": [
         {
-          "op": "remplacer",
-          "ancien": "ils sont annexés sous format papier ou numérique au procès-verbal",
-          "nouveau": "ils sont annexés sous format numérique ou, à défaut, papier, au procès-verbal"
+          "op": "rediger",
+          "nouveau": "Les relevés signalétiques et prélèvements de l'article L. 3514-1 et le prélèvement biologique de l'article L. 3514-7 peuvent être effectués, sur instruction d'un officier de police judiciaire, par un agent de police judiciaire ou par un agent spécialisé, un technicien ou un ingénieur de police technique et scientifique. Lorsqu'ils prélèvent et placent sous scellés, dans ce cas ou dans celui de l'article D. 7, des échantillons biologiques, objets, traces et indices utiles à la manifestation de la vérité, ils en dressent inventaire et le mentionnent dans leur rapport."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D15-5-1-2",
+      "principe": "P11",
+      "motif": "Information sur la saisie d'un bien confiscable, sans quoi aucune forclusion n'est opposée pour la restitution : gardée, phrases resserrées.",
+      "ligne_rouge": "Propriété (art. 17 DDHC) et contrôle du juge examinés : information, motifs et absence de forclusion gardés mot pour mot dans leur sens.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La personne dont un bien confiscable a été saisi en est informée, avec au moins un bref exposé des motifs, lors de la perquisition ou d'une audition ultérieure, si cette information ne risque pas de compromettre les investigations. Il en est fait mention au procès-verbal. À défaut de cette information, aucun délai de forclusion ne lui est opposé pour demander la restitution du bien."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D15-5-2",
+      "principe": "P25",
+      "motif": "Diligences des droits de la garde à vue confiées à un autre service : gardées, renvois recalés (L3524-21, L3524-7, L3524-25).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : les quatre diligences (proche, avocat, médecin, interprète) et le rapport au requérant sont gardés.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'officier ou l'agent de police judiciaire responsable du déroulement de la garde à vue peut requérir, par tout moyen, un officier ou un agent de police judiciaire d'un autre service territorialement compétent de faire prévenir les personnes mentionnées à l'article L. 3524-21, de contacter l'avocat désigné ou commis d'office selon l'article L. 3524-7 et de l'informer des lieux et horaires des auditions, de contacter le médecin prévu à l'article L. 3524-25 ou l'interprète. Le requis en rend compte au requérant par un rapport. Ces diligences peuvent être confiées à tout personnel de la police ou de la gendarmerie nationales placé sous son contrôle."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D15-5-3",
+      "principe": "P20",
+      "motif": "Garde à vue : procès-verbal unique des droits (L3523-25) et interdiction d'entendre hors du service la personne dont l'avocat n'a pas été avisé du transport (ancien D15-5-6). Les mentions de l'avis du droit à l'avocat (anciens D15-5-4 et D15-5-5) sont à la loi (L3522-1, L3524-1).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : droits de la personne gardée à vue mentionnés au procès-verbal ; aucune audition hors du service sans avis à l'avocat, mot pour mot dans son sens.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procès-verbal de l'article L. 3523-25 mentionne les informations données et les demandes faites pour l'exercice des droits de la personne gardée à vue, et leurs suites, sans qu'un procès-verbal soit dressé pour chaque diligence.\nLa personne gardée à vue qui a demandé l'assistance d'un avocat et qui est déplacée hors du service enquêteur ne peut être entendue dans ce lieu si son avocat n'a pas été avisé du transport selon l'article L. 3524-7."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D15-5-7",
+      "principe": "P25",
+      "motif": "Question sur la mesure de protection juridique en garde à vue et en rétention : gardée ; les rétentions sont celles que D47-14 (pièce p253) énumère.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : la question ouvre l'avis au curateur ou au tuteur, l'avocat et le médecin de L3524-35.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "L'officier ou l'agent de police judiciaire demande à la personne majeure placée en garde à vue, ou retenue dans les cas de l'article D. 47-14, si elle fait l'objet d'une mesure de protection juridique, afin d'appliquer s'il y a lieu l'article L. 3524-35 et l'article D. 47-14."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D15-6",
+      "principe": "P23",
+      "motif": "Enregistrements de la garde à vue criminelle et des interrogatoires de l'instruction en un article (ancien D32-2-2) : qualification de référence, copie commune, destruction par le greffe, copie de travail du service détruite sous cinq ans, arrêté technique. Scellé, copie au dossier et délai de destruction sont la règle générale de L1622-3 et L1622-6.",
+      "ligne_rouge": "Preuve loyale (art. 9 DDHC) examinée : enregistrement original sous scellés et copie au dossier (L1622-3), destruction encadrée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Pour l'application de l'article L. 3523-22, la qualification criminelle s'apprécie d'après celle notifiée au début de la garde à vue, sans préjudice d'une requalification à tout moment de la procédure.\nLa copie des enregistrements prévus aux articles L. 3523-22 et L. 3432-23, versée au dossier selon l'article L. 1622-3, peut être commune à tous les enregistrements de la procédure. Le greffe de la juridiction détruit les enregistrements, sur instruction du procureur de la République ou du procureur général, dans le délai de l'article L. 1622-6.\nLe service d'enquête peut conserver une copie de l'enregistrement de la garde à vue pour les nécessités des investigations. Il la détruit au plus tard cinq ans après le dernier acte dressé par les enquêteurs.\nLes modalités techniques des enregistrements sont fixées par arrêté du ministre de la justice et, pour la garde à vue, du ministre de l'intérieur."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D15-6-2",
+      "principe": "P24",
+      "motif": "Défèrement devant le procureur ou son délégué pour une alternative ou une composition pénale : gardé, renvois recalés (L3523-24, L4211-1).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le défèrement reste décidé par le procureur, la personne est présentée à un magistrat ou à son délégué habilité.",
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République qui ordonne le défèrement d'une personne à l'issue de sa garde à vue, selon l'article L. 3523-24, peut la faire présenter devant lui ou devant un délégué habilité selon les articles R. 15-33-30 à R. 15-33-37, pour mettre en œuvre une mesure de l'article L. 4211-1 ou une composition pénale."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "D15-6-3",
+      "principe": "P20",
+      "motif": "Contradictoire de l'enquête préliminaire : ce que la loi porte déjà (demande et ses formes, mois sans poursuites après la demande, pièces écartées pour risque de pression, report de six mois ou un an, recours au procureur général, forme des observations : L3324-1 à L3324-10, pièce p174) tombe ; restent les règles propres au décret. Les envois des avocats suivent D591, ceux à leur attention L1632-2 ; le renvoi mort à D593-2 tombe.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : délais d'un mois opposables au procureur et au procureur général, motivation, recours, silence valant refus contestable, mois de réflexion sans poursuites après la mise à disposition, tous gardés.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "I.-La demande de prise de connaissance du dossier prévue à l'article L. 3324-5 peut être présentée par l'avocat de la personne. Formée au titre du 3° de cet article, elle comporte les documents qui établissent l'atteinte à la présomption d'innocence, notamment, s'il y a lieu, une copie des enregistrements sonores ou audiovisuels. Le procureur de la République peut demander des documents complémentaires. Il verse la demande au dossier au plus tard à la clôture de l'enquête.\nII.-Dans le mois de la réception de la demande ou, le cas échéant, des documents complémentaires, le procureur de la République fait connaître à la personne, par une décision écrite versée au dossier et notifiée par tout moyen, qu'il accepte la communication du dossier en vue d'observations, qu'il la refuse faute que les conditions de l'article L. 3324-5 soient réunies, qu'il l'accepte néanmoins selon l'article L. 3324-4 ou qu'il la diffère selon l'article L. 3324-10. Toute décision autre qu'une acceptation entière est motivée, sans révéler d'élément nuisible à l'efficacité des investigations, ni la liste et la nature des pièces non communiquées. Elle mentionne le recours ouvert devant le procureur général, qui statue dans le mois de sa saisine par une décision versée au dossier.\nIII.-Le dossier est mis à disposition par tout moyen, par consultation au tribunal judiciaire ou remise d'une copie. La personne dispose d'un mois à compter de cette mise à disposition pour formuler ses observations selon l'article L. 3324-1. Pendant ce mois, le procureur de la République ne prend aucune décision de poursuites, hors l'ouverture d'une information, des poursuites après défèrement ou le recours à la comparution sur reconnaissance préalable de culpabilité.\nIV.-Le procureur de la République répond aux demandes d'actes dans le mois de leur réception, par une décision motivée en cas de refus, qui mentionne le recours ouvert devant le procureur général. Son silence vaut refus. Le refus peut être contesté devant le procureur général, qui statue dans le mois par une décision motivée. Observations, réponses et décisions sont versées au dossier.\nV.-Le procureur général est saisi par tout moyen permettant d'en établir la date de réception, par déclaration au greffe contre récépissé ou, par l'avocat, selon l'article D. 591. La personne qui le saisit faute de réponse du procureur de la République en informe celui-ci dans le même temps et par les mêmes moyens. La saisine devient caduque si le procureur de la République fait ensuite droit à la demande.\nVI.-Le procureur de la République qui fait droit à la demande d'une personne suspectée n'est pas tenu d'accorder les mêmes droits aux autres, sauf à le décider selon l'article L. 3324-4."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "D15-5-1",
-      "decision": "G",
-      "principe": "P12",
-      "motif": "Remise des données requises sous une forme numérique normalisée : numérique par défaut, gain de temps d'enquête.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-5-1-1",
-      "decision": "G",
-      "principe": "P4",
-      "motif": "Prélèvements et placements sous scellés par des agents ou techniciens, sur instruction de l'officier, avec inventaire : la décision reste à l'officier. Renvois aux anciens 55-1 et 706-56 à coordonner.",
-      "ligne_rouge": "aucune"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-5-1-2",
-      "decision": "G",
-      "principe": "P11",
-      "motif": "Information de la personne sur la saisie d'un bien confiscable. Sans cette information, aucun délai de forclusion ne lui est opposé pour la restitution : le délai part de la connaissance effective, ce que demande P11.",
-      "ligne_rouge": "propriété (art. 2 et 17 DDHC) examinée : la saisie n'est pas une privation de liberté, l'art. 66 C n'est pas en cause. Le propriétaire est informé et sa demande de restitution reste ouverte"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-5-2",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Diligences des droits de la personne gardée à vue (avis à un proche, avocat, médecin, interprète) confiées à un autre service : les droits s'exercent même hors du ressort.",
-      "ligne_rouge": "art. 66 C examiné : la garde à vue reste sous le contrôle du procureur et du juge, l'article n'en touche ni la durée ni le contrôle ; art. 16 DDHC examiné : avocat, médecin et interprète effectivement joints"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-5-3",
-      "decision": "G",
-      "principe": "P20",
-      "motif": "Le procès-verbal récapitulatif mentionne l'exercice des droits, sans procès-verbal par diligence : un acte au lieu de plusieurs.",
-      "ligne_rouge": "art. 66 C examiné : la garde à vue reste sous le contrôle du procureur et du juge, l'article n'en touche ni la durée ni le contrôle ; art. 16 DDHC examiné : l'exercice de chaque droit reste tracé"
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Remise des données sous forme numérique normalisée : second alinéa de D15-5.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "D15-5"
     },
     {
       "code": "cpp",
       "num": "D15-5-4",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le procès-verbal d'audition libre mentionne l'avis du droit à l'avocat : trace d'une garantie de la défense.",
-      "ligne_rouge": "art. 16 DDHC examiné : droit à l'avocat avisé et tracé"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Mention au procès-verbal d'audition libre de l'avis du droit à l'avocat et contenu de la convocation : la loi les porte (L3521-5 3°, dernier alinéa de L3522-1, L3522-4, pièce p182).",
+      "ligne_rouge": "aucune (passe 1)."
     },
     {
       "code": "cpp",
       "num": "D15-5-5",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Le procès-verbal de garde à vue mentionne l'avis du droit à l'avocat.",
-      "ligne_rouge": "art. 66 C examiné : la garde à vue reste sous le contrôle du procureur et du juge, l'article n'en touche ni la durée ni le contrôle ; art. 16 DDHC examiné : droit à l'avocat avisé et tracé"
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Mention au procès-verbal de garde à vue de l'avis du droit à l'avocat : la loi la porte (L3521-5 3°, dernier alinéa de L3524-1).",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : le droit à l'avocat dès le début et à tout moment et sa mention au procès-verbal émargé sont à la loi (L3521-5 3°, L3524-1)."
     },
     {
       "code": "cpp",
       "num": "D15-5-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Pas d'audition hors du service si l'avocat n'a pas été avisé du déplacement : garantie effective de l'assistance.",
-      "ligne_rouge": "art. 66 C examiné : la garde à vue reste sous le contrôle du procureur et du juge, l'article n'en touche ni la durée ni le contrôle ; art. 16 DDHC examiné : assistance de l'avocat préservée lors des transports"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-5-7",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Question sur la mesure de protection juridique du majeur gardé à vue ou retenu, pour aviser tuteur ou curateur : protection des vulnérables. Renvois aux anciens 706-112-1, 133-1, 141-4, 709-1-1 et 716-5 à coordonner.",
-      "ligne_rouge": "art. 66 C examiné : la garde à vue reste sous le contrôle du procureur et du juge, l'article n'en touche ni la durée ni le contrôle ; art. 16 DDHC examiné : le majeur protégé bénéficie de l'assistance prévue par la loi"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-6",
-      "decision": "G",
-      "principe": "P25",
-      "motif": "Enregistrement audiovisuel de la garde à vue criminelle : scellé, copie au dossier, destruction encadrée. Preuve loyale de l'interrogatoire. Renvois aux anciens 63-1 et 64-1 à coordonner.",
-      "ligne_rouge": "art. 9 et 16 DDHC examinés : l'enregistrement protège la personne contre l'aveu contesté, vie privée tenue par la destruction à terme"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-6-2",
-      "decision": "G",
-      "principe": "P24",
-      "motif": "À l'issue de la garde à vue, présentation au procureur ou à son délégué pour une alternative ou une composition pénale : voie rapide sans audience.",
-      "ligne_rouge": "art. 66 C examiné : le défèrement est ordonné par le procureur, magistrat, et ne prolonge pas la privation de liberté au-delà de ce que la loi permet"
-    },
-    {
-      "code": "cpp",
-      "num": "D15-6-3",
-      "decision": "S",
-      "principe": "P12",
-      "motif": "Accès au dossier de l'enquête préliminaire et demandes d'actes, délais d'un mois opposables au procureur et au procureur général. Les observations s'ouvrent à la voie électronique, les saisines se font par tout moyen qui en établit la date de réception. Renvois aux anciens 77-2, 19, 393 et 495-7 à coordonner.",
-      "ligne_rouge": "art. 16 DDHC examiné : accès au dossier, motivation des refus et recours au procureur général tenus, délai d'un mois opposable",
-      "operations": [
-        {
-          "op": "remplacer",
-          "ancien": "pour formuler ses observations par lettre recommandée avec demande d'avis de réception ou par déclaration au greffe contre récépissé.",
-          "nouveau": "pour formuler ses observations par lettre recommandée avec demande d'avis de réception, par voie électronique ou par déclaration au greffe contre récépissé."
-        },
-        {
-          "op": "remplacer",
-          "ancien": "se font par lettre recommandée avec demande d'avis de réception ou par déclaration au greffe contre récépissé ou, lorsqu'elles émanent d'un avocat, par un moyen",
-          "nouveau": "se font par tout moyen permettant d'en établir la date de réception, y compris, lorsqu'elles émanent d'un avocat, par un moyen"
-        }
-      ]
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Pas d'audition hors du service sans avis du transport à l'avocat : second alinéa de D15-5-3.",
+      "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : garantie reprise à D15-5-3.",
+      "vers": "D15-5-3"
     }
-  ]
+  ],
+  "passe": 3
 }
