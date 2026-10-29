@@ -9,20 +9,6 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "L6221-1",
-      "principe": "P23",
-      "motif": "Voies de transmission en un article : règle supplétive (ministère de la justice, voie diplomatique, pièces renvoyées par la même voie) et transmission directe en urgence avec avis diplomatique de l'État étranger (reçoit L6221-2).",
-      "ligne_rouge": "aucune (passe 1).",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Sauf convention internationale contraire, les demandes d'entraide des autorités judiciaires françaises destinées aux autorités judiciaires étrangères sont transmises par l'intermédiaire du ministère de la justice, et celles des autorités judiciaires étrangères destinées aux autorités judiciaires françaises par la voie diplomatique. Les pièces d'exécution sont renvoyées par la même voie.\nEn cas d'urgence, les demandes d'entraide peuvent être transmises directement aux autorités de l'État requis compétentes pour les exécuter, et les pièces d'exécution renvoyées de la même manière. Sauf convention internationale contraire, la demande d'une autorité judiciaire étrangère fait alors l'objet d'un avis donné par la voie diplomatique par le gouvernement étranger."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
       "num": "L6221-3",
       "principe": "P19",
       "motif": "Destinataires des demandes urgentes, transmission au juge d'instruction ou saisine du procureur général, et délai de [quarante-huit heures] après communication au procureur (registre 5.6 et 9.26, passe 2) : gardés, resserrés.",
@@ -67,27 +53,13 @@
       "code": "cpp",
       "num": "L6221-6",
       "principe": "P21",
-      "motif": "Refus pour atteinte à l'ordre public ou aux intérêts essentiels de la Nation, par le ministre : gardé (cité par L6123-24, L6141-11, L6141-15, L6242-7, L6153-18, D48-23).",
+      "motif": "Refus pour atteinte à l'ordre public ou aux intérêts essentiels de la Nation, par le ministre : gardé (cité par L6123-24, L6141-11, L6141-15, L6242-7, L6153-18, D48-23). Passe 4 : reçoit L6221-7 ; les deux cas de transmission au procureur général (ordre public et intérêts essentiels, lien avec un service de renseignement) partagent la transmission, la décision du ministre, sa notification et son effet, écrits une fois. Le procureur général garde son appréciation dans le 1° et saisit le ministre dans le 2° ; l'avis du ministre dont relève le service sous un mois reste.",
       "ligne_rouge": "aucune (passe 1).",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Si l'exécution d'une demande d'entraide d'une autorité judiciaire étrangère est de nature à porter atteinte à l'ordre public ou aux intérêts essentiels de la Nation, le procureur de la République qui en est saisi, ou qui en est avisé par le juge d'instruction, la transmet au procureur général. Celui-ci détermine s'il y a lieu d'en saisir le ministre de la justice et en avise, le cas échéant, le juge d'instruction. Le ministre saisi informe, le cas échéant, l'autorité requérante qu'il ne peut être donné suite à sa demande, en tout ou partie. Cette information est notifiée à l'autorité judiciaire concernée et fait obstacle à l'exécution de la demande ou au retour des pièces d'exécution."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L6221-7",
-      "principe": "P19",
-      "motif": "Demandes en lien avec les services de renseignement : transmission au procureur général et au ministre, avis du ministre dont relève le service sous un mois, refus notifié : gardés (cité par L6123-24).",
-      "ligne_rouge": "aucune (passe 1) ; délai d'un mois gardé.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Si une demande d'entraide d'une autorité judiciaire étrangère concerne des faits commis hors du territoire national susceptibles d'être en lien avec les missions réalisées, aux fins de la défense et de la promotion des intérêts fondamentaux de la Nation prévus à l'article L. 811-3 du code de la sécurité intérieure, par un service spécialisé de renseignement prévu à l'article L. 811-2 du même code, le procureur de la République qui en est saisi, ou qui en est avisé par le juge d'instruction, la transmet au procureur général. Celui-ci saisit le ministre de la justice et en informe, le cas échéant, le juge d'instruction.\nLe ministre de la justice recueille l'avis du ministre dont relève le service, qui lui fait connaître dans le délai d'un mois si l'exécution de la demande est de nature à porter atteinte aux intérêts fondamentaux de la Nation. Le ministre de la justice informe, s'il y a lieu, l'autorité requérante qu'il ne peut être donné suite à sa demande, en tout ou partie. Cette décision est notifiée à l'autorité judiciaire initialement saisie et fait obstacle à l'exécution de la demande ou au retour des pièces d'exécution."
+          "nouveau": "Le procureur de la République saisi d'une demande d'entraide d'une autorité judiciaire étrangère, ou qui en est avisé par le juge d'instruction, la transmet au procureur général :\n1° Si son exécution est de nature à porter atteinte à l'ordre public ou aux intérêts essentiels de la Nation.\n2° Si elle concerne des faits commis hors du territoire national susceptibles d'être en lien avec les missions réalisées, aux fins de la défense et de la promotion des intérêts fondamentaux de la Nation prévus à l'article L. 811-3 du code de la sécurité intérieure, par un service spécialisé de renseignement prévu à l'article L. 811-2 du même code.\nLe procureur général détermine s'il y a lieu de saisir le ministre de la justice dans le cas du 1°, et le saisit dans le cas du 2°. Il en avise, le cas échéant, le juge d'instruction. Dans le cas du 2°, le ministre de la justice recueille l'avis du ministre dont relève le service, qui lui fait connaître dans le délai d'un mois si l'exécution de la demande est de nature à porter atteinte aux intérêts fondamentaux de la Nation.\nLe ministre de la justice informe, s'il y a lieu, l'autorité requérante qu'il ne peut être donné suite à sa demande, en tout ou partie. Cette décision est notifiée à l'autorité judiciaire saisie et fait obstacle à l'exécution de la demande ou au retour des pièces d'exécution."
         }
       ]
     },
@@ -122,14 +94,14 @@
     {
       "code": "cpp",
       "num": "L6222-4",
-      "principe": "P25",
-      "motif": "Citation d'un témoin résidant en France, sous garantie de non-poursuite, voie diplomatique : gardées (forme citée par L6222-5 et L6222-6).",
+      "principe": "P1",
+      "motif": "Citation d'un témoin résidant en France, sous garantie de non-poursuite, voie diplomatique : gardées (forme citée par L6222-5 et L6222-6). Passe 4 : la voie de transmission de la demande (voie diplomatique, ministres) descend au décret (P1, relations entre gouvernements, registre 10.152) ; la condition de non-poursuite du témoin reste mot pour mot.",
       "ligne_rouge": "aucune (passe 1) ; garantie de non-poursuite du témoin gardée.",
-      "decision": "S",
+      "decision": "D",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le gouvernement étranger qui estime nécessaire l'audition d'un témoin résidant en France peut demander au gouvernement français de remettre à cette personne une citation à comparaître devant les autorités étrangères. La citation n'est reçue et signifiée qu'à la condition que le témoin ne puisse être poursuivi ou détenu pour des faits ou condamnations antérieurs à son audition. La demande est adressée par la voie diplomatique au ministre des affaires étrangères, qui la transmet au ministre de la justice pour le procureur général compétent."
+          "nouveau": "Le gouvernement étranger qui estime nécessaire l'audition d'un témoin résidant en France peut demander au gouvernement français de remettre à cette personne une citation à comparaître devant les autorités étrangères. La citation n'est reçue et signifiée qu'à la condition que le témoin ne puisse être poursuivi ou détenu pour des faits ou condamnations antérieurs à son audition."
         }
       ]
     },
@@ -137,27 +109,27 @@
       "code": "cpp",
       "num": "L6222-5",
       "principe": "P23",
-      "motif": "Remise temporaire d'un détenu et communication de pièces à un État étranger : même règle (suite donnée sauf considérations particulières, retour dans le plus bref délai), un article (reçoit L6222-11).",
+      "motif": "Remise temporaire d'un détenu et communication de pièces à un État étranger : même règle (suite donnée sauf considérations particulières, retour dans le plus bref délai), un article (reçoit L6222-11). Passe 4 : le renvoi aux formes de L6222-4 sort avec la voie de transmission, descendue au décret ; la condition de renvoi du détenu et des pièces reste.",
       "ligne_rouge": "aucune (passe 1) ; la remise d'une personne détenue reste temporaire, à charge de retour dans le plus bref délai.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Selon les formes de l'article L. 6222-4, le gouvernement étranger peut demander au gouvernement français de lui remettre une personne détenue en vue d'une confrontation ou, dans une cause pénale instruite à l'étranger, de lui communiquer des pièces à conviction ou des documents qui se trouvent entre les mains des autorités françaises. Il est donné suite à la demande, à moins que des considérations particulières ne s'y opposent, à condition que le détenu, les pièces ou les documents soient renvoyés dans le plus bref délai."
+          "nouveau": "Le gouvernement étranger peut demander au gouvernement français de lui remettre une personne détenue en vue d'une confrontation ou, dans une cause pénale instruite à l'étranger, de lui communiquer des pièces à conviction ou des documents qui se trouvent entre les mains des autorités françaises. Il est donné suite à la demande, à moins que des considérations particulières ne s'y opposent, à condition que le détenu, les pièces ou les documents soient renvoyés dans le plus bref délai."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L6222-6",
-      "principe": "P13",
-      "motif": "Notification d'actes étrangers par signification à personne, coquille corrigée (passe 2) : gardée.",
+      "principe": "P1",
+      "motif": "Notification d'actes étrangers par signification à personne, coquille corrigée (passe 2) : gardée. Passe 4 : la voie de transmission et le renvoi de l'original descendent au décret (P1) ; la signification à personne à la requête du ministère public et la traduction restent.",
       "ligne_rouge": "aucune (passe 1) ; signification à personne gardée.",
-      "decision": "S",
+      "decision": "D",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "En cas de poursuites répressives exercées à l'étranger, lorsqu'un gouvernement étranger juge nécessaire la notification d'un acte de procédure ou d'un jugement à une personne résidant sur le territoire français, la pièce est transmise selon les formes de l'article L. 6222-4, accompagnée le cas échéant d'une traduction française. La signification est faite à personne, à la requête du ministère public. L'original qui constate la notification est renvoyé par la même voie au gouvernement requérant."
+          "nouveau": "En cas de poursuites répressives exercées à l'étranger, lorsqu'un gouvernement étranger juge nécessaire la notification d'un acte de procédure ou d'un jugement à une personne résidant sur le territoire français, la pièce, accompagnée le cas échéant d'une traduction française, est signifiée à personne, à la requête du ministère public."
         }
       ]
     },
@@ -179,23 +151,15 @@
       "code": "cpp",
       "num": "L6222-8",
       "principe": "P16",
-      "motif": "Infiltration par des agents étrangers : accord préalable et conditionnel du ministre, autorisation du procureur ou du juge d'instruction de Paris : gardés (cité par L6124-4).",
+      "motif": "Infiltration par des agents étrangers : accord préalable et conditionnel du ministre, autorisation du procureur ou du juge d'instruction de Paris : gardés (cité par L6124-4). Passe 4 : reçoit L6222-9 en second alinéa (participation d'agents étrangers à une infiltration conduite dans une procédure nationale), le chapitre 5 étant visé par renvoi au premier alinéa ; le champ et les conditions de la technique restent.",
       "ligne_rouge": "aucune (passe 1) ; la double autorisation (souveraineté, puis magistrat) est gardée.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Avec l'accord préalable du ministre de la justice, saisi d'une demande d'entraide à cette fin, des agents de police étrangers peuvent poursuivre sur le territoire national, sous la direction d'officiers de police judiciaire français, des opérations d'infiltration selon le chapitre 5 du titre VI du livre V de la troisième partie. Le ministre peut assortir son accord de conditions et ne le donne que si ces agents sont affectés dans leur pays à un service spécialisé et exercent des missions de police judiciaire. L'opération est ensuite autorisée par le procureur de la République près le tribunal judiciaire de Paris ou par le juge d'instruction du même ressort, dans les conditions des articles L. 3565-1, L. 3565-2 et L. 3565-6."
+          "nouveau": "Avec l'accord préalable du ministre de la justice, saisi d'une demande d'entraide à cette fin, des agents de police étrangers peuvent poursuivre sur le territoire national, sous la direction d'officiers de police judiciaire français, des opérations d'infiltration selon le chapitre 5 du titre VI du livre V de la troisième partie. Le ministre peut assortir son accord de conditions et ne le donne que si ces agents sont affectés dans leur pays à un service spécialisé et exercent des missions de police judiciaire. L'opération est ensuite autorisée par le procureur de la République près le tribunal judiciaire de Paris ou par le juge d'instruction du même ressort, dans les conditions des articles L. 3565-1, L. 3565-2 et L. 3565-6.\nAvec l'accord des autorités judiciaires étrangères, les agents de police étrangers mentionnés au premier alinéa peuvent aussi participer, selon le même chapitre et sous la direction d'officiers de police judiciaire français, à des opérations d'infiltration conduites sur le territoire français dans une procédure judiciaire nationale."
         }
       ]
-    },
-    {
-      "code": "cpp",
-      "num": "L6222-9",
-      "principe": "P3",
-      "motif": "Participation d'agents étrangers à une infiltration française : gardée mot pour mot (cité par L6124-4).",
-      "ligne_rouge": "aucune (passe 1).",
-      "decision": "G"
     },
     {
       "code": "cpp",
@@ -250,11 +214,10 @@
     {
       "code": "cpp",
       "num": "L6221-2",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Transmission directe en urgence et avis diplomatique : second alinéa de L6221-1.",
-      "ligne_rouge": "aucune",
-      "vers": "L6221-1"
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Passe 4 : la transmission directe en urgence et l'avis diplomatique descendent au décret en Conseil d'État avec L6221-1 (voies de transmission entre gouvernements).",
+      "ligne_rouge": "aucune"
     },
     {
       "code": "cpp",
@@ -309,6 +272,32 @@
       "motif": "Bureaux de recouvrement des avoirs : troisième alinéa de L6224-1.",
       "ligne_rouge": "aucune",
       "vers": "L6224-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L6221-1",
+      "decision": "A",
+      "principe": "P1",
+      "motif": "Passe 4 : les voies de transmission des demandes d'entraide (ministère de la justice, voie diplomatique, transmission directe en urgence et avis diplomatique) descendent au décret en Conseil d'État : elles règlent les relations entre gouvernements, et leur irrégularité n'emporte aucune nullité (L6221-4). La transmission au parquet ou au juge d'instruction en urgence reste à L6221-3.",
+      "ligne_rouge": "Examinée : aucune garantie de la personne ; l'irrégularité de transmission est sans nullité (L6221-4) et le refus pour ordre public reste à L6221-6."
+    },
+    {
+      "code": "cpp",
+      "num": "L6221-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 4 : le cas du service de renseignement devient le 2° de L6221-6, qui porte la même transmission, la même décision du ministre et le même effet ; l'avis sous un mois reste. L6123-24 (lot p201) vise désormais L6221-6 seul.",
+      "ligne_rouge": "Examinée : règle de souveraineté sans garantie de la personne ; délai d'un mois de l'avis et effet de la décision gardés à L6221-6.",
+      "vers": "L6221-6"
+    },
+    {
+      "code": "cpp",
+      "num": "L6222-9",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 4 : second alinéa de L6222-8, avec le même accord, le même chapitre et la même direction. L6124-3 (lot p201) vise désormais L6222-8 seul.",
+      "ligne_rouge": "Examinée : technique spéciale d'enquête, champ et conditions du chapitre 5 gardés mot pour mot.",
+      "vers": "L6222-8"
     }
   ],
   "passe": 3
