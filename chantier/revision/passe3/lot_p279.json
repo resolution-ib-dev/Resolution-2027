@@ -1,7 +1,7 @@
 {
   "lot": "lot_p279",
   "titre": "Action civile",
-  "ecart_volume": "Titre des habilitations : chaque article des associations porte une liste fermée d'infractions qui borne l'action civile et ne se résume pas sans l'étendre ou la restreindre (P18). Le régime commun de L1225-1 et ses deux termes définis font tomber toutes les formules de dérogation répétées.",
+  "ecart_volume": "Titre des habilitations : chaque article des associations porte une liste fermée d'infractions qui borne l'action civile et ne se résume pas sans l'étendre ou la restreindre (P18). Le régime commun de L1225-1 et ses deux termes définis font tomber toutes les formules de dérogation répétées. Passe 4 : le niveau du décret d'agrément se dit une fois, les renvois et incises redondants tombent. Écart motivé : 5 899 mots en 2029, 4 153 en passe 3, 4 064 en passe 4, pour un plafond de 3 539.",
   "articles_cible": [
     {
       "num": "L1221-1",
@@ -13,10 +13,10 @@
     },
     {
       "num": "L1221-2",
-      "texte": "L'action civile appartient à toute personne, physique ou morale, ayant personnellement souffert du dommage directement causé par l'infraction.\nLa personne qui exerce l'action civile a la qualité de partie civile.\nL'action civile appartient également, en l'absence de préjudice direct et personnel, aux personnes morales autorisées par les articles L. 1225-1 à L. 1225-28 ou par toute autre disposition législative à exercer les droits reconnus à la partie civile.",
+      "texte": "L'action civile appartient à toute personne, physique ou morale, ayant personnellement souffert du dommage directement causé par l'infraction.\nLa personne qui exerce l'action civile a la qualité de partie civile.\nL'action civile appartient également, en l'absence de préjudice direct et personnel, aux personnes morales que la loi autorise à exercer les droits reconnus à la partie civile.",
       "verbe": "S",
       "principe": "P18",
-      "motif": "Titulaires de l'action civile : article d'ancrage du titre. Alinéas séparés (« \\n ») là où la base les colle.",
+      "motif": "Titulaires de l'action civile : article d'ancrage du titre. Alinéas séparés (« \\n ») là où la base les colle. Passe 4 : le renvoi aux articles L1225-1 à L1225-28 « ou toute autre disposition législative » se dit « que la loi autorise », qui couvre les mêmes habilitations.",
       "ligne_rouge": "P18 : tenu mot pour mot"
     },
     {
@@ -53,10 +53,10 @@
     },
     {
       "num": "L1222-1",
-      "texte": "Dans les conditions prévues par le présent code, la partie civile peut exercer l'action civile devant une juridiction répressive :\n1° À titre incident, lorsque l'action pénale a déjà été mise en mouvement devant cette juridiction.\n2° À titre principal, en mettant elle-même l'action pénale en mouvement. Elle verse alors une consignation préalable, sauf dispense ou aide juridictionnelle.\nLe 2° ne s'applique pas aux infractions commises hors du territoire national que seul le ministère public peut poursuivre en application de l'article L. 1212-5.",
+      "texte": "La partie civile peut exercer l'action civile devant une juridiction répressive :\n1° À titre incident, lorsque l'action pénale a déjà été mise en mouvement devant cette juridiction.\n2° À titre principal, en mettant elle-même l'action pénale en mouvement. Elle verse alors une consignation préalable, sauf dispense ou aide juridictionnelle.\nLe 2° ne s'applique pas aux infractions commises hors du territoire national que seul le ministère public peut poursuivre en application de l'article L. 1212-5.",
       "verbe": "S",
       "principe": "P23",
-      "motif": "Action civile à titre incident ou principal, consignation, monopole du parquet pour certains faits commis à l'étranger : énumération sans point-virgule, coquille de passe 2 corrigée.",
+      "motif": "Action civile à titre incident ou principal, consignation, monopole du parquet pour certains faits commis à l'étranger : énumération sans point-virgule, coquille de passe 2 corrigée. Passe 4 : l'incise « dans les conditions prévues par le présent code » tombe (P23).",
       "ligne_rouge": "P18 examiné : la victime met l'action pénale en mouvement, la consignation cède devant la dispense et l'aide juridictionnelle"
     },
     {
@@ -101,34 +101,34 @@
     },
     {
       "num": "L1223-1",
-      "texte": "Lorsqu'une juridiction répressive s'est prononcée définitivement sur l'action pénale, sa décision a autorité de la chose jugée devant la juridiction civile, sous réserve des dispositions de l'article L. 1223-4.",
-      "verbe": "G",
+      "texte": "Lorsqu'une juridiction répressive s'est prononcée définitivement sur l'action pénale, sa décision a autorité de la chose jugée devant la juridiction civile, sous réserve de l'article L. 1223-4.",
+      "verbe": "S",
       "principe": "P21",
-      "motif": "Autorité au civil de la chose jugée au pénal.",
+      "motif": "Autorité au civil de la chose jugée au pénal. Passe 4 : « des dispositions de » tombe.",
       "ligne_rouge": "aucune"
     },
     {
       "num": "L1223-2",
-      "texte": "Si l'action civile en réparation du dommage causé par l'infraction prévue par le premier alinéa de l'article L. 1221-1 est exercée devant une juridiction civile alors que l'action pénale a été mise en mouvement, il est sursis au jugement civil tant qu'il n'a pas été définitivement statué sur l'action pénale, sous réserve des dispositions de l'article L. 1223-5.",
-      "verbe": "G",
+      "texte": "Si l'action civile en réparation du dommage causé par l'infraction est exercée devant une juridiction civile alors que l'action pénale a été mise en mouvement, il est sursis au jugement civil tant qu'il n'a pas été définitivement statué sur l'action pénale, sous réserve de l'article L. 1223-5.",
+      "verbe": "S",
       "principe": "P21",
-      "motif": "Sursis à statuer du juge civil sur la réparation, sauf référé.",
+      "motif": "Sursis à statuer du juge civil sur la réparation, sauf référé. Passe 4 : le renvoi au premier alinéa de L1221-1 tombe, « causé par l'infraction » disant déjà l'objet de réparation, et « des dispositions de » tombe. Sursis et réserve du référé inchangés.",
       "ligne_rouge": "aucune"
     },
     {
       "num": "L1223-3",
-      "texte": "La mise en mouvement de l'action pénale n'impose pas la suspension du jugement des autres actions exercées devant la juridiction civile, de quelque nature qu'elles soient, même si la décision à intervenir au pénal est susceptible d'exercer, directement ou indirectement, une influence sur la solution du procès civil.",
-      "verbe": "G",
+      "texte": "La mise en mouvement de l'action pénale n'impose pas de surseoir au jugement des autres actions exercées devant la juridiction civile, de quelque nature qu'elles soient, même si la décision pénale peut influer, directement ou indirectement, sur la solution du procès civil.",
+      "verbe": "S",
       "principe": "P19",
-      "motif": "Pas de sursis pour les autres actions civiles.",
+      "motif": "Pas de sursis pour les autres actions civiles. Passe 4 : phrase resserrée, la faculté de ne pas surseoir étant inchangée.",
       "ligne_rouge": "aucune"
     },
     {
       "num": "L1223-4",
-      "texte": "L'absence de faute pénale non intentionnelle au sens de l'article 121-3 du code pénal ne fait pas obstacle à l'exercice d'une action devant les juridictions civiles afin d'obtenir la réparation d'un dommage :1° Sur le fondement de l'article 1241 du code civil si l'existence de la faute civile prévue par cet article est établie ;2° Ou en application de l'article L. 452-1 du code de la sécurité sociale si l'existence de la faute inexcusable prévue par cet article est établie.",
-      "verbe": "G",
+      "texte": "L'absence de faute pénale non intentionnelle au sens de l'article 121-3 du code pénal ne fait pas obstacle à l'exercice d'une action devant les juridictions civiles afin d'obtenir la réparation d'un dommage :\n1° Sur le fondement de l'article 1241 du code civil si l'existence de la faute civile prévue par cet article est établie.\n2° Ou en application de l'article L. 452-1 du code de la sécurité sociale si l'existence de la faute inexcusable prévue par cet article est établie.",
+      "verbe": "S",
       "principe": "P18",
-      "motif": "Faute civile ou inexcusable malgré l'absence de faute pénale non intentionnelle.",
+      "motif": "Faute civile ou inexcusable malgré l'absence de faute pénale non intentionnelle. Passe 4 : énumération sans point-virgule, alinéas séparés. Texte inchangé.",
       "ligne_rouge": "aucune"
     },
     {
@@ -157,10 +157,10 @@
     },
     {
       "num": "L1225-1",
-      "texte": "Les associations mentionnées au présent chapitre peuvent exercer les droits reconnus à la partie civile, ci-après « agir », pour les infractions qu'il désigne, lorsqu'elles portent atteinte à leur objet statutaire.\nSauf disposition contraire, ces associations :\n1° Sont régulièrement déclarées depuis au moins cinq ans à la date des faits.\n2° N'agissent qu'à titre incident, lorsque l'action pénale a déjà été mise en mouvement par le ministère public ou par la personne lésée.\n3° Justifient de l'accord de la personne intéressée lorsque l'infraction est commise envers une ou plusieurs personnes considérées individuellement. Pour un mineur ou un majeur protégé, l'accord est donné par le titulaire de l'autorité parentale ou le représentant légal. Pour une personne décédée en raison de l'infraction, il est donné par un ayant droit.\nL'association qui agit « à titre principal » peut mettre elle-même l'action pénale en mouvement. L'association qui agit « sans accord » n'a pas à justifier de l'accord prévu au 3°.",
+      "texte": "Les associations mentionnées au présent chapitre peuvent exercer les droits reconnus à la partie civile, ci-après « agir », pour les infractions qu'il désigne, lorsqu'elles portent atteinte à leur objet statutaire.\nSauf disposition contraire, ces associations :\n1° Sont régulièrement déclarées depuis au moins cinq ans à la date des faits.\n2° N'agissent qu'à titre incident, lorsque l'action pénale a déjà été mise en mouvement par le ministère public ou par la personne lésée.\n3° Justifient de l'accord de la personne intéressée lorsque l'infraction est commise envers une ou plusieurs personnes considérées individuellement. Pour un mineur ou un majeur protégé, l'accord est donné par le titulaire de l'autorité parentale ou le représentant légal. Pour une personne décédée en raison de l'infraction, il est donné par un ayant droit.\nL'association qui agit « à titre principal » peut mettre elle-même l'action pénale en mouvement. L'association qui agit « sans accord » n'a pas à justifier de l'accord prévu au 3°.\nSauf disposition contraire, les conditions de l'agrément ou de l'inscription prévus au présent chapitre sont fixées par décret en Conseil d'État.",
       "verbe": "R",
       "principe": "P2",
-      "motif": "Régime commun de l'action civile des associations (P2) : conditions communes, puis deux termes définis une fois (« à titre principal », « sans accord ») qui disent chaque dérogation en trois mots dans les articles suivants. La référence à « la présente sous-section » se corrige en chapitre (passe 2).",
+      "motif": "Régime commun de l'action civile des associations (P2) : conditions communes, puis deux termes définis une fois (« à titre principal », « sans accord ») qui disent chaque dérogation en trois mots dans les articles suivants. La référence à « la présente sous-section » se corrige en chapitre (passe 2). Passe 4 : reçoit la règle unique du niveau de décret de l'agrément et de l'inscription, que sept articles répétaient.",
       "ligne_rouge": "P18 examiné : l'accord de la victime reste la règle, sa dispense est nommée article par article. Art. 9 DDHC examiné : l'action principale d'une association n'ôte rien aux droits de la personne poursuivie"
     },
     {
@@ -229,10 +229,10 @@
     },
     {
       "num": "L1225-10",
-      "texte": "Toute association inscrite auprès de l'Office national des combattants et des victimes de guerre dans des conditions fixées par décret en Conseil d'État, dont l'objet statutaire est de défendre les intérêts moraux et l'honneur des anciens combattants et victimes de guerre et des morts pour la France, peut agir à titre principal et sans accord pour les dégradations ou destructions de monuments et les violations de sépultures qui ont causé un préjudice direct ou indirect à la mission qu'elle remplit.",
+      "texte": "Toute association inscrite auprès de l'Office national des combattants et des victimes de guerre, dont l'objet statutaire est de défendre les intérêts moraux et l'honneur des anciens combattants et victimes de guerre et des morts pour la France, peut agir à titre principal et sans accord pour les dégradations ou destructions de monuments et les violations de sépultures qui ont causé un préjudice direct ou indirect à la mission qu'elle remplit.",
       "verbe": "S",
       "principe": "P2",
-      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Monuments et sépultures des anciens combattants, inscription auprès de l'Office national.",
+      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Monuments et sépultures des anciens combattants, inscription auprès de l'Office national. Passe 4 : la mention « dans des conditions fixées par décret en Conseil d'État » de l'agrément ou de l'inscription se dit une fois à L1225-1, qui en fait la règle du chapitre sauf disposition contraire (L1225-14 et L1225-19, premier alinéa, gardent leur décret simple). Niveau du décret et condition d'agrément inchangés.",
       "ligne_rouge": "P18 examiné : le champ d'infractions et les conditions de l'habilitation sont tenus en entier"
     },
     {
@@ -253,10 +253,10 @@
     },
     {
       "num": "L1225-13",
-      "texte": "Toute association dont l'objet statutaire comporte la défense ou l'assistance de l'enfant en danger et victime de toutes formes de maltraitance peut agir sans accord pour les atteintes volontaires à la vie et à l'intégrité, les agressions et autres atteintes sexuelles commises sur un mineur et les infractions de mise en péril des mineurs réprimées par les articles 221-1 à 221-5, 222-1 à 222-18-1, 222-23 à 222-33, 223-1 à 223-10, 223-13, 224-1 à 224-5, 225-7 à 225-9, 225-12-1, 225-12-2, 227-1, 227-2 et 227-15 à 227-27 du code pénal.\nSi elle est inscrite auprès du ministère de la justice dans des conditions fixées par décret en Conseil d'État, elle agit à titre principal pour l'infraction prévue à l'article 227-23 du code pénal et lorsqu'il est fait application du troisième alinéa de l'article 222-22 ou du 4° du II de l'article 229-3 du même code.",
+      "texte": "Toute association dont l'objet statutaire comporte la défense ou l'assistance de l'enfant en danger et victime de toutes formes de maltraitance peut agir sans accord pour les atteintes volontaires à la vie et à l'intégrité, les agressions et autres atteintes sexuelles commises sur un mineur et les infractions de mise en péril des mineurs réprimées par les articles 221-1 à 221-5, 222-1 à 222-18-1, 222-23 à 222-33, 223-1 à 223-10, 223-13, 224-1 à 224-5, 225-7 à 225-9, 225-12-1, 225-12-2, 227-1, 227-2 et 227-15 à 227-27 du code pénal.\nSi elle est inscrite auprès du ministère de la justice, elle agit à titre principal pour l'infraction prévue à l'article 227-23 du code pénal et lorsqu'il est fait application du troisième alinéa de l'article 222-22 ou du 4° du II de l'article 229-3 du même code.",
       "verbe": "S",
       "principe": "P2",
-      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Enfance maltraitée, sans accord, action principale pour la pédopornographie et l'inceste. Coordination (passe 3) : les plages s'arrêtent aux derniers articles gardés (222-33-1 et 225-12-4 passent à 131-39, 225-12-3 et 227-27-1 à 229-3, lot p045). La compétence de l'ancien 227-27-1 est au 4° du II de 229-3.",
+      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Enfance maltraitée, sans accord, action principale pour la pédopornographie et l'inceste. Coordination (passe 3) : les plages s'arrêtent aux derniers articles gardés (222-33-1 et 225-12-4 passent à 131-39, 225-12-3 et 227-27-1 à 229-3, lot p045). La compétence de l'ancien 227-27-1 est au 4° du II de 229-3. Passe 4 : la mention « dans des conditions fixées par décret en Conseil d'État » de l'agrément ou de l'inscription se dit une fois à L1225-1, qui en fait la règle du chapitre sauf disposition contraire (L1225-14 et L1225-19, premier alinéa, gardent leur décret simple). Niveau du décret et condition d'agrément inchangés.",
       "ligne_rouge": "P18 examiné : le champ d'infractions et les conditions de l'habilitation sont tenus en entier"
     },
     {
@@ -277,10 +277,10 @@
     },
     {
       "num": "L1225-16",
-      "texte": "Toute association reconnue d'utilité publique ou agréée dans des conditions fixées par décret en Conseil d'État, dont l'objet statutaire est de défendre et d'assister l'individu ou de défendre les droits et libertés individuels et collectifs, peut agir à titre principal et sans accord à l'occasion d'actes commis par toute personne physique ou morale dans le cadre d'un mouvement ou d'une organisation ayant pour but ou pour effet de créer, de maintenir ou d'exploiter une sujétion psychologique ou physique, pour :\n1° Les infractions prévues par les articles 214-1 à 214-4, 221-1 à 221-6, 222-1 à 222-40, 223-1 à 223-14, 223-15-2, 223-15-3, 224-1 à 224-4, 225-4-13, 225-5 à 225-15, 225-17, 226-1 à 226-23, 227-1 à 227-27, 311-1 à 311-13, 312-1 à 312-12, 313-1 à 313-3, 314-1 à 314-3, 324-1 à 324-6 et 511-1-2 du code pénal.\n2° Les infractions d'exercice illégal de la médecine ou de la pharmacie prévues par les articles L. 4161-5 et L. 4223-1 du code de la santé publique.\n3° Les infractions de publicité mensongère, de fraudes ou de falsifications prévues par les articles L. 121-6 et L. 213-1 à L. 213-4 du code de la consommation.",
+      "texte": "Toute association reconnue d'utilité publique ou agréée, dont l'objet statutaire est de défendre et d'assister l'individu ou de défendre les droits et libertés individuels et collectifs, peut agir à titre principal et sans accord à l'occasion d'actes commis par toute personne physique ou morale dans le cadre d'un mouvement ou d'une organisation ayant pour but ou pour effet de créer, de maintenir ou d'exploiter une sujétion psychologique ou physique, pour :\n1° Les infractions prévues par les articles 214-1 à 214-4, 221-1 à 221-6, 222-1 à 222-40, 223-1 à 223-14, 223-15-2, 223-15-3, 224-1 à 224-4, 225-4-13, 225-5 à 225-15, 225-17, 226-1 à 226-23, 227-1 à 227-27, 311-1 à 311-13, 312-1 à 312-12, 313-1 à 313-3, 314-1 à 314-3, 324-1 à 324-6 et 511-1-2 du code pénal.\n2° Les infractions d'exercice illégal de la médecine ou de la pharmacie prévues par les articles L. 4161-5 et L. 4223-1 du code de la santé publique.\n3° Les infractions de publicité mensongère, de fraudes ou de falsifications prévues par les articles L. 121-6 et L. 213-1 à L. 213-4 du code de la consommation.",
       "verbe": "S",
       "principe": "P15",
-      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Dérives sectaires, à titre principal et sans accord. L'avis du ministère public sur l'agrément tombe (registre 9.19, P15). La plage « 312-1 à 312-12 » reste telle quelle. Coordination (passe 3) : 223-15, règle de presse, passe à 229-7 (lot p045) : la plage s'arrête à 223-14.",
+      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Dérives sectaires, à titre principal et sans accord. L'avis du ministère public sur l'agrément tombe (registre 9.19, P15). La plage « 312-1 à 312-12 » reste telle quelle. Coordination (passe 3) : 223-15, règle de presse, passe à 229-7 (lot p045) : la plage s'arrête à 223-14. Passe 4 : la mention « dans des conditions fixées par décret en Conseil d'État » de l'agrément ou de l'inscription se dit une fois à L1225-1, qui en fait la règle du chapitre sauf disposition contraire (L1225-14 et L1225-19, premier alinéa, gardent leur décret simple). Niveau du décret et condition d'agrément inchangés.",
       "ligne_rouge": "P18 examiné : le champ d'infractions et les conditions de l'habilitation sont tenus en entier"
     },
     {
@@ -301,10 +301,10 @@
     },
     {
       "num": "L1225-19",
-      "texte": "Toute association agréée à cette fin dont l'objet statutaire est la défense des victimes d'un accident survenu dans les transports collectifs, dans un lieu ou local ouvert au public ou dans une propriété privée à usage d'habitation ou professionnel, et qui regroupe plusieurs de ces victimes, peut agir sans accord pour cet accident, quelle que soit son ancienneté. Un décret fixe les conditions de l'agrément, selon la représentativité de l'association.\nToute fédération d'associations inscrite auprès du ministère de la justice dans des conditions fixées par décret en Conseil d'État, dont l'objet statutaire est la défense des victimes d'accidents collectifs, peut agir sans accord pour un accident collectif survenu dans ces circonstances.\nCes associations et fédérations peuvent demander réparation des frais exposés en lien avec l'accident qui sont la conséquence directe ou indirecte de l'infraction.",
+      "texte": "Toute association agréée à cette fin dont l'objet statutaire est la défense des victimes d'un accident survenu dans les transports collectifs, dans un lieu ou local ouvert au public ou dans une propriété privée à usage d'habitation ou professionnel, et qui regroupe plusieurs de ces victimes, peut agir sans accord pour cet accident, quelle que soit son ancienneté. Un décret fixe les conditions de l'agrément, selon la représentativité de l'association.\nToute fédération d'associations inscrite auprès du ministère de la justice, dont l'objet statutaire est la défense des victimes d'accidents collectifs, peut agir sans accord pour un accident collectif survenu dans ces circonstances.\nCes associations et fédérations peuvent demander réparation des frais exposés en lien avec l'accident qui sont la conséquence directe ou indirecte de l'infraction.",
       "verbe": "S",
       "principe": "P15",
-      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Accidents collectifs, fédérations inscrites, frais exposés. L'avis préalable du ministère public sur l'agrément tombe (P15, passe 2).",
+      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Accidents collectifs, fédérations inscrites, frais exposés. L'avis préalable du ministère public sur l'agrément tombe (P15, passe 2). Passe 4 : la mention « dans des conditions fixées par décret en Conseil d'État » de l'agrément ou de l'inscription se dit une fois à L1225-1, qui en fait la règle du chapitre sauf disposition contraire (L1225-14 et L1225-19, premier alinéa, gardent leur décret simple). Niveau du décret et condition d'agrément inchangés.",
       "ligne_rouge": "P18 examiné : le champ d'infractions et les conditions de l'habilitation sont tenus en entier"
     },
     {
@@ -333,18 +333,18 @@
     },
     {
       "num": "L1225-23",
-      "texte": "Toute association agréée dans des conditions fixées par décret en Conseil d'État, qui a pour but l'étude et la protection du patrimoine défini à l'article L. 1 du code du patrimoine, peut agir à titre principal et sans accord pour les faits réprimés aux articles 311-4-2 et 322-3-1 du code pénal et à l'article L. 114-1 du code du patrimoine qui portent un préjudice direct ou indirect aux intérêts collectifs qu'elle défend. Elle est déclarée depuis au moins trois ans à la date des faits.",
+      "texte": "Toute association agréée, qui a pour but l'étude et la protection du patrimoine défini à l'article L. 1 du code du patrimoine, peut agir à titre principal et sans accord pour les faits réprimés aux articles 311-4-2 et 322-3-1 du code pénal et à l'article L. 114-1 du code du patrimoine qui portent un préjudice direct ou indirect aux intérêts collectifs qu'elle défend. Elle est déclarée depuis au moins trois ans à la date des faits.",
       "verbe": "S",
       "principe": "P2",
-      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Patrimoine, associations agréées, trois ans d'ancienneté.",
+      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Patrimoine, associations agréées, trois ans d'ancienneté. Passe 4 : la mention « dans des conditions fixées par décret en Conseil d'État » de l'agrément ou de l'inscription se dit une fois à L1225-1, qui en fait la règle du chapitre sauf disposition contraire (L1225-14 et L1225-19, premier alinéa, gardent leur décret simple). Niveau du décret et condition d'agrément inchangés.",
       "ligne_rouge": "P18 examiné : le champ d'infractions et les conditions de l'habilitation sont tenus en entier"
     },
     {
       "num": "L1225-24",
-      "texte": "Toute association agréée dans des conditions fixées par décret en Conseil d'État qui se propose par ses statuts la défense de la langue française peut agir à titre principal et sans accord, quelle que soit son ancienneté, pour les infractions aux textes pris pour l'application des articles 2, 3, 4, 6, 7 et 10 de la loi n° 94-665 du 4 août 1994 relative à l'emploi de la langue française.",
+      "texte": "Toute association agréée qui se propose par ses statuts la défense de la langue française peut agir à titre principal et sans accord, quelle que soit son ancienneté, pour les infractions aux textes pris pour l'application des articles 2, 3, 4, 6, 7 et 10 de la loi n° 94-665 du 4 août 1994 relative à l'emploi de la langue française.",
       "verbe": "S",
       "principe": "P2",
-      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Langue française, associations agréées sans condition d'ancienneté.",
+      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Langue française, associations agréées sans condition d'ancienneté. Passe 4 : la mention « dans des conditions fixées par décret en Conseil d'État » de l'agrément ou de l'inscription se dit une fois à L1225-1, qui en fait la règle du chapitre sauf disposition contraire (L1225-14 et L1225-19, premier alinéa, gardent leur décret simple). Niveau du décret et condition d'agrément inchangés.",
       "ligne_rouge": "P18 examiné : le champ d'infractions et les conditions de l'habilitation sont tenus en entier"
     },
     {
@@ -365,10 +365,10 @@
     },
     {
       "num": "L1225-27",
-      "texte": "Toute association agréée dans des conditions fixées par décret en Conseil d'État qui se propose par ses statuts de lutter contre la corruption peut agir à titre principal et sans accord pour :\n1° Les manquements au devoir de probité réprimés aux articles 432-10 à 432-15 du code pénal.\n2° La corruption et le trafic d'influence réprimés aux articles 433-1, 433-2, 434-9, 434-9-1, 435-1 à 435-10 et 445-1 à 445-2-1 du même code.\n3° Le recel ou le blanchiment, réprimés aux articles 321-1, 321-2, 324-1 et 324-2 du même code, du produit, des revenus ou des choses provenant des infractions mentionnées aux 1° et 2°.\n4° Les infractions réprimées aux articles L. 106 à L. 109 du code électoral.",
+      "texte": "Toute association agréée qui se propose par ses statuts de lutter contre la corruption peut agir à titre principal et sans accord pour :\n1° Les manquements au devoir de probité réprimés aux articles 432-10 à 432-15 du code pénal.\n2° La corruption et le trafic d'influence réprimés aux articles 433-1, 433-2, 434-9, 434-9-1, 435-1 à 435-10 et 445-1 à 445-2-1 du même code.\n3° Le recel ou le blanchiment, réprimés aux articles 321-1, 321-2, 324-1 et 324-2 du même code, du produit, des revenus ou des choses provenant des infractions mentionnées aux 1° et 2°.\n4° Les infractions réprimées aux articles L. 106 à L. 109 du code électoral.",
       "verbe": "S",
       "principe": "P2",
-      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Corruption, associations agréées. Le champ fermé reste la condition de l'habilitation.",
+      "motif": "Action civile d'une association pour un champ d'infractions nommé : la défense collective des victimes s'ajoute au parquet (P18), le champ fermé borne l'action. Les conditions communes et leurs dérogations se disent par les termes définis à L1225-1 (« à titre principal », « sans accord ») : les formules « conformément à » et « par dérogation à » tombent. Corruption, associations agréées. Le champ fermé reste la condition de l'habilitation. Passe 4 : la mention « dans des conditions fixées par décret en Conseil d'État » de l'agrément ou de l'inscription se dit une fois à L1225-1, qui en fait la règle du chapitre sauf disposition contraire (L1225-14 et L1225-19, premier alinéa, gardent leur décret simple). Niveau du décret et condition d'agrément inchangés.",
       "ligne_rouge": "P18 examiné : le champ d'infractions et les conditions de l'habilitation sont tenus en entier"
     },
     {
@@ -408,7 +408,7 @@
       "vers": "L1221-2"
     },
     "L1221-2#3": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L1221-2"
     },
     "L1221-3#1": {
@@ -508,19 +508,19 @@
       "vers": "L1222-6"
     },
     "L1223-1#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L1223-1"
     },
     "L1223-2#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L1223-2"
     },
     "L1223-3#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L1223-3"
     },
     "L1223-4#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L1223-4"
     },
     "L1223-5#1": {
