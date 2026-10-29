@@ -25,13 +25,13 @@
       "code": "cpp",
       "num": "L4462-2",
       "principe": "P5",
-      "motif": "Ordonnance du juge en un article : saisine (L4462-1), peines, renvoi au débat (L4462-3), mentions et motivation (L4462-4).",
+      "motif": "Ordonnance du juge en un article : saisine (L4462-1), peines, renvoi au débat (L4462-3), mentions et motivation (L4462-4). Passe 4 : l'identité du prévenu se dit en un mot, comme à L4521-3 ; la qualification, les textes applicables, les peines et la motivation restent écrits. Le détail de l'état civil descend au décret.",
       "ligne_rouge": "Individualisation au prononcé (art. 8 DDHC) : le juge garde le renvoi au débat contradictoire ; le travail d'intérêt général exige l'accord de la personne.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le procureur de la République communique le dossier de la poursuite et ses réquisitions au président du tribunal judiciaire ou au juge qu'il délègue. Le juge statue sans débat préalable par une ordonnance pénale de relaxe ou de condamnation. Il peut prononcer une amende dans le plafond de l'article L. 4461-1, une ou plusieurs des peines complémentaires encourues, même à titre principal, et les peines des articles 131-5 à 131-8-1 du code pénal. Il ne prononce le travail d'intérêt général que si la personne a déclaré au cours de l'enquête qu'elle l'accepterait. Il renvoie le dossier au procureur de la République s'il estime utile un débat contradictoire ou nécessaire une peine d'emprisonnement ou une amende supérieure à ce plafond.\nL'ordonnance mentionne les nom, prénoms, date et lieu de naissance et domicile du prévenu, la qualification légale, la date et le lieu du fait, les textes applicables et, en cas de condamnation, les peines prononcées. Elle est motivée, notamment au regard de l'article L. 4461-1."
+          "nouveau": "Le procureur de la République communique le dossier de la poursuite et ses réquisitions au président du tribunal judiciaire ou au juge qu'il délègue. Le juge statue sans débat préalable par une ordonnance pénale de relaxe ou de condamnation. Il peut prononcer une amende dans le plafond de l'article L. 4461-1, une ou plusieurs des peines complémentaires encourues, même à titre principal, et les peines des articles 131-5 à 131-8-1 du code pénal. Il ne prononce le travail d'intérêt général que si la personne a déclaré au cours de l'enquête qu'elle l'accepterait. Il renvoie le dossier au procureur de la République s'il estime utile un débat contradictoire ou nécessaire une peine d'emprisonnement ou une amende supérieure à ce plafond.\nL'ordonnance mentionne l'identité et le domicile du prévenu, la qualification légale, la date et le lieu du fait, les textes applicables et, en cas de condamnation, les peines prononcées. Elle est motivée, notamment au regard de l'article L. 4461-1."
         }
       ]
     },
@@ -67,21 +67,27 @@
       "code": "cpp",
       "num": "L4462-8",
       "principe": "P10",
-      "motif": "Exécution à défaut d'opposition : inchangé.",
+      "motif": "Exécution à défaut d'opposition : inchangé. Passe 4 : l'exécution à défaut d'opposition se dit en phrases courtes, sans changer les effets de l'ordonnance.",
       "ligne_rouge": "aucune",
-      "decision": "G"
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En l'absence d'opposition du prévenu, l'ordonnance s'exécute comme un jugement délictuel. Elle a les effets d'un jugement passé en force de chose jugée, sauf opposition ou si le procureur de la République l'a portée à l'audience du tribunal délictuel. L'ordonnance pénale statuant uniquement sur l'action pénale n'a pas l'autorité de la chose jugée à l'égard de l'action civile en réparation des dommages causés par l'infraction."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4462-9",
       "principe": "P11",
-      "motif": "Opposition du prévenu en un article : délai, arrêt du recouvrement (L4462-10), audience (L4462-11), renonciation (L4462-12), défaut (L4462-13).",
+      "motif": "Opposition du prévenu en un article : délai, arrêt du recouvrement (L4462-10), audience (L4462-11), renonciation (L4462-12), défaut (L4462-13). Passe 4 : le renvoi aux modalités réglementaires tombe (registre 10.128). L'opposition au jugement rendu par défaut sur opposition reste écrite : L4441-1 ne vise que la personne régulièrement citée, et L4521-9 ferme cette voie en matière contraventionnelle.",
       "ligne_rouge": "Opposition : délai de quarante-cinq jours, délai qui ne court que de la connaissance effective, recouvrement arrêté, gardés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "L'opposition du prévenu est formée, selon des modalités fixées par voie réglementaire, dans les quarante-cinq jours de la notification de l'ordonnance. S'il n'est pas établi que le prévenu a reçu l'envoi, l'opposition reste recevable dans les trente jours du jour où il a eu connaissance, par un acte d'exécution ou par tout autre moyen, de la condamnation ainsi que du délai et des formes de l'opposition.\nLe comptable public arrête le recouvrement de l'amende dès réception de l'avis d'opposition établi par le greffe, et le procureur de la République porte l'affaire à l'audience du tribunal délictuel. Le prévenu peut renoncer expressément à son opposition jusqu'à l'ouverture des débats. L'ordonnance reprend alors sa force exécutoire, sans nouvelle opposition possible. Le jugement rendu par défaut sur l'opposition du prévenu est susceptible d'opposition selon le titre IV du présent livre."
+          "nouveau": "L'opposition du prévenu est formée dans les quarante-cinq jours de la notification de l'ordonnance. S'il n'est pas établi que le prévenu a reçu l'envoi, l'opposition reste recevable dans les trente jours du jour où il a eu connaissance, par un acte d'exécution ou par tout autre moyen, de la condamnation ainsi que du délai et des formes de l'opposition.\nLe comptable public arrête le recouvrement de l'amende dès réception de l'avis d'opposition établi par le greffe, et le procureur de la République porte l'affaire à l'audience du tribunal délictuel. Le prévenu peut renoncer expressément à son opposition jusqu'à l'ouverture des débats. L'ordonnance reprend alors sa force exécutoire, sans nouvelle opposition possible. Le jugement rendu par défaut sur l'opposition du prévenu est susceptible d'opposition selon le titre IV du présent livre."
         }
       ]
     },
@@ -103,13 +109,13 @@
       "code": "cpp",
       "num": "L4462-18",
       "principe": "P18",
-      "motif": "Droits de la victime hors ordonnance en un article : citation directe sur intérêts civils, information de la victime (L4462-19), juge unique (L4462-20).",
+      "motif": "Droits de la victime hors ordonnance en un article : citation directe sur intérêts civils, information de la victime (L4462-19), juge unique (L4462-20). Passe 4 : l'information de la victime, la citation par le procureur à sa demande, l'avis de l'audience et le jugement des seuls intérêts civils au vu du dossier tiennent par renvoi au second alinéa de L4452-10, qui porte la même règle pour la reconnaissance préalable de culpabilité. La citation directe sur intérêts civils et le juge unique restent écrits.",
       "ligne_rouge": "Droits de la victime (P18) : la voie civile reste ouverte et la victime en est informée.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Hors les cas de l'article L. 4462-14, l'ordonnance pénale ne fait pas obstacle au droit de la partie lésée de citer l'auteur des faits devant le tribunal délictuel, qui ne statue que sur les intérêts civils si l'ordonnance a acquis force de chose jugée. Le procureur de la République informe la victime identifiée qui n'a pu se constituer partie civile selon cet article, ou sur la demande de laquelle il n'a pas été statué, qu'elle peut lui demander de citer l'auteur des faits à une audience du tribunal délictuel, dont elle est avisée de la date pour se constituer partie civile. Le tribunal statue alors sur les seuls intérêts civils, au vu du dossier versé au débat.\nLorsque le tribunal délictuel statue sur l'action civile dans les cas du présent article et de l'article L. 4462-14, il siège à juge unique, sans que la présence du procureur de la République soit nécessaire."
+          "nouveau": "Hors les cas de l'article L. 4462-14, l'ordonnance pénale ne fait pas obstacle au droit de la partie lésée de citer l'auteur des faits devant le tribunal délictuel, qui ne statue que sur les intérêts civils si l'ordonnance a acquis force de chose jugée. La victime identifiée qui n'a pu se constituer partie civile selon l'article L. 4462-14, ou sur la demande de laquelle il n'a pas été statué, est informée de son droit de demander au procureur de la République de citer l'auteur des faits, et avisée de l'audience, selon le second alinéa de l'article L. 4452-10.\nLorsque le tribunal délictuel statue sur l'action civile dans les cas du présent article et de l'article L. 4462-14, il siège à juge unique, sans que la présence du procureur de la République soit nécessaire."
         }
       ]
     },
