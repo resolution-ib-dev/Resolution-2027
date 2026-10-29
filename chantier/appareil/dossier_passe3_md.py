@@ -27,6 +27,7 @@ DEC = CHANTIER / "revision" / "decisions"
 OUT = CHANTIER / "livrables"
 REGISTRE = CHANTIER / "revision" / "registre_arbitrages_penal.md"
 GRILLE = CHANTIER / "revision" / "grille_principes.json"
+POINTS = CHANTIER / "revision" / "points_a_confirmer.md"
 BILAN = CHANTIER / "referentiels" / "sobriete_penal_bilan.json"
 
 BLOCS = (("cppL", "Code de procédure pénale, partie législative", 0.40),
@@ -36,7 +37,7 @@ BLOCS = (("cppL", "Code de procédure pénale, partie législative", 0.40),
 NOMS = {"cpp": "du code de procédure pénale", "cp": "du code pénal", "penitentiaire": "du code pénitentiaire"}
 
 # principes validés par l'auteur, avec la date (procédure et registre, sections 1)
-VALIDES = {"P14": "validé 20261020", "P20": "validé 20261023", "P26": "validé 20261023",
+VALIDES = {"P14": "validé 20261020", "P20": "validé 20261023", "P26": "validé 20261023 (minorité ajoutée par délégation, 3.1)",
            "P27": "validé 20261023"}
 
 # libellés des verbes de la cible, au pluriel
@@ -119,6 +120,27 @@ def registre():
     return out
 
 
+COLONNES = {"À votre main": ("<!-- corps : 16 -->", "<!-- colonnes : 0.04, 0.17, 0.33, 0.30, 0.16 -->"),
+            "Le registre par matière": ("<!-- corps : 16 -->", "<!-- colonnes : 0.20, 0.12, 0.50, 0.18 -->")}
+
+
+def points():
+    """Sections de points_a_confirmer.md, titres promus au niveau 1, en-tête de fichier omis."""
+    out, garde = [], False
+    for ligne in POINTS.read_text(encoding="utf-8").splitlines():
+        if ligne.startswith("## "):
+            garde = True
+            titre = ligne[3:].strip()
+            out += ["# " + typo(titre), ""]
+            continue
+        if not garde:
+            continue
+        if ligne.startswith("| n° |") or ligne.startswith("| matière |"):
+            out += list(COLONNES[titre])
+        out.append(typo(ligne) if ligne.startswith("|") or ligne.strip() else ligne)
+    return out + [""]
+
+
 def court(t, n=900):
     """Cellule d'exemple bornée : au-delà de n signes, la suite devient « […] »."""
     if len(t) <= n:
@@ -191,13 +213,10 @@ def dossier(ps, bilan, textes):
     L += ["# Grille des principes", "", "<!-- colonnes : 0.07, 0.75, 0.18 -->", "| n° | Principe | Statut |", "|---|---|---|"]
     for p in json.loads(GRILLE.read_text(encoding="utf-8"))["principes"]:
         L.append(f"| {p['id']} | {typo(p['enonce'])} | {VALIDES.get(p['id'], 'à confirmer')} |")
-    L += ["", typo("*Les lignes 1.1 à 1.5 du registre citent P4 et P5 au sens du barème ; la grille range le barème sous P14.*"), ""]
-    L += ["# Annexe : registre des arbitrages délégués", "",
-          typo("Une ligne par décision déléguée, à confirmer ou révoquer. Les décisions validées par l'auteur n'y figurent pas."), "",
-          "<!-- corps : 16 -->", "<!-- colonnes : 0.07, 0.12, 0.69, 0.12 -->", "| n° | Point | Décision | Principe |", "|---|---|---|---|"]
-    for sec, n, point, dec, pr, statut in registre():
-        if statut.startswith("délégué"):
-            L.append(f"| {n} | {typo(point)} | {typo(dec)} | {pr} |")
+    L += [""]
+    L += points()
+    n_del = sum(1 for r in registre() if r[5].startswith("délégué"))
+    L += [typo(f"*Registre complet au dépôt (`revision/registre_arbitrages_penal.md`) : {n_del} arbitrages délégués, une ligne chacun.*"), ""]
     return "\n".join(L) + "\n"
 
 
