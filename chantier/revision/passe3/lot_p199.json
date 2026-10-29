@@ -1,7 +1,7 @@
 {
   "lot": "lot_p199",
   "titre": "CPP, 3e partie, livre VII, titre VI : Contrôles portant sur l'issue d'une information",
-  "ecart_volume": "771 mots pour un plafond de 736 (−37 %). Le titre porte des délais sanctionnés par la mise en liberté (quatre et deux mois sur l'appel du renvoi), la limite de l'appel contre la correctionnalisation, qui garde à la partie civile le recours contre la qualification d'un crime en délit (P18), et la réouverture sur charges nouvelles. Quinze articles réduits à neuf.",
+  "ecart_volume": "Écart motivé : le titre porte des délais sanctionnés par la mise en liberté (quatre et deux mois sur l'appel du renvoi), la limite de l'appel contre la correctionnalisation, qui garde à la partie civile le recours contre la qualification d'un crime en délit (P18), la notification des arrêts et la réouverture sur charges nouvelles. Quinze articles réduits à neuf ; la passe 4 retire la non-admission qui redit L3712-9.",
   "articles_cible": [
     {
       "num": "L3761-1",
@@ -45,10 +45,10 @@
     },
     {
       "num": "L3762-7",
-      "texte": "La personne mise en examen et la partie civile ne peuvent faire appel de l'ordonnance de renvoi devant le tribunal délictuel que si :\n1° Elles estiment que les faits renvoyés constituent un crime qui aurait dû être renvoyé devant la cour d'assises ou la cour criminelle départementale.\n2° L'ordonnance n'a pas été cosignée par les juges d'instruction cosaisis selon l'article L. 3414-6.\n3° L'ordonnance statue aussi sur une demande formée avant l'avis de fin d'information prévu à l'article L. 3451-1 et restée sans réponse, ou formée après cet avis dans le délai de l'article L. 3451-3, ou omet de répondre à une telle demande recevable.\nHors ces cas, le président de la chambre rend une ordonnance de non-admission selon l'article L. 3712-9. Il fait de même dans le cas du 3° si la demande était irrecevable ou s'il décide, selon l'article L. 3712-10, de ne pas en saisir la chambre.\nLa chambre statue sur l'appel, même irrecevable, dans les deux mois de la déclaration d'appel, faute de quoi la personne détenue est remise d'office en liberté.",
+      "texte": "La personne mise en examen et la partie civile ne peuvent faire appel de l'ordonnance de renvoi devant le tribunal délictuel que si :\n1° Elles estiment que les faits renvoyés constituent un crime qui aurait dû être renvoyé devant la cour d'assises ou la cour criminelle départementale.\n2° L'ordonnance n'a pas été cosignée par les juges d'instruction cosaisis selon l'article L. 3414-6.\n3° L'ordonnance statue aussi sur une demande formée avant l'avis de fin d'information prévu à l'article L. 3451-1 et restée sans réponse, ou formée après cet avis dans le délai de l'article L. 3451-3, ou omet de répondre à une telle demande recevable.\nDans le cas du 3°, le président de la chambre rend une ordonnance de non-admission selon l'article L. 3712-9 si la demande était irrecevable ou s'il décide, selon l'article L. 3712-10, de ne pas en saisir la chambre.\nLa chambre statue sur l'appel, même irrecevable, dans les deux mois de la déclaration d'appel, faute de quoi la personne détenue est remise d'office en liberté.",
       "verbe": "R",
       "principe": "P18",
-      "motif": "Reçoit L3762-8 (non-admission hors des cas ouverts) et L3762-9 (deux mois, liberté d'office) : l'appel du renvoi correctionnel tient dans un article, siège unique de sa limite.",
+      "motif": "Reçoit L3762-8 (non-admission hors des cas ouverts) et L3762-9 (deux mois, liberté d'office) : l'appel du renvoi correctionnel tient dans un article, siège unique de sa limite. Passe 4 : la non-admission de l'appel formé hors des trois cas tombe comme redite : le 2° de L3712-9 la prononce d'office pour tout appel d'une ordonnance dont son auteur ne peut faire appel. La non-admission propre au 3° reste écrite. Délai de deux mois et remise en liberté d'office gardés.",
       "ligne_rouge": "aucune (passe 1) ; P18 : la partie civile garde l'appel contre la correctionnalisation d'un crime ; art. 66 C : délai de deux mois sanctionné par la mise en liberté."
     },
     {
@@ -224,8 +224,8 @@
       "destin": "reprise"
     },
     "L3762-8#1": {
-      "vers": "L3762-7",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3712-9"
     },
     "L3762-8#2": {
       "vers": "L3762-7",
