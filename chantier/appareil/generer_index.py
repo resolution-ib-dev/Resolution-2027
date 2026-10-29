@@ -355,20 +355,6 @@ ARTEFACTS = [
     # Le lexique d'A-53, enfin joué — treize jours après avoir été déclaré porté.
     ('controle_lexique', 'appareil/controle_lexique.py', 'appareil', True, None,
      ['make controle', 'tout livrable diffusable'], []),
-    # La révision pénale, passes 2 et 3 — sas des 20261027 et 20261028,
-    # absorbés le 20261029. Les trois premiers sont joués par `make penal` :
-    # contrôles S1 à S3 de la passe 3, puis code cible, trois-colonnes,
-    # concordance et synthèse. Le quatrième écrit les deux sources markdown du
-    # dossier de relecture de la passe 3 ; il n'a pas de règle de `make` tant
-    # que l'auteur ne la demande pas.
-    ('code_cible_penal', 'appareil/code_cible_penal.py', 'appareil', True,
-     None, ['make penal', 'dossier_passe3_md.py'], []),
-    ('synthese_revision_penale', 'appareil/synthese_revision_penale.py',
-     'appareil', True, None, ['make penal'], []),
-    ('sobriete_penal', 'appareil/sobriete_penal.py', 'appareil', True, None,
-     ['make penal', 'agent qui réécrit un titre en passe 3'], []),
-    ('dossier_passe3_md', 'appareil/dossier_passe3_md.py', 'appareil', True,
-     None, ['dossier de relecture de la passe 3', 'md2docx.js'], []),
 
     # ---------------------------------------------------------------- dérivés
     # Deux dérivés sont versés au coffre bien qu'ils se régénèrent : ce sont
@@ -619,45 +605,6 @@ ARTEFACTS = [
      'appareil/revision_penale.py', ['methode/procedure_revision_penale.md'], []),
     ('bareme_delits', 'referentiels/bareme_delits.tsv', 'derive', False,
      'appareil/bareme_delits.py', ['methode/procedure_revision_penale.md'], []),
-    # Les produits de `make penal` (sas du 20261027, absorbé le 20261029) et les
-    # deux sources markdown du dossier de relecture de la passe 3 (sas du
-    # 20261028), que `md2docx.js` exporte en Word au profil `presentation`.
-    ('code_cible_penal_md', 'livrables/code_cible_penal.md', 'derive', False,
-     'appareil/code_cible_penal.py', ['methode/procedure_revision_penale.md'],
-     []),
-    ('trois_colonnes_penal', 'referentiels/trois_colonnes_penal.tsv', 'derive',
-     False, 'appareil/code_cible_penal.py',
-     ['synthese_revision_penale.py', 'methode/procedure_revision_penale.md'],
-     []),
-    ('concordance_penale', 'referentiels/concordance_penale.tsv', 'derive',
-     False, 'appareil/code_cible_penal.py',
-     ['revision/coordination_ordonnance_2025_1091.md',
-      'methode/procedure_revision_penale.md'], []),
-    ('synthese_revision_penale_md', 'livrables/synthese_revision_penale.md',
-     'derive', False, 'appareil/synthese_revision_penale.py',
-     ['export Word', 'methode/procedure_revision_penale.md'], []),
-    ('dossier_revision_penale_passe3_md',
-     'livrables/dossier_revision_penale_passe3.md', 'derive', False,
-     'appareil/dossier_passe3_md.py', ['md2docx.js', 'relecture de l’auteur'],
-     []),
-    ('trois_colonnes_penal_passe3_md', 'livrables/trois_colonnes_penal_passe3.md',
-     'derive', False, 'appareil/dossier_passe3_md.py',
-     ['md2docx.js', 'relecture de l’auteur'], []),
-    # Les sources écrites à la main de la révision pénale. Elles vivent au
-    # dépôt, sous `revision/` (`DEPOT_DOSSIERS`), et se déclarent une à une ;
-    # les pièces de passe 3, une par titre, se déclarent par leur dossier à
-    # `DOSSIERS_SOURCES`.
-    ('registre_arbitrages_penal', 'revision/registre_arbitrages_penal.md',
-     'methode', True, None,
-     ['dossier_passe3_md.py', 'methode/arbitrages.md (renvoi)',
-      'fil de la révision pénale'], []),
-    ('bareme_hors_releve', 'revision/bareme_hors_releve.json', 'referentiel',
-     True, None, ['bareme_delits.py', 'make penal'], []),
-    ('points_a_confirmer_penal', 'revision/points_a_confirmer.md', 'methode',
-     True, None, ['dossier_passe3_md.py', 'relecture de l’auteur'], []),
-    ('coordination_ordonnance_2025_1091',
-     'revision/coordination_ordonnance_2025_1091.md', 'methode', True, None,
-     ['registre_arbitrages_penal (point 8.2)', 'loi de réécriture'], []),
 
     # ---------------------------------------------------------------- méthode
     ('feuille_de_route', 'methode/feuille_de_route.md', 'methode', True, None,
@@ -2145,30 +2092,6 @@ COFFRE_DOCUMENT = {
         'referentiels/table_passage_schema_prelevements_20260930.tsv',
 }
 
-# Les dossiers dont les pièces écrites à la main vivent **au dépôt**, quel que
-# soit leur rang. `revision/` porte les sources de la révision pénale — décisions,
-# registre, notes —, versées au dépôt par les fils claude.ai/code et jamais au
-# coffre. Sans cette table, une pièce de rang `methode` déclarée ici prendrait la
-# voie `coffre`, où elle n'est pas (absorption du 20261029).
-DEPOT_DOSSIERS = ('revision/',)
-
-# Un dossier de sources écrites à la main, déclaré d'une ligne : chacune de ses
-# pièces entre à l'index à son propre chemin, avec le rôle préfixé, le rang et
-# les consommateurs du dossier. Ce n'est pas un bloc (`controle_index.BLOCS`) :
-# un bloc est le rendu d'un générateur et ne déclare que son manifeste, quand
-# chaque pièce d'ici a été écrite par un agent et se lit pour elle-même. La
-# ligne est curée ; la liste des pièces se lit au dossier, comme le balayage le
-# ferait, mais chacune y reçoit son rôle et ses consommateurs.
-#
-# `revision/passe3/` — une pièce par titre, `<lot>.json`, écrite par l'agent qui
-# réécrit le titre en passe 3 (sas du 20261027, absorbé le 20261029).
-# dossier, préfixe de rôle, rang, consommateurs
-DOSSIERS_SOURCES = [
-    ('revision/passe3', 'passe3', 'referentiel',
-     ['sobriete_penal.py', 'code_cible_penal.py', 'dossier_passe3_md.py',
-      'make penal']),
-]
-
 CLES = ('role', 'chemin', 'rang', 'coffre', 'produit_par', 'consomme_par', 'alias')
 
 # Le rang d'un fichier relevé du dossier sans être déclaré aux tables : celui
@@ -2197,26 +2120,13 @@ def voie_de(artefact, defaut):
         return 'hors_coffre', defaut
     if not a.get('restaurable', True):
         return 'piece_jointe', defaut
-    if a['chemin'].startswith(DEPOT_DOSSIERS) or (
-            a['rang'] in DEPOT_RANGS and a['chemin'] not in COFFRE_DOCUMENT):
+    if a['rang'] in DEPOT_RANGS and a['chemin'] not in COFFRE_DOCUMENT:
         return 'depot', f"{DEPOT['sous_racine']}/{a['chemin']}"
     return 'coffre', COFFRE_DOCUMENT.get(a['chemin'], defaut)
 
 
 def generer(dst, racine):
     artefacts = [dict(zip(CLES, a)) for a in ARTEFACTS]
-    # Les dossiers de sources : une ligne de table, une entrée par pièce.
-    for dossier, prefixe, rang, lecteurs in DOSSIERS_SOURCES:
-        base = os.path.join(racine, dossier)
-        noms = sorted(os.listdir(base)) if os.path.isdir(base) else []
-        for nom in noms:
-            if not os.path.isfile(os.path.join(base, nom)):
-                continue
-            artefacts.append({
-                'role': f'{prefixe}:{os.path.splitext(nom)[0]}',
-                'chemin': f'{dossier}/{nom}', 'rang': rang, 'coffre': True,
-                'produit_par': None, 'consomme_par': list(lecteurs),
-                'alias': []})
     # Par quelle voie l'artefact revient, et où il se lit sur cette voie.
     for a in artefacts:
         a['restaurable'] = True
