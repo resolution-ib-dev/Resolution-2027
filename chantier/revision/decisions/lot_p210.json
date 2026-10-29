@@ -10,10 +10,16 @@
     {
       "code": "cpp",
       "num": "L6311-1",
-      "principe": "P3",
-      "motif": "Règle générale : le droit commun s'applique aux personnes morales, sauf le présent titre.",
+      "principe": "P23",
+      "motif": "Règle générale : le droit commun s'applique aux personnes morales, sauf le présent titre. Passe 4 : « les dispositions du présent code sont applicables » devient « le présent code s'applique », « des dispositions » tombe (P23), sans changement de portée.",
       "ligne_rouge": "aucune (passe 1).",
-      "decision": "G"
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le présent code s'applique à la poursuite, à l'instruction et au jugement des infractions commises par les personnes morales et à l'exécution des peines prononcées contre elles, sous réserve du présent titre."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -186,10 +192,16 @@
     {
       "code": "cpp",
       "num": "L6313-14",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État des modalités du chapitre : déjà à la bonne strate.",
+      "principe": "P23",
+      "motif": "Renvoi au décret en Conseil d'État des modalités du chapitre : déjà à la bonne strate. Passe 4 : « des dispositions » tombe (P23). Seul renvoi au décret du titre (registre 10.127).",
       "ligne_rouge": "aucune (passe 1).",
-      "decision": "G"
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les modalités d'application du présent chapitre sont fixées par décret en Conseil d'Etat."
+        }
+      ]
     },
     {
       "code": "cpp",
