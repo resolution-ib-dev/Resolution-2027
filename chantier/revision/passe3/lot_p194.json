@@ -1,7 +1,7 @@
 {
   "lot": "lot_p194",
   "titre": "CPP, 3e partie, livre VII, titre Ier : Dispositions générales (contrôles par la cour d'appel)",
-  "ecart_volume": "2 562 mots pour un plafond de 2 328 (−34 % au lieu de −40 %). Le titre est le droit commun de la chambre des investigations et des libertés : liste des appels de chaque partie (art. 16 DDHC, une voie de recours), accès au dossier et aux réquisitions, mémoires et purge des nullités, délais de décision, publicité, évocation et pouvoirs sur la liberté (art. 66 C). Il devient aussi le siège de la forme commune des appels, demandes, requêtes et saisines directes (L3712-2) et de l'examen préalable (L3712-10), qui allègent les titres II à VI et le titre V du livre VI.",
+  "ecart_volume": "Écart motivé : le titre est le droit commun de la chambre des investigations et des libertés : liste des appels de chaque partie (art. 16 DDHC, une voie de recours), accès au dossier et aux réquisitions, notification et délai de cinq jours avec récépissé de la personne détenue, mémoires et purge des nullités, délais de décision, publicité, évocation et pouvoirs sur la liberté (art. 66 C). Il est aussi le siège de la forme commune des appels, demandes, requêtes et saisines directes (L3712-2) et de l'examen préalable (L3712-10), qui allègent les titres II à VI et le titre V du livre VI. La passe 4 retire les rappels de procédure. La preuve des garanties (mentions, signatures, homologation) reste dans la loi (relecture de passe 4).",
   "articles_cible": [
     {
       "num": "L3711-3",
@@ -61,10 +61,10 @@
     },
     {
       "num": "L3712-8",
-      "texte": "En cas d'appel ou de saisine directe de la chambre des investigations et des libertés, le dossier de l'information ou sa copie est transmis au procureur général avec l'avis motivé du procureur de la République. Le procureur général procède selon les articles L. 3713-2 et suivants, sous réserve des articles L. 3712-9 et L. 3712-10.",
+      "texte": "En cas d'appel ou de saisine directe de la chambre des investigations et des libertés, le dossier de l'information ou sa copie est transmis au procureur général avec l'avis motivé du procureur de la République.",
       "verbe": "S",
       "principe": "P23",
-      "motif": "Transmission du dossier au procureur général gardée en deux phrases.",
+      "motif": "Transmission du dossier au procureur général gardée en deux phrases. Passe 4 : le rappel de la procédure du chapitre 3 et des articles L3712-9 et L3712-10 tombe (P20) : L3713-1 soumet au chapitre 3 les appels, recours, requêtes et saisines directes, et L3712-9 et L3712-10 s'appliquent d'eux-mêmes.",
       "ligne_rouge": "aucune (passe 1)."
     },
     {
@@ -77,18 +77,18 @@
     },
     {
       "num": "L3712-10",
-      "texte": "Le président de la chambre des investigations et des libertés examine préalablement l'appel formé par une partie ou par le témoin assisté contre les ordonnances prévues au 1° de l'article L. 3712-5. Le dossier de l'information ou sa copie lui est transmis avec l'avis motivé du procureur de la République. Dans les huit jours de sa réception, il décide, par une ordonnance insusceptible de recours, s'il y a lieu de saisir la chambre. Dans l'affirmative, il transmet le dossier au procureur général, qui procède selon les articles L. 3713-2 et suivants. Dans la négative, il ordonne par décision motivée le renvoi du dossier au juge d'instruction.",
+      "texte": "Le président de la chambre des investigations et des libertés examine préalablement l'appel formé par une partie ou par le témoin assisté contre les ordonnances prévues au 1° de l'article L. 3712-5. Le dossier de l'information ou sa copie lui est transmis avec l'avis motivé du procureur de la République. Dans les huit jours de sa réception, il décide, par une ordonnance insusceptible de recours, s'il y a lieu de saisir la chambre. Dans l'affirmative, il transmet le dossier au procureur général. Dans la négative, il ordonne par décision motivée le renvoi du dossier au juge d'instruction.",
       "verbe": "S",
       "principe": "P2",
-      "motif": "Examen préalable en huit jours gardé, coquille « témoin d'assisté » corrigée (passe 2). Il sert de règle commune aux saisines directes (L3731-6) et à la saisine pour défaut de règlement (L3761-1).",
+      "motif": "Examen préalable en huit jours gardé, coquille « témoin d'assisté » corrigée (passe 2). Il sert de règle commune aux saisines directes (L3731-6) et à la saisine pour défaut de règlement (L3761-1). Passe 4 : le rappel de la procédure du chapitre 3 tombe, L3713-1 la porte.",
       "ligne_rouge": "aucune (passe 1)."
     },
     {
       "num": "L3713-1",
-      "texte": "Sauf disposition contraire, notamment en matière de détention provisoire, la chambre des investigations et des libertés examine les appels, recours et requêtes selon le présent chapitre.",
+      "texte": "Sauf disposition contraire, la chambre des investigations et des libertés examine les appels, recours, requêtes et saisines directes selon le présent chapitre.",
       "verbe": "S",
       "principe": "P20",
-      "motif": "Procédure commune devant la chambre, sauf texte contraire : gardée en une phrase.",
+      "motif": "Procédure commune devant la chambre, sauf texte contraire : gardée en une phrase. Passe 4 : l'exemple « notamment en matière de détention provisoire » tombe. Les saisines directes sont nommées, L3712-8 ne les rattachant plus au chapitre 3 : mise en état, notification avec délai de cinq jours, dépôt du dossier et mémoires leur restent acquis (relecture de passe 4).",
       "ligne_rouge": "Art. 66 C et CEDH art. 5 examinés : les règles propres à la détention (L3742-3 à L3742-8) priment : gardé."
     },
     {
@@ -417,8 +417,9 @@
       "destin": "reprise"
     },
     "L3712-8#2": {
-      "vers": "L3712-8",
-      "destin": "reprise"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Rappel sans règle propre : la procédure devant la chambre, saisines directes comprises, est à L3713-1 et L3713-2 et suivants, l'examen préalable et la non-admission à L3712-9 et L3712-10, qui s'appliquent par leur propre champ."
     },
     "L3712-9#1": {
       "vers": "L3712-9",
