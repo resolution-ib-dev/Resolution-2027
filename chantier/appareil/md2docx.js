@@ -1,7 +1,20 @@
 #!/usr/bin/env node
 // md2docx.js — export docx d'un livrable Résolution rédigé en markdown.
-// Usage : node md2docx.js entree.md sortie.docx [profil]
+// Usage : node md2docx.js entree.md sortie.docx [profil] [--nb] [--depot]
 // Profils : pplc (défaut) · note · presentation
+//
+// Options :
+//   --nb      noir et blanc : ni fond gris en tête de tableau, filets noirs
+//   --depot   version déposable : le descripteur de travail porté sous un
+//             intitulé d'article ne s'imprime pas
+//
+// Consignes de tableau, chacune sur sa propre ligne, juste avant le tableau
+// qu'elle règle, et valables pour lui seul :
+//   <!-- colonnes : 0.2, 0.5, 0.3 -->  largeurs relatives des colonnes ; leur
+//                                       nombre doit égaler celui des colonnes,
+//                                       sans quoi les largeurs par défaut valent
+//   <!-- corps : 16 -->                 corps du texte du tableau, en demi-points
+//                                       (défaut 19, soit 9,5 pt)
 //
 // Conventions markdown reconnues :
 //   bloc avant le premier « --- »  → page de titre, centrée

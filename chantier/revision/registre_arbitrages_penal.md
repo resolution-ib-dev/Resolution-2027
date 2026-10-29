@@ -113,7 +113,7 @@ passe 2 (`arbitrages_passe2.md`) sont tous repris ici et tranchés.
 | n° | point | décision | statut |
 |---|---|---|---|
 | 8.1 | référence constitutionnelle | CC 93-334 DC du 20 janvier 1994, corrigée au lot 1 et à la procédure (20261027) | fait |
-| 8.2 | défauts de l'ordonnance n° 2025-1091 | portés à une note de coordination (`revision/coordination_ordonnance_2025_1091.md`), un défaut par ligne avec sa correction : 89 lignes, 84 confirmées (lignes 66 à 89 ajoutées en passe 3, 20261028) | délégué, fait 20261027 |
+| 8.2 | défauts de l'ordonnance n° 2025-1091 | portés à une note de coordination (`revision/coordination_ordonnance_2025_1091.md`), un défaut par ligne avec sa correction : 89 lignes, 84 confirmées, compte relevé le 20261029 sur la colonne « vérifié » de la note, dont 6 sur relecture non rejouée (lignes 66 à 89 ajoutées en passe 3, 20261028) | délégué, fait 20261027 |
 | 8.3 | numéros en double de la base 2029 et 225-10-1 absent | signalés au dépôt de droit (note de coordination, lignes 59 à 64 : les doublons viennent de la base) ; registre de passe 1 construit au 1er janvier 2029 pour les trois codes, 225-10-1 y entre | délégué, fait 20261027 |
 | 8.4 | faux positifs inter-codes de D4 | le contrôle filtre le code de l'article cité | délégué, fait 20261027 |
 
