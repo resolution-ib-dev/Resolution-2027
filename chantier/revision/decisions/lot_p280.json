@@ -41,13 +41,13 @@
       "code": "cpp",
       "num": "L1312-1",
       "principe": "P21",
-      "motif": "Conditions de la valeur probante d'un procès-verbal, questions retranscrites. Alinéas séparés (« \\n ») là où la base les colle.",
+      "motif": "Conditions de la valeur probante d'un procès-verbal, questions retranscrites. Alinéas séparés (« \\n ») là où la base les colle. Passe 4 : « doit comporter » devient « comporte », même obligation.",
       "ligne_rouge": "aucune",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Un procès-verbal ou rapport n'a de valeur probante que s'il est régulier en la forme, si son auteur a agi dans l'exercice de ses fonctions, s'il a rapporté sur une matière de sa compétence ce qu'il a vu, entendu ou constaté personnellement.\nTout procès-verbal d'interrogatoire ou d'audition doit comporter les questions auxquelles il est répondu."
+          "nouveau": "Un procès-verbal ou rapport n'a de valeur probante que s'il est régulier en la forme, si son auteur a agi dans l'exercice de ses fonctions, s'il a rapporté sur une matière de sa compétence ce qu'il a vu, entendu ou constaté personnellement.\nTout procès-verbal d'interrogatoire ou d'audition comporte les questions auxquelles il est répondu."
         }
       ]
     },
@@ -105,13 +105,13 @@
       "code": "cpp",
       "num": "L1313-1",
       "principe": "P7",
-      "motif": "Pièce arguée de faux à l'audience : la juridiction décide du sursis ou statue incidemment.",
+      "motif": "Pièce arguée de faux à l'audience : la juridiction décide du sursis ou statue incidemment. Passe 4 : « après avoir recueilli les observations du ministère public et des parties » devient « après avoir entendu le ministère public et les parties », même contradictoire.",
       "ligne_rouge": "Art. 16 DDHC examiné : ministère public et parties sont entendus",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsqu'une pièce de la procédure ou une pièce produite est arguée de faux à l'audience, la juridiction décide, après avoir recueilli les observations du ministère public et des parties, s'il y a lieu de surseoir jusqu'à la décision de la juridiction compétente sur le faux.\nSi l'action pénale du chef de faux est éteinte ou ne peut être exercée, et s'il n'apparaît pas que celui qui a produit la pièce en a fait sciemment usage, la juridiction saisie de l'action principale statue incidemment sur le caractère de la pièce."
+          "nouveau": "Lorsqu'une pièce de la procédure ou une pièce produite est arguée de faux à l'audience, la juridiction décide, après avoir entendu le ministère public et les parties, s'il y a lieu de surseoir jusqu'à la décision de la juridiction compétente sur le faux.\nSi l'action pénale du chef de faux est éteinte ou ne peut être exercée, et s'il n'apparaît pas que celui qui a produit la pièce en a fait sciemment usage, la juridiction saisie de l'action principale statue incidemment sur le caractère de la pièce."
         }
       ]
     },
