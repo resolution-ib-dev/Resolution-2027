@@ -1,7 +1,7 @@
 {
   "lot": "lot_p257",
   "titre": "CPP, partie législative, 2e partie, livre Ier, titre II : Juridictions du premier degré",
-  "ecart_volume": "Écart motivé : 3 821 mots pour un plafond de 3 469 (−34 % au lieu de −40 %), 80 → 42 articles. Le titre porte la composition des juridictions (art. 34 C) : la cour criminelle départementale gagne 123 mots par l'échevinage écrit dans la loi (registre 4.1, 4.2, 9.10, 9.13), les incapacités et incompatibilités des jurés (L2123-17, L2123-18) et la liste des crimes jugés sans jurés (L2123-31) restent mot pour mot, la collégialité et l'ordre de remplacement des magistrats (juge naturel) restent écrits. Tout le reste est fusionné, déclassé (formation matérielle des listes du jury) ou abrogé (redites de L1132-1 et du statut).",
+  "ecart_volume": "Écart motivé : 3 821 mots en passe 3, ramenés en passe 4 à 3 789 pour un plafond de 3 469 (80 → 42 articles). Le titre porte la composition des juridictions (art. 34 C), qui reste écrite : la cour criminelle départementale gagne 123 mots par l'échevinage écrit dans la loi (registre 4.1, 4.2, 9.10, 9.13), les incapacités et incompatibilités des jurés (L2123-17, L2123-18) et la liste des crimes jugés sans jurés (L2123-31) restent mot pour mot, comme la collégialité, l'ordre de remplacement des magistrats, les incompatibilités des magistrats de la cour (L2123-10), les planchers des listes du jury, la commission du jury et le tirage au sort public (juge naturel, impartialité). Tout le reste est déjà fusionné, déclassé (formation matérielle des listes du jury, circuits internes) ou abrogé (redites de L1132-1 et du statut).",
   "articles_cible": [
     {
       "num": "L2121-1",
@@ -77,10 +77,10 @@
     },
     {
       "num": "L2123-4",
-      "texte": "La cour d'appel peut, sur les réquisitions du procureur général, ordonner par arrêt motivé que les assises se tiennent au siège d'un autre tribunal que celui où elles se tiennent habituellement. Le procureur général porte l'arrêt à la connaissance des tribunaux intéressés. Sur les mêmes réquisitions, la cour d'appel peut former autant de sections d'assises que les besoins du service l'exigent.",
-      "verbe": "R",
+      "texte": "La cour d'appel peut, sur les réquisitions du procureur général, ordonner par arrêt motivé que les assises se tiennent au siège d'un autre tribunal que celui où elles se tiennent habituellement. Sur les mêmes réquisitions, la cour d'appel peut former autant de sections d'assises que les besoins du service l'exigent.",
+      "verbe": "D",
       "principe": "P23",
-      "motif": "Assises tenues dans un autre tribunal par arrêt motivé, et sections d'assises (L2123-5 fusionné).",
+      "motif": "Assises tenues dans un autre tribunal par arrêt motivé, et sections d'assises (L2123-5 fusionné). Passe 4 : la transmission de l'arrêt aux tribunaux intéressés par le procureur général descend au décret (P1, circuit interne), comme à L2152-4. L'arrêt motivé sur réquisitions reste dans la loi.",
       "ligne_rouge": "Juge naturel : le déplacement du siège reste décidé par arrêt motivé de la cour d'appel."
     },
     {
@@ -165,10 +165,10 @@
     },
     {
       "num": "L2123-23",
-      "texte": "Dans chaque commune, le maire tire au sort publiquement sur la liste électorale, pour dresser la liste préparatoire, un nombre de noms triple de celui que la répartition attribue à la commune. Il n'y retient pas les personnes qui n'atteindront pas l'âge de vingt-trois ans au cours de l'année civile qui suit. Il avertit les personnes tirées au sort qu'elles peuvent demander la dispense prévue à l'article L. 2123-19. Il signale au greffe de la juridiction siège de la cour d'assises les inaptitudes légales prévues aux articles L. 2123-16 à L. 2123-18 qu'il connaît. Il peut présenter des observations sur les personnes qui, pour des motifs graves, ne paraissent pas en mesure d'exercer les fonctions de juré.",
+      "texte": "Dans chaque commune, le maire tire au sort publiquement sur la liste électorale, pour dresser la liste préparatoire, un nombre de noms triple de celui que la répartition attribue à la commune. Il n'y retient pas les personnes qui n'atteindront pas l'âge de vingt-trois ans au cours de l'année civile qui suit. Il signale au greffe de la juridiction siège de la cour d'assises les inaptitudes légales prévues aux articles L. 2123-16 à L. 2123-18 qu'il connaît. Il peut présenter des observations sur les personnes qui, pour des motifs graves, ne paraissent pas en mesure d'exercer les fonctions de juré.",
       "verbe": "D",
       "principe": "P1",
-      "motif": "Liste préparatoire tirée au sort par le maire (L2123-24 fusionné). Les modalités matérielles (deux originaux, date de transmission, profession, lettre simple et date limite de la demande de dispense, regroupement de communes, officier d'état civil à Paris) descendent au décret en Conseil d'État (P1).",
+      "motif": "Liste préparatoire tirée au sort par le maire (L2123-24 fusionné). Les modalités matérielles (deux originaux, date de transmission, profession, lettre simple et date limite de la demande de dispense, regroupement de communes, officier d'état civil à Paris) descendent au décret en Conseil d'État (P1). Passe 4 : l'avertissement des personnes tirées au sort et l'information sur la demande de dispense descendent au décret en Conseil d'État de la formation des listes, qui en fixait déjà la forme et la date limite (P1). Le droit à la dispense reste à L2123-19, le tirage au sort public, l'âge, le signalement des inaptitudes et les observations du maire restent dans la loi.",
       "ligne_rouge": "Composition du jury : tirage au sort public sur la liste électorale, âge, information sur la dispense et signalement des inaptitudes gardés dans la loi."
     },
     {
@@ -925,16 +925,16 @@
       "vers": "décret en Conseil d'État (formation des listes du jury criminel) : forme et transmission de la liste préparatoire"
     },
     "L2123-24#2": {
-      "destin": "reprise",
-      "vers": "L2123-23"
+      "destin": "declassee",
+      "vers": "décret en Conseil d'État (formation des listes du jury criminel) : avertissement des personnes tirées au sort et information sur la demande de dispense de l'article L. 2123-19"
     },
     "L2123-24#3": {
       "destin": "declassee",
       "vers": "décret en Conseil d'État (formation des listes du jury criminel) : renseignements demandés aux personnes tirées au sort"
     },
     "L2123-24#4": {
-      "destin": "reprise",
-      "vers": "L2123-23"
+      "destin": "declassee",
+      "vers": "décret en Conseil d'État (formation des listes du jury criminel) : avertissement des personnes tirées au sort et information sur la demande de dispense de l'article L. 2123-19"
     },
     "L2123-24#5": {
       "destin": "reprise",
@@ -1091,8 +1091,8 @@
       "vers": "L2123-4"
     },
     "L2123-4#2": {
-      "destin": "reprise",
-      "vers": "L2123-4"
+      "destin": "declassee",
+      "vers": "décret en Conseil d'État (l'arrêt qui fixe les assises au siège d'un autre tribunal est porté à la connaissance des tribunaux intéressés par les soins du procureur général)"
     },
     "L2123-5#1": {
       "destin": "reprise",
