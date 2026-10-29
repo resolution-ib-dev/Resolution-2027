@@ -1,14 +1,14 @@
 {
   "lot": "lot_p183",
   "titre": "CPP, 3e partie, livre V, titre III : Perquisitions et saisies",
-  "ecart_volume": "Écart motivé : 10 565 mots pour un plafond de 8 194 (−23 % au lieu de −40 %). Perquisitions (assentiment, heures légales, présence, nullités, autorisations du juge, cinq régimes de nuit), secrets protégés (avocat, presse, délibéré, défense nationale, professions médicale et juridique) et saisies (restitution, destruction, aliénation, rang des créanciers, saisies spéciales) sont des garanties des articles 2, 16 et 17 de la DDHC et de l'article 8 de la CEDH, et le régime des biens saisis relève de l'article 34 de la Constitution (droits réels, obligations civiles). Aucune garantie ne se résume par renvoi vague. La sobriété vient des fusions (111 → 56 articles), d'un régime commun de l'opposition à la saisie (L3533-6) et de la prise de connaissance réservée (L3533-1), d'une règle générale des saisies spéciales (L3534-1) et du déclassement de la seule liste des dépositaires des espèces et valeurs saisies.",
+  "ecart_volume": "Écart motivé (passe 4) : 10 316 mots pour un plafond de 8 194. La passe 4 retire les redites restantes (champ des perquisitions par renvoi à L3511-1, contrôle du magistrat par renvoi à L3531-5, notification unique de la section du sort des objets à L3532-18, objet de la saisie spéciale écrit une fois à L3534-1, rappels du code de la défense). Ce qui reste au-dessus du plafond est garantie : assentiment, heures légales, présence, nullités et autorisations du juge des perquisitions (cinq régimes de nuit, chacun avec sa matière, ses lieux et son juge), secrets protégés (avocat, presse, délibéré, défense nationale, professions médicale et juridique), liste fermée des affectataires des biens saisis (L3532-21), régime des biens saisis, des créanciers et des animaux, qui touche au droit de propriété (art. 2, 16 et 17 DDHC, CEDH art. 8, art. 34 C). Aucune de ces règles n'a de règle générale de la première partie qui la porte mot pour mot.",
   "articles_cible": [
     {
       "num": "L3531-1",
-      "texte": "Les perquisitions peuvent être effectuées au cours des enquêtes et des informations, y compris des procédures de recherche des causes d'un décès, de blessures graves, d'une disparition ou d'une personne en fuite, dans les conditions du présent chapitre et du chapitre 3 du présent titre.\nSauf disposition contraire, elles ne peuvent, à peine de nullité, être effectuées sans l'assentiment exprès de la personne chez laquelle elles ont lieu. Cet assentiment fait l'objet d'une déclaration écrite de sa main ou est recueilli dans un procès-verbal établi sous format numérique selon les articles L. 1611-1 et L. 1611-2. Si la personne ne sait pas écrire, il en est fait mention au procès-verbal, ainsi que de son assentiment.",
+      "texte": "Les perquisitions peuvent être effectuées dans les enquêtes, informations et procédures mentionnées à l'article L. 3511-1.\nSauf disposition contraire, elles ne peuvent, à peine de nullité, être effectuées sans l'assentiment exprès de la personne chez laquelle elles ont lieu. Cet assentiment fait l'objet d'une déclaration écrite de sa main ou est recueilli dans un procès-verbal numérique signé selon l'article L. 1611-2. Si la personne ne sait pas écrire, il en est fait mention au procès-verbal, ainsi que de son assentiment.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Champ des perquisitions et règle de l'assentiment en un article (L3531-2 fusionné, accord corrigé en passe 2).",
+      "motif": "Champ des perquisitions et règle de l'assentiment en un article (L3531-2 fusionné, accord corrigé en passe 2). Passe 4 : Les cadres d'enquête se lisent à L3511-1, qui les énumère dans les mêmes termes (enquêtes, informations, recherche des causes d'un décès, de blessures graves ou d'une disparition, personne en fuite). L'incise « dans les conditions du présent chapitre et du chapitre 3 » tombe : le chapitre 3 s'applique par son propre champ. Le procès-verbal numérique renvoie à la seule règle de signature (L1611-2), L1611-1 posant déjà le format numérique.",
       "ligne_rouge": "Inviolabilité du domicile et vie privée (art. 2 DDHC, CEDH art. 8) examinées : l'assentiment exprès, écrit de la main de la personne ou recueilli dans un procès-verbal numérique, reste la règle, à peine de nullité."
     },
     {
@@ -53,10 +53,10 @@
     },
     {
       "num": "L3531-9",
-      "texte": "Les perquisitions sont effectuées, à peine de nullité, en présence de la personne chez laquelle elles ont lieu. Si elle ne peut être présente, l'autorité qui doit y procéder l'invite à désigner un représentant de son choix. À défaut, elle choisit deux témoins qu'elle requiert hors des personnes relevant de son autorité administrative.\nAu cours de l'information, la personne chez laquelle doit avoir lieu une perquisition dans un domicile autre que celui de la personne mise en examen est invitée à y assister ou à désigner un représentant. Si elle est absente ou refuse d'y assister ou de désigner un représentant, la perquisition a lieu en présence de deux de ses parents ou alliés présents sur les lieux ou, à défaut, de deux témoins.\nLes règles du présent article sont prévues à peine de nullité.",
+      "texte": "Les perquisitions sont effectuées en présence de la personne chez laquelle elles ont lieu. Si elle ne peut être présente, l'autorité qui doit y procéder l'invite à désigner un représentant de son choix. À défaut, elle choisit deux témoins qu'elle requiert hors des personnes relevant de son autorité administrative.\nAu cours de l'information, la personne chez laquelle doit avoir lieu une perquisition dans un domicile autre que celui de la personne mise en examen est invitée à y assister ou à désigner un représentant. Si elle est absente ou refuse d'y assister ou de désigner un représentant, la perquisition a lieu en présence de deux de ses parents ou alliés présents sur les lieux ou, à défaut, de deux témoins.\nLes règles du présent article sont prévues à peine de nullité.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Présence de la personne, de son représentant ou de témoins en un article (L3531-10 fusionné), à peine de nullité.",
+      "motif": "Présence de la personne, de son représentant ou de témoins en un article (L3531-10 fusionné), à peine de nullité. Passe 4 : La nullité, écrite deux fois, ne l'est plus qu'au dernier alinéa, qui couvre tout l'article.",
       "ligne_rouge": "Inviolabilité du domicile et vie privée (art. 2 DDHC, CEDH art. 8) examinées : présence de la personne, à défaut d'un représentant choisi ou de deux témoins indépendants, et règle propre au domicile d'un tiers en information : à peine de nullité."
     },
     {
@@ -77,26 +77,26 @@
     },
     {
       "num": "L3531-14",
-      "texte": "Des perquisitions domiciliaires peuvent être commencées avant 6 heures et après 21 heures dans les seuls cas suivants :\n1° Pour la recherche et la constatation des infractions de trafic de stupéfiants prévues aux articles 222-34 à 222-40 du code pénal, et de l'association de malfaiteurs prévue par l'article 450-1 du même code qui a pour objet de préparer l'une d'elles, à l'intérieur des locaux où l'on use en société de stupéfiants ou dans lesquels des stupéfiants sont fabriqués, transformés ou entreposés illicitement, lorsqu'il ne s'agit pas de locaux d'habitation.\n2° Pour la recherche et la constatation des infractions de proxénétisme et de celles qui en résultent prévues aux articles 225-5 à 225-12-2 du code pénal, et de l'association de malfaiteurs qui a pour objet de préparer l'une d'elles, à l'intérieur de tout hôtel, maison meublée ou pension, ou de tout lieu ouvert au public ou utilisé par le public, lorsqu'il est constaté que des personnes se livrant à la prostitution y sont reçues habituellement.\n3° Pour une enquête ou une information portant sur un crime contre les personnes prévu par le livre II du code pénal, autre que ceux mentionnés aux articles L. 1722-2 et L. 1722-3, lorsque les conditions de la flagrance prévues par les articles L. 3312-1 à L. 3312-3 sont réunies, si la perquisition est nécessaire pour prévenir un risque imminent d'atteinte à la vie ou à l'intégrité physique, s'il existe un risque immédiat de disparition des preuves et indices du crime qui vient d'être commis et qu'elle ne peut être réalisée à un autre moment, ou s'il est nécessaire d'interpeller hors des heures légales la personne soupçonnée afin de l'empêcher de porter atteinte à sa vie ou à celle des enquêteurs.\n4° Pour les procédures portant sur des faits mentionnés aux articles L. 1722-2 et L. 1722-3, à l'exception des délits prévus par les articles 421-2-5 et 421-2-5-1 du code pénal, ou à l'article L. 1723-2 : dans des locaux autres que d'habitation, y compris au cours de la recherche d'une personne en fuite qui fait l'objet d'un mandat d'arrêt ou a été condamnée pour des faits mentionnés aux articles L. 1722-2 et L. 1722-3, et dans des locaux d'habitation, au cours de l'enquête lorsque les conditions de la flagrance sont réunies, et au cours de l'information en cas d'urgence, lorsque les conditions de la flagrance sont réunies, qu'il existe un risque immédiat de disparition des preuves ou des indices matériels que la perquisition ne peut prévenir à un autre moment, ou qu'il existe une ou plusieurs raisons plausibles de soupçonner que des personnes se trouvant dans les locaux sont en train de commettre des crimes ou des délits mentionnés au présent 4°.\n5° En cas d'urgence, pour les procédures portant sur des actes de terrorisme prévus par les articles 421-1 à 421-6 du code pénal, à l'exception des délits prévus par les articles 421-2-5 à 421-2-5-2 du même code, dans des locaux d'habitation, lorsque la perquisition est nécessaire pour prévenir un risque d'atteinte à la vie ou à l'intégrité physique.\nDans les cas des 3° à 5°, la perquisition est autorisée au cours de l'enquête ou de la recherche d'une personne en fuite par le juge des libertés et de la détention saisi par requête du procureur de la République, et au cours de l'information par le juge d'instruction.",
+      "texte": "Des perquisitions domiciliaires peuvent être commencées avant 6 heures et après 21 heures dans les seuls cas suivants :\n1° Pour la recherche et la constatation des infractions de trafic de stupéfiants prévues aux articles 222-34 à 222-40 du code pénal, et de l'association de malfaiteurs prévue par l'article 450-1 du même code qui a pour objet de préparer l'une d'elles, à l'intérieur des locaux où l'on use en société de stupéfiants ou dans lesquels des stupéfiants sont fabriqués, transformés ou entreposés illicitement, lorsqu'il ne s'agit pas de locaux d'habitation.\n2° Pour la recherche et la constatation des infractions de proxénétisme et de celles qui en résultent prévues aux articles 225-5 à 225-12-2 du code pénal, et de l'association de malfaiteurs qui a pour objet de préparer l'une d'elles, à l'intérieur de tout hôtel, maison meublée ou pension, ou de tout lieu ouvert au public ou utilisé par le public, lorsqu'il est constaté que des personnes se livrant à la prostitution y sont reçues habituellement.\n3° Pour une enquête ou une information portant sur un crime contre les personnes prévu par le livre II du code pénal, autre que ceux mentionnés aux articles L. 1722-2 et L. 1722-3, lorsque les conditions de la flagrance prévues par les articles L. 3312-1 à L. 3312-3 sont réunies, si la perquisition est nécessaire pour prévenir un risque imminent d'atteinte à la vie ou à l'intégrité physique, s'il existe un risque immédiat de disparition des preuves et indices du crime qui vient d'être commis et qu'elle ne peut être réalisée à un autre moment, ou s'il est nécessaire d'interpeller hors des heures légales la personne soupçonnée afin de l'empêcher de porter atteinte à sa vie ou à celle des enquêteurs.\n4° Pour les procédures portant sur des faits mentionnés aux articles L. 1722-2 et L. 1722-3, à l'exception des délits prévus par les articles 421-2-5 et 421-2-5-1 du code pénal, ou sur des infractions mentionnées à l'article L. 1723-2, hors les infractions connexes : dans des locaux autres que d'habitation, y compris au cours de la recherche d'une personne en fuite qui fait l'objet d'un mandat d'arrêt ou a été condamnée pour des faits mentionnés aux articles L. 1722-2 et L. 1722-3, et dans des locaux d'habitation, au cours de l'enquête lorsque les conditions de la flagrance sont réunies, et au cours de l'information en cas d'urgence, lorsque les conditions de la flagrance sont réunies, qu'il existe un risque immédiat de disparition des preuves ou des indices matériels que la perquisition ne peut prévenir à un autre moment, ou qu'il existe une ou plusieurs raisons plausibles de soupçonner que des personnes se trouvant dans les locaux sont en train de commettre des crimes ou des délits mentionnés au présent 4°.\n5° En cas d'urgence, pour les procédures portant sur des actes de terrorisme prévus par les articles 421-1 à 421-6 du code pénal, à l'exception des délits prévus par les articles 421-2-5 à 421-2-5-2 du même code, dans des locaux d'habitation, lorsque la perquisition est nécessaire pour prévenir un risque d'atteinte à la vie ou à l'intégrité physique.\nDans les cas des 3° à 5°, la perquisition est autorisée au cours de l'enquête ou de la recherche d'une personne en fuite par le juge des libertés et de la détention saisi par requête du procureur de la République, et au cours de l'information par le juge d'instruction.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Perquisitions hors des heures légales : les cinq régimes en un article (L3531-15 à L3531-20 fusionnés, renvoi à L1722-3 et coquilles corrigés en passe 2). Chaque régime garde sa matière, ses lieux, son urgence et son juge. Coordination (passe 3) : la plage s'arrête à 225-12-2, dernier article gardé, 225-12-3 passant à 229-3 et 225-12-4 à la clause générale de 131-39 (lot p045).",
+      "motif": "Perquisitions hors des heures légales : les cinq régimes en un article (L3531-15 à L3531-20 fusionnés, renvoi à L1722-3 et coquilles corrigés en passe 2). Chaque régime garde sa matière, ses lieux, son urgence et son juge. Coordination (passe 3) : la plage s'arrête à 225-12-2, dernier article gardé, 225-12-3 passant à 229-3 et 225-12-4 à la clause générale de 131-39 (lot p045). Passe 4 : Le renvoi nu à L1723-2 emportait les infractions connexes que cet article range dans sa catégorie : le 4° retrouve les crimes de 2029 (L3531-18, L3531-19), sans les connexes (registre 10.94).",
       "ligne_rouge": "Inviolabilité du domicile et vie privée (art. 2 DDHC, CEDH art. 8) examinées : les perquisitions de nuit restent limitées à cinq matières, à des lieux définis, sous autorisation d'un juge pour les crimes contre les personnes, la criminalité organisée et le terrorisme, et l'habitation reste protégée par la flagrance, l'urgence ou un risque précis."
     },
     {
       "num": "L3531-21",
-      "texte": "À peine de nullité, les autorisations prévues aux 3° à 5° de l'article L. 3531-14 sont données pour des perquisitions déterminées et font l'objet d'une ordonnance écrite précisant la qualification de l'infraction dont la preuve est recherchée et l'adresse des lieux où les visites, perquisitions et saisies peuvent être faites. L'ordonnance, qui n'est pas susceptible d'appel, est motivée par référence aux éléments de fait et de droit justifiant que ces opérations sont nécessaires et qu'elles ne peuvent être réalisées pendant les heures légales. Pour la perquisition d'un local d'habitation autorisée par le juge d'instruction en application du 4° et dans le cas du 5°, elle énonce aussi les considérations de droit et de fait qui la fondent au regard des seules conditions qui y sont prévues. Les opérations sont faites sous le contrôle du magistrat qui les a autorisées, qui peut se déplacer sur les lieux, où qu'ils se trouvent sur le territoire national, et qui est informé dans les meilleurs délais, par le procureur de la République ou l'officier de police judiciaire, des actes accomplis. Le juge des libertés et de la détention compétent est celui de l'article L. 3531-5.",
+      "texte": "À peine de nullité, les autorisations prévues aux 3° à 5° de l'article L. 3531-14 sont données pour des perquisitions déterminées et font l'objet d'une ordonnance écrite précisant la qualification de l'infraction dont la preuve est recherchée et l'adresse des lieux où les visites, perquisitions et saisies peuvent être faites. L'ordonnance, qui n'est pas susceptible d'appel, est motivée par référence aux éléments de fait et de droit justifiant que ces opérations sont nécessaires et qu'elles ne peuvent être réalisées pendant les heures légales. Pour la perquisition d'un local d'habitation autorisée par le juge d'instruction en application du 4° et dans le cas du 5°, elle énonce aussi les considérations de droit et de fait qui la fondent au regard des seules conditions qui y sont prévues. Les opérations sont faites sous le contrôle du magistrat qui les a autorisées, selon la troisième phrase de l'article L. 3531-5. Le juge des libertés et de la détention compétent est celui que désignent les deux dernières phrases du même article. Ce magistrat est informé dans les meilleurs délais, par le procureur de la République ou l'officier de police judiciaire, des actes accomplis.",
       "verbe": "S",
       "principe": "P23",
-      "motif": "Ordonnance autorisant les perquisitions de nuit : renvois recalés sur les 3° à 5° de L3531-14, mêmes exigences.",
+      "motif": "Ordonnance autorisant les perquisitions de nuit : renvois recalés sur les 3° à 5° de L3531-14, mêmes exigences. Passe 4 : Le contrôle sur place du magistrat et le juge des libertés et de la détention compétent se lisent à L3531-5, qui porte la même règle mot pour mot (contrôle du magistrat qui a autorisé, déplacement sur tout le territoire, juge du tribunal dont le procureur dirige l'enquête). La nullité, l'ordonnance écrite, ses mentions, sa motivation et l'information du magistrat restent écrites. Relecture de passe 4 : le renvoi vise la phrase de L3531-5 qui porte chaque règle.",
       "ligne_rouge": "Inviolabilité du domicile et vie privée (art. 2 DDHC, CEDH art. 8) examinées : perquisitions déterminées, ordonnance écrite précisant qualification et adresse à peine de nullité, motivation sur la nécessité et sur l'impossibilité de les réaliser de jour, contrôle et information du juge."
     },
     {
       "num": "L3531-22",
-      "texte": "La perquisition peut être autorisée en l'absence de la personne lorsque :\n1° L'enquête ou l'information porte sur des faits mentionnés aux articles L. 1722-2 et L. 1722-3, à l'exception des délits prévus par les articles 421-2-5 à 421-2-5-2 du code pénal, ou à l'article L. 1723-2.\n2° La personne est gardée à vue ou détenue en un autre lieu.\n3° Son transport sur place paraît devoir être évité en raison des risques graves soit de troubles à l'ordre public ou d'évasion, soit de disparition des preuves pendant le temps nécessaire au transport.\nAu cours de l'enquête, elle est autorisée par le procureur de la République si les conditions de la flagrance sont réunies et, dans le cas contraire, par le juge des libertés et de la détention. Au cours de l'information, elle est autorisée par le juge d'instruction.",
+      "texte": "La perquisition peut être autorisée en l'absence de la personne lorsque :\n1° L'enquête ou l'information porte sur des faits mentionnés aux articles L. 1722-2 et L. 1722-3, à l'exception des délits prévus par les articles 421-2-5 à 421-2-5-2 du code pénal, ou sur des infractions mentionnées à l'article L. 1723-2, hors les infractions connexes.\n2° La personne est gardée à vue ou détenue en un autre lieu.\n3° Son transport sur place paraît devoir être évité en raison des risques graves soit de troubles à l'ordre public ou d'évasion, soit de disparition des preuves pendant le temps nécessaire au transport.\nAu cours de l'enquête, elle est autorisée par le procureur de la République si les conditions de la flagrance sont réunies et, dans le cas contraire, par le juge des libertés et de la détention. Au cours de l'information, elle est autorisée par le juge d'instruction.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Perquisition hors la présence de la personne détenue et son autorisation en un article (L3531-23 fusionné).",
+      "motif": "Perquisition hors la présence de la personne détenue et son autorisation en un article (L3531-23 fusionné). Passe 4 : Le renvoi nu à L1723-2 emportait les infractions connexes : le 1° retrouve les crimes de 2029 (L3531-22#1), sans les connexes (registre 10.94).",
       "ligne_rouge": "Inviolabilité du domicile et vie privée (art. 2 DDHC, CEDH art. 8) examinées : trois conditions cumulatives, autorisation du procureur en flagrance seulement, d'un juge sinon."
     },
     {
@@ -117,18 +117,18 @@
     },
     {
       "num": "L3531-30",
-      "texte": "La personne qui a fait l'objet d'une perquisition et qui n'a pas été poursuivie devant une juridiction d'instruction ou de jugement au plus tôt six mois après cet acte peut en demander l'annulation au juge des libertés et de la détention, par requête formée au plus tard un an après la date à laquelle elle en a eu connaissance. La requête est déclarée au greffe de la juridiction où la procédure a été menée ou, à défaut, de celle du lieu de la perquisition, qui la transmet sans délai à la juridiction ayant suivi la procédure. Elle ne suspend pas l'enquête ou l'instruction. Le requérant n'a accès qu'aux pièces de la procédure relatives à la perquisition contestée.\nLe juge statue par ordonnance motivée dans le mois de la réception de la requête, après avoir recueilli les observations écrites du procureur de la République, du requérant et, le cas échéant, de son avocat. Sur réquisitions écrites du procureur de la République motivées par les nécessités de l'enquête, il se prononce dans les huit jours. Le juge des libertés et de la détention qui a autorisé la perquisition ne peut statuer sur la demande d'annulation de sa décision.\nSi des poursuites ont été engagées contre d'autres personnes dans la procédure où la perquisition est intervenue, le juge des libertés et de la détention transmet la requête au président de la chambre des investigations et des libertés lorsqu'une instruction est en cours, ou au président de la juridiction de jugement lorsqu'elle est saisie.\nLa personne poursuivie demande l'annulation de la perquisition devant la chambre des investigations et des libertés ou la juridiction de jugement, selon le livre VI de la présente partie ou la quatrième partie.",
+      "texte": "La personne qui a fait l'objet d'une perquisition et qui n'a pas été poursuivie devant une juridiction d'instruction ou de jugement au plus tôt six mois après cet acte peut en demander l'annulation au juge des libertés et de la détention, par requête formée au plus tard un an après la date à laquelle elle en a eu connaissance. La requête est déclarée au greffe de la juridiction où la procédure a été menée ou, à défaut, de celle du lieu de la perquisition, qui la transmet sans délai à la juridiction ayant suivi la procédure. Elle ne suspend pas l'enquête ou l'instruction. Le requérant n'a accès qu'aux pièces de la procédure relatives à la perquisition contestée.\nLe juge statue par ordonnance motivée dans le mois de la réception de la requête, après avoir recueilli les observations écrites du procureur de la République, du requérant et, le cas échéant, de son avocat. Sur réquisitions écrites du procureur de la République motivées par les nécessités de l'enquête, il se prononce dans les huit jours. Le juge des libertés et de la détention qui a autorisé la perquisition ne peut statuer sur la demande d'annulation de sa décision.\nSi des poursuites ont été engagées contre d'autres personnes dans la procédure où la perquisition est intervenue, le juge des libertés et de la détention transmet la requête au président de la chambre des investigations et des libertés lorsqu'une instruction est en cours, ou au président de la juridiction de jugement lorsqu'elle est saisie.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Annulation d'une perquisition demandée par la personne non poursuivie en un article (L3531-31 à L3531-33 fusionnés, coquille « requête en d'annulation » corrigée en passe 2).",
+      "motif": "Annulation d'une perquisition demandée par la personne non poursuivie en un article (L3531-31 à L3531-33 fusionnés, coquille « requête en d'annulation » corrigée en passe 2). Passe 4 : Le dernier alinéa, qui rappelait que la personne poursuivie demande l'annulation selon le droit commun des nullités, tombe (P20) : le livre VI de la présente partie et la quatrième partie s'appliquent d'eux-mêmes, et le premier alinéa borne déjà le recours propre à la personne non poursuivie.",
       "ligne_rouge": "Inviolabilité du domicile et vie privée (art. 2 DDHC, CEDH art. 8) examinées : recours ouvert à la personne non poursuivie six mois après, délai d'un an courant de la connaissance, juge distinct de celui qui a autorisé, décision dans le mois ou les huit jours, transmission à la juridiction saisie quand d'autres sont poursuivis."
     },
     {
       "num": "L3532-1",
-      "texte": "La saisie est le placement sous main de justice des indices, documents, données ou biens découverts par les enquêteurs, le cas échéant lors d'une perquisition, remis volontairement par la personne suspectée ou par un tiers, ou obtenus sur réquisitions. La saisie probatoire porte sur des pièces à conviction utiles à la manifestation de la vérité. La saisie conservatoire porte sur des biens qui n'y sont pas utiles mais dont la confiscation est prévue par l'article 131-21 du code pénal. La saisie est réalisée selon le présent chapitre ou, pour les saisies spéciales, selon le chapitre 4.\nLes saisies des enquêteurs ne sont maintenues qu'avec l'accord du procureur de la République ou du juge d'instruction.",
+      "texte": "La saisie est le placement sous main de justice des indices, documents, données ou biens découverts par les enquêteurs, le cas échéant lors d'une perquisition, remis volontairement par la personne suspectée ou par un tiers, ou obtenus sur réquisitions. La saisie probatoire porte sur des pièces à conviction utiles à la manifestation de la vérité. La saisie conservatoire porte sur des biens qui n'y sont pas utiles mais dont la confiscation est prévue par l'article 131-21 du code pénal.\nLes saisies des enquêteurs ne sont maintenues qu'avec l'accord du procureur de la République ou du juge d'instruction.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Définition de la saisie et maintien par le magistrat en un article (L3532-2 fusionné).",
+      "motif": "Définition de la saisie et maintien par le magistrat en un article (L3532-2 fusionné). Passe 4 : La phrase qui renvoyait au présent chapitre ou au chapitre 4 tombe (P20) : chaque chapitre fixe son propre champ (L3534-1 pour les saisies spéciales).",
       "ligne_rouge": "Droit de propriété (art. 17 DDHC) et nécessité (art. 8 DDHC) examinés : la saisie conservatoire reste bornée aux biens confiscables, et toute saisie des enquêteurs n'est maintenue qu'avec l'accord du magistrat."
     },
     {
@@ -141,10 +141,10 @@
     },
     {
       "num": "L3532-5",
-      "texte": "Au cours de l'enquête, les scellés fermés ne peuvent être ouverts par les enquêteurs. Au cours de l'information, les scellés ne sont ouverts et les documents dépouillés qu'en présence de la personne mise en examen assistée de son avocat, ou eux dûment appelés. Toutefois, lorsque l'ouverture et la reconstitution du scellé fermé n'exigent pas que la personne soit interrogée sur son contenu, le juge d'instruction assisté de son greffier peut y procéder hors sa présence, en présence de son avocat ou celui-ci dûment convoqué. Les personnes qualifiées peuvent ouvrir les scellés fermés lors des examens techniques ou des expertises, selon l'article L. 3541-2.\nAu cours de l'information, si les nécessités de la procédure ne s'y opposent pas, copie des documents ou des données informatiques placés sous main de justice peut être délivrée à leurs frais, dans le plus bref délai, aux intéressés qui la demandent, sur décision du juge d'instruction.",
+      "texte": "Au cours de l'enquête, les scellés fermés ne peuvent être ouverts par les enquêteurs. Au cours de l'information, les scellés ne sont ouverts et les documents dépouillés qu'en présence de la personne mise en examen assistée de son avocat, ou eux dûment appelés. Toutefois, lorsque l'ouverture et la reconstitution du scellé fermé n'exigent pas que la personne soit interrogée sur son contenu, le juge d'instruction assisté de son greffier peut y procéder hors sa présence, en présence de son avocat ou celui-ci dûment convoqué.\nAu cours de l'information, si les nécessités de la procédure ne s'y opposent pas, copie des documents ou des données informatiques placés sous main de justice peut être délivrée à leurs frais, dans le plus bref délai, aux intéressés qui la demandent, sur décision du juge d'instruction.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Ouverture des scellés et copie des documents saisis au cours de l'information en un article (L3532-7 fusionné, coquilles corrigées en passe 2). Cité par L6133-32.",
+      "motif": "Ouverture des scellés et copie des documents saisis au cours de l'information en un article (L3532-7 fusionné, coquilles corrigées en passe 2). Cité par L6133-32. Passe 4 : L'ouverture des scellés par les personnes qualifiées se lit à L3541-2, qui la porte avec sa dérogation expresse au présent article.",
       "ligne_rouge": "Droits de la défense examinés : scellés ouverts en présence de la personne mise en examen et de son avocat, ou de l'avocat seul s'il n'y a pas à l'interroger, copie des pièces sur décision du juge."
     },
     {
@@ -189,10 +189,10 @@
     },
     {
       "num": "L3532-14",
-      "texte": "Il n'y a pas lieu à restitution lorsque celle-ci est de nature à faire obstacle à la manifestation de la vérité ou à la sauvegarde des droits des parties, ou à créer un danger pour les personnes ou les biens, lorsque le bien saisi est l'instrument ou le produit direct ou indirect de l'infraction, ou lorsqu'une disposition particulière prévoit la destruction des objets placés sous main de justice. La restitution peut aussi être refusée lorsque la loi prévoit la confiscation de l'objet.\nLa décision de refus est notifiée au requérant. La décision de restitution est notifiée au requérant ou à toute personne intéressée et, lorsqu'elle émane du juge d'instruction, au procureur de la République.",
+      "texte": "Il n'y a pas lieu à restitution lorsque celle-ci est de nature à faire obstacle à la manifestation de la vérité ou à la sauvegarde des droits des parties, ou à créer un danger pour les personnes ou les biens, lorsque le bien saisi est l'instrument ou le produit direct ou indirect de l'infraction, ou lorsqu'une disposition particulière prévoit la destruction des objets placés sous main de justice. La restitution peut aussi être refusée lorsque la loi prévoit la confiscation de l'objet.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Motifs de refus de restitution et notification des décisions en un article (L3532-15 fusionné). Cité par L3721-2.",
+      "motif": "Motifs de refus de restitution et notification des décisions en un article (L3532-15 fusionné). Cité par L3721-2. Passe 4 : Les notifications des décisions de restitution et de refus passent à la règle unique de L3532-18, qui vise le requérant, les personnes ayant des droits sur le bien, les personnes mises en cause, les parties intéressées et le ministère public pour le juge d'instruction.",
       "ligne_rouge": "Droit de propriété (art. 17 DDHC) et nécessité (art. 8 DDHC) examinés : motifs de refus fermés, notification au requérant, condition du recours de L3721-2."
     },
     {
@@ -205,10 +205,10 @@
     },
     {
       "num": "L3532-18",
-      "texte": "Les décisions prévues par la présente sous-section sont notifiées par tout moyen aux personnes ayant des droits sur le bien, si elles sont connues, aux personnes mises en cause et aux parties intéressées, ainsi qu'au ministère public lorsqu'elles émanent du juge d'instruction.",
+      "texte": "Les décisions prévues par la présente section sont notifiées par tout moyen au requérant, aux personnes ayant des droits sur le bien, si elles sont connues, aux personnes mises en cause et aux parties intéressées, ainsi qu'au ministère public lorsqu'elles émanent du juge d'instruction.",
       "verbe": "S",
       "principe": "P23",
-      "motif": "Notification des décisions de destruction : une phrase (cité par L3721-5).",
+      "motif": "Notification des décisions de destruction : une phrase (cité par L3721-5). Passe 4 : Règle unique de notification pour toute la section (restitution, refus, destruction, remise à l'agence) : elle reçoit les notifications de L3532-14 et s'étend aux décisions de remise à l'agence (L3532-20, L3532-21), celles de L3532-20 ouvrant le recours de L3721-1 3°. Extension de garantie déclarée (registre 10.2).",
       "ligne_rouge": "Droit de propriété (art. 17 DDHC) et nécessité (art. 8 DDHC) examinés : notification aux titulaires de droits connus, aux personnes mises en cause et aux parties, condition du recours."
     },
     {
@@ -333,18 +333,18 @@
     },
     {
       "num": "L3533-21",
-      "texte": "Seuls le président de la Commission du secret de la défense nationale, son représentant et, s'il y a lieu, les personnes qui l'assistent peuvent prendre connaissance d'éléments classifiés découverts sur les lieux. Le magistrat ne peut saisir, parmi ces éléments, que ceux relatifs aux infractions sur lesquelles portent les investigations. Si les nécessités de l'enquête justifient leur saisie en original, des copies sont laissées à leur détenteur. Chaque élément classifié saisi est placé sous scellé après inventaire par le président de la commission, qui en devient gardien. Les opérations relatives aux éléments classifiés et leur inventaire font l'objet d'un procès-verbal, non joint au dossier de la procédure, conservé par le président de la commission. La déclassification et la communication de ces éléments relèvent des articles L. 2312-4 et suivants du code de la défense.\nLe fait de dissimuler dans les lieux mentionnés à l'article L. 3533-17 des procédés, objets, documents, informations, réseaux informatiques, données informatisées ou fichiers non classifiés, en tentant de les faire bénéficier de la protection attachée au secret de la défense nationale, expose son auteur aux sanctions prévues à l'article 434-4 du code pénal.",
+      "texte": "Seuls le président de la Commission du secret de la défense nationale, son représentant et, s'il y a lieu, les personnes qui l'assistent peuvent prendre connaissance d'éléments classifiés découverts sur les lieux. Le magistrat ne peut saisir, parmi ces éléments, que ceux relatifs aux infractions sur lesquelles portent les investigations. Si les nécessités de l'enquête justifient leur saisie en original, des copies sont laissées à leur détenteur. Chaque élément classifié saisi est placé sous scellé après inventaire par le président de la commission, qui en devient gardien. Les opérations relatives aux éléments classifiés et leur inventaire font l'objet d'un procès-verbal, non joint au dossier de la procédure, conservé par le président de la commission.\nLe fait de dissimuler dans les lieux mentionnés à l'article L. 3533-17 des procédés, objets, documents, informations, réseaux informatiques, données informatisées ou fichiers non classifiés, en tentant de les faire bénéficier de la protection attachée au secret de la défense nationale, expose son auteur aux sanctions prévues à l'article 434-4 du code pénal.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Éléments classifiés : prise de connaissance, saisie, scellés, déclassification et dissimulation réprimée en un article (L3533-22 et L3533-23 fusionnés). La dissimulation reste punie des sanctions de l'article 434-4 du code pénal, même champ.",
+      "motif": "Éléments classifiés : prise de connaissance, saisie, scellés, déclassification et dissimulation réprimée en un article (L3533-22 et L3533-23 fusionnés). La dissimulation reste punie des sanctions de l'article 434-4 du code pénal, même champ. Passe 4 : Le rappel de la procédure de déclassification du code de la défense tombe (P20) : les articles L. 2312-4 et suivants de ce code s'appliquent d'eux-mêmes à toute demande d'une juridiction.",
       "ligne_rouge": "Sécurité nationale examinée : seul le président de la commission voit les éléments classifiés, saisie limitée aux infractions visées, copies laissées au détenteur, déclassification selon le code de la défense. Art. 8 DDHC : l'incrimination de dissimulation garde son champ et sa peine."
     },
     {
       "num": "L3533-24",
-      "texte": "Lorsqu'un lieu se révèle, à l'occasion d'une perquisition, abriter des éléments couverts par le secret de la défense nationale, le procureur de la République ou le juge d'instruction présent sur les lieux ou immédiatement avisé par l'officier de police judiciaire en informe le président de la Commission du secret de la défense nationale. Le magistrat ou l'officier de police judiciaire qui les a découverts place les éléments classifiés sous scellés sans en prendre connaissance, puis les remet ou les transmet, par tout moyen conforme à la réglementation applicable aux secrets de la défense nationale, au président de la commission afin qu'il en assure la garde. Les opérations relatives à ces éléments font l'objet d'un procès-verbal qui n'est pas joint au dossier de la procédure. Leur déclassification et leur communication relèvent des articles L. 2312-4 et suivants du code de la défense. Le présent article est prescrit à peine de nullité.",
+      "texte": "Lorsqu'un lieu se révèle, à l'occasion d'une perquisition, abriter des éléments couverts par le secret de la défense nationale, le procureur de la République ou le juge d'instruction présent sur les lieux ou immédiatement avisé par l'officier de police judiciaire en informe le président de la Commission du secret de la défense nationale. Le magistrat ou l'officier de police judiciaire qui les a découverts place les éléments classifiés sous scellés sans en prendre connaissance, puis les remet ou les transmet, par tout moyen conforme à la réglementation applicable aux secrets de la défense nationale, au président de la commission afin qu'il en assure la garde. Les opérations relatives à ces éléments font l'objet d'un procès-verbal qui n'est pas joint au dossier de la procédure. Le présent article est prescrit à peine de nullité.",
       "verbe": "S",
       "principe": "P26",
-      "motif": "Découverte fortuite d'éléments classifiés : mêmes règles, même nullité, phrases resserrées.",
+      "motif": "Découverte fortuite d'éléments classifiés : mêmes règles, même nullité, phrases resserrées. Passe 4 : Même rappel du code de la défense retiré (P20).",
       "ligne_rouge": "Sécurité nationale examinée : scellés sans prise de connaissance, garde par le président de la commission, procès-verbal hors dossier, à peine de nullité."
     },
     {
@@ -357,10 +357,10 @@
     },
     {
       "num": "L3534-1",
-      "texte": "La présente section s'applique, afin de garantir l'exécution de la peine complémentaire de confiscation selon l'article 131-21 du code pénal, aux saisies portant sur tout ou partie des biens d'une personne, sur un bien immobilier, sur un bien ou un droit mobilier incorporel ou une créance, ainsi qu'aux saisies qui n'entraînent pas de dépossession du bien. Ces saisies peuvent être ordonnées en valeur. Les règles propres à certains biens des sous-sections 2 et 3 s'appliquent alors aux biens sur lesquels la saisie en valeur s'exécute.\nSauf disposition contraire, la saisie est ordonnée par décision motivée, aux frais avancés du Trésor, au cours de l'enquête par le juge des libertés et de la détention saisi par requête du procureur de la République, et au cours de l'information par le juge d'instruction. La décision est notifiée au ministère public, au propriétaire du bien saisi et, s'ils sont connus, aux tiers ayant des droits sur ce bien.\nLe procureur de la République, le juge d'instruction ou, avec leur autorisation, l'officier de police judiciaire peut requérir le concours de toute personne qualifiée pour accomplir les actes nécessaires à la saisie des biens et à leur conservation.",
+      "texte": "La présente section s'applique, afin de garantir l'exécution de la peine complémentaire de confiscation selon l'article 131-21 du code pénal, aux saisies portant sur tout ou partie des biens d'une personne, sur un bien immobilier, sur un bien ou un droit mobilier incorporel ou une créance, ainsi qu'aux saisies qui n'entraînent pas de dépossession du bien. Ces saisies peuvent être ordonnées en valeur. Les règles propres à certains biens des sous-sections 2 et 3 s'appliquent alors aux biens sur lesquels la saisie en valeur s'exécute.\nSauf disposition contraire, la saisie des biens dont la confiscation est prévue par l'article 131-21 du code pénal est ordonnée par décision motivée, aux frais avancés du Trésor, au cours de l'enquête par le juge des libertés et de la détention saisi par requête du procureur de la République, et au cours de l'information par le juge d'instruction. La décision est notifiée au ministère public, au propriétaire du bien saisi et, s'ils sont connus, aux tiers ayant des droits sur ce bien.\nLe procureur de la République, le juge d'instruction ou, avec leur autorisation, l'officier de police judiciaire peut requérir le concours de toute personne qualifiée pour accomplir les actes nécessaires à la saisie des biens et à leur conservation.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Règle générale des saisies spéciales : champ, saisie en valeur, concours de personnes qualifiées, autorité, forme et notification des décisions (L3534-15 et L3534-16 fusionnés, coquille « L. 3434-1 » corrigée en passe 2). Les articles par type de bien n'en reprennent plus que les écarts.",
+      "motif": "Règle générale des saisies spéciales : champ, saisie en valeur, concours de personnes qualifiées, autorité, forme et notification des décisions (L3534-15 et L3534-16 fusionnés, coquille « L. 3434-1 » corrigée en passe 2). Les articles par type de bien n'en reprennent plus que les écarts. Passe 4 : L'objet de la saisie (biens dont la confiscation est prévue par l'article 131-21 du code pénal) s'écrit une fois dans la règle générale, et les articles par type de bien n'en reprennent plus la phrase d'ouverture.",
       "ligne_rouge": "Droit de propriété (art. 17 DDHC) et nécessité (art. 8 DDHC) examinés : saisie au service de la seule confiscation de l'article 131-21, ordonnée par un juge du siège en enquête et par le juge d'instruction en information, par décision motivée notifiée au propriétaire et aux tiers connus."
     },
     {
@@ -373,10 +373,10 @@
     },
     {
       "num": "L3534-6",
-      "texte": "Le juge des libertés et de la détention ou le juge d'instruction peut ordonner, selon l'article L. 3534-1, la saisie des immeubles dont la confiscation est prévue par l'article 131-21 du code pénal. S'il apparaît que le propriétaire du bien est un majeur protégé au sens de l'article L. 1711-2, le magistrat compétent avise de cette décision son tuteur ou son curateur, afin de lui permettre de l'assister dans l'exercice de ses droits, et l'avise en cas de recours de la date de l'audience de la chambre des investigations et des libertés.\nLa saisie pénale d'un immeuble est opposable aux tiers à compter de la publication de la décision au bureau des hypothèques ou, dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle, au livre foncier du lieu de situation de l'immeuble. L'Agence de gestion et de recouvrement des avoirs saisis et confisqués accomplit cette publication au nom du procureur de la République ou du juge d'instruction. Jusqu'à la mainlevée de la saisie ou la confiscation de l'immeuble, la saisie porte sur sa valeur totale, sans préjudice des privilèges et hypothèques préalablement inscrits et des privilèges de l'article 2378 du code civil nés avant la publication de la décision. La publication préalable d'un commandement de saisie sur l'immeuble ne fait pas obstacle à celle de la décision de saisie pénale.",
+      "texte": "La saisie des immeubles peut être ordonnée selon l'article L. 3534-1. S'il apparaît que le propriétaire de l'immeuble est un majeur protégé au sens de l'article L. 1711-2, le magistrat compétent avise de cette décision son tuteur ou son curateur, afin de lui permettre de l'assister dans l'exercice de ses droits, et l'avise en cas de recours de la date de l'audience de la chambre des investigations et des libertés.\nLa saisie pénale d'un immeuble est opposable aux tiers à compter de la publication de la décision au bureau des hypothèques ou au livre foncier du lieu de situation de l'immeuble. L'Agence de gestion et de recouvrement des avoirs saisis et confisqués accomplit cette publication au nom du procureur de la République ou du juge d'instruction. Jusqu'à la mainlevée de la saisie ou la confiscation de l'immeuble, la saisie porte sur sa valeur totale, sans préjudice des privilèges et hypothèques préalablement inscrits et des privilèges de l'article 2378 du code civil nés avant la publication de la décision. La publication préalable d'un commandement de saisie sur l'immeuble ne fait pas obstacle à celle de la décision de saisie pénale.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Saisie immobilière et son opposabilité en un article (L3534-7 fusionné). Autorité, forme et notification suivent L3534-1.",
+      "motif": "Saisie immobilière et son opposabilité en un article (L3534-7 fusionné). Autorité, forme et notification suivent L3534-1. Passe 4 : La phrase d'ouverture renvoie à L3534-1, qui porte l'autorité, l'objet, la forme et la notification. Le livre foncier n'existant que dans le Bas-Rhin, le Haut-Rhin et la Moselle, l'énumération de ces départements tombe. La mission de l'agence, qui accomplit la publication au nom du magistrat, reste dans la loi (art. 34 C, registre 10.159).",
       "ligne_rouge": "Droit de propriété (art. 17 DDHC) et nécessité (art. 8 DDHC) examinés : juge du siège ou juge d'instruction, avis au tuteur ou au curateur du majeur protégé et de la date de l'audience, rang des privilèges et hypothèques antérieurs préservé."
     },
     {
@@ -389,18 +389,18 @@
     },
     {
       "num": "L3534-9",
-      "texte": "Le juge des libertés et de la détention ou le juge d'instruction peut ordonner, selon l'article L. 3534-1, la saisie des biens ou droits incorporels dont la confiscation est prévue par l'article 131-21 du code pénal.\nLorsque la saisie porte sur une créance ayant pour objet une somme d'argent, le tiers débiteur consigne sans délai la somme due à la Caisse des dépôts et consignations ou auprès de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués lorsqu'elle est saisie. Pour les créances conditionnelles ou à terme, les fonds sont consignés lorsque ces créances deviennent exigibles. La saisie d'une créance figurant sur un contrat d'assurance sur la vie suspend les facultés de rachat, de renonciation et de nantissement de ce contrat et interdit toute acceptation postérieure du bénéfice du contrat, dans l'attente du jugement définitif au fond. L'assureur ne peut plus consentir d'avances au contractant. Cette saisie est notifiée au souscripteur et à l'assureur ou à l'organisme auprès duquel le contrat a été souscrit.\nLa saisie de parts sociales, valeurs mobilières, instruments financiers ou autres biens ou droits incorporels est notifiée à la personne émettrice et, le cas échéant, à l'intermédiaire financier teneur du compte mentionné aux 2° à 7° de l'article L. 542-1 du code monétaire et financier et à l'intermédiaire inscrit mentionné à l'article L. 228-1 du code de commerce.",
+      "texte": "La saisie des biens ou droits incorporels peut être ordonnée selon l'article L. 3534-1.\nLorsque la saisie porte sur une créance ayant pour objet une somme d'argent, le tiers débiteur consigne sans délai la somme due à la Caisse des dépôts et consignations ou auprès de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués lorsqu'elle est saisie. Pour les créances conditionnelles ou à terme, les fonds sont consignés lorsque ces créances deviennent exigibles. La saisie d'une créance figurant sur un contrat d'assurance sur la vie suspend les facultés de rachat, de renonciation et de nantissement de ce contrat et interdit toute acceptation postérieure du bénéfice du contrat, dans l'attente du jugement définitif au fond. L'assureur ne peut plus consentir d'avances au contractant. Cette saisie est notifiée au souscripteur et à l'assureur ou à l'organisme auprès duquel le contrat a été souscrit.\nLa saisie de parts sociales, valeurs mobilières, instruments financiers ou autres biens ou droits incorporels est notifiée à la personne émettrice et, le cas échéant, à l'intermédiaire financier teneur du compte mentionné aux 2° à 7° de l'article L. 542-1 du code monétaire et financier et à l'intermédiaire inscrit mentionné à l'article L. 228-1 du code de commerce.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Saisie des biens et droits incorporels, des créances, de l'assurance-vie et des titres en un article (L3534-11 et L3534-12 fusionnés). Autorité, forme et notification suivent L3534-1.",
+      "motif": "Saisie des biens et droits incorporels, des créances, de l'assurance-vie et des titres en un article (L3534-11 et L3534-12 fusionnés). Autorité, forme et notification suivent L3534-1. Passe 4 : La phrase d'ouverture renvoie à L3534-1, qui porte l'autorité, l'objet, la forme et la notification.",
       "ligne_rouge": "Droit de propriété (art. 17 DDHC) et nécessité (art. 8 DDHC) examinés : juge du siège ou juge d'instruction, consignation de la créance saisie, gel du contrat d'assurance-vie jusqu'au jugement définitif, notification au souscripteur, à l'assureur, à l'émetteur et aux intermédiaires."
     },
     {
       "num": "L3534-10",
-      "texte": "Par dérogation à l'article L. 3534-9, l'officier de police judiciaire peut être autorisé par tout moyen, par le procureur de la République ou par le juge d'instruction, à saisir aux frais avancés du Trésor une somme d'argent versée sur un compte ouvert auprès d'un établissement habilité par la loi à tenir des comptes de dépôts, de paiement ou d'actifs numériques mentionnés à l'article L. 54-10-1 du code monétaire et financier. Lorsqu'elle porte sur un compte de dépôts ou sur des actifs numériques, la saisie s'applique indifféremment à l'ensemble des sommes inscrites au crédit du compte ou des actifs numériques détenus au moment de la saisie, à concurrence, le cas échéant, du montant indiqué dans la décision.\nLe juge des libertés et de la détention, saisi par le procureur de la République, ou le juge d'instruction se prononce par ordonnance motivée sur le maintien ou la mainlevée de la saisie dans un délai de dix jours à compter de sa réalisation, y compris si la juridiction de jugement est saisie. L'ordonnance est notifiée au ministère public, au titulaire du compte ou au propriétaire de l'actif numérique et, s'ils sont connus, aux tiers ayant des droits sur ce compte ou cet actif.",
+      "texte": "Par dérogation à l'article L. 3534-9, l'officier de police judiciaire peut être autorisé par tout moyen, par le procureur de la République ou par le juge d'instruction, à saisir aux frais avancés du Trésor une somme d'argent versée sur un compte ouvert auprès d'un établissement habilité par la loi à tenir des comptes de dépôts, de paiement ou d'actifs numériques mentionnés à l'article L. 54-10-1 du code monétaire et financier. Lorsqu'elle porte sur un compte de dépôts ou sur des actifs numériques, la saisie s'applique indifféremment à l'ensemble des sommes inscrites au crédit du compte ou des actifs numériques détenus au moment de la saisie, à concurrence, le cas échéant, du montant indiqué dans la décision.\nLe juge des libertés et de la détention, saisi par le procureur de la République, ou le juge d'instruction se prononce par ordonnance motivée sur le maintien ou la mainlevée de la saisie dans un délai de dix jours à compter de sa réalisation, y compris si la juridiction de jugement est saisie. L'ordonnance est notifiée selon l'article L. 3534-1, le titulaire du compte ou le propriétaire de l'actif numérique y tenant la place du propriétaire du bien.",
       "verbe": "S",
       "principe": "P23",
-      "motif": "Saisie urgente des comptes et des actifs numériques : mêmes règles, phrases resserrées (cité par L6114-9).",
+      "motif": "Saisie urgente des comptes et des actifs numériques : mêmes règles, phrases resserrées (cité par L6114-9). Passe 4 : La notification renvoie à L3534-1 (ministère public, propriétaire, tiers connus), le titulaire du compte ou de l'actif tenant la place du propriétaire.",
       "ligne_rouge": "Droit de propriété (art. 17 DDHC) et nécessité (art. 8 DDHC) examinés : saisie autorisée par le magistrat, maintenue par ordonnance motivée d'un juge dans les dix jours, notifiée au titulaire et aux tiers connus, bornée au montant de la décision."
     },
     {
@@ -413,10 +413,10 @@
     },
     {
       "num": "L3534-14",
-      "texte": "Le juge des libertés et de la détention ou le juge d'instruction peut ordonner, selon l'article L. 3534-1, la saisie des biens dont la confiscation est prévue par l'article 131-21 du code pénal sans en dessaisir le propriétaire ou le détenteur. Le magistrat désigne la personne à qui la garde du bien est confiée et qui en assure l'entretien et la conservation, aux frais le cas échéant du propriétaire ou du détenteur qui en est redevable selon l'article L. 3534-17. Hors les actes d'entretien et de conservation, le gardien ne peut user du bien que si la décision de saisie le prévoit expressément.",
+      "texte": "La saisie peut être ordonnée selon l'article L. 3534-1 sans dessaisir le propriétaire ou le détenteur du bien. Le magistrat désigne la personne à qui la garde du bien est confiée et qui en assure l'entretien et la conservation, aux frais le cas échéant du propriétaire ou du détenteur qui en est redevable selon l'article L. 3534-17. Hors les actes d'entretien et de conservation, le gardien ne peut user du bien que si la décision de saisie le prévoit expressément.",
       "verbe": "S",
       "principe": "P23",
-      "motif": "Saisie sans dépossession : autorité, forme et notification selon L3534-1, gardien et usage gardés. Numéro gardé, borne de la plage de L3722-3.",
+      "motif": "Saisie sans dépossession : autorité, forme et notification selon L3534-1, gardien et usage gardés. Numéro gardé, borne de la plage de L3722-3. Passe 4 : La phrase d'ouverture renvoie à L3534-1, qui porte l'autorité, l'objet, la forme et la notification.",
       "ligne_rouge": "Droit de propriété (art. 17 DDHC) et nécessité (art. 8 DDHC) examinés : le propriétaire n'est pas dessaisi, le gardien n'use du bien que si la décision le prévoit."
     },
     {
@@ -1148,8 +1148,9 @@
       "destin": "reprise"
     },
     "L3531-30#2": {
-      "vers": "L3531-30",
-      "destin": "reprise"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Rappel du droit commun : la personne poursuivie demande la nullité de la perquisition devant la chambre des investigations et des libertés (livre VI de la troisième partie) ou la juridiction de jugement (quatrième partie), qui s'appliquent d'eux-mêmes. Le recours propre de la personne non poursuivie reste écrit en entier."
     },
     "L3531-31#1": {
       "vers": "L3531-30",
@@ -1268,8 +1269,9 @@
       "destin": "reprise"
     },
     "L3532-1#4": {
-      "vers": "L3532-1",
-      "destin": "reprise"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Rappel de structure sans règle propre : le régime des saisies spéciales s'applique par son propre champ, fixé à L3534-1. Aucune garantie de propriété n'y était portée."
     },
     "L3532-10#1": {
       "vers": "L3532-10",
@@ -1336,12 +1338,12 @@
       "destin": "reprise"
     },
     "L3532-15#1": {
-      "vers": "L3532-14",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3532-18"
     },
     "L3532-15#2": {
-      "vers": "L3532-14",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3532-18"
     },
     "L3532-16#1": {
       "vers": "L3532-16",
@@ -1516,8 +1518,8 @@
       "destin": "reprise"
     },
     "L3532-5#4": {
-      "vers": "L3532-5",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3541-2"
     },
     "L3532-6#1": {
       "vers": "L3532-6",
@@ -1800,8 +1802,9 @@
       "destin": "reprise"
     },
     "L3533-22#4": {
-      "vers": "L3533-21",
-      "destin": "reprise"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Rappel : la déclassification et la communication des éléments classifiés suivent les articles L. 2312-4 et suivants du code de la défense, qui s'appliquent d'eux-mêmes à toute juridiction. La garde des scellés par le président de la commission et le procès-verbal hors dossier restent à L3533-21."
     },
     "L3533-23#1": {
       "vers": "L3533-21",
@@ -1820,8 +1823,9 @@
       "destin": "reprise"
     },
     "L3533-24#4": {
-      "vers": "L3533-24",
-      "destin": "reprise"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Rappel : les articles L. 2312-4 et suivants du code de la défense s'appliquent d'eux-mêmes. Scellés sans prise de connaissance, garde par le président de la commission, procès-verbal hors dossier et nullité restent à L3533-24."
     },
     "L3533-24#5": {
       "vers": "L3533-24",
@@ -1932,8 +1936,8 @@
       "destin": "gardee"
     },
     "L3534-10#3": {
-      "vers": "L3534-10",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-10"
     },
     "L3534-10#4": {
       "vers": "L3534-10",
@@ -1972,20 +1976,20 @@
       "destin": "reprise"
     },
     "L3534-13#2": {
-      "vers": "L3534-13",
-      "destin": "gardee"
+      "destin": "gardee",
+      "vers": "L3534-13"
     },
     "L3534-14#1": {
-      "vers": "L3534-14",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     },
     "L3534-14#2": {
-      "vers": "L3534-14",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     },
     "L3534-14#3": {
-      "vers": "L3534-14",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     },
     "L3534-14#4": {
       "vers": "L3534-14",
@@ -2108,16 +2112,16 @@
       "destin": "reprise"
     },
     "L3534-6#1": {
-      "vers": "L3534-6",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     },
     "L3534-6#2": {
-      "vers": "L3534-6",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     },
     "L3534-6#3": {
-      "vers": "L3534-6",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     },
     "L3534-6#4": {
       "vers": "L3534-6",
@@ -2132,8 +2136,8 @@
       "destin": "reprise"
     },
     "L3534-7#2": {
-      "vers": "L3534-6",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-6"
     },
     "L3534-7#3": {
       "vers": "L3534-6",
@@ -2176,16 +2180,16 @@
       "destin": "reprise"
     },
     "L3534-9#1": {
-      "vers": "L3534-9",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     },
     "L3534-9#2": {
-      "vers": "L3534-9",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     },
     "L3534-9#3": {
-      "vers": "L3534-9",
-      "destin": "reprise"
+      "destin": "reprise",
+      "vers": "L3534-1"
     }
   }
 }
