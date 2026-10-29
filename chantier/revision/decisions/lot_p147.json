@@ -11,13 +11,13 @@
       "code": "cpp",
       "num": "L4351-1",
       "principe": "P17",
-      "motif": "Droit d'appel en un article : arrêts attaquables, titulaires (L4351-2), juridiction d'appel (L4351-3) ; la règle de l'autre cour d'assises est écrite une fois, à L4352-1.",
+      "motif": "Droit d'appel en un article : arrêts attaquables, titulaires (L4351-2), juridiction d'appel (L4351-3) ; la règle de l'autre cour d'assises est écrite une fois, à L4352-1. Passe 4 : la juridiction d'appel renvoie à l'article de désignation (L4352-1) au lieu du chapitre.",
       "ligne_rouge": "Double degré en matière criminelle (P17, L. 4) : l'appel au fond devant une autre cour d'assises avec jury est gardé ; le condamné par défaut est rejugé (L4343-1).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les arrêts rendus au fond en premier ressort par la cour d'assises ou par la cour criminelle départementale peuvent faire l'objet d'un appel, sauf de la part de la personne condamnée par défaut. La faculté de former appel appartient :\n1° À l'accusé.\n2° Au ministère public.\n3° À la personne civilement responsable et à la partie civile, quant à leurs intérêts civils.\n4° Aux administrations publiques qui exercent l'action pénale, si le ministère public a fait appel.\nContre un arrêt d'acquittement, même partiel, l'appel ne peut être formé que par le procureur général.\nL'appel est porté devant une cour d'assises, désignée selon le chapitre 2 du présent titre, qui statue en dernier ressort et réexamine l'affaire selon le présent titre."
+          "nouveau": "Les arrêts rendus au fond en premier ressort par la cour d'assises ou par la cour criminelle départementale peuvent faire l'objet d'un appel, sauf de la part de la personne condamnée par défaut. La faculté de former appel appartient :\n1° À l'accusé.\n2° Au ministère public.\n3° À la personne civilement responsable et à la partie civile, quant à leurs intérêts civils.\n4° Aux administrations publiques qui exercent l'action pénale, si le ministère public a fait appel.\nContre un arrêt d'acquittement, même partiel, l'appel ne peut être formé que par le procureur général.\nL'appel est porté devant une cour d'assises désignée selon l'article L. 4352-1, qui réexamine l'affaire et statue en dernier ressort."
         }
       ]
     },
@@ -39,13 +39,13 @@
       "code": "cpp",
       "num": "L4351-6",
       "principe": "P23",
-      "motif": "Forme de l'appel et appel du détenu (L4351-7) en un article.",
+      "motif": "Forme de l'appel et appel du détenu (L4351-7) en un article. Passe 4 : les formes de la déclaration (date, signatures, mention de l'impossibilité de signer, pouvoir annexé, registre public, déclaration du détenu au chef d'établissement constatée, datée, signée et transmise sans délai) tiennent par renvoi au premier alinéa de L3712-2 pour la déclaration au greffe et au deuxième alinéa pour la voie du détenu, nommée expressément, qui les porte mot pour mot. Seule la déclaration du procureur général hors du siège de la cour d'appel reste écrite. L'envoi en original ou en copie et l'annexion à l'acte du greffier descendent au décret. Effets du renvoi, déclarés : la déclaration au greffe est datée, et l'irrecevabilité, que portait déjà le « doit » de 2029, est écrite. Elle ne vise que le mode de dépôt. La voie du détenu est nommée expressément, comme à L4471-12 et L7212-9.",
       "ligne_rouge": "Accès au juge de la personne détenue : la déclaration au chef d'établissement est gardée.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La déclaration d'appel est faite au greffe de la juridiction qui a rendu l'arrêt. Elle est signée par le greffier et par l'appelant, un avocat ou un fondé de pouvoir spécial, dont le pouvoir est annexé à l'acte. Si l'appelant ne peut signer, le greffier le mentionne. Elle est inscrite sur un registre public dont toute personne peut obtenir copie.\nL'appelant détenu peut faire appel par une déclaration auprès du chef de l'établissement pénitentiaire, qui la constate, la date et la signe avec l'appelant ou mentionne qu'il ne peut signer.\nLa déclaration du détenu et celle du procureur général, lorsque le siège de la cour n'est pas celui de la cour d'appel, sont adressées sans délai, en original ou en copie, au greffe de la juridiction qui a rendu l'arrêt, transcrites sur le registre et annexées à l'acte du greffier."
+          "nouveau": "L'appel est formé par déclaration au greffe de la juridiction qui a rendu l'arrêt, selon le premier alinéa de l'article L. 3712-2. L'appelant détenu peut la faire auprès du chef de l'établissement pénitentiaire, selon le deuxième alinéa du même article. Lorsque le siège de la cour n'est pas celui de la cour d'appel, la déclaration du procureur général est adressée sans délai à ce greffe, qui la transcrit sur le registre."
         }
       ]
     },
@@ -53,13 +53,13 @@
       "code": "cpp",
       "num": "L4351-8",
       "principe": "P23",
-      "motif": "Désistement : gardé, renvoi mis à jour (L4352-2 fusionné dans L4352-1).",
+      "motif": "Désistement : gardé, renvoi mis à jour (L4352-2 fusionné dans L4352-1). Passe 4 : les deux cas de constatation du désistement, avant et après la désignation, tiennent en une phrase.",
       "ligne_rouge": "aucune",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "L'accusé peut se désister de son appel jusqu'à son interrogatoire prévu à l'article L. 4311-1. Son désistement rend caducs les appels incidents, et le ministère public peut alors se désister de l'appel qu'il a formé après celui de l'accusé. Avant la désignation de la cour d'assises d'appel, le désistement est constaté par ordonnance du premier président de la cour d'appel ou, si la chambre criminelle de la Cour de cassation est saisie selon l'article L. 4352-1, de son président. Après cette désignation, il l'est par ordonnance du président de la cour d'assises d'appel."
+          "nouveau": "L'accusé peut se désister de son appel jusqu'à son interrogatoire prévu à l'article L. 4311-1. Son désistement rend caducs les appels incidents, et le ministère public peut alors se désister de l'appel qu'il a formé après celui de l'accusé. Avant la désignation de la cour d'assises d'appel, le désistement est constaté par ordonnance du premier président de la cour d'appel ou, si la chambre criminelle est saisie selon l'article L. 4352-1, de son président, et après, par ordonnance du président de cette cour d'assises."
         }
       ]
     },
@@ -95,13 +95,13 @@
       "code": "cpp",
       "num": "L4351-13",
       "principe": "P23",
-      "motif": "Appel sur l'action civile et droits de la partie civile en un article (L4351-14 à L4351-18 fusionnés).",
+      "motif": "Appel sur l'action civile et droits de la partie civile en un article (L4351-14 à L4351-18 fusionnés). Passe 4 : la garantie de l'exécution provisoire se dit sans la double qualification « réelle ou personnelle », la faculté du premier président restant entière.",
       "ligne_rouge": "Droits de la victime : la partie civile non appelante garde ses droits et est avisée de l'audience, l'augmentation du préjudice et les frais restent demandables, l'exécution provisoire reste ouverte.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Sur l'action civile, la cour d'assises statuant en appel ne peut aggraver le sort de l'appelant sur son seul appel, qu'il soit l'accusé, le civilement responsable, la partie civile ou une partie intervenante.\nLa partie civile ne peut former en appel aucune demande nouvelle, hors l'augmentation des dommages-intérêts pour le préjudice souffert depuis la première décision et le remboursement de ses frais selon l'article L. 4326-18. Même sans appel sur l'action civile, la victime constituée partie civile en premier ressort exerce devant la cour d'assises statuant en appel les droits de la partie civile jusqu'à la clôture des débats, et elle est avisée par tout moyen de la date de l'audience.\nPendant le délai d'appel et l'instance d'appel, il est sursis à l'exécution de l'arrêt sur l'action civile, hors l'exécution provisoire prévue à l'article L. 4326-15. Le premier président de la cour d'appel dans le ressort de laquelle siège la cour d'assises désignée pour l'appel peut, en référé, arrêter l'exécution provisoire des dommages-intérêts si elle risque d'entraîner des conséquences manifestement excessives, en la subordonnant le cas échéant à une garantie réelle ou personnelle suffisante pour répondre de toutes restitutions ou réparations. Il peut aussi l'accorder lorsqu'elle a été refusée, n'a pas été demandée ou a été omise."
+          "nouveau": "Sur l'action civile, la cour d'assises statuant en appel ne peut aggraver le sort de l'appelant sur son seul appel, qu'il soit l'accusé, le civilement responsable, la partie civile ou une partie intervenante.\nLa partie civile ne peut former en appel aucune demande nouvelle, hors l'augmentation des dommages-intérêts pour le préjudice souffert depuis la première décision et le remboursement de ses frais selon l'article L. 4326-18. Même sans appel sur l'action civile, la victime constituée partie civile en premier ressort exerce devant la cour d'assises statuant en appel les droits de la partie civile jusqu'à la clôture des débats, et elle est avisée par tout moyen de la date de l'audience.\nPendant le délai d'appel et l'instance d'appel, il est sursis à l'exécution de l'arrêt sur l'action civile, hors l'exécution provisoire prévue à l'article L. 4326-15. Le premier président de la cour d'appel dans le ressort de laquelle siège la cour d'assises désignée pour l'appel peut, en référé, arrêter l'exécution provisoire des dommages-intérêts si elle risque d'entraîner des conséquences manifestement excessives, en la subordonnant s'il y a lieu à une garantie suffisante pour répondre des restitutions ou réparations. Il peut aussi l'accorder lorsqu'elle a été refusée, n'a pas été demandée ou a été omise."
         }
       ]
     },
@@ -109,13 +109,13 @@
       "code": "cpp",
       "num": "L4351-19",
       "principe": "P23",
-      "motif": "Appel civil seul : gardé, phrase resserrée. Numéro cité par L6322-4.",
+      "motif": "Appel civil seul : gardé, phrase resserrée. Numéro cité par L6322-4. Passe 4 : la phrase qui écarte le chapitre 2 tombe : la chambre des appels délictuels saisie n'est pas désignée selon ce chapitre (P20).",
       "ligne_rouge": "Droits de la victime : l'appel civil reste ouvert devant une chambre de la cour d'appel.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque la cour d'assises n'est pas saisie d'un appel formé contre l'arrêt rendu sur l'action pénale, l'appel formé par une partie contre le seul arrêt rendu sur l'action civile est porté devant la chambre des appels délictuels. Le chapitre 2 du présent titre ne s'applique pas."
+          "nouveau": "Lorsque la cour d'assises n'est pas saisie d'un appel formé contre l'arrêt rendu sur l'action pénale, l'appel formé par une partie contre le seul arrêt rendu sur l'action civile est porté devant la chambre des appels délictuels."
         }
       ]
     },
@@ -123,13 +123,13 @@
       "code": "cpp",
       "num": "L4352-1",
       "principe": "P23",
-      "motif": "Désignation de la cour d'assises d'appel en un article : premier président, chambre criminelle (L4352-2), autre cour ou même cour autrement composée (L4352-3), appel irrecevable (L4352-4).",
+      "motif": "Désignation de la cour d'assises d'appel en un article : premier président, chambre criminelle (L4352-2), autre cour ou même cour autrement composée (L4352-3), appel irrecevable (L4352-4). Passe 4 : la liste des pièces transmises (arrêt attaqué, observations, dossier) descend au décret en Conseil d'État. La saisine sans délai par le ministère public (registre 10.7), sa condition, le délai d'un mois et les observations des parties restent dans la loi.",
       "ligne_rouge": "Double degré et impartialité : l'appel va en principe à une autre cour d'assises, et la chambre criminelle statue dans le mois.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Après avoir recueilli les observations écrites du ministère public et des parties ou de leurs avocats, le premier président de la cour d'appel désigne la cour d'assises statuant en appel parmi les cours d'assises du ressort. Lorsque l'appel est formé contre un arrêt de cour d'assises, il désigne une autre cour d'assises. Il peut désigner la même cour d'assises, autrement composée, lorsque l'appel est formé contre un arrêt d'une cour d'assises composée uniquement de magistrats selon l'article L. 2123-31, de la cour d'assises de Paris statuant en application de l'article L. 2152-1, ou d'une cour d'assises spécialisée en criminalité organisée en application des articles L. 2152-10 et L. 2152-11.\nSi le ministère public ou une partie le demande, ou si le premier président estime nécessaire de désigner une cour d'assises hors du ressort, le ministère public adresse sans délai au greffe de la chambre criminelle de la Cour de cassation l'arrêt attaqué, les observations et, le cas échéant, le dossier de la procédure. Dans le mois de la réception de l'appel, la chambre criminelle, après avoir recueilli s'il y a lieu les observations écrites du ministère public et des parties, désigne la cour d'assises statuant en appel, dans les mêmes conditions. Il est alors procédé comme en cas de renvoi après cassation.\nSi l'appel n'a pas été formé dans les délais ou porte sur un arrêt non susceptible d'appel, le premier président ou le président de la chambre criminelle dit n'y avoir lieu à désignation."
+          "nouveau": "Après avoir recueilli les observations écrites du ministère public et des parties ou de leurs avocats, le premier président de la cour d'appel désigne la cour d'assises statuant en appel parmi les cours d'assises du ressort. Lorsque l'appel est formé contre un arrêt de cour d'assises, il désigne une autre cour d'assises. Il peut désigner la même cour d'assises, autrement composée, lorsque l'appel est formé contre un arrêt d'une cour d'assises composée uniquement de magistrats selon l'article L. 2123-31, de la cour d'assises de Paris statuant en application de l'article L. 2152-1, ou d'une cour d'assises spécialisée en criminalité organisée en application des articles L. 2152-10 et L. 2152-11.\nSi le ministère public ou une partie le demande, ou si le premier président estime nécessaire de désigner une cour d'assises hors du ressort, le ministère public saisit sans délai la chambre criminelle de la Cour de cassation. Dans le mois de la réception de l'appel, celle-ci désigne la cour d'assises statuant en appel dans les mêmes conditions, après avoir recueilli s'il y a lieu les observations écrites du ministère public et des parties. Il est alors procédé comme en cas de renvoi après cassation.\nSi l'appel n'a pas été formé dans les délais ou porte sur un arrêt non susceptible d'appel, le premier président ou le président de la chambre criminelle dit n'y avoir lieu à désignation."
         }
       ]
     },
