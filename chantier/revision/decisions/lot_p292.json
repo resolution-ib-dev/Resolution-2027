@@ -11,13 +11,13 @@
       "code": "cpp",
       "num": "L1621-1",
       "principe": "P12",
-      "motif": "Règle générale de la télécommunication audiovisuelle (cité par trente-neuf articles) : le magistrat chargé de la procédure ou le président de la juridiction y recourt dans les cas prévus par le code. Les articles de la section en portent les garanties, auxquelles les autres titres renvoient.",
+      "motif": "Règle générale de la télécommunication audiovisuelle (cité par trente-neuf articles) : le magistrat chargé de la procédure ou le président de la juridiction y recourt dans les cas prévus par le code. Les articles de la section en portent les garanties, auxquelles les autres titres renvoient. Passe 4 : « par la présente section et » tombe : la section fait partie du code, même renvoi aux cas et modalités.",
       "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : le recours reste une décision du magistrat, ses garanties sont aux articles L1621-3, L1621-4 et L1621-8.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le magistrat chargé de la procédure ou le président de la juridiction saisie peut, s'il l'estime nécessaire à la bonne administration de la justice, recourir à un moyen de télécommunication audiovisuelle qui relie plusieurs lieux pour réaliser un acte de procédure, dans les cas et selon les modalités prévus par la présente section et par le présent code."
+          "nouveau": "Le magistrat chargé de la procédure ou le président de la juridiction saisie peut, s'il l'estime nécessaire à la bonne administration de la justice, recourir à un moyen de télécommunication audiovisuelle qui relie plusieurs lieux pour réaliser un acte de procédure, dans les cas et selon les modalités prévus par le présent code."
         }
       ]
     },
@@ -25,9 +25,15 @@
       "code": "cpp",
       "num": "L1621-2",
       "principe": "P22",
-      "motif": "Procès-verbal des opérations à distance : inchangé.",
+      "motif": "Procès-verbal des opérations à distance : inchangé. Passe 4 : phrase resserrée, même obligation de procès-verbal.",
       "ligne_rouge": "aucune",
-      "decision": "G"
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Il est dressé procès-verbal des opérations faites par télécommunication audiovisuelle."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -47,13 +53,13 @@
       "code": "cpp",
       "num": "L1621-4",
       "principe": "P23",
-      "motif": "Place de l'avocat et de l'interprète, entretien confidentiel, dossier mis à disposition en détention : gardés. Un mot par notion : « télécommunication audiovisuelle » (passe 2).",
+      "motif": "Place de l'avocat et de l'interprète, entretien confidentiel, dossier mis à disposition en détention : gardés. Un mot par notion : « télécommunication audiovisuelle » (passe 2). Passe 4 : la triple désignation « du magistrat, de la juridiction ou de la commission » se dit une fois, puis « cette autorité », même champ ; l'entretien confidentiel et la copie du dossier en détention sont gardés.",
       "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : l'entretien confidentiel et la copie du dossier en détention sont gardés.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsqu'il est recouru à un moyen de télécommunication audiovisuelle devant un magistrat, une juridiction ou une commission, l'avocat ou l'interprète de la personne peut se trouver auprès du magistrat, de la juridiction ou de la commission, ou auprès de l'intéressé. L'avocat qui se trouve auprès du magistrat, de la juridiction ou de la commission doit pouvoir s'entretenir avec l'intéressé de façon confidentielle par ce moyen. L'avocat qui se trouve auprès d'une personne détenue dispose dans les locaux de détention d'une copie de l'intégralité du dossier, sauf si elle lui a déjà été remise."
+          "nouveau": "Lorsqu'il est recouru à un moyen de télécommunication audiovisuelle devant un magistrat, une juridiction ou une commission, l'avocat ou l'interprète de la personne peut se trouver auprès de l'autorité devant laquelle elle comparaît, ou auprès de l'intéressé. L'avocat qui se trouve auprès de cette autorité doit pouvoir s'entretenir avec l'intéressé de façon confidentielle par ce moyen. L'avocat qui se trouve auprès d'une personne détenue dispose dans les locaux de détention d'une copie de l'intégralité du dossier, sauf si elle lui a déjà été remise."
         }
       ]
     },
@@ -61,13 +67,13 @@
       "code": "cpp",
       "num": "L1621-5",
       "principe": "P22",
-      "motif": "Enregistrement possible des opérations à distance, régi par le chapitre des enregistrements : gardé en une phrase.",
+      "motif": "Enregistrement possible des opérations à distance, régi par le chapitre des enregistrements : gardé en une phrase. Passe 4 : « faire l'objet d'un enregistrement audiovisuel ou sonore, régi par » devient « être enregistrées selon », les articles visés portant les deux formes d'enregistrement.",
       "ligne_rouge": "aucune",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les opérations réalisées par télécommunication audiovisuelle peuvent faire l'objet d'un enregistrement audiovisuel ou sonore, régi par les articles L. 1622-1 à L. 1622-6."
+          "nouveau": "Les opérations réalisées par télécommunication audiovisuelle peuvent être enregistrées selon les articles L. 1622-1 à L. 1622-6."
         }
       ]
     },
@@ -75,9 +81,15 @@
       "code": "cpp",
       "num": "L1621-6",
       "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : inchangé.",
+      "motif": "Renvoi au décret en Conseil d'État : inchangé. Passe 4 : phrase à l'actif, même renvoi au décret en Conseil d'État.",
       "ligne_rouge": "aucune",
-      "decision": "G"
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Un décret en Conseil d'État précise les modalités d'application de la présente section."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -119,9 +131,15 @@
       "code": "cpp",
       "num": "L1621-10",
       "principe": "P12",
-      "motif": "Comparution à distance devant les juridictions de l'application des peines : inchangée.",
+      "motif": "Comparution à distance devant les juridictions de l'application des peines : inchangée. Passe 4 : « être réalisée par l'intermédiaire d'un moyen de » devient « se faire par », même faculté.",
       "ligne_rouge": "aucune",
-      "decision": "G"
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "La comparution de la personne condamnée devant les juridictions de l'application des peines peut se faire par télécommunication audiovisuelle, quel que soit l'objet de la procédure."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -211,13 +229,13 @@
       "code": "cpp",
       "num": "L1622-5",
       "principe": "P23",
-      "motif": "Pas de copie des enregistrements (L1622-4) et consultation par les parties et les avocats : un article pour l'accès aux enregistrements.",
+      "motif": "Pas de copie des enregistrements (L1622-4) et consultation par les parties et les avocats : un article pour l'accès aux enregistrements. Passe 4 : « Les dispositions du présent code relatives à » devient « Les règles du présent code sur », même exclusion.",
       "ligne_rouge": "Contradictoire (art. 16 DDHC) et vie privée des personnes enregistrées (mineurs victimes) examinés : la copie reste exclue, la consultation par les parties et les avocats est gardée.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les dispositions du présent code relatives à la consultation des pièces du dossier et à la délivrance de leurs copies ne s'appliquent pas aux enregistrements.\nAu cours de l'information, les parties, les avocats ou les experts peuvent visionner ou écouter l'enregistrement ou sa copie sur décision du juge d'instruction, en présence de ce magistrat ou d'un greffier. Lorsque la loi le prévoit, cette consultation n'est possible qu'en cas de contestation de l'acte enregistré. Sauf disposition contraire, les avocats des parties peuvent aussi visionner ou écouter la copie au palais de justice, sans décision ni présence d'un magistrat ou d'un greffier, dans des conditions qui garantissent la confidentialité de cette consultation."
+          "nouveau": "Les règles du présent code sur la consultation des pièces du dossier et la délivrance de leurs copies ne s'appliquent pas aux enregistrements.\nAu cours de l'information, les parties, les avocats ou les experts peuvent visionner ou écouter l'enregistrement ou sa copie sur décision du juge d'instruction, en présence de ce magistrat ou d'un greffier. Lorsque la loi le prévoit, cette consultation n'est possible qu'en cas de contestation de l'acte enregistré. Sauf disposition contraire, les avocats des parties peuvent aussi visionner ou écouter la copie au palais de justice, sans décision ni présence d'un magistrat ou d'un greffier, dans des conditions qui garantissent la confidentialité de cette consultation."
         }
       ]
     },
