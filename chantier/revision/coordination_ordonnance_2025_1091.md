@@ -130,7 +130,7 @@ Ces relevés sont automatiques. Ils ne sont pas instruits ligne à ligne et n’
 
 ## Comptes
 
-- Tableau : 89 lignes, 84 défauts confirmés et 5 non confirmés (lignes 23, 59, 65, 84 et 89).
+- Tableau : 89 lignes, 84 défauts confirmés et 5 non confirmés (lignes 23, 59, 65, 84 et 89). Compte relevé le 20261029 sur la colonne « vérifié » : 84 cellules commencent par « oui », 5 par « non confirmé ». Parmi les 84, six portent la mention « non rejoué » (lignes 67, 75, 80, 82, 86 et 88) : leur constat vient d’une relecture.
 - Sur les 84 défauts confirmés, 70 tiennent à l’ordonnance ou au report des lois postérieures, dont la ligne 55, qui attend sa référence exacte, et les lignes 70, 72 à 76, 79 et 83, dont la correction est à établir. 8 tiennent à la base (lignes 60 à 64, 81, 87 et 88) et 6 au décret (lignes 57, 58, 78, 80, 82 et 86).
 - Passe 2 : 19 défauts confirmés et 3 non confirmés. Défauts ajoutés en vérifiant : 43.
 - Passe 3 (20261028) : 24 lignes (66 à 89), 22 défauts confirmés et 2 non confirmés (lignes 84 et 89).
@@ -150,3 +150,867 @@ Hors des trois codes, ces renvois sont à porter par la loi de réécriture, qui
 | éducation L131-11 | reproduit 227-17-2, abrogé | abrogation de la reproduction |
 | monétaire et financier L465-3-7 | « réduite des deux tiers » pour le repenti, contre 132-78 réécrit (registre 1.9) | renvoi à l'article 132-78 du code pénal |
 
+## Renvois vers d'autres codes, hors périmètre (recensement)
+
+Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe3/*.json`, champ `articles_cible[].texte`, 335 pièces). Une ligne par mention « du code … » nommant un autre code que le code pénal, le code de procédure pénale et le code pénitentiaire, et par mention « du même code » rattachée au dernier code nommé avant elle dans le même article. « Du présent code » renvoie au code du lot et reste hors du relevé. L’article cité est relevé mécaniquement : les numéros placés entre le dernier mot « article » et la mention, ou, à défaut, la subdivision nommée, ou le code entier. Le recensement est un état des lieux : il dit où la loi de réécriture rencontre d’autres codes, et chaque correction reste à instruire.
+
+**Compte par code** : 810 renvois vers 43 codes, dont 62 vers le code du travail, 17 vers le code de la justice pénale des mineurs et 0 vers le code de la commande publique, que le texte cible ne nomme pas.
+
+| code cité | renvois |
+|---|---|
+| code de la santé publique | 118 |
+| code de la sécurité intérieure | 82 |
+| code civil | 62 |
+| code du travail | 62 |
+| code de la route | 59 |
+| code de l'action sociale et des familles | 40 |
+| code de la défense | 31 |
+| code de l'organisation judiciaire | 28 |
+| code de l'environnement | 24 |
+| code général des impôts | 22 |
+| code de la sécurité sociale | 21 |
+| code rural et de la pêche maritime | 20 |
+| code des douanes | 19 |
+| code de commerce | 18 |
+| code de la justice pénale des mineurs | 17 |
+| code de procédure civile | 17 |
+| code de l'entrée et du séjour des étrangers et du droit d'asile | 15 |
+| code des transports | 15 |
+| code du patrimoine | 15 |
+| code monétaire et financier | 14 |
+| code général des collectivités territoriales | 13 |
+| code électoral | 12 |
+| code des assurances | 11 |
+| code des postes et des communications électroniques | 10 |
+| code de justice militaire | 8 |
+| code de la construction et de l'habitation | 6 |
+| code des relations entre le public et l'administration | 6 |
+| code de l'éducation | 5 |
+| code du sport | 5 |
+| code forestier | 5 |
+| code de l'aviation civile | 4 |
+| code de la propriété intellectuelle | 4 |
+| code des procédures civiles d'exécution | 4 |
+| code de la consommation | 3 |
+| code général de la propriété des personnes publiques | 3 |
+| code de la voirie routière | 2 |
+| code des impositions sur les biens et services | 2 |
+| code général de la fonction publique | 2 |
+| code minier | 2 |
+| code de justice administrative | 1 |
+| code de l'énergie | 1 |
+| code du service national | 1 |
+| code rural | 1 |
+
+| article citant | lot | code cité | article cité |
+|---|---|---|---|
+| L5243-7 | lot2_L5_livre2_titre4 | code de la santé publique | L. 3711-1 |
+| D527-1 | lot3_D_livre5_titre3 | code de la santé publique | L. 3711-3 |
+| L5111-6 | lot_p000 | code civil | sans article, code entier |
+| L5224-9 | lot_p005 | code de la défense | L. 1321-1 |
+| L5226-3 | lot_p005 | code de la santé publique | L. 3711-3 |
+| L5261-7 | lot_p009 | code de la santé publique | L. 3711-1 |
+| L5411-3 | lot_p016 | code général des impôts | 1018 A |
+| L5512-1 | lot_p018 | code de la justice pénale des mineurs | sans article, titre Ier du livre Ier |
+| L5512-1 | lot_p018 | code de commerce | L. 653-8 |
+| L5513-2 | lot_p018 | code de commerce | L. 653-8 |
+| L5514-5 | lot_p018 | code de justice militaire | L. 263-4 |
+| L5514-5 | lot_p018 | code de commerce | sans article, titre IV du livre IV |
+| L5514-10 | lot_p018 | code de l'action sociale et des familles | L. 312-1 |
+| A38-4 | lot_p021 | code de la route | L. 130-9 |
+| A38-5-2 | lot_p021 | code des douanes | 345-0 bis |
+| A38-6 | lot_p021 | code de la route | L. 235-1 |
+| A38-6 | lot_p021 | code général des impôts | 1018 A |
+| A43-9 | lot_p022 | code des postes et des communications électroniques | R. 10-13 |
+| A43-10 | lot_p022 | code de procédure civile | 1210-3 |
+| A43-10 | lot_p022 | code de l'entrée et du séjour des étrangers et du droit d'asile | R. 111-20 |
+| A43-10 | lot_p022 | code de procédure civile | 1072, 1171, 1221 |
+| A43-10 | lot_p022 | code civil | 388-1 |
+| A43-15 | lot_p022 | code de la route | L. 325-1-1, L. 325-1-2 |
+| A43-15 | lot_p022 | code de la route | R. 325-29 |
+| R55 | lot_p028 | code général des impôts | 1018 A |
+| R55-3 | lot_p028 | code des assurances | L. 211-27, L. 421-8 |
+| R55-3 | lot_p028 | code de la route | L. 324-2 |
+| R55-3 | lot_p028 | code de la route | L. 4223-27, L. 121-4 |
+| R61-8 | lot_p031 | code de l'organisation judiciaire | R. 111-5 |
+| R70 | lot_p032 | code civil | 79 |
+| R79 | lot_p032 | code des transports | L. 2111-9 |
+| R79 | lot_p032 | code de la défense | L. 1333-1 |
+| R79 | lot_p032 | code de la propriété intellectuelle | L. 422-5 |
+| R79 | lot_p032 | code des assurances | L. 512-1 |
+| R79 | lot_p032 | code des transports | L. 2241-1 |
+| R84-4 | lot_p032 | code de la justice pénale des mineurs | L. 631-4 |
+| R92 | lot_p033 | code des postes et des communications électroniques | R. 10-13 |
+| R93 | lot_p033 | code de la santé publique | sans article, titre Ier du livre II de la troisième partie législative |
+| R93 | lot_p033 | code civil | sans article, titres X et XI du livre Ier |
+| R93 | lot_p033 | code civil | 388-2, 389-3 |
+| R93 | lot_p033 | code civil | 388-1 |
+| R93 | lot_p033 | code de procédure civile | 30-3 |
+| R93 | lot_p033 | code de commerce | 12 |
+| R93 | lot_p033 | code de procédure civile | 696 |
+| R93 | lot_p033 | code de procédure civile | 1136-3 |
+| R93 | lot_p033 | code de la consommation | L. 332-2 |
+| R93 | lot_p033 | code de l'entrée et du séjour des étrangers et du droit d'asile | R. 521-20 |
+| R93 | lot_p033 | code de procédure civile | 23-1 |
+| R93 | lot_p033 | code de procédure civile | L. 813-5 |
+| R93 | lot_p033 | code civil | 16-11, 87 |
+| R93 | lot_p033 | code général des collectivités territoriales | L. 2223-42 |
+| R93-1 | lot_p033 | code de la santé publique | L. 3211-12, L. 3211-12-6, L. 3213-3, L. 3213-8, L. 3213-9-1 |
+| R117 | lot_p033 | code de la sécurité sociale | L. 162-14-1 |
+| R167 | lot_p033 | code de l'organisation judiciaire | R. 111-12, R. 111-13 |
+| R171 | lot_p033 | code du patrimoine | L. 213-1, L. 213-5 |
+| R181 | lot_p033 | code de commerce | A. 444-10 |
+| R215 | lot_p033 | code civil | 50, 53, 192 |
+| R217-1 | lot_p033 | code civil | 431 |
+| R217-1 | lot_p033 | code civil | 494-4 |
+| R218 | lot_p033 | code de procédure civile | 1306 |
+| R221-1 | lot_p033 | code civil | 388-1 |
+| R249-9 | lot_p034 | code de la justice pénale des mineurs | L. 322-8, L. 322-10 |
+| R249-10 | lot_p034 | code de la justice pénale des mineurs | L. 322-8, L. 322-10 |
+| R249-13 | lot_p034 | code de l'organisation judiciaire | R. 123-14 |
+| R249-13 | lot_p034 | code de la justice pénale des mineurs | L. 322-8, L. 322-10 |
+| D51 | lot_p035 | code civil | 515-11, 515-11-1 |
+| D142 | lot_p035 | code civil | 515-11 |
+| D147-40 | lot_p035 | code de la santé publique | R. 3711-8, R. 3711-12, R. 3711-17 |
+| D158 | lot_p035 | code civil | 515-11 |
+| D158 | lot_p035 | code civil | 378, 379-1 |
+| D48-5-2 | lot_p038 | code de l'organisation judiciaire | R. 522-10 |
+| D49-8 | lot_p038 | code de l'organisation judiciaire | R. 522-10 |
+| D49-81-1 | lot_p038 | code de l'organisation judiciaire | R. 111-5 |
+| D571-4 | lot_p042 | code de l'action sociale et des familles | L. 227-4 |
+| D571-4 | lot_p042 | code de la justice pénale des mineurs | sans article, code entier |
+| D571-4 | lot_p042 | code civil | 375, 375-8 |
+| D571-4 | lot_p042 | code de l'action sociale et des familles | D. 316-1 |
+| D571-4 | lot_p042 | code de l'action sociale et des familles | D. 316-2 |
+| D571-4 | lot_p042 | code de l'action sociale et des familles | L. 312-1 |
+| D571-4 | lot_p042 | code de la santé publique | L. 2132-4 |
+| D571-4 | lot_p042 | code de l'éducation | L. 441-1, L. 444-1, L. 445-1 |
+| D571-5 | lot_p042 | code de l'action sociale et des familles | L. 133-6 |
+| D571-5 | lot_p042 | code de l'éducation | L. 911-5, L. 444-6, L. 445-1 |
+| D593-1 | lot_p044 | code de procédure civile | 748-6 |
+| D594-16 | lot_p044 | code de l'entrée et du séjour des étrangers et du droit d'asile | R. 141-1 |
+| 221-4 | lot_p045 | code de la sécurité intérieure | L. 271-1 |
+| 221-6-2 | lot_p045 | code rural et de la pêche maritime | L. 211-11 |
+| 221-6-2 | lot_p045 | code rural et de la pêche maritime | L. 211-14 |
+| 221-6-2 | lot_p045 | code rural et de la pêche maritime | L. 211-12 |
+| 221-6-2 | lot_p045 | code rural et de la pêche maritime | L. 211-16 |
+| 221-9-2 | lot_p045 | code de la sécurité sociale | sans article, code entier |
+| 221-9-2 | lot_p045 | code rural et de la pêche maritime | sans article, code entier |
+| 221-18 | lot_p045 | code de la route | sans article, code entier |
+| 221-18 | lot_p045 | code de la route | 8 |
+| 221-18 | lot_p045 | code de la route | L. 236-1 |
+| 221-21 | lot_p045 | code de la route | L. 234-17 |
+| 221-21 | lot_p045 | code de la route | L. 221-2, L. 224-16, L. 234-1, L. 234-8, L. 235-1, L. 235-3, L. 413-1 |
+| 222-12 | lot_p045 | code de la sécurité intérieure | L. 271-1 |
+| 222-12 | lot_p045 | code de la sécurité intérieure | L. 611-1, L. 621-1 |
+| 222-12 | lot_p045 | code de la sécurité intérieure | L. 611-1, L. 621-1 |
+| 222-14-5 | lot_p045 | code de la défense | L. 1321-1 |
+| 222-19-2 | lot_p045 | code rural et de la pêche maritime | L. 212-10 |
+| 222-19-2 | lot_p045 | code rural et de la pêche maritime | L. 211-11 |
+| 222-19-2 | lot_p045 | code rural et de la pêche maritime | L. 211-14-1 |
+| 222-19-2 | lot_p045 | code général des collectivités territoriales | L. 2215-1 |
+| 222-20-2 | lot_p045 | code rural et de la pêche maritime | L. 211-11 |
+| 222-20-2 | lot_p045 | code rural et de la pêche maritime | L. 211-14-1 |
+| 222-41 | lot_p045 | code de la santé publique | L. 5132-7 |
+| 222-44-1 | lot_p045 | code de l'action sociale et des familles | L. 214-9 |
+| 222-52 | lot_p045 | code de la défense | L. 2332-1 |
+| 222-52 | lot_p045 | code de la sécurité intérieure | L. 312-1, L. 312-4, L. 312-4-3, L. 314-2, L. 314-3 |
+| 222-54 | lot_p045 | code de la sécurité intérieure | L. 315-1, L. 315-2 |
+| 222-56 | lot_p045 | code de la sécurité intérieure | L. 311-2 |
+| 222-57 | lot_p045 | code de la sécurité intérieure | L. 311-2 |
+| 222-59 | lot_p045 | code de la sécurité intérieure | L. 311-2 |
+| 222-67 | lot_p045 | code de la sécurité intérieure | L. 317-1 |
+| 223-8 | lot_p045 | code de la santé publique | L. 1124-1 |
+| 225-2 | lot_p045 | code de la sécurité sociale | L. 412-8 |
+| 225-3 | lot_p045 | code de la santé publique | L. 1231-1 |
+| 225-3 | lot_p045 | code du travail | sans article, titre IV du livre II |
+| 226-1 | lot_p045 | code civil | 372-1 |
+| 226-3 | lot_p045 | code de la sécurité intérieure | L. 853-2 |
+| 226-3 | lot_p045 | code de la sécurité intérieure | L. 853-2 |
+| 226-3 | lot_p045 | code de la défense | L. 1332-1 |
+| 226-3 | lot_p045 | code des postes et des communications électroniques | sans article, section 7 du chapitre II du titre Ier du livre II |
+| 226-4-2 | lot_p045 | code des procédures civiles d'exécution | L. 153-1 |
+| 226-14 | lot_p045 | code de l'action sociale et des familles | L. 226-3 |
+| 226-14 | lot_p045 | code de l'action sociale et des familles | L. 119-2 |
+| 226-14 | lot_p045 | code rural et de la pêche maritime | L. 203-6 |
+| 226-25 | lot_p045 | code civil | 16-10 |
+| 226-25 | lot_p045 | code du sport | L. 232-12-2 |
+| 226-27 | lot_p045 | code civil | 16-11 |
+| 226-28 | lot_p045 | code civil | 16-11 |
+| 226-28 | lot_p045 | code de la santé publique | L. 1131-3 |
+| 226-28 | lot_p045 | code de la santé publique | L. 1131-2-1 |
+| 227-3 | lot_p045 | code civil | 373-2-2 |
+| 227-3 | lot_p045 | code civil | 373-2-2 |
+| 227-3 | lot_p045 | code de la sécurité sociale | L. 582-1 |
+| 227-4 | lot_p045 | code civil | 373-2-2 |
+| 227-4 | lot_p045 | code de la sécurité sociale | L. 582-1 |
+| 227-4 | lot_p045 | code civil | 373-2-2 |
+| 227-4 | lot_p045 | code de la sécurité sociale | L. 582-1 |
+| 227-4-2 | lot_p045 | code civil | 515-9, 515-13 |
+| 227-4-2 | lot_p045 | code civil | 515-13-1 |
+| 227-4-3 | lot_p045 | code civil | 515-9 |
+| 227-6 | lot_p045 | code civil | 229-1 |
+| 227-17-1 | lot_p045 | code de l'éducation | L. 441-3-1 |
+| 228-1 | lot_p045 | code civil | 378 |
+| 229-4 | lot_p045 | code du travail | L. 6313-1 |
+| 215-1 | lot_p046 | code du travail | L. 6313-1 |
+| 321-6-1 | lot_p047 | code de la défense | L. 2339-2, L. 2339-3, L. 2339-10, L. 2341-4, L. 2353-4, L. 2353-5 |
+| 321-6-1 | lot_p047 | code de la sécurité intérieure | L. 317-2, L. 317-7 |
+| 322-3 | lot_p047 | code rural et de la pêche maritime | L. 311-1 |
+| 322-3-1 | lot_p047 | code du patrimoine | sans article, code entier |
+| 322-3-1 | lot_p047 | code du patrimoine | sans article, code entier |
+| 322-3-1 | lot_p047 | code du patrimoine | L. 510-1 |
+| 322-4-2 | lot_p047 | code de l'environnement | L. 332-25 |
+| 322-4-2 | lot_p047 | code de l'environnement | L. 341-19 |
+| 323-8 | lot_p047 | code de la sécurité intérieure | L. 811-2 |
+| 323-8 | lot_p047 | code de la sécurité intérieure | L. 811-3 |
+| 311-4 | lot_p048 | code rural et de la pêche maritime | L. 311-1, L. 911-1 |
+| 311-4-2 | lot_p048 | code du patrimoine | sans article, code entier |
+| 311-4-2 | lot_p048 | code du patrimoine | sans article, code entier |
+| 313-7 | lot_p048 | code du travail | L. 6313-1 |
+| 315-2 | lot_p048 | code des procédures civiles d'exécution | L. 412-6 |
+| 315-2 | lot_p048 | code des procédures civiles d'exécution | L. 412-3 |
+| 421-1 | lot_p049 | code de la défense | L. 2353-13 |
+| 421-1 | lot_p049 | code de la sécurité intérieure | L. 317-7, L. 317-8 |
+| 421-1 | lot_p049 | code monétaire et financier | L. 465-1, L. 465-3 |
+| 421-2-4-1 | lot_p049 | code civil | 378, 379-1 |
+| 431-3 | lot_p050 | code de la sécurité intérieure | L. 211-9 |
+| 431-15 | lot_p050 | code de la sécurité intérieure | L. 212-1 |
+| 431-17 | lot_p050 | code de la sécurité intérieure | L. 212-1 |
+| 432-12 | lot_p050 | code général des collectivités territoriales | L. 2122-26 |
+| 432-12 | lot_p050 | code général des collectivités territoriales | L. 2121-18 |
+| 433-3 | lot_p050 | code de la sécurité intérieure | L. 271-1 |
+| 433-3 | lot_p050 | code de la sécurité intérieure | L. 611-1, L. 621-1 |
+| 433-17 | lot_p050 | code du travail | L. 6313-1 |
+| 433-18-1 | lot_p050 | code civil | 56 |
+| 433-18-1 | lot_p050 | code civil | 55 |
+| 434-41 | lot_p050 | code de la propriété intellectuelle | L. 335-7 |
+| 434-41 | lot_p050 | code de la construction et de l'habitation | L. 511-22 |
+| 441-8 | lot_p051 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 431-3 |
+| 413-5 | lot_p052 | code des transports | L. 6211-4 |
+| 413-13 | lot_p052 | code de la sécurité intérieure | L. 861-2 |
+| 413-13 | lot_p052 | code de la sécurité intérieure | L. 811-2 |
+| 131-26-2 | lot_p056 | code électoral | L. 86, L. 88-1, L. 91, L. 104, L. 106, L. 109, L. 111, L. 113, L. 116 |
+| 131-26-2 | lot_p056 | code général des impôts | 1741, 1743 |
+| 131-26-2 | lot_p056 | code monétaire et financier | L. 465-1, L. 465-3-3 |
+| 131-26-2 | lot_p056 | code de commerce | L. 241-3, L. 242-6 |
+| 131-26-2 | lot_p056 | code électoral | L. 113-1 |
+| 131-26-2 | lot_p056 | code électoral | 135-1 |
+| 131-30-2 | lot_p056 | code civil | 371-2 |
+| 131-30-2 | lot_p056 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 425-9 |
+| 131-35-1 | lot_p056 | code de la santé publique | L. 2223-2 |
+| 131-36-4 | lot_p056 | code de la santé publique | L. 3711-1 |
+| 131-39-2 | lot_p056 | code de commerce | L. 821-53 |
+| 132-16 | lot_p056 | code de la route | L. 221-2, L. 223-5, L. 224-16, L. 224-17, L. 233-1, L. 233-1-1, L. 234-1, L. 234-8, L. 234-16, L. 235-1, L. 235-3, L. 413-1 |
+| 132-20 | lot_p056 | code des assurances | L. 211-27, L. 421-8 |
+| 132-45 | lot_p056 | code de la santé publique | L. 3413-1, L. 3413-4 |
+| 132-45 | lot_p056 | code de la santé publique | L. 3711-1, L. 3711-5 |
+| 132-78 | lot_p056 | code de la justice pénale des mineurs | sans article, code entier |
+| 132-1-1 | lot_p056 | code de la justice pénale des mineurs | sans article, code entier |
+| 113-14 | lot_p057 | code des douanes | 414-2 |
+| 511-3 | lot_p059 | code de la santé publique | L. 1231-1 |
+| 511-3 | lot_p059 | code de la santé publique | L. 1241-3, L. 1241-4 |
+| 511-5 | lot_p059 | code de la santé publique | L. 1241-1 |
+| 511-5 | lot_p059 | code de la santé publique | L. 1241-3, L. 1241-4 |
+| 511-5-1 | lot_p059 | code de la santé publique | L. 1232-3 |
+| 511-5-2 | lot_p059 | code de la santé publique | L. 1243-3 |
+| 511-5-2 | lot_p059 | code de la santé publique | L. 1243-4 |
+| 511-5-2 | lot_p059 | code de la santé publique | L. 1243-4 |
+| 511-7 | lot_p059 | code de la santé publique | L. 1233-1, L. 1234-2, L. 1242-1, L. 1243-2, L. 1243-6 |
+| 511-8 | lot_p059 | code de la santé publique | L. 1211-6 |
+| 511-8-1 | lot_p059 | code de la santé publique | L. 1243-2 |
+| 511-8-2 | lot_p059 | code de la santé publique | L. 1235-1, L. 1245-5, L. 1245-5-1 |
+| 511-10 | lot_p059 | code civil | 16-8-1 |
+| 511-11 | lot_p059 | code de la santé publique | L. 1211-6 |
+| 511-11 | lot_p059 | code de la santé publique | L. 1244-3 |
+| 511-11 | lot_p059 | code de la santé publique | L. 1244-7 |
+| 511-16 | lot_p059 | code de la santé publique | L. 2141-5, L. 2141-6 |
+| 511-19 | lot_p059 | code de la santé publique | L. 2151-5 |
+| 511-19 | lot_p059 | code de la santé publique | L. 2151-7 |
+| 511-19-1 | lot_p059 | code de la santé publique | L. 1241-5 |
+| 511-19-2 | lot_p059 | code de la santé publique | L. 2151-9 |
+| 511-19-2 | lot_p059 | code de la santé publique | L. 2151-6 |
+| 511-19-2 | lot_p059 | code de la santé publique | L. 2151-5, L. 2151-9 |
+| 511-19-2 | lot_p059 | code de la santé publique | L. 2151-9 |
+| 511-19-2 | lot_p059 | code de la santé publique | L. 2151-9 |
+| 511-19-3 | lot_p059 | code de la santé publique | L. 2151-8 |
+| 511-19-3 | lot_p059 | code de la santé publique | L. 2141-11-1 |
+| 511-19-3 | lot_p059 | code de la santé publique | L. 2141-9 |
+| 511-20 | lot_p059 | code de la santé publique | L. 2131-1 |
+| 511-20 | lot_p059 | code de la santé publique | L. 2131-4, L. 2131-4-1 |
+| 511-20 | lot_p059 | code de la santé publique | L. 2142-1 |
+| 511-20 | lot_p059 | code de la santé publique | L. 2141-6 |
+| 511-24 | lot_p059 | code de la santé publique | L. 2141-2 |
+| 712-1 | lot_p062 | code de l'action sociale et des familles | L. 226-3 |
+| 712-1 | lot_p062 | code de l'action sociale et des familles | L. 119-2 |
+| 712-1 | lot_p062 | code de l'action sociale et des familles | L. 1131-2-1 |
+| 712-1 | lot_p062 | code du patrimoine | sans article, code entier |
+| 712-1 | lot_p062 | code du patrimoine | sans article, code entier |
+| R226-10 | lot_p063 | code des postes et des communications électroniques | L. 34-11 |
+| R226-12 | lot_p063 | code des postes et des communications électroniques | L. 34-11 |
+| R321-1 | lot_p064 | code de l'action sociale et des familles | L. 264-1 |
+| R321-3 | lot_p064 | code du patrimoine | sans article, code entier |
+| R413-5-1 | lot_p065 | code de la sécurité intérieure | L. 114-1 |
+| R413-5-2 | lot_p065 | code de l'éducation | L. 123-7-1, D. 123-19 |
+| R413-6 | lot_p065 | code de la défense | R. 2311-1 |
+| R131-4 | lot_p066 | code de la route | sans article, code entier |
+| R131-4-1 | lot_p066 | code de la route | L. 234-13 |
+| R131-4-1 | lot_p066 | code de la route | R. 233-1 |
+| R131-4-1 | lot_p066 | code de la route | L. 234-16, R. 234-5 |
+| R131-8 | lot_p066 | code de la route | L. 325-1-1 |
+| R131-11-1 | lot_p066 | code de la route | R. 223-5, R. 223-13 |
+| R131-52 | lot_p066 | code de commerce | L. 811-2 |
+| R131-53 | lot_p066 | code du travail | sans article, code entier |
+| R511-1 | lot_p067 | code rural et de la pêche maritime | R. 214-87, R. 214-129 |
+| R624-7 | lot_p068 | code de l'éducation | R. 131-7 |
+| R643-3 | lot_p070 | code général des collectivités territoriales | L. 2212-2, L. 2213-23, L. 2215-1, L. 2512-13 |
+| R643-3 | lot_p070 | code de la sécurité intérieure | L. 122-1, L. 122-2 |
+| R643-3 | lot_p070 | code du sport | D. 322-11-1 |
+| R643-3 | lot_p070 | code des transports | R. 4241-61 |
+| R644-4 | lot_p070 | code de la sécurité intérieure | L. 211-4 |
+| R645-3 | lot_p070 | code général des collectivités territoriales | R. 2122-10 |
+| R645-4 | lot_p070 | code civil | 56 |
+| R645-4 | lot_p070 | code civil | 55 |
+| R645-5 | lot_p070 | code civil | 58 |
+| R645-13 | lot_p070 | code du patrimoine | L. 621-1, L. 621-25 |
+| L224-10 | lot_p076 | code des relations entre le public et l'administration | L. 111-2, L. 212-1 |
+| L227-1 | lot_p076 | code de la sécurité intérieure | L. 435-1 |
+| L322-11 | lot_p079 | code de la santé publique | L. 1111-6-1 |
+| L322-12 | lot_p079 | code de la santé publique | L. 1110-11 |
+| L322-12 | lot_p079 | code de la santé publique | L. 1111-5, L. 1111-5-1 |
+| L322-12 | lot_p079 | code de la santé publique | L. 1111-6 |
+| L322-12 | lot_p079 | code de la santé publique | L. 1111-7 |
+| L322-12 | lot_p079 | code de la santé publique | L. 2212-7 |
+| L324-1 | lot_p079 | code de la sécurité sociale | L. 382-33 |
+| L324-1 | lot_p079 | code de la sécurité sociale | L. 382-48 |
+| L324-4 | lot_p079 | code de la sécurité sociale | L. 382-45 |
+| L324-5 | lot_p079 | code de la sécurité sociale | sans article, livre IV |
+| L324-6 | lot_p079 | code du travail | L. 5424-30 |
+| L324-6 | lot_p079 | code du travail | L. 5422-13 |
+| L324-7 | lot_p079 | code du travail | L. 5421-2 |
+| L324-8 | lot_p079 | code du travail | L. 5422-1 |
+| L324-11 | lot_p079 | code du travail | L. 5422-9 |
+| L324-11 | lot_p079 | code de la sécurité sociale | L. 242-1 |
+| L324-11 | lot_p079 | code du travail | L. 5422-14 |
+| L324-11 | lot_p079 | code du travail | L. 5427-1 |
+| L324-12 | lot_p079 | code du travail | L. 5422-20 |
+| L332-2 | lot_p080 | code des assurances | L. 422-5-1 |
+| L312-2 | lot_p082 | code de l'action sociale et des familles | L. 121-1, L. 264-1 |
+| L362-3 | lot_p084 | code électoral | L. 18-1 |
+| L411-4 | lot_p088 | code du travail | L. 5151-1, L. 5151-12 |
+| L411-4 | lot_p088 | code de l'action sociale et des familles | L. 146-9 |
+| L412-3 | lot_p088 | code du travail | L. 5132-4 |
+| L412-3 | lot_p088 | code du travail | L. 5213-13 |
+| L412-3 | lot_p088 | code de l'action sociale et des familles | L. 312-1 |
+| L412-3 | lot_p088 | code du travail | sans article, code entier |
+| L412-20 | lot_p088 | code du travail | L. 3231-2 |
+| L412-20-1 | lot_p088 | code du travail | sans article, livres Ier à V et VII de la quatrième partie |
+| L412-20-5 | lot_p088 | code du travail | L. 8112-1 |
+| L412-20-5 | lot_p088 | code du travail | L. 4721-4, L. 4722-2, L. 4731-1, L. 4732-4, L. 8113-3, L. 8113-7, L. 8113-8, L. 8114-4, L. 8114-8 |
+| L412-20-5 | lot_p088 | code du travail | L. 4741-1, L. 4741-3-1 |
+| L412-22 | lot_p088 | code du travail | L. 5135-1, L. 5135-8 |
+| L412-24 | lot_p088 | code du travail | L. 1132-3-3, L. 1152-2, L. 1153-2 |
+| L412-24 | lot_p088 | code du travail | L. 1121-2 |
+| L412-24 | lot_p088 | code du travail | L. 1225-4, L. 1225-5 |
+| L412-24 | lot_p088 | code du travail | L. 1225-4 |
+| L412-43 | lot_p088 | code de l'action sociale et des familles | L. 312-1 |
+| L412-43 | lot_p088 | code de l'action sociale et des familles | L. 344-2-1, L. 344-4 |
+| L412-47 | lot_p088 | code de la santé publique | L. 6111-1-2 |
+| L412-47 | lot_p088 | code du travail | L. 4624-2 |
+| L412-47 | lot_p088 | code du travail | L. 4624-1 |
+| L412-47 | lot_p088 | code du travail | L. 4624-3, L. 4624-4, L. 4624-6, L. 4624-8 |
+| L132-1 | lot_p090 | code du travail | L. 7111-6 |
+| L113-3-1 | lot_p091 | code des relations entre le public et l'administration | L. 111-2, L. 212-1 |
+| L113-12 | lot_p091 | code de la sécurité intérieure | L. 855-1 |
+| L114-1 | lot_p091 | code de la défense | L. 2171-1 |
+| L114-4 | lot_p091 | code de la sécurité sociale | L. 161-8 |
+| L511-1 | lot_p095 | code de l'action sociale et des familles | L. 264-1 |
+| L631-1 | lot_p097 | code civil | 515-11-1 |
+| L711-1 | lot_p102 | code du travail | L. 5524-3 |
+| R227-4 | lot_p107 | code de la sécurité intérieure | R. 311-2 |
+| D211-20 | lot_p110 | code de la justice pénale des mineurs | R. 124-10 |
+| D324-5 | lot_p111 | code du travail | L. 5424-30 |
+| D324-7 | lot_p111 | code du travail | L. 5427-1 |
+| D324-7 | lot_p111 | code du travail | L. 5422-9 |
+| R322-15 | lot_p111 | code de la santé publique | R. 3214-3 |
+| R322-28 | lot_p111 | code de la santé publique | R. 3214-3 |
+| R322-31 | lot_p111 | code de la santé publique | R. 6111-29, R. 6111-37 |
+| R322-35 | lot_p111 | code de la santé publique | L. 1111-6-1 |
+| D332-22 | lot_p112 | code des assurances | L. 422-1 |
+| D343-1 | lot_p113 | code civil | 75 |
+| D343-1 | lot_p113 | code civil | 515-3 |
+| R341-1 | lot_p113 | code de la santé publique | L. 3214-1 |
+| R341-1 | lot_p113 | code de la santé publique | R. 6111-27 |
+| R341-2 | lot_p113 | code civil | 515-11 |
+| R341-2 | lot_p113 | code civil | 378-2 |
+| R341-2 | lot_p113 | code civil | 378, 378-1, 379, 379-1 |
+| R313-1 | lot_p114 | code des relations entre le public et l'administration | L. 211-2, L. 211-3 |
+| R313-1 | lot_p114 | code des relations entre le public et l'administration | L. 122-1 |
+| R315-2 | lot_p114 | code des relations entre le public et l'administration | L. 411-1, L. 411-7 |
+| R361-1 | lot_p116 | code électoral | L. 12-1 |
+| R361-1 | lot_p116 | code électoral | L. 12-1 |
+| R361-3 | lot_p116 | code électoral | R. 1, R. 25, R. 81, R. 85 |
+| R370-1 | lot_p117 | code des postes et des communications électroniques | L. 32 |
+| D412-66 | lot_p120 | code de la sécurité sociale | R. 381-97, R. 381-109 |
+| R412-2 | lot_p120 | code du travail | L. 5213-13 |
+| R412-2 | lot_p120 | code de l'action sociale et des familles | L. 312-1 |
+| R412-2 | lot_p120 | code du travail | D. 5135-1, D. 5135-8 |
+| R412-61 | lot_p120 | code du travail | L. 3133-1, L. 3133-4 |
+| R412-61 | lot_p120 | code du travail | L. 3133-4 |
+| R412-80 | lot_p120 | code du travail | R. 5132-2, R. 5132-28 |
+| R412-80 | lot_p120 | code du travail | R. 5213-62 |
+| R412-84 | lot_p120 | code de l'action sociale et des familles | L. 344-2 |
+| R412-84 | lot_p120 | code de l'action sociale et des familles | L. 313-1, L. 313-1-1, L. 313-2, L. 313-6, L. 313-8 |
+| R412-84 | lot_p120 | code de l'action sociale et des familles | L. 313-6 |
+| R412-84 | lot_p120 | code de l'action sociale et des familles | L. 313-11, L. 313-12-2 |
+| R412-84 | lot_p120 | code de l'action sociale et des familles | R. 344-9, R. 344-14 |
+| R412-84 | lot_p120 | code de l'action sociale et des familles | R. 344-7-2 |
+| R412-96 | lot_p120 | code du travail | R. 4624-10, R. 4624-28, R. 4624-32, R. 4624-33, R. 4624-35, R. 4624-36, R. 4624-38 |
+| R412-96 | lot_p120 | code du travail | L. 4624-1 |
+| R412-96 | lot_p120 | code du travail | R. 4624-10 |
+| R412-96 | lot_p120 | code du travail | R. 4624-38 |
+| R412-96 | lot_p120 | code du travail | R. 4624-15 |
+| R412-119 | lot_p120 | code du travail | R. 4624-41-1, R. 4624-41-6 |
+| R412-119 | lot_p120 | code du travail | R. 4624-55, R. 4624-57 |
+| R412-119 | lot_p120 | code du travail | R. 4624-45-3, R. 4624-45-9 |
+| R412-119 | lot_p120 | code de la santé publique | L. 1110-4 |
+| R122-21 | lot_p121 | code général de la fonction publique | L. 422-20 |
+| R122-22 | lot_p121 | code général de la fonction publique | L. 134-1, L. 134-12 |
+| R132-1 | lot_p122 | code du travail | L. 7111-6 |
+| D112-3 | lot_p123 | code de la sécurité intérieure | R. 811-2 |
+| D112-34 | lot_p123 | code de la construction et de l'habitation | R. 162-13, R. 164-5 |
+| D113-36 | lot_p123 | code du service national | L. 51 |
+| D115-3 | lot_p123 | code de la santé publique | R. 6111-27, R. 6111-38 |
+| D115-3 | lot_p123 | code de la santé publique | R. 6122-14 |
+| D115-3 | lot_p123 | code de la santé publique | R. 6111-29 |
+| D115-3 | lot_p123 | code de la santé publique | L. 6111-1-2 |
+| D115-5 | lot_p123 | code de la santé publique | R. 6111-32 |
+| D115-9 | lot_p123 | code de la santé publique | sans article, code entier |
+| D115-10 | lot_p123 | code de la santé publique | R. 6111-36 |
+| D115-23 | lot_p123 | code de la santé publique | R. 6111-33 |
+| R115-21 | lot_p123 | code de la santé publique | R. 3221-5 |
+| R115-21 | lot_p123 | code de la santé publique | R. 1112-1, R. 1112-2 |
+| R544-19 | lot_p126 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 733-14 |
+| R544-19 | lot_p126 | code de la sécurité intérieure | L. 228-3 |
+| R544-23 | lot_p126 | code de la sécurité intérieure | L. 228-2 |
+| R544-23 | lot_p126 | code de la sécurité intérieure | L. 228-3 |
+| R623-14 | lot_p128 | code du travail | sans article, code entier |
+| R623-14 | lot_p128 | code de la santé publique | L. 3111-4 |
+| R631-1 | lot_p129 | code civil | 515-11-1 |
+| R631-1 | lot_p129 | code de procédure civile | 1136-23 |
+| R631-6 | lot_p129 | code civil | 515-11-1 |
+| R631-13 | lot_p129 | code de procédure civile | sans article, code entier |
+| R641-2 | lot_p130 | code de la sécurité intérieure | R. 228-3 |
+| R642-2 | lot_p130 | code de l'entrée et du séjour des étrangers et du droit d'asile | R. 733-17 |
+| R721-1 | lot_p132 | code du travail | L. 3422-2 |
+| R731-1 | lot_p133 | code du travail | L. 3422-2 |
+| R711-1 | lot_p135 | code du travail | L. 3422-2 |
+| R711-1 | lot_p135 | code du travail | L. 3422-3 |
+| R751-2 | lot_p136 | code de la sécurité intérieure | R. 311-2 |
+| L4211-8 | lot_p141 | code de procédure civile | sans article, code entier |
+| L4221-13 | lot_p142 | code de la santé publique | L. 3413-1, L. 3413-4 |
+| L4221-13 | lot_p142 | code de l'action sociale et des familles | L. 214-9 |
+| L4221-22 | lot_p142 | code de procédure civile | sans article, code entier |
+| L4222-1 | lot_p142 | code de la sécurité intérieure | L. 511-1, L. 512-2 |
+| L4222-7 | lot_p142 | code du travail | L. 1146-1, L. 2146-2 |
+| L4223-27 | lot_p142 | code de la route | L. 121-3 |
+| L4223-27 | lot_p142 | code de la route | L. 317-4-1 |
+| L4223-27 | lot_p142 | code de la route | L. 223-1 |
+| L4223-27 | lot_p142 | code de la route | L. 121-2, L. 121-3 |
+| L4223-30 | lot_p142 | code général des collectivités territoriales | L. 3333-31 |
+| L4223-30 | lot_p142 | code des impositions sur les biens et services | L. 421-244 |
+| L4223-30 | lot_p142 | code des impositions sur les biens et services | L. 421-244 |
+| L4223-30 | lot_p142 | code général des collectivités territoriales | L. 3333-19 |
+| L4223-35 | lot_p142 | code des transports | L. 2241-1 |
+| L4223-38 | lot_p142 | code de la route | L. 130-9 |
+| L4223-38 | lot_p142 | code de l'environnement | L. 321-11 |
+| L4223-42 | lot_p142 | code de la route | L. 121-2 |
+| L4322-29 | lot_p144 | code du patrimoine | L. 221-1 |
+| L4411-8 | lot_p148 | code monétaire et financier | L. 163-2, L. 163-3, L. 163-7 |
+| L4411-8 | lot_p148 | code des transports | 4 |
+| L4411-8 | lot_p148 | code de la sécurité intérieure | L. 317-8 |
+| L4411-8 | lot_p148 | code de l'environnement | sans article, titre VIII du livre V |
+| L4411-8 | lot_p148 | code de la propriété intellectuelle | L. 335-2, L. 335-3, L. 335-4 |
+| L4411-8 | lot_p148 | code de la santé publique | L. 3136-1 |
+| L4411-8 | lot_p148 | code de la santé publique | L. 3421-1 |
+| L4411-8 | lot_p148 | code des douanes | 60 bis |
+| L4412-3 | lot_p148 | code général des impôts | 1018 A |
+| L4413-34 | lot_p148 | code de la justice pénale des mineurs | L. 423-6, L. 423-9 |
+| L4432-5 | lot_p150 | code de la justice pénale des mineurs | L. 13-2, L. 521-23-1 |
+| L4432-21 | lot_p150 | code de justice militaire | sans article, livre III |
+| L4433-7 | lot_p150 | code des assurances | L. 422-9 |
+| A36-15 | lot_p158 | code de la route | L. 130-9 |
+| A36-15 | lot_p158 | code de la route | L. 317-4-1 |
+| A37 | lot_p159 | code de la route | L. 130-4 |
+| A37-4 | lot_p159 | code de la route | L. 223-2 |
+| A37-6 | lot_p159 | code de la route | R. 417-1, R. 417-6, R. 417-10, R. 417-13 |
+| A37-6 | lot_p159 | code de la route | R. 413-14, R. 413-17 |
+| A37-13 | lot_p159 | code de la route | L. 121-3 |
+| A37-15 | lot_p159 | code de la route | L. 121-3 |
+| A37-20 | lot_p159 | code de la route | L. 121-2 |
+| A37-20 | lot_p159 | code de la route | L. 317-4-1 |
+| A37-21 | lot_p159 | code de la route | L. 121-4 |
+| A37-23 | lot_p159 | code de la route | L. 223-3 |
+| A37-27-1 | lot_p159 | code de la route | L. 121-4 |
+| A37-27-1 | lot_p159 | code de la route | L. 121-4 |
+| A37-27-2 | lot_p159 | code de la route | L. 223-2 |
+| A37-28 | lot_p159 | code de la route | L. 223-2 |
+| A37-30 | lot_p159 | code de la route | L. 130-4, R. 130-4, R. 130-8, R. 419-1, R. 419-2 |
+| A37-30 | lot_p159 | code de la route | R. 419-1, R. 419-2 |
+| A37-30 | lot_p159 | code de l'environnement | L. 321-11 |
+| A37-32 | lot_p159 | code de la route | L. 419-1 |
+| A37-32 | lot_p159 | code de la route | L. 419-1 |
+| A37-32 | lot_p159 | code de la sécurité intérieure | L. 251-1, L. 252-7 |
+| R48-1 | lot_p162 | code des transports | sans article, code entier |
+| R48-1 | lot_p162 | code des assurances | R. 211-14, R. 211-21-5 |
+| R48-1 | lot_p162 | code des transports | R. 2242-1, R. 2242-2, R. 2242-6, R. 2242-12, R. 2242-15, R. 2242-22, R. 3116-29 |
+| R48-1 | lot_p162 | code des transports | R. 5242-2 |
+| R48-1 | lot_p162 | code de l'environnement | R. 331-63, R. 331-66 |
+| R48-1 | lot_p162 | code de l'environnement | R. 332-69, R. 332-72 |
+| R48-1 | lot_p162 | code forestier | sans article, code entier |
+| R48-1 | lot_p162 | code de l'environnement | L. 322-10-2 |
+| R48-1 | lot_p162 | code de l'environnement | L. 332-20 |
+| R48-1 | lot_p162 | code de l'environnement | sans article, chapitre VIII et de la section 4 du chapitre IX du titre II du livre IV |
+| R48-1 | lot_p162 | code de l'environnement | sans article, titre Ier du livre II et le titre III du livre IV |
+| R48-1 | lot_p162 | code de l'environnement | R. 541-78, R. 541-79, R. 541-83 |
+| R48-1 | lot_p162 | code de l'environnement | sans article, titre VIII du livre V |
+| R48-1 | lot_p162 | code rural et de la pêche maritime | 4 |
+| R48-1 | lot_p162 | code de la santé publique | R. 3351-2, R. 3353-5-1, R. 3353-7 |
+| R48-1 | lot_p162 | code de la santé publique | R. 4212-1, R. 4212-2 |
+| R48-1 | lot_p162 | code de la santé publique | R. 1337-16, R. 1337-17 |
+| R48-1 | lot_p162 | code de la santé publique | R. 1338-10 |
+| R48-1 | lot_p162 | code de la santé publique | L. 3136-1 |
+| R48-1 | lot_p162 | code de la santé publique | R. 1312-14 |
+| R48-1 | lot_p162 | code du sport | R. 331-17-2, 3, R. 331-45, 3, 4, R. 331-45-1, 2 |
+| R48-1 | lot_p162 | code de la santé publique | R. 1337-7, R. 1337-9 |
+| R48-1 | lot_p162 | code de la sécurité intérieure | sans article, chapitre VII du titre Ier du livre III de la partie réglementaire |
+| R48-1 | lot_p162 | code de l'environnement | R. 271-3, R. 271-6 |
+| R48-1 | lot_p162 | code de la défense | R. 2353-20, R. 2353-21 |
+| R48-1 | lot_p162 | code de l'aviation civile | R. 151-2, R. 151-3-1 |
+| R48-1 | lot_p162 | code des postes et des communications électroniques | R. 20-29-7 |
+| R48-1 | lot_p162 | code de l'aviation civile | R. 151-10 |
+| R49-1 | lot_p162 | code des assurances | R. 211-21-5 |
+| R49-6-1 | lot_p162 | code de la route | R. 322-7 |
+| R49-8-4-1 | lot_p162 | code de la route | R. 419-2 |
+| R49-8-4-1 | lot_p162 | code de l'environnement | L. 321-11 |
+| R49-8-4-1 | lot_p162 | code de la route | L. 121-2 |
+| R49-8-4-1 | lot_p162 | code de la route | L. 419-1 |
+| R49-18 | lot_p162 | code de la route | L. 121-3 |
+| D45-4 | lot_p164 | code de la route | L. 324-2 |
+| D45-4 | lot_p164 | code de la route | L. 130-9 |
+| D45-5 | lot_p164 | code de la route | L. 324-2 |
+| D45-5 | lot_p164 | code des assurances | L. 211-27 |
+| D45-15 | lot_p164 | code de la route | L. 317-4-1 |
+| D45-15 | lot_p164 | code de la route | R. 322-9 |
+| L3133-4 | lot_p170 | code de la santé publique | sans article, code entier |
+| L3133-15 | lot_p170 | code de la sécurité intérieure | L. 811-2 |
+| L3133-15 | lot_p170 | code de la sécurité intérieure | L. 811-2, L. 811-4 |
+| L3133-18 | lot_p170 | code de la défense | L. 2321-2 |
+| L3133-19 | lot_p170 | code de la sécurité intérieure | L. 811-2 |
+| L3133-19 | lot_p170 | code de la sécurité intérieure | L. 811-4 |
+| L3133-25 | lot_p170 | code des relations entre le public et l'administration | L. 100-3 |
+| L3222-6 | lot_p172 | code de la sécurité intérieure | L. 411-5 |
+| L3222-7 | lot_p172 | code des transports | L. 2241-1 |
+| L3223-3 | lot_p172 | code de la défense | L. 1333-13-5, L. 2339-14, L. 2339-15, L. 2341-1, L. 2341-2, L. 2341-4, L. 2342-59, L. 2342-60 |
+| L3223-3 | lot_p172 | code de la sécurité intérieure | L. 317-8 |
+| L3223-3 | lot_p172 | code de la défense | L. 2353-4 |
+| L3413-2 | lot_p176 | code électoral | L. 86, L. 87, L. 91, L. 100, L. 102, L. 104, L. 106, L. 108, L. 113 |
+| L3513-4 | lot_p181 | code du travail | L. 8224-1, L. 8224-2 |
+| L3513-7 | lot_p181 | code des postes et des communications électroniques | L. 34-1 |
+| L3531-3 | lot_p183 | code de la sécurité intérieure | L. 272-1 |
+| L3532-27 | lot_p183 | code rural et de la pêche maritime | L. 214-23 |
+| L3532-30 | lot_p183 | code rural et de la pêche maritime | L. 211-11 |
+| L3533-8 | lot_p183 | code général des impôts | 1741, 1743 |
+| L3533-21 | lot_p183 | code de la défense | L. 2312-4 |
+| L3533-24 | lot_p183 | code de la défense | L. 2312-4 |
+| L3534-6 | lot_p183 | code civil | 2378 |
+| L3534-9 | lot_p183 | code monétaire et financier | L. 542-1 |
+| L3534-9 | lot_p183 | code de commerce | L. 228-1 |
+| L3534-10 | lot_p183 | code monétaire et financier | L. 54-10-1 |
+| L3534-21 | lot_p183 | code de commerce | L. 632-1 |
+| L3543-8 | lot_p184 | code de la santé publique | sans article, code entier |
+| L3544-5 | lot_p184 | code de la défense | L. 2312-4, L. 2312-8 |
+| L3563-1 | lot_p186 | code de la défense | L. 2339-2, L. 2339-3, L. 2339-10, L. 2341-4, L. 2353-4, L. 2353-5 |
+| L3563-1 | lot_p186 | code de la sécurité intérieure | L. 317-2, L. 317-7 |
+| L3572-3 | lot_p187 | code de la défense | L. 2339-2, L. 2339-3, L. 2339-4, L. 2339-4-1, L. 2339-10, L. 2339-11-2, L. 2353-4, L. 2353-13 |
+| L3572-3 | lot_p187 | code de la sécurité intérieure | L. 317-1-1, L. 317-9 |
+| L3573-5 | lot_p187 | code de la sécurité intérieure | L. 114-1, L. 234-1, L. 234-3 |
+| L3621-17 | lot_p189 | code civil | 378-2 |
+| L6123-21 | lot_p201 | code de la défense | L. 2312-4 |
+| L6123-34 | lot_p201 | code civil | sans article, titre XI du livre Ier |
+| L6211-5 | lot_p205 | code de la défense | L. 1333-11 |
+| L6211-5 | lot_p205 | code de la défense | L. 1333-9 |
+| L6211-6 | lot_p205 | code des transports | L. 5242-23 |
+| L6211-6 | lot_p205 | code de la défense | L. 1333-9, L. 1333-13-11, L. 2341-3, L. 2341-7, L. 2342-57, L. 2342-81, L. 2353-4, L. 2353-14 |
+| L6211-6 | lot_p205 | code des douanes | 414 |
+| L6211-8 | lot_p205 | code de l'aviation civile | L. 282-1 |
+| L6211-8 | lot_p205 | code de l'aviation civile | L. 282-1 |
+| L6221-7 | lot_p206 | code de la sécurité intérieure | L. 811-3 |
+| L6221-7 | lot_p206 | code de la sécurité intérieure | L. 811-2 |
+| L6232-3 | lot_p207 | code de justice militaire | sans article, livre III |
+| L6313-2 | lot_p210 | code général des impôts | 1741, 1743 |
+| L6314-8 | lot_p210 | code de la construction et de l'habitation | L. 551-1 |
+| L6322-5 | lot_p211 | code civil | 414-3 |
+| L6323-2 | lot_p211 | code de la santé publique | L. 3222-1 |
+| L6323-2 | lot_p211 | code de la santé publique | L. 3213-1 |
+| L6411-5 | lot_p213 | code de la justice pénale des mineurs | sans article, titre Ier du livre Ier |
+| L6411-10 | lot_p213 | code de l'action sociale et des familles | L. 114 |
+| L6421-1 | lot_p214 | code de la sécurité intérieure | L. 224-1, L. 225-7 |
+| L6421-5 | lot_p214 | code de la justice pénale des mineurs | sans article, titre Ier du livre Ier |
+| L6421-8 | lot_p214 | code de la sécurité intérieure | L. 811-2 |
+| L6421-8 | lot_p214 | code de la sécurité intérieure | L. 811-4 |
+| L6421-10 | lot_p214 | code de la sécurité intérieure | L. 224-1, L. 225-7 |
+| L6421-19 | lot_p214 | code de la sécurité intérieure | L. 224-1, L. 225-7 |
+| R49-40 | lot_p220 | code monétaire et financier | L. 561-23 |
+| R49-42 | lot_p220 | code monétaire et financier | L. 561-23 |
+| R49-42 | lot_p220 | code général des impôts | 1649 A |
+| R50-28 | lot_p221 | code de procédure civile | 643, 647 |
+| R53-1 | lot_p222 | code de commerce | sans article, titre V du livre VI |
+| R53-8-7 | lot_p222 | code de l'action sociale et des familles | L. 264-1 |
+| R53-8-13 | lot_p222 | code de l'action sociale et des familles | L. 264-1 |
+| R53-8-13 | lot_p222 | code de l'action sociale et des familles | L. 264-2 |
+| R53-8-24 | lot_p222 | code de l'action sociale et des familles | R. 133-1 |
+| R53-8-24 | lot_p222 | code de l'action sociale et des familles | L. 114 |
+| R53-8-50 | lot_p222 | code de la santé publique | R. 3711-8, R. 3711-17 |
+| R53-8-62 | lot_p222 | code de la santé publique | L. 6116-1, L. 6116-2 |
+| R50-69 | lot_p223 | code de l'organisation judiciaire | L. 217-6 |
+| R53-10 | lot_p225 | code civil | 743 |
+| R53-12 | lot_p225 | code de la sécurité intérieure | L. 235-1 |
+| R53-14 | lot_p225 | code de la défense | L. 2339-2, L. 2339-3, L. 2339-10, L. 2353-4, L. 2353-13 |
+| R53-14 | lot_p225 | code de la sécurité intérieure | L. 317-1-1, L. 317-2-1 |
+| R53-19-1 | lot_p225 | code de la sécurité intérieure | L. 235-1 |
+| R53-21-2 | lot_p226 | code de la santé publique | L. 3211-12, L. 3213-8 |
+| R53-21-2 | lot_p226 | code de la santé publique | L. 3213-7 |
+| R53-21-3 | lot_p226 | code de l'organisation judiciaire | R. 123-14 |
+| R53-21-3 | lot_p226 | code de la santé publique | L. 3213-8 |
+| R53-51 | lot_p231 | code de commerce | L. 3534-13 |
+| R53-51 | lot_p231 | code de commerce | R. 521-6 |
+| R53-51 | lot_p231 | code de commerce | R. 521-20 |
+| R53-56 | lot_p231 | code de commerce | R. 521-32 |
+| R53-43 | lot_p232 | code de la justice pénale des mineurs | L. 311-1, L. 311-3 |
+| R54-7 | lot_p233 | code monétaire et financier | L. 518-23 |
+| R54-7 | lot_p233 | code monétaire et financier | L. 54-10-2 |
+| D47-1-30 | lot_p237 | code des douanes | 414-2 |
+| D47-1-30 | lot_p237 | code des douanes | 415 |
+| D47-9-1 | lot_p243 | code du sport | L. 322-1 |
+| D47-9-1 | lot_p243 | code du sport | L. 212-1 |
+| D47-9-1 | lot_p243 | code de l'action sociale et des familles | L. 227-4 |
+| D47-9-1 | lot_p243 | code de l'action sociale et des familles | L. 312-1 |
+| D47-9-1 | lot_p243 | code de la justice pénale des mineurs | sans article, code entier |
+| D47-9-1 | lot_p243 | code civil | 375, 375-8 |
+| D47-9-1 | lot_p243 | code de l'action sociale et des familles | L. 221-1, L. 222-3, L. 222-5 |
+| D47-9-1 | lot_p243 | code de l'action sociale et des familles | L. 312-1 |
+| D47-9-1 | lot_p243 | code de l'action sociale et des familles | L. 421-1, L. 421-2 |
+| D47-9-1 | lot_p243 | code de la santé publique | R. 2324-17 |
+| D47-9-1 | lot_p243 | code du travail | L. 7232-1 |
+| D47-9-1 | lot_p243 | code de l'action sociale et des familles | L. 312-1 |
+| D47-9-1 | lot_p243 | code de la santé publique | L. 2132-4 |
+| D47-9-1 | lot_p243 | code de la santé publique | sans article, code entier |
+| D47-11-4 | lot_p243 | code civil | 373-2-1, 375-7, 378, 378-1, 379, 379-1, 515-11 |
+| D47-12 | lot_p247 | code civil | 16-12 |
+| D47-21 | lot_p253 | code civil | 431 |
+| D47-27 | lot_p254 | code de la santé publique | L. 3213-7 |
+| D47-29 | lot_p254 | code de la santé publique | L. 3213-1 |
+| D47-29-1 | lot_p254 | code de la santé publique | L. 3211-12 |
+| D47-29-1 | lot_p254 | code de la santé publique | L. 3214-1 |
+| D47-29-3 | lot_p254 | code de la santé publique | L. 3213-1, L. 3213-7 |
+| D47-29-3 | lot_p254 | code de la santé publique | L. 3213-1, L. 3213-7 |
+| D47-30 | lot_p254 | code de la santé publique | L. 3213-1 |
+| L2123-17 | lot_p257 | code civil | sans article, titre XI du livre Ier |
+| L2123-17 | lot_p257 | code de la santé publique | L. 3211-1 |
+| L2152-6 | lot_p260 | code général des impôts | 1741, 1753 bis |
+| L2152-6 | lot_p260 | code électoral | L. 106, L. 109 |
+| L2152-6 | lot_p260 | code de la sécurité intérieure | L. 324-3, L. 324-4, L. 324-13, L. 324-14 |
+| L2152-8 | lot_p260 | code électoral | L. 106, L. 109 |
+| L2152-8 | lot_p260 | code général des impôts | 1741, 1743 |
+| L2152-8 | lot_p260 | code de commerce | L. 420-6 |
+| L2152-9 | lot_p260 | code monétaire et financier | L. 465-1, L. 465-3-3 |
+| L2152-13 | lot_p260 | code des douanes | 415 |
+| L2152-13 | lot_p260 | code général des impôts | 1741, 1743 |
+| L2152-13 | lot_p260 | code général des impôts | 1744 |
+| L2152-13 | lot_p260 | code de la justice pénale des mineurs | sans article, code entier |
+| L2152-15 | lot_p260 | code de la sécurité intérieure | L. 811-2, L. 811-4 |
+| L2152-23 | lot_p260 | code de la santé publique | L. 5311-1 |
+| L2152-24 | lot_p260 | code rural et de la pêche maritime | 3 |
+| L2152-24 | lot_p260 | code minier | L. 512-2 |
+| L2152-30 | lot_p260 | code de l'environnement | sans article, chapitre VIII du titre Ier du livre II |
+| L2152-33 | lot_p260 | code du patrimoine | sans article, section 2 du chapitre 4 du titre IV du livre V |
+| L2152-41 | lot_p260 | code de justice militaire | sans article, code entier |
+| L2152-41 | lot_p260 | code de justice militaire | L. 311-2 |
+| L2152-41 | lot_p260 | code de justice militaire | sans article, livre III |
+| L2161-2 | lot_p261 | code de l'organisation judiciaire | L. 431-5, L. 431-10 |
+| L2172-1 | lot_p262 | code de l'organisation judiciaire | L. 123-5 |
+| L2172-1 | lot_p262 | code de l'organisation judiciaire | L. 123-4 |
+| L2224-1 | lot_p264 | code de la sécurité intérieure | L. 411-5 |
+| L2232-1 | lot_p265 | code de la sécurité intérieure | sans article, titre Ier du livre V |
+| L2232-3 | lot_p265 | code forestier | sans article, chapitre Ier du titre VI du livre Ier |
+| L2232-3 | lot_p265 | code des transports | L. 2241-1 |
+| L2232-3 | lot_p265 | code de la sécurité intérieure | L. 272-4 |
+| L2232-7 | lot_p265 | code de la sécurité intérieure | L. 512-1, L. 512-1-1 |
+| L2233-1 | lot_p265 | code de la sécurité intérieure | sans article, titre II du livre V |
+| L2233-1 | lot_p265 | code forestier | L. 161-1, L. 161-4 |
+| L2233-1 | lot_p265 | code forestier | L. 161-14, L. 161-18 |
+| L2233-1 | lot_p265 | code de l'environnement | L. 172-8 |
+| L2242-3 | lot_p266 | code général des impôts | 1744 |
+| L2242-3 | lot_p266 | code de la sécurité sociale | L. 114-13 |
+| L2242-3 | lot_p266 | code de la défense | L. 2339-1, L. 2339-11, L. 2344-7, L. 2353-13 |
+| L2242-3 | lot_p266 | code de la santé publique | L. 3512-23, L. 3512-25 |
+| L2242-5 | lot_p266 | code des douanes | 67 bis, 1 |
+| L2242-7 | lot_p266 | code général des impôts | 1741, 1743 |
+| L2242-7 | lot_p266 | code général des impôts | 1744 |
+| L2242-7 | lot_p266 | code de la sécurité sociale | L. 114-13 |
+| L2243-1 | lot_p266 | code de l'environnement | L. 541-46 |
+| L2243-2 | lot_p266 | code de l'environnement | L. 172-1 |
+| L2244-1 | lot_p266 | code des transports | L. 2241-1, L. 2241-5 |
+| L2244-3 | lot_p266 | code forestier | sans article, chapitre Ier du titre VI du livre Ier |
+| L2521-2 | lot_p272 | code général de la propriété des personnes publiques | L. 2222-9 |
+| L2521-2 | lot_p272 | code général de la propriété des personnes publiques | L. 2222-9 |
+| L2521-4 | lot_p272 | code général des impôts | 1649 A, 1649 ter |
+| L2521-8 | lot_p272 | code général des impôts | 200 |
+| L2521-8 | lot_p272 | code de la construction et de l'habitation | L. 365-2 |
+| L1122-1 | lot_p274 | code de justice administrative | L. 521-1, L. 521-2, L. 521-3 |
+| L1134-6 | lot_p275 | code de procédure civile | sans article, code entier |
+| L1212-12 | lot_p278 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 821-1, L. 831-2, L. 832-2, L. 833-2 |
+| L1221-7 | lot_p279 | code civil | sans article, code entier |
+| L1222-5 | lot_p279 | code de l'organisation judiciaire | L. 217-6 |
+| L1223-4 | lot_p279 | code civil | 1241 |
+| L1223-4 | lot_p279 | code de la sécurité sociale | L. 452-1 |
+| L1225-4 | lot_p279 | code du travail | L. 1146-1, L. 1155-2 |
+| L1225-4 | lot_p279 | code de la santé publique | L. 4163-11 |
+| L1225-6 | lot_p279 | code de la construction et de l'habitation | L. 162-1, L. 164-3 |
+| L1225-6 | lot_p279 | code de la construction et de l'habitation | L. 183-4 |
+| L1225-16 | lot_p279 | code de la santé publique | L. 4161-5, L. 4223-1 |
+| L1225-16 | lot_p279 | code de la consommation | L. 121-6, L. 213-1, L. 213-4 |
+| L1225-22 | lot_p279 | code rural et de la pêche maritime | L. 215-11, L. 215-13 |
+| L1225-23 | lot_p279 | code du patrimoine | L. 1 |
+| L1225-23 | lot_p279 | code du patrimoine | L. 114-1 |
+| L1225-26 | lot_p279 | code du travail | sans article, livre II de la huitième partie |
+| L1225-27 | lot_p279 | code électoral | L. 106, L. 109 |
+| L1440-1 | lot_p286 | code des assurances | L. 422-1, L. 422-6 |
+| L1440-1 | lot_p286 | code des assurances | L. 422-5-1 |
+| L1441-7 | lot_p286 | code de l'organisation judiciaire | L. 217-6 |
+| L1441-22 | lot_p286 | code rural | 1106-9, 1234-8, 1234-20 |
+| L1444-1 | lot_p286 | code de l'organisation judiciaire | L. 217-6 |
+| L1444-1 | lot_p286 | code de l'organisation judiciaire | L. 214-1 |
+| L1452-1 | lot_p287 | code civil | sans article, titre XIV du livre Ier |
+| L1452-1 | lot_p287 | code de l'action sociale et des familles | L. 214-9 |
+| L1452-1 | lot_p287 | code civil | 515-11-1 |
+| L1453-1 | lot_p287 | code de la santé publique | sans article, code entier |
+| L1531-4 | lot_p290 | code civil | 515-8 |
+| L1533-7 | lot_p290 | code de la sécurité intérieure | L. 811-2 |
+| L1533-7 | lot_p290 | code de la sécurité intérieure | L. 811-4 |
+| L1621-13 | lot_p292 | code de l'organisation judiciaire | L. 111-12 |
+| L1632-5 | lot_p293 | code des postes et des communications électroniques | L. 100 |
+| L1642-1 | lot_p294 | code général des impôts | 1018 A |
+| L1642-2 | lot_p294 | code général des impôts | 1018 A |
+| L1711-2 | lot_p295 | code civil | sans article, titre XI du livre Ier |
+| L1722-2 | lot_p296 | code de la défense | L. 2339-2, L. 2339-3, L. 2339-10, L. 2341-4, L. 2353-4, L. 2353-5 |
+| L1722-2 | lot_p296 | code de la sécurité intérieure | L. 317-2, L. 317-7 |
+| L1722-2 | lot_p296 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 823-1, L. 823-3 |
+| L1722-2 | lot_p296 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 823-3-1 |
+| L1722-2 | lot_p296 | code minier | L. 512-2 |
+| L1722-2 | lot_p296 | code de la santé publique | L. 5421-13, L. 5432-2, L. 5438-4 |
+| L1722-3 | lot_p296 | code du travail | L. 8221-3, L. 8221-5, L. 8224-1, L. 8224-2, L. 8231-1, L. 8234-1, L. 8234-2, L. 8241-1, L. 8243-1, L. 8243-2, L. 8251-1, L. 8256-2 |
+| L1722-3 | lot_p296 | code de l'environnement | L. 415-6 |
+| L1722-3 | lot_p296 | code rural et de la pêche maritime | L. 254-12 |
+| L1722-3 | lot_p296 | code de l'environnement | L. 541-46 |
+| L1722-3 | lot_p296 | code de la sécurité intérieure | L. 324-1 |
+| L1722-3 | lot_p296 | code de la sécurité intérieure | L. 324-4 |
+| L1722-3 | lot_p296 | code de la sécurité sociale | L. 114-13 |
+| L1722-3 | lot_p296 | code général des impôts | 1741, 1743 |
+| L1722-3 | lot_p296 | code général des impôts | 1744 |
+| L1722-3 | lot_p296 | code des douanes | L. 513-5 |
+| L1723-1 | lot_p296 | code de justice militaire | sans article, chapitre Ier du titre II du livre Ier |
+| L1723-1 | lot_p296 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 824-4, L. 824-7 |
+| L1723-1 | lot_p296 | code de la sécurité intérieure | L. 224-1 |
+| L1723-3 | lot_p296 | code de la défense | L. 1333-11, L. 1333-13-1, L. 1333-13-6, L. 1333-14 |
+| L1723-3 | lot_p296 | code de la défense | L. 2341-1, L. 2341-2, L. 2341-4, L. 2341-5 |
+| L1723-3 | lot_p296 | code de la défense | L. 2342-57, L. 2342-61 |
+| L1723-3 | lot_p296 | code de la défense | L. 2339-14, L. 2339-16 |
+| L1723-3 | lot_p296 | code des douanes | 414 |
+| L1724-1 | lot_p296 | code de la propriété intellectuelle | L. 335-2, L. 335-3, L. 335-4, L. 343-4, L. 521-10, L. 615-14, L. 716-9, L. 716-10 |
+| L1724-1 | lot_p296 | code général des impôts | 1741, 1743 |
+| L1724-1 | lot_p296 | code des douanes | 414 |
+| L1724-1 | lot_p296 | code des douanes | 414-2 |
+| L1724-1 | lot_p296 | code des douanes | 415 |
+| L1724-1 | lot_p296 | code monétaire et financier | L. 465-1, L. 465-3-3 |
+| L1724-1 | lot_p296 | code de commerce | L. 241-3, L. 242-6 |
+| L1724-2 | lot_p296 | code de la santé publique | L. 5421-2, L. 5421-13, L. 5426-1, L. 5432-1, L. 5432-2, L. 5432-3, L. 5438-4, L. 5438-6, L. 5439-1, L. 5439-2, L. 5442-10, L. 5442-14, L. 5461-3, L. 5462-3 |
+| L1724-2 | lot_p296 | code de la consommation | L. 451-2, L. 454-3 |
+| L1725-1 | lot_p296 | code de justice militaire | sans article, chapitre Ier du titre II du livre Ier |
+| L7111-1 | lot_p297 | code de l'organisation judiciaire | L. 441-1 |
+| L7111-6 | lot_p297 | code de l'organisation judiciaire | L. 111-13 |
+| L7214-4 | lot_p298 | code de l'organisation judiciaire | L. 431-6, L. 431-10 |
+| L7215-12 | lot_p298 | code de l'organisation judiciaire | L. 411-3 |
+| L8221-1 | lot_p307 | code de l'organisation judiciaire | L. 512-2 |
+| L8221-1 | lot_p307 | code de l'organisation judiciaire | L. 512-3 |
+| L8321-1 | lot_p309 | code de la santé publique | L. 5311-1 |
+| L8321-1 | lot_p309 | code de l'organisation judiciaire | sans article, code entier |
+| L8321-1 | lot_p309 | code de la sécurité intérieure | L. 545-1, L. 546-1 |
+| L8421-1 | lot_p311 | code de la santé publique | L. 5311-1 |
+| L8421-1 | lot_p311 | code de la sécurité intérieure | L. 545-1, L. 546-1 |
+| L8521-1 | lot_p313 | code de la santé publique | L. 5311-1 |
+| L8521-1 | lot_p313 | code électoral | L. 5, L. 6 |
+| L8521-1 | lot_p313 | code de l'organisation judiciaire | sans article, code entier |
+| R256 | lot_p315 | code de commerce | sans article, livre VI |
+| R256 | lot_p315 | code de procédure civile | 1136-3 |
+| R256 | lot_p315 | code de la sécurité sociale | L. 162-14-1 |
+| R360 | lot_p316 | code de la sécurité sociale | L. 162-14-1 |
+| A1 | lot_p325 | code de la sécurité sociale | L. 422-3 |
+| A1 | lot_p325 | code de la voirie routière | L. 118-6 |
+| A1 | lot_p325 | code de la voirie routière | L. 131-3 |
+| A1 | lot_p325 | code général des collectivités territoriales | L. 3221-4 |
+| A1 | lot_p325 | code des transports | L. 1214-3 |
+| A1 | lot_p325 | code des transports | L. 1621-13, L. 1621-15 |
+| A1 | lot_p325 | code de l'environnement | L. 501-14 |
+| A1 | lot_p325 | code de la défense | L. 3125-1, L. 3125-2, R. 3125-1 |
+| R15-33-68 | lot_p326 | code des postes et des communications électroniques | L. 34-1 |
+| R15-33-77 | lot_p326 | code de la justice pénale des mineurs | L. 413-1 |
+| R15-33-77 | lot_p326 | code de la santé publique | L. 3341-1 |
+| R15-33-77 | lot_p326 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 813-1, L. 813-2 |
+| R15-33-80 | lot_p326 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 813-1 |
+| R40-27 | lot_p328 | code de la santé publique | L. 3421-1 |
+| R40-28 | lot_p328 | code de la sécurité intérieure | L. 235-1 |
+| R40-29 | lot_p328 | code de la sécurité intérieure | L. 114-1, L. 114-2, L. 211-11-1, L. 234-1, L. 234-2 |
+| R40-29 | lot_p328 | code de la défense | L. 4123-9-1 |
+| R40-29 | lot_p328 | code de la sécurité intérieure | R. 234-2 |
+| R40-29 | lot_p328 | code de la sécurité intérieure | L. 234-3 |
+| R40-29 | lot_p328 | code de la sécurité intérieure | L. 235-1 |
+| R40-29-1 | lot_p328 | code de la sécurité intérieure | R. 234-3 |
+| R40-29-1 | lot_p328 | code de la sécurité intérieure | L. 234-4 |
+| R40-29-1 | lot_p328 | code monétaire et financier | L. 561-23 |
+| R40-29-1 | lot_p328 | code monétaire et financier | L. 561-27 |
+| R40-38-1 | lot_p328 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 142-2 |
+| R40-38-2 | lot_p328 | code général des collectivités territoriales | L. 2223-42 |
+| R40-38-2 | lot_p328 | code civil | 87 |
+| R40-38-2 | lot_p328 | code de l'entrée et du séjour des étrangers et du droit d'asile | L. 142-2 |
+| R40-38-8 | lot_p328 | code de la sécurité intérieure | L. 235-1 |
+| R40-42 | lot_p328 | code des douanes | 67 bis |
+| R40-43-1 | lot_p328 | code des douanes | 67 bis |
+| R40-45 | lot_p328 | code des douanes | 67 bis |
+| R40-47 | lot_p328 | code des douanes | 67 bis |
+| R15-19 | lot_p329 | code général des collectivités territoriales | L. 2213-33 |
+| R15-26-1 | lot_p329 | code de la route | L. 130-9 |
+| R15-33-29-1 | lot_p329 | code de l'environnement | R. 427-21 |
+| R15-33-29-3 | lot_p329 | code général des collectivités territoriales | L. 2212-5, L. 2213-18, L. 2512-16, L. 2512-16-1 |
+| R15-33-29-3 | lot_p329 | code de l'énergie | R. 143-3 |
+| R15-33-29-3 | lot_p329 | code de l'environnement | R. 583-7 |
+| R15-33-29-3 | lot_p329 | code de la santé publique | R. 3512-2, R. 3512-3 |
+| R15-33-29-3 | lot_p329 | code général de la propriété des personnes publiques | R. 2122-7-1 |
+| R15-33-41-1 | lot_p329 | code de la route | L. 234-17 |
+| R15-33-51 | lot_p329 | code monétaire et financier | R. 131-2 |
+| R15-33-53 | lot_p329 | code de la route | L. 224-1 |
+| R15-33-53 | lot_p329 | code de la route | R. 224-6 |
+| R15-33-55 | lot_p329 | code de la sécurité sociale | L. 412-8 |
+| R15-33-59 | lot_p329 | code de la route | L. 223-6 |
+| R15-33-66-7 | lot_p329 | code des procédures civiles d'exécution | L. 111-4 |
+| R15-33-66-8 | lot_p329 | code de l'organisation judiciaire | R. 123-14 |
+| R15-33-66-8 | lot_p329 | code de l'organisation judiciaire | L. 123-3, R. 123-28 |
+| R1 | lot_p330 | code du patrimoine | R. 114-6, R. 114-17 |
+| R2-6 | lot_p330 | code de l'organisation judiciaire | R. 123-14 |
+| R2-15-2 | lot_p330 | code de l'organisation judiciaire | L. 217-6 |
+| D15-1-1 | lot_p333 | code des douanes | 67 bis |
+| D15-1-2 | lot_p333 | code des douanes | 67 bis |
+| D15-3 | lot_p333 | code général des collectivités territoriales | L. 2215-2, L. 2512-15 |
+| D1-1 | lot_p334 | code de procédure civile | sans article, code entier |
+| D1-12-1 A | lot_p334 | code de la santé publique | sans article, code entier |
