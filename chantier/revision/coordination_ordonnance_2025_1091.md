@@ -152,28 +152,28 @@ Hors des trois codes, ces renvois sont à porter par la loi de réécriture, qui
 
 ## Renvois vers d'autres codes, hors périmètre (recensement)
 
-Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe3/*.json`, champ `articles_cible[].texte`, 335 pièces). Une ligne par mention « du code … » nommant un autre code que le code pénal, le code de procédure pénale et le code pénitentiaire, et par mention « du même code » rattachée au dernier code nommé avant elle dans le même article. « Du présent code » renvoie au code du lot et reste hors du relevé. L’article cité est relevé mécaniquement : les numéros placés entre le dernier mot « article » et la mention, ou, à défaut, la subdivision nommée, ou le code entier. Le recensement est un état des lieux : il dit où la loi de réécriture rencontre d’autres codes, et chaque correction reste à instruire.
+Relevé le 20261029 par script sur le texte cible après la passe 4 (`revision/passe3/*.json`, champ `articles_cible[].texte`, 335 pièces). Une ligne par mention « du code … » nommant un autre code que le code pénal, le code de procédure pénale et le code pénitentiaire, et par mention « du même code » rattachée au dernier code nommé avant elle dans le même article. « Du présent code » renvoie au code du lot et reste hors du relevé. L’article cité est relevé mécaniquement : les numéros placés entre le dernier mot « article » et la mention, ou, à défaut, la subdivision nommée, ou le code entier. Le recensement est un état des lieux : il dit où la loi de réécriture rencontre d’autres codes, et chaque correction reste à instruire.
 
-**Compte par code** : 810 renvois vers 43 codes, dont 62 vers le code du travail, 17 vers le code de la justice pénale des mineurs et 0 vers le code de la commande publique, que le texte cible ne nomme pas.
+**Compte par code** : 803 renvois vers 43 codes, dont 62 vers le code du travail, 16 vers le code de la justice pénale des mineurs et 0 vers le code de la commande publique, que le texte cible ne nomme pas.
 
 | code cité | renvois |
 |---|---|
 | code de la santé publique | 118 |
-| code de la sécurité intérieure | 82 |
+| code de la sécurité intérieure | 81 |
 | code civil | 62 |
 | code du travail | 62 |
 | code de la route | 59 |
 | code de l'action sociale et des familles | 40 |
-| code de la défense | 31 |
-| code de l'organisation judiciaire | 28 |
+| code de la défense | 28 |
+| code de l'organisation judiciaire | 26 |
 | code de l'environnement | 24 |
 | code général des impôts | 22 |
 | code de la sécurité sociale | 21 |
 | code rural et de la pêche maritime | 20 |
 | code des douanes | 19 |
 | code de commerce | 18 |
-| code de la justice pénale des mineurs | 17 |
 | code de procédure civile | 17 |
+| code de la justice pénale des mineurs | 16 |
 | code de l'entrée et du séjour des étrangers et du droit d'asile | 15 |
 | code des transports | 15 |
 | code du patrimoine | 15 |
@@ -709,7 +709,6 @@ Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe
 | L3133-19 | lot_p170 | code de la sécurité intérieure | L. 811-2 |
 | L3133-19 | lot_p170 | code de la sécurité intérieure | L. 811-4 |
 | L3133-25 | lot_p170 | code des relations entre le public et l'administration | L. 100-3 |
-| L3222-6 | lot_p172 | code de la sécurité intérieure | L. 411-5 |
 | L3222-7 | lot_p172 | code des transports | L. 2241-1 |
 | L3223-3 | lot_p172 | code de la défense | L. 1333-13-5, L. 2339-14, L. 2339-15, L. 2341-1, L. 2341-2, L. 2341-4, L. 2342-59, L. 2342-60 |
 | L3223-3 | lot_p172 | code de la sécurité intérieure | L. 317-8 |
@@ -721,15 +720,12 @@ Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe
 | L3532-27 | lot_p183 | code rural et de la pêche maritime | L. 214-23 |
 | L3532-30 | lot_p183 | code rural et de la pêche maritime | L. 211-11 |
 | L3533-8 | lot_p183 | code général des impôts | 1741, 1743 |
-| L3533-21 | lot_p183 | code de la défense | L. 2312-4 |
-| L3533-24 | lot_p183 | code de la défense | L. 2312-4 |
 | L3534-6 | lot_p183 | code civil | 2378 |
 | L3534-9 | lot_p183 | code monétaire et financier | L. 542-1 |
 | L3534-9 | lot_p183 | code de commerce | L. 228-1 |
 | L3534-10 | lot_p183 | code monétaire et financier | L. 54-10-1 |
 | L3534-21 | lot_p183 | code de commerce | L. 632-1 |
 | L3543-8 | lot_p184 | code de la santé publique | sans article, code entier |
-| L3544-5 | lot_p184 | code de la défense | L. 2312-4, L. 2312-8 |
 | L3563-1 | lot_p186 | code de la défense | L. 2339-2, L. 2339-3, L. 2339-10, L. 2341-4, L. 2353-4, L. 2353-5 |
 | L3563-1 | lot_p186 | code de la sécurité intérieure | L. 317-2, L. 317-7 |
 | L3572-3 | lot_p187 | code de la défense | L. 2339-2, L. 2339-3, L. 2339-4, L. 2339-4-1, L. 2339-10, L. 2339-11-2, L. 2353-4, L. 2353-13 |
@@ -745,8 +741,8 @@ Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe
 | L6211-6 | lot_p205 | code des douanes | 414 |
 | L6211-8 | lot_p205 | code de l'aviation civile | L. 282-1 |
 | L6211-8 | lot_p205 | code de l'aviation civile | L. 282-1 |
-| L6221-7 | lot_p206 | code de la sécurité intérieure | L. 811-3 |
-| L6221-7 | lot_p206 | code de la sécurité intérieure | L. 811-2 |
+| L6221-6 | lot_p206 | code de la sécurité intérieure | L. 811-3 |
+| L6221-6 | lot_p206 | code de la sécurité intérieure | L. 811-2 |
 | L6232-3 | lot_p207 | code de justice militaire | sans article, livre III |
 | L6313-2 | lot_p210 | code général des impôts | 1741, 1743 |
 | L6314-8 | lot_p210 | code de la construction et de l'habitation | L. 551-1 |
@@ -756,7 +752,6 @@ Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe
 | L6411-5 | lot_p213 | code de la justice pénale des mineurs | sans article, titre Ier du livre Ier |
 | L6411-10 | lot_p213 | code de l'action sociale et des familles | L. 114 |
 | L6421-1 | lot_p214 | code de la sécurité intérieure | L. 224-1, L. 225-7 |
-| L6421-5 | lot_p214 | code de la justice pénale des mineurs | sans article, titre Ier du livre Ier |
 | L6421-8 | lot_p214 | code de la sécurité intérieure | L. 811-2 |
 | L6421-8 | lot_p214 | code de la sécurité intérieure | L. 811-4 |
 | L6421-10 | lot_p214 | code de la sécurité intérieure | L. 224-1, L. 225-7 |
@@ -831,7 +826,7 @@ Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe
 | L2152-13 | lot_p260 | code de la justice pénale des mineurs | sans article, code entier |
 | L2152-15 | lot_p260 | code de la sécurité intérieure | L. 811-2, L. 811-4 |
 | L2152-23 | lot_p260 | code de la santé publique | L. 5311-1 |
-| L2152-24 | lot_p260 | code rural et de la pêche maritime | 3 |
+| L2152-24 | lot_p260 | code rural et de la pêche maritime | 2 |
 | L2152-24 | lot_p260 | code minier | L. 512-2 |
 | L2152-30 | lot_p260 | code de l'environnement | sans article, chapitre VIII du titre Ier du livre II |
 | L2152-33 | lot_p260 | code du patrimoine | sans article, section 2 du chapitre 4 du titre IV du livre V |
@@ -843,10 +838,10 @@ Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe
 | L2172-1 | lot_p262 | code de l'organisation judiciaire | L. 123-4 |
 | L2224-1 | lot_p264 | code de la sécurité intérieure | L. 411-5 |
 | L2232-1 | lot_p265 | code de la sécurité intérieure | sans article, titre Ier du livre V |
+| L2232-1 | lot_p265 | code de la sécurité intérieure | L. 512-1, L. 512-1-1 |
 | L2232-3 | lot_p265 | code forestier | sans article, chapitre Ier du titre VI du livre Ier |
 | L2232-3 | lot_p265 | code des transports | L. 2241-1 |
 | L2232-3 | lot_p265 | code de la sécurité intérieure | L. 272-4 |
-| L2232-7 | lot_p265 | code de la sécurité intérieure | L. 512-1, L. 512-1-1 |
 | L2233-1 | lot_p265 | code de la sécurité intérieure | sans article, titre II du livre V |
 | L2233-1 | lot_p265 | code forestier | L. 161-1, L. 161-4 |
 | L2233-1 | lot_p265 | code forestier | L. 161-14, L. 161-18 |
@@ -940,8 +935,6 @@ Relevé le 20261029 par script sur le texte cible de la passe 3 (`revision/passe
 | L1725-1 | lot_p296 | code de justice militaire | sans article, chapitre Ier du titre II du livre Ier |
 | L7111-1 | lot_p297 | code de l'organisation judiciaire | L. 441-1 |
 | L7111-6 | lot_p297 | code de l'organisation judiciaire | L. 111-13 |
-| L7214-4 | lot_p298 | code de l'organisation judiciaire | L. 431-6, L. 431-10 |
-| L7215-12 | lot_p298 | code de l'organisation judiciaire | L. 411-3 |
 | L8221-1 | lot_p307 | code de l'organisation judiciaire | L. 512-2 |
 | L8221-1 | lot_p307 | code de l'organisation judiciaire | L. 512-3 |
 | L8321-1 | lot_p309 | code de la santé publique | L. 5311-1 |

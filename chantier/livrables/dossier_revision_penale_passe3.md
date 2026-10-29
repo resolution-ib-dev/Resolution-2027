@@ -9,20 +9,20 @@ La passe 3 réécrit les trois codes de la chaîne pénale titre par titre : 33
 <!-- colonnes : 0.40, 0.15, 0.15, 0.15, 0.15 -->
 | Bloc | Mots en 2029 | Mots cible | Variation | Cible |
 |---|---|---|---|---|
-| Code de procédure pénale, partie législative | 375 057 | 269 268 | −28 % | −40 % |
-| Code de procédure pénale, partie réglementaire | 264 490 | 141 453 | −47 % | −50 % |
+| Code de procédure pénale, partie législative | 375 057 | 259 409 | −31 % | −40 % |
+| Code de procédure pénale, partie réglementaire | 264 490 | 141 458 | −47 % | −50 % |
 | Code pénal | 148 677 | 112 414 | −24 % | −25 % |
 | Code pénitentiaire | 170 168 | 69 054 | −59 % | −60 % |
-| **Ensemble** | **958 392** | **592 189** | **−38 %** | −45 % environ |
+| **Ensemble** | **958 392** | **582 335** | **−39 %** | −45 % environ |
 
 <!-- colonnes : 0.28, 0.72 -->
 | Indicateur | Valeur |
 |---|---|
-| Titres réécrits | 335, dont 217 avec un dépassement du plafond motivé |
-| Articles | 9 468 en 2029, 4 922 dans la cible (−48 %) |
-| Articles retirés | 3 666 fusionnés, 894 abrogés |
-| Articles de la cible | 719 gardés, 2 166 simplifiés, 1 981 réécrits, 40 partiellement déclassés, 2 remontés à la loi, 14 créés |
-| Phrases de 2029 suivies | 28 555 : 3 182 gardées, 22 429 reprises, 1 411 déclassées, 1 533 abrogées |
+| Titres réécrits | 335, dont 208 avec un dépassement du plafond motivé |
+| Articles | 9 468 en 2029, 4 904 dans la cible (−48 %) |
+| Articles retirés | 3 667 fusionnés, 911 abrogés |
+| Articles de la cible | 681 gardés, 2 170 simplifiés, 1 968 réécrits, 69 partiellement déclassés, 2 remontés à la loi, 14 créés |
+| Phrases de 2029 suivies | 28 555 : 3 098 gardées, 22 424 reprises, 1 479 déclassées, 1 554 abrogées |
 | Contrôles avant chaque versement | S1 traçabilité, S2 garanties, S3 volume, D1 à D5, C1 à C7 : 0 anomalie |
 
 *Lecture : la variation se mesure sur l’état du 1er janvier 2029, avant la passe 2. Un dépassement de plafond tient aux garanties à garder écrites (art. 34 et 66 C, vie privée, défense) ; il est motivé titre par titre.*
@@ -35,9 +35,9 @@ La passe 3 réécrit les trois codes de la chaîne pénale titre par titre : 33
 | **1. Outre-mer** | P3 | Les articles qui recopient le droit commun pour une collectivité. | Une clause d’application par collectivité et une table d’adaptations ; les incriminations et privations de liberté restent hors table. | 608 fusions, 123 abrogations |
 | **2. Une règle générale par matière** | P2, P23 | Délais, notifications, publicité, recours répétés article par article. | Un article général, les exceptions listées : publicité à L. 1, notification à L. 1632-5, nullités et forclusion aux règles générales. | 29 fusions |
 | **3. Procédures particulières** | P2 | Un régime complet par matière (terrorisme, criminalité organisée, santé, environnement). | Un régime commun, la liste des matières qui y entrent, les seuls écarts propres. | compté à la technique 2 |
-| **4. Déclassement** | P1 | Modalités écrites dans la loi ou le décret en Conseil d’État. | Les modalités descendent au décret, à l’arrêté ou au règlement type ; un droit de la personne reste au code avec sa limite. | 126 abrogations, 47 fusions |
-| **5. Rappels et redites** | P20 | « Sans préjudice », « conformément à », articles miroirs d’un autre code. | La redite tombe et renvoie à la règle qui la porte. | 567 abrogations, 77 fusions |
-| **6. Phrase** | P23 | Phrases longues, plusieurs idées, plusieurs mots pour une notion. | Une idée par phrase, le verbe au présent, un mot par notion. | 2 356 fusions, 2 abrogations |
+| **4. Déclassement** | P1 | Modalités écrites dans la loi ou le décret en Conseil d’État. | Les modalités descendent au décret, à l’arrêté ou au règlement type ; un droit de la personne reste au code avec sa limite. | 140 abrogations, 47 fusions |
+| **5. Rappels et redites** | P20 | « Sans préjudice », « conformément à », articles miroirs d’un autre code. | La redite tombe et renvoie à la règle qui la porte. | 570 abrogations, 77 fusions |
+| **6. Phrase** | P23 | Phrases longues, plusieurs idées, plusieurs mots pour une notion. | Une idée par phrase, le verbe au présent, un mot par notion. | 2 360 fusions, 2 abrogations |
 
 *Effet compté : articles retirés dont la décision cite le principe propre de la technique (le premier cité) ; un article qui en cite plusieurs compte pour chacun.*
 
@@ -86,7 +86,7 @@ Pourvoi en cassation (P2) : sept articles qui disaient chacun une issue du pour
 <!-- colonnes : 0.5, 0.5 -->
 | *État 2029* | *Texte cible* |
 |---|---|
-| La Cour de cassation, avant de statuer au fond, recherche si le pourvoi a été régulièrement formé.Si elle estime que les conditions légales ne sont pas remplies, elle rend, suivant les cas, un arrêt d’irrecevabilité, ou un arrêt de déchéance.<br>[L7215-4] Si une partie se désiste de son pourvoi, le président le constate par ordonnance.Si ce désistement n’a pas été constaté par le président, la chambre criminelle rend un arrêt lui en donnant acte.<br>[L7215-5] La Cour de cassation rend un arrêt de non-lieu à statuer si le pourvoi est devenu sans objet.<br>[L7215-6] Lorsque le pourvoi est irrecevable ou non fondé sur un moyen sérieux, la Cour de cassation le déclare non-admis.Cette décision peut être prise par la formation composée de trois magistrats prévue à l’article L.<br>[…] | La Cour de cassation recherche d’abord si le pourvoi est régulier. A défaut, elle rend un arrêt d’irrecevabilité ou de déchéance. Elle rend un arrêt de non-lieu à statuer si le pourvoi est devenu sans objet, et de rejet s’il est mal fondé. Elle déclare non admis, le cas échéant par la formation de trois magistrats prévue à l’article L. 7214-3, le pourvoi irrecevable ou non fondé sur un moyen sérieux, ou une partie de ses moyens ou griefs.<br>Le président de la chambre criminelle constate par ordonnance, sans recours, la non-admission du pourvoi formé contre une décision insusceptible de recours. Il constate par ordonnance le désistement d’une partie ou, à défaut, la chambre criminelle en donne acte par arrêt. |
+| La Cour de cassation, avant de statuer au fond, recherche si le pourvoi a été régulièrement formé.Si elle estime que les conditions légales ne sont pas remplies, elle rend, suivant les cas, un arrêt d’irrecevabilité, ou un arrêt de déchéance.<br>[L7215-4] Si une partie se désiste de son pourvoi, le président le constate par ordonnance.Si ce désistement n’a pas été constaté par le président, la chambre criminelle rend un arrêt lui en donnant acte.<br>[L7215-5] La Cour de cassation rend un arrêt de non-lieu à statuer si le pourvoi est devenu sans objet.<br>[L7215-6] Lorsque le pourvoi est irrecevable ou non fondé sur un moyen sérieux, la Cour de cassation le déclare non-admis.Cette décision peut être prise par la formation composée de trois magistrats prévue à l’article L.<br>[…] | La Cour de cassation recherche d’abord si le pourvoi est régulier. A défaut, elle rend un arrêt d’irrecevabilité ou de déchéance. Elle rend un arrêt de non-lieu à statuer si le pourvoi est devenu sans objet, et de rejet s’il est mal fondé. Elle déclare non admis, au besoin par la formation de trois magistrats de l’article L. 7214-3, le pourvoi irrecevable ou non fondé sur un moyen sérieux, ou une partie de ses moyens ou griefs.<br>Le président de la chambre criminelle constate par ordonnance, sans recours, la non-admission du pourvoi formé contre une décision insusceptible de recours. Il constate par ordonnance le désistement d’une partie, dont la chambre criminelle donne acte par arrêt à défaut. |
 
 ## Article R. 412-96 du code pénitentiaire (avec R. 412-97, R. 412-98, R. 412-99, R. 412-100, R. 412-101, R. 412-102…)
 
@@ -192,5 +192,5 @@ corriger un paramètre suffit : la chaîne rejoue le reste.
 | Peines et incriminations (passe 3) | 41 + 4 | champs de 2029 tenus dans les fusions ; perpétuité réelle écrite ; prescription des crimes nouveaux ; contrainte judiciaire après soixante-cinq ans gardée | 10.269 à 10.309, 11.1, 11.4 |
 | Coordinations et coquilles | 4 + 45 + 2 | 75 renvois morts corrigés ; 89 défauts de l’ordonnance à la note 8.2 ; anciens numéros remplacés | 8, 10.1 à 10.4, 10.310 à 10.354, 11.3 |
 
-*Registre complet au dépôt (`revision/registre_arbitrages_penal.md`) : 484 arbitrages délégués, une ligne chacun.*
+*Registre complet au dépôt (`revision/registre_arbitrages_penal.md`) : 542 arbitrages délégués, une ligne chacun.*
 
