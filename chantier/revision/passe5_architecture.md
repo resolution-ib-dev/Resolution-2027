@@ -60,6 +60,8 @@ puni d'au moins [cinq] ans. Elle garde la réactivité de la flagrance.
 de l'enquête. À l'échéance, le procureur classe, poursuit, ou la personne mise en
 cause peut saisir le juge de l'enquête pour qu'il ordonne la clôture (G6).
 
+**Motifs de détention.** Ceux de l'article 144 sont gardés. Le risque de renouvellement est présumé pour le récidiviste et le réitérant, sauf décision contraire motivée (§ 112a de la procédure pénale allemande ; registre 13.14).
+
 ## C. Direction de l'enquête par le parquet, sous le contrôle d'un juge de l'enquête
 
 Principe : le juge d'instruction disparaît. Le procureur dirige toutes les
