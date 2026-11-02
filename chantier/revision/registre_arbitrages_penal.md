@@ -630,3 +630,22 @@ Arbitrages tranchés par les rédacteurs et les relecteurs adverses de la passe 
 | 12.56 | outre-mer | Les clauses outre-mer gardent leurs zonages écrits et visent « les contrôles d'identité de l'article L. 3224-5 », article qui porte le but du contrôle des titres (L8111-1, L8112-1, L8113-1). Une réécriture de L3224-5 garde ce but, à défaut de quoi il revient dans les trois clauses | P3, P23 | délégué |
 | 12.57 | 10.239 | Deux points d'une table d'adaptations de même objet se fondent quand chacun garde son champ exact, sans ellipse qui change le nombre du verbe (transfèrements de Mayotte au 12° de L8121-1, parquet et calendrier de L4411-14 à L8221-1). La clause de substitution s'écrit au singulier dans les trois collectivités. L'incise « président ou juge du tribunal de première instance » tombe à Saint-Pierre-et-Miquelon. L'imputation du temps de la conduite au titre du mandat d'amener reste écrite à L8611-4 | P3, P20, P23, P25 | délégué |
 | 12.58 | 10.58 | Les dépassements de volume des titres de passe 4 sont acceptés quand le texte restant est fait de listes fermées, de délais, de conditions cumulatives, d'incriminations et de textes rétablis en relecture de passe 3. Le titre préliminaire reste hors passe 4 (L. 1 à L. 4). Le serment des jurés en appel limité à la peine se garde mot pour mot parce qu'il se lit à l'audience. La rédaction de passe 3 revient là où le gain était minime et alourdissait la phrase (5° de L5412-2, L5531-3) | P20, P23, P25, P26, S3, 10.58 | délégué |
+
+## 13. Passe 5 : réformes de structure (20261102)
+
+Principe arrêté par l'auteur le 20261102 : tout proposer dès lors que l'appui est clair et que le résultat est gradué et protecteur des libertés. Architecture : `revision/passe5_architecture.md`. Les détails sont délégués.
+
+| n° | point | décision | principe | statut |
+|---|---|---|---|---|
+| 13.1 | présentations au magistrat | une seule présentation, devant le juge qui décide de la liberté ; les autres deviennent des actes écrits ou à distance (A1 à A6) | P15, P19, P25 | validé 20261102 |
+| 13.2 | cadre d'enquête | enquête unique, phase d'urgence de [huit] jours, actes autorisés selon quatre niveaux (B) | P2, P3, P25 | validé 20261102 |
+| 13.3 | direction de l'enquête | fin du juge d'instruction ; enquête dirigée par le procureur sous le contrôle d'un juge de l'enquête et des libertés (C) | P25, P19 | validé 20261102 |
+| 13.4 | voies de jugement | deux voies, rapide et ordinaire, le barème s'appliquant aux deux (D) | P24, P14 | validé 20261102 |
+| 13.5 | socle protecteur | garanties G1 à G7 écrites une fois en première partie, contrôlées par S2 sur chaque titre touché | P25 | délégué |
+| 13.6 | présentation physique | de droit sur demande, et au moins une fois tous les [six] mois en détention | P25 | délégué |
+| 13.7 | données de connexion | autorisées par le juge de l'enquête, hors données d'abonnement et d'identification (niveau 2) | P25 | délégué |
+| 13.8 | affaires sensibles | dépaysement à la demande d'une partie ; formation collégiale de [trois] juges de l'enquête pour un élu ou un membre du Gouvernement ; statut du parquet laissé à la révision constitutionnelle | P25, P26 | délégué |
+| 13.9 | victime | constitution de partie civile dans l'enquête, mêmes droits que la personne mise en cause, recours au juge contre le classement ou l'inaction | P18 | délégué |
+| 13.10 | durée de l'enquête | [deux] ans, prolongeable [une fois] par le juge de l'enquête ; remplace 5.5 (durée de l'information) | P19 | délégué |
+| 13.11 | droit transitoire | les informations ouvertes se poursuivent devant le juge d'instruction jusqu'à leur clôture | P13 | délégué |
+| 13.12 | ordre de versement | A, D, B, C | — | délégué |
