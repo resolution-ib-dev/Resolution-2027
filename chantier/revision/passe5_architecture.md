@@ -16,10 +16,10 @@ première partie du CPP et chaque titre y renvoie.
 
 | n° | garantie | appui |
 |---|---|---|
-| G1 | Toute privation de liberté au-delà de la garde à vue, et toute mesure intrusive grave, est décidée par un juge du siège | art. 66 C ; CEDH art. 5 § 3 (*Medvedyev* 2010, *Moulin c. France* 2010) |
-| G2 | Avant toute détention, la personne est entendue par ce juge, en personne ; elle peut toujours obtenir d'être présentée physiquement | CEDH art. 5 § 3 ; CC 2019-802 QPC, CC 2020-872 QPC |
-| G3 | L'avocat assiste la personne à toute audience sur sa liberté et à toute reconnaissance de culpabilité | DDHC art. 16 ; CEDH art. 6 § 3 |
-| G4 | Tout refus du parquet opposé à une partie (acte, accès au dossier, poursuite) se porte devant le juge de l'enquête, qui statue dans un délai fixé | DDHC art. 16 ; P19 |
+| G1 | Toute détention au-delà de la garde à vue est décidée par un juge du siège, ainsi que les seules mesures que la Constitution ou le droit de l'Union lui réservent (données de connexion ; mesures au-delà des durées validées pour le parquet) | art. 66 C ; CEDH art. 5 § 3 (*Medvedyev* 2010, *Moulin c. France* 2010) ; CJUE *Prokuratuur* 2021 ; CC 2014-693 DC |
+| G2 | Avant le placement en détention, la personne est entendue par ce juge en personne ; les prolongations se tiennent à distance, avec une présentation physique au moins tous les [six] mois ou sur demande, sauf risque grave d'évasion ou de trouble | CEDH art. 5 § 3 ; CC 2019-802 QPC, CC 2020-872 QPC |
+| G3 | La personne a droit à l'avocat à toute audience sur sa liberté ; l'avocat est obligatoire pour une reconnaissance de culpabilité (droit constant) | DDHC art. 16 ; CEDH art. 6 § 3 |
+| G4 | Trois recours seulement devant le juge de l'enquête, contrepartie de la fin du juge d'instruction : refus d'un acte demandé après notification des charges ; refus d'accès au dossier après cette notification ; classement ou inaction de [trois] mois opposé à la victime. Une demande dilatoire se rejette sans débat par ordonnance motivée | DDHC art. 16 (recours effectif) ; P19 |
 | G5 | La victime a les mêmes droits procéduraux que la personne mise en cause : accès au dossier, demandes d'actes, recours, information | P18 ; DDHC art. 2 (sûreté) |
 | G6 | Chaque étape a une durée maximale opposable à l'État | P19 ; CEDH art. 6 § 1 (délai raisonnable) |
 | G7 | Les audiences sur la liberté et le jugement sont publics, sauf les exceptions de L. 1 | P26 |
@@ -31,10 +31,10 @@ une seule fois. Les autres présentations deviennent des actes écrits ou à dis
 
 | n° | aujourd'hui | cible | garde-fou |
 |---|---|---|---|
-| A1 | Prolongation de la garde à vue de 24 à 48 h : présentation au procureur de principe, dispense exceptionnelle | Décision écrite et motivée du procureur, sans présentation | Présentation de droit, au besoin à distance, si la personne ou l'avocat la demande ; au-delà de 48 h, juge de l'enquête et présentation (G2) |
+| A1 | Prolongation de la garde à vue de 24 à 48 h : présentation au procureur de principe, dispense exceptionnelle | Décision écrite et motivée du procureur, sans présentation | Au-delà de 48 h, juge de l'enquête et présentation (G2) |
 | A2 | Défèrement au procureur à l'issue de la garde à vue, jusqu'à [vingt] heures au dépôt | Quand la décision de poursuite est prise, l'officier de police judiciaire la notifie sur instruction écrite du procureur (convocation, ordonnance pénale, proposition de reconnaissance, citation) ; la personne est libérée ou conduite au juge | Si une détention ou un contrôle est requis, conduite sans délai devant le juge de l'enquête, au plus tard dans les [vingt] heures |
-| A3 | Interrogatoire de première comparution devant le juge d'instruction, puis débat devant le juge des libertés et de la détention | Une audience unique devant le juge de l'enquête : notification des charges, débat contradictoire sur la liberté, décision | G2, G3 ; appel devant la chambre des investigations et des libertés |
-| A4 | Prolongations de la détention, présentation à chaque échéance | Calendrier fixé au placement ; prolongation à distance par défaut | Présentation physique sur demande, et de droit au moins une fois tous les [six] mois (réponse à CC 2019-802 QPC) |
+| A3 | Interrogatoire de première comparution devant le juge d'instruction, puis débat devant le juge des libertés et de la détention | Une audience unique devant le juge de l'enquête : notification des charges, débat contradictoire sur la liberté, décision | G2 ; appel devant la chambre des investigations et des libertés |
+| A4 | Prolongations de la détention, présentation à chaque échéance | Calendrier fixé au placement ; prolongation à distance par défaut | G2 |
 | A5 | Extractions pour des actes sans décision (audition, notification, confrontation simple) | À distance par défaut | Présentation physique si le juge l'estime nécessaire à la manifestation de la vérité |
 | A6 | Renvois successifs à l'audience correctionnelle | Calendrier fixé à la première audience ; un renvoi de droit pour la défense ; les autres motivés | Personne détenue : jugement au plus tard dans le délai butoir, sinon mise en liberté d'office |
 
