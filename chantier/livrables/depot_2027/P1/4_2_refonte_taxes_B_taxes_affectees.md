@@ -1,11 +1,11 @@
-# Pièce 4.2 B — Une seule ressource votée remplace cinquante-six taxes affectées, à produit égal
+# Pièce 4.2 B — Une seule ressource votée remplace cinquante-sept taxes affectées, à produit égal
 
 **Porteur** : lot R3 (reprise de N3) ; mise à jour lot U3 (20261005 : calendrier avancé au 1er juillet 2027, coordination avec l’article 42, écarts de la revue A) ; passe d’application du 20261007 (siège du tableau des plafonds, renvois au III renuméroté de la clause générale). **Mandat** : plan de liasse du 20261005 (`methode/plan_liasse_2027_20261005.md`, § 2, ligne N3) ; mandat du fil d’application du 20261007. **Domicile** : `chantier/livrables/depot_2027/P1/4_2_refonte_taxes_B_taxes_affectees.md`. **Appui** (passe du 20261007) : `methode/appui_des_passes.md` · `methode/COMMUN.md` · `methode/regles_redactionnelles.md`, section du 20261007 · `reference/guide_legistique.md`, parties I à V · `methode/etats/L15_L17_L19.md` · `methode/etats/U7.md` · `methode/reprise_20261007.md` · `methode/etats/APP_fiscal.md`. Dépôt de droit, millésime LEGI 20261001. **Mesure** : 57 impositions affectées à des opérateurs, à des organismes et à des collectivités ; 63 adresses visées au dispositif (articles, plages et subdivisions, article 219 du gage compris), soit 698 articles contrôlés un à un sur l’extrait LEGI 20261001 (contrôle rejoué par le lot U3 après le nouveau calendrier) : 573 `EXISTE`, 116 `ABROGE_DIFF` en vigueur aux dates d’effet (sauf L423-19, éteint au 1er janvier 2027, sans effet), 7 `VIGUEUR_DIFF`, 2 `ABROGE` à l’intérieur d’une plage et non nommés ; aucun `ABSENT`, aucune borne ni aucun article nommé `ABROGE`. **Passe du 20261007** : 2 adresses contrôlées et corrigées au bloc interne (articles 46 de la loi n° 2011-1977 et 125 de la loi n° 2025-127), 3 renvois au III de la clause générale repris, 0 ligne de dispositif touchée. Ajouts du lot R3 : taxes nucléaires sur la gestion des substances radioactives, taxes sur les déchets, taxe additionnelle pour frais de chambres de commerce, cotisation à l’ANCOLS, contribution des professionnels de santé au fonds de garantie, contribution à l’AGEFIPH, cotisation intempéries.
 
 | cartouche | |
 |---|---|
-| titre | Une seule ressource votée remplace cinquante-six taxes affectées, à produit égal |
-| chapô | Abroger cinquante-six impositions affectées en deux dates — au 1er juillet 2027 tout ce qui se perçoit par opération ou sur les salaires versés (culture, industrie, transport, immatriculation, déchets, titres, apprentissage, formation, effort de construction, versement mobilité), au 1er janvier 2028 les taxes annuelles (réseaux, nucléaire, régulateurs, ressources locales, eau, bureaux d’Île-de-France) |
+| titre | Une seule ressource votée remplace cinquante-sept taxes affectées, à produit égal |
+| chapô | Abroger cinquante-sept impositions affectées en deux dates — au 1er juillet 2027 tout ce qui se perçoit par opération ou sur les salaires versés (culture, industrie, transport, immatriculation, déchets, titres, apprentissage, formation, effort de construction, versement mobilité), au 1er janvier 2028 les taxes annuelles (réseaux, nucléaire, régulateurs, ressources locales, eau, bureaux d’Île-de-France) |
 | intention | refonte équilibrée : des suppressions et un grand impôt qui recueille ; les dépenses que ces taxes finançaient sont supprimées par ailleurs ou reprises par le budget voté ; les collectivités sont compensées |
 | mesures | abrogation des sièges de 57 impositions · coordination de l’article 1379 du code général des impôts · deux dates, au plus tôt le 1er juillet 2027 · sort des affectations · gage collectivités et État |
 | circuit | B — refonte, perte de recette gagée |
@@ -47,7 +47,7 @@ II. – A. – Sont abrogés :
 
 1° Les articles L. 322-39 à L. 322-66, L. 423-4 à L. 423-37, L. 425-1 à L. 425-20, L. 433-1 à L. 433-31, L. 453-13 à L. 453-44 et L. 454-1 à L. 454-28 du code des impositions sur les biens et services.
 
-2° Les articles 235 ter ZE bis, 1519 à 1519 HB, 1587 à 1589, 1590, 1599 quater A à 1599 quater B, 1609 sexdecies C et 1635-0 quinquies du code général des impôts.
+2° Les articles 235 ter ZE bis, 1519 à 1519 HB, 1587 à 1589, 1590, 1599 quater A à 1599 quater B, 1599 quinquies B, 1609 sexdecies C et 1635-0 quinquies du code général des impôts.
 
 3° Les 6° à 13° bis et 15° du I de l’article 1379 du code général des impôts.
 
@@ -89,7 +89,7 @@ VI. – La perte de recettes pour les collectivités territoriales est compensé
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime cinquante-six impositions affectées à des opérateurs et à des organismes.
+Cet amendement supprime cinquante-sept impositions affectées à des opérateurs et à des organismes.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
@@ -97,7 +97,7 @@ Le Parlement vote une enveloppe et jamais son emploi : le produit de ces taxes 
 
 L’amendement les abroge en deux temps, selon leur mécanique propre. Au 1er juillet 2027 tombent celles qui se perçoivent par opération ou sur les rémunérations versées : culture, centres techniques industriels, transport aérien et maritime, autoroutes, immatriculation des véhicules, déchets, titres, apprentissage, formation, effort de construction, dialogue social, intempéries du bâtiment, versement mobilité. Les taxes annuelles, qui ne se coupent pas en cours d’exercice, sont dues pour la dernière fois au titre de 2027 : réseaux, installations nucléaires, contrôle bancaire, chambres de commerce, ressources locales, redevances de l’eau, bureaux d’Île-de-France. Dit simplement : une entreprise cesse de verser une dizaine de contributions distinctes, et les dépenses qu’elles finançaient se votent désormais au budget.
 
-Chaque date est tenue par un mouvement de sens contraire : le 1er juillet 2027 est celui où prennent fin les taux réduits de taxe sur la valeur ajoutée recensés comme dépenses fiscales, le 1er janvier 2028 celui où la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés que porte la même refonte fiscale. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-six impositions se fondent dans une ressource unique votée : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La simplification en est l’effet. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Chaque date est tenue par un mouvement de sens contraire : le 1er juillet 2027 est celui où prennent fin les taux réduits de taxe sur la valeur ajoutée recensés comme dépenses fiscales, le 1er janvier 2028 celui où la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés que porte la même refonte fiscale. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-sept impositions se fondent dans une ressource unique votée : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La simplification en est l’effet. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 ---
@@ -263,5 +263,3 @@ Après l’article 42 du texte déposé, « Dispositions relatives à l’affec
 4. **Taxe sur le transport aérien de marchandises** : affectataire non renseigné au référentiel ; à confirmer.
 5. **Renvois entrants** — non relevés mécaniquement. Déclarés, non comptés.
 6. **Tableau des plafonds** : le siège est corrigé au bloc interne (article 125 de la loi n° 2025-127), mais **la pièce ne l’abroge pas** : elle le laisse tomber par le IV. Si le dépôt exige une abrogation nommée des lignes correspondantes du tableau, la rédaction est due et elle n’est pas écrite.
-
-**Reprise du 20261103 (arbitrage de l’auteur).** La taxe sur l’or de Guyane (art. 1599 quinquies B CGI) relève du bloc fiscalité outre-mer : elle est retirée du II, A, 2°, et le compte passe de cinquante-sept à cinquante-six impositions. Rien d’autre ne bouge.

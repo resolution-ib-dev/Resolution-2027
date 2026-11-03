@@ -35,7 +35,7 @@ BLOC = {**{i: 'Accise (sur-TVA)' for i in (209, 210, 211, 212, 213, 214, 215, 21
         **{i: 'Taxe de séjour unique' for i in (291, 292, 294, 252, 296, 297)},
         299: 'Union européenne', 300: 'à qualifier'}
 GRANDS = {130: 'IR', 142: 'IS', 193: 'TVA', 304: 'TF', 133: 'IR', 134: 'IR', 140: 'IR'}
-CONSERVE_BLOC = {146: 'Union européenne', 196: 'Union européenne', 168: 'Fiscalité outre-mer', 380: 'Union européenne'}
+CONSERVE_BLOC = {146: 'Union européenne', 196: 'Union européenne', 380: 'Union européenne'}
 REGL = {391, 392, 401, 403, 413, 414, 354, 367}
 RETIRES = {270: 'retiré : aucune imposition de ce nom au droit en vigueur (CGI et CIBS, LEGI 20261031)',
            279: 'fusionné avec le rang 272 : même impôt, art. 991 CGI'}

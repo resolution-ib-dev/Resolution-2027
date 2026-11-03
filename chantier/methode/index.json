@@ -11520,6 +11520,20 @@
    "famille": "bac à sable"
   },
   {
+   "role": "fichier:livrables/tri_prelevements/calendrier_suppressions_nouvelles",
+   "chemin": "livrables/tri_prelevements/calendrier_suppressions_nouvelles.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/tri_prelevements/calendrier_suppressions_nouvelles.md",
+   "releve": true,
+   "famille": "bac à sable"
+  },
+  {
    "role": "fichier:livrables/tri_prelevements/niches_clause_generale_20261103",
    "chemin": "livrables/tri_prelevements/niches_clause_generale_20261103.tsv",
    "rang": "derive",
@@ -13924,6 +13938,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/methode/procedure_revue_fond_depot_2027.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
+   "role": "fichier:methode/prompt_fil_machine_tri_porte",
+   "chemin": "methode/prompt_fil_machine_tri_porte.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/prompt_fil_machine_tri_porte.md",
    "releve": true,
    "famille": "méthode"
   },
@@ -24995,6 +25023,7 @@
    "livrables/tablette_P2_20261016.md",
    "livrables/tri_prelevements/Tri_prelevements_export.xlsx",
    "livrables/tri_prelevements/Tri_prelevements_travail_20261103.xlsx",
+   "livrables/tri_prelevements/calendrier_suppressions_nouvelles.md",
    "livrables/tri_prelevements/niches_clause_generale_20261103.tsv",
    "livrables/tri_prelevements/rapport_auteur_20261103.md",
    "livrables/tri_prelevements/recap_avant_apres_20261103.md",
@@ -25167,6 +25196,7 @@
    "methode/procedure_liasse_P1_20261009.md",
    "methode/procedure_revision_penale.md",
    "methode/procedure_revue_fond_depot_2027.md",
+   "methode/prompt_fil_machine_tri_porte.md",
    "methode/purge_controle_nuit_reste_20261004.md",
    "methode/purge_recevabilite_20261004.md",
    "methode/receptacle_revue_P1_20261009.md",
@@ -26117,10 +26147,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 1693,
-  "au_coffre": 1632,
-  "au_depot": 1174,
-  "derives": 290,
+  "artefacts": 1695,
+  "au_coffre": 1634,
+  "au_depot": 1176,
+  "derives": 291,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

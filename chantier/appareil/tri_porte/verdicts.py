@@ -62,7 +62,7 @@ V = [
 (295,'C','','','aucun visa de L. 2333-81 à L. 2333-83 CGCT','relevé','P1-LOC','sort au tri « maintenu à part » : à corriger en « fondu dans l’équilibre »'),
 (391,'C','','','siège réglementaire (R. 522-1 et R. 522-24 C. env.)','relevé','REG',''),
 (413,'C','','','siège réglementaire (R. 423-11 C. env.)','relevé','REG',''),
-(168,'A','PLF P1 n° 25','II, A, 2°','abroge l’art. 1599 quinquies B CGI','relevé','','conservé en complément, bloc fiscalité outre-mer ; retiré du n° 25 (arbitrage de l’auteur du 20261103)'),
+(168,'A','PLF P1 n° 25','II, A, 2°','abroge l’art. 1599 quinquies B CGI','relevé','','taxe affectée à la région et à un organisme : supprimée avec les affectations (arbitrage de l’auteur du 20261103)'),
 (392,'C','','','aucun visa de L. 236-2 du code rural','relevé','REG','redevance pour service rendu'),
 (414,'C','','','siège réglementaire (R. 434-35 CESEDA)','relevé','REG',''),
 (374,'C','','','aucun visa de L. 1331-7 CSP','relevé','P1-LOC',''),

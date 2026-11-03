@@ -39,7 +39,7 @@ Trente-huit amendements de première partie, répartis en six lots. La numérota
 | 22 | art. add. après l’art. 19 | Taxes d’État : vingt et une disparaissent dans l’impôt, sans hausse du total |
 | 23 | art. add. après l’art. 32 | Impôt sur les sociétés : un taux unique, pour l’équilibre de la refonte fiscale |
 | 24 | article 42 | Taxes affectées : plafond à zéro, tout le produit retourne au budget voté par le Parlement |
-| 25 | art. add. après l’art. 42 | Taxes affectées : cinquante-six supprimées, fondues en une ressource unique à produit égal |
+| 25 | art. add. après l’art. 42 | Taxes affectées : cinquante-sept supprimées, fondues en une ressource unique à produit égal |
 | 26 | art. add. après l’art. 42 | Refermer les canaux budgétaires hors budget général |
 
 ## Lot III : Compte d’épargne
@@ -1818,7 +1818,7 @@ Ces quatre-vingt-deux lignes représentent un rendement prévisionnel de 29 980
 
 ---
 
-## Amendement n° 25 [Taxes affectées : cinquante-six supprimées, fondues en une ressource unique à produit égal]
+## Amendement n° 25 [Taxes affectées : cinquante-sept supprimées, fondues en une ressource unique à produit égal]
 
 AMENDEMENT
 
@@ -1854,7 +1854,7 @@ II. – A. – Sont abrogés :
 
 1° Les articles L. 322-39 à L. 322-66, L. 423-4 à L. 423-37, L. 425-1 à L. 425-20, L. 433-1 à L. 433-31, L. 453-13 à L. 453-44 et L. 454-1 à L. 454-28 du code des impositions sur les biens et services.
 
-2° Les articles 235 ter ZE bis, 1519 à 1519 HB, 1587 à 1589, 1590, 1599 quater A à 1599 quater B, 1609 sexdecies C et 1635-0 quinquies du code général des impôts.
+2° Les articles 235 ter ZE bis, 1519 à 1519 HB, 1587 à 1589, 1590, 1599 quater A à 1599 quater B, 1599 quinquies B, 1609 sexdecies C et 1635-0 quinquies du code général des impôts.
 
 3° Les 6° à 13° bis et 15° du I de l’article 1379 du code général des impôts.
 
@@ -1896,7 +1896,7 @@ VI. – La présente mesure concourt à la réduction des prélèvements pesant 
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime cinquante-six impositions affectées à des opérateurs et à des organismes.
+Cet amendement supprime cinquante-sept impositions affectées à des opérateurs et à des organismes.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
@@ -1904,7 +1904,7 @@ Le Parlement vote une enveloppe et jamais son emploi : le produit de ces taxes 
 
 L’amendement les abroge en deux temps, selon leur mécanique. Au 1er juillet 2027 tombent celles qui se perçoivent par opération ou sur les rémunérations versées : culture, centres techniques industriels, transport aérien et maritime, autoroutes, immatriculation des véhicules, déchets, titres, apprentissage, formation², effort de construction, dialogue social, intempéries du bâtiment, versement mobilité. Les taxes annuelles, qui ne se coupent pas en cours d’exercice, sont dues une dernière fois au titre de 2027 : réseaux, installations nucléaires, contrôle bancaire, chambres de commerce, ressources locales, redevances de l’eau, bureaux d’Île-de-France. Dit simplement : une entreprise cesse de verser une dizaine de contributions distinctes et les dépenses qu’elles finançaient se votent au budget.
 
-Chaque date est tenue par un mouvement inverse : au 1er juillet 2027 prennent fin les taux réduits de taxe sur la valeur ajoutée recensés comme dépenses fiscales, au 1er janvier 2028 la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-six impositions se fondent dans une ressource unique votée, à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Chaque date est tenue par un mouvement inverse : au 1er juillet 2027 prennent fin les taux réduits de taxe sur la valeur ajoutée recensés comme dépenses fiscales, au 1er janvier 2028 la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-sept impositions se fondent dans une ressource unique votée, à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 

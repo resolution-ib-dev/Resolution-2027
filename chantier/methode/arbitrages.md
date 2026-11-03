@@ -8575,3 +8575,12 @@ site ne sont pas régénérés : aucune publication sans l’auteur.
 ### Les niches de TVA sont portées — correction du 20261103
 
 **Tranché.** Le rapport du matin donnait « 38 niches de TVA exclues par le II, 4° ». C’est faux : le rapprochement s’est fait sur les articles 278 à 298 du CGI, recodifiés au CIBS au 1er janvier 2027. **28 taux réduits** sont portés par le n° 21 (trois taux réduits portés à 20 %, marches de 2028 à 2030) et par le III du n° 1 pour les lignes nommées du CIBS ; **10 exonérations et régimes** sont atteints par le I, sous réserve du II, 3°. Écart relevé : les exposés des n° 22 et 25 datent la fin des taux réduits au 1er juillet 2027, le dispositif du n° 21 au 1er juillet 2028.
+
+### Guyane, IS, calendrier, passage au fil machine — 20261103
+
+**Validé.** *Arbitrage de l’auteur du 20261103, second tour.*
+
+- **Taxe aurifère de Guyane (168)** : « si c’était pour une affectation on supprime ». La taxe est perçue au profit de la région et d’un organisme (1599 quinquies B, I) : elle reste **supprimée par le P1 n° 25**, rétabli à cinquante-sept impositions, la fiche 4.2 B identique à l’octet à sa version antérieure. **Caduc** : la ligne « retirée du n° 25 » de l’entrée précédente.
+- **IS** : extinction de la contribution exceptionnelle (n° 35) et assujettissement de la Caisse des dépôts (n° 36, III) en même temps que les niches et le taux unique : validé.
+- **Calendrier** : un report à 2028 sans bonne raison ne tient pas. Relevé des suppressions nouvelles contre les objets comparables : `livrables/tri_prelevements/calendrier_suppressions_nouvelles.md`.
+- **Vérification et consolidation confiées à un fil machine** : mandat `methode/prompt_fil_machine_tri_porte.md`.
