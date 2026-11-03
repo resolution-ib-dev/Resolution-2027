@@ -74,6 +74,8 @@ def porteur(r):
     p = r['amendement_porteur']
     if not p:
         return 'abrogé par le droit en vigueur' if r['verdict'] == 'S' else ''
+    if p.startswith('voie'):
+        return 'voie réglementaire (décret)'
     k, n = p.split(' n° ')
     return f"{LIASSE[k]}, amendement n° {n}" + (f", {r['alinea']}" if r['alinea'] else '')
 
@@ -152,7 +154,7 @@ for liasse, fic in [('PLF 2027, 1re partie', 'LIASSE_PLF_P1.md'), ('PLF 2027, 2d
 am = collections.defaultdict(int)
 for r in T:
     p = porteur(r)
-    if r['amendement_porteur']:
+    if r['amendement_porteur'] and 'amendement n°' in p:
         am[re.match(r'(.*?amendement n° \d+)', p).group(1)] += 1
 sheet(wb, 'Amendements', ['Amendement', 'Objet', 'Prélèvements portés'],
       [[k, OBJ.get(k, ''), v] for k, v in sorted(am.items(), key=lambda kv: (kv[0].split(',')[0], int(kv[0].rsplit('n° ', 1)[1])))],

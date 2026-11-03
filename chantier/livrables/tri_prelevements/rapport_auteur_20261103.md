@@ -15,7 +15,7 @@ Provenance : 114 verdicts relevés, 5 hérités (sièges n.d.). Hors annexe A, 1
 
 **Contrôle inverse.** Chaque abrogation des liasses retrouve son rang, sauf deux impositions abrogées par le n° 29 et absentes du tri, ajoutées : taxe sur la vacance des locaux d’habitation (1406 bis), taxe sur les terrains devenus constructibles (1529). La TGAP est au 299 CGI depuis le 31 mars 2026 : le n° 22 la porte. Deux visas à relire : 231 B CGI (PLFSS n° 3), absent du dépôt ; L. 421-78-1 CIBS (n° 1), hors vigueur. **Exposé du n° 22** : il nomme la TGAP, son dispositif l’abroge bien au 299.
 
-**Niches.** 359 supprimées : 165 visées nommément, 149 atteintes par le I, **38 de TVA exclues par le II, 4°** et non abrogées au III, 7 hors du champ du I (taxes CIBS livre IV, TGAP des douanes, 1655 septies). En trois ans : 7 sur 11 au IV, E ; le pacte Dutreil (787 B et C) est abrogé au III sans figurer au IV, E. Outre-mer : exclusion tenue. 10 niches « supprimées » sont déjà bornées au PLF 2027.
+**Niches.** 359 supprimées : 165 visées nommément, 149 atteintes par le I, 38 de TVA portées — 28 taux réduits par le n° 21, 10 exonérations par le I (correction du 20261103 au soir : le premier compte s’était fait sur les articles du CGI recodifiés au CIBS), 7 hors du champ du I (taxes CIBS livre IV, TGAP des douanes, 1655 septies). En trois ans : 7 sur 11 au IV, E ; le pacte Dutreil (787 B et C) est abrogé au III sans figurer au IV, E. Outre-mer : exclusion tenue. 10 niches « supprimées » sont déjà bornées au PLF 2027.
 
 ## 2. Amendements ajoutés (projets, non déposables en l’état)
 
@@ -45,3 +45,5 @@ Chacun porte vecteur, dispositif, entrée en vigueur sur les marches de juillet 
 8. Prélèvements sociaux sur le capital : les abroger, alors que le PLFSS n° 3 gage sur la CSG du capital — oui ou non ?
 9. Caisse des dépôts : l’assujettir à l’impôt sur les sociétés pour remplacer sa contribution — oui ou non ?
 10. Stocks stratégiques pétroliers, obligation de la directive 2009/119/CE : conserver la rémunération du comité — oui ou non ?
+
+*Réponses de l’auteur du 20261103 appliquées : voir `recap_avant_apres_20261103.md`.*

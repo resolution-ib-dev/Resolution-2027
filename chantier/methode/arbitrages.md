@@ -8556,3 +8556,22 @@ hors CGI), PLFSS n° 9 (18 contributions sociales). Versés aux liasses
 `LIASSE_PLF_P1.md` (lot VI) et `LIASSE_PLFSS.md`, fiches sous `P1/tri_*` et
 `SS/tri_09_*`, marqués « non déposables en l’état ». Les PDF et docx publiés du
 site ne sont pas régénérés : aucune publication sans l’auteur.
+
+### Réponses de l’auteur aux dix questions du tri — 20261103
+
+**Validé.** *Arbitrage de l’auteur du 20261103, réponse au § 4 du rapport.*
+
+- **Cotisations sociales** : le schéma de fusion des 82 cotisations vient dans une liasse **ultérieure**.
+- **Redevances** : « en R ». Lu comme : elles restent remplacées, leur suppression passe **par la voie réglementaire** (décret), conformément à la règle du 20260930 « par défaut, supprimer et fondre ». Onze rangs portent « voie réglementaire » au tri, dont trois redevances ajoutées depuis l’annexe 2027 (droits de port, redevance domaniale des autoroutes, substances du plateau continental). *Lecture à confirmer si « R » désignait la recette non fiscale.*
+- **Retenues à la source sur non-résidents (133, 134) et exit tax (140)** : grand impôt conservé, modalités de l’impôt sur le revenu.
+- **Pilier 2 (146) et taxe « petit colis » (196)** : conservés en complément, bloc Union européenne.
+- **Taxe aurifère de Guyane (168)** : bloc fiscalité outre-mer, **retirée du n° 25**, qui passe à cinquante-six impositions.
+- **Prélèvement de l’ANCOLS (119)** : supprimé par construction — la PEEC abrogée par le n° 25, I, 5°, le prélèvement sur ses ressources disparaît.
+- **Prélèvements sociaux sur le capital** : le schéma est arrêté — prélèvement forfaitaire de 30 % « total recomposé », rédaction harmonisée (n° 20, arbitrage du 20261007) ; les gages sont circonstanciels. **Conséquence** : le prélèvement de solidarité (235 ter) sort du n° 36, l’articulation restant portée par la pièce D, et les rangs 86 à 93 sont portés par le n° 20.
+- **Caisse des dépôts (147)** : assujettie à l’impôt sur les sociétés — n° 36, III.
+- **Stocks stratégiques pétroliers (380)** : statu quo, conservés.
+- **Millésime** : réponse « oui » à une question à deux branches. **Non appliqué** : le tri garde la prévision 2026 du PLF 2026, la révisée du PLF 2027 en colonne d’attente.
+
+### Les niches de TVA sont portées — correction du 20261103
+
+**Tranché.** Le rapport du matin donnait « 38 niches de TVA exclues par le II, 4° ». C’est faux : le rapprochement s’est fait sur les articles 278 à 298 du CGI, recodifiés au CIBS au 1er janvier 2027. **28 taux réduits** sont portés par le n° 21 (trois taux réduits portés à 20 %, marches de 2028 à 2030) et par le III du n° 1 pour les lignes nommées du CIBS ; **10 exonérations et régimes** sont atteints par le I, sous réserve du II, 3°. Écart relevé : les exposés des n° 22 et 25 datent la fin des taux réduits au 1er juillet 2027, le dispositif du n° 21 au 1er juillet 2028.

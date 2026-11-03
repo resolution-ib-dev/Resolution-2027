@@ -1,12 +1,12 @@
-# Impositions d’État : vingt-huit de plus disparaissent dans les grands impôts, sans hausse du total
+# Impositions d’État : vingt-sept de plus disparaissent dans les grands impôts, la Caisse des dépôts paie l’impôt sur les sociétés
 
 > **PROJET — versé le 20261103, non validé par l’auteur. Ne pas déposer en l’état.**
 
 | cartouche | |
 |---|---|
-| titre | Impositions d’État : vingt-huit de plus disparaissent dans les grands impôts, sans hausse du total |
+| titre | Impositions d’État : vingt-sept de plus disparaissent dans les grands impôts, la Caisse des dépôts paie l’impôt sur les sociétés |
 | véhicule | PLF 2027, première partie, art. add. après l’art. 19 |
-| rangs du tri portés | 86, 139, 183, 184, 192, 231, 232, 277, 280, 281, 283, 306, 309, 319, 318, 358, 410, 375, 386, 393, 394, 395, 396, 397, 398, 399, 400, 402 |
+| rangs du tri portés | 147, 139, 183, 184, 192, 231, 232, 277, 280, 281, 283, 306, 309, 319, 318, 358, 410, 375, 386, 393, 394, 395, 396, 397, 398, 399, 400, 402 |
 | gage | majoration du taux de l’impôt sur les sociétés (art. 219 CGI) |
 | rattachement | article 34, I, 2° et 3° bis, de la loi organique n° 2001-692 (ressources de l’État ; impositions affectées à des tiers) |
 | cartes de la carto | aucune : la carto (état du 20260924) ne porte pas de carte pour la refonte des prélèvements |
@@ -31,35 +31,43 @@ I. – Sont abrogés :
 
 II. – Sont abrogés :
 
-1° Les articles 231 ter, 231 quater, 235 ter, 302 bis ZA, 990 D, 990 E, 990 F, 990 FA et 990 G du code général des impôts.
+1° Les articles 231 ter, 231 quater, 302 bis ZA, 990 D, 990 E, 990 F, 990 FA et 990 G du code général des impôts.
 
 2° Les articles L. 421-93 à L. 421-167 et L. 455-44 à L. 455-56 du code des impositions sur les biens et services.
 
-III. – A. – Le I s’applique aux impositions dont le fait générateur intervient à compter du 1er juillet 2027.
+III. – A. – Le 1 de l’article 206 du code général des impôts est complété par un alinéa ainsi rédigé :
 
-B. – Le II s’applique aux impositions dues au titre de l’année 2028 et des années suivantes. Pour l’article 235 ter du code général des impôts, il s’applique aux revenus perçus ou réalisés à compter du 1er janvier 2028.
+« La Caisse des dépôts et consignations est passible de l’impôt sur les sociétés à raison du résultat net de son activité pour compte propre. »
 
-C. – Les impositions dont le fait générateur est antérieur aux dates mentionnées aux A et B demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables.
+B. – Au premier alinéa de l’article L. 518-16 du code monétaire et financier, les mots : « d’une contribution représentative de l’impôt sur les sociétés » sont remplacés par les mots : « de l’impôt sur les sociétés ».
 
-IV. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au III. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
+IV. – A. – Le I s’applique aux impositions dont le fait générateur intervient à compter du 1er juillet 2027.
 
-V. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
+B. – Le II s’applique aux impositions dues au titre de l’année 2028 et des années suivantes.
 
-VI. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+C. – Le III s’applique aux exercices ouverts à compter du 1er juillet 2027.
+
+D. – Les impositions dont le fait générateur est antérieur aux dates mentionnées aux A, B et C demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables.
+
+V. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au IV. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
+
+VI. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
+
+VII. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime vingt-huit impositions de l’État que la refonte fait disparaître dans les grands impôts et qu’aucune disposition ne supprimait encore.
+Cet amendement supprime vingt-sept impositions de l’État que la refonte fait disparaître dans les grands impôts et soumet la Caisse des dépôts à l’impôt sur les sociétés.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le code général des impôts et le code des impositions sur les biens et services portent, à côté des grands impôts, des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits perçus sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux affectés au sport, taxes sur l’affectation des véhicules à des fins économiques, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles, prélèvement de solidarité sur les revenus du capital¹. Leur produit dépasse 24 milliards d’euros, dont 15,6 milliards pour le seul prélèvement de solidarité².
+Le code général des impôts et le code des impositions sur les biens et services portent, à côté des grands impôts, des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits perçus sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux affectés au sport, taxes sur l’affectation des véhicules à des fins économiques, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles¹. Leur produit approche 9 milliards d’euros². La Caisse des dépôts verse, au lieu de l’impôt sur les sociétés, une contribution qui en tient lieu.
 
-L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération. Les taxes annuelles sont dues une dernière fois au titre de 2027 et le prélèvement de solidarité cesse sur les revenus de 2028, l’année où le prélèvement forfaitaire unique est porté à 30 %. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, et plus vingt-huit taxes à côté.
+L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération. Les taxes annuelles sont dues une dernière fois au titre de 2027. La Caisse des dépôts acquitte l’impôt sur les sociétés de droit commun pour les exercices ouverts à compter du 1er juillet 2027, au taux unique de la même réforme. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, et plus vingt-sept taxes à côté.
 
 La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
-¹ Code général des impôts et code des impositions sur les biens et services, articles visés au dispositif.
+¹ Code général des impôts, code des impositions sur les biens et services et code monétaire et financier, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, évaluation initiale pour 2026 · projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2.
 
@@ -107,7 +115,6 @@ La perte de recettes est compensée par la majoration du taux de l’impôt sur 
 | cgi | 1001 | 1 art. applicables au 2027-07-01 ; subdivision seule abrogée | II : Tarif |
 | cgi | 231 ter | 1 art. applicables au 2027-07-01 | Section II bis : Taxe annuelle sur les locaux à usage de bureaux, les  |
 | cgi | 231 quater | 1 art. applicables au 2027-07-01 | Section II ter : Taxe annuelle sur les locaux à usage de bureaux, les  |
-| cgi | 235 ter | 1 art. applicables au 2027-07-01 | Section VIII : Prélèvements de solidarité sur les revenus du patrimoin |
 | cgi | 302 bis ZA | 1 art. applicables au 2027-07-01 | Chapitre XIV : Taxe additionnelle à la taxe sur les surfaces commercia |
 | cgi | 990 D | 1 art. applicables au 2027-07-01 | Section 0I bis : Taxe sur la valeur vénale des immeubles possédés en F |
 | cgi | 990 E | 1 art. applicables au 2027-07-01 | Section 0I bis : Taxe sur la valeur vénale des immeubles possédés en F |

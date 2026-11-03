@@ -11548,6 +11548,20 @@
    "famille": "bac à sable"
   },
   {
+   "role": "fichier:livrables/tri_prelevements/recap_avant_apres_20261103",
+   "chemin": "livrables/tri_prelevements/recap_avant_apres_20261103.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/tri_prelevements/recap_avant_apres_20261103.md",
+   "releve": true,
+   "famille": "bac à sable"
+  },
+  {
    "role": "fichier:livrables/tri_prelevements/relecture_annexes_20261103",
    "chemin": "livrables/tri_prelevements/relecture_annexes_20261103.tsv",
    "rang": "derive",
@@ -24983,6 +24997,7 @@
    "livrables/tri_prelevements/Tri_prelevements_travail_20261103.xlsx",
    "livrables/tri_prelevements/niches_clause_generale_20261103.tsv",
    "livrables/tri_prelevements/rapport_auteur_20261103.md",
+   "livrables/tri_prelevements/recap_avant_apres_20261103.md",
    "livrables/tri_prelevements/relecture_annexes_20261103.tsv",
    "livrables/tri_prelevements/sorts_contre_schema_20261103.tsv",
    "livrables/tri_prelevements/verification_porteurs_20261103.tsv",
@@ -26102,10 +26117,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 1692,
-  "au_coffre": 1631,
-  "au_depot": 1173,
-  "derives": 289,
+  "artefacts": 1693,
+  "au_coffre": 1632,
+  "au_depot": 1174,
+  "derives": 290,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

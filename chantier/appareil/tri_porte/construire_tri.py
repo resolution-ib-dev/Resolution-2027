@@ -34,7 +34,9 @@ BLOC = {**{i: 'Accise (sur-TVA)' for i in (209, 210, 211, 212, 213, 214, 215, 21
         **{i: 'Fonds de garantie' for i in (273, 274, 275, 276)},
         **{i: 'Taxe de séjour unique' for i in (291, 292, 294, 252, 296, 297)},
         299: 'Union européenne', 300: 'à qualifier'}
-GRANDS = {130: 'IR', 142: 'IS', 193: 'TVA', 304: 'TF'}
+GRANDS = {130: 'IR', 142: 'IS', 193: 'TVA', 304: 'TF', 133: 'IR', 134: 'IR', 140: 'IR'}
+CONSERVE_BLOC = {146: 'Union européenne', 196: 'Union européenne', 168: 'Fiscalité outre-mer', 380: 'Union européenne'}
+REGL = {391, 392, 401, 403, 413, 414, 354, 367}
 RETIRES = {270: 'retiré : aucune imposition de ce nom au droit en vigueur (CGI et CIBS, LEGI 20261031)',
            279: 'fusionné avec le rang 272 : même impôt, art. 991 CGI'}
 
@@ -146,6 +148,8 @@ for i, (s, f) in enumerate(zip(S, F), 1):
     sort = s['sort']; bloc = ''; cible = ''
     if i in GRANDS:
         dev = 'grand impôt conservé'; cible = NOM[GRANDS[i]]
+    elif i in CONSERVE_BLOC:
+        dev = 'conservé en complément'; bloc = CONSERVE_BLOC[i]
     elif sort == 'hors champ':
         dev = 'recette non fiscale'
     elif i in (293, 295) or (sort == 'fondu dans l’équilibre' and s['nature'] != 'cotisation sociale'):
@@ -190,12 +194,16 @@ for i, (s, f) in enumerate(zip(S, F), 1):
            306: ('C', '', '', 'relevé'), 362: ('C', '', '', 'relevé'), 370: ('C', '', '', 'relevé'), 383: ('C', '', '', 'relevé')}
     if i in FIX and verdict not in ('sans objet (devenir sans abrogation)',):
         verdict, porteur, alin, prov = FIX[i]
+    for k in (87, 88, 89, 90, 91, 92, 93):
+        if i == k: verdict, porteur, alin, prov = 'B', 'PLF P1 n° 20', 'I, 11° et 12°', 'relevé'
     nouveau = NOUV.get(i, '')
     if verdict == 'C' and nouveau:
         porteur_final = nouveau; alin_final = ALIN_NOUV.get(int(nouveau.split('n° ')[1])) or AL.get(i, 'I'); etat = 'C → porté par un amendement nouveau (projet)'
     else:
         porteur_final, alin_final = porteur, alin
         etat = {'A': 'porté', 'B': 'porté par une clause', 'S': 'sans objet : déjà abrogé', 'C': 'non porté'}.get(verdict, verdict)
+    if verdict == 'C' and i in REGL:
+        porteur_final, alin_final, etat = 'voie réglementaire (décret)', '', 'porté par la voie réglementaire (hors liasse)'
     rows.append(dict(n=i, libelle=s['libelle'], nature=nat, assiette=ass, rendement_2026_M=rdt, source_rendement=src,
                      rendement_2026_revise_plf2027_M='' if alt is None else alt, devenir=dev, impot_cible=cible, bloc=bloc,
                      siege=sg, legiarti=lid, lien_legifrance=lien(lid, code), niches_rattachees=len(nmap.get(i, [])) or '',
@@ -216,9 +224,9 @@ NEW = [
  ('Taxe spéciale complémentaire au profit de la Société du Grand Projet du Sud-Ouest', 'impôt', 'la propriété et les droits d’usage', '22.2', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'remplacé par un grand impôt', 'Taxe foncière', '', 'Art. 1609 I du code général des impôts', ('cgi', '1609 I'), 'PLF P1 n° 37', 'I, 1°', 'C', 'relevé'),
  ('Contribution exceptionnelle sur le résultat d’exploitation des grandes entreprises de transport maritime', 'impôt', 'l’activité des entreprises', '0.0', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'remplacé par un grand impôt', 'Impôt sur les sociétés', '', 'Art. 50 de la loi n° 2025-127 du 14 février 2025', ('loi n° 2025-127 du 14 février 2025', '50'), '', '', 'S', 'relevé'),
  ('Majoration de prélèvement au titre de la loi Solidarité et renouvellement urbains', 'recette non fiscale', '', '50.0', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'recette non fiscale', '', '', 'L. 302-9-1 du code de la construction et de l’habitation', ('cch', 'L. 302-9-1'), '', '', 'sans objet (devenir sans abrogation)', 'déduit'),
- ('Droits de port (redevances d’équipement, de stationnement, sur les navires, les marchandises et les passagers)', 'recette non fiscale', '', '495.2', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'recette non fiscale', '', '', 'L. 5321-1 à L. 5321-4 du code des transports', ('transports', 'L. 5321-1'), '', '', 'sans objet (devenir sans abrogation)', 'déduit'),
- ('Redevance domaniale due par les sociétés concessionnaires d’autoroutes', 'recette non fiscale', '', '440.8', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'recette non fiscale', '', '', 'R. 122-48 du code de la voirie routière', None, '', '', 'sans objet (devenir sans abrogation)', 'déduit'),
- ('Redevance d’exploitation de substances non énergétiques sur le plateau continental ou dans la zone économique exclusive', 'recette non fiscale', '', '0.3', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'recette non fiscale', '', '', 'L. 132-15-1 du code minier', None, '', '', 'sans objet (devenir sans abrogation)', 'déduit'),
+ ('Droits de port (redevances d’équipement, de stationnement, sur les navires, les marchandises et les passagers)', 'impôt', 'la propriété et les droits d’usage', '495.2', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'remplacé par un grand impôt', 'Impôt sur les sociétés', '', 'L. 5321-1 à L. 5321-4 du code des transports', ('transports', 'L. 5321-1'), 'voie réglementaire (décret)', '', 'C', 'déduit'),
+ ('Redevance domaniale due par les sociétés concessionnaires d’autoroutes', 'impôt', 'la propriété et les droits d’usage', '440.8', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'remplacé par un grand impôt', 'Impôt sur les sociétés', '', 'R. 122-48 du code de la voirie routière', None, 'voie réglementaire (décret)', '', 'C', 'déduit'),
+ ('Redevance d’exploitation de substances non énergétiques sur le plateau continental ou dans la zone économique exclusive', 'impôt', 'la propriété et les droits d’usage', '0.3', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'remplacé par un grand impôt', 'Impôt sur les sociétés', '', 'L. 132-15-1 du code minier', None, 'voie réglementaire (décret)', '', 'C', 'déduit'),
  ('Taxe de protection des obtentions végétales', 'impôt', 'la propriété et les droits d’usage', '0.0', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'remplacé par un grand impôt', 'Impôt sur les sociétés', '', 'L. 623-16 du code de la propriété intellectuelle', None, '', '', 'C', 'relevé'),
  ('Contribution aux frais de garderie et d’administration des bois et forêts des collectivités', 'recette non fiscale', '', '28.0', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'recette non fiscale', '', '', 'L. 224-3 du code forestier', None, '', '', 'sans objet (devenir sans abrogation)', 'déduit'),
  ('Contribution additionnelle des collectivités propriétaires de bois et forêts relevant du régime forestier', 'recette non fiscale', '', '5.0', 'PLF 2027, annexe des ressources affectées, prévision 2026 révisée', 'recette non fiscale', '', '', 'L. 224-4 du code forestier', None, '', '', 'sans objet (devenir sans abrogation)', 'déduit'),
@@ -226,7 +234,7 @@ NEW = [
 for k, t in enumerate(NEW, 1):
     lib, nat, ass, rdt, src, dev, cible, bloc, sg, ref, por, ali, ver, prov = t
     lid = legiarti(*ref) if ref else ''
-    etat = {'A': 'porté', 'C': 'C → porté par un amendement nouveau (projet)' if por else 'non porté', 'S': 'sans objet : déjà abrogé'}.get(ver, ver)
+    etat = {'A': 'porté', 'C': ('porté par la voie réglementaire (hors liasse)' if por.startswith('voie') else 'C → porté par un amendement nouveau (projet)') if por else 'non porté', 'S': 'sans objet : déjà abrogé'}.get(ver, ver)
     rows.append(dict(n=f'N{k}', libelle=lib, nature=nat, assiette=ass, rendement_2026_M=rdt, source_rendement=src,
                      rendement_2026_revise_plf2027_M=rdt if 'révisée' in src else '', devenir=dev, impot_cible=cible, bloc=bloc,
                      siege=sg, legiarti=lid, lien_legifrance=lien(lid, ref[0] if ref else ''), niches_rattachees='',

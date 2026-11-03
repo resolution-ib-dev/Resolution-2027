@@ -6048,3 +6048,17 @@ renvoie plus que par une ligne — il ne porte plus la table.
   II, 4°, et non abrogées au III.
 - Textes hors dépôt de droit cités par les amendements nouveaux : code forestier,
   code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658.
+
+## 20261103 — tri-porte, réponses de l’auteur
+
+## Ce qui a changé au corpus
+
+- Dix réponses appliquées au tri (434 rangs) ; P1 n° 25 sans la taxe aurifère de Guyane (cinquante-six impositions) ; P1 n° 36 sans le prélèvement de solidarité, avec l’assujettissement de la Caisse des dépôts à l’IS.
+- Niches de TVA : correction de la vérification (28 portées par le n° 21, 10 atteintes par le I).
+- `livrables/tri_prelevements/recap_avant_apres_20261103.md`.
+
+## Ce qui reste ouvert
+
+- Millésime : réponse à préciser. Lecture de « en R » à confirmer.
+- 36 rangs remplacés ou fondus non portés (détail au récapitulatif, § 2).
+- Dates de la TVA : exposés des n° 22 et 25 (2027) contre dispositif du n° 21 (2028).
