@@ -2,7 +2,7 @@
 
 Résolution — octobre 2026
 
-Trente-quatre amendements de première partie, répartis en cinq lots. La numérotation va de 1 à 34.
+Trente-huit amendements de première partie, répartis en six lots. La numérotation va de 1 à 38.
 
 ---
 
@@ -64,6 +64,15 @@ Trente-quatre amendements de première partie, répartis en cinq lots. La numér
 | 32 | art. add. après l’art. 34 | Départements et régions : les compétences retirées, le financement retiré d’autant |
 | 33 | art. add. après l’art. 34 | Dotation forfaitaire : remplacée par l’impôt que la commune vote elle-même |
 | 34 | article 36 | TVA des collectivités : plafonnée au coût de leurs compétences |
+
+## Lot VI : Prélèvements remplacés ou fondus
+
+| n° | article visé | objet |
+|---|---|---|
+| 35 | article 15 | Contribution exceptionnelle : pas de troisième exercice, le bénéfice imposé au taux unique |
+| 36 | art. add. après l’art. 19 | Impositions d’État : vingt-huit de plus disparaissent dans les grands impôts, sans hausse du total |
+| 37 | art. add. après l’art. 27 | Impositions locales : dix-huit taxes de plus fondues dans la taxe foncière unique et les grands impôts |
+| 38 | art. add. après l’art. 42 | Taxes affectées : treize de plus supprimées, leur produit voté au budget |
 
 ---
 
@@ -2526,3 +2535,215 @@ Les communes et leurs groupements ne sont concernés que par le premier temps :
 ¹ Loi n° 2016-1917 du 29 décembre 2016, article 149 · loi n° 2019-1479 du 28 décembre 2019, article 16 · loi n° 2020-1721 du 29 décembre 2020, article 8 · loi n° 2022-1726 du 30 décembre 2022, article 55.
 
 ² Cour des comptes, Les finances publiques locales, annexe 12, juillet 2024.
+
+---
+
+## Amendement n° 35 [Contribution exceptionnelle : pas de troisième exercice, le bénéfice imposé au taux unique]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE 15
+
+Supprimer cet article.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement supprime la prorogation, pour un troisième exercice, de la contribution exceptionnelle sur les bénéfices des grandes entreprises.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Instituée pour deux exercices par la loi de finances pour 2025, la contribution exceptionnelle frappe les entreprises dont le chiffre d’affaires dépasse un milliard d’euros (article 48 de la loi n° 2025-127 du 14 février 2025)¹. Elle a rapporté 7,5 milliards d’euros en 2025 et l’évaluation révisée pour 2026 en attend 7 milliards². Le texte en discussion la reconduit un troisième exercice, à un taux de 15,7 %, pour 5,2 milliards d’euros en 2027². L’exceptionnel devient la règle : une surtaxe dont le barème change chaque année s’ajoute à l’impôt sur les sociétés.
+
+L’amendement supprime cette reconduction. La contribution s’éteint au terme des deux exercices votés et son produit est repris par l’impôt sur les sociétés au taux unique de 27 %, que la même réforme applique aux exercices ouverts à compter du 1er juillet 2027. Dit simplement : toutes les entreprises paient le même taux sur tout leur bénéfice, sans supplément dont le seuil et le taux se votent d’une année sur l’autre.
+
+La refonte des impositions ne relève pas la pression globale : la contribution disparaît dans l’impôt qui en reprend l’assiette, à rendement constant³.
+
+¹ Loi n° 2025-127 du 14 février 2025 de finances pour 2025, article 48.
+
+² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, ligne 1441.
+
+³ Code général des impôts, article 219, dans la rédaction que propose la même réforme.
+
+---
+
+## Amendement n° 36 [Impositions d’État : vingt-huit de plus disparaissent dans les grands impôts, sans hausse du total]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE ADDITIONNEL
+
+APRÈS L’ARTICLE 19, insérer l’article suivant :
+
+I. – Sont abrogés :
+
+1° Les articles 235 ter ZG, 302 bis N, 302 bis O, 302 bis P, 302 bis R, 302 bis S, 302 bis T, 302 bis U, 302 bis V, 302 bis W, 302 bis WA, 302 bis WB, 302 bis WC, 302 bis WD, 302 bis WE, 302 bis WF, 302 bis WG, 302 bis X, 302 bis XA, 1605 nonies, 1609 novovicies, 1609 tricies, 1609 untricies, 1609 duotricies, 1609 tertricies, 1613 ter, 1613 quater, 1635 bis AE, 1635 bis AF, 1635 bis AG et 1635 bis AH du code général des impôts.
+
+2° Le 5° ter de l’article 1001 du même code.
+
+II. – Sont abrogés :
+
+1° Les articles 231 ter, 231 quater, 235 ter, 302 bis ZA, 990 D, 990 E, 990 F, 990 FA et 990 G du code général des impôts.
+
+2° Les articles L. 421-93 à L. 421-167 et L. 455-44 à L. 455-56 du code des impositions sur les biens et services.
+
+III. – A. – Le I s’applique aux impositions dont le fait générateur intervient à compter du 1er juillet 2027.
+
+B. – Le II s’applique aux impositions dues au titre de l’année 2028 et des années suivantes. Pour l’article 235 ter du code général des impôts, il s’applique aux revenus perçus ou réalisés à compter du 1er janvier 2028.
+
+C. – Les impositions dont le fait générateur est antérieur aux dates mentionnées aux A et B demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables.
+
+IV. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au III. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
+
+V. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
+
+VI. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement supprime vingt-huit impositions de l’État que la refonte fait disparaître dans les grands impôts et qu’aucune disposition ne supprimait encore.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Le code général des impôts et le code des impositions sur les biens et services portent, à côté des grands impôts, des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits perçus sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux affectés au sport, taxes sur l’affectation des véhicules à des fins économiques, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles, prélèvement de solidarité sur les revenus du capital¹. Leur produit dépasse 24 milliards d’euros, dont 15,6 milliards pour le seul prélèvement de solidarité².
+
+L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération. Les taxes annuelles sont dues une dernière fois au titre de 2027 et le prélèvement de solidarité cesse sur les revenus de 2028, l’année où le prélèvement forfaitaire unique est porté à 30 %. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, et plus vingt-huit taxes à côté.
+
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+
+¹ Code général des impôts et code des impositions sur les biens et services, articles visés au dispositif.
+
+² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, évaluation initiale pour 2026 · projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2.
+
+³ Code général des impôts, article 219.
+
+---
+
+## Amendement n° 37 [Impositions locales : dix-huit taxes de plus fondues dans la taxe foncière unique et les grands impôts]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE ADDITIONNEL
+
+APRÈS L’ARTICLE 27, insérer l’article suivant :
+
+I. – Sont abrogés :
+
+1° Les articles 1599 quater C, 1599 quater D, 1601, 1601-0 A, 1604, 1607 bis, 1607 ter, 1609 B, 1609 C, 1609 D, 1609 G, 1609 I et 1635 quater B à 1635 quater T du code général des impôts.
+
+2° Les articles L. 2333-49 à L. 2333-56, L. 2333-81 à L. 2333-83, L. 2333-97 et L. 3333-4 à L. 3333-7 du code général des collectivités territoriales.
+
+3° Les articles L. 331-1 à L. 331-17 du code de l’urbanisme.
+
+4° Les articles L. 454-39 à L. 454-77 du code des impositions sur les biens et services.
+
+5° L’article L. 1331-7 du code de la santé publique.
+
+6° L’article 3 de la loi n° 72-657 du 13 juillet 1972 instituant des mesures en faveur de certaines catégories de commerçants et artisans âgés.
+
+II. – A. – Le I s’applique aux impositions dues au titre de l’année 2028 et des années suivantes.
+
+B. – Par dérogation au A, l’abrogation des articles L. 2333-54 à L. 2333-56 du code général des collectivités territoriales s’applique au produit des jeux réalisé à compter du 1er juillet 2027. L’abrogation des articles 1635 quater B à 1635 quater T du code général des impôts, des articles L. 331-1 à L. 331-17 du code de l’urbanisme et de l’article L. 1331-7 du code de la santé publique s’applique aux autorisations et aux raccordements dont le fait générateur intervient à compter du 1er janvier 2028.
+
+C. – Les impositions dont le fait générateur est antérieur aux dates mentionnées aux A et B demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables. Les délibérations prises au titre des impositions supprimées cessent de produire effet aux mêmes dates.
+
+III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
+
+IV. – La perte de recettes pour les collectivités territoriales est compensée, à due concurrence, par la majoration de la dotation globale de fonctionnement. La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
+
+V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement supprime dix-huit impositions locales qui subsistaient à côté de la taxe foncière unique.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+La réforme réunit cinq impôts en une taxe foncière unique, votée par chaque commune. Autour d’elle demeuraient des taxes que chaque collectivité ou chaque chambre consulaire lève sur sa propre assiette : taxe d’aménagement, taxes spéciales d’équipement et taxe spéciale complémentaire, taxes pour frais de chambres de métiers et d’agriculture, taxe additionnelle spéciale annuelle d’Île-de-France, taxe sur les surfaces de stationnement, taxe sur les surfaces commerciales, taxe locale sur la publicité extérieure, taxe de balayage, taxes sur les remontées mécaniques et les sites nordiques, prélèvements communaux sur les jeux des casinos, participation pour le financement de l’assainissement collectif¹. Leur produit approche 3 milliards d’euros².
+
+L’amendement les abroge avec l’entrée en vigueur de la taxe foncière unique, au 1er janvier 2028 : les taxes annuelles sont dues une dernière fois au titre de 2027. Les prélèvements sur les jeux tombent au 1er juillet 2027, avec les autres impositions assises sur une opération. Dit simplement : le propriétaire paie une taxe foncière, l’entreprise son impôt sur les sociétés et la commune répond de son taux devant ses électeurs.
+
+Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. La fusion s’opère à rendement constant³.
+
+¹ Code général des impôts, code général des collectivités territoriales, code de l’urbanisme, code des impositions sur les biens et services et code de la santé publique, articles visés au dispositif.
+
+² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
+
+³ Code général des collectivités territoriales, article L. 1613-1.
+
+---
+
+## Amendement n° 38 [Taxes affectées : treize de plus supprimées, leur produit voté au budget]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE ADDITIONNEL
+
+APRÈS L’ARTICLE 42, insérer l’article suivant :
+
+I. – Sont abrogés :
+
+1° L’article L. 3253-18 du code du travail.
+
+2° Les articles L. 351-12 à L. 351-15 du code général de la fonction publique.
+
+3° L’article L. 4031-4 et le I de l’article L. 5141-8 du code de la santé publique.
+
+4° Le VI de l’article L. 253-8-2 du code rural et de la pêche maritime.
+
+5° Le 1° de l’article L. 4316-1 du code des transports.
+
+6° Les deuxième et dernier alinéas de l’article L. 423-6 du code de l’environnement.
+
+7° L’article L. 341-6 du code forestier.
+
+8° L’article L. 132-16 du code minier.
+
+9° L’article 72 de la loi de finances rectificative pour 2003 (n° 2003-1312 du 30 décembre 2003), l’article 130 de la loi de finances pour 2007 (n° 2006-1666 du 21 décembre 2006) et l’article 96 de la loi de finances rectificative pour 2010 (n° 2010-1658 du 29 décembre 2010).
+
+II. – A. – Le I s’applique aux impositions dont le fait générateur ou, à défaut, l’exigibilité intervient à compter du 1er juillet 2027 et, pour les cotisations assises sur les rémunérations, aux rémunérations versées à compter de cette date.
+
+B. – Par dérogation au A, les impositions annuelles sont dues une dernière fois au titre de l’année 2027.
+
+C. – Les impositions dont le fait générateur est antérieur aux dates mentionnées aux A et B demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables.
+
+III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
+
+IV. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
+
+V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement supprime treize impositions affectées à des organismes, régies hors du code général des impôts.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Une imposition affectée ne figure dans aucun crédit soumis au vote : son produit part directement à l’organisme. Celles que vise l’amendement sont dispersées dans onze textes : cotisation des employeurs au régime de garantie des salaires, contribution des employeurs publics au fonds pour l’insertion des personnes handicapées, contribution des professionnels de santé à leurs unions régionales, taxes sur les médicaments vétérinaires et sur la vente de produits phytopharmaceutiques, redevance de prise et de rejet d’eau de Voies navigables de France, droit d’examen du permis de chasser, indemnité de défrichement, redevance des mines d’hydrocarbures, taxes de trois lois de finances anciennes¹. Leur produit dépasse 2 milliards d’euros².
+
+L’amendement les abroge au 1er juillet 2027 ; les impositions annuelles sont dues une dernière fois au titre de 2027. Les missions qu’elles finançaient relèvent, selon leur nature, des crédits du budget général ou des amendements de seconde partie qui ferment les structures facultatives. Dit simplement : ce que finance l’impôt, c’est au Parlement de le décider.
+
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+
+¹ Code du travail, code général de la fonction publique, code de la santé publique, code rural et de la pêche maritime, code des transports, code de l’environnement, code forestier, code minier et lois de finances visées au dispositif.
+
+² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
+
+³ Code général des impôts, article 219.
+
+---
