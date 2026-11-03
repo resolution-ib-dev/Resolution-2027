@@ -5,7 +5,16 @@ sys.path.insert(0, '/home/user/Resolution-2027/chantier/appareil/tri_porte')
 sys.path.insert(0, '/home/user/Resolution-2027')
 import droit
 from amendements import AM
-from extraire_visas import ART_RE, deplier, cle, _lt
+from extraire_visas import ART_RE
+import verifier_fond
+
+
+def deplier(code, a, b):
+    """fourchette dépliée dans l'ordre officiel du code (sections, puis ordre naturel) — verifier_fond"""
+    arts, manq = verifier_fond.deplier(code, a, b)
+    if arts is None:
+        return [a, b], 'bornes absentes au 1er juillet 2027 : ' + ', '.join(manq)
+    return [x['num'] for x in arts], 'ordre officiel'
 
 D = '/home/user/Resolution-2027/chantier/livrables/depot_2027/'
 J = '2027-07-01'
@@ -71,7 +80,7 @@ def preuve(disp):
                 except Exception:
                     manq.append(x)
             etat = f'{len(ex) - len(manq)} art. applicables au {J}' + (f' ; absents : {", ".join(manq)}' if manq else '')
-            if sous:
+            if sous and lib == arts[0][0]:
                 etat += ' ; subdivision seule abrogée'
             lignes.append((code, lib, etat, ' · '.join(sorted(secs))))
     return lignes
@@ -96,7 +105,9 @@ def fiche(a):
         t.append(f'| {c} | {l} | {e} | {s} |')
     t += ['', 'Provenance : visas **relevés** au dépôt de droit par `droit.py` le 20261103 ; les textes absents du dépôt '
           '(code forestier, code minier, lois non codifiées hors dépôt) sont cités sur la référence juridique de '
-          'l’annexe des ressources affectées et **restent à relire** avant dépôt.', '']
+          'l’annexe des ressources affectées et **restent à relire** avant dépôt.', '',
+          'Vérification de fond et de rédaction du fil machine du 20261103 : '
+          '`livrables/tri_prelevements/verification_machine_20261103.md`.', '']
     return typo('\n'.join(t)), pr
 
 

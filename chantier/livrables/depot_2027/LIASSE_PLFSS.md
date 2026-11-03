@@ -538,32 +538,34 @@ I. – Sont abrogés :
 
 II. – A. – Le I s’applique aux contributions dont le fait générateur intervient à compter du 1er juillet 2027 et, pour les contributions assises sur les rémunérations, aux rémunérations versées à compter de cette date.
 
-B. – Par dérogation au A, les contributions assises sur un montant annuel de chiffre d’affaires, de ventes, de dépenses ou de revenus sont dues une dernière fois au titre de l’année 2027.
+B. – Par dérogation au A :
+
+1° La contribution prévue à l’article L. 137-30 du code de la sécurité sociale, dont le fait générateur est l’existence de l’entreprise au 1er janvier, est due une dernière fois au titre de l’année 2027.
+
+2° Les contributions prévues aux articles L. 138-10, L. 138-19-8 et L. 380-2 du même code, dont l’exigibilité dépend d’un seuil annuel, sont dues une dernière fois au titre de l’année 2027.
+
+3° Les contributions prévues aux articles L. 137-27, L. 138-1, L. 245-1, L. 245-5-1 A, L. 245-5-1, L. 245-6 et L. 862-4-1 du même code sont dues au titre de l’année 2027 sur la moitié de leur assiette annuelle.
 
 C. – Les contributions dont le fait générateur est antérieur aux dates mentionnées aux A et B demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables.
 
-III. – Les dispositions législatives qui affectent tout ou partie du produit des contributions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II.
+III. – Les dispositions législatives qui affectent tout ou partie du produit des contributions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La perte de recettes pour les organismes de sécurité sociale est compensée, à due concurrence, par la majoration de l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
-
-V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+IV. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime dix-huit contributions affectées à la sécurité sociale, que la refonte fait disparaître dans l’impôt sur le revenu, l’impôt sur les sociétés et la TVA.
+Cet amendement supprime dix-huit contributions affectées à la sécurité sociale, fondues dans les grands impôts.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le code de la sécurité sociale porte, à côté des cotisations, une série de contributions sur des assiettes particulières : contribution sociale de solidarité des sociétés, sur le chiffre d’affaires, contributions des laboratoires, des grossistes et des fabricants de dispositifs médicaux, clause de sauvegarde, taxe de solidarité additionnelle et contribution forfaitaire des organismes complémentaires, contribution additionnelle de solidarité pour l’autonomie sur les pensions, prélèvements et contribution publicitaire sur les jeux, contribution sur les attributions d’options et d’actions aux salariés, cotisation subsidiaire maladie, contribution des diffuseurs d’œuvres, droits de plaidoirie¹. S’y ajoute la contribution tarifaire d’acheminement, perçue sur la facture d’énergie. Leur produit dépasse 19 milliards d’euros².
+Le code de la sécurité sociale porte, à côté des cotisations, une série de contributions sur des assiettes particulières : contribution sociale de solidarité des sociétés, sur le chiffre d’affaires, contributions des laboratoires, des grossistes et des fabricants de dispositifs médicaux, clause de sauvegarde, taxe de solidarité additionnelle et contribution forfaitaire des organismes complémentaires, contribution additionnelle de solidarité pour l’autonomie sur les pensions, prélèvements et contribution publicitaire sur les jeux, contribution sur les attributions d’options et d’actions aux salariés, cotisation subsidiaire maladie, contribution des diffuseurs d’œuvres, droits de plaidoirie¹. S’y ajoute la contribution tarifaire d’acheminement, perçue sur la facture d’énergie. Leur produit atteint 19 milliards d’euros².
 
-L’amendement les abroge au 1er juillet 2027 ; les contributions annuelles sont dues une dernière fois au titre de 2027. Dit simplement : l’entreprise paie l’impôt sur ses bénéfices, le consommateur la TVA, le retraité l’impôt sur le revenu, et plus dix-huit contributions à côté.
+L’amendement les abroge au 1er juillet 2027. Les contributions assises sur l’année ne sont dues pour 2027 que sur la moitié de leur assiette, sauf celles qui naissent au 1er janvier ou dépendent d’un seuil annuel. Dit simplement : l’entreprise paie l’impôt sur ses bénéfices, le consommateur la TVA, le retraité l’impôt sur le revenu, sans dix-huit contributions à côté.
 
-La perte de recettes pour la sécurité sociale est compensée par la majoration de l’accise sur les tabacs. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit.
 
 ¹ Code de la sécurité sociale, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
-
-³ Code des impositions sur les biens et services, livre III, titre Ier, chapitre IV.
 
 ---

@@ -6062,3 +6062,19 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - Millésime : réponse à préciser. Lecture de « en R » à confirmer.
 - 36 rangs remplacés ou fondus non portés (détail au récapitulatif, § 2).
 - Dates de la TVA : exposés des n° 22 et 25 (2027) contre dispositif du n° 21 (2028).
+
+## 20261103 — fil machine, vérification des amendements du tri
+
+## Ce qui a changé au corpus
+
+- P1 n° 35 à 38 et PLFSS n° 9 vérifiés sur pièce et corrigés à la source (`appareil/tri_porte/amendements.py`), fiches et liasses régénérées, toujours en projet : quatre doubles emplois avec le P1 n° 1 retirés, trois abrogations partielles qui laissaient la taxe (L. 253-8-2 VI, L. 5141-8 I) ou un renvoi mort complétées, L. 5211-21-1 CGCT et 1609 H CGI ajoutés, dates recalées au 1er juillet 2027 (véhicules et fréquences, remontées, sites nordiques, assainissement), divisions de date rédigées nommément (n° 38, II, B ; n° 9, II, B), gages ramenés à la formule standard ou à l’insuffisance déclarée, exposés recomptés.
+- `livrables/tri_prelevements/verification_machine_20261103.md` et `…_renvois.tsv` ; `appareil/tri_porte/verifier_fond.py`.
+- Tri rejoué : N9 porté par le n° 35. Docx des deux liasses produits, non versés.
+
+## Ce qui reste ouvert
+
+- Cinq questions fermées (§ 10 de la vérification).
+- Pertes des affectataires tiers non gagées (n° 36 à 38) ; perte de la sécurité sociale non gagée (n° 9).
+- Textes hors dépôt : code forestier, code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486.
+- Hors mandat : retirer le 8° du III du PLFSS n° 1 et le visa L. 421-78-1 du P1 n° 1 ; aligner la formule de date du n° 29 sur la taxe d’aménagement.
+- Rien n’est poussé : la branche `claude/machine-tri-porte-verif` vit au sas du coffre.

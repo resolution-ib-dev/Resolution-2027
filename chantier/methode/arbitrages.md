@@ -8584,3 +8584,27 @@ site ne sont pas régénérés : aucune publication sans l’auteur.
 - **IS** : extinction de la contribution exceptionnelle (n° 35) et assujettissement de la Caisse des dépôts (n° 36, III) en même temps que les niches et le taux unique : validé.
 - **Calendrier** : un report à 2028 sans bonne raison ne tient pas. Relevé des suppressions nouvelles contre les objets comparables : `livrables/tri_prelevements/calendrier_suppressions_nouvelles.md`.
 - **Vérification et consolidation confiées à un fil machine** : mandat `methode/prompt_fil_machine_tri_porte.md`.
+
+## 20261103 — fil machine, vérification des amendements du tri
+
+*Fil de production du 20261103, mandat `methode/prompt_fil_machine_tri_porte.md`. Entrées titrées et datées, sans numéro — A-282.*
+
+### Une abrogation partielle ne porte un prélèvement que si la subdivision abrogée l’institue — 20261103
+
+**Tranché** (tambouille de vérification, révocable). Abroger le VI de L. 253-8-2 CRPM, qui n’est que l’affectation, laissait la taxe ; abroger le seul I de L. 5141-8 CSP laissait la taxe annuelle du II (rang 390). Les deux articles s’abrogent en entier. Corollaire tenu : avant d’écrire « le X de l’article », lire ce que X institue.
+
+### Le gage des amendements du tri : formule standard pour l’État, insuffisance déclarée pour les autres — 20261103
+
+**Tranché**, sur la consigne de l’auteur du 20261103 (« les gages sont circonstanciels, la forme se corrige »). La majoration du taux de l’IS (n° 36 à 38) et celle de l’accise sur les tabacs au profit de la sécurité sociale (PLFSS n° 9) échouent à `69_CONTROLE_doctrine.py` et à la machine 05, § 2 bis et 2 quater. L’État : formule standard, postiche déclaré à l’exposé. Les collectivités : majoration de la DGF, forme du P1 n° 25, V. La sécurité sociale et les affectataires tiers : insuffisance déclarée, perdants nommés. **Écarté** : relever la forme Sécu sur le PLFSS n° 3, V, qui n’est pas un amendement déposé.
+
+### Date d’une contribution assise sur l’année : moitié de l’assiette 2027 — 20261103
+
+**Proposé** (fond, question 2 de la vérification). Pour les contributions assises sur un montant de l’année civile et sans fait générateur au 1er janvier ni seuil annuel, la suppression au 1er juillet 2027 laisse due, au titre de 2027, la moitié de l’assiette annuelle. Même principe que le prorata des taxes sur les véhicules (P1 n° 36, IV, A). La C3S (fait générateur au 1er janvier) et les contributions à seuil annuel restent dues pour 2027 entier.
+
+### Une citation « du même code » ne se résout pas mécaniquement — 20261103
+
+**Tranché.** `verifier_fond.py` résout « du même code » sur le dernier code nommé avant la citation. Quand l’article citant ne nomme aucun code avant (L. 112-11-1 du code du sport, dont le 1° est abrogé), le renvoi échappe au relevé : il s’ajoute à la main et se déclare.
+
+### Lecteur de droit : deux versions applicables à la même date — 20261103
+
+**Signal** (appareil partagé, non modifié). `droit.article()` rend la version de date de début la plus récente ; à égalité (1613 quater CGI au 1er janvier 2027 : `MODIFIE_MORT_NE` et `VIGUEUR_DIFF`), il peut rendre la version morte-née. À corriger dans `droit.py` par le fil qui tient le dépôt : écarter `MODIFIE_MORT_NE` d’abord.
