@@ -29,6 +29,7 @@ Emploi :
 """
 import csv
 import json
+import os
 import pathlib
 import re
 import sys
@@ -96,8 +97,10 @@ def textes_2029():
 
 
 def socle_p5():
-    """Socle de la passe 5 : {"socle": {"G1": "L5", …}, "lots": {lot: ["G1", …]}}, vide hors passe 5."""
-    return json.loads(SOCLE5.read_text(encoding="utf-8")) if SOCLE5.exists() else {}
+    """Socle de la passe 5 : {"socle": {"G1": "L5", …}, "lots": {lot: ["G1", …]}}, vide hors passe 5.
+    La variable d'environnement SOCLE5 désigne une autre table (contrôle d'un titre avant son versement)."""
+    f = pathlib.Path(os.environ.get("SOCLE5") or SOCLE5)
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
 
 
 def vises_preliminaire(texte):
