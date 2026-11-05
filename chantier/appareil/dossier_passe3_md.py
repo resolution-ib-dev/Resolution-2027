@@ -29,6 +29,10 @@ REGISTRE = CHANTIER / "revision" / "registre_arbitrages_penal.md"
 GRILLE = CHANTIER / "revision" / "grille_principes.json"
 POINTS = CHANTIER / "revision" / "points_a_confirmer.md"
 BILAN = CHANTIER / "referentiels" / "sobriete_penal_bilan.json"
+ARCHI5 = CHANTIER / "revision" / "passe5_architecture.md"
+SOCLE5 = CHANTIER / "revision" / "passe5_garanties.json"
+# mots par bloc à la clôture de la passe 4 (bilan de sobriété du 20261029), base de l'avant / après de la passe 5
+AVANT_P5 = {"cppL": 259409, "cppR": 141458, "cp": 112414, "penitentiaire": 69054}
 
 BLOCS = (("cppL", "Code de procédure pénale, partie législative", 0.40),
          ("cppR", "Code de procédure pénale, partie réglementaire", 0.50),
@@ -160,7 +164,7 @@ def dossier(ps, bilan, textes):
     art_av = sum(l["articles_2029"] for l in bilan["lots"])
     art_ap = sum(l["articles_cible"] for l in bilan["lots"])
     L = ["# Révision de la chaîne pénale", "",
-         "### Passe 3 : sobriété — dossier de relecture, octobre 2026", "",
+         "### Passes 3 à 5 : sobriété et réformes de structure — dossier de relecture, novembre 2026", "",
          typo(f"La passe 3 réécrit les trois codes de la chaîne pénale titre par titre : {len(ps)} titres, "
               "chacun réécrit en entier puis relu en adversaire sur les garanties et les abrogations. "
               "Chaque phrase de l'état du 1er janvier 2029 a un destin écrit : gardée, reprise, déclassée ou abrogée. "
@@ -197,6 +201,7 @@ def dossier(ps, bilan, textes):
                           for k, n in eff.most_common() if k.startswith("retiré")) or "—"
         L.append(f"| **{tech}** | {pr} | {typo(avant)} | {typo(apres)} | {e} |")
     L += ["", typo("*Effet compté : articles retirés dont la décision cite le principe propre de la technique (le premier cité) ; un article qui en cite plusieurs compte pour chacun.*"), ""]
+    L += passe5(ps, bilan)
     L += ["# Principales réécritures", ""]
     for lot, code, num, expli in EXEMPLES:
         p = ps[lot]
@@ -218,6 +223,58 @@ def dossier(ps, bilan, textes):
     n_del = sum(1 for r in registre() if r[5].startswith("délégué"))
     L += [typo(f"*Registre complet au dépôt (`revision/registre_arbitrages_penal.md`) : {n_del} arbitrages délégués, une ligne chacun.*"), ""]
     return "\n".join(L) + "\n"
+
+
+def tables_md(texte):
+    """Tables markdown d'un document, par titre de section (## …) : {section: [[cellules], …]}."""
+    out, sec = {}, ""
+    for l in texte.splitlines():
+        if l.startswith("## "):
+            sec = l[3:].strip()
+        elif l.startswith("|") and not re.match(r"\|\s*-", l):
+            out.setdefault(sec, []).append([c.strip() for c in l.strip().strip("|").split("|")])
+    return {k: v[1:] for k, v in out.items()}
+
+
+def passe5(ps, bilan):
+    """Page « Passe 5 » : avant / après des réformes de structure et garanties du socle."""
+    if not SOCLE5.exists():
+        return []
+    socle = json.loads(SOCLE5.read_text(encoding="utf-8"))
+    tab = tables_md(ARCHI5.read_text(encoding="utf-8"))
+    touches = [l for l, p in ps.items() if any("Passe 5" in (a.get("motif") or "") for a in p["articles_cible"])]
+    L = ["# Passe 5 : réformes de structure", "",
+         typo(f"La passe 5 change la structure de la procédure pénale : une seule présentation au juge qui décide de la liberté, "
+              f"deux voies de jugement, une enquête unique aux actes gradués, et la fin du juge d'instruction au profit d'un juge "
+              f"de l'enquête et des libertés. Elle porte aussi les décisions des sections 14 et 15 du registre. "
+              f"{len(touches)} titres sont réécrits. Aucune réforme ne franchit le socle protecteur, écrit une fois au titre préliminaire."), "",
+         "## Avant / après", "", "<!-- colonnes : 0.08, 0.30, 0.34, 0.28 -->", "| n° | Avant | Après | Garde-fou |", "|---|---|---|---|"]
+    for sec, rows in tab.items():
+        if sec.startswith("A.") or sec.startswith("C."):
+            for r in rows:
+                if len(r) == 4:
+                    L.append(f"| {r[0]} | {typo(r[1])} | {typo(r[2])} | {typo(r[3])} |")
+                elif len(r) == 3:
+                    L.append(f"| {r[0]} | — | {typo(r[1])} | {typo(r[2])} |")
+        elif sec.startswith("D."):
+            for r in rows:
+                L.append(f"| D | {typo(r[0].replace('**', ''))} | {typo(r[1])} | {typo(r[2])} |")
+        elif sec.startswith("B."):
+            for r in rows:
+                L.append(f"| B{r[0]} | — | {typo(r[1] + ' : ' + r[2])} | {typo(r[3])} |")
+    L += ["", "## Garanties du socle", "", "<!-- colonnes : 0.06, 0.50, 0.24, 0.10, 0.10 -->",
+          "| n° | Garantie | Appui | Article | Titres |", "|---|---|---|---|---|"]
+    vis = collections.Counter(g for gs in socle.get("lots", {}).values() for g in gs)
+    for r in next((v for k, v in tab.items() if k.startswith("Règle commune")), []):
+        g = r[0]
+        L.append(f"| {g} | {typo(r[1])} | {typo(r[2])} | {rp.cite(socle['socle'].get(g, ''))} | {vis.get(g, 0)} |")
+    L += ["", typo("*Titres : nombre de titres réécrits que le contrôle S2 oblige à viser la garantie ; S2 est à 0 anomalie à chaque versement.*"), ""]
+    L += ["## Volume", "", "<!-- colonnes : 0.46, 0.18, 0.18, 0.18 -->", "| Bloc | Avant la passe 5 | Après | Variation |", "|---|---|---|---|"]
+    for k, nom, _ in BLOCS:
+        a, b = AVANT_P5[k], bilan["blocs"][k][1]
+        L.append(f"| {nom} | {mil(a)} | {mil(b)} | {pct(b / a - 1)} |")
+    L += [""]
+    return L
 
 
 def annexe(ps, textes):
