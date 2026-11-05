@@ -1,7 +1,7 @@
 {
   "lot": "lot_p292",
   "titre": "Titre II : TÉLÉCOMMUNICATIONS ET ENREGISTREMENTS AUDIOVISUELS OU SONORES",
-  "ecart_volume": "Le titre porte les règles générales de la télécommunication audiovisuelle (accord, place de l'avocat, observations de la personne poursuivie) auxquelles renvoient trente-neuf articles, et les garanties de l'enregistrement. Elles se tiennent mot pour mot (droits de la défense). Les « sans préjudice » tombent. Écart : −29 % au lieu de −40 %. Passe 4 : 863 → 820 mots pour un plafond de 726 ; phrases resserrées (procès-verbal, renvoi au décret, enregistrement, désignation de l'autorité). L1621-1, L1621-3, L1621-4 et L1621-8, règles générales citées par trente-neuf articles, gardent l'accord, l'entretien confidentiel, la copie du dossier et les observations de la personne poursuivie ; L1622-5 et L1622-6 gardent les bornes de la consultation et de la conservation (vie privée).",
+  "ecart_volume": "Passe 5 : 820 → 1097 mots, relecture adverse comprise (A5, G2, 15.2) : la règle générale de la télécommunication reçoit les actes à distance par défaut, les conditions de l'audience de détention à distance (L. 6, L. 7, L. 1) et l'interprétation à distance par l'outil homologué. Ces garanties, écrites une fois ici et citées par tout le code, portent le dépassement. Le titre porte les règles générales de la télécommunication audiovisuelle (accord, place de l'avocat, observations de la personne poursuivie) auxquelles renvoient trente-neuf articles, et les garanties de l'enregistrement. Elles se tiennent mot pour mot (droits de la défense). Les « sans préjudice » tombent. Écart : −29 % au lieu de −40 %. Passe 4 : 863 → 820 mots pour un plafond de 726 ; phrases resserrées (procès-verbal, renvoi au décret, enregistrement, désignation de l'autorité). L1621-1, L1621-3, L1621-4 et L1621-8, règles générales citées par trente-neuf articles, gardent l'accord, l'entretien confidentiel, la copie du dossier et les observations de la personne poursuivie ; L1622-5 et L1622-6 gardent les bornes de la consultation et de la conservation (vie privée).",
   "articles_cible": [
     {
       "num": "L1621-1",
@@ -53,19 +53,19 @@
     },
     {
       "num": "L1621-7",
-      "texte": "Lorsque les nécessités de l'enquête ou de l'instruction le justifient, l'audition ou l'interrogatoire d'une personne, même détenue, et la confrontation entre plusieurs personnes peuvent être réalisés par télécommunication audiovisuelle.",
-      "verbe": "S",
-      "principe": "P20",
-      "motif": "Auditions, interrogatoires et confrontations à distance pendant l'enquête et l'instruction : gardés. Le « sans préjudice des autres cas » tombe : les cas de la troisième partie valent par eux-mêmes.",
-      "ligne_rouge": "aucune"
+      "texte": "Au cours de l'enquête, et devant une juridiction hors de l'audience de jugement, l'audition ou l'interrogatoire d'une personne, même détenue, la notification d'un acte et la confrontation entre plusieurs personnes se font par télécommunication audiovisuelle. La présentation physique de la personne a lieu lorsque le magistrat ou la juridiction qui procède à l'acte l'estime nécessaire à la manifestation de la vérité.\nL'audience de jugement suit l'article L. 1621-9. Les audiences où il est statué sur la liberté suivent l'article L. 6.",
+      "verbe": "R",
+      "principe": "P15",
+      "motif": "Auditions, interrogatoires et confrontations à distance pendant l'enquête et l'instruction : gardés. Le « sans préjudice des autres cas » tombe : les cas de la troisième partie valent par eux-mêmes. Passe 5 : A5 (13.1, validé 20261102) : audition, notification et confrontation se font à distance par défaut, la présentation physique sur décision du magistrat ou de la juridiction, nécessaire à la manifestation de la vérité. La condition « nécessités de l'enquête ou de l'instruction » tombe avec la faculté qu'elle bornait. Les audiences sur la liberté relèvent de L. 6 (G2). Effet de renvoi signalé : L. 4311-1 (lot p143, G04) et D. 215-8 du code pénitentiaire (lot p110, G33). Relecture : A5 vise les actes sans décision. L'audience de jugement garde la borne de L1621-9 (art. 6 CEDH, CC 2020-872 QPC, 2021-911/919 QPC).",
+      "ligne_rouge": "Art. 16 DDHC examiné : l'acte à distance n'est pas une décision sur la liberté, les garanties de L1621-4 (avocat auprès de la personne ou de l'autorité, entretien confidentiel, copie du dossier en détention) et de L1621-8 s'appliquent, la présentation physique reste ouverte quand la vérité l'exige."
     },
     {
       "num": "L1621-8",
-      "texte": "S'il est recouru à un moyen de télécommunication audiovisuelle au cours d'un débat contradictoire ou d'une audience, celle-ci doit se tenir dans des conditions qui garantissent le droit de la personne poursuivie à présenter elle-même ses observations.",
-      "verbe": "G",
+      "texte": "S'il est recouru à un moyen de télécommunication audiovisuelle au cours d'un débat contradictoire ou d'une audience, celle-ci doit se tenir dans des conditions qui garantissent le droit de la personne poursuivie à présenter elle-même ses observations.\nLorsqu'il est statué sur la liberté, l'audience à distance se tient selon l'article L. 6. Le juge voit et entend la personne et peut ordonner d'office sa présentation physique. L'avocat se tient aux côtés de la personne, après un entretien confidentiel avec elle. La personne a droit à l'assistance d'un avocat selon l'article L. 7. En cas de défaillance de la liaison, elle est conduite devant le juge dans le délai fixé pour la décision.\nL'audience tenue à distance est publique dans les conditions de l'article L. 1. Le public y assiste dans la salle où siège la juridiction.",
+      "verbe": "R",
       "principe": "P25",
-      "motif": "Débat ou audience à distance : la personne poursuivie présente elle-même ses observations. Noyau tenu, inchangé.",
-      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : garantie gardée mot pour mot."
+      "motif": "Débat ou audience à distance : la personne poursuivie présente elle-même ses observations. Noyau tenu, inchangé. Passe 5 : G2 et garde-fou n° 6 (CEDH art. 5 § 3, CC 2019-802 QPC et 2020-872 QPC, Sakhnovskiy 2010) : conditions de l'audience de détention à distance écrites dans la règle générale de la télécommunication, par renvoi à L. 6 (juge qui voit et entend, présentation physique d'office, avocat aux côtés de la personne après un entretien confidentiel, défaillance couverte), avocat selon L. 7 (G3), publicité selon L. 1 (G7). La première phrase est gardée mot pour mot.",
+      "ligne_rouge": "CEDH art. 5 § 3 et § 4, art. 6, art. 16 DDHC examinés : la personne présente elle-même ses observations, le juge la voit et l'entend et peut la faire présenter, l'avocat est à ses côtés et s'entretient avec elle en confidence, une défaillance technique ramène la personne devant le juge dans le délai, l'audience reste publique."
     },
     {
       "num": "L1621-9",
@@ -77,19 +77,19 @@
     },
     {
       "num": "L1621-10",
-      "texte": "La comparution de la personne condamnée devant les juridictions de l'application des peines peut se faire par télécommunication audiovisuelle, quel que soit l'objet de la procédure.",
+      "texte": "La comparution de la personne condamnée devant le juge de l'application des peines, sa formation collégiale comprise, et devant la chambre des investigations et des libertés qui statue en appel de ses décisions peut se faire par télécommunication audiovisuelle, quel que soit l'objet de la procédure.",
       "verbe": "S",
       "principe": "P12",
-      "motif": "Comparution à distance devant les juridictions de l'application des peines : inchangée. Passe 4 : « être réalisée par l'intermédiaire d'un moyen de » devient « se faire par », même faculté.",
+      "motif": "Comparution à distance devant les juridictions de l'application des peines : inchangée. Passe 4 : « être réalisée par l'intermédiaire d'un moyen de » devient « se faire par », même faculté. Passe 5 : vocabulaire de 14.6 (carte, section 1) : le juge de l'application des peines, sa formation collégiale comprise, et la chambre des investigations et des libertés remplacent les juridictions de l'application des peines. Même faculté, même champ.",
       "ligne_rouge": "aucune"
     },
     {
       "num": "L1621-11",
-      "texte": "Lorsque l'interprète ne peut se déplacer, il peut assister la personne au cours d'une audition, d'un interrogatoire ou d'une confrontation par un moyen de télécommunication audiovisuelle ou par tout autre moyen de télécommunication.",
-      "verbe": "S",
-      "principe": "P23",
-      "motif": "Interprète à distance quand il ne peut se déplacer : gardé, phrase resserrée.",
-      "ligne_rouge": "Droit à l'interprète (CEDH art. 6 § 3 e) examiné : gardé."
+      "texte": "L'interprétation et la traduction d'une audition, d'un interrogatoire, d'une confrontation ou d'une audience tenus par télécommunication audiovisuelle se font selon l'article L. 1112-3, par l'outil homologué de l'article L. 2513-6, qui s'emploie à distance comme en présence de la personne. Lorsqu'un interprète humain intervient selon l'article L. 2513-7 et ne peut se déplacer, il assiste la personne par un moyen de télécommunication audiovisuelle ou par tout autre moyen de télécommunication.",
+      "verbe": "R",
+      "principe": "P25",
+      "motif": "Interprète à distance quand il ne peut se déplacer : gardé, phrase resserrée. Passe 5 : 15.2 (validé 20261105) : l'interprétation à distance se fait par l'outil homologué (L. 2513-6), l'interprète humain intervient sur incident ou pour une langue non homologuée (L. 2513-7), et à distance s'il ne peut se déplacer, comme en 2029. Garde-fou n° 4 porté par L. 1112-3, L. 2513-6 et L. 2513-7 (lots p273, p271).",
+      "ligne_rouge": "CEDH art. 6 § 3 e et directive 2010/64/UE examinés : la qualité de l'interprétation est garantie par l'homologation et l'interprète humain sur incident, l'interprète humain à distance garde la condition de 2029 (impossibilité de se déplacer)."
     },
     {
       "num": "L1621-12",
@@ -133,10 +133,10 @@
     },
     {
       "num": "L1622-5",
-      "texte": "Les règles du présent code sur la consultation des pièces du dossier et la délivrance de leurs copies ne s'appliquent pas aux enregistrements.\nAu cours de l'information, les parties, les avocats ou les experts peuvent visionner ou écouter l'enregistrement ou sa copie sur décision du juge d'instruction, en présence de ce magistrat ou d'un greffier. Lorsque la loi le prévoit, cette consultation n'est possible qu'en cas de contestation de l'acte enregistré. Sauf disposition contraire, les avocats des parties peuvent aussi visionner ou écouter la copie au palais de justice, sans décision ni présence d'un magistrat ou d'un greffier, dans des conditions qui garantissent la confidentialité de cette consultation.",
+      "texte": "Les règles du présent code sur la consultation des pièces du dossier et la délivrance de leurs copies ne s'appliquent pas aux enregistrements.\nAu cours de l'enquête, les parties, les avocats ou les experts peuvent visionner ou écouter l'enregistrement ou sa copie sur décision du procureur de la République, en présence d'un magistrat ou d'un greffier. La demande d'une partie se forme selon l'article L. 3324-15. Son refus, ou le silence gardé pendant [un mois], se porte devant le juge de l'enquête et des libertés selon le 2° de l'article L. 8. Lorsque la loi le prévoit, cette consultation n'est possible qu'en cas de contestation de l'acte enregistré. Sauf disposition contraire, les avocats des parties peuvent aussi visionner ou écouter la copie au palais de justice, sans décision ni présence d'un magistrat ou d'un greffier, dans des conditions qui garantissent la confidentialité de cette consultation.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Pas de copie des enregistrements (L1622-4) et consultation par les parties et les avocats : un article pour l'accès aux enregistrements. Passe 4 : « Les dispositions du présent code relatives à » devient « Les règles du présent code sur », même exclusion.",
+      "motif": "Pas de copie des enregistrements (L1622-4) et consultation par les parties et les avocats : un article pour l'accès aux enregistrements. Passe 4 : « Les dispositions du présent code relatives à » devient « Les règles du présent code sur », même exclusion. Passe 5 : une seule enquête (B) dirigée par le procureur (C, 13.3) : il décide de la consultation, son refus ou son silence se porte devant le juge de l'enquête et des libertés (G4, L. 8 2°). Bornes de la consultation gardées. Relecture : une seule voie, la demande d'acte puis L. 8 2°, silence compris, comme à L3523-22.",
       "ligne_rouge": "Contradictoire (art. 16 DDHC) et vie privée des personnes enregistrées (mineurs victimes) examinés : la copie reste exclue, la consultation par les parties et les avocats est gardée."
     },
     {
