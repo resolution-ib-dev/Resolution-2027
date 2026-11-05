@@ -14,15 +14,15 @@
 | P1 n° 36, II, 2° | L. 421-149, -150 et L. 421-152 à -155 retirés de la fourchette | double emploi : abrogés par le P1 n° 1, III, 341° et 342° | relevé (`extraire_visas.py`) |
 | P1 n° 36, III, B | « Au premier alinéa de l’article L. 518-16 » → « À l’article L. 518-16 » | l’article n’a qu’un alinéa | relevé |
 | P1 n° 36, IV | II, 2° recalé au 1er juillet 2027, taxes de 2027 dues sur la seule durée d’affectation ou de détention antérieure | consigne du 20261103 ; fait générateur des fréquences à l’achèvement de l’année (L. 455-48) | relevé |
-| P1 n° 36, VI ; n° 37, IV ; n° 38, IV | gage « majoration du taux de l’IS » → formule standard (taxe additionnelle à l’accise sur les tabacs, État seulement), postiche déclaré à l’exposé | `69_CONTROLE_doctrine.py` : ÉCHEC sur les trois ; machine 05, § 2 bis et 2 ter ; « la forme se corrige » (auteur, 20261103) | relevé |
+| P1 n° 36, VI ; n° 37, IV ; n° 38, IV | gage maintenu : majoration du taux de l’IS (DGF en plus pour les collectivités au n° 37) | registre des sources de gage, § V : variable de solde du circuit B ; ce fil l’avait d’abord remplacé par la formule tabac, revenu sur cette erreur | relevé |
 | P1 n° 37, I, 1° | 1609 H ajouté (taxe spéciale d’équipement du Grand Projet du Sud-Ouest, sœur de 1609 I) ; 1635 quater O retiré | rang 370 « taxes spéciales d’équipement » ; 1635 quater O abrogé par le P1 n° 1, III quinquies | relevé ; ajout de 1609 H **déduit** |
 | P1 n° 37, I, 2° | L. 2333-55-3 retiré ; L. 5211-21-1 ajouté | L. 2333-55-3 abrogé par le P1 n° 1, III, 345° ; L. 5211-21-1 ouvre aux intercommunalités le même prélèvement sur les jeux « dans les conditions de L. 2333-54 » | relevé ; ajout **déduit** |
 | P1 n° 37, II, B | remontées mécaniques, sites nordiques et assainissement collectif recalés au 1er juillet 2027 | consigne du 20261103 ; perçus par recette, accès ou raccordement | relevé |
 | P1 n° 38, I, 3° et 4° | L. 5141-8 abrogé en entier (et non son seul I) ; L. 253-8-2 en entier (et non son seul VI) | le II de L. 5141-8 porte la taxe annuelle du rang 390 ; le VI de L. 253-8-2 n’est que l’affectation — l’abroger seul laissait la taxe | relevé |
 | P1 n° 38, I, 5° | L. 4316-10 à L. 4316-12 ajoutés | contrôle, assiette et sanction des seules redevances du 1° | relevé ; ajout **déduit** |
 | P1 n° 38, II, B | rédigé nommément : contribution de L. 351-12 CGFP, taxe annuelle du II de L. 5141-8 CSP, taxe de L. 253-8-2 CRPM | faits générateurs relevés : effectif au 31 décembre de l’année écoulée (R. 351-3), autorisations valides au 1er janvier | relevé |
-| PLFSS n° 9, II, B | rédigé nommément, trois régimes : C3S due pour 2027 (fait générateur au 1er janvier, L. 137-32) ; contributions à seuil annuel dues pour 2027 (L. 138-10, L. 138-19-8, L. 380-2) ; contributions assises sur l’année dues pour 2027 sur la moitié de l’assiette (L. 137-27, L. 138-1, L. 245-1, L. 245-5-1 A, L. 245-5-1, L. 245-6, L. 862-4-1) | consigne du 20261103 ; prorata temporis, principe du II, 2° du n° 36 | relevé (faits générateurs) ; prorata **proposé** (question 2) |
-| PLFSS n° 9, III et IV | clause réglementaire ajoutée ; gage « accise sur les tabacs » retiré, insuffisance déclarée | machine 05, § 2 quater : la formule Sécu n’existe pas et ne s’invente pas | relevé |
+| PLFSS n° 9, II, B | rédigé nommément, trois régimes : C3S due pour 2027 (fait générateur au 1er janvier, L. 137-32) ; contributions à seuil annuel dues pour 2027 (L. 138-10, L. 138-19-8, L. 380-2) ; contributions assises sur l’année dues pour 2027 sur la moitié de l’assiette (L. 137-27, L. 138-1, L. 245-1, L. 245-5-1 A, L. 245-5-1, L. 245-6, L. 862-4-1) | consigne du 20261103 ; prorata temporis, principe du II, 2° du n° 36 | relevé (faits générateurs) ; prorata validé (§ 10) |
+| PLFSS n° 9, III et IV | clause réglementaire ajoutée ; gage « accise sur les tabacs » remplacé par la forme de la liasse de financement (contributions de L. 136-6 et L. 136-7, PLFSS n° 3, V) | frontière de véhicule : l’IS ne gage pas une pièce de financement | relevé |
 | les cinq | exposés : en-têtes ramenés à 10–15 mots, virgules devant « et » retirées, totaux recomptés et arrondis (8,9 ; 2,9 ; 2,1 ; 19 milliards) | `41_SCRIPT_controles_expose.py` ; règle d’arrondi du 20261019 | relevé (recompte sur `sort_prelevements_20261103.tsv`) |
 | cartouches | rangs `n-321`, `n-316`, `n-325` → N8, N6, N7 | trois libellés fantômes : aucun rang de ce nom au tri | relevé |
 
@@ -54,7 +54,7 @@
 | III, A | la Caisse est-elle exonérée ailleurs ? | aucune mention aux articles 206 à 208 ; seul L. 518-16 CMF parle d’un substitut à l’IS ; réapplication conforme ; le 1 bis de 206, abrogé par le n° 1, 155°, n’interfère pas | CGI et CMF, recherche intégrale | relevé |
 | III, B | cohérence du versement à l’État | « après paiement de l’impôt sur les sociétés » : cohérent ; désignation d’alinéa corrigée | 43 | relevé |
 | V | renvois entrants | 116 hors visa : 5 affectations (clause V), 24 réglementaires (clause), 14 lois de finances passées (sans objet), 73 renvois morts à toiletter | `…_renvois.tsv` | relevé ; verdicts **déduits** par règle |
-| VI | gage | formule standard ; **perte des affectataires tiers non gagée** (ANS, CNAM pour les droits de 1635 bis AE, opérateurs des redevances sanitaires) | machine 05, § 2 quater | déduit |
+| VI | gage | majoration de l’IS, circuit B ; **perte des affectataires tiers non couverte par la forme** (ANS, CNAM pour les droits de 1635 bis AE, opérateurs des redevances sanitaires), déclarée | registre des sources de gage, § I et V | relevé |
 
 ## 3. P1 n° 37 — impositions locales
 
@@ -69,23 +69,23 @@
 | I, 6° (TASCOM) | texte | loi n° 72-657, **hors dépôt** : non réapplicable | `codes.json` | relevé |
 | II | dates | voir § 7 | — | — |
 | III | renvois | 146 hors visa : 27 réglementaires (clause), 48 lois passées (sans objet), 66 renvois morts ; L. 2336-2 sans objet (abrogé par le n° 29) ; L. 2334-4 (potentiel fiscal) de fond, à toiletter ; L. 5211-21-1 tranché par abrogation | `…_renvois.tsv` | relevé ; verdicts déduits |
-| IV | gage | DGF (forme du n° 25, V) et formule standard ; **perte des établissements publics affectataires non gagée** (établissements publics fonciers, chambres consulaires, Société des grands projets, Grand Projet du Sud-Ouest) | machine 05, § 2 quater | déduit |
+| IV | gage | DGF (forme du n° 25, V) et majoration de l’IS ; **perte des établissements publics affectataires non couverte par la forme** (établissements publics fonciers, chambres consulaires, Société des grands projets, Grand Projet du Sud-Ouest), déclarée | registre des sources de gage | relevé |
 
 ## 4. P1 n° 38 — taxes affectées hors CGI
 
 | division | imposition | qui perd | dissous par le P2 n° 25 ? | qui la porte désormais | provenance |
 |---|---|---|---|---|---|
-| I, 1° | cotisation AGS (L. 3253-18) | AGS | non | **personne** : l’obligation d’assurance de L. 3253-6 survit sans financement (question 3) | relevé |
-| I, 2° | contribution FIPHFP (L. 351-12 à 15) | FIPHFP | oui (III, 334°) | l’obligation d’emploi de L. 351-1 survit **sans sa sanction** (question 3) | relevé |
-| I, 3° | contribution URPS (L. 4031-4) | URPS ; fonds de L. 221-1-2 CSS | non | **personne** (question 3) | relevé |
+| I, 1° | cotisation AGS (L. 3253-18) | AGS | non | crédits du budget, la dépense passe au vote (§ 10) ; l’obligation d’assurance de L. 3253-6 demeure | relevé |
+| I, 2° | contribution FIPHFP (L. 351-12 à 15) | FIPHFP | oui (III, 334°) | fermeture au P2 n° 25 ; l’obligation d’emploi de L. 351-1 demeure sans sa contribution (§ 10) | relevé |
+| I, 3° | contribution URPS (L. 4031-4) | URPS ; fonds de L. 221-1-2 CSS | non | crédits du budget, au vote (§ 10) | relevé |
 | I, 3° | taxes vétérinaires (L. 5141-8, I et II) | ANSES | non | crédits, à inscrire | relevé |
-| I, 4° | taxe phytopharmaceutique (L. 253-8-2) | ANSES ; fonds d’indemnisation des victimes de pesticides (L. 723-13-3) | non | **personne** pour le fonds (question 3) | relevé |
+| I, 4° | taxe phytopharmaceutique (L. 253-8-2) | ANSES ; fonds d’indemnisation des victimes de pesticides (L. 723-13-3) | non | crédits du budget pour le fonds, au vote (§ 10) | relevé |
 | I, 5° | redevance hydraulique (L. 4316-1, 1°) | VNF | oui (III, 63°) | ministère, au II, A du n° 25 | relevé |
 | I, 6° | droit d’examen du permis de chasser | OFB | non | crédits (0,7 M€) | relevé |
 | I, 7° à 9° | défrichement, mines, conserves, IRSN, phyto mise sur le marché | — | — | **textes hors dépôt** : non réappliqués, fait générateur non relevé | relevé |
 | II, B | annuelles | nommées, faits générateurs relevés | — | — | relevé |
 | III | renvois | 46 hors visa : 27 réglementaires, 6 lois passées, 10 renvois morts ; 3 de fond (L. 3253-14 C. trav., L. 221-1-2 CSS, L. 723-13-3 CRPM) | `…_renvois.tsv` | — | relevé ; verdicts déduits |
-| IV | gage | formule standard ; **pertes des tiers non gagées** | machine 05, § 2 quater | — | déduit |
+| IV | gage | majoration de l’IS, circuit B ; **pertes des tiers non couvertes par la forme**, déclarées | registre des sources de gage | — | relevé |
 
 ## 5. PLFSS n° 9 — contributions sociales
 
@@ -98,13 +98,13 @@
 | I, 1° (L. 652-6) | régime des avocats | perte de la CNBF ; régime maintenu | — | déduit |
 | I, 2° (CTA) | domaine de la LFSS | finance un régime obligatoire de base (CNIEG) : LO 111-3-7, 1° et 2° — plaidable ; texte **hors dépôt** | LO 111-3-7 | relevé ; texte hérité |
 | III | renvois | 158 hors visa : 4 affectations (clause), 74 réglementaires (clause), 18 lois passées (sans objet), 62 renvois morts | `…_renvois.tsv` | relevé ; verdicts déduits |
-| IV | gage | **insuffisance déclarée** : perdants, les régimes obligatoires de base et organismes concourant (CNAM, CNSA, CNIEG, CNBF) | machine 05, § 2 quater | relevé |
+| IV | gage | contributions de L. 136-6 et L. 136-7, forme du PLFSS n° 3, V | registre des sources de gage, § V bis ; liasse PLFSS | relevé |
 
 ---
 
 ## 6. Recevabilité financière
 
-**Instruit sur la machine (05, § 2 bis à 2 quater) et sur la pratique de la liasse.** La formule standard ne couvre que l’État. **Une perte d’un tiers qui n’est ni l’État, ni une collectivité, ni la sécurité sociale n’a pas de formule arbitrée** : elle se déclare, perdant nommé, et ne se comble pas de mémoire. Les n° 25 et 38 gagent sur « perte de recettes pour l’État » : **la forme ne couvre pas la perte des affectataires**, le risque au titre de l’article 40 est déclaré dans le bloc interne de chaque pièce et ici. *Déduit.*
+**Le circuit B commande la forme** (registre des sources de gage, § V) : majoration de l’IS pour l’État, DGF pour les collectivités, contributions de L. 136-6 et L. 136-7 en loi de financement. **La forme ne couvre pas la perte d’un affectataire qui n’est ni l’État, ni une collectivité, ni la sécurité sociale** (opérateurs, associations, établissements) : le risque au titre de l’article 40 est déclaré dans le bloc interne de chaque pièce. *Relevé.*
 
 ## 7. Dates
 
@@ -126,8 +126,8 @@
 | coordination | mesure | suite |
 |---|---|---|
 | PLFSS n° 1, III, 8° et n° 9, I, 1° (L. 137-13) | double emploi confirmé | n° 9 prévaut ; 8° du n° 1 à retirer (hors mandat) |
-| n° 22 et 25 (exposés) contre n° 21 (dispositif) | exposés : fin des taux réduits au 1er juillet 2027 ; dispositif du n° 21 : marches du 1er juillet 2028, 2029, 2030 | question 4 |
-| n° 25, II, B (ANCOLS) | le texte **ne la supprime pas tout à fait** : L. 313-1 CCH abrogé, L. 313-3 demeure ; le 1° de L. 342-21 est réécrit, plafonné à 10 M€, nul sans arrêté | question 5 |
+| n° 22 et 25 (exposés) contre n° 21 (dispositif) | écart confirmé ; calendrier TVA arrêté le 20261005 (n° 21 : 2028, 2029, 2030) | **corrigé** : aux exposés des n° 22 et 25, le 1er juillet 2027 est la date du taux unique de l’IS (pièces A et B et liasse) |
+| n° 25, II, B (ANCOLS) | L. 313-1 CCH abrogé, le 1° de L. 342-21 réécrit, montant nul à défaut d’arrêté | **tient** : « supprimé par construction » (auteur, 20261103) |
 | n° 20 et pièce D | le § « Coordination due, non rédigée » le dit toujours (prélèvement de solidarité, 1600-00 C et 1600-0 C à J) | aucune |
 | 231 B CGI (PLFSS n° 3, II) | article **créé par le I du même amendement**, d’où son absence du dépôt : visa juste | aucune |
 | L. 421-78-1 CIBS (P1 n° 1) | une seule version au dépôt, `MODIFIE_MORT_NE` : jamais en vigueur | visa à retirer du n° 1 (hors mandat) |
@@ -141,7 +141,7 @@
 | `42` sortie | 0 échec ; « réalistes » (5,2 ; 7,5 ; 15,7 ; 2,9 ; 2,1) : coïncidences de reconstruction, chiffres relevés sur pièce | relevé |
 | `43` réapplication | 1001, 206, L. 518-16, L. 423-6, L. 4316-1 : CONFORME | relevé |
 | `64` droit | 8 passés, 0 échec | relevé |
-| `69` doctrine | 5 passés, 0 échec | relevé |
+| `69` doctrine | n° 35 : PASSE ; n° 36 à 38 et PLFSS n° 9 : échec **connu** — le contrôle, écrit pour la machine des tiers, ne connaît pas le circuit B arbitré | relevé |
 | `controle_sieges_prelevements.py` sur `sort_prelevements_20261103.tsv` | 0 échec, 10 signaux | relevé |
 | `make index` | 0 anomalie bloquante | relevé |
 | `controle_lexique.py` | L1 « prélèvements obligatoires » : l’accroche commune seule | relevé |
@@ -153,12 +153,16 @@
 
 ---
 
-## 10. Questions fermées
+## 10. Questions — closes sur les réponses déjà rendues
 
-1. **P1 n° 35** — Supprimer l’article 15 fait aussi tomber la contribution maritime rétablie pour un an : on garde la suppression entière, ou on ne supprime que la contribution des grandes entreprises ?
-2. **PLFSS n° 9** — Les contributions de l’industrie du médicament assises sur l’année 2027 : dues sur la moitié de l’année (appliqué), ou sur l’année entière ?
-3. **Garantie des salaires, unions de professionnels de santé, fonds des victimes de pesticides, fonds handicap de la fonction publique** — leur ressource disparaît et leur mission reste : on les finance par des crédits, ou on supprime la mission avec la ressource ?
-4. **TVA** — La fin des taux réduits : au 1er juillet 2027 comme le disent les exposés des n° 22 et 25, ou en trois marches de 2028 à 2030 comme le dispositif du n° 21 ?
-5. **ANCOLS** — Son prélèvement survit, plafonné à 10 millions et nul sans arrêté : on l’abroge nommément au n° 25, ou ce zéro par défaut suffit ?
-</content>
-</invoke>
+| question | réponse relevée | source |
+|---|---|---|
+| article 15 entier ? | oui : la contribution maritime tombe aussi | « pas de prélèvement nouveau » ; extinction de la contribution exceptionnelle avec les niches (20261103) |
+| moitié d’assiette 2027 ? | oui | consigne du calendrier du 20261103 |
+| missions privées de ressource ? | la dépense passe au vote : crédits du budget général, ou fermeture au P2 n° 25 | exposé du n° 38 ; devenir « fondu dans l’équilibre » du tri |
+| dates de la TVA ? | n° 21 : 1er juillet 2028, 2029, 2030 | calendrier arrêté le 20261005 ; exposés des n° 22 et 25 corrigés |
+| ANCOLS ? | tient par construction | réponse du 20261103 |
+
+## 11. Compteurs au calendrier
+
+Portés au registre de calcul, `livrables/registre_calcul_etatB.md`, § 18 : perte brute en mesure, **−17 Md€ en 2027** (dont 5,2 du n° 35 et 2,0 par mois de juillet à décembre), **−33 Md€ en régime plein**, avant la contrepartie du circuit B. *Relevé sur le tri ; minorant, 27 rangs non chiffrés.*

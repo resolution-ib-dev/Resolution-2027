@@ -7,7 +7,7 @@
 | titre | Impositions locales : dix-huit taxes de plus fondues dans la taxe foncière unique et les grands impôts |
 | véhicule | PLF 2027, première partie, art. add. après l’art. 27 |
 | rangs du tri portés | 282, 289, 293, 295, 302, 303, 311, 314, 320, 321, 322, 312, 370, 372, 371, 374, 379, 369, N8 |
-| gage | majoration de la DGF (collectivités, forme du P1 n° 25, V) ; formule standard de recevabilité (État) ; perte des établissements publics affectataires non gagée, insuffisance déclarée |
+| gage | majoration de la DGF (collectivités, forme du P1 n° 25, V) ; majoration du taux de l’IS (État), variable de solde du circuit B ; perte des établissements publics affectataires non couverte par la forme, déclarée |
 | rattachement | article 34, I, 2° et 3° bis, de la loi organique n° 2001-692 (compensation par la DGF : ressources de l’État ; impositions affectées) |
 | cartes de la carto | aucune : la carto (état du 20260924) ne porte pas de carte pour la refonte des prélèvements |
 
@@ -45,7 +45,7 @@ C. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La perte de recettes pour les collectivités territoriales est compensée, à due concurrence, par la majoration de la dotation globale de fonctionnement. La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+IV. – La perte de recettes pour les collectivités territoriales est compensée, à due concurrence, par la majoration de la dotation globale de fonctionnement. La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -59,7 +59,7 @@ La réforme réunit cinq impôts en une taxe foncière unique, votée par chaque
 
 L’amendement les abroge avec l’entrée en vigueur de la taxe foncière unique, au 1er janvier 2028 : les taxes annuelles sont dues une dernière fois au titre de 2027. Les prélèvements sur les jeux, les taxes sur les remontées mécaniques et les sites nordiques et la participation pour l’assainissement collectif tombent au 1er juillet 2027, avec les autres impositions assises sur une opération. Dit simplement : le propriétaire paie une taxe foncière, l’entreprise son impôt sur les sociétés et la commune répond de son taux devant ses électeurs.
 
-Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la formule de recevabilité d’usage. La fusion s’opère à rendement constant³.
+Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. La fusion s’opère à rendement constant³.
 
 ¹ Code général des impôts, code général des collectivités territoriales, code de l’urbanisme, code des impositions sur les biens et services et code de la santé publique, articles visés au dispositif.
 

@@ -7,7 +7,7 @@
 | titre | Impositions d’État : vingt-sept de plus disparaissent dans les grands impôts, la Caisse des dépôts paie l’impôt sur les sociétés |
 | véhicule | PLF 2027, première partie, art. add. après l’art. 19 |
 | rangs du tri portés | 147, 139, 183, 184, 192, 231, 232, 277, 280, 281, 283, 306, 309, 319, 318, 358, 410, 375, 386, 393, 394, 395, 396, 397, 398, 399, 400, 402 |
-| gage | formule standard de recevabilité, État seulement (taxe additionnelle à l’accise sur les tabacs), postiche déclaré à l’exposé ; perte des affectataires tiers (ANS, CNAM, opérateurs des redevances sanitaires) non gagée, insuffisance déclarée |
+| gage | majoration du taux de l’IS (art. 219 CGI) : variable de solde du circuit B, registre des sources de gage, § V ; perte des affectataires tiers (ANS, CNAM, opérateurs des redevances sanitaires) non couverte par la forme, déclarée |
 | rattachement | article 34, I, 2° et 3° bis, de la loi organique n° 2001-692 (ressources de l’État ; impositions affectées à des tiers) |
 | cartes de la carto | aucune : la carto (état du 20260924) ne porte pas de carte pour la refonte des prélèvements |
 
@@ -51,7 +51,7 @@ D. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 V. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au IV. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-VI. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+VI. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 VII. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -65,13 +65,13 @@ Les codes fiscaux portent, à côté des grands impôts, des dizaines de prélè
 
 L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération, ainsi que les taxes sur les véhicules et les fréquences, dues pour 2027 au seul premier semestre. Les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les articles 14, 25 et 28 du projet, qui modifient ces taxes, appellent une coordination en navette. La Caisse des dépôts acquitte l’impôt sur les sociétés de droit commun pour les exercices ouverts à compter du 1er juillet 2027, au taux unique de la même réforme. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, sans vingt-sept taxes à côté.
 
-Le gage sur l’accise sur les tabacs est la formule de recevabilité d’usage, sans effet attendu. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
 ¹ Code général des impôts, code des impositions sur les biens et services et code monétaire et financier, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, évaluation initiale pour 2026 · projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2.
 
-³ Code des impositions sur les biens et services, livre III, titre Ier, chapitre IV.
+³ Code général des impôts, article 219.
 
 ---
 

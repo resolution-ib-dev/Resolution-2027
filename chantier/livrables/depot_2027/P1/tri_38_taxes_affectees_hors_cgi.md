@@ -7,7 +7,7 @@
 | titre | Taxes affectées : treize de plus supprimées, leur produit voté au budget |
 | véhicule | PLF 2027, première partie, art. add. après l’art. 42 |
 | rangs du tri portés | 125, 126, 129, 201, 381, 389, 390, 415, 170, 207, 373, 385, 411 |
-| gage | formule standard de recevabilité, État seulement, postiche déclaré à l’exposé ; perte des affectataires tiers non gagée, insuffisance déclarée |
+| gage | majoration du taux de l’IS (art. 219 CGI) : variable de solde du circuit B, registre des sources de gage, § V ; perte des affectataires tiers non couverte par la forme, déclarée |
 | rattachement | article 34, I, 3° bis, de la loi organique n° 2001-692 (impositions affectées à une personne morale autre que l’État) |
 | cartes de la carto | aucune : la carto (état du 20260924) ne porte pas de carte pour la refonte des prélèvements |
 
@@ -51,7 +51,7 @@ C. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+IV. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -65,13 +65,13 @@ Une imposition affectée ne figure dans aucun crédit soumis au vote : son prod
 
 L’amendement les abroge au 1er juillet 2027 et les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les missions qu’elles finançaient relèvent, selon leur nature, des crédits du budget général ou des amendements de seconde partie qui ferment les structures facultatives. Dit simplement : ce que finance l’impôt, c’est au Parlement de le décider.
 
-Le gage sur l’accise sur les tabacs est la formule de recevabilité d’usage, sans effet attendu. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
 ¹ Code du travail, code général de la fonction publique, code de la santé publique, code rural et de la pêche maritime, code des transports, code de l’environnement, code forestier, code minier et lois de finances visées au dispositif.
 
 ² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 
-³ Code des impositions sur les biens et services, livre III, titre Ier, chapitre IV.
+³ Code général des impôts, article 219.
 
 ---
 

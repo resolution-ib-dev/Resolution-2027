@@ -7,7 +7,7 @@
 | titre | Contributions sociales : dix-huit impositions fondues dans l’impôt, sans hausse du total |
 | véhicule | PLFSS 2027, art. add. |
 | rangs du tri portés | 70, 95, 99, 127, 143, 151, 152, 153, 154, 155, 156, 178, 194, 195, 284, 365, N6, N7 |
-| gage | insuffisance déclarée : aucune formule arbitrée pour une perte des organismes de sécurité sociale (machine 05, § 2 quater) ; perdants : régimes obligatoires de base et organismes concourant à leur financement (CNAM, CNSA, CNIEG, CNBF) ; formule à relever sur un amendement déposé |
+| gage | majoration du taux des contributions de L. 136-6 et L. 136-7 CSS : forme du circuit B en loi de financement, relevée au PLFSS n° 3, V (frontière de véhicule fermée : l’IS ne gage pas une pièce de financement) |
 | rattachement | article LO 111-3-7, 1° et 2°, du code de la sécurité sociale (recettes et contributions affectées aux régimes obligatoires de base) |
 | cartes de la carto | aucune : la carto (état du 20260924) ne porte pas de carte pour la refonte des prélèvements |
 
@@ -43,7 +43,9 @@ C. – Les contributions dont le fait générateur est antérieur aux dates ment
 
 III. – Les dispositions législatives qui affectent tout ou partie du produit des contributions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+IV. – La perte de recettes pour les organismes de sécurité sociale est compensée, à due concurrence, par la majoration du taux des contributions mentionnées aux articles L. 136-6 et L. 136-7 du code de la sécurité sociale.
+
+V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
@@ -55,11 +57,13 @@ Le code de la sécurité sociale porte, à côté des cotisations, une série de
 
 L’amendement les abroge au 1er juillet 2027. Les contributions assises sur l’année ne sont dues pour 2027 que sur la moitié de leur assiette, sauf celles qui naissent au 1er janvier ou dépendent d’un seuil annuel. Dit simplement : l’entreprise paie l’impôt sur ses bénéfices, le consommateur la TVA, le retraité l’impôt sur le revenu, sans dix-huit contributions à côté.
 
-La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit.
+La perte de recettes pour la sécurité sociale est compensée par la majoration des contributions sur les revenus du patrimoine et des placements, forme de la présente liasse. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
 ¹ Code de la sécurité sociale, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
+
+³ Code de la sécurité sociale, articles L. 136-6 et L. 136-7.
 
 ---
 

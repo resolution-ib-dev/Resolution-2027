@@ -8593,13 +8593,13 @@ site ne sont pas régénérés : aucune publication sans l’auteur.
 
 **Tranché** (tambouille de vérification, révocable). Abroger le VI de L. 253-8-2 CRPM, qui n’est que l’affectation, laissait la taxe ; abroger le seul I de L. 5141-8 CSP laissait la taxe annuelle du II (rang 390). Les deux articles s’abrogent en entier. Corollaire tenu : avant d’écrire « le X de l’article », lire ce que X institue.
 
-### Le gage des amendements du tri : formule standard pour l’État, insuffisance déclarée pour les autres — 20261103
+### Le gage des amendements du tri : circuit B, majoration de l’IS — 20261103
 
-**Tranché**, sur la consigne de l’auteur du 20261103 (« les gages sont circonstanciels, la forme se corrige »). La majoration du taux de l’IS (n° 36 à 38) et celle de l’accise sur les tabacs au profit de la sécurité sociale (PLFSS n° 9) échouent à `69_CONTROLE_doctrine.py` et à la machine 05, § 2 bis et 2 quater. L’État : formule standard, postiche déclaré à l’exposé. Les collectivités : majoration de la DGF, forme du P1 n° 25, V. La sécurité sociale et les affectataires tiers : insuffisance déclarée, perdants nommés. **Écarté** : relever la forme Sécu sur le PLFSS n° 3, V, qui n’est pas un amendement déposé.
+**Tranché** (forme, révocable), sur le registre des sources de gage, § V : une pièce du circuit B (refonte fiscale) se gage sur la majoration de l’impôt sur les sociétés, variable de solde. Les n° 36 à 38 gardent cette forme ; la part des collectivités du n° 37 se gage sur la DGF (forme du P1 n° 25, V) ; le PLFSS n° 9 prend la forme de la liasse de financement (PLFSS n° 3, V : contributions de L. 136-6 et L. 136-7), la frontière de véhicule interdisant l’IS. **Écart connu** : `69_CONTROLE_doctrine.py`, écrit pour la machine livrée aux tiers, ne connaît pas le circuit B et sort en échec sur ces pièces. **Écarté** : la formule tabac, passée un temps par ce fil, qui n’est que le repli (arbitrage du 20261002, mécanique de gage par abrogation). La perte des affectataires tiers n’est pas couverte par la forme : elle se déclare.
 
 ### Date d’une contribution assise sur l’année : moitié de l’assiette 2027 — 20261103
 
-**Proposé** (fond, question 2 de la vérification). Pour les contributions assises sur un montant de l’année civile et sans fait générateur au 1er janvier ni seuil annuel, la suppression au 1er juillet 2027 laisse due, au titre de 2027, la moitié de l’assiette annuelle. Même principe que le prorata des taxes sur les véhicules (P1 n° 36, IV, A). La C3S (fait générateur au 1er janvier) et les contributions à seuil annuel restent dues pour 2027 entier.
+**Validé** par la consigne de l’auteur du 20261103 (« un report sans bonne raison ne tient pas »). Pour les contributions assises sur un montant de l’année civile et sans fait générateur au 1er janvier ni seuil annuel, la suppression au 1er juillet 2027 laisse due, au titre de 2027, la moitié de l’assiette annuelle. Même principe que le prorata des taxes sur les véhicules (P1 n° 36, IV, A). La C3S (fait générateur au 1er janvier) et les contributions à seuil annuel restent dues pour 2027 entier.
 
 ### Une citation « du même code » ne se résout pas mécaniquement — 20261103
 
@@ -8608,3 +8608,13 @@ site ne sont pas régénérés : aucune publication sans l’auteur.
 ### Lecteur de droit : deux versions applicables à la même date — 20261103
 
 **Signal** (appareil partagé, non modifié). `droit.article()` rend la version de date de début la plus récente ; à égalité (1613 quater CGI au 1er janvier 2027 : `MODIFIE_MORT_NE` et `VIGUEUR_DIFF`), il peut rendre la version morte-née. À corriger dans `droit.py` par le fil qui tient le dépôt : écarter `MODIFIE_MORT_NE` d’abord.
+
+### Les questions du fil machine, closes sur les réponses déjà rendues — 20261105
+
+**Validé** (relevé des réponses de l’auteur, « j’ai déjà répondu à tout », 20261105).
+
+- **Article 15 entier** : la contribution maritime rétablie tombe avec lui — « pas de prélèvement nouveau » et extinction de la contribution exceptionnelle avec les niches (20261103, second tour).
+- **Moitié d’assiette 2027** pour les contributions assises sur l’année : consigne du calendrier du 20261103.
+- **Missions privées de leur ressource** (garantie des salaires, unions de professionnels de santé, fonds des victimes de pesticides, fonds handicap de la fonction publique) : le produit est repris par l’impôt et la dépense passe au vote, budget général ou fermeture au P2 n° 25 — « ce que finance l’impôt, c’est au Parlement de le décider », devenir « fondu dans l’équilibre » du tri.
+- **TVA** : calendrier arrêté le 20261005 (P1 n° 21 : 1er juillet 2028, puis 2029 et 2030 pour l’alimentation). Les exposés des n° 22 et 25 sont corrigés : la date du 1er juillet 2027 y est celle du taux unique de l’impôt sur les sociétés.
+- **ANCOLS** : « supprimé par construction » — le montant nul à défaut d’arrêté du n° 25, II, B et l’abrogation de la PEEC suffisent.

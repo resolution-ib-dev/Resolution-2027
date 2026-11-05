@@ -1602,7 +1602,7 @@ Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit 
 
 À côté de l’impôt sur le revenu, de l’impôt sur les sociétés et de la taxe sur la valeur ajoutée, le contribuable acquitte une série de prélèvements de quelques millions à quelques centaines de millions d’euros chacun : contribution sociale sur l’impôt sur les sociétés, taxe sur les excédents de provisions des assureurs, contribution sur les revenus locatifs, taxe sur les transactions financières, taxe sur les rachats d’actions, taxe générale sur les activités polluantes, taxe sur certains services numériques, contribution de sécurité immobilière, droits de timbre sur le passeport, sur la demande de naturalisation ou sur l’attestation d’accueil¹. Chacun a son assiette, ses exonérations, sa déclaration et son contentieux².
 
-La mesure commence le 1er juillet 2027, le jour où les taux réduits de TVA prennent fin. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions et la contribution de sécurité immobilière. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
+La mesure commence le 1er juillet 2027, le jour où l’impôt sur les sociétés passe au taux unique. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions et la contribution de sécurité immobilière. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
 
 La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. L’État cesse d’instruire, de contrôler et de recouvrer vingt et une impositions : c’est l’effet net, que le gage formel ne mesure pas. Vingt et une impositions se fondent dans un impôt unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La clarté de la règle est la première des politesses que l’État doit à tous ses citoyens³. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
@@ -1904,7 +1904,7 @@ Le Parlement vote une enveloppe et jamais son emploi : le produit de ces taxes 
 
 L’amendement les abroge en deux temps, selon leur mécanique. Au 1er juillet 2027 tombent celles qui se perçoivent par opération ou sur les rémunérations versées : culture, centres techniques industriels, transport aérien et maritime, autoroutes, immatriculation des véhicules, déchets, titres, apprentissage, formation², effort de construction, dialogue social, intempéries du bâtiment, versement mobilité. Les taxes annuelles, qui ne se coupent pas en cours d’exercice, sont dues une dernière fois au titre de 2027 : réseaux, installations nucléaires, contrôle bancaire, chambres de commerce, ressources locales, redevances de l’eau, bureaux d’Île-de-France. Dit simplement : une entreprise cesse de verser une dizaine de contributions distinctes et les dépenses qu’elles finançaient se votent au budget.
 
-Chaque date est tenue par un mouvement inverse : au 1er juillet 2027 prennent fin les taux réduits de taxe sur la valeur ajoutée recensés comme dépenses fiscales, au 1er janvier 2028 la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-sept impositions se fondent dans une ressource unique votée, à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Chaque date est tenue par un mouvement inverse : au 1er juillet 2027 l’impôt sur les sociétés passe au taux unique, au 1er janvier 2028 la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-sept impositions se fondent dans une ressource unique votée, à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 
@@ -2610,7 +2610,7 @@ D. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 V. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au IV. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-VI. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+VI. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 VII. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -2624,13 +2624,13 @@ Les codes fiscaux portent, à côté des grands impôts, des dizaines de prélè
 
 L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération, ainsi que les taxes sur les véhicules et les fréquences, dues pour 2027 au seul premier semestre. Les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les articles 14, 25 et 28 du projet, qui modifient ces taxes, appellent une coordination en navette. La Caisse des dépôts acquitte l’impôt sur les sociétés de droit commun pour les exercices ouverts à compter du 1er juillet 2027, au taux unique de la même réforme. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, sans vingt-sept taxes à côté.
 
-Le gage sur l’accise sur les tabacs est la formule de recevabilité d’usage, sans effet attendu. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
 ¹ Code général des impôts, code des impositions sur les biens et services et code monétaire et financier, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, évaluation initiale pour 2026 · projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2.
 
-³ Code des impositions sur les biens et services, livre III, titre Ier, chapitre IV.
+³ Code général des impôts, article 219.
 
 ---
 
@@ -2668,7 +2668,7 @@ C. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La perte de recettes pour les collectivités territoriales est compensée, à due concurrence, par la majoration de la dotation globale de fonctionnement. La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+IV. – La perte de recettes pour les collectivités territoriales est compensée, à due concurrence, par la majoration de la dotation globale de fonctionnement. La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -2682,7 +2682,7 @@ La réforme réunit cinq impôts en une taxe foncière unique, votée par chaque
 
 L’amendement les abroge avec l’entrée en vigueur de la taxe foncière unique, au 1er janvier 2028 : les taxes annuelles sont dues une dernière fois au titre de 2027. Les prélèvements sur les jeux, les taxes sur les remontées mécaniques et les sites nordiques et la participation pour l’assainissement collectif tombent au 1er juillet 2027, avec les autres impositions assises sur une opération. Dit simplement : le propriétaire paie une taxe foncière, l’entreprise son impôt sur les sociétés et la commune répond de son taux devant ses électeurs.
 
-Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la formule de recevabilité d’usage. La fusion s’opère à rendement constant³.
+Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. La fusion s’opère à rendement constant³.
 
 ¹ Code général des impôts, code général des collectivités territoriales, code de l’urbanisme, code des impositions sur les biens et services et code de la santé publique, articles visés au dispositif.
 
@@ -2732,7 +2732,7 @@ C. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+IV. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -2746,12 +2746,12 @@ Une imposition affectée ne figure dans aucun crédit soumis au vote : son prod
 
 L’amendement les abroge au 1er juillet 2027 et les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les missions qu’elles finançaient relèvent, selon leur nature, des crédits du budget général ou des amendements de seconde partie qui ferment les structures facultatives. Dit simplement : ce que finance l’impôt, c’est au Parlement de le décider.
 
-Le gage sur l’accise sur les tabacs est la formule de recevabilité d’usage, sans effet attendu. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
 ¹ Code du travail, code général de la fonction publique, code de la santé publique, code rural et de la pêche maritime, code des transports, code de l’environnement, code forestier, code minier et lois de finances visées au dispositif.
 
 ² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 
-³ Code des impositions sur les biens et services, livre III, titre Ier, chapitre IV.
+³ Code général des impôts, article 219.
 
 ---

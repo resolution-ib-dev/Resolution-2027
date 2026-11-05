@@ -62,7 +62,7 @@ D. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 V. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au IV. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-VI. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+VI. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 VII. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.""",
 expose="""Cet amendement supprime vingt-sept impositions de l’État et soumet la Caisse des dépôts à l’impôt.
@@ -73,14 +73,14 @@ Les codes fiscaux portent, à côté des grands impôts, des dizaines de prélè
 
 L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération, ainsi que les taxes sur les véhicules et les fréquences, dues pour 2027 au seul premier semestre. Les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les articles 14, 25 et 28 du projet, qui modifient ces taxes, appellent une coordination en navette. La Caisse des dépôts acquitte l’impôt sur les sociétés de droit commun pour les exercices ouverts à compter du 1er juillet 2027, au taux unique de la même réforme. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, sans vingt-sept taxes à côté.
 
-Le gage sur l’accise sur les tabacs est la formule de recevabilité d’usage, sans effet attendu. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
 ¹ Code général des impôts, code des impositions sur les biens et services et code monétaire et financier, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, évaluation initiale pour 2026 · projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2.
 
-³ Code des impositions sur les biens et services, livre III, titre Ier, chapitre IV.""",
-gage='formule standard de recevabilité, État seulement (taxe additionnelle à l’accise sur les tabacs), postiche déclaré à l’exposé ; perte des affectataires tiers (ANS, CNAM, opérateurs des redevances sanitaires) non gagée, insuffisance déclarée',
+³ Code général des impôts, article 219.""",
+gage='majoration du taux de l’IS (art. 219 CGI) : variable de solde du circuit B, registre des sources de gage, § V ; perte des affectataires tiers (ANS, CNAM, opérateurs des redevances sanitaires) non couverte par la forme, déclarée',
 lolf='article 34, I, 2° et 3° bis, de la loi organique n° 2001-692 (ressources de l’État ; impositions affectées à des tiers)',
 rangs=[147,139,183,184,192,231,232,277,280,281,283,306,309,319,318,358,410,375,386,393,394,395,396,397,398,399,400,402],
 ))
@@ -113,7 +113,7 @@ C. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La perte de recettes pour les collectivités territoriales est compensée, à due concurrence, par la majoration de la dotation globale de fonctionnement. La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+IV. – La perte de recettes pour les collectivités territoriales est compensée, à due concurrence, par la majoration de la dotation globale de fonctionnement. La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.""",
 expose="""Cet amendement supprime dix-huit impositions locales qui subsistaient à côté de la taxe foncière unique.
@@ -124,14 +124,14 @@ La réforme réunit cinq impôts en une taxe foncière unique, votée par chaque
 
 L’amendement les abroge avec l’entrée en vigueur de la taxe foncière unique, au 1er janvier 2028 : les taxes annuelles sont dues une dernière fois au titre de 2027. Les prélèvements sur les jeux, les taxes sur les remontées mécaniques et les sites nordiques et la participation pour l’assainissement collectif tombent au 1er juillet 2027, avec les autres impositions assises sur une opération. Dit simplement : le propriétaire paie une taxe foncière, l’entreprise son impôt sur les sociétés et la commune répond de son taux devant ses électeurs.
 
-Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la formule de recevabilité d’usage. La fusion s’opère à rendement constant³.
+Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. La fusion s’opère à rendement constant³.
 
 ¹ Code général des impôts, code général des collectivités territoriales, code de l’urbanisme, code des impositions sur les biens et services et code de la santé publique, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 
 ³ Code général des collectivités territoriales, article L. 1613-1.""",
-gage='majoration de la DGF (collectivités, forme du P1 n° 25, V) ; formule standard de recevabilité (État) ; perte des établissements publics affectataires non gagée, insuffisance déclarée',
+gage='majoration de la DGF (collectivités, forme du P1 n° 25, V) ; majoration du taux de l’IS (État), variable de solde du circuit B ; perte des établissements publics affectataires non couverte par la forme, déclarée',
 lolf='article 34, I, 2° et 3° bis, de la loi organique n° 2001-692 (compensation par la DGF : ressources de l’État ; impositions affectées)',
 rangs=[282,289,293,295,302,303,311,314,320,321,322,312,370,372,371,374,379,369,'N8'],
 ))
@@ -170,7 +170,7 @@ C. – Les impositions dont le fait générateur est antérieur aux dates mentio
 
 III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.
+IV. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.""",
 expose="""Cet amendement supprime treize impositions affectées régies hors du code général des impôts.
@@ -181,14 +181,14 @@ Une imposition affectée ne figure dans aucun crédit soumis au vote : son produ
 
 L’amendement les abroge au 1er juillet 2027 et les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les missions qu’elles finançaient relèvent, selon leur nature, des crédits du budget général ou des amendements de seconde partie qui ferment les structures facultatives. Dit simplement : ce que finance l’impôt, c’est au Parlement de le décider.
 
-Le gage sur l’accise sur les tabacs est la formule de recevabilité d’usage, sans effet attendu. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
 ¹ Code du travail, code général de la fonction publique, code de la santé publique, code rural et de la pêche maritime, code des transports, code de l’environnement, code forestier, code minier et lois de finances visées au dispositif.
 
 ² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 
-³ Code des impositions sur les biens et services, livre III, titre Ier, chapitre IV.""",
-gage='formule standard de recevabilité, État seulement, postiche déclaré à l’exposé ; perte des affectataires tiers non gagée, insuffisance déclarée',
+³ Code général des impôts, article 219.""",
+gage='majoration du taux de l’IS (art. 219 CGI) : variable de solde du circuit B, registre des sources de gage, § V ; perte des affectataires tiers non couverte par la forme, déclarée',
 lolf='article 34, I, 3° bis, de la loi organique n° 2001-692 (impositions affectées à une personne morale autre que l’État)',
 rangs=[125,126,129,201,381,389,390,415,170,207,373,385,411],
 ))
@@ -219,7 +219,9 @@ C. – Les contributions dont le fait générateur est antérieur aux dates ment
 
 III. – Les dispositions législatives qui affectent tout ou partie du produit des contributions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
 
-IV. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.""",
+IV. – La perte de recettes pour les organismes de sécurité sociale est compensée, à due concurrence, par la majoration du taux des contributions mentionnées aux articles L. 136-6 et L. 136-7 du code de la sécurité sociale.
+
+V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.""",
 expose="""Cet amendement supprime dix-huit contributions affectées à la sécurité sociale, fondues dans les grands impôts.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
@@ -228,12 +230,14 @@ Le code de la sécurité sociale porte, à côté des cotisations, une série de
 
 L’amendement les abroge au 1er juillet 2027. Les contributions assises sur l’année ne sont dues pour 2027 que sur la moitié de leur assiette, sauf celles qui naissent au 1er janvier ou dépendent d’un seuil annuel. Dit simplement : l’entreprise paie l’impôt sur ses bénéfices, le consommateur la TVA, le retraité l’impôt sur le revenu, sans dix-huit contributions à côté.
 
-La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit.
+La perte de recettes pour la sécurité sociale est compensée par la majoration des contributions sur les revenus du patrimoine et des placements, forme de la présente liasse. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
 ¹ Code de la sécurité sociale, articles visés au dispositif.
 
-² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».""",
-gage='insuffisance déclarée : aucune formule arbitrée pour une perte des organismes de sécurité sociale (machine 05, § 2 quater) ; perdants : régimes obligatoires de base et organismes concourant à leur financement (CNAM, CNSA, CNIEG, CNBF) ; formule à relever sur un amendement déposé',
+² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
+
+³ Code de la sécurité sociale, articles L. 136-6 et L. 136-7.""",
+gage='majoration du taux des contributions de L. 136-6 et L. 136-7 CSS : forme du circuit B en loi de financement, relevée au PLFSS n° 3, V (frontière de véhicule fermée : l’IS ne gage pas une pièce de financement)',
 lolf='article LO 111-3-7, 1° et 2°, du code de la sécurité sociale (recettes et contributions affectées aux régimes obligatoires de base)',
 rangs=[70,95,99,127,143,151,152,153,154,155,156,178,194,195,284,365,'N6','N7'],
 ))

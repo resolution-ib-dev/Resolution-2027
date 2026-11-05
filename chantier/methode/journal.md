@@ -6078,3 +6078,18 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - Textes hors dépôt : code forestier, code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486.
 - Hors mandat : retirer le 8° du III du PLFSS n° 1 et le visa L. 421-78-1 du P1 n° 1 ; aligner la formule de date du n° 29 sur la taxe d’aménagement.
 - Rien n’est poussé : la branche `claude/machine-tri-porte-verif` vit au sas du coffre.
+
+## 20261105 — fil machine, questions closes et compteurs
+
+## Ce qui a changé au corpus
+
+- Questions du fil machine closes sur les réponses déjà rendues (registre, entrée du 20261105).
+- Gages des n° 36 à 38 rétablis sur la majoration de l’IS (circuit B, registre des sources de gage) ; PLFSS n° 9 sur la forme de la liasse de financement (L. 136-6 et L. 136-7). Les cinq pièces inscrites au registre des sources de gage.
+- Exposés des n° 22 et 25 : le 1er juillet 2027 y devient la date du taux unique de l’IS ; le calendrier de la TVA est celui du n° 21.
+- Compteurs : `livrables/registre_calcul_etatB.md`, § 18.
+
+## Ce qui reste ouvert
+
+- Textes hors dépôt de droit à ajouter à `codes.json` : code forestier, code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486.
+- Hors lot VI : retirer le 8° du III du PLFSS n° 1 et le visa L. 421-78-1 du P1 n° 1 ; aligner la formule de date du n° 29 sur la taxe d’aménagement ; `69_CONTROLE_doctrine.py` à rendre conscient du circuit B ; `droit.py` à faire passer `MODIFIE_MORT_NE` après `VIGUEUR_DIFF`.
+- Millésime des rendements : prévision 2026 au tri, 2027 en attente.
