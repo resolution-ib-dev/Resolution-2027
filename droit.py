@@ -148,7 +148,10 @@ def article(code, num, jour=None, tout=False):
         etats = ", ".join(sorted({a.get("etat", "?") for a in trouves}))
         raise LookupError(f"{code}, article {num} : aucune version applicable au {jour} "
                           f"(états portés : {etats}). Ne pas rédiger dessus.")
-    vivants.sort(key=lambda a: a.get("date_debut", ""), reverse=True)
+    # À date de début égale, une version MODIFIE_MORT_NE (modification
+    # annulée avant d'entrer en vigueur) passe après toute autre.
+    vivants.sort(key=lambda a: (a.get("date_debut", ""), a.get("etat") != "MODIFIE_MORT_NE"),
+                 reverse=True)
     return vivants[0]
 
 
