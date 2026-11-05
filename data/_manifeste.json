@@ -1,7 +1,7 @@
 {
-  "millesime_legi": "20261031",
-  "jour_de_reference": "2026-11-01",
-  "archives": 483,
+  "millesime_legi": "20261104",
+  "jour_de_reference": "2026-11-05",
+  "archives": 487,
   "archive": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/Freemium_legi_global_20250713-140000.tar.gz",
   "plancher_historique": "2025-01-01",
   "extrait_le": "",
@@ -9,8 +9,8 @@
     "code général des impôts": {
       "fichier": "cgi.jsonl.gz",
       "articles": 3485,
-      "octets": 2433820,
-      "sha256": "893132a3533ef58d4cfeb8378d8a65be01d27930cae47612eef4ba721c19d5fc",
+      "octets": 2433818,
+      "sha256": "4d05d7698b11dc3fea9fdd1f5de6adb9c380fe9b98480b7027ff71f4d0e99ecf",
       "court": "cgi",
       "applicables": 2410,
       "a_venir": 226,
@@ -44,8 +44,8 @@
     "code des impositions sur les biens et services": {
       "fichier": "cibs.jsonl.gz",
       "articles": 4521,
-      "octets": 613736,
-      "sha256": "37b0b55b80d0ec2985c3ceeaa4292bbdf9567a6e82adc7925f00ef7d7ff55720",
+      "octets": 613745,
+      "sha256": "fe8b269f895e20cd9b68db8e25cbaa3d701c996ebb90db966e959b791f54c063",
       "court": "cibs",
       "applicables": 1790,
       "a_venir": 1441,
@@ -53,11 +53,11 @@
       "historiques": 1290,
       "etats": {
         "VIGUEUR": 1501,
-        "ABROGE_DIFF": 282,
-        "MODIFIE": 227,
+        "ABROGE_DIFF": 283,
+        "MODIFIE": 222,
         "ABROGE": 19,
-        "VIGUEUR_DIFF": 1380,
-        "MODIFIE_MORT_NE": 1088,
+        "VIGUEUR_DIFF": 1379,
+        "MODIFIE_MORT_NE": 1093,
         "TRANSFERE": 24
       },
       "temoin": "L313-20",
@@ -77,23 +77,23 @@
     },
     "code de la sécurité sociale": {
       "fichier": "css.jsonl.gz",
-      "articles": 8549,
-      "octets": 2835130,
-      "sha256": "0613104b8a3d9320ba1790e3f78481489fc7fcde8529f9869400865b0d0c8c0a",
+      "articles": 8578,
+      "octets": 2844288,
+      "sha256": "1773265f55b3aadf603af64b5a723fe6a527d578b593bbef16a73fb14462175a",
       "court": "css",
-      "applicables": 7434,
+      "applicables": 7421,
       "a_venir": 139,
-      "fin_programmee": 76,
-      "historiques": 976,
+      "fin_programmee": 79,
+      "historiques": 1018,
       "etats": {
-        "VIGUEUR": 7346,
-        "ABROGE": 83,
-        "ABROGE_DIFF": 77,
-        "MODIFIE": 854,
+        "VIGUEUR": 7336,
+        "ABROGE": 97,
+        "ABROGE_DIFF": 79,
+        "MODIFIE": 883,
         "TRANSFERE": 21,
-        "INCONNU": 9,
+        "INCONNU": 4,
         "MODIFIE_MORT_NE": 24,
-        "VIGUEUR_DIFF": 135
+        "VIGUEUR_DIFF": 134
       },
       "temoin": "L136-8",
       "exemples_applicables": [
@@ -108,13 +108,13 @@
         "A931-1-6",
         "A931-1-7"
       ],
-      "sections_rattachees": 8549
+      "sections_rattachees": 8578
     },
     "code général des collectivités territoriales": {
       "fichier": "cgct.jsonl.gz",
       "articles": 7919,
-      "octets": 2007510,
-      "sha256": "1faec1fbb1b6f039e05605900d5b0f11525d37e00efc3520ba9ebb76af10b5d8",
+      "octets": 2007511,
+      "sha256": "9125aaa90dbd9987db6273f057c34b09e5e26544433b886a74e2de709263e8b4",
       "court": "cgct",
       "applicables": 6608,
       "a_venir": 103,
@@ -147,8 +147,8 @@
     "code du travail": {
       "fichier": "travail.jsonl.gz",
       "articles": 12146,
-      "octets": 2329815,
-      "sha256": "b79f7a654ba2d5a9e5309309c35fe8c9ac083cf08ca244d167398f1d881d32c8",
+      "octets": 2329727,
+      "sha256": "98d1cd24f8540b3a0ef30ec41fca07db8e6211bd188c196936402f182dee7eb6",
       "court": "travail",
       "applicables": 11596,
       "a_venir": 91,
@@ -284,19 +284,20 @@
     "code civil": {
       "fichier": "civil.jsonl.gz",
       "articles": 2922,
-      "octets": 396413,
-      "sha256": "d8ed9169c3c8aa9a7ec80e7c7778aff46719e662a97bc928c56deaef58cba0d6",
+      "octets": 396486,
+      "sha256": "b1af4dbbe7cb1fc43a0060a078b8578534597a65e6ab8b0f6c294322d3d265e9",
       "court": "civil",
-      "applicables": 2899,
-      "a_venir": 4,
+      "applicables": 2898,
+      "a_venir": 5,
       "fin_programmee": 3,
       "historiques": 19,
       "etats": {
-        "VIGUEUR": 2896,
+        "VIGUEUR": 2895,
         "ABROGE_DIFF": 3,
         "MODIFIE": 17,
         "ABROGE": 2,
-        "VIGUEUR_DIFF": 4
+        "VIGUEUR_DIFF": 4,
+        "INCONNU": 1
       },
       "temoin": "544",
       "exemples_applicables": [
@@ -347,8 +348,8 @@
     "code monétaire et financier": {
       "fichier": "monetaire.jsonl.gz",
       "articles": 6218,
-      "octets": 1979316,
-      "sha256": "720aa053c0612d02c90b5b5e2d6619db838902fa29b594cfd0bc153261805f5e",
+      "octets": 1979394,
+      "sha256": "76aeb337caa20eba1e15e2f044d5e137c66e977ced591865287f8a8fc681f583",
       "court": "monetaire",
       "applicables": 5314,
       "a_venir": 143,
@@ -548,16 +549,16 @@
     },
     "code des transports": {
       "fichier": "transports.jsonl.gz",
-      "articles": 10085,
-      "octets": 2242955,
-      "sha256": "dd3a34e34c5cd1e76e69b7453587ab958a3743b433b57e09854e04bf0e0d9a3f",
+      "articles": 10086,
+      "octets": 2243191,
+      "sha256": "ec97b98ef6c703d2fe92c38edc624925369a389758a333e034a27a44f0a3e9b6",
       "court": "transports",
-      "applicables": 9274,
+      "applicables": 9275,
       "a_venir": 104,
       "fin_programmee": 95,
       "historiques": 707,
       "etats": {
-        "VIGUEUR": 9177,
+        "VIGUEUR": 9178,
         "ABROGE_DIFF": 95,
         "ABROGE": 85,
         "MODIFIE": 613,
@@ -579,7 +580,7 @@
         "A2271-17",
         "A2271-18"
       ],
-      "sections_rattachees": 10085
+      "sections_rattachees": 10086
     },
     "code de la défense": {
       "fichier": "defense.jsonl.gz",
@@ -616,20 +617,20 @@
     },
     "code de l'énergie": {
       "fichier": "energie.jsonl.gz",
-      "articles": 3738,
-      "octets": 1019662,
-      "sha256": "e19e99c219f731dca98bbdcfa765ddf92224e0d12cd5a2775c7b1e62dcda2146",
+      "articles": 3754,
+      "octets": 1024732,
+      "sha256": "9e64f86713f058abb6790f2ca3bb75890ae0940b78d6e75e1f4962e3bf7c2c7d",
       "court": "energie",
       "applicables": 3234,
       "a_venir": 9,
       "fin_programmee": 7,
-      "historiques": 495,
+      "historiques": 511,
       "etats": {
         "VIGUEUR": 3225,
-        "MODIFIE": 297,
+        "MODIFIE": 300,
         "ABROGE": 194,
         "ABROGE_DIFF": 7,
-        "TRANSFERE": 3,
+        "TRANSFERE": 16,
         "VIGUEUR_DIFF": 8,
         "MODIFIE_MORT_NE": 4
       },
@@ -646,7 +647,7 @@
         "D111-20",
         "D111-21"
       ],
-      "sections_rattachees": 3738
+      "sections_rattachees": 3754
     },
     "code des douanes": {
       "fichier": "douanes.jsonl.gz",
@@ -685,8 +686,8 @@
     "loi n° 2025-127 du 14 février 2025": {
       "fichier": "loi2025_127.jsonl.gz",
       "articles": 255,
-      "octets": 158746,
-      "sha256": "10578c5d23af318b380c7f9f53da5899c4dfb86b2cc55b2bffc364636ab3b29c",
+      "octets": 158762,
+      "sha256": "1392483dfe029dc06597945240a64090b7ca0fe2ffabde73bf15fe2ff43a5975",
       "court": "loi2025_127",
       "applicables": 146,
       "a_venir": 59,
@@ -718,8 +719,8 @@
     "code de la santé publique": {
       "fichier": "sante.jsonl.gz",
       "articles": 14983,
-      "octets": 3734825,
-      "sha256": "b8275440be67dd452960bcf0019e20093de5fc8f8be4b08725851afaf3117c8d",
+      "octets": 3734861,
+      "sha256": "0cc6a09a17c271780fcc8d9825b2bac929bcb8e50937d4f61d40442c910a823e",
       "court": "sante",
       "applicables": 13675,
       "a_venir": 136,
@@ -815,8 +816,8 @@
     "loi n° 2019-1479 du 28 décembre 2019": {
       "fichier": "loi2019_1479.jsonl.gz",
       "articles": 294,
-      "octets": 132373,
-      "sha256": "7ddc74609152030947615823d8c3718776a30e39ee2971346b1399737c7d0ef9",
+      "octets": 132298,
+      "sha256": "26c6890ef8a9315be726e65bf138e0623a04306c98c0ceb76513f168e6bc8b88",
       "court": "loi2019_1479",
       "applicables": 186,
       "a_venir": 95,
@@ -1163,18 +1164,18 @@
     },
     "code rural et de la pêche maritime": {
       "fichier": "rural.jsonl.gz",
-      "articles": 11380,
-      "octets": 2911843,
-      "sha256": "fdeff34cf948abd16f66b98caeaceb627a456479dbeab487dff9170f40f50205",
+      "articles": 11381,
+      "octets": 2912257,
+      "sha256": "307106c17fab0aa7be37bb7c21560073f33fcd7c89f463315ed5a3456f88cd4b",
       "court": "rural",
       "applicables": 9826,
       "a_venir": 112,
       "fin_programmee": 90,
-      "historiques": 1442,
+      "historiques": 1443,
       "etats": {
         "VIGUEUR": 9736,
         "MODIFIE_MORT_NE": 22,
-        "MODIFIE": 973,
+        "MODIFIE": 974,
         "ABROGE_DIFF": 90,
         "ABROGE": 369,
         "INCONNU": 1,
@@ -1194,7 +1195,7 @@
         "Annexe III",
         "Annexe III aux articles R236-7 à R236-18"
       ],
-      "sections_rattachees": 11380
+      "sections_rattachees": 11381
     },
     "loi n° 2021-1900 du 30 décembre 2021": {
       "fichier": "loi2021_1900.jsonl.gz",
@@ -1694,8 +1695,8 @@
     "loi n° 93-859 du 22 juin 1993": {
       "fichier": "loi93_859.jsonl.gz",
       "articles": 32,
-      "octets": 4161,
-      "sha256": "dfdbec652086c210982f93188ff7388d9bff844d2d5ce50cc95ad33c6cb50f29",
+      "octets": 4157,
+      "sha256": "f2dbf05848ffadb671d72619c3ffcf0fce920cb569176a0ca795452213f066bb",
       "court": "loi93_859",
       "applicables": 18,
       "a_venir": 13,
@@ -1784,18 +1785,18 @@
     },
     "code du cinéma et de l'image animée": {
       "fichier": "cinema.jsonl.gz",
-      "articles": 2318,
-      "octets": 499662,
-      "sha256": "6b568c0d0c2456ed56340166f991e462061248cceb59908cac27925bb0bdba5e",
+      "articles": 2321,
+      "octets": 501078,
+      "sha256": "41acea61e5a5eb9ac5d2ec6b57cae76bd124c26b7fd646324e51190efcdab5e5",
       "court": "cinema",
-      "applicables": 2063,
+      "applicables": 2064,
       "a_venir": 5,
       "fin_programmee": 7,
-      "historiques": 250,
+      "historiques": 252,
       "etats": {
-        "VIGUEUR": 2056,
+        "VIGUEUR": 2057,
         "ABROGE_DIFF": 7,
-        "MODIFIE": 208,
+        "MODIFIE": 210,
         "ABROGE": 41,
         "MODIFIE_MORT_NE": 1,
         "VIGUEUR_DIFF": 5
@@ -1813,7 +1814,7 @@
         "121-3",
         "121-4"
       ],
-      "sections_rattachees": 2318
+      "sections_rattachees": 2321
     },
     "loi organique n° 2001-692 du 1er août 2001": {
       "fichier": "loi_org2001_692.jsonl.gz",
@@ -2126,18 +2127,18 @@
     },
     "code des pensions civiles et militaires de retraite": {
       "fichier": "pensions.jsonl.gz",
-      "articles": 288,
-      "octets": 87037,
-      "sha256": "eb96b55b17ed3532da282cfffd65dba84f4f091ec2e61857fc7baa029190c8dc",
+      "articles": 291,
+      "octets": 87528,
+      "sha256": "774e2977d403c0e78a373c405d353ea8f7f639dc88237a167cb8ff801fe75cba",
       "court": "pensions",
-      "applicables": 262,
+      "applicables": 264,
       "a_venir": 1,
-      "fin_programmee": 2,
-      "historiques": 25,
+      "fin_programmee": 3,
+      "historiques": 26,
       "etats": {
-        "VIGUEUR": 260,
-        "MODIFIE": 25,
-        "ABROGE_DIFF": 2,
+        "VIGUEUR": 261,
+        "MODIFIE": 26,
+        "ABROGE_DIFF": 3,
         "VIGUEUR_DIFF": 1
       },
       "temoin": "D3",
@@ -2153,7 +2154,7 @@
         "D16-1",
         "D16-2"
       ],
-      "sections_rattachees": 288
+      "sections_rattachees": 291
     },
     "loi n° 2000-321 du 12 avril 2000 relative aux droits des citoyens dans leurs relations avec les administrations": {
       "fichier": "dcra.jsonl.gz",
@@ -2215,8 +2216,8 @@
     "ordonnance n° 2025-1247 du 17 décembre 2025": {
       "fichier": "tva2025.jsonl.gz",
       "articles": 1066,
-      "octets": 165110,
-      "sha256": "2bad6624a3c69c2f5b36beba7ed437481dfd31fe26cf1d65d81a63525abd7112",
+      "octets": 165112,
+      "sha256": "3f71f6152806649455596ffdc45552018a298d03b77481162eb5f65e577a4f87",
       "court": "tva2025",
       "applicables": 1020,
       "a_venir": 42,
@@ -2344,8 +2345,8 @@
     "code pénal": {
       "fichier": "cp.jsonl.gz",
       "articles": 1479,
-      "octets": 267699,
-      "sha256": "1b12f6fa627b4e5b7f2c8f73cc1c4a7860ea6276703017df55b85348eb840ee5",
+      "octets": 267703,
+      "sha256": "a1270d0d5900c185d5c907950b251f5ef4cae266e1505a8661034897d4c7fbd5",
       "court": "cp",
       "applicables": 1301,
       "a_venir": 84,
@@ -2472,6 +2473,220 @@
         "D112-15"
       ],
       "sections_rattachees": 704
+    },
+    "code forestier": {
+      "fichier": "forestier.jsonl.gz",
+      "articles": 0,
+      "octets": 41,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "court": "forestier",
+      "applicables": 0,
+      "a_venir": 0,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {},
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [],
+      "sections_rattachees": 0
+    },
+    "code minier": {
+      "fichier": "minier.jsonl.gz",
+      "articles": 167,
+      "octets": 34626,
+      "sha256": "1e15c92279b1945f3b429ecb7cae2ac883c234961cc7f67cc987347694a9b48b",
+      "court": "minier",
+      "applicables": 167,
+      "a_venir": 0,
+      "fin_programmee": 38,
+      "historiques": 0,
+      "etats": {
+        "ABROGE_DIFF": 38,
+        "VIGUEUR": 129
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "109-1",
+        "141",
+        "146",
+        "148",
+        "211-1",
+        "211-2",
+        "211-3",
+        "211-4",
+        "211-5",
+        "218-1"
+      ],
+      "sections_rattachees": 167
+    },
+    "loi n° 72-657 du 13 juillet 1972": {
+      "fichier": "loi72_657.jsonl.gz",
+      "articles": 6,
+      "octets": 3169,
+      "sha256": "e2bf6748cb469a721e4b1d12d4450ec860411707626cc9f18b8f0fa30a26eba7",
+      "court": "loi72_657",
+      "applicables": 6,
+      "a_venir": 0,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {
+        "VIGUEUR": 6
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "20",
+        "21",
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "sections_rattachees": 6
+    },
+    "loi n° 2003-1312 du 30 décembre 2003": {
+      "fichier": "loi2003_1312.jsonl.gz",
+      "articles": 97,
+      "octets": 12280,
+      "sha256": "d19ad78e06369f82963cd1137c9574a2fa8a35c4dc9477453c802cebbf273708",
+      "court": "loi2003_1312",
+      "applicables": 63,
+      "a_venir": 34,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {
+        "VIGUEUR": 63,
+        "INCONNU": 34
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "1",
+        "10",
+        "101",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "sections_rattachees": 97
+    },
+    "loi n° 2004-803 du 9 août 2004": {
+      "fichier": "loi2004_803.jsonl.gz",
+      "articles": 35,
+      "octets": 12431,
+      "sha256": "2b66a011da40e95945f678a5a51c3cdd95601978258d2387842f072867fb3dbd",
+      "court": "loi2004_803",
+      "applicables": 18,
+      "a_venir": 17,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {
+        "INCONNU": 17,
+        "VIGUEUR": 18
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "10",
+        "12",
+        "14",
+        "15-1",
+        "16",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22"
+      ],
+      "sections_rattachees": 35
+    },
+    "loi n° 2006-1666 du 21 décembre 2006": {
+      "fichier": "loi2006_1666.jsonl.gz",
+      "articles": 146,
+      "octets": 15388,
+      "sha256": "0779076a255bf0d5a993a4e30d53d57c57cdd11317f9be716ca68331bd6aee18",
+      "court": "loi2006_1666",
+      "applicables": 67,
+      "a_venir": 79,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {
+        "VIGUEUR": 67,
+        "INCONNU": 79
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "1",
+        "10",
+        "101",
+        "104",
+        "107",
+        "112",
+        "115",
+        "118",
+        "12",
+        "122"
+      ],
+      "sections_rattachees": 146
+    },
+    "loi n° 2010-1658 du 29 décembre 2010": {
+      "fichier": "loi2010_1658.jsonl.gz",
+      "articles": 108,
+      "octets": 42251,
+      "sha256": "98a7d739c2f4907a6f2e9da8404651f36e162a7b1ae379f231b60afbed59546e",
+      "court": "loi2010_1658",
+      "applicables": 61,
+      "a_venir": 46,
+      "fin_programmee": 0,
+      "historiques": 1,
+      "etats": {
+        "VIGUEUR": 61,
+        "INCONNU": 46,
+        "ABROGE": 1
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "1",
+        "100",
+        "102",
+        "103",
+        "104",
+        "105",
+        "12",
+        "13",
+        "16",
+        "17"
+      ],
+      "sections_rattachees": 108
+    },
+    "loi n° 2019-486 du 22 mai 2019": {
+      "fichier": "loi2019_486.jsonl.gz",
+      "articles": 221,
+      "octets": 46489,
+      "sha256": "d3c8aafef54f7b03bc5f714a3d5d39791ea61b7dd019cd4f8ee4591e0c297a7f",
+      "court": "loi2019_486",
+      "applicables": 104,
+      "a_venir": 117,
+      "fin_programmee": 0,
+      "historiques": 0,
+      "etats": {
+        "VIGUEUR": 104,
+        "INCONNU": 117
+      },
+      "temoin": "NON ÉPINGLÉ",
+      "exemples_applicables": [
+        "1",
+        "100",
+        "103",
+        "104",
+        "105",
+        "106",
+        "11",
+        "116",
+        "117",
+        "118"
+      ],
+      "sections_rattachees": 221
     }
   },
   "non_verses": {},
