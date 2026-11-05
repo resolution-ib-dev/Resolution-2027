@@ -2,7 +2,7 @@
 
 Résolution — octobre 2026
 
-Trente-quatre amendements de première partie, répartis en cinq lots. La numérotation va de 1 à 34.
+Trente-huit amendements de première partie, répartis en six lots. La numérotation va de 1 à 38.
 
 ---
 
@@ -64,6 +64,15 @@ Trente-quatre amendements de première partie, répartis en cinq lots. La numér
 | 32 | art. add. après l’art. 34 | Départements et régions : les compétences retirées, le financement retiré d’autant |
 | 33 | art. add. après l’art. 34 | Dotation forfaitaire : remplacée par l’impôt que la commune vote elle-même |
 | 34 | article 36 | TVA des collectivités : plafonnée au coût de leurs compétences |
+
+## Lot VI : Prélèvements remplacés ou fondus
+
+| n° | article visé | objet |
+|---|---|---|
+| 35 | article 15 | Contribution exceptionnelle : pas de troisième exercice, le bénéfice imposé au taux unique |
+| 36 | art. add. après l’art. 19 | Impositions d’État : vingt-sept de plus disparaissent dans les grands impôts, la Caisse des dépôts paie l’impôt sur les sociétés |
+| 37 | art. add. après l’art. 27 | Impositions locales : dix-huit taxes de plus fondues dans la taxe foncière unique et les grands impôts |
+| 38 | art. add. après l’art. 42 | Taxes affectées : treize de plus supprimées, leur produit voté au budget |
 
 ---
 
@@ -1593,7 +1602,7 @@ Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit 
 
 À côté de l’impôt sur le revenu, de l’impôt sur les sociétés et de la taxe sur la valeur ajoutée, le contribuable acquitte une série de prélèvements de quelques millions à quelques centaines de millions d’euros chacun : contribution sociale sur l’impôt sur les sociétés, taxe sur les excédents de provisions des assureurs, contribution sur les revenus locatifs, taxe sur les transactions financières, taxe sur les rachats d’actions, taxe générale sur les activités polluantes, taxe sur certains services numériques, contribution de sécurité immobilière, droits de timbre sur le passeport, sur la demande de naturalisation ou sur l’attestation d’accueil¹. Chacun a son assiette, ses exonérations, sa déclaration et son contentieux².
 
-La mesure commence le 1er juillet 2027, le jour où les taux réduits de TVA prennent fin. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions et la contribution de sécurité immobilière. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
+La mesure commence le 1er juillet 2027, le jour où l’impôt sur les sociétés passe au taux unique. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions et la contribution de sécurité immobilière. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
 
 La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. L’État cesse d’instruire, de contrôler et de recouvrer vingt et une impositions : c’est l’effet net, que le gage formel ne mesure pas. Vingt et une impositions se fondent dans un impôt unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La clarté de la règle est la première des politesses que l’État doit à tous ses citoyens³. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
@@ -1895,7 +1904,7 @@ Le Parlement vote une enveloppe et jamais son emploi : le produit de ces taxes 
 
 L’amendement les abroge en deux temps, selon leur mécanique. Au 1er juillet 2027 tombent celles qui se perçoivent par opération ou sur les rémunérations versées : culture, centres techniques industriels, transport aérien et maritime, autoroutes, immatriculation des véhicules, déchets, titres, apprentissage, formation², effort de construction, dialogue social, intempéries du bâtiment, versement mobilité. Les taxes annuelles, qui ne se coupent pas en cours d’exercice, sont dues une dernière fois au titre de 2027 : réseaux, installations nucléaires, contrôle bancaire, chambres de commerce, ressources locales, redevances de l’eau, bureaux d’Île-de-France. Dit simplement : une entreprise cesse de verser une dizaine de contributions distinctes et les dépenses qu’elles finançaient se votent au budget.
 
-Chaque date est tenue par un mouvement inverse : au 1er juillet 2027 prennent fin les taux réduits de taxe sur la valeur ajoutée recensés comme dépenses fiscales, au 1er janvier 2028 la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-sept impositions se fondent dans une ressource unique votée, à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+Chaque date est tenue par un mouvement inverse : au 1er juillet 2027 l’impôt sur les sociétés passe au taux unique, au 1er janvier 2028 la taxe foncière unique entre en vigueur. Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. Ce que finance l’impôt, c’est au Parlement de le décider. Cinquante-sept impositions se fondent dans une ressource unique votée, à rendement constant et sans hausse du produit total des impositions qu’elle réunit. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
 
@@ -2526,3 +2535,223 @@ Les communes et leurs groupements ne sont concernés que par le premier temps :
 ¹ Loi n° 2016-1917 du 29 décembre 2016, article 149 · loi n° 2019-1479 du 28 décembre 2019, article 16 · loi n° 2020-1721 du 29 décembre 2020, article 8 · loi n° 2022-1726 du 30 décembre 2022, article 55.
 
 ² Cour des comptes, Les finances publiques locales, annexe 12, juillet 2024.
+
+---
+
+## Amendement n° 35 [Contribution exceptionnelle : pas de troisième exercice, le bénéfice imposé au taux unique]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE 15
+
+Supprimer cet article.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement supprime le troisième exercice de la contribution exceptionnelle des grandes entreprises.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Instituée pour deux exercices par la loi de finances pour 2025, la contribution exceptionnelle frappe les entreprises dont le chiffre d’affaires dépasse un milliard d’euros (article 48 de la loi n° 2025-127 du 14 février 2025)¹. Elle a rapporté 7,5 milliards d’euros en 2025 et l’évaluation révisée pour 2026 en attend 7 milliards². Le texte en discussion la reconduit un troisième exercice, à un taux de 15,7 %, pour 5,2 milliards d’euros en 2027². Le même article rétablit pour un exercice la contribution sur le résultat d’exploitation des grandes entreprises de transport maritime (article 50 de la même loi)¹ : elle tombe avec lui. L’exceptionnel devient la règle : une surtaxe dont le barème change chaque année s’ajoute à l’impôt sur les sociétés.
+
+L’amendement supprime cette reconduction. La contribution s’éteint au terme des deux exercices votés et son produit est repris par l’impôt sur les sociétés au taux unique de 27 %, que la même réforme applique aux exercices ouverts à compter du 1er juillet 2027. Dit simplement : toutes les entreprises paient le même taux sur tout leur bénéfice, sans supplément dont le seuil et le taux se votent d’une année sur l’autre.
+
+La refonte des impositions ne relève pas la pression globale : la contribution disparaît dans l’impôt qui en reprend l’assiette, à rendement constant³.
+
+¹ Loi n° 2025-127 du 14 février 2025 de finances pour 2025, articles 48 et 50.
+
+² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, ligne 1441.
+
+³ Code général des impôts, article 219, dans la rédaction que propose la même réforme.
+
+---
+
+## Amendement n° 36 [Impositions d’État : vingt-sept de plus disparaissent dans les grands impôts, la Caisse des dépôts paie l’impôt sur les sociétés]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE ADDITIONNEL
+
+APRÈS L’ARTICLE 19, insérer l’article suivant :
+
+I. – Sont abrogés :
+
+1° Les articles 235 ter ZG, 302 bis N, 302 bis O, 302 bis P, 302 bis R, 302 bis S, 302 bis T, 302 bis U, 302 bis V, 302 bis W, 302 bis WA, 302 bis WB, 302 bis WC, 302 bis WD, 302 bis WE, 302 bis WF, 302 bis WG, 302 bis X, 302 bis XA, 1605 nonies, 1609 novovicies, 1609 tricies, 1609 untricies, 1609 duotricies, 1609 tertricies, 1613 ter, 1613 quater, 1635 bis AE, 1635 bis AF, 1635 bis AG et 1635 bis AH du code général des impôts.
+
+2° Le 5° ter de l’article 1001 du même code.
+
+II. – Sont abrogés :
+
+1° Les articles 231 ter, 231 quater, 302 bis ZA, 990 D, 990 E, 990 F, 990 FA et 990 G du code général des impôts.
+
+2° Les articles L. 421-93 à L. 421-148, L. 421-151, L. 421-156 à L. 421-167 et L. 455-44 à L. 455-56 du code des impositions sur les biens et services.
+
+III. – A. – Le 1 de l’article 206 du code général des impôts est complété par un alinéa ainsi rédigé :
+
+« La Caisse des dépôts et consignations est passible de l’impôt sur les sociétés à raison du résultat net de son activité pour compte propre. »
+
+B. – À l’article L. 518-16 du code monétaire et financier, les mots : « d’une contribution représentative de l’impôt sur les sociétés » sont remplacés par les mots : « de l’impôt sur les sociétés ».
+
+IV. – A. – Le I et le 2° du II s’appliquent aux impositions dont le fait générateur intervient à compter du 1er juillet 2027. Par dérogation, les taxes mentionnées au 2° du II sont dues au titre de l’année 2027 à raison de la seule durée d’affectation des véhicules ou de détention des autorisations antérieure au 1er juillet 2027.
+
+B. – Le 1° du II s’applique aux impositions dues au titre de l’année 2028 et des années suivantes.
+
+C. – Le III s’applique aux exercices ouverts à compter du 1er juillet 2027.
+
+D. – Les impositions dont le fait générateur est antérieur aux dates mentionnées aux A, B et C demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables.
+
+V. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au IV. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
+
+VI. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
+
+VII. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement supprime vingt-sept impositions de l’État et soumet la Caisse des dépôts à l’impôt.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Les codes fiscaux portent, à côté des grands impôts, des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits perçus sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux affectés au sport, taxes sur l’affectation des véhicules à des fins économiques, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles¹. La Caisse des dépôts verse, au lieu de l’impôt sur les sociétés, une contribution qui en tient lieu. L’ensemble rapporte 8,9 milliards d’euros².
+
+L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération, ainsi que les taxes sur les véhicules et les fréquences, dues pour 2027 au seul premier semestre. Les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les articles 14, 25 et 28 du projet, qui modifient ces taxes, appellent une coordination en navette. La Caisse des dépôts acquitte l’impôt sur les sociétés de droit commun pour les exercices ouverts à compter du 1er juillet 2027, au taux unique de la même réforme. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, sans vingt-sept taxes à côté.
+
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+
+¹ Code général des impôts, code des impositions sur les biens et services et code monétaire et financier, articles visés au dispositif.
+
+² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, évaluation initiale pour 2026 · projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2.
+
+³ Code général des impôts, article 219.
+
+---
+
+## Amendement n° 37 [Impositions locales : dix-huit taxes de plus fondues dans la taxe foncière unique et les grands impôts]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE ADDITIONNEL
+
+APRÈS L’ARTICLE 27, insérer l’article suivant :
+
+I. – Sont abrogés :
+
+1° Les articles 1599 quater C, 1599 quater D, 1601, 1601-0 A, 1604, 1607 bis, 1607 ter, 1609 B, 1609 C, 1609 D, 1609 G, 1609 H, 1609 I, 1635 quater B à 1635 quater N et 1635 quater P à 1635 quater T du code général des impôts.
+
+2° Les articles L. 2333-49 à L. 2333-55-2, L. 2333-56, L. 2333-81 à L. 2333-83, L. 2333-97, L. 3333-4 à L. 3333-7 et L. 5211-21-1 du code général des collectivités territoriales.
+
+3° Les articles L. 331-1 à L. 331-17 du code de l’urbanisme.
+
+4° Les articles L. 454-39 à L. 454-77 du code des impositions sur les biens et services.
+
+5° L’article L. 1331-7 du code de la santé publique.
+
+6° L’article 3 de la loi n° 72-657 du 13 juillet 1972 instituant des mesures en faveur de certaines catégories de commerçants et artisans âgés.
+
+II. – A. – Le I s’applique aux impositions dues au titre de l’année 2028 et des années suivantes.
+
+B. – Par dérogation au A, l’abrogation des articles L. 2333-49 à L. 2333-53, L. 2333-81 à L. 2333-83 et L. 3333-4 à L. 3333-7 du code général des collectivités territoriales s’applique aux recettes et aux accès réalisés à compter du 1er juillet 2027, celle des articles L. 2333-54 à L. 2333-55-2, L. 2333-56 et L. 5211-21-1 du même code au produit des jeux réalisé à compter de la même date et celle de l’article L. 1331-7 du code de la santé publique aux raccordements intervenus à compter de la même date. L’abrogation des articles 1635 quater B à 1635 quater N et 1635 quater P à 1635 quater T du code général des impôts et des articles L. 331-1 à L. 331-17 du code de l’urbanisme s’applique aux autorisations dont le fait générateur intervient à compter du 1er janvier 2028.
+
+C. – Les impositions dont le fait générateur est antérieur aux dates mentionnées aux A et B demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables. Les délibérations prises au titre des impositions supprimées cessent de produire effet aux mêmes dates.
+
+III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
+
+IV. – La perte de recettes pour les collectivités territoriales est compensée, à due concurrence, par la majoration de la dotation globale de fonctionnement. La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
+
+V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement supprime dix-huit impositions locales qui subsistaient à côté de la taxe foncière unique.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+La réforme réunit cinq impôts en une taxe foncière unique, votée par chaque commune. Autour d’elle demeuraient des taxes que chaque collectivité ou chaque chambre consulaire lève sur sa propre assiette : taxe d’aménagement, taxes spéciales d’équipement et taxe spéciale complémentaire, taxes pour frais de chambres de métiers et d’agriculture, taxe additionnelle spéciale annuelle d’Île-de-France, taxe sur les surfaces de stationnement, taxe sur les surfaces commerciales, taxe locale sur la publicité extérieure, taxe de balayage, taxes sur les remontées mécaniques et les sites nordiques, prélèvements communaux sur les jeux des casinos, participation pour le financement de l’assainissement collectif¹. Leur produit atteint 2,9 milliards d’euros².
+
+L’amendement les abroge avec l’entrée en vigueur de la taxe foncière unique, au 1er janvier 2028 : les taxes annuelles sont dues une dernière fois au titre de 2027. Les prélèvements sur les jeux, les taxes sur les remontées mécaniques et les sites nordiques et la participation pour l’assainissement collectif tombent au 1er juillet 2027, avec les autres impositions assises sur une opération. Dit simplement : le propriétaire paie une taxe foncière, l’entreprise son impôt sur les sociétés et la commune répond de son taux devant ses électeurs.
+
+Les collectivités sont compensées par la dotation globale de fonctionnement, l’État par la hausse de l’impôt sur les sociétés de la même refonte. La fusion s’opère à rendement constant³.
+
+¹ Code général des impôts, code général des collectivités territoriales, code de l’urbanisme, code des impositions sur les biens et services et code de la santé publique, articles visés au dispositif.
+
+² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
+
+³ Code général des collectivités territoriales, article L. 1613-1.
+
+---
+
+## Amendement n° 38 [Taxes affectées : treize de plus supprimées, leur produit voté au budget]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE ADDITIONNEL
+
+APRÈS L’ARTICLE 42, insérer l’article suivant :
+
+I. – Sont abrogés :
+
+1° L’article L. 3253-18 du code du travail.
+
+2° Les articles L. 351-12 à L. 351-15 du code général de la fonction publique.
+
+3° Les articles L. 4031-4 et L. 5141-8 du code de la santé publique.
+
+4° L’article L. 253-8-2 du code rural et de la pêche maritime.
+
+5° Le 1° de l’article L. 4316-1 et les articles L. 4316-10 à L. 4316-12 du code des transports.
+
+6° Les deuxième et dernier alinéas de l’article L. 423-6 du code de l’environnement.
+
+7° L’article L. 341-6 du code forestier.
+
+8° L’article L. 132-16 du code minier.
+
+9° L’article 72 de la loi de finances rectificative pour 2003 (n° 2003-1312 du 30 décembre 2003), l’article 130 de la loi de finances pour 2007 (n° 2006-1666 du 21 décembre 2006) et l’article 96 de la loi de finances rectificative pour 2010 (n° 2010-1658 du 29 décembre 2010).
+
+II. – A. – Le I s’applique aux impositions dont le fait générateur ou, à défaut, l’exigibilité intervient à compter du 1er juillet 2027 et, pour les cotisations assises sur les rémunérations, aux rémunérations versées à compter de cette date.
+
+B. – Sont dues une dernière fois au titre de l’année 2027 la contribution prévue à l’article L. 351-12 du code général de la fonction publique, la taxe annuelle prévue au II de l’article L. 5141-8 du code de la santé publique et la taxe prévue à l’article L. 253-8-2 du code rural et de la pêche maritime.
+
+C. – Les impositions dont le fait générateur est antérieur aux dates mentionnées aux A et B demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables.
+
+III. – Les dispositions législatives qui affectent tout ou partie du produit des impositions supprimées par le présent article cessent de s’appliquer aux dates mentionnées au II. Les dispositions réglementaires prises pour l’application des articles abrogés cessent de produire effet aux mêmes dates.
+
+IV. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
+
+V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement supprime treize impositions affectées régies hors du code général des impôts.
+
+Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
+
+Une imposition affectée ne figure dans aucun crédit soumis au vote : son produit part directement à l’organisme. Celles que vise l’amendement sont dispersées dans onze textes : cotisation des employeurs au régime de garantie des salaires, contribution des employeurs publics au fonds pour l’insertion des personnes handicapées, contribution des professionnels de santé à leurs unions régionales, taxes sur les médicaments vétérinaires et sur la vente de produits phytopharmaceutiques, redevance de prise et de rejet d’eau de Voies navigables de France, droit d’examen du permis de chasser, indemnité de défrichement, redevance des mines d’hydrocarbures, taxes de trois lois de finances anciennes¹. Leur produit atteint 2,1 milliards d’euros².
+
+L’amendement les abroge au 1er juillet 2027 et les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les missions qu’elles finançaient relèvent, selon leur nature, des crédits du budget général ou des amendements de seconde partie qui ferment les structures facultatives. Dit simplement : ce que finance l’impôt, c’est au Parlement de le décider.
+
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
+
+¹ Code du travail, code général de la fonction publique, code de la santé publique, code rural et de la pêche maritime, code des transports, code de l’environnement, code forestier, code minier et lois de finances visées au dispositif.
+
+² Projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2, « Taxes affectées ».
+
+³ Code général des impôts, article 219.
+
+---

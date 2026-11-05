@@ -6019,3 +6019,77 @@ renvoie plus que par une ligne — il ne porte plus la table.
   intitulé, bloc de tête et virgules alignés sur la liasse ; rejouer le
   générateur ne défait plus les corrections.
 - Site : les six fichiers régénérés, noms sans date, renvoi des anciens noms.
+
+## 20261103 — tri-porte
+
+## Ce qui a changé au corpus
+
+- Règles de l’auteur des 20261102 et 20261103 inscrites au registre : six
+  devenirs, CSG et CRDS, blocs, ventilation par qui paie, niches, sièges complétés
+  (deux confirmés au dépôt de droit, quatre hors dépôt).
+- Table de vérification des porteurs : les 120 cas de l’annexe A (14 portés,
+  99 non portés, 7 déjà abrogés, aucun porté par clause) et les 171 autres rangs
+  remplacés ou fondus (137 portés, 34 non portés).
+- Cinq amendements nouveaux en projet (P1 n° 35 à 38, PLFSS n° 9), preuve par
+  réapplication au dépôt de droit dans leur bloc interne.
+- `referentiels/sort_prelevements_20261103.tsv` (434 rangs), classeur de travail,
+  version exportable, relecture des annexes, sorts contre le schéma, niches contre
+  la clause générale : `livrables/tri_prelevements/`. Appareil :
+  `appareil/tri_porte/`.
+
+## Ce qui reste ouvert
+
+- Dix questions fermées à l’auteur (`livrables/tri_prelevements/rapport_auteur_20261103.md`, § 4), dont le millésime.
+- 179 rangs sourcés à la seule liste IFRAP : les pièces publiques (LFSS annexe 4,
+  rapport sur les prélèvements obligatoires, comptes DGCL) ne sont pas au dépôt.
+- Sept agrégats de l’état A à éclater : le tome I digéré ne porte pas leurs
+  composantes.
+- 38 niches de TVA marquées supprimées, exclues du I de la clause générale par son
+  II, 4°, et non abrogées au III.
+- Textes hors dépôt de droit cités par les amendements nouveaux : code forestier,
+  code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658.
+
+## 20261103 — tri-porte, réponses de l’auteur
+
+## Ce qui a changé au corpus
+
+- Dix réponses appliquées au tri (434 rangs) ; P1 n° 25 sans la taxe aurifère de Guyane (cinquante-six impositions) ; P1 n° 36 sans le prélèvement de solidarité, avec l’assujettissement de la Caisse des dépôts à l’IS.
+- Niches de TVA : correction de la vérification (28 portées par le n° 21, 10 atteintes par le I).
+- `livrables/tri_prelevements/recap_avant_apres_20261103.md`.
+
+## Ce qui reste ouvert
+
+- Millésime : réponse à préciser. Lecture de « en R » à confirmer.
+- 36 rangs remplacés ou fondus non portés (détail au récapitulatif, § 2).
+- Dates de la TVA : exposés des n° 22 et 25 (2027) contre dispositif du n° 21 (2028).
+
+## 20261103 — fil machine, vérification des amendements du tri
+
+## Ce qui a changé au corpus
+
+- P1 n° 35 à 38 et PLFSS n° 9 vérifiés sur pièce et corrigés à la source (`appareil/tri_porte/amendements.py`), fiches et liasses régénérées, toujours en projet : quatre doubles emplois avec le P1 n° 1 retirés, trois abrogations partielles qui laissaient la taxe (L. 253-8-2 VI, L. 5141-8 I) ou un renvoi mort complétées, L. 5211-21-1 CGCT et 1609 H CGI ajoutés, dates recalées au 1er juillet 2027 (véhicules et fréquences, remontées, sites nordiques, assainissement), divisions de date rédigées nommément (n° 38, II, B ; n° 9, II, B), gages ramenés à la formule standard ou à l’insuffisance déclarée, exposés recomptés.
+- `livrables/tri_prelevements/verification_machine_20261103.md` et `…_renvois.tsv` ; `appareil/tri_porte/verifier_fond.py`.
+- Tri rejoué : N9 porté par le n° 35. Docx des deux liasses produits, non versés.
+
+## Ce qui reste ouvert
+
+- Cinq questions fermées (§ 10 de la vérification).
+- Pertes des affectataires tiers non gagées (n° 36 à 38) ; perte de la sécurité sociale non gagée (n° 9).
+- Textes hors dépôt : code forestier, code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486.
+- Hors mandat : retirer le 8° du III du PLFSS n° 1 et le visa L. 421-78-1 du P1 n° 1 ; aligner la formule de date du n° 29 sur la taxe d’aménagement.
+- Rien n’est poussé : la branche `claude/machine-tri-porte-verif` vit au sas du coffre.
+
+## 20261105 — fil machine, questions closes et compteurs
+
+## Ce qui a changé au corpus
+
+- Questions du fil machine closes sur les réponses déjà rendues (registre, entrée du 20261105).
+- Gages des n° 36 à 38 rétablis sur la majoration de l’IS (circuit B, registre des sources de gage) ; PLFSS n° 9 sur la forme de la liasse de financement (L. 136-6 et L. 136-7). Les cinq pièces inscrites au registre des sources de gage.
+- Exposés des n° 22 et 25 : le 1er juillet 2027 y devient la date du taux unique de l’IS ; le calendrier de la TVA est celui du n° 21.
+- Compteurs : `livrables/registre_calcul_etatB.md`, § 18.
+
+## Ce qui reste ouvert
+
+- Textes hors dépôt de droit à ajouter à `codes.json` : code forestier, code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486.
+- Hors lot VI : retirer le 8° du III du PLFSS n° 1 et le visa L. 421-78-1 du P1 n° 1 ; aligner la formule de date du n° 29 sur la taxe d’aménagement ; `69_CONTROLE_doctrine.py` à rendre conscient du circuit B ; `droit.py` à faire passer `MODIFIE_MORT_NE` après `VIGUEUR_DIFF`.
+- Millésime des rendements : prévision 2026 au tri, 2027 en attente.

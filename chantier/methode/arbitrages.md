@@ -8422,3 +8422,199 @@ même décision divergent au premier changement.
 **Caduc.** Rien. Les arbitrages par défaut de la passe 2
 (`revision/arbitrages_passe2.md`) sont repris au registre pénal, qui le dit en
 tête.
+
+## 20261103 — tri-porte
+
+*Fil de production du 20261103 : vérification du tri des prélèvements, relecture
+des annexes, porteurs des liasses. Entrées titrées et datées, sans numéro —
+A-282 : le numéro se donne à l’insertion.*
+
+### Les six devenirs d’un prélèvement — 20261103
+
+**Validé.** *Arbitrage de l’auteur des 20261102 et 20261103.* Rien n’est
+supprimé sec : tout prélèvement a un rendement, donc une contrepartie. Il n’existe
+que six devenirs :
+
+| devenir | définition |
+|---|---|
+| grand impôt conservé | impôt sur le revenu, impôt sur les sociétés, TVA, taxe foncière |
+| remplacé par un grand impôt | il disparaît, un impôt précis en reprend le produit (sort « fondu par rattachement » du tri) |
+| fondu dans l’équilibre des quatre grands impôts | il disparaît, son produit est repris par les hausses d’équilibre du schéma (colonne K de l’onglet « Refonte fiscalité ») : taxes sur la masse salariale, taxe sur les remontées mécaniques, redevance de ski de fond |
+| conservé en complément | il demeure à côté du grand impôt qu’il prolonge (blocs ci-dessous) |
+| à fusionner | les 82 cotisations sociales ; schéma non explicité, en suspens ; ni « rendues » ni « versées au compte épargne » |
+| recette non fiscale | ce n’est pas un prélèvement obligatoire |
+
+**Blocs « conservé en complément ».** Accise (sur-TVA) : énergie, tabac, alcool.
+Simili TVA : activités sans TVA — taxe sur les conventions d’assurance, forfait
+social, CSA, prélèvement du fonds Barnier (rebudgétisé). Taxe de séjour unique
+(L. 2333-26 CGCT), où se fondent les taxes additionnelles départementale,
+régionale d’Île-de-France et des articles L. 4332-4 à 6. Fonds de garantie :
+assurances obligatoires (L. 421-1 C. assur.), terrorisme (L. 422-1), calamités
+agricoles (1635 bis A CGI), à restituer dans la réforme des régimes, comme
+l’agriculture. Fiscalité outre-mer. Union européenne.
+
+**Assiette « propriété et droits d’usage », ventilée par qui paie.** Une
+entreprise, pour son activité (locaux d’activité, contrôles sanitaires, frais de
+contrôle, domaine public et fréquences, propriété industrielle, VTC,
+phytosanitaires, cinéma, garantie de l’or) : impôt sur les sociétés. Un
+particulier, pour un acte (timbres, plaidoirie, actes civils et judiciaires,
+émoluments, chasse, vie étudiante) : impôt sur le revenu. Le patrimoine et
+l’action locale : taxe foncière.
+
+**Niches.** Cinq devenirs : supprimée, gain restitué · supprimée en trois ans,
+gain restitué · fondue dans l’aide fondamentale (et non dans un « crédit
+d’impôt ») · fiscalité outre-mer · déjà éteinte.
+
+**Caduc.** Le sort « maintenu à part » des rangs 293 (remontées mécaniques) et
+295 (ski de fond), et toute imputation des cotisations sociales à un compte
+épargne ou à une restitution.
+
+### La CSG et la CRDS restent remplacées par l’impôt sur le revenu — 20261103
+
+**Validé.** *Arbitrage de l’auteur du 20261103.* La CSG et la CRDS restent au
+sort du tri, remplacées par l’impôt sur le revenu : le taux unique de 23 % se
+calcule sur une assiette qui intègre la leur (formule K50 de l’onglet
+« Refonte fiscalité »). La restitution sur la fiche de paie et le compte
+épargne personnel sont des perspectives : elles se mentionnent en présentation,
+jamais comme devenir d’un prélèvement.
+
+### Six sièges complétés, à confirmer sur LEGI — 20261103
+
+**Validé, sous réserve de confirmation sur pièce.** *Relevé de l’auteur du
+20261103.* Taxe sur les holdings patrimoniales : art. 235 ter C CGI. Taxe
+« petit colis » : art. 82 de la loi n° 2026-103. Certificats d’obtention
+végétale : R. 623-30-1 à R. 623-35 CPI, arrêté du 8 janvier 2026. Certification
+phytosanitaire à l’export : L. 251-17-1 CRPM, arrêté du 5 août 1992. Droits
+d’importation : règlement (UE) n° 952/2013. CRDS sur les revenus d’activité :
+art. 14 de l’ordonnance n° 96-50.
+
+*Confirmation au dépôt de droit, millésime LEGI 20261031, version applicable au
+1er juillet 2027* : 235 ter C CGI confirmé (LEGIARTI000053542687, « taxe sur
+les actifs non professionnels détenus par les sociétés »). L. 251-17-1 CRPM
+confirmé (LEGIARTI000053151806, en vigueur au 1er janvier 2027 : documents et
+contrôles officiels liés à la circulation des végétaux). La loi n° 2026-103, le
+code de la propriété intellectuelle, le règlement n° 952/2013 et l’ordonnance
+n° 96-50 ne sont pas au dépôt de droit : ces quatre sièges ne se confirment pas
+d’ici.
+
+### Un prélèvement n’est « porté » que par un dispositif qui le fait disparaître — 20261103
+
+**Tranché** (tambouille de vérification, révocable). Verdicts de la table de
+vérification : **A** porté — un alinéa abroge le siège, ou en réécrit le tarif
+lorsque le devenir est partiel au schéma ; **B** porté par une clause — une
+clause générale l’atteint juridiquement ; **C** non porté ; **S** sans objet — le
+droit en vigueur l’a déjà abrogé. **Le plafond à zéro de l’amendement P1 n° 24
+ne porte pas un prélèvement** : il ramène le produit au budget et laisse
+l’imposition. **La dissolution d’un affectataire (P2 n° 25) ne porte pas sa
+ressource** : son II, A, en transfère la perception au ministre. **Le I de la
+clause générale (P1 n° 1) n’atteint aucun prélèvement** : il ne vise que les
+avantages fiscaux ; son III peut, lui, abroger nommément un siège.
+
+**Écarté.** Compter comme porté un rang dont un alinéa ne fait que citer le
+siège sans l’abroger, ou dont seule la ligne de l’article 42 est visée.
+
+### Un siège se lit sur la version applicable au 1er juillet 2027 — 20261103
+
+**Tranché.** Les marches de la refonte commencent le 1er juillet 2027. Un siège
+ou un visa se contrôle sur la version LEGI applicable à cette date, et non au
+jour de la vérification : la recodification de la TVA au CIBS au 1er janvier
+2027 et plusieurs abrogations différées (art. 232 CGI) changent la réponse.
+
+### Le tri du 20261103 : retraits, fusion, sièges et rendements corrigés — 20261103
+
+**Tranché sur mandat de l’auteur (§ 5.3 du mandat du 20261103).** Retiré : la taxe
+sur les papiers graphiques (rang 270), aucune imposition de ce nom au CGI ni au
+CIBS en vigueur (LEGI 20261031, qui intègre la LFI 2026). Fusionné : la « taxe sur
+les primes d’assurances » (rang 279) dans la taxe sur les conventions d’assurance
+(rang 272), même article 991 CGI. Corrigés à l’état A, évaluation initiale 2026 :
+CDHR 650,0 ; contribution exceptionnelle 7 300,0 ; CVAE 4 041,3 ; petit colis
+400,0 ; autres taxes 983,2 (agrégat, à éclater). Remontées mécaniques et ski de
+fond : « fondu dans l’équilibre ».
+
+**Proposé** (jugements de fait, à valider). Onze sièges corrigés sur pièce, le
+siège d’origine gardé en colonne `siege_article` pour le contrôle S1 : AGS
+L. 3253-18 C. trav. ; plaidoirie L. 652-6 et L. 652-7 CSS ; cotisation
+subsidiaire maladie L. 380-2 CSS ; redevances eau DOM L. 213-14-1 et -2 C. env. ;
+L. 138-19-8 CSS (rang 155) ; taxe d’aménagement 1635 quater A CGI ; TGAP 299 CGI ;
+taxe d’aéroport L. 422-13 s. CIBS ; dialogue social L. 2135-15-1 C. trav. ; CURPS
+L. 4031-4 CSP. Seize rangs ajoutés depuis l’annexe des ressources affectées 2027
+et le contrôle inverse, dont six qualifiés « recette non fiscale » (droits de
+port, redevances domaniales, majoration SRU, contributions des collectivités à
+l’ONF). Ventilation « qui paie » appliquée hors annexe A à 28 rangs de
+l’assiette « propriété et droits d’usage » (16 à l’IS, 12 à l’IR), déduite de la
+règle du 20261103.
+
+**Écarté.** Appliquer un millésime avant l’arbitrage de l’auteur : le tri garde la
+prévision 2026 du PLF 2026 et porte la prévision révisée du PLF 2027 en colonne
+d’attente.
+
+### Cinq amendements nouveaux, en projet — 20261103
+
+**Proposé.** PLF 1re partie n° 35 (suppression de l’article 15), n° 36 (28
+impositions d’État), n° 37 (18 impositions locales), n° 38 (13 taxes affectées
+hors CGI), PLFSS n° 9 (18 contributions sociales). Versés aux liasses
+`LIASSE_PLF_P1.md` (lot VI) et `LIASSE_PLFSS.md`, fiches sous `P1/tri_*` et
+`SS/tri_09_*`, marqués « non déposables en l’état ». Les PDF et docx publiés du
+site ne sont pas régénérés : aucune publication sans l’auteur.
+
+### Réponses de l’auteur aux dix questions du tri — 20261103
+
+**Validé.** *Arbitrage de l’auteur du 20261103, réponse au § 4 du rapport.*
+
+- **Cotisations sociales** : le schéma de fusion des 82 cotisations vient dans une liasse **ultérieure**.
+- **Redevances** : « en R ». Lu comme : elles restent remplacées, leur suppression passe **par la voie réglementaire** (décret), conformément à la règle du 20260930 « par défaut, supprimer et fondre ». Onze rangs portent « voie réglementaire » au tri, dont trois redevances ajoutées depuis l’annexe 2027 (droits de port, redevance domaniale des autoroutes, substances du plateau continental). *Lecture à confirmer si « R » désignait la recette non fiscale.*
+- **Retenues à la source sur non-résidents (133, 134) et exit tax (140)** : grand impôt conservé, modalités de l’impôt sur le revenu.
+- **Pilier 2 (146) et taxe « petit colis » (196)** : conservés en complément, bloc Union européenne.
+- **Taxe aurifère de Guyane (168)** : bloc fiscalité outre-mer, **retirée du n° 25**, qui passe à cinquante-six impositions.
+- **Prélèvement de l’ANCOLS (119)** : supprimé par construction — la PEEC abrogée par le n° 25, I, 5°, le prélèvement sur ses ressources disparaît.
+- **Prélèvements sociaux sur le capital** : le schéma est arrêté — prélèvement forfaitaire de 30 % « total recomposé », rédaction harmonisée (n° 20, arbitrage du 20261007) ; les gages sont circonstanciels. **Conséquence** : le prélèvement de solidarité (235 ter) sort du n° 36, l’articulation restant portée par la pièce D, et les rangs 86 à 93 sont portés par le n° 20.
+- **Caisse des dépôts (147)** : assujettie à l’impôt sur les sociétés — n° 36, III.
+- **Stocks stratégiques pétroliers (380)** : statu quo, conservés.
+- **Millésime** : réponse « oui » à une question à deux branches. **Non appliqué** : le tri garde la prévision 2026 du PLF 2026, la révisée du PLF 2027 en colonne d’attente.
+
+### Les niches de TVA sont portées — correction du 20261103
+
+**Tranché.** Le rapport du matin donnait « 38 niches de TVA exclues par le II, 4° ». C’est faux : le rapprochement s’est fait sur les articles 278 à 298 du CGI, recodifiés au CIBS au 1er janvier 2027. **28 taux réduits** sont portés par le n° 21 (trois taux réduits portés à 20 %, marches de 2028 à 2030) et par le III du n° 1 pour les lignes nommées du CIBS ; **10 exonérations et régimes** sont atteints par le I, sous réserve du II, 3°. Écart relevé : les exposés des n° 22 et 25 datent la fin des taux réduits au 1er juillet 2027, le dispositif du n° 21 au 1er juillet 2028.
+
+### Guyane, IS, calendrier, passage au fil machine — 20261103
+
+**Validé.** *Arbitrage de l’auteur du 20261103, second tour.*
+
+- **Taxe aurifère de Guyane (168)** : « si c’était pour une affectation on supprime ». La taxe est perçue au profit de la région et d’un organisme (1599 quinquies B, I) : elle reste **supprimée par le P1 n° 25**, rétabli à cinquante-sept impositions, la fiche 4.2 B identique à l’octet à sa version antérieure. **Caduc** : la ligne « retirée du n° 25 » de l’entrée précédente.
+- **IS** : extinction de la contribution exceptionnelle (n° 35) et assujettissement de la Caisse des dépôts (n° 36, III) en même temps que les niches et le taux unique : validé.
+- **Calendrier** : un report à 2028 sans bonne raison ne tient pas. Relevé des suppressions nouvelles contre les objets comparables : `livrables/tri_prelevements/calendrier_suppressions_nouvelles.md`.
+- **Vérification et consolidation confiées à un fil machine** : mandat `methode/prompt_fil_machine_tri_porte.md`.
+
+## 20261103 — fil machine, vérification des amendements du tri
+
+*Fil de production du 20261103, mandat `methode/prompt_fil_machine_tri_porte.md`. Entrées titrées et datées, sans numéro — A-282.*
+
+### Une abrogation partielle ne porte un prélèvement que si la subdivision abrogée l’institue — 20261103
+
+**Tranché** (tambouille de vérification, révocable). Abroger le VI de L. 253-8-2 CRPM, qui n’est que l’affectation, laissait la taxe ; abroger le seul I de L. 5141-8 CSP laissait la taxe annuelle du II (rang 390). Les deux articles s’abrogent en entier. Corollaire tenu : avant d’écrire « le X de l’article », lire ce que X institue.
+
+### Le gage des amendements du tri : circuit B, majoration de l’IS — 20261103
+
+**Tranché** (forme, révocable), sur le registre des sources de gage, § V : une pièce du circuit B (refonte fiscale) se gage sur la majoration de l’impôt sur les sociétés, variable de solde. Les n° 36 à 38 gardent cette forme ; la part des collectivités du n° 37 se gage sur la DGF (forme du P1 n° 25, V) ; le PLFSS n° 9 prend la forme de la liasse de financement (PLFSS n° 3, V : contributions de L. 136-6 et L. 136-7), la frontière de véhicule interdisant l’IS. **Écart connu** : `69_CONTROLE_doctrine.py`, écrit pour la machine livrée aux tiers, ne connaît pas le circuit B et sort en échec sur ces pièces. **Écarté** : la formule tabac, passée un temps par ce fil, qui n’est que le repli (arbitrage du 20261002, mécanique de gage par abrogation). La perte des affectataires tiers n’est pas couverte par la forme : elle se déclare.
+
+### Date d’une contribution assise sur l’année : moitié de l’assiette 2027 — 20261103
+
+**Validé** par la consigne de l’auteur du 20261103 (« un report sans bonne raison ne tient pas »). Pour les contributions assises sur un montant de l’année civile et sans fait générateur au 1er janvier ni seuil annuel, la suppression au 1er juillet 2027 laisse due, au titre de 2027, la moitié de l’assiette annuelle. Même principe que le prorata des taxes sur les véhicules (P1 n° 36, IV, A). La C3S (fait générateur au 1er janvier) et les contributions à seuil annuel restent dues pour 2027 entier.
+
+### Une citation « du même code » ne se résout pas mécaniquement — 20261103
+
+**Tranché.** `verifier_fond.py` résout « du même code » sur le dernier code nommé avant la citation. Quand l’article citant ne nomme aucun code avant (L. 112-11-1 du code du sport, dont le 1° est abrogé), le renvoi échappe au relevé : il s’ajoute à la main et se déclare.
+
+### Lecteur de droit : deux versions applicables à la même date — 20261103
+
+**Signal** (appareil partagé, non modifié). `droit.article()` rend la version de date de début la plus récente ; à égalité (1613 quater CGI au 1er janvier 2027 : `MODIFIE_MORT_NE` et `VIGUEUR_DIFF`), il peut rendre la version morte-née. À corriger dans `droit.py` par le fil qui tient le dépôt : écarter `MODIFIE_MORT_NE` d’abord.
+
+### Les questions du fil machine, closes sur les réponses déjà rendues — 20261105
+
+**Validé** (relevé des réponses de l’auteur, « j’ai déjà répondu à tout », 20261105).
+
+- **Article 15 entier** : la contribution maritime rétablie tombe avec lui — « pas de prélèvement nouveau » et extinction de la contribution exceptionnelle avec les niches (20261103, second tour).
+- **Moitié d’assiette 2027** pour les contributions assises sur l’année : consigne du calendrier du 20261103.
+- **Missions privées de leur ressource** (garantie des salaires, unions de professionnels de santé, fonds des victimes de pesticides, fonds handicap de la fonction publique) : le produit est repris par l’impôt et la dépense passe au vote, budget général ou fermeture au P2 n° 25 — « ce que finance l’impôt, c’est au Parlement de le décider », devenir « fondu dans l’équilibre » du tri.
+- **TVA** : calendrier arrêté le 20261005 (P1 n° 21 : 1er juillet 2028, puis 2029 et 2030 pour l’alimentation). Les exposés des n° 22 et 25 sont corrigés : la date du 1er juillet 2027 y est celle du taux unique de l’impôt sur les sociétés.
+- **ANCOLS** : « supprimé par construction » — le montant nul à défaut d’arrêté du n° 25, II, B et l’abrogation de la PEEC suffisent.

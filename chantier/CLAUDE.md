@@ -78,6 +78,7 @@ elle prime sur toute mémoire de fil.
 | TVA et taxe sur les salaires | même pièce | § 17 |
 | le sort des prélèvements | `referentiels/prelevements_forces_20260930.tsv`, colonne `rang` | — |
 | le vocabulaire des sorts, et quelle ligne est maintenue | onglet `Refonte fiscalité` de `Synthèse Calculs Résolution` | — |
+| **les six devenirs d’un prélèvement et des niches** (règle de l’auteur du 20261103) | `methode/arbitrages.md` | entrée « Les six devenirs d’un prélèvement — 20261103 » |
 | les commissions du Jaune | `referentiels/commissions_jaune2026_20261014.tsv` | — |
 | **toute matière de recettes, de dépenses fiscales ou de taxes affectées en 2027** | `methode/annexes_voies_et_moyens_2027.md` | la table « où va se servir un fil » |
 | la vue d'ensemble, non la source | `livrables/suivi_trajectoire_20261015.md` | § 9 et § 10 |
