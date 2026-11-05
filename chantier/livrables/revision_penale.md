@@ -1,6 +1,6 @@
 # Projet de révision de la chaîne pénale
 
-*Texte en vigueur : base LEGI 20261020, lue par `droit.py`. Les textes cibles et les dispositions modificatives sont dérivés des opérations de `revision/fiches_penal.json` et contrôlés par réapplication. Les paramètres à arbitrer sont entre crochets.*
+*Texte en vigueur : base LEGI 20261031, lue par `droit.py`. Les textes cibles et les dispositions modificatives sont dérivés des opérations de `revision/fiches_penal.json` et contrôlés par réapplication. Les paramètres à arbitrer sont entre crochets.*
 
 ## Sommaire
 

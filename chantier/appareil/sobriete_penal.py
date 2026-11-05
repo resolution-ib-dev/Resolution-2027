@@ -17,6 +17,9 @@ Contrôles (à zéro avant chaque versement) :
                   aucun point-virgule n'est inséré
   S2 garanties    une phrase d'un article signalé en passe 1 (ligne rouge) qui est déclassée ou abrogée
                   dit où sa garantie survit (« garantie »), et l'article retiré examine sa ligne rouge
+                  passe 5 : un titre que revision/passe5_garanties.json déclare concerné par une garantie
+                  du socle (G1 à G7) vise l'article du titre préliminaire qui la porte, et chaque article
+                  du socle existe dans la cible
   S3 volume       mots du titre contre la cible de son bloc ; un dépassement se motive (« ecart_volume »)
 
 Emploi :
@@ -39,6 +42,8 @@ REG = CHANTIER / "referentiels" / "registre_penal.tsv"
 DEC = CHANTIER / "revision" / "decisions"
 P3 = CHANTIER / "revision" / "passe3"
 GRILLE = CHANTIER / "revision" / "grille_principes.json"
+SOCLE5 = CHANTIER / "revision" / "passe5_garanties.json"
+RE_PRELIM = re.compile(r"\bL\. ?(\d+)(?![\d-])(?:\s+à\s+L\. ?(\d+)(?![\d-]))?")
 J2029 = "2029-01-01"
 DESTINS = {"gardee", "reprise", "declassee", "abrogee"}
 # cibles de volume (procédure, Passe 3) : variation des mots par rapport à l'état 2029
@@ -88,6 +93,20 @@ def textes_2029():
                     out[(code, ap[-1]["num"])] = (ap[-1]["texte"] or "", ap[-1].get("section") or "")
         _CACHE["t"] = out
     return _CACHE["t"]
+
+
+def socle_p5():
+    """Socle de la passe 5 : {"socle": {"G1": "L5", …}, "lots": {lot: ["G1", …]}}, vide hors passe 5."""
+    return json.loads(SOCLE5.read_text(encoding="utf-8")) if SOCLE5.exists() else {}
+
+
+def vises_preliminaire(texte):
+    """Numéros d'articles du titre préliminaire visés par un texte (« L. 5 », « L. 5 à L. 10 »)."""
+    out = set()
+    for m in RE_PRELIM.finditer(texte or ""):
+        a = int(m.group(1))
+        out.update(range(a, int(m.group(2)) + 1) if m.group(2) else [a])
+    return out
 
 
 def registre():
@@ -230,6 +249,18 @@ def controler(lot, grille, reg, vivants):
                 an.append(f"{lot} S2 : phrase {pid} d'un article à ligne rouge ({lr[:40]}) {d} sans garantie dite")
         if n in ret and lr and ret[n].get("ligne_rouge", "").strip().lower() in ("", "aucune"):
             an.append(f"{lot} S2 : {n} retiré sans examen de sa ligne rouge ({lr[:40]})")
+    # S2 — socle de la passe 5
+    s5 = socle_p5()
+    if s5.get("lots", {}).get(lot):
+        vises = set()
+        for a in cib.values():
+            vises |= vises_preliminaire(a["texte"])
+        for g in s5["lots"][lot]:
+            siege = s5["socle"].get(g)
+            if not siege:
+                an.append(f"{lot} S2 : garantie {g} inconnue du socle")
+            elif siege not in cib and int(siege[1:]) not in vises:
+                an.append(f"{lot} S2 : garantie {g} du socle ({siege}) non visée par le titre")
     for pid in ph:
         if pid.split("#")[0] not in nums:
             an.append(f"{lot} S1 : phrase {pid} hors du titre")
@@ -254,6 +285,9 @@ def controle(args):
     reg = registre()
     vivants = cibles_globales()
     anomalies, tab = [], []
+    for g, siege in socle_p5().get("socle", {}).items():
+        if ("cpp", siege) not in vivants:
+            anomalies.append(f"socle S2 : {g} ({siege}) absent de la cible")
     for lot in choix:
         an, t = controler(lot, grille, reg, vivants)
         anomalies += an

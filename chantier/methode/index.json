@@ -24846,6 +24846,20 @@
    "chemin_coffre": "chantier/sources/l17b3211_projet-loi.pdf",
    "releve": true,
    "famille": "références externes"
+  },
+  {
+   "role": "fichier:revision/passe5_architecture",
+   "chemin": "revision/passe5_architecture.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/passe5_architecture.md",
+   "releve": true,
+   "famille": "méthode"
   }
  ],
  "depot": {
@@ -26039,7 +26053,8 @@
    "sources/guide-public-du-budgetaire-2023.pdf",
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
-   "sources/l17b3211_projet-loi.pdf"
+   "sources/l17b3211_projet-loi.pdf",
+   "revision/passe5_architecture.md"
   ],
   "au_coffre_comme_document": [
    "referentiels/cgi_expert_articles.tsv",
@@ -26207,9 +26222,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1699,
-  "au_coffre": 1638,
-  "au_depot": 1180,
+  "artefacts": 1700,
+  "au_coffre": 1639,
+  "au_depot": 1181,
   "derives": 293,
   "sources": 48,
   "non_restaurables": 16,
