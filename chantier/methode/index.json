@@ -24778,6 +24778,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:revision/passe5_garanties",
+   "chemin": "revision/passe5_garanties.json",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/revision/passe5_garanties.json",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:revision/points_a_confirmer",
    "chemin": "revision/points_a_confirmer.md",
    "rang": "methode",
@@ -26049,6 +26063,7 @@
    "revision/passe3/lot_p333.json",
    "revision/passe3/lot_p334.json",
    "revision/passe5_architecture.md",
+   "revision/passe5_garanties.json",
    "revision/points_a_confirmer.md",
    "revision/registre_arbitrages_penal.md",
    "sources/guide-public-du-budgetaire-2023.pdf",
@@ -26222,9 +26237,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1700,
-  "au_coffre": 1639,
-  "au_depot": 1181,
+  "artefacts": 1701,
+  "au_coffre": 1640,
+  "au_depot": 1182,
   "derives": 293,
   "sources": 48,
   "non_restaurables": 16,
