@@ -1,7 +1,7 @@
 {
   "lot": "lot_p149",
   "titre": "CPP, 4e partie, livre IV, titre II : Audience devant le tribunal délictuel",
-  "ecart_volume": "3 194 mots pour un plafond de 2 959. Le titre porte les droits de la défense à l'audience, écrits en entier : avocat, représentation du prévenu absent et mandats bornés (rétablis par la relecture), interprète, droit de se taire, questions directes, conclusions auxquelles le tribunal répond, parole en dernier, les voies de constitution de la partie civile et leurs suites (désistement, opposition), le contradictoire de l'expertise et le régime du témoin défaillant. La publicité, la déposition anonyme et les secrets du témoin renvoient aux règles générales (L. 1, L1532-9, L1531-1, L1531-5) ; le reste au-dessus du plafond est fait de ces garanties.",
+  "ecart_volume": "Passe 5 : le titre s'allonge du calendrier et des renvois (L4421-30, A6) et de l'interprétation par l'outil homologué avec ses garde-fous (L4421-16, 15.2). Passes 3 et 4 : il porte les droits de la défense à l'audience, écrits en entier : avocat, représentation du prévenu absent et mandats bornés, droit de se taire, questions directes, conclusions auxquelles le tribunal répond, parole en dernier, les voies de constitution de la partie civile et leurs suites, le contradictoire de l'expertise et le régime du témoin défaillant. La publicité, la déposition anonyme et les secrets du témoin renvoient aux règles générales (L. 1, L1532-9, L1531-1, L1531-5).",
   "articles_cible": [
     {
       "num": "L4421-1",
@@ -21,19 +21,19 @@
     },
     {
       "num": "L4421-5",
-      "texte": "Le prévenu comparaît devant le tribunal délictuel, sauf excuse reconnue valable par le tribunal, lorsqu'il a fait l'objet d'une convocation en justice ou d'une comparution sur procès-verbal, qu'il a été régulièrement cité à personne, ou qu'il est établi qu'il a eu connaissance de la citation régulière dans les cas des articles L. 1631-7, L. 1631-8 et L. 1631-12. Détenu, il est conduit à l'audience par la force publique.",
+      "texte": "Le prévenu comparaît devant le tribunal délictuel, sauf excuse reconnue valable par le tribunal, lorsqu'il a fait l'objet d'une convocation en justice ou d'une comparution rapide selon l'article L. 4413-3, qu'il a été régulièrement cité à personne, ou qu'il est établi qu'il a eu connaissance de la citation régulière dans les cas des articles L. 1631-7, L. 1631-8 et L. 1631-12. Détenu, il est conduit à l'audience par la force publique.",
       "verbe": "R",
       "principe": "P25",
-      "motif": "Obligation de comparaître et conduite du détenu (L4421-6) en un article, sans les 1° à 4°.",
-      "ligne_rouge": "Droits de la défense : l'excuse valable reste admise."
+      "motif": "Obligation de comparaître et conduite du détenu (L4421-6) en un article, sans les 1° à 4°. Passe 5 : la comparution sur procès-verbal devient la comparution rapide de la personne libre (L4413-3, D c).",
+      "ligne_rouge": "Droits de la défense : l'excuse valable reste admise. Passe 5 : L'excuse valable reste admise."
     },
     {
       "num": "L4421-7",
-      "texte": "Lorsque le prévenu convoqué ou cité selon l'article L. 4421-5 ne comparaît pas et encourt au moins deux ans d'emprisonnement, le tribunal peut, après avoir renvoyé l'affaire, décerner mandat d'amener ou d'arrêt par décision spéciale et motivée. Le prévenu arrêté en exécution du mandat relève des articles L. 3652-12 à L. 3652-16. S'il est placé en détention provisoire par le juge des libertés et de la détention, il comparaît devant le tribunal dans les meilleurs délais et au plus tard dans un mois, faute de quoi il est mis en liberté.",
+      "texte": "Lorsque le prévenu convoqué ou cité selon l'article L. 4421-5 ne comparaît pas et encourt au moins deux ans d'emprisonnement, le tribunal peut, après avoir renvoyé l'affaire, décerner mandat d'amener ou d'arrêt par décision spéciale et motivée. Le prévenu arrêté en exécution du mandat relève des articles L. 3652-12 à L. 3652-16. S'il est placé en détention provisoire par le juge de l'enquête et des libertés, au cours de l'audience de l'article L. 6 et assisté d'un avocat selon l'article L. 7, il comparaît devant le tribunal dans les meilleurs délais et au plus tard dans un mois, faute de quoi il est mis en liberté.",
       "verbe": "S",
       "principe": "P25",
-      "motif": "Mandat contre le prévenu défaillant : phrases resserrées.",
-      "ligne_rouge": "Détention avant jugement (art. 66 C) : décision spéciale et motivée, seuil de deux ans, comparution sous un mois, liberté à défaut."
+      "motif": "Mandat contre le prévenu défaillant : phrases resserrées. Passe 5 : le juge des libertés et de la détention devient le juge de l'enquête et des libertés, qui statue selon L. 6, l'avocat assistant la personne selon L. 7 (G3).",
+      "ligne_rouge": "Détention avant jugement (art. 66 C) : décision spéciale et motivée, seuil de deux ans, comparution sous un mois, liberté à défaut. Passe 5 : Art. 66 C : décision spéciale et motivée, seuil de deux ans, comparution sous un mois, liberté à défaut. G3 (L. 7) : avocat à l'audience sur la liberté."
     },
     {
       "num": "L4421-8",
@@ -77,11 +77,11 @@
     },
     {
       "num": "L4421-16",
-      "texte": "Le président nomme d'office un interprète, selon les articles L. 2513-1 à L. 2513-4, lorsque le prévenu, la partie civile ou un témoin ne parle pas suffisamment la langue française, ou pour traduire un document versé aux débats. Le prévenu, la partie civile ou le témoin atteint de surdité est assisté selon l'article L. 1112-4.\nLe procureur de la République, le prévenu et la partie civile peuvent récuser l'interprète par une demande motivée. Le tribunal statue sur la récusation par une décision insusceptible de recours.",
+      "texte": "Lorsque le prévenu, la partie civile ou un témoin ne comprend pas la langue française, besoin vérifié selon l'article L. 1112-3, ou pour traduire un document versé aux débats, le président fait assurer d'office l'interprétation et la traduction par l'outil homologué de l'article L. 2513-6. Pour une langue pour laquelle aucun outil n'est homologué, il désigne un interprète selon l'article L. 2513-7. Le prévenu, la partie civile ou le témoin atteint de surdité est assisté selon l'article L. 1112-4.\nUn incident de compréhension se relève à tout moment par la personne, par son avocat ou par le président d'office. Le président statue sur-le-champ, par décision motivée, selon l'article L. 2513-7. S'il constate l'incident, il désigne un interprète et fait reprendre avec lui la partie des débats affectée.\nLe procureur de la République, le prévenu et la partie civile peuvent récuser l'interprète par une demande motivée. Le tribunal statue sur la récusation par une décision insusceptible de recours.",
       "verbe": "R",
       "principe": "P25",
-      "motif": "Interprète et récusation (L4421-21) en un article.",
-      "ligne_rouge": "Droits de la défense : interprète d'office et récusation gardés."
+      "motif": "Interprète et récusation (L4421-21) en un article. Passe 5 : interprétation due à qui ne comprend pas le français, besoin vérifié (15.2, L1112-3), outil homologué par défaut (L2513-6), interprète humain pour une langue non homologuée ou sur incident constaté par le président (L2513-7). Garde-fou n° 4 (b) et (d) écrits : langue non homologuée, incident relevable par tous à tout moment, décision sur-le-champ. Relecture : interprète pour une langue sans outil homologué (L2513-7 1°), incident tranché par décision motivée avec reprise de la partie des débats affectée (garde-fou n° 4).",
+      "ligne_rouge": "Droits de la défense : interprète d'office et récusation gardés. Passe 5 : Art. 6 § 3 e CEDH et directive 2010/64/UE (garde-fou n° 4) : interprétation gratuite gardée pour qui ne comprend pas, interprète humain sur incident ou langue non couverte, récusation gardée."
     },
     {
       "num": "L4421-17",
@@ -109,19 +109,19 @@
     },
     {
       "num": "L4421-22",
-      "texte": "Si le tribunal estime une expertise nécessaire, il y est procédé selon le chapitre 2 du titre Ier du livre V de la première partie, le chapitre 3 du titre IV du livre IV de la troisième partie et le titre IV du livre V de cette même partie, à l'exception des articles L. 3443-16 à L. 3443-21. L'opération technique de mise au clair de données chiffrées suit les articles L. 3544-1 à L. 3544-5.",
-      "verbe": "S",
-      "principe": "P23",
-      "motif": "Expertise ordonnée par le tribunal : phrases resserrées. Passe 4 : l'intitulé recopié des articles exclus tombe, le renvoi chiffré suffit.",
-      "ligne_rouge": "aucune"
+      "texte": "Le tribunal ordonne une expertise par décision motivée, d'office ou à la demande d'une partie, lorsqu'il l'estime nécessaire. Il motive spécialement le refus d'une expertise demandée. L'expertise suit le chapitre 2 du titre Ier du livre V de la première partie, l'article L. 3323-8, dont le tribunal exerce les attributions confiées au procureur de la République, et le titre IV du livre V de la troisième partie. L'opération technique de mise au clair de données chiffrées suit les articles L. 3544-1 à L. 3544-5.",
+      "verbe": "R",
+      "principe": "P15",
+      "motif": "Expertise ordonnée par le tribunal : phrases resserrées. Passe 4 : l'intitulé recopié des articles exclus tombe, le renvoi chiffré suffit. Passe 5 : expertise ordonnée au cas par cas par décision motivée, d'office ou à la demande d'une partie (15.1). Le renvoi aux expertises de l'information (L3443-x, abrogés) devient le renvoi à l'expertise contradictoire de L3323-8. Relecture : le tribunal exerce les attributions que L3323-8 confie au procureur (séparation de L. 1). Effet de bord déclaré : l'expertise devant le tribunal devient contradictoire, au profit des parties. Le garde-fou n° 9 est tenu par L3542-1, que vise le renvoi au titre IV.",
+      "ligne_rouge": "aucune Passe 5 : Contradictoire : la partie demande l'expertise, le refus est spécialement motivé, l'expertise suit le régime contradictoire de L3323-8."
     },
     {
       "num": "L4421-23",
-      "texte": "Pour un supplément d'information, le tribunal commet par jugement l'un de ses membres, qui a les pouvoirs du magistrat exécutant une commission rogatoire d'un juge d'instruction selon le chapitre 2 du titre III du livre IV de la troisième partie.\nSi les débats ne peuvent être terminés à la même audience, le tribunal fixe par jugement le jour où ils seront continués. Les parties et les témoins non entendus ou invités à rester à la disposition du tribunal comparaissent à l'audience de renvoi sans autre citation.",
-      "verbe": "S",
+      "texte": "Pour un supplément d'enquête, le tribunal commet par jugement l'un de ses membres. Ce magistrat a, pour les actes d'investigation, les pouvoirs du procureur de la République et du juge de l'enquête et des libertés. Il accomplit ou autorise chaque acte selon son niveau, dans les formes des articles L. 3111-3 et L. 3111-4. Les mesures de sûreté restent régies par les articles qui les prévoient.\nSi les débats ne peuvent être terminés à la même audience, le tribunal fixe par jugement le jour où ils seront continués. Les parties et les témoins non entendus ou invités à rester à la disposition du tribunal comparaissent à l'audience de renvoi sans autre citation.",
+      "verbe": "R",
       "principe": "P19",
-      "motif": "Supplément d'information et continuation des débats : phrases resserrées (cité par L521-3 du code de la justice pénale des mineurs).",
-      "ligne_rouge": "aucune"
+      "motif": "Supplément d'information et continuation des débats : phrases resserrées (cité par L521-3 du code de la justice pénale des mineurs). Passe 5 : supplément d'enquête confié à un membre de la juridiction, avec les pouvoirs du procureur et du juge de l'enquête et des libertés (C, arbitrage « supplément d'enquête »), chaque acte à son niveau (B, L3111-3). La commission rogatoire tombe. Relecture : pouvoirs limités aux actes d'investigation, les mesures de sûreté restant hors du magistrat commis (G1, impartialité de L1132-1). Effet de bord déclaré : par L4511-2, le supplément d'enquête ainsi défini vaut aussi devant le tribunal contraventionnel.",
+      "ligne_rouge": "aucune Passe 5 : Graduation (B) : un acte des niveaux 3 et 4 reste autorisé par un juge du siège, dans les formes de L3111-4."
     },
     {
       "num": "L4421-25",
@@ -133,11 +133,11 @@
     },
     {
       "num": "L4421-26",
-      "texte": "Le tribunal ne peut renvoyer au ministère public, pour une peine criminelle, l'affaire dont l'a saisi une juridiction d'instruction lorsque la victime était constituée partie civile et assistée d'un avocat au moment de ce renvoi. Saisi d'un délit non intentionnel, il garde ce pouvoir s'il résulte des débats que les faits, commis intentionnellement, sont de nature à entraîner une peine criminelle.",
+      "texte": "Le tribunal ne peut renvoyer au ministère public, pour une peine criminelle, l'affaire dont l'a saisi un réquisitoire de renvoi lorsque la victime était constituée partie civile et assistée d'un avocat lors de l'avis de fin d'enquête. Saisi d'un délit non intentionnel, il garde ce pouvoir s'il résulte des débats que les faits, commis intentionnellement, sont de nature à entraîner une peine criminelle.",
       "verbe": "S",
       "principe": "P18",
-      "motif": "Exception au renvoi pour peine criminelle : phrases resserrées.",
-      "ligne_rouge": "Individualisation : la requalification en crime intentionnel reste possible."
+      "motif": "Exception au renvoi pour peine criminelle : phrases resserrées. Passe 5 : la décision de renvoi de la juridiction d'instruction devient le réquisitoire de renvoi, et la partie civile avisée de la fin d'enquête (L3333-1) a pu discuter la qualification (C5).",
+      "ligne_rouge": "Individualisation : la requalification en crime intentionnel reste possible. Passe 5 : La requalification en crime intentionnel reste possible. La partie civile garde sa voix sur la qualification à l'avis de fin d'enquête."
     },
     {
       "num": "L4421-27",
@@ -146,6 +146,14 @@
       "principe": "P20",
       "motif": "Jonction au fond et jugement séparé (L4421-28) en un article ; l'absence de recours vit à L. 4.",
       "ligne_rouge": "aucune"
+    },
+    {
+      "num": "L4421-30",
+      "verbe": "C",
+      "principe": "P19",
+      "texte": "À la première audience où l'affaire est appelée, le tribunal délictuel fixe le calendrier de l'affaire, après les observations du ministère public et des parties. Le calendrier fixe la date des débats au fond et, s'il y a lieu, les dates de dépôt des conclusions et des demandes d'actes.\nLe prévenu obtient de droit un renvoi, une fois, à sa demande ou à celle de son avocat. Tout autre renvoi est ordonné par décision motivée, d'office ou à la demande du ministère public ou d'une partie. Les renvois de droit des articles L. 4411-23, L. 4412-12 et L. 4413-18 s'appliquent en outre.\nAucun renvoi ne prolonge la détention du prévenu au-delà des délais des articles L. 3653-6 et L. 4413-33. À leur expiration, le prévenu est remis en liberté d'office, selon l'article L. 10.",
+      "motif": "Créé. Passe 5 : calendrier fixé à la première audience, un renvoi de droit pour la défense, les autres par décision motivée, jugement du détenu dans le délai butoir ou liberté d'office (A6, 13.1, 13.15). Les renvois de droit existants sont gardés. Effet de bord déclaré : L4511-2 rend le titre II applicable au tribunal contraventionnel, qui reçoit aussi le calendrier et le renvoi de droit, au profit de la défense.",
+      "ligne_rouge": "Art. 6 § 1 et § 3 b CEDH : un renvoi de droit pour préparer la défense, les autres motivés. G6 (L. 10) et art. 66 C : délais butoirs du détenu opposables, liberté d'office."
     },
     {
       "num": "L4422-2",
@@ -213,11 +221,11 @@
     },
     {
       "num": "L4423-1",
-      "texte": "Le président, ou l'assesseur qu'il désigne, informe s'il y a lieu le prévenu de son droit d'être assisté par un interprète, constate son identité et donne connaissance de l'acte qui saisit le tribunal. Il l'informe, s'il y a lieu, de son droit d'être assisté par un avocat et, pour les débats, de son droit de faire des déclarations, de répondre aux questions ou de se taire.\nIl constate la présence ou l'absence de la personne civilement responsable, de la partie civile, des experts, des interprètes et des témoins cités ou convoqués selon l'article L. 4413-28. Le tribunal peut admettre à témoigner les personnes présentes que les parties proposent sans les avoir régulièrement citées.\nLe président fait retirer les témoins dans la chambre qui leur est destinée, d'où ils ne sortent que pour déposer, et prend les mesures utiles pour qu'ils ne confèrent pas entre eux. Les règles du présent alinéa ne sont pas prescrites à peine de nullité.",
+      "texte": "Le président, ou l'assesseur qu'il désigne, informe s'il y a lieu le prévenu de son droit à l'interprétation selon l'article L. 1112-3, constate son identité et donne connaissance de l'acte qui saisit le tribunal. Il l'informe, s'il y a lieu, de son droit d'être assisté par un avocat et, pour les débats, de son droit de faire des déclarations, de répondre aux questions ou de se taire.\nIl constate la présence ou l'absence de la personne civilement responsable, de la partie civile, des experts, des interprètes et des témoins cités ou convoqués selon l'article L. 4413-28. Le tribunal peut admettre à témoigner les personnes présentes que les parties proposent sans les avoir régulièrement citées.\nLe président fait retirer les témoins dans la chambre qui leur est destinée, d'où ils ne sortent que pour déposer, et prend les mesures utiles pour qu'ils ne confèrent pas entre eux. Les règles du présent alinéa ne sont pas prescrites à peine de nullité.",
       "verbe": "R",
       "principe": "P25",
-      "motif": "Ouverture des débats en un article : identité et droits (L4423-1), présences (L4423-2, L4423-3), retrait des témoins (L4423-4).",
-      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : droit de se taire, avocat et interprète annoncés à l'ouverture."
+      "motif": "Ouverture des débats en un article : identité et droits (L4423-1), présences (L4423-2, L4423-3), retrait des témoins (L4423-4). Passe 5 : le droit à l'interprète devient le droit à l'interprétation de L1112-3 (15.2).",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : droit de se taire, avocat et interprète annoncés à l'ouverture. Passe 5 : Droit de se taire, avocat et interprétation annoncés à l'ouverture, gardés."
     },
     {
       "num": "L4423-5",
