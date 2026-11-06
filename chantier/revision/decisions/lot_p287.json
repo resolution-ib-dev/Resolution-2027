@@ -11,13 +11,13 @@
       "code": "cpp",
       "num": "L1451-1",
       "principe": "P23",
-      "motif": "Administrateur ad hoc du mineur victime, avocat d'office, appel non suspensif en dix jours : gardés, phrases resserrées. Le renvoi au décret en Conseil d'État (liste et indemnisation) reste.",
-      "ligne_rouge": "Minorité examinée : la protection du mineur victime par un tiers quand ses représentants y manquent est gardée, avec l'appel des représentants légaux.",
+      "motif": "Administrateur ad hoc du mineur victime, avocat d'office, appel non suspensif en dix jours : gardés, phrases resserrées. Le renvoi au décret en Conseil d'État (liste et indemnisation) reste. Passe 5 : fin du juge d'instruction (C, 13.3) : l'administrateur ad hoc est désigné par le procureur de la République ou par le juge de l'enquête et des libertés, la juridiction de jugement gardant ce pouvoir. Il exerce pour le mineur les droits de partie civile de l'enquête (G5, L. 9). La contestation de la désignation reste ouverte devant les mêmes chambres.",
+      "ligne_rouge": "Minorité examinée : la protection du mineur victime par un tiers quand ses représentants y manquent est gardée, avec l'appel des représentants légaux. Passe 5 : G5 et intérêt supérieur de l'enfant : administrateur ad hoc, avocat d'office et contestation de la désignation gardés.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le procureur de la République ou le juge d'instruction saisi de faits commis volontairement contre un mineur lui désigne un administrateur ad hoc lorsque ses représentants légaux, ou l'un d'eux, n'assurent pas complètement la protection de ses intérêts. Il le choisit parmi les proches de l'enfant ou sur une liste de personnalités. L'administrateur ad hoc protège les intérêts du mineur et exerce en son nom, s'il y a lieu, les droits de la partie civile. La juridiction de jugement dispose des mêmes pouvoirs.\nEn cas de constitution de partie civile, le juge fait désigner un avocat d'office au mineur qui n'en a pas choisi.\nLes représentants légaux du mineur peuvent faire appel de la désignation, sans effet suspensif, dans les dix jours de sa notification, devant la chambre des investigations et des libertés ou la chambre des appels délictuels ou contraventionnels.\nUn décret en Conseil d'État fixe la constitution de la liste et l'indemnisation des administrateurs ad hoc."
+          "nouveau": "Le procureur de la République ou le juge de l'enquête et des libertés saisi de faits commis volontairement contre un mineur lui désigne un administrateur ad hoc lorsque ses représentants légaux, ou l'un d'eux, n'assurent pas complètement la protection de ses intérêts. Il le choisit parmi les proches de l'enfant ou sur une liste de personnalités. L'administrateur ad hoc protège les intérêts du mineur et exerce en son nom, s'il y a lieu, les droits de la partie civile, y compris ceux de l'article L. 9. La juridiction de jugement dispose des mêmes pouvoirs.\nEn cas de constitution de partie civile, le procureur de la République ou la juridiction saisie fait désigner un avocat d'office au mineur qui n'en a pas choisi.\nLes représentants légaux du mineur peuvent contester la désignation, sans effet suspensif, dans les dix jours de sa notification, devant la chambre des investigations et des libertés ou la chambre des appels délictuels ou contraventionnels.\nUn décret en Conseil d'État fixe la constitution de la liste et l'indemnisation des administrateurs ad hoc."
         }
       ]
     },
@@ -25,13 +25,13 @@
       "code": "cpp",
       "num": "L1451-2",
       "principe": "P23",
-      "motif": "Avocat obligatoire du mineur victime entendu par le juge d'instruction, accès au dossier : gardés, phrases resserrées.",
+      "motif": "Avocat obligatoire du mineur victime entendu par le juge d'instruction, accès au dossier : gardés, phrases resserrées. Passe 5 : fin du juge d'instruction (C, 13.3) : l'avocat d'office du mineur victime est dû à toute audition par un magistrat, procureur de la République, juge de l'enquête et des libertés ou membre de la juridiction chargé d'un supplément d'enquête, et à toute confrontation avec la personne mise en cause, qui se faisait devant le juge d'instruction en 2029.",
       "ligne_rouge": "Minorité et droits de la défense de la victime (art. 16 DDHC) examinés : l'avocat d'office et l'accès au dossier sont gardés.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le mineur victime d'une infraction mentionnée à l'article L. 1721-2 est assisté par un avocat lorsque le juge d'instruction l'entend, même sans constitution de partie civile. À défaut d'avocat choisi par ses représentants légaux ou par l'administrateur ad hoc, le juge avise immédiatement le bâtonnier, qui en commet un d'office. Lors des auditions suivantes, cet avocat a accès au dossier, peut en obtenir copie et est convoqué comme les avocats des parties civiles."
+          "nouveau": "Le mineur victime d'une infraction mentionnée à l'article L. 1721-2 est assisté par un avocat lorsqu'un magistrat l'entend ou qu'il est confronté à la personne mise en cause, même sans constitution de partie civile. À défaut d'avocat choisi par ses représentants légaux ou par l'administrateur ad hoc, le magistrat qui l'entend ou qui dirige l'enquête avise immédiatement le bâtonnier, qui en commet un d'office. Lors des auditions suivantes, cet avocat a accès au dossier, peut en obtenir copie et est convoqué comme les avocats des parties civiles."
         }
       ]
     },
@@ -39,13 +39,13 @@
       "code": "cpp",
       "num": "L1451-4",
       "principe": "P23",
-      "motif": "Enregistrement audiovisuel des auditions du mineur victime : gardé. La mention de l'impossibilité technique relève de la règle générale de L1622-2.",
+      "motif": "Enregistrement audiovisuel des auditions du mineur victime : gardé. La mention de l'impossibilité technique relève de la règle générale de L1622-2. Passe 5 : une seule enquête dirigée par le procureur (B, C, 13.2, 13.3) : l'information et la commission rogatoire disparaissent, l'enregistrement de toute audition du mineur victime est gardé.",
       "ligne_rouge": "Minorité et vie privée examinées : l'enregistrement limite le nombre des auditions, sa diffusion reste punie (L3131-4).",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Afin d'en limiter le nombre, toute audition d'un mineur victime d'une infraction mentionnée à l'article L. 1721-2 au cours de l'enquête et de l'information fait l'objet d'un enregistrement audiovisuel. L'audition d'un mineur victime d'une infraction prévue aux articles 222-33-2-2 et 222-33-2-3 du code pénal peut faire l'objet d'un tel enregistrement. Le procureur de la République ou le juge d'instruction peut décider un enregistrement seulement sonore si l'intérêt du mineur le justifie. Il est avisé sans délai de l'audition réalisée au cours de l'enquête ou sur commission rogatoire."
+          "nouveau": "Afin d'en limiter le nombre, toute audition d'un mineur victime d'une infraction mentionnée à l'article L. 1721-2 au cours de l'enquête fait l'objet d'un enregistrement audiovisuel. L'audition d'un mineur victime d'une infraction prévue aux articles 222-33-2-2 et 222-33-2-3 du code pénal peut faire l'objet d'un tel enregistrement. Le procureur de la République peut décider un enregistrement seulement sonore si l'intérêt du mineur le justifie. Il est avisé sans délai de l'audition."
         }
       ]
     },
@@ -53,13 +53,13 @@
       "code": "cpp",
       "num": "L1451-5",
       "principe": "P23",
-      "motif": "Accompagnement du mineur victime (L1451-3) et présence d'un tiers à ses auditions : un article. L'accompagnement suit la règle générale de L1421-1, avec ses seuls écarts (administrateur ad hoc, association habilitée).",
+      "motif": "Accompagnement du mineur victime (L1451-3) et présence d'un tiers à ses auditions : un article. L'accompagnement suit la règle générale de L1421-1, avec ses seuls écarts (administrateur ad hoc, association habilitée). Passe 5 : une seule enquête dirigée par le procureur (B, C, 13.2, 13.3) : la présence d'un tiers à l'audition du mineur victime se décide par le procureur de la République.",
       "ligne_rouge": "Minorité examinée : l'accompagnement et la présence d'un psychologue, d'un médecin ou d'un proche sont gardés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le mineur victime d'un crime ou d'un délit peut être accompagné, dans les conditions de l'article L. 1421-1, par son représentant légal, par la personne majeure de son choix ou par un représentant d'une association d'aide aux victimes habilitée par le ministre de la justice, sauf si un administrateur ad hoc lui a été désigné.\nAu cours de l'enquête ou de l'information, l'audition ou la confrontation d'un mineur victime d'une infraction mentionnée à l'article L. 1721-2 se fait, sur décision du procureur de la République ou du juge d'instruction, le cas échéant à la demande du mineur ou de son représentant légal, en présence d'un psychologue ou d'un médecin spécialistes de l'enfance, d'un membre de sa famille, de l'administrateur ad hoc ou d'une personne chargée d'un mandat du juge des enfants."
+          "nouveau": "Le mineur victime d'un crime ou d'un délit peut être accompagné, dans les conditions de l'article L. 1421-1, par son représentant légal, par la personne majeure de son choix ou par un représentant d'une association d'aide aux victimes habilitée par le ministre de la justice, sauf si un administrateur ad hoc lui a été désigné.\nAu cours de l'enquête, l'audition ou la confrontation d'un mineur victime d'une infraction mentionnée à l'article L. 1721-2 se fait, sur décision du procureur de la République, le cas échéant à la demande du mineur ou de son représentant légal, en présence d'un psychologue ou d'un médecin spécialistes de l'enfance, d'un membre de sa famille, de l'administrateur ad hoc ou d'une personne chargée d'un mandat du juge des enfants."
         }
       ]
     },
@@ -109,13 +109,13 @@
       "code": "cpp",
       "num": "L1453-1",
       "principe": "P23",
-      "motif": "Domiciliation professionnelle de la victime agent public ou professionnel de santé, sans accord hiérarchique, et information sur ce droit : gardées, phrases resserrées.",
+      "motif": "Domiciliation professionnelle de la victime agent public ou professionnel de santé, sans accord hiérarchique, et information sur ce droit : gardées, phrases resserrées. Passe 5 : la constitution de partie civile se fait dans l'enquête, par déclaration au procureur de la République (C3, L. 3324-16).",
       "ligne_rouge": "aucune",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La personne dépositaire de l'autorité publique ou chargée d'une mission de service public victime d'une infraction commise en raison de ses fonctions ou de sa mission peut déclarer comme domicile son adresse professionnelle, sans l'accord de sa hiérarchie. Il en est de même du professionnel de santé régi par la quatrième partie du code de la santé publique, même s'il exerce à titre libéral. La victime est informée de ce droit lorsqu'elle dépose plainte, y compris à distance, et lorsqu'elle déclare au procureur de la République ou au juge d'instruction vouloir se constituer partie civile."
+          "nouveau": "La personne dépositaire de l'autorité publique ou chargée d'une mission de service public victime d'une infraction commise en raison de ses fonctions ou de sa mission peut déclarer comme domicile son adresse professionnelle, sans l'accord de sa hiérarchie. Il en est de même du professionnel de santé régi par la quatrième partie du code de la santé publique, même s'il exerce à titre libéral. La victime est informée de ce droit lorsqu'elle dépose plainte, y compris à distance, et lorsqu'elle se constitue partie civile selon l'article L. 3324-16."
         }
       ]
     },
