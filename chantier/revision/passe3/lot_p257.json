@@ -1,127 +1,87 @@
 {
   "lot": "lot_p257",
   "titre": "CPP, partie législative, 2e partie, livre Ier, titre II : Juridictions du premier degré",
-  "ecart_volume": "Écart motivé : 3 821 mots en passe 3, ramenés en passe 4 à 3 789 pour un plafond de 3 469 (80 → 42 articles). Le titre porte la composition des juridictions (art. 34 C), qui reste écrite : la cour criminelle départementale gagne 123 mots par l'échevinage écrit dans la loi (registre 4.1, 4.2, 9.10, 9.13), les incapacités et incompatibilités des jurés (L2123-17, L2123-18) et la liste des crimes jugés sans jurés (L2123-31) restent mot pour mot, comme la collégialité, l'ordre de remplacement des magistrats, les incompatibilités des magistrats de la cour (L2123-10), les planchers des listes du jury, la commission du jury et le tirage au sort public (juge naturel, impartialité). Tout le reste est déjà fusionné, déclassé (formation matérielle des listes du jury, circuits internes) ou abrogé (redites de L1132-1 et du statut).",
+  "ecart_volume": "Écart motivé. Passe 5 : le titre est réécrit pour les réformes de structure (C, C4, 14.6, 14.7) et son volume suit la structure. Le chapitre du juge d'instruction tombe (six articles, survie T1), la cour criminelle départementale fusionne dans la cour criminelle unique, le tribunal de l'application des peines devient la formation collégiale du juge. Deux articles naissent : la formation collégiale du juge de l'enquête et des libertés (L2122-6, C4) et la formation de jury (L2123-33, 14.7), qui portent des garanties d'impartialité et le droit au jury (art. 64 révisé). Le reste du titre porte la composition des juridictions (art. 34 C) : incapacités et incompatibilités des jurés, liste des crimes jugés sans jurés, planchers des listes du jury, commission et tirage au sort public, collégialité et remplacement des magistrats restent écrits, comme en passes 3 et 4. Relecture adverse : L2122-1 reçoit les fermetures provisoires d'établissement du juge d'instruction (L3445-1 à L3445-8, listes fermées et durées), L2123-11 la condition d'expérience du président, L2123-33 les garanties du délai de demande de jury.",
   "articles_cible": [
     {
-      "num": "L2121-1",
-      "texte": "Le juge d'instruction est chargé des informations en matière criminelle, délictuelle et contraventionnelle, et des informations pour recherche des causes de la mort, de blessures graves ou d'une disparition prévues à la troisième partie. Il procède à tous les actes d'information qu'il juge utiles à la manifestation de la vérité. Il instruit à charge et à décharge.\nIl n'informe qu'après avoir été saisi par un réquisitoire du procureur de la République ou par une plainte avec constitution de partie civile, dans les conditions du titre Ier du livre IV de la troisième partie. Il peut requérir directement la force publique.",
-      "verbe": "R",
-      "principe": "P23",
-      "motif": "Attributions, saisine et force publique du juge d'instruction réunies (L2121-3 et L2121-4 fusionnés). « Conformément à la loi » et « conformément aux dispositions » tombent (P20). Le renvoi de saisine vise le titre Ier du livre IV de la troisième partie (passe 2).",
-      "ligne_rouge": "Instruction à charge et à décharge gardée mot pour mot (aussi à L1131-1)."
-    },
-    {
-      "num": "L2121-5",
-      "texte": "Il y a un ou plusieurs juges d'instruction dans chaque tribunal judiciaire. Lorsqu'un département compte plusieurs tribunaux judiciaires, un décret peut fixer la liste de ceux qui n'en ont pas et désigner le tribunal dont les juges d'instruction connaissent de leurs procédures.\nSi le juge d'instruction est absent, empêché ou nommé à un autre poste, le tribunal judiciaire peut décider qu'il est remplacé par un ou plusieurs de ses juges qui ne sont pas juges d'instruction.",
-      "verbe": "R",
-      "principe": "P23",
-      "motif": "Organisation des cabinets d'instruction : présence dans chaque tribunal, carte par décret, remplacement du juge (L2121-7 fusionné). La nomination selon l'ordonnance statutaire et la délégation selon l'article LO 121-4 du code de l'organisation judiciaire tombent : ces textes s'appliquent d'eux-mêmes (P20).",
-      "ligne_rouge": "Juge naturel : le remplaçant est désigné par le tribunal parmi ses juges, comme en 2029 ; la délégation d'un juge par le premier président reste régie par l'article LO 121-4 du code de l'organisation judiciaire."
-    },
-    {
-      "num": "L2121-6",
-      "texte": "Le juge d'instruction exerce ses fonctions au siège de son tribunal judiciaire. Pour exécuter les actes de l'information, il peut se transporter sur tout le territoire national et, dans les conditions des troisième et sixième parties, sur le territoire d'un État étranger.",
-      "verbe": "S",
-      "principe": "P23",
-      "motif": "Siège et transport du juge d'instruction : gardés (cité par L6123-6), phrase resserrée.",
-      "ligne_rouge": "aucune (passe 1)."
-    },
-    {
-      "num": "L2121-9",
-      "texte": "Dans certains tribunaux judiciaires, les juges d'instruction sont regroupés en un pôle de l'instruction. Un décret fixe la liste de ces tribunaux et la compétence territoriale de leurs juges d'instruction, qui peut couvrir le ressort de plusieurs tribunaux judiciaires. Un ou plusieurs juges d'instruction peuvent être chargés de coordonner l'activité du pôle, en tenant compte des spécialisations prévues au titre V du présent livre, dans des conditions fixées par décret.",
-      "verbe": "R",
-      "principe": "P23",
-      "motif": "Pôles de l'instruction : regroupement, carte par décret (L2121-12 fusionné) et coordination.",
-      "ligne_rouge": "aucune (passe 1)."
-    },
-    {
-      "num": "L2121-10",
-      "texte": "Les juges d'instruction d'un pôle de l'instruction sont seuls compétents pour les informations qui donnent lieu à une cosaisine selon les articles L. 3414-3 et L. 3414-6.",
-      "verbe": "S",
-      "principe": "P13",
-      "motif": "Cosaisine réservée au pôle : gardée (citée par L3412-1). La plage « L. 3414-3 à L. 3414-6 » vise deux articles abrogés en passe 3 (lot p176) : elle devient « L. 3414-3 et L. 3414-6 ».",
-      "ligne_rouge": "aucune (passe 1)."
-    },
-    {
-      "num": "L2121-11",
-      "texte": "Ils sont aussi seuls compétents pour les informations en matière de crime, même après requalification des faits au cours de l'information ou à son règlement. Toutefois, pour un crime puni de quinze ou de vingt ans de réclusion criminelle commis hors récidive légale, le procureur de la République peut requérir l'ouverture de l'information auprès du juge d'instruction d'un tribunal judiciaire sans pôle de l'instruction, s'il estime qu'une cosaisine, même en cours d'instruction, paraît peu probable au vu des circonstances et de la simplicité de l'affaire.",
-      "verbe": "S",
-      "principe": "P23",
-      "motif": "Crimes instruits au pôle, exception des crimes de quinze ou vingt ans hors récidive : gardée (citée par L3412-1), phrases resserrées.",
-      "ligne_rouge": "Juge naturel : la compétence exclusive du pôle et la seule exception, fixée par la loi, sont gardées. Aucun effet sur la peine (art. 8 DDHC)."
-    },
-    {
       "num": "L2122-1",
-      "texte": "Le juge des libertés et de la détention statue, au cours de l'information ou lorsqu'une juridiction de jugement est saisie, sur la détention provisoire, l'assignation à résidence avec surveillance électronique et le contrôle judiciaire, selon le livre VI de la troisième partie et le livre IV de la quatrième partie. Lorsqu'il statue à l'issue d'un débat contradictoire, il est assisté d'un greffier.\nIl est saisi, selon les cas, par le procureur de la République, par le juge d'instruction ou par la personne qui conteste un acte de la procédure. Il peut se déplacer sur tout le territoire national pour tenir les débats contradictoires ou contrôler l'exécution des actes d'investigation qu'il a autorisés.\nEn cas de vacance d'emploi, d'absence ou d'empêchement, le président du tribunal judiciaire désigne un autre magistrat du siège pour le suppléer.",
+      "texte": "Il y a un ou plusieurs juges de l'enquête et des libertés dans chaque tribunal judiciaire. Le juge de l'enquête et des libertés est un magistrat du siège. Il exerce ses fonctions au siège de son tribunal.\nAu cours de l'enquête, il décide par ordonnance motivée des mesures que lui réserve l'article L. 5. Il est saisi par requête du procureur de la République. Il est saisi aussi par la personne qui conteste un acte de la procédure, dans les cas de l'article L. 8 et dans ceux que prévoit le présent code.\nSur requête du procureur de la République, il peut ordonner à titre provisoire :\n1° Lorsque l'enquête porte sur une infraction de trafic de stupéfiants prévue par les articles 222-34 à 222-40 du code pénal, sur une participation à une association de malfaiteurs prévue par l'article 450-1 du même code ou un concours à une organisation criminelle prévu par l'article 450-1-1 du même code qui a pour objet de préparer l'une de ces infractions, ou sur un recel ou un blanchiment prévu par les articles 321-1, 321-2 et 324-1 à 324-6-1 du même code commis en lien avec l'une d'elles, la fermeture, pour six mois au plus, de tout local commercial, établissement ou lieu ouvert au public ou utilisé par le public, et de leurs annexes, où l'infraction a été commise par l'exploitant ou avec sa complicité.\n2° Lorsque l'enquête porte sur une infraction de proxénétisme prévue par les articles 225-5 à 225-12-2 du code pénal ou sa tentative prévue par l'article 229-6 du même code, ou sur une participation à une association de malfaiteurs prévue par l'article 450-1 du même code qui a pour objet de préparer l'une de ces infractions, la fermeture, pour trois mois au plus, d'un établissement mentionné aux 1° et 2° de l'article 225-10 du code pénal dont le détenteur, le gérant ou le préposé est suspecté ou mis en cause, ou de tout hôtel, maison meublée, pension ou lieu quelconque ouvert au public ou utilisé par le public dans lequel une personne suspectée ou mise en cause a trouvé au cours de l'enquête, auprès de la direction ou du personnel, un concours sciemment donné pour détruire des preuves, exercer des pressions sur des témoins ou favoriser la continuation de son activité délictueuse.\nIl peut renouveler la fermeture dans les mêmes formes, quelle qu'en ait été la durée, pour trois mois au plus chaque fois. Ses décisions sont, s'il y a lieu, notifiées aux personnes intéressées, qui peuvent lui demander la mainlevée. Après renvoi, la mainlevée et le renouvellement, pour trois mois au plus chaque fois, relèvent de la juridiction qui connaît des demandes de mise en liberté selon l'article L. 3653-8.\nLorsqu'une juridiction de jugement est saisie, il statue sur la détention provisoire, l'assignation à résidence avec surveillance électronique et le contrôle judiciaire, selon le livre VI de la troisième partie et le livre IV de la quatrième partie.\nLorsqu'il statue sur la détention à l'issue d'une audience, celle-ci est publique, sauf les cas de l'article L. 1. Lorsqu'il statue à l'issue d'une audience, il est assisté d'un greffier. Il peut se déplacer sur tout le territoire national pour tenir ses audiences ou contrôler l'exécution des actes qu'il a autorisés. Il peut requérir directement la force publique.\nLe juge de l'enquête et des libertés et la chambre des investigations et des libertés forment les juridictions de l'enquête.\nEn cas de vacance d'emploi, d'absence ou d'empêchement, le président du tribunal judiciaire désigne un autre magistrat du siège pour le suppléer.",
       "verbe": "R",
-      "principe": "P23",
-      "motif": "Le juge des libertés et de la détention en un article : attributions, greffier, saisine (L2122-3), déplacement (L2122-4), suppléance (L2122-5). « Sans préjudice des autres compétences » tombe : les autres lois s'appliquent d'elles-mêmes (P20). La nomination statutaire tombe (P20). La suppléance par grades successifs devient la désignation d'un magistrat du siège par le président.",
-      "ligne_rouge": "Art. 66 C : le juge qui statue sur la détention, l'assignation et le contrôle judiciaire reste nommé, assisté d'un greffier au débat contradictoire ; sa suppléance reste confiée à un magistrat du siège désigné par le président du tribunal."
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, 14.6, C ; carte, section 1) : le juge de l'enquête et des libertés succède au juge des libertés et de la détention et reprend les fonctions juridictionnelles du juge d'instruction (présence dans chaque tribunal de L2121-5, force publique de L2121-4, saisine par requête au lieu du réquisitoire de L2121-3). Ses attributions se lisent au socle (L5, G1) et ses saisines par les parties à L8 (G4), sans les redire. L'audience de détention est publique (14.8, L1, G7). « Juridictions de l'enquête » est défini ici (carte, section 8). Le chapitre 2 s'intitule « Juge de l'enquête et des libertés ». Suppléance par un magistrat du siège (10.198) gardée. Relecture adverse : la publicité vaut pour l'audience quand il y en a une, les décisions ultérieures sur la détention se prenant sur pièces ou à distance (L6). Coordination G10 (carte, section 3.5) : les fermetures provisoires d'établissement que décidait le juge d'instruction (L3445-1 à L3445-8, lot p179) passent au juge, sur requête du procureur, avec leurs infractions, leurs lieux, leurs durées de six et trois mois, le renouvellement par trois mois, la notification, la mainlevée et la compétence après renvoi (L3653-8), mot pour mot hors vocabulaire (« poursuivi » devient « suspecté ou mis en cause », « au cours des poursuites » devient « au cours de l'enquête »).",
+      "ligne_rouge": "Art. 66 C, CEDH art. 5 (contrôle d'un juge) examiné : toute privation de liberté au-delà de la garde à vue et toute mesure des niveaux 3 et 4 reste à un juge du siège, par renvoi à L5. Greffier, déplacement et suppléance gardés. G1 (L5), G4 (L8), G7 (L1) visés. Propriété et liberté d'entreprendre (fermetures) examinées : mesure provisoire décidée par un juge du siège, infractions en liste fermée, durée bornée, notification et mainlevée demandable, comme en 2029."
+    },
+    {
+      "num": "L2122-6",
+      "texte": "Le juge de l'enquête et des libertés statue en formation collégiale de [trois] juges :\n1° De droit, lorsque l'enquête vise nommément, comme personne suspectée ou mise en cause, un membre du Gouvernement, ou une personne investie d'un mandat électif public pour des faits commis dans l'exercice ou à l'occasion de son mandat.\n2° Sur décision du président du tribunal judiciaire, prise d'office ou à la requête du procureur de la République ou d'une partie, lorsque l'affaire est d'une gravité ou d'une complexité particulière.\nDans le tribunal où siège une juridiction spécialisée du titre V du présent livre, la formation collégiale qui statue dans une affaire de sa compétence est composée de juges de l'enquête et des libertés désignés pour ces affaires.\nLe président du tribunal judiciaire désigne les membres de la formation, qui est présidée par le plus ancien d'entre eux. Les décisions du président prises selon le présent article sont des mesures d'administration judiciaire.\nLa formation collégiale exerce toutes les attributions du juge de l'enquête et des libertés dans l'affaire. Lorsque l'urgence ne permet pas de la réunir, l'un de ses membres statue seul. La formation réexamine cette décision dans les [cinq] jours. À défaut, la mesure ordonnée par ce seul membre prend fin.",
+      "verbe": "C",
+      "principe": "P7",
+      "motif": "Passe 5 (C4, 13.8, 14.6 ; carte, section 3.5) : formation collégiale de [trois] juges, de droit pour l'enquête qui vise un élu ou un membre du Gouvernement, sur décision du président du tribunal pour l'affaire grave ou complexe. Elle remplace la cosaisine et le pôle de l'instruction (L2121-9, L2121-10, carte, section 1). Précisions déléguées : l'élu s'entend de la personne investie d'un mandat électif public, pour des faits liés au mandat ou aux fonctions ; la partie peut demander la collégialité (P7) ; l'urgence permet la décision d'un seul membre, réexaminée dans les [cinq] jours, pour que la collégialité ne retarde aucune décision sur la liberté. Relecture adverse : le membre du Gouvernement est visé quels que soient les faits (art. 68-1 C : les faits liés aux fonctions relèvent de la Cour de justice de la République), l'élu pour les seuls faits liés au mandat, pour borner le nombre d'affaires, le 2° restant ouvert hors ce cas. La mesure d'administration judiciaire vise les seules décisions du président, les décisions de la formation restant susceptibles de recours (14.9). Faute de réexamen dans les [cinq] jours, la mesure prise par un seul membre prend fin.",
+      "ligne_rouge": "Art. 16 DDHC (impartialité, apparence d'indépendance) examiné : le contrôle collégial compense la direction de l'enquête par un parquet hiérarchisé (C4). Art. 66 C : aucune décision sur la liberté n'attend la réunion de la formation. G1 tenu par L2122-1."
     },
     {
       "num": "L2123-1",
-      "texte": "Sous réserve du chapitre 4 du présent titre, la cour d'assises a plénitude de juridiction pour juger en premier ressort les personnes accusées d'un crime par une décision de mise en accusation. Elle ne connaît d'aucune autre accusation. Elle juge aussi en appel selon les articles L. 2132-1 et L. 2132-4.",
-      "verbe": "S",
+      "texte": "La cour criminelle a plénitude de juridiction pour juger en premier ressort les personnes accusées d'un crime et renvoyées devant elle selon les articles L. 3333-3, L. 3762-1 et L. 4113-4. Elle juge aussi les délits connexes au sens de l'article L. 1720-2 et le délit dont le jugement lui est renvoyé selon l'article L. 4411-40. Elle ne connaît d'aucune autre accusation. Elle juge en appel selon les articles L. 2132-1 et L. 2132-4.",
+      "verbe": "R",
       "principe": "P17",
-      "motif": "Plénitude de juridiction de la cour d'assises : gardée, phrase resserrée.",
-      "ligne_rouge": "Droit d'être jugé par des citoyens (P17) : compétence de la cour d'assises avec jury gardée."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). La compétence de la cour criminelle départementale (L2124-1, crimes de quinze ou vingt ans, délits connexes) y est fusionnée. La décision de mise en accusation devient le réquisitoire de renvoi (L3333-3, C5). Le délit puni d'au moins [sept] ans renvoyé à la demande du prévenu (L4411-40, 14.7) y entre. Le chapitre 3 s'intitule « Cour criminelle ». Relecture adverse : la plénitude de juridiction vise les trois actes de renvoi, réquisitoire (L3333-3), arrêt de la chambre (L3762-1) et ordonnance du juge sur recours de la victime (L4113-4).",
+      "ligne_rouge": "Droit d'être jugé par des citoyens (P17, art. 64 révisé) examiné : la cour criminelle siège avec des jurés (L2123-8), en formation de jury à la demande (L2123-33). Art. 8 DDHC : aucune règle de peine. Plénitude de juridiction et appel gardés."
     },
     {
       "num": "L2123-3",
-      "texte": "Il est tenu des assises dans chaque département. Elles se tiennent ordinairement dans la ville où siège la cour d'appel lorsque le département en compte une, au chef-lieu dans les autres départements. Un décret en Conseil d'État peut exceptionnellement fixer le siège de la cour d'assises dans une autre ville du département pourvue d'un tribunal judiciaire. Lorsque le chef-lieu où se tiennent les assises n'est pas le siège d'un tribunal judiciaire, le tribunal compétent pour la désignation du greffe et des assesseurs, la formation du jury, les actes préparatoires et la révision de la liste du jury est celui dans le ressort duquel se tiennent les assises.",
+      "texte": "La cour criminelle siège dans chaque département. Elle siège ordinairement dans la ville où siège la cour d'appel lorsque le département en compte une, au chef-lieu dans les autres départements. Un décret en Conseil d'État peut exceptionnellement fixer son siège dans une autre ville du département pourvue d'un tribunal judiciaire. Lorsque la ville où elle siège n'est pas le siège d'un tribunal judiciaire, le tribunal compétent pour la désignation du greffe et des assesseurs, la désignation des jurés, les actes préparatoires et la révision de la liste du jury est celui dans le ressort duquel elle siège.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Tenue des assises dans chaque département et siège de la cour (L2123-2 fusionné).",
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Siège de la cour dans chaque département (L2123-2 fusionné), qui reçoit le siège de la cour criminelle départementale (L2124-2). « Formation du jury » devient « désignation des jurés », la formation de jury désignant désormais la composition de L2123-33.",
       "ligne_rouge": "Juge naturel : le siège reste fixé par la loi, l'exception par décret en Conseil d'État, comme en 2029."
     },
     {
       "num": "L2123-4",
-      "texte": "La cour d'appel peut, sur les réquisitions du procureur général, ordonner par arrêt motivé que les assises se tiennent au siège d'un autre tribunal que celui où elles se tiennent habituellement. Sur les mêmes réquisitions, la cour d'appel peut former autant de sections d'assises que les besoins du service l'exigent.",
+      "texte": "La cour d'appel peut, sur les réquisitions du procureur général, ordonner par arrêt motivé que la cour criminelle siège au siège d'un autre tribunal que celui où elle siège habituellement. Sur les mêmes réquisitions, la cour d'appel peut former autant de sections de la cour criminelle que les besoins du service l'exigent.",
       "verbe": "D",
       "principe": "P23",
-      "motif": "Assises tenues dans un autre tribunal par arrêt motivé, et sections d'assises (L2123-5 fusionné). Passe 4 : la transmission de l'arrêt aux tribunaux intéressés par le procureur général descend au décret (P1, circuit interne), comme à L2152-4. L'arrêt motivé sur réquisitions reste dans la loi.",
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Siège déplacé par arrêt motivé et sections (L2123-5 fusionné). La transmission de l'arrêt aux tribunaux intéressés reste au décret (passe 4, P1).",
       "ligne_rouge": "Juge naturel : le déplacement du siège reste décidé par arrêt motivé de la cour d'appel."
     },
     {
       "num": "L2123-6",
-      "texte": "Le premier président de la cour d'appel fixe, sur proposition du procureur général, la date d'ouverture des sessions chaque fois qu'il est nécessaire. Dans le cas de l'article L. 2123-4, l'arrêt de la cour d'appel la fixe. Le président de la cour d'assises arrête le rôle de chaque session sur proposition du ministère public, ou le premier président le fait à la demande du procureur général.",
+      "texte": "Le premier président de la cour d'appel fixe, sur proposition du procureur général, la date d'ouverture des sessions chaque fois qu'il est nécessaire. Dans le cas de l'article L. 2123-4, l'arrêt de la cour d'appel la fixe. Le président de la cour criminelle arrête le rôle de chaque session sur proposition du ministère public, ou le premier président le fait à la demande du procureur général.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Ouverture des sessions et rôle (L2123-7 fusionné).",
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Ouverture des sessions et rôle (L2123-7 fusionné), qui reçoivent l'audiencement de la cour criminelle départementale (L2124-5).",
       "ligne_rouge": "aucune (passe 1)."
     },
     {
       "num": "L2123-8",
-      "texte": "La cour d'assises comprend la cour, composée d'un président et de deux assesseurs, et le jury.",
+      "texte": "La cour criminelle est composée de [trois] magistrats, un président et deux assesseurs, et de [trois] jurés. À la demande de l'accusé, elle statue en formation de jury selon l'article L. 2123-33.",
       "verbe": "R",
-      "principe": "P23",
-      "motif": "Composition de la cour d'assises en une phrase : la cour (président et deux assesseurs, L2123-9 et premier alinéa de L2123-12 fusionnés) et le jury.",
-      "ligne_rouge": "Composition des juridictions : un président et deux assesseurs, comme en 2029."
+      "principe": "P17",
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Formation ordinaire de [trois] magistrats et [trois] jurés (14.7, remplace 4.1 et 9.11). La composition de la cour criminelle départementale (L2124-3, L2124-4) y est fusionnée. « Citoyen assesseur » devient « juré » (carte, section 8).",
+      "ligne_rouge": "Droit d'être jugé par des citoyens (P17, art. 64 révisé) examiné : trois jurés en formation ordinaire, six en formation de jury à la demande. La culpabilité aux deux tiers (quatre voix sur six, L4325-6) exige au moins un juré (garde-fou n° 17)."
     },
     {
       "num": "L2123-10",
-      "texte": "Ne peut faire partie de la cour le magistrat qui, dans l'affaire soumise à la cour d'assises, a fait un acte de poursuite ou d'instruction, ou participé à l'arrêt de mise en accusation ou à une décision sur le fond relative à la culpabilité de l'accusé.",
+      "texte": "Ne peut faire partie de la cour le magistrat qui, dans l'affaire soumise à la cour criminelle, a fait un acte de poursuite, a exercé les fonctions de juge de l'enquête et des libertés, ou a participé à un arrêt de la chambre des investigations et des libertés sur les charges ou à une décision sur le fond relative à la culpabilité de l'accusé.",
       "verbe": "R",
       "principe": "P25",
-      "motif": "Incompatibilités des magistrats de la cour : gardées dans leur champ, l'affaire (relecture g39 : L1132-1 ne joue que dans une même procédure et L1132-2 ne couvre pas l'acte d'instruction). « Conformément à l'article L. 1132-1 » tombe (P20).",
-      "ligne_rouge": "Impartialité : les quatre cas de 2029 restent écrits, mot pour mot."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). L'acte d'instruction devient la fonction de juge de l'enquête et des libertés (10.59, L1132-1), l'arrêt de mise en accusation devient l'arrêt sur les charges rendu sur recours contre le réquisitoire de renvoi (C5, L3762-1).",
+      "ligne_rouge": "Impartialité (art. 16 DDHC) examinée : les quatre cas de 2029 restent, chacun dans son équivalent de la procédure nouvelle."
     },
     {
       "num": "L2123-11",
-      "texte": "La cour d'assises est présidée par le premier président de la cour d'appel ou par un président de chambre ou un conseiller qu'il désigne par ordonnance. Il désigne de même les assesseurs parmi les conseillers de la cour d'appel et les présidents, vice-présidents et juges du ressort, dont un au plus parmi les magistrats exerçant à titre temporaire et les magistrats honoraires exerçant des fonctions juridictionnelles.\nSi la durée ou l'importance de la session le justifie, le premier président ou, la session ouverte, le président de la cour d'assises désigne un ou plusieurs assesseurs supplémentaires. Ils siègent aux audiences et ne prennent part aux délibérations qu'en cas d'empêchement d'un assesseur titulaire, constaté par ordonnance motivée du président de la cour d'assises.\nUn magistrat empêché avant l'ouverture de la session est remplacé par ordonnance du premier président. Au cours de la session, le président est remplacé par l'assesseur du rang le plus élevé, et un assesseur par un magistrat du siège de la cour d'appel ou du tribunal siège de la cour d'assises, désigné par ordonnance du président de la cour d'assises.",
+      "texte": "La cour criminelle est présidée par le premier président de la cour d'appel ou par un président de chambre ou un conseiller qu'il désigne par ordonnance. Le président de la formation ordinaire est choisi parmi les présidents de chambre et les conseillers du ressort qui exercent ou ont exercé la présidence d'une juridiction criminelle. Il désigne de même les assesseurs parmi les conseillers de la cour d'appel et les présidents, vice-présidents et juges du ressort, dont un au plus parmi les magistrats exerçant à titre temporaire et les magistrats honoraires exerçant des fonctions juridictionnelles.\nSi la durée ou l'importance de la session le justifie, le premier président ou, la session ouverte, le président de la cour criminelle désigne un ou plusieurs assesseurs supplémentaires. Ils siègent aux audiences et ne prennent part aux délibérations qu'en cas d'empêchement d'un assesseur titulaire, constaté par ordonnance motivée du président de la cour criminelle.\nUn magistrat empêché avant l'ouverture de la session est remplacé par ordonnance du premier président. Au cours de la session, le président est remplacé par l'assesseur du rang le plus élevé, et un assesseur par un magistrat du siège de la cour d'appel ou du tribunal siège de la cour criminelle, désigné par ordonnance du président de la cour criminelle.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Les magistrats de la cour en un article : présidence, assesseurs et leur désignation (L2123-13), assesseurs supplémentaires (L2123-12), remplacement (L2123-14). Le renvoi à la « section II du chapitre V bis » de l'ordonnance statutaire tombe : le magistrat à titre temporaire ou honoraire n'exerce que dans les conditions de son statut.",
-      "ligne_rouge": "Composition et juge naturel : désignation par ordonnance du premier président, un seul assesseur non professionnel, assesseur supplémentaire qui ne délibère qu'en cas d'empêchement constaté par ordonnance motivée, ordre de remplacement fixé par la loi."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Désignation et remplacement des magistrats (L2123-12 à L2123-14 fusionnés), qui reçoivent ceux de la cour criminelle départementale (L2124-4) : un magistrat non professionnel au plus (9.13). Relecture adverse : la condition d'expérience du président de la cour criminelle départementale (L2124-4#1) passe à la formation ordinaire, qui en reprend le modèle (rien ne recule hors réforme nommée).",
+      "ligne_rouge": "Composition et juge naturel : désignation par ordonnance du premier président, un magistrat non professionnel au plus, comme en 2029."
     },
     {
       "num": "L2123-15",
-      "texte": "Le jury de la cour d'assises statuant en premier ressort est composé de six citoyens désignés selon la présente sous-section.",
-      "verbe": "S",
+      "texte": "En premier ressort, les jurés sont au nombre de [trois] dans la formation ordinaire et de [six] dans la formation de jury. Ils sont désignés selon la présente sous-section.",
+      "verbe": "R",
       "principe": "P17",
-      "motif": "Six jurés en premier ressort : gardé.",
-      "ligne_rouge": "Droit d'être jugé par des citoyens (P17) : six jurés, comme en 2029."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Nombre des jurés selon la formation (14.7).",
+      "ligne_rouge": "Droit d'être jugé par des citoyens (P17) examiné : six jurés à la demande de l'accusé, comme le jury de 2029, trois jurés de droit au lieu des deux citoyens assesseurs de la cour criminelle départementale."
     },
     {
       "num": "L2123-16",
@@ -149,91 +109,75 @@
     },
     {
       "num": "L2123-19",
-      "texte": "Sont dispensées des fonctions de juré, si elles le demandent à la commission prévue à l'article L. 2123-25, les personnes âgées de plus de soixante-dix ans et celles qui n'ont pas leur résidence principale dans le département siège de la cour d'assises. La commission peut aussi dispenser la personne qui invoque un motif grave qu'elle reconnaît valable.\nSont exclus ou rayés de la liste annuelle des jurés et de la liste spéciale des jurés suppléants ceux qui ont rempli les fonctions de juré dans le département depuis moins de cinq ans. La commission peut aussi exclure les personnes qui, pour un motif grave, ne paraissent pas en mesure d'exercer les fonctions de juré. Une objection morale d'ordre laïque ou religieux ne constitue pas un motif grave susceptible de justifier l'exclusion de la liste des jurés.\nL'inobservation du présent article n'entache d'aucune nullité la formation du jury.",
+      "texte": "Sont dispensées des fonctions de juré, si elles le demandent à la commission prévue à l'article L. 2123-25, les personnes âgées de plus de soixante-dix ans et celles qui n'ont pas leur résidence principale dans le département siège de la cour criminelle. La commission peut aussi dispenser la personne qui invoque un motif grave qu'elle reconnaît valable.\nSont exclus ou rayés de la liste annuelle des jurés et de la liste spéciale des jurés suppléants ceux qui ont rempli les fonctions de juré dans le département depuis moins de cinq ans. La commission peut aussi exclure les personnes qui, pour un motif grave, ne paraissent pas en mesure d'exercer les fonctions de juré. Une objection morale d'ordre laïque ou religieux ne constitue pas un motif grave susceptible de justifier l'exclusion de la liste des jurés.\nL'inobservation du présent article n'entache d'aucune nullité la composition de la cour.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Dispenses et exclusions en un article (L2123-20 fusionné). L'objection morale reste écartée comme motif d'exclusion, et l'inobservation reste sans nullité.",
-      "ligne_rouge": "Droits de la défense (signalé en passe 1 sur L2123-20) : la règle « aucune nullité » porte sur la seule formation des listes, le jury de jugement reste contrôlé par les récusations et par L4321-4. Gardée mot pour mot."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Dispenses et exclusions (L2123-20 fusionné) inchangées. « Formation du jury » devient « composition de la cour ».",
+      "ligne_rouge": "Art. 16 DDHC (signalé sur L2123-20) examiné : exclusions, objection morale et absence de nullité gardées."
     },
     {
       "num": "L2123-22",
-      "texte": "Il est établi chaque année, dans le ressort de chaque cour d'assises, une liste annuelle du jury criminel et une liste spéciale de jurés suppléants, dressées par la commission prévue à l'article L. 2123-25. Les jurés suppléants résident dans la ville siège de la cour d'assises.\nLe nombre des jurés de la liste annuelle ne peut être inférieur à un pour mille trois cents habitants, ni à deux cents. Celui de la liste spéciale ne peut être inférieur à cinquante. Un décret en Conseil d'État fixe, dans ces limites, le nombre des jurés de chaque liste et sa répartition entre les communes, proportionnellement au tableau officiel de la population.",
+      "texte": "Il est établi chaque année, dans le ressort de chaque cour criminelle, une liste annuelle du jury criminel et une liste spéciale de jurés suppléants, dressées par la commission prévue à l'article L. 2123-25. Les jurés suppléants résident dans la ville siège de la cour criminelle.\nLe nombre des jurés de la liste annuelle ne peut être inférieur à un pour mille trois cents habitants, ni à deux cents. Un arrêté du ministre de la justice peut le relever lorsque le nombre des sessions le justifie. Celui de la liste spéciale, fixé par arrêté du ministre de la justice, ne peut être inférieur à cinquante ni supérieur à sept cents. Un décret en Conseil d'État fixe la répartition des jurés de la liste annuelle entre les communes, proportionnellement au tableau officiel de la population.",
       "verbe": "D",
       "principe": "P1",
-      "motif": "Les deux listes du jury en un article (L2123-21 et L2123-27 fusionnés). Les planchers des listes restent dans la loi (relecture g39 : la liste annuelle alimente aussi les citoyens assesseurs, art. 34 C). Le chiffre de Paris, le plafond de la liste spéciale, le relèvement par arrêté et la répartition entre communes à date fixe descendent au décret en Conseil d'État (P1).",
-      "ligne_rouge": "Composition du jury : tirage au sort sur une base large garanti par les planchers légaux."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Les deux listes du jury (L2123-21 et L2123-27 fusionnés) et leurs planchers (10.157) inchangés. La liste annuelle alimente toutes les formations de la cour. Passe 5 (relecture G26, P1) : le nombre des jurés revient à l'arrêté du ministre de la justice que 2029 prévoyait (art. 260 : relèvement de la liste annuelle lorsque le nombre des sessions le justifie ; art. 264 : liste spéciale de cinquante à sept cents jurés), que mettent en œuvre A36-12 et A36-13. Le décret en Conseil d'État garde la seule répartition entre les communes. Les planchers de 10.157 restent dans la loi.",
+      "ligne_rouge": "Composition du jury (art. 34 C) : planchers des listes gardés dans la loi."
     },
     {
       "num": "L2123-23",
-      "texte": "Dans chaque commune, le maire tire au sort publiquement sur la liste électorale, pour dresser la liste préparatoire, un nombre de noms triple de celui que la répartition attribue à la commune. Il n'y retient pas les personnes qui n'atteindront pas l'âge de vingt-trois ans au cours de l'année civile qui suit. Il signale au greffe de la juridiction siège de la cour d'assises les inaptitudes légales prévues aux articles L. 2123-16 à L. 2123-18 qu'il connaît. Il peut présenter des observations sur les personnes qui, pour des motifs graves, ne paraissent pas en mesure d'exercer les fonctions de juré.",
+      "texte": "Dans chaque commune, le maire tire au sort publiquement sur la liste électorale, pour dresser la liste préparatoire, un nombre de noms triple de celui que la répartition attribue à la commune. Il n'y retient pas les personnes qui n'atteindront pas l'âge de vingt-trois ans au cours de l'année civile qui suit. Il signale au greffe de la juridiction siège de la cour criminelle les inaptitudes légales prévues aux articles L. 2123-16 à L. 2123-18 qu'il connaît. Il peut présenter des observations sur les personnes qui, pour des motifs graves, ne paraissent pas en mesure d'exercer les fonctions de juré.",
       "verbe": "D",
       "principe": "P1",
-      "motif": "Liste préparatoire tirée au sort par le maire (L2123-24 fusionné). Les modalités matérielles (deux originaux, date de transmission, profession, lettre simple et date limite de la demande de dispense, regroupement de communes, officier d'état civil à Paris) descendent au décret en Conseil d'État (P1). Passe 4 : l'avertissement des personnes tirées au sort et l'information sur la demande de dispense descendent au décret en Conseil d'État de la formation des listes, qui en fixait déjà la forme et la date limite (P1). Le droit à la dispense reste à L2123-19, le tirage au sort public, l'âge, le signalement des inaptitudes et les observations du maire restent dans la loi.",
-      "ligne_rouge": "Composition du jury : tirage au sort public sur la liste électorale, âge, information sur la dispense et signalement des inaptitudes gardés dans la loi."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Liste préparatoire (L2123-24 fusionné) inchangée.",
+      "ligne_rouge": "Composition du jury : tirage au sort public sur la liste électorale, âge et signalement des inaptitudes gardés dans la loi."
     },
     {
       "num": "L2123-25",
-      "texte": "Les listes sont dressées au siège de chaque cour d'assises par une commission présidée, selon que la cour d'assises siège à la cour d'appel ou dans un tribunal judiciaire, par le premier président ou par le président de ce tribunal, ou par leur délégué. Elle comprend en outre :\n1° Trois magistrats du siège désignés chaque année par l'assemblée générale de la juridiction.\n2° Selon le cas, le procureur général ou le procureur de la République, ou son délégué.\n3° Le bâtonnier de l'ordre des avocats, ou son représentant.\n4° Cinq élus désignés chaque année par le conseil départemental ou par l'assemblée qui en exerce les compétences, selon une répartition fixée par décret en Conseil d'État dans le département du Rhône.\nLa commission exclut les personnes qui ne remplissent pas les conditions des articles L. 2123-16 à L. 2123-18 et celles mentionnées au deuxième alinéa de l'article L. 2123-19, et statue sur les demandes de dispense. Elle décide à la majorité, la voix du président étant prépondérante en cas de partage. Les listes sont établies par tirage au sort parmi les noms qui n'ont pas été exclus.",
+      "texte": "Les listes sont dressées au siège de chaque cour criminelle par une commission présidée, selon que la cour criminelle siège à la cour d'appel ou dans un tribunal judiciaire, par le premier président ou par le président de ce tribunal, ou par leur délégué. Elle comprend en outre :\n1° Trois magistrats du siège désignés chaque année par l'assemblée générale de la juridiction.\n2° Selon le cas, le procureur général ou le procureur de la République, ou son délégué.\n3° Le bâtonnier de l'ordre des avocats, ou son représentant.\n4° Cinq élus désignés chaque année par le conseil départemental ou par l'assemblée qui en exerce les compétences, selon une répartition fixée par décret en Conseil d'État dans le département du Rhône.\nLa commission exclut les personnes qui ne remplissent pas les conditions des articles L. 2123-16 à L. 2123-18 et celles mentionnées au deuxième alinéa de l'article L. 2123-19, et statue sur les demandes de dispense. Elle décide à la majorité, la voix du président étant prépondérante en cas de partage. Les listes sont établies par tirage au sort parmi les noms qui n'ont pas été exclus.",
       "verbe": "D",
       "principe": "P23",
-      "motif": "Commission du jury : composition et office en un article (L2123-26 fusionné). La date de réunion, le secrétariat et la signature de la liste descendent au décret en Conseil d'État (P1). Les cinq élus sont désignés par l'assemblée qui exerce les compétences départementales (Paris, Corse comprises) ; la seule répartition propre au Rhône et à la métropole de Lyon descend au décret.",
-      "ligne_rouge": "Impartialité de la formation des listes : magistrats, parquet, bâtonnier et élus, majorité et voix prépondérante, tirage au sort, gardés dans la loi."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Commission du jury (L2123-26 fusionné) inchangée.",
+      "ligne_rouge": "Composition du jury : commission pluraliste et tirage au sort gardés."
     },
     {
       "num": "L2123-29",
-      "texte": "Trente jours au moins avant l'ouverture des assises, le premier président de la cour d'appel ou le président du tribunal judiciaire siège de la cour d'assises, ou leur délégué, tire au sort, en audience publique, sur la liste annuelle, les noms de trente-cinq jurés qui forment la liste de session. Il tire, en outre, les noms de dix jurés suppléants sur la liste spéciale.\nLe nom d'une personne décédée, qui ne remplit pas les conditions des articles L. 2123-16 à L. 2123-18, qui a été juré dans le département depuis moins de cinq ans ou qui a déféré dans l'année à la convocation prévue à l'article L. 2123-30 est aussitôt remplacé par un autre nom tiré au sort.\nLe maire informe ce magistrat, dès qu'il en a connaissance, des décès, incapacités et incompatibilités qui frappent les personnes inscrites sur la liste annuelle ou la liste spéciale. Ce magistrat ou son délégué retire leurs noms de ces listes, comme ceux des personnes remplacées sur la liste de session.",
+      "texte": "Trente jours au moins avant l'ouverture de la session, le premier président de la cour d'appel ou le président du tribunal judiciaire siège de la cour criminelle, ou leur délégué, tire au sort, en audience publique, sur la liste annuelle, les noms de trente-cinq jurés qui forment la liste de session. Il tire, en outre, les noms de dix jurés suppléants sur la liste spéciale.\nLe nom d'une personne décédée, qui ne remplit pas les conditions des articles L. 2123-16 à L. 2123-18, qui a été juré dans le département depuis moins de cinq ans ou qui a déféré dans l'année à la convocation prévue à l'article L. 2123-30 est aussitôt remplacé par un autre nom tiré au sort.\nLe maire informe ce magistrat, dès qu'il en a connaissance, des décès, incapacités et incompatibilités qui frappent les personnes inscrites sur la liste annuelle ou la liste spéciale. Ce magistrat ou son délégué retire leurs noms de ces listes, comme ceux des personnes remplacées sur la liste de session.",
       "verbe": "R",
       "principe": "P26",
-      "motif": "Liste de session tirée au sort en audience publique, remplacements et retraits (L2123-28 fusionné).",
-      "ligne_rouge": "Composition du jury et publicité : tirage en audience publique, nombres de trente-cinq et dix, remplacement par le sort, gardés."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Tirage au sort public de la liste de session (L2123-28 fusionné) inchangé : la liste de session sert aux deux formations.",
+      "ligne_rouge": "Publicité (P26) et juge naturel : tirage au sort en audience publique, gardé."
     },
     {
       "num": "L2123-30",
-      "texte": "Quinze jours au moins avant l'ouverture de la session, le greffier de la cour d'assises convoque chacun des jurés titulaires et suppléants. La convocation rappelle l'obligation, pour tout citoyen requis, d'y répondre sous peine d'être condamné à l'amende prévue par l'article L. 4321-3. Si nécessaire, le greffier peut requérir les services de police ou de gendarmerie aux fins de rechercher les jurés qui n'auraient pas répondu à la convocation et de leur remettre celle-ci.",
+      "texte": "Quinze jours au moins avant l'ouverture de la session, le greffier de la cour criminelle convoque chacun des jurés titulaires et suppléants. La convocation rappelle l'obligation, pour tout citoyen requis, d'y répondre sous peine d'être condamné à l'amende prévue par l'article L. 4321-3. Si nécessaire, le greffier peut requérir les services de police ou de gendarmerie aux fins de rechercher les jurés qui n'auraient pas répondu à la convocation et de leur remettre celle-ci.",
       "verbe": "D",
       "principe": "P1",
-      "motif": "Convocation des jurés : délai, obligation et amende, recherche par la force publique gardés. Le contenu matériel de la convocation et le récépissé descendent au décret en Conseil d'État (P1). « Par courrier » tombe : le mode d'envoi de la convocation est fixé par le décret.",
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Convocation des jurés inchangée.",
       "ligne_rouge": "Art. 8 DDHC : l'amende encourue par le juré défaillant reste annoncée par renvoi à L4321-3, qui la fixe."
     },
     {
       "num": "L2123-31",
-      "texte": "Par dérogation aux articles L. 2123-15 à L. 2123-30, la cour d'assises est exclusivement composée de magistrats, sans jurés, pour le jugement des crimes suivants :\n1° Crimes constituant des actes de terrorisme mentionnés à l'article L. 1723-1.\n2° Crimes en matière de prolifération d'armes de destruction massive et de leurs vecteurs mentionnés à l'article L. 1723-3.\n3° Crimes commis en bande organisée et crime d'association de malfaiteurs en vue de commettre de tels crimes.\n4° Crimes de trafic de stupéfiants réprimés par les articles 222-24 à 222-40 du code pénal.\n5° Crimes contre les intérêts fondamentaux de la Nation réprimés par les articles 411-1 à 411-11 et 413-1 à 413-12 du code pénal.\n6° Crimes en matière militaire mentionnés à l'article L. 1725-1. Toutefois, pour un crime de droit commun commis par un militaire dans l'exercice du service, la cour d'assises ainsi composée n'est compétente que s'il existe un risque de divulgation d'un secret de la défense nationale.\nLe présent article ne s'applique qu'aux accusés majeurs, sauf dans le cas du 3°.",
-      "verbe": "S",
+      "texte": "Par dérogation aux articles L. 2123-8, L. 2123-15 à L. 2123-30 et L. 2123-33, la cour criminelle est composée de magistrats seuls, sans jurés, pour le jugement des crimes suivants :\n1° Crimes constituant des actes de terrorisme mentionnés à l'article L. 1723-1.\n2° Crimes en matière de prolifération d'armes de destruction massive et de leurs vecteurs mentionnés à l'article L. 1723-3.\n3° Crimes commis en bande organisée et crime d'association de malfaiteurs en vue de commettre de tels crimes.\n4° Crimes de trafic de stupéfiants réprimés par les articles 222-34 à 222-40 du code pénal.\n5° Crimes contre les intérêts fondamentaux de la Nation réprimés par les articles 411-1 à 411-11 et 413-1 à 413-12 du code pénal.\n6° Crimes en matière militaire mentionnés à l'article L. 1725-1. Toutefois, pour un crime de droit commun commis par un militaire dans l'exercice du service, la cour criminelle ainsi composée n'est compétente que s'il existe un risque de divulgation d'un secret de la défense nationale.\nLe présent article ne s'applique qu'aux accusés majeurs, sauf dans le cas du 3°.",
+      "verbe": "R",
       "principe": "P17",
-      "motif": "Cour d'assises composée de magistrats seuls (registre 4.3) : gardée, énumération sans point-virgule, la compétence en matière militaire devient le 6°.",
-      "ligne_rouge": "Droit au jury (P17) : l'exception reste bornée aux cinq matières et aux crimes militaires couverts par le secret, et aux accusés majeurs sauf bande organisée."
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Cour sans jurés gardée pour la même liste de crimes (14.7, 4.3). La dérogation vise aussi la formation ordinaire et la formation de jury (L2123-8, L2123-33). Art. 64 révisé : il garantit « le droit … d'être jugé par un jury de citoyens » sans exception écrite. La cour sans jurés n'y est couverte que si la révision réserve le terrorisme et la criminalité organisée (porté à l'auteur). Passe 5 : 14.7 ; renvoi corrigé de 222-24 à 222-34, erreur matérielle de la base 2029, cohérence avec L. 2152-12 (délégué, soumis à l'auteur).",
+      "ligne_rouge": "Droit d'être jugé par des citoyens (P17) examiné : l'exception reste bornée à la liste de 2029, sans extension. Sécurité des jurés. Art. 64 révisé : couverture à vérifier dans le texte constitutionnel (signalé au rendu)."
     },
     {
       "num": "L2123-32",
-      "texte": "La cour d'assises composée de magistrats seuls comprend, en premier ressort, un président et quatre assesseurs, désignés, adjoints et remplacés selon l'article L. 2123-11. Par dérogation à l'article L. 2123-11, deux assesseurs au plus peuvent être des magistrats exerçant à titre temporaire ou des magistrats honoraires exerçant des fonctions juridictionnelles.",
-      "verbe": "S",
+      "texte": "La cour criminelle composée de magistrats seuls comprend, en premier ressort, un président et quatre assesseurs, désignés, adjoints et remplacés selon l'article L. 2123-11. Par dérogation à l'article L. 2123-11, deux assesseurs au plus peuvent être des magistrats exerçant à titre temporaire ou des magistrats honoraires exerçant des fonctions juridictionnelles.",
+      "verbe": "R",
       "principe": "P23",
-      "motif": "Composition de la cour d'assises composée de magistrats seuls : renvois réécrits sur L2123-11 (qui réunit L2123-12 à L2123-14).",
+      "motif": "Passe 5 (14.6, 14.7) : une seule cour criminelle juge tous les crimes, « cour d'assises » devient « cour criminelle » (carte, section 1). Composition de la cour sans jurés inchangée.",
       "ligne_rouge": "Composition : président et quatre assesseurs, deux non professionnels au plus, comme en 2029."
     },
     {
-      "num": "L2124-1",
-      "texte": "Par dérogation au chapitre 3 du présent titre, la cour criminelle départementale juge en premier ressort les personnes majeures accusées d'un crime puni de quinze ans ou de vingt ans de réclusion criminelle, lorsqu'il n'est pas commis en état de récidive légale, et les délits connexes au sens de l'article L. 1720-2. Elle n'est pas compétente s'il existe un ou plusieurs coaccusés qui ne répondent pas à ces conditions.",
-      "verbe": "S",
+      "num": "L2123-33",
+      "texte": "À la demande de l'accusé, la cour criminelle statue en formation de jury, composée de [trois] magistrats et de [six] jurés.\nL'accusé forme sa demande par déclaration au greffe dans le [mois] de la notification de l'acte qui le renvoie devant la cour criminelle, réquisitoire, ordonnance ou arrêt. Cet acte l'informe de ce droit et de ce délai. Faute de cette information, le délai ne court pas. Lorsque l'accusé conteste le renvoi selon l'article L. 3762-1, le délai court de la notification de l'arrêt de la chambre. La demande est irrévocable à l'expiration du délai. Lorsque plusieurs accusés sont renvoyés pour les mêmes faits ou pour des faits connexes, la demande de l'un d'eux vaut pour tous.\nLa formation de jury connaît de toute l'affaire, délits connexes compris. La peine se fixe sans égard à la formation choisie.",
+      "verbe": "C",
       "principe": "P17",
-      "motif": "Compétence de la cour criminelle départementale : gardée, phrases resserrées. La cour juge en échevinage (registre 4.1, L2124-3).",
-      "ligne_rouge": "Art. 8 DDHC et droit au jury : compétence bornée aux crimes de quinze ou vingt ans hors récidive, aux majeurs et aux délits connexes, comme en 2029. Les citoyens assesseurs y siègent (L2124-3)."
-    },
-    {
-      "num": "L2124-2",
-      "texte": "La cour criminelle départementale siège au même lieu que la cour d'assises ou, par exception et dans les conditions de l'article L. 2123-4, dans un autre tribunal judiciaire du même département. Sur proposition du ministère public, son audiencement est fixé par son président ou, à la demande du procureur général, par le premier président de la cour d'appel.",
-      "verbe": "R",
-      "principe": "P23",
-      "motif": "Siège et audiencement de la cour criminelle départementale (L2124-5 fusionné).",
-      "ligne_rouge": "aucune (passe 1)."
-    },
-    {
-      "num": "L2124-3",
-      "texte": "La cour criminelle départementale est composée de [trois] magistrats, dont le président, et de [deux] citoyens assesseurs.\nLe premier président de la cour d'appel désigne le président parmi les présidents de chambre et les conseillers du ressort qui exercent ou ont exercé les fonctions de président de la cour d'assises, et les autres magistrats parmi les conseillers et les juges du ressort. Il peut en désigner un au plus parmi les magistrats exerçant à titre temporaire et les magistrats honoraires exerçant des fonctions juridictionnelles.\nLes citoyens assesseurs sont tirés au sort, pour chaque session, sur la liste annuelle du jury criminel du département, dans les formes de l'article L. 2123-29. Ils remplissent les conditions des articles L. 2123-16 à L. 2123-19. Ils prêtent le serment des jurés et en ont les droits et les devoirs.",
-      "verbe": "R",
-      "principe": "P17",
-      "motif": "Registre 4.1, 4.2, 9.10 et 9.13, portés : [trois] magistrats et [deux] citoyens assesseurs tirés au sort par session sur la liste du jury, sous le régime des jurés. Le choix des magistrats (L2124-4) est fusionné : un seul au plus à titre temporaire ou honoraire.",
-      "ligne_rouge": "Droit d'être jugé par des citoyens (P17) et composition : échevinage écrit dans la loi, aptitude, incapacités, incompatibilités, dispenses et exclusions des jurés par renvoi précis (L2123-16 à L2123-19). Deux magistrats de carrière sur trois au moins."
+      "motif": "Passe 5 (14.7 ; carte, sections 3.1 et 3.6) : formation de jury de [trois] magistrats et [six] jurés, à la demande de l'accusé, formée dans le [mois] de la notification du réquisitoire de renvoi. Précisions déléguées : l'accusé est informé du droit et du délai par la notification, la demande d'un coaccusé vaut pour tous pour que l'affaire reste entière, la formation de jury juge toute l'affaire, et le choix de la formation ne pèse pas sur la peine (garde-fou n° 17). Relecture adverse : le délai court de tout acte de renvoi, ne court pas sans information de l'accusé et, en cas de contestation du renvoi, court de l'arrêt de la chambre : le droit au jury de l'art. 64 révisé ne se perd pas sans avoir été connu.",
+      "ligne_rouge": "Droit d'être jugé par un jury de citoyens (art. 64 révisé, P17) examiné : ouvert à tout accusé, hors la cour sans jurés de L2123-31. Art. 8 DDHC : le choix de la formation est neutre sur la peine."
     },
     {
       "num": "L2125-1",
@@ -293,11 +237,11 @@
     },
     {
       "num": "L2127-1",
-      "texte": "Le juge de l'application des peines et le tribunal de l'application des peines constituent les juridictions de l'application des peines du premier degré. Elles fixent, dans les conditions prévues par la cinquième partie, les modalités de l'exécution des peines privatives ou restrictives de liberté, et en orientent et contrôlent l'application. Elles peuvent faire procéder aux modifications qu'elles jugent nécessaires au renforcement du contrôle de l'exécution de la peine.",
-      "verbe": "S",
+      "texte": "Le juge de l'application des peines fixe, dans les conditions prévues par la cinquième partie, les modalités de l'exécution des peines privatives ou restrictives de liberté, et en oriente et contrôle l'application. Il statue seul ou, dans les cas de l'article L. 2127-5, en formation collégiale. Il peut faire procéder aux modifications qu'il juge nécessaires au renforcement du contrôle de l'exécution de la peine.",
+      "verbe": "R",
       "principe": "P10",
-      "motif": "Mission des juridictions de l'application des peines : gardée (seule source). L'information des juridictions par les services pénitentiaires d'insertion et de probation descend au décret (P1). La phrase qui renvoie la répartition des compétences à L5131-1 et L5131-2 tombe : ces articles s'appliquent d'eux-mêmes (P20).",
-      "ligne_rouge": "Art. 8 DDHC : les juridictions fixent et contrôlent les modalités d'exécution selon la cinquième partie, sans changement."
+      "motif": "Passe 5 (14.6 ; carte, section 1) : juge de l'application des peines unique, le tribunal de l'application des peines devient sa formation collégiale (L2127-5). « Juridictions de l'application des peines » devient « juge de l'application des peines ». Le chapitre 7 s'intitule « Juge de l'application des peines ».",
+      "ligne_rouge": "Art. 8 DDHC examiné : le juge fixe et contrôle les modalités d'exécution selon la cinquième partie, sans changement de fond."
     },
     {
       "num": "L2127-2",
@@ -309,11 +253,11 @@
     },
     {
       "num": "L2127-3",
-      "texte": "Dans les cas prévus par le titre III du livre Ier de la cinquième partie et par le titre II du livre IV de la sixième partie, les décisions des juridictions de l'application des peines sont prises sur proposition ou après avis de la commission pluridisciplinaire des mesures de sûreté. La juridiction régionale de la rétention de sûreté statue sur proposition ou après avis de cette commission. La composition de cette commission est déterminée par décret en Conseil d'État.",
+      "texte": "Dans les cas prévus par le titre III du livre Ier de la cinquième partie et par le titre II du livre IV de la sixième partie, les décisions du juge de l'application des peines sont prises sur proposition ou après avis de la commission pluridisciplinaire des mesures de sûreté. La juridiction régionale de la rétention de sûreté statue sur proposition ou après avis de cette commission. La composition de cette commission est déterminée par décret en Conseil d'État.",
       "verbe": "R",
       "principe": "P15",
-      "motif": "Commission pluridisciplinaire des mesures de sûreté : avis gardé (exception de P15). La juridiction régionale de la rétention de sûreté y est rattachée (L2128-4 fusionné).",
-      "ligne_rouge": "Art. 66 C : l'évaluation de dangerosité précède toute décision de surveillance ou de rétention de sûreté, devant les juridictions de l'application des peines et la juridiction régionale."
+      "motif": "Commission pluridisciplinaire des mesures de sûreté : avis gardé (exception de P15), juridiction régionale rattachée (L2128-4 fusionné). Passe 5 (14.6) : « juridictions de l'application des peines » devient « juge de l'application des peines ».",
+      "ligne_rouge": "Art. 66 C : l'évaluation de dangerosité précède toute décision de surveillance ou de rétention de sûreté, devant le juge de l'application des peines et la juridiction régionale."
     },
     {
       "num": "L2127-4",
@@ -325,11 +269,11 @@
     },
     {
       "num": "L2127-5",
-      "texte": "Dans le ressort de chaque cour d'appel sont établis un ou plusieurs tribunaux de l'application des peines, dont la compétence territoriale, correspondant à celle d'un ou plusieurs tribunaux judiciaires du ressort, est fixée par décret. Le tribunal de l'application des peines est composé d'un président et de deux assesseurs désignés par le premier président parmi les juges de l'application des peines du ressort de la cour.\nSes débats contradictoires ont lieu au siège des tribunaux judiciaires du ressort de la cour d'appel ou dans les établissements pénitentiaires de ce ressort. Le procureur de la République du lieu où se tient le débat exerce le ministère public.",
+      "texte": "Le juge de l'application des peines statue en formation collégiale dans les cas que fixe le présent code. Ces cas visent la personne condamnée à une peine privative de liberté de [dix] ans ou plus, sauf ceux des articles L. 3566-17, L. 6331-12 et L. 6422-1.\nLa formation collégiale est composée d'un président et de deux assesseurs désignés par le premier président parmi les juges de l'application des peines du ressort de la cour d'appel. Un décret fixe le siège de chaque formation et sa compétence territoriale, qui correspond à celle d'un ou plusieurs tribunaux judiciaires du ressort.\nSes débats contradictoires ont lieu au siège des tribunaux judiciaires du ressort de la cour d'appel ou dans les établissements pénitentiaires de ce ressort. Le procureur de la République du lieu où se tient le débat exerce le ministère public.",
       "verbe": "R",
-      "principe": "P23",
-      "motif": "Tribunal de l'application des peines en un article : ressort, composition (L2127-6), lieu des débats (L2127-7), ministère public (L2127-8).",
-      "ligne_rouge": "Composition collégiale gardée : un président et deux assesseurs, juges de l'application des peines."
+      "principe": "P7",
+      "motif": "Passe 5 (14.6 ; carte, sections 3.1 et 3.6) : le tribunal de l'application des peines devient la formation collégiale du juge de l'application des peines, réservée aux peines de [dix] ans et plus. Composition, ressort, lieu des débats et ministère public (L2127-6 à L2127-8 fusionnés) inchangés. L'appel de ses décisions va à la chambre des investigations et des libertés avec les deux responsables associatifs (L2131-1). Relecture adverse : les cas de formation collégiale écrits hors de la cinquième partie et sans seuil (L3566-17, L6331-12) sont gardés. Passe 5 (coordination G21) : la mesure judiciaire de prévention de la récidive terroriste (L. 6422-1), mesure de sûreté après la peine, relève de la formation collégiale quelle que soit la peine.",
+      "ligne_rouge": "Collégialité (P7) et art. 8 DDHC examinés : les décisions lourdes sur les longues peines restent collégiales, trois juges de l'application des peines, comme le tribunal de 2029."
     },
     {
       "num": "L2128-1",
@@ -342,6 +286,13 @@
   ],
   "retires": [
     {
+      "num": "L2121-1",
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : attributions, saisine et force publique du juge d'instruction. Les fonctions juridictionnelles passent au juge de l'enquête et des libertés (L2122-1), la direction des investigations au procureur de la République (L2113-7), la cosaisine à la formation collégiale (L2122-6).",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
       "num": "L2121-2",
       "verbe": "A",
       "principe": "P20",
@@ -350,42 +301,73 @@
     },
     {
       "num": "L2121-3",
-      "verbe": "F",
-      "principe": "P23",
-      "motif": "Saisine du juge d'instruction portée à L2121-1.",
-      "ligne_rouge": "aucune (passe 1).",
-      "vers": "L2121-1"
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : saisine du juge d'instruction. La passe 3 l'avait fusionné dans un article du chapitre, abrogé avec lui.",
+      "ligne_rouge": "aucune (passe 1)."
     },
     {
       "num": "L2121-4",
-      "verbe": "F",
-      "principe": "P23",
-      "motif": "Réquisition de la force publique portée à L2121-1.",
-      "ligne_rouge": "aucune (passe 1).",
-      "vers": "L2121-1"
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : réquisition de la force publique. La passe 3 l'avait fusionné dans un article du chapitre, abrogé avec lui.",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "num": "L2121-5",
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : cabinets d'instruction dans chaque tribunal et remplacement du juge. Les fonctions juridictionnelles passent au juge de l'enquête et des libertés (L2122-1), la direction des investigations au procureur de la République (L2113-7), la cosaisine à la formation collégiale (L2122-6).",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "num": "L2121-6",
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : siège et transport du juge d'instruction. Les fonctions juridictionnelles passent au juge de l'enquête et des libertés (L2122-1), la direction des investigations au procureur de la République (L2113-7), la cosaisine à la formation collégiale (L2122-6).",
+      "ligne_rouge": "aucune (passe 1)."
     },
     {
       "num": "L2121-7",
-      "verbe": "F",
-      "principe": "P23",
-      "motif": "Délégation et remplacement du juge d'instruction portés à L2121-5. La nomination statutaire et la phrase doublée de 2029 tombent (P20).",
-      "ligne_rouge": "aucune (passe 1).",
-      "vers": "L2121-5"
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : délégation et remplacement du juge d'instruction. La passe 3 l'avait fusionné dans un article du chapitre, abrogé avec lui.",
+      "ligne_rouge": "aucune (passe 1)."
     },
     {
       "num": "L2121-8",
       "verbe": "A",
       "principe": "P20",
-      "motif": "Le contrôle des cabinets d'instruction par le président de la chambre des investigations et des libertés est écrit à L2131-6 : doublon.",
+      "motif": "Le contrôle du président de la chambre des investigations et des libertés est écrit à L2131-6. Passe 5 (13.3) : il porte sur le service du juge de l'enquête et des libertés, les cabinets d'instruction disparaissant (T1).",
       "ligne_rouge": "aucune (passe 1) : la règle survit à L2131-6."
     },
     {
+      "num": "L2121-9",
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : pôles de l'instruction. Les fonctions juridictionnelles passent au juge de l'enquête et des libertés (L2122-1), la direction des investigations au procureur de la République (L2113-7), la cosaisine à la formation collégiale (L2122-6).",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "num": "L2121-10",
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : cosaisine réservée au pôle. Les fonctions juridictionnelles passent au juge de l'enquête et des libertés (L2122-1), la direction des investigations au procureur de la République (L2113-7), la cosaisine à la formation collégiale (L2122-6).",
+      "ligne_rouge": "aucune (passe 1)."
+    },
+    {
+      "num": "L2121-11",
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : crimes instruits au pôle. Les fonctions juridictionnelles passent au juge de l'enquête et des libertés (L2122-1), la direction des investigations au procureur de la République (L2113-7), la cosaisine à la formation collégiale (L2122-6).",
+      "ligne_rouge": "Art. 8 DDHC examiné : aucune règle de peine. Juge naturel : la compétence du pôle disparaît avec l'information. L'affaire grave ou complexe garde un contrôle collégial (L2122-6), le crime garde sa juridiction (L2123-1)."
+    },
+    {
       "num": "L2121-12",
-      "verbe": "F",
-      "principe": "P23",
-      "motif": "Carte des pôles de l'instruction portée à L2121-9.",
-      "ligne_rouge": "aucune (passe 1).",
-      "vers": "L2121-9"
+      "verbe": "A",
+      "principe": "P25",
+      "motif": "Passe 5 (13.3, C, 14.6) : le chapitre 1er du titre II (juge d'instruction) est abrogé. Les informations ouvertes avant [E] se poursuivent selon l'article T1 du droit transitoire. Objet : carte des pôles de l'instruction. La passe 3 l'avait fusionné dans un article du chapitre, abrogé avec lui.",
+      "ligne_rouge": "aucune (passe 1)."
     },
     {
       "num": "L2122-2",
@@ -523,20 +505,44 @@
       "vers": "L2123-29"
     },
     {
+      "num": "L2124-1",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Passe 5 (14.6, 14.7 ; carte, section 3.6) : le chapitre 4 (cour criminelle départementale) est fusionné dans le chapitre 3, une seule cour criminelle. Objet : compétence.",
+      "ligne_rouge": "Art. 8 DDHC examiné : aucune règle de peine. Droit au jury : les crimes de quinze ou vingt ans vont à la cour criminelle unique, qui siège avec trois jurés au lieu de deux citoyens assesseurs, six à la demande (L2123-8, L2123-33).",
+      "vers": "L2123-1"
+    },
+    {
+      "num": "L2124-2",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Passe 5 (14.6, 14.7 ; carte, section 3.6) : le chapitre 4 (cour criminelle départementale) est fusionné dans le chapitre 3, une seule cour criminelle. Objet : siège et audiencement.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2123-1"
+    },
+    {
+      "num": "L2124-3",
+      "verbe": "F",
+      "principe": "P3",
+      "motif": "Passe 5 (14.6, 14.7 ; carte, section 3.6) : le chapitre 4 (cour criminelle départementale) est fusionné dans le chapitre 3, une seule cour criminelle. Objet : composition.",
+      "ligne_rouge": "aucune (passe 1).",
+      "vers": "L2123-8"
+    },
+    {
       "num": "L2124-4",
       "verbe": "F",
-      "principe": "P23",
-      "motif": "Choix des magistrats de la cour criminelle départementale porté à L2124-3.",
+      "principe": "P3",
+      "motif": "Passe 5 (14.6, 14.7 ; carte, section 3.6) : le chapitre 4 (cour criminelle départementale) est fusionné dans le chapitre 3, une seule cour criminelle. Objet : choix des magistrats.",
       "ligne_rouge": "aucune (passe 1).",
-      "vers": "L2124-3"
+      "vers": "L2123-8"
     },
     {
       "num": "L2124-5",
       "verbe": "F",
-      "principe": "P23",
-      "motif": "Audiencement porté à L2124-2.",
+      "principe": "P3",
+      "motif": "Passe 5 (14.6, 14.7 ; carte, section 3.6) : le chapitre 4 (cour criminelle départementale) est fusionné dans le chapitre 3, une seule cour criminelle. Objet : audiencement.",
       "ligne_rouge": "aucune (passe 1).",
-      "vers": "L2124-2"
+      "vers": "L2123-8"
     },
     {
       "num": "L2125-2",
@@ -645,40 +651,46 @@
   ],
   "phrases": {
     "L2121-1#1": {
-      "destin": "reprise",
-      "vers": "L2121-1"
+      "destin": "abrogee",
+      "principe": "P25",
+      "garantie": "Passe 5 (13.3) : le juge d'instruction disparaît, les informations ouvertes avant [E] se poursuivent selon T1. Les décisions juridictionnelles passent au juge de l'enquête et des libertés (L2122-1, L5)."
     },
     "L2121-1#2": {
       "destin": "reprise",
-      "vers": "L2121-1"
+      "vers": "L2113-7"
     },
     "L2121-1#3": {
-      "destin": "gardee",
-      "vers": "L2121-1"
+      "destin": "reprise",
+      "vers": "L1131-1"
     },
     "L2121-10#1": {
       "destin": "reprise",
-      "vers": "L2121-10"
+      "vers": "L2122-6"
     },
     "L2121-11#1": {
-      "destin": "reprise",
-      "vers": "L2121-11"
+      "destin": "abrogee",
+      "principe": "P25",
+      "garantie": "Le crime n'appelle plus un juge d'instruction du pôle : le procureur dirige l'enquête (L2113-7), les mesures de L5 relèvent du juge de l'enquête et des libertés, en formation collégiale pour l'affaire grave ou complexe (L2122-6). Aucune règle de peine n'est touchée."
     },
     "L2121-11#2": {
-      "destin": "reprise",
-      "vers": "L2121-11"
+      "destin": "abrogee",
+      "principe": "P25",
+      "garantie": "Le crime n'appelle plus un juge d'instruction du pôle : le procureur dirige l'enquête (L2113-7), les mesures de L5 relèvent du juge de l'enquête et des libertés, en formation collégiale pour l'affaire grave ou complexe (L2122-6). Aucune règle de peine n'est touchée."
     },
     "L2121-11#3": {
-      "destin": "reprise",
-      "vers": "L2121-11"
+      "destin": "abrogee",
+      "principe": "P25",
+      "garantie": "Le crime n'appelle plus un juge d'instruction du pôle : le procureur dirige l'enquête (L2113-7), les mesures de L5 relèvent du juge de l'enquête et des libertés, en formation collégiale pour l'affaire grave ou complexe (L2122-6). Aucune règle de peine n'est touchée."
     },
     "L2121-12#1": {
-      "destin": "reprise",
-      "vers": "L2121-9"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "La carte des pôles disparaît avec le pôle (T1 pour les informations ouvertes)."
     },
     "L2121-12#2": {
-      "destin": "reprise",
-      "vers": "L2121-9"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "La carte des pôles disparaît avec le pôle (T1 pour les informations ouvertes)."
     },
     "L2121-2#1": {
       "destin": "reprise",
@@ -686,31 +698,34 @@
     },
     "L2121-3#1": {
       "destin": "reprise",
-      "vers": "L2121-1"
+      "vers": "L2122-1"
     },
     "L2121-4#1": {
       "destin": "reprise",
-      "vers": "L2121-1"
+      "vers": "L2122-1"
     },
     "L2121-5#1": {
-      "destin": "gardee",
-      "vers": "L2121-5"
+      "destin": "reprise",
+      "vers": "L2122-1"
     },
     "L2121-5#2": {
-      "destin": "reprise",
-      "vers": "L2121-5"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Un juge de l'enquête et des libertés siège dans chaque tribunal judiciaire (L2122-1) : la liste des tribunaux sans juge tombe."
     },
     "L2121-5#3": {
-      "destin": "reprise",
-      "vers": "L2121-5"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Un juge de l'enquête et des libertés siège dans chaque tribunal judiciaire (L2122-1) : la liste des tribunaux sans juge tombe."
     },
     "L2121-6#1": {
-      "destin": "reprise",
-      "vers": "L2121-6"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "Le juge exerce dans son tribunal (L2122-1, premier alinéa)."
     },
     "L2121-6#2": {
       "destin": "reprise",
-      "vers": "L2121-6"
+      "vers": "L2122-1"
     },
     "L2121-7#1": {
       "destin": "abrogee",
@@ -726,7 +741,7 @@
     },
     "L2121-7#4": {
       "destin": "reprise",
-      "vers": "L2121-5"
+      "vers": "L2122-1"
     },
     "L2121-8#1": {
       "destin": "reprise",
@@ -734,18 +749,19 @@
     },
     "L2121-9#1": {
       "destin": "reprise",
-      "vers": "L2121-9"
+      "vers": "L2122-6"
     },
     "L2121-9#2": {
-      "destin": "reprise",
-      "vers": "L2121-9"
+      "destin": "abrogee",
+      "principe": "P20",
+      "garantie": "La coordination d'un pôle disparaît avec le pôle. La formation collégiale de L2122-6 est présidée par le plus ancien de ses membres."
     },
     "L2122-1#1": {
       "destin": "reprise",
       "vers": "L2122-1"
     },
     "L2122-1#2": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L2122-1"
     },
     "L2122-2#1": {
@@ -857,7 +873,7 @@
       "vers": "L2123-19"
     },
     "L2123-2#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L2123-3"
     },
     "L2123-20#1": {
@@ -885,8 +901,8 @@
       "vers": "L2123-22"
     },
     "L2123-22#2": {
-      "destin": "declassee",
-      "vers": "décret en Conseil d'État (formation des listes du jury criminel) : nombre des jurés de la liste annuelle"
+      "destin": "reprise",
+      "vers": "L2123-22"
     },
     "L2123-22#3": {
       "destin": "reprise",
@@ -1116,39 +1132,39 @@
     },
     "L2124-1#1": {
       "destin": "reprise",
-      "vers": "L2124-1"
+      "vers": "L2123-1"
     },
     "L2124-1#2": {
       "destin": "reprise",
-      "vers": "L2124-1"
+      "vers": "L2123-1"
     },
     "L2124-1#3": {
       "destin": "reprise",
-      "vers": "L2124-1"
+      "vers": "L2123-1"
     },
     "L2124-2#1": {
       "destin": "reprise",
-      "vers": "L2124-2"
+      "vers": "L2123-3"
     },
     "L2124-3#1": {
       "destin": "reprise",
-      "vers": "L2124-3"
+      "vers": "L2123-8"
     },
     "L2124-4#1": {
       "destin": "reprise",
-      "vers": "L2124-3"
+      "vers": "L2123-11"
     },
     "L2124-4#2": {
       "destin": "reprise",
-      "vers": "L2124-3"
+      "vers": "L2123-11"
     },
     "L2124-4#3": {
       "destin": "reprise",
-      "vers": "L2124-3"
+      "vers": "L2123-11"
     },
     "L2124-5#1": {
       "destin": "reprise",
-      "vers": "L2124-2"
+      "vers": "L2123-6"
     },
     "L2125-1#1": {
       "destin": "reprise",
@@ -1235,7 +1251,7 @@
       "vers": "L2126-3"
     },
     "L2127-1#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L2127-1"
     },
     "L2127-1#2": {
@@ -1248,7 +1264,7 @@
       "garantie": "Information de service : la décision et le contrôle de l'exécution restent aux juridictions (L2127-1), qui peuvent ordonner les modifications nécessaires."
     },
     "L2127-1#4": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L2127-1"
     },
     "L2127-1#5": {
@@ -1265,7 +1281,7 @@
       "vers": "L2127-2"
     },
     "L2127-3#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L2127-3"
     },
     "L2127-3#2": {
@@ -1293,7 +1309,7 @@
       "vers": "L2127-5"
     },
     "L2127-6#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L2127-5"
     },
     "L2127-7#1": {
