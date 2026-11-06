@@ -115,24 +115,25 @@ for row in ws.iter_rows():
     for c in row:
         c.alignment = WRAP
 
-cols = ['Prélèvement', 'Nature', 'Assiette', 'Rendement 2026 (M€)', 'Devenir', 'Impôt cible', 'Bloc', 'Siège', 'Lien Légifrance', 'Niches rattachées', 'Amendement porteur', 'Ligne de l’article 42 du PLF 2027']
+cols = ['Prélèvement', 'Nature', 'Assiette', 'Rendement 2026 (M€)', 'Part conservée (M€)', 'Devenir', 'Impôt cible', 'Bloc', 'Siège', 'Lien Légifrance', 'Niches rattachées', 'Amendement porteur', 'Ligne de l’article 42 du PLF 2027']
 rows = []
 for r in T:
-    rows.append([r['libelle'], r['nature'], r['assiette'], m(r['rendement_2026_M']), r['devenir'], r['impot_cible'],
+    rows.append([r['libelle'], r['nature'], r['assiette'], m(r['rendement_2026_M']), m(r['part_conservee_2026_M']),
+                 r['devenir'] + (', droit ramené à 1 % et 3 %' if r['part_conservee_2026_M'] else ''), r['impot_cible'],
                  '' if r['bloc'] == 'à qualifier' else r['bloc'], propre(r['siege']).replace('—', ''), r['lien_legifrance'],
                  r['niches_rattachees'], propre(porteur(r)), r['ligne_art42']])
 sheet(wb, 'Prélèvements', cols, rows, {'Prélèvement': 55, 'Siège': 40, 'Lien Légifrance': 32, 'Amendement porteur': 40, 'Devenir': 30})
 
 # synthèse
-syn = collections.defaultdict(lambda: [0, 0.0])
+syn = collections.defaultdict(lambda: [0, 0.0, 0.0])
 for r in T:
     k = (r['devenir'], r['impot_cible'] or r['bloc'] or '')
-    syn[k][0] += 1; syn[k][1] += float(r['rendement_2026_M'] or 0)
+    syn[k][0] += 1; syn[k][1] += float(r['rendement_2026_M'] or 0); syn[k][2] += float(r['part_conservee_2026_M'] or 0)
 ORD = ['grand impôt conservé', 'remplacé par un grand impôt', 'fondu dans l’équilibre des quatre grands impôts', 'conservé en complément', 'à fusionner', 'recette non fiscale']
-srows = [[k[0], '' if k[1] == 'à qualifier' else k[1], v[0], m(v[1])] for k, v in sorted(syn.items(), key=lambda kv: (ORD.index(kv[0][0]), kv[0][1]))]
+srows = [[k[0], '' if k[1] == 'à qualifier' else k[1], v[0], m(v[1]), m(v[2]) if v[2] else ''] for k, v in sorted(syn.items(), key=lambda kv: (ORD.index(kv[0][0]), kv[0][1]))]
 tot = sum(v[1] for v in syn.values())
-srows.append(['Total', '', len(T), m(tot)])
-sheet(wb, 'Synthèse', ['Devenir', 'Impôt cible ou bloc', 'Nombre de prélèvements', 'Rendement 2026 (M€)'], srows, {'Devenir': 45, 'Impôt cible ou bloc': 35})
+srows.append(['Total', '', len(T), m(tot), m(sum(v[2] for v in syn.values()))])
+sheet(wb, 'Synthèse', ['Devenir', 'Impôt cible ou bloc', 'Nombre de prélèvements', 'Rendement 2026 (M€)', 'Dont part conservée (M€)'], srows, {'Devenir': 45, 'Impôt cible ou bloc': 35})
 
 # niches
 nrows = []

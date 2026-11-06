@@ -6093,3 +6093,19 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - Textes hors dépôt de droit à ajouter à `codes.json` : code forestier, code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486.
 - Hors lot VI : retirer le 8° du III du PLFSS n° 1 et le visa L. 421-78-1 du P1 n° 1 ; aligner la formule de date du n° 29 sur la taxe d’aménagement ; `69_CONTROLE_doctrine.py` à rendre conscient du circuit B ; `droit.py` à faire passer `MODIFIE_MORT_NE` après `VIGUEUR_DIFF`.
 - Millésime des rendements : prévision 2026 au tri, 2027 en attente.
+
+## 20261106 — fil code, versement du fil machine, droit et abrogations
+
+## Ce qui a changé au corpus
+
+- Fil machine du tri versé à `main` (vérification des P1 n° 35 à 38 et PLFSS n° 9, questions closes).
+- Dépôt de droit : code forestier, code minier et lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486, millésime LEGI 20261105. Les deux codes sont épinglés par `legitext` : l’intitulé résolvait vers l’ancien code.
+- `droit.py` : à date de début égale, une version mort-née passe après toute autre.
+- P1 n° 36 : abrogation des I et II de l’article 138 de la loi n° 2019-486 (rang 280 porté). P1 n° 38 : l’article 96 de la loi n° 2010-1658, déjà abrogé, retiré (rang 170 sans objet).
+- Tri : part conservée des droits de mutation (P1 n° 19), 11,05 Md€ ; sorts contre le schéma recalculés nets de cette part ; classeurs régénérés.
+- `livrables/registre_calcul_etatB.md`, § 18 : rangs non chiffrés recomptés (26).
+
+## Ce qui reste ouvert
+
+- Jeux : le tri et le n° 36 suppriment 6,7 Md€ ; la colonne H du schéma n’en retient que 0,3 — écart au schéma, déclaré.
+- PDF et docx des liasses non régénérés ; tri du 20261103 non promu référence du contrôle des sièges ; site non mis à jour.

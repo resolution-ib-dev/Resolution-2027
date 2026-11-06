@@ -188,7 +188,8 @@ for i, (s, f) in enumerate(zip(S, F), 1):
            99: ('C', '', '', 'relevé'), 102: ('A', 'PLF P1 n° 25', 'I, 8°', 'relevé'), 111: ('A', 'PLF P1 n° 25', 'I, 2°', 'relevé'),
            124: ('A', 'PLF P1 n° 25', 'I, 8°', 'relevé'), 158: ('A', 'PLF P1 n° 1', 'III, 266°', 'relevé'),
            181: ('A', 'PLF P1 n° 25', 'II, B, 1°', 'relevé'), 182: ('A', 'PLF P1 n° 22', 'II, 1°', 'relevé'),
-           239: ('A', 'PLF P1 n° 25', 'I, 1°', 'relevé'), 280: ('C', '', '', 'relevé'), 325: ('A', 'PLF P1 n° 20', 'I, 9°', 'relevé'),
+           239: ('A', 'PLF P1 n° 25', 'I, 1°', 'relevé'), 280: ('A', 'PLF P1 n° 36', 'I, 1° et 3°', 'relevé'),
+           170: ('S', '', '', 'relevé'), 325: ('A', 'PLF P1 n° 20', 'I, 9°', 'relevé'),
            331: ('A', 'PLF P1 n° 19', 'I, 9°', 'relevé'), 334: ('A', 'PLF P1 n° 1', 'III, 232°', 'relevé'),
            336: ('A', 'PLF P1 n° 19', 'I, 8°', 'relevé'), 344: ('A', 'PLF P1 n° 22', 'I, 1°', 'relevé'),
            306: ('C', '', '', 'relevé'), 362: ('C', '', '', 'relevé'), 370: ('C', '', '', 'relevé'), 383: ('C', '', '', 'relevé')}
@@ -242,6 +243,29 @@ for k, t in enumerate(NEW, 1):
                      question='qualification proposée : recette non fiscale' if nat == 'recette non fiscale' else '',
                      observation='rang ajouté le 20261103 (annexe des ressources affectées 2027 ou contrôle inverse)', nature_ligne='imposition' if nat != 'recette non fiscale' else 'recette non fiscale',
                      siege_article=sg, statut_siege=('confirmé' if lid else ('création du PLF' if 'PLF 2027' in sg else 'siège déclaré, texte hors dépôt')), fondement='annexe des ressources affectées 2027'))
+
+# Droits de mutation : le P1 n° 19 ne les supprime pas, il les ramène à 1 % et 3 % au profit de l'État,
+# acompte de l'impôt sur le revenu ou sur les sociétés. Le schéma de refonte en conserve 6 Md€ (DMTG,
+# 0,03 × 300 − 3) et 5,05 Md€ (DMTO, C41/2 − 3,5) ; la part conservée se répartit au prorata du
+# rendement 2026 des rangs de chaque ligne du schéma (20261106).
+CONSERVE = {'à titre gratuit': 6000.0, 'à titre onéreux': 5050.0}
+LIG = {i: s['ligne_schema'] for i, s in enumerate(S, 1)}
+for k_, v_ in CONSERVE.items():
+    rr = [r for r in rows if isinstance(r['n'], int) and LIG[r['n']] == k_ and r['rendement_2026_M']]
+    tot = sum(float(r['rendement_2026_M']) for r in rr)
+    for r in rr:
+        r['part_conservee_2026_M'] = round(v_ * float(r['rendement_2026_M']) / tot, 1)
+        r['observation'] = ('ramené à 1 % et 3 % au profit de l’État, acompte de l’impôt sur le revenu ou sur les sociétés '
+                            '(P1 n° 19) ; part conservée selon le schéma de refonte, au prorata du rendement'
+                            + ('' if not r['observation'] else ' ; ' + r['observation']))
+for r in rows:
+    r.setdefault('part_conservee_2026_M', '')
+    v = r.pop('part_conservee_2026_M'); d = {}
+    for k_, x in r.items():
+        d[k_] = x
+        if k_ == 'rendement_2026_revise_plf2027_M':
+            d['part_conservee_2026_M'] = v
+    r.clear(); r.update(d)
 
 COLS = list(rows[0].keys())
 import os

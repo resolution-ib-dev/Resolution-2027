@@ -71,7 +71,7 @@ Les collectivités sont compensées par la dotation globale de fonctionnement, l
 
 ## [interne]
 
-### Preuve par réapplication — dépôt de droit, millésime LEGI 20261031, version applicable au 1er juillet 2027
+### Preuve par réapplication — dépôt de droit, millésime LEGI 20261105, version applicable au 1er juillet 2027
 
 | code | visa | réapplication | sections atteintes |
 |---|---|---|---|
@@ -99,8 +99,8 @@ Les collectivités sont compensées par la dotation globale de fonctionnement, l
 | urbanisme | L. 331-1 à L. 331-17 | 5 art. applicables au 2027-07-01 | Sous-section 1 : Généralités · Sous-section 5 : Taux d’imposition |
 | cibs | L. 454-39 à L. 454-77 | 40 art. applicables au 2027-07-01 | Paragraphe 1 : Base d’imposition · Paragraphe 2 : Tarifs normaux · Paragraphe 3 : Tarifs réduits et exonérations · Sous-section 1 : Eléments taxables et territoires · Sous-section 2 : Fait générateur · Sous-section 3 : Montant · Sous-section 4 : Exigibilité · Sous-section 5 : Personnes soumises à obligation fiscale · Sous-section 6 : Constatation · Sous-section 7 : Paiement · Sous-section 8 : Contrôle, recouvrement et contentieux de la taxe · Sous-section 9 : Affectation |
 | sante | L. 1331-7 | 1 art. applicables au 2027-07-01 | Chapitre Ier : Salubrité des immeubles et des agglomérations. |
-| — | 6° L’article 3 de la loi n° 72-657 du 13 juillet 1972 instituant des mesures en faveur de  | texte absent du dépôt de droit : non réappliqué |  |
+| loi72_657 | loi n° 72-657, art. 3 | 1 art. applicable au 2027-07-01 | Titre Ier : Financement. |
 
-Provenance : visas **relevés** au dépôt de droit par `droit.py` le 20261103 ; les textes absents du dépôt (code forestier, code minier, lois non codifiées hors dépôt) sont cités sur la référence juridique de l’annexe des ressources affectées et **restent à relire** avant dépôt.
+Provenance : visas **relevés** au dépôt de droit par `droit.py` ; les codes forestier et minier et les lois non codifiées visées y sont depuis le 20261105.
 
 Vérification de fond et de rédaction du fil machine du 20261103 : `livrables/tri_prelevements/verification_machine_20261103.md`.

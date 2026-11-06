@@ -75,22 +75,18 @@ v('SS-9', 'I, 1°', 'css', 'L. 245-5-1', 'L. 245-5-6')
 for x in ['L. 245-6', 'L. 380-2', 'L. 382-4', 'L. 652-6', 'L. 862-3', 'L. 862-4', 'L. 862-4-1']:
     v('SS-9', 'I, 1°', 'css', x)
 
-# Les adresses de HORS, mesurées depuis que leurs textes sont au dépôt (20261105).
+# Les adresses hors dépôt jusqu'au 20261105, mesurées depuis que leurs textes y sont. L'article 96 de la loi
+# n° 2010-1658, abrogé au 1er janvier 2026, est retiré du n° 38 le 20261106.
 v('P1-37', 'I, 6°', 'loi72_657', '3')
 v('P1-38', 'I, 7°', 'forestier', 'L. 341-6')
 v('P1-38', 'I, 8°', 'minier', 'L. 132-16')
 v('P1-38', 'I, 9°', 'loi2003_1312', '72')
 v('P1-38', 'I, 9°', 'loi2006_1666', '130')
-v('P1-38', 'I, 9°', 'loi2010_1658', '96')
 v('SS-9', 'I, 2°', 'loi2004_803', '18')
-# Hors amendement : siège présumé du rang 280 du tri, que le n° 36 n'abroge pas.
-v('releve', 'rang 280', 'loi2019_486', '138')
+# Siège du rang 280 du tri (prélèvements sur les loteries de la Française des jeux), abrogé par le n° 36 le 20261106.
+v('P1-36', 'I, 3°', 'loi2019_486', '138', sub='I et II')
 
-HORS = [('P1-37', 'I, 6°', 'loi n° 72-657 du 13 juillet 1972, art. 3'),
-        ('P1-38', 'I, 7°', 'code forestier, L. 341-6'),
-        ('P1-38', 'I, 8°', 'code minier, L. 132-16'),
-        ('P1-38', 'I, 9°', 'loi n° 2003-1312, art. 72 ; loi n° 2006-1666, art. 130 ; loi n° 2010-1658, art. 96'),
-        ('SS-9', 'I, 2°', 'loi n° 2004-803, art. 18')]
+HORS = []   # tous les textes visés sont au dépôt de droit depuis le 20261105
 
 
 def vivants(court):
