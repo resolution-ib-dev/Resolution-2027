@@ -11,7 +11,7 @@
       "code": "cpp",
       "num": "L2221-1",
       "principe": "P23",
-      "motif": "Catégories de personnels de police judiciaire : énumération en items terminés par un point, rappel « conformément aux distinctions prévues par le présent titre » retiré. Passe 4 : les quatre catégories s'écrivent en une phrase, liste fermée inchangée. Aucun texte ne cite un item par son numéro.",
+      "motif": "Catégories de personnels de police judiciaire : énumération en items terminés par un point, rappel « conformément aux distinctions prévues par le présent titre » retiré. Passe 4 : les quatre catégories s'écrivent en une phrase, liste fermée inchangée. Aucun texte ne cite un item par son numéro. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune : l'article nomme les catégories, sans élargir aucune qualité.",
       "decision": "S",
       "operations": [
@@ -25,7 +25,7 @@
       "code": "cpp",
       "num": "L2221-2",
       "principe": "P23",
-      "motif": "Affectation et décret des services en un article : le décret qui crée les catégories de services fixe aussi leur compétence territoriale (L2221-6 fusionné, ses trois ressorts gardés). Accords corrigés (passe 2).",
+      "motif": "Affectation et décret des services en un article : le décret qui crée les catégories de services fixe aussi leur compétence territoriale (L2221-6 fusionné, ses trois ressorts gardés). Accords corrigés (passe 2). Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune : organisation des services, compétence territoriale fixée par décret en Conseil d'État comme en 2029.",
       "decision": "R",
       "operations": [
@@ -39,15 +39,21 @@
       "code": "cpp",
       "num": "L2221-3",
       "principe": "P4",
-      "motif": "Libre choix des formations d'officiers de police judiciaire par le procureur de la République et le juge d'instruction : gardé.",
+      "motif": "Libre choix des formations d'officiers de police judiciaire par le procureur de la République et le juge d'instruction : gardé. Passe 5 : le juge d'instruction disparaît (13.3, C) : le procureur, qui dirige toutes les enquêtes (L. 2113-7), garde seul le libre choix du service enquêteur.",
       "ligne_rouge": "Contrôle de l'autorité judiciaire sur la police judiciaire examiné : le magistrat choisit le service.",
-      "decision": "G"
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le procureur de la République a le libre choix des formations auxquelles appartiennent les officiers de police judiciaire."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2221-4",
       "principe": "P23",
-      "motif": "Police technique et scientifique : même règle, phrase resserrée.",
+      "motif": "Police technique et scientifique : même règle, phrase resserrée. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune : la participation reste demandée par l'officier ou, sous son contrôle, par l'agent de police judiciaire.",
       "decision": "S",
       "operations": [
@@ -61,7 +67,7 @@
       "code": "cpp",
       "num": "L2221-5",
       "principe": "P20",
-      "motif": "Suspension des attributions pendant le maintien de l'ordre en unité constituée : gardé.",
+      "motif": "Suspension des attributions pendant le maintien de l'ordre en unité constituée : gardé. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune.",
       "decision": "G"
     },
@@ -69,7 +75,7 @@
       "code": "cpp",
       "num": "L2221-7",
       "principe": "P23",
-      "motif": "Compétence territoriale des personnels en un article : ressort habituel, mise à disposition, transport sur tout le territoire (L2221-8 fusionné). Renvois à L. 3511-2 et L. 3511-3 vérifiés sur la pièce de passe 3 du lot p181.",
+      "motif": "Compétence territoriale des personnels en un article : ressort habituel, mise à disposition, transport sur tout le territoire (L2221-8 fusionné). Renvois à L. 3511-2 et L. 3511-3 vérifiés sur la pièce de passe 3 du lot p181. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Contrôle du parquet examiné : le transport hors ressort reste soumis à l'avis préalable des magistrats prévu aux articles L. 3511-2 et L. 3511-3 ; aucune compétence n'est élargie.",
       "decision": "R",
       "operations": [
@@ -83,7 +89,7 @@
       "code": "cpp",
       "num": "L2221-9",
       "principe": "P23",
-      "motif": "Compétence dans les transports collectifs : même champ, phrases resserrées. Renvoi à L. 3223-8 vérifié sur la pièce de passe 3 du lot p172.",
+      "motif": "Compétence dans les transports collectifs : même champ, phrases resserrées. Renvoi à L. 3223-8 vérifié sur la pièce de passe 3 du lot p172. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune : l'extension au trajet ferroviaire reste subordonnée aux réquisitions expresses du procureur de la République.",
       "decision": "S",
       "operations": [
@@ -97,7 +103,7 @@
       "code": "cpp",
       "num": "L2221-10",
       "principe": "P23",
-      "motif": "Autorisation d'anonymat de l'agent menacé : conditions, décision motivée et copie au procureur gardées, phrases resserrées.",
+      "motif": "Autorisation d'anonymat de l'agent menacé : conditions, décision motivée et copie au procureur gardées, phrases resserrées. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Contrôle du parquet examiné : copie de l'autorisation au procureur de la République gardée ; la menace sur la vie ou l'intégrité physique reste la condition.",
       "decision": "S",
       "operations": [
@@ -111,13 +117,13 @@
       "code": "cpp",
       "num": "L2221-11",
       "principe": "P23",
-      "motif": "Champ de l'anonymat : seuil de trois ans et cas particulier gardés, items terminés par un point.",
+      "motif": "Champ de l'anonymat : seuil de trois ans et cas particulier gardés, items terminés par un point. Passe 5 : vocabulaire de la carte des sièges (section 1) : « mise en cause » ne s'emploie plus qu'au sens de L. 3324-5 : les personnes visées sont suspectées ou poursuivies, champ inchangé.",
       "ligne_rouge": "Art. 8 DDHC examiné : le seuil de trois ans et l'autorisation spéciale, pour toute la procédure, sous trois ans sont gardés mot pour mot dans leur sens ; aucun champ n'est élargi.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "L'autorisation permet à l'agent d'être identifié par un numéro d'immatriculation administrative, sa qualité et son service ou unité d'affectation dans tous les actes des procédures suivantes :\n1° Celles qui portent sur un crime ou sur un délit puni d'au moins trois ans d'emprisonnement.\n2° Celles qui portent sur un délit puni de moins de trois ans d'emprisonnement, sur une autorisation délivrée dans les formes du deuxième alinéa de l'article L. 2221-10 pour l'ensemble de la procédure, lorsque les circonstances particulières des faits ou la personnalité des personnes mises en cause exposent l'agent ou ses proches au même danger."
+          "nouveau": "L'autorisation permet à l'agent d'être identifié par un numéro d'immatriculation administrative, sa qualité et son service ou unité d'affectation dans tous les actes des procédures suivantes :\n1° Celles qui portent sur un crime ou sur un délit puni d'au moins trois ans d'emprisonnement.\n2° Celles qui portent sur un délit puni de moins de trois ans d'emprisonnement, sur une autorisation délivrée dans les formes du deuxième alinéa de l'article L. 2221-10 pour l'ensemble de la procédure, lorsque les circonstances particulières des faits ou la personnalité des personnes suspectées ou poursuivies exposent l'agent ou ses proches au même danger."
         }
       ]
     },
@@ -125,13 +131,13 @@
       "code": "cpp",
       "num": "L2221-12",
       "principe": "P23",
-      "motif": "Témoignage et constitution de partie civile sous numéro : même règle, deux phrases.",
+      "motif": "Témoignage et constitution de partie civile sous numéro : même règle, deux phrases. Passe 5 : vocabulaire de la carte des sièges (section 1) : juridictions de l'enquête (L. 2122-1) pour juridictions d'instruction.",
       "ligne_rouge": "Publicité (P26) examinée : l'anonymat protège une identité, pas le secret de l'audience (registre 3.2).",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le bénéficiaire peut aussi, sous ces éléments d'identification, déposer ou comparaître comme témoin au cours de l'enquête ou devant les juridictions d'instruction ou de jugement et se constituer partie civile. Seuls ces éléments figurent dans les actes de procédure et les décisions. Ses nom et prénom ne sont pas cités aux audiences publiques."
+          "nouveau": "Le bénéficiaire peut aussi, sous ces éléments d'identification, déposer ou comparaître comme témoin au cours de l'enquête ou devant les juridictions de l'enquête ou de jugement et se constituer partie civile. Seuls ces éléments figurent dans les actes de procédure et les décisions. Ses nom et prénom ne sont pas cités aux audiences publiques."
         }
       ]
     },
@@ -139,7 +145,7 @@
       "code": "cpp",
       "num": "L2221-13",
       "principe": "P25",
-      "motif": "Pas d'anonymat pour l'agent entendu ou poursuivi pour un acte de ses fonctions : gardé.",
+      "motif": "Pas d'anonymat pour l'agent entendu ou poursuivi pour un acte de ses fonctions : gardé. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Art. 66 C et droits de la défense examinés : l'agent mis en cause répond sous son nom, en audition libre, en garde à vue comme en poursuite.",
       "decision": "G"
     },
@@ -147,13 +153,13 @@
       "code": "cpp",
       "num": "L2221-14",
       "principe": "P23",
-      "motif": "Accès des juridictions à l'identité, communication sur requête et nullités : trois alinéas au lieu de quatre, la requête et la décision du procureur dans l'enquête contradictoire au deuxième alinéa, que vise L2221-15.",
-      "ligne_rouge": "Art. 16 DDHC (droits de la défense) examiné : accès des juridictions, requête motivée, avis du ministère public et mise en balance de la menace et des droits de la défense gardés ; le juge des nullités statue sans révéler l'identité.",
-      "decision": "S",
+      "motif": "Accès des juridictions à l'identité, communication sur requête et nullités : trois alinéas au lieu de quatre, la requête et la décision du procureur dans l'enquête contradictoire au deuxième alinéa, que vise L2221-15. Passe 5 : le juge d'instruction disparaît (13.3, C). Au cours de l'enquête, que dirige le procureur, la requête lui est adressée, et son refus se porte devant le juge de l'enquête et des libertés, qui statue selon la même mise en balance : la partie garde l'accès à un juge du siège qu'elle avait devant le juge d'instruction. Les nullités pendant l'enquête relèvent de la chambre (carte des sièges 3.5). Le deuxième alinéa, cité par L2221-15 et R2-21, garde son rang. Relecture adverse : le silence du procureur gardé [un mois] ouvre aussi le recours au juge (G4, accès effectif au juge). Rang des alinéas tenu (L2221-15, R2-21).",
+      "ligne_rouge": "Art. 16 DDHC (droits de la défense) examiné : accès des juridictions, requête motivée, avis du ministère public et mise en balance de la menace et des droits de la défense gardés ; le juge des nullités statue sans révéler l'identité. Passe 5 : droits de la défense examinés (art. 16 DDHC) : accès des juridictions au nom, requête motivée, mise en balance et décision d'un juge du siège sur recours gardés, le juge de l'enquête et des libertés succédant au juge d'instruction.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les juridictions d'instruction ou de jugement saisies des faits ont accès aux nom et prénom de la personne identifiée par un numéro d'immatriculation administrative.\nSaisi par une partie d'une requête écrite et motivée tendant à la communication des nom et prénom d'un bénéficiaire de l'autorisation prévue à l'article L. 2221-10, le juge d'instruction ou le président de la juridiction de jugement statue après avis du ministère public, en mettant en balance la menace que cette révélation ferait peser sur la vie ou l'intégrité physique de cette personne ou de ses proches et la nécessité de la communication pour les droits de la défense du demandeur. Le procureur de la République statue de même lorsque l'enquête est ouverte au contradictoire selon le chapitre 4 du titre II du livre III de la troisième partie.\nLe juge d'instruction, le président de la chambre des investigations et des libertés ou le président de la juridiction de jugement saisi d'une demande d'annulation dont l'examen exige de connaître ces nom et prénom statue sans les verser au débat contradictoire ni les indiquer dans sa décision."
+          "nouveau": "Les juridictions de l'enquête ou de jugement saisies des faits ont accès aux nom et prénom de la personne identifiée par un numéro d'immatriculation administrative.\nSaisi par une partie d'une requête écrite et motivée tendant à la communication des nom et prénom d'un bénéficiaire de l'autorisation prévue à l'article L. 2221-10, le président de la juridiction de jugement statue après avis du ministère public, en mettant en balance la menace que cette révélation ferait peser sur la vie ou l'intégrité physique de cette personne ou de ses proches et la nécessité de la communication pour les droits de la défense du demandeur. Au cours de l'enquête, le procureur de la République statue de même. Son refus, ou son silence gardé pendant [un mois], peut être porté par la partie devant le juge de l'enquête et des libertés, qui statue de même.\nLe juge de l'enquête et des libertés, le président de la chambre des investigations et des libertés ou le président de la juridiction de jugement saisi d'une demande d'annulation ou d'une requête dont l'examen exige de connaître ces nom et prénom statue sans les verser au débat contradictoire ni les indiquer dans sa décision."
         }
       ]
     },
@@ -161,7 +167,7 @@
       "code": "cpp",
       "num": "L2221-15",
       "principe": "P23",
-      "motif": "Révélation de l'identité d'un agent protégé : une seule échelle de peines pour les agents autorisés (L2221-10) et les agents de la criminalité organisée (L2221-17), L2221-20 fusionné ; exceptions de chaque régime écrites, peines et aggravations inchangées.",
+      "motif": "Révélation de l'identité d'un agent protégé : une seule échelle de peines pour les agents autorisés (L2221-10) et les agents de la criminalité organisée (L2221-17), L2221-20 fusionné ; exceptions de chaque régime écrites, peines et aggravations inchangées. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Art. 8 DDHC examiné : incrimination et peines inchangées, champ exact de chaque régime gardé (exceptions propres à chacun) ; « sans préjudice » gardé, il autorise le cumul avec les crimes contre la vie.",
       "decision": "R",
       "operations": [
@@ -175,7 +181,7 @@
       "code": "cpp",
       "num": "L2221-16",
       "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État : gardé, il borne la plage L. 2221-10 à L. 2221-16 citée par L2242-14 et L2243-6.",
+      "motif": "Renvoi au décret en Conseil d'État : gardé, il borne la plage L. 2221-10 à L. 2221-16 citée par L2242-14 et L2243-6. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune.",
       "decision": "G"
     },
@@ -183,13 +189,13 @@
       "code": "cpp",
       "num": "L2221-17",
       "principe": "P23",
-      "motif": "Identification par numéro des enquêteurs de la criminalité organisée : « sans préjudice » de la section 1 (coquille pour l'autorisation de l'ancien 15-4) écrit « outre l'autorisation prévue à l'article L. 2221-10 », cas de témoignage gardés en une phrase.",
+      "motif": "Identification par numéro des enquêteurs de la criminalité organisée : « sans préjudice » de la section 1 (coquille pour l'autorisation de l'ancien 15-4) écrit « outre l'autorisation prévue à l'article L. 2221-10 », cas de témoignage gardés en une phrase. Passe 5 : vocabulaire de la carte des sièges (section 1) : juridictions de l'enquête (L. 2122-1) pour juridictions d'instruction.",
       "ligne_rouge": "Droits de la défense examinés : les cas de dépôt sous numéro restent les deux de 2029 ; les exclusions de L2221-18 et la communication de L2221-19 sont gardées.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Outre l'autorisation prévue à l'article L. 2221-10, tout agent de la police nationale ou de la gendarmerie nationale affecté dans un service spécialement chargé des enquêtes en matière de délinquance et de criminalité organisées, dont la liste est fixée par arrêté des ministres de l'intérieur et de la justice, peut être identifié par un numéro d'immatriculation administrative, sa qualité et son service ou unité d'affectation dans les actes de procédure qu'il établit ou auxquels il participe.\nIl peut, sous ces éléments, déposer ou comparaître comme témoin au cours de l'enquête ou devant les juridictions d'instruction ou de jugement et se constituer partie civile, lorsqu'il a rédigé des actes de procédure ou participé à des actes d'enquête, ou lorsqu'il est entendu pour des faits commis dans l'exercice de ses fonctions ou en rapport avec elles. Seuls ces éléments figurent dans les actes de procédure et les décisions."
+          "nouveau": "Outre l'autorisation prévue à l'article L. 2221-10, tout agent de la police nationale ou de la gendarmerie nationale affecté dans un service spécialement chargé des enquêtes en matière de délinquance et de criminalité organisées, dont la liste est fixée par arrêté des ministres de l'intérieur et de la justice, peut être identifié par un numéro d'immatriculation administrative, sa qualité et son service ou unité d'affectation dans les actes de procédure qu'il établit ou auxquels il participe.\nIl peut, sous ces éléments, déposer ou comparaître comme témoin au cours de l'enquête ou devant les juridictions de l'enquête ou de jugement et se constituer partie civile, lorsqu'il a rédigé des actes de procédure ou participé à des actes d'enquête, ou lorsqu'il est entendu pour des faits commis dans l'exercice de ses fonctions ou en rapport avec elles. Seuls ces éléments figurent dans les actes de procédure et les décisions."
         }
       ]
     },
@@ -197,7 +203,7 @@
       "code": "cpp",
       "num": "L2221-18",
       "principe": "P23",
-      "motif": "Exclusions de l'anonymat de la criminalité organisée : même règle, items sans point-virgule. Le régime vaut aussi pour les personnels pénitentiaires (L2515-4 y renvoie, lot p271).",
+      "motif": "Exclusions de l'anonymat de la criminalité organisée : même règle, items sans point-virgule. Le régime vaut aussi pour les personnels pénitentiaires (L2515-4 y renvoie, lot p271). Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Art. 66 C examiné : l'agent entendu en audition libre, placé en garde à vue ou poursuivi pour un acte de ses fonctions répond sous son nom.",
       "decision": "S",
       "operations": [
@@ -211,13 +217,13 @@
       "code": "cpp",
       "num": "L2221-19",
       "principe": "P23",
-      "motif": "Communication de l'identité sur requête : requête, information de l'agent, communication de principe, recours suspensif et appel du procureur gardés, en trois alinéas. Le régime vaut aussi pour les personnels pénitentiaires (L2515-5 y renvoie, lot p271).",
-      "ligne_rouge": "Droits de la défense et de la partie civile examinés : la communication reste la règle, le refus n'est fondé que sur la menace pour la vie ou l'intégrité physique ; recours suspensif de l'agent et appel du procureur dans les dix jours gardés.",
-      "decision": "S",
+      "motif": "Communication de l'identité sur requête : requête, information de l'agent, communication de principe, recours suspensif et appel du procureur gardés, en trois alinéas. Le régime vaut aussi pour les personnels pénitentiaires (L2515-5 y renvoie, lot p271). Passe 5 : le juge d'instruction disparaît (13.3, C) : au cours de l'enquête, la requête va au procureur qui la dirige, et son refus se porte devant le juge de l'enquête et des libertés, qui statue selon la même règle. Recours suspensif de l'agent, recours devant le procureur général et appel du procureur sous dix jours gardés, l'appel visant désormais la décision du juge de l'enquête et des libertés. Relecture adverse : le silence du procureur gardé [un mois] ouvre aussi le recours au juge (G4, accès effectif au juge).",
+      "ligne_rouge": "Droits de la défense et de la partie civile examinés : la communication reste la règle, le refus n'est fondé que sur la menace pour la vie ou l'intégrité physique ; recours suspensif de l'agent et appel du procureur dans les dix jours gardés. Passe 5 : droits de la défense et protection de l'agent examinés : requête motivée, information et observations de l'agent, recours suspensif et appel gardés. La partie garde un juge du siège contre le refus du procureur.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Une partie peut, pour l'exercice des droits de la défense ou de la partie civile, demander par requête écrite et motivée au juge d'instruction ou au président de la juridiction de jugement la communication des nom et prénom d'un agent identifié selon l'article L. 2221-17. Lorsque le dossier est communiqué selon le chapitre 4 du titre II du livre III de la troisième partie, la requête est adressée au procureur de la République.\nLe magistrat saisi en informe l'agent, qui peut s'y opposer par ses observations. Il communique l'identité, sauf s'il estime, au vu de ces observations, que sa révélation menace la vie ou l'intégrité physique de l'agent ou de ses proches.\nSi la communication est envisagée malgré l'opposition de l'agent, celui-ci peut former un recours suspensif devant la chambre des investigations et des libertés ou, contre la décision du procureur de la République, devant le procureur général. Le procureur de la République peut faire appel de la décision du juge d'instruction ou du président de la juridiction de jugement devant la chambre des investigations et des libertés dans les dix jours de sa notification."
+          "nouveau": "Une partie peut, pour l'exercice des droits de la défense ou de la partie civile, demander par requête écrite et motivée au procureur de la République au cours de l'enquête, ou au président de la juridiction de jugement, la communication des nom et prénom d'un agent identifié selon l'article L. 2221-17.\nLe magistrat saisi en informe l'agent, qui peut s'y opposer par ses observations. Il communique l'identité, sauf s'il estime, au vu de ces observations, que sa révélation menace la vie ou l'intégrité physique de l'agent ou de ses proches.\nLe refus du procureur de la République, ou son silence gardé pendant [un mois], peut être porté par la partie devant le juge de l'enquête et des libertés, qui statue selon le deuxième alinéa. Si la communication est envisagée malgré l'opposition de l'agent, celui-ci peut former un recours suspensif devant la chambre des investigations et des libertés ou, contre la décision du procureur de la République, devant le procureur général. Le procureur de la République peut faire appel de la décision du juge de l'enquête et des libertés ou du président de la juridiction de jugement devant la chambre des investigations et des libertés dans les dix jours de sa notification."
         }
       ]
     },
@@ -225,7 +231,7 @@
       "code": "cpp",
       "num": "L2221-21",
       "principe": "P23",
-      "motif": "Anonymat des enquêteurs antiterroristes : autorisation du procureur général de Paris, communication de l'état civil, peines et interdiction de condamner sur leurs seuls actes gardées ; renvoi au décret « en tant que de besoin » abrogé (P20, le pouvoir réglementaire général suffit). R50-29 le cite, numéro gardé.",
+      "motif": "Anonymat des enquêteurs antiterroristes : autorisation du procureur général de Paris, communication de l'état civil, peines et interdiction de condamner sur leurs seuls actes gardées ; renvoi au décret « en tant que de besoin » abrogé (P20, le pouvoir réglementaire général suffit). R50-29 le cite, numéro gardé. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Droits de la défense examinés : l'état civil reste communiqué au président de la juridiction de jugement qui le demande, et aucune condamnation ne repose sur les seuls actes d'enquêteurs dont l'état civil lui a été refusé.",
       "decision": "S",
       "operations": [
@@ -239,7 +245,7 @@
       "code": "cpp",
       "num": "L2221-22",
       "principe": "P22",
-      "motif": "Enquêtes administratives associant l'inspection générale de la justice : même règle, phrases resserrées.",
+      "motif": "Enquêtes administratives associant l'inspection générale de la justice : même règle, phrases resserrées. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Contrôle de l'autorité judiciaire sur la police judiciaire examiné : gardé.",
       "decision": "S",
       "operations": [
@@ -253,7 +259,7 @@
       "code": "cpp",
       "num": "L2222-1",
       "principe": "P23",
-      "motif": "Qualité d'officier de police judiciaire : liste des huit catégories gardée à ses numéros (L2222-5 cite les 1° à 8°), items terminés par un point.",
+      "motif": "Qualité d'officier de police judiciaire : liste des huit catégories gardée à ses numéros (L2222-5 cite les 1° à 8°), items terminés par un point. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Art. 66 C examiné : la qualité ouvre la garde à vue ; aucune catégorie n'est ajoutée, l'avis conforme de la commission pour les gradés est gardé.",
       "decision": "S",
       "operations": [
@@ -267,7 +273,7 @@
       "code": "cpp",
       "num": "L2222-2",
       "principe": "P23",
-      "motif": "Réservistes officiers et agents de police judiciaire en un article (L2223-2 fusionné) : conditions d'actualisation, d'expérience et d'aptitude, durée de cinq ans et décret gardés.",
+      "motif": "Réservistes officiers et agents de police judiciaire en un article (L2223-2 fusionné) : conditions d'actualisation, d'expérience et d'aptitude, durée de cinq ans et décret gardés. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Art. 66 C examiné : actualisation des connaissances, expérience, aptitude et limite de cinq ans gardées ; l'habilitation de L2222-5 reste exigée.",
       "decision": "S",
       "operations": [
@@ -281,7 +287,7 @@
       "code": "cpp",
       "num": "L2222-3",
       "principe": "P23",
-      "motif": "Prérogatives des officiers de police judiciaire : quatre phrases en deux, garde à vue gardée.",
+      "motif": "Prérogatives des officiers de police judiciaire : quatre phrases en deux, garde à vue gardée. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Art. 66 C examiné : la décision de garde à vue reste réservée à l'officier de police judiciaire, sous le contrôle prévu par la troisième partie.",
       "decision": "S",
       "operations": [
@@ -295,7 +301,7 @@
       "code": "cpp",
       "num": "L2222-4",
       "principe": "P23",
-      "motif": "Information sans délai du procureur et de la section spécialisée : même règle, verbe au présent.",
+      "motif": "Information sans délai du procureur et de la section spécialisée : même règle, verbe au présent. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Contrôle du parquet examiné : information sans délai gardée.",
       "decision": "S",
       "operations": [
@@ -309,7 +315,7 @@
       "code": "cpp",
       "num": "L2222-5",
       "principe": "P23",
-      "motif": "Habilitation en un article : condition d'emploi et décision personnelle du procureur général, conditions propres aux 7° et 8°, dispense des 1° et 2° (coquille de renvoi corrigée en passe 2), puis autorité, durée et décret de l'habilitation (L2222-6 fusionné, « de l'engagement » corrigé). Passe 4 : « pris sur le rapport des ministres de la justice et de l'intérieur » tombe (P20) : le contreseing suit l'article 22 de la Constitution, comme au décret de L2152-34. Conditions, durée et décision personnelle du procureur général inchangées.",
+      "motif": "Habilitation en un article : condition d'emploi et décision personnelle du procureur général, conditions propres aux 7° et 8°, dispense des 1° et 2° (coquille de renvoi corrigée en passe 2), puis autorité, durée et décret de l'habilitation (L2222-6 fusionné, « de l'engagement » corrigé). Passe 4 : « pris sur le rapport des ministres de la justice et de l'intérieur » tombe (P20) : le contreseing suit l'article 22 de la Constitution, comme au décret de L2152-34. Conditions, durée et décision personnelle du procureur général inchangées. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Contrôle de l'autorité judiciaire examiné : aucune qualité n'est exercée sans habilitation personnelle du procureur général, sauf les directeurs des 1° et 2° comme en 2029 ; conditions d'ancienneté et d'affectation gardées.",
       "decision": "R",
       "operations": [
@@ -323,7 +329,7 @@
       "code": "cpp",
       "num": "L2222-7",
       "principe": "P23",
-      "motif": "Recours contre le refus, la suspension ou le retrait d'habilitation : délais d'un mois, silence valant rejet, commission de la Cour de cassation et débat oral gardés ; les deux mentions de la chambre du conseil tombent, la publicité et ses exceptions relèvent de L. 1 (registre 3.1, passe 2). Siège commun des habilitations de L2242-13 et L2243-3, qui y renvoient (lot p266).",
+      "motif": "Recours contre le refus, la suspension ou le retrait d'habilitation : délais d'un mois, silence valant rejet, commission de la Cour de cassation et débat oral gardés ; les deux mentions de la chambre du conseil tombent, la publicité et ses exceptions relèvent de L. 1 (registre 3.1, passe 2). Siège commun des habilitations de L2242-13 et L2243-3, qui y renvoient (lot p266). Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Droits de la défense examinés : recours devant trois magistrats du siège, débat oral, audition du requérant et assistance de son conseil, décision motivée gardés ; publicité selon L. 1.",
       "decision": "R",
       "operations": [
@@ -337,7 +343,7 @@
       "code": "cpp",
       "num": "L2222-9",
       "principe": "P23",
-      "motif": "Notation et dossier individuel des officiers habilités en un article (L2222-8 fusionné).",
+      "motif": "Notation et dossier individuel des officiers habilités en un article (L2222-8 fusionné). Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Droits de la défense examinés : l'officier soumis au contrôle de la chambre (L. 2212-3) prend connaissance de son dossier au préalable.",
       "decision": "R",
       "operations": [
@@ -351,7 +357,7 @@
       "code": "cpp",
       "num": "L2223-1",
       "principe": "P23",
-      "motif": "Qualité d'agent de police judiciaire : items terminés par un point, condition d'affectation à un emploi gardée. Passe 4 : les deux catégories s'écrivent en une phrase, liste inchangée. Aucun texte ne cite un item par son numéro (L2224-1 et L8121-1 citent l'article).",
+      "motif": "Qualité d'agent de police judiciaire : items terminés par un point, condition d'affectation à un emploi gardée. Passe 4 : les deux catégories s'écrivent en une phrase, liste inchangée. Aucun texte ne cite un item par son numéro (L2224-1 et L8121-1 citent l'article). Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune qualité élargie.",
       "decision": "S",
       "operations": [
@@ -365,7 +371,7 @@
       "code": "cpp",
       "num": "L2223-3",
       "principe": "P23",
-      "motif": "Missions des agents de police judiciaire : une phrase, sans point-virgule. L2242-10 y renvoie.",
+      "motif": "Missions des agents de police judiciaire : une phrase, sans point-virgule. L2242-10 y renvoie. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune : les agents secondent les officiers et constatent, sans pouvoir propre de contrainte.",
       "decision": "S",
       "operations": [
@@ -379,15 +385,21 @@
       "code": "cpp",
       "num": "L2223-4",
       "principe": "P25",
-      "motif": "Ni garde à vue ni perquisition sans consentement par l'agent de police judiciaire : gardé.",
-      "ligne_rouge": "Art. 66 C examiné : la garde à vue et la perquisition sans consentement restent réservées à l'officier de police judiciaire.",
-      "decision": "G"
+      "motif": "Ni garde à vue ni perquisition sans consentement par l'agent de police judiciaire : gardé. Passe 5 : la flagrance cesse d'être un cadre d'enquête (13.2, B, L. 3312-1 et L. 3312-2) : la perquisition sans consentement relève du niveau 2 pendant la phase d'urgence et du niveau 3 hors d'elle (L. 3111-3), et l'agent de police judiciaire n'y procède dans aucun cas. Plus protecteur que 2029, il ne retire à l'agent aucun acte que le cadre unique lui laissait.",
+      "ligne_rouge": "Art. 66 C examiné : la garde à vue et la perquisition sans consentement restent réservées à l'officier de police judiciaire. Passe 5 : inviolabilité du domicile examinée : la réserve des perquisitions sans consentement aux officiers de police judiciaire est gardée et vaut pour toute l'enquête unique.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les agents de police judiciaire n'ont pas qualité pour décider des mesures de garde à vue, ni pour procéder à des perquisitions sans le consentement de la personne."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L2224-1",
       "principe": "P23",
-      "motif": "Qualité d'agent de police judiciaire adjoint : les réservistes de la police et de la gendarmerie en un seul item (3° et 5° réunis, aucun texte ne cite le 5°), renvoi à L. 2223-2 fusionné recalé sur L. 2222-2, items terminés par un point.",
+      "motif": "Qualité d'agent de police judiciaire adjoint : les réservistes de la police et de la gendarmerie en un seul item (3° et 5° réunis, aucun texte ne cite le 5°), renvoi à L. 2223-2 fusionné recalé sur L. 2222-2, items terminés par un point. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune qualité élargie.",
       "decision": "S",
       "operations": [
@@ -401,7 +413,7 @@
       "code": "cpp",
       "num": "L2224-2",
       "principe": "P23",
-      "motif": "Missions des agents de police judiciaire adjoints : une phrase, sans point-virgule.",
+      "motif": "Missions des agents de police judiciaire adjoints : une phrase, sans point-virgule. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune.",
       "decision": "S",
       "operations": [
@@ -415,7 +427,7 @@
       "code": "cpp",
       "num": "L2224-3",
       "principe": "P23",
-      "motif": "Constatations des agents adjoints : même champ (contraventions routières listées par décret, outrage sexiste et sexuel contraventionnel, délit de 222-33-1-1), trois facultés en une phrase.",
+      "motif": "Constatations des agents adjoints : même champ (contraventions routières listées par décret, outrage sexiste et sexuel contraventionnel, délit de 222-33-1-1), trois facultés en une phrase. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Art. 8 DDHC examiné : champ des constatations inchangé ; l'amende forfaitaire suit son régime de la quatrième partie.",
       "decision": "S",
       "operations": [
@@ -429,7 +441,7 @@
       "code": "cpp",
       "num": "L2225-1",
       "principe": "P23",
-      "motif": "Recrutement des assistants d'enquête : items terminés par un point. Passe 4 : les trois viviers de recrutement s'écrivent en une phrase, sans en ajouter. Aucun texte ne cite un item par son numéro.",
+      "motif": "Recrutement des assistants d'enquête : items terminés par un point. Passe 4 : les trois viviers de recrutement s'écrivent en une phrase, sans en ajouter. Aucun texte ne cite un item par son numéro. Passe 5 : relu en entier au vocabulaire de la carte des sièges (section 1), aucun terme supprimé, texte inchangé.",
       "ligne_rouge": "Aucune.",
       "decision": "S",
       "operations": [
@@ -443,13 +455,13 @@
       "code": "cpp",
       "num": "L2225-2",
       "principe": "P23",
-      "motif": "Actes des assistants d'enquête : liste fermée gardée, verbes à l'infinitif, items sans point-virgule ; renvois recalés sur les pièces de passe 3 (L. 3532-9 fusionné dans le deuxième alinéa de L. 3532-8, lot p183 ; L. 3524-8 fusionné dans L. 3524-7, lot p182).",
+      "motif": "Actes des assistants d'enquête : liste fermée gardée, verbes à l'infinitif, items sans point-virgule ; renvois recalés sur les pièces de passe 3 (L. 3532-9 fusionné dans le deuxième alinéa de L. 3532-8, lot p183 ; L. 3524-8 fusionné dans L. 3524-7, lot p182). Passe 5 : vocabulaire de la carte des sièges (section 1) : juge de l'enquête et des libertés pour juge des libertés et de la détention (14.6). Liste fermée des actes gardée.",
       "ligne_rouge": "Art. 66 C examiné : l'assistant n'agit qu'à la demande expresse et sous le contrôle de l'officier ou de l'agent ; les réquisitions restent soumises à l'autorisation préalable du magistrat quand elle est prévue ; aucune décision sur la garde à vue ne lui revient.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les assistants d'enquête secondent les officiers et agents de police judiciaire. A la demande expresse et sous le contrôle de l'officier ou, lorsqu'il est compétent, de l'agent de police judiciaire, ils accomplissent les seuls actes suivants et en dressent procès-verbal :\n1° Convoquer toute personne à entendre par un officier ou un agent de police judiciaire et, s'il y a lieu, contacter l'interprète.\n2° Notifier leurs droits aux victimes selon l'article L. 1411-3.\n3° Procéder, avec l'autorisation préalable du procureur de la République ou du juge des libertés et de la détention lorsqu'elle est prévue, aux réquisitions de l'article L. 3513-1 et du deuxième alinéa de l'article L. 3532-8, et à celles des articles L. 3513-3 et L. 3513-4 qui portent sur des enregistrements de vidéoprotection.\n4° Informer de la garde à vue, par téléphone, les personnes mentionnées à l'article L. 3524-21.\n5° Accomplir les diligences de l'article L. 3524-25 pour l'examen médical de la personne gardée à vue.\n6° Informer l'avocat de la personne gardée à vue de la nature et de la date présumée de l'infraction, selon l'article L. 3524-7.\n7° Transcrire les enregistrements prévus à l'article L. 3551-4 que les officiers de police judiciaire ont identifiés comme nécessaires à la manifestation de la vérité.\n8° Délivrer les convocations devant le tribunal délictuel ou contraventionnel prévues aux articles L. 4412-1 et L. 4511-1.\nL'officier ou l'agent de police judiciaire est immédiatement avisé de toute difficulté, notamment s'il est impossible de joindre les personnes mentionnées aux 1° et 4° à 6°. Un décret en Conseil d'Etat fixe les modalités d'affectation et de serment des assistants d'enquête et celles des transcriptions."
+          "nouveau": "Les assistants d'enquête secondent les officiers et agents de police judiciaire. A la demande expresse et sous le contrôle de l'officier ou, lorsqu'il est compétent, de l'agent de police judiciaire, ils accomplissent les seuls actes suivants et en dressent procès-verbal :\n1° Convoquer toute personne à entendre par un officier ou un agent de police judiciaire et, s'il y a lieu, contacter l'interprète.\n2° Notifier leurs droits aux victimes selon l'article L. 1411-3.\n3° Procéder, avec l'autorisation préalable du procureur de la République ou du juge de l'enquête et des libertés lorsqu'elle est prévue, aux réquisitions de l'article L. 3513-1 et du deuxième alinéa de l'article L. 3532-8, et à celles des articles L. 3513-3 et L. 3513-4 qui portent sur des enregistrements de vidéoprotection.\n4° Informer de la garde à vue, par téléphone, les personnes mentionnées à l'article L. 3524-21.\n5° Accomplir les diligences de l'article L. 3524-25 pour l'examen médical de la personne gardée à vue.\n6° Informer l'avocat de la personne gardée à vue de la nature et de la date présumée de l'infraction, selon l'article L. 3524-7.\n7° Transcrire les enregistrements prévus à l'article L. 3551-4 que les officiers de police judiciaire ont identifiés comme nécessaires à la manifestation de la vérité.\n8° Délivrer les convocations devant le tribunal délictuel ou contraventionnel prévues aux articles L. 4412-1 et L. 4511-1.\nL'officier ou l'agent de police judiciaire est immédiatement avisé de toute difficulté, notamment s'il est impossible de joindre les personnes mentionnées aux 1° et 4° à 6°. Un décret en Conseil d'Etat fixe les modalités d'affectation et de serment des assistants d'enquête et celles des transcriptions."
         }
       ]
     },
