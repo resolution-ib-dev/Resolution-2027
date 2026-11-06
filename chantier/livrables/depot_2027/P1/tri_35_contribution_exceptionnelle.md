@@ -45,11 +45,11 @@ La refonte des impositions ne relève pas la pression globale : la contribution
 
 ## [interne]
 
-### Preuve par réapplication — dépôt de droit, millésime LEGI 20261031, version applicable au 1er juillet 2027
+### Preuve par réapplication — dépôt de droit, millésime LEGI 20261105, version applicable au 1er juillet 2027
 
 | code | visa | réapplication | sections atteintes |
 |---|---|---|---|
 
-Provenance : visas **relevés** au dépôt de droit par `droit.py` le 20261103 ; les textes absents du dépôt (code forestier, code minier, lois non codifiées hors dépôt) sont cités sur la référence juridique de l’annexe des ressources affectées et **restent à relire** avant dépôt.
+Provenance : visas **relevés** au dépôt de droit par `droit.py` ; les codes forestier et minier et les lois non codifiées visées y sont depuis le 20261105.
 
 Vérification de fond et de rédaction du fil machine du 20261103 : `livrables/tri_prelevements/verification_machine_20261103.md`.

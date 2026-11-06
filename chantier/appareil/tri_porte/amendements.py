@@ -40,6 +40,8 @@ dispositif="""I. – Sont abrogés :
 
 2° Le 5° ter de l’article 1001 du même code.
 
+3° Les I et II de l’article 138 de la loi n° 2019-486 du 22 mai 2019 relative à la croissance et la transformation des entreprises.
+
 II. – Sont abrogés :
 
 1° Les articles 231 ter, 231 quater, 302 bis ZA, 990 D, 990 E, 990 F, 990 FA et 990 G du code général des impôts.
@@ -69,13 +71,13 @@ expose="""Cet amendement supprime vingt-sept impositions de l’État et soumet 
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Les codes fiscaux portent, à côté des grands impôts, des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits perçus sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux affectés au sport, taxes sur l’affectation des véhicules à des fins économiques, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles¹. La Caisse des dépôts verse, au lieu de l’impôt sur les sociétés, une contribution qui en tient lieu. L’ensemble rapporte 8,9 milliards d’euros².
+Les codes fiscaux portent, à côté des grands impôts, des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits perçus sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux, dont ceux qu’acquitte la Française des jeux sur ses loteries, taxes sur l’affectation des véhicules à des fins économiques, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles¹. La Caisse des dépôts verse, au lieu de l’impôt sur les sociétés, une contribution qui en tient lieu. L’ensemble rapporte 8,9 milliards d’euros².
 
 L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération, ainsi que les taxes sur les véhicules et les fréquences, dues pour 2027 au seul premier semestre. Les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les articles 14, 25 et 28 du projet, qui modifient ces taxes, appellent une coordination en navette. La Caisse des dépôts acquitte l’impôt sur les sociétés de droit commun pour les exercices ouverts à compter du 1er juillet 2027, au taux unique de la même réforme. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, sans vingt-sept taxes à côté.
 
 La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
-¹ Code général des impôts, code des impositions sur les biens et services et code monétaire et financier, articles visés au dispositif.
+¹ Code général des impôts, code des impositions sur les biens et services, code monétaire et financier et loi n° 2019-486 du 22 mai 2019, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, évaluation initiale pour 2026 · projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2.
 
@@ -138,8 +140,8 @@ rangs=[282,289,293,295,302,303,311,314,320,321,322,312,370,372,371,374,379,369,'
 
 AM.append(dict(
 liasse='P1', n=38, fichier='P1/tri_38_taxes_affectees_hors_cgi.md',
-titre='Taxes affectées : treize de plus supprimées, leur produit voté au budget',
-objet='Taxes affectées : treize de plus supprimées, leur produit voté au budget',
+titre='Taxes affectées : douze de plus supprimées, leur produit voté au budget',
+objet='Taxes affectées : douze de plus supprimées, leur produit voté au budget',
 vise='art. add. après l’art. 42',
 entete='ARTICLE ADDITIONNEL\n\nAPRÈS L’ARTICLE 42, insérer l’article suivant :',
 dispositif="""I. – Sont abrogés :
@@ -160,7 +162,7 @@ dispositif="""I. – Sont abrogés :
 
 8° L’article L. 132-16 du code minier.
 
-9° L’article 72 de la loi de finances rectificative pour 2003 (n° 2003-1312 du 30 décembre 2003), l’article 130 de la loi de finances pour 2007 (n° 2006-1666 du 21 décembre 2006) et l’article 96 de la loi de finances rectificative pour 2010 (n° 2010-1658 du 29 décembre 2010).
+9° L’article 72 de la loi de finances rectificative pour 2003 (n° 2003-1312 du 30 décembre 2003) et l’article 130 de la loi de finances pour 2007 (n° 2006-1666 du 21 décembre 2006).
 
 II. – A. – Le I s’applique aux impositions dont le fait générateur ou, à défaut, l’exigibilité intervient à compter du 1er juillet 2027 et, pour les cotisations assises sur les rémunérations, aux rémunérations versées à compter de cette date.
 
@@ -173,11 +175,11 @@ III. – Les dispositions législatives qui affectent tout ou partie du produit 
 IV. – La perte de recettes pour l’État est compensée, à due concurrence, par la majoration du taux de l’impôt sur les sociétés prévu à l’article 219 du code général des impôts.
 
 V. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.""",
-expose="""Cet amendement supprime treize impositions affectées régies hors du code général des impôts.
+expose="""Cet amendement supprime douze impositions affectées régies hors du code général des impôts.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Une imposition affectée ne figure dans aucun crédit soumis au vote : son produit part directement à l’organisme. Celles que vise l’amendement sont dispersées dans onze textes : cotisation des employeurs au régime de garantie des salaires, contribution des employeurs publics au fonds pour l’insertion des personnes handicapées, contribution des professionnels de santé à leurs unions régionales, taxes sur les médicaments vétérinaires et sur la vente de produits phytopharmaceutiques, redevance de prise et de rejet d’eau de Voies navigables de France, droit d’examen du permis de chasser, indemnité de défrichement, redevance des mines d’hydrocarbures, taxes de trois lois de finances anciennes¹. Leur produit atteint 2,1 milliards d’euros².
+Une imposition affectée ne figure dans aucun crédit soumis au vote : son produit part directement à l’organisme. Celles que vise l’amendement sont dispersées dans dix textes : cotisation des employeurs au régime de garantie des salaires, contribution des employeurs publics au fonds pour l’insertion des personnes handicapées, contribution des professionnels de santé à leurs unions régionales, taxes sur les médicaments vétérinaires et sur la vente de produits phytopharmaceutiques, redevance de prise et de rejet d’eau de Voies navigables de France, droit d’examen du permis de chasser, indemnité de défrichement, redevance des mines d’hydrocarbures, taxes de deux lois de finances anciennes¹. Leur produit atteint 2,1 milliards d’euros².
 
 L’amendement les abroge au 1er juillet 2027 et les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les missions qu’elles finançaient relèvent, selon leur nature, des crédits du budget général ou des amendements de seconde partie qui ferment les structures facultatives. Dit simplement : ce que finance l’impôt, c’est au Parlement de le décider.
 
@@ -190,7 +192,7 @@ La perte de recettes est compensée par la majoration du taux de l’impôt sur 
 ³ Code général des impôts, article 219.""",
 gage='majoration du taux de l’IS (art. 219 CGI) : variable de solde du circuit B, registre des sources de gage, § V ; perte des affectataires tiers non couverte par la forme, déclarée',
 lolf='article 34, I, 3° bis, de la loi organique n° 2001-692 (impositions affectées à une personne morale autre que l’État)',
-rangs=[125,126,129,201,381,389,390,415,170,207,373,385,411],
+rangs=[125,126,129,201,381,389,390,415,207,373,385,411],
 ))
 
 AM.append(dict(

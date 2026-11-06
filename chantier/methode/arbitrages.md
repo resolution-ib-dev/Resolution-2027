@@ -8618,3 +8618,21 @@ site ne sont pas régénérés : aucune publication sans l’auteur.
 - **Missions privées de leur ressource** (garantie des salaires, unions de professionnels de santé, fonds des victimes de pesticides, fonds handicap de la fonction publique) : le produit est repris par l’impôt et la dépense passe au vote, budget général ou fermeture au P2 n° 25 — « ce que finance l’impôt, c’est au Parlement de le décider », devenir « fondu dans l’équilibre » du tri.
 - **TVA** : calendrier arrêté le 20261005 (P1 n° 21 : 1er juillet 2028, puis 2029 et 2030 pour l’alimentation). Les exposés des n° 22 et 25 sont corrigés : la date du 1er juillet 2027 y est celle du taux unique de l’impôt sur les sociétés.
 - **ANCOLS** : « supprimé par construction » — le montant nul à défaut d’arrêté du n° 25, II, B et l’abrogation de la PEEC suffisent.
+
+## 20261106 — fil code, droits de mutation et abrogations
+
+*Fil de production du 20261106. Entrées titrées et datées, sans numéro — A-282.*
+
+### Les abrogations du tri rendues exactes au droit applicable — 20261106
+
+**Validé** (« abrogations correctes tant qu’on y a », auteur, 20261106).
+
+- **P1 n° 36, I, 3°** : les I et II de l’article 138 de la loi n° 2019-486 (prélèvements sur les loteries de la Française des jeux) sont abrogés. Le rang 280 (3 241 M€) passe de non porté à porté (I, 1° et 3°).
+- **P1 n° 38, I, 9°** : l’article 96 de la loi n° 2010-1658 (contribution à l’IRSN), abrogé au 1er janvier 2026, est retiré. Le rang 170 passe à « sans objet : déjà abrogé » ; le n° 38 vise douze impositions.
+- Les cinq pièces restent en projet. Preuve par réapplication : toutes les adresses existent au 1er juillet 2027, millésime LEGI 20261105.
+
+### Droits de mutation : le tri porte la part conservée par le P1 n° 19 — 20261106
+
+**Validé** (« il faut corriger », auteur, 20261106). Le P1 n° 19 ne supprime pas les droits de mutation : il les ramène à 1 % et 3 % au profit de l’État, acompte de l’impôt sur le revenu ou sur les sociétés. Le tri comptait leur suppression entière. Il porte désormais une colonne `part_conservee_2026_M` : 6 000 M€ pour les DMTG (H42 : 0,03 × 300 − 3) et 5 050 M€ pour les DMTO (H41 : C41/2 − 3,5), répartis au prorata du rendement 2026 des rangs de chaque ligne du schéma. Le devenir reste « remplacé par un grand impôt » ; le classeur exportable dit « droit ramené à 1 % et 3 % » et donne la part conservée.
+
+**Tranché** (tambouille, révocable) : la répartition au prorata. Le compte des prélèvements (434) ne change pas.

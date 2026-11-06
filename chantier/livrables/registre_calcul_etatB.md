@@ -518,7 +518,7 @@ Besoin de 2028 avec TVA et taxe sur les salaires au calendrier de la liasse : **
 | P1 n° 35 | État | −5,2 | 0 | 0 | 0 |
 | P1 n° 36 | État et affectataires | −3,8 | −8,6 | −8,6 | 15 |
 | P1 n° 37 | collectivités, État (casinos, TASCOM) | −0,5 | −2,9 | −2,9 | 5 |
-| P1 n° 38 | affectataires tiers | −1,0 | −2,1 | −2,1 | 2 |
+| P1 n° 38 | affectataires tiers | −1,0 | −2,1 | −2,1 | 1 |
 | PLFSS n° 9 | sécurité sociale | −6,8 | −19 | −19 | 5 |
 | **total** | | **−17** | **−33** | **−33** | |
 
@@ -527,7 +527,7 @@ Besoin de 2028 avec TVA et taxe sur les salaires au calendrier de la liasse : **
 | P1 n° 36 à 38 et PLFSS n° 9 | 0 | −2,0 | −2,0 | −2,0 | −2,0 | −2,0 | −2,0 |
 | P1 n° 35 | — | non mensualisé |  |  |  |  |  |
 
-**Lecture.** Le second semestre 2027 porte **une perte de 2,0 Md€ par mois** sur les quatre amendements de suppression, plus le troisième exercice de la contribution exceptionnelle (5,2 Md€, non mensualisé). C’est **un moins**, qui se signale : il n’est compensé en 2027 que par le taux unique de l’impôt sur les sociétés, dont le produit 2027 n’est pas chiffré ici. Les rangs non chiffrés (27) n’ont pas de rendement publié ; le total est un minorant.
+**Lecture.** Le second semestre 2027 porte **une perte de 2,0 Md€ par mois** sur les quatre amendements de suppression, plus le troisième exercice de la contribution exceptionnelle (5,2 Md€, non mensualisé). C’est **un moins**, qui se signale : il n’est compensé en 2027 que par le taux unique de l’impôt sur les sociétés, dont le produit 2027 n’est pas chiffré ici. Les rangs non chiffrés (26) n’ont pas de rendement publié ; le total est un minorant. *Recompté le 20261106 : la contribution à l’IRSN (rang 170), abrogée au 1er janvier 2026, sort du n° 38.*
 
 ---
 

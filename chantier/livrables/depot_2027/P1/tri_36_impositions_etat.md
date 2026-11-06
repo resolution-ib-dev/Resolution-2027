@@ -29,6 +29,8 @@ I. – Sont abrogés :
 
 2° Le 5° ter de l’article 1001 du même code.
 
+3° Les I et II de l’article 138 de la loi n° 2019-486 du 22 mai 2019 relative à la croissance et la transformation des entreprises.
+
 II. – Sont abrogés :
 
 1° Les articles 231 ter, 231 quater, 302 bis ZA, 990 D, 990 E, 990 F, 990 FA et 990 G du code général des impôts.
@@ -61,13 +63,13 @@ Cet amendement supprime vingt-sept impositions de l’État et soumet la Caisse 
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Les codes fiscaux portent, à côté des grands impôts, des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits perçus sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux affectés au sport, taxes sur l’affectation des véhicules à des fins économiques, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles¹. La Caisse des dépôts verse, au lieu de l’impôt sur les sociétés, une contribution qui en tient lieu. L’ensemble rapporte 8,9 milliards d’euros².
+Les codes fiscaux portent, à côté des grands impôts, des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits perçus sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux, dont ceux qu’acquitte la Française des jeux sur ses loteries, taxes sur l’affectation des véhicules à des fins économiques, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles¹. La Caisse des dépôts verse, au lieu de l’impôt sur les sociétés, une contribution qui en tient lieu. L’ensemble rapporte 8,9 milliards d’euros².
 
 L’amendement les abroge en deux temps. Au 1er juillet 2027 tombent celles qui se perçoivent par opération, ainsi que les taxes sur les véhicules et les fréquences, dues pour 2027 au seul premier semestre. Les taxes annuelles assises au 1er janvier sont dues une dernière fois au titre de 2027. Les articles 14, 25 et 28 du projet, qui modifient ces taxes, appellent une coordination en navette. La Caisse des dépôts acquitte l’impôt sur les sociétés de droit commun pour les exercices ouverts à compter du 1er juillet 2027, au taux unique de la même réforme. Dit simplement : chacun paie l’impôt sur le revenu, l’impôt sur les sociétés ou la TVA, sans vingt-sept taxes à côté.
 
 La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
-¹ Code général des impôts, code des impositions sur les biens et services et code monétaire et financier, articles visés au dispositif.
+¹ Code général des impôts, code des impositions sur les biens et services, code monétaire et financier et loi n° 2019-486 du 22 mai 2019, articles visés au dispositif.
 
 ² Projet de loi de finances pour 2027, évaluation des voies et moyens, tome I, annexe 1, évaluation initiale pour 2026 · projet de loi de finances pour 2026, évaluation des voies et moyens, tome I, annexe 2.
 
@@ -77,7 +79,7 @@ La perte de recettes est compensée par la majoration du taux de l’impôt sur 
 
 ## [interne]
 
-### Preuve par réapplication — dépôt de droit, millésime LEGI 20261031, version applicable au 1er juillet 2027
+### Preuve par réapplication — dépôt de droit, millésime LEGI 20261105, version applicable au 1er juillet 2027
 
 | code | visa | réapplication | sections atteintes |
 |---|---|---|---|
@@ -113,6 +115,7 @@ La perte de recettes est compensée par la majoration du taux de l’impôt sur 
 | cgi | 1635 bis AG | 1 art. applicables au 2027-07-01 | Section V quinquies : Droits perçus au profit de la Caisse nationale d |
 | cgi | 1635 bis AH | 1 art. applicables au 2027-07-01 | Section V quinquies : Droits perçus au profit de la Caisse nationale d |
 | cgi | 1001 | 1 art. applicables au 2027-07-01 ; subdivision seule abrogée | II : Tarif |
+| loi2019_486 | loi n° 2019-486, art. 138 | 1 art. applicable au 2027-07-01 ; subdivision seule abrogée | Sous-section 2 : La Française des jeux |
 | cgi | 231 ter | 1 art. applicables au 2027-07-01 | Section II bis : Taxe annuelle sur les locaux à usage de bureaux, les  |
 | cgi | 231 quater | 1 art. applicables au 2027-07-01 | Section II ter : Taxe annuelle sur les locaux à usage de bureaux, les  |
 | cgi | 302 bis ZA | 1 art. applicables au 2027-07-01 | Chapitre XIV : Taxe additionnelle à la taxe sur les surfaces commercia |
@@ -126,6 +129,6 @@ La perte de recettes est compensée par la majoration du taux de l’impôt sur 
 | cibs | L. 421-156 à L. 421-167 | 12 art. applicables au 2027-07-01 | Sous-Paragraphe 5 : Tarif particulier pour le transport combiné · Sous-section 4 : Exigibilité · Sous-section 5 : Personnes soumises aux obligations fiscales · Sous-section 6 : Constatation des taxes · Sous-section 7 : Paiement des taxes · Sous-section 8 : Contrôle, recouvrement et contentieux · Sous-section 9 : Affectation |
 | cibs | L. 455-44 à L. 455-56 | 13 art. applicables au 2027-07-01 | Section 6 : Taxe sur l’utilisation des bandes « 700 MHz » et « 800 MHz |
 
-Provenance : visas **relevés** au dépôt de droit par `droit.py` le 20261103 ; les textes absents du dépôt (code forestier, code minier, lois non codifiées hors dépôt) sont cités sur la référence juridique de l’annexe des ressources affectées et **restent à relire** avant dépôt.
+Provenance : visas **relevés** au dépôt de droit par `droit.py` ; les codes forestier et minier et les lois non codifiées visées y sont depuis le 20261105.
 
 Vérification de fond et de rédaction du fil machine du 20261103 : `livrables/tri_prelevements/verification_machine_20261103.md`.

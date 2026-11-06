@@ -80,8 +80,8 @@ EXPL = {'dont énergie*': 'H17 porte la suppression des certificats d’économi
         'Taxe foncière': 'H vide : les composantes fondues dans la taxe foncière unique gardent leur produit (C37), ce qui vaut conservation du produit',
         'Taxes sur chiffre d\'affaires et bénéfices': 'tri 13,6 contre 10,3 ; avec la CVAE corrigée à l’état A (+1,3) l’écart passe à 4,6 : millésime 2026 contre 2024',
         'Autres taxes sur les entreprises': 'tri 7,3 contre 13,5 : 18 rangs sans rendement',
-        'à titre onéreux': 'le schéma conserve 5,05 Md€ (C41/2 − 3,5) ; le tri compte la suppression entière : DMTO partiels (n° 19)',
-        'à titre gratuit': 'le schéma conserve 6 Md€ (0,03 × 300 − 3) ; le tri compte la suppression entière : DMTG partiels (n° 19)',
+        'à titre onéreux': 'net de la part conservée au tarif de 1 % et 3 % (P1 n° 19, 5,05 Md€ selon le schéma) ; écart de millésime : 19,3 Md€ en 2026 contre 17,1 en 2024',
+        'à titre gratuit': 'net de la part conservée au tarif de 1 % et 3 % (P1 n° 19, 6 Md€ selon le schéma) ; H42 retire aussi 5,6 Md€ de niches et de gisement (colonnes E à G) : droits seuls, 14,8 au schéma contre 15,4 au tri',
         'Autres taxes sur les ménages': 'concordant à l’écart de millésime près',
         'dont redevances sur l\'eau': 'concordant à l’écart de millésime près', 'dont numérique, spectacles': 'concordant à l’écart de millésime près',
         'dont taxe pollution': 'concordant à l’écart de millésime près', 'dont services de transports': 'tri 3,6 contre 1,9 : écart de millésime et de périmètre non expliqué à ce stade'}
@@ -90,7 +90,8 @@ S15 = list(csv.DictReader(open('/home/user/Resolution-2027/chantier/referentiels
 lig = {i: s['ligne_schema'] for i, s in enumerate(S15, 1)}
 for r in T:
     if isinstance(r['n'], int) and r['devenir'] in ('remplacé par un grand impôt', 'fondu dans l’équilibre des quatre grands impôts'):
-        k = lig[r['n']]; g[k][0] += 1; g[k][1] += float(r['rendement_2026_M'] or 0); g[k][2] += 0 if r['rendement_2026_M'] else 1
+        k = lig[r['n']]; g[k][0] += 1; g[k][2] += 0 if r['rendement_2026_M'] else 1
+        g[k][1] += float(r['rendement_2026_M'] or 0) - float(r.get('part_conservee_2026_M') or 0)   # part conservée : P1 n° 19
 sch = []
 for k, (nr, som, sans) in sorted(g.items()):
     h = H.get(k)

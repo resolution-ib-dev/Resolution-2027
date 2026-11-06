@@ -69,7 +69,7 @@ La perte de recettes pour la sécurité sociale est compensée par la majoration
 
 ## [interne]
 
-### Preuve par réapplication — dépôt de droit, millésime LEGI 20261031, version applicable au 1er juillet 2027
+### Preuve par réapplication — dépôt de droit, millésime LEGI 20261105, version applicable au 1er juillet 2027
 
 | code | visa | réapplication | sections atteintes |
 |---|---|---|---|
@@ -91,7 +91,7 @@ La perte de recettes pour la sécurité sociale est compensée par la majoration
 | css | L. 862-3 | 1 art. applicables au 2027-07-01 | Chapitre 2 : Dispositions financières |
 | css | L. 862-4 | 1 art. applicables au 2027-07-01 | Chapitre 2 : Dispositions financières |
 | css | L. 862-4-1 | 1 art. applicables au 2027-07-01 | Chapitre 2 : Dispositions financières |
-| — | 2° L’article 18 de la loi n° 2004-803 du 9 août 2004 relative au service public de l’élect | texte absent du dépôt de droit : non réappliqué |  |
+| loi2004_803 | loi n° 2004-803, art. 18 | 1 art. applicable au 2027-07-01 | Titre IV : Le régime d’assurance vieillesse, invalidité, décès, accide |
 | css | L. 137-30 | 1 art. applicables au 2027-07-01 | Section 13 : Contribution sociale de solidarité à la charge des sociét |
 | css | L. 138-10 | 1 art. applicables au 2027-07-01 | Section 2 : Contribution à la charge des entreprises assurant l’exploi |
 | css | L. 138-19-8 | 1 art. applicables au 2027-07-01 | Section 4 : Contribution à la charge des exploitants d’un ou plusieurs |
@@ -104,6 +104,6 @@ La perte de recettes pour la sécurité sociale est compensée par la majoration
 | css | L. 245-6 | 1 art. applicables au 2027-07-01 | Section 2 bis : Contribution sur le chiffre d’affaires des entreprises |
 | css | L. 862-4-1 | 1 art. applicables au 2027-07-01 | Chapitre 2 : Dispositions financières |
 
-Provenance : visas **relevés** au dépôt de droit par `droit.py` le 20261103 ; les textes absents du dépôt (code forestier, code minier, lois non codifiées hors dépôt) sont cités sur la référence juridique de l’annexe des ressources affectées et **restent à relire** avant dépôt.
+Provenance : visas **relevés** au dépôt de droit par `droit.py` ; les codes forestier et minier et les lois non codifiées visées y sont depuis le 20261105.
 
 Vérification de fond et de rédaction du fil machine du 20261103 : `livrables/tri_prelevements/verification_machine_20261103.md`.
