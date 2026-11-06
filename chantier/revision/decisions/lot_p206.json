@@ -11,13 +11,13 @@
       "code": "cpp",
       "num": "L6221-3",
       "principe": "P19",
-      "motif": "Destinataires des demandes urgentes, transmission au juge d'instruction ou saisine du procureur général, et délai de [quarante-huit heures] après communication au procureur (registre 5.6 et 9.26, passe 2) : gardés, resserrés.",
-      "ligne_rouge": "aucune (passe 1).",
+      "motif": "Destinataires des demandes urgentes, transmission au juge d'instruction ou saisine du procureur général, et délai de [quarante-huit heures] après communication au procureur (registre 5.6 et 9.26, passe 2) : gardés, resserrés. Passe 5 : le juge d'instruction disparaît (C, 13.3) : le procureur reçoit toute demande urgente, la demande adressée au juge lui est transmise, et le délai de [quarante-huit heures] (5.6, 9.26) borne désormais la requête du procureur au juge de l'enquête et des libertés pour un acte de niveau 3 ou 4 (B, L. 3111-3). Le contrôle de L6221-6 garde sa priorité. Relecture adverse : le délai court, comme en 2029, du jour où le procureur reçoit la demande, y compris transmise par le juge (14.5 : un délai garde son point de départ).",
+      "ligne_rouge": "aucune (passe 1). Passe 5 : G1 : l'acte de niveau 3 ou 4 reste autorisé par un juge du siège, sur requête bornée dans le temps.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "En cas d'urgence, les demandes d'entraide des autorités judiciaires étrangères sont transmises, directement ou par l'intermédiaire du procureur général, au procureur de la République ou au juge d'instruction du tribunal judiciaire territorialement compétent, selon la répartition de l'article L. 6221-5. Le procureur de la République qui reçoit directement une demande que seul le juge d'instruction peut exécuter la lui transmet pour exécution, ou saisit le procureur général dans le cas de l'article L. 6221-6. Le juge d'instruction directement saisi communique immédiatement la demande au procureur de la République. Il l'exécute à l'expiration d'un délai de [quarante-huit heures] à compter de cette communication, sous réserve de la transmission au procureur général prévue à l'article L. 6221-6."
+          "nouveau": "En cas d'urgence, les demandes d'entraide des autorités judiciaires étrangères sont transmises, directement ou par l'intermédiaire du procureur général, au procureur de la République du tribunal judiciaire territorialement compétent. Le juge de l'enquête et des libertés qui reçoit directement une demande la transmet sans délai au procureur de la République.\nLe procureur de la République saisit le procureur général dans le cas de l'article L. 6221-6. Sinon, il présente au juge de l'enquête et des libertés, dans les [quarante-huit heures] de la date à laquelle il reçoit la demande, la requête qu'appelle un acte des niveaux 3 ou 4 de l'article L. 3111-3."
         }
       ]
     },
@@ -39,13 +39,13 @@
       "code": "cpp",
       "num": "L6221-5",
       "principe": "P4",
-      "motif": "Exécution par le procureur, ou par le juge d'instruction pour les actes propres à l'information : gardée.",
-      "ligne_rouge": "aucune (passe 1).",
+      "motif": "Exécution par le procureur, ou par le juge d'instruction pour les actes propres à l'information : gardée. Passe 5 : le procureur dirige toutes les enquêtes et la commission rogatoire disparaît (C, 13.3, carte section 1) : il exécute toute demande d'entraide. L'acte qui ne pouvait s'accomplir qu'au cours d'une information relève désormais de son niveau d'autorisation (B, 13.2) : niveaux 3 et 4 au juge de l'enquête et des libertés, selon le socle (G1, L. 5) et la forme de L. 3111-4.",
+      "ligne_rouge": "aucune (passe 1). Passe 5 : G1 (L. 5) : la mesure intrusive exécutée pour un État étranger reste décidée par un juge du siège, aux mêmes niveaux qu'en procédure interne.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les demandes d'entraide des autorités judiciaires étrangères sont exécutées par le procureur de la République ou par les officiers ou agents de police judiciaire qu'il requiert à cette fin. Elles le sont par le juge d'instruction ou par des officiers de police judiciaire agissant sur sa commission rogatoire lorsqu'elles nécessitent des actes de procédure qui ne peuvent être ordonnés ou exécutés qu'au cours d'une information."
+          "nouveau": "Les demandes d'entraide des autorités judiciaires étrangères sont exécutées par le procureur de la République ou par les officiers ou agents de police judiciaire qu'il requiert à cette fin. Les actes des niveaux 3 et 4 de l'article L. 3111-3 sont autorisés par le juge de l'enquête et des libertés, sur requête du procureur de la République, selon les articles L. 5 et L. 3111-4."
         }
       ]
     },
@@ -53,13 +53,13 @@
       "code": "cpp",
       "num": "L6221-6",
       "principe": "P21",
-      "motif": "Refus pour atteinte à l'ordre public ou aux intérêts essentiels de la Nation, par le ministre : gardé (cité par L6123-24, L6141-11, L6141-15, L6242-7, L6153-18, D48-23). Passe 4 : reçoit L6221-7 ; les deux cas de transmission au procureur général (ordre public et intérêts essentiels, lien avec un service de renseignement) partagent la transmission, la décision du ministre, sa notification et son effet, écrits une fois. Le procureur général garde son appréciation dans le 1° et saisit le ministre dans le 2° ; l'avis du ministre dont relève le service sous un mois reste.",
+      "motif": "Refus pour atteinte à l'ordre public ou aux intérêts essentiels de la Nation, par le ministre : gardé (cité par L6123-24, L6141-11, L6141-15, L6242-7, L6153-18, D48-23). Passe 4 : reçoit L6221-7 ; les deux cas de transmission au procureur général (ordre public et intérêts essentiels, lien avec un service de renseignement) partagent la transmission, la décision du ministre, sa notification et son effet, écrits une fois. Le procureur général garde son appréciation dans le 1° et saisit le ministre dans le 2° ; l'avis du ministre dont relève le service sous un mois reste. Passe 5 : toute demande passe par le procureur (C, 13.3, L6221-3), l'avis du juge d'instruction tombe. Le juge de l'enquête et des libertés déjà saisi d'une requête est avisé de la saisine du ministre. Motifs de refus, délai d'un mois de l'avis du renseignement et effet de la décision du ministre inchangés.",
       "ligne_rouge": "aucune (passe 1).",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le procureur de la République saisi d'une demande d'entraide d'une autorité judiciaire étrangère, ou qui en est avisé par le juge d'instruction, la transmet au procureur général :\n1° Si son exécution est de nature à porter atteinte à l'ordre public ou aux intérêts essentiels de la Nation.\n2° Si elle concerne des faits commis hors du territoire national susceptibles d'être en lien avec les missions réalisées, aux fins de la défense et de la promotion des intérêts fondamentaux de la Nation prévus à l'article L. 811-3 du code de la sécurité intérieure, par un service spécialisé de renseignement prévu à l'article L. 811-2 du même code.\nLe procureur général détermine s'il y a lieu de saisir le ministre de la justice dans le cas du 1°, et le saisit dans le cas du 2°. Il en avise, le cas échéant, le juge d'instruction. Dans le cas du 2°, le ministre de la justice recueille l'avis du ministre dont relève le service, qui lui fait connaître dans le délai d'un mois si l'exécution de la demande est de nature à porter atteinte aux intérêts fondamentaux de la Nation.\nLe ministre de la justice informe, s'il y a lieu, l'autorité requérante qu'il ne peut être donné suite à sa demande, en tout ou partie. Cette décision est notifiée à l'autorité judiciaire saisie et fait obstacle à l'exécution de la demande ou au retour des pièces d'exécution."
+          "nouveau": "Le procureur de la République saisi d'une demande d'entraide d'une autorité judiciaire étrangère la transmet au procureur général :\n1° Si son exécution est de nature à porter atteinte à l'ordre public ou aux intérêts essentiels de la Nation.\n2° Si elle concerne des faits commis hors du territoire national susceptibles d'être en lien avec les missions réalisées, aux fins de la défense et de la promotion des intérêts fondamentaux de la Nation prévus à l'article L. 811-3 du code de la sécurité intérieure, par un service spécialisé de renseignement prévu à l'article L. 811-2 du même code.\nLe procureur général détermine s'il y a lieu de saisir le ministre de la justice dans le cas du 1°, et le saisit dans le cas du 2°. Il en avise, le cas échéant, le juge de l'enquête et des libertés saisi d'une requête. Dans le cas du 2°, le ministre de la justice recueille l'avis du ministre dont relève le service, qui lui fait connaître dans le délai d'un mois si l'exécution de la demande est de nature à porter atteinte aux intérêts fondamentaux de la Nation.\nLe ministre de la justice informe, s'il y a lieu, l'autorité requérante qu'il ne peut être donné suite à sa demande, en tout ou partie. Cette décision est notifiée à l'autorité judiciaire saisie et fait obstacle à l'exécution de la demande ou au retour des pièces d'exécution."
         }
       ]
     },
@@ -151,13 +151,13 @@
       "code": "cpp",
       "num": "L6222-8",
       "principe": "P16",
-      "motif": "Infiltration par des agents étrangers : accord préalable et conditionnel du ministre, autorisation du procureur ou du juge d'instruction de Paris : gardés (cité par L6124-4). Passe 4 : reçoit L6222-9 en second alinéa (participation d'agents étrangers à une infiltration conduite dans une procédure nationale), le chapitre 5 étant visé par renvoi au premier alinéa ; le champ et les conditions de la technique restent.",
-      "ligne_rouge": "aucune (passe 1) ; la double autorisation (souveraineté, puis magistrat) est gardée.",
+      "motif": "Infiltration par des agents étrangers : accord préalable et conditionnel du ministre, autorisation du procureur ou du juge d'instruction de Paris : gardés (cité par L6124-4). Passe 4 : reçoit L6222-9 en second alinéa (participation d'agents étrangers à une infiltration conduite dans une procédure nationale), le chapitre 5 étant visé par renvoi au premier alinéa ; le champ et les conditions de la technique restent. Passe 5 : toute infiltration relève du niveau 4 (B, 13.2, carte section 8, « Infiltration ») : l'opération des agents étrangers est autorisée par le juge de l'enquête et des libertés de Paris sur requête du parquet de Paris, et non plus par le parquet ou le juge d'instruction. Accord préalable du ministre et conditions d'affectation des agents inchangés.",
+      "ligne_rouge": "aucune (passe 1) ; la double autorisation (souveraineté, puis magistrat) est gardée. Passe 5 : G1 (L. 5, 3°) : l'infiltration, acte de niveau 4, est décidée par un juge du siège.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Avec l'accord préalable du ministre de la justice, saisi d'une demande d'entraide à cette fin, des agents de police étrangers peuvent poursuivre sur le territoire national, sous la direction d'officiers de police judiciaire français, des opérations d'infiltration selon le chapitre 5 du titre VI du livre V de la troisième partie. Le ministre peut assortir son accord de conditions et ne le donne que si ces agents sont affectés dans leur pays à un service spécialisé et exercent des missions de police judiciaire. L'opération est ensuite autorisée par le procureur de la République près le tribunal judiciaire de Paris ou par le juge d'instruction du même ressort, dans les conditions des articles L. 3565-1, L. 3565-2 et L. 3565-6.\nAvec l'accord des autorités judiciaires étrangères, les agents de police étrangers mentionnés au premier alinéa peuvent aussi participer, selon le même chapitre et sous la direction d'officiers de police judiciaire français, à des opérations d'infiltration conduites sur le territoire français dans une procédure judiciaire nationale."
+          "nouveau": "Avec l'accord préalable du ministre de la justice, saisi d'une demande d'entraide à cette fin, des agents de police étrangers peuvent poursuivre sur le territoire national, sous la direction d'officiers de police judiciaire français, des opérations d'infiltration selon le chapitre 5 du titre VI du livre V de la troisième partie. Le ministre peut assortir son accord de conditions et ne le donne que si ces agents sont affectés dans leur pays à un service spécialisé et exercent des missions de police judiciaire. L'opération est ensuite autorisée par le juge de l'enquête et des libertés du tribunal judiciaire de Paris, sur requête du procureur de la République près ce tribunal, au niveau 4 de l'article L. 3111-3 et dans les conditions des articles L. 3565-1, L. 3565-2 et L. 3565-6.\nAvec l'accord des autorités judiciaires étrangères, les agents de police étrangers mentionnés au premier alinéa peuvent aussi participer, selon le même chapitre et sous la direction d'officiers de police judiciaire français, à des opérations d'infiltration conduites sur le territoire français dans une procédure judiciaire nationale."
         }
       ]
     },
@@ -165,9 +165,15 @@
       "code": "cpp",
       "num": "L6222-10",
       "principe": "P21",
-      "motif": "Conditions d'usage des informations communiquées à l'étranger : gardé mot pour mot.",
+      "motif": "Conditions d'usage des informations communiquées à l'étranger : gardé mot pour mot. Passe 5 : le procureur dirige toute enquête en cours (C, 13.3) et seul il communique ses informations aux autorités étrangères. Faculté de fixer les conditions d'utilisation gardée mot pour mot.",
       "ligne_rouge": "aucune (passe 1).",
-      "decision": "G"
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le procureur de la République communique à des autorités judiciaires étrangères des informations issues d'une procédure pénale en cours conformément aux stipulations prévues par les conventions internationales, il peut soumettre l'utilisation de ces informations aux conditions qu'il détermine."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -187,13 +193,13 @@
       "code": "cpp",
       "num": "L6223-3",
       "principe": "P19",
-      "motif": "Saisie ordonnée par le juge d'instruction aux frais avancés du Trésor, sur requête ou à l'expiration de [quarante-huit heures] après communication au procureur (registre 5.6, passe 2) : gardée.",
-      "ligne_rouge": "aucune (passe 1) ; art. 17 DDHC : un juge ordonne l'atteinte au bien.",
+      "motif": "Saisie ordonnée par le juge d'instruction aux frais avancés du Trésor, sur requête ou à l'expiration de [quarante-huit heures] après communication au procureur (registre 5.6, passe 2) : gardée. Passe 5 : la saisie patrimoniale relève du niveau 3 (B, 13.2, L. 3111-3) : le juge de l'enquête et des libertés succède au juge d'instruction (C, 14.6), sur requête du procureur. Le délai de [quarante-huit heures] (5.6), qui ouvrait la saisine du juge par l'écoulement du temps, borne désormais la requête du procureur. Relecture adverse : le délai court, comme en 2029, du jour où le procureur reçoit la demande, y compris transmise par le juge (14.5 : un délai garde son point de départ).",
+      "ligne_rouge": "aucune (passe 1) ; art. 17 DDHC : un juge ordonne l'atteinte au bien. Passe 5 : G1 (L. 5, 3°) : la saisie patrimoniale reste ordonnée par un juge du siège.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "L'exécution sur le territoire national de saisies demandées par une autorité judiciaire étrangère en application d'une convention internationale est ordonnée, aux frais avancés du Trésor et selon les modalités du présent code, par le juge d'instruction, sur requête du procureur de la République ou à l'expiration d'un délai de [quarante-huit heures] après lui avoir communiqué la demande."
+          "nouveau": "L'exécution sur le territoire national de saisies demandées par une autorité judiciaire étrangère en application d'une convention internationale est ordonnée, aux frais avancés du Trésor et selon les modalités du présent code, par le juge de l'enquête et des libertés, sur requête du procureur de la République présentée dans les [quarante-huit heures] de la date à laquelle il reçoit la demande, selon l'article L. 3111-4."
         }
       ]
     },
@@ -201,13 +207,13 @@
       "code": "cpp",
       "num": "L6224-1",
       "principe": "P23",
-      "motif": "Extensions aux États tiers en un article : décision d'enquête européenne et équipes communes (conventions semblables à celle de 2000), échange d'informations avec les États associés à Schengen (L6224-2), bureaux de recouvrement des avoirs (L6224-3).",
+      "motif": "Extensions aux États tiers en un article : décision d'enquête européenne et équipes communes (conventions semblables à celle de 2000), échange d'informations avec les États associés à Schengen (L6224-2), bureaux de recouvrement des avoirs (L6224-3). Passe 5 : coordination avec 12.17 (G14) : L. 6122-26, renvoi au décret, est abrogé au profit du décret unique de L. 6121-1. La plage s'arrête à L. 6122-25. Champ de l'échange d'informations inchangé. Relecture adverse (G14) : le décret, sorti des deux plages (ancien L6122-26, second alinéa de L6123-1), est visé à son nouveau siège, le dernier alinéa de L6121-1, pour que les deux extensions le couvrent toujours.",
       "ligne_rouge": "aucune (passe 1).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les articles L. 6123-1 à L. 6124-6, relatifs aux décisions d'enquête européenne et aux équipes communes d'enquête, s'appliquent aux demandes d'entraide entre la France et les autres États parties à une convention comportant des stipulations similaires à celles de la convention du 29 mai 2000 relative à l'entraide judiciaire en matière pénale entre les États membres de l'Union européenne.\nLes articles L. 6122-1 à L. 6122-26 s'appliquent à l'échange d'informations entre les services ou unités mentionnés à l'article L. 6122-1 et les services compétents des États non membres de l'Union européenne associés à la mise en œuvre, à l'application et au développement de l'acquis de Schengen.\nLes articles L. 6122-27 à L. 6122-29 s'appliquent à l'échange des informations mentionnées à l'article L. 6122-27 entre les bureaux de recouvrement des avoirs français et les autorités compétentes des États parties à toute convention comportant des stipulations relatives au dépistage, à la saisie et à la confiscation des produits du crime."
+          "nouveau": "Les articles L. 6123-1 à L. 6124-6, relatifs aux décisions d'enquête européenne et aux équipes communes d'enquête, et le dernier alinéa de l'article L. 6121-1 s'appliquent aux demandes d'entraide entre la France et les autres États parties à une convention comportant des stipulations similaires à celles de la convention du 29 mai 2000 relative à l'entraide judiciaire en matière pénale entre les États membres de l'Union européenne.\nLes articles L. 6122-1 à L. 6122-25 et le dernier alinéa de l'article L. 6121-1 s'appliquent à l'échange d'informations entre les services ou unités mentionnés à l'article L. 6122-1 et les services compétents des États non membres de l'Union européenne associés à la mise en œuvre, à l'application et au développement de l'acquis de Schengen.\nLes articles L. 6122-27 à L. 6122-29 s'appliquent à l'échange des informations mentionnées à l'article L. 6122-27 entre les bureaux de recouvrement des avoirs français et les autorités compétentes des États parties à toute convention comportant des stipulations relatives au dépistage, à la saisie et à la confiscation des produits du crime."
         }
       ]
     },
