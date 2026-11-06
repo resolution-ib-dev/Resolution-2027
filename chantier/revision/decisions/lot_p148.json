@@ -10,14 +10,14 @@
     {
       "code": "cpp",
       "num": "L4411-1",
-      "principe": "P23",
-      "motif": "Table des modes de saisine, gardée ; les 1° à 4° deviennent des phrases terminées par un point. Passe 4 : au 3°, la mention des chapitres de la troisième partie qui fondent le renvoi tombe : le renvoi est ordonné par la juridiction d'instruction selon ses propres règles, et le chapitre 4 règle la saisine qui en résulte.",
-      "ligne_rouge": "aucune",
-      "decision": "S",
+      "principe": "P24",
+      "motif": "Table des modes de saisine, gardée ; les 1° à 4° deviennent des phrases terminées par un point. Passe 4 : au 3°, la mention des chapitres de la troisième partie qui fondent le renvoi tombe : le renvoi est ordonné par la juridiction d'instruction selon ses propres règles, et le chapitre 4 règle la saisine qui en résulte. Passe 5 : article d'annonce des deux voies de jugement (D, 13.4) : voie rapide (ordonnance pénale, reconnaissance de culpabilité, comparution rapide), voie ordinaire (convocation, citation directe, réquisitoire de renvoi, citation de la partie civile), barème applicable aux deux. Le défèrement et la juridiction d'instruction disparaissent (A2, C).",
+      "ligne_rouge": "aucune Passe 5 : P24 et art. 8 DDHC : le barème s'applique dans les deux voies, aucune voie ne sort du jugement par un juge, l'amende forfaitaire délictuelle garde sa contestation.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le tribunal délictuel est saisi des infractions de sa compétence :\n1° En l'absence de défèrement, par convocation en justice ou citation directe du procureur de la République, selon le chapitre 2 du présent titre.\n2° Après défèrement devant le procureur de la République, par comparution sur procès-verbal, comparution immédiate ou comparution à délai différé, selon le chapitre 3.\n3° Par le renvoi de la juridiction d'instruction, selon le chapitre 4.\n4° Par citation directe de la partie civile, selon le chapitre 5."
+          "nouveau": "Le tribunal délictuel est saisi par la voie rapide ou par la voie ordinaire. Le barème des articles 132-1 et 132-1-1 du code pénal s'applique dans les deux voies.\nLa voie rapide comprend :\n1° L'ordonnance pénale, selon l'article L. 4461-1.\n2° La reconnaissance de culpabilité, selon l'article L. 4451-1.\n3° La comparution rapide, selon le chapitre 3 du présent titre.\nLa voie ordinaire comprend :\n1° La convocation en justice et la citation directe du procureur de la République, selon le chapitre 2 du présent titre.\n2° Le réquisitoire de renvoi et l'ordonnance de renvoi prise selon l'article L. 4113-4, selon le chapitre 4 du présent titre.\n3° La citation directe de la partie civile, selon le chapitre 5 du présent titre.\nL'amende forfaitaire délictuelle reste hors de ces deux voies et garde sa contestation."
         }
       ]
     },
@@ -39,13 +39,13 @@
       "code": "cpp",
       "num": "L4411-4",
       "principe": "P23",
-      "motif": "Deux interdits de la citation directe (information en cours, non-lieu, L4411-5) en un article.",
-      "ligne_rouge": "Protection contre la poursuite répétée : le non-lieu garde son autorité à l'égard des personnes visées.",
+      "motif": "Deux interdits de la citation directe (information en cours, non-lieu, L4411-5) en un article. Passe 5 : l'information en cours devient l'enquête qui vise une personne mise en cause, le non-lieu devient le classement motivé (C1, C5). La personne mise en cause ne peut être citée directement : elle garde l'avis de fin d'enquête et ses délais (L3333-1). La victime garde son recours au juge (C3, G5). Relecture : l'interdit vaut pour toute enquête qui compte une partie, équivalent de l'information en cours. Après classement motivé, il protège aussi la personne suspectée qui a exercé les droits de L3521-5 à L3521-12, comme l'ancien L4411-5 protégeait le témoin assisté. Les charges nouvelles n'ouvrent pas la citation directe : seul le procureur reprend l'enquête (L3333-4).",
+      "ligne_rouge": "Protection contre la poursuite répétée : le non-lieu garde son autorité à l'égard des personnes visées. Passe 5 : Protection contre la poursuite répétée et droits de la personne mise en cause : le classement motivé garde l'effet du non-lieu, sauf charges nouvelles (L3333-4). G5 : la victime agit dans l'enquête (L. 9) et contre le classement (L4113-4).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Tant qu'une information est en cours, le procureur de la République et la partie civile ne peuvent saisir le tribunal délictuel par citation directe sur les mêmes faits. Après un non-lieu, ils ne peuvent citer directement pour les mêmes faits la personne nommément désignée dans le réquisitoire ou dans la plainte avec constitution de partie civile, ni la personne mise en examen ou témoin assisté."
+          "nouveau": "Tant que l'enquête compte une personne mise en cause ou une partie civile, ni le procureur de la République ni la partie civile ne saisissent le tribunal délictuel par citation directe pour les mêmes faits. La poursuite suit alors les articles L. 3333-1 et L. 3333-2, et la victime exerce ses droits dans l'enquête selon l'article L. 9.\nAprès un classement motivé selon l'article L. 3333-2, ni le procureur de la République ni la partie civile ne citent directement pour les mêmes faits la personne mise en cause, ni la personne suspectée qui a exercé dans l'enquête les droits des articles L. 3521-5 à L. 3521-12. Sur charges nouvelles, seul le procureur de la République reprend l'enquête, selon l'article L. 3333-4. La victime dispose du recours de l'article L. 4113-4."
         }
       ]
     },
@@ -81,13 +81,13 @@
       "code": "cpp",
       "num": "L4411-9",
       "principe": "P23",
-      "motif": "Collégialité obligatoire : deux règles en deux phrases, sans les 1° et 2°.",
-      "ligne_rouge": "Contrôle d'un juge sur la privation de liberté (art. 66 C) et individualisation (art. 8 DDHC) : collégialité pour le détenu, la comparution immédiate et toute peine ferme de plus de cinq ans, gardée.",
+      "motif": "Collégialité obligatoire : deux règles en deux phrases, sans les 1° et 2°. Passe 5 : la comparution immédiate devient le jugement à l'issue de la garde à vue de L4413-11 (D c), champ de la collégialité inchangé.",
+      "ligne_rouge": "Contrôle d'un juge sur la privation de liberté (art. 66 C) et individualisation (art. 8 DDHC) : collégialité pour le détenu, la comparution immédiate et toute peine ferme de plus de cinq ans, gardée. Passe 5 : Collégialité gardée pour le prévenu détenu et pour le jugement à l'issue de la garde à vue, comme pour l'ancienne comparution immédiate.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le tribunal délictuel siège en formation collégiale pour juger les délits de l'article L. 4411-8 lorsque le prévenu est en détention provisoire lors de sa comparution, qu'il est poursuivi en comparution immédiate ou que ces délits sont connexes à des délits qui n'y figurent pas. Seule la formation collégiale prononce un emprisonnement ferme de plus de cinq ans."
+          "nouveau": "Le tribunal délictuel siège en formation collégiale pour juger les délits de l'article L. 4411-8 lorsque le prévenu est en détention provisoire lors de sa comparution, qu'il comparaît selon l'article L. 4413-11 ou que ces délits sont connexes à des délits qui n'y figurent pas. Seule la formation collégiale prononce un emprisonnement ferme de plus de cinq ans."
         }
       ]
     },
@@ -123,13 +123,13 @@
       "code": "cpp",
       "num": "L4411-15",
       "principe": "P18",
-      "motif": "Avis de la date d'audience en un article (L4411-16, L4411-17). L'avis à la victime et au plaignant renvoie à la règle générale de L1421-6 (forme et moment), la traduction reste. Le délai de dix jours et la forme de l'avis au chef d'établissement scolaire, tiers à la procédure, descendent au décret (P1).",
-      "ligne_rouge": "Droits de la défense du majeur protégé : l'avis au curateur ou au tuteur est gardé. Droits de la victime (P18) : avis et traduction gardés.",
+      "motif": "Avis de la date d'audience en un article (L4411-16, L4411-17). L'avis à la victime et au plaignant renvoie à la règle générale de L1421-6 (forme et moment), la traduction reste. Le délai de dix jours et la forme de l'avis au chef d'établissement scolaire, tiers à la procédure, descendent au décret (P1). Passe 5 : vocabulaire de la comparution rapide (D c).",
+      "ligne_rouge": "Droits de la défense du majeur protégé : l'avis au curateur ou au tuteur est gardé. Droits de la victime (P18) : avis et traduction gardés. Passe 5 : Avis à la victime et sa traduction gardés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Sont avisés de la date de l'audience :\n1° La personne qui a porté plainte et la victime, selon l'article L. 1421-6. En comparution sur procès-verbal, immédiate ou à délai différé, l'avis est donné par tout moyen. La victime qui ne comprend pas la langue française obtient à sa demande la traduction de l'avis, qui peut être orale ou résumée à titre exceptionnel.\n2° Le curateur, le tuteur ou le mandataire spécial du prévenu qui fait l'objet d'une mesure de protection juridique mentionnée à l'article L. 1711-2.\n3° Le chef de l'établissement scolaire, avisé aussi de l'objet de l'audience, lorsque le délit a été commis dans l'enceinte de l'établissement ou a concerné, à ses abords immédiats, un élève ou un membre du personnel. Le délai et la forme de cet avis sont fixés par décret."
+          "nouveau": "Sont avisés de la date de l'audience :\n1° La personne qui a porté plainte et la victime, selon l'article L. 1421-6. En comparution rapide, l'avis est donné par tout moyen. La victime qui ne comprend pas la langue française obtient à sa demande la traduction de l'avis, qui peut être orale ou résumée à titre exceptionnel.\n2° Le curateur, le tuteur ou le mandataire spécial du prévenu qui fait l'objet d'une mesure de protection juridique mentionnée à l'article L. 1711-2.\n3° Le chef de l'établissement scolaire, avisé aussi de l'objet de l'audience, lorsque le délit a été commis dans l'enceinte de l'établissement ou a concerné, à ses abords immédiats, un élève ou un membre du personnel. Le délai et la forme de cet avis sont fixés par décret."
         }
       ]
     },
@@ -207,9 +207,15 @@
       "code": "cpp",
       "num": "L4411-26",
       "principe": "P25",
-      "motif": "Demandes d'actes avant l'audience : inchangé (borne de la plage exclue devant le tribunal contraventionnel par L4511-2).",
-      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : les demandes d'actes restent ouvertes avant l'audience ; à l'audience, L4411-30.",
-      "decision": "G"
+      "motif": "Demandes d'actes avant l'audience : inchangé (borne de la plage exclue devant le tribunal contraventionnel par L4511-2). Passe 5 : la comparution à délai différé devient la comparution rapide (D c). Le droit s'étend à toute comparution rapide, ancienne comparution sur procès-verbal comprise : extension au profit de la défense, déclarée (registre 10.2). Numéro gardé, borne de la plage exclue par L4511-2.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : les demandes d'actes restent ouvertes avant l'audience ; à l'audience, L4411-30. Passe 5 : Art. 16 DDHC et garde-fou n° 22 : la demande d'actes reste ouverte avant l'audience, étendue à toute comparution rapide.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "En cas de poursuites par citation directe, convocation en justice ou comparution rapide, les parties ou leur avocat peuvent, dès que le tribunal a été saisi, demander à ce qu'il soit procédé à tout acte qu'ils estiment nécessaire à la manifestation de la vérité."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -229,13 +235,13 @@
       "code": "cpp",
       "num": "L4411-29",
       "principe": "P25",
-      "motif": "Supplément d'information sur demande : phrases resserrées.",
-      "ligne_rouge": "Droits de la défense : refus spécialement motivé, appel avec le fond, gardés.",
+      "motif": "Supplément d'information sur demande : phrases resserrées. Passe 5 : le supplément d'information devient le supplément d'enquête, confié au seul membre de la juridiction (C, arbitrage « supplément d'enquête » de la carte) : le juge d'instruction désigné tombe.",
+      "ligne_rouge": "Droits de la défense : refus spécialement motivé, appel avec le fond, gardés. Passe 5 : Refus spécialement motivé et appel avec le fond gardés.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le tribunal statue sur les actes demandés que le président n'a pas ordonnés. Il peut commettre par jugement l'un de ses membres ou un juge d'instruction désigné selon l'article L. 3414-1 pour un supplément d'information selon l'article L. 4421-23. Il motive spécialement son refus. Il peut statuer avant le jugement au fond, par un jugement qui n'est susceptible d'appel qu'avec le jugement au fond."
+          "nouveau": "Le tribunal statue sur les actes demandés que le président n'a pas ordonnés. Il peut commettre par jugement l'un de ses membres pour un supplément d'enquête selon l'article L. 4421-23. Il motive spécialement son refus. Il peut statuer avant le jugement au fond, par un jugement qui n'est susceptible d'appel qu'avec le jugement au fond."
         }
       ]
     },
@@ -257,13 +263,13 @@
       "code": "cpp",
       "num": "L4411-31",
       "principe": "P11",
-      "motif": "Compétence sur les exceptions, constat des nullités (L4411-33) et purge avant toute défense au fond (L4411-32) en un article. La purge devant la juridiction de jugement reste écrite ici (borne de L1321-1).",
-      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : le prévenu soulève ses exceptions devant le tribunal ; la forclusion avant toute défense au fond, règle de l'ancien 385, est gardée.",
+      "motif": "Compétence sur les exceptions, constat des nullités (L4411-33) et purge avant toute défense au fond (L4411-32) en un article. La purge devant la juridiction de jugement reste écrite ici (borne de L1321-1). Passe 5 : renvoi aux limites de L4411-34, qui porte l'ancre des nullités devant la juridiction de jugement (14.5).",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : le prévenu soulève ses exceptions devant le tribunal ; la forclusion avant toute défense au fond, règle de l'ancien 385, est gardée. Passe 5 : Forclusion avant toute défense au fond gardée.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le tribunal délictuel saisi de l'action pénale statue sur les exceptions de procédure soulevées par le prévenu, sauf disposition contraire de la loi ou s'il excipe d'un droit réel immobilier. Il constate les nullités qui lui sont soumises. À peine d'irrecevabilité, les exceptions de nullité et les exceptions préjudicielles sont présentées avant toute défense au fond."
+          "nouveau": "Le tribunal délictuel saisi de l'action pénale statue sur les exceptions de procédure soulevées par le prévenu, sauf disposition contraire de la loi ou s'il excipe d'un droit réel immobilier. Il constate les nullités qui lui sont soumises, dans les limites de l'article L. 4411-34. À peine d'irrecevabilité, les exceptions de nullité et les exceptions préjudicielles sont présentées avant toute défense au fond."
         }
       ]
     },
@@ -271,13 +277,13 @@
       "code": "cpp",
       "num": "L4411-34",
       "principe": "P11",
-      "motif": "Purge des nullités de l'instruction par le renvoi : texte de passe 2 (registre 5.3), sans les 1° et 2°.",
-      "ligne_rouge": "Droits de la défense : la réserve du moyen inconnu et l'irrégularité de l'avis de fin d'information restent opposables.",
-      "decision": "S",
+      "motif": "Purge des nullités de l'instruction par le renvoi : texte de passe 2 (registre 5.3), sans les 1° et 2°. Passe 5 : ancre des nullités (14.5) : forclusion au cours de l'enquête selon L1321-1 et L3752-6, devant le tribunal seuls les actes postérieurs à l'avis de fin d'enquête. Garde-fou n° 13 écrit en entier : forclusion seulement après un accès effectif au dossier assisté d'un avocat, moyen inconnu et nullité d'ordre public gardés. La décision de renvoi de la juridiction d'instruction devient le réquisitoire de renvoi (C5). Relecture : 14.5 précisé pour la voie rapide (5°) : le prévenu jugé sans avis de fin d'enquête soulève devant le tribunal les nullités dont le délai d'un mois courait encore à la saisine, comme il les soulevait en 2029. Règle à porter par G11 au cinquième alinéa de L1321-1.",
+      "ligne_rouge": "Droits de la défense : la réserve du moyen inconnu et l'irrégularité de l'avis de fin d'information restent opposables. Passe 5 : Art. 6 CEDH et garde-fou n° 13 : la partie sans accès effectif au dossier soulève toute nullité avant la défense au fond, le moyen inconnu et la nullité d'ordre public restent invocables, l'irrégularité de l'avis de fin d'enquête reste opposable comme celle de l'avis de fin d'information.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque le tribunal délictuel est saisi par une décision de renvoi d'une juridiction d'instruction, les parties ne sont pas recevables à soulever les nullités de la procédure antérieure. Elles le sont toutefois si cette décision a été rendue sans que les articles L. 3451-1 à L. 3451-6 aient été respectés, ou pour le moyen qu'elles ne pouvaient connaître avant la clôture de l'instruction ou l'expiration du délai de l'article L. 3752-6."
+          "nouveau": "Les nullités de la procédure antérieure à la saisine du tribunal délictuel se soulèvent au cours de l'enquête, dans les délais des articles L. 1321-1 et L. 3752-6. Devant le tribunal saisi par réquisitoire de renvoi ou par l'ordonnance de renvoi de l'article L. 4113-4, seules se soulèvent les nullités des actes postérieurs à l'avis de fin d'enquête de l'article L. 3333-1.\nRestent recevables devant le tribunal, avant toute défense au fond :\n1° Les nullités de la procédure antérieure, lorsque le réquisitoire de renvoi a été pris sans que l'article L. 3333-1 ait été respecté.\n2° Le moyen que la partie ne pouvait connaître avant l'expiration de ces délais.\n3° La nullité d'ordre public.\n4° Les nullités de la procédure antérieure soulevées par la partie qui n'a pas eu, au cours de l'enquête, un accès effectif au dossier assistée d'un avocat, telle la personne poursuivie sans avoir été mise en cause.\n5° Lorsque le tribunal est saisi sans avis de fin d'enquête, la nullité de tout acte de l'enquête dont le délai de l'article L. 1321-1 n'était pas expiré au jour de la saisine."
         }
       ]
     },
@@ -311,15 +317,29 @@
     },
     {
       "code": "cpp",
+      "num": "L4411-40",
+      "principe": "P17",
+      "motif": "Créé. Passe 5 : droit au jury à la demande du prévenu d'un délit puni d'au moins [sept] ans (14.7, art. 64 révisé), l'affaire entière allant à la cour criminelle en formation de jury (L2123-33, L4331-1). Relecture : le délai d'un [mois] court de l'information sur ce droit et se préserve jusqu'à l'audience au fond, la demande devient irrévocable à l'expiration du délai ou à l'ouverture des débats (comme L2123-33), l'avocat peut être commis d'office. Aucune détention nouvelle n'est ouverte : les mesures en cours se poursuivent sous le contrôle du juge de l'enquête et des libertés. Le demandeur détenu comparaît dans le délai de L3653-5 (G03), le coprévenu détenu non demandeur garde son délai butoir devant le tribunal (G6). Coordination G03 : L3653-5 réserve ce cas. Coordination G08 : le délit qui relève des matières de la cour sans jurés (L2123-31, terrorisme et criminalité organisée) n'ouvre pas le jury, par cohérence avec 14.7 et le registre 4.3.",
+      "ligne_rouge": "P17 et art. 64 révisé : droit d'être jugé par un jury de citoyens ouvert au prévenu d'un délit puni d'au moins [sept] ans, avec un délai effectif et un avocat commis d'office. Art. 66 C et G6 (L. 10) : aucune détention nouvelle, délai de L3653-5 pour le demandeur, délai butoir gardé pour le coprévenu non demandeur, liberté d'office.",
+      "decision": "C",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le prévenu d'un délit puni d'au moins [sept] ans d'emprisonnement peut demander à être jugé par la cour criminelle en formation de jury, selon l'article L. 2123-33. L'acte qui saisit le tribunal l'informe de ce droit et de son délai. À défaut, le président l'en informe à la première audience.\nLa demande se forme par déclaration au greffe, le prévenu assisté d'un avocat choisi ou commis d'office à sa demande, dans le [mois] de cette information. Lorsque l'affaire est examinée au fond avant l'expiration de ce délai, la demande se forme au plus tard à cette audience, avant toute défense au fond. Elle devient irrévocable à l'expiration du délai ou à l'ouverture des débats au fond.\nLe tribunal constate alors la demande et renvoie l'affaire entière, délits connexes et coprévenus compris, devant la cour criminelle, qui la juge selon l'article L. 4331-1.\nLes mesures de sûreté en cours se poursuivent jusqu'à la comparution devant la cour. Le juge de l'enquête et des libertés peut à tout moment les modifier selon les articles L. 3652-3 et L. 3652-4. Le prévenu détenu comparaît devant la cour dans le délai de l'article L. 3653-5. Le coprévenu détenu qui ne s'est pas associé à la demande y comparaît dans le délai qui lui était applicable devant le tribunal, faute de quoi il est remis en liberté d'office selon l'article L. 10.\nLe présent article ne s'applique pas aux délits qui relèvent des matières de l'article L. 2123-31."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
       "num": "L4412-1",
       "principe": "P12",
-      "motif": "Notification de la convocation et autorités qui la notifient (L4412-2) en un article. Passe 4 : le déclassement de la liste des agents qui notifient est révoqué en relecture : il attribue une compétence de procédure pénale (art. 34 C), et la liste reste fermée dans la loi (registre 10.221). Texte de passe 3 rétabli, accord « remis » corrigé.",
-      "ligne_rouge": "aucune",
+      "motif": "Notification de la convocation et autorités qui la notifient (L4412-2) en un article. Passe 4 : le déclassement de la liste des agents qui notifient est révoqué en relecture : il attribue une compétence de procédure pénale (art. 34 C), et la liste reste fermée dans la loi (registre 10.221). Texte de passe 3 rétabli, accord « remis » corrigé. Passe 5 : la notification se fait sur instruction écrite du procureur (A2), y compris à l'issue de la garde à vue (L4121-1). Liste fermée des agents gardée (registre 12.19).",
+      "ligne_rouge": "aucune Passe 5 : Procès-verbal signé et copie remise gardés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La convocation en justice est notifiée au prévenu, sur instructions du procureur de la République, par un officier ou agent de police judiciaire ou un assistant d'enquête sous leur contrôle, par un agent d'une administration chargé de fonctions de police judiciaire selon les titres III et IV du livre II de la deuxième partie, par un délégué ou un médiateur du procureur de la République, par un greffier ou, si le prévenu est détenu, par le chef de l'établissement pénitentiaire. Un procès-verbal signé par le prévenu la constate et lui est remis en copie."
+          "nouveau": "La convocation en justice est notifiée au prévenu, sur instruction écrite du procureur de la République, par un officier ou agent de police judiciaire ou un assistant d'enquête sous leur contrôle, par un agent d'une administration chargé de fonctions de police judiciaire selon les titres III et IV du livre II de la deuxième partie, par un délégué ou un médiateur du procureur de la République, par un greffier ou, si le prévenu est détenu, par le chef de l'établissement pénitentiaire. Un procès-verbal signé par le prévenu la constate et lui est remis en copie."
         }
       ]
     },
@@ -412,14 +432,14 @@
     {
       "code": "cpp",
       "num": "L4413-1",
-      "principe": "P23",
-      "motif": "Champ du chapitre en un article : défèrement préalable et exclusions (L4413-2).",
-      "ligne_rouge": "Liberté d'expression : délits politiques et de presse exclus, réserve des délits de provocation gardée.",
+      "principe": "P24",
+      "motif": "Champ du chapitre en un article : défèrement préalable et exclusions (L4413-2). Passe 5 : la comparution sur procès-verbal, la comparution immédiate et la comparution à délai différé fusionnent en une comparution rapide, jugement à l'issue de la garde à vue ou dans les [six] semaines (D c, 13.15). Le défèrement au procureur tombe : la décision est notifiée à l'issue de la garde à vue (A2, L4121-1). Le chapitre 3 s'intitule « Comparution rapide ». Relecture : le recours à la comparution rapide reste une faculté du procureur (opportunité des poursuites).",
+      "ligne_rouge": "Liberté d'expression : délits politiques et de presse exclus, réserve des délits de provocation gardée. Passe 5 : Liberté d'expression : délits politiques et de presse exclus, réserve des délits de provocation gardée. Art. 66 C : la personne n'est plus présentée au procureur, elle est notifiée ou conduite devant le juge (A2, garde-fou n° 23).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La comparution sur procès-verbal, la comparution immédiate et la comparution à délai différé ne sont mises en œuvre qu'après un défèrement devant le procureur de la République selon les articles L. 4121-1 à L. 4121-12.\nElles ne s'appliquent pas aux délits politiques mentionnés à l'article L. 1726-1, aux délits de presse mentionnés à l'article L. 1727-1, ni aux délits dont la poursuite est régie par une loi spéciale. Elles s'appliquent toutefois aux délits prévus aux articles 24 et 24 bis et aux troisième et quatrième alinéas de l'article 33 de la loi du 29 juillet 1881 sur la liberté de la presse, sauf s'ils résultent d'un message placé sous le contrôle d'un directeur de la publication au sens de l'article 6 de cette loi ou de l'article 93-2 de la loi n° 82-652 du 29 juillet 1982 sur la communication audiovisuelle."
+          "nouveau": "Par la comparution rapide, le tribunal délictuel juge le prévenu à l'issue de la garde à vue ou dans les [six] semaines. Le procureur de la République peut y recourir lorsque les charges réunies sont suffisantes. Sa décision est notifiée à la personne à l'issue de la garde à vue, selon l'article L. 4121-1.\nLa comparution rapide ne s'applique pas aux délits politiques mentionnés à l'article L. 1726-1, aux délits de presse mentionnés à l'article L. 1727-1, ni aux délits dont la poursuite est régie par une loi spéciale. Elle s'applique toutefois aux délits prévus aux articles 24 et 24 bis et aux troisième et quatrième alinéas de l'article 33 de la loi du 29 juillet 1881 sur la liberté de la presse, sauf s'ils résultent d'un message placé sous le contrôle d'un directeur de la publication au sens de l'article 6 de cette loi ou de l'article 93-2 de la loi n° 82-652 du 29 juillet 1982 sur la communication audiovisuelle."
         }
       ]
     },
@@ -427,13 +447,13 @@
       "code": "cpp",
       "num": "L4413-3",
       "principe": "P23",
-      "motif": "Comparution sur procès-verbal en un article : délai (L4413-3), notification (L4413-4), avis à l'avocat (L4413-5), dossier (L4413-6), procès-verbal valant citation (L4413-7).",
-      "ligne_rouge": "Délai de comparution et droits de la défense : délai de dix jours, renonciation en présence de l'avocat, avocat avisé et dossier ouvert, gardés.",
+      "motif": "Comparution sur procès-verbal en un article : délai (L4413-3), notification (L4413-4), avis à l'avocat (L4413-5), dossier (L4413-6), procès-verbal valant citation (L4413-7). Passe 5 : comparution rapide de la personne libre : notification par l'officier de police judiciaire sur instruction écrite du procureur (A2), audience dans les [six] semaines au lieu de six mois (13.15), délai minimal de dix jours et sa renonciation en présence de l'avocat gardés.",
+      "ligne_rouge": "Délai de comparution et droits de la défense : délai de dix jours, renonciation en présence de l'avocat, avocat avisé et dossier ouvert, gardés. Passe 5 : Délai de dix jours, renonciation en présence de l'avocat, avocat avisé, dossier ouvert à tout moment, procès-verbal valant citation : gardés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le procureur de la République peut inviter la personne à comparaître devant le tribunal dans un délai de dix jours à six mois. Elle peut, en présence de son avocat, renoncer à ce délai.\nLe procureur de la République lui notifie les faits retenus et lui indique le lieu, la date et l'heure de l'audience. Il l'informe qu'elle comparaît avec les justificatifs de ses revenus et ses avis d'imposition ou de non-imposition. L'avocat choisi ou le bâtonnier est informé sans délai et par tout moyen de la date et de l'heure de l'audience. L'avocat, ou la personne qui n'en est pas assistée, peut consulter le dossier à tout moment.\nUn procès-verbal relate ces formalités et informations. Une copie en est remise sur-le-champ au prévenu. Il vaut citation à personne."
+          "nouveau": "Lorsque la personne n'est pas jugée à l'issue de la garde à vue, l'officier de police judiciaire, sur instruction écrite du procureur de la République, ou le procureur lui-même, l'invite à comparaître devant le tribunal dans un délai de dix jours à [six] semaines. Elle peut, en présence de son avocat, renoncer au délai de dix jours.\nL'acte lui notifie les faits retenus et lui indique le lieu, la date et l'heure de l'audience. Il l'informe qu'elle comparaît avec les justificatifs de ses revenus et ses avis d'imposition ou de non-imposition. L'avocat choisi ou le bâtonnier est informé sans délai et par tout moyen de la date et de l'heure de l'audience. L'avocat, ou la personne qui n'en est pas assistée, peut consulter le dossier à tout moment.\nUn procès-verbal relate ces formalités et informations. Une copie en est remise sur-le-champ au prévenu. Il vaut citation à personne."
         }
       ]
     },
@@ -441,21 +461,27 @@
       "code": "cpp",
       "num": "L4413-8",
       "principe": "P25",
-      "motif": "Saisine du juge des libertés et de la détention en comparution sur procès-verbal : inchangé (cité par L4121-6).",
-      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : le contrôle judiciaire ou l'assignation à résidence avant l'audience sont décidés par un juge du siège.",
-      "decision": "G"
+      "motif": "Saisine du juge des libertés et de la détention en comparution sur procès-verbal : inchangé (cité par L4121-6). Passe 5 : le procureur ne traduit plus la personne devant le juge : elle est conduite devant le juge de l'enquête et des libertés à l'issue de la garde à vue (A2, L3523-28). Numéro gardé, cité par L4121-6.",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : le contrôle judiciaire ou l'assignation à résidence avant l'audience sont décidés par un juge du siège. Passe 5 : Art. 66 C : le contrôle avant l'audience reste décidé par un juge du siège.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le procureur de la République requiert le contrôle judiciaire ou l'assignation à résidence avec surveillance électronique du prévenu jusqu'à sa comparution devant le tribunal délictuel, la personne est conduite sans délai devant le juge de l'enquête et des libertés, selon l'article L. 3523-28."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4413-9",
-      "principe": "P26",
-      "motif": "Registre 9.5 : la chambre du conseil de droit tombe, l'audience suit la règle générale de publicité de L. 1 et ses seules exceptions. Phrases resserrées.",
-      "ligne_rouge": "Contrôle d'un juge (art. 66 C) et droits de la défense : droit de se taire, avocat avisé et entendu, notification sur-le-champ, gardés.",
-      "decision": "S",
+      "principe": "P23",
+      "motif": "Registre 9.5 : la chambre du conseil de droit tombe, l'audience suit la règle générale de publicité de L. 1 et ses seules exceptions. Phrases resserrées. Passe 5 : le juge des libertés et de la détention devient le juge de l'enquête et des libertés (C, section 1). Les formes de l'audience (droit de se taire, avocat entendu, notification verbale et copie) renvoient au premier alinéa de L4413-15, qui les porte toutes. Numéro gardé, cité par L4121-6 et L4452-5. Relecture : l'appel est ouvert (14.9), la mesure pouvant durer jusqu'à [six] semaines, comme en L4413-21. L'absence d'appel de 2029 tombe au profit de la personne.",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) et droits de la défense : droit de se taire, avocat avisé et entendu, notification sur-le-champ, gardés. Passe 5 : Droit de se taire, avocat avisé et entendu, notification sur-le-champ : gardés par renvoi au premier alinéa de L4413-15, qui les écrit mot pour mot.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le juge des libertés et de la détention statue avec l'assistance d'un greffier, après avoir entendu le prévenu, informé de son droit de se taire sur les faits reprochés. L'avocat du prévenu est avisé et, à sa demande, entendu en ses observations. Le juge peut placer le prévenu sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique selon les articles L. 3621-2, L. 3621-4 à L. 3621-24, L. 3631-2, L. 3631-4 et L. 3631-6 à L. 3631-10. Sa décision est notifiée verbalement au prévenu et mentionnée au procès-verbal, dont copie lui est remise sur-le-champ. Elle n'est pas susceptible d'appel."
+          "nouveau": "Le juge de l'enquête et des libertés statue dans les formes du premier alinéa de l'article L. 4413-15. Il peut placer le prévenu sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique selon les articles L. 3621-2, L. 3621-4 à L. 3621-24, L. 3631-2, L. 3631-4 et L. 3631-6 à L. 3631-10. La décision est susceptible d'appel devant la chambre des investigations et des libertés, selon l'article L. 3742-5."
         }
       ]
     },
@@ -477,13 +503,13 @@
       "code": "cpp",
       "num": "L4413-11",
       "principe": "P24",
-      "motif": "Conditions de la comparution immédiate et enquête sociale (L4413-12) en un article.",
-      "ligne_rouge": "Individualisation (art. 8 DDHC) : seuils d'emprisonnement encouru et enquête sociale gardés.",
+      "motif": "Conditions de la comparution immédiate et enquête sociale (L4413-12) en un article. Passe 5 : jugement à l'issue de la garde à vue (D c), seuils de l'ancienne comparution immédiate gardés. Le délit flagrant reste la définition du fait (carte, section 1).",
+      "ligne_rouge": "Individualisation (art. 8 DDHC) : seuils d'emprisonnement encouru et enquête sociale gardés. Passe 5 : Art. 8 DDHC : seuils d'emprisonnement encouru et enquête sociale gardés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque les charges réunies sont suffisantes, que l'affaire est en état d'être jugée et que les éléments de l'espèce le justifient, le procureur de la République peut traduire le prévenu sur-le-champ devant le tribunal délictuel si l'emprisonnement encouru est au moins de deux ans, ou de six mois en cas de délit flagrant. Il fait procéder à l'enquête sociale prévue à l'article L. 3642-1 si elle n'a pas été réalisée lors du défèrement."
+          "nouveau": "Lorsque l'affaire est en état d'être jugée et que les éléments de l'espèce le justifient, le procureur de la République peut faire juger le prévenu à l'issue de la garde à vue si l'emprisonnement encouru est au moins de deux ans, ou de six mois en cas de délit flagrant. Il fait procéder à l'enquête sociale prévue à l'article L. 3642-1 si elle n'a pas été réalisée au cours de la garde à vue."
         }
       ]
     },
@@ -491,13 +517,13 @@
       "code": "cpp",
       "num": "L4413-13",
       "principe": "P19",
-      "motif": "Comparution le jour même : phrases resserrées.",
-      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : la rétention ne dépasse pas le jour même.",
-      "decision": "S",
+      "motif": "Comparution le jour même : phrases resserrées. Passe 5 : la retenue suit le local de garde à vue et ses droits (L3523-29, A2, 13.15), sans transfert au dépôt.",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : la rétention ne dépasse pas le jour même. Passe 5 : Art. 66 C et garde-fou n° 23 : comparution le jour même, retenue bornée par L3523-29 et ses droits.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le prévenu est retenu jusqu'à sa comparution devant le tribunal délictuel, qui a lieu le jour même. Il y est conduit sous escorte."
+          "nouveau": "Le prévenu est retenu, selon l'article L. 3523-29, jusqu'à sa comparution devant le tribunal délictuel, qui a lieu le jour même. Il y est conduit sous escorte."
         }
       ]
     },
@@ -505,21 +531,27 @@
       "code": "cpp",
       "num": "L4413-14",
       "principe": "P25",
-      "motif": "Saisine du juge des libertés et de la détention quand le tribunal ne peut se réunir : inchangé (cité par L4121-6 et L4453-5).",
-      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : la détention avant jugement est décidée par un juge du siège.",
-      "decision": "G"
+      "motif": "Saisine du juge des libertés et de la détention quand le tribunal ne peut se réunir : inchangé (cité par L4121-6 et L4453-5). Passe 5 : conduite devant le juge de l'enquête et des libertés (A2, L3523-28), qui seul décide de la détention (G1, L. 5).",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : la détention avant jugement est décidée par un juge du siège. Passe 5 : Art. 66 C et CEDH art. 5 : toute détention jusqu'à l'audience est décidée par le juge de l'enquête et des libertés (L. 5), au cours de l'audience de L. 6, avocat aux côtés de la personne (L. 7).",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si la réunion du tribunal est impossible le jour même et si les éléments de l'espèce lui paraissent exiger une mesure de détention provisoire, le procureur de la République fait conduire le prévenu devant le juge de l'enquête et des libertés, selon l'article L. 3523-28. Seul ce juge décide de la détention provisoire jusqu'à l'audience, selon l'article L. 5."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4413-15",
       "principe": "P26",
-      "motif": "Registre 9.5 : l'audience suit la règle générale de publicité de L. 1. Phrases resserrées. Passe 4 : les formes de l'audience (greffier, enquête sociale, droit de se taire, observations du prévenu et de son avocat, énoncé des faits, saisine du tribunal, notification verbale et copie du procès-verbal) forment le premier alinéa, auquel renvoie L4413-21 comme l'ancien L4413-22 renvoyait à l'ancien 396. L'absence d'appel, propre à la comparution immédiate, est au second alinéa et ne s'étend pas à la comparution à délai différé. Aucun mot de garantie ne change.",
-      "ligne_rouge": "Contrôle d'un juge (art. 66 C) et droits de la défense : enquête sociale, droit de se taire, observations de l'avocat, notification sur-le-champ, gardés. Passe 4 : art. 66 C : formes et contrôle du juge inchangés, mot pour mot ; elles valent pour L4413-21 par renvoi au seul premier alinéa.",
+      "motif": "Registre 9.5 : l'audience suit la règle générale de publicité de L. 1. Phrases resserrées. Passe 4 : les formes de l'audience (greffier, enquête sociale, droit de se taire, observations du prévenu et de son avocat, énoncé des faits, saisine du tribunal, notification verbale et copie du procès-verbal) forment le premier alinéa, auquel renvoie L4413-21 comme l'ancien L4413-22 renvoyait à l'ancien 396. L'absence d'appel, propre à la comparution immédiate, est au second alinéa et ne s'étend pas à la comparution à délai différé. Aucun mot de garantie ne change. Passe 5 : audience unique du juge de l'enquête et des libertés selon L. 6 (A3, G2) : à distance depuis le lieu de garde à vue, réquisitions écrites communiquées, avocat aux côtés de la personne. Relecture : l'absence d'appel, gardée de 2029 pour une mesure qui dure au plus trois jours ouvrables, s'écrit en dérogation à L3742-5 (14.9). Le tribunal contrôle la mesure dans ce délai (CEDH art. 5 § 4).",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) et droits de la défense : enquête sociale, droit de se taire, observations de l'avocat, notification sur-le-champ, gardés. Passe 4 : art. 66 C : formes et contrôle du juge inchangés, mot pour mot ; elles valent pour L4413-21 par renvoi au seul premier alinéa. Passe 5 : G2 (L. 6) : audience unique, avocat aux côtés de la personne, présentation physique sur décision du juge ou sur défaillance. Formes de la passe 4 gardées.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le juge des libertés et de la détention statue avec l'assistance d'un greffier, après avoir fait procéder à l'enquête sociale prévue à l'article L. 3642-1 si elle n'a pas été réalisée. Il informe le prévenu de son droit de se taire et recueille ses observations et celles de son avocat. Sa décision énonce les faits retenus et saisit le tribunal. Elle est notifiée verbalement au prévenu et mentionnée au procès-verbal, dont copie lui est remise sur-le-champ.\nIl statue sur les réquisitions aux fins de détention provisoire en prononçant, jusqu'à la comparution devant le tribunal, l'une des mesures de sûreté prévues au livre VI de la troisième partie. Sa décision n'est pas susceptible d'appel."
+          "nouveau": "Le juge de l'enquête et des libertés statue au cours de l'audience de l'article L. 6, avec l'assistance d'un greffier, après avoir fait procéder à l'enquête sociale prévue à l'article L. 3642-1 si elle n'a pas été réalisée. Il informe le prévenu de son droit de se taire et recueille ses observations et celles de son avocat. Sa décision énonce les faits retenus et saisit le tribunal. Elle est notifiée verbalement au prévenu et mentionnée au procès-verbal, dont copie lui est remise sur-le-champ.\nIl statue sur les réquisitions aux fins de détention provisoire en prononçant, jusqu'à la comparution devant le tribunal, l'une des mesures de sûreté prévues au livre VI de la troisième partie. Par dérogation à l'article L. 3742-5, sa décision n'est pas susceptible d'appel. Le tribunal, devant lequel le prévenu comparaît au plus tard le troisième jour ouvrable, statue sur la mesure selon l'article L. 4413-31."
         }
       ]
     },
@@ -541,13 +573,13 @@
       "code": "cpp",
       "num": "L4413-17",
       "principe": "P25",
-      "motif": "Mesures autres que la détention : phrases resserrées.",
-      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : même délai de trois jours ouvrables.",
+      "motif": "Mesures autres que la détention : phrases resserrées. Passe 5 : vocabulaire (juge de l'enquête et des libertés).",
+      "ligne_rouge": "Contrôle d'un juge (art. 66 C) : même délai de trois jours ouvrables. Passe 5 : Délai de trois jours ouvrables gardé.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Si la détention provisoire ne lui paraît pas nécessaire, le juge des libertés et de la détention peut placer le prévenu sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique. Le prévenu comparaît alors devant le tribunal au plus tard le troisième jour ouvrable suivant. S'il se soustrait à ses obligations, les articles L. 3652-7 à L. 3652-11 s'appliquent."
+          "nouveau": "Si la détention provisoire ne lui paraît pas nécessaire, le juge de l'enquête et des libertés peut placer le prévenu sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique. Le prévenu comparaît alors devant le tribunal au plus tard le troisième jour ouvrable suivant. S'il se soustrait à ses obligations, les articles L. 3652-7 à L. 3652-11 s'appliquent."
         }
       ]
     },
@@ -555,13 +587,13 @@
       "code": "cpp",
       "num": "L4413-18",
       "principe": "P25",
-      "motif": "Consentement au jugement immédiat et renvoi (L4413-19) en un article.",
-      "ligne_rouge": "Consentement aux procédures simplifiées et droits de la défense : accord recueilli en présence d'un avocat, délai de quatre à dix semaines, demandes d'actes, refus motivé, gardés.",
+      "motif": "Consentement au jugement immédiat et renvoi (L4413-19) en un article. Passe 5 : délai de préparation de [deux à six] semaines à la demande du prévenu (D c, garde-fou n° 22), accord au jugement immédiat recueilli avec l'avocat (G3, L. 7). Le délai de quatre à dix semaines devient celui que le prévenu choisit entre [deux] et [six] semaines. Relecture : le refus du consentement ouvre le renvoi et la renonciation au délai minimal, en présence de l'avocat, est rétablie. Recul déclaré : le texte de 2029 donnait un renvoi de quatre à dix semaines, la valeur de [deux à six] semaines de la carte et de l'architecture est retenue et soumise à l'auteur.",
+      "ligne_rouge": "Consentement aux procédures simplifiées et droits de la défense : accord recueilli en présence d'un avocat, délai de quatre à dix semaines, demandes d'actes, refus motivé, gardés. Passe 5 : Art. 6 § 3 b CEDH et garde-fou n° 22 : accord en présence d'un avocat, délai de préparation au choix du prévenu, demandes d'actes, refus motivé : gardés. Le prévenu fixe lui-même son délai dans la borne. Recul déclaré du délai de préparation (quatre à dix semaines en 2029, [deux à six] retenu), point soumis à l'auteur.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque le prévenu comparaît le jour même de sa présentation au procureur de la République, ou dans les trois jours ouvrables suivant la décision du juge des libertés et de la détention, le président constate son identité et, son avocat avisé, l'avertit qu'il ne peut être jugé immédiatement qu'avec son accord. Cet accord est recueilli en présence de son avocat ou, à défaut, d'un avocat commis d'office à sa demande par le bâtonnier. Il est mentionné aux notes d'audience.\nSi le prévenu ne consent pas à être jugé immédiatement ou si l'affaire ne paraît pas en état d'être jugée, le tribunal, après les observations des parties et de leur avocat, renvoie l'affaire à une audience fixée entre quatre et dix semaines, sauf renonciation expresse du prévenu au délai minimal. Le prévenu ou son avocat peut demander tout acte d'information sur les faits ou sur sa personnalité. Le tribunal qui refuse statue par jugement motivé."
+          "nouveau": "Lorsque le prévenu comparaît devant le tribunal délictuel à l'issue de la garde à vue, ou dans les trois jours ouvrables suivant la décision du juge de l'enquête et des libertés, le président constate son identité et, son avocat avisé, l'avertit qu'il ne peut être jugé immédiatement qu'avec son accord et qu'il peut demander un délai pour préparer sa défense. Cet accord est recueilli en présence de son avocat ou, à défaut, d'un avocat commis d'office à sa demande par le bâtonnier, selon l'article L. 7. Il est mentionné aux notes d'audience.\nSi le prévenu ne consent pas à être jugé immédiatement, le tribunal renvoie l'affaire à l'audience qu'il fixe à la date que le prévenu choisit, entre [deux] et [six] semaines. Le prévenu peut, en présence de son avocat, renoncer au délai de [deux] semaines. Si l'affaire ne paraît pas en état d'être jugée, le tribunal, après les observations des parties et de leur avocat, la renvoie à une audience fixée dans les [six] semaines. Le prévenu ou son avocat peut demander tout acte d'enquête sur les faits ou sur sa personnalité. Le tribunal qui refuse statue par jugement motivé."
         }
       ]
     },
@@ -569,13 +601,13 @@
       "code": "cpp",
       "num": "L4413-20",
       "principe": "P24",
-      "motif": "Comparution à délai différé en un article : conditions, versement des résultats (L4413-24), demandes d'actes (L4413-25), droits de la victime (L4413-26).",
-      "ligne_rouge": "Droits de la défense : avocat obligatoire et demandes d'actes gardés. Victime (P18) : avis et constitution gardés.",
+      "motif": "Comparution à délai différé en un article : conditions, versement des résultats (L4413-24), demandes d'actes (L4413-25), droits de la victime (L4413-26). Passe 5 : l'ancienne comparution à délai différé devient la comparution rapide jugée dans les [six] semaines (D c, 13.15), avocat obligatoire et demandes d'actes gardés. G5 : la victime a les droits de L. 9.",
+      "ligne_rouge": "Droits de la défense : avocat obligatoire et demandes d'actes gardés. Victime (P18) : avis et constitution gardés. Passe 5 : Avocat obligatoire, versement des résultats, demandes d'actes : gardés. G5 (L. 9) : victime avisée, constitution et demandes d'actes.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Dans les cas prévus à l'article L. 4413-11, si le prévenu est assisté d'un avocat choisi par lui ou désigné par le bâtonnier, le procureur de la République peut le poursuivre selon la comparution à délai différé, lorsqu'il existe contre lui des charges suffisantes et que l'affaire n'est pas en état d'être jugée en comparution immédiate faute des résultats de réquisitions ou d'examens techniques ou médicaux déjà sollicités.\nCes résultats sont versés au dossier dès leur obtention et mis à la disposition des parties ou de leur avocat. Jusqu'à l'audience, le prévenu ou son avocat peut former les demandes d'actes prévues à l'article L. 4411-26.\nLa victime est avisée par tout moyen du recours à cette procédure. Elle peut se constituer partie civile et former les mêmes demandes d'actes."
+          "nouveau": "Dans les cas prévus à l'article L. 4413-11, si le prévenu est assisté d'un avocat choisi par lui ou désigné par le bâtonnier, le procureur de la République peut le faire juger dans les [six] semaines, lorsqu'il existe contre lui des charges suffisantes et que l'affaire n'est pas en état d'être jugée à l'issue de la garde à vue faute des résultats de réquisitions ou d'examens techniques ou médicaux déjà sollicités.\nCes résultats sont versés au dossier dès leur obtention et mis à la disposition des parties ou de leur avocat. Jusqu'à l'audience, le prévenu ou son avocat peut former les demandes d'actes prévues à l'article L. 4411-26.\nLa victime est avisée par tout moyen du recours à cette procédure. Elle peut se constituer partie civile et former les mêmes demandes d'actes, avec les droits de l'article L. 9."
         }
       ]
     },
@@ -583,13 +615,13 @@
       "code": "cpp",
       "num": "L4413-21",
       "principe": "P25",
-      "motif": "Mesures avant l'audience en comparution à délai différé en un article : ordonnance et manquements (L4413-22), délai de deux mois (L4413-23), présentation hors du tribunal (L4413-27). Les formes de L4413-15 (greffier, enquête sociale, droit de se taire, observations du prévenu et de son avocat) sont écrites dans l'article, sans renvoi, L4413-15 excluant l'appel que L4413-21 ouvre (relecture adverse). Passe 4 : les formes rétablies par la relecture (greffier, enquête sociale, droit de se taire, observations du prévenu et de son avocat, énoncé des faits et saisine du tribunal, notification verbale et copie du procès-verbal) tiennent par renvoi au seul premier alinéa de L4413-15, qui les porte mot pour mot, comme le faisait l'ancien L4413-22 (« dans les conditions et selon les modalités prévues à l'article 396 »). Le renvoi ne vise pas le second alinéa : l'appel en dix jours reste ouvert, et la réserve de la relecture est tenue.",
-      "ligne_rouge": "Détention avant jugement (art. 66 C) : décision d'un juge du siège, seuil de trois ans, appel en dix jours, fin d'office à deux mois, gardés. Passe 4 : art. 66 C et art. 16 DDHC : chaque garantie rétablie par la relecture est tenue par renvoi précis au premier alinéa de L4413-15 ; appel en dix jours, seuil de trois ans et fin d'office à deux mois écrits.",
+      "motif": "Mesures avant l'audience en comparution à délai différé en un article : ordonnance et manquements (L4413-22), délai de deux mois (L4413-23), présentation hors du tribunal (L4413-27). Les formes de L4413-15 (greffier, enquête sociale, droit de se taire, observations du prévenu et de son avocat) sont écrites dans l'article, sans renvoi, L4413-15 excluant l'appel que L4413-21 ouvre (relecture adverse). Passe 4 : les formes rétablies par la relecture (greffier, enquête sociale, droit de se taire, observations du prévenu et de son avocat, énoncé des faits et saisine du tribunal, notification verbale et copie du procès-verbal) tiennent par renvoi au seul premier alinéa de L4413-15, qui les porte mot pour mot, comme le faisait l'ancien L4413-22 (« dans les conditions et selon les modalités prévues à l'article 396 »). Le renvoi ne vise pas le second alinéa : l'appel en dix jours reste ouvert, et la réserve de la relecture est tenue. Passe 5 : conduite devant le juge de l'enquête et des libertés (A2), appel unique de L3742-5 (14.8), fin d'office de la mesure à [six] semaines au lieu de deux mois (13.15), audience à distance selon L. 6 qui absorbe la présentation hors du tribunal.",
+      "ligne_rouge": "Détention avant jugement (art. 66 C) : décision d'un juge du siège, seuil de trois ans, appel en dix jours, fin d'office à deux mois, gardés. Passe 4 : art. 66 C et art. 16 DDHC : chaque garantie rétablie par la relecture est tenue par renvoi précis au premier alinéa de L4413-15 ; appel en dix jours, seuil de trois ans et fin d'office à deux mois écrits. Passe 5 : Art. 66 C : juge du siège, seuil de trois ans pour la détention, appel unique, fin d'office ramenée à [six] semaines.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le prévenu est présenté au juge des libertés et de la détention, qui statue selon le premier alinéa de l'article L. 4413-15 sur les réquisitions de contrôle judiciaire, d'assignation à résidence avec surveillance électronique ou de détention provisoire. Les réquisitions précisent les raisons du recours à cette procédure et, s'il y a lieu, les actes dont les résultats sont attendus. La détention provisoire n'est ordonnée que si l'emprisonnement encouru est au moins de trois ans.\nL'ordonnance est susceptible d'appel dans les dix jours devant la chambre des investigations et des libertés. Les manquements du prévenu à ses obligations relèvent des articles L. 3623-2 à L. 3623-4, L. 3633-2 et L. 3652-7 à L. 3652-9.\nFaute de comparution du prévenu devant le tribunal dans les deux mois, la mesure prend fin d'office.\nLa présentation au procureur de la République et au juge des libertés et de la détention peut avoir lieu hors du tribunal si l'état de santé de la personne ne permet pas de l'y transporter."
+          "nouveau": "Le prévenu est conduit devant le juge de l'enquête et des libertés, qui statue selon le premier alinéa de l'article L. 4413-15 sur les réquisitions de contrôle judiciaire, d'assignation à résidence avec surveillance électronique ou de détention provisoire. Les réquisitions précisent les raisons du recours à cette procédure et, s'il y a lieu, les actes dont les résultats sont attendus. La détention provisoire n'est ordonnée que si l'emprisonnement encouru est au moins de trois ans.\nL'ordonnance est susceptible d'appel devant la chambre des investigations et des libertés, selon l'article L. 3742-5. Les manquements du prévenu à ses obligations relèvent des articles L. 3623-2 à L. 3623-4, L. 3633-2 et L. 3652-7 à L. 3652-9.\nFaute de comparution du prévenu devant le tribunal dans les [six] semaines, la mesure prend fin d'office.\nL'audience du juge se tient à distance selon l'article L. 6, y compris lorsque l'état de santé de la personne ne permet pas de la transporter."
         }
       ]
     },
@@ -611,13 +643,13 @@
       "code": "cpp",
       "num": "L4413-30",
       "principe": "P19",
-      "motif": "Renvoi au parquet pour investigations (L4413-29) et détention jusqu'à la comparution en un article. Passe 4 : l'incise « outre sa faculté d'ordonner un supplément d'information selon l'article L. 4421-23 » tombe : elle n'autorise aucun cumul et L4421-23 ouvre le supplément d'information devant le tribunal en toute procédure (registre 10.194).",
-      "ligne_rouge": "Détention avant jugement (art. 66 C) : observations du prévenu et de son avocat, comparution le jour même ou dans les cinq jours ouvrables, liberté d'office.",
+      "motif": "Renvoi au parquet pour investigations (L4413-29) et détention jusqu'à la comparution en un article. Passe 4 : l'incise « outre sa faculté d'ordonner un supplément d'information selon l'article L. 4421-23 » tombe : elle n'autorise aucun cumul et L4421-23 ouvre le supplément d'information devant le tribunal en toute procédure (registre 10.194). Passe 5 : le juge d'instruction du pôle et son délai de cinq jours tombent avec l'information (C) : le prévenu est conduit le jour même devant le juge de l'enquête et des libertés, l'enquête se poursuivant sous la direction du procureur.",
+      "ligne_rouge": "Détention avant jugement (art. 66 C) : observations du prévenu et de son avocat, comparution le jour même ou dans les cinq jours ouvrables, liberté d'office. Passe 5 : Art. 66 C : comparution devant un juge du siège le jour même, liberté d'office à défaut. Le délai de cinq jours tombe au profit du jour même.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Dans les procédures du présent chapitre, le tribunal peut, d'office ou à la demande des parties, renvoyer au procureur de la République le dossier dont la complexité exige des investigations approfondies. Le procureur donne à l'affaire la suite qu'il estime adaptée. De nouveau saisi selon l'une de ces procédures, le tribunal ne peut renvoyer l'affaire une seconde fois.\nEn cas de renvoi, le tribunal peut, sur réquisitions du procureur de la République et après les observations du prévenu et de son avocat, placer ou maintenir le prévenu en détention provisoire jusqu'à sa comparution, le jour même, devant le juge des libertés et de la détention ou, dans les cinq jours ouvrables, devant le juge d'instruction du pôle compétent lorsque la gravité ou la complexité de l'affaire justifie sa saisine et que le tribunal judiciaire n'a pas de pôle. À défaut, le prévenu est remis en liberté d'office."
+          "nouveau": "Dans les procédures du présent chapitre, le tribunal peut, d'office ou à la demande des parties, renvoyer au procureur de la République le dossier dont la complexité exige des investigations approfondies. Le procureur donne à l'affaire la suite qu'il estime adaptée. De nouveau saisi selon le présent chapitre, le tribunal ne peut renvoyer l'affaire une seconde fois.\nEn cas de renvoi, le tribunal peut, sur réquisitions du procureur de la République et après les observations du prévenu et de son avocat, placer ou maintenir le prévenu en détention provisoire jusqu'à sa conduite, le jour même, devant le juge de l'enquête et des libertés, qui statue selon l'article L. 6. À défaut, le prévenu est remis en liberté d'office."
         }
       ]
     },
@@ -625,13 +657,13 @@
       "code": "cpp",
       "num": "L4413-31",
       "principe": "P25",
-      "motif": "Mesures de sûreté du tribunal qui renvoie, détention comprise (L4413-32), en un article.",
-      "ligne_rouge": "Détention avant jugement (art. 66 C) : décision spécialement motivée par référence aux motifs légaux, gardée.",
+      "motif": "Mesures de sûreté du tribunal qui renvoie, détention comprise (L4413-32), en un article. Passe 5 : la comparution immédiate et la comparution à délai différé deviennent les deux cas de la comparution rapide où la détention était ouverte (L4413-18, L4413-20). Vocabulaire du juge.",
+      "ligne_rouge": "Détention avant jugement (art. 66 C) : décision spécialement motivée par référence aux motifs légaux, gardée. Passe 5 : Art. 66 C : détention par décision spécialement motivée, dans le seul champ où elle était ouverte.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Dans les procédures du présent chapitre, le tribunal qui renvoie l'affaire à une audience ultérieure peut, par décision motivée prise sur réquisitions du procureur de la République, placer ou maintenir le prévenu sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique. En comparution immédiate ou à délai différé, il peut aussi le placer ou le maintenir en détention provisoire par décision spécialement motivée, rendue selon l'article L. 3641-10 et motivée par référence aux articles L. 3641-5 à L. 3641-7. Ces décisions sont exécutoires par provision.\nSi le prévenu se soustrait à ses obligations, les articles L. 3652-7 à L. 3652-9 s'appliquent. Le juge des libertés et de la détention peut à tout moment modifier la mesure par ordonnance motivée, selon les articles L. 3652-3 et L. 3652-4."
+          "nouveau": "Dans les procédures du présent chapitre, le tribunal qui renvoie l'affaire à une audience ultérieure peut, par décision motivée prise sur réquisitions du procureur de la République, placer ou maintenir le prévenu sous contrôle judiciaire ou sous assignation à résidence avec surveillance électronique. Lorsque le prévenu comparaît selon l'article L. 4413-18 ou est poursuivi selon l'article L. 4413-20, il peut aussi le placer ou le maintenir en détention provisoire par décision spécialement motivée, rendue selon l'article L. 3641-10 et motivée par référence aux articles L. 3641-5 à L. 3641-7. Ces décisions sont exécutoires par provision.\nSi le prévenu se soustrait à ses obligations, les articles L. 3652-7 à L. 3652-9 s'appliquent. Le juge de l'enquête et des libertés peut à tout moment modifier la mesure par ordonnance motivée, selon les articles L. 3652-3 et L. 3652-4."
         }
       ]
     },
@@ -639,21 +671,27 @@
       "code": "cpp",
       "num": "L4413-33",
       "principe": "P19",
-      "motif": "Jugement au fond dans les trois mois pour le prévenu détenu : inchangé (cité par 132-70-1 du code pénal).",
-      "ligne_rouge": "Détention avant jugement (art. 66 C) : délai de trois mois opposable, liberté d'office.",
-      "decision": "G"
+      "motif": "Jugement au fond dans les trois mois pour le prévenu détenu : inchangé (cité par 132-70-1 du code pénal). Passe 5 : délai butoir du détenu en comparution rapide ramené de trois mois à [six] semaines (13.15, A6), durée maximale de L. 10 (G6). Numéro gardé (cité par L10 7° et par 132-70-1 du code pénal).",
+      "ligne_rouge": "Détention avant jugement (art. 66 C) : délai de trois mois opposable, liberté d'office. Passe 5 : Art. 66 C et G6 (L. 10) : délai opposable raccourci, liberté d'office gardée.",
+      "decision": "R",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Lorsque le prévenu est en détention provisoire, le jugement au fond est rendu dans les [six] semaines qui suivent le jour de sa première comparution devant le tribunal. Faute de décision au fond à l'expiration de ce délai, il est mis fin à la détention provisoire. Le prévenu, s'il n'est pas détenu pour une autre cause, est mis d'office en liberté. Ce délai est une durée maximale au sens de l'article L. 10."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L4413-34",
       "principe": "P25",
-      "motif": "Mineur présenté par erreur : phrases resserrées.",
-      "ligne_rouge": "Minorité et détention avant jugement (art. 66 C) : débat contradictoire, motivation spéciale, comparution sous vingt-quatre heures, gardés.",
-      "decision": "S",
+      "motif": "Mineur présenté par erreur : phrases resserrées. Passe 5 : vocabulaire : juge d'instruction et juge des libertés et de la détention spécialisés deviennent le juge de l'enquête et des libertés. La coordination du code de la justice pénale des mineurs est hors périmètre (carte, section 9).",
+      "ligne_rouge": "Minorité et détention avant jugement (art. 66 C) : débat contradictoire, motivation spéciale, comparution sous vingt-quatre heures, gardés. Passe 5 : Minorité : débat contradictoire, motivation spéciale, comparution sous vingt-quatre heures, gardés.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le tribunal qui constate que la personne présentée est mineure renvoie le dossier au procureur de la République. Si elle a au moins treize ans, il statue au préalable, après les réquisitions du procureur et les observations du mineur et de son avocat, sur son placement ou son maintien en détention provisoire jusqu'à sa comparution devant le juge d'instruction, le juge des enfants ou le juge des libertés et de la détention spécialisés, selon les articles L. 423-6 ou L. 423-9 du code de la justice pénale des mineurs. Sa décision est spécialement motivée par la nécessité de garantir le maintien du mineur à la disposition de la justice. Faute de comparution dans les vingt-quatre heures, le mineur est remis en liberté d'office.\nLe présent article s'applique devant le juge des libertés et de la détention saisi selon les articles L. 4413-14 à L. 4413-17."
+          "nouveau": "Le tribunal qui constate que la personne présentée est mineure renvoie le dossier au procureur de la République. Si elle a au moins treize ans, il statue au préalable, après les réquisitions du procureur et les observations du mineur et de son avocat, sur son placement ou son maintien en détention provisoire jusqu'à sa comparution devant le juge des enfants ou le juge de l'enquête et des libertés, selon les articles L. 423-6 ou L. 423-9 du code de la justice pénale des mineurs. Sa décision est spécialement motivée par la nécessité de garantir le maintien du mineur à la disposition de la justice. Faute de comparution dans les vingt-quatre heures, le mineur est remis en liberté d'office.\nLe présent article s'applique devant le juge de l'enquête et des libertés saisi selon les articles L. 4413-14 à L. 4413-17."
         }
       ]
     },
@@ -661,13 +699,13 @@
       "code": "cpp",
       "num": "L4414-1",
       "principe": "P19",
-      "motif": "Saisine après instruction en un article : audiencement, citation (L4414-2), dispense de citation (L4414-3), renvoi définitif (L4414-4).",
-      "ligne_rouge": "Détention avant jugement (art. 66 C) : audiencement dans les délais de détention de L3653-6. Délai de comparution de dix jours gardé.",
+      "motif": "Saisine après instruction en un article : audiencement, citation (L4414-2), dispense de citation (L4414-3), renvoi définitif (L4414-4). Passe 5 : la décision de renvoi de la juridiction d'instruction devient le réquisitoire de renvoi (C5, L3333-2) ou l'ordonnance de renvoi du juge saisi par la victime (C3, L4113-4). Le chapitre 4 s'intitule « Saisine par réquisitoire de renvoi ».",
+      "ligne_rouge": "Détention avant jugement (art. 66 C) : audiencement dans les délais de détention de L3653-6. Délai de comparution de dix jours gardé. Passe 5 : Délais de L3653-6 pour le détenu et délai de comparution de dix jours gardés. L'ordonnance du juge ne saisit le tribunal qu'une fois définitive, comme l'ordonnance de renvoi.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque le tribunal délictuel est saisi par une décision de renvoi de la juridiction d'instruction, le procureur de la République fixe l'affaire à l'une des plus prochaines audiences, dans les délais de l'article L. 3653-6 si le prévenu est détenu. Sauf si la décision de renvoi fixe la date et l'heure de l'audience selon l'article L. 3452-19, il fait délivrer au prévenu, dans les délais des articles L. 4412-9 à L. 4412-11, une citation qui indique le tribunal saisi, le lieu, la date et l'heure de l'audience et comporte les informations des 1° à 4° de l'article L. 4412-3.\nLe tribunal ne statue que lorsque l'ordonnance de renvoi qui le saisit est devenue définitive."
+          "nouveau": "Lorsque le tribunal délictuel est saisi par le réquisitoire de renvoi de l'article L. 3333-2 ou par l'ordonnance de renvoi de l'article L. 4113-4, le procureur de la République fixe l'affaire à l'une des plus prochaines audiences, dans les délais de l'article L. 3653-6 si le prévenu est détenu. Il fait délivrer au prévenu, dans les délais des articles L. 4412-9 à L. 4412-11, une citation qui indique le tribunal saisi, le lieu, la date et l'heure de l'audience et comporte les informations des 1° à 4° de l'article L. 4412-3. Le réquisitoire qui porte ces indications et ces informations vaut citation lorsqu'il est notifié dans ces délais.\nLe tribunal saisi par l'ordonnance de renvoi de l'article L. 4113-4 ne statue que lorsqu'elle est devenue définitive."
         }
       ]
     },
@@ -675,13 +713,13 @@
       "code": "cpp",
       "num": "L4414-5",
       "principe": "P25",
-      "motif": "Régularisation de la décision de renvoi : sans les 1° et 2°.",
-      "ligne_rouge": "aucune",
-      "decision": "S",
+      "motif": "Régularisation de la décision de renvoi : sans les 1° et 2°. Passe 5 : la régularisation vise l'avis de fin d'enquête et la notification du réquisitoire de renvoi (C5).",
+      "ligne_rouge": "aucune Passe 5 : Droits de la défense : la partie non avisée obtient la régularisation, sauf manœuvre ou négligence.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le tribunal délictuel renvoie la procédure au ministère public, pour qu'il saisisse de nouveau la juridiction d'instruction aux fins de régularisation, lorsque la décision de renvoi n'a pas été portée à la connaissance des parties selon les articles L. 3452-3 et L. 3713-13 ou n'a pas été rendue selon l'article L. 3452-2. Il ne le fait pas si cette défaillance procède d'une manœuvre ou d'une négligence de la partie concernée."
+          "nouveau": "Le tribunal délictuel renvoie la procédure au ministère public, aux fins de régularisation, lorsque l'avis de fin d'enquête n'a pas été délivré selon l'article L. 3333-1 ou que le réquisitoire de renvoi n'a pas été notifié aux parties selon l'article L. 3333-2. Il ne le fait pas si cette défaillance procède d'une manœuvre ou d'une négligence de la partie concernée."
         }
       ]
     },
@@ -731,13 +769,13 @@
       "code": "cpp",
       "num": "L4415-5",
       "principe": "P21",
-      "motif": "Consignation et consignation déjà versée devant le juge d'instruction (L4415-6) en un article.",
-      "ligne_rouge": "Accès au juge : consignation selon les ressources, dispense à l'aide juridictionnelle, gardées.",
+      "motif": "Consignation et consignation déjà versée devant le juge d'instruction (L4415-6) en un article. Passe 5 : le second alinéa (consignation versée devant le juge d'instruction avant un refus d'informer) tombe avec la plainte avec constitution de partie civile (C3). La consignation versée avant [E] est restituée (T4).",
+      "ligne_rouge": "Accès au juge : consignation selon les ressources, dispense à l'aide juridictionnelle, gardées. Passe 5 : Accès au juge : consignation selon les ressources et dispense à l'aide juridictionnelle gardées.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque la partie civile délivre la citation directe en l'absence de poursuites du ministère public, le tribunal délictuel fixe, en fonction de ses ressources, le montant de la consignation qu'elle dépose au greffe pour garantir le paiement de l'amende civile de l'article L. 4432-37, et le délai de ce dépôt. À défaut de versement dans le délai, la citation est irrecevable. La partie civile qui a obtenu l'aide juridictionnelle en est dispensée.\nLa consignation versée selon l'article L. 3413-5 avant une ordonnance de refus d'informer prise selon l'article L. 3413-13 tient lieu de cette consignation."
+          "nouveau": "Lorsque la partie civile délivre la citation directe en l'absence de poursuites du ministère public, le tribunal délictuel fixe, en fonction de ses ressources, le montant de la consignation qu'elle dépose au greffe pour garantir le paiement de l'amende civile de l'article L. 4432-37, et le délai de ce dépôt. À défaut de versement dans le délai, la citation est irrecevable. La partie civile qui a obtenu l'aide juridictionnelle en est dispensée."
         }
       ]
     },
@@ -1102,11 +1140,10 @@
     {
       "code": "cpp",
       "num": "L4415-6",
-      "decision": "F",
+      "decision": "A",
       "principe": "P20",
-      "motif": "Consignation déjà versée devant le juge d'instruction : second alinéa de L4415-5.",
-      "ligne_rouge": "aucune",
-      "vers": "L4415-5"
+      "motif": "Consignation versée devant le juge d'instruction avant un refus d'informer, tenue pour consignation de la citation directe. Passe 5 : abrogé avec la plainte avec constitution de partie civile et sa consignation (C3, carte section 1) ; la consignation versée avant [E] est restituée (T4).",
+      "ligne_rouge": "Accès au juge : la consignation disparaît de la constitution dans l'enquête (L3324-16), et celle versée avant [E] est restituée (T4). Rien ne recule pour la partie civile."
     }
   ],
   "passe": 3
