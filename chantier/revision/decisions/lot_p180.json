@@ -9,582 +9,459 @@
   "decisions": [
     {
       "code": "cpp",
-      "num": "L3451-1",
-      "principe": "P12",
-      "motif": "Avis de fin d'information gardé (cité par sept articles). L'avis aux avocats par voie électronique suit L1632-2. Passe 4 : la notification de l'avis à la personne détenue par le chef d'établissement, avec récépissé, est écrite une fois au troisième alinéa de L3431-2 pour tout avis ou notification du juge d'instruction.",
-      "ligne_rouge": "Art. 16 DDHC examiné : avis à chaque partie, au témoin assisté et aux avocats, gardé. Passe 4 : art. 16 DDHC : avis aux parties, au témoin assisté et aux avocats gardé ; récépissé de la personne détenue tenu par L3431-2.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Aussitôt que l'information lui paraît terminée, le juge d'instruction communique le dossier au procureur de la République et en avise en même temps les parties et le témoin assisté ainsi que leurs avocats, verbalement avec émargement au dossier ou par lettre recommandée."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3451-2",
-      "principe": "P23",
-      "motif": "Règle gardée (citée par L4411-34), phrases resserrées.",
-      "ligne_rouge": "Art. 16 DDHC examiné : réquisitions communiquées à la défense, gardé.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "A compter de la communication du dossier, le procureur de la République dispose d'un délai d'un mois si la personne mise en examen est détenue ou de trois mois dans les autres cas pour adresser ses réquisitions motivées au juge d'instruction. Il en adresse copie dans le même temps, par lettre recommandée, aux avocats des parties et du témoin assisté ou, à défaut d'avocat, aux parties et au témoin assisté."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3451-3",
-      "principe": "P2",
-      "motif": "Passe 2 tenue (registre 5.3 et 9.23 : [un mois] pour les requêtes en nullité). La forclusion à l'expiration du délai relève de la règle générale de L1322-1. Le point de départ, l'envoi de l'avis, reste écrit. Passe 4 : le renvoi à L3431-2 pour la forme des observations tombe : L3431-2 régit sauf disposition contraire toutes les déclarations et demandes au juge d'instruction.",
-      "ligne_rouge": "Art. 16 DDHC examiné : observations, demandes d'actes et de constatation de la prescription, requêtes en nullité gardées, avec leurs délais. Passe 4 : art. 16 DDHC : délais d'un ou trois mois et [un mois] pour les nullités, point de départ à l'envoi de l'avis, gardés.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "A compter de l'envoi de l'avis prévu à l'article L. 3451-1, les parties et le témoin assisté disposent d'un délai d'un mois si la personne mise en examen est détenue, ou de trois mois dans les autres cas, pour adresser au juge d'instruction des observations écrites dont ils adressent copie au procureur de la République, et pour présenter :\n1° Des demandes d'actes, conformément à l'article L. 3431-17.\n2° Des demandes de constatation de la prescription de l'action pénale, sous réserve de l'article L. 3431-26.\n3° Des requêtes en nullité, dans le délai de [un mois] prévu à l'article L. 3752-6, sous réserve des articles L. 3752-3 et L. 3752-4."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3451-6",
-      "principe": "P23",
-      "motif": "Reçoit L3451-4 (dix jours de réplique) et L3451-5 (renonciation). Borne de la plage L3451-1 à L3451-6 citée par L4411-34, gardée.  Relecture adverse : la renonciation reste ouverte aux avocats.",
-      "ligne_rouge": "Art. 16 DDHC examiné : réplique contradictoire de dix jours gardée, renonciation commune seulement.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "A l'issue des délais prévus aux articles L. 3451-2 et L. 3451-3, le procureur de la République, les parties et le témoin assisté disposent de dix jours pour adresser au juge d'instruction des réquisitions ou des observations complémentaires au vu des observations ou du réquisitoire définitif qui leur ont été communiqués. Le juge d'instruction peut ensuite rendre son ordonnance de règlement, même sans réquisitions ni observations.\nLes parties et le témoin assisté, ou leurs avocats, peuvent, tous ensemble et à tout moment, renoncer à l'application de l'article L. 3451-3 et du premier alinéa du présent article."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3451-7",
-      "principe": "P19",
-      "motif": "Passe 2 tenue. Reçoit L3451-8 (réponse dans le mois, nouvelle demande après six mois). Renvoi mis à jour : le délai prévisible tient désormais dans L3431-22. Passe 4 : le renvoi à L3431-2 pour la forme de la demande tombe (règle commune).",
-      "ligne_rouge": "Art. 6 CEDH (délai raisonnable) examiné : la clôture reste demandable et la réponse due dans le mois.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Les parties et le témoin assisté peuvent demander au juge d'instruction de prononcer le renvoi devant la juridiction de jugement ou de déclarer qu'il n'y a pas lieu à suivre, le cas échéant après disjonction :\n1° Soit à l'expiration du délai qui leur a été indiqué en application de l'article L. 3431-22.\n2° Soit lorsqu'aucun acte d'instruction n'a été accompli pendant un délai de quatre mois.\nCette demande n'est plus recevable après l'envoi de l'avis prévu à l'article L. 3451-1. Dans le mois de sa réception, le juge d'instruction y fait droit et procède selon la section 1 du présent chapitre, ou déclare par ordonnance motivée qu'il y a lieu à poursuivre l'information. Dans ce dernier cas, une nouvelle demande ne peut être formée avant six mois."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3451-9",
-      "principe": "P24",
-      "motif": "Reçoit L3451-10 à L3451-12 : la voie rapide depuis l'instruction dans un article. Passe 2 tenue (la télécopie cède à la voie électronique).",
-      "ligne_rouge": "P18 examiné : la partie civile présente ses observations, son accord est requis si elle a porté plainte. Art. 16 DDHC : accord de la personne mise en examen exigé.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Si le juge d'instruction estime que les faits constituent un délit, que la personne mise en examen les reconnaît et qu'elle accepte la qualification pénale retenue, il peut, en vue du renvoi de l'affaire aux fins de comparution sur reconnaissance préalable de culpabilité, recueillir l'accord du procureur de la République et de cette personne, de sa propre initiative ou à la demande de l'un d'eux. Les parties disposent de dix jours à compter de la notification de la proposition du procureur de la République pour indiquer, par voie électronique, par déclaration au greffe ou par lettre recommandée, si elles l'acceptent.\nLorsqu'une partie civile est constituée, le juge d'instruction la met en mesure de présenter ses observations. Si l'information a été ouverte sur sa plainte, il recueille son accord.\nLes demandes et accords sont écrits ou mentionnés au procès-verbal. Recueillis au cours de l'information, ils dispensent de la procédure prévue à la section 1 du présent chapitre."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-1",
-      "principe": "P4",
-      "motif": "Examen des charges et qualification avant le règlement : gardé (cité par L3444-9).",
-      "ligne_rouge": "Aucune garantie de la personne en jeu au-delà de l'examen des charges, gardé.",
-      "decision": "G"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-2",
-      "principe": "P25",
-      "motif": "Contenu et motivation des ordonnances de règlement, à charge et à décharge : gardé mot pour mot (cité par L4414-5).  Relecture adverse : alinéas séparés.",
-      "ligne_rouge": "Art. 16 DDHC examiné : motivation à charge et à décharge au regard des réquisitions et des observations, nullité des mentions essentielles de la mise en accusation, mot pour mot. Art. 8 DDHC : aucune peine en cause.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Les ordonnances de règlement rendues par le juge d'instruction contiennent les nom, prénoms, date, lieu de naissance, domicile et profession de la personne mise en examen.\nElles indiquent la qualification légale du fait imputé à celle-ci et, de façon précise, les motifs pour lesquels il existe ou non contre elle des charges suffisantes.\nCette motivation est prise au regard des réquisitions du ministère public et des observations des parties qui ont été adressées au juge d'instruction en application des dispositions de la section 1 du chapitre 1er du présent titre, en précisant les éléments à charge et à décharge concernant chacune des personnes mises en examen.\nS'il s'agit d'une ordonnance de renvoi devant la cour d'assises ou la cour criminelle départementale, les mentions relatives à l'exposé et la qualification légale des faits, ainsi que celles relatives à l'identité de la personne sont prescrites à peine de nullité."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-3",
-      "principe": "P2",
-      "motif": "Notification gardée (citée par L4414-5). L'envoi électronique aux avocats suit L1632-2, la notification à la dernière adresse déclarée suit L1632-3. Passe 4 : la notification à la personne détenue par le chef d'établissement, avec récépissé, est écrite une fois au troisième alinéa de L3431-2.",
-      "ligne_rouge": "Art. 16 DDHC examiné : notification aux parties et aux avocats, copie remise, gardées. Passe 4 : art. 16 DDHC : notification aux parties et aux avocats, copie remise, gardées ; récépissé de la personne détenue tenu par L3431-2.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Les ordonnances de règlement sont notifiées dans les délais les plus brefs, avec remise d'une copie, aux personnes mises en examen, aux témoins assistés et aux parties civiles, verbalement avec émargement au dossier de la procédure ou par lettre recommandée, et simultanément à leurs avocats. Le greffier avise le procureur de la République des ordonnances qui ne sont pas conformes à ses réquisitions."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-5",
-      "principe": "P23",
-      "motif": "Reçoit L3452-8 (renvoi vers la juridiction initialement compétente) et L3452-10 (transmission du dossier).",
-      "ligne_rouge": "Aucune garantie de la personne en jeu : règle de compétence gardée.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Si le juge d'instruction estime qu'il existe des charges suffisantes contre la personne mise en examen d'avoir commis une infraction, il ordonne son renvoi devant la juridiction de jugement compétente. Lorsque l'information a été menée par le juge d'instruction d'un tribunal où se trouve un pôle de l'instruction pour des faits relevant d'un tribunal sans pôle, l'affaire est renvoyée devant la juridiction initialement compétente. Le juge d'instruction transmet le dossier avec son ordonnance au procureur de la République, qui l'adresse sans retard au greffe de la juridiction de renvoi."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-7",
-      "principe": "P19",
-      "motif": "Renvoi partiel gardé, phrases resserrées.",
-      "ligne_rouge": "Art. 16 DDHC examiné : la personne renvoyée partiellement reste entendue comme témoin assisté.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Des ordonnances de renvoi partiel peuvent intervenir en cours d'information lorsque les charges recueillies sur un ou plusieurs faits apparaissent suffisantes. La personne renvoyée partiellement qui ne demeure pas mise en examen pour d'autres faits est entendue sur ces faits comme témoin assisté, de même qu'en cas de disjonction."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-9",
-      "principe": "P11",
-      "motif": "Purge des vices de la procédure par l'ordonnance de renvoi définitive : gardée.",
-      "ligne_rouge": "Art. 16 DDHC examiné : réserve des vices que les parties ne pouvaient connaître et de L4313-1 gardée.",
-      "decision": "G"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-11",
-      "principe": "P14",
-      "motif": "Passe 2 tenue : le repenti relève de la diminution de 132-78, appliquée par la juridiction de jugement.",
-      "ligne_rouge": "Art. 8 DDHC examiné : l'individualisation reste au jugement, l'ordonnance signale seulement la possibilité.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "L'ordonnance de renvoi précise s'il y a lieu que la personne renvoyée devant la juridiction de jugement est susceptible de bénéficier d'une exemption ou d'une diminution de peine en application des dispositions de l'article 132-78 du code pénal."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
       "num": "L3352-12",
-      "principe": "P20",
-      "motif": "Règle gardée. Le « sans préjudice » devient une règle positive. Le numéro est une coquille du code de 2029 (place de L3452-12) : il se garde ici, la renumérotation relève de la coordination.",
-      "ligne_rouge": "Art. 66 C examiné : aucune mesure nouvelle, le mandat d'arrêt garde sa force.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Les mandats d'arrêt conservent leur force exécutoire. Les mandats d'amener ou de recherche cessent de pouvoir recevoir exécution. Le juge d'instruction peut délivrer un mandat d'arrêt contre la personne renvoyée devant la juridiction de jugement."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-13",
-      "principe": "P4",
-      "motif": "Renvoi des crimes gardé (cité par L3712-6), une phrase. Passe 4 : le renvoi aux chapitres 3 et 4 du titre II du livre Ier de la deuxième partie tombe : ils fixent d'eux-mêmes la compétence de la cour d'assises et de la cour criminelle départementale, que « compétente » désigne.",
-      "ligne_rouge": "Aucune garantie de la personne en jeu : règle de compétence gardée.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Si le juge d'instruction estime que les faits retenus à la charge des personnes mises en examen constituent des crimes, il ordonne leur renvoi devant la cour d'assises ou la cour criminelle départementale compétente, qu'il peut aussi saisir des délits et contraventions connexes au sens de l'article L. 1720-2."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-14",
-      "principe": "P20",
-      "motif": "Rectification de l'erreur de renvoi gardée, phrase resserrée.",
-      "ligne_rouge": "Aucune garantie de la personne en jeu.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Lorsque l'ordonnance du juge d'instruction devenue définitive a, au regard des qualifications criminelles retenues, renvoyé par erreur l'accusé devant la cour d'assises au lieu de la cour criminelle départementale, ou inversement, le président de la chambre des investigations et des libertés peut, sur requête du procureur de la République ou d'une partie, rectifier cette erreur par ordonnance motivée."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-15",
-      "principe": "P23",
-      "motif": "Règle gardée, phrases resserrées.",
-      "ligne_rouge": "P17 et P26 examinés : la composition sans jurés reste motivée par la loi et, pour les militaires, par le secret de la défense nationale.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Lorsque les crimes relèvent de la cour d'assises exclusivement composée de magistrats en application de l'article L. 2123-31, l'ordonnance de renvoi l'indique. S'il s'agit d'un crime de droit commun commis par un militaire dans l'exercice du service, elle constate le risque de divulgation d'un secret de la défense nationale qui justifie ce renvoi."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-16",
-      "principe": "P23",
-      "motif": "Reçoit L3452-17 (renvoi devant le tribunal contraventionnel).",
-      "ligne_rouge": "Aucune garantie de la personne en jeu : règle de compétence gardée.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Si le juge d'instruction estime qu'il existe des charges suffisantes contre la personne mise en examen d'avoir commis un délit, il ordonne son renvoi devant le tribunal délictuel, qu'il peut aussi saisir des contraventions connexes au sens de l'article L. 1720-2. S'il s'agit d'une contravention, il ordonne son renvoi devant le tribunal contraventionnel."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-18",
-      "principe": "P2",
-      "motif": "Règle générale de l'adresse déclarée (L1632-3) : la fiction de notification à personne et la forme écrite du changement d'adresse y sont écrites une fois.  Relecture adverse : la fiction couvre la citation, que L1632-3 ne vise pas : elle reste écrite ici.",
-      "ligne_rouge": "Art. 16 DDHC examiné : L1632-3 garde le délai d'opposition et d'appel hors de la fiction de notification.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "L'ordonnance qui renvoie la personne mise en examen devant le tribunal contraventionnel ou délictuel lui donne l'avis prévu au deuxième alinéa de l'article L. 1632-3. Jusqu'au jugement définitif, elle signale au procureur de la République tout changement de l'adresse déclarée lors de sa mise en examen. L'ordonnance l'informe que toute citation, notification ou signification faite à la dernière adresse déclarée est réputée faite à sa personne."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-19",
-      "principe": "P23",
-      "motif": "Règle gardée (citée par L4414-3), phrase resserrée.",
-      "ligne_rouge": "Art. 16 DDHC examiné : les mentions de la citation directe restent dues.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Lorsque le procureur de la République lui a communiqué la date d'audience devant le tribunal contraventionnel ou délictuel, le juge d'instruction peut la préciser dans l'ordonnance de renvoi, qui comporte alors les mentions exigées par l'article L. 4415-2 en cas de citation directe et dispense le procureur de délivrer une citation."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-20",
-      "principe": "P23",
-      "motif": "Reçoit L3452-21 (caducité) et L3452-22 (citation par le parquet, renvoi de passe 2 à L3452-21 tenu). Passe 4 : la phrase qui déclarait L3651-5 applicable tombe : L3651-5 vise lui-même l'ordonnance du présent article et en règle l'effet sur la détention provisoire, l'assignation à résidence et le contrôle judiciaire, maintien compris. Le second alinéa, cité par L4453-3 au lot p152, garde son rang.",
-      "ligne_rouge": "Art. 66 C examiné : caducité dans le mois si la personne est détenue, gardée. P24 : voie rapide gardée. Passe 4 : art. 66 C : fin des mesures de sûreté sauf maintien ordonné (L3651-5), caducité à trois mois ou un mois en détention, gardées.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Dans le cas prévu par l'article L. 3451-9, le juge d'instruction peut, par ordonnance, renvoyer l'affaire au procureur de la République aux fins de comparution sur reconnaissance préalable de culpabilité selon le titre V du livre IV de la quatrième partie.\nL'ordonnance est caduque, et l'information reprend, en cas d'échec de la procédure ou si aucune décision d'homologation n'intervient dans les trois mois de l'ordonnance, ou dans le mois si la personne a été maintenue en détention provisoire. Toutefois, le procureur de la République qui estime que la reprise de l'information n'est pas nécessaire peut, dans un délai de quinze jours, assigner le prévenu devant le tribunal délictuel. L'ordonnance mentionne les dispositions du présent alinéa."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-23",
-      "principe": "P23",
-      "motif": "Reçoit L3452-24 (non-lieu partiel).",
-      "ligne_rouge": "Présomption d'innocence examinée : le non-lieu partiel libère sans attendre la clôture.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Si le juge d'instruction estime que les faits ne constituent ni crime, ni délit, ni contravention, ou si l'auteur est resté inconnu, ou s'il n'existe pas de charges suffisantes contre la personne mise en examen, il déclare, par une ordonnance, qu'il n'y a lieu à suivre. Des ordonnances de non-lieu partiel peuvent intervenir en cours d'information."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-25",
-      "principe": "P18",
-      "motif": "Règle gardée, phrases resserrées. Passe 4 : la phrase qui renvoyait l'irresponsabilité de l'article 122-1 du code pénal à L6321-4 et L6321-5 tombe : ces articles régissent eux-mêmes le règlement de l'information dans ce cas.",
-      "ligne_rouge": "P18 examiné : la victime sait ce qui a été constaté.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Lorsque l'ordonnance de non-lieu est motivée par l'irresponsabilité pénale de la personne mise en examen prévue aux articles 122-2, 122-3, 122-4, 122-5 et 122-7 du code pénal, ou par son décès, elle précise s'il existe des charges suffisantes établissant qu'elle a commis les faits qui lui sont reprochés."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-26",
-      "principe": "P23",
-      "motif": "Reçoit L3452-27 (publication du non-lieu) et L3452-28 (information de la victime, passe 2 tenue : d'office).",
-      "ligne_rouge": "P18 examiné : la victime non constituée est avisée d'office du non-lieu. P26 : publication du non-lieu à la demande de la personne gardée.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Par l'ordonnance de non-lieu, le juge d'instruction statue sur la restitution des objets placés sous main de justice. Il peut la refuser lorsqu'elle présente un danger pour les personnes ou les biens.\nSur demande de la personne concernée ou, avec son accord, d'office ou à la demande du ministère public, il peut ordonner la publication intégrale ou partielle de sa décision de non-lieu, ou d'un communiqué sur ses motifs et son dispositif, dans les journaux, écrits périodiques ou services de communication au public par voie électronique qu'il désigne et dans les termes qu'il fixe. S'il ne fait pas droit à la demande de la personne concernée, il rend une ordonnance motivée.\nL'ordonnance de non-lieu, une fois devenue définitive, est portée par tout moyen à la connaissance de la victime qui a déposé plainte sans s'être constituée partie civile."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-29",
-      "principe": "P23",
-      "motif": "Reçoit L3452-30 (délai de vingt jours, la voie électronique suit L1632-3 et L1632-2) et L3452-31 (représentant légal de mauvaise foi). Cité par L1641-3. Passe 4 : second alinéa resserré : le délai de vingt jours garde son point de départ, la communication des réquisitions, et l'intéressé son droit d'observations écrites.",
-      "ligne_rouge": "Art. 8 DDHC examiné : montant maximal, réquisitions, motivation, mauvaise foi établie du représentant légal et délai de vingt jours pour les observations, gardés. Passe 4 : art. 8 et 16 DDHC : plafond de 15 000 euros, motivation, réquisitions communiquées et vingt jours pour répondre, gardés.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Si l'ordonnance de non-lieu est rendue à l'issue d'une information ouverte sur plainte avec constitution de partie civile, le juge d'instruction peut, sur réquisitions du procureur de la République et par décision motivée, prononcer contre la partie civile une amende civile de 15 000 euros au plus, s'il considère que la constitution de partie civile a été abusive ou dilatoire. Lorsque la partie civile est une personne morale, l'amende civile peut être prononcée contre son représentant légal, si la mauvaise foi de ce dernier est établie.\nCette décision ne peut intervenir que vingt jours après la communication à la partie civile et à son avocat, par lettre recommandée, des réquisitions du procureur de la République, sur lesquelles l'intéressé peut adresser des observations écrites au juge d'instruction."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-32",
-      "principe": "P23",
-      "motif": "Reçoit L3452-33 à L3452-36 : l'action en dommages-intérêts contre le plaignant dans un article. Registre 3.1 et 9.3 tenus (passe 2) : débats publics, chambre du conseil dans les cas de L. 1, le demandeur ayant qualité de victime. Le « sans préjudice » qui ouvre le cumul devient « peut se cumuler ».",
-      "ligne_rouge": "Art. 8 DDHC examiné (signal de L3452-36) : l'appréciation définitive de l'abus s'impose, sans double sanction. P17 : appel au fond gardé. P26 : publicité tenue.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Si l'ordonnance de non-lieu est rendue à l'issue d'une information ouverte sur plainte avec constitution de partie civile, la personne mise en examen et toutes personnes visées dans la plainte peuvent, si elles n'usent de la voie civile, demander des dommages-intérêts au plaignant. Cette action peut se cumuler avec une poursuite pour dénonciation calomnieuse.\nL'action est introduite dans les trois mois du jour où l'ordonnance de non-lieu est devenue définitive. Elle est portée par voie de citation devant le tribunal délictuel où l'affaire a été instruite, qui est immédiatement saisi du dossier de l'information pour sa communication aux parties. Les débats sont publics. Ils ont lieu en chambre du conseil dans les cas prévus à l'article L. 1, le demandeur y ayant qualité de victime. Les parties, ou leurs avocats, et le ministère public sont entendus. Le jugement est rendu en audience publique. Il est susceptible d'opposition, d'appel et de pourvoi dans les conditions de droit commun en matière délictuelle.\nEn cas de condamnation, le tribunal peut ordonner, aux frais du condamné, la publication intégrale ou par extraits de son jugement dans les journaux qu'il désigne, dans la limite d'un coût qu'il fixe pour chaque insertion.\nLa décision définitive qui, en application de l'article L. 3452-29, a déclaré la constitution de partie civile abusive ou dilatoire et prononcé une amende civile s'impose au tribunal."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3453-1",
-      "principe": "P23",
-      "motif": "Reçoit L3453-3 (seul le ministère public requiert).",
-      "ligne_rouge": "Présomption d'innocence et sécurité juridique examinées : l'autorité du non-lieu ne cède que devant des charges nouvelles.",
-      "decision": "R",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "La personne mise en examen à l'égard de laquelle le juge d'instruction a dit n'y avoir lieu à suivre ne peut plus être recherchée à l'occasion du même fait, à moins qu'il ne survienne de nouvelles charges. Seul le ministère public peut requérir la réouverture d'une information sur charges nouvelles."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L3453-2",
-      "principe": "P21",
-      "motif": "Définition des charges nouvelles : gardée (citée par L3762-12).",
-      "ligne_rouge": "Aucune garantie de la personne en jeu au-delà de la définition, gardée.",
-      "decision": "G"
-    },
-    {
-      "code": "cpp",
-      "num": "L3451-4",
       "decision": "F",
       "principe": "P23",
-      "motif": "Dix jours pour répliquer : repris à L3451-6.",
-      "ligne_rouge": "aucune",
-      "vers": "L3451-6"
+      "motif": "Passe 5 : C5. Le sort des mandats après le réquisitoire de renvoi suit le régime des mandats (L3525-9) ; la survie du mandat d'arrêt après renvoi n'y est pas écrite : contenu signalé à G01.",
+      "ligne_rouge": "Art. 66 C examiné : aucune mesure nouvelle ; le mandat reste une décision du juge du siège (L3525-9).",
+      "vers": "L3525-9"
     },
     {
       "code": "cpp",
-      "num": "L3451-5",
+      "num": "L3451-1",
       "decision": "F",
       "principe": "P23",
-      "motif": "Renonciation commune aux délais : reprise à L3451-6.",
-      "ligne_rouge": "aucune",
-      "vers": "L3451-6"
-    },
-    {
-      "code": "cpp",
-      "num": "L3451-8",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Réponse du juge dans le mois, nouvelle demande après six mois : reprises à L3451-7.",
-      "ligne_rouge": "aucune",
-      "vers": "L3451-7"
+      "motif": "Passe 5 : C5, carte 3.5. L'avis de fin d'information devient l'avis de fin d'enquête du procureur aux parties et à leurs avocats (L3333-1).",
+      "ligne_rouge": "Art. 16 DDHC examiné : avis à chaque partie et à son avocat, récépissé de la personne détenue, dus à L3333-1.",
+      "vers": "L3333-1"
     },
     {
       "code": "cpp",
       "num": "L3451-10",
       "decision": "F",
       "principe": "P23",
-      "motif": "Observations et accord de la partie civile : repris à L3451-9.",
-      "ligne_rouge": "aucune",
-      "vers": "L3451-9"
+      "motif": "Passe 5 : D (b) et C5, carte 3.5 (L3451-9 et L3452-20 vers L4451-4). Le renvoi aux fins de reconnaissance de culpabilité après l'information devient la reconnaissance après l'avis de fin d'enquête (L4451-4 2°), avec l'accord de la personne, l'avis de la partie civile, la caducité à [trois] mois ou [un] mois en détention.",
+      "ligne_rouge": "Art. 66 C et art. 16 DDHC examinés : accord de la personne et de la partie civile plaignante, caducité bornée et remise en liberté d'office (L4451-4 2°, L. 10).",
+      "vers": "L4451-4"
     },
     {
       "code": "cpp",
       "num": "L3451-11",
       "decision": "F",
       "principe": "P23",
-      "motif": "Dix jours pour accepter la proposition du parquet : repris à L3451-9.",
-      "ligne_rouge": "aucune",
-      "vers": "L3451-9"
+      "motif": "Passe 5 : D (b) et C5, carte 3.5 (L3451-9 et L3452-20 vers L4451-4). Le renvoi aux fins de reconnaissance de culpabilité après l'information devient la reconnaissance après l'avis de fin d'enquête (L4451-4 2°), avec l'accord de la personne, l'avis de la partie civile, la caducité à [trois] mois ou [un] mois en détention.",
+      "ligne_rouge": "Art. 66 C et art. 16 DDHC examinés : accord de la personne et de la partie civile plaignante, caducité bornée et remise en liberté d'office (L4451-4 2°, L. 10).",
+      "vers": "L4451-4"
     },
     {
       "code": "cpp",
       "num": "L3451-12",
       "decision": "F",
       "principe": "P23",
-      "motif": "Forme des accords et dispense de la procédure préalable : reprises à L3451-9.",
-      "ligne_rouge": "aucune",
-      "vers": "L3451-9"
+      "motif": "Passe 5 : D (b) et C5, carte 3.5 (L3451-9 et L3452-20 vers L4451-4). Le renvoi aux fins de reconnaissance de culpabilité après l'information devient la reconnaissance après l'avis de fin d'enquête (L4451-4 2°), avec l'accord de la personne, l'avis de la partie civile, la caducité à [trois] mois ou [un] mois en détention.",
+      "ligne_rouge": "Art. 66 C et art. 16 DDHC examinés : accord de la personne et de la partie civile plaignante, caducité bornée et remise en liberté d'office (L4451-4 2°, L. 10).",
+      "vers": "L4451-4"
     },
     {
       "code": "cpp",
-      "num": "L3452-4",
+      "num": "L3451-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5. Les réquisitions définitives deviennent le réquisitoire de renvoi ou le classement motivé, notifié aux parties (L3333-2).",
+      "ligne_rouge": "Art. 16 DDHC examiné : la décision du procureur est notifiée aux parties et à leurs avocats (L3333-2).",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3451-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5 et 14.5, relecture adverse. Observations, demandes d'actes et constatation de la prescription se forment dans le délai de l'avis de fin d'enquête (L3333-1), d'[un mois] si une personne mise en cause est détenue et de [trois] mois sinon (9.23 gardé) ; les requêtes en annulation suivent L1321-1 (14.5).",
+      "ligne_rouge": "Art. 16 DDHC examiné : délais d'un ou trois mois gardés (9.23), forclusion des nullités selon 14.5.",
+      "vers": "L3333-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3451-4",
       "decision": "A",
       "principe": "P20",
-      "motif": "Renvoi pur : les effets des ordonnances de règlement sur les mesures de sûreté sont fixés par L3651-1 à L3651-7, qui le disent eux-mêmes. Aucun renvoi entrant.",
-      "ligne_rouge": "Art. 66 C examiné : l'article ne portait aucune garantie propre, le sort du contrôle judiciaire, de l'assignation et de la détention après règlement reste fixé par L3651-1 à L3651-7."
+      "motif": "Passe 5 : C5. L'échange de réquisitions et d'observations complémentaires devant le juge et sa renonciation n'ont plus d'objet : le procureur, auteur du règlement, statue au vu des observations (L3333-2).",
+      "ligne_rouge": "Art. 16 DDHC examiné : observations ouvertes (L3333-1), réquisitoire notifié (L3333-2), contrôle des charges criminelles par la chambre (L3762-1)."
     },
     {
       "code": "cpp",
-      "num": "L3452-6",
-      "decision": "A",
-      "principe": "P20",
-      "motif": "Passe 2 tenue : redit L3444-9, qui porte la règle. Aucun renvoi entrant.",
-      "ligne_rouge": "Art. 66 C examiné : la personne introuvable n'est réputée mise en examen que sur procès-verbal de recherches infructueuses (L3444-9), rien n'est perdu."
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-8",
+      "num": "L3451-5",
       "decision": "F",
       "principe": "P23",
-      "motif": "Renvoi vers la juridiction initialement compétente : repris à L3452-5.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-5"
+      "motif": "Passe 5 : C5. La renonciation commune des parties au délai suit L3333-1.",
+      "ligne_rouge": "Art. 16 DDHC examiné : renonciation valable seulement si toutes les parties renoncent (L3333-1).",
+      "vers": "L3333-1"
     },
     {
       "code": "cpp",
-      "num": "L3452-17",
+      "num": "L3451-6",
       "decision": "F",
       "principe": "P23",
-      "motif": "Renvoi devant le tribunal contraventionnel : repris à L3452-16.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-16"
+      "motif": "Passe 5 : C5. Le procureur règle l'enquête à l'issue du délai d'observations (L3333-2).",
+      "ligne_rouge": "Art. 16 DDHC examiné : décision prise au vu des observations (L3333-2).",
+      "vers": "L3333-2"
     },
     {
       "code": "cpp",
-      "num": "L3452-21",
+      "num": "L3451-7",
       "decision": "F",
-      "principe": "P23",
-      "motif": "Caducité de l'ordonnance de renvoi aux fins de comparution sur reconnaissance préalable de culpabilité : reprise à L3452-20.",
-      "ligne_rouge": "Art. 66 C examiné : caducité dans le mois si la personne est détenue, reprise à L3452-20.",
-      "vers": "L3452-20"
+      "principe": "P19",
+      "motif": "Passe 5 : B et C5 (13.10). La demande de règlement à l'expiration du délai devient la saisine du juge de l'enquête et des libertés aux fins de clôture, à l'expiration de la durée maximale (L. 10 3°, L3332-1).",
+      "ligne_rouge": "Art. 6 CEDH (délai raisonnable) examiné : la clôture reste demandable, au juge du siège (L. 10).",
+      "vers": "L10"
     },
     {
       "code": "cpp",
-      "num": "L3452-22",
+      "num": "L3451-8",
       "decision": "F",
-      "principe": "P23",
-      "motif": "Citation par le parquet sans reprise de l'information : reprise à L3452-20.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-20"
+      "principe": "P19",
+      "motif": "Passe 5 : B (13.10). Le juge saisi aux fins de clôture ordonne la clôture ou la prolongation motivée (L3332-1).",
+      "ligne_rouge": "Art. 6 CEDH examiné : décision du juge, motivée, bornée (L3332-1).",
+      "vers": "L3332-1"
     },
     {
       "code": "cpp",
-      "num": "L3452-24",
+      "num": "L3451-9",
       "decision": "F",
       "principe": "P23",
-      "motif": "Non-lieu partiel : repris à L3452-23.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-23"
+      "motif": "Passe 5 : D (b) et C5, carte 3.5 (L3451-9 et L3452-20 vers L4451-4). Le renvoi aux fins de reconnaissance de culpabilité après l'information devient la reconnaissance après l'avis de fin d'enquête (L4451-4 2°), avec l'accord de la personne, l'avis de la partie civile, la caducité à [trois] mois ou [un] mois en détention.",
+      "ligne_rouge": "Art. 66 C et art. 16 DDHC examinés : accord de la personne et de la partie civile plaignante, caducité bornée et remise en liberté d'office (L4451-4 2°, L. 10).",
+      "vers": "L4451-4"
     },
     {
       "code": "cpp",
-      "num": "L3452-27",
+      "num": "L3452-1",
       "decision": "F",
       "principe": "P23",
-      "motif": "Publication du non-lieu : reprise à L3452-26.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-26"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-28",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Information de la victime non constituée : reprise à L3452-26.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-26"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-30",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Délai de vingt jours avant l'amende civile : repris à L3452-29.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-29"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-31",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Amende civile contre le représentant légal de mauvaise foi : reprise à L3452-29.",
-      "ligne_rouge": "Art. 8 DDHC examiné : condition de mauvaise foi établie reprise à L3452-29.",
-      "vers": "L3452-29"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-33",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Délai, tribunal, publicité des débats : repris à L3452-32.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-32"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-34",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Publication du jugement de condamnation : reprise à L3452-32.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-32"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-35",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Voies de recours de droit commun : reprises à L3452-32.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-32"
-    },
-    {
-      "code": "cpp",
-      "num": "L3452-36",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Autorité de l'amende civile définitive : reprise à L3452-32.",
-      "ligne_rouge": "Art. 8 DDHC examiné : une seule appréciation de l'abus, reprise à L3452-32.",
-      "vers": "L3452-32"
-    },
-    {
-      "code": "cpp",
-      "num": "L3453-3",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Seul le ministère public requiert la réouverture : repris à L3453-1.",
-      "ligne_rouge": "aucune",
-      "vers": "L3453-1"
+      "motif": "Passe 5 : C5. L'examen des charges et de leur qualification précède le réquisitoire (L3333-2).",
+      "ligne_rouge": "Aucune garantie de la personne en jeu au-delà de l'examen des charges, dû à L3333-2.",
+      "vers": "L3333-2"
     },
     {
       "code": "cpp",
       "num": "L3452-10",
       "decision": "F",
       "principe": "P23",
-      "motif": "Transmission sans retard du dossier au greffe de la juridiction de renvoi : reprise à L3452-5.",
-      "ligne_rouge": "aucune",
-      "vers": "L3452-5"
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de renvoi devient le réquisitoire de renvoi (L3333-2), avec ses mentions et ses avis.",
+      "ligne_rouge": "Art. 16 DDHC examiné : mentions, avis et notification dus à L3333-2. Art. 8 DDHC : l'individualisation reste au jugement.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-11",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de renvoi devient le réquisitoire de renvoi (L3333-2), avec ses mentions et ses avis.",
+      "ligne_rouge": "Art. 16 DDHC examiné : mentions, avis et notification dus à L3333-2. Art. 8 DDHC : l'individualisation reste au jugement.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-13",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5 et 14.7. Le renvoi des crimes et des infractions connexes devant la cour criminelle, et la mention de sa composition sans jurés (L2123-31), passent à L3333-3.",
+      "ligne_rouge": "P17 et P26 examinés : la composition sans jurés reste fixée par la loi (L2123-31) et motivée.",
+      "vers": "L3333-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-14",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Passe 5 : 14.7. La rectification entre cour d'assises et cour criminelle départementale tombe : une seule cour criminelle.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu."
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-15",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5 et 14.7. Le renvoi des crimes et des infractions connexes devant la cour criminelle, et la mention de sa composition sans jurés (L2123-31), passent à L3333-3.",
+      "ligne_rouge": "P17 et P26 examinés : la composition sans jurés reste fixée par la loi (L2123-31) et motivée.",
+      "vers": "L3333-3"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-16",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5 et D. Le renvoi devant le tribunal délictuel passe au réquisitoire de renvoi (L4414-1).",
+      "ligne_rouge": "Art. 16 DDHC examiné : mentions de la citation dues (L4414-1).",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-17",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de renvoi devient le réquisitoire de renvoi (L3333-2), avec ses mentions et ses avis.",
+      "ligne_rouge": "Art. 16 DDHC examiné : mentions, avis et notification dus à L3333-2. Art. 8 DDHC : l'individualisation reste au jugement.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-18",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de renvoi devient le réquisitoire de renvoi (L3333-2), avec ses mentions et ses avis.",
+      "ligne_rouge": "Art. 16 DDHC examiné : mentions, avis et notification dus à L3333-2. Art. 8 DDHC : l'individualisation reste au jugement.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-19",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5 et D. Le renvoi devant le tribunal délictuel passe au réquisitoire de renvoi (L4414-1).",
+      "ligne_rouge": "Art. 16 DDHC examiné : mentions de la citation dues (L4414-1).",
+      "vers": "L4414-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5. La motivation à charge et à décharge au regard des observations des parties passe au réquisitoire de renvoi et au classement motivé (L3333-2), les mentions de la mise en accusation à peine de nullité au renvoi devant la cour criminelle (L3333-3).",
+      "ligne_rouge": "Art. 16 DDHC examiné : motivation à charge et à décharge et mentions essentielles, dues à L3333-2 et L3333-3. Art. 8 DDHC : aucune peine en cause.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-20",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : D (b) et C5, carte 3.5. Le renvoi en reconnaissance de culpabilité passe à L4451-4 2°, la fin et le maintien des mesures de sûreté à L3651-4.",
+      "ligne_rouge": "Art. 66 C examiné : fin des mesures de sûreté sauf maintien par ordonnance spécialement motivée (L3651-4), caducité bornée (L4451-4 2°).",
+      "vers": "L4451-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-21",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : D (b) et C5, carte 3.5 (L3451-9 et L3452-20 vers L4451-4). Le renvoi aux fins de reconnaissance de culpabilité après l'information devient la reconnaissance après l'avis de fin d'enquête (L4451-4 2°), avec l'accord de la personne, l'avis de la partie civile, la caducité à [trois] mois ou [un] mois en détention.",
+      "ligne_rouge": "Art. 66 C et art. 16 DDHC examinés : accord de la personne et de la partie civile plaignante, caducité bornée et remise en liberté d'office (L4451-4 2°, L. 10).",
+      "vers": "L4451-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-22",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : D (b) et C5, carte 3.5 (L3451-9 et L3452-20 vers L4451-4). Le renvoi aux fins de reconnaissance de culpabilité après l'information devient la reconnaissance après l'avis de fin d'enquête (L4451-4 2°), avec l'accord de la personne, l'avis de la partie civile, la caducité à [trois] mois ou [un] mois en détention.",
+      "ligne_rouge": "Art. 66 C et art. 16 DDHC examinés : accord de la personne et de la partie civile plaignante, caducité bornée et remise en liberté d'office (L4451-4 2°, L. 10).",
+      "vers": "L4451-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-23",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de non-lieu devient le classement motivé (L3333-2), avec ses mentions, sa publication à la demande de la personne et l'avis à la victime.",
+      "ligne_rouge": "Présomption d'innocence et P18 examinés : classement partiel, publication à la demande de la personne, avis à la victime, dus à L3333-2.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-24",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de non-lieu devient le classement motivé (L3333-2), avec ses mentions, sa publication à la demande de la personne et l'avis à la victime.",
+      "ligne_rouge": "Présomption d'innocence et P18 examinés : classement partiel, publication à la demande de la personne, avis à la victime, dus à L3333-2.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-25",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de non-lieu devient le classement motivé (L3333-2), avec ses mentions, sa publication à la demande de la personne et l'avis à la victime.",
+      "ligne_rouge": "Présomption d'innocence et P18 examinés : classement partiel, publication à la demande de la personne, avis à la victime, dus à L3333-2.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-26",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, carte 3.9. La restitution des objets suit L3532-13.",
+      "ligne_rouge": "P18 examiné : L3532-13 la porte.",
+      "vers": "L3532-13"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-27",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de non-lieu devient le classement motivé (L3333-2), avec ses mentions, sa publication à la demande de la personne et l'avis à la victime.",
+      "ligne_rouge": "Présomption d'innocence et P18 examinés : classement partiel, publication à la demande de la personne, avis à la victime, dus à L3333-2.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-28",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de non-lieu devient le classement motivé (L3333-2), avec ses mentions, sa publication à la demande de la personne et l'avis à la victime.",
+      "ligne_rouge": "Présomption d'innocence et P18 examinés : classement partiel, publication à la demande de la personne, avis à la victime, dus à L3333-2.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-29",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C3, carte 3.5 (reprise de L3452-29 et L3452-32). L'amende civile pour constitution abusive ou dilatoire et l'action en dommages-intérêts de la personne visée passent à L3324-16, avec leurs plafonds, délais et recours.",
+      "ligne_rouge": "Art. 8 DDHC examiné : plafond, réquisitions communiquées et vingt jours pour répondre, mauvaise foi établie du représentant légal, autorité de la décision définitive, appel au fond : dus à L3324-16.",
+      "vers": "L3324-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5. La notification du règlement aux parties et aux avocats passe à L3333-2.",
+      "ligne_rouge": "Art. 16 DDHC examiné : notification, copie remise, récépissé de la personne détenue, dus à L3333-2.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-30",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C3, carte 3.5 (reprise de L3452-29 et L3452-32). L'amende civile pour constitution abusive ou dilatoire et l'action en dommages-intérêts de la personne visée passent à L3324-16, avec leurs plafonds, délais et recours.",
+      "ligne_rouge": "Art. 8 DDHC examiné : plafond, réquisitions communiquées et vingt jours pour répondre, mauvaise foi établie du représentant légal, autorité de la décision définitive, appel au fond : dus à L3324-16.",
+      "vers": "L3324-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-31",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C3, carte 3.5 (reprise de L3452-29 et L3452-32). L'amende civile pour constitution abusive ou dilatoire et l'action en dommages-intérêts de la personne visée passent à L3324-16, avec leurs plafonds, délais et recours.",
+      "ligne_rouge": "Art. 8 DDHC examiné : plafond, réquisitions communiquées et vingt jours pour répondre, mauvaise foi établie du représentant légal, autorité de la décision définitive, appel au fond : dus à L3324-16.",
+      "vers": "L3324-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-32",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C3, carte 3.5 (reprise de L3452-29 et L3452-32). L'amende civile pour constitution abusive ou dilatoire et l'action en dommages-intérêts de la personne visée passent à L3324-16, avec leurs plafonds, délais et recours.",
+      "ligne_rouge": "Art. 8 DDHC examiné : plafond, réquisitions communiquées et vingt jours pour répondre, mauvaise foi établie du représentant légal, autorité de la décision définitive, appel au fond : dus à L3324-16.",
+      "vers": "L3324-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-33",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C3, carte 3.5 (reprise de L3452-29 et L3452-32). L'amende civile pour constitution abusive ou dilatoire et l'action en dommages-intérêts de la personne visée passent à L3324-16, avec leurs plafonds, délais et recours.",
+      "ligne_rouge": "Art. 8 DDHC examiné : plafond, réquisitions communiquées et vingt jours pour répondre, mauvaise foi établie du représentant légal, autorité de la décision définitive, appel au fond : dus à L3324-16.",
+      "vers": "L3324-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-34",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C3, carte 3.5 (reprise de L3452-29 et L3452-32). L'amende civile pour constitution abusive ou dilatoire et l'action en dommages-intérêts de la personne visée passent à L3324-16, avec leurs plafonds, délais et recours.",
+      "ligne_rouge": "Art. 8 DDHC examiné : plafond, réquisitions communiquées et vingt jours pour répondre, mauvaise foi établie du représentant légal, autorité de la décision définitive, appel au fond : dus à L3324-16.",
+      "vers": "L3324-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-35",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C3, carte 3.5 (reprise de L3452-29 et L3452-32). L'amende civile pour constitution abusive ou dilatoire et l'action en dommages-intérêts de la personne visée passent à L3324-16, avec leurs plafonds, délais et recours.",
+      "ligne_rouge": "Art. 8 DDHC examiné : plafond, réquisitions communiquées et vingt jours pour répondre, mauvaise foi établie du représentant légal, autorité de la décision définitive, appel au fond : dus à L3324-16.",
+      "vers": "L3324-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-36",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C3, carte 3.5 (reprise de L3452-29 et L3452-32). L'amende civile pour constitution abusive ou dilatoire et l'action en dommages-intérêts de la personne visée passent à L3324-16, avec leurs plafonds, délais et recours.",
+      "ligne_rouge": "Art. 8 DDHC examiné : plafond, réquisitions communiquées et vingt jours pour répondre, mauvaise foi établie du représentant légal, autorité de la décision définitive, appel au fond : dus à L3324-16.",
+      "vers": "L3324-16"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-4",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5. Les effets du renvoi sur les mesures de sûreté sont à L3651-1 et suivants.",
+      "ligne_rouge": "Art. 66 C examiné : L3651-1 à L3651-7 les portent.",
+      "vers": "L3651-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-5",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de renvoi devient le réquisitoire de renvoi (L3333-2), avec ses mentions et ses avis.",
+      "ligne_rouge": "Art. 16 DDHC examiné : mentions, avis et notification dus à L3333-2. Art. 8 DDHC : l'individualisation reste au jugement.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, section 1 de la carte. L'ordonnance de renvoi devient le réquisitoire de renvoi (L3333-2), avec ses mentions et ses avis.",
+      "ligne_rouge": "Art. 16 DDHC examiné : mentions, avis et notification dus à L3333-2. Art. 8 DDHC : l'individualisation reste au jugement.",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-7",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5. Le renvoi partiel passe au réquisitoire de renvoi (L3333-2).",
+      "ligne_rouge": "Art. 16 DDHC examiné : la personne non renvoyée reste personne mise en cause pour les autres faits (L3324-5).",
+      "vers": "L3333-2"
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-8",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Passe 5 : C4. Le renvoi au tribunal sans pôle tombe avec le pôle de l'instruction.",
+      "ligne_rouge": "Aucune garantie de la personne en jeu."
+    },
+    {
+      "code": "cpp",
+      "num": "L3452-9",
+      "decision": "F",
+      "principe": "P11",
+      "motif": "Passe 5 : 14.5. La purge des nullités par le renvoi suit l'ancre des nullités : devant la juridiction de jugement, seuls les actes postérieurs à l'avis de fin d'enquête, sauf moyen que la partie ne pouvait connaître (L1321-1).",
+      "ligne_rouge": "Art. 16 DDHC examiné : réserve des vices que les parties ne pouvaient connaître gardée (L1321-1, garde-fou n° 13).",
+      "vers": "L1321-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L3453-1",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, carte 3.5. Les charges nouvelles après classement motivé passent à L3333-4.",
+      "ligne_rouge": "Présomption d'innocence et sécurité juridique examinées : le classement ne cède que devant des charges nouvelles (L3333-4).",
+      "vers": "L3333-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3453-2",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, carte 3.5. Les charges nouvelles après classement motivé passent à L3333-4.",
+      "ligne_rouge": "Présomption d'innocence et sécurité juridique examinées : le classement ne cède que devant des charges nouvelles (L3333-4).",
+      "vers": "L3333-4"
+    },
+    {
+      "code": "cpp",
+      "num": "L3453-3",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 5 : C5, carte 3.5. Les charges nouvelles après classement motivé passent à L3333-4.",
+      "ligne_rouge": "Présomption d'innocence et sécurité juridique examinées : le classement ne cède que devant des charges nouvelles (L3333-4).",
+      "vers": "L3333-4"
     }
   ],
   "passe": 3
