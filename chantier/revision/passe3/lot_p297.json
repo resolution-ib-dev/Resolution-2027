@@ -1,14 +1,14 @@
 {
   "lot": "lot_p297",
   "titre": "Saisine pour avis de la Cour de cassation",
-  "ecart_volume": "Écart motivé (−30 % contre −40 %, 278 mots pour 239) : la procédure de l'avis tient en garanties de contradictoire (avis aux parties, observations, notification), un délai opposable de trois mois et l'interdiction tenant à la liberté (art. 66 C), écrites une fois. Passe 4 : redite de L. 441-1 du code de l'organisation judiciaire retirée, information des autorités déclassée.",
+  "ecart_volume": "Écart motivé (−30 % contre −40 %, 278 mots pour 239) : la procédure de l'avis tient en garanties de contradictoire (avis aux parties, observations, notification), un délai opposable de trois mois et l'interdiction tenant à la liberté (art. 66 C), écrites une fois. Passe 4 : redite de L. 441-1 du code de l'organisation judiciaire retirée, information des autorités déclassée. Passe 5 : vocabulaire seul (C, 14.6), l'écart reste motivé.",
   "articles_cible": [
     {
       "num": "L7111-1",
-      "texte": "Les juridictions pénales, à l'exception des juridictions d'instruction, de la cour criminelle départementale et de la cour d'assises, peuvent solliciter l'avis de la Cour de cassation en application de l'article L. 441-1 du code de l'organisation judiciaire. Aucune demande d'avis ne peut être présentée lorsque, dans l'affaire, une personne est placée en détention provisoire, sous assignation à résidence avec surveillance électronique ou sous contrôle judiciaire.",
+      "texte": "Les juridictions pénales, à l'exception de la cour criminelle et des juridictions de l'enquête, peuvent solliciter l'avis de la Cour de cassation en application de l'article L. 441-1 du code de l'organisation judiciaire. La chambre des investigations et des libertés le peut lorsqu'elle statue en matière d'application des peines. Aucune demande d'avis ne peut être présentée lorsque, dans l'affaire, une personne est placée en détention provisoire, sous assignation à résidence avec surveillance électronique ou sous contrôle judiciaire.",
       "verbe": "R",
       "principe": "P23",
-      "motif": "Saisine pour avis : juridictions qui la sollicitent et interdiction quand une personne est privée de liberté ou sous contrôle (L7111-2 fusionné), en un article.",
+      "motif": "Saisine pour avis : juridictions qui la sollicitent et interdiction quand une personne est privée de liberté ou sous contrôle (L7111-2 fusionné), en un article. Passe 5 : les juridictions d'instruction deviennent les juridictions de l'enquête (C, L2122-1), la cour d'assises et la cour criminelle départementale la cour criminelle (14.6, 14.7). Même exclusion, même interdiction tenant à la liberté. Relecture adverse : champ de 2029 gardé (14.6) : la chambre absorbe la chambre de l'application des peines, qui pouvait demander un avis.",
       "ligne_rouge": "Art. 66 C examiné : aucune demande d'avis, donc aucun sursis à statuer, quand une personne est détenue, assignée sous surveillance électronique ou sous contrôle judiciaire."
     },
     {
@@ -64,7 +64,7 @@
   ],
   "phrases": {
     "L7111-1#1": {
-      "destin": "gardee",
+      "destin": "reprise",
       "vers": "L7111-1"
     },
     "L7111-2#1": {
