@@ -39,13 +39,13 @@
       "code": "cpp",
       "num": "R2-10",
       "principe": "P17",
-      "motif": "Citoyens assesseurs de la cour criminelle départementale au cours de la session : convocation comme les jurés (ancien R2-9), appel, excuses et remplacement selon la loi, assesseurs supplémentaires (ancien R2-11, registre 9.16). Leur tirage par session est à L2124-3.",
-      "ligne_rouge": "Droit d'être jugé par des citoyens (P17) examiné : les citoyens assesseurs ont les droits et devoirs des jurés (L2124-3) ; les supplémentaires assistent aux débats pour que l'empêchement d'un titulaire n'oblige pas à reprendre l'audience.",
+      "motif": "Jurés supplémentaires de la cour criminelle. Passe 5 (G24) : 14.7 et carte (section 1, « juré ») : tout citoyen qui siège à la cour criminelle est un juré, le citoyen assesseur et la cour criminelle départementale disparaissent (remplace 4.2). La convocation (L2123-30), l'appel, les absences, les excuses et le remplacement (L4321-1 à L4321-8) et le tirage des jurés supplémentaires (L4321-9) sont à la loi pour tous les jurés : reste le plancher de [deux] jurés supplémentaires par affaire (9.16), étendu des deux citoyens assesseurs à toute formation de la cour qui siège avec des jurés, la cour composée de magistrats seuls (L2123-31) exceptée (relecture adverse).",
+      "ligne_rouge": "Droit d'être jugé par des citoyens (P17) examiné : les jurés supplémentaires assistent aux débats pour que l'empêchement d'un juré n'oblige pas à reprendre l'audience (L4321-9).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le greffier de la cour criminelle départementale convoque, selon l'article L. 2123-30, les citoyens assesseurs tirés au sort. La cour statue sur l'appel, les absences, les excuses et le remplacement des citoyens assesseurs selon les articles L. 4321-1 à L. 4321-8.\nPour chaque affaire, il est désigné par le sort, outre les [deux] citoyens assesseurs titulaires, au moins [deux] citoyens assesseurs supplémentaires, qui assistent aux débats. Le citoyen assesseur empêché en cours de session est remplacé par un citoyen assesseur supplémentaire, dans l'ordre du tirage."
+          "nouveau": "Lorsque la cour criminelle siège avec des jurés, elle ordonne pour chaque affaire, selon l'article L. 4321-9, le tirage d'au moins [deux] jurés supplémentaires."
         }
       ]
     },
@@ -53,13 +53,13 @@
       "code": "cpp",
       "num": "R2-12",
       "principe": "P23",
-      "motif": "Formation des citoyens assesseurs en un article : durée, visite d'un établissement, programme recentré sur la cour criminelle départementale et le serment des jurés (L4321-18), organisation et formateurs (anciens R2-13 et R2-14).",
+      "motif": "Formation des citoyens assesseurs en un article : durée, visite d'un établissement, programme recentré sur la cour criminelle départementale et le serment des jurés (L4321-18), organisation et formateurs (anciens R2-13 et R2-14). Passe 5 (G24) : 14.7 et carte (section 1) : la formation d'une journée, réservée aux citoyens assesseurs de la cour criminelle départementale, vaut pour tous les jurés de la cour criminelle, qui en est l'unique juridiction criminelle (remplace 4.2). Le programme vise la cour criminelle et les délits qui lui sont renvoyés (L2123-1, L4411-40), et les principes de la procédure de l'article L. 1 (G7). Extension déclarée : la formation devient une obligation pour tous les jurés, y compris ceux de la formation de jury et de l'appel, en conséquence de 14.7 et de la carte (section 8, « Juré »). Base législative à écrire (point pour l'auteur, G08).",
       "ligne_rouge": "Présomption d'innocence et impartialité (art. 9 et 16 DDHC) examinées : elles restent au programme de la formation.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Avant d'exercer leurs fonctions, les citoyens assesseurs suivent une formation d'une journée, qui comporte la visite d'un établissement pénitentiaire. Elle leur permet de mesurer le sens et la portée du serment prévu à l'article L. 4321-18. Elle porte sur la composition, la saisine et la compétence de la cour criminelle départementale, les crimes relevant de sa compétence, la responsabilité pénale et les causes d'irresponsabilité, le rôle des magistrats du siège et du ministère public et celui des avocats de la défense et de la partie civile, les règles déontologiques des juges, notamment l'impartialité et la probité, la présomption d'innocence et l'administration de la preuve, le prononcé des peines et leur exécution.\nLe premier président de la cour d'appel coordonne son organisation, qui peut être commune à tout ou partie des tribunaux judiciaires du ressort. Elle est dispensée par des magistrats du siège des juridictions du ressort désignés par le premier président, des magistrats du ministère public de ces juridictions désignés par le procureur général et un avocat désigné par le bâtonnier du tribunal judiciaire où elle est organisée ou, si les bâtonniers concernés s'accordent, un avocat du barreau d'un autre tribunal auquel elle est commune."
+          "nouveau": "Avant d'exercer leurs fonctions, les jurés de la cour criminelle suivent une formation d'une journée, qui comporte la visite d'un établissement pénitentiaire. Elle leur permet de mesurer le sens et la portée du serment prévu à l'article L. 4321-18. Elle porte sur la composition, la saisine et la compétence de la cour criminelle, les crimes et les délits relevant de sa compétence, la responsabilité pénale et les causes d'irresponsabilité, le rôle des magistrats du siège et du ministère public et celui des avocats de la défense et de la partie civile, les règles déontologiques des juges, notamment l'impartialité et la probité, les principes de l'article L. 1, la présomption d'innocence et l'administration de la preuve, le prononcé des peines et leur exécution.\nLe premier président de la cour d'appel coordonne son organisation, qui peut être commune à tout ou partie des tribunaux judiciaires du ressort. Elle est dispensée par des magistrats du siège des juridictions du ressort désignés par le premier président, des magistrats du ministère public de ces juridictions désignés par le procureur général et un avocat désigné par le bâtonnier du tribunal judiciaire où elle est organisée ou, si les bâtonniers concernés s'accordent, un avocat du barreau d'un autre tribunal auquel elle est commune."
         }
       ]
     },
@@ -95,13 +95,13 @@
       "code": "cpp",
       "num": "R2-15-2",
       "principe": "P20",
-      "motif": "Accédants et destinataires : cercles inchangés ; le besoin d'en connaître et la désignation nominative, répétés à chaque ligne, sont dits une fois (VII).",
+      "motif": "Accédants et destinataires : cercles inchangés ; le besoin d'en connaître et la désignation nominative, répétés à chaque ligne, sont dits une fois (VII). Passe 5 (G24) : C et carte (section 1) : les magistrats et greffiers de l'instruction deviennent ceux des juridictions de l'enquête (L2122-1).",
       "ligne_rouge": "Vie privée examinée : aucun accédant ajouté, chaque cercle garde ses données ; besoin d'en connaître et habilitation nominative dits pour tous.",
-      "decision": "S",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "I.-Peuvent accéder aux données des 1° à 3° de l'article R. 2-15-1 : les magistrats et les greffiers du parquet chargé de l'enquête et ceux de l'instruction, les personnels du service d'enquête saisi, ceux de l'unité d'identification des victimes de catastrophe saisie, ceux du secrétariat général du ministère de la justice chargés de l'aide aux victimes, ceux du ministère des affaires étrangères et, pour les actes terroristes, les magistrats et les greffiers de la juridiction civile compétente en application de l'article L. 217-6 du code de l'organisation judiciaire.\nII.-Peuvent accéder aux données des 2° et 3° de l'article R. 2-15-1 : les préfets de département et les procureurs de la République, ou leurs représentants, coprésidents des comités locaux d'aide aux victimes, les personnels de la délégation interministérielle à l'aide aux victimes, les salariés des associations d'aide aux victimes agréées par le ministre de la justice et, pour les actes terroristes, les personnels du fonds de garantie des victimes des actes de terrorisme et d'autres infractions.\nIII.-Peuvent accéder, pour les actes terroristes, aux données du 3° de l'article R. 2-15-1 : les personnels de l'administration centrale de la direction générale des finances publiques chargés du contentieux des impôts des particuliers, ceux de la caisse nationale d'assurance maladie et des autres organismes chargés d'un régime obligatoire d'assurance maladie, ceux de la direction des ressources humaines du ministère de la défense chargés de l'instruction des demandes et de l'attribution des pensions, ceux de l'office national des anciens combattants et des victimes de guerre et ceux de la caisse nationale des allocations familiales.\nIV.-Peuvent accéder aux données des 2° et 3° de l'article R. 2-15-1 relatives aux agents blessés ou décédés et à leurs proches : les personnels de la direction générale de la police nationale et ceux de la direction générale de la gendarmerie nationale chargés de l'accompagnement des personnels blessés en service ou des familles des personnels décédés en mission, ceux de la direction générale de la sécurité civile et de la gestion des crises chargés de la doctrine et des ressources humaines, ceux chargés de la gestion des ressources humaines des services d'incendie et de secours et ceux de la direction des ressources humaines, de la direction des affaires juridiques et du commissariat des armées du ministère de la défense.\nV.-Les personnes mentionnées aux I à IV peuvent accéder aux données du 4° de l'article R. 2-15-1.\nVI.-Peuvent être destinataires des données du 3° de l'article R. 2-15-1, pour les actes terroristes, les directions départementales des finances publiques et, des données des 1° à 3° du même article, les administrations étrangères qui assurent les mêmes missions pour leurs ressortissants, y compris celles des pays absents de la liste prévue à l'article 45 du règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016, lorsqu'un motif important d'intérêt public le nécessite, conformément au d du 1 de l'article 49 du même règlement.\nVII.-L'accès et la transmission portent sur tout ou partie des données, à raison des attributions de chacun et dans la limite du besoin d'en connaître. Les personnels et salariés mentionnés au présent article sont nommément désignés et dûment habilités par l'autorité compétente."
+          "nouveau": "I.-Peuvent accéder aux données des 1° à 3° de l'article R. 2-15-1 : les magistrats et les greffiers du parquet chargé de l'enquête et ceux des juridictions de l'enquête, les personnels du service d'enquête saisi, ceux de l'unité d'identification des victimes de catastrophe saisie, ceux du secrétariat général du ministère de la justice chargés de l'aide aux victimes, ceux du ministère des affaires étrangères et, pour les actes terroristes, les magistrats et les greffiers de la juridiction civile compétente en application de l'article L. 217-6 du code de l'organisation judiciaire.\nII.-Peuvent accéder aux données des 2° et 3° de l'article R. 2-15-1 : les préfets de département et les procureurs de la République, ou leurs représentants, coprésidents des comités locaux d'aide aux victimes, les personnels de la délégation interministérielle à l'aide aux victimes, les salariés des associations d'aide aux victimes agréées par le ministre de la justice et, pour les actes terroristes, les personnels du fonds de garantie des victimes des actes de terrorisme et d'autres infractions.\nIII.-Peuvent accéder, pour les actes terroristes, aux données du 3° de l'article R. 2-15-1 : les personnels de l'administration centrale de la direction générale des finances publiques chargés du contentieux des impôts des particuliers, ceux de la caisse nationale d'assurance maladie et des autres organismes chargés d'un régime obligatoire d'assurance maladie, ceux de la direction des ressources humaines du ministère de la défense chargés de l'instruction des demandes et de l'attribution des pensions, ceux de l'office national des anciens combattants et des victimes de guerre et ceux de la caisse nationale des allocations familiales.\nIV.-Peuvent accéder aux données des 2° et 3° de l'article R. 2-15-1 relatives aux agents blessés ou décédés et à leurs proches : les personnels de la direction générale de la police nationale et ceux de la direction générale de la gendarmerie nationale chargés de l'accompagnement des personnels blessés en service ou des familles des personnels décédés en mission, ceux de la direction générale de la sécurité civile et de la gestion des crises chargés de la doctrine et des ressources humaines, ceux chargés de la gestion des ressources humaines des services d'incendie et de secours et ceux de la direction des ressources humaines, de la direction des affaires juridiques et du commissariat des armées du ministère de la défense.\nV.-Les personnes mentionnées aux I à IV peuvent accéder aux données du 4° de l'article R. 2-15-1.\nVI.-Peuvent être destinataires des données du 3° de l'article R. 2-15-1, pour les actes terroristes, les directions départementales des finances publiques et, des données des 1° à 3° du même article, les administrations étrangères qui assurent les mêmes missions pour leurs ressortissants, y compris celles des pays absents de la liste prévue à l'article 45 du règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016, lorsqu'un motif important d'intérêt public le nécessite, conformément au d du 1 de l'article 49 du même règlement.\nVII.-L'accès et la transmission portent sur tout ou partie des données, à raison des attributions de chacun et dans la limite du besoin d'en connaître. Les personnels et salariés mentionnés au présent article sont nommément désignés et dûment habilités par l'autorité compétente."
         }
       ]
     },
@@ -187,7 +187,7 @@
       "num": "R2-1",
       "decision": "A",
       "principe": "P1",
-      "motif": "Avis et recueil d'informations de la liste séparée des citoyens assesseurs (ancien 10-4), sans successeur : les citoyens assesseurs sont tirés au sort sur la liste du jury (L2124-3). Décision de passe 2 tenue.",
+      "motif": "Avis et recueil d'informations de la liste séparée des citoyens assesseurs (ancien 10-4), sans successeur : les citoyens assesseurs sont tirés au sort sur la liste du jury (L2124-3). Décision de passe 2 tenue. Passe 5 (G24 ; 14.7) : L2124-3 est fusionné dans L2123-8 (lot p257) : les jurés de la cour criminelle sont tirés de la liste annuelle du jury, que dresse la commission de L2123-25, et de la liste de session de L2123-29.",
       "ligne_rouge": "aucune (passe 1)."
     },
     {
@@ -227,7 +227,7 @@
       "num": "R2-7",
       "decision": "A",
       "principe": "P20",
-      "motif": "Établissement de la liste annuelle séparée des citoyens assesseurs : la liste disparaît, le tirage par session sur la liste du jury, dans les formes de L2123-29, est écrit à L2124-3 (pièce p257) ; la cible de passe 2 le recopiait.",
+      "motif": "Établissement de la liste annuelle séparée des citoyens assesseurs : la liste disparaît, le tirage par session sur la liste du jury, dans les formes de L2123-29, est écrit à L2124-3 (pièce p257) ; la cible de passe 2 le recopiait. Passe 5 (G24 ; 14.7) : L2124-3 est fusionné dans L2123-8 (lot p257) : les jurés de la cour criminelle sont tirés de la liste annuelle du jury, que dresse la commission de L2123-25, et de la liste de session de L2123-29.",
       "ligne_rouge": "aucune (passe 1)."
     },
     {
@@ -242,11 +242,10 @@
     {
       "code": "cpp",
       "num": "R2-9",
-      "decision": "F",
-      "principe": "P23",
-      "motif": "Convocation des citoyens assesseurs : premier alinéa de R2-10, par renvoi à L2123-30.",
-      "ligne_rouge": "aucune (passe 1).",
-      "vers": "R2-10"
+      "decision": "A",
+      "principe": "P17",
+      "motif": "Avis d'inscription sur la liste annuelle des citoyens assesseurs. Passe 5 (G24 ; 14.7) : la liste séparée disparaît, les jurés sont inscrits sur la liste annuelle du jury (L2123-22) et convoqués selon L2123-30.",
+      "ligne_rouge": "aucune (passe 1)."
     },
     {
       "code": "cpp",
