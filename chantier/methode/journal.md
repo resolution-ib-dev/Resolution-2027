@@ -6109,3 +6109,16 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - Jeux : le tri et le n° 36 suppriment 6,7 Md€ ; la colonne H du schéma n’en retient que 0,3 — écart au schéma, déclaré.
 - PDF et docx des liasses non régénérés ; tri du 20261103 non promu référence du contrôle des sièges ; site non mis à jour.
+
+## 20261109 — fil code, intégration des amendements du tri
+
+## Ce qui a changé au corpus
+
+- P1 n° 36, 37 et 38 intégrés aux n° 22 et 23, 29 et 25 (liasse) ; fiches `tri_36` à `tri_38` retirées ; première partie à 35 amendements, liasses à 83.
+- Tri : 58 rangs portés par un ajout à un amendement existant (projet) ; `verifier_fond.py` : 103 visas, tous applicables au 1er juillet 2027.
+- `registre_calcul_etatB.md`, § 18 : lignes renommées, montants inchangés.
+
+## Ce qui reste ouvert
+
+- Fiches des n° 22, 23, 25 et 29 en retard sur la liasse (antérieur à ce fil).
+- Word et PDF des liasses à publier au site ; page Amendements et compteur à 83.

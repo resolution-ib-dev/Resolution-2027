@@ -12,3 +12,4 @@ Se joue depuis ce dossier (`cd appareil/tri_porte`), le dépôt de droit à `../
 8. `python3 construire_tri.py`, `python3 tables.py`, `python3 classeurs.py` — tri du 20261103, tables et classeurs de `livrables/tri_prelevements/`.
 
 `classeurs.py` contrôle mécaniquement la version exportable : aucune mention interne, aucune décimale au-delà de 10.
+9. `python3 integrer_ajouts.py` — intégration du 20261109 : les P1 n° 36 à 38 rejoignent les n° 22, 23, 25 et 29 (joué une fois ; refuse un second passage). Les porteurs du tri suivent `INTEGRE` d’`amendements.py`.

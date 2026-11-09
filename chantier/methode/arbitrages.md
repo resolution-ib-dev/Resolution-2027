@@ -8636,3 +8636,18 @@ site ne sont pas régénérés : aucune publication sans l’auteur.
 **Validé** (« il faut corriger », auteur, 20261106). Le P1 n° 19 ne supprime pas les droits de mutation : il les ramène à 1 % et 3 % au profit de l’État, acompte de l’impôt sur le revenu ou sur les sociétés. Le tri comptait leur suppression entière. Il porte désormais une colonne `part_conservee_2026_M` : 6 000 M€ pour les DMTG (H42 : 0,03 × 300 − 3) et 5 050 M€ pour les DMTO (H41 : C41/2 − 3,5), répartis au prorata du rendement 2026 des rangs de chaque ligne du schéma. Le devenir reste « remplacé par un grand impôt » ; le classeur exportable dit « droit ramené à 1 % et 3 % » et donne la part conservée.
 
 **Tranché** (tambouille, révocable) : la répartition au prorata. Le compte des prélèvements (434) ne change pas.
+
+## 20261109 — fil code, intégration des amendements du tri
+
+### Les amendements du tri rejoignent les amendements existants de même objet — 20261109
+
+**Validé** (« ok intègre, mets en cohérence », auteur, 20261109). Les P1 n° 36, 37 et 38 du 20261103 doublaient des amendements existants placés au même endroit du texte. Ils y sont intégrés :
+
+- n° 36, I et II → **n° 22** (après l’art. 19), I, 4° à 7°, et II, 3° : quarante-huit impositions d’État ; les taxes sur les véhicules et les fréquences restent dues pour 2027 au seul premier semestre (III, A) ;
+- n° 36, III → **n° 23** (après l’art. 32), III : la Caisse des dépôts à l’impôt sur les sociétés, aux mêmes exercices que le taux unique ;
+- n° 37 → **n° 29** (après l’art. 27), III bis : dix-huit impositions locales, calendrier et compensation par la DGF repris au V et au VIII ;
+- n° 38 → **n° 25** (après l’art. 42), I, 8° et 10° à 17° : soixante-neuf impositions affectées, les trois taxes annuelles dues une dernière fois au titre de 2027 (III, A).
+
+Restent seuls le **P1 n° 35** (suppression de l’art. 15) et le **PLFSS n° 9** (aucun amendement de la liasse ne porte les contributions sociales hors CSG, CRDS et taxe sur les salaires). La première partie compte **35** amendements, les liasses **83**. Les ajouts restent en projet.
+
+**Tranché** (tambouille) : la liasse fait foi pour les n° 22, 23, 25 et 29. Leurs fiches (`P1/4_2_refonte_taxes_A`, `…_B`, `4_4`, `4_5`) divergeaient déjà de la liasse avant ce fil ; elles ne sont pas régénérées. Script : `appareil/tri_porte/integrer_ajouts.py`, qui refuse un second passage.

@@ -11156,48 +11156,6 @@
    "famille": "juridique"
   },
   {
-   "role": "fichier:livrables/depot_2027/P1/tri_36_impositions_etat",
-   "chemin": "livrables/depot_2027/P1/tri_36_impositions_etat.md",
-   "rang": "derive",
-   "coffre": true,
-   "produit_par": null,
-   "consomme_par": [],
-   "alias": [],
-   "restaurable": true,
-   "voie": "depot",
-   "chemin_coffre": "chantier/livrables/depot_2027/P1/tri_36_impositions_etat.md",
-   "releve": true,
-   "famille": "juridique"
-  },
-  {
-   "role": "fichier:livrables/depot_2027/P1/tri_37_impositions_locales",
-   "chemin": "livrables/depot_2027/P1/tri_37_impositions_locales.md",
-   "rang": "derive",
-   "coffre": true,
-   "produit_par": null,
-   "consomme_par": [],
-   "alias": [],
-   "restaurable": true,
-   "voie": "depot",
-   "chemin_coffre": "chantier/livrables/depot_2027/P1/tri_37_impositions_locales.md",
-   "releve": true,
-   "famille": "juridique"
-  },
-  {
-   "role": "fichier:livrables/depot_2027/P1/tri_38_taxes_affectees_hors_cgi",
-   "chemin": "livrables/depot_2027/P1/tri_38_taxes_affectees_hors_cgi.md",
-   "rang": "derive",
-   "coffre": true,
-   "produit_par": null,
-   "consomme_par": [],
-   "alias": [],
-   "restaurable": true,
-   "voie": "depot",
-   "chemin_coffre": "chantier/livrables/depot_2027/P1/tri_38_taxes_affectees_hors_cgi.md",
-   "releve": true,
-   "famille": "juridique"
-  },
-  {
    "role": "fichier:livrables/depot_2027/P2/.gitkeep",
    "chemin": "livrables/depot_2027/P2/.gitkeep",
    "rang": "derive",
@@ -24888,6 +24846,20 @@
    "chemin_coffre": "chantier/sources/l17b3211_projet-loi.pdf",
    "releve": true,
    "famille": "références externes"
+  },
+  {
+   "role": "fichier:appareil/tri_porte/integrer_ajouts",
+   "chemin": "appareil/tri_porte/integrer_ajouts.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/tri_porte/integrer_ajouts.py",
+   "releve": true,
+   "famille": "outillage"
   }
  ],
  "depot": {
@@ -25055,6 +25027,7 @@
    "appareil/tri_porte/extraire_visas.py",
    "appareil/tri_porte/hors120.json",
    "appareil/tri_porte/hors120.py",
+   "appareil/tri_porte/integrer_ajouts.py",
    "appareil/tri_porte/inverse.py",
    "appareil/tri_porte/match.json",
    "appareil/tri_porte/matcher.py",
@@ -25095,9 +25068,6 @@
    "livrables/depot_2027/LIASSE_PLF_P2.md",
    "livrables/depot_2027/P1/.gitkeep",
    "livrables/depot_2027/P1/tri_35_contribution_exceptionnelle.md",
-   "livrables/depot_2027/P1/tri_36_impositions_etat.md",
-   "livrables/depot_2027/P1/tri_37_impositions_locales.md",
-   "livrables/depot_2027/P1/tri_38_taxes_affectees_hors_cgi.md",
    "livrables/depot_2027/P2/.gitkeep",
    "livrables/depot_2027/P2/n9_france_travail_contribution.md",
    "livrables/depot_2027/SS/.gitkeep",
@@ -26252,9 +26222,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1702,
-  "au_coffre": 1641,
-  "au_depot": 1183,
+  "artefacts": 1700,
+  "au_coffre": 1639,
+  "au_depot": 1181,
   "derives": 293,
   "sources": 48,
   "non_restaurables": 16,

@@ -5,7 +5,7 @@ W = '/home/user/Resolution-2027/chantier/appareil/tri_porte/'
 sys.path.insert(0, W); sys.path.insert(0, '/home/user/Resolution-2027')
 import droit
 from verdicts import V
-from amendements import AM
+from amendements import AM, INTEGRE
 from matcher import sieges, VIS, VIS_NC
 
 R = '/home/user/Resolution-2027/chantier/referentiels/'
@@ -188,7 +188,7 @@ for i, (s, f) in enumerate(zip(S, F), 1):
            99: ('C', '', '', 'relevé'), 102: ('A', 'PLF P1 n° 25', 'I, 8°', 'relevé'), 111: ('A', 'PLF P1 n° 25', 'I, 2°', 'relevé'),
            124: ('A', 'PLF P1 n° 25', 'I, 8°', 'relevé'), 158: ('A', 'PLF P1 n° 1', 'III, 266°', 'relevé'),
            181: ('A', 'PLF P1 n° 25', 'II, B, 1°', 'relevé'), 182: ('A', 'PLF P1 n° 22', 'II, 1°', 'relevé'),
-           239: ('A', 'PLF P1 n° 25', 'I, 1°', 'relevé'), 280: ('A', 'PLF P1 n° 36', 'I, 1° et 3°', 'relevé'),
+           239: ('A', 'PLF P1 n° 25', 'I, 1°', 'relevé'), 280: ('C', '', '', 'relevé'),
            170: ('S', '', '', 'relevé'), 325: ('A', 'PLF P1 n° 20', 'I, 9°', 'relevé'),
            331: ('A', 'PLF P1 n° 19', 'I, 9°', 'relevé'), 334: ('A', 'PLF P1 n° 1', 'III, 232°', 'relevé'),
            336: ('A', 'PLF P1 n° 19', 'I, 8°', 'relevé'), 344: ('A', 'PLF P1 n° 22', 'I, 1°', 'relevé'),
@@ -203,6 +203,10 @@ for i, (s, f) in enumerate(zip(S, F), 1):
     else:
         porteur_final, alin_final = porteur, alin
         etat = {'A': 'porté', 'B': 'porté par une clause', 'S': 'sans objet : déjà abrogé', 'C': 'non porté'}.get(verdict, verdict)
+    if i in INTEGRE:   # intégration du 20261109 : l'ajout à un amendement existant porte le rang
+        porteur_final, alin_final = INTEGRE[i]
+        if verdict == 'C':
+            etat = 'C → porté par un ajout à un amendement existant (projet)'
     if verdict == 'C' and i in REGL:
         porteur_final, alin_final, etat = 'voie réglementaire (décret)', '', 'porté par la voie réglementaire (hors liasse)'
     rows.append(dict(n=i, libelle=s['libelle'], nature=nat, assiette=ass, rendement_2026_M=rdt, source_rendement=src,
@@ -236,6 +240,8 @@ for k, t in enumerate(NEW, 1):
     lib, nat, ass, rdt, src, dev, cible, bloc, sg, ref, por, ali, ver, prov = t
     lid = legiarti(*ref) if ref else ''
     etat = {'A': 'porté', 'C': ('porté par la voie réglementaire (hors liasse)' if por.startswith('voie') else 'C → porté par un amendement nouveau (projet)') if por else 'non porté', 'S': 'sans objet : déjà abrogé'}.get(ver, ver)
+    if f'N{k}' in INTEGRE:
+        por, ali = INTEGRE[f'N{k}']; etat = 'C → porté par un ajout à un amendement existant (projet)'
     rows.append(dict(n=f'N{k}', libelle=lib, nature=nat, assiette=ass, rendement_2026_M=rdt, source_rendement=src,
                      rendement_2026_revise_plf2027_M=rdt if 'révisée' in src else '', devenir=dev, impot_cible=cible, bloc=bloc,
                      siege=sg, legiarti=lid, lien_legifrance=lien(lid, ref[0] if ref else ''), niches_rattachees='',
@@ -266,6 +272,9 @@ for r in rows:
         if k_ == 'rendement_2026_revise_plf2027_M':
             d['part_conservee_2026_M'] = v
     r.clear(); r.update(d)
+
+for r in rows:   # renvois aux pièces intégrées le 20261109
+    r['observation'] = r['observation'].replace('PLF P1 n° 36, III', 'PLF P1 n° 23, III')
 
 COLS = list(rows[0].keys())
 import os

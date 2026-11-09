@@ -1,5 +1,5 @@
 """Fil machine du 20261103 — vérification de fond et de rédaction des amendements
-du tri (P1 n° 35 à 38, PLFSS n° 9). Mesure, ne corrige rien.
+du tri (P1 n° 35, ajouts aux P1 n° 22, 23, 25 et 29 depuis le 20261109, PLFSS n° 9). Mesure, ne corrige rien.
 
 Pour chaque visa du dispositif : dépliage des fourchettes dans l'ordre officiel
 (ordre des sections, puis ordre naturel), existence au 1er juillet 2027, section,
@@ -26,40 +26,40 @@ for x in ['235 ter ZG', '302 bis N', '302 bis O', '302 bis P', '302 bis R', '302
           '302 bis WG', '302 bis X', '302 bis XA', '1605 nonies', '1609 novovicies', '1609 tricies', '1609 untricies',
           '1609 duotricies', '1609 tertricies', '1613 ter', '1613 quater', '1635 bis AE', '1635 bis AF', '1635 bis AG',
           '1635 bis AH']:
-    v('P1-36', 'I, 1°', 'cgi', x)
-v('P1-36', 'I, 2°', 'cgi', '1001', sub='5° ter')
+    v('P1-22', 'I, 4°', 'cgi', x)
+v('P1-22', 'I, 5°', 'cgi', '1001', sub='5° ter')
 for x in ['231 ter', '231 quater', '302 bis ZA', '990 D', '990 E', '990 F', '990 FA', '990 G']:
-    v('P1-36', 'II, 1°', 'cgi', x)
-v('P1-36', 'II, 2°', 'cibs', 'L. 421-93', 'L. 421-148')
-v('P1-36', 'II, 2°', 'cibs', 'L. 421-151')
-v('P1-36', 'II, 2°', 'cibs', 'L. 421-156', 'L. 421-167')
-v('P1-36', 'II, 2°', 'cibs', 'L. 455-44', 'L. 455-56')
-v('P1-36', 'III, A', 'cgi', '206', sub='1')
-v('P1-36', 'III, B', 'monetaire', 'L. 518-16', sub='premier alinéa')
+    v('P1-22', 'II, 3°', 'cgi', x)
+v('P1-22', 'I, 7°', 'cibs', 'L. 421-93', 'L. 421-148')
+v('P1-22', 'I, 7°', 'cibs', 'L. 421-151')
+v('P1-22', 'I, 7°', 'cibs', 'L. 421-156', 'L. 421-167')
+v('P1-22', 'I, 7°', 'cibs', 'L. 455-44', 'L. 455-56')
+v('P1-23', 'III, A', 'cgi', '206', sub='1')
+v('P1-23', 'III, B', 'monetaire', 'L. 518-16')
 
 for x in ['1599 quater C', '1599 quater D', '1601', '1601-0 A', '1604', '1607 bis', '1607 ter', '1609 B', '1609 C',
           '1609 D', '1609 G', '1609 H', '1609 I']:
-    v('P1-37', 'I, 1°', 'cgi', x)
-v('P1-37', 'I, 1°', 'cgi', '1635 quater B', '1635 quater N')
-v('P1-37', 'I, 1°', 'cgi', '1635 quater P', '1635 quater T')
-v('P1-37', 'I, 2°', 'cgct', 'L. 2333-49', 'L. 2333-55-2')
-v('P1-37', 'I, 2°', 'cgct', 'L. 2333-56')
-v('P1-37', 'I, 2°', 'cgct', 'L. 2333-81', 'L. 2333-83')
-v('P1-37', 'I, 2°', 'cgct', 'L. 2333-97')
-v('P1-37', 'I, 2°', 'cgct', 'L. 3333-4', 'L. 3333-7')
-v('P1-37', 'I, 2°', 'cgct', 'L. 5211-21-1')
-v('P1-37', 'I, 3°', 'urbanisme', 'L. 331-1', 'L. 331-17')
-v('P1-37', 'I, 4°', 'cibs', 'L. 454-39', 'L. 454-77')
-v('P1-37', 'I, 5°', 'sante', 'L. 1331-7')
+    v('P1-29', 'III bis, 1°', 'cgi', x)
+v('P1-29', 'III bis, 1°', 'cgi', '1635 quater B', '1635 quater N')
+v('P1-29', 'III bis, 1°', 'cgi', '1635 quater P', '1635 quater T')
+v('P1-29', 'III bis, 2°', 'cgct', 'L. 2333-49', 'L. 2333-55-2')
+v('P1-29', 'III bis, 2°', 'cgct', 'L. 2333-56')
+v('P1-29', 'III bis, 2°', 'cgct', 'L. 2333-81', 'L. 2333-83')
+v('P1-29', 'III bis, 2°', 'cgct', 'L. 2333-97')
+v('P1-29', 'III bis, 2°', 'cgct', 'L. 3333-4', 'L. 3333-7')
+v('P1-29', 'III bis, 2°', 'cgct', 'L. 5211-21-1')
+v('P1-29', 'III bis, 3°', 'urbanisme', 'L. 331-1', 'L. 331-17')
+v('P1-29', 'III bis, 4°', 'cibs', 'L. 454-39', 'L. 454-77')
+v('P1-29', 'III bis, 5°', 'sante', 'L. 1331-7')
 
-v('P1-38', 'I, 1°', 'travail', 'L. 3253-18')
-v('P1-38', 'I, 2°', 'cgfp', 'L. 351-12', 'L. 351-15')
-v('P1-38', 'I, 3°', 'sante', 'L. 4031-4')
-v('P1-38', 'I, 3°', 'sante', 'L. 5141-8')
-v('P1-38', 'I, 4°', 'rural', 'L. 253-8-2')
-v('P1-38', 'I, 5°', 'transports', 'L. 4316-1', sub='1°')
-v('P1-38', 'I, 5°', 'transports', 'L. 4316-10', 'L. 4316-12')
-v('P1-38', 'I, 6°', 'environnement', 'L. 423-6', sub='deuxième et dernier alinéas')
+v('P1-25', 'I, 8°', 'travail', 'L. 3253-18')
+v('P1-25', 'I, 10°', 'cgfp', 'L. 351-12', 'L. 351-15')
+v('P1-25', 'I, 11°', 'sante', 'L. 4031-4')
+v('P1-25', 'I, 11°', 'sante', 'L. 5141-8')
+v('P1-25', 'I, 12°', 'rural', 'L. 253-8-2')
+v('P1-25', 'I, 13°', 'transports', 'L. 4316-1', sub='1°')
+v('P1-25', 'I, 13°', 'transports', 'L. 4316-10', 'L. 4316-12')
+v('P1-25', 'I, 14°', 'environnement', 'L. 423-6', sub='deuxième et dernier alinéas')
 
 for x in ['L. 137-13', 'L. 137-14']:
     v('SS-9', 'I, 1°', 'css', x)
@@ -77,14 +77,14 @@ for x in ['L. 245-6', 'L. 380-2', 'L. 382-4', 'L. 652-6', 'L. 862-3', 'L. 862-4'
 
 # Les adresses hors dépôt jusqu'au 20261105, mesurées depuis que leurs textes y sont. L'article 96 de la loi
 # n° 2010-1658, abrogé au 1er janvier 2026, est retiré du n° 38 le 20261106.
-v('P1-37', 'I, 6°', 'loi72_657', '3')
-v('P1-38', 'I, 7°', 'forestier', 'L. 341-6')
-v('P1-38', 'I, 8°', 'minier', 'L. 132-16')
-v('P1-38', 'I, 9°', 'loi2003_1312', '72')
-v('P1-38', 'I, 9°', 'loi2006_1666', '130')
+v('P1-29', 'III bis, 6°', 'loi72_657', '3')
+v('P1-25', 'I, 15°', 'forestier', 'L. 341-6')
+v('P1-25', 'I, 16°', 'minier', 'L. 132-16')
+v('P1-25', 'I, 17°', 'loi2003_1312', '72')
+v('P1-25', 'I, 17°', 'loi2006_1666', '130')
 v('SS-9', 'I, 2°', 'loi2004_803', '18')
-# Siège du rang 280 du tri (prélèvements sur les loteries de la Française des jeux), abrogé par le n° 36 le 20261106.
-v('P1-36', 'I, 3°', 'loi2019_486', '138', sub='I et II')
+# Siège du rang 280 du tri (prélèvements sur les loteries de la Française des jeux), abrogé le 20261106.
+v('P1-22', 'I, 6°', 'loi2019_486', '138', sub='I et II')
 
 HORS = []   # tous les textes visés sont au dépôt de droit depuis le 20261105
 

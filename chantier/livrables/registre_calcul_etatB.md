@@ -509,25 +509,27 @@ Besoin de 2028 avec TVA et taxe sur les salaires au calendrier de la liasse : **
 
 ---
 
-## 18. Refonte — compteurs des amendements du tri (P1 n° 35 à 38, PLFSS n° 9), 20261103
+## 18. Refonte — compteurs des amendements du tri (P1 n° 35, ajouts aux P1 n° 22, 23, 25 et 29, PLFSS n° 9), 20261103
+
+*Le 20261109, les P1 n° 36, 37 et 38 ont rejoint les amendements existants de même objet : n° 22 et 23, n° 29, n° 25. Les compteurs sont ceux de leurs ajouts, inchangés.*
 
 **Mandat** : fil machine du 20261103 ; règle des montées en charge et des compteurs mensuels (consignes de l’auteur des 20261007). **Perte de recettes brute, en mesure, Md€**, avant la contrepartie du circuit B (taux unique de l’impôt sur les sociétés pour les exercices ouverts à compter du 1er juillet 2027, taxe foncière unique en 2028), qui n’est pas à la trajectoire (§ 16). Rendement : prévision 2026 du tri (`referentiels/sort_prelevements_20261103.tsv`), le millésime 2027 restant à appliquer. Règle de date : suppression au 1er juillet 2027 → moitié de l’année en 2027, un douzième par mois de juillet à décembre ; fait générateur au 1er janvier ou seuil annuel → aucun effet en 2027, plein en 2028 ; moitié d’assiette (PLFSS n° 9, II, B, 3°) → moitié en 2027. Hors compte : la contribution de la Caisse des dépôts (devient de l’impôt sur les sociétés, transfert) et la taxe d’aménagement (portée par le n° 29).
 
 | amendement | qui perd la recette | 2027, en mesure | 2028 | régime plein | rangs non chiffrés |
 |---|---|---:|---:|---:|---:|
 | P1 n° 35 | État | −5,2 | 0 | 0 | 0 |
-| P1 n° 36 | État et affectataires | −3,8 | −8,6 | −8,6 | 15 |
-| P1 n° 37 | collectivités, État (casinos, TASCOM) | −0,5 | −2,9 | −2,9 | 5 |
-| P1 n° 38 | affectataires tiers | −1,0 | −2,1 | −2,1 | 1 |
+| ajouts aux P1 n° 22 et 23 | État et affectataires | −3,8 | −8,6 | −8,6 | 15 |
+| ajouts au P1 n° 29 (III bis) | collectivités, État (casinos, TASCOM) | −0,5 | −2,9 | −2,9 | 5 |
+| ajouts au P1 n° 25 | affectataires tiers | −1,0 | −2,1 | −2,1 | 1 |
 | PLFSS n° 9 | sécurité sociale | −6,8 | −19 | −19 | 5 |
 | **total** | | **−17** | **−33** | **−33** | |
 
 | 2027, en mesure, Md€ | janv–juin | juil | août | sept | oct | nov | déc |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| P1 n° 36 à 38 et PLFSS n° 9 | 0 | −2,0 | −2,0 | −2,0 | −2,0 | −2,0 | −2,0 |
+| ajouts aux P1 n° 22, 25, 29 et PLFSS n° 9 | 0 | −2,0 | −2,0 | −2,0 | −2,0 | −2,0 | −2,0 |
 | P1 n° 35 | — | non mensualisé |  |  |  |  |  |
 
-**Lecture.** Le second semestre 2027 porte **une perte de 2,0 Md€ par mois** sur les quatre amendements de suppression, plus le troisième exercice de la contribution exceptionnelle (5,2 Md€, non mensualisé). C’est **un moins**, qui se signale : il n’est compensé en 2027 que par le taux unique de l’impôt sur les sociétés, dont le produit 2027 n’est pas chiffré ici. Les rangs non chiffrés (26) n’ont pas de rendement publié ; le total est un minorant. *Recompté le 20261106 : la contribution à l’IRSN (rang 170), abrogée au 1er janvier 2026, sort du n° 38.*
+**Lecture.** Le second semestre 2027 porte **une perte de 2,0 Md€ par mois** sur les ajouts aux P1 n° 22, 25 et 29 et le PLFSS n° 9, plus le troisième exercice de la contribution exceptionnelle (5,2 Md€, non mensualisé). C’est **un moins**, qui se signale : il n’est compensé en 2027 que par le taux unique de l’impôt sur les sociétés, dont le produit 2027 n’est pas chiffré ici. Les rangs non chiffrés (26) n’ont pas de rendement publié ; le total est un minorant. *Recompté le 20261106 : la contribution à l’IRSN (rang 170), abrogée au 1er janvier 2026, sort du n° 38.*
 
 ---
 
