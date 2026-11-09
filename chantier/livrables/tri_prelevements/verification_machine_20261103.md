@@ -4,6 +4,8 @@
 
 *Provenance de chaque ligne : **relevé** (rejoué sur pièce dans ce fil), **hérité** (repris d’un autre fil sans rejeu), **déduit** (conclusion de ce fil à partir de relevés).*
 
+
+> **20261109** : les P1 n° 36, 37 et 38 vérifiés ici ont été intégrés aux amendements existants de même objet — n° 36 aux n° 22 et 23, n° 37 au n° 29 (III bis), n° 38 au n° 25 (I, 8° et 10° à 17°). Les verdicts ci-dessous valent pour ces ajouts ; l’article 96 de la loi n° 2010-1658 a été retiré et l’article 138 de la loi n° 2019-486 ajouté le 20261106.
 ---
 
 ## 0. Ce qui a changé au dispositif
