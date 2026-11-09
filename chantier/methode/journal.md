@@ -6122,3 +6122,16 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - Fiches des n° 22, 23, 25 et 29 en retard sur la liasse (antérieur à ce fil).
 - Word et PDF des liasses à publier au site ; page Amendements et compteur à 83.
+
+## 20261109 — lots de la liasse P1 et clause des niches
+
+## Ce qui a changé au corpus
+
+- Liasse P1 : lot I « Restitution, niches et taxes affectées » (n° 1 à 18, 24 à 26) ; n° 35 au lot II ; cinq lots ; numérotation et corps inchangés.
+- P1 n° 1, II, 5° : restreint aux mesures instituées par la présente loi pour l’aide fondamentale (âge, handicap, retraite) ; exposé harmonisé.
+- Tri : verdict des 28 taux réduits de TVA recensés corrigé (n° 1 au 1er juillet 2027).
+
+## Ce qui reste ouvert
+
+- `livrables/depot_2027/clause_generale_niches_20261005.md` porte une rédaction antérieure du II ; la liasse fait foi.
+- Correspondance niche par niche des taux réduits recensés avec le III du n° 1 : à rejouer.

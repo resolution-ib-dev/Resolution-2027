@@ -8651,3 +8651,13 @@ site ne sont pas régénérés : aucune publication sans l’auteur.
 Restent seuls le **P1 n° 35** (suppression de l’art. 15) et le **PLFSS n° 9** (aucun amendement de la liasse ne porte les contributions sociales hors CSG, CRDS et taxe sur les salaires). La première partie compte **35** amendements, les liasses **83**. Les ajouts restent en projet.
 
 **Tranché** (tambouille) : la liasse fait foi pour les n° 22, 23, 25 et 29. Leurs fiches (`P1/4_2_refonte_taxes_A`, `…_B`, `4_4`, `4_5`) divergeaient déjà de la liasse avant ce fil ; elles ne sont pas régénérées. Script : `appareil/tri_porte/integrer_ajouts.py`, qui refuse un second passage.
+
+### Lot I : restitution en général, les taxes affectées y vont — 20261109
+
+**Validé** (« le I c’est restitution en général. mets-y les TA », auteur, 20261109). Le lot I devient « Restitution, niches et taxes affectées » et reçoit les n° 24, 25 et 26. Le n° 35, seul au lot VI après l’intégration du même jour, rejoint la refonte fiscale (lot II) ; la liasse compte cinq lots. **Numérotation inchangée** : seul le sommaire bouge, le corps des amendements est identique à l’octet.
+
+### Clause générale des niches : le 5° du II ramené à ce qui avait été arrêté — 20261109
+
+**Validé** (« ce n’est pas ce qu’on avait dit pour les niches » ; « modifs MINIMALES pour inclure les points qui manquaient et ensuite harmoniser », auteur, 20261109). Arrêté le 20261005 (revue du lot 1, lot U1) : le 5° couvre les mesures **instituées par la présente loi** pour l’aide fondamentale, dont le montant ne dépend que de l’âge et de l’état physique. Le texte avait perdu cette restriction et faisait du motif un critère général, qui protégeait toute disposition existante modulée par l’âge ou le handicap. Rétablie par ajout : « Qui sont instituées par la présente loi pour l’aide fondamentale et […] » ; « ou de la retraite » ajouté, la majoration de l’aide pour les retraités (P1 n° 28) n’étant ni l’âge ni le handicap. Exposé harmonisé : « Six exceptions subsistent » (le 4° et le 5° sont des exceptions techniques, non de principe) et l’aide fondamentale nommée. Le 4° (taux réduits de TVA, arbitrage de l’auteure du 20261005, n° 4 et second temps) est conforme et n’est pas touché.
+
+**Correction du registre du 20261103** (« Les niches de TVA sont portées ») : les 28 taux réduits **recensés** tombent au 1er juillet 2027 par le III et le III bis du n° 1 (D du IV), non par le n° 21 ; le n° 21 porte les taux réduits de droit commun, de 2028 à 2030. Verdict corrigé à `appareil/tri_porte/niches.json` et dans les tables du tri. La correspondance niche par niche avec les lignes du III est héritée de la reprise du 20261005 (lot S3), non rejouée ici.

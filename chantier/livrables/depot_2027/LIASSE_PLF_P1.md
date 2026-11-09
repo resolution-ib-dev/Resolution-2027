@@ -2,11 +2,11 @@
 
 Résolution — octobre 2026
 
-Trente-cinq amendements de première partie, répartis en six lots. La numérotation va de 1 à 35.
+Trente-cinq amendements de première partie, répartis en cinq lots. La numérotation va de 1 à 35.
 
 ---
 
-## Lot I : Restitution et abrogation des niches
+## Lot I : Restitution, niches et taxes affectées
 
 | n° | article visé | objet |
 |---|---|---|
@@ -28,6 +28,9 @@ Trente-cinq amendements de première partie, répartis en six lots. La numérota
 | 16 | art. add. après l’art. 24 | Certificats d’économies d’énergie : fin des impôts cachés sur la facture d’énergie |
 | 17 | article 26 | Impôts locaux : les exonérations d’adresse non prorogées, l’avantage rendu à tous |
 | 18 | article 28 | Aides à l’investissement : abrogées plutôt que prorogées, rendues au salaire net |
+| 24 | article 42 | Taxes affectées : plafond à zéro, tout le produit retourne au budget voté par le Parlement |
+| 25 | art. add. après l’art. 42 | Taxes affectées : soixante-neuf supprimées, fondues en une ressource unique à produit égal |
+| 26 | art. add. après l’art. 42 | Refermer les canaux budgétaires hors budget général |
 
 ## Lot II : Refonte fiscale
 
@@ -38,9 +41,7 @@ Trente-cinq amendements de première partie, répartis en six lots. La numérota
 | 21 | art. add. après l’art. 16 | TVA : les trois taux réduits réunis en un seul, à rendement constant |
 | 22 | art. add. après l’art. 19 | Taxes d’État : quarante-huit disparaissent dans l’impôt, sans hausse du total |
 | 23 | art. add. après l’art. 32 | Impôt sur les sociétés : un taux unique, pour l’équilibre de la refonte fiscale |
-| 24 | article 42 | Taxes affectées : plafond à zéro, tout le produit retourne au budget voté par le Parlement |
-| 25 | art. add. après l’art. 42 | Taxes affectées : soixante-neuf supprimées, fondues en une ressource unique à produit égal |
-| 26 | art. add. après l’art. 42 | Refermer les canaux budgétaires hors budget général |
+| 35 | article 15 | Contribution exceptionnelle : pas de troisième exercice, le bénéfice imposé au taux unique |
 
 ## Lot III : Compte d’épargne
 
@@ -64,12 +65,6 @@ Trente-cinq amendements de première partie, répartis en six lots. La numérota
 | 32 | art. add. après l’art. 34 | Départements et régions : les compétences retirées, le financement retiré d’autant |
 | 33 | art. add. après l’art. 34 | Dotation forfaitaire : remplacée par l’impôt que la commune vote elle-même |
 | 34 | article 36 | TVA des collectivités : plafonnée au coût de leurs compétences |
-
-## Lot VI : Prélèvements remplacés ou fondus
-
-| n° | article visé | objet |
-|---|---|---|
-| 35 | article 15 | Contribution exceptionnelle : pas de troisième exercice, le bénéfice imposé au taux unique |
 
 ---
 
@@ -113,7 +108,7 @@ Les dispositions législatives qui accordent un tel avantage cessent de s’appl
 
 4° Qui fixent un taux réduit ou dérogatoire de taxe sur la valeur ajoutée, à l’exception de celles que le III abroge.
 
-5° Qui s’appliquent dans les mêmes conditions à toute personne, sans considération de la nature ou de l’emploi des biens, revenus ou opérations, le montant qu’elles prévoient pouvant être modulé à raison de l’âge ou du handicap.
+5° Qui sont instituées par la présente loi pour l’aide fondamentale et s’appliquent dans les mêmes conditions à toute personne, sans considération de la nature ou de l’emploi des biens, revenus ou opérations, le montant qu’elles prévoient pouvant être modulé à raison de l’âge, du handicap ou de la retraite.
 
 6° Qui sont instituées par la présente loi pour le compte d’épargne personnel ou pour le tarif des droits de mutation. Relèvent du présent 6° le régime d’imposition des retraits du compte d’épargne personnel, le sursis d’imposition des apports de titres qu’il prévoit, le seuil de perception et la fraction de la base imposable taxée à 1 % prévus au III de l’article 683 du code général des impôts et les tarifs prévus aux articles 719 et 777 du même code.
 
@@ -564,7 +559,7 @@ Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit 
 
 Deux contribuables au même revenu ne paient pas le même impôt : l’un connaît les dispositifs qui le réduisent, l’autre non. L’annexe des dépenses fiscales en recense plus de quatre cent soixante, pour un coût prévisionnel de 79,5 milliards d’euros en 2026¹. Le taux implicite d’impôt sur les sociétés s’établit à 21,4 % pour les petites et moyennes entreprises contre 14,3 % pour les grandes². Le Parlement vote chaque année un barème qu’il sait inexact et le taux affiché cesse de dire ce que chacun acquitte.
 
-L’amendement écarte l’avantage par sa forme et non par une liste. Sept formes sont nommées : exonération, abattement, déduction ou exclusion d’assiette, réduction ou crédit d’impôt, taux réduit ou nul, report, sursis ou étalement, et dégrèvement sans disparition de matière imposable. Elles cessent de s’appliquer à l’impôt sur le revenu, à l’impôt sur les sociétés, à l’impôt sur la fortune immobilière, aux droits d’enregistrement et de timbre, à la taxe sur la valeur ajoutée, aux accises et aux impositions directes locales. Six exceptions de principe subsistent : le revenu imposable de droit commun, l’élimination d’une double imposition, ce qu’impose le droit de l’Union ou une convention internationale, les taux réduits de taxe sur la valeur ajoutée autres que ceux que le III abroge, ce qui s’applique à tous sans considération de la nature des biens ou des opérations, et les régimes que la présente loi institue pour le compte d’épargne personnel et pour le tarif des droits de mutation. Les collectivités régies par les articles 73 et 74 de la Constitution et la Nouvelle-Calédonie sont exclues du dispositif, leur régime fiscal étant distinct. En clair : l’avantage disparaît parce qu’il est un avantage et non parce qu’on a jugé la politique qu’il servait.
+L’amendement écarte l’avantage par sa forme et non par une liste. Sept formes sont nommées : exonération, abattement, déduction ou exclusion d’assiette, réduction ou crédit d’impôt, taux réduit ou nul, report, sursis ou étalement, et dégrèvement sans disparition de matière imposable. Elles cessent de s’appliquer à l’impôt sur le revenu, à l’impôt sur les sociétés, à l’impôt sur la fortune immobilière, aux droits d’enregistrement et de timbre, à la taxe sur la valeur ajoutée, aux accises et aux impositions directes locales. Six exceptions subsistent : le revenu imposable de droit commun, l’élimination d’une double imposition, ce qu’impose le droit de l’Union ou une convention internationale, les taux réduits de taxe sur la valeur ajoutée autres que ceux que le III abroge, l’aide fondamentale que la présente loi institue, qui s’applique à tous sans considération de la nature des biens ou des opérations, et les régimes que la présente loi institue pour le compte d’épargne personnel et pour le tarif des droits de mutation. Les collectivités régies par les articles 73 et 74 de la Constitution et la Nouvelle-Calédonie sont exclues du dispositif, leur régime fiscal étant distinct. En clair : l’avantage disparaît parce qu’il est un avantage et non parce qu’on a jugé la politique qu’il servait.
 
 Le calendrier est graduel et suit la nature de chaque avantage : les dispositifs non incitatifs tombent dès les revenus de 2026, ceux qui rémunèrent un engagement au 1er janvier 2027, les droits de mutation à titre gratuit à la même date que la baisse de leur tarif, les taux réduits de taxe sur la valeur ajoutée au 1er juillet 2027, jour où disparaissent les taxes propres à chaque secteur, le barème et l’épargne en 2028, l’agriculture et les services à la personne par tiers jusqu’en 2029, les dons par moitié puis en totalité. Les créances nées et les engagements pris avant ces dates produisent leurs effets jusqu’à leur terme. Le produit va en priorité à la baisse des prélèvements sur les revenus d’activité. Plus la règle est simple, plus elle est difficile à contourner et plus traquer les abus est facile³. L’abrogation du taux réduit de l’impôt sur les sociétés prend effet après la refonte du taux de cet impôt qu’un amendement distinct porte : le dispositif fait jouer cette refonte d’abord et l’abrogation ensuite, de sorte que les deux ne se contrarient pas. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
