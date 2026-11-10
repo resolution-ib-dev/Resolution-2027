@@ -8681,3 +8681,14 @@ Restent seuls le **P1 n° 35** (suppression de l’art. 15) et le **PLFSS n° 9*
 1. **Dates divergentes entre la clause (P1 n° 1) et un amendement de repli** — crédit d’impôt famille (199 ter E, 220 G) : E du IV du n° 1 (tiers 2027–2029, garde des jeunes enfants) contre 1er juillet 2027 au n° 12 ; taxe au tonnage (209-0 B) : exercices **clos** à compter du 1er janvier 2027 (A du IV) contre exercices **ouverts** à la même date au n° 11.
 2. **Non-cumul non dit** : la règle du 20260930 (le renvoi croisé vit dans l’exposé) n’est tenue qu’au n° 9 ; les n° 3, 10, 11, 12, 13, 14 et 15, qui abrogent aussi des dispositions que le n° 1 abroge, ne le disent pas.
 3. **Double abrogation au PLFSS** : le 8° du III du n° 1 abroge le quatrième alinéa du I de L. 137-13 CSS, que le n° 9 abroge en entier ; le gage du n° 1 cite cette abrogation.
+
+### Constats de la revérification tranchés — 20261110
+
+**Validé** (« ok applique tout et relance le contrôle. si il y a des doublons entre amendements ça peut être normal au vu de la structure des textes, le plus important est qu’un amendement soit parfaitement cohérent avec lui-même et raisonnablement recevable », auteur, 20261110).
+
+- **Crédit d’impôt famille** : suppression immédiate, conforme au classeur (niche 210308, « Oui ») et à M-026 (le différé vise la garde d’enfants payée par les ménages). Au P1 n° 1, le rang 197 passe du E au B du IV ; au n° 12, dépenses exposées à compter du **1er janvier 2027**. La fiche `P1/2_4_credit_impot_famille.md` portait déjà cette date.
+- **Taxe au tonnage** : aligné sur la clause (A du IV, niches non incitatives dès les bénéfices de 2026) — exercices **clos** à compter du 1er janvier 2027 au n° 11 et à sa fiche ; l’exposé dit pourquoi les options en cours cessent.
+- **Non-cumul** : la phrase du n° 9 est portée aux exposés des n° 10 à 15 (le n° 3 portait déjà la sienne).
+- **Doubles abrogations entre amendements** (PLFSS n° 1 et n° 9, clause et amendements de repli) : tenues pour normales ; non corrigées.
+
+Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 (dates de l’exposé absentes du dispositif) : trois cas, tous des dates d’autres mesures citées à bon droit (n° 21, 22, 25). Recevabilité : chaque amendement de recette porte son gage ou son produit ; le n° 35, qui supprime un article du projet, rétablit le droit en vigueur et n’appelle pas de gage.

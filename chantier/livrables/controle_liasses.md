@@ -12,6 +12,12 @@
 
 - aucun écart
 
+## Dates de l’exposé absentes du dispositif (L7, à lire)
+
+- PLF P1 n° 21 : exposé 1er juillet 2027 ; dispositif 1er juillet 2028, 1er juillet 2029, 1er juillet 2030
+- PLF P1 n° 22 : exposé 1er janvier 2028 ; dispositif 1er juillet 2027
+- PLF P1 n° 25 : exposé 1er janvier 2028 ; dispositif 1er juillet 2027
+
 ## Renvois entre amendements (L4)
 
 - aucun écart
