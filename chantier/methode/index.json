@@ -24860,6 +24860,37 @@
    "chemin_coffre": "chantier/appareil/tri_porte/integrer_ajouts.py",
    "releve": true,
    "famille": "outillage"
+  },
+  {
+   "role": "fichier:appareil/controle_liasses",
+   "chemin": "appareil/controle_liasses.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_liasses.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
+   "role": "fichier:livrables/controle_liasses",
+   "chemin": "livrables/controle_liasses.md",
+   "rang": "derive",
+   "coffre": false,
+   "produit_par": "appareil/controle_liasses.py",
+   "consomme_par": [
+    "test de rattachement",
+    "pack public",
+    "qualification des articles"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "hors_coffre",
+   "chemin_coffre": "chantier/livrables/controle_liasses.md",
+   "famille": "bac à sable"
   }
  ],
  "depot": {
@@ -26054,7 +26085,9 @@
    "sources/guide-public-du-budgetaire-2023.pdf",
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
-   "sources/l17b3211_projet-loi.pdf"
+   "sources/l17b3211_projet-loi.pdf",
+   "appareil/controle_liasses.py",
+   "livrables/controle_liasses.md"
   ],
   "au_coffre_comme_document": [
    "referentiels/cgi_expert_articles.tsv",
@@ -26222,9 +26255,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1700,
-  "au_coffre": 1639,
-  "au_depot": 1181,
+  "artefacts": 1702,
+  "au_coffre": 1640,
+  "au_depot": 1183,
   "derives": 293,
   "sources": 48,
   "non_restaurables": 16,
