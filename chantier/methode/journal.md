@@ -6148,3 +6148,14 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - Trois constats à trancher (registre, 20261110) : dates clause / repli (n° 11, n° 12), non-cumul aux exposés, double abrogation au PLFSS.
 - Chiffrage de la minoration des pensionnés.
+
+## 20261110 — cohérence des liasses
+
+## Ce qui a changé au corpus
+
+- P1 n° 1 : crédit d’impôt famille du E au B du IV. P1 n° 12 : 1er janvier 2027. P1 n° 11 : exercices clos à compter du 1er janvier 2027. Exposés des n° 10 à 15 : non-cumul avec la clause.
+- Contrôle des liasses : L7 (dates exposé / dispositif) ajouté ; 0 écart.
+
+## Ce qui reste ouvert
+
+- Chiffrage de la minoration des pensionnés (P1 n° 28) ; publication des liasses au site.

@@ -13,7 +13,9 @@ Contrôles, par liasse :
   L4  renvois d'un amendement à un autre (« le n° 28 », « P1 n° 25 ») : l'amendement existe ;
   L5  doubles emplois : un même article de code abrogé par deux amendements ;
   L6  porteurs du tri (referentiels/sort_prelevements_20261103.tsv) : l'amendement et la division
-      de premier rang existent.
+      de premier rang existent ;
+  L7  dates citées par l'exposé et absentes du dispositif (à lire : une date d'une autre mesure peut
+      s'y citer à bon droit).
 Sortie : livrables/controle_liasses.md (rapport) ; code de retour 1 s'il y a un écart L1 à L4 ou L6."""
 import re, sys, csv, json, collections, pathlib, subprocess
 
@@ -235,6 +237,20 @@ def main():
                         ec.append(f'L3 n° {n} (article du projet) : {x}')
         rapport += [f'## {lib} — {len(nums)} amendements', ''] + ([f'- {x}' for x in ec] or ['- aucun écart']) + ['']
         bloquant += len(ec)
+    # L7 : dates de l'exposé absentes du dispositif (cohérence de l'amendement avec lui-même)
+    ec7 = []
+    DATE = re.compile(r'1er (janvier|juillet|octobre|avril) (20\d\d)')
+    for lib, f in LIASSES.items():
+        _, bl = blocs((D / f).read_text(encoding='utf-8'))
+        for n, ti, corps in bl:
+            disp, _, expo = corps.partition('EXPOSÉ SOMMAIRE')
+            expo = re.split(r'\n[¹²³⁴⁵⁶⁷⁸⁹]', expo)[0]
+            dd = {m.group(0) for m in DATE.finditer(disp)}
+            de = {m.group(0) for m in DATE.finditer(expo)}
+            hors = sorted(de - dd)
+            if hors and dd:
+                ec7.append(f'{lib} n° {n} : exposé {", ".join(hors)} ; dispositif {", ".join(sorted(dd))}')
+    rapport += ['## Dates de l’exposé absentes du dispositif (L7, à lire)', ''] + ([f'- {x}' for x in ec7] or ['- aucune']) + ['']
     # L4 : renvois entre amendements
     ec4 = []
     for lib, f in LIASSES.items():
