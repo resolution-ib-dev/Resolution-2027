@@ -8661,3 +8661,23 @@ Restent seuls le **P1 n° 35** (suppression de l’art. 15) et le **PLFSS n° 9*
 **Validé** (« ce n’est pas ce qu’on avait dit pour les niches » ; « modifs MINIMALES pour inclure les points qui manquaient et ensuite harmoniser », auteur, 20261109). Arrêté le 20261005 (revue du lot 1, lot U1) : le 5° couvre les mesures **instituées par la présente loi** pour l’aide fondamentale, dont le montant ne dépend que de l’âge et de l’état physique. Le texte avait perdu cette restriction et faisait du motif un critère général, qui protégeait toute disposition existante modulée par l’âge ou le handicap. Rétablie par ajout : « Qui sont instituées par la présente loi pour l’aide fondamentale et […] » ; « ou de la retraite » ajouté, la majoration de l’aide pour les retraités (P1 n° 28) n’étant ni l’âge ni le handicap. Exposé harmonisé : « Six exceptions subsistent » (le 4° et le 5° sont des exceptions techniques, non de principe) et l’aide fondamentale nommée. Le 4° (taux réduits de TVA, arbitrage de l’auteure du 20261005, n° 4 et second temps) est conforme et n’est pas touché.
 
 **Correction du registre du 20261103** (« Les niches de TVA sont portées ») : les 28 taux réduits **recensés** tombent au 1er juillet 2027 par le III et le III bis du n° 1 (D du IV), non par le n° 21 ; le n° 21 porte les taux réduits de droit commun, de 2028 à 2030. Verdict corrigé à `appareil/tri_porte/niches.json` et dans les tables du tri. La correspondance niche par niche avec les lignes du III est héritée de la reprise du 20261005 (lot S3), non rejouée ici.
+
+## 20261110 — aide fondamentale des pensionnés, revérification des liasses
+
+### L’aide fondamentale minorée pour les pensionnés, au prorata ensuite — 20261110
+
+**Validé** (« oui minoré 3 300 mais c’est proportionnel sans doute ? pro rata pour la suite à prévoir (décret) », auteur, 20261110). P1 n° 28 : l’aide est **minorée** (et non majorée) de 3 300 € pour chaque titulaire d’une pension de retraite servie par un régime obligatoire et liquidée avant le 1er janvier 2028 ; pour une pension liquidée ensuite, la minoration est réduite à proportion des droits acquis avant cette date, par décret, et à défaut au rapport des durées d’assurance ; borne de 2051 inchangée. Exposé et fiche `P1/4_3_aide_fondamentale_et_taux_unique.md` alignés. **Effet à chiffrer** : le coût de l’aide baisse, le gage du n° 28 reste suffisant, le solde de la refonte bouge.
+
+**Tranché** (rédaction, révocable) : le prorata « à défaut » se mesure en durées d’assurance (validée avant 2028 sur totale retenue à la liquidation).
+
+### Clause générale, II, 5° : la modulation transitoire par la pension — 20261110
+
+**Validé** (auteur, 20261110). « ou de la retraite » devient « ou, à titre transitoire, du bénéfice d’une pension de retraite servie par un régime obligatoire » : critère vérifiable, qui désigne la répartition (régimes de base et complémentaires) et écarte la capitalisation, et caractère transitoire dit, l’aide ne dépendant à terme que de l’âge et de l’état physique.
+
+### Revérification des liasses : constats à trancher — 20261110
+
+*Contrôle mécanique `appareil/controle_liasses.py` (rapport `livrables/controle_liasses.md`) : 0 écart de numérotation, de sommaire, d’en-tête, de renvoi interne, de renvoi entre amendements et de porteur du tri ; les renvois des amendements aux articles du projet sont lus contre les socles. Listes de rangs du IV du P1 n° 1 : 350 rangs continus, chacun dans une liste au plus.* **Proposé**, non appliqué :
+
+1. **Dates divergentes entre la clause (P1 n° 1) et un amendement de repli** — crédit d’impôt famille (199 ter E, 220 G) : E du IV du n° 1 (tiers 2027–2029, garde des jeunes enfants) contre 1er juillet 2027 au n° 12 ; taxe au tonnage (209-0 B) : exercices **clos** à compter du 1er janvier 2027 (A du IV) contre exercices **ouverts** à la même date au n° 11.
+2. **Non-cumul non dit** : la règle du 20260930 (le renvoi croisé vit dans l’exposé) n’est tenue qu’au n° 9 ; les n° 3, 10, 11, 12, 13, 14 et 15, qui abrogent aussi des dispositions que le n° 1 abroge, ne le disent pas.
+3. **Double abrogation au PLFSS** : le 8° du III du n° 1 abroge le quatrième alinéa du I de L. 137-13 CSS, que le n° 9 abroge en entier ; le gage du n° 1 cite cette abrogation.

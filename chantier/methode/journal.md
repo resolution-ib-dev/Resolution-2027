@@ -6135,3 +6135,16 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - `livrables/depot_2027/clause_generale_niches_20261005.md` porte une rédaction antérieure du II ; la liasse fait foi.
 - Correspondance niche par niche des taux réduits recensés avec le III du n° 1 : à rejouer.
+
+## 20261110 — aide fondamentale des pensionnés, contrôle des liasses
+
+## Ce qui a changé au corpus
+
+- P1 n° 28 : aide minorée de 3 300 € pour les pensionnés de régimes obligatoires (pensions liquidées avant 2028), au prorata ensuite ; exposé et fiche alignés.
+- P1 n° 1, II, 5° : modulation transitoire par le bénéfice d’une pension.
+- `appareil/controle_liasses.py` et `livrables/controle_liasses.md` : contrôle de numérotation et de liens des trois liasses, 0 écart.
+
+## Ce qui reste ouvert
+
+- Trois constats à trancher (registre, 20261110) : dates clause / repli (n° 11, n° 12), non-cumul aux exposés, double abrogation au PLFSS.
+- Chiffrage de la minoration des pensionnés.
