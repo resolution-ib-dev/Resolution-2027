@@ -10,6 +10,7 @@ def band(ya,yb,za,zb):
     m=(X0+W+X1)/2
     o.append(f'<path class="fa" d="M{X0+W},{ya:.1f} C{m},{ya:.1f} {m},{za:.1f} {X1},{za:.1f} L{X1},{zb:.1f} C{m},{zb:.1f} {m},{yb:.1f} {X0+W},{yb:.1f} Z"/>')
 y=18; h=236*S; hs,hc=114*S,122*S
+o.append(f'<text class="l s" x="{X0+W}" y="8" text-anchor="end">Dépenses publiques aujourd’hui</text>')
 o.append(f'<rect class="na" x="{X0}" y="{y}" width="{W}" height="{h:.1f}"/>')
 o.append(A('graphiques/economies.html',f'<text class="l b" x="{X0-8}" y="{y+h/2-3:.1f}" text-anchor="end">Superflu · 236</text>'))
 o.append(f'<text class="l s" x="{X0-8}" y="{y+h/2+13:.1f}" text-anchor="end">rendu chaque année</text>')
@@ -51,4 +52,4 @@ o.append(f'<path class="acc" d="M{X0+W+5},{y0:.1f} h5 V{y1:.1f} h-5"/>')
 o.append(A('graphiques/depense-publique.html',f'<text class="l b" x="{X0+W+17}" y="{(y0+y1)/2+18:.1f}">Conservé · ≈ 1{F}500</text>'))
 o.append(f'<text class="l s" x="{X0+W+17}" y="{(y0+y1)/2+35:.1f}">sécurité, solidarité, éducation</text>')
 H=max(y1,by+r)+4
-open('sankey.svg','w').write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 {H:.0f}" role="img" aria-label="Flux annuels de la dépense publique, en milliards d\'euros">'+''.join(o)+'</svg>')
+open('sankey.svg','w').write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 810 {H+8:.0f}" role="img" aria-label="Flux annuels de la dépense publique, en milliards d\'euros">'+''.join(o)+'</svg>')
