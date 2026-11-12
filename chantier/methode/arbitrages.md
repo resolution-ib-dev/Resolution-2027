@@ -8746,3 +8746,7 @@ Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 
 ### Mise en ligne — 20261112
 
 **Validé** (« tu mettras tout à jour en ligne partout », auteur, 20261112). Fusions au dépôt du site le 20261112 : classeurs retouchés, onglets régénérés, carte Agences reliée au tableau des opérateurs, simulateur en ligne et lié depuis aucune page.
+
+### Ce qui est à valider se présente dans la conversation — 20261112
+
+**Validé** (« si je dois valider des trucs, il faut me les présenter en direct en clair ici », auteur, 20261112). Une proposition portée au registre ou dans une note de lecture n'est pas présentée tant qu'elle n'a pas été posée à l'auteur dans la conversation : la question, la piste retenue, ce que la réponse change ; un texte à valider se montre en entier. Inscrit à la conduite de session de `CLAUDE.md`. Les constats aux classeurs et les choix du simulateur portés en « proposé » ou « tranché en propre » le 20261112 ont été présentés à l'auteur le même jour, à la suite de cette règle.
