@@ -550,6 +550,9 @@ manuscrit. C'est le régime transitoire, non la cible.
   exacts : seul l’exposé arrondit.
 - **L'écart avec les pays comparables mesure le possible ; il ne se promet pas**
   et ne se compte pas avec les pertes.
+- **Simple et direct, sans tournure introductive** (règle de l'auteur, 20261112) :
+  ni « là où », ni « ce qui », ni « ce que » en tête de titre, de légende ou de
+  phrase. « Votre gain » et non « Ce que vous gagnez ».
 - **Aucune sortie ne se termine sur un problème.**
 - Typographie française : espace insécable devant `; : ! ?` et les guillemets
   fermants, apostrophes typographiques, pas de virgule devant une conjonction de
