@@ -6173,3 +6173,17 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - Les exemplaires des deux classeurs tenus par l’auteur hors dépôt ne portent pas ces retouches : ils sont à remplacer par ceux du dépôt du site.
 - Trois constats relevés aux classeurs, à trancher (registre, 20261112).
 - Les tableaux d’exécution 2022-2024 du jaune ne sont pas lus.
+
+## 20261112 — simulateur « Reprenez votre argent », mis en ligne et inscrit
+
+## Ce qui a changé au corpus
+
+- `referentiels/simulateur_elements_20261112.tsv` : les 501 éléments cochables du simulateur, leur poste, leur ministère, leurs montants (129,5 Md€ la première année, 236,05 en régime plein). Note de lecture à côté : règles de calcul, source de chaque poste, ce qui est de l’auteur et ce qui est tranché en propre.
+- `referentiels/comptes_strates_locales_20261112.tsv` : comptes Insee des communes, des départements et des régions, 2019-2024.
+- Au dépôt du site : `site/reprenez.html` en ligne, liée depuis aucune page ; `outils/restitution.py` la génère ; trois classeurs Insee ajoutés à `site/donnees/` ; colonnes Z à AB (économie de taxes affectées) à l’onglet `Opérateurs R` ; la carte Agences mène au tableau des opérateurs.
+
+## Ce qui reste ouvert
+
+- Les constats aux classeurs du 20261112, toujours en « proposé ».
+- Quatre points fragiles du simulateur, § 7 de sa note : épargne proportionnelle au salaire, recalage des agences la première année, clé unique par poste pour les strates, textes de la page écrits en propre.
+- La page n’est liée depuis aucune autre : sa publication reste à décider.

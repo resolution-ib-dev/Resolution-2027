@@ -8716,3 +8716,33 @@ Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 
 1. `PLF26 - Depenses…`, onglet `SynthèseR` : l’économie « à plus d’un an » sur les subventions aux opérateurs (H8) additionne France Travail et l’Ademe et omet l’Anah (E21) et la ligne « Autres » (H21), soit 1,37 Md€ portés au détail juste dessous.
 2. `Synthèse Chiffres`, onglet `Flux` : le total des collectivités (C22) est saisi à 33,3 quand ses quatre lignes font 33,4 ; d’où 129,4 à Flux et 129,5 à l’Annexe.
 3. `Synthèse ETP et agences`, onglet `Opérateurs R` : 434 opérateurs, quand le jaune du PLF 2026 en compte 431 ; l’écart est dans le nombre d’entités de certaines catégories et n’est pas réparti.
+
+## 20261112 — fil site, simulateur « Reprenez votre argent »
+
+### La ventilation entre salaire net et épargne — 20261112
+
+**Validé** (« patrimoine et chômage doivent être entièrement en épargne. le reste ventilé au pro rata de ce qui reste (ou de notre calendrier ?) », auteur, 20261112). *Exécution tranchée en propre, sur le calendrier du classeur* : l’économie de première année d’un élément paie la CSG et la CRDS d’activité à hauteur de 114,46 / 129,5 et son reliquat va à l’épargne ; tout ce qui vient ensuite va à l’épargne. *Relevé au référentiel* : 114,46 Md€ en salaire, 15,04 Md€ en épargne la première année, 121,59 Md€ en épargne en régime plein.
+
+### Niches communes, organismes sans montant, lecture par ministère — 20261112
+
+**Validé** (« 2 oui par thème, d’ailleurs il faut généraliser la démarche (/ ministère ? on pourrait même avoir un mode simpifié avec juste les ministères ?) […] 3 niches communes tombent ensemble (deux cases liées ? un bloc commun ? ) », auteur, 20261112).
+
+- Un organisme que le classeur ne chiffre pas n’a pas de montant fabriqué : il est listé sans case, par thème.
+- Les niches communes à l’impôt sur le revenu et à l’impôt sur les sociétés tombent ensemble. *Tranché en propre* : une même case sous les deux postes, moitié de chaque côté, comme au classeur.
+- La lecture par ministère est construite : chaque élément porte le ministère de son programme, ou un bloc hors ministère. *Tranché en propre* : le programme de chaque ligne de subvention de `Détail Economies`, que le classeur n’écrit pas ; la liste est au § 5 de la note du simulateur.
+
+### Les échelons locaux par thème puis par strate — 20261112
+
+**Proposé par l’auteur et exécuté** (« il faudrait réussir à croiser et distinguer départements/régions. on a ça qu’on pourrait croiser en proxy (thème puis strate ? ) », 20261112). Chaque fonction de la dépense locale est partagée entre communes, départements et régions au prorata de leur dépense de même nature en 2023, aux comptes Insee 3.207 à 3.209. *Tranché en propre* : la nature retenue par poste — consommation intermédiaire pour le fonctionnement et la culture, rémunérations pour les agents, subventions et transferts en capital pour les aides aux entreprises. La clé est la même pour tous les thèmes d’un poste.
+
+### Les règles de présentation de la page — 20261112
+
+**Validé**, règles énoncées par l’auteur le 20261112 : peu de corps de police ; toujours l’unité, par mois ou par an ; le total d’abord, puis les deux flux ; le pourcentage se dit du salaire, non du total ; une case à remplir et non un curseur, 2 300 suggéré ; une ligne par poste ; la case et la fiche ne se confondent pas ; beaucoup de données, peu de clics ; ouverture sur le régime plein ; ce qu’on laisse se signale en bas, sans dramatiser. Le détail et les mots de l’auteur sont au § 6 de la note du simulateur.
+
+### Ce qui a été tranché en propre au simulateur — 20261112
+
+*Tranché en propre.* Le passage du net au brut par interpolation entre les trois salaires du classeur ; l’épargne proportionnelle au salaire ; le rangement des lignes de l’Annexe sous les cartes de la carto ; les quinze thèmes de niches ; le recalage des agences sur le montant du poste (0,97 en régime plein, 1,31 la première année) ; les textes de la page. Tous sont décrits à la note du simulateur, § 2, § 4, § 5 et § 7.
+
+### Mise en ligne — 20261112
+
+**Validé** (« tu mettras tout à jour en ligne partout », auteur, 20261112). Fusions au dépôt du site le 20261112 : classeurs retouchés, onglets régénérés, carte Agences reliée au tableau des opérateurs, simulateur en ligne et lié depuis aucune page.

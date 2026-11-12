@@ -81,6 +81,8 @@ elle prime sur toute mémoire de fil.
 | **les six devenirs d’un prélèvement et des niches** (règle de l’auteur du 20261103) | `methode/arbitrages.md` | entrée « Les six devenirs d’un prélèvement — 20261103 » |
 | les commissions du Jaune | `referentiels/commissions_jaune2026_20261014.tsv` | — |
 | **les opérateurs du Jaune** : statut, financements 2025 et 2026, emplois, classement ODAC | `referentiels/operateurs_jaune2026_20261112.tsv` et ses deux tables sœurs | note de lecture `operateurs_jaune2026_20261112_lisez_moi.md` |
+| **le simulateur « Reprenez votre argent »** : chaque élément cochable, son ministère, ses montants, et les règles de calcul | `referentiels/simulateur_elements_20261112.tsv` | note de lecture `simulateur_elements_20261112_lisez_moi.md`, § 3 pour la ventilation salaire / épargne, § 6 pour les règles de présentation de l’auteur |
+| les comptes des communes, des départements et des régions (Insee, 2019-2024) | `referentiels/comptes_strates_locales_20261112.tsv` | annexe de la même note |
 | **toute matière de recettes, de dépenses fiscales ou de taxes affectées en 2027** | `methode/annexes_voies_et_moyens_2027.md` | la table « où va se servir un fil » |
 | la vue d'ensemble, non la source | `livrables/suivi_trajectoire_20261015.md` | § 9 et § 10 |
 
