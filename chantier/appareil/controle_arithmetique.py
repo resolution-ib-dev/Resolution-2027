@@ -97,15 +97,17 @@ retraites = 0 - 9.7578 - 5.4242
 ctrl('D3-2-1', 'ménages = actifs + retraités', actifs + retraites, menages, 0.001, 'Md€')
 
 print('\n--- D3-2-2-e1 : restitution de 600 € ---')
-ECO = 183.9547 + 52.1
-ctrl('D2-1-1-p1', 'économies restituables', ECO, 236.0547, 0.001, 'Md€')
+# Relevé du classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112,
+# onglet Annexe Manuscrit (C3, C24).
+ECO = 184.3022 + 52.1
+ctrl('D2-1-1-p1', 'économies restituables', ECO, 236.4022, 0.001, 'Md€')
 mult = ECO / (PT_CSG * PTS)
-ctrl('D3-2-2-e1', 'multiplicateur', mult, 2.0623, 0.001, '')
-ctrl('D3-2-2-e1', 'restitution au médian', 275.0759 * mult, 567.2983, 0.01, '€/mois')
-ctrl('D3-2-2-e1', 'part hors CSG-CRDS', 567.2983 - 275.0759, 292.2224, 0.01, '€/mois')
-ctrl('D3-2-2-e1', 'restitution au SMIC', 171.716 * mult, 354.1357, 0.01, '€/mois')
-ctrl('D3-2-2-e1', 'restitution au net moyen', 343.2796 * mult, 707.957, 0.01, '€/mois')
-consigne('D3-2-2-e1', 'écart ancre 600 contre exact', 600 - 567.2983, '€/mois')
+ctrl('D3-2-2-e1', 'multiplicateur', mult, 2.0654, 0.001, '')
+ctrl('D3-2-2-e1', 'restitution au médian', 275.0759 * mult, 568.1334, 0.01, '€/mois')
+ctrl('D3-2-2-e1', 'part hors CSG-CRDS', 568.1334 - 275.0759, 293.0575, 0.01, '€/mois')
+ctrl('D3-2-2-e1', 'restitution au SMIC', 171.716 * mult, 354.6570, 0.01, '€/mois')
+ctrl('D3-2-2-e1', 'restitution au net moyen', 343.2796 * mult, 708.9992, 0.01, '€/mois')
+consigne('D3-2-2-e1', 'écart ancre 600 contre exact', 600 - 568.1334, '€/mois')
 
 print('\n--- bouclage année 1 : écart de nomenclature ---')
 gages = 43.1 + 9 + 44 + 33.3
@@ -132,11 +134,11 @@ consigne('D7-2-2-e1', 'marge du plancher de 500 € sur 24 ans',
 # ============================================================ D2, D5, D6
 print('\n--- D2-1-1-e1 : économies restituables ---')
 ctrl('D2-1-1-e1', 'agrégat = somme des cinq composants',
-     67.007 + 68.948 + 52.1 + 30.0 + 18.0, 236.055, 0.001, 'Md€')
+     68.242 + 68.858 + 52.1 + 29.6 + 17.602, 236.402, 0.001, 'Md€')
 ctrl('D2-1-1-e1', 'structures facultatives = ses composants',
-     3.8 + 9.6 + 8.632 + 11.6 + 3.8 + 9.575 + 20.0, 67.007, 0.001, 'Md€')
-ctrl('D2-1-1-e1', 'dépenses hors niches', 236.055 - 52.1, 183.955, 0.001, 'Md€')
-consigne('D2-1-1-e1', 'part non issue de baisses de dépense', 30.0 + 18.0, 'Md€')
+     3.8 + 9.6 + 9.317 + 11.6 + 3.8 + 10.261 + 19.864, 68.242, 0.001, 'Md€')
+ctrl('D2-1-1-e1', 'dépenses hors niches', 236.402 - 52.1, 184.302, 0.001, 'Md€')
+consigne('D2-1-1-e1', 'part non issue de baisses de dépense', 29.6 + 17.602, 'Md€')
 
 print('\n--- D2-2-1 et D2-3 : recensement des agences ---')
 ctrl('D2-2-1-p1', 'fermetures = cession + suppression', 78 + 668, 746, 0.001, 'agences')
@@ -168,7 +170,9 @@ print('\n--- statut_ancre : cohérence manuscrit contre classeur ---')
 consigne('D4-3-2-e1', 'ancre manuscrit 16 contre classeur 16,6', 16.6 - 16.0, 'Md€')
 consigne('D4-3-2-e1', 'ancre manuscrit 16 contre détail des taxes 26,1', 26.1 - 16.0, 'Md€')
 consigne('D2-5-1-p2', 'ancre manuscrit 52 contre classeur 52,1', 52.1 - 52.0, 'Md€')
-consigne('D2-1-1-e1', 'ancre manuscrit 236 contre classeur 236,055', 236.055 - 236.0, 'Md€')
+consigne('D2-1-1-e1', 'ancre manuscrit 236 contre classeur 236,402', 236.402 - 236.0, 'Md€')
+consigne('D8-3-1-e2', 'ancre manuscrit 30 contre classeur 29,6', 29.6 - 30.0, 'Md€')
+consigne('D7-2-2-e2', 'ancre manuscrit 18 contre classeur 17,602', 17.602 - 18.0, 'Md€')
 
 print('\n--- D11-4-1 et D11-4-2 : séquence calendaire ---')
 # La montée court depuis l'ouverture de la restitution au mois 6, non depuis
@@ -178,9 +182,9 @@ ctrl('D11-4-2-p1', 'durée de montée à +2 % par mois', 13 / 2, 6.5, 0.01, 'moi
 ctrl('D11-4-2-p1', 'cible atteinte, compté depuis l’entrée en vigueur',
      6 + 13 / 2, 12.5, 0.01, 'mois')
 ctrl('D11-4-2-p1', 'part restituée à la fin de la première année',
-     129.4 / 236.055 * 100, 54.82, 0.01, '%')
+     129.4 / 236.402 * 100, 54.74, 0.01, '%')
 consigne('D11-4-2-p1', 'écart de l’ancre « la moitié » à la part calculée',
-         129.4 / 236.055 * 100 - 50, 'pt')
+         129.4 / 236.402 * 100 - 50, 'pt')
 
 print('\n--- D2-5-1 : niches ---')
 ctrl('D2-5-1-p1', 'cible = immédiat + restantes + sociales', 72.2 + 53.0 + 18.0, 143.2, 0.001, 'Md€')
@@ -238,9 +242,9 @@ PIB = 2919.9
 ctrl('D11-e1', 'taux 2024', 1251.8 / PIB * 100, 42.87, 0.01, '%')
 ctrl('D11-e1', 'taux cible', 1060.754 / PIB * 100, 36.33, 0.01, '%')
 ctrl('D11-e1', 'baisse de prélèvements', 1251.8 - 1060.754, 191.046, 0.001, 'Md€')
-consigne('D11-e1', 'écart économies contre baisse de prélèvements', 236.055 - 191.046, 'Md€')
+consigne('D11-e1', 'écart économies contre baisse de prélèvements', 236.402 - 191.046, 'Md€')
 consigne('D11-e1', 'solde non attribué après chômage et patrimoine',
-         236.055 - 191.046 - 48.0, 'Md€')
+         236.402 - 191.046 - 29.6 - 17.602, 'Md€')
 
 # ------------------------------------------------------------------ synthèse
 print(f"\n{len(ECHECS)} échec(s), {len(CONSIGNES)} écart(s) consigné(s)")

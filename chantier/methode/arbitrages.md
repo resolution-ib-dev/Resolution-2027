@@ -8780,3 +8780,13 @@ Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 
 ### Les 1,37 Md€ partagés entre agences et agents — 20261112
 
 **Validé** (« dont masse salariale va pas baisser, c’est absurde ? y a de tout dans autres, à partager », auteur, 20261112). *Exécuté à l’onglet `Annexe Manuscrit`, deux formules* : F8 retire la moitié des 1,371 Md€ de la ligne des agences (`… − 1,052 × 42/48 × 7/3 − 1,371/2`), F12 l’ajoute à celle des agents (`E12 × 7/3 + 1,371/2`). *Tranché en propre* : le partage par moitié, qui est celui que le classeur des dépenses applique à la colonne « Autres » (moitié salaires, moitié fonctionnement). *Relevé au classeur corrigé* : masse salariale 30,12 ; fonctionnement 38,12 ; fermeture des agences 9,32 ; structures 68,24 ; total 236,40 ; 306 formules recalculées sans écart. La carto se lit « 68 Md€, 38 Md€ de fonctionnement, 30 Md€ de masse salariale ». L’entrée précédente (39 et 29) est remplacée sur ce point.
+
+### Le calcul des classeurs repris au dépôt, graphique des 236 milliards — 20261112
+
+**Validé** (« ok moitié. mets à jour le graphique des 236 milliards et les excels et les occurences des agrégats sur le site et le calcul des excels au dépôt », auteur, 20261112). Le partage par moitié de l’entrée précédente est donc validé.
+
+*Exécuté au dépôt du site* : onglet `Graph236` du classeur des graphiques porté aux montants de l’`Annexe Manuscrit` (neuf montants, total 236,40, libellé « Administrations non indispensables 68 ») ; graphique redessiné par le code de l’atelier archivé (`revue/…/atelier_graphiques_code_20261029.zip`), qui redonne l’ancien graphique à l’octet sur l’ancien classeur ; carte des aides aux entreprises à 12,2 Md€ d’aides locales.
+
+*Exécuté ici* : `appareil/controle_arithmetique.py`, `appareil/sources_chiffres.py` et `referentiels/REF_doctrine.json` portent les montants *relevés au classeur `Synthèse Chiffres Résolution 0910` corrigé le 20261112, onglet `Annexe Manuscrit`* : total 236,402 ; structures 68,242 ; subventions 68,858 ; chômage 29,6 ; patrimoine 17,602 ; agences 9,317 ; agents de l’État et des agences 10,261 ; agents locaux 19,864 ; aides locales aux entreprises 12,21. *Déduit* : restitution au médian 568,13 €/mois, au SMIC 354,66, au net moyen 709,00 ; part de première année 54,7 %. `make controle` : 0 échec, 25 écarts consignés.
+
+*Tranché en propre* : les ancres du manuscrit ne bougent pas — 236, 30, 18, 600 € — et leur écart au classeur est consigné, non corrigé (30 contre 29,6 ; 18 contre 17,602). Le nœud `D7-2-2-e2` garde « 600 Md€ × 3 % = 18,0 » : le classeur porte 2,9 %, et le choix entre les deux est à l’auteur. Les relevés du bouclage de première année (onglets `Gages` et `Manifeste` du classeur 0819) ne sont pas rejoués.

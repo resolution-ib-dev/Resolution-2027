@@ -6213,3 +6213,17 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel ; graphique des 236 milliards et onglet `Graph236` aux anciens montants ; « 3 % de rendement net » à la carte du patrimoine.
 - Les seuils et les lignes de « En échange », proposés.
+
+## 20261112 — graphique des 236 milliards et calcul des classeurs repris
+
+## Ce qui a changé au corpus
+
+- Au dépôt du site : onglet `Graph236` et graphique « Où sont les 236 milliards » (page, galerie, images, PDF) aux montants de l’Annexe ; carto, aides locales aux entreprises à 12,2 Md€.
+- `referentiels/REF_doctrine.json` : 38 lignes de valeur, d’opération ou d’origine portées au classeur corrigé (D2-1-1, D2-2-1, D2-4-1, D3-2-2, D6-2-2, D8-3-1, D11). Empreinte relevée à la main, `make coffre` demandant un clone absent.
+- `appareil/controle_arithmetique.py` et `appareil/sources_chiffres.py` : mêmes montants ; deux écarts d’ancre ajoutés (chômage, patrimoine).
+
+## Ce qui reste ouvert
+
+- `D7-2-2-e2` : 3 % au manuscrit, 2,9 % au classeur ; `GraphAFU` porte 264 € par personne et par an, calculés sur 18 Md€.
+- Les dérivés du référentiel de doctrine ne sont pas régénérés : `make` s’arrête ici, le manuscrit n’étant pas au conteneur.
+- `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel.

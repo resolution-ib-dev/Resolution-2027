@@ -205,7 +205,7 @@
          "chiffre": "236 Md€/an = 184 Md€ de baisses de dépenses + 52 Md€ de niches restituées",
          "horizon": "année pleine",
          "certitude": "tableau de référence : onglet Manuscrit, Synthèse_Calculs_0804 ; hypothèses prudentes (e98)",
-         "attenuation": "décomposition : structures facultatives 67,0 · subventions et aides 68,9 · niches 52,1 · chômage 30,0 · patrimoine 18,0",
+         "attenuation": "décomposition : structures facultatives 68,2 · subventions et aides 68,9 · niches 52,1 · chômage 29,6 · patrimoine 17,6",
          "depend": [
           "D2-1-1-p1"
          ],
@@ -225,22 +225,22 @@
          "base": "an · Md€ · flux · finances publiques toutes administrations · année pleine · données 2024",
          "portee": "Économies restituables. Exclut les économies non restituables et les recettes nouvelles. Comprend deux transferts qui ne sont pas des baisses de dépense : 30 Md€ de cotisations chômage basculées en épargne personnelle et 18 Md€ de rendement du patrimoine cédé.",
          "sens": "égal",
-         "operation": "67,007 (structures facultatives) + 68,948 (subventions et aides) + 52,1 (niches) + 30,0 (chômage) + 18,0 (patrimoine) = 236,055",
-         "exact": "236,055 Md€, dont 183,955 en dépenses et 52,1 en niches",
+         "operation": "68,242 (structures facultatives) + 68,858 (subventions et aides) + 52,1 (niches) + 29,6 (chômage) + 17,602 (patrimoine) = 236,402",
+         "exact": "236,402 Md€, dont 184,302 en dépenses et 52,1 en niches",
          "verdict": "APPROCHÉ",
          "chaine": [
           {
            "composant": "structures facultatives",
-           "valeur": "67,007 Md€",
+           "valeur": "68,242 Md€",
            "base": "an · Md€ · flux",
-           "origine": "classeur Synthèse Calculs Résolution 0819, onglet Manuscrit (tableau de référence), ligne 4",
+           "origine": "classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 4",
            "statut": "relevé"
           },
           {
            "composant": "subventions et aides",
-           "valeur": "68,948 Md€",
+           "valeur": "68,858 Md€",
            "base": "an · Md€ · flux",
-           "origine": "classeur Synthèse Calculs Résolution 0819, onglet Manuscrit (tableau de référence), ligne 14",
+           "origine": "classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 14",
            "statut": "relevé"
           },
           {
@@ -252,16 +252,16 @@
           },
           {
            "composant": "cotisations chômage basculées en épargne",
-           "valeur": "30,0 Md€",
+           "valeur": "29,6 Md€",
            "base": "an · Md€ · transfert",
-           "origine": "D8-3-1-e2",
+           "origine": "D8-3-1-e2 ← classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 27",
            "statut": "relevé"
           },
           {
            "composant": "rendement du patrimoine cédé",
-           "valeur": "18,0 Md€",
+           "valeur": "17,602 Md€",
            "base": "an · Md€ · flux",
-           "origine": "D7-2-2-e2",
+           "origine": "classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 28 ; D7-2-2-e2 porte l’ancre de 18,0",
            "statut": "relevé"
           }
          ],
@@ -418,15 +418,15 @@
          "base": "an · Md€ · flux · année pleine · données 2024",
          "portee": "Fonctionnement des agences fermées et des administrations d’État non indispensables. Exclut la masse salariale, portée en D6-2-2.",
          "sens": "égal",
-         "operation": "8,632 (agences) + 3,8 (administrations d’État) = 12,432",
-         "exact": "12,432",
+         "operation": "9,317 (agences) + 3,8 (administrations d’État) = 13,117",
+         "exact": "13,117",
          "verdict": "APPROCHÉ",
          "chaine": [
           {
            "composant": "fermeture des agences non indispensables",
-           "valeur": "8,632 Md€",
+           "valeur": "9,317 Md€",
            "base": "an · Md€ · flux",
-           "origine": "classeur Synthèse Calculs Résolution 0819, onglet Manuscrit (tableau de référence), ligne 8",
+           "origine": "classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 8",
            "statut": "relevé"
           },
           {
@@ -858,7 +858,7 @@
          "enonce": "Économies sur subventions et aides",
          "signe": "+",
          "beneficiaire": "finances publiques",
-         "chiffre": "68,9 Md€/an : entreprises 41,4 (emploi-insertion 22,5, investissement 6,6, locales 12,3) ; particuliers et associations 27,5 (chèques ciblés aux particuliers dont APL 17,7, hébergement et AME 3,6, associations 3,2, APD 3,0)",
+         "chiffre": "68,9 Md€/an : entreprises 41,4 (emploi-insertion 22,5, investissement 6,6, locales 12,2) ; particuliers et associations 27,5 (chèques ciblés aux particuliers dont APL 17,7, hébergement et AME 3,6, associations 3,2, APD 3,0)",
          "horizon": "année pleine",
          "certitude": "tableau de référence",
          "attenuation": "",
@@ -870,8 +870,8 @@
          "base": "an · Md€ · flux · année pleine · données 2024",
          "portee": "Subventions et aides de l’État, des collectivités et aux associations. Exclut les niches, la masse salariale et le fonctionnement.",
          "sens": "égal",
-         "operation": "entreprises 22,548 + 6,6 + 12,3 = 41,448 ; particuliers et associations 17,7 + 3,6 + 3,2 + 3,0 = 27,5 ; total 68,948",
-         "exact": "68,948, dont 41,448 entreprises et 27,5 particuliers et associations",
+         "operation": "entreprises 22,548 + 6,6 + 12,21 = 41,358 ; particuliers et associations 17,7 + 3,6 + 3,2 + 3,0 = 27,5 ; total 68,858",
+         "exact": "68,858, dont 41,358 entreprises et 27,5 particuliers et associations",
          "verdict": "APPROCHÉ",
          "chaine": [
           {
@@ -890,9 +890,9 @@
           },
           {
            "composant": "aides locales aux entreprises",
-           "valeur": "12,3 Md€",
+           "valeur": "12,21 Md€",
            "base": "an · Md€ · flux",
-           "origine": "classeur Synthèse Calculs Résolution 0819, onglet Manuscrit (tableau de référence), ligne 18",
+           "origine": "classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 18",
            "statut": "relevé"
           },
           {
@@ -2349,10 +2349,10 @@
          ],
          "origine": "D3-2-2-e1",
          "base": "personne · mois · net · flux · salarié au salaire médian 2 190 € nets · données 2024",
-         "portee": "Ne vaut qu’au salaire médian. 354,14 €/mois au SMIC, 707,96 €/mois au net moyen. Suppose la réalisation intégrale des 236 Md€ d’économies restituables.",
+         "portee": "Ne vaut qu’au salaire médian. 354,66 €/mois au SMIC, 709,00 €/mois au net moyen. Suppose la réalisation intégrale des 236 Md€ d’économies restituables.",
          "sens": "égal — ancre de communication",
-         "operation": "275,0759 × 236,05 / 114,46 = 567,30",
-         "exact": "567,30",
+         "operation": "275,0759 × 236,40 / 114,46 = 568,13",
+         "exact": "568,13",
          "verdict": "APPROCHÉ",
          "chaine": [
           {
@@ -2364,16 +2364,16 @@
           },
           {
            "composant": "autres économies restituables",
-           "valeur": "292,22 €/mois",
+           "valeur": "293,06 €/mois",
            "base": "personne · mois · net",
            "origine": "reconstitué par différence",
            "statut": "reconstitué"
           },
           {
            "composant": "économies restituables totales",
-           "valeur": "236,05 Md€, dont 183,95 en dépenses et 52,1 en niches",
+           "valeur": "236,40 Md€, dont 184,30 en dépenses et 52,1 en niches",
            "base": "an · Md€ · flux",
-           "origine": "D2-1-1-p1 ← classeur Manifeste C3 + D24",
+           "origine": "D2-1-1-p1 ← classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, C3",
            "statut": "relevé"
           },
           {
@@ -2384,7 +2384,7 @@
            "statut": "relevé"
           }
          ],
-         "note_diffusion": "La décomposition de communication « 300 € de salaire et 300 € d’épargne » rend compte de l’ordre de grandeur : chacun des deux termes exacts, 275,08 et 292,22, s’arrondit à 300. Elle ne constitue pas une égalité exacte et ne se présente pas comme deux moitiés.",
+         "note_diffusion": "La décomposition de communication « 300 € de salaire et 300 € d’épargne » rend compte de l’ordre de grandeur : chacun des deux termes exacts, 275,08 et 293,06, s’arrondit à 300. Elle ne constitue pas une égalité exacte et ne se présente pas comme deux moitiés.",
          "statut_ancre": "manuscrit",
          "source_ancre": "« Restituer 600 euros par mois »",
          "conditions": [
@@ -2420,7 +2420,7 @@
        ],
        "complements_constitutionnels": [],
        "lacunes": [
-        "D3-2-2-e1 — la part de 292,22 €/mois tirée des économies autres que CSG-CRDS est reconstituée par différence, non décomposée poste par poste."
+        "D3-2-2-e1 — la part de 293,06 €/mois tirée des économies autres que CSG-CRDS est reconstituée par différence, non décomposée poste par poste."
        ]
       }
      ],
@@ -4229,22 +4229,22 @@
          "base": "an · Md€ · flux · année pleine · données 2024",
          "portee": "Masse salariale des administrations, nette de l’indemnité de départ maintenue à 70 %. Exclut l’effet retour.",
          "sens": "égal",
-         "operation": "9,575 (État et agences) + 20,0 (administrations locales) = 29,575",
-         "exact": "29,575",
+         "operation": "10,261 (État et agences) + 19,864 (administrations locales) = 30,125",
+         "exact": "30,125",
          "verdict": "APPROCHÉ",
          "chaine": [
           {
            "composant": "plan de départ, État et agences",
-           "valeur": "9,575 Md€",
+           "valeur": "10,261 Md€",
            "base": "an · Md€ · flux",
-           "origine": "classeur Synthèse Calculs Résolution 0819, onglet Manuscrit (tableau de référence), ligne 12",
+           "origine": "classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 12",
            "statut": "relevé"
           },
           {
            "composant": "plan de départ, administrations locales",
-           "valeur": "20,0 Md€",
+           "valeur": "19,864 Md€",
            "base": "an · Md€ · flux",
-           "origine": "classeur Synthèse Calculs Résolution 0819, onglet Manuscrit (tableau de référence), ligne 13",
+           "origine": "classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 13",
            "statut": "relevé"
           }
          ],
@@ -5764,9 +5764,9 @@
           },
           {
            "composant": "économie brute",
-           "valeur": "30,0 Md€",
+           "valeur": "29,6 Md€",
            "base": "an · Md€ · économie",
-           "origine": "classeur Synthèse Calculs Résolution 0819, onglet Manifeste, ligne 20",
+           "origine": "classeur Synthèse Chiffres Résolution 0910, corrigé le 20261112, onglet Annexe Manuscrit, ligne 27",
            "statut": "relevé"
           }
          ],
@@ -8231,7 +8231,7 @@
           },
           {
            "composant": "vérification de la part",
-           "valeur": "129,4 / 236,055 = 54,8 %",
+           "valeur": "129,4 / 236,402 = 54,7 %",
            "base": "taux",
            "origine": "D2-1-1-e1 et bouclage année 1",
            "statut": "reconstitué"
@@ -8329,7 +8329,7 @@
        ],
        "complements_constitutionnels": [],
        "lacunes": [
-        "D11-e1 — la baisse de prélèvements obligatoires de 191,046 Md€ qui produit le taux cible diffère de 45,009 Md€ des 236,055 Md€ d’économies restituables. L’écart n’est pas décomposé. Les 30 Md€ de chômage et les 18 Md€ de patrimoine, qui ne sont pas des prélèvements, expliquent 48 Md€ : le solde de 2,991 Md€ reste à attribuer."
+        "D11-e1 — la baisse de prélèvements obligatoires de 191,046 Md€ qui produit le taux cible diffère de 45,356 Md€ des 236,402 Md€ d’économies restituables. L’écart n’est pas décomposé. Les 29,6 Md€ de chômage et les 17,6 Md€ de patrimoine, qui ne sont pas des prélèvements, font 47,202 Md€, soit 1,846 Md€ de plus que l’écart : ce solde reste à attribuer."
        ]
       },
       {
