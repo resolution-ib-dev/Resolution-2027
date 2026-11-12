@@ -6187,3 +6187,16 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - Les constats aux classeurs du 20261112, toujours en « proposé ».
 - Quatre points fragiles du simulateur, § 7 de sa note : épargne proportionnelle au salaire, recalage des agences la première année, clé unique par poste pour les strates, textes de la page écrits en propre.
 - La page n’est liée depuis aucune autre : sa publication reste à décider.
+
+## 20261112 — total porté à 236,4, site et simulateur ajustés
+
+## Ce qui a changé au corpus
+
+- Au dépôt du site, `Synthèse Chiffres Résolution` : 1,37 Md€ de subventions aux opérateurs intégrés, total ajusté à 236,40 (chômage 29,6 ; patrimoine 17,6 ; aides locales 12,21 ; agents locaux 19,86). Carto à 68 = 39 + 29, avec la mention des arrondis.
+- `referentiels/simulateur_elements_20261112.tsv` régénéré : 502 éléments, 129,46 Md€ la première année, 236,40 en régime plein. Sa note suit.
+- Deux règles de l’auteur inscrites à `CLAUDE.md` : ce qui est à valider se présente dans la conversation ; pas de tournure introductive.
+
+## Ce qui reste ouvert
+
+- `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel ; graphique des 236 milliards et onglet `Graph236` aux anciens montants ; « 3 % de rendement net » à la carte du patrimoine.
+- Les seuils et les lignes de « En échange », proposés.
