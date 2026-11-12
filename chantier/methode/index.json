@@ -9966,6 +9966,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/controle_liasses",
+   "chemin": "appareil/controle_liasses.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_liasses.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/controle_rejeu_annexes_2027",
    "chemin": "appareil/controle_rejeu_annexes_2027.py",
    "rang": "appareil",
@@ -10652,6 +10666,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/tri_porte/integrer_ajouts",
+   "chemin": "appareil/tri_porte/integrer_ajouts.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/tri_porte/integrer_ajouts.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/tri_porte/inverse",
    "chemin": "appareil/tri_porte/inverse.py",
    "rang": "appareil",
@@ -11054,6 +11082,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/livrables/code_cible_penal.md",
+   "releve": true,
+   "famille": "bac à sable"
+  },
+  {
+   "role": "fichier:livrables/controle_liasses",
+   "chemin": "livrables/controle_liasses.md",
+   "rang": "derive",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/livrables/controle_liasses.md",
    "releve": true,
    "famille": "bac à sable"
   },
@@ -14680,6 +14722,62 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/referentiels/niches_sociales_sieges_20261004.md",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/operateurs_jaune2026_20261112",
+   "chemin": "referentiels/operateurs_jaune2026_20261112.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/operateurs_jaune2026_20261112.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/operateurs_jaune2026_20261112_lisez_moi",
+   "chemin": "referentiels/operateurs_jaune2026_20261112_lisez_moi.md",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/operateurs_jaune2026_20261112_lisez_moi.md",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/operateurs_jaune2026_categories_20261112",
+   "chemin": "referentiels/operateurs_jaune2026_categories_20261112.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/operateurs_jaune2026_categories_20261112.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/operateurs_jaune2026_entites_20261112",
+   "chemin": "referentiels/operateurs_jaune2026_entites_20261112.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/operateurs_jaune2026_entites_20261112.tsv",
    "releve": true,
    "famille": "grilles"
   },
@@ -24846,51 +24944,6 @@
    "chemin_coffre": "chantier/sources/l17b3211_projet-loi.pdf",
    "releve": true,
    "famille": "références externes"
-  },
-  {
-   "role": "fichier:appareil/tri_porte/integrer_ajouts",
-   "chemin": "appareil/tri_porte/integrer_ajouts.py",
-   "rang": "appareil",
-   "coffre": true,
-   "produit_par": null,
-   "consomme_par": [],
-   "alias": [],
-   "restaurable": true,
-   "voie": "depot",
-   "chemin_coffre": "chantier/appareil/tri_porte/integrer_ajouts.py",
-   "releve": true,
-   "famille": "outillage"
-  },
-  {
-   "role": "fichier:appareil/controle_liasses",
-   "chemin": "appareil/controle_liasses.py",
-   "rang": "appareil",
-   "coffre": true,
-   "produit_par": null,
-   "consomme_par": [],
-   "alias": [],
-   "restaurable": true,
-   "voie": "depot",
-   "chemin_coffre": "chantier/appareil/controle_liasses.py",
-   "releve": true,
-   "famille": "outillage"
-  },
-  {
-   "role": "fichier:livrables/controle_liasses",
-   "chemin": "livrables/controle_liasses.md",
-   "rang": "derive",
-   "coffre": false,
-   "produit_par": "appareil/controle_liasses.py",
-   "consomme_par": [
-    "test de rattachement",
-    "pack public",
-    "qualification des articles"
-   ],
-   "alias": [],
-   "restaurable": true,
-   "voie": "hors_coffre",
-   "chemin_coffre": "chantier/livrables/controle_liasses.md",
-   "famille": "bac à sable"
   }
  ],
  "depot": {
@@ -24945,6 +24998,7 @@
    "appareil/controle_hypotheses.py",
    "appareil/controle_index.py",
    "appareil/controle_lexique.py",
+   "appareil/controle_liasses.py",
    "appareil/controle_norme.py",
    "appareil/controle_notes.py",
    "appareil/controle_projection.py",
@@ -25092,6 +25146,7 @@
    "livrables/attendus_scelles_P1_PLF_20261002.md",
    "livrables/attendus_scelles_phase1_20261002.md",
    "livrables/code_cible_penal.md",
+   "livrables/controle_liasses.md",
    "livrables/croisement_tva_20261002.md",
    "livrables/depot_2027/LIASSE_P1_points_signales.md",
    "livrables/depot_2027/LIASSE_PLFSS.md",
@@ -25354,6 +25409,10 @@
    "referentiels/niches_sieges_regles_de_lecture_20261004.md",
    "referentiels/niches_sociales_sieges_20261004.md",
    "referentiels/notes_manuscrit.json",
+   "referentiels/operateurs_jaune2026_20261112.tsv",
+   "referentiels/operateurs_jaune2026_20261112_lisez_moi.md",
+   "referentiels/operateurs_jaune2026_categories_20261112.tsv",
+   "referentiels/operateurs_jaune2026_entites_20261112.tsv",
    "referentiels/points_donnee_estimes_20261014.tsv",
    "referentiels/prelevements_ifrap.tsv",
    "referentiels/ratios_cp_ae_pap2026.tsv",
@@ -26085,9 +26144,7 @@
    "sources/guide-public-du-budgetaire-2023.pdf",
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
-   "sources/l17b3211_projet-loi.pdf",
-   "appareil/controle_liasses.py",
-   "livrables/controle_liasses.md"
+   "sources/l17b3211_projet-loi.pdf"
   ],
   "au_coffre_comme_document": [
    "referentiels/cgi_expert_articles.tsv",
@@ -26255,10 +26312,10 @@
   }
  ],
  "comptes": {
-  "artefacts": 1702,
-  "au_coffre": 1640,
-  "au_depot": 1183,
-  "derives": 293,
+  "artefacts": 1706,
+  "au_coffre": 1645,
+  "au_depot": 1187,
+  "derives": 291,
   "sources": 48,
   "non_restaurables": 16,
   "sans_famille": 2,

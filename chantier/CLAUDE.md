@@ -80,6 +80,7 @@ elle prime sur toute mémoire de fil.
 | le vocabulaire des sorts, et quelle ligne est maintenue | onglet `Refonte fiscalité` de `Synthèse Calculs Résolution` | — |
 | **les six devenirs d’un prélèvement et des niches** (règle de l’auteur du 20261103) | `methode/arbitrages.md` | entrée « Les six devenirs d’un prélèvement — 20261103 » |
 | les commissions du Jaune | `referentiels/commissions_jaune2026_20261014.tsv` | — |
+| **les opérateurs du Jaune** : statut, financements 2025 et 2026, emplois, classement ODAC | `referentiels/operateurs_jaune2026_20261112.tsv` et ses deux tables sœurs | note de lecture `operateurs_jaune2026_20261112_lisez_moi.md` |
 | **toute matière de recettes, de dépenses fiscales ou de taxes affectées en 2027** | `methode/annexes_voies_et_moyens_2027.md` | la table « où va se servir un fil » |
 | la vue d'ensemble, non la source | `livrables/suivi_trajectoire_20261015.md` | § 9 et § 10 |
 
