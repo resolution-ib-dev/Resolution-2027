@@ -6159,3 +6159,17 @@ renvoie plus que par une ligne — il ne porte plus la table.
 ## Ce qui reste ouvert
 
 - Chiffrage de la minoration des pensionnés (P1 n° 28) ; publication des liasses au site.
+
+## 20261112 — relevé du jaune des opérateurs, deux classeurs retouchés au dépôt du site
+
+## Ce qui a changé au corpus
+
+- `referentiels/operateurs_jaune2026_20261112.tsv` et ses deux tables (`_categories_`, `_entites_`) : relevé du jaune « Opérateurs de l’État » du PLF 2026, 180 lignes pour 431 opérateurs, contrôlé sur les totaux que le jaune publie. Note de lecture à côté.
+- Le lecteur est au dépôt du site (`Site-ETNP/outils/jaune.py`), comme le PDF (`Site-ETNP/site/donnees/PLF 2026_Jaune - Operateurs.pdf`).
+- Au dépôt du site, deux classeurs servis ont été retouchés sur ordre de l’auteur : `Synthèse Chiffres`, onglet `Annexe Manuscrit`, cellules E8 et F8 ; `Synthèse ETP et agences`, onglet `Opérateurs R`, colonnes U à Y ajoutées.
+
+## Ce qui reste ouvert
+
+- Les exemplaires des deux classeurs tenus par l’auteur hors dépôt ne portent pas ces retouches : ils sont à remplacer par ceux du dépôt du site.
+- Trois constats relevés aux classeurs, à trancher (registre, 20261112).
+- Les tableaux d’exécution 2022-2024 du jaune ne sont pas lus.

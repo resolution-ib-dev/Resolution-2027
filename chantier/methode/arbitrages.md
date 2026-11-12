@@ -8692,3 +8692,27 @@ Restent seuls le **P1 n° 35** (suppression de l’art. 15) et le **PLFSS n° 9*
 - **Doubles abrogations entre amendements** (PLFSS n° 1 et n° 9, clause et amendements de repli) : tenues pour normales ; non corrigées.
 
 Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 (dates de l’exposé absentes du dispositif) : trois cas, tous des dates d’autres mesures citées à bon droit (n° 21, 22, 25). Recevabilité : chaque amendement de recette porte son gage ou son produit ; le n° 35, qui supprime un article du projet, rétablit le droit en vigueur et n’appelle pas de gage.
+
+## 20261112 — fil site, simulateur et jaune des opérateurs
+
+### Annexe Manuscrit : la ligne des agences corrigée en première année — 20261112
+
+**Validé** (« ok, corrige les deux cases d’excel et vérifie ce qui dépend de cette ventilation », auteur, 20261112).
+
+À l’onglet `Annexe Manuscrit` de `Synthèse Chiffres Résolution`, E8 retirait de la colonne de première année le montant de régime plein des salaires reclassés à la ligne des agents (`− 1,052 × 42/48 × 10/3`), et F8 rien. E8 devient `… − 1,052 × 42/48`, F8 `… − 1,052 × 42/48 × 7/3`. *Relevé sur le classeur corrigé* : première année 129,5 Md€ au lieu de 127,4 ; agences 7,1 puis 1,6 au lieu de 4,9 puis 3,7 ; total de la ligne (8,6) et total général (236,1) inchangés. Aucune autre formule des classeurs ne lit cet onglet ; le tableau de l’annexe du livre n’a pas de colonne de première année. Le classeur corrigé est au dépôt du site.
+
+### Classeur ETP : les financements 2026 de chaque opérateur portés à l’onglet Opérateurs R — 20261112
+
+**Validé dans son principe** (« on complète notre fichier ETP/agences avec les colonnes d’intérêt en € », auteur, 20261112). *Tranché en propre* : cinq colonnes, U à Y, en milliers d’euros comme au jaune — subvention pour charges de service public, subvention d’investissement, transferts, taxes affectées, total — crédits de paiement du PLF 2026. Total général relevé : 73 288 271 k€, pour 73 288 275 708 € publiés. Seule la feuille visée change dans le fichier.
+
+### Le relevé du jaune des opérateurs : trois tables et une note, le lecteur au dépôt du site — 20261112
+
+*Tranché en propre*, sur la demande de l’auteur d’une lecture « appropriable ensuite par tout le monde », rangée « en format lisible » au dépôt hors site. Le relevé suit la forme de celui des commissions : `referentiels/operateurs_jaune2026_20261112.tsv`, deux tables sœurs, une note de lecture. Le lecteur reste `Site-ETNP/outils/jaune.py`, auprès du PDF qu’il lit ; il n’est pas dupliqué ici. Le PDF (11,7 Mo) n’est pas recopié à `sources/`.
+
+### Trois constats aux classeurs, à trancher — 20261112
+
+**Proposé.**
+
+1. `PLF26 - Depenses…`, onglet `SynthèseR` : l’économie « à plus d’un an » sur les subventions aux opérateurs (H8) additionne France Travail et l’Ademe et omet l’Anah (E21) et la ligne « Autres » (H21), soit 1,37 Md€ portés au détail juste dessous.
+2. `Synthèse Chiffres`, onglet `Flux` : le total des collectivités (C22) est saisi à 33,3 quand ses quatre lignes font 33,4 ; d’où 129,4 à Flux et 129,5 à l’Annexe.
+3. `Synthèse ETP et agences`, onglet `Opérateurs R` : 434 opérateurs, quand le jaune du PLF 2026 en compte 431 ; l’écart est dans le nombre d’entités de certaines catégories et n’est pas réparti.
