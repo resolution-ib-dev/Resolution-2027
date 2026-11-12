@@ -6200,3 +6200,16 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel ; graphique des 236 milliards et onglet `Graph236` aux anciens montants ; « 3 % de rendement net » à la carte du patrimoine.
 - Les seuils et les lignes de « En échange », proposés.
+
+## 20261112 — les 1,37 Md€ partagés entre agences et agents
+
+## Ce qui a changé au corpus
+
+- Au dépôt du site, `Synthèse Chiffres Résolution`, onglet `Annexe Manuscrit` : F8 et F12 partagent par moitié les 1,37 Md€ entre agences et agents. Masse salariale 30,12 ; fonctionnement 38,12 ; fermeture des agences 9,32 ; total 236,40 inchangé. Carto à 68 = 38 + 30.
+- `referentiels/simulateur_elements_20261112.tsv` régénéré : 502 éléments, agences 9,32 Md€ en régime plein, agents de l’État et des agences 10,26. Sa note suit (ligne « autres » 0,42 Md€, relèvement de première année 1,23).
+- Registre : une entrée, qui remplace sur ce point le 39 + 29.
+
+## Ce qui reste ouvert
+
+- `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel ; graphique des 236 milliards et onglet `Graph236` aux anciens montants ; « 3 % de rendement net » à la carte du patrimoine.
+- Les seuils et les lignes de « En échange », proposés.

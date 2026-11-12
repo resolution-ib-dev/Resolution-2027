@@ -73,12 +73,12 @@ L’arbre est celui de la carto : cinq groupes, onze cartes, dix-neuf postes.
 
 | poste | éléments | première année | régime plein | détail tiré de |
 |---|---:|---:|---:|---|
-| Agences fermées et leurs interventions | 40 | 7,08 | 10,00 | lignes « O » de `Détail Economies` ; taxes affectées par bénéficiaire ; subvention arrêtée d’un programme partagée entre ses opérateurs au prorata de leur subvention au jaune |
+| Agences fermées et leurs interventions | 40 | 7,08 | 9,32 | lignes « O » de `Détail Economies` ; taxes affectées par bénéficiaire ; subvention arrêtée d’un programme partagée entre ses opérateurs au prorata de leur subvention au jaune |
 | Fonctionnement des administrations de l’État | 50 | 3,8 | 3,8 | programmes non indispensables de `Economies R` : 80 % du fonctionnement et de l’investissement |
 | Audiovisuel public | 1 | 3,8 | 3,8 | une ligne |
 | Fonctionnement des échelons locaux | 8 | 6,1 | 9,6 | fonctions 01 et 06 du classeur des collectivités, hors communes, puis strates |
 | Culture et loisirs locaux | 15 | 11,6 | 11,6 | fonction 08, puis strates |
-| Départs d’agents de l’État et des agences | 64 | 2,87 | 9,58 | État : programmes non indispensables, au prorata des salaires ; agences : opérateurs supprimés, au prorata de leurs emplois |
+| Départs d’agents de l’État et des agences | 64 | 2,87 | 10,26 | État : programmes non indispensables, au prorata des salaires ; agences : opérateurs supprimés, au prorata de leurs emplois |
 | Départs d’agents locaux | 11 | 5,96 | 19,86 | « Rémunération des salariés » par fonction, puis strates |
 | Aides à l’emploi, à l’apprentissage et à l’insertion | 5 | 8,45 | 22,55 | lignes « AE » de `Détail Economies` |
 | Aides à l’investissement | 4 | 3,3 | 6,6 | lignes « E » |
@@ -99,10 +99,10 @@ sinon. Deux postes ne retombent qu’après recalage :
 - **les niches** : chaque famille est ramenée à sa ligne de l’onglet `Flux`, écart
   inférieur à 3 % ;
 - **les agences** : les organismes nommés gardent leur montant de régime plein
-  (8,90 Md€). Le reste du poste, **1,10 Md€**, est une ligne à part, « Autres
+  (8,90 Md€). Le reste du poste, **0,42 Md€**, est une ligne à part, « Autres
   agences fermées : fonctionnement », du même montant aux deux horizons
   (« ligne autres », auteur, 20261112). Les organismes nommés portent seuls
-  l’écart restant de première année : ils sont relevés de **1,11** (5,98 Md€ pour
+  l’écart restant de première année : ils sont relevés de **1,23** (6,66 Md€ pour
   5,40 au classeur). Les salaires
   des agents des agences ne sont pas à ce poste : l’Annexe les compte à celui des
   agents.
