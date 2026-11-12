@@ -8794,3 +8794,7 @@ Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 
 ### Simulateur : l'audiovisuel public rangé avec les agences — 20261112
 
 **Validé** (« audiovisuel public pas au bon endroit, trop haut si dans ministères. ce qui compte dans l'arborescence c'est le statut, pas la taille », auteur, 20261112). *Exécuté* : le poste « Audiovisuel public » passe de la carte Ministères à la carte Agences (`Site-ETNP/outils/restitution.py`, table `ARBRE`) ; le référentiel `simulateur_elements_20261112.tsv` suit, une ligne changée. *Relevé à la même table, non tranché* : l'aide publique au développement est rangée sous « Subventions aux associations », comme la carte de la carto ; son statut est celui d'une aide à des États et à une agence.
+
+### Simulateur : l’audiovisuel public, un élément des agences — 20261112
+
+**Validé** (« audiovisuel doit descendre d’un cran ? ! la dichotomie ici est abusive », auteur, 20261112). *Exécuté* : le poste « Audiovisuel public » disparaît ; sa ligne de l’Annexe (ligne 10, 3,8 Md€) devient un élément du thème Culture du poste « Agences fermées et leurs interventions » (`Site-ETNP/outils/restitution.py`). *Relevé au référentiel régénéré* : 502 éléments, 18 postes ; le poste des agences porte 41 éléments, 10,88 Md€ la première année et 13,12 en régime plein ; totaux inchangés, 129,46 et 236,40. L’entrée précédente (un poste sous la carte Agences) est remplacée.

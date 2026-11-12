@@ -69,13 +69,12 @@ année 1 » et « Gain supp. en année pleine » de l’onglet `Annexe Manuscrit
 
 ## 4. L’arbre, et la source de chaque poste
 
-L’arbre est celui de la carto : cinq groupes, onze cartes, dix-neuf postes.
+L’arbre est celui de la carto : cinq groupes, onze cartes, dix-huit postes.
 
 | poste | éléments | première année | régime plein | détail tiré de |
 |---|---:|---:|---:|---|
-| Agences fermées et leurs interventions | 40 | 7,08 | 9,32 | lignes « O » de `Détail Economies` ; taxes affectées par bénéficiaire ; subvention arrêtée d’un programme partagée entre ses opérateurs au prorata de leur subvention au jaune |
+| Agences fermées et leurs interventions | 41 | 10,88 | 13,12 | lignes « O » de `Détail Economies` ; taxes affectées par bénéficiaire ; subvention arrêtée d’un programme partagée entre ses opérateurs au prorata de leur subvention au jaune ; plus l’audiovisuel public (Annexe, ligne 10 : 3,8 Md€), élément du thème Culture |
 | Fonctionnement des administrations de l’État | 50 | 3,8 | 3,8 | programmes non indispensables de `Economies R` : 80 % du fonctionnement et de l’investissement |
-| Audiovisuel public | 1 | 3,8 | 3,8 | une ligne |
 | Fonctionnement des échelons locaux | 8 | 6,1 | 9,6 | fonctions 01 et 06 du classeur des collectivités, hors communes, puis strates |
 | Culture et loisirs locaux | 15 | 11,6 | 11,6 | fonction 08, puis strates |
 | Départs d’agents de l’État et des agences | 64 | 2,87 | 10,26 | État : programmes non indispensables, au prorata des salaires ; agences : opérateurs supprimés, au prorata de leurs emplois |
@@ -110,7 +109,7 @@ sinon. Deux postes ne retombent qu’après recalage :
 ## 5. Ce qui a été tranché en propre, poste par poste
 
 **Rangement des lignes de l’Annexe sous les cartes de la carto.** Fonctionnement
-de l’État sous Ministères ; audiovisuel public sous Agences, par son statut
+de l’État sous Ministères ; audiovisuel public parmi les organismes des agences, au thème Culture, par son statut
 (auteur, 20261112) ; culture locale sous Échelons locaux ; aide médicale sous Particuliers ; hébergement d’urgence sous
 Associations. La carto ne le dit pas.
 
