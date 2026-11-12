@@ -9,7 +9,7 @@ règles sont de l’auteur, lesquelles ont été tranchées en propre.
 
 | fichier | une ligne par | lignes |
 |---|---|---:|
-| `simulateur_elements_20261112.tsv` | élément cochable | **501** |
+| `simulateur_elements_20261112.tsv` | élément cochable | **502** |
 | `comptes_strates_locales_20261112.tsv` | ligne de compte d’une strate locale | **144** |
 
 **Le générateur** est `Site-ETNP/outils/restitution.py`. Il lit les classeurs
@@ -23,12 +23,12 @@ est *relevé* sur les deux fichiers le jour de l’écriture, sauf mention contr
 
 | grandeur | valeur |
 |---|---:|
-| éléments cochables | **501** |
-| économies de première année | **129,5 Md€** |
-| économies en régime plein | **236,05 Md€** |
+| éléments cochables | **502** |
+| économies de première année | **129,46 Md€** |
+| économies en régime plein | **236,40 Md€** |
 | dont rendu en salaire net | **114,46 Md€** |
-| dont rendu en épargne, première année | **15,04 Md€** |
-| dont rendu en épargne, régime plein | **121,59 Md€** |
+| dont rendu en épargne, première année | **15,00 Md€** |
+| dont rendu en épargne, régime plein | **121,94 Md€** |
 | ministères | **19**, plus **7** blocs hors ministère |
 
 Colonnes de `simulateur_elements_20261112.tsv` : `groupe`, `carte`, `poste`,
@@ -39,18 +39,17 @@ par an : `premiere_annee_mde`, `regime_plein_mde`, `dont_salaire_mde`,
 
 ## 2. Du salaire saisi aux euros par mois
 
-**Le gain plein** est la CSG et la CRDS sur les revenus d’activité : 9,7 points
-sur 98,25 % du salaire brut (onglet `CSG-CRDS` de `Synthèse Chiffres`). Le brut
-vient du net par le rapport net sur brut du classeur : celui du SMIC en bas,
-celui de la ligne « Net médian » à partir de 2 190 €, interpolé entre les deux.
-*Tranché en propre* : le classeur ne donne que trois salaires.
+**Le gain plein** est la CSG et la CRDS sur les revenus d’activité, **la même
+part du salaire net pour tous** : 12,56 %, la ligne « Net médian » de l’onglet
+`CSG-CRDS` de `Synthèse Chiffres` (« tout est parfaitement proportionnel […] juste
+un même ratio », auteur, 20261112).
 
 **Un milliard d’euros vaut le gain plein divisé par 114,46**, la masse de CSG et
 de CRDS d’activité. Au salaire de 2 300 € nets, cela fait 289 € par mois de
-salaire et 307 € par mois d’épargne en régime plein (*relevé sur la page*).
+salaire et 308 € par mois d’épargne en régime plein (*relevé sur la page*).
 
-**L’épargne est supposée proportionnelle au salaire**, au même prix par milliard.
-*Tranché en propre, non établi par le classeur.* L’ordre de grandeur retombe sur
+**L’épargne est proportionnelle au salaire**, au même prix par milliard
+(*validé*, auteur, 20261112). L’ordre de grandeur retombe sur
 les 600 € par mois de la carto.
 
 ## 3. La ventilation entre salaire et épargne
@@ -60,7 +59,7 @@ les 600 € par mois de la carto.
 20261112), exécutée sur le calendrier du classeur :
 
 - l’économie de **première année** d’un élément paie la CSG et la CRDS d’activité
-  à hauteur de 114,46 / 129,5, et son reliquat va à l’épargne ;
+  à hauteur de 114,46 / 129,46, et son reliquat va à l’épargne ;
 - tout ce qui vient **après la première année** va à l’épargne ;
 - l’assurance chômage et le rendement du patrimoine, nuls la première année, sont
   donc entièrement en épargne.
@@ -74,16 +73,16 @@ L’arbre est celui de la carto : cinq groupes, onze cartes, dix-neuf postes.
 
 | poste | éléments | première année | régime plein | détail tiré de |
 |---|---:|---:|---:|---|
-| Agences fermées et leurs interventions | 39 | 7,08 | 8,63 | lignes « O » de `Détail Economies` ; taxes affectées par bénéficiaire ; subvention arrêtée d’un programme partagée entre ses opérateurs au prorata de leur subvention au jaune |
+| Agences fermées et leurs interventions | 40 | 7,08 | 10,00 | lignes « O » de `Détail Economies` ; taxes affectées par bénéficiaire ; subvention arrêtée d’un programme partagée entre ses opérateurs au prorata de leur subvention au jaune |
 | Fonctionnement des administrations de l’État | 50 | 3,8 | 3,8 | programmes non indispensables de `Economies R` : 80 % du fonctionnement et de l’investissement |
 | Audiovisuel public | 1 | 3,8 | 3,8 | une ligne |
 | Fonctionnement des échelons locaux | 8 | 6,1 | 9,6 | fonctions 01 et 06 du classeur des collectivités, hors communes, puis strates |
 | Culture et loisirs locaux | 15 | 11,6 | 11,6 | fonction 08, puis strates |
 | Départs d’agents de l’État et des agences | 64 | 2,87 | 9,58 | État : programmes non indispensables, au prorata des salaires ; agences : opérateurs supprimés, au prorata de leurs emplois |
-| Départs d’agents locaux | 11 | 6,0 | 20,0 | « Rémunération des salariés » par fonction, puis strates |
+| Départs d’agents locaux | 11 | 5,96 | 19,86 | « Rémunération des salariés » par fonction, puis strates |
 | Aides à l’emploi, à l’apprentissage et à l’insertion | 5 | 8,45 | 22,55 | lignes « AE » de `Détail Economies` |
 | Aides à l’investissement | 4 | 3,3 | 6,6 | lignes « E » |
-| Aides locales aux entreprises | 24 | 9,7 | 12,3 | fonction 04, puis strates |
+| Aides locales aux entreprises | 24 | 9,7 | 12,21 | fonction 04, puis strates |
 | Chèques ciblés aux particuliers | 3 | 6,9 | 17,7 | lignes « M » |
 | Aide médicale de l’État | 1 | 1,1 | 1,1 | une ligne |
 | Hébergement d’urgence | 1 | 2,5 | 2,5 | une ligne |
@@ -91,20 +90,22 @@ L’arbre est celui de la carto : cinq groupes, onze cartes, dix-neuf postes.
 | Aide publique au développement | 1 | 1,0 | 3,0 | une ligne |
 | Niches sur les revenus | 113 | 28,8 | 28,8 | 465 niches du classeur des dépenses fiscales, gage en CSG |
 | Niches sur la TVA et les sociétés | 155 | 23,3 | 23,3 | idem |
-| Cotisation chômage rendue en épargne | 1 | 0 | 30,0 | une ligne |
-| Rendement du patrimoine restitué | 1 | 0 | 18,0 | une ligne |
+| Cotisation chômage rendue en épargne | 1 | 0 | 29,6 | une ligne |
+| Rendement du patrimoine restitué | 1 | 0 | 17,6 | une ligne |
 
 **Chaque détail retombe sur le montant de son poste**, et le générateur s’arrête
 sinon. Deux postes ne retombent qu’après recalage :
 
 - **les niches** : chaque famille est ramenée à sa ligne de l’onglet `Flux`, écart
   inférieur à 3 % ;
-- **les agences** : le détail est ramené au poste de **0,97 en régime plein et de
-  1,31 la première année**. Ce second écart répartit sur les lignes nommées
-  1,7 Md€ de fonctionnement des autres agences. La ligne « autres » du classeur,
-  nette des salaires que l’Annexe reclasse aux agents, est à peu près nulle : les
-  autres agences fermées n’ont donc pas de montant à ce poste, et trouvent le leur
-  à celui des agents.
+- **les agences** : les organismes nommés gardent leur montant de régime plein
+  (8,90 Md€). Le reste du poste, **1,10 Md€**, est une ligne à part, « Autres
+  agences fermées : fonctionnement », du même montant aux deux horizons
+  (« ligne autres », auteur, 20261112). Les organismes nommés portent seuls
+  l’écart restant de première année : ils sont relevés de **1,11** (5,98 Md€ pour
+  5,40 au classeur). Les salaires
+  des agents des agences ne sont pas à ce poste : l’Annexe les compte à celui des
+  agents.
 
 ## 5. Ce qui a été tranché en propre, poste par poste
 
@@ -139,7 +140,7 @@ intermédiaire pour le fonctionnement et la culture, rémunérations pour les
 agents, subventions et transferts en capital pour les aides aux entreprises.
 C’est le calcul du classeur quand il écrit « hors communes (75 %) ». **La clé est
 la même pour tous les thèmes d’un poste.** *Relevé* : 17,2 Md€ aux départements,
-13,0 aux régions, 23,3 aux communes. *Non vérifié sur pièce* : que le compte
+12,9 aux régions, 23,2 aux communes. *Non vérifié sur pièce* : que le compte
 « communes » de l’Insee inclue les intercommunalités.
 
 **Programme de chaque ligne de subvention.** Le classeur ne l’écrit pas ligne par
@@ -175,8 +176,8 @@ Toutes du 20261112, sur la page.
 
 ## 7. Ce qui reste fragile ou ouvert
 
-- L’épargne proportionnelle au salaire (§ 2) et le passage du net au brut.
-- Le recalage des agences la première année (§ 4).
+- Le classeur a été corrigé et ajusté le 20261112 : voir le registre, « Le total porté à 236,4 ».
+- Le relèvement des organismes nommés des agences la première année (§ 4).
 - La clé unique par poste pour les strates (§ 5).
 - Les textes de la page écrits en propre : titre, chapeau, libellés des postes,
   phrases de « En échange ».

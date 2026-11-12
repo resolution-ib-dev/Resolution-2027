@@ -8758,3 +8758,21 @@ Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 
 ### Site : ordre des onglets, largeur des pages de données, liste des onglets — 20261112
 
 **Validé** (« inverse les onglets vidéos et graphiques, pour aller du plus accessible au plus pointu », auteur, 20261112) : la barre du site se lit Manifeste, Propositions, Vidéos, Graphiques, Données. *Exécuté sur remarque de l’auteur, le même jour* : les pages de données prennent la largeur de l’écran sur ordinateur, et la liste des onglets en ligne ne s’affiche plus sous chaque classeur.
+
+### Le total porté à 236,4 : subventions aux opérateurs après un an, et ajustement — 20261112
+
+**Validé**, en trois temps (auteur, 20261112) : « c’était censé se retrouver correctement dans tous les classeurs, vérifie » ; « si ça marche pas on passe à 236,4 en lissant » ; « on concentre l’ajustement sur chômage, patrimoines, aides aux entreprises, agents locaux alors, en gardant les grands arrondis […] fais les deux trois corrections minimales de cellule sur l’enchaînement fautif » ; puis « bah 17,6 ou un truc comme ça sur le patrimoine, comme chômage 29,6 […] ok 68 et 39 » et « plutôt A avec 236 ».
+
+*Constat relevé sur les classeurs.* À l’onglet `SynthèseR` du classeur des dépenses, l’économie « à plus d’un an » sur les subventions aux opérateurs (H8 = 3 610 M€) n’additionne ni l’Anah (E21, 54) ni « Autres » (H21, 1 318) : 1 371 M€. `Flux` E16, saisie à la main, reprend le chiffre incomplet ; `Détail Economies` et `Annexe Manuscrit` en héritent.
+
+*Exécuté sur `Synthèse Chiffres Résolution`, 21 cellules saisies.* `Flux` E16 devient `12,371 + 1,052 × 7/3`, et les totaux saisis de l’onglet suivent. L’ajustement : assurance chômage 30 → 29,6 ; rendement du patrimoine 18,2 → 17,6, par un taux de 2,9 % au lieu de 3 %, et la troncature du total de la ligne est retirée ; aides locales aux entreprises 12,3 → 12,21 ; agents locaux 20 → 19,86. *Relevé au classeur corrigé* : total 236,40 ; première année 129,46 ; les 306 formules se recalculent sans écart.
+
+*Arrondis qui changent, acceptés par l’auteur* : structures facultatives 67 → 68 ; fonctionnement 37 → 39 ; fermeture des agences 9 → 10 ; masse salariale 30 → 29. Les cinq blocs arrondis font 237 pour un total de 236 : la carto porte, sous son tableau, « La somme des arrondis peut différer de l’arrondi de la somme » (demande de l’auteur, 20261112).
+
+*Reste dû.* La cellule H8 de `SynthèseR` est dans un classeur `.xls`, non modifié : la retouche (`+E21+H21`) est à faire dans Excel. Le graphique « Où sont les 236 milliards » et l’onglet `Graph236` portent encore les anciens montants. La carte du rendement du patrimoine écrit « 3 % de rendement net ».
+
+### Simulateur : ligne « autres agences », même ratio pour tous, « En échange » — 20261112
+
+**Validé** (auteur, 20261112) : « ligne autres » pour les agences ; « tout est parfaitement proportionnel c’est le but, même pas une interpol juste un même ratio » ; l’épargne proportionnelle au salaire (« oui ») ; les économies sur les communes (« oui c’est voulu pour leur retirer les compétences hors des 7 missions ») ; le rangement sous les cartes et le ministère des subventions (« ok », « l’architecture budgétaire doit rester transparente pour l’utilisateur, qui n’est pas expert et ne doit pas subir la complexité ») ; le titre et le chapeau, dans les mots de l’auteur ; « En échange de ce pouvoir d’achat libre d’emploi, vous renoncez à […] se limiter à 3-5 max », avec « au complément de retraite par répartition actuel en déficit » et le rappel que le total rendu est supérieur ; l’ouverture par économie et le « thème puis strate » gardés ; le lien de la carte Agences par un mot du texte.
+
+*Proposé, non validé* : les deux seuils de salaire de « En échange » (1 800 et 3 500 €) et le choix des lignes par tranche.
