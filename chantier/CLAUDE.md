@@ -581,6 +581,10 @@ le qualitatif. **Ni l'identifiant ni l'alphabet ne commandent quoi que ce soit.*
   objectif ou une subtilité.** Le reste se tranche et s'inscrit.
 - Quand une question se pose, elle est fermée, avec de courtes pistes, dans les
   mots de l'auteur et non dans le jargon du corpus.
+- **Ce que l'auteur doit valider lui est présenté en direct et en clair, dans la
+  conversation** (règle de l'auteur, 20261112) : la question, la piste retenue, ce
+  que la réponse change. L'inscrire au registre en « proposé » ou dans une note ne
+  vaut pas présentation ; un texte à valider se montre en entier.
 - Prévenir avant toute opération coûteuse : génération docx ou PDF, rendu page à
   page, lecture intégrale du manuscrit ou d'un classeur là où une extraction
   ciblée suffit.
