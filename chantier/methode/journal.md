@@ -6166,7 +6166,7 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - `referentiels/operateurs_jaune2026_20261112.tsv` et ses deux tables (`_categories_`, `_entites_`) : relevé du jaune « Opérateurs de l’État » du PLF 2026, 180 lignes pour 431 opérateurs, contrôlé sur les totaux que le jaune publie. Note de lecture à côté.
 - Le lecteur est au dépôt du site (`Site-ETNP/outils/jaune.py`), comme le PDF (`Site-ETNP/site/donnees/PLF 2026_Jaune - Operateurs.pdf`).
-- Au dépôt du site, deux classeurs servis ont été retouchés sur ordre de l’auteur : `Synthèse Chiffres`, onglet `Annexe Manuscrit`, cellules E8 et F8 ; `Synthèse ETP et agences`, onglet `Opérateurs R`, colonnes U à Y ajoutées.
+- Au dépôt du site, deux classeurs servis ont été retouchés sur ordre de l’auteur : `Synthèse Chiffres`, onglet `Annexe Manuscrit`, cellules E8 et F8 ; `Synthèse ETP et agences`, onglet `Opérateurs R`, colonnes U à AB ajoutées (financements 2026 d’après le jaune, économie de taxes affectées d’après le classeur des taxes).
 
 ## Ce qui reste ouvert
 

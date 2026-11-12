@@ -105,6 +105,15 @@ Le même lecteur porte au classeur, colonnes U à Y de cet onglet, les financeme
 taxes affectées, total). Le total général y est de 73 288 271 k€, pour
 73 288 275 708 € de financement public publiés par le jaune.
 
+Il y porte aussi, colonnes Z à AB, l’économie de taxes affectées que le classeur
+des taxes affectées (`PLF 2026_V&M tome I - Annexe 2`) chiffre pour chaque
+bénéficiaire : à horizon d’un an, supplémentaire, totale. *Relevé au classeur le
+20261112* : 14 365 847 k€ portés à l’onglet, dont 6 015 559 à un an ; neuf lignes
+ont une économie non nulle. Le reste de l’économie de taxes affectées du classeur,
+3,56 Md€, va à 39 bénéficiaires qui ne sont pas des opérateurs de l’onglet —
+Action Logement, les chambres consulaires, les établissements publics fonciers
+entre autres — et n’y est donc pas porté.
+
 ## 5. Comment le relevé se rejoue
 
 Depuis le dépôt du site, avec `pdftotext` (paquet poppler) et le module Python
@@ -120,7 +129,7 @@ python3 outils/jaune.py --tsv <dossier>
 python3 outils/jaune.py --classeur
 ```
 
-réécrit les colonnes U à Y du classeur, sans toucher au reste du fichier ;
+réécrit les colonnes U à AB du classeur, sans toucher au reste du fichier ;
 
 ```bash
 python3 outils/jaune.py
