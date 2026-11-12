@@ -99,10 +99,11 @@ sinon. Deux postes ne retombent qu’après recalage :
 - **les niches** : chaque famille est ramenée à sa ligne de l’onglet `Flux`, écart
   inférieur à 3 % ;
 - **les agences** : les organismes nommés gardent leur montant de régime plein
-  (8,93 Md€). Le reste du poste, **1,07 Md€**, est une ligne à part, « Autres
+  (8,90 Md€). Le reste du poste, **1,10 Md€**, est une ligne à part, « Autres
   agences fermées : fonctionnement », du même montant aux deux horizons
   (« ligne autres », auteur, 20261112). Les organismes nommés portent seuls
-  l’écart restant de première année : ils sont relevés de **1,10**. Les salaires
+  l’écart restant de première année : ils sont relevés de **1,11** (5,98 Md€ pour
+  5,40 au classeur). Les salaires
   des agents des agences ne sont pas à ce poste : l’Annexe les compte à celui des
   agents.
 
