@@ -8750,3 +8750,11 @@ Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 
 ### Ce qui est à valider se présente dans la conversation — 20261112
 
 **Validé** (« si je dois valider des trucs, il faut me les présenter en direct en clair ici », auteur, 20261112). Une proposition portée au registre ou dans une note de lecture n'est pas présentée tant qu'elle n'a pas été posée à l'auteur dans la conversation : la question, la piste retenue, ce que la réponse change ; un texte à valider se montre en entier. Inscrit à la conduite de session de `CLAUDE.md`. Les constats aux classeurs et les choix du simulateur portés en « proposé » ou « tranché en propre » le 20261112 ont été présentés à l'auteur le même jour, à la suite de cette règle.
+
+### Pas de tournure introductive — 20261112
+
+**Validé** (« les mots introductifs parasites "là où" "ce qui" sont à bannir, c’est très pénible en lecture, on fait simple et direct », auteur, 20261112). Inscrit aux règles de rédaction de `CLAUDE.md` et aux règles du dépôt du site. Appliqué le jour même à la page du simulateur.
+
+### Site : ordre des onglets, largeur des pages de données, liste des onglets — 20261112
+
+**Validé** (« inverse les onglets vidéos et graphiques, pour aller du plus accessible au plus pointu », auteur, 20261112) : la barre du site se lit Manifeste, Propositions, Vidéos, Graphiques, Données. *Exécuté sur remarque de l’auteur, le même jour* : les pages de données prennent la largeur de l’écran sur ordinateur, et la liste des onglets en ligne ne s’affiche plus sous chaque classeur.
