@@ -109,9 +109,9 @@ sinon. Deux postes ne retombent qu’après recalage :
 
 ## 5. Ce qui a été tranché en propre, poste par poste
 
-**Rangement des lignes de l’Annexe sous les cartes de la carto.** Audiovisuel
-public et fonctionnement de l’État sous Ministères ; culture locale sous Échelons
-locaux ; aide médicale sous Particuliers ; hébergement d’urgence sous
+**Rangement des lignes de l’Annexe sous les cartes de la carto.** Fonctionnement
+de l’État sous Ministères ; audiovisuel public sous Agences, par son statut
+(auteur, 20261112) ; culture locale sous Échelons locaux ; aide médicale sous Particuliers ; hébergement d’urgence sous
 Associations. La carto ne le dit pas.
 
 **Thèmes des niches.** Quinze thèmes, sept côté revenus et huit côté TVA et
