@@ -9,7 +9,7 @@ règles sont de l’auteur, lesquelles ont été tranchées en propre.
 
 | fichier | une ligne par | lignes |
 |---|---|---:|
-| `simulateur_elements_20261112.tsv` | élément cochable | **502** |
+| `simulateur_elements_20261112.tsv` | élément cochable | **504** |
 | `comptes_strates_locales_20261112.tsv` | ligne de compte d’une strate locale | **144** |
 
 **Le générateur** est `Site-ETNP/outils/restitution.py`. Il lit les classeurs
@@ -23,7 +23,7 @@ est *relevé* sur les deux fichiers le jour de l’écriture, sauf mention contr
 
 | grandeur | valeur |
 |---|---:|
-| éléments cochables | **502** |
+| éléments cochables | **504** |
 | économies de première année | **129,46 Md€** |
 | économies en régime plein | **236,40 Md€** |
 | dont rendu en salaire net | **114,46 Md€** |
@@ -69,7 +69,7 @@ année 1 » et « Gain supp. en année pleine » de l’onglet `Annexe Manuscrit
 
 ## 4. L’arbre, et la source de chaque poste
 
-L’arbre est celui de la carto : cinq groupes, onze cartes, dix-huit postes.
+L’arbre est celui de la carto : cinq groupes, onze cartes, vingt postes.
 
 | poste | éléments | première année | régime plein | détail tiré de |
 |---|---:|---:|---:|---|
@@ -90,7 +90,9 @@ L’arbre est celui de la carto : cinq groupes, onze cartes, dix-huit postes.
 | Niches sur les revenus | 113 | 28,8 | 28,8 | 465 niches du classeur des dépenses fiscales, gage en CSG |
 | Niches sur la TVA et les sociétés | 155 | 23,3 | 23,3 | idem |
 | Cotisation chômage rendue en épargne | 1 | 0 | 29,6 | une ligne |
-| Rendement du patrimoine restitué | 1 | 0 | 17,6 | une ligne |
+| Participations financières (patrimoine rendu) | 1 | 0 | 5,86 | `Input Capitalisation` C11 × taux D10 : 95 % du coté, 20 % du non coté |
+| Bâti et foncier (patrimoine rendu) | 1 | 0 | 5,81 | C12 × D10 : bureaux de l’État et de ses opérateurs, 23,1 Mm² sur 96,7 |
+| Logement social (patrimoine rendu) | 1 | 0 | 5,94 | (C13 + C14) × D10 : deux tiers du parc, abattement de 10 % |
 
 **Chaque détail retombe sur le montant de son poste**, et le générateur s’arrête
 sinon. Deux postes ne retombent qu’après recalage :
