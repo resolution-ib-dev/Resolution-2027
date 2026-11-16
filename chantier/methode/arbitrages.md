@@ -8892,3 +8892,11 @@ Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
 *Contrôlé* : comparaison de toutes les cellules de tous les onglets avant et après, neuf changées, celles-là ; LibreOffice relit les trois formules et recalcule les mêmes valeurs.
 
 *Tranché en propre* : la retouche en place plutôt qu'un passage par LibreOffice, qui ne connaît pas `XLOOKUP` et aurait écrit `#NAME?` dans les libellés de programmes. *Limite* : les deux coefficients ne disent pas leur règle ; dans Excel, E7 s'écrit `=('Economies R'!L4-232,884-'Economies R'!K84)*0,85+'Economies R'!K84*0,9`, F7 de même avec N4, 50,976 et M84. Le classeur de suivi de l'auteur, hors dépôt, n'est pas touché.
+
+### Fonctionnement de l’État : paramètres simples, 80 % du tout — 20261116
+
+**Validé** (« pourquoi baisse du coeff E7 ?! fais des paramètres simples qui passent juste les arrondis », auteur, 20261116). Les deux entrées du même jour sur ce poste sont **remplacées** sur les paramètres.
+
+*Calculé* : 4 731 M€ × 80 % = 3 784 M€ ; (4 731 − 284) × 85 % = 3 780 M€. Les deux s’arrondissent à 3,8 Md€ et à 130 € par foyer : « 85 % hors entretien des routes » et « 80 % du tout » disent la même chose. Les 90 % de Matignon, proposés « si besoin », ne sont pas nécessaires et sont retirés.
+
+*Exécuté* : `Dépenses de l’État.xls`, `SynthèseR` E7 et F7 reviennent à `× 0,8` (ils étaient passés à 0,796827 et 0,822530) ; H8 garde sa correction (4 980,7 M€) ; quatre cellules diffèrent de l’original (H8, H6, C8, C6). Classeur des chiffrages, hypothèse de la ligne 37 : « Hors régalien et éducation, 80 % d’économies (85 % hors entretien des routes nationales) ». Simulateur : 85 % pour tous les programmes, routes exclues. Guide budgétaire et note du simulateur alignés. La liasse n’est pas touchée par ce choix : elle retire les crédits à 100 % de l’assiette, entretien des routes exclu.
