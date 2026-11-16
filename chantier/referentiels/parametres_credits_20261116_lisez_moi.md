@@ -98,3 +98,24 @@ Trois écarts, tous expliqués :
 - Le rattachement d'une ligne à un poste repose sur les formules de `SynthèseR`, qui visent des cellules (`P65`, `R155`, `X68`…) ; si une ligne s'insère dans `Economies R`, la preuve du § 4 le montre.
 - `cible_classeur_cp` n'applique pas le CP résiduel : le classeur raisonne en économie, non en caisse.
 - Les colonnes R à V de `Détail Economies` (incidence par acteur) ne sont pas reprises : elles ne portent de valeur que pour les ménages, les actifs et les entreprises.
+
+## 7. La règle retenue — colonnes ajoutées le 20261116 (régénération)
+
+Le fichier passe à **81 colonnes** ; les 62 premières gardent leur sens. Les 19 dernières sont **la table de paramètres que lisent `chaine_credits.py` et `generer_liasse_p2.py`**, qui ne portent plus aucune constante de calcul.
+
+| colonnes | contenu | statut |
+|---|---|---|
+| `etatB_2027_mission`, `etatB_2027_programme`, `etatB_2027_titre2`, `correspondance_2027` | mission, libellé et titre 2 ouverts à l'état B 2027 ; pour quatre programmes renommés (149, 205, 349, 379), la correspondance vient de `referentiels/correspondance_programmes_pap2026_etatB2027.tsv`, qui dit son statut | *relevé* ; *déduit* pour 149 et 349 |
+| `regle_taux` | part du brut supprimée en régime plein : classeur du site | *relevé* (colonne `adresse_taux`) |
+| `regle_rythme`, `regle_date`, `regle_fraction` | rythme, date d'effet et fraction d'exercice : § 4 du registre | *relevé* ; *tranché par le pilotage* là où le registre est muet |
+| `regle_part_conservee` | un sixième pour la subvention à France Travail (registre § 3) | *relevé* |
+| `regle_net_indemnite` | 0,30 sur le titre 2 : indemnité de départ retranchée (registre § 10 ; `SynthèseR!D7`) | *relevé* |
+| `regle_residuel` | résiduel de CP du § 3 du registre | *relevé* |
+| `regle_cas`, `regle_origine` | « registre », « registre muet », « registre, classeur muet », « classeur muet et registre muet », et la phrase qui dit d'où vient chaque paramètre | *déduit* |
+| `objet_expose` | le nom public de la ligne, pour la phrase de date de l'exposé | *tranché en propre* |
+| `retenu`, `motif_hors_liasse`, `amendement_mission` | la ligne entre-t-elle dans un amendement de mission, sinon pourquoi, et lequel | *déduit* |
+| `cible_projet_ae`, `cible_projet_cp` | brut × taux × rythme × fraction × (1 − part conservée) × net d'indemnité ; CP au résiduel. Avant plafond du programme | *déduit* |
+
+**Tranché par le pilotage le 20261116, révocable** : le classeur ne garde la main que sur le brut et le taux ; le rythme et la date sont ceux du § 4 du registre. `cible_mixte_*` (rythme du classeur) reste au fichier pour mémoire : la liasse ne la suit plus.
+
+Les colonnes `liasse_*`, `amendement` et `adresse_liasse` décrivent la liasse **en place au moment de la construction**, sous l'ancienne règle de reconstitution : elles ne servent plus qu'aux cibles `classeur`, `registre`, `mixte` et `liasse` du contrôle.

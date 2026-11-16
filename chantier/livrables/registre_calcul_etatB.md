@@ -150,7 +150,7 @@ Montants en Md€.
 | Subventions culturelles | D34 | 0,5 | — | — | 1 | associations | 1er juil. | 6/12 | **0,25** | 0,25 | **131** | P2-03, 2.3-B |
 | Politique de la ville | D35 | 0,4 | — | — | 1 | associations | 1er juil. | 6/12 | **0,20** | 0,20 | **147** | P2-03, 2.3-C |
 | Autres associations | D36 | 1,4 | — | — | 1 | associations | 1er juil. | 6/12 | **0,70** | 0,70 | prorata | P2-03 |
-| Charges courantes et achats | D37 | 3,8 | **20 %** | **oui** | 1 | entreprises fournisseurs | 1er janv. | 12/12 | **3,80** | 3,04 | titres 3 et 5 | due |
+| Charges courantes et achats | D37 | 3,8 | **15 %** ⚐ | **oui** | 1 | entreprises fournisseurs | 1er janv. | 12/12 | **3,80** | 3,04 | titres 3 et 5 | due |
 | Départs de fonctionnaires de l'État | D38 | 3,0 | **10 %** | **oui** | 1 | agents publics | 1er juil. | 6/12 | **1,50** | 1,35 | titre 2, 21 pg · J38 = 61 400 ETPT | P2-05 |
 | Dépenses culturelles des collectivités | D40 | 11,6 | 10 % | **oui** | 1 | ménages, **service en nature** | 1er janv. | 12/12 | **11,60** | 10,44 | hors état B de l'État | — |
 | Collectivités — aides aux entreprises | D41 | 12,3 | — | — | ⅓ | entreprises | 1er janv. | 12/12 | **4,10** | 4,10 | hors état B de l'État | — |
@@ -159,6 +159,8 @@ Montants en Md€.
 | **TOTAL 2027** | | | | | | | | | **56,34** | 51,69 | | |
 
 ⚑ Socle « 10 à 20 % » au classeur, borne non arrêtée : 15 % par défaut.
+
+⚐ **Mis à jour le 20261116.** Décision de l'auteure du 16 novembre, *héritée du pilotage* : 85 % d'économie sur le fonctionnement et l'investissement de l'État, hors régalien, hors éducation et hors entretien des routes nationales, que le programme 203 conserve. La ligne portait 20 % de socle. *Relevé* au classeur du site : `SynthèseR!E7` et `F7`, 85 % du périmètre après retrait de 233 et 51 M€ d'entretien des routes, soit 2,704 + 1,075 = **3,78 Md€**. F, déjà net du socle (R-V), reste 3,8 à l'arrondi du registre ; le montant de 2027 et la trajectoire du § 5 ne bougent pas.
 
 **Colonne « F net du socle » (R-V)** : « oui » quand la colonne G porte l'exclusion du socle et, là où l'annexe la porte, quand l'assiette d'annexe minorée du socle redonne F (§ 5). Le montant de l'exercice se calcule alors sur F sans le socle. **La colonne « 2027 au 20261008 » garde la valeur antérieure**, pour la trace ; elle ne fait plus foi.
 
@@ -218,6 +220,7 @@ Marches au 1er juillet de chaque exercice pour les lignes à sortie en trois ans
 | D19 | 1,208 | 1,087 | 1,100 | **net** |
 | D29 | 3,068 | 2,455 | 2,500 | **net** |
 | D37 | 4,731 | 3,784 | 3,800 | **net** |
+| D37, au 20261116 : 15 %, hors entretien des routes | 4,731 | 3,780 | 3,800 | **net** |
 | D38 | 3,287 | 2,959 | 3,000 | **net** |
 | D15 | 1,333 | 1,200 | 1,300 | **brut** |
 
