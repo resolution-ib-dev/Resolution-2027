@@ -9056,3 +9056,40 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Demandé par l’auteur le 20261116** : « 19 Md€ ne va pas il faut 18. le découpage chômage est maladroit et trompeur puisque l’AFU s’ajoute, il faudrait trouver qqchose de plus vendeur. sur les niches la liste est un peu décourageante, il faudrait trouver mieux. » **Exécuté, à valider par l’auteur** (présenté en capture le jour même). Patrimoine : 3 % par an, le taux du livre, partagés entre les 63,4 millions de personnes des foyers fiscaux — 18,2 Md€ par an, 23,93 € par mois par personne ; *relevé* : 600 € à 2 400 € nets (600,19 avant arrondi). Le réglage du matin, 3,2 % et 68 millions, est **caduc**. Chômage : mêmes montants, deux libellés — « Six premiers mois : revenu maintenu » (600 € d’allocation et 550 € d’aide universelle) et « Après six mois : cotisation rendue ». Niches : dix sujets en mots courants par poste, d’après le programme de rattachement ; les deux cartes de la carto et tous les montants sont inchangés.
 
+### Liasse de crédits régénérée : rythme et date du registre, taux du classeur — 20261116
+
+*Tranché par le pilotage, révocable ; consigne de l'auteure héritée du pilotage.* Les 22 amendements de mission appliquent brut du PAP × taux du classeur × rythme et fraction du § 4 du registre, CP au résiduel du § 3, plafond au crédit ouvert de l'état B 2027. *Relevé* : 19 776 751 373 € d'AE et 17 617 182 294 € de CP, contre 43 688 020 914 et 39 795 849 238. *Exécuté* : `chaine_credits.py` et `generer_liasse_p2.py` lisent `referentiels/parametres_credits_20261116.tsv`, 81 colonnes, et ne portent plus de constante ; cible `projet` ajoutée à `controle_liasse_classeurs.py`, 0 échec, faute mordue.
+
+### Liasse de crédits : registre muet, les dates tranchées — 20261116
+
+*Tranché par le pilotage, révocable* : transferts aux collectivités par tiers, un tiers en 2027 ; emploi à domicile, Anah et missions locales au taux et au rythme du classeur ; France Travail à la règle du registre. *Tranché en propre, révocable* : la date de ces lignes est celle de la ligne la plus proche du § 4 — 1er janvier pour la catégorie 63 (D42), 1er juillet pour l'Anah (D16), l'emploi à domicile (D22, D25) et les missions locales (D36). 28 lignes, 2 677 902 505 € d'AE.
+
+### Liasse de crédits : 17 lignes oubliées ajoutées, un programme sorti — 20261116
+
+*Relevé.* L'ancien outil écartait sans le dire tout programme dont le libellé avait changé entre le PAP 2026 et l'état B 2027 : programmes 149, 205, 349 et 379, 17 lignes, 537 570 403 € d'AE ajoutés aux amendements n° 18, 4, 14 et 9. *Déduit* : correspondances de 149 et 349. *Relevé* : le programme 162 relève de la mission « Outre-mer » à l'état B 2027 ; il sort de l'amendement n° 1 ; un amendement « Outre-mer » est dû. L'amendement n° 18 prend le nom de la mission de 2027.
+
+### Registre de calcul, ligne D37 : 15 % de socle, hors entretien des routes — 20261116
+
+*Hérité du pilotage* : décision de l'auteure du 16 novembre, 85 % d'économie sur le fonctionnement hors régalien, éducation et entretien des routes nationales. *Exécuté* : § 4 et § 5 du registre mis à jour (socle de 15 %) ; F et le montant de 2027 inchangés à l'arrondi.
+
+### Amendements n° 33 et 34 : dates alignées sur le registre — 20261116
+
+*Exécuté.* Hébergement d'urgence au 1er avril 2027, chèque énergie au 1er juillet 2027, au dispositif et à l'exposé. *Non corrigé* : le programme que cite l'exposé du n° 34.
+
+### Croisé mesure × mois reconstruit — 20261116
+
+*Exécuté.* `referentiels/calendrier_mesures_mois_20261116.tsv`, 27 lignes × 48 mois, sa note de lecture et `appareil/calendrier_mesures_mois.py`. **Il fait foi** (*tranché par le pilotage*) : l'original est introuvable. *Relevé* : il redonne les § 4 et 5 à niveau à 0,01 Md€ près ; rejoué aux valeurs antérieures de D16, D38, D41 et D43, il redonne le § 6, le § 16 et le classeur de flux, écart maximal 0,018 Md€. *Relevé* : D25 en 2028 marche au 1er juillet au § 16 et par douzièmes au classeur de flux ; le croisé suit le registre, écart déclaré de 0,1932 Md€ par mois sur l'agent « Entreprises ».
+
+### Registre de calcul, § 4 et 5 : D16, D41 et D43 aux montants du classeur du site — 20261116
+
+*Tranché par le pilotage, révocable* : la série du site fait foi pour les montants et les taux. *Relevé* à `Détail Economies` du classeur du site : F16 = 4,116 (2,745), F41 = 12,21 (12,3), F43 = 19,864 (20). *Exécuté* : § 4 et § 5 mis à niveau, valeurs antérieures gardées au § 5 pour la trace. *Non rejoués* : § 6, 7, 15, 16, 17, le suivi de trajectoire et le classeur de flux.
+
+### Départs d'agents : en entier dans les 236, à 30 % en salaire net la première année — mise à niveau du registre de calcul — 20261116
+
+**Validé.** *Réponse de l'auteur du 20261116* : « dans les 236 c'est tout dont acte, en salaire net en un an c'est 30 % ». *Ces mots sont relevés à `methode/arbitrages.md` sur `main`, où le pilotage a versé l'entrée ; ce fil ne les a pas reçus de l'auteure.* *Exécuté* : § 4 et § 5 du registre de calcul, lignes D38 et D43 à 30 % ; 0,45 · 0,90 · 0,90 · 0,90 et 2,98 · 5,96 · 5,96 · 5,96. *Déduit* : coupes de 48,93 · 85,22 · 109,11 · 112,71 Md€, contre 56,34 · 100,05 · 123,97 · 127,57 ; solde en mesure de +15,54 · −29,24 · −5,35 · −1,75. *Tranché en propre, révocable* : 30 % sur toute la fenêtre 2027-2030, aucune pièce ne fixant le passage au plein (indemnité d'une à sept années, amendement n° 26) ; 16,00 Md€ par an restent « à terme ».
+
+### Repères du § 14 rejoués sur la table A retrouvée — 20261116
+
+*Relevé.* `appareil/controle_liasse_classeurs.py reperes` : 51 repères `A!Kn/Ln` sur 51 concordent avec `sources/projet_20261116/23_tsv_suivi_depenses__A_Credits.tsv` (programme, catégorie, statut « arrêté », montants arrêtés égaux au brut de la table de paramètres). *Relevé* à l'onglet « Mesure » : la catégorie 22 suit la catégorie 21 ; la liasse ne la retire pas, 269 422 581 € en 2027.
+
+---

@@ -9989,6 +9989,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/calendrier_mesures_mois",
+   "chemin": "appareil/calendrier_mesures_mois.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/calendrier_mesures_mois.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/chaine_a",
    "chemin": "appareil/chaine_a.py",
    "rang": "appareil",
@@ -13433,6 +13447,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:methode/etats/REGENERATION_liasse_20261116",
+   "chemin": "methode/etats/REGENERATION_liasse_20261116.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/etats/REGENERATION_liasse_20261116.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:methode/etats/REJEU_annexes_2027_20261012",
    "chemin": "methode/etats/REJEU_annexes_2027_20261012.md",
    "rang": "methode",
@@ -15323,6 +15351,34 @@
    "famille": "grilles"
   },
   {
+   "role": "fichier:referentiels/calendrier_mesures_mois_20261116",
+   "chemin": "referentiels/calendrier_mesures_mois_20261116.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/calendrier_mesures_mois_20261116.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/calendrier_mesures_mois_20261116_lisez_moi",
+   "chemin": "referentiels/calendrier_mesures_mois_20261116_lisez_moi.md",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/calendrier_mesures_mois_20261116_lisez_moi.md",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
    "role": "fichier:referentiels/code_cible_penal_bilan",
    "chemin": "referentiels/code_cible_penal_bilan.json",
    "rang": "referentiel",
@@ -15431,6 +15487,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/referentiels/controle_revision_penale.json",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/correspondance_programmes_pap2026_etatB2027",
+   "chemin": "referentiels/correspondance_programmes_pap2026_etatB2027.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/correspondance_programmes_pap2026_etatB2027.tsv",
    "releve": true,
    "famille": "grilles"
   },
@@ -26208,6 +26278,7 @@
    "appareil/axe_transparence.py",
    "appareil/bareme_delits.py",
    "appareil/blocs_disposition.py",
+   "appareil/calendrier_mesures_mois.py",
    "appareil/canoniser_ref.py",
    "appareil/carte_attribution.py",
    "appareil/cas_disposition.py",
@@ -26545,6 +26616,7 @@
    "methode/etats/FIL2_controles_P1_20261010.md",
    "methode/etats/P1_SS_arbitrages.md",
    "methode/etats/P2_arbitrages.md",
+   "methode/etats/REGENERATION_liasse_20261116.md",
    "methode/etats/REJEU_annexes_2027_20261012.md",
    "methode/etats/SERIES_classeurs_projet_site_20261116.md",
    "methode/etats/SUIVI_chantier_20261009.md",
@@ -26681,6 +26753,8 @@
    "referentiels/articles_ouverts_plf2027.tsv",
    "referentiels/articles_ouverts_plfss2027.tsv",
    "referentiels/bareme_delits_bilan.json",
+   "referentiels/calendrier_mesures_mois_20261116.tsv",
+   "referentiels/calendrier_mesures_mois_20261116_lisez_moi.md",
    "referentiels/code_cible_penal_bilan.json",
    "referentiels/commissions_jaune2026_20261014.tsv",
    "referentiels/commissions_jaune2026_20261014_lisez_moi.md",
@@ -26689,6 +26763,7 @@
    "referentiels/concordance_penale.tsv",
    "referentiels/concours_discretionnaires_collectivites_20261004.md",
    "referentiels/controle_revision_penale.json",
+   "referentiels/correspondance_programmes_pap2026_etatB2027.tsv",
    "referentiels/decisions_penal_bilan.json",
    "referentiels/etatB_2027_bg.tsv",
    "referentiels/eurostat_ccf.tsv",
@@ -27632,9 +27707,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1793,
-  "au_coffre": 1732,
-  "au_depot": 1266,
+  "artefacts": 1798,
+  "au_coffre": 1737,
+  "au_depot": 1271,
   "derives": 294,
   "sources": 64,
   "non_restaurables": 16,
