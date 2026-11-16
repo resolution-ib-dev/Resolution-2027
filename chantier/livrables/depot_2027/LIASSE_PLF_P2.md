@@ -183,20 +183,20 @@ Modifier ainsi les crédits de la mission « Écologie, développement et mobil
 | Prévention des risques | 0 | 1 249 237 747 | 0 | 1 124 566 140 |
 | Énergie, climat et après-mines | 0 | 701 556 282 | 0 | 658 250 498 |
 | Fonds d’accélération de la transition écologique dans les territoires | 0 | 649 000 000 | 0 | 486 850 000 |
-| Infrastructures et services de transports | 0 | 447 843 227 | 0 | 343 156 557 |
+| Infrastructures et services de transports | 0 | 280 425 204 | 0 | 233 985 619 |
 | Paysages, eau et biodiversité | 0 | 363 819 311 | 0 | 337 875 414 |
 | Conduite et pilotage des politiques de l’écologie, du développement et de la mobilité durables | 0 | 340 059 662 | 0 | 310 907 781 |
 | Expertise, information géographique et météorologie | 0 | 21 005 356 | 0 | 8 219 923 |
-| **TOTAUX** | 0 | **3 772 521 584** | 0 | **3 269 826 313** |
-| **SOLDE** | **−3 772 521 584** | | **−3 269 826 313** | |
+| **TOTAUX** | 0 | **3 605 103 562** | 0 | **3 160 655 376** |
+| **SOLDE** | **−3 605 103 562** | | **−3 160 655 376** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Écologie, développement et mobilité durables » les crédits des dispositifs que la présente loi interrompt. Il porte sur 7 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
+Cet amendement retire de la mission « Écologie, développement et mobilité durables » les crédits des dispositifs que la présente loi interrompt. Il porte sur 7 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités. Les crédits d’entretien du réseau routier national sont maintenus.
 
-Les programmes visés reçoivent 13 140 628 909 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3,8 milliards d’euros en autorisations d’engagement et 3,3 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 13 140 628 909 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3,6 milliards d’euros en autorisations d’engagement et 3,2 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
 La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
 

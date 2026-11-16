@@ -8867,3 +8867,15 @@ Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
 *Exécuté au simulateur* : poids des programmes aux deux taux, action des routes exclue ; rendement du patrimoine revenu à 3,2 % ; dix libellés de ministères affinés (« pour éviter les contresens », auteur) — *tranchés en propre, à valider*. *Vérifié* : pas de doublon avec « France 2030 et aides à l’investissement » — le poste ne prend que la catégorie 31 des programmes 423 à 425 (621 M€), les transferts (catégories 62 et 64) sont aux subventions.
 
 *Reste contraire* : `Dépenses de l’État.xls`, onglet `SynthèseR`, écrit toujours 80 % et compte les routes ; la liasse du PLF, amendement n° 4, retire les crédits d’entretien routier.
+
+### Liasse du PLF, amendement n° 4 : l'entretien des routes nationales maintenu — 20261116
+
+**Validé** (« maintenant qu'on a ajusté les calculs, il faut mettre à jour TOUS les chiffres dépendants dont liasses ! », auteur, 20261116).
+
+*Confrontation avant d'écrire* : la ligne « Infrastructures et services de transports » de l'amendement (447 843 227 € d'AE, 343 156 557 € de CP) se retrouve **à l'euro** depuis `Dépenses de l'État.xls`, onglet `Données PAP 2026`, par les règles de `chaine_credits.py` (fraction 6/12 en catégorie 31, résiduel de 15 % ; titre 5 à 80 % de résiduel ; catégories 63 et 64). Le markdown rejoué par `liasse2docx.js` puis LibreOffice redonne le PDF en ligne page pour page (police EB Garamond).
+
+*Constaté* : les amendements de crédits prennent le fonctionnement et l'investissement **à 100 %** de l'assiette, sans le socle de 20 % ; le passage du poste de 80 à 85 % (90 % à Matignon) ne les touche donc pas. Seul le retrait de l'action « Routes – Entretien » les atteint.
+
+*Exécuté* (`livrables/depot_2027/LIASSE_PLF_P2.md`, **à la main**, le classeur de suivi qui alimente `generer_liasse_p2.py` n'étant pas au dépôt) : programme 203, 280 425 204 € d'AE et 233 985 619 € de CP (catégories 31 et 5x de l'action retirées : −167 418 022 et −109 170 937) ; totaux et solde de la mission, 3 605 103 562 et 3 160 655 376 ; exposé à 3,6 et 3,2 milliards, avec la phrase « Les crédits d'entretien du réseau routier national sont maintenus. » *Contrôlé* : `controle_credits_liasse.py` et `controle_liasses.py`, aucun écart ; PDF de 66 pages, seule la page 7 change. Docx et PDF posés à `Site-ETNP/site/amendements/`.
+
+*Reste contraire* : `Dépenses de l'État.xls`, onglet `SynthèseR` (80 %, routes comptées), et le classeur de suivi de l'auteur, que la liasse ne reflète plus sur cette ligne.
