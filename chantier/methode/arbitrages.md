@@ -8810,3 +8810,16 @@ Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 
 ### Simulateur : patrimoine à 3,2 %, total arrondi, 600 € à 2 400 € — 20261116
 
 **Validé** (« ajuste juste ce qu’il faut pour arriver à 25 % rendus. mets 2400 par défaut », puis « ah bah on arrondit la somme ! […] 3,2 et on est bon », auteur, 20261116). *Exécuté* (`Site-ETNP/outils/restitution.py`, `site/reprenez.html`) : salaire par défaut 2 400 € ; rendement du patrimoine rendu à 3,2 % par an sur le stock du classeur (607 Md€) partagé entre 68 millions de personnes, soit 23,80 € par mois et par personne ; le total s’affiche comme l’arrondi de la somme. *Relevé à la page générée* : 600 € par mois à 2 400 € nets (301 de salaire, 299 d’épargne), 379 au SMIC, 1 224 à 5 000 €. Le sous-titre du groupe ne dit plus que « 600 Md€ de stock ». L’entrée précédente (3 % sur 8 800 €, 22 €) est remplacée sur le taux et la base. *Constaté, non tranché* : trois taux coexistent — 3,2 % au simulateur, 3 % au livre et au référentiel de doctrine (`D7-2-2-e2`), 2,9 % au classeur Chiffres.
+
+### Simulateur : chômage en deux postes, arbre resserré, milliards en flux — 20261116
+
+**Validé** (« où sont les milliards ? ils sont en stocks et nulle part en flux, il faudrait les indiquer […] niveau arborescence ça ne va pas, plein d’aberrations […] trop de niveaux, des scissions absurdes, des catégories vides […] pour le chômage, voici en pj mes calculs. chômage et patrimoine c’est 100 % épargne, il faudrait avoir une coloration cohérente propre », auteur, 20261116).
+
+*Exécuté* (`Site-ETNP/outils/restitution.py`, `site/reprenez.html`) :
+- **Chômage** : deux postes, selon la note « Proxy Chômage » de l’auteur — 37 % des inscrits depuis moins de six mois, allocation de 1 150 à 600 € (52 %) ; 63 % au-delà. La ligne 27 de l’Annexe (29,6 Md€) est partagée au prorata : 23,09 et 6,51 Md€. *Constaté* : la formule de la note donne 30,0 Md€ sur 37,1 ; le classeur porte 29,6.
+- **Arbre** : jusqu’à huit éléments sous une carte, une liste sans postes ni thèmes ; un thème d’un seul élément laisse la place à l’élément ; les décomptes « n chiffrés » disparaissent.
+- **Flux** : chaque ligne dit son montant en Md€ par an (en M€ sous 1 Md€), à l’horizon choisi.
+- **Couleur** : une ligne tout en épargne (chômage, patrimoine) prend l’or de l’épargne.
+- **Montants** : à l’euro, « moins de 1 € » dessous ; plus de centimes. *Tranché en propre*, l’auteur demandant un avis.
+
+Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
