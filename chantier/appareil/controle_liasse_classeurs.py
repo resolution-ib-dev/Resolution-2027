@@ -30,6 +30,10 @@ Trois commandes, un seul fichier :
   ecarts
       imprime en markdown les tables du document des écarts.
 
+  reperes
+      rejoue les repères `A!Kn/Ln` du § 14 du registre sur l'onglet
+      « A — Crédits » du classeur de suivi, versé en texte le 20261116.
+
 Les colonnes `regle_*`, `retenu`, `amendement_mission` et `etatB_2027_*` du
 TSV sont la table de paramètres que lisent `chaine_credits.py` et
 `generer_liasse_p2.py`. Ce fichier ne modifie ni la liasse ni aucun classeur.
@@ -1045,7 +1049,60 @@ def ecarts():
     return 0
 
 
+A_CREDITS = RACINE / 'sources/projet_20261116/23_tsv_suivi_depenses__A_Credits.tsv'
+
+
+def reperes():
+    """Rejoue les repères `A!Kn/Ln` du § 14 du registre sur l'onglet « A — Crédits »
+    du classeur de suivi (rendu en texte au projet le 20261116) : la ligne n porte-t-elle
+    le programme et la catégorie annoncés, est-elle « arrêtée », et ses montants arrêtés
+    sont-ils le brut de la table de paramètres ?"""
+    A = {int(r['ligne']): r for r in csv.DictReader(open(A_CREDITS, encoding='utf-8'), delimiter='\t')}
+    brut = defaultdict(lambda: [0.0, 0.0])
+    for d in lire_tsv():
+        if d['drapeau_classeur'] != 'En 3 ans':
+            brut[(d['programme'], d['categorie'])][0] += float(d['brut_ae'])
+            brut[(d['programme'], d['categorie'])][1] += float(d['brut_cp'])
+    n = ok = 0
+    dedans = False
+    for l in open(REGISTRE, encoding='utf-8'):
+        if l.startswith('## 14.'):
+            dedans = True
+        elif dedans and l.startswith('## '):
+            break
+        if not (dedans and l.startswith('- **D')):
+            continue
+        m = re.match(r'- \*\*(D\d+)\*\* :', l)
+        if not m:
+            continue
+        cel = m.group(1)
+        for prog, cat, k, k2 in re.findall(r'(\d+)/(\d+) `A!K(\d+)/L(\d+)`', l):
+            n += 1
+            r = A.get(int(k))
+            motifs = []
+            if not r or k != k2:
+                motifs.append('ligne absente')
+            else:
+                if (r['C'], r['F']) != (prog, cat):
+                    motifs.append(f"porte {r['C']}/{r['F']}")
+                if r['J'] != 'arrêté':
+                    motifs.append(f"statut « {r['J']} »")
+                b = brut.get((prog, cat))
+                if b is None:
+                    motifs.append('sans ligne à la table de paramètres')
+                elif abs(float(r['K']) * 1e6 - b[0]) > 1 or abs(float(r['L']) * 1e6 - b[1]) > 1:
+                    motifs.append(f"arrêté {float(r['K']):.3f} / {float(r['L']):.3f} M€, table "
+                                  f"{b[0] / 1e6:.3f} / {b[1] / 1e6:.3f}")
+            ok += not motifs
+            if motifs:
+                print(f"{cel} {prog}/{cat} A!K{k} : " + ' ; '.join(motifs))
+    print(f"{n} repères `A!` du § 14 rejoués, {ok} concordants, {n - ok} en écart.")
+    return 0 if n == ok else 1
+
+
 def main(argv):
+    if argv and argv[0] == 'reperes':
+        return reperes()
     if not argv or argv[0] == 'controler':
         cible = argv[argv.index('--cible') + 1] if '--cible' in argv else 'classeur'
         return 1 if controler(cible) else 0

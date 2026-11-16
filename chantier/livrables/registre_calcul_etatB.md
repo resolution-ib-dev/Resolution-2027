@@ -133,7 +133,7 @@ Montants en Md€.
 | France Travail | D6 | 5,255 | 10 % | **oui** | ⅓ | 50 % actifs, 50 % entreprises | 1er janv., **1/6 conservé** | 12/12 | **1,46** | 1,31 | **102**, cat. 32 — 20 % de F ; le reste hors État | — |
 | Ademe | D12 | 0,9 | 10 % | **oui** | ⅓ | opérateurs | 1er juil. | 6/12 | **0,15** | 0,14 | **181**, cat. 32 | P2-01, 2.1-A |
 | MaPrimeRénov' | D15 | 1,3 | 10 % | non | 1 | ménages, capté par l'artisan | **1er janv.** | 12/12 | **1,17** | 1,17 | **135**, cat. 61 | P2-01, 2.1-B |
-| Autres opérateurs | D16 | 2,745 | 10 % | **oui** | 1 | opérateurs | 1er juil. | 6/12 | **1,37** | 1,24 | **cat. 32, 22 programmes**, § 14 | P2-01, due |
+| Autres opérateurs | D16 | 4,116 ⚐ | 10 % | **oui** | 1 | opérateurs | 1er juil. | 6/12 | **2,06** | 1,24 | **cat. 32, 22 programmes**, § 14 | P2-01, due |
 | **Aide au logement** | D18 | 16,1 | — | — | ⅓ | ménages, capté par le bailleur | **dossiers 1er juin · versements 1er juil.** | 6/12 | **2,68** | 2,68 | **109**, cat. 61 | P2-04, 2.6-A |
 | Aide médicale de l'État | D19 | 1,1 | 10 % | **oui** | 1 | ménages sans activité | 1er juil. | 6/12 | **0,55** | 0,50 | **183**, cat. 61 | — |
 | Chèque énergie | D20 | 0,6 | — | — | 1 | ménages, droit annuel | 1er juil. | 6/12 | **0,30** | 0,30 | **174**, cat. 61 | P2-04, 2.6-B |
@@ -151,12 +151,12 @@ Montants en Md€.
 | Politique de la ville | D35 | 0,4 | — | — | 1 | associations | 1er juil. | 6/12 | **0,20** | 0,20 | **147** | P2-03, 2.3-C |
 | Autres associations | D36 | 1,4 | — | — | 1 | associations | 1er juil. | 6/12 | **0,70** | 0,70 | prorata | P2-03 |
 | Charges courantes et achats | D37 | 3,8 | **15 %** ⚐ | **oui** | 1 | entreprises fournisseurs | 1er janv. | 12/12 | **3,80** | 3,04 | titres 3 et 5 | due |
-| Départs de fonctionnaires de l'État | D38 | 3,0 | **10 %** | **oui** | 1 | agents publics | 1er juil. | 6/12 | **1,50** | 1,35 | titre 2, 21 pg · J38 = 61 400 ETPT | P2-05 |
+| Départs de fonctionnaires de l'État | D38 | 3,0 | **10 %** | **oui** | 1, à 30 % tant que l'indemnité court ⚐ | agents publics | 1er juil. | 6/12 | **0,45** | 1,35 | titre 2, 21 pg · J38 = 61 400 ETPT | P2-05 |
 | Dépenses culturelles des collectivités | D40 | 11,6 | 10 % | **oui** | 1 | ménages, **service en nature** | 1er janv. | 12/12 | **11,60** | 10,44 | hors état B de l'État | — |
-| Collectivités — aides aux entreprises | D41 | 12,3 | — | — | ⅓ | entreprises | 1er janv. | 12/12 | **4,10** | 4,10 | hors état B de l'État | — |
+| Collectivités — aides aux entreprises | D41 | 12,21 ⚐ | — | — | ⅓ | entreprises | 1er janv. | 12/12 | **4,07** | 4,10 | hors état B de l'État | — |
 | Collectivités — charges courantes | D42 | 9,6 | — | — | ⅓ | collectivités | 1er janv. | 12/12 | **3,20** | 3,20 | hors état B de l'État | — |
-| Collectivités — départs | D43 | 20,0 | **15 %** ⚑ | **oui** | 1 | agents publics | 1er juil. | 6/12 | **10,00** | 8,50 | hors état B de l'État | — |
-| **TOTAL 2027** | | | | | | | | | **56,34** | 51,69 | | |
+| Collectivités — départs | D43 | 19,864 ⚐ | **15 %** ⚑ | **oui** | 1, à 30 % tant que l'indemnité court ⚐ | agents publics | 1er juil. | 6/12 | **2,98** | 8,50 | hors état B de l'État | — |
+| **TOTAL 2027** | | | | | | | | | **48,93** | 51,69 | | |
 
 ⚑ Socle « 10 à 20 % » au classeur, borne non arrêtée : 15 % par défaut.
 
@@ -180,7 +180,7 @@ Marches au 1er juillet de chaque exercice pour les lignes à sortie en trois ans
 | France Travail | 1,46 | 3,50 | 5,25 | 5,25 |
 | Ademe | 0,15 | 0,45 | 0,75 | 0,90 |
 | MaPrimeRénov' | 1,17 | 1,17 | 1,17 | 1,17 |
-| Autres opérateurs | 1,37 | 2,75 | 2,75 | 2,75 |
+| Autres opérateurs | 2,06 | 4,12 | 4,12 | 4,12 |
 | **Aide au logement** | 2,68 | 8,05 | 13,42 | 16,10 |
 | Aide médicale de l'État | 0,55 | 1,10 | 1,10 | 1,10 |
 | Chèque énergie | 0,30 | 0,60 | 0,60 | 0,60 |
@@ -198,19 +198,54 @@ Marches au 1er juillet de chaque exercice pour les lignes à sortie en trois ans
 | Politique de la ville | 0,20 | 0,40 | 0,40 | 0,40 |
 | Autres associations | 0,70 | 1,40 | 1,40 | 1,40 |
 | Charges courantes et achats | 3,80 | 3,80 | 3,80 | 3,80 |
-| Départs de fonctionnaires de l'État | 1,50 | 3,00 | 3,00 | 3,00 |
+| Départs de fonctionnaires de l'État | 0,45 | 0,90 | 0,90 | 0,90 |
 | Dépenses culturelles des collectivités | 11,60 | 11,60 | 11,60 | 11,60 |
-| Collectivités — aides aux entreprises | 4,10 | 8,20 | 12,30 | 12,30 |
+| Collectivités — aides aux entreprises | 4,07 | 8,14 | 12,21 | 12,21 |
 | Collectivités — charges courantes | 3,20 | 6,40 | 9,60 | 9,60 |
-| Collectivités — départs | 10,00 | 20,00 | 20,00 | 20,00 |
-| **Coupes, 27 lignes** | **56,34** | **100,05** | **123,97** | **127,57** |
+| Collectivités — départs | 2,98 | 5,96 | 5,96 | 5,96 |
+| **Coupes, 27 lignes** | **48,93** | **85,22** | **109,11** | **112,71** |
 | lignes de première partie et sociale, régime plein | — | — | — | **8,30** |
-| **Coupes, périmètre complet** | | | | **135,87** |
+| départs d'agents, part encore indemnisée (70 %), à terme ⚐ | — | — | — | **16,00** |
+| **Coupes, périmètre complet, à terme** | | | | **137,01** |
 | **Restitution** | **33,39** | **114,46** | **114,46** | **114,46** |
-| **Solde du budget** | **+22,95** | **−14,41** | **+9,51** | **+13,11** |
+| **Solde du budget** | **+15,54** | **−29,24** | **−5,35** | **−1,75** |
+| *solde au 20261015, avant la mise à niveau du 20261116* | *+22,95* | *−14,41* | *+9,51* | *+13,11* |
 | *solde au 20261008, double socle* | *+18,30* | *−21,61* | *+1,75* | *+5,33* |
 
-**Contrôle de périmètre, refait le 20261009** : 127,57 + 8,30 = **135,87 Md€** contre **135,9 Md€** au classeur — `Détail Economies`!F3 + F39, 82,5 + 53,4, total supprimé de l'État et des collectivités — **écart −0,03 Md€, soit 0,02 %**. **Le contrôle du 20261008 était une fausse concordance** : `Flux`!C6, 129,4 Md€, est le **gain d'année 1** de cinq blocs dont les niches fiscales et sociales (`=C8+C13+C15+C22+C27`), non le régime plein des économies. Les 128,09 Md€ s'en approchaient parce que le socle était compté deux fois — 7,8 Md€ de trop retirés.
+### Mise à niveau du 20261116 — quatre lignes, valeurs antérieures gardées
+
+⚐ **Montants : la série de classeurs du site fait foi** (*tranché par le pilotage, révocable* ; `methode/etats/SERIES_classeurs_projet_site_20261116.md`). *Relevé* à `Détail Economies` du classeur du site : F16 = 4,1163 (2,7453 au classeur du 9 octobre), F41 = 12,21 (12,3), F43 = 19,864 (20). D37 : voir le § 4.
+
+⚐ **Départs d'agents, D38 et D43.** *Validé — réponse de l'auteur du 20261116, relevée à `methode/arbitrages.md`* : « dans les 236 c'est tout dont acte, en salaire net en un an c'est 30 % ». Le régime plein compte la ligne entière, 3,0 et 19,864 ; la première année compte 30 %, tant que 70 % du traitement est maintenu. Le tableau comptait la ligne entière dès le 1er juillet 2027.
+
+**Le moment où une ligne passe de 30 % au plein n'est fixé par aucune pièce.** *Relevé* : l'indemnité dure d'une à sept années selon l'ancienneté de l'agent (liasse P2, amendement n° 26, C du II) ; la répartition des agents par ancienneté n'est dans aucune pièce du chantier ; le classeur écrit « à horizon 1 an » et « solde », sans date par ligne ; sa note de bloc `Détail Economies`!G3 dit des économies de l'État : « Effets pleins à horizon estimé à 3 ans », estimation que l'indemnité, due jusqu'à sept ans, dépasse. *Tranché en propre, révocable* : la trajectoire garde 30 % sur toute la fenêtre 2027-2030 et porte les 70 % restants, **16,00 Md€**, « à terme », hors fenêtre. Chaque exercice où les deux lignes seraient comptées en entier ajouterait 16,00 Md€.
+
+Valeurs antérieures, pour la trace ; elles ne font plus foi.
+
+| ligne | cel. | F antérieur | 2027 | 2028 | 2029 | 2030 |
+|---|---|---:|---:|---:|---:|---:|
+| Autres opérateurs | D16 | 2,745 | 1,37 | 2,75 | 2,75 | 2,75 |
+| Départs de fonctionnaires de l'État | D38 | 3,0 | 1,50 | 3,00 | 3,00 | 3,00 |
+| Collectivités — aides aux entreprises | D41 | 12,3 | 4,10 | 8,20 | 12,30 | 12,30 |
+| Collectivités — départs | D43 | 20,0 | 10,00 | 20,00 | 20,00 | 20,00 |
+
+**Effet par exercice**, en mesure, Md€ :
+
+| | 2027 | 2028 | 2029 | 2030 |
+|---|---:|---:|---:|---:|
+| D16 | +0,69 | +1,37 | +1,37 | +1,37 |
+| D38 | −1,05 | −2,10 | −2,10 | −2,10 |
+| D41 | −0,03 | −0,06 | −0,09 | −0,09 |
+| D43 | −7,02 | −14,04 | −14,04 | −14,04 |
+| **coupes** | **−7,41** | **−14,83** | **−14,86** | **−14,86** |
+| coupes avant | 56,34 | 100,05 | 123,97 | 127,57 |
+| coupes après | 48,93 | 85,22 | 109,11 | 112,71 |
+
+**Les § 6, 7, 15, 16 et 17 ci-dessous, `livrables/suivi_trajectoire_20261015.md`, `livrables/flux_par_agent_20261015.md` et `referentiels/Flux_par_agent_20261015.xlsx` sont antérieurs à cette mise à niveau et ne sont pas rejoués.** Leurs soldes, leurs lignes « Agents publics », « Opérateurs » et « Entreprises », et les pans « Opérateurs », « Départs État » et « Collectivités » décrivent l'état du 15 octobre. La projection à jour, par ligne et par mois, est `referentiels/calendrier_mesures_mois_20261116.tsv`.
+
+**Contrôle de périmètre, refait le 20261116** : 112,71 + 8,30 + 16,00 = **137,01 Md€** contre **137,145 Md€** au classeur du site — `Détail Economies`!F3 + F39, 83,871 + 53,274. Écart −0,14 Md€ (le socle de D15, pour l'essentiel).
+
+**Contrôle de périmètre, refait le 20261009** *(état antérieur)* : 127,57 + 8,30 = **135,87 Md€** contre **135,9 Md€** au classeur — `Détail Economies`!F3 + F39, 82,5 + 53,4, total supprimé de l'État et des collectivités — **écart −0,03 Md€, soit 0,02 %**. **Le contrôle du 20261008 était une fausse concordance** : `Flux`!C6, 129,4 Md€, est le **gain d'année 1** de cinq blocs dont les niches fiscales et sociales (`=C8+C13+C15+C22+C27`), non le régime plein des économies. Les 128,09 Md€ s'en approchaient parce que le socle était compté deux fois — 7,8 Md€ de trop retirés.
 
 **Preuve du double socle, sur l'annexe** (Md€) — assiette d'annexe arrêtée, la même minorée du socle, et F :
 

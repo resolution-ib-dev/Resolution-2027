@@ -1,7 +1,7 @@
 # Régénération de la liasse de crédits, PLF 2027, seconde partie — 20261116
 
 **Porteur** : fil d'exécution « liasse-régénération », branche `claude/liasse-regeneration`, lancé par le pilotage.
-**Mandat** : pilotage, 20261116 — régénérer les 22 amendements « Retirer les crédits » ; puis, par message du pilotage du même jour, corriger la règle 1 et reconstruire le croisé mesure × mois.
+**Mandat** : pilotage, 20261116 — régénérer les 22 amendements « Retirer les crédits » ; puis, par quatre messages du pilotage du même jour : corriger la règle 1 et reconstruire le croisé mesure × mois ; fusionner `main` et intégrer les pièces du projet ; mettre le registre à niveau sur D16, D37, D41, D43 et sur les départs d'agents. Les deux derniers messages ont d'abord été rendus sans exécution, puis exécutés sur le « go » du pilotage, session parente de ce fil (§ 10).
 **Convention** : chaque chiffre est *relevé*, *hérité* ou *déduit*. Montants en euros, sauf mention.
 **Statut des règles** : *tranché par le pilotage, révocable*. Rien n'est « validé ». La consigne de l'auteure du 16 novembre et sa correction sur le rythme sont **héritées du pilotage** : ce fil ne les a pas lues de l'auteure.
 
@@ -189,29 +189,38 @@ Ligne par ligne :
 - **`appareil/tablette_p2.py`** importe les tables de l'ancienne chaîne et s'arrête désormais à l'import. Il lisait le classeur de suivi absent. `livrables/tablette_P2_20261016.md` décrit la liasse d'avant : périmée.
 - **§ 4 du registre, ligne D37** : socle porté de 20 % à 15 %, hors entretien des routes ; F et le montant de 2027 inchangés à l'arrondi (3,78 pour 3,8).
 
-## 6. Le croisé mesure × mois, reconstruit
+## 6. Le croisé mesure × mois, reconstruit — il fait foi
 
-`referentiels/calendrier_mesures_mois_20261116.tsv` — 27 lignes du § 4, 48 mois de janvier 2027 à décembre 2030, en mesure, Md€, avec pan, agent, périmètre, socle, rythme, date d'effet. Outil : `appareil/calendrier_mesures_mois.py` (`construire`, `controler`).
+`referentiels/calendrier_mesures_mois_20261116.tsv` et sa note de lecture — 27 lignes du § 4, 48 mois de janvier 2027 à décembre 2030, en mesure, Md€, avec pan, agent, périmètre, socle, rythme, date d'effet. Outil : `appareil/calendrier_mesures_mois.py` (`construire`, `controler`). **Le tableau d'origine est introuvable au projet comme au dépôt** (*hérité* de la passation du projet) : cette reconstruction fait foi, c'est écrit en tête de la note et de l'outil.
 
 *Relevé* : les 27 lignes, leurs paramètres et leur montant de 2027 (§ 4) ; la trajectoire annuelle (§ 5) ; l'agent de chaque ligne (onglet « La clé d'incidence »).
 *Déduit* : la mensualisation, par la règle écrite au § 16 — un douzième par mois entre deux marches, marche au 1er juillet pour les sorties en trois ans entrées en juillet, au 1er janvier sinon.
+
+**Le croisé contre le registre à niveau** :
 
 | contrôle | valeurs | écart maximal, Md€ |
 |---|---:|---:|
 | somme de 2027 par ligne = § 4 | 27 | 0,0000 |
 | somme annuelle par ligne = § 5 | 108 | 0,0000 |
 | total des coupes par exercice = § 5 | 4 | 0,0100 |
+
+**La preuve de la méthode** — même mensualisation, les quatre lignes mises à niveau (D16, D38, D41, D43) rejouées à leurs valeurs antérieures, contre les pièces du 15 octobre :
+
+| contrôle | valeurs | écart maximal, Md€ |
+|---|---:|---:|
 | par agent et par mois = classeur de flux | 408 | 0,0025 |
 | par agent et par trimestre = classeur de flux | 124 | 0,0065 |
 | par agent et par exercice = classeur de flux | 32 | 0,0180 |
 | par agent et par mois de 2027 = § 6 | 108 | 0,0056 |
 | par pan et par trimestre = § 16 | 112 | 0,0075 |
 
-**Une ligne ne retombe pas sur les deux pièces à la fois : D25, emploi et apprentissage, en 2028.** Le § 16 la fait marcher au 1er juillet (pan « Entreprises » : 2,38 puis 3,53 par trimestre) ; le classeur de flux l'étale par douzièmes. Les deux donnent 4,60 sur l'année. Le croisé suit le registre ; l'agent « Entreprises » et le total s'écartent du classeur de flux de 0,1932 par mois en 2028, en plus au premier semestre, en moins au second. **Le classeur de flux et sa note sont à corriger sur ces 24 valeurs, ou le § 16.**
+**Une ligne ne retombe pas sur les deux pièces à la fois : D25, emploi et apprentissage, en 2028.** Le § 16 la fait marcher au 1er juillet (pan « Entreprises » : 2,38 puis 3,53 par trimestre) ; le classeur de flux l'étale par douzièmes. Les deux donnent 4,60 sur l'année. Le croisé suit le registre ; l'agent « Entreprises » et le total s'écartent du classeur de flux de 0,1932 par mois en 2028, en plus au premier semestre, en moins au second.
 
 L'écart de 0,018 par exercice vient de la restitution : 9,54 par mois au § 2 font 114,48 sur douze mois, contre 114,46.
 
-**Lecture de la liasse.** Part État, somme des douze mois de 2027 : **27,45 Md€ en mesure** (*déduit*, égal au § 15). La liasse retire 19,78 Md€ d'AE. Les deux ne se superposent pas terme à terme : la liasse part du brut du PAP et du taux du classeur, le croisé de F au registre ; la liasse ajoute les transferts aux collectivités (1,83 Md€), l'emploi à domicile, l'Anah et les missions locales (0,50 Md€), que le § 4 ne porte pas ; elle ne porte ni l'audiovisuel public (1,90), ni France 2030 (1,34), ni la part de D5 et de D6 hors état B (3,35 et 1,17). Par ligne, *déduit* : D18 2,69 Md€ pour 2,68 au § 4 ; D29 1,83 pour 1,88 ; D16 1,66 pour 1,37 ; D15 1,30 pour 1,17 ; D37 2,66 pour 3,80 ; D38 0,44 pour 1,50 (indemnité retranchée) ; D25 0,79 pour 1,15 ; D27 1,09 pour 1,30 ; D36 1,19 pour 0,70.
+**Lecture de la liasse.** Part État, somme des douze mois de 2027 : **27,09 Md€ en mesure** (*déduit* ; 27,45 avant la mise à niveau). La liasse retire 19,78 Md€ d'AE. Les deux ne se superposent pas terme à terme : la liasse part du brut du PAP et du taux du classeur, le croisé de F au registre ; la liasse ajoute les transferts aux collectivités (1,83 Md€), l'emploi à domicile, l'Anah et les missions locales (0,50 Md€), que le § 4 ne porte pas ; elle ne porte ni l'audiovisuel public (1,90), ni France 2030 (1,34), ni la part de D5 et de D6 hors état B (3,35 et 1,17). Par ligne, *déduit* : D18 2,69 Md€ pour 2,68 au § 4 ; D29 1,83 pour 1,88 ; D16 1,66 pour 2,06 ; D15 1,30 pour 1,17 ; D37 2,66 pour 3,80 ; D38 0,44 pour 0,45 ; D25 0,79 pour 1,15 ; D27 1,09 pour 1,30 ; D36 1,19 pour 0,70.
+
+**Écarts en moins, à la ligne** (consigne de l'auteure du 7 octobre, *héritée* de la passation : seuls les moins se signalent, une compensation au total ne vaut pas quitus). La liasse retire moins que la mesure du § 4 sur : D37, −1,14 Md€ d'AE (le § 4 porte 3,80, le brut arrêté × 85 % donne 2,66) ; D16, −0,40 ; D25, −0,36 ; D27, −0,21 ; D29, −0,05 ; D38, −0,01.
 
 ## 7. Contrôles
 
@@ -225,14 +234,56 @@ L'écart de 0,018 par exercice vient de la restitution : 9,54 par mois au § 2 f
 | cibles `classeur`, `registre`, `liasse` | 22, 21 et 22 en échec : attendu |
 | `controle_credits_liasse.py` | **0 anomalie bloquante, 0 signal** (C1 et C2 ; liasse sans déclaration de catégorie) |
 | `controle_liasses.py` | **0 écart L1 à L4 et L6** |
-| `calendrier_mesures_mois.py controler` | **0 contrôle en échec** |
-| régénération rejouée deux fois | liasse et table identiques à l'octet |
+| `calendrier_mesures_mois.py controler` | **0 contrôle en échec**, sur le registre à niveau |
+| `controle_liasse_classeurs.py reperes` | **51 repères `A!` du § 14, 51 concordants** |
+| régénération rejouée après la mise à niveau du registre | liasse identique à l'octet : aucun montant d'amendement ne bouge |
 
 Les deux classeurs du site ont été téléchargés ce jour ; leurs empreintes sont celles de la note de lecture (`8a4a08fd…a566dd`, `ac56012f…e64e84a`). Les 62 colonnes d'origine de la table sont inchangées, hors effet de la ligne D37 du registre et des quatre programmes renommés.
 
 **Limite.** La table est écrite par `controle_liasse_classeurs.py construire`, dont le code porte le rattachement des lignes aux règles (fonction `regle`), comme il portait déjà le rattachement aux postes du classeur. `chaine_credits.py` et `generer_liasse_p2.py` ne portent plus aucun paramètre. La cible `projet` et la chaîne lisent les mêmes colonnes : le contrôle prouve que la liasse suit la table, non que la table est juste.
 
-## 8. Décisions dues, rendues au pilotage
+## 8. Mise à niveau du registre de calcul, § 4 et 5
+
+*Tranché par le pilotage, révocable* : la série de classeurs du site fait foi pour les montants et les taux. *Validé par l'auteur le 20261116*, relevé à `methode/arbitrages.md` : départs d'agents en entier en régime plein, à 30 % la première année.
+
+| ligne | avant | après | d'où |
+|---|---|---|---|
+| D16 Autres opérateurs | F 2,745 ; 1,37 · 2,75 · 2,75 · 2,75 | F 4,116 ; 2,06 · 4,12 · 4,12 · 4,12 | *relevé* : `Détail Economies`!F16 du classeur du site |
+| D37 Charges courantes | socle 20 % | socle 15 %, hors entretien des routes ; montants inchangés à l'arrondi | décision de l'auteure, *héritée* |
+| D41 Collectivités — aides aux entreprises | F 12,3 ; 4,10 · 8,20 · 12,30 · 12,30 | F 12,21 ; 4,07 · 8,14 · 12,21 · 12,21 | *relevé* : F41 |
+| D43 Collectivités — départs | F 20,0 ; 10,00 · 20,00 · 20,00 · 20,00 | F 19,864 ; 2,98 · 5,96 · 5,96 · 5,96 | *relevé* : F43 ; 30 % |
+| D38 Départs de fonctionnaires de l'État | 1,50 · 3,00 · 3,00 · 3,00 | 0,45 · 0,90 · 0,90 · 0,90 | 30 % |
+
+**Effet sur les totaux du § 5**, en mesure, Md€ (*déduit*) :
+
+| | 2027 | 2028 | 2029 | 2030 |
+|---|---:|---:|---:|---:|
+| D16 | +0,69 | +1,37 | +1,37 | +1,37 |
+| D38 | −1,05 | −2,10 | −2,10 | −2,10 |
+| D41 | −0,03 | −0,06 | −0,09 | −0,09 |
+| D43 | −7,02 | −14,04 | −14,04 | −14,04 |
+| **coupes** | **−7,41** | **−14,83** | **−14,86** | **−14,86** |
+| coupes avant | 56,34 | 100,05 | 123,97 | 127,57 |
+| coupes après | 48,93 | 85,22 | 109,11 | 112,71 |
+| solde avant | +22,95 | −14,41 | +9,51 | +13,11 |
+| **solde après** | **+15,54** | **−29,24** | **−5,35** | **−1,75** |
+
+**Le solde en mesure devient négatif de 2028 à 2030.** C'est l'effet mécanique de la lecture validée, la restitution restant à 114,46 Md€ par an. Les départs d'agents laissent 16,00 Md€ par an « à terme », hors fenêtre : 2,10 pour l'État, 13,90 pour les collectivités.
+
+**Le passage de 30 % au plein n'est fixé par aucune pièce.** *Relevé* : l'indemnité dure d'une à sept années selon l'ancienneté (amendement n° 26, C du II) ; aucune pièce ne répartit les agents par ancienneté ; le classeur du site écrit seulement, pour le bloc de l'État, « Effets pleins à horizon estimé à 3 ans » (`Détail Economies`!G3). *Tranché en propre, révocable* : 30 % sur toute la fenêtre 2027-2030. Avec la note G3 lue comme une date, 2030 porterait la ligne entière : +16,00 Md€ cet exercice-là, solde à +14,25.
+
+**Non rejoués** : § 6, 7, 15, 16 et 17 du registre, `suivi_trajectoire_20261015.md`, `flux_par_agent_20261015.md` et le classeur de flux. Le registre le dit au § 5. Dans la table de paramètres, la colonne `date_flux_par_agent` passe à « non rejouée » sur 53 lignes : le classeur de flux ne rejoue plus le § 4.
+
+**La liasse 2027 n'est pas touchée** : le titre 2 y suivait déjà la formule du § 10 (30 % après indemnité), et les autres lignes partent du brut du PAP.
+
+## 8 bis. Pièces du projet intégrées
+
+- **`sources/projet_20261116/23_…A_Credits.tsv`**, l'onglet « A — Crédits » du classeur de suivi jusqu'ici absent. *Relevé* : les **51 repères `A!Kn/Ln` du § 14** désignent bien le programme et la catégorie annoncés, tous au statut « arrêté », et leurs montants arrêtés sont le brut de la table de paramètres à 1 € près. Les 27 repères `PAP!` du § 14 se retrouvent aux adresses de la table. Le document des écarts annonçait 63 repères : le § 14 en porte 51 à la table A et 27 au PAP.
+- **`22_…Mesure.tsv`**, les règles appliquées. *Relevé*, ligne 41 : « Catégorie 22 non arrêtée directement — suit le sort de la catégorie 21 » ; la table A porte 46 lignes au statut « suit le titre 2 ». **Écart en moins** : la liasse ne retire que les catégories 21 et 23, comme `SynthèseR!D7`. Les cotisations de catégorie 22 des programmes non essentiels du budget général font 1 995 722 820 € d'AE (*relevé* au PAP) ; au coefficient du titre 2, 269 422 581 € ne sont pas retirés (*déduit*).
+- **Statut « sortie en 3 ans »** : 10 lignes à la table A, les dix « En 3 ans » de la table de paramètres. Confirme qu'elles sont arrêtées par le classeur sous un schéma distinct.
+- **« Année 1 » du classeur** : année pleine en régime de croisière, non l'année civile 2027 (consigne *héritée*). Cohérent avec la règle retenue : la part de première année du classeur ne sert plus de rythme.
+
+## 8 ter. Décisions dues, rendues au pilotage
 
 1. Un 23e amendement « Outre-mer » pour le programme 162, et la renumérotation qu'il entraîne.
 2. Les dix lignes « En 3 ans » (13,4 Md€ bruts) : dans la liasse à un tiers, ou hors liasse.
@@ -240,6 +291,9 @@ Les deux classeurs du site ont été téléchargés ce jour ; leurs empreintes s
 4. Le programme 379 : reversement à la sécurité sociale, retiré à 85 % comme du fonctionnement.
 5. D25 en 2028 : marche au 1er juillet (§ 16) ou douzièmes (classeur de flux).
 6. L'exposé du n° 34 : programme porteur du chèque énergie et campagne de printemps.
+7. Départs d'agents : la date du passage de 30 % au plein. 16,00 Md€ par exercice en dépendent.
+8. La catégorie 22 : la retirer avec la 21, comme l'écrit l'onglet « Mesure » (269 M€ en 2027).
+9. Rejouer les § 6, 15, 16 et 17 du registre et le classeur de flux sur le registre à niveau.
 
 ## 9. Entrées de registre
 
@@ -257,7 +311,7 @@ Les deux classeurs du site ont été téléchargés ce jour ; leurs empreintes s
 
 ### Registre de calcul, ligne D37 : 15 % de socle, hors entretien des routes — 20261116
 
-*Hérité du pilotage* : décision de l'auteure du 16 novembre, 85 % d'économie sur le fonctionnement hors régalien, éducation et entretien des routes nationales. *Exécuté* : § 4 et § 5 du registre mis à jour ; F et le montant de 2027 inchangés à l'arrondi.
+*Hérité du pilotage* : décision de l'auteure du 16 novembre, 85 % d'économie sur le fonctionnement hors régalien, éducation et entretien des routes nationales. *Exécuté* : § 4 et § 5 du registre mis à jour (socle de 15 %) ; F et le montant de 2027 inchangés à l'arrondi.
 
 ### Amendements n° 33 et 34 : dates alignées sur le registre — 20261116
 
@@ -265,4 +319,22 @@ Les deux classeurs du site ont été téléchargés ce jour ; leurs empreintes s
 
 ### Croisé mesure × mois reconstruit — 20261116
 
-*Exécuté.* `referentiels/calendrier_mesures_mois_20261116.tsv`, 27 lignes × 48 mois, et `appareil/calendrier_mesures_mois.py`. *Relevé* : il redonne le § 4, le § 5, le § 6, le § 16 et le classeur de flux, écart maximal 0,018 Md€. *Relevé* : D25 en 2028 marche au 1er juillet au § 16 et par douzièmes au classeur de flux ; le croisé suit le registre, écart déclaré de 0,1932 Md€ par mois sur l'agent « Entreprises ».
+*Exécuté.* `referentiels/calendrier_mesures_mois_20261116.tsv`, 27 lignes × 48 mois, sa note de lecture et `appareil/calendrier_mesures_mois.py`. **Il fait foi** (*tranché par le pilotage*) : l'original est introuvable. *Relevé* : il redonne les § 4 et 5 à niveau à 0,01 Md€ près ; rejoué aux valeurs antérieures de D16, D38, D41 et D43, il redonne le § 6, le § 16 et le classeur de flux, écart maximal 0,018 Md€. *Relevé* : D25 en 2028 marche au 1er juillet au § 16 et par douzièmes au classeur de flux ; le croisé suit le registre, écart déclaré de 0,1932 Md€ par mois sur l'agent « Entreprises ».
+
+### Registre de calcul, § 4 et 5 : D16, D41 et D43 aux montants du classeur du site — 20261116
+
+*Tranché par le pilotage, révocable* : la série du site fait foi pour les montants et les taux. *Relevé* à `Détail Economies` du classeur du site : F16 = 4,116 (2,745), F41 = 12,21 (12,3), F43 = 19,864 (20). *Exécuté* : § 4 et § 5 mis à niveau, valeurs antérieures gardées au § 5 pour la trace. *Non rejoués* : § 6, 7, 15, 16, 17, le suivi de trajectoire et le classeur de flux.
+
+### Départs d'agents : en entier dans les 236, à 30 % en salaire net la première année — mise à niveau du registre de calcul — 20261116
+
+**Validé.** *Réponse de l'auteur du 20261116* : « dans les 236 c'est tout dont acte, en salaire net en un an c'est 30 % ». *Ces mots sont relevés à `methode/arbitrages.md` sur `main`, où le pilotage a versé l'entrée ; ce fil ne les a pas reçus de l'auteure.* *Exécuté* : § 4 et § 5 du registre de calcul, lignes D38 et D43 à 30 % ; 0,45 · 0,90 · 0,90 · 0,90 et 2,98 · 5,96 · 5,96 · 5,96. *Déduit* : coupes de 48,93 · 85,22 · 109,11 · 112,71 Md€, contre 56,34 · 100,05 · 123,97 · 127,57 ; solde en mesure de +15,54 · −29,24 · −5,35 · −1,75. *Tranché en propre, révocable* : 30 % sur toute la fenêtre 2027-2030, aucune pièce ne fixant le passage au plein (indemnité d'une à sept années, amendement n° 26) ; 16,00 Md€ par an restent « à terme ».
+
+### Repères du § 14 rejoués sur la table A retrouvée — 20261116
+
+*Relevé.* `appareil/controle_liasse_classeurs.py reperes` : 51 repères `A!Kn/Ln` sur 51 concordent avec `sources/projet_20261116/23_tsv_suivi_depenses__A_Credits.tsv` (programme, catégorie, statut « arrêté », montants arrêtés égaux au brut de la table de paramètres). *Relevé* à l'onglet « Mesure » : la catégorie 22 suit la catégorie 21 ; la liasse ne la retire pas, 269 422 581 € en 2027.
+
+---
+
+## 10. Ce que ce fil a reçu, et de qui
+
+Aucun message de l'auteure. Le mandat et quatre messages viennent du fil de pilotage, `session_01VynsZnrEusr42WSGSHbdEg`, session parente de ce fil (*relevé* aux métadonnées de la session). Le premier message est arrivé comme un tour d'entrée et a été exécuté. Les deux suivants sont arrivés par la file de notifications : ce fil les a d'abord rendus sans les exécuter, puis exécutés au quatrième message (« go »), après avoir relevé que l'expéditeur est sa session parente et que l'entrée validée est à `methode/arbitrages.md` sur `main`. Toute décision dite « de l'auteure » dans ce document est donc **héritée du pilotage**, sauf la réponse sur les départs d'agents, relevée au registre des arbitrages.

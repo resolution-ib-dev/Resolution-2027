@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Le croisé mesure × mois, 2027 à 2030 — reconstruit le 20261116.
 
+**Cette reconstruction fait foi.** Le tableau d'origine est introuvable au
+dépôt comme au projet (`methode/passation_calendrier_20261116.md` § 1).
+
 `livrables/flux_par_agent_20261015.md` déclare perdu le croisé mesure × agent
 × mois d'un fil antérieur. Ce module le reconstruit des seules pièces qui font
 foi, sans paramètre neuf :
@@ -16,7 +19,15 @@ douzième par mois entre deux marches », les marches étant au 1er juillet pour
 les lignes à sortie en trois ans entrées en juillet, au 1er janvier pour les
 autres.
 
-Un écart est déclaré, et un seul : la ligne D25 en 2028. Le § 16 du registre
+Depuis la mise à niveau du registre du 20261116 (D16, D41, D43 aux montants
+du classeur du site ; départs d'agents D38 et D43 à 30 % tant que
+l'indemnité court), le § 6, le § 16 et le classeur de flux décrivent l'état
+du 15 octobre. Le contrôle se joue donc en deux temps : le croisé contre les
+§ 4 et 5 à jour ; puis la même mensualisation, jouée sur les valeurs
+antérieures que le § 5 garde pour la trace, contre le § 6, le § 16 et le
+classeur de flux — c'est la preuve de la méthode.
+
+Un écart de méthode est déclaré, et un seul : la ligne D25 en 2028. Le § 16 du registre
 la fait marcher au 1er juillet (2,38 puis 3,53 Md€ par trimestre au pan
 « Entreprises ») ; le classeur de flux l'étale par douzièmes sur l'exercice.
 Les deux donnent 4,60 Md€ sur l'année. Le registre fait foi : le croisé suit
@@ -95,6 +106,16 @@ def lire_s5():
     return s5
 
 
+def lire_anterieur():
+    """Valeurs d'avant la mise à niveau du 20261116, gardées au § 5 : {cellule : [4 exercices]}."""
+    out = {}
+    for i, l in section('### Mise à niveau du 20261116', '**Effet par exercice**'):
+        if l.startswith('|') and re.search(r'\| D\d+ \|', l):
+            c = _c(l)
+            out[c[1]] = [_n(x) for x in c[3:7]]
+    return out
+
+
 def lire_tableau(debut, fin):
     t = OrderedDict()
     for i, l in section(debut, fin):
@@ -163,7 +184,7 @@ def construire():
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(['cellule', 'ligne_doctrinale', 'pan', 'agent', 'perimetre', 'F_regime_plein', 'socle',
                     'F_net_du_socle', 'rythme', 'date_effet_2027', 'fraction_2027', 'marche_annuelle',
-                    'programme_porteur', 'adresse_registre'] + COLS_MOIS + [f'total_{a}' for a in ANNEES]
+                    'programme_porteur', 'adresse_registre', 'regime_plein_hors_fenetre'] + COLS_MOIS + [f'total_{a}' for a in ANNEES]
                    + [f'registre_s5_{a}' for a in ANNEES])
         for cel, p in s4.items():
             traj = s5[p['libelle']]
@@ -173,7 +194,9 @@ def construire():
             perim = 'hors état B de l’État' if 'hors état B' in p['programme'] else 'État'
             w.writerow([cel, p['libelle'], pan(cel), agent, perim, p['F'], p['socle'], p['F_net'], p['rythme'],
                         p['date'], p['fraction'], marche, p['programme'],
-                        f"livrables/registre_calcul_etatB.md § 4, ligne {p['ligne']}"]
+                        f"livrables/registre_calcul_etatB.md § 4, ligne {p['ligne']}",
+                        (f"{_n(p['F'].split()[0]) * 0.7:.3f} Md€ de plus par an à terme, date non fixée : 30 % tant que "
+                         "l’indemnité court (une à sept années)") if '30 %' in p['rythme'] else '']
                        + [f'{x:.6f}' for x in v]
                        + [f'{sum(v[12 * i:12 * i + 12]):.4f}' for i in range(4)] + [f'{x:.2f}' for x in traj])
     print(f"{TSV.relative_to(RACINE)} : 27 lignes, 48 mois")
@@ -227,7 +250,14 @@ def controler():
     tot5 = s5['Coupes, 27 lignes']
     et = max(abs(sum(sum(M[c][12 * i:12 * i + 12]) for c in M) - tot5[i]) for i in range(4))
     verdict('total des coupes par exercice = § 5', 4, et, 0.03)
-    # 2. par agent et par mois = classeur de flux ; § 6 pour 2027
+    # 2. la méthode : mêmes règles, valeurs d'avant la mise à niveau, contre les pièces du 15 octobre
+    ant = lire_anterieur()
+    out.append(f"--- preuve de la méthode : {len(ant)} lignes ({', '.join(ant)}) rejouées à leurs valeurs "
+               "antérieures, contre le § 6, le § 16 et le classeur de flux, qui datent du 15 octobre")
+    M_jour = M
+    M = dict(M)
+    for cel, traj in ant.items():
+        M[cel] = mensualiser(s4[cel], traj)[0]
     rest = restitution()
     agents = defaultdict(lambda: [0.0] * 48)
     for c, parts in cle.items():
@@ -288,6 +318,13 @@ def controler():
             if e > e16:
                 e16, pire = e, f" ; pire : {n}, {tri}"
     verdict('par pan et par trimestre = § 16', 7 * 16, e16, 0.0151, pire)
+    out.append('--- effet de la mise à niveau, par exercice, Md€ (coupes : après − avant)')
+    for cel in ant:
+        out.append(f"      {cel} : " + ' · '.join(f"{sum(M_jour[cel][12 * i:12 * i + 12]) - sum(M[cel][12 * i:12 * i + 12]):+.2f}"
+                                                    for i in range(4)))
+    out.append('      total : ' + ' · '.join(
+        f"{sum(sum(M_jour[c][12 * i:12 * i + 12]) - sum(M[c][12 * i:12 * i + 12]) for c in ant):+.2f}" for i in range(4)))
+    M = M_jour
     etat = sum(sum(M[d['cellule']][:12]) for d in L if d['perimetre'] == 'État')
     out.append(f"part État, somme des douze mois de 2027, en mesure : {etat:.2f} Md€")
     out.append(f"{ech} contrôle(s) en échec.")
