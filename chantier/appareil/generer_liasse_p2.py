@@ -1,18 +1,44 @@
 #!/usr/bin/env python3
-"""Génère les pièces de crédits de la liasse P2 depuis la chaîne.
+"""Régénère les amendements « Retirer les crédits » de la liasse P2.
 
-Une mission, un amendement. Les montants viennent de `chaine_credits.py` ;
-rien n'est écrit à la main. L'exposé se construit des seuls faits mesurés :
-crédits ouverts au texte déposé, catégories touchées, date d'effet.
+Réécrit le 20261116. Une mission, un amendement ; les numéros sont ceux de la
+liasse en place. Les montants viennent de `chaine_credits.py`, qui lit
+`referentiels/parametres_credits_20261116.tsv` : rien n'est écrit à la main,
+aucun paramètre ne vit ici. L'exposé se construit des seuls faits de la table :
+crédits ouverts au texte déposé, natures de crédits touchées, date d'effet de
+chaque ligne.
+
+Le générateur remplace, dans la liasse, les seuls blocs des amendements de
+mission et leurs lignes de sommaire. Les autres amendements ne sont pas lus.
+
+Usage : python3 appareil/generer_liasse_p2.py [liasse.md] [--a-blanc]
 """
-import sys, csv
-sys.path.insert(0, 'appareil')
-import pandas as pd
-from chaine_credits import DATE_CAT, FRACTION, residuel, norm, INDEMNITE
-from collections import defaultdict
+import re, sys
+from pathlib import Path
 
-NB = ' '
-def eur(n): return f'{int(round(n)):,}'.replace(',', NB)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from chaine_credits import RACINE, lire_table, missions, montant
+
+LIASSE = RACINE / 'livrables/depot_2027/LIASSE_PLF_P2.md'
+NB = ' '
+OBJET_TITRE = 'Retirer les crédits que la présente loi interrompt'
+
+
+def eur(n):
+    return f'{int(round(n)):,}'.replace(',', NB)
+
+
+def rond(n):
+    """Règle du 20261019 : entier au-dessus de 10, une décimale en dessous,
+    dans l'unité qui convient."""
+    def f(x):
+        return f'{x:.0f}' if x >= 9.95 else f'{x:.1f}'.replace('.', ',')
+    if n >= 999_500_000:
+        return f'{f(n / 1e9)}{NB}milliard{"s" if n / 1e9 >= 1.95 else ""} d’euros'
+    if n >= 999_500:
+        return f'{f(n / 1e6)}{NB}million{"s" if n / 1e6 >= 1.95 else ""} d’euros'
+    return f'{eur(round(n, -3))}{NB}euros'
+
 
 CAT_NOM = {21: 'rémunérations', 22: 'cotisations sociales', 23: 'avantages salariaux',
            31: 'fonctionnement courant', 32: 'subventions pour charges de service public',
@@ -20,103 +46,98 @@ CAT_NOM = {21: 'rémunérations', 22: 'cotisations sociales', 23: 'avantages sal
            53: 'investissement de l’État', 61: 'transferts aux ménages',
            62: 'transferts aux entreprises', 63: 'transferts aux collectivités',
            64: 'transferts aux autres collectivités'}
+DATE_LONGUE = {'1er janv.': '1er janvier 2027', '1er avril': '1er avril 2027', '1er juil.': '1er juillet 2027'}
 
-def charger(X):
-    eb, t2, cur = {}, {}, None
-    for r in csv.DictReader(open('referentiels/etatB_2027_bg.tsv'), delimiter='\t'):
-        if r['rang'] == 'programme':
-            cur = norm(r['libelle']); eb[cur] = (int(r['ae']), int(r['cp']))
-        elif r['rang'] == 'titre2' and cur:
-            t2[cur] = int(r['ae'])
-    d = pd.read_excel(X, 'A — Crédits', header=0)
-    d.columns = [str(c).strip() for c in d.columns]
-    d = d[(d['Statut doctrine'] == 'arrêté') & (d['AE arrêtées (M€)'].astype(float) > 0)]
-    par = defaultdict(lambda: defaultdict(lambda: [0.0, 0.0, set(), set()]))
-    for _, r in d.iterrows():
-        t, c = int(r['Titre']), int(r['Catégorie'])
-        p, m = str(r['Libellé programme']), str(r['Mission'])
-        dt = DATE_CAT.get(c)
-        if dt is None or norm(p) not in eb: continue
-        fr = FRACTION[dt]; res = residuel(t, c)
-        a = 0.90 if t == 2 else 1.0
-        net = (1 - INDEMNITE) if t == 2 else 1.0
-        par[m][p][0] += float(r['AE arrêtées (M€)']) * 1e6 * a * fr * net
-        par[m][p][1] += min(float(r['CP arrêtés (M€)']), float(r['AE arrêtées (M€)'])) * 1e6 * a * fr * (1 - res) * net
-        par[m][p][2].add(c); par[m][p][3].add(dt)
-    return eb, t2, par
 
-def piece(n, mission, lignes, eb, t2):
-    sae = sum(l[1] for l in lignes); scp = sum(l[2] for l in lignes)
-    cats = sorted({c for l in lignes for c in l[3]})
-    dates = sorted({d for l in lignes for d in l[4]})
-    o = []
-    o.append(f'## Amendement n° {n} [Retirer les crédits que la présente loi interrompt, '
-             f'mission «{NB}{mission}{NB}»]\n')
-    o.append('AMENDEMENT\n')
-    o.append('présenté par\n')
-    o.append('----------\n')
-    o.append('ARTICLE 58\n')
-    o.append(f'Modifier ainsi les crédits de la mission «{NB}{mission}{NB}» :\n')
-    o.append('| Programmes | AE + | AE − | CP + | CP − |')
-    o.append('|---|---:|---:|---:|---:|')
-    for p, ae, cp, _, _, t2m in lignes:
-        o.append(f'| {p} | 0 | {eur(ae)} | 0 | {eur(cp)} |')
-        if t2m: o.append(f'| *dont titre 2* | 0 | {eur(t2m)} | 0 | {eur(t2m)} |')
+def enumerer(xs):
+    xs = list(xs)
+    return xs[0] if len(xs) == 1 else ', '.join(xs[:-1]) + ' et ' + xs[-1]
+
+
+def piece(n, mission, progs, table):
+    sae = sum(p['ae'] for _, p in progs)
+    scp = sum(p['cp'] for _, p in progs)
+    lignes = [d for _, p in progs for d in p['lignes'] if montant(d)[0] >= 0.5]
+    o = [f'## Amendement n° {n} [{OBJET_TITRE}, mission «{NB}{mission}{NB}»]\n',
+         'AMENDEMENT\n', 'présenté par\n', '----------\n', 'ARTICLE 58\n',
+         f'Modifier ainsi les crédits de la mission «{NB}{mission}{NB}» :\n',
+         '| Programmes | AE + | AE − | CP + | CP − |', '|---|---:|---:|---:|---:|']
+    for lib, p in progs:
+        o.append(f'| {lib} | 0 | {eur(p["ae"])} | 0 | {eur(p["cp"])} |')
+        if p['t2'] >= 1:
+            o.append(f'| *dont titre 2* | 0 | {eur(p["t2"])} | 0 | {eur(p["t2"])} |')
     o.append(f'| **TOTAUX** | 0 | **{eur(sae)}** | 0 | **{eur(scp)}** |')
     o.append(f'| **SOLDE** | **−{eur(sae)}** | | **−{eur(scp)}** | |\n')
     o.append('La présente mesure concourt à la réduction des prélèvements pesant sur les '
              'revenus d’activité.\n')
     o.append('EXPOSÉ SOMMAIRE\n')
+    cats = sorted({int(d['categorie']) for d in lignes})
     nat = ', '.join(dict.fromkeys(CAT_NOM.get(c, f'catégorie {c}') for c in cats))
-    plu = 's' if len(lignes) > 1 else ''
-    o.append(f'Cet amendement retire de la mission «{NB}{mission}{NB}» les crédits des '
-             f'dispositifs que la présente loi interrompt. Il porte sur {len(lignes)} '
-             f'programme{plu} et sur les crédits de {nat}.\n')
-    tot_ouvert = sum(eb[norm(l[0])][0] for l in lignes)
-    o.append(f'Les programmes visés reçoivent {eur(tot_ouvert)} euros d’autorisations '
-             f'd’engagement dans le texte déposé (état B)¹. L’amendement en retire '
-             f'{eur(sae)} euros en autorisations d’engagement et {eur(scp)} euros en '
-             f'crédits de paiement. L’écart entre les deux règle les engagements déjà '
-             f'contractés, que la mesure ne remet pas en cause.\n')
-    if dates == ['1er juil.']:
-        o.append('La mesure prend effet au 1er juillet 2027 : elle atteint des personnes '
-                 'physiques et la moitié de l’exercice leur est laissée.\n')
-    elif dates == ['1er janv.']:
-        o.append('La mesure prend effet au 1er janvier 2027 : elle n’atteint que des '
-                 'personnes morales et l’exercice est plein.\n')
+    plu = 's' if len(progs) > 1 else ''
+    p1 = (f'Cet amendement retire de la mission «{NB}{mission}{NB}» les crédits des '
+          f'dispositifs que la présente loi interrompt. Il porte sur {len(progs)} '
+          f'programme{plu} et sur les crédits de {nat}.')
+    if any('entretien des routes' in d['motif_hors_liasse'] for d in table
+           if d['etatB_2027_mission'] == mission):
+        p1 += ' Les crédits d’entretien du réseau routier national sont maintenus.'
+    o.append(p1 + '\n')
+    ouvert = sum(p['ouvert_ae'] for _, p in progs)
+    p2 = (f'Les programmes visés reçoivent {eur(ouvert)} euros d’autorisations '
+          f'd’engagement dans le texte déposé (état B)¹. L’amendement en retire '
+          f'{rond(sae)} en autorisations d’engagement et {rond(scp)} en crédits de paiement.')
+    if scp < sae:
+        p2 += (' L’écart entre les deux règle les engagements déjà contractés, que la '
+               'mesure ne remet pas en cause.')
+    if any(float(d['regle_rythme']) < 0.99 for d in lignes):
+        p2 += (' Un dispositif qui s’éteint en trois ans est retiré pour sa première année.')
+    o.append(p2 + '\n')
+    par_date = {}
+    for d in lignes:
+        par_date.setdefault(d['regle_date'], []).append(d['objet_expose'])
+    ordre = [k for k in DATE_LONGUE if k in par_date]
+    if len(ordre) == 1:
+        o.append(f'La mesure prend effet au {DATE_LONGUE[ordre[0]]}.\n')
     else:
-        o.append('La mesure prend effet au 1er janvier 2027 pour les personnes morales et '
-                 'au 1er juillet 2027 pour les personnes physiques.\n')
-    o.append('Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne '
+        ph = []
+        for i, k in enumerate(ordre):
+            sujet = 'La mesure' if i == 0 else 'Elle'
+            ph.append(f'{sujet} prend effet au {DATE_LONGUE[k]} pour '
+                      f'{enumerer(dict.fromkeys(par_date[k]))}.')
+        o.append(' '.join(ph) + '\n')
+    o.append(f'Dit simplement{NB}: le Parlement cesse d’autoriser une dépense dont il ne '
              'vote ni le barème ni les bénéficiaires.\n')
     o.append(f'¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à '
              f'l’article 58, mission «{NB}{mission}{NB}».\n')
-    return '\n'.join(o), sae, scp
+    return '\n'.join(o).replace("'", '’'), sae, scp
 
-def main(X, sortie):
-    eb, t2, par = charger(X)
-    blocs, tae, tcp, n = [], 0, 0, 0
-    for mis in sorted(par, key=lambda k: -sum(v[0] for v in par[k].values())):
-        lignes = []
-        for p, (ae, cp, cats, dates) in sorted(par[mis].items(), key=lambda x: -x[1][0]):
-            o = eb[norm(p)]
-            aep = min(ae, o[0]); cpp = min(cp, o[1], aep)
-            if aep < 1: continue
-            t2m = aep if cats <= {21, 22, 23} else 0
-            lignes.append((p, aep, cpp, cats, dates, t2m))
-        if not lignes: continue
-        n += 1
-        b, sae, scp = piece(n, mis, lignes, eb, t2)
-        blocs.append(b); tae += sae; tcp += scp
-    tete = [f'# Liasse PLF 2027 — seconde partie, crédits\n',
-            f'**{n} amendements**, un par mission. Montants tirés de la chaîne du § 1 du '
-            f'registre sur la table A, plafonnés à l’état B 2027.\n',
-            f'**Total : {eur(tae)} euros d’autorisations d’engagement et '
-            f'{eur(tcp)} euros de crédits de paiement.**\n', '---\n']
-    # Apostrophes typographiques : les libellés de l’état B portent des apostrophes droites.
-    texte = ('\n'.join(tete) + '\n'.join(blocs)).replace("'", '’')
-    open(sortie, 'w').write(texte)
-    print(f'{n} amendements écrits · AE {eur(tae)} · CP {eur(tcp)} → {sortie}')
+
+def main(argv):
+    chemin = Path(next((a for a in argv if not a.startswith('--')), LIASSE))
+    texte = chemin.read_text(encoding='utf-8')
+    table = lire_table()
+    ms = missions(table)
+    tae = tcp = 0
+    for n, (mission, progs) in ms.items():
+        bloc, sae, scp = piece(n, mission, progs, table)
+        tae += sae
+        tcp += scp
+        m = re.search(rf'^## Amendement n° {n} \[{OBJET_TITRE}, mission «.*?»\]\n', texte, re.M)
+        if not m:
+            sys.exit(f'amendement n° {n} introuvable dans {chemin.name}')
+        fin = re.compile(r'^---\n+(?:---\n+)?## Amendement n° ', re.M).search(texte, m.end())
+        texte = texte[:m.start()] + bloc + '\n' + texte[fin.start():]
+        texte, k = re.subn(rf'^\| {n} \| ARTICLE 58, état B \| .* \|$',
+                           f'| {n} | ARTICLE 58, état B | {OBJET_TITRE}, mission «{NB}{mission}{NB}» |',
+                           texte, flags=re.M)
+        if k != 1:
+            sys.exit(f'ligne de sommaire du n° {n} : {k} occurrence(s)')
+        print(f'n° {n:>2}  AE {eur(sae):>15}  CP {eur(scp):>15}  {mission}')
+    print(f'{len(ms)} amendements · AE {eur(tae)} · CP {eur(tcp)}')
+    if '--a-blanc' not in argv:
+        chemin.write_text(texte, encoding='utf-8')
+        print(f'→ {chemin}')
+    return 0
+
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2])
+    sys.exit(main(sys.argv[1:]))
