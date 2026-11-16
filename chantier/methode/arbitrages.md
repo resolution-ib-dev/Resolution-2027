@@ -8900,3 +8900,26 @@ Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
 *Calculé* : 4 731 M€ × 80 % = 3 784 M€ ; (4 731 − 284) × 85 % = 3 780 M€. Les deux s’arrondissent à 3,8 Md€ et à 130 € par foyer : « 85 % hors entretien des routes » et « 80 % du tout » disent la même chose. Les 90 % de Matignon, proposés « si besoin », ne sont pas nécessaires et sont retirés.
 
 *Exécuté* : `Dépenses de l’État.xls`, `SynthèseR` E7 et F7 reviennent à `× 0,8` (ils étaient passés à 0,796827 et 0,822530) ; H8 garde sa correction (4 980,7 M€) ; quatre cellules diffèrent de l’original (H8, H6, C8, C6). Classeur des chiffrages, hypothèse de la ligne 37 : « Hors régalien et éducation, 80 % d’économies (85 % hors entretien des routes nationales) ». Simulateur : 85 % pour tous les programmes, routes exclues. Guide budgétaire et note du simulateur alignés. La liasse n’est pas touchée par ce choix : elle retire les crédits à 100 % de l’assiette, entretien des routes exclu.
+
+### Fonctionnement de l’État : 85 % hors entretien des routes, écrit en clair — 20261116
+
+**Validé** (« pourquoi on retourne sur 80 au lieu de 85 ??!! », auteur, 20261116). **Faute de lecture, la mienne** : « fais des paramètres simples qui passent juste les arrondis » demandait un 85 % lisible, non le retour à 80 %. L’entrée précédente (« 80 % du tout ») est **remplacée**.
+
+*Exécuté* (`Site-ETNP/outils/retoucher_depenses.py`) : `Dépenses de l’État.xls`, `SynthèseR` — E7 `=('Economies R'!L4-233)*85/100`, F7 `=('Economies R'!N4-51)*85/100`, H8 `=SUM(D21:H21)+C21`. 233 et 51 M€ : fonctionnement et investissement de l’action « Routes – Entretien » du programme 203, arrondis du PAP (232,9 et 51,0). *Relevé* : 2 704,1 et 1 075,5 M€, **3 779,6 M€**. Fichier de même taille : deux formules grandissent de trois octets, la troisième en rend six, la table des lignes du bloc est reprise. *Contrôlé* : neuf cellules changées sur tout le classeur ; LibreOffice relit les formules et recalcule les mêmes valeurs. Classeur des chiffrages, hypothèse de la ligne 37 : « Hors régalien, éducation et entretien des routes nationales, 85 % d’économies ». Guide budgétaire et note du simulateur alignés.
+
+### Audit des canaux : la liasse de crédits n’applique ni socle ni rythme — 20261116
+
+*Constaté, sur demande de l’auteur (« audite tous les canaux »).* Les 22 amendements « Retirer les crédits que la présente loi interrompt » de `LIASSE_PLF_P2.md` retirent **43,69 Md€** d’autorisations d’engagement et 39,80 Md€ de crédits de paiement. Les lignes recalculées depuis `Dépenses de l’État.xls` (`Données PAP 2026`) tombent à l’euro sur le montant **brut** du PAP, multiplié par la seule fraction d’exercice de `chaine_credits.py` :
+
+| ligne du registre | programme | la liasse retire | le registre attend |
+|---|---|---:|---|
+| D19 aide médicale de l’État, socle 10 % | 183 | 608 150 000 € = 100 % × 6/12 | 547 335 000 € |
+| D29 hébergement d’urgence, socle 20 %, 1er avril | 177 | 3 045 085 425 € = 100 % × 12/12 | 1,88 Md€ |
+| D37 charges courantes, socle 20 % (15 % depuis ce jour) | 203, 113, 159 | 100 % du fonctionnement × 6/12 et de l’investissement | 80 % (85 %) |
+| D5 et D25 formation et apprentissage, rythmes ⅓ et 1/6 | 103 | 7 558 550 632 € = 100 % de toutes les catégories | 3,53 + 1,15 Md€ |
+
+*Cause, lue au code* : `chaine_credits.py` (inscrit le 20261016) écrit que « le socle, le rythme et le drapeau d’arrêt y sont DÉJÀ appliqués » à la table A du classeur de suivi, et s’appuie sur le contrôle « CP arrêtés = Economies R, écart nul ». Or `Economies R` porte les montants bruts à arrêter : l’égalité prouve l’inverse. *Non vérifié* : la table A elle-même, le classeur de suivi n’étant pas au dépôt ; l’historique git, importé en bloc le 20261106, ne dit pas quelle session a écrit ce passage.
+
+*Les autres canaux appliquent les pourcentages* : `SynthèseR` (0,9 ; 0,3 ; ⅓ ; 0,8 puis 0,85), le classeur des chiffrages qui en reprend les montants, le simulateur, la carto, le graphique, `REF_doctrine.json`.
+
+*Non corrigé* : la réécriture des 22 amendements demande la table de passage ligne du registre → programme × catégorie (§ 4 et § 14 du registre) et l’accord de l’auteur.
