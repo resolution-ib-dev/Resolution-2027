@@ -8831,3 +8831,15 @@ Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
 ### Simulateur, bloc Ministères : huit blocs, « fonctionnement » au titre — 20261116
 
 **Validé** (« ah oui en effet "fonctionnement" doit apparaître. faisons des blocs plus cohérents ? "intérieur et justice" "armées et affaires étrangères" "économie et finances" », auteur, 20261116). *Exécuté* (`Site-ETNP/outils/restitution.py`, table `BLOCS_MINISTERES`) : la carte s’intitule « Ministères : fonctionnement » au simulateur ; ses seize ministères sont rangés en huit blocs, chacun dans un seul. *Tranché en propre, à valider* : la composition des blocs — Économie, finances et comptes publics (994 M€) ; Premier ministre (903) ; Écologie, transports, logement et territoires (743) ; Culture, enseignement supérieur, jeunesse et sports (331) ; Intérieur et justice (278) ; Santé, travail et solidarités (248) ; Agriculture (232) ; Affaires étrangères (70). *Relevé* : le poste ne porte aucune ligne des Armées. L’entrée précédente (« 6 autres ministères ») est remplacée.
+
+### L’entretien des routes nationales sort des économies ; Ministères par ce qui est coupé — 20261116
+
+**Validé** (« on a vraiment enlevé l’entretien des routes nationales ?! […] on avait augmenté avec les agences, on doit pouvoir diminuer juste les routes », « tout ce qui est à Matignon en "coordination" c’est du vent », « c’est le bon ton », auteur, 20261116).
+
+*Constaté au classeur des dépenses* (`PLF26 - Depenses…xls`, onglet `Economies R`) : le programme 203 n’a pas de croix au périmètre essentiel ; son fonctionnement (268 M€) et son investissement (66 M€) entrent au total « à arrêter », dont l’action « Routes – Entretien », 284 M€ (onglet `Données PAP 2026`, catégories 31 et 5x). *Recompté* : la somme des programmes sans croix égale la ligne TOTAL (3 414,3 et 1 316,2 M€).
+
+*Exécuté au classeur Chiffres* : 284 M€ × 80 % = 0,2272 Md€ retirés, dès la première année, à cinq cellules saisies — `Détail Economies` D37 et F37 (3,8 → 3,5728), `Flux` C20 (3,5728), C15 (44 → 43,7728), G15 (83,871 → 83,6438) ; 18 formules recalculées. *Relevé* : total 236,175 ; première année 129,232 ; structures 68,015 ; fonctionnement 37,890. Les affichages à l’entier ne bougent pas (236, 68, 38). Le classeur `.xls` n’est pas retouché : la croix se met à la main, et elle sortirait tout le programme, non la seule action.
+
+*Exécuté ici* : `REF_doctrine.json`, `controle_arithmetique.py`, `sources_chiffres.py` portés à ces montants (restitution au médian 567,59 €/mois) ; `make controle` sans échec. Référentiel du simulateur régénéré : 505 éléments, 129,23 et 236,18 Md€.
+
+*Exécuté au simulateur* : la carte « Ministères : fonctionnement » a dix entrées « ministère : ce qui y est coupé », nommées d’après les actions du PAP (table `BLOCS_MINISTERES`) ; l’action des routes sort du détail (`ACTIONS_GARDEES`). *Tranché en propre, à valider* : les dix libellés ; et le rendement du patrimoine passé de 3,2 à 3,3 % pour garder 600 € par mois à 2 400 € nets, le retrait des routes en ôtant 0,6.
