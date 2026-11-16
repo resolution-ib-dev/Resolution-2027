@@ -9070,6 +9070,24 @@
    "famille": "méthode"
   },
   {
+   "role": "pilotage",
+   "chemin": "PILOTAGE.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "ouverture de session",
+    "état des chantiers"
+   ],
+   "alias": [
+    "PILOTAGE.md"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "PILOTAGE.md",
+   "famille": "méthode"
+  },
+  {
    "role": "chaine",
    "chemin": "Makefile",
    "rang": "appareil",
@@ -26372,8 +26390,8 @@
   }
  ],
  "comptes": {
-  "artefacts": 1710,
-  "au_coffre": 1649,
+  "artefacts": 1711,
+  "au_coffre": 1650,
   "au_depot": 1190,
   "derives": 291,
   "sources": 48,

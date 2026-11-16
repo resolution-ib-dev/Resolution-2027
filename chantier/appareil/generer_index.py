@@ -1686,6 +1686,8 @@ ARTEFACTS = [
     # ------------------------------------------------------------------ racine
     ('instructions', 'CLAUDE.md', 'methode', True, None,
      ['ouverture de session'], ['CLAUDE.md']),
+    ('pilotage', 'PILOTAGE.md', 'methode', True, None,
+     ['ouverture de session', 'état des chantiers'], ['PILOTAGE.md']),
     ('chaine', 'Makefile', 'appareil', True, None, ['make'], ['Makefile']),
     ('exclusions_git', '.gitignore', 'appareil', True, None, ['git'], []),
     ('demarrage', 'DEMARRAGE.md', 'methode', True, None,
