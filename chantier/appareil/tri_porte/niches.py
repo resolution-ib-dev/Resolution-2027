@@ -2,7 +2,7 @@ import xlrd,csv,json,re,sys,collections
 sys.path.insert(0,'.'); sys.path.insert(0,'/home/user/Resolution-2027')
 import droit
 n=droit.norm_num
-sh=xlrd.open_workbook('/home/user/Site-ETNP/site/donnees/PLF 2026_V&M tome II - Annexe 3 - Depenses fiscales - 0910.xls').sheet_by_name('Chiffrages Résolution')
+sh=xlrd.open_workbook('/home/user/Site-ETNP/site/donnees/Niches fiscales.xls').sheet_by_name('Chiffrages Résolution')
 NS={r['numero']:r for r in csv.DictReader(open('/home/user/Resolution-2027/chantier/referentiels/niches_sieges_20261004.tsv'),delimiter='\t')}
 BIL=open('/home/user/Resolution-2027/chantier/referentiels/annexe_evolution_df_bilan_2027.tsv').read()
 BOR=open('/home/user/Resolution-2027/chantier/referentiels/annexe_evolution_df_bornees_2027.tsv').read()

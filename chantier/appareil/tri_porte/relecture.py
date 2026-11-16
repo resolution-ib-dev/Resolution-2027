@@ -4,7 +4,7 @@ S=list(csv.DictReader(open(R+'sort_prelevements_20261015.tsv'),delimiter='\t'))
 F=list(csv.DictReader(open(R+'prelevements_forces_20260930.tsv'),delimiter='\t'))
 A27=[r for r in csv.DictReader((l for l in open(R+'annexe_ressources_affectees_2027.tsv') if not l.startswith('#')),delimiter='\t')]
 EA=[r for r in csv.DictReader((l for l in open(R+'annexe_recettes_bg_2027.tsv') if not l.startswith('#')),delimiter='\t')]
-sh=xlrd.open_workbook('/home/user/Site-ETNP/site/donnees/PLF 2026_V&M tome I - Annexe 2 - Taxes affectees_0910.xls').sheet_by_name('taxes affectées')
+sh=xlrd.open_workbook('/home/user/Site-ETNP/site/donnees/Taxes affectées aux agences.xls').sheet_by_name('taxes affectées')
 p26=collections.defaultdict(float); p26lib={}
 for r in range(3,sh.nrows):
     c=str(sh.cell_value(r,12)).replace('.0','')

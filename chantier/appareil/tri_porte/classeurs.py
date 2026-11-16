@@ -10,7 +10,7 @@ T = json.load(open(W + 'tri_20261103.json'))
 N = json.load(open(W + 'niches.json'))
 DEVN = {'Oui': 'supprimée, gain restitué', 'En 3 ans': 'supprimée en trois ans, gain restitué', 'Fusion CI IR': 'fondue dans l’aide fondamentale', 'Flux OM': 'fiscalité outre-mer', '': 'déjà éteinte'}
 for x in N: x['devenir'] = DEVN[x['sort']]
-sh = xlrd.open_workbook('/home/user/Site-ETNP/site/donnees/PLF 2026_V&M tome II - Annexe 3 - Depenses fiscales - 0910.xls').sheet_by_name('Chiffrages Résolution')
+sh = xlrd.open_workbook('/home/user/Site-ETNP/site/donnees/Niches fiscales.xls').sheet_by_name('Chiffrages Résolution')
 LIB, MT = {}, {}
 for r in range(6, sh.nrows):
     num = str(sh.cell_value(r, 3)).replace('.0', '')
