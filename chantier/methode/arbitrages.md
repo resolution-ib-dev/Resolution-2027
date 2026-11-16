@@ -8879,3 +8879,16 @@ Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
 *Exécuté* (`livrables/depot_2027/LIASSE_PLF_P2.md`, **à la main**, le classeur de suivi qui alimente `generer_liasse_p2.py` n'étant pas au dépôt) : programme 203, 280 425 204 € d'AE et 233 985 619 € de CP (catégories 31 et 5x de l'action retirées : −167 418 022 et −109 170 937) ; totaux et solde de la mission, 3 605 103 562 et 3 160 655 376 ; exposé à 3,6 et 3,2 milliards, avec la phrase « Les crédits d'entretien du réseau routier national sont maintenus. » *Contrôlé* : `controle_credits_liasse.py` et `controle_liasses.py`, aucun écart ; PDF de 66 pages, seule la page 7 change. Docx et PDF posés à `Site-ETNP/site/amendements/`.
 
 *Reste contraire* : `Dépenses de l'État.xls`, onglet `SynthèseR` (80 %, routes comptées), et le classeur de suivi de l'auteur, que la liasse ne reflète plus sur cette ligne.
+
+### Classeur des dépenses de l'État aligné : `SynthèseR` retouché en place — 20261116
+
+**Validé** (« fais les mises à jours des classeurs ! », auteur, 20261116).
+
+*Exécuté* (`Site-ETNP/site/donnees/Dépenses de l'État.xls`, par `outils/retoucher_depenses.py`) : trois formules de `SynthèseR`, sans changer la taille du fichier.
+- E7 : `='Economies R'!L4*0,8` devient `*0,796827` ; F7 : `='Economies R'!N4*0,8` devient `*0,822530`. Ces coefficients donnent 85 % du fonctionnement et de l'investissement à arrêter hors entretien des routes nationales (232,9 et 51,0 M€, action « Routes – Entretien » du programme 203) et 90 % au programme 129 : 2 720,6 et 1 082,6 M€, **3 803,3 M€** au total (3 784,5 auparavant).
+- H8 : `=G21+D21+C20*7/3` devient `=(SUM(D21:H21))+(C21)` — les mêmes termes, plus E21 (53,5) et H21 (1 317,6) : 4 980,7 M€ (3 609,6 auparavant). C'est la correction constatée le 20261112 et laissée à l'auteur.
+- Six résultats en cache suivent (E6, F6, H6, C7, C8, C6).
+
+*Contrôlé* : comparaison de toutes les cellules de tous les onglets avant et après, neuf changées, celles-là ; LibreOffice relit les trois formules et recalcule les mêmes valeurs.
+
+*Tranché en propre* : la retouche en place plutôt qu'un passage par LibreOffice, qui ne connaît pas `XLOOKUP` et aurait écrit `#NAME?` dans les libellés de programmes. *Limite* : les deux coefficients ne disent pas leur règle ; dans Excel, E7 s'écrit `=('Economies R'!L4-232,884-'Economies R'!K84)*0,85+'Economies R'!K84*0,9`, F7 de même avec N4, 50,976 et M84. Le classeur de suivi de l'auteur, hors dépôt, n'est pas touché.
