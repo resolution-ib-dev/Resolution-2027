@@ -6242,3 +6242,15 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - Trois taux pour le rendement du patrimoine : 3,3 % au simulateur, 3 % au livre, 2,9 % au classeur.
 - La croix « essentiel » du programme 203 au classeur `.xls`, et `SynthèseR` H8, à retoucher dans Excel.
 - Accroche de l’accueil vers le simulateur, à faire en fin de revue.
+
+## 20261116 — fonctionnement de l'État à 85 %, total revenu à 236,402
+
+## Ce qui a changé au corpus
+
+- Le retrait des routes ne baisse plus le poste : classeur des chiffrages revenu à 236,402 Md€ (l'entrée du même jour disait 236,175), hypothèse du poste réécrite à 85 % et 90 % pour Matignon.
+- `REF_doctrine.json` et les deux contrôles revenus à leur état précédent ; `grille_lecture_budgetaire.md` porte la nouvelle règle.
+
+## Ce qui reste ouvert
+
+- `Dépenses de l'État.xls` (`SynthèseR` : 80 %, routes comptées) et l'amendement n° 4 de la liasse du PLF, non alignés.
+- Revue du simulateur bloc par bloc : Agences, Associations, niches communes, patrimoine, Agents publics.

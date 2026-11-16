@@ -8855,3 +8855,15 @@ Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
 - Liasse `Liasse_PLF_P2`, amendement n° 4 (mission « Écologie, développement et mobilité durables ») : il retire 343 156 557 € de crédits de paiement au programme « Infrastructures et services de transports ». La part de l’entretien routier n’y est pas isolée ; la liasse se régénère par la chaîne d’amendement, non rejouée.
 - `Annexe Manuscrit`, colonne « € par an par foyer » : valeurs saisies (ligne 6 : 130 € pour 3,8 Md€ ; 3,573 Md€ donnent 119 €).
 - Dérivés du référentiel de doctrine : non régénérés, le manuscrit n’étant pas au conteneur.
+
+### Fonctionnement de l’État : 85 %, routes gardées, 3,8 Md€ inchangés — 20261116
+
+**Validé** (« ah zut ça retouche le 130 », puis « passons à 85 %. d’ailleurs c’était déjà l’objectif. même 90 % pour matignon si besoin. comme ça c’est bien le reste ne change pas », auteur, 20261116). L’entrée « L’entretien des routes nationales sort des économies » du même jour est **remplacée** sur son chiffrage : les routes restent à l’État, mais le poste ne baisse pas.
+
+*Exécuté au classeur des chiffrages* : les cinq cellules reprennent leur valeur (`Détail Economies` D37 et F37, `Flux` C20 : 3,8 ; `Flux` C15 : 44 ; G15 : 83,871) ; total 236,402. L’hypothèse de la ligne 37 est réécrite : « Hors régalien, éducation et entretien des routes : 85 % d’économies, 90 % à Matignon ». *Calculé* : (4 447 − 471) × 85 % + 471 × 90 % = 3 803 M€, pour 3 784 M€ à 80 % routes comprises.
+
+*Exécuté ici* : `REF_doctrine.json`, `controle_arithmetique.py` et `sources_chiffres.py` reviennent à leur état d’avant le retrait (236,402 ; restitution au médian 568,13 €/mois) ; empreintes relevées ; `grille_lecture_budgetaire.md` porte la nouvelle règle du poste ; référentiel du simulateur régénéré (129,46 et 236,40 Md€).
+
+*Exécuté au simulateur* : poids des programmes aux deux taux, action des routes exclue ; rendement du patrimoine revenu à 3,2 % ; dix libellés de ministères affinés (« pour éviter les contresens », auteur) — *tranchés en propre, à valider*. *Vérifié* : pas de doublon avec « France 2030 et aides à l’investissement » — le poste ne prend que la catégorie 31 des programmes 423 à 425 (621 M€), les transferts (catégories 62 et 64) sont aux subventions.
+
+*Reste contraire* : `Dépenses de l’État.xls`, onglet `SynthèseR`, écrit toujours 80 % et compte les routes ; la liasse du PLF, amendement n° 4, retire les crédits d’entretien routier.
