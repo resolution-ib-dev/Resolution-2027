@@ -57,10 +57,13 @@ les 600 € par mois de la carto.
 **Exception, auteur, 20261116** (« on va rester sur le A du livre », puis « on
 arrondit la somme […] 3,2 et on est bon ») : le rendement du patrimoine rendu ne
 suit pas le salaire. Le stock du classeur (607 Md€, `Input Capitalisation` C10)
-est partagé à égalité entre 68 millions de personnes ; à 3,2 % par an, chacun
-reçoit **23,80 € par mois**, en épargne, en régime plein, partagés entre les trois
-tiers au prorata de leur stock (7,92 ; 7,85 ; 8,03 €). Le taux est celui qui donne
-600 € par mois à 2 400 € nets. Le total affiché est l’arrondi de la somme, non la
+est partagé à égalité entre les 63,4 millions de personnes des foyers fiscaux
+(`Refonte fiscalité` C49) ; à 3 % par an, le taux du livre, chacun reçoit
+**23,93 € par mois**, en épargne, en régime plein, partagés entre les trois
+tiers au prorata de leur stock (7,96 ; 7,89 ; 8,08 €). Le flux affiché est
+de 18 Md€ par an (« 19 Md€ ne va pas il faut 18 », auteur, 20261116, qui remplace
+le réglage à 3,2 % et 68 millions du matin) ; le total reste de 600 € par mois à
+2 400 € nets. Le total affiché est l’arrondi de la somme, non la
 somme des deux flux arrondis. Les colonnes en milliards du référentiel gardent,
 pour ces trois lignes, le relevé du classeur (2,9 %, 17,60 Md€) : elles ne
 servent plus au calcul du gain.
@@ -100,8 +103,8 @@ L’arbre est celui de la carto : cinq groupes, onze cartes, vingt et un postes.
 | Aide publique au développement | 1 | 1,0 | 3,0 | une ligne |
 | Niches sur les revenus | 113 | 28,8 | 28,8 | 465 niches du classeur des dépenses fiscales, gage en CSG |
 | Niches sur la TVA et les sociétés | 155 | 23,3 | 23,3 | idem |
-| Chômage : indemnisation au-delà de six mois | 1 | 0 | 23,09 | Annexe, ligne 27 × 63 / 80,8 : note « Proxy Chômage » de l’auteur |
-| Chômage : six premiers mois, allocation de 1 150 à 600 € | 1 | 0 | 6,51 | Annexe, ligne 27 × 17,8 / 80,8 |
+| Chômage, « Après six mois : cotisation rendue » | 1 | 0 | 23,09 | Annexe, ligne 27 × 63 / 80,8 : note « Proxy Chômage » de l’auteur |
+| Chômage, « Six premiers mois : revenu maintenu » (600 € d’allocation et 550 € d’aide universelle) | 1 | 0 | 6,51 | Annexe, ligne 27 × 17,8 / 80,8 |
 | Participations financières (patrimoine rendu) | 1 | 0 | 5,86 | `Input Capitalisation` C11 × taux D10 : 95 % du coté, 20 % du non coté |
 | Bâti et foncier (patrimoine rendu) | 1 | 0 | 5,81 | C12 × D10 : bureaux de l’État et de ses opérateurs, 23,1 Mm² sur 96,7 |
 | Logement social (patrimoine rendu) | 1 | 0 | 5,94 | (C13 + C14) × D10 : deux tiers du parc, abattement de 10 % |
@@ -127,8 +130,15 @@ de l’État sous Ministères ; audiovisuel public parmi les organismes des agen
 (auteur, 20261112) ; culture locale sous Échelons locaux ; aide médicale sous Particuliers ; hébergement d’urgence sous
 Associations. La carto ne le dit pas.
 
-**Thèmes des niches.** Quinze thèmes, sept côté revenus et huit côté TVA et
-sociétés, bâtis sur les catégories du classeur. 257 niches sur 465 portent un
+**Sujets des niches.** *Demandé par l’auteur le 20261116* (« la liste est un peu
+décourageante, il faudrait trouver mieux ») : les niches se lisent par sujet, en
+mots courants — logement et travaux ; retraite, famille, santé, handicap ; épargne
+et placements ; emploi et services à domicile ; entreprises et recherche ; énergie,
+carburants, transports ; dons, culture, presse, sport ; outre-mer, Corse, zones
+aidées ; agriculture et forêt ; autres. Le sujet est celui du programme de
+rattachement de la niche (table `SUJETS` de `restitution.py`). Le montant de chaque
+niche reste calculé par famille fiscale, ramenée à sa ligne de `Flux` : aucun
+montant ne change. 257 niches sur 465 portent un
 gage et sont cochables ; les 208 autres sont listées par thème, sans case.
 
 **Niches communes à l’impôt sur le revenu et à l’impôt sur les sociétés.** *Validé

@@ -9051,3 +9051,8 @@ foi et reste à verser au registre à sa date.
 la fin de la taxe sur l’électricité. PLFSS n° 9 : retirer la taxe de solidarité additionnelle et la
 contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de jeux (285, 286, 287,
 290) sans porteur. *Relevé* : 34 rangs supprimés sans porteur, 11 419,5 M€.
+
+### Simulateur : patrimoine à 18 Md€, chômage redit, niches par sujet — 20261116
+
+**Demandé par l’auteur le 20261116** : « 19 Md€ ne va pas il faut 18. le découpage chômage est maladroit et trompeur puisque l’AFU s’ajoute, il faudrait trouver qqchose de plus vendeur. sur les niches la liste est un peu décourageante, il faudrait trouver mieux. » **Exécuté, à valider par l’auteur** (présenté en capture le jour même). Patrimoine : 3 % par an, le taux du livre, partagés entre les 63,4 millions de personnes des foyers fiscaux — 18,2 Md€ par an, 23,93 € par mois par personne ; *relevé* : 600 € à 2 400 € nets (600,19 avant arrondi). Le réglage du matin, 3,2 % et 68 millions, est **caduc**. Chômage : mêmes montants, deux libellés — « Six premiers mois : revenu maintenu » (600 € d’allocation et 550 € d’aide universelle) et « Après six mois : cotisation rendue ». Niches : dix sujets en mots courants par poste, d’après le programme de rattachement ; les deux cartes de la carto et tous les montants sont inchangés.
+
