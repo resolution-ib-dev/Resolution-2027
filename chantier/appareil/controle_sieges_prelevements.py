@@ -97,7 +97,8 @@ sys.path.insert(0, str(RACINE / 'appareil'))
 # On prend son `droit` plutôt que de refaire la résolution ici.
 from chasse_siege import par_annexe, norm, corpus, droit, VOIES_DROIT
 
-DEFAUT = RACINE / 'referentiels/sort_prelevements_20261015.tsv'
+# Le tri unique du 20261116 est le tri par défaut (promotion du 20261116) ; un autre tri se passe en argument.
+DEFAUT = RACINE / 'referentiels/sort_prelevements_20261116.tsv'
 
 S_ANNEXE = 'relevé à l’annexe des ressources affectées PLF 2027'
 S_DEPOT = 'relevé au dépôt de droit, vérifié article par article'
