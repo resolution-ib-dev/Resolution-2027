@@ -8823,3 +8823,7 @@ Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 
 - **Montants** : à l’euro, « moins de 1 € » dessous ; plus de centimes. *Tranché en propre*, l’auteur demandant un avis.
 
 Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
+
+### Simulateur, bloc Ministères : une entrée par ministère — 20261116
+
+**Validé** (« on s’en fout des programmes, c’est le plus petit détail. il faut des blocs compréhensibles, avec une entrée par ministère(s) », auteur, 20261116). *Exécuté* (`Site-ETNP/site/reprenez.html`) : la carte Ministères s’ouvre sur une liste de onze entrées, du plus lourd au plus léger ; les programmes budgétaires ne s’affichent plus. *Tranché en propre* : les ministères de moins de 100 M€ par an sont réunis en une entrée, « 6 autres ministères » (220 M€). Le référentiel garde le détail par programme.
