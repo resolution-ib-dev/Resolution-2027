@@ -93,8 +93,8 @@ et un sorti du périmètre, quand le total publié pour 2025 porte tout le péri
 
 ## 4. Rapprochement avec le classeur ETP
 
-Les 180 lignes de l’onglet `Opérateurs R` de `Synthèse ETP et agences
-Résolution_0910.xlsx` se retrouvent toutes dans le relevé, une seule par un nom
+Les 180 lignes de l’onglet `Opérateurs R` de `Agences publiques.xlsx` (nommé
+`Synthèse ETP et agences Résolution_0910.xlsx` jusqu’au 20261116) se retrouvent toutes dans le relevé, une seule par un nom
 différent (« Centre inffo » au classeur, « Centre info » au jaune). **Le classeur
 compte 434 opérateurs, le jaune 431** : l’écart tient au nombre d’entités de
 certaines catégories, non aux lignes ; il n’a pas été réparti catégorie par
@@ -106,7 +106,7 @@ taxes affectées, total). Le total général y est de 73 288 271 k€, pour
 73 288 275 708 € de financement public publiés par le jaune.
 
 Il y porte aussi, colonnes Z à AB, l’économie de taxes affectées que le classeur
-des taxes affectées (`PLF 2026_V&M tome I - Annexe 2`) chiffre pour chaque
+des taxes affectées (`Taxes affectées aux agences.xls`, ex-`PLF 2026_V&M tome I - Annexe 2`) chiffre pour chaque
 bénéficiaire : à horizon d’un an, supplémentaire, totale. *Relevé au classeur le
 20261112* : 14 365 847 k€ portés à l’onglet, dont 6 015 559 à un an ; neuf lignes
 ont une économie non nulle. Le reste de l’économie de taxes affectées du classeur,

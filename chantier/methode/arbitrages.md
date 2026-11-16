@@ -8843,3 +8843,15 @@ Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
 *Exécuté ici* : `REF_doctrine.json`, `controle_arithmetique.py`, `sources_chiffres.py` portés à ces montants (restitution au médian 567,59 €/mois) ; `make controle` sans échec. Référentiel du simulateur régénéré : 505 éléments, 129,23 et 236,18 Md€.
 
 *Exécuté au simulateur* : la carte « Ministères : fonctionnement » a dix entrées « ministère : ce qui y est coupé », nommées d’après les actions du PAP (table `BLOCS_MINISTERES`) ; l’action des routes sort du détail (`ACTIONS_GARDEES`). *Tranché en propre, à valider* : les dix libellés ; et le rendement du patrimoine passé de 3,2 à 3,3 % pour garder 600 € par mois à 2 400 € nets, le retrait des routes en ôtant 0,6.
+
+### Routes : ce que le retrait a atteint, et ce qu’il n’a pas atteint — 20261116
+
+*Relevé le 20261116, après fusion des classeurs renommés du site* (`Synthèse des chiffrages`, `Séries des graphiques`, `Dépenses de l’État`, `Agences publiques`, `Emplois publics`).
+
+**Atteint** : classeur des chiffrages et ses onglets en ligne ; onglet `Graph236` et graphique des 236 milliards ; simulateur ; ici, `REF_doctrine.json`, les deux contrôles et le référentiel du simulateur.
+
+**Non atteint, constaté** :
+- `Dépenses de l’État.xls`, onglets `Economies R` et `SynthèseR` : le programme 203 y est toujours sans croix « essentiel », les totaux à arrêter comptent encore les routes (3 414 et 1 316 M€).
+- Liasse `Liasse_PLF_P2`, amendement n° 4 (mission « Écologie, développement et mobilité durables ») : il retire 343 156 557 € de crédits de paiement au programme « Infrastructures et services de transports ». La part de l’entretien routier n’y est pas isolée ; la liasse se régénère par la chaîne d’amendement, non rejouée.
+- `Annexe Manuscrit`, colonne « € par an par foyer » : valeurs saisies (ligne 6 : 130 € pour 3,8 Md€ ; 3,573 Md€ donnent 119 €).
+- Dérivés du référentiel de doctrine : non régénérés, le manuscrit n’étant pas au conteneur.

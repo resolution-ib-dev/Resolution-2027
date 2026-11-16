@@ -41,7 +41,7 @@ par an : `premiere_annee_mde`, `regime_plein_mde`, `dont_salaire_mde`,
 
 **Le gain plein** est la CSG et la CRDS sur les revenus d’activité, **la même
 part du salaire net pour tous** : 12,56 %, la ligne « Net médian » de l’onglet
-`CSG-CRDS` de `Synthèse Chiffres` (« tout est parfaitement proportionnel […] juste
+`CSG-CRDS` de `Synthèse des chiffrages.xlsx` (ex-`Synthèse Chiffres`) (« tout est parfaitement proportionnel […] juste
 un même ratio », auteur, 20261112).
 
 **Un milliard d’euros vaut le gain plein divisé par 114,46**, la masse de CSG et
