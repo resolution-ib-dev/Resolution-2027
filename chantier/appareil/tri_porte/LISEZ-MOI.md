@@ -13,3 +13,4 @@ Se joue depuis ce dossier (`cd appareil/tri_porte`), le dépôt de droit à `../
 
 `classeurs.py` contrôle mécaniquement la version exportable : aucune mention interne, aucune décimale au-delà de 10.
 9. `python3 integrer_ajouts.py` — intégration du 20261109 : les P1 n° 36 à 38 rejoignent les n° 22, 23, 25 et 29 (joué une fois ; refuse un second passage). Les porteurs du tri suivent `INTEGRE` d’`amendements.py`.
+10. `python3 tri_unique.py` puis `python3 classeur_tri_unique.py` — tri unique du 20261116 : part du tri du 20261103, y reporte la version du 20 octobre (`archive/tri_20261020/`), applique les règles du mandat du 20261116. Écrit `referentiels/sort_prelevements_20261116.tsv`, les rangs déplacés, le passage vers le tableau « Refonte fiscalité » et le classeur publiable `livrables/tri_prelevements/Tri des impôts.xlsx`. Les deux se jouent de n'importe où et rendent 1 sur un invariant cassé. `../controle_sieges_prelevements.py` lit ce tri par défaut.
