@@ -6254,3 +6254,18 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - `Dépenses de l'État.xls` (`SynthèseR` : 80 %, routes comptées) et l'amendement n° 4 de la liasse du PLF, non alignés.
 - Revue du simulateur bloc par bloc : Agences, Associations, niches communes, patrimoine, Agents publics.
+
+## 20261116 — clôture du fil du simulateur : passation et audit de la liasse de crédits
+
+## Ce qui a changé au corpus
+
+- `methode/etats/PASSATION_simulateur_liasses_20261116.md` : compte rendu du fil, marche à suivre pour la liasse de crédits, trois mandats (projet, fil Code liasses, fil Code simulateur).
+- Classeurs du site : fonctionnement de l'État écrit à 85 % hors entretien des routes nationales (`SynthèseR` E7 et F7, hypothèse de la ligne 37 des chiffrages) ; total inchangé, 236,402 Md€.
+- `LIASSE_PLF_P2.md`, amendement n° 4 : l'entretien des routes nationales n'est plus retiré.
+- Registre : audit des canaux — les 22 amendements « Retirer les crédits » n'appliquent ni socle ni rythme.
+
+## Ce qui reste ouvert
+
+- La réécriture des 22 amendements de crédits, après passage par le projet pour la table des paramètres et les calendriers.
+- La revue du simulateur, bloc par bloc, à partir des Agences.
+- Les écarts de procédure du fil, dits à la passation : `methode/` et deux modules partagés touchés pendant qu'un autre fil travaillait ; empreintes relevées à la main.

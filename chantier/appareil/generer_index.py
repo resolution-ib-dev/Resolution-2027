@@ -1481,6 +1481,8 @@ ARTEFACTS = [
      ['lecture de fil'], []),
     ('etats:app_classeur_20261007', 'methode/etats/APP_classeur_20261007.md', 'methode', True, None,
      ['lecture de fil'], []),
+    ('etats:passation_simulateur_liasses_20261116', 'methode/etats/PASSATION_simulateur_liasses_20261116.md', 'methode', True, None,
+     ['lecture de fil'], []),
     ('etats:app_collectivites', 'methode/etats/APP_collectivites.md', 'methode', True, None,
      ['lecture de fil'], []),
     ('etats:app_compte_epargne', 'methode/etats/APP_compte_epargne.md', 'methode', True, None,

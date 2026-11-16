@@ -7538,6 +7538,21 @@
    "famille": "méthode"
   },
   {
+   "role": "etats:passation_simulateur_liasses_20261116",
+   "chemin": "methode/etats/PASSATION_simulateur_liasses_20261116.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "lecture de fil"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "methode/etats/PASSATION_simulateur_liasses_20261116.md",
+   "famille": "méthode"
+  },
+  {
    "role": "etats:app_collectivites",
    "chemin": "methode/etats/APP_collectivites.md",
    "rang": "methode",
@@ -26357,8 +26372,8 @@
   }
  ],
  "comptes": {
-  "artefacts": 1709,
-  "au_coffre": 1648,
+  "artefacts": 1710,
+  "au_coffre": 1649,
   "au_depot": 1190,
   "derives": 291,
   "sources": 48,
