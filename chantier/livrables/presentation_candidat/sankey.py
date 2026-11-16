@@ -20,7 +20,7 @@ band(y,y+hs,ys,ys+hs); band(y+hs,y+h,yc,yc+hc)
 o.append(f'<rect class="na" x="{X1}" y="{ys}" width="10" height="{hs:.1f}"/>')
 o.append(A('propositions.html#sal',f'<text class="l b g" x="{X1+20}" y="{ys+hs/2-1:.1f}">Salaire net · 114</text>'))
 o.append(f'<text class="l s" x="{X1+20}" y="{ys+hs/2+19:.1f}"><tspan class="fort">+13{N}%</tspan> dès la première année</text>')
-o.append(f'<text class="l s" x="{X1+20}" y="{ys+hs/2+36:.1f}">+300{N}€ par mois au salaire médian</text>')
+o.append(f'<text class="l s" x="{X1+20}" y="{ys+hs/2+36:.1f}">+300{N}€ par mois pour 2{N}400{N}€ nets</text>')
 # compte épargne : la carte
 cx,cy,cw,ch=X1+10,yc-19,350,hc+38
 o.append(f'<rect class="na" x="{X1}" y="{yc}" width="10" height="{hc:.1f}"/>')
@@ -29,7 +29,7 @@ gx,gb=cx+14,cy+ch-14
 for i,hh in enumerate((10,17,24,31)):
     o.append(f'<rect class="na" x="{gx+i*8}" y="{gb-hh:.1f}" width="5.5" height="{hh}" rx="1"/>')
 o.append(A('propositions.html#eparg',f'<text class="l b g" x="{gx+44}" y="{cy+ch/2-4:.1f}">Compte épargne personnel · 122</text>'))
-o.append(f'<text class="l s" x="{gx+44}" y="{cy+ch/2+15:.1f}">+300{N}€ par mois au salaire médian, à mon nom</text>')
+o.append(f'<text class="l s" x="{gx+44}" y="{cy+ch/2+15:.1f}">+300{N}€ par mois pour 2{N}400{N}€ nets, à mon nom</text>')
 # patrimoine rendu : la bulle d'amorce
 bx,by,r=cx+cw/2-30,cy+ch+106,70
 o.append(f'<circle class="bulle" cx="{bx}" cy="{by:.1f}" r="{r}"/>')
