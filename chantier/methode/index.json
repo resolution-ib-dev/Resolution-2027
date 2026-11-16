@@ -1464,6 +1464,108 @@
    "famille": "bac à sable"
   },
   {
+   "role": "presentation_candidat",
+   "chemin": "livrables/presentation_candidat/presentation_candidat.html",
+   "rang": "livrable",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "présentation candidat en deux pages"
+   ],
+   "alias": [
+    "presentation_candidat.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/presentation_candidat/presentation_candidat.html",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "presentation_candidat_pdf",
+   "chemin": "livrables/presentation_candidat/presentation_candidat.pdf",
+   "rang": "livrable",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "présentation candidat, rendu PDF"
+   ],
+   "alias": [
+    "presentation_candidat.pdf"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/presentation_candidat/presentation_candidat.pdf",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "presentation_candidat_gabarit",
+   "chemin": "livrables/presentation_candidat/gabarit.html",
+   "rang": "livrable",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "gabarit de la présentation candidat"
+   ],
+   "alias": [
+    "gabarit.html"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/presentation_candidat/gabarit.html",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "presentation_candidat_rendre",
+   "chemin": "livrables/presentation_candidat/rendre.mjs",
+   "rang": "livrable",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "rendu PDF de la présentation candidat"
+   ],
+   "alias": [
+    "rendre.mjs"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/presentation_candidat/rendre.mjs",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "presentation_candidat_sankey_py",
+   "chemin": "livrables/presentation_candidat/sankey.py",
+   "rang": "livrable",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "générateur du sankey de la présentation"
+   ],
+   "alias": [
+    "sankey.py"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/presentation_candidat/sankey.py",
+   "famille": "bac à sable"
+  },
+  {
+   "role": "presentation_candidat_sankey",
+   "chemin": "livrables/presentation_candidat/sankey.svg",
+   "rang": "livrable",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "sankey de la présentation candidat"
+   ],
+   "alias": [
+    "sankey.svg"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "livrables/presentation_candidat/sankey.svg",
+   "famille": "bac à sable"
+  },
+  {
    "role": "galerie_fiches",
    "chemin": "livrables/galerie_fiches.html",
    "rang": "derive",
@@ -26390,8 +26492,8 @@
   }
  ],
  "comptes": {
-  "artefacts": 1711,
-  "au_coffre": 1650,
+  "artefacts": 1717,
+  "au_coffre": 1656,
   "au_depot": 1190,
   "derives": 291,
   "sources": 48,

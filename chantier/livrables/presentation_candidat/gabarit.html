@@ -1,0 +1,179 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Résolution — présentation</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap');
+@page{size:A4;margin:0}
+:root{--enc:#1a1a1a;--gris:#5f5c56;--fil:#cfc8bc;--acc:#b23a10;--fond:#f6f2ea;
+ --t:Archivo,'Helvetica Neue',Arial,sans-serif;--x:'Source Serif 4',Georgia,serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--x);font-size:9.3pt;line-height:1.36;color:var(--enc);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;padding:13mm 16mm 11mm;position:relative;overflow:hidden;page-break-after:always}
+.page:last-child{page-break-after:auto}
+.aut{font-size:9.4pt;border-bottom:1.2pt solid var(--enc);padding-bottom:2.2mm;margin-bottom:4mm}
+.aut b{font-family:var(--t);font-weight:700}
+.marque{font-family:var(--t);font-weight:600;letter-spacing:.14em;font-size:8pt;color:var(--gris);float:right}
+h1{font-family:var(--t);font-stretch:75%;font-weight:800;font-size:21pt;line-height:1.08;margin-bottom:2.5mm}
+h2{font-family:var(--t);font-weight:800;font-size:10.5pt;text-transform:uppercase;letter-spacing:.04em;
+ border-top:.8pt solid var(--enc);padding-top:1.6mm;margin:3.6mm 0 1.9mm}
+h2 span{font-weight:500;text-transform:none;letter-spacing:0;color:var(--gris);font-size:9pt;margin-left:.6em}
+p{margin-bottom:1.6mm}
+b,.n{font-family:var(--t);font-weight:700}
+.acc{color:var(--acc)}
+.deux{display:grid;grid-template-columns:1fr 1fr;gap:7mm}
+table{border-collapse:collapse;width:100%}
+.av td,.av th{padding:.5mm 0;border-bottom:.5pt dotted #9a948a}
+.av th{font-family:var(--t);font-weight:700;font-size:8.6pt;text-align:right;border-bottom:.8pt solid var(--enc)}
+.av th:first-child{text-align:left}
+.av td.v{font-family:var(--t);font-stretch:80%;font-weight:700;text-align:right;width:17mm;font-size:11pt;color:#4a4640}
+.av td.a{font-family:var(--t);font-stretch:80%;font-weight:800;text-align:right;width:15mm;font-size:12.5pt;color:var(--acc)}
+.av th.a{color:var(--acc)}
+.rest{background:var(--fond);padding:2.6mm 4mm}
+.rest .gros{font-family:var(--t);font-stretch:75%;font-weight:800;font-size:15pt;line-height:1.1;margin-bottom:1.6mm}
+.rest ul{list-style:none}
+.rest li{display:grid;grid-template-columns:19mm 1fr;gap:2mm;padding:.9mm 0;border-top:.5pt solid var(--fil)}
+.rest li .n{font-size:11.5pt;font-stretch:80%;color:var(--acc);line-height:1.15}
+ol{list-style:none;columns:2;column-gap:7mm}
+ol li{break-inside:avoid;display:grid;grid-template-columns:5mm 1fr;margin-bottom:1.1mm}
+ol li i{font-style:normal;font-family:var(--t);font-weight:800;color:var(--acc)}
+.mir{display:grid;grid-template-columns:1fr 8mm 1fr;border:.8pt solid var(--enc)}
+.mir>div{padding:2.4mm 3.5mm}
+.mir .eg{display:flex;align-items:center;justify-content:center;font-family:var(--t);font-weight:800;font-size:15pt;padding:0}
+.mir .d{background:var(--fond)}
+.mir .tt{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--t);font-weight:800;font-size:10pt;
+ border-bottom:.8pt solid var(--enc);padding-bottom:1mm;margin-bottom:.8mm}
+.mir .tt em{font-style:normal;font-size:13pt;font-stretch:80%}
+.mir .d .tt em{color:var(--acc)}
+.mir .u{font-size:8pt;color:var(--gris);text-align:right;margin-bottom:.6mm}
+.mir .r{display:flex;justify-content:space-between;padding:.75mm 0;border-bottom:.5pt dotted #9a948a}
+.mir .r b{font-stretch:85%}
+.mir .p{display:flex;justify-content:space-between;margin-top:1.6mm;font-family:var(--t);font-weight:700}
+.sk{margin:1mm 0 1mm}
+.sk svg{width:100%;display:block}
+.sk .l{font-family:var(--t);font-size:11.6px;fill:var(--enc)}
+.sk .l.b{font-weight:700}.sk .l.s{font-weight:400;fill:var(--gris);font-size:10.4px}
+.sk .na{fill:var(--acc)}
+.sk .fa{fill:var(--acc);opacity:.38}.sk .l.g{font-size:14px}.sk .l.gg{font-size:19px;font-stretch:80%;fill:var(--acc)}.sk .carte{fill:var(--fond);stroke:var(--acc);stroke-width:1.2}.sk .bulle{fill:#fff;stroke:var(--acc);stroke-width:1.2}.sk .fl{fill:none;stroke:var(--acc);stroke-width:1.6;stroke-dasharray:3 3}.sk .nc{fill:#a8a39a}
+.sk path.acc{fill:none;stroke:var(--enc);stroke-width:1}
+.leg{font-size:8pt;color:var(--gris);line-height:1.3}
+.kpi{display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1.35fr;gap:0;border-top:.5pt solid var(--fil)}
+.kpi div{padding:3mm 4mm 3mm 0;border-bottom:.5pt solid var(--fil)}
+.kpi .n{display:block;font-size:14pt;font-stretch:78%;font-weight:800;line-height:1.1}
+.kpi span{font-size:9pt;line-height:1.28;display:block;margin-top:.6mm}
+.up{background:var(--fond);padding:2.6mm 4mm;margin-top:2.6mm}
+.up h3,.ver h3{font-family:var(--t);font-weight:800;font-size:9.6pt;margin-bottom:1mm}
+.up .g{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5mm}
+.up .n{font-size:13pt;font-stretch:78%;color:var(--acc);display:block;line-height:1.1}
+.ver{border-left:2.4pt solid var(--acc);padding:.4mm 0 .4mm 4mm;margin-top:6mm}
+.pied{position:absolute;left:16mm;right:16mm;bottom:8mm;font-size:7.4pt;color:var(--gris);border-top:.5pt solid var(--fil);padding-top:1.4mm;line-height:1.3}
+.p2 .sk{margin:4mm 0 3mm}
+.p2 p{font-size:10.4pt;line-height:1.42}.p2 p.leg{font-size:8pt;line-height:1.3}
+.p2 h2{margin-top:9mm;margin-bottom:3mm}
+.p2 .kpi div{padding:5.5mm 4mm 5.5mm 0}.p2 .kpi .n{font-size:19pt}.p2 .kpi span{font-size:10.2pt;margin-top:1.4mm}
+.p2 .ver{margin-top:11mm;padding:1.5mm 0 1.5mm 5mm}.p2 .ver h3{font-size:11pt;margin-bottom:1.6mm}
+a{color:inherit;font-weight:700;text-decoration:underline;text-decoration-color:var(--acc);text-decoration-thickness:.6pt;text-underline-offset:1.6pt}
+.aut a,.mir .tt a,ol a,h3 a{font-family:var(--t)}
+.sk a{text-decoration:none}.sk a text{text-decoration:underline;text-decoration-color:var(--acc)}
+.sk .l{font-size:13.2px}.sk .l.s{font-size:12.6px}.sk .l.g{font-size:16px}.sk .fort{font-weight:800;fill:var(--acc);font-size:17px}
+.bas{position:absolute;left:16mm;right:16mm;bottom:19mm;display:grid;grid-template-columns:1.15fr 1fr;gap:8mm;border-top:.8pt solid var(--enc);padding-top:3mm}
+.bas h3{font-family:var(--t);font-weight:800;font-size:10.5pt;text-transform:uppercase;letter-spacing:.04em;margin-bottom:1.6mm}
+.p2 .bas p{font-size:9.2pt;line-height:1.42;margin-bottom:1.4mm}
+.p2 h2{margin-top:6mm}.p2 .kpi div{padding:4mm 4mm 4mm 0}.p2 .ver{margin-top:7mm}
+.page:first-of-type .aut{font-size:8.7pt;white-space:nowrap}
+.av td,.av th{padding:.3mm 0}
+.p2 h2{margin-top:5mm}.p2 .ver{margin-top:5mm}
+.av a,.mir a{text-decoration:none}.av a,.mir .r a{font-weight:400}
+.av a::after,.mir a::after{content:'\00a0›';color:var(--acc);font-family:var(--t);font-weight:800}
+.p2 p{font-size:10pt;line-height:1.4}.p2 .sk{margin:3mm 0 2mm}.p2 h2{margin-top:4mm}.p2 .kpi div{padding:2.8mm 4mm 2.8mm 0}.p2 .ver{margin-top:4mm;padding:1mm 0 1mm 5mm}
+</style></head><body>
+
+<section class="page">
+<div class="aut"><a href="https://france-resolution.fr/auteurs.html">Arthur Marle</a> et <a href="https://france-resolution.fr/auteurs.html">Moïse Mitterrand</a>, chefs d’entreprise · <a href="https://france-resolution.fr/auteurs.html">Ingrid Barrat</a>, polytechnicienne, ancienne du ministère des Finances</div>
+<h1>Recentrer l’État, rendre 600 € par mois au salaire médian</h1>
+<p>L’État dépense <a href="https://france-resolution.fr/graphiques/depense-publique.html">1 672 Md€ par an</a>, soit 54 000 € par foyer. Défense, police et justice en reçoivent 6 %. Notre proposition : concentrer l’État sur l’indispensable — sécurité, solidarité, éducation — et rendre le reste à ceux qui travaillent. Les <a href="https://france-resolution.fr/amendements.html">textes sont prêts</a>.</p>
+
+<h2>La solution <span>avant, après</span></h2>
+<div class="deux">
+<table class="av">
+<tr><th></th><th>Avant</th><th class="a">Après</th></tr>
+<tr><td><a href="https://france-resolution.fr/propositions.html#minis">Ministères</a></td><td class="v">35</td><td class="a">7</td></tr>
+<tr><td><a href="https://france-resolution.fr/propositions.html#ech">Échelons territoriaux</a></td><td class="v">5</td><td class="a">2</td></tr>
+<tr><td><a href="https://france-resolution.fr/graphiques/agences.html">Agences nationales</a></td><td class="v">1 104</td><td class="a">303</td></tr>
+<tr><td><a href="https://france-resolution.fr/propositions.html#aide">Aides et primes</a></td><td class="v">2 000</td><td class="a">3</td></tr>
+<tr><td><a href="https://france-resolution.fr/propositions.html#subvent">Aides aux entreprises</a></td><td class="v">1 800</td><td class="a">0</td></tr>
+<tr><td><a href="https://france-resolution.fr/graphiques/fusion-des-impots.html">Impôts</a></td><td class="v">438</td><td class="a">5</td></tr>
+<tr><td><a href="https://france-resolution.fr/graphiques/niches-fiscales.html">Niches fiscales</a></td><td class="v">486</td><td class="a">0</td></tr>
+</table>
+<div class="rest">
+<div class="gros"><span class="acc">+25 %</span> de revenu pour <a href="https://france-resolution.fr/fiches/travailleur.html">qui travaille</a></div>
+<p>600 € rendus chaque mois à tous les travailleurs — public, privé, indépendants — en trois ans, pour un salaire net médian de 2 190 €.</p>
+<ul>
+<li><span class="n">+300 €</span><span><a href="https://france-resolution.fr/propositions.html#sal">de salaire net</a> par mois dès la première année, soit +13 % : la CSG et la CRDS disparaissent sur les revenus d’activité, à coût du travail inchangé.</span></li>
+<li><span class="n">+300 €</span><span>par mois sur un <a href="https://france-resolution.fr/propositions.html#eparg">compte épargne retraite personnel</a>, d’ici trois ans.</span></li>
+<li><span class="n">20 000 €</span><span>par foyer : 600 Md€ de <a href="https://france-resolution.fr/propositions.html#pat">patrimoine public</a> non essentiel rendus en trois ans, qui amorcent cette épargne.</span></li>
+</ul>
+</div>
+</div>
+
+<h2>Les mesures</h2>
+<ol>
+<li><i>1</i><span><a href="https://france-resolution.fr/propositions.html#struct">Un État concentré.</a> 7 ministères, 303 agences, aucun secrétariat d’État.</span></li>
+<li><i>2</i><span><a href="https://france-resolution.fr/propositions.html#ech">La commune et l’État, rien entre.</a> Régions, départements et intercommunalités disparaissent, la préfecture reste le relais unique.</span></li>
+<li><i>3</i><span><a href="https://france-resolution.fr/propositions.html#agents">580 000 postes publics fermés</a>, 70 % du traitement conservé jusqu’à sept ans.</span></li>
+<li><i>4</i><span><a href="https://france-resolution.fr/propositions.html#code">Un droit divisé au moins par dix.</a> 49 millions de mots aujourd’hui, des codes réécrits en entier.</span></li>
+<li><i>5</i><span><a href="https://france-resolution.fr/propositions.html#imp">Quatre impôts</a> — TVA, revenu, sociétés, foncier — qui portent déjà 75 % des recettes. Les niches s’éteignent.</span></li>
+<li><i>6</i><span><a href="https://france-resolution.fr/propositions.html#aide">Une aide fondamentale universelle</a> de 550 € par mois et 275 € par enfant, à la place de toutes les aides. En activité, elle devient un crédit d’impôt.</span></li>
+<li><i>7</i><span><a href="https://france-resolution.fr/propositions.html#cpte">Un compte éducation</a> de 6 600 € par an au nom de l’enfant. Chaque famille choisit son école, évaluée sur ses résultats.</span></li>
+<li><i>8</i><span><a href="https://france-resolution.fr/propositions.html#eparg">Un compte épargne personnel</a> pour la retraite, à côté d’un socle par répartition garanti à tous.</span></li>
+</ol>
+
+<h2>La restitution <span>chaque euro économisé est rendu</span></h2>
+<div class="mir">
+<div><div class="tt"><a href="https://france-resolution.fr/graphiques/economies.html">Économies</a><em>236 Md€</em></div><div class="u">par an</div>
+<div class="r"><span><a href="https://france-resolution.fr/propositions.html#struct">Administrations facultatives</a></span><b>67 Md€</b></div>
+<div class="r"><span><a href="https://france-resolution.fr/propositions.html#subv">Subventions</a></span><b>69 Md€</b></div>
+<div class="r"><span><a href="https://france-resolution.fr/propositions.html#niches">Niches fiscales et sociales</a></span><b>52 Md€</b></div>
+<div class="r"><span><a href="https://france-resolution.fr/propositions.html#chom">Assurance chômage transformée</a></span><b>30 Md€</b></div>
+<div class="r"><span><a href="https://france-resolution.fr/propositions.html#rend">Rendement du patrimoine</a></span><b>18 Md€</b></div>
+<div class="p"><span><a href="https://france-resolution.fr/propositions.html#pat">Patrimoine public rendu</a></span><span>600 Md€</span></div></div>
+<div class="eg">=</div>
+<div class="d"><div class="tt"><span>Restitution</span><em>+600 €</em></div><div class="u">par mois, au salaire médian</div>
+<div class="r"><span><a href="https://france-resolution.fr/propositions.html#sal">Salaire net</a></span><b>+300 € / mois</b></div>
+<div class="r"><span><a href="https://france-resolution.fr/propositions.html#eparg">Compte épargne personnel</a></span><b>+300 € / mois</b></div>
+<div class="p" style="margin-top:12.6mm"><span><a href="https://france-resolution.fr/propositions.html#pat">Patrimoine public rendu</a></span><span class="acc">+20 000 € / foyer</span></div></div>
+</div>
+<div class="pied">Sources : Insee, comptes nationaux 2024 ; projet de loi de finances 2026 ; d’après notre décompte, publié sur <a href="https://france-resolution.fr/donnees.html">france-resolution.fr</a>. Les mots soulignés ou suivis de › ouvrent la page correspondante du site.</div>
+</section>
+
+<section class="page p2">
+<div class="aut"><span class="marque">RÉSOLUTION</span><b>Focus retraite</b> — une épargne à soi, financée par les économies, sans creuser le déficit</div>
+<h2 style="border-top:0;padding-top:0;margin-top:0">Chaque euro superflu revient à celui qui travaille <span>flux annuels, en Md€</span></h2>
+<div class="sk">__SANKEY__</div>
+<p class="leg">Dépense publique 2024 : 1 672 Md€ (Insee), dont 166 Md€ superflus. S’y ajoutent 52 Md€ de niches fiscales et sociales et 18 Md€ de rendement du patrimoine public rendu. La répartition par poste des dépenses conservées est un ordre de grandeur. Patrimoine rendu : un capital, versé en trois ans.</p>
+
+<p style="margin-top:2.4mm">Passer à la capitalisation suppose d’ordinaire que les actifs paient deux fois : leur retraite et celle de leurs aînés. Ici, le patrimoine public rendu amorce la transition de façon visible et alimente chaque compte individuel dès le départ. Ensuite, la baisse durable de dépense publique finance la capitalisation en devenant de l’épargne privée. La transition s’opère en diminuant la pression fiscale.</p>
+
+<h2>La transition en chiffres <span>scénario de base</span></h2>
+<div class="kpi">
+<div><span class="n">25 ans</span><span>au plus pour basculer, à pensions versées inchangées</span></div>
+<div><span class="n">1 100 €</span><span>par mois de <a href="https://france-resolution.fr/fiches/retraite.html">socle garanti</a> à tous</span></div>
+<div><span class="n">4 %</span><span>de rendement réel projeté, hypothèse prudente</span></div>
+<div><span class="n acc">+40 %</span><span>de pension si le rendement atteint 6 %</span></div>
+<div style="padding-right:0"><span class="n">Déficit résorbé</span><span>à impôts et âge légal inchangés</span></div>
+</div>
+
+<div class="ver">
+<h3><a href="https://france-resolution.fr/fiches/travailleur.html">L’effet sur le travail</a></h3>
+<p style="margin:0">Je prends ma retraite quand je veux, avec mes cotisations. Mon travail me paie mieux. L’âge légal laisse place à un âge pivot : partir plus tard augmente la rente, partir plus tôt la réduit. Chaque heure travaillée et chaque année cotisée profitent à celui qui les fait : l’incitation à travailler revient d’elle-même. Le gain personnel au travail entraîne le dynamisme de toute l’économie.</p>
+</div>
+<div class="bas">
+<div><h3>Prêts à déposer au budget 2027</h3>
+<p><a href="https://france-resolution.fr/amendements.html">81 amendements rédigés</a>, chacun relié à la proposition qu’il porte, en PDF et en Word.</p>
+<p><a href="https://france-resolution.fr/amendements/Liasse_PLF_P1.pdf">34 au projet de loi de finances, première partie</a> : niches, fiscalité, dotations.<br>
+<a href="https://france-resolution.fr/amendements/Liasse_PLF_P2.pdf">39 en seconde partie</a> : crédits, agences, subventions.<br>
+<a href="https://france-resolution.fr/amendements/Liasse_PLFSS.pdf">8 au projet de loi de financement de la sécurité sociale</a> : CSG et CRDS, régime socle, aide unique.</p></div>
+<div><h3>france-resolution.fr</h3>
+<p><a href="https://france-resolution.fr/manifeste.html">Le manifeste</a> en une page · <a href="https://france-resolution.fr/propositions.html">Les propositions</a>, carte par carte · <a href="https://france-resolution.fr/graphiques.html">Les graphiques</a> et <a href="https://france-resolution.fr/donnees.html">les données</a>, classeurs téléchargeables · <a href="https://france-resolution.fr/fiches.html">Les fiches</a> : le plan pour chacun, <a href="https://france-resolution.fr/fiches/travailleur.html">travailleur</a>, <a href="https://france-resolution.fr/fiches/retraite.html">retraité</a>, <a href="https://france-resolution.fr/fiches/entreprise.html">entreprise</a>.</p>
+<p><a href="https://france-resolution.fr/livre.html"><i>État partout, justice nulle part</i></a>, en librairie.</p></div>
+</div>
+<div class="pied">Retraite : d’après notre modèle de transition, octobre 2026, sur les hypothèses du Conseil d’orientation des retraites et de l’Insee. Rendements réels, nets d’inflation. Dépense publique : Insee, comptes nationaux 2024.</div>
+</section>
+</body></html>
