@@ -54,6 +54,14 @@ les 600 € par mois de la carto.
 
 ## 3. La ventilation entre salaire et épargne
 
+**Exception, auteur, 20261116** (« on va rester sur le A du livre. à 3 % ») : le
+rendement du patrimoine rendu ne suit pas le salaire. Le livre rend le patrimoine
+à parts égales, 8 800 € par personne ; à 3 % par an, chacun reçoit 264 € par an,
+soit **22 € par mois**, en épargne, en régime plein. Le simulateur compte ce
+montant fixe, partagé entre les trois tiers au prorata de leur stock (7,32 ; 7,26 ;
+7,43 €). Les colonnes en milliards du référentiel gardent, pour ces trois lignes,
+le relevé du classeur (2,9 %, 17,60 Md€) : elles ne servent plus au calcul du gain.
+
 **Règle de l’auteur** (« patrimoine et chômage doivent être entièrement en
 épargne. le reste ventilé au pro rata de ce qui reste (ou de notre calendrier ?) »,
 20261112), exécutée sur le calendrier du classeur :
