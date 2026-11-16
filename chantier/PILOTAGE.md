@@ -11,8 +11,8 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 | 1 | Classeurs du site (8) | à jour, cohérents | `Site-ETNP/site/donnees/` | pilotage | copier outils et documentation au dépôt public |
 | 2 | Simulateur | en ligne, non lié ; 1 bloc revu sur 6 ; **en pause** jusqu'à la fin de la consolidation (auteur, 20261116) | `Site-ETNP/site/reprenez.html` | pilotage | revue Agences, puis Agents, Associations, niches, patrimoine, « En échange » |
 | 3 | Liasse de crédits, PLF 2de partie | écarts mesurés le 20261116 : 43,7 Md€ d'AE inscrits, 26,5 selon les classeurs en année pleine, 16,1 avec les dates du registre ; 6,7 Md€ sans paramètre | `methode/etats/ECARTS_liasse_classeurs_20261116.md` ; `referentiels/parametres_credits_20261116.tsv` ; `appareil/controle_liasse_classeurs.py` | à relancer après L1 à L6 | régénération des 22 amendements |
-| 4 | Tri des impôts | version du 20 octobre récupérée à `archive/tri_20261020/` ; celle du 3 novembre ne descend pas d'elle : 26 rangs de sort différent, 27 Md€ | `methode/etats/COMPARAISON_tri_20261020_20261103.md` | à relancer après T1 à T6 | tri unique, puis classeur sur le site |
-| 5 | Calendrier de mise en œuvre | les quatre documents concordent (`registre_calcul_etatB.md` § 4, 27 lignes) ; seul l'outil de la liasse s'en écarte, sur 13 lignes ; rien à demander au projet | même document que le n° 3, § 3 à 5 | avec le n° 3 | table unique des dates, puis page sur le site |
+| 4 | Tri des impôts | **tri unique rendu le 20261116** : 434 rangs, six devenirs, classeur `Tri des impôts.xlsx` ; contrôles à 0 échec ; 34 rangs supprimés sans amendement porteur (11,4 Md€) | `referentiels/sort_prelevements_20261116.tsv` ; `methode/etats/TRI_unique_20261116.md` | pilotage | relecture de l'auteur, puis classeur sur le site ; reprise des amendements P1 n° 22 et PLFSS n° 9 |
+| 5 | Calendrier de mise en œuvre | état des lieux du projet versé (`methode/passation_calendrier_20261116.md`, `sources/projet_20261116/`) ; tableau mesure × mois d'origine introuvable, reconstruction en cours ; registre de calcul à remettre à niveau sur D16, D37, D41, D43 | `methode/etats/SERIES_classeurs_projet_site_20261116.md` | `session_01VynsZoLRKKjX26FzRNV2Rn`, branche `claude/liasse-regeneration` | croisé mesure × mois, puis page sur le site |
 | 6 | Présentation candidat | récupérée et alignée sur le simulateur le 20261116 : 600 € pour 2 400 € nets | `livrables/presentation_candidat/` | pilotage | relire les autres chiffres contre les classeurs du site |
 | 7 | Doctrine et dérivés | référentiel à 236,402 ; 101 dérivés non régénérés | `referentiels/REF_doctrine.json` | en attente | régénération quand le manuscrit est au conteneur |
 | 8 | Rangement du dépôt public | 27 083 fichiers de révision pénale sur 28 000 ; 91 états, 24 mandats | `chantier/` | après 3 et 4 | page d'entrée, archivage des états périmés |
@@ -24,12 +24,7 @@ Présentées en clair dans la conversation le 20261116. Énoncé complet et effe
 
 | n° | question | piste du pilotage |
 |---|---|---|
-| T1 | Tri : quelle base pour le classeur du site | celui du 3 novembre, complété par les corrections du 20 octobre |
-| T2 | Jeux : gardés ou supprimés (10 lignes, 6,7 Md€) | gardés |
-| T3 | Taxe sur l'électricité : fondue dans la TVA ou gardée (5,2 Md€) | fondue |
-| T4 | Taxe sur les complémentaires santé : gardée ou supprimée (6,7 Md€) | gardée |
-| T5 | Montants du budget 2026 ou révisés par le budget 2027 | budget 2026 |
-| T6 | « en R » sur les redevances : supprimées par décret ou sorties du tri (11 lignes) | supprimées par décret |
+| J1 | Jeux supprimés (auteur, 20261116) : le tableau « Refonte fiscalité » n'en supprime que 0,3 Md€ ; l'aligner porte la taxe foncière d'équilibre de 42,1 à 48,5 Md€ | aligner le tableau |
 | L1 | Liasse : année pleine du classeur, part de 2027 après la date d'effet, ou brut × part d'année | part de 2027 au taux et au rythme du classeur |
 | L2 | Dates : celles du registre, ligne par ligne, ou celles de l'outil | registre |
 | L3 | Fonctionnement courant : 1er janvier ou 1er juillet | 1er janvier |
