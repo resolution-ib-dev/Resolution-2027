@@ -76,7 +76,7 @@ elle prime sur toute mémoire de fil.
 | mesure contre caisse | même pièce | § 15 |
 | le trimestriel par pan | même pièce | § 16 |
 | TVA et taxe sur les salaires | même pièce | § 17 |
-| le sort des prélèvements | `referentiels/prelevements_forces_20260930.tsv`, colonne `rang` | — |
+| le sort des prélèvements | `referentiels/sort_prelevements_20261116.tsv` (tri unique, six devenirs, 434 rangs) ; classeur `livrables/tri_prelevements/Tri des impôts.xlsx` | `methode/etats/TRI_unique_20261116.md` |
 | le vocabulaire des sorts, et quelle ligne est maintenue | onglet `Refonte fiscalité` de `Synthèse Calculs Résolution` | — |
 | **les six devenirs d’un prélèvement et des niches** (règle de l’auteur du 20261103) | `methode/arbitrages.md` | entrée « Les six devenirs d’un prélèvement — 20261103 » |
 | les commissions du Jaune | `referentiels/commissions_jaune2026_20261014.tsv` | — |
