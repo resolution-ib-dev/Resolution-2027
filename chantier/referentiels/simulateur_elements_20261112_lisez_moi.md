@@ -9,7 +9,7 @@ règles sont de l’auteur, lesquelles ont été tranchées en propre.
 
 | fichier | une ligne par | lignes |
 |---|---|---:|
-| `simulateur_elements_20261112.tsv` | élément cochable | **504** |
+| `simulateur_elements_20261112.tsv` | élément cochable | **505** |
 | `comptes_strates_locales_20261112.tsv` | ligne de compte d’une strate locale | **144** |
 
 **Le générateur** est `Site-ETNP/outils/restitution.py`. Il lit les classeurs
@@ -23,7 +23,7 @@ est *relevé* sur les deux fichiers le jour de l’écriture, sauf mention contr
 
 | grandeur | valeur |
 |---|---:|
-| éléments cochables | **504** |
+| éléments cochables | **505** |
 | économies de première année | **129,46 Md€** |
 | économies en régime plein | **236,40 Md€** |
 | dont rendu en salaire net | **114,46 Md€** |
@@ -80,7 +80,7 @@ année 1 » et « Gain supp. en année pleine » de l’onglet `Annexe Manuscrit
 
 ## 4. L’arbre, et la source de chaque poste
 
-L’arbre est celui de la carto : cinq groupes, onze cartes, vingt postes.
+L’arbre est celui de la carto : cinq groupes, onze cartes, vingt et un postes.
 
 | poste | éléments | première année | régime plein | détail tiré de |
 |---|---:|---:|---:|---|
@@ -100,7 +100,8 @@ L’arbre est celui de la carto : cinq groupes, onze cartes, vingt postes.
 | Aide publique au développement | 1 | 1,0 | 3,0 | une ligne |
 | Niches sur les revenus | 113 | 28,8 | 28,8 | 465 niches du classeur des dépenses fiscales, gage en CSG |
 | Niches sur la TVA et les sociétés | 155 | 23,3 | 23,3 | idem |
-| Cotisation chômage rendue en épargne | 1 | 0 | 29,6 | une ligne |
+| Chômage : indemnisation au-delà de six mois | 1 | 0 | 23,09 | Annexe, ligne 27 × 63 / 80,8 : note « Proxy Chômage » de l’auteur |
+| Chômage : six premiers mois, allocation de 1 150 à 600 € | 1 | 0 | 6,51 | Annexe, ligne 27 × 17,8 / 80,8 |
 | Participations financières (patrimoine rendu) | 1 | 0 | 5,86 | `Input Capitalisation` C11 × taux D10 : 95 % du coté, 20 % du non coté |
 | Bâti et foncier (patrimoine rendu) | 1 | 0 | 5,81 | C12 × D10 : bureaux de l’État et de ses opérateurs, 23,1 Mm² sur 96,7 |
 | Logement social (patrimoine rendu) | 1 | 0 | 5,94 | (C13 + C14) × D10 : deux tiers du parc, abattement de 10 % |
