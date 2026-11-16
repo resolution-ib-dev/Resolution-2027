@@ -8987,3 +8987,67 @@ qualifications se tranchent en propre par le fil qui reprend le tri, sans questi
 ### Calendrier : l'état des lieux du projet versé, les deux séries de classeurs comparées — 20261116
 
 **Constaté.** Le projet rend sa passation (`methode/passation_calendrier_20261116.md`) et ses neuf pièces jointes, versées en copie d'octets à `sources/projet_20261116/` (*relevé* : 15 empreintes sur 15). Le tableau mesure × mois d'origine est introuvable au projet comme au dépôt. *Relevé* : le classeur des dépenses du site ne diffère de celui du projet que par neuf cellules de `SynthèseR`, toutes tracées (85 % hors routes ; H8) ; le classeur de synthèse par 72 cellules (opérateurs, fonctionnement, collectivités, rendement du patrimoine). **Tranché** (pilotage, révocable) : la série du site fait foi pour les montants et les taux ; le registre de calcul fait foi pour les dates et les rythmes, et se remet à niveau sur D16, D37, D41 et D43. **Validé par l'auteur le 20261116** : pour le rythme, le classeur du site ne suffit pas ; le travail par mesure et par mois fait foi. **Ouvert, à l'auteur** : les départs d'agents, 30 % la première année au classeur contre la ligne entière au registre, 16,1 Md€ en 2028. Pièce : `methode/etats/SERIES_classeurs_projet_site_20261116.md`.
+
+### Départs d’agents : en entier dans les 236, à 30 % en salaire net la première année — 20261116
+
+**Validé.** *Réponse de l’auteur du 20261116* : « dans les 236 c’est tout dont acte, en salaire net en un an c’est 30 % ». Le régime plein compte la ligne entière (D38, D43) ; la première année compte 30 %, tant que 70 % du traitement est maintenu : lecture du classeur. Le registre de calcul (§ 5), qui comptait la ligne entière dès 2028, s’aligne.
+
+### Tri des impôts : le tri unique du 16 novembre — 20261116
+
+**Tranché par le pilotage, révocable**, sauf les jeux. Base : le tri du 3 novembre, six devenirs,
+434 rangs. Reportés de la version du 20 octobre : le poste du tableau « Refonte fiscalité » (288
+rangs à un poste, 146 hors tableau) et le passage ; les indemnités de rupture et de mise à la
+retraite (6, 12) fondues dans l’équilibre comme taxes sur la main-d’œuvre ; la taxe sur les
+transactions financières et les ordres annulés (135, 137) remplacés par la TVA. Le tableau fait
+foi sur l’énergie et les assurances : électricité (211, 214, 215 ; 5 153,3 M€) fondue dans la TVA ;
+taxe de solidarité additionnelle et protection juridique (194, 277) conservées en complément, bloc
+simili TVA. Montants : prévision 2026 du budget 2026 ; 13 rangs ajoutés portent la prévision
+révisée du budget 2027, seule publiée. Redevances « en R » : supprimées par voie réglementaire,
+gardées au tri (11 rangs). *Relevé* : 7 / 258 / 34 / 45 / 80 / 10 rangs par devenir, 878 229,4 M€,
+187 sans rendement. Pièces : `referentiels/sort_prelevements_20261116.tsv`,
+`livrables/tri_prelevements/Tri des impôts.xlsx`, `methode/etats/TRI_unique_20261116.md`.
+**Caduc** : « les 82 cotisations sociales » — elles sont 80.
+
+### Jeux : supprimés — 20261116
+
+**Validé.** *Réponse de l’auteure du 20261116* : « oui on supprime, cf synthèse refonte ». Les dix
+rangs de jeux (6 692,2 M€) restent remplacés par la TVA. **Constaté** : le tableau « Refonte
+fiscalité » du site n’en supprime que 0,3 Md€ ; l’écart de 6,39 Md€ porterait les hausses
+d’équilibre de 67,75 à 74,14, en entier sur la taxe foncière (42,06 → 48,45), par la formule de
+solde de la colonne K. Le classeur du site n’est pas modifié.
+
+### Tri des impôts : les treize qualifications tranchées — 20261116
+
+**Tranché** (par le fil du tri, sur les règles écrites, révocable). Recette non fiscale : amende des
+fonds de capital-risque (136), emballages (171), équarrissage (172), assurance-vie en déshérence
+(326). Conservé en complément, fonds de garantie : accidents du travail des exploitants agricoles
+(187), dommages de soins (188). Conservé, simili TVA : contribution UNOCAM (189), avec la
+contribution L. 862-4-1 (N7), qui suit la taxe de solidarité additionnelle. Confirmés : médecine du
+travail (128, fondu), droits d’enregistrement génériques (339), plaidoirie (363), redevances
+hydroélectriques (382, 388), garantie de l’or (417). Droits de place (300) : bloc fiscalité
+outre-mer, par le poste. **Non relevé sur pièce** : la qualification des cotisations
+interprofessionnelles (172).
+
+### Tri des impôts : export ramené à six devenirs, contrôle des sièges promu — 20261116
+
+**Tranché** (tambouille, révocable). « Droit ramené à 1 % et 3 % » et « supprimé par voie
+réglementaire » sont des mentions en colonne, non des devenirs. La colonne `question` ne porte
+plus « False ». `controle_sieges_prelevements.py` et la cible `controle` du `Makefile` lisent le
+tri unique par défaut. *Relevé* : 0 échec, 10 signaux, S6 410/419.
+
+### Les quatre échanges de l’auteure du 20 octobre : ce que le tri unique en porte — 20261116
+
+**Constaté.** Portés : redevances de l’eau en consommation ; les deux reclassements d’assiette
+(transactions financières, indemnités de rupture) ; la taxe sur les transactions financières au
+poste « autres taxes sur les produits ». Sans effet sur le tri : cotisations imputées ignorées,
+crédits d’impôt non retranchés, flux physiques privés, comparaison sur la notion INSEE, comptes
+distribués écartés. **Caduc** : « cotisations sociales à unifier ». Le fragment archivé
+`archive/tri_20261020/methode/fragments/arbitrages/20261020-flux-prives-et-classements.md` fait
+foi et reste à verser au registre à sa date.
+
+### Amendements à reprendre après le tri unique — 20261116
+
+**Constaté, à traiter.** PLF P1 n° 22 (ex-n° 36) : retirer la protection juridique (I, 5°), porter
+la fin de la taxe sur l’électricité. PLFSS n° 9 : retirer la taxe de solidarité additionnelle et la
+contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de jeux (285, 286, 287,
+290) sans porteur. *Relevé* : 34 rangs supprimés sans porteur, 11 419,5 M€.
