@@ -431,7 +431,7 @@ sans écrire la formule.
 
 | ce qu'on rejoue | formule | calculé | écrit |
 |---|---|---|---|
-| charges courantes et achats | (fonctionnement + investissement non régaliens, entretien des routes exclu) × 85 %, 90 % au programme 129 — auteur, 20261116 ; 80 % et 3,784 Md€ auparavant | 3,803 Md€ | 3,8 |
+| charges courantes et achats | (fonctionnement + investissement non régaliens) × 80 %, soit 85 % une fois l’entretien des routes nationales mis à part (3,780 Md€) — auteur, 20261116 | 3,784 Md€ | 3,8 |
 | départs de fonctionnaires d'État | masse salariale non régalienne × 90 % × 30 % | 0,866 Md€ | 0,9 |
 | ETP d'État supprimés | masse salariale non régalienne ÷ salaire moyen × 90 % | 61 392 | 61 400 |
 | ETP État et opérateurs | 61 400 + 41 800 + 47 880 | 151 080 | 151 000 |
