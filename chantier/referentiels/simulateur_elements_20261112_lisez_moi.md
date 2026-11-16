@@ -24,8 +24,8 @@ est *relevé* sur les deux fichiers le jour de l’écriture, sauf mention contr
 | grandeur | valeur |
 |---|---:|
 | éléments cochables | **505** |
-| économies de première année | **129,46 Md€** |
-| économies en régime plein | **236,40 Md€** |
+| économies de première année | **129,23 Md€** |
+| économies en régime plein | **236,18 Md€** |
 | dont rendu en salaire net | **114,46 Md€** |
 | dont rendu en épargne, première année | **15,00 Md€** |
 | dont rendu en épargne, régime plein | **121,94 Md€** |
@@ -57,9 +57,9 @@ les 600 € par mois de la carto.
 **Exception, auteur, 20261116** (« on va rester sur le A du livre », puis « on
 arrondit la somme […] 3,2 et on est bon ») : le rendement du patrimoine rendu ne
 suit pas le salaire. Le stock du classeur (607 Md€, `Input Capitalisation` C10)
-est partagé à égalité entre 68 millions de personnes ; à 3,2 % par an, chacun
-reçoit **23,80 € par mois**, en épargne, en régime plein, partagés entre les trois
-tiers au prorata de leur stock (7,92 ; 7,85 ; 8,03 €). Le taux est celui qui donne
+est partagé à égalité entre 68 millions de personnes ; à 3,3 % par an, chacun
+reçoit **24,55 € par mois**, en épargne, en régime plein, partagés entre les trois
+tiers au prorata de leur stock (8,17 ; 8,10 ; 8,28 €). Le taux est celui qui donne
 600 € par mois à 2 400 € nets. Le total affiché est l’arrondi de la somme, non la
 somme des deux flux arrondis. Les colonnes en milliards du référentiel gardent,
 pour ces trois lignes, le relevé du classeur (2,9 %, 17,60 Md€) : elles ne
@@ -70,7 +70,7 @@ servent plus au calcul du gain.
 20261112), exécutée sur le calendrier du classeur :
 
 - l’économie de **première année** d’un élément paie la CSG et la CRDS d’activité
-  à hauteur de 114,46 / 129,46, et son reliquat va à l’épargne ;
+  à hauteur de 114,46 / 129,23, et son reliquat va à l’épargne ;
 - tout ce qui vient **après la première année** va à l’épargne ;
 - l’assurance chômage et le rendement du patrimoine, nuls la première année, sont
   donc entièrement en épargne.
@@ -85,7 +85,7 @@ L’arbre est celui de la carto : cinq groupes, onze cartes, vingt et un postes.
 | poste | éléments | première année | régime plein | détail tiré de |
 |---|---:|---:|---:|---|
 | Agences fermées et leurs interventions | 41 | 10,88 | 13,12 | lignes « O » de `Détail Economies` ; taxes affectées par bénéficiaire ; subvention arrêtée d’un programme partagée entre ses opérateurs au prorata de leur subvention au jaune ; plus l’audiovisuel public (Annexe, ligne 10 : 3,8 Md€), élément du thème Culture |
-| Fonctionnement des administrations de l’État | 50 | 3,8 | 3,8 | programmes non indispensables de `Economies R` : 80 % du fonctionnement et de l’investissement |
+| Fonctionnement des administrations de l’État | 50 | 3,57 | 3,57 | programmes non indispensables de `Economies R` : 80 % du fonctionnement et de l’investissement |
 | Fonctionnement des échelons locaux | 8 | 6,1 | 9,6 | fonctions 01 et 06 du classeur des collectivités, hors communes, puis strates |
 | Culture et loisirs locaux | 15 | 11,6 | 11,6 | fonction 08, puis strates |
 | Départs d’agents de l’État et des agences | 64 | 2,87 | 10,26 | État : programmes non indispensables, au prorata des salaires ; agences : opérateurs supprimés, au prorata de leurs emplois |

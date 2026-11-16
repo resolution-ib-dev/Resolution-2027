@@ -6227,3 +6227,18 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - `D7-2-2-e2` : 3 % au manuscrit, 2,9 % au classeur ; `GraphAFU` porte 264 € par personne et par an, calculés sur 18 Md€.
 - Les dérivés du référentiel de doctrine ne sont pas régénérés : `make` s’arrête ici, le manuscrit n’étant pas au conteneur.
 - `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel.
+
+## 20261116 — simulateur repris bloc par bloc ; routes sorties des économies
+
+## Ce qui a changé au corpus
+
+- Au dépôt du site : simulateur refondu (trois étapes, arbre emboîté, pages sur téléphone), patrimoine en trois tiers au rendement égal par personne, chômage en deux postes, carte Ministères par ce qui est coupé ; classeur Chiffres à 236,175 Md€ après retrait de l’entretien des routes nationales.
+- `referentiels/REF_doctrine.json`, `appareil/controle_arithmetique.py`, `appareil/sources_chiffres.py` : portés au nouveau total ; empreintes relevées.
+- `referentiels/simulateur_elements_20261112.tsv` et sa note : 505 éléments, 21 postes.
+
+## Ce qui reste ouvert
+
+- Revue du simulateur bloc par bloc : Agences, Associations, niches communes, patrimoine (flux affiché), puis Agents publics.
+- Trois taux pour le rendement du patrimoine : 3,3 % au simulateur, 3 % au livre, 2,9 % au classeur.
+- La croix « essentiel » du programme 203 au classeur `.xls`, et `SynthèseR` H8, à retoucher dans Excel.
+- Accroche de l’accueil vers le simulateur, à faire en fin de revue.
