@@ -8923,3 +8923,63 @@ Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
 *Les autres canaux appliquent les pourcentages* : `SynthèseR` (0,9 ; 0,3 ; ⅓ ; 0,8 puis 0,85), le classeur des chiffrages qui en reprend les montants, le simulateur, la carto, le graphique, `REF_doctrine.json`.
 
 *Non corrigé* : la réécriture des 22 amendements demande la table de passage ligne du registre → programme × catégorie (§ 4 et § 14 du registre) et l’accord de l’auteur.
+
+### Pilotage : un fil pilote, des fils d’exécution, un tableau de bord — 20261116
+
+**Tranché** (organisation, révocable). L’auteur ne parle qu’au fil de pilotage. Le pilotage lance les fils d’exécution avec leur mandat, lit leurs branches, contrôle, verse leurs entrées de registre et fusionne. L’état des chantiers, les décisions attendues et les branches vivent à `PILOTAGE.md`. **Validé par l’auteur le 20261116** : consolidation d’abord — données, classeurs dont le tri, calendrier, liasses, site — avant de reprendre le simulateur ; présentation candidat alignée sur le simulateur, « 600 € par mois pour 2 400 € nets ». *Relevé* : un fil d’exécution ne peut ni attacher un dépôt ni écrire au pilotage sans approbation de l’auteur ; les classeurs se téléchargent du site en ligne, et le pilotage relève les branches lui-même.
+
+### Tri des impôts : le classeur du 20 octobre est le même sur les deux dépôts — 20261116
+
+**Constaté.** *Relevé* : « Tri des prélèvements Résolution.xlsx » porte la même empreinte git (`52e7f088`) sur la branche `claude/clever-euler-rbeck4` de `Site-ETNP` et sur celle de `Resolution-2027`.
+
+### Tri des impôts : la version du 20 octobre récupérée à l’archive — 20261116
+
+**Tranché** (rangement, révocable). Les 31 fichiers de la branche
+`claude/clever-euler-rbeck4` absents de `main` sont repris par copie d’octets, empreinte git
+comparée : 6 outils et 10 référentiels à leur adresse d’origine, 14 livrables et 1 fragment de
+registre sous `archive/tri_20261020/`. Six fichiers que `main` porte dans un autre état sont
+gardés sous `archive/tri_20261020/versions_branche/`, dont le tri lui-même ; aucun fichier de
+`main` n’est écrasé. *Relevé* : 31 sur 31, 0 collision. **Écarté** : rejouer les outils
+récupérés, qui liraient sur `main` l’état d’avant le 20 octobre.
+
+### Le tri du 3 novembre ne descend pas de celui du 20 octobre — 20261116
+
+**Constaté.** `appareil/tri_porte/construire_tri.py` lit `sort_prelevements_20261015.tsv` dans
+l’état de `main`, antérieur aux commits du 20 octobre. *Relevé* : 26 rangs de sort différent
+(27 003,7 M€), dont 17 (19 395,3 M€) tiennent à des corrections du 20 octobre calées sur le
+tableau « Refonte fiscalité » — jeux, électricité, taxe de solidarité additionnelle, protection
+juridique, indemnités de rupture ; 79 rangs d’impôt de remplacement différent ; 5 rendements
+corrigés le 3 novembre. Pièce : `methode/etats/COMPARAISON_tri_20261020_20261103.md`.
+
+### Quatre échanges de l’auteure du 20 octobre restés hors du registre — 20261116
+
+**Constaté, à verser.** Le fragment `20261020-flux-prives-et-classements.md` n’a jamais atteint
+`main`. Il porte, validés par l’auteure le 20261020 : redevances de l’eau en consommation ;
+cotisations imputées ignorées ; crédits d’impôt non retranchés ; objectif des flux physiques
+privés ; trois reclassements d’assiette ; comparaison avant / après sur la notion INSEE ; comptes
+distribués écartés. **Caduc depuis le 20261103** : « cotisations sociales à unifier », remplacé
+par « à fusionner ». Le reste se verse à sa date, le fragment faisant foi.
+
+### Tri des impôts : où en sont les cinq points du 3 novembre — 20261116
+
+**Constaté.** Clos : la date de fin des taux réduits de TVA (20261105) et les droits de
+mutation partiels (20261106). Ouverts : le millésime — 177 rangs changent, et non 118, la
+colonne révisée n’étant pas homogène (TVA à 59 394 contre 242 838) ; la lecture de « en R »
+(11 rangs, 942,0 M€) ; les jeux ; les 13 qualifications (201,4 M€). **Proposé** : les 13
+qualifications se tranchent en propre par le fil qui reprend le tri, sans question à l’auteure.
+
+### Liasse de crédits : la règle actuelle retrouvée à l'euro, et sa prémisse démentie — 20261116
+
+*Relevé.* `chaine_credits.py`, joué sur `Données PAP 2026` du classeur du site avec les drapeaux d'`Economies R`, redonne les 57 lignes de programme des 22 amendements à 1 € près : 47 par brut × fraction, 9 écrêtées au crédit ouvert de l'état B 2027, le programme 203 par sa correction du jour. Le périmètre ainsi retenu somme à 67 494,2 M€ d'AE et 73 160,9 M€ de CP, totaux « arrêtés » de la table A du classeur de suivi absent : ces montants sont bruts. Seul le titre 2 porte un socle (0,90) et l'indemnité (70 %). *Non corrigé* : l'en-tête de `chaine_credits.py`.
+
+### Liasse de crédits : table des paramètres et contrôle contre les classeurs — 20261116
+
+*Exécuté.* `referentiels/parametres_credits_20261116.tsv` (285 lignes, poste du classeur × programme × catégorie, action s'il y a lieu), sa note de lecture, `appareil/controle_liasse_classeurs.py` (`construire`, `controler`, `faute`, `ecarts`) et `methode/etats/ECARTS_liasse_classeurs_20261116.md`. *Déduit* : contre la première année du classeur, la liasse retire 10,47 Md€ d'AE de trop en net (12,72 en trop, 2,25 en moins) et 6,69 Md€ sans paramètre ; contre le § 4 du registre, 18,64 Md€ de trop et 7,83 Md€ sans paramètre. *Tranché en propre* : le grain, le rattachement des lignes aux postes de `SynthèseR` (prouvé poste par poste) et aux lignes du § 4 (d'après le § 14), l'écrêtement des cibles au crédit ouvert. *Proposé, non validé* : les six questions du § 6.
+
+### Calendrier : les quatre documents concordent, l'outil est seul contre eux — 20261116
+
+*Relevé.* Le § 4 du registre date 27 lignes ; le suivi de trajectoire le recopie, 27 sur 27 ; le registre des exceptions ne porte que trois dates de 2027 sur des crédits de l'État, cohérentes avec lui ; le flux par agent ne porte aucune date par ligne et rejoue le § 4 à 0,001 Md€ près ; les deux classeurs du site ne portent aucune date. `DATE_CAT` contredit le § 4 sur 13 couples ligne × catégorie, dont 11 dans la liasse pour 22,22 Md€ d'AE ; le registre est muet sur 6 autres, 7,85 Md€. L'« arbitrage du 20261016 » sur le fonctionnement, cité par `chaine_credits.py`, n'a pas d'entrée au registre des arbitrages. *Proposé, non validé* : la date du § 4 l'emporte.
+
+### `SynthèseR` : 215,7 M€ comptés deux fois dans « Autres ménages » — 20261116
+
+*Relevé, puis déduit.* `SynthèseR!F32` part du brut (`Economies R!S4`) et en retranche l'aide médicale de l'État et l'emploi service nets de leur abattement de 10 % (D31, E31) : les 10 % conservés de ces deux postes, 121,6 et 118,0 M€, sont repris dans « Autres » à 90 %. *Non corrigé* : le classeur fait foi et n'est pas de ce mandat.
