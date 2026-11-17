@@ -188,7 +188,7 @@ def fraction_nombre(s):
 def ligne_registre(prog, cm, cat, action, rang):
     """Ligne doctrinale du § 4 et étiquette d'action. Les repères de ligne du
     PAP sont ceux du § 14 du registre, vérifiés sur le classeur du site."""
-    if cat in (21, 23):
+    if cat in (21, 22, 23):
         return 'D38', ''
     if cat in (31, 51, 52, 53):
         if prog == 203 and action == '04':
@@ -263,6 +263,14 @@ def poste_classeur(prog, cm, cat, drapeau, action):
     def p(nom, cellules, taux, an1, adr_taux, adr_an1, note=''):
         return dict(poste=nom, adresse=cellules, taux=taux, an1=an1,
                     adr_taux=adr_taux, adr_an1=adr_an1, note=note)
+    if cat == 22:
+        # Onglet « Mesure » du classeur de suivi, ligne 41 : « Catégorie 22 non arrêtée
+        # directement — suit le sort de la catégorie 21 ». Poste à part : SynthèseR!D6 ne
+        # compte que les catégories 21 et 23, et la preuve du rattachement ne bouge pas.
+        return p('Cotisations employeur — suit le sort des salaires', 'aucune cellule à SynthèseR', 0.9, 0.3,
+                 "classeur de suivi, onglet « Mesure », ligne 41 : suit le sort de la catégorie 21 ; "
+                 "coefficients de SynthèseR!D7 (× 0,3 × 0,9)", 'SynthèseR!D7, par renvoi',
+                 'catégorie 22 : le classeur du site ne la chiffre pas ; retirée avec la catégorie 21 (20261117)')
     if cat in (21, 23):
         return p('Salaires', 'SynthèseR!D6:D8', 0.9, 0.3,
                  "SynthèseR!D7 =('Economies R'!G4+J4)*0.3*0.9 ; D8 =D7*7/3", 'SynthèseR!D7')
@@ -417,12 +425,10 @@ def regle(lr, cat, titre, prog, pc, s4, drapeau, type_mission, ouvert):
         ry, da, fr = date_de(lr)
         r.update(regle_taux=1.0, regle_rythme=1 / 3, regle_date=da, regle_fraction=FRACTION[da],
                  regle_cas='classeur muet et registre muet',
-                 regle_origine='classeur : « En 3 ans », total seul (SynthèseR!I14:K14), ni taux ni première année ; '
-                               'registre § 1 : socle 0 % par défaut, rythme ⅓ si sortie en trois ans ; '
-                               f'date de la ligne {lr} du § 4. Montant indicatif.',
-                 retenu='non',
-                 motif_hors_liasse='le classeur sort ces lignes de la restitution salariale et n’en donne que le total ; '
-                                   'aucune ligne du § 4 ne les porte : ni oubli ni autre amendement, décision due')
+                 regle_origine='pilotage, 20261117 (« les liasses sur mesure ») : intégrée à un tiers la première '
+                               'année ; classeur : « En 3 ans », total seul (SynthèseR!I14:K14), ni taux ni première '
+                               'année ; registre § 1 : socle 0 % par défaut, rythme ⅓ si sortie en trois ans ; '
+                               f'date et fraction de la ligne {lr} du § 4')
     elif pc['taux'] == 0:
         ry, da, fr = date_de(lr)
         r.update(regle_taux=0.0, regle_rythme=ry, regle_date=da, regle_fraction=fr,
@@ -469,7 +475,8 @@ def regle(lr, cat, titre, prog, pc, s4, drapeau, type_mission, ouvert):
                 'CCF': 'compte de concours financiers : état D, hors de l’état B de l’article 58 ; porté en première '
                        'partie (liasse P1, amendement sur le compte d’avances à l’audiovisuel public)',
                 'CAS': 'compte d’affectation spéciale : état D, hors de l’état B de l’article 58 ; aucun amendement '
-                       'de la liasse ne le porte'}.get(type_mission, 'hors budget général'))
+                       'de la liasse ne le porte' + (' ; ligne « En 3 ans » restée dehors pour ce seul motif'
+                                                      if drapeau == 'En 3 ans' else '')}.get(type_mission, 'hors budget général'))
         elif ouvert is None:
             r.update(retenu='non', motif_hors_liasse='programme sans ligne à l’état B 2027')
         elif ouvert[0] == 0:
@@ -613,7 +620,7 @@ def construire(xls, xlsx):
             if drapeau not in ('Oui', 'En 3 ans'):
                 continue
             adr_dr = f"Economies R!{COL_DRAPEAU[cat][0]}{erow}"
-        elif cat in (21, 23, 31, 51, 52, 53):
+        elif cat in (21, 22, 23, 31, 51, 52, 53):
             if e[4] != '':
                 continue
             drapeau = 'périmètre non essentiel'
@@ -640,6 +647,8 @@ def construire(xls, xlsx):
 
     missions_2026 = {norm(pap.cell_value(r, 1)) for r in range(1, pap.nrows) if pap.cell_value(r, 1)}
     titres_liasse = {norm(a['mission']): n for n, a in liasse.items()}
+    dernier_numero = max(int(x) for x in re.findall(r'^## Amendement n° (\d+) \[',
+                                                    LIASSE.read_text(encoding='utf-8'), re.M))
     lignes = []
     for n, ((prog, cat, lr, action), g) in enumerate(groupes.items(), 1):
         pc = poste_classeur(prog, g['cm'], cat, g['drapeau'], g['act_cl'])
@@ -718,7 +727,7 @@ def construire(xls, xlsx):
         lib27 = corr[prog]['libelle_etatB_2027'] if prog in corr else g['lprog']
         e27 = etatb.get(norm(lib27))
         pl = par_prog_liasse.get(norm(lib27)) or par_prog_liasse.get(norm(g['lprog']))
-        inclus = bool(pl) and g['drapeau'] != 'En 3 ans' and \
+        inclus = bool(pl) and g['drapeau'] != 'En 3 ans' and cat != 22 and \
             not (prog == 203 and cat in (31, 51, 52, 53) and action.startswith('04'))
         fr_l = FRACTION[DATE_CAT[cat]]
         coef = COEF_T2 if g['titre'] == 2 else 1.0
@@ -745,10 +754,11 @@ def construire(xls, xlsx):
             if num is None and m27 not in missions_2026:
                 num = titres_liasse.get(norm(g['mission']))
             if num is None:
-                rg.update(retenu='non', motif_hors_liasse=f"programme rattaché à la mission « {e27[1]} » à l’état B 2027, "
-                          'qui n’a pas d’amendement dans la liasse : un amendement de mission supplémentaire est dû')
-            else:
-                rg['amendement_mission'] = num
+                # Mission sans amendement : elle prend le numéro qui suit le dernier de la
+                # liasse. Aucun numéro en place ne change (pilotage, 20261117).
+                num = titres_liasse[m27] = dernier_numero = dernier_numero + 1
+                print(f"mission « {e27[1]} » sans amendement dans la liasse : n° {num}, en dernier numéro")
+            rg['amendement_mission'] = num
         d.update(rg)
         if rg['regle_taux'] != '':
             k = rg['regle_taux'] * rg['regle_rythme'] * rg['regle_fraction'] * (1 - rg['regle_part_conservee']) \

@@ -10,6 +10,8 @@ chaque ligne.
 
 Le générateur remplace, dans la liasse, les seuls blocs des amendements de
 mission et leurs lignes de sommaire. Les autres amendements ne sont pas lus.
+Un amendement de mission que la table numérote au-delà du dernier numéro de la
+liasse est ajouté en fin de liasse et de sommaire (20261117 : « Outre-mer »).
 
 Usage : python3 appareil/generer_liasse_p2.py [liasse.md] [--a-blanc]
 """
@@ -137,9 +139,20 @@ def main(argv):
         tcp += scp
         m = re.search(rf'^## Amendement n° {n} \[{OBJET_TITRE}, mission «.*?»\]\n', texte, re.M)
         if not m:
-            sys.exit(f'amendement n° {n} introuvable dans {chemin.name}')
-        fin = re.compile(r'^---\n+(?:---\n+)?## Amendement n° ', re.M).search(texte, m.end())
-        texte = texte[:m.start()] + bloc + '\n' + texte[fin.start():]
+            # Un amendement de mission nouveau prend le dernier numéro : aucun numéro
+            # en place ne change (les pages du site y renvoient par numéro).
+            dernier = max(int(x) for x in re.findall(r'^## Amendement n° (\d+) \[', texte, re.M))
+            if n != dernier + 1:
+                sys.exit(f'amendement n° {n} introuvable dans {chemin.name} (dernier numéro : {dernier})')
+            texte = texte.rstrip('\n') + '\n\n---\n\n' + bloc
+            lignes_sommaire = list(re.finditer(rf'^\| {dernier} \| .* \|$', texte, re.M))
+            if len(lignes_sommaire) != 1:
+                sys.exit(f'ligne de sommaire du n° {dernier} : {len(lignes_sommaire)} occurrence(s)')
+            k = lignes_sommaire[0].end()
+            texte = texte[:k] + f'\n| {n} | ARTICLE 58, état B | à écrire |' + texte[k:]
+        else:
+            fin = re.compile(r'^---\n+(?:---\n+)?## Amendement n° ', re.M).search(texte, m.end())
+            texte = texte[:m.start()] + bloc + ('\n' + texte[fin.start():] if fin else '')
         texte, k = re.subn(rf'^\| {n} \| ARTICLE 58, état B \| .* \|$',
                            f'| {n} | ARTICLE 58, état B | {OBJET_TITRE}, mission «{NB}{mission}{NB}» |',
                            texte, flags=re.M)

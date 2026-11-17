@@ -12,7 +12,7 @@ Contrôles, par liasse :
       au texte déposé (referentiels/socle_texte_*.json) ou dans ce que l'amendement insère ;
   L4  renvois d'un amendement à un autre (« le n° 28 », « P1 n° 25 ») : l'amendement existe ;
   L5  doubles emplois : un même article de code abrogé par deux amendements ;
-  L6  porteurs du tri (referentiels/sort_prelevements_20261103.tsv) : l'amendement et la division
+  L6  porteurs du tri (referentiels/sort_prelevements_20261116.tsv) : l'amendement et la division
       de premier rang existent ;
   L7  dates citées par l'exposé et absentes du dispositif (à lire : une date d'une autre mesure peut
       s'y citer à bon droit).
@@ -283,7 +283,7 @@ def main():
     rapport += ['']
     # L6 : porteurs du tri
     ec6 = []
-    for r in csv.DictReader(open(C / 'referentiels' / 'sort_prelevements_20261103.tsv', encoding='utf-8'), delimiter='\t'):
+    for r in csv.DictReader(open(C / 'referentiels' / 'sort_prelevements_20261116.tsv', encoding='utf-8'), delimiter='\t'):
         p, a = r['amendement_porteur'], r['alinea']
         m = re.match(r'(PLF P1|PLF P2|PLFSS) n° (\d+)$', p)
         if not m:

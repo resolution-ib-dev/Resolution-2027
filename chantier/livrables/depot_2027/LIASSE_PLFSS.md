@@ -16,7 +16,7 @@ La présente liasse compte neuf amendements.
 | 6 | Article additionnel après l’article 35 | Un régime socle unique remplace les régimes de base par répartition |
 | 7 | Article additionnel après l’article 37 | Une aide pour toutes : les prestations qu’elle remplace s’éteignent le jour où elle commence |
 | 8 | Article additionnel après l’article 43 | Concours financiers des organismes de sécurité sociale et du fonds d’intervention régional : interdire la subvention sans contrepartie et n’autoriser que l’achat de prestations déterminées |
-| 9 | Article additionnel après l’article 14 | Contributions sociales : dix-huit impositions fondues dans l’impôt, sans hausse du total |
+| 9 | Article additionnel après l’article 14 | Contributions sociales : dix-neuf impositions fondues dans l’impôt, sans hausse du total |
 
 ---
 
@@ -518,7 +518,7 @@ Les engagements en cours s’exécutent jusqu’à leur terme et au plus tard ju
 
 ---
 
-## Amendement n° 9 [Contributions sociales : dix-huit impositions fondues dans l’impôt, sans hausse du total]
+## Amendement n° 9 [Contributions sociales : dix-neuf impositions fondues dans l’impôt, sans hausse du total]
 
 AMENDEMENT
 
@@ -532,7 +532,7 @@ APRÈS L’ARTICLE 14, insérer l’article suivant :
 
 I. – Sont abrogés :
 
-1° Les articles L. 137-13, L. 137-14, L. 137-20 à L. 137-27, L. 137-30 à L. 137-39, L. 137-41, L. 138-1 à L. 138-9-1, L. 138-10 à L. 138-16, L. 138-19-8 à L. 138-19-13, L. 245-1 à L. 245-5, L. 245-5-1 A, L. 245-5-1 à L. 245-5-6, L. 245-6, L. 380-2, L. 382-4, L. 652-6, L. 862-3, L. 862-4 et L. 862-4-1 du code de la sécurité sociale.
+1° Les articles L. 137-12, L. 137-13, L. 137-14, L. 137-20 à L. 137-27, L. 137-30 à L. 137-39, L. 137-41, L. 138-1 à L. 138-9-1, L. 138-10 à L. 138-16, L. 138-19-8 à L. 138-19-13, L. 245-1 à L. 245-5, L. 245-5-1 A, L. 245-5-1 à L. 245-5-6, L. 245-6, L. 380-2, L. 382-4 et L. 652-6 du code de la sécurité sociale.
 
 2° L’article 18 de la loi n° 2004-803 du 9 août 2004 relative au service public de l’électricité et du gaz et aux entreprises électriques et gazières.
 
@@ -544,7 +544,7 @@ B. – Par dérogation au A :
 
 2° Les contributions prévues aux articles L. 138-10, L. 138-19-8 et L. 380-2 du même code, dont l’exigibilité dépend d’un seuil annuel, sont dues une dernière fois au titre de l’année 2027.
 
-3° Les contributions prévues aux articles L. 137-27, L. 138-1, L. 245-1, L. 245-5-1 A, L. 245-5-1, L. 245-6 et L. 862-4-1 du même code sont dues au titre de l’année 2027 sur la moitié de leur assiette annuelle.
+3° Les contributions prévues aux articles L. 137-27, L. 138-1, L. 245-1, L. 245-5-1 A, L. 245-5-1 et L. 245-6 du même code sont dues au titre de l’année 2027 sur la moitié de leur assiette annuelle.
 
 C. – Les contributions dont le fait générateur est antérieur aux dates mentionnées aux A et B demeurent dues et sont recouvrées, contrôlées et contestées selon les règles qui leur étaient applicables.
 
@@ -556,13 +556,13 @@ V. – La présente mesure concourt à la réduction des prélèvements pesant s
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime dix-huit contributions affectées à la sécurité sociale, fondues dans les grands impôts.
+Cet amendement supprime dix-neuf contributions affectées à la sécurité sociale, fondues dans les grands impôts.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-Le code de la sécurité sociale porte, à côté des cotisations, une série de contributions sur des assiettes particulières : contribution sociale de solidarité des sociétés, sur le chiffre d’affaires, contributions des laboratoires, des grossistes et des fabricants de dispositifs médicaux, clause de sauvegarde, taxe de solidarité additionnelle et contribution forfaitaire des organismes complémentaires, contribution additionnelle de solidarité pour l’autonomie sur les pensions, prélèvements et contribution publicitaire sur les jeux, contribution sur les attributions d’options et d’actions aux salariés, cotisation subsidiaire maladie, contribution des diffuseurs d’œuvres, droits de plaidoirie¹. S’y ajoute la contribution tarifaire d’acheminement, perçue sur la facture d’énergie. Leur produit atteint 19 milliards d’euros².
+Le code de la sécurité sociale porte, à côté des cotisations, une série de contributions sur des assiettes particulières : contribution sociale de solidarité des sociétés, sur le chiffre d’affaires, contributions des laboratoires, des grossistes et des fabricants de dispositifs médicaux, clause de sauvegarde, contribution de l’employeur sur les indemnités de rupture conventionnelle et de mise à la retraite, contribution additionnelle de solidarité pour l’autonomie sur les pensions, prélèvements et contribution publicitaire sur les jeux, contribution sur les attributions d’options et d’actions aux salariés, cotisation subsidiaire maladie, contribution des diffuseurs d’œuvres, droits de plaidoirie et contribution équivalente¹. S’y ajoute la contribution tarifaire d’acheminement, perçue sur la facture d’énergie. Leur produit atteint 13 milliards d’euros².
 
-L’amendement les abroge au 1er juillet 2027. Les contributions assises sur l’année ne sont dues pour 2027 que sur la moitié de leur assiette, sauf celles qui naissent au 1er janvier ou dépendent d’un seuil annuel. Dit simplement : l’entreprise paie l’impôt sur ses bénéfices, le consommateur la TVA, le retraité l’impôt sur le revenu, sans dix-huit contributions à côté.
+L’amendement les abroge au 1er juillet 2027. Les contributions assises sur l’année ne sont dues pour 2027 que sur la moitié de leur assiette, sauf celles qui naissent au 1er janvier ou dépendent d’un seuil annuel. Dit simplement : l’entreprise paie l’impôt sur ses bénéfices, le consommateur la TVA, le retraité l’impôt sur le revenu, sans dix-neuf contributions à côté.
 
 La perte de recettes pour la sécurité sociale est compensée par la majoration des contributions sur les revenus du patrimoine et des placements, forme de la présente liasse. La fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit³.
 
