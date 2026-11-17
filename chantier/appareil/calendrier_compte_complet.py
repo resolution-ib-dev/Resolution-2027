@@ -604,8 +604,8 @@ def controler():
         verdict(f'TVA {a} = § 17', tva[i] - t17['TVA, en mesure'][i], 0.0051)
         verdict(f'taxe sur les salaires {a} = § 17', ts[i] - t17['taxe sur les salaires'][i], 0.0051)
     tri = an([sum(M(d)[i] for d in T if d['id'] in ('TRI', 'P1-35')) for i in range(48)])
-    verdict('suppressions du tri 2027 = § 18 (−17, somme des lignes −17,3)', tri[0] - sum(x[0] for x in t18.values()), 0.001)
-    verdict('suppressions du tri 2028 = § 18 (−33, somme des lignes −32,6)', tri[1] - sum(x[1] for x in t18.values()), 0.001)
+    verdict('suppressions du tri 2027 = § 18 (somme des lignes du tableau)', tri[0] - sum(x[0] for x in t18.values()), 0.001)
+    verdict('suppressions du tri 2028 = § 18 (somme des lignes du tableau)', tri[1] - sum(x[1] for x in t18.values()), 0.001)
     # 9. le compte : privés + public = 0 chaque mois ; le TSV se régénère à l'identique
     L = lignes()
     A = par_agent(L)

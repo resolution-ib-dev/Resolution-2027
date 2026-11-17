@@ -43,6 +43,24 @@ AUTEURE = 'réponse de l’auteure'
 PILOTAGE = 'tranché par le pilotage, révocable'
 FIL = 'tranché par ce fil sur les règles écrites, révocable'
 
+# ------------------------------------------------------------------ les porteurs du 20261117
+# Mandat « les liasses sur mesure » : chaque rang supprimé dont le siège est établi rejoint
+# l'amendement qui porte sa famille. n : (amendement, division, observation).
+L1117 = 'porteur du 20261117 (liasses reprises sur le tri unique)'
+PORTEURS_1117 = {
+    '6': ('PLFSS n° 9', 'I, 1°', L1117 + ' : siège relevé au dépôt de droit, L. 137-12, 2°, du code de la sécurité sociale'),
+    '12': ('PLFSS n° 9', 'I, 1°', L1117 + ' : L. 137-12, 1°, du code de la sécurité sociale'),
+    '363': ('PLFSS n° 9', 'I, 1°', L1117 + ' : la contribution équivalente est au deuxième alinéa de l’article L. 652-6, déjà abrogé par cette division ; L. 652-7 porte les cotisations'),
+    '211': ('PLF P1 n° 22', 'I bis', L1117 + ' : tarifs ramenés à 1 € et 0,5 € par mégawattheure, par dérogation à L. 312-37, L. 312-48 et L. 312-64 ; majoration L. 312-37-1 écartée'),
+    '214': ('PLF P1 n° 29', 'III bis, 2°', L1117 + ' : L. 2333-2 du code général des collectivités territoriales'),
+    '215': ('PLF P1 n° 29', 'III bis, 2°', L1117 + ' : L. 3333-2 du code général des collectivités territoriales'),
+    '285': ('PLF P1 n° 22', 'I, 4°', L1117 + ' : article 302 bis ZI abrogé en entier'),
+    '286': ('PLF P1 n° 22', 'I, 4°', L1117 + ' : article 302 bis ZG abrogé en entier'),
+    '287': ('PLF P1 n° 22', 'I, 5°', L1117 + ' : le I de l’article 138 de la loi n° 2019-486, déjà abrogé par cette division, institue le prélèvement dont la fraction est affectée'),
+}
+# Le 5° du I du n° 22 (protection juridique) est retiré : les 6° et 7° deviennent 5° et 6°.
+RENUM_P1_22 = {'I, 7°': 'I, 6°', 'I, 4° et 6°': 'I, 4° et 5°', 'I, 6°': 'I, 5°'}
+
 # ------------------------------------------------------------------ les rangs déplacés ou requalifiés
 # n : (devenir, impôt cible, bloc, règle du mandat, statut, motif) — None laisse la valeur en place.
 MOUV = {
@@ -202,6 +220,14 @@ def construire():
                              devenir_apres=apres[0], cible_ou_bloc_apres=apres[1] or apres[2],
                              change='devenir' if avant[0] != apres[0] else ('impôt cible ou bloc' if avant != apres else 'confirmé'),
                              regle=regle, statut=statut, motif=motif, porteur_avant=r['amendement_porteur']))
+        # porteurs du 20261117 — les liasses reprises sur le tri unique
+        if n in PORTEURS_1117:
+            am, al, obs = PORTEURS_1117[n]
+            d['amendement_porteur'], d['alinea'], d['etat_porteur'] = am, al, 'porté'
+            d['verdict'] = 'A'
+            d['observation'] = obs + (' ; ' + d['observation'] if d['observation'] else '')
+        elif d['amendement_porteur'] == 'PLF P1 n° 22' and d['alinea'] in RENUM_P1_22:
+            d['alinea'] = RENUM_P1_22[d['alinea']]
         # règle 2 — les jeux : supprimés, réponse de l'auteure du 20261116 (aucun déplacement, le tri du 3 novembre les supprimait)
         if n in JEUX:
             statut, regle = AUTEURE, 2

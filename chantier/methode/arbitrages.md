@@ -9170,3 +9170,45 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Validé.** *Consignes de l’auteur* : « agents doit suivre la découpe des structures et y être lié par défaut » ; pour les agents sans structure en face, réponse « A » — liés à leur ligne de subventions quand elle existe, sinon aux autres agences ; « on ne répétera pas agents dans le bloc agents (en revanche il faut spécifier "publics" à première occurrence) ». **Exécuté, à valider pour le rendu.** La carte « Agents publics » porte une ligne par ligne de structure, du même nom et dans le même ordre — échelons, agences, ministères ; cocher, décocher ou régler une structure entraîne ses agents tant que leur ligne a la même valeur ; réglée à part, elle garde la sienne (`liens` des données, `ecrire` de la page). *Relevé* : 19 lignes d’agents sur 20 sont liées ; France Travail et les agences de santé (4,7 Md€) suivent « France Travail : aides versées » ; les lignes de moins de 50 M€ rejoignent « Autres administrations ». **Non liée** : « Communes : logement et équipements » (1,15 Md€), les communes n’ayant pas de ligne de structure. Aucun montant ne change.
 
+### Liasse de crédits : amendement n° 40 « Outre-mer », en dernier numéro — 20261117
+
+*Tranché par le pilotage, révocable.* Le programme « Interventions territoriales de l'État », rangé à la mission « Outre-mer » par l'état B 2027, reçoit son amendement de crédits : 35 322 219 € d'AE et 30 134 319 € de CP (*relevé*). Il prend le n° 40 ; aucun numéro en place ne change. *Exécuté* : une mission sans amendement prend, à l'outil, le numéro qui suit le dernier de la liasse.
+
+### Liasse de crédits : huit lignes « en 3 ans » intégrées à un tiers, deux laissées à l'état D — 20261117
+
+*Tranché par le pilotage, révocable.* Les lignes que le classeur arrête « en 3 ans » entrent dans l'amendement de leur mission pour un tiers la première année, à la date de leur ligne du § 4 du registre : programmes 345, 159 et 205 (n° 4), 134 (n° 12), 149 et 206 (n° 18). *Relevé* : 4 180 125 795 € d'AE, dont 2 976 642 659 € au programme « Service public de l'énergie ». Les programmes 775 et 776 restent hors liasse : compte d'affectation spéciale, état D.
+
+### Liasse de crédits : la catégorie 22 retirée avec la 21 — 20261117
+
+*Tranché par le pilotage, révocable*, sur l'onglet « Mesure » du classeur de suivi (« suit le sort de la catégorie 21 »). Onze lignes, 1 995 722 820 € bruts, 269 422 581 € retirés en AE et en CP au coefficient du titre 2 (*relevé*). Amendements n° 1, 4, 6, 12, 13, 14, 18 et 22.
+
+### Liasse de crédits : totaux au 17 novembre — 20261117
+
+*Relevé.* 23 amendements de mission, 63 lignes de programme : 24 261 621 967 € d'AE et 21 034 477 811 € de CP, contre 19 776 751 373 et 17 617 182 294 le 16 novembre. Liasse à 40 amendements. *Constaté, à l'auteure* : le programme 379, reversement à la sécurité sociale de fonds européens, reste retiré à 85 % (205 700 000 € d'AE).
+
+### P1 n° 22 : protection juridique retirée, jeux complétés, électricité au plancher — 20261117
+
+*Tranché par le pilotage* pour l'alignement sur le tri unique ; *tranché en propre, révocable* pour la rédaction. Le 5° ter de l'article 1001 du code général des impôts sort de l'amendement. Les articles 302 bis ZG et 302 bis ZI y entrent (rangs 286 et 285). Un I bis ramène l'accise sur l'électricité à 1 € et 0,5 € par mégawattheure au 1er juillet 2027, sur le modèle des articles 64 de la loi de finances pour 2023 et 92 de la loi de finances pour 2024, *relevés* au dépôt de droit ; la majoration de l'article L. 312-37-1 ne s'applique plus à l'électricité. L'amendement compte cinquante et une impositions supprimées. L'exposé rattache à la TVA la taxe sur les transactions financières, la taxe sur les ordres annulés, les jeux et l'électricité. *Non fait* : un tarif nul ; l'abrogation du reste du chapitre des prélèvements sur les jeux (302 bis ZH, ZJ à ZO).
+
+### P1 n° 29 : parts locales de l'accise sur l'électricité — 20261117
+
+*Tranché en propre, révocable.* Les articles L. 2333-2 et L. 3333-2 du code général des collectivités territoriales rejoignent le 2° du III bis : parts éteintes à compter de 2028, compensées par la dotation globale de fonctionnement comme les autres impositions du III bis. L'exposé compte vingt impositions locales.
+
+### PLFSS n° 9 : dix-neuf impositions — 20261117
+
+*Tranché par le pilotage* pour l'alignement ; *relevé* au dépôt de droit pour les adresses. Sortent : L. 862-4, L. 862-4-1 et L. 862-3, qui affecte la taxe gardée. Entre : L. 137-12, contributions sur les indemnités de rupture conventionnelle et de mise à la retraite. La contribution équivalente aux droits de plaidoirie (rang 363) était déjà portée par l'abrogation de L. 652-6. Produit dit à l'exposé : 13 milliards d'euros (13 033,2 M€, 19 rangs).
+
+### Tri des impôts : 25 rangs supprimés sans porteur — 20261117
+
+*Relevé.* Neuf rangs rattachés (6 400,0 M€) : 211 au P1 n° 22, I bis ; 214 et 215 au P1 n° 29 ; 285, 286 et 287 au P1 n° 22 ; 6, 12 et 363 au PLFSS n° 9. Restent 25 rangs, 5 019,5 M€, dont six agrégats de l'état A (3 425,6 M€) et la taxe sur le patrimoine financier créée par le projet (1 000,0 M€). **Constaté** : les sièges du tri sont à corriger pour les rangs 6 (L. 137-12, non L. 137-15), 363 (L. 652-6, non L. 652-7) et 288 ; les articles 1559, 1560 et 1599 terdecies du code général des impôts sont absents du dépôt de droit.
+
+### Registre de calcul, § 18 : compteurs rejoués sur les liasses reprises — 20261117
+
+*Relevé.* Perte de recettes brute des amendements du tri : −16 Md€ en 2027 et −32 en régime plein, contre −17 et −33 ; −1,8 Md€ par mois au second semestre 2027, contre −2,0. P1 n° 22 et 23 : −5,5 et −12,0 ; P1 n° 29 : −0,5 et −4,8 ; PLFSS n° 9 : −3,8 et −13. *Majorant déclaré* : l'électricité compte pour tout son rendement, le plancher n'est pas chiffré. *Exécuté* : compte complet du calendrier reconstruit, 0 contrôle en échec. *Non rejoués* : § 15, 16 et 17 ; l'état `COMPTE_complet_20261117.md`.
+
+---
+
+### Liasses sur mesure : fusionnées et mises en ligne — 20261117
+
+**Exécuté** (consigne de l’auteur : « fais les liasses sur mesure »). Les trois liasses du fil d’exécution sont fusionnées après rejeu des contrôles par le pilotage — *relevé* : `controle_liasse_classeurs.py --cible projet` 23 amendements, 0 échec ; `controle_credits_liasse.py` 0 anomalie ; `controle_liasses.py` 0 écart ; `controle_sieges_prelevements.py` 0 échec ; les deux contrôles du calendrier 0 échec. Rendues en Word et en PDF (EB Garamond ; 95, 69 et 24 pages) et mises en ligne ; `renvois.json` : pages recalées, intitulés des n° 22 (première partie) et n° 9 (sécurité sociale), amendement n° 40 de la seconde partie ajouté ; 84 amendements au site. **Simulateur** : les agents communaux du logement (1,15 Md€) restent en ligne libre (réponse de l’auteur, « A »).
+
