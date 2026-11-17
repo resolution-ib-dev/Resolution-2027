@@ -281,12 +281,12 @@ Ménages à revenus d'activité rendus en deux lignes (R-T). Restitution portée
 | Collectivités | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | **−3,20** |
 | **TOTAL** | −2,69 | −2,69 | −2,69 | −2,90 | −2,90 | −2,90 | −3,77 | −2,18 | −0,59 | 1,00 | 2,59 | 4,18 | **−15,55** |
 
-**Lecture par sphère** (règle de l'auteur, 20261116 : « collectivités ça ne compte pas c'est le public ! C'est agents privés / sphère publique »). Agents privés : ménages actifs, ménages sans revenus d'activité, entreprises, associations. Sphère publique : agents publics, opérateurs, collectivités.
+**Lecture par sphère** (règles de l'auteur, 20261116 : « collectivités ça ne compte pas c'est le public ! C'est agents privés / sphère publique » ; « les agents publics sont des personnes privées. Le solde public est l'inverse de la somme des privés »). Agents privés : ménages actifs, ménages sans revenus d'activité, agents publics, entreprises, associations. Les lignes « opérateurs » et « collectivités » sont internes à la sphère publique et n'entrent dans aucune somme.
 
 | sphère | janv | févr | mars | avril | mai | juin | juil | août | sept | oct | nov | déc | **2027** | 2028 | 2029 | 2030 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Agents privés** | −2,42 | −2,42 | −2,42 | −2,63 | −2,63 | −2,63 | −2,41 | −0,98 | 0,45 | 1,88 | 3,32 | 4,75 | **−8,15** | 39,42 | 19,03 | 15,58 |
-| Sphère publique | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −1,36 | −1,21 | −1,05 | −0,89 | −0,73 | −0,57 | **−7,40** | −10,18 | −13,68 | −13,83 |
+| **Agents privés** | −2,42 | −2,42 | −2,42 | −2,63 | −2,63 | −2,63 | −2,82 | −1,23 | 0,36 | 1,95 | 3,54 | 5,13 | **−8,24** | 44,01 | 23,62 | 20,17 |
+| Solde public | 2,42 | 2,42 | 2,42 | 2,63 | 2,63 | 2,63 | 2,82 | 1,23 | −0,36 | −1,95 | −3,54 | −5,13 | **8,24** | −44,01 | −23,62 | −20,17 |
 
 *Rejoué le 20261116 sur le croisé mesure × mois (`referentiels/calendrier_mesures_mois_20261116.tsv`), après la mise à niveau du § 5 et la date du chèque énergie : opérateurs à 4,116 de régime plein, départs d'agents à 30 % tant que l'indemnité court, chèque énergie éteint au 1er janvier. Le tableau du 15 octobre donnait −22,95 au total, −8,16 aux agents publics et −3,42 aux opérateurs. Par exercice, 2028 à 2030, total tous agents : +29,24 · +5,35 · +1,75.*
 
