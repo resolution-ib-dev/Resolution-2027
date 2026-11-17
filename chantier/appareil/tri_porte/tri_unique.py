@@ -58,6 +58,50 @@ PORTEURS_1117 = {
     '286': ('PLF P1 n° 22', 'I, 4°', L1117 + ' : article 302 bis ZG abrogé en entier'),
     '287': ('PLF P1 n° 22', 'I, 5°', L1117 + ' : le I de l’article 138 de la loi n° 2019-486, déjà abrogé par cette division, institue le prélèvement dont la fraction est affectée'),
 }
+# Mandat « abrogations » du 20261117 (réponse de l'auteure : « on enlève avec mêmes règles ») :
+# chaque rang supprimé sans porteur dont le siège se relève rejoint l'amendement de sa famille.
+LABR = 'porteur du 20261117 (abrogations, mêmes règles que les voisines)'
+PORTEURS_ABROG = {
+    '324': ('PLF P1 n° 22', 'I, 1°', LABR + ' : la taxe sur le patrimoine financier est la taxe de l’article 235 ter C (holdings patrimoniales), '
+            'déjà abrogé par cette division ; aucun article du projet de loi de finances pour 2027 ne la crée (relevé au texte déposé) ; doublon du rang 328'),
+    '382': ('PLF P1 n° 22', 'II, 4°', LABR + ' : L. 523-1 à L. 523-3 du code de l’énergie abrogés le 1er septembre 2026 (dépôt de droit) ; '
+            'la redevance proportionnelle est désormais celle de L. 543-1 du même code, abrogé par cette division'),
+    '388': ('PLF P1 n° 22', 'II, 4°', LABR + ' : L. 523-3 du code de l’énergie abrogé le 1er septembre 2026 ; même successeur, L. 543-1'),
+    '128': ('PLF P1 n° 25', 'I, 8°', LABR + ' : L. 4622-6 du code du travail, cotisation aux services de prévention et de santé au travail'),
+    'N5': ('PLF P1 n° 25', 'I, 2°', LABR + ' : article 1635 bis R du code général des impôts créé par l’article 27, I, 5°, du projet de loi, '
+           'voisin des articles 1635 bis P et 1635 bis Q que la division abroge déjà'),
+    '96': ('PLFSS n° 9', 'I, 1°', LABR + ' : L. 137-10 à L. 137-11-2 du code de la sécurité sociale (préretraite, retraites à prestations définies) ; '
+           'le siège du tri, L. 136-1, est l’article de la CSG'),
+    '97': ('PLFSS n° 9', 'I, 1°', LABR + ' : L. 137-10 à L. 137-11-2 du code de la sécurité sociale ; le siège du tri, L. 136-1, est l’article de la CSG'),
+    '288': ('PLF P1 n° 29', 'III bis, 1°', LABR + ' : articles 1559 à 1566 du code général des impôts, impôt sur les cercles et maisons de jeux, '
+            'affecté aux communes ; adresse relevée à l’annexe des ressources affectées 2027 (« L. 1559 CGI ») et à la fiche des douanes, '
+            'série absente de l’extrait du dépôt de droit : version à vérifier avant dépôt ; le siège « 124 » du tri est faux'),
+}
+# Rangs dont le siège est abrogé au dépôt de droit : rien à abroger, ils sortent du compte des rangs sans porteur.
+DEJA_ABROGE = {
+    '351': 'article 1599 terdecies du code général des impôts abrogé par l’article 21 de la loi n° 2019-1479 du 28 décembre 2019 (relevé au dépôt de droit)',
+    '417': 'chapitre de la garantie des matières d’or, d’argent et de platine : les articles d’imposition sont abrogés ; restent les articles 522 et 524 '
+           '(titres et poinçons), qui ne portent aucune imposition (relevé au dépôt de droit, millésime 20261105)',
+}
+# Rangs restés sans porteur après recherche au dépôt de droit : le motif s'écrit au rang.
+SANS_PORTEUR_MOTIF = {
+    '131': 'agrégat de l’état A, sans siège : ses composantes sont aux autres rangs',
+    '407': 'agrégat de l’état A, sans siège',
+    '412': 'agrégat de l’état A, sans siège',
+    '350': 'agrégat de l’état A (timbre de dimension, 0 €), sans siège',
+    '384': 'agrégat de l’état A (ligne 1782) ; redevances radioélectriques fixées par voie réglementaire, aucun article législatif d’institution au dépôt',
+    '366': 'agrégat de l’état A (ligne 1712) ; la taxe sur les actes des huissiers (302 bis Y) est abrogée par l’article 21 de la loi n° 2019-1479',
+    '383': 'redevance domaniale d’utilisation des fréquences (L. 2125-10 du code général de la propriété des personnes publiques), affectée par '
+           'L. 241-3, 5° et 6°, du code de la sécurité sociale : l’abrogation de l’un ou de l’autre n’éteint pas la redevance (L. 2125-1 demeure)',
+    '362': 'L. 411-2 du code de la propriété intellectuelle : code absent du dépôt de droit',
+    'N14': 'L. 623-16 du code de la propriété intellectuelle : code absent du dépôt de droit',
+    '339': 'article 635 : liste des actes à enregistrer ; l’abroger supprimerait l’enregistrement des mutations que le P1 n° 19 garde à 1 % et 3 %',
+    '190': 'n.d. : aucun article au dépôt de droit (millésime 20261105)',
+    '290': 'n.d. : aucun article au dépôt de droit (millésime 20261105)',
+    '368': 'n.d. : aucun article au dépôt de droit (millésime 20261105)',
+    '387': 'n.d. : aucun article au dépôt de droit (millésime 20261105)',
+    '406': 'n.d. : aucun article au dépôt de droit (millésime 20261105)',
+}
 # Le 5° du I du n° 22 (protection juridique) est retiré : les 6° et 7° deviennent 5° et 6°.
 RENUM_P1_22 = {'I, 7°': 'I, 6°', 'I, 4° et 6°': 'I, 4° et 5°', 'I, 6°': 'I, 5°'}
 
@@ -228,6 +272,19 @@ def construire():
             d['observation'] = obs + (' ; ' + d['observation'] if d['observation'] else '')
         elif d['amendement_porteur'] == 'PLF P1 n° 22' and d['alinea'] in RENUM_P1_22:
             d['alinea'] = RENUM_P1_22[d['alinea']]
+        # abrogations du 20261117 — mêmes règles que les voisines
+        if n in PORTEURS_ABROG:
+            am, al, obs = PORTEURS_ABROG[n]
+            d['amendement_porteur'], d['alinea'], d['etat_porteur'] = am, al, 'porté'
+            d['verdict'] = 'A'
+            d['observation'] = obs + (' ; ' + d['observation'] if d['observation'] else '')
+        elif n in DEJA_ABROGE:
+            d['amendement_porteur'] = d['alinea'] = ''
+            d['verdict'], d['etat_porteur'] = 'S', 'sans objet : déjà abrogé'
+            d['observation'] = 'déjà éteinte : ' + DEJA_ABROGE[n] + (' ; ' + d['observation'] if d['observation'] else '')
+        elif n in SANS_PORTEUR_MOTIF and d['etat_porteur'] == 'non porté':
+            d['observation'] = ('sans porteur au 20261117 : ' + SANS_PORTEUR_MOTIF[n]
+                                + (' ; ' + d['observation'] if d['observation'] else ''))
         # règle 2 — les jeux : supprimés, réponse de l'auteure du 20261116 (aucun déplacement, le tri du 3 novembre les supprimait)
         if n in JEUX:
             statut, regle = AUTEURE, 2

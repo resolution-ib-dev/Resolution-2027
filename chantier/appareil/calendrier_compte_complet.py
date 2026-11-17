@@ -439,7 +439,7 @@ def lignes_hors_epargne():
     L.append(ligne('TRI', 'B', 'perte de recette, refonte', 'impôts supprimés', 'Suppressions d’impôts du tri (ajouts aux P1 n° 22, 23, 25 et 29, PLFSS n° 9)',
                    [(ENT, 1.0)], paliers((6, 2 * a27), (12, a28)), '1er juil. 2027',
                    'moitié de l’année en 2027, de juillet à décembre ; plein en 2028 (§ 18)',
-                   'registre § 18 ; livrables/tri_prelevements/calendrier_suppressions_nouvelles.md', 'relevé ; total minorant (26 rangs non chiffrés) ; agent non réparti, porté aux entreprises'))
+                   'registre § 18 ; livrables/tri_prelevements/calendrier_suppressions_nouvelles.md', 'relevé ; total minorant (31 rangs non chiffrés) ; agent non réparti, porté aux entreprises'))
     c35 = t18[next(k for k in t18 if k.startswith('P1 n° 35'))]
     L.append(ligne('P1-35', 'B', 'perte de recette, refonte', 'impôts supprimés', 'Contribution exceptionnelle : pas de troisième exercice',
                    [(ENT, 1.0)], paliers((0, c35[0]), (12, 0.0)), 'exercice 2027',

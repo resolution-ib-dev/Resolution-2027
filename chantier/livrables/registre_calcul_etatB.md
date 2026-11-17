@@ -559,20 +559,22 @@ Besoin de 2028 avec TVA et taxe sur les salaires au calendrier de la liasse : **
 | amendement | qui perd la recette | 2027, en mesure | 2028 | régime plein | rangs non chiffrés |
 |---|---|---:|---:|---:|---:|
 | P1 n° 35 | État | −5,2 | 0 | 0 | 0 |
-| ajouts aux P1 n° 22 et 23 | État et affectataires | −5,5 | −12,0 | −12,0 | 14 |
-| ajouts au P1 n° 29 (III bis) | collectivités, État (casinos, TASCOM) | −0,5 | −4,8 | −4,8 | 5 |
-| ajouts au P1 n° 25 | affectataires tiers | −1,0 | −2,1 | −2,1 | 1 |
-| PLFSS n° 9 | sécurité sociale | −3,8 | −13 | −13 | 6 |
-| **total** | | **−16** | **−32** | **−32** | |
+| ajouts aux P1 n° 22 et 23 | État et affectataires | −5,5 | −13,1 | −13,1 | 15 |
+| ajouts au P1 n° 29 (III bis) | collectivités, État (casinos, TASCOM) | −0,7 | −5,2 | −5,2 | 5 |
+| ajouts au P1 n° 25 | affectataires tiers | −1,0 | −2,1 | −2,1 | 3 |
+| PLFSS n° 9 | sécurité sociale | −3,8 | −13 | −13 | 8 |
+| **total** | | **−16** | **−33** | **−33** | |
 
 | 2027, en mesure, Md€ | janv–juin | juil | août | sept | oct | nov | déc |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | ajouts aux P1 n° 22, 25, 29 et PLFSS n° 9 | 0 | −1,8 | −1,8 | −1,8 | −1,8 | −1,8 | −1,8 |
 | P1 n° 35 | — | non mensualisé |  |  |  |  |  |
 
-**Lecture.** Le second semestre 2027 porte **une perte de 1,8 Md€ par mois** sur les ajouts aux P1 n° 22, 25 et 29 et le PLFSS n° 9, plus le troisième exercice de la contribution exceptionnelle (5,2 Md€, non mensualisé). C’est **un moins**, qui se signale : il n’est compensé en 2027 que par le taux unique de l’impôt sur les sociétés, dont le produit 2027 n’est pas chiffré ici. Les rangs non chiffrés (26) n’ont pas de rendement publié ; le total est un minorant. *Recompté le 20261106 : la contribution à l’IRSN (rang 170), abrogée au 1er janvier 2026, sort du n° 38.*
+**Lecture.** Le second semestre 2027 porte **une perte de 1,8 Md€ par mois** sur les ajouts aux P1 n° 22, 25 et 29 et le PLFSS n° 9, plus le troisième exercice de la contribution exceptionnelle (5,2 Md€, non mensualisé). C’est **un moins**, qui se signale : il n’est compensé en 2027 que par le taux unique de l’impôt sur les sociétés, dont le produit 2027 n’est pas chiffré ici. Les rangs non chiffrés (31 au rejeu du 20261117) n’ont pas de rendement publié ; le total est un minorant. *Recompté le 20261106 : la contribution à l’IRSN (rang 170), abrogée au 1er janvier 2026, sort du n° 38.*
 
 **Rejoué le 20261117, sur les liasses reprises d’après le tri unique** (`referentiels/sort_prelevements_20261116.tsv`, mêmes règles de date, prévision 2026 du tri). *Relevé*, en M€, par somme des rangs portés : **P1 n° 22** — sortie de la protection juridique (rang 277, sans rendement publié) ; entrée de l’accise sur l’électricité, part de l’État (rang 211, 3 249,5 ; I bis, quantités fournies à compter du 1er juillet 2027) et de trois fractions de prélèvements sur les jeux (rangs 285, 286 et 287, 228,2) : 2027 de 3 754,7 à 5 493,6, régime plein de 8 565,4 à 12 043,1. **P1 n° 29** — entrée des parts communale et départementale de l’accise sur l’électricité (rangs 214 et 215, 1 903,8 ; impositions établies au titre de 2028) : régime plein de 2 930,5 à 4 834,3, 2027 inchangé. **PLFSS n° 9** — sortie de la taxe de solidarité additionnelle et de la contribution de l’article L. 862-4-1 (rangs 194 et N7, 7 088,8) ; entrée des contributions sur les indemnités de rupture conventionnelle et de mise à la retraite et de la contribution équivalente aux droits de plaidoirie (rangs 6, 12 et 363, 1 018,5) : 2027 de 6 825,6 à 3 790,5, régime plein de 19 103,5 à 13 033,2. **Totaux** : somme des lignes de −17,4 à −16,1 en 2027 et de −32,7 à −32,0 en régime plein ; par mois du second semestre 2027, de −2,0 à −1,8. *Majorant déclaré* : l’électricité est comptée pour tout son rendement, alors que le I bis laisse 1 € et 0,5 € par mégawattheure, dont le produit n’est pas chiffré. Les valeurs du 20261103 : −3,8 · −8,6 · −8,6 (15) ; −0,5 · −2,9 · −2,9 ; −6,8 · −19 · −19 (5) ; total −17 · −33 · −33.
+
+**Rejoué le 20261117, après les abrogations des impôts sans porteur** (mandat « on enlève avec mêmes règles », mêmes règles de date, prévision 2026 du tri). *Relevé*, en M€, par somme des rangs portés : **P1 n° 22** — entrée de la taxe sur le patrimoine financier (rang 324, 1 000,0 ; article 235 ter C, exercices ouverts à compter du 1er juillet 2027 : aucun effet en 2027) et de la redevance sur l’énergie hydraulique (rangs 382 et 388, 37,7 ; L. 543-1 du code de l’énergie, taxe annuelle : 2028) : 2027 inchangé à 5 493,6, régime plein de 12 043,1 à 13 080,8 ; rangs non chiffrés de 14 à 15. **P1 n° 29** — entrée de l’impôt sur les cercles et maisons de jeux (rang 288, 334,0 ; produit des jeux à compter du 1er juillet 2027) : 2027 de 546,4 à 713,4, régime plein de 4 834,3 à 5 168,3. **P1 n° 25** — entrée de la cotisation de santé au travail et de la contribution pour la justice économique (rangs 128 et N5, sans rendement publié) : montants inchangés, rangs non chiffrés de 1 à 3. **PLFSS n° 9** — entrée des contributions sur les avantages de préretraite et de retraite (rangs 96 et 97, sans rendement publié) : montants inchangés, rangs non chiffrés de 6 à 8. **Totaux** : somme des lignes de −16,1 à −16,2 en 2027 et de −32,0 à −33,4 en régime plein ; par mois du second semestre 2027, −1,8 inchangé. Rangs non chiffrés : 31. *Non chiffré, déclaré* : les articles de jeux sans rang propre au tri (302 bis ZH, 302 bis ZO, III de l’article 105 de la loi n° 2010-1658, L. 136-7-1 du code de la sécurité sociale) n’ont pas de rendement au tri ; le total reste un minorant.
 
 ---
 
