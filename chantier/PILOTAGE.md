@@ -18,15 +18,36 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 | 8 | Rangement du dépôt public | 27 083 fichiers de révision pénale sur 28 000 ; 91 états, 24 mandats | `chantier/` | après 3 et 4 | page d'entrée, archivage des états périmés |
 | 9 | Contrôles automatiques | aucun sur le site ; un flux `rafraichir` ici | `.github/workflows/` | après 3 | contrôles à chaque pull request |
 
-## Décisions attendues de l'auteur
+## Décisions rendues — à relire avant toute question
 
-Présentées en clair dans la conversation le 20261116. Énoncé complet et effet de chaque réponse aux deux documents d'état.
+**Une question déjà tranchée ne se repose jamais : elle s'applique** (règle du 20261117, après cinq questions reposées à tort).
+
+| sujet | décision de l'auteur | date |
+|---|---|---|
+| Ce qui fait foi | les classeurs du site, pour montants et taux ; le travail par mesure et par mois (registre de calcul), pour dates et rythmes | 20261116 |
+| Liasses | sur mesure, chaque amendement colle à sa mesure ; le site ne porte que les liasses | 20261117 |
+| Dates d'effet | personnes physiques au 1er juillet 2027, personnes morales au 1er janvier ; la raison se dit dans l'exposé | octobre, redit le 20261116 |
+| Chèque énergie | droit éteint au 1er janvier 2027 ; 300 M€ en 2027 (restes à payer de la campagne précédente) | 20261116 |
+| Départs d'agents | en entier dans les 236 ; 30 % en salaire net la première année | 20261116 |
+| Fonctionnement des ministères | 85 % hors entretien des routes nationales | 20261116 |
+| Programme 379 (fonds européens, hôpitaux) | gardé, qualifié par sa dépense finale | 20261117 |
+| Jeux | toutes les taxes supprimées | 20261116, redit le 20261117 |
+| Électricité | plancher européen | redit le 20261117 |
+| Impôts sans amendement porteur | abrogés selon les mêmes règles que les autres | 20261117 |
+| Tri des impôts | base du 3 novembre, corrections du 20 octobre reportées ; le tableau de refonte fait foi pour l'énergie et les assurances | 20261116 |
+| Calendrier | interne ; trois comptes séparés : restitution, patrimoine rendu, refonte fiscale | 20261117 |
+| Flux par agent | agents tous privés, agents publics compris ; solde public = opposé de la somme des privés ; coupes d'agences et de collectivités réparties sur des privés | 20261116-17 |
+| Présentation candidat | hors du site ; alignée sur 600 € pour 2 400 € nets | 20261116-17 |
+| Simulateur, lecture | trois strates ; « qui : quoi », dépense finale lue à l'action ; « administration » pour le ministère lui-même ; « Autres » en fin de liste ; ordre échelons, agences, ministères, agents ; agents liés aux structures | 20261117 |
+| Simulateur, montants | patrimoine à 3 %, 18 Md€, à part du compte de flux ; 600 € à 2 400 € nets ; chômage en deux lignes ; niches par sujet | 20261116-17 |
+| Agriculture | « administration, guichets d'aides » | 20261117 |
+| Agents communaux du logement | en ligne libre | 20261117 |
+
+## Décisions attendues de l'auteur
 
 | n° | question | piste du pilotage |
 |---|---|---|
-| J1 | Jeux supprimés (auteur, 20261116) : le tableau « Refonte fiscalité » n'en supprime que 0,3 Md€ ; l'aligner porte la taxe foncière d'équilibre de 42,1 à 48,5 Md€ | aligner le tableau |
-| S1 | Simulateur : patrimoine à 3 % entre 63,4 millions de personnes (18 Md€, 600 € à 2 400 €) | oui |
-| D5 | Activer « Automatically delete head branches » sur `Site-ETNP` (réglage GitHub) | oui |
+| — | aucune | — |
 
 ## Constats à traiter par le pilotage, sans question
 
