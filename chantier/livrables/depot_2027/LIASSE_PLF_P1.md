@@ -39,7 +39,7 @@ Trente-cinq amendements de première partie, répartis en cinq lots. La numérot
 | 19 | art. add. après l’art. 4 | Droits de mutation : ramenés à 1 % et 3 %, l’équilibre tenu |
 | 20 | art. add. après l’art. 8 | Plus-values : le capital imposé sur son gain réel, au service de l’équilibre |
 | 21 | art. add. après l’art. 16 | TVA : les trois taux réduits réunis en un seul, à rendement constant |
-| 22 | art. add. après l’art. 19 | Taxes d’État : quarante-huit disparaissent dans l’impôt, sans hausse du total |
+| 22 | art. add. après l’art. 19 | Taxes d’État : cinquante et une disparaissent dans l’impôt, sans hausse du total |
 | 23 | art. add. après l’art. 32 | Impôt sur les sociétés : un taux unique, pour l’équilibre de la refonte fiscale |
 | 35 | article 15 | Contribution exceptionnelle : pas de troisième exercice, le bénéfice imposé au taux unique |
 
@@ -1548,7 +1548,7 @@ Chaque marche accompagne la suppression des prélèvements propres au secteur co
 
 ---
 
-## Amendement n° 22 [Taxes d’État : quarante-huit disparaissent dans l’impôt, sans hausse du total]
+## Amendement n° 22 [Taxes d’État : cinquante et une disparaissent dans l’impôt, sans hausse du total]
 
 AMENDEMENT
 
@@ -1568,13 +1568,19 @@ I. – Sont abrogés :
 
 3° L’article L. 313-6 du code de l’entrée et du séjour des étrangers et du droit d’asile.
 
-4° Les articles 235 ter ZG, 302 bis N, 302 bis O, 302 bis P, 302 bis R, 302 bis S, 302 bis T, 302 bis U, 302 bis V, 302 bis W, 302 bis WA, 302 bis WB, 302 bis WC, 302 bis WD, 302 bis WE, 302 bis WF, 302 bis WG, 302 bis X, 302 bis XA, 1605 nonies, 1609 novovicies, 1609 tricies, 1609 untricies, 1609 duotricies, 1609 tertricies, 1613 ter, 1613 quater, 1635 bis AE, 1635 bis AF, 1635 bis AG et 1635 bis AH du code général des impôts.
+4° Les articles 235 ter ZG, 302 bis N, 302 bis O, 302 bis P, 302 bis R, 302 bis S, 302 bis T, 302 bis U, 302 bis V, 302 bis W, 302 bis WA, 302 bis WB, 302 bis WC, 302 bis WD, 302 bis WE, 302 bis WF, 302 bis WG, 302 bis X, 302 bis XA, 302 bis ZG, 302 bis ZI, 1605 nonies, 1609 novovicies, 1609 tricies, 1609 untricies, 1609 duotricies, 1609 tertricies, 1613 ter, 1613 quater, 1635 bis AE, 1635 bis AF, 1635 bis AG et 1635 bis AH du code général des impôts.
 
-5° Le 5° ter de l’article 1001 du même code.
+5° Les I et II de l’article 138 de la loi n° 2019-486 du 22 mai 2019 relative à la croissance et la transformation des entreprises.
 
-6° Les I et II de l’article 138 de la loi n° 2019-486 du 22 mai 2019 relative à la croissance et la transformation des entreprises.
+6° Les articles L. 421-93 à L. 421-148, L. 421-151, L. 421-156 à L. 421-167 et L. 455-44 à L. 455-56 du code des impositions sur les biens et services.
 
-7° Les articles L. 421-93 à L. 421-148, L. 421-151, L. 421-156 à L. 421-167 et L. 455-44 à L. 455-56 du code des impositions sur les biens et services.
+I bis. – Par dérogation aux articles L. 312-37, L. 312-48 et L. 312-64 du code des impositions sur les biens et services, les tarifs de l’accise sur l’électricité qui ne sont pas nuls sont égaux :
+
+1° À 1 € par mégawattheure pour les consommations relevant de la catégorie fiscale « ménages et assimilés » définie à l’article L. 312-24 du même code.
+
+2° À 0,5 € par mégawattheure pour les autres consommations.
+
+La majoration prévue à l’article L. 312-37-1 du même code ne s’applique pas à l’électricité.
 
 II. – Sont abrogés :
 
@@ -1584,7 +1590,7 @@ II. – Sont abrogés :
 
 3° Les articles 231 ter, 231 quater, 302 bis ZA, 990 D, 990 E, 990 F, 990 FA et 990 G du code général des impôts.
 
-III. – A. – Le I s’applique aux impositions dont le fait générateur intervient à compter du 1er juillet 2027. Par dérogation, l’abrogation des articles 235 ter C, 235 ter X et 235 ter ZC du code général des impôts s’applique aux exercices ouverts à compter du 1er juillet 2027. Les taxes mentionnées au 7° du I sont dues au titre de l’année 2027 à raison de la seule durée d’affectation des véhicules ou de détention des autorisations antérieure au 1er juillet 2027.
+III. – A. – Le I s’applique aux impositions dont le fait générateur intervient à compter du 1er juillet 2027. Le I bis s’applique aux quantités d’électricité fournies ou consommées à compter de la même date. Par dérogation, l’abrogation des articles 235 ter C, 235 ter X et 235 ter ZC du code général des impôts s’applique aux exercices ouverts à compter du 1er juillet 2027. Les taxes mentionnées au 6° du I sont dues au titre de l’année 2027 à raison de la seule durée d’affectation des véhicules ou de détention des autorisations antérieure au 1er juillet 2027.
 
 B. – Le II s’applique aux impositions dues au titre de l’année 2028 et des années suivantes. Pour les articles 224 et 234 nonies à 234 quindecies du code général des impôts, il s’applique à compter de l’imposition des revenus de l’année 2028.
 
@@ -1598,21 +1604,23 @@ VI. – La présente mesure concourt à la réduction des prélèvements pesant 
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement supprime quarante-huit impositions de l’État, au 1er juillet 2027 et au 1er janvier 2028.
+Cet amendement supprime cinquante et une impositions de l’État et ramène l’accise sur l’électricité à son plancher.
 
 Cet amendement s’inscrit dans une réforme qui rend aux travailleurs le fruit de leur travail : ce que l’État cesse de dépenser va d’abord au salaire net, soit près de 13 % de rémunération nette en plus au terme de la montée en charge, sans aucune hausse des prélèvements obligatoires.
 
-À côté de l’impôt sur le revenu, de l’impôt sur les sociétés et de la taxe sur la valeur ajoutée, le contribuable acquitte une série de prélèvements de quelques millions à quelques centaines de millions d’euros chacun : contribution sociale sur l’impôt sur les sociétés, taxe sur les excédents de provisions des assureurs, contribution sur les revenus locatifs, taxe sur les transactions financières, taxe sur les rachats d’actions, taxe générale sur les activités polluantes, taxe sur certains services numériques, contribution de sécurité immobilière, droits de timbre sur le passeport, sur la demande de naturalisation ou sur l’attestation d’accueil¹. S’y ajoutent des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux, dont ceux de la Française des jeux sur ses loteries, taxes sur l’affectation des véhicules, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles. Chacun a son assiette, ses exonérations, sa déclaration et son contentieux².
+À côté de l’impôt sur le revenu, de l’impôt sur les sociétés et de la taxe sur la valeur ajoutée, le contribuable acquitte une série de prélèvements de quelques millions à quelques centaines de millions d’euros chacun : contribution sociale sur l’impôt sur les sociétés, taxe sur les excédents de provisions des assureurs, contribution sur les revenus locatifs, taxe sur les transactions financières, taxe sur les rachats d’actions, taxe générale sur les activités polluantes, taxe sur certains services numériques, contribution de sécurité immobilière, droits de timbre sur le passeport, sur la demande de naturalisation ou sur l’attestation d’accueil¹. S’y ajoutent des dizaines de prélèvements à assiette étroite : redevances sanitaires d’abattage, de découpage et de contrôle à l’importation, droits sur les demandes d’autorisation de médicaments, taxes sur les boissons, prélèvements sur les jeux, dont ceux de la Française des jeux sur ses loteries et ceux qui frappent les paris hippiques et les jeux de cercle en ligne, taxes sur l’affectation des véhicules, taxes sur les bureaux d’Île-de-France et de Provence, taxe sur la valeur vénale des immeubles. Chacun a son assiette, ses exonérations, sa déclaration et son contentieux².
 
-La mesure commence le 1er juillet 2027, le jour où l’impôt sur les sociétés passe au taux unique. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions, la contribution de sécurité immobilière, les redevances et taxes perçues par opération et les prélèvements sur les jeux ; les taxes sur les véhicules et les fréquences ne sont dues pour 2027 qu’au premier semestre. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
+La mesure commence le 1er juillet 2027, le jour où l’impôt sur les sociétés passe au taux unique. Ce jour-là tombent les droits de timbre, la taxe sur les transactions financières, la taxe sur les rachats d’actions, la contribution de sécurité immobilière, les redevances et taxes perçues par opération et les prélèvements sur les jeux ; les taxes sur les véhicules et les fréquences ne sont dues pour 2027 qu’au premier semestre. Le même jour, l’accise sur l’électricité tombe à 1 € par mégawattheure pour les ménages et à 0,5 € pour les autres consommations, le niveau déjà appliqué en 2023 et en 2024³. La taxe sur les transactions financières, la taxe sur les ordres annulés, les prélèvements sur les jeux et l’accise sur l’électricité frappent une opération ou une consommation : ils se fondent dans la taxe sur la valeur ajoutée, l’impôt général sur la consommation. Pour les exercices ouverts à compter de la même date, la contribution sociale sur l’impôt sur les sociétés, la taxe sur les excédents de provisions et la taxe sur les holdings disparaissent quand l’impôt sur les sociétés passe au taux unique. Les taxes annuelles, qui ne se coupent pas en cours d’année, et les contributions sur le revenu suivent au 1er janvier 2028, avec le taux unique de l’impôt sur le revenu. En clair : une entreprise déclare son bénéfice une fois et un citoyen ne paie plus pour obtenir le passeport que la République lui délivre.
 
-La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. L’État cesse d’instruire, de contrôler et de recouvrer quarante-huit impositions : c’est l’effet net, que le gage formel ne mesure pas. Quarante-huit impositions se fondent dans un impôt unique : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La clarté de la règle est la première des politesses que l’État doit à tous ses citoyens³. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+La perte de recettes est compensée par la majoration du taux de l’impôt sur les sociétés. L’État cesse d’instruire, de contrôler et de recouvrer cinquante et une impositions : c’est l’effet net, que le gage formel ne mesure pas. Cinquante et une impositions se fondent dans les grands impôts : la fusion s’opère à rendement constant et ne hausse pas le produit total des impositions qu’elle réunit. La clarté de la règle est la première des politesses que l’État doit à tous ses citoyens⁴. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Direction générale des finances publiques, Les recettes fiscales budgétaires collectées par la DGFiP en 2022, DGFiP Statistiques n° 19, décembre 2023.
 
 ² Code général des impôts, code des impositions sur les biens et services, code de l’entrée et du séjour des étrangers et du droit d’asile et loi n° 2019-486 du 22 mai 2019.
 
-³ M. Christl et M. Köppl-Turyna, Competitiveness of the tax system and economic growth, GLO Discussion Paper n° 1754, Leibniz Information Center for Economics, 2026.
+³ Loi n° 2022-1726 du 30 décembre 2022 de finances pour 2023, article 64, I ; loi n° 2023-1322 du 29 décembre 2023 de finances pour 2024, article 92, I.
+
+⁴ M. Christl et M. Köppl-Turyna, Competitiveness of the tax system and economic growth, GLO Discussion Paper n° 1754, Leibniz Information Center for Economics, 2026.
 
 ---
 
@@ -2216,7 +2224,7 @@ III bis. – Sont également abrogés :
 
 1° Les articles 1599 quater C, 1599 quater D, 1601, 1601-0 A, 1604, 1607 bis, 1607 ter, 1609 B, 1609 C, 1609 D, 1609 G, 1609 H, 1609 I, 1635 quater B à 1635 quater N et 1635 quater P à 1635 quater T du code général des impôts.
 
-2° Les articles L. 2333-49 à L. 2333-55-2, L. 2333-56, L. 2333-81 à L. 2333-83, L. 2333-97, L. 3333-4 à L. 3333-7 et L. 5211-21-1 du code général des collectivités territoriales.
+2° Les articles L. 2333-2, L. 2333-49 à L. 2333-55-2, L. 2333-56, L. 2333-81 à L. 2333-83, L. 2333-97, L. 3333-2, L. 3333-4 à L. 3333-7 et L. 5211-21-1 du code général des collectivités territoriales.
 
 3° Les articles L. 331-1 à L. 331-17 du code de l’urbanisme.
 
@@ -2282,7 +2290,7 @@ Le propriétaire reçoit plusieurs avis pour les mêmes mètres carrés : taxe 
 
 La taxe unique porte sur toute propriété, bâtie ou non, et son assiette est la valeur locative de marché, c’est-à-dire le montant annuel hors charges que la propriété peut produire en location. La loi dit selon quels critères cette valeur se détermine : les propriétés sont classées par catégories définies par leur nature, leur destination, leurs caractéristiques physiques et leur consistance, le territoire d’une commune est découpé en secteurs de marché locatif homogène et la valeur d’une propriété résulte du produit d’un tarif au mètre carré par sa surface, ce tarif étant arrêté sur les loyers constatés dans le secteur au cours des trois années précédentes. L’Institut national de la statistique et des études économiques établit les catégories, délimite les secteurs et arrête les tarifs selon ces critères, les actualise chaque année et les publie avant l’ouverture de l’année d’imposition, le décret ne portant que les modalités d’application : la base suit le marché, sans révision générale à engager tous les vingt ans. À défaut de publication de nouveaux tarifs pour un secteur, ceux de l’année précédente y demeurent applicables. Le conseil municipal vote le taux entre 10 % et 30 % de cette valeur ; à 10 %, un logement acquitte à peu près la taxe foncière d’aujourd’hui, ordures ménagères comprises. Faute de délibération, la première année, le taux reproduit le produit local de 2027, augmenté de la taxe additionnelle aux droits de mutation prise au titre de 2026, dernière année où elle a été perçue. Dit simplement : le propriétaire reçoit un avis au lieu de cinq et le maire assume le taux qu’il a voté.
 
-La commune garde le produit des impositions qu’elle perd comme de celles que l’État supprime et l’intercommunalité n’a plus de fiscalité foncière : un impôt, un élu qui en répond. À partir de 2028, chaque commune de métropole verse à un fonds national 2 % de ses valeurs locatives de marché et 2 % de son produit ; les communes sont classées en trois tiers de population selon le revenu de leurs habitants, le tiers le plus modeste reçoit les deux tiers du fonds et le tiers médian le dernier tiers. La taxe foncière unique porte, avec le taux unique de l’impôt sur les sociétés, le solde de la refonte des impositions. Ce fonds remplace le fonds de péréquation intercommunal et les trois dotations de péréquation, dont la dotation globale est minorée d’autant. La mesure prend effet au 1er janvier 2028, le temps que les valeurs soient établies. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. L’amendement supprime avec elle dix-huit impositions locales qui subsistaient à côté : règles annexes de la taxe d’aménagement, taxes spéciales d’équipement, taxes pour frais de chambres de métiers et d’agriculture, taxe additionnelle spéciale annuelle d’Île-de-France, taxes sur les surfaces de stationnement et sur les surfaces commerciales, taxe locale sur la publicité extérieure, taxe de balayage, taxes sur les remontées mécaniques et les sites nordiques, prélèvements communaux sur les jeux des casinos, participation pour le financement de l’assainissement collectif. Elles tombent au 1er janvier 2028 et, pour celles qui se perçoivent sur une opération, au 1er juillet 2027 ; les collectivités sont compensées par la dotation globale de fonctionnement. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
+La commune garde le produit des impositions qu’elle perd comme de celles que l’État supprime et l’intercommunalité n’a plus de fiscalité foncière : un impôt, un élu qui en répond. À partir de 2028, chaque commune de métropole verse à un fonds national 2 % de ses valeurs locatives de marché et 2 % de son produit ; les communes sont classées en trois tiers de population selon le revenu de leurs habitants, le tiers le plus modeste reçoit les deux tiers du fonds et le tiers médian le dernier tiers. La taxe foncière unique porte, avec le taux unique de l’impôt sur les sociétés, le solde de la refonte des impositions. Ce fonds remplace le fonds de péréquation intercommunal et les trois dotations de péréquation, dont la dotation globale est minorée d’autant. La mesure prend effet au 1er janvier 2028, le temps que les valeurs soient établies. Elle prend place dans l’ensemble des mesures qui adossent les ressources des collectivités aux compétences qu’elles exercent effectivement. L’amendement supprime avec elle vingt impositions locales qui subsistaient à côté : parts communale et départementale de l’accise sur l’électricité, règles annexes de la taxe d’aménagement, taxes spéciales d’équipement, taxes pour frais de chambres de métiers et d’agriculture, taxe additionnelle spéciale annuelle d’Île-de-France, taxes sur les surfaces de stationnement et sur les surfaces commerciales, taxe locale sur la publicité extérieure, taxe de balayage, taxes sur les remontées mécaniques et les sites nordiques, prélèvements communaux sur les jeux des casinos, participation pour le financement de l’assainissement collectif. Elles tombent au 1er janvier 2028 et, pour celles qui se perçoivent sur une opération, au 1er juillet 2027 ; les collectivités sont compensées par la dotation globale de fonctionnement. Certaines des dispositions visées sont également ouvertes par le texte en discussion ; la coordination se fera en navette.
 
 ¹ Code général des impôts, article 1379, I.
 
