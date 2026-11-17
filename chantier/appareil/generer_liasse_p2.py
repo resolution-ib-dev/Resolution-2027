@@ -95,15 +95,29 @@ def piece(n, mission, progs, table):
     for d in lignes:
         par_date.setdefault(d['regle_date'], []).append(d['objet_expose'])
     ordre = [k for k in DATE_LONGUE if k in par_date]
-    if len(ordre) == 1:
-        o.append(f'La mesure prend effet au {DATE_LONGUE[ordre[0]]}.\n')
+    # La règle de date et sa raison (registre de calcul, § 1, R-P et R-S, § 7) : une
+    # coupe qui atteint des personnes physiques tombe le mois où le salaire net monte.
+    JUILLET = ('le mois où commence la baisse des prélèvements pesant sur les revenus '
+               'd’activité')
+    if len(ordre) == 1 and 'juil' in ordre[0]:
+        o.append(f'La mesure prend effet au {DATE_LONGUE[ordre[0]]}, {JUILLET}{NB}: '
+                 'elle atteint des personnes physiques.\n')
+    elif len(ordre) == 1:
+        o.append(f'La mesure prend effet au {DATE_LONGUE[ordre[0]]}{NB}: elle n’atteint '
+                 'que des personnes morales.\n')
     else:
-        ph = []
+        ph = ['Une dépense versée à des personnes physiques, ou à des organismes dont elle '
+              f'paie les salariés, s’arrête au 1er juillet 2027, {JUILLET}. Une dépense '
+              'versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027.']
         for i, k in enumerate(ordre):
             sujet = 'La mesure' if i == 0 else 'Elle'
             ph.append(f'{sujet} prend effet au {DATE_LONGUE[k]} pour '
                       f'{enumerer(dict.fromkeys(par_date[k]))}.')
         o.append(' '.join(ph) + '\n')
+    if any(d['ligne_registre'] == 'D20' for d in lignes):
+        o.append('Le chèque énergie s’éteint au 1er janvier 2027{NB}: aucun titre n’est émis '
+                 'au titre de 2027. L’exercice règle encore les titres de la campagne '
+                 'précédente, et la moitié des crédits est retirée.\n'.replace('{NB}', NB))
     o.append(f'Dit simplement{NB}: le Parlement cesse d’autoriser une dépense dont il ne '
              'vote ni le barème ni les bénéficiaires.\n')
     o.append(f'¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à '

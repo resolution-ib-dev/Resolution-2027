@@ -167,6 +167,9 @@ def mensualiser(p, traj):
     return v, ('1er juillet' if marche_juillet else '1er janvier')
 
 
+DATE_ANTERIEURE = {'D20': '1er juil.'}
+
+
 PAN = (('Opérateurs', 5, 16), ('Chèques', 18, 22), ('Entreprises', 24, 27), ('Associations', 29, 36),
        ('Charges', 37, 37), ('Départs État', 38, 38), ('Collectivités', 40, 43))
 
@@ -258,6 +261,10 @@ def controler():
     M = dict(M)
     for cel, traj in ant.items():
         M[cel] = mensualiser(s4[cel], traj)[0]
+    # Chèque énergie : daté du 1er janvier depuis le 20261116 (auteur) ; les pièces du
+    # 15 octobre le portent au 1er juillet. Montants inchangés, seule la date diffère.
+    for cel, date in DATE_ANTERIEURE.items():
+        M[cel] = mensualiser(dict(s4[cel], date=date), s5[s4[cel]['libelle']])[0]
     rest = restitution()
     agents = defaultdict(lambda: [0.0] * 48)
     for c, parts in cle.items():

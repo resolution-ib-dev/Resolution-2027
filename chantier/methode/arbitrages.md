@@ -9093,3 +9093,11 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 *Relevé.* `appareil/controle_liasse_classeurs.py reperes` : 51 repères `A!Kn/Ln` sur 51 concordent avec `sources/projet_20261116/23_tsv_suivi_depenses__A_Credits.tsv` (programme, catégorie, statut « arrêté », montants arrêtés égaux au brut de la table de paramètres). *Relevé* à l'onglet « Mesure » : la catégorie 22 suit la catégorie 21 ; la liasse ne la retire pas, 269 422 581 € en 2027.
 
 ---
+
+### Chèque énergie : droit éteint au 1er janvier, 300 M€ en 2027 — 20261116
+
+**Validé.** *Réponse de l’auteur* : « pour le chèque énergie on va dire qu’y a des restes à payer de la campagne d’avant, donc le 300 M€ est une cotte grossière à cet effet, et on éteint bien le nouveau droit à partir de janvier ». Le droit s’éteint au 1er janvier 2027, aucun titre n’est émis au titre de 2027 ; l’exercice règle les titres de la campagne précédente et l’économie de 2027 reste de 300 M€ pour 600 M€ en année pleine. *Exécuté* : registre de calcul § 4, ligne D20 (date au 1er janvier, fraction 6/12 et montant inchangés) ; amendement n° 34 (entrée en vigueur, exposé, programme porteur « Énergie, climat et après-mines », 1 251 260 465 € ouverts, *relevé* à `etatB_2027_bg.tsv`) ; exposé du n° 4 ; croisé mesure × mois (0,025 Md€ par mois en 2027). Les deux lectures antérieures — 1er janvier et 600 M€ (pièce du 5 octobre), 1er juillet et 300 M€ (registre du 9 octobre) — sont **caduques**.
+
+### Exposés de la liasse de crédits : la règle de date et sa raison — 20261116
+
+**Demandé par l’auteur** (« je pense que les modifs avaient un sens, retrouve le »). *Relevé* au registre de calcul, § 1 (R-P, R-S), § 2 et § 7 : une coupe qui atteint des personnes physiques tombe le 1er juillet 2027, mois où commence la baisse des prélèvements sur les revenus d’activité ; une coupe qui n’atteint que des personnes morales, le 1er janvier. **Tranché** (rédaction, révocable) : chaque exposé des 22 amendements de crédits dit la règle et sa raison avant d’énumérer ses dates (`generer_liasse_p2.py`). *Relevé* : 22 exposés sur 22 concordent avec leur dispositif — montants arrondis et nombre de programmes ; quatre contrôles à 0 échec ; liasse rendue en 68 pages, mise en ligne, pages des 39 amendements recalées à `Site-ETNP/site/renvois.json`.

@@ -136,7 +136,7 @@ Montants en Md€.
 | Autres opérateurs | D16 | 4,116 ⚐ | 10 % | **oui** | 1 | opérateurs | 1er juil. | 6/12 | **2,06** | 1,24 | **cat. 32, 22 programmes**, § 14 | P2-01, due |
 | **Aide au logement** | D18 | 16,1 | — | — | ⅓ | ménages, capté par le bailleur | **dossiers 1er juin · versements 1er juil.** | 6/12 | **2,68** | 2,68 | **109**, cat. 61 | P2-04, 2.6-A |
 | Aide médicale de l'État | D19 | 1,1 | 10 % | **oui** | 1 | ménages sans activité | 1er juil. | 6/12 | **0,55** | 0,50 | **183**, cat. 61 | — |
-| Chèque énergie | D20 | 0,6 | — | — | 1 | ménages, droit annuel | 1er juil. | 6/12 | **0,30** | 0,30 | **174**, cat. 61 | P2-04, 2.6-B |
+| Chèque énergie | D20 | 0,6 | — | — | 1 | ménages, droit annuel | **1er janv., restes à payer de la campagne précédente** | 6/12 | **0,30** | 0,30 | **174**, cat. 61 | P2-04, 2.6-B |
 | Autres ménages | D22 | 1,0 | — | — | 1 | ménages | 1er juil. | 6/12 | **0,50** | 0,50 | **cat. 61, 15 programmes**, § 14 | — |
 | Audiovisuel public | D24 | 3,8 | — | — | 1 | opérateurs | 1er juil. | 6/12 | **1,90** | 1,90 | mission Avances à l'audiovisuel public — **état D** | due |
 | **Emploi et apprentissage** | D25 | 6,9 | — | — | **1/6, déjà net de la date** | entreprises | 1er juil. | — | **1,15** | 1,15 | **103**, cat. 62 | due |
