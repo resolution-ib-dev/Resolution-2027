@@ -9122,3 +9122,34 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Demandé par l’auteur** : « simulateur ministère attention, "administration" mieux que service ou ministère qui ne veut rien dire une deuxième fois, et ségur ça ne va pas il faut le caractériser autrement. go agences et le reste sur les mêmes principes ». **Exécuté, à valider** (capture présentée le jour même). Ministères : « Culture : administration, création », « Agriculture : administration », « Santé : fonds européens pour les hôpitaux », « Autres administrations ». Agences : cinq entrées par ministère — « Culture : audiovisuel public, cinéma, scènes », « Logement : Action Logement, rénovation », « Écologie : agences de l’eau, Ademe », « Transports : financement des infrastructures », « Autres agences » ; noms d’agences en clair, statut court (fermé, cédé, autonome). Départs d’agents de l’État : neuf entrées par ministère (`BLOCS_AGENTS`). Fonctions des comptes locaux en mots courants (`NOMS_LOCAUX`). *Relevé* : aucun montant ne change, 600 € par mois à 2 400 € nets.
 
+### Compte complet du calendrier des flux : construit, deux circuits — 20261117
+
+*Exécuté.* `referentiels/calendrier_compte_complet_20261117.tsv`, 105 mesures, 118 lignes mesure × agent, 48 mois ; `appareil/calendrier_compte_complet.py`, 39 contrôles à 0 échec ; le croisé du 20261116 est inchangé. *Tranché en propre, révocable* : le compte se lit en deux circuits — la restitution (coupes, huit lignes de première partie, niches gagées, baisse de CSG, chômage, patrimoine, épargne rendue), complète ; la refonte, pour les seules lignes que le registre date (§ 17 et § 18). *Relevé* : solde public tous circuits de +52,81 · −59,08 · −2,37 · −0,73 Md€, cumul −9,37 fin 2030.
+
+### Niches : 28,64 Md€ en 2027, 49,23 en 2028, 52,12 en 2029 — 20261117
+
+*Relevé* au IV de l'amendement n° 1 de la liasse P1 et au IV de l'amendement n° 1 du PLFSS, dépense par dépense (257 dépenses, 43,126 Md€ de gage ; niches sociales 9 Md€). Le classeur compte 52,1 Md€ dès la première année. Écart de 2027, −23,46 Md€ : la TVA, les accises et les niches sociales ne courent que du 1er juillet ; l'épargne, les parts et les réductions de l'impôt sur le revenu tombent en 2028 et 2029. *Déduit* : le mois d'incidence, d'après le mode de perception ; 34 dépenses (4,36 Md€) rattachées par la nature de l'avantage. *Réserves* : 7,60 Md€ d'impôt sur les sociétés comptés en 2027 et encaissés en mai 2028 ; 8,50 Md€ par an majorants tant que les engagements antérieurs courent (G du IV).
+
+### Le point dur de 2028 disparaît du circuit de restitution, en mesure — 20261117
+
+*Relevé au compte.* Surplus du circuit de restitution, hors chômage et patrimoine : +48,70 · +26,57 · +55,05 · +58,66 Md€ ; positif chaque mois, au plus bas +1,11 en décembre 2027 et +1,44 par mois au premier semestre 2028. Le −29,24 du § 5 ne comptait que les coupes. Les leviers de rythme du § 17 (+8,49 et +7,27 en 2028, *rejoués*) ne servent plus à fermer 2028 ; ceux de la refonte ne se jugent pas tant qu'elle n'est pas datée en entier.
+
+### Épargne rendue : rien en 2027, 75,27 Md€ au titre de 2028 — 20261117
+
+*Calculé*, sur la règle du classeur (tout ce qui dépasse la baisse de CSG). *Relevé* : le compte d'épargne ouvre le 1er janvier 2028, les premiers versements sont dus au titre de 2028, le taux est fixé par la loi de finances et nul à défaut (liasse P1, amendement n° 27, III et VIII). Le surplus de 2027, 48,70 Md€, reste donc douze mois dans la sphère publique : c'est le seul écart du circuit, et il se referme en janvier 2028. Épargne rendue : 75,27 · 55,05 · 58,66 Md€ de 2028 à 2030. Contre le classeur : 15,00 la première année, 74,74 en régime plein ; les écarts tiennent au rythme des sorties en trois ans, au calendrier des niches et aux départs d'agents à 30 %.
+
+### Rendement du patrimoine : 17,60 Md€ par an sans contrepartie de flux — 20261117
+
+**Constaté, à l'auteure.** Le versement de patrimoine (amendement n° 27, III, C) est rendu aux personnes à compter de 2028. Aucune pièce ne dit ce que la sphère publique cesse de percevoir ou se met à payer. Par la règle « le solde public est l'inverse de la somme des privés », il creuse le solde de 17,60 Md€ par an : c'est le seul écart durable du circuit de restitution.
+
+### Assurance chômage : aucune disposition, aucune date — 20261117
+
+**Constaté.** Les 29,6 Md€ du classeur ne sont portés par aucun amendement des trois liasses. *Posé* pour le compte : 1er janvier 2028, jour du compte d'épargne. La ligne se compense sur elle-même ; elle pèse 29,60 Md€ par an sur les ménages sans revenus d'activité.
+
+### Huit lignes de première partie et sociale : datées pour le compte — 20261117
+
+*Tranché en propre, révocable* : D7, D8, D9, D10, D11, D13 et D14 au 1er janvier 2027 (R-P), au rythme de la colonne G du classeur ; D21 par tiers au 1er juillet 2027, 1er janvier 2028 et 1er janvier 2029 (*relevé*, PLFSS n° 1, IV). 4,52 · 6,60 · 8,30 · 8,30 Md€. Le registre § 4 ne les date pas.
+
+### Refonte : le registre n'en date qu'une partie — 20261117
+
+**Constaté.** Lignes datées (solde des niches, TVA, taxe sur les salaires, suppressions du tri) : +4,11 · +7,22 · +15,24 · +16,87 Md€. Manquent, en régime plein au classeur : +25,69 d'impôt sur les sociétés au taux unique, +42,06 de taxe foncière unique, −86,57 d'impôts supprimés, +7,10 de gisements. La refonte ne se ferme sur aucun exercice tant que ces lignes n'ont ni date ni produit annuel.
