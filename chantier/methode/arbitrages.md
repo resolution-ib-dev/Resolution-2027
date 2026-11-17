@@ -9218,3 +9218,29 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Faute du pilotage, et sa règle.** Ces cinq points avaient été tranchés par l’auteur ; le pilotage les a reposés sans relire ses décisions. **Règle** : avant toute question, le pilotage relit la table « Décisions rendues » de `PILOTAGE.md` et le registre ; une question déjà tranchée ne se repose jamais, elle s’applique. Toute réponse de l’auteur s’inscrit le jour même à cette table.
 
+### Jeux : le chapitre des prélèvements sur les jeux et paris abrogé en entier — 20261117
+
+*Décision de l'auteure* (« Jeux : toutes les taxes supprimées », relevée au registre) ; *rédaction tranchée par ce fil, révocable*. Le P1 n° 22 abroge les articles 302 bis ZG à 302 bis ZO du code général des impôts, l'article 1609 quatertricies et le III de l'article 105 de la loi n° 2010-1658 (prélèvement sur les mises en Nouvelle-Calédonie) ; un I ter retire 302 bis ZN de l'article 302 decies. Le P1 n° 29 abroge les articles L. 422-12 et L. 422-13 du code du tourisme. Les articles 1559 à 1566 (impôt sur les maisons de jeux) sont abrogés depuis le 1er janvier 2019 (archive LEGI). Le PLFSS n° 9 abroge L. 136-7-1 du code de la sécurité sociale. *Non relevé* : la CRDS sur les jeux (ordonnance n° 96-50, absente du dépôt).
+
+### Impôts sans porteur : neuf rangs rejoignent l'amendement de leur famille — 20261117
+
+*Décision de l'auteure* (« on enlève avec mêmes règles ») ; *rattachements tranchés par ce fil, révocables*. P1 n° 22 : rangs 324 (235 ter C, déjà abrogé), 382 et 388 (L. 543-1 du code de l'énergie, successeur de L. 523-1 à L. 523-3 abrogés le 1er septembre 2026). P1 n° 25 : rangs 128 (L. 4622-6 du code du travail), N5 (1635 bis R, créé par l'article 27 du projet) et N14 (L. 623-16 du code de la propriété intellectuelle). P1 n° 29 : rang 288, sans changement de texte (casinos). PLFSS n° 9 : rangs 96 et 97 (L. 137-10 à L. 137-11-2). Rangs 351 et 417 : siège déjà abrogé. *Relevé* : 14 rangs restent sans porteur, 3 647,8 M€, dont six agrégats de l'état A (3 425,6 M€) et cinq n.d.
+
+### Décompte des intitulés — 20261117
+
+*Relevé.* P1 n° 22 : cinquante-quatre impositions (55 rangs portés, dont l'électricité ramenée au plancher). P1 n° 25 : soixante-douze. P1 n° 29 : vingt impositions locales, inchangé. PLFSS n° 9 : vingt et une. La convention des fils précédents est gardée : le compte suit les rangs du tri ; les articles de jeux sans rang propre (302 bis ZH, 302 bis ZO, Nouvelle-Calédonie, L. 136-7-1) n'y ajoutent rien.
+
+### Registre de calcul, § 18 : rejoué après les abrogations — 20261117
+
+*Relevé.* Régime plein des ajouts au P1 n° 22 de −12,0 à −13,1 Md€ (taxe sur le patrimoine financier, 1 000,0 M€, exercices ouverts à compter du 1er juillet 2027 ; redevance hydraulique, 37,7 M€, 2028) ; P1 n° 29 de −0,5 à −0,7 en 2027 et de −4,8 à −5,2 en régime plein (rang 288, 334,0 M€, rattaché aux casinos). Total −16 en 2027, −33 en régime plein ; −1,8 par mois au second semestre 2027. Rangs non chiffrés : 31. Compte complet du calendrier reconstruit, 0 contrôle en échec.
+
+### Tri des impôts : sièges à corriger, constatés — 20261117
+
+*Relevé, non corrigé aux colonnes de siège.* Rang 288 : « 124 » est faux ; 1559 à 1566 sont abrogés depuis 2019 ; la base vivante est L. 2333-54 et suivants du code général des collectivités territoriales. Rangs 96 et 97 : L. 136-1 est la CSG, les contributions sont à L. 137-10 à L. 137-11-2. Rang 382 : L. 523-1 à L. 523-3 du code de l'énergie abrogés le 1er septembre 2026, successeur L. 543-1. Rang 383 : « L241-3 » est l'article d'affectation du code de la sécurité sociale ; la redevance est domaniale (L. 2125-10 du code général de la propriété des personnes publiques). Rang 324 : la taxe n'est pas une création du projet de loi pour 2027, c'est l'article 235 ter C. L'extrait du dépôt de droit omet la série 1531 à 1581 du code général des impôts, abrogées comprises, et n'a pas le code de la propriété intellectuelle.
+
+---
+
+### Abrogations : jeux et impôts sans porteur, versées et mises en ligne — 20261117
+
+**Exécuté** (décisions de l’auteur du 17 novembre : jeux, « on enlève avec mêmes règles »). Branche du fil fusionnée après rejeu des contrôles par le pilotage, tous à 0 échec. *Relevé* : 14 rangs restent sans porteur (3,6 Md€) — six agrégats de l’état A sans article, cinq n.d. clos (A-440), trois rangs dont l’abrogation de même forme n’éteindrait rien ou contredirait le P1 n° 19 (redevances UMTS et de propriété industrielle, droits d’enregistrement génériques). Ce sont des limites de droit, non des choix ouverts : aucune question à l’auteur.
+
