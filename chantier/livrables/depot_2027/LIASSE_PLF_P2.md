@@ -86,7 +86,7 @@ Cet amendement retire de la mission « Cohésion des territoires » les crédi
 
 Les programmes visés reçoivent 26 573 862 841 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 6,5 milliards d’euros en autorisations d’engagement et 6,4 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises, les transferts aux collectivités et les aides à la rénovation énergétique des logements. Elle prend effet au 1er avril 2027 pour l’hébergement d’urgence. Elle prend effet au 1er juillet 2027 pour les aides personnelles au logement, les subventions aux associations, la subvention à l’Agence nationale de l’habitat, les subventions aux opérateurs et les rémunérations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises, les transferts aux collectivités et les aides à la rénovation énergétique des logements. Elle prend effet au 1er avril 2027 pour l’hébergement d’urgence. Elle prend effet au 1er juillet 2027 pour les aides personnelles au logement, les subventions aux associations, la subvention à l’Agence nationale de l’habitat, les subventions aux opérateurs et les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -123,7 +123,7 @@ Cet amendement retire de la mission « Travail, emploi et administration des mi
 
 Les programmes visés reçoivent 19 087 173 283 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3,0 milliards d’euros en autorisations d’engagement et 2,7 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour le financement des structures de la formation professionnelle, la subvention à France Travail, le fonctionnement courant et l’investissement, les aides à l’insertion, les transferts aux collectivités et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages, la compensation des exonérations d’emploi à domicile, les aides à l’emploi et à l’apprentissage et les subventions aux associations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le financement des structures de la formation professionnelle, la subvention à France Travail, le fonctionnement courant et l’investissement, les aides à l’insertion, les transferts aux collectivités et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages, la compensation des exonérations d’emploi à domicile, les aides à l’emploi et à l’apprentissage et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -159,7 +159,7 @@ Cet amendement retire de la mission « Aide publique au développement » les 
 
 Les programmes visés reçoivent 2 334 755 315 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 793 millions d’euros en autorisations d’engagement et 548 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour l’aide publique au développement et les transferts aux ménages.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour l’aide publique au développement et les transferts aux ménages.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -201,7 +201,9 @@ Cet amendement retire de la mission « Écologie, développement et mobilité d
 
 Les programmes visés reçoivent 13 472 328 675 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1,8 milliard d’euros en autorisations d’engagement et 1,6 milliard d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les subventions aux associations, le chèque énergie, les transferts aux ménages, les rémunérations et la subvention à l’Agence de la transition écologique.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises, les transferts aux collectivités et le chèque énergie. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les subventions aux associations, les transferts aux ménages, les rémunérations et la subvention à l’Agence de la transition écologique.
+
+Le chèque énergie s’éteint au 1er janvier 2027 : aucun titre n’est émis au titre de 2027. L’exercice règle encore les titres de la campagne précédente, et la moitié des crédits est retirée.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -236,7 +238,7 @@ Cet amendement retire de la mission « Relations avec les collectivités territ
 
 Les programmes visés reçoivent 4 121 875 856 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1,3 milliard d’euros en autorisations d’engagement et 941 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027.
+La mesure prend effet au 1er janvier 2027 : elle n’atteint que des personnes morales.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -274,7 +276,7 @@ Cet amendement retire de la mission « Culture » les crédits des dispositifs
 
 Les programmes visés reçoivent 3 689 542 686 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1,2 milliard d’euros en autorisations d’engagement et 959 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages, les subventions aux associations et les rémunérations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages, les subventions aux associations et les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -310,7 +312,7 @@ Cet amendement retire de la mission « Sport, jeunesse et vie associative » l
 
 Les programmes visés reçoivent 1 183 987 268 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 490 millions d’euros en autorisations d’engagement et 442 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les transferts aux collectivités et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les transferts aux collectivités et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -345,7 +347,7 @@ Cet amendement retire de la mission « Immigration, asile et intégration » l
 
 Les programmes visés reçoivent 2 261 946 723 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 638 millions d’euros en autorisations d’engagement et 636 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages et les subventions aux associations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -382,7 +384,7 @@ Cet amendement retire de la mission « Santé » les crédits des dispositifs 
 
 Les programmes visés reçoivent 1 767 633 278 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 860 millions d’euros en autorisations d’engagement et 825 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour l’aide médicale de l’État, les transferts aux ménages, les subventions aux associations, les subventions aux opérateurs et les rémunérations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour l’aide médicale de l’État, les transferts aux ménages, les subventions aux associations, les subventions aux opérateurs et les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -416,7 +418,7 @@ Cet amendement retire de la mission « Recherche et enseignement supérieur »
 
 Les programmes visés reçoivent 3 361 217 042 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 398 millions d’euros en autorisations d’engagement et 311 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs et les subventions aux associations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -451,7 +453,7 @@ Cet amendement retire de la mission « Médias, livre et industries culturelles
 
 Les programmes visés reçoivent 701 933 880 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 495 millions d’euros en autorisations d’engagement et 388 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -489,7 +491,7 @@ Cet amendement retire de la mission « Économie » les crédits des dispositi
 
 Les programmes visés reçoivent 2 979 267 191 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 608 millions d’euros en autorisations d’engagement et 524 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les rémunérations, les subventions aux associations et les subventions aux opérateurs.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les rémunérations, les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -526,7 +528,7 @@ Cet amendement retire de la mission « Direction de l’action du Gouvernement�
 
 Les programmes visés reçoivent 952 703 564 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 508 millions d’euros en autorisations d’engagement et 365 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les rémunérations, les transferts aux ménages, les subventions aux associations et les subventions aux opérateurs.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les rémunérations, les transferts aux ménages, les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -564,7 +566,7 @@ Cet amendement retire de la mission « Transformation et fonction publiques »
 
 Les programmes visés reçoivent 327 144 499 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 245 millions d’euros en autorisations d’engagement et 184 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les rémunérations, les subventions aux opérateurs, les transferts aux ménages et les subventions aux associations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les rémunérations, les subventions aux opérateurs, les transferts aux ménages et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -600,7 +602,7 @@ Cet amendement retire de la mission « Enseignement scolaire » les crédits d
 
 Les programmes visés reçoivent 50 996 061 881 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 203 millions d’euros en autorisations d’engagement et 203 millions d’euros en crédits de paiement.
 
-La mesure prend effet au 1er juillet 2027.
+La mesure prend effet au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité : elle atteint des personnes physiques.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -635,7 +637,7 @@ Cet amendement retire de la mission « Action extérieure de l’État » les 
 
 Les programmes visés reçoivent 772 599 840 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 183 millions d’euros en autorisations d’engagement et 173 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les transferts aux ménages et les subventions aux associations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les transferts aux ménages et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -671,7 +673,7 @@ Cet amendement retire de la mission « Solidarité, insertion et égalité des 
 
 Les programmes visés reçoivent 32 186 322 565 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 47 millions d’euros en autorisations d’engagement et 47 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -707,7 +709,7 @@ Cet amendement retire de la mission « Agriculture et alimentation » les cré
 
 Les programmes visés reçoivent 2 695 046 849 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 322 millions d’euros en autorisations d’engagement et 224 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les rémunérations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -741,7 +743,7 @@ Cet amendement retire de la mission « Administration générale et territorial
 
 Les programmes visés reçoivent 587 023 619 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 31 millions d’euros en autorisations d’engagement et 31 millions d’euros en crédits de paiement.
 
-La mesure prend effet au 1er juillet 2027.
+La mesure prend effet au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité : elle atteint des personnes physiques.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -775,7 +777,7 @@ Cet amendement retire de la mission « Sécurités » les crédits des disposi
 
 Les programmes visés reçoivent 78 622 634 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 67 millions d’euros en autorisations d’engagement et 53 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les transferts aux ménages.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les transferts aux ménages.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -809,7 +811,7 @@ Cet amendement retire de la mission « Justice » les crédits des dispositifs
 
 Les programmes visés reçoivent 832 771 821 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 12 millions d’euros en autorisations d’engagement et 10 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027.
+La mesure prend effet au 1er janvier 2027 : elle n’atteint que des personnes morales.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -845,7 +847,7 @@ Cet amendement retire de la mission « Conseil et contrôle de l’État » le
 
 Les programmes visés reçoivent 301 105 696 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 8,5 millions d’euros en autorisations d’engagement et 7,7 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les rémunérations et les subventions aux associations.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les rémunérations et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -1902,7 +1904,7 @@ Rédiger ainsi cet article :
 
 I. – Les articles L. 124-1 à L. 124-5 du code de l’énergie sont abrogés.
 
-II. – Le I entre en vigueur le 1er juillet 2027.
+II. – Le I entre en vigueur le 1er janvier 2027.
 
 III. – Le produit résultant du I concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -1910,13 +1912,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge le chèque énergie et le régime qui l’organise au code de l’énergie.
 
-Le foyer qui ignore son droit ne touche rien. Celui que l’administration retrouve dans un croisement de fichiers reçoit un titre qu’il n’a pas demandé. Le programme « Service public de l’énergie » porte ce titre parmi les charges de service public et reçoit 10 749 607 515 euros d’autorisations d’engagement dans le texte déposé (état B)¹. La campagne d’émission du chèque y pèse 600 millions d’euros. Le même texte propose d’étendre ce croisement sans chiffrer ce que l’élargissement du recours coûtera (article 81)². Un titre fléché fait ce que l’argent ne fait pas : il oblige un opérateur à reconstituer chaque année la liste de ses bénéficiaires, il contraint des professionnels à l’accepter et il périme s’il n’est pas présenté au remboursement.
+Le foyer qui ignore son droit ne touche rien. Celui que l’administration retrouve dans un croisement de fichiers reçoit un titre qu’il n’a pas demandé. Le programme « Énergie, climat et après-mines » porte ce titre et reçoit 1 251 260 465 euros d’autorisations d’engagement dans le texte déposé (état B)¹. La campagne d’émission du chèque y pèse 600 millions d’euros. Le même texte propose d’étendre ce croisement sans chiffrer ce que l’élargissement du recours coûtera (article 81)². Un titre fléché fait ce que l’argent ne fait pas : il oblige un opérateur à reconstituer chaque année la liste de ses bénéficiaires, il contraint des professionnels à l’accepter et il périme s’il n’est pas présenté au remboursement.
 
 L’abrogation porte sur les articles qui instituent le titre, sa liste annuelle de bénéficiaires, sa valeur faciale, sa péremption puis le financement de sa gestion. Elle substitue une suppression à l’amélioration que l’article propose : on ne perfectionne pas la détection automatique d’un droit que l’on s’apprête à remplacer. Dit simplement : le foyer cesse de recevoir un titre qu’il ne peut dépenser qu’en énergie et il reçoit un revenu dont il décide lui-même l’emploi.
 
-La suppression prend effet au 1er juillet 2027 : l’exercice porte la moitié de l’effet de la mesure, soit 300 millions d’euros pour une économie de 600 millions d’euros en année pleine. Un amendement distinct retire les crédits correspondants à la mission qui les porte. Cette économie va d’abord à la baisse des prélèvements pesant sur les revenus d’activité, chemin que la présente loi ouvre à toutes ses économies. Un droit qu’il faut détecter à l’insu de son titulaire n’est pas un droit : c’est un paiement que l’on cherche à placer.
+La suppression prend effet au 1er janvier 2027 : aucun titre n’est émis au titre de 2027. L’exercice règle encore les titres de la campagne précédente : l’économie de 2027 est estimée à 300 millions d’euros, pour 600 millions d’euros en année pleine. Un amendement distinct retire les crédits correspondants à la mission qui les porte. Cette économie va d’abord à la baisse des prélèvements pesant sur les revenus d’activité, chemin que la présente loi ouvre à toutes ses économies. Un droit qu’il faut détecter à l’insu de son titulaire n’est pas un droit : c’est un paiement que l’on cherche à placer.
 
-¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Écologie, développement et mobilité durables », programme « Service public de l’énergie ».
+¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Écologie, développement et mobilité durables », programme « Énergie, climat et après-mines ».
 
 ² Projet de loi de finances pour 2027, article 81, « Amélioration des conditions de délivrance et de versement du chèque énergie », p. 246.
 

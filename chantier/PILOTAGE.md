@@ -10,7 +10,7 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 |---|---|---|---|---|---|
 | 1 | Classeurs du site (8) | à jour, cohérents | `Site-ETNP/site/donnees/` | pilotage | copier outils et documentation au dépôt public |
 | 2 | Simulateur | en ligne, non lié ; retouché le 20261116 (patrimoine à 18 Md€, chômage redit, niches par sujet), à valider par l'auteur ; 1 bloc revu sur 6 | `Site-ETNP/site/reprenez.html` | pilotage | validation, puis revue Agences, Agents, Associations, « En échange » |
-| 3 | Liasse de crédits, PLF 2de partie | **régénérée le 20261116** : 19,8 Md€ d'AE et 17,6 Md€ de CP (43,7 et 39,8 avant) ; quatre contrôles à 0 échec ; docx et PDF du site non refaits | `livrables/depot_2027/LIASSE_PLF_P2.md` ; `methode/etats/REGENERATION_liasse_20261116.md` | pilotage | relecture de l'auteur ; second passage : amendement « Outre-mer », dix lignes « en 3 ans », catégorie 22, exposé du n° 34 ; puis docx, PDF, site |
+| 3 | Liasse de crédits, PLF 2de partie | **régénérée et en ligne le 20261116** : 19,8 Md€ d'AE et 17,6 Md€ de CP ; exposés avec la règle de date ; chèque énergie au 1er janvier ; 68 pages | `livrables/depot_2027/LIASSE_PLF_P2.md` ; `Site-ETNP/site/amendements/` | pilotage | second passage : amendement « Outre-mer », dix lignes « en 3 ans », catégorie 22 |
 | 4 | Tri des impôts | **tri unique rendu le 20261116** : 434 rangs, six devenirs, classeur `Tri des impôts.xlsx` ; contrôles à 0 échec ; 34 rangs supprimés sans amendement porteur (11,4 Md€) | `referentiels/sort_prelevements_20261116.tsv` ; `methode/etats/TRI_unique_20261116.md` | pilotage | relecture de l'auteur, puis classeur sur le site ; reprise des amendements P1 n° 22 et PLFSS n° 9 |
 | 5 | Calendrier de mise en œuvre | **croisé mesure × mois reconstruit** (27 lignes, 48 mois), il fait foi ; registre de calcul à niveau sur D16, D37, D38, D41, D43 ; § 6, 15, 16, 17 et classeur de flux non rejoués | `referentiels/calendrier_mesures_mois_20261116.tsv` ; `appareil/calendrier_mesures_mois.py` | pilotage | rejouer les projections, puis page sur le site |
 | 6 | Présentation candidat | récupérée et alignée sur le simulateur le 20261116 : 600 € pour 2 400 € nets | `livrables/presentation_candidat/` | pilotage | relire les autres chiffres contre les classeurs du site |
@@ -25,11 +25,12 @@ Présentées en clair dans la conversation le 20261116. Énoncé complet et effe
 | n° | question | piste du pilotage |
 |---|---|---|
 | J1 | Jeux supprimés (auteur, 20261116) : le tableau « Refonte fiscalité » n'en supprime que 0,3 Md€ ; l'aligner porte la taxe foncière d'équilibre de 42,1 à 48,5 Md€ | aligner le tableau |
-| C2 | Départs d'agents : quand l'économie passe-t-elle de 30 % au plein ? Aucune pièce ne le fixe ; 16 Md€ par an en dépendent ; avec 30 % jusqu'en 2030, le solde de la trajectoire du registre est négatif de 2028 à 2030 | — |
 | S1 | Simulateur : patrimoine à 3 % entre 63,4 millions de personnes (18 Md€, 600 € à 2 400 €) | oui |
 | D5 | Activer « Automatically delete head branches » sur `Site-ETNP` (réglage GitHub) | oui |
 
 ## Constats à traiter par le pilotage, sans question
+
+- Départs d'agents : 30 % la première année, la ligne entière ensuite (auteur, 20261116) ; la trajectoire du registre (§ 5) porte encore 30 % sur toute la fenêtre : à recaler, puis rejouer § 6, 15, 16, 17 et le classeur de flux.
 
 - `SynthèseR!F32` du classeur des dépenses : 215,7 M€ comptés deux fois dans « Autres ménages ».
 - 59 lignes arrêtées par le classeur et absentes de la liasse, dont France 2030 et l'audiovisuel public.
