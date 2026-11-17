@@ -30,7 +30,7 @@ Présentées en clair dans la conversation le 20261116. Énoncé complet et effe
 
 ## Constats à traiter par le pilotage, sans question
 
-- Départs d'agents : 30 % la première année, la ligne entière ensuite (auteur, 20261116) ; la trajectoire du registre (§ 5) porte encore 30 % sur toute la fenêtre : à recaler, puis rejouer § 6, 15, 16, 17 et le classeur de flux.
+- Départs d'agents : 30 % tant que l'indemnité court (une à sept années selon l'ancienneté, amendement n° 26), la ligne entière à terme, dans les 236 (auteur, 20261116). Le flux mensuel par agent (§ 6) est rejoué ; restent à rejouer les § 15, 16, 17 et le classeur de flux.
 
 - `SynthèseR!F32` du classeur des dépenses : 215,7 M€ comptés deux fois dans « Autres ménages ».
 - 59 lignes arrêtées par le classeur et absentes de la liasse, dont France 2030 et l'audiovisuel public.

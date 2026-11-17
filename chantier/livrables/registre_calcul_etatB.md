@@ -271,19 +271,21 @@ Ménages à revenus d'activité rendus en deux lignes (R-T). Restitution portée
 
 | acteur | janv | févr | mars | avril | mai | juin | juil | août | sept | oct | nov | déc | **2027** |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Ménages actifs — transferts monétaires** | −0,10 | −0,10 | −0,10 | −0,10 | −0,10 | −0,10 | 0,75 | 2,18 | 3,61 | 5,05 | 6,48 | 7,91 | **25,40** |
-| Ménages actifs — services en nature | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | **−14,86** |
-| Ménages sans revenus d'activité | 0,00 | 0,00 | 0,00 | −0,21 | −0,21 | −0,21 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | **−2,42** |
-| Agents publics | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −1,76 | −1,60 | −1,44 | −1,28 | −1,12 | −0,96 | **−8,16** |
-| Entreprises | −1,06 | −1,06 | −1,06 | −1,06 | −1,06 | −1,06 | −1,26 | −1,26 | −1,26 | −1,26 | −1,26 | −1,26 | **−13,91** |
-| Associations | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,39 | −0,39 | −0,39 | −0,39 | −0,39 | −0,39 | **−2,37** |
-| Opérateurs | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,57 | −0,57 | −0,57 | −0,57 | −0,57 | −0,57 | **−3,42** |
+| **Ménages actifs — transferts monétaires** | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | 0,78 | 2,21 | 3,64 | 5,07 | 6,50 | 7,93 | **25,40** |
+| Ménages actifs — services en nature | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | **−14,87** |
+| Ménages sans revenus d'activité | 0,00 | 0,00 | 0,00 | −0,21 | −0,21 | −0,21 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | **−2,43** |
+| Agents publics | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,41 | −0,25 | −0,09 | 0,06 | 0,22 | 0,38 | **−0,09** |
+| Entreprises | −1,06 | −1,06 | −1,06 | −1,06 | −1,06 | −1,06 | −1,25 | −1,25 | −1,25 | −1,25 | −1,25 | −1,25 | **−13,89** |
+| Associations | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | **−2,37** |
+| Opérateurs | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,69 | −0,69 | −0,69 | −0,69 | −0,69 | −0,69 | **−4,11** |
 | Collectivités | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | **−3,20** |
-| **TOTAL** | −2,67 | −2,67 | −2,67 | −2,87 | −2,87 | −2,87 | −5,03 | −3,44 | −1,85 | −0,26 | 1,33 | 2,92 | **−22,95** |
+| **TOTAL** | −2,69 | −2,69 | −2,69 | −2,90 | −2,90 | −2,90 | −3,77 | −2,18 | −0,59 | 1,00 | 2,59 | 4,18 | **−15,55** |
 
-**Cumulé, transferts monétaires aux ménages actifs** : −0,10 · −0,19 · −0,29 · −0,39 · −0,49 · **−0,58** en juin · **+0,17** dès juillet · +25,40 en décembre.
+*Rejoué le 20261116 sur le croisé mesure × mois (`referentiels/calendrier_mesures_mois_20261116.tsv`), après la mise à niveau du § 5 et la date du chèque énergie : opérateurs à 4,116 de régime plein, départs d'agents à 30 % tant que l'indemnité court, chèque énergie éteint au 1er janvier. Le tableau du 15 octobre donnait −22,95 au total, −8,16 aux agents publics et −3,42 aux opérateurs. Par exercice, 2028 à 2030, total tous agents : +29,24 · +5,35 · +1,75.*
 
-Le solde tous acteurs bascule en **novembre 2027** (octobre au 20261008, avant correction du double socle : les coupes sont plus fortes, la bascule vient un mois plus tard).
+**Cumulé, transferts monétaires aux ménages actifs** : −0,12 · −0,24 · −0,37 · −0,49 · −0,61 · **−0,74** en juin · **+0,04** dès juillet · +25,40 en décembre.
+
+Le solde tous acteurs bascule en **octobre 2027** (novembre au 20261015 : les départs d'agents ne pèsent plus que 30 % tant que l'indemnité court).
 
 ---
 
