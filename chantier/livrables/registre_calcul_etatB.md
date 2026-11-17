@@ -269,24 +269,18 @@ D16, D19, D29, D37 et D38 redonnent F une fois le socle retiré de l'annexe : **
 
 Ménages à revenus d'activité rendus en deux lignes (R-T). Restitution portée à 90 % par eux et à 10 % par les agents publics — **clé posée, non mesurée**.
 
-| acteur | janv | févr | mars | avril | mai | juin | juil | août | sept | oct | nov | déc | **2027** |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Ménages actifs — transferts monétaires** | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | 0,78 | 2,21 | 3,64 | 5,07 | 6,50 | 7,93 | **25,40** |
-| Ménages actifs — services en nature | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | **−14,87** |
-| Ménages sans revenus d'activité | 0,00 | 0,00 | 0,00 | −0,21 | −0,21 | −0,21 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | **−2,43** |
-| Agents publics | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,41 | −0,25 | −0,09 | 0,06 | 0,22 | 0,38 | **−0,09** |
-| Entreprises | −1,06 | −1,06 | −1,06 | −1,06 | −1,06 | −1,06 | −1,25 | −1,25 | −1,25 | −1,25 | −1,25 | −1,25 | **−13,89** |
-| Associations | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | **−2,37** |
-| Opérateurs | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,69 | −0,69 | −0,69 | −0,69 | −0,69 | −0,69 | **−4,11** |
-| Collectivités | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | **−3,20** |
-| **TOTAL** | −2,69 | −2,69 | −2,69 | −2,90 | −2,90 | −2,90 | −3,77 | −2,18 | −0,59 | 1,00 | 2,59 | 4,18 | **−15,55** |
-
-**Lecture par sphère** (règles de l'auteur, 20261116 : « collectivités ça ne compte pas c'est le public ! C'est agents privés / sphère publique » ; « les agents publics sont des personnes privées. Le solde public est l'inverse de la somme des privés »). Agents privés : ménages actifs, ménages sans revenus d'activité, agents publics, entreprises, associations. Les lignes « opérateurs » et « collectivités » sont internes à la sphère publique et n'entrent dans aucune somme.
-
-| sphère | janv | févr | mars | avril | mai | juin | juil | août | sept | oct | nov | déc | **2027** | 2028 | 2029 | 2030 |
+| acteur | janv | févr | mars | avril | mai | juin | juil | août | sept | oct | nov | déc | **2027** | 2028 | 2029 | 2030 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Agents privés** | −2,42 | −2,42 | −2,42 | −2,63 | −2,63 | −2,63 | −2,82 | −1,23 | 0,36 | 1,95 | 3,54 | 5,13 | **−8,24** | 44,01 | 23,62 | 20,17 |
-| Solde public | 2,42 | 2,42 | 2,42 | 2,63 | 2,63 | 2,63 | 2,82 | 1,23 | −0,36 | −1,95 | −3,54 | −5,13 | **8,24** | −44,01 | −23,62 | −20,17 |
+| Ménages actifs — transferts monétaires | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | 0,78 | 2,21 | 3,64 | 5,07 | 6,50 | 7,93 | **25,40** | 92,19 | 86,82 | 84,14 |
+| Ménages actifs — services en nature | −1,39 | −1,39 | −1,39 | −1,39 | −1,39 | −1,39 | −1,54 | −1,54 | −1,54 | −1,54 | −1,54 | −1,54 | **−17,57** | −23,83 | −29,00 | −29,00 |
+| Ménages sans revenus d'activité | 0,00 | 0,00 | 0,00 | −0,21 | −0,21 | −0,21 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | **−2,43** | −3,60 | −3,60 | −3,60 |
+| Agents publics | −0,06 | −0,06 | −0,06 | −0,06 | −0,06 | −0,06 | −0,67 | −0,51 | −0,35 | −0,19 | −0,03 | 0,13 | **−1,97** | 0,83 | 0,11 | 0,11 |
+| Entreprises | −1,12 | −1,12 | −1,12 | −1,12 | −1,12 | −1,12 | −1,65 | −1,65 | −1,65 | −1,65 | −1,65 | −1,65 | **−16,61** | −30,86 | −41,96 | −42,11 |
+| Associations | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | **−2,37** | −5,50 | −7,03 | −7,80 |
+| **Agents privés** | −2,69 | −2,69 | −2,69 | −2,90 | −2,90 | −2,90 | −3,77 | −2,18 | −0,59 | 1,00 | 2,59 | 4,18 | **−15,55** | 29,24 | 5,35 | 1,75 |
+| **Solde public** | 2,69 | 2,69 | 2,69 | 2,90 | 2,90 | 2,90 | 3,77 | 2,18 | 0,59 | −1,00 | −2,59 | −4,18 | **15,55** | −29,24 | −5,35 | −1,75 |
+
+**Lecture** (règles de l'auteur, 20261116). Les agents sont tous privés : « les agents publics sont des personnes privées. Le solde public est l'inverse de la somme des privés ». Les coupes sur les budgets d'agences et de collectivités retombent sur des privés : « collocs on a la répart des dépenses et agences on peut faire une classification grossière des plus grosses (entreprises et/ou ménages) et une classification conventionnelle du reste (moitié agent moitié fournisseurs) ». **Clé posée, non mesurée** (`CLE_PRIVEE` de `appareil/calendrier_mesures_mois.py`) : Ademe aux entreprises ; autres opérateurs à 46 % aux ménages, 44 % aux entreprises, 10 % aux agents publics ; audiovisuel public moitié agents, moitié entreprises ; charges courantes locales à 55 % aux ménages (logement, équipements collectifs), le reste moitié agents, moitié entreprises. **Ce tableau ne porte ni les niches supprimées (52,1 Md€ par an) ni l'épargne rendue : le solde public n'est pas nul tant qu'elles n'y sont pas.**
 
 *Rejoué le 20261116 sur le croisé mesure × mois (`referentiels/calendrier_mesures_mois_20261116.tsv`), après la mise à niveau du § 5 et la date du chèque énergie : opérateurs à 4,116 de régime plein, départs d'agents à 30 % tant que l'indemnité court, chèque énergie éteint au 1er janvier. Le tableau du 15 octobre donnait −22,95 au total, −8,16 aux agents publics et −3,42 aux opérateurs. Par exercice, 2028 à 2030, total tous agents : +29,24 · +5,35 · +1,75.*
 
