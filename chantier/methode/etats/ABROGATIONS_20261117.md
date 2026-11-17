@@ -3,7 +3,7 @@
 **Porteur** : fil d'exécution, branche `claude/liasse-abrogations`, lancé par le pilotage. Sans pull request.
 **Mandat** : décisions de l'auteure relevées à `PILOTAGE.md` (table « Décisions rendues ») et à `methode/arbitrages.md` (« Cinq réponses de l'auteur… — 20261117 ») : « Jeux : toutes les taxes supprimées » ; « Impôts sans amendement porteur : abrogés selon les mêmes règles que les autres » (« bah on enlève avec mêmes règles »). Ce fil n'a reçu aucun message de l'auteure : les décisions sont *relevées* au registre, le mandat est *hérité* du pilotage.
 **Convention** : *relevé* (lu au fichier ou au dépôt de droit au moment d'écrire), *hérité* (d'un autre fil, non rejoué), *déduit*. Montants en M€, prévision 2026 du tri, sauf mention. Tout ce qui suit est *tranché par ce fil sur les règles écrites, révocable*.
-**Droit** : dépôt de droit, millésime LEGI 20261105 ; archive globale LEGI de la DILA du 20261108 lue en flux pour la série absente de l'extrait (§ 2.4).
+**Droit** : dépôt de droit, millésime LEGI 20261105 ; archive globale LEGI de la DILA du 20261108 lue en flux pour ce que l'extrait ne porte pas (§ 2.4).
 
 ---
 
@@ -14,17 +14,17 @@
 | liasse | n° | avant → après, en une ligne |
 |---|---:|---|
 | P1 | 22 | « cinquante et une » → « cinquante-quatre » impositions. I, 4° : « 302 bis ZG, 302 bis ZI » → « 302 bis ZG à 302 bis ZO » (tout le chapitre des prélèvements sur les jeux et paris), plus 1609 quatertricies. I, 5° : plus le III de l'article 105 de la loi n° 2010-1658 (prélèvement sur les mises en Nouvelle-Calédonie). **I ter nouveau** : 302 decies coordonné (« 302 bis ZN, » supprimé). II, **4° nouveau** : L. 543-1 du code de l'énergie (redevance hydraulique). III, A : date du I ter. Exposé : paris sportifs et énergie hydraulique nommés, note ² complétée |
-| P1 | 25 | « soixante-neuf » → « soixante et onze ». I, 2° : plus 1635 bis R du code général des impôts (contribution pour la justice économique, créée par l'article 27 du projet). I, 8° : plus L. 4622-6 du code du travail (santé au travail). Exposé : les deux nommées |
-| P1 | 29 | « vingt » → « vingt et une » impositions locales (exposé). III bis, 1° : plus 1559 à 1566 du code général des impôts (impôt sur les cercles et maisons de jeux). III bis, **7° nouveau** : L. 422-12 et L. 422-13 du code du tourisme (renvois aux prélèvements sur les casinos). V : ces articles tombent avec les jeux, au 1er juillet 2027 |
+| P1 | 25 | « soixante-neuf » → « soixante-douze ». I, 2° : plus 1635 bis R du code général des impôts (contribution pour la justice économique, créée par l'article 27 du projet). I, 8° : plus L. 4622-6 du code du travail (santé au travail). **18° nouveau** : L. 623-16 du code de la propriété intellectuelle (obtentions végétales). Exposé : les trois nommées |
+| P1 | 29 | « vingt » impositions locales, inchangé. III bis, **7° nouveau** : L. 422-12 et L. 422-13 du code du tourisme (renvois aux prélèvements sur les casinos et faculté des intercommunalités). V : ils tombent avec les casinos, au 1er juillet 2027. Rang 288 rattaché au 2° sans changement de texte (§ 2.4) |
 | PLFSS | 9 | « dix-neuf » → « vingt et une » impositions. I, 1° : plus L. 136-7-1 (contribution sociale sur les jeux) et L. 137-10, L. 137-11, L. 137-11-1, L. 137-11-2 (préretraite, retraites à prestations définies). Exposé : les deux nommées ; produit inchangé, 13 milliards d'euros |
 
 Aucun numéro d'amendement ne change. Aucun gage ne change : chaque ajout tombe sous le gage de son amendement (n° 22 : impôt sur les sociétés ; n° 25 et 29 : DGF pour les collectivités, impôt sur les sociétés pour l'État ; PLFSS n° 9 : CSG sur le patrimoine et les placements).
 
 ### Rangs supprimés sans porteur
 
-**25 rangs, 5 019,5 M€ → 15 rangs, 3 647,8 M€** (*relevé* au tri unique régénéré). Huit rangs portés (1 371,7 M€), deux sortis « déjà abrogés » (0 M€).
+**25 rangs, 5 019,5 M€ → 14 rangs, 3 647,8 M€** (*relevé* au tri unique régénéré). Neuf rangs portés (1 371,7 M€), deux sortis « déjà abrogés » (0 M€).
 
-**Objectif 0 non atteint.** Les quinze qui restent, et pourquoi :
+**Objectif 0 non atteint.** Les quatorze qui restent, et pourquoi :
 
 | rang | prélèvement | M€ | pourquoi il reste sans porteur |
 |---|---|---:|---|
@@ -35,8 +35,7 @@ Aucun numéro d'amendement ne change. Aucun gage ne change : chaque ajout tombe 
 | 350 | timbre de dimension | 0,0 | agrégat de l'état A |
 | 366 | actes judiciaires et extrajudiciaires | — | agrégat de l'état A (ligne 1712) ; la taxe sur les actes des huissiers, 302 bis Y, est déjà abrogée (article 21 de la loi n° 2019-1479, *relevé*) |
 | 383 | redevances UMTS | 35,3 | **redevance domaniale**, non une imposition abrogeable : L. 2125-10 du code général de la propriété des personnes publiques la calcule, L. 2125-1 la rend due pour toute occupation du domaine ; L. 241-3, 5° et 6°, du code de la sécurité sociale l'affecte. Abroger l'un ou l'autre n'éteint rien, ou renvoie le produit à l'État |
-| 362 | redevances de propriété industrielle | 186,9 | voir § 2.4 |
-| N14 | obtentions végétales | 0,0 | voir § 2.4 |
+| 362 | redevances de propriété industrielle | 186,9 | L. 411-2 du code de la propriété intellectuelle (*relevé* à l'archive LEGI, § 2.4) énumère les recettes de l'institut ; les redevances sont fixées par voie réglementaire. L'abroger retirerait toutes les ressources de l'institut sans éteindre aucune redevance |
 | 339 | droits d'enregistrement, ligne générique | — | siège 635 (*relevé*) : liste des actes à enregistrer ; l'abroger supprimerait l'enregistrement des mutations que le P1 n° 19 garde à 1 % et 3 % |
 | 190 | laboratoires de biologie médicale | — | n.d. : rien au dépôt (§ 2.3) |
 | 290 | « orphelins » des clubs de jeux | — | n.d. : rien au dépôt (§ 2.3) |
@@ -44,14 +43,14 @@ Aucun numéro d'amendement ne change. Aucun gage ne change : chaque ajout tombe 
 | 387 | liaison fixe transmanche | — | n.d. : rien au dépôt (§ 2.3) |
 | 406 | frais de surveillance de la SNCF | — | n.d. : rien au dépôt (§ 2.3) |
 
-Six agrégats (3 425,6 M€) n'ont pas de siège par construction ; cinq n.d. sont clos par arbitrage de l'auteur (A-440) et la recherche de ce fil n'y change rien ; restent quatre rangs qui ont un siège mais pas d'abrogation de même forme (383, 339) ou pas de siège au dépôt (362, N14).
+Six agrégats (3 425,6 M€) n'ont pas de siège par construction ; cinq n.d. sont clos par arbitrage de l'auteur (A-440) et la recherche de ce fil n'y change rien ; restent trois rangs qui ont un siège, mais dont l'abrogation de même forme n'éteint pas le prélèvement (383, 362) ou contredit le P1 n° 19 (339).
 
 ### Ce qui se lit avant dépôt
 
 1. **L. 137-11 du code de la sécurité sociale définit aussi les régimes de retraite à prestations définies.** Douze articles d'autres codes y renvoient (articles 81 et 83 du code général des impôts, L. 143-0 et L. 143-2 du code des assurances, L. 22-10-4 et L. 22-10-23 du code de commerce, notamment ; *relevé*). L'abrogation entière, même forme que L. 137-12, laisse ces renvois sans objet ; la coordination « se fera en navette », comme pour les voisines.
 2. **L. 4622-6 du code du travail** met à la charge des employeurs les dépenses des services de prévention et de santé au travail. Son abrogation supprime la cotisation ; l'obligation d'organiser le service (L. 4622-1) demeure, sans financement écrit.
 3. **1635 bis R** n'existe pas encore : l'article 27 du projet de loi le crée. Même forme que 1635 bis P, que le même article 27 réécrit et que le n° 25 abrogeait déjà.
-4. **1559 à 1566 du code général des impôts** : voir § 2.4 pour la preuve de version.
+4. **L. 623-16 du code de la propriété intellectuelle** : code absent du dépôt de droit ; version relevée à l'archive LEGI du 20261108 (§ 2.4), à rejouer au dépôt quand le code y entrera.
 
 ---
 
@@ -97,14 +96,14 @@ Six agrégats (3 425,6 M€) n'ont pas de siège par construction ; cinq n.d. so
 | III de l'article 105 de la loi n° 2010-1658 | prélèvement de 0,3 % sur les mises de la Française des jeux en Nouvelle-Calédonie, au budget de l'État | **ajouté** au n° 22, I, 5° |
 | 1609 quatertricies du code général des impôts | assiette et recouvrement des prélèvements sociaux sur les jeux | **ajouté** au n° 22, I, 4° |
 | L. 136-7-1 du code de la sécurité sociale | contribution sociale sur les jeux | **ajouté** au PLFSS n° 9, I, 1° |
-| 1559 à 1566 du code général des impôts | impôt sur les cercles et maisons de jeux, aux communes | **ajouté** au n° 29, III bis, 1° (rang 288) |
+| 1559 à 1566 du code général des impôts | impôt sur les maisons de jeux | **déjà abrogé** depuis le 1er janvier 2019 (*relevé*, archive LEGI) ; non ajouté |
 | L. 422-12 et L. 422-13 du code du tourisme | renvoi aux prélèvements sur les casinos ; faculté des intercommunalités | **ajouté** au n° 29, III bis, 7° |
 | 1609 novovicies, 1609 tricies, 1609 tertricies | prélèvements affectés à l'Agence nationale du sport | déjà au n° 22 |
 | I et II de l'article 138 de la loi n° 2019-486 | loteries de la Française des jeux | déjà au n° 22 |
 | L. 2333-54 à L. 2333-56, L. 5211-21-1 du code général des collectivités territoriales | casinos | déjà au n° 29 |
 | L. 137-20 à L. 137-27 du code de la sécurité sociale | prélèvements sociaux, publicité | déjà au PLFSS n° 9 |
 
-**Placement, *tranché par ce fil*** : le mandat dit « au n° 22 ». Trois ajouts vont ailleurs, parce que le gage suit le perdant : l'impôt sur les cercles et maisons de jeux est communal (annexe des ressources affectées 2027 : « Communes »), il rejoint les casinos au n° 29, compensé par la DGF ; la contribution sociale sur les jeux rejoint le PLFSS n° 9.
+**Placement, *tranché par ce fil*** : le mandat dit « au n° 22 ». Deux ajouts vont ailleurs, parce que le gage suit le perdant : les articles du code du tourisme suivent les casinos au n° 29, compensé par la DGF ; la contribution sociale sur les jeux rejoint le PLFSS n° 9.
 
 **Non relevé** : la contribution au remboursement de la dette sociale sur les jeux (article 18 de l'ordonnance n° 96-50) : texte absent du dépôt de droit. Le rang 290 (« orphelins » des clubs de jeux) : § 2.3.
 
@@ -112,14 +111,15 @@ Six agrégats (3 425,6 M€) n'ont pas de siège par construction ; cinq n.d. so
 
 ## 2. Les 25 rangs — le détail
 
-### 2.1 Portés : 8 rangs, 1 371,7 M€
+### 2.1 Portés : 9 rangs, 1 371,7 M€
 
 | rang | prélèvement | M€ | amendement | division | siège | d'où |
 |---|---|---:|---|---|---|---|
 | 324 | taxe sur le patrimoine financier | 1 000,0 | P1 n° 22 | I, 1° | 235 ter C du code général des impôts, LEGIARTI000053542687 | *relevé* : aucun article du projet de loi de finances pour 2027 ne crée cette taxe (l'expression n'y figure qu'à la ligne 1439 de l'état A) ; *hérité* (`methode/etats/N3.md`) : c'est le nom, au projet de loi de finances pour 2026, de la taxe sur les holdings patrimoniales. Déjà abrogé : rattaché sans changement de texte, doublon du rang 328 |
 | 382 | redevance proportionnelle sur l'énergie hydraulique | 37,7 | P1 n° 22 | II, 4° | L. 543-1 du code de l'énergie, LEGIARTI000054356162 | *relevé* : L. 523-1 à L. 523-3, siège du tri et de l'annexe, abrogés le 1er septembre 2026 ; L. 543-1 en vigueur depuis la même date, redevance progressive au profit de l'État et des établissements publics territoriaux de bassin ; *déduit* : c'est le successeur |
 | 388 | concessions hydroélectriques, « délais glissants » | — | P1 n° 22 | II, 4° | même article | idem (L. 523-3 abrogé) |
-| 288 | impôt sur les spectacles, jeux et divertissements | 334,0 | P1 n° 29 | III bis, 1° | 1559 à 1566 du code général des impôts | § 2.4 |
+| 288 | impôt sur les spectacles, jeux et divertissements | 334,0 | P1 n° 29 | III bis, 2° | L. 2333-54 et suivants du code général des collectivités territoriales | § 2.4 ; rattaché sans changement de texte |
+| N14 | taxe de protection des obtentions végétales | 0,0 | P1 n° 25 | I, 18° | L. 623-16 du code de la propriété intellectuelle, LEGIARTI000024958409 | § 2.4 |
 | 128 | cotisations de médecine du travail | — | P1 n° 25 | I, 8° | L. 4622-6 du code du travail, LEGIARTI000043893814 | *relevé* ; le siège du tri, L. 241-2 du code de la sécurité sociale, est sans rapport (observation du tri) |
 | N5 | contribution pour la justice économique | — | P1 n° 25 | I, 2° | 1635 bis R du code général des impôts, créé par l'article 27, I, 5°, du projet | *relevé* au texte déposé (alinéas 17 à 32) |
 | 96 | contributions sur avantages de retraite et de préretraite (maladie) | — | PLFSS n° 9 | I, 1° | L. 137-10 à L. 137-11-2 du code de la sécurité sociale | *relevé* : annexe des ressources affectées 2027 (L. 137-10 : 25,8 M€ ; L. 137-11 : 229,0 M€, CNAV) et dépôt de droit ; le siège du tri, L. 136-1, est l'article de la CSG |
@@ -148,13 +148,23 @@ Recherche au texte intégral des 154 249 versions d'articles applicables au 17 n
 
 Ils restent n.d. ; le point est clos par l'auteur (A-440) et ne se rouvre pas.
 
-### 2.4 Hors de l'extrait du dépôt de droit : 288, 362, N14
+### 2.4 Hors de l'extrait du dépôt de droit : 288, 362, N14 — lus à l'archive LEGI
 
 *Relevé* : la série 1531 à 1581 du code général des impôts est absente de l'extrait (`data/cgi.jsonl.gz`, 3 485 versions), alors que 1530 bis et 1582 y sont : l'extraction est en cause, non l'adresse. Le code de la propriété intellectuelle n'est pas au dépôt (`codes.json`).
 
 **Rang 288.** Adresse relevée au rang 4 : annexe des ressources affectées 2027, « L. 1559 CGI et L. 2333-54 et suivants », affectataire « Communes », 333 959 822 € en 2026 ; au rang 3 bis : fiche des douanes « l'impôt sur les cercles et maisons de jeux », « articles 1559 à 1566 du code général des impôts » (mise à jour du 26 août 2024) ; au rang 3, l'article 21 de la loi n° 2014-1654 nomme 1560 « dans sa rédaction en vigueur au 1er janvier 2014 ».
 
-[LECTURE LEGI — à compléter]
+**Lecture de l'archive.** *Relevé* : `Freemium_legi_global_20261108-140000.tar.gz` de la DILA, 1,2 Go, lu en flux (5 881 106 membres), sans rien écrire au dépôt de droit ; cibles : 1559 à 1566 du code général des impôts, L. 411-1 à L. 412-1 et L. 623-16 du code de la propriété intellectuelle ; 117 versions relevées.
+
+| article | dernière version | état | relevé |
+|---|---|---|---|
+| 1559 (« Les maisons de jeux sont soumises à un impôt… ») | LEGIARTI000036364730 | **abrogé depuis le 1er janvier 2019** | idem 1560, 1563, 1565, 1565 septies, 1566 ; 1561, 1562 et 1564 abrogés plus tôt ; 1565 octies abrogé depuis 2015 |
+| L. 411-2 CPI (« Les recettes de l'institut se composent de toutes redevances… ») | LEGIARTI000048848915 | en vigueur depuis le 31 décembre 2023 | article de recettes ; les redevances sont réglementaires |
+| L. 623-16 CPI (« … donnent lieu au versement de redevances pour services rendus… ») | LEGIARTI000024958409 | en vigueur depuis le 11 décembre 2011 | institue la redevance et l'affecte au groupement de L. 412-1 |
+
+**Conséquences.** *Rang 288* : l'impôt sur les maisons de jeux n'existe plus ; l'abroger serait une faute. Une première écriture de ce fil l'avait porté au n° 29 sur la foi de l'annexe et de la fiche des douanes : retirée. Le rang garde la seconde base que l'annexe lui donne, les prélèvements sur les casinos (L. 2333-54 et suivants), déjà abrogés au III bis, 2°, du n° 29 : rattaché sans changement de texte. *Réserve* : l'annexe chiffre ce rang à part des casinos (rangs 282 et 289) ; un double compte n'est pas exclu. *Rang N14* : porté au n° 25, I, 18°, même forme que les taxes affectées voisines. *Rang 362* : reste sans porteur (§ 0).
+
+**Constaté** : l'extrait du dépôt de droit ne porte aucune version de 1531 à 1581, abrogées comprises ; la fiche des douanes (mise à jour du 26 août 2024) cite encore « 1559 à 1566 » ; l'annexe des ressources affectées 2027 cite encore « L. 1559 CGI ». Deux sources publiques de rang 3 bis et 4 désignaient un article abrogé depuis sept ans : seul le texte a fait foi.
 
 ---
 
@@ -164,18 +174,18 @@ Ils restent n.d. ; le point est clos par l'auteur (A-440) et ne se rouvre pas.
 
 | contrôle | résultat |
 |---|---|
-| `tri_porte/tri_unique.py` | **0 échec** ; 15 rangs supprimés sans porteur, 3 647,8 M€ |
+| `tri_porte/tri_unique.py` | **0 échec** ; 14 rangs supprimés sans porteur, 3 647,8 M€ |
 | `controle_sieges_prelevements.py` | **0 échec, 10 signaux** (inchangés) |
 | `controle_liasses.py` | **0 écart L1 à L4 et L6** ; 41 articles visés par plusieurs amendements, inchangé |
 | `controle_liasse_classeurs.py controler --cible projet` | **23 amendements, 0 en échec** (seconde partie, non touchée) |
 | `calendrier_compte_complet.py controler` | **0 contrôle en échec**, après rejeu du § 18 et reconstruction du TSV |
 | `calendrier_mesures_mois.py controler` | **0 contrôle en échec** |
-| réapplication au dépôt de droit | les 23 adresses nouvelles existent au 17 novembre 2026 et au 30 juin 2027, veille de la date d'effet (`droit.article`, jour donné) ; 302 decies porte « 302 bis ZN, » une fois. Hors dépôt : 1559 à 1566 (§ 2.4) et 1635 bis R (créé par le projet) |
+| réapplication au dépôt de droit | les 23 adresses nouvelles existent au 17 novembre 2026 et au 30 juin 2027, veille de la date d'effet (`droit.article`, jour donné) ; 302 decies porte « 302 bis ZN, » une fois. Hors dépôt : L. 623-16 (relevé à l'archive LEGI) et 1635 bis R (créé par le projet) |
 | collisions (contrôle 6 de `vecteur-mesure`) | aucune adresse nouvelle n'est visée par un autre amendement |
 
 *Limite* : `controle_liasses.py` ne vérifie pas qu'une adresse existe ; c'est la réapplication qui le prouve. La première écriture du PLFSS n° 9 en plage « L. 137-10 à L. 137-14 » masquait au contrôle la collision connue sur L. 137-13 (PLFSS n° 1 et n° 9) : les articles sont écrits un par un.
 
-**Exposés touchés** (mots, compteur de ce fil, notes exclues) : P1 n° 22, 592 ; n° 25, 423 ; n° 29, 697 ; PLFSS n° 9, 299. Aucun montant d'exposé ne bouge : les rangs entrés au PLFSS n° 9 n'ont pas de rendement au tri, le produit reste 13 milliards d'euros.
+**Exposés touchés** (mots, compteur de ce fil, notes exclues) : P1 n° 22, 592 ; n° 25, 421 ; PLFSS n° 9, 299. Le n° 29 revient à son exposé d'avant, à l'octet. Aucun montant d'exposé ne bouge : les rangs entrés au PLFSS n° 9 n'ont pas de rendement au tri, le produit reste 13 milliards d'euros.
 
 ### Registre de calcul, § 18 — rejoué
 
@@ -202,23 +212,23 @@ Non touchés : `methode/arbitrages.md`, `methode/journal.md`, `appareil/generer_
 
 ### Jeux : le chapitre des prélèvements sur les jeux et paris abrogé en entier — 20261117
 
-*Décision de l'auteure* (« Jeux : toutes les taxes supprimées », relevée au registre) ; *rédaction tranchée par ce fil, révocable*. Le P1 n° 22 abroge les articles 302 bis ZG à 302 bis ZO du code général des impôts, l'article 1609 quatertricies et le III de l'article 105 de la loi n° 2010-1658 (prélèvement sur les mises en Nouvelle-Calédonie) ; un I ter retire 302 bis ZN de l'article 302 decies. Le P1 n° 29 abroge les articles 1559 à 1566 (impôt sur les cercles et maisons de jeux, communal) et les articles L. 422-12 et L. 422-13 du code du tourisme. Le PLFSS n° 9 abroge L. 136-7-1 du code de la sécurité sociale. *Non relevé* : la CRDS sur les jeux (ordonnance n° 96-50, absente du dépôt).
+*Décision de l'auteure* (« Jeux : toutes les taxes supprimées », relevée au registre) ; *rédaction tranchée par ce fil, révocable*. Le P1 n° 22 abroge les articles 302 bis ZG à 302 bis ZO du code général des impôts, l'article 1609 quatertricies et le III de l'article 105 de la loi n° 2010-1658 (prélèvement sur les mises en Nouvelle-Calédonie) ; un I ter retire 302 bis ZN de l'article 302 decies. Le P1 n° 29 abroge les articles L. 422-12 et L. 422-13 du code du tourisme. Les articles 1559 à 1566 (impôt sur les maisons de jeux) sont abrogés depuis le 1er janvier 2019 (archive LEGI). Le PLFSS n° 9 abroge L. 136-7-1 du code de la sécurité sociale. *Non relevé* : la CRDS sur les jeux (ordonnance n° 96-50, absente du dépôt).
 
-### Impôts sans porteur : huit rangs rejoignent l'amendement de leur famille — 20261117
+### Impôts sans porteur : neuf rangs rejoignent l'amendement de leur famille — 20261117
 
-*Décision de l'auteure* (« on enlève avec mêmes règles ») ; *rattachements tranchés par ce fil, révocables*. P1 n° 22 : rangs 324 (235 ter C, déjà abrogé), 382 et 388 (L. 543-1 du code de l'énergie, successeur de L. 523-1 à L. 523-3 abrogés le 1er septembre 2026). P1 n° 25 : rangs 128 (L. 4622-6 du code du travail) et N5 (1635 bis R, créé par l'article 27 du projet). P1 n° 29 : rang 288 (1559 à 1566). PLFSS n° 9 : rangs 96 et 97 (L. 137-10 à L. 137-11-2). Rangs 351 et 417 : siège déjà abrogé. *Relevé* : 15 rangs restent sans porteur, 3 647,8 M€, dont six agrégats de l'état A (3 425,6 M€) et cinq n.d.
+*Décision de l'auteure* (« on enlève avec mêmes règles ») ; *rattachements tranchés par ce fil, révocables*. P1 n° 22 : rangs 324 (235 ter C, déjà abrogé), 382 et 388 (L. 543-1 du code de l'énergie, successeur de L. 523-1 à L. 523-3 abrogés le 1er septembre 2026). P1 n° 25 : rangs 128 (L. 4622-6 du code du travail), N5 (1635 bis R, créé par l'article 27 du projet) et N14 (L. 623-16 du code de la propriété intellectuelle). P1 n° 29 : rang 288, sans changement de texte (casinos). PLFSS n° 9 : rangs 96 et 97 (L. 137-10 à L. 137-11-2). Rangs 351 et 417 : siège déjà abrogé. *Relevé* : 14 rangs restent sans porteur, 3 647,8 M€, dont six agrégats de l'état A (3 425,6 M€) et cinq n.d.
 
 ### Décompte des intitulés — 20261117
 
-*Relevé.* P1 n° 22 : cinquante-quatre impositions (55 rangs portés, dont l'électricité ramenée au plancher). P1 n° 25 : soixante et onze. P1 n° 29 : vingt et une impositions locales. PLFSS n° 9 : vingt et une. La convention des fils précédents est gardée : le compte suit les rangs du tri ; les articles de jeux sans rang propre (302 bis ZH, 302 bis ZO, Nouvelle-Calédonie, L. 136-7-1) n'y ajoutent rien.
+*Relevé.* P1 n° 22 : cinquante-quatre impositions (55 rangs portés, dont l'électricité ramenée au plancher). P1 n° 25 : soixante-douze. P1 n° 29 : vingt impositions locales, inchangé. PLFSS n° 9 : vingt et une. La convention des fils précédents est gardée : le compte suit les rangs du tri ; les articles de jeux sans rang propre (302 bis ZH, 302 bis ZO, Nouvelle-Calédonie, L. 136-7-1) n'y ajoutent rien.
 
 ### Registre de calcul, § 18 : rejoué après les abrogations — 20261117
 
-*Relevé.* Régime plein des ajouts au P1 n° 22 de −12,0 à −13,1 Md€ (taxe sur le patrimoine financier, 1 000,0 M€, exercices ouverts à compter du 1er juillet 2027 ; redevance hydraulique, 37,7 M€, 2028) ; P1 n° 29 de −0,5 à −0,7 en 2027 et de −4,8 à −5,2 en régime plein (impôt sur les cercles et maisons de jeux, 334,0 M€). Total −16 en 2027, −33 en régime plein ; −1,8 par mois au second semestre 2027. Rangs non chiffrés : 31. Compte complet du calendrier reconstruit, 0 contrôle en échec.
+*Relevé.* Régime plein des ajouts au P1 n° 22 de −12,0 à −13,1 Md€ (taxe sur le patrimoine financier, 1 000,0 M€, exercices ouverts à compter du 1er juillet 2027 ; redevance hydraulique, 37,7 M€, 2028) ; P1 n° 29 de −0,5 à −0,7 en 2027 et de −4,8 à −5,2 en régime plein (rang 288, 334,0 M€, rattaché aux casinos). Total −16 en 2027, −33 en régime plein ; −1,8 par mois au second semestre 2027. Rangs non chiffrés : 31. Compte complet du calendrier reconstruit, 0 contrôle en échec.
 
 ### Tri des impôts : sièges à corriger, constatés — 20261117
 
-*Relevé, non corrigé aux colonnes de siège.* Rang 288 : « 124 » est faux, le siège est 1559 à 1566 du code général des impôts. Rangs 96 et 97 : L. 136-1 est la CSG, les contributions sont à L. 137-10 à L. 137-11-2. Rang 382 : L. 523-1 à L. 523-3 du code de l'énergie abrogés le 1er septembre 2026, successeur L. 543-1. Rang 383 : « L241-3 » est l'article d'affectation du code de la sécurité sociale ; la redevance est domaniale (L. 2125-10 du code général de la propriété des personnes publiques). Rang 324 : la taxe n'est pas une création du projet de loi pour 2027, c'est l'article 235 ter C. L'extrait du dépôt de droit omet la série 1531 à 1581 du code général des impôts.
+*Relevé, non corrigé aux colonnes de siège.* Rang 288 : « 124 » est faux ; 1559 à 1566 sont abrogés depuis 2019 ; la base vivante est L. 2333-54 et suivants du code général des collectivités territoriales. Rangs 96 et 97 : L. 136-1 est la CSG, les contributions sont à L. 137-10 à L. 137-11-2. Rang 382 : L. 523-1 à L. 523-3 du code de l'énergie abrogés le 1er septembre 2026, successeur L. 543-1. Rang 383 : « L241-3 » est l'article d'affectation du code de la sécurité sociale ; la redevance est domaniale (L. 2125-10 du code général de la propriété des personnes publiques). Rang 324 : la taxe n'est pas une création du projet de loi pour 2027, c'est l'article 235 ter C. L'extrait du dépôt de droit omet la série 1531 à 1581 du code général des impôts, abrogées comprises, et n'a pas le code de la propriété intellectuelle.
 
 ---
 

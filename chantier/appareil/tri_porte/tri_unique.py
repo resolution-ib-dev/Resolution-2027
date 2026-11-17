@@ -73,9 +73,11 @@ PORTEURS_ABROG = {
     '96': ('PLFSS n° 9', 'I, 1°', LABR + ' : L. 137-10 à L. 137-11-2 du code de la sécurité sociale (préretraite, retraites à prestations définies) ; '
            'le siège du tri, L. 136-1, est l’article de la CSG'),
     '97': ('PLFSS n° 9', 'I, 1°', LABR + ' : L. 137-10 à L. 137-11-2 du code de la sécurité sociale ; le siège du tri, L. 136-1, est l’article de la CSG'),
-    '288': ('PLF P1 n° 29', 'III bis, 1°', LABR + ' : articles 1559 à 1566 du code général des impôts, impôt sur les cercles et maisons de jeux, '
-            'affecté aux communes ; adresse relevée à l’annexe des ressources affectées 2027 (« L. 1559 CGI ») et à la fiche des douanes, '
-            'série absente de l’extrait du dépôt de droit : version à vérifier avant dépôt ; le siège « 124 » du tri est faux'),
+    '288': ('PLF P1 n° 29', 'III bis, 2°', LABR + ' : l’annexe des ressources affectées 2027 donne « L. 1559 CGI et L. 2333-54 et suivants » du code '
+            'général des collectivités territoriales ; les articles 1559 à 1566 sont abrogés depuis le 1er janvier 2019 (archive LEGI du 20261108) ; '
+            'L. 2333-54 et suivants, déjà abrogés par cette division : rattaché sans changement de texte ; le siège « 124 » du tri est faux'),
+    'N14': ('PLF P1 n° 25', 'I, 18°', LABR + ' : L. 623-16 du code de la propriété intellectuelle, LEGIARTI000024958409, en vigueur '
+            '(archive LEGI du 20261108 ; code absent du dépôt de droit)'),
 }
 # Rangs dont le siège est abrogé au dépôt de droit : rien à abroger, ils sortent du compte des rangs sans porteur.
 DEJA_ABROGE = {
@@ -93,8 +95,8 @@ SANS_PORTEUR_MOTIF = {
     '366': 'agrégat de l’état A (ligne 1712) ; la taxe sur les actes des huissiers (302 bis Y) est abrogée par l’article 21 de la loi n° 2019-1479',
     '383': 'redevance domaniale d’utilisation des fréquences (L. 2125-10 du code général de la propriété des personnes publiques), affectée par '
            'L. 241-3, 5° et 6°, du code de la sécurité sociale : l’abrogation de l’un ou de l’autre n’éteint pas la redevance (L. 2125-1 demeure)',
-    '362': 'L. 411-2 du code de la propriété intellectuelle : code absent du dépôt de droit',
-    'N14': 'L. 623-16 du code de la propriété intellectuelle : code absent du dépôt de droit',
+    '362': 'L. 411-2 du code de la propriété intellectuelle (archive LEGI du 20261108) énumère les recettes de l’institut ; les redevances '
+           'sont fixées par voie réglementaire : l’abrogation de l’article retirerait toutes ses ressources sans éteindre une imposition',
     '339': 'article 635 : liste des actes à enregistrer ; l’abroger supprimerait l’enregistrement des mutations que le P1 n° 19 garde à 1 % et 3 %',
     '190': 'n.d. : aucun article au dépôt de droit (millésime 20261105)',
     '290': 'n.d. : aucun article au dépôt de droit (millésime 20261105)',
