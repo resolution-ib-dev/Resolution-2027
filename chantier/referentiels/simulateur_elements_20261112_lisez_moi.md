@@ -197,6 +197,16 @@ Toutes du 20261112, sur la page.
 - **La page s’ouvre sur le régime plein.**
 - **Un signalé discret de ce qu’on laisse**, en bas.
 
+**Règles de lecture transversales, consolidées le 20261117** (consignes de l’auteur des 12 au 17 novembre).
+
+1. **Trois strates au plus** : les cinq grands blocs ; le premier détail (les cartes) ; le petit détail, une ligne à cocher, avec le renvoi vers la pièce qui porte le reste (« pas plus de trois strates : les grands cinq, le premier détail, le petit détail avec liens de doc »). Le détail fin — 505 éléments — reste dans ce référentiel et dans les classeurs ; la page n’en porte que 81 lignes.
+2. **Un intitulé dit « qui : quoi »** : l’administration ou l’échelon, puis ce qui est coupé. L’objet se lit à l’action budgétaire et nomme la dépense finale, jamais le transfert ni l’intitulé de communication.
+3. **Court, une ligne, en mots courants.** Pas de mot-valise flou, pas de répétition d’une ligne à l’autre. « Administration » dit le ministère lui-même quand le reste du libellé est disparate ; « ministère » ne se répète pas dans son propre libellé.
+4. **« Autres » ferme toute liste**, quel que soit son poids.
+5. **Le rangement suit le statut, non la taille** ; l’ordre des cartes d’un bloc est celui de l’auteur — pour les administrations : échelons locaux, agences, ministères, agents publics.
+6. **Une seule dimension par poste local** : par échelon pour le fonctionnement, par objet pour la culture, les loisirs et les agents.
+7. Toujours l’unité (par mois, par an) ; pas de centimes ; pas de décimale de milliard.
+
 ## 7. Ce qui reste fragile ou ouvert
 
 - Le classeur a été corrigé et ajusté le 20261112 : voir le registre, « Le total porté à 236,4 ».
