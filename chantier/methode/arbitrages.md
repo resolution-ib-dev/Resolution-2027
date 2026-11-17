@@ -9101,3 +9101,8 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Exposés de la liasse de crédits : la règle de date et sa raison — 20261116
 
 **Demandé par l’auteur** (« je pense que les modifs avaient un sens, retrouve le »). *Relevé* au registre de calcul, § 1 (R-P, R-S), § 2 et § 7 : une coupe qui atteint des personnes physiques tombe le 1er juillet 2027, mois où commence la baisse des prélèvements sur les revenus d’activité ; une coupe qui n’atteint que des personnes morales, le 1er janvier. **Tranché** (rédaction, révocable) : chaque exposé des 22 amendements de crédits dit la règle et sa raison avant d’énumérer ses dates (`generer_liasse_p2.py`). *Relevé* : 22 exposés sur 22 concordent avec leur dispositif — montants arrondis et nombre de programmes ; quatre contrôles à 0 échec ; liasse rendue en 68 pages, mise en ligne, pages des 39 amendements recalées à `Site-ETNP/site/renvois.json`.
+
+### Flux mensuel par agent rejoué sur le registre à niveau — 20261116
+
+**Exécuté** (demande de l’auteur : « redonne le calendrier récap agent/mois des flux »). Le § 6 du registre de calcul est rejoué depuis le croisé mesure × mois : opérateurs à 4,116 de régime plein, départs d’agents à 30 % tant que l’indemnité court, chèque énergie éteint au 1er janvier. *Relevé* : total 2027 de −15,55 Md€ pour les agents (−22,95 le 15 octobre), agents publics −0,09 (−8,16), opérateurs −4,11 (−3,42) ; le solde tous agents bascule en octobre 2027 ; par exercice, 2028 à 2030 : +29,24 · +5,35 · +1,75. `calendrier_mesures_mois.py controler` compare désormais le § 6 au croisé du jour : 0 échec. **Non rejoués** : § 15, 16 et 17, `suivi_trajectoire_20261015.md`, `flux_par_agent_20261015.md` et son classeur.
+

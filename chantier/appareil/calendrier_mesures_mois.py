@@ -302,6 +302,18 @@ def controler():
                 if e > ea:
                     ea, pire = e, f" ; pire : {a}, {ANNEES[i]}"
     verdict('par agent et par exercice = classeur de flux', 8 * 4, ea, TOL_AN_AGENT, pire)
+    # Le § 6 est rejoué depuis le 20261116 sur le registre à niveau : il se compare
+    # au croisé du jour, non plus aux valeurs antérieures.
+    agents_ant = agents
+    agents = defaultdict(lambda: [0.0] * 48)
+    for c, parts in cle.items():
+        for a, part in parts:
+            for m in range(48):
+                agents[a][m] -= M_jour[c][m] * part
+    for a in list(agents):
+        k = 0.9 if 'transferts' in a else 0.1 if a.startswith('Agents') else 0
+        for m in range(48):
+            agents[a][m] += rest[m] * k
     s6 = lire_tableau('## 6. Projection', '## 7.')
     e6, pire = 0, ''
     for a, v in s6.items():
@@ -314,6 +326,7 @@ def controler():
             if e > e6:
                 e6, pire = e, f" ; pire : {a}, {MOIS[m]}"
     verdict('par agent et par mois de 2027 = § 6', 9 * 12, e6, 0.0101, pire)
+    agents = agents_ant
     # 3. par pan et par trimestre = § 16
     s16 = lire_tableau('## 16. Tableau trimestriel', '**Par exercice**')
     noms = [n for n, _, _ in PAN]
