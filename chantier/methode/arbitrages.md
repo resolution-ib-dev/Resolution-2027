@@ -9106,3 +9106,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Exécuté** (demande de l’auteur : « redonne le calendrier récap agent/mois des flux »). Le § 6 du registre de calcul est rejoué depuis le croisé mesure × mois : opérateurs à 4,116 de régime plein, départs d’agents à 30 % tant que l’indemnité court, chèque énergie éteint au 1er janvier. *Relevé* : total 2027 de −15,55 Md€ pour les agents (−22,95 le 15 octobre), agents publics −0,09 (−8,16), opérateurs −4,11 (−3,42) ; le solde tous agents bascule en octobre 2027 ; par exercice, 2028 à 2030 : +29,24 · +5,35 · +1,75. `calendrier_mesures_mois.py controler` compare désormais le § 6 au croisé du jour : 0 échec. **Non rejoués** : § 15, 16 et 17, `suivi_trajectoire_20261015.md`, `flux_par_agent_20261015.md` et son classeur.
 
+### Flux par agent : agents privés et sphère publique — 20261116
+
+**Validé.** *Règle de l’auteur* : « Collectivités ça ne compte pas c’est le public ! C’est agents privés / sphère publique ». Le flux par agent se lit en deux sphères : agents privés (ménages actifs, ménages sans revenus d’activité, entreprises, associations) et sphère publique (agents publics, opérateurs, collectivités). Le solde qui compte est celui des agents privés. *Exécuté* : registre de calcul § 6, lecture par sphère. **Tranché par le pilotage, révocable** : les agents publics sont rangés à la sphère publique, part de restitution comprise.
+
