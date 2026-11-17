@@ -9,7 +9,7 @@
 
 | pièce | où | état |
 |---|---|---|
-| `Dépenses de l'État.xls`, onglets `SynthèseR`, `Economies R`, `Données PAP 2026` | téléchargée de `france-resolution.fr/donnees/`, 1 543 168 octets, SHA-256 `8a4a08fd…a566dd` | *relevé* ; lue en cache par `xlrd`, jamais réenregistrée. Son identité avec `Site-ETNP/site/donnees/` est **héritée** du pilotage : l'attache du dépôt privé n'a pas abouti dans ce fil |
+| `Dépenses de l'État.xls`, onglets `SynthèseR`, `Economies R`, `Données PAP 2026` | téléchargée de `france-resolution.fr/donnees/`, 1 543 168 octets, SHA-256 `b07c6a47…4e1714` depuis la correction du 20261117 (`8a4a08fd…a566dd` avant) | *relevé* ; lue en cache par `xlrd`, jamais réenregistrée. Son identité avec `Site-ETNP/site/donnees/` est **héritée** du pilotage : l'attache du dépôt privé n'a pas abouti dans ce fil |
 | `Synthèse des chiffrages.xlsx`, onglets `Détail Economies`, `Flux` | même adresse, 344 594 octets, SHA-256 `ac56012f…e64e84a` | *relevé*, même réserve. `Flux!C6` = 129,459 ; `Flux!G6` = 227,445 ; le 236,402 du mandat n'a pas été recherché, il ne sert pas ici |
 | `livrables/registre_calcul_etatB.md`, § 1, 3, 4, 5, 6, 10, 14 | dépôt | *relevé* ; le § 4 est lu par l'outil, 27 lignes |
 | `livrables/suivi_trajectoire_20261015.md`, § 0 et 1 | dépôt | *relevé* ; 27 lignes lues par l'outil |
@@ -76,13 +76,13 @@ Somme des lignes en régime plein contre la cellule de `SynthèseR`, en M€ —
 | Anah, MaPrimeRénov', Ademe, autres opérateurs | 152,910 · 1 333,325 · 921,354 · 3 764,591 | E19, F19, G19, H19 | 0 |
 | Entreprises : travail, audiovisuel, France 2030, autres | 6 902,470 · 3 878,313 · 3 223,795 · 1 149,796 | C25, D25, E25, F25 | 0 |
 | Ménages : APL, AME, emploi service | 16 116,736 · 1 094,670 · 1 062,106 | C31, D31, E31 | 0 |
-| **Ménages : autres** | **1 604,633** | **F31 = 1 820,310** | **−215,678** |
+| Ménages : autres | 1 604,633 | F31 = 1 604,633 (1 820,310 avant le 20261117) | 0 |
 | Associations : APD, hébergement, travail, France 2030, autres | 2 953,202 · 2 454,587 · 2 276,823 · 1 639,971 · 3 244,669 | C37, D37, E37, F37, G37 | 0 |
 
 Trois écarts, tous expliqués :
 
 - **Fonctionnement et investissement** : la formule retire 233 et 51, arrondis de 232,884 et 50,976 (action « Routes – Entretien » du programme 203).
-- **Autres ménages, 215,7 M€** : `SynthèseR!F32` retranche l'AME et l'emploi service **après** leur abattement de 10 % (D31, E31) alors qu'elle part du brut (`S4`). Les 10 % conservés de ces deux postes (121,6 + 118,0 M€) reviennent ainsi dans « Autres », à 90 %. *Déduit* de la formule. **Le classeur fait foi : rien n'est corrigé, le point est rendu au pilotage.**
+- **Autres ménages, 215,7 M€ — corrigé le 20261117** (demande de l'auteur : « corrige l'erreur et propage »). `SynthèseR!F32` retranchait l'AME et l'emploi service après leur abattement de 10 % alors qu'elle partait du brut : les 10 % conservés de ces deux postes revenaient dans « Autres ». La formule devient `=('Economies R'!S4-C31-F20-197,995)*0,9-D31-E31` (`Site-ETNP/outils/retoucher_depenses_menages.py`, mêmes jetons réordonnés, fichier de même taille). *Relevé* : six cellules changent — F32, F31, I7, I6, C7, C6. Le classeur de synthèse portait déjà les bonnes valeurs (chèques aux ménages : 8,4 la première année, 19,9 en régime plein) et ne bouge pas ; la liasse non plus.
 
 ## 5. Les lignes du classeur absentes de la liasse
 
