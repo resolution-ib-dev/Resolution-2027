@@ -169,6 +169,25 @@ def mensualiser(p, traj):
 
 DATE_ANTERIEURE = {'D20': '1er juil.'}
 
+# Incidence des coupes sur les budgets d'agences et de collectivités (auteur, 20261116) :
+# « collocs on a la répart des dépenses et agences on peut faire une classification
+# grossière des plus grosses (entreprises et/ou ménages) et une classification
+# conventionnelle du reste (moitié agent moitié fournisseurs) ». Clé posée, non mesurée.
+MSN, ENT, AGP = 'Ménages actifs — services en nature', 'Entreprises', 'Agents publics'
+CLE_PRIVEE = {
+    # Ademe : aides versées pour l'essentiel à des entreprises
+    'D12': [(ENT, 1.0)],
+    # Autres opérateurs, d'après les agences du simulateur hors audiovisuel, MaPrimeRénov'
+    # et Ademe (7,3 Md€) : logement et moitié de l'eau aux ménages (46 %) ; cinéma,
+    # transports et moitié de l'eau aux entreprises (34 %) ; le reste par convention (20 %)
+    'D16': [(MSN, 0.46), (ENT, 0.44), (AGP, 0.10)],
+    # Audiovisuel public : convention, moitié salariés, moitié fournisseurs
+    'D24': [(AGP, 0.5), (ENT, 0.5)],
+    # Charges courantes locales, par fonction : logement et équipements collectifs aux
+    # ménages (5,28 sur 9,60) ; services généraux par convention
+    'D42': [(MSN, 0.55), (AGP, 0.225), (ENT, 0.225)],
+}
+
 
 PAN = (('Opérateurs', 5, 16), ('Chèques', 18, 22), ('Entreprises', 24, 27), ('Associations', 29, 36),
        ('Charges', 37, 37), ('Départs État', 38, 38), ('Collectivités', 40, 43))
@@ -193,7 +212,8 @@ def construire():
             traj = s5[p['libelle']]
             assert abs(traj[0] - p['an2027']) < 1e-9, (cel, traj[0], p['an2027'])
             v, marche = mensualiser(p, traj)
-            agent = ' + '.join(f"{int(part * 100)} % {a}" if part != 1 else a for a, part in cle[cel])
+            parts = CLE_PRIVEE.get(cel, cle[cel])
+            agent = ' + '.join(f"{part * 100:g} % {a}".replace('.', ',') if part != 1 else a for a, part in parts)
             perim = 'hors état B de l’État' if 'hors état B' in p['programme'] else 'État'
             w.writerow([cel, p['libelle'], pan(cel), agent, perim, p['F'], p['socle'], p['F_net'], p['rythme'],
                         p['date'], p['fraction'], marche, p['programme'],
@@ -307,7 +327,7 @@ def controler():
     agents_ant = agents
     agents = defaultdict(lambda: [0.0] * 48)
     for c, parts in cle.items():
-        for a, part in parts:
+        for a, part in CLE_PRIVEE.get(c, parts):
             for m in range(48):
                 agents[a][m] -= M_jour[c][m] * part
     for a in list(agents):
