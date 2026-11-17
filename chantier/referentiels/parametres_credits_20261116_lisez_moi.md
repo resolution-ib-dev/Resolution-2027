@@ -1,6 +1,6 @@
 # Paramètres de la liasse de crédits — note de lecture, 20261116
 
-**Fichier** : `referentiels/parametres_credits_20261116.tsv` — 285 lignes, 62 colonnes, tabulations, UTF-8.
+**Fichier** : `referentiels/parametres_credits_20261116.tsv` — 296 lignes et 81 colonnes depuis le 20261117 (§ 8) ; 285 lignes et 62 colonnes à l'origine. Tabulations, UTF-8.
 **Produit par** : `python3 appareil/controle_liasse_classeurs.py construire <Dépenses de l'État.xls> <Synthèse des chiffrages.xlsx>`. Rien n'y est saisi à la main.
 **Rejoué par** : `python3 appareil/controle_liasse_classeurs.py controler` (TSV et liasse seuls, sans classeur).
 **Mandat** : pilotage, 20261116, chantiers n° 3 et 5. Aucun amendement n'est modifié.
@@ -119,3 +119,12 @@ Le fichier passe à **81 colonnes** ; les 62 premières gardent leur sens. Les 1
 **Tranché par le pilotage le 20261116, révocable** : le classeur ne garde la main que sur le brut et le taux ; le rythme et la date sont ceux du § 4 du registre. `cible_mixte_*` (rythme du classeur) reste au fichier pour mémoire : la liasse ne la suit plus.
 
 Les colonnes `liasse_*`, `amendement` et `adresse_liasse` décrivent la liasse **en place au moment de la construction**, sous l'ancienne règle de reconstitution : elles ne servent plus qu'aux cibles `classeur`, `registre`, `mixte` et `liasse` du contrôle.
+
+## 8. Les liasses sur mesure — table reconstruite le 20261117
+
+**296 lignes, 81 colonnes** ; 261 lignes retenues dans un amendement de mission, 35 hors liasse. *Relevé* à la reconstruction ; la colonne `n` est renumérotée (onze lignes insérées dans l'ordre du PAP).
+
+- **Catégorie 22, 11 lignes ajoutées** (1 995 722 820 € bruts) : cotisations de l'employeur des programmes hors périmètre essentiel. Poste à part, « Cotisations employeur — suit le sort des salaires » : `SynthèseR!D6` ne compte que les catégories 21 et 23 et la preuve du § 4 ne bouge pas. Règle : celle du titre 2 (0,90 × 6/12 × 0,30), d'après l'onglet « Mesure » du classeur de suivi, ligne 41. *Tranché par le pilotage, révocable.*
+- **« En 3 ans », 10 lignes** : `retenu` passe à « oui » pour les huit lignes du budget général (taux 1, rythme ⅓, date et fraction de la ligne du § 4). Les deux lignes du compte d'affectation spéciale « Développement agricole et rural » (775, 776) restent hors liasse : état D.
+- **Programme 162** : `amendement_mission` = 40, mission « Outre-mer ». Une mission sans amendement prend le numéro qui suit le dernier de la liasse ; aucun numéro en place ne change.
+- Les colonnes `liasse_*` et les cibles `classeur`, `registre`, `mixte` et `liasse` décrivent toujours l'ancienne règle ; la catégorie 22 n'y entre pas.
