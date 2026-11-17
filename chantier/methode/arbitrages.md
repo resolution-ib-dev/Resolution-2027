@@ -9153,3 +9153,8 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Refonte : le registre n'en date qu'une partie — 20261117
 
 **Constaté.** Lignes datées (solde des niches, TVA, taxe sur les salaires, suppressions du tri) : +4,11 · +7,22 · +15,24 · +16,87 Md€. Manquent, en régime plein au classeur : +25,69 d'impôt sur les sociétés au taux unique, +42,06 de taxe foncière unique, −86,57 d'impôts supprimés, +7,10 de gisements. La refonte ne se ferme sur aucun exercice tant que ces lignes n'ont ni date ni produit annuel.
+
+### Calendrier : patrimoine et refonte fiscale à part ; le calendrier est interne — 20261117
+
+**Validé.** *Réponse de l’auteur* : « ok pour stock à part, mais refonte fiscale aussi a toutes ses dates et devrait pouvoir être fait à part. le calendrier c’est pour nous, le site c’est juste les liasses ! ». Le compte des flux se tient en trois comptes séparés : le circuit de restitution (coupes, niches, baisse de CSG, épargne rendue) ; le patrimoine rendu, transfert de stock, hors compte de flux ; la refonte fiscale, à ses propres dates. Le calendrier est un outil interne : aucune page du site. Le site ne porte que les liasses. **Caduc** : la « page calendrier sur le site » inscrite au tableau de bord.
+
