@@ -22,6 +22,8 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 
 **Une question déjà tranchée ne se repose jamais : elle s'applique** (règle du 20261117, après cinq questions reposées à tort).
 
+**Toute réponse se vérifie sur pièce, au niveau de détail disponible** : classeurs annexes du site (Excel) et tablettes du dépôt (référentiels, registre de calcul, calendrier). Pour « où est X » : ligne de X dans le classeur → programme → sort du programme dans Economies R (périmètre essentiel, colonnes « à arrêter ») → composition réelle de la ligne du simulateur (`outils/restitution.py`). Sans la chaîne entière, la réponse dit « non vérifié » ; jamais de déduction par analogie présentée comme un constat (règle du 20261118, après l'erreur sur le Centre Pompidou).
+
 | sujet | décision de l'auteur | date |
 |---|---|---|
 | Ce qui fait foi | les classeurs du site, pour montants et taux ; le travail par mesure et par mois (registre de calcul), pour dates et rythmes | 20261116 |
