@@ -9290,3 +9290,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Simulateur : « Conservé » et « Arrêté » au lieu de « Prudence » — 20261118
 
 **Demandé par l’auteur** (20261118). **Exécuté, à valider.** Le seuil gardé est un contexte, pas le contenu principal : il passe au second rang, après « Comprend » et avant « Classeur ». « Prudence » dit l’intention, pas le sort de la dépense : remplacé par « Conservé. » (part gardée) et « Arrêté. » (ce qui s’arrête, avec le rythme ou la date du calendrier par mesure : en trois ans ; 1er janvier ou 1er juillet 2027). Les lignes supprimées sans reste reçoivent leur date (chèque énergie, chambres consulaires, autres aides aux entreprises, associations). Aucun montant ne change.
+
+### Simulateur : « À arrêter » en tête, « Conservé » ensuite — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Remplace l’entrée précédente. La liste des actions coupées s’ouvre par « À arrêter. » (« Comprend » ne marche pas) ; « À arrêter, en trois ans. » quand toute la ligne s’éteint sur trois ans (rythme ⅓ du calendrier par mesure). « Conservé. » suit, puis le classeur. La mention « Arrêté » et les dates sont retirées : le principe compte. La carte Entreprises garde « État et collectivités ». Aucun montant ne change.
