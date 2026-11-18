@@ -9326,3 +9326,11 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Simulateur : saisie du salaire, noms directs, socle en clair — 20261118
 
 **Demandé par l’auteur** (20261118). **Exécuté, à valider.** Saisie : « Votre salaire net avant impôt sur le revenu », et en petit la ligne « Net à payer avant impôt sur le revenu » de la fiche de paie (arrêté du 25 février 2016 modifié). Listes « À arrêter » en noms directs : libellés du PAP rendus en mots courants, sigles et sorts d’agence retirés sauf la vente de l’audiovisuel public, modalités rassurantes gardées. Socle : « 10 % des crédits, toujours versés ». Cartes : « Aujourd’hui » et le premier paragraphe de « Demain », renvoi à la carte.
+
+### Plan de départ (n° 26) : vingt-quatre mois plus un mois par trimestre — 20261118
+
+**Demandé par l’auteur** (20261118 : « b pour les agents »). **Exécuté.** C du II : vingt-quatre mois, plus un mois par trimestre de services, au plus quatre-vingt-quatre mois (atteints à quinze ans de services), plafond à la retraite sans décote inchangé. L’exposé dit désormais sans réserve d’ancienneté que le droit dépasse, à assiette égale et jusqu’à cinquante-neuf ans, le licenciement économique, le maximum de L. 1235-3 et le départ volontaire.
+
+### Simulateur : même schéma pour l’investissement, sport, hôpitaux, cartes courtes — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Ademe, agences de l’eau, Action Logement, MaPrimeRénov’ : « engagements en cours payés » ; France 2030, aide au développement, aides locales aux entreprises, administrations (investissement) : « Plus d’engagement nouveau ; ceux en cours sont payés ». Les Jeux ne sont plus nommés : « Sport » regroupe le comité d’organisation et le sport de haut niveau. Fonds européens de santé : « Modernisation des hôpitaux, des Ehpad et du numérique en santé ». Cartes du simulateur réécrites en deux phrases directes, tirées des cartes complètes, qui restent en renvoi.
