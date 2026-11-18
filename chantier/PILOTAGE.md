@@ -45,6 +45,8 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 | Curseur au-delà de 100 % | non : les arrêts « En 3 ans » sont hors restitution salariale par construction du classeur ; les compter doublerait leur usage | 20261118, recommandation du pilotage |
 | Accueil à 25 % | page d'essai `accueil-25.html`, non liée, non indexée ; l'accueil reste à 600 € | 20261118 |
 | Carte Entreprises (subventions) | garde « État et collectivités » | 20261118 |
+| Jeux olympiques | jamais nommés dans le simulateur : « Sport » | redit le 20261118 |
+| Investissement et engagements pluriannuels | un seul schéma : plus d’engagement nouveau, ceux en cours payés (Ademe, agences de l’eau, France 2030…) | 20261118 |
 | Simulateur, lecture | trois strates ; « qui : quoi », dépense finale lue à l'action ; « administration » pour le ministère lui-même ; « Autres » en fin de liste ; ordre échelons, agences, ministères, agents ; agents liés aux structures | 20261117 |
 | Simulateur, montants | patrimoine à 3 %, 18 Md€, à part du compte de flux ; 600 € à 2 400 € nets ; chômage en deux lignes ; niches par sujet | 20261116-17 |
 | Agriculture | « administration, guichets d'aides » | 20261117 |
@@ -59,7 +61,7 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 
 ## Constats à traiter par le pilotage, sans question
 
-- Départs d'agents : 30 % tant que l'indemnité court (six mois plus un mois par trimestre de services, deux années au moins, sept années au plus, plafonnée à la retraite sans décote, amendement n° 26, règle arrêtée par l'auteure le 20261118), la ligne entière à terme, dans les 236 (auteur, 20261116). Le flux mensuel par agent (§ 6) est rejoué ; restent à rejouer les § 15, 16, 17 et le classeur de flux.
+- Départs d'agents : 30 % tant que l'indemnité court (vingt-quatre mois plus un mois par trimestre de services, sept années au plus, plafonnée à la retraite sans décote, amendement n° 26, règle arrêtée par l'auteure le 20261118), la ligne entière à terme, dans les 236 (auteur, 20261116). Le flux mensuel par agent (§ 6) est rejoué ; restent à rejouer les § 15, 16, 17 et le classeur de flux.
 
 - 59 lignes arrêtées par le classeur et absentes de la liasse, dont France 2030 et l'audiovisuel public.
 - Le § 4 du registre de calcul garde 20 % de socle sur le fonctionnement ; la décision du 16 novembre est 85 % hors entretien des routes.
