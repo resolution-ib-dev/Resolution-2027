@@ -419,8 +419,8 @@ SOURCES = {
         'source': "classeur Synthèse Calculs Résolution 0819, onglet Manifeste, "
                   "ligne 3 pour les dépenses et ligne 24 pour les niches",
         'millesime': '2026',
-        'note': "184,30 Md€ de baisses de dépenses et 52,1 Md€ de niches "
-                "restituées font 236,40. Le gain d'année 1 est de 77,36 Md€, "
+        'note': "184,25 Md€ de baisses de dépenses et 52,1 Md€ de niches "
+                "restituées font 236,35. Le gain d'année 1 est de 77,36 Md€, "
                 "le reste venant en année pleine.",
     },
     'R-D8-3-1-e2': {
@@ -844,12 +844,12 @@ CALCULS = [
      'expression': '2.5 + 1.1', 'attendu': 3.6},
     {'unite': 'Md€', 'tolerance': 0.06,
      'objet': "les 236 Md€ : baisses de dépenses et niches restituées",
-     'expression': '184.30 + 52.1', 'attendu': 236.40},
+     'expression': '184.25 + 52.1', 'attendu': 236.35},
     {'unite': 'Md€', 'tolerance': 0.01,
      'objet': "les 184 Md€ de baisses de dépenses : État et agences, "
               "collectivités, assurance chômage, rendement du patrimoine cédé "
               "— **c'est ici que les 29,6 Md€ de chômage entrent dans les 236**",
-     'expression': '83.8257 + 53.2743 + 29.6 + 17.6022', 'attendu': 184.3022},
+     'expression': '83.8257 + 53.2743 + 29.6 + 17.5527', 'attendu': 184.2527},
     {'unite': 'Md€', 'tolerance': 0.05,
      'objet': "niches fiscales : gain direct restituable et gains compensés",
      'expression': '52.1 + 91.1', 'attendu': 143.2},

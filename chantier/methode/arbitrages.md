@@ -9265,3 +9265,9 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Constaté, rendu à l’auteur** : la note e118 du livre annonce un socle de 15 % et une décote de 15 % sur 340 Md€ d’actif net, « soit environ 200 Md€ » ; ces deux taux donnent 246 Md€. Les 200 Md€ sont ceux du classeur : un tiers gardé et une décote de 10 %, 341 × 2/3 × 0,9 = 205 Md€ (`Input Capitalisation`, C13 et C14).
 
+### Logement social : 30 % du parc gardé, 15 % de décote — 20261118
+
+**Validé.** *Réponse de l’auteur* : « ok gardons le classeur par défaut. on pourrait faire le classeur avec 15 % de décote et XX ? », puis « a, go » sur la proposition de 30 % gardé. *Exécuté* : `Synthèse des chiffrages.xlsx`, `Input Capitalisation`, C13 `=C20*0.7*0.85` et C14 `=(L27-C20)*0.7*0.85` (un tiers gardé et 10 % de décote auparavant) ; recalcul par LibreOffice, neuf cellules changent. *Relevé* : logement social 203,2 Md€ (204,9) ; stock rendu 605,3 Md€ (607,0) ; rendement 17,55 Md€ (17,60) ; total 236,353 Md€ (236,402) — 236 en diffusion, inchangé. **Propagé** : page d’onglet du site ; simulateur, parc gardé à 30 % par défaut, décote de 15 % dite, 600 € à 2 400 € nets et 8 800 € par personne inchangés ; `REF_doctrine`, `sources_chiffres.py`, `controle_arithmetique.py` (0 échec), paramètres du compte complet (0 échec).
+
+**À reporter au livre, par l’auteur** — note e118, phrase proposée : « La valorisation prend pour hypothèse prudente un socle de 30 % conservé et une décote de liquidité de 15 %. Soit environ 200 Md€ de produits de cession à restituer sur ces logements […] ». Le manuscrit ne se corrige pas depuis l’aval.
+
