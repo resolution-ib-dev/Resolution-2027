@@ -1405,7 +1405,7 @@ B. – L’assiette de l’indemnité est le traitement indiciaire brut afféren
 
 Un décret fixe cette part pour chacune des trois catégories mentionnées à l’article L. 411-2 du même code. Les parts ainsi fixées sont décroissantes de la catégorie C à la catégorie A et chacune demeure au plus égale au quart du traitement indiciaire brut mentionné au premier alinéa du présent B. À défaut de décret, cette part est nulle et l’assiette est le seul traitement indiciaire brut.
 
-C. – L’indemnité est due à compter de la radiation des cadres. Sa durée est de six mois, augmentée d’un mois par trimestre de services publics effectifs accomplis par le bénéficiaire à la date de sa radiation des cadres. Elle est au plus égale à quatre-vingt-quatre mois.
+C. – L’indemnité est due à compter de la radiation des cadres. Sa durée est de six mois, augmentée d’un mois par trimestre de services publics effectifs accomplis par le bénéficiaire à la date de sa radiation des cadres. Elle est au moins égale à vingt-quatre mois et au plus égale à quatre-vingt-quatre mois.
 
 Les services publics effectifs s’entendent des services accomplis en qualité de fonctionnaire en position d’activité ou de détachement, des services accomplis en qualité d’agent contractuel de droit public auprès d’un employeur mentionné à l’article L. 2 du code général de la fonction publique et des services militaires. Les services accomplis à temps partiel sont comptés pour la totalité de leur durée. Le nombre de trimestres est égal au nombre de mois de services ainsi comptés divisé par trois et arrondi à l’entier inférieur.
 
@@ -1419,9 +1419,11 @@ B. – Le service de l’indemnité est suspendu pendant la durée d’un emploi
 
 C. – Le montant mensuel de l’indemnité demeure au plus égal au traitement indiciaire brut mentionné au premier alinéa du B du II. Un décret en Conseil d’État peut fixer un montant mensuel minimal.
 
-D. – Le service de l’indemnité cesse à la date d’admission à la retraite de son bénéficiaire mentionnée au 5° de l’article L. 550-1 du code général de la fonction publique ou à son décès. Il cesse en tout état de cause à la date mentionnée au troisième alinéa du C du II, y compris lorsqu’il a été suspendu en application du B du présent III.
+D. – Le service de l’indemnité cesse à la date d’entrée en jouissance d’une pension de retraite de droit direct de son bénéficiaire ou à son décès. Il cesse en tout état de cause à la date mentionnée au troisième alinéa du C du II, y compris lorsqu’il a été suspendu en application du B du présent III.
 
 E. – L’indemnité est liquidée et versée par l’administration qui employait son bénéficiaire à la date de la suppression de l’emploi. Le bénéficiaire déclare à cette administration tout emploi rémunéré par une personne publique qu’il occupe. Un décret en Conseil d’État peut fixer les autres modalités de liquidation et de versement ainsi que les autres obligations déclaratives.
+
+F. – Pour l’application du 2° de l’article L. 351-3 du code de la sécurité sociale, l’indemnité est regardée comme un revenu de remplacement mentionné à l’article L. 5421-2 du code du travail, dans la limite de la durée pendant laquelle l’allocation d’assurance mentionnée au D du I aurait été servie à son bénéficiaire.
 
 **IV.**
 
@@ -1507,25 +1509,19 @@ D. – Le Gouvernement remet au Parlement, chaque année jusqu’en 2035, un rap
 
 EXPOSÉ SOMMAIRE
 
-Le contribuable paie aujourd’hui le traitement d’agents dont la Nation n’a plus la mission. Il le paie sans terme, parce que le droit en vigueur n’en prévoit aucun. Le code organise l’affectation sur un emploi vacant, la priorité de mutation ou de détachement et l’accompagnement, puis il s’arrête. Lorsque la mission a disparu et qu’aucun emploi vacant ne correspond, aucune de ces voies ne peut jouer et l’emploi supprimé reste payé.
+Cet amendement indemnise jusqu’à sept ans le fonctionnaire de l’État dont l’emploi est supprimé.
 
-Le code a pourtant écrit la sortie. Le licenciement est ouvert, dans la fonction publique de l’État, « en vertu de dispositions législatives de dégagement des cadres prévoyant soit le reclassement des fonctionnaires intéressés, soit leur indemnisation »¹. Cette habilitation est en vigueur depuis le 1er mars 2022 et elle n’a jamais reçu sa loi. Le présent article est cette loi.
+Un fonctionnaire dont la mission disparaît garde son emploi et son traitement, sans tâche et sans terme. Le code général de la fonction publique a pourtant prévu sa sortie : il ouvre le licenciement « en vertu de dispositions législatives de dégagement des cadres prévoyant soit le reclassement des fonctionnaires intéressés, soit leur indemnisation »¹. Cette habilitation attend sa loi depuis le 1er mars 2022.
 
-**Ce qu’il donne.** Un droit chiffré dans la loi même : 70 % de l’assiette, pendant six mois augmentés d’un mois par trimestre de services, soit sept années au plus, atteintes après dix-neuf ans et demi de services. L’indemnité s’arrête au plus tard à la date à laquelle l’agent peut partir à la retraite sans décote² : elle conduit l’agent le plus âgé jusqu’à sa retraite et jamais au-delà. À partir de cinq ans de services, ce droit dépasse l’indemnité légale de licenciement et l’allocation chômage du salarié licencié pour motif économique, comme l’indemnité de départ volontaire ou de rupture conventionnelle de la fonction publique. À partir de huit ans, il dépasse aussi le maximum du barème que l’article L. 1235-3 du code du travail impose au juge pour un licenciement sans cause réelle et sérieuse³. L’indemnité se cumule intégralement avec les revenus d’une activité privée, sans réduction ni plafond de ressources : l’agent qui retrouve un emploi hors de la sphère publique y gagne et l’État y gagne avec lui. Un emploi sous contrat à durée indéterminée est proposé chaque fois qu’il est identifié, à une rémunération au moins égale au dernier traitement, et le premier refus laisse l’indemnité entière.
+Le présent article donne cette loi et ouvre à l’agent un droit écrit. L’administration lui propose d’abord un emploi à durée indéterminée, payé au moins à son dernier traitement. À défaut, il perçoit 70 % de son traitement pendant six mois, plus un mois par trimestre de services, jamais moins de deux ans, jusqu’à sept ans et au plus tard jusqu’à sa retraite sans décote². Ces mois comptent pour sa retraite, comme le chômage qu’ils remplacent. Il garde l’indemnité entière s’il travaille dans le privé. À assiette égale et jusqu’à cinquante-neuf ans, ce droit dépasse à toute ancienneté l’indemnité de licenciement et l’allocation chômage du salarié, comme le départ volontaire dans la fonction publique. À partir de huit ans de services, il dépasse aussi le maximum que l’article L. 1235-3 du code du travail permet au juge d’accorder pour un licenciement sans cause réelle et sérieuse³. En clair : l’agent part avec un revenu sûr et reste libre de travailler aussitôt ailleurs.
 
-**Ce qu’il coûte et à quoi il se substitue.** La dépense créée est de l’année et des années ultérieures. Elle remplace une charge déjà écrite au droit positif : le fonctionnaire licencié pour suppression d’emploi est en privation involontaire d’emploi au sens de l’article L. 5424-1 du code du travail, il a droit de plein droit à une allocation d’assurance et l’État en est le débiteur direct, l’article L. 5424-2 ne lui ouvrant pas l’adhésion au régime⁴. L’article ne crée pas une dépense à côté du droit commun, il substitue une charge bornée à une charge ouverte. Cette charge n’est ouverte nulle part ailleurs parce qu’elle n’a pas à l’être : l’indemnité est servie sur la masse salariale même des emplois supprimés et son montant demeure inférieur aux traitements qu’elle remplace, le taux du A du II étant de 70 % d’une assiette elle-même bornée par le B du même II. C’est pour cela que les amendements de crédits de personnel minorent le titre 2 d’un montant net de cette indemnité et non du montant entier des traitements économisés.
-
-**Pourquoi il est à sa place.** La loi de finances fixe, par ministère et par budget annexe, le plafond des autorisations d’emplois et le II de l’article 34 de la loi organique du 1er août 2001 fait de cette fixation une matière obligatoire⁵. La minoration de ces plafonds est donc un acte que le véhicule financier doit porter. Le présent article dit l’effet de cette minoration sur les emplois et il institue la charge qui en découle, ce que le b du 7° du II du même article 34 admet expressément pour les dépenses « soit de l’année ; soit de l’année et d’une ou de plusieurs années ultérieures ». Deux portes mordent ensemble, la charge et le plafond d’emplois.
-
-**Et le précédent est constant.** Une loi de finances a institué une indemnité d’agents publics⁶, majoré un traitement⁷, modifié les lois statutaires⁸ et modifié le code général de la fonction publique lui-même⁹, sous une rubrique que la loi de finances pour 2025 intitule « Transformation et fonction publiques ». La décision qui a censuré neuf cavaliers dans cette loi a laissé cet article debout¹⁰.
-
-**Le raisonnement par l’absurde clôt le débat.** Le Parlement peut supprimer un service. Il doit fixer le plafond des emplois. Il peut donc le minorer. Mais si la minoration ne peut produire aucun effet sur les emplois qu’elle supprime, alors la dépense demeure, le plafond baisse sur le papier et le vote n’a atteint que la nomenclature. Un Parlement qui peut supprimer un service sans pouvoir en tirer la conséquence sur les emplois qui le servaient ne vote qu’un budget nominal.
+L’indemnité remplace l’allocation chômage que l’État doit déjà au fonctionnaire licencié⁴. Elle reste inférieure au traitement qu’elle remplace : les crédits de personnel baissent de l’économie nette. La loi de finances fixe le plafond des emplois de l’État et peut instituer une charge de plusieurs années⁵. Des lois de finances ont déjà institué une indemnité d’agents publics⁶ et modifié le code général de la fonction publique⁷, disposition que le Conseil constitutionnel a laissée en place⁸. Un plafond d’emplois plus bas produit ainsi son plein effet. L’agent part avec un droit supérieur à celui du salarié. Le contribuable cesse de payer une mission abandonnée.
 
 ¹ Code général de la fonction publique, article L. 553-1, 4° (LEGIARTI000044425184, version applicable depuis le 2022-03-01).
 
 ² Code des pensions civiles et militaires de retraite, articles L. 14 (LEGIARTI000048844775, version applicable depuis le 2023-12-31) et L. 14 bis (LEGIARTI000053280913, version applicable depuis le 2025-12-31) · code de la sécurité sociale, articles L. 161-17-2 (LEGIARTI000053280889) et L. 161-17-3 (LEGIARTI000053280903), versions applicables depuis le 2025-12-31. Pour le fonctionnaire civil, l’âge d’annulation de la décote est l’âge d’ouverture du droit augmenté de trois années.
 
-³ Comparaison en mois de rémunération brute, l’indemnité comptée à 70 % d’une assiette supposée égale à cette rémunération, pour un agent de 45 ou de 58 ans. Code du travail, articles L. 1234-9 (LEGIARTI000035644154), R. 1234-2 (LEGIARTI000035644692) et L. 1235-3 (LEGIARTI000036762052). Allocation d’aide au retour à l’emploi à 57 % du salaire journalier de référence, servie 18 mois avant 55 ans et 27 mois à partir de 57 ans (Unédic, « Paramètres utiles », juillet 2026). Indemnité de départ volontaire : un douzième de la rémunération brute annuelle par année de service, vingt-quatre années au plus (décret n° 2008-368 du 17 avril 2008). Indemnité spécifique de rupture conventionnelle : un vingt-quatrième de la rémunération brute annuelle par année, vingt-quatre années au plus (décret n° 2019-1596 du 31 décembre 2019, modifié par le décret n° 2026-746 du 6 août 2026), suivie de l’allocation chômage servie 15 mois avant 55 ans et 20,5 mois ensuite (loi n° 2026-470 du 11 juin 2026).
+³ Comparaison en mois de rémunération brute, l’indemnité comptée à 70 % d’une assiette supposée égale à cette rémunération, calculée pour des agents de 45 et de 58 ans ayant de deux à trente ans de services. De 57 à 59 ans, les durées d’allocation chômage sont celles de 58 ans. Code du travail, articles L. 1234-9 (LEGIARTI000035644154), R. 1234-2 (LEGIARTI000035644692) et L. 1235-3 (LEGIARTI000036762052). Allocation d’aide au retour à l’emploi à 57 % du salaire journalier de référence, servie 18 mois avant 55 ans et 27 mois à partir de 57 ans (Unédic, « Paramètres utiles », juillet 2026). Indemnité de départ volontaire : un douzième de la rémunération brute annuelle par année de service, vingt-quatre années au plus (décret n° 2008-368 du 17 avril 2008). Indemnité spécifique de rupture conventionnelle : un vingt-quatrième de la rémunération brute annuelle par année, vingt-quatre années au plus (décret n° 2019-1596 du 31 décembre 2019, modifié par le décret n° 2026-746 du 6 août 2026), suivie de l’allocation chômage servie 15 mois avant 55 ans et 20,5 mois ensuite (loi n° 2026-470 du 11 juin 2026).
 
 ⁴ Code du travail, articles L. 5424-1 (LEGIARTI000038951954) et L. 5424-2 (LEGIARTI000048600589).
 
@@ -1533,13 +1529,9 @@ Le code a pourtant écrit la sortie. Le licenciement est ouvert, dans la fonctio
 
 ⁶ Article 113 de la loi n° 2017-1837 du 30 décembre 2017 de finances pour 2018 (LEGIARTI000036377692).
 
-⁷ Article 178 de la loi n° 2021-1900 du 30 décembre 2021 de finances pour 2022.
+⁷ Article 189 de la loi n° 2025-127 du 14 février 2025 de finances pour 2025 (LEGIARTI000051173247).
 
-⁸ Article 148 de la loi n° 2015-1785 du 29 décembre 2015 de finances pour 2016.
-
-⁹ Article 189 de la loi n° 2025-127 du 14 février 2025 de finances pour 2025 (LEGIARTI000051173247).
-
-¹⁰ Décision n° 2025-874 DC du 13 février 2025.
+⁸ Décision n° 2025-874 DC du 13 février 2025.
 
 ---
 

@@ -225,7 +225,7 @@ Marches au 1er juillet de chaque exercice pour les lignes à sortie en trois ans
 
 ⚐ **Départs d'agents, D38 et D43.** *Validé — réponse de l'auteur du 20261116, relevée à `methode/arbitrages.md`* : « dans les 236 c'est tout dont acte, en salaire net en un an c'est 30 % ». Le régime plein compte la ligne entière, 3,0 et 19,864 ; la première année compte 30 %, tant que 70 % du traitement est maintenu. Le tableau comptait la ligne entière dès le 1er juillet 2027.
 
-**Le moment où une ligne passe de 30 % au plein n'est fixé par aucune pièce.** *Relevé* : l'indemnité dure de six mois à sept années, un mois par trimestre de services, plafonnée à la retraite sans décote (liasse P2, amendement n° 26, C du II, réécrit le 20261118) ; la répartition des agents par ancienneté n'est dans aucune pièce du chantier ; le classeur écrit « à horizon 1 an » et « solde », sans date par ligne ; sa note de bloc `Détail Economies`!G3 dit des économies de l'État : « Effets pleins à horizon estimé à 3 ans », estimation que l'indemnité, due jusqu'à sept ans, dépasse. *Tranché en propre, révocable* : la trajectoire garde 30 % sur toute la fenêtre 2027-2030 et porte les 70 % restants, **16,00 Md€**, « à terme », hors fenêtre. Chaque exercice où les deux lignes seraient comptées en entier ajouterait 16,00 Md€.
+**Le moment où une ligne passe de 30 % au plein n'est fixé par aucune pièce.** *Relevé* : l'indemnité dure six mois plus un mois par trimestre de services, deux années au moins, sept années au plus, plafonnée à la retraite sans décote (liasse P2, amendement n° 26, C du II, règle arrêtée par l'auteure le 20261118) ; la répartition des agents par ancienneté n'est dans aucune pièce du chantier ; le classeur écrit « à horizon 1 an » et « solde », sans date par ligne ; sa note de bloc `Détail Economies`!G3 dit des économies de l'État : « Effets pleins à horizon estimé à 3 ans », estimation que l'indemnité, due jusqu'à sept ans, dépasse. *Tranché en propre, révocable* : la trajectoire garde 30 % sur toute la fenêtre 2027-2030 et porte les 70 % restants, **16,00 Md€**, « à terme », hors fenêtre. Chaque exercice où les deux lignes seraient comptées en entier ajouterait 16,00 Md€.
 
 Valeurs antérieures, pour la trace ; elles ne font plus foi.
 
@@ -270,6 +270,49 @@ Valeurs antérieures, pour la trace ; elles ne font plus foi.
 D16, D19, D29, D37 et D38 redonnent F une fois le socle retiré de l'annexe : **F est net**. D15 redonne F sans retrait : **F est brut** et le socle s'y applique, comme au 20261008. D5, D6 et D12 sont nets par la note de bloc `Détail Economies`!G4 (« hors éducation et 10 % socle »), que D16 confirme sur l'annexe ; D40 et D43 par leur propre note G. **Contrôle mécanique, `w/chaineA.py`, avec jeu de fautes.**
 
 **Le point dur de la trajectoire reste 2028, et il est de calendrier, non de montant.** La restitution passe en régime plein dès janvier 2028 — 114,46 Md€ — quand les coupes sont à 100,05. **Le besoin de financement de l'exercice est de 14,4 Md€ en mesure, et non plus 21,6** : la correction du double socle en retire 7,2. Il se referme en 2029. Avec les rythmes de TVA et de taxe sur les salaires déjà portés à la liasse, il tombe à **11,4 Md€** (§ 17). La restitution ne s'étale pas (arbitrage du 20261009) : restent les sorties en trois ans et les rythmes de TVA et de taxe sur les salaires, chiffrés au § 17.
+
+---
+
+## 5 bis. Trajectoire en dépense réelle — restes à payer (20261118)
+
+⚐ **Retenu par l'auteure comme hypothèse centrale** (20261118, « 1 a ») **pour la trésorerie et le compte complet.** **La trajectoire en mesure du § 5 reste la base des liasses** : un amendement de crédits porte la mesure, et le croisé `referentiels/calendrier_mesures_mois_20261116.tsv` ne change pas. Le § 5 bis compte ce que les privés cessent effectivement de recevoir, une fois réglés les engagements déjà pris (R-R). *Calculé* par `appareil/restes_a_payer.py`, table `referentiels/restes_a_payer_20261118.tsv`, méthode et hypothèses ligne à ligne à `methode/etats/RESTES_a_payer_20261118.md`. Les pistes de modulation de la note **ne sont pas retenues**.
+
+Md€. Fourchette : borne basse des restes à payer ; borne haute.
+
+| | 2027 | 2028 | 2029 | 2030 |
+|---|---:|---:|---:|---:|
+| Coupes en mesure (§ 5) | 57,47 | 89,49 | 109,11 | 112,71 |
+| restes à payer — État | 4,08 | 3,11 | 1,78 | 0,81 |
+| restes à payer — agences | 2,32 | 2,62 | 1,76 | 0,67 |
+| restes à payer — collectivités | 5,08 | 1,58 | 0,90 | 0,19 |
+| **Coupes en dépense réelle** | **46,00** | **82,18** | **104,66** | **111,04** |
+| fourchette | 51,33 à 38,79 | 87,32 à 75,22 | 107,81 à 99,94 | 112,29 à 108,62 |
+| Restitution (§ 2) | 33,39 | 114,46 | 114,46 | 114,46 |
+| **Solde en dépense réelle** | **+12,61** | **−32,28** | **−9,80** | **−3,42** |
+| fourchette | +17,94 à +5,40 | −27,14 à −39,24 | −6,65 à −14,52 | −2,17 à −5,84 |
+| *solde en mesure (§ 5)* | *+24,08* | *−24,97* | *−5,35* | *−1,75* |
+
+Le croisé donne 57,47 en 2027 contre 57,46 au § 5 : arrondi des lignes. Rien n'est perdu : 24,90 Md€ glissent dans la fenêtre et 3,02 en sortent après 2030.
+
+**La règle, par nature et par famille d'entité.** Une marche de la mesure ouvre une tranche ; pendant sa k-ième année, la tranche garde une part **r^k** de la dépense antérieure (forme *posée* : profil de décaissement géométrique ; la première année redonne la chaîne du § 1).
+
+| famille | lignes | r, première année | statut |
+|---|---|---|---|
+| titre 2 ; cat. 61, guichet et chèques | D18, D19, D20, D22, D38, D43 | 0 : effet immédiat | relevé (§ 3 ; pièces 2.6 « aucune marge de reste à payer » ; D20 : restes de la campagne 2026 déjà dans la mesure) |
+| État, cat. 62 | D25, D27 ; D32 pour 43 % | 0,20 | relevé (§ 3) ; poids de D32 déduit des AE cibles |
+| État, fonctionnement et investissement | D37 : cat. 31 pour 65 %, titre 5 pour 35 % | 0,15 et 0,80 | relevé (§ 3) ; poids déduits |
+| France 2030 | D26, D33 | rien en 2027, puis 0,20 | relevé (§ 15 : AE 2027 nulles) |
+| associations | D31, D34, D35, D36 · D30 · D29 | 0,25 · 0,335 · 0,10 ; plus rien au 1er janvier 2029 | posé (taux transposé du § 3, cat. 63) · déduit (1 − CP/AE des cibles) · relevé à la pièce 2.6, non repris ; terme relevé (`P2/etatB_02`) |
+| Ademe | D12 | 0,695 | déduit : restes à payer 3,22 Md€ au 31/12/2024 (Jaune « Opérateurs » PLF 2026) pour 1,42 Md€ de financement de l'État |
+| agences sous subvention | D5, D6, D16 · D24 | 0,15 · 0,30 | posé, bornes 0,05-0,30 et 0,15-0,50 |
+| Anah | D15 | 0,50 | posé, bornes 0,25-0,75 ; « les dossiers déjà engagés sont payés » (relevé, `P2/etatB_01`) |
+| collectivités qui restent | D40 · D41 · D42 | 0,15 · 0,25 · 0,15 | posé, bornes 0,05-0,30, 0,15-0,50, 0,10-0,30 ; `coll_P2_04`, IV : engagements exécutés jusqu'à leur terme (relevé) |
+
+**Bascule.** Le solde mensuel devient négatif en **octobre 2027**, en mesure comme en dépense réelle (septembre en borne haute) ; le creux est décembre 2027, −4,60 contre −3,47. **Le solde cumulé depuis janvier 2027 passe sous zéro en avril 2028** (février à juillet selon la fourchette), contre décembre 2028 en mesure.
+
+**Au compte complet** (`referentiels/calendrier_compte_complet_20261117.tsv`, rejoué le 20261118 sur la dépense réelle, mesure gardée en colonnes `mesure_total_<année>`), le surplus du circuit de restitution, hors chômage et patrimoine, passe de +57,23 · +30,84 · +55,05 · +58,66 à **+45,76 · +23,53 · +50,60 · +56,98 Md€** ; il reste positif chaque mois, au plus bas **+0,69** en décembre 2027. L'épargne rendue suit : 69,29 · 50,60 · 56,98 au lieu de 88,07 · 55,05 · 58,66.
+
+**Point ouvert — France Compétences et l'Anah.** Leur écart cumulé (1,85 et 1,10 Md€ au plus haut) dépasse leur trésorerie de fin 2024 (0,23 et 0,57, relevées au Jaune), et un ODAC n'emprunte pas auprès d'un établissement de crédit au-delà de douze mois (guide du budgétaire 2023, p. 32). Il faudra soit une dotation de l'État, soit une coupe plus rapide de leurs engagements non juridiques. La trésorerie des collectivités n'est dans aucune pièce.
 
 ---
 

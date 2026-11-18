@@ -10689,6 +10689,20 @@
    "famille": "outillage"
   },
   {
+   "role": "fichier:appareil/restes_a_payer",
+   "chemin": "appareil/restes_a_payer.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/restes_a_payer.py",
+   "releve": true,
+   "famille": "outillage"
+  },
+  {
    "role": "fichier:appareil/revision_penale",
    "chemin": "appareil/revision_penale.py",
    "rang": "appareil",
@@ -13531,6 +13545,20 @@
    "famille": "méthode"
   },
   {
+   "role": "fichier:methode/etats/RESTES_a_payer_20261118",
+   "chemin": "methode/etats/RESTES_a_payer_20261118.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/methode/etats/RESTES_a_payer_20261118.md",
+   "releve": true,
+   "famille": "méthode"
+  },
+  {
    "role": "fichier:methode/etats/SERIES_classeurs_projet_site_20261116",
    "chemin": "methode/etats/SERIES_classeurs_projet_site_20261116.md",
    "rang": "methode",
@@ -16019,6 +16047,20 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/referentiels/releves_transversaux_plfss2027.tsv",
+   "releve": true,
+   "famille": "grilles"
+  },
+  {
+   "role": "fichier:referentiels/restes_a_payer_20261118",
+   "chemin": "referentiels/restes_a_payer_20261118.tsv",
+   "rang": "referentiel",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/referentiels/restes_a_payer_20261118.tsv",
    "releve": true,
    "famille": "grilles"
   },
@@ -26518,6 +26560,7 @@
    "appareil/rendre_releve_epreuve.py",
    "appareil/reservoir_livre.py",
    "appareil/restaurer.py",
+   "appareil/restes_a_payer.py",
    "appareil/revision_penale.py",
    "appareil/sans_cesure.py",
    "appareil/scinder_liasse_trois_colonnes.py",
@@ -26734,6 +26777,7 @@
    "methode/etats/P2_arbitrages.md",
    "methode/etats/REGENERATION_liasse_20261116.md",
    "methode/etats/REJEU_annexes_2027_20261012.md",
+   "methode/etats/RESTES_a_payer_20261118.md",
    "methode/etats/SERIES_classeurs_projet_site_20261116.md",
    "methode/etats/SUIVI_chantier_20261009.md",
    "methode/etats/TRI_unique_20261116.md",
@@ -26919,6 +26963,7 @@
    "referentiels/registre_penal_bilan.json",
    "referentiels/releves_transversaux_plf2027.tsv",
    "referentiels/releves_transversaux_plfss2027.tsv",
+   "referentiels/restes_a_payer_20261118.tsv",
    "referentiels/schema_refonte_fiscalite_2024.tsv",
    "referentiels/sieges_complement_20261013.tsv",
    "referentiels/sieges_operateurs_20261013.tsv",
@@ -27827,9 +27872,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1806,
-  "au_coffre": 1745,
-  "au_depot": 1279,
+  "artefacts": 1809,
+  "au_coffre": 1748,
+  "au_depot": 1282,
   "derives": 294,
   "sources": 64,
   "non_restaurables": 16,

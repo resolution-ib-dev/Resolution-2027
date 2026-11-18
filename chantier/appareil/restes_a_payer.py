@@ -373,18 +373,32 @@ def bascule(solde):
     return None
 
 
+def modele(choix=2):
+    """Le croisé en mesure et la dépense réelle, ligne par ligne, sans lire le
+    compte complet (qui la lit à son tour). choix : 1 bas, 2 central, 3 haut."""
+    M = lire_mesure()
+    res = lire_registre()[0]
+    par = lire_parametres()[0]
+    H = hypotheses(res, par, lire_operateurs(), lire_jaune())
+    df, rap, queue = calcul(H, M, choix)
+    return M, H, df, rap
+
+
 def resultats():
     M = lire_mesure()
     res, restit, total27, annuel, s5 = lire_registre()
     par, liasse_ae, liasse_cp = lire_parametres()
     ope = lire_operateurs()
     jau = lire_jaune()
-    surplus_a, dcompte = lire_compte()
+    surplus_tsv, dcompte = lire_compte()
     H = hypotheses(res, par, ope, jau)
     R = {}
     for nom, ch in (('bas', 1), ('central', 2), ('haut', 3)):
         R[nom] = calcul(H, M, ch)
     mes = somme([d['mois'] for d in M.values()])
+    # Le compte complet porte les 27 coupes en dépense réelle depuis le 20261118 :
+    # le surplus en mesure s'en déduit en remettant le croisé à la place.
+    surplus_a = [surplus_tsv[t] - sum(v[t] for v in dcompte.values()) + mes[t] for t in range(N)]
     out = {'M': M, 'H': H, 'res': res, 'restit': restit, 'total27': total27, 'annuel': annuel,
            's5': s5, 'par': par, 'liasse': (liasse_ae, liasse_cp), 'jau': jau, 'ope': ope,
            'surplus_a': surplus_a, 'dcompte': dcompte, 'R': R, 'mes': mes}
@@ -594,11 +608,9 @@ def controler():
     # 5. la première année d'une ligne d'État redonne la chaîne du § 1 : CP = mesure × (1 − r)
     d = M['D27']
     tenir('D27 2027 : dépense finale = mesure × (1 − 0,20)', par_an(df['D27'])[0] - par_an(d['mois'])[0] * (1 - o['res']['cat. 62']))
-    # 6. les lignes D du compte complet redonnent la mesure lue (même croisé)
-    for c in M:
-        e = max(abs(o['dcompte'][c][t] - M[c]['mois'][t]) for t in range(N)) if c in o['dcompte'] else 0.0
-        if e > 1e-4:
-            tenir(f'{c} compte complet = croisé', e, 1e-4)
+    # 6. les lignes D du compte complet portent la dépense réelle centrale (20261118)
+    e = max(max(abs(o['dcompte'][c][t] - df[c][t]) for t in range(N)) if c in o['dcompte'] else 1.0 for c in M)
+    tenir('compte complet, 27 coupes = dépense réelle centrale', e, 1e-5)
     # 7. le TSV écrit redonne le calcul
     if SORTIE.exists():
         with open(SORTIE, encoding='utf-8') as f:
