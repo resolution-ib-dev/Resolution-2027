@@ -9259,3 +9259,9 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 - *Logement social* : part du parc gardée réglable, un tiers par défaut (classeur) ; le livre en garde 15 % (note e118). Le stock rendu se dit par personne : 600 Md€, soit 9 600 € par personne.
 - Le lien partageable porte les deux réglages. *Relevé* : 72 lignes ; 600 € à 2 400 € nets aux réglages par défaut.
 
+### Simulateur : loisirs, chômage plafonné, 8 800 € par personne — 20261118
+
+**Demandé par l’auteur** : « sports on va éviter de le mettre à toutes les sauces […] loisir suffit après culture » ; « JO, moche, mettons juste sport » ; « voiture propre c’est moche aussi » ; « il faudrait rester sur 8800 € » ; « autant mettre le curseur de 0 à 18 mois sur le chômage […] il faut le mettre sur la coupe complète (genre "max"), et pour le reste un truc genre "refonte aide fondamentale unique" ». **Exécuté, à valider.** Échelons locaux : « culture, loisirs » ; *relevé*, la part des loisirs est significative à chaque échelon (communes 4,0 Md€, départements 430 M€, régions 200 M€). « Autres associations : sport, partis » ; « Autres aides : asile, lycées à l’étranger, prime à la conversion ». Chômage : « Indemnisation plafonnée », réglable de 0 à 18 mois (« max 6 mois » par défaut), puis « Refonte avec l’aide fondamentale universelle » ; au-delà d’un an, même pente qu’entre 6 et 12 mois (*déduit*, prudent). Stock rendu par personne : 600 Md€ pour 68 millions d’habitants, 8 800 € (REF_doctrine). *Relevé* : 600 € à 2 400 € nets aux réglages par défaut.
+
+**Constaté, rendu à l’auteur** : la note e118 du livre annonce un socle de 15 % et une décote de 15 % sur 340 Md€ d’actif net, « soit environ 200 Md€ » ; ces deux taux donnent 246 Md€. Les 200 Md€ sont ceux du classeur : un tiers gardé et une décote de 10 %, 341 × 2/3 × 0,9 = 205 Md€ (`Input Capitalisation`, C13 et C14).
+
