@@ -591,7 +591,7 @@ def controler():
     verdict('IV de l’amendement n° 1 : items rangés à deux divisions', float(len(tous) - len(set(tous))), 0)
     # 7. identités du classeur
     verdict('129,459 = 114,46 + 14,999 (Flux!C6, Input Capitalisation!E8)', P['gain_an1'] - P['csg_plein'] - P['epargne_reliquat_an1'], 0.001)
-    verdict('236,402 = 114,46 + 121,94 (Annexe Manuscrit!C3, Input Capitalisation!E2)',
+    verdict('236,353 = 114,46 + 121,89 (Annexe Manuscrit!C3, Input Capitalisation!E2)',
             P['total_regime_plein'] - P['csg_plein'] - P['epargne_regime_plein'], 0.05)
     verdict('137,145 + 52,1 + 29,6 + 17,6 = 236,4',
             P['economies_etat_plein'] + P['economies_collectivites_plein'] + P['niches_an1'] + P['chomage_epargne']
