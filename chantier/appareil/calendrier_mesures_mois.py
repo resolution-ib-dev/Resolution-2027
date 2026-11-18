@@ -219,7 +219,7 @@ def construire():
                         p['date'], p['fraction'], marche, p['programme'],
                         f"livrables/registre_calcul_etatB.md § 4, ligne {p['ligne']}",
                         (f"{_n(p['F'].split()[0]) * 0.7:.3f} Md€ de plus par an à terme, date non fixée : 30 % tant que "
-                         "l’indemnité court (une à sept années)") if '30 %' in p['rythme'] else '']
+                         "l’indemnité court (six mois à sept années)") if '30 %' in p['rythme'] else '']
                        + [f'{x:.6f}' for x in v]
                        + [f'{sum(v[12 * i:12 * i + 12]):.4f}' for i in range(4)] + [f'{x:.2f}' for x in traj])
     print(f"{TSV.relative_to(RACINE)} : 27 lignes, 48 mois")
