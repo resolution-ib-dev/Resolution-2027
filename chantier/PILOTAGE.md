@@ -41,7 +41,7 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 | Flux par agent | agents tous privés, agents publics compris ; solde public = opposé de la somme des privés ; coupes d'agences et de collectivités réparties sur des privés | 20261116-17 |
 | Présentation candidat | hors du site ; alignée sur 600 € pour 2 400 € nets | 20261116-17 |
 | Population du simulateur (capital par personne) | inchangée pour l'instant, à reprendre plus tard | 20261118 |
-| Explication de chaque ligne | « À arrêter. » en tête, puis « Conservé. » ; ni « Comprend », ni « Prudence », ni dates ; pas de rythme au niveau de la ligne (mêlerait CP et AE) : quand plusieurs cas, préciser dans les petites lignes ; rien à dire, rien | 20261118 |
+| Explication de chaque ligne | « À arrêter. » en tête, puis « Conservé. » ; ni « Comprend », ni « Prudence », ni dates ; rythme en clair là où il rassure, au niveau de la mesure ou de l'élément, jamais d'un bloc qui mêle plusieurs mesures (CP et AE) ; rien à dire, rien | 20261118 |
 | Accueil à 25 % | page d'essai `accueil-25.html`, non liée, non indexée ; l'accueil reste à 600 € | 20261118 |
 | Carte Entreprises (subventions) | garde « État et collectivités » | 20261118 |
 | Simulateur, lecture | trois strates ; « qui : quoi », dépense finale lue à l'action ; « administration » pour le ministère lui-même ; « Autres » en fin de liste ; ordre échelons, agences, ministères, agents ; agents liés aux structures | 20261117 |
