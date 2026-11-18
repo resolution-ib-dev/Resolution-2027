@@ -9286,3 +9286,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Simulateur : seuils de prudence dits ligne par ligne — 20261118
 
 **Demandé par l’auteur** (20261118). **Exécuté, à valider.** Chaque ligne dont une part est gardée ouvre son explication par « Prudence. » et le seuil : socle de 10 % (agences, formation, France Travail, associations sociales des collectivités), 20 % pour l’hébergement d’urgence (femmes victimes de violences, enfants), 10 % de l’AME pour les soins urgents, régalien et éducation pour les administrations et les agents, entretien des routes nationales, minima sociaux et handicap. Les lignes supprimées sans reste n’en portent pas. Aucun montant ne change. Population du simulateur inchangée, reprise plus tard.
+
+### Simulateur : « Conservé » et « Arrêté » au lieu de « Prudence » — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Le seuil gardé est un contexte, pas le contenu principal : il passe au second rang, après « Comprend » et avant « Classeur ». « Prudence » dit l’intention, pas le sort de la dépense : remplacé par « Conservé. » (part gardée) et « Arrêté. » (ce qui s’arrête, avec le rythme ou la date du calendrier par mesure : en trois ans ; 1er janvier ou 1er juillet 2027). Les lignes supprimées sans reste reçoivent leur date (chèque énergie, chambres consulaires, autres aides aux entreprises, associations). Aucun montant ne change.
