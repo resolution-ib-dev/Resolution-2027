@@ -145,8 +145,9 @@ def lire_parametres():
     with open(PARAM, encoding='utf-8') as f:
         for r in csv.DictReader(f, delimiter='\t'):
             ae, cp = fl(r['cible_projet_ae']) or 0.0, fl(r['cible_projet_cp']) or 0.0
-            tot_ae += ae
-            tot_cp += cp
+            if r['retenu'] == 'oui':
+                tot_ae += ae
+                tot_cp += cp
             cat = r['categorie']
             cls = 'titre 5' if r['titre'] == '5' else f'cat. {cat}'
             a = out[r['ligne_registre']][cls]
@@ -498,7 +499,7 @@ def resume(o, agr, queue):
     p = lambda v: ' · '.join(f'{x:+.2f}' for x in par_an(v))
     q = lambda v: ' · '.join(f'{x:.2f}' for x in par_an(v))
     print('\n== résidus relevés au § 3 ==', o['res'])
-    print('liasse P2 (parametres_credits, cibles du projet) : AE %.2f, CP %.2f, écart %.2f Md€' %
+    print('liasse P2 (parametres_credits, cibles du projet, lignes retenues) : AE %.2f, CP %.2f, écart %.2f Md€' %
           (o['liasse'][0], o['liasse'][1], o['liasse'][0] - o['liasse'][1]))
     j = o['jau']
     print('Jaune : RAP Ademe %.3f Md€ (p. %d) ; trésorerie des opérateurs %s (p. %d, %d lignes) ; %s' %
