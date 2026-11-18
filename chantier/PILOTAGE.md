@@ -39,7 +39,7 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 | Flux par agent | agents tous privés, agents publics compris ; solde public = opposé de la somme des privés ; coupes d'agences et de collectivités réparties sur des privés | 20261116-17 |
 | Présentation candidat | hors du site ; alignée sur 600 € pour 2 400 € nets | 20261116-17 |
 | Population du simulateur (capital par personne) | inchangée pour l'instant, à reprendre plus tard | 20261118 |
-| Seuils de prudence | dits en tête de l'explication de chaque ligne (« Prudence. ») | 20261118 |
+| Devenir de chaque ligne | « Conservé. » et « Arrêté. » au second rang de l'explication, après le contenu ; « Prudence » écarté | 20261118 |
 | Simulateur, lecture | trois strates ; « qui : quoi », dépense finale lue à l'action ; « administration » pour le ministère lui-même ; « Autres » en fin de liste ; ordre échelons, agences, ministères, agents ; agents liés aux structures | 20261117 |
 | Simulateur, montants | patrimoine à 3 %, 18 Md€, à part du compte de flux ; 600 € à 2 400 € nets ; chômage en deux lignes ; niches par sujet | 20261116-17 |
 | Agriculture | « administration, guichets d'aides » | 20261117 |
