@@ -49,6 +49,7 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 | Simulateur, montants | patrimoine à 3 %, 18 Md€, à part du compte de flux ; 600 € à 2 400 € nets ; chômage en deux lignes ; niches par sujet | 20261116-17 |
 | Agriculture | « administration, guichets d'aides » | 20261117 |
 | Agents communaux du logement | en ligne libre | 20261117 |
+| Restes à payer | modèle en dépense réelle retenu comme hypothèse centrale pour la trésorerie et le compte complet ; pistes de modulation non retenues | 20261118 |
 
 ## Décisions attendues de l'auteur
 
@@ -58,7 +59,7 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 
 ## Constats à traiter par le pilotage, sans question
 
-- Départs d'agents : 30 % tant que l'indemnité court (six mois à sept années, un mois par trimestre de services, plafonnée à la retraite sans décote, amendement n° 26), la ligne entière à terme, dans les 236 (auteur, 20261116). Le flux mensuel par agent (§ 6) est rejoué ; restent à rejouer les § 15, 16, 17 et le classeur de flux.
+- Départs d'agents : 30 % tant que l'indemnité court (six mois plus un mois par trimestre de services, deux années au moins, sept années au plus, plafonnée à la retraite sans décote, amendement n° 26, règle arrêtée par l'auteure le 20261118), la ligne entière à terme, dans les 236 (auteur, 20261116). Le flux mensuel par agent (§ 6) est rejoué ; restent à rejouer les § 15, 16, 17 et le classeur de flux.
 
 - 59 lignes arrêtées par le classeur et absentes de la liasse, dont France 2030 et l'audiovisuel public.
 - Le § 4 du registre de calcul garde 20 % de socle sur le fonctionnement ; la décision du 16 novembre est 85 % hors entretien des routes.

@@ -73,7 +73,7 @@ Le licenciement ne peut être prononcé qu’après que l’administration a rec
 
 II. – Le fonctionnaire licencié en application du I perçoit une indemnité mensuelle égale à 70 % du traitement indiciaire brut afférent au dernier échelon détenu dans son grade.
 
-L’indemnité est due à compter de la radiation des cadres et pendant sept années au plus.
+L’indemnité est due à compter de la radiation des cadres pendant six mois, augmentés d’un mois par trimestre de services publics effectifs, vingt-quatre mois au moins, dans la limite de sept années et de la date à laquelle le bénéficiaire peut obtenir une pension de retraite sans décote.
 
 Elle se cumule avec les revenus tirés de toute activité professionnelle autre qu’un emploi rémunéré par une personne publique. Elle cesse d’être due à compter du recrutement de son bénéficiaire par une personne publique.
 

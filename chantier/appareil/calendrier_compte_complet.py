@@ -26,7 +26,15 @@ reste, relevé sur pièces :
   le module le dit.
 
 Signe : montant positif = le solde public s'améliore = un agent privé paie ou
-perd. En mesure, en Md€, hors règle de CP résiduel.
+perd. En Md€.
+
+**Les 27 coupes sont en dépense réelle depuis le 20261118** (hypothèse centrale
+retenue par l'auteure : registre § 5 bis, `appareil/restes_a_payer.py`) : ce
+que les privés cessent de recevoir, une fois réglés les restes à payer de
+l'État, des agences et des collectivités. La mesure reste traçable : colonnes
+`mesure_total_<année>` du TSV (égales au total hors des 27 coupes), et le
+croisé `calendrier_mesures_mois_20261116.tsv`, inchangé, qui sert aux liasses.
+Toutes les autres lignes sont en mesure.
 
   construire   écrit les deux TSV de `referentiels/`
   controler    rejoue les TSV contre les pièces ; code 1 au premier échec
@@ -39,6 +47,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import calendrier_mesures_mois as cm
+import restes_a_payer as rp
 
 RACINE = cm.RACINE
 PARAM = RACINE / 'referentiels/compte_complet_parametres_20261117.tsv'
@@ -351,16 +360,22 @@ def ligne(id_, circuit, nature, famille, mesure, agents, v, date, regle, piece, 
 def lignes_hors_epargne():
     P = params()
     L = []
-    # 1. les 27 coupes, du croisé du 20261116
+    # 1. les 27 coupes, en dépense réelle (registre § 5 bis) ; la mesure est gardée en `vm`
     _, cle = cm.lire_flux()
+    _, H, reel, _ = rp.modele()
     for d in cm.lire():
         cel = d['cellule']
         parts = cm.CLE_PRIVEE.get(cel, cle[cel])
         parts = [(MAT if 'transferts' in a else a, p) for a, p in parts]
-        L.append(ligne(cel, 'A', 'dépense', d['pan'], d['ligne_doctrinale'], parts, [float(d[c]) for c in COLS],
-                       d['date_effet_2027'], f"rythme {d['rythme']}, marche au {d['marche_annuelle']}",
-                       'referentiels/calendrier_mesures_mois_20261116.tsv ; ' + d['adresse_registre'],
-                       'relevé (montants, dates) ; mensualisation déduite ; agent : clé posée'))
+        l = ligne(cel, 'A', 'dépense', d['pan'], d['ligne_doctrinale'], parts, list(reel[cel]),
+                  d['date_effet_2027'], f"rythme {d['rythme']}, marche au {d['marche_annuelle']} ; "
+                  f"restes à payer : couche {H[cel][0][5]}, r = " + ' + '.join(f'{k[0]:g}×{k[2]:.3f}' for k in H[cel]),
+                  'referentiels/calendrier_mesures_mois_20261116.tsv ; ' + d['adresse_registre']
+                  + ' ; referentiels/restes_a_payer_20261118.tsv ; registre § 5 bis',
+                  'relevé (montants, dates) ; mensualisation déduite ; agent : clé posée ; dépense réelle : '
+                  + ' ; '.join(dict.fromkeys(k[4] for k in H[cel])))
+        l['vm'] = [float(d[c]) for c in COLS]
+        L.append(l)
     # 2. les 8 lignes de première partie et sociale (§ 4 : 8,30 Md€ en régime plein)
     tiers = lambda F: paliers((0, F / 3), (12, 2 * F / 3), (24, F))
     plein = lambda F: paliers((0, F))
@@ -512,13 +527,15 @@ def construire():
     with open(TSV, 'w', encoding='utf-8', newline='') as f:
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(['id', 'circuit', 'nature', 'famille', 'mesure', 'agent', 'part', 'date_effet', 'regle_de_calendrier', 'piece', 'statut']
-                   + COLS + [f'total_{a}' for a in ANNEES])
+                   + COLS + [f'total_{a}' for a in ANNEES] + [f'mesure_total_{a}' for a in ANNEES])
         n = 0
         for l in L:
             for agent, part in l['agents']:
                 v = [x * part for x in l['v']]
+                vm = [x * part for x in l.get('vm', l['v'])]
                 w.writerow([l['id'], l['circuit'], l['nature'], l['famille'], l['mesure'], agent, f'{part:g}'.replace('.', ','),
-                            l['date'], l['regle'], l['piece'], l['statut']] + [f'{x:.6f}' for x in v] + [f'{x:.4f}' for x in an(v)])
+                            l['date'], l['regle'], l['piece'], l['statut']] + [f'{x:.6f}' for x in v] + [f'{x:.4f}' for x in an(v)]
+                           + [f'{x:.4f}' for x in an(vm)])
                 n += 1
     with open(TSV_NICHES, 'w', encoding='utf-8', newline='') as f:
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
@@ -534,6 +551,20 @@ def construire():
     print(f"{TSV.relative_to(RACINE)} : {len(L)} mesures, {n} lignes mesure × agent, 48 mois")
     print(f"{TSV_NICHES.relative_to(RACINE)} : {len(N)} dépenses fiscales")
     return 0
+
+
+def lire_s5bis():
+    """Registre § 5 bis : coupes et solde en dépense réelle, par exercice (relevé)."""
+    t = cm.REGISTRE.read_text(encoding='utf-8')
+    i = t.index('## 5 bis.')
+    j = t.index('\n## ', i + 5)
+    out = {}
+    for l in t[i:j].splitlines():
+        c = [x.strip() for x in l.strip('|').split('|')]
+        for cle in ('Coupes en dépense réelle', 'Solde en dépense réelle'):
+            if c and c[0] == f'**{cle}**':
+                out[cle] = [cm._n(x.replace('*', '')) for x in c[1:5]]
+    return out
 
 
 def lire_tsv():
@@ -552,24 +583,38 @@ def controler():
         out.append(f"{'tenu ' if ok else 'ÉCHEC'} {nom} : écart {ecart:+.4f} Md€ (tolérance {tol:.4f}){detail}")
 
     M = lambda d: [float(d[c]) for c in COLS]
-    # 1. les 27 coupes = le croisé du 20261116, mois par mois
+    Mm = lambda d: [float(d[f'mesure_total_{a}']) for a in ANNEES]
+    # 1. les 27 coupes : dépense réelle centrale (restes_a_payer), mesure gardée = croisé du 20261116
     croise = {d['cellule']: [float(d[c]) for c in COLS] for d in cm.lire()}
-    e = 0
+    _, _, reel, rap = rp.modele()
+    e = e2 = e3 = 0
     for cel, v in croise.items():
         s = [sum(M(d)[i] for d in T if d['id'] == cel) for i in range(48)]
-        e = max(e, max(abs(a - b) for a, b in zip(s, v)))
-    verdict('27 coupes = croisé du 20261116, 27 × 48 valeurs', e, 1e-5)
+        e = max(e, max(abs(a - b) for a, b in zip(s, reel[cel])))
+        e2 = max(e2, max(abs(a + b - c) for a, b, c in zip(s, rap[cel], v)))
+        sm = [sum(Mm(d)[i] for d in T if d['id'] == cel) for i in range(4)]
+        e3 = max(e3, max(abs(a - b) for a, b in zip(sm, an(v))))
+    verdict('27 coupes = dépense réelle centrale de restes_a_payer, 27 × 48 valeurs', e, 1e-5)
+    verdict('27 coupes + restes à payer = croisé du 20261116 (mesure), 27 × 48 valeurs', e2, 1e-5)
+    verdict('colonnes mesure_total des 27 coupes = croisé du 20261116, par exercice', e3, 1e-4)
+    autres = max(abs(float(d[f'mesure_total_{a}']) - float(d[f'total_{a}'])) for d in T if d['id'] not in croise for a in ANNEES)
+    verdict('hors des 27 coupes, mesure_total = total', autres, 0)
     s5 = cm.lire_s5()
+    s5b = lire_s5bis()
+    coupes_m = [sum(Mm(d)[i] for d in T if d['id'] in croise) for i in range(4)]
     coupes = an([sum(M(d)[i] for d in T if d['id'] in croise) for i in range(48)])
     for i, a in enumerate(ANNEES):
-        verdict(f'coupes {a} = § 5', coupes[i] - s5['Coupes, 27 lignes'][i], 0.03)
+        verdict(f'coupes en mesure {a} = § 5', coupes_m[i] - s5['Coupes, 27 lignes'][i], 0.03)
+        verdict(f'coupes en dépense réelle {a} = § 5 bis', coupes[i] - s5b['Coupes en dépense réelle'][i], 0.0051)
     # 2. la restitution = § 5
     csg = an([sum(M(d)[i] for d in T if d['id'] == 'CSG') for i in range(48)])
     for i, a in enumerate(ANNEES):
         verdict(f'restitution {a} = § 5', -csg[i] - s5['Restitution'][i], 0.03)
-    # 3. solde des seules coupes et de la CSG = solde du § 5
+    # 3. solde des seules coupes et de la CSG = solde du § 5 (mesure) et du § 5 bis (dépense réelle)
     for i, a in enumerate(ANNEES):
-        verdict(f'coupes − restitution {a} = solde du § 5', coupes[i] + csg[i] - s5['Solde du budget'][i], 0.03)
+        verdict(f'coupes en mesure − restitution {a} = solde du § 5', coupes_m[i] + csg[i] - s5['Solde du budget'][i], 0.03)
+        verdict(f'coupes en dépense réelle − restitution {a} = solde du § 5 bis',
+                coupes[i] + csg[i] - s5b['Solde en dépense réelle'][i], 0.03)
     # 4. les 8 lignes de première partie : régime plein = 8,30 (§ 4)
     huit = ('D7', 'D8', 'D9', 'D10', 'D11', 'D13', 'D14', 'D21')
     v = [sum(M(d)[i] for d in T if d['id'] in huit) for i in range(48)]
