@@ -9244,3 +9244,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Exécuté** (décisions de l’auteur du 17 novembre : jeux, « on enlève avec mêmes règles »). Branche du fil fusionnée après rejeu des contrôles par le pilotage, tous à 0 échec. *Relevé* : 14 rangs restent sans porteur (3,6 Md€) — six agrégats de l’état A sans article, cinq n.d. clos (A-440), trois rangs dont l’abrogation de même forme n’éteindrait rien ou contredirait le P1 n° 19 (redevances UMTS et de propriété industrielle, droits d’enregistrement génériques). Ce sont des limites de droit, non des choix ouverts : aucune question à l’auteur.
 
+### Simulateur : Subventions et chômage aux règles de lecture — 20261118
+
+**Exécuté, à valider** (« ok next simulateur », 20261118 ; règles de lecture du 20261117). Subventions : chaque ligne nomme la dépense finale en mots courants — « Formation professionnelle et CPF », « Apprentissage et aides à l’embauche », « Insertion par l’activité économique », « France Travail : aides aux employeurs », « France 2030 : entreprises » et « : associations », « Emploi à domicile : exonérations », « Collectivités : aides aux entreprises », « Aides au logement (APL) », « Asile : hébergement et accompagnement », « Associations culturelles », « Associations des quartiers prioritaires » ; « Autres » en fin de liste (`NOMS_LIGNES` de `restitution.py`). Chômage : les six premiers mois avant la suite (`ORDRE_FIXE`). Chaque ligne renvoie à sa pièce. *Relevé* : aucun montant ne change ; « En échange » inchangé.
+
