@@ -1405,21 +1405,11 @@ B. – L’assiette de l’indemnité est le traitement indiciaire brut afféren
 
 Un décret fixe cette part pour chacune des trois catégories mentionnées à l’article L. 411-2 du même code. Les parts ainsi fixées sont décroissantes de la catégorie C à la catégorie A et chacune demeure au plus égale au quart du traitement indiciaire brut mentionné au premier alinéa du présent B. À défaut de décret, cette part est nulle et l’assiette est le seul traitement indiciaire brut.
 
-C. – L’indemnité est due à compter de la radiation des cadres. Sa durée est déterminée par l’ancienneté de services publics effectifs du bénéficiaire à la date de sa radiation des cadres, dans les conditions suivantes :
+C. – L’indemnité est due à compter de la radiation des cadres. Sa durée est de six mois, augmentée d’un mois par trimestre de services publics effectifs accomplis par le bénéficiaire à la date de sa radiation des cadres. Elle est au plus égale à quatre-vingt-quatre mois.
 
-1° Une année, lorsque cette ancienneté est inférieure à deux ans.
+Les services publics effectifs s’entendent des services accomplis en qualité de fonctionnaire en position d’activité ou de détachement, des services accomplis en qualité d’agent contractuel de droit public auprès d’un employeur mentionné à l’article L. 2 du code général de la fonction publique et des services militaires. Les services accomplis à temps partiel sont comptés pour la totalité de leur durée. Le nombre de trimestres est égal au nombre de mois de services ainsi comptés divisé par trois et arrondi à l’entier inférieur.
 
-2° Deux années, lorsqu’elle est d’au moins deux ans et de moins de cinq ans.
-
-3° Trois années, lorsqu’elle est d’au moins cinq ans et de moins de dix ans.
-
-4° Quatre années, lorsqu’elle est d’au moins dix ans et de moins de quinze ans.
-
-5° Cinq années, lorsqu’elle est d’au moins quinze ans et de moins de vingt ans.
-
-6° Six années, lorsqu’elle est d’au moins vingt ans et de moins de vingt-cinq ans.
-
-7° Sept années, lorsqu’elle est d’au moins vingt-cinq ans.
+La durée de l’indemnité est en outre au plus égale à la durée qui sépare la date de radiation des cadres de la date à laquelle le bénéficiaire peut obtenir la liquidation d’une pension de retraite sans coefficient de minoration, compte tenu de son âge et de la seule durée d’assurance acquise à la date de sa radiation des cadres. Lorsque cette durée d’assurance est inférieure à la durée requise pour bénéficier d’une pension sans coefficient de minoration, cette date est celle à laquelle le bénéficiaire atteint l’âge d’annulation de la décote qui lui est applicable.
 
 **III.**
 
@@ -1429,7 +1419,7 @@ B. – Le service de l’indemnité est suspendu pendant la durée d’un emploi
 
 C. – Le montant mensuel de l’indemnité demeure au plus égal au traitement indiciaire brut mentionné au premier alinéa du B du II. Un décret en Conseil d’État peut fixer un montant mensuel minimal.
 
-D. – Le service de l’indemnité cesse à la date d’admission à la retraite de son bénéficiaire mentionnée au 5° de l’article L. 550-1 du code général de la fonction publique, à la date à laquelle il remplit les conditions requises pour la liquidation de ses droits à pension à taux plein ou à son décès.
+D. – Le service de l’indemnité cesse à la date d’admission à la retraite de son bénéficiaire mentionnée au 5° de l’article L. 550-1 du code général de la fonction publique ou à son décès. Il cesse en tout état de cause à la date mentionnée au troisième alinéa du C du II, y compris lorsqu’il a été suspendu en application du B du présent III.
 
 E. – L’indemnité est liquidée et versée par l’administration qui employait son bénéficiaire à la date de la suppression de l’emploi. Le bénéficiaire déclare à cette administration tout emploi rémunéré par une personne publique qu’il occupe. Un décret en Conseil d’État peut fixer les autres modalités de liquidation et de versement ainsi que les autres obligations déclaratives.
 
@@ -1521,7 +1511,7 @@ Le contribuable paie aujourd’hui le traitement d’agents dont la Nation n’a
 
 Le code a pourtant écrit la sortie. Le licenciement est ouvert, dans la fonction publique de l’État, « en vertu de dispositions législatives de dégagement des cadres prévoyant soit le reclassement des fonctionnaires intéressés, soit leur indemnisation »¹. Cette habilitation est en vigueur depuis le 1er mars 2022 et elle n’a jamais reçu sa loi. Le présent article est cette loi.
 
-**Ce qu’il donne.** Un droit chiffré dans la loi même : 70 % de l’assiette, pour une durée qui croît avec l’ancienneté et qui atteint sept années pour les agents les plus anciens, sur le modèle de gradation retenu par le législateur à l’article L. 1235-3 du code du travail². L’indemnité se cumule intégralement avec les revenus d’une activité privée, sans réduction ni plafond de ressources : l’agent qui retrouve un emploi hors de la sphère publique y gagne et l’État y gagne avec lui. Un emploi sous contrat à durée indéterminée est proposé chaque fois qu’il est identifié, à une rémunération au moins égale au dernier traitement, et le premier refus laisse l’indemnité entière.
+**Ce qu’il donne.** Un droit chiffré dans la loi même : 70 % de l’assiette, pendant six mois augmentés d’un mois par trimestre de services, soit sept années au plus, atteintes après dix-neuf ans et demi de services. L’indemnité s’arrête au plus tard à la date à laquelle l’agent peut partir à la retraite sans décote² : elle conduit l’agent le plus âgé jusqu’à sa retraite et jamais au-delà. L’indemnité se cumule intégralement avec les revenus d’une activité privée, sans réduction ni plafond de ressources : l’agent qui retrouve un emploi hors de la sphère publique y gagne et l’État y gagne avec lui. Un emploi sous contrat à durée indéterminée est proposé chaque fois qu’il est identifié, à une rémunération au moins égale au dernier traitement, et le premier refus laisse l’indemnité entière.
 
 **Ce qu’il coûte et à quoi il se substitue.** La dépense créée est de l’année et des années ultérieures. Elle remplace une charge déjà écrite au droit positif : le fonctionnaire licencié pour suppression d’emploi est en privation involontaire d’emploi au sens de l’article L. 5424-1 du code du travail, il a droit de plein droit à une allocation d’assurance et l’État en est le débiteur direct, l’article L. 5424-2 ne lui ouvrant pas l’adhésion au régime³. L’article ne crée pas une dépense à côté du droit commun, il substitue une charge bornée à une charge ouverte. Cette charge n’est ouverte nulle part ailleurs parce qu’elle n’a pas à l’être : l’indemnité est servie sur la masse salariale même des emplois supprimés et son montant demeure inférieur aux traitements qu’elle remplace, le taux du A du II étant de 70 % d’une assiette elle-même bornée par le B du même II. C’est pour cela que les amendements de crédits de personnel minorent le titre 2 d’un montant net de cette indemnité et non du montant entier des traitements économisés.
 
@@ -1533,7 +1523,7 @@ Le code a pourtant écrit la sortie. Le licenciement est ouvert, dans la fonctio
 
 ¹ Code général de la fonction publique, article L. 553-1, 4° (LEGIARTI000044425184, version applicable depuis le 2022-03-01).
 
-² Code du travail, article L. 1235-3 (LEGIARTI000036762052, version applicable depuis le 2018-04-01), barème introduit par l’ordonnance n° 2017-1387 du 22 septembre 2017 relative à la prévisibilité et la sécurisation des relations de travail. Seul le principe de gradation par années complètes d’ancienneté, assorti d’un maximum, est repris. Les durées du C du II sont de droit nouveau.
+² Code des pensions civiles et militaires de retraite, articles L. 14 (LEGIARTI000048844775, version applicable depuis le 2023-12-31) et L. 14 bis (LEGIARTI000053280913, version applicable depuis le 2025-12-31) · code de la sécurité sociale, articles L. 161-17-2 (LEGIARTI000053280889) et L. 161-17-3 (LEGIARTI000053280903), versions applicables depuis le 2025-12-31. Pour le fonctionnaire civil, l’âge d’annulation de la décote est l’âge d’ouverture du droit augmenté de trois années.
 
 ³ Code du travail, articles L. 5424-1 (LEGIARTI000038951954) et L. 5424-2 (LEGIARTI000048600589).
 

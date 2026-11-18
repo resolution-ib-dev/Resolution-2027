@@ -58,7 +58,7 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 
 ## Constats à traiter par le pilotage, sans question
 
-- Départs d'agents : 30 % tant que l'indemnité court (une à sept années selon l'ancienneté, amendement n° 26), la ligne entière à terme, dans les 236 (auteur, 20261116). Le flux mensuel par agent (§ 6) est rejoué ; restent à rejouer les § 15, 16, 17 et le classeur de flux.
+- Départs d'agents : 30 % tant que l'indemnité court (six mois à sept années, un mois par trimestre de services, plafonnée à la retraite sans décote, amendement n° 26), la ligne entière à terme, dans les 236 (auteur, 20261116). Le flux mensuel par agent (§ 6) est rejoué ; restent à rejouer les § 15, 16, 17 et le classeur de flux.
 
 - 59 lignes arrêtées par le classeur et absentes de la liasse, dont France 2030 et l'audiovisuel public.
 - Le § 4 du registre de calcul garde 20 % de socle sur le fonctionnement ; la décision du 16 novembre est 85 % hors entretien des routes.
