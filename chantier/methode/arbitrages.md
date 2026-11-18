@@ -9248,3 +9248,14 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Exécuté, à valider** (« ok next simulateur », 20261118 ; règles de lecture du 20261117). Subventions : chaque ligne nomme la dépense finale en mots courants — « Formation professionnelle et CPF », « Apprentissage et aides à l’embauche », « Insertion par l’activité économique », « France Travail : aides aux employeurs », « France 2030 : entreprises » et « : associations », « Emploi à domicile : exonérations », « Collectivités : aides aux entreprises », « Aides au logement (APL) », « Asile : hébergement et accompagnement », « Associations culturelles », « Associations des quartiers prioritaires » ; « Autres » en fin de liste (`NOMS_LIGNES` de `restitution.py`). Chômage : les six premiers mois avant la suite (`ORDRE_FIXE`). Chaque ligne renvoie à sa pièce. *Relevé* : aucun montant ne change ; « En échange » inchangé.
 
+### Simulateur : ligne à ligne, bloc par bloc — 20261118
+
+**Demandé par l’auteur** (« refaisons le ligne à ligne de chaque bloc pour stabiliser »). **Exécuté, à valider.**
+- *Échelons locaux* : une ligne par échelon et par objet, dans l’ordre départements, régions, communes (« Départements : fonctionnement », « Départements : culture, sports, loisirs »…). Le détail par fonction passe dans la liste de chaque ligne.
+- *Agents publics* : six lignes — départements, régions, communes, agences de l’État, France Travail et agences de santé, ministères —, chacune liée par défaut aux lignes de sa structure. Les intitulés de structure qui trompaient (« audiovisuel public » pour des agents du CNC) disparaissent.
+- *Subventions* : l’insertion par l’activité économique et France 2030 versé aux associations passent aux associations ; les deux lignes « Autres » nomment ce qui s’y trouve (« Autres aides : asile, bourses, voiture propre » ; « Autres associations : JO d’hiver 2030, sport, partis »).
+- *Détail* : chaque ligne ouvre la liste de ce qu’elle comprend — actions budgétaires lues au PAP 2026 sur le périmètre de la table des paramètres (`Site-ETNP/outils/composantes.py`), agences, fonctions ou programmes —, avec ses montants ramenés à la ligne (*déduit*), et le classeur source à télécharger. Le renvoi vers l’onglet agrégé est retiré.
+- *Assurance chômage* : durée d’indemnisation réglable de 0 à 12 mois, six par défaut ; part des inscrits depuis moins de 6 mois, 37 %, depuis moins d’un an, 56,7 % (Dares, fin 2024, note de l’auteur), en ligne droite entre ces points (*déduit*). Libellés : « Pendant l’indemnisation : l’aide universelle en relais », « Après l’indemnisation : cotisation rendue ».
+- *Logement social* : part du parc gardée réglable, un tiers par défaut (classeur) ; le livre en garde 15 % (note e118). Le stock rendu se dit par personne : 600 Md€, soit 9 600 € par personne.
+- Le lien partageable porte les deux réglages. *Relevé* : 72 lignes ; 600 € à 2 400 € nets aux réglages par défaut.
+
