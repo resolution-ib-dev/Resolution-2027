@@ -153,10 +153,10 @@ Montants en Md€.
 | Charges courantes et achats | D37 | 3,8 | **15 %** ⚐ | **oui** | 1 | entreprises fournisseurs | 1er janv. | 12/12 | **3,80** | 3,04 | titres 3 et 5 | due |
 | Départs de fonctionnaires de l'État | D38 | 3,0 | **10 %** | **oui** | 1, à 30 % tant que l'indemnité court ⚐ | agents publics | 1er juil. | 6/12 | **0,45** | 1,35 | titre 2, 21 pg · J38 = 61 400 ETPT | P2-05 |
 | Dépenses culturelles des collectivités | D40 | 11,6 | 10 % | **oui** | 1 | ménages, **service en nature** | 1er janv. | 12/12 | **11,60** | 10,44 | hors état B de l'État | — |
-| Collectivités — aides aux entreprises | D41 | 12,21 ⚐ | — | — | ⅓ | entreprises | 1er janv. | 12/12 | **4,07** | 4,10 | hors état B de l'État | — |
-| Collectivités — charges courantes | D42 | 9,6 | — | — | ⅓ | collectivités | 1er janv. | 12/12 | **3,20** | 3,20 | hors état B de l'État | — |
+| Collectivités — aides aux entreprises | D41 | 12,21 ⚐ | — | — | 1 ; ⅓ sur l'agriculture ⚐ | entreprises | 1er janv. | 12/12 | **9,70** | 4,10 | hors état B de l'État | — |
+| Collectivités — charges courantes | D42 | 9,6 | — | — | 1 ; ⅓ sur le logement ⚐ | collectivités | 1er janv. | 12/12 | **6,10** | 3,20 | hors état B de l'État | — |
 | Collectivités — départs | D43 | 19,864 ⚐ | **15 %** ⚑ | **oui** | 1, à 30 % tant que l'indemnité court ⚐ | agents publics | 1er juil. | 6/12 | **2,98** | 8,50 | hors état B de l'État | — |
-| **TOTAL 2027** | | | | | | | | | **48,93** | 51,69 | | |
+| **TOTAL 2027** | | | | | | | | | **57,46** | 51,69 | | |
 
 ⚑ Socle « 10 à 20 % » au classeur, borne non arrêtée : 15 % par défaut.
 
@@ -200,17 +200,24 @@ Marches au 1er juillet de chaque exercice pour les lignes à sortie en trois ans
 | Charges courantes et achats | 3,80 | 3,80 | 3,80 | 3,80 |
 | Départs de fonctionnaires de l'État | 0,45 | 0,90 | 0,90 | 0,90 |
 | Dépenses culturelles des collectivités | 11,60 | 11,60 | 11,60 | 11,60 |
-| Collectivités — aides aux entreprises | 4,07 | 8,14 | 12,21 | 12,21 |
-| Collectivités — charges courantes | 3,20 | 6,40 | 9,60 | 9,60 |
+| Collectivités — aides aux entreprises | 9,70 | 10,96 | 12,21 | 12,21 |
+| Collectivités — charges courantes | 6,10 | 7,85 | 9,60 | 9,60 |
 | Collectivités — départs | 2,98 | 5,96 | 5,96 | 5,96 |
-| **Coupes, 27 lignes** | **48,93** | **85,22** | **109,11** | **112,71** |
+| **Coupes, 27 lignes** | **57,46** | **89,49** | **109,11** | **112,71** |
 | lignes de première partie et sociale, régime plein | — | — | — | **8,30** |
 | départs d'agents, part encore indemnisée (70 %), à terme ⚐ | — | — | — | **16,00** |
 | **Coupes, périmètre complet, à terme** | | | | **137,01** |
 | **Restitution** | **33,39** | **114,46** | **114,46** | **114,46** |
-| **Solde du budget** | **+15,54** | **−29,24** | **−5,35** | **−1,75** |
+| **Solde du budget** | **+24,07** | **−24,97** | **−5,35** | **−1,75** |
+| *solde au 20261116, avant le rythme des collectivités du 20261118* | *+15,54* | *−29,24* | *−5,35* | *−1,75* |
 | *solde au 20261015, avant la mise à niveau du 20261116* | *+22,95* | *−14,41* | *+9,51* | *+13,11* |
 | *solde au 20261008, double socle* | *+18,30* | *−21,61* | *+1,75* | *+5,33* |
+
+### Mise à niveau du 20261118 — D41 et D42 au rythme du classeur
+
+⚐ **Rythme des collectivités : le classeur détaillé fait foi** (*demandé par l'auteur, 20261118*). Le § 4 mettait en trois ans toute la ligne D41 et toute la ligne D42. *Relevé* : `Dépenses locales.xlsx`, onglet T_3305, colonne AK, ne marque « En 3 ans » que l'agriculture, la sylviculture et la pêche (04.2) et le logement (06.1, 06.6), plus les autres branches (04.7) des syndicats ; `Synthèse des chiffrages`, `Détail Economies`, colonne G : « Hors transports, sortie agriculture en 3 ans » (D41), « Hors communes, sortie logement en 3 ans » (D42) ; liasse P2, pièce `coll_P2_04`, IV et III : engagements en cours exécutés jusqu'à leur terme, agriculture, forêt et pêche plafonnées par tiers. Le classeur donne la première année et le supplément : D41 **9,7 + 2,51 = 12,21**, D42 **6,1 + 3,5 = 9,6** (`Détail Economies`, colonnes D et E). *Déduit* : la part en trois ans vaut 1,5 fois le supplément (3,765 et 5,25) ; 2028 = première année + deux tiers de cette part, soit 10,96 et 7,85. Le régime plein ne change pas.
+
+**Effet par exercice**, en mesure, Md€ : D41 +5,63 · +2,82 · 0 · 0 ; D42 +2,90 · +1,45 · 0 · 0 ; **coupes +8,53 · +4,27 · 0 · 0** ; coupes après 57,46 · 89,49 · 109,11 · 112,71. La restitution ne change pas : le solde de 2027 passe de +15,54 à **+24,07**, celui de 2028 de −29,24 à **−24,97**. Au compte complet (`referentiels/calendrier_compte_complet_20261117.tsv`, rejoué), le surplus du circuit de restitution, hors chômage et patrimoine, passe à **+57,23 · +30,84 · +55,05 · +58,66 Md€** (+48,70 · +26,57 avant). **Le § 17 est antérieur** : son levier « sorties en trois ans ramenées à deux, collectivités » (+7,30) ne porte plus que sur l'agriculture et le logement.
 
 ### Mise à niveau du 20261116 — quatre lignes, valeurs antérieures gardées
 
@@ -227,6 +234,7 @@ Valeurs antérieures, pour la trace ; elles ne font plus foi.
 | Autres opérateurs | D16 | 2,745 | 1,37 | 2,75 | 2,75 | 2,75 |
 | Départs de fonctionnaires de l'État | D38 | 3,0 | 1,50 | 3,00 | 3,00 | 3,00 |
 | Collectivités — aides aux entreprises | D41 | 12,3 | 4,10 | 8,20 | 12,30 | 12,30 |
+| Collectivités — charges courantes | D42 | 9,6 | 3,20 | 6,40 | 9,60 | 9,60 |
 | Collectivités — départs | D43 | 20,0 | 10,00 | 20,00 | 20,00 | 20,00 |
 
 **Effet par exercice**, en mesure, Md€ :
@@ -271,20 +279,22 @@ Ménages à revenus d'activité rendus en deux lignes (R-T). Restitution portée
 
 | acteur | janv | févr | mars | avril | mai | juin | juil | août | sept | oct | nov | déc | **2027** | 2028 | 2029 | 2030 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Ménages actifs — transferts monétaires | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | 0,78 | 2,21 | 3,64 | 5,07 | 6,50 | 7,93 | **25,40** | 92,19 | 86,82 | 84,14 |
-| Ménages actifs — services en nature | −1,39 | −1,39 | −1,39 | −1,39 | −1,39 | −1,39 | −1,54 | −1,54 | −1,54 | −1,54 | −1,54 | −1,54 | **−17,57** | −23,83 | −29,00 | −29,00 |
+| Ménages actifs — transferts monétaires | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | 0,78 | 2,21 | 3,64 | 5,07 | 6,50 | 7,93 | **25,40** | 92,21 | 86,84 | 84,16 |
+| Ménages actifs — services en nature | −1,52 | −1,52 | −1,52 | −1,52 | −1,52 | −1,52 | −1,68 | −1,68 | −1,68 | −1,68 | −1,68 | −1,68 | **−19,17** | −24,63 | −29,00 | −29,00 |
 | Ménages sans revenus d'activité | 0,00 | 0,00 | 0,00 | −0,21 | −0,21 | −0,21 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | **−2,43** | −3,60 | −3,60 | −3,60 |
-| Agents publics | −0,06 | −0,06 | −0,06 | −0,06 | −0,06 | −0,06 | −0,67 | −0,51 | −0,35 | −0,19 | −0,03 | 0,13 | **−1,97** | 0,83 | 0,11 | 0,11 |
-| Entreprises | −1,12 | −1,12 | −1,12 | −1,12 | −1,12 | −1,12 | −1,65 | −1,65 | −1,65 | −1,65 | −1,65 | −1,65 | **−16,61** | −30,86 | −41,96 | −42,11 |
+| Agents publics | −0,11 | −0,11 | −0,11 | −0,11 | −0,11 | −0,11 | −0,72 | −0,56 | −0,40 | −0,24 | −0,08 | 0,08 | **−2,62** | 0,51 | 0,12 | 0,12 |
+| Entreprises | −1,64 | −1,64 | −1,64 | −1,64 | −1,64 | −1,64 | −2,17 | −2,17 | −2,17 | −2,17 | −2,17 | −2,17 | **−22,89** | −34,00 | −41,96 | −42,11 |
 | Associations | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | **−2,37** | −5,50 | −7,03 | −7,80 |
-| **Agents privés** | −2,69 | −2,69 | −2,69 | −2,90 | −2,90 | −2,90 | −3,77 | −2,18 | −0,59 | 1,00 | 2,59 | 4,18 | **−15,55** | 29,24 | 5,35 | 1,75 |
-| **Solde public** | 2,69 | 2,69 | 2,69 | 2,90 | 2,90 | 2,90 | 3,77 | 2,18 | 0,59 | −1,00 | −2,59 | −4,18 | **15,55** | −29,24 | −5,35 | −1,75 |
+| **Agents privés** | −3,40 | −3,40 | −3,40 | −3,61 | −3,61 | −3,61 | −4,48 | −2,89 | −1,30 | 0,29 | 1,88 | 3,47 | **−24,08** | 24,97 | 5,35 | 1,75 |
+| **Solde public** | 3,40 | 3,40 | 3,40 | 3,61 | 3,61 | 3,61 | 4,48 | 2,89 | 1,30 | −0,29 | −1,88 | −3,47 | **24,08** | −24,97 | −5,35 | −1,75 |
 
 **Lecture** (règles de l'auteur, 20261116). Les agents sont tous privés : « les agents publics sont des personnes privées. Le solde public est l'inverse de la somme des privés ». Les coupes sur les budgets d'agences et de collectivités retombent sur des privés : « collocs on a la répart des dépenses et agences on peut faire une classification grossière des plus grosses (entreprises et/ou ménages) et une classification conventionnelle du reste (moitié agent moitié fournisseurs) ». **Clé posée, non mesurée** (`CLE_PRIVEE` de `appareil/calendrier_mesures_mois.py`) : Ademe aux entreprises ; autres opérateurs à 46 % aux ménages, 44 % aux entreprises, 10 % aux agents publics ; audiovisuel public moitié agents, moitié entreprises ; charges courantes locales à 55 % aux ménages (logement, équipements collectifs), le reste moitié agents, moitié entreprises. **Ce tableau ne porte ni les niches supprimées (52,1 Md€ par an) ni l'épargne rendue : le solde public n'est pas nul tant qu'elles n'y sont pas.**
 
 *Rejoué le 20261116 sur le croisé mesure × mois (`referentiels/calendrier_mesures_mois_20261116.tsv`), après la mise à niveau du § 5 et la date du chèque énergie : opérateurs à 4,116 de régime plein, départs d'agents à 30 % tant que l'indemnité court, chèque énergie éteint au 1er janvier. Le tableau du 15 octobre donnait −22,95 au total, −8,16 aux agents publics et −3,42 aux opérateurs. Par exercice, 2028 à 2030, total tous agents : +29,24 · +5,35 · +1,75.*
 
 **Cumulé, transferts monétaires aux ménages actifs** : −0,12 · −0,24 · −0,37 · −0,49 · −0,61 · **−0,74** en juin · **+0,04** dès juillet · +25,40 en décembre.
+
+*Rejoué le 20261118 après le rythme des collectivités (D41, D42 au classeur) : entreprises et ménages (services en nature) perdent 8,53 Md€ de plus en 2027 ; le solde public de 2027 passe de 15,55 à 24,08 Md€.*
 
 Le solde tous acteurs bascule en **octobre 2027** (novembre au 20261015 : les départs d'agents ne pèsent plus que 30 % tant que l'indemnité court).
 
