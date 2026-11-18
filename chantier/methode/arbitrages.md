@@ -9271,3 +9271,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **À reporter au livre, par l’auteur** — note e118, phrase proposée : « La valorisation prend pour hypothèse prudente un socle de 30 % conservé et une décote de liquidité de 15 %. Soit environ 200 Md€ de produits de cession à restituer sur ces logements […] ». Le manuscrit ne se corrige pas depuis l’aval.
 
+### Logement social : le parc gardé dit en deux parts — 20261118
+
+**Validé.** *Consigne de l’auteur* : « on peut dire 15 + 15 + 15 en distinguant dans ce qui est conservé par exemple les contingences publiques potentielles et un parc local d’urgence, sans s’étendre mais en ouvrant le sujet, il faut juste éviter l’effet "bloc certain" ». Les 30 % gardés se disent 15 % pour d’éventuels besoins publics et 15 % pour un parc local d’urgence ; la décote reste de 15 %. *Exécuté* : explication du simulateur. **Phrase proposée pour la note e118 du livre** (l’auteur la reporte) : « La valorisation prend pour hypothèses prudentes une part conservée de 15 % pour d’éventuels besoins publics, une autre de 15 % pour un parc local d’urgence, et une décote de liquidité de 15 %. Soit environ 200 Md€ de produits de cession à restituer sur ces logements […] ».
+
