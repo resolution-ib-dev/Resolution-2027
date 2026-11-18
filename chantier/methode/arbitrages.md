@@ -9294,3 +9294,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Simulateur : « À arrêter » en tête, « Conservé » ensuite — 20261118
 
 **Demandé par l’auteur** (20261118). **Exécuté, à valider.** Remplace l’entrée précédente. La liste des actions coupées s’ouvre par « À arrêter. » (« Comprend » ne marche pas) ; « À arrêter, en trois ans. » quand toute la ligne s’éteint sur trois ans (rythme ⅓ du calendrier par mesure). « Conservé. » suit, puis le classeur. La mention « Arrêté » et les dates sont retirées : le principe compte. La carte Entreprises garde « État et collectivités ». Aucun montant ne change.
+
+### Simulateur : rythme retiré des lignes ; agents locaux à 10 ou 20 % ; accueil d’essai — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** « En trois ans » retiré du niveau des lignes : il mêlait clé de décaissement (CP) et clause du grand-père (AE) ; quand plusieurs cas coexistent, la précision va dans les petites lignes ; rien à dire, rien. Agents des collectivités : le classeur (Dépenses locales, T_3305, colonne AI) garde 10 % (facteur 0,9) sur l’administration, l’économie et le logement, 20 % (0,8) sur la culture et les loisirs, l’administration générale des communes entière ; moyenne pondérée par la masse 2023 des fonctions coupées : 14,5 %, soit les 15 % du calendrier (*calculé*). Page `accueil-25.html` : l’accueil avec « Vous rendre 25 % de votre salaire » vers le simulateur, non liée, non indexée ; l’accueil réel reste à 600 €.
