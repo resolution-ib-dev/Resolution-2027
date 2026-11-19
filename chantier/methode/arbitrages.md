@@ -9334,3 +9334,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Simulateur : même schéma pour l’investissement, sport, hôpitaux, cartes courtes — 20261118
 
 **Demandé par l’auteur** (20261118). **Exécuté, à valider.** Ademe, agences de l’eau, Action Logement, MaPrimeRénov’ : « engagements en cours payés » ; France 2030, aide au développement, aides locales aux entreprises, administrations (investissement) : « Plus d’engagement nouveau ; ceux en cours sont payés ». Les Jeux ne sont plus nommés : « Sport » regroupe le comité d’organisation et le sport de haut niveau. Fonds européens de santé : « Modernisation des hôpitaux, des Ehpad et du numérique en santé ». Cartes du simulateur réécrites en deux phrases directes, tirées des cartes complètes, qui restent en renvoi.
+
+### Site : économies dites par an ; tuile Régions ; retraite du n° 26 — 20261119
+
+**Demandé par l’auteur** (20261119). **Exécuté.** « Par an » ajouté partout où une économie annuelle était dite sans : titre du graphique « Où sont les 236 milliards d’euros d’économies par an ? » (pages, galerie, renvois, PNG, PDF et format portrait, en-tête refait aux polices du site), cartes des propositions (« 41 Md€ économisés par an »…), titre de la page Données ; chapeau du graphique sans doublon. Graphique des emplois : la tuile « Régions » porte sa valeur, au corps des autres tuiles. N° 26 : la validation des mois d’indemnité pour la retraite reste bornée à la durée du chômage remplacé.
