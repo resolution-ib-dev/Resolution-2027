@@ -9338,3 +9338,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Site : économies dites par an ; tuile Régions ; retraite du n° 26 — 20261119
 
 **Demandé par l’auteur** (20261119). **Exécuté.** « Par an » ajouté partout où une économie annuelle était dite sans : titre du graphique « Où sont les 236 milliards d’euros d’économies par an ? » (pages, galerie, renvois, PNG, PDF et format portrait, en-tête refait aux polices du site), cartes des propositions (« 41 Md€ économisés par an »…), titre de la page Données ; chapeau du graphique sans doublon. Graphique des emplois : la tuile « Régions » porte sa valeur, au corps des autres tuiles. N° 26 : la validation des mois d’indemnité pour la retraite reste bornée à la durée du chômage remplacé.
+
+### Simulateur et graphiques : lisibilité — 20261119
+
+**Demandé par l’auteur** (20261119). **Exécuté, à valider.** Graphiques : « Le montant est égal à la surface », « La part est égale à la surface » (pages, PNG, PDF, portraits). « Vous gagnez » : montants avant les libellés, sous le total. Agents : « 5,2 millions au lieu de 5,8 ». Agences nommées par leurs plus gros organismes. Colonne élargie sur ordinateur. Vue par ministère : « Gardés en entier » pour les ministères sans économie, lignes nommées dans leur ministère, niches précisées.
