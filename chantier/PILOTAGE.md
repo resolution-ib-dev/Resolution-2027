@@ -50,6 +50,7 @@ tableau se met à jour à chaque fusion et à chaque point. *Relevé le 20261116
 | Retraite pendant l’indemnité de départ | mois d’indemnité validés dans la limite de la durée du chômage remplacé | 20261119 |
 | Économies | toujours dites « par an » quand elles le sont | 20261119 |
 | Organismes publics | nommés par leur sigle dans le simulateur, pour montrer l’empilement | 20261119 |
+| Sort des organismes | vendu ou supprimé, c’est pareil : rien à dire ; seuls « rendu au ministère » et « autonome » se disent | 20261119 |
 | Simulateur, lecture | trois strates ; « qui : quoi », dépense finale lue à l'action ; « administration » pour le ministère lui-même ; « Autres » en fin de liste ; ordre échelons, agences, ministères, agents ; agents liés aux structures | 20261117 |
 | Simulateur, montants | patrimoine à 3 %, 18 Md€, à part du compte de flux ; 600 € à 2 400 € nets ; chômage en deux lignes ; niches par sujet | 20261116-17 |
 | Agriculture | « administration, guichets d'aides » | 20261117 |
