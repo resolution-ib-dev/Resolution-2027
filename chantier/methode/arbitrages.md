@@ -9362,3 +9362,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Simulateur, vue par ministère : chômage sous Travail — 20261120
 
 **Demandé par l’auteur** (20261120). **Exécuté.** L’assurance chômage (indemnisation collective réduite, refonte en aide fondamentale universelle) passe sous Travail et solidarités, qui pèse alors 61 Md€ par an. Total de la vue inchangé.
+
+### Simulateur, vue par ministère : niches sociales sous Travail, communes par thème — 20261120
+
+**Demandé par l’auteur** (20261120). **Exécuté.** Exonérations de cotisations sociales (9 Md€) sous Travail et solidarités. Dépenses des communes, toutes thématiques, rangées au ministère de leur fonction (comptes locaux, T_3305) : culture et loisirs → Culture et sports ; développement économique, commerce, tourisme, télécommunications, recherche → Économie et finances ; énergie → Transition écologique ; agriculture → Agriculture ; logement et équipements collectifs → Ville, logement et territoires. Départements et régions restent hors ministère. Total inchangé.
