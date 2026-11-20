@@ -9358,3 +9358,7 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 ### Simulateur, vue par ministère : tout ventilé — 20261120
 
 **Demandé par l’auteur** (20261120 : « tu as la donnée pour tout ventiler » ; « b et b »). **Exécuté, à valider.** Travail et solidarités et services du Premier ministre parmi les ministères facultatifs ; Solidarité nationale = Santé. Lignes communes réparties entre leurs ministères à l’élément ; lignes « autres » sans programme propre (D22, D27, D36) au poids de leurs programmes, relevé au référentiel des paramètres de crédits (`composantes.json`, `_programmes`). Niches fiscales rendues à leur ministère de rattachement (Niches fiscales.xls, onglet Programme de rattachement, à titre principal), niches sociales sous Sécurité sociale. Petits ministères accolés : Enseignement ; Intérieur, Justice, Armées ; Culture et sports ; Ville, logement et territoires (aménagement du territoire, outre-mer). Reste en « Autres ministères » : les autres agences fermées (420 M€), sans programme au classeur. Total de la vue : 236,35 Md€, égal au classeur. Aides locales : laissées sous leurs collectivités (décision locale, pas de ministère).
+
+### Simulateur, vue par ministère : chômage sous Travail — 20261120
+
+**Demandé par l’auteur** (20261120). **Exécuté.** L’assurance chômage (indemnisation collective réduite, refonte en aide fondamentale universelle) passe sous Travail et solidarités, qui pèse alors 61 Md€ par an. Total de la vue inchangé.
