@@ -3,8 +3,11 @@
 
 Lit referentiels/sort_prelevements_20261116.tsv et
 livrables/tri_prelevements/passage_tableau_20261116.tsv (écrits par tri_unique.py).
-Cinq onglets : Lisez-moi, Le tri, Par devenir, Par poste du tableau, Passage.
-Montants en M€ entiers. Le classeur se relit après écriture : aucune mention
+Six onglets : Synthèse (avant / après, dans l'ordre du graphique « 434 prélèvements aujourd'hui,
+4 grands impôts demain »), Le tri (une ligne par prélèvement, dans l'ordre du graphique, cotisations à
+fusionner isolées en bas), Par devenir, Par poste du tableau, Passage, Lisez-moi. Montants en M€ entiers,
+indicatifs : en gris, en dernière colonne, car 186 prélèvements n'ont pas de rendement publié (règle de
+l'auteure, 20261123). Le classeur se relit après écriture : aucune mention
 interne, aucun identifiant, aucun montant décimal, six devenirs exactement,
 434 lignes, totaux rebouclés. Code retour 1 sur un seul écart.
 """
@@ -24,6 +27,12 @@ SORTIE = RACINE / 'livrables/tri_prelevements/Tri des impôts.xlsx'
 
 DEVENIRS = ['grand impôt conservé', 'remplacé par un grand impôt', 'fondu dans l’équilibre des quatre grands impôts',
             'conservé en complément', 'à fusionner', 'recette non fiscale']
+# Libellé publié d'un devenir (auteure, 20261123 : « complément sectoriel harmonisé »).
+NOM_DEV = {d: d for d in DEVENIRS}
+NOM_DEV['conservé en complément'] = 'complément sectoriel harmonisé'
+GRAPHIQUE = Path('/home/user/Site-ETNP/site/graphiques/fusion-des-impots.html')
+COLONNES = ['Impôt sur le revenu', 'Impôt sur les sociétés', 'Taxe sur la valeur ajoutée', 'Taxe foncière', 'Cotisation unique']
+NOM_COL = {'Taxe sur la valeur ajoutée': 'TVA'}
 DEF = {
     'grand impôt conservé': 'Impôt sur le revenu, impôt sur les sociétés, TVA, taxe foncière.',
     'remplacé par un grand impôt': 'Le prélèvement disparaît. Un des quatre grands impôts, nommé à la colonne « Impôt de remplacement », en reprend le produit.',
@@ -56,6 +65,13 @@ SIEGE_SALE = re.compile(r'\d{8}|à confirmer|à vérifier|probable|n\.d\.|relev�
 GRAS = Font(bold=True)
 HAUT = Alignment(wrap_text=True, vertical='top')
 GRIS = PatternFill('solid', fgColor='DDDDDD')
+TETE = PatternFill('solid', fgColor='B23A10')
+BLANC = Font(bold=True, color='FFFFFF')
+SABLE = PatternFill('solid', fgColor='F7F3E8')
+INDIC = Font(italic=True, color='8C8C8C')
+UNE = Alignment(wrap_text=False, vertical='center')
+from openpyxl.styles import Border, Side
+FIL = Border(bottom=Side(style='thin', color='DDD7CD'))
 NB = '# ##0'
 
 
@@ -107,165 +123,270 @@ def feuille(wb, titre, cols, lignes, larg, filtre=True):
     return ws
 
 
+def colonne_du_graphique():
+    """{libellé: rang de colonne 0..4} relevé sur le graphique publié (abscisse de chaque carré)."""
+    s = GRAPHIQUE.read_text(encoding='utf-8')
+    svg = s[s.index('<svg'):s.index('</svg>')]
+    out = {}
+    for lib, x in re.findall(r'<g class="tuile" data-lib="([^"]*)"[^>]*>.*?<rect x="([\d.]+)"', svg):
+        import html as _h
+        out[' '.join(_h.unescape(lib).split())] = min(4, int((float(x) - 120) // 288))
+    return out
+
+
+def rang_graphique(r, col_g):
+    """Clé d'ordre : colonne du graphique, puis devenir, puis rendement décroissant ; les cotisations
+    à fusionner en tout dernier (auteure, 20261123)."""
+    d = r['devenir']
+    if d == 'à fusionner':
+        return (9, 0, -f(r['rendement_2026_M']))
+    if d == 'recette non fiscale':
+        return (8, 0, -f(r['rendement_2026_M']))
+    c = col_g.get(' '.join(r['libelle'].split()))
+    if c is None:
+        c = COLONNES.index(r['impot_cible']) if r['impot_cible'] in COLONNES else (4 if d.startswith('fondu') else 2)
+    return (c, DEVENIRS.index(d), -f(r['rendement_2026_M']))
+
+
+def demain(r, col_g):
+    d = r['devenir']
+    if d == 'à fusionner':
+        return 'Cotisation unique'
+    if d == 'recette non fiscale':
+        return 'Hors impôts'
+    return NOM_COL.get(COLONNES[rang_graphique(r, col_g)[0]], COLONNES[rang_graphique(r, col_g)[0]])
+
+
+def entete(ws, ligne, cols, indic=()):
+    for j, c in enumerate(cols, 1):
+        x = ws.cell(row=ligne, column=j, value=c)
+        x.font, x.fill, x.alignment = BLANC, TETE, Alignment(wrap_text=True, vertical='center')
+    ws.row_dimensions[ligne].height = 48
+    ws.page_setup.orientation = 'landscape'
+    ws.page_setup.fitToWidth, ws.page_setup.fitToHeight = 1, 0
+    ws.sheet_properties.pageSetUpPr.fitToPage = True
+
+
 def construire():
     T = lire(TRI)
     P = lire(PASSAGE)
+    col_g = colonne_du_graphique()
     n_tot = len(T)
     vides = [r for r in T if r['rendement_2026_M'] == '']
     chiffres = n_tot - len(vides)
-    cot = sum(1 for r in vides if r['devenir'] == 'à fusionner')
-    rev = sum(1 for r in T if 'révisée' in r['source_rendement'] and r['rendement_2026_M'] != '')
     par_dev = {d: [r for r in T if r['devenir'] == d] for d in DEVENIRS}
     tot_exact = sum(f(r['rendement_2026_M']) for r in T)
-
+    ordre = sorted(T, key=lambda r: rang_graphique(r, col_g))
     wb = Workbook()
-    ws = wb.active
-    ws.title = 'Lisez-moi'
-    L = [('Le tri des impôts', ''), ('', ''),
-         ('Objet', f'{n_tot} prélèvements obligatoires recensés : impôts, taxes, contributions et cotisations. Chacun reçoit un devenir dans la réforme, parmi six.'),
-         ('Montants', 'Millions d’euros, arrondis à l’unité. Prévision pour 2026 du budget 2026. Les totaux sont calculés sur les montants exacts, puis arrondis.'),
-         ('', ''), ('Les six devenirs', 'Nombre de prélèvements, rendement 2026 en millions d’euros')]
-    for d in DEVENIRS:
-        rs = par_dev[d]
-        L.append((d[0].upper() + d[1:], f'{len(rs)} prélèvements, {esp(m(sum(f(r["rendement_2026_M"]) for r in rs)))} M€. ' + DEF[d]))
-    L += [('', ''),
-          ('Prélèvements sans rendement publié',
-           f'{len(vides)} prélèvements sur {n_tot} n’ont aucun rendement publié aux annexes du budget : leur case est vide, et les totaux portent sur les {chiffres} autres. '
-           f'Il s’agit de {cot} cotisations sociales, de taxes affectées à des organismes et d’impôts locaux, dont la taxe foncière sur les propriétés bâties. '
-           f'{rev} prélèvements, ajoutés d’après le budget 2027, portent sa prévision révisée pour 2026.'),
-          ('', ''), ('Les onglets', ''),
-          ('Le tri', 'Une ligne par prélèvement : nature, assiette, rendement, devenir, impôt de remplacement ou bloc, poste du tableau de la refonte, siège juridique et lien vers Légifrance.'),
-          ('Par devenir', 'Nombre et rendement par devenir, par impôt de remplacement et par bloc.'),
-          ('Par poste du tableau', 'Nombre et rendement par poste du tableau « Refonte fiscalité » et par devenir.'),
-          ('Passage', 'Chaque poste du tableau « Refonte fiscalité » (montant 2024, taxes à supprimer) face aux prélèvements du tri qui s’y rattachent, avec la lecture de chaque écart.'),
-          ('', ''), ('Lecture des colonnes', ''),
-          ('Impôt de remplacement', 'Renseigné pour un prélèvement remplacé : impôt sur le revenu quand un particulier paie, impôt sur les sociétés quand une entreprise paie pour son activité, TVA pour une taxe sur la consommation, taxe foncière pour le patrimoine et l’action locale.'),
-          ('Mention', '« Droit ramené à 1 % et 3 %, part gardée » : les droits de mutation sont ramenés à 1 % et 3 %, acompte de l’impôt sur le revenu ou sur les sociétés ; la part gardée figure en colonne. « Supprimé par voie réglementaire » : redevance supprimée par décret.'),
-          ('Poste du tableau', 'Ligne du tableau « Refonte fiscalité » de la synthèse des chiffrages. « Hors tableau » : cotisations sociales, CSG, CRDS et autres prélèvements que ce tableau ne détaille pas.'),
-          ('Tableau en 2024, tri en 2026', 'Le tableau « Refonte fiscalité » est en montants de 2024 des comptes nationaux ; le tri est en prévision 2026 du budget. Un écart de montant entre les deux tient d’abord à ces deux années et à ces deux sources.'),
-          ('', ''),
-          ('CSG et CRDS', 'Elles sont remplacées par l’impôt sur le revenu, dont le taux unique de 23 % se calcule sur une assiette qui intègre la leur.'),
-          ('', ''),
-          ('Sources', 'Projets de loi de finances pour 2026 et pour 2027, évaluation des voies et moyens ; code général des impôts, code des impositions sur les biens et services, code de la sécurité sociale et autres textes en vigueur ; comptes nationaux de l’Insee, tableau 3.217, pour le tableau « Refonte fiscalité ».')]
-    for a, b in L:
-        ws.append([a, b])
-    ws['A1'].font = Font(bold=True, size=14)
-    for row in ws.iter_rows():
-        row[0].alignment = row[1].alignment = HAUT
-        if row[0].value in ('Les six devenirs', 'Les onglets', 'Lecture des colonnes', 'Prélèvements sans rendement publié'):
-            row[0].font = GRAS
-    ws.column_dimensions['A'].width = 44
-    ws.column_dimensions['B'].width = 120
 
-    # ---- Le tri
-    cols = ['N°', 'Prélèvement', 'Nature', 'Assiette', 'Rendement 2026 (M€)', 'Devenir', 'Impôt de remplacement', 'Bloc',
-            'Mention', 'Dont part gardée (M€)', 'Poste du tableau', 'Siège', 'Lien Légifrance']
-    lignes = []
-    for k, r in enumerate(T, 1):
+    # ---- Synthèse : avant / après
+    ws = wb.active
+    ws.title = 'Synthèse'
+    ws['A1'] = f'{n_tot} prélèvements aujourd’hui, 4 grands impôts demain'
+    ws['A1'].font = Font(bold=True, size=16, color='B23A10')
+    ws['A2'] = 'Chaque prélèvement est rangé sous l’impôt qui le reprend, dans l’ordre du graphique.'
+    ws['A2'].font = Font(italic=True, color='6D6A64')
+    cols = ['Demain', 'Aujourd’hui : prélèvements', 'dont grand impôt conservé', 'dont remplacés',
+            'dont compléments sectoriels harmonisés', 'dont fondus dans l’équilibre', 'Les plus lourds',
+            'Rendement 2026, indicatif (M€)']
+    entete(ws, 4, cols)
+    groupes = ['Impôt sur le revenu', 'Impôt sur les sociétés', 'TVA', 'Taxe foncière', 'Cotisation unique', 'Hors impôts']
+    lig = 5
+    for g in groupes:
+        rs = [r for r in ordre if demain(r, col_g) == g]
+        if not rs:
+            continue
+        n = lambda d: sum(1 for r in rs if r['devenir'] == d) or None
+        lourds = '\u00a0; '.join(r['libelle'] for r in sorted(rs, key=lambda r: -f(r['rendement_2026_M']))[:3]
+                                  if r['rendement_2026_M'] != '')
+        if g == 'Cotisation unique':
+            lourds = f'{n("à fusionner") or 0} cotisations à fusionner' + (f'\u00a0; {lourds}' if lourds else '')
+        nom = {'Cotisation unique': 'Cotisation unique (travail)', 'Hors impôts': 'Recettes non fiscales'}.get(g, g)
+        v = [nom, len(rs), n('grand impôt conservé'), n('remplacé par un grand impôt'), n('conservé en complément'),
+             n('fondu dans l’équilibre des quatre grands impôts'), lourds, som(rs)]
+        for j, x in enumerate(v, 1):
+            c = ws.cell(row=lig, column=j, value=x)
+            c.border, c.alignment = FIL, Alignment(vertical='center', wrap_text=(j == 7))
+            if isinstance(x, int) and j > 1:
+                c.number_format = NB
+        ws.cell(row=lig, column=1).font = GRAS
+        ws.cell(row=lig, column=8).font = INDIC
+        ws.row_dimensions[lig].height = 48
+        lig += 1
+    tot = ['Total', n_tot] + [len(par_dev[d]) or None for d in ('grand impôt conservé', 'remplacé par un grand impôt',
+                                                              'conservé en complément', 'fondu dans l’équilibre des quatre grands impôts')] + [None, m(tot_exact)]
+    for j, x in enumerate(tot, 1):
+        c = ws.cell(row=lig, column=j, value=x)
+        c.font, c.fill = GRAS, SABLE
+        if isinstance(x, int):
+            c.number_format = NB
+    ws.cell(row=lig, column=8).font = Font(bold=True, italic=True, color='8C8C8C')
+    ws.cell(row=lig + 2, column=1, value=f'Rendement indicatif : {len(vides)} prélèvements sur {n_tot} n’ont pas de rendement publié '
+                                         f'(cotisations sociales, taxes affectées à des organismes, impôts locaux). Les totaux portent sur les {chiffres} autres.').font = INDIC
+    for j, w in enumerate([30, 14, 14, 12, 18, 14, 70, 16], 1):
+        ws.column_dimensions[get_column_letter(j)].width = w
+    ws.freeze_panes = 'A5'
+    ws.sheet_view.showGridLines = False
+
+    # ---- Le tri : une ligne par prélèvement, ordre du graphique, cotisations en bas
+    ws = wb.create_sheet('Le tri')
+    cols = ['N°', 'Prélèvement', 'Demain', 'Devenir', 'Nature', 'Assiette', 'Bloc', 'Mention', 'Siège', 'Lien Légifrance',
+            'Rendement 2026, indicatif (M€)']
+    entete(ws, 1, cols)
+    lig, k, coupe = 2, 0, False
+    for r in ordre:
+        if r['devenir'] == 'à fusionner' and not coupe:
+            lig += 1
+            c = ws.cell(row=lig, column=1, value='Cotisations à fusionner en une cotisation unique')
+            c.font = Font(bold=True, color='B23A10')
+            lig += 1
+            coupe = True
+        k += 1
         sg = r['siege'].replace('—', '').strip()
-        lignes.append([k, r['libelle'], r['nature'], r['assiette'] or None, m(r['rendement_2026_M']), r['devenir'],
-                       r['impot_cible'] or None, r['bloc'] or None,
-                       (r['mention'][0].upper() + r['mention'][1:]) if r['mention'] else None,
-                       m(r['part_conservee_2026_M']), POSTE[r['poste_tableau']],
-                       None if (not sg or SIEGE_SALE.search(sg)) else sg, r['lien_legifrance'] or None])
-    ws = feuille(wb, 'Le tri', cols, lignes, {'N°': 6, 'Prélèvement': 60, 'Devenir': 34, 'Impôt de remplacement': 24, 'Bloc': 20,
-                                              'Mention': 30, 'Poste du tableau': 36, 'Siège': 40, 'Lien Légifrance': 34,
-                                              'Assiette': 26, 'Nature': 18})
-    for row in ws.iter_rows(min_row=2, min_col=13, max_col=13):
-        c = row[0]
-        if c.value:
-            c.hyperlink = c.value
-            c.font = Font(color='0563C1', underline='single')
+        v = [k, r['libelle'], demain(r, col_g), NOM_DEV[r['devenir']][0].upper() + NOM_DEV[r['devenir']][1:], r['nature'],
+             r['assiette'] or None, r['bloc'] or None, (r['mention'][0].upper() + r['mention'][1:]) if r['mention'] else None,
+             None if (not sg or SIEGE_SALE.search(sg)) else sg, r['lien_legifrance'] or None, m(r['rendement_2026_M'])]
+        for j, x in enumerate(v, 1):
+            c = ws.cell(row=lig, column=j, value=x)
+            c.alignment = UNE
+            if j == 11:
+                c.font, c.number_format = INDIC, NB
+            if j == 10 and x:
+                c.hyperlink, c.font = x, Font(color='0563C1', underline='single')
+        lig += 1
+    for j, w in enumerate([6, 70, 26, 34, 18, 22, 22, 30, 34, 30, 16], 1):
+        ws.column_dimensions[get_column_letter(j)].width = w
+    ws.freeze_panes = 'C2'
+    ws.auto_filter.ref = f'A1:K{lig - 1}'
 
     # ---- Par devenir
-    syn = defaultdict(lambda: [0, 0, 0.0, 0.0, []])
+    syn = defaultdict(lambda: [0, 0, []])
     for r in T:
         x = syn[(r['devenir'], r['impot_cible'] or r['bloc'] or '')]
         x[0] += 1
         x[1] += r['rendement_2026_M'] == ''
-        x[2] += f(r['rendement_2026_M'])
-        x[3] += f(r['part_conservee_2026_M'])
-        x[4].append(r)
+        x[2].append(r)
     lignes = []
     for d in DEVENIRS:
         rs = par_dev[d]
-        lignes.append([d[0].upper() + d[1:], 'Ensemble', len(rs), sum(1 for r in rs if r['rendement_2026_M'] == ''),
-                       m(sum(f(r['rendement_2026_M']) for r in rs)), m(sum(f(r['part_conservee_2026_M']) for r in rs)) or None])
-        sous = sorted((k for k in syn if k[0] == d and k[1]), key=lambda k: -syn[k][2])
-        for k in sous:
-            v = syn[k]
-            lignes.append([None, k[1], v[0], v[1], som(v[4]), m(v[3]) or None])
-    lignes.append(['Total', None, n_tot, len(vides), m(tot_exact), m(sum(f(r['part_conservee_2026_M']) for r in T))])
+        lignes.append([NOM_DEV[d][0].upper() + NOM_DEV[d][1:], 'Ensemble', len(rs), sum(1 for r in rs if r['rendement_2026_M'] == ''),
+                       m(sum(f(r['rendement_2026_M']) for r in rs))])
+        for kk in sorted((kk for kk in syn if kk[0] == d and kk[1]), key=lambda kk: -sum(f(r['rendement_2026_M']) for r in syn[kk][2])):
+            v = syn[kk]
+            lignes.append([None, kk[1], v[0], v[1], som(v[2])])
+    lignes.append(['Total', None, n_tot, len(vides), m(tot_exact)])
     ws = feuille(wb, 'Par devenir', ['Devenir', 'Impôt de remplacement ou bloc', 'Prélèvements', 'Dont sans rendement publié',
-                                     'Rendement 2026 (M€)', 'Dont part gardée (M€)'], lignes,
-                 {'Devenir': 46, 'Impôt de remplacement ou bloc': 32}, filtre=False)
-    for row in ws.iter_rows(min_row=2):
-        if row[0].value:
-            for c in row:
-                c.font = GRAS
+                                     'Rendement 2026, indicatif (M€)'], lignes, {'Devenir': 46, 'Impôt de remplacement ou bloc': 32}, filtre=False)
+    habiller(ws)
 
     # ---- Par poste du tableau
-    ordre = list(POSTE)
-    pp = defaultdict(lambda: [0, 0, 0.0, []])
+    pp = defaultdict(lambda: [0, 0, []])
     for r in T:
         x = pp[(r['poste_tableau'], r['devenir'])]
         x[0] += 1
         x[1] += r['rendement_2026_M'] == ''
-        x[2] += f(r['rendement_2026_M'])
-        x[3].append(r)
+        x[2].append(r)
     lignes = []
-    for p in ordre:
+    for p in POSTE:
         ks = [(p, d) for d in DEVENIRS if (p, d) in pp]
         if not ks:
             continue
-        lignes.append([POSTE[p], 'Ensemble', sum(pp[k][0] for k in ks), sum(pp[k][1] for k in ks), m(sum(pp[k][2] for k in ks))])
-        for k in ks:
-            lignes.append([None, k[1][0].upper() + k[1][1:], pp[k][0], pp[k][1], som(pp[k][3])])
+        lignes.append([POSTE[p], 'Ensemble', sum(pp[kk][0] for kk in ks), sum(pp[kk][1] for kk in ks),
+                       m(sum(sum(f(r['rendement_2026_M']) for r in pp[kk][2]) for kk in ks))])
+        for kk in ks:
+            lignes.append([None, NOM_DEV[kk[1]][0].upper() + NOM_DEV[kk[1]][1:], pp[kk][0], pp[kk][1], som(pp[kk][2])])
     lignes.append(['Total', None, n_tot, len(vides), m(tot_exact)])
     ws = feuille(wb, 'Par poste du tableau', ['Poste du tableau', 'Devenir', 'Prélèvements', 'Dont sans rendement publié',
-                                              'Rendement 2026 (M€)'], lignes, {'Poste du tableau': 46, 'Devenir': 46}, filtre=False)
-    for row in ws.iter_rows(min_row=2):
-        if row[0].value:
-            for c in row:
-                c.font = GRAS
+                                              'Rendement 2026, indicatif (M€)'], lignes, {'Poste du tableau': 46, 'Devenir': 46}, filtre=False)
+    habiller(ws)
 
     # ---- Passage
     cols = ['Poste du tableau', 'Montant 2024 au tableau (M€)', 'Taxes à supprimer au tableau (M€)', 'Prélèvements du tri',
-            'Dont sans rendement publié', 'Rendement 2026 au tri (M€)', 'Dont supprimé au tri (M€)', 'Dont gardé au tri (M€)',
+            'Dont sans rendement publié', 'Rendement 2026 au tri, indicatif (M€)', 'Dont supprimé au tri (M€)', 'Dont gardé au tri (M€)',
             'Écart de montant, tri moins tableau (M€)', 'Écart sur le supprimé, tri moins tableau (M€)', 'Lecture']
     lignes = []
     for r in P:
         p = r['poste']
         nom = POSTE[p] if p in POSTE else 'Hors tableau : ' + p.split(' — ')[1]
-        iv = lambda k: int(r[k]) if r[k] != '' else None
+        iv = lambda kk: int(r[kk]) if r[kk] != '' else None
         lignes.append([nom, m(r['montant_2024_M']), m(r['a_supprimer_2024_M']), iv('rangs'), iv('sans_rendement'),
                        m(r['rendement_2026_M']), m(r['supprime_2026_M']), m(r['garde_2026_M']), m(r['ecart_montant_M']),
-                       m(r['ecart_supprime_M']), r['lecture']])
-    feuille(wb, 'Passage', cols, lignes, {'Poste du tableau': 46, 'Lecture': 110}, filtre=False)
+                       m(r['ecart_supprime_M']), r['lecture'].replace('conservé en complément', 'complément sectoriel harmonisé')
+                       .replace('Conservé en complément', 'Complément sectoriel harmonisé')])
+    ws = feuille(wb, 'Passage', cols, lignes, {'Poste du tableau': 46, 'Lecture': 110}, filtre=False)
+    for c in ws[1]:
+        c.font, c.fill = BLANC, TETE
+
+    # ---- Lisez-moi
+    ws = wb.create_sheet('Lisez-moi')
+    L = [('Le tri des impôts', ''), ('', ''),
+         ('Objet', f'{n_tot} prélèvements obligatoires recensés : impôts, taxes, contributions et cotisations. Chacun reçoit un devenir dans la réforme, parmi six.'),
+         ('Montants', f'Indicatifs, en gris : {len(vides)} prélèvements sur {n_tot} n’ont pas de rendement publié aux annexes du budget, et les totaux portent sur les {chiffres} autres. '
+                      'Millions d’euros, prévision 2026 du budget 2026, arrondis à l’unité.'),
+         ('', ''), ('Les six devenirs', '')]
+    for d in DEVENIRS:
+        L.append((NOM_DEV[d][0].upper() + NOM_DEV[d][1:], f'{len(par_dev[d])} prélèvements. ' + DEF[d]))
+    L += [('', ''), ('Les onglets', ''),
+          ('Synthèse', 'Avant / après : ce que chaque grand impôt reprend, dans l’ordre du graphique « 434 prélèvements aujourd’hui, 4 grands impôts demain ».'),
+          ('Le tri', 'Une ligne par prélèvement, dans l’ordre du graphique ; les cotisations à fusionner sont regroupées en bas.'),
+          ('Par devenir', 'Nombre et rendement par devenir, par impôt de remplacement et par bloc.'),
+          ('Par poste du tableau', 'Nombre et rendement par poste du tableau « Refonte fiscalité » et par devenir.'),
+          ('Passage', 'Chaque poste du tableau « Refonte fiscalité » face aux prélèvements du tri qui s’y rattachent.'),
+          ('', ''),
+          ('CSG et CRDS', 'Elles sont remplacées par l’impôt sur le revenu, dont le taux unique de 23 % se calcule sur une assiette qui intègre la leur.'),
+          ('Sources', 'Projets de loi de finances pour 2026 et pour 2027, évaluation des voies et moyens ; code général des impôts, code des impositions sur les biens et services, code de la sécurité sociale et autres textes en vigueur ; comptes nationaux de l’Insee, tableau 3.217.')]
+    for a, b in L:
+        ws.append([a, b])
+    ws['A1'].font = Font(bold=True, size=14, color='B23A10')
+    for row in ws.iter_rows():
+        row[0].alignment = row[1].alignment = HAUT
+        if row[0].value in ('Les six devenirs', 'Les onglets', 'Montants'):
+            row[0].font = GRAS
+    ws.column_dimensions['A'].width = 40
+    ws.column_dimensions['B'].width = 120
     wb.save(SORTIE)
     return T, n_tot, len(vides), m(tot_exact)
+
+
+def habiller(ws):
+    for c in ws[1]:
+        c.font, c.fill = BLANC, TETE
+    for row in ws.iter_rows(min_row=2):
+        row[-1].font = INDIC
+        if row[0].value:
+            for c in row[:-1]:
+                c.font = GRAS
+            row[-1].font = Font(bold=True, italic=True, color='8C8C8C')
 
 
 def relire(T, n_tot, n_vides, total):
     ko = []
     wb = load_workbook(SORTIE)
-    if wb.sheetnames != ['Lisez-moi', 'Le tri', 'Par devenir', 'Par poste du tableau', 'Passage']:
+    if wb.sheetnames != ['Synthèse', 'Le tri', 'Par devenir', 'Par poste du tableau', 'Passage', 'Lisez-moi']:
         ko.append(f'onglets : {wb.sheetnames}')
     for ws in wb.worksheets:
         for row in ws.iter_rows(values_only=True):
             for j, v in enumerate(row):
-                motif = SOURCE if (ws.title == 'Le tri' and j in (1, 11)) else INTERDIT
+                motif = SOURCE if (ws.title == 'Le tri' and j in (1, 8)) else INTERDIT
+                if ws.title == 'Synthèse' and j == 6:
+                    motif = SOURCE
                 if isinstance(v, str) and not v.startswith('https://') and motif.search(v):
                     ko.append(f'{ws.title} : mention interne « {motif.search(v).group()} » dans « {v[:60]} »')
                 if isinstance(v, float):
                     ko.append(f'{ws.title} : montant décimal {v}')
-    tri = list(wb['Le tri'].iter_rows(min_row=2, values_only=True))
+                if isinstance(v, str) and v.lower().startswith('dont part gardée'):
+                    ko.append(f'{ws.title} : « part gardée » encore présent')
+    tri = [l for l in wb['Le tri'].iter_rows(min_row=2, values_only=True) if isinstance(l[0], int)]
     if len(tri) != n_tot:
         ko.append(f'Le tri : {len(tri)} lignes')
-    if set(l[5] for l in tri) != set(DEVENIRS):
+    devs = {NOM_DEV[d][0].upper() + NOM_DEV[d][1:] for d in DEVENIRS}
+    if set(l[3] for l in tri) != devs:
         ko.append('Le tri : les devenirs ne sont pas les six')
-    if sum(1 for l in tri if l[4] is None) != n_vides:
+    if sum(1 for l in tri if l[10] is None) != n_vides:
         ko.append('Le tri : compte des cases vides')
+    fus = [i for i, l in enumerate(tri) if l[3] == 'À fusionner']
+    if fus and fus[0] != len(tri) - len(fus):
+        ko.append('Le tri : les cotisations à fusionner ne sont pas toutes en bas')
     for nom in ('Par devenir', 'Par poste du tableau'):
         ll = list(wb[nom].iter_rows(min_row=2, values_only=True))
         ens = [l for l in ll if l[1] == 'Ensemble']
@@ -274,8 +395,12 @@ def relire(T, n_tot, n_vides, total):
             ko.append(f'{nom} : les comptes ne rebouclent pas')
         if abs(sum(l[4] for l in ens) - tot[4]) > len(ens) / 2:
             ko.append(f'{nom} : les montants ne rebouclent pas ({sum(l[4] for l in ens)} contre {tot[4]})')
-        print(f'  {nom} : {len(ens)} ensembles, {tot[2]} prélèvements, somme des ensembles {sum(l[4] for l in ens)}, total {tot[4]}')
-    print(f'  Le tri : {len(tri)} lignes, {n_vides} sans rendement, somme des cases {sum(l[4] or 0 for l in tri)}, total exact arrondi {total}')
+        print(f'  {nom} : {len(ens)} ensembles, {tot[2]} prélèvements, total {tot[4]}')
+    sy = list(wb['Synthèse'].iter_rows(min_row=5, values_only=True))
+    tl = next(l for l in sy if l[0] == 'Total')
+    if sum(l[1] for l in sy if l[0] and l[0] != 'Total' and isinstance(l[1], int)) != tl[1] or tl[1] != n_tot:
+        ko.append('Synthèse : les comptes ne rebouclent pas')
+    print(f'  Le tri : {len(tri)} lignes, {n_vides} sans rendement ; synthèse : {tl[1]} prélèvements')
     return ko
 
 
@@ -287,7 +412,7 @@ def main():
         for k in ko[:30]:
             print('  ', k)
         return 1
-    print('  0 écart : aucune mention interne, aucun montant décimal, six devenirs, totaux rebouclés.')
+    print('  0 écart : aucune mention interne, aucun montant décimal, six devenirs, cotisations en bas, totaux rebouclés.')
     return 0
 
 
