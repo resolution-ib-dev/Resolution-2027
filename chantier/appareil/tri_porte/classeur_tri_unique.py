@@ -416,7 +416,7 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
     tab = sum(float(r['montant_2024_M']) for r in P if r['poste'] in POSTE and not r['poste'].startswith(('dont', 'à titre'))
               and r['montant_2024_M'] != '') / 1000
     lig = titre_bloc(ws, lig, '2. Des comptes nationaux au tableau « Refonte fiscalité », 2024')
-    lien(ws, lig, 1, 'Source : Insee, comptes de la Nation, tableau 3.217 (impôts et cotisations sociales)', URL_INSEE)
+    lien(ws, lig, 1, 'Source : Insee, comptes de la Nation en 2025 (édition de mai 2026), tableau 3.217 ; même édition que le tableau « Refonte fiscalité »', URL_INSEE)
     lig += 1
     entete(ws, lig, ['', 'Md€', 'En % du PIB'])
     lig += 1
