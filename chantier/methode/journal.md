@@ -6280,6 +6280,20 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 ## Ce qui reste ouvert
 
-- L'exposé des motifs de `livrables/PPLC_regle_dor_modificative.md` cite le texte adopté n° 722 rectifié du 13 juillet 2011, qui n'est pas au dépôt. Une de ses phrases — le contrôle de conformité des lois financières aux lois-cadres par le Conseil constitutionnel — ne se prouve pas sur le texte déposé. Le texte adopté reste à verser.
+- Clos le même jour par l'entrée suivante : le texte adopté n° 722 rectifié est versé.
 - Les rangs d'alinéa de l'article 34 lus dans la pièce sont ceux de 2011 : un rang de plus aujourd'hui à partir du dix-huitième.
 - Empreintes non relevées : `make coffre` demande un clone et revient au fil qui le joue.
+
+## 20261124 — le texte adopté du projet de 2011 entre à son tour, et il diffère du texte déposé
+
+## Ce qui a changé au corpus
+
+- `reference/pjlc_equilibre_finances_publiques_2011_adopte.md` : digestion du texte adopté n° 722 rectifié du 13 juillet 2011, lu en entier — dispositif au verbatim (43 citations contrôlées, 43 retrouvées), table des écarts avec le texte déposé, confrontation de l'exposé de la proposition de loi constitutionnelle du corpus.
+- `sources/pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf` : l'original.
+- Écarts de fond relevés : le monopole fiscal des lois financières et la réserve de fiscalité locale ont disparu ; la durée minimale de trois ans, le plafond de dépenses et le minimum de recettes nouvelles par année, la correction des écarts et le contrôle de conformité des lois financières par le Conseil constitutionnel sont montés dans la Constitution ; dates de dépôt des projets de lois financières ajoutées.
+- La digestion du texte déposé renvoie à celle-ci ; le signalement sur l'exposé de la proposition est levé.
+
+## Ce qui reste ouvert
+
+- « Jamais soumis au Congrès, faute de réunir la majorité des trois cinquièmes », à l'exposé de la proposition : hors des deux pièces, à sourcer.
+- Empreintes non relevées.

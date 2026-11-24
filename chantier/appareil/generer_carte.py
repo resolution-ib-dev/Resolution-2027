@@ -161,6 +161,14 @@ FAMILLES = [
       'dispositif au verbatim et rapprochement avec la proposition du '
       'corpus. Original au dépôt, <code>sources/'
       'pjlc_equilibre_finances_publiques_an3253_20110316.pdf</code>.'),
+     ('Projet de loi constitutionnelle de 2011 sur l’équilibre des '
+      'finances publiques, texte adopté — digestion',
+      ['reference/pjlc_equilibre_finances_publiques_2011_adopte.md'], None,
+      'texte adopté n° 722 rectifié du 13 juillet 2011, voté en termes '
+      'identiques : dispositif au verbatim, table des écarts avec le texte '
+      'déposé, confrontation de l’exposé de la proposition du corpus. '
+      'Original au dépôt, <code>sources/'
+      'pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf</code>.'),
      ('Règles d’amendement des crédits',
       ['reference/regles_credits.md'], None,
       'LOLF au verbatim et Guide du budgétaire de la direction du Budget. '
@@ -471,6 +479,8 @@ IMPLICITES = {
     'reference/justice_fiscale_1789_fondapol.md': 'références externes',
     'reference/pjlc_equilibre_finances_publiques_2011.md': 'références externes',
     'sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf': 'références externes',
+    'reference/pjlc_equilibre_finances_publiques_2011_adopte.md': 'références externes',
+    'sources/pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf': 'références externes',
     'reference/nomenclature_prelevements_ifrap.md': 'références externes',
     'reference/sourcage_ir_dgfip.md': 'références externes',
     'referentiels/articles_ouverts_plf.tsv': 'grilles',

@@ -35,15 +35,15 @@ deux, le 46-1 et le 88-8.
 88-8, ni la locution « lois-cadres », et l'alinéa des lois de programmation des
 finances publiques que l'article 1er supprimait y figure toujours.
 
-*Hérité, non rejoué.* L'exposé des motifs de
-`livrables/PPLC_regle_dor_modificative.md` dit du même projet qu'il a été
-« adopté en termes identiques par les deux assemblées (texte adopté n° 722
-rectifié, troisième lecture à l'Assemblée nationale, 13 juillet 2011) » et
-qu'il « n'a jamais été soumis au Congrès ». **La pièce digérée ici est
-antérieure à la navette et ne prouve aucun de ces trois faits.** Le texte
-adopté est une autre pièce, absente du dépôt ; ce qui se cite d'ici est le
-projet du Gouvernement dans sa rédaction du 16 mars 2011, et rien de la
-rédaction issue des lectures.
+**La pièce digérée ici est antérieure à la navette.** Le texte voté en termes
+identiques par les deux assemblées le 13 juillet 2011, texte adopté n° 722
+rectifié, est une autre pièce, versée le même jour et digérée à
+`reference/pjlc_equilibre_finances_publiques_2011_adopte.md`. **Les deux
+rédactions divergent sur le fond** — le monopole fiscal a disparu du texte
+adopté, la contrainte et le contrôle y sont plus durs — et la table des écarts
+est au § 2 de cette seconde digestion. Ce qui se cite d'ici est le projet du
+Gouvernement dans sa rédaction du 16 mars 2011, et rien de la rédaction issue
+des lectures.
 
 ---
 
@@ -466,8 +466,12 @@ cette pièce.** Il y est écrit que le projet de 2011 rendait les lois
 financières conformes aux lois-cadres « sous le contrôle du Conseil
 constitutionnel ». Le texte déposé soumet au Conseil les lois-cadres
 elles-mêmes (art. 9) et n'écrit pas ce second contrôle (§ 5). La phrase se
-prouve sur le texte adopté n° 722 rectifié, qui reste à verser pour la
-couvrir.
+prouve sur le texte adopté n° 722 rectifié, à son article 10, 2° :
+`reference/pjlc_equilibre_finances_publiques_2011_adopte.md`, § 4. **Le
+tableau ci-dessus compare la proposition au texte déposé ; contre le texte
+adopté, trois lignes changent** — la fiscalité n'y est plus touchée, le
+contenu contraignant et l'échéance minimale de trois ans sont dans la
+Constitution, et le Conseil contrôle la conformité de chaque loi financière.
 
 ---
 
@@ -483,8 +487,8 @@ proposition de loi constitutionnelle du corpus ; `contestabilite` et
 `qa-riposte` sur l'objection « cela a déjà été tenté » ; `analyse-transposabilite`
 pour l'étagement Constitution, loi organique, intention.
 
-**Hors de cette digestion** : la navette, le texte adopté, les rapports des
-commissions, le rapport du groupe de travail Camdessus et le diagnostic
+**Hors de cette digestion** : la navette et les rapports des commissions ; le
+texte adopté, digéré à part ; le rapport du groupe de travail Camdessus et le diagnostic
 Champsaur-Cotis, que la pièce nomme sans les reproduire.
 
 ---

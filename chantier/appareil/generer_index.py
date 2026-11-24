@@ -763,6 +763,17 @@ ARTEFACTS = [
             'analyse-transposabilite', "PPLC règle d'or — exposé des motifs"],
      ['pjlc_2011', 'pl3253', 'PJLC2011_pl3253.pdf', 'lois-cadres d’équilibre',
       'pjlc_equilibre_finances_publiques_an3253_20110316.pdf']),
+    # Le texte adopté n° 722 rectifié du 13 juillet 2011, même projet après
+    # navette. Original au dépôt,
+    # `sources/pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf`.
+    ('pjlc_equilibre_finances_publiques_2011_adopte',
+     'reference/pjlc_equilibre_finances_publiques_2011_adopte.md', 'methode',
+     True, None, ['citation sourcée', 'contestabilite', 'qa-riposte',
+                  'analyse-transposabilite',
+                  "PPLC règle d'or — exposé des motifs"],
+     ['pjlc_2011_adopte', 'ta722', 'texte adopté n° 722 rectifié',
+      'pjlc2011_adopt__0722.pdf',
+      'pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf']),
     ('nomenclature_prelevements_ifrap',
      'reference/nomenclature_prelevements_ifrap.md', 'methode', True, None,
      ['contre-PLF', 'réconciliation des prélèvements'], []),
