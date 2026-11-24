@@ -5,7 +5,7 @@ Lit referentiels/sort_prelevements_20261116.tsv et
 livrables/tri_prelevements/passage_tableau_20261116.tsv (écrits par tri_unique.py).
 Six onglets : Avant, après (par grand impôt, puis comptes nationaux → tableau de la refonte → tri ; dans l'ordre du graphique « 434 prélèvements aujourd'hui,
 4 grands impôts demain »), Le tri (une ligne par prélèvement, dans l'ordre du graphique, cotisations à
-fusionner isolées en bas), Par devenir, Par poste du tableau, Passage, Lisez-moi. Montants en M€ entiers,
+fusionner isolées en bas), Par devenir, Par poste de la refonte, Passage, Lisez-moi. Montants en M€ entiers,
 indicatifs : en gris, en dernière colonne, car 186 prélèvements n'ont pas de rendement publié (règle de
 l'auteure, 20261123). Le classeur se relit après écriture : aucune mention
 interne, aucun identifiant, aucun montant décimal, six devenirs exactement,
@@ -24,6 +24,10 @@ RACINE = Path(__file__).resolve().parent.parent.parent
 TRI = RACINE / 'referentiels/sort_prelevements_20261116.tsv'
 PASSAGE = RACINE / 'livrables/tri_prelevements/passage_tableau_20261116.tsv'
 SORTIE = RACINE / 'livrables/tri_prelevements/Tri des impôts.xlsx'
+# Liens publics (vérifiés le 20261124, réponse 200).
+URL_REFONTE = 'https://france-resolution.fr/onglets/calculs-refonte-fiscalite.html'
+URL_SYNTHESE = 'https://france-resolution.fr/donnees/Synth%C3%A8se%20des%20chiffrages.xlsx'
+URL_INSEE = 'https://www.insee.fr/fr/statistiques/8988845?sommaire=8988934'
 # Du brut Insee aux prélèvements du projet : tablette T4, relevée au tableau 3.217 de l'Insee (archivée le 20261020).
 TABLETTES = RACINE / 'archive/tri_20261020/livrables/tablettes/Tablettes_prelevements.xlsx'
 
@@ -253,12 +257,12 @@ def construire():
         for kk in ks:
             lignes.append([None, NOM_DEV[kk[1]][0].upper() + NOM_DEV[kk[1]][1:], pp[kk][0], pp[kk][1], md(som(pp[kk][2]))])
     lignes.append(['Total', None, n_tot, len(vides), md(tot_exact)])
-    ws = feuille(wb, 'Par poste du tableau', ['Poste du tableau', 'Devenir', 'Prélèvements', 'Dont sans rendement publié',
-                                              'Rendement 2026, indicatif (Md€)'], lignes, {'Poste du tableau': 46, 'Devenir': 46}, filtre=False)
+    ws = feuille(wb, 'Par poste de la refonte', ['Poste du tableau « Refonte fiscalité »', 'Devenir', 'Prélèvements', 'Dont sans rendement publié',
+                                              'Rendement 2026, indicatif (Md€)'], lignes, {'Poste du tableau « Refonte fiscalité »': 46, 'Devenir': 46}, filtre=False)
     habiller(ws)
 
     # ---- Passage
-    cols = ['Poste du tableau', 'Montant 2024 au tableau (Md€)', 'Taxes à supprimer au tableau (Md€)', 'Prélèvements du tri',
+    cols = ['Poste du tableau « Refonte fiscalité »', 'Montant 2024 au tableau (Md€)', 'Taxes à supprimer au tableau (Md€)', 'Prélèvements du tri',
             'Dont sans rendement publié', 'Rendement 2026 au tri, indicatif (Md€)', 'Dont supprimé au tri (Md€)', 'Dont gardé au tri (Md€)',
             'Écart de montant, tri moins tableau (Md€)', 'Écart sur le supprimé, tri moins tableau (Md€)', 'Lecture']
     lignes = []
@@ -270,7 +274,7 @@ def construire():
                        md(r['rendement_2026_M']), md(r['supprime_2026_M']), md(r['garde_2026_M']), md(r['ecart_montant_M']),
                        md(r['ecart_supprime_M']), r['lecture'].replace('conservé en complément', 'complément sectoriel harmonisé')
                        .replace('Conservé en complément', 'Complément sectoriel harmonisé')])
-    ws = feuille(wb, 'Passage', cols, lignes, {'Poste du tableau': 46, 'Lecture': 110}, filtre=False)
+    ws = feuille(wb, 'Passage', cols, lignes, {'Poste du tableau « Refonte fiscalité »': 46, 'Lecture': 110}, filtre=False)
     for c in ws[1]:
         c.font, c.fill = BLANC, TETE
 
@@ -287,13 +291,19 @@ def construire():
           ('Avant, après', 'Ce que chaque grand impôt reprend, dans l’ordre du graphique « 434 prélèvements aujourd’hui, 4 grands impôts demain » ; puis le passage des comptes nationaux au tableau de la refonte fiscale, et aux prélèvements du tri.'),
           ('Le tri', 'Une ligne par prélèvement, dans l’ordre du graphique ; les cotisations à fusionner sont regroupées en bas.'),
           ('Par devenir', 'Nombre et rendement par devenir, par impôt de remplacement et par bloc.'),
-          ('Par poste du tableau', 'Nombre et rendement par poste du tableau « Refonte fiscalité » et par devenir.'),
+          ('Par poste de la refonte', 'Nombre et rendement par poste du tableau « Refonte fiscalité » et par devenir.'),
+          ('Le tableau « Refonte fiscalité »', 'Onglet de la Synthèse des chiffrages : les impôts de 2024 par poste, en comptes nationaux, avec la part à supprimer.'),
           ('Passage', 'Chaque poste du tableau « Refonte fiscalité » face aux prélèvements du tri qui s’y rattachent.'),
           ('', ''),
           ('CSG et CRDS', 'Elles sont remplacées par l’impôt sur le revenu, dont le taux unique de 23 % se calcule sur une assiette qui intègre la leur.'),
           ('Sources', 'Projets de loi de finances pour 2026 et pour 2027, évaluation des voies et moyens ; code général des impôts, code des impositions sur les biens et services, code de la sécurité sociale et autres textes en vigueur ; comptes nationaux de l’Insee, tableau 3.217.')]
+    L += [('Lien : tableau « Refonte fiscalité »', URL_REFONTE), ('Lien : Synthèse des chiffrages', URL_SYNTHESE),
+          ('Lien : Insee, tableau 3.217', URL_INSEE)]
     for a, b in L:
         ws.append([a, b])
+        if b.startswith('https://'):
+            ws.cell(row=ws.max_row, column=2).hyperlink = b
+            ws.cell(row=ws.max_row, column=2).font = Font(color='0563C1', underline='single')
     ws['A1'].font = Font(bold=True, size=14, color='B23A10')
     for row in ws.iter_rows():
         row[0].alignment = row[1].alignment = HAUT
@@ -337,6 +347,19 @@ def ecrire(ws, lig, v, gras=False, fond=None, indic=(), largeur_texte=()):
             c.font = Font(bold=gras, italic=True, color='8C8C8C')
 
 
+def lien(ws, lig, col, texte, url):
+    c = ws.cell(row=lig, column=col, value=texte)
+    c.hyperlink, c.font = url, Font(color='0563C1', underline='single')
+    return c
+
+
+def formule(ws, lig, col, f, fmt=None):
+    c = ws.cell(row=lig, column=col, value=f)
+    if fmt:
+        c.number_format = fmt + ';-' + fmt + ';'   # un zéro calculé reste blanc
+    return c
+
+
 def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
     """Onglet de tête (auteure, 20261124) : l'avant / après par grand impôt, puis la réconciliation
     du macro au micro — comptes nationaux (Insee, tableau 3.217) → tableau « Refonte fiscalité » → tri.
@@ -347,7 +370,7 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
     ws['A1'] = f'{n_tot} prélèvements aujourd’hui, 4 grands impôts demain'
     ws['A1'].font = Font(bold=True, size=16, color='B23A10')
     ws['A2'] = ('En haut, chaque prélèvement rangé sous l’impôt qui le reprend. Dessous, le passage des comptes nationaux '
-                'au tableau de la refonte, puis aux prélèvements du tri.')
+                'au tableau « Refonte fiscalité » de la Synthèse des chiffrages, puis aux prélèvements du tri.')
     ws['A2'].font = Font(italic=True, color='6D6A64')
     G = 7  # colonne du rendement indicatif
 
@@ -376,6 +399,9 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
     ecrire(ws, lig, ['Total', n_tot] + [len(par_dev[d]) or None for d in ('grand impôt conservé', 'remplacé par un grand impôt',
             'conservé en complément', 'fondu dans l’équilibre des quatre grands impôts')] + [round(tot_exact / 1000, 1), None],
            gras=True, fond=SABLE, indic=(G,))
+    for j in range(2, G + 1):
+        L = get_column_letter(j)
+        formule(ws, lig, j, f'=SUM({L}{haut}:{L}{lig - 1})', MD if j == G else NB)
     lig += 3
 
     # 2. Des comptes nationaux au tableau de la refonte
@@ -389,9 +415,15 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
     projet = brut + nr + ci
     tab = sum(float(r['montant_2024_M']) for r in P if r['poste'] in POSTE and not r['poste'].startswith(('dont', 'à titre'))
               and r['montant_2024_M'] != '') / 1000
-    lig = titre_bloc(ws, lig, '2. Des comptes nationaux au tableau de la refonte, 2024', 'Source : Insee, comptes nationaux, tableau 3.217.')
+    lig = titre_bloc(ws, lig, '2. Des comptes nationaux au tableau « Refonte fiscalité », 2024')
+    lien(ws, lig, 1, 'Source : Insee, comptes de la Nation, tableau 3.217 (impôts et cotisations sociales)', URL_INSEE)
+    lig += 1
     entete(ws, lig, ['', 'Md€', 'En % du PIB'])
     lig += 1
+    ecrire(ws, lig, ['PIB 2024, pour mémoire', round(pib, 3), None])
+    l_pib = lig
+    lig += 1
+    l0 = lig
     for nom, v, gras in [
             ('Impôts et cotisations sociales, total des comptes nationaux', brut, False),
             ('− impôts et cotisations dus et jamais encaissés (non recouvrés)', nr, False),
@@ -399,22 +431,31 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
             ('Base du projet : impôts et cotisations recouvrables, crédits d’impôt compris', projet, True),
             ('− crédits d’impôt, déduits par l’Insee', cr, False),
             ('Prélèvements obligatoires publiés par l’Insee', projet + cr, True)]:
-        ecrire(ws, lig, [nom, round(v, 1), round(v / pib, 3)], gras=gras, fond=SABLE if gras else None, largeur_texte=(1,))
-        ws.cell(row=lig, column=3).number_format = '0.0 %'
+        ecrire(ws, lig, [nom, round(v, 3), None], gras=gras, fond=SABLE if gras else None, largeur_texte=(1,))
+        formule(ws, lig, 3, f'=B{lig}/$B${l_pib}', '0.0 %')
         lig += 1
+    formule(ws, l0 + 3, 2, f'=SUM(B{l0}:B{l0 + 2})', MD)
+    formule(ws, l0 + 5, 2, f'=B{l0 + 3}+B{l0 + 4}', MD)
+    l_base = l0 + 3
     lig += 1
-    for nom, v, gras in [('Base du projet, répartie en deux :', None, True),
-                         ('dont postes du tableau de la refonte (bloc 3)', tab, False),
-                         ('dont hors tableau : cotisations sociales, CSG, CRDS, prélèvements sociaux (bloc 4)', projet - tab, False)]:
-        ecrire(ws, lig, [nom, None if v is None else round(v, 1), None if v is None else round(v / pib, 3)], gras=gras, largeur_texte=(1,))
-        ws.cell(row=lig, column=3).number_format = '0.0 %'
+    ecrire(ws, lig, ['Base du projet, répartie en deux :', None, None], gras=True)
+    lig += 1
+    l_rep = lig
+    for nom in ['dont postes du tableau « Refonte fiscalité » (bloc 3)',
+                'dont hors tableau : cotisations sociales, CSG, CRDS, prélèvements sociaux (bloc 4)']:
+        ecrire(ws, lig, [nom, None, None], largeur_texte=(1,))
+        formule(ws, lig, 3, f'=B{lig}/$B${l_pib}', '0.0 %')
         lig += 1
+    formule(ws, l_rep + 1, 2, f'=B{l_base}-B{l_rep}', MD)
     lig += 2
 
     # 3. Le tableau de la refonte, poste par poste
-    lig = titre_bloc(ws, lig, '3. Le tableau de la refonte, poste par poste, face aux prélèvements du tri',
+    lig = titre_bloc(ws, lig, '3. Le tableau « Refonte fiscalité », poste par poste, face aux prélèvements du tri',
                      'Montants du tableau : comptes nationaux 2024. Rendement : prévision 2026 du budget, pour les seuls prélèvements dont il est publié.')
-    entete(ws, lig, ['Poste du tableau', 'Montant 2024 (Md€)', 'dont taxes à supprimer (Md€)', 'Prélèvements rattachés',
+    lien(ws, lig, 1, 'Le tableau « Refonte fiscalité » en ligne (Synthèse des chiffrages)', URL_REFONTE)
+    lien(ws, lig, 2, 'Télécharger la Synthèse des chiffrages', URL_SYNTHESE)
+    lig += 1
+    entete(ws, lig, ['Poste du tableau « Refonte fiscalité »', 'Montant 2024 (Md€)', 'dont taxes à supprimer (Md€)', 'Prélèvements rattachés',
                      'dont supprimés', 'dont gardés', 'Rendement 2026, indicatif (Md€)'])
     lig += 1
     garde = ('grand impôt conservé', 'conservé en complément')
@@ -444,8 +485,11 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
         return [len(rs), sum(1 for r in rs if r['devenir'] in supprime) or None, sum(1 for r in rs if r['devenir'] in garde) or None,
                 None if s is None else round(s / 1000, 1)]
 
+    parents = []
     for L in lignes:
         r, p = L['r'], L['p']
+        l_par = lig
+        parents.append(lig)
         propres = par_poste.get(p, [])
         tous = propres + [x for e in L['enfants'] for x in par_poste.get(e['poste'], [])]
         n = compte(tous)
@@ -460,15 +504,24 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
             n = compte(propres)
             ecrire(ws, lig, ['    dont autres ' + nomme.get(p, POSTE[p])[0].lower() + nomme.get(p, POSTE[p])[1:], None, None] + n[:3] + [n[3]], indic=(G,))
             lig += 1
+        if L['enfants']:
+            for j in range(4, G + 1):
+                L_ = get_column_letter(j)
+                formule(ws, l_par, j, f'=SUM({L_}{l_par + 1}:{L_}{lig - 1})', MD if j == G else NB)
     n = compte([r for r in T if r['poste_tableau'] != '—'])
-    ecrire(ws, lig, ['Total du tableau de la refonte', round(tab, 1), None] + n[:3] + [n[3]], gras=True, fond=SABLE, indic=(G,))
+    ecrire(ws, lig, ['Total du tableau « Refonte fiscalité »', round(tab, 1), None] + n[:3] + [n[3]], gras=True, fond=SABLE, indic=(G,))
+    for j in (2, 4, 5, 6, G):
+        L_ = get_column_letter(j)
+        formule(ws, lig, j, '=' + '+'.join(f'{L_}{x}' for x in parents), NB if j in (4, 5, 6) else MD)
+    formule(ws, l_rep, 2, f'=B{lig}', MD)
+    l_tab = lig
     lig += 1
     ws.cell(row=lig, column=1, value='Supprimés : remplacés par un grand impôt ou fondus dans l’équilibre. Gardés : grands impôts '
                                      'et compléments sectoriels harmonisés. Les autres sont des recettes non fiscales.').font = INDIC
     lig += 3
 
     # 4. Hors du tableau
-    lig = titre_bloc(ws, lig, '4. Hors du tableau de la refonte')
+    lig = titre_bloc(ws, lig, '4. Hors du tableau « Refonte fiscalité »')
     entete(ws, lig, ['Devenir', '', '', 'Prélèvements du tri', '', '', 'Rendement 2026, indicatif (Md€)'])
     lig += 1
     libelles = {'remplacé par un grand impôt': 'Remplacés par un grand impôt : CSG, CRDS, prélèvements sociaux…',
@@ -476,6 +529,7 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
                 'à fusionner': 'Cotisations sociales, à fusionner en une cotisation unique',
                 'recette non fiscale': 'Recettes non fiscales'}
     hors = [r for r in T if r['poste_tableau'] == '—']
+    l_h = lig
     for d in DEVENIRS:
         rs = [r for r in hors if r['devenir'] == d]
         if rs:
@@ -484,9 +538,17 @@ def vue_ensemble(ws, T, P, ordre, col_g, par_dev, vides, tot_exact):
             lig += 1
     n = compte(hors)
     ecrire(ws, lig, ['Total hors tableau', None, None, n[0], None, None, n[3]], gras=True, fond=SABLE, indic=(G,))
+    for j in (4, G):
+        L_ = get_column_letter(j)
+        formule(ws, lig, j, f'=SUM({L_}{l_h}:{L_}{lig - 1})', NB if j == 4 else MD)
     lig += 1
     n = compte(T)
     ecrire(ws, lig, ['Total des prélèvements du tri (blocs 3 et 4)', None, None, n[0], None, None, n[3]], gras=True, fond=SABLE, indic=(G,))
+    for j in (4, G):
+        L_ = get_column_letter(j)
+        formule(ws, lig, j, f'={L_}{l_tab}+{L_}{lig - 1}', NB if j == 4 else MD)
+    lig += 1
+    ws.cell(row=lig, column=1, value='Le détail, prélèvement par prélèvement : onglet « Le tri ». Le passage poste par poste : onglet « Passage ».').font = INDIC
     lig += 2
     ws.cell(row=lig, column=1, value=f'Rendement indicatif : {len(vides)} prélèvements sur {n_tot} n’ont pas de rendement publié '
                                      '(cotisations sociales, taxes affectées à des organismes, impôts locaux). '
@@ -507,10 +569,20 @@ def habiller(ws):
             row[-1].font = Font(bold=True, italic=True, color='8C8C8C')
 
 
+def recalcule():
+    """Copie recalculée par LibreOffice : les formules relues sur leur valeur."""
+    import subprocess, tempfile, shutil
+    d = Path(tempfile.mkdtemp())
+    shutil.copy(SORTIE, d / 'a.xlsx')
+    subprocess.run(['soffice', f'-env:UserInstallation=file://{d}/profil', '--headless', '--convert-to', 'xlsx:Calc MS Excel 2007 XML',
+                    '--outdir', str(d / 'o'), str(d / 'a.xlsx')], capture_output=True, timeout=180)
+    return load_workbook(d / 'o' / 'a.xlsx', data_only=True)
+
+
 def relire(T, n_tot, n_vides, total):
     ko = []
     wb = load_workbook(SORTIE)
-    if wb.sheetnames != ['Avant, après', 'Le tri', 'Par devenir', 'Par poste du tableau', 'Passage', 'Lisez-moi']:
+    if wb.sheetnames != ['Avant, après', 'Le tri', 'Par devenir', 'Par poste de la refonte', 'Passage', 'Lisez-moi']:
         ko.append(f'onglets : {wb.sheetnames}')
     for ws in wb.worksheets:
         for row in ws.iter_rows(values_only=True):
@@ -535,7 +607,7 @@ def relire(T, n_tot, n_vides, total):
     fus = [i for i, l in enumerate(tri) if l[3] == 'À fusionner']
     if fus and fus[0] != len(tri) - len(fus):
         ko.append('Le tri : les cotisations à fusionner ne sont pas toutes en bas')
-    for nom in ('Par devenir', 'Par poste du tableau'):
+    for nom in ('Par devenir', 'Par poste de la refonte'):
         ll = list(wb[nom].iter_rows(min_row=2, values_only=True))
         ens = [l for l in ll if l[1] == 'Ensemble']
         tot = ll[-1]
@@ -544,15 +616,19 @@ def relire(T, n_tot, n_vides, total):
         if abs(sum(l[4] or 0 for l in ens) - tot[4]) > len(ens) * 0.05 + 0.05:
             ko.append(f'{nom} : les montants ne rebouclent pas ({sum(l[4] for l in ens)} contre {tot[4]})')
         print(f'  {nom} : {len(ens)} ensembles, {tot[2]} prélèvements, total {tot[4]}')
-    sy = list(wb['Avant, après'].iter_rows(min_row=7, values_only=True))
+    sy = list(recalcule()['Avant, après'].iter_rows(min_row=7, values_only=True))
     k = next(i for i, l in enumerate(sy) if l[0] == 'Total')
     tl = sy[k]
-    if sum(l[1] for l in sy[:k] if isinstance(l[1], int)) != tl[1] or tl[1] != n_tot:
+    if sum(l[1] for l in sy[:k] if isinstance(l[1], (int, float))) != tl[1] or tl[1] != n_tot:
         ko.append('Avant, après : les comptes ne rebouclent pas')
-    t3 = next(l for l in sy if l[0] == 'Total du tableau de la refonte')
+    t3 = next(l for l in sy if l[0] == 'Total du tableau « Refonte fiscalité »')
     t4 = next(l for l in sy if l[0] == 'Total hors tableau')
     if t3[3] + t4[3] != n_tot:
         ko.append('Avant, après : tableau et hors tableau ne rebouclent pas sur le total')
+    tg = next(l for l in sy if l[0] == 'Total des prélèvements du tri (blocs 3 et 4)')
+    if tg[3] != n_tot or abs(tg[6] - total / 1000) > 1:
+        ko.append(f'Avant, après : total général {tg[3]} / {tg[6]}')
+    print(f'  Avant, après (formules recalculées) : tableau {t3[1]} Md€, {t3[3]} + {t4[3]} = {tg[3]} prélèvements, {tg[6]} Md€')
     print(f'  Le tri : {len(tri)} lignes, {n_vides} sans rendement ; synthèse : {tl[1]} prélèvements')
     return ko
 
