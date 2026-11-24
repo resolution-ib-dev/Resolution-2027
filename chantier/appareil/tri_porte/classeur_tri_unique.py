@@ -3,7 +3,7 @@
 
 Lit referentiels/sort_prelevements_20261116.tsv et
 livrables/tri_prelevements/passage_tableau_20261116.tsv (écrits par tri_unique.py).
-Six onglets : Synthèse (avant / après, dans l'ordre du graphique « 434 prélèvements aujourd'hui,
+Sept onglets : Réconciliation (comptes nationaux → tableau de la refonte → tri), Synthèse (avant / après, dans l'ordre du graphique « 434 prélèvements aujourd'hui,
 4 grands impôts demain »), Le tri (une ligne par prélèvement, dans l'ordre du graphique, cotisations à
 fusionner isolées en bas), Par devenir, Par poste du tableau, Passage, Lisez-moi. Montants en M€ entiers,
 indicatifs : en gris, en dernière colonne, car 186 prélèvements n'ont pas de rendement publié (règle de
@@ -24,6 +24,8 @@ RACINE = Path(__file__).resolve().parent.parent.parent
 TRI = RACINE / 'referentiels/sort_prelevements_20261116.tsv'
 PASSAGE = RACINE / 'livrables/tri_prelevements/passage_tableau_20261116.tsv'
 SORTIE = RACINE / 'livrables/tri_prelevements/Tri des impôts.xlsx'
+# Du brut Insee aux prélèvements du projet : tablette T4, relevée au tableau 3.217 de l'Insee (archivée le 20261020).
+TABLETTES = RACINE / 'archive/tri_20261020/livrables/tablettes/Tablettes_prelevements.xlsx'
 
 DEVENIRS = ['grand impôt conservé', 'remplacé par un grand impôt', 'fondu dans l’équilibre des quatre grands impôts',
             'conservé en complément', 'à fusionner', 'recette non fiscale']
@@ -178,10 +180,10 @@ def construire():
     tot_exact = sum(f(r['rendement_2026_M']) for r in T)
     ordre = sorted(T, key=lambda r: rang_graphique(r, col_g))
     wb = Workbook()
+    reconciliation(wb.active, T, P)
 
     # ---- Synthèse : avant / après
-    ws = wb.active
-    ws.title = 'Synthèse'
+    ws = wb.create_sheet('Synthèse')
     ws['A1'] = f'{n_tot} prélèvements aujourd’hui, 4 grands impôts demain'
     ws['A1'].font = Font(bold=True, size=16, color='B23A10')
     ws['A2'] = 'Chaque prélèvement est rangé sous l’impôt qui le reprend, dans l’ordre du graphique.'
@@ -327,6 +329,7 @@ def construire():
     for d in DEVENIRS:
         L.append((NOM_DEV[d][0].upper() + NOM_DEV[d][1:], f'{len(par_dev[d])} prélèvements. ' + DEF[d]))
     L += [('', ''), ('Les onglets', ''),
+          ('Réconciliation', 'Du total des comptes nationaux au tableau de la refonte fiscale, puis aux prélèvements du tri.'),
           ('Synthèse', 'Avant / après : ce que chaque grand impôt reprend, dans l’ordre du graphique « 434 prélèvements aujourd’hui, 4 grands impôts demain ».'),
           ('Le tri', 'Une ligne par prélèvement, dans l’ordre du graphique ; les cotisations à fusionner sont regroupées en bas.'),
           ('Par devenir', 'Nombre et rendement par devenir, par impôt de remplacement et par bloc.'),
@@ -348,6 +351,119 @@ def construire():
     return T, n_tot, len(vides), m(tot_exact)
 
 
+def reconciliation(ws, T, P):
+    """Onglet de tête (auteure, 20261124) : du macro au micro, en trois étages. Comptes nationaux
+    (Insee, tableau 3.217) → tableau « Refonte fiscalité » → prélèvements du tri. M€ entiers, parts du PIB en % ;
+    le rendement du tri, incomplet, en gris et en dernière colonne."""
+    ws.title = 'Réconciliation'
+    ws.sheet_view.showGridLines = False
+    md = lambda x: None if x in ('', None) else round(float(x))
+    ws['A1'] = 'Des comptes nationaux au tri des impôts'
+    ws['A1'].font = Font(bold=True, size=16, color='B23A10')
+    ws['A2'] = 'Trois étages : le total des comptes nationaux, le tableau de la refonte fiscale, puis les 434 prélèvements du tri.'
+    ws['A2'].font = Font(italic=True, color='6D6A64')
+    # 1. Du brut aux prélèvements (T4, 2024)
+    t4 = {}
+    for r in load_workbook(TABLETTES, read_only=True, data_only=True)['T4'].iter_rows(values_only=True):
+        if r and len(r) > 2 and isinstance(r[2], (int, float)):
+            t4.setdefault(r[0] or '=', []).append(r[2])
+    val = lambda debut: next(v[0] for k, v in t4.items() if k.startswith(debut))
+    pib = val('PIB')
+    brut, nr, ci, cr = val('Ensemble'), val('− non recouvrés'), val('− cotisations imputées'), val('− crédits')
+    projet, insee = brut + nr + ci, brut + nr + ci + cr
+    lig = 4
+    ws.cell(row=lig, column=1, value='1. Du total des comptes nationaux aux prélèvements, 2024').font = Font(bold=True, size=12, color='B23A10')
+    lig += 1
+    entete(ws, lig, ['', 'M€', 'En % du PIB'])
+    lig += 1
+    for nom, v, gras in [('Impôts et cotisations sociales, ensemble', brut, False), ('− non recouvrés', nr, False),
+                         ('− cotisations imputées', ci, False), ('= Prélèvements, au sens du projet', projet, True),
+                         ('− crédits d’impôt', cr, False), ('= Prélèvements obligatoires, au sens de l’Insee', insee, True)]:
+        for j, x in enumerate([nom, round(v * 1000), round(v / pib, 3)], 1):
+            c = ws.cell(row=lig, column=j, value=x)
+            c.border = FIL
+            c.number_format = '0.0 %' if j == 3 else '# ##0'
+            if gras:
+                c.font, c.fill = GRAS, SABLE
+        lig += 1
+    ws.cell(row=lig, column=1, value='Source : Insee, comptes nationaux, tableau 3.217.').font = INDIC
+    lig += 2
+    # 2. Le tableau de la refonte, poste par poste, face au tri
+    ws.cell(row=lig, column=1, value='2. Le tableau de la refonte fiscale, face aux prélèvements du tri').font = Font(bold=True, size=12, color='B23A10')
+    lig += 1
+    entete(ws, lig, ['Poste du tableau (comptes nationaux 2024)', 'Montant 2024 (M€)', 'Taxes à supprimer (M€)',
+                     'Prélèvements du tri', 'dont supprimés', 'dont gardés', 'Rendement 2026 au tri, indicatif (M€)'])
+    lig += 1
+    garde = ('grand impôt conservé', 'conservé en complément')
+    compte = defaultdict(lambda: [0, 0, 0])
+    for r in T:
+        x = compte[r['poste_tableau']]
+        x[0] += 1
+        x[1 if r['devenir'] not in garde else 2] += 1
+    hors = []
+    for r in P:
+        p = r['poste']
+        if p.startswith('hors tableau'):
+            hors.append(r)
+            continue
+        nom = POSTE.get(p, p)
+        sous = p.startswith('dont') or p.startswith('à titre')
+        n = compte.get(p, [None, None, None]) if r['rangs'] != '' else [None, None, None]
+        v = [('    ' if sous else '') + nom, md(r['montant_2024_M']), md(r['a_supprimer_2024_M']) or None,
+             n[0] or None, n[1] or None, n[2] or None, md(r['rendement_2026_M'])]
+        for j, x in enumerate(v, 1):
+            c = ws.cell(row=lig, column=j, value=x)
+            c.border = FIL
+            if j == 1 and not sous:
+                c.font = GRAS
+            if j == 7:
+                c.font = INDIC
+            if j in (2, 3, 7) and x is not None:
+                c.number_format = '# ##0'
+        lig += 1
+    tab = sum(float(r['montant_2024_M']) for r in P if r['poste'] in POSTE and not r['poste'].startswith(('dont', 'à titre', 'hors')) and r['montant_2024_M'] != '')
+    for nom, v in [('Total du tableau de la refonte', tab),
+                   ('Reste, hors tableau : cotisations sociales, CSG, CRDS, prélèvements sociaux…', projet * 1000 - tab),
+                   ('= Prélèvements, au sens du projet', projet * 1000)]:
+        for j, x in enumerate([nom, round(v)], 1):
+            c = ws.cell(row=lig, column=j, value=x)
+            c.font, c.fill, c.number_format = GRAS, SABLE, '# ##0'
+        lig += 1
+    lig += 1
+    # 3. Hors du tableau
+    ws.cell(row=lig, column=1, value='3. Hors du tableau de la refonte').font = Font(bold=True, size=12, color='B23A10')
+    lig += 1
+    entete(ws, lig, ['', '', '', 'Prélèvements du tri', '', '', 'Rendement 2026 au tri, indicatif (M€)'])
+    lig += 1
+    libelles = {'remplacé par un grand impôt': 'Remplacés par un grand impôt : CSG, CRDS, prélèvements sociaux…',
+                'conservé en complément': 'Compléments sectoriels harmonisés hors tableau',
+                'à fusionner': 'Cotisations sociales, à fusionner en une cotisation unique',
+                'recette non fiscale': 'Recettes non fiscales'}
+    for r in hors:
+        d = r['poste'].split(' — ')[1]
+        for j, x in enumerate([libelles.get(d, d[0].upper() + d[1:]), None, None, int(r['rangs']) if r['rangs'] else None, None, None,
+                               md(r['rendement_2026_M'])], 1):
+            c = ws.cell(row=lig, column=j, value=x)
+            c.border = FIL
+            if j == 7:
+                c.font, c.number_format = INDIC, '# ##0'
+        lig += 1
+    for j, x in enumerate(['Total des prélèvements du tri', None, None, len(T), None, None,
+                           round(sum(f(r['rendement_2026_M']) for r in T))], 1):
+        c = ws.cell(row=lig, column=j, value=x)
+        c.font, c.fill = GRAS, SABLE
+        if j == 7:
+            c.font, c.number_format = Font(bold=True, italic=True, color='8C8C8C'), '# ##0'
+    lig += 2
+    ws.cell(row=lig, column=1, value='Le tableau est en montants 2024 des comptes nationaux ; le tri, en prévision 2026 du budget. '
+                                     f'Rendement indicatif : {sum(1 for r in T if r["rendement_2026_M"] == "")} prélèvements sur {len(T)} n’ont pas de rendement publié.').font = INDIC
+    for j, w in enumerate([52, 14, 14, 14, 12, 12, 18], 1):
+        ws.column_dimensions[get_column_letter(j)].width = w
+    ws.page_setup.orientation = 'landscape'
+    ws.page_setup.fitToWidth, ws.page_setup.fitToHeight = 1, 0
+    ws.sheet_properties.pageSetUpPr.fitToPage = True
+
+
 def habiller(ws):
     for c in ws[1]:
         c.font, c.fill = BLANC, TETE
@@ -362,7 +478,7 @@ def habiller(ws):
 def relire(T, n_tot, n_vides, total):
     ko = []
     wb = load_workbook(SORTIE)
-    if wb.sheetnames != ['Synthèse', 'Le tri', 'Par devenir', 'Par poste du tableau', 'Passage', 'Lisez-moi']:
+    if wb.sheetnames != ['Réconciliation', 'Synthèse', 'Le tri', 'Par devenir', 'Par poste du tableau', 'Passage', 'Lisez-moi']:
         ko.append(f'onglets : {wb.sheetnames}')
     for ws in wb.worksheets:
         for row in ws.iter_rows(values_only=True):
@@ -372,7 +488,7 @@ def relire(T, n_tot, n_vides, total):
                     motif = SOURCE
                 if isinstance(v, str) and not v.startswith('https://') and motif.search(v):
                     ko.append(f'{ws.title} : mention interne « {motif.search(v).group()} » dans « {v[:60]} »')
-                if isinstance(v, float):
+                if isinstance(v, float) and not (ws.title == 'Réconciliation' and j == 2 and v < 1):
                     ko.append(f'{ws.title} : montant décimal {v}')
                 if isinstance(v, str) and v.lower().startswith('dont part gardée'):
                     ko.append(f'{ws.title} : « part gardée » encore présent')
