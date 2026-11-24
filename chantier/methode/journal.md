@@ -6269,3 +6269,17 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - La réécriture des 22 amendements de crédits, après passage par le projet pour la table des paramètres et les calendriers.
 - La revue du simulateur, bloc par bloc, à partir des Agences.
 - Les écarts de procédure du fil, dits à la passation : `methode/` et deux modules partagés touchés pendant qu'un autre fil travaillait ; empreintes relevées à la main.
+
+## 20261124 — le projet de loi constitutionnelle de 2011 sur l'équilibre des finances publiques entre au corpus
+
+## Ce qui a changé au corpus
+
+- `reference/pjlc_equilibre_finances_publiques_2011.md` : digestion du projet de loi constitutionnelle n° 3253 du 16 mars 2011, lu en entier — motif, lois-cadres d'équilibre, monopole fiscal des lois financières, programmes de stabilité, entrée en vigueur, dispositif au verbatim (44 citations contrôlées sur le texte du PDF, 44 retrouvées), rapprochement avec la proposition de loi constitutionnelle du corpus.
+- `sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf` : l'original, versé tel quel.
+- Index et carte : la digestion est déclarée en références externes, sous les alias `pjlc_2011` et `pl3253`.
+
+## Ce qui reste ouvert
+
+- L'exposé des motifs de `livrables/PPLC_regle_dor_modificative.md` cite le texte adopté n° 722 rectifié du 13 juillet 2011, qui n'est pas au dépôt. Une de ses phrases — le contrôle de conformité des lois financières aux lois-cadres par le Conseil constitutionnel — ne se prouve pas sur le texte déposé. Le texte adopté reste à verser.
+- Les rangs d'alinéa de l'article 34 lus dans la pièce sont ceux de 2011 : un rang de plus aujourd'hui à partir du dix-huitième.
+- Empreintes non relevées : `make coffre` demande un clone et revient au fil qui le joue.

@@ -3207,6 +3207,31 @@
    "famille": "références externes"
   },
   {
+   "role": "pjlc_equilibre_finances_publiques_2011",
+   "chemin": "reference/pjlc_equilibre_finances_publiques_2011.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée",
+    "contestabilite",
+    "qa-riposte",
+    "analyse-transposabilite",
+    "PPLC règle d'or — exposé des motifs"
+   ],
+   "alias": [
+    "pjlc_2011",
+    "pl3253",
+    "PJLC2011_pl3253.pdf",
+    "lois-cadres d’équilibre",
+    "pjlc_equilibre_finances_publiques_an3253_20110316.pdf"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/pjlc_equilibre_finances_publiques_2011.md",
+   "famille": "références externes"
+  },
+  {
    "role": "nomenclature_prelevements_ifrap",
    "chemin": "reference/nomenclature_prelevements_ifrap.md",
    "rang": "methode",
@@ -26187,6 +26212,20 @@
    "famille": "références externes"
   },
   {
+   "role": "fichier:sources/pjlc_equilibre_finances_publiques_an3253_20110316",
+   "chemin": "sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
    "role": "fichier:sources/projet_20261116/00_SHA256SUMS",
    "chemin": "sources/projet_20261116/00_SHA256SUMS.txt",
    "rang": "source",
@@ -27689,6 +27728,7 @@
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
    "sources/l17b3211_projet-loi.pdf",
+   "sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf",
    "sources/projet_20261116/00_SHA256SUMS.txt",
    "sources/projet_20261116/10_Suivi_depenses_credits_et_vecteurs_20261007.xlsx",
    "sources/projet_20261116/11_Synthese_Calculs_Resolution_0910.xlsx",
@@ -27872,11 +27912,11 @@
   }
  ],
  "comptes": {
-  "artefacts": 1809,
-  "au_coffre": 1748,
-  "au_depot": 1282,
+  "artefacts": 1811,
+  "au_coffre": 1750,
+  "au_depot": 1283,
   "derives": 294,
-  "sources": 64,
+  "sources": 65,
   "non_restaurables": 16,
   "sans_famille": 2,
   "manquants": 14

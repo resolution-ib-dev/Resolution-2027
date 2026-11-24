@@ -1,0 +1,253 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Carte du projet Résolution</title>
+<style>
+:root{--enc:#1a1a1a;--pap:#fdfcfa;--fil:#ddd7cd;--vert:#1f5c3a;--rouge:#8a2f22;
+--ocre:#6b5b3e;--gris:#6d6a64}
+*{box-sizing:border-box}
+body{margin:0;padding:2.4rem 1.4rem 5rem;background:var(--pap);color:var(--enc);
+font:16px/1.6 Georgia,"Iowan Old Style",serif;max-width:58rem;margin-inline:auto}
+h1{font-size:1.9rem;line-height:1.2;margin:0 0 .4rem;font-weight:600}
+.chapeau{color:var(--gris);font-size:.95rem;margin:0 0 2rem}
+h2{font-size:1.45rem;margin:3rem 0 .3rem;padding-bottom:.35rem;
+border-bottom:3px solid var(--enc);font-weight:600;letter-spacing:.02em}
+h3{font-size:1.02rem;margin:1.8rem 0 .2rem;font-weight:600;color:var(--ocre);
+text-transform:uppercase;letter-spacing:.07em;font-family:system-ui,sans-serif}
+h3 .n{float:right;font-family:"JetBrains Mono",Consolas,monospace;
+font-size:.72rem;color:var(--gris);font-weight:400;text-transform:none;
+letter-spacing:0}
+.intro{font-size:.92rem;color:var(--gris);margin:.4rem 0 .8rem}
+table{width:100%;border-collapse:collapse;font-size:.89rem;margin:.5rem 0 1.2rem}
+th{text-align:left;font-family:system-ui,sans-serif;font-size:.7rem;
+text-transform:uppercase;letter-spacing:.06em;color:var(--ocre);
+border-bottom:1.5px solid var(--enc);padding:.3rem .5rem .25rem}
+td{border-bottom:1px solid var(--fil);padding:.42rem .5rem;vertical-align:top}
+td.t{font-weight:600;width:17rem}
+td.m{font-family:"JetBrains Mono",Consolas,monospace;font-size:.74rem;
+color:var(--gris);width:15rem;word-break:break-all}
+.b{display:inline-block;font-family:system-ui,sans-serif;font-size:.66rem;
+padding:.06rem .38rem;border:1px solid;border-radius:2px;white-space:nowrap}
+.b-pj{border-color:var(--ocre);background:#f7f3e8;color:#5a4c30}
+.b-ge{border-color:var(--gris);background:#f2f2f0;color:#55534e}
+.b-au{border-color:var(--rouge);background:#fbeae7;color:#7a2519;font-weight:600}
+.manque{background:#fbeae7;border-left:3px solid var(--rouge);
+padding:.6rem 1rem;margin:.8rem 0}
+.manque p{margin:.25rem 0;font-size:.9rem}
+.manque .q{font-weight:600}
+.regime{background:#f6f2ea;border-left:3px solid var(--enc);
+padding:.8rem 1.1rem;margin:1.2rem 0;font-size:.92rem}
+.regime p{margin:.35rem 0}
+.avert{background:#f6f2ea;border:1px solid var(--fil);padding:.7rem 1rem;
+margin:1.4rem 0;font-size:.86rem;color:var(--gris)}
+footer{margin-top:3.5rem;padding-top:.9rem;border-top:1px solid var(--fil);
+color:var(--gris);font-size:.8rem}
+</style></head><body>
+
+<h1>Carte du projet</h1>
+<p class="chapeau">Tout ce que le chantier porte, rangé par contenu. Trois surfamilles — ce qui entre, ce avec quoi on travaille, ce qui sort. Un seul fichier à ouvrir.</p>
+
+<div class="regime">
+<p><b>Ce classement est la vue.</b> Les adresses techniques des fichiers ne suivent pas : déplacer un document du projet suppose de le recopier entièrement, et recopier le manuscrit ou un texte normatif risquerait d’en altérer le verbatim. La colonne <i>adresse</i> dit où chaque chose vit réellement.</p>
+<p><b>Une matière de fond et le document qu’on en tire sont deux artefacts.</b> Ils ne se rangent jamais ensemble. Le texte à trois colonnes est de l’input, les propositions de loi qui en sortent sont de l’output.</p>
+<p><b>Un output gelé et validé monte en input.</b> C’est la promotion : il devient la strate sur laquelle s’appuient les suivantes.</p>
+</div>
+
+<h2>Input</h2>
+<p class="intro">Ce sur quoi tout s’appuie. Lecture seule.</p>
+
+<h3>Doctrine<span class="n">10</span></h3>
+<p class="intro">Le manuscrit et ses annexes. Ils font vérité, et ne se révisent jamais depuis l’aval.</p>
+<table><tr><th>document</th><th>adresse</th><th>ce qu’il porte</th></tr>
+<tr><td class="t">Livre imprimé</td><td class="m">livre/texte_livre.json</td><td>strate 1 du verbatim citable depuis le 20260911. Le texte de la troisième épreuve, validée par l’auteur : 180 pages, une entrée par page, les lignes de composition verbatim. Ce qui se cite du livre se cite de lui.</td></tr>
+<tr><td class="t">Manuscrit</td><td class="m">manuscrit/manuscrit.html</td><td>strate 1 de la doctrine. Corps et notes de fin, 141 notes dont 37 chiffrées. Il ancre le référentiel de doctrine, les notes et les chiffres, et il est le troisième terme de tout relevé d’épreuve — il ne se cite plus pour le livre, dont 858 écarts le séparent.</td></tr>
+<tr><td class="t">Synthèse Calculs Résolution</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>chiffrage. Onglets Manuscrit, Détail Économies, Perdants.</td></tr>
+<tr><td class="t">Synthèse ETP et agences</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>décompte des agences, opérateurs et effectifs.</td></tr>
+<tr><td class="t">PLF 2026 — taxes affectées</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>tome I, annexe 2.</td></tr>
+<tr><td class="t">PLF 2026 — dépenses fiscales</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>tome II, annexe 3. Les 486 niches.</td></tr>
+<tr><td class="t">PLF 2026 — dépenses du budget général</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>par destination et par nature.</td></tr>
+<tr><td class="t">Comptes des communes</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>Insee, tableau 3207.</td></tr>
+<tr><td class="t">Comptes des APUL</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>Insee, tableau 3305.</td></tr>
+<tr><td class="t">Dépense pour l’éducation</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>Depp, fiche 9.</td></tr>
+</table>
+<p class="intro">Des annexes formelles compléteront, versées par l’auteur.</p>
+
+<h3>Extensions<span class="n">5</span></h3>
+<p class="intro">Textes gelés et validés qui complètent la doctrine. Strate maître : une mise à jour ciblée se fait ici, puis on rejoue les outputs concernés. Les trois pièces forment aujourd’hui un ensemble, la réforme budgétaire.</p>
+<table><tr><th>document</th><th>adresse</th><th>ce qu’il porte</th></tr>
+<tr><td class="t">Constitution — trois colonnes</td><td class="m">reference/Constitution_3col_20260730_v44.html</td><td>texte actuel, réforme visée, rédaction révisée. 37 blocs. Fait paire avec la présentation, même millésime.</td></tr>
+<tr><td class="t">Note de réforme budgétaire</td><td class="m">archive/note_reforme_budgetaire_20260730_v12.html</td><td>externalisée, donc gelée. Promue de l’output vers l’input.</td></tr>
+<tr><td class="t">Précédents restes à payer</td><td class="m">archive/Precedents_restes_a_payer_20260721.md</td><td>précédents historiques, source dure de la réforme budgétaire.</td></tr>
+<tr><td class="t">Constitution — trois colonnes, 20260914</td><td class="m">reference/Constitution_3col_20260914_v45.html</td><td>nouveau millésime de la trois colonnes. Fait paire avec la présentation du 20260916. La version du 20260730 garde sa propre entrée, datée et non remplacée.</td></tr>
+<tr><td class="t">Constitution — trois colonnes, 20260916</td><td class="m">reference/Constitution_3col.html</td><td>millésime en vigueur. Deux alinéas rétablis en colonne C — la clause de remplacement temporaire de l’article 25, l’alinéa de suspension des délais de l’article 47 — sortis par `appareil/controle_colonne_c.py`. Les millésimes antérieurs gardent leur entrée, datés et non remplacés.</td></tr>
+</table>
+<p class="intro">Dans le trois colonnes, la première colonne est le texte actuel : verbatim entre guillemets pour 26 blocs sur 37, résumé ou constat de vacance pour les onze autres. <b>Le point de vérité du texte en vigueur reste la Constitution en vigueur</b>, en références externes. Le texte projeté est en troisième colonne, la justification en deuxième et en note de la troisième.</p>
+
+<h3>Références externes<span class="n">12</span></h3>
+<p class="intro">Sources de confiance où la doctrine puise sans s’y aligner. Elles se citent au dehors.</p>
+<table><tr><th>document</th><th>adresse</th><th>ce qu’il porte</th></tr>
+<tr><td class="t">Constitution en vigueur</td><td class="m">reference/Constitution_reference.html</td><td>texte nu.</td></tr>
+<tr><td class="t">Déclaration de 1789</td><td class="m">reference/DDHC.html</td><td>texte nu. Articles 13, 14, 15.</td></tr>
+<tr><td class="t">LOLF en vigueur</td><td class="m">reference/LOLF_reference_20260507.html</td><td>texte nu.</td></tr>
+<tr><td class="t">DGFiP statistiques 2025</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>recettes fiscales.</td></tr>
+<tr><td class="t">Liste des impôts et taxes — Ifrap</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>source des 438 taxes.</td></tr>
+<tr><td class="t">Justice fiscale : comment nous avons trahi 1789</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>doctrine tierce.</td></tr>
+<tr><td class="t">L’impasse de la taxe Zucman — Fondapol</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>doctrine tierce.</td></tr>
+<tr><td class="t">Plan stratégique réseaux</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>vocabulaire et cinq postures de diffusion.</td></tr>
+<tr><td class="t">Exposé sommaire — principes de rédaction, Génération Libre</td><td class="m"><span class="b b-pj">pièce jointe</span></td><td>forme des amendements du contre-budget GL 2026. Docx à la racine du coffre, non déplaçable. Le chantier entre par sa digestion, &lt;code&gt;reference/gabarit_expose_sommaire.md&lt;/code&gt;.</td></tr>
+<tr><td class="t">Guide de légistique — digestion</td><td class="m">reference/guide_legistique.md</td><td>digestion intégrale du guide du SGG : structure d’une proposition, frontière loi/règlement, renvoi au décret, langue et formules modificatives, entrée en vigueur, domaine des lois financières. Original au dépôt, &lt;code&gt;sources/guide_legistique_2026.pdf&lt;/code&gt;.</td></tr>
+<tr><td class="t">Projet de loi constitutionnelle de 2011 sur l’équilibre des finances publiques — digestion</td><td class="m">reference/pjlc_equilibre_finances_publiques_2011.md</td><td>texte déposé n° 3253 du 16 mars 2011 : lois-cadres d’équilibre, monopole fiscal des lois financières, programmes de stabilité ; dispositif au verbatim et rapprochement avec la proposition du corpus. Original au dépôt, &lt;code&gt;sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf&lt;/code&gt;.</td></tr>
+<tr><td class="t">Règles d’amendement des crédits</td><td class="m">reference/regles_credits.md</td><td>LOLF au verbatim et Guide du budgétaire de la direction du Budget. Original au dépôt, &lt;code&gt;sources/guide-public-du-budgetaire-2023.pdf&lt;/code&gt;.</td></tr>
+</table>
+
+<h3>Références internes<span class="n">8</span></h3>
+<p class="intro">Brouillons et proto-doctrine. On y puise, on ne s’y engage pas, et <b>ils ne se citent jamais au dehors</b> : ce sont nos propres textes.</p>
+<table><tr><th>document</th><th>adresse</th><th>ce qu’il porte</th></tr>
+<tr><td class="t">Réserve d’arguments</td><td class="m">archive/Reserve_arguments_20260806_v1.html</td><td>matière argumentative.</td></tr>
+<tr><td class="t">Input gagnants-perdants</td><td class="m">archive/Input_gagnants_perdants_20260820_v1_brouillon.html</td><td>brouillon.</td></tr>
+<tr><td class="t">Input HLM</td><td class="m">archive/Input_HLM_20260806_v1_proto.html</td><td>proto sur le logement social.</td></tr>
+<tr><td class="t">Note retraite</td><td class="m">input/Note_Retraite_20250619.docx</td><td>note non validée. Ne rejoint pas la doctrine.</td></tr>
+<tr><td class="t">Données</td><td class="m">archive/Donnees_20260806_v1_proto.html</td><td>109 candidats chiffrés non sourcés, une soixantaine avec un calcul non documenté. Alimenterait REF_chiffres. Porte aussi une section « Perdants » rédigée, et une comparaison de régulateurs hors sujet.</td></tr>
+<tr><td class="t">Q&amp;A</td><td class="m">archive/QA_20260806_v1_proto.html</td><td>152 questions, antérieures aux contrôles.</td></tr>
+<tr><td class="t">Une page</td><td class="m">archive/1pager_20260806_v1_proto.html</td><td>synthèse d’une page, antérieure aux contrôles.</td></tr>
+<tr><td class="t">Note entreprises</td><td class="m">archive/Note_entreprises_20260806_v1_proto.html</td><td>antérieure aux contrôles.</td></tr>
+</table>
+<p class="intro">Les quatre derniers sont des documents finis, écrits avant l’existence du référentiel et des contrôles. Leur texte tient, leurs chiffres n’ont jamais été confrontés au corpus, et certains le contredisent probablement.</p>
+
+<h2>Travail</h2>
+<p class="intro">Ce avec quoi on lit la doctrine, et ce qui la transforme.</p>
+
+<h3>Grilles<span class="n">1 visible</span></h3>
+<p class="intro">Les lectures de la doctrine. Elles portent des jugements — verdict, degré, rattachement — et se corrigent dès qu’elles s’écartent du manuscrit.</p>
+<table><tr><th>grille</th><th>adresse</th><th>ce qu’elle porte</th></tr>
+<tr><td class="t">Recensement des innovations</td><td class="m">archive/Recensement_innovations_20260731_v1.md</td><td>travail de fond sur les strates normatives.</td></tr>
+<tr><td class="t">Recensement des innovations, 20260914</td><td class="m">livrables/Recensement_innovations_20260914_v2.md</td><td>travail de fond sur les strates normatives. La version du 20260731 garde sa propre entrée, datée et non remplacée.</td></tr>
+<tr><td class="t">REF_doctrine</td><td class="m"><span class="b b-ge">au dépôt</span> chantier/referentiels/REF_doctrine.json</td><td>la doctrine en nœuds. Lu par cinq skills et tous les générateurs.</td></tr>
+<tr><td class="t">REF_chiffres</td><td class="m">referentiels/REF_chiffres.json</td><td>le référentiel des faits. Un point de vérité par chiffre, et la déclaration de ce qui n’est pas sourcé.</td></tr>
+<tr><td class="t">Justifications, apports et sources</td><td class="m"><span class="b b-ge">au dépôt</span> chantier/appareil/justifications.py</td><td>les champs rédigés à la main — les quatre du côté des positions, le sourçage du côté des chiffres. Du code par le format, de la rédaction par le contenu.</td></tr>
+</table>
+<p class="intro">Le référentiel des faits naît sourcé par ce que le corpus énonçait déjà, et déclare le reste. Sur 257 entrées, 59 viennent du manuscrit, 89 du référentiel de doctrine, et 109 sont les candidats du proto Données, tous à sourcer. <b>Un chiffre sans source traçable reste déclaré sans source.</b></p>
+
+<h3>Bac à sable<span class="n">2</span></h3>
+<p class="intro">Mes travaux, non relus. Ce qui n’est pas validé n’est pas de l’input.</p>
+<table><tr><th>document</th><th>adresse</th><th>état</th></tr>
+<tr><td class="t">LOLF — trois colonnes</td><td class="m">reference/LOLF_3col.html</td><td>texte verbatim Légifrance, catégorie et motif, proposition. 29 blocs, dont 21 en verbatim. Transcription aboutie, jamais validée. Monterait en extensions une fois relue.</td></tr>
+<tr><td class="t">Extrait gagnants-perdants</td><td class="m">livrables/extrait_gagnants_perdants.html</td><td>généré, contrôles à zéro. Quatre catégories rédigées sur cinquante-six.</td></tr>
+</table>
+
+<h3>Méthode<span class="n">27</span></h3>
+<p class="intro">Les règles qu’on s’est données. Ce qui est écrit ici ne se redemande pas.</p>
+<table><tr><th>document</th><th>adresse</th></tr>
+<tr><td class="t">Classement du corpus</td><td class="m">methode/classement_corpus.md</td></tr>
+<tr><td class="t">Registre des arbitrages</td><td class="m">methode/arbitrages.md</td></tr>
+<tr><td class="t">Registre des arbitrages — archive</td><td class="m">methode/arbitrages_archive.md</td></tr>
+<tr><td class="t">Journal du corpus</td><td class="m">methode/journal.md</td></tr>
+<tr><td class="t">Index de résolution</td><td class="m">methode/index.json</td></tr>
+<tr><td class="t">Empreintes du coffre</td><td class="m">methode/empreintes.json</td></tr>
+<tr><td class="t">Localisation</td><td class="m">methode/localisation.md</td></tr>
+<tr><td class="t">Rapport gagnants-perdants du 20260820</td><td class="m">archive/rapport_gagnants_perdants_20260820.md</td></tr>
+<tr><td class="t">Contrat de projection</td><td class="m">methode/contrat_projection.md</td></tr>
+<tr><td class="t">Règles de forme canonique</td><td class="m">methode/regles_forme_canonique.md</td></tr>
+<tr><td class="t">Règles rédactionnelles</td><td class="m">methode/regles_redactionnelles.md</td></tr>
+<tr><td class="t">Procédure de contrôle</td><td class="m">methode/procedure_controle.md</td></tr>
+<tr><td class="t">Croisements du corpus</td><td class="m">methode/croisements_corpus.md</td></tr>
+<tr><td class="t">Dérivation de l’axe D2</td><td class="m">methode/derivation_D2.md</td></tr>
+<tr><td class="t">Prompt du fil courant</td><td class="m">methode/prompt_fil_courant.md</td></tr>
+<tr><td class="t">Carte des trois chantiers</td><td class="m">methode/carte_des_chantiers.md</td></tr>
+<tr><td class="t">Procédure du contre-PLF</td><td class="m">methode/procedure_contre_plf.md</td></tr>
+<tr><td class="t">Test de rattachement</td><td class="m">methode/test_rattachement.md</td></tr>
+<tr><td class="t">Appui des passes</td><td class="m">methode/appui_des_passes.md</td></tr>
+<tr><td class="t">Procédure de fin de chantier — dépôt 2027</td><td class="m">methode/procedure_fin_de_chantier_depot_2027.md</td></tr>
+<tr><td class="t">Procédure des vecteurs</td><td class="m">methode/procedure_vecteurs.md</td></tr>
+<tr><td class="t">Gabarit de l’exposé sommaire</td><td class="m">reference/gabarit_expose_sommaire.md</td></tr>
+<tr><td class="t">Prompt de la session d’organisation</td><td class="m">methode/prompt_session_organisation.md</td></tr>
+<tr><td class="t">Plan de la présentation</td><td class="m">archive/Plan_presentation_20260730_v6.md</td></tr>
+<tr><td class="t">Instructions permanentes</td><td class="m">CLAUDE.md</td></tr>
+<tr><td class="t">Démarrage</td><td class="m">racine/DEMARRAGE.md</td></tr>
+<tr><td class="t">État de la révision constitutionnelle</td><td class="m">methode/etat_revision_constitutionnelle.md</td></tr>
+</table>
+<p class="intro"><b>Structure d’une PPL</b> est la digestion du guide de légistique du SGG — fiche 3.1.1 du 5 décembre 2024, décisions du Conseil constitutionnel de 2009 et 2023, Conseil d’État Bailly 1975 — augmentée de nos propres règles. Une référence externe entre au corpus par sa digestion, jamais par son fichier.</p>
+
+<h3>Outillage<span class="n">au dépôt, 231 pièces</span></h3>
+<p class="intro">Générateurs et contrôles. Tu n’as jamais à les ouvrir.</p>
+<table><tr><th>pièce</th><th>adresse</th></tr>
+<tr><td class="t">L’appareil, au dépôt</td><td class="m"><span class="b b-ge">au dépôt</span> resolution-ib-dev/Resolution-2027 — chantier/</td></tr>
+</table>
+
+<h2>Output</h2>
+<p class="intro">Le grand objet du travail. Trois codes formels, trois métiers.</p>
+
+<h3>Juridique<span class="n">4</span></h3>
+<p class="intro">Code légistique. Projections du texte à trois colonnes.</p>
+<table><tr><th>document</th><th>adresse</th><th>état</th></tr>
+<tr><td class="t">PPLC — dispositions modificatives</td><td class="m">archive/PPLC_consolidee_modificative_20260730_v6.md</td><td>consolidée. À rejouer si la révision bouge.</td></tr>
+<tr><td class="t">PPLC — substitution intégrale</td><td class="m">archive/PPLC_consolidee_substitution_20260730_v6.md</td><td>consolidée. Même exposé des motifs que la modificative.</td></tr>
+<tr><td class="t">PPLC — dispositions modificatives, 20260914</td><td class="m">livrables/PPLC_consolidee_modificative.md</td><td>consolidée. La version du 20260730 garde sa propre entrée, datée et non remplacée.</td></tr>
+<tr><td class="t">PPLC — substitution intégrale, 20260914</td><td class="m">livrables/PPLC_consolidee_substitution.md</td><td>consolidée. Même exposé des motifs que la modificative du 20260914.</td></tr>
+</table>
+<p class="intro">Rien en organique, rien en ordinaire. C’est un trou, pas un oubli de rangement.</p>
+
+<h3>Rédactionnel<span class="n">4</span></h3>
+<p class="intro">Code des règles de forme. Un texte qui se lit sans sa mise en forme est rédactionnel.</p>
+<table><tr><th>document</th><th>adresse</th><th>état</th></tr>
+<tr><td class="t">Récapitulatif de transposabilité</td><td class="m">archive/Recap_transposabilite_20260731_v6.md</td><td>externalisé, donc gelé à son millésime. Une version neuve serait un artefact neuf.</td></tr>
+<tr><td class="t">Présentation de la révision</td><td class="m">archive/Presentation_20260731_v44.md</td><td>fait paire avec le texte à trois colonnes.</td></tr>
+<tr><td class="t">Récapitulatif de transposabilité, 20260914</td><td class="m">livrables/Recap_transposabilite_20260914_v7.md</td><td>la version du 20260731 garde sa propre entrée, datée et non remplacée.</td></tr>
+<tr><td class="t">Présentation de la révision, 20260916</td><td class="m">livrables/Presentation_20260916_v46.md</td><td>fait paire avec la trois colonnes du 20260914.</td></tr>
+</table>
+
+<h3>Rédactionnel<span class="n">1</span></h3>
+<p class="intro">Texte suivi. Il se lit sans sa mise en forme.</p>
+<table><tr><th>document</th><th>adresse</th><th>état</th></tr>
+<tr><td class="t">Le manifeste</td><td class="m">site/manifeste.html</td><td>le proto 1-pager remis à jour, corrections déclarées à `appareil/manifeste.py` (A-206, A-211). Charte du livre, affichable et téléchargeable en PDF.</td></tr>
+</table>
+
+<h3>Graphique<span class="n">2</span></h3>
+<p class="intro">Code de la charte. Une pièce dont la mise en forme porte le sens.</p>
+<table><tr><th>document</th><th>adresse</th><th>état</th></tr>
+<tr><td class="t">Galerie des fiches gagnants-perdants</td><td class="m">livrables/galerie_fiches.html</td><td>dix-huit fiches, un persona par fiche. Premier jet arrêté par l’auteur le 20260828, esthétique provisoire. Régénéré par `generer_fiches.py`, jamais corrigé à la main.</td></tr>
+<tr><td class="t">Le site</td><td class="m">site/index.html</td><td>un index et dix-huit fiches à leur adresse (A-195). Vingt et un fichiers, régénérés par `generer_site.py`, poussés au dépôt de publication par `make publier`, déployés par Vercel. Jamais corrigé en ligne.</td></tr>
+</table>
+
+<h2>Ce qui manque</h2>
+
+<div class="manque"><p class="q">Épreuve du contrôle du socle — écrite au second cercle, jamais poussée</p><p>Le fil du second cercle du socle a écrit ce module le 20260917 : quatorze fautes qui lèvent toutes leur code, sept justes qui ne lèvent rien, joués par `make controle`. Il n'est pas au dépôt, et l'index du coffre le déclarait pourtant rendu par lui. `epreuve_s17_salaire.py` doit s'y fondre. À réécrire, ou à retrouver.</p></div>
+
+<div class="manque"><p class="q">Contrôle du socle du texte déposé — invoqué par `make controle`, jamais versé</p><p>La cible `controle` du Makefile appelle `controle_socle_plf.py` sur chacun des deux socles, avec sa pièce et sa table d'articles ouverts. Le module n'est ni au dépôt, ni au coffre, ni dans l'archive du sas de la lecture en creux. La règle du Makefile est gardée par un test de présence du socle, donc `make controle` ne casse pas : il ne contrôle simplement rien sur les deux socles, et cela ne se voyait pas. Les dix contrôles internes de `socle_plf_texte.py` tournent, eux, à chaque génération. À réécrire, ou à retrouver.</p></div>
+
+<div class="manque"><p class="q">Jointure des portes ouvertes — invoquée par `make`, jamais versée</p><p>Le Makefile appelle `portes_ouvertes.py` sur `REF_norme` et les deux tables plates du texte déposé pour produire `referentiels/portes_ouvertes.tsv`. Le module n'est ni au dépôt, ni au coffre, ni dans l'archive du sas de la lecture en creux. La règle est gardée par la présence de `REF_norme`, donc rien ne casse : la jointure ne se fait simplement pas. À réécrire, ou à retrouver — et sa réécriture est l'occasion de consommer le dépliage des fourchettes, qui vit à côté sans être lu.</p></div>
+
+<div class="manque"><p class="q">Guide néerlandais coût-bénéfice — sorti du projet, non digéré</p><p>Méthode d'évaluation étrangère. Même régime et même constat que le guide public du budgétaire. À rejoindre s'il sert.</p></div>
+
+<div class="manque"><p class="q">Annexe des régimes de retraite comparés — sortie du projet le 20260906</p><p>Écarts avec les pays comparables. Retirée par l'auteur, qui la refera plus tard : c'est une sortie décidée, non une perte. Aucune digestion.</p></div>
+
+<div class="manque"><p class="q">Page de garde ResolutionD1a — sortie du projet</p><p>Image de garde, pièce jointe. Sortie constatée le 20260906. La charte graphique attend par ailleurs la couverture du livre, qui n'a jamais été au projet.</p></div>
+
+<div class="manque"><p class="q">Stratégie réseaux — sortie du projet, digestion partielle</p><p>Pièce jointe. A-366 constatait le 20260906 qu'elle était encore au projet ; la confrontation des pièces jointes du 20260907 ne l'y trouve plus. Sa part digérée tient : le lexique (A-53), la date de parution du livre et son identification au manuscrit (A-55), trois angles morts (A-54). Ce qui sort avec elle et n'est digéré nulle part : l'architecture des comptes, le plan de lancement, les cinq postures, les scripts. C'est la sortie qu'A-366 disait coûteuse faute de digestion courte, et elle a eu lieu.</p></div>
+
+<div class="manque"><p class="q">Flux de page d'une épreuve — écrit le 20260910, jamais poussé, perdu</p><p>Extraction du flux de composition d'une épreuve, à deux échelles : les caractères couverts par un surlignage, et les lignes de composition qui les portent. Consommé par `relever_mandat_epreuve.py` et `valeurs_epreuve_relachees.py`. Déclaré voie `depot` par l'index du coffre, absent du clone. À réécrire depuis le relevé EP3, qui est sa sortie versée.</p></div>
+
+<div class="manque"><p class="q">Relevé de mandat d'une épreuve — écrit le 20260910, jamais poussé, perdu</p><p>Apparie les surlignages annotés d'une épreuve relue aux écarts de l'épreuve nouvelle, et rend les quatre mandats `porté`, `porté de travers`, `non porté`, `non demandé`, chacun avec sa preuve — `texte`, `suppression`, `alinéa`, `place`. Absent du clone. À réécrire depuis le relevé EP3.</p></div>
+
+<div class="manque"><p class="q">Contrôle relâché des grandeurs — écrit le 20260910, jamais poussé, perdu</p><p>Relève les grandeurs du corpus dans une épreuve sur un texte dont les césures sont recollées, puis une seconde fois sans les virgules : c'est ce qui empêche un contrôle de disparaître au lieu d'échouer. Absent du clone. À réécrire — sa règle est écrite au relevé EP3.</p></div>
+
+<div class="manque"><p class="q">Rendu du relevé de mandat — écrit le 20260910, jamais poussé, perdu</p><p>Rend `livrables/releve_epreuve_EP3.tsv` et son `.md`. Absent du clone, quand ses deux sorties sont au coffre : elles font spécification exécutable pour sa réécriture, à l'octet, comme la sortie versée d'`articles_ouverts_plf.py` l'avait fait en A-343.</p></div>
+
+<div class="manque"><p class="q">Releve_affecte — attendu par trois skills</p><p>Couche de preuve à identifiants M-nnnn, citée par compatibilite-doctrine, contestabilite et qa-riposte. Introuvable. À reconstruire ou à retirer des trois skills.</p></div>
+
+<div class="manque"><p class="q">Couverture du livre — attendue par la charte</p><p>Nécessaire à la charte graphique définitive. Absente du projet.</p></div>
+
+<div class="manque"><p class="q">Q&amp;A de référence — attendue par qa-riposte</p><p>La skill demande une Q&amp;A à statut « référence » comme modèle de ton. Le corpus ne porte qu’un proto, dont la citation externe est interdite.</p></div>
+
+<h2>Ce qui reste à produire</h2>
+<table><tr><th>produit</th><th>spécifié par</th><th>état</th></tr>
+<tr><td class="t">Fiches mesures</td><td class="m">fiche-mesure</td><td>54 annoncées, aucune régénérée depuis les contrôles.</td></tr>
+<tr><td class="t">Q&amp;A</td><td class="m">qa-riposte</td><td>152 questions antérieures aux contrôles, redescendues en matière.</td></tr>
+<tr><td class="t">Propositions organique et ordinaire</td><td class="m">redaction-legistique</td><td>aucun véhicule au-delà de la révision constitutionnelle.</td></tr>
+<tr><td class="t">Site, vitrine du manuscrit</td><td class="m"><span class="b b-au">à spécifier</span></td><td>sur le modèle de la page de garde. L’extrait en deviendrait une page.</td></tr>
+<tr><td class="t">Infographies de diffusion</td><td class="m"><span class="b b-au">à spécifier</span></td><td>aucune n’existe dans le projet.</td></tr>
+<tr><td class="t">Charte graphique</td><td class="m"><span class="b b-au">à spécifier</span></td><td>appelle la couverture du livre.</td></tr>
+<tr><td class="t">Analyse du projet de loi de finances</td><td class="m"><span class="b b-au">à spécifier</span></td><td>les trois classeurs d’entrée sont au projet.</td></tr>
+</table>
+
+<footer>Classement par contenu validé bloc à bloc le 20260821. Voir <code>methode/classement_corpus.md</code> pour les règles, <code>methode/arbitrages.md</code> pour les décisions.</footer>
+</body></html>

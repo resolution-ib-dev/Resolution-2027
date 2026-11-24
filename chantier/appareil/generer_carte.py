@@ -153,6 +153,14 @@ FAMILLES = [
       'frontière loi/règlement, renvoi au décret, langue et formules '
       'modificatives, entrée en vigueur, domaine des lois financières. '
       'Original au dépôt, <code>sources/guide_legistique_2026.pdf</code>.'),
+     ('Projet de loi constitutionnelle de 2011 sur l’équilibre des '
+      'finances publiques — digestion',
+      ['reference/pjlc_equilibre_finances_publiques_2011.md'], None,
+      'texte déposé n° 3253 du 16 mars 2011 : lois-cadres d’équilibre, '
+      'monopole fiscal des lois financières, programmes de stabilité ; '
+      'dispositif au verbatim et rapprochement avec la proposition du '
+      'corpus. Original au dépôt, <code>sources/'
+      'pjlc_equilibre_finances_publiques_an3253_20110316.pdf</code>.'),
      ('Règles d’amendement des crédits',
       ['reference/regles_credits.md'], None,
       'LOLF au verbatim et Guide du budgétaire de la direction du Budget. '
@@ -461,6 +469,8 @@ IMPLICITES = {
     'reference/digestions_attendues.md': 'méthode',
     'reference/imposition_du_capital_fondapol.md': 'références externes',
     'reference/justice_fiscale_1789_fondapol.md': 'références externes',
+    'reference/pjlc_equilibre_finances_publiques_2011.md': 'références externes',
+    'sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf': 'références externes',
     'reference/nomenclature_prelevements_ifrap.md': 'références externes',
     'reference/sourcage_ir_dgfip.md': 'références externes',
     'referentiels/articles_ouverts_plf.tsv': 'grilles',
