@@ -238,10 +238,10 @@ ctrl('D10-2-1-p1', 'compte éducation = 550 × 12', CI * 12, 6600.0, 0.01, '€/
 
 # ============================================================ D11
 print('\n--- D11 : taux de prélèvements et rythme ---')
-PIB = 2919.9
-ctrl('D11-e1', 'taux 2024', 1251.8 / PIB * 100, 42.87, 0.01, '%')
-ctrl('D11-e1', 'taux cible', 1060.754 / PIB * 100, 36.33, 0.01, '%')
-ctrl('D11-e1', 'baisse de prélèvements', 1251.8 - 1060.754, 191.046, 0.001, 'Md€')
+PIB = 2935.2   # Insee, comptes de la Nation en 2025 (édition de mai 2026), 2024 semi-définitif
+ctrl('D11-e1', 'taux 2024', 1254.0 / PIB * 100, 42.72, 0.01, '%')
+ctrl('D11-e1', 'taux cible', 1062.895 / PIB * 100, 36.21, 0.01, '%')
+ctrl('D11-e1', 'baisse de prélèvements', 1254.0 - 1062.895, 191.105, 0.001, 'Md€')
 consigne('D11-e1', 'écart économies contre baisse de prélèvements', 236.353 - 191.046, 'Md€')
 consigne('D11-e1', 'solde non attribué après chômage et patrimoine',
          236.353 - 191.046 - 29.6 - 17.553, 'Md€')

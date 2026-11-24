@@ -117,7 +117,7 @@ COUVERTURE = [
      "l'arbre du chiffrage — 41 lignes, code de destination, hypothèse, "
      "incidence par population"),
     ('Synthèse Calculs Résolution', 'Fusion taxes', 'lu',
-     'taux de prélèvements 42,87 % à 36,33 %, variations de taxes'),
+     'taux de prélèvements 42,72 % à 36,21 %, variations de taxes'),
     ('Synthèse Calculs Résolution', 'CI unique', 'lu',
      "coût de l'aide fondamentale, 417,285 Md€ borne haute"),
     ('Synthèse Calculs Résolution', 'Capitalisation', 'lu',
