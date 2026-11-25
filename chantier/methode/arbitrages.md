@@ -9382,3 +9382,21 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 *Relevé* sur les fichiers Insee des deux éditions (3.216, 3.217) : mai 2025 donne PIB 2024 2 919,9, PO 1 250,756, 42,84 % ; mai 2026 donne 2 935,236, 1 254,024, 42,72 %. L’onglet « Refonte fiscalité » portait les postes de mai 2025 et un PO de 1 251,8 Md€ (42,87 %) que **ni l’une ni l’autre édition ne porte** : l’entrée du 20261001 qui l’avait retenu contre 1 250,76 est caduque.
 
 **Exécuté.** Onglet « Refonte fiscalité » de la Synthèse des chiffrages (site) : C3 2 935,2, F3 1 254,0, postes recalés sur le 3.217 de mai 2026 par le rattachement reconstitué (vérifié sur mai 2025 à 0,05 Md€ près, correction du bouclier tarifaire de 4,592 Md€ gardée sur l’énergie) ; 44 cellules, seul cet onglet bouge, caches rejoués par recalcul. TVA 207,8 ; IR net 87,1 ; IS net 57,2 ; main-d’œuvre 58,1 ; transports 1,8 ; autres ménages 6,4 ; droits de mutation 38,0 (onéreux 17,2). Total 626,1. Effets : taux cible 36,21 % (36,33), PO cible 1 062,895 Md€, baisse 191,105 Md€ ; hausses d’équilibre 67,6 (IS 25,62, foncière 41,98) ; taux unique d’IR estimé 22,76 % (22,74). Le manuscrit (« 36 % ») tient. Recalés : `schema_refonte_fiscalite_2024.tsv`, passage et classeur du tri, `REF_doctrine` (D11-e1), `controle_arithmetique.py`, `sources_chiffres.py`, `construire_positions.py`, `generer_classeur_synthese.py`. **Rattachement à valider par l’auteur** : « autres taxes sur les entreprises » (13,2) n’a pas de combinaison unique de lignes ; toutes les combinaisons plausibles ont un écart nul entre éditions, la valeur reste. « Autres taxes sur les ménages » lu comme taxe d’habitation + IFI + GEMAPI (6,527 en mai 2025).
+
+### A-441 — Le dossier de l'audition se verse en archive datée, et les pièces en sources — 20261125
+
+**Tranché.** Le travail de préparation de l'audition du 10 novembre 2026 entre
+au dépôt dans un seul dossier daté, `archive/audition_senat_20261110/`, au
+rang des sorties gelées : intervention, notes, transcriptions, calculs. Les
+pièces externes téléchargées vont à `sources/`, plat et daté comme le veut la
+règle de ce dossier. Aucune table de l'index n'est touchée : le balayage du
+dépôt relève le dossier et l'affecte à la famille de son adresse.
+
+**Écarté.** Un rangement dans `livrables/` : rien n'a été relu par l'auteure
+pour diffusion, et un dossier de dix-neuf notes y ferait du bruit. Une
+régénération par le modèle des notes rendues en conversation : elles sont
+copiées à l'octet depuis le transcript de session, conformément à la règle de
+restauration.
+
+**Caduc.** Rien. Le versement de la session du 10 novembre au coffre reste à
+faire par l'auteure si elle le souhaite ; le dépôt porte tout.
