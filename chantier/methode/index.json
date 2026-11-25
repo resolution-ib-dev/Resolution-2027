@@ -3207,6 +3207,93 @@
    "famille": "références externes"
   },
   {
+   "role": "pjlc_equilibre_finances_publiques_2011",
+   "chemin": "reference/pjlc_equilibre_finances_publiques_2011.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée",
+    "contestabilite",
+    "qa-riposte",
+    "analyse-transposabilite",
+    "PPLC règle d'or — exposé des motifs"
+   ],
+   "alias": [
+    "pjlc_2011",
+    "pl3253",
+    "PJLC2011_pl3253.pdf",
+    "lois-cadres d’équilibre",
+    "pjlc_equilibre_finances_publiques_an3253_20110316.pdf"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/pjlc_equilibre_finances_publiques_2011.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "pjlc_equilibre_finances_publiques_2011_adopte",
+   "chemin": "reference/pjlc_equilibre_finances_publiques_2011_adopte.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée",
+    "contestabilite",
+    "qa-riposte",
+    "analyse-transposabilite",
+    "PPLC règle d'or — exposé des motifs"
+   ],
+   "alias": [
+    "pjlc_2011_adopte",
+    "ta722",
+    "texte adopté n° 722 rectifié",
+    "pjlc2011_adopt__0722.pdf",
+    "pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/pjlc_equilibre_finances_publiques_2011_adopte.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "budget_etat_2025_cour_des_comptes",
+   "chemin": "reference/budget_etat_2025_cour_des_comptes.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée",
+    "contestabilite",
+    "qa-riposte"
+   ],
+   "alias": [
+    "rbde_2025",
+    "cour_rbde_2025",
+    "Cour_RBDE_2025.pdf",
+    "rapport sur le budget de l’État 2025"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/budget_etat_2025_cour_des_comptes.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "controle_digestion_pages",
+   "chemin": "appareil/controle_digestion_pages.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "digestion paginée d’une référence externe"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_digestion_pages.py",
+   "famille": "outillage"
+  },
+  {
    "role": "nomenclature_prelevements_ifrap",
    "chemin": "reference/nomenclature_prelevements_ifrap.md",
    "rang": "methode",
@@ -26495,6 +26582,20 @@
    "famille": "références externes"
   },
   {
+   "role": "fichier:sources/Cour_RBDE_2025",
+   "chemin": "sources/Cour_RBDE_2025.txt",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/sources/Cour_RBDE_2025.txt",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
    "role": "fichier:sources/cae_focus_137_taux_marginaux_202606",
    "chemin": "sources/cae_focus_137_taux_marginaux_202606.pdf",
    "rang": "source",
@@ -26785,6 +26886,34 @@
    "restaurable": true,
    "voie": "depot",
    "chemin_coffre": "chantier/sources/opee_bulletin_50_cibles_previsions_202507.pdf",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
+   "role": "fichier:sources/pjlc_equilibre_finances_publiques_an3253_20110316",
+   "chemin": "sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
+   "role": "fichier:sources/pjlc_equilibre_finances_publiques_ta722rect_20110713",
+   "chemin": "sources/pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/sources/pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf",
    "releve": true,
    "famille": "références externes"
   },
@@ -27089,6 +27218,7 @@
    "appareil/controle_cles_gl.py",
    "appareil/controle_colonne_c.py",
    "appareil/controle_credits_liasse.py",
+   "appareil/controle_digestion_pages.py",
    "appareil/controle_enonces.py",
    "appareil/controle_generalisation.py",
    "appareil/controle_generateurs.py",
@@ -28341,6 +28471,7 @@
    "revision/points_a_confirmer.md",
    "revision/registre_arbitrages_penal.md",
    "sources/Cour_RBDE_2025.pdf",
+   "sources/Cour_RBDE_2025.txt",
    "sources/cae_focus_137_taux_marginaux_202606.pdf",
    "sources/ce_20231013_464202.html",
    "sources/coin_marginal_dossier_resolution_aire_20261106.html",
@@ -28362,6 +28493,8 @@
    "sources/l17b3211_projet-loi.pdf",
    "sources/ofce_blog_economie_va_mieux_2024.pdf",
    "sources/opee_bulletin_50_cibles_previsions_202507.pdf",
+   "sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf",
+   "sources/pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf",
    "sources/projet_20261116/00_SHA256SUMS.txt",
    "sources/projet_20261116/10_Suivi_depenses_credits_et_vecteurs_20261007.xlsx",
    "sources/projet_20261116/11_Synthese_Calculs_Resolution_0910.xlsx",
@@ -28547,11 +28680,11 @@
   }
  ],
  "comptes": {
-  "artefacts": 1854,
-  "au_coffre": 1793,
-  "au_depot": 1327,
+  "artefacts": 1861,
+  "au_coffre": 1800,
+  "au_depot": 1331,
   "derives": 294,
-  "sources": 84,
+  "sources": 87,
   "non_restaurables": 16,
   "sans_famille": 2,
   "manquants": 14

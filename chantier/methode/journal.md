@@ -6305,3 +6305,46 @@ renvoie plus que par une ligne — il ne porte plus la table.
   2,2 → 5,2 points, coûts d'abattement) restent à verser à `REF_chiffres`.
 - Le chiffre « 85 % des six millions sans médecin traitant » repose sur une
   hypothèse de 5 000 médecins du travail × 1 000 patients, non sourcée.
+
+## 20261124 — le projet de loi constitutionnelle de 2011 sur l'équilibre des finances publiques entre au corpus
+
+## Ce qui a changé au corpus
+
+- `reference/pjlc_equilibre_finances_publiques_2011.md` : digestion du projet de loi constitutionnelle n° 3253 du 16 mars 2011, lu en entier — motif, lois-cadres d'équilibre, monopole fiscal des lois financières, programmes de stabilité, entrée en vigueur, dispositif au verbatim (44 citations contrôlées sur le texte du PDF, 44 retrouvées), rapprochement avec la proposition de loi constitutionnelle du corpus.
+- `sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf` : l'original, versé tel quel.
+- Index et carte : la digestion est déclarée en références externes, sous les alias `pjlc_2011` et `pl3253`.
+
+## Ce qui reste ouvert
+
+- Clos le même jour par l'entrée suivante : le texte adopté n° 722 rectifié est versé.
+- Les rangs d'alinéa de l'article 34 lus dans la pièce sont ceux de 2011 : un rang de plus aujourd'hui à partir du dix-huitième.
+- Empreintes non relevées : `make coffre` demande un clone et revient au fil qui le joue.
+
+## 20261124 — le texte adopté du projet de 2011 entre à son tour, et il diffère du texte déposé
+
+## Ce qui a changé au corpus
+
+- `reference/pjlc_equilibre_finances_publiques_2011_adopte.md` : digestion du texte adopté n° 722 rectifié du 13 juillet 2011, lu en entier — dispositif au verbatim (43 citations contrôlées, 43 retrouvées), table des écarts avec le texte déposé, confrontation de l'exposé de la proposition de loi constitutionnelle du corpus.
+- `sources/pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf` : l'original.
+- Écarts de fond relevés : le monopole fiscal des lois financières et la réserve de fiscalité locale ont disparu ; la durée minimale de trois ans, le plafond de dépenses et le minimum de recettes nouvelles par année, la correction des écarts et le contrôle de conformité des lois financières par le Conseil constitutionnel sont montés dans la Constitution ; dates de dépôt des projets de lois financières ajoutées.
+- La digestion du texte déposé renvoie à celle-ci ; le signalement sur l'exposé de la proposition est levé.
+
+## Ce qui reste ouvert
+
+- « Jamais soumis au Congrès, faute de réunir la majorité des trois cinquièmes », à l'exposé de la proposition : hors des deux pièces, à sourcer.
+- Empreintes non relevées.
+
+## 20261125 — le rapport de la Cour des comptes sur le budget de l'État en 2025 entre au corpus
+
+## Ce qui a changé au corpus
+
+- `reference/budget_etat_2025_cour_des_comptes.md` : digestion du rapport d'avril 2026 (194 pages) — douze chiffres de l'exercice, thèse de la Cour, neuf recommandations au verbatim, puis les trois chapitres, le suivi des recommandations et les trois annexes au plan de la Cour, chaque fait à sa page.
+- `sources/Cour_RBDE_2025.pdf` (déposé par l'auteur) et `sources/Cour_RBDE_2025.txt`, son texte extrait page par page.
+- `appareil/controle_digestion_pages.py` : rejoue chaque nombre et chaque citation d'une digestion sur la page citée. Sur cette digestion : 3 724 nombres contrôlés, 3 719 retrouvés, 47 citations sur 47 ; les cinq écarts sont des appels de note collés au chiffre par l'extraction.
+- Écarts internes à la pièce relevés et non arbitrés (§ 9), dont la réponse du ministre annoncée au délibéré et absente de l'exemplaire.
+
+## Ce qui reste ouvert
+
+- Tableaux déstructurés à l'extraction et graphiques sans valeurs : un chiffre tiré d'un de ces tableaux se rejoue sur le PDF avant diffusion (liste au § 10).
+- Aucun chiffre versé au référentiel des faits ; rapprochement avec le registre de calcul de l'état B non fait.
+- Empreintes non relevées.
