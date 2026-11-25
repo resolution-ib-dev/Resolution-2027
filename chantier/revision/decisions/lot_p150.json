@@ -39,13 +39,13 @@
       "code": "cpp",
       "num": "L4431-4",
       "principe": "P19",
-      "motif": "Minute du jugement : phrases resserrées, sans point-virgule.",
+      "motif": "Minute du jugement : phrases resserrées, sans point-virgule. Passe 4 : la mention du dépôt sur un registre du greffe, pure forme, descend au décret en Conseil d'État (P1). La signature de la minute et celle du juge qui a lu le jugement en cas d'empêchement du président restent dans la loi : elles authentifient le jugement et prouvent sa composition (relecture). La date, la composition, la présence du ministère public et le délai de trois jours restent aussi.",
       "ligne_rouge": "aucune",
-      "decision": "S",
+      "decision": "D",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La minute du jugement est datée, mentionne les noms des magistrats qui l'ont rendu et constate la présence du ministère public à l'audience. Elle est signée par le président et le greffier ou, en cas d'empêchement du président mentionné sur la minute, par le juge qui a lu le jugement. Elle est déposée au greffe au plus tard trois jours après le prononcé, et ce dépôt est mentionné sur un registre tenu à cet effet."
+          "nouveau": "La minute du jugement est datée, mentionne les noms des magistrats qui l'ont rendu et constate la présence du ministère public à l'audience. Elle est signée par le président et le greffier ou, en cas d'empêchement du président mentionné sur la minute, par le juge qui a lu le jugement. Elle est déposée au greffe au plus tard trois jours après le prononcé."
         }
       ]
     },
@@ -83,9 +83,15 @@
       "code": "cpp",
       "num": "L4432-4",
       "principe": "P3",
-      "motif": "Fait requalifié en contravention, contravention connexe : inchangé.",
+      "motif": "Fait requalifié en contravention, contravention connexe : inchangé. Passe 4 : « conformément aux dispositions de » devient « selon », la virgule fautive tombe et les deux alinéas sont séparés, portée inchangée.",
       "ligne_rouge": "aucune",
-      "decision": "G"
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Si le tribunal régulièrement saisi d'un fait qualifié délit par la loi estime, au résultat des débats, que ce fait ne constitue qu'une contravention, il statue selon l'article L. 4432-1.\nSi le fait est une contravention connexe à un délit, le tribunal statue par un seul et même jugement, à charge d'appel sur le tout."
+        }
+      ]
     },
     {
       "code": "cpp",
@@ -319,13 +325,13 @@
       "code": "cpp",
       "num": "L4432-34",
       "principe": "P25",
-      "motif": "Relaxe, irresponsabilité constatée après les faits (L4432-35) et trouble mental (L4432-36) en un article.",
+      "motif": "Relaxe, irresponsabilité constatée après les faits (L4432-35) et trouble mental (L4432-36) en un article. Passe 4 : l'intitulé de L6322-5 recopié dans le renvoi tombe, le renvoi chiffré suffit.",
       "ligne_rouge": "Présomption d'innocence (art. 9 DDHC) : relaxe de droit si le fait n'est pas établi.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le tribunal délictuel prononce la relaxe lorsque le fait poursuivi ne constitue aucune infraction à la loi pénale, n'est pas établi ou n'est pas imputable au prévenu. Il ne relaxe pour l'une des causes d'irresponsabilité pénale des articles 122-2, 122-3, 122-4, 122-5 et 122-7 du code pénal qu'après avoir constaté que le prévenu a commis les faits. S'il estime applicable le premier alinéa de l'article 122-1 du même code, il statue selon l'article L. 6322-5 relatif à la déclaration d'irresponsabilité pénale pour cause de trouble mental."
+          "nouveau": "Le tribunal délictuel prononce la relaxe lorsque le fait poursuivi ne constitue aucune infraction à la loi pénale, n'est pas établi ou n'est pas imputable au prévenu. Il ne relaxe pour l'une des causes d'irresponsabilité pénale des articles 122-2, 122-3, 122-4, 122-5 et 122-7 du code pénal qu'après avoir constaté que le prévenu a commis les faits. S'il estime applicable le premier alinéa de l'article 122-1 du même code, il statue selon l'article L. 6322-5."
         }
       ]
     },

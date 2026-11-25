@@ -25,13 +25,13 @@
       "code": "cpp",
       "num": "L1631-2",
       "principe": "P23",
-      "motif": "Mentions de l'exploit, signature de l'original : gardées, sans point-virgule.",
+      "motif": "Mentions de l'exploit, signature de l'original : gardées, sans point-virgule. Passe 4 : les nom, prénoms et adresse du commissaire de justice et le détail de l'identification du destinataire (nom, prénoms, adresse, dénomination et siège de la personne morale) descendent au décret en Conseil d'État (P1). La désignation du requérant et du destinataire et la date de l'exploit, qui fixe le point de départ des délais, restent dans la loi (art. 34 C, P11), comme la signature de l'original.",
       "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : la remise effective de l'acte, la lettre au destinataire, le récépissé et les recherches du parquet, qui fondent la connaissance de l'acte par la personne, sont gardés.",
-      "decision": "S",
+      "decision": "D",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "L'exploit de citation ou de signification désigne le requérant et porte sa date, les nom, prénoms et adresse du commissaire de justice et ceux du destinataire ou, pour une personne morale, sa dénomination et son siège. La personne qui reçoit copie de l'exploit signe l'original. Si elle ne veut ou ne peut signer, le commissaire de justice en fait mention."
+          "nouveau": "L'exploit de citation ou de signification désigne le requérant et le destinataire et porte sa date. La personne qui reçoit copie de l'exploit signe l'original. Si elle ne veut ou ne peut signer, le commissaire de justice en fait mention."
         }
       ]
     },
@@ -39,13 +39,13 @@
       "code": "cpp",
       "num": "L1631-3",
       "principe": "P23",
-      "motif": "Diligences pour la remise à personne, information de la personne morale, procès-verbal des diligences : gardés, sans point-virgule.",
+      "motif": "Diligences pour la remise à personne, information de la personne morale, procès-verbal des diligences : gardés, sans point-virgule. Passe 4 : reçoit la définition de la délivrance à personne (ancien L1631-6), dite de « l'une de ces personnes » : destinataire, représentant légal, fondé de pouvoir ou personne habilitée, comme en 2029.",
       "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : la remise effective de l'acte, la lettre au destinataire, le récépissé et les recherches du parquet, qui fondent la connaissance de l'acte par la personne, sont gardés.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le commissaire de justice fait toutes diligences pour délivrer l'exploit à la personne même du destinataire ou, pour une personne morale, à son représentant légal, au fondé de pouvoir de celui-ci ou à toute personne habilitée à cet effet. Il lui en remet une copie.\nIl informe sans délai la personne morale, par lettre simple, de la délivrance, du nom du requérant et de l'identité de la personne qui a reçu la copie. Il mentionne dans tous les cas sur l'original, sous forme de procès-verbal, ses diligences et les réponses à ses interpellations."
+          "nouveau": "Le commissaire de justice fait toutes diligences pour délivrer l'exploit à la personne même du destinataire ou, pour une personne morale, à son représentant légal, au fondé de pouvoir de celui-ci ou à toute personne habilitée à cet effet. Il lui en remet une copie. La remise de la copie à l'une de ces personnes vaut délivrance à personne.\nIl informe sans délai la personne morale, par lettre simple, de la délivrance, du nom du requérant et de l'identité de la personne qui a reçu la copie. Il mentionne dans tous les cas sur l'original, sous forme de procès-verbal, ses diligences et les réponses à ses interpellations."
         }
       ]
     },
@@ -74,20 +74,6 @@
         {
           "op": "rediger",
           "nouveau": "La nullité d'un exploit n'est prononcée que s'il a porté atteinte aux intérêts de la personne qu'il concerne. La juridiction qui la déclare peut condamner le commissaire de justice qui en est la cause aux frais de l'exploit et de la procédure annulée, et à des dommages-intérêts envers la partie lésée."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L1631-6",
-      "principe": "P23",
-      "motif": "Définition de la délivrance à personne : gardée.",
-      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : la remise effective de l'acte, la lettre au destinataire, le récépissé et les recherches du parquet, qui fondent la connaissance de l'acte par la personne, sont gardés.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "La remise de la copie à l'une des personnes mentionnées au premier alinéa de l'article L. 1631-3 vaut délivrance à personne."
         }
       ]
     },
@@ -201,13 +187,13 @@
       "code": "cpp",
       "num": "L1632-3",
       "principe": "P12",
-      "motif": "Règle générale de la transmission aux personnes (P12, fiche L1 du paquet législatif n° 1) : tout avis, convocation ou document part par voie électronique à l'adresse déclarée, le papier sur demande, et pour la personne détenue ou sans adresse électronique. Règle générale de l'adresse déclarée, reprise de L1431-6 et étendue à toute déclaration d'adresse prévue par le code : changement signalé par écrit, notification réputée faite à la dernière adresse.",
+      "motif": "Règle générale de la transmission aux personnes (P12, fiche L1 du paquet législatif n° 1) : tout avis, convocation ou document part par voie électronique à l'adresse déclarée, le papier sur demande, et pour la personne détenue ou sans adresse électronique. Règle générale de l'adresse déclarée, reprise de L1431-6 et étendue à toute déclaration d'adresse prévue par le code : changement signalé par écrit, notification réputée faite à la dernière adresse. Passe 4 : sur consigne de relecture (registre 10.9, relecture de passe 3 des lots p176 à p181), la fiction de la dernière adresse déclarée couvre la citation, la notification et la signification, comme le faisaient L3452-18 et L3431-30 en 2029. Les réserves des deux derniers alinéas (personne détenue, envoi électronique sans réception établie, délais d'opposition et d'appel d'une condamnation) restent et visent « la notification réputée faite à la personne » au sens large de l'alinéa. Pour que ces réserves suivent la fiction, elles visent elles aussi la citation, la notification et la signification (« l'acte réputé fait à la personne ») : extension de garantie déclarée (registre 10.2).",
       "ligne_rouge": "Droits de la défense (art. 16 DDHC) et P11 examinés : la personne est avisée des effets de sa déclaration d'adresse et de l'usage par défaut de son adresse électronique. La présomption de notification ne vaut pas pour la personne détenue, ne joue pour un courriel non reçu qu'après un envoi papier, et ne fait pas courir les délais d'opposition et d'appel d'une condamnation, qui partent de la connaissance effective (L4442-5, L4471-8).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque le présent code prévoit qu'un avis, une convocation ou un document est adressé à une personne par l'autorité judiciaire par tout moyen, par lettre simple, par lettre recommandée ou par lettre recommandée avec demande d'avis de réception, l'envoi est fait par voie électronique à l'adresse électronique que la personne a déclarée au cours de la procédure. La personne est avisée, lorsqu'elle déclare cette adresse, que les envois lui sont faits à cette adresse. Elle peut demander, par une déclaration expresse, un envoi sur support papier. L'envoi est fait sur support papier à la personne détenue et à celle qui n'a pas déclaré d'adresse électronique.\nLorsque le présent code prévoit qu'une personne déclare une adresse, elle est avisée qu'elle doit signaler tout changement d'adresse à l'autorité judiciaire chargée de la procédure, par tout moyen laissant une trace écrite, et que toute notification faite à la dernière adresse déclarée est réputée faite à sa personne. Faute d'avoir déclaré son changement d'adresse, elle ne peut opposer le défaut de notification des actes adressés à cette adresse.\nLa notification faite à la dernière adresse déclarée n'est pas réputée faite à la personne détenue, à qui l'acte est notifié dans les conditions de l'article L. 1631-1. Un envoi électronique dont la réception n'est pas établie n'est réputé fait à la personne qu'après un envoi sur support papier à la dernière adresse postale déclarée.\nLa notification réputée faite à la personne ne fait pas courir contre elle le délai d'opposition ou d'appel d'une décision de condamnation, qui court dans les conditions des articles L. 4442-5 et L. 4471-8."
+          "nouveau": "Lorsque le présent code prévoit qu'un avis, une convocation ou un document est adressé à une personne par l'autorité judiciaire par tout moyen, par lettre simple, par lettre recommandée ou par lettre recommandée avec demande d'avis de réception, l'envoi est fait par voie électronique à l'adresse électronique que la personne a déclarée au cours de la procédure. La personne est avisée, lorsqu'elle déclare cette adresse, que les envois lui sont faits à cette adresse. Elle peut demander, par une déclaration expresse, un envoi sur support papier. L'envoi est fait sur support papier à la personne détenue et à celle qui n'a pas déclaré d'adresse électronique.\nLorsque le présent code prévoit qu'une personne déclare une adresse, elle est avisée qu'elle doit signaler tout changement d'adresse à l'autorité judiciaire chargée de la procédure, par tout moyen laissant une trace écrite, et que toute citation, notification ou signification faite à la dernière adresse déclarée est réputée faite à sa personne. Faute d'avoir déclaré son changement d'adresse, elle ne peut opposer le défaut de notification des actes adressés à cette adresse.\nLa citation, la notification ou la signification faite à la dernière adresse déclarée n'est pas réputée faite à la personne détenue, à qui l'acte est notifié dans les conditions de l'article L. 1631-1. Un envoi électronique dont la réception n'est pas établie n'est réputé fait à la personne qu'après un envoi sur support papier à la dernière adresse postale déclarée.\nL'acte réputé fait à la personne ne fait pas courir contre elle le délai d'opposition ou d'appel d'une décision de condamnation, qui court dans les conditions des articles L. 4442-5 et L. 4471-8."
         }
       ]
     },
@@ -256,6 +242,15 @@
       "motif": "Trace de l'envoi électronique au dossier : fusionnée dans L1632-1.",
       "ligne_rouge": "aucune",
       "vers": "L1632-1"
+    },
+    {
+      "code": "cpp",
+      "num": "L1631-6",
+      "decision": "F",
+      "principe": "P23",
+      "motif": "Passe 4 : définition de la délivrance à personne fusionnée dans L1631-3, qui énumère les personnes à qui la copie est remise. Aucun renvoi entrant dans les textes de la cible (les plages L. 1631-1 à L. 1631-13 de L4411-18, L4412-4 et L4415-1 restent bornées).",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) examinés : la remise à personne et ses effets sont gardés mot pour mot à L1631-3.",
+      "vers": "L1631-3"
     }
   ],
   "passe": 3

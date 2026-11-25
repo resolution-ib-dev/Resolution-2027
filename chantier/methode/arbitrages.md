@@ -8391,6 +8391,998 @@ tranchée » des cinq rangs. **Aucun fil ne rouvre ce point** : un siège trouv�
 plus tard pour l’un de ces rangs n’entre que par un arbitrage nouveau de
 l’auteur.
 
+## 20261029 — registre-penal
+
+*Fil de réconciliation du 20261029, absorption des sas de la révision pénale
+inscrits à `methode/sas.md` les 20261027 et 20261028. Entrée titrée et datée,
+sans numéro — A-282 : le numéro se donne à l'insertion. Renvoi, sans recopie
+d'aucune ligne du registre propre.*
+
+### Le registre pénal fait foi pour la révision pénale — 20261029
+
+**Tranché.** La révision pénale tient ses arbitrages à un registre propre,
+`revision/registre_arbitrages_penal.md`, **sections 1 à 11**, et la section 12
+est à venir. **Le registre pénal fait foi pour la révision pénale** : un
+arbitrage de cette matière se lit et s'écrit là, une ligne numérotée par
+arbitrage (`1.1` à `11.6`), avec son statut. Ce registre-ci n'en porte que le
+renvoi.
+
+**Compte relevé le 20261029 sur le fichier** : 493 lignes numérotées aux
+sections 1 à 11, dont **8 validées** par l'auteur (section 1 : quatre le
+20261020, quatre le 20261023), **484 déléguées** — tranchées par Claude sur la
+délégation du 20261027, « décide et tiens les comptes », révocables et soumises
+à confirmation dans le dossier de relecture — et **1 marquée « fait »** (8.1,
+une correction de référence). Parmi les 484 déléguées, quatre portent « fait
+20261027 », quatre « obligation », et une (3.1) porte la validation de ses deux
+premières exceptions le 20261023.
+
+**Écarté.** Recopier les lignes du registre pénal ici : deux registres d'une
+même décision divergent au premier changement.
+
+**Caduc.** Rien. Les arbitrages par défaut de la passe 2
+(`revision/arbitrages_passe2.md`) sont repris au registre pénal, qui le dit en
+tête.
+
+## 20261103 — tri-porte
+
+*Fil de production du 20261103 : vérification du tri des prélèvements, relecture
+des annexes, porteurs des liasses. Entrées titrées et datées, sans numéro —
+A-282 : le numéro se donne à l’insertion.*
+
+### Les six devenirs d’un prélèvement — 20261103
+
+**Validé.** *Arbitrage de l’auteur des 20261102 et 20261103.* Rien n’est
+supprimé sec : tout prélèvement a un rendement, donc une contrepartie. Il n’existe
+que six devenirs :
+
+| devenir | définition |
+|---|---|
+| grand impôt conservé | impôt sur le revenu, impôt sur les sociétés, TVA, taxe foncière |
+| remplacé par un grand impôt | il disparaît, un impôt précis en reprend le produit (sort « fondu par rattachement » du tri) |
+| fondu dans l’équilibre des quatre grands impôts | il disparaît, son produit est repris par les hausses d’équilibre du schéma (colonne K de l’onglet « Refonte fiscalité ») : taxes sur la masse salariale, taxe sur les remontées mécaniques, redevance de ski de fond |
+| conservé en complément | il demeure à côté du grand impôt qu’il prolonge (blocs ci-dessous) |
+| à fusionner | les 82 cotisations sociales ; schéma non explicité, en suspens ; ni « rendues » ni « versées au compte épargne » |
+| recette non fiscale | ce n’est pas un prélèvement obligatoire |
+
+**Blocs « conservé en complément ».** Accise (sur-TVA) : énergie, tabac, alcool.
+Simili TVA : activités sans TVA — taxe sur les conventions d’assurance, forfait
+social, CSA, prélèvement du fonds Barnier (rebudgétisé). Taxe de séjour unique
+(L. 2333-26 CGCT), où se fondent les taxes additionnelles départementale,
+régionale d’Île-de-France et des articles L. 4332-4 à 6. Fonds de garantie :
+assurances obligatoires (L. 421-1 C. assur.), terrorisme (L. 422-1), calamités
+agricoles (1635 bis A CGI), à restituer dans la réforme des régimes, comme
+l’agriculture. Fiscalité outre-mer. Union européenne.
+
+**Assiette « propriété et droits d’usage », ventilée par qui paie.** Une
+entreprise, pour son activité (locaux d’activité, contrôles sanitaires, frais de
+contrôle, domaine public et fréquences, propriété industrielle, VTC,
+phytosanitaires, cinéma, garantie de l’or) : impôt sur les sociétés. Un
+particulier, pour un acte (timbres, plaidoirie, actes civils et judiciaires,
+émoluments, chasse, vie étudiante) : impôt sur le revenu. Le patrimoine et
+l’action locale : taxe foncière.
+
+**Niches.** Cinq devenirs : supprimée, gain restitué · supprimée en trois ans,
+gain restitué · fondue dans l’aide fondamentale (et non dans un « crédit
+d’impôt ») · fiscalité outre-mer · déjà éteinte.
+
+**Caduc.** Le sort « maintenu à part » des rangs 293 (remontées mécaniques) et
+295 (ski de fond), et toute imputation des cotisations sociales à un compte
+épargne ou à une restitution.
+
+### La CSG et la CRDS restent remplacées par l’impôt sur le revenu — 20261103
+
+**Validé.** *Arbitrage de l’auteur du 20261103.* La CSG et la CRDS restent au
+sort du tri, remplacées par l’impôt sur le revenu : le taux unique de 23 % se
+calcule sur une assiette qui intègre la leur (formule K50 de l’onglet
+« Refonte fiscalité »). La restitution sur la fiche de paie et le compte
+épargne personnel sont des perspectives : elles se mentionnent en présentation,
+jamais comme devenir d’un prélèvement.
+
+### Six sièges complétés, à confirmer sur LEGI — 20261103
+
+**Validé, sous réserve de confirmation sur pièce.** *Relevé de l’auteur du
+20261103.* Taxe sur les holdings patrimoniales : art. 235 ter C CGI. Taxe
+« petit colis » : art. 82 de la loi n° 2026-103. Certificats d’obtention
+végétale : R. 623-30-1 à R. 623-35 CPI, arrêté du 8 janvier 2026. Certification
+phytosanitaire à l’export : L. 251-17-1 CRPM, arrêté du 5 août 1992. Droits
+d’importation : règlement (UE) n° 952/2013. CRDS sur les revenus d’activité :
+art. 14 de l’ordonnance n° 96-50.
+
+*Confirmation au dépôt de droit, millésime LEGI 20261031, version applicable au
+1er juillet 2027* : 235 ter C CGI confirmé (LEGIARTI000053542687, « taxe sur
+les actifs non professionnels détenus par les sociétés »). L. 251-17-1 CRPM
+confirmé (LEGIARTI000053151806, en vigueur au 1er janvier 2027 : documents et
+contrôles officiels liés à la circulation des végétaux). La loi n° 2026-103, le
+code de la propriété intellectuelle, le règlement n° 952/2013 et l’ordonnance
+n° 96-50 ne sont pas au dépôt de droit : ces quatre sièges ne se confirment pas
+d’ici.
+
+### Un prélèvement n’est « porté » que par un dispositif qui le fait disparaître — 20261103
+
+**Tranché** (tambouille de vérification, révocable). Verdicts de la table de
+vérification : **A** porté — un alinéa abroge le siège, ou en réécrit le tarif
+lorsque le devenir est partiel au schéma ; **B** porté par une clause — une
+clause générale l’atteint juridiquement ; **C** non porté ; **S** sans objet — le
+droit en vigueur l’a déjà abrogé. **Le plafond à zéro de l’amendement P1 n° 24
+ne porte pas un prélèvement** : il ramène le produit au budget et laisse
+l’imposition. **La dissolution d’un affectataire (P2 n° 25) ne porte pas sa
+ressource** : son II, A, en transfère la perception au ministre. **Le I de la
+clause générale (P1 n° 1) n’atteint aucun prélèvement** : il ne vise que les
+avantages fiscaux ; son III peut, lui, abroger nommément un siège.
+
+**Écarté.** Compter comme porté un rang dont un alinéa ne fait que citer le
+siège sans l’abroger, ou dont seule la ligne de l’article 42 est visée.
+
+### Un siège se lit sur la version applicable au 1er juillet 2027 — 20261103
+
+**Tranché.** Les marches de la refonte commencent le 1er juillet 2027. Un siège
+ou un visa se contrôle sur la version LEGI applicable à cette date, et non au
+jour de la vérification : la recodification de la TVA au CIBS au 1er janvier
+2027 et plusieurs abrogations différées (art. 232 CGI) changent la réponse.
+
+### Le tri du 20261103 : retraits, fusion, sièges et rendements corrigés — 20261103
+
+**Tranché sur mandat de l’auteur (§ 5.3 du mandat du 20261103).** Retiré : la taxe
+sur les papiers graphiques (rang 270), aucune imposition de ce nom au CGI ni au
+CIBS en vigueur (LEGI 20261031, qui intègre la LFI 2026). Fusionné : la « taxe sur
+les primes d’assurances » (rang 279) dans la taxe sur les conventions d’assurance
+(rang 272), même article 991 CGI. Corrigés à l’état A, évaluation initiale 2026 :
+CDHR 650,0 ; contribution exceptionnelle 7 300,0 ; CVAE 4 041,3 ; petit colis
+400,0 ; autres taxes 983,2 (agrégat, à éclater). Remontées mécaniques et ski de
+fond : « fondu dans l’équilibre ».
+
+**Proposé** (jugements de fait, à valider). Onze sièges corrigés sur pièce, le
+siège d’origine gardé en colonne `siege_article` pour le contrôle S1 : AGS
+L. 3253-18 C. trav. ; plaidoirie L. 652-6 et L. 652-7 CSS ; cotisation
+subsidiaire maladie L. 380-2 CSS ; redevances eau DOM L. 213-14-1 et -2 C. env. ;
+L. 138-19-8 CSS (rang 155) ; taxe d’aménagement 1635 quater A CGI ; TGAP 299 CGI ;
+taxe d’aéroport L. 422-13 s. CIBS ; dialogue social L. 2135-15-1 C. trav. ; CURPS
+L. 4031-4 CSP. Seize rangs ajoutés depuis l’annexe des ressources affectées 2027
+et le contrôle inverse, dont six qualifiés « recette non fiscale » (droits de
+port, redevances domaniales, majoration SRU, contributions des collectivités à
+l’ONF). Ventilation « qui paie » appliquée hors annexe A à 28 rangs de
+l’assiette « propriété et droits d’usage » (16 à l’IS, 12 à l’IR), déduite de la
+règle du 20261103.
+
+**Écarté.** Appliquer un millésime avant l’arbitrage de l’auteur : le tri garde la
+prévision 2026 du PLF 2026 et porte la prévision révisée du PLF 2027 en colonne
+d’attente.
+
+### Cinq amendements nouveaux, en projet — 20261103
+
+**Proposé.** PLF 1re partie n° 35 (suppression de l’article 15), n° 36 (28
+impositions d’État), n° 37 (18 impositions locales), n° 38 (13 taxes affectées
+hors CGI), PLFSS n° 9 (18 contributions sociales). Versés aux liasses
+`LIASSE_PLF_P1.md` (lot VI) et `LIASSE_PLFSS.md`, fiches sous `P1/tri_*` et
+`SS/tri_09_*`, marqués « non déposables en l’état ». Les PDF et docx publiés du
+site ne sont pas régénérés : aucune publication sans l’auteur.
+
+### Réponses de l’auteur aux dix questions du tri — 20261103
+
+**Validé.** *Arbitrage de l’auteur du 20261103, réponse au § 4 du rapport.*
+
+- **Cotisations sociales** : le schéma de fusion des 82 cotisations vient dans une liasse **ultérieure**.
+- **Redevances** : « en R ». Lu comme : elles restent remplacées, leur suppression passe **par la voie réglementaire** (décret), conformément à la règle du 20260930 « par défaut, supprimer et fondre ». Onze rangs portent « voie réglementaire » au tri, dont trois redevances ajoutées depuis l’annexe 2027 (droits de port, redevance domaniale des autoroutes, substances du plateau continental). *Lecture à confirmer si « R » désignait la recette non fiscale.*
+- **Retenues à la source sur non-résidents (133, 134) et exit tax (140)** : grand impôt conservé, modalités de l’impôt sur le revenu.
+- **Pilier 2 (146) et taxe « petit colis » (196)** : conservés en complément, bloc Union européenne.
+- **Taxe aurifère de Guyane (168)** : bloc fiscalité outre-mer, **retirée du n° 25**, qui passe à cinquante-six impositions.
+- **Prélèvement de l’ANCOLS (119)** : supprimé par construction — la PEEC abrogée par le n° 25, I, 5°, le prélèvement sur ses ressources disparaît.
+- **Prélèvements sociaux sur le capital** : le schéma est arrêté — prélèvement forfaitaire de 30 % « total recomposé », rédaction harmonisée (n° 20, arbitrage du 20261007) ; les gages sont circonstanciels. **Conséquence** : le prélèvement de solidarité (235 ter) sort du n° 36, l’articulation restant portée par la pièce D, et les rangs 86 à 93 sont portés par le n° 20.
+- **Caisse des dépôts (147)** : assujettie à l’impôt sur les sociétés — n° 36, III.
+- **Stocks stratégiques pétroliers (380)** : statu quo, conservés.
+- **Millésime** : réponse « oui » à une question à deux branches. **Non appliqué** : le tri garde la prévision 2026 du PLF 2026, la révisée du PLF 2027 en colonne d’attente.
+
+### Les niches de TVA sont portées — correction du 20261103
+
+**Tranché.** Le rapport du matin donnait « 38 niches de TVA exclues par le II, 4° ». C’est faux : le rapprochement s’est fait sur les articles 278 à 298 du CGI, recodifiés au CIBS au 1er janvier 2027. **28 taux réduits** sont portés par le n° 21 (trois taux réduits portés à 20 %, marches de 2028 à 2030) et par le III du n° 1 pour les lignes nommées du CIBS ; **10 exonérations et régimes** sont atteints par le I, sous réserve du II, 3°. Écart relevé : les exposés des n° 22 et 25 datent la fin des taux réduits au 1er juillet 2027, le dispositif du n° 21 au 1er juillet 2028.
+
+### Guyane, IS, calendrier, passage au fil machine — 20261103
+
+**Validé.** *Arbitrage de l’auteur du 20261103, second tour.*
+
+- **Taxe aurifère de Guyane (168)** : « si c’était pour une affectation on supprime ». La taxe est perçue au profit de la région et d’un organisme (1599 quinquies B, I) : elle reste **supprimée par le P1 n° 25**, rétabli à cinquante-sept impositions, la fiche 4.2 B identique à l’octet à sa version antérieure. **Caduc** : la ligne « retirée du n° 25 » de l’entrée précédente.
+- **IS** : extinction de la contribution exceptionnelle (n° 35) et assujettissement de la Caisse des dépôts (n° 36, III) en même temps que les niches et le taux unique : validé.
+- **Calendrier** : un report à 2028 sans bonne raison ne tient pas. Relevé des suppressions nouvelles contre les objets comparables : `livrables/tri_prelevements/calendrier_suppressions_nouvelles.md`.
+- **Vérification et consolidation confiées à un fil machine** : mandat `methode/prompt_fil_machine_tri_porte.md`.
+
+## 20261103 — fil machine, vérification des amendements du tri
+
+*Fil de production du 20261103, mandat `methode/prompt_fil_machine_tri_porte.md`. Entrées titrées et datées, sans numéro — A-282.*
+
+### Une abrogation partielle ne porte un prélèvement que si la subdivision abrogée l’institue — 20261103
+
+**Tranché** (tambouille de vérification, révocable). Abroger le VI de L. 253-8-2 CRPM, qui n’est que l’affectation, laissait la taxe ; abroger le seul I de L. 5141-8 CSP laissait la taxe annuelle du II (rang 390). Les deux articles s’abrogent en entier. Corollaire tenu : avant d’écrire « le X de l’article », lire ce que X institue.
+
+### Le gage des amendements du tri : circuit B, majoration de l’IS — 20261103
+
+**Tranché** (forme, révocable), sur le registre des sources de gage, § V : une pièce du circuit B (refonte fiscale) se gage sur la majoration de l’impôt sur les sociétés, variable de solde. Les n° 36 à 38 gardent cette forme ; la part des collectivités du n° 37 se gage sur la DGF (forme du P1 n° 25, V) ; le PLFSS n° 9 prend la forme de la liasse de financement (PLFSS n° 3, V : contributions de L. 136-6 et L. 136-7), la frontière de véhicule interdisant l’IS. **Écart connu** : `69_CONTROLE_doctrine.py`, écrit pour la machine livrée aux tiers, ne connaît pas le circuit B et sort en échec sur ces pièces. **Écarté** : la formule tabac, passée un temps par ce fil, qui n’est que le repli (arbitrage du 20261002, mécanique de gage par abrogation). La perte des affectataires tiers n’est pas couverte par la forme : elle se déclare.
+
+### Date d’une contribution assise sur l’année : moitié de l’assiette 2027 — 20261103
+
+**Validé** par la consigne de l’auteur du 20261103 (« un report sans bonne raison ne tient pas »). Pour les contributions assises sur un montant de l’année civile et sans fait générateur au 1er janvier ni seuil annuel, la suppression au 1er juillet 2027 laisse due, au titre de 2027, la moitié de l’assiette annuelle. Même principe que le prorata des taxes sur les véhicules (P1 n° 36, IV, A). La C3S (fait générateur au 1er janvier) et les contributions à seuil annuel restent dues pour 2027 entier.
+
+### Une citation « du même code » ne se résout pas mécaniquement — 20261103
+
+**Tranché.** `verifier_fond.py` résout « du même code » sur le dernier code nommé avant la citation. Quand l’article citant ne nomme aucun code avant (L. 112-11-1 du code du sport, dont le 1° est abrogé), le renvoi échappe au relevé : il s’ajoute à la main et se déclare.
+
+### Lecteur de droit : deux versions applicables à la même date — 20261103
+
+**Signal** (appareil partagé, non modifié). `droit.article()` rend la version de date de début la plus récente ; à égalité (1613 quater CGI au 1er janvier 2027 : `MODIFIE_MORT_NE` et `VIGUEUR_DIFF`), il peut rendre la version morte-née. À corriger dans `droit.py` par le fil qui tient le dépôt : écarter `MODIFIE_MORT_NE` d’abord.
+
+### Les questions du fil machine, closes sur les réponses déjà rendues — 20261105
+
+**Validé** (relevé des réponses de l’auteur, « j’ai déjà répondu à tout », 20261105).
+
+- **Article 15 entier** : la contribution maritime rétablie tombe avec lui — « pas de prélèvement nouveau » et extinction de la contribution exceptionnelle avec les niches (20261103, second tour).
+- **Moitié d’assiette 2027** pour les contributions assises sur l’année : consigne du calendrier du 20261103.
+- **Missions privées de leur ressource** (garantie des salaires, unions de professionnels de santé, fonds des victimes de pesticides, fonds handicap de la fonction publique) : le produit est repris par l’impôt et la dépense passe au vote, budget général ou fermeture au P2 n° 25 — « ce que finance l’impôt, c’est au Parlement de le décider », devenir « fondu dans l’équilibre » du tri.
+- **TVA** : calendrier arrêté le 20261005 (P1 n° 21 : 1er juillet 2028, puis 2029 et 2030 pour l’alimentation). Les exposés des n° 22 et 25 sont corrigés : la date du 1er juillet 2027 y est celle du taux unique de l’impôt sur les sociétés.
+- **ANCOLS** : « supprimé par construction » — le montant nul à défaut d’arrêté du n° 25, II, B et l’abrogation de la PEEC suffisent.
+
+## 20261106 — fil code, droits de mutation et abrogations
+
+*Fil de production du 20261106. Entrées titrées et datées, sans numéro — A-282.*
+
+### Les abrogations du tri rendues exactes au droit applicable — 20261106
+
+**Validé** (« abrogations correctes tant qu’on y a », auteur, 20261106).
+
+- **P1 n° 36, I, 3°** : les I et II de l’article 138 de la loi n° 2019-486 (prélèvements sur les loteries de la Française des jeux) sont abrogés. Le rang 280 (3 241 M€) passe de non porté à porté (I, 1° et 3°).
+- **P1 n° 38, I, 9°** : l’article 96 de la loi n° 2010-1658 (contribution à l’IRSN), abrogé au 1er janvier 2026, est retiré. Le rang 170 passe à « sans objet : déjà abrogé » ; le n° 38 vise douze impositions.
+- Les cinq pièces restent en projet. Preuve par réapplication : toutes les adresses existent au 1er juillet 2027, millésime LEGI 20261105.
+
+### Droits de mutation : le tri porte la part conservée par le P1 n° 19 — 20261106
+
+**Validé** (« il faut corriger », auteur, 20261106). Le P1 n° 19 ne supprime pas les droits de mutation : il les ramène à 1 % et 3 % au profit de l’État, acompte de l’impôt sur le revenu ou sur les sociétés. Le tri comptait leur suppression entière. Il porte désormais une colonne `part_conservee_2026_M` : 6 000 M€ pour les DMTG (H42 : 0,03 × 300 − 3) et 5 050 M€ pour les DMTO (H41 : C41/2 − 3,5), répartis au prorata du rendement 2026 des rangs de chaque ligne du schéma. Le devenir reste « remplacé par un grand impôt » ; le classeur exportable dit « droit ramené à 1 % et 3 % » et donne la part conservée.
+
+**Tranché** (tambouille, révocable) : la répartition au prorata. Le compte des prélèvements (434) ne change pas.
+
+## 20261109 — fil code, intégration des amendements du tri
+
+### Les amendements du tri rejoignent les amendements existants de même objet — 20261109
+
+**Validé** (« ok intègre, mets en cohérence », auteur, 20261109). Les P1 n° 36, 37 et 38 du 20261103 doublaient des amendements existants placés au même endroit du texte. Ils y sont intégrés :
+
+- n° 36, I et II → **n° 22** (après l’art. 19), I, 4° à 7°, et II, 3° : quarante-huit impositions d’État ; les taxes sur les véhicules et les fréquences restent dues pour 2027 au seul premier semestre (III, A) ;
+- n° 36, III → **n° 23** (après l’art. 32), III : la Caisse des dépôts à l’impôt sur les sociétés, aux mêmes exercices que le taux unique ;
+- n° 37 → **n° 29** (après l’art. 27), III bis : dix-huit impositions locales, calendrier et compensation par la DGF repris au V et au VIII ;
+- n° 38 → **n° 25** (après l’art. 42), I, 8° et 10° à 17° : soixante-neuf impositions affectées, les trois taxes annuelles dues une dernière fois au titre de 2027 (III, A).
+
+Restent seuls le **P1 n° 35** (suppression de l’art. 15) et le **PLFSS n° 9** (aucun amendement de la liasse ne porte les contributions sociales hors CSG, CRDS et taxe sur les salaires). La première partie compte **35** amendements, les liasses **83**. Les ajouts restent en projet.
+
+**Tranché** (tambouille) : la liasse fait foi pour les n° 22, 23, 25 et 29. Leurs fiches (`P1/4_2_refonte_taxes_A`, `…_B`, `4_4`, `4_5`) divergeaient déjà de la liasse avant ce fil ; elles ne sont pas régénérées. Script : `appareil/tri_porte/integrer_ajouts.py`, qui refuse un second passage.
+
+### Lot I : restitution en général, les taxes affectées y vont — 20261109
+
+**Validé** (« le I c’est restitution en général. mets-y les TA », auteur, 20261109). Le lot I devient « Restitution, niches et taxes affectées » et reçoit les n° 24, 25 et 26. Le n° 35, seul au lot VI après l’intégration du même jour, rejoint la refonte fiscale (lot II) ; la liasse compte cinq lots. **Numérotation inchangée** : seul le sommaire bouge, le corps des amendements est identique à l’octet.
+
+### Clause générale des niches : le 5° du II ramené à ce qui avait été arrêté — 20261109
+
+**Validé** (« ce n’est pas ce qu’on avait dit pour les niches » ; « modifs MINIMALES pour inclure les points qui manquaient et ensuite harmoniser », auteur, 20261109). Arrêté le 20261005 (revue du lot 1, lot U1) : le 5° couvre les mesures **instituées par la présente loi** pour l’aide fondamentale, dont le montant ne dépend que de l’âge et de l’état physique. Le texte avait perdu cette restriction et faisait du motif un critère général, qui protégeait toute disposition existante modulée par l’âge ou le handicap. Rétablie par ajout : « Qui sont instituées par la présente loi pour l’aide fondamentale et […] » ; « ou de la retraite » ajouté, la majoration de l’aide pour les retraités (P1 n° 28) n’étant ni l’âge ni le handicap. Exposé harmonisé : « Six exceptions subsistent » (le 4° et le 5° sont des exceptions techniques, non de principe) et l’aide fondamentale nommée. Le 4° (taux réduits de TVA, arbitrage de l’auteure du 20261005, n° 4 et second temps) est conforme et n’est pas touché.
+
+**Correction du registre du 20261103** (« Les niches de TVA sont portées ») : les 28 taux réduits **recensés** tombent au 1er juillet 2027 par le III et le III bis du n° 1 (D du IV), non par le n° 21 ; le n° 21 porte les taux réduits de droit commun, de 2028 à 2030. Verdict corrigé à `appareil/tri_porte/niches.json` et dans les tables du tri. La correspondance niche par niche avec les lignes du III est héritée de la reprise du 20261005 (lot S3), non rejouée ici.
+
+## 20261110 — aide fondamentale des pensionnés, revérification des liasses
+
+### L’aide fondamentale minorée pour les pensionnés, au prorata ensuite — 20261110
+
+**Validé** (« oui minoré 3 300 mais c’est proportionnel sans doute ? pro rata pour la suite à prévoir (décret) », auteur, 20261110). P1 n° 28 : l’aide est **minorée** (et non majorée) de 3 300 € pour chaque titulaire d’une pension de retraite servie par un régime obligatoire et liquidée avant le 1er janvier 2028 ; pour une pension liquidée ensuite, la minoration est réduite à proportion des droits acquis avant cette date, par décret, et à défaut au rapport des durées d’assurance ; borne de 2051 inchangée. Exposé et fiche `P1/4_3_aide_fondamentale_et_taux_unique.md` alignés. **Effet à chiffrer** : le coût de l’aide baisse, le gage du n° 28 reste suffisant, le solde de la refonte bouge.
+
+**Tranché** (rédaction, révocable) : le prorata « à défaut » se mesure en durées d’assurance (validée avant 2028 sur totale retenue à la liquidation).
+
+### Clause générale, II, 5° : la modulation transitoire par la pension — 20261110
+
+**Validé** (auteur, 20261110). « ou de la retraite » devient « ou, à titre transitoire, du bénéfice d’une pension de retraite servie par un régime obligatoire » : critère vérifiable, qui désigne la répartition (régimes de base et complémentaires) et écarte la capitalisation, et caractère transitoire dit, l’aide ne dépendant à terme que de l’âge et de l’état physique.
+
+### Revérification des liasses : constats à trancher — 20261110
+
+*Contrôle mécanique `appareil/controle_liasses.py` (rapport `livrables/controle_liasses.md`) : 0 écart de numérotation, de sommaire, d’en-tête, de renvoi interne, de renvoi entre amendements et de porteur du tri ; les renvois des amendements aux articles du projet sont lus contre les socles. Listes de rangs du IV du P1 n° 1 : 350 rangs continus, chacun dans une liste au plus.* **Proposé**, non appliqué :
+
+1. **Dates divergentes entre la clause (P1 n° 1) et un amendement de repli** — crédit d’impôt famille (199 ter E, 220 G) : E du IV du n° 1 (tiers 2027–2029, garde des jeunes enfants) contre 1er juillet 2027 au n° 12 ; taxe au tonnage (209-0 B) : exercices **clos** à compter du 1er janvier 2027 (A du IV) contre exercices **ouverts** à la même date au n° 11.
+2. **Non-cumul non dit** : la règle du 20260930 (le renvoi croisé vit dans l’exposé) n’est tenue qu’au n° 9 ; les n° 3, 10, 11, 12, 13, 14 et 15, qui abrogent aussi des dispositions que le n° 1 abroge, ne le disent pas.
+3. **Double abrogation au PLFSS** : le 8° du III du n° 1 abroge le quatrième alinéa du I de L. 137-13 CSS, que le n° 9 abroge en entier ; le gage du n° 1 cite cette abrogation.
+
+### Constats de la revérification tranchés — 20261110
+
+**Validé** (« ok applique tout et relance le contrôle. si il y a des doublons entre amendements ça peut être normal au vu de la structure des textes, le plus important est qu’un amendement soit parfaitement cohérent avec lui-même et raisonnablement recevable », auteur, 20261110).
+
+- **Crédit d’impôt famille** : suppression immédiate, conforme au classeur (niche 210308, « Oui ») et à M-026 (le différé vise la garde d’enfants payée par les ménages). Au P1 n° 1, le rang 197 passe du E au B du IV ; au n° 12, dépenses exposées à compter du **1er janvier 2027**. La fiche `P1/2_4_credit_impot_famille.md` portait déjà cette date.
+- **Taxe au tonnage** : aligné sur la clause (A du IV, niches non incitatives dès les bénéfices de 2026) — exercices **clos** à compter du 1er janvier 2027 au n° 11 et à sa fiche ; l’exposé dit pourquoi les options en cours cessent.
+- **Non-cumul** : la phrase du n° 9 est portée aux exposés des n° 10 à 15 (le n° 3 portait déjà la sienne).
+- **Doubles abrogations entre amendements** (PLFSS n° 1 et n° 9, clause et amendements de repli) : tenues pour normales ; non corrigées.
+
+Contrôle `appareil/controle_liasses.py` rejoué : 0 écart (L1 à L4, L6) ; L7 (dates de l’exposé absentes du dispositif) : trois cas, tous des dates d’autres mesures citées à bon droit (n° 21, 22, 25). Recevabilité : chaque amendement de recette porte son gage ou son produit ; le n° 35, qui supprime un article du projet, rétablit le droit en vigueur et n’appelle pas de gage.
+
+## 20261112 — fil site, simulateur et jaune des opérateurs
+
+### Annexe Manuscrit : la ligne des agences corrigée en première année — 20261112
+
+**Validé** (« ok, corrige les deux cases d’excel et vérifie ce qui dépend de cette ventilation », auteur, 20261112).
+
+À l’onglet `Annexe Manuscrit` de `Synthèse Chiffres Résolution`, E8 retirait de la colonne de première année le montant de régime plein des salaires reclassés à la ligne des agents (`− 1,052 × 42/48 × 10/3`), et F8 rien. E8 devient `… − 1,052 × 42/48`, F8 `… − 1,052 × 42/48 × 7/3`. *Relevé sur le classeur corrigé* : première année 129,5 Md€ au lieu de 127,4 ; agences 7,1 puis 1,6 au lieu de 4,9 puis 3,7 ; total de la ligne (8,6) et total général (236,1) inchangés. Aucune autre formule des classeurs ne lit cet onglet ; le tableau de l’annexe du livre n’a pas de colonne de première année. Le classeur corrigé est au dépôt du site.
+
+### Classeur ETP : les financements 2026 de chaque opérateur portés à l’onglet Opérateurs R — 20261112
+
+**Validé dans son principe** (« on complète notre fichier ETP/agences avec les colonnes d’intérêt en € », auteur, 20261112). *Tranché en propre* : cinq colonnes, U à Y, en milliers d’euros comme au jaune — subvention pour charges de service public, subvention d’investissement, transferts, taxes affectées, total — crédits de paiement du PLF 2026. Total général relevé : 73 288 271 k€, pour 73 288 275 708 € publiés. Seule la feuille visée change dans le fichier.
+
+### Le relevé du jaune des opérateurs : trois tables et une note, le lecteur au dépôt du site — 20261112
+
+*Tranché en propre*, sur la demande de l’auteur d’une lecture « appropriable ensuite par tout le monde », rangée « en format lisible » au dépôt hors site. Le relevé suit la forme de celui des commissions : `referentiels/operateurs_jaune2026_20261112.tsv`, deux tables sœurs, une note de lecture. Le lecteur reste `Site-ETNP/outils/jaune.py`, auprès du PDF qu’il lit ; il n’est pas dupliqué ici. Le PDF (11,7 Mo) n’est pas recopié à `sources/`.
+
+### Trois constats aux classeurs, à trancher — 20261112
+
+**Proposé.**
+
+1. `PLF26 - Depenses…`, onglet `SynthèseR` : l’économie « à plus d’un an » sur les subventions aux opérateurs (H8) additionne France Travail et l’Ademe et omet l’Anah (E21) et la ligne « Autres » (H21), soit 1,37 Md€ portés au détail juste dessous.
+2. `Synthèse Chiffres`, onglet `Flux` : le total des collectivités (C22) est saisi à 33,3 quand ses quatre lignes font 33,4 ; d’où 129,4 à Flux et 129,5 à l’Annexe.
+3. `Synthèse ETP et agences`, onglet `Opérateurs R` : 434 opérateurs, quand le jaune du PLF 2026 en compte 431 ; l’écart est dans le nombre d’entités de certaines catégories et n’est pas réparti.
+
+## 20261112 — fil site, simulateur « Reprenez votre argent »
+
+### La ventilation entre salaire net et épargne — 20261112
+
+**Validé** (« patrimoine et chômage doivent être entièrement en épargne. le reste ventilé au pro rata de ce qui reste (ou de notre calendrier ?) », auteur, 20261112). *Exécution tranchée en propre, sur le calendrier du classeur* : l’économie de première année d’un élément paie la CSG et la CRDS d’activité à hauteur de 114,46 / 129,5 et son reliquat va à l’épargne ; tout ce qui vient ensuite va à l’épargne. *Relevé au référentiel* : 114,46 Md€ en salaire, 15,04 Md€ en épargne la première année, 121,59 Md€ en épargne en régime plein.
+
+### Niches communes, organismes sans montant, lecture par ministère — 20261112
+
+**Validé** (« 2 oui par thème, d’ailleurs il faut généraliser la démarche (/ ministère ? on pourrait même avoir un mode simpifié avec juste les ministères ?) […] 3 niches communes tombent ensemble (deux cases liées ? un bloc commun ? ) », auteur, 20261112).
+
+- Un organisme que le classeur ne chiffre pas n’a pas de montant fabriqué : il est listé sans case, par thème.
+- Les niches communes à l’impôt sur le revenu et à l’impôt sur les sociétés tombent ensemble. *Tranché en propre* : une même case sous les deux postes, moitié de chaque côté, comme au classeur.
+- La lecture par ministère est construite : chaque élément porte le ministère de son programme, ou un bloc hors ministère. *Tranché en propre* : le programme de chaque ligne de subvention de `Détail Economies`, que le classeur n’écrit pas ; la liste est au § 5 de la note du simulateur.
+
+### Les échelons locaux par thème puis par strate — 20261112
+
+**Proposé par l’auteur et exécuté** (« il faudrait réussir à croiser et distinguer départements/régions. on a ça qu’on pourrait croiser en proxy (thème puis strate ? ) », 20261112). Chaque fonction de la dépense locale est partagée entre communes, départements et régions au prorata de leur dépense de même nature en 2023, aux comptes Insee 3.207 à 3.209. *Tranché en propre* : la nature retenue par poste — consommation intermédiaire pour le fonctionnement et la culture, rémunérations pour les agents, subventions et transferts en capital pour les aides aux entreprises. La clé est la même pour tous les thèmes d’un poste.
+
+### Les règles de présentation de la page — 20261112
+
+**Validé**, règles énoncées par l’auteur le 20261112 : peu de corps de police ; toujours l’unité, par mois ou par an ; le total d’abord, puis les deux flux ; le pourcentage se dit du salaire, non du total ; une case à remplir et non un curseur, 2 300 suggéré ; une ligne par poste ; la case et la fiche ne se confondent pas ; beaucoup de données, peu de clics ; ouverture sur le régime plein ; ce qu’on laisse se signale en bas, sans dramatiser. Le détail et les mots de l’auteur sont au § 6 de la note du simulateur.
+
+### Ce qui a été tranché en propre au simulateur — 20261112
+
+*Tranché en propre.* Le passage du net au brut par interpolation entre les trois salaires du classeur ; l’épargne proportionnelle au salaire ; le rangement des lignes de l’Annexe sous les cartes de la carto ; les quinze thèmes de niches ; le recalage des agences sur le montant du poste (0,97 en régime plein, 1,31 la première année) ; les textes de la page. Tous sont décrits à la note du simulateur, § 2, § 4, § 5 et § 7.
+
+### Mise en ligne — 20261112
+
+**Validé** (« tu mettras tout à jour en ligne partout », auteur, 20261112). Fusions au dépôt du site le 20261112 : classeurs retouchés, onglets régénérés, carte Agences reliée au tableau des opérateurs, simulateur en ligne et lié depuis aucune page.
+
+### Ce qui est à valider se présente dans la conversation — 20261112
+
+**Validé** (« si je dois valider des trucs, il faut me les présenter en direct en clair ici », auteur, 20261112). Une proposition portée au registre ou dans une note de lecture n'est pas présentée tant qu'elle n'a pas été posée à l'auteur dans la conversation : la question, la piste retenue, ce que la réponse change ; un texte à valider se montre en entier. Inscrit à la conduite de session de `CLAUDE.md`. Les constats aux classeurs et les choix du simulateur portés en « proposé » ou « tranché en propre » le 20261112 ont été présentés à l'auteur le même jour, à la suite de cette règle.
+
+### Pas de tournure introductive — 20261112
+
+**Validé** (« les mots introductifs parasites "là où" "ce qui" sont à bannir, c’est très pénible en lecture, on fait simple et direct », auteur, 20261112). Inscrit aux règles de rédaction de `CLAUDE.md` et aux règles du dépôt du site. Appliqué le jour même à la page du simulateur.
+
+### Site : ordre des onglets, largeur des pages de données, liste des onglets — 20261112
+
+**Validé** (« inverse les onglets vidéos et graphiques, pour aller du plus accessible au plus pointu », auteur, 20261112) : la barre du site se lit Manifeste, Propositions, Vidéos, Graphiques, Données. *Exécuté sur remarque de l’auteur, le même jour* : les pages de données prennent la largeur de l’écran sur ordinateur, et la liste des onglets en ligne ne s’affiche plus sous chaque classeur.
+
+### Le total porté à 236,4 : subventions aux opérateurs après un an, et ajustement — 20261112
+
+**Validé**, en trois temps (auteur, 20261112) : « c’était censé se retrouver correctement dans tous les classeurs, vérifie » ; « si ça marche pas on passe à 236,4 en lissant » ; « on concentre l’ajustement sur chômage, patrimoines, aides aux entreprises, agents locaux alors, en gardant les grands arrondis […] fais les deux trois corrections minimales de cellule sur l’enchaînement fautif » ; puis « bah 17,6 ou un truc comme ça sur le patrimoine, comme chômage 29,6 […] ok 68 et 39 » et « plutôt A avec 236 ».
+
+*Constat relevé sur les classeurs.* À l’onglet `SynthèseR` du classeur des dépenses, l’économie « à plus d’un an » sur les subventions aux opérateurs (H8 = 3 610 M€) n’additionne ni l’Anah (E21, 54) ni « Autres » (H21, 1 318) : 1 371 M€. `Flux` E16, saisie à la main, reprend le chiffre incomplet ; `Détail Economies` et `Annexe Manuscrit` en héritent.
+
+*Exécuté sur `Synthèse Chiffres Résolution`, 21 cellules saisies.* `Flux` E16 devient `12,371 + 1,052 × 7/3`, et les totaux saisis de l’onglet suivent. L’ajustement : assurance chômage 30 → 29,6 ; rendement du patrimoine 18,2 → 17,6, par un taux de 2,9 % au lieu de 3 %, et la troncature du total de la ligne est retirée ; aides locales aux entreprises 12,3 → 12,21 ; agents locaux 20 → 19,86. *Relevé au classeur corrigé* : total 236,40 ; première année 129,46 ; les 306 formules se recalculent sans écart.
+
+*Arrondis qui changent, acceptés par l’auteur* : structures facultatives 67 → 68 ; fonctionnement 37 → 39 ; fermeture des agences 9 → 10 ; masse salariale 30 → 29. Les cinq blocs arrondis font 237 pour un total de 236 : la carto porte, sous son tableau, « La somme des arrondis peut différer de l’arrondi de la somme » (demande de l’auteur, 20261112).
+
+*Reste dû.* La cellule H8 de `SynthèseR` est dans un classeur `.xls`, non modifié : la retouche (`+E21+H21`) est à faire dans Excel. Le graphique « Où sont les 236 milliards » et l’onglet `Graph236` portent encore les anciens montants. La carte du rendement du patrimoine écrit « 3 % de rendement net ».
+
+### Simulateur : ligne « autres agences », même ratio pour tous, « En échange » — 20261112
+
+**Validé** (auteur, 20261112) : « ligne autres » pour les agences ; « tout est parfaitement proportionnel c’est le but, même pas une interpol juste un même ratio » ; l’épargne proportionnelle au salaire (« oui ») ; les économies sur les communes (« oui c’est voulu pour leur retirer les compétences hors des 7 missions ») ; le rangement sous les cartes et le ministère des subventions (« ok », « l’architecture budgétaire doit rester transparente pour l’utilisateur, qui n’est pas expert et ne doit pas subir la complexité ») ; le titre et le chapeau, dans les mots de l’auteur ; « En échange de ce pouvoir d’achat libre d’emploi, vous renoncez à […] se limiter à 3-5 max », avec « au complément de retraite par répartition actuel en déficit » et le rappel que le total rendu est supérieur ; l’ouverture par économie et le « thème puis strate » gardés ; le lien de la carte Agences par un mot du texte.
+
+*Proposé, non validé* : les deux seuils de salaire de « En échange » (1 800 et 3 500 €) et le choix des lignes par tranche.
+
+### Les 1,37 Md€ partagés entre agences et agents — 20261112
+
+**Validé** (« dont masse salariale va pas baisser, c’est absurde ? y a de tout dans autres, à partager », auteur, 20261112). *Exécuté à l’onglet `Annexe Manuscrit`, deux formules* : F8 retire la moitié des 1,371 Md€ de la ligne des agences (`… − 1,052 × 42/48 × 7/3 − 1,371/2`), F12 l’ajoute à celle des agents (`E12 × 7/3 + 1,371/2`). *Tranché en propre* : le partage par moitié, qui est celui que le classeur des dépenses applique à la colonne « Autres » (moitié salaires, moitié fonctionnement). *Relevé au classeur corrigé* : masse salariale 30,12 ; fonctionnement 38,12 ; fermeture des agences 9,32 ; structures 68,24 ; total 236,40 ; 306 formules recalculées sans écart. La carto se lit « 68 Md€, 38 Md€ de fonctionnement, 30 Md€ de masse salariale ». L’entrée précédente (39 et 29) est remplacée sur ce point.
+
+### Le calcul des classeurs repris au dépôt, graphique des 236 milliards — 20261112
+
+**Validé** (« ok moitié. mets à jour le graphique des 236 milliards et les excels et les occurences des agrégats sur le site et le calcul des excels au dépôt », auteur, 20261112). Le partage par moitié de l’entrée précédente est donc validé.
+
+*Exécuté au dépôt du site* : onglet `Graph236` du classeur des graphiques porté aux montants de l’`Annexe Manuscrit` (neuf montants, total 236,40, libellé « Administrations non indispensables 68 ») ; graphique redessiné par le code de l’atelier archivé (`revue/…/atelier_graphiques_code_20261029.zip`), qui redonne l’ancien graphique à l’octet sur l’ancien classeur ; carte des aides aux entreprises à 12,2 Md€ d’aides locales.
+
+*Exécuté ici* : `appareil/controle_arithmetique.py`, `appareil/sources_chiffres.py` et `referentiels/REF_doctrine.json` portent les montants *relevés au classeur `Synthèse Chiffres Résolution 0910` corrigé le 20261112, onglet `Annexe Manuscrit`* : total 236,402 ; structures 68,242 ; subventions 68,858 ; chômage 29,6 ; patrimoine 17,602 ; agences 9,317 ; agents de l’État et des agences 10,261 ; agents locaux 19,864 ; aides locales aux entreprises 12,21. *Déduit* : restitution au médian 568,13 €/mois, au SMIC 354,66, au net moyen 709,00 ; part de première année 54,7 %. `make controle` : 0 échec, 25 écarts consignés.
+
+*Tranché en propre* : les ancres du manuscrit ne bougent pas — 236, 30, 18, 600 € — et leur écart au classeur est consigné, non corrigé (30 contre 29,6 ; 18 contre 17,602). Le nœud `D7-2-2-e2` garde « 600 Md€ × 3 % = 18,0 » : le classeur porte 2,9 %, et le choix entre les deux est à l’auteur. Les relevés du bouclage de première année (onglets `Gages` et `Manifeste` du classeur 0819) ne sont pas rejoués.
+
+### Simulateur : l'audiovisuel public rangé avec les agences — 20261112
+
+**Validé** (« audiovisuel public pas au bon endroit, trop haut si dans ministères. ce qui compte dans l'arborescence c'est le statut, pas la taille », auteur, 20261112). *Exécuté* : le poste « Audiovisuel public » passe de la carte Ministères à la carte Agences (`Site-ETNP/outils/restitution.py`, table `ARBRE`) ; le référentiel `simulateur_elements_20261112.tsv` suit, une ligne changée. *Relevé à la même table, non tranché* : l'aide publique au développement est rangée sous « Subventions aux associations », comme la carte de la carto ; son statut est celui d'une aide à des États et à une agence.
+
+### Simulateur : l’audiovisuel public, un élément des agences — 20261112
+
+**Validé** (« audiovisuel doit descendre d’un cran ? ! la dichotomie ici est abusive », auteur, 20261112). *Exécuté* : le poste « Audiovisuel public » disparaît ; sa ligne de l’Annexe (ligne 10, 3,8 Md€) devient un élément du thème Culture du poste « Agences fermées et leurs interventions » (`Site-ETNP/outils/restitution.py`). *Relevé au référentiel régénéré* : 502 éléments, 18 postes ; le poste des agences porte 41 éléments, 10,88 Md€ la première année et 13,12 en régime plein ; totaux inchangés, 129,46 et 236,40. L’entrée précédente (un poste sous la carte Agences) est remplacée.
+
+### Simulateur : le patrimoine rendu en trois tiers, stock et flux — 20261113
+
+**Validé** (« pour rendement du patrimoine, il faudrait expliciter flux/stock et transformer en 8800 / 600 Md€ et distinguer en gros en trois tiers (i) participations financières, (ii) bâti et foncier, (iii) logement social (avec hypothèses d’abattement et de parc d’urgence en détail) pour pouvoir sélectionner », auteur, 20261113). *Exécuté* (`Site-ETNP/outils/restitution.py`) : le groupe s’appelle « Patrimoine public rendu » et dit son stock aux ancres du manuscrit, 600 Md€ et 8 800 € par personne ; le gain compté est son rendement. Trois postes à cocher, *relevés à l’onglet `Input Capitalisation` du classeur Chiffres* : participations financières 201,9 Md€ (C11), bâti et foncier 200,2 (C12), logement social 204,9 (C13 + C14) ; au taux de 2,9 % (D10), 5,86, 5,81 et 5,94 Md€ par an, somme 17,60 égale à la ligne 28 de l’Annexe (contrôlé par le générateur). Chaque tiers affiche ses hypothèses, lues aux formules : 95 % du coté et 20 % du non coté ; 23,1 Mm² de bureaux sur 96,7 ; deux tiers du parc social, abattement de 10 %. *Tranché en propre* : le tiers gardé du parc est dit « parc d’urgence », d’après les mots de l’auteur — la formule porte 2/3 sans le nommer ; le nom de la carte de la carto, « Rendement du patrimoine », ne change pas. Référentiel régénéré : 504 éléments, 20 postes, totaux inchangés.
+
+### Simulateur : le rendement du patrimoine, égal par personne, à 3 % — 20261116
+
+**Validé** (« on va rester sur le A du livre. à 3 % », auteur, 20261116, en réponse aux deux lectures présentées : A, flux égal par personne ; B, part de stock proportionnelle au salaire). *Exécuté* (`Site-ETNP/outils/restitution.py`, `site/reprenez.html`) : le rendement du patrimoine rendu vaut 8 800 € × 3 % / 12 = 22 € par mois et par personne, quel que soit le salaire, en épargne, en régime plein ; il se partage entre les trois tiers au prorata de leur stock. C’est une exception à la règle du 20261112 (« tout est parfaitement proportionnel »), qui vaut pour tout le reste. *Relevé à la page générée* : à 2 300 € nets, 574 € par mois au lieu de 597 ; au SMIC, 377 au lieu de 384 ; à 5 000 €, 1 223. *Constaté, non tranché* : le classeur Chiffres porte 2,9 % (`Input Capitalisation` D10, 17,60 Md€) pour tenir le total à 236,4 ; le simulateur et le référentiel de doctrine (`D7-2-2-e2`) portent 3 %. Le foyer n’est pas compté : le montant est par personne.
+
+### Simulateur : patrimoine à 3,2 %, total arrondi, 600 € à 2 400 € — 20261116
+
+**Validé** (« ajuste juste ce qu’il faut pour arriver à 25 % rendus. mets 2400 par défaut », puis « ah bah on arrondit la somme ! […] 3,2 et on est bon », auteur, 20261116). *Exécuté* (`Site-ETNP/outils/restitution.py`, `site/reprenez.html`) : salaire par défaut 2 400 € ; rendement du patrimoine rendu à 3,2 % par an sur le stock du classeur (607 Md€) partagé entre 68 millions de personnes, soit 23,80 € par mois et par personne ; le total s’affiche comme l’arrondi de la somme. *Relevé à la page générée* : 600 € par mois à 2 400 € nets (301 de salaire, 299 d’épargne), 379 au SMIC, 1 224 à 5 000 €. Le sous-titre du groupe ne dit plus que « 600 Md€ de stock ». L’entrée précédente (3 % sur 8 800 €, 22 €) est remplacée sur le taux et la base. *Constaté, non tranché* : trois taux coexistent — 3,2 % au simulateur, 3 % au livre et au référentiel de doctrine (`D7-2-2-e2`), 2,9 % au classeur Chiffres.
+
+### Simulateur : chômage en deux postes, arbre resserré, milliards en flux — 20261116
+
+**Validé** (« où sont les milliards ? ils sont en stocks et nulle part en flux, il faudrait les indiquer […] niveau arborescence ça ne va pas, plein d’aberrations […] trop de niveaux, des scissions absurdes, des catégories vides […] pour le chômage, voici en pj mes calculs. chômage et patrimoine c’est 100 % épargne, il faudrait avoir une coloration cohérente propre », auteur, 20261116).
+
+*Exécuté* (`Site-ETNP/outils/restitution.py`, `site/reprenez.html`) :
+- **Chômage** : deux postes, selon la note « Proxy Chômage » de l’auteur — 37 % des inscrits depuis moins de six mois, allocation de 1 150 à 600 € (52 %) ; 63 % au-delà. La ligne 27 de l’Annexe (29,6 Md€) est partagée au prorata : 23,09 et 6,51 Md€. *Constaté* : la formule de la note donne 30,0 Md€ sur 37,1 ; le classeur porte 29,6.
+- **Arbre** : jusqu’à huit éléments sous une carte, une liste sans postes ni thèmes ; un thème d’un seul élément laisse la place à l’élément ; les décomptes « n chiffrés » disparaissent.
+- **Flux** : chaque ligne dit son montant en Md€ par an (en M€ sous 1 Md€), à l’horizon choisi.
+- **Couleur** : une ligne tout en épargne (chômage, patrimoine) prend l’or de l’épargne.
+- **Montants** : à l’euro, « moins de 1 € » dessous ; plus de centimes. *Tranché en propre*, l’auteur demandant un avis.
+
+Référentiel régénéré : 505 éléments, 21 postes, totaux inchangés.
+
+### Simulateur, bloc Ministères : une entrée par ministère — 20261116
+
+**Validé** (« on s’en fout des programmes, c’est le plus petit détail. il faut des blocs compréhensibles, avec une entrée par ministère(s) », auteur, 20261116). *Exécuté* (`Site-ETNP/site/reprenez.html`) : la carte Ministères s’ouvre sur une liste de onze entrées, du plus lourd au plus léger ; les programmes budgétaires ne s’affichent plus. *Tranché en propre* : les ministères de moins de 100 M€ par an sont réunis en une entrée, « 6 autres ministères » (220 M€). Le référentiel garde le détail par programme.
+
+### Simulateur, bloc Ministères : huit blocs, « fonctionnement » au titre — 20261116
+
+**Validé** (« ah oui en effet "fonctionnement" doit apparaître. faisons des blocs plus cohérents ? "intérieur et justice" "armées et affaires étrangères" "économie et finances" », auteur, 20261116). *Exécuté* (`Site-ETNP/outils/restitution.py`, table `BLOCS_MINISTERES`) : la carte s’intitule « Ministères : fonctionnement » au simulateur ; ses seize ministères sont rangés en huit blocs, chacun dans un seul. *Tranché en propre, à valider* : la composition des blocs — Économie, finances et comptes publics (994 M€) ; Premier ministre (903) ; Écologie, transports, logement et territoires (743) ; Culture, enseignement supérieur, jeunesse et sports (331) ; Intérieur et justice (278) ; Santé, travail et solidarités (248) ; Agriculture (232) ; Affaires étrangères (70). *Relevé* : le poste ne porte aucune ligne des Armées. L’entrée précédente (« 6 autres ministères ») est remplacée.
+
+### L’entretien des routes nationales sort des économies ; Ministères par ce qui est coupé — 20261116
+
+**Validé** (« on a vraiment enlevé l’entretien des routes nationales ?! […] on avait augmenté avec les agences, on doit pouvoir diminuer juste les routes », « tout ce qui est à Matignon en "coordination" c’est du vent », « c’est le bon ton », auteur, 20261116).
+
+*Constaté au classeur des dépenses* (`PLF26 - Depenses…xls`, onglet `Economies R`) : le programme 203 n’a pas de croix au périmètre essentiel ; son fonctionnement (268 M€) et son investissement (66 M€) entrent au total « à arrêter », dont l’action « Routes – Entretien », 284 M€ (onglet `Données PAP 2026`, catégories 31 et 5x). *Recompté* : la somme des programmes sans croix égale la ligne TOTAL (3 414,3 et 1 316,2 M€).
+
+*Exécuté au classeur Chiffres* : 284 M€ × 80 % = 0,2272 Md€ retirés, dès la première année, à cinq cellules saisies — `Détail Economies` D37 et F37 (3,8 → 3,5728), `Flux` C20 (3,5728), C15 (44 → 43,7728), G15 (83,871 → 83,6438) ; 18 formules recalculées. *Relevé* : total 236,175 ; première année 129,232 ; structures 68,015 ; fonctionnement 37,890. Les affichages à l’entier ne bougent pas (236, 68, 38). Le classeur `.xls` n’est pas retouché : la croix se met à la main, et elle sortirait tout le programme, non la seule action.
+
+*Exécuté ici* : `REF_doctrine.json`, `controle_arithmetique.py`, `sources_chiffres.py` portés à ces montants (restitution au médian 567,59 €/mois) ; `make controle` sans échec. Référentiel du simulateur régénéré : 505 éléments, 129,23 et 236,18 Md€.
+
+*Exécuté au simulateur* : la carte « Ministères : fonctionnement » a dix entrées « ministère : ce qui y est coupé », nommées d’après les actions du PAP (table `BLOCS_MINISTERES`) ; l’action des routes sort du détail (`ACTIONS_GARDEES`). *Tranché en propre, à valider* : les dix libellés ; et le rendement du patrimoine passé de 3,2 à 3,3 % pour garder 600 € par mois à 2 400 € nets, le retrait des routes en ôtant 0,6.
+
+### Routes : ce que le retrait a atteint, et ce qu’il n’a pas atteint — 20261116
+
+*Relevé le 20261116, après fusion des classeurs renommés du site* (`Synthèse des chiffrages`, `Séries des graphiques`, `Dépenses de l’État`, `Agences publiques`, `Emplois publics`).
+
+**Atteint** : classeur des chiffrages et ses onglets en ligne ; onglet `Graph236` et graphique des 236 milliards ; simulateur ; ici, `REF_doctrine.json`, les deux contrôles et le référentiel du simulateur.
+
+**Non atteint, constaté** :
+- `Dépenses de l’État.xls`, onglets `Economies R` et `SynthèseR` : le programme 203 y est toujours sans croix « essentiel », les totaux à arrêter comptent encore les routes (3 414 et 1 316 M€).
+- Liasse `Liasse_PLF_P2`, amendement n° 4 (mission « Écologie, développement et mobilité durables ») : il retire 343 156 557 € de crédits de paiement au programme « Infrastructures et services de transports ». La part de l’entretien routier n’y est pas isolée ; la liasse se régénère par la chaîne d’amendement, non rejouée.
+- `Annexe Manuscrit`, colonne « € par an par foyer » : valeurs saisies (ligne 6 : 130 € pour 3,8 Md€ ; 3,573 Md€ donnent 119 €).
+- Dérivés du référentiel de doctrine : non régénérés, le manuscrit n’étant pas au conteneur.
+
+### Fonctionnement de l’État : 85 %, routes gardées, 3,8 Md€ inchangés — 20261116
+
+**Validé** (« ah zut ça retouche le 130 », puis « passons à 85 %. d’ailleurs c’était déjà l’objectif. même 90 % pour matignon si besoin. comme ça c’est bien le reste ne change pas », auteur, 20261116). L’entrée « L’entretien des routes nationales sort des économies » du même jour est **remplacée** sur son chiffrage : les routes restent à l’État, mais le poste ne baisse pas.
+
+*Exécuté au classeur des chiffrages* : les cinq cellules reprennent leur valeur (`Détail Economies` D37 et F37, `Flux` C20 : 3,8 ; `Flux` C15 : 44 ; G15 : 83,871) ; total 236,402. L’hypothèse de la ligne 37 est réécrite : « Hors régalien, éducation et entretien des routes : 85 % d’économies, 90 % à Matignon ». *Calculé* : (4 447 − 471) × 85 % + 471 × 90 % = 3 803 M€, pour 3 784 M€ à 80 % routes comprises.
+
+*Exécuté ici* : `REF_doctrine.json`, `controle_arithmetique.py` et `sources_chiffres.py` reviennent à leur état d’avant le retrait (236,402 ; restitution au médian 568,13 €/mois) ; empreintes relevées ; `grille_lecture_budgetaire.md` porte la nouvelle règle du poste ; référentiel du simulateur régénéré (129,46 et 236,40 Md€).
+
+*Exécuté au simulateur* : poids des programmes aux deux taux, action des routes exclue ; rendement du patrimoine revenu à 3,2 % ; dix libellés de ministères affinés (« pour éviter les contresens », auteur) — *tranchés en propre, à valider*. *Vérifié* : pas de doublon avec « France 2030 et aides à l’investissement » — le poste ne prend que la catégorie 31 des programmes 423 à 425 (621 M€), les transferts (catégories 62 et 64) sont aux subventions.
+
+*Reste contraire* : `Dépenses de l’État.xls`, onglet `SynthèseR`, écrit toujours 80 % et compte les routes ; la liasse du PLF, amendement n° 4, retire les crédits d’entretien routier.
+
+### Liasse du PLF, amendement n° 4 : l'entretien des routes nationales maintenu — 20261116
+
+**Validé** (« maintenant qu'on a ajusté les calculs, il faut mettre à jour TOUS les chiffres dépendants dont liasses ! », auteur, 20261116).
+
+*Confrontation avant d'écrire* : la ligne « Infrastructures et services de transports » de l'amendement (447 843 227 € d'AE, 343 156 557 € de CP) se retrouve **à l'euro** depuis `Dépenses de l'État.xls`, onglet `Données PAP 2026`, par les règles de `chaine_credits.py` (fraction 6/12 en catégorie 31, résiduel de 15 % ; titre 5 à 80 % de résiduel ; catégories 63 et 64). Le markdown rejoué par `liasse2docx.js` puis LibreOffice redonne le PDF en ligne page pour page (police EB Garamond).
+
+*Constaté* : les amendements de crédits prennent le fonctionnement et l'investissement **à 100 %** de l'assiette, sans le socle de 20 % ; le passage du poste de 80 à 85 % (90 % à Matignon) ne les touche donc pas. Seul le retrait de l'action « Routes – Entretien » les atteint.
+
+*Exécuté* (`livrables/depot_2027/LIASSE_PLF_P2.md`, **à la main**, le classeur de suivi qui alimente `generer_liasse_p2.py` n'étant pas au dépôt) : programme 203, 280 425 204 € d'AE et 233 985 619 € de CP (catégories 31 et 5x de l'action retirées : −167 418 022 et −109 170 937) ; totaux et solde de la mission, 3 605 103 562 et 3 160 655 376 ; exposé à 3,6 et 3,2 milliards, avec la phrase « Les crédits d'entretien du réseau routier national sont maintenus. » *Contrôlé* : `controle_credits_liasse.py` et `controle_liasses.py`, aucun écart ; PDF de 66 pages, seule la page 7 change. Docx et PDF posés à `Site-ETNP/site/amendements/`.
+
+*Reste contraire* : `Dépenses de l'État.xls`, onglet `SynthèseR` (80 %, routes comptées), et le classeur de suivi de l'auteur, que la liasse ne reflète plus sur cette ligne.
+
+### Classeur des dépenses de l'État aligné : `SynthèseR` retouché en place — 20261116
+
+**Validé** (« fais les mises à jours des classeurs ! », auteur, 20261116).
+
+*Exécuté* (`Site-ETNP/site/donnees/Dépenses de l'État.xls`, par `outils/retoucher_depenses.py`) : trois formules de `SynthèseR`, sans changer la taille du fichier.
+- E7 : `='Economies R'!L4*0,8` devient `*0,796827` ; F7 : `='Economies R'!N4*0,8` devient `*0,822530`. Ces coefficients donnent 85 % du fonctionnement et de l'investissement à arrêter hors entretien des routes nationales (232,9 et 51,0 M€, action « Routes – Entretien » du programme 203) et 90 % au programme 129 : 2 720,6 et 1 082,6 M€, **3 803,3 M€** au total (3 784,5 auparavant).
+- H8 : `=G21+D21+C20*7/3` devient `=(SUM(D21:H21))+(C21)` — les mêmes termes, plus E21 (53,5) et H21 (1 317,6) : 4 980,7 M€ (3 609,6 auparavant). C'est la correction constatée le 20261112 et laissée à l'auteur.
+- Six résultats en cache suivent (E6, F6, H6, C7, C8, C6).
+
+*Contrôlé* : comparaison de toutes les cellules de tous les onglets avant et après, neuf changées, celles-là ; LibreOffice relit les trois formules et recalcule les mêmes valeurs.
+
+*Tranché en propre* : la retouche en place plutôt qu'un passage par LibreOffice, qui ne connaît pas `XLOOKUP` et aurait écrit `#NAME?` dans les libellés de programmes. *Limite* : les deux coefficients ne disent pas leur règle ; dans Excel, E7 s'écrit `=('Economies R'!L4-232,884-'Economies R'!K84)*0,85+'Economies R'!K84*0,9`, F7 de même avec N4, 50,976 et M84. Le classeur de suivi de l'auteur, hors dépôt, n'est pas touché.
+
+### Fonctionnement de l’État : paramètres simples, 80 % du tout — 20261116
+
+**Validé** (« pourquoi baisse du coeff E7 ?! fais des paramètres simples qui passent juste les arrondis », auteur, 20261116). Les deux entrées du même jour sur ce poste sont **remplacées** sur les paramètres.
+
+*Calculé* : 4 731 M€ × 80 % = 3 784 M€ ; (4 731 − 284) × 85 % = 3 780 M€. Les deux s’arrondissent à 3,8 Md€ et à 130 € par foyer : « 85 % hors entretien des routes » et « 80 % du tout » disent la même chose. Les 90 % de Matignon, proposés « si besoin », ne sont pas nécessaires et sont retirés.
+
+*Exécuté* : `Dépenses de l’État.xls`, `SynthèseR` E7 et F7 reviennent à `× 0,8` (ils étaient passés à 0,796827 et 0,822530) ; H8 garde sa correction (4 980,7 M€) ; quatre cellules diffèrent de l’original (H8, H6, C8, C6). Classeur des chiffrages, hypothèse de la ligne 37 : « Hors régalien et éducation, 80 % d’économies (85 % hors entretien des routes nationales) ». Simulateur : 85 % pour tous les programmes, routes exclues. Guide budgétaire et note du simulateur alignés. La liasse n’est pas touchée par ce choix : elle retire les crédits à 100 % de l’assiette, entretien des routes exclu.
+
+### Fonctionnement de l’État : 85 % hors entretien des routes, écrit en clair — 20261116
+
+**Validé** (« pourquoi on retourne sur 80 au lieu de 85 ??!! », auteur, 20261116). **Faute de lecture, la mienne** : « fais des paramètres simples qui passent juste les arrondis » demandait un 85 % lisible, non le retour à 80 %. L’entrée précédente (« 80 % du tout ») est **remplacée**.
+
+*Exécuté* (`Site-ETNP/outils/retoucher_depenses.py`) : `Dépenses de l’État.xls`, `SynthèseR` — E7 `=('Economies R'!L4-233)*85/100`, F7 `=('Economies R'!N4-51)*85/100`, H8 `=SUM(D21:H21)+C21`. 233 et 51 M€ : fonctionnement et investissement de l’action « Routes – Entretien » du programme 203, arrondis du PAP (232,9 et 51,0). *Relevé* : 2 704,1 et 1 075,5 M€, **3 779,6 M€**. Fichier de même taille : deux formules grandissent de trois octets, la troisième en rend six, la table des lignes du bloc est reprise. *Contrôlé* : neuf cellules changées sur tout le classeur ; LibreOffice relit les formules et recalcule les mêmes valeurs. Classeur des chiffrages, hypothèse de la ligne 37 : « Hors régalien, éducation et entretien des routes nationales, 85 % d’économies ». Guide budgétaire et note du simulateur alignés.
+
+### Audit des canaux : la liasse de crédits n’applique ni socle ni rythme — 20261116
+
+*Constaté, sur demande de l’auteur (« audite tous les canaux »).* Les 22 amendements « Retirer les crédits que la présente loi interrompt » de `LIASSE_PLF_P2.md` retirent **43,69 Md€** d’autorisations d’engagement et 39,80 Md€ de crédits de paiement. Les lignes recalculées depuis `Dépenses de l’État.xls` (`Données PAP 2026`) tombent à l’euro sur le montant **brut** du PAP, multiplié par la seule fraction d’exercice de `chaine_credits.py` :
+
+| ligne du registre | programme | la liasse retire | le registre attend |
+|---|---|---:|---|
+| D19 aide médicale de l’État, socle 10 % | 183 | 608 150 000 € = 100 % × 6/12 | 547 335 000 € |
+| D29 hébergement d’urgence, socle 20 %, 1er avril | 177 | 3 045 085 425 € = 100 % × 12/12 | 1,88 Md€ |
+| D37 charges courantes, socle 20 % (15 % depuis ce jour) | 203, 113, 159 | 100 % du fonctionnement × 6/12 et de l’investissement | 80 % (85 %) |
+| D5 et D25 formation et apprentissage, rythmes ⅓ et 1/6 | 103 | 7 558 550 632 € = 100 % de toutes les catégories | 3,53 + 1,15 Md€ |
+
+*Cause, lue au code* : `chaine_credits.py` (inscrit le 20261016) écrit que « le socle, le rythme et le drapeau d’arrêt y sont DÉJÀ appliqués » à la table A du classeur de suivi, et s’appuie sur le contrôle « CP arrêtés = Economies R, écart nul ». Or `Economies R` porte les montants bruts à arrêter : l’égalité prouve l’inverse. *Non vérifié* : la table A elle-même, le classeur de suivi n’étant pas au dépôt ; l’historique git, importé en bloc le 20261106, ne dit pas quelle session a écrit ce passage.
+
+*Les autres canaux appliquent les pourcentages* : `SynthèseR` (0,9 ; 0,3 ; ⅓ ; 0,8 puis 0,85), le classeur des chiffrages qui en reprend les montants, le simulateur, la carto, le graphique, `REF_doctrine.json`.
+
+*Non corrigé* : la réécriture des 22 amendements demande la table de passage ligne du registre → programme × catégorie (§ 4 et § 14 du registre) et l’accord de l’auteur.
+
+### Pilotage : un fil pilote, des fils d’exécution, un tableau de bord — 20261116
+
+**Tranché** (organisation, révocable). L’auteur ne parle qu’au fil de pilotage. Le pilotage lance les fils d’exécution avec leur mandat, lit leurs branches, contrôle, verse leurs entrées de registre et fusionne. L’état des chantiers, les décisions attendues et les branches vivent à `PILOTAGE.md`. **Validé par l’auteur le 20261116** : consolidation d’abord — données, classeurs dont le tri, calendrier, liasses, site — avant de reprendre le simulateur ; présentation candidat alignée sur le simulateur, « 600 € par mois pour 2 400 € nets ». *Relevé* : un fil d’exécution ne peut ni attacher un dépôt ni écrire au pilotage sans approbation de l’auteur ; les classeurs se téléchargent du site en ligne, et le pilotage relève les branches lui-même.
+
+### Tri des impôts : le classeur du 20 octobre est le même sur les deux dépôts — 20261116
+
+**Constaté.** *Relevé* : « Tri des prélèvements Résolution.xlsx » porte la même empreinte git (`52e7f088`) sur la branche `claude/clever-euler-rbeck4` de `Site-ETNP` et sur celle de `Resolution-2027`.
+
+### Tri des impôts : la version du 20 octobre récupérée à l’archive — 20261116
+
+**Tranché** (rangement, révocable). Les 31 fichiers de la branche
+`claude/clever-euler-rbeck4` absents de `main` sont repris par copie d’octets, empreinte git
+comparée : 6 outils et 10 référentiels à leur adresse d’origine, 14 livrables et 1 fragment de
+registre sous `archive/tri_20261020/`. Six fichiers que `main` porte dans un autre état sont
+gardés sous `archive/tri_20261020/versions_branche/`, dont le tri lui-même ; aucun fichier de
+`main` n’est écrasé. *Relevé* : 31 sur 31, 0 collision. **Écarté** : rejouer les outils
+récupérés, qui liraient sur `main` l’état d’avant le 20 octobre.
+
+### Le tri du 3 novembre ne descend pas de celui du 20 octobre — 20261116
+
+**Constaté.** `appareil/tri_porte/construire_tri.py` lit `sort_prelevements_20261015.tsv` dans
+l’état de `main`, antérieur aux commits du 20 octobre. *Relevé* : 26 rangs de sort différent
+(27 003,7 M€), dont 17 (19 395,3 M€) tiennent à des corrections du 20 octobre calées sur le
+tableau « Refonte fiscalité » — jeux, électricité, taxe de solidarité additionnelle, protection
+juridique, indemnités de rupture ; 79 rangs d’impôt de remplacement différent ; 5 rendements
+corrigés le 3 novembre. Pièce : `methode/etats/COMPARAISON_tri_20261020_20261103.md`.
+
+### Quatre échanges de l’auteure du 20 octobre restés hors du registre — 20261116
+
+**Constaté, à verser.** Le fragment `20261020-flux-prives-et-classements.md` n’a jamais atteint
+`main`. Il porte, validés par l’auteure le 20261020 : redevances de l’eau en consommation ;
+cotisations imputées ignorées ; crédits d’impôt non retranchés ; objectif des flux physiques
+privés ; trois reclassements d’assiette ; comparaison avant / après sur la notion INSEE ; comptes
+distribués écartés. **Caduc depuis le 20261103** : « cotisations sociales à unifier », remplacé
+par « à fusionner ». Le reste se verse à sa date, le fragment faisant foi.
+
+### Tri des impôts : où en sont les cinq points du 3 novembre — 20261116
+
+**Constaté.** Clos : la date de fin des taux réduits de TVA (20261105) et les droits de
+mutation partiels (20261106). Ouverts : le millésime — 177 rangs changent, et non 118, la
+colonne révisée n’étant pas homogène (TVA à 59 394 contre 242 838) ; la lecture de « en R »
+(11 rangs, 942,0 M€) ; les jeux ; les 13 qualifications (201,4 M€). **Proposé** : les 13
+qualifications se tranchent en propre par le fil qui reprend le tri, sans question à l’auteure.
+
+### Liasse de crédits : la règle actuelle retrouvée à l'euro, et sa prémisse démentie — 20261116
+
+*Relevé.* `chaine_credits.py`, joué sur `Données PAP 2026` du classeur du site avec les drapeaux d'`Economies R`, redonne les 57 lignes de programme des 22 amendements à 1 € près : 47 par brut × fraction, 9 écrêtées au crédit ouvert de l'état B 2027, le programme 203 par sa correction du jour. Le périmètre ainsi retenu somme à 67 494,2 M€ d'AE et 73 160,9 M€ de CP, totaux « arrêtés » de la table A du classeur de suivi absent : ces montants sont bruts. Seul le titre 2 porte un socle (0,90) et l'indemnité (70 %). *Non corrigé* : l'en-tête de `chaine_credits.py`.
+
+### Liasse de crédits : table des paramètres et contrôle contre les classeurs — 20261116
+
+*Exécuté.* `referentiels/parametres_credits_20261116.tsv` (285 lignes, poste du classeur × programme × catégorie, action s'il y a lieu), sa note de lecture, `appareil/controle_liasse_classeurs.py` (`construire`, `controler`, `faute`, `ecarts`) et `methode/etats/ECARTS_liasse_classeurs_20261116.md`. *Déduit* : contre la première année du classeur, la liasse retire 10,47 Md€ d'AE de trop en net (12,72 en trop, 2,25 en moins) et 6,69 Md€ sans paramètre ; contre le § 4 du registre, 18,64 Md€ de trop et 7,83 Md€ sans paramètre. *Tranché en propre* : le grain, le rattachement des lignes aux postes de `SynthèseR` (prouvé poste par poste) et aux lignes du § 4 (d'après le § 14), l'écrêtement des cibles au crédit ouvert. *Proposé, non validé* : les six questions du § 6.
+
+### Calendrier : les quatre documents concordent, l'outil est seul contre eux — 20261116
+
+*Relevé.* Le § 4 du registre date 27 lignes ; le suivi de trajectoire le recopie, 27 sur 27 ; le registre des exceptions ne porte que trois dates de 2027 sur des crédits de l'État, cohérentes avec lui ; le flux par agent ne porte aucune date par ligne et rejoue le § 4 à 0,001 Md€ près ; les deux classeurs du site ne portent aucune date. `DATE_CAT` contredit le § 4 sur 13 couples ligne × catégorie, dont 11 dans la liasse pour 22,22 Md€ d'AE ; le registre est muet sur 6 autres, 7,85 Md€. L'« arbitrage du 20261016 » sur le fonctionnement, cité par `chaine_credits.py`, n'a pas d'entrée au registre des arbitrages. *Proposé, non validé* : la date du § 4 l'emporte.
+
+### `SynthèseR` : 215,7 M€ comptés deux fois dans « Autres ménages » — 20261116
+
+*Relevé, puis déduit.* `SynthèseR!F32` part du brut (`Economies R!S4`) et en retranche l'aide médicale de l'État et l'emploi service nets de leur abattement de 10 % (D31, E31) : les 10 % conservés de ces deux postes, 121,6 et 118,0 M€, sont repris dans « Autres » à 90 %. *Non corrigé* : le classeur fait foi et n'est pas de ce mandat.
+
+### Calendrier : l'état des lieux du projet versé, les deux séries de classeurs comparées — 20261116
+
+**Constaté.** Le projet rend sa passation (`methode/passation_calendrier_20261116.md`) et ses neuf pièces jointes, versées en copie d'octets à `sources/projet_20261116/` (*relevé* : 15 empreintes sur 15). Le tableau mesure × mois d'origine est introuvable au projet comme au dépôt. *Relevé* : le classeur des dépenses du site ne diffère de celui du projet que par neuf cellules de `SynthèseR`, toutes tracées (85 % hors routes ; H8) ; le classeur de synthèse par 72 cellules (opérateurs, fonctionnement, collectivités, rendement du patrimoine). **Tranché** (pilotage, révocable) : la série du site fait foi pour les montants et les taux ; le registre de calcul fait foi pour les dates et les rythmes, et se remet à niveau sur D16, D37, D41 et D43. **Validé par l'auteur le 20261116** : pour le rythme, le classeur du site ne suffit pas ; le travail par mesure et par mois fait foi. **Ouvert, à l'auteur** : les départs d'agents, 30 % la première année au classeur contre la ligne entière au registre, 16,1 Md€ en 2028. Pièce : `methode/etats/SERIES_classeurs_projet_site_20261116.md`.
+
+### Départs d’agents : en entier dans les 236, à 30 % en salaire net la première année — 20261116
+
+**Validé.** *Réponse de l’auteur du 20261116* : « dans les 236 c’est tout dont acte, en salaire net en un an c’est 30 % ». Le régime plein compte la ligne entière (D38, D43) ; la première année compte 30 %, tant que 70 % du traitement est maintenu : lecture du classeur. Le registre de calcul (§ 5), qui comptait la ligne entière dès 2028, s’aligne.
+
+### Tri des impôts : le tri unique du 16 novembre — 20261116
+
+**Tranché par le pilotage, révocable**, sauf les jeux. Base : le tri du 3 novembre, six devenirs,
+434 rangs. Reportés de la version du 20 octobre : le poste du tableau « Refonte fiscalité » (288
+rangs à un poste, 146 hors tableau) et le passage ; les indemnités de rupture et de mise à la
+retraite (6, 12) fondues dans l’équilibre comme taxes sur la main-d’œuvre ; la taxe sur les
+transactions financières et les ordres annulés (135, 137) remplacés par la TVA. Le tableau fait
+foi sur l’énergie et les assurances : électricité (211, 214, 215 ; 5 153,3 M€) fondue dans la TVA ;
+taxe de solidarité additionnelle et protection juridique (194, 277) conservées en complément, bloc
+simili TVA. Montants : prévision 2026 du budget 2026 ; 13 rangs ajoutés portent la prévision
+révisée du budget 2027, seule publiée. Redevances « en R » : supprimées par voie réglementaire,
+gardées au tri (11 rangs). *Relevé* : 7 / 258 / 34 / 45 / 80 / 10 rangs par devenir, 878 229,4 M€,
+187 sans rendement. Pièces : `referentiels/sort_prelevements_20261116.tsv`,
+`livrables/tri_prelevements/Tri des impôts.xlsx`, `methode/etats/TRI_unique_20261116.md`.
+**Caduc** : « les 82 cotisations sociales » — elles sont 80.
+
+### Jeux : supprimés — 20261116
+
+**Validé.** *Réponse de l’auteure du 20261116* : « oui on supprime, cf synthèse refonte ». Les dix
+rangs de jeux (6 692,2 M€) restent remplacés par la TVA. **Constaté** : le tableau « Refonte
+fiscalité » du site n’en supprime que 0,3 Md€ ; l’écart de 6,39 Md€ porterait les hausses
+d’équilibre de 67,75 à 74,14, en entier sur la taxe foncière (42,06 → 48,45), par la formule de
+solde de la colonne K. Le classeur du site n’est pas modifié.
+
+### Tri des impôts : les treize qualifications tranchées — 20261116
+
+**Tranché** (par le fil du tri, sur les règles écrites, révocable). Recette non fiscale : amende des
+fonds de capital-risque (136), emballages (171), équarrissage (172), assurance-vie en déshérence
+(326). Conservé en complément, fonds de garantie : accidents du travail des exploitants agricoles
+(187), dommages de soins (188). Conservé, simili TVA : contribution UNOCAM (189), avec la
+contribution L. 862-4-1 (N7), qui suit la taxe de solidarité additionnelle. Confirmés : médecine du
+travail (128, fondu), droits d’enregistrement génériques (339), plaidoirie (363), redevances
+hydroélectriques (382, 388), garantie de l’or (417). Droits de place (300) : bloc fiscalité
+outre-mer, par le poste. **Non relevé sur pièce** : la qualification des cotisations
+interprofessionnelles (172).
+
+### Tri des impôts : export ramené à six devenirs, contrôle des sièges promu — 20261116
+
+**Tranché** (tambouille, révocable). « Droit ramené à 1 % et 3 % » et « supprimé par voie
+réglementaire » sont des mentions en colonne, non des devenirs. La colonne `question` ne porte
+plus « False ». `controle_sieges_prelevements.py` et la cible `controle` du `Makefile` lisent le
+tri unique par défaut. *Relevé* : 0 échec, 10 signaux, S6 410/419.
+
+### Les quatre échanges de l’auteure du 20 octobre : ce que le tri unique en porte — 20261116
+
+**Constaté.** Portés : redevances de l’eau en consommation ; les deux reclassements d’assiette
+(transactions financières, indemnités de rupture) ; la taxe sur les transactions financières au
+poste « autres taxes sur les produits ». Sans effet sur le tri : cotisations imputées ignorées,
+crédits d’impôt non retranchés, flux physiques privés, comparaison sur la notion INSEE, comptes
+distribués écartés. **Caduc** : « cotisations sociales à unifier ». Le fragment archivé
+`archive/tri_20261020/methode/fragments/arbitrages/20261020-flux-prives-et-classements.md` fait
+foi et reste à verser au registre à sa date.
+
+### Amendements à reprendre après le tri unique — 20261116
+
+**Constaté, à traiter.** PLF P1 n° 22 (ex-n° 36) : retirer la protection juridique (I, 5°), porter
+la fin de la taxe sur l’électricité. PLFSS n° 9 : retirer la taxe de solidarité additionnelle et la
+contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de jeux (285, 286, 287,
+290) sans porteur. *Relevé* : 34 rangs supprimés sans porteur, 11 419,5 M€.
+
+### Simulateur : patrimoine à 18 Md€, chômage redit, niches par sujet — 20261116
+
+**Demandé par l’auteur le 20261116** : « 19 Md€ ne va pas il faut 18. le découpage chômage est maladroit et trompeur puisque l’AFU s’ajoute, il faudrait trouver qqchose de plus vendeur. sur les niches la liste est un peu décourageante, il faudrait trouver mieux. » **Exécuté, à valider par l’auteur** (présenté en capture le jour même). Patrimoine : 3 % par an, le taux du livre, partagés entre les 63,4 millions de personnes des foyers fiscaux — 18,2 Md€ par an, 23,93 € par mois par personne ; *relevé* : 600 € à 2 400 € nets (600,19 avant arrondi). Le réglage du matin, 3,2 % et 68 millions, est **caduc**. Chômage : mêmes montants, deux libellés — « Six premiers mois : revenu maintenu » (600 € d’allocation et 550 € d’aide universelle) et « Après six mois : cotisation rendue ». Niches : dix sujets en mots courants par poste, d’après le programme de rattachement ; les deux cartes de la carto et tous les montants sont inchangés.
+
+### Liasse de crédits régénérée : rythme et date du registre, taux du classeur — 20261116
+
+*Tranché par le pilotage, révocable ; consigne de l'auteure héritée du pilotage.* Les 22 amendements de mission appliquent brut du PAP × taux du classeur × rythme et fraction du § 4 du registre, CP au résiduel du § 3, plafond au crédit ouvert de l'état B 2027. *Relevé* : 19 776 751 373 € d'AE et 17 617 182 294 € de CP, contre 43 688 020 914 et 39 795 849 238. *Exécuté* : `chaine_credits.py` et `generer_liasse_p2.py` lisent `referentiels/parametres_credits_20261116.tsv`, 81 colonnes, et ne portent plus de constante ; cible `projet` ajoutée à `controle_liasse_classeurs.py`, 0 échec, faute mordue.
+
+### Liasse de crédits : registre muet, les dates tranchées — 20261116
+
+*Tranché par le pilotage, révocable* : transferts aux collectivités par tiers, un tiers en 2027 ; emploi à domicile, Anah et missions locales au taux et au rythme du classeur ; France Travail à la règle du registre. *Tranché en propre, révocable* : la date de ces lignes est celle de la ligne la plus proche du § 4 — 1er janvier pour la catégorie 63 (D42), 1er juillet pour l'Anah (D16), l'emploi à domicile (D22, D25) et les missions locales (D36). 28 lignes, 2 677 902 505 € d'AE.
+
+### Liasse de crédits : 17 lignes oubliées ajoutées, un programme sorti — 20261116
+
+*Relevé.* L'ancien outil écartait sans le dire tout programme dont le libellé avait changé entre le PAP 2026 et l'état B 2027 : programmes 149, 205, 349 et 379, 17 lignes, 537 570 403 € d'AE ajoutés aux amendements n° 18, 4, 14 et 9. *Déduit* : correspondances de 149 et 349. *Relevé* : le programme 162 relève de la mission « Outre-mer » à l'état B 2027 ; il sort de l'amendement n° 1 ; un amendement « Outre-mer » est dû. L'amendement n° 18 prend le nom de la mission de 2027.
+
+### Registre de calcul, ligne D37 : 15 % de socle, hors entretien des routes — 20261116
+
+*Hérité du pilotage* : décision de l'auteure du 16 novembre, 85 % d'économie sur le fonctionnement hors régalien, éducation et entretien des routes nationales. *Exécuté* : § 4 et § 5 du registre mis à jour (socle de 15 %) ; F et le montant de 2027 inchangés à l'arrondi.
+
+### Amendements n° 33 et 34 : dates alignées sur le registre — 20261116
+
+*Exécuté.* Hébergement d'urgence au 1er avril 2027, chèque énergie au 1er juillet 2027, au dispositif et à l'exposé. *Non corrigé* : le programme que cite l'exposé du n° 34.
+
+### Croisé mesure × mois reconstruit — 20261116
+
+*Exécuté.* `referentiels/calendrier_mesures_mois_20261116.tsv`, 27 lignes × 48 mois, sa note de lecture et `appareil/calendrier_mesures_mois.py`. **Il fait foi** (*tranché par le pilotage*) : l'original est introuvable. *Relevé* : il redonne les § 4 et 5 à niveau à 0,01 Md€ près ; rejoué aux valeurs antérieures de D16, D38, D41 et D43, il redonne le § 6, le § 16 et le classeur de flux, écart maximal 0,018 Md€. *Relevé* : D25 en 2028 marche au 1er juillet au § 16 et par douzièmes au classeur de flux ; le croisé suit le registre, écart déclaré de 0,1932 Md€ par mois sur l'agent « Entreprises ».
+
+### Registre de calcul, § 4 et 5 : D16, D41 et D43 aux montants du classeur du site — 20261116
+
+*Tranché par le pilotage, révocable* : la série du site fait foi pour les montants et les taux. *Relevé* à `Détail Economies` du classeur du site : F16 = 4,116 (2,745), F41 = 12,21 (12,3), F43 = 19,864 (20). *Exécuté* : § 4 et § 5 mis à niveau, valeurs antérieures gardées au § 5 pour la trace. *Non rejoués* : § 6, 7, 15, 16, 17, le suivi de trajectoire et le classeur de flux.
+
+### Départs d'agents : en entier dans les 236, à 30 % en salaire net la première année — mise à niveau du registre de calcul — 20261116
+
+**Validé.** *Réponse de l'auteur du 20261116* : « dans les 236 c'est tout dont acte, en salaire net en un an c'est 30 % ». *Ces mots sont relevés à `methode/arbitrages.md` sur `main`, où le pilotage a versé l'entrée ; ce fil ne les a pas reçus de l'auteure.* *Exécuté* : § 4 et § 5 du registre de calcul, lignes D38 et D43 à 30 % ; 0,45 · 0,90 · 0,90 · 0,90 et 2,98 · 5,96 · 5,96 · 5,96. *Déduit* : coupes de 48,93 · 85,22 · 109,11 · 112,71 Md€, contre 56,34 · 100,05 · 123,97 · 127,57 ; solde en mesure de +15,54 · −29,24 · −5,35 · −1,75. *Tranché en propre, révocable* : 30 % sur toute la fenêtre 2027-2030, aucune pièce ne fixant le passage au plein (indemnité d'une à sept années, amendement n° 26) ; 16,00 Md€ par an restent « à terme ».
+
+### Repères du § 14 rejoués sur la table A retrouvée — 20261116
+
+*Relevé.* `appareil/controle_liasse_classeurs.py reperes` : 51 repères `A!Kn/Ln` sur 51 concordent avec `sources/projet_20261116/23_tsv_suivi_depenses__A_Credits.tsv` (programme, catégorie, statut « arrêté », montants arrêtés égaux au brut de la table de paramètres). *Relevé* à l'onglet « Mesure » : la catégorie 22 suit la catégorie 21 ; la liasse ne la retire pas, 269 422 581 € en 2027.
+
+---
+
+### Chèque énergie : droit éteint au 1er janvier, 300 M€ en 2027 — 20261116
+
+**Validé.** *Réponse de l’auteur* : « pour le chèque énergie on va dire qu’y a des restes à payer de la campagne d’avant, donc le 300 M€ est une cotte grossière à cet effet, et on éteint bien le nouveau droit à partir de janvier ». Le droit s’éteint au 1er janvier 2027, aucun titre n’est émis au titre de 2027 ; l’exercice règle les titres de la campagne précédente et l’économie de 2027 reste de 300 M€ pour 600 M€ en année pleine. *Exécuté* : registre de calcul § 4, ligne D20 (date au 1er janvier, fraction 6/12 et montant inchangés) ; amendement n° 34 (entrée en vigueur, exposé, programme porteur « Énergie, climat et après-mines », 1 251 260 465 € ouverts, *relevé* à `etatB_2027_bg.tsv`) ; exposé du n° 4 ; croisé mesure × mois (0,025 Md€ par mois en 2027). Les deux lectures antérieures — 1er janvier et 600 M€ (pièce du 5 octobre), 1er juillet et 300 M€ (registre du 9 octobre) — sont **caduques**.
+
+### Exposés de la liasse de crédits : la règle de date et sa raison — 20261116
+
+**Demandé par l’auteur** (« je pense que les modifs avaient un sens, retrouve le »). *Relevé* au registre de calcul, § 1 (R-P, R-S), § 2 et § 7 : une coupe qui atteint des personnes physiques tombe le 1er juillet 2027, mois où commence la baisse des prélèvements sur les revenus d’activité ; une coupe qui n’atteint que des personnes morales, le 1er janvier. **Tranché** (rédaction, révocable) : chaque exposé des 22 amendements de crédits dit la règle et sa raison avant d’énumérer ses dates (`generer_liasse_p2.py`). *Relevé* : 22 exposés sur 22 concordent avec leur dispositif — montants arrondis et nombre de programmes ; quatre contrôles à 0 échec ; liasse rendue en 68 pages, mise en ligne, pages des 39 amendements recalées à `Site-ETNP/site/renvois.json`.
+
+### Flux mensuel par agent rejoué sur le registre à niveau — 20261116
+
+**Exécuté** (demande de l’auteur : « redonne le calendrier récap agent/mois des flux »). Le § 6 du registre de calcul est rejoué depuis le croisé mesure × mois : opérateurs à 4,116 de régime plein, départs d’agents à 30 % tant que l’indemnité court, chèque énergie éteint au 1er janvier. *Relevé* : total 2027 de −15,55 Md€ pour les agents (−22,95 le 15 octobre), agents publics −0,09 (−8,16), opérateurs −4,11 (−3,42) ; le solde tous agents bascule en octobre 2027 ; par exercice, 2028 à 2030 : +29,24 · +5,35 · +1,75. `calendrier_mesures_mois.py controler` compare désormais le § 6 au croisé du jour : 0 échec. **Non rejoués** : § 15, 16 et 17, `suivi_trajectoire_20261015.md`, `flux_par_agent_20261015.md` et son classeur.
+
+### Flux par agent : agents privés et sphère publique — 20261116
+
+**Validé.** *Règle de l’auteur* : « Collectivités ça ne compte pas c’est le public ! C’est agents privés / sphère publique ». Le flux par agent se lit en deux sphères : agents privés (ménages actifs, ménages sans revenus d’activité, entreprises, associations) et sphère publique (agents publics, opérateurs, collectivités). Le solde qui compte est celui des agents privés. *Exécuté* : registre de calcul § 6, lecture par sphère. **Caduc le jour même** : le rangement des agents publics à la sphère publique. *Règle de l’auteur, 20261116* : « Les agents publics sont des personnes privées. Le solde public est l’inverse de la somme des privés ». Les agents privés sont les ménages actifs, les ménages sans revenus d’activité, les agents publics, les entreprises et les associations ; le solde public est l’opposé de leur somme ; les lignes « opérateurs » et « collectivités », internes à la sphère publique, n’entrent dans aucune somme.
+
+### Flux par agent : les coupes d’agences et de collectivités retombent sur des privés — 20261116
+
+**Validé pour la méthode.** *Règle de l’auteur* : « collocs on a la répart des dépenses et agences on peut faire une classification grossière des plus grosses (entreprises et/ou ménages) et une classification conventionnelle du reste (moitié agent moitié fournisseurs) ». **Tranché par le pilotage, révocable, pour les parts** — clé posée, non mesurée : Ademe aux entreprises ; autres opérateurs à 46 % aux ménages, 44 % aux entreprises, 10 % aux agents publics (*déduit* des agences du simulateur hors audiovisuel, MaPrimeRénov’ et Ademe, 7,3 Md€) ; audiovisuel public moitié agents, moitié entreprises ; charges courantes locales à 55 % aux ménages (*relevé* : logement et équipements collectifs, 5,28 Md€ sur 9,60), le reste moitié agents, moitié entreprises. *Relevé* : le solde public redevient celui du § 5 — +15,55 · −29,24 · −5,35 · −1,75. **Constaté** : ni le § 5 ni le § 6 ne portent les niches supprimées (52,1 Md€ par an) ni l’épargne rendue ; le compte ne se ferme qu’avec elles. À construire.
+
+### Classeur des dépenses : 215,7 M€ comptés deux fois dans « Autres ménages », corrigés — 20261117
+
+**Exécuté** (demande de l’auteur : « corrige l’erreur et propage »). `SynthèseR!F32` devient `=('Economies R'!S4-C31-F20-197,995)*0,9-D31-E31` : l’aide médicale de l’État et l’emploi service sortent d’« Autres » pour leur montant net, et non plus à 90 % de leur montant net. Retouche en place, fichier de même taille (`Site-ETNP/outils/retoucher_depenses_menages.py`) ; *relevé* : six cellules changent (F32 et F31 de 1 820,3 à 1 604,6 M€ ; I7, I6, C7, C6), la formule est relue par LibreOffice. **Propagation, relevée** : page d’onglet `budget-syntheser.html` régénérée ; table des paramètres de crédits reconstruite ; le classeur de synthèse portait déjà 8,4 et 19,9 Md€ pour les chèques aux ménages et ne bouge pas ; liasse, simulateur, graphiques et total de 236,4 Md€ inchangés.
+
+### Simulateur : Agences, Agents et échelons locaux sur le modèle de Ministères — 20261117
+
+**Demandé par l’auteur** : « simulateur ministère attention, "administration" mieux que service ou ministère qui ne veut rien dire une deuxième fois, et ségur ça ne va pas il faut le caractériser autrement. go agences et le reste sur les mêmes principes ». **Exécuté, à valider** (capture présentée le jour même). Ministères : « Culture : administration, création », « Agriculture : administration », « Santé : fonds européens pour les hôpitaux », « Autres administrations ». Agences : cinq entrées par ministère — « Culture : audiovisuel public, cinéma, scènes », « Logement : Action Logement, rénovation », « Écologie : agences de l’eau, Ademe », « Transports : financement des infrastructures », « Autres agences » ; noms d’agences en clair, statut court (fermé, cédé, autonome). Départs d’agents de l’État : neuf entrées par ministère (`BLOCS_AGENTS`). Fonctions des comptes locaux en mots courants (`NOMS_LOCAUX`). *Relevé* : aucun montant ne change, 600 € par mois à 2 400 € nets.
+
+### Compte complet du calendrier des flux : construit, deux circuits — 20261117
+
+*Exécuté.* `referentiels/calendrier_compte_complet_20261117.tsv`, 105 mesures, 118 lignes mesure × agent, 48 mois ; `appareil/calendrier_compte_complet.py`, 39 contrôles à 0 échec ; le croisé du 20261116 est inchangé. *Tranché en propre, révocable* : le compte se lit en deux circuits — la restitution (coupes, huit lignes de première partie, niches gagées, baisse de CSG, chômage, patrimoine, épargne rendue), complète ; la refonte, pour les seules lignes que le registre date (§ 17 et § 18). *Relevé* : solde public tous circuits de +52,81 · −59,08 · −2,37 · −0,73 Md€, cumul −9,37 fin 2030.
+
+### Niches : 28,64 Md€ en 2027, 49,23 en 2028, 52,12 en 2029 — 20261117
+
+*Relevé* au IV de l'amendement n° 1 de la liasse P1 et au IV de l'amendement n° 1 du PLFSS, dépense par dépense (257 dépenses, 43,126 Md€ de gage ; niches sociales 9 Md€). Le classeur compte 52,1 Md€ dès la première année. Écart de 2027, −23,46 Md€ : la TVA, les accises et les niches sociales ne courent que du 1er juillet ; l'épargne, les parts et les réductions de l'impôt sur le revenu tombent en 2028 et 2029. *Déduit* : le mois d'incidence, d'après le mode de perception ; 34 dépenses (4,36 Md€) rattachées par la nature de l'avantage. *Réserves* : 7,60 Md€ d'impôt sur les sociétés comptés en 2027 et encaissés en mai 2028 ; 8,50 Md€ par an majorants tant que les engagements antérieurs courent (G du IV).
+
+### Le point dur de 2028 disparaît du circuit de restitution, en mesure — 20261117
+
+*Relevé au compte.* Surplus du circuit de restitution, hors chômage et patrimoine : +48,70 · +26,57 · +55,05 · +58,66 Md€ ; positif chaque mois, au plus bas +1,11 en décembre 2027 et +1,44 par mois au premier semestre 2028. Le −29,24 du § 5 ne comptait que les coupes. Les leviers de rythme du § 17 (+8,49 et +7,27 en 2028, *rejoués*) ne servent plus à fermer 2028 ; ceux de la refonte ne se jugent pas tant qu'elle n'est pas datée en entier.
+
+### Épargne rendue : rien en 2027, 75,27 Md€ au titre de 2028 — 20261117
+
+*Calculé*, sur la règle du classeur (tout ce qui dépasse la baisse de CSG). *Relevé* : le compte d'épargne ouvre le 1er janvier 2028, les premiers versements sont dus au titre de 2028, le taux est fixé par la loi de finances et nul à défaut (liasse P1, amendement n° 27, III et VIII). Le surplus de 2027, 48,70 Md€, reste donc douze mois dans la sphère publique : c'est le seul écart du circuit, et il se referme en janvier 2028. Épargne rendue : 75,27 · 55,05 · 58,66 Md€ de 2028 à 2030. Contre le classeur : 15,00 la première année, 74,74 en régime plein ; les écarts tiennent au rythme des sorties en trois ans, au calendrier des niches et aux départs d'agents à 30 %.
+
+### Rendement du patrimoine : 17,60 Md€ par an sans contrepartie de flux — 20261117
+
+**Constaté, à l'auteure.** Le versement de patrimoine (amendement n° 27, III, C) est rendu aux personnes à compter de 2028. Aucune pièce ne dit ce que la sphère publique cesse de percevoir ou se met à payer. Par la règle « le solde public est l'inverse de la somme des privés », il creuse le solde de 17,60 Md€ par an : c'est le seul écart durable du circuit de restitution.
+
+### Assurance chômage : aucune disposition, aucune date — 20261117
+
+**Constaté.** Les 29,6 Md€ du classeur ne sont portés par aucun amendement des trois liasses. *Posé* pour le compte : 1er janvier 2028, jour du compte d'épargne. La ligne se compense sur elle-même ; elle pèse 29,60 Md€ par an sur les ménages sans revenus d'activité.
+
+### Huit lignes de première partie et sociale : datées pour le compte — 20261117
+
+*Tranché en propre, révocable* : D7, D8, D9, D10, D11, D13 et D14 au 1er janvier 2027 (R-P), au rythme de la colonne G du classeur ; D21 par tiers au 1er juillet 2027, 1er janvier 2028 et 1er janvier 2029 (*relevé*, PLFSS n° 1, IV). 4,52 · 6,60 · 8,30 · 8,30 Md€. Le registre § 4 ne les date pas.
+
+### Refonte : le registre n'en date qu'une partie — 20261117
+
+**Constaté.** Lignes datées (solde des niches, TVA, taxe sur les salaires, suppressions du tri) : +4,11 · +7,22 · +15,24 · +16,87 Md€. Manquent, en régime plein au classeur : +25,69 d'impôt sur les sociétés au taux unique, +42,06 de taxe foncière unique, −86,57 d'impôts supprimés, +7,10 de gisements. La refonte ne se ferme sur aucun exercice tant que ces lignes n'ont ni date ni produit annuel.
+
+### Calendrier : patrimoine et refonte fiscale à part ; le calendrier est interne — 20261117
+
+**Validé.** *Réponse de l’auteur* : « ok pour stock à part, mais refonte fiscale aussi a toutes ses dates et devrait pouvoir être fait à part. le calendrier c’est pour nous, le site c’est juste les liasses ! ». Le compte des flux se tient en trois comptes séparés : le circuit de restitution (coupes, niches, baisse de CSG, épargne rendue) ; le patrimoine rendu, transfert de stock, hors compte de flux ; la refonte fiscale, à ses propres dates. Le calendrier est un outil interne : aucune page du site. Le site ne porte que les liasses. **Caduc** : la « page calendrier sur le site » inscrite au tableau de bord.
+
+### Simulateur : nommer la dépense finale, « Autres » en fin de liste, échelons locaux — 20261117
+
+**Demandé par l’auteur** : « on peut garder et viser la dépense finale ? […] je demandais de chercher les vraies dépenses finales, pas de nommer le transfert » ; « les "autres" doivent être en fin de bloc même si un peu plus gros que l’avant dernier » ; « il ne faut pas surutiliser des termes valises flous, et pas trop se répéter ». **Exécuté, à valider.** Programme 379 (242 M€, fonds européens reversés à la sécurité sociale) : gardé dans les économies, nommé par sa dépense finale — « Santé : travaux d’hôpitaux et d’Ehpad, numérique » ; le passage du fonctionnement à 90 % reste **à confirmer par l’auteur**. Libellés lus à l’action du PAP : « Culture : création, livre, écoles d’art », « Agriculture : gestion des aides agricoles », « Autres ministères » ; départs d’agents : « ministère » y désigne les agents du ministère, face aux agences. Toute ligne « Autres » ferme sa liste. Un même nom sous plusieurs fonctions se dit avec sa fonction (« Logement : départements »). *Relevé* : aucun montant ne change.
+
+### Simulateur : trois strates, règles de lecture consolidées, ordre des cartes — 20261117
+
+**Validé pour les règles.** *Consignes de l’auteur* : « pas plus de trois strates (les grands cinq, le premier détail, le petit détail avec liens de doc) » ; « faire échelons / agences / min / agents » ; « il fallait garder "administration" pour compléter les libellés gloubi boulga » ; « enlève écoles d’art, et renomme gestion des aides ». **Exécuté, à valider pour le rendu.** La page porte 81 lignes en trois strates ; chaque ligne agrégée dit ce qu’elle comprend et renvoie à l’onglet qui porte le détail ; le référentiel garde les 505 éléments (`aplatir` de `Site-ETNP/outils/restitution.py`). Échelons locaux : une dimension par poste. Ordre des cartes des administrations : échelons locaux, agences, ministères, agents publics. Le bloc « En échange » suit les lignes qui portent chaque renoncement. Les sept règles sont à la note de lecture du référentiel, § 6. *Relevé* : aucun montant ne change, 600 € par mois à 2 400 € nets. **Perdus à dessein** : la recherche d’une niche par son nom et le cochage niche par niche.
+
+### Simulateur : les agents suivent la découpe des structures et leur sont liés par défaut — 20261117
+
+**Validé.** *Consignes de l’auteur* : « agents doit suivre la découpe des structures et y être lié par défaut » ; pour les agents sans structure en face, réponse « A » — liés à leur ligne de subventions quand elle existe, sinon aux autres agences ; « on ne répétera pas agents dans le bloc agents (en revanche il faut spécifier "publics" à première occurrence) ». **Exécuté, à valider pour le rendu.** La carte « Agents publics » porte une ligne par ligne de structure, du même nom et dans le même ordre — échelons, agences, ministères ; cocher, décocher ou régler une structure entraîne ses agents tant que leur ligne a la même valeur ; réglée à part, elle garde la sienne (`liens` des données, `ecrire` de la page). *Relevé* : 19 lignes d’agents sur 20 sont liées ; France Travail et les agences de santé (4,7 Md€) suivent « France Travail : aides versées » ; les lignes de moins de 50 M€ rejoignent « Autres administrations ». **Non liée** : « Communes : logement et équipements » (1,15 Md€), les communes n’ayant pas de ligne de structure. Aucun montant ne change.
+
+### Liasse de crédits : amendement n° 40 « Outre-mer », en dernier numéro — 20261117
+
+*Tranché par le pilotage, révocable.* Le programme « Interventions territoriales de l'État », rangé à la mission « Outre-mer » par l'état B 2027, reçoit son amendement de crédits : 35 322 219 € d'AE et 30 134 319 € de CP (*relevé*). Il prend le n° 40 ; aucun numéro en place ne change. *Exécuté* : une mission sans amendement prend, à l'outil, le numéro qui suit le dernier de la liasse.
+
+### Liasse de crédits : huit lignes « en 3 ans » intégrées à un tiers, deux laissées à l'état D — 20261117
+
+*Tranché par le pilotage, révocable.* Les lignes que le classeur arrête « en 3 ans » entrent dans l'amendement de leur mission pour un tiers la première année, à la date de leur ligne du § 4 du registre : programmes 345, 159 et 205 (n° 4), 134 (n° 12), 149 et 206 (n° 18). *Relevé* : 4 180 125 795 € d'AE, dont 2 976 642 659 € au programme « Service public de l'énergie ». Les programmes 775 et 776 restent hors liasse : compte d'affectation spéciale, état D.
+
+### Liasse de crédits : la catégorie 22 retirée avec la 21 — 20261117
+
+*Tranché par le pilotage, révocable*, sur l'onglet « Mesure » du classeur de suivi (« suit le sort de la catégorie 21 »). Onze lignes, 1 995 722 820 € bruts, 269 422 581 € retirés en AE et en CP au coefficient du titre 2 (*relevé*). Amendements n° 1, 4, 6, 12, 13, 14, 18 et 22.
+
+### Liasse de crédits : totaux au 17 novembre — 20261117
+
+*Relevé.* 23 amendements de mission, 63 lignes de programme : 24 261 621 967 € d'AE et 21 034 477 811 € de CP, contre 19 776 751 373 et 17 617 182 294 le 16 novembre. Liasse à 40 amendements. *Constaté, à l'auteure* : le programme 379, reversement à la sécurité sociale de fonds européens, reste retiré à 85 % (205 700 000 € d'AE).
+
+### P1 n° 22 : protection juridique retirée, jeux complétés, électricité au plancher — 20261117
+
+*Tranché par le pilotage* pour l'alignement sur le tri unique ; *tranché en propre, révocable* pour la rédaction. Le 5° ter de l'article 1001 du code général des impôts sort de l'amendement. Les articles 302 bis ZG et 302 bis ZI y entrent (rangs 286 et 285). Un I bis ramène l'accise sur l'électricité à 1 € et 0,5 € par mégawattheure au 1er juillet 2027, sur le modèle des articles 64 de la loi de finances pour 2023 et 92 de la loi de finances pour 2024, *relevés* au dépôt de droit ; la majoration de l'article L. 312-37-1 ne s'applique plus à l'électricité. L'amendement compte cinquante et une impositions supprimées. L'exposé rattache à la TVA la taxe sur les transactions financières, la taxe sur les ordres annulés, les jeux et l'électricité. *Non fait* : un tarif nul ; l'abrogation du reste du chapitre des prélèvements sur les jeux (302 bis ZH, ZJ à ZO).
+
+### P1 n° 29 : parts locales de l'accise sur l'électricité — 20261117
+
+*Tranché en propre, révocable.* Les articles L. 2333-2 et L. 3333-2 du code général des collectivités territoriales rejoignent le 2° du III bis : parts éteintes à compter de 2028, compensées par la dotation globale de fonctionnement comme les autres impositions du III bis. L'exposé compte vingt impositions locales.
+
+### PLFSS n° 9 : dix-neuf impositions — 20261117
+
+*Tranché par le pilotage* pour l'alignement ; *relevé* au dépôt de droit pour les adresses. Sortent : L. 862-4, L. 862-4-1 et L. 862-3, qui affecte la taxe gardée. Entre : L. 137-12, contributions sur les indemnités de rupture conventionnelle et de mise à la retraite. La contribution équivalente aux droits de plaidoirie (rang 363) était déjà portée par l'abrogation de L. 652-6. Produit dit à l'exposé : 13 milliards d'euros (13 033,2 M€, 19 rangs).
+
+### Tri des impôts : 25 rangs supprimés sans porteur — 20261117
+
+*Relevé.* Neuf rangs rattachés (6 400,0 M€) : 211 au P1 n° 22, I bis ; 214 et 215 au P1 n° 29 ; 285, 286 et 287 au P1 n° 22 ; 6, 12 et 363 au PLFSS n° 9. Restent 25 rangs, 5 019,5 M€, dont six agrégats de l'état A (3 425,6 M€) et la taxe sur le patrimoine financier créée par le projet (1 000,0 M€). **Constaté** : les sièges du tri sont à corriger pour les rangs 6 (L. 137-12, non L. 137-15), 363 (L. 652-6, non L. 652-7) et 288 ; les articles 1559, 1560 et 1599 terdecies du code général des impôts sont absents du dépôt de droit.
+
+### Registre de calcul, § 18 : compteurs rejoués sur les liasses reprises — 20261117
+
+*Relevé.* Perte de recettes brute des amendements du tri : −16 Md€ en 2027 et −32 en régime plein, contre −17 et −33 ; −1,8 Md€ par mois au second semestre 2027, contre −2,0. P1 n° 22 et 23 : −5,5 et −12,0 ; P1 n° 29 : −0,5 et −4,8 ; PLFSS n° 9 : −3,8 et −13. *Majorant déclaré* : l'électricité compte pour tout son rendement, le plancher n'est pas chiffré. *Exécuté* : compte complet du calendrier reconstruit, 0 contrôle en échec. *Non rejoués* : § 15, 16 et 17 ; l'état `COMPTE_complet_20261117.md`.
+
+---
+
+### Liasses sur mesure : fusionnées et mises en ligne — 20261117
+
+**Exécuté** (consigne de l’auteur : « fais les liasses sur mesure »). Les trois liasses du fil d’exécution sont fusionnées après rejeu des contrôles par le pilotage — *relevé* : `controle_liasse_classeurs.py --cible projet` 23 amendements, 0 échec ; `controle_credits_liasse.py` 0 anomalie ; `controle_liasses.py` 0 écart ; `controle_sieges_prelevements.py` 0 échec ; les deux contrôles du calendrier 0 échec. Rendues en Word et en PDF (EB Garamond ; 95, 69 et 24 pages) et mises en ligne ; `renvois.json` : pages recalées, intitulés des n° 22 (première partie) et n° 9 (sécurité sociale), amendement n° 40 de la seconde partie ajouté ; 84 amendements au site. **Simulateur** : les agents communaux du logement (1,15 Md€) restent en ligne libre (réponse de l’auteur, « A »).
+
+### Cinq réponses de l’auteur, données plusieurs fois : appliquées sans nouvelle question — 20261117
+
+**Validé.** *Réponses de l’auteur* : « 1 j’ai dit mille fois à qualifier différemment 2 j’ai dit mille fois on enlève 3 j’ai déjà dit plancher 4 bah on enlève avec mêmes règles 5 ok ». (1) Programme 379 : gardé dans les économies, qualifié par sa dépense finale (« Santé : travaux d’hôpitaux et d’Ehpad, numérique ») ; le fonctionnement reste à 85 %. (2) Jeux : toutes les taxes sur les jeux sont supprimées, y compris les articles 302 bis ZH et 302 bis ZJ à ZO du code général des impôts restés en vigueur. (3) Électricité : plancher européen, comme la liasse le porte. (4) Les impôts supprimés sans amendement porteur s’abrogent selon les mêmes règles que les autres : amendement de leur famille, siège relevé au dépôt de droit. (5) « Agriculture : administration, guichets d’aides » : validé.
+
+**Faute du pilotage, et sa règle.** Ces cinq points avaient été tranchés par l’auteur ; le pilotage les a reposés sans relire ses décisions. **Règle** : avant toute question, le pilotage relit la table « Décisions rendues » de `PILOTAGE.md` et le registre ; une question déjà tranchée ne se repose jamais, elle s’applique. Toute réponse de l’auteur s’inscrit le jour même à cette table.
+
+### Jeux : le chapitre des prélèvements sur les jeux et paris abrogé en entier — 20261117
+
+*Décision de l'auteure* (« Jeux : toutes les taxes supprimées », relevée au registre) ; *rédaction tranchée par ce fil, révocable*. Le P1 n° 22 abroge les articles 302 bis ZG à 302 bis ZO du code général des impôts, l'article 1609 quatertricies et le III de l'article 105 de la loi n° 2010-1658 (prélèvement sur les mises en Nouvelle-Calédonie) ; un I ter retire 302 bis ZN de l'article 302 decies. Le P1 n° 29 abroge les articles L. 422-12 et L. 422-13 du code du tourisme. Les articles 1559 à 1566 (impôt sur les maisons de jeux) sont abrogés depuis le 1er janvier 2019 (archive LEGI). Le PLFSS n° 9 abroge L. 136-7-1 du code de la sécurité sociale. *Non relevé* : la CRDS sur les jeux (ordonnance n° 96-50, absente du dépôt).
+
+### Impôts sans porteur : neuf rangs rejoignent l'amendement de leur famille — 20261117
+
+*Décision de l'auteure* (« on enlève avec mêmes règles ») ; *rattachements tranchés par ce fil, révocables*. P1 n° 22 : rangs 324 (235 ter C, déjà abrogé), 382 et 388 (L. 543-1 du code de l'énergie, successeur de L. 523-1 à L. 523-3 abrogés le 1er septembre 2026). P1 n° 25 : rangs 128 (L. 4622-6 du code du travail), N5 (1635 bis R, créé par l'article 27 du projet) et N14 (L. 623-16 du code de la propriété intellectuelle). P1 n° 29 : rang 288, sans changement de texte (casinos). PLFSS n° 9 : rangs 96 et 97 (L. 137-10 à L. 137-11-2). Rangs 351 et 417 : siège déjà abrogé. *Relevé* : 14 rangs restent sans porteur, 3 647,8 M€, dont six agrégats de l'état A (3 425,6 M€) et cinq n.d.
+
+### Décompte des intitulés — 20261117
+
+*Relevé.* P1 n° 22 : cinquante-quatre impositions (55 rangs portés, dont l'électricité ramenée au plancher). P1 n° 25 : soixante-douze. P1 n° 29 : vingt impositions locales, inchangé. PLFSS n° 9 : vingt et une. La convention des fils précédents est gardée : le compte suit les rangs du tri ; les articles de jeux sans rang propre (302 bis ZH, 302 bis ZO, Nouvelle-Calédonie, L. 136-7-1) n'y ajoutent rien.
+
+### Registre de calcul, § 18 : rejoué après les abrogations — 20261117
+
+*Relevé.* Régime plein des ajouts au P1 n° 22 de −12,0 à −13,1 Md€ (taxe sur le patrimoine financier, 1 000,0 M€, exercices ouverts à compter du 1er juillet 2027 ; redevance hydraulique, 37,7 M€, 2028) ; P1 n° 29 de −0,5 à −0,7 en 2027 et de −4,8 à −5,2 en régime plein (rang 288, 334,0 M€, rattaché aux casinos). Total −16 en 2027, −33 en régime plein ; −1,8 par mois au second semestre 2027. Rangs non chiffrés : 31. Compte complet du calendrier reconstruit, 0 contrôle en échec.
+
+### Tri des impôts : sièges à corriger, constatés — 20261117
+
+*Relevé, non corrigé aux colonnes de siège.* Rang 288 : « 124 » est faux ; 1559 à 1566 sont abrogés depuis 2019 ; la base vivante est L. 2333-54 et suivants du code général des collectivités territoriales. Rangs 96 et 97 : L. 136-1 est la CSG, les contributions sont à L. 137-10 à L. 137-11-2. Rang 382 : L. 523-1 à L. 523-3 du code de l'énergie abrogés le 1er septembre 2026, successeur L. 543-1. Rang 383 : « L241-3 » est l'article d'affectation du code de la sécurité sociale ; la redevance est domaniale (L. 2125-10 du code général de la propriété des personnes publiques). Rang 324 : la taxe n'est pas une création du projet de loi pour 2027, c'est l'article 235 ter C. L'extrait du dépôt de droit omet la série 1531 à 1581 du code général des impôts, abrogées comprises, et n'a pas le code de la propriété intellectuelle.
+
+---
+
+### Abrogations : jeux et impôts sans porteur, versées et mises en ligne — 20261117
+
+**Exécuté** (décisions de l’auteur du 17 novembre : jeux, « on enlève avec mêmes règles »). Branche du fil fusionnée après rejeu des contrôles par le pilotage, tous à 0 échec. *Relevé* : 14 rangs restent sans porteur (3,6 Md€) — six agrégats de l’état A sans article, cinq n.d. clos (A-440), trois rangs dont l’abrogation de même forme n’éteindrait rien ou contredirait le P1 n° 19 (redevances UMTS et de propriété industrielle, droits d’enregistrement génériques). Ce sont des limites de droit, non des choix ouverts : aucune question à l’auteur.
+
+### Simulateur : Subventions et chômage aux règles de lecture — 20261118
+
+**Exécuté, à valider** (« ok next simulateur », 20261118 ; règles de lecture du 20261117). Subventions : chaque ligne nomme la dépense finale en mots courants — « Formation professionnelle et CPF », « Apprentissage et aides à l’embauche », « Insertion par l’activité économique », « France Travail : aides aux employeurs », « France 2030 : entreprises » et « : associations », « Emploi à domicile : exonérations », « Collectivités : aides aux entreprises », « Aides au logement (APL) », « Asile : hébergement et accompagnement », « Associations culturelles », « Associations des quartiers prioritaires » ; « Autres » en fin de liste (`NOMS_LIGNES` de `restitution.py`). Chômage : les six premiers mois avant la suite (`ORDRE_FIXE`). Chaque ligne renvoie à sa pièce. *Relevé* : aucun montant ne change ; « En échange » inchangé.
+
+### Simulateur : ligne à ligne, bloc par bloc — 20261118
+
+**Demandé par l’auteur** (« refaisons le ligne à ligne de chaque bloc pour stabiliser »). **Exécuté, à valider.**
+- *Échelons locaux* : une ligne par échelon et par objet, dans l’ordre départements, régions, communes (« Départements : fonctionnement », « Départements : culture, sports, loisirs »…). Le détail par fonction passe dans la liste de chaque ligne.
+- *Agents publics* : six lignes — départements, régions, communes, agences de l’État, France Travail et agences de santé, ministères —, chacune liée par défaut aux lignes de sa structure. Les intitulés de structure qui trompaient (« audiovisuel public » pour des agents du CNC) disparaissent.
+- *Subventions* : l’insertion par l’activité économique et France 2030 versé aux associations passent aux associations ; les deux lignes « Autres » nomment ce qui s’y trouve (« Autres aides : asile, bourses, voiture propre » ; « Autres associations : JO d’hiver 2030, sport, partis »).
+- *Détail* : chaque ligne ouvre la liste de ce qu’elle comprend — actions budgétaires lues au PAP 2026 sur le périmètre de la table des paramètres (`Site-ETNP/outils/composantes.py`), agences, fonctions ou programmes —, avec ses montants ramenés à la ligne (*déduit*), et le classeur source à télécharger. Le renvoi vers l’onglet agrégé est retiré.
+- *Assurance chômage* : durée d’indemnisation réglable de 0 à 12 mois, six par défaut ; part des inscrits depuis moins de 6 mois, 37 %, depuis moins d’un an, 56,7 % (Dares, fin 2024, note de l’auteur), en ligne droite entre ces points (*déduit*). Libellés : « Pendant l’indemnisation : l’aide universelle en relais », « Après l’indemnisation : cotisation rendue ».
+- *Logement social* : part du parc gardée réglable, un tiers par défaut (classeur) ; le livre en garde 15 % (note e118). Le stock rendu se dit par personne : 600 Md€, soit 9 600 € par personne.
+- Le lien partageable porte les deux réglages. *Relevé* : 72 lignes ; 600 € à 2 400 € nets aux réglages par défaut.
+
+### Simulateur : loisirs, chômage plafonné, 8 800 € par personne — 20261118
+
+**Demandé par l’auteur** : « sports on va éviter de le mettre à toutes les sauces […] loisir suffit après culture » ; « JO, moche, mettons juste sport » ; « voiture propre c’est moche aussi » ; « il faudrait rester sur 8800 € » ; « autant mettre le curseur de 0 à 18 mois sur le chômage […] il faut le mettre sur la coupe complète (genre "max"), et pour le reste un truc genre "refonte aide fondamentale unique" ». **Exécuté, à valider.** Échelons locaux : « culture, loisirs » ; *relevé*, la part des loisirs est significative à chaque échelon (communes 4,0 Md€, départements 430 M€, régions 200 M€). « Autres associations : sport, partis » ; « Autres aides : asile, lycées à l’étranger, prime à la conversion ». Chômage : « Indemnisation plafonnée », réglable de 0 à 18 mois (« max 6 mois » par défaut), puis « Refonte avec l’aide fondamentale universelle » ; au-delà d’un an, même pente qu’entre 6 et 12 mois (*déduit*, prudent). Stock rendu par personne : 600 Md€ pour 68 millions d’habitants, 8 800 € (REF_doctrine). *Relevé* : 600 € à 2 400 € nets aux réglages par défaut.
+
+**Constaté, rendu à l’auteur** : la note e118 du livre annonce un socle de 15 % et une décote de 15 % sur 340 Md€ d’actif net, « soit environ 200 Md€ » ; ces deux taux donnent 246 Md€. Les 200 Md€ sont ceux du classeur : un tiers gardé et une décote de 10 %, 341 × 2/3 × 0,9 = 205 Md€ (`Input Capitalisation`, C13 et C14).
+
+### Logement social : 30 % du parc gardé, 15 % de décote — 20261118
+
+**Validé.** *Réponse de l’auteur* : « ok gardons le classeur par défaut. on pourrait faire le classeur avec 15 % de décote et XX ? », puis « a, go » sur la proposition de 30 % gardé. *Exécuté* : `Synthèse des chiffrages.xlsx`, `Input Capitalisation`, C13 `=C20*0.7*0.85` et C14 `=(L27-C20)*0.7*0.85` (un tiers gardé et 10 % de décote auparavant) ; recalcul par LibreOffice, neuf cellules changent. *Relevé* : logement social 203,2 Md€ (204,9) ; stock rendu 605,3 Md€ (607,0) ; rendement 17,55 Md€ (17,60) ; total 236,353 Md€ (236,402) — 236 en diffusion, inchangé. **Propagé** : page d’onglet du site ; simulateur, parc gardé à 30 % par défaut, décote de 15 % dite, 600 € à 2 400 € nets et 8 800 € par personne inchangés ; `REF_doctrine`, `sources_chiffres.py`, `controle_arithmetique.py` (0 échec), paramètres du compte complet (0 échec).
+
+**À reporter au livre, par l’auteur** — note e118, phrase proposée : « La valorisation prend pour hypothèse prudente un socle de 30 % conservé et une décote de liquidité de 15 %. Soit environ 200 Md€ de produits de cession à restituer sur ces logements […] ». Le manuscrit ne se corrige pas depuis l’aval.
+
+### Logement social : le parc gardé dit en deux parts — 20261118
+
+**Validé.** *Consigne de l’auteur* : « on peut dire 15 + 15 + 15 en distinguant dans ce qui est conservé par exemple les contingences publiques potentielles et un parc local d’urgence, sans s’étendre mais en ouvrant le sujet, il faut juste éviter l’effet "bloc certain" ». Les 30 % gardés se disent 15 % pour d’éventuels besoins publics et 15 % pour un parc local d’urgence ; la décote reste de 15 %. *Exécuté* : explication du simulateur. **Phrase proposée pour la note e118 du livre** (l’auteur la reporte) : « La valorisation prend pour hypothèses prudentes une part conservée de 15 % pour d’éventuels besoins publics, une autre de 15 % pour un parc local d’urgence, et une décote de liquidité de 15 %. Soit environ 200 Md€ de produits de cession à restituer sur ces logements […] ».
+
+### Simulateur : parc rendu, durée du chômage dans le libellé, bascule des cotisations dite — 20261118
+
+**Demandé par l’auteur** : « 30 % gardé, assez clair ? […] inverser l’indicateur (70 ?) » ; « indemnisation plafonnée c’est pas clair du tout, il faut donner la variable temporelle "réduite à XX mois" » ; « "cette part de cotisation va sur votre compte épargne." je comprends pas ». **Exécuté, à valider.** Logement social : « 70 % rendu », réglable ; restent publics 15 % pour d’éventuels besoins publics et 15 % pour un parc local d’urgence. Chômage : « Indemnisation chômage réduite à [6 mois] », le réglage dans le libellé. Explication, conforme à la doctrine (« les cotisations correspondantes étant restituées en épargne personnelle ») : l’assurance chômage est financée par une cotisation prélevée sur chaque salaire ; la part qui payait l’indemnisation au-delà de la durée vous est rendue, versée chaque mois sur votre compte épargne, à votre nom. Aucun montant ne change.
+
+### Simulateur : mise en page, réglages, chômage, parc vendu, qui verse les subventions — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Chapeau sur toute la largeur, « exigez plus de salaire et cotisez pour vous-même ». Sur ordinateur, la barre du gain se range à côté du total et le salaire saisi prend le corps du gain. Partout, le réglage vient avant l’explication (« % » puis « i ») ; logement social : « 70 % vendu », à la place du « % » ; chômage : « Indemnisation collective réduite [6 mois] », puis « Refonte en aide fondamentale universelle », dont l’explication dit la base commune de 550 € et le non-cumul, sans redire la restitution. Subventions : chaque carte dit qui verse — « État et collectivités » pour les entreprises, « État » pour les particuliers et les associations ; les subventions des collectivités aux associations culturelles, sportives et de loisirs sont dites comprises dans « culture, loisirs » des échelons locaux (comptes par fonction, *déduit* de leur définition). Aucun montant ne change.
+
+### Simulateur : seuils de prudence dits ligne par ligne — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Chaque ligne dont une part est gardée ouvre son explication par « Prudence. » et le seuil : socle de 10 % (agences, formation, France Travail, associations sociales des collectivités), 20 % pour l’hébergement d’urgence (femmes victimes de violences, enfants), 10 % de l’AME pour les soins urgents, régalien et éducation pour les administrations et les agents, entretien des routes nationales, minima sociaux et handicap. Les lignes supprimées sans reste n’en portent pas. Aucun montant ne change. Population du simulateur inchangée, reprise plus tard.
+
+### Simulateur : « Conservé » et « Arrêté » au lieu de « Prudence » — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Le seuil gardé est un contexte, pas le contenu principal : il passe au second rang, après « Comprend » et avant « Classeur ». « Prudence » dit l’intention, pas le sort de la dépense : remplacé par « Conservé. » (part gardée) et « Arrêté. » (ce qui s’arrête, avec le rythme ou la date du calendrier par mesure : en trois ans ; 1er janvier ou 1er juillet 2027). Les lignes supprimées sans reste reçoivent leur date (chèque énergie, chambres consulaires, autres aides aux entreprises, associations). Aucun montant ne change.
+
+### Simulateur : « À arrêter » en tête, « Conservé » ensuite — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Remplace l’entrée précédente. La liste des actions coupées s’ouvre par « À arrêter. » (« Comprend » ne marche pas) ; « À arrêter, en trois ans. » quand toute la ligne s’éteint sur trois ans (rythme ⅓ du calendrier par mesure). « Conservé. » suit, puis le classeur. La mention « Arrêté » et les dates sont retirées : le principe compte. La carte Entreprises garde « État et collectivités ». Aucun montant ne change.
+
+### Simulateur : rythme retiré des lignes ; agents locaux à 10 ou 20 % ; accueil d’essai — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** « En trois ans » retiré du niveau des lignes : il mêlait clé de décaissement (CP) et clause du grand-père (AE) ; quand plusieurs cas coexistent, la précision va dans les petites lignes ; rien à dire, rien. Agents des collectivités : le classeur (Dépenses locales, T_3305, colonne AI) garde 10 % (facteur 0,9) sur l’administration, l’économie et le logement, 20 % (0,8) sur la culture et les loisirs, l’administration générale des communes entière ; moyenne pondérée par la masse 2023 des fonctions coupées : 14,5 %, soit les 15 % du calendrier (*calculé*). Page `accueil-25.html` : l’accueil avec « Vous rendre 25 % de votre salaire » vers le simulateur, non liée, non indexée ; l’accueil réel reste à 600 €.
+
+### Simulateur : contrôle sur pièce des lignes et du bloc « En échange » — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Chaque ligne remontée à Synthèse des chiffrages (Détail Economies et Détail Niches, colonne G), au registre de calcul (§ 4, 8, 9), au référentiel des paramètres de crédits et au PAP. Écarts corrigés : (1) les listes « À arrêter » prenaient des programmes « hors restitution, schéma en 3 ans » (P345 soutien aux énergies renouvelables, 7,3 Md€ affichés sous « Autres aides aux entreprises » ; P134, P149, 775, 776) : écartés ; (2) emploi à domicile : la liste montrait les actions de tout le programme 103 ; elle lit maintenant la ligne PAP nommée (particuliers employeurs), l’apprentissage la lit en creux ; (3) « Conservé : les minima sociaux » portait sur les aides au logement et les autres aides, alors que la colonne G le dit du bloc entier (« Hors minima dont handicap ») : retiré des lignes ; (4) agents locaux : 70 % du traitement pendant l’indemnité (registre, D43). Rythmes rendus en clair au niveau de la mesure ou de l’élément : aides au logement « en trois ans, au rythme des baux » ; formation, France Travail, insertion, emploi à domicile, aide au développement « en trois ans » ; apprentissage « les contrats en cours vont à leur terme » ; France 2030 « plus d’engagement nouveau ; ceux en cours sont honorés » ; agences de l’eau, Ademe, Action Logement, agriculture et logement des collectivités « en trois ans » ; dons « en deux ans ». Bloc « En échange » : patrimoine (202, 200, 203 Md€), niches (19,8 et 23,3 Md€, sociales 9) et chômage (29,6 Md€) concordent avec le classeur. Aucun montant ne change.
+
+### Simulateur : arrêts hors gain, droits en cours et engagements pris, minima sur la carte — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** (1) Les programmes que le classeur arrête « En 3 ans » hors restitution salariale (Dépenses de l’État, Economies R ; SynthèseR I12:K13 : opérateurs 0,86, entreprises 10,98, associations 0,35 Md€) et les niches « En 3 ans » (Niches fiscales, Chiffrages Résolution, colonne M) sont dits dans la ligne qui les porte : « Arrêté(es) aussi, en trois ans … Hors du gain affiché. » Les niches de ce type étaient comptées « sans montant chiffré » : corrigé. (2) Rythmes, d’après les liasses P2 : droits en cours (clause du grand-père, discrétionnaire) pour les aides au logement (n° 32), l’apprentissage (registre § 9), la formation, France Travail, l’insertion, l’emploi à domicile ; engagements déjà pris honorés pour l’Ademe (pièce 2.1-A, AE > CP), MaPrimeRénov’ (2.1-B), France 2030 (AE 2027 nulles), l’aide au développement (n° 3, écart AE-CP), les associations (P2-03, conventions soldées en CP sur deux exercices), les aides locales aux entreprises (coll P2-04, IV). (3) Carte Particuliers : « Conservé. Les minima sociaux, dont le handicap. » (4) Relecture : jaune du « % » partiel adouci, indemnité dite « les partants gardent 70 % de leur traitement tant que dure leur indemnité », éléments à 0 M€ retirés des listes, pluriels. Aucun montant ne change. **Écart relevé, non corrigé** : le registre (§ 4, D41, D42) met en trois ans toute la ligne des aides locales aux entreprises et des charges courantes locales ; le classeur (Dépenses locales, T_3305, colonne AK) et la pièce coll P2-04 n’y mettent que l’agriculture et le logement ; la première année du registre (4,07 et 3,20 Md€) diverge de celle du classeur (9,7 et 6,1).
+
+### Registre et calendrier : rythme des collectivités recalé sur le classeur — 20261118
+
+**Demandé par l’auteur** (20261118 : « recale le registre et le calendrier sur le classeur »). **Exécuté.** D41 et D42 ne sont plus en trois ans pour la ligne entière : seuls l’agriculture et le logement le sont (T_3305, colonne AK ; Détail Economies, colonne G ; liasse coll P2-04). Première année au classeur : 9,70 et 6,10 Md€ (au lieu de 4,07 et 3,20) ; 2028 : 10,96 et 7,85 (*déduit*) ; régime plein inchangé. Coupes : 57,46 · 89,49 · 109,11 · 112,71 ; solde du budget : +24,07 · −24,97 · −5,35 · −1,75. Croisé mesure × mois, § 6 et compte complet rejoués, contrôles tenus. Le 600 € ne bouge pas : il se lit au régime plein (236 Md€), que le rythme ne touche pas.
+
+### Plan de départ (n° 26) : durée de l’indemnité réécrite — 20261118
+
+**Demandé par l’auteur** (20261118 : « deux trimestres plus un mois par trimestre de présence, plafonnée à l’écart à l’âge de retraite à taux plein »). **Exécuté, à valider.** C du II : six mois, plus un mois par trimestre de services publics effectifs (activité, détachement, contractuel de droit public, services militaires ; temps partiel compté en entier ; mois divisés par trois, arrondi inférieur), au plus 84 mois, atteints à 19,5 ans de services ; plafonné à la date de pension sans décote, figée à la radiation sur la durée d’assurance alors acquise, à défaut l’âge d’annulation de la décote. D du III : la condition « taux plein » qui bougeait avec les trimestres acquis après la radiation est retirée (elle contredisait le cumul intégral) ; le plafond tient aussi après une suspension. Exposé : référence à L. 1235-3 du code du travail remplacée par CPCMR L. 14, L. 14 bis et CSS L. 161-17-2, L. 161-17-3 (lus sur la base LEGI du 5 novembre 2026). Aucun chiffre ne change. Rendu docx et pdf de la liasse : après arbitrage.
+
+### Restes à payer : la dépense réelle, hypothèse centrale pour la trésorerie et le compte complet — 20261118
+
+**Demandé par l’auteur** (20261118 : « 1 a »). **Exécuté, à valider.** Le modèle des restes à payer (`appareil/restes_a_payer.py`, `methode/etats/RESTES_a_payer_20261118.md`) devient l’hypothèse centrale pour la trésorerie et le compte complet ; la mesure du § 5 reste la base des liasses, et le croisé mesure × mois ne change pas. Registre : § 5 bis ajouté (coupes en dépense réelle 46,00 · 82,18 · 104,66 · 111,04 Md€ ; solde +12,61 · −32,28 · −9,80 · −3,42 ; cumul négatif en avril 2028 au lieu de décembre 2028). Compte complet rejoué sur la dépense réelle, mesure gardée en colonnes : surplus du circuit de restitution +45,76 · +23,53 · +50,60 · +56,98 Md€ (au lieu de +57,23 · +30,84 · +55,05 · +58,66), positif chaque mois. Les pistes de modulation (restitution de 2028, restes à payer soldés en 2027, AE éteintes au 1er janvier) **ne sont pas retenues**. Point ouvert : la trésorerie de France Compétences et de l’Anah ne couvre pas leur écart.
+
+### Plan de départ (n° 26) : durée C2, retraite, exposé positif — 20261118
+
+**Demandé par l’auteur** (20261118 : « C2 », « ok pour les défauts », « rédaction propre et positive »). **Exécuté, à valider.** C du II : six mois plus un mois par trimestre de services, au moins vingt-quatre mois, au plus quatre-vingt-quatre, plafond à la pension sans décote figée à la radiation ; contractuels comptés. D du III : fin à la date d’entrée en jouissance d’une pension de droit direct (CSS L. 161-21, R. 351-30 ; CPCMR, titre IV). F du III nouveau : les mois d’indemnité valent chômage indemnisé pour la retraite (CSS L. 351-3, 2° ; R. 351-12 ; R. 351-13), dans la limite de la durée du chômage remplacé (repli retenu contre le risque de charge nouvelle). Exposé réécrit en positif : à assiette égale et jusqu’à 59 ans, le droit dépasse à toute ancienneté le licenciement économique (indemnité légale et chômage) et le départ volontaire de la fonction publique ; à partir de huit ans, le maximum de L. 1235-3. Assiette inchangée (part des primes plafonnée, plafond mensuel au traitement brut). Aucun chiffre ne change.
+
+### Simulateur : saisie du salaire, noms directs, socle en clair — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Saisie : « Votre salaire net avant impôt sur le revenu », et en petit la ligne « Net à payer avant impôt sur le revenu » de la fiche de paie (arrêté du 25 février 2016 modifié). Listes « À arrêter » en noms directs : libellés du PAP rendus en mots courants, sigles et sorts d’agence retirés sauf la vente de l’audiovisuel public, modalités rassurantes gardées. Socle : « 10 % des crédits, toujours versés ». Cartes : « Aujourd’hui » et le premier paragraphe de « Demain », renvoi à la carte.
+
+### Plan de départ (n° 26) : vingt-quatre mois plus un mois par trimestre — 20261118
+
+**Demandé par l’auteur** (20261118 : « b pour les agents »). **Exécuté.** C du II : vingt-quatre mois, plus un mois par trimestre de services, au plus quatre-vingt-quatre mois (atteints à quinze ans de services), plafond à la retraite sans décote inchangé. L’exposé dit désormais sans réserve d’ancienneté que le droit dépasse, à assiette égale et jusqu’à cinquante-neuf ans, le licenciement économique, le maximum de L. 1235-3 et le départ volontaire.
+
+### Simulateur : même schéma pour l’investissement, sport, hôpitaux, cartes courtes — 20261118
+
+**Demandé par l’auteur** (20261118). **Exécuté, à valider.** Ademe, agences de l’eau, Action Logement, MaPrimeRénov’ : « engagements en cours payés » ; France 2030, aide au développement, aides locales aux entreprises, administrations (investissement) : « Plus d’engagement nouveau ; ceux en cours sont payés ». Les Jeux ne sont plus nommés : « Sport » regroupe le comité d’organisation et le sport de haut niveau. Fonds européens de santé : « Modernisation des hôpitaux, des Ehpad et du numérique en santé ». Cartes du simulateur réécrites en deux phrases directes, tirées des cartes complètes, qui restent en renvoi.
+
+### Site : économies dites par an ; tuile Régions ; retraite du n° 26 — 20261119
+
+**Demandé par l’auteur** (20261119). **Exécuté.** « Par an » ajouté partout où une économie annuelle était dite sans : titre du graphique « Où sont les 236 milliards d’euros d’économies par an ? » (pages, galerie, renvois, PNG, PDF et format portrait, en-tête refait aux polices du site), cartes des propositions (« 41 Md€ économisés par an »…), titre de la page Données ; chapeau du graphique sans doublon. Graphique des emplois : la tuile « Régions » porte sa valeur, au corps des autres tuiles. N° 26 : la validation des mois d’indemnité pour la retraite reste bornée à la durée du chômage remplacé.
+
+### Simulateur et graphiques : lisibilité — 20261119
+
+**Demandé par l’auteur** (20261119). **Exécuté, à valider.** Graphiques : « Le montant est égal à la surface », « La part est égale à la surface » (pages, PNG, PDF, portraits). « Vous gagnez » : montants avant les libellés, sous le total. Agents : « 5,2 millions au lieu de 5,8 ». Agences nommées par leurs plus gros organismes. Colonne élargie sur ordinateur. Vue par ministère : « Gardés en entier » pour les ministères sans économie, lignes nommées dans leur ministère, niches précisées.
+
+### Coin marginal : accroche de clôture ; simulateur : EPF, organismes autonomes — 20261119
+
+**Demandé par l’auteur** (20261119, paquet du fil projet « à prendre avec des pincettes »). **Exécuté.** Le paquet ne diffère de la page en ligne que par l’accroche de clôture, reprise telle quelle : « Entre 1 et 1,5 SMIC, soit un tiers des salariés, 100 € en plus versés par l’employeur laissent au salarié moins de 30 € nets neuf fois sur dix, soit un effort taxé à plus de 70 %. Le salarié gagne parfois 0 €, parfois même il perd en pouvoir d’achat. » **Contrôle sur le classeur de correspondance** (*calculé*) : entre 1 et 1,5 smic, 58 marches sur 64 des quatre frises sont sous 30 € (91 %), 1 à 0 €, 4 négatives ; sur la carte de suivi (onze profils), 160 cellules sur 187 (86 %), 7 négatives. « Neuf fois sur dix » tient sur les frises, la carte donne un peu moins : défaut signalé, non corrigé. Simulateur : établissements publics fonciers regroupés sous « EPF » ; organismes qui restent sans subvention dits « autonome » (Ineris n’est ni supprimé ni privatisé : le classeur le classe autonome).
+
+### Simulateur : sort des organismes relevé sur pièce ; sélecteur du gain — 20261119
+
+**Demandé par l’auteur** (20261119 : « vérifie systématique sur pièce »). **Exécuté.** Erreur reconnue : la règle « pas de précision derrière le nom » avait été appliquée à tous les organismes sans relire leur sort au classeur ; un organisme autonome, rendu au ministère ou cédé paraissait supprimé (Ineris, GEODERIS, BnF, Opéra), et les EPF ont été nommés sans leur sort. Relevé au classeur Agences publiques (Opérateurs R, colonnes Vente à Internalisation ; ODAC-ODAL R) : suppression → aucune mention ; musée, études → « autonome » ; internalisation → « rendu au ministère » ; vente → « cédé » (EPF, audiovisuel public « vendu »). « Neuf fois sur dix » du Coin marginal gardé (auteur). « Vous gagnez » : le choix « en régime plein / la première année » passe sous le total, au-dessus du détail ; il qualifie les deux, le total n’a pas à le redire.
+
+### Simulateur, vue par ministère : facultatifs et essentiels, niches en un bloc — 20261120
+
+**Demandé par l’auteur** (20261120). **Exécuté, à valider.** Deux sections : « Ministères facultatifs » et « Actions facultatives des ministères essentiels », les essentiels étant les sept du livre (p. 68-69 : Défense, Intérieur, Justice, Affaires étrangères, Comptes publics, Solidarité nationale, Enseignement), rendus aux libellés du PAP (Armées et anciens combattants ; Europe et affaires étrangères ; Action et comptes publics ; Santé, Travail et solidarités ; Éducation nationale, Enseignement supérieur et recherche), plus les services du Premier ministre (*déduit* : Solidarité nationale couvre Santé et Travail et solidarités). Niches fiscales et sociales en un seul bloc hors ministère. Lignes de « Plusieurs ministères » qualifiées. **Erreur corrigée** : « Gardés en entier » (Justice, Éducation nationale, Armées) était faux sur pièce ; ces ministères ont des économies dans les lignes communes (agents des agences, fonctionnement). Remplacé par « Sans ligne propre », avec la part de chacun comptée à l’élément (Enseignement supérieur et recherche 1,6 Md€, Éducation nationale 140 M€, Aménagement du territoire 50 M€, Justice 30 M€…).
+
+### Simulateur, vue par ministère : tout ventilé — 20261120
+
+**Demandé par l’auteur** (20261120 : « tu as la donnée pour tout ventiler » ; « b et b »). **Exécuté, à valider.** Travail et solidarités et services du Premier ministre parmi les ministères facultatifs ; Solidarité nationale = Santé. Lignes communes réparties entre leurs ministères à l’élément ; lignes « autres » sans programme propre (D22, D27, D36) au poids de leurs programmes, relevé au référentiel des paramètres de crédits (`composantes.json`, `_programmes`). Niches fiscales rendues à leur ministère de rattachement (Niches fiscales.xls, onglet Programme de rattachement, à titre principal), niches sociales sous Sécurité sociale. Petits ministères accolés : Enseignement ; Intérieur, Justice, Armées ; Culture et sports ; Ville, logement et territoires (aménagement du territoire, outre-mer). Reste en « Autres ministères » : les autres agences fermées (420 M€), sans programme au classeur. Total de la vue : 236,35 Md€, égal au classeur. Aides locales : laissées sous leurs collectivités (décision locale, pas de ministère).
+
+### Simulateur, vue par ministère : chômage sous Travail — 20261120
+
+**Demandé par l’auteur** (20261120). **Exécuté.** L’assurance chômage (indemnisation collective réduite, refonte en aide fondamentale universelle) passe sous Travail et solidarités, qui pèse alors 61 Md€ par an. Total de la vue inchangé.
+
+### Simulateur, vue par ministère : niches sociales sous Travail, communes par thème — 20261120
+
+**Demandé par l’auteur** (20261120). **Exécuté.** Exonérations de cotisations sociales (9 Md€) sous Travail et solidarités. Dépenses des communes, toutes thématiques, rangées au ministère de leur fonction (comptes locaux, T_3305) : culture et loisirs → Culture et sports ; développement économique, commerce, tourisme, télécommunications, recherche → Économie et finances ; énergie → Transition écologique ; agriculture → Agriculture ; logement et équipements collectifs → Ville, logement et territoires. Départements et régions restent hors ministère. Total inchangé.
+
+### Classeur du tri : lisible, montants indicatifs, ordre du graphique — 20261123
+
+**Demandé par l’auteur** (20261123). **Exécuté, à valider.** Montants en gris, « indicatif », en dernière colonne de chaque onglet (187 prélèvements sans rendement publié, *recompté*). Colonne « Dont part gardée » retirée. « Conservé en complément » publié « complément sectoriel harmonisé ». Onglet « Synthèse » nouveau, en tête : avant / après par grand impôt dans l’ordre du graphique « 434 prélèvements aujourd’hui, 4 grands impôts demain » (impôt sur le revenu, impôt sur les sociétés, TVA, taxe foncière, cotisation unique, recettes non fiscales). Onglet « Le tri » : une ligne par prélèvement sans retour à la ligne, colonne « Demain », ordre du graphique (colonne relevée sur l’abscisse de chaque carré du graphique publié), cotisations à fusionner isolées en bas. Le classeur antérieur du 3 novembre portait un onglet « Synthèse » par devenir, sans avant / après.
+
+### Classeur du tri : un onglet « Avant, après », Md€, tableau « Refonte fiscalité » nommé et lié — 20261124
+
+**Demandé par l’auteur** (20261124). **Exécuté.** Synthèse et réconciliation fondues en un onglet de tête, quatre blocs : par grand impôt ; des comptes nationaux au tableau « Refonte fiscalité » ; le tableau poste par poste ; hors tableau. Chaque ligne nommée, totaux en formules (relus sur copie recalculée), onglets de synthèse en Md€ à une décimale, « Le tri » en M€. Liens vers l’onglet publié « Refonte fiscalité », la Synthèse des chiffrages et le tableau 3.217 de l’Insee.
+
+### Une seule édition Insee par campagne : l’édition de mai 2026 — 20261124
+
+**Règle de l’auteur** (20261124 : « on peut assumer des diff d’un produit à l’autre dès lors qu’il n’a pas la même base/niveau de détails » ; « ok go » sur la proposition a). **Une seule édition des comptes nationaux par campagne, déclarée en tête de chaque produit.** Un écart n’est admis qu’entre produits de bases différentes (budget, Eurostat), jamais entre deux éditions Insee. Édition en vigueur : **comptes de la Nation en 2025, mai 2026, 2024 semi-définitif.**
+
+*Relevé* sur les fichiers Insee des deux éditions (3.216, 3.217) : mai 2025 donne PIB 2024 2 919,9, PO 1 250,756, 42,84 % ; mai 2026 donne 2 935,236, 1 254,024, 42,72 %. L’onglet « Refonte fiscalité » portait les postes de mai 2025 et un PO de 1 251,8 Md€ (42,87 %) que **ni l’une ni l’autre édition ne porte** : l’entrée du 20261001 qui l’avait retenu contre 1 250,76 est caduque.
+
+**Exécuté.** Onglet « Refonte fiscalité » de la Synthèse des chiffrages (site) : C3 2 935,2, F3 1 254,0, postes recalés sur le 3.217 de mai 2026 par le rattachement reconstitué (vérifié sur mai 2025 à 0,05 Md€ près, correction du bouclier tarifaire de 4,592 Md€ gardée sur l’énergie) ; 44 cellules, seul cet onglet bouge, caches rejoués par recalcul. TVA 207,8 ; IR net 87,1 ; IS net 57,2 ; main-d’œuvre 58,1 ; transports 1,8 ; autres ménages 6,4 ; droits de mutation 38,0 (onéreux 17,2). Total 626,1. Effets : taux cible 36,21 % (36,33), PO cible 1 062,895 Md€, baisse 191,105 Md€ ; hausses d’équilibre 67,6 (IS 25,62, foncière 41,98) ; taux unique d’IR estimé 22,76 % (22,74). Le manuscrit (« 36 % ») tient. Recalés : `schema_refonte_fiscalite_2024.tsv`, passage et classeur du tri, `REF_doctrine` (D11-e1), `controle_arithmetique.py`, `sources_chiffres.py`, `construire_positions.py`, `generer_classeur_synthese.py`. **Rattachement à valider par l’auteur** : « autres taxes sur les entreprises » (13,2) n’a pas de combinaison unique de lignes ; toutes les combinaisons plausibles ont un écart nul entre éditions, la valeur reste. « Autres taxes sur les ménages » lu comme taxe d’habitation + IFI + GEMAPI (6,527 en mai 2025).
+
 ### A-441 — Le dossier de l'audition se verse en archive datée, et les pièces en sources — 20261125
 
 **Tranché.** Le travail de préparation de l'audition du 10 novembre 2026 entre

@@ -1,14 +1,14 @@
 {
   "lot": "lot_p210",
   "titre": "CPP, 6e partie, livre III, titre Ier : Procédure applicable aux personnes morales",
-  "ecart_volume": "Écart motivé : 2 711 mots pour un plafond de 2 708 (+3 mots, −40 %), 46 → 24 articles. La relecture adverse a rétabli le champ fermé de la convention judiciaire d'intérêt public, les infractions connexes étant rattachées à chaque matière et l'exclusion des atteintes aux personnes couvrant les connexes.",
+  "ecart_volume": "",
   "articles_cible": [
     {
       "num": "L6311-1",
-      "texte": "Les dispositions du présent code sont applicables à la poursuite, à l'instruction et au jugement des infractions commises par les personnes morales, ainsi qu'à l'exécution des peines prononcées contre elles, sous réserve des dispositions du présent titre.",
-      "verbe": "G",
-      "principe": "P3",
-      "motif": "Règle générale : le droit commun s'applique aux personnes morales, sauf le présent titre.",
+      "texte": "Le présent code s'applique à la poursuite, à l'instruction et au jugement des infractions commises par les personnes morales et à l'exécution des peines prononcées contre elles, sous réserve du présent titre.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Règle générale : le droit commun s'applique aux personnes morales, sauf le présent titre. Passe 4 : « les dispositions du présent code sont applicables » devient « le présent code s'applique », « des dispositions » tombe (P23), sans changement de portée.",
       "ligne_rouge": "aucune (passe 1)."
     },
     {
@@ -109,10 +109,10 @@
     },
     {
       "num": "L6313-14",
-      "texte": "Les modalités d'application des dispositions du présent chapitre sont fixées par décret en Conseil d'Etat.",
-      "verbe": "G",
-      "principe": "P1",
-      "motif": "Renvoi au décret en Conseil d'État des modalités du chapitre : déjà à la bonne strate.",
+      "texte": "Les modalités d'application du présent chapitre sont fixées par décret en Conseil d'Etat.",
+      "verbe": "S",
+      "principe": "P23",
+      "motif": "Renvoi au décret en Conseil d'État des modalités du chapitre : déjà à la bonne strate. Passe 4 : « des dispositions » tombe (P23). Seul renvoi au décret du titre (registre 10.127).",
       "ligne_rouge": "aucune (passe 1)."
     },
     {
@@ -375,8 +375,8 @@
   ],
   "phrases": {
     "L6311-1#1": {
-      "vers": "L6311-1",
-      "destin": "gardee"
+      "destin": "reprise",
+      "vers": "L6311-1"
     },
     "L6311-2#1": {
       "vers": "L6311-2",
@@ -539,8 +539,8 @@
       "destin": "reprise"
     },
     "L6313-14#1": {
-      "vers": "L6313-14",
-      "destin": "gardee"
+      "destin": "reprise",
+      "vers": "L6313-14"
     },
     "L6313-15#1": {
       "vers": "L6313-2",

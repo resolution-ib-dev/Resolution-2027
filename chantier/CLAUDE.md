@@ -76,9 +76,13 @@ elle prime sur toute mémoire de fil.
 | mesure contre caisse | même pièce | § 15 |
 | le trimestriel par pan | même pièce | § 16 |
 | TVA et taxe sur les salaires | même pièce | § 17 |
-| le sort des prélèvements | `referentiels/prelevements_forces_20260930.tsv`, colonne `rang` | — |
+| le sort des prélèvements | `referentiels/sort_prelevements_20261116.tsv` (tri unique, six devenirs, 434 rangs) ; classeur `livrables/tri_prelevements/Tri des impôts.xlsx` | `methode/etats/TRI_unique_20261116.md` |
 | le vocabulaire des sorts, et quelle ligne est maintenue | onglet `Refonte fiscalité` de `Synthèse Calculs Résolution` | — |
+| **les six devenirs d’un prélèvement et des niches** (règle de l’auteur du 20261103) | `methode/arbitrages.md` | entrée « Les six devenirs d’un prélèvement — 20261103 » |
 | les commissions du Jaune | `referentiels/commissions_jaune2026_20261014.tsv` | — |
+| **les opérateurs du Jaune** : statut, financements 2025 et 2026, emplois, classement ODAC | `referentiels/operateurs_jaune2026_20261112.tsv` et ses deux tables sœurs | note de lecture `operateurs_jaune2026_20261112_lisez_moi.md` |
+| **le simulateur « Reprenez votre argent »** : chaque élément cochable, son ministère, ses montants, et les règles de calcul | `referentiels/simulateur_elements_20261112.tsv` | note de lecture `simulateur_elements_20261112_lisez_moi.md`, § 3 pour la ventilation salaire / épargne, § 6 pour les règles de présentation de l’auteur |
+| les comptes des communes, des départements et des régions (Insee, 2019-2024) | `referentiels/comptes_strates_locales_20261112.tsv` | annexe de la même note |
 | **toute matière de recettes, de dépenses fiscales ou de taxes affectées en 2027** | `methode/annexes_voies_et_moyens_2027.md` | la table « où va se servir un fil » |
 | la vue d'ensemble, non la source | `livrables/suivi_trajectoire_20261015.md` | § 9 et § 10 |
 
@@ -546,6 +550,9 @@ manuscrit. C'est le régime transitoire, non la cible.
   exacts : seul l’exposé arrondit.
 - **L'écart avec les pays comparables mesure le possible ; il ne se promet pas**
   et ne se compte pas avec les pertes.
+- **Simple et direct, sans tournure introductive** (règle de l'auteur, 20261112) :
+  ni « là où », ni « ce qui », ni « ce que » en tête de titre, de légende ou de
+  phrase. « Votre gain » et non « Ce que vous gagnez ».
 - **Aucune sortie ne se termine sur un problème.**
 - Typographie française : espace insécable devant `; : ! ?` et les guillemets
   fermants, apostrophes typographiques, pas de virgule devant une conjonction de
@@ -577,6 +584,10 @@ le qualitatif. **Ni l'identifiant ni l'alphabet ne commandent quoi que ce soit.*
   objectif ou une subtilité.** Le reste se tranche et s'inscrit.
 - Quand une question se pose, elle est fermée, avec de courtes pistes, dans les
   mots de l'auteur et non dans le jargon du corpus.
+- **Ce que l'auteur doit valider lui est présenté en direct et en clair, dans la
+  conversation** (règle de l'auteur, 20261112) : la question, la piste retenue, ce
+  que la réponse change. L'inscrire au registre en « proposé » ou dans une note ne
+  vaut pas présentation ; un texte à valider se montre en entier.
 - Prévenir avant toute opération coûteuse : génération docx ou PDF, rendu page à
   page, lecture intégrale du manuscrit ou d'un classeur là où une extraction
   ciblée suffit.

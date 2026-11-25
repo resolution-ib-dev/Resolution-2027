@@ -2,9 +2,9 @@
 
 Résolution — octobre 2026
 
-**39 amendements**, numérotation continue de 1 à 39.
+**40 amendements**, numérotation continue de 1 à 40.
 
-Les 22 premiers retirent, mission par mission, les crédits de l’état B que la présente loi interrompt. Le n° 23 supprime la contribution de l’assurance chômage à France Travail. Les 16 suivants sont normatifs.
+Les 22 premiers retirent, mission par mission, les crédits de l’état B que la présente loi interrompt. Le n° 23 supprime la contribution de l’assurance chômage à France Travail. Les 16 suivants sont normatifs. Le n° 40, ajouté en dernier numéro, retire les crédits de la mission « Outre-mer ».
 
 ---
 
@@ -29,7 +29,7 @@ Les 22 premiers retirent, mission par mission, les crédits de l’état B que l
 | 15 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Enseignement scolaire » |
 | 16 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Action extérieure de l’État » |
 | 17 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Solidarité, insertion et égalité des chances » |
-| 18 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Agriculture, alimentation, forêt et affaires rurales » |
+| 18 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Agriculture et alimentation » |
 | 19 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Administration générale et territoriale de l’État » |
 | 20 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Sécurités » |
 | 21 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Justice » |
@@ -51,6 +51,7 @@ Les 22 premiers retirent, mission par mission, les crédits de l’état B que l
 | 37 | ARTICLE ADDITIONNEL | Refuser l’extension créée par l’article 86 |
 | 38 | ARTICLE ADDITIONNEL | Refuser le fonds de soutien créé par l’article 87 |
 | 39 | ARTICLE ADDITIONNEL | Rapport annuel sur l’équilibre de la refonte des impositions |
+| 40 | ARTICLE 58, état B | Retirer les crédits que la présente loi interrompt, mission « Outre-mer » |
 
 ---
 
@@ -64,28 +65,29 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Cohésion des territoires » :
+Modifier ainsi les crédits de la mission « Cohésion des territoires » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Aide à l’accès au logement | 0 | 8 067 767 822 | 0 | 8 067 767 822 |
-| Hébergement, parcours vers le logement et insertion des personnes vulnérables | 0 | 3 045 085 425 | 0 | 3 044 844 750 |
-| Urbanisme, territoires et amélioration de l’habitat | 0 | 1 207 214 064 | 0 | 1 148 251 105 |
-| Politique de la ville | 0 | 619 066 960 | 0 | 593 720 209 |
-| Impulsion et coordination de la politique d’aménagement du territoire | 0 | 278 067 963 | 0 | 210 215 669 |
-| Interventions territoriales de l’État | 0 | 75 599 008 | 0 | 64 246 524 |
-| **TOTAUX** | 0 | **13 292 801 242** | 0 | **13 129 046 079** |
-| **SOLDE** | **−13 292 801 242** | | **−13 129 046 079** | |
+| Aide à l’accès au logement | 0 | 2 690 349 921 | 0 | 2 690 349 921 |
+| Hébergement, parcours vers le logement et insertion des personnes vulnérables | 0 | 1 828 816 205 | 0 | 1 828 407 058 |
+| Urbanisme, territoires et amélioration de l’habitat | 0 | 1 649 997 178 | 0 | 1 593 218 366 |
+| Politique de la ville | 0 | 270 053 910 | 0 | 256 500 469 |
+| *dont titre 2* | 0 | 2 584 348 | 0 | 2 584 348 |
+| Impulsion et coordination de la politique d’aménagement du territoire | 0 | 102 605 813 | 0 | 78 748 404 |
+| *dont titre 2* | 0 | 1 094 477 | 0 | 1 094 477 |
+| **TOTAUX** | 0 | **6 541 823 027** | 0 | **6 447 224 218** |
+| **SOLDE** | **−6 541 823 027** | | **−6 447 224 218** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Cohésion des territoires » les crédits des dispositifs que la présente loi interrompt. Il porte sur 6 programmes et sur les crédits de rémunérations, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
+Cet amendement retire de la mission « Cohésion des territoires » les crédits des dispositifs que la présente loi interrompt. Il porte sur 5 programmes et sur les crédits de rémunérations, cotisations sociales, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 26 904 534 644 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 13 milliards d’euros en autorisations d’engagement et 13 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 26 573 862 841 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 6,5 milliards d’euros en autorisations d’engagement et 6,4 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises, les transferts aux collectivités et les aides à la rénovation énergétique des logements. Elle prend effet au 1er avril 2027 pour l’hébergement d’urgence. Elle prend effet au 1er juillet 2027 pour les aides personnelles au logement, les subventions aux associations, la subvention à l’Agence nationale de l’habitat, les subventions aux opérateurs et les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -103,16 +105,16 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Travail, emploi et administration des ministères sociaux » :
+Modifier ainsi les crédits de la mission « Travail, emploi et administration des ministères sociaux » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Accompagnement des mutations économiques et développement de l’emploi | 0 | 7 558 550 632 | 0 | 6 393 345 786 |
-| Accès et retour à l’emploi | 0 | 3 822 922 930 | 0 | 3 619 136 201 |
-| Soutien des ministères sociaux | 0 | 644 808 463 | 0 | 644 808 463 |
-| Amélioration de la qualité de l’emploi et des relations du travail | 0 | 39 077 272 | 0 | 38 353 300 |
-| **TOTAUX** | 0 | **12 065 359 297** | 0 | **10 695 643 750** |
-| **SOLDE** | **−12 065 359 297** | | **−10 695 643 750** | |
+| Accompagnement des mutations économiques et développement de l’emploi | 0 | 1 589 971 203 | 0 | 1 395 770 116 |
+| Accès et retour à l’emploi | 0 | 1 103 882 830 | 0 | 1 029 508 376 |
+| Soutien des ministères sociaux | 0 | 290 318 808 | 0 | 290 318 808 |
+| Amélioration de la qualité de l’emploi et des relations du travail | 0 | 21 898 749 | 0 | 20 992 638 |
+| **TOTAUX** | 0 | **3 006 071 590** | 0 | **2 736 589 938** |
+| **SOLDE** | **−3 006 071 590** | | **−2 736 589 938** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -120,9 +122,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Travail, emploi et administration des ministères sociaux » les crédits des dispositifs que la présente loi interrompt. Il porte sur 4 programmes et sur les crédits de fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 19 087 173 283 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 12 milliards d’euros en autorisations d’engagement et 11 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 19 087 173 283 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3,0 milliards d’euros en autorisations d’engagement et 2,7 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le financement des structures de la formation professionnelle, la subvention à France Travail, le fonctionnement courant et l’investissement, les aides à l’insertion, les transferts aux collectivités et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages, la compensation des exonérations d’emploi à domicile, les aides à l’emploi et à l’apprentissage et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -140,15 +142,15 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Aide publique au développement » :
+Modifier ainsi les crédits de la mission « Aide publique au développement » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Fonds de solidarité pour le développement | 0 | 887 151 885 | 0 | 738 000 000 |
-| Solidarité à l’égard des pays en développement | 0 | 769 194 672 | 0 | 769 194 672 |
-| Aide économique et financière au développement | 0 | 678 408 758 | 0 | 678 408 758 |
-| **TOTAUX** | 0 | **2 334 755 315** | 0 | **2 185 603 430** |
-| **SOLDE** | **−2 334 755 315** | | **−2 185 603 430** | |
+| Fonds de solidarité pour le développement | 0 | 307 280 643 | 0 | 122 999 877 |
+| Aide économique et financière au développement | 0 | 261 789 509 | 0 | 209 962 117 |
+| Solidarité à l’égard des pays en développement | 0 | 223 818 455 | 0 | 214 920 324 |
+| **TOTAUX** | 0 | **792 888 607** | 0 | **547 882 318** |
+| **SOLDE** | **−792 888 607** | | **−547 882 318** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -156,9 +158,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Aide publique au développement » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de fonctionnement courant, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 2 334 755 315 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 2,3 milliards d’euros en autorisations d’engagement et 2,2 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 2 334 755 315 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 793 millions d’euros en autorisations d’engagement et 548 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour l’aide publique au développement et les transferts aux ménages.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -176,29 +178,34 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Écologie, développement et mobilité durables » :
+Modifier ainsi les crédits de la mission « Écologie, développement et mobilité durables » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Prévention des risques | 0 | 1 249 237 747 | 0 | 1 124 566 140 |
-| Énergie, climat et après-mines | 0 | 701 556 282 | 0 | 658 250 498 |
-| Fonds d’accélération de la transition écologique dans les territoires | 0 | 649 000 000 | 0 | 486 850 000 |
-| Infrastructures et services de transports | 0 | 447 843 227 | 0 | 343 156 557 |
-| Paysages, eau et biodiversité | 0 | 363 819 311 | 0 | 337 875 414 |
-| Conduite et pilotage des politiques de l’écologie, du développement et de la mobilité durables | 0 | 340 059 662 | 0 | 310 907 781 |
-| Expertise, information géographique et météorologie | 0 | 21 005 356 | 0 | 8 219 923 |
-| **TOTAUX** | 0 | **3 772 521 584** | 0 | **3 269 826 313** |
-| **SOLDE** | **−3 772 521 584** | | **−3 269 826 313** | |
+| Service public de l’énergie | 0 | 2 976 642 659 | 0 | 2 251 527 591 |
+| Énergie, climat et après-mines | 0 | 574 208 268 | 0 | 526 700 103 |
+| Conduite et pilotage des politiques de l’écologie, du développement et de la mobilité durables | 0 | 538 763 044 | 0 | 505 042 047 |
+| *dont titre 2* | 0 | 394 219 314 | 0 | 394 219 314 |
+| Prévention des risques | 0 | 220 364 254 | 0 | 164 262 030 |
+| Fonds d’accélération de la transition écologique dans les territoires | 0 | 217 699 784 | 0 | 163 444 838 |
+| Paysages, eau et biodiversité | 0 | 194 184 270 | 0 | 175 873 813 |
+| Infrastructures et services de transports | 0 | 151 713 355 | 0 | 118 985 997 |
+| Mer, pêche et aquaculture | 0 | 141 657 593 | 0 | 96 869 475 |
+| Expertise, information géographique et météorologie | 0 | 129 359 864 | 0 | 117 703 933 |
+| **TOTAUX** | 0 | **5 144 593 091** | 0 | **4 120 409 827** |
+| **SOLDE** | **−5 144 593 091** | | **−4 120 409 827** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Écologie, développement et mobilité durables » les crédits des dispositifs que la présente loi interrompt. Il porte sur 7 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
+Cet amendement retire de la mission « Écologie, développement et mobilité durables » les crédits des dispositifs que la présente loi interrompt. Il porte sur 9 programmes et sur les crédits de rémunérations, cotisations sociales, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités. Les crédits d’entretien du réseau routier national sont maintenus.
 
-Les programmes visés reçoivent 13 140 628 909 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3,8 milliards d’euros en autorisations d’engagement et 3,3 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 24 221 936 190 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 5,1 milliards d’euros en autorisations d’engagement et 4,1 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour les aides aux entreprises, le fonctionnement courant et l’investissement, les transferts aux collectivités et le chèque énergie. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les subventions aux associations, les transferts aux ménages, les rémunérations et la subvention à l’Agence de la transition écologique.
+
+Le chèque énergie s’éteint au 1er janvier 2027 : aucun titre n’est émis au titre de 2027. L’exercice règle encore les titres de la campagne précédente, et la moitié des crédits est retirée.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -216,14 +223,14 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Relations avec les collectivités territoriales » :
+Modifier ainsi les crédits de la mission « Relations avec les collectivités territoriales » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Concours financiers aux collectivités territoriales et à leurs groupements | 0 | 3 511 126 769 | 0 | 2 633 345 077 |
-| Concours spécifiques et administration | 0 | 248 958 674 | 0 | 181 260 485 |
-| **TOTAUX** | 0 | **3 760 085 442** | 0 | **2 814 605 562** |
-| **SOLDE** | **−3 760 085 442** | | **−2 814 605 562** | |
+| Concours financiers aux collectivités territoriales et à leurs groupements | 0 | 1 170 374 419 | 0 | 877 780 814 |
+| Concours spécifiques et administration | 0 | 89 837 510 | 0 | 62 838 361 |
+| **TOTAUX** | 0 | **1 260 211 929** | 0 | **940 619 175** |
+| **SOLDE** | **−1 260 211 929** | | **−940 619 175** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -231,9 +238,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Relations avec les collectivités territoriales » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de fonctionnement courant, investissement de l’État, transferts aux collectivités.
 
-Les programmes visés reçoivent 4 121 875 856 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 3,8 milliards d’euros en autorisations d’engagement et 2,8 milliards d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 4 121 875 856 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1,3 milliard d’euros en autorisations d’engagement et 941 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+La mesure prend effet au 1er janvier 2027 : elle n’atteint que des personnes morales.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -251,26 +258,27 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Culture » :
+Modifier ainsi les crédits de la mission « Culture » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Création | 0 | 1 019 231 644 | 0 | 903 386 171 |
-| Transmission des savoirs et démocratisation de la culture | 0 | 716 044 529 | 0 | 603 026 588 |
-| Patrimoines | 0 | 156 440 673 | 0 | 117 330 505 |
-| Soutien aux politiques du ministère de la culture | 0 | 136 149 514 | 0 | 119 508 263 |
-| **TOTAUX** | 0 | **2 027 866 360** | 0 | **1 743 251 527** |
-| **SOLDE** | **−2 027 866 360** | | **−1 743 251 527** | |
+| Création | 0 | 611 668 001 | 0 | 469 222 779 |
+| Transmission des savoirs et démocratisation de la culture | 0 | 405 258 080 | 0 | 323 174 428 |
+| Soutien aux politiques du ministère de la culture | 0 | 185 249 701 | 0 | 165 881 760 |
+| *dont titre 2* | 0 | 103 090 399 | 0 | 103 090 399 |
+| Patrimoines | 0 | 52 146 839 | 0 | 39 110 129 |
+| **TOTAUX** | 0 | **1 254 322 621** | 0 | **997 389 096** |
+| **SOLDE** | **−1 254 322 621** | | **−997 389 096** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Culture » les crédits des dispositifs que la présente loi interrompt. Il porte sur 4 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
+Cet amendement retire de la mission « Culture » les crédits des dispositifs que la présente loi interrompt. Il porte sur 4 programmes et sur les crédits de rémunérations, cotisations sociales, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 3 689 542 686 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 2 milliards d’euros en autorisations d’engagement et 1,7 milliard d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 3 689 542 686 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1,3 milliard d’euros en autorisations d’engagement et 997 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages, les subventions aux associations et les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -288,15 +296,15 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Sport, jeunesse et vie associative » :
+Modifier ainsi les crédits de la mission « Sport, jeunesse et vie associative » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Jeunesse et vie associative | 0 | 623 758 615 | 0 | 623 117 495 |
-| Jeux olympiques et paralympiques d’hiver 2030 | 0 | 61 600 000 | 0 | 47 053 861 |
-| Sport | 0 | 320 286 191 | 0 | 304 251 941 |
-| **TOTAUX** | 0 | **1 005 644 806** | 0 | **974 423 297** |
-| **SOLDE** | **−1 005 644 806** | | **−974 423 297** | |
+| Jeunesse et vie associative | 0 | 284 196 423 | 0 | 283 391 907 |
+| Sport | 0 | 144 251 147 | 0 | 137 011 263 |
+| Jeux olympiques et paralympiques d’hiver 2030 | 0 | 61 600 000 | 0 | 21 162 484 |
+| **TOTAUX** | 0 | **490 047 570** | 0 | **441 565 654** |
+| **SOLDE** | **−490 047 570** | | **−441 565 654** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -304,9 +312,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Sport, jeunesse et vie associative » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de fonctionnement courant, subventions pour charges de service public, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 1 183 987 268 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1 milliard d’euros en autorisations d’engagement et 974 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 1 183 987 268 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 490 millions d’euros en autorisations d’engagement et 442 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les transferts aux collectivités et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -324,14 +332,14 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Immigration, asile et intégration » :
+Modifier ainsi les crédits de la mission « Immigration, asile et intégration » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Immigration et asile | 0 | 1 223 394 135 | 0 | 1 221 147 837 |
-| Intégration et accès à la nationalité française | 0 | 35 855 000 | 0 | 35 855 000 |
-| **TOTAUX** | 0 | **1 259 249 135** | 0 | **1 257 002 837** |
-| **SOLDE** | **−1 259 249 135** | | **−1 257 002 837** | |
+| Immigration et asile | 0 | 621 742 231 | 0 | 619 720 563 |
+| Intégration et accès à la nationalité française | 0 | 16 134 750 | 0 | 16 134 750 |
+| **TOTAUX** | 0 | **637 876 981** | 0 | **635 855 313** |
+| **SOLDE** | **−637 876 981** | | **−635 855 313** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -339,9 +347,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Immigration, asile et intégration » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de subventions pour charges de service public, transferts aux ménages, transferts aux entreprises, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 2 261 946 723 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1,3 milliard d’euros en autorisations d’engagement et 1,3 milliard d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 2 261 946 723 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 638 millions d’euros en autorisations d’engagement et 636 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les transferts aux ménages et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -359,24 +367,26 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Santé » :
+Modifier ainsi les crédits de la mission « Santé » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Protection maladie | 0 | 608 150 000 | 0 | 608 150 000 |
-| Prévention, sécurité sanitaire et offre de soins | 0 | 173 410 604 | 0 | 171 067 127 |
-| **TOTAUX** | 0 | **781 560 604** | 0 | **779 217 127** |
-| **SOLDE** | **−781 560 604** | | **−779 217 127** | |
+| Protection maladie | 0 | 547 335 000 | 0 | 547 335 000 |
+| Reversement à la sécurité sociale des recettes de la Facilité pour la Relance et la Résilience (FRR) | 0 | 205 700 000 | 0 | 174 845 000 |
+| Prévention, sécurité sanitaire et offre de soins | 0 | 106 990 110 | 0 | 103 006 199 |
+| *dont titre 2* | 0 | 94 500 | 0 | 94 500 |
+| **TOTAUX** | 0 | **860 025 110** | 0 | **825 186 199** |
+| **SOLDE** | **−860 025 110** | | **−825 186 199** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Santé » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, fonctionnement courant, subventions pour charges de service public, transferts aux ménages, transferts aux autres collectivités.
+Cet amendement retire de la mission « Santé » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de rémunérations, fonctionnement courant, subventions pour charges de service public, transferts aux ménages, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 1 525 633 278 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 782 millions d’euros en autorisations d’engagement et 779 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 1 767 633 278 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 860 millions d’euros en autorisations d’engagement et 825 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour l’aide médicale de l’État, les transferts aux ménages, les subventions aux associations, les subventions aux opérateurs et les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -394,13 +404,13 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Recherche et enseignement supérieur » :
+Modifier ainsi les crédits de la mission « Recherche et enseignement supérieur » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Vie étudiante | 0 | 772 662 106 | 0 | 670 132 264 |
-| **TOTAUX** | 0 | **772 662 106** | 0 | **670 132 264** |
-| **SOLDE** | **−772 662 106** | | **−670 132 264** | |
+| Vie étudiante | 0 | 397 901 573 | 0 | 310 535 414 |
+| **TOTAUX** | 0 | **397 901 573** | 0 | **310 535 414** |
+| **SOLDE** | **−397 901 573** | | **−310 535 414** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -408,9 +418,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Recherche et enseignement supérieur » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 3 361 217 042 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 773 millions d’euros en autorisations d’engagement et 670 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 3 361 217 042 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 398 millions d’euros en autorisations d’engagement et 311 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -428,14 +438,14 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Médias, livre et industries culturelles » :
+Modifier ainsi les crédits de la mission « Médias, livre et industries culturelles » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Livre et industries culturelles | 0 | 338 621 270 | 0 | 295 672 655 |
-| Presse et médias | 0 | 336 068 622 | 0 | 273 247 447 |
-| **TOTAUX** | 0 | **674 689 892** | 0 | **568 920 102** |
-| **SOLDE** | **−674 689 892** | | **−568 920 102** | |
+| Presse et médias | 0 | 301 450 025 | 0 | 243 511 637 |
+| Livre et industries culturelles | 0 | 193 919 514 | 0 | 144 173 710 |
+| **TOTAUX** | 0 | **495 369 539** | 0 | **387 685 347** |
+| **SOLDE** | **−495 369 539** | | **−387 685 347** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -443,9 +453,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Médias, livre et industries culturelles » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux entreprises, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 701 933 880 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 675 millions d’euros en autorisations d’engagement et 569 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 701 933 880 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 495 millions d’euros en autorisations d’engagement et 388 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -463,25 +473,27 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Économie » :
+Modifier ainsi les crédits de la mission « Économie » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Stratégies économiques | 0 | 405 118 987 | 0 | 333 632 524 |
-| Développement des entreprises et régulations | 0 | 222 109 535 | 0 | 219 830 885 |
+| Développement des entreprises et régulations | 0 | 788 396 409 | 0 | 525 205 515 |
+| *dont titre 2* | 0 | 58 210 996 | 0 | 58 210 996 |
+| Stratégies économiques | 0 | 471 076 077 | 0 | 391 651 489 |
+| *dont titre 2* | 0 | 20 133 826 | 0 | 20 133 826 |
 | Plan France Très haut débit | 0 | 3 135 000 | 0 | 3 135 000 |
-| **TOTAUX** | 0 | **630 363 522** | 0 | **556 598 409** |
-| **SOLDE** | **−630 363 522** | | **−556 598 409** | |
+| **TOTAUX** | 0 | **1 262 607 486** | 0 | **919 992 004** |
+| **SOLDE** | **−1 262 607 486** | | **−919 992 004** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Économie » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
+Cet amendement retire de la mission « Économie » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de rémunérations, cotisations sociales, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 2 979 267 191 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 630 millions d’euros en autorisations d’engagement et 557 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 2 979 267 191 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 1,3 milliard d’euros en autorisations d’engagement et 920 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les subventions aux associations et les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -499,24 +511,26 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Direction de l’action du Gouvernement » :
+Modifier ainsi les crédits de la mission « Direction de l’action du Gouvernement » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Coordination du travail gouvernemental | 0 | 446 655 321 | 0 | 302 767 844 |
-| Protection des droits et libertés | 0 | 66 886 046 | 0 | 65 442 052 |
-| **TOTAUX** | 0 | **513 541 366** | 0 | **368 209 896** |
-| **SOLDE** | **−513 541 366** | | **−368 209 896** | |
+| Coordination du travail gouvernemental | 0 | 475 380 222 | 0 | 334 547 504 |
+| *dont titre 2* | 0 | 43 185 122 | 0 | 43 185 122 |
+| Protection des droits et libertés | 0 | 48 463 663 | 0 | 46 024 873 |
+| *dont titre 2* | 0 | 9 517 095 | 0 | 9 517 095 |
+| **TOTAUX** | 0 | **523 843 885** | 0 | **380 572 377** |
+| **SOLDE** | **−523 843 885** | | **−380 572 377** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Direction de l’action du Gouvernement » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux autres collectivités.
+Cet amendement retire de la mission « Direction de l’action du Gouvernement » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, cotisations sociales, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 952 703 564 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 514 millions d’euros en autorisations d’engagement et 368 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 952 703 564 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 524 millions d’euros en autorisations d’engagement et 381 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les rémunérations, les transferts aux ménages, les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -534,24 +548,27 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Transformation et fonction publiques » :
+Modifier ainsi les crédits de la mission « Transformation et fonction publiques » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Performance et résilience des bâtiments de l’État et de ses opérateurs | 0 | 57 141 756 | 0 | 34 124 061 |
-| Fonction publique | 0 | 150 637 588 | 0 | 133 880 891 |
-| **TOTAUX** | 0 | **207 779 344** | 0 | **168 004 952** |
-| **SOLDE** | **−207 779 344** | | **−168 004 952** | |
+| Fonction publique | 0 | 151 678 707 | 0 | 130 143 985 |
+| *dont titre 2* | 0 | 39 150 | 0 | 39 150 |
+| Performance et résilience des bâtiments de l’État et de ses opérateurs | 0 | 57 141 756 | 0 | 31 172 952 |
+| Accès, qualité et transformation des services publics | 0 | 36 009 000 | 0 | 22 588 350 |
+| *dont titre 2* | 0 | 202 500 | 0 | 202 500 |
+| **TOTAUX** | 0 | **244 829 463** | 0 | **183 905 287** |
+| **SOLDE** | **−244 829 463** | | **−183 905 287** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Transformation et fonction publiques » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux autres collectivités.
+Cet amendement retire de la mission « Transformation et fonction publiques » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de rémunérations, cotisations sociales, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux ménages, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 282 288 468 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 208 millions d’euros en autorisations d’engagement et 168 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 327 144 499 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 245 millions d’euros en autorisations d’engagement et 184 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les rémunérations, les subventions aux opérateurs, les transferts aux ménages et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -569,15 +586,15 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Enseignement scolaire » :
+Modifier ainsi les crédits de la mission « Enseignement scolaire » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Enseignement scolaire public du second degré | 0 | 113 811 500 | 0 | 113 811 500 |
-| Enseignement privé du premier et du second degrés | 0 | 74 338 182 | 0 | 74 338 182 |
-| Enseignement technique agricole | 0 | 37 267 499 | 0 | 37 267 499 |
-| **TOTAUX** | 0 | **225 417 181** | 0 | **225 417 181** |
-| **SOLDE** | **−225 417 181** | | **−225 417 181** | |
+| Enseignement scolaire public du second degré | 0 | 102 430 350 | 0 | 102 430 350 |
+| Enseignement privé du premier et du second degrés | 0 | 66 904 364 | 0 | 66 904 364 |
+| Enseignement technique agricole | 0 | 33 540 749 | 0 | 33 540 749 |
+| **TOTAUX** | 0 | **202 875 463** | 0 | **202 875 463** |
+| **SOLDE** | **−202 875 463** | | **−202 875 463** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -585,9 +602,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Enseignement scolaire » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de transferts aux ménages.
 
-Les programmes visés reçoivent 50 996 061 881 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 225 millions d’euros en autorisations d’engagement et 225 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 50 996 061 881 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 203 millions d’euros en autorisations d’engagement et 203 millions d’euros en crédits de paiement.
 
-La mesure prend effet au 1er juillet 2027 : elle atteint des personnes physiques et la moitié de l’exercice leur est laissée.
+La mesure prend effet au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité : elle atteint des personnes physiques.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -605,14 +622,14 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Action extérieure de l’État » :
+Modifier ainsi les crédits de la mission « Action extérieure de l’État » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Diplomatie culturelle et d’influence | 0 | 127 083 174 | 0 | 123 363 774 |
-| Français à l’étranger et affaires consulaires | 0 | 78 743 550 | 0 | 76 770 873 |
-| **TOTAUX** | 0 | **205 826 724** | 0 | **200 134 647** |
-| **SOLDE** | **−205 826 724** | | **−200 134 647** | |
+| Diplomatie culturelle et d’influence | 0 | 103 265 759 | 0 | 96 942 779 |
+| Français à l’étranger et affaires consulaires | 0 | 79 554 138 | 0 | 76 200 587 |
+| **TOTAUX** | 0 | **182 819 897** | 0 | **173 143 366** |
+| **SOLDE** | **−182 819 897** | | **−173 143 366** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -620,9 +637,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Action extérieure de l’État » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de fonctionnement courant, transferts aux ménages, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 772 599 840 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 206 millions d’euros en autorisations d’engagement et 200 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 772 599 840 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 183 millions d’euros en autorisations d’engagement et 173 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les transferts aux ménages et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -640,15 +657,15 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Solidarité, insertion et égalité des chances » :
+Modifier ainsi les crédits de la mission « Solidarité, insertion et égalité des chances » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Égalité entre les femmes et les hommes | 0 | 65 169 454 | 0 | 65 070 203 |
-| Handicap et dépendance | 0 | 22 349 854 | 0 | 22 349 854 |
-| Inclusion sociale et protection des personnes | 0 | 14 567 306 | 0 | 14 567 306 |
-| **TOTAUX** | 0 | **102 086 614** | 0 | **101 987 363** |
-| **SOLDE** | **−102 086 614** | | **−101 987 363** | |
+| Égalité entre les femmes et les hommes | 0 | 30 153 350 | 0 | 29 984 623 |
+| Handicap et dépendance | 0 | 10 057 434 | 0 | 10 057 434 |
+| Inclusion sociale et protection des personnes | 0 | 6 555 288 | 0 | 6 555 288 |
+| **TOTAUX** | 0 | **46 766 072** | 0 | **46 597 345** |
+| **SOLDE** | **−46 766 072** | | **−46 597 345** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -656,9 +673,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Solidarité, insertion et égalité des chances » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de fonctionnement courant, subventions pour charges de service public, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 32 186 322 565 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 102 millions d’euros en autorisations d’engagement et 102 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 32 186 322 565 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 47 millions d’euros en autorisations d’engagement et 47 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les subventions aux opérateurs.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -666,7 +683,7 @@ Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote 
 
 ---
 
-## Amendement n° 18 [Retirer les crédits que la présente loi interrompt, mission « Agriculture, alimentation, forêt et affaires rurales »]
+## Amendement n° 18 [Retirer les crédits que la présente loi interrompt, mission « Agriculture et alimentation »]
 
 AMENDEMENT
 
@@ -676,27 +693,30 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Agriculture, alimentation, forêt et affaires rurales » :
+Modifier ainsi les crédits de la mission « Agriculture et alimentation » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Conduite et pilotage des politiques de l’agriculture | 0 | 92 065 085 | 0 | 78 679 546 |
-| **TOTAUX** | 0 | **92 065 085** | 0 | **78 679 546** |
-| **SOLDE** | **−92 065 085** | | **−78 679 546** | |
+| Compétitivité et durabilité de l’agriculture et de l’agroalimentaire | 0 | 612 226 119 | 0 | 471 304 996 |
+| Conduite et pilotage des politiques de l’agriculture | 0 | 140 497 922 | 0 | 125 051 273 |
+| *dont titre 2* | 0 | 77 109 418 | 0 | 77 109 418 |
+| Sécurité et qualité sanitaires de l’alimentation | 0 | 9 945 882 | 0 | 7 942 238 |
+| **TOTAUX** | 0 | **762 669 923** | 0 | **604 298 507** |
+| **SOLDE** | **−762 669 923** | | **−604 298 507** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Agriculture, alimentation, forêt et affaires rurales » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, investissement de l’État.
+Cet amendement retire de la mission « Agriculture et alimentation » les crédits des dispositifs que la présente loi interrompt. Il porte sur 3 programmes et sur les crédits de rémunérations, cotisations sociales, avantages salariaux, fonctionnement courant, subventions pour charges de service public, investissement de l’État, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 637 989 867 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 92 millions d’euros en autorisations d’engagement et 79 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 3 517 747 051 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 763 millions d’euros en autorisations d’engagement et 604 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les subventions aux opérateurs, les subventions aux associations et les rémunérations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
-¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Agriculture, alimentation, forêt et affaires rurales ».
+¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Agriculture et alimentation ».
 
 ---
 
@@ -710,13 +730,13 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Administration générale et territoriale de l’État » :
+Modifier ainsi les crédits de la mission « Administration générale et territoriale de l’État » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Vie politique | 0 | 68 670 672 | 0 | 68 670 672 |
-| **TOTAUX** | 0 | **68 670 672** | 0 | **68 670 672** |
-| **SOLDE** | **−68 670 672** | | **−68 670 672** | |
+| Vie politique | 0 | 30 901 802 | 0 | 30 901 802 |
+| **TOTAUX** | 0 | **30 901 802** | 0 | **30 901 802** |
+| **SOLDE** | **−30 901 802** | | **−30 901 802** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -724,9 +744,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Administration générale et territoriale de l’État » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de transferts aux autres collectivités.
 
-Les programmes visés reçoivent 587 023 619 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 69 millions d’euros en autorisations d’engagement et 69 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 587 023 619 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 31 millions d’euros en autorisations d’engagement et 31 millions d’euros en crédits de paiement.
 
-La mesure prend effet au 1er janvier 2027 : elle n’atteint que des personnes morales et l’exercice est plein.
+La mesure prend effet au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité : elle atteint des personnes physiques.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -744,13 +764,13 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Sécurités » :
+Modifier ainsi les crédits de la mission « Sécurités » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Sécurité et éducation routières | 0 | 49 278 164 | 0 | 37 946 354 |
-| **TOTAUX** | 0 | **49 278 164** | 0 | **37 946 354** |
-| **SOLDE** | **−49 278 164** | | **−37 946 354** | |
+| Sécurité et éducation routières | 0 | 66 892 142 | 0 | 52 729 405 |
+| **TOTAUX** | 0 | **66 892 142** | 0 | **52 729 405** |
+| **SOLDE** | **−66 892 142** | | **−52 729 405** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -758,9 +778,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Sécurités » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de fonctionnement courant, investissement de l’État, transferts aux ménages, transferts aux entreprises, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 78 622 634 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 49 millions d’euros en autorisations d’engagement et 38 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 78 622 634 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 67 millions d’euros en autorisations d’engagement et 53 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement et les aides aux entreprises. Elle prend effet au 1er juillet 2027 pour les subventions aux associations et les transferts aux ménages.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -778,13 +798,13 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Justice » :
+Modifier ainsi les crédits de la mission « Justice » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Accès au droit et à la justice | 0 | 6 924 880 | 0 | 5 886 148 |
-| **TOTAUX** | 0 | **6 924 880** | 0 | **5 886 148** |
-| **SOLDE** | **−6 924 880** | | **−5 886 148** | |
+| Accès au droit et à la justice | 0 | 11 772 297 | 0 | 10 006 452 |
+| **TOTAUX** | 0 | **11 772 297** | 0 | **10 006 452** |
+| **SOLDE** | **−11 772 297** | | **−10 006 452** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -792,9 +812,9 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement retire de la mission « Justice » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de fonctionnement courant.
 
-Les programmes visés reçoivent 832 771 821 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 6,9 millions d’euros en autorisations d’engagement et 5,9 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 832 771 821 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 12 millions d’euros en autorisations d’engagement et 10 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er juillet 2027 : elle atteint des personnes physiques et la moitié de l’exercice leur est laissée.
+La mesure prend effet au 1er janvier 2027 : elle n’atteint que des personnes morales.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -812,24 +832,25 @@ présenté par
 
 ARTICLE 58
 
-Modifier ainsi les crédits de la mission « Conseil et contrôle de l’État » :
+Modifier ainsi les crédits de la mission « Conseil et contrôle de l’État » :
 
 | Programmes | AE + | AE − | CP + | CP − |
 |---|---:|---:|---:|---:|
-| Conseil économique, social et environnemental | 0 | 6 215 699 | 0 | 5 738 820 |
-| Cour des comptes et autres juridictions financières | 0 | 73 900 | 0 | 73 900 |
-| **TOTAUX** | 0 | **6 289 599** | 0 | **5 812 720** |
-| **SOLDE** | **−6 289 599** | | **−5 812 720** | |
+| Conseil économique, social et environnemental | 0 | 9 156 425 | 0 | 8 345 730 |
+| *dont titre 2* | 0 | 3 751 791 | 0 | 3 751 791 |
+| Cour des comptes et autres juridictions financières | 0 | 33 255 | 0 | 33 255 |
+| **TOTAUX** | 0 | **9 189 680** | 0 | **8 378 985** |
+| **SOLDE** | **−9 189 680** | | **−8 378 985** | |
 
 La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
 EXPOSÉ SOMMAIRE
 
-Cet amendement retire de la mission « Conseil et contrôle de l’État » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, avantages salariaux, fonctionnement courant, transferts aux autres collectivités.
+Cet amendement retire de la mission « Conseil et contrôle de l’État » les crédits des dispositifs que la présente loi interrompt. Il porte sur 2 programmes et sur les crédits de rémunérations, cotisations sociales, avantages salariaux, fonctionnement courant, transferts aux autres collectivités.
 
-Les programmes visés reçoivent 301 105 696 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 6,3 millions d’euros en autorisations d’engagement et 5,8 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
+Les programmes visés reçoivent 301 105 696 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 9,2 millions d’euros en autorisations d’engagement et 8,4 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause.
 
-La mesure prend effet au 1er janvier 2027 pour les personnes morales et au 1er juillet 2027 pour les personnes physiques.
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement. Elle prend effet au 1er juillet 2027 pour les rémunérations et les subventions aux associations.
 
 Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
 
@@ -1384,21 +1405,11 @@ B. – L’assiette de l’indemnité est le traitement indiciaire brut afféren
 
 Un décret fixe cette part pour chacune des trois catégories mentionnées à l’article L. 411-2 du même code. Les parts ainsi fixées sont décroissantes de la catégorie C à la catégorie A et chacune demeure au plus égale au quart du traitement indiciaire brut mentionné au premier alinéa du présent B. À défaut de décret, cette part est nulle et l’assiette est le seul traitement indiciaire brut.
 
-C. – L’indemnité est due à compter de la radiation des cadres. Sa durée est déterminée par l’ancienneté de services publics effectifs du bénéficiaire à la date de sa radiation des cadres, dans les conditions suivantes :
+C. – L’indemnité est due à compter de la radiation des cadres. Sa durée est de vingt-quatre mois, augmentée d’un mois par trimestre de services publics effectifs accomplis par le bénéficiaire à la date de sa radiation des cadres. Elle est au plus égale à quatre-vingt-quatre mois.
 
-1° Une année, lorsque cette ancienneté est inférieure à deux ans.
+Les services publics effectifs s’entendent des services accomplis en qualité de fonctionnaire en position d’activité ou de détachement, des services accomplis en qualité d’agent contractuel de droit public auprès d’un employeur mentionné à l’article L. 2 du code général de la fonction publique et des services militaires. Les services accomplis à temps partiel sont comptés pour la totalité de leur durée. Le nombre de trimestres est égal au nombre de mois de services ainsi comptés divisé par trois et arrondi à l’entier inférieur.
 
-2° Deux années, lorsqu’elle est d’au moins deux ans et de moins de cinq ans.
-
-3° Trois années, lorsqu’elle est d’au moins cinq ans et de moins de dix ans.
-
-4° Quatre années, lorsqu’elle est d’au moins dix ans et de moins de quinze ans.
-
-5° Cinq années, lorsqu’elle est d’au moins quinze ans et de moins de vingt ans.
-
-6° Six années, lorsqu’elle est d’au moins vingt ans et de moins de vingt-cinq ans.
-
-7° Sept années, lorsqu’elle est d’au moins vingt-cinq ans.
+La durée de l’indemnité est en outre au plus égale à la durée qui sépare la date de radiation des cadres de la date à laquelle le bénéficiaire peut obtenir la liquidation d’une pension de retraite sans coefficient de minoration, compte tenu de son âge et de la seule durée d’assurance acquise à la date de sa radiation des cadres. Lorsque cette durée d’assurance est inférieure à la durée requise pour bénéficier d’une pension sans coefficient de minoration, cette date est celle à laquelle le bénéficiaire atteint l’âge d’annulation de la décote qui lui est applicable.
 
 **III.**
 
@@ -1408,9 +1419,11 @@ B. – Le service de l’indemnité est suspendu pendant la durée d’un emploi
 
 C. – Le montant mensuel de l’indemnité demeure au plus égal au traitement indiciaire brut mentionné au premier alinéa du B du II. Un décret en Conseil d’État peut fixer un montant mensuel minimal.
 
-D. – Le service de l’indemnité cesse à la date d’admission à la retraite de son bénéficiaire mentionnée au 5° de l’article L. 550-1 du code général de la fonction publique, à la date à laquelle il remplit les conditions requises pour la liquidation de ses droits à pension à taux plein ou à son décès.
+D. – Le service de l’indemnité cesse à la date d’entrée en jouissance d’une pension de retraite de droit direct de son bénéficiaire ou à son décès. Il cesse en tout état de cause à la date mentionnée au troisième alinéa du C du II, y compris lorsqu’il a été suspendu en application du B du présent III.
 
 E. – L’indemnité est liquidée et versée par l’administration qui employait son bénéficiaire à la date de la suppression de l’emploi. Le bénéficiaire déclare à cette administration tout emploi rémunéré par une personne publique qu’il occupe. Un décret en Conseil d’État peut fixer les autres modalités de liquidation et de versement ainsi que les autres obligations déclaratives.
+
+F. – Pour l’application du 2° de l’article L. 351-3 du code de la sécurité sociale, l’indemnité est regardée comme un revenu de remplacement mentionné à l’article L. 5421-2 du code du travail, dans la limite de la durée pendant laquelle l’allocation d’assurance mentionnée au D du I aurait été servie à son bénéficiaire.
 
 **IV.**
 
@@ -1496,37 +1509,29 @@ D. – Le Gouvernement remet au Parlement, chaque année jusqu’en 2035, un rap
 
 EXPOSÉ SOMMAIRE
 
-Le contribuable paie aujourd’hui le traitement d’agents dont la Nation n’a plus la mission. Il le paie sans terme, parce que le droit en vigueur n’en prévoit aucun. Le code organise l’affectation sur un emploi vacant, la priorité de mutation ou de détachement et l’accompagnement, puis il s’arrête. Lorsque la mission a disparu et qu’aucun emploi vacant ne correspond, aucune de ces voies ne peut jouer et l’emploi supprimé reste payé.
+Cet amendement indemnise jusqu’à sept ans le fonctionnaire de l’État dont l’emploi est supprimé.
 
-Le code a pourtant écrit la sortie. Le licenciement est ouvert, dans la fonction publique de l’État, « en vertu de dispositions législatives de dégagement des cadres prévoyant soit le reclassement des fonctionnaires intéressés, soit leur indemnisation »¹. Cette habilitation est en vigueur depuis le 1er mars 2022 et elle n’a jamais reçu sa loi. Le présent article est cette loi.
+Un fonctionnaire dont la mission disparaît garde son emploi et son traitement, sans tâche et sans terme. Le code général de la fonction publique a pourtant prévu sa sortie : il ouvre le licenciement « en vertu de dispositions législatives de dégagement des cadres prévoyant soit le reclassement des fonctionnaires intéressés, soit leur indemnisation »¹. Cette habilitation attend sa loi depuis le 1er mars 2022.
 
-**Ce qu’il donne.** Un droit chiffré dans la loi même : 70 % de l’assiette, pour une durée qui croît avec l’ancienneté et qui atteint sept années pour les agents les plus anciens, sur le modèle de gradation retenu par le législateur à l’article L. 1235-3 du code du travail². L’indemnité se cumule intégralement avec les revenus d’une activité privée, sans réduction ni plafond de ressources : l’agent qui retrouve un emploi hors de la sphère publique y gagne et l’État y gagne avec lui. Un emploi sous contrat à durée indéterminée est proposé chaque fois qu’il est identifié, à une rémunération au moins égale au dernier traitement, et le premier refus laisse l’indemnité entière.
+Le présent article donne cette loi et ouvre à l’agent un droit écrit. L’administration lui propose d’abord un emploi à durée indéterminée, payé au moins à son dernier traitement. À défaut, il perçoit 70 % de son traitement pendant vingt-quatre mois, plus un mois par trimestre de services, jusqu’à sept ans et au plus tard jusqu’à sa retraite sans décote². Ces mois comptent pour sa retraite, comme le chômage qu’ils remplacent. Il garde l’indemnité entière s’il travaille dans le privé. À assiette égale et jusqu’à cinquante-neuf ans, ce droit dépasse à toute ancienneté l’indemnité de licenciement et l’allocation chômage du salarié, le maximum que l’article L. 1235-3 du code du travail permet au juge d’accorder pour un licenciement sans cause réelle et sérieuse, et le départ volontaire dans la fonction publique³. En clair : l’agent part avec un revenu sûr et reste libre de travailler aussitôt ailleurs.
 
-**Ce qu’il coûte et à quoi il se substitue.** La dépense créée est de l’année et des années ultérieures. Elle remplace une charge déjà écrite au droit positif : le fonctionnaire licencié pour suppression d’emploi est en privation involontaire d’emploi au sens de l’article L. 5424-1 du code du travail, il a droit de plein droit à une allocation d’assurance et l’État en est le débiteur direct, l’article L. 5424-2 ne lui ouvrant pas l’adhésion au régime³. L’article ne crée pas une dépense à côté du droit commun, il substitue une charge bornée à une charge ouverte. Cette charge n’est ouverte nulle part ailleurs parce qu’elle n’a pas à l’être : l’indemnité est servie sur la masse salariale même des emplois supprimés et son montant demeure inférieur aux traitements qu’elle remplace, le taux du A du II étant de 70 % d’une assiette elle-même bornée par le B du même II. C’est pour cela que les amendements de crédits de personnel minorent le titre 2 d’un montant net de cette indemnité et non du montant entier des traitements économisés.
-
-**Pourquoi il est à sa place.** La loi de finances fixe, par ministère et par budget annexe, le plafond des autorisations d’emplois et le II de l’article 34 de la loi organique du 1er août 2001 fait de cette fixation une matière obligatoire⁴. La minoration de ces plafonds est donc un acte que le véhicule financier doit porter. Le présent article dit l’effet de cette minoration sur les emplois et il institue la charge qui en découle, ce que le b du 7° du II du même article 34 admet expressément pour les dépenses « soit de l’année ; soit de l’année et d’une ou de plusieurs années ultérieures ». Deux portes mordent ensemble, la charge et le plafond d’emplois.
-
-**Et le précédent est constant.** Une loi de finances a institué une indemnité d’agents publics⁵, majoré un traitement⁶, modifié les lois statutaires⁷ et modifié le code général de la fonction publique lui-même⁸, sous une rubrique que la loi de finances pour 2025 intitule « Transformation et fonction publiques ». La décision qui a censuré neuf cavaliers dans cette loi a laissé cet article debout⁹.
-
-**Le raisonnement par l’absurde clôt le débat.** Le Parlement peut supprimer un service. Il doit fixer le plafond des emplois. Il peut donc le minorer. Mais si la minoration ne peut produire aucun effet sur les emplois qu’elle supprime, alors la dépense demeure, le plafond baisse sur le papier et le vote n’a atteint que la nomenclature. Un Parlement qui peut supprimer un service sans pouvoir en tirer la conséquence sur les emplois qui le servaient ne vote qu’un budget nominal.
+L’indemnité remplace l’allocation chômage que l’État doit déjà au fonctionnaire licencié⁴. Elle reste inférieure au traitement qu’elle remplace : les crédits de personnel baissent de l’économie nette. La loi de finances fixe le plafond des emplois de l’État et peut instituer une charge de plusieurs années⁵. Des lois de finances ont déjà institué une indemnité d’agents publics⁶ et modifié le code général de la fonction publique⁷, disposition que le Conseil constitutionnel a laissée en place⁸. Un plafond d’emplois plus bas produit ainsi son plein effet. L’agent part avec un droit supérieur à celui du salarié. Le contribuable cesse de payer une mission abandonnée.
 
 ¹ Code général de la fonction publique, article L. 553-1, 4° (LEGIARTI000044425184, version applicable depuis le 2022-03-01).
 
-² Code du travail, article L. 1235-3 (LEGIARTI000036762052, version applicable depuis le 2018-04-01), barème introduit par l’ordonnance n° 2017-1387 du 22 septembre 2017 relative à la prévisibilité et la sécurisation des relations de travail. Seul le principe de gradation par années complètes d’ancienneté, assorti d’un maximum, est repris. Les durées du C du II sont de droit nouveau.
+² Code des pensions civiles et militaires de retraite, articles L. 14 (LEGIARTI000048844775, version applicable depuis le 2023-12-31) et L. 14 bis (LEGIARTI000053280913, version applicable depuis le 2025-12-31) · code de la sécurité sociale, articles L. 161-17-2 (LEGIARTI000053280889) et L. 161-17-3 (LEGIARTI000053280903), versions applicables depuis le 2025-12-31. Pour le fonctionnaire civil, l’âge d’annulation de la décote est l’âge d’ouverture du droit augmenté de trois années.
 
-³ Code du travail, articles L. 5424-1 (LEGIARTI000038951954) et L. 5424-2 (LEGIARTI000048600589).
+³ Comparaison en mois de rémunération brute, l’indemnité comptée à 70 % d’une assiette supposée égale à cette rémunération, calculée pour des agents de 45 et de 58 ans ayant de deux à trente ans de services. De 57 à 59 ans, les durées d’allocation chômage sont celles de 58 ans. Code du travail, articles L. 1234-9 (LEGIARTI000035644154), R. 1234-2 (LEGIARTI000035644692) et L. 1235-3 (LEGIARTI000036762052). Allocation d’aide au retour à l’emploi à 57 % du salaire journalier de référence, servie 18 mois avant 55 ans et 27 mois à partir de 57 ans (Unédic, « Paramètres utiles », juillet 2026). Indemnité de départ volontaire : un douzième de la rémunération brute annuelle par année de service, vingt-quatre années au plus (décret n° 2008-368 du 17 avril 2008). Indemnité spécifique de rupture conventionnelle : un vingt-quatrième de la rémunération brute annuelle par année, vingt-quatre années au plus (décret n° 2019-1596 du 31 décembre 2019, modifié par le décret n° 2026-746 du 6 août 2026), suivie de l’allocation chômage servie 15 mois avant 55 ans et 20,5 mois ensuite (loi n° 2026-470 du 11 juin 2026).
 
-⁴ Loi organique n° 2001-692 du 1er août 2001, article 34, II, 2° et 7°, b (LEGIARTI000044611799).
+⁴ Code du travail, articles L. 5424-1 (LEGIARTI000038951954) et L. 5424-2 (LEGIARTI000048600589).
 
-⁵ Article 113 de la loi n° 2017-1837 du 30 décembre 2017 de finances pour 2018 (LEGIARTI000036377692).
+⁵ Loi organique n° 2001-692 du 1er août 2001, article 34, II, 2° et 7°, b (LEGIARTI000044611799).
 
-⁶ Article 178 de la loi n° 2021-1900 du 30 décembre 2021 de finances pour 2022.
+⁶ Article 113 de la loi n° 2017-1837 du 30 décembre 2017 de finances pour 2018 (LEGIARTI000036377692).
 
-⁷ Article 148 de la loi n° 2015-1785 du 29 décembre 2015 de finances pour 2016.
+⁷ Article 189 de la loi n° 2025-127 du 14 février 2025 de finances pour 2025 (LEGIARTI000051173247).
 
-⁸ Article 189 de la loi n° 2025-127 du 14 février 2025 de finances pour 2025 (LEGIARTI000051173247).
-
-⁹ Décision n° 2025-874 DC du 13 février 2025.
+⁸ Décision n° 2025-874 DC du 13 février 2025.
 
 ---
 
@@ -1852,7 +1857,7 @@ I. – Le code de l’action sociale et des familles est ainsi modifié :
 
 2° L’article L. 345-2-3 est abrogé.
 
-II. – Le I entre en vigueur le 1er janvier 2027.
+II. – Le I entre en vigueur le 1er avril 2027.
 
 III. – La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
 
@@ -1864,7 +1869,7 @@ Une femme qui fuit un conjoint violent appelle le service d’accueil téléphon
 
 L’amendement remplace cette obligation par une faculté. L’hébergement peut être proposé à titre temporaire à la personne qui ne peut pourvoir elle-même à son hébergement en raison de sa grossesse, de son incapacité ou de la charge d’un enfant en bas âge ou atteint d’une incapacité, ainsi qu’à celle qui est exposée à un danger pour son intégrité physique. Le représentant de l’État dans le département l’attribue, sous condition de régularité du séjour, et en assure directement la gestion. Un décret en Conseil d’État peut préciser les conditions d’attribution, de durée et de renouvellement. Ni accompagnement personnalisé ni droit au maintien dans les lieux ne subsistent. Dit simplement : la personne en danger immédiat passe en premier et chaque place retrouve sa vocation d’accueil d’urgence.
 
-Le recentrage prend effet au 1er janvier 2027 et entre dans la grande restitution. Il libère des crédits qui vont à la baisse des prélèvements pesant sur les revenus d’activité et il rend aux gestionnaires un parc qui tourne. L’effet porte sur 2027, sous l’hypothèse d’une baisse portant sur les seuls crédits non engagés. Une place libérée accueille.
+Le recentrage prend effet au 1er avril 2027 et entre dans la grande restitution. Il libère des crédits qui vont à la baisse des prélèvements pesant sur les revenus d’activité et il rend aux gestionnaires un parc qui tourne. L’effet porte sur 2027, sous l’hypothèse d’une baisse portant sur les seuls crédits non engagés. Une place libérée accueille.
 
 ¹ Inspection générale des finances, Inspection générale des affaires sociales et Inspection générale de l’administration, « Revue de dépenses sur le budget de l’hébergement d’urgence », mai 2025, p. 1, 2 et 4.
 
@@ -1894,13 +1899,13 @@ EXPOSÉ SOMMAIRE
 
 Cet amendement abroge le chèque énergie et le régime qui l’organise au code de l’énergie.
 
-Le foyer qui ignore son droit ne touche rien. Celui que l’administration retrouve dans un croisement de fichiers reçoit un titre qu’il n’a pas demandé. Le programme « Service public de l’énergie » porte ce titre parmi les charges de service public et reçoit 10 749 607 515 euros d’autorisations d’engagement dans le texte déposé (état B)¹. La campagne d’émission du chèque y pèse 600 millions d’euros. Le même texte propose d’étendre ce croisement sans chiffrer ce que l’élargissement du recours coûtera (article 81)². Un titre fléché fait ce que l’argent ne fait pas : il oblige un opérateur à reconstituer chaque année la liste de ses bénéficiaires, il contraint des professionnels à l’accepter et il périme s’il n’est pas présenté au remboursement.
+Le foyer qui ignore son droit ne touche rien. Celui que l’administration retrouve dans un croisement de fichiers reçoit un titre qu’il n’a pas demandé. Le programme « Énergie, climat et après-mines » porte ce titre et reçoit 1 251 260 465 euros d’autorisations d’engagement dans le texte déposé (état B)¹. La campagne d’émission du chèque y pèse 600 millions d’euros. Le même texte propose d’étendre ce croisement sans chiffrer ce que l’élargissement du recours coûtera (article 81)². Un titre fléché fait ce que l’argent ne fait pas : il oblige un opérateur à reconstituer chaque année la liste de ses bénéficiaires, il contraint des professionnels à l’accepter et il périme s’il n’est pas présenté au remboursement.
 
 L’abrogation porte sur les articles qui instituent le titre, sa liste annuelle de bénéficiaires, sa valeur faciale, sa péremption puis le financement de sa gestion. Elle substitue une suppression à l’amélioration que l’article propose : on ne perfectionne pas la détection automatique d’un droit que l’on s’apprête à remplacer. Dit simplement : le foyer cesse de recevoir un titre qu’il ne peut dépenser qu’en énergie et il reçoit un revenu dont il décide lui-même l’emploi.
 
-La suppression prend effet au 1er janvier 2027, de sorte que la campagne d’émission de 2027 n’a pas lieu : l’exercice porte le plein effet de la mesure et l’économie de l’année pleine est celle de l’exercice, soit 600 millions d’euros. Un amendement distinct retire ce montant au programme qui le porte. Ces 600 millions d’euros vont d’abord à la baisse des prélèvements pesant sur les revenus d’activité, chemin que la présente loi ouvre à toutes ses économies. Un droit qu’il faut détecter à l’insu de son titulaire n’est pas un droit : c’est un paiement que l’on cherche à placer.
+La suppression prend effet au 1er janvier 2027 : aucun titre n’est émis au titre de 2027. L’exercice règle encore les titres de la campagne précédente : l’économie de 2027 est estimée à 300 millions d’euros, pour 600 millions d’euros en année pleine. Un amendement distinct retire les crédits correspondants à la mission qui les porte. Cette économie va d’abord à la baisse des prélèvements pesant sur les revenus d’activité, chemin que la présente loi ouvre à toutes ses économies. Un droit qu’il faut détecter à l’insu de son titulaire n’est pas un droit : c’est un paiement que l’on cherche à placer.
 
-¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Écologie, développement et mobilité durables », programme « Service public de l’énergie ».
+¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Écologie, développement et mobilité durables », programme « Énergie, climat et après-mines ».
 
 ² Projet de loi de finances pour 2027, article 81, « Amélioration des conditions de délivrance et de versement du chèque énergie », p. 246.
 
@@ -2069,3 +2074,37 @@ Une refonte qui supprime des dizaines de taxes et en relève deux n’est crédi
 L’amendement inscrit ce rapport à la liste des annexes générales du projet de loi de finances. Il présente, sur trois exercices, le dernier clos, celui en cours et celui à venir, le produit des impositions supprimées, le produit supplémentaire tiré de la suppression des taux réduits de taxe sur la valeur ajoutée et de la réforme des droits de mutation, celui des régimes dérogatoires supprimés qui n’est pas restitué, celui du taux unique de l’impôt sur les sociétés et celui de la taxe foncière unique, ainsi que la réduction corrélative des concours de l’État aux communes. Il fait apparaître le solde de ces éléments et le rapport des prélèvements obligatoires au produit intérieur brut, comparé à son niveau de 2026. Dit simplement : le contribuable dispose chaque année d’un document qui dit si la réforme lui a coûté ou rapporté.
 
 Le rapport ne coûte rien d’autre que sa rédaction et il se publie à compter du projet de loi de finances pour 2028. Il ne remplace aucun vote : il donne au Parlement de quoi corriger le taux de l’impôt sur les sociétés ou la borne haute de la taxe foncière si l’écart apparaît. Une réforme qui se mesure est une réforme dont on peut répondre.
+
+---
+
+## Amendement n° 40 [Retirer les crédits que la présente loi interrompt, mission « Outre-mer »]
+
+AMENDEMENT
+
+présenté par
+
+----------
+
+ARTICLE 58
+
+Modifier ainsi les crédits de la mission « Outre-mer » :
+
+| Programmes | AE + | AE − | CP + | CP − |
+|---|---:|---:|---:|---:|
+| Interventions territoriales de l’État | 0 | 35 322 219 | 0 | 30 134 319 |
+| **TOTAUX** | 0 | **35 322 219** | 0 | **30 134 319** |
+| **SOLDE** | **−35 322 219** | | **−30 134 319** | |
+
+La présente mesure concourt à la réduction des prélèvements pesant sur les revenus d’activité.
+
+EXPOSÉ SOMMAIRE
+
+Cet amendement retire de la mission « Outre-mer » les crédits des dispositifs que la présente loi interrompt. Il porte sur 1 programme et sur les crédits de fonctionnement courant, investissement de l’État, transferts aux entreprises, transferts aux collectivités, transferts aux autres collectivités.
+
+Les programmes visés reçoivent 330 671 803 euros d’autorisations d’engagement dans le texte déposé (état B)¹. L’amendement en retire 35 millions d’euros en autorisations d’engagement et 30 millions d’euros en crédits de paiement. L’écart entre les deux règle les engagements déjà contractés, que la mesure ne remet pas en cause. Un dispositif qui s’éteint en trois ans est retiré pour sa première année.
+
+Une dépense versée à des personnes physiques, ou à des organismes dont elle paie les salariés, s’arrête au 1er juillet 2027, le mois où commence la baisse des prélèvements pesant sur les revenus d’activité. Une dépense versée à des entreprises ou à des collectivités s’arrête au 1er janvier 2027. La mesure prend effet au 1er janvier 2027 pour le fonctionnement courant et l’investissement, les aides aux entreprises et les transferts aux collectivités. Elle prend effet au 1er juillet 2027 pour les subventions aux associations.
+
+Dit simplement : le Parlement cesse d’autoriser une dépense dont il ne vote ni le barème ni les bénéficiaires.
+
+¹ Projet de loi de finances pour 2027, n° 3210, état B annexé à l’article 58, mission « Outre-mer ».

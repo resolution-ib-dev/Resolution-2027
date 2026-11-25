@@ -1,0 +1,27 @@
+diff --git a/chantier/appareil/generer_carte.py b/chantier/appareil/generer_carte.py
+index 34e3683a..a43d4cfd 100644
+--- a/chantier/appareil/generer_carte.py
++++ b/chantier/appareil/generer_carte.py
+@@ -948,6 +948,22 @@ IMPLICITES = {
+     'livrables/releve_siege_prelevements_20261001.md': 'juridique',
+     'livrables/reservoir_arguments_livre.md': 'juridique',
+     'livrables/valise_phase1_20261002.md': 'juridique',
++    # --- la table « sept classements », 20261020. Pièce d'un fiscaliste,
++    # versée telle qu'extraite ; la confrontation reste au bac à sable.
++    'referentiels/prelevements_7classements_1995_2024.tsv': 'références externes',
++    'referentiels/prelevements_7classements_passage.tsv': 'références externes',
++    'livrables/confrontation_sept_classements_20261020.md': 'bac à sable',
++    'referentiels/insee_3217_payeur.tsv': 'références externes',
++    'referentiels/insee_3217_payeur_corrections.tsv': 'références internes',
++    'referentiels/eurostat_prelevements_apu.tsv': 'références externes',
++    'livrables/portage_prelevements_20261020.md': 'bac à sable',
++    'referentiels/insee_comptes_pib_apu_menages_1949_2025.tsv': 'références externes',
++    'referentiels/produit_prive_formules_auteur.tsv': 'références internes',
++    'referentiels/eurostat_heures_travaillees.tsv': 'références externes',
++    'livrables/produit_prive_restant_20261020.md': 'bac à sable',
++    'livrables/tri_public/a_confirmer.md': 'bac à sable',
++    'referentiels/schema_refonte_fiscalite_2024.tsv': 'références internes',
++    'referentiels/eurostat_ccf.tsv': 'références externes',
+ }
+ 
+ # La carte se lit en haut du projet, hors famille : elle est la vue, non une

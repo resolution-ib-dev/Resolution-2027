@@ -1,14 +1,14 @@
 {
   "lot": "lot_p300",
   "titre": "Demande en inscription de faux devant la Cour de cassation",
-  "ecart_volume": "Écart motivé (−26 % contre −40 %) : procédure brève de l'inscription de faux, cible du renvoi de L1312-4, faite de délais et de formes qui ne se raccourcissent plus.",
+  "ecart_volume": "Écart motivé (−34 % contre −40 %, 183 mots pour 167) : procédure brève de l'inscription de faux, cible du renvoi de L1312-4, faite de deux délais de quinze jours, d'un délai d'un mois imposé au premier président et d'une amende qu'il peut dispenser, qui ne se raccourcissent plus. Passe 4 : forme de l'acte de dépôt déclassée.",
   "articles_cible": [
     {
       "num": "L7231-1",
-      "texte": "La demande en inscription de faux contre une pièce produite devant la Cour de cassation est adressée au premier président et déposée au greffe. Elle est signée par le demandeur, par un avocat au Conseil d'Etat et à la Cour de cassation ou par un fondé de pouvoir spécial dont le pouvoir est annexé à l'acte du greffier, qui mentionne le cas échéant que le déposant ne peut signer.",
+      "texte": "La demande en inscription de faux contre une pièce produite devant la Cour de cassation est adressée au premier président et déposée au greffe. Elle est signée par le demandeur, par un avocat au Conseil d'Etat et à la Cour de cassation ou par un fondé de pouvoir spécial.",
       "verbe": "S",
       "principe": "P23",
-      "motif": "Forme de la demande d'inscription de faux : mêmes exigences, deux phrases. L1312-4 le cite.",
+      "motif": "Forme de la demande d'inscription de faux : mêmes exigences, deux phrases. L1312-4 le cite. Passe 4 : l'annexe du pouvoir à l'acte du greffier et la mention de l'impossibilité de signer descendent au décret (forme des actes, P1) ; destinataire, dépôt et signataires gardés.",
       "ligne_rouge": "Aucune."
     },
     {
@@ -29,10 +29,10 @@
     },
     {
       "num": "L7231-5",
-      "texte": "Si le défendeur entend se servir de la pièce arguée de faux, le premier président renvoie les parties devant la juridiction qu'il désigne pour juger l'inscription de faux incident.",
+      "texte": "Si le défendeur entend se servir de la pièce, le premier président renvoie les parties devant la juridiction qu'il désigne pour juger l'inscription de faux incident.",
       "verbe": "S",
       "principe": "P23",
-      "motif": "Renvoi au juge du faux incident : même règle, phrase resserrée. L1312-4 le cite.",
+      "motif": "Renvoi au juge du faux incident : même règle, phrase resserrée. L1312-4 le cite. Passe 4 : « arguée de faux » répété retiré ; renvoi au juge du faux incident inchangé (L1312-4 cite l'article).",
       "ligne_rouge": "Aucune."
     }
   ],
@@ -60,12 +60,12 @@
       "vers": "L7231-1"
     },
     "L7231-1#4": {
-      "destin": "reprise",
-      "vers": "L7231-1"
+      "destin": "declassee",
+      "vers": "décret en Conseil d'État, partie réglementaire du code de procédure pénale (inscription de faux : forme de l'acte de dépôt)"
     },
     "L7231-1#5": {
-      "destin": "reprise",
-      "vers": "L7231-1"
+      "destin": "declassee",
+      "vers": "décret en Conseil d'État, partie réglementaire du code de procédure pénale (inscription de faux : forme de l'acte de dépôt)"
     },
     "L7231-2#1": {
       "destin": "reprise",

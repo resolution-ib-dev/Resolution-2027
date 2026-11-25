@@ -133,10 +133,10 @@ Montants en Md€.
 | France Travail | D6 | 5,255 | 10 % | **oui** | ⅓ | 50 % actifs, 50 % entreprises | 1er janv., **1/6 conservé** | 12/12 | **1,46** | 1,31 | **102**, cat. 32 — 20 % de F ; le reste hors État | — |
 | Ademe | D12 | 0,9 | 10 % | **oui** | ⅓ | opérateurs | 1er juil. | 6/12 | **0,15** | 0,14 | **181**, cat. 32 | P2-01, 2.1-A |
 | MaPrimeRénov' | D15 | 1,3 | 10 % | non | 1 | ménages, capté par l'artisan | **1er janv.** | 12/12 | **1,17** | 1,17 | **135**, cat. 61 | P2-01, 2.1-B |
-| Autres opérateurs | D16 | 2,745 | 10 % | **oui** | 1 | opérateurs | 1er juil. | 6/12 | **1,37** | 1,24 | **cat. 32, 22 programmes**, § 14 | P2-01, due |
+| Autres opérateurs | D16 | 4,116 ⚐ | 10 % | **oui** | 1 | opérateurs | 1er juil. | 6/12 | **2,06** | 1,24 | **cat. 32, 22 programmes**, § 14 | P2-01, due |
 | **Aide au logement** | D18 | 16,1 | — | — | ⅓ | ménages, capté par le bailleur | **dossiers 1er juin · versements 1er juil.** | 6/12 | **2,68** | 2,68 | **109**, cat. 61 | P2-04, 2.6-A |
 | Aide médicale de l'État | D19 | 1,1 | 10 % | **oui** | 1 | ménages sans activité | 1er juil. | 6/12 | **0,55** | 0,50 | **183**, cat. 61 | — |
-| Chèque énergie | D20 | 0,6 | — | — | 1 | ménages, droit annuel | 1er juil. | 6/12 | **0,30** | 0,30 | **174**, cat. 61 | P2-04, 2.6-B |
+| Chèque énergie | D20 | 0,6 | — | — | 1 | ménages, droit annuel | **1er janv., restes à payer de la campagne précédente** | 6/12 | **0,30** | 0,30 | **174**, cat. 61 | P2-04, 2.6-B |
 | Autres ménages | D22 | 1,0 | — | — | 1 | ménages | 1er juil. | 6/12 | **0,50** | 0,50 | **cat. 61, 15 programmes**, § 14 | — |
 | Audiovisuel public | D24 | 3,8 | — | — | 1 | opérateurs | 1er juil. | 6/12 | **1,90** | 1,90 | mission Avances à l'audiovisuel public — **état D** | due |
 | **Emploi et apprentissage** | D25 | 6,9 | — | — | **1/6, déjà net de la date** | entreprises | 1er juil. | — | **1,15** | 1,15 | **103**, cat. 62 | due |
@@ -150,15 +150,17 @@ Montants en Md€.
 | Subventions culturelles | D34 | 0,5 | — | — | 1 | associations | 1er juil. | 6/12 | **0,25** | 0,25 | **131** | P2-03, 2.3-B |
 | Politique de la ville | D35 | 0,4 | — | — | 1 | associations | 1er juil. | 6/12 | **0,20** | 0,20 | **147** | P2-03, 2.3-C |
 | Autres associations | D36 | 1,4 | — | — | 1 | associations | 1er juil. | 6/12 | **0,70** | 0,70 | prorata | P2-03 |
-| Charges courantes et achats | D37 | 3,8 | **20 %** | **oui** | 1 | entreprises fournisseurs | 1er janv. | 12/12 | **3,80** | 3,04 | titres 3 et 5 | due |
-| Départs de fonctionnaires de l'État | D38 | 3,0 | **10 %** | **oui** | 1 | agents publics | 1er juil. | 6/12 | **1,50** | 1,35 | titre 2, 21 pg · J38 = 61 400 ETPT | P2-05 |
+| Charges courantes et achats | D37 | 3,8 | **15 %** ⚐ | **oui** | 1 | entreprises fournisseurs | 1er janv. | 12/12 | **3,80** | 3,04 | titres 3 et 5 | due |
+| Départs de fonctionnaires de l'État | D38 | 3,0 | **10 %** | **oui** | 1, à 30 % tant que l'indemnité court ⚐ | agents publics | 1er juil. | 6/12 | **0,45** | 1,35 | titre 2, 21 pg · J38 = 61 400 ETPT | P2-05 |
 | Dépenses culturelles des collectivités | D40 | 11,6 | 10 % | **oui** | 1 | ménages, **service en nature** | 1er janv. | 12/12 | **11,60** | 10,44 | hors état B de l'État | — |
-| Collectivités — aides aux entreprises | D41 | 12,3 | — | — | ⅓ | entreprises | 1er janv. | 12/12 | **4,10** | 4,10 | hors état B de l'État | — |
-| Collectivités — charges courantes | D42 | 9,6 | — | — | ⅓ | collectivités | 1er janv. | 12/12 | **3,20** | 3,20 | hors état B de l'État | — |
-| Collectivités — départs | D43 | 20,0 | **15 %** ⚑ | **oui** | 1 | agents publics | 1er juil. | 6/12 | **10,00** | 8,50 | hors état B de l'État | — |
-| **TOTAL 2027** | | | | | | | | | **56,34** | 51,69 | | |
+| Collectivités — aides aux entreprises | D41 | 12,21 ⚐ | — | — | 1 ; ⅓ sur l'agriculture ⚐ | entreprises | 1er janv. | 12/12 | **9,70** | 4,10 | hors état B de l'État | — |
+| Collectivités — charges courantes | D42 | 9,6 | — | — | 1 ; ⅓ sur le logement ⚐ | collectivités | 1er janv. | 12/12 | **6,10** | 3,20 | hors état B de l'État | — |
+| Collectivités — départs | D43 | 19,864 ⚐ | **15 %** ⚑ | **oui** | 1, à 30 % tant que l'indemnité court ⚐ | agents publics | 1er juil. | 6/12 | **2,98** | 8,50 | hors état B de l'État | — |
+| **TOTAL 2027** | | | | | | | | | **57,46** | 51,69 | | |
 
 ⚑ Socle « 10 à 20 % » au classeur, borne non arrêtée : 15 % par défaut.
+
+⚐ **Mis à jour le 20261116.** Décision de l'auteure du 16 novembre, *héritée du pilotage* : 85 % d'économie sur le fonctionnement et l'investissement de l'État, hors régalien, hors éducation et hors entretien des routes nationales, que le programme 203 conserve. La ligne portait 20 % de socle. *Relevé* au classeur du site : `SynthèseR!E7` et `F7`, 85 % du périmètre après retrait de 233 et 51 M€ d'entretien des routes, soit 2,704 + 1,075 = **3,78 Md€**. F, déjà net du socle (R-V), reste 3,8 à l'arrondi du registre ; le montant de 2027 et la trajectoire du § 5 ne bougent pas.
 
 **Colonne « F net du socle » (R-V)** : « oui » quand la colonne G porte l'exclusion du socle et, là où l'annexe la porte, quand l'assiette d'annexe minorée du socle redonne F (§ 5). Le montant de l'exercice se calcule alors sur F sans le socle. **La colonne « 2027 au 20261008 » garde la valeur antérieure**, pour la trace ; elle ne fait plus foi.
 
@@ -178,7 +180,7 @@ Marches au 1er juillet de chaque exercice pour les lignes à sortie en trois ans
 | France Travail | 1,46 | 3,50 | 5,25 | 5,25 |
 | Ademe | 0,15 | 0,45 | 0,75 | 0,90 |
 | MaPrimeRénov' | 1,17 | 1,17 | 1,17 | 1,17 |
-| Autres opérateurs | 1,37 | 2,75 | 2,75 | 2,75 |
+| Autres opérateurs | 2,06 | 4,12 | 4,12 | 4,12 |
 | **Aide au logement** | 2,68 | 8,05 | 13,42 | 16,10 |
 | Aide médicale de l'État | 0,55 | 1,10 | 1,10 | 1,10 |
 | Chèque énergie | 0,30 | 0,60 | 0,60 | 0,60 |
@@ -196,19 +198,62 @@ Marches au 1er juillet de chaque exercice pour les lignes à sortie en trois ans
 | Politique de la ville | 0,20 | 0,40 | 0,40 | 0,40 |
 | Autres associations | 0,70 | 1,40 | 1,40 | 1,40 |
 | Charges courantes et achats | 3,80 | 3,80 | 3,80 | 3,80 |
-| Départs de fonctionnaires de l'État | 1,50 | 3,00 | 3,00 | 3,00 |
+| Départs de fonctionnaires de l'État | 0,45 | 0,90 | 0,90 | 0,90 |
 | Dépenses culturelles des collectivités | 11,60 | 11,60 | 11,60 | 11,60 |
-| Collectivités — aides aux entreprises | 4,10 | 8,20 | 12,30 | 12,30 |
-| Collectivités — charges courantes | 3,20 | 6,40 | 9,60 | 9,60 |
-| Collectivités — départs | 10,00 | 20,00 | 20,00 | 20,00 |
-| **Coupes, 27 lignes** | **56,34** | **100,05** | **123,97** | **127,57** |
+| Collectivités — aides aux entreprises | 9,70 | 10,96 | 12,21 | 12,21 |
+| Collectivités — charges courantes | 6,10 | 7,85 | 9,60 | 9,60 |
+| Collectivités — départs | 2,98 | 5,96 | 5,96 | 5,96 |
+| **Coupes, 27 lignes** | **57,46** | **89,49** | **109,11** | **112,71** |
 | lignes de première partie et sociale, régime plein | — | — | — | **8,30** |
-| **Coupes, périmètre complet** | | | | **135,87** |
+| départs d'agents, part encore indemnisée (70 %), à terme ⚐ | — | — | — | **16,00** |
+| **Coupes, périmètre complet, à terme** | | | | **137,01** |
 | **Restitution** | **33,39** | **114,46** | **114,46** | **114,46** |
-| **Solde du budget** | **+22,95** | **−14,41** | **+9,51** | **+13,11** |
+| **Solde du budget** | **+24,07** | **−24,97** | **−5,35** | **−1,75** |
+| *solde au 20261116, avant le rythme des collectivités du 20261118* | *+15,54* | *−29,24* | *−5,35* | *−1,75* |
+| *solde au 20261015, avant la mise à niveau du 20261116* | *+22,95* | *−14,41* | *+9,51* | *+13,11* |
 | *solde au 20261008, double socle* | *+18,30* | *−21,61* | *+1,75* | *+5,33* |
 
-**Contrôle de périmètre, refait le 20261009** : 127,57 + 8,30 = **135,87 Md€** contre **135,9 Md€** au classeur — `Détail Economies`!F3 + F39, 82,5 + 53,4, total supprimé de l'État et des collectivités — **écart −0,03 Md€, soit 0,02 %**. **Le contrôle du 20261008 était une fausse concordance** : `Flux`!C6, 129,4 Md€, est le **gain d'année 1** de cinq blocs dont les niches fiscales et sociales (`=C8+C13+C15+C22+C27`), non le régime plein des économies. Les 128,09 Md€ s'en approchaient parce que le socle était compté deux fois — 7,8 Md€ de trop retirés.
+### Mise à niveau du 20261118 — D41 et D42 au rythme du classeur
+
+⚐ **Rythme des collectivités : le classeur détaillé fait foi** (*demandé par l'auteur, 20261118*). Le § 4 mettait en trois ans toute la ligne D41 et toute la ligne D42. *Relevé* : `Dépenses locales.xlsx`, onglet T_3305, colonne AK, ne marque « En 3 ans » que l'agriculture, la sylviculture et la pêche (04.2) et le logement (06.1, 06.6), plus les autres branches (04.7) des syndicats ; `Synthèse des chiffrages`, `Détail Economies`, colonne G : « Hors transports, sortie agriculture en 3 ans » (D41), « Hors communes, sortie logement en 3 ans » (D42) ; liasse P2, pièce `coll_P2_04`, IV et III : engagements en cours exécutés jusqu'à leur terme, agriculture, forêt et pêche plafonnées par tiers. Le classeur donne la première année et le supplément : D41 **9,7 + 2,51 = 12,21**, D42 **6,1 + 3,5 = 9,6** (`Détail Economies`, colonnes D et E). *Déduit* : la part en trois ans vaut 1,5 fois le supplément (3,765 et 5,25) ; 2028 = première année + deux tiers de cette part, soit 10,96 et 7,85. Le régime plein ne change pas.
+
+**Effet par exercice**, en mesure, Md€ : D41 +5,63 · +2,82 · 0 · 0 ; D42 +2,90 · +1,45 · 0 · 0 ; **coupes +8,53 · +4,27 · 0 · 0** ; coupes après 57,46 · 89,49 · 109,11 · 112,71. La restitution ne change pas : le solde de 2027 passe de +15,54 à **+24,07**, celui de 2028 de −29,24 à **−24,97**. Au compte complet (`referentiels/calendrier_compte_complet_20261117.tsv`, rejoué), le surplus du circuit de restitution, hors chômage et patrimoine, passe à **+57,23 · +30,84 · +55,05 · +58,66 Md€** (+48,70 · +26,57 avant). **Le § 17 est antérieur** : son levier « sorties en trois ans ramenées à deux, collectivités » (+7,30) ne porte plus que sur l'agriculture et le logement.
+
+### Mise à niveau du 20261116 — quatre lignes, valeurs antérieures gardées
+
+⚐ **Montants : la série de classeurs du site fait foi** (*tranché par le pilotage, révocable* ; `methode/etats/SERIES_classeurs_projet_site_20261116.md`). *Relevé* à `Détail Economies` du classeur du site : F16 = 4,1163 (2,7453 au classeur du 9 octobre), F41 = 12,21 (12,3), F43 = 19,864 (20). D37 : voir le § 4.
+
+⚐ **Départs d'agents, D38 et D43.** *Validé — réponse de l'auteur du 20261116, relevée à `methode/arbitrages.md`* : « dans les 236 c'est tout dont acte, en salaire net en un an c'est 30 % ». Le régime plein compte la ligne entière, 3,0 et 19,864 ; la première année compte 30 %, tant que 70 % du traitement est maintenu. Le tableau comptait la ligne entière dès le 1er juillet 2027.
+
+**Le moment où une ligne passe de 30 % au plein n'est fixé par aucune pièce.** *Relevé* : l'indemnité dure vingt-quatre mois plus un mois par trimestre de services, sept années au plus, plafonnée à la retraite sans décote (liasse P2, amendement n° 26, C du II, règle arrêtée par l'auteure le 20261118) ; la répartition des agents par ancienneté n'est dans aucune pièce du chantier ; le classeur écrit « à horizon 1 an » et « solde », sans date par ligne ; sa note de bloc `Détail Economies`!G3 dit des économies de l'État : « Effets pleins à horizon estimé à 3 ans », estimation que l'indemnité, due jusqu'à sept ans, dépasse. *Tranché en propre, révocable* : la trajectoire garde 30 % sur toute la fenêtre 2027-2030 et porte les 70 % restants, **16,00 Md€**, « à terme », hors fenêtre. Chaque exercice où les deux lignes seraient comptées en entier ajouterait 16,00 Md€.
+
+Valeurs antérieures, pour la trace ; elles ne font plus foi.
+
+| ligne | cel. | F antérieur | 2027 | 2028 | 2029 | 2030 |
+|---|---|---:|---:|---:|---:|---:|
+| Autres opérateurs | D16 | 2,745 | 1,37 | 2,75 | 2,75 | 2,75 |
+| Départs de fonctionnaires de l'État | D38 | 3,0 | 1,50 | 3,00 | 3,00 | 3,00 |
+| Collectivités — aides aux entreprises | D41 | 12,3 | 4,10 | 8,20 | 12,30 | 12,30 |
+| Collectivités — charges courantes | D42 | 9,6 | 3,20 | 6,40 | 9,60 | 9,60 |
+| Collectivités — départs | D43 | 20,0 | 10,00 | 20,00 | 20,00 | 20,00 |
+
+**Effet par exercice**, en mesure, Md€ :
+
+| | 2027 | 2028 | 2029 | 2030 |
+|---|---:|---:|---:|---:|
+| D16 | +0,69 | +1,37 | +1,37 | +1,37 |
+| D38 | −1,05 | −2,10 | −2,10 | −2,10 |
+| D41 | −0,03 | −0,06 | −0,09 | −0,09 |
+| D43 | −7,02 | −14,04 | −14,04 | −14,04 |
+| **coupes** | **−7,41** | **−14,83** | **−14,86** | **−14,86** |
+| coupes avant | 56,34 | 100,05 | 123,97 | 127,57 |
+| coupes après | 48,93 | 85,22 | 109,11 | 112,71 |
+
+**Les § 6, 7, 15, 16 et 17 ci-dessous, `livrables/suivi_trajectoire_20261015.md`, `livrables/flux_par_agent_20261015.md` et `referentiels/Flux_par_agent_20261015.xlsx` sont antérieurs à cette mise à niveau et ne sont pas rejoués.** Leurs soldes, leurs lignes « Agents publics », « Opérateurs » et « Entreprises », et les pans « Opérateurs », « Départs État » et « Collectivités » décrivent l'état du 15 octobre. La projection à jour, par ligne et par mois, est `referentiels/calendrier_mesures_mois_20261116.tsv`.
+
+**Contrôle de périmètre, refait le 20261116** : 112,71 + 8,30 + 16,00 = **137,01 Md€** contre **137,145 Md€** au classeur du site — `Détail Economies`!F3 + F39, 83,871 + 53,274. Écart −0,14 Md€ (le socle de D15, pour l'essentiel).
+
+**Contrôle de périmètre, refait le 20261009** *(état antérieur)* : 127,57 + 8,30 = **135,87 Md€** contre **135,9 Md€** au classeur — `Détail Economies`!F3 + F39, 82,5 + 53,4, total supprimé de l'État et des collectivités — **écart −0,03 Md€, soit 0,02 %**. **Le contrôle du 20261008 était une fausse concordance** : `Flux`!C6, 129,4 Md€, est le **gain d'année 1** de cinq blocs dont les niches fiscales et sociales (`=C8+C13+C15+C22+C27`), non le régime plein des économies. Les 128,09 Md€ s'en approchaient parce que le socle était compté deux fois — 7,8 Md€ de trop retirés.
 
 **Preuve du double socle, sur l'annexe** (Md€) — assiette d'annexe arrêtée, la même minorée du socle, et F :
 
@@ -218,6 +263,7 @@ Marches au 1er juillet de chaque exercice pour les lignes à sortie en trois ans
 | D19 | 1,208 | 1,087 | 1,100 | **net** |
 | D29 | 3,068 | 2,455 | 2,500 | **net** |
 | D37 | 4,731 | 3,784 | 3,800 | **net** |
+| D37, au 20261116 : 15 %, hors entretien des routes | 4,731 | 3,780 | 3,800 | **net** |
 | D38 | 3,287 | 2,959 | 3,000 | **net** |
 | D15 | 1,333 | 1,200 | 1,300 | **brut** |
 
@@ -227,25 +273,73 @@ D16, D19, D29, D37 et D38 redonnent F une fois le socle retiré de l'annexe : **
 
 ---
 
+## 5 bis. Trajectoire en dépense réelle — restes à payer (20261118)
+
+⚐ **Retenu par l'auteure comme hypothèse centrale** (20261118, « 1 a ») **pour la trésorerie et le compte complet.** **La trajectoire en mesure du § 5 reste la base des liasses** : un amendement de crédits porte la mesure, et le croisé `referentiels/calendrier_mesures_mois_20261116.tsv` ne change pas. Le § 5 bis compte ce que les privés cessent effectivement de recevoir, une fois réglés les engagements déjà pris (R-R). *Calculé* par `appareil/restes_a_payer.py`, table `referentiels/restes_a_payer_20261118.tsv`, méthode et hypothèses ligne à ligne à `methode/etats/RESTES_a_payer_20261118.md`. Les pistes de modulation de la note **ne sont pas retenues**.
+
+Md€. Fourchette : borne basse des restes à payer ; borne haute.
+
+| | 2027 | 2028 | 2029 | 2030 |
+|---|---:|---:|---:|---:|
+| Coupes en mesure (§ 5) | 57,47 | 89,49 | 109,11 | 112,71 |
+| restes à payer — État | 4,08 | 3,11 | 1,78 | 0,81 |
+| restes à payer — agences | 2,32 | 2,62 | 1,76 | 0,67 |
+| restes à payer — collectivités | 5,08 | 1,58 | 0,90 | 0,19 |
+| **Coupes en dépense réelle** | **46,00** | **82,18** | **104,66** | **111,04** |
+| fourchette | 51,33 à 38,79 | 87,32 à 75,22 | 107,81 à 99,94 | 112,29 à 108,62 |
+| Restitution (§ 2) | 33,39 | 114,46 | 114,46 | 114,46 |
+| **Solde en dépense réelle** | **+12,61** | **−32,28** | **−9,80** | **−3,42** |
+| fourchette | +17,94 à +5,40 | −27,14 à −39,24 | −6,65 à −14,52 | −2,17 à −5,84 |
+| *solde en mesure (§ 5)* | *+24,08* | *−24,97* | *−5,35* | *−1,75* |
+
+Le croisé donne 57,47 en 2027 contre 57,46 au § 5 : arrondi des lignes. Rien n'est perdu : 24,90 Md€ glissent dans la fenêtre et 3,02 en sortent après 2030.
+
+**La règle, par nature et par famille d'entité.** Une marche de la mesure ouvre une tranche ; pendant sa k-ième année, la tranche garde une part **r^k** de la dépense antérieure (forme *posée* : profil de décaissement géométrique ; la première année redonne la chaîne du § 1).
+
+| famille | lignes | r, première année | statut |
+|---|---|---|---|
+| titre 2 ; cat. 61, guichet et chèques | D18, D19, D20, D22, D38, D43 | 0 : effet immédiat | relevé (§ 3 ; pièces 2.6 « aucune marge de reste à payer » ; D20 : restes de la campagne 2026 déjà dans la mesure) |
+| État, cat. 62 | D25, D27 ; D32 pour 43 % | 0,20 | relevé (§ 3) ; poids de D32 déduit des AE cibles |
+| État, fonctionnement et investissement | D37 : cat. 31 pour 65 %, titre 5 pour 35 % | 0,15 et 0,80 | relevé (§ 3) ; poids déduits |
+| France 2030 | D26, D33 | rien en 2027, puis 0,20 | relevé (§ 15 : AE 2027 nulles) |
+| associations | D31, D34, D35, D36 · D30 · D29 | 0,25 · 0,335 · 0,10 ; plus rien au 1er janvier 2029 | posé (taux transposé du § 3, cat. 63) · déduit (1 − CP/AE des cibles) · relevé à la pièce 2.6, non repris ; terme relevé (`P2/etatB_02`) |
+| Ademe | D12 | 0,695 | déduit : restes à payer 3,22 Md€ au 31/12/2024 (Jaune « Opérateurs » PLF 2026) pour 1,42 Md€ de financement de l'État |
+| agences sous subvention | D5, D6, D16 · D24 | 0,15 · 0,30 | posé, bornes 0,05-0,30 et 0,15-0,50 |
+| Anah | D15 | 0,50 | posé, bornes 0,25-0,75 ; « les dossiers déjà engagés sont payés » (relevé, `P2/etatB_01`) |
+| collectivités qui restent | D40 · D41 · D42 | 0,15 · 0,25 · 0,15 | posé, bornes 0,05-0,30, 0,15-0,50, 0,10-0,30 ; `coll_P2_04`, IV : engagements exécutés jusqu'à leur terme (relevé) |
+
+**Bascule.** Le solde mensuel devient négatif en **octobre 2027**, en mesure comme en dépense réelle (septembre en borne haute) ; le creux est décembre 2027, −4,60 contre −3,47. **Le solde cumulé depuis janvier 2027 passe sous zéro en avril 2028** (février à juillet selon la fourchette), contre décembre 2028 en mesure.
+
+**Au compte complet** (`referentiels/calendrier_compte_complet_20261117.tsv`, rejoué le 20261118 sur la dépense réelle, mesure gardée en colonnes `mesure_total_<année>`), le surplus du circuit de restitution, hors chômage et patrimoine, passe de +57,23 · +30,84 · +55,05 · +58,66 à **+45,76 · +23,53 · +50,60 · +56,98 Md€** ; il reste positif chaque mois, au plus bas **+0,69** en décembre 2027. L'épargne rendue suit : 69,29 · 50,60 · 56,98 au lieu de 88,07 · 55,05 · 58,66.
+
+**Point ouvert — France Compétences et l'Anah.** Leur écart cumulé (1,85 et 1,10 Md€ au plus haut) dépasse leur trésorerie de fin 2024 (0,23 et 0,57, relevées au Jaune), et un ODAC n'emprunte pas auprès d'un établissement de crédit au-delà de douze mois (guide du budgétaire 2023, p. 32). Il faudra soit une dotation de l'État, soit une coupe plus rapide de leurs engagements non juridiques. La trésorerie des collectivités n'est dans aucune pièce.
+
+---
+
 ## 6. Projection — flux mensuel 2027 par acteur
 
 Ménages à revenus d'activité rendus en deux lignes (R-T). Restitution portée à 90 % par eux et à 10 % par les agents publics — **clé posée, non mesurée**.
 
-| acteur | janv | févr | mars | avril | mai | juin | juil | août | sept | oct | nov | déc | **2027** |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Ménages actifs — transferts monétaires** | −0,10 | −0,10 | −0,10 | −0,10 | −0,10 | −0,10 | 0,75 | 2,18 | 3,61 | 5,05 | 6,48 | 7,91 | **25,40** |
-| Ménages actifs — services en nature | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | −1,24 | **−14,86** |
-| Ménages sans revenus d'activité | 0,00 | 0,00 | 0,00 | −0,21 | −0,21 | −0,21 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | **−2,42** |
-| Agents publics | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −1,76 | −1,60 | −1,44 | −1,28 | −1,12 | −0,96 | **−8,16** |
-| Entreprises | −1,06 | −1,06 | −1,06 | −1,06 | −1,06 | −1,06 | −1,26 | −1,26 | −1,26 | −1,26 | −1,26 | −1,26 | **−13,91** |
-| Associations | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,39 | −0,39 | −0,39 | −0,39 | −0,39 | −0,39 | **−2,37** |
-| Opérateurs | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,57 | −0,57 | −0,57 | −0,57 | −0,57 | −0,57 | **−3,42** |
-| Collectivités | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | −0,27 | **−3,20** |
-| **TOTAL** | −2,67 | −2,67 | −2,67 | −2,87 | −2,87 | −2,87 | −5,03 | −3,44 | −1,85 | −0,26 | 1,33 | 2,92 | **−22,95** |
+| acteur | janv | févr | mars | avril | mai | juin | juil | août | sept | oct | nov | déc | **2027** | 2028 | 2029 | 2030 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Ménages actifs — transferts monétaires | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | −0,12 | 0,78 | 2,21 | 3,64 | 5,07 | 6,50 | 7,93 | **25,40** | 92,21 | 86,84 | 84,16 |
+| Ménages actifs — services en nature | −1,52 | −1,52 | −1,52 | −1,52 | −1,52 | −1,52 | −1,68 | −1,68 | −1,68 | −1,68 | −1,68 | −1,68 | **−19,17** | −24,63 | −29,00 | −29,00 |
+| Ménages sans revenus d'activité | 0,00 | 0,00 | 0,00 | −0,21 | −0,21 | −0,21 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | −0,30 | **−2,43** | −3,60 | −3,60 | −3,60 |
+| Agents publics | −0,11 | −0,11 | −0,11 | −0,11 | −0,11 | −0,11 | −0,72 | −0,56 | −0,40 | −0,24 | −0,08 | 0,08 | **−2,62** | 0,51 | 0,12 | 0,12 |
+| Entreprises | −1,64 | −1,64 | −1,64 | −1,64 | −1,64 | −1,64 | −2,17 | −2,17 | −2,17 | −2,17 | −2,17 | −2,17 | **−22,89** | −34,00 | −41,96 | −42,11 |
+| Associations | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | −0,40 | **−2,37** | −5,50 | −7,03 | −7,80 |
+| **Agents privés** | −3,40 | −3,40 | −3,40 | −3,61 | −3,61 | −3,61 | −4,48 | −2,89 | −1,30 | 0,29 | 1,88 | 3,47 | **−24,08** | 24,97 | 5,35 | 1,75 |
+| **Solde public** | 3,40 | 3,40 | 3,40 | 3,61 | 3,61 | 3,61 | 4,48 | 2,89 | 1,30 | −0,29 | −1,88 | −3,47 | **24,08** | −24,97 | −5,35 | −1,75 |
 
-**Cumulé, transferts monétaires aux ménages actifs** : −0,10 · −0,19 · −0,29 · −0,39 · −0,49 · **−0,58** en juin · **+0,17** dès juillet · +25,40 en décembre.
+**Lecture** (règles de l'auteur, 20261116). Les agents sont tous privés : « les agents publics sont des personnes privées. Le solde public est l'inverse de la somme des privés ». Les coupes sur les budgets d'agences et de collectivités retombent sur des privés : « collocs on a la répart des dépenses et agences on peut faire une classification grossière des plus grosses (entreprises et/ou ménages) et une classification conventionnelle du reste (moitié agent moitié fournisseurs) ». **Clé posée, non mesurée** (`CLE_PRIVEE` de `appareil/calendrier_mesures_mois.py`) : Ademe aux entreprises ; autres opérateurs à 46 % aux ménages, 44 % aux entreprises, 10 % aux agents publics ; audiovisuel public moitié agents, moitié entreprises ; charges courantes locales à 55 % aux ménages (logement, équipements collectifs), le reste moitié agents, moitié entreprises. **Ce tableau ne porte ni les niches supprimées (52,1 Md€ par an) ni l'épargne rendue : le solde public n'est pas nul tant qu'elles n'y sont pas.**
 
-Le solde tous acteurs bascule en **novembre 2027** (octobre au 20261008, avant correction du double socle : les coupes sont plus fortes, la bascule vient un mois plus tard).
+*Rejoué le 20261116 sur le croisé mesure × mois (`referentiels/calendrier_mesures_mois_20261116.tsv`), après la mise à niveau du § 5 et la date du chèque énergie : opérateurs à 4,116 de régime plein, départs d'agents à 30 % tant que l'indemnité court, chèque énergie éteint au 1er janvier. Le tableau du 15 octobre donnait −22,95 au total, −8,16 aux agents publics et −3,42 aux opérateurs. Par exercice, 2028 à 2030, total tous agents : +29,24 · +5,35 · +1,75.*
+
+**Cumulé, transferts monétaires aux ménages actifs** : −0,12 · −0,24 · −0,37 · −0,49 · −0,61 · **−0,74** en juin · **+0,04** dès juillet · +25,40 en décembre.
+
+*Rejoué le 20261118 après le rythme des collectivités (D41, D42 au classeur) : entreprises et ménages (services en nature) perdent 8,53 Md€ de plus en 2027 ; le solde public de 2027 passe de 15,55 à 24,08 Md€.*
+
+Le solde tous acteurs bascule en **octobre 2027** (novembre au 20261015 : les départs d'agents ne pèsent plus que 30 % tant que l'indemnité court).
 
 ---
 
@@ -506,6 +600,34 @@ Pans : les blocs de `Détail Economies`. Opérateurs D5-D16 · Chèques aux mén
 | sorties en trois ans ramenées à deux, collectivités | **+7,30** | D41, D42 — un rythme |
 
 Besoin de 2028 avec TVA et taxe sur les salaires au calendrier de la liasse : **11,45 Md€**. **Deux leviers de date suffisent à le couvrir** : la TVA au 1er janvier 2028 et la taxe sur les salaires décalée d'un an donnent +14,87. L'aide au logement est exclue des variantes : son calendrier est arrêté (§ 8, R-U).
+
+---
+
+## 18. Refonte — compteurs des amendements du tri (P1 n° 35, ajouts aux P1 n° 22, 23, 25 et 29, PLFSS n° 9), 20261103, rejoués le 20261117
+
+*Le 20261109, les P1 n° 36, 37 et 38 ont rejoint les amendements existants de même objet : n° 22 et 23, n° 29, n° 25. Les compteurs sont ceux de leurs ajouts, inchangés.*
+
+**Mandat** : fil machine du 20261103 ; règle des montées en charge et des compteurs mensuels (consignes de l’auteur des 20261007). **Perte de recettes brute, en mesure, Md€**, avant la contrepartie du circuit B (taux unique de l’impôt sur les sociétés pour les exercices ouverts à compter du 1er juillet 2027, taxe foncière unique en 2028), qui n’est pas à la trajectoire (§ 16). Rendement : prévision 2026 du tri (`referentiels/sort_prelevements_20261103.tsv`), le millésime 2027 restant à appliquer. Règle de date : suppression au 1er juillet 2027 → moitié de l’année en 2027, un douzième par mois de juillet à décembre ; fait générateur au 1er janvier ou seuil annuel → aucun effet en 2027, plein en 2028 ; moitié d’assiette (PLFSS n° 9, II, B, 3°) → moitié en 2027. Hors compte : la contribution de la Caisse des dépôts (devient de l’impôt sur les sociétés, transfert) et la taxe d’aménagement (portée par le n° 29).
+
+| amendement | qui perd la recette | 2027, en mesure | 2028 | régime plein | rangs non chiffrés |
+|---|---|---:|---:|---:|---:|
+| P1 n° 35 | État | −5,2 | 0 | 0 | 0 |
+| ajouts aux P1 n° 22 et 23 | État et affectataires | −5,5 | −13,1 | −13,1 | 15 |
+| ajouts au P1 n° 29 (III bis) | collectivités, État (casinos, TASCOM) | −0,7 | −5,2 | −5,2 | 5 |
+| ajouts au P1 n° 25 | affectataires tiers | −1,0 | −2,1 | −2,1 | 3 |
+| PLFSS n° 9 | sécurité sociale | −3,8 | −13 | −13 | 8 |
+| **total** | | **−16** | **−33** | **−33** | |
+
+| 2027, en mesure, Md€ | janv–juin | juil | août | sept | oct | nov | déc |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| ajouts aux P1 n° 22, 25, 29 et PLFSS n° 9 | 0 | −1,8 | −1,8 | −1,8 | −1,8 | −1,8 | −1,8 |
+| P1 n° 35 | — | non mensualisé |  |  |  |  |  |
+
+**Lecture.** Le second semestre 2027 porte **une perte de 1,8 Md€ par mois** sur les ajouts aux P1 n° 22, 25 et 29 et le PLFSS n° 9, plus le troisième exercice de la contribution exceptionnelle (5,2 Md€, non mensualisé). C’est **un moins**, qui se signale : il n’est compensé en 2027 que par le taux unique de l’impôt sur les sociétés, dont le produit 2027 n’est pas chiffré ici. Les rangs non chiffrés (31 au rejeu du 20261117) n’ont pas de rendement publié ; le total est un minorant. *Recompté le 20261106 : la contribution à l’IRSN (rang 170), abrogée au 1er janvier 2026, sort du n° 38.*
+
+**Rejoué le 20261117, sur les liasses reprises d’après le tri unique** (`referentiels/sort_prelevements_20261116.tsv`, mêmes règles de date, prévision 2026 du tri). *Relevé*, en M€, par somme des rangs portés : **P1 n° 22** — sortie de la protection juridique (rang 277, sans rendement publié) ; entrée de l’accise sur l’électricité, part de l’État (rang 211, 3 249,5 ; I bis, quantités fournies à compter du 1er juillet 2027) et de trois fractions de prélèvements sur les jeux (rangs 285, 286 et 287, 228,2) : 2027 de 3 754,7 à 5 493,6, régime plein de 8 565,4 à 12 043,1. **P1 n° 29** — entrée des parts communale et départementale de l’accise sur l’électricité (rangs 214 et 215, 1 903,8 ; impositions établies au titre de 2028) : régime plein de 2 930,5 à 4 834,3, 2027 inchangé. **PLFSS n° 9** — sortie de la taxe de solidarité additionnelle et de la contribution de l’article L. 862-4-1 (rangs 194 et N7, 7 088,8) ; entrée des contributions sur les indemnités de rupture conventionnelle et de mise à la retraite et de la contribution équivalente aux droits de plaidoirie (rangs 6, 12 et 363, 1 018,5) : 2027 de 6 825,6 à 3 790,5, régime plein de 19 103,5 à 13 033,2. **Totaux** : somme des lignes de −17,4 à −16,1 en 2027 et de −32,7 à −32,0 en régime plein ; par mois du second semestre 2027, de −2,0 à −1,8. *Majorant déclaré* : l’électricité est comptée pour tout son rendement, alors que le I bis laisse 1 € et 0,5 € par mégawattheure, dont le produit n’est pas chiffré. Les valeurs du 20261103 : −3,8 · −8,6 · −8,6 (15) ; −0,5 · −2,9 · −2,9 ; −6,8 · −19 · −19 (5) ; total −17 · −33 · −33.
+
+**Rejoué le 20261117, après les abrogations des impôts sans porteur** (mandat « on enlève avec mêmes règles », mêmes règles de date, prévision 2026 du tri). *Relevé*, en M€, par somme des rangs portés : **P1 n° 22** — entrée de la taxe sur le patrimoine financier (rang 324, 1 000,0 ; article 235 ter C, exercices ouverts à compter du 1er juillet 2027 : aucun effet en 2027) et de la redevance sur l’énergie hydraulique (rangs 382 et 388, 37,7 ; L. 543-1 du code de l’énergie, taxe annuelle : 2028) : 2027 inchangé à 5 493,6, régime plein de 12 043,1 à 13 080,8 ; rangs non chiffrés de 14 à 15. **P1 n° 29** — entrée du rang 288, « impôt sur les spectacles, jeux et divertissements » (334,0 ; l’annexe des ressources affectées 2027 le fonde sur L. 2333-54 et suivants du code général des collectivités territoriales, déjà abrogés par le III bis, les articles 1559 à 1566 du code général des impôts étant abrogés depuis 2019 ; produit des jeux à compter du 1er juillet 2027) : 2027 de 546,4 à 713,4, régime plein de 4 834,3 à 5 168,3. **P1 n° 25** — entrée de la cotisation de santé au travail et de la contribution pour la justice économique (rangs 128 et N5, sans rendement publié) et de la taxe de protection des obtentions végétales (rang N14, 0,0) : montants inchangés, rangs non chiffrés de 1 à 3. **PLFSS n° 9** — entrée des contributions sur les avantages de préretraite et de retraite (rangs 96 et 97, sans rendement publié) : montants inchangés, rangs non chiffrés de 6 à 8. **Totaux** : somme des lignes de −16,1 à −16,2 en 2027 et de −32,0 à −33,4 en régime plein ; par mois du second semestre 2027, −1,8 inchangé. Rangs non chiffrés : 31. *Non chiffré, déclaré* : les articles de jeux sans rang propre au tri (302 bis ZH, 302 bis ZO, III de l’article 105 de la loi n° 2010-1658, L. 136-7-1 du code de la sécurité sociale) n’ont pas de rendement au tri ; le total reste un minorant.
 
 ---
 

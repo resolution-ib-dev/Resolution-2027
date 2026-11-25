@@ -60,7 +60,7 @@ I. – L’article 209-0 B du code général des impôts est abrogé.
 
 II. – Le produit résultant du I concourt en priorité à la réduction des prélèvements pesant sur les revenus d’activité et, pour le solde, à l’équilibre de la refonte des prélèvements obligatoires.
 
-III. – Le I s’applique aux exercices ouverts à compter du 1er janvier 2027. Les options exercées avant cette date cessent de produire effet à la même date.
+III. – Le I s’applique aux exercices clos à compter du 1er janvier 2027. Les options exercées avant cette date cessent de produire effet à la même date.
 
 EXPOSÉ SOMMAIRE
 

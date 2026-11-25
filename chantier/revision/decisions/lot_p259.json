@@ -11,27 +11,27 @@
       "code": "cpp",
       "num": "L2141-1",
       "principe": "P23",
-      "motif": "Critères généraux de compétence territoriale, avec ceux de l'abandon de famille (L2141-5), des infractions en ligne (L2141-6) et des traitements automatisés (L2141-7) en un article. Énumération sans point-virgule.",
+      "motif": "Critères généraux de compétence territoriale, avec ceux de l'abandon de famille (L2141-5), des infractions en ligne (L2141-6) et des traitements automatisés (L2141-7) en un article. Passe 5 (13.3, C ; carte, section 1) : « juge d'instruction » devient « juge de l'enquête et des libertés », « personnes soupçonnées » devient « personnes suspectées ». Critères inchangés.",
       "ligne_rouge": "Juge naturel : les critères de compétence restent fixés par la loi, sans changement de champ.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Sont territorialement compétents le procureur de la République, le juge d'instruction et le tribunal délictuel du tribunal judiciaire dans le ressort duquel se trouve :\n1° Le lieu de l'infraction.\n2° La résidence de l'une des personnes soupçonnées d'avoir participé à l'infraction.\n3° Le lieu d'arrestation ou de détention d'une de ces personnes, même pour une autre cause.\n4° Le siège de la personne morale, lorsque l'infraction lui est reprochée.\n5° Pour le délit d'abandon de famille prévu par l'article 227-3 du code pénal, le domicile ou la résidence de la personne qui doit recevoir la pension, la contribution, les subsides ou les autres prestations visées par cet article.\n6° Pour un crime ou un délit commis ou tenté au moyen d'un réseau de communication électronique, la résidence de la personne physique ou le siège de la personne morale victime, situés sur le territoire de la République.\nSont aussi compétents, quel que soit le lieu de l'infraction, le procureur de la République, l'officier du ministère public, le juge d'instruction, le tribunal délictuel et le tribunal contraventionnel du ressort où se trouvent les traitements automatisés d'informations nominatives qui concernent les plaintes et signalements déposés par voie électronique, les infractions routières constatées par ou à partir d'un appareil de contrôle automatisé et les infractions constatées par procès-verbal numérique."
+          "nouveau": "Sont territorialement compétents le procureur de la République, le juge de l'enquête et des libertés et le tribunal délictuel du tribunal judiciaire dans le ressort duquel se trouve :\n1° Le lieu de l'infraction.\n2° La résidence de l'une des personnes suspectées d'avoir participé à l'infraction.\n3° Le lieu d'arrestation ou de détention d'une de ces personnes, même pour une autre cause.\n4° Le siège de la personne morale, lorsque l'infraction lui est reprochée.\n5° Pour le délit d'abandon de famille prévu par l'article 227-3 du code pénal, le domicile ou la résidence de la personne qui doit recevoir la pension, la contribution, les subsides ou les autres prestations visées par cet article.\n6° Pour un crime ou un délit commis ou tenté au moyen d'un réseau de communication électronique, la résidence de la personne physique ou le siège de la personne morale victime, situés sur le territoire de la République.\nSont aussi compétents, quel que soit le lieu de l'infraction, le procureur de la République, l'officier du ministère public, le juge de l'enquête et des libertés, le tribunal délictuel et le tribunal contraventionnel du ressort où se trouvent les traitements automatisés d'informations nominatives qui concernent les plaintes et signalements déposés par voie électronique, les infractions routières constatées par ou à partir d'un appareil de contrôle automatisé et les infractions constatées par procès-verbal numérique."
         }
       ]
     },
     {
       "code": "cpp",
       "num": "L2141-2",
-      "principe": "P23",
-      "motif": "Juge des libertés et de la détention compétent pour les perquisitions : gardé, en une phrase.",
-      "ligne_rouge": "Art. 66 C : le juge qui autorise la perquisition reste désigné par la loi, les deux critères gardés.",
-      "decision": "S",
+      "principe": "P2",
+      "motif": "Passe 5 (13.3, C, B ; carte, section 1) : le juge de l'enquête et des libertés décide de toutes les mesures de L5. La règle de compétence de 2029 pour les perquisitions (juge du procureur qui dirige l'enquête ou du lieu de l'acte) devient la règle générale, le juge du lieu restant compétent pour la perquisition. Relecture adverse : les requêtes des parties (L8) et la demande de clôture (L10) vont au juge du procureur qui dirige l'enquête ou a classé, qui a le dossier (G4).",
+      "ligne_rouge": "Art. 66 C examiné : le juge qui autorise la mesure reste désigné par la loi, les deux critères de 2029 gardés. G1 visé (L5).",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "En matière de perquisition, est compétent le juge des libertés et de la détention du tribunal judiciaire dont le procureur de la République dirige l'enquête, ou celui de la juridiction dans le ressort de laquelle la perquisition doit avoir lieu."
+          "nouveau": "Pour les mesures que lui réserve l'article L. 5 et pour les requêtes des articles L. 8 et L. 10, est compétent le juge de l'enquête et des libertés du tribunal judiciaire dont le procureur de la République dirige l'enquête ou a classé la procédure. Pour une perquisition, est aussi compétent celui de la juridiction dans le ressort de laquelle elle doit avoir lieu."
         }
       ]
     },
@@ -39,13 +39,13 @@
       "code": "cpp",
       "num": "L2141-3",
       "principe": "P23",
-      "motif": "Extension aux infractions connexes ou indivisibles et aux coauteurs et complices : gardée dans son champ de 2029, bornée aux 1° à 4° de L2141-1 (les critères fusionnés depuis L2141-5 à L2141-7 n'en relevaient pas).",
+      "motif": "Extension aux infractions connexes ou indivisibles et aux coauteurs et complices : gardée dans son champ de 2029, bornée aux 1° à 4° de L2141-1. Passe 5 (carte, section 1) : « soupçonnées » devient « suspectées ».",
       "ligne_rouge": "Juge naturel : les critères de compétence restent fixés par la loi, sans changement de champ.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La compétence prévue aux 1° à 4° de l'article L. 2141-1 et à l'article L. 2141-2 s'étend aux infractions connexes ou indivisibles, au sens des articles L. 1720-2 et L. 1720-3, avec les infractions mentionnées à ces articles, et aux personnes soupçonnées d'être les coauteurs ou complices des personnes mentionnées à ces articles."
+          "nouveau": "La compétence prévue aux 1° à 4° de l'article L. 2141-1 et à l'article L. 2141-2 s'étend aux infractions connexes ou indivisibles, au sens des articles L. 1720-2 et L. 1720-3, avec les infractions mentionnées à ces articles, et aux personnes suspectées d'être les coauteurs ou complices des personnes mentionnées à ces articles."
         }
       ]
     },
@@ -53,13 +53,13 @@
       "code": "cpp",
       "num": "L2141-4",
       "principe": "P23",
-      "motif": "Compétence du tribunal contraventionnel : gardée, énumération sans point-virgule.",
+      "motif": "Compétence du tribunal contraventionnel : gardée, énumération sans point-virgule. Passe 5 (carte, sections 1 et 8) : « personne mise en cause » et « personnes soupçonnées » deviennent « personne suspectée » et « personnes suspectées », « mise en cause » ne désignant plus que le statut de L3324-5.",
       "ligne_rouge": "Juge naturel : les critères de compétence restent fixés par la loi, sans changement de champ.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Est territorialement compétent le tribunal contraventionnel dans le ressort duquel se trouve :\n1° Le lieu de commission ou de constatation de la contravention ou celui de la résidence du prévenu.\n2° Le lieu où la personne morale a son siège, lorsque la contravention est reprochée à une personne morale.\n3° Le siège de l'entreprise détentrice du véhicule en cas de contravention, soit aux règles relatives au chargement ou à l'équipement de ce véhicule, soit aux réglementations relatives aux transports terrestres.\n4° Le lieu du port de débarquement de la personne mise en cause, du port d'immatriculation du navire, du port où le navire a été conduit ou peut être trouvé ou de la résidence administrative de l'agent qui a constaté l'infraction, lorsque la contravention a été commise à bord d'un navire.\nLe tribunal contraventionnel est également compétent pour le jugement des personnes soupçonnées d'être les coauteurs ou complices des contraventions mentionnées aux 1° à 3°."
+          "nouveau": "Est territorialement compétent le tribunal contraventionnel dans le ressort duquel se trouve :\n1° Le lieu de commission ou de constatation de la contravention ou celui de la résidence du prévenu.\n2° Le lieu où la personne morale a son siège, lorsque la contravention est reprochée à une personne morale.\n3° Le siège de l'entreprise détentrice du véhicule en cas de contravention, soit aux règles relatives au chargement ou à l'équipement de ce véhicule, soit aux réglementations relatives aux transports terrestres.\n4° Le lieu du port de débarquement de la personne suspectée, du port d'immatriculation du navire, du port où le navire a été conduit ou peut être trouvé ou de la résidence administrative de l'agent qui a constaté l'infraction, lorsque la contravention a été commise à bord d'un navire.\nLe tribunal contraventionnel est également compétent pour le jugement des personnes suspectées d'être les coauteurs ou complices des contraventions mentionnées aux 1° à 3°."
         }
       ]
     },
@@ -67,13 +67,13 @@
       "code": "cpp",
       "num": "L2141-8",
       "principe": "P23",
-      "motif": "Compétence du juge de l'application des peines en un article : règle générale, placement à l'extérieur, semi-liberté, détention à domicile et libération conditionnelle (L2141-9), appréciation à la saisine et dessaisissement (L2141-10).",
+      "motif": "Compétence du juge de l'application des peines en un article : règle générale, placement à l'extérieur, semi-liberté, détention à domicile et libération conditionnelle (L2141-9), appréciation à la saisine et dessaisissement (L2141-10). Passe 5 : 15.5 ; juge désigné par décret (carte section 8) ; G1.",
       "ligne_rouge": "Juge naturel : les critères de compétence restent fixés par la loi, sans changement de champ.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Est territorialement compétent le juge de l'application des peines du ressort de l'établissement pénitentiaire où le condamné est écroué ou, s'il est libre, de sa résidence habituelle. A défaut de résidence habituelle en France, est compétent le juge de l'application des peines du tribunal dans le ressort duquel a son siège la juridiction qui a statué en première instance.\nLorsqu'un placement à l'extérieur ou une semi-liberté s'exécute hors du ressort du juge qui l'a ordonné, le condamné est écroué à l'établissement pénitentiaire proche du lieu d'exécution, et le juge du ressort de cet établissement précise ou modifie les modalités de la mesure et en prononce ou propose le retrait. Pour une détention à domicile sous surveillance électronique ou une libération conditionnelle, est compétent le juge du ressort du lieu d'assignation ou de la résidence habituelle fixés par la décision qui accorde la mesure.\nLa compétence s'apprécie au jour de la saisine. Le juge peut ensuite se dessaisir, d'office, à la demande du condamné ou sur réquisitions du ministère public, au profit du juge du nouveau lieu de détention ou de la nouvelle résidence habituelle situé dans un autre ressort."
+          "nouveau": "Est territorialement compétent le juge de l'application des peines du ressort de l'établissement pénitentiaire où le condamné est écroué ou, s'il est libre, de sa résidence habituelle. A défaut de résidence habituelle en France, est compétent le juge de l'application des peines du tribunal dans le ressort duquel a son siège la juridiction qui a statué en première instance.\nLorsqu'un placement à l'extérieur ou une semi-liberté s'exécute hors du ressort du juge qui l'a ordonné, le condamné est écroué à l'établissement pénitentiaire proche du lieu d'exécution, et le juge du ressort de cet établissement précise ou modifie les modalités de la mesure et en prononce ou propose le retrait. Pour une détention à domicile sous surveillance électronique ou une libération conditionnelle, est compétent le juge du ressort du lieu d'assignation ou de la résidence habituelle fixés par la décision qui accorde la mesure.\nLa compétence s'apprécie au jour de la saisine. Le juge peut ensuite se dessaisir, d'office, à la demande du condamné ou sur réquisitions du ministère public, au profit du juge du nouveau lieu de détention ou de la nouvelle résidence habituelle situé dans un autre ressort.\nPour la personne détenue dans un établissement situé à l'étranger selon l'article L. 112-8 du code pénitentiaire, est compétent le juge de l'application des peines du tribunal judiciaire que désigne un décret."
         }
       ]
     },
@@ -81,27 +81,13 @@
       "code": "cpp",
       "num": "L2141-11",
       "principe": "P23",
-      "motif": "Compétence du tribunal de l'application des peines : gardée (citée par la 5e et la 6e partie), renvoi réécrit sur L2141-8 qui réunit L2141-8 à L2141-10.",
-      "ligne_rouge": "Art. 8 DDHC : aucune règle de peine, la compétence suit le lieu d'exécution, comme en 2029.",
-      "decision": "S",
+      "motif": "Compétence de la formation collégiale (citée par la 5e et la 6e partie). Passe 5 (14.6 ; carte, section 1) : le tribunal de l'application des peines devient la formation collégiale du juge de l'application des peines (L2127-5).",
+      "ligne_rouge": "Art. 8 DDHC examiné : aucune règle de peine, la compétence suit le lieu d'exécution, comme en 2029.",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Est territorialement compétent le tribunal de l'application des peines de la cour d'appel dans le ressort de laquelle le condamné réside habituellement, est écroué ou exécute sa peine selon les distinctions de l'article L. 2141-8."
-        }
-      ]
-    },
-    {
-      "code": "cpp",
-      "num": "L2142-1",
-      "principe": "P23",
-      "motif": "Dessaisissement entre juges d'instruction saisis de la même infraction : gardé, phrases resserrées.",
-      "ligne_rouge": "Juge naturel : dessaisissement par accord des juges ou, à défaut, par ordonnance du président dans les huit jours, comme en 2029.",
-      "decision": "S",
-      "operations": [
-        {
-          "op": "rediger",
-          "nouveau": "Lorsque deux juges d'instruction sont saisis simultanément de la même infraction, le ministère public peut, dans l'intérêt d'une bonne administration de la justice, requérir l'un d'eux de se dessaisir au profit de l'autre. Le dessaisissement a lieu si les deux juges en sont d'accord. A défaut, s'ils appartiennent au même tribunal, le président du tribunal, saisi par requête motivée du procureur de la République, statue sur le dessaisissement dans les huit jours, par une ordonnance non susceptible de recours. S'ils appartiennent à des tribunaux différents, il est procédé selon les articles L. 2142-2 ou L. 2142-3."
+          "nouveau": "Est territorialement compétente la formation collégiale du juge de l'application des peines de la cour d'appel dans le ressort de laquelle le condamné réside habituellement, est écroué ou exécute sa peine selon les distinctions de l'article L. 2141-8."
         }
       ]
     },
@@ -109,13 +95,13 @@
       "code": "cpp",
       "num": "L2142-2",
       "principe": "P3",
-      "motif": "Règlement de juges par la chambre des investigations et des libertés : gardé, alinéas séparés.",
-      "ligne_rouge": "Juge naturel : les critères de compétence restent fixés par la loi, sans changement de champ.",
+      "motif": "Règlement de juges par la chambre des investigations et des libertés : gardé. Passe 5 (13.3, C) : les deux juges d'instruction sortent de la liste (T1).",
+      "ligne_rouge": "Juge naturel : les critères de compétence restent fixés par la loi, sans changement de champ pour les juridictions de jugement.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque deux tribunaux délictuels, deux juges d'instruction ou deux tribunaux contraventionnels appartenant au même ressort de cour d'appel se trouvent saisis simultanément de la même infraction, il est réglé de juges par la chambre des investigations et des libertés qui statue sur requête présentée par le ministère public ou les parties.\nCette décision est susceptible d'un recours en cassation."
+          "nouveau": "Lorsque deux tribunaux délictuels ou deux tribunaux contraventionnels appartenant au même ressort de cour d'appel se trouvent saisis simultanément de la même infraction, il est réglé de juges par la chambre des investigations et des libertés qui statue sur requête présentée par le ministère public ou les parties.\nCette décision est susceptible d'un recours en cassation."
         }
       ]
     },
@@ -137,13 +123,13 @@
       "code": "cpp",
       "num": "L2143-2",
       "principe": "P23",
-      "motif": "Dessaisissement pour connexité et renvoi au lieu de détention (L2143-3 fusionné). L'article d'annonce L2143-1 tombe.",
-      "ligne_rouge": "Juge naturel : dessaisissement par accord des juges ou par règlement de juges, comme en 2029.",
+      "motif": "Renvoi au lieu de détention (L2143-3 fusionné), gardé. Passe 5 (13.3, C ; carte, section 1) : le dessaisissement entre juges d'instruction pour connexité tombe avec eux (T1). « Personne mise en examen » devient « personne mise en cause », « juridiction d'instruction » devient « juridiction de l'enquête » (L2122-1).",
+      "ligne_rouge": "Juge naturel : renvoi par règlement de juges, comme en 2029.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Lorsque deux juges d'instruction sont saisis simultanément d'infractions connexes au sens de l'article L. 1720-2, ou d'infractions différentes pour lesquelles une même personne ou les mêmes personnes sont mises en examen, le ministère public peut, dans l'intérêt d'une bonne administration de la justice et nonobstant l'article L. 2141-1, requérir l'un d'eux de se dessaisir au profit de l'autre. Le dessaisissement a lieu si les juges en sont d'accord. A défaut, il est procédé comme en matière de règlement de juges.\nLorsque la personne mise en examen ou le prévenu est détenu, provisoirement ou en exécution d'une condamnation, le ministère public peut, dans le même intérêt, notamment pour éviter son transfèrement, requérir le renvoi de la procédure à la juridiction d'instruction ou de jugement du lieu de détention. Il est procédé comme en matière de règlement de juges."
+          "nouveau": "Lorsque la personne mise en cause ou le prévenu est détenu, provisoirement ou en exécution d'une condamnation, le ministère public peut, dans l'intérêt d'une bonne administration de la justice, notamment pour éviter son transfèrement, requérir le renvoi de la procédure à la juridiction de l'enquête ou de jugement du lieu de détention. Il est procédé comme en matière de règlement de juges."
         }
       ]
     },
@@ -247,6 +233,14 @@
       "motif": "Appréciation de la compétence et dessaisissement : dernier alinéa de L2141-8.",
       "ligne_rouge": "aucune (passe 1).",
       "vers": "L2141-8"
+    },
+    {
+      "code": "cpp",
+      "num": "L2142-1",
+      "decision": "A",
+      "principe": "P20",
+      "motif": "Passe 5 (13.3, C) : dessaisissement entre deux juges d'instruction saisis de la même infraction. Le juge d'instruction disparaît (T1 pour les informations ouvertes) et le juge de l'enquête et des libertés n'est saisi d'aucune enquête : il statue requête par requête, au tribunal du procureur qui dirige l'enquête (L2141-2). Le conflit entre juridictions de jugement reste à L2142-2 et L2142-3.",
+      "ligne_rouge": "aucune (passe 1) : le juge naturel des juridictions de jugement reste fixé à L2142-2 et L2142-3."
     },
     {
       "code": "cpp",

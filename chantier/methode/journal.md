@@ -6020,6 +6020,256 @@ renvoie plus que par une ligne — il ne porte plus la table.
   générateur ne défait plus les corrections.
 - Site : les six fichiers régénérés, noms sans date, renvoi des anciens noms.
 
+## 20261103 — tri-porte
+
+## Ce qui a changé au corpus
+
+- Règles de l’auteur des 20261102 et 20261103 inscrites au registre : six
+  devenirs, CSG et CRDS, blocs, ventilation par qui paie, niches, sièges complétés
+  (deux confirmés au dépôt de droit, quatre hors dépôt).
+- Table de vérification des porteurs : les 120 cas de l’annexe A (14 portés,
+  99 non portés, 7 déjà abrogés, aucun porté par clause) et les 171 autres rangs
+  remplacés ou fondus (137 portés, 34 non portés).
+- Cinq amendements nouveaux en projet (P1 n° 35 à 38, PLFSS n° 9), preuve par
+  réapplication au dépôt de droit dans leur bloc interne.
+- `referentiels/sort_prelevements_20261103.tsv` (434 rangs), classeur de travail,
+  version exportable, relecture des annexes, sorts contre le schéma, niches contre
+  la clause générale : `livrables/tri_prelevements/`. Appareil :
+  `appareil/tri_porte/`.
+
+## Ce qui reste ouvert
+
+- Dix questions fermées à l’auteur (`livrables/tri_prelevements/rapport_auteur_20261103.md`, § 4), dont le millésime.
+- 179 rangs sourcés à la seule liste IFRAP : les pièces publiques (LFSS annexe 4,
+  rapport sur les prélèvements obligatoires, comptes DGCL) ne sont pas au dépôt.
+- Sept agrégats de l’état A à éclater : le tome I digéré ne porte pas leurs
+  composantes.
+- 38 niches de TVA marquées supprimées, exclues du I de la clause générale par son
+  II, 4°, et non abrogées au III.
+- Textes hors dépôt de droit cités par les amendements nouveaux : code forestier,
+  code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658.
+
+## 20261103 — tri-porte, réponses de l’auteur
+
+## Ce qui a changé au corpus
+
+- Dix réponses appliquées au tri (434 rangs) ; P1 n° 25 sans la taxe aurifère de Guyane (cinquante-six impositions) ; P1 n° 36 sans le prélèvement de solidarité, avec l’assujettissement de la Caisse des dépôts à l’IS.
+- Niches de TVA : correction de la vérification (28 portées par le n° 21, 10 atteintes par le I).
+- `livrables/tri_prelevements/recap_avant_apres_20261103.md`.
+
+## Ce qui reste ouvert
+
+- Millésime : réponse à préciser. Lecture de « en R » à confirmer.
+- 36 rangs remplacés ou fondus non portés (détail au récapitulatif, § 2).
+- Dates de la TVA : exposés des n° 22 et 25 (2027) contre dispositif du n° 21 (2028).
+
+## 20261103 — fil machine, vérification des amendements du tri
+
+## Ce qui a changé au corpus
+
+- P1 n° 35 à 38 et PLFSS n° 9 vérifiés sur pièce et corrigés à la source (`appareil/tri_porte/amendements.py`), fiches et liasses régénérées, toujours en projet : quatre doubles emplois avec le P1 n° 1 retirés, trois abrogations partielles qui laissaient la taxe (L. 253-8-2 VI, L. 5141-8 I) ou un renvoi mort complétées, L. 5211-21-1 CGCT et 1609 H CGI ajoutés, dates recalées au 1er juillet 2027 (véhicules et fréquences, remontées, sites nordiques, assainissement), divisions de date rédigées nommément (n° 38, II, B ; n° 9, II, B), gages ramenés à la formule standard ou à l’insuffisance déclarée, exposés recomptés.
+- `livrables/tri_prelevements/verification_machine_20261103.md` et `…_renvois.tsv` ; `appareil/tri_porte/verifier_fond.py`.
+- Tri rejoué : N9 porté par le n° 35. Docx des deux liasses produits, non versés.
+
+## Ce qui reste ouvert
+
+- Cinq questions fermées (§ 10 de la vérification).
+- Pertes des affectataires tiers non gagées (n° 36 à 38) ; perte de la sécurité sociale non gagée (n° 9).
+- Textes hors dépôt : code forestier, code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486.
+- Hors mandat : retirer le 8° du III du PLFSS n° 1 et le visa L. 421-78-1 du P1 n° 1 ; aligner la formule de date du n° 29 sur la taxe d’aménagement.
+- Rien n’est poussé : la branche `claude/machine-tri-porte-verif` vit au sas du coffre.
+
+## 20261105 — fil machine, questions closes et compteurs
+
+## Ce qui a changé au corpus
+
+- Questions du fil machine closes sur les réponses déjà rendues (registre, entrée du 20261105).
+- Gages des n° 36 à 38 rétablis sur la majoration de l’IS (circuit B, registre des sources de gage) ; PLFSS n° 9 sur la forme de la liasse de financement (L. 136-6 et L. 136-7). Les cinq pièces inscrites au registre des sources de gage.
+- Exposés des n° 22 et 25 : le 1er juillet 2027 y devient la date du taux unique de l’IS ; le calendrier de la TVA est celui du n° 21.
+- Compteurs : `livrables/registre_calcul_etatB.md`, § 18.
+
+## Ce qui reste ouvert
+
+- Textes hors dépôt de droit à ajouter à `codes.json` : code forestier, code minier, lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486.
+- Hors lot VI : retirer le 8° du III du PLFSS n° 1 et le visa L. 421-78-1 du P1 n° 1 ; aligner la formule de date du n° 29 sur la taxe d’aménagement ; `69_CONTROLE_doctrine.py` à rendre conscient du circuit B ; `droit.py` à faire passer `MODIFIE_MORT_NE` après `VIGUEUR_DIFF`.
+- Millésime des rendements : prévision 2026 au tri, 2027 en attente.
+
+## 20261106 — fil code, versement du fil machine, droit et abrogations
+
+## Ce qui a changé au corpus
+
+- Fil machine du tri versé à `main` (vérification des P1 n° 35 à 38 et PLFSS n° 9, questions closes).
+- Dépôt de droit : code forestier, code minier et lois n° 72-657, 2003-1312, 2004-803, 2006-1666, 2010-1658, 2019-486, millésime LEGI 20261105. Les deux codes sont épinglés par `legitext` : l’intitulé résolvait vers l’ancien code.
+- `droit.py` : à date de début égale, une version mort-née passe après toute autre.
+- P1 n° 36 : abrogation des I et II de l’article 138 de la loi n° 2019-486 (rang 280 porté). P1 n° 38 : l’article 96 de la loi n° 2010-1658, déjà abrogé, retiré (rang 170 sans objet).
+- Tri : part conservée des droits de mutation (P1 n° 19), 11,05 Md€ ; sorts contre le schéma recalculés nets de cette part ; classeurs régénérés.
+- `livrables/registre_calcul_etatB.md`, § 18 : rangs non chiffrés recomptés (26).
+
+## Ce qui reste ouvert
+
+- Jeux : le tri et le n° 36 suppriment 6,7 Md€ ; la colonne H du schéma n’en retient que 0,3 — écart au schéma, déclaré.
+- PDF et docx des liasses non régénérés ; tri du 20261103 non promu référence du contrôle des sièges ; site non mis à jour.
+
+## 20261109 — fil code, intégration des amendements du tri
+
+## Ce qui a changé au corpus
+
+- P1 n° 36, 37 et 38 intégrés aux n° 22 et 23, 29 et 25 (liasse) ; fiches `tri_36` à `tri_38` retirées ; première partie à 35 amendements, liasses à 83.
+- Tri : 58 rangs portés par un ajout à un amendement existant (projet) ; `verifier_fond.py` : 103 visas, tous applicables au 1er juillet 2027.
+- `registre_calcul_etatB.md`, § 18 : lignes renommées, montants inchangés.
+
+## Ce qui reste ouvert
+
+- Fiches des n° 22, 23, 25 et 29 en retard sur la liasse (antérieur à ce fil).
+- Word et PDF des liasses à publier au site ; page Amendements et compteur à 83.
+
+## 20261109 — lots de la liasse P1 et clause des niches
+
+## Ce qui a changé au corpus
+
+- Liasse P1 : lot I « Restitution, niches et taxes affectées » (n° 1 à 18, 24 à 26) ; n° 35 au lot II ; cinq lots ; numérotation et corps inchangés.
+- P1 n° 1, II, 5° : restreint aux mesures instituées par la présente loi pour l’aide fondamentale (âge, handicap, retraite) ; exposé harmonisé.
+- Tri : verdict des 28 taux réduits de TVA recensés corrigé (n° 1 au 1er juillet 2027).
+
+## Ce qui reste ouvert
+
+- `livrables/depot_2027/clause_generale_niches_20261005.md` porte une rédaction antérieure du II ; la liasse fait foi.
+- Correspondance niche par niche des taux réduits recensés avec le III du n° 1 : à rejouer.
+
+## 20261110 — aide fondamentale des pensionnés, contrôle des liasses
+
+## Ce qui a changé au corpus
+
+- P1 n° 28 : aide minorée de 3 300 € pour les pensionnés de régimes obligatoires (pensions liquidées avant 2028), au prorata ensuite ; exposé et fiche alignés.
+- P1 n° 1, II, 5° : modulation transitoire par le bénéfice d’une pension.
+- `appareil/controle_liasses.py` et `livrables/controle_liasses.md` : contrôle de numérotation et de liens des trois liasses, 0 écart.
+
+## Ce qui reste ouvert
+
+- Trois constats à trancher (registre, 20261110) : dates clause / repli (n° 11, n° 12), non-cumul aux exposés, double abrogation au PLFSS.
+- Chiffrage de la minoration des pensionnés.
+
+## 20261110 — cohérence des liasses
+
+## Ce qui a changé au corpus
+
+- P1 n° 1 : crédit d’impôt famille du E au B du IV. P1 n° 12 : 1er janvier 2027. P1 n° 11 : exercices clos à compter du 1er janvier 2027. Exposés des n° 10 à 15 : non-cumul avec la clause.
+- Contrôle des liasses : L7 (dates exposé / dispositif) ajouté ; 0 écart.
+
+## Ce qui reste ouvert
+
+- Chiffrage de la minoration des pensionnés (P1 n° 28) ; publication des liasses au site.
+
+## 20261112 — relevé du jaune des opérateurs, deux classeurs retouchés au dépôt du site
+
+## Ce qui a changé au corpus
+
+- `referentiels/operateurs_jaune2026_20261112.tsv` et ses deux tables (`_categories_`, `_entites_`) : relevé du jaune « Opérateurs de l’État » du PLF 2026, 180 lignes pour 431 opérateurs, contrôlé sur les totaux que le jaune publie. Note de lecture à côté.
+- Le lecteur est au dépôt du site (`Site-ETNP/outils/jaune.py`), comme le PDF (`Site-ETNP/site/donnees/PLF 2026_Jaune - Operateurs.pdf`).
+- Au dépôt du site, deux classeurs servis ont été retouchés sur ordre de l’auteur : `Synthèse Chiffres`, onglet `Annexe Manuscrit`, cellules E8 et F8 ; `Synthèse ETP et agences`, onglet `Opérateurs R`, colonnes U à AB ajoutées (financements 2026 d’après le jaune, économie de taxes affectées d’après le classeur des taxes).
+
+## Ce qui reste ouvert
+
+- Les exemplaires des deux classeurs tenus par l’auteur hors dépôt ne portent pas ces retouches : ils sont à remplacer par ceux du dépôt du site.
+- Trois constats relevés aux classeurs, à trancher (registre, 20261112).
+- Les tableaux d’exécution 2022-2024 du jaune ne sont pas lus.
+
+## 20261112 — simulateur « Reprenez votre argent », mis en ligne et inscrit
+
+## Ce qui a changé au corpus
+
+- `referentiels/simulateur_elements_20261112.tsv` : les 501 éléments cochables du simulateur, leur poste, leur ministère, leurs montants (129,5 Md€ la première année, 236,05 en régime plein). Note de lecture à côté : règles de calcul, source de chaque poste, ce qui est de l’auteur et ce qui est tranché en propre.
+- `referentiels/comptes_strates_locales_20261112.tsv` : comptes Insee des communes, des départements et des régions, 2019-2024.
+- Au dépôt du site : `site/reprenez.html` en ligne, liée depuis aucune page ; `outils/restitution.py` la génère ; trois classeurs Insee ajoutés à `site/donnees/` ; colonnes Z à AB (économie de taxes affectées) à l’onglet `Opérateurs R` ; la carte Agences mène au tableau des opérateurs.
+
+## Ce qui reste ouvert
+
+- Les constats aux classeurs du 20261112, toujours en « proposé ».
+- Quatre points fragiles du simulateur, § 7 de sa note : épargne proportionnelle au salaire, recalage des agences la première année, clé unique par poste pour les strates, textes de la page écrits en propre.
+- La page n’est liée depuis aucune autre : sa publication reste à décider.
+
+## 20261112 — total porté à 236,4, site et simulateur ajustés
+
+## Ce qui a changé au corpus
+
+- Au dépôt du site, `Synthèse Chiffres Résolution` : 1,37 Md€ de subventions aux opérateurs intégrés, total ajusté à 236,40 (chômage 29,6 ; patrimoine 17,6 ; aides locales 12,21 ; agents locaux 19,86). Carto à 68 = 39 + 29, avec la mention des arrondis.
+- `referentiels/simulateur_elements_20261112.tsv` régénéré : 502 éléments, 129,46 Md€ la première année, 236,40 en régime plein. Sa note suit.
+- Deux règles de l’auteur inscrites à `CLAUDE.md` : ce qui est à valider se présente dans la conversation ; pas de tournure introductive.
+
+## Ce qui reste ouvert
+
+- `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel ; graphique des 236 milliards et onglet `Graph236` aux anciens montants ; « 3 % de rendement net » à la carte du patrimoine.
+- Les seuils et les lignes de « En échange », proposés.
+
+## 20261112 — les 1,37 Md€ partagés entre agences et agents
+
+## Ce qui a changé au corpus
+
+- Au dépôt du site, `Synthèse Chiffres Résolution`, onglet `Annexe Manuscrit` : F8 et F12 partagent par moitié les 1,37 Md€ entre agences et agents. Masse salariale 30,12 ; fonctionnement 38,12 ; fermeture des agences 9,32 ; total 236,40 inchangé. Carto à 68 = 38 + 30.
+- `referentiels/simulateur_elements_20261112.tsv` régénéré : 502 éléments, agences 9,32 Md€ en régime plein, agents de l’État et des agences 10,26. Sa note suit (ligne « autres » 0,42 Md€, relèvement de première année 1,23).
+- Registre : une entrée, qui remplace sur ce point le 39 + 29.
+
+## Ce qui reste ouvert
+
+- `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel ; graphique des 236 milliards et onglet `Graph236` aux anciens montants ; « 3 % de rendement net » à la carte du patrimoine.
+- Les seuils et les lignes de « En échange », proposés.
+
+## 20261112 — graphique des 236 milliards et calcul des classeurs repris
+
+## Ce qui a changé au corpus
+
+- Au dépôt du site : onglet `Graph236` et graphique « Où sont les 236 milliards » (page, galerie, images, PDF) aux montants de l’Annexe ; carto, aides locales aux entreprises à 12,2 Md€.
+- `referentiels/REF_doctrine.json` : 38 lignes de valeur, d’opération ou d’origine portées au classeur corrigé (D2-1-1, D2-2-1, D2-4-1, D3-2-2, D6-2-2, D8-3-1, D11). Empreinte relevée à la main, `make coffre` demandant un clone absent.
+- `appareil/controle_arithmetique.py` et `appareil/sources_chiffres.py` : mêmes montants ; deux écarts d’ancre ajoutés (chômage, patrimoine).
+
+## Ce qui reste ouvert
+
+- `D7-2-2-e2` : 3 % au manuscrit, 2,9 % au classeur ; `GraphAFU` porte 264 € par personne et par an, calculés sur 18 Md€.
+- Les dérivés du référentiel de doctrine ne sont pas régénérés : `make` s’arrête ici, le manuscrit n’étant pas au conteneur.
+- `SynthèseR` H8 (classeur `.xls`) à retoucher dans Excel.
+
+## 20261116 — simulateur repris bloc par bloc ; routes sorties des économies
+
+## Ce qui a changé au corpus
+
+- Au dépôt du site : simulateur refondu (trois étapes, arbre emboîté, pages sur téléphone), patrimoine en trois tiers au rendement égal par personne, chômage en deux postes, carte Ministères par ce qui est coupé ; classeur Chiffres à 236,175 Md€ après retrait de l’entretien des routes nationales.
+- `referentiels/REF_doctrine.json`, `appareil/controle_arithmetique.py`, `appareil/sources_chiffres.py` : portés au nouveau total ; empreintes relevées.
+- `referentiels/simulateur_elements_20261112.tsv` et sa note : 505 éléments, 21 postes.
+
+## Ce qui reste ouvert
+
+- Revue du simulateur bloc par bloc : Agences, Associations, niches communes, patrimoine (flux affiché), puis Agents publics.
+- Trois taux pour le rendement du patrimoine : 3,3 % au simulateur, 3 % au livre, 2,9 % au classeur.
+- La croix « essentiel » du programme 203 au classeur `.xls`, et `SynthèseR` H8, à retoucher dans Excel.
+- Accroche de l’accueil vers le simulateur, à faire en fin de revue.
+
+## 20261116 — fonctionnement de l'État à 85 %, total revenu à 236,402
+
+## Ce qui a changé au corpus
+
+- Le retrait des routes ne baisse plus le poste : classeur des chiffrages revenu à 236,402 Md€ (l'entrée du même jour disait 236,175), hypothèse du poste réécrite à 85 % et 90 % pour Matignon.
+- `REF_doctrine.json` et les deux contrôles revenus à leur état précédent ; `grille_lecture_budgetaire.md` porte la nouvelle règle.
+
+## Ce qui reste ouvert
+
+- `Dépenses de l'État.xls` (`SynthèseR` : 80 %, routes comptées) et l'amendement n° 4 de la liasse du PLF, non alignés.
+- Revue du simulateur bloc par bloc : Agences, Associations, niches communes, patrimoine, Agents publics.
+
+## 20261116 — clôture du fil du simulateur : passation et audit de la liasse de crédits
+
+## Ce qui a changé au corpus
+
+- `methode/etats/PASSATION_simulateur_liasses_20261116.md` : compte rendu du fil, marche à suivre pour la liasse de crédits, trois mandats (projet, fil Code liasses, fil Code simulateur).
+- Classeurs du site : fonctionnement de l'État écrit à 85 % hors entretien des routes nationales (`SynthèseR` E7 et F7, hypothèse de la ligne 37 des chiffrages) ; total inchangé, 236,402 Md€.
+- `LIASSE_PLF_P2.md`, amendement n° 4 : l'entretien des routes nationales n'est plus retiré.
+- Registre : audit des canaux — les 22 amendements « Retirer les crédits » n'appliquent ni socle ni rythme.
+
+## Ce qui reste ouvert
+
+- La réécriture des 22 amendements de crédits, après passage par le projet pour la table des paramètres et les calendriers.
+- La revue du simulateur, bloc par bloc, à partir des Agences.
+- Les écarts de procédure du fil, dits à la passation : `methode/` et deux modules partagés touchés pendant qu'un autre fil travaillait ; empreintes relevées à la main.
+
 ## 20261125 — L'audition du 10 novembre au Sénat entre au corpus, avec ses pièces
 
 ## Ce qui a changé au corpus

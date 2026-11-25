@@ -11,21 +11,27 @@
       "code": "cpp",
       "num": "L5511-1",
       "principe": "P25",
-      "motif": "Gardé : le fichier et ses finalités relèvent de la loi.",
+      "motif": "Gardé : le fichier et ses finalités relèvent de la loi. Passe 4 : le nom du traitement et ses finalités par bulletin sont gardés ; « est autorisé à mettre en œuvre » devient « met en œuvre », même habilitation légale.",
       "ligne_rouge": "art. 2 DDHC, vie privée : fichier nominatif des condamnations encadré par la loi, finalités et destinataires bornés. texte gardé mot pour mot.",
-      "decision": "G"
+      "decision": "S",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Le ministre de la justice met en œuvre le « casier judiciaire national automatisé », traitement automatisé de données à caractère personnel qui enregistre, conserve, gère et communique les mentions des condamnations et autres décisions prononcées par les autorités judiciaires ou administratives, au moyen des bulletins n° 1, n° 2 et n° 3 du chapitre 4 et pour les finalités propres à chacun."
+        }
+      ]
     },
     {
       "code": "cpp",
       "num": "L5511-2",
       "principe": "P23",
-      "motif": "Les empreintes et l'interconnexion qui sert à les vérifier (L5511-6) en un article, finalité unique gardée.",
+      "motif": "Les empreintes et l'interconnexion qui sert à les vérifier (L5511-6) en un article, finalité unique gardée. Passe 4 : phrase resserrée, finalité unique gardée.",
       "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : l'identification évite la condamnation sous une fausse identité ; finalité unique gardée (vie privée).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Aux fins de vérifier l'identité des personnes condamnées pour un crime ou un délit puni d'emprisonnement, le casier judiciaire national automatisé enregistre et conserve les empreintes digitales recueillies à l'occasion des procédures pénales qui les concernent. Il peut, à cette seule fin, être interconnecté avec le fichier automatisé des empreintes digitales."
+          "nouveau": "Pour vérifier l'identité des personnes condamnées pour un crime ou un délit puni d'emprisonnement, le casier judiciaire enregistre et conserve les empreintes digitales recueillies au cours des procédures pénales qui les concernent. Il peut, à cette seule fin, être interconnecté avec le fichier automatisé des empreintes digitales."
         }
       ]
     },
@@ -33,13 +39,13 @@
       "code": "cpp",
       "num": "L5511-3",
       "principe": "P23",
-      "motif": "Accès et rectification (L5511-4, texte de la passe 2) en un article. L'interdiction de la copie se dit positivement, en phrase courte.",
+      "motif": "Accès et rectification (L5511-4, texte de la passe 2) en un article. L'interdiction de la copie se dit positivement, en phrase courte. Passe 4 : « sans copie » remplace la phrase sur la copie ; le renvoi de la rectification au décret de L5511-14 tombe, ce décret fixant de lui-même les modalités du titre (même strate, décret en Conseil d'État).",
       "ligne_rouge": "art. 2 DDHC, vie privée : fichier nominatif des condamnations encadré par la loi, finalités et destinataires bornés. accès au relevé, interdiction de la copie (contre l'employeur qui l'exigerait) et rectification gardés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Toute personne justifiant de son identité peut obtenir communication du relevé intégral des mentions du casier judiciaire la concernant, selon des modalités fixées par voie réglementaire. Aucune copie ne lui en est délivrée. Cette communication ne vaut pas notification des décisions non définitives et ne fait pas courir les délais de recours.\nToute personne peut demander la rectification d'une mention portée à son casier judiciaire, selon les modalités du décret prévu à l'article L. 5511-14."
+          "nouveau": "Toute personne qui justifie de son identité peut obtenir communication, sans copie, du relevé intégral des mentions du casier judiciaire qui la concernent, selon des modalités fixées par voie réglementaire. Cette communication ne vaut pas notification des décisions non définitives et ne fait pas courir les délais de recours.\nToute personne peut demander la rectification d'une mention portée à son casier judiciaire."
         }
       ]
     },
@@ -47,13 +53,13 @@
       "code": "cpp",
       "num": "L5511-5",
       "principe": "P23",
-      "motif": "Le régime des interconnexions en un article : l'interdiction, sa réserve, et les deux ouvertures européennes (L5511-7, L5511-8). Les objets de l'interconnexion avec ECRIS-TCN (consultation, interrogation, alimentation, actualisation) sont ceux du règlement, qui les fixe lui-même. La décision-cadre se cite dans sa version en vigueur, modifications comprises.",
+      "motif": "Le régime des interconnexions en un article : l'interdiction, sa réserve, et les deux ouvertures européennes (L5511-7, L5511-8). Les objets de l'interconnexion avec ECRIS-TCN (consultation, interrogation, alimentation, actualisation) sont ceux du règlement, qui les fixe lui-même. La décision-cadre se cite dans sa version en vigueur, modifications comprises. Passe 4 : « mis en œuvre par une personne quelconque ou par un service de l'Etat ne dépendant pas du ministère de la justice » devient « mis en œuvre hors du ministère de la justice », même champ ; « notamment la délivrance des bulletins » tombe, la délivrance étant une diligence du titre ; le décret de L5511-14 (avis de la CNIL) fixe toujours la liste.",
       "ligne_rouge": "art. 2 DDHC, vie privée : fichier nominatif des condamnations encadré par la loi, finalités et destinataires bornés. l'interdiction des interconnexions hors justice, qui empêche le casier de devenir un fichier administratif général, est gardée.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Hors les cas prévus au présent article et à l'article L. 5511-2, le casier judiciaire national automatisé ne peut faire l'objet d'aucune interconnexion, au sens du 3° du I de l'article 33 de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, avec un fichier ou traitement de données à caractère personnel mis en œuvre par une personne quelconque ou par un service de l'Etat ne dépendant pas du ministère de la justice. Il peut toutefois recevoir les données d'un traitement mis en œuvre par un service de l'Etat pour les diligences prévues au présent titre, notamment la délivrance des bulletins.\nIl peut être interconnecté avec le traitement européen centralisé « ECRIS-TCN » et avec les traitements nécessaires à l'application du règlement (UE) 2019/816 du 17 avril 2019 et de la décision-cadre 2009/315/JAI du 26 février 2009, dont la liste est fixée par le décret prévu à l'article L. 5511-14."
+          "nouveau": "Hors les cas prévus au présent article et à l'article L. 5511-2, le casier judiciaire ne fait l'objet d'aucune interconnexion, au sens du 3° du I de l'article 33 de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, avec un fichier ou traitement de données à caractère personnel mis en œuvre hors du ministère de la justice. Il peut recevoir les données d'un traitement d'un service de l'Etat pour les diligences prévues au présent titre.\nIl peut être interconnecté avec le traitement européen centralisé « ECRIS-TCN » et avec les traitements nécessaires à l'application du règlement (UE) 2019/816 du 17 avril 2019 et de la décision-cadre 2009/315/JAI du 26 février 2009, dont le décret prévu à l'article L. 5511-14 fixe la liste."
         }
       ]
     },
@@ -61,13 +67,13 @@
       "code": "cpp",
       "num": "L5511-9",
       "principe": "P26",
-      "motif": "Gardé (passe 2).",
+      "motif": "Gardé (passe 2). Passe 4 : même interdiction, même exception légale, même faculté de la victime, phrases resserrées ; le champ « hors du ministère de la justice » est celui de L5511-5.",
       "ligne_rouge": "art. 2 DDHC, vie privée : fichier nominatif des condamnations encadré par la loi, finalités et destinataires bornés. texte gardé mot pour mot.",
-      "decision": "R",
+      "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Aucun fichier ou traitement de données à caractère personnel mis en œuvre par une personne quelconque ou par un service de l'Etat ne dépendant pas du ministère de la justice ne peut mentionner, hors les cas et dans les conditions prévues par la loi, des jugements ou arrêts de condamnation.\nToutefois, une condamnation pénale pourra toujours être invoquée en justice par la victime de l'infraction."
+          "nouveau": "Aucun fichier ou traitement de données à caractère personnel mis en œuvre hors du ministère de la justice ne peut mentionner de jugement ou d'arrêt de condamnation, hors les cas et conditions prévus par la loi.\nLa victime de l'infraction peut toujours invoquer la condamnation en justice."
         }
       ]
     },
@@ -75,13 +81,13 @@
       "code": "cpp",
       "num": "L5511-10",
       "principe": "P3",
-      "motif": "Texte de la passe 2 (reçoit L5511-11) : même peine, même renvoi.",
+      "motif": "Texte de la passe 2 (reçoit L5511-11) : même peine, même renvoi. Passe 4 : renvois resserrés. « Peines encourues pour le délit prévu à » est gardé, car il porte les peines complémentaires de 226-31 et 226-24. Les deux interdictions restent nommées (relecture adverse de passe 4).",
       "ligne_rouge": "art. 8 DDHC : les deux incriminations et leur peine sont gardées.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "La violation de l'interdiction des interconnexions prévue par l'article L. 5511-5 ou de l'interdiction de mentionner des condamnations dans un traitement prévue par l'article L. 5511-9 est punie des peines encourues pour le délit de détournement des finalités d'un traitement prévu à l'article 226-21 du code pénal."
+          "nouveau": "La violation de l'interdiction d'interconnexion de l'article L. 5511-5 ou de l'interdiction de mentionner des condamnations de l'article L. 5511-9 est punie des peines encourues pour le délit prévu à l'article 226-21 du code pénal."
         }
       ]
     },
@@ -103,13 +109,13 @@
       "code": "cpp",
       "num": "L5511-14",
       "principe": "P15",
-      "motif": "Gardé : l'avis de la CNIL protège la vie privée (exception de P15).",
+      "motif": "Gardé : l'avis de la CNIL protège la vie privée (exception de P15). Passe 4 : même décret en Conseil d'État, même réserve de la voie réglementaire, avis de la CNIL gardé.",
       "ligne_rouge": "aucune",
-      "decision": "R",
+      "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les modalités d'application des dispositions du présent titre sont déterminées par décret en Conseil d'Etat, sauf lorsqu'il est disposé qu'elles sont déterminées par voie réglementaire.\nLes dispositions de ce décret qui sont relatives au traitement sont prises après avis de la commission nationale de l'informatique et des libertés."
+          "nouveau": "Un décret en Conseil d'Etat fixe les modalités d'application du présent titre, sauf celles que le titre renvoie à la voie réglementaire. Ses dispositions relatives au traitement sont prises après avis de la Commission nationale de l'informatique et des libertés."
         }
       ]
     },
@@ -117,13 +123,13 @@
       "code": "cpp",
       "num": "L5512-1",
       "principe": "P23",
-      "motif": "Une seule liste des décisions enregistrées (P2) : condamnations (texte de la passe 2, dispense toujours inscrite, registre 9.61), irresponsabilité (L5512-2) et décisions non pénales qui créent des incapacités (L5512-4). Chaque cas garde son champ, énumération close par des points.",
+      "motif": "Une seule liste des décisions enregistrées (P2) : condamnations (texte de la passe 2, dispense toujours inscrite, registre 9.61), irresponsabilité (L5512-2) et décisions non pénales qui créent des incapacités (L5512-4). Chaque cas garde son champ, énumération close par des points. Passe 4 : incises resserrées (« contradictoires ou par défaut », « après transfèrement du condamné », renvois aux articles L6323-2 et L6323-5) ; les onze cas gardent leur champ et leur numéro, que lot_p032 cite.",
       "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la dispense ne peut plus exclure l'inscription au casier (registre 9.61), la mémoire des condamnations sert la récidive (P6). Vie privée : contenu fixé par la loi.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le casier judiciaire national automatisé enregistre les mentions relatives :\n1° Aux condamnations contradictoires et aux condamnations par défaut non frappées d'opposition, prononcées pour crime, délit ou contravention de la cinquième classe, ou pour une contravention des quatre premières classes lorsqu'est prise, à titre principal ou complémentaire, une mesure d'interdiction, de déchéance ou d'incapacité.\n2° Aux déclarations de culpabilité assorties d'une dispense de peine ou d'un ajournement du prononcé de la peine.\n3° Aux mesures éducatives, dispenses de mesure éducative et déclarations de réussite éducative prononcées à l'égard d'un mineur en application du titre Ier du livre Ier du code de la justice pénale des mineurs.\n4° Aux compositions pénales dont l'exécution a été constatée par le procureur de la République.\n5° Aux condamnations prononcées par les juridictions étrangères qui, en application d'une convention ou d'un accord internationaux, ont fait l'objet d'un avis aux autorités françaises ou ont été exécutées en France à la suite du transfèrement des personnes condamnées.\n6° Aux amendes forfaitaires délictuelles et de la cinquième classe payées ou devenues définitives à l'expiration des délais de contestation.\n7° Aux déclarations d'irresponsabilité pénale pour cause de trouble mental assorties d'une hospitalisation d'office ordonnée en application de l'article L. 6323-2 ou de mesures de sûreté prévues à l'article L. 6323-5.\n8° Aux décisions disciplinaires de l'autorité judiciaire ou d'une autorité administrative qui entraînent ou édictent des incapacités.\n9° Aux jugements prononçant la faillite personnelle ou l'interdiction prévue à l'article L. 653-8 du code de commerce.\n10° Aux jugements prononçant la déchéance de l'autorité parentale ou le retrait de tout ou partie des droits qui y sont attachés.\n11° Aux arrêtés d'expulsion pris contre les étrangers et aux décisions qui les rapportent ou les suspendent."
+          "nouveau": "Le casier judiciaire enregistre les mentions relatives :\n1° Aux condamnations contradictoires ou par défaut non frappées d'opposition, prononcées pour crime, délit ou contravention de la cinquième classe, ou pour une contravention des quatre premières classes lorsqu'est prise, à titre principal ou complémentaire, une mesure d'interdiction, de déchéance ou d'incapacité.\n2° Aux déclarations de culpabilité assorties d'une dispense de peine ou d'un ajournement du prononcé de la peine.\n3° Aux mesures éducatives, dispenses de mesure éducative et déclarations de réussite éducative prononcées à l'égard d'un mineur en application du titre Ier du livre Ier du code de la justice pénale des mineurs.\n4° Aux compositions pénales dont le procureur de la République a constaté l'exécution.\n5° Aux condamnations prononcées par les juridictions étrangères qui, en application d'une convention ou d'un accord internationaux, ont fait l'objet d'un avis aux autorités françaises ou ont été exécutées en France après transfèrement du condamné.\n6° Aux amendes forfaitaires délictuelles et de la cinquième classe payées ou devenues définitives à l'expiration des délais de contestation.\n7° Aux déclarations d'irresponsabilité pénale pour cause de trouble mental assorties de l'hospitalisation d'office de l'article L. 6323-2 ou des mesures de sûreté de l'article L. 6323-5.\n8° Aux décisions disciplinaires de l'autorité judiciaire ou d'une autorité administrative qui entraînent ou édictent des incapacités.\n9° Aux jugements prononçant la faillite personnelle ou l'interdiction prévue à l'article L. 653-8 du code de commerce.\n10° Aux jugements prononçant la déchéance de l'autorité parentale ou le retrait de tout ou partie des droits qui y sont attachés.\n11° Aux arrêtés d'expulsion des étrangers et aux décisions qui les rapportent ou les suspendent."
         }
       ]
     },
@@ -131,13 +137,13 @@
       "code": "cpp",
       "num": "L5512-3",
       "principe": "P23",
-      "motif": "Même liste en une phrase. Le renvoi vise les seules décisions de l'ancien L5512-1 (1° à 6°) : ni l'irresponsabilité (7°, ancien L5512-2) ni les décisions non pénales (ancien L5512-4) n'y entrent, comme en 2029. L6314-5 y renvoie.",
+      "motif": "Même liste en une phrase. Le renvoi vise les seules décisions de l'ancien L5512-1 (1° à 6°) : ni l'irresponsabilité (7°, ancien L5512-2) ni les décisions non pénales (ancien L5512-4) n'y entrent, comme en 2029. L6314-5 y renvoie. Passe 4 : « condamnations et décisions » devient « décisions », le renvoi aux 1° à 6° de L5512-1 gardant le même champ (relecture de passe 3).",
       "ligne_rouge": "art. 66 C : l'article enregistre les mesures de sûreté, il n'en décide aucune ; le casier dit ce que la peine est devenue.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le casier judiciaire national automatisé enregistre aussi les grâces et commutations de peines, les décisions et événements relatifs à l'exécution des condamnations et décisions mentionnées aux 1° à 6° de l'article L. 5512-1, dont la liste est fixée par le décret prévu à l'article L. 5511-14, les réhabilitations judiciaires et les décisions qui prononcent ou renouvellent une surveillance de sûreté ou une rétention de sûreté."
+          "nouveau": "Le casier judiciaire enregistre aussi les grâces et commutations de peines, les décisions et événements relatifs à l'exécution des décisions mentionnées aux 1° à 6° de l'article L. 5512-1, dont le décret prévu à l'article L. 5511-14 fixe la liste, les réhabilitations judiciaires et les décisions qui prononcent ou renouvellent une surveillance de sûreté ou une rétention de sûreté."
         }
       ]
     },
@@ -145,13 +151,13 @@
       "code": "cpp",
       "num": "L5513-1",
       "principe": "P23",
-      "motif": "Retraits de plein droit en une liste close par des points : délais de trois ans regroupés, conditions de récidive gardées pour chaque cas, rectification (L5513-4) en 9°. L6314-5 renvoie à L5513-1 et L5513-4 : son champ reste le même.",
+      "motif": "Retraits de plein droit en une liste close par des points : délais de trois ans regroupés, conditions de récidive gardées pour chaque cas, rectification (L5513-4) en 9°. L6314-5 renvoie à L5513-1 et L5513-4 : son champ reste le même. Passe 4 : incises resserrées ; chaque délai, chaque point de départ et chaque condition de non-réitération sont gardés, numérotation inchangée (citée par lot_p032).",
       "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : chaque délai et chaque condition (pas de nouvelle condamnation, crimes imprescriptibles, condamnations étrangères) est gardé ; la récidive reste servie (P6).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Sont retirées du casier judiciaire les mentions relatives :\n1° Aux condamnations effacées par une amnistie.\n2° Aux condamnations prononcées depuis plus de quarante ans et non suivies d'une nouvelle condamnation à une peine criminelle ou délictuelle, sauf pour des faits imprescriptibles ou par une juridiction étrangère.\n3° Aux dispenses de peine et aux condamnations pour contravention, trois ans après que la décision est devenue définitive, ce délai étant de quatre ans pour une contravention dont la récidive constitue un délit.\n4° Aux compositions pénales, trois ans après la constatation de leur exécution, si la personne n'a, pendant ce délai, ni subi de condamnation à une peine criminelle ou délictuelle, ni exécuté une nouvelle composition pénale.\n5° Aux amendes forfaitaires, trois ans après leur paiement ou l'expiration du délai mentionné à l'article L. 4223-11, si la personne n'a, pendant ce délai, ni subi de condamnation à une peine criminelle ou délictuelle, ni fait l'objet d'une nouvelle amende forfaitaire délictuelle.\n6° Aux mesures éducatives, dispenses de mesure éducative et déclarations de réussite éducative prononcées à l'encontre d'un mineur, trois ans après que la décision est devenue définitive.\n7° Aux déclarations d'irresponsabilité pénale pour cause de trouble mental, lorsque l'hospitalisation d'office ordonnée en application de l'article L. 6323-2 a pris fin ou que les mesures de sûreté prévues par l'article L. 6323-5 ont cessé leurs effets.\n8° Aux condamnations prononcées par les juridictions étrangères, dès réception d'un avis d'effacement de l'Etat de condamnation.\n9° Aux mentions réformées par une décision de rectification prise en application de l'article L. 5511-3."
+          "nouveau": "Sont retirées du casier judiciaire les mentions relatives :\n1° Aux condamnations effacées par une amnistie.\n2° Aux condamnations prononcées depuis plus de quarante ans et non suivies d'une nouvelle condamnation à une peine criminelle ou délictuelle, sauf pour des faits imprescriptibles ou par une juridiction étrangère.\n3° Aux dispenses de peine et aux condamnations pour contravention, trois ans après que la décision est devenue définitive, ou quatre ans pour une contravention dont la récidive constitue un délit.\n4° Aux compositions pénales, trois ans après la constatation de leur exécution, si la personne n'a, dans ce délai, ni subi de condamnation à une peine criminelle ou délictuelle, ni exécuté une nouvelle composition pénale.\n5° Aux amendes forfaitaires, trois ans après leur paiement ou l'expiration du délai de l'article L. 4223-11, si la personne n'a, dans ce délai, ni subi de condamnation à une peine criminelle ou délictuelle, ni fait l'objet d'une nouvelle amende forfaitaire délictuelle.\n6° Aux mesures éducatives, dispenses de mesure éducative et déclarations de réussite éducative prononcées à l'encontre d'un mineur, trois ans après que la décision est devenue définitive.\n7° Aux déclarations d'irresponsabilité pénale pour cause de trouble mental, lorsque l'hospitalisation d'office de l'article L. 6323-2 a pris fin ou que les mesures de sûreté de l'article L. 6323-5 ont cessé leurs effets.\n8° Aux condamnations prononcées par les juridictions étrangères, dès réception d'un avis d'effacement de l'Etat de condamnation.\n9° Aux mentions réformées par une décision de rectification prise selon l'article L. 5511-3."
         }
       ]
     },
@@ -159,13 +165,13 @@
       "code": "cpp",
       "num": "L5513-2",
       "principe": "P23",
-      "motif": "Les retraits qui suivent une autre décision en une liste : disciplinaire, commercial, réhabilitation (L5513-3, texte de la passe 2) et condamnation étrangère (L5513-5).",
+      "motif": "Les retraits qui suivent une autre décision en une liste : disciplinaire, commercial, réhabilitation (L5513-3, texte de la passe 2) et condamnation étrangère (L5513-5). Passe 4 : voix active et incises resserrées ; délais, durée de maintien et retransmission européenne gardés.",
       "ligne_rouge": "P6 : la retransmission européenne reste, la récidive dans l'Union est servie.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Sont également retirées du casier judiciaire les mentions relatives :\n1° Aux décisions disciplinaires, lorsqu'elles ont été effacées par la réhabilitation ou, à défaut de disposition prévoyant cet effacement, lorsque les incapacités qui les assortissent ont pris fin.\n2° Aux jugements prononçant la faillite personnelle ou l'interdiction prévue à l'article L. 653-8 du code de commerce, lorsque ces mesures sont effacées par un jugement de clôture pour extinction du passif ou par la réhabilitation, ou cinq ans après que ces condamnations sont devenues définitives. Si la mesure dure plus de cinq ans, la mention demeure pendant la même durée.\n3° Aux condamnations dont la chambre des investigations et des libertés a ordonné le retrait en application de l'article L. 5532-5.\n4° Aux condamnations prononcées par les juridictions étrangères dont une juridiction française a ordonné le retrait en application de l'article L. 5514-3. Si la condamnation a été prononcée dans un Etat membre de l'Union européenne, ce retrait ne fait pas obstacle à la retransmission de la mention aux autres Etats membres."
+          "nouveau": "Sont aussi retirées du casier judiciaire les mentions relatives :\n1° Aux décisions disciplinaires, lorsque la réhabilitation les a effacées ou, à défaut de disposition prévoyant cet effacement, lorsque les incapacités qui les assortissent ont pris fin.\n2° Aux jugements prononçant la faillite personnelle ou l'interdiction prévue à l'article L. 653-8 du code de commerce, lorsqu'un jugement de clôture pour extinction du passif ou la réhabilitation efface ces mesures, ou cinq ans après que ces condamnations sont devenues définitives. Si la mesure dure plus de cinq ans, la mention demeure pendant la même durée.\n3° Aux condamnations dont la chambre des investigations et des libertés a ordonné le retrait selon l'article L. 5532-5.\n4° Aux condamnations prononcées par les juridictions étrangères dont une juridiction française a ordonné le retrait selon l'article L. 5514-3. Ce retrait n'empêche pas la retransmission de la mention d'une condamnation prononcée dans un Etat membre de l'Union européenne aux autres Etats membres."
         }
       ]
     },
@@ -173,13 +179,13 @@
       "code": "cpp",
       "num": "L5514-1",
       "principe": "P23",
-      "motif": "Définition, finalités et destinataires du bulletin n° 1 (L5514-2) en un article.",
+      "motif": "Définition, finalités et destinataires du bulletin n° 1 (L5514-2) en un article. Passe 4 : incises resserrées ; finalités et destinataires du bulletin n° 1 gardés en liste fermée.",
       "ligne_rouge": "art. 2 DDHC, vie privée : fichier nominatif des condamnations encadré par la loi, finalités et destinataires bornés. le bulletin n° 1 ne va qu'à l'autorité judiciaire et aux services de l'exécution.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le bulletin n° 1 est le relevé intégral des mentions du casier judiciaire applicables à la même personne. Il permet aux autorités judiciaires de connaître ses antécédents pour les besoins des procédures pénales dont elles sont chargées, et d'apprécier sa capacité à exercer les fonctions de juré.\nIl n'est délivré qu'aux autorités judiciaires mentionnées au livre Ier de la deuxième partie du présent code. Il peut aussi être délivré aux greffes des établissements pénitentiaires, pour compléter les dossiers individuels des personnes incarcérées, et aux directeurs des services pénitentiaires d'insertion et de probation, pour individualiser la prise en charge des personnes condamnées."
+          "nouveau": "Le bulletin n° 1 est le relevé intégral des mentions du casier judiciaire applicables à la même personne. Il permet aux autorités judiciaires de connaître ses antécédents pour les procédures pénales dont elles sont chargées et d'apprécier sa capacité à exercer les fonctions de juré.\nIl n'est délivré qu'aux autorités judiciaires mentionnées au livre Ier de la deuxième partie. Il peut aussi être délivré aux greffes des établissements pénitentiaires, pour compléter les dossiers individuels des personnes incarcérées, et aux directeurs des services pénitentiaires d'insertion et de probation, pour individualiser la prise en charge des personnes condamnées."
         }
       ]
     },
@@ -187,13 +193,13 @@
       "code": "cpp",
       "num": "L5514-3",
       "principe": "P23",
-      "motif": "Même règle, phrases allégées.",
+      "motif": "Même règle, phrases allégées. Passe 4 : « conformément aux » devient « selon les » ; tribunal, délais d'irrecevabilité et procédure gardés.",
       "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : la mention d'une condamnation rendue hors de nos garanties se juge en France, au cas par cas.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le ressortissant français condamné par une juridiction étrangère dont la condamnation figure au bulletin n° 1 peut en demander le retrait au tribunal délictuel de son domicile, ou de Paris s'il réside à l'étranger. A peine d'irrecevabilité, la requête n'est portée devant le tribunal qu'à l'issue des délais prévus à l'article 133-16-1 du code pénal. Elle est instruite et jugée conformément aux articles L. 5522-3 à L. 5522-7."
+          "nouveau": "Le ressortissant français condamné par une juridiction étrangère dont la condamnation figure au bulletin n° 1 peut en demander le retrait au tribunal délictuel de son domicile, ou de Paris s'il réside à l'étranger. A peine d'irrecevabilité, la requête n'est portée devant le tribunal qu'à l'issue des délais de l'article 133-16-1 du code pénal. Elle est instruite et jugée selon les articles L. 5522-3 à L. 5522-7."
         }
       ]
     },
@@ -201,13 +207,13 @@
       "code": "cpp",
       "num": "L5514-4",
       "principe": "P23",
-      "motif": "Même règle, énumération fondue dans la phrase. L'article 131-26-2 du code pénal y renvoie.",
+      "motif": "Même règle, énumération fondue dans la phrase. L'article 131-26-2 du code pénal y renvoie. Passe 4 : phrase resserrée ; finalités du bulletin n° 2 gardées.",
       "ligne_rouge": "art. 2 DDHC, vie privée : fichier nominatif des condamnations encadré par la loi, finalités et destinataires bornés. finalités du bulletin n° 2 gardées.",
       "decision": "S",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le bulletin n° 2 est le relevé des mentions du casier judiciaire applicables à la même personne, à l'exclusion de celles prévues par l'article L. 5514-5. Il permet à des autorités judiciaires ou administratives ou à des personnes chargées de missions de service public de connaître les interdictions, déchéances ou incapacités professionnelles ou sociales qui résultent des condamnations qu'il mentionne, et d'apprécier la compatibilité de ces condamnations avec l'obtention de distinctions, d'autorisations, d'agréments, d'habilitations ou de tout autre avantage, ou avec l'exercice d'activités professionnelles ou sociales."
+          "nouveau": "Le bulletin n° 2 est le relevé des mentions du casier judiciaire applicables à la même personne, sauf celles qu'exclut l'article L. 5514-5. Il permet aux autorités judiciaires ou administratives et aux personnes chargées d'une mission de service public de connaître les interdictions, déchéances ou incapacités professionnelles ou sociales qui résultent des condamnations qu'il mentionne, et d'apprécier si ces condamnations sont compatibles avec l'obtention de distinctions, d'autorisations, d'agréments, d'habilitations ou de tout autre avantage, ou avec l'exercice d'activités professionnelles ou sociales."
         }
       ]
     },
@@ -215,13 +221,13 @@
       "code": "cpp",
       "num": "L5514-5",
       "principe": "P23",
-      "motif": "Exclusions du bulletin n° 2 regroupées par objet (seize cas en onze points, aucun retiré) et leurs deux dérogations (L5514-6, L5514-7) en un article. Énumération close par des points.",
+      "motif": "Exclusions du bulletin n° 2 regroupées par objet (seize cas en onze points, aucun retiré) et leurs deux dérogations (L5514-6, L5514-7) en un article. Énumération close par des points. Passe 4 : le 1° ne redit plus la dispense de peine et la composition pénale du mineur, que le 2° exclut pour toute personne ; les autres exclusions et les deux dérogations sont gardées.",
       "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : le bulletin n° 1 garde tout (P6). Les peines complémentaires qui protègent les tiers restent opposables pendant leur durée.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Sont exclues du bulletin n° 2 les mentions relatives :\n1° Aux condamnations, déclarations de culpabilité assorties d'une dispense de peine ou de mesure éducative ou d'une déclaration de réussite éducative, compositions pénales et mesures éducatives prononcées au stade de la sanction à l'égard d'un mineur.\n2° Aux déclarations de culpabilité assorties d'une dispense de peine ou d'un ajournement du prononcé de celle-ci, et aux compositions pénales.\n3° Aux condamnations dont la mention au bulletin n° 2 a été expressément exclue en application de l'article L. 5514-8.\n4° Aux condamnations pour contravention et aux amendes forfaitaires.\n5° Aux condamnations assorties du sursis, avec ou sans probation, lorsqu'elles doivent être considérées comme non avenues.\n6° Aux condamnations ayant fait l'objet d'une réhabilitation de plein droit ou judiciaire.\n7° Aux condamnations auxquelles s'applique l'article L. 263-4 du code de justice militaire.\n8° Aux condamnations prononcées sans sursis en application des articles 131-5-1 à 131-11 du code pénal, cinq ans après qu'elles sont devenues définitives, et à celles prononcées sans sursis à une peine de jours-amende, trois ans après.\n9° Aux condamnations prononcées par une juridiction étrangère à l'expiration des délais prévus à l'article 133-16-1 du code pénal, ou concernant un mineur, ou dont l'utilisation à des fins autres qu'une procédure pénale a été expressément exclue par la juridiction de condamnation.\n10° Aux condamnations prononcées pour les délits prévus au titre IV du livre IV du code de commerce, sauf si le tribunal délictuel a ordonné leur inscription par décision spécialement motivée.\n11° Aux décisions prononçant la déchéance de l'autorité parentale ou le retrait de tout ou partie des droits qui y sont attachés, et aux arrêtés d'expulsion abrogés ou rapportés.\nPar dérogation au 5°, continuent de figurer au bulletin n° 2, pendant la durée de la mesure, le suivi socio-judiciaire prévu par l'article 131-36-1 du code pénal, l'interdiction d'exercer une activité professionnelle ou bénévole impliquant un contact habituel avec des mineurs, les interdictions, incapacités ou déchéances prononcées à titre définitif comme peine complémentaire et la peine complémentaire d'inéligibilité prévue au 2° de l'article 131-26 et aux articles 131-26-1 et 131-26-2 du même code.\nPar dérogation au 8°, la mention d'une interdiction, déchéance ou incapacité prononcée pour plus de cinq ans en application des articles 131-10 et 131-11 du code pénal demeure pendant la même durée."
+          "nouveau": "Sont exclues du bulletin n° 2 les mentions relatives :\n1° Aux condamnations, mesures éducatives et déclarations de culpabilité assorties d'une dispense de mesure éducative ou d'une déclaration de réussite éducative, prononcées au stade de la sanction à l'égard d'un mineur.\n2° Aux déclarations de culpabilité assorties d'une dispense de peine ou d'un ajournement du prononcé de celle-ci, et aux compositions pénales.\n3° Aux condamnations dont la mention au bulletin n° 2 a été expressément exclue selon l'article L. 5514-8.\n4° Aux condamnations pour contravention et aux amendes forfaitaires.\n5° Aux condamnations assorties du sursis, avec ou sans probation, lorsqu'elles doivent être considérées comme non avenues.\n6° Aux condamnations ayant fait l'objet d'une réhabilitation de plein droit ou judiciaire.\n7° Aux condamnations auxquelles s'applique l'article L. 263-4 du code de justice militaire.\n8° Aux condamnations prononcées sans sursis en application des articles 131-5-1 à 131-11 du code pénal, cinq ans après qu'elles sont devenues définitives, et à celles prononcées sans sursis à une peine de jours-amende, trois ans après.\n9° Aux condamnations prononcées par une juridiction étrangère à l'expiration des délais de l'article 133-16-1 du code pénal, ou concernant un mineur, ou dont la juridiction de condamnation a expressément exclu l'utilisation à des fins autres qu'une procédure pénale.\n10° Aux condamnations pour les délits du titre IV du livre IV du code de commerce, sauf si le tribunal délictuel a ordonné leur inscription par décision spécialement motivée.\n11° Aux décisions prononçant la déchéance de l'autorité parentale ou le retrait de tout ou partie des droits qui y sont attachés, et aux arrêtés d'expulsion abrogés ou rapportés.\nPar dérogation au 5°, continuent de figurer au bulletin n° 2, pendant la durée de la mesure, le suivi socio-judiciaire prévu par l'article 131-36-1 du code pénal, l'interdiction d'exercer une activité professionnelle ou bénévole impliquant un contact habituel avec des mineurs, les interdictions, incapacités ou déchéances prononcées à titre définitif comme peine complémentaire et l'inéligibilité prévue au 2° de l'article 131-26 et aux articles 131-26-1 et 131-26-2 du même code.\nPar dérogation au 8°, la mention d'une interdiction, déchéance ou incapacité prononcée pour plus de cinq ans en application des articles 131-10 et 131-11 du code pénal demeure pendant la même durée."
         }
       ]
     },
@@ -229,13 +235,13 @@
       "code": "cpp",
       "num": "L5514-8",
       "principe": "P23",
-      "motif": "Les exclusions des bulletins n° 2 et n° 3 en un article : exclusion par le tribunal (texte de la passe 2 : seules les incapacités de plein droit sont relevées), bulletin n° 3 (L5514-16) et exclusion après vingt ans (L5514-9).",
+      "motif": "Les exclusions des bulletins n° 2 et n° 3 en un article : exclusion par le tribunal (texte de la passe 2 : seules les incapacités de plein droit sont relevées), bulletin n° 3 (L5514-16) et exclusion après vingt ans (L5514-9). Passe 4 : le tribunal du ressortissant condamné à l'étranger se désigne par renvoi à L5514-3, qui nomme le même tribunal (domicile, ou Paris s'il réside à l'étranger) ; exclusions, relèvement et délai de vingt ans gardés.",
       "ligne_rouge": "art. 8 DDHC, individualisation au prononcé et nécessité : les infractions sexuelles, violentes ou contre un mineur restent exclues. Une peine complémentaire ne tombe que par une décision qui la vise (P6).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Sauf pour les infractions sexuelles, violentes ou commises contre un mineur mentionnées à l'article L. 1721-2, le tribunal qui prononce une condamnation peut exclure expressément sa mention au bulletin n° 2, dans le jugement ou par jugement postérieur rendu sur requête du condamné selon les articles L. 5521-1 à L. 5522-7. L'exclusion emporte relèvement des interdictions, déchéances ou incapacités qui résultent de plein droit de la condamnation. Les peines complémentaires prononcées ne sont relevées que selon le titre II du présent livre. Le ressortissant français condamné par une juridiction étrangère peut demander l'exclusion, selon la même procédure, au tribunal délictuel de son domicile, ou de Paris s'il réside à l'étranger.\nLe présent article s'applique aux déclarations d'irresponsabilité pénale pour cause de trouble mental. La mention au bulletin n° 3 peut être exclue dans les mêmes conditions.\nLa personne condamnée à une peine qui ne peut donner lieu à réhabilitation de plein droit obtient, sur simple requête devant le même tribunal, l'exclusion de la mention au bulletin n° 2 vingt ans après sa libération définitive ou sa libération conditionnelle non suivie de révocation, si elle n'a pas été condamnée depuis à une peine criminelle ou délictuelle."
+          "nouveau": "Sauf pour les infractions sexuelles, violentes ou commises contre un mineur mentionnées à l'article L. 1721-2, le tribunal qui prononce une condamnation peut en exclure expressément la mention au bulletin n° 2, dans le jugement ou par jugement postérieur sur requête du condamné selon les articles L. 5521-1 à L. 5522-7. L'exclusion emporte relèvement des interdictions, déchéances ou incapacités qui résultent de plein droit de la condamnation. Les peines complémentaires prononcées ne sont relevées que selon le titre II du présent livre. Le ressortissant français condamné par une juridiction étrangère peut demander l'exclusion, selon la même procédure, au tribunal désigné à l'article L. 5514-3.\nLe présent article s'applique aux déclarations d'irresponsabilité pénale pour cause de trouble mental. La mention au bulletin n° 3 peut être exclue dans les mêmes conditions.\nLa personne condamnée à une peine qui ne peut donner lieu à réhabilitation de plein droit obtient, sur simple requête devant le même tribunal, l'exclusion de la mention au bulletin n° 2 vingt ans après sa libération définitive ou sa libération conditionnelle non suivie de révocation, si elle n'a pas été condamnée depuis à une peine criminelle ou délictuelle."
         }
       ]
     },
@@ -243,13 +249,13 @@
       "code": "cpp",
       "num": "L5514-10",
       "principe": "P23",
-      "motif": "Tous les destinataires du bulletin n° 2 en un article : administrations de contrôle, organismes accueillant des mineurs (L5514-11), contentieux électoral (L5514-12), États étrangers (L5514-13). Le « sans préjudice » de l'article 48 du règlement (UE) 2016/679 tombe : ce règlement s'applique directement.",
+      "motif": "Tous les destinataires du bulletin n° 2 en un article : administrations de contrôle, organismes accueillant des mineurs (L5514-11), contentieux électoral (L5514-12), États étrangers (L5514-13). Le « sans préjudice » de l'article 48 du règlement (UE) 2016/679 tombe : ce règlement s'applique directement. Passe 4 : « le décret … fixe la liste » à la voix active ; les quatre catégories de destinataires gardent leur champ.",
       "ligne_rouge": "art. 2 DDHC, vie privée : fichier nominatif des condamnations encadré par la loi, finalités et destinataires bornés. chaque destinataire reste fondé sur une restriction légale ou un acte international, la délivrance reste proportionnée à l'objet.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le bulletin n° 2 est délivré aux administrations ou organismes chargés par la loi ou le règlement du contrôle de l'exercice d'une activité professionnelle ou sociale soumise à des restrictions expressément fondées sur l'existence de condamnations pénales ou de sanctions disciplinaires, et aux administrations et personnes morales dont la liste est fixée par le décret en Conseil d'Etat prévu à l'article L. 5511-14.\nLorsqu'il ne porte la mention d'aucune condamnation, il peut être délivré, pour les seules nécessités du recrutement d'une personne, aux dirigeants de personnes morales de droit public ou privé, dont la liste est fixée par voie réglementaire, qui exercent auprès des mineurs une activité culturelle, éducative ou sociale au sens de l'article L. 312-1 du code de l'action sociale et des familles.\nDélivré aux autorités publiques en cas de contestation d'une inscription sur les listes électorales, il ne comprend que les décisions entraînant des incapacités en matière de droit de vote.\nPour une finalité prévue au présent titre, il est transmis, dans les conditions d'une convention internationale ou d'un acte de l'Union européenne, aux autorités compétentes des Etats membres de l'Union, des Etats parties à l'accord sur l'Espace économique européen et des Etats qui bénéficient d'une décision d'adéquation prévue à l'article 45 du règlement (UE) 2016/679 du 27 avril 2016."
+          "nouveau": "Le bulletin n° 2 est délivré aux administrations ou organismes chargés par la loi ou le règlement du contrôle d'une activité professionnelle ou sociale soumise à des restrictions expressément fondées sur l'existence de condamnations pénales ou de sanctions disciplinaires, et aux administrations et personnes morales dont le décret en Conseil d'Etat prévu à l'article L. 5511-14 fixe la liste.\nLorsqu'il ne porte la mention d'aucune condamnation, il peut être délivré, pour les seules nécessités du recrutement d'une personne, aux dirigeants des personnes morales de droit public ou privé, dont la liste est fixée par voie réglementaire, qui exercent auprès des mineurs une activité culturelle, éducative ou sociale au sens de l'article L. 312-1 du code de l'action sociale et des familles.\nDélivré aux autorités publiques en cas de contestation d'une inscription sur les listes électorales, il ne comprend que les décisions entraînant des incapacités en matière de droit de vote.\nPour une finalité prévue au présent titre, il est transmis, dans les conditions d'une convention internationale ou d'un acte de l'Union européenne, aux autorités compétentes des Etats membres de l'Union, des Etats parties à l'accord sur l'Espace économique européen et des Etats qui bénéficient d'une décision d'adéquation prévue à l'article 45 du règlement (UE) 2016/679 du 27 avril 2016."
         }
       ]
     },
@@ -257,13 +263,13 @@
       "code": "cpp",
       "num": "L5514-14",
       "principe": "P23",
-      "motif": "Définition, contenu (L5514-15) et délivrance (L5514-17) du bulletin n° 3 en un article.",
+      "motif": "Définition, contenu (L5514-15) et délivrance (L5514-17) du bulletin n° 3 en un article. Passe 4 : la finalité et la délivrance s'écrivent en une phrase, « n'est pas de nationalité française » devient « n'a pas la nationalité française » ; le contenu fermé du bulletin n° 3 et l'interdiction de la délivrance à un tiers sont gardés.",
       "ligne_rouge": "art. 2 DDHC, vie privée : fichier nominatif des condamnations encadré par la loi, finalités et destinataires bornés. le bulletin n° 3 ne va qu'à la personne, jamais à un tiers ; la mention étendue au prononcé reste décidée par la juridiction.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le bulletin n° 3 est le relevé des condamnations prononcées par une juridiction nationale pour crime ou délit, applicables à la même personne et qui ne sont pas exclues du bulletin n° 2, lorsqu'elles portent :\n1° Sur une peine privative de liberté de plus de deux ans sans sursis ou à exécuter en totalité par l'effet de la révocation du sursis, ou d'une durée inférieure si la juridiction en a ordonné la mention au bulletin n° 3.\n2° Sur des interdictions, déchéances ou incapacités prononcées sans sursis en application des articles 131-6 à 131-11 du code pénal, pendant leur durée.\n3° Sur le suivi socio-judiciaire prévu par l'article 131-36-1 du code pénal ou l'interdiction d'exercer une activité professionnelle ou bénévole impliquant un contact habituel avec des mineurs, pendant la durée de la mesure.\nIl comprend aussi les condamnations prononcées par les juridictions étrangères à des peines privatives de liberté de plus de deux ans sans sursis.\nIl permet à la personne de justifier de ses antécédents auprès des tiers qui lui en demandent la remise. Il n'est délivré qu'à elle, à sa demande, ou à l'autorité centrale d'un Etat membre de l'Union européenne saisie par elle. Les modalités de délivrance au demandeur qui n'est pas de nationalité française sont fixées par voie réglementaire."
+          "nouveau": "Le bulletin n° 3 est le relevé des condamnations prononcées par une juridiction nationale pour crime ou délit, applicables à la même personne et non exclues du bulletin n° 2, qui portent :\n1° Une peine privative de liberté de plus de deux ans sans sursis ou à exécuter en totalité par l'effet de la révocation du sursis, ou d'une durée inférieure si la juridiction en a ordonné la mention au bulletin n° 3.\n2° Des interdictions, déchéances ou incapacités prononcées sans sursis en application des articles 131-6 à 131-11 du code pénal, pendant leur durée.\n3° Le suivi socio-judiciaire de l'article 131-36-1 du code pénal ou l'interdiction d'exercer une activité professionnelle ou bénévole impliquant un contact habituel avec des mineurs, pendant la durée de la mesure.\nIl comprend aussi les condamnations prononcées par les juridictions étrangères à des peines privatives de liberté de plus de deux ans sans sursis.\nIl n'est délivré qu'à la personne qu'il concerne, à sa demande, pour justifier de ses antécédents auprès des tiers, ou à l'autorité centrale d'un Etat membre de l'Union européenne qu'elle a saisie. Les modalités de délivrance au demandeur qui n'a pas la nationalité française sont fixées par voie réglementaire."
         }
       ]
     },

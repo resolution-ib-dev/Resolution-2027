@@ -376,6 +376,18 @@ ARTEFACTS = [
     # Retiré du coffre le 20260908. Rejeu prouvé à l'octet contre l'empreinte
     # versée : `make livrables/galerie_fiches.html` rend `30e64637…`, 35 539 o.
     # A-342 — un dérivé dont la source est au coffre ne s'y verse pas.
+    ('presentation_candidat', 'livrables/presentation_candidat/presentation_candidat.html', 'livrable', True, None,
+     ['présentation candidat en deux pages'], ['presentation_candidat.html']),
+    ('presentation_candidat_pdf', 'livrables/presentation_candidat/presentation_candidat.pdf', 'livrable', True, None,
+     ['présentation candidat, rendu PDF'], ['presentation_candidat.pdf']),
+    ('presentation_candidat_gabarit', 'livrables/presentation_candidat/gabarit.html', 'livrable', True, None,
+     ['gabarit de la présentation candidat'], ['gabarit.html']),
+    ('presentation_candidat_rendre', 'livrables/presentation_candidat/rendre.mjs', 'livrable', True, None,
+     ['rendu PDF de la présentation candidat'], ['rendre.mjs']),
+    ('presentation_candidat_sankey_py', 'livrables/presentation_candidat/sankey.py', 'livrable', True, None,
+     ['générateur du sankey de la présentation'], ['sankey.py']),
+    ('presentation_candidat_sankey', 'livrables/presentation_candidat/sankey.svg', 'livrable', True, None,
+     ['sankey de la présentation candidat'], ['sankey.svg']),
     ('galerie_fiches', 'livrables/galerie_fiches.html', 'derive', False,
      'appareil/generer_fiches.py', ['diffusion', 'site'],
      ['proto_fiche.html', 'proto_fiche_A.html', 'proto_fiche_B.html',
@@ -1481,6 +1493,8 @@ ARTEFACTS = [
      ['lecture de fil'], []),
     ('etats:app_classeur_20261007', 'methode/etats/APP_classeur_20261007.md', 'methode', True, None,
      ['lecture de fil'], []),
+    ('etats:passation_simulateur_liasses_20261116', 'methode/etats/PASSATION_simulateur_liasses_20261116.md', 'methode', True, None,
+     ['lecture de fil'], []),
     ('etats:app_collectivites', 'methode/etats/APP_collectivites.md', 'methode', True, None,
      ['lecture de fil'], []),
     ('etats:app_compte_epargne', 'methode/etats/APP_compte_epargne.md', 'methode', True, None,
@@ -1684,6 +1698,8 @@ ARTEFACTS = [
     # ------------------------------------------------------------------ racine
     ('instructions', 'CLAUDE.md', 'methode', True, None,
      ['ouverture de session'], ['CLAUDE.md']),
+    ('pilotage', 'PILOTAGE.md', 'methode', True, None,
+     ['ouverture de session', 'état des chantiers'], ['PILOTAGE.md']),
     ('chaine', 'Makefile', 'appareil', True, None, ['make'], ['Makefile']),
     ('exclusions_git', '.gitignore', 'appareil', True, None, ['git'], []),
     ('demarrage', 'DEMARRAGE.md', 'methode', True, None,

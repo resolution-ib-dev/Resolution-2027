@@ -20,10 +20,10 @@ Le travail s’est fait en 335 lots, un par titre, chacun contrôlé (couverture
 
 | code | articles avant | articles après | mots avant | mots après |
 |---|---|---|---|---|
-| Code de procédure pénale (2029) | 6 304 | 3 305 | 639 547 | 410 721 |
+| Code de procédure pénale (2029) | 6 304 | 3 287 | 639 547 | 400 867 |
 | Code pénal | 1 297 | 1 018 | 148 677 | 112 473 |
 | Code pénitentiaire | 1 867 | 600 | 170 168 | 69 054 |
-| **Total** | **9 468** | **4 923** | **958 392** | **592 248** |
+| **Total** | **9 468** | **4 905** | **958 392** | **582 394** |
 
 Les mots sont comptés comme suites de lettres et de chiffres. Un article fusionné ou abrogé sort du compte après réécriture.
 
@@ -31,12 +31,12 @@ Les mots sont comptés comme suites de lettres et de chiffres. Un article fusion
 
 | verbe | Code de procédure pénale (2029) | Code pénal | Code pénitentiaire | total |
 |---|---|---|---|---|
-| gardés | 175 | 468 | 52 | 695 |
-| simplifiés | 1 591 | 329 | 244 | 2 164 |
-| réécrits | 1 515 | 200 | 293 | 2 008 |
-| fusionnés | 2 663 | 188 | 815 | 3 666 |
-| abrogés | 336 | 106 | 452 | 894 |
-| déclassés | 23 | 6 | 11 | 40 |
+| gardés | 143 | 468 | 52 | 663 |
+| simplifiés | 1 595 | 329 | 244 | 2 168 |
+| réécrits | 1 496 | 200 | 293 | 1 989 |
+| fusionnés | 2 664 | 188 | 815 | 3 667 |
+| abrogés | 353 | 106 | 452 | 911 |
+| déclassés | 52 | 6 | 11 | 69 |
 | remontés à la loi | 1 | 0 | 0 | 1 |
 | créés | 0 | 15 | 0 | 15 |
 

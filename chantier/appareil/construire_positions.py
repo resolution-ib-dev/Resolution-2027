@@ -344,7 +344,7 @@ L = [
  "avec les 10 % de M-simplification, qui portent sur la charge administrative : "
  "les deux leviers sont distincts, leur recouvrement n’est pas instruit."),
 ("D11-e1","gagnant","C-00","macro","revenu","indiqué","","D11-1-1|diagnostic|C-00","",
- "42,87 % à 36,33 % du produit intérieur brut, 191,046 Md€ de prélèvements en "
+ "42,72 % à 36,21 % du produit intérieur brut, 191,105 Md€ de prélèvements en "
  "moins. Le seul gain d'ensemble porté au référentiel."),
 ("M-estonie","gagnant","C-00","macro","statut","nommé",Q,"M-suisse-emploi|diagnostic|C-00","",
  "Référence de cible : quatre impôts, taux unique de 22 %, première place au "
@@ -770,8 +770,8 @@ L = [
  "trois mois de phase juridique puis trois mois de phase opérationnelle","D2-1-1|perdant|C-31","",""),
 ("D11-e1","gagnant","C-01","macro","revenu","indiqué","","D2-1-1|perdant|C-31","",
  "Effet au bénéficiaire « économie » : grandeur écrite là où une personne est "
- "attendue. Le taux passe de 42,87 % à 36,33 % du produit intérieur brut, soit "
- "191,046 Md€ de prélèvements en moins."),
+ "attendue. Le taux passe de 42,72 % à 36,21 % du produit intérieur brut, soit "
+ "191,105 Md€ de prélèvements en moins."),
 ("D11-4-2","gagnant","C-04","micro","revenu","nommé",
  "restitution par paliers de 2 % par mois jusqu’à 13 % de salaire net","D2-1-1|perdant|C-31","",""),
 ]

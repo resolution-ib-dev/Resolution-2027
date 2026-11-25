@@ -791,6 +791,25 @@ tableau des principes P1 à P27 avec leur statut (validé ou à confirmer) et le
 registre des arbitrages délégués, une ligne chacun. Annexe : trois colonnes
 (2029, cible, motif) des principales sections.
 
+## Passe 5 : réformes de structure (20261102)
+
+La passe 4 a clos la sobriété rédactionnelle à − 39 % : ce qui reste tient à des
+garanties. Le gain suivant vient de la structure. L'auteur a arrêté le principe
+(20261102) : tout proposer dès lors que l'appui est clair et que le résultat est
+gradué et protecteur des libertés.
+
+**Architecture** : `revision/passe5_architecture.md`. Socle protecteur G1 à G7, puis
+quatre chantiers : A, une seule présentation au juge qui décide de la liberté ; B,
+un cadre d'enquête unique, actes gradués en quatre niveaux d'autorisation ; C, fin du
+juge d'instruction, enquête dirigée par le procureur sous le contrôle d'un juge de
+l'enquête et des libertés ; D, deux voies de jugement des délits.
+
+**Méthode** : celle de la passe 3, un lot par titre touché, réécriture entière,
+relecture adverse centrée sur les garanties, contrôles S1 à S3, D1 à D5 et C1 à C7.
+S2 vérifie en plus les garanties G1 à G7 qui concernent le titre. Ordre de
+versement : A, D, B, C. Chaque arbitrage s'inscrit au registre (section 13 et
+suivantes). Volume mesuré sans cible.
+
 ## Codes de la chaîne pénale
 
 | code | court | articles applicables (base LEGI 20261018) |

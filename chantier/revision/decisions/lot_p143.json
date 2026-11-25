@@ -11,13 +11,13 @@
       "code": "cpp",
       "num": "L4311-1",
       "principe": "P23",
-      "motif": "Interrogatoire préalable en un article : délai de cinq jours, auteur (L4311-2), interprète, identité et notification (L4311-3), télécommunication (L4311-5), convocation de l'accusé libre (L4311-6), procès-verbal (L4311-7).",
-      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : délai de cinq jours sauf renonciation avec l'avocat, interprète, vérification de la notification du renvoi, mandat d'arrêt par décision motivée seulement.",
+      "motif": "Interrogatoire préalable en un article : délai de cinq jours, auteur (L4311-2), interprète, identité et notification (L4311-3), télécommunication (L4311-5), convocation de l'accusé libre (L4311-6), procès-verbal (L4311-7). Passe 5 : interrogatoire à distance par défaut, présentation physique si le président l'estime nécessaire à la manifestation de la vérité (A5, L1621-7). Cour criminelle unique (14.6, 14.7) : le président vérifie l'information sur la formation de jury, demandée dans le [mois] du réquisitoire de renvoi, et constate la demande. Vocabulaire : réquisitoire de renvoi, cour criminelle statuant en appel, interprétation (15.2). Le mandat d'arrêt du second alinéa reste cité par L3652-9. Relecture : l'accusé non informé de son droit au jury forme la demande à l'interrogatoire, et la cour statue en formation de jury (accès effectif au droit, 14.7).",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : délai de cinq jours sauf renonciation avec l'avocat, interprète, vérification de la notification du renvoi, mandat d'arrêt par décision motivée seulement. Passe 5 : Délai de cinq jours sauf renonciation avec l'avocat, interprétation, vérification de la notification du renvoi, mandat motivé : gardés. P17 : l'accusé est mis en mesure d'exercer son droit au jury. A5 : la présentation physique reste ouverte au jugement du président.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Au moins cinq jours avant l'ouverture des débats devant la cour d'assises ou la cour criminelle départementale, le président de la cour, ou l'assesseur qu'il désigne, interroge l'accusé, sauf renonciation expresse de l'accusé et de son avocat à ce délai. Il l'informe, s'il y a lieu, de son droit d'être assisté d'un interprète, vérifie son identité et s'assure qu'il a reçu notification de la décision de renvoi ou, en appel, de la décision qui désigne la cour d'assises d'appel. L'interrogatoire peut se faire par un moyen de télécommunication audiovisuelle selon les articles L. 1621-1 et suivants.\nL'accusé libre est convoqué par la voie administrative au greffe. S'il ne se présente pas sans motif légitime, le président peut décerner mandat d'arrêt par décision motivée.\nUn procès-verbal, signé par le président ou son délégué, le greffier, l'accusé et, s'il y a lieu, l'interprète, constate ces formalités. Si l'accusé ne sait ou ne veut signer, il en est fait mention."
+          "nouveau": "Au moins cinq jours avant l'ouverture des débats devant la cour criminelle, le président de la cour, ou l'assesseur qu'il désigne, interroge l'accusé, sauf renonciation expresse de l'accusé et de son avocat à ce délai. Il l'informe, s'il y a lieu, de son droit à l'interprétation selon l'article L. 1112-3, vérifie son identité et s'assure qu'il a reçu notification du réquisitoire de renvoi ou, en appel, de la décision qui désigne la cour criminelle statuant en appel. En premier ressort, il vérifie que l'accusé a été informé de son droit de demander la formation de jury de l'article L. 2123-33, qui se demande dans le [mois] de la notification du réquisitoire de renvoi, et constate la demande formée. À défaut de cette information, l'accusé forme la demande devant lui, et la cour statue en formation de jury. L'interrogatoire se tient par un moyen de télécommunication audiovisuelle selon l'article L. 1621-7, sauf si le président estime la présentation physique de l'accusé nécessaire à la manifestation de la vérité.\nL'accusé libre est convoqué par la voie administrative au greffe. S'il ne se présente pas sans motif légitime, le président peut décerner mandat d'arrêt par décision motivée.\nUn procès-verbal, signé par le président ou son délégué, le greffier, l'accusé et, s'il y a lieu, l'interprète, constate ces formalités. Si l'accusé ne sait ou ne veut signer, il en est fait mention."
         }
       ]
     },
@@ -25,13 +25,13 @@
       "code": "cpp",
       "num": "L4311-4",
       "principe": "P23",
-      "motif": "Avocat de l'accusé : choix, désignation d'office, accès au dossier, libre communication, conseil d'un proche ; phrases resserrées.",
-      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : avocat obligatoire, désigné d'office à défaut, accès à toutes les pièces et libre communication avec l'accusé détenu, gardés mot pour mot dans leur substance.",
-      "decision": "S",
+      "motif": "Avocat de l'accusé : choix, désignation d'office, accès au dossier, libre communication, conseil d'un proche ; phrases resserrées. Passe 5 : renvoi au droit à l'avocat de L. 7 (G3), devant la cour criminelle unique. Relecture : L. 7 est cité pour le droit à l'avocat aux audiences sur la liberté, l'obligation devant la cour criminelle restant écrite ici.",
+      "ligne_rouge": "Droits de la défense (art. 16 DDHC) : avocat obligatoire, désigné d'office à défaut, accès à toutes les pièces et libre communication avec l'accusé détenu, gardés mot pour mot dans leur substance. Passe 5 : G3 (L. 7) : avocat obligatoire, désigné d'office à défaut, accès à toutes les pièces, libre communication. Conseil d'un proche gardé (cité par R256 et R360).",
+      "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le président ou l'assesseur désigné vérifie que l'accusé est assisté d'un avocat. À défaut, il l'invite à en choisir un et, faute de choix, lui en désigne un d'office. Cette désignation tombe si l'accusé choisit ensuite un avocat. L'avocat peut prendre communication sur place de toutes les pièces du dossier, sans retarder la procédure. L'accusé détenu communique librement avec lui.\nÀ titre exceptionnel, le président peut autoriser l'accusé à prendre pour conseil un parent ou un ami. Il avertit cette personne, en début d'audience, qu'elle ne peut rien dire contre sa conscience ou le respect dû aux lois et qu'elle s'exprime avec décence et modération."
+          "nouveau": "Le président ou l'assesseur désigné vérifie que l'accusé est assisté d'un avocat, dont l'assistance est obligatoire devant la cour criminelle, et qui l'assiste à toute audience sur sa liberté selon l'article L. 7. À défaut, il l'invite à en choisir un et, faute de choix, lui en désigne un d'office. Cette désignation tombe si l'accusé choisit ensuite un avocat. L'avocat peut prendre communication sur place de toutes les pièces du dossier, sans retarder la procédure. L'accusé détenu communique librement avec lui.\nÀ titre exceptionnel, le président peut autoriser l'accusé à prendre pour conseil un parent ou un ami. Il avertit cette personne, en début d'audience, qu'elle ne peut rien dire contre sa conscience ou le respect dû aux lois et qu'elle s'exprime avec décence et modération."
         }
       ]
     },
@@ -52,14 +52,14 @@
     {
       "code": "cpp",
       "num": "L4313-1",
-      "principe": "P23",
-      "motif": "Contestation de la régularité de l'information en un article : conditions, juge et délai (L4313-2), purge (L4313-3). Numéro cité par L3452-9.",
-      "ligne_rouge": "Droits de la défense : la requête reste ouverte à l'accusé non informé, un juge statue dans le mois par décision motivée, le pourvoi est ouvert.",
+      "principe": "P11",
+      "motif": "Contestation de la régularité de l'information en un article : conditions, juge et délai (L4313-2), purge (L4313-3). Numéro cité par L3452-9. Passe 5 : ancre des nullités (14.5) et garde-fou n° 13 : l'accusé non informé de la notification des charges, de l'avis de fin d'enquête ou du réquisitoire de renvoi garde sa requête. Le réquisitoire devient définitif après le recours de L3762-1 (C5). L'ordonnance de mise en accusation devient le réquisitoire de renvoi. Relecture : le garde-fou n° 13 est écrit en entier, accès effectif au dossier compris.",
+      "ligne_rouge": "Droits de la défense : la requête reste ouverte à l'accusé non informé, un juge statue dans le mois par décision motivée, le pourvoi est ouvert. Passe 5 : Art. 6 CEDH et garde-fou n° 13 : requête ouverte à l'accusé qui n'a pas eu accès à la procédure, juge du siège dans le mois, pourvoi ouvert, moyen inconnu et nullité d'ordre public réservés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Au plus tard trois mois avant sa comparution, l'accusé peut contester les irrégularités de l'information par requête au président de la chambre des investigations et des libertés, lorsque les conditions suivantes sont réunies :\n1° Il n'a pas été régulièrement informé, selon le cas, de sa mise en examen ou de sa qualité de partie, de l'avis de fin d'information ou de l'ordonnance de renvoi devant la juridiction criminelle.\n2° Cette défaillance ne procède ni d'une manœuvre ni d'une négligence de sa part.\n3° L'ordonnance de renvoi est devenue définitive.\nLe président de la chambre des investigations et des libertés statue dans le délai d'un mois, au vu des observations écrites de l'accusé ou de son avocat et du ministère public, par une décision motivée susceptible de pourvoi en cassation. À défaut de ce recours, l'ordonnance de mise en accusation couvre les vices de la procédure."
+          "nouveau": "Au plus tard trois mois avant sa comparution, l'accusé peut contester les irrégularités de l'enquête par requête au président de la chambre des investigations et des libertés, lorsque les conditions suivantes sont réunies :\n1° Il n'a pas été régulièrement informé, selon le cas, de la notification des charges ou de sa qualité de partie, de l'avis de fin d'enquête ou du réquisitoire de renvoi devant la cour criminelle.\n2° Cette défaillance ne procède ni d'une manœuvre ni d'une négligence de sa part.\n3° Le réquisitoire de renvoi est devenu définitif, à l'expiration du délai du recours de l'article L. 3762-1 ou après la décision sur ce recours.\nLe président de la chambre des investigations et des libertés statue dans le délai d'un mois, au vu des observations écrites de l'accusé ou de son avocat et du ministère public, par une décision motivée susceptible de pourvoi en cassation. À défaut de ce recours, le réquisitoire de renvoi devenu définitif couvre les vices de la procédure antérieure à l'avis de fin d'enquête, sauf le moyen que l'accusé ne pouvait connaître, la nullité d'ordre public et la nullité qu'il n'a pu soulever faute d'un accès effectif au dossier assisté d'un avocat, selon l'article L. 1321-1."
         }
       ]
     },
@@ -67,13 +67,13 @@
       "code": "cpp",
       "num": "L4313-4",
       "principe": "P23",
-      "motif": "Supplément d'information et dépôt de ses pièces (L4313-5) en un article. Numéro cité par R123.",
-      "ligne_rouge": "Contradictoire : les pièces sont versées au dossier et les parties avisées de leur dépôt.",
+      "motif": "Supplément d'information et dépôt de ses pièces (L4313-5) en un article. Numéro cité par R123. Passe 5 : supplément d'enquête confié au président ou à un assesseur, avec les pouvoirs du procureur et du juge de l'enquête et des libertés, chaque acte à son niveau (C, B). Le juge d'instruction délégué tombe. Le livre IV (information) est abrogé : l'exclusion de la notification des expertises tombe avec lui, et l'expertise suit le régime contradictoire de L3323-8 (extension au profit des parties, déclarée). Relecture : pouvoirs limités aux actes d'investigation, les mesures de sûreté restant hors du magistrat commis (G1, L1132-1).",
+      "ligne_rouge": "Contradictoire : les pièces sont versées au dossier et les parties avisées de leur dépôt. Passe 5 : Contradictoire : pièces versées et parties avisées. Graduation (B) : niveaux 3 et 4 autorisés par un juge du siège.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Si l'instruction lui semble incomplète ou si des éléments nouveaux sont apparus depuis sa clôture, le président peut ordonner tout acte d'information utile. Il y procède ou le délègue à un assesseur ou à un juge d'instruction. Les livres IV et V de la troisième partie s'appliquent, à l'exception des articles L. 3443-16 à L. 3443-21 sur la notification des expertises.\nLes pièces réunies sont déposées au greffe et jointes au dossier, et le greffier avise le ministère public et les parties de leur dépôt. Le procureur général peut à tout moment requérir communication de la procédure, à charge de la rendre dans les vingt-quatre heures."
+          "nouveau": "Si l'enquête lui semble incomplète ou si des éléments nouveaux sont apparus depuis sa clôture, le président peut ordonner un supplément d'enquête. Il y procède ou le délègue à un assesseur. Le magistrat qui y procède a, pour les actes d'investigation, les pouvoirs du procureur de la République et du juge de l'enquête et des libertés, et accomplit ou autorise chaque acte selon son niveau, dans les formes des articles L. 3111-3 et L. 3111-4. Les mesures de sûreté restent régies par les articles qui les prévoient. Les livres III et V de la troisième partie s'appliquent.\nLes pièces réunies sont déposées au greffe et jointes au dossier, et le greffier avise le ministère public et les parties de leur dépôt. Le procureur général peut à tout moment requérir communication de la procédure, à charge de la rendre dans les vingt-quatre heures."
         }
       ]
     },
@@ -81,13 +81,13 @@
       "code": "cpp",
       "num": "L4314-1",
       "principe": "P23",
-      "motif": "Significations et citations préalables en un article : listes des témoins et des experts, citation de cinq témoins par le ministère public (L4314-2), liste des jurés (L4314-3). La liste des jurés est signifiée devant toute cour qui juge avec des citoyens, les citoyens assesseurs de la cour criminelle départementale étant tirés sur la liste du jury (registre 4.1 et 9.10).",
-      "ligne_rouge": "Égalité des armes et droits de la défense : significations réciproques un mois avant, citation de cinq témoins aux frais de l'État, liste des jurés pour exercer les récusations, domicile des jurés protégé.",
+      "motif": "Significations et citations préalables en un article : listes des témoins et des experts, citation de cinq témoins par le ministère public (L4314-2), liste des jurés (L4314-3). La liste des jurés est signifiée devant toute cour qui juge avec des citoyens, les citoyens assesseurs de la cour criminelle départementale étant tirés sur la liste du jury (registre 4.1 et 9.10). Passe 5 : vocabulaire : l'information devient l'enquête. La liste des jurés se signifie devant la cour criminelle, qui siège toujours avec des jurés hors L2123-31 (14.7).",
+      "ligne_rouge": "Égalité des armes et droits de la défense : significations réciproques un mois avant, citation de cinq témoins aux frais de l'État, liste des jurés pour exercer les récusations, domicile des jurés protégé. Passe 5 : Significations réciproques, cinq témoins cités aux frais de l'État, liste des jurés pour les récusations : gardés.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le ministère public et la partie civile signifient à l'accusé, et l'accusé signifie au ministère public et, s'il y a lieu, à la partie civile, la liste des témoins qu'ils veulent faire entendre et les noms des experts appelés à rendre compte des travaux dont ils ont été chargés au cours de l'information. La signification intervient dès que possible et au moins un mois avant l'ouverture des débats. L'exploit mentionne les nom, prénoms, profession et résidence de chacun.\nLe ministère public cite à sa requête, dans la limite de cinq, les témoins dont les parties lui ont communiqué la liste au moins un mois et dix jours avant l'ouverture des débats. Les autres témoins sont cités à la requête et aux frais des parties, qui supportent aussi leurs indemnités si elles sont demandées.\nLa liste de session des jurés, arrêtée selon l'article L. 2123-29, est signifiée à chaque accusé au plus tard l'avant-veille de l'ouverture des débats. Elle permet l'identification des jurés, sans indiquer leur domicile ou résidence."
+          "nouveau": "Le ministère public et la partie civile signifient à l'accusé, et l'accusé signifie au ministère public et, s'il y a lieu, à la partie civile, la liste des témoins qu'ils veulent faire entendre et les noms des experts appelés à rendre compte des travaux dont ils ont été chargés au cours de l'enquête. La signification intervient dès que possible et au moins un mois avant l'ouverture des débats. L'exploit mentionne les nom, prénoms, profession et résidence de chacun.\nLe ministère public cite à sa requête, dans la limite de cinq, les témoins dont les parties lui ont communiqué la liste au moins un mois et dix jours avant l'ouverture des débats. Les autres témoins sont cités à la requête et aux frais des parties, qui supportent aussi leurs indemnités si elles sont demandées.\nLa liste de session des jurés, arrêtée selon l'article L. 2123-29, est signifiée à chaque accusé au plus tard l'avant-veille de l'ouverture des débats. Elle permet l'identification des jurés, sans indiquer leur domicile ou résidence."
         }
       ]
     },
@@ -123,13 +123,13 @@
       "code": "cpp",
       "num": "L4314-7",
       "principe": "P23",
-      "motif": "Jonction, disjonction (L4314-8), renvoi (L4314-10), nature d'administration judiciaire (L4314-11, sans recours selon L. 4) et délit connexe jugé sans jurés (L4314-9) en un article.",
-      "ligne_rouge": "aucune",
+      "motif": "Jonction, disjonction (L4314-8), renvoi (L4314-10), nature d'administration judiciaire (L4314-11, sans recours selon L. 4) et délit connexe jugé sans jurés (L4314-9) en un article. Passe 5 : réquisitoire de renvoi (C5), cour criminelle unique (14.6, 14.7), renvoi à une audience et non plus à une session. Les renvois ne prolongent pas la détention au-delà des durées de L. 10 (G6). Le délit connexe garde la formation de jury demandée selon L4411-40.",
+      "ligne_rouge": "aucune Passe 5 : G6 (L. 10) : durée maximale du jugement du détenu opposable. P17 : le jury demandé pour un délit reste acquis.",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Le président peut, d'office ou sur réquisition du ministère public :\n1° Joindre les procédures lorsque plusieurs décisions de renvoi ont été rendues contre différents accusés pour un même crime ou des crimes connexes, ou contre un même accusé pour des infractions différentes.\n2° Disjoindre la procédure qui vise plusieurs infractions, pour que les accusés ne soient jugés immédiatement que sur certaines d'entre elles.\n3° Renvoyer à une session ou à une audience ultérieure l'affaire qui ne lui paraît pas en état d'être jugée.\nCes décisions sont des mesures d'administration judiciaire.\nLorsque, par suite d'une disjonction, d'un appel ou de toute autre cause, la cour d'assises n'est plus saisie que d'un délit connexe à un crime, elle statue sans l'assistance des jurés."
+          "nouveau": "Le président peut, d'office ou sur réquisition du ministère public :\n1° Joindre les procédures lorsque plusieurs réquisitoires de renvoi ont été pris contre différents accusés pour un même crime ou des crimes connexes, ou contre un même accusé pour des infractions différentes.\n2° Disjoindre la procédure qui vise plusieurs infractions, pour que les accusés ne soient jugés immédiatement que sur certaines d'entre elles.\n3° Renvoyer à une audience ultérieure l'affaire qui ne lui paraît pas en état d'être jugée.\nCes décisions sont des mesures d'administration judiciaire. Aucune ne prolonge la détention de l'accusé au-delà des durées maximales de l'article L. 10.\nLorsque, par suite d'une disjonction, d'un appel ou de toute autre cause, la cour criminelle n'est plus saisie que d'un délit connexe à un crime, elle statue sans jurés, sauf si le prévenu a demandé la formation de jury selon l'article L. 4411-40."
         }
       ]
     },

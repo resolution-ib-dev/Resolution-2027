@@ -11,13 +11,41 @@
       "code": "cpp",
       "num": "L3111-1",
       "principe": "P23",
-      "motif": "Les deux articles de charpente (cadres principaux et procédures de recherche, L3111-2 fusionné) en un. « Conformément aux dispositions de la présente partie » et « portant sur des crimes, délits ou contraventions » tombent (P20).",
-      "ligne_rouge": "aucune",
+      "motif": "Les deux articles de charpente (cadres principaux et procédures de recherche, L3111-2 fusionné) en un. Passe 5 : un seul cadre d'enquête (B, 13.2) : le 2° (informations, juridictions d'instruction, commission rogatoire) tombe avec la fin du juge d'instruction (C, 13.3). Le supplément d'information devient supplément d'enquête (vocabulaire de la carte). Le dernier alinéa annonce la phase d'urgence (L. 3312-2), la grille des niveaux (L. 3111-3) et la durée opposable (G6, L. 10, L. 3332-1).",
+      "ligne_rouge": "G6 (P19) : la durée maximale de l'enquête est opposable à l'État, par renvoi à L. 10 et L. 3332-1. Le procureur dirige l'enquête, le juge du siège garde les actes intrusifs (L. 3111-3, L. 5).",
       "decision": "R",
       "operations": [
         {
           "op": "rediger",
-          "nouveau": "Les investigations pénales se réalisent :\n1° Dans les enquêtes de police judiciaire, sous la direction du procureur de la République, par les autorités qui exercent des missions de police judiciaire.\n2° Dans les informations, par les juridictions d'instruction ou sur leur commission rogatoire, y compris lors d'un supplément d'information ordonné par une juridiction de jugement.\n3° Dans les contrôles et vérifications d'identité, la recherche des causes d'un décès, de blessures graves ou d'une disparition, et la recherche d'une personne en fuite."
+          "nouveau": "Les investigations pénales se réalisent :\n1° Dans l'enquête, dirigée par le procureur de la République et conduite par les autorités qui exercent des missions de police judiciaire, y compris lors d'un supplément d'enquête ordonné par une juridiction de jugement.\n2° Dans les contrôles et vérifications d'identité, la recherche des causes d'un décès, de blessures graves ou d'une disparition, et la recherche d'une personne en fuite.\nL'enquête est unique. L'urgence ouvre la phase d'urgence de l'article L. 3312-2. La nature de chaque acte fixe l'autorité qui l'autorise, selon l'article L. 3111-3. La durée maximale de l'enquête, fixée à l'article L. 3332-1, est opposable à l'État selon l'article L. 10."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3111-3",
+      "principe": "P25",
+      "motif": "Article créé. Passe 5 : grille des quatre niveaux d'autorisation (B, 13.2, 13.7), siège fixé par la carte (section 3.1). L'urgence et la gravité ne changent plus de cadre : elles changent l'autorité qui autorise l'acte. Niveaux et listes repris de la carte (section 3.4) et de ses arbitrages (perquisition hors urgence au seul niveau 3, infiltration civile comprise au niveau 4, géolocalisation de [huit] jours au procureur). Précision déléguée : la géolocalisation de [huit] jours au plus par un moyen propre aux enquêteurs est écrite au niveau 2, sous autorisation du procureur, la variante de [quinze] jours tombant. Chaque article d'acte dit son niveau par renvoi, sans redire la grille (G07). Relecture : la géolocalisation fondée sur les données d'un opérateur relève du niveau 3 dès le premier jour (L. 5 3°, CJUE Prokuratuur 2021, La Quadrature du Net 2020). Les livraisons surveillées gardent l'autorisation du procureur pendant la phase d'urgence, comme en 2029 (L. 3564-3), donnée au besoin par tout moyen selon L. 3111-4. Relecture adverse G10/G07 : le procureur autorise toujours les livraisons surveillées et contrôlées, y compris pendant la phase d'urgence (seconde phrase du 2° sans elles, L. 3561-2).",
+      "ligne_rouge": "G1 (art. 66 C, CEDH art. 5 et 8, CJUE Prokuratuur 2021, CC 2021-952 QPC) : les données de trafic et de localisation et toute mesure intrusive des niveaux 3 et 4 relèvent du juge du siège par ordonnance motivée, par renvoi à L. 5. La perquisition sans assentiment hors urgence reste bornée au crime et au délit puni d'au moins [trois] ans. Le niveau 4 reste une liste fermée (L. 1720-4, CC 2004-492 DC). Garde-fou n° 14 de la carte.",
+      "decision": "C",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Les actes d'enquête se rangent en quatre niveaux d'autorisation, selon l'atteinte qu'ils portent aux libertés. Chaque article du présent code qui régit un acte dit son niveau.\n1° Niveau 1 : l'officier de police judiciaire procède de sa propre autorité aux constatations, aux auditions libres, aux réquisitions simples, aux relevés signalétiques, à la perquisition faite avec l'assentiment écrit de la personne et au placement en garde à vue.\n2° Niveau 2 : la saisie, la réquisition des données d'abonnement et d'identification, les livraisons surveillées et, dans les cas de l'article L. 3553-1, la géolocalisation pendant [huit] jours au plus par un moyen technique qui ne requiert pas l'accès aux données de localisation conservées ou traitées par un opérateur de communications électroniques requièrent l'autorisation écrite du procureur de la République. Pendant la phase d'urgence, l'officier de police judiciaire procède de sa propre autorité à la perquisition sans assentiment, à la saisie et à la réquisition des données d'abonnement et d'identification.\n3° Niveau 3 : le juge de l'enquête et des libertés autorise par ordonnance motivée la perquisition sans assentiment hors de la phase d'urgence, pour un crime ou un délit puni d'au moins [trois] ans d'emprisonnement, la réquisition des données de trafic et de localisation, la géolocalisation au-delà de [huit] jours ou par l'accès aux données de localisation d'un opérateur de communications électroniques, l'interception des correspondances émises par la voie des communications électroniques, l'accès aux correspondances stockées, la perquisition de nuit hors des cas du 4° et les saisies patrimoniales.\n4° Niveau 4 : pour les seules infractions de la liste de l'article L. 1720-4, le juge de l'enquête et des libertés autorise par ordonnance motivée la sonorisation, la captation d'images et de données informatiques, le recueil des données de connexion par un dispositif technique, l'infiltration, y compris civile, la garde à vue au-delà de quarante-huit heures et la perquisition de nuit dans un local d'habitation.\nLe juge de l'enquête et des libertés décide des actes des niveaux 3 et 4 selon l'article L. 5. Une autorité d'un niveau supérieur peut autoriser l'acte d'un niveau inférieur."
+        }
+      ]
+    },
+    {
+      "code": "cpp",
+      "num": "L3111-4",
+      "principe": "P25",
+      "motif": "Article créé. Passe 5 : forme des autorisations et requête du procureur au juge de l'enquête et des libertés (B, C, 13.2, 13.3), siège fixé par la carte (section 3.1). Délai de [vingt-quatre] heures pour statuer, confirmation écrite de l'autorisation d'urgence, nullité de l'acte non autorisé. L'appel suit L. 3712-5 (14.9 : appel séparé ouvert contre une mesure intrusive).",
+      "ligne_rouge": "G1 (art. 66 C, CEDH art. 5 et 8) : graduation tenue, autorisation écrite, requête motivée, ordonnance motivée qui fixe une durée bornée, nullité de l'acte accompli sans l'autorisation requise, appel ouvert (L. 3712-5, garde-fou n° 12).",
+      "decision": "C",
+      "operations": [
+        {
+          "op": "rediger",
+          "nouveau": "Toute autorisation que requiert un acte selon l'article L. 3111-3 est écrite. Elle est versée au dossier.\nPour un acte des niveaux 3 et 4, le procureur de la République saisit le juge de l'enquête et des libertés par requête motivée. Le juge statue par ordonnance motivée dans les [vingt-quatre] heures de la requête. Il fixe la durée de l'acte dans la limite que le présent code prévoit pour cet acte.\nEn cas d'urgence, l'autorisation se donne par tout moyen. Elle est confirmée par écrit dans les [vingt-quatre] heures et versée au dossier.\nL'acte accompli sans l'autorisation que requiert son niveau est nul.\nL'ordonnance du juge est susceptible d'appel selon l'article L. 3712-5."
         }
       ]
     },

@@ -419,8 +419,8 @@ SOURCES = {
         'source': "classeur Synthèse Calculs Résolution 0819, onglet Manifeste, "
                   "ligne 3 pour les dépenses et ligne 24 pour les niches",
         'millesime': '2026',
-        'note': "183,95 Md€ de baisses de dépenses et 52,1 Md€ de niches "
-                "restituées font 236,05. Le gain d'année 1 est de 75,25 Md€, "
+        'note': "184,25 Md€ de baisses de dépenses et 52,1 Md€ de niches "
+                "restituées font 236,35. Le gain d'année 1 est de 77,36 Md€, "
                 "le reste venant en année pleine.",
     },
     'R-D8-3-1-e2': {
@@ -835,21 +835,21 @@ CALCULS = [
      'expression': '10.6 + 2.7 + 6.9 + 2.3', 'attendu': 22.5},
     {'unite': 'Md€', 'tolerance': 0.05,
      'objet': "aides aux entreprises, les trois postes de la chaîne",
-     'expression': '22.5 + 6.6 + 12.3', 'attendu': 41.4},
+     'expression': '22.548 + 6.6 + 12.21', 'attendu': 41.36},
     {'unite': 'Md€', 'tolerance': 0.06,
      'objet': "économies sur les subventions, entreprises et particuliers",
-     'expression': '41.4 + 27.5', 'attendu': 68.9},
+     'expression': '41.36 + 27.5', 'attendu': 68.86},
     {'unite': 'Md€', 'tolerance': 0.05,
      'objet': "hébergement d'urgence et aide médicale d'État",
      'expression': '2.5 + 1.1', 'attendu': 3.6},
     {'unite': 'Md€', 'tolerance': 0.06,
      'objet': "les 236 Md€ : baisses de dépenses et niches restituées",
-     'expression': '183.95 + 52.1', 'attendu': 236.05},
+     'expression': '184.25 + 52.1', 'attendu': 236.35},
     {'unite': 'Md€', 'tolerance': 0.01,
      'objet': "les 184 Md€ de baisses de dépenses : État et agences, "
               "collectivités, assurance chômage, rendement du patrimoine cédé "
-              "— **c'est ici que les 30 Md€ de chômage entrent dans les 236**",
-     'expression': '82.4547 + 53.5 + 30 + 18', 'attendu': 183.9547},
+              "— **c'est ici que les 29,6 Md€ de chômage entrent dans les 236**",
+     'expression': '83.8257 + 53.2743 + 29.6 + 17.5527', 'attendu': 184.2527},
     {'unite': 'Md€', 'tolerance': 0.05,
      'objet': "niches fiscales : gain direct restituable et gains compensés",
      'expression': '52.1 + 91.1', 'attendu': 143.2},
@@ -1009,9 +1009,9 @@ VEILLE = [
     {
         'fait': "taux de prélèvements obligatoires",
         'mots': ['prelevements', 'obligatoires'],
-        'valeurs_admises': [42.87, 36.33, 36, 43, 191.046, 191],
-        'note': "42,87 % aujourd'hui, 36,33 % en cible, soit 191,046 Md€ de "
-                "baisse.",
+        'valeurs_admises': [42.72, 42.7, 36.21, 36.2, 36, 43, 191.105, 191],
+        'note': "42,72 % aujourd'hui (Insee, édition de mai 2026), 36,21 % en cible, "
+                "soit 191,105 Md€ de baisse.",
     },
     {
         'fait': "aide fondamentale universelle",
