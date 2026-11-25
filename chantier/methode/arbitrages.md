@@ -9383,6 +9383,24 @@ contribution L. 862-4-1. Indemnités de rupture (6, 12) et quatre fractions de j
 
 **Exécuté.** Onglet « Refonte fiscalité » de la Synthèse des chiffrages (site) : C3 2 935,2, F3 1 254,0, postes recalés sur le 3.217 de mai 2026 par le rattachement reconstitué (vérifié sur mai 2025 à 0,05 Md€ près, correction du bouclier tarifaire de 4,592 Md€ gardée sur l’énergie) ; 44 cellules, seul cet onglet bouge, caches rejoués par recalcul. TVA 207,8 ; IR net 87,1 ; IS net 57,2 ; main-d’œuvre 58,1 ; transports 1,8 ; autres ménages 6,4 ; droits de mutation 38,0 (onéreux 17,2). Total 626,1. Effets : taux cible 36,21 % (36,33), PO cible 1 062,895 Md€, baisse 191,105 Md€ ; hausses d’équilibre 67,6 (IS 25,62, foncière 41,98) ; taux unique d’IR estimé 22,76 % (22,74). Le manuscrit (« 36 % ») tient. Recalés : `schema_refonte_fiscalite_2024.tsv`, passage et classeur du tri, `REF_doctrine` (D11-e1), `controle_arithmetique.py`, `sources_chiffres.py`, `construire_positions.py`, `generer_classeur_synthese.py`. **Rattachement à valider par l’auteur** : « autres taxes sur les entreprises » (13,2) n’a pas de combinaison unique de lignes ; toutes les combinaisons plausibles ont un écart nul entre éditions, la valeur reste. « Autres taxes sur les ménages » lu comme taxe d’habitation + IFI + GEMAPI (6,527 en mai 2025).
 
+### A-441 — Le dossier de l'audition se verse en archive datée, et les pièces en sources — 20261125
+
+**Tranché.** Le travail de préparation de l'audition du 10 novembre 2026 entre
+au dépôt dans un seul dossier daté, `archive/audition_senat_20261110/`, au
+rang des sorties gelées : intervention, notes, transcriptions, calculs. Les
+pièces externes téléchargées vont à `sources/`, plat et daté comme le veut la
+règle de ce dossier. Aucune table de l'index n'est touchée : le balayage du
+dépôt relève le dossier et l'affecte à la famille de son adresse.
+
+**Écarté.** Un rangement dans `livrables/` : rien n'a été relu par l'auteure
+pour diffusion, et un dossier de dix-neuf notes y ferait du bruit. Une
+régénération par le modèle des notes rendues en conversation : elles sont
+copiées à l'octet depuis le transcript de session, conformément à la règle de
+restauration.
+
+**Caduc.** Rien. Le versement de la session du 10 novembre au coffre reste à
+faire par l'auteure si elle le souhaite ; le dépôt porte tout.
+
 ### Projet de loi constitutionnelle de 2011 : digestion, adresse et rang — 20261124
 
 **Demandé par l’auteur** (20261124 : « digère et classe au bon endroit du dépôt, référence »). **Exécuté.** Pièce ouverte et lue en entier : projet de loi constitutionnelle n° 3253 relatif à l’équilibre des finances publiques, Assemblée nationale, 16 mars 2011, 16 pages (*relevé*). **Tranché en propre** : la pièce entre par sa digestion (R5), `reference/pjlc_equilibre_finances_publiques_2011.md`, famille références externes ; l’original va au dépôt sous `sources/`, nommé par son objet, son numéro et sa date d’enregistrement ; le nom d’envoi `PJLC2011_pl3253.pdf` résout par alias. La digestion porte le dispositif au verbatim, contrôlé mécaniquement sur le texte extrait du PDF (44 sur 44, *recompté*). Son rapprochement avec la proposition de loi constitutionnelle du corpus est *déduit* et ne promeut rien : la proposition reste au bac à sable. **Signalé, non corrigé** : l’exposé de cette proposition s’appuie sur le texte adopté n° 722 rectifié (*hérité*), absent du dépôt ; le texte déposé ne porte pas de contrôle de conformité des lois financières aux lois-cadres.

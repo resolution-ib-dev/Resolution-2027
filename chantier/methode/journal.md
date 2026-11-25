@@ -6270,6 +6270,42 @@ renvoie plus que par une ligne — il ne porte plus la table.
 - La revue du simulateur, bloc par bloc, à partir des Agences.
 - Les écarts de procédure du fil, dits à la passation : `methode/` et deux modules partagés touchés pendant qu'un autre fil travaillait ; empreintes relevées à la main.
 
+## 20261125 — L'audition du 10 novembre au Sénat entre au corpus, avec ses pièces
+
+## Ce qui a changé au corpus
+
+- `archive/audition_senat_20261110/` : l'intervention de dix minutes devant la
+  Délégation sénatoriale à la prospective (rapport HCSP « France 2035, France
+  2050 », Clément Beaune), en markdown et en Word, avec ses deux annexes —
+  chiffres et sources, points d'attention par chapitre avec citations et pages
+  du rapport. Quinze notes de préparation, copiées à l'octet depuis le
+  transcript de la session : digest et confrontation du rapport, test de
+  robustesse des hypothèses dimensionnantes, précédents de désaveu, lecture du
+  rapport Gollier-Oliveau, fiche de la délégation et angles de questions, trame
+  « à la Taleb », parlementaires à qui remettre le livre, décision CE
+  n° 464202, hypothèse de productivité à 0,7 % et biais de prévision, notes
+  HCFP 2024-2 et 2025-1, vérifications segment par segment de la dictée,
+  coûts d'abattement du rapport Gollier. Cinq transcriptions (deux vidéos
+  d'auditions, trois passages BFM Business). Deux scripts : la dynamique de
+  dette stylisée calée sur le central HCSP-OFCE, la lecture des comptes
+  trimestriels Insee hors demande publique.
+- `sources/` : vingt pièces téléchargées pendant la préparation — rapport HCSP,
+  rapport Gollier-Oliveau, COR (rapport annuel 2026, synthèse, séances 2016 et
+  2024), notes HCFP, Sénat (rapport n° 736 et présentation PLRG 2025), CAE
+  Focus 137, Insee (comptes trimestriels IR 263, révisions, note de conjoncture,
+  output gap), OFCE, OPEE, décision du Conseil d'État, dossier coin marginal
+  Résolution × AIRE.
+- Index régénéré : 0 anomalie bloquante.
+
+## Ce qui reste ouvert
+
+- Tout est au bac à sable : l'intervention a été prononcée, rien n'a été relu
+  pour entrer en doctrine. Les arguments à faire remonter au référentiel
+  (coin marginal 1-1,5 Smic, PIB hors demande publique, charge d'intérêts
+  2,2 → 5,2 points, coûts d'abattement) restent à verser à `REF_chiffres`.
+- Le chiffre « 85 % des six millions sans médecin traitant » repose sur une
+  hypothèse de 5 000 médecins du travail × 1 000 patients, non sourcée.
+
 ## 20261124 — le projet de loi constitutionnelle de 2011 sur l'équilibre des finances publiques entre au corpus
 
 ## Ce qui a changé au corpus
