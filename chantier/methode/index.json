@@ -26195,6 +26195,20 @@
    "famille": "références externes"
   },
   {
+   "role": "fichier:sources/Cour_RBDE_2025",
+   "chemin": "sources/Cour_RBDE_2025.txt",
+   "rang": "source",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/sources/Cour_RBDE_2025.txt",
+   "releve": true,
+   "famille": "références externes"
+  },
+  {
    "role": "fichier:sources/guide-public-du-budgetaire-2023",
    "chemin": "sources/guide-public-du-budgetaire-2023.pdf",
    "rang": "source",
@@ -27778,6 +27792,7 @@
    "revision/points_a_confirmer.md",
    "revision/registre_arbitrages_penal.md",
    "sources/Cour_RBDE_2025.pdf",
+   "sources/Cour_RBDE_2025.txt",
    "sources/guide-public-du-budgetaire-2023.pdf",
    "sources/guide_legistique_2026.pdf",
    "sources/l17b3210_projet-loi.pdf",
@@ -27967,11 +27982,11 @@
   }
  ],
  "comptes": {
-  "artefacts": 1814,
-  "au_coffre": 1753,
-  "au_depot": 1285,
+  "artefacts": 1815,
+  "au_coffre": 1754,
+  "au_depot": 1286,
   "derives": 294,
-  "sources": 67,
+  "sources": 68,
   "non_restaurables": 16,
   "sans_famille": 2,
   "manquants": 14
