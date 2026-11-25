@@ -138,8 +138,9 @@ au tendanciel.
   versement sur un seul échec. **Il en sort 0 échec**, mesuré au tri le
   20261019 : S6 402/412, et les dix rangs d'imposition sans siège sont tous des
   absences déclarées — 5 n.d., 3 créations du PLF, 2 sièges réglementaires non
-  relevés —, qui sortent en signal. **Aucun fil ne rouvre les cinq n.d.** Les
-  deux défauts restants tiennent, et le classeur ne se publie pas.
+  relevés —, qui sortent en signal. **Aucun fil ne rouvre les cinq n.d.** Le
+  défaut des rendements tient ; **le classeur se publie depuis le 20261125** (décision de l'auteur),
+  montants en gris « indicatif », en dernière colonne, à la page Données du site.
 - **Le CP se lit avant de se calculer** (inscrit le 20261016). Les crédits ouverts se lisent à
   l'état B du texte déposé avant toute minoration : comparer à un exercice antérieur a fabriqué un
   risque bloquant qui n'existait pas. Hors titre 2, **AE ≥ CP**, et l'égalité ne se pose pas, elle

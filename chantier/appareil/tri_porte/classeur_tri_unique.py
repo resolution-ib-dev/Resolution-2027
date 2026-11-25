@@ -579,6 +579,17 @@ def recalcule():
     return load_workbook(d / 'o' / 'a.xlsx', data_only=True)
 
 
+def figer_valeurs():
+    """Le classeur publié porte ses valeurs calculées à côté des formules (auteure, 20261125 :
+    publication à la page Données) : une visionneuse sans moteur de calcul les affiche."""
+    import shutil, tempfile, subprocess
+    d = Path(tempfile.mkdtemp())
+    shutil.copy(SORTIE, d / 'a.xlsx')
+    subprocess.run(['soffice', f'-env:UserInstallation=file://{d}/profil', '--headless', '--convert-to', 'xlsx:Calc MS Excel 2007 XML',
+                    '--outdir', str(d / 'o'), str(d / 'a.xlsx')], capture_output=True, timeout=180)
+    shutil.copy(d / 'o' / 'a.xlsx', SORTIE)
+
+
 def relire(T, n_tot, n_vides, total):
     ko = []
     wb = load_workbook(SORTIE)
@@ -635,6 +646,7 @@ def relire(T, n_tot, n_vides, total):
 
 def main():
     T, n_tot, n_vides, total = construire()
+    figer_valeurs()
     ko = relire(T, n_tot, n_vides, total)
     if ko:
         print(f'\nÉCHEC — {len(ko)} écart(s) :')
