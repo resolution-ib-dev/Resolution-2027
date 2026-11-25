@@ -774,6 +774,16 @@ ARTEFACTS = [
      ['pjlc_2011_adopte', 'ta722', 'texte adopté n° 722 rectifié',
       'pjlc2011_adopt__0722.pdf',
       'pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf']),
+    # Digestion du rapport de la Cour des comptes sur le budget de l'État en
+    # 2025 (avril 2026, 194 pages). Original et texte par page sous `sources/`.
+    ('budget_etat_2025_cour_des_comptes',
+     'reference/budget_etat_2025_cour_des_comptes.md', 'methode', True, None,
+     ['citation sourcée', 'contestabilite', 'qa-riposte'],
+     ['rbde_2025', 'cour_rbde_2025', 'Cour_RBDE_2025.pdf',
+      'rapport sur le budget de l’État 2025']),
+    ('controle_digestion_pages', 'appareil/controle_digestion_pages.py',
+     'appareil', True, None, ['digestion paginée d’une référence externe'],
+     []),
     ('nomenclature_prelevements_ifrap',
      'reference/nomenclature_prelevements_ifrap.md', 'methode', True, None,
      ['contre-PLF', 'réconciliation des prélèvements'], []),

@@ -3257,6 +3257,43 @@
    "famille": "références externes"
   },
   {
+   "role": "budget_etat_2025_cour_des_comptes",
+   "chemin": "reference/budget_etat_2025_cour_des_comptes.md",
+   "rang": "methode",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "citation sourcée",
+    "contestabilite",
+    "qa-riposte"
+   ],
+   "alias": [
+    "rbde_2025",
+    "cour_rbde_2025",
+    "Cour_RBDE_2025.pdf",
+    "rapport sur le budget de l’État 2025"
+   ],
+   "restaurable": true,
+   "voie": "coffre",
+   "chemin_coffre": "reference/budget_etat_2025_cour_des_comptes.md",
+   "famille": "références externes"
+  },
+  {
+   "role": "controle_digestion_pages",
+   "chemin": "appareil/controle_digestion_pages.py",
+   "rang": "appareil",
+   "coffre": true,
+   "produit_par": null,
+   "consomme_par": [
+    "digestion paginée d’une référence externe"
+   ],
+   "alias": [],
+   "restaurable": true,
+   "voie": "depot",
+   "chemin_coffre": "chantier/appareil/controle_digestion_pages.py",
+   "famille": "outillage"
+  },
+  {
    "role": "nomenclature_prelevements_ifrap",
    "chemin": "reference/nomenclature_prelevements_ifrap.md",
    "rang": "methode",
@@ -26565,6 +26602,7 @@
    "appareil/controle_cles_gl.py",
    "appareil/controle_colonne_c.py",
    "appareil/controle_credits_liasse.py",
+   "appareil/controle_digestion_pages.py",
    "appareil/controle_enonces.py",
    "appareil/controle_generalisation.py",
    "appareil/controle_generateurs.py",
@@ -27982,9 +28020,9 @@
   }
  ],
  "comptes": {
-  "artefacts": 1815,
-  "au_coffre": 1754,
-  "au_depot": 1286,
+  "artefacts": 1817,
+  "au_coffre": 1756,
+  "au_depot": 1287,
   "derives": 294,
   "sources": 68,
   "non_restaurables": 16,

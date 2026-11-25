@@ -6297,3 +6297,18 @@ renvoie plus que par une ligne — il ne porte plus la table.
 
 - « Jamais soumis au Congrès, faute de réunir la majorité des trois cinquièmes », à l'exposé de la proposition : hors des deux pièces, à sourcer.
 - Empreintes non relevées.
+
+## 20261125 — le rapport de la Cour des comptes sur le budget de l'État en 2025 entre au corpus
+
+## Ce qui a changé au corpus
+
+- `reference/budget_etat_2025_cour_des_comptes.md` : digestion du rapport d'avril 2026 (194 pages) — douze chiffres de l'exercice, thèse de la Cour, neuf recommandations au verbatim, puis les trois chapitres, le suivi des recommandations et les trois annexes au plan de la Cour, chaque fait à sa page.
+- `sources/Cour_RBDE_2025.pdf` (déposé par l'auteur) et `sources/Cour_RBDE_2025.txt`, son texte extrait page par page.
+- `appareil/controle_digestion_pages.py` : rejoue chaque nombre et chaque citation d'une digestion sur la page citée. Sur cette digestion : 3 724 nombres contrôlés, 3 719 retrouvés, 47 citations sur 47 ; les cinq écarts sont des appels de note collés au chiffre par l'extraction.
+- Écarts internes à la pièce relevés et non arbitrés (§ 9), dont la réponse du ministre annoncée au délibéré et absente de l'exemplaire.
+
+## Ce qui reste ouvert
+
+- Tableaux déstructurés à l'extraction et graphiques sans valeurs : un chiffre tiré d'un de ces tableaux se rejoue sur le PDF avant diffusion (liste au § 10).
+- Aucun chiffre versé au référentiel des faits ; rapprochement avec le registre de calcul de l'état B non fait.
+- Empreintes non relevées.

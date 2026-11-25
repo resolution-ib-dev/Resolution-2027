@@ -169,6 +169,13 @@ FAMILLES = [
       'déposé, confrontation de l’exposé de la proposition du corpus. '
       'Original au dépôt, <code>sources/'
       'pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf</code>.'),
+     ('Le budget de l’État en 2025, Cour des comptes — digestion',
+      ['reference/budget_etat_2025_cour_des_comptes.md'], None,
+      'rapport d’avril 2026 sur l’exécution 2025 : synthèse, neuf '
+      'recommandations au verbatim, les trois chapitres au plan de la Cour, '
+      'suivi des recommandations, annexes ; chaque chiffre à sa page. '
+      'Original et texte par page au dépôt, '
+      '<code>sources/Cour_RBDE_2025.pdf</code> et <code>.txt</code>.'),
      ('Règles d’amendement des crédits',
       ['reference/regles_credits.md'], None,
       'LOLF au verbatim et Guide du budgétaire de la direction du Budget. '
@@ -481,6 +488,10 @@ IMPLICITES = {
     'sources/pjlc_equilibre_finances_publiques_an3253_20110316.pdf': 'références externes',
     'reference/pjlc_equilibre_finances_publiques_2011_adopte.md': 'références externes',
     'sources/pjlc_equilibre_finances_publiques_ta722rect_20110713.pdf': 'références externes',
+    'reference/budget_etat_2025_cour_des_comptes.md': 'références externes',
+    'sources/Cour_RBDE_2025.pdf': 'références externes',
+    'sources/Cour_RBDE_2025.txt': 'références externes',
+    'appareil/controle_digestion_pages.py': 'outillage',
     'reference/nomenclature_prelevements_ifrap.md': 'références externes',
     'reference/sourcage_ir_dgfip.md': 'références externes',
     'referentiels/articles_ouverts_plf.tsv': 'grilles',
