@@ -9412,3 +9412,11 @@ faire par l'auteure si elle le souhaite ; le dépôt porte tout.
 ### Rapport de la Cour des comptes sur le budget de l’État en 2025 : digestion paginée — 20261125
 
 **Demandé par l’auteur** (20261125 : document de 194 pages « à traduire, enregistrer, référencer », déposé par lui sous `sources/Cour_RBDE_2025.pdf`). **Exécuté.** Pièce ouverte : Cour des comptes, « Le budget de l’État en 2025 — Résultats et gestion », avril 2026 (*relevé*). **Elle est en français : rien n’a été traduit**, la demande est lue comme une digestion (*interprétation de ce fil*). **Tranché en propre** : digestion à `reference/budget_etat_2025_cour_des_comptes.md`, références externes ; texte extrait page par page versé à côté de l’original ; un contrôle neuf à l’appareil, `controle_digestion_pages.py`. **Rang de lecture** : synthèse, recommandations et introduction lues par le fil principal ; chapitres, suivi et annexes lus en entier par quatre lectures auxiliaires (*hérité*), puis rejoués mécaniquement — 3 724 nombres, 3 719 retrouvés à la page citée, 47 citations sur 47 (*recompté*). **Borne** : le contrôle prouve la présence d’une valeur sur la page, non sa colonne dans un tableau déstructuré. Rien n’est versé au référentiel des faits.
+
+### Tri des impôts publié à la page Données — 20261125
+
+**Décision de l’auteur** (20261125 : « tu peux publier tri en avant dernier excel avant graphiques »). **Exécuté.** Le classeur du tri est servi à la page Données, avant « Séries des graphiques », avec une page par onglet. Il porte désormais ses valeurs calculées à côté des formules (recalcul par LibreOffice à la génération), lisibles sans moteur de calcul. La règle « le classeur ne se publie pas » de CLAUDE.md est levée ; le défaut des rendements reste déclaré, montants en gris « indicatif ». **Signalé, non traité** : le graphique « 434 prélèvements aujourd’hui, 4 grands impôts demain » compte 54 / 107 / 111 / 42 / 114 / 6, le tri 53 / 105 / 111 / 41 / 114 / 10.
+
+### Adresse du site : la mention « france-resolution.fr » reste — 20261125
+
+**Décision de l’auteur** (20261125). Le domaine redirige vers www.etatpartout.fr en gardant le chemin (*relevé* : trois pages, 301). Textes, courriels et liens absolus restent sur france-resolution.fr ; le domaine se renouvelle tant que ces mentions vivent.
