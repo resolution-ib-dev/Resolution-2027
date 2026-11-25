@@ -1009,9 +1009,9 @@ VEILLE = [
     {
         'fait': "taux de prélèvements obligatoires",
         'mots': ['prelevements', 'obligatoires'],
-        'valeurs_admises': [42.87, 36.33, 36, 43, 191.046, 191],
-        'note': "42,87 % aujourd'hui, 36,33 % en cible, soit 191,046 Md€ de "
-                "baisse.",
+        'valeurs_admises': [42.72, 42.7, 36.21, 36.2, 36, 43, 191.105, 191],
+        'note': "42,72 % aujourd'hui (Insee, édition de mai 2026), 36,21 % en cible, "
+                "soit 191,105 Md€ de baisse.",
     },
     {
         'fait': "aide fondamentale universelle",
