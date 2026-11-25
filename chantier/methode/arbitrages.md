@@ -9420,3 +9420,7 @@ faire par l'auteure si elle le souhaite ; le dépôt porte tout.
 ### Adresse du site : la mention « france-resolution.fr » reste — 20261125
 
 **Décision de l’auteur** (20261125). Le domaine redirige vers www.etatpartout.fr en gardant le chemin (*relevé* : trois pages, 301). Textes, courriels et liens absolus restent sur france-resolution.fr ; le domaine se renouvelle tant que ces mentions vivent.
+
+### Graphique « 434 prélèvements » recalé sur le tri — 20261125
+
+**Demandé par l’auteur** (20261125 : « montre moi le graphique recalé », puis « ok publie », sans choix sur la légende : elle reste « complément sectoriel (tabac, etc.) »). **Exécuté.** Effectifs 53 / 105 / 111 / 41 / 114 et 10 recettes non fiscales, carrés dans l’ordre de l’onglet « Le tri ». Deux générateurs, le graphique n’en avait pas : `appareil/tri_porte/graphique_fusion.py` (SVG des deux pages, idempotent) et `graphique_fusion_images.py` (PNG paysage, PDF, PNG portrait), calibré sur les anciennes images : paysage identique au pixel, portrait à 240 pixels près.
