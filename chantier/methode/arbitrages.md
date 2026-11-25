@@ -8390,3 +8390,21 @@ toujours — éprouvé sur la ligne 191.
 tranchée » des cinq rangs. **Aucun fil ne rouvre ce point** : un siège trouvé
 plus tard pour l’un de ces rangs n’entre que par un arbitrage nouveau de
 l’auteur.
+
+### A-441 — Le dossier de l'audition se verse en archive datée, et les pièces en sources — 20261125
+
+**Tranché.** Le travail de préparation de l'audition du 10 novembre 2026 entre
+au dépôt dans un seul dossier daté, `archive/audition_senat_20261110/`, au
+rang des sorties gelées : intervention, notes, transcriptions, calculs. Les
+pièces externes téléchargées vont à `sources/`, plat et daté comme le veut la
+règle de ce dossier. Aucune table de l'index n'est touchée : le balayage du
+dépôt relève le dossier et l'affecte à la famille de son adresse.
+
+**Écarté.** Un rangement dans `livrables/` : rien n'a été relu par l'auteure
+pour diffusion, et un dossier de dix-neuf notes y ferait du bruit. Une
+régénération par le modèle des notes rendues en conversation : elles sont
+copiées à l'octet depuis le transcript de session, conformément à la règle de
+restauration.
+
+**Caduc.** Rien. Le versement de la session du 10 novembre au coffre reste à
+faire par l'auteure si elle le souhaite ; le dépôt porte tout.
